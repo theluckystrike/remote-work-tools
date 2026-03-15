@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Basecamp vs ClickUp for a 25-Person Remote Creative Agency"
 description: "A technical comparison of Basecamp and ClickUp for managing a 25-person remote creative agency. Features, pricing, API access, and implementation details."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /basecamp-vs-clickup-for-a-25-person-remote-creative-agency/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 Managing a 25-person remote creative agency requires project management tools that can handle complex workflows, creative asset tracking, and team collaboration across multiple time zones. Basecamp and ClickUp are two popular options, but they serve different philosophies and use cases. This comparison breaks down the technical details, pricing, and real-world considerations for creative teams.

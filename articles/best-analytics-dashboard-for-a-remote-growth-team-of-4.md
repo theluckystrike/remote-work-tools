@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Best Analytics Dashboard for a Remote Growth Team of 4"
 description: "Find the best analytics dashboard for a remote growth team of 4. Compare tools with code examples, API integrations, and implementation patterns."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-analytics-dashboard-for-a-remote-growth-team-of-4/
 categories: [guides]
 tags: [analytics, dashboards, remote-work, growth]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Best Analytics Dashboard for a Remote Growth Team of 4
