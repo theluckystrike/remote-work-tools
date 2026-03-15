@@ -2,8 +2,8 @@
 
 
 layout: default
-title: "Geekbot vs Standuply: Async Standup Comparison for Development Teams"
-description: "A technical comparison of Geekbot and Standuply for asynchronous standups. Includes setup examples, API integrations, and implementation patterns for remote development teams."
+title: "Geekbot vs Standuply: Async Standup Comparison for."
+description: "A technical comparison of Geekbot and Standuply for asynchronous standups. Includes setup examples, API integrations, and implementation patterns for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /geekbot-vs-standuply-async-standup-comparison/
@@ -202,5 +202,10 @@ This type of analysis helps engineering leads identify recurring impediments and
 Geekbot and Standuply solve the same core problem—eliminating synchronous standup meetings—but take different paths. Geekbot offers simplicity and API access for teams that want direct control over their standup data. Standuply provides more built-in features for teams that need versatile standup formats and workflow automation.
 
 For most development teams, the choice comes down to how much complexity you want to introduce. Start with the simpler option (Geekbot) and add features only when your workflow demands them.
+
+
+## Related Reading
+
+- More guides coming soon.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

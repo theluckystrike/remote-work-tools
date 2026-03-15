@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Set Up a Linux Workstation for Remote Work"
-description: "A practical guide for developers and power users setting up a Linux workstation for remote work. Learn about essential tools, security configurations, and productivity setups."
+description: "A practical guide for developers and power users setting up a Linux workstation for remote work. Learn about essential tools, security configurations."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-linux-workstation-for-remote-work/
@@ -259,5 +259,12 @@ chmod +x ~/bin/system-maintenance.sh
 ```
 
 Schedule weekly maintenance runs using cron or a systemd timer.
+
+
+## Related Reading
+
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+- [How to Document Architecture Decisions for a Remote Team](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
