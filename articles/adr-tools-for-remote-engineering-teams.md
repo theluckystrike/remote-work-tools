@@ -1,11 +1,11 @@
 ---
 layout: default
 title: "ADR Tools for Remote Engineering Teams"
-description: "Discover practical ADR tools for remote engineering teams. Compare solutions with code examples, API integrations, and implementation patterns for distributed software teams."
+description: "Discover practical ADR tools for remote engineering teams. Compare solutions with code examples, API integrations, and implementation patterns for."
 date: 2026-03-15
 author: theluckystrike
 permalink: /adr-tools-for-remote-engineering-teams/
-categories: [tools]
+categories: [guides]
 tags: [adr, documentation, remote-work]
 reviewed: true
 score: 8
@@ -221,6 +221,13 @@ ADR tools for remote engineering teams don't need to be complex. The goal is cap
 Start by creating ADRs for your next three technical decisions. Over time, you'll build a searchable knowledge base that makes architectural context available to everyone on your distributed team.
 
 ---
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

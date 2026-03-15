@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Manage Multi-Repo Projects with Remote Team"
-description: "Practical strategies for coordinating codebases across distributed teams. Includes Git workflows, tooling patterns, and automation examples for managing multiple repositories effectively."
+description: "Practical strategies for coordinating codebases across distributed teams. Includes Git workflows, tooling patterns, and automation examples for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-multi-repo-projects-with-remote-team/
@@ -226,6 +226,13 @@ Contract tests catch breaking changes before they reach production. Run these te
 Managing multi-repo projects with a remote team requires upfront coordination but pays dividends in reduced friction and fewer integration surprises. Start with clear ownership, automate dependency management, and maintain transparent communication about changes that affect multiple repositories.
 
 The specific tools matter less than consistent processes. Pick the workflow that fits your team's size and distribution, document it, and revisit it periodically as your project evolves.
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
