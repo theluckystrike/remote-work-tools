@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Best Home Office Setup for Software Developers: A Practical Guide"
 description: "Create an optimal home office setup for software development. Covers desk configuration, monitor placement, lighting, ergonomic considerations, and productivity-boosting accessories."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-home-office-setup-for-software-developers/
+reviewed: true
+score: 8
+categories: [setup]
 ---
+
 
 {% raw %}
 
