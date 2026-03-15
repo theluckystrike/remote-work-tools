@@ -1,14 +1,18 @@
 ---
+
 layout: default
 title: "How to Create Remote Work Playbook for Team: A Practical Guide"
 description: "A step-by-step guide for developers and power users on building a remote work playbook that scales. Includes templates, code examples, and implementation strategies."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-playbook-for-team/
 categories: [remote-work, team-management]
 intent-checked: true
 voice-checked: true
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 A remote work playbook transforms scattered Slack messages, tribal knowledge, and ad-hoc processes into a living document your team actually uses. Instead of repeating yourself on every onboarding or rewriting the same explanation about async communication norms, you build a reference that grows with your team. This guide walks through creating one from scratch, with practical templates and code examples you can adapt immediately.
