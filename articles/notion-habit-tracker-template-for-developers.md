@@ -10,6 +10,7 @@ categories: [productivity, guides]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -17,7 +18,7 @@ intent-checked: true
 
 # Notion Habit Tracker Template for Developers: Build Consistent Routines
 
-Build a developer habit tracker in Notion using two connected databases: a Habits database (name, category, frequency, streak) and a Daily Log database (date, habit relation, completed checkbox, notes). Start with three or fewer habits tied to your development goals -- like daily commits, code reviews, or learning time -- and connect them via a Relation property for automatic streak tracking. This guide walks through the full setup with database configurations and automation examples you can implement immediately.
+Build a developer habit tracker in Notion using two connected databases: a Habits database (name, category, frequency, streak) and a Daily Log database (date, habit relation, completed checkbox, notes). Start with three or fewer habits tied to your development goals -- like daily commits, code reviews, or learning time -- and connect them via a Relation property for automatic streak tracking. This guide walks through the full setup with database configurations and automation examples you can use immediately.
 
 ## Why Developers Need Structured Habit Tracking
 
@@ -129,9 +130,9 @@ Create a separate page for weekly reviews using Notion's template functionality.
 
 Notion's native automation features reduce manual entry burden. Set up simple rules:
 
-1. **Daily Reminder**: Configure a Slack or email notification reminding you to log habits
-2. **Weekly Summary**: Automate creation of a weekly review page template each Sunday
-3. **Streak Alerts**: Trigger notifications when streaks reach milestone numbers (7, 30, 100 days)
+1. Daily Reminder: Configure a Slack or email notification reminding you to log habits
+2. Weekly Summary: Automate creation of a weekly review page template each Sunday
+3. Streak Alerts: Trigger notifications when streaks reach milestone numbers (7, 30, 100 days)
 
 For more sophisticated automation, integrate with Make (formerly Integromat) or Zapier to connect GitHub commit data directly to your habit tracker.
 

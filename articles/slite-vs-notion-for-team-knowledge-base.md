@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [comparisons]
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -46,7 +47,7 @@ Slite uses a hierarchical folder system with channels acting as category contain
     └── Sprint Retrospectives/
 ```
 
-Notion uses pages as the primary container, with databases providing relational organization. A page can contain subpages, and databases can relate to other databases. This creates flexibleMany-to-Many relationships impossible in traditional folder systems.
+Notion uses pages as the primary container, with databases providing relational organization. A page can contain subpages, and databases can relate to other databases. This creates flexible many-to-many relationships impossible in traditional folder systems.
 
 ```javascript
 // Notion database structure example

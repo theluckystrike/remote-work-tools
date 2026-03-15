@@ -11,6 +11,7 @@ reviewed: true
 score: 8
 categories: [comparisons]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -97,10 +98,10 @@ This granularity suits developers maintaining interconnected documentation: chan
 
 Obsidian's plugin marketplace offers over 1,500 community plugins. Essential plugins for developers include:
 
-- **Dataview**: Query notes with JavaScript-like syntax for metadata
-- **Templater**: Advanced note templates with variables and scripting
-- **Git**: Version control integration for backup and sync
-- **Rich Markdown**: Preview enhancements for code and tables
+- Dataview: Query notes with JavaScript-like syntax for metadata
+- Templater: Advanced note templates with variables and scripting
+- Git: Version control integration for backup and sync
+- Rich Markdown: Preview enhancements for code and tables
 
 Example Dataview query:
 
@@ -115,7 +116,7 @@ SORT date DESC
 
 ### Logseq Plugins
 
-Logseq's plugin system is newer and growing. Core features remain robust without plugins:
+Logseq's plugin system is newer and growing. Core features work well without plugins:
 
 - Built-in queries and filters
 - Native Git sync

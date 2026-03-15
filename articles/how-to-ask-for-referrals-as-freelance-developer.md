@@ -10,6 +10,7 @@ tags: [freelance, career, business-development]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -100,11 +101,11 @@ const clients = [
 
 Make asking for referrals part of your standard process:
 
-1. **Invoice follow-up**: When sending the final invoice, include a brief note: "If you know anyone who could use similar work, I'd appreciate the introduction."
+1. Invoice follow-up: When sending the final invoice, include a brief note: "If you know anyone who could use similar work, I'd appreciate the introduction."
 
-2. **Post-project retrospective**: Schedule a 15-minute call to review what worked. End by asking: "Who else in your network might benefit from this kind of work?"
+2. Post-project retrospective: Schedule a 15-minute call to review what worked. End by asking: "Who else in your network might benefit from this kind of work?"
 
-3. **Quarterly check-ins**: For ongoing clients, add referrals to your quarterly agenda. A simple "Any colleagues you think I should connect with?" works well.
+3. Quarterly check-ins: For ongoing clients, add referrals to your quarterly agenda. A simple "Any colleagues you think I should connect with?" works well.
 
 ### Make It Easy to Refer You
 
@@ -120,11 +121,11 @@ Referrals require reciprocation and professionalism.
 
 ### Immediate Steps
 
-1. **Thank them immediately**: "Thank you so much for thinking of me—I'll reach out and will keep you updated."
+1. Thank them immediately: "Thank you so much for thinking of me—I'll reach out and will keep you updated."
 
-2. **Don't name-drop the referrer**: Unless explicitly permitted, don't reveal who referred you. Let the referrer control that information.
+2. Don't name-drop the referrer: Unless explicitly permitted, don't reveal who referred you. Let the referrer control that information.
 
-3. **Update your referrer**: When you connect with the referred prospect, send a quick note: "Connected with them—thanks again for the trust."
+3. Update your referrer: When you connect with the referred prospect, send a quick note: "Connected with them—thanks again for the trust."
 
 ### Reciprocate
 
@@ -163,10 +164,7 @@ If referrals aren't meeting these benchmarks, examine your timing, phrasing, and
 
 The best referral sources become ongoing partners. Treat them as such:
 
-- Send personalized check-ins, not just automated newsletters
-- Share relevant articles or resources without asking for anything
-- Remember personal details (vacations, promotions, life events)
-- Provide value first, ask second
+Send personalized check-ins rather than automated newsletters. Share relevant articles or resources without asking for anything in return. Remember personal details like vacations, promotions, and life events. Always provide value first and ask second.
 
 Developers who build genuine relationships with clients rarely need to "ask" for referrals—clients volunteer them because they want to help someone they respect.
 
