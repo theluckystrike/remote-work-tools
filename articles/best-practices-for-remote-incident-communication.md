@@ -4,8 +4,11 @@ layout: default
 title: "Best Practices for Remote Incident Communication"
 description: "Learn practical strategies for communicating during incidents when working remotely. Includes status page templates, Slack workflows, escalation matrices, and code examples for developers."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-practices-for-remote-incident-communication/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
 
 {% raw %}

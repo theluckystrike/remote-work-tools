@@ -3,8 +3,11 @@ layout: default
 title: "Remote Ideation Session Facilitation Guide"
 description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn facilitation techniques, tools, and code examples."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-ideation-session-facilitation-guide/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
