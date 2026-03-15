@@ -13,6 +13,7 @@ reviewed: true
 score: 8
 categories: [best-of]
 intent-checked: true
+voice-checked: true
 ---
 {% raw %}
 
@@ -71,7 +72,7 @@ The primary limitation: Linear lacks native test case management. If your team m
 
 ## Jira: The Enterprise Standard
 
-Jira remains the most feature-complete option for large organizations with complex workflows. Its flexibility comes with a learning curve, but remote teams benefit from its robust permission schemes and sophisticated search language (JQL).
+Jira remains the most feature-complete option for large organizations with complex workflows. Its flexibility comes with a learning curve, but remote teams benefit from its fine-grained permission schemes and sophisticated search language (JQL).
 
 For QA teams, Jira's functionality spans test planning, execution tracking, and defect management. The Test Management for Jira (TM4J) add-on brings native test case capabilities:
 
