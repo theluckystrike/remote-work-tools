@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Google Meet Tips and Tricks for Productivity in 2026"
 description: "Master Google Meet with advanced tips for developers and power users. Learn keyboard shortcuts, API integrations, automation scripts, and hidden features."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /google-meet-tips-and-tricks-for-productivity/
+reviewed: true
+score: 8
+categories: [productivity]
 ---
+
 
 {% raw %}
 # Google Meet Tips and Tricks for Productivity in 2026

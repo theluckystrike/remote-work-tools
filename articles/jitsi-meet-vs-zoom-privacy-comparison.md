@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Jitsi Meet vs Zoom: Privacy Comparison for Developers"
 description: "A technical privacy comparison between Jitsi Meet and Zoom for developers and power users. Explore encryption, data handling, self-hosting options, and implementation details."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /jitsi-meet-vs-zoom-privacy-comparison/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 # Jitsi Meet vs Zoom: Privacy Comparison for Developers

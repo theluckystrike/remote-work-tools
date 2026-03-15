@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Remote Team Communication Strategy Guide"
 description: "A practical guide to building effective remote team communication strategies for developers and technical teams."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-communication-strategy-guide/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # Remote Team Communication Strategy Guide
