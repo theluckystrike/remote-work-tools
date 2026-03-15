@@ -11,6 +11,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -26,12 +27,7 @@ The solution isn't more meetings. It's building systems that capture context at 
 
 ## Pattern 1: Structured Handoff Documents
 
-Create a standard handoff format your team uses consistently. A good handoff document answers these questions:
-
-- **What was completed?** Include specific ticket numbers, PR links, and test results.
-- **What remains undone?** List blocking issues and dependencies.
-- **What should the next person know?** Document decisions made, alternatives rejected, and areas requiring judgment calls.
-- **How can progress be verified?** Provide steps to validate the current state.
+Create a standard handoff format your team uses consistently. A good handoff document answers four questions: what was completed (specific ticket numbers, PR links, test results), what remains undone (blocking issues and dependencies), what the next person should know (decisions made, alternatives rejected, areas requiring judgment calls), and how progress can be verified (steps to validate the current state).
 
 Here's a template teams use effectively:
 
@@ -137,11 +133,11 @@ This catches handoffs that fall through the cracks during weekends or holidays.
 
 Your team needs explicit agreements about async communication:
 
-**Response time expectations:** Define maximum response windows for different channels. Slack messages might get answers within 4 hours during work hours. Email or detailed technical questions might allow 24 hours.
+Response time expectations: Define maximum response windows for different channels. Slack messages might get answers within 4 hours during work hours. Email or detailed technical questions might allow 24 hours.
 
-**Status indicators:** Use status indicators to communicate availability. When you're in deep work mode, update your profile. When you're about to sign off, post your current tasks in a common channel.
+Status indicators: Use status indicators to communicate availability. When you're in deep work mode, update your profile. When you're about to sign off, post your current tasks in a common channel.
 
-**Decision logging:** Every significant decision should be written down somewhere searchable. If a decision happens in a call, the owner of that call writes a summary. This creates institutional memory that survives any individual team member's timezone.
+Decision logging: Every significant decision should be written down somewhere searchable. If a decision happens in a call, the owner of that call writes a summary. This creates institutional memory that survives any individual team member's timezone.
 
 ## Pattern 5: Hand over at Natural Boundaries
 
@@ -172,7 +168,7 @@ If you must hand off mid-task, provide your current state explicitly:
 
 ## Building Your Own System
 
-Every team adapts these patterns differently. Start with structured documents and time zone awareness. Add automation incrementally based on where your team actually loses context. Track handoff failures—moments when information was lost—and close those gaps.
+Start with structured documents and time zone awareness. Add automation incrementally based on where your team actually loses context. Track handoff failures—moments when information was lost—and close those gaps.
 
 The goal isn't perfect handoffs. It's reducing context loss enough that your team moves faster than the accumulated friction of distributed work.
 
