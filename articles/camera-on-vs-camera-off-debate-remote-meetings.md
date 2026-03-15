@@ -10,11 +10,12 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 # Camera On vs Camera Off Debate in Remote Meetings: A Practical Guide
 
-The camera on vs camera off debate in remote meetings has become a defining tension for distributed teams. For developers and power users, this isn't just about etiquette—it's about bandwidth, cognitive load, and productivity. This guide breaks down the practical considerations, provides code-level solutions for managing camera settings, and helps you establish policies that work for technical teams.
+Choose camera on if you are in a small meeting (under 5 people), giving or receiving feedback, or meeting a client where visual presence matters. Choose camera off if you are in a large all-hands, primarily listening, or dealing with bandwidth constraints and home interruptions. This guide covers the practical tradeoffs, provides code-level solutions for managing camera settings, and includes a ready-to-adopt team policy template.
 
 ## The Core Tradeoffs
 

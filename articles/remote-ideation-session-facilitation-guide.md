@@ -8,12 +8,13 @@ permalink: /remote-ideation-session-facilitation-guide/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
 # Remote Ideation Session Facilitation Guide
 
-Remote ideation sessions have become essential for distributed engineering teams. Unlike in-person brainstorms where body language and spontaneous interaction drive creativity, remote sessions require deliberate structure and facilitation. This guide provides actionable techniques for running productive ideation sessions with your remote team.
+Start every remote ideation session with a "silent start" -- send the problem prompt 24-48 hours in advance and have participants contribute ideas asynchronously before any live discussion. This eliminates the loudest-voice-wins problem and produces higher-quality input from the entire team. This guide covers the full facilitation toolkit, including round-robin generation, the 6-3-5 method, SCAMPER frameworks, and post-session follow-through workflows.
 
 ## Setting Up Your Ideation Environment
 
