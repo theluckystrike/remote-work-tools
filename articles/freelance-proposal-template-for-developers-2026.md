@@ -165,5 +165,10 @@ A strong freelance proposal template serves as your foundation, but each proposa
 
 As the freelance market continues to grow in 2026, differentiation through professionalism and clear value communication becomes increasingly important. Invest time in crafting proposals that represent your best work, and the quality of your clients will reflect that investment.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

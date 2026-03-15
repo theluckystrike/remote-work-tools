@@ -195,5 +195,10 @@ Start with one project and apply these methods. Track your estimates against act
 
 Remember: good scoping protects your income and your client relationships. The time invested upfront saves hours of conflict later.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
