@@ -5,7 +5,7 @@ description: "A practical guide to building a habit tracker in Notion designed s
 date: 2026-03-15
 author: theluckystrike
 permalink: /notion-habit-tracker-template-for-developers/
-categories: [productivity, notion, tools]
+categories: [productivity, guides, guides]
 ---
 
 {% raw %}
