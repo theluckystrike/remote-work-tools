@@ -11,7 +11,7 @@ tags: [productivity, clipboard-manager, developer-tools]
 reviewed: true
 score: 8
 intent-checked: false
-voice-checked: false
+voice-checked: true
 ---
 
 
