@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Prevent Burnout as a Remote Developer: A Practical Guide"
+title: "How to Prevent Burnout as a Remote Developer: A."
 description: "Learn actionable strategies to prevent burnout as a remote developer. Includes code snippets, workflow automation tips, and mental health frameworks."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -227,5 +227,12 @@ Invest time in automation. The initial effort pays dividends in reduced daily st
 Preventing burnout as a remote developer requires intentional systems, not just motivation. Build rituals that create boundaries, track patterns that reveal overwork, and automate tasks that drain energy. The goal isn't working less—it's working sustainably over a long career.
 
 Start with one change this week. Add the break reminder script, or establish a shutdown ritual. Small improvements compound into lasting habits that protect your mental health and your coding career.
+
+
+## Related Reading
+
+- [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+- [Geekbot vs Standuply: Async Standup Comparison for.](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

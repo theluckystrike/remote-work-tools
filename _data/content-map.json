@@ -1,22 +1,19 @@
 {
-  "total": 25,
+  "total": 41,
   "clusters": {
     "best-of": {
-      "count": 8
+      "count": 12
     },
     "productivity": {
-      "count": 1
-    },
-    "comparisons": {
-      "count": 8
-    },
-    "guides": {
-      "count": 5
-    },
-    "alternatives": {
       "count": 2
     },
-    "workflow": {
+    "comparisons": {
+      "count": 12
+    },
+    "guides": {
+      "count": 14
+    },
+    "workflows": {
       "count": 1
     }
   }
