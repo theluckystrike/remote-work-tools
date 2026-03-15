@@ -5,7 +5,7 @@ description: "A practical guide to implementing effective GitHub pull request wo
 date: 2026-03-15
 author: theluckystrike
 permalink: /github-pull-request-workflow-for-distributed-teams/
-categories: [workflow]
+categories: [workflows]
 reviewed: true
 score: 8
 ---
