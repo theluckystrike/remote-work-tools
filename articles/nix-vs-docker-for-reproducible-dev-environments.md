@@ -10,6 +10,7 @@ tags: [nix, docker, devops, development-tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -68,7 +69,7 @@ services:
       POSTGRES_PASSWORD: devpassword
 ```
 
-This single file defines your entire stack, making it trivial to share complex development setups.
+This single file defines your entire stack, making it straightforward to share complex development setups.
 
 ## How Nix Handles Reproducibility
 
