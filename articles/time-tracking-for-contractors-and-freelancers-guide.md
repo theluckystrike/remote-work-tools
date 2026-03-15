@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Time Tracking for Contractors and Freelancers Guide"
 description: "A practical guide to time tracking for contractors and freelancers. Learn setup methods, automation techniques, and tools for accurate billing."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /time-tracking-for-contractors-and-freelancers-guide/
 categories: [guides]
 tags: [time-tracking, freelancers, contractors, productivity]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Time Tracking for Contractors and Freelancers Guide

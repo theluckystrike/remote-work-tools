@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "NDA Template for Freelance Software Developers"
 description: "A practical NDA template and guide for freelance software developers. Includes customizable clauses, code examples, and tips for protecting your intellectual property."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /nda-template-for-freelance-software-developers/
 categories: [guides]
 tags: [tools]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # NDA Template for Freelance Software Developers
