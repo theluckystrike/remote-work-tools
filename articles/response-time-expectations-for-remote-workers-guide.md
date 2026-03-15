@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Response Time Expectations for Remote Workers: A Practical Guide"
 description: "Learn how to set realistic response time expectations for remote work. Includes code snippets for notification scheduling, status indicators, and async communication patterns for developers."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /response-time-expectations-for-remote-workers-guide/
 categories: [guides]
 tags: [remote-work, communication, productivity, async-work]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Response Time Expectations for Remote Workers: A Practical Guide
