@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Reclaim AI vs Clockwise: Calendar Optimization Tools Compared"
 description: "A technical comparison of Reclaim AI and Clockwise calendar optimization tools for developers and power users."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /reclaim-ai-vs-clockwise-calendar-optimization/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 # Reclaim AI vs Clockwise: Calendar Optimization Tools Compared
@@ -140,7 +145,7 @@ For developers integrating either tool, consider these patterns:
 1. **Start with defensive scheduling**: Block focus time first, then let tools optimize around it
 2. **Use buffer time strategically**: Both tools handle buffers differently—test various configurations
 3. **Monitor false positives**: Review automatically scheduled events weekly to refine rules
-4. **Leverage Slack integration**: Set up notifications for schedule changes to stay aware of shifts
+4. **use Slack integration**: Set up notifications for schedule changes to stay aware of shifts
 
 ```javascript
 // Example: Check scheduled events via API

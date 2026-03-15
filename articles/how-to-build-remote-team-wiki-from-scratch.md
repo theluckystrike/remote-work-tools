@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Build a Remote Team Wiki from Scratch"
 description: "A practical guide for developers and power users to build a collaborative team wiki from scratch. Includes architecture, tools, code examples, and implementation strategies."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-wiki-from-scratch/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 A shared knowledge base is the backbone of any productive remote team. When your documentation lives in scattered Slack messages, Google Docs, and random Markdown files, you lose hours searching for information that should take seconds to find. Building a wiki from scratch gives you full control over structure, searchability, and integration with your existing workflow.
