@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Best Blue Light Glasses for Programmers: A Practical Guide"
 description: "Discover how blue light glasses can protect your eyes during long coding sessions. Learn what features matter most for developers and power users."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-blue-light-glasses-for-programmers/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
+
 
 {% raw %}
 
