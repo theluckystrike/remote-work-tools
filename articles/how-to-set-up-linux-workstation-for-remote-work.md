@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Set Up a Linux Workstation for Remote Work"
 description: "A practical guide for developers and power users setting up a Linux workstation for remote work. Learn about essential tools, security configurations, and productivity setups."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-linux-workstation-for-remote-work/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 Setting up a Linux workstation for remote work requires careful planning. This guide covers the essential steps to get your development environment ready for productive remote work, from initial OS installation to security hardening and collaboration tool setup.
 

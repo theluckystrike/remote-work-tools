@@ -1,12 +1,18 @@
 ---
 
+
 layout: default
 title: "How to Automate Dev Environment Setup: A Practical Guide"
 description: "A hands-on guide to automating your development environment setup. Learn to use configuration management tools, shell scripts, and containerization to create reproducible development environments in minutes."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-automate-dev-environment-setup/
+reviewed: true
+score: 8
+categories: [setup]
 ---
+{% raw %}
+
 
 # How to Automate Dev Environment Setup: A Practical Guide
 
@@ -257,3 +263,4 @@ Documentation matters as much as the scripts themselves. Include README files ex
 Automating your development environment is an investment that pays dividends immediately when you set up your next machine and compounds over time as your configuration matures. Start with simple shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

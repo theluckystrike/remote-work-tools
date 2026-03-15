@@ -1,13 +1,17 @@
 ---
 
+
 layout: default
 title: "Geekbot vs Standuply: Async Standup Comparison for Development Teams"
 description: "A technical comparison of Geekbot and Standuply for asynchronous standups. Includes setup examples, API integrations, and implementation patterns for remote development teams."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /geekbot-vs-standuply-async-standup-comparison/
 categories: [comparison]
+reviewed: true
+score: 8
 ---
+
 
 # Geekbot vs Standuply: Async Standup Comparison for Development Teams
 

@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Obsidian vs Logseq for Developer Notes: A Practical Comparison"
 description: "A practical guide comparing Obsidian and Logseq for managing developer notes, with code examples and real-world use cases."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /obsidian-vs-logseq-for-developer-notes/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 If you're a developer looking to organize your technical knowledge, you've likely encountered both Obsidian and Logseq. These two note-taking applications have developed passionate followings in the developer community, but they approach knowledge management in fundamentally different ways. This comparison will help you choose the right tool for your workflow.
@@ -31,7 +36,7 @@ Obsidian has a mature plugin marketplace with thousands of community plugins. Ke
 - **Dataview**: Query your notes with JavaScript-like syntax
 - **Templater**: Advanced template creation with variable support
 - **Git plugin**: Version control built directly into the app
-- **Live Preview**: Edit and preview code blocks seamlessly
+- **Live Preview**: Edit and preview code blocks smoothly
 
 A typical Obsidian code snippet using Dataview might look like:
 
