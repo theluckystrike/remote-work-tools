@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Virtual Meeting Etiquette Best Practices: A Developer Guide"
 description: "Practical virtual meeting etiquette best practices for developers and power users. Includes technical tips, automation examples, and platform-specific guidance."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /virtual-meeting-etiquette-best-practices/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
+
 
 # Virtual Meeting Etiquette Best Practices: A Developer Guide
 
@@ -194,7 +199,7 @@ Google Meet integrates tightly with Google Workspace. For developers:
 Teams excels at meetings within the Microsoft ecosystem:
 
 - Use the "Share tray" for specific window sharing (not full screen)
-- Leverage the whiteboard feature for architectural discussions
+- use the whiteboard feature for architectural discussions
 - Use Together mode for better meeting engagement
 
 ### Jitsi and Self-Hosted Options
