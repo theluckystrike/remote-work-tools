@@ -3,10 +3,12 @@ layout: default
 title: "How to Support Neurodivergent Remote Workers"
 description: "A practical guide for developers and power users on supporting neurodivergent remote workers. Learn accommodation strategies, communication tools, and implementation patterns."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-support-neurodivergent-remote-workers/
 categories: [guides]
 tags: [remote-work, neurodiversity, inclusion, productivity]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
