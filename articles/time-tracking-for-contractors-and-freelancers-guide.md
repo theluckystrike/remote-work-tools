@@ -11,7 +11,7 @@ tags: [time-tracking, freelancers, contractors, productivity]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 

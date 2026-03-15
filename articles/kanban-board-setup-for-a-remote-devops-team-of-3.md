@@ -11,7 +11,7 @@ tags: [kanban, devops, remote-work, workflow]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 
@@ -22,13 +22,7 @@ Set up five columns (Backlog, Ready, In Progress, Review, Done) with a WIP limit
 
 ## Core Kanban Principles for Small DevOps Teams
 
-Before diving into board setup, understand the fundamentals that matter most for a three-person remote DevOps team:
-
-- **Visualize work**: Every task, from infrastructure changes to incident responses, should be visible on the board
-- **Limit work in progress (WIP)**: Prevent context switching by capping items per column
-- **Manage flow**: Track how work moves through your system and identify bottlenecks
-- **Make policies explicit**: Define clear criteria for when items move between columns
-- **Improve collaboratively**: Use board metrics to discuss process improvements
+Three principles matter most for a three-person remote DevOps team. Every task—from infrastructure changes to incident responses—should be visible on the board. Cap items per column to prevent context switching and track how work moves through the system to find bottlenecks. Define explicit criteria for column transitions and use board metrics to drive process improvement discussions.
 
 For a remote team of three, these principles translate into a board that provides visibility without requiring constant updates or meetings.
 
@@ -148,9 +142,7 @@ board = client.boards.create({
 
 DevOps teams deal with production issues that can't wait for standard workflow. Create a parallel swimlane or separate board for incident work:
 
-- Incidents enter a dedicated "Incident" column immediately
-- When resolved, incidents move to "Post-Mortem" then "Done"
-- Regular work pauses when incident count exceeds threshold (typically 2)
+Incidents enter a dedicated "Incident" column immediately. When resolved, they move to "Post-Mortem" then "Done." Regular work pauses when the active incident count exceeds a threshold—typically 2.
 
 This separation prevents incident work from drowning out planned improvements.
 

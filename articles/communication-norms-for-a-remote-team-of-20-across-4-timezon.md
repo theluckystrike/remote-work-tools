@@ -10,6 +10,7 @@ tags: [tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 Communication norms for a 20-person remote team across four time zones should define channel-specific response times, establish 1-2 hour daily "golden hours" for synchronous overlap, and require standalone context in every async message. These three structural decisions eliminate most friction in distributed teams. This guide provides the specific norms, code examples, and templates to implement them.
@@ -123,10 +124,7 @@ Need real-time collaboration for the dashboard feature. Users should see updates
 
 For a team of 20 across four zones, response time norms prevent frustration and ensure work doesn't stall.
 
-- **Urgent (production outage):** Phone call or direct message with @here — immediate response during work hours
-- **High priority (blocking issue):** Channel message — respond within 2 hours during your work hours
-- **Normal:** Thread or issue comment — respond within 24 hours
-- **Low priority (FYI, feedback welcome):** No response required; acknowledge when convenient
+Production outages require a phone call or direct message with @here and an immediate response during work hours. Blocking issues should be posted to the relevant channel with a response expected within 2 hours of your work day. Normal requests in threads or issue comments warrant a reply within 24 hours. Low-priority FYI messages require no response; acknowledge when convenient.
 
 Use emoji reactions to acknowledge messages. A 👀 means "seen, will review," while ✅ means "done" or "agreed."
 
@@ -165,9 +163,7 @@ When new team members join, they need to understand communication expectations f
 
 ## Summary
 
-Building effective communication norms for a remote team of 20 across four time zones comes down to three principles: **structure, documentation, and empathy**. Structure your channels so messages go to the right place. Document decisions so context isn't lost to time zone gaps. And show empathy for colleagues working in what might be your middle of the night.
-
-Start with these norms, measure what works, and iterate. The goal isn't perfection—it's reducing friction so your team can ship code regardless of geography.
+These norms work because they make expectations explicit rather than assumed. When everyone knows which channel to use, how long to wait before escalating, and where decisions are recorded, time zone gaps become a minor coordination cost rather than a source of friction. Apply these patterns, measure cycle time on your async threads, and adjust response windows to match how your team actually works.
 
 
 ## Related Reading
