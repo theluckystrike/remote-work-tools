@@ -9,14 +9,13 @@ categories: [guides]
 tags: [freelance, career, business-development]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # How to Ask for Referrals as a Freelance Developer
 
-Referrals remain the most reliable source of high-quality clients for freelance developers. When someone recommends you, they transfer their trust to you. A referred client converts faster, accepts higher rates, and tends to stay longer. Yet many freelancers struggle to ask for referrals at the right time or in the right way.
-
-This guide covers practical strategies for asking referrals without feeling awkward, timing your requests to maximize success, and creating systems that generate referrals consistently.
+Ask for referrals immediately after a client expresses satisfaction with your work -- right after successful delivery, during a positive review moment, or at project closure. Use a direct but low-pressure phrasing like "If you know anyone who might need similar help, I'd appreciate an introduction." Then build a repeatable system by adding referral requests to your invoice follow-ups, project retrospectives, and quarterly check-ins.
 
 ## Why Referrals Work Better Than Cold Outreach
 

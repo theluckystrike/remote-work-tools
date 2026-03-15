@@ -9,14 +9,13 @@ categories: [guides]
 tags: [freelance, business-development, client-acquisition]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # Cold Outreach Templates for Freelance Developers
 
-Cold outreach remains one of the most effective ways for freelance developers to build a consistent client pipeline. Unlike job boards where you compete with hundreds of applicants, targeted outreach puts you directly in front of potential clients who need your specific skills. The key lies in writing messages that provide value upfront, demonstrate expertise, and make it easy for prospects to respond.
-
-This guide provides battle-tested templates you can adapt immediately, along with the strategy behind why each element works.
+Cold outreach templates for freelance developers include mutual connection introductions, problem-specific emails, portfolio-based pitches, LinkedIn messages, and follow-up sequences. Each template follows a four-part framework: personalization, credibility, a clear value proposition, and a low-friction call to action. Below are ready-to-use scripts you can customize for your niche and start sending today.
 
 ## The Anatomy of a High-Converting Cold Outreach Message
 

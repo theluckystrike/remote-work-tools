@@ -13,12 +13,13 @@ categories:
   - Spain
 reviewed: true
 score: 8
+intent-checked: true
 ---
 categories: [guides]
 
 
 
-Spain introduced its digital nomad visa in 2023, becoming one of the most attractive European destinations for remote workers. This visa allows non-EU citizens to live and work remotely while legally residing in Spain. Here's everything you need to know about the Spain digital nomad visa requirements for 2026.
+Spain's digital nomad visa in 2026 requires non-EU applicants to prove remote employment or freelance work for clients outside Spain, earn at least EUR 2,334 per month, hold private health insurance with full coverage, and provide a clean criminal record. The visa grants an initial one-year stay, renewable up to five years total, with access to the Beckham Law flat 24% tax rate for the first six years of residence.
 
 ## Eligibility Requirements
 

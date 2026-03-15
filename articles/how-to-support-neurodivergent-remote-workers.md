@@ -10,14 +10,13 @@ tags: [remote-work, neurodiversity, inclusion, productivity]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 # How to Support Neurodivergent Remote Workers
 
-Building inclusive remote teams requires intentional design choices that go beyond basic accessibility compliance. Neurodivergent workers—including those with ADHD, autism, dyslexia, and other neurological variations—often possess exceptional technical abilities but face structural barriers in traditional work environments. Remote work, when designed thoughtfully, can eliminate many of these barriers while creating conditions for exceptional output.
-
-This guide provides practical strategies for supporting neurodivergent team members, with implementation examples suitable for developer-focused organizations.
+Support neurodivergent remote workers by implementing async-first communication with clear response windows, structuring tasks into small steps with explicit completion criteria, providing home office equipment stipends, designing accessible meetings with agendas and recordings, and using outcome-based performance evaluation. These accommodations reduce barriers for workers with ADHD, autism, dyslexia, and other neurological variations while improving productivity for the entire team.
 
 ## Understanding Neurodivergent Work Patterns
 

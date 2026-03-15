@@ -10,7 +10,7 @@ categories: [guides]
 tags: [remote-work, communication, productivity, async-work]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -18,7 +18,7 @@ voice-checked: false
 {% raw %}
 # Response Time Expectations for Remote Workers: A Practical Guide
 
-Setting clear response time expectations is one of the most important skills for remote workers. Without the physical cues of an office environment, your availability and responsiveness become the primary signals that colleagues use to understand your working patterns. This guide provides practical strategies for managing response times effectively.
+Reasonable response time expectations for remote workers are: Slack/Teams DMs within 1-4 hours during work hours, email within 24 hours, code reviews within 8-24 hours, and phone calls reserved for true emergencies only. Set these expectations by documenting your core hours, configuring status indicators, and automating availability signals so teammates know exactly when to expect a reply.
 
 ## The Core Principle: Async-First Communication
 
