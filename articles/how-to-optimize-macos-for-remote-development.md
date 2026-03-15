@@ -1,14 +1,18 @@
 ---
+
 layout: default
 title: "How to Optimize macOS for Remote Development"
 description: "Learn how to optimize macOS for remote development with practical tips on terminal configuration, network performance, security settings, and productivity workflows."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-optimize-macos-for-remote-development/
 categories: [guides]
 intent-checked: true
 voice-checked: true
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 
