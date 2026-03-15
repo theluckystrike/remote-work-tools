@@ -6,7 +6,7 @@ description: "A step-by-step guide for developers and power users on building a 
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-playbook-for-team/
-categories: [remote-work, team-management]
+categories: [workflows, guides]
 intent-checked: true
 voice-checked: true
 reviewed: true

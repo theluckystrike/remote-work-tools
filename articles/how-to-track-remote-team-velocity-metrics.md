@@ -5,7 +5,7 @@ description: "Learn practical methods to track and improve velocity metrics for 
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-track-remote-team-velocity-metrics/
-categories: [remote-work, productivity, engineering-management]
+categories: [workflows, productivity, guides]
 intent-checked: true
 voice-checked: true
 reviewed: true
