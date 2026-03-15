@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Focus Apps for Remote Workers with ADHD"
-description: "Discover the best focus apps for remote workers with ADHD. Learn about specialized tools, browser extensions, and automation techniques to improve concentration."
+description: "Discover the best focus apps for remote workers with ADHD. Learn about specialized tools, browser extensions, and automation techniques to improve."
 date: 2026-03-15
 author: theluckystrike
 permalink: /focus-apps-for-remote-workers-with-adhd/
@@ -198,6 +198,11 @@ The best focus app configuration is the one you'll actually use. For ADHD minds,
 4. **Friction for distractions** — Make unwanted behaviors slightly harder than desired ones
 
 Start with one tool that addresses your biggest pain point. Master it before adding more. Focus apps work best when they become invisible infrastructure, not another thing to manage.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by the luckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
