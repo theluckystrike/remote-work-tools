@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Linux Workstation for Remote Work"
-description: "A practical guide for developers and power users setting up a Linux workstation for remote work. Includes desktop environment setup, security configuration, and productivity tools."
+description: "A practical guide for developers and power users setting up a Linux workstation for remote work. Includes desktop environment setup, security."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-up-linux-workstation-for-remote-work/
@@ -272,6 +272,13 @@ alias top='bpytop'
 A well-configured Linux workstation for remote work combines security, productivity, and reliability. Start with a stable distribution, configure your desktop environment once, set up proper security from the beginning, and establish maintenance routines early.
 
 The initial setup takes a few hours, but pays dividends in reduced friction and increased confidence in your system. Your future self handling a deadline in a different timezone will thank you for the preparation.
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
