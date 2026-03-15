@@ -11,6 +11,7 @@ reviewed: true
 score: 8
 categories: [best-of]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -198,10 +199,10 @@ const scheduleOnboarding = async (intern) => {
 
 Remote internship programs need metrics that go beyond completion rates. Track leading indicators that predict successful outcomes:
 
-- **PR Merge Time**: Time from first commit to merged PR indicates workflow understanding
-- **Issue Completion Rate**: Percentage of assigned issues completed on time
-- **Code Review Participation**: Frequency of giving feedback to others shows cultural integration
-- **Documentation Contributions**: Updates to wikis or READMEs demonstrate knowledge sharing
+- PR Merge Time: time from first commit to merged PR indicates workflow understanding
+- Issue Completion Rate: percentage of assigned issues completed on time
+- Code Review Participation: frequency of giving feedback to others shows cultural integration
+- Documentation Contributions: updates to wikis or READMEs demonstrate knowledge sharing
 
 Create a simple dashboard that aggregates these metrics:
 
