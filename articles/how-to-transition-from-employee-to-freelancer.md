@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Transition From Employee to Freelancer"
-description: "A practical step-by-step guide for developers and power users on how to transition from employee to freelancer, covering finances, legal setup, and client acquisition."
+description: "A practical step-by-step guide for developers and power users on how to transition from employee to freelancer, covering finances, legal setup, and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-transition-from-employee-to-freelancer/
@@ -147,6 +147,11 @@ Transitioning from employee to freelancer requires planning, savings, and a will
 Start by building financial runway, testing the freelance lifestyle with side projects, and establishing client relationships before leaving employment. This measured approach lets you evaluate whether freelancing fits your goals without risking immediate financial stability.
 
 The technical skills that made you employable transfer directly to freelance work. What you need to add are business fundamentals: client communication, financial management, and self-discipline. These are learnable—and this guide gives you the foundation to start.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

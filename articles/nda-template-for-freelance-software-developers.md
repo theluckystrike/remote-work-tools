@@ -2,7 +2,7 @@
 
 layout: default
 title: "NDA Template for Freelance Software Developers"
-description: "A practical NDA template and guide for freelance software developers. Includes customizable clauses, code examples, and tips for protecting your intellectual property."
+description: "A practical NDA template and guide for freelance software developers. Includes customizable clauses, code examples, and tips for protecting your."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /nda-template-for-freelance-software-developers/
@@ -225,6 +225,11 @@ An NDA is a foundational document in your freelance development practice. Take t
 Remember: the best contracts are those both parties understand and accept. Keep your NDAs clear, specific, and fair to maintain positive client relationships while protecting your interests.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

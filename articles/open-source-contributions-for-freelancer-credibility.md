@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Open Source Contributions for Freelancer Credibility: A Developer Guide"
+title: "Open Source Contributions for Freelancer Credibility: A."
 description: "Learn how strategic open source contributions build freelancer credibility. Practical strategies, GitHub workflows, and code examples for developers."
 date: 2026-03-15
 author: theluckystrike
@@ -146,6 +146,11 @@ If you have never contributed to open source, begin this week. The barriers are 
 Within three months of consistent effort, you will have a body of work that speaks for itself. Within a year, you will have professional relationships with maintainers and potentially speaking opportunities at conferences.
 
 Open source contributions provide something rare in freelance work: verifiable, public evidence of your technical abilities. That credibility translates directly to better clients, higher rates, and more interesting projects.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

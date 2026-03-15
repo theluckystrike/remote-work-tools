@@ -215,5 +215,10 @@ Writing proposals that win is a skill separate from coding. The developers who t
 
 The goal is not to win every proposal. The goal is to win the right ones, at the right price, with clients who respect your work.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
