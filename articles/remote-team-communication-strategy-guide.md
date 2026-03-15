@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -182,9 +183,7 @@ Connect your tools: link pull requests to tasks, automate status updates from CI
 
 ---
 
-Remote team communication requires intentional design. By establishing clear channels, defaulting to async communication, providing rich context, and continuously iterating based on feedback, your team can build communication patterns that scale.
-
-The goal isn't constant connectivity—it's ensuring the right information reaches the right people at the right time, enabling your team to do their best work.
+The goal isn't constant connectivity—it's ensuring the right information reaches the right people at the right time. A tiered channel model, async-first defaults, and a quarterly health check give you the mechanisms to get there and adjust as your team grows.
 
 
 ## Related Reading

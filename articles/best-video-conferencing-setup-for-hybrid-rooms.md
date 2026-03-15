@@ -10,6 +10,7 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
@@ -81,9 +82,7 @@ For rooms with windows, install motorized blinds or positional curtains. When sc
 
 **Three-point lighting** provides professional results:
 
-- Key light: Primary illumination, positioned front-left at 45 degrees
-- Fill light: Softer light from the opposite side to reduce shadows
-- Back light: Subtle rim light behind the subject to separate from background
+Three-point lighting uses a key light (primary illumination, front-left at 45 degrees), a fill light (softer, from the opposite side to reduce shadows), and a back light (subtle rim light to separate the subject from the background).
 
 For developers building lighting control systems, many LED panels support DMX control:
 
@@ -158,11 +157,7 @@ For developers and power users configuring hybrid rooms, follow this implementat
 4. **Configure display placement** for in-room visibility of remote participants
 5. **Test with real meetings** before declaring the setup complete
 
-## Summary
-
-Effective hybrid room video setups balance in-room and remote participant needs through careful component selection and thoughtful placement. PTZ cameras with automated tracking handle dynamic speaker situations. Consistent front-lighting eliminates visibility complaints. Display positioning at eye level keeps in-room participants engaged with remote attendees.
-
-The specific hardware you choose matters less than ensuring each component serves both audiences. A well-configured room with mid-range equipment outperforms an expensive installation with poor lighting or awkward camera angles.
+The specific hardware matters less than ensuring each component serves both audiences. A well-configured room with mid-range equipment outperforms an expensive installation with poor lighting or awkward camera angles.
 
 
 ## Related Reading
