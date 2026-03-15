@@ -11,6 +11,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 {% raw %}
 
@@ -145,7 +146,7 @@ With this configuration, any team member runs `docker-compose up` and gets a com
 
 ## Configuration Management with Ansible
 
-For more complex environments across multiple machines, Ansible provides enterprise-grade automation. Ansible uses declarative YAML files called playbooks to describe desired system states, handling the complexity of idempotent configuration automatically.
+For more complex environments across multiple machines, Ansible provides automation at scale. Ansible uses declarative YAML files called playbooks to describe desired system states, handling the complexity of idempotent configuration automatically.
 
 An Ansible playbook for development machine setup:
 
@@ -261,7 +262,7 @@ Team environments benefit most from automation because they multiply the effort 
 
 Documentation matters as much as the scripts themselves. Include README files explaining how to run setup scripts, what assumptions the automation makes about the base system, and how to troubleshoot common issues. Even the best automation fails when users don't understand how to use it or what went wrong when something breaks.
 
-Automating your development environment is an investment that pays dividends immediately when you set up your next machine and compounds over time as your configuration matures. Start with simple shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
+Start with shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
 
 
 ## Related Reading

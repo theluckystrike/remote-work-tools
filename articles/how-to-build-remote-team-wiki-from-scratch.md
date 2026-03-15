@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -185,14 +186,14 @@ Preview deployments let teammates review documentation changes before they go li
 
 Track wiki health through concrete metrics:
 
-- **Search usage** — How often do teammates search? What queries return no results?
-- **Update frequency** — How many pages changed in the last month?
-- **Time to find** — Can teammates locate information in under 30 seconds?
-- **Contributor count** — How many different people contribute content?
+- Search usage: How often do teammates search? What queries return no results?
+- Update frequency: How many pages changed in the last month?
+- Time to find: Can teammates locate information in under 30 seconds?
+- Contributor count: How many different people contribute content?
 
 These metrics reveal whether your wiki solves problems or creates maintenance busywork. Adjust your approach based on what the data tells you.
 
-A well-built wiki becomes the institutional memory of your team. It survives personnel changes, scales with organization growth, and directly impacts productivity. The investment in building it right pays dividends every day.
+A well-built wiki becomes the institutional memory of your team. It survives personnel changes, scales with organization growth, and directly impacts productivity.
 
 
 ## Related Reading

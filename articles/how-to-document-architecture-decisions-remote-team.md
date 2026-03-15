@@ -10,6 +10,7 @@ tags: [tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -203,13 +204,13 @@ The tool matters less than consistency. Pick one approach and follow it.
 
 Remote architecture documentation fails when it becomes performative rather than practical. Avoid these patterns:
 
-**Decisions without context**: Recording "We use Kubernetes" without explaining why creates no value. Future team members need the reasoning, not just the outcome.
+Recording "We use Kubernetes" without explaining why creates no value. Future team members need the reasoning, not just the outcome. Always include context.
 
-**Abandoned ADRs**: A folder of proposed RFCs that never reach accepted status indicates process failure. Either the process is too heavy or decisions aren't being made. Either way, fix the root cause.
+A folder of proposed RFCs that never reach accepted status indicates process failure. Either the process is too heavy or decisions aren't being made. Either way, fix the root cause before adding more ADRs.
 
-**Outdated decisions**: Architecture evolves. Mark superseded decisions clearly rather than deleting them. The history matters.
+Architecture evolves. Mark superseded decisions clearly rather than deleting them — the history matters.
 
-**Solo decisions**: Architecture decisions made by one person without input rarely survive contact with reality. Async review, even if brief, surfaces blind spots.
+Architecture decisions made by one person without input rarely survive contact with reality. Async review, even if brief, surfaces blind spots.
 
 ## Building the Habit
 
@@ -219,7 +220,7 @@ The best ADR system is one your team actually uses. Start small:
 2. Share it with the team, even informally
 3. Reference it when the question comes up again
 
-Over time, the habit compound. New team members can understand why the system works as it does. Senior engineers can trace the evolution of complex subsystems. The entire team benefits from accumulated wisdom that would otherwise live only in people's heads—or worse, in Slack channels that disappear.
+Over time, the habits compound. New team members can understand why the system works as it does. Senior engineers can trace the evolution of complex subsystems. The entire team benefits from accumulated wisdom that would otherwise live only in people's heads—or worse, in Slack channels that disappear.
 
 Remote work doesn't have to mean architectural amnesia. With structured documentation and async collaboration patterns, distributed teams can make decisions that endure.
 

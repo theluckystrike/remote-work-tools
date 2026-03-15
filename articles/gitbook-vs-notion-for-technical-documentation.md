@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [comparisons]
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -159,7 +160,7 @@ Choose Notion when:
 - You want flexibility to restructure without file management
 - Your team already lives in Notion for other workflows
 
-Many teams use both—GitBook for formal API and release documentation, Notion for internal wikis and collaborative drafting. The integration between platforms continues improving, making hybrid approaches increasingly viable.
+Many teams use both—GitBook for formal API and release documentation, Notion for internal wikis and collaborative drafting.
 
 
 ## Related Reading

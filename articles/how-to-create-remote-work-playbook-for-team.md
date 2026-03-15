@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -204,13 +205,13 @@ Playbooks rot. Review and update every quarter. Remove obsolete sections, add ne
 
 ## Common Pitfalls to Avoid
 
-**Over-documenting** — A 50-page playbook nobody reads is worse than a 5-page one everyone uses. Prioritize sections that change frequently over static reference material.
+A 50-page playbook nobody reads is worse than a 5-page one everyone uses. Prioritize sections that change frequently over static reference material.
 
-**Copy-pasting templates** — Your team has unique needs. Borrow structure, not content. A playbook that doesn't reflect your actual workflows creates false confidence.
+Your team has unique needs. Borrow structure from other playbooks, not content. A playbook that doesn't reflect your actual workflows creates false confidence.
 
-**Treating it as set-it-and-forget-it** — The playbook is a living document. Assign owners to each section. Schedule regular reviews.
+The playbook is a living document, not a one-time project. Assign owners to each section and schedule regular reviews.
 
-**Ignoring onboarding** — New team members should read the playbook in their first week. Include a "getting started" section with the most critical paths.
+New team members should read the playbook in their first week. Include a "getting started" section with the most critical paths.
 
 ## Final Thoughts
 

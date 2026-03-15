@@ -10,6 +10,7 @@ tags: [workspace, productivity, remote-work, focus]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -41,7 +42,7 @@ Sound significantly impacts concentration. Research shows that intermittent nois
 
 ## Digital Boundaries
 
-Digital distractions often prove harder to manage than physical ones. Your computer constantly争夺 your attention through notifications, emails, and the temptation of tabs.
+Digital distractions often prove harder to manage than physical ones. Your computer constantly competes for your attention through notifications, emails, and the temptation of tabs.
 
 ### Notification Automation
 
@@ -165,9 +166,7 @@ Run this in a separate terminal window while working. The visual countdown maint
 
 A distraction-free workspace includes your body. Discomfort pulls focus faster than notifications.
 
-- **Monitor height**: Top of screen at or slightly below eye level
-- **Chair height**: Feet flat on floor, thighs parallel to ground
-- **Keyboard position**: Elbows at 90 degrees, wrists neutral
+Set your monitor so the top of the screen sits at or slightly below eye level. Chair height should put your feet flat on the floor with thighs parallel to the ground. Keep your keyboard positioned so elbows are at 90 degrees and wrists stay neutral.
 
 Invest in a quality chair if you spend significant time coding. Used Herman Miller or Steelcase chairs appear regularly on marketplace platforms at reasonable prices.
 

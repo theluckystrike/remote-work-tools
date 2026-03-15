@@ -10,6 +10,7 @@ tags: [remote-work, productivity, morning-routine, developer-habits]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -25,9 +26,9 @@ In an office, you have natural interruptions—the commute, hallway conversation
 
 Your morning routine serves three critical functions in a remote context:
 
-1. **Cognitive warmup** - Gradually engaging your analytical thinking rather than diving straight into complex problems
-2. **Environment preparation** - Ensuring your workspace and tools are ready before deep work begins  
-3. **Intentional prioritization** - Deciding what matters today instead of reacting to whatever arrives first
+1. Cognitive warmup — gradually engaging your analytical thinking rather than diving straight into complex problems
+2. Environment preparation — ensuring your workspace and tools are ready before deep work begins
+3. Intentional prioritization — deciding what matters today instead of reacting to whatever arrives first
 
 Without these elements, you sacrifice the peak mental hours to low-value tasks that pile up overnight.
 
@@ -151,13 +152,13 @@ A morning routine isn't static. Your energy patterns, work demands, and life cir
 
 ## Common Pitfalls to Avoid
 
-**Starting with email**: Checking inbox first thing immediately puts you in reactive mode. You're solving other people's problems before identifying your own.
+Don't start with email. Checking inbox first thing immediately puts you in reactive mode. You're solving other people's problems before identifying your own.
 
-**Skipping the transition**: Jumping from bed to coding skips the cognitive ramp-up time. Your brain needs 30-60 minutes to reach peak performance.
+Don't skip the transition. Jumping from bed to coding bypasses the cognitive ramp-up time your brain needs—30-60 minutes to reach peak performance.
 
-**Over-optimizing**: A 2-hour morning routine sounds impressive but rarely lasts. Start with 45-60 minutes and expand only when the basics feel automatic.
+Don't over-optimize. A 2-hour morning routine sounds impressive but rarely lasts. Start with 45-60 minutes and expand only when the basics feel automatic.
 
-**Comparing to others**: Some developers thrive on 5 AM starts. Others need 8 AM to function. Your routine must match your chronotype and life constraints.
+Don't compare to others. Some developers thrive on 5 AM starts; others need 8 AM to function. Your routine must match your chronotype and life constraints.
 
 ## Sample 90-Minute Routine
 
