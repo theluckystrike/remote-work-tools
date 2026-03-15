@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Prevent Burnout as a Remote Developer: A Practical Guide"
 description: "Learn actionable strategies to prevent burnout as a remote developer. Includes code snippets, workflow automation tips, and mental health frameworks."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-burnout-as-remote-developer/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 # How to Prevent Burnout as a Remote Developer
 
