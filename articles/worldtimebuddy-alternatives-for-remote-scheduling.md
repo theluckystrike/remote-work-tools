@@ -4,8 +4,11 @@ layout: default
 title: "WorldTimeBuddy Alternatives for Remote Scheduling: A Developer's Guide"
 description: "Discover powerful WorldTimeBuddy alternatives for remote scheduling. Compare API-driven tools, automation options, and developer-focused solutions for coordinating across time zones."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /worldtimebuddy-alternatives-for-remote-scheduling/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
 
 # WorldTimeBuddy Alternatives for Remote Scheduling

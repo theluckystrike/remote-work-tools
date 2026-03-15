@@ -4,8 +4,11 @@ layout: default
 title: "Obsidian vs Notion for Personal Knowledge Management"
 description: "Compare Obsidian and Notion for personal knowledge management from a developer perspective. Includes local-first architecture, markdown workflows, plugin ecosystems, and practical implementation examples."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /obsidian-vs-notion-for-personal-knowledge-management/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
 
 {% raw %}
