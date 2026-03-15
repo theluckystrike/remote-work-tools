@@ -7,7 +7,7 @@ description: "Discover the best time tracking tools for remote freelancers. Comp
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-time-tracking-tools-for-remote-freelancers/
-categories: [tools, guides]
+categories: [guides]
 intent-checked: true
 reviewed: true
 score: 8
