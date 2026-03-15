@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Hourly vs Project-Based Pricing for Freelancers: A Practical Guide"
 description: "Compare hourly vs project-based pricing models for freelancers. Includes calculations, code snippets for tracking time, and real-world examples for developers."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /hourly-vs-project-based-pricing-for-freelancers/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 # Hourly vs Project-Based Pricing for Freelancers: A Practical Guide
 
