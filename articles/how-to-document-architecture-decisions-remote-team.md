@@ -9,12 +9,13 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # How to Document Architecture Decisions for Remote Teams
 
-Remote teams face a unique challenge: making architectural decisions that stick without the benefit of whiteboard sessions or hallway conversations. When your team spans three time zones, every decision needs to live in writing. This guide covers practical methods for capturing architecture decisions that your future self—and your future teammates—will actually thank you for.
+Document architecture decisions in your remote team using Architecture Decision Records (ADRs)--structured Markdown files stored in your codebase under `docs/adr/` that capture the context, decision, and consequences of each significant technical choice. Use a three-phase async workflow: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged. This creates a searchable trail of reasoning that survives personnel changes and eliminates reliance on memory or Slack history.
 
 ## The ADR Standard
 

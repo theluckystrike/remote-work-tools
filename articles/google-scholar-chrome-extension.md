@@ -10,6 +10,7 @@ permalink: /google-scholar-chrome-extension/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
@@ -17,7 +18,7 @@ categories: [guides]
 
 # Google Scholar Chrome Extension Development Guide
 
-Google Scholar remains the primary discovery tool for academic research, yet its interface lacks features that power users and developers frequently need. Building a Chrome extension to enhance Google Scholar opens up possibilities for custom metadata extraction, citation management, and research workflow automation. This guide walks through practical implementation patterns using Manifest V3.
+Build a Google Scholar Chrome extension by creating a Manifest V3 project with a content script that targets `https://scholar.google.com/*`, then use a MutationObserver to extract paper metadata (title, authors, citation count) from the `.gs_r` result containers after dynamic loading completes. This guide provides the complete implementation: manifest configuration, DOM selectors for Scholar's result structure, external API integration with Semantic Scholar, Chrome storage for user preferences, and distribution through the Chrome Web Store.
 
 ## Understanding the Google Scholar Interface
 
