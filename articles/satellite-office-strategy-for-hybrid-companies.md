@@ -2,7 +2,7 @@
 
 layout: default
 title: "Satellite Office Strategy for Hybrid Companies"
-description: "A practical guide to satellite office strategy for hybrid companies. Learn infrastructure setup, team coordination patterns, and implementation approaches for developers and power users."
+description: "A practical guide to satellite office strategy for hybrid companies. Learn infrastructure setup, team coordination patterns, and implementation."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /satellite-office-strategy-for-hybrid-companies/
@@ -233,6 +233,11 @@ Begin with a pilot program:
 A satellite office strategy for hybrid companies requires upfront investment in infrastructure and process design, but the flexibility it provides for hiring, employee satisfaction, and geographic expansion makes it worthwhile for growing organizations.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
