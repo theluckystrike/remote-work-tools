@@ -1,15 +1,20 @@
 ---
 
+
 layout: default
 title: "How to Manage Multiple GitHub Accounts for Remote Work"
 description: "A practical guide to managing multiple GitHub accounts on a single machine. Learn SSH keys, git config overrides, and workflow patterns for developers working with personal and professional repos."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-multiple-github-accounts-remote-work/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
+
 {% raw %}
-Managing multiple GitHub accounts on a single development machine is a common challenge for developers who work across personal projects, client work, and employment. Whether you are a freelancer handling client repositories or a developer contributing to open source alongside your day job, understanding how to switch between accounts seamlessly will save you time and prevent authentication headaches.
+Managing multiple GitHub accounts on a single development machine is a common challenge for developers who work across personal projects, client work, and employment. Whether you are a freelancer handling client repositories or a developer contributing to open source alongside your day job, understanding how to switch between accounts smoothly will save you time and prevent authentication headaches.
 
 This guide covers practical methods to manage multiple GitHub accounts without constant re-authentication or repository errors.
 
