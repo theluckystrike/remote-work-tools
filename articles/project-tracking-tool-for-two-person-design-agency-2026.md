@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Project Tracking Tool for Two Person Design Agency 2026"
-description: "A technical guide to building and implementing project tracking systems tailored for two-person design agencies. Explore API integrations, custom workflows, and developer-centric solutions."
+description: "A technical guide to building and implementing project tracking systems tailored for two-person design agencies. Explore API integrations, custom."
 date: 2026-03-16
 author: theluckystrike
 permalink: /project-tracking-tool-for-two-person-design-agency-2026/
@@ -209,6 +209,11 @@ cron.schedule('0 9 * * *', async () => {
 A project tracking system for a two-person design agency does not require enterprise software. By leveraging APIs from tools like Linear, Notion, or GitHub, you can build a customized solution that matches your actual workflow. The key is keeping it simple enough to maintain without overhead while capturing the information needed to deliver client work consistently.
 
 The best system is one that your team actually uses. Start with basic task tracking, add time tracking when you need billing accuracy, and layer in automation as you identify repetitive patterns in your work.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
