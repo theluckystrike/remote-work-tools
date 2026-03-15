@@ -9,6 +9,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-journaling-apps-for-remote-worker-reflection/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 intent-checked: true
 ---

@@ -9,6 +9,7 @@ categories: [guides]
 tags: [productivity, focus, music, developer-tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
@@ -135,7 +136,7 @@ Consider how each platform fits into your development workflow:
 **Brain.fm works well when:**
 - You need consistent, predictable audio during coding sessions
 - You prefer music with structure over ambient soundscapes
-- You want to leverage research-backed audio generation
+- You want research-backed audio generation
 - You're comfortable with the browser-based or desktop app interface
 
 **Endel excels when:**
