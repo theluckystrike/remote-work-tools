@@ -220,5 +220,10 @@ Freelance developers have numerous legitimate deductions available. The key is m
 
 Consult with a tax professional familiar with freelance and self-employment tax rules to ensure you're maximizing your deductions while staying compliant. Every dollar in legitimate deductions reduces your taxable income and keeps more money in your pocket.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
