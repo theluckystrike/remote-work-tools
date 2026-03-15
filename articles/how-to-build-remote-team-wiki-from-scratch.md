@@ -232,4 +232,11 @@ Building a remote team wiki from scratch puts you in control of your documentati
 
 Your team's collective knowledge deserves better than scattered Slack messages and abandoned Google Docs. A well-maintained wiki makes that knowledge discoverable, versionable, and resilient.
 
+
+## Related Reading
+
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+- [How to Manage Sprints with a Remote Team: A Practical Guide](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

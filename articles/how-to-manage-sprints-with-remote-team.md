@@ -3,7 +3,7 @@
 
 layout: default
 title: "How to Manage Sprints with a Remote Team: A Practical Guide"
-description: "A practical guide for developers and power users managing sprints with distributed teams. Covers async standups, digital ceremonies, and sprint planning tools."
+description: "A practical guide for developers and power users managing sprints with distributed teams. Covers async standups, digital ceremonies, and sprint."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-sprints-with-remote-team/
@@ -158,5 +158,12 @@ Review these metrics in your retrospectives and adjust your process accordingly.
 Managing sprints with remote teams requires intentionality around communication, documentation, and tooling. The core principles remain the same as co-located teams—deliver value incrementally, reflect regularly, and adapt your process—but the implementation differs.
 
 Start with async-first standups, invest in good tooling, and measure what matters. Your team will find the rhythm that works best for their specific composition and time zone distribution.
+
+
+## Related Reading
+
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
