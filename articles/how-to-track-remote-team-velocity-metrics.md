@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Track Remote Team Velocity Metrics"
-description: "Learn practical methods for tracking remote team velocity metrics. Discover code examples, calculation approaches, and tools for measuring developer productivity in distributed teams."
+description: "Learn practical methods for tracking remote team velocity metrics. Discover code examples, calculation approaches, and tools for measuring developer."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-track-remote-team-velocity-metrics/
@@ -224,6 +224,13 @@ You don't need expensive tools to track velocity effectively. A spreadsheet with
 Effective velocity tracking for remote teams centers on measuring completed work rather than activity. Sprint velocity, cycle time, and throughput provide complementary views of team performance without introducing surveillance overhead. Start with simple data collection from your existing tools, build basic aggregations, and iterate as your team's measurement needs evolve.
 
 The goal isn't to maximize velocity numbers—it's to understand your team's actual capacity and identify when something slows work down. With clear velocity data, remote teams can make informed decisions about process improvements and capacity planning.
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
