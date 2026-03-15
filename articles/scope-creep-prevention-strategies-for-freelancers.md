@@ -6,7 +6,7 @@ description: "Practical scope creep prevention strategies for freelancers. Learn
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /scope-creep-prevention-strategies-for-freelancers/
-categories: [freelance, productivity]
+categories: [workflows, productivity]
 tags: [scope-creep, freelance-tips, project-management]
 reviewed: true
 score: 8
