@@ -3,11 +3,13 @@ layout: default
 title: "How to Track Remote Team Velocity Metrics: A Developer Guide"
 description: "Learn practical methods to track and improve velocity metrics for remote software teams. Includes code examples, tool recommendations, and actionable formulas."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-track-remote-team-velocity-metrics/
 categories: [remote-work, productivity, engineering-management]
 intent-checked: true
 voice-checked: true
+reviewed: true
+score: 8
 ---
 
 {% raw %}
