@@ -10,12 +10,13 @@ reviewed: true
 score: 8
 categories: [guides]
 voice-checked: true
+intent-checked: true
 ---
 
 
 {% raw %}
 
-As a developer, you likely spend 8+ hours daily staring at screens. Whether you're debugging production issues at midnight or shipping features during a weekend sprint, your eyes endure significant strain. Blue light glasses have become an essential tool in the modern developer's toolkit. This guide breaks down what you actually need to know when selecting the right pair.
+For programmers, the best blue light glasses block 90-99% of light in the 400-420nm range, use clear lenses to preserve color accuracy in your IDE, and weigh under 30g for all-day comfort during long coding sessions. Skip the marketing hype and prioritize those three specs when choosing a pair. This guide breaks down why those features matter and how to evaluate your options.
 
 ## Understanding Blue Light and Eye Strain
 
