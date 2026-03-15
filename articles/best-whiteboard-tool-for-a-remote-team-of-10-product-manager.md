@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Best Whiteboard Tool for a Remote Team of 10 Product Managers"
 description: "Find the ideal digital whiteboard solution for a distributed product team. Compare real-time collaboration features, API integrations, and pricing for 10-person remote product management teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-whiteboard-tool-for-a-remote-team-of-10-product-manager/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
+
 
 {% raw %}
 # Best Whiteboard Tool for a Remote Team of 10 Product Managers

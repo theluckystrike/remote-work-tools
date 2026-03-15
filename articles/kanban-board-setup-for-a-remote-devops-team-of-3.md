@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Kanban Board Setup for a Remote DevOps Team of 3"
 description: "A practical guide to setting up a Kanban board for a remote DevOps team of 3. Includes workflow configuration, WIP limits, automation examples, and tool recommendations."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /kanban-board-setup-for-a-remote-devops-team-of-3/
 categories: [guides]
 tags: [kanban, devops, remote-work, workflow]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Kanban Board Setup for a Remote DevOps Team of 3
