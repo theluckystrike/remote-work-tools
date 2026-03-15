@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Support Neurodivergent Remote Workers"
-description: "A practical guide for developers and power users on supporting neurodivergent remote workers. Learn accommodation strategies, communication tools, and implementation patterns."
+description: "A practical guide for developers and power users on supporting neurodivergent remote workers. Learn accommodation strategies, communication tools, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-support-neurodivergent-remote-workers/
@@ -179,6 +179,11 @@ Supporting neurodivergent remote workers requires systematic changes that benefi
 These practices create conditions where neurodivergent team members can contribute their strongest work while reducing the exhaustion that often accompanies neurotypical workplace norms.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
