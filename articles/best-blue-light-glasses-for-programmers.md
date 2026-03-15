@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-blue-light-glasses-for-programmers/
 reviewed: true
 score: 8
-categories: [best-of]
+categories: [guides]
 ---
 
 
@@ -103,6 +103,13 @@ Blue light glasses are a straightforward investment in your long-term eye health
 Your eyes will thank you after years of coding.
 
 ---
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [RescueTime vs Toggl Track: Productivity Comparison for.](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
