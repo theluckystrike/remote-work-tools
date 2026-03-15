@@ -10,6 +10,7 @@ tags: [velocity, metrics, remote-work, productivity]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -213,18 +214,16 @@ Share velocity metrics openly with the team. When people understand how velocity
 
 For most remote teams, a minimal setup includes:
 
-1. **Story point labels** in your project management tool (Jira, Linear, GitHub Projects)
-2. **Closed date tracking** for all completed work items
-3. **Weekly aggregation** script that calculates velocity, cycle time, and throughput
-4. **Monthly review** to spot trends and discuss improvements
+1. Add story point labels in your project management tool (Jira, Linear, GitHub Projects)
+2. Enable closed date tracking for all completed work items
+3. Run a weekly aggregation script that calculates velocity, cycle time, and throughput
+4. Hold a monthly review to spot trends and discuss improvements
 
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
 
 ## Conclusion
 
-Effective velocity tracking for remote teams centers on measuring completed work rather than activity. Sprint velocity, cycle time, and throughput provide complementary views of team performance without introducing surveillance overhead. Start with simple data collection from your existing tools, build basic aggregations, and iterate as your team's measurement needs evolve.
-
-The goal isn't to maximize velocity numbers—it's to understand your team's actual capacity and identify when something slows work down. With clear velocity data, remote teams can make informed decisions about process improvements and capacity planning.
+Start with simple data collection from your existing tools, build basic aggregations, and iterate as your team's measurement needs evolve. The goal isn't to maximize velocity numbers—it's to understand your team's actual capacity and identify when something slows work down.
 
 
 ## Related Reading

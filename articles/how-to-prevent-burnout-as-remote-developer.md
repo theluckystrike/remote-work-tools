@@ -10,6 +10,7 @@ tags: [remote-work, burnout, mental-health, productivity]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -21,10 +22,10 @@ Remote development offers flexibility, but the blurred lines between work and pe
 
 Burnout rarely announces itself with dramatic symptoms. Watch for these subtle indicators:
 
-- **Task dread**: Dreading routine development tasks you once enjoyed
-- **Diminished output**: Writing less code, taking longer to complete tickets
-- **Emotional exhaustion**: Feeling drained after standup or code reviews
-- **Cynicism**: Starting to resent team communications or process requirements
+- Task dread: dreading routine development tasks you once enjoyed
+- Diminished output: writing less code, taking longer to complete tickets
+- Emotional exhaustion: feeling drained after standup or code reviews
+- Cynicism: starting to resent team communications or process requirements
 
 If any of these sound familiar, it's time to rebuild your boundaries. The strategies below work best when implemented before burnout sets in.
 
@@ -94,9 +95,9 @@ Many remote developers experience burnout partly due to communication anxiety—
 
 Establish communication norms proactively:
 
-- **Define your "available" hours** and share them with your team
-- **Use async communication** for non-urgent matters rather than expecting instant responses
-- **Update your status** when you're focusing deeply or stepping away
+- Define your "available" hours and share them with your team
+- Use async communication for non-urgent matters rather than expecting instant responses
+- Update your status when you're focusing deeply or stepping away
 
 ```javascript
 // Example: Auto-updating Slack status based on calendar
@@ -123,10 +124,10 @@ Mental burnout has strong physical components. Regular exercise, adequate sleep,
 
 Small investments in physical wellness pay dividends:
 
-- **Movement breaks**: Stand and stretch every 30-60 minutes
-- **Sleep hygiene**: Maintain consistent sleep schedules, even on weekends
-- **Hydration**: Keep water visible at your desk as a constant reminder
-- **Eye care**: Follow the 20-20-20 rule—every 20 minutes, look at something 20 feet away for 20 seconds
+- Movement breaks: stand and stretch every 30-60 minutes
+- Sleep hygiene: maintain consistent sleep schedules, even on weekends
+- Hydration: keep water visible at your desk as a constant reminder
+- Eye care: follow the 20-20-20 rule—every 20 minutes, look at something 20 feet away for 20 seconds
 
 Consider investing in a standing desk or ergonomic setup if you spend long hours coding. Physical discomfort compounds mental fatigue.
 
@@ -147,9 +148,9 @@ These connections provide emotional support and perspective when work becomes ch
 
 Beyond time boundaries, set limits on your projects and responsibilities:
 
-- **Learn to say no** to additional commitments when your plate is full
-- **Document your work** to demonstrate progress without over-explaining
-- **Separate tasks** from personal projects—don't let side projects consume your rest time
+- Learn to say no to additional commitments when your plate is full
+- Document your work to demonstrate progress without over-explaining
+- Separate tasks from personal projects—don't let side projects consume your rest time
 
 ```python
 # Example: Simple time tracking to understand your work patterns
@@ -170,9 +171,7 @@ class WorkSession:
 # Helps identify when you're overcommitting to certain areas
 ```
 
-## Conclusion
-
-Preventing burnout as a remote developer requires intentional effort. Establish clear working hours, create physical separation between work and rest, communicate openly with your team, and prioritize your physical and social well-being. The flexibility that makes remote work valuable only works when you protect your boundaries. Your career is a marathon—pacing yourself matters more than short-term sprinting.
+The flexibility that makes remote work valuable only works when you protect your boundaries. Your career is a marathon—pacing yourself matters more than short-term sprinting.
 
 
 ## Related Reading

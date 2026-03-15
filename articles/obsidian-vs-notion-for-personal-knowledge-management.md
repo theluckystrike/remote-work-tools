@@ -10,12 +10,13 @@ reviewed: true
 score: 8
 categories: [comparisons]
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
 # Obsidian vs Notion for Personal Knowledge Management
 
-Choose Obsidian if you want local-first data ownership, markdown-native editing, wiki-style linking with a knowledge graph, and deep plugin extensibility--your notes are plain `.md` files you fully control. Choose Notion if you need seamless cross-device sync without configuration, database views (kanban, gallery, calendar), collaborative editing with non-technical stakeholders, and rich external integrations with Slack and GitHub. Here is how they compare across architecture, editor experience, linking, plugins, mobile, and pricing.
+Choose Obsidian if you want local-first data ownership, markdown-native editing, wiki-style linking with a knowledge graph, and deep plugin extensibility--your notes are plain `.md` files you fully control. Choose Notion if you need cross-device sync without configuration, database views (kanban, gallery, calendar), collaborative editing with non-technical stakeholders, and rich external integrations with Slack and GitHub. Here is how they compare across architecture, editor experience, linking, plugins, mobile, and pricing.
 
 ## Architecture: Local-First vs Cloud-Native
 
@@ -74,11 +75,11 @@ For knowledge management specifically, Obsidian's graph-native approach often fe
 
 Obsidian's plugin ecosystem is mature and developer-friendly. The plugin directory includes hundreds of community plugins. You find plugins for:
 
-- **Dataview**: Query your notes with a JavaScript-like syntax
-- **Templater**: Advanced template functionality with variables and functions
-- **Git**: Version control built into Obsidian
-- **Advanced Tables**: Spreadsheet-like tables with formulas
-- **Shell Commands**: Execute shell commands from within Obsidian
+- Dataview: query your notes with a JavaScript-like syntax
+- Templater: advanced template functionality with variables and functions
+- Git: version control built into Obsidian
+- Advanced Tables: spreadsheet-like tables with formulas
+- Shell Commands: execute shell commands from within Obsidian
 
 Here's an example of a Dataview query that finds all notes tagged with ` #api ` created in the last week:
 
