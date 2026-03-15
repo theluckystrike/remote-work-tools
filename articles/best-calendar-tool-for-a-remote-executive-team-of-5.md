@@ -5,6 +5,10 @@ description: "A practical guide to selecting and implementing calendar tools for
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-calendar-tool-for-a-remote-executive-team-of-5/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
