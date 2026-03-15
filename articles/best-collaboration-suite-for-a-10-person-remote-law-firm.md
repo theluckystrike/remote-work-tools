@@ -2,14 +2,13 @@
 
 layout: default
 title: "Best Collaboration Suite for a 10 Person Remote Law Firm"
-description: "Find the ideal collaboration suite for a distributed 10-person remote law firm. Compare real-time document management, secure messaging, case."
-date: 2026-03-15
-author: "Remote Work Tools Guide"
+description: "Find the ideal collaboration suite for a distributed 10-person remote law firm. Compare real-time document management, secure messaging, case management, and video conferencing tools."
+date: 2026-03-16
+author: theluckystrike
 permalink: /best-collaboration-suite-for-a-10-person-remote-law-firm/
-reviewed: true
-score: 8
-categories: [guides]
 ---
+
+{% raw %}
 
 # Best Collaboration Suite for a 10 Person Remote Law Firm
 
@@ -229,5 +228,7 @@ The key is matching tools to actual workflow needs rather than accumulating plat
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+{% endraw %}
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
