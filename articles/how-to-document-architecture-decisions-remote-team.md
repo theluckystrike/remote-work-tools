@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Document Architecture Decisions for Remote Teams"
-description: "Learn practical strategies for documenting architecture decisions in distributed teams. Includes ADR templates, collaborative workflows, and code examples for maintaining technical consensus across time zones."
+description: "Learn practical strategies for documenting architecture decisions in distributed teams. Includes ADR templates, collaborative workflows, and code."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-document-architecture-decisions-remote-team/
@@ -223,6 +223,13 @@ Over time, the habit compound. New team members can understand why the system wo
 Remote work doesn't have to mean architectural amnesia. With structured documentation and async collaboration patterns, distributed teams can make decisions that endure.
 
 ---
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
