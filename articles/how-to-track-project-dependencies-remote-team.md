@@ -4,8 +4,11 @@ layout: default
 title: "How to Track Project Dependencies in a Remote Team: A Practical Guide"
 description: "Learn effective strategies and tools for tracking project dependencies across distributed teams. Includes code examples, automation scripts, and workflow patterns."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-track-project-dependencies-remote-team/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 # How to Track Project Dependencies in a Remote Team: A Practical Guide

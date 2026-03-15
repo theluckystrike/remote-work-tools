@@ -4,8 +4,11 @@ layout: default
 title: "How to Create Remote Work Playbook for Team"
 description: "A practical guide for developers and power users building remote work playbooks. Includes templates, automation examples, and implementation strategies for distributed teams."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-playbook-for-team/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
