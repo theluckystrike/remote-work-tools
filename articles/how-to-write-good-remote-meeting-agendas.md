@@ -9,12 +9,13 @@ categories: [guides]
 tags: [remote-work, productivity, meetings]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # How to Write Good Remote Meeting Agendas
 
-A well-crafted agenda transforms unproductive meetings into focused discussions. For remote teams, where visual cues and spontaneous clarification are limited, the agenda becomes your primary communication tool. This guide provides practical techniques for writing agendas that respect everyone's time and drive meaningful outcomes.
+A good remote meeting agenda states the meeting's purpose, assigns time limits and owners to each topic, specifies the decisions needed, and links to any required prep materials. Send it at least 24 hours before the meeting so participants can prepare. Without these elements, remote meetings drift into unfocused discussions that waste everyone's time.
 
 ## The Core Components of an Effective Agenda
 

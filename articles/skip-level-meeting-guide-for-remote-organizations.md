@@ -9,16 +9,14 @@ categories: [guides]
 tags: [skip-level-meeting, remote-work, leadership, team-management]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Skip Level Meeting Guide for Remote Organizations
 
-Skip level meetings are a powerful leadership practice where a manager's manager meets directly with individual contributors, bypassing the immediate supervisor. In remote organizations, these meetings serve as a critical feedback loop, uncovering issues that might never reach leadership through normal reporting lines.
-
-This guide provides a practical framework for implementing and running effective skip level meetings in distributed teams.
+A skip level meeting is a one-on-one where a senior leader meets directly with individual contributors, bypassing their immediate manager, to surface hidden blockers, gauge team culture, and retain top talent. In remote organizations, hold them monthly for 30 minutes, rotating through ICs so each person gets face time with senior leadership every 2-3 months.
 
 ## Why Skip Level Meetings Matter
 
