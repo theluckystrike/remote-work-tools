@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /chrome-extension-currency-converter-shopping/
 reviewed: true
 score: 8
-categories: [tools, guides]
+categories: [guides]
 intent-checked: true
 voice-checked: true
 ---

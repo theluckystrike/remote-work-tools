@@ -9,7 +9,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-home-office-setup-for-software-developers/
 reviewed: true
 score: 8
-categories: [setup]
+categories: [tutorials]
 ---
 
 
