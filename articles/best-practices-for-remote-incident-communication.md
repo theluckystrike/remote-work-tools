@@ -9,14 +9,13 @@ permalink: /best-practices-for-remote-incident-communication/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
 # Best Practices for Remote Incident Communication
 
-When a production incident hits at 2 AM and your team is scattered across five time zones, the difference between a five-minute recovery and a five-hour nightmare often comes down to one thing: how well you communicate. Remote incident communication requires deliberate systems, not just good intentions.
-
-This guide covers battle-tested practices for incident communication that work whether your team is fully distributed or hybrid. You'll find practical templates, automation patterns, and communication workflows you can implement immediately.
+Assign an Incident Commander for every incident, post status updates on a fixed 15-minute cadence, and run an async post-mortem within 72 hours -- these three practices form the backbone of effective remote incident communication. Start with explicit role assignments, a reusable status page template, and dedicated Slack channels before your next outage hits. This guide provides the templates, escalation thresholds, and automation patterns you can implement immediately.
 
 ## Establish Clear Incident Roles
 

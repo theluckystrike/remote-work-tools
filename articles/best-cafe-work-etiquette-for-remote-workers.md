@@ -8,12 +8,13 @@ permalink: /best-cafe-work-etiquette-for-remote-workers/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # Best Cafe Work Etiquette for Remote Workers: A Developer's Guide
 
-Working from cafes offers a welcome change of scenery from home offices, but it requires a different set of skills and awareness. The best cafe work etiquette for remote workers balances productivity with respect for business owners, other customers, and your professional reputation. This guide covers practical strategies for setting up your mobile workstation, managing connectivity challenges, handling interruptions gracefully, and maintaining the relationships that keep cafe work viable long-term.
+Order a drink every 60-90 minutes, keep your footprint to one seat, and use noise-canceling headphones for all audio -- these three rules form the foundation of good cafe work etiquette for remote workers. Follow them consistently and you stay welcome; ignore them and cafes start posting "no laptops" signs. This guide covers the full playbook for technical setup, communication etiquette, and building long-term relationships with cafe staff.
 
 ## Understanding the Cafe Work Agreement
 
