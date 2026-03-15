@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Get Recurring Clients as a Freelance Developer"
-description: "A practical guide to building steady client relationships as a freelance developer. Learn retention strategies, communication tactics, and systems that turn one-time projects into long-term partnerships."
+description: "A practical guide to building steady client relationships as a freelance developer. Learn retention strategies, communication tactics, and systems that."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-recurring-clients-as-freelance-developer/
@@ -158,6 +158,11 @@ Getting recurring clients as a freelance developer requires shifting from a proj
 The developers who build sustainable freelance careers are those who treat their freelance work as a business—not just a collection of gigs. Recurring clients are the foundation of that business, providing stability, predictable income, and the freedom to focus on quality work rather than constant prospecting.
 
 Start implementing one or two of these strategies this week. Even simple follow-up messages after project completion can begin transforming your client relationships from transactional to ongoing.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

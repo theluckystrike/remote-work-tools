@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cheapest Video Call Tool for Weekly 50 Person All Hands Meeting"
+title: "Cheapest Video Call Tool for Weekly 50 Person All Hands."
 description: "Find the most cost-effective video conferencing solution for your team's weekly all-hands. Compare pricing, features, and implementation tips for 50-person meetings."
 date: 2026-03-16
 author: theluckystrike
@@ -153,6 +153,11 @@ For most teams running weekly 50-person all-hands meetings, the choice comes dow
 The cheapest option isn't always the best value when reliability matters for company-wide meetings. Factor in the cost of failed meetings, support overhead, and user friction when making your decision.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -10,15 +10,14 @@ categories: [workflows, productivity]
 tags: [scope-creep, freelance-tips, project-management]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # Scope Creep Prevention Strategies for Freelancers
 
-Scope creep kills freelance projects. What starts as a clear deliverables list gradually expands until you're working twice the hours for the original price. Developers and power users who treat freelance work as a business understand this threat intimately. The solution isn't working harder—it's building systems that prevent scope creep before it starts.
-
-This guide provides concrete strategies you can implement immediately, with practical templates and code examples for automating your project boundaries.
+Prevent scope creep by defining deliverables precisely upfront, implementing formal change request procedures with pricing, and tying payments to milestone completion rather than calendar dates. When clients request additions, respond with a structured framework: state what's in scope, show the extra cost or timeline, and let them choose. This guide provides concrete strategies with templates and code examples you can implement immediately to protect your margin.
 
 ## Define Scope with Precision
 
