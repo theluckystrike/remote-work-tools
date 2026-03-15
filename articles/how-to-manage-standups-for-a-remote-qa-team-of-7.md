@@ -2,13 +2,13 @@
 layout: default
 title: "How to Manage Standups for a Remote QA Team of 7"
 description: "Learn practical strategies for managing daily standups with a remote QA team of 7. Includes async alternatives, rotation scripts, and meeting templates."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-standups-for-a-remote-qa-team-of-7/
 categories: [guides]
 tags: [standups, remote-work, qa, team-management]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
