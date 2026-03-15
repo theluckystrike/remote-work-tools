@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Facilitate Engaging Remote Retrospectives"
-description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes facilitation scripts, digital tools, and actionable templates."
+description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes facilitation scripts, digital tools, and actionable."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-facilitate-engaging-remote-retrospectives/
@@ -154,6 +154,11 @@ Introduce a new format every quarter. Solicit team feedback on which formats the
 ## Conclusion
 
 Effective remote retrospectives require intention. The tools matter less than psychological safety, structured facilitation, and most importantly, actually following through on what you commit to. Start with async pre-work to gather input from everyone, use a consistent structure that keeps discussions focused, and link your action items directly to trackable work. When your team sees that retrospective insights lead to real changes, they'll start treating these sessions as valuable instead of mandatory.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

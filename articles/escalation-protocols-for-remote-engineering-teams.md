@@ -2,7 +2,7 @@
 
 layout: default
 title: "Escalation Protocols for Remote Engineering Teams"
-description: "A practical guide to building effective escalation protocols for remote engineering teams. Includes code examples, Slack integration patterns, and incident response workflows."
+description: "A practical guide to building effective escalation protocols for remote engineering teams. Includes code examples, Slack integration patterns, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /escalation-protocols-for-remote-engineering-teams/
@@ -183,6 +183,11 @@ Update your escalation criteria, runbooks, and contact rotation based on these f
 ## Summary
 
 Effective escalation protocols for remote engineering teams require explicit ownership at each level, clear criteria for when to escalate, documented handoff procedures between time zones, dedicated communication channels, comprehensive runbooks, and automated triggers to handle middle-of-the-night scenarios. Test your protocol with chaos engineering exercises, review after every significant incident, and keep iterating.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
