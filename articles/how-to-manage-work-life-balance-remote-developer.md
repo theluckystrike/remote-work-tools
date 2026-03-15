@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Manage Work-Life Balance as a Remote Developer"
 description: "Practical strategies and tools for developers working remotely. Learn time management techniques, automation scripts, and boundary-setting methods."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-work-life-balance-remote-developer/
 categories: [guides]
 tags: [remote-work, productivity, work-life-balance]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Manage Work-Life Balance as a Remote Developer
