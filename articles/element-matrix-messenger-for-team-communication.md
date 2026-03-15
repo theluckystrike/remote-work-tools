@@ -144,5 +144,10 @@ Element Matrix provides developers with a communication platform that respects u
 
 For organizations ready to move beyond proprietary chat tools, Matrix offers a path toward decentralized, transparent team communication without sacrificing the features developers expect.
 
+
+## Related Reading
+
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

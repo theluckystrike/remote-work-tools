@@ -185,5 +185,10 @@ Remote team communication requires intentional design. By establishing clear cha
 
 The goal isn't constant connectivity—it's ensuring the right information reaches the right people at the right time, enabling your team to do their best work.
 
+
+## Related Reading
+
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
