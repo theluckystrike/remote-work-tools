@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /trello-alternatives-for-agile-teams/
 reviewed: true
 score: 8
-categories: [alternatives]
+categories: [guides]
 ---
 
 
