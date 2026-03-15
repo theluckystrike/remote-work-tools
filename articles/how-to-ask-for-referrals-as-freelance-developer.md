@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Ask for Referrals as a Freelance Developer"
-description: "A practical guide to asking for referrals as a freelance developer. Learn timing, templates, and strategies to grow your client pipeline through word-of-mouth."
+description: "A practical guide to asking for referrals as a freelance developer. Learn timing, templates, and strategies to grow your client pipeline through."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-ask-for-referrals-as-freelance-developer/
@@ -172,6 +172,11 @@ The best referral sources become ongoing partners. Treat them as such:
 Developers who build genuine relationships with clients rarely need to "ask" for referrals—clients volunteer them because they want to help someone they respect.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
