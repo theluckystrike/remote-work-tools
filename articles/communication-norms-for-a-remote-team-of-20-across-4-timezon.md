@@ -9,11 +9,10 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
-Effective communication in a remote team of 20 people spread across four time zones requires deliberate structure. Unlike co-located teams where you can lean over and ask a question, distributed teams need explicit norms that account for asynchronous workflows, context switching, and the inevitable delays between sending a message and receiving a response.
-
-This guide provides actionable communication norms designed for development teams and power users managing complex distributed workflows.
+Communication norms for a 20-person remote team across four time zones should define channel-specific response times, establish 1-2 hour daily "golden hours" for synchronous overlap, and require standalone context in every async message. These three structural decisions eliminate most friction in distributed teams. This guide provides the specific norms, code examples, and templates to implement them.
 
 ## Define Core Communication Channels
 

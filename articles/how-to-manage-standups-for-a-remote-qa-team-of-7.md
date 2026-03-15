@@ -9,14 +9,18 @@ categories: [guides]
 tags: [standups, remote-work, qa, team-management]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: true
 ---
 
 {% raw %}
 # How to Manage Standups for a Remote QA Team of 7
 
+<<<<<<< HEAD
 Running effective standups with a small remote QA team requires balancing synchronous collaboration with async flexibility. A team of seven sits in a sweet spot—you have enough people to cover multiple test tracks, but you can still maintain personal connections without resorting to large-group inefficiencies.
+=======
+Run three synchronous standups per week (Monday, Wednesday, Friday) with async Slack thread updates on the other days, using a rotating speaker order and a shared blocker-tracking doc. This hybrid approach keeps a 7-person remote QA team aligned across time zones without burning meeting time. Below you will find rotation scripts, a Slack bot template, and a decision framework for choosing sync versus async formats.
+>>>>>>> 397d5ad (intent: restructure 7 articles for search intent alignment)
 
 ## Why Standup Format Matters More Than You Think
 

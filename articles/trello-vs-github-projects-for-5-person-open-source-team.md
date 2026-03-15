@@ -9,6 +9,7 @@ author: "Remote Work Tools Guide"
 permalink: /trello-vs-github-projects-for-5-person-open-source-team/
 reviewed: true
 score: 8
+intent-checked: true
 categories: [comparisons]
 ---
 

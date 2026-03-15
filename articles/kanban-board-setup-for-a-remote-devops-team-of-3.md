@@ -10,7 +10,7 @@ categories: [guides]
 tags: [kanban, devops, remote-work, workflow]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -18,7 +18,7 @@ voice-checked: false
 {% raw %}
 # Kanban Board Setup for a Remote DevOps Team of 3
 
-Setting up a Kanban board for a small remote DevOps team requires a different approach than scaling for larger organizations. With three team members, you can maintain high visibility without the overhead that slows down bigger teams. This guide covers practical configurations, workflow patterns, and automation that make Kanban work for distributed DevOps practitioners.
+Set up five columns (Backlog, Ready, In Progress, Review, Done) with a WIP limit of 3 for In Progress and a separate swimlane for incident work. For a 3-person remote DevOps team, this structure keeps planned improvements visible alongside operational firefighting without over-complicating the board. This guide covers tool-specific configurations for Trello, GitHub Projects, and Plane, plus automation examples for PR-driven card movement.
 
 ## Core Kanban Principles for Small DevOps Teams
 
