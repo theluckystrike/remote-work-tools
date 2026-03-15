@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "First 90 Days as a Freelance Developer: A Complete Guide"
-description: "A practical roadmap for developers transitioning to freelance work. Covers legal setup, client acquisition, pricing strategies, and building sustainable systems."
+description: "A practical roadmap for developers transitioning to freelance work. Covers legal setup, client acquisition, pricing strategies, and building."
 date: 2026-03-15
 author: theluckystrike
 permalink: /first-90-days-as-freelance-developer-guide/
@@ -203,6 +203,11 @@ The first 90 days as a freelance developer establish patterns that persist for y
 Start with the legal fundamentals, secure your first clients through targeted outreach, and continuously refine your positioning based on market feedback. The transition requires patience, but the flexibility and autonomy await on the other side.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Podcast Guesting Strategy for Freelance Developers"
-description: "A practical guide to appearing as a podcast guest to grow your freelance developer business. Learn outreach, preparation, and follow-up strategies with code examples."
+description: "A practical guide to appearing as a podcast guest to grow your freelance developer business. Learn outreach, preparation, and follow-up strategies with."
 date: 2026-03-15
 author: theluckystrike
 permalink: /podcast-guesting-strategy-for-freelance-developers/
@@ -174,6 +174,11 @@ Podcast guesting becomes most valuable when treated as relationship building rat
 Many successful freelance developers secure recurring guest spots or become affiliated advocates for shows they genuinely support. This ongoing presence compounds your credibility and audience access over months and years.
 
 Start with three target podcasts this week. Research their formats, draft personalized outreach, and begin building your podcast guesting pipeline. The leads generated six months from now will trace back to today's first email.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -180,5 +180,10 @@ Start with one automated tool, perhaps a linter. Add pre-commit hooks once that'
 
 Remember, code review isn't about finding fault. It's about continuous improvement and delivering your best work. Even as a solo developer, you deserve those benefits.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
