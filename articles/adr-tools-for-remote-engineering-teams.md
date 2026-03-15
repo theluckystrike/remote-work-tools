@@ -9,12 +9,13 @@ categories: [guides]
 tags: [adr, documentation, remote-work]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # ADR Tools for Remote Engineering Teams
 
-Remote engineering teams need ways to capture and preserve architectural decisions across distributed time zones. Architecture Decision Records (ADRs) provide a lightweight, text-based format for documenting why your team made specific technical choices. The challenge becomes selecting tools that support async collaboration, version control, and searchability. This guide evaluates practical ADR tools that work well for remote engineering teams.
+Use Log4brains if you want ADRs stored directly in your codebase with a browsable web interface, Notion if your team already documents there and needs relational linking between decisions, or plain GitHub markdown files with a CI validation workflow if you want full control with zero extra tooling. Each approach supports async review across time zones, version-controlled decision history, and searchable architectural records. This guide walks through setup, configuration, and tradeoffs for each option.
 
 ## Why ADR Tools Matter for Distributed Teams
 
