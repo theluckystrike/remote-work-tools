@@ -6,7 +6,7 @@ description: "A comprehensive guide to meeting room booking systems for hybrid o
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /meeting-room-booking-system-for-hybrid-office-2026/
-categories: [tools, hybrid-work]
+categories: [guides]
 intent-checked: true
 voice-checked: true
 reviewed: true
