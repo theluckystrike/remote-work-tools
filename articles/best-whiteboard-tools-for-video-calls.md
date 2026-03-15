@@ -6,6 +6,8 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /best-whiteboard-tools-for-video-calls/
 ---
+{% raw %}
+
 
 Remote collaboration has become essential for development teams scattered across time zones. When your standup needs visual aid or your architecture discussion demands diagrams on the fly, having the right whiteboard tool integrated with your video calls makes all the difference. This guide covers the best whiteboard tools for video calls, focusing on features that matter to developers and power users: API access, Markdown support, infinite canvases, and seamless third-party integrations.
 
@@ -121,3 +123,4 @@ The best whiteboard tool for video calls ultimately depends on your team's exist
 Experiment with free tiers before committing. Most tools offer sufficient functionality for evaluation, and the right choice becomes clear after working through actual collaboration scenarios with your team.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
