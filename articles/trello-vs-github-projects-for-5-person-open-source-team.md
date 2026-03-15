@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Trello vs GitHub Projects for 5 Person Open Source Team"
 description: "Compare Trello and GitHub Projects for managing a 5-person open source project. Includes automation examples, API integrations, and practical implementation guidance for maintainers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /trello-vs-github-projects-for-5-person-open-source-team/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 # Trello vs GitHub Projects for 5 Person Open Source Team
