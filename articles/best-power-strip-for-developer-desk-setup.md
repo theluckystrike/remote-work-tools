@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-power-strip-for-developer-desk-setup/
 reviewed: true
 score: 8
-categories: [setup]
+categories: [guides]
 ---
 
 
