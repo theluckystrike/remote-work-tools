@@ -10,6 +10,7 @@ tags: [tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 The three-two hybrid work model means three days remote and two days in the office, with remote days reserved for deep focus work and office days dedicated to collaboration, pair programming, and meetings. To implement it successfully, you need a containerized development environment that runs identically in both locations, async-first communication channels, and intentional scheduling that matches work type to location. This guide covers the technical setup, weekly structure, and security considerations for developers adopting this model.

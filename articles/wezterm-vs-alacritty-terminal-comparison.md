@@ -12,6 +12,7 @@ tags: [wezterm, alacritty, terminal, emulator, development-tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 
