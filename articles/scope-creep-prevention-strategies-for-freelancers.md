@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Scope Creep Prevention Strategies for Freelancers"
 description: "Practical scope creep prevention strategies for freelancers. Learn concrete techniques with code examples and templates to protect your projects and rates."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /scope-creep-prevention-strategies-for-freelancers/
 categories: [freelance, productivity]
 tags: [scope-creep, freelance-tips, project-management]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Scope Creep Prevention Strategies for Freelancers
