@@ -144,5 +144,12 @@ Chrome extensions transform newsletter design from a frustrating chore into a ma
 
 The key lies in understanding email client constraints and using the right tools to work within them. Start with an inline CSS converter, add preview testing to catch issues early, and build a library of reusable components to speed up future newsletters.
 
+
+## Related Reading
+
+- [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+- [How to Prevent Burnout as a Remote Developer: A.](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
+- [Geekbot vs Standuply: Async Standup Comparison for.](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
