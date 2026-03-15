@@ -7,6 +7,8 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /notion-vs-clickup-for-engineering-teams/
 ---
+{% raw %}
+
 
 # Notion vs ClickUp for Engineering Teams: A Practical Comparison
 
@@ -124,3 +126,4 @@ Both platforms offer free tiers suitable for small teams. Run a two-week pilot w
 The right choice depends on where your team experiences the most friction. Neither tool fails engineering teams—they simply optimize for different workflow patterns.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
