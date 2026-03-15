@@ -1,5 +1,5 @@
 {
-  "total": 45,
+  "total": 46,
   "clusters": {
     "best-of": {
       "count": 14
@@ -11,7 +11,7 @@
       "count": 12
     },
     "guides": {
-      "count": 16
+      "count": 17
     },
     "workflows": {
       "count": 1
