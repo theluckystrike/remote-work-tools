@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Obsidian vs Logseq for Developer Notes"
 description: "Compare Obsidian and Logseq for managing developer notes. Explore markdown workflows, backlink systems, graph views, and plugin ecosystems to find the best PKM tool for your coding practice."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /obsidian-vs-logseq-for-developer-notes/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 # Obsidian vs Logseq for Developer Notes
