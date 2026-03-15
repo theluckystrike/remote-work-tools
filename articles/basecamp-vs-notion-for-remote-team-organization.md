@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /basecamp-vs-notion-for-remote-team-organization/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [comparisons]
 ---
 

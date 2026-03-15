@@ -10,6 +10,7 @@ permalink: /coda-vs-notion-for-project-documentation/
 categories: [comparisons]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 
