@@ -203,6 +203,11 @@ gh api repos/{owner}/{repo}/pulls \
 
 An effective GitHub pull request workflow for distributed teams requires intentional structure: clear branch conventions, standardized PR templates, automated review assignment, and explicit timing expectations. The goal isn't speed for its own sake—it's enabling thoughtful code examination across asynchronous schedules. Implement these patterns incrementally, measure your team's specific bottlenecks, and adjust accordingly.
 
+
+## Related Reading
+
+- More guides coming soon.
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

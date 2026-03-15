@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Document Architecture Decisions for a Remote Team"
-description: "A practical guide for developers and power users on capturing architectural choices in distributed teams. Includes ADR templates, collaboration workflows, and real-world examples."
+description: "A practical guide for developers and power users on capturing architectural choices in distributed teams. Includes ADR templates, collaboration."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-document-architecture-decisions-remote-team/
@@ -274,5 +274,12 @@ Start simple: create a `docs/adr` folder in your repository, copy the template a
 
 Your future team members will thank you for the clarity.
 
+
+
+## Related Reading
+
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
+- [How to Manage Sprints with a Remote Team: A Practical Guide](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
