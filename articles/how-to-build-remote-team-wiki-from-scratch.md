@@ -10,12 +10,13 @@ permalink: /how-to-build-remote-team-wiki-from-scratch/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
 # How to Build a Remote Team Wiki from Scratch
 
-Building a team wiki from scratch gives you complete control over structure, searchability, and integration with your existing workflows. For remote teams, a well-designed wiki becomes the single source of truth for documentation, decisions, and institutional knowledge. This guide walks through practical approaches using tools developers already know.
+Build a remote team wiki by setting up a static site generator like Jekyll or MkDocs, storing your content as Markdown in a Git repository, and deploying through GitHub Pages or a similar host. Use pull-request-based editing workflows to keep content reviewed and current, and add client-side search with Lunr.js or Algolia so your team can actually find what they need.
 
 ## Why Build Your Own Wiki
 

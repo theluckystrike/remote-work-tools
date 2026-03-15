@@ -8,13 +8,14 @@ permalink: /github-pull-request-workflow-for-distributed-teams/
 categories: [workflows]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 
 # GitHub Pull Request Workflow for Distributed Teams
 
-Managing code reviews across time zones presents unique challenges. When your team spans San Francisco, London, and Tokyo, synchronous code review becomes impractical. A well-structured GitHub pull request workflow transforms these challenges into opportunities for thoughtful, thorough code examination. This guide provides practical patterns for distributed teams looking to improve their collaboration through GitHub.
+Set up a distributed-friendly GitHub PR workflow by combining consistent branch naming conventions, standardized PR templates, automated reviewer assignment via GitHub Actions, and stale-PR reminders that keep reviews moving across time zones. This guide provides the exact configuration files, Actions workflows, and branch protection rules you need to implement each step.
 
 ## Core Workflow Structure
 

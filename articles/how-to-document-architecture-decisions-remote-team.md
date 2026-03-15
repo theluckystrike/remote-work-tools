@@ -9,13 +9,14 @@ permalink: /how-to-document-architecture-decisions-remote-team/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 # How to Document Architecture Decisions for a Remote Team
 
-When your team works across time zones, decisions made in quick Slack threads disappear into the void. That architectural choice someone mentioned in a video call last month? Gone. The reasoning behind choosing PostgreSQL over MongoDB? Buried in some private channel. Documenting architecture decisions systematically solves this problem, and it becomes even more critical when your team never shares a physical office.
+Document architecture decisions for your remote team by creating Architecture Decision Records (ADRs)--short Markdown files stored in a `docs/adr/` folder in your repository, each capturing the context, decision, and consequences of a specific technical choice. Use a pull-request workflow so teammates across time zones can review proposals asynchronously, and maintain a numbered index to keep decisions discoverable.
 
-This guide covers practical approaches to capturing architectural decisions in a way that works for distributed teams. You'll find templates, workflows, and examples you can adapt immediately.
+This guide provides the ADR template, real-world examples, and the async collaboration patterns that make this process work for distributed teams.
 
 ## Why Architecture Decision Records Matter
 
