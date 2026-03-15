@@ -5,6 +5,10 @@ description: "Learn practical strategies for documenting architecture decisions 
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-document-architecture-decisions-remote-team/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

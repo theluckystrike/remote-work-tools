@@ -5,6 +5,10 @@ description: "Learn to build reusable project templates that standardize workflo
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-create-effective-project-templates-remote-work/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
