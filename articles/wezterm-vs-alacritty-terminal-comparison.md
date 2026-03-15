@@ -7,7 +7,7 @@ description: "A practical comparison of Wezterm and Alacritty terminal emulators
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /wezterm-vs-alacritty-terminal-comparison/
-categories: [guides, guides]
+categories: [guides]
 tags: [wezterm, alacritty, terminal, emulator, development-tools]
 reviewed: true
 score: 8
