@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Optimize Internet Speed for Remote Work"
 description: "A practical guide for developers and power users to optimize internet speed for remote work. Includes network configuration, speed testing, and performance tuning."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-optimize-internet-speed-for-remote-work/
 categories: [guides]
 tags: [internet, network, remote-work, performance]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Optimize Internet Speed for Remote Work
