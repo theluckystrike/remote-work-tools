@@ -148,6 +148,11 @@ A well-designed Notion habit tracker adapts to your specific developer workflow.
 
 The best habit tracker is one you consistently use. Build something simple enough to maintain during crunch time but powerful enough to reveal meaningful patterns in your development practice.
 
+
+## Related Reading
+
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
