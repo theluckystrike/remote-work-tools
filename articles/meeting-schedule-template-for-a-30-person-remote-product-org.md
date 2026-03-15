@@ -200,5 +200,10 @@ meeting_schedule:
 
 This framework scales to 30 people because it concentrates communication into structured tiers while protecting the time people need to actually build product. Adjust timing and frequency based on your organization's specific time zones and workflow patterns.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
