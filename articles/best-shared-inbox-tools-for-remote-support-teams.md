@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Best Shared Inbox Tools for Remote Support Teams"
 description: "Compare top shared inbox tools for remote support teams with API integrations, automation examples, and implementation patterns for distributed customer success operations."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-shared-inbox-tools-for-remote-support-teams/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
+
 
 {% raw %}
 # Best Shared Inbox Tools for Remote Support Teams
