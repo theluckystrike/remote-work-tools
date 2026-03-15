@@ -2,7 +2,7 @@
 
 layout: default
 title: "Home Office Lighting Setup for Productivity: A Developer's Guide"
-description: "Optimize your home office lighting for maximum productivity. Learn about color temperature, brightness levels, smart automation, and practical configurations for developers."
+description: "Optimize your home office lighting for maximum productivity. Learn about color temperature, brightness levels, smart automation, and practical."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-lighting-setup-for-productivity-guide/
@@ -212,6 +212,11 @@ Start simple: one quality task light with adjustable color temperature. Add smar
 The best lighting setup is one you'll actually use consistently. Incremental improvements beat elaborate systems that become complicated to maintain.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
