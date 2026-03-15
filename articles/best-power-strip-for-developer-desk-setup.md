@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Best Power Strip for Developer Desk Setup: A Practical Guide"
 description: "Discover the best power strip for developer desk setups. Learn about USB-C PD, surge protection, outlet spacing, and smart features for powering your development workflow."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-power-strip-for-developer-desk-setup/
+reviewed: true
+score: 8
+categories: [setup]
 ---
+
 
 {% raw %}
 # Best Power Strip for Developer Desk Setup: A Practical Guide
