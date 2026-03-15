@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Air Quality Monitoring for Hybrid Office Spaces: A Technical Guide"
-description: "Learn how to implement air quality monitoring systems in hybrid office spaces. Covers sensors, APIs, automation rules, and code examples for developers building workplace wellness tools."
+title: "Air Quality Monitoring for Hybrid Office Spaces: A."
+description: "Learn how to implement air quality monitoring systems in hybrid office spaces. Covers sensors, APIs, automation rules, and code examples for developers."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /air-quality-monitoring-for-hybrid-office-spaces/
@@ -208,6 +208,11 @@ Document sensor locations and calibration schedules in your facilities managemen
 Implementing air quality monitoring in hybrid office spaces protects employee health, ensures regulatory compliance, and optimizes HVAC performance. The technical components are straightforward: sensors, a data collection pipeline, visualization dashboards, and automated alerting. Focus on accurate sensor placement, reliable data transmission, and actionable alerts to build a system that genuinely improves workplace conditions.
 
 With proper implementation, you'll have visibility into the air your team breathes, enabling data-driven decisions about ventilation, filtration, and space utilization that benefit everyone in your hybrid organization.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
