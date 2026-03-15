@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "How to Manage Sprints with a Remote Team: A Practical Guide"
 description: "A practical guide for developers and power users managing sprints with distributed teams. Covers async standups, digital ceremonies, and sprint planning tools."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-sprints-with-remote-team/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 # How to Manage Sprints with a Remote Team: A Practical Guide
 

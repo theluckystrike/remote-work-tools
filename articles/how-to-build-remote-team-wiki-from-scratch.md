@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "How to Build a Remote Team Wiki from Scratch"
 description: "A practical guide for developers and power users building internal wikis. Covers architecture, tooling, Markdown workflows, and deployment strategies."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-wiki-from-scratch/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 # How to Build a Remote Team Wiki from Scratch
 

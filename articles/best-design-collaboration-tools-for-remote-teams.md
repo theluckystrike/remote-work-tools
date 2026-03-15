@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Best Design Collaboration Tools for Remote Teams"
 description: "A practical guide to the best design collaboration tools for remote teams, tailored for developers and power users who need seamless design workflows."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-design-collaboration-tools-for-remote-teams/
 categories: [best-of]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 

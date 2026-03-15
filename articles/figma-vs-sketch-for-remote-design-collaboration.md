@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Figma vs Sketch for Remote Design Collaboration"
 description: "A practical comparison of Figma and Sketch for remote design collaboration, with technical insights, API capabilities, and workflow recommendations for distributed design teams."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /figma-vs-sketch-for-remote-design-collaboration/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 

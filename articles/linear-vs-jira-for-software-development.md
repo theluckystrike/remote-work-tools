@@ -1,13 +1,17 @@
 ---
 
+
 layout: default
 title: "Linear vs Jira for Software Development: A Practical Comparison"
 description: "A detailed comparison of Linear vs Jira for software development teams. Learn the key differences, when to choose each, and practical implementation examples."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /linear-vs-jira-for-software-development/
 categories: [alternatives]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Linear vs Jira for Software Development: A Practical Comparison
