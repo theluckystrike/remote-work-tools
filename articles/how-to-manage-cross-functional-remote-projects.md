@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Manage Cross-Functional Remote Projects: A Developer's Guide"
-description: "A practical guide for developers and power users managing cross-functional remote projects. Covers coordination, communication patterns, and workflow automation."
+title: "How to Manage Cross-Functional Remote Projects: A."
+description: "A practical guide for developers and power users managing cross-functional remote projects. Covers coordination, communication patterns, and workflow."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-cross-functional-remote-projects/
@@ -185,5 +185,12 @@ Managing cross-functional remote projects successfully comes down to three princ
 Start by implementing one or two of these practices, measure their impact, and iterate. Your team will find its rhythm, and projects will flow more smoothly across functions and time zones.
 
 {% endraw %}
+
+
+## Related Reading
+
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+- [How to Document Architecture Decisions for a Remote Team](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
