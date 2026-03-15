@@ -9,13 +9,14 @@ permalink: /how-to-build-remote-team-wiki-from-scratch/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
 {% raw %}
-A shared knowledge base is the backbone of any productive remote team. When your documentation lives in scattered Slack messages, Google Docs, and random Markdown files, you lose hours searching for information that should take seconds to find. Building a wiki from scratch gives you full control over structure, searchability, and integration with your existing workflow.
+To build a remote team wiki from scratch, start with a Git-based flat-file architecture using Markdown with YAML front matter, add a search index that rebuilds on each commit, and organize content into four top-level categories: Onboarding, Architecture, Processes, and Reference. This approach gives you version control, familiar developer workflows, and straightforward hosting through GitHub Pages or Netlify without database overhead.
 
-This guide walks you through constructing a practical team wiki tailored for developers and technical users. You'll learn the architecture decisions, implementation approaches, and maintenance strategies that make a wiki actually useful rather than just another abandoned documentation project.
+This guide walks you through each step--from choosing your storage architecture and building search to implementing collaborative editing and maintaining content quality over time.
 
 ## Defining Your Wiki Requirements
 

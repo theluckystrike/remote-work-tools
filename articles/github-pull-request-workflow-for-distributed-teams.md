@@ -9,14 +9,15 @@ author: "Remote Work Tools Guide"
 permalink: /github-pull-request-workflow-for-distributed-teams/
 reviewed: true
 score: 8
-categories: [guides]
+categories: [productivity]
+intent-checked: true
 ---
 
 
 {% raw %}
 # GitHub Pull Request Workflow for Distributed Teams
 
-Distributed teams face unique challenges when coordinating code reviews across time zones. A well-structured GitHub pull request workflow reduces friction, prevents merge conflicts, and keeps remote collaborators aligned. This guide covers practical patterns that developers and power users can implement immediately.
+Use trunk-based development with short-lived feature branches, structured PR templates with checklists, and CODEOWNERS files for automatic reviewer assignment--this combination eliminates most coordination friction for distributed teams. Set explicit review SLAs (1 hour for hotfixes, 24 hours for features) and label feedback as "nitpick," "suggestion," or "requirement" so authors across time zones know exactly what blocks a merge without waiting for synchronous clarification.
 
 ## Branch Strategy Fundamentals
 
