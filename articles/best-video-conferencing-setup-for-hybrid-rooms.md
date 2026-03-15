@@ -6,6 +6,10 @@ description: "A practical guide for developers and power users configuring video
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-video-conferencing-setup-for-hybrid-rooms/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
