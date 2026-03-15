@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "GitHub Projects vs Jira for a Remote Team of 3 Devs"
-description: "A practical comparison of GitHub Projects and Jira for small remote development teams. Learn which tool works better for a team of 3 developers working asynchronously."
+description: "A practical comparison of GitHub Projects and Jira for small remote development teams. Learn which tool works better for a team of 3 developers working."
 date: 2026-03-16
 author: theluckystrike
 permalink: /github-projects-vs-jira-for-a-remote-team-of-3-devs/
@@ -168,6 +168,11 @@ The exception is when external requirements force Jira adoption—some clients o
 Test both tools with a small pilot project. Run a two-week sprint in each and measure the time spent on tool management versus actual development. The numbers usually tell the story quickly.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
