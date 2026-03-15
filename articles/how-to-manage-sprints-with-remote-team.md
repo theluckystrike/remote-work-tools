@@ -10,6 +10,8 @@ tags: [remote-work, tools]
 reviewed: true
 score: 8
 ---
+{% raw %}
+
 
 # How to Manage Sprints with Remote Team: A Practical Guide for Developers
 
@@ -319,3 +321,4 @@ The tools matter less than the discipline. Start with async standups this week, 
 - [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
