@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Documentation Platform for a 15 Person Remote Data Science Team"
+title: "Documentation Platform for a 15 Person Remote Data."
 description: "Compare practical documentation platforms for a 15 person remote data science team with setup examples, API integrations, and implementation patterns."
 date: 2026-03-16
 author: theluckystrike
@@ -162,6 +162,11 @@ For a 15 person remote data science team, the git-based approach (MkDocs) typica
 5. **Onboarding docs**: Write a contributing guide specific to documentation standards
 
 The best documentation platform is one your team actually uses. Invest time in establishing documentation habits first—choose the tool that fits your workflow rather than hoping a tool will change your behavior.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
