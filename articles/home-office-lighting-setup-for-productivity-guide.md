@@ -8,13 +8,14 @@ author: "Remote Work Tools Guide"
 permalink: /home-office-lighting-setup-for-productivity-guide/
 reviewed: true
 score: 8
+intent-checked: true
 categories: [guides]
 ---
 
 {% raw %}
 # Home Office Lighting Setup for Productivity: A Developer's Guide
 
-A well-designed home office lighting setup transforms your workspace from a dim cave that drains energy into a productivity powerhouse. For developers spending 8+ hours daily in front of screens, proper lighting reduces eye strain, improves focus, and directly impacts code quality. This guide covers practical lighting strategies, smart integrations, and automation approaches tailored for technical professionals.
+A productive home office lighting setup uses three layers: ambient room illumination, a monitor-mounted light bar (300-500 lumens) for task lighting, and accent lighting behind your screen to reduce contrast strain. Set color temperature between 4000K-5500K during the day and shift to 2700K-3000K after sunset to support your circadian rhythm. This guide covers color temperature schedules, brightness guidelines by room type, three-point video call lighting, and smart automation integrations for developers.
 
 ## Understanding Light Requirements for Coding
 
