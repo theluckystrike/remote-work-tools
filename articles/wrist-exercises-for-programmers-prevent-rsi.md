@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wrist Exercises for Programmers: Prevent RSI and Stay Pain-Free"
+title: "Wrist Exercises for Programmers: Prevent RSI and Stay."
 description: "Practical wrist exercises and habits to prevent RSI for programmers and power users. Includes code snippets for break reminders and ergonomic tips."
 date: 2026-03-15
 author: theluckystrike
@@ -165,6 +165,11 @@ If you experience persistent pain, numbness, or weakness that doesn't improve wi
 Wrist health isn't something to think about only when pain appears. Incorporating simple exercises, maintaining proper ergonomics, and taking regular breaks protects your body and extends your career. The habits you build now determine whether you'll code comfortably in five or twenty years.
 
 Start with just one change—setting a break reminder or adjusting your keyboard height. Your wrists will thank you.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

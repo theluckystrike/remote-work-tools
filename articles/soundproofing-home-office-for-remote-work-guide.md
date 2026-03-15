@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Soundproofing Home Office for Remote Work Guide"
-description: "A practical guide for developers and power users to soundproof a home office. Covers acoustic treatment, noise-canceling solutions, and budget-friendly techniques."
+description: "A practical guide for developers and power users to soundproof a home office. Covers acoustic treatment, noise-canceling solutions, and budget-friendly."
 date: 2026-03-15
 author: theluckystrike
 permalink: /soundproofing-home-office-for-remote-work-guide/
@@ -136,6 +136,11 @@ Document your setup for future reference:
 Soundproofing requires maintenance. Check sealants annually for cracks. Replace weather stripping when it compresses permanently. Acoustic foam panels collect dust and lose effectiveness over time—vacuum or replace every few years.
 
 Your acoustic environment affects productivity as much as lighting and ergonomics. Invest gradually, prioritize based on your specific noise sources, and iterate. The combination of physical soundproofing and digital noise management creates a workspace where you can focus deeply and communicate clearly.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

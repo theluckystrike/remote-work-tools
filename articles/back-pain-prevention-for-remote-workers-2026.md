@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Back Pain Prevention for Remote Workers 2026: A Developer's Guide"
-description: "Practical strategies and code-powered solutions to prevent back pain while working remotely. Learn ergonomic setups, movement routines, and automation tools for developers."
+description: "Practical strategies and code-powered solutions to prevent back pain while working remotely. Learn ergonomic setups, movement routines, and automation."
 date: 2026-03-15
 author: theluckystrike
 permalink: /back-pain-prevention-for-remote-workers-2026/
@@ -196,6 +196,11 @@ The strategies above work best as a system, not a checklist. Pick one change to 
 Small consistent improvements beat dramatic overhauls that you abandon after a week. Start with your next commit, then stand up and stretch.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
