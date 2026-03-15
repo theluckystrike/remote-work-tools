@@ -3,13 +3,13 @@
 
 layout: default
 title: "GitHub Pull Request Workflow for Distributed Teams"
-description: "Master GitHub pull request workflows designed for distributed teams. Includes branch strategies, code review patterns, automation examples, and time zone coordination techniques."
+description: "Master GitHub pull request workflows designed for distributed teams. Includes branch strategies, code review patterns, automation examples, and time."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /github-pull-request-workflow-for-distributed-teams/
 reviewed: true
 score: 8
-categories: [productivity]
+categories: [guides]
 ---
 
 
@@ -264,6 +264,13 @@ Squash merging keeps main history linear and makes rollback simpler. For distrib
 A well-designed GitHub pull request workflow compensates for the lack of face-to-face interaction. Clear conventions, explicit expectations, and thoughtful automation transform pull requests from bottlenecks into efficient collaboration channels. Start with these patterns and adapt them to your team's specific time zones and working styles.
 
 The goal isn't perfection—it's reducing friction so your distributed team moves fast without breaking things.
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
