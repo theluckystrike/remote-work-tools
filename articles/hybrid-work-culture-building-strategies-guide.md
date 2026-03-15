@@ -11,13 +11,14 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 
 {% raw %}
 # Hybrid Work Culture Building Strategies Guide
 
-Building culture in hybrid teams requires intentional design. Unlike fully remote setups where everyone starts equal, hybrid environments create friction between office-based and remote team members. This guide provides practical strategies and code examples for developers and technical leads who want to build strong, inclusive culture across distributed teams.
+Hybrid work culture breaks down when in-office employees accumulate more information, opportunities, and social capital than remote team members. The fix is treating culture infrastructure like your codebase: unified async communication channels, equitable meeting design where every participant joins by video, and documented decision records with async feedback periods. This guide provides five concrete strategies with implementation examples for technical teams.
 
 ## The Hybrid Culture Challenge
 
