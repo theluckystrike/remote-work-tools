@@ -10,6 +10,7 @@ tags: [remote-work, productivity, meetings]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -19,7 +20,7 @@ A good remote meeting agenda states the meeting's purpose, assigns time limits a
 
 ## The Core Components of an Effective Agenda
 
-Every solid meeting agenda needs five elements: a clear purpose, time bounds, specific topics with owners, expected outcomes, and prep materials. Without these, meetings drift into unfocused discussions that could have been asynchronous.
+Every solid meeting agenda needs five elements: a clear purpose, time bounds, specific topics with owners, expected outcomes, and prep materials.
 
 A straightforward agenda format in markdown looks like this:
 
@@ -45,7 +46,7 @@ A straightforward agenda format in markdown looks like this:
 - Read the API redesign doc
 ```
 
-This structure tells attendees exactly what to expect, who owns each topic, and what preparation they need to do beforehand.
+This structure shows attendees what to expect, who owns each topic, and what they need to prepare.
 
 ## Writing Agenda Items That Drive Discussion
 
@@ -158,9 +159,9 @@ After the meeting, publish notes within a few hours while the discussion is fres
 
 Writing good remote meeting agendas comes down to four principles. First, be specific about decisions needed — vague agendas produce vague outcomes. Second, provide context upfront — link specs, documents, and background materials. Third, respect time — allocate realistic durations and enforce them. Fourth, close the loop — document decisions and action items immediately after the meeting.
 
-Remote teams that adopt structured agendas typically see fewer meetings, shorter meetings, and more productive discussions. The upfront investment in writing a clear agenda pays dividends in saved time and clearer communication.
+Remote teams that adopt structured agendas typically see fewer meetings, shorter meetings, and more productive discussions.
 
-Start with your next meeting. Write the agenda first, then evaluate whether the meeting is still necessary. Sometimes a well-written agenda reveals that the meeting itself isn't needed.
+Write the agenda before sending the invite, then evaluate whether the meeting is still necessary. Sometimes a well-written agenda reveals the meeting itself isn't needed.
 
 ---
 

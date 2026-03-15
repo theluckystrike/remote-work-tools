@@ -11,6 +11,7 @@ tags: [tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -21,17 +22,13 @@ A freelance software developer NDA template should include seven sections: defin
 
 ## Why Freelance Developers Need NDAs
 
-Clients trust you with valuable intellectual property. Before writing a single line of code, you should have a signed NDA in place. This document serves three essential purposes:
-
-1. **Legal protection** — Establishes legal consequences if confidential information is misused
-2. **Professional boundaries** — Defines exactly what information you can and cannot share
-3. **Client confidence** — Demonstrates professionalism and builds trust
+Clients trust you with valuable intellectual property. Before writing a single line of code, you should have a signed NDA in place. It establishes legal consequences if confidential information is misused, defines what information you can and cannot share, and demonstrates professionalism that builds client trust.
 
 Without an NDA, you have no legal recourse if a client claims you leaked their secrets—or if a client uses your ideas without compensation.
 
 ## A Practical NDA Template for Developers
 
-Below is a comprehensive NDA template tailored for freelance software development engagements. Customize the bracketed sections to match your specific situation.
+Below is an NDA template tailored for freelance software development engagements. Customize the bracketed sections to match your specific situation.
 
 ```markdown
 # NON-DISCLOSURE AGREEMENT
@@ -183,10 +180,7 @@ legal/
 
 Maintain several template versions for different scenarios:
 
-1. **Standard mutual NDA** — For most clients
-2. **Simplified NDA** — For small projects with minimal sensitive data
-3. **Strict NDA** — For highly sensitive work (fintech, healthcare)
-4. **NDA addendum** — Supplementary terms for specific projects
+Keep a standard mutual NDA for most clients, a simplified version for small projects with minimal sensitive data, a stricter version for fintech or healthcare work, and an addendum template for supplementary terms on specific projects.
 
 ### Automate Reminders
 
@@ -207,23 +201,15 @@ for nda in ndas:
 
 ## Common Mistakes to Avoid
 
-**Mistake 1: Using vague language**
-Avoid phrases like "any information shared" or "things that seem private." Be specific about categories of information.
+Avoid vague phrases like "any information shared" or "things that seem private" — be specific about categories of information.
 
-**Mistake 2: No expiration date**
-Without a defined term, you could be bound indefinitely. Specify how long confidentiality lasts—typically 2-5 years for general information, indefinite for trade secrets.
+Without a defined term, you could be bound indefinitely. Specify how long confidentiality lasts — typically 2-5 years for general information, indefinite for trade secrets.
 
-**Mistake 3: Forgetting about metadata**
 Code comments, commit messages, and git history can contain sensitive information. Your NDA should address handling of these artifacts.
 
-**Mistake 4: Not addressing derivative works**
 Clarify whether your general skills and knowledge can be applied to future projects. The template above includes this protection.
 
-## Final Thoughts
-
-An NDA is a foundational document in your freelance development practice. Take time to customize the template above for your specific needs, and always have it signed before beginning work. While it may feel awkward to ask clients to sign legal documents, professional clients understand and appreciate the boundaries an NDA establishes.
-
-Remember: the best contracts are those both parties understand and accept. Keep your NDAs clear, specific, and fair to maintain positive client relationships while protecting your interests.
+Customize the template above for your specific needs and have it signed before beginning work. The best contracts are ones both parties understand and accept — keep your NDAs clear, specific, and fair.
 
 ---
 
