@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Best Invoicing Workflow for Solo Developer with International Clients"
 description: "Learn how to build an efficient invoicing workflow tailored for solo developers working with international clients. Includes practical examples, automation tips, and currency handling strategies."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-invoicing-workflow-for-solo-developer-with-international-clients/
 categories: [guides]
 tags: [invoicing, freelance, international, payments, finance]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Best Invoicing Workflow for Solo Developer with International Clients
