@@ -9,6 +9,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -129,9 +130,7 @@ For high-earning developers, a defined benefit plan (sometimes called a "cash ba
 
 Beyond contribution limits, strategic planning maximizes your retirement savings:
 
-- **Time your contributions**: You have until the tax filing deadline (typically April 15) to make retirement contributions for the previous year
-- **Harvest tax deductions**: SEP IRA and Solo 401(k) contributions reduce your taxable income
-- **Roth conversion ladder**: Convert traditional IRA funds to Roth gradually during low-income years to manage tax brackets
+You have until the tax filing deadline (typically April 15) to make retirement contributions for the previous year, so timing contributions strategically gives you flexibility. SEP IRA and Solo 401(k) contributions reduce your taxable income directly, and a Roth conversion ladder—gradually converting traditional IRA funds to Roth during low-income years—helps you manage tax brackets over time.
 
 ## Getting Started Today
 

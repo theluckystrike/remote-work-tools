@@ -10,7 +10,7 @@ tags: [skip-level-meeting, remote-work, leadership, team-management]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}
@@ -20,11 +20,7 @@ A skip level meeting is a one-on-one where a senior leader meets directly with i
 
 ## Why Skip Level Meetings Matter
 
-Remote work creates communication gaps. When teams are distributed across time zones and communicate primarily through Slack, email, or video calls, important feedback gets filtered or lost. Skip level meetings address three specific problems:
-
-1. **Hidden blockers**: ICs often don't share blockers with their direct manager due to fear of appearing incompetent
-2. **Cultural drift**: Leadership loses touch with how teams actually operate day-to-day
-3. **Talent retention**: High performers leave when they feel unheard or unseen by senior leadership
+Remote work creates communication gaps. When teams are distributed across time zones and communicate primarily through Slack, email, or video calls, important feedback gets filtered or lost. Skip level meetings address three specific problems. ICs often don't share blockers with their direct manager out of fear of appearing incompetent, so hidden issues accumulate. Leadership loses touch with how teams actually operate day-to-day, causing cultural drift. And high performers leave when they feel unheard or unseen by senior leadership.
 
 The key is making these meetings valuable for everyone involved, not just another checkbox exercise.
 
@@ -59,11 +55,7 @@ const skipLevelSchedule = {
 
 Don't include everyone in every meeting. Rotate through team members so each IC gets face time with senior leadership every 2-3 months. This keeps the meetings manageable and ensures broader coverage over time.
 
-Prioritize ICs who:
-- Have been with the team for 6+ months
-- Are high performers at risk of leaving
-- Work on critical projects
-- Have recently taken on new responsibilities
+Prioritize ICs who have been with the team for 6+ months, are high performers at risk of leaving, work on critical projects, or have recently taken on new responsibilities.
 
 ## Running Effective Skip Level Meetings
 
@@ -146,11 +138,7 @@ Use a lightweight voice recorder or take minimal notes. Eye contact matters more
 
 ## Async Alternatives for Distributed Teams
 
-Not every organization can synchronize across time zones. Consider an async skip level process:
-
-1. **Quarterly written update**: ICs send a brief update to skip-level managers covering wins, challenges, and career goals
-2. **Anonymous feedback tools**: Use tools like Bonusly or Lattice for regular pulse surveys
-3. **Video message exchange**: Record a 3-minute video response to their written update
+Not every organization can synchronize across time zones. Consider an async skip level process. ICs send a quarterly written update to skip-level managers covering wins, challenges, and career goals. Anonymous feedback tools like Bonusly or Lattice can supplement with regular pulse surveys. Leaders then record a 3-minute video response to each written update.
 
 An async workflow might look like:
 

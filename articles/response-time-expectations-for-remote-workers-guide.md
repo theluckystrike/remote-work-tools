@@ -11,7 +11,7 @@ tags: [remote-work, communication, productivity, async-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 
@@ -151,13 +151,7 @@ Use these tools sparingly. Overusing urgent channels breeds alarm fatigue and re
 
 Working across timezones requires intentional communication about response times. When your teammate in Tokyo sends a message at their 9 AM, it might be your 6 PM. Neither of you should expect immediate responses.
 
-Practical strategies include:
-
-1. **Timezone overlap identification** — Find the 2-4 hours when everyone on your team is awake and use that for synchronous discussions
-
-2. **Relative time references** — Instead of "回复 by 5pm", say "回复 by EOD your time" or "回复 by my Thursday morning"
-
-3. **Scheduled async updates** — Use daily standup documents or weekly reports that account for different timezones:
+Start by finding the 2–4 hours when everyone on your team is awake and reserving that window for synchronous discussions. When referencing deadlines, avoid clock times like "by 5pm" in favor of "by EOD your time" or "by my Thursday morning." For everything else, use daily standup documents or weekly reports that account for different timezones:
 
 ```markdown
 ## Daily Update - March 15
@@ -210,9 +204,7 @@ If circumstances change—travel, illness, heavy workload—communicate proactiv
 
 ## Final Thoughts
 
-Response time expectations for remote workers come down to three practices: clarity about when you're available, explicit commitments to response windows, and consistent follow-through. The goal isn't rapidfire messaging—it's building a sustainable communication rhythm that respects everyone's time and enables deep work.
-
-Start by documenting your availability, setting appropriate status indicators, and communicating your response time commitments to your team. Adjust based on feedback and team needs, but never sacrifice your ability to do focused work for the sake of appearing responsive.
+Document your availability, set appropriate status indicators, and communicate your response time commitments to your team. Adjust based on feedback and team needs, but never sacrifice the ability to do focused work for the sake of appearing responsive.
 
 
 ## Related Reading

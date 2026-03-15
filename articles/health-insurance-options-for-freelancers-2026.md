@@ -11,6 +11,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -149,22 +150,11 @@ Key programs include:
 - **Altrua** — Another health sharing option with various membership levels
 - **Liberty HealthShare** — Offers various sharing amounts
 
-Things to understand about cost-sharing:
-
-- Pre-existing conditions may have waiting periods or exclusions
-- Programs typically don't cover preventive care the same way as ACA plans
-- Membership is voluntary and not guaranteed acceptance
+Cost-sharing programs have important limitations. Pre-existing conditions may have waiting periods or exclusions, and programs typically don't cover preventive care the same way ACA plans do. Membership is voluntary and acceptance is not guaranteed.
 
 ## State-Specific Programs
 
-Several states offer additional programs for freelancers and self-employed individuals:
-
-- **California**: Covered California offers subsidies beyond federal levels
-- **New York**: Essential Plan for low-income individuals ($0-$50/month premiums)
-- **Massachusetts**: ConnectorCare with fixed copays
-- **Minnesota**: MinnesotaCare with income-based premiums
-
-Check your state marketplace for programs beyond standard ACA options.
+Several states offer additional programs for freelancers and self-employed individuals. California's Covered California offers subsidies beyond federal levels. New York's Essential Plan covers low-income individuals at $0–$50/month. Massachusetts offers ConnectorCare with fixed copays, and Minnesota offers MinnesotaCare with income-based premiums. Check your state marketplace for programs beyond standard ACA options.
 
 ## Practical Strategy: The Freelancer Stack
 
@@ -184,17 +174,11 @@ Many freelancers combine approaches for optimal coverage:
 | Catastrophic insurance (optional) | $20-40 |
 | **Total** | **$370-640** |
 
-This provides comprehensive coverage with tax advantages while keeping costs manageable.
+This combination provides solid coverage with tax advantages while keeping costs manageable.
 
 ## What Developers Should Consider
 
-As a freelancer who likely values flexibility and optimization, consider these factors:
-
-- **Network size**: Larger networks mean more provider options but higher premiums
-- **Telehealth options**: Many plans now include robust telehealth at no cost
-- **Prescription coverage**: Check formularies if you take regular medications
-- **Out-of-pocket maximum**: Protects against catastrophic medical events
-- **Mental health coverage**: Increasingly important; verify parity with physical health
+Larger networks mean more provider options but higher premiums, so match network size to how often you see specialists. Many plans now include telehealth at no cost, which covers most routine care. Check formularies before enrolling if you take regular medications. Pay attention to the out-of-pocket maximum—it caps your exposure in a catastrophic year. Mental health coverage has become increasingly important; verify that your plan treats it at parity with physical health.
 
 ## Documentation for Freelancers
 
