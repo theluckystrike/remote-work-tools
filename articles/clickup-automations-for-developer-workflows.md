@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -126,9 +127,9 @@ Action: Set due date to +7 days for review
 
 Many teams integrate ClickUp with their CI/CD pipelines. Here's a pattern for tracking deployments:
 
-1. **When deployment starts**: Set task status to "Deploying" with a timestamp custom field
-2. **When deployment succeeds**: Set status to "Deployed", notify #releases channel
-3. **When deployment fails**: Set status to "Deployment Failed", assign to last commit author
+1. When deployment starts: set task status to "Deploying" with a timestamp custom field
+2. When deployment succeeds: set status to "Deployed", notify #releases channel
+3. When deployment fails: set status to "Deployment Failed", assign to last commit author
 
 ```
 Trigger: Webhook received from deployment system (status: success)
@@ -146,8 +147,6 @@ Start with automations that address frequent, repetitive actions. A good approac
 Be cautious about over-automation. Too many notifications or aggressive auto-assignments can create noise and frustrate team members. Review your automations periodically and adjust based on actual workflow patterns.
 
 Document your automations somewhere visible. When team members understand why certain actions happen automatically, they can provide better feedback on whether the automation is helping or hindering.
-
-## Wrapping Up
 
 Start with simple, high-impact automations—status-based notifications and task routing—and add complexity as your workflow stabilizes. The automation builder requires no programming experience, but developers can extend it through webhooks and integrations with external systems.
 

@@ -10,6 +10,7 @@ tags: [adr, documentation, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -21,8 +22,7 @@ Use Log4brains if you want ADRs stored directly in your codebase with a browsabl
 
 When your engineering team spans multiple time zones, you lose the informal context that happens in office hallways. Someone makes a database choice in 2024, and by 2026, nobody remembers the tradeoffs that shaped that decision. ADRs solve this by creating a permanent, searchable record of technical choices and their reasoning.
 
-The best ADR tools for remote teams share several characteristics: they integrate with your existing workflow, support async review processes, and keep decisions discoverable over time. Here's how to evaluate tools against these needs.
-
+The best ADR tools for remote teams share several characteristics: they integrate with your existing workflow, support async review processes, and keep decisions discoverable over time. 
 ## Log4brains: ADR Management in Your Codebase
 
 Log4brains treats ADRs as code, storing them directly in your repository alongside your documentation. It works with markdown files following the ADR format and provides a web interface for browsing decisions.
@@ -176,12 +176,7 @@ The right tool depends on where your team already spends time. If everyone lives
 
 Regardless of tool choice, establish a consistent process:
 
-1. **Proposal**: One engineer drafts an ADR describing the decision context
-2. **Async Review**: Team members comment over 48-72 hours across time zones
-3. **Decision**: Status updates to Accepted or Rejected based on feedback
-4. **Reference**: Link to the ADR in code comments, PR descriptions, and technical specs
-
-This workflow ensures decisions have input from multiple perspectives without requiring synchronous meetings. The ADR becomes the single source of truth that anyone can reference later.
+One engineer drafts an ADR describing the decision context, then team members comment over 48–72 hours across time zones. Status updates to Accepted or Rejected based on that feedback. Link to the ADR in code comments, PR descriptions, and technical specs so it becomes the single source of truth that anyone can reference later.
 
 ## Automating ADR Creation
 
@@ -214,12 +209,6 @@ echo "Created ADR-${NEXT}: $1"
 ```
 
 Run this script with `./new-adr.sh "Use Redis for Caching"` to generate a properly numbered, formatted ADR ready for editing.
-
-## Conclusion
-
-ADR tools for remote engineering teams don't need to be complex. The goal is capturing decisions in a way that survives personnel changes and time zone barriers. Whether you use Log4brains, Notion, or plain markdown in your repo, consistency matters more than tooling sophistication.
-
-Start by creating ADRs for your next three technical decisions. Over time, you'll build a searchable knowledge base that makes architectural context available to everyone on your distributed team.
 
 ---
 
