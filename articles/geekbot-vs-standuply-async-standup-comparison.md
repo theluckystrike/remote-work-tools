@@ -7,7 +7,7 @@ description: "A technical comparison of Geekbot and Standuply for asynchronous s
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /geekbot-vs-standuply-async-standup-comparison/
-categories: [comparison]
+categories: [guides]
 reviewed: true
 score: 8
 ---
