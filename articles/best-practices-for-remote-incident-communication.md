@@ -2,13 +2,13 @@
 
 layout: default
 title: "Best Practices for Remote Incident Communication"
-description: "Learn practical strategies for communicating during incidents when working remotely. Includes status page templates, Slack workflows, escalation matrices, and code examples for developers."
+description: "Learn practical strategies for communicating during incidents when working remotely. Includes status page templates, Slack workflows, escalation."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practices-for-remote-incident-communication/
 reviewed: true
 score: 8
-categories: [best-of]
+categories: [guides]
 ---
 
 {% raw %}
@@ -242,6 +242,11 @@ Effective remote incident communication comes down to preparation and discipline
 8. Automate repetitive communication tasks
 
 These practices work whether you're a team of five or five hundred. The investment in systems pays off the moment your first incident hits.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

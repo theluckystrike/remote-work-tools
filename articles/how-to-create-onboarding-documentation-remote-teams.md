@@ -237,6 +237,11 @@ Choose tools that integrate with your existing workflow and support the collabor
 
 Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating comprehensive, well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

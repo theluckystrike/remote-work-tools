@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Camera On vs Camera Off Debate in Remote Meetings: A Practical Guide"
+title: "Camera On vs Camera Off Debate in Remote Meetings: A."
 description: "A developer's guide to the camera on vs camera off debate in remote meetings. Includes browser APIs, automation tips, and team policies that actually work."
 date: 2026-03-15
 author: theluckystrike
@@ -157,5 +157,10 @@ The camera on vs camera off debate has no universal answer. The right choice dep
 For developer teams, the best approach is flexibility with clear defaults. Default to camera on for collaboration-heavy meetings where relationship building matters. Default to camera off for information-sharing sessions where the content is the priority.
 
 The goal isn't enforceability—it's creating norms where people feel comfortable either way while optimizing for the specific meeting outcome you need.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

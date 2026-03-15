@@ -201,5 +201,10 @@ Use the parking lot technique. When topics arise that deserve deeper discussion 
 
 Effective remote meeting agenda templates transform chaotic video calls into productive sessions that respect everyone's time. Start with these templates, adapt them to your team's specific needs, and iterate based on what works for your timezone distribution and communication style. The goal isn't perfect agendas—it's consistent, focused meetings that move work forward.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
