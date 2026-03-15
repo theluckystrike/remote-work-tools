@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Best Standing Desk for Home Office Coding: A Developer's Guide"
 description: "A practical guide to selecting the best standing desk for home office coding. Learn about desk types, height adjustment mechanisms, and how to integrate standing into your coding workflow."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-standing-desk-for-home-office-coding/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
+
 
 {% raw %}
 
