@@ -1,0 +1,13 @@
+title: "Remote Work Tools"
+url: "https://theluckystrike.github.io"
+baseurl: "/remote-work-tools"
+permalink: /:title/
+theme: minima
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: "articles"
+    values:
+      layout: default
