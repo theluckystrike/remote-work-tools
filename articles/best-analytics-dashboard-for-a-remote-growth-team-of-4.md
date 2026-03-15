@@ -10,7 +10,7 @@ categories: [guides]
 tags: [analytics, dashboards, remote-work, growth]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -18,7 +18,7 @@ voice-checked: false
 {% raw %}
 # Best Analytics Dashboard for a Remote Growth Team of 4
 
-Small remote growth teams face a unique challenge: you need the same analytical power as larger teams, but with fewer hands and tighter budgets. A four-person growth team typically splits responsibilities across acquisition, activation, retention, and revenue—a split that demands clear, real-time data visibility without the overhead of enterprise tooling. This guide evaluates analytics dashboards that actually work for this specific configuration, with practical implementation details for developers and power users.
+Metabase is the strongest pick for most four-person remote growth teams -- it offers self-service query building for non-technical teammates, full SQL access for developers, and scheduled alerts that work across time zones, all on an open-source model. Choose Grafana instead if you need real-time operational metrics alongside business data, or stick with Supabase's built-in analytics if your stack already runs on it and you only need basic visibility.
 
 ## What a Four-Person Remote Growth Team Actually Needs
 
