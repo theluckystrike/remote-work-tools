@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Satellite Office Strategy for Hybrid Companies"
 description: "A practical guide to satellite office strategy for hybrid companies. Learn infrastructure setup, team coordination patterns, and implementation approaches for developers and power users."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /satellite-office-strategy-for-hybrid-companies/
 categories: [guides]
 tags: [satellite-office, hybrid-work, remote-infrastructure]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Satellite Office Strategy for Hybrid Companies
