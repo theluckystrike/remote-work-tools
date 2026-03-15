@@ -9,6 +9,7 @@ permalink: /notion-habit-tracker-template-for-developers/
 categories: [productivity, guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
@@ -16,7 +17,7 @@ score: 8
 
 # Notion Habit Tracker Template for Developers: Build Consistent Routines
 
-Tracking habits consistently remains one of the most effective ways to improve as a developer. Whether you want to code daily, review pull requests promptly, or maintain documentation habits, a well-structured Notion template transforms intention into action. This guide walks through building a habit tracker tailored to developer workflows, with practical database configurations and automation examples you can implement immediately.
+Build a developer habit tracker in Notion using two connected databases: a Habits database (name, category, frequency, streak) and a Daily Log database (date, habit relation, completed checkbox, notes). Start with three or fewer habits tied to your development goals -- like daily commits, code reviews, or learning time -- and connect them via a Relation property for automatic streak tracking. This guide walks through the full setup with database configurations and automation examples you can implement immediately.
 
 ## Why Developers Need Structured Habit Tracking
 

@@ -10,12 +10,13 @@ permalink: /how-to-manage-sprints-with-remote-team/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
 # How to Manage Sprints with a Remote Team: A Practical Guide
 
-Managing sprints with a remote team requires adapting traditional Agile ceremonies to work across time zones, communication channels, and async workflows. This guide covers practical strategies for running effective sprints when your team is distributed.
+Run async standups via a structured Slack template, send sprint backlogs 24 hours before planning meetings, and use tools like Jira or Linear to map dependencies visually so blockers surface early. These three changes convert standard Agile ceremonies into a workflow that actually functions across time zones and async-first teams.
 
 ## Setting Up Your Sprint Framework for Remote Work
 

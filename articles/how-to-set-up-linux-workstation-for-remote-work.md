@@ -9,10 +9,11 @@ permalink: /how-to-set-up-linux-workstation-for-remote-work/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
-Setting up a Linux workstation for remote work requires careful planning. This guide covers the essential steps to get your development environment ready for productive remote work, from initial OS installation to security hardening and collaboration tool setup.
+Start with Ubuntu LTS for stability, install Git and your preferred IDE, generate an ED25519 SSH key, enable UFW with deny-incoming defaults, and set up your employer's VPN client -- that core checklist gets a Linux workstation remote-work-ready in under an hour. The sections below walk through each step with copy-paste commands, plus extras like tmux for persistent sessions, PipeWire screen sharing, and automated backups with Restic.
 
 ## Choosing Your Linux Distribution
 

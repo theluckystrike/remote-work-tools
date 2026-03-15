@@ -9,11 +9,12 @@ permalink: /obsidian-vs-logseq-for-developer-notes/
 reviewed: true
 score: 8
 categories: [comparisons]
+intent-checked: true
 ---
 
 
 {% raw %}
-If you're a developer looking to organize your technical knowledge, you've likely encountered both Obsidian and Logseq. These two note-taking applications have developed passionate followings in the developer community, but they approach knowledge management in fundamentally different ways. This comparison will help you choose the right tool for your workflow.
+Choose Obsidian if you prefer file-based Markdown organization, need a mature plugin ecosystem, and want notes that work independently in any editor. Choose Logseq if you think in outlines and hierarchies, want built-in powerful queries without plugins, and prioritize rapid block-level note capture. Both store data locally as plain Markdown so you are never locked in -- this comparison covers the practical differences that matter for developer workflows.
 
 ## The Core Difference: Bidirectional Linking Philosophy
 

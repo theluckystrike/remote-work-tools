@@ -11,12 +11,13 @@ categories: [guides]
 tags: [wezterm, alacritty, terminal, emulator, development-tools]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 # Wezterm vs Alacritty Terminal Comparison: A Practical Guide
 
-Choosing the right terminal emulator can significantly impact your daily productivity as a developer. Two popular options that frequently appear in discussions are Wezterm and Alacritty. Both have passionate communities and distinct philosophies. This guide breaks down their differences to help you make an informed decision.
+Choose Wezterm if you want built-in tabs, split panes, and Lua-powered configuration without relying on tmux. Choose Alacritty if raw performance and minimalism are your top priorities and you already use tmux for multiplexing. Both are GPU-accelerated Rust terminals, but Wezterm bundles more features while Alacritty stays deliberately lean -- this guide covers the practical tradeoffs across performance, configuration, and workflow integration.
 
 ## Understanding the Core Philosophies
 

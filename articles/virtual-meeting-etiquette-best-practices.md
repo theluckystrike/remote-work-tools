@@ -10,12 +10,13 @@ permalink: /virtual-meeting-etiquette-best-practices/
 reviewed: true
 score: 8
 categories: [best-of]
+intent-checked: true
 ---
 
 
 # Virtual Meeting Etiquette Best Practices: A Developer Guide
 
-Virtual meetings have become the default collaboration format for distributed teams. Unlike casual video calls, professional meetings require structure, preparation, and technical awareness. This guide covers virtual meeting etiquette best practices specifically for developers and power users who want to run more effective meetings and communicate more clearly.
+The three highest-impact virtual meeting practices are: test your audio and video before every call, mute when not speaking, and always review the agenda beforehand. These habits alone eliminate the most common meeting friction for remote developer teams. This guide goes deeper with platform-specific shortcuts, automation scripts for meeting prep, and etiquette guidelines for screen sharing, camera use, and post-meeting follow-up.
 
 ## Pre-Meeting Preparation
 
