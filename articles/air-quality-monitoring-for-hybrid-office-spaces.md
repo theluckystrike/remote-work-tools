@@ -8,12 +8,13 @@ permalink: /air-quality-monitoring-for-hybrid-office-spaces/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # Air Quality Monitoring for Hybrid Office Spaces: A Technical Guide
 
-Hybrid office spaces present unique challenges for maintaining healthy indoor environments. When some team members work remotely while others occupy the physical office, understanding air quality becomes critical for workplace safety, productivity, and employee wellbeing. This guide covers the technical implementation of air quality monitoring systems tailored for hybrid workplaces, with practical code examples for developers building custom solutions.
+To implement air quality monitoring in hybrid offices, deploy ESP32-based sensors measuring CO2, PM2.5, VOCs, and humidity, connected via MQTT to a time-series database and dashboard with threshold-based alerts. Hybrid office spaces require balancing variable occupancy patterns while providing real-time visibility into air quality metrics that directly impact employee health and productivity. This guide covers the complete technical implementation—from sensor selection and data pipelines to automation rules and practical deployment strategies.
 
 ## Understanding Air Quality Metrics
 
