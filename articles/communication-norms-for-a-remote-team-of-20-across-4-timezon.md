@@ -5,6 +5,10 @@ description: "Practical strategies for establishing effective communication prot
 date: 2026-03-16
 author: theluckystrike
 permalink: /communication-norms-for-a-remote-team-of-20-across-4-timezon/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 Effective communication in a remote team of 20 people spread across four time zones requires deliberate structure. Unlike co-located teams where you can lean over and ask a question, distributed teams need explicit norms that account for asynchronous workflows, context switching, and the inevitable delays between sending a message and receiving a response.
