@@ -9,7 +9,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-automate-dev-environment-setup/
 reviewed: true
 score: 8
-categories: [setup]
+categories: [guides]
 ---
 {% raw %}
 
