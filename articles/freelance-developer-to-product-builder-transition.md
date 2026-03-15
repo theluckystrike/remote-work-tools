@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Freelance Developer to Product Builder Transition: A Practical Guide"
 description: "Learn how to transition from freelance developer to product builder. Discover the mindset shifts, technical skills, and business strategies needed to build and ship your own products."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /freelance-developer-to-product-builder-transition/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # Freelance Developer to Product Builder Transition: A Practical Guide
