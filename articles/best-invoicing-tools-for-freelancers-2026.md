@@ -6,7 +6,7 @@ description: "Compare the top invoicing solutions for freelancers in 2026. Inclu
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-invoicing-tools-for-freelancers-2026/
-categories: [tools]
+categories: [guides]
 intent-checked: true
 voice-checked: true
 reviewed: true

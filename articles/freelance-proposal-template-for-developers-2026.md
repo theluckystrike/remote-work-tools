@@ -5,6 +5,10 @@ description: "A practical guide to creating winning freelance proposals in 2026.
 date: 2026-03-15
 author: theluckystrike
 permalink: /freelance-proposal-template-for-developers-2026/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
