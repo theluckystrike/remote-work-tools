@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /best-blue-light-glasses-for-programmers/
 reviewed: true
 score: 8
-categories: [hardware, eye-care]
+categories: [guides]
 intent-checked: true
 voice-checked: true
 ---
