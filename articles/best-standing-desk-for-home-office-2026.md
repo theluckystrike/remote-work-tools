@@ -11,7 +11,7 @@ tags: [standing-desk, home-office, ergonomics, remote-work]
 reviewed: true
 score: 8
 intent-checked: false
-voice-checked: false
+voice-checked: true
 ---
 
 
