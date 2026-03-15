@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Build a Remote Team Wiki from Scratch"
-description: "A practical guide for developers and power users to build a collaborative team wiki from scratch. Includes architecture, tools, code examples, and implementation strategies."
+description: "A practical guide for developers and power users to build a collaborative team wiki from scratch. Includes architecture, tools, code examples, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-wiki-from-scratch/
@@ -192,6 +192,13 @@ Track wiki health through concrete metrics:
 These metrics reveal whether your wiki solves problems or creates maintenance busywork. Adjust your approach based on what the data tells you.
 
 A well-built wiki becomes the institutional memory of your team. It survives personnel changes, scales with organization growth, and directly impacts productivity. The investment in building it right pays dividends every day.
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

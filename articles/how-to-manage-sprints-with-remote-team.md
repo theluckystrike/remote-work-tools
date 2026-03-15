@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "How to Manage Sprints with Remote Team: A Practical Guide for Developers"
-description: "Learn practical strategies and code examples for managing sprints with remote development teams. Includes async standups, sprint planning scripts, and velocity tracking."
+title: "How to Manage Sprints with Remote Team: A Practical."
+description: "Learn practical strategies and code examples for managing sprints with remote development teams. Includes async standups, sprint planning scripts, and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-sprints-with-remote-team/
-categories: [workflows]
+categories: [guides]
 tags: [remote-work, tools]
 reviewed: true
 score: 8
@@ -310,5 +310,12 @@ Managing sprints with remote teams succeeds when you:
 The tools matter less than the discipline. Start with async standups this week, add capacity planning next sprint, and iterate from there.
 
 ---
+
+
+## Related Reading
+
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
