@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Effective Remote Workshops"
-description: "Learn practical techniques to run effective remote workshops for distributed teams. Includes facilitation scripts, automation examples, and actionable strategies for developers."
+description: "Learn practical techniques to run effective remote workshops for distributed teams. Includes facilitation scripts, automation examples, and actionable."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-run-effective-remote-workshops/
@@ -243,6 +243,11 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 Effective remote workshops require more deliberate planning than in-person sessions, but the payoff is substantial. Clear objectives, thoughtful tool selection, structured facilitation, and rigorous follow-through transform workshops from time-wasters into drivers of team progress.
 
 Start with one workshop type—technical planning works well—and apply these techniques consistently. Measure your outcomes, gather feedback, and iterate. Your team will quickly recognize the difference between effective workshops and expensive video calls.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Standup Bot Comparison for Remote Engineering Teams"
-description: "Compare the best standup bots for remote engineering teams. Evaluate GeekBot, Standuply, Cyclops, and more with features, pricing, and implementation guides."
+description: "Compare the best standup bots for remote engineering teams. Evaluate GeekBot, Standuply, Cyclops, and more with features, pricing, and implementation."
 date: 2026-03-15
 author: theluckystrike
 permalink: /standup-bot-comparison-for-remote-engineering-teams/
@@ -109,6 +109,11 @@ Deploying a bot is only half the battle. Make async standups valuable by keeping
 Adjust questions based on your team's needs. Some teams benefit from "What will you work on today?" while others need "What decisions did you make yesterday?" to surface architectural choices.
 
 Rotate standup facilitators who summarize themes and flag items needing synchronous discussion. Async standups work best when they feed into occasional sync meetings rather than replacing all communication.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at zovo.one
 {% endraw %}

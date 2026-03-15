@@ -162,5 +162,10 @@ Encourage playbook contributions through pull requests. When someone discovers a
 
 Building a remote work infrastructure takes deliberate effort, but the template above gives you a starting point. Start with the components that address your team's biggest pain points, then expand as you learn what works for your specific context.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

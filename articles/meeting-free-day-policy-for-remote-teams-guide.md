@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Meeting Free Day Policy for Remote Teams Guide"
-description: "A practical guide to implementing meeting free day policies for remote teams. Includes policy templates, scheduling scripts, and developer-focused strategies."
+description: "A practical guide to implementing meeting free day policies for remote teams. Includes policy templates, scheduling scripts, and developer-focused."
 date: 2026-03-15
 author: theluckystrike
 permalink: /meeting-free-day-policy-for-remote-teams-guide/
@@ -147,6 +147,11 @@ Most teams see improvement within 2-3 weeks. The key is consistency. Missing eve
 Start small. Pick one day next week. Block it on your calendar and communicate it to your team. See what breaks and fix those issues. Iterate from there.
 
 The goal isn't perfection—it's protecting time for the deep work that matters. Most teams find that once they experience focused work without interruptions, they never want to go back.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
