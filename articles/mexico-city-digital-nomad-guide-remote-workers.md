@@ -2,7 +2,7 @@
 
 layout: default
 title: "Mexico City Digital Nomad Guide for Remote Workers"
-description: "A practical guide for developers and power users working remotely in Mexico City. Covers neighborhoods, coworking spaces, internet setup, and essential tips."
+description: "A practical guide for developers and power users working remotely in Mexico City. Covers neighborhoods, coworking spaces, internet setup, and essential."
 date: 2026-03-15
 author: theluckystrike
 permalink: /mexico-city-digital-nomad-guide-remote-workers/
@@ -202,6 +202,11 @@ Mexico City offers everything remote workers need: reliable infrastructure, affo
 The key to successful remote work in Mexico City comes down to three factors: reliable internet (test before you sign a lease), a good workspace (coworking or home office), and a routine that accounts for the city's energy. Once you establish those basics, you'll find a city that rewards both productivity and exploration.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
