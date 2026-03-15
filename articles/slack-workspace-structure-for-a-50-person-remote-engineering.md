@@ -2,8 +2,8 @@
 
 
 layout: default
-title: "Slack Workspace Structure for a 50 Person Remote Engineering Org"
-description: "A practical guide to organizing Slack channels, access controls, and integrations for a 50-person distributed engineering team. Includes naming conventions, retention policies, and real-world examples."
+title: "Slack Workspace Structure for a 50 Person Remote."
+description: "A practical guide to organizing Slack channels, access controls, and integrations for a 50-person distributed engineering team. Includes naming."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /slack-workspace-structure-for-a-50-person-remote-engineering/
@@ -302,6 +302,11 @@ Phase 3: Norms and Governance
 The right Slack structure reduces cognitive load and accelerates information flow. For 50-person remote engineering teams, the three-tier hierarchy (company, team, project) combined with consistent naming conventions, thoughtful access control, and integrated tooling creates a communication system that supports rather than hinders engineering work.
 
 Start with the basics, establish conventions early, and iterate as your team grows. The investment in structure pays dividends in reduced meeting time, better async collaboration, and searchable institutional knowledge.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

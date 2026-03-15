@@ -196,5 +196,10 @@ Start simple: pick your format (sync, async, or hybrid), set a rotation, create 
 
 The best standup is one that people actually show up to, whether that's in a Zoom room or a Slack thread. Make it useful, keep it short, and focus on unblocking each other.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

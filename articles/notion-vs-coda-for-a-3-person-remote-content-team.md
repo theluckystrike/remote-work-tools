@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Notion vs Coda for a 3 Person Remote Content Team"
-description: "Compare Notion and Coda for managing a 3-person remote content team. Includes practical workflows, automation capabilities, API integration, and real-world implementation examples."
+description: "Compare Notion and Coda for managing a 3-person remote content team. Includes practical workflows, automation capabilities, API integration, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /notion-vs-coda-for-a-3-person-remote-content-team/
@@ -137,5 +137,10 @@ For a three-person remote content team specifically, consider your team composit
 
 The best approach is often to start with one platform's free tier, run a month of content production through it, and evaluate based on actual friction points rather than theoretical capabilities.
 {% endraw %}
+
+
+## Related Reading
+
+- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
