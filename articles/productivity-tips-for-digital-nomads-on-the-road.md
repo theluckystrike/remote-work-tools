@@ -3,10 +3,12 @@ layout: default
 title: "Productivity Tips for Digital Nomads on the Road"
 description: "Practical productivity tips for digital nomads working on the road. Developer-focused strategies for maintaining focus, managing infrastructure, and staying productive while traveling."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /productivity-tips-for-digital-nomads-on-the-road/
 categories: [guides]
 tags: [remote-work, digital-nomad, productivity, travel-work]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
