@@ -2,7 +2,7 @@
 
 layout: default
 title: "Trello vs GitHub Projects for a 5-Person Open Source Team"
-description: "A practical comparison of Trello and GitHub Projects for managing a small open source project. Features, GitHub integration, workflow automation, and real-world implementation."
+description: "A practical comparison of Trello and GitHub Projects for managing a small open source project. Features, GitHub integration, workflow automation, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /trello-vs-github-projects-for-5-person-open-source-team/
@@ -132,6 +132,11 @@ A five-person open source team usually benefits from GitHub Projects for its zer
 However, if your project involves significant non-code work or your team prefers visual project management, Trello remains a solid choice. The key is committing to one system rather than splitting attention between both.
 
 Start with GitHub Projects if your open source work centers on code. Expand to Trello only when your project needs outgrow what GitHub Issues provides.
+
+
+## Related Reading
+
+- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
