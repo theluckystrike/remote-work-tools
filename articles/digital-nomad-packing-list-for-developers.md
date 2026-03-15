@@ -180,5 +180,10 @@ Every developer's needs differ based on their stack, travel style, and duration.
 
 The right packing list enables you to maintain productivity while traveling light. Focus on versatile, durable items that serve multiple purposes. Your future self, coding from a beach in Portugal or a café in Tokyo, will appreciate the thoughtful preparation.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

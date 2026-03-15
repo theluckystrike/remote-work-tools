@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "eSIM vs Local SIM Card for Digital Nomads"
-description: "A practical comparison of eSIM and local SIM cards for digital nomads. Technical analysis, setup examples, and recommendations for developers working remotely."
+description: "A practical comparison of eSIM and local SIM cards for digital nomads. Technical analysis, setup examples, and recommendations for developers working."
 date: 2026-03-15
 author: theluckystrike
 permalink: /esim-vs-local-sim-card-for-digital-nomads/
@@ -146,6 +146,11 @@ Your physical SIM handles bulk data in expensive countries or long stays. Your e
 The specific carriers and plans depend on your destinations and usage patterns. Check local carrier coverage maps before arrival, and keep a physical backup SIM in your行李 (luggage) for emergencies.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

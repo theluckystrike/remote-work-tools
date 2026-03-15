@@ -230,5 +230,10 @@ Mastering cafe work etiquette for remote workers combines technical preparation,
 Develop these habits consistently, and you'll find cafes remain viable workspaces for your remote career.
 
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
