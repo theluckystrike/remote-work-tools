@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Video Conferencing Setup for Hybrid Rooms: A Technical Guide"
-description: "A practical guide for developers and power users configuring video conferencing in hybrid rooms. Covers camera selection, lighting, and software integration."
+title: "Best Video Conferencing Setup for Hybrid Rooms: A."
+description: "A practical guide for developers and power users configuring video conferencing in hybrid rooms. Covers camera selection, lighting, and software."
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-video-conferencing-setup-for-hybrid-rooms/
@@ -163,6 +163,11 @@ For developers and power users configuring hybrid rooms, follow this implementat
 Effective hybrid room video setups balance in-room and remote participant needs through careful component selection and thoughtful placement. PTZ cameras with automated tracking handle dynamic speaker situations. Consistent front-lighting eliminates visibility complaints. Display positioning at eye level keeps in-room participants engaged with remote attendees.
 
 The specific hardware you choose matters less than ensuring each component serves both audiences. A well-configured room with mid-range equipment outperforms an expensive installation with poor lighting or awkward camera angles.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by the luckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
