@@ -1,13 +1,17 @@
 ---
 
+
 layout: default
 title: "Fibery vs Notion: All-in-One Workspace Comparison"
 description: "Compare Fibery and Notion as all-in-one workspaces for development teams. Includes API capabilities, database features, automation workflows, and practical implementation examples for power users."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /fibery-vs-notion-all-in-one-workspace-comparison/
 categories: [comparisons]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Fibery vs Notion: All-in-One Workspace Comparison

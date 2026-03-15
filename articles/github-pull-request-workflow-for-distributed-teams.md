@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "GitHub Pull Request Workflow for Distributed Teams"
 description: "Master GitHub pull request workflows designed for distributed teams. Includes branch strategies, code review patterns, automation examples, and time zone coordination techniques."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /github-pull-request-workflow-for-distributed-teams/
+reviewed: true
+score: 8
+categories: [productivity]
 ---
+
 
 {% raw %}
 # GitHub Pull Request Workflow for Distributed Teams
