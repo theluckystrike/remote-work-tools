@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Shortcut vs Linear: Issue Tracking Comparison for Development Teams"
 description: "A practical comparison of Shortcut vs Linear issue tracking. Learn the key differences, workflow approaches, and which tool fits your development workflow better."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /shortcut-vs-linear-issue-tracking-comparison/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
+
 
 {% raw %}
 # Shortcut vs Linear: Issue Tracking Comparison for Development Teams
