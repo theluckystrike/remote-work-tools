@@ -10,6 +10,7 @@ tags: [github, ssh, git, remote-work, productivity]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -197,11 +198,11 @@ If you see "Permission denied" or authentication failures, double-check that the
 
 ## Troubleshooting Common Issues
 
-**Wrong account on commits**: Run `git log` to check commit authors. If incorrect, amend the last commit with `git commit --amend --author="Name <email>"` or rebase to fix multiple commits.
+Wrong account on commits: Run `git log` to check commit authors. If incorrect, amend the last commit with `git commit --amend --author="Name <email>"` or rebase to fix multiple commits.
 
-**SSH key not being used**: Verify the key is added to the agent with `ssh-add -l`. If empty, add the keys again. Check file permissions—SSH requires private keys to be readable only by you: `chmod 600 ~/.ssh/github_personal`.
+SSH key not being used: Verify the key is added to the agent with `ssh-add -l`. If empty, add the keys again. Check file permissions—SSH requires private keys to be readable only by you: `chmod 600 ~/.ssh/github_personal`.
 
-**Wrong key offered to GitHub**: The `IdentitiesOnly yes` setting in your SSH config prevents SSH from offering multiple keys. Without it, SSH tries keys in order until one works, which can cause delays or failures with certain repository permissions.
+Wrong key offered to GitHub: The `IdentitiesOnly yes` setting in your SSH config prevents SSH from offering multiple keys. Without it, SSH tries keys in order until one works, which can cause delays or failures with certain repository permissions.
 
 ## When to Use HTTPS Instead
 
@@ -216,7 +217,7 @@ This approach uses your GitHub personal access token stored in the credential he
 
 ## Summary
 
-Setting up multiple GitHub accounts requires generating unique SSH keys for each identity, configuring SSH to route connections based on host aliases, and ensuring Git commits use the correct author information. Once configured, switching between accounts is seamless—you clone, push, and pull using the right host, and Git handles the rest.
+Setting up multiple GitHub accounts requires generating unique SSH keys for each identity, configuring SSH to route connections based on host aliases, and ensuring Git commits use the correct author information. Once configured, switching between accounts is automatic—you clone, push, and pull using the right host, and Git handles the rest.
 
 This setup scales well. Add new accounts by generating another key pair, updating your SSH config, and adding the public key to GitHub. The same pattern works whether you're managing two accounts or ten.
 

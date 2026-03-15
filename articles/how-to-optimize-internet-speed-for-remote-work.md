@@ -11,6 +11,7 @@ tags: [internet, network, remote-work, performance]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -36,9 +37,9 @@ speedtest-cli --simple
 ```
 
 Look for three key metrics:
-- **Download speed**: Affects pulling dependencies, loading documentation, and video calls
-- **Upload speed**: Critical for git pushes, sharing files, and video conferencing
-- **Latency (ping)**: Impacts interactive tasks like SSH sessions and real-time collaboration
+- Download speed: Affects pulling dependencies, loading documentation, and video calls
+- Upload speed: Critical for git pushes, sharing files, and video conferencing
+- Latency (ping): Impacts interactive tasks like SSH sessions and real-time collaboration
 
 For remote development work, latency matters more than raw throughput. A connection with 150 Mbps download but 80ms ping feels worse for coding than 50 Mbps with 15ms ping.
 
@@ -213,7 +214,7 @@ Before upgrading, contact your ISP to test the actual line quality. Often, techn
 
 ## Summary
 
-Optimizing internet speed for remote work involves systematic diagnosis and targeted fixes. Start with baseline measurements, identify bottlenecks through local network analysis, apply wired connections and DNS optimizations for immediate gains, and use OS-level tuning for fine-tuning. Monitor continuously to catch degradation early.
+Start with baseline measurements, identify bottlenecks through local network analysis, apply wired connections and DNS optimizations for immediate gains, and use OS-level tuning for fine-tuning. Monitor continuously to catch degradation early.
 
 Most remote workers see significant improvements from two changes: switching to Ethernet for critical work and configuring faster DNS servers. These cost nothing and take minutes to implement.
 

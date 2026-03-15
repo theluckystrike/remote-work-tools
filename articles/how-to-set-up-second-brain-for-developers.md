@@ -10,6 +10,7 @@ tags: [productivity, note-taking, knowledge-management]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -84,10 +85,10 @@ function debounce(fn, delay) {
 ### Plugins Worth Enabling
 
 Enable these core plugins from Settings > Plugins:
-- **Daily Notes**: Creates a note for each day automatically
-- **Tag Explorer**: Browse notes by tags
-- **Search**: Advanced search with regex support
-- **Markdown Format Converter**: Import from other systems
+- Daily Notes: Creates a note for each day automatically
+- Tag Explorer: Browse notes by tags
+- Search: Advanced search with regex support
+- Markdown Format Converter: Import from other systems
 
 ## Option 2: Notion — Relational Database Approach
 
@@ -97,14 +98,14 @@ Notion offers a cloud-hosted solution with databases, calendars, and collaborati
 
 Create a new Notion page and add these databases:
 
-1. **Code Snippets Database**
+1. Code Snippets Database
    - Properties: Language (select), Description (text), Tags (multi-select)
    - Relation: Links to Projects
 
-2. **Project Log Database**
+2. Project Log Database
    - Properties: Project Name (title), Status (select), Start Date (date), Notes (text)
 
-3. **Decision Log Database**
+3. Decision Log Database
    - Properties: Decision (title), Context (text), Outcome (text), Date (date)
 
 ### Using Relation Properties
