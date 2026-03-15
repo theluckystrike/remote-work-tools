@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-slack-alternatives-for-small-teams/
 reviewed: true
 score: 8
-categories: [alternatives]
+categories: [guides]
 ---
 
 

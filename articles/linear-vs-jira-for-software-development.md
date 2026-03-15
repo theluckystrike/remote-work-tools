@@ -7,7 +7,7 @@ description: "A detailed comparison of Linear vs Jira for software development t
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /linear-vs-jira-for-software-development/
-categories: [alternatives]
+categories: [guides]
 reviewed: true
 score: 8
 ---
