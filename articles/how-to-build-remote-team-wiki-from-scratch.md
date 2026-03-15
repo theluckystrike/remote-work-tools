@@ -1,243 +1,192 @@
 ---
-
-
 layout: default
 title: "How to Build a Remote Team Wiki from Scratch"
-description: "A practical guide for developers and power users building internal wikis. Covers architecture, tooling, Markdown workflows, and deployment strategies."
+description: "A practical guide for developers and power users to build a collaborative team wiki from scratch. Includes architecture, tools, code examples, and implementation strategies."
 date: 2026-03-15
-author: "Remote Work Tools Guide"
+author: theluckystrike
 permalink: /how-to-build-remote-team-wiki-from-scratch/
-reviewed: true
-score: 8
-categories: [guides]
-intent-checked: true
 ---
 
+{% raw %}
+A shared knowledge base is the backbone of any productive remote team. When your documentation lives in scattered Slack messages, Google Docs, and random Markdown files, you lose hours searching for information that should take seconds to find. Building a wiki from scratch gives you full control over structure, searchability, and integration with your existing workflow.
 
-# How to Build a Remote Team Wiki from Scratch
+This guide walks you through constructing a practical team wiki tailored for developers and technical users. You'll learn the architecture decisions, implementation approaches, and maintenance strategies that make a wiki actually useful rather than just another abandoned documentation project.
 
-Build a remote team wiki by setting up a static site generator like Jekyll or MkDocs, storing your content as Markdown in a Git repository, and deploying through GitHub Pages or a similar host. Use pull-request-based editing workflows to keep content reviewed and current, and add client-side search with Lunr.js or Algolia so your team can actually find what they need.
+## Defining Your Wiki Requirements
 
-## Why Build Your Own Wiki
+Before writing a single line of documentation, establish what your team actually needs. Remote teams typically require three core capabilities: centralized storage, quick search, and collaborative editing. The complexity comes from balancing these requirements against maintenance overhead.
 
-Commercial wiki platforms exist, but they often come with tradeoffs: monthly costs, data residency concerns, and feature bloat you never use. Building from scratch using static site generators gives you:
+Start by auditing your current knowledge gaps. Track what questions repeat in Slack over a two-week period. Document the onboarding steps developers repeatedly explain to new hires. Identify the technical decisions that live only in someone's head. This audit becomes your initial content roadmap and validates why you're building this in the first place.
 
-- **Full ownership** of your data and infrastructure
-- **Markdown-based editing** that integrates with version control
-- **Searchable output** with minimal dependencies
-- **Custom integration** with your CI/CD pipelines
+Consider your team's technical comfort level. A team comfortable with Git will embrace a file-based wiki. Non-technical teammates might prefer a web-based editor. This decision shapes everything else, so get it right upfront.
 
-The initial setup takes some effort, but the long-term maintenance burden stays low once you establish conventions.
+## Choosing Your Storage Architecture
 
-## Choosing Your Foundation
+The foundation of your wiki is how you store and sync content. Three approaches work well for technical teams:
 
-For a developer-focused wiki, you have several solid options. Static site generators work particularly well because they produce plain HTML that hosts anywhere.
-
-### Jekyll + GitHub Pages
-
-Jekyll powers GitHub Pages natively, making it the lowest-friction option if you already use GitHub. Your wiki lives in a repository, edits happen through pull requests, and publishing is automatic.
-
-### MkDocs
-
-MkDocs uses a simple YAML configuration file and renders Markdown with excellent navigation features. The Material theme gives you instant search, navigation breadcrumbs, and syntax highlighting.
-
-### Docusaurus
-
-Built by Facebook, Docusaurus offers React-powered interactivity alongside static content. Choose this if your team wants to embed live code examples or interactive components.
-
-For this guide, we'll use Jekyll since it requires no build server beyond what GitHub provides.
-
-## Structuring Your Wiki
-
-A wiki structure should reflect how your team thinks about information. Avoid over-engineering categories early—start simple and evolve as patterns emerge.
-
-```
-wiki/
-├── _posts/
-│   ├── 2024-01-15-onboarding-checklist.md
-│   └── 2024-02-20-api-rate-limits.md
-├── _pages/
-│   ├── getting-started.md
-│   └── architecture-overview.md
-├── assets/
-│   ├── css/
-│   └── images/
-├── _config.yml
-└── index.md
-```
-
-Organize content around these core areas:
-
-- **Team conventions**: Coding standards, git workflow, deployment processes
-- **Project documentation**: Architecture decisions, API references, setup guides
-- **Onboarding**: New hire checklists, tool access, first-week tasks
-- **Decision records**: Why you made specific technical choices
-
-## Writing and Editing Workflows
-
-The biggest challenge with wikis isn't the tooling—it's keeping content current. Your workflow determines whether your wiki stays alive or becomes stale.
-
-### Pull Request Reviews
-
-Every documentation change goes through a pull request. This catches typos, ensures accuracy, and lets teammates suggest improvements. Include a documentation checklist in your PR template:
-
-```markdown
-### Documentation Checklist
-- [ ] Links work correctly
-- [ ] Code snippets are tested
-- [ ] Screenshots are current
-- [ ] Related pages are linked
-```
-
-### Living Documents
-
-Mark documentation as "living" or "stable" in your front matter. Living documents change frequently (API changelogs, sprint summaries). Stable documents should rarely change (architecture overviews, historical decisions).
-
-```yaml
----
-layout: page
-title: API Reference
-status: living
-last-reviewed: 2026-03-10
----
-```
-
-### Automated Health Checks
-
-Set up CI checks that validate your wiki builds correctly and all internal links resolve:
-
-```yaml
-# .github/workflows/wiki.yml
-name: Wiki Build Check
-
-on: [pull_request]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-ruby@v2
-        with:
-          ruby-version: '3.1'
-      - run: bundle install
-      - run: bundle exec jekyll build
-      - name: Check internal links
-        run: |
-          # Verify no broken internal links
-          grep -r href=\"_pages\|href=\"_posts site/_build 2>/dev/null || true
-```
-
-## Search Implementation
-
-Static wikis lack built-in search, but several approaches solve this:
-
-### Client-Side Search
-
-Lunr.js or Fuse.js index your content at build time and search in the browser. Jekyll plugins like `jekyll-lunr-js-search` automate index generation.
-
-### Algolia DocSearch
-
-For larger wikis, Algolia's free DocSearch program provides fast, typo-tolerant search with analytics. You submit your sitemap, and they crawl your deployed site.
-
-### GitHub Pages Search
-
-If hosting on GitHub Pages, the built-in repository search works across your wiki files. Not ideal, but functional for small teams.
-
-## Version Control Strategies
-
-Treat your wiki like code—branch, review, and merge.
-
-### Branch-per-Article Workflow
-
-Create feature branches for substantial edits:
+**Git-based storage** treats your wiki as code. Documentation lives in a repository, version control handles history, and pull requests manage reviews. This approach integrates naturally with developer workflows.
 
 ```bash
-git checkout -b docs/update-api-reference
-# Make your changes
-git add -A
-git commit -m "Update API reference for v2 endpoints"
-git push -u origin docs/update-api-reference
+# Initialize your wiki repository
+git init team-wiki
+cd team-wiki
+mkdir -p {docs,architecture,onboarding,processes}
 ```
 
-### Tagging Releases
-
-Use Git tags to mark wiki "releases" for reference:
-
-```bash
-git tag -a wiki-v2024-q1 -m "Q1 2024 documentation snapshot"
-git push origin wiki-v2024-q1
-```
-
-### Archive Stale Content
-
-Move deprecated documentation to an `_archive` folder. This keeps the active wiki clean while preserving historical reference:
-
-```bash
-# Move deprecated API docs
-git mv _pages/api-v1.md _archive/api-v1-deprecated.md
-```
-
-## Practical Example: Team Onboarding Page
-
-Here's a template for an effective onboarding page that grows with your team:
+**Flat-file with front matter** gives you structured metadata without database complexity. Each Markdown file includes YAML front matter defining title, author, tags, and last-updated date. This enables powerful querying without external tools.
 
 ```markdown
 ---
-layout: page
-title: Developer Onboarding Guide
-status: living
+title: "API Authentication Guide"
+author: "sarah"
+tags: ["security", "api", "onboarding"]
+last_updated: 2026-03-10
 ---
 
-# Developer Onboarding Guide
+# API Authentication
 
-Welcome to the team. This guide walks you through getting productive in your first two weeks.
-
-## Day 1: Access and Environment
-
-1. Request GitHub organization access from your manager
-2. Set up 1Password vault access
-3. Configure your development machine:
-   ```bash
-   # Clone the starter kit
-   git clone git@github.com:yourorg/dev-setup.git
-   cd dev-setup && ./setup.sh
-   ```
-
-## Day 2-3: Core Services
-
-- [ ] Production dashboard access
-- [ ] Staging environment credentials
-- [ ] Internal tool permissions
-
-## Week 2: Codebase Orientation
-
-Pair with a teammate for architecture walkthrough. Focus on:
-- Main service boundaries
-- Deployment pipeline
-- Testing conventions
+Your team needs to implement OAuth 2.0 for all external API access...
 ```
 
-## Maintaining Momentum
+**Database-backed storage** using SQLite provides search capabilities and concurrent editing support. Tools like mdBook with embedded search or custom solutions using better-sqlite3 give you full-text search out of the box.
 
-A wiki's value compounds over time, but only if your team uses it. A few practices help:
+For most remote teams, Git-based flat files strike the best balance. You get version control, familiar workflows, and straightforward hosting through GitHub Pages, Netlify, or similar services.
 
-- **Link everything**: When discussing decisions in Slack, paste the relevant wiki link
-- **Credit contributors**: Mention who wrote or updated docs in team channels
-- **Budget time**: Add documentation tasks to sprint planning, not as afterthoughts
-- **Review quarterly**: Audit for dead links, outdated screenshots, and deprecated content
+## Building the Search System
 
-## Wrapping Up
+Search makes or breaks a wiki. A wiki users can't search becomes a graveyard of outdated information. Implement search early and make it comprehensive.
 
-Building a remote team wiki from scratch puts you in control of your documentation destiny. Start simple with Jekyll and GitHub Pages, establish clear editing workflows, and treat your wiki like a living product. The investment pays dividends in reduced重复 questions, smoother onboarding, and institutional knowledge that survives personnel changes.
+For Git-based wikis, consider adding a search index that builds on each commit:
 
-Your team's collective knowledge deserves better than scattered Slack messages and abandoned Google Docs. A well-maintained wiki makes that knowledge discoverable, versionable, and resilient.
+```javascript
+// search-index.js - Build search index from Markdown files
+const fs = require('fs');
+const path = require('path');
+const matter = require('gray-matter');
 
+function buildIndex(dir, index = []) {
+  const files = fs.readdirSync(dir);
+  
+  files.forEach(file => {
+    const fullPath = path.join(dir, file);
+    const stat = fs.statSync(fullPath);
+    
+    if (stat.isDirectory()) {
+      buildIndex(fullPath, index);
+    } else if (file.endsWith('.md')) {
+      const content = fs.readFileSync(fullPath, 'utf-8');
+      const { data, content: body } = matter(content);
+      
+      index.push({
+        title: data.title || file.replace('.md', ''),
+        path: fullPath.replace('docs/', '/'),
+        tags: data.tags || [],
+        content: body.substring(0, 5000), // First 5000 chars
+        lastUpdated: data.last_updated
+      });
+    }
+  });
+  
+  return index;
+}
 
-## Related Reading
+const index = buildIndex('./docs');
+fs.writeFileSync('./search-index.json', JSON.stringify(index, null, 2));
+```
 
-- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
-- [How to Manage Sprints with a Remote Team: A Practical Guide](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+This generates a JSON index you can query client-side. For larger wikis, integrate lunr.js or Fuse.js for fuzzy matching and relevance scoring.
+
+## Structuring Your Content Hierarchy
+
+Organization should mirror how your team thinks, not how a database schema demands. Create intuitive top-level categories that map to actual team functions:
+
+- **Onboarding** — New hire guides, development environment setup, team norms
+- **Architecture** — System diagrams, API documentation, infrastructure decisions
+- **Processes** — Deployment procedures, code review guidelines, incident response
+- **Reference** — API endpoints, environment variables, tool documentation
+
+Within each category, use consistent naming conventions. Prefer descriptive titles over clever ones. "PostgreSQL Connection Pooling" beats "Database Stuff" every time.
+
+Create index pages for each section that link to all children. This gives readers a map of what's available and provides navigation when search fails.
+
+## Implementing Collaborative Features
+
+A wiki only works if people actually update it. Build collaboration features that reduce friction:
+
+**Embedded editing links** appear on every page, taking users directly to the GitHub, GitLab, or file system edit location:
+
+```markdown
+[Edit this page](https://github.com/yourteam/wiki/edit/main/docs/{{ page.path }})
+```
+
+**Change request templates** standardize how teammates suggest additions:
+
+```markdown
+## Change Request: [Page Title]
+
+**Suggested by**: [Name]
+**Date**: [YYYY-MM-DD]
+
+### Proposed Change
+[Describe what should be added or modified]
+
+### Rationale
+[Why this change improves the wiki]
+
+### Related Pages
+[Link to any related existing documentation]
+```
+
+**Review workflows** using pull requests catch errors before they propagate. Require review for all changes to documentation directories. This seems like overhead but prevents broken links and outdated information from reaching your team.
+
+## Maintenance and Governance
+
+Documentation rots faster than code. Without explicit maintenance, wikis become useless within months. Assign ownership to each top-level section. Owners review their sections quarterly, checking for accuracy and identifying gaps.
+
+Create a **stale content** indicator using git history:
+
+```bash
+# Find files not modified in the last 90 days
+git log --since="90 days ago" --pretty=format:'%h %s' --name-only | \
+  grep -E '\.md$' | sort | uniq -c | sort -n
+```
+
+Review files that haven't received updates. Either they're no longer needed, or they're orphaned and require attention.
+
+Schedule monthly documentation review sessions. Block one hour, go through recent changes, and discuss what should be added. Making documentation visible in team meetings reinforces its importance.
+
+## Hosting and Deployment
+
+For a Git-based wiki, deployment is straightforward. GitHub Pages provides free hosting with custom domain support. Netlify or Vercel add CI/CD pipelines and preview deployments for every pull request.
+
+Configure your deployment to run search index generation as part of the build process. This ensures your search always reflects current content:
+
+```yaml
+# netlify.toml
+[build]
+  command = "npm run build && npm run index"
+  publish = "dist"
+
+[[redirects]]
+  from = "/search"
+  to = "/search.html"
+  status = 200
+```
+
+Preview deployments let teammates review documentation changes before they go live. This is particularly valuable for architectural decisions where precision matters.
+
+## Measuring Success
+
+Track wiki health through concrete metrics:
+
+- **Search usage** — How often do teammates search? What queries return no results?
+- **Update frequency** — How many pages changed in the last month?
+- **Time to find** — Can teammates locate information in under 30 seconds?
+- **Contributor count** — How many different people contribute content?
+
+These metrics reveal whether your wiki solves problems or creates maintenance busywork. Adjust your approach based on what the data tells you.
+
+A well-built wiki becomes the institutional memory of your team. It survives personnel changes, scales with organization growth, and directly impacts productivity. The investment in building it right pays dividends every day.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
