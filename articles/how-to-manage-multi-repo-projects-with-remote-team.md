@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Manage Multi-Repo Projects with Remote Team"
 description: "Practical strategies for coordinating codebases across distributed teams. Includes Git workflows, tooling patterns, and automation examples for managing multiple repositories effectively."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-multi-repo-projects-with-remote-team/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # How to Manage Multi-Repo Projects with Remote Team
