@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Power Adapter Kit for International Digital Nomads"
-description: "Build the ultimate power adapter kit for international digital nomads. Practical guide covering voltage compatibility, plug types, USB charging, and tech setup."
+description: "Build the ultimate power adapter kit for international digital nomads. Practical guide covering voltage compatibility, plug types, USB charging, and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /power-adapter-kit-for-international-digital-nomads/
@@ -139,6 +139,11 @@ Carry two replacement fuses in your kit. Most quality travel adapters include sp
 ## Summary
 
 A solid power adapter kit for international digital nomads costs $80-150 upfront but prevents hundreds in device replacement and lost productivity. Focus on universal-input chargers, quality multi-region adapters with fuses, high-capacity USB-C PD power banks, and a compact power strip. Test everything before departure, verify voltage compatibility for each destination, and carry a multimeter for peace of mind.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

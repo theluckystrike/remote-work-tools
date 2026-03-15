@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Get Paid Internationally as Digital Nomad"
-description: "A practical guide for developers and power users on receiving international payments while working remotely. Covers payment platforms, currency handling, and tax considerations."
+description: "A practical guide for developers and power users on receiving international payments while working remotely. Covers payment platforms, currency."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-paid-internationally-as-digital-nomad/
@@ -202,6 +202,11 @@ Based on common digital nomad workflows, here's a recommended setup:
 Getting paid internationally as a digital nomad requires understanding the payment ecosystem and choosing tools that match your specific situation. Wise covers most freelancer use cases efficiently. Crypto provides flexibility for clients who prefer it and serves as a useful hedge. Regional banking handles local needs.
 
 Start with one primary platform, add secondary options as needed, and build a system that works for your specific income sources and travel patterns. The setup effort pays off quickly through lower fees and faster access to your money.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
