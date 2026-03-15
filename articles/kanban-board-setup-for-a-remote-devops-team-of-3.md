@@ -2,7 +2,7 @@
 
 layout: default
 title: "Kanban Board Setup for a Remote DevOps Team of 3"
-description: "A practical guide to setting up a Kanban board for a remote DevOps team of 3. Includes workflow configuration, WIP limits, automation examples, and tool recommendations."
+description: "A practical guide to setting up a Kanban board for a remote DevOps team of 3. Includes workflow configuration, WIP limits, automation examples, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /kanban-board-setup-for-a-remote-devops-team-of-3/
@@ -224,6 +224,11 @@ Begin with a simple board and refine over time:
 5. Review and adjust after two weeks
 
 Your board should serve your team, not constrain it. With three people, you have enough context to make quick adjustments. The goal is visibility into work, not process perfection.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

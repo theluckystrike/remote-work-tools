@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Communication Norms for a Remote Team of 20 Across 4 Timezones"
+title: "Communication Norms for a Remote Team of 20 Across 4."
 description: "Practical strategies for establishing effective communication protocols in distributed teams spanning multiple time zones."
 date: 2026-03-16
 author: theluckystrike
@@ -169,5 +169,10 @@ When new team members join, they need to understand communication expectations f
 Building effective communication norms for a remote team of 20 across four time zones comes down to three principles: **structure, documentation, and empathy**. Structure your channels so messages go to the right place. Document decisions so context isn't lost to time zone gaps. And show empathy for colleagues working in what might be your middle of the night.
 
 Start with these norms, measure what works, and iterate. The goal isn't perfection—it's reducing friction so your team can ship code regardless of geography.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
