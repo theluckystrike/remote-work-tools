@@ -11,6 +11,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 
@@ -179,22 +180,17 @@ Raw tracking data becomes valuable only when you review it. Set a weekly 15-minu
 - Note which project types consume more focused time than expected
 - Look for patterns in interruptions—specific days, times, or triggers
 
-This review process helps you make incremental improvements. Perhaps you discover that Tuesday mornings are your黄金时段, so you reserve them for the most complex debugging tasks.
+This review process helps you make incremental improvements. Perhaps you discover that Tuesday mornings are your peak hours, so you reserve them for the most complex debugging tasks.
 
 ## Key Metrics to Track
 
 Focus on a few core measurements rather than overwhelming yourself with data:
 
-- **Weekly deep work hours**: Aim for a realistic target, typically 20-30 hours for knowledge workers
-- **Session length**: Most people can sustain deep focus for 60-90 minutes before needing a break
-- **Context-switching frequency**: Track how often you interrupt yourself
-- **Project time allocation**: Know how much focused time each project requires
+Aim for a realistic weekly deep work target — typically 20-30 hours for knowledge workers. Track session length: most people can sustain deep focus for 60-90 minutes before needing a break. Monitor context-switching frequency to see how often you interrupt yourself. Log project time allocation so you know how much focused time each project actually requires.
 
 ## Conclusion
 
-Tracking deep work hours as a developer doesn't require expensive software or complex systems. Start with a simple method—a text file, a CLI tool, or git-based logging—and refine from there. The goal isn't perfection but insight. Once you understand where your time goes, you can make intentional decisions about how to spend your most precious resource: focused attention.
-
-Experiment with different tracking methods until you find what fits your workflow. The best system is one you'll actually use consistently.
+Tracking deep work hours as a developer doesn't require expensive software or complex systems. Start with a text file, a CLI tool, or git-based logging, and refine from there. The goal is insight, not perfection. Once you understand where your time goes, you can make intentional decisions about focused attention — and give stakeholders realistic timelines based on your actual capacity.
 
 ---
 

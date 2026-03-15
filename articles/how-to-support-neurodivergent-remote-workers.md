@@ -9,6 +9,7 @@ categories: [guides]
 tags: [remote-work, neurodiversity, inclusion, productivity]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
@@ -22,13 +23,7 @@ This guide provides practical strategies for supporting neurodivergent team memb
 
 Neurodivergent individuals frequently exhibit working patterns that differ from neurotypical expectations. These differences are not deficiencies but rather alternative cognitive styles that offer genuine advantages in technical work.
 
-Common patterns include:
-
-- **Hyperfocus**: Intense concentration on high-interest tasks, sometimes lasting several hours
-- **Variable energy levels**: Productivity that fluctuates based on neurological state rather than external schedule
-- **Sensory sensitivity**: Heightened awareness of environmental stimuli like notifications, chat sounds, or visual clutter
-- **Executive function challenges**: Difficulty with task initiation, organization, or switching between contexts
-- **Strengths in pattern recognition**: Exceptional ability to identify inconsistencies, optimize systems, and solve complex problems
+Hyperfocus brings intense concentration on high-interest tasks that can last several hours. Energy levels fluctuate based on neurological state rather than an external schedule, which means productivity looks different day to day. Sensory sensitivity creates heightened awareness of environmental stimuli like notifications, chat sounds, or visual clutter. Executive function challenges make task initiation, organization, and context-switching harder. And many neurodivergent engineers show exceptional strength in pattern recognition — identifying inconsistencies, optimizing systems, and solving complex problems that others miss.
 
 Understanding these patterns allows you to design workflows that accommodate neurodivergent team members while improving outcomes for everyone.
 
@@ -99,11 +94,7 @@ Remote work enables environmental control that office settings cannot provide. E
 
 Share resources for environment optimization:
 
-- **Monitor configuration**: Adjust refresh rates, text size, and color temperature
-- **Sound management**: Noise-canceling headphones, ambient sound apps, or quiet workspace setups
-- **Lighting conditions**: Task lighting that reduces eye strain
-- **Ergonomic setup**: Proper desk chair, monitor position, and keyboard configuration
-- **Digital workspace**: Organize desktop, minimize visual clutter, use window management tools
+Adjust monitor refresh rates, text size, and color temperature to reduce visual strain. Noise-canceling headphones, ambient sound apps, or a quiet workspace setup help with sound management. Task lighting reduces eye strain from poor lighting conditions. A proper desk chair, monitor position, and keyboard configuration provide ergonomic support. For the digital workspace, organize the desktop, minimize visual clutter, and use a window management tool.
 
 Provide stipends or equipment loans for home office optimization. This investment reduces accommodation requests and improves overall team productivity.
 
@@ -113,15 +104,7 @@ Meetings present particular challenges for neurodivergent workers. Implement pra
 
 ### Meeting Best Practices
 
-1. **Always share agendas in advance**: Send discussion topics and any pre-reading materials at least 24 hours before meetings
-
-2. **Record meetings for async review**: Enable recording for team members who process information more effectively in written form
-
-3. **Use collaborative documents**: Live documents with shared editing allow participation at individual pace
-
-4. **Assign roles**: Designate a note-taker, timekeeper, and discussion moderator to reduce cognitive burden on attendees
-
-5. **Implement round-robin speaking**: Direct engagement expectations can be overwhelming; structured turn-taking provides predictability
+Send discussion topics and any pre-reading materials at least 24 hours before meetings. Enable recording so team members who process information better in written form can review at their own pace. Live collaborative documents with shared editing allow participation at individual pace. Designate a note-taker, timekeeper, and discussion moderator to reduce cognitive burden on attendees. Replace open-floor discussion with structured turn-taking — direct engagement expectations can be overwhelming, and round-robin speaking provides predictability.
 
 ```markdown
 ## Meeting Agenda Template
@@ -148,11 +131,7 @@ Traditional performance review processes often disadvantage neurodivergent worke
 
 ### Implementing Fair Review Processes
 
-- **Regular one-on-ones**: Frequent check-ins that include explicit asks about needed support
-- **Outcome-based evaluation**: Focus on deliverables and impact rather than activity metrics
-- **360-degree feedback**: Gather input from multiple sources to capture diverse contribution types
-- **Document contributions**: Encourage explicit documentation of work to build visibility
-- **Adjust promotion criteria**: Ensure advancement opportunities don't rely on neurotypical presentation styles
+Run frequent one-on-ones that include explicit asks about what support is needed. Evaluate on deliverables and impact rather than activity metrics. Gather 360-degree feedback from multiple sources to capture diverse contribution types. Encourage team members to document their work explicitly so contributions are visible. Review promotion criteria to ensure advancement opportunities don't rely on neurotypical presentation styles.
 
 ## Building Psychological Safety
 
@@ -160,10 +139,7 @@ Perhaps the most important factor in supporting neurodivergent remote workers is
 
 ### Cultural Implementation
 
-- **Leadership modeling**: Leaders should openly discuss their own needs and accommodations
-- **Normalize variation**: Discuss neurodiversity in team contexts to reduce stigma
-- **Celebrate different strengths**: Recognize diverse cognitive styles as assets rather than requiring normalization
-- **Streamlined requests**: Make accommodation requests simple and without justification requirements
+Leaders should openly discuss their own needs and accommodations — this models the behavior and makes it safe for others to do the same. Discuss neurodiversity in team contexts regularly to reduce stigma. Recognize diverse cognitive styles as assets rather than requiring normalization. Make accommodation requests simple and remove any justification requirements.
 
 ## Practical Implementation Summary
 

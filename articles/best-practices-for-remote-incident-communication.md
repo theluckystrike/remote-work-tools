@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -23,9 +24,7 @@ Every incident needs explicit role assignments. Without them, you get multiple p
 
 Define these three roles for every incident:
 
-- **Incident Commander (IC)**: Owns the communication timeline, makes final decisions, and coordinates all responders. One person, no exceptions.
-- **Technical Lead**: Focuses on diagnosis and remediation. May rotate hands-on keyboard duties.
-- **Comms Lead**: Handles all external and internal stakeholder updates. Can be the IC in small incidents, but should separate for major outages.
+The **Incident Commander (IC)** owns the communication timeline, makes final decisions, and coordinates all responders — one person, no exceptions. The **Technical Lead** focuses on diagnosis and remediation and may rotate hands-on keyboard duties. The **Comms Lead** handles all external and internal stakeholder updates; in small incidents this can be the IC, but major outages warrant a separate person.
 
 Here's a simple role assignment command for Slack:
 
@@ -102,9 +101,7 @@ Review these thresholds quarterly. What was a SEV1 last year might be routine th
 
 Incidents require dedicated communication channels that bypass normal noise. Set these up before you need them:
 
-1. **#incidents-sev1** (or #incidents-critical): SEV1 and SEV2 incidents only. No chatter.
-2. **#incidents-standby**: Pre-incident discussion when something looks suspicious.
-3. **#incidents-resolved**: Post-mortem coordination and timeline gathering.
+Use `#incidents-sev1` (or `#incidents-critical`) for SEV1 and SEV2 only — no chatter. Keep `#incidents-standby` for pre-incident discussion when something looks suspicious. Route post-mortem coordination and timeline gathering to `#incidents-resolved`.
 
 Use Slack's incident management integration or build your own:
 
@@ -184,9 +181,7 @@ When the incident resolves, the work isn't done. Effective teams treat post-mort
 
 Structure your async post-mortem process:
 
-1. **Within 24 hours**: IC creates the post-mortem document with timeline filled in
-2. **Within 48 hours**: All responders add their perspective (what worked, what confused them, what they'd do differently)
-3. **Within 72 hours**: Team reviews, identifies top 3 improvement actions, and assigns owners
+Within 24 hours, the IC creates the post-mortem document with the timeline filled in. Within 48 hours, all responders add their perspective: what worked, what confused them, what they'd do differently. Within 72 hours, the team reviews, identifies the top three improvement actions, and assigns owners.
 
 Example action items format:
 
@@ -229,18 +224,7 @@ The goal isn't to eliminate human communication—it's to eliminate the communic
 
 ## Summary
 
-Effective remote incident communication comes down to preparation and discipline:
-
-1. Assign explicit roles before incidents happen
-2. Use consistent templates for status pages and updates
-3. Define clear escalation thresholds
-4. Create dedicated communication channels
-5. Document decisions in real-time
-6. Stick to predictable update cadences
-7. Run async post-mortems within 72 hours
-8. Automate repetitive communication tasks
-
-These practices work whether you're a team of five or five hundred. The investment in systems pays off the moment your first incident hits.
+The investment in these systems pays off the moment your first incident hits. Assign roles, write the templates, and configure the channels before an outage forces you to improvise. The practices above work whether you're a team of five or five hundred — the difference is whether you built the scaffolding in advance.
 
 
 ## Related Reading

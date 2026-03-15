@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
@@ -27,11 +28,11 @@ Most broken escalation protocols share common failures: unclear ownership defini
 
 An escalation matrix defines who gets contacted, in what order, and under what conditions. Start with three levels:
 
-**Level 1 - First Response**: The engineer who first detects or receives the alert. Responsible for initial investigation, triage, and determining if the issue requires escalation.
+Level 1 is the first-response engineer who detects or receives the alert. They handle initial investigation, triage, and the decision whether to escalate.
 
-**Level 2 - Technical Lead**: Someone with broader system knowledge who can make decisions about architecture, rollback strategies, or cross-service coordination.
+Level 2 is a technical lead with broader system knowledge who can make decisions about architecture, rollback strategies, or cross-service coordination.
 
-**Level 3 - Management**: Required for business-impacting decisions, customer communication authorization, or when Level 2 cannot resolve the issue within defined time windows.
+Level 3 is management, brought in for business-impacting decisions, customer communication authorization, or when Level 2 cannot resolve the issue within the defined time window.
 
 Define explicit time windows for each level. A common pattern:
 
@@ -57,17 +58,9 @@ levels:
 
 Ambiguity here creates two failure modes: over-escalation (paging everyone for every issue) breeds fatigue and ignored alerts, while under-escalation (hoping someone else is handling it) leads to undetected outages. Create explicit criteria.
 
-**Escalate immediately (page Level 2) when:**
-- Production service is down or returning 5xx errors above 1% of requests
-- Database is unresponsive or replication lag exceeds 30 seconds
-- Security breach detected or suspected
-- Customer-reported critical bug affecting revenue
+Page Level 2 immediately when production is down or returning 5xx errors above 1% of requests, when the database is unresponsive or replication lag exceeds 30 seconds, when a security breach is detected or suspected, or when a customer-reported bug is directly affecting revenue.
 
-**Escalate to Level 3 when:**
-- Incident duration exceeds 30 minutes
-- Customer data integrity is at risk
-- Media or social media attention is building
-- Multiple services are affected (indicates systemic failure)
+Escalate to Level 3 when the incident has lasted more than 30 minutes, when customer data integrity is at risk, when media or social media attention is building, or when multiple services are affected — which indicates a systemic failure.
 
 Document these in a file called `escalation-criteria.md` and reference them in your runbooks.
 
@@ -101,10 +94,7 @@ Store this in a shared location (Notion, Confluence, or a dedicated Slack channe
 
 Use specific channels for specific purposes. This reduces noise and ensures the right people see the right information.
 
-- **#incidents-active**: Post incident details here immediately when declared. Include severity, affected services, and initial assessment.
-- **#incidents-war-room**: Create a temporary channel per major incident. Invite only those actively working the issue.
-- **#incidents-resolved**: Post-incident reviews, timelines, and root cause analyses go here.
-- **#on-call-rotation**: Questions about on-call schedules, swap requests, and handoff coordination.
+Post incident details to `#incidents-active` immediately when an incident is declared, including severity, affected services, and initial assessment. Create a temporary `#incidents-war-room` channel per major incident and invite only those actively working the issue. Send post-incident reviews, timelines, and root cause analyses to `#incidents-resolved`. Use `#on-call-rotation` for schedule questions, swap requests, and handoff coordination.
 
 When paging someone, provide context in the initial message:
 
@@ -122,10 +112,7 @@ Action Needed: Investigate immediately, coordinate with #payments-team if needed
 
 Escalation gets the right people in the room. Runbooks help them fix the problem. Each critical service should have a runbook with:
 
-1. **Service overview**: What it does, dependencies, current owners
-2. **Common failure scenarios**: List of known issues and how to handle each
-3. **Diagnostic commands**: Ready-to-copy queries for logs, metrics, database state
-4. **Remediation steps**: Rollback procedures, configuration changes, deployment commands
+Each runbook should cover the service overview (what it does, its dependencies, and current owners), common failure scenarios with how to handle each, diagnostic commands ready to copy for logs, metrics, and database state, and remediation steps including rollback procedures, configuration changes, and deployment commands.
 
 Example runbook snippet for a database connection issue:
 
@@ -183,7 +170,7 @@ Update your escalation criteria, runbooks, and contact rotation based on these f
 
 ## Summary
 
-Effective escalation protocols for remote engineering teams require explicit ownership at each level, clear criteria for when to escalate, documented handoff procedures between time zones, dedicated communication channels, comprehensive runbooks, and automated triggers to handle middle-of-the-night scenarios. Test your protocol with chaos engineering exercises, review after every significant incident, and keep iterating.
+Effective escalation protocols for remote engineering teams require explicit ownership at each level, clear criteria for when to escalate, documented handoff procedures between time zones, dedicated communication channels, detailed runbooks, and automated triggers to handle middle-of-the-night scenarios. Test your protocol with chaos engineering exercises, review after every significant incident, and keep iterating.
 
 
 ## Related Reading
