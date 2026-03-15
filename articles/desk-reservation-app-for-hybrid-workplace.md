@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Desk Reservation App for Hybrid Workplace"
-description: "Build a desk reservation app for hybrid workplace with practical code examples, API integrations, and implementation patterns for developers and power users."
+description: "Build a desk reservation app for hybrid workplace with practical code examples, API integrations, and implementation patterns for developers and power."
 date: 2026-03-15
 author: theluckystrike
 permalink: /desk-reservation-app-for-hybrid-workplace/
@@ -247,6 +247,11 @@ Rate limiting prevents automated booking scripts from flooding your system. Set 
 Start with the core functionality: viewing desk availability and creating reservations. Add calendar integration and analytics as secondary features. The API-first approach lets you build multiple frontends—web, mobile, or Slack bot—using the same backend.
 
 A desk reservation app for hybrid workplace solves a genuine operational problem. The patterns in this guide scale from small teams to enterprise deployments. Focus on conflict resolution, user experience, and integration with existing tools to drive adoption across your organization.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

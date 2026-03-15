@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Screen Sharing Solutions for Hybrid Meetings"
-description: "A practical comparison of screen sharing solutions for hybrid meetings with code examples, API integrations, and implementation recommendations for developers building meeting platforms."
+description: "A practical comparison of screen sharing solutions for hybrid meetings with code examples, API integrations, and implementation recommendations for."
 date: 2026-03-15
 author: theluckystrike
 permalink: /screen-sharing-solutions-for-hybrid-meetings/
@@ -238,6 +238,11 @@ For most developer teams, integrating an established service like Daily.co or Li
 The key factors in your decision are: team size (affects SFU requirements), latency sensitivity (real-time collaboration needs WebRTC), custom processing needs (recording, transcription, content moderation), and browser compatibility requirements.
 
 Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building comprehensive meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

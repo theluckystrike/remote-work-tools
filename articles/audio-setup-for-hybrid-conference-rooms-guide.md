@@ -2,7 +2,7 @@
 
 layout: default
 title: "Audio Setup for Hybrid Conference Rooms: A Technical Guide"
-description: "A practical guide for developers and power users setting up audio in hybrid conference rooms. Covers microphone types, acoustic treatment, DSP software, and configuration examples."
+description: "A practical guide for developers and power users setting up audio in hybrid conference rooms. Covers microphone types, acoustic treatment, DSP."
 date: 2026-03-15
 author: theluckystrike
 permalink: /audio-setup-for-hybrid-conference-rooms-guide/
@@ -153,6 +153,11 @@ A functional hybrid conference room audio system requires:
 5. **Stable network connectivity** for reliable transmission
 
 Start with the microphone placement and acoustic treatment—these provide the foundation. Add processing to address remaining issues, and verify everything works with actual test calls before relying on the system for important meetings.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
