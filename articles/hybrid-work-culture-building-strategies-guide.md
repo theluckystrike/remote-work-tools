@@ -5,6 +5,10 @@ description: "A practical guide to building and maintaining strong team culture 
 date: 2026-03-15
 author: theluckystrike
 permalink: /hybrid-work-culture-building-strategies-guide/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
