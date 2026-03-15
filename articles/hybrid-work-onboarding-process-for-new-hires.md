@@ -2,7 +2,7 @@
 
 layout: default
 title: "Hybrid Work Onboarding Process for New Hires"
-description: "A practical guide for developers and power users to design and implement an effective hybrid work onboarding process for new hires. Includes code snippets, automation scripts, and actionable templates."
+description: "A practical guide for developers and power users to design and implement an effective hybrid work onboarding process for new hires. Includes code."
 date: 2026-03-15
 author: theluckystrike
 permalink: /hybrid-work-onboarding-process-for-new-hires/
@@ -232,5 +232,10 @@ Ask specific questions about the hybrid experience:
 Use this feedback to evolve your process and ensure every new hire, regardless of where they work, has an equitable path to success.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
