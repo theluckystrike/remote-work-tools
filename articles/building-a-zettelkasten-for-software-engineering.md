@@ -9,15 +9,14 @@ permalink: /building-a-zettelkasten-for-software-engineering/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
 {% raw %}
 # Building a Zettelkasten for Software Engineering
 
-A Zettelkasten—German for "slip box"—is a personal knowledge management system built on the principle of atomic notes connected through links. Originally developed by sociologist Niklas Luhmann, this method has found renewed interest among developers who need to manage technical knowledge across languages, frameworks, and projects.
-
-Unlike traditional note-taking, a Zettelkasten treats each piece of knowledge as a discrete unit with unique identifiers and explicit connections to related ideas. For software engineers, this approach transforms scattered bookmarks, code snippets, and architectural decisions into an interconnected knowledge graph that compounds in value over time.
+To build a Zettelkasten for software engineering, create one atomic markdown note per concept (a single pattern, API detail, or debugging insight), give each note a unique ID and explicit tags, then link every new note to at least one existing note so connections compound over time. Use a local-first tool like Obsidian or Logseq (or plain markdown with git) to store notes, and organize them into three types: fleeting notes for quick capture, permanent notes for well-researched concepts, and project notes that get archived when work wraps up. This guide covers the atomic note structure, linking strategies for code patterns and problem-solution pairs, directory layout, query-based workflows, and the daily habits that make a Zettelkasten actually useful for engineers.
 
 ## Atomic Notes: The Foundation
 
