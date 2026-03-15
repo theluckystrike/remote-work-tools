@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Bring Your Own Device Policy for Hybrid Work"
 description: "A practical guide for developers and power users implementing BYOD policies in hybrid work environments. Covers security, device management, and real-world examples."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /bring-your-own-device-policy-for-hybrid-work/
 categories: [guides]
 tags: [byod, hybrid-work, security, device-policy]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Bring Your Own Device Policy for Hybrid Work

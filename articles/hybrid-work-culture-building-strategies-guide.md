@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Hybrid Work Culture Building Strategies Guide"
 description: "A practical guide to building and maintaining strong team culture in hybrid work environments. Includes code snippets and actionable strategies for developers."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /hybrid-work-culture-building-strategies-guide/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # Hybrid Work Culture Building Strategies Guide
