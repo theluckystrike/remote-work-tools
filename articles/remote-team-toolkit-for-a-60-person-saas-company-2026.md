@@ -3,12 +3,12 @@ layout: default
 title: "Remote Team Toolkit for a 60-Person SaaS Company 2026"
 description: "A practical guide to building a remote team toolkit for a 60-person SaaS company. Includes communication tools, developer workflows, async processes, and implementation code."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-toolkit-for-a-60-person-saas-company-2026/
 categories: [guides]
 tags: [remote-work, saas, team-toolkit, dev-tools]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
