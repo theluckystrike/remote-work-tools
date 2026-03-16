@@ -9,14 +9,14 @@ categories: [guides]
 tags: [retrospective, agile, remote-work, scrum, tools]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Best Retrospective Tool for a Remote Scrum Team of 6
 
-Running effective retrospectives with six people across different time zones requires the right tool. The best retrospective tool for a remote scrum team of 6 balances facilitation features, async support, integration with your existing workflow, and per-session cost. This guide evaluates practical options with configuration examples and implementation patterns.
+Parabol is the best retrospective tool for most remote scrum teams of 6 -- it provides guided facilitation, automatic action item generation, and direct Jira/GitHub sync out of the box. If your team prefers visual flexibility on a free tier, FunRetro is the strongest alternative with unlimited users and board-based workflows. Both support the async contributions that six-person distributed teams need when time zone overlaps are limited.
 
 ## What Six-Person Teams Actually Need
 

@@ -10,7 +10,7 @@ categories: [guides]
 tags: [slack, remote-work, communication]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -18,7 +18,7 @@ voice-checked: false
 {% raw %}
 # Slack Channel Strategy for a Remote Company with 75 Employees
 
-A well-structured Slack workspace becomes the nervous system of a 75-person remote company. Without intentional organization, important messages get buried, notifications overwhelm team members, and the signal-to-noise ratio collapses. This guide provides a practical channel strategy that scales with a company your size, keeping communication organized while maintaining quick access to information.
+Structure your 75-person Slack workspace into four tiers: company-wide channels (#announcements, #general, #help-*), departmental channels with a `dept-` prefix, project channels with `proj-` or `squad-` prefixes, and temporary channels for events and incidents. Use consistent prefix-based naming conventions so channels stay discoverable, set retention policies per tier, and implement a notification matrix that separates critical alerts from low-priority chatter. This hierarchy prevents important messages from getting buried while keeping signal-to-noise manageable at your company size.
 
 ## The Core Channel Hierarchy
 
