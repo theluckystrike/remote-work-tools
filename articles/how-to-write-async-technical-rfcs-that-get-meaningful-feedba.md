@@ -1,0 +1,201 @@
+---
+layout: default
+title: "How to Write Async Technical RFCs That Get Meaningful Feedback"
+description: "Learn practical techniques for writing async technical RFCs that generate meaningful feedback from distributed teams. Includes templates and examples."
+date: 2026-03-16
+author: theluckystrike
+permalink: /how-to-write-async-technical-rfcs-that-get-meaningful-feedba/
+categories: [guides]
+tags: [rfc, async, technical-writing, remote-work]
+reviewed: false
+score: 0
+intent-checked: false
+voice-checked: false
+---
+
+{% raw %}
+# How to Write Async Technical RFCs That Get Meaningful Feedback
+
+Writing technical RFCs for distributed teams requires a different approach than in-person design reviews. When your reviewers span multiple time zones and can't ask clarifying questions in real-time, every word in your RFC carries extra weight. A well-crafted async RFC doesn't just document your proposal—it actively guides readers through your thinking, anticipates objections, and creates space for substantive feedback.
+
+## The Core Problem with Most Technical RFCs
+
+Most RFCs fail not because the ideas are bad, but because the document itself is difficult to engage with. A typical problematic RFC might say:
+
+> "We should migrate to Kubernetes because it provides better scalability."
+
+This statement leaves reviewers with no context, no data, and no clear way to respond. They might agree or disagree, but they can't provide meaningful technical feedback because there's nothing specific to evaluate.
+
+Instead, your RFC should frame every claim with evidence, every decision with context, and every recommendation with clear alternatives considered. The goal is to make reviewing your proposal the easiest path for busy engineers.
+
+## Structuring Your RFC for Async Review
+
+An effective technical RFC follows a consistent structure that reviewers can quickly navigate. Use these sections in order:
+
+### 1. Summary (2-3 sentences)
+
+Start with a concise executive summary that tells readers exactly what you're proposing and why it matters. This is what busy engineers will read first—if it doesn't capture their attention, they won't dive deeper.
+
+### 2. Motivation and Problem Statement
+
+Define the problem you're solving with concrete examples. Avoid vague statements like "we need better performance." Instead, specify:
+
+- What specifically is slow or broken?
+- How does it affect users or developers?
+- What's the cost of the status quo?
+
+### 3. Proposed Solution
+
+This is the meat of your RFC. Walk through your proposed approach step by step, including:
+
+- Technical implementation details
+- API contracts or data structures (with code examples)
+- Edge cases you're handling
+- How this integrates with existing systems
+
+### 4. Alternatives Considered
+
+This section demonstrates you've thought broadly about the problem. List 2-3 alternative approaches and explicitly explain why you rejected each one. This pre-emptively answers the "why not just do X?" questions that otherwise derail RFC discussions.
+
+### 5. Open Questions
+
+Explicitly call out decisions you're unsure about. This gives reviewers specific areas where their expertise can add value. A good open question might be:
+
+> "Should we implement the cache invalidation strategy at the application layer or database level? I'm leaning toward application layer for flexibility, but I'm open to arguments for database-level enforcement."
+
+### 6. Timeline and Milestones
+
+If your RFC is approved, what's the implementation plan? Reviewers want to understand the scope and commitment involved.
+
+## Writing Techniques That Generate Better Feedback
+
+### Use Concrete Examples
+
+Abstract proposals invite abstract responses. Include real code snippets, actual data, or specific scenarios:
+
+```python
+# Instead of saying "the cache should handle failures gracefully"
+# Show exactly what happens:
+
+def get_user_session(user_id):
+    try:
+        return cache.get(f"session:{user_id}")
+    except CacheConnectionError:
+        # Fallback to database on cache failure
+        return db.get_session(user_id)
+```
+
+This concrete example immediately tells reviewers: you're handling the failure case, but you're aware there's a fallback path. They can now provide specific feedback about whether this approach meets your availability requirements.
+
+### Frame Decisions as Questions
+
+When presenting your preferred approach, frame it as your current thinking rather than a fait accompli:
+
+> "I'm proposing we use WebSockets for real-time updates because Server-Sent Events don't support bidirectional communication. However, WebSockets require connection state management. Is the additional complexity worth it for our use case?"
+
+This invites reviewers to challenge your assumptions without feeling like they're rejecting your entire proposal.
+
+### Include Specific Success Criteria
+
+Define what "success" looks like for your proposal:
+
+- Performance: "API response time should decrease from 500ms to under 100ms"
+- Reliability: "System should handle 10x current traffic without degradation"
+- Developer Experience: "New engineers should be able to implement a feature in under 2 hours"
+
+Concrete metrics give reviewers something concrete to evaluate against.
+
+## Managing the Async Review Process
+
+Writing a great RFC is only half the battle—you also need to manage the review process effectively.
+
+### Set Clear Deadlines
+
+State explicitly when you need feedback by. Without a deadline, "I'll review this later" becomes "I'll review this never." A reasonable timeline is 5-7 business days for significant proposals.
+
+### Use Explicit Reviewer Assignments
+
+Don't just dump your RFC in a channel and hope for feedback. Identify 2-3 specific reviewers whose expertise is relevant:
+
+> "@alice @bob — I'd specifically appreciate your thoughts on the security implications in section 3 and the performance benchmarks in section 4. @charlie — can you review the database migration plan?"
+
+This makes feedback someone's explicit responsibility rather than a vague request.
+
+### Create Space for Async Discussion
+
+Some feedback requires back-and-forth. Plan for this from the start by:
+
+- Setting up a dedicated Slack channel or thread for RFC discussion
+- Creating a living document where you can incorporate feedback
+- Scheduling a optional sync call if the discussion gets complex
+
+## Common Async RFC Mistakes to Avoid
+
+### The Wall of Text
+
+Long, unbroken paragraphs discourage review. Use headers, bullet points, and code blocks to create visual breaks. Aim for paragraphs of 2-3 sentences maximum.
+
+### Missing Context
+
+Never assume reviewers remember previous discussions. If your RFC builds on an earlier decision, link to it. If it relates to another system, provide brief context.
+
+### Vague Language
+
+Replace weak language with specific claims:
+
+| Instead of... | Write... |
+|--------------|----------|
+| "pretty fast" | "completes in under 50ms" |
+| "better" | "reduces memory usage by 40%" |
+| "several options" | "three options: A, B, and C" |
+
+### Forgetting the "Why"
+
+The most common failure mode is explaining what you want to do without explaining why this is the right thing to do. Every technical decision should connect back to business goals, user needs, or engineering constraints.
+
+## Example RFC Template
+
+Here's a practical template you can adapt:
+
+```markdown
+# RFC: [Short Title]
+
+## Summary
+[2-3 sentence description of what this proposes and why it matters]
+
+## Motivation
+[Specific problem this solves, with concrete examples]
+
+## Proposed Solution
+[Detailed technical approach with code examples]
+
+## Alternatives
+- Option A: [description] — Rejected because [reason]
+- Option B: [description] — Rejected because [reason]
+
+## Open Questions
+- [Specific question for reviewers]
+- [Another area needing input]
+
+## Success Criteria
+- [Measurable outcome 1]
+- [Measurable outcome 2]
+
+## Timeline
+- Week 1: [milestone]
+- Week 2: [milestone]
+
+## Feedback Requested By
+[Date and tagged reviewers]
+```
+
+## Conclusion
+
+The difference between RFCs that gather dust and RFCs that generate meaningful feedback comes down to clarity, structure, and consideration for your reviewers' time. By providing concrete examples, framing decisions as questions, and explicitly directing your feedback requests, you create RFCs that distributed teams can effectively evaluate asynchronously.
+
+Start treating your RFCs as products for your reviewers—design them to be understood, evaluated, and responded to. Your future self will thank you when implementation goes smoothly because stakeholders had the context they needed to provide solid feedback.
+
+---
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
