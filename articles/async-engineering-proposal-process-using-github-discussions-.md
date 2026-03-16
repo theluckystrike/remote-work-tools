@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Async Engineering Proposal Process Using GitHub Discussions Step by Step"
-description: "A practical guide to running async engineering proposals using GitHub Discussions. Includes setup steps, templates, and automation tips for distributed teams."
+title: "Async Engineering Proposal Process Using GitHub."
+description: "A practical guide to running async engineering proposals using GitHub Discussions. Includes setup steps, templates, and automation tips for distributed."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /async-engineering-proposal-process-using-github-discussions-/
@@ -264,6 +264,11 @@ The key is consistency: every proposal follows the same structure, every review 
 Start small with one category and one template, then refine based on what works for your team's specific needs.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
