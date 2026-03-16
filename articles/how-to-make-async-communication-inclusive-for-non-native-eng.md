@@ -1,162 +1,162 @@
 ---
-
 layout: default
-title: "How to Make Async Communication Inclusive for Non-Native."
-description: "Learn practical strategies to make async communication inclusive for non-native English speakers in remote teams. Practical examples and code snippets."
+title: "How to Make Async Communication Inclusive for Non-Native English Speakers"
+description: "A practical guide to writing async communication that works for global teams with diverse language backgrounds. Includes templates, tools, and concrete examples."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: theluckystrike
 permalink: /how-to-make-async-communication-inclusive-for-non-native-eng/
 categories: [guides]
-tags: [async-communication, remote-work, inclusion, non-native-english]
+tags: [async-communication, remote-work, inclusion, non-native-english, global-teams]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: false
 ---
 
-
+{% raw %}
 # How to Make Async Communication Inclusive for Non-Native English Speakers
 
-Make async communication inclusive for non-native English speakers by eliminating idioms, structuring every message with explicit context, using visual aids and code examples over prose, and setting clear response expectations that normalize imperfect English. These changes reduce the cognitive load that forces non-native speakers to mentally translate while simultaneously processing technical information, leading to faster responses and higher participation across your distributed team.
+Async communication has become the backbone of remote work. Written discussions, Slack messages, GitHub comments, and shared documents replace the instant feedback of office life. For teams spread across continents, this shift offers flexibility—but it also creates barriers for team members who communicate in English as a second or third language.
 
-## The Core Problem: Cognitive Load in Async Text
+If you write async communication that assumes native-level English fluency, you're excluding talented teammates and losing their contributions. This guide shows you how to write async messages that work for everyone on your team, regardless of their language background.
 
-When reading written English, non-native speakers process more cognitive units than native speakers. They mentally translate, check grammar structures, and parse idioms—all while trying to understand the actual message. In synchronous meetings, this burden eases because speakers provide real-time context and can rephrase when confusion appears. Async written communication lacks this feedback loop.
+## The Problem with English-Centric Async Communication
 
-The solution involves designing your async communication to reduce cognitive load. This means writing clearly, providing context, and structuring information so recipients can parse meaning without extensive re-reading.
+When you type quickly during a busy workday, you likely use idioms, slang, and complex sentence structures without thinking. Phrases like "circle back," "deep dive," or "low-hanging fruit" make perfect sense to native speakers but create confusion for others. Compound sentences with multiple clauses, passive voice, and implicit context all increase cognitive load.
 
-## Strategy 1: Write Using Clear, Structured English
+Consider this typical Slack message:
 
-Avoid idioms, slang, and culturally specific references in professional async communication. Instead, use straightforward sentence structures that convey meaning directly.
+> "Hey team, can we touch base on the API refactor? I think we're kinda barking up the wrong tree with the current approach. Maybe we should table this and revisit after the sprint demo?"
 
-**Instead of this:**
-> "Hey team, let's touch base later to kill this bug. It's pretty straightforward so we should be good."
+This message contains three idioms ("touch base," "barking up the wrong tree," "table this") and assumes the reader knows the sprint schedule. For a non-native speaker, parsing this takes significantly more effort than for a fluent speaker.
 
-**Use this:**
-> "Team, let's discuss this bug in our async thread. The fix appears straightforward and should be quick to implement."
+## Writing Clear Async Messages
 
-The second version eliminates two idioms ("touch base," "kill this bug," "be good") that non-native speakers must decode. It also separates the action item from the context, making the message easier to process.
+The core principle is simple: write for clarity first, brevity second. Clear communication actually takes less time to produce because it reduces follow-up questions and misunderstandings.
 
-## Strategy 2: Provide Context in Every Message
+### Use Simple, Direct Language
 
-Non-native speakers often need more background to understand the full picture. When starting an async discussion, include:
+Replace idioms with plain language. Instead of:
 
-- The problem or topic being addressed
-- Why it matters
-- What you've already tried or considered
-- What decision or input you need
+> "Let's circle back on this after standup"
 
-```markdown
-## Context
-I'm investigating why our API response times increased after the latest deployment. 
-The issue appears in the /users endpoint and affects approximately 15% of requests.
+Write:
 
-## What I've checked
-- Database query performance (no issues found)
-- Recent code changes in user-service (none in the past week)
-- External API dependencies (all responding normally)
+> "Let's discuss this after our daily standup meeting"
 
-## What I need
-Looking for suggestions on what else to investigate, or whether anyone 
-has seen similar patterns in production.
-```
+Instead of abstract expressions, use concrete verbs. "Table this" becomes "postpone this." "Bark up the wrong tree" becomes "take the wrong approach."
 
-This format helps recipients understand the full scope without asking follow-up questions, reducing the back-and-forth that disadvantages non-native speakers who may hesitate to ask clarifying questions.
+### Break Up Complex Information
 
-## Strategy 3: Use Visual Aids and Code Examples
+Long paragraphs with multiple ideas are harder to process. Group related points together and use bullet lists:
 
-Code snippets, diagrams, and screenshots reduce language dependency. When explaining technical concepts, show rather than just describe.
+**Instead of:**
+> "The new authentication system needs to be implemented by next Thursday and it should handle OAuth2 flows for Google and GitHub, plus we need to support JWT tokens for mobile clients and I think we should also consider adding rate limiting because of the API security concerns everyone has been talking about."
+
+**Write:**
+> "The new authentication system has these requirements:
+> - Implement OAuth2 for Google and GitHub
+> - Support JWT tokens for mobile clients
+> - Add rate limiting for API security
+> - Complete by next Thursday"
+
+### Provide Explicit Context
+
+Non-native speakers often struggle with implied context. Include information that native speakers would infer:
+
+**Weak:** "Check the PR for details."
+
+**Strong:** "I've opened PR #247 that implements the user dashboard. Please review the changes by Wednesday so we can merge before the release. The main changes are in `dashboard.js` and `api-routes.js`."
+
+## Code Examples and Technical Writing
+
+For developer teams, technical communication carries additional complexity. Code examples, error messages, and technical discussions need special attention.
+
+### Use Descriptive Variable and Function Names
+
+Bad code creates confusion even for native speakers, but it disproportionately affects non-native developers:
 
 ```javascript
-// Instead of explaining the bug in words, include a minimal reproduction:
-async function getUserData(userId) {
-  const user = await db.users.findOne({ id: userId });
-  // Bug: returns undefined when user exists but has no posts
-  return user.posts; // This throws when user.posts is undefined
+// Confusing
+function process(data) {
+  return data.filter(x => x.active).map(x => x.val);
 }
 
-// Fixed version:
-async function getUserData(userId) {
-  const user = await db.users.findOne({ id: userId });
-  return user?.posts ?? [];
+// Clear
+function getActiveUserIds(users) {
+  return users
+    .filter(user => user.isActive)
+    .map(user => user.id);
 }
 ```
 
-Visual examples let recipients focus on the technical content rather than parsing English explanations.
+### Write Meaningful Commit Messages
 
-## Strategy 4: Set Clear Response Expectations
+Generic commit messages force reviewers to dig through code to understand changes. Good commit messages follow a consistent format and explain the "why":
 
-Non-native speakers often over-think responses, worrying about grammar, tone, and phrasing. Clear expectations relieve this pressure.
+```bash
+# Weak
+"fix bug"
 
-**Include explicit timelines:**
-- "No urgent response needed—this is FYI."
-- "Please respond by Thursday EOD so I can include this in Friday's release."
-- "Quick yes/no preferred—if you have concerns, let's schedule a quick call."
+# Better
+"Fix race condition in user authentication flow
 
-**Normalize imperfect English:**
-Model the behavior you want to see. When team leads write shorter, simpler messages, it signals that clarity matters more than linguistic perfection.
+The previous implementation checked auth state before each request
+but didn't handle concurrent requests properly. This caused intermittent
+login failures when users submitted forms quickly after page load.
 
-## Strategy 5: Record Video Messages for Complex Topics
-
-Video messages combine the benefits of async (no real-time scheduling) with the clarity of tone and explanation. Tools like Loom, Vidyard, or even screen recordings with voiceover help convey complex ideas without forcing recipients to parse written English.
-
-When recording:
-- Speak slowly and clearly
-- Use the screen share to show exactly what you're discussing
-- Provide a brief text summary afterward for accessibility and searchability
-
-```markdown
-## Summary: Database Migration Approach
-
-I've recorded a 4-minute walkthrough covering:
-- Why we need to migrate (0:00-0:45)
-- The two migration strategies considered (0:45-2:00)
-- My recommendation and rationale (2:00-3:30)
-- Timeline and next steps (3:30-4:00)
-
-[Video Link]
-
-TL;DR: I recommend the blue-green deployment approach due to 
-simpler rollback capabilities. Please review and comment by Wednesday.
+Fixes #142"
 ```
 
-## Strategy 6: Create Shared Vocabulary Documents
+### Document Edge Cases Explicitly
 
-Maintain a team glossary of common terms, acronyms, and idioms used in your organization. This helps new team members and non-native speakers reference unfamiliar language.
+When writing technical documentation, spell out scenarios that native speakers might infer:
 
 ```markdown
-# Team Vocabulary
+## API Rate Limiting
 
-**PR** - Pull Request
-**LGTM** - Looks Good To Me (approval term)
-**WIP** - Work In Progress
-**EOD** - End of Day
-**ETA** - Estimated Time of Arrival (or completion)
-**Blocker** - An issue preventing progress
-**Ship** - Deploy to production
+The API allows 100 requests per minute per API key.
+
+Edge cases:
+- If a client exceeds the limit, they receive HTTP 429
+- The rate limit resets at the start of each minute
+- Failed requests (4xx/5xx) still count toward the limit
+- There's no burst allowance—clients must space requests evenly
 ```
 
-Include this in your onboarding docs and reference it when team members use unfamiliar terms.
+## Tools That Help
 
-## Measuring Success
+Several tools can help your team write more inclusive async communication:
 
-Track whether your inclusive practices work:
+**Language Tools:**
+- Grammarly detects complex sentences and suggests simpler alternatives
+- Hemingway Editor highlights difficult phrasing in real-time
+- LanguageTool offers open-source grammar checking with support for multiple languages
 
-- **Response time variance**: Are non-native speakers taking significantly longer to respond?
-- **Participation rates**: Who contributes to async discussions? Is participation balanced?
-- **Clarification requests**: Are certain team members asking more follow-up questions?
-- **Meeting follow-ups**: After async discussions, how often do people need synchronous clarification?
+**Team Practices:**
+- Establish a team style guide with plain language requirements
+- Use translation tools like DeepL for important announcements
+- Create async video recordings (Loom) for complex topics—this lets people watch at their own pace and replay sections
 
-These metrics reveal whether your async communication truly works for everyone.
+**Process Adjustments:**
+- Allow longer response windows for async discussions
+- Designate "clarification champions" who help rephrase confusing messages
+- Review past communications for patterns that cause confusion
 
-## Building Inclusive Async Culture
+## Building Inclusive Async Habits
 
-Making async communication inclusive requires ongoing effort, not one-time fixes. Regularly solicit feedback from team members about what works and what creates barriers. What feels clear to native English speakers often isn't. Small changes—simpler sentences, more context, clearer expectations—create space for everyone to contribute effectively.
+Making async communication inclusive requires ongoing attention, not one-time fixes. Start by auditing your recent written communications:
 
-When team members don't have to mentally translate while processing technical information, they contribute more and better ideas. Inclusive async communication isn't just considerate—it's more effective communication for everyone.
+1. Count idioms and slang terms
+2. Measure average sentence length
+3. Check for implicit context (assumed knowledge)
+4. Identify technical jargon without explanations
 
+Then pick one improvement to focus on for two weeks. Small changes compound—using clear language consistently will improve comprehension for everyone on your team, native speakers included.
 
-## Related Reading
+The goal isn't to dumb down your communication. It’s to remove unnecessary barriers that have nothing to do with intelligence or capability. When you write async messages that work for non-native English speakers, you build a more inclusive team where everyone can contribute their best ideas.
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+---
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
