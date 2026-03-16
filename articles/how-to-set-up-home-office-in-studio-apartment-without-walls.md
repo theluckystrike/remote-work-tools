@@ -4,8 +4,11 @@ layout: default
 title: "How to Set Up Home Office in Studio Apartment Without Walls"
 description: "A practical guide for developers and power users setting up a productive home office in studio apartments where living, working, and sleeping coexist in a single open space."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-home-office-in-studio-apartment-without-walls/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 # How to Set Up Home Office in Studio Apartment Without Walls
