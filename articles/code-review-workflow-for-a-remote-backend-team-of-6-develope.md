@@ -1,14 +1,14 @@
 ---
 
 layout: default
-title: "Code Review Workflow for a Remote Backend Team of 6 Developers"
+title: "Code Review Workflow for a Remote Backend Team of 6."
 description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /code-review-workflow-for-a-remote-backend-team-of-6-develope/
 reviewed: true
 score: 8
-categories: [productivity]
+categories: [guides]
 ---
 
 
@@ -147,5 +147,10 @@ Rotate PR review assignments deliberately. This spreads knowledge across your te
 Regularly retrospective your process. What's working? What creates friction? Your workflow should evolve as your team grows and your codebase changes.
 
 Start with these patterns, measure their impact, and refine based on your specific constraints. The goal isn't perfection—it's continuous improvement in how your team collaborates.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

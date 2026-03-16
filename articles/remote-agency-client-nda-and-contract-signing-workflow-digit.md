@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Agency Client NDA and Contract Signing Workflow."
-description: "A practical guide to digital NDA and contract signing workflows for remote agencies. Includes automation scripts, API integrations, and implementation strategies for developers."
+description: "A practical guide to digital NDA and contract signing workflows for remote agencies. Includes automation scripts, API integrations, and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-client-nda-and-contract-signing-workflow-digit/
@@ -229,6 +229,11 @@ Before deploying your digital contract workflow, verify these elements:
 - [ ] Expiration reminders trigger before contract end dates
 
 A streamlined contract signing process removes friction from client onboarding and protects your agency legally. The initial setup investment pays dividends through faster project starts and reduced administrative overhead.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

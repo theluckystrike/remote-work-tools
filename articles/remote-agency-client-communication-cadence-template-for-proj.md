@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Agency Client Communication Cadence Template for Project Managers"
+title: "Remote Agency Client Communication Cadence Template for."
 description: "A practical guide to building sustainable client communication workflows for remote agencies. Includes templates, code examples, and automation tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -169,6 +169,11 @@ Building an effective client communication cadence requires initial setup effort
 The best cadence is the one your team can consistently maintain. Start simple, measure results, and refine as you learn what works for your specific context.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

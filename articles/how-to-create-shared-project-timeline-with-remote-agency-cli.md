@@ -2,8 +2,8 @@
 
 
 layout: default
-title: "How to Create Shared Project Timeline with Remote Agency Clients"
-description: "A practical guide for developers and power users building shared project timelines with remote agency clients. Includes CLI tools, automation examples, and implementation strategies."
+title: "How to Create Shared Project Timeline with Remote Agency."
+description: "A practical guide for developers and power users building shared project timelines with remote agency clients. Includes CLI tools, automation examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-shared-project-timeline-with-remote-agency-cli/
@@ -216,6 +216,11 @@ Creating shared project timelines with remote agency clients comes down to three
 The best timeline is one that gets checked. Build yours in a format and location that clients will actually use.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

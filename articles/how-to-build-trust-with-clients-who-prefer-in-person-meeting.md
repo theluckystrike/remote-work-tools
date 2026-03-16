@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Build Trust with Clients Who Prefer In-Person Meetings"
+title: "How to Build Trust with Clients Who Prefer In-Person."
 description: "Learn practical strategies for building trust with clients who prefer in-person meetings while working in remote or hybrid environments."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -166,6 +166,11 @@ Start by having an honest conversation with your client about their preferences.
 Remember: the goal isn't to convince clients that remote work is superior. It's to build enough trust that they feel comfortable with your chosen work style. When clients see you're genuinely invested in their success and willing to meet them partway, their preference for in-person meetings becomes a manageable challenge rather than an insurmountable barrier.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

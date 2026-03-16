@@ -1,12 +1,12 @@
 ---
 
 layout: default
-title: "Remote Agency Scope Change Request Workflow for Client Projects"
-description: "A practical step-by-step workflow for handling scope change requests in remote agency client projects. Includes code templates, process examples, and implementation tips."
+title: "Remote Agency Scope Change Request Workflow for Client."
+description: "A practical step-by-step workflow for handling scope change requests in remote agency client projects. Includes code templates, process examples, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-scope-change-request-workflow-for-client-projects/
-categories: [workflows, project-management]
+categories: [troubleshooting]
 tags: [scope-change, client-communication, remote-agency]
 reviewed: true
 score: 8
@@ -233,6 +233,11 @@ Charge consistently. Apply your pricing framework uniformly across clients to av
 Train your team. Everyone who communicates with clients should understand the workflow and know how to redirect scope change discussions to the proper process.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Video Walkthrough Tools for Presenting Code Changes to Non-Technical Clients"
-description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording, annotation, and presentation techniques."
+title: "Video Walkthrough Tools for Presenting Code Changes to."
+description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording."
 date: 2026-03-16
 author: theluckystrike
 permalink: /video-walkthrough-tools-for-presenting-code-changes-to-non-t/
@@ -174,6 +174,11 @@ This practice creates a searchable knowledge base of explanations your entire te
 ## Summary
 
 Video walkthroughs transform how you communicate code changes to non-technical clients. By combining visual demonstration with verbal explanation, you build trust and clarity without requiring your clients to understand code syntax. Start with simple screen recordings using tools like Loom or CleanShot X, add clear narration, and always explain the business impact alongside technical changes.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Set Up ClickUp Client Portal for Remote Project Visibility"
-description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for developer teams."
+title: "How to Set Up ClickUp Client Portal for Remote Project."
+description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/
@@ -233,5 +233,10 @@ Run this monthly to ensure former clients no longer have access and current clie
 - **Document the setup**: Keep internal docs explaining which spaces are client-accessible so new team members don't accidentally share wrong content
 
 The client portal setup is not a one-time configuration—treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

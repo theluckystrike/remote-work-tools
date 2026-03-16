@@ -188,5 +188,10 @@ Set up these automations in the Settings > Notifications section. Tailor thresho
 
 ---
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

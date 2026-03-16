@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Run Remote Client UX Research Sessions with Observers"
-description: "Learn practical methods for running remote UX research sessions with multiple observers. Includes setup configurations, tooling recommendations, and code snippets for developers."
+description: "Learn practical methods for running remote UX research sessions with multiple observers. Includes setup configurations, tooling recommendations, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-ux-research-sessions-with-observers/
@@ -212,6 +212,11 @@ Running remote UX research sessions with observers requires thoughtful preparati
 - **Backup plans** for technical failures
 
 With these practices in place, you can conduct valuable UX research that satisfies both participant comfort and stakeholder information needs.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
