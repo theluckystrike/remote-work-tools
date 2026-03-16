@@ -1,11 +1,16 @@
 ---
 layout: default
 title: "Remote Work Tools — Guides & Reviews"
+description: "Reviews, comparisons, and guides for the best remote work tools, apps, and productivity software"
 permalink: /
 ---
 
 # Remote Work Tools
 
-Guides and reviews for remote work productivity tools.
+Reviews, comparisons, and guides for the best remote work tools, apps, and productivity software.
 
-*Articles coming soon...*
+{% for page in site.pages %}
+{% if page.path contains 'articles/' %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+{% endif %}
+{% endfor %}
