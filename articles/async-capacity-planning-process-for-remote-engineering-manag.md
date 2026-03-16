@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Async Capacity Planning Process for Remote Engineering Managers: A Practical Guide"
 description: "Learn how to build an effective async capacity planning process for distributed engineering teams. Includes templates, formulas, and real-world examples."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /async-capacity-planning-process-for-remote-engineering-manag/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 Capacity planning for remote engineering teams requires a fundamentally different approach than co-located teams. Without the ability to observe work in progress through physical proximity, managers must rely on structured async processes to understand team capacity, forecast delivery, and allocate resources effectively.
