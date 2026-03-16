@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Slack Channel Strategy for a Remote Company with 75 Employees"
 description: "A practical Slack channel strategy for a remote company with 75 employees. Learn channel hierarchy, naming conventions, and automation patterns."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /slack-channel-strategy-for-a-remote-company-with-75-employee/
 categories: [guides]
 tags: [slack, remote-work, communication]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Slack Channel Strategy for a Remote Company with 75 Employees
