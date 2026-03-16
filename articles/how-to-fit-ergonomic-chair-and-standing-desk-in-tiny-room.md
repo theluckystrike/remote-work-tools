@@ -3,9 +3,11 @@ layout: default
 title: "How to Fit an Ergonomic Chair and Standing Desk in a Tiny Room: A Practical Guide"
 description: "Learn space-saving strategies for fitting ergonomic furniture in small rooms. Includes measurement techniques, layout configurations, and code snippets for tracking your workspace dimensions."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
