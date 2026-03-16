@@ -4,11 +4,11 @@ layout: default
 title: "Async Sales Demo Recordings for Remote Enterprise Sales Teams Workflow"
 description: "Learn how to build an async sales demo recording workflow for distributed enterprise sales teams. Includes automation scripts, best practices, and implementation code."
 date: 2026-03-16
-author: theluckystrike
-permalink: /async-sales-demo-recordings-for-remote-enterprise-sales-teams-workflow/
+author: "Remote Work Tools Guide"
+permalink: /async-sales-demo-recordings-for-remote-enterprise-sales-team/
 categories: [guides]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 ---
 
