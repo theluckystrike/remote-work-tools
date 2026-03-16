@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Book Clubs for a Remote Engineering Team of 40"
-description: "A practical guide to organizing and running effective book clubs for distributed engineering teams of 40. Includes scheduling, discussion formats, and async participation strategies."
+description: "A practical guide to organizing and running effective book clubs for distributed engineering teams of 40. Includes scheduling, discussion formats, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-book-clubs-for-a-remote-engineering-team-of-40/
@@ -152,6 +152,11 @@ Keep the rhythm predictable so people can plan around it. Consistency beats inte
 Start small. Pick one book, set up your async channel, and schedule one live session. Let the format evolve based on what actually works for your team. The goal is creating a sustainable learning culture, not perfect execution from day one.
 
 A 40-person remote engineering team can absolutely run a thriving book club—it just requires different tactics than a small in-person group. Embrace async, rotate fairly, and keep the discussions focused on what matters to your team's work.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
