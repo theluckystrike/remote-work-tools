@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Async Design Critique Process for Remote UX Teams: Step-by-Step"
+title: "Async Design Critique Process for Remote UX Teams."
 description: "Learn how to run effective asynchronous design critiques with remote UX teams. Practical examples and code snippets included."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -168,6 +168,11 @@ Monitor your async critique process over time. Are deadlines being met? Is feedb
 An async design critique process transforms how remote UX teams collaborate. By structuring feedback collection, setting clear timelines, and closing the loop consistently, teams overcome the limitations of distributed work without sacrificing design quality.
 
 The key is starting simple. Pick one project type, try the markdown template approach, and iterate based on what works for your team. Over time, async critique becomes a natural part of your design workflow—one that actually improves when team members have time to think before they respond.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
