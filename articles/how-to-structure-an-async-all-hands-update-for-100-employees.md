@@ -1,13 +1,17 @@
 ---
 
+
 layout: default
 title: "How to Structure an Async All Hands Update for 100 Employees"
 description: "A practical guide to running asynchronous all hands meetings at scale. Templates, tools, and code examples for 100-person teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-structure-an-async-all-hands-update-for-100-employees/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 
