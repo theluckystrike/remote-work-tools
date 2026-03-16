@@ -2,10 +2,10 @@
 
 
 layout: default
-title: "Slack Workspace Structure for a 50 Person Remote."
+title: "Slack Workspace Structure for a 50 Person Remote Engineering Org"
 description: "A practical guide to organizing Slack channels, access controls, and integrations for a 50-person distributed engineering team. Includes naming."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: theluckystrike
 permalink: /slack-workspace-structure-for-a-50-person-remote-engineering/
 reviewed: true
 score: 8
