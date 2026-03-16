@@ -9,12 +9,13 @@ permalink: /how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # How to Fix Echo on Zoom Calls in Room with Hardwood Floors
 
-Hardwood floors are beautiful and practical, but they create a notorious problem for video conferencing: echo. The hard, reflective surface bounces sound waves back to your microphone, creating the hollow, reverberant audio that makes meetings exhausting for remote participants. This guide provides actionable solutions for eliminating echo in hardwood-floored rooms, ranging from quick software fixes to acoustic treatments you can implement yourself.
+To fix echo on Zoom calls in a hardwood-floor room, start by reducing your microphone input gain to 70-80% and enabling Zoom's built-in echo suppression, then place an area rug in the primary sound reflection path between you and the floor. For persistent echo, position a directional (cardioid) microphone 6-12 inches from your mouth and add acoustic foam panels at the first reflection points on nearby walls. Most users resolve the issue by combining these software settings with basic acoustic treatment, without significant investment.
 
 ## Why Hardwood Floors Cause Echo
 

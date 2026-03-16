@@ -9,11 +9,12 @@ permalink: /best-router-placement-for-home-office-on-second-floor-wifi/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 # Best Router Placement for Home Office on Second Floor WiFi
 
-Placing your router in the right location dramatically improves WiFi performance for your second-floor home office. Unlike ground-floor setups where routers often sit near the modem in a central location, multi-story homes require strategic positioning to overcome the vertical signal attenuation that plagues many remote workers.
+Place your router on the second floor near your office, mounted high on a wall or shelf -- ideally near a central stairwell where the open vertical space acts as a signal corridor to lower levels. If that is not possible, run an Ethernet cable from your ground-floor router to a dedicated access point in your office for the most stable connection. WiFi signals lose 20-30% strength per floor in typical wood-frame homes, so minimizing vertical distance between the router and your workspace is the single most effective improvement.
 
 ## Understanding Signal Propagation in Multi-Story Homes
 
