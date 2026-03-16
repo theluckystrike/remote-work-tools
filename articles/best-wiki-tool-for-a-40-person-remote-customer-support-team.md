@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Best Wiki Tool for a 40-Person Remote Customer Support Team
-description: Discover the best wiki tools for managing knowledge bases in a 40-person remote customer support team. Compare features, pricing, and implementation.
+title: "Best Wiki Tool for a 40-Person Remote Customer Support Team"
+description: "Discover the best wiki tools for managing knowledge bases in a 40-person remote customer support team. Compare features, pricing, and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-wiki-tool-for-a-40-person-remote-customer-support-team/
