@@ -7,7 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-under-desk-cable-tray-for-clean-home-office-setup-2026/
 reviewed: true
 score: 8
-categories: [best-of]
+categories: [guides]
 ---
 
 If you spend hours at a desk debugging code or running CI pipelines, you know the frustration of cables tangling behind your monitor. A well-chosen under desk cable tray transforms your workspace from a cable nest into a clean, maintainable environment. This guide covers everything developers and power users need to know about selecting and installing cable trays in 2026.
@@ -137,5 +137,10 @@ A well-planned cable tray system should grow with your needs:
 Investing time in proper cable management pays dividends in daily productivity. Whether you choose a simple mesh tray or build a custom solution, the key is planning your routing before installation and leaving room for expansion. A clean under-desk area reduces visual noise, prevents accidental disconnections, and makes your home office feel more professional.
 
 Start with a tray sized for your current setup, add cables methodically, and reassess every few months. Your future self will thank you when debugging a hardware issue doesn't require untangling a rat's nest of cables.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
