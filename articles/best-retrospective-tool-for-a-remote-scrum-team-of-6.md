@@ -2,9 +2,12 @@
 layout: default
 title: "Best Retrospective Tool for a Remote Scrum Team of 6"
 description: "A practical guide to selecting the right retrospective tool for small remote Scrum teams. Compare features, integration options, and real-world considerations."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-retrospective-tool-for-a-remote-scrum-team-of-6/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
 
 Running effective sprint retrospectives with a distributed team of six requires the right tooling. Unlike large organizations that can justify enterprise licenses, a small remote Scrum team needs tools that balance functionality with simplicity. This guide walks through what matters most when selecting a retrospective platform and how to implement one that fits your workflow.
