@@ -214,5 +214,10 @@ Structuring Jira for 50 remote developers requires balancing visibility with foc
 
 The goal is a Jira instance where developers can find what they need, understand what others are working on, and communicate blockers without scheduling meetings. When configured correctly, Jira becomes infrastructure for async coordination rather than another tool requiring constant management.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

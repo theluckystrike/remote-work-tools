@@ -7,7 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-bug-tracking-setup-for-a-7-person-remote-qa-team/
 reviewed: true
 score: 8
-categories: [best-of]
+categories: [guides]
 ---
 
 Running a QA team of seven remote testers requires more than just picking a bug tracker and hoping for the best. You need a system that handles asynchronous communication, prevents duplicate work, and keeps everyone aligned without requiring constant meetings. Here's how to build that system.
@@ -127,5 +127,10 @@ Finally, don't skip the verification step. Some teams ship directly from "In Dev
 A seven-person remote QA team thrives on structure: clear ticket templates, explicit workflow states, regular triage, strategic ownership, and tight development integration. The tools matter less than the discipline around using them consistently.
 
 Start with a template, automate what you can, and measure your cycle times. Adjust as you learn what works for your specific team dynamics and product complexity.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

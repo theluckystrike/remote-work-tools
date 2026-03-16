@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Project Management for Husband and Wife Freelance Development Team"
-description: "Practical project management strategies for husband and wife freelance development teams. Learn workflow optimization, communication patterns, and tool selection."
+title: "Project Management for Husband and Wife Freelance."
+description: "Practical project management strategies for husband and wife freelance development teams. Learn workflow optimization, communication patterns, and tool."
 date: 2026-03-16
 author: theluckystrike
 permalink: /project-management-for-husband-and-wife-freelance-developmen/
@@ -141,6 +141,11 @@ Many couples fall into these traps:
 The advantage of a husband-wife team is trust, shared values, and the ability to complement each other's weaknesses. One partner might excel at backend architecture while the other shines at client communication. Play to these strengths but maintain enough cross-training that either partner can handle critical tasks.
 
 Review your workflow monthly. What broke last month? What took longer than expected? Small continuous improvements compound over time into a system that supports both your business goals and your relationship.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

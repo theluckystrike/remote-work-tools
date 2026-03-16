@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Shared Inbox Tool for a 4 Person Remote Customer Success Team"
-description: "A practical guide to building and implementing a shared inbox solution for a 4 person remote customer success team. Includes API integrations, automation patterns, and tooling recommendations."
+title: "Shared Inbox Tool for a 4 Person Remote Customer Success."
+description: "A practical guide to building and implementing a shared inbox solution for a 4 person remote customer success team. Includes API integrations."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /shared-inbox-tool-for-a-4-person-remote-customer-success-tea/
@@ -181,6 +181,11 @@ Also resist the temptation to use personal inboxes "just this once." Every custo
 Start with the simplest solution that meets your needs. If your team already uses Gmail productively, add shared labels and canned responses before buying new software. If you need better visibility and reporting, a helpdesk tool pays for itself quickly. If you have specific integration requirements or development capacity, a custom solution provides maximum flexibility.
 
 The right shared inbox transforms reactive customer success into proactive relationship management. Your team spends less time on coordination and more time helping customers succeed.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

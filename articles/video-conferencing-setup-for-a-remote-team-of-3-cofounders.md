@@ -2,7 +2,7 @@
 
 layout: default
 title: "Video Conferencing Setup for a Remote Team of 3 Cofounders"
-description: "A practical guide for developers and power users setting up video conferencing for a 3-person remote cofounder team. Covers hardware, software, and automation."
+description: "A practical guide for developers and power users setting up video conferencing for a 3-person remote cofounder team. Covers hardware, software, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /video-conferencing-setup-for-a-remote-team-of-3-cofounders/
@@ -195,6 +195,11 @@ For a new three-person cofounder team, follow this implementation sequence:
 The optimal video conferencing setup for a remote team of 3 cofounders prioritizes individual workspace quality, reliable platform selection, and workflow automation. Each cofounder needs a dedicated setup with proper lighting, good audio, and stable connectivity. The shared platform should support quick ad-hoc calls alongside scheduled meetings. Automation reduces friction in daily operations and ensures consistent meeting documentation.
 
 The specific hardware matters less than consistent quality across all participants. A well-lit workspace with decent audio outperforms expensive equipment in poorly treated rooms.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

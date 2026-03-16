@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Slack Channel Strategy for a Remote Company with 75 Employees"
+title: "Slack Channel Strategy for a Remote Company with 75."
 description: "A practical Slack channel strategy for a remote company with 75 employees. Learn channel hierarchy, naming conventions, and automation patterns."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -256,6 +256,11 @@ Before launching your new structure:
 A well-organized Slack workspace at 75 employees requires intentional design upfront but pays dividends in reduced noise, faster information access, and better team coordination. The structure above provides a foundation—adapt it to your company culture and refine as you grow.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
