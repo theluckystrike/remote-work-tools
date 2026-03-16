@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Prevent Eye Fatigue from Multiple Monitors with Bright Light"
-description: A practical guide to setting up multiple monitors while preventing eye strain and fatigue from bright light exposure.
+description: "A practical guide to setting up multiple monitors while preventing eye strain and fatigue from bright light exposure."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/
