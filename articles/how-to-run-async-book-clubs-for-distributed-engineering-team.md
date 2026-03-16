@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Run Async Book Clubs for Distributed Engineering Teams"
-description: "Learn practical strategies for running effective asynchronous book clubs with remote engineering teams. Includes tools setup, discussion formats, and code examples."
+title: "How to Run Async Book Clubs for Distributed Engineering."
+description: "Learn practical strategies for running effective asynchronous book clubs with remote engineering teams. Includes tools setup, discussion formats, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-async-book-clubs-for-distributed-engineering-teams/
@@ -163,6 +163,11 @@ Async book clubs require experimentation to find the right fit. Start with a sho
 The key is consistency over intensity. A book club that meets every week for a year produces more value than an intensive program that burns out in two months. Build sustainable habits first, then refine the details based on what your team actually does.
 
 Running async book clubs across distributed engineering teams takes deliberate setup, but the payoff includes stronger team communication, shared technical vocabulary, and continuous learning that doesn't compete with delivery deadlines.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Async Decision Making with RFC Documents for Engineering Teams"
-description: "A practical guide to implementing async decision making using RFC documents. Includes templates, workflows, and best practices for distributed engineering teams."
+title: "Async Decision Making with RFC Documents for Engineering."
+description: "A practical guide to implementing async decision making using RFC documents. Includes templates, workflows, and best practices for distributed."
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-decision-making-with-rfc-documents-for-engineering-teams/
@@ -170,6 +170,11 @@ RFCs fail when they become performative exercises rather than genuine decision-m
 RFC documents transform how distributed engineering teams make decisions. By providing structured templates, clear workflows, and persistent documentation, RFCs enable thoughtful collaboration without synchronous meetings. The initial investment in creating and reviewing documents pays dividends through better decisions and accessible historical context.
 
 Start with one decision type—architecture changes, process updates, or tool selections—and refine your workflow based on team feedback. Over time, your RFC process becomes a competitive advantage, enabling your team to make confident decisions at scale.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

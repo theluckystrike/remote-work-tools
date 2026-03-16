@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Async Customer Feedback Synthesis Workflow for Remote Product Managers"
-description: "Learn how to build an asynchronous customer feedback synthesis workflow that scales across time zones. Practical examples and code snippets for remote product managers."
+title: "Async Customer Feedback Synthesis Workflow for Remote."
+description: "Learn how to build an asynchronous customer feedback synthesis workflow that scales across time zones. Practical examples and code snippets for remote."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /async-customer-feedback-synthesis-workflow-for-remote-produc/
@@ -208,5 +208,10 @@ An async customer feedback synthesis workflow transforms scattered input into or
 The core insight is this: feedback synthesis is a process, not an event. Moving from meeting-driven to document-driven review respects distributed team dynamics while creating better records of how decisions get made.
 
 Start small. Pick one feedback source, create your template, run one async review cycle, and iterate. Your team and your customers will notice the difference.
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
