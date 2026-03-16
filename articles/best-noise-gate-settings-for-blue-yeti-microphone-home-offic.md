@@ -9,14 +9,14 @@ categories: [guides]
 tags: [audio, microphone, blue yeti, noise gate, home office, remote work]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Best Noise Gate Settings for Blue Yeti Microphone Home Office
 
-The Blue Yeti remains one of the most popular USB microphones for home office setups, but its built-in pickup can capture unwanted background noise. Configuring a noise gate properly transforms your recordings from muffled and distracting to clean and professional. This guide covers practical noise gate settings specifically tuned for Blue Yeti microphones in home office environments.
+For a Blue Yeti in a quiet home office, set your noise gate threshold to -40 dB, attack to 5 ms, hold to 100 ms, release to 150 ms, and range to -60 dB. For noisy environments with street noise or HVAC, raise the threshold to -35 dB and increase hold and release to 200 ms each. These settings work in OBS Studio, Voicemeeter, or any noise gate plugin, and they eliminate background noise while keeping your voice clean and natural.
 
 ## Understanding How Noise Gates Work
 

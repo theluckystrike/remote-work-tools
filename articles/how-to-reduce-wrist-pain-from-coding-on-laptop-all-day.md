@@ -9,12 +9,13 @@ categories: [guides]
 tags: [remote-work, ergonomics, health, developer-tools, coding]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # How to Reduce Wrist Pain from Coding on Laptop All Day
 
-Wrist pain is one of the most common complaints among developers who code on laptops for extended periods. The combination of cramped keyboard layouts, unnatural hand positions, and repetitive motions creates perfect conditions for conditions like carpal tunnel syndrome and tendonitis. This guide provides practical, actionable strategies to protect your wrists while maintaining productivity.
+To reduce wrist pain from coding on a laptop all day, elevate your laptop to eye level with a stand and use an external keyboard positioned at elbow height so your wrists stay straight -- not bent up or down. Supplement this with keyboard shortcuts and code snippets to reduce total keystrokes, take breaks every 20 minutes with wrist circles and flexor stretches, and consider a split or ergonomic keyboard if pain persists. The combination of cramped laptop keyboard layouts, unnatural hand positions, and repetitive motions creates conditions for carpal tunnel syndrome and tendonitis, but these targeted changes address each strain factor directly.
 
 ## Why Laptops Are Hard on Your Wrists
 

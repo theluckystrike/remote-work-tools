@@ -9,14 +9,14 @@ categories: [guides]
 tags: [home-office, remote-work, air-circulation, productivity]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Home Office Air Circulation Fan That Is Quiet for Calls
 
-Working from home means your workspace needs to serve multiple purposes. During video calls, your background noise becomes part of the meeting. If you've ever been told "you're coming through loud and clear" about your fan noise instead of your ideas, you need a strategy for staying cool without disrupting calls.
+For a home office fan that stays quiet during calls, target a tower fan rated under 25 dB with 50-150 CFM airflow, positioned to create a cross-breeze without pointing directly at your microphone. Fans with fewer, wider blades and DC motors run quieter at equivalent airflow. Place the fan to your left or right at desk height or in a corner -- never facing your mic -- and you get comfortable air circulation without colleagues hearing it on calls.
 
 This guide covers how to evaluate quiet air circulation solutions, position them effectively, and even monitor your room's airflow with code.
 
