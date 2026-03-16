@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Hide Messy Room During Video Calls Without Virtual Background"
-description: "Practical solutions for hiding cluttered rooms during video calls without relying on virtual backgrounds. Physical setups, lighting tricks, and OBS alternatives for developers."
+title: "How to Hide Messy Room During Video Calls Without."
+description: "Practical solutions for hiding cluttered rooms during video calls without relying on virtual backgrounds. Physical setups, lighting tricks, and OBS."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-hide-messy-room-during-video-calls-without-virtual-ba/
@@ -160,6 +160,11 @@ When you need to hide mess immediately without preparation:
 Hiding a messy room during video calls without virtual backgrounds requires combining physical barriers, strategic lighting, and camera positioning. The most reliable approach uses collapsible screens or curtains as a permanent backdrop, positions lighting to make your face significantly brighter than your background, and adjusts camera angle to minimize visible clutter.
 
 For developers comfortable with additional setup, OBS provides blur filters that outperform basic virtual backgrounds without requiring AI processing. Start with the simplest solution—a physical backdrop—and add layers of complexity only as needed.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

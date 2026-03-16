@@ -170,5 +170,10 @@ A physical therapist can teach you specific exercises tailored to your situation
 
 Reducing wrist pain requires consistency. Start with one or two changes—perhaps adding a keyboard shortcut or setting up a Pomodoro timer—and build from there. Your wrists will thank you after years of coding ahead.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
