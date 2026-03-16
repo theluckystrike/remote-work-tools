@@ -2,9 +2,12 @@
 layout: default
 title: "Home Office Setup in Closet: Converted Workspace Guide 2026"
 description: "Learn how to transform a closet into a productive home office space with practical tips, equipment recommendations, and setup strategies for developers and power users."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /home-office-setup-in-closet-converted-workspace-guide-2026/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 # Home Office Setup in Closet: Converted Workspace Guide 2026
