@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Lighting Setup for Video Calls in Basement Home Office"
-description: "Discover the best lighting setup for video calls in basement home office. Learn practical solutions with color temperature guidelines, three-point lighting, and automation scripts for consistent video quality."
+description: "Discover the best lighting setup for video calls in basement home office. Learn practical solutions with color temperature guidelines, three-point."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-lighting-setup-for-video-calls-in-basement-home-office/
@@ -208,6 +208,11 @@ The best lighting setup is one you actually use. Complex automation is worthless
 Your basement home office can produce professional-quality video calls. The key is treating lighting as a technical problem with measurable solutions—color temperature, direction, and intensity—that you can control and replicate consistently.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
