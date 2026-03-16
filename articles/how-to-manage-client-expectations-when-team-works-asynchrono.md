@@ -4,11 +4,11 @@ layout: default
 title: "How to Manage Client Expectations When Team Works Asynchronous Hours"
 description: "Practical strategies for setting clear communication boundaries and managing client expectations when your team works across different time zones."
 date: 2026-03-16
-author: "theluckystrike"
-permalink: /how-to-manage-client-expectations-when-team-works-asynchronous-hours/
+author: "Remote Work Tools Guide"
+permalink: /how-to-manage-client-expectations-when-team-works-asynchrono/
 categories: [guides]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 ---
 
