@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Virtual Team Building Activities That Developers Actually Enjoy"
 description: "Discover virtual team building activities that developers genuinely enjoy. Practical ideas for remote engineering teams that build real connections without feeling forced."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /virtual-team-building-activities-that-developers-actually-enjoy/
 categories: [guides]
 tags: [remote-work, team-building, developers, productivity]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Virtual Team Building Activities That Developers Actually Enjoy
