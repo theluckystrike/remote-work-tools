@@ -3,12 +3,12 @@
 layout: default
 title: "Async Standup Alternative Using GitHub Commit Summaries Automatically"
 description: "Replace live standups with automated GitHub commit summary reports. Set up scripts that aggregate work done, track blockers, and share progress across time zones without meetings."
-date: 2026-03-16
-author: "theluckystrike"
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /async-standup-alternative-using-github-commit-summaries-automatically/
 categories: [guides]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 ---
 
