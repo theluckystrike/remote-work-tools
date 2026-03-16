@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Mount Monitor on Wall Behind Standing Desk Setup"
-description: "A practical guide for developers on mounting monitors on the wall behind a standing desk. Learn about VESA standards, mounting height calculations, and cable management solutions for your workstation."
+description: "A practical guide for developers on mounting monitors on the wall behind a standing desk. Learn about VESA standards, mounting height calculations, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-mount-monitor-on-wall-behind-standing-desk-setup/
@@ -161,6 +161,11 @@ Avoid these issues when mounting behind a standing desk:
 ## Summary
 
 Wall-mounting a monitor behind your standing desk creates a cleaner, more ergonomic workspace. The key steps are: verify your VESA pattern, calculate optimal height for your sitting position, choose between fixed and articulating mounts based on your adjustment preferences, secure the mount into wall studs, and plan cable management that accommodates desk movement. With proper installation, your wall-mounted monitor will provide years of stable, comfortable use regardless of whether you are sitting or standing.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
