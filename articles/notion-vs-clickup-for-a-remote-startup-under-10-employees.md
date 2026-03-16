@@ -4,8 +4,11 @@ layout: default
 title: "Notion vs ClickUp for a Remote Startup Under 10 Employees: A Practical Guide"
 description: "A focused comparison of Notion and ClickUp for small remote startups. Learn which tool fits your team's workflow, budget, and growth plans."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /notion-vs-clickup-for-a-remote-startup-under-10-employees/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
 
 {% raw %}

@@ -4,9 +4,11 @@ layout: default
 title: "Project Tracking Tool for Two Person Design Agency 2026"
 description: "A practical guide to selecting and implementing a project tracking tool for a two-person design agency. Includes tool comparisons, API integrations, and custom solutions."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /project-tracking-tool-for-two-person-design-agency-2026/
 categories: [tools, project-management]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
