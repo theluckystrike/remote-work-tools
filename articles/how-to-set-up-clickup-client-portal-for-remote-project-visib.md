@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up ClickUp Client Portal for Remote Project Visibility"
+title: "How to Set Up ClickUp Client Portal for Remote Project."
 description: "A practical guide to configuring ClickUp client portals for remote project visibility, with step-by-step instructions and best practices for agencies."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -67,5 +67,10 @@ As your remote project progresses, periodically review and refine what the clien
 Maintain clear boundaries between what clients can and cannot see. Even if you trust a client deeply, keeping some internal team discussions private protects both parties from misunderstandings or premature conclusions based on incomplete information. Periodically audit the spaces and tasks visible to client guests to ensure nothing unintended has been exposed.
 
 Finally, treat the client portal as a living part of your client service delivery, not a set-it-and-forget-it tool. The best remote agencies continuously refine their client visibility practices based on what works and what does not, using client feedback to make the portal an increasingly valuable communication channel.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

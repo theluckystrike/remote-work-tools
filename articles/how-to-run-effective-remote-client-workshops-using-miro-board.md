@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Run Effective Remote Client Workshops Using Miro Board"
-description: "A practical guide to running interactive remote client workshops using Miro Board. Learn facilitation techniques, setup steps, and best practices for engaging virtual presentations."
+title: "How to Run Effective Remote Client Workshops Using Miro."
+description: "A practical guide to running interactive remote client workshops using Miro Board. Learn facilitation techniques, setup steps, and best practices for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-board/
@@ -146,6 +146,11 @@ Track these metrics to improve future sessions:
 Regularly reviewing these metrics helps you refine your workshop approach and deliver more value to clients over time.
 
 Running effective remote client workshops using Miro Board requires preparation, the right interactive elements, and skilled facilitation. By structuring your sessions thoughtfully and leveraging Miro's collaborative features, you can create engaging virtual experiences that produce meaningful outcomes for your clients.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
