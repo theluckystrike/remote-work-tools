@@ -10,12 +10,13 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # Video Conferencing Setup for a Remote Team of 3 Cofounders
 
-A video conferencing setup for a remote team of 3 cofounders requires balancing quality, cost, and simplicity. Unlike larger teams that can justify dedicated conference rooms, a three-person cofounder team typically operates from home offices with varying technical comfort levels. This guide covers the essential components, configuration strategies, and automation approaches that work for small distributed teams.
+Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, a USB condenser or headset microphone, and a key light at 45 degrees from the camera. Use a wired Ethernet connection with QoS rules prioritizing video traffic, then pick one platform (Zoom for reliability, Google Meet if you already use Workspace) and configure it for join-before-host, cloud recording, and automatic transcription. This guide covers the hardware, network optimization, platform configuration, and automation scripts that make daily cofounder calls seamless.
 
 ## Why 3-Person Teams Have Unique Requirements
 
