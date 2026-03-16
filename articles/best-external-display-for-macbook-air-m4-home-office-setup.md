@@ -9,12 +9,13 @@ categories: [guides]
 tags: [macbook, display, hardware, remote-work]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # Best External Display for MacBook Air M4 Home Office Setup
 
-The MacBook Air M4 delivers impressive performance for a compact laptop, but a single 13.6-inch screen limits productivity for developers managing multiple windows, designers reviewing detailed mockups, or anyone building a serious home office. Choosing the right external display transforms your setup into a command center without bottlenecks that the M4 chip cannot handle.
+A 27-inch 4K IPS display with USB-C Power Delivery (60W+) is the best external monitor for the MacBook Air M4 home office, giving you sharp text at native HiDPI scaling with single-cable connectivity. The M4 supports up to two external displays at 6K (lid closed) or one at 6K (lid open), so a 4K panel hits the sweet spot of resolution and value. For developers, prioritize 27-inch for side-by-side code windows; for designers, consider a 5K panel for pixel-accurate previews. This guide covers specific models, connectivity options, and desk integration for M4-based setups.
 
 ## Understanding MacBook Air M4 Display Capabilities
 
