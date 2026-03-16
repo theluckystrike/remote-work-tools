@@ -3,8 +3,11 @@ layout: default
 title: "How to Fix Neck Pain from Looking Down at Laptop Screen"
 description: "Practical solutions for developers experiencing neck pain from laptop use. Learn desk setup adjustments, exercises, and habits to eliminate tech neck."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-fix-neck-pain-from-looking-down-at-laptop-screen/
+reviewed: true
+score: 8
+categories: [troubleshooting]
 ---
 
 Neck pain from looking down at a laptop screen affects nearly every developer who works on a portable machine. That persistent stiffness at the base of your skull, the tightness in your shoulders, the occasional headache — these are all signs of "tech neck," a condition caused by the forward head posture required when using a laptop at desk height. The good news: you can fix this with targeted adjustments to your workspace, routine stretches, and some simple habit changes.
