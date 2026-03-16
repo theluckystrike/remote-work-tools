@@ -9,10 +9,11 @@ permalink: /how-to-run-book-clubs-for-a-remote-engineering-team-of-40/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
-Running a book club for a remote engineering team of 40 people presents unique challenges. Coordination across time zones, maintaining engagement without face-to-face interaction, and keeping discussions productive require deliberate planning. This guide provides actionable strategies for engineering leaders who want to build a sustainable reading culture within their distributed teams.
+Split your 40-person team into cohorts of 8-12, assign a rotating discussion facilitator to each group, and run bi-weekly 45-minute sessions with discussion questions distributed 48 hours in advance. This structure solves the core challenges of remote book clubs—time zone coordination, uneven participation, and fading engagement—while keeping reading achievable alongside daily engineering work. The guide below covers cohort design, book selection, discussion formats, and accountability mechanisms that keep a distributed team reading together consistently.
 
 ## Why Engineering Teams Need Book Clubs
 

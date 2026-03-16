@@ -8,11 +8,11 @@ permalink: /async-mentorship-program-structure-for-remote-junior-develop/
 categories: [guides]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 ---
 
 {% raw %}
-Mentoring junior developers remotely presents unique challenges. Without the benefit of physical proximity, mentors and mentees must communicate intentionally through asynchronous channels. A well-structured async mentorship program creates predictable rhythms, clear expectations, and meaningful growth opportunities without requiring constant live meetings.
+Structure an async mentorship program for remote junior developers around three communication layers: weekly written check-ins using a shared document, bi-weekly video calls for complex discussions, and monthly goal reviews against defined objectives. This cadence creates predictable rhythms and clear expectations across time zones, letting mentees compose thoughtful questions without interruption pressure while building a searchable record of decisions and guidance they can reference later.
 
 ## Why Async Mentorship Works for Remote Junior Developers
 

@@ -9,15 +9,15 @@ permalink: /async-sales-demo-recordings-for-remote-enterprise-sales-team/
 categories: [guides]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 ---
 
 {% raw %}
+Build an async sales demo workflow by having sales engineers record product demonstrations once, processing them through an automated pipeline (transcoding, captioning, chapter markers), and distributing tracked links that prospects watch on their own schedule. This approach reduces demo preparation time by up to 70% for recurring use cases, eliminates time zone scheduling friction, and ensures consistent messaging across your entire sales team.
+
 ## Why Async Sales Demos Work for Distributed Teams
 
 Enterprise sales teams operating across multiple time zones face a fundamental challenge: scheduling live demo sessions eats into selling time and creates coordination overhead. A well-designed async sales demo workflow eliminates these bottlenecks while maintaining personalization.
-
-Sales engineers record product demonstrations once and share them with prospects across any timezone. This approach reduces demo preparation time by up to 70% for recurring use cases and ensures consistent messaging regardless of who shares the recording.
 
 For remote enterprise sales teams, async demos provide three concrete advantages:
 

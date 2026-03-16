@@ -9,11 +9,11 @@ permalink: /async-standup-alternative-using-github-commit-summaries-automaticall
 categories: [guides]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 ---
 
 {% raw %}
-Traditional daily standups consume significant developer time across distributed teams. With team sizes of five to fifteen engineers, fifteen-minute standups waste five to fifteen hours weekly. An automated GitHub commit summary system replaces synchronous meetings with asynchronous status updates that team members read when convenient.
+Replace daily standups with a Python script and GitHub Actions workflow that automatically aggregates commit logs, open pull requests, and review activity into a summary posted to Slack each morning. For a ten-person team, this cuts standup time from 750 minutes per week to roughly 75 minutes of asynchronous reading—recovering ten hours monthly that developers spend writing code instead of talking about writing code.
 
 ## Why GitHub Commit Summaries Work as Standup Replacements
 
