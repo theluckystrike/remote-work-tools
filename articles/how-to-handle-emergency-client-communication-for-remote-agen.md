@@ -4,8 +4,11 @@ layout: default
 title: "How to Handle Emergency Client Communication for Remote Agency Team"
 description: "Practical strategies and templates for managing urgent client communication when your agency team works remotely. Includes escalation workflows, Slack commands, and async response protocols."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-handle-emergency-client-communication-for-remote-agen/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}

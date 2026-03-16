@@ -4,9 +4,11 @@ layout: default
 title: "Best Client Portal for Remote Design Agency 2026 Comparison"
 description: "A practical comparison of the best client portal solutions for remote design agencies in 2026, with API integrations, workflows, and developer-focused features."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-client-portal-for-remote-design-agency-2026-comparison/
 categories: [best-of]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

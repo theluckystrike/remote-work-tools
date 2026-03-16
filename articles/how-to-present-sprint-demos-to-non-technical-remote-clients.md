@@ -3,12 +3,12 @@ layout: default
 title: "How to Present Sprint Demos to Non-Technical Remote Clients"
 description: "Learn practical techniques for presenting sprint demos to non-technical remote clients. Includes scripts, tools, and strategies for clear communication."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-present-sprint-demos-to-non-technical-remote-clients/
 categories: [guides]
 tags: [sprint-demo, remote-work, client-communication]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
