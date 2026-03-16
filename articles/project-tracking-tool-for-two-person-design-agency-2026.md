@@ -1,219 +1,189 @@
 ---
 layout: default
 title: "Project Tracking Tool for Two Person Design Agency 2026"
-description: "A technical guide to building and implementing project tracking systems tailored for two-person design agencies. Explore API integrations, custom."
+description: "Discover practical project tracking tools for a two person design agency in 2026. Compare solutions with code examples, API integrations, and implementation patterns."
 date: 2026-03-16
 author: theluckystrike
 permalink: /project-tracking-tool-for-two-person-design-agency-2026/
 categories: [guides]
-intent-checked: true
-voice-checked: true
-reviewed: true
-score: 8
+tags: [project-management, design, tools]
+reviewed: false
+score: 0
+intent-checked: false
+voice-checked: false
 ---
 
 {% raw %}
 # Project Tracking Tool for Two Person Design Agency 2026
 
-Managing projects in a two-person design agency requires a different approach than larger teams. With only two people handling design, client communication, and project delivery, you need a tracking system that eliminates unnecessary complexity while providing the visibility to keep projects on track. This guide covers practical approaches to project tracking that work specifically for small design partnerships.
+Running a two-person design agency means every tool must earn its place. You do not have room for bloated enterprise software with features nobody will use, nor can you afford systems that add more friction than value. The right project tracking tool in 2026 balances simplicity with enough power to handle client work, deadlines, and scope changes without becoming a second job.
 
-## The Challenge of Project Tracking for Two-Person Agencies
+This guide evaluates practical approaches to project tracking for small design teams, covering self-hosted options, lightweight SaaS solutions, and custom implementations you can tailor to your specific workflow.
 
-When your team consists of just two people, traditional project management tools often introduce more friction than value. Enterprise platforms assume hierarchical structures, multiple stakeholders, and complex approval workflows that don't apply to a lean design duo. You need something that tracks what matters: what needs to be done, who is doing it, and when it is due.
+## What a Two-Person Design Agency Actually Needs
 
-The key requirements for a two-person design agency tracking system include:
+Before evaluating tools, define your requirements. A two-person design agency typically handles:
 
-- Task assignment between two people with clear ownership
-- Client project separation to maintain confidentiality
+- Client project management with clear milestones
+- Task assignment between designers with different roles
+- File and asset sharing tied to project context
 - Time tracking for billing and capacity planning
-- File and asset management integration
-- Simple status updates without ceremony
+- Communication logs tied to specific deliverables
 
-## Building a Custom Tracking System
+You need visibility into what your partner is working on without daily standups consuming your already tight schedule. The tool should support async updates, minimize context switching, and integrate with your existing design stack.
 
-For developers and power users, building a custom tracking solution using existing APIs provides the most flexibility. This approach gives you complete control over your workflow without paying for features you do not use.
+## Option 1: Linear — Built for Speed
 
-### Using the Linear API
+Linear has become a favorite among design teams that value keyboard-driven workflows. Its minimal interface hides sophisticated project management features beneath a clean surface.
 
-Linear provides a clean API that works well for custom integrations. Here is a basic example of creating a project and tasks through their API:
-
-```javascript
-const linearClient = require('@linear/sdk');
-
-async function createDesignProject(clientName, deadline) {
-  const { data } = await linearClient.createProject({
-    name: `${clientName} - Design`,
-    description: `Design project for ${clientName}`,
-    targetDate: deadline,
-    stateId: 'YOUR_STATE_ID'
-  });
-
-  // Create initial tasks
-  await linearClient.createIssue({
-    title: 'Initial mood board',
-    projectId: data.project.id,
-    priority: 1
-  });
-
-  await linearClient.createIssue({
-    title: 'First round mockups',
-    projectId: data.project.id,
-    priority: 2
-  });
-
-  return data.project;
-}
-```
-
-This script creates a project with tasks automatically assigned, reducing the manual setup needed for each new client engagement.
-
-### GitHub Projects as a Lightweight Alternative
-
-If you already use GitHub for code repositories, GitHub Projects provides a free, capable tracking system that integrates with your existing workflow. For design agencies that also handle frontend development or deliver code alongside designs, this option eliminates context switching.
-
-Create a project board using the GitHub CLI:
+Linear excels when your team embraces keyboard shortcuts. Every action — creating issues, moving cards, assigning tasks — can be done without leaving your keyboard.
 
 ```bash
-gh project close 1
-gh project delete 1
-gh project create --owner "your-org" --title "Client Projects" --body "Active design projects"
+# Linear CLI example for creating an issue
+linear issue create \
+  --title "Homepage redesign - Phase 1" \
+  --team-id PRD \
+  --priority urgent \
+  --assignee-id user_123 \
+  --label "client-work"
 ```
 
-The advantage here is that design tasks can live alongside development tasks in the same ecosystem, making it easy to track design deliverables that connect to implementation work.
+Linear's API allows custom integrations. If you build internal tools, you can sync project data programmatically:
 
-## Notion as a Flexible Database Platform
-
-Notion offers a database-driven approach that appeals to developers comfortable with structured data. You can create a custom project tracking system using Notion databases with properties for status, priority, client, and due date.
-
-```python
-from notion_client import Client
-
-notion = Client(auth="YOUR_NOTION_API_KEY")
-
-def create_project_database(parent_page_id, client_name):
-    database = notion.databases.create(
-        parent={"page_id": parent_page_id},
-        title=f"{client_name} Projects",
-        properties={
-            "Name": {"title": {}},
-            "Status": {
-                "select": {
-                    "options": [
-                        {"name": "Not Started", "color": "gray"},
-                        {"name": "In Progress", "color": "blue"},
-                        {"name": "Review", "color": "yellow"},
-                        {"name": "Complete", "color": "green"}
-                    ]
-                }
-            },
-            "Due Date": {"date": {}},
-            "Client": {"rich_text": {}},
-            "Deliverables": {"rich_text": {}}
+```javascript
+// Fetch active projects from Linear API
+const response = await fetch('https://api.linear.app/graphql', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': process.env.LINEAR_API_KEY
+  },
+  body: JSON.stringify({
+    query: `
+      query {
+        issues(filter: { state: { name: { eq: "In Progress" } } }) {
+          nodes {
+            title
+            assignee { name }
+            dueDate
+            project { name }
+          }
         }
-    )
-    return database
-```
-
-This creates a database tailored specifically to your agency's workflow, with statuses that match your actual project phases rather than generic project management terminology.
-
-## Time Tracking Integration
-
-Accurate time tracking matters for agencies that bill hourly or need to understand their capacity. For a two-person team, a simple integration that syncs with your tracking system prevents duplicate entry.
-
-```javascript
-// Sync time entries from Clockify to Linear
-async function syncTimeEntries() {
-  const clockifyEntries = await fetch('https://api.clockify.me/api/v1/workspaces/WORKSPACE_ID/user/USER_ID/time-entries', {
-    headers: { 'X-Api-Key': 'CLOCKIFY_API_KEY' }
-  }).then(r => r.json());
-
-  for (const entry of clockifyEntries) {
-    if (entry.taskId) {
-      // Update the Linear issue with time spent
-      await linearClient.issueUpdate(entry.taskId, {
-        estimate: entry.durationInSeconds
-      });
-    }
-  }
-}
-```
-
-## File and Asset Management
-
-Design agencies deal with large files that need organized storage and easy retrieval. Connecting your tracking system to cloud storage ensures that task context includes the relevant assets.
-
-A practical approach uses webhooks to automatically attach files to tasks when they are uploaded:
-
-```javascript
-app.post('/webhook/dropbox', async (req, res) => {
-  const { path, client_modified } = req.body;
-  
-  // Extract client and project from folder structure
-  const segments = path.split('/');
-  const clientName = segments[1];
-  const projectName = segments[2];
-  
-  // Find the corresponding task in your tracking system
-  const task = await findTaskByProjectName(projectName);
-  
-  if (task) {
-    await addAttachmentToTask(task.id, {
-      url: generateSignedUrl(path),
-      filename: segments[segments.length - 1],
-      uploadedAt: client_modified
-    });
-  }
-  
-  res.json({ status: 'processed' });
+      }
+    `
+  })
 });
 ```
 
-## Practical Workflow for Two-Person Agencies
+Linear works well for teams that already use Figma, as their ecosystem integration keeps design and project context in sync.
 
-The most effective tracking system for a design duo follows a simple weekly rhythm:
+## Option 2: Todoist — Minimalist Task Management
 
-1. **Weekly planning session**: Both partners review upcoming deadlines and assign tasks for the week
-2. **Daily standups**: Brief check-in to update task statuses and flag blockers
-3. **Weekly review**: Assess completed work, update time records, and plan the following week
+If your workflow is simpler than full project management requires, Todoist offers a different approach. It treats tasks as first-class objects without the overhead of projects, boards, or custom workflows.
 
-This cadence keeps the tracking system lightweight while maintaining the visibility needed to deliver client work on time.
-
-## Automating Repetitive Tasks
-
-For a two-person team, automation provides significant leverage. Common automations include:
-
-- Sending reminder notifications 24 hours before deadlines
-- Automatically moving tasks to "Review" when linked files are updated
-- Generating weekly status summaries for client calls
-- Creating invoices from completed task time entries
+For a two-person agency, Todoist works when you share a workspace and organize work through labels and filters rather than complex project hierarchies.
 
 ```javascript
-// Example: Automated deadline reminders
-const cron = require('node-cron');
+// Todoist REST API v2 — Create a task with due date
+const task = {
+  content: "Client presentation deck - Review",
+  project_id: "2255186781",
+  due_datetime: "2026-03-20T14:00:00",
+  priority: 4,
+  labels: ["client-review", "urgent"]
+};
 
-cron.schedule('0 9 * * *', async () => {
-  const tomorrow = addDays(new Date(), 1);
-  const dueTomorrow = await getTasksDueOn(tomorrow);
-  
-  for (const task of dueTomorrow) {
-    await sendNotification({
-      to: task.assignee,
-      message: `Reminder: "${task.title}" is due tomorrow`
-    });
-  }
+await fetch('https://api.todoist.com/rest/v2/tasks', {
+  method: 'POST',
+  headers: {
+    'Authorization': `Bearer ${process.env.TODOIST_TOKEN}`,
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(task)
 });
 ```
 
-## Conclusion
+Todoist lacks native time tracking, but you can combine it with tools like Toggl through Zapier or Make integrations. This keeps your task list lightweight while adding time tracking capability.
 
-A project tracking system for a two-person design agency does not require enterprise software. By leveraging APIs from tools like Linear, Notion, or GitHub, you can build a customized solution that matches your actual workflow. The key is keeping it simple enough to maintain without overhead while capturing the information needed to deliver client work consistently.
+## Option 3: Self-Hosted with Vikunja
 
-The best system is one that your team actually uses. Start with basic task tracking, add time tracking when you need billing accuracy, and layer in automation as you identify repetitive patterns in your work.
+For teams prioritizing data ownership and customization, self-hosted options eliminate recurring SaaS costs and keep client data on infrastructure you control.
 
+Vikunja is an open-source project management tool written in Go. It offers a clean API, native mobile apps, and supports self-hosting on minimal hardware — even a Raspberry Pi can run it.
 
-## Related Reading
+```yaml
+# docker-compose.yml for Vikunja self-hosting
+version: '3.8'
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+services:
+  vikunja:
+    image: vikunja/vikunja
+    ports:
+      - "3456:3456"
+    volumes:
+      - ./vikunja-data:/app/vikunja/files
+    environment:
+      - VIKUNJA_SERVICE_JWTSECRET=your-secret-key
+      - VIKUNJA_SERVICE_TIMEZONE=America/New_York
+      - VIKUNJA_DATABASE_TYPE=sqlite3
+      - VIKUNJA_DATABASE_PATH=/app/vikunja/vikunja.db
+```
+
+Once running, you can create projects and tasks through the API:
+
+```bash
+# Create a project via Vikunja API
+curl -X POST http://localhost:3456/v1/projects \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer your-token" \
+  -d '{"name": "Client Rebrand 2026", "description": "Complete brand refresh for Acme Corp"}'
+```
+
+Vikunja supports team members, labels, due dates, and file attachments. The tradeoff is you handle maintenance, updates, and backups yourself.
+
+## Option 4: Notion — Flexible Workspace
+
+Notion serves as both documentation hub and project tracker. Its flexibility makes it adaptable, though this same flexibility can lead to inconsistent workflows if you do not establish conventions.
+
+Design agencies often use Notion databases for project tracking:
+
+```javascript
+// Notion API — Query a project database
+const response = await notion.databases.query({
+  database_id: process.env.NOTION_PROJECT_DB_ID,
+  filter: {
+    and: [
+      {
+        property: "Status",
+        status: { equals: "In Progress" }
+      },
+      {
+        property: "Due Date",
+        date: { on_or_before: "2026-04-01" }
+      }
+    ]
+  },
+  sorts: [{ property: "Due Date", direction: "ascending" }]
+});
+```
+
+The strength of Notion lies in connecting project pages to other resources — meeting notes, brand guidelines, file libraries. The weakness is performance degrades with large databases, and offline access requires the desktop app.
+
+## Choosing the Right Tool
+
+Evaluate based on how the tool fits your actual workflow:
+
+| Criteria | Linear | Todoist | Vikunja | Notion |
+|----------|--------|---------|---------|--------|
+| Keyboard-driven | Excellent | Good | Good | Moderate |
+| Self-hostable | No | No | Yes | Optional |
+| API flexibility | Strong | Moderate | Strong | Strong |
+| Learning curve | Low | Very Low | Medium | Medium |
+| Free tier | Yes (limited) | Yes (limited) | Yes (open source) | Yes (limited) |
+
+For most two-person design agencies, Linear offers the best balance of power and speed. If you prefer absolute simplicity and your work fits task lists, Todoist covers basics without overhead. Teams wanting data ownership should consider Vikunja, while those already living in Notion can extend it to handle project tracking.
+
+The best tool is the one your team actually uses consistently. A powerful tool you open once a week provides less value than a simple tool integrated into your daily routine.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
