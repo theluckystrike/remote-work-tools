@@ -3,11 +3,13 @@ layout: default
 title: "Best Keyboard Wrist Rest for Split Keyboard Tenting Setup"
 description: "Find the best keyboard wrist rest for your split keyboard tenting setup. Learn about compatible options, height matching, materials, and DIY solutions for developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/
 categories: [guides]
 intent-checked: true
 voice-checked: true
+reviewed: true
+score: 8
 ---
 
 {% raw %}
