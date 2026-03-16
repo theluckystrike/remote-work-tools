@@ -9,13 +9,12 @@ permalink: /async-capacity-planning-process-for-remote-engineering-manag/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
-Capacity planning for remote engineering teams requires a fundamentally different approach than co-located teams. Without the ability to observe work in progress through physical proximity, managers must rely on structured async processes to understand team capacity, forecast delivery, and allocate resources effectively.
-
-This guide walks you through building an async capacity planning process that works across time zones, reduces meeting overhead, and produces reliable forecasts for remote engineering organizations.
+Build async capacity planning by collecting weekly availability reports from each engineer, tracking velocity or throughput metrics over time, and running the numbers in a shared capacity template -- all without scheduling a single meeting. This process replaces synchronous planning sessions with structured written inputs that produce more accurate forecasts, better documentation, and fewer time zone conflicts.
 
 ## Why Async Capacity Planning Matters for Remote Teams
 

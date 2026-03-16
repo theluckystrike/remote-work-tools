@@ -10,15 +10,14 @@ categories: [guides]
 tags: [sprint-demos, async-communication, remote-work, stakeholders]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # How to Run Async Sprint Demos with Recorded Walkthroughs for Stakeholders
 
-Running sprint demos in distributed teams requires moving beyond synchronous meetings. Async sprint demos with recorded walkthroughs let stakeholders review progress on their own schedule while preserving context for future reference.
-
-This guide covers practical approaches for recording effective sprint demos, structuring your walkthroughs, and setting up workflows that work across time zones.
+Record a screen walkthrough under 10 minutes following a consistent structure -- 30-second sprint overview, 2-5 minutes per feature demo, optional technical highlights, and 30-second next-steps summary -- then distribute it with timestamps and a written summary so stakeholders can review on their own schedule. This eliminates the time zone conflicts of live demos while creating a permanent searchable record of sprint progress.
 
 ## Why Async Demos Work Better for Distributed Teams
 

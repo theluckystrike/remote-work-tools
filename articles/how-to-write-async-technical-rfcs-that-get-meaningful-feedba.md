@@ -9,14 +9,14 @@ categories: [guides]
 tags: [rfc, async, technical-writing, remote-work]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # How to Write Async Technical RFCs That Get Meaningful Feedback
 
-Writing technical RFCs for distributed teams requires a different approach than in-person design reviews. When your reviewers span multiple time zones and can't ask clarifying questions in real-time, every word in your RFC carries extra weight. A well-crafted async RFC doesn't just document your proposal—it actively guides readers through your thinking, anticipates objections, and creates space for substantive feedback.
+Structure your RFC with a 2-3 sentence summary, a concrete problem statement with real data, a detailed proposed solution with code examples, explicitly rejected alternatives, numbered open questions for reviewers, and a clear feedback deadline. Assign 2-3 specific reviewers by name with targeted questions for each, and frame your decisions as current thinking rather than final verdicts. This approach converts vague "looks good" responses into actionable technical feedback across time zones.
 
 ## The Core Problem with Most Technical RFCs
 
