@@ -1,76 +1,232 @@
 ---
 layout: default
-title: "How to Set Up ClickUp Client Portal for Remote Project."
-description: "A practical guide to configuring ClickUp client portals for remote project visibility, with step-by-step instructions and best practices for agencies."
+title: "How to Set Up ClickUp Client Portal for Remote Project Visibility"
+description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for developer teams."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: theluckystrike
 permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/
-reviewed: true
-score: 8
-categories: [guides]
 ---
 
-Setting up a ClickUp client portal is one of the most effective ways to give remote clients real-time visibility into project progress without drowning them in endless email threads or scheduling constant status calls. For remote agencies and distributed teams, the challenge has always been finding the right balance between keeping clients informed and not overwhelming them with technical details they don't need. ClickUp's client portal features solve this problem by providing a centralized, read-only view of project status that clients can access whenever they want.
+Setting up a ClickUp client portal gives remote development teams a structured way to share project progress with clients without resorting to endless email chains or frequent status meetings. For developers and technical leads managing distributed teams, the challenge is giving clients enough visibility to build trust while keeping internal technical discussions private. ClickUp's guest access and portal features provide the granularity needed to achieve this balance.
 
-## Understanding the ClickUp Client Portal Structure
+This guide covers the technical implementation of client portals in ClickUp, with practical examples and automation patterns suitable for developer workflows.
 
-Before diving into the setup, it is helpful to understand what ClickUp actually offers for client visibility. The platform provides two primary approaches: guest access to specific tasks and spaces, and the more comprehensive client portal feature available in higher-tier plans. Each approach has its place depending on how much visibility your client needs and how much control you want to maintain over what they see.
+## Guest Access vs. Client Portal: Understanding Your Options
 
-Guest access works by inviting clients as guests to specific spaces or tasks within your workspace. They receive their own login credentials but are limited to viewing only what you explicitly share with them. This approach gives you granular control over which documents, tasks, and discussions they can access. The client portal, when available, provides a more polished, white-labeled experience that looks more professional and less like peering into your internal project management system.
+ClickUp offers two primary mechanisms for external client visibility:
 
-For most remote agencies, starting with guest access and then evolving to a full portal setup as the client relationship matures is the practical approach. This allows you to demonstrate value quickly while building toward a more integrated client experience.
+1. **Guest Access** — Invite clients as guests to specific spaces, folders, or lists. Guests receive credentials but can only see what you explicitly share.
+2. **Client Portal** — Available on Business and Enterprise plans, this provides a white-labeled, polished interface that looks less like internal project management.
 
-## Setting Up Guest Access for Client Visibility
+For most development teams, guest access provides sufficient functionality and works across all plan tiers. Here's how to implement it programmatically.
 
-The first step in giving a client visibility into your remote project is creating their guest account with the appropriate permissions. Navigate to your workspace settings and locate the Members and Guests section. Click on the Invite button and enter your client's email address. Select Guest as the role, and choose which spaces or folders you want them to access.
+## Setting Up Guest Access via API
 
-When setting up guest access, take time to think carefully about what you want them to see. Remote project transparency does not mean showing everything. Clients generally do not need to see internal discussions, draft documents that are still being revised, or the back-and-forth of task assignments. Instead, focus on giving them access to the spaces where finalized project plans, completed deliverables, and active task lists live.
+While you can create guests through the ClickUp UI, automating guest provisioning fits better into developer workflows. Here's a Python script using the ClickUp API:
 
-Create a dedicated Client Space in ClickUp that contains only the information relevant to their project. This might include a main project dashboard, milestone trackers, deliverable galleries, and approval request tasks. By curating this space specifically for client viewing, you avoid overwhelming them with your entire project management infrastructure while still providing complete transparency into the work that affects them.
+```python
+import os
+import requests
 
-## Configuring Task Views for Client-Friendly Display
+CLICKUP_API_KEY = os.getenv("CLICKUP_API_KEY")
+TEAM_ID = os.getenv("CLICKUP_TEAM_ID")
 
-Tasks in ClickUp can become quite detailed, with custom fields, dependencies, subtasks, and internal comments accumulating over time. When these tasks are visible to clients, all that information can create confusion. Take time to configure custom task views that present information in a client-friendly format.
+def create_client_guest(email, name, accessible_list_ids):
+    """Create a guest user with access to specific lists."""
+    url = f"https://api.clickup.com/api/v2/team/{TEAM_ID}/guest"
+    
+    payload = {
+        "email": email,
+        "name": name,
+        "can_see_time": True,
+        "list_ids": accessible_list_ids
+    }
+    
+    headers = {
+        "Authorization": CLICKUP_API_KEY,
+        "Content-Type": "application/json"
+    }
+    
+    response = requests.post(url, json=payload, headers=headers)
+    return response.json()
 
-Create a dedicated view within each relevant list that filters out internal-only information. Remove columns that contain cost data, internal priority markers, or technical notes. Keep visible only the information that matters to a client: task names, due dates, status, and attached files. You might also want to customize the task layout to show a cleaner, more readable format that emphasizes progress and deliverables over process.
+# Example: Add a client to a specific project list
+client = create_client_guest(
+    email="client@acme.com",
+    name="Sarah Chen",
+    accessible_list_ids=["abc12345", "def67890"]
+)
+print(f"Guest created: {client.get('id')}")
+```
 
-Dependencies are particularly important to show clients, as they illustrate how different pieces of the project fit together and why certain tasks cannot begin until others are complete. Configure your views to display dependencies clearly, but use friendly naming conventions that a non-technical client can understand. Instead of technical task IDs, use descriptive names that communicate what each deliverable actually is.
+This approach works well when you need to provision multiple clients across different projects—simply extend the `accessible_list_ids` array to match your project structure.
 
-## Creating Project Dashboards for High-Level Visibility
+## Structuring Client-Facing Spaces
 
-While individual task views provide detailed information, most clients also want a high-level overview of where the project stands. ClickUp Dashboards are perfect for this purpose, allowing you to create visual representations of project health that clients can access with a single click.
+Create a dedicated space structure that separates client-visible content from internal development work. A practical folder layout looks like:
 
-Build a client-facing dashboard that includes several key elements. A timeline or Gantt-style view showing major milestones and deadlines helps clients understand the project schedule at a glance. A simple progress chart illustrating what percentage of tasks are complete, in progress, and pending gives them confidence that work is advancing. Status widgets showing any blocked tasks or items awaiting client feedback help identify where their input is needed.
+```
+Client Projects/
+├── Acme Corp Website/
+│   ├── 01_Project_Plan (Client View)
+│   ├── 02_Milestones (Client View)
+│   ├── 03_Deliverables (Client View)
+│   └── Internal_Discussions (Team Only)
+```
 
-When designing client dashboards, prioritize clarity over comprehensiveness. Include only the metrics that actually matter to a client's decision-making and peace of mind. Avoid overwhelming them with detailed analytics that they neither need nor understand. The goal is to build trust through transparency, not to create another reporting burden for your team.
+The key principle: curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status—not sprint planning, bug backlogs, or internal code review discussions.
 
-## Establishing Update Cadences and Communication Rhythm
+## Custom Views for Client Visibility
 
-Having a client portal is only valuable if clients actually use it and understand what they are seeing. Part of your setup process should include establishing a clear communication rhythm that directs clients to the portal at specific intervals while also providing context for what they will find there.
+Configure custom views that filter out technical details. Use ClickUp's view API to create client-specific perspectives:
 
-Send clients a welcome message when you first set up their access that explains what the portal contains, how to navigate it, and what kind of updates they can expect to see there. Include screenshots or a short video walkthrough that makes the interface feel familiar before they first log in. This investment in onboarding pays dividends throughout the project by reducing confusion and unnecessary questions.
+```javascript
+// ClickUp API: Create a filtered view for clients
+const createClientView = async (listId) => {
+  const response = await fetch(`https://api.clickup.com/api/v2/list/${listId}/view`, {
+    method: "POST",
+    headers: {
+      "Authorization": process.env.CLICKUP_API_KEY,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      "name": "Client Progress View",
+      "filters": {
+        "status": ["Not Started", "In Progress", "Complete"],
+        "assignees": []  // Show all tasks
+      },
+      "filter_version": 2,
+      "show_subtasks": true,
+      "visible_fields": ["name", "due_date", "status", "assignees", "attachments"]
+    })
+  });
+  
+  return response.json();
+};
+```
 
-Establish regular check-in points where you either present portal updates in a call or meeting or simply notify them that new information is available in the portal. Remote clients particularly appreciate knowing exactly when they should log in to see fresh progress rather than checking constantly or wondering if anything has changed. A weekly summary email pointing them to specific items of interest in the portal creates a sustainable communication pattern.
+This view includes only task names, due dates, status, assignees, and attachments—stripping out custom fields that might contain cost data, internal priority markers, or technical notes.
 
-## Managing Client Feedback Through the Portal
+## Automation Patterns for Client Updates
 
-The client portal can also serve as a two-way communication channel for feedback and approvals. Rather than receiving feedback through scattered emails or messages, set up clear workflows in ClickUp that route client input to the right places.
+Automate status updates to reduce manual communication overhead. This Integromat/Make scenario sends weekly summaries to clients:
 
-Create specific task types for client feedback, such as Review Required or Approval Needed tasks. When a deliverable is ready for client review, assign one of these tasks to them and include clear instructions about what you need feedback on and by when. This structure makes it easy to track client response times and follow up appropriately when decisions are delayed.
+```javascript
+// Webhook payload handler for weekly client digest
+const generateClientDigest = async (clientEmail, projectId) => {
+  // Fetch completed tasks from the past week
+  const tasks = await clickup.getTasks({
+    list_id: projectId,
+    filter: {
+      statuses: ["complete"],
+      date_updated: {
+        start: weekAgo(),
+        end: now()
+      }
+    }
+  });
+  
+  // Format the digest
+  const completed = tasks.filter(t => t.status.status === "complete");
+  const inProgress = tasks.filter(t => t.status.status === "in_progress");
+  
+  return {
+    to: clientEmail,
+    subject: `Project Update: ${completed.length} tasks completed this week`,
+    body: `
+      Completed: ${completed.map(t => t.name).join(", ")}
+      In Progress: ${inProgress.map(t => t.name).join(", ")}
+      
+      View full details: ${dashboardUrl}
+    `
+  };
+};
+```
 
-Use automation to notify team members when client feedback arrives. When a client adds a comment to a task or completes a feedback form, ClickUp automation can alert the relevant team member immediately, keeping project momentum moving forward. This integration between client communication and internal workflows is where the real efficiency gains of the portal approach become apparent.
+You can also set up automation within ClickUp itself:
 
-## Best Practices for Ongoing Portal Management
+- **Task Complete → Notify Client**: When a task status changes to "Complete," automatically add a comment visible to the client guest
+- **Blocker Added → Alert Manager**: Notify your project lead when a client-dependent task is blocked
+- **Due Date Passed → Escalate**: Route overdue items awaiting client feedback to your account manager
 
-As your remote project progresses, periodically review and refine what the client can see in the portal. What made sense in early project phases might become less relevant as work evolves. Solicit feedback from clients about whether the portal is providing the visibility they need and adjust accordingly.
+## Integrating with External Dashboards
 
-Maintain clear boundaries between what clients can and cannot see. Even if you trust a client deeply, keeping some internal team discussions private protects both parties from misunderstandings or premature conclusions based on incomplete information. Periodically audit the spaces and tasks visible to client guests to ensure nothing unintended has been exposed.
+For clients who prefer a custom dashboard outside ClickUp, pull data via the API:
 
-Finally, treat the client portal as a living part of your client service delivery, not a set-it-and-forget-it tool. The best remote agencies continuously refine their client visibility practices based on what works and what does not, using client feedback to make the portal an increasingly valuable communication channel.
+```python
+from clickup_api import ClickUpClient
+import json
 
+def export_project_status(space_id):
+    """Export project status as JSON for external dashboards."""
+    client = ClickUpClient(api_key=os.getenv("CLICKUP_API_KEY"))
+    
+    # Get all lists in the space
+    lists = client.get_lists(space_id)
+    
+    status_data = {
+        "project_name": space_id,
+        "milestones": [],
+        "tasks_by_status": {
+            "pending": 0,
+            "in_progress": 0,
+            "complete": 0
+        }
+    }
+    
+    for lst in lists:
+        tasks = client.get_tasks(lst.id)
+        for task in tasks:
+            status = task.status.status.lower().replace(" ", "_")
+            if status in status_data["tasks_by_status"]:
+                status_data["tasks_by_status"][status] += 1
+    
+    return status_data
 
-## Related Reading
+# Serve via Flask for client dashboard
+@app.route("/api/project-status")
+def project_status():
+    return jsonify(export_project_status("acme_website"))
+```
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+This pattern works well when you need to embed project status into a client portal running on your own domain.
+
+## Permission Auditing for Security
+
+Periodically audit guest permissions to prevent accidental exposure:
+
+```python
+def audit_guest_access():
+    """List all guests and their accessible resources."""
+    client = ClickUpClient(api_key=os.getenv("CLICKUP_API_KEY"))
+    
+    team_members = client.get_team_members()
+    guests = [m for m in team_members if m.get("is_guest")]
+    
+    audit_report = []
+    for guest in guests:
+        guest_id = guest["id"]
+        accessible = client.get_guest_sharedFolders(guest_id)
+        
+        audit_report.append({
+            "email": guest["email"],
+            "name": guest["name"],
+            "accessible_folders": [f["name"] for f in accessible],
+            "last_active": guest.get("last_active")
+        })
+    
+    return audit_report
+```
+
+Run this monthly to ensure former clients no longer have access and current clients only see what they need.
+
+## Practical Tips for Developer Teams
+
+- **Use descriptive task names**: Clients see task titles directly. Instead of `FEAT-142`, use "Implement user authentication flow"
+- **Set up separate notification rules**: Guests should only receive mentions on tasks they're assigned to, not every comment
+- **Create client-specific templates**: Build task templates for deliverables that prompt for client-facing descriptions
+- **Document the setup**: Keep internal docs explaining which spaces are client-accessible so new team members don't accidentally share wrong content
+
+The client portal setup is not a one-time configuration—treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
