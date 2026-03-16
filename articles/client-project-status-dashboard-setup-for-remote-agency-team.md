@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Client Project Status Dashboard Setup for Remote Agency Teams"
+title: "Client Project Status Dashboard Setup for Remote Agency."
 description: "Learn how to build a client project status dashboard tailored for distributed agency teams with practical implementation examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -215,6 +215,11 @@ Iterate based on usage patterns. Remove features nobody uses, and add integratio
 ## Summary
 
 A client project status dashboard consolidates scattered updates into a reliable single source of truth. Start with minimal viable functionality—pulling data from one or two tools your team already uses—and expand incrementally. The goal is reducing context-switching overhead while maintaining the visibility remote agencies need to deliver excellent client work.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

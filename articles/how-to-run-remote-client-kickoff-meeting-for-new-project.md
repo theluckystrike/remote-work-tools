@@ -161,5 +161,10 @@ Running a successful remote client kickoff meeting requires preparation, focus, 
 
 The kickoff meeting is your opportunity to demonstrate professionalism, build trust, and create alignment. Invest the time to do it right, and you'll save countless hours of miscommunication and rework throughout the project.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
