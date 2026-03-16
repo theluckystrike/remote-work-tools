@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Zoom Plan for a Company with 200 Person Quarterly Meetings"
-description: "A practical technical guide for running efficient 200-person quarterly meetings on Zoom. Includes room configuration, automation scripts, and best practices."
+description: "A practical technical guide for running efficient 200-person quarterly meetings on Zoom. Includes room configuration, automation scripts, and best."
 date: 2026-03-16
 author: theluckystrike
 permalink: /zoom-plan-for-a-company-with-200-person-quarterly-meetings/
@@ -228,6 +228,11 @@ Running 200-person quarterly meetings on Zoom requires preparation beyond basic 
 With proper planning and the right technical setup, quarterly all-hands meetings become valuable alignment opportunities rather than necessary inconveniences.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

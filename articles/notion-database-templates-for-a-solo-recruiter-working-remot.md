@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Notion Database Templates for a Solo Recruiter Working Remotely"
-description: "A practical guide to building custom Notion database templates for solo recruiters working remotely. Includes database schemas, formulas, and automation patterns."
+title: "Notion Database Templates for a Solo Recruiter Working."
+description: "A practical guide to building custom Notion database templates for solo recruiters working remotely. Includes database schemas, formulas, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /notion-database-templates-for-a-solo-recruiter-working-remot/
@@ -190,6 +190,11 @@ Avoid storing sensitive data like salary negotiations or internal feedback in da
 ## Summary
 
 Notion databases replace expensive ATS software for solo recruiters willing to invest in setup time. Build three core databases (Candidates, Companies, Jobs), connect them with relations, and use formulas to surface actionable insights. Start simple, iterate based on your actual workflow, and resist the urge to model every possible scenario before you need it.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

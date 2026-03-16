@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Meeting Cadence for a Remote Engineering Team of 25"
-description: "Discover the optimal meeting cadence for a 25-person remote engineering team. Get practical schedules, async alternatives, and code tools for managing meetings."
+description: "Discover the optimal meeting cadence for a 25-person remote engineering team. Get practical schedules, async alternatives, and code tools for managing."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-meeting-cadence-for-a-remote-engineering-team-of-25/
@@ -217,6 +217,11 @@ Replace traditional meetings with async alternatives wherever possible—decisio
 The right cadence isn't fixed. Continuously collect feedback and adjust. Your team's specific needs, time zones, and project complexity should shape how meetings evolve over time.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

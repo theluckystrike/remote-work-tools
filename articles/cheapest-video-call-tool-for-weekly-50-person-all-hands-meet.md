@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Cheapest Video Call Tool for Weekly 50 Person All Hands Meeting"
-description: "Find the most cost-effective video conferencing solution for your weekly 50-person all-hands meeting. Compare pricing, features, and developer-friendly integrations."
+title: "Cheapest Video Call Tool for Weekly 50 Person All Hands."
+description: "Find the most cost-effective video conferencing solution for your weekly 50-person all-hands meeting. Compare pricing, features, and developer-friendly."
 date: 2026-03-16
 author: theluckystrike
 permalink: /cheapest-video-call-tool-for-weekly-50-person-all-hands-meeting/
@@ -146,5 +146,10 @@ For most teams running straightforward weekly all-hands, Google Meet covers the 
 
 The real cost is not the subscription. It is the friction of a tool that forces upgrades, limits duration at the worst moment, or creates a poor experience for participants. Pick the solution that disappears into your workflow and lets the meeting happen.
 {% endraw %}
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

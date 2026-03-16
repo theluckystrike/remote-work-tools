@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Incident Management Setup for a Remote DevOps Team of 5"
-description: "A practical guide to building an incident management system for a small remote DevOps team. Covers communication protocols, runbooks, automation, and on-call rotation strategies."
+description: "A practical guide to building an incident management system for a small remote DevOps team. Covers communication protocols, runbooks, automation, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /incident-management-setup-for-a-remote-devops-team-of-5/
@@ -202,6 +202,11 @@ Start by defining your severity levels and documenting them. Build runbooks for 
 With five team members, you have enough scale to provide good coverage without the complexity of larger on-call rotations. The key is consistency: follow your defined processes, update your runbooks after each incident, and continuously improve.
 
 The goal is not eliminating incidents—they will happen. The goal is responding to them calmly, efficiently, and learning from each one.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
