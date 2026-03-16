@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Childproof Home Office When Toddler Interrupts Meetings"
 description: "Practical solutions for developers and remote workers to childproof their home office and handle toddler interruptions during video calls. Includes automation scripts and physical setup tips."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-childproof-home-office-when-toddler-interrupts-meetin/
 categories: [guides]
 tags: [remote-work, productivity, home-office]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Childproof Home Office When Toddler Interrupts Meetings
