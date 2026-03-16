@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Project Tracking Tool for Two Person Design Agency 2026"
-description: "Discover practical project tracking tools for a two person design agency in 2026. Compare solutions with code examples, API integrations, and implementation patterns."
+description: "Discover practical project tracking tools for a two person design agency in 2026. Compare solutions with code examples, API integrations, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /project-tracking-tool-for-two-person-design-agency-2026/
@@ -184,6 +184,11 @@ Evaluate based on how the tool fits your actual workflow:
 For most two-person design agencies, Linear offers the best balance of power and speed. If you prefer absolute simplicity and your work fits task lists, Todoist covers basics without overhead. Teams wanting data ownership should consider Vikunja, while those already living in Notion can extend it to handle project tracking.
 
 The best tool is the one your team actually uses consistently. A powerful tool you open once a week provides less value than a simple tool integrated into your daily routine.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

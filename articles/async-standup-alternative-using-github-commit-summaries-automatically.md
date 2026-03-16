@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Async Standup Alternative Using GitHub Commit Summaries Automatically"
-description: "Replace live standups with automated GitHub commit summary reports. Set up scripts that aggregate work done, track blockers, and share progress across time zones without meetings."
+title: "Async Standup Alternative Using GitHub Commit Summaries."
+description: "Replace live standups with automated GitHub commit summary reports. Set up scripts that aggregate work done, track blockers, and share progress across."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /async-standup-alternative-using-github-commit-summaries-automatically/
@@ -193,6 +193,11 @@ For a ten-person engineering team replacing fifteen-minute daily standups:
 That's ten hours recovered each month—time developers spend actually writing code rather than talking about writing code.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at zovo.one
 {% endraw %}
