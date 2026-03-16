@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Childproof Home Office When Toddler Interrupts Meetings"
-description: "Practical solutions for developers and remote workers to childproof their home office and handle toddler interruptions during video calls. Includes automation scripts and physical setup tips."
+title: "How to Childproof Home Office When Toddler Interrupts."
+description: "Practical solutions for developers and remote workers to childproof their home office and handle toddler interruptions during video calls. Includes."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-childproof-home-office-when-toddler-interrupts-meetin/
@@ -184,6 +184,11 @@ Add this to your dotfiles and run it with a single command before standup or cli
 The reality of parenting while working remotely means interruptions will happen. The goal isn't elimination but reduction and recovery speed. Physical barriers prevent most incidents, technical solutions handle the rest, and practiced protocols ensure when (not if) your toddler appears mid-sprint review, you recover professionally.
 
 Start with the simplest changes: cable management, door latches, and meeting status automation. Add complexity only as needed. Your time as a developer is valuable—spend it solving engineering problems, not constantly retrieving a curious toddler from your keyboard.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

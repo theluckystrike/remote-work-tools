@@ -156,4 +156,9 @@ Fixing neck pain from laptop use requires the same systematic approach you apply
 
 The developers who avoid tech neck most successfully share one characteristic: they treat their body as seriously as they treat their code. Your body runs on the same hardware for your entire career — invest in maintaining it.
 
+
+## Related Reading
+
+- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

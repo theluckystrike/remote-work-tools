@@ -147,5 +147,10 @@ The most effective approach combines multiple strategies: an ergonomic setup, re
 
 The key is consistency. Small daily investments in your spinal health compound over time, preventing the chronic pain that affects so many developers. Your career depends on your ability to sit comfortably and focus for extended periods—protect that ability by treating your back with the care it deserves.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
