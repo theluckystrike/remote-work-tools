@@ -9,13 +9,13 @@ permalink: /async-design-critique-process-for-remote-ux-teams-step-by-st/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
 {% raw %}
-Design critique sessions in remote teams present unique challenges that synchronous meetings cannot always solve. Time zone differences, calendar conflicts, and the loss of real-time body language all contribute to friction in remote design collaboration. An async design critique process for remote UX teams, when implemented correctly, removes these barriers while maintaining the quality of feedback your team needs to ship better products.
 
-This guide provides a practical, step-by-step approach to running async design critiques that work across distributed teams of any size.
+Run effective async design critiques with five key steps: prepare designs with context and specific questions, set 24-48 hour review deadlines, collect feedback in a structured format (threaded comments, Markdown, or issues), synthesize and respond to all input, and close the loop by sharing implemented changes. This removes time zone friction while maintaining design quality through structured documentation and clear feedback prompts that produce actionable insights.
 
 ## What Makes Async Design Critique Effective
 
