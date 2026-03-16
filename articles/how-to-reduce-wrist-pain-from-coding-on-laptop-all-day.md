@@ -2,11 +2,13 @@
 layout: default
 title: "How to Reduce Wrist Pain from Coding on Laptop All Day"
 description: "Practical strategies to prevent and relieve wrist pain while coding. Ergonomic techniques, keyboard shortcuts, and developer tools to protect your wrists."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/
 categories: [guides]
 tags: [remote-work, ergonomics, health, developer-tools, coding]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
