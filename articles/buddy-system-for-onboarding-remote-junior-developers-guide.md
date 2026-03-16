@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Buddy System for Onboarding Remote Junior Developers Guide"
-description: "A practical guide to implementing a buddy system for onboarding remote junior developers. Learn how to pair new hires with experienced teammates for smoother transitions."
+description: "A practical guide to implementing a buddy system for onboarding remote junior developers. Learn how to pair new hires with experienced teammates for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /buddy-system-for-onboarding-remote-junior-developers-guide/
@@ -140,6 +140,11 @@ The buddy relationship often evolves into a lasting professional connection. Aft
 A successful buddy system creates a template for how the team supports its members. When new developers experience thoughtful onboarding, they internalize the value of helping others and carry that culture forward.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Knowledge Base Handoff When Remote Developer Leaves"
+title: "How to Handle Knowledge Base Handoff When Remote."
 description: "A practical guide for managing knowledge base handoff when a remote developer leaves. Includes templates, tools, and step-by-step processes for developers."
 date: 2026-03-16
 author: theluckystrike
@@ -179,6 +179,11 @@ The best handoff is one that's unnecessary because knowledge was captured increm
 - Retroactive documentation happens when knowledge gaps appear
 
 Remote teams must be intentional about knowledge sharing. Without hallway conversations, explicit documentation becomes the primary knowledge transfer mechanism.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

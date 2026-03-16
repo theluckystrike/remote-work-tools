@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Schedule Onboarding Meetings Across Time Zones for Remote Teams"
-description: "A practical guide for developers and power users to schedule onboarding meetings across time zones. Includes tools, strategies, code snippets, and automation examples."
+title: "How to Schedule Onboarding Meetings Across Time Zones."
+description: "A practical guide for developers and power users to schedule onboarding meetings across time zones. Includes tools, strategies, code snippets, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-schedule-onboarding-meetings-across-time-zones-for-re/
@@ -188,6 +188,11 @@ Document this constraint so new hires understand why initial meetings are sparse
 ## Conclusion
 
 Effective time zone scheduling for onboarding requires upfront planning, the right tools, and flexibility. Use timezone calculators to find overlaps, rotate meeting times fairly across regions, and record sessions for async review. When done correctly, remote onboarding feels personal rather than inconvenient—setting new hires up for success from day one.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Employee Equipment Return: Shipping Logistics and Tracking Guide"
-description: "A practical guide to building shipping logistics and tracking systems for remote employee equipment returns. Includes API integrations, code examples, and implementation patterns."
+title: "Remote Employee Equipment Return: Shipping Logistics and."
+description: "A practical guide to building shipping logistics and tracking systems for remote employee equipment returns. Includes API integrations, code examples."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-equipment-return-shipping-logistics-and-trac/
@@ -312,6 +312,11 @@ The specific implementation depends on your existing tooling. Most modern system
 ## Practical Considerations
 
 When implementing equipment return logistics, prioritize three areas: clear communication with employees about expected timelines and conditions, automated tracking that reduces manual follow-ups, and systematic verification that creates audit trails. Document your return policy explicitly and ensure employees acknowledge it before initial equipment shipment.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
