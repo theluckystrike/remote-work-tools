@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Documentation Platform for a 15 Person Remote Data Science Team"
-description: "A practical guide to building a documentation platform for a 15 person remote data science team. Includes code examples, workflow patterns, and implementation strategies."
+title: "Documentation Platform for a 15 Person Remote Data."
+description: "A practical guide to building a documentation platform for a 15 person remote data science team. Includes code examples, workflow patterns, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /documentation-platform-for-a-15-person-remote-data-science-t/
@@ -190,5 +190,10 @@ When model configurations or data schemas change, require documentation updates 
 ## Summary
 
 A documentation platform for a remote data science team of 15 people succeeds when it reduces friction for contributors while keeping information discoverable. Structure documentation into clear categories, automate updates where possible, implement async review workflows, and establish maintenance routines that prevent rot. The specific tools matter less than consistency in application. Teams that document intentionally save hours of duplicated effort and accelerate onboarding for new members.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

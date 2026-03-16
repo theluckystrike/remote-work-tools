@@ -215,5 +215,10 @@ Focus on three outcomes: clear scope definition, established communication rhyth
 
 The templates and frameworks in this guide are designed for immediate use. Adapt them to your workflow, and treat each kickoff as an opportunity to refine your process.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

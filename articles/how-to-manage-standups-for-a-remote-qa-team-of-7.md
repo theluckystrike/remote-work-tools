@@ -158,5 +158,10 @@ Running effective standups with a remote QA team of 7 means accepting that perfe
 
 The goal is not standup itself—standup is a tool for coordination. If your team has other effective channels for surfacing and resolving blockers, those channels are worth preserving even if they replace traditional standup format.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

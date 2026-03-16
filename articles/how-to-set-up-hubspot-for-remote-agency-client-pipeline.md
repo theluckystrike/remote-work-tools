@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Set Up HubSpot for Remote Agency Client Pipeline"
-description: "A practical technical guide to configuring HubSpot pipelines for remote agencies. Includes CRM setup, custom properties, automation workflows, and API integrations for developer-focused teams."
+description: "A practical technical guide to configuring HubSpot pipelines for remote agencies. Includes CRM setup, custom properties, automation workflows, and API."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-hubspot-for-remote-agency-client-pipeline/
@@ -178,5 +178,10 @@ Setting up HubSpot properly takes time. Prioritize in this order:
 6. **API integration**: Build custom workflows once foundations exist
 
 This sequence ensures you're collecting useful data before attempting complex automation. Remote agencies benefit particularly from the automation layer—time zone differences make spontaneous follow-ups difficult, so scheduled tasks and notifications fill that gap effectively.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

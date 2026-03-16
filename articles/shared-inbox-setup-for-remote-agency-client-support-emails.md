@@ -2,7 +2,7 @@
 
 layout: default
 title: "Shared Inbox Setup for Remote Agency Client Support Emails"
-description: "A practical guide to setting up shared inboxes for remote agency client support. Includes configuration examples, automation scripts, and implementation patterns."
+description: "A practical guide to setting up shared inboxes for remote agency client support. Includes configuration examples, automation scripts, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /shared-inbox-setup-for-remote-agency-client-support-emails/
@@ -298,6 +298,11 @@ Consider these factors when selecting your approach:
 For most remote agencies, starting with Google Groups and upgrading to a dedicated platform as volume grows provides the best balance of simplicity and capability.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
