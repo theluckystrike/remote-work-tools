@@ -2,9 +2,12 @@
 layout: default
 title: "How to Manage a Remote Intern Team of 4 Effectively"
 description: "A practical guide for developers and power users on managing a remote intern team of 4. Includes communication protocols, project management setup, mentorship structures, and automation scripts."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-a-remote-intern-team-of-4-effectively/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
