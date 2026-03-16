@@ -174,15 +174,15 @@ This simple logic routes security concerns immediately while giving UI/UX feedba
 
 ## Measuring Feedback Quality
 
-收集反馈只是第一步——分析反馈才能推动改进。跟踪几个关键指标可以帮助你了解反馈的有效性：
+Collecting feedback is only the first step—analyzing it drives improvement. Tracking key metrics helps you understand feedback effectiveness:
 
-**Response Rate**: 发送的反馈请求中有多少得到了回复。低响应率可能表明你的反馈流程过于复杂。
+**Response Rate**: What percentage of feedback requests receive responses. Low response rates might indicate your feedback process is too complex.
 
-**Resolution Time**: 从收到反馈到实施更改的时间。这个指标帮助你了解反馈转化为行动的速度。
+**Resolution Time**: How long from receiving feedback to implementing changes. This metric shows how quickly feedback translates to action.
 
-**Feedback Recurrence**: 同一功能的重复反馈可能表明初次实施未达到预期。
+**Feedback Recurrence**: Repeated feedback on the same feature might indicate the initial implementation didn't meet expectations.
 
-创建一个简单的仪表板来跟踪这些指标：
+Create a simple dashboard to track these metrics:
 
 ```sql
 SELECT 
