@@ -1,172 +1,190 @@
 ---
 layout: default
-title: "Documentation Platform for a 15 Person Remote Data."
-description: "Compare practical documentation platforms for a 15 person remote data science team with setup examples, API integrations, and implementation patterns."
+title: "Documentation Platform for a 15 Person Remote Data Science Team"
+description: "A practical guide to building a documentation platform for a 15 person remote data science team. Includes code examples, workflow patterns, and implementation strategies."
 date: 2026-03-16
 author: theluckystrike
-permalink: /documentation-platform-for-a-15-person-remote-data-science-team/
+permalink: /documentation-platform-for-a-15-person-remote-data-science-t/
 categories: [guides]
 tags: [documentation, remote-work, data-science, knowledge-management]
-reviewed: true
-score: 8
-intent-checked: true
-voice-checked: true
 ---
 
-{% raw %}
 # Documentation Platform for a 15 Person Remote Data Science Team
 
-Running a 15 person remote data science team requires a documentation strategy that handles diverse technical content—from Jupyter notebooks and model training logs to API specifications and business analytics. The right platform reduces knowledge silos, accelerates onboarding, and keeps everyone aligned across time zones. This guide evaluates practical solutions with implementation patterns specifically for data science workflows.
+Building effective documentation infrastructure for a distributed data science team requires addressing unique challenges that differ from traditional software engineering. Data science work involves experimentation, model versioning, dataset lineage, and code that may run once or be reused unpredictably. This guide covers practical patterns for organizing knowledge, automating documentation workflows, and maintaining discoverability across time zones.
 
-## Core Requirements for Data Science Documentation
+## The Remote Data Science Documentation Challenge
 
-A documentation platform for data science teams must handle several content types that typical wikis struggle with: executable code (notebooks), data schemas, model versioning, and collaborative research notes. Your platform should integrate with your existing toolchain—GitHub, MLflow, JupyterHub, and data warehouses—rather than creating another isolated system.
+Data science teams face documentation problems that generic tools often fail to address. Your team likely maintains Jupyter notebooks across different environments, tracks model experiments in MLflow or similar platforms, manages datasets across cloud storage, and writes production code that needs to integrate with data pipelines. When team members work remotely across different time zones, the lack of casual hallway conversations means documentation must be intentionally structured to preserve context.
 
-For a 15 person distributed team, async accessibility becomes critical. Engineers in Singapore, London, and San Francisco need equal access to institutional knowledge without scheduling real-time meetings. Search functionality must span all content types, including code snippets and data dictionary definitions.
+A 15-person team sits in a sweet spot: small enough that everyone can know each other's work with effort, but large enough that without systems, knowledge siloes develop naturally. The goal is creating a documentation platform that reduces friction for contributors while keeping information findable.
 
-## Option 1: Notion with GitHub Sync
+## Core Documentation Categories
 
-Notion remains popular because most teams already use it for project management. The advantage is low learning curve and familiar collaboration features. However, data science teams often struggle with code block rendering and notebook integration.
+Structure your documentation into distinct layers that serve different purposes:
 
-Connect Notion to GitHub for version control:
+**Project Documentation** covers business context, goals, and success criteria. This lives in repository README files and project wikis. Keep these concise and update them when project scope changes.
+
+**Technical Documentation** includes API references, architecture decisions, and implementation details. For data science projects, this should capture feature engineering logic, model assumptions, and data transformation pipelines.
+
+**Experiment Tracking** is specific to data science work. Store experiment configurations, results, and learnings separately from production documentation. Tools like MLflow or Neptune handle this natively, but ensure team members log meaningful metadata.
+
+**Onboarding Documentation** helps new team members understand workflows, coding standards, and team conventions. This should live in a centralized knowledge base and remain under version control.
+
+## Implementing a Documentation Repository Structure
+
+Create a standardized directory structure across your projects. Here's a practical layout:
+
+```bash
+project-root/
+├── docs/
+│   ├── index.md              # Project overview
+│   ├── architecture.md       # System design decisions
+│   ├── data-dictionary.md    # Dataset schemas and meanings
+│   ├── model-cards.md        # Model documentation
+│   └── deployment.md         # Deployment procedures
+├── notebooks/
+│   ├── exploratory/          # Individual experimentation
+│   └── production/           # Maintained notebooks
+├── src/
+│   └── utils/
+│       └── documentation_generator.py
+└── README.md
+```
+
+The `docs/` folder should contain markdown files that your documentation platform renders. Using markdown with front matter allows metadata tagging for searchability:
+
+```yaml
+---
+title: "User Scoring Model v2"
+version: "2.1.0"
+owner: "data-science-team"
+last-updated: "2026-02-28"
+status: "production"
+tags: ["model", "scoring", "classification"]
+---
+```
+
+## Automating Documentation Updates
+
+Reduce documentation burden through automation. Create scripts that extract docstrings and generate reference documentation:
 
 ```python
-# Notion API integration for syncing documentation
-from notion_client import Client
-import github
+# docs/generate_api_docs.py
+import os
+import re
+from pathlib import Path
 
-notion = Client(auth=os.environ["NOTION_API_KEY"])
-gh = github.Github(os.environ["GITHUB_TOKEN"])
-
-def sync_notion_to_github():
-    database_id = os.environ["NOTION_DB_ID"]
-    response = notion.databases.query(database_id={"property": "Status", "select": {"equals": "Published"}})
+def extract_docstrings(src_dir, output_file):
+    """Extract docstrings from Python files into markdown."""
+    docs = []
     
-    for page in response["results"]:
-        content = fetch_notion_page_content(page["id"])
-        filename = sanitize_filename(page["properties"]["Name"]["title"][0]["plain_text"])
-        
-        repo = gh.get_repo("your-org/ds-knowledge-base")
-        repo.create_file(
-            f"docs/{filename}.md",
-            f"Synced from Notion: {page['id']}",
-            convert_notion_to_markdown(content)
-        )
+    for py_file in Path(src_dir).rglob("*.py"):
+        with open(py_file) as f:
+            content = f.read()
+            
+        # Extract module-level docstring
+        if match := re.search(r'"""(.*?)"""', content, re.DOTALL):
+            docs.append(f"## {py_file.stem}\n\n{match.group(1).strip()}\n")
+    
+    with open(output_file, "w") as f:
+        f.write("# API Documentation\n\n")
+        f.write("\n\n".join(docs))
 ```
 
-This approach works if your team can tolerate manual sync workflows. The downside: data scientists frequently update notebooks, and continuous GitHub sync adds friction to rapid experimentation.
-
-## Option 2: GitBook with API Integration
-
-GitBook offers superior developer experience for technical documentation. Its API-first approach and OpenAPI import features make it particularly suitable for data science teams that need to document ML model endpoints and data pipelines.
-
-Initialize a GitBook workspace:
-
-```bash
-npm install -g @gitbook/cli
-gitbook init ds-documentation
-cd ds-documentation
-gitbook install
-```
-
-Configure OpenAPI sync for your ML model endpoints:
+Schedule this script to run on pull requests using GitHub Actions:
 
 ```yaml
-# .gitbook/configuration.yaml
-api:
-  openapi:
-    - url: https://api.yourmlplatform.com/openapi.json
-      version: 3.0
-      title: "ML Model Inference API"
-      position: 3
+# .github/workflows/docs.yml
+name: Generate Documentation
+
+on:
+  pull_request:
+    paths:
+      - 'src/**/*.py'
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate API docs
+        run: python docs/generate_api_docs.py
+      - name: Commit docs
+        run: |
+          git config --local user.email "ci@example.com"
+          git config --local user.name "CI"
+          git add -A && git diff --staged --quiet || git commit -m "Update API docs"
+          git push
 ```
 
-GitBook's strength lies in its markdown-first workflow. Data scientists can write documentation in the same repository as their code, maintaining version control and enabling PR-based review processes. The platform supports custom domains, which matters for teams wanting internal-only documentation.
+## Cross-Referencing and Discovery
 
-## Option 3: MkDocs with Material Theme
-
-For teams that prioritize control and minimal recurring costs, MkDocs with the Material theme provides excellent functionality without per-user licensing. This static site generator renders markdown files into searchable documentation sites deployable anywhere—GitHub Pages, S3, or internal servers.
-
-Set up the documentation structure:
-
-```bash
-pip install mkdocs mkdocs-material
-mkdocs new ds-team-docs
-cd ds-team-docs
-```
-
-Configure your mkdocs.yml for data science workflows:
+For a 15-person team, making documentation discoverable prevents duplicate work. Implement a central index that links to all project documentation:
 
 ```yaml
-site_name: "Data Science Team Documentation"
-theme:
-  name: material
-  palette:
-    primary: indigo
-    accent: blue
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - search.suggest
-    - search.highlight
-
-plugins:
-  - search:
-      separator: '[\s\-\.]+'
-  - mkdocstrings:
-      default_handler: python
-  - mdx_mathjax:
-      enable_ascii_input: true
-
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
+# _data/projects.yml
+projects:
+  - name: "Customer Churn Predictor"
+    repo: "github.com/team/churn-model"
+    docs_url: "/docs/churn-model/"
+    owners: ["@jane", "@mike"]
+    status: "production"
+    
+  - name: "Inventory Forecasting"
+    repo: "github.com/team/inventory-forecast"
+    docs_url: "/docs/inventory-forecast/"
+    owners: ["@alex", "@sam"]
+    status: "development"
 ```
 
-Add Jupyter notebook support:
+Create a simple search interface using this index. A static search using Lunr.js or Fuse.js works well for team sizes under 20:
 
-```bash
-pip install mkdocs-jupyter
+```javascript
+// js/search.js
+const searchIndex = new Fuse(projects, {
+  keys: ['name', 'description', 'owners'],
+  threshold: 0.3
+});
+
+function searchProjects(query) {
+  return searchIndex.search(query).map(result => result.item);
+}
 ```
 
-Configure notebook integration in mkdocs.yml:
+## Workflow Patterns for Async Documentation
+
+Since your team works across time zones, documentation reviews should happen asynchronously. Use pull request templates to ensure documentation gets reviewed:
+
+```markdown
+<!-- .github/PULL_REQUEST_TEMPLATE.md -->
+## Documentation Changes
+- [ ] Added new documentation for features
+- [ ] Updated data dictionary if schemas changed
+- [ ] Reviewed by at least one team member
+- [ ] Links work and examples are tested
+```
+
+Establish a documentation rotation where team members are responsible for weekly knowledge base updates. This prevents stagnation without overwhelming any individual.
+
+## Maintaining Documentation Health
+
+Documentation rot happens when content becomes outdated. Implement these practices to keep docs current:
+
+Tag every document with a last-updated date and owner. Set calendar reminders for quarterly reviews of critical documentation. Use broken link checkers in your CI pipeline:
 
 ```yaml
-plugins:
-  - mkdocs-jupyter:
-      include_source: True
-      kernel_name: python3
+# Add to .github/workflows/docs.yml
+- name: Check for broken links
+  uses: lycheeverse/lychee-action@v1
+  with:
+    args: --verbose docs/**/*.md
 ```
 
-MkDocs excels when your team values reproducibility. Documentation lives alongside code in the same repository. When you update a model training pipeline, documentation changes go through the same review process. This git-based workflow aligns naturally with data science version control practices.
+When model configurations or data schemas change, require documentation updates as part of the code review process. This integrates maintenance into existing workflows rather than creating separate tasks.
 
-## Decision Framework
+## Summary
 
-Choose Notion if your team prioritizes ease of adoption and already manages projects there, accepting tradeoffs around code rendering and notebook handling.
-
-Choose GitBook if you need polished external-facing documentation with minimal DevOps overhead and value the API-first integration capabilities.
-
-Choose MkDocs if your team prioritizes full version control, reproducibility, and minimal platform dependency. The upfront setup cost is higher, but long-term maintenance costs are lower.
-
-For a 15 person remote data science team, the git-based approach (MkDocs) typically provides the best balance of workflow integration and maintainability. Code review for documentation changes follows naturally with your existing PR process, and no per-seat licensing limits team growth.
-
-## Implementation Checklist
-
-1. **Repository structure**: Create a dedicated docs repository or top-level docs folder in your main project repos
-2. **CI/CD pipeline**: Add automated build and deploy on push to main branch
-3. **Search configuration**: Ensure full-text search indexes code blocks and data schemas
-4. **Access control**: Configure appropriate permissions for internal-only content
-5. **Onboarding docs**: Write a contributing guide specific to documentation standards
-
-The best documentation platform is one your team actually uses. Invest time in establishing documentation habits first—choose the tool that fits your workflow rather than hoping a tool will change your behavior.
-
-
-## Related Reading
-
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+A documentation platform for a remote data science team of 15 people succeeds when it reduces friction for contributors while keeping information discoverable. Structure documentation into clear categories, automate updates where possible, implement async review workflows, and establish maintenance routines that prevent rot. The specific tools matter less than consistency in application. Teams that document intentionally save hours of duplicated effort and accelerate onboarding for new members.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
