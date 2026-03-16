@@ -10,13 +10,14 @@ categories: [guides]
 tags: [health, ergonomics, developer-wellness, remote-work]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # How to Reduce Lower Back Pain from Sitting 8 Hours Coding
 
-Lower back pain is one of the most common complaints among developers who spend long hours at their desks. After years of sitting 8+ hours daily while coding, debugging, and reviewing pull requests, many programmers experience chronic discomfort that can affect productivity and quality of life. The good news is that you can significantly reduce or eliminate this pain with the right approach to ergonomics, movement, and posture.
+Take a movement break every 30-45 minutes, adjust your chair so your feet are flat on the floor with lumbar support filling the curve of your lower back, and add 10-15 minutes of core-strengthening exercises three times per week. These three changes address the root causes of lower back pain from prolonged sitting: static spinal loading, poor posture, and weak supporting muscles. Your spinal discs rely on movement to absorb nutrients, so no amount of ergonomic adjustment alone can compensate for sitting motionless through an 8-hour coding session.
 
 ## Understanding Why Sitting Causes Back Pain
 

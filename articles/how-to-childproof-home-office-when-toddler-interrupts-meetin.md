@@ -10,13 +10,14 @@ categories: [guides]
 tags: [remote-work, productivity, home-office]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # How to Childproof Home Office When Toddler Interrupts Meetings
 
-Working from home with a toddler present creates unique challenges that standard productivity advice doesn't address. Your standup is in five minutes, your code is compiling, and suddenly small footsteps approach your office door with the unmistakable sound of a child who has escaped nap time. This guide provides practical solutions for developers and power users who need to maintain professional video calls while childproofing their workspace against curious little hands and unexpected interruptions.
+Childproof your home office in three layers: physical barriers (pressure-mounted gate, cable management sleeves, enclosed charging station), technical safeguards (push-to-mute keybindings, aggressive noise cancellation, automated Slack status scripts), and a practiced emergency protocol for when your toddler appears on camera mid-call. Start with cable management and a door latch, then add meeting automation as needed. Below are the specific solutions for each layer, with code examples for the automation pieces.
 
 ## Physical Workspace Setup
 

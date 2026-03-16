@@ -8,9 +8,10 @@ permalink: /how-to-fix-neck-pain-from-looking-down-at-laptop-screen/
 reviewed: true
 score: 8
 categories: [troubleshooting]
+intent-checked: true
 ---
 
-Neck pain from looking down at a laptop screen affects nearly every developer who works on a portable machine. That persistent stiffness at the base of your skull, the tightness in your shoulders, the occasional headache — these are all signs of "tech neck," a condition caused by the forward head posture required when using a laptop at desk height. The good news: you can fix this with targeted adjustments to your workspace, routine stretches, and some simple habit changes.
+Raise your laptop screen to eye level using a stand, stack of books, or external monitor, then use a separate keyboard at elbow height — this single change eliminates the primary cause of neck pain from laptop use. Combine that with chin tucks and neck stretches two to three times daily to reverse the muscular damage from forward head posture. Most developers experience significant relief within days of making these adjustments, addressing the "tech neck" caused by looking down at a screen positioned well below eye level.
 
 ## Why Laptops Cause Neck Pain
 

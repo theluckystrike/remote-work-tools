@@ -9,14 +9,14 @@ categories: [guides]
 tags: [ergonomics, workspace, remote-work, home-office]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # How to Fit Ergonomic Chair and Standing Desk in Tiny Room
 
-Setting up a proper ergonomic workstation in a small room requires careful planning. Developers and power users who spend 8+ hours at their desk need both a quality chair and a standing desk, but fitting both into a tiny space presents real challenges. This guide provides practical measurement strategies, layout patterns, and a space planning tool to help you optimize your compact workspace.
+Use a single motorized sit-stand desk (48 inches wide minimum) with a compact ergonomic chair, placed against the longest wall opposite the door -- this eliminates the need for two separate surfaces and requires only 60 inches of clear wall space. Position the desk in a corner for diagonal depth, mount your monitor on an arm to reclaim surface area, and keep at least 36 inches of clearance behind the chair for rolling. Below are detailed measurement strategies, layout patterns, and a space planning tool to help you optimize rooms under 100 square feet.
 
 ## Understanding Your Space Constraints
 
