@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Share Home Office with Partner Both on Calls"
-description: "Practical strategies and technical solutions for couples working from home who both need to take video calls. Acoustic treatment, scheduling systems, and automation scripts for seamless shared workspace management."
+description: "Practical strategies and technical solutions for couples working from home who both need to take video calls. Acoustic treatment, scheduling systems."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-share-home-office-with-partner-both-on-calls/
@@ -162,6 +162,11 @@ A shared home office that works for both partners on calls requires investment i
 Start with the scheduling system—you can implement that immediately. Then tackle acoustic treatment based on your budget and space constraints. Finally, layer in software tools like noise cancellation to handle edge cases.
 
 The goal isn't a perfect, silent environment but rather a functional workspace where both partners can take calls without disrupting each other's professional presence. With these systems in place, your shared office becomes an asset rather than a limitation.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
