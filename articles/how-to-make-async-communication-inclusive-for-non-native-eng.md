@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Make Async Communication Inclusive for Non-Native English Speakers"
 description: "Learn practical strategies to make async communication inclusive for non-native English speakers in remote teams. Practical examples and code snippets included."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-make-async-communication-inclusive-for-non-native-eng/
 categories: [guides]
 tags: [async-communication, remote-work, inclusion, non-native-english]
+reviewed: true
+score: 8
 ---
+
 
 # How to Make Async Communication Inclusive for Non-Native English Speakers
 

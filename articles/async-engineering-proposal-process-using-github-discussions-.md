@@ -1,16 +1,19 @@
 ---
+
 layout: default
 title: "Async Engineering Proposal Process Using GitHub Discussions Step by Step"
 description: "A practical guide to running async engineering proposals using GitHub Discussions. Includes setup steps, templates, and automation tips for distributed teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /async-engineering-proposal-process-using-github-discussions-/
 categories: [guides]
 tags: [async, github, proposals, engineering, remote-work]
-reviewed: false
+reviewed: true
 intent-checked: false
 voice-checked: false
+score: 8
 ---
+
 
 {% raw %}
 # Async Engineering Proposal Process Using GitHub Discussions Step by Step
