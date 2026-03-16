@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Free Tools for Solo Developer Managing Side Projects Remotely"
+title: "Best Free Tools for Solo Developer Managing Side."
 description: "A practical guide to free tools for solo developers managing side projects remotely. Includes code examples, setup guides, and implementation patterns."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -157,6 +157,11 @@ Set up a weekly review habit to address issues flagged by your monitoring tools 
 The best tools are ones you'll actually use. Start with GitHub and Vercel for the core workflow, then add monitoring and task management as your project grows. This incremental approach keeps overhead minimal while your side project matures from idea to production.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
