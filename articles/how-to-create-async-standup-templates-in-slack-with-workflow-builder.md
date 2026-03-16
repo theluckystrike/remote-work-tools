@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Create Async Standup Templates in Slack With Workflow Builder"
-description: "Learn how to build asynchronous standup templates using Slack Workflow Builder. Set up automated prompts, custom forms, and scheduled reminders for distributed teams."
+title: "How to Create Async Standup Templates in Slack With."
+description: "Learn how to build asynchronous standup templates using Slack Workflow Builder. Set up automated prompts, custom forms, and scheduled reminders for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-async-standup-templates-in-slack-with-workflow-builder/
@@ -183,6 +183,11 @@ This structure demonstrates the core pattern: scheduled trigger, form collection
 Slack Workflow Builder provides everything you need to replace synchronous standups with asynchronous alternatives. The no-code interface means no development resources required, and the tight Slack integration ensures your team actually uses the system.
 
 Start with a simple three-question form, schedule it for weekday mornings, and iterate based on your team's feedback. Within two weeks, you'll have data on participation rates and response quality that informs further refinement.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

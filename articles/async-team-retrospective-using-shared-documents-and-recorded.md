@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Async Team Retrospective Using Shared Documents and Recorded Summaries"
-description: "A practical guide to running async team retrospectives using shared documents and recorded summaries. Eliminate meeting fatigue while capturing actionable insights from your remote team."
+title: "Async Team Retrospective Using Shared Documents and."
+description: "A practical guide to running async team retrospectives using shared documents and recorded summaries. Eliminate meeting fatigue while capturing."
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-team-retrospective-using-shared-documents-and-recorded/
@@ -232,6 +232,11 @@ Track these metrics to understand if your async retrospectives are working:
 - **Team satisfaction** — Do team members find the process valuable?
 
 Iterate on your format based on feedback. Every team evolves their retrospective practice—yours should too.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
