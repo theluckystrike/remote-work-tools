@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Documentation Platform for a 15 Person Remote Data Science Team"
 description: "A practical guide to building a documentation platform for a 15 person remote data science team. Includes code examples, workflow patterns, and implementation strategies."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /documentation-platform-for-a-15-person-remote-data-science-t/
 categories: [guides]
 tags: [documentation, remote-work, data-science, knowledge-management]
+reviewed: true
+score: 8
 ---
+
 
 # Documentation Platform for a 15 Person Remote Data Science Team
 

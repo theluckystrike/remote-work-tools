@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Shared Inbox Setup for Remote Agency Client Support Emails"
 description: "A practical guide to setting up shared inboxes for remote agency client support. Includes configuration examples, automation scripts, and implementation patterns."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /shared-inbox-setup-for-remote-agency-client-support-emails/
 categories: [guides]
 tags: [email, remote-work, automation, agency]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Shared Inbox Setup for Remote Agency Client Support Emails

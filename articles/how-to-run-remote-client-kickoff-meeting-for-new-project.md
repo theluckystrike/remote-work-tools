@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "How to Run a Remote Client Kickoff Meeting for a New Project"
 description: "Learn how to run effective remote client kickoff meetings for new projects. Practical templates, communication strategies, and tools for developers."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-kickoff-meeting-for-new-project/
 categories: [guides]
 tags: [remote-work, client-management, project-management]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # How to Run a Remote Client Kickoff Meeting for a New Project

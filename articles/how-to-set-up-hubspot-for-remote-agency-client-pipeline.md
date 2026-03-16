@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "How to Set Up HubSpot for Remote Agency Client Pipeline"
 description: "A practical technical guide to configuring HubSpot pipelines for remote agencies. Includes CRM setup, custom properties, automation workflows, and API integrations for developer-focused teams."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-hubspot-for-remote-agency-client-pipeline/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 HubSpot provides a robust foundation for managing client relationships in remote agency environments. While the platform offers extensive out-of-the-box functionality, configuring it properly requires understanding your agency's specific workflow requirements. This guide walks through the technical setup process with attention to automation, custom properties, and integrations that power users can implement without relying on premium tiers.
 
