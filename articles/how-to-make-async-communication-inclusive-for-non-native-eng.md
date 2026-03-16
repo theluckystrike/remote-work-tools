@@ -10,12 +10,13 @@ categories: [guides]
 tags: [async-communication, remote-work, inclusion, non-native-english]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 # How to Make Async Communication Inclusive for Non-Native English Speakers
 
-Async communication forms the backbone of remote collaboration, but it creates unique challenges for team members who communicate in English as a second language. When conversations happen in real-time, non-native speakers can rely on tone, immediate clarification, and contextual cues. Async text-based communication removes these safety nets, often leading to misunderstandings, slower responses, and reduced participation. This guide provides practical strategies to make your async communication more inclusive.
+Make async communication inclusive for non-native English speakers by eliminating idioms, structuring every message with explicit context, using visual aids and code examples over prose, and setting clear response expectations that normalize imperfect English. These changes reduce the cognitive load that forces non-native speakers to mentally translate while simultaneously processing technical information, leading to faster responses and higher participation across your distributed team.
 
 ## The Core Problem: Cognitive Load in Async Text
 

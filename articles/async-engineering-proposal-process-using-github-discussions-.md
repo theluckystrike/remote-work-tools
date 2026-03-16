@@ -9,7 +9,7 @@ permalink: /async-engineering-proposal-process-using-github-discussions-/
 categories: [guides]
 tags: [async, github, proposals, engineering, remote-work]
 reviewed: true
-intent-checked: false
+intent-checked: true
 voice-checked: false
 score: 8
 ---
@@ -18,9 +18,7 @@ score: 8
 {% raw %}
 # Async Engineering Proposal Process Using GitHub Discussions Step by Step
 
-Engineering proposals in distributed teams face a fundamental challenge: getting meaningful input from reviewers across multiple time zones without scheduling synchronous meetings. GitHub Discussions provides a powerful, integrated solution for async proposal reviews that keeps all conversations searchable, transparent, and well-organized.
-
-This guide walks you through setting up and running an async engineering proposal process using GitHub Discussions, from initial setup to final decision tracking.
+To run async engineering proposals with GitHub Discussions, create a dedicated "Engineering Proposals" category, define a structured proposal template, and set up a GitHub Actions workflow to manage review lifecycles with labels and deadlines. This approach lets distributed teams collect meaningful reviewer input across time zones without synchronous meetings while keeping every decision searchable and linked to the code it affects.
 
 ## Why GitHub Discussions for Engineering Proposals
 
