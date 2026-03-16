@@ -3,10 +3,12 @@
 layout: default
 title: "Async Customer Feedback Synthesis Workflow for Remote Product Managers"
 description: "Learn how to build an asynchronous customer feedback synthesis workflow that scales across time zones. Practical examples and code snippets for remote product managers."
-date: 2026-03-16
-author: theluckystrike
-permalink: /async-customer-feedback-synthesis-workflow-for-remote-product-managers/
+date: 2026-03-15
+author: "Remote Work Tools Guide"
+permalink: /async-customer-feedback-synthesis-workflow-for-remote-produc/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
