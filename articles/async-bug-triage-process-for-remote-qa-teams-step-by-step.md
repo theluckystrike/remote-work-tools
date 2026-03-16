@@ -3,10 +3,12 @@
 layout: default
 title: "Async Bug Triage Process for Remote QA Teams: Step-by-Step"
 description: "Learn how to run effective asynchronous bug triage with remote QA teams. Practical examples and code snippets included."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /async-bug-triage-process-for-remote-qa-teams-step-by-step/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
