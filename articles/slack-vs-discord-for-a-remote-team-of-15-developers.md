@@ -3,8 +3,11 @@ layout: default
 title: "Slack vs Discord for a Remote Team of 15 Developers"
 description: "Compare Slack and Discord for a 15-person remote development team. Practical analysis of features, pricing, integrations, and which platform works better for developer workflows."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /slack-vs-discord-for-a-remote-team-of-15-developers/
+reviewed: true
+score: 8
+categories: [comparisons]
 ---
 
 {% raw %}

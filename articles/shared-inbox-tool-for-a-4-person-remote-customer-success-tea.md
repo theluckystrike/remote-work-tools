@@ -3,10 +3,12 @@ layout: default
 title: "Shared Inbox Tool for a 4 Person Remote Customer Success Team"
 description: "A practical guide to building and implementing a shared inbox solution for a 4 person remote customer success team. Includes API integrations, automation patterns, and tooling recommendations."
 date: 2026-03-16
-author: theluckystrike
-permalink: /shared-inbox-tool-for-a-4-person-remote-customer-success-team/
+author: "Remote Work Tools Guide"
+permalink: /shared-inbox-tool-for-a-4-person-remote-customer-success-tea/
 categories: [guides]
 tags: [customer-success, shared-inbox, remote-work, automation]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
