@@ -189,5 +189,10 @@ Switching to async standups for a nine-person mobile dev team requires some upfr
 
 Start with the simple template provided, adjust based on your team's feedback, and iterate. The best async standup format is the one your team actually follows consistently.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

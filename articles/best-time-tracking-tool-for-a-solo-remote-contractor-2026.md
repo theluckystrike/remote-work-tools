@@ -2,11 +2,11 @@
 
 layout: default
 title: "Best Time Tracking Tool for a Solo Remote Contractor 2026"
-description: "A practical guide to time tracking tools for solo developers and remote contractors. Compare CLI-based timers, desktop apps, and automated solutions that work with your workflow."
+description: "A practical guide to time tracking tools for solo developers and remote contractors. Compare CLI-based timers, desktop apps, and automated solutions."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-time-tracking-tool-for-a-solo-remote-contractor-2026/
-categories: [tools]
+categories: [guides]
 reviewed: true
 score: 8
 intent-checked: true
@@ -129,6 +129,11 @@ Whichever tool you choose, the best time tracker is the one you actually use con
 The data you collect from tracking time—even for a few months—becomes invaluable for project estimation, client communication, and understanding your own productivity. You'll spot patterns in how long tasks actually take, which makes future bids more accurate and clients more confident in your estimates.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

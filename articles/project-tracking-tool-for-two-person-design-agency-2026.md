@@ -2,11 +2,11 @@
 
 layout: default
 title: "Project Tracking Tool for Two Person Design Agency 2026"
-description: "A practical guide to selecting and implementing a project tracking tool for a two-person design agency. Includes tool comparisons, API integrations, and custom solutions."
+description: "A practical guide to selecting and implementing a project tracking tool for a two-person design agency. Includes tool comparisons, API integrations."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /project-tracking-tool-for-two-person-design-agency-2026/
-categories: [tools, project-management]
+categories: [guides]
 reviewed: true
 score: 8
 ---
@@ -149,6 +149,11 @@ The best project tracking tool for a two-person design agency in 2026 balances s
 Choose based on where you want to invest time: setup and customization (Notion), learning curve for speed (Linear), or terminal comfort (Taskwarrior). Each approach scales adequately for a two-person operation and can grow with your agency if you add team members later.
 
 The critical factor is not tool selection but consistent usage. Any project tracking system used consistently outperforms a perfect tool abandoned after two weeks.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

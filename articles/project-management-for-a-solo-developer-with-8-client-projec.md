@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Management for a Solo Developer with 8 Client Projects"
+title: "Project Management for a Solo Developer with 8 Client."
 description: "Practical strategies and tools for managing 8 client projects simultaneously. Learn time-blocking, task isolation, and workflow automation techniques."
 date: 2026-03-16
 author: theluckystrike
@@ -182,6 +182,11 @@ Choose tools that integrate with each other and don't require excessive maintena
 Eight client projects as a solo developer is achievable with the right systems. Time-blocking creates structure, task isolation preserves focus, automation reduces drudgery, and consistent communication keeps clients confident in your work.
 
 Build these habits gradually. Start with time-blocking this week, add automation next month, and refine your client communication over time. Your sanity—and your clients—will thank you.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
