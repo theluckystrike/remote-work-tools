@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home Office Humidity Control for Comfortable Coding Sessions"
-description: "A practical guide to home office humidity control for comfortable coding sessions. Learn optimal humidity levels, smart sensors, automation scripts, and setup tips for developers."
+description: "A practical guide to home office humidity control for comfortable coding sessions. Learn optimal humidity levels, smart sensors, automation scripts."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-humidity-control-for-comfortable-coding-sessions/
@@ -180,6 +180,11 @@ This notification prompts you to adjust your humidifier manually or investigate 
 ## Conclusion
 
 Proper humidity control in your home office takes minimal investment and setup but delivers measurable comfort improvements during coding sessions. Start with a $15 hygrometer, add a basic humidifier, and automate based on your local climate. Your sinuses, electronics, and focus will thank you during those extended debugging sessions.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

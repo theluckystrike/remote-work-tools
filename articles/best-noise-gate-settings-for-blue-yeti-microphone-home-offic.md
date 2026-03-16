@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Noise Gate Settings for Blue Yeti Microphone Home Office"
+title: "Best Noise Gate Settings for Blue Yeti Microphone Home."
 description: "Discover optimal noise gate settings for your Blue Yeti microphone in a home office. Expert configuration guide for developers and power users."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -144,6 +144,11 @@ A noise gate handles the heavy lifting for eliminating background noise, but the
 | Voiceover Recording | -45 dB | 2ms | 150ms | 100ms | -70 dB |
 
 Start with the settings matching your scenario and adjust based on your recorded results. The Blue Yeti is capable of professional-quality audio when paired with proper noise gate configuration — the difference between mediocre and polished sound often comes down to these subtle parameter adjustments.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Home Office Chair Mat for Carpet vs Hardwood Floor Comparison"
-description: "A practical guide comparing chair mats for carpet and hardwood floors. Learn about material differences, thickness considerations, and how to choose the right mat for your home office setup."
+title: "Home Office Chair Mat for Carpet vs Hardwood Floor."
+description: "A practical guide comparing chair mats for carpet and hardwood floors. Learn about material differences, thickness considerations, and how to choose."
 date: 2026-03-16
 author: theluckystrike
 permalink: /home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/
@@ -170,6 +170,11 @@ For most home office setups:
 - **Mixed flooring**: Universal mat with moderate thickness, or two mats for different zones
 
 The right chair mat is an investment in both your comfort and your flooring. Take time to measure your carpet depth or verify your floor type, check your chair's caster type, and choose materials appropriate to your specific situation. Your joints—and your floor—will thank you after years of daily use.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

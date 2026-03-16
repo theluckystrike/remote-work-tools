@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Share Home Office With Partner Both on Calls"
-description: "A practical guide for developers and power users on managing a shared home office space when both partners are on video calls. Covers acoustic solutions, scheduling, and technical setups."
+description: "A practical guide for developers and power users on managing a shared home office space when both partners are on video calls. Covers acoustic."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-share-home-office-with-partner-both-on-calls/
@@ -138,6 +138,11 @@ Also discuss backup plans: if the situation becomes untenable, who has priority 
 If this arrangement is permanent, invest proportionally. A dedicated closet-style phone booth (small prefab booth, $1,000-3,000) provides a solution for at least one person to take calls in complete isolation. Alternatively, one partner using a co-working space a few days per week significantly reduces daily friction.
 
 For most dual-remote households, the combination of acoustic treatment, scheduling systems, and technical optimization makes simultaneous calling manageable. Start with the simplest interventions—headphone use, desk positioning, and calendar blocks—then add complexity only if needed.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

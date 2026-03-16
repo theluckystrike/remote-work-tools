@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Reduce Fan Noise from Desktop PC During Video Calls"
-description: "Practical techniques to minimize desktop PC fan noise during video calls. Includes software tweaks, fan curve configurations, and hardware optimizations for developers."
+description: "Practical techniques to minimize desktop PC fan noise during video calls. Includes software tweaks, fan curve configurations, and hardware."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/
@@ -162,6 +162,11 @@ For developers spending hours on calls, investing time into a quieter setup pays
 Start with the free software tweaks. They take minutes and often provide immediate results. Then evaluate whether hardware upgrades make sense for your situation.
 
 Remember: your setup doesn't need to be silent—your colleagues simply shouldn't hear your cooling system over your voice.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
