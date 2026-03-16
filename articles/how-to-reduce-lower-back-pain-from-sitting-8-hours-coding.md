@@ -3,12 +3,12 @@ layout: default
 title: "How to Reduce Lower Back Pain from Sitting 8 Hours Coding: A Developer's Guide"
 description: "Proven strategies to eliminate lower back pain from prolonged coding sessions. Ergonomic fixes, movement routines, and code-powered solutions for developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/
 categories: [guides]
 tags: [remote-work, ergonomics, health, developer-tools, lower-back-pain, coding]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
