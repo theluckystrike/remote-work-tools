@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Fit an Ergonomic Chair and Standing Desk in a Tiny Room: A Practical Guide"
-description: "Learn space-saving strategies for fitting ergonomic furniture in small rooms. Includes measurement techniques, layout configurations, and code snippets for tracking your workspace dimensions."
+title: "How to Fit an Ergonomic Chair and Standing Desk in a."
+description: "Learn space-saving strategies for fitting ergonomic furniture in small rooms. Includes measurement techniques, layout configurations, and code snippets."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/
@@ -156,6 +156,11 @@ The key to fitting ergonomic furniture in tiny rooms is accurate measurement bef
 Start by measuring your exact space, then use the calculation approach above to determine what will actually fit. Prioritize the essentials: proper chair height, adequate desk depth for keyboard and mouse, and correct monitor distance. With careful planning, even the smallest rooms can accommodate a healthy work setup.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

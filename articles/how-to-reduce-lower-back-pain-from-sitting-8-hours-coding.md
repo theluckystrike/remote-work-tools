@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Reduce Lower Back Pain from Sitting 8 Hours Coding"
-description: "Practical strategies and exercises to prevent and relieve lower back pain for developers who spend long hours coding. Includes desk setup tips, movement routines, and stretches."
+description: "Practical strategies and exercises to prevent and relieve lower back pain for developers who spend long hours coding. Includes desk setup tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/
@@ -168,5 +168,10 @@ Remember that your body adapts to new habits over time. What feels awkward at fi
 Reducing lower back pain from sitting 8 hours coding requires a combination of ergonomic optimization, regular movement, stretching, and core strengthening. You don't need expensive equipment or dramatic lifestyle changes—small, consistent adjustments to your workspace and daily routine make the biggest difference.
 
 Start with the changes that fit most easily into your workflow, then gradually add more strategies as habits form. Your back will thank you for years of pain-free coding ahead.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
