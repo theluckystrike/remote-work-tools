@@ -3,7 +3,7 @@ layout: default
 title: "Best Client Scheduling Tool for Remote Agency: Multiple."
 description: "A practical guide for developers and power users selecting client scheduling tools that handle multiple time zones effectively for remote agencies."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: "theluckystrike"
 permalink: /best-client-scheduling-tool-for-remote-agency-multiple-time-/
 reviewed: true
 score: 8
