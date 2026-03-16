@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Communication Tools for a Remote Research Team of 12 Scientists"
-description: "Discover the best communication tools and strategies for a remote research team of 12 scientists. Compare implementations, code examples, and workflows tailored for scientific teams working distributed."
+title: "Communication Tools for a Remote Research Team of 12."
+description: "Discover the best communication tools and strategies for a remote research team of 12 scientists. Compare implementations, code examples, and workflows."
 date: 2026-03-16
 author: theluckystrike
 permalink: /communication-tools-for-a-remote-research-team-of-12-scienti/
@@ -142,6 +142,11 @@ Start with these three steps to improve communication infrastructure:
 3. **Create communication norms** — Document expected response times for different channels. A reasonable baseline: Slack messages within 4 hours during workdays, email within 24 hours, urgent issues get phone calls.
 
 For a 12-person research team, budget approximately $50-100 per month per person for communication tools. This covers video conferencing, chat, document collaboration, and specialized research platforms. More importantly, invest time in establishing communication norms—the tools matter less than how your team uses them.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Communication Norms for a Remote Team of 20 Across 4 Timezones"
-description: "A practical guide to establishing communication norms for a 20-person remote team spread across 4 time zones. Includes async-first workflows, tool selection, and implementation examples."
+title: "Communication Norms for a Remote Team of 20 Across 4."
+description: "A practical guide to establishing communication norms for a 20-person remote team spread across 4 time zones. Includes async-first workflows, tool."
 date: 2026-03-16
 author: theluckystrike
 permalink: /communication-norms-for-a-remote-team-of-20-across-4-timezon/
@@ -250,6 +250,11 @@ Survey your team quarterly:
 Establishing communication norms for a 20-person remote team across 4 time zones requires explicit agreements that would be unnecessary in a co-located setting. The investment pays dividends: reduced context-switching, better documentation, and healthier work-life boundaries.
 
 Start with channel structure and response expectations, then layer in async alternatives to meetings. Document decisions and measure regularly. The norms will evolve—that's expected. The key is having a foundation to iterate from.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

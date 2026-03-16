@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "CI/CD Pipeline Tools for a Remote Team of 2 Backend Developers"
-description: "Practical guide to CI/CD pipeline tools for small remote backend teams. Compare GitHub Actions, GitLab CI, CircleCI, and build automation strategies for two-person dev teams."
+title: "CI/CD Pipeline Tools for a Remote Team of 2 Backend."
+description: "Practical guide to CI/CD pipeline tools for small remote backend teams. Compare GitHub Actions, GitLab CI, CircleCI, and build automation strategies."
 date: 2026-03-16
 author: theluckystrike
 permalink: /ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/
@@ -306,6 +306,11 @@ For two-person remote backend teams, GitHub Actions provides the best balance of
 Regardless of tool choice, prioritize fast feedback loops, automated testing, and clear deployment workflows. The goal is spending less time on infrastructure and more time building features your users need.
 
 The best CI/CD pipeline is one your team actually uses consistently. Start simple, iterate, and add complexity only when your workflow demands it.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
