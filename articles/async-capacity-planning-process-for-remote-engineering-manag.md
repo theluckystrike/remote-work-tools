@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Async Capacity Planning Process for Remote Engineering Managers: A Practical Guide"
+title: "Async Capacity Planning Process for Remote Engineering."
 description: "Learn how to build an effective async capacity planning process for distributed engineering teams. Includes templates, formulas, and real-world examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -256,6 +256,11 @@ Building an effective async capacity planning process for remote engineering tea
 Start with simple availability tracking, add velocity or throughput metrics, and progressively build more sophisticated capacity models as your team matures. The investment in async capacity planning pays dividends through more reliable forecasts and less fire-drill planning.
 
 The shift from synchronous to async capacity planning represents a broader transition in how remote teams operate—trading real-time convenience for documented, thoughtful, and scalable processes.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

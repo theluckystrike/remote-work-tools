@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Write Async Technical RFCs That Get Meaningful Feedback"
+title: "How to Write Async Technical RFCs That Get Meaningful."
 description: "Learn practical techniques for writing async technical RFCs that generate meaningful feedback from distributed teams. Includes templates and examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -196,6 +196,11 @@ The difference between RFCs that gather dust and RFCs that generate meaningful f
 Start treating your RFCs as products for your reviewers—design them to be understood, evaluated, and responded to. Your future self will thank you when implementation goes smoothly because stakeholders had the context they needed to provide solid feedback.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

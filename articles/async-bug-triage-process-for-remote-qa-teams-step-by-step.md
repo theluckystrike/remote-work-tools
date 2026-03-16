@@ -237,5 +237,10 @@ The key is starting with your template. Implement the markdown format, configure
 
 Over time, async triage becomes a reliable backbone of your QA process—one that actually improves when team members have time to review carefully rather than rushing through synchronous meetings.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
