@@ -1,226 +1,222 @@
 ---
-
 layout: default
 title: "Kanban Board Setup for a Remote DevOps Team of 3"
-description: "A practical guide to setting up a Kanban board for a remote DevOps team of 3. Includes workflow configuration, WIP limits, automation examples, and."
+description: "Learn how to configure an effective Kanban board for a remote DevOps team of 3. Includes board structure, WIP limits, automation rules, and practical examples."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: theluckystrike
 permalink: /kanban-board-setup-for-a-remote-devops-team-of-3/
 categories: [guides]
-tags: [kanban, devops, remote-work, workflow]
+tags: [kanban, remote-work, devops, productivity]
 reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
 ---
 
-
 {% raw %}
 # Kanban Board Setup for a Remote DevOps Team of 3
 
-Set up five columns (Backlog, Ready, In Progress, Review, Done) with a WIP limit of 3 for In Progress and a separate swimlane for incident work. For a 3-person remote DevOps team, this structure keeps planned improvements visible alongside operational firefighting without over-complicating the board. This guide covers tool-specific configurations for Trello, GitHub Projects, and Plane, plus automation examples for PR-driven card movement.
+A well-configured Kanban board transforms how a small remote DevOps team manages infrastructure tasks, incident response, and deployment workflows. For a team of three engineers spread across time zones, the board becomes the single source of truth for what needs attention, what is in progress, and what is waiting on dependencies. This guide walks through setting up a practical Kanban board tailored specifically for a three-person remote DevOps team.
 
-## Core Kanban Principles for Small DevOps Teams
+## Why Kanban Works for Small DevOps Teams
 
-Three principles matter most for a three-person remote DevOps team. Every task—from infrastructure changes to incident responses—should be visible on the board. Cap items per column to prevent context switching and track how work moves through the system to find bottlenecks. Define explicit criteria for column transitions and use board metrics to drive process improvement discussions.
+Kanban's core principles—visualizing work, limiting work in progress, and managing flow—align naturally with DevOps responsibilities. Unlike traditional project management where you assign tasks to individuals, Kanban focuses on keeping work moving through stages. This approach suits remote teams because it makes status visible without requiring synchronous check-ins.
 
-For a remote team of three, these principles translate into a board that provides visibility without requiring constant updates or meetings.
+For three-person teams, the main advantage is transparency. When everyone can see the board, you reduce the overhead of status update meetings. Each engineer knows what others are working on, which prevents duplicate efforts and highlights blockers quickly.
 
-## Choosing Your Board Structure
+## Core Board Structure
 
-A well-structured Kanban board reflects your team's workflow. For DevOps teams handling both planned work and emergencies, consider a structure that separates operational tasks from project work.
+A DevOps Kanban board needs columns that reflect your actual workflow. For a small team managing infrastructure and deployments, use these columns:
 
-### Recommended Column Layout
+| Column | Purpose |
+|--------|---------|
+| Backlog | All incoming work awaiting prioritization |
+| To Do | Prioritized items scheduled for current cycle |
+| In Progress | Tasks actively being worked on |
+| Blocked | Items stalled awaiting external input |
+| Review/Testing | Changes awaiting validation |
+| Done | Completed items |
 
-```
-Backlog → Ready → In Progress → Review → Done
-         ↑                    ↑
-    (ops queue)         (incident queue)
-```
+Adjust column names based on your workflow. Some teams separate "Review" from "Testing" when they involve different people or tools.
 
-For a three-person team, keep columns minimal. Over-complicating the board creates maintenance overhead that defeats the purpose of visual workflow management.
+## Setting WIP Limits
 
-### WIP Limit Recommendations
+WIP limits prevent overloading individual engineers and keep work flowing. For a three-person team, start with these guidelines:
 
-With three team members, set WIP limits that encourage focus:
+- **In Progress limit**: 2 per person (so at most 6 items across the board)
+- **Review/Testing limit**: 3 total (this often becomes a bottleneck)
 
-- **In Progress**: 3 items maximum (one per person)
-- **Review**: 2 items maximum
-- **Ops Queue**: 5 items maximum (prevents firefighting from overwhelming planned work)
+When a column hits its WIP limit, the team must finish existing items before pulling new ones. This sounds restrictive, but it forces early identification of blockers. If someone has three items in progress and can't start a fourth, they either finish something or explicitly swarm to unblock a teammate.
 
-These limits force prioritization discussions and prevent the "everything is urgent" trap that remote teams often fall into.
+Configure WIP limits in your tool of choice. Most Kanban tools support column-level limits:
 
-## Tool Options and Setup
-
-Several tools work well for small remote DevOps teams. Here's how to configure each:
-
-### Trello
-
-Trello's simplicity makes it accessible for quick setup. Create lists for each column and use card attachments for relevant documentation.
-
-```json
-// Trello Power-Up configuration for DevOps integration
+```yaml
+# Example: Trello label-based automation (use with Butler)
 {
-  "board": {
-    "prefs": {
-      "cardCovers": true,
-      "cardAging": "regular"
-    }
-  },
-  "labels": [
-    { "name": "infrastructure", "color": "green" },
-    { "name": "security", "color": "red" },
-    { "name": "automation", "color": "blue" },
-    { "name": "incident", "color": "orange" },
-    { "name": "technical-debt", "color": "purple" }
-  ]
+  "trigger": "card moved to In Progress",
+  "condition": "In Progress list has 6+ cards",
+  "action": "move card back to To Do",
+  "notify": "@team - WIP limit reached"
 }
 ```
 
-Add labels that match your work categories. For DevOps teams, infrastructure, security, automation, incident, and technical debt typically cover most work types.
+## Swimlanes and Priority Triage
 
-### GitHub Projects
+With only three people, you might consider swimlanes by category rather than assignee:
 
-If your team uses GitHub for code, Projects integrates directly with issues and pull requests:
+- **Incidents**: Urgent production issues
+- **Projects**: Planned infrastructure changes
+- **Maintenance**: Routine updates and housekeeping
+- **Debt**: Technical improvements that aren't urgent
 
-```yaml
-# .github/kanban-config.yml
-board:
-  columns:
-    - name: Backlog
-      wip_limit: null
-    - name: Ready
-      wip_limit: 6
-    - name: In Progress
-      wip_limit: 3
-    - name: Review
-      wip_limit: 2
-    - name: Done
-      wip_limit: null
-  automation:
-    - trigger: issue_labeled
-      action: move_to_column
-      target: "In Progress"
-      label: "status:in-progress"
-    - trigger: pr_opened
-      action: move_to_column
-      target: "Review"
+This separation helps during triage. When a production incident hits, everyone knows to check the Incident swimlane first. During quieter periods, engineers pick from Maintenance or Debt based on their energy and context.
+
+Prioritize within each swimlane using labels:
+
+- **P1**: Critical—immediate attention required
+- **P2**: High—scheduled for current day/night
+- **P3**: Medium—backlog, address this week
+- **P4**: Low—fill gaps between priorities
+
+## Automation Rules That Reduce Friction
+
+Automation keeps the board accurate without manual updates. Set up these rules for a three-person remote DevOps team:
+
+### Auto-assignment on Move
+
+When a card enters "In Progress," assign it based on who moved it or round-robin:
+
+```javascript
+// Linear/Height automation example
+if (trigger === "status.changed" && newStatus === "In Progress") {
+  assignee = currentUser;
+}
 ```
 
-This configuration automatically moves issues based on labels and pull request events, reducing manual board maintenance.
+### Blockage Detection
 
-### Plane
-
-Self-hosted option with more customization:
-
-```python
-# plane-workflow-config.py
-from plane import PlaneClient
-
-client = PlaneClient("your-workspace", "your-api-key")
-
-# Create board with WIP limits
-board = client.boards.create({
-    "name": "DevOps Workflow",
-    "columns": [
-        {"name": "Backlog", "wip_limit": None},
-        {"name": "Ready", "wip_limit": 6},
-        {"name": "In Progress", "wip_limit": 3},
-        {"name": "Review", "wip_limit": 2},
-        {"name": "Done", "wip_limit": None}
-    ],
-    "swimlanes": [
-        {"name": "Projects", "filter_by": "label:project"},
-        {"name": "Operations", "filter_by": "label:ops"}
-    ]
-})
-```
-
-## Workflow Patterns That Work
-
-### Handling Incidents Separately
-
-DevOps teams deal with production issues that can't wait for standard workflow. Create a parallel swimlane or separate board for incident work:
-
-Incidents enter a dedicated "Incident" column immediately. When resolved, they move to "Post-Mortem" then "Done." Regular work pauses when the active incident count exceeds a threshold—typically 2.
-
-This separation prevents incident work from drowning out planned improvements.
-
-### Code Review Integration
-
-For teams using pull requests, tie board movement to code review status:
-
-1. Developer starts work → moves card to "In Progress"
-2. Developer opens PR → adds PR link to card, moves to "Review"
-3. Reviewer approves and merges → card moves to "Done" automatically
-
-GitHub Actions can handle this automation:
+Notify the team when cards sit in "Blocked" too long:
 
 ```yaml
-# .github/workflows/kanban-move.yml
-name: Update Kanban on PR Events
-
+# GitHub Projects automation
+name: Blocked Card Alert
 on:
-  pull_request:
-    types: [opened, closed, merged]
-
+  schedule:
+    - cron: '0 9 * * *'  # Daily at 9am UTC
 jobs:
-  update-board:
+  check-blocked:
     runs-on: ubuntu-latest
     steps:
-      - name: Move card on PR open
-        if: github.event_name == 'pull_request' && github.event.action == 'opened'
-        uses: actions/github-script@v7
-        with:
-          script: |
-            // Move card to Review column
-            await github.rest.projects.moveCard({
-              card_id: context.payload.card_id,
-              position: 'bottom:12345678', // Review column column_id
-              column_id: 87654321
-            })
+      - name: Find blocked cards older than 24h
+        run: |
+          # Query logic here
+          echo "Notify team: cards stuck in Blocked"
 ```
 
-### Estimation and Cadence
+### Completion Criteria
 
-For three-person teams, avoid over-formalized estimation. Use relative sizing (small, medium, large) rather than story points, and focus on throughput tracking instead.
+Require checklist items before moving to Done:
 
-Run a weekly sync (15 minutes max) to:
-- Review what moved to Done
-- Identify blockers
-- Ensure Ready column has upcoming work
-- Adjust WIP limits if needed
+- Code reviewed
+- Tests passed
+- Documentation updated
+- Monitoring/alerts verified
+- Rollback plan documented (for deployments)
 
-## Avoiding Common Pitfalls
+## Example Board Configuration
 
-### Don't Over-Automate
+Here's a practical setup using GitHub Projects:
 
-Automation feels productive but can create problems. A three-person team needs human context that scripts cannot capture. Keep automation for repetitive tasks like moving cards on PR events, but let team members decide when to advance work items.
+```yaml
+# .github/boards/default.yml
+name: DevOps Board
+columns:
+  - name: Backlog
+    wip_limit: null
+  - name: To Do
+    wip_limit: 6
+  - name: In Progress
+    wip_limit: 6
+  - name: Blocked
+    wip_limit: 3
+  - name: Review
+    wip_limit: 3
+  - name: Done
+    wip_limit: null
 
-### Don't Skip Retrospectives
+labels:
+  - name: P1
+    color: ff0000
+  - name: P2
+    color:ffa500  
+  - name: incident
+    color: ff0000
+  - name: project
+    color: 0074d9
+  - name: maintenance
+    color: 7fdbff
+```
 
-Use board metrics during monthly retrospectives. Track cycle time (how long items sit in each column) and throughput (items completed per week). Small teams improve faster when they have data driving discussions.
+This configuration enforces WIP limits while keeping the board flexible. The color-coded labels let you scan quickly and identify work type at a glance.
 
-### Don't Ignore Operational Work
+## Handling Incidents Separately
 
-Infrastructure maintenance, security patches, and on-call responses are work that belongs on the board. Without visibility, these tasks accumulate and create burnout. Include ops work alongside project work to ensure realistic capacity planning.
+Standard Kanban boards struggle with incident response because incidents are time-sensitive and interrupt planned work. Consider a separate "Incident Board" or a dedicated swimlane with different rules:
 
-## Getting Started Tomorrow
+- Incidents skip the normal queue
+- Move directly to "In Progress" when confirmed
+- Archive when resolved (don't worry about full workflow)
+- Create follow-up cards for post-mortem action items in the main board
 
-Begin with a simple board and refine over time:
+This separation ensures incidents get immediate attention while routine work continues uninterrupted.
 
-1. Create columns matching your current workflow
-2. Add WIP limits starting with 3 per person for In Progress
-3. Add labels for work types your team recognizes
-4. Start using the board for all work, including ops tasks
-5. Review and adjust after two weeks
+## Daily Workflow for Remote Teams
 
-Your board should serve your team, not constrain it. With three people, you have enough context to make quick adjustments. The goal is visibility into work, not process perfection.
+With a three-person team across time zones, establish a lightweight daily ritual:
 
+1. **Morning (primary overlap)**: Quick 15-minute sync. Review board together. Identify today's priorities and any blockers.
+2. **Async updates**: Throughout the day, update card status when starting, blocking, or completing work. Add comments with context.
+3. **End of day**: Move completed items to Done. Update any stalled items. Review tomorrow's priorities.
+
+The board replaces most status questions. When someone asks "what are you working on?" the answer is on the board.
+
+## Measuring Flow
+
+Track these metrics to improve your process:
+
+- **Lead time**: Time from card creation to Done
+- **Cycle time**: Time from In Progress to Done  
+- **Throughput**: Cards completed per week
+- **Blockage frequency**: How often cards hit Blocked
+
+Review these weekly. If lead time increases, look for bottlenecks. If blockage frequency rises, investigate what's causing stalls.
+
+## Common Pitfalls to Avoid
+
+Avoid these mistakes when setting up your board:
+
+- **Too many columns**: Keep it simple. More columns mean more decisions about where things go.
+- **Ignoring WIP limits**: Setting limits without enforcing them defeats the purpose.
+- **Over-labeling**: Labels help, but too many become noise. Stick to 5-8 meaningful ones.
+- **Forgetting archived items**: Old completed cards clutter views. Archive or delete them periodically.
+
+## Adapting as Your Team Grows
+
+A three-person team may eventually become four or five. Your Kanban setup should scale:
+
+- WIP limits naturally increase as you add people
+- Consider adding a "Waiting on Customer" column if you interact with users
+- Separate projects from operational work if both volumes increase
+
+The principles remain the same: visualize work, limit WIP, manage flow. The specifics adjust to your new reality.
+
+---
 
 ## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams/)
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [Notion vs ClickUp for Engineering Teams](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
