@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Run Book Clubs for a Remote Engineering Team of 40"
 description: "A practical guide to running effective book clubs for distributed engineering teams of 40 developers and power users."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-run-book-clubs-for-a-remote-engineering-team-of-40/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 Running a book club for a remote engineering team of 40 people presents unique challenges. Coordination across time zones, maintaining engagement without face-to-face interaction, and keeping discussions productive require deliberate planning. This guide provides actionable strategies for engineering leaders who want to build a sustainable reading culture within their distributed teams.
 
