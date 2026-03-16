@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Set Up ClickUp Client Portal for Remote Project Visibility"
 description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for developer teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 Setting up a ClickUp client portal gives remote development teams a structured way to share project progress with clients without resorting to endless email chains or frequent status meetings. For developers and technical leads managing distributed teams, the challenge is giving clients enough visibility to build trust while keeping internal technical discussions private. ClickUp's guest access and portal features provide the granularity needed to achieve this balance.
 

@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Code Review Workflow for a Remote Backend Team of 6 Developers"
 description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /code-review-workflow-for-a-remote-backend-team-of-6-develope/
+reviewed: true
+score: 8
+categories: [productivity]
 ---
+
 
 Building an effective code review workflow for a remote backend team of 6 developers requires balancing speed with quality, maintaining clear communication across time zones, and establishing conventions that scale naturally. This guide provides actionable patterns you can implement immediately.
 

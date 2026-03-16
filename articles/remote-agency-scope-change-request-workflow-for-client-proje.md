@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Remote Agency Scope Change Request Workflow for Client Projects"
 description: "A practical step-by-step workflow for handling scope change requests in remote agency client projects. Includes code templates, process examples, and implementation tips."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-agency-scope-change-request-workflow-for-client-projects/
 categories: [workflows, project-management]
 tags: [scope-change, client-communication, remote-agency]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Remote Agency Scope Change Request Workflow for Client Projects

@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "How to Create Shared Project Timeline with Remote Agency Clients"
 description: "A practical guide for developers and power users building shared project timelines with remote agency clients. Includes CLI tools, automation examples, and implementation strategies."
 date: 2026-03-16
-author: "theluckystrike"
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-shared-project-timeline-with-remote-agency-cli/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # How to Create Shared Project Timeline with Remote Agency Clients

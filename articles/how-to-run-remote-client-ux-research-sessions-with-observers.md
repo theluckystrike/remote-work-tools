@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Run Remote Client UX Research Sessions with Observers"
 description: "Learn practical methods for running remote UX research sessions with multiple observers. Includes setup configurations, tooling recommendations, and code snippets for developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-ux-research-sessions-with-observers/
 categories: [guides]
 tags: [ux-research, remote-work, usability-testing]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Run Remote Client UX Research Sessions with Observers

@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Best Retrospective Tool for a Remote Scrum Team of 6"
 description: "Find the best retrospective tool for a remote scrum team of 6. Compare features, integrations, and real-world setup examples for small distributed teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-retrospective-tool-for-a-remote-scrum-team-of-6/
 categories: [guides]
 tags: [retrospective, agile, remote-work, scrum]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Best Retrospective Tool for a Remote Scrum Team of 6
