@@ -3,10 +3,12 @@ layout: default
 title: "Best External Display for MacBook Air M4 Home Office Setup"
 description: "Find the best external display for MacBook Air M4 home office setup. Technical specs, resolution, connectivity, and practical recommendations for developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-external-display-for-macbook-air-m4-home-office-setup/
 categories: [guides]
 tags: [macbook, display, hardware, remote-work]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
