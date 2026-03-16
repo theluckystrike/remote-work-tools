@@ -3,8 +3,11 @@ layout: default
 title: "How to Reduce Lower Back Pain from Sitting 8 Hours Coding"
 description: "Practical strategies and exercises to prevent and relieve lower back pain for developers who spend long hours coding. Includes desk setup tips, movement routines, and stretches."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 Lower back pain is one of the most common complaints among software developers and anyone who spends extended periods sitting at a desk. After 8 hours of coding, debugging, and reviewing pull requests, your spine has endured significant pressure. The good news is that you can take proactive steps to reduce lower back pain from sitting 8 hours coding—without expensive equipment or major lifestyle changes.

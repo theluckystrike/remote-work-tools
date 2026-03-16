@@ -3,10 +3,12 @@ layout: default
 title: "How to Set Up Dual PC KVM Switch for Work and Gaming"
 description: "A practical guide for developers and power users setting up a dual PC KVM switch. Covers hardware selection, cable management, software configuration, and troubleshooting."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/
 categories: [guides]
 tags: [kvm-switch, dual-pc, productivity, hardware]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
@@ -22,7 +24,7 @@ KVM switches come in several forms, each with distinct advantages for different 
 
 **Hardware KVM switches** are the traditional option. They are standalone devices that physically route signals between computers. You connect your monitor, keyboard, and mouse to the KVM, then run cables from each computer to the KVM unit. When you press a button or hotkey, the KVM switches which computer receives your input. These work at the hardware level, meaning they work with any operating system without additional software.
 
-**Software-based KVM solutions** like Barrier or ShareMouse turn one computer into the host, with the other machine treated as an extended display. Your mouse pointer moves across both screens seamlessly. These require running software on both machines but offer advantages like drag-and-drop file transfers between systems.
+**Software-based KVM solutions** like Barrier or ShareMouse turn one computer into the host, with the other machine treated as an extended display. Your mouse pointer moves across both screens smoothly. These require running software on both machines but offer advantages like drag-and-drop file transfers between systems.
 
 **USB-C docking station KVMs** have become popular with modern laptops and desktops that support USB-C or Thunderbolt. These combine KVM functionality with a docking station, handling video, data, and power through a single cable. This reduces desk clutter significantly.
 
