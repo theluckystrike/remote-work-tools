@@ -9,16 +9,14 @@ categories: [guides]
 tags: [communication, async-work, feedback, remote-work]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # How to Give Constructive Feedback Asynchronously Without Misunderstanding Tone
 
-Asynchronous communication powers remote engineering teams, but written feedback carries a hidden tax: tone interpretation. The same sentence reads as helpful to one person and harsh to another, depending on their mood, cultural background, or recent experiences. This gap causes unnecessary friction, withdrawn pull requests, and team members second-guessing themselves.
-
-You can eliminate most tone misunderstandings by making your intent explicit, structuring feedback consistently, and using communication conventions that signal warmth without relying on vocal tone.
+Give async feedback without tone misunderstandings by using the SBI framework (Situation-Behavior-Impact), adding explicit tone indicators like /srs or /nm to your messages, and structuring every code review comment with Suggestion/Reason/Optionality fields. These three techniques make your intent visible so readers interpret your words as constructive rather than critical. Written feedback loses vocal cues, but consistent structure and explicit framing replace them reliably.
 
 ## Why Written Feedback Loses Tone
 

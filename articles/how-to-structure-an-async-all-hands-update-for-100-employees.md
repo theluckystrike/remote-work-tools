@@ -10,12 +10,13 @@ permalink: /how-to-structure-an-async-all-hands-update-for-100-employees/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 
-Running an effective all-hands meeting for 100 employees synchronously requires everyone to block the same time slot, coordinate across time zones, and hope attention spans hold. The async alternative solves these problems—but only if you structure it properly. An unstructured async update becomes a disorganized mess that nobody reads. This guide shows you how to build an async all-hands system that scales to 100 employees while maintaining engagement and clarity.
+Structure your async all-hands around five consistent sections (company overview, department highlights, recognition, upcoming events, and Q&A), automate collection from department heads with a deadline-driven script, and distribute on the same weekday each month with a clear read-acknowledgment call-to-action. This format replaces the scheduling nightmare of synchronous all-hands for 100 employees while keeping engagement measurable through view counts, question volume, and acknowledgment rates. Below is the full step-by-step system including templates, automation code, and common pitfalls to avoid.
 
 ## Why Async All-Hands Works at Scale
 
