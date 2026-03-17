@@ -2,13 +2,13 @@
 layout: default
 title: "Virtual Escape Room Platforms for Remote Engineering Team Events"
 description: "Discover practical virtual escape room platforms for remote engineering team events. Compare solutions with setup guides, API integrations, and implementation patterns."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /virtual-escape-room-platforms-for-remote-engineering-team-ev/
 categories: [guides]
 tags: [remote-work, team-building, virtual-events]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---

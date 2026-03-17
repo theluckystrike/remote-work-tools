@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "How to Run Remote Team Retrospective Focused on Team Health"
 description: "A practical guide for developers on running remote retrospectives that prioritize psychological safety, burnout prevention, and team cohesion."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-retrospective-focused-on-team-health/
 categories: [guides]
 tags: [retrospective, remote-work, team-health, agile, psychological-safety]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # How to Run Remote Team Retrospective Focused on Team Health

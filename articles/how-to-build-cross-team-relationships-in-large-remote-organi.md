@@ -3,10 +3,12 @@ layout: default
 title: "How to Build Cross-Team Relationships in Large Remote Organizations"
 description: "Practical strategies for building meaningful cross-team relationships in large remote organizations. Learn communication patterns, tooling, and processes."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-build-cross-team-relationships-in-large-remote-organi/
 categories: [guides]
 tags: [remote-work, cross-team, collaboration, communication]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
