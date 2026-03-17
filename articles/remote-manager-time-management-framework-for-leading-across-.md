@@ -2,6 +2,7 @@
 
 
 
+
 layout: default
 title: "Remote Manager Time Management Framework for Leading Across Five Plus Timezones"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async workflows, and code examples for time zone management tools."
@@ -15,6 +16,7 @@ score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 
 
