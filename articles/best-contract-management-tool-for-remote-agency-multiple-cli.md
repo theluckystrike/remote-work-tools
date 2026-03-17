@@ -4,7 +4,7 @@ layout: default
 title: "Best Contract Management Tool for Remote Agency Multiple."
 description: "Find the best contract management tool for remote agency with multiple clients. Compare CLI-first approaches, automation scripts, and."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: "theluckystrike"
 permalink: /best-contract-management-tool-for-remote-agency-multiple-cli/
 categories: [guides]
 tags: [contracts, remote-work, agency, client-management, tools, developer-tools]
