@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Create Security Onboarding Checklist for New Remote Team Members"
-description: "A practical guide to building a security onboarding checklist for remote team members. Includes code templates, automation examples, and best practices for developer teams."
+title: "How to Create Security Onboarding Checklist for New."
+description: "A practical guide to building a security onboarding checklist for remote team members. Includes code templates, automation examples, and best practices."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-security-onboarding-checklist-for-new-remote-t/
@@ -232,6 +232,11 @@ A thorough security onboarding checklist transforms your remote team's security 
 Start with the core components outlined here, customize based on your threat model, and iterate based on what actually happens when new team members go through the process. Automate verification where possible, maintain audit trails, and treat security onboarding as a living document that evolves with your team.
 
 Your remote team's security is only as strong as the weakest link in your onboarding process. Make that process explicit, verifiable, and practical.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
