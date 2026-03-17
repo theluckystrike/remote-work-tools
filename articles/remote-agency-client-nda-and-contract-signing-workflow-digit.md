@@ -4,7 +4,7 @@ title: "Remote Agency Client NDA and Contract Signing Workflow Digital"
 description: "Learn how to build a digital NDA and contract signing workflow for remote agency client onboarding. Practical code examples, API integrations, and implementation patterns."
 date: 2026-03-16
 author: theluckystrike
-permalink: /remote-agency-client-nda-and-contract-signing-workflow-digital/
+permalink: /remote-agency-client-nda-and-contract-signing-workflow-digit/
 categories: [guides]
 tags: [contracts, legal, workflow, remote-work, automation]
 reviewed: true
