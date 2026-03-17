@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /certificate-based-authentication-setup-for-remote-team-vpn-connections-2026-guide/
 reviewed: true
 score: 8
-categories: [setup]
+categories: [tutorials]
 ---
 
 
