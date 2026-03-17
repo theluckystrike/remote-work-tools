@@ -2,9 +2,12 @@
 layout: default
 title: "Remote Manager Delegation Framework for Leading Teams Across Multiple Timezones"
 description: "A practical framework for remote managers to delegate effectively across timezones. Includes actionable templates, async communication patterns, and code examples."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /remote-manager-delegation-framework-for-leading-teams-across/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 # Remote Manager Delegation Framework for Leading Teams Across Multiple Timezones
