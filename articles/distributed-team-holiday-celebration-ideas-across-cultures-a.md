@@ -3,8 +3,11 @@ layout: default
 title: "Distributed Team Holiday Celebration Ideas Across Cultures and Timezones"
 description: "Practical strategies and tools for celebrating holidays with remote teams across different cultures and timezones. Includes code examples for scheduling and coordination."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /distributed-team-holiday-celebration-ideas-across-cultures-a/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}

@@ -3,10 +3,12 @@ layout: default
 title: "How to Run Remote Team Cooking Class as Bonding Activity"
 description: "A practical guide to organizing virtual cooking classes that strengthen team bonds. Learn setup tips, recipe selection, and facilitation techniques for memorable remote team experiences."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-run-remote-team-cooking-class-as-bonding-activity/
 categories: [guides]
 tags: [remote-work, team-building, virtual-events, cooking, bonding]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
