@@ -3,12 +3,12 @@ layout: default
 title: "How to Run Remote Team Quarterly Business Review for Distributed Leadership"
 description: "A practical guide to conducting effective quarterly business reviews with distributed teams across multiple time zones. Includes async templates, tools, and workflows."
 date: 2026-03-16
-author: theluckystrike
-permalink: /how-to-run-remote-team-quarterly-business-review-for-distributed-leadership/
+author: "Remote Work Tools"
+permalink: /how-to-run-remote-team-quarterly-business-review-for-distrib/
 categories: [guides]
 tags: [quarterly-business-review, remote-work, distributed-teams, leadership, async-communication]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
