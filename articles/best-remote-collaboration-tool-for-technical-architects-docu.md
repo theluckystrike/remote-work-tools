@@ -2,11 +2,13 @@
 layout: default
 title: "Best Remote Collaboration Tool for Technical Architects Documenting System Dependencies Guide"
 description: "A practical guide for technical architects working remotely to document system dependencies. Compare tools, see code examples, and implement dependency tracking."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-remote-collaboration-tool-for-technical-architects-docu/
 categories: [guides]
 tags: [system-dependencies, documentation, technical-architecture, remote-work]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
