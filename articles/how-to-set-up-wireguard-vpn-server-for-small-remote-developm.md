@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Set Up WireGuard VPN Server for Small Remote Development Team"
-description: "A practical guide for developers and power users setting up WireGuard VPN for small remote development teams. Includes server configuration, client setup, and security best practices."
+title: "How to Set Up WireGuard VPN Server for Small Remote."
+description: "A practical guide for developers and power users setting up WireGuard VPN for small remote development teams. Includes server configuration, client."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-wireguard-vpn-server-for-small-remote-development-team/
@@ -226,5 +226,10 @@ The lightweight protocol means connections establish in milliseconds rather than
 ---
 
 Setting up WireGuard gives your team secure access to internal resources while keeping your infrastructure off the public internet. The initial setup takes 15-30 minutes, and adding new developers requires only a few commands. For teams of 2-10 developers working remotely, WireGuard provides the right balance of performance, security, and simplicity.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Audit Remote Employee Device Security Compliance Without Physical Access"
-description: "A practical guide for developers and IT teams to audit remote employee device security compliance using automated tools, remote queries, and endpoint detection systems."
+title: "How to Audit Remote Employee Device Security Compliance."
+description: "A practical guide for developers and IT teams to audit remote employee device security compliance using automated tools, remote queries, and endpoint."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-audit-remote-employee-device-security-compliance-without-physical-access/
@@ -286,6 +286,11 @@ renderDashboard(complianceData);
 Auditing remote employee device security without physical access requires shifting from inspection-based to query-based verification. By leveraging built-in OS capabilities, EDR platforms, MDM solutions, and custom automation, you can maintain visibility into device security posture across distributed teams.
 
 The key is building automated collection pipelines that feed into centralized monitoring, enabling rapid detection of compliance drift and timely remediation. Start with basic checks—disk encryption, OS updates, firewall status—then expand your audit coverage as your processes mature.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
