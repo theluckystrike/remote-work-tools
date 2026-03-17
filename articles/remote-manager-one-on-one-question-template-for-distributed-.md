@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Manager One on One Question Template for Distributed Team Check Ins"
-description: "A practical question template and framework for running effective one-on-one meetings with remote distributed teams. Includes async options and code-based tracking."
+title: "Remote Manager One on One Question Template for."
+description: "A practical question template and framework for running effective one-on-one meetings with remote distributed teams. Includes async options and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-manager-one-on-one-question-template-for-distributed-team-check-ins/
@@ -191,6 +191,11 @@ Consistency beats intensity. Better to have 15-minute weekly one-on-ones that ac
 The question template is a starting point, not a rigid script. The best managers adapt their approach based on what they learn about each team member. Some people need more structure, others need more space. Some weeks call for deep blocker discussion, others call for pure relationship building.
 
 Start with the BASE framework, gather feedback from your team on what's helpful, and iterate. The goal isn't perfect—it's consistent attention to your team members as humans, not just as productivity units.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

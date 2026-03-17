@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Onboard New Remote Employees in First Week: Step-by-Step Guide"
-description: "A practical step-by-step guide for onboarding new remote employees during their first week. Includes checklists, meeting templates, and communication scripts for developers and power users."
+title: "How to Onboard New Remote Employees in First Week."
+description: "A practical step-by-step guide for onboarding new remote employees during their first week. Includes checklists, meeting templates, and communication."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-onboard-new-remote-employees-in-first-week-step-by-st/
@@ -243,5 +243,10 @@ Day 5:
 **Neglecting feedback.** Ask how the onboarding is going mid-week, not just at the end. Fix problems while they're still small.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

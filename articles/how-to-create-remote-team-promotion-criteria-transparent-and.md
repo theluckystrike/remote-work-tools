@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Create Remote Team Promotion Criteria: A Transparent and Equitable Framework"
-description: "A practical guide for creating clear, fair promotion criteria for remote teams. Learn how to build promotion frameworks that developers and technical teams actually understand."
+title: "How to Create Remote Team Promotion Criteria: A."
+description: "A practical guide for creating clear, fair promotion criteria for remote teams. Learn how to build promotion frameworks that developers and technical."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-promotion-criteria-transparent-and/
@@ -155,6 +155,11 @@ A transparent promotion framework transforms career development from a mystery i
 Start with clear level definitions, create observable evidence categories, build a scoring rubric, and iterate based on real feedback. The goal isn't perfection—it's making the path forward visible.
 
 Remember: the best promotion framework is one your team actually uses. Keep it simple enough to understand, specific enough to act on, and flexible enough to evolve with your organization.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
