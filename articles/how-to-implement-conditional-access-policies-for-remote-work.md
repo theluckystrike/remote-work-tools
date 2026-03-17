@@ -4,8 +4,11 @@ layout: default
 title: "How to Implement Conditional Access Policies for Remote Workers in Azure"
 description: "A practical guide for developers and IT professionals on implementing Azure Conditional Access policies to secure remote work environments. Includes code examples and configuration steps."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-implement-conditional-access-policies-for-remote-work/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
