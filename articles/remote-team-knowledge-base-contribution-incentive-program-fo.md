@@ -2,13 +2,13 @@
 layout: default
 title: "Remote Team Knowledge Base Contribution Incentive Program for Engineering Teams"
 description: "A practical guide to building and implementing a knowledge base contribution incentive program for remote engineering teams. Includes code examples, metrics, and implementation strategies."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /remote-team-knowledge-base-contribution-incentive-program-fo/
 categories: [guides]
 tags: [knowledge-base, documentation, remote-work, incentives]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
