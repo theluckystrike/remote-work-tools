@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Team Values and Principles Document Collaboratively"
-description: "A practical guide for developers and power users on building remote team values and principles through collaborative processes. Includes templates, workflows, and code examples."
+title: "How to Create Remote Team Values and Principles Document."
+description: "A practical guide for developers and power users on building remote team values and principles through collaborative processes. Includes templates."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-values-and-principles-document-col/
@@ -234,6 +234,11 @@ Creating team values collaboratively takes time, but the investment pays dividen
 Start with the brainstorm phase, synthesize thoughtfully, refine collaboratively, and commit to living the values you create.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Change Management Communication Plan Template for Distributed Organizations 2026"
-description: "A practical communication plan template for managing team changes in remote and distributed organizations. Includes code examples, Slack integration patterns, and actionable frameworks."
+title: "Remote Team Change Management Communication Plan."
+description: "A practical communication plan template for managing team changes in remote and distributed organizations. Includes code examples, Slack integration."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-change-management-communication-plan-template-fo/
@@ -180,6 +180,11 @@ Regardless of your specific template, adhere to these principles:
 **Document decisions**: Record why the change is happening. Future team members (and your future self) will thank you.
 
 **Iterate your process**: After each change cycle, note what worked and what did not. Refine your template accordingly.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
