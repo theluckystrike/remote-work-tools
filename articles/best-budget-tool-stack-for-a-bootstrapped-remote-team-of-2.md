@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-budget-tool-stack-for-a-bootstrapped-remote-team-of-2/
 reviewed: true
 score: 8
-categories: [best-of]
+categories: [guides]
 ---
 
 {% raw %}
@@ -396,6 +396,11 @@ To maximize your budget tool stack:
 A bootstrapped remote team of two doesn't need expensive tools to operate professionally. By using the free tiers of modern SaaS tools and strategic use of open-source alternatives, you can build a complete remote work infrastructure for under $50/month—or even completely free.
 
 The key is choosing tools that integrate well together and provide exactly what you need without feature bloat. Start with the minimal stack, add paid features only when you hit free tier limits, and focus your resources on client work rather than tool management.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
