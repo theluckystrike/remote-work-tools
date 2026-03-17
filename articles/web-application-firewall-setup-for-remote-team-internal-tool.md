@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /web-application-firewall-setup-for-remote-team-internal-tool/
 reviewed: true
 score: 8
-categories: [setup]
+categories: [tutorials]
 ---
 
 
