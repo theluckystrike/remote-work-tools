@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Client Document Sharing Portal Comparison for Remote Agencies 2026"
-description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation examples for developers."
+title: "Client Document Sharing Portal Comparison for Remote."
+description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /client-document-sharing-portal-comparison-for-remote-agencie/
@@ -190,6 +190,11 @@ Choose based on your primary constraint:
 | Microsoft integration | SharePoint |
 
 For most remote agencies, Google Drive or Dropbox provides the best balance. If you handle sensitive data or operate in regulated industries, Box justifies the premium. SharePoint only makes sense if your client workflow already depends on Microsoft products.
+
+
+## Related Reading
+
+- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

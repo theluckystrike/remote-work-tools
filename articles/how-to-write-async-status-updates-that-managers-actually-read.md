@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Write Async Status Updates That Managers Actually Read"
+title: "How to Write Async Status Updates That Managers Actually."
 description: "Learn how to write async status updates that managers actually read. Practical templates and frameworks for remote teams."
 date: 2026-03-17
 author: theluckystrike
@@ -194,6 +194,11 @@ Sometimes the issue isn't the update—it's that managers haven't trained themse
 Writing status updates that managers actually read is a skill that compounds. The better you get at communicating async, the less time everyone spends in unnecessary meetings. Your clarity earns trust, and trust earns autonomy.
 
 Start applying the SPOT framework today. Your manager—and your calendar—will thank you.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

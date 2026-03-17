@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Present Sprint Demos to Non-Technical Remote Clients"
-description: "A practical guide for developers on presenting sprint demos to non-technical remote clients. Learn storytelling techniques, demo preparation, and communication strategies."
+description: "A practical guide for developers on presenting sprint demos to non-technical remote clients. Learn storytelling techniques, demo preparation, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-present-sprint-demos-to-non-technical-remote-clients/
@@ -160,6 +160,11 @@ This professional follow-up demonstrates organization and keeps momentum between
 Presenting sprint demos to non-technical remote clients requires translating technical work into business language. Focus on outcomes rather than implementation, structure your presentation around client priorities, and always leave room for conversation. The goal isn't just to show what you built—it's to build confidence that the project is progressing well and their investment is producing value.
 
 When you master this communication skill, clients become stronger advocates for your work and more confident in your team's abilities.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
