@@ -4,7 +4,7 @@ layout: default
 title: "How to Set Up ClickUp Client Portal for Remote Project."
 description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: theluckystrike
 permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/
 reviewed: true
 score: 8
