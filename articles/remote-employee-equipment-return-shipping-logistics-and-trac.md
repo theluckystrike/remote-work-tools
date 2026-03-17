@@ -5,7 +5,7 @@ description: "A practical guide to building shipping logistics and tracking syst
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-equipment-return-shipping-logistics-and-trac/
-categories: [guides, remote-work, logistics]
+categories: [guides, workflows]
 tags: [shipping, equipment-management, logistics, tracking, api]
 reviewed: true
 score: 8
