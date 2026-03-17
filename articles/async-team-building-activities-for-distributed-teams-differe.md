@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Async Team Building Activities for Distributed Teams Across Different Time Zones"
 description: "Practical async team building activities for distributed teams working across different time zones. Implementation patterns, code examples, and workflows for developer teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /async-team-building-activities-for-distributed-teams-differe/
 categories: [guides]
 tags: [async, remote-work, team-building, time-zones, distributed-teams]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Async Team Building Activities for Distributed Teams Across Different Time Zones

@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "How to Set Up Client Onboarding Portal for Remote Agency"
 description: "A practical guide to building a client onboarding portal for remote agencies. Learn the essential components, tools, and implementation steps."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-client-onboarding-portal-for-remote-agency/
 categories: [guides]
 tags: [client-onboarding, remote-work, portal, agency, workflow, automation]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # How to Set Up Client Onboarding Portal for Remote Agency

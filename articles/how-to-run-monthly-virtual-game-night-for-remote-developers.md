@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "How to Run Monthly Virtual Game Night for Remote Developers"
 description: "A practical guide to organizing and running monthly virtual game nights for remote development teams. Includes scheduling tips, game recommendations, and code tools."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-run-monthly-virtual-game-night-for-remote-developers/
 categories: [guides]
 tags: [remote-work, team-building, virtual-events]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # How to Run Monthly Virtual Game Night for Remote Developers
