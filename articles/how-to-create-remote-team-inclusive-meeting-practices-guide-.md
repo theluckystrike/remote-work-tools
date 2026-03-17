@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Team Inclusive Meeting Practices Guide for Global Teams"
-description: "A practical guide to building inclusive meeting practices for distributed remote teams across multiple time zones. Includes code examples and automation tips."
+title: "How to Create Remote Team Inclusive Meeting Practices."
+description: "A practical guide to building inclusive meeting practices for distributed remote teams across multiple time zones. Includes code examples and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-inclusive-meeting-practices-guide-/
@@ -255,6 +255,11 @@ Watch out for these patterns that undermine inclusive meetings:
 Creating truly inclusive meeting practices for global remote teams requires moving beyond assumptions about what "normal" meetings look like. By implementing time zone rotation, async-first communication, structured formats, and comprehensive documentation, you build a meeting culture that works for developers and team members across any geographic distribution.
 
 The key is starting small, measuring impact, and continuously refining based on team feedback. Inclusive meetings aren't a destination—they're an ongoing practice.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
