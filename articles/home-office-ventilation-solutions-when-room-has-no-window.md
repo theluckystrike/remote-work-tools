@@ -6,10 +6,10 @@ date: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /home-office-ventilation-solutions-when-room-has-no-window/
 categories: [guides]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}
