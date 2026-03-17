@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Team Meeting Cadence Template for Engineering Managers Leading Distributed Teams"
-description: "A practical meeting cadence template for engineering managers running distributed teams. Includes schedules, async alternatives, and code examples for automation."
+title: "Remote Team Meeting Cadence Template for Engineering."
+description: "A practical meeting cadence template for engineering managers running distributed teams. Includes schedules, async alternatives, and code examples for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-meeting-cadence-template-for-engineering-manager/
@@ -219,6 +219,11 @@ A meeting cadence only works if the team respects it. Announce the cadence in yo
 The most successful distributed teams treat their meeting cadence as an evolving contract. Review it quarterly. Remove meetings that aren't providing value. Add structure where coordination breaks down.
 
 Start with the template above, observe what works for your specific time zone distribution and team dynamics, then refine from there.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

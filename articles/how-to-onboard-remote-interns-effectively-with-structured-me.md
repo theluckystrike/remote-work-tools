@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Onboard Remote Interns Effectively With Structured Mentorship Program Template"
+title: "How to Onboard Remote Interns Effectively With."
 description: "A practical guide to building a structured mentorship program for remote interns. Includes templates, workflows, and code examples for engineering teams."
 date: 2026-03-16
 author: theluckystrike
@@ -152,6 +152,11 @@ Every team has unique needs. Modify this framework by:
 The key principle remains constant: structure replaces the ambient learning that remote work removes. By building intentional touchpoints, measurable goals, and consistent feedback loops, you create an internship experience that produces real value for both the intern and your team.
 
 A structured mentorship program requires more upfront planning than ad-hoc onboarding, but the results speak for themselves—interns who contribute meaningfully, mentors who grow through teaching, and teams that scale their knowledge effectively across distance.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
