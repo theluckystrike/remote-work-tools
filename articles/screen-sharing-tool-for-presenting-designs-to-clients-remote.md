@@ -26,7 +26,7 @@ Zoom remains a staple for design presentations thanks to its widespread adoption
 **Key Features:**
 - 1080p screen sharing capability
 - Virtual backgrounds and background noise suppression
-- Breakout rooms for stakeholder分组
+- Breakout rooms for stakeholder groups
 - Recording with cloud storage
 
 **Best For:** Teams already using Zoom for meetings. The learning curve is minimal, and most clients already have Zoom installed.
