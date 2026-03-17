@@ -4,8 +4,8 @@
 
 
 layout: default
-title: "Claude Code NPM Package Development Guide: From Setup to Publish"
-description: "A comprehensive guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best practices."
+title: "Claude Code NPM Package Development Guide: From Setup to."
+description: "A comprehensive guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best."
 date: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /claude-code-npm-package-development-guide/
@@ -306,3 +306,8 @@ claude "Generate API documentation from TypeScript types using TypeDoc. Include 
 - **Use ESM and CommonJS**: Support both module systems for compatibility
 - **Set Up Dependabot**: Automated dependency updates keep your package secure
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+

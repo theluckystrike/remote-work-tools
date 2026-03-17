@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Create Shared Project Timeline with Remote Agency Clients"
-description: "Learn how to build and share project timelines with remote agency clients using CLI tools. Practical examples and code snippets for developers and power users."
+title: "How to Create Shared Project Timeline with Remote Agency."
+description: "Learn how to build and share project timelines with remote agency clients using CLI tools. Practical examples and code snippets for developers and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-shared-project-timeline-with-remote-agency-cli/
@@ -166,6 +166,11 @@ This creates an audit trail of project evolution that helps both parties underst
 ## Summary
 
 CLI-based timelines offer reproducibility, version control, and integration capabilities that GUI tools lack. Taskwarrior provides task management with calendar export. Mermaid diagrams render visual Gantt charts from text. CSV-based approaches bridge spreadsheet workflows with shareable outputs. Choose the method matching your team's tool preferences and client communication style.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

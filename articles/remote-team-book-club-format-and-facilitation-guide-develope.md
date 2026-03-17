@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Book Club Format and Facilitation Guide for Developers"
+title: "Remote Team Book Club Format and Facilitation Guide for."
 description: "A practical guide to running effective remote book clubs for developer teams. Includes format templates, facilitation scripts, and tooling recommendations."
 date: 2026-03-16
 author: theluckystrike
@@ -214,6 +214,11 @@ For remote developer book clubs, these tools integrate well with existing workfl
 A successful remote developer book club combines structured formats with flexibility, technical depth with practical application, and synchronous discussions with asynchronous participation. The key is establishing clear processes early, rotating facilitation to distribute ownership, and consistently connecting reading material to your team's actual work.
 
 Start simple, gather feedback, and iterate. Your first cycle will not be perfect, but each iteration builds toward a valuable team learning tradition that strengthens remote collaboration and shared knowledge.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

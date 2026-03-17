@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Team Agreements Around Meeting-Free Focus Time"
-description: "Learn practical strategies for establishing team agreements that protect deep work time. Includes code examples, Slack integration patterns, and implementation templates for remote engineering teams."
+description: "Learn practical strategies for establishing team agreements that protect deep work time. Includes code examples, Slack integration patterns, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-team-agreements-around-meeting-free-focus-time/
@@ -240,6 +240,11 @@ Focus time agreements require ongoing attention:
 The goal isn't rigid enforcement but creating a culture where deep work is valued as much as collaboration. When your team consistently delivers quality code without burnout, you've built something sustainable.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

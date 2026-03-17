@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Prevent Remote Work Isolation for Solo Team Members"
-description: "Practical strategies to prevent remote work isolation for solo team members. Discover automation tools, communication patterns, and mental health support for distributed developers."
+description: "Practical strategies to prevent remote work isolation for solo team members. Discover automation tools, communication patterns, and mental health."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-remote-work-isolation-for-solo-team-members/
@@ -217,6 +217,11 @@ Preventing remote work isolation requires intentional effort, but the strategies
 Remote work isolation will not fix itself. By implementing these practices consistently, solo team members can maintain the connections, context, and community needed to thrive in distributed work environments.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

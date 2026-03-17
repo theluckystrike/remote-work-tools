@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create a Client-Facing Knowledge Base for a Remote Agency"
-description: "A practical guide for remote agencies to build and maintain a client-facing knowledge base. Includes platform recommendations, content organization strategies, and implementation steps."
+title: "How to Create a Client-Facing Knowledge Base for a."
+description: "A practical guide for remote agencies to build and maintain a client-facing knowledge base. Includes platform recommendations, content organization."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-facing-knowledge-base-for-remote-agency/
@@ -89,6 +89,11 @@ Establish a maintenance routine. Schedule monthly reviews to update outdated con
 ## Conclusion
 
 A client-facing knowledge base represents one of the highest-ROI investments for remote agencies. The upfront effort to create and organize content pays ongoing dividends through reduced support burden, improved client independence, and perceived professionalism. Start with your most common client questions, choose a platform that matches your agency scale, and commit to incremental improvement. Your clients gain clarity, your team gains time, and your agency gains a competitive differentiator that scales with your growth.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

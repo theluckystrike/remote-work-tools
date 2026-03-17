@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Async Team Building Activities for Distributed Teams Across Different Time Zones"
-description: "Practical async team building activities for distributed teams working across different time zones. Implementation patterns, code examples, and workflows for developer teams."
+title: "Async Team Building Activities for Distributed Teams."
+description: "Practical async team building activities for distributed teams working across different time zones. Implementation patterns, code examples, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /async-team-building-activities-for-distributed-teams-differe/
@@ -216,6 +216,11 @@ Start with one activity and prove it works before adding more:
 The goal isn't to fill every moment with structured interaction. Rather, create touchpoints that help team members see each other as complete humans. Even one or two consistent async activities can meaningfully improve team cohesion across time zones.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

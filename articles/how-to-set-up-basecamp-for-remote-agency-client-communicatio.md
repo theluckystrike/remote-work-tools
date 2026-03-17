@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Basecamp for Remote Agency Client Communication"
+title: "How to Set Up Basecamp for Remote Agency Client."
 description: "A practical guide to configuring Basecamp for seamless client communication in remote agencies. Set up projects, automate updates, and streamline feedback."
 date: 2026-03-16
 author: theluckystrike
@@ -224,5 +224,10 @@ Track these metrics to ensure your Basecamp setup is working:
 If clients still rely on email for primary communication, that's a sign the Basecamp setup needs adjustment. The goal is Basecamp as the single source of truth.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
