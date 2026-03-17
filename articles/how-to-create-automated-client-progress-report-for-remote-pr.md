@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "How to Create Automated Client Progress Report for Remote Projects"
 description: "A practical guide to building automated client progress reports for remote projects. Learn to use scripts, APIs, and templates to keep stakeholders informed."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-automated-client-progress-report-for-remote-pr/
 categories: [guides]
 tags: [automation, remote-work, reporting, client-communication, scripts]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # How to Create Automated Client Progress Report for Remote Projects

@@ -1,13 +1,17 @@
 ---
 
+
 layout: default
 title: "Virtual Board Game Platforms for Remote Team Social Events"
 description: "Explore virtual board game platforms for remote team social events. Compare tools, setup requirements, and implementation strategies for distributed teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /virtual-board-game-platforms-for-remote-team-social-events/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 Remote teams often struggle with maintaining genuine social connections. Video calls work for meetings, but they rarely create the informal bonding that happens naturally in physical offices. Virtual board game platforms offer a structured way to recreate that collaborative, playful atmosphere online.

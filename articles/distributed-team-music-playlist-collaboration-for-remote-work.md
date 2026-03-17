@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Best Music Playlist Collaboration Tools for Distributed Teams in 2026"
 description: "Discover the best tools and strategies for creating shared music playlists that remote teams can enjoy together, boosting morale and connection."
 date: 2026-03-17
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /distributed-team-music-playlist-collaboration-for-remote-work/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 
