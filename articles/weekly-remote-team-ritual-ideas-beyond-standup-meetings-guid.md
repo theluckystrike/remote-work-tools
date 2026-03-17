@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guide"
-description: "Discover practical weekly remote team ritual ideas beyond standup meetings. This guide provides actionable examples and code snippets for developers and power users managing distributed teams."
+title: "Weekly Remote Team Ritual Ideas Beyond Standup Meetings."
+description: "Discover practical weekly remote team ritual ideas beyond standup meetings. This guide provides actionable examples and code snippets for developers."
 date: 2026-03-16
 author: theluckystrike
 permalink: /weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/
@@ -215,6 +215,11 @@ Start small and add rituals gradually. Here's a suggested cadence:
 Weekly remote team rituals beyond standup meetings create space for celebration, learning, reflection, and connection. The key is starting with one or two rituals that address your team's specific gaps, then expanding as patterns emerge.
 
 The most effective remote teams treat their meeting calendar as a product to be iterated upon. What works for six people may not work for sixty. Experiment, collect feedback, and refine your approach over time.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

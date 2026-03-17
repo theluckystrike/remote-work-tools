@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Run Effective Remote Client Workshops Using Miro Board"
-description: "A practical guide for developers and power users running remote client workshops with Miro. Learn setup strategies, facilitation techniques, and real-world templates."
+title: "How to Run Effective Remote Client Workshops Using Miro."
+description: "A practical guide for developers and power users running remote client workshops with Miro. Learn setup strategies, facilitation techniques, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-boar/
@@ -188,6 +188,11 @@ For simpler integrations, use Zapier or Make to connect Miro to tools like Linea
 Running effective remote client workshops with Miro requires three things: deliberate board preparation, structured facilitation techniques, and consistent follow-up. The platform removes the friction of physical distance, but your process determines whether the workshop actually produces results.
 
 Start with the templates in this guide, adapt them to your client relationships, and iterate based on what actually gets used after the workshop ends.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

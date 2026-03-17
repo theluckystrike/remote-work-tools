@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Gratitude Practice Ideas for Weekly Team Meetings"
-description: "Practical gratitude exercises and digital tools to build connection in your distributed team. Examples include shoutout boards, appreciation scripts, and automated recognition workflows."
+title: "Remote Team Gratitude Practice Ideas for Weekly Team."
+description: "Practical gratitude exercises and digital tools to build connection in your distributed team. Examples include shoutout boards, appreciation scripts."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-gratitude-practice-ideas-for-weekly-team-meeting/
@@ -236,6 +236,11 @@ Gratitude practices cost nothing but time, yet they measurably improve remote te
 Begin with one practice this week. Add complexity only when the team requests it. The goal isn't a perfect system — it's building the habit of recognizing each other's work.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

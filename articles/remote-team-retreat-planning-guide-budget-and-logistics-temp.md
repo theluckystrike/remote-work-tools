@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Retreat Planning Guide Budget and Logistics Template"
-description: "A practical template for planning remote team retreats with detailed budgets and logistics. Includes cost breakdowns, scheduling frameworks, and actionable checklists for distributed teams."
+title: "Remote Team Retreat Planning Guide Budget and Logistics."
+description: "A practical template for planning remote team retreats with detailed budgets and logistics. Includes cost breakdowns, scheduling frameworks, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-retreat-planning-guide-budget-and-logistics-temp/
@@ -209,6 +209,11 @@ The retreat doesn't end when everyone flies home. Successful teams follow up sys
 This template scales to different team sizes and budgets. A bootstrapped startup might choose a "workcation" model with Airbnb rentals and co-working space day passes. A larger team might need dedicated event coordinators. The key principles remain constant: document your budget line items, track logistics systematically, and build in contingency time and funds.
 
 The specific numbers and venues matter less than the discipline of planning. Use this framework as a starting point, adjust based on your team's specific needs, and iterate on future retreats based on post-event feedback.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
