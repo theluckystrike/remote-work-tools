@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Set Up WireGuard VPN Server for Small Remote Development Team"
 description: "A practical guide for developers and power users setting up WireGuard VPN for small remote development teams. Includes server configuration, client setup, and security best practices."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-wireguard-vpn-server-for-small-remote-development-team/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 # How to Set Up WireGuard VPN Server for Small Remote Development Team
 
