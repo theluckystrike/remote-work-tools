@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Remote Team Guilds and Communities of Practice"
-description: "A practical guide to building and scaling remote team guilds and communities of practice that drive knowledge sharing and skill development across distributed organizations."
+description: "A practical guide to building and scaling remote team guilds and communities of practice that drive knowledge sharing and skill development across."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-guilds-and-communities-of-practice/
@@ -174,5 +174,10 @@ Begin with one guild covering your most pressing technical domain. Run it for a 
 A well-run guild transforms how your organization shares knowledge. Instead of each team reinventing solutions independently, guilds create reusable patterns that lift all teams. The initial effort pays compounding returns as your organization grows.
 
 Start small, stay consistent, and iterate based on feedback. Your remote teams will develop stronger technical bonds and your organization will build lasting knowledge infrastructure.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
