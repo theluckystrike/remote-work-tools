@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Remote Team Penetration Testing Coordination Guide for Distributed Security Engineers 2026"
 description: "A practical guide for coordinating penetration testing activities across distributed security teams. Includes code examples and coordination workflows."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-penetration-testing-coordination-guide-for-distr/
 categories: [security, guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 Coordinating penetration testing across distributed security teams presents unique challenges that traditional in-person assessments never addressed. When your red team members span multiple time zones, use different tools, and operate with varying levels of access, you need structured workflows that maintain both security and efficiency. This guide provides actionable patterns for running effective remote penetration tests in 2026.
