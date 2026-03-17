@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Remote Collaboration Tool for Technical Architects Documenting System Dependencies Guide"
-description: "A practical guide for technical architects working remotely to document system dependencies. Compare tools, see code examples, and implement dependency tracking."
+title: "Best Remote Collaboration Tool for Technical Architects."
+description: "A practical guide for technical architects working remotely to document system dependencies. Compare tools, see code examples, and implement dependency."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-remote-collaboration-tool-for-technical-architects-docu/
@@ -269,6 +269,11 @@ done
 Effective system dependency documentation for remote technical architects requires combining the right tools with consistent processes. GitHub's native features work well for teams already on the platform, while Mermaid.js provides visual diagrams that stay in version control. Backstage excels for larger organizations needing comprehensive service catalogs, and Dependency Track addresses security monitoring requirements.
 
 Start simple: define your dependencies in YAML, generate visual diagrams automatically, and require documentation updates alongside code changes. As your remote team's architecture matures, layer in additional tools as needed. The goal is making system relationships discoverable without requiring someone to ask in Slack.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

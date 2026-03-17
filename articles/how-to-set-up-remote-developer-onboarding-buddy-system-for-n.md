@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Set Up Remote Developer Onboarding Buddy System for New Hires"
+title: "How to Set Up Remote Developer Onboarding Buddy System."
 description: "Learn how to build an effective remote developer onboarding buddy system. Practical setup guide with code snippets and implementation examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -225,6 +225,11 @@ Use this checklist when launching or auditing your buddy system:
 A remote developer buddy system requires upfront investment but pays dividends through faster integration, improved retention, and stronger team culture. Start with clear responsibilities, simple assignment processes, and robust materials. Measure results, gather feedback, and refine your approach over time.
 
 The goal is not perfection—it's consistent, reliable support that helps every new developer feel welcomed and equipped to succeed from day one.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

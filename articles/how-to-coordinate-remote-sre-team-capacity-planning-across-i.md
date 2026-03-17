@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Coordinate Remote SRE Team Capacity Planning Across Infrastructure Pods"
-description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable workflows."
+title: "How to Coordinate Remote SRE Team Capacity Planning."
+description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-coordinate-remote-sre-team-capacity-planning-across-i/
@@ -266,6 +266,11 @@ Capacity problems rarely resolve themselves. When engineers feel overworked, the
 Coordinating remote SRE team capacity across infrastructure pods requires deliberate processes, transparent visibility, and mutual accountability. Start by mapping your pod structure, implement capacity tracking, establish coverage agreements, and maintain regular review cycles. The investment in coordination pays dividends through reduced burnout, better incident response, and more predictable delivery of reliability improvements.
 
 The key is consistency. Apply these practices weekly and quarterly, and your team will develop reliable capacity awareness without excessive overhead.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

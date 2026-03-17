@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Workshop for Product Managers Defining Quarterly OKRs Guide"
+title: "How to Run Remote Workshop for Product Managers Defining."
 description: "A practical guide for product managers running remote workshops to define quarterly OKRs. Includes templates, facilitation scripts, and actionable steps."
 date: 2026-03-16
 author: theluckystrike
@@ -201,6 +201,11 @@ Before your next remote OKR workshop, verify:
 - [ ] Check-in schedule drafted
 
 A well-facilitated remote OKR workshop takes effort to prepare but pays dividends throughout the quarter. Teams that nail their planning sessions consistently outperform those that treat OKRs as a box-checking exercise.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

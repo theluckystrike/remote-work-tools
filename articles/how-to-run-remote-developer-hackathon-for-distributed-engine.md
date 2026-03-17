@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Run Remote Developer Hackathon for Distributed Engineering Teams 2026 Guide"
-description: "A practical guide to running successful remote developer hackathons for distributed engineering teams. Includes setup steps, tooling recommendations, and execution strategies for 2026."
+title: "How to Run Remote Developer Hackathon for Distributed."
+description: "A practical guide to running successful remote developer hackathons for distributed engineering teams. Includes setup steps, tooling recommendations."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-developer-hackathon-for-distributed-engine/
@@ -252,6 +252,11 @@ Several mistakes consistently undermine remote hackathons:
 Addressing these proactively significantly improves outcomes.
 
 Running a successful remote developer hackathon for distributed engineering teams takes effort, but the payoff—accelerated prototyping, team bonding, and innovation—makes it worthwhile. Focus on clear infrastructure, structured timelines, active facilitation, and fair evaluation, and your hackathon will deliver value regardless of where your team members are located.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
