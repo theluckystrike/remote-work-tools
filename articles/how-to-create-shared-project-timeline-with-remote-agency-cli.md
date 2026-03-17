@@ -6,7 +6,7 @@ description: "Learn how to build and share project timelines with remote agency 
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-shared-project-timeline-with-remote-agency-cli/
-categories: [guides, project-management, remote-work]
+categories: [guides, workflows]
 reviewed: true
 score: 8
 intent-checked: true
