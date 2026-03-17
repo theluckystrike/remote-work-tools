@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Walking Meeting Format for One-on-One Connections"
+title: "Remote Team Walking Meeting Format for One-on-One."
 description: "A practical guide to running walking meetings with remote team members. Includes format templates, scheduling scripts, and audio configuration tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -224,6 +224,11 @@ Before your first walking meeting:
 - [ ] Clear the calendar immediately after to allow transition time
 
 Walking meetings require more setup than sitting in front of a camera, but the payoff in conversation quality and relationship depth justifies the effort. Start with one walking meeting per week and evaluate after a month. Most teams that adopt this format find it becomes their preferred one-on-one structure.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

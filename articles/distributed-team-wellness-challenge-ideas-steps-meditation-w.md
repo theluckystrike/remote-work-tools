@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Distributed Team Wellness Challenge Ideas: Steps, Meditation, and Water Tracking"
+title: "Distributed Team Wellness Challenge Ideas: Steps."
 description: "Practical wellness challenge ideas for distributed teams including step goals, meditation practices, and hydration tracking with code-powered tools."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -208,6 +208,11 @@ The most effective approach combines all three elements into a cohesive weekly c
 Wellness challenges work best when they become part of your team culture rather than one-off events. Rotate focus areas monthly, introduce new challenges quarterly, and continuously gather feedback from team members about what motivates them.
 
 The goal is not perfection—it is progress. Small, consistent actions compound over time into meaningful health improvements. When your distributed team participates in wellness challenges together, you build connections that transcend spreadsheets and code reviews.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

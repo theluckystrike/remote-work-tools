@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Celebrate Employee Anniversaries on Fully Remote Teams"
-description: "Practical strategies and code examples for celebrating employee anniversaries in fully remote teams. Automate recognition with Slack bots, custom scripts, and async workflows."
+title: "How to Celebrate Employee Anniversaries on Fully Remote."
+description: "Practical strategies and code examples for celebrating employee anniversaries in fully remote teams. Automate recognition with Slack bots, custom."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-celebrate-employee-anniversaries-on-fully-remote-team/
@@ -205,6 +205,11 @@ Here's a minimal path to launching an anniversary program:
 5. **Iterate**: Gather feedback and adjust the approach
 
 Remote teams that celebrate together stay together. Anniversaries provide a predictable, meaningful touchpoint for building those connections.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

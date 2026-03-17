@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Team Cooking Class as Bonding Activity"
-description: "A practical guide to organizing virtual cooking classes that strengthen team bonds. Learn setup tips, recipe selection, and facilitation techniques for memorable remote team experiences."
+description: "A practical guide to organizing virtual cooking classes that strengthen team bonds. Learn setup tips, recipe selection, and facilitation techniques for."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-remote-team-cooking-class-as-bonding-activity/
@@ -149,6 +149,11 @@ The best indicator is when participants start suggesting recipes for future sess
 Remote team cooking classes succeed when organizers prioritize accessibility, preparation, and genuine interaction over production value. Your team doesn't need professional equipment or Michelin-star recipes—they need a chance to create something together and share the results.
 
 Start small, iterate based on feedback, and watch your team develop new dimensions beyond work conversations. The best remote teams find ways to be human together, and a shared cooking experience provides exactly that opportunity.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Agency Client Offboarding Checklist and Handoff Documentation Guide"
+title: "Remote Agency Client Offboarding Checklist and Handoff."
 description: "A practical guide for developers and power users managing client offboarding. Includes checklists, templates, and code snippets for documentation."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -213,6 +213,11 @@ Remote agency client offboarding requires intentional structure. By building a c
 The investment in thorough offboarding pays dividends: fewer post-engagement support requests, stronger professional relationships, and a repeatable process your team can execute consistently.
 
 Start building your offboarding templates now. When client engagements end, you'll have ready-made frameworks that ensure professional transitions every time.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

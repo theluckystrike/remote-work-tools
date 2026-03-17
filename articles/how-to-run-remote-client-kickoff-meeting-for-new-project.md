@@ -2,7 +2,7 @@
 
 layout: default
 title: "How to Run a Remote Client Kickoff Meeting for a New Project"
-description: "Learn practical strategies for running effective remote client kickoff meetings. Includes preparation checklists, facilitation techniques, and tools for developer teams."
+description: "Learn practical strategies for running effective remote client kickoff meetings. Includes preparation checklists, facilitation techniques, and tools."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-kickoff-meeting-for-new-project/
@@ -172,6 +172,11 @@ Every kickoff meeting should end with specific action items: "Client will provid
 A successful remote client kickoff meeting requires preparation, structured facilitation, and rapid follow-up. Send a clear agenda in advance, define success metrics together, document scope boundaries explicitly, and follow up within 24 hours with a summary. When done right, the kickoff meeting becomes a reference point that keeps your project aligned through execution.
 
 The investment in a thorough kickoff pays dividends throughout the project. You'll spend less time clarifying assumptions, fewer meetings recalibrating expectations, and more time building what the client actually needs.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

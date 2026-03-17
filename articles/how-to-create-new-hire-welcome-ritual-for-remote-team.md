@@ -3,7 +3,7 @@
 
 layout: default
 title: "How to Create New Hire Welcome Ritual for Remote Team"
-description: "A practical guide for developers and power users to build effective welcome rituals for remote team newcomers. Includes automation scripts, templates, and implementation examples."
+description: "A practical guide for developers and power users to build effective welcome rituals for remote team newcomers. Includes automation scripts, templates."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-new-hire-welcome-ritual-for-remote-team/
@@ -265,6 +265,11 @@ Review these metrics quarterly and adjust your rituals based on data rather than
 Creating effective welcome rituals for remote teams requires intentional design across multiple phases. Start with solid pre-boarding, make first days warm and structured, provide guided learning during the first week, and establish feedback loops through the first month.
 
 The investment in thoughtful onboarding pays dividends through faster productivity, stronger team cohesion, and higher retention. Iterate on your rituals based on feedback and metrics, and your remote team will build the connection that remote work can sometimes lack.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

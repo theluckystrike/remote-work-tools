@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Team Norms Around Emoji Reactions in Slack"
-description: "Learn how to establish clear emoji reaction guidelines for your remote team. Create a shared vocabulary for quick feedback, acknowledgment, and communication in Slack."
+description: "Learn how to establish clear emoji reaction guidelines for your remote team. Create a shared vocabulary for quick feedback, acknowledgment, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-team-norms-around-emoji-reactions-in-slack/
@@ -166,3 +166,8 @@ Quick acknowledgment without writing replies:
 
 Pin this where your team can easily find it, and update as your norms evolve.
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+

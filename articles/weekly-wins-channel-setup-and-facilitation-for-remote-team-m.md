@@ -2,8 +2,8 @@
 
 
 layout: default
-title: "Weekly Wins Channel Setup and Facilitation for Remote Team Morale"
-description: "A practical guide to setting up and running a weekly wins channel that boosts morale in remote teams. Includes Slack configuration, automation tips, and facilitation strategies."
+title: "Weekly Wins Channel Setup and Facilitation for Remote."
+description: "A practical guide to setting up and running a weekly wins channel that boosts morale in remote teams. Includes Slack configuration, automation tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /weekly-wins-channel-setup-and-facilitation-for-remote-team-m/
@@ -230,6 +230,11 @@ A healthy weekly wins channel typically sees 40-60% team participation after the
 Successfully integrating a weekly wins channel requires patience. Expect low engagement initially. Focus on consistency, acknowledge every contribution, and adjust based on your team's specific culture and preferences.
 
 The best weekly wins channels become a team ritual that people genuinely look forward to — a moment to pause, reflect on progress, and feel connected across the distance.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

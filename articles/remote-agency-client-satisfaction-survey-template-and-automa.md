@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Agency Client Satisfaction Survey Template and Automation Guide"
-description: "A practical guide for building client satisfaction surveys for remote agencies with automation workflows using JavaScript, GitHub Actions, and no-code tools."
+title: "Remote Agency Client Satisfaction Survey Template and."
+description: "A practical guide for building client satisfaction surveys for remote agencies with automation workflows using JavaScript, GitHub Actions, and no-code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-client-satisfaction-survey-template-and-automa/
@@ -228,6 +228,11 @@ function analyzeSurveyResponses(responses) {
 - [ ] Schedule a monthly review of recent survey results with your team
 
 With this system in place, you continuously gather client intelligence without adding manual busywork. The automation handles the timing and distribution, while you focus on analyzing feedback and improving your services.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

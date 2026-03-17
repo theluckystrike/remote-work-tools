@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Create Automated Client Progress Report for Remote Projects"
-description: "A practical guide to building automated client progress reports for remote projects. Learn to use scripts, APIs, and templates to keep stakeholders informed."
+title: "How to Create Automated Client Progress Report for."
+description: "A practical guide to building automated client progress reports for remote projects. Learn to use scripts, APIs, and templates to keep stakeholders."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-automated-client-progress-report-for-remote-pr/
@@ -227,6 +227,11 @@ Adjust your template and delivery frequency based on feedback. The goal is consi
 ---
 
 Building an automated client progress reporting system requires upfront development time but pays dividends through consistent stakeholder communication. Start with simple metrics and expand as you identify what matters most to your clients.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

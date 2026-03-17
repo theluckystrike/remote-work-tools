@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Handle Client Calls Across 8 Hour Time Difference"
-description: "A practical guide for developers and power users managing client communications when working across 8-hour time differences. Learn async strategies, scheduling tools, and workflow optimizations."
+description: "A practical guide for developers and power users managing client communications when working across 8-hour time differences. Learn async strategies."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-client-calls-across-8-hour-time-difference/
@@ -148,6 +148,11 @@ A client in a different time zone won't naturally respect your boundaries—you 
 Managing client calls across an 8-hour time difference requires shifting from synchronous-default to async-first thinking. Build communication systems that don't require simultaneous presence: thorough documentation, clear response time expectations, and strategic use of the limited synchronous windows that exist.
 
 The goal isn't eliminating calls—it's making them meaningful rather than routine. Your client gets thoughtful, complete updates. You get protected focus time and sustainable work hours. The project moves forward efficiently without either party sacrificing productivity or work-life balance.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
