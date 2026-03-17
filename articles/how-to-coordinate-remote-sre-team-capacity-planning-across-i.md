@@ -3,9 +3,11 @@ layout: default
 title: "How to Coordinate Remote SRE Team Capacity Planning Across Infrastructure Pods"
 description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable workflows."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-coordinate-remote-sre-team-capacity-planning-across-i/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
