@@ -2,13 +2,13 @@
 layout: default
 title: "How to Create Remote Team Working Agreement Template for New Teams"
 description: "A practical guide to building a remote team working agreement template. Includes code snippets and examples for developers and power users setting up new distributed teams."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-working-agreement-template-for-new/
 categories: [guides]
 tags: [remote-work, team-agreement, async-communication, distributed-teams, workflow]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---

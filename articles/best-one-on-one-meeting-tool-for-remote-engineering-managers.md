@@ -3,9 +3,12 @@
 layout: default
 title: "Best One on One Meeting Tool for Remote Engineering Managers 2026 Review"
 description: "A practical review of the best one on one meeting tools for remote engineering managers in 2026. Compare features, API integrations, and developer-friendly workflows."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-one-on-one-meeting-tool-for-remote-engineering-managers/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
 
 {% raw %}
