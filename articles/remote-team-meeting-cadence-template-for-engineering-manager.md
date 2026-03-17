@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Remote Team Meeting Cadence Template for Engineering Managers Leading Distributed Teams"
 description: "A practical meeting cadence template for engineering managers running distributed teams. Includes schedules, async alternatives, and code examples for automation."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-meeting-cadence-template-for-engineering-manager/
 categories: [guides]
 tags: [remote-work, meetings, engineering-management, distributed-teams]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Remote Team Meeting Cadence Template for Engineering Managers Leading Distributed Teams

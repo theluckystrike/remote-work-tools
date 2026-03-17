@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Detect and Prevent Burnout in Remote Employees: Early Warning Signs"
 description: "Learn how to detect and prevent burnout in remote employees with practical early warning signs and actionable prevention strategies for developers and power users."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/
 categories: [guides]
 tags: [remote-work, burnout, mental-health, team-management]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Detect and Prevent Burnout in Remote Employees: Early Warning Signs
