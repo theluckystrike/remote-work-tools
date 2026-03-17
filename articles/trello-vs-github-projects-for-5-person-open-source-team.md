@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Trello vs GitHub Projects for a 5-Person Open Source Team"
 description: "A practical comparison of Trello and GitHub Projects for managing a small open source project. Features, GitHub integration, workflow automation, and."
