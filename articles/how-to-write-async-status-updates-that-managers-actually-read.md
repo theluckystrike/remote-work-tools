@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "How to Write Async Status Updates That Managers Actually Read"
+title: "How to Write Async Status Updates That Managers Actually."
 description: "Learn practical strategies for writing async status updates that managers actually read and respond to. Includes templates and examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-async-status-updates-that-managers-actually-read/
-categories: [Remote Work, Communication, Productivity]
+categories: [guides]
 reviewed: true
 score: 8
 ---
@@ -159,6 +159,11 @@ Remember: your goal isn't to show you're busy. It's to show you're making progre
 
 ---
 
-*Built by theluckystrike — More at [zovo.one](https://zovo.one)*
+*
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)*
 
 {% endraw %}

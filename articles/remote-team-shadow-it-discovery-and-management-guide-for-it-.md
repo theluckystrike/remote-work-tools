@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Shadow IT Discovery and Management Guide for IT Administrators"
+title: "Remote Team Shadow IT Discovery and Management Guide for."
 description: "A practical guide for discovering and managing shadow IT in remote teams. Learn detection methods, risk assessment frameworks, and governance strategies."
 date: 2026-03-16
 author: theluckystrike
@@ -246,6 +246,11 @@ Managing shadow IT in remote teams requires balancing security with productivity
 The goal isn't to eliminate all unauthorized tools—it's to understand what's being used, assess the risks, and make informed decisions about what to allow, migrate, or decommission.
 
 Start with detection, build your risk register, and work with your teams to create a tool governance process that works for everyone.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

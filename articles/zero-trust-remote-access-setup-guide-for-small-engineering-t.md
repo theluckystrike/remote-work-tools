@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Zero Trust Remote Access Setup Guide for Small Engineering Teams 2026"
-description: "A practical zero trust remote access setup guide for small engineering teams. Learn implementation strategies, configuration examples, and deployment patterns."
+title: "Zero Trust Remote Access Setup Guide for Small."
+description: "A practical zero trust remote access setup guide for small engineering teams. Learn implementation strategies, configuration examples, and deployment."
 date: 2026-03-16
 author: theluckystrike
 permalink: /zero-trust-remote-access-setup-guide-for-small-engineering-t/
@@ -138,6 +138,11 @@ When incidents occur, zero trust simplifies response. Revoke a user's access at 
 Start with your most critical resources. Identify the services your engineering team cannot work without, and protect those first. Staging environments, code repositories, and internal documentation typically warrant immediate protection.
 
 Expand coverage gradually. As your zero trust deployment matures, extend protection to additional services. Document your policies and ensure the entire engineering team understands how access works. Clear documentation prevents support tickets and helps team members understand why certain access patterns work differently than they did with traditional VPNs.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

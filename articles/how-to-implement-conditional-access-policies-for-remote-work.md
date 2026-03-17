@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Implement Conditional Access Policies for Remote Workers in Azure"
-description: "A practical guide for developers and IT professionals on implementing Azure Conditional Access policies to secure remote work environments. Includes code examples and configuration steps."
+title: "How to Implement Conditional Access Policies for Remote."
+description: "A practical guide for developers and IT professionals on implementing Azure Conditional Access policies to secure remote work environments. Includes."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-implement-conditional-access-policies-for-remote-work/
@@ -221,6 +221,11 @@ Follow these principles when rolling out Conditional Access:
 For remote teams specifically, ensure your policies account for legitimate use cases: developers traveling to conferences, employees working from coffee shops, and contractors accessing resources from various locations.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
