@@ -3,12 +3,12 @@ layout: default
 title: "Best Virtual Happy Hour Alternative for Remote Teams Who Hate Forced Fun"
 description: "Discover async-friendly team connection strategies that respect autonomy and avoid mandatory social events. Practical approaches for developers and remote teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /best-virtual-happy-hour-alternative-for-remote-teams-who-hat/
 categories: [guides]
 tags: [remote-work, async-communication, team-culture, optional-participation]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
