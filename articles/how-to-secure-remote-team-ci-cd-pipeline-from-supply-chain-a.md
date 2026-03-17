@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Secure Remote Team CI/CD Pipeline From Supply Chain Attacks"
-description: "A practical guide for developers and DevOps teams to protect CI/CD pipelines from supply chain attacks. Includes concrete steps, code examples, and security hardening techniques."
+title: "How to Secure Remote Team CI/CD Pipeline From Supply."
+description: "A practical guide for developers and DevOps teams to protect CI/CD pipelines from supply chain attacks. Includes concrete steps, code examples, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/
@@ -268,6 +268,11 @@ Securing CI/CD pipelines from supply chain attacks requires a defense-in-depth a
 Remote teams should pay special attention to developer workstation security and ensure pipeline modifications require proper review. By implementing these practical measures, you significantly reduce the risk of supply chain compromises affecting your software delivery process.
 
 The security of your software ultimately depends on the integrity of your delivery pipeline. Invest in protecting it accordingly.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
