@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Onboarding Buddy Program Template for New Hires"
+title: "How to Create Remote Onboarding Buddy Program Template."
 description: "A practical guide to building a remote onboarding buddy program template that helps new hires integrate faster and feel supported from day one."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -233,5 +233,10 @@ Start small. Pilot your buddy program with one team, gather feedback, refine you
 The best buddy programs feel organic rather than scripted. Your templates provide structure and ensure consistency, but the real value comes from authentic relationships between team members. Focus on matching compatible personalities, setting clear expectations, and giving buddies the freedom to connect naturally.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
