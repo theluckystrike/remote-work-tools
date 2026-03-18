@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Handle School Snow Day When Both Parents Work Remotely"
-description: "A practical guide for remote working parents managing unexpected school closures due to snow days. Strategies for maintaining productivity while caring for children at home."
+title: "How to Handle School Snow Day When Both Parents Work."
+description: "A practical guide for remote working parents managing unexpected school closures due to snow days. Strategies for maintaining productivity while caring."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-school-snow-day-when-both-parents-work-remotel/
@@ -179,6 +179,11 @@ const adjustedVelocity = baseVelocity * (1 - (snowDayProbability * 0.3));
 If your region experiences 5-10 snow days annually, planning for this reduction prevents end-of-sprint crunches.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

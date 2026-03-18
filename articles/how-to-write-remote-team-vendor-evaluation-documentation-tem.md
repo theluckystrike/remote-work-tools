@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Write Remote Team Vendor Evaluation Documentation for Procurement Decisions"
-description: "A practical guide to creating comprehensive vendor evaluation documentation for remote teams. Includes templates and best practices for procurement decisions."
+title: "How to Write Remote Team Vendor Evaluation Documentation."
+description: "A practical guide to creating comprehensive vendor evaluation documentation for remote teams. Includes templates and best practices for procurement."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-remote-team-vendor-evaluation-documentation-tem/
@@ -153,5 +153,10 @@ Effective vendor evaluation documentation transforms procurement from a subjecti
 Invest time upfront in creating robust templates and evaluation criteria. The effort pays dividends through faster future evaluations, clearer decision rationale, and better vendor relationships built on mutual understanding of requirements.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up a Documentation Ownership Model for Remote Teams: Assigning Page Maintainers"
+title: "How to Set Up a Documentation Ownership Model for Remote."
 description: "Learn how to establish clear documentation ownership in remote teams by assigning page maintainers, creating accountability, and improving content quality."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -219,5 +219,10 @@ WHERE last_reviewed < DATE_SUB(CURDATE(), INTERVAL 90 DAY);
 - **Forgotten registry**: Keep the ownership file in sync with actual content
 
 A well-implemented ownership model transforms documentation from a chaotic afterthought into a reliable team resource. The initial setup effort pays dividends in reduced confusion, faster onboarding, and content that actually stays current.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

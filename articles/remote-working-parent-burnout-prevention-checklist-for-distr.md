@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Working Parent Burnout Prevention Checklist for Distributed Team Managers"
-description: "A practical checklist for distributed team managers to recognize and prevent remote working parent burnout. Includes warning signs, intervention strategies, and code snippets for monitoring tools."
+title: "Remote Working Parent Burnout Prevention Checklist for."
+description: "A practical checklist for distributed team managers to recognize and prevent remote working parent burnout. Includes warning signs, intervention."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/
@@ -169,6 +169,11 @@ Remote working parent burnout doesn't happen suddenly—it builds through accumu
 The best distributed team managers aren't the ones who spot burnout fastest—they're the ones who build environments where burnout is less likely to take root in the first place.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

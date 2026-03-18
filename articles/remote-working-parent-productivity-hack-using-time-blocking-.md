@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Working Parent Productivity Hack: Time Blocking Around School Bus Schedule"
-description: "A practical time blocking strategy for remote working parents to maximize productivity during school hours. Learn how to align your deep work with school bus schedules using calendar hacks, automation scripts, and team communication patterns."
+title: "Remote Working Parent Productivity Hack: Time Blocking."
+description: "A practical time blocking strategy for remote working parents to maximize productivity during school hours. Learn how to align your deep work with."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-productivity-hack-using-time-blocking-/
@@ -184,6 +184,11 @@ The school bus waits for no one—but it also grants you a gift. Those yellow wh
 Build your time blocks around the bus. Protect them fiercely. Watch your output transform.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

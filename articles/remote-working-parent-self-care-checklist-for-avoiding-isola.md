@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Working Parent Self Care Checklist for Avoiding Isolation in Distributed Teams"
-description: "A practical self care checklist for remote working parents to avoid isolation in distributed teams. Includes automation scripts, communication patterns, and mental health strategies for developers."
+title: "Remote Working Parent Self Care Checklist for Avoiding."
+description: "A practical self care checklist for remote working parents to avoid isolation in distributed teams. Includes automation scripts, communication."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/
@@ -184,6 +184,11 @@ Print or save this quick reference:
 Combating isolation as a remote working parent requires intentional effort and structural support. By implementing these practices consistently, you create sustainable habits that maintain connection without sacrificing productivity. Remember that isolation is not a personal failing—it is a systemic challenge that requires both individual action and team-level support.
 
 The strategies in this checklist work best when adapted to your specific situation. Start with two or three practices that feel manageable, then gradually add more as they become habits. Your well-being directly impacts your effectiveness as a developer and team member, making self-care an investment in your work, not a distraction from it.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

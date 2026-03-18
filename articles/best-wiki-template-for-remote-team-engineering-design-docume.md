@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Wiki Template for Remote Team Engineering Design Document with Review Workflow 2026"
+title: "Best Wiki Template for Remote Team Engineering Design."
 description: "Discover the most effective wiki template for engineering design documents that works seamlessly with async review workflows for distributed teams."
 date: 2026-03-16
 author: theluckystrike
@@ -174,6 +174,11 @@ Every team has unique needs, but this template provides a solid foundation. Star
 Your wiki platform may require adjustments. Confluence users might convert the markdown sections to numbered headings. Notion teams can create database properties for tracking review status. The fundamental structure remains valuable regardless of platform.
 
 The best design document template is one your team actually uses. Implement this template, gather feedback from your reviewers, and iterate. Over time, you'll develop conventions that match your team's communication style and technical culture.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

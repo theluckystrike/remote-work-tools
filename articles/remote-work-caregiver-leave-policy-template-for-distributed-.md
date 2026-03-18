@@ -4,8 +4,8 @@
 
 
 layout: default
-title: "Remote Work Caregiver Leave Policy Template for Distributed Companies Supporting Sandwich Generation"
-description: "A comprehensive caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents. Includes implementation code and practical examples."
+title: "Remote Work Caregiver Leave Policy Template for."
+description: "A comprehensive caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-work-caregiver-leave-policy-template-for-distributed-/
@@ -195,6 +195,11 @@ A caregiver leave policy for distributed companies supporting the sandwich gener
 Start with the core entitlements, add the sandwich generation bonus, then refine based on your team's specific needs. The investment in thoughtful caregiver policies pays dividends in retention, reduced burnout, and demonstrated commitment to your employees' whole lives.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

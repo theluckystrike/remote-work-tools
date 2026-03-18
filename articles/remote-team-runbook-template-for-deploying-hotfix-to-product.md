@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Runbook Template for Deploying Hotfix to Production with Distributed Approvers"
+title: "Remote Team Runbook Template for Deploying Hotfix to."
 description: "A practical runbook template for remote engineering teams deploying hotfixes to production with distributed approval workflows across time zones."
 date: 2026-03-16
 author: theluckystrike
@@ -233,6 +233,11 @@ After the hotfix is verified stable, document the incident:
 ## Conclusion
 
 Deploying hotfixes in distributed teams requires structured processes that account for async communication and time zone barriers. The template above provides a starting framework—adapt it to your team's specific tooling, communication preferences, and risk tolerance. The key is establishing clear thresholds for when async approval suffices versus when synchronous review is necessary, then documenting everything for future reference.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

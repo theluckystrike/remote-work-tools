@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Working Parent Daily Routine Template: Balancing Deep Work and Kid Interruptions"
-description: "A practical daily routine template for remote working parents. Learn strategies to protect deep work windows while managing childcare responsibilities and kid interruptions."
+title: "Remote Working Parent Daily Routine Template: Balancing."
+description: "A practical daily routine template for remote working parents. Learn strategies to protect deep work windows while managing childcare responsibilities."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/
@@ -242,6 +242,11 @@ Remote working parents who succeed don't have better willpower—they have bette
 Start with one change this week. Perhaps it's the visual timer. Perhaps it's blocking off 8:30-11:30 on your calendar. Small improvements compound into sustainable routines that let you thrive as both a developer and a parent.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
