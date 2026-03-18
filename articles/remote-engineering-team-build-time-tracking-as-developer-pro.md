@@ -6,7 +6,7 @@ description: "A technical guide for measuring and analyzing build times to ident
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-engineering-team-build-time-tracking-as-developer-pro/
-categories: [remote-work, developer-tools, productivity]
+categories: [workflows, guides, productivity]
 reviewed: true
 score: 8
 intent-checked: true
