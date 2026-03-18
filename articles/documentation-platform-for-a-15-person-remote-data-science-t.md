@@ -10,12 +10,13 @@ categories: [guides]
 tags: [documentation, remote-work, data-science, knowledge-management]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 # Documentation Platform for a 15 Person Remote Data Science Team
 
-Building effective documentation infrastructure for a distributed data science team requires addressing unique challenges that differ from traditional software engineering. Data science work involves experimentation, model versioning, dataset lineage, and code that may run once or be reused unpredictably. This guide covers practical patterns for organizing knowledge, automating documentation workflows, and maintaining discoverability across time zones.
+Use Notion for centralized documentation with flexible formatting, combine MLflow or Neptune for experiment tracking with automatic metadata logging, and implement GitHub as your code repository with detailed README files. Structure documentation into layers: project goals, technical implementation, and experiment tracking. This approach reduces knowledge silos for distributed data science teams working across time zones.
 
 ## The Remote Data Science Documentation Challenge
 
