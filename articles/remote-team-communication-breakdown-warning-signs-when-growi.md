@@ -5,7 +5,7 @@ title: "Remote Team Communication Breakdown: Warning Signs When Growing Past 15 
 description: "Learn to identify the critical warning signs of communication breakdown in remote teams as they scale beyond 15 people. Includes practical detection methods and remediation strategies."
 date: 2026-03-16
 author: theluckystrike
-permalink: /remote-team-communication-breakdown-warning-signs-when-growing-past-15-people/
+permalink: /remote-team-communication-breakdown-warning-signs-when-growi/
 categories: [guides]
 tags: [remote-work, communication, team-management, scaling, distributed-teams]
 reviewed: true
