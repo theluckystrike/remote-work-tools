@@ -9,9 +9,10 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
-Working from Europe for a US-based company means navigating significant timezone differences. When your employer operates on Eastern or Pacific time, you face a 5-9 hour gap that can disrupt your natural work rhythm. This guide shows you how to negotiate flexible hours that benefit both you and your US team, with practical examples and code tools to support your case.
+Propose specific alternatives like 10 AM - 4 PM CET core hours (overlapping 2-4 PM US East Coast), showing how this gives the US team morning hours for meetings while you work during peak productivity. Demonstrate your async capability with PR descriptions, async video walkthroughs, and 24-hour code review turnaround for two weeks before the negotiation, then present this track record as proof that flexible hours don't mean unavailability. If denied initially, start with 1-2 flexible days weekly as a trial, document your productivity metrics, then revisit the conversation once you've proven the arrangement works.
 
 ## Understanding the Timezone Math
 

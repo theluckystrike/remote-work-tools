@@ -9,14 +9,13 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
 # How to Maintain a US Phone Number While Working Remotely from Portugal or Spain
 
-Working remotely from Portugal or Spain offers incredible lifestyle benefits—affordable cost of living, excellent weather, and access to the wider European continent. However, many remote workers face a common challenge: keeping their US phone number active for work, banking, and essential services.
-
-This guide covers practical methods to maintain a US phone number while living abroad, focusing on solutions that work well for developers and power users who need reliability and technical flexibility.
+VoIP.ms ($3-5/month) provides a US number with full SMS capability for critical 2FA codes that services won't send to VOIP alternatives, while Twilio ($1-10/month with API access) lets developers build custom message forwarding workflows. The combination—a local Portuguese or Spanish SIM for daily use plus a VoIP number configured to forward calls to your local device—preserves access to your US banking, email, and AWS accounts while you work from abroad without paying international rates or revealing your actual location.
 
 ## Why Keep Your US Number
 

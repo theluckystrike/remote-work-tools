@@ -9,14 +9,13 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
 # How to Manage Remote Team When Multiple Parents Have Overlapping School Holiday Schedules
 
-Managing a remote team is challenging enough, but throw in multiple parents with children attending different schools—each with their own holiday schedules—and you're navigating a complex scheduling maze. When school breaks overlap or diverge unexpectedly, project timelines, meeting availability, and team coordination can quickly become chaotic.
-
-This guide provides practical strategies for engineering managers and team leads who need to keep deliverables on track while supporting parents through conflicting school holiday periods.
+Build a shared "School Breaks" calendar showing each parent's childcare gaps, then use a Python script to calculate realistic sprint capacity accounting for 50% productivity during break periods. Default to asynchronous standups and async check-ins during high-conflict weeks, document coverage requests explicitly in a dedicated Slack channel, and set expectations upfront that parents handle their own school schedule coordination—most parents will be satisfied knowing you understand the reality rather than expecting them to ignore school holidays for work.
 
 ## Understanding the Overlap Problem
 

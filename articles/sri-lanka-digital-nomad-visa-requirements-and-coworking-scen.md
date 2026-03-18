@@ -9,14 +9,13 @@ categories: [guides]
 tags: [sri-lanka, digital-nomad-visa, remote-work-visa, coworking, south-asia, visa-guide]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 # Sri Lanka Digital Nomad Visa Requirements and Coworking Scene for Remote Workers 2026
 
-Sri Lanka has emerged as an increasingly popular destination for remote workers seeking an affordable yet connected base in South Asia. With its stable infrastructure, reliable internet in major cities, and welcoming attitude toward long-term visitors, the island nation offers a compelling option for developers and power users. This guide covers the essential visa requirements and coworking infrastructure you need to know for working remotely from Sri Lanka in 2026.
+Sri Lanka's ETA (electronic travel authorization) costs just $35 for 30 days and extends up to 6 months total, letting you stay legally without a dedicated nomad visa program. Foreign-earned income remains untaxed for non-residents, coworking spaces cost $50-110/month with reliable 100 Mbps fiber connections in Colombo and Kandy, and the UTC+5:30 timezone overlaps perfectly with India and the Middle East while offering reasonable async windows for US collaboration. For developers seeking an alternative to saturated Bali/Chiang Mai destinations, Sri Lanka combines affordable living ($400-800/month accommodation), excellent food, and stable infrastructure without the tourist density of Southeast Asia's nomad hubs.
 
 ## Sri Lanka Digital Nomad Visa Options
 
