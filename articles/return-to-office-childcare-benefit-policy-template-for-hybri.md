@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Return to Office Childcare Benefit Policy Template for Hybrid Employees with Families"
 description: "A practical policy template and implementation guide for hybrid teams offering childcare benefits to employees with families. Includes code examples and actionable frameworks."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /return-to-office-childcare-benefit-policy-template-for-hybri/
 categories: [guides]
 tags: [childcare, family-benefits, hybrid-work, rto-policy, employee-benefits, hr-automation]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Return to Office Childcare Benefit Policy Template for Hybrid Employees with Families

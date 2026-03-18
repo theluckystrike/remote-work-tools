@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Best Practice for Hybrid Work Policy: Covering Which Days Teams Come to Office"
 description: "A practical guide for developers and power users on structuring hybrid work policies that define which days teams come to office. Includes scheduling frameworks, team coordination strategies, and code examples for managing in-office days."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-work-policy-covering-which-days-tea/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Best Practice for Hybrid Work Policy: Covering Which Days Teams Come to Office

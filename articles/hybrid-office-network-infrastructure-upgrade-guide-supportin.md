@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Hybrid Office Network Infrastructure Upgrade Guide: Supporting Increased Video Call Bandwidth in 2026"
 description: "A technical guide for upgrading hybrid office network infrastructure to handle increased video call bandwidth. Includes practical examples, network architecture patterns, and code snippets for developers and power users."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Hybrid Office Network Infrastructure Upgrade Guide: Supporting Increased Video Call Bandwidth in 2026

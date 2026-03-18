@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Best Visitor Management System for Hybrid Offices: Tracking Who Is in the Building"
 description: "A technical guide to implementing visitor management systems for hybrid offices. Covers API integrations, real-time occupancy tracking, badge systems, and developer-focused implementation patterns."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-visitor-management-system-for-hybrid-offices-tracking-w/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Best Visitor Management System for Hybrid Offices: Tracking Who Is in the Building
