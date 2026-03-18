@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Register as Self-Employed Remote Worker in Portugal for Tax Purposes"
-description: "Step-by-step guide for developers and power users on registering as self-employed in Portugal. Covers NIF, IRS registration, VAT, and practical tax obligations."
+title: "How to Register as Self-Employed Remote Worker in."
+description: "Step-by-step guide for developers and power users on registering as self-employed in Portugal. Covers NIF, IRS registration, VAT, and practical tax."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-register-as-self-employed-remote-worker-in-portugal-f/
@@ -165,6 +165,11 @@ Keeping organized records from the start prevents complications during tax seaso
 ## Conclusion
 
 Registering as self-employed in Portugal for tax purposes requires completing several administrative steps, but the process is straightforward once you understand the requirements. The key is obtaining your NIF first, then registering as a trabalhador independente, understanding your VAT obligations based on client location, and maintaining quarterly and annual compliance. With proper setup, Portugal offers a viable tax structure for remote workers operating within the European framework.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
