@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Run Remote Team Lightning Talks Keeping Presentations Under Five Minutes Guide"
-description: "A practical guide for running effective lightning talks with remote teams. Learn how to structure five-minute presentations, manage time constraints, and build a culture of quick knowledge sharing."
+title: "How to Run Remote Team Lightning Talks Keeping."
+description: "A practical guide for running effective lightning talks with remote teams. Learn how to structure five-minute presentations, manage time constraints."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-lightning-talks-keeping-presentations/
@@ -179,6 +179,11 @@ Running effective lightning talks with remote teams comes down to three things: 
 Start small—maybe with just two or three talks at your next team meeting. Once your team experiences the value of quick, focused presentations, you'll find participants volunteering to share more often.
 
 The goal isn't polished presentations; it's consistent, low-friction knowledge sharing that makes your remote team stronger.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

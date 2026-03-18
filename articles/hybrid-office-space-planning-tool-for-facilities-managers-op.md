@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Hybrid Office Space Planning Tool for Facilities Managers: Optimizing Desk Utilization in 2026"
-description: "A technical guide to building desk utilization tracking systems for hybrid offices. Covers sensor integration, occupancy analytics, API design, and code examples for developers implementing space optimization tools."
+title: "Hybrid Office Space Planning Tool for Facilities."
+description: "A technical guide to building desk utilization tracking systems for hybrid offices. Covers sensor integration, occupancy analytics, API design, and."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-space-planning-tool-for-facilities-managers-op/
@@ -328,6 +328,11 @@ Start with a pilot floor covering 20-50 desks. Validate your sensor reliability,
 Building a hybrid office space planning tool requires integrating hardware sensors, reliable data pipelines, meaningful analytics, and actionable visualizations. The implementations covered here provide a foundation for tracking desk utilization in real-time, generating insights for space optimization, and exporting data for integration with broader facilities management systems.
 
 The key to success lies in starting simple—deploying a limited pilot, validating your data quality, and iterating based on actual usage patterns. As your system matures, you'll have the occupancy intelligence needed to make data-driven decisions about desk allocation, real estate costs, and workspace design that genuinely serve your hybrid workforce.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

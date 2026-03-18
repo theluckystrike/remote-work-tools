@@ -4,8 +4,8 @@
 
 
 layout: default
-title: "Remote Team All Hands Meeting Question Collection Tool for Distributed Organizations Guide"
-description: "A comprehensive guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes implementation patterns, code examples, and best practices for engineering teams."
+title: "Remote Team All Hands Meeting Question Collection Tool."
+description: "A comprehensive guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-all-hands-meeting-question-collection-tool-for-d/
@@ -227,6 +227,11 @@ Time-to-answer tracks how quickly questions get responses. Long gaps between sub
 Building an effective question collection tool for remote all hands meetings requires understanding your team's communication patterns and technical comfort level. Start with simple tools like shared documents or GitHub Issues, then iterate toward more sophisticated solutions as your team's needs evolve. The goal remains consistent: create psychological safety for asking questions, surface genuine concerns through community-driven prioritization, and make the most of scarce synchronous time.
 
 The best question collection system is one your team actually uses. Focus on reducing friction, maintaining transparency in the selection process, and continuously iterating based on feedback.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Manage Hybrid Team Where Some Members Are Fully Remote Permanently"
-description: "A practical guide for developers and power users on managing hybrid teams with permanent remote members. Includes automation scripts, workflow patterns, and code examples."
+title: "How to Manage Hybrid Team Where Some Members Are Fully."
+description: "A practical guide for developers and power users on managing hybrid teams with permanent remote members. Includes automation scripts, workflow."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-hybrid-team-where-some-members-are-fully-remot/
@@ -262,5 +262,10 @@ Document the entire onboarding process so remote hires can reference it later.
 Successfully managing a hybrid team with permanent remote members comes down to intentional infrastructure. Build systems that make work visible, document decisions proactively, and create asynchronous workflows that don't penalize time zone differences.
 
 Start by implementing one or two of these practices—perhaps the communication norms and automated status reporting—and iterate based on what your specific team needs.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
