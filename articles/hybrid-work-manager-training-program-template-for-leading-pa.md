@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Hybrid Work Manager Training Program Template for Leading Partially Distributed Teams 2026"
-description: "A practical training program template for managers leading partially distributed teams. Includes curriculum structure, workshop modules, and implementation code for hybrid team leadership."
+title: "Hybrid Work Manager Training Program Template for."
+description: "A practical training program template for managers leading partially distributed teams. Includes curriculum structure, workshop modules, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-manager-training-program-template-for-leading-pa/
@@ -249,6 +249,11 @@ Training managers for hybrid leadership requires addressing three core areas: co
 The managers who succeed in partially distributed environments are those who treat hybrid not as a problem to solve but as a capability to build. This training program gives them the foundation to do exactly that.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

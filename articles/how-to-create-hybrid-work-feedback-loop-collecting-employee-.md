@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Create Hybrid Work Feedback Loop Collecting Employee Input on Policy Changes"
-description: "A practical guide to building feedback systems that collect employee input on hybrid work policy changes. Includes code examples and implementation strategies for developers."
+title: "How to Create Hybrid Work Feedback Loop Collecting."
+description: "A practical guide to building feedback systems that collect employee input on hybrid work policy changes. Includes code examples and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/
@@ -244,6 +244,11 @@ The technical system is only part of the solution. You need to create cultural n
 - Show responsiveness by implementing changes quickly after feedback
 
 A feedback loop that runs continuously becomes part of how your organization operates, not a special event that people ignore.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Code Review Comments: Keeping Feedback Constructive Not Harsh"
-description: "A practical guide to writing constructive code review comments for remote teams. Learn frameworks and examples for giving feedback that improves code quality without damaging team dynamics."
+title: "Best Practice for Remote Team Code Review Comments."
+description: "A practical guide to writing constructive code review comments for remote teams. Learn frameworks and examples for giving feedback that improves code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-code-review-comments-keeping-f/
@@ -146,6 +146,11 @@ This safety doesn't happen automatically. It requires consistent, intentional pr
 Constructive code review comments are a skill that improves with attention. The frameworks and templates above provide starting points, but every team develops their own patterns over time. The key commitment is treating every comment as an opportunity to build trust, not just improve code.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

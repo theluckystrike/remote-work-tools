@@ -1,12 +1,12 @@
 ---
 
 layout: default
-title: "Remote Team Video Call Fatigue Reduction Strategy: Limiting Camera On Requirements for 2026"
-description: "A practical guide to implementing camera-on policies that reduce video call fatigue for remote development teams. Includes configuration examples and team guidelines."
+title: "Remote Team Video Call Fatigue Reduction Strategy."
+description: "A practical guide to implementing camera-on policies that reduce video call fatigue for remote development teams. Includes configuration examples and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-video-call-fatigue-reduction-strategy-limiting-c/
-categories: [remote-work]
+categories: [guides]
 reviewed: true
 score: 8
 intent-checked: true
@@ -224,6 +224,11 @@ Effective camera-on requirements for remote developer teams in 2026 follow these
 The strongest remote teams treat camera usage as a tool, not a test of commitment. Your code quality and collaboration matter more than whether your face appears on a screen.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Format for Remote Team Weekly Written Status Update Replacing Standup Meeting"
-description: "A practical guide to structuring weekly written status updates that replace daily standups for remote development teams. Includes templates, examples, and implementation tips."
+title: "Best Format for Remote Team Weekly Written Status Update."
+description: "A practical guide to structuring weekly written status updates that replace daily standups for remote development teams. Includes templates, examples."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-format-for-remote-team-weekly-written-status-update-rep/
@@ -179,6 +179,11 @@ After implementing weekly updates, track a few metrics to gauge effectiveness:
 The format succeeds when it creates genuine alignment without requiring synchronous coordination.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Remote Team Communication Audit: Identifying Unnecessary Meetings and Channels"
-description: "A practical guide for developers and power users to audit remote team communication, identify unnecessary meetings, and consolidate unused channels. Includes scripts and frameworks for systematic analysis."
+title: "How to Set Up Remote Team Communication Audit."
+description: "A practical guide for developers and power users to audit remote team communication, identify unnecessary meetings, and consolidate unused channels."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-set-up-remote-team-communication-audit-identifying-un/
@@ -235,6 +235,11 @@ These tools don't require purchasing new software—most teams already have acce
 A communication audit isn't a one-time exercise. Set a quarterly reminder to re-evaluate your communication patterns. Teams evolve, projects end, and new needs emerge. What served your team six months ago may now be technical debt.
 
 The goal isn't to eliminate all meetings or channels—some synchronous communication is essential for collaboration. The goal is intentionality: every meeting should have a purpose, every channel should have active participants, and your team should have protected time for actual work.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

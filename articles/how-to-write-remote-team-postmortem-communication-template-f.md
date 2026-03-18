@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Write Remote Team Postmortem Communication Template for Incident Announcements"
-description: "A practical guide to creating effective postmortem communication templates for remote teams. Includes ready-to-use templates, best practices, and code examples for incident announcements."
+title: "How to Write Remote Team Postmortem Communication."
+description: "A practical guide to creating effective postmortem communication templates for remote teams. Includes ready-to-use templates, best practices, and code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-write-remote-team-postmortem-communication-template-f/
@@ -232,6 +232,11 @@ Effective incident communication in remote teams requires deliberate structure. 
 The goal is not bureaucratic overhead but operational clarity — when stakeholders can quickly understand what happened, why it matters, and what happens next, your team can focus on solving problems rather than explaining them.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

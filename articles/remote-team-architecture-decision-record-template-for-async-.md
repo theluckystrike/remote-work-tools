@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Architecture Decision Record Template for Async Technical Discussions"
+title: "Remote Team Architecture Decision Record Template for."
 description: "A practical ADR template and workflow for distributed teams making technical decisions asynchronously. Includes code examples and implementation guide."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -204,6 +204,11 @@ Schedule a quarterly review of active ADRs to identify:
 ADRs transform async technical discussions from ephemeral conversations into lasting institutional knowledge. The template and workflow outlined here provide a foundation your team can adapt to your specific needs. Start with your next significant technical decision and build from there.
 
 The key is consistency—making ADR creation a normal part of your team's decision-making process ensures that future team members (including future you) can understand not just what decisions were made, but why they were made.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

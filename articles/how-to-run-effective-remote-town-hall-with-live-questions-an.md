@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Run Effective Remote Town Hall with Live Questions and Async Follow Up"
-description: "Learn practical strategies for running effective remote town halls with live Q&A sessions and async follow-up. Includes code examples, tools, and workflows for development teams."
+title: "How to Run Effective Remote Town Hall with Live."
+description: "Learn practical strategies for running effective remote town halls with live Q&A sessions and async follow-up. Includes code examples, tools, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-town-hall-with-live-questions-and-async-follow-up/
@@ -203,6 +203,11 @@ Remote town halls work best when they're consistent and bounded. Don't try to ad
 - Rotating presentation duties to keep content fresh
 
 The combination of live engagement and async follow-up creates a communication loop that respects different work styles and time zones while maintaining the transparency that distributed teams need to function effectively.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

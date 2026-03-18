@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Direct Message vs Channel Message Decision Making Guide"
-description: "A practical decision making guide for remote teams on when to use direct messages versus channel messages. Includes frameworks, code examples, and patterns for developers."
+title: "Best Practice for Remote Team Direct Message vs Channel."
+description: "A practical decision making guide for remote teams on when to use direct messages versus channel messages. Includes frameworks, code examples, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/
@@ -210,6 +210,11 @@ The key to effective remote communication is intentionality. Use the SPOT method
 The goal isn't to eliminate DMs— they're essential for focused collaboration. The goal is to reduce context-switching and ensure the right people see the right information at the right time.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

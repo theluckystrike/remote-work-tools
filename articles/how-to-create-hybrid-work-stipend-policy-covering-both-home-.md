@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create a Hybrid Work Stipend Policy Covering Both Home and Commute Costs"
+title: "How to Create a Hybrid Work Stipend Policy Covering Both."
 description: "A practical guide for engineering managers and HR leaders to design equitable hybrid work stipend policies that cover home office and commute expenses."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -216,6 +216,11 @@ A well-designed hybrid work stipend policy demonstrates your organization's comm
 Start with a simple framework, gather feedback, and iterate. The goal is not perfection but fairness and transparency in how you support your team's work-from-home and commuting needs.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

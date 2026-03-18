@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Slack Do Not Disturb Schedules Respecting Time Zones"
-description: "Learn how to configure Slack Do Not Disturb schedules for distributed teams across time zones. Practical examples, automation scripts, and policies for respecting work-life balance."
+title: "Best Practice for Remote Team Slack Do Not Disturb."
+description: "Learn how to configure Slack Do Not Disturb schedules for distributed teams across time zones. Practical examples, automation scripts, and policies for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-slack-do-not-disturb-schedules/
@@ -159,6 +159,11 @@ Effective Slack DND management for distributed teams requires a combination of i
 Remember: DND works best when everyone commits to respecting boundaries. Lead by example, and your team will follow.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

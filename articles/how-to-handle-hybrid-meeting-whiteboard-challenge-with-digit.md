@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Handle Hybrid Meeting Whiteboard Challenge with Digital and Physical Participants"
-description: "A practical guide for developers and power users on managing hybrid meetings where some participants are in-person while others join remotely, with a focus on whiteboard collaboration."
+title: "How to Handle Hybrid Meeting Whiteboard Challenge with."
+description: "A practical guide for developers and power users on managing hybrid meetings where some participants are in-person while others join remotely, with a."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/
@@ -180,6 +180,11 @@ Teams often struggle with hybrid whiteboard sessions because they:
 The hybrid whiteboard challenge has no single perfect solution, but the strategies above give you a framework for finding what works for your team. Start with the digital-first approach if your team is new to hybrid collaboration, then add physical whiteboard elements as your facilitation skills develop. The key is being deliberate about the experience you're creating for both remote and in-room participants—and accepting that it will take some iteration to get right.
 
 Every team finds their own balance. The goal isn't perfection; it's ensuring that no participant feels like a second-class member of the meeting regardless of where they happen to be sitting.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
