@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Track Remote Team Hiring Pipeline Velocity for Distributed Recruiting Teams"
+title: "How to Track Remote Team Hiring Pipeline Velocity for."
 description: "Learn practical methods and code examples for measuring and optimizing your remote hiring pipeline velocity across distributed teams."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -201,5 +201,10 @@ Track these weekly. If your actual times exceed targets by more than 20%, invest
 Pipeline velocity tracking for distributed recruiting teams requires intentional measurement. Start simple: track stage times, identify bottlenecks, and automate alerts. As your remote hiring scales, these metrics become essential for maintaining candidate experience across time zones.
 
 The goal isn't just speed—it's creating a predictable, fair hiring process where location doesn't determine outcome. Measure consistently, iterate on your processes, and your distributed team will build stronger hiring practices over time.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

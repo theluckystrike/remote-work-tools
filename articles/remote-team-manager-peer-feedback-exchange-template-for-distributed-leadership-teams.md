@@ -3,8 +3,8 @@
 
 
 layout: default
-title: "Remote Team Manager Peer Feedback Exchange Template for Distributed Leadership Teams"
-description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async workflows, and implementation code for 2026."
+title: "Remote Team Manager Peer Feedback Exchange Template for."
+description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/
@@ -167,6 +167,11 @@ Several patterns undermine peer feedback exchanges in distributed teams. First, 
 Peer feedback in distributed leadership teams requires intentional structure. The JSON templates and workflow patterns in this guide provide a starting point, but adapt them to your team's specific culture and needs. The goal is not perfection—it is consistency. By establishing a regular, structured feedback exchange, you build trust, improve leadership effectiveness, and model the feedback culture you want to see across your entire organization.
 
 The best peer feedback templates are those your team actually uses. Start simple, gather feedback on the process itself, and iterate. Your distributed leadership team will be stronger for it.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
