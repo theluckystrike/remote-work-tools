@@ -9,6 +9,7 @@ categories: [guides]
 tags: [knowledge-base, documentation, remote-work, collaboration, team-guidelines]
 reviewed: true
 intent-checked: true
+voice-checked: true
 voice-checked: false
 score: 8
 ---
