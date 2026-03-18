@@ -10,7 +10,7 @@ categories: [guides]
 tags: [documentation, remote-work, wiki, feedback-loop, knowledge-management]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: true
 voice-checked: false
 ---
@@ -19,7 +19,7 @@ voice-checked: false
 {% raw %}
 # Best Practice for Remote Team Documentation Feedback Loop: Improving Wiki Quality Over Time
 
-Remote teams face a unique challenge: knowledge that lives only in someone's head is invisible to the rest of the organization. Documentation wikis solve this problem, but static documentation rots quickly. The solution is a systematic feedback loop that keeps your wiki alive, accurate, and genuinely useful. This guide covers practical patterns for building documentation feedback loops that scale with remote teams.
+The best documentation feedback loop for remote teams combines last-updated timestamps, quarterly review rotations, and embedded comment sections that surface outdated information automatically. These three practices prevent documentation rot by creating visibility into stale content, distributing review responsibility across the team, and enabling asynchronous feedback without disrupting work. This guide covers practical patterns for implementing feedback loops that scale with remote teams.
 
 ## Why Feedback Loops Matter for Remote Documentation
 

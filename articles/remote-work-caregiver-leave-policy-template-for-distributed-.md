@@ -13,6 +13,7 @@ categories: [guides]
 tags: [remote-work, caregiver-leave, hr-policy, distributed-teams, sandwich-generation, remote-benefits]
 reviewed: true
 score: 8
+intent-checked: true
 voice-checked: true
 ---
 
@@ -23,7 +24,7 @@ voice-checked: true
 {% raw %}
 # Remote Work Caregiver Leave Policy Template for Distributed Companies Supporting Sandwich Generation
 
-The sandwich generation faces a growing challenge: employees simultaneously caring for children and aging parents while maintaining productivity in remote roles. Distributed companies have a unique opportunity to implement caregiver leave policies that actually work across time zones, respecting both the emotional and practical demands on these team members. This guide provides a policy template you can adapt for your organization, with implementation details tailored for remote-first cultures.
+A comprehensive caregiver leave policy for distributed companies should provide 10-15 days annually, allow unpaid leave options, and include flexible scheduling for elder care without requiring advance notice. This policy template specifically addresses the "sandwich generation"—employees balancing children and aging parents—while maintaining productivity in async-first environments. It includes implementation guidance, communication templates, and return-to-work procedures for your remote organization.
 
 ## Understanding the Sandwich Generation in Remote Work
 
