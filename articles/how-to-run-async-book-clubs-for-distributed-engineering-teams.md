@@ -2,13 +2,15 @@
 layout: default
 title: "How to Run Async Book Clubs for Distributed Engineering Teams"
 description: "A practical guide for engineering leaders to run effective async book clubs across distributed teams. Learn formats, tools, discussion frameworks, and automation scripts."
-date: 2026-03-18
-author: theluckystrike
+date: 2026-03-16
+author: "Remote Work Tools"
 permalink: /how-to-run-async-book-clubs-for-distributed-engineering-teams/
 categories: [guides]
 tags: [async, book-club, remote-work, distributed-teams, engineering-culture, learning-development]
 intent-checked: true
 voice-checked: true
+reviewed: true
+score: 8
 ---
 
 {% raw %}

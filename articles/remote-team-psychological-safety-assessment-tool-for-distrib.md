@@ -3,8 +3,11 @@ layout: default
 title: "Remote Team Psychological Safety Assessment Tool for Distributed Engineering Managers 2026"
 description: "A practical framework and assessment tool for measuring and improving psychological safety in remote engineering teams across time zones."
 date: 2026-03-16
-author: theluckystrike
-permalink: /remote-team-psychological-safety-assessment-tool-for-distributed/
+author: "Remote Work Tools"
+permalink: /remote-team-psychological-safety-assessment-tool-for-distrib/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}

@@ -3,8 +3,11 @@ layout: default
 title: "Remote Team Workload Distribution Tool for Managers Balancing Distributed Team Capacity"
 description: "Learn how to implement workload distribution tools for remote teams, with practical examples, capacity planning frameworks, and automation scripts for distributed team managers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /remote-team-workload-distribution-tool-for-managers-balancin/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
