@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Handle Overtime Pay Compliance for Remote Workers Across Different States"
-description: "A practical guide for developers and power users managing remote teams. Learn how to handle overtime pay compliance across different state laws with code examples and real-world scenarios."
+title: "How to Handle Overtime Pay Compliance for Remote Workers."
+description: "A practical guide for developers and power users managing remote teams. Learn how to handle overtime pay compliance across different state laws with."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-overtime-pay-compliance-for-remote-workers-acr/
@@ -189,6 +189,11 @@ For power users managing remote teams without custom software:
 4. Consider consulting with an employment attorney for complex situations
 
 Compliance with overtime laws across states requires attention to detail and proactive system design. Whether you're building tools or managing teams directly, understanding these differences prevents costly mistakes and ensures your remote workers receive correct compensation.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
