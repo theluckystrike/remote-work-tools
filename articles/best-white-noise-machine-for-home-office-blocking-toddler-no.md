@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best White Noise Machine for Home Office Blocking Toddler Noise During Remote Calls"
-description: "Technical guide to blocking toddler noise during remote work. Compare hardware solutions, build custom white noise generators with code, and optimize your home office setup for professional calls."
+title: "Best White Noise Machine for Home Office Blocking."
+description: "Technical guide to blocking toddler noise during remote work. Compare hardware solutions, build custom white noise generators with code, and optimize."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-white-noise-machine-for-home-office-blocking-toddler-no/
@@ -183,5 +183,10 @@ The best solution depends on your specific constraints. If you're primarily in v
 Whatever approach you choose, test it during your highest-noise times before important meetings. The goal is consistent, professional audio quality that lets you focus on the meeting—not on what's happening in the next room.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

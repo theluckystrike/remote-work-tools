@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Quick Desk to Kitchen Transition for Remote Parent Lunch Routine"
-description: "Learn practical strategies and automation scripts to create a seamless desk-to-kitchen transition that maximizes your lunch break efficiency as a remote worker with family responsibilities."
+title: "How to Set Up Quick Desk to Kitchen Transition for."
+description: "Learn practical strategies and automation scripts to create a seamless desk-to-kitchen transition that maximizes your lunch break efficiency as a."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/
@@ -137,5 +137,10 @@ Prepare components that combine into multiple meals: roasted chicken, grains, an
 Building an efficient desk-to-kitchen transition requires attention to physical setup, automation, and preparation systems. Start with one improvement—perhaps the status update script or the tmux session saver—and add more as each becomes habitual.
 
 The cumulative effect matters more than perfection. Saving even three minutes per lunch adds up to over 20 hours per year that you can redirect toward family time or personal restoration.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Working Parent Tax Deduction Guide for Home Office and Dependent Care 2026"
-description: "A practical guide for remote working parents on tax deductions for home offices and dependent care expenses. Learn what qualifies, how to document expenses, and maximize your 2026 tax benefits."
+title: "Remote Working Parent Tax Deduction Guide for Home."
+description: "A practical guide for remote working parents on tax deductions for home offices and dependent care expenses. Learn what qualifies, how to document."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/
@@ -153,6 +153,11 @@ Before tax day 2026, complete these steps:
 5. **Consult a tax professional** if you have self-employment income
 
 The tax benefits for remote working parents are real but require active documentation. Start tracking now, and you'll have everything ready when it's time to file.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Work Special Needs Child Accommodation Guide for Parents on Distributed Teams"
-description: "A practical guide for developers and remote workers parenting children with special needs. Learn accommodation strategies, communication frameworks, and productivity systems."
+title: "Remote Work Special Needs Child Accommodation Guide for."
+description: "A practical guide for developers and remote workers parenting children with special needs. Learn accommodation strategies, communication frameworks."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-special-needs-child-accommodation-guide-for-parents/
@@ -207,6 +207,11 @@ This work requires sustainable systems, not just crisis management. Schedule rec
 Remote work accommodations for special needs children aren't about working less—they're about working differently. The flexibility of distributed teams makes this possible when you build the right systems and communicate transparently.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

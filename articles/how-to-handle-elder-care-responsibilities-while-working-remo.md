@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Handle Elder Care Responsibilities While Working Remotely: A Full-Time Guide for 2026"
-description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling strategies, and productivity tips."
+title: "How to Handle Elder Care Responsibilities While Working."
+description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-elder-care-responsibilities-while-working-remotely/
@@ -162,5 +162,10 @@ Technical solutions alone cannot address the emotional and physical demands of e
 Successfully managing elder care while working remotely full-time requires a combination of clear communication, smart automation, and intentional time management. The strategies outlined here—automating coordination, creating dedicated spaces, time blocking, and building support systems—help maintain productivity without sacrificing the quality of care your loved one deserves.
 
 The flexibility of remote work, when paired with technical solutions and proper boundaries, creates an environment where both career responsibilities and caregiving duties can be fulfilled effectively. Start with one or two changes, measure their impact, and iterate as your situation evolves.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
