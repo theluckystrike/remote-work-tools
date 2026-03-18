@@ -2,9 +2,12 @@
 layout: default
 title: "How to Create a Remote Employee Performance Improvement Plan: A Template for Distributed Managers"
 description: "Learn how to create effective performance improvement plans for remote teams with practical templates and code examples for tracking."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-employee-performance-improvement-plan-t/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 Managing performance in distributed teams requires a fundamentally different approach than traditional office environments. When your team spans time zones and communicates primarily through asynchronous channels, the standard performance improvement plan (PIP) template needs adaptation. This guide provides a practical framework for creating remote employee performance improvement plans that actually work for distributed managers.

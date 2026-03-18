@@ -2,10 +2,12 @@
 layout: default
 title: "Meeting Room Video Conferencing Equipment Setup for Hybrid Teams on a Budget"
 description: "A practical guide to building affordable video conferencing setups for hybrid meetings. Covers camera, audio, lighting, and automation scripts for developers."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /meeting-room-video-conferencing-equipment-setup-for-hybrid-t/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

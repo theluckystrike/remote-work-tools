@@ -2,13 +2,13 @@
 layout: default
 title: "Best Tool for Async Performance Feedback Collection for Distributed Teams - Q1 2026"
 description: "Discover the best tools for async performance feedback collection in distributed teams. Compare features, API capabilities, and implementation patterns for quarterly review cycles in 2026."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-tool-for-async-performance-feedback-collection-for-dist/
 categories: [guides]
 tags: [async-feedback, performance-reviews, distributed-teams, remote-work, team-management, quarterly-reviews]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
