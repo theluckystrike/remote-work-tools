@@ -2,13 +2,13 @@
 layout: default
 title: "Best Tool for Tracking Remote Worker Tax Obligations Across US States"
 description: "A technical guide to tracking remote worker tax obligations across US states. Compare APIs, automation tools, and implementation strategies for developers managing distributed teams."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-tool-for-tracking-remote-worker-tax-obligations-across-/
 categories: [guides]
 tags: [remote-work, tax-compliance, us-states, developer-tools, payroll, automation]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
