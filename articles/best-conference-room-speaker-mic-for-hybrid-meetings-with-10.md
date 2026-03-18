@@ -9,6 +9,7 @@ permalink: /best-conference-room-speaker-mic-for-hybrid-meetings-with-10/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

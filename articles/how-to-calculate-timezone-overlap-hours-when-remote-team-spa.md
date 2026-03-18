@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-calculate-timezone-overlap-hours-when-remote-team-spa/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

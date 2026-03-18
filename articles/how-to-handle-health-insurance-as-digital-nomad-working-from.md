@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-handle-health-insurance-as-digital-nomad-working-from/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 
