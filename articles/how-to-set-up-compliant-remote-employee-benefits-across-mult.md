@@ -3,13 +3,19 @@
 layout: default
 title: "How to Set Up Compliant Remote Employee Benefits Across Multiple US States"
 description: "A practical technical guide for developers and power users building systems to manage compliant remote employee benefits across US state lines. Includes data models, compliance logic, and code examples."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-compliant-remote-employee-benefits-across-mult/
+<<<<<<< HEAD
 categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+=======
+reviewed: true
+score: 8
+categories: [guides]
+>>>>>>> a5c01f2a43349976d6a25c2479b0544077aeb0ae
 ---
 
 # How to Set Up Compliant Remote Employee Benefits Across Multiple US States

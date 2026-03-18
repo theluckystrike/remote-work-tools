@@ -2,13 +2,19 @@
 layout: default
 title: "How to Create Remote Work Stipend Policy That Is Legally Tax Compliant"
 description: "A practical guide for developers and power users building tax-compliant remote work stipend policies. Includes policy templates, IRS requirements, and implementation strategies."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/
+<<<<<<< HEAD
 categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+=======
+reviewed: true
+score: 8
+categories: [guides]
+>>>>>>> a5c01f2a43349976d6a25c2479b0544077aeb0ae
 ---
 
 {% raw %}
