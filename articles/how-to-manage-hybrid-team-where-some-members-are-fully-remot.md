@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Manage Hybrid Team Where Some Members Are Fully Remote Permanently"
 description: "A practical guide for developers and power users on managing hybrid teams with permanent remote members. Includes automation scripts, workflow patterns, and code examples."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-hybrid-team-where-some-members-are-fully-remot/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 Managing a hybrid team where some members are fully remote permanently creates a fundamentally different dynamic than either fully distributed or co-located teams. The challenge lies in creating systems that don't inadvertently favor either location while maintaining productivity and team cohesion.
 
