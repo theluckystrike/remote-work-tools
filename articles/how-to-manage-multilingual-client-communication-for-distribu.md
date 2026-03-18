@@ -10,7 +10,7 @@ tags: [multilingual, client-communication, distributed-teams, agency, localizati
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}

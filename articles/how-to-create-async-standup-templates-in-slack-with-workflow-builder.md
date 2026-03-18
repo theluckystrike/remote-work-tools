@@ -11,7 +11,7 @@ tags: [slack, async-standup, workflow-builder, remote-work, productivity]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}

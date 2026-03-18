@@ -10,7 +10,7 @@ tags: [home-office, remote-work, air-circulation, productivity]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}
