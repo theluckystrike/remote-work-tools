@@ -2,11 +2,13 @@
 layout: default
 title: "How to Handle School Snow Day When Both Parents Work Remotely"
 description: "A practical guide for remote working parents managing unexpected school closures due to snow days. Strategies for maintaining productivity while caring for children at home."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-handle-school-snow-day-when-both-parents-work-remotel/
 categories: [guides]
 tags: [remote-work, work-life-balance, productivity, parenting, snow-day]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
@@ -53,7 +55,7 @@ Having these materials pre-organized means you can hand over the activity bin im
 
 ## Technical Setup for Snow Day Success
 
-Remote workers can leverage technology to create boundaries between work and family time, even within a single home.
+Remote workers can use technology to create boundaries between work and family time, even within a single home.
 
 ### Optimizing Your Workspace Acoustics
 
@@ -121,7 +123,7 @@ def snow_day_work_hours(child_age_years, meeting_count):
     return max(available, 2)  # Never promise less than 2 hours
 ```
 
-### Leverage Educational Screen Time
+### use Educational Screen Time
 
 Accept that snow days will involve more screen time than usual. Rather than fighting it, use educational content strategically. Many learning platforms offer offline modes:
 
