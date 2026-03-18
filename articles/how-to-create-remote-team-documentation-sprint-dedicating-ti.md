@@ -10,6 +10,7 @@ tags: [documentation, remote-work, wiki, team-collaboration, dev-productivity]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

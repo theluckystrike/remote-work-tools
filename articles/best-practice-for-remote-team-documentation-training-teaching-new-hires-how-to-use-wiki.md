@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [best-of]
 intent-checked: true
+voice-checked: true
 ---
 
 
