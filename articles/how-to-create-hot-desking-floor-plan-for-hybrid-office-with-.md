@@ -10,6 +10,7 @@ categories: [guides]
 tags: [hot-desking, hybrid-office, floor-plan, neighborhood-zones, office-management, workspace]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

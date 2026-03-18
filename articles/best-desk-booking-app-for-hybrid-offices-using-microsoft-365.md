@@ -9,6 +9,7 @@ permalink: /best-desk-booking-app-for-hybrid-offices-using-microsoft-365/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

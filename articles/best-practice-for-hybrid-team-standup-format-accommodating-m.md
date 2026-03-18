@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-standup-format-accommodating-m/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

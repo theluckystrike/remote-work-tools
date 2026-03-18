@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

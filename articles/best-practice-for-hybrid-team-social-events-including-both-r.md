@@ -10,6 +10,7 @@ categories: [guides]
 tags: [hybrid-work, team-building, remote-culture, in-office, social-events]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

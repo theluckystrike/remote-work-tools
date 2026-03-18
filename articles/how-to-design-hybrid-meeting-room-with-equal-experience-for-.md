@@ -10,6 +10,7 @@ categories: [guides]
 tags: [hybrid-meeting, remote-work, AV-setup, meeting-room, video-conferencing]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

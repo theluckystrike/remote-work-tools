@@ -11,6 +11,7 @@ categories: [guides]
 tags: [wireless-presentation, byod, hybrid-meetings, meeting-room-technology, screen-mirroring]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 
