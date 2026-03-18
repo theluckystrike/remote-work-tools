@@ -8,10 +8,15 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-track-remote-team-hiring-pipeline-velocity-for-distri/
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 categories: [guides]
 ---
 
+{% raw %}
+
+Track remote team hiring pipeline velocity by measuring time-to-first-contact, stage transition times, scheduling deltas, and offer acceptance ratios—using SQL queries and automation to identify timezone-related bottlenecks. Distributed hiring pipelines should complete in 21-28 days end-to-end; exceeding this reveals process friction that async assessment stages and timezone-aware scheduling can fix.
+
+# How to Track Remote Team Hiring Pipeline Velocity
 
 Tracking hiring pipeline velocity becomes critical when your recruiting team spans multiple time zones. Unlike co-located teams, distributed recruiting teams face unique challenges: asynchronous communication, timezone gaps, and coordination overhead that can silently slow down hiring. This guide shows you how to measure, visualize, and improve pipeline velocity for remote hiring.
 

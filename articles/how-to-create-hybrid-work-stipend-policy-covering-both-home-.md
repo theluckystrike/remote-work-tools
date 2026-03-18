@@ -7,11 +7,13 @@ author: "Remote Work Tools"
 permalink: /how-to-create-hybrid-work-stipend-policy-covering-both-home-/
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 categories: [guides]
 ---
 
 {% raw %}
+
+Design a hybrid work stipend policy that fairly compensates both remote and office workers by covering home office expenses (internet, furniture, supplies) with a fixed monthly amount and commute expenses with a per-diem approach tied to office attendance, preventing disadvantage to either group. Clear caps, eligible expense lists, and tax considerations ensure the policy scales across your team while maintaining equity.
 
 As remote and hybrid work becomes the standard for engineering teams, organizations face a critical question: how do you fairly compensate employees for their work-from-home expenses while also acknowledging those who commute to the office? A well-designed hybrid work stipend policy bridges this gap, ensuring equitable treatment across different work arrangements.
 

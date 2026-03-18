@@ -7,11 +7,14 @@ author: "Remote Work Tools"
 permalink: /remote-team-architecture-decision-record-template-for-async-/
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 categories: [guides]
 ---
 
 {% raw %}
+
+Use Architecture Decision Records (ADRs) for remote team technical discussions by documenting context, decision, consequences, and considered alternatives—with a 48-72 hour async review period allowing team members across time zones to provide structured feedback. This creates searchable institutional knowledge of technical choices, enabling future team members to understand not just what was decided but why.
+
 # Remote Team Architecture Decision Record Template for Async Technical Discussions
 
 Architecture Decision Records (ADRs) help distributed teams capture technical choices with context, reasoning, and consequences. When your team spans time zones and relies on async communication, a well-structured ADR template becomes essential for maintaining decision quality without requiring synchronous meetings.

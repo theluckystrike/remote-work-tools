@@ -9,10 +9,13 @@ categories: [guides]
 tags: [hybrid-office, badge-access, desk-utilization, occupancy-tracking, workplace-analytics]
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
+
+Build a hybrid office badge access tracking system by extracting entry/exit events from existing badge systems, calculating daily occupancy rates, identifying peak hours, and comparing against desk reservation data to uncover no-show patterns. This provides concrete data showing actual office usage (typically 40-45% occupancy) rather than survey estimates, enabling better space planning decisions.
+
 # Hybrid Office Badge Access Tracking Tool for Understanding Actual Desk Utilization Data
 
 Building a badge access tracking system provides concrete data about how employees actually use office space. Unlike survey-based estimates or booking system data, badge swipes capture real occupancy patterns that reveal the gap between reserved desks and actually used desks.
