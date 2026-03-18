@@ -13,6 +13,7 @@ voice-checked: false
 score: 8
 ---
 
+{% raw %}
 # How to Create Remote Team Decision Making Framework for Distributed Organizations
 
 Building an effective decision-making framework for distributed teams requires deliberate structure. Without clear processes, remote organizations face analysis paralysis, inconsistent choices, and frustrated team members who feel unheard. This guide provides a practical approach to creating decision-making frameworks that work across time zones and async communication channels.
@@ -219,3 +220,4 @@ Regular review ensures the framework serves the team rather than becoming bureau
 Building a decision-making framework for distributed teams takes deliberate effort, but the payoff is significant: faster decisions, clearer accountability, and team members who trust the process because they understand it. Start simple, iterate based on experience, and remember that the goal is better outcomes, not more documentation.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
