@@ -182,5 +182,10 @@ Start with the basics and evolve your guidelines as your team's needs become cle
 
 Building a culture of documentation takes time, but the compounding benefits make it worth the investment. Future your team—including yourself—will thank present you for writing it down.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
