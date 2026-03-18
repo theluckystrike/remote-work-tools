@@ -9,14 +9,14 @@ categories: [guides]
 tags: [intellectual-property, remote-work, legal, contracts, distributed-teams, ip-assignment]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Remote Employee Intellectual Property Assignment Clause Template for Distributed Teams
 
-Managing intellectual property rights across geographically distributed teams presents unique challenges. When employees work from different jurisdictions, the question of who owns what code, designs, and inventions becomes critical. This guide provides practical templates and implementation patterns for IP assignment clauses specifically designed for remote and distributed teams.
+IP assignment clauses for remote teams must cover work-created IP across multiple jurisdictions while accounting for local legal variations in Germany, Brazil, and other countries where employees work. Effective clauses specify scope of assignment, carve-outs for personal projects, and enforcement across borders. This guide provides templates, jurisdiction-specific variations, and implementation patterns for distributed organizations.
 
 ## Why IP Assignment Matters for Remote Teams
 

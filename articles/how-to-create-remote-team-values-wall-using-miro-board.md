@@ -11,7 +11,7 @@ categories: [guides]
 tags: [remote-work, team-building, miro, collaboration, values, culture]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -19,9 +19,7 @@ voice-checked: false
 {% raw %}
 # How to Create a Remote Team Values Wall Using Miro Board
 
-Creating a shared understanding of team values is one of the most important exercises a remote team can undertake. When your team is distributed across different locations and time zones, having explicit values that everyone contributed to creates a foundation for decision-making, conflict resolution, and cultural cohesion. A values wall in Miro provides a visual, interactive space where team members can collaboratively define, discuss, and refine what matters most to your collective work.
-
-This guide walks through the complete process of building a remote team values wall using Miro, from initial setup through final documentation and implementation.
+Miro values walls help distributed teams collaboratively define shared principles for decision-making, conflict resolution, and cultural cohesion across time zones. A visual, interactive values wall captures everyone's input asynchronously, surfaces alignment, and creates accountability for living those values. This guide covers Miro setup, facilitation techniques, and strategies for translating values into team norms and decision frameworks.
 
 ## Why Use Miro for Remote Team Values
 

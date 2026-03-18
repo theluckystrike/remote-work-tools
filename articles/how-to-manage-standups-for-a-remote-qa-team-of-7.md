@@ -10,12 +10,12 @@ permalink: /how-to-manage-standups-for-a-remote-qa-team-of-7/
 categories: [guides]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 ---
 
 
 {% raw %}
-Running daily standups for a remote QA team of 7 requires balancing synchronous collaboration with asynchronous workflows. At this team size, you have enough people to cover multiple time zones but still face coordination challenges that scale with each additional remote worker. This guide provides practical frameworks for managing standups that keep your team aligned without burning out on video calls.
+A 7-person remote QA team needs 10-15 minute standups that balance sync collaboration with async work across time zones, rotating meeting times quarterly. Split async standup posts in Slack with sync meetings only for blockers, pair testing coordination, or complex discussions. This guide covers standup formats, schedule templates, and async alternatives for remote QA coordination.
 
 ## Why Team Size Matters for Standup Structure
 
