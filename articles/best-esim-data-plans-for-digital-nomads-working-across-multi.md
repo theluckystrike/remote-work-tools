@@ -2,9 +2,12 @@
 layout: default
 title: "Best ESIM Data Plans for Digital Nomads Working Across Multiple Countries 2026"
 description: "A technical guide comparing the best ESIM data plans for digital nomads and developers working across multiple countries in 2026. Includes coverage comparisons, pricing analysis, and practical setup instructions."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-esim-data-plans-for-digital-nomads-working-across-multi/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
 
 {% raw %}

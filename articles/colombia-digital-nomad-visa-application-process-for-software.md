@@ -2,9 +2,12 @@
 layout: default
 title: "Colombia Digital Nomad Visa Application Process for Software Developers Step by Step 2026"
 description: "A complete step-by-step guide to the Colombia digital nomad visa application process for software developers in 2026. Learn requirements, documents, timelines, costs, and practical tips."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /colombia-digital-nomad-visa-application-process-for-software/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 The Colombia digital nomad visa offers software developers a practical path to live and work remotely from one of South America's most vibrant tech hubs. This step-by-step guide walks you through the entire application process, from gathering documents to crossing the border with your approved visa.
