@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "How to Create Remote Team Compliance Documentation Checklist for SOX and ISO Audits Guide"
 description: "A practical guide for developers and power users building compliance documentation for remote teams. Includes templates, code examples, and audit-ready checklists for SOX and ISO 27001 requirements."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-compliance-documentation-checklist/
 categories: [guides]
 tags: [compliance, sox, iso-27001, remote-work, documentation, audit]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # How to Create Remote Team Compliance Documentation Checklist for SOX and ISO Audits Guide
