@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Give Constructive Feedback Remotely Over Text Without Sounding Harsh"
-description: "Master the art of delivering constructive feedback in remote text-based communication. Practical frameworks, templates, and techniques for developers and technical teams."
+title: "How to Give Constructive Feedback Remotely Over Text."
+description: "Master the art of delivering constructive feedback in remote text-based communication. Practical frameworks, templates, and techniques for developers."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-give-constructive-feedback-remotely-over-text-without/
@@ -171,6 +171,11 @@ Text-based feedback, when done well, actually has advantages over in-person conv
 Practice these patterns consistently, and you'll build a culture where feedback is expected, appreciated, and actionable.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Engineering Team Infrastructure Cost Per Deploy Tracking for Distributed DevOps Guide"
-description: "A practical guide to tracking infrastructure costs per deploy for remote engineering teams. Learn how to implement cost observability in your distributed DevOps workflow."
+title: "Remote Engineering Team Infrastructure Cost Per Deploy."
+description: "A practical guide to tracking infrastructure costs per deploy for remote engineering teams. Learn how to implement cost observability in your."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-engineering-team-infrastructure-cost-per-deploy-track/
@@ -185,6 +185,11 @@ Implementing cost tracking across remote engineering teams requires coordination
 Tracking infrastructure cost per deploy transforms spending from an abstract budget line into concrete, actionable data. For distributed engineering teams, this visibility enables better decisions, promotes accountability, and ultimately reduces waste. Start with consistent tagging, build event capture into your pipeline, and visualize the results where your team already works.
 
 The key is starting simple. Implement basic cost attribution first, then refine your approach as your team's observability maturity grows. Your future self — and your finance team — will thank you.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

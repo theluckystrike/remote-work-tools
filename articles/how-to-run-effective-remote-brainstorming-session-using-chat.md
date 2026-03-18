@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Effective Remote Brainstorming Session Using Chat Instead of Video"
+title: "How to Run Effective Remote Brainstorming Session Using."
 description: "A practical guide for developers and power users on running productive remote brainstorming sessions using text-based chat tools."
 date: 2026-03-16
 author: theluckystrike
@@ -181,6 +181,11 @@ Reserve video for when you need real-time prototyping, heated discussions requir
 ---
 
 Chat-based brainstorming transforms how remote teams generate ideas. By embracing text-first collaboration, you build a more inclusive, documented, and ultimately more creative process. The best ideas don't always come from the loudest voices—they come from those given the time and space to think deeply.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
