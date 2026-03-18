@@ -6,7 +6,7 @@ description: "A technical comparison of AI-powered legal research tools for dist
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-legal-research-tool-comparison-for-distributed-law-fi/
-categories: [legal-tech, AI, remote-tools]
+categories: [guides]
 reviewed: true
 score: 8
 intent-checked: true
