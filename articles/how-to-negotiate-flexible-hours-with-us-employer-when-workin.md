@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /how-to-negotiate-flexible-hours-with-us-employer-when-workin/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

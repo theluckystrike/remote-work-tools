@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-portable-laptop-stand-for-remote-parents-working-from-k/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

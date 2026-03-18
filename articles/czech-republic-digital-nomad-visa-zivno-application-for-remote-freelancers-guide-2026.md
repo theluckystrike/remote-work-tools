@@ -9,6 +9,7 @@ categories: [guides]
 tags: [digital-nomad, czech-republic, zivno, visa, remote-work, freelancer, europe]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

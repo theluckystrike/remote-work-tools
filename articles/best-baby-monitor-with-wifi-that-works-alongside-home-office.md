@@ -9,6 +9,7 @@ categories: [guides]
 tags: [baby-monitor, wifi, smart-home, home-office, iot, privacy]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

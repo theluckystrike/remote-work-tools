@@ -9,6 +9,7 @@ categories: [guides]
 tags: [productivity, family-management, remote-work, scheduling, apps]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

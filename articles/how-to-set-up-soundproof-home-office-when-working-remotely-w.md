@@ -10,6 +10,7 @@ categories: [guides]
 tags: [remote-work, home-office, acoustic-treatment, soundproofing, work-from-home]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

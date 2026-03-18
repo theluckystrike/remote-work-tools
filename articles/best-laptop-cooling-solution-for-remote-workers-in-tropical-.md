@@ -9,6 +9,7 @@ categories: [guides]
 tags: [laptop-cooling, remote-work, tropical-climate, hardware, performance]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
