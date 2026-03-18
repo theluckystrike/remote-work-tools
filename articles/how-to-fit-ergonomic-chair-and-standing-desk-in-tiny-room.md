@@ -10,7 +10,7 @@ tags: [ergonomics, workspace, remote-work, home-office]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}

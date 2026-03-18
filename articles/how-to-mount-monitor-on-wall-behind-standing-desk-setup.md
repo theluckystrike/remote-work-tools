@@ -10,7 +10,7 @@ tags: [monitor-mount, standing-desk, workspace-setup, ergonomic]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}

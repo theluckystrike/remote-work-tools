@@ -10,7 +10,7 @@ tags: [scientific-collaboration, research-communication, remote-work, distribute
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}

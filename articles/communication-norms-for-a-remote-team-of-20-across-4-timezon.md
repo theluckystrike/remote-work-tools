@@ -10,7 +10,7 @@ categories: [guides]
 tags: [remote-work, communication, async, timezones, team-management]
 reviewed: true
 intent-checked: true
-voice-checked: false
+voice-checked: true
 score: 8
 ---
 

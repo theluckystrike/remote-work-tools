@@ -11,7 +11,7 @@ tags: [retrospective, remote-work, client-projects, project-management, async-co
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}

@@ -10,7 +10,7 @@ tags: [performance, video-calls, hardware, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}

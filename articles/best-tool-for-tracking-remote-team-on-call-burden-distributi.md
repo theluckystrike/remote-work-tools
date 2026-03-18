@@ -217,3 +217,4 @@ The "best" tool ultimately depends on what you already have. Teams with GitHub c
 Fair on-call distribution is a solved problem at the tracking level—the challenge is consistently reviewing the data and actually adjusting rotations based on what it reveals.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
