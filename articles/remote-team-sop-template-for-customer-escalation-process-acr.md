@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Remote Team SOP Template for Customer Escalation Process Across Distributed Support Shifts"
 description: "A practical SOP template for managing customer escalations across distributed support teams. Includes triage levels, handoff protocols, and code examples for automation."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-sop-template-for-customer-escalation-process-acr/
 categories: [guides]
 tags: [remote-work, customer-support, sop, escalation, distributed-teams]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Remote Team SOP Template for Customer Escalation Process Across Distributed Support Shifts

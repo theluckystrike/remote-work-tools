@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Best Practice for Remote Team Documentation Training: Teaching New Hires How to Use Wiki"
 description: "A practical guide to training remote team members on wiki documentation systems, with examples and strategies for developer teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
+
 
 As remote developer teams grow, documentation becomes the backbone of knowledge sharing. A well-structured wiki empowers new hires to find answers independently, reduces repetitive questions, and accelerates onboarding. Training remote team members to use wiki effectively requires a structured approach that combines clear conventions, hands-on practice, and ongoing reinforcement.
 

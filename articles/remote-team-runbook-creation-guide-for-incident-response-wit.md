@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "Remote Team Runbook Creation Guide for Incident Response with Distributed On-Call Staff"
 description: "A practical guide to building incident response runbooks that work across time zones. Includes templates, automation examples, and handover protocols for distributed on-call teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-runbook-creation-guide-for-incident-response-wit/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # Remote Team Runbook Creation Guide for Incident Response with Distributed On-Call Staff
