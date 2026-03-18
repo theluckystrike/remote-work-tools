@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Colombia Digital Nomad Visa Application Process for Software Developers Step by Step 2026"
-description: "A complete guide to the Colombia digital nomad visa application process for software developers. Learn requirements, documents, timelines, and practical tips."
+title: "Colombia Digital Nomad Visa Application Process for."
+description: "A complete guide to the Colombia digital nomad visa application process for software developers. Learn requirements, documents, timelines, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /colombia-digital-nomad-visa-application-process-for-software/
@@ -9,9 +9,10 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
-Colombia introduced its digital nomad visa (Visa de Nómadas Digitales) in 2021, and the program has evolved significantly through 2026. If you're a software developer or remote worker looking to live and work legally in Colombia, this guide walks you through the entire application process with practical details you can use.
+The Colombia digital nomad visa requires proving $1,260 USD monthly income from non-Colombian sources, submitting your employment contract or client agreements, obtaining health insurance covering your stay, and completing your application through the Colombian immigration portal—the entire process typically takes 20-30 days and costs around $600, enabling a two-year renewable stay that grants local bank account access and healthcare eligibility.
 
 ## Understanding the Digital Nomad Visa
 
@@ -161,5 +162,10 @@ The digital nomad visa isn't always the best option. Consider these alternatives
 The Colombia digital nomad visa remains one of the most accessible options for remote workers in 2026. With proper documentation, the process takes 1-2 months from start to approval. The country offers excellent quality of life, affordable living costs, and a thriving tech community, particularly in Medellín and Bogotá.
 
 Start gathering your documents early, ensure your income meets the requirements, and be patient with the processing timeline. Many developers successfully navigate this process each year, and you can too.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
