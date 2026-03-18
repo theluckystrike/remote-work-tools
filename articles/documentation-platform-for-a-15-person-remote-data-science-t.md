@@ -11,6 +11,7 @@ tags: [documentation, remote-work, data-science, knowledge-management]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 

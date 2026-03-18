@@ -10,6 +10,7 @@ tags: [virtual-coffee, remote-work, team-building, social-connections, async-com
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

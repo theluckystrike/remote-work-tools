@@ -10,6 +10,7 @@ tags: [finance, expense-reports, remote-work, workflow-automation, async]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

@@ -7,7 +7,8 @@ author: "Remote Work Tools Guide"
 permalink: /best-framework-for-evaluating-remote-team-collaboration-qual/
 reviewed: true
 score: 8
-categories: [guides]
+voice-checked: true
+categories: [best-of]
 ---
 
 Most remote teams fall into the same trap: measuring collaboration quality by counting who showed up to which meeting. While meeting attendance provides surface-level visibility, it reveals almost nothing about whether teams actually work well together. If you're evaluating remote team collaboration quality, you need a framework that captures the real signals of effective collaboration.

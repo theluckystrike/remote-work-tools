@@ -11,6 +11,7 @@ tags: [client-communication, emergency, remote-work, agency, crisis-management]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

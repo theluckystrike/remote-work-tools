@@ -10,6 +10,7 @@ tags: [pair-programming, remote-work, async, github, developer-tools, team-colla
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

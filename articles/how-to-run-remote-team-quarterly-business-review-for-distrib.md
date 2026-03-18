@@ -11,6 +11,7 @@ tags: [quarterly-business-review, remote-work, distributed-teams, leadership, as
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

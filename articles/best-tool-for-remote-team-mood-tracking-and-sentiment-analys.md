@@ -10,6 +10,7 @@ tags: [remote-work, sentiment-analysis, mood-tracking, team-health, developer-to
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

@@ -11,6 +11,7 @@ tags: [security, access-control, cloud, remote-work, jit]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

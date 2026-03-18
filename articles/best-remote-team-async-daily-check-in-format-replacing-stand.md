@@ -10,6 +10,7 @@ tags: [remote-work, async-communication, daily-standup, team-collaboration, prod
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

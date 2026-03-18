@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-employee-performance-improvement-plan-t/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

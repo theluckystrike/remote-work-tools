@@ -8,6 +8,7 @@ permalink: /best-remote-workflow-tool-for-distributed-legal-assistants-m/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

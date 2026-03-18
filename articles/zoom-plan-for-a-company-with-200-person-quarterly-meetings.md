@@ -10,6 +10,7 @@ tags: [zoom, remote-work, video-conferencing, company-meetings, scaling-meetings
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

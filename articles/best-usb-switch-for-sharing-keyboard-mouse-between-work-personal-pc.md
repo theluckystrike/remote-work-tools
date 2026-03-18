@@ -10,6 +10,7 @@ tags: [usb-switch, kvm, keyboard-mouse, productivity, hardware]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

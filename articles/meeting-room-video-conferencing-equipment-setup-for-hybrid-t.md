@@ -8,6 +8,7 @@ permalink: /meeting-room-video-conferencing-equipment-setup-for-hybrid-t/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

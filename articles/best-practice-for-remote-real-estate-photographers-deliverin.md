@@ -10,6 +10,7 @@ tags: [real-estate, virtual-tours, remote-photography, automation, property-mark
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

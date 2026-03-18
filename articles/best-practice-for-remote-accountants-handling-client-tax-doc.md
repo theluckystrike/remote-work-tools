@@ -10,6 +10,7 @@ tags: [remote-accounting, tax-documents, data-security, encryption, compliance]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

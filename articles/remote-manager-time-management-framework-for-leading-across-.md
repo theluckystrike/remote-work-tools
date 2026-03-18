@@ -14,6 +14,7 @@ tags: [remote-work, time-management, distributed-teams, async-communication, eng
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

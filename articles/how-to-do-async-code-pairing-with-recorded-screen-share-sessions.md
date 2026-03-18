@@ -20,6 +20,7 @@ permalink: /how-to-do-async-code-pairing-with-recorded-screen-share-sessions/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 categories: [guides]
 

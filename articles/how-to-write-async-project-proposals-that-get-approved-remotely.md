@@ -11,6 +11,7 @@ tags: [project-management, remote-work, async, proposals, approval-workflow, dec
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

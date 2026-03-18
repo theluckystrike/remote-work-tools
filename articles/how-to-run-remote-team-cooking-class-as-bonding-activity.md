@@ -10,6 +10,7 @@ tags: [remote-work, team-building, virtual-events, cooking, bonding]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

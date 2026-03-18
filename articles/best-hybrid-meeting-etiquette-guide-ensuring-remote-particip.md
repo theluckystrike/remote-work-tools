@@ -10,6 +10,7 @@ tags: [hybrid-meeting, remote-work, meeting-etiquette, team-collaboration, devel
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

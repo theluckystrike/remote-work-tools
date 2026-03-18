@@ -11,6 +11,7 @@ tags: [retrospective, agile, remote-work, scrum]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

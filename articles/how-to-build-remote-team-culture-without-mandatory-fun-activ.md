@@ -10,6 +10,7 @@ tags: [remote-work, team-culture, remote-team-building, async-communication]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

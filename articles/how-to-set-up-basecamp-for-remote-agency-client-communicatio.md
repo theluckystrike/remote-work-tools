@@ -10,6 +10,7 @@ tags: [basecamp, remote-work, client-communication, agency-tools, project-manage
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 {% raw %}

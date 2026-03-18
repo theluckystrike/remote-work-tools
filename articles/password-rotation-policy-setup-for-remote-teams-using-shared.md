@@ -10,6 +10,7 @@ tags: [password-security, remote-work, credentials, security, shared-accounts]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

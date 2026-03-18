@@ -11,6 +11,7 @@ tags: [exit-interview, remote-work, distributed-teams, hr-processes, async, team
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

@@ -11,6 +11,7 @@ tags: [performance-review, remote-work, async, engineering, feedback, management
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

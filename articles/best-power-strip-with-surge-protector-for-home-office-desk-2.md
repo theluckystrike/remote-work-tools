@@ -10,6 +10,7 @@ tags: [power-strip, surge-protector, home-office, hardware]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

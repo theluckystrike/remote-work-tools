@@ -11,6 +11,7 @@ tags: [sprint-planning, velocity-tracking, remote-work, agile, story-points, tea
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

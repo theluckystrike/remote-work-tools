@@ -11,6 +11,7 @@ tags: [ux-research, remote-work, usability-testing]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 

@@ -11,6 +11,7 @@ tags: [remote-work, client-meetings, project-management]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 

@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-manage-hybrid-team-where-some-members-are-fully-remot/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

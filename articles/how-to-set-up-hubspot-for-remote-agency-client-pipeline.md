@@ -10,6 +10,7 @@ tags: [hubspot, crm, remote-work, client-management, agency-tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

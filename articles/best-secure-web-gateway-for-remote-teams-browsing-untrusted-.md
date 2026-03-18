@@ -11,6 +11,7 @@ tags: [security, remote-work, vpn, gateway, networking]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

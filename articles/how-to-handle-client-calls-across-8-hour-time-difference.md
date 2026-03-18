@@ -10,6 +10,7 @@ tags: [remote-work, client-communication, time-zones, async, developer-productiv
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

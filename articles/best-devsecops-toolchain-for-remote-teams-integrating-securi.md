@@ -10,6 +10,7 @@ tags: [devsecops, security, ci-cd, remote-work, toolchain, automation]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

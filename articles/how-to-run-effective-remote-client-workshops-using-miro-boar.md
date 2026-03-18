@@ -10,6 +10,7 @@ tags: [remote-work, client-management, miro, workshop-facilitation, virtual-coll
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

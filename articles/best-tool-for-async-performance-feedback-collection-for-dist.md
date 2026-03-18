@@ -10,6 +10,7 @@ tags: [async-feedback, performance-reviews, distributed-teams, remote-work, team
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

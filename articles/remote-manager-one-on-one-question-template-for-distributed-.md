@@ -10,6 +10,7 @@ tags: [one-on-one, remote-work, management, distributed-teams, check-ins]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

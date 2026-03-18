@@ -11,6 +11,7 @@ tags: [remote-work, meetings, one-on-one, walking-meeting]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

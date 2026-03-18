@@ -10,6 +10,7 @@ tags: [security, vendor-assessment, remote-work, it-admin, third-party-risk]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

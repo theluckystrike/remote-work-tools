@@ -10,6 +10,7 @@ tags: [code-review, remote-work, async, developer-tools, team-collaboration, dis
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

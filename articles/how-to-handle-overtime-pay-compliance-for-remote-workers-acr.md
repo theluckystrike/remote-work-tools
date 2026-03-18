@@ -10,6 +10,7 @@ tags: [remote-work, overtime-pay, compliance, state-laws, hr-tools, payroll]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 
