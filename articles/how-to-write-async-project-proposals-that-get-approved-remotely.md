@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Write Async Project Proposals That Get Approved Remotely"
-description: "A comprehensive guide to crafting async project proposals that get approved in remote teams. Learn frameworks, templates, and strategies for winning approval without meetings."
+title: "How to Write Async Project Proposals That Get Approved."
+description: "A comprehensive guide to crafting async project proposals that get approved in remote teams. Learn frameworks, templates, and strategies for winning."
 date: 2026-03-18
 author: theluckystrike
 permalink: /how-to-write-async-project-proposals-that-get-approved-remotely/
@@ -176,3 +176,8 @@ Writing async project proposals that get approved remotely is a learnable skill.
 
 Start with the framework in this guide, adapt it to your team culture, and iterate based on what works. Your approval rates will improve, and more importantly, your projects will be better for having been thought through so carefully before they began.
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+

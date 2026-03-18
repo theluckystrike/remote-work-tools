@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chrome Security Headers Extension: A Practical Guide for Developers"
+title: "Chrome Security Headers Extension: A Practical Guide for."
 description: "Learn how to use Chrome extensions to inspect, test, and debug security headers directly in your browser. Practical examples and tool recommendations."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -149,5 +149,10 @@ Chrome extensions provide a practical way to inspect and test security headers t
 Incorporating header checks into your development workflow takes minutes but prevents security gaps from reaching production. Run through your site's headers before each deployment, and you'll catch configuration issues before they become vulnerabilities.
 
 Start with the essentials: HSTS, X-Content-Type-Options, and X-Frame-Options provide significant protection with minimal configuration. Then gradually add CSP and other advanced headers as you refine your policy.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

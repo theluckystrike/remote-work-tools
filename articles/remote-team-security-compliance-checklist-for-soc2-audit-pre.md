@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Security Compliance Checklist for SOC 2 Audit Preparation"
-description: "A practical 2026 guide for developers and power users preparing their remote team for SOC 2 compliance audits. Includes actionable checklist items and code examples."
+title: "Remote Team Security Compliance Checklist for SOC 2."
+description: "A practical 2026 guide for developers and power users preparing their remote team for SOC 2 compliance audits. Includes actionable checklist items and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-security-compliance-checklist-for-soc2-audit-pre/
@@ -323,6 +323,11 @@ SOC 2 compliance for remote teams requires the same core controls as office-base
 - Preparing evidence before the audit begins
 
 The key difference with remote teams is the need for explicit documentation. What would be obvious in an office requires evidence when your team is distributed.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

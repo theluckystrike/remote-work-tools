@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Set Up Zero Trust Network Access for Distributed Engineering Teams"
-description: "A practical guide for developers and power users implementing zero trust network access for distributed engineering teams. Includes identity-based authentication, micro-segmentation, and real-world configuration examples."
+title: "How to Set Up Zero Trust Network Access for Distributed."
+description: "A practical guide for developers and power users implementing zero trust network access for distributed engineering teams. Includes identity-based."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-zero-trust-network-access-for-distributed-engi/
@@ -227,5 +227,10 @@ The implementation doesn't require replacing everything at once. Start with iden
 The goal isn't perfect security—it's making attackers' jobs significantly harder while maintaining (or improving) the experience for legitimate users. With zero trust, a compromised laptop doesn't become a gateway to your entire infrastructure.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

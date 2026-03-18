@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Set Up WireGuard VPN Server for Small Remote Development Team"
-description: "A practical guide to setting up WireGuard VPN for small remote development teams. Includes server configuration, client setup, and production-ready examples."
+title: "How to Set Up WireGuard VPN Server for Small Remote."
+description: "A practical guide to setting up WireGuard VPN for small remote development teams. Includes server configuration, client setup, and production-ready."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-wireguard-vpn-server-for-small-remote-developm/
@@ -205,6 +205,11 @@ For teams with stricter requirements, consider combining WireGuard with addition
 WireGuard provides small development teams with a VPN solution that actually gets used. The fast connection times, simple configuration, and minimal maintenance overhead mean developers can connect without friction and stay connected without frustration.
 
 The setup takes under an hour from start to finish, including time to add each team member's configuration. Once running, the VPN fades into the background—exactly what infrastructure should do so developers can focus on writing code.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

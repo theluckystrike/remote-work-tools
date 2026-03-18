@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Third Party Vendor Security Assessment Template for IT Admins"
+title: "Remote Team Third Party Vendor Security Assessment."
 description: "A practical security assessment template for evaluating third-party vendors who need access to your remote team's systems and data."
 date: 2026-03-16
 author: theluckystrike
@@ -197,6 +197,11 @@ Use this checklist when deploying your vendor security assessment template:
 A well-designed third-party vendor security assessment template protects your remote team by ensuring every vendor meets minimum security standards before gaining system access. The template in this guide provides a starting point—customize categories and thresholds based on your organization's risk tolerance and compliance requirements.
 
 Regular reassessment and continuous monitoring transform security from a one-time evaluation into an ongoing protection mechanism. Your remote team's security depends on the weakest vendor link; make sure that link meets your standards.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

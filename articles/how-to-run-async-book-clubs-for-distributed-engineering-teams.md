@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Run Async Book Clubs for Distributed Engineering Teams"
-description: "A practical guide for engineering leaders to run effective async book clubs across distributed teams. Learn formats, tools, discussion frameworks, and automation scripts."
+title: "How to Run Async Book Clubs for Distributed Engineering."
+description: "A practical guide for engineering leaders to run effective async book clubs across distributed teams. Learn formats, tools, discussion frameworks, and."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-async-book-clubs-for-distributed-engineering-teams/
@@ -307,6 +307,11 @@ Here's your quick-start checklist:
 
 ---
 
-**Built by theluckystrike** — More at [zovo.one](https://zovo.one)
+**
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+Built by theluckystrike** — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

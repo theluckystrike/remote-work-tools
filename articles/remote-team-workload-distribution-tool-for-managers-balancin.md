@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Workload Distribution Tool for Managers Balancing Distributed Team Capacity"
-description: "Learn how to implement workload distribution tools for remote teams, with practical examples, capacity planning frameworks, and automation scripts for distributed team managers."
+title: "Remote Team Workload Distribution Tool for Managers."
+description: "Learn how to implement workload distribution tools for remote teams, with practical examples, capacity planning frameworks, and automation scripts for."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-workload-distribution-tool-for-managers-balancin/
@@ -194,6 +194,11 @@ This ensures you're not assigning work to someone who can't collaborate with the
 - [ ] Review and adjust thresholds based on team feedback
 
 Balancing distributed team capacity requires intentional systems rather than hoping for organic balance. Start with visibility, automate checks, and maintain transparent communication about workload expectations.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

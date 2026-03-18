@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Manager Delegation Framework for Leading Teams Across Multiple Timezones"
-description: "A practical framework for delegating effectively in distributed teams spanning multiple time zones. Includes decision matrices, async workflows, and real implementation examples."
+title: "Remote Manager Delegation Framework for Leading Teams."
+description: "A practical framework for delegating effectively in distributed teams spanning multiple time zones. Includes decision matrices, async workflows, and."
 date: 2026-03-16
 author: "theluckystrike"
 permalink: /remote-manager-delegation-framework-for-leading-teams-across/
@@ -192,6 +192,11 @@ The framework scales: with three people, you know everything they do. With thirt
 ---
 
 **Next steps**: Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

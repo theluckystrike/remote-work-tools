@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Password Rotation Policy Setup for Remote Teams Using Shared Credentials Guide"
+title: "Password Rotation Policy Setup for Remote Teams Using."
 description: "A practical guide to implementing password rotation policies for remote teams using shared credentials. Learn strategies, tools, and code examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -160,6 +160,11 @@ Effective password rotation for shared credentials requires combining clear poli
 Building secure credential management takes upfront investment but prevents much larger security incidents. Start with your highest-sensitivity credentials, establish the workflow, and expand coverage gradually.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

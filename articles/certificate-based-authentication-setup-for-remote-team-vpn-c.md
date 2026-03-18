@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Certificate Based Authentication Setup for Remote Team VPN Connections 2026 Guide"
-description: "A practical guide to implementing certificate based authentication for remote team VPN connections. Includes OpenVPN, WireGuard configurations and PKI setup for developers."
+title: "Certificate Based Authentication Setup for Remote Team."
+description: "A practical guide to implementing certificate based authentication for remote team VPN connections. Includes OpenVPN, WireGuard configurations and PKI."
 date: 2026-03-16
 author: theluckystrike
 permalink: /certificate-based-authentication-setup-for-remote-team-vpn-c/
@@ -258,6 +258,11 @@ Document your PKI structure and revocation procedures. When security incidents o
 Certificate-based authentication transforms VPN security from password-dependent to key-based. While initial setup requires more effort than shared passwords, the operational benefits—automated revocation, device binding, and elimination of credential sharing—make the investment worthwhile for any remote team prioritizing security.
 
 Start with a simple CA, provision certificates for your core team, and expand from there. The workflow becomes natural once the infrastructure is in place, and your team gains protection against the most common VPN attack vectors.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Team Documentation Culture: Building Guide for Engineering Managers"
-description: "A practical step-by-step guide for engineering managers to build lasting documentation culture in remote teams. Includes templates, workflows, and code examples."
+title: "Remote Team Documentation Culture: Building Guide for."
+description: "A practical step-by-step guide for engineering managers to build lasting documentation culture in remote teams. Includes templates, workflows, and code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers/
@@ -156,6 +156,11 @@ Documentation culture survives when it becomes habitual rather than heroic. The 
 Start with one category—decision records work well—and prove the pattern before expanding. Once your team sees documentation saving time and reducing friction, expanding to other categories becomes much easier.
 
 The remote work environment makes documentation culture more important than ever. The tools and approaches in this guide provide a foundation your team can adapt to your specific context. The key is starting, iterating, and maintaining momentum over time.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

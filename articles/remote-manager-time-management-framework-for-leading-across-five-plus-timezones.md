@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Manager Time Management Framework for Leading Across Five Plus Timezones"
-description: "A practical framework for remote managers handling distributed teams across five or more timezones. Includes scheduling algorithms, async workflows, and code examples."
+title: "Remote Manager Time Management Framework for Leading."
+description: "A practical framework for remote managers handling distributed teams across five or more timezones. Includes scheduling algorithms, async workflows."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-manager-time-management-framework-for-leading-across-five-plus-timezones/
@@ -199,6 +199,11 @@ Start with one component: implement async status updates this week. Next month, 
 The teams that thrive across five-plus timezones aren't those that find better meeting times—they're those that build systems where asynchronous work is the default and synchronous work is the intentional exception.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up a Remote Sales Team Deal Room with Shared Documents"
+title: "How to Set Up a Remote Sales Team Deal Room with Shared."
 description: "A practical guide for developers and power users building deal rooms for remote sales teams using shared documents and collaborative tools."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -174,6 +174,11 @@ Track these metrics to validate your setup:
 - **Tool fragmentation** - Resist adding new tools; optimize what you have
 
 Building a deal room with shared documents requires upfront setup but pays dividends in deal visibility and team alignment. Start simple, iterate based on your team's workflow, and treat your deal documentation as a core asset.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
