@@ -10,10 +10,10 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
-
-Thailand has become one of the most popular destinations for digital nomads, offering a low cost of living, excellent healthcare infrastructure, and a welcoming culture. However, navigating health insurance as a long-term remote worker in Thailand requires careful planning. This guide provides practical strategies for developers and power users who plan to work remotely from Thailand for extended periods.
+Digital nomads in Thailand should combine international travel insurance with local Thai health insurance or visa-specific plans, since pure travel insurance excludes long-term expats while Thai residency allows accessing affordable local healthcare at world-class private hospitals. Plans from providers like Travelex, GeoBlue, or IMG Global with Thailand coverage run $30-50/month and cover emergency evacuation, while local Thai health insurance (required for ED visa extensions) costs $100-300/year for basic coverage at Bumrungrad or Bangkok Hospital. This dual approach provides cost-effective comprehensive coverage, satisfies visa requirements that increasingly demand insurance proof, and eliminates the gap where nomads age 30+ face premiums north of $100/month when relying solely on international plans, making the Thai + international combination the practical standard for remote workers settling longer than tourist seasons.
 
 ## Understanding the Thai Healthcare ecosystem
 
