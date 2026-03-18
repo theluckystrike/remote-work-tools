@@ -3,10 +3,12 @@
 layout: default
 title: "Remote Manager Time Management Framework for Leading Across Five Plus Timezones"
 description: "A practical framework for remote managers handling distributed teams across five or more timezones. Includes scheduling algorithms, async workflows, and code examples."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /remote-manager-time-management-framework-for-leading-across-five-plus-timezones/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

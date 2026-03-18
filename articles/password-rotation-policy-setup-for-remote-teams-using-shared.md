@@ -2,13 +2,13 @@
 layout: default
 title: "Password Rotation Policy Setup for Remote Teams Using Shared Credentials Guide"
 description: "A practical guide to implementing password rotation policies for remote teams using shared credentials. Learn strategies, tools, and code examples."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /password-rotation-policy-setup-for-remote-teams-using-shared/
 categories: [guides]
 tags: [password-security, remote-work, credentials, security, shared-accounts]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---

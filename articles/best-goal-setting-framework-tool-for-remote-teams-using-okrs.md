@@ -2,13 +2,13 @@
 layout: default
 title: "Best Goal Setting Framework Tool for Remote Teams Using OKRs"
 description: "A practical guide to implementing OKRs for remote teams in 2026. Compare tools, see code examples, and learn implementation patterns for distributed engineering teams."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-goal-setting-framework-tool-for-remote-teams-using-okrs/
 categories: [guides]
 tags: [okr, goal-setting, remote-work, productivity]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---

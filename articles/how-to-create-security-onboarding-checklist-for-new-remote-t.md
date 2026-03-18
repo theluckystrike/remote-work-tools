@@ -3,10 +3,12 @@
 layout: default
 title: "How to Create Security Onboarding Checklist for New Remote Team Members"
 description: "A practical guide to building security onboarding checklists for remote teams. Includes code snippets and implementation examples for developers."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-security-onboarding-checklist-for-new-remote-t/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

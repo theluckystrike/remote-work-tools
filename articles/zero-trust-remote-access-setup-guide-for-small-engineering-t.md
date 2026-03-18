@@ -2,9 +2,12 @@
 layout: default
 title: "Zero Trust Remote Access Setup Guide for Small Engineering Teams 2026"
 description: "A practical zero trust remote access setup guide for small engineering teams in 2026. Learn implementation strategies, configuration examples, and deployment steps."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /zero-trust-remote-access-setup-guide-for-small-engineering-t/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
