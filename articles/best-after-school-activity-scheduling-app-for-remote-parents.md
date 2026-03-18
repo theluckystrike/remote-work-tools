@@ -2,11 +2,13 @@
 layout: default
 title: "Best After School Activity Scheduling App for Remote Parents Managing Multiple Children 2026"
 description: "A comprehensive guide to the best after school activity scheduling apps for remote parents juggling multiple children. Compare features, pricing, and find the perfect solution for your family's needs."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-after-school-activity-scheduling-app-for-remote-parents/
 categories: [guides]
 tags: [productivity, family-management, remote-work, scheduling, apps]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

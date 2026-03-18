@@ -2,9 +2,12 @@
 layout: default
 title: "How to Manage Remote Team When Multiple Parents Have Overlapping School Holiday Schedules"
 description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes code examples and workflow templates."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-when-multiple-parents-have-overlap/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
