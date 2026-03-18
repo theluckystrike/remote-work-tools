@@ -14,6 +14,7 @@ tags: [peer-feedback, remote-management, distributed-teams, leadership, async-co
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

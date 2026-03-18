@@ -11,6 +11,7 @@ tags: [project-management, remote-communication, stakeholder-management, transpa
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 

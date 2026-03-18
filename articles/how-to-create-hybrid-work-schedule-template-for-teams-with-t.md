@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-create-hybrid-work-schedule-template-for-teams-with-t/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

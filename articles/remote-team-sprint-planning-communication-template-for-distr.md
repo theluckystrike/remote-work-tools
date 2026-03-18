@@ -8,6 +8,7 @@ permalink: /remote-team-sprint-planning-communication-template-for-distr/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

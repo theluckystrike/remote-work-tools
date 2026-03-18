@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-office-it-setup-supporting-both-rem/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

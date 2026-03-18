@@ -9,6 +9,7 @@ permalink: /best-desk-sensor-technology-for-hybrid-offices-tracking-real/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

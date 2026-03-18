@@ -8,6 +8,7 @@ permalink: /best-practice-for-remote-team-slack-emoji-reactions-replacin/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

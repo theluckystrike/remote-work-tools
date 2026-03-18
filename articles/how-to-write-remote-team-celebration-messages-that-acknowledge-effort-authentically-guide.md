@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

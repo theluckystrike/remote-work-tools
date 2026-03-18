@@ -11,6 +11,7 @@ tags: [lightning-talks, remote-work, presentations, team-collaboration, knowledg
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 

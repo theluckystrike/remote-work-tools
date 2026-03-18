@@ -8,6 +8,7 @@ permalink: /how-to-create-remote-team-communication-guidelines-for-new-p/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 
