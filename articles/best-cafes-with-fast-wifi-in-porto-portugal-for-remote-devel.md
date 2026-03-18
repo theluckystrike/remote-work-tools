@@ -9,9 +9,10 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [best-of]
+intent-checked: true
 ---
 
-Porto has become a popular destination for remote developers seeking a blend of affordable living, excellent weather, and a thriving digital nomad community. Finding the right cafe with fast, reliable WiFi is essential for maintaining productivity while working abroad. This guide covers the best cafes in Porto where you can work comfortably with stable internet connections, plenty of power outlets, and great coffee.
+Cafe Santiago offers the best combination of fast WiFi (consistently 50+ Mbps), abundant power outlets, and quiet upper-floor seating for focused work, making it the top choice for developers working full 8-hour days. The ground floor provides a lively networking environment if you want community, while the upper section isolates you from distractions—Porto's other developer-friendly cafes offer competitive WiFi but lack Santiago's consistency and outlet availability.
 
 ## What Makes a Cafe Developer-Friendly
 
