@@ -1,188 +1,121 @@
 ---
 layout: default
-title: "How to Maintain a US Phone Number While Working Remotely."
-description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Covers VoIP solutions."
+title: "How to Maintain a US Phone Number While Working Remotely from Portugal or Spain"
+description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Includes code examples and setup tips."
 date: 2026-03-16
-author: "Remote Work Tools"
+author: theluckystrike
 permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/
-reviewed: true
-score: 8
-voice-checked: true
 categories: [guides]
-intent-checked: true
 ---
 
 {% raw %}
-# How to Maintain a US Phone Number While Working Remotely from Portugal or Spain
-
-VoIP.ms ($3-5/month) provides a US number with full SMS capability for critical 2FA codes that services won't send to VOIP alternatives, while Twilio ($1-10/month with API access) lets developers build custom message forwarding workflows. The combination—a local Portuguese or Spanish SIM for daily use plus a VoIP number configured to forward calls to your local device—preserves access to your US banking, email, and AWS accounts while you work from abroad without paying international rates or revealing your actual location.
+Maintaining a US phone number while living in Portugal or Spain is essential for many developers and remote workers. Whether you need it for banking, two-factor authentication, or staying in touch with US-based clients, keeping your American number provides continuity and avoids the hassle of updating contacts and services across international boundaries.
 
 ## Why Keep Your US Number
 
-Your US phone number serves more purposes than just making calls. Consider all the services linked to that number:
+When you relocate to Europe, your US phone number serves critical functions beyond personal communication. Most US banks require a valid US phone number for account verification. Two-factor authentication from services like Google, GitHub, and AWS often sends SMS codes to your registered number. Client communications and job interviews often expect a US contact number.
 
-- **Two-factor authentication (2FA)** for banking, email, GitHub, AWS, and other critical accounts
-- **SMS notifications** from payment processors and payroll systems
-- **Business communications** with US-based clients and teams
-- **Account recovery** options for various online services
+Portuguese and Spanish SIM cards give you local numbers, but they do not replace your US number for these purposes. Switching everything to a European number creates friction with services tied to your American identity.
 
-When you leave the US without a forwarding solution, you lose access to these critical services. Many banks and financial institutions specifically require a US number for verification, and switching to a local number means updating dozens of accounts.
+## Option 1: VoIP Services with SMS Support
 
-## Option 1: Google Voice (Limited but Free)
+VoIP services represent the most flexible approach for maintaining a US number abroad. Several providers offer US phone numbers with full SMS and voice capabilities, often at reasonable monthly rates.
 
-Google Voice remains the most accessible option, though it comes with restrictions you should understand.
+### Google Voice (Limited but Free)
 
-**What works:**
-- Incoming calls to your US number ring through to any phone or computer
-- Voicemail transcription sends emails to your inbox
-- Free to use for calls within the US
+Google Voice provides a free US number with texting and voicemail. However, it has significant limitations for international users. The service requires a US-based verification phone number during setup, and Google actively blocks usage from certain international locations. If you already have a Google Voice number from before your move, it may continue working, but obtaining a new one from abroad proves difficult.
 
-**What doesn't work:**
-- No SMS sending to short codes (many banks use these)
-- No verification code reception from certain services
-- Requires a US-based phone number for initial setup (you'll need a friend or service to verify)
+### Twilio: Programmatic Control
 
-If you're just starting your remote journey and haven't left the US yet, setting up Google Voice before departure is worth considering. Once established, it can handle basic call forwarding indefinitely.
+For developers comfortable with APIs, Twilio offers US phone numbers with complete control. You purchase a number and configure it to forward SMS messages to your current phone number or handle them programmatically.
 
-## Option 2: VoIP.ms (Professional Grade)
+Here's a basic example using the Twilio Node.js SDK to forward incoming SMS:
 
-For developers who want full control, VoIP.ms provides a SIP-based solution with excellent flexibility.
+```javascript
+const twilio = require('twilio');
+const client = new twilio(
+  process.env.TWILIO_ACCOUNT_SID,
+  process.env.TWILIO_AUTH_TOKEN
+);
 
-### Setup Example
+// Configure webhook endpoint for incoming SMS
+app.post('/sms', async (req, res) => {
+  const incomingMessage = req.body.Body;
+  const fromNumber = req.body.From;
+  
+  // Forward to your current European number
+  await client.messages.create({
+    body: `US Number: ${incomingMessage}`,
+    from: process.env.TWILIO_NUMBER,
+    to: process.env.YOUR_CURRENT_NUMBER
+  });
+  
+  res.send('<Response></Response>');
+});
+```
+
+Twilio numbers cost approximately $1-2 per month for the number plus per-message fees. This approach gives you full control over message handling.
+
+### NumberProxy and Similar Services
+
+Services like NumberProxy specialize in maintaining US numbers for international users. These services typically forward SMS to your current number via app notifications or email. Pricing ranges from $5-15 monthly depending on features. Research current options carefully as the market evolves.
+
+## Option 2: eSIM Solutions
+
+eSIM technology allows you to maintain a US cellular number alongside your European SIM. This approach keeps your US number active on cellular networks without carrying a second physical phone.
+
+### Airalo and Other eSIM Providers
+
+Several eSIM providers offer US phone numbers with data and SMS capabilities. The setup process involves purchasing an eSIM profile and installing it on your compatible phone. You then maintain both your European and US numbers simultaneously.
+
+The advantage here is reliability—your US number operates on actual cellular networks rather than VoIP, ensuring better delivery rates for banking and authentication codes. The downside is additional cost and managing two phone numbers on one device.
+
+## Option 3: US Carrier International Plans
+
+If you maintain a relationship with a US carrier, some offer international roaming packages. T-Mobile, AT&T, and Verizon provide plans that include international data and sometimes voice/SMS. However, these plans often prove expensive for long-term usage and may not support numbers for permanent overseas residence.
+
+A more practical approach involves keeping your US number on a minimal prepaid plan with the carrier. Some carriers offer "keep your number" programs for customers traveling abroad, though terms vary and fees apply.
+
+## Option 4: Google Fi with International Data
+
+Google Fi (now called Google Fi Wireless) provides US phone numbers with international data usage. The service works in Portugal and Spain with reasonable rates. You receive a US number that functions identically to being in the United States, including SMS and voice.
+
+The monthly cost covers data usage, and you can set up call forwarding to your European SIM if needed. This option balances convenience with cost-effectiveness for many remote workers.
+
+## Configuration Example: Call Forwarding
+
+Regardless of which option you choose, setting up call and SMS forwarding ensures you never miss important communications. Here's how you might configure call forwarding using a simple approach:
 
 ```bash
-# Install a SIP client like MicroSIP on your laptop
-# Or configure with asterisk/pjsip for custom solutions
+# Using Twilio to forward calls to your European number
+# In Twilio console, set voice webhook to your handler
 
-# VoIP.ms account configuration:
-Server: atlanta.voip.ms
-Username: your_username
-Password: your_secure_password
+const VoiceResponse = require('twilio').twiml.VoiceResponse;
+
+app.post('/voice', (req, res) => {
+  const forwardingNumber = process.env.EUROPEAN_NUMBER;
+  
+  const twiml = new VoiceResponse();
+  twiml.dial({ callerId: process.env.TWILIO_NUMBER }, forwardingNumber);
+  
+  res.type('text/xml');
+  res.send(twiml.toString());
+});
 ```
 
-With VoIP.ms, you get:
-- A dedicated US phone number
-- Full SMS capability including short codes
-- Call forwarding to any destination
-- Detailed billing (pay per minute or monthly plans)
+## Practical Considerations
 
-The monthly cost ranges from $2-5 USD for a basic US number, making it cost-effective for power users.
+**Time zone management** becomes important when your US number receives calls during European evening hours. Configure voicemail greetings indicating your availability, and consider setting business hours that overlap with US East Coast business hours when possible.
 
-## Option 3: Twilio (Developer-Friendly API)
+**Verification challenges** arise when services detect international usage. Some banks flag accounts when the associated phone number appears to be used internationally. In these cases, having a US-based contact who can verify codes on your behalf helps, or using a VoIP service that routes through US-based servers.
 
-Twilio offers programmable phone numbers with API access, ideal for developers who want to build custom workflows.
+**Backup communication methods** matter. Always maintain alternative contact information with critical services, as relying entirely on a single phone number creates vulnerability. Update your email and secondary phone numbers with banks and important accounts.
 
-### Basic Python Example for Call Forwarding
+## Summary
 
-```python
-from twilio.rest import Client
+Keeping your US phone number while working from Portugal or Spain requires choosing between VoIP services like Twilio, eSIM solutions from providers like Airalo, carrier international plans, or Google Fi. Each option offers different tradeoffs between cost, reliability, and convenience. For developers comfortable with APIs, Twilio provides the most control. For simplicity, Google Fi or eSIM solutions work well. Evaluate your specific needs for banking, authentication, and client communication when making your choice.
 
-# Your credentials (store securely in environment variables)
-account_sid = os.environ.get('TWILIO_ACCOUNT_SID')
-auth_token = os.environ.get('TWILIO_AUTH_TOKEN')
-client = Client(account_sid, auth_token)
-
-# Configure call forwarding
-call = client.calls.create(
-    to='+351912345678',  # Your Portuguese number
-    from_='+12025551234',  # Your US Twilio number
-    url='http://demo.twilio.com/docs/voice.xml'
-)
-```
-
-### Receiving SMS with a Webhook
-
-```python
-from flask import Flask, request
-
-app = Flask(__name__)
-
-@app.route('/sms', methods=['POST'])
-def receive_sms():
-    from_number = request.form['From']
-    message_body = request.form['Body']
-    
-    # Process the message - forward to email, log to database, etc.
-    print(f"Received SMS from {from_number}: {message_body}")
-    
-    return 'OK', 200
-```
-
-Twilio provides $15-20 in free credits for new accounts, enough to test thoroughly before committing. US numbers cost around $1/month plus usage charges.
-
-## Option 4: Google Fi (Integrated Solution)
-
-Google Fi works internationally with some caveats:
-
-- Requires an Android phone or iPhone with eSIM support
-- Works in Portugal and Spain but with data speed limitations
-- Provides a US number that functions like a regular carrier
-
-The advantage is simplicity—you get a single number that works everywhere. However, the monthly cost ($20+ base) plus international data fees adds up compared to VoIP solutions.
-
-## Managing Two-Factor Authentication
-
-This is where most remote workers encounter frustration. Many US services only send 2FA codes via SMS to US numbers. Here's how to handle it:
-
-### Strategy 1: Use Authenticator Apps Wherever Possible
-
-Migrate from SMS-based 2FA to authenticator apps (Google Authenticator, Authy, 1Password). These don't depend on phone numbers and work globally.
-
-```bash
-# Example: Set up CLI-based 2FA with oathtool
-oathtool --totp -b $(cat ~/.2fa_secret)
-```
-
-### Strategy 2: Keep One SMS-Capable Number
-
-Maintain at least one service (VoIP.ms or Twilio) that can receive SMS for critical accounts where authenticator apps aren't available.
-
-### Strategy 3: Virtual SIM Solutions
-
-Services like Airalo provide eSIM data plans. Some users maintain a separate device or eSIM specifically for SMS verification while using local numbers for daily communication.
-
-## Practical Setup Recommendations
-
-For developers and power users, here's a recommended stack:
-
-1. **Primary number**: Use a local Portuguese or Spanish SIM for daily communication and data
-2. **US number for verification**: VoIP.ms ($3/month) or Twilio ($1/month)
-3. **Forwarding**: Configure your US number to forward to your local SIM for calls
-4. **SMS handling**: Use Twilio webhooks to forward important messages to email or Slack
-
-### Sample Call Forwarding Configuration (VoIP.ms)
-
-Log into your VoIP.ms portal:
-- Go to "Call Routing" → "Simple Forwarding"
-- Set "Forward To" to your local number with country code
-- Enable "Ring Simultaneous" if you want both phones to ring
-
-## Common Pitfalls to Avoid
-
-- **Relying solely on Google Voice** — You'll hit limitations with banks and services
-- **Forgetting to pay bills** — VoIP numbers get disconnected quickly for non-payment
-- **Not testing SMS** — Always verify your setup can receive messages before you need it
-- **Ignoring timezone differences** — Set appropriate voicemail greetings
-
-## Cost Comparison
-
-| Service | Monthly Cost | SMS | Calls | Best For |
-|---------|--------------|-----|-------|----------|
-| Google Voice | Free (limited) | Partial | US only | Basic needs |
-| VoIP.ms | $3-5 | Yes | Yes | Reliability |
-| Twilio | $1-10 | Yes | Pay-per-use | Developers |
-| Google Fi | $20+ | Yes | Yes | Simplicity |
-
-## Conclusion
-
-Maintaining a US phone number while working remotely from Portugal or Spain is entirely feasible with the right tools. For developers and technical users, Twilio or VoIP.ms provide the best balance of cost, reliability, and flexibility. The key is setting up your solution before you need it—configure everything while you still have easy access to US-based verification.
-
-Once you have a reliable US number forwarding to your local device, you can work remotely with the confidence that your critical accounts remain accessible.
-
-
-## Related Reading
-
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+The right solution depends on your technical comfort level and which services require your US number most urgently. Start with one approach and adjust as your needs become clearer.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
