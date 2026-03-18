@@ -7,6 +7,7 @@ author: theluckystrike
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 date: 2026-03-16
 categories: [troubleshooting]
 permalink: /best-practice-for-remote-team-emoji-and-gif-culture-keeping-/

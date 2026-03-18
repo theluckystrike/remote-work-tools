@@ -8,6 +8,7 @@ permalink: /how-to-facilitate-remote-team-workshops-using-miro-with-stru/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-create-hybrid-work-equipment-checkout-system-for-shar/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

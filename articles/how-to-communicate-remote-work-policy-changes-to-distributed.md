@@ -9,6 +9,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-communicate-remote-work-policy-changes-to-distributed/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

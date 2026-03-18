@@ -9,6 +9,7 @@ permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

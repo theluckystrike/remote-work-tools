@@ -11,6 +11,7 @@ tags: [async-communication, hybrid-work, remote-work, team-collaboration, produc
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

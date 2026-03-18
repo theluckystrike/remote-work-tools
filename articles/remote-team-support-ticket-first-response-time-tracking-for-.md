@@ -9,6 +9,7 @@ permalink: /remote-team-support-ticket-first-response-time-tracking-for-/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

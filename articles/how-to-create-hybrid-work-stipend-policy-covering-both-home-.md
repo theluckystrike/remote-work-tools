@@ -8,6 +8,7 @@ permalink: /how-to-create-hybrid-work-stipend-policy-covering-both-home-/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

@@ -10,6 +10,7 @@ categories: [guides]
 tags: [hybrid-work, onboarding, remote-work, team-management, developer-experience]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 
