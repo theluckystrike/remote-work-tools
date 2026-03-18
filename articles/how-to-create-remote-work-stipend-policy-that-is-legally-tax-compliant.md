@@ -5,9 +5,16 @@ description: "A practical guide for developers and power users building tax-comp
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/
+<<<<<<< HEAD
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
+=======
 reviewed: true
 score: 8
 categories: [guides]
+>>>>>>> a5c01f2a43349976d6a25c2479b0544077aeb0ae
 ---
 
 {% raw %}
