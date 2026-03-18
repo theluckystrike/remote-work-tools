@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Return to Office IT Checklist for Reactivating Dormant Workstations and Access Badges 2026"
 description: "A practical IT checklist for reactivating dormant workstations and access badges when bringing employees back to the office. Includes scripts, verification steps, and power user tips."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/
 categories: [guides]
 tags: [return-to-office, it-checklist, workstation-management, access-control, office-it]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Return to Office IT Checklist for Reactivating Dormant Workstations and Access Badges 2026
