@@ -10,12 +10,10 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
-
-The three-office-day hybrid model balances in-person collaboration with remote flexibility. Teams choosing this pattern typically need strong co-location for pair programming, hardware work, or client-facing activities, while preserving two days for individual deep work. Building an effective schedule template requires careful rotation logic, clear communication protocols, and tools that handle the complexity without creating management overhead.
-
-This guide provides actionable templates and code for implementing a three-office-day hybrid schedule that actually works for technical teams.
+Three-office-day hybrid schedules balance collaboration needs with focused individual work by using rotating assignment patterns that ensure 3 days in office, minimum team overlap, and no more than 60% office capacity on any day. Python scripts can generate valid rotation schedules, YAML configurations specify which days teams are in-office, and calendar sync tooling (Google Calendar API) makes schedules accessible where teams live. Desk booking systems prevent overbooking, communication protocols clarify when to prefer in-person versus async, and monthly reviews adapt schedules to actual team patterns.
 
 ## Understanding the Three-Office-Day Pattern
 

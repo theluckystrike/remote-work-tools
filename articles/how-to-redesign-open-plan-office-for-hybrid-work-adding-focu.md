@@ -9,16 +9,13 @@ permalink: /how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/
 categories: [guides]
 reviewed: true
 score: 8
-intent-checked: false
-voice-checked: true
+intent-checked: true
 voice-checked: false
 ---
 
-
 {% raw %}
-# How to Redesign Open Plan Office for Hybrid Work: Adding Focus Pods
 
-Open plan offices were designed to foster collaboration, but hybrid work has exposed their fundamental flaw: they optimize for interruption, not concentration. When your team splits time between home and office, the office needs to offer something their home workspace cannot—a dedicated focus environment. This is where focus pods transform an open plan layout into a hybrid-ready workspace.
+Hybrid offices require focus pods providing acoustic isolation (30+ dB reduction), proper ventilation, adjustable lighting, and power connectivity placed within 3 minutes of any desk. Calculate pod requirements at 1 per 4-5 active employees using 50% occupancy as baseline, implement WebSocket-backed booking systems to manage availability, and add ambient acoustic treatment throughout open areas. Success metrics include 60-80% utilization rates, improved employee satisfaction surveys, and increased hybrid office attendance when pods are available.
 
 ## The Hybrid Work Space Problem
 

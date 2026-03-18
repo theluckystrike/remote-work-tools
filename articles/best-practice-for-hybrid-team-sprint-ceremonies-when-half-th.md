@@ -10,14 +10,12 @@ categories: [guides]
 tags: [hybrid-work, sprint-ceremonies, agile, remote-work, team-communication]
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 ---
 
-
 {% raw %}
-# Best Practice for Hybrid Team Sprint Ceremonies When Half the Team is Remote
 
-Running sprint ceremonies in a hybrid environment where half your team works remotely and half works in-office presents unique challenges. The split creates natural asymmetries in participation, visibility, and engagement that can derail your agile process if not addressed intentionally. This guide provides concrete practices for development teams running Scrum ceremonies with geographically distributed team members.
+Hybrid sprint ceremonies require deliberate infrastructure and cultural changes to ensure remote and in-office participants have equal standing. Mandate video-on for all participants, use round-robin speaking protocols to guarantee equal airtime, and implement async-first standups with synchronous discussion only for blockers. Retrospectives should start with anonymous async input before synchronous discussion, and documentation should be a rotating responsibility including remote team members to signal equal value.
 
 ## The Core Problem: Participation Asymmetry
 

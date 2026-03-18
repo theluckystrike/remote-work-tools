@@ -14,6 +14,7 @@ tags: [remote-work, all-hands-meeting, distributed-teams, question-collection, a
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 
@@ -22,11 +23,7 @@ voice-checked: true
 
 {% raw %}
 
-Implement a remote all-hands question collection tool using GitHub Issues, custom APIs, or Slack Block Kit that enables anonymous submissions, community upvoting, and moderation of duplicate questions—opening collection 48 hours before meetings to accommodate all time zones. This increases participation from introverted team members while surfacing genuinely pressing concerns rather than leadership assumptions.
-
-# Remote Team All Hands Meeting Question Collection Tool for Distributed Organizations Guide
-
-Running effective all hands meetings for distributed teams requires careful planning, especially when it comes to collecting questions from team members across multiple time zones. Without proper tooling, important questions get lost, quieter team members stay silent, and meetings run longer than necessary. This guide covers practical approaches to building and implementing question collection tools that work for distributed organizations.
+Implement remote all-hands question collection tools using GitHub Issues, custom APIs, or Slack Block Kit that enable anonymous submissions, community upvoting, and duplicate question merging. Open collection 48 hours before meetings to accommodate all time zones, and allow at least 24 hours for leaders to prepare answers. Measure success through submission rates (20-40% participation), answer quality surveys, and time-to-answer metrics. Anonymous submission removes barriers for sensitive questions while upvoting surfaces genuine concerns rather than leadership assumptions.
 
 ## Why Question Collection Matters for Remote All Hands
 

@@ -9,14 +9,12 @@ permalink: /hybrid-office-network-infrastructure-upgrade-guide-supporting-increa
 categories: [guides]
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 ---
 
-
 {% raw %}
-# Hybrid Office Network Infrastructure Upgrade Guide: Supporting Increased Video Call Bandwidth in 2026
 
-Hybrid office environments demand robust network infrastructure to support video conferencing at scale. As remote collaboration tools become more bandwidth-intensive, upgrading your network isn't optional—it's essential for maintaining productivity. This guide provides a practical, developer-focused approach to evaluating and upgrading your hybrid office network infrastructure to support increased video call bandwidth in 2026.
+Hybrid office network upgrades require symmetric business-class internet (100+ Mbps upload for 50-person offices), Quality of Service (QoS) rules prioritizing video ports (443, 3478-3480, 5000-6000), and gigabit or multi-gig switched infrastructure. WiFi 6E/7 access points with band steering handle concurrent connections better than older standards. Monitor bandwidth continuously using tools like vnstat with Prometheus metrics and Grafana dashboards to catch saturation before video calls degrade. Start by calculating concurrent capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
 
 ## Assessing Your Current Network Capacity
 
