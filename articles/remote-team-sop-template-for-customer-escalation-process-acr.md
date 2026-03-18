@@ -11,6 +11,7 @@ tags: [remote-work, customer-support, sop, escalation, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 
