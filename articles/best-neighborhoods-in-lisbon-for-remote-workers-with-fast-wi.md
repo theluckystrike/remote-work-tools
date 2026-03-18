@@ -3,10 +3,12 @@
 layout: default
 title: "Best Neighborhoods in Lisbon for Remote Workers with Fast WiFi Cafes 2026"
 description: "A practical guide to Lisbon neighborhoods with reliable WiFi for remote developers and digital nomads. Includes speed-tested cafes, coworking options, and neighborhood comparisons."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

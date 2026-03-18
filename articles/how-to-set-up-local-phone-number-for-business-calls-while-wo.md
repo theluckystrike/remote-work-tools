@@ -2,9 +2,12 @@
 layout: default
 title: "How to Set Up a Local Phone Number for Business Calls While Working From Abroad"
 description: "A practical guide for developers and remote workers on setting up local business phone numbers while working internationally, including VoIP solutions, SIP configuration, and cost-effective strategies."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-local-phone-number-for-business-calls-while-wo/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}

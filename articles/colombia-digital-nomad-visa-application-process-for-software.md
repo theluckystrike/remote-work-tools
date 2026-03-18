@@ -2,9 +2,12 @@
 layout: default
 title: "Colombia Digital Nomad Visa Application Process for Software Developers Step by Step 2026"
 description: "A complete guide to the Colombia digital nomad visa application process for software developers. Learn requirements, documents, timelines, and practical tips."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /colombia-digital-nomad-visa-application-process-for-software/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 Colombia introduced its digital nomad visa (Visa de Nómadas Digitales) in 2021, and the program has evolved significantly through 2026. If you're a software developer or remote worker looking to live and work legally in Colombia, this guide walks you through the entire application process with practical details you can use.
