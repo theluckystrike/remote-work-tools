@@ -9,14 +9,13 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
 # Hybrid Office Air Quality Monitoring for Maintaining Healthy Environment with Variable Occupancy
 
-Hybrid offices present unique challenges for air quality management. Unlike traditional offices with predictable occupancy or fully remote setups, hybrid spaces experience fluctuating occupancy patterns that complicate ventilation decisions. When 50 people occupy a space designed for 100, CO2 levels behave differently than when that same space holds just 10 individuals. This variability requires monitoring systems that adapt dynamically rather than relying on static thresholds.
-
-This guide covers technical implementation of air quality monitoring specifically designed for hybrid environments with variable occupancy. You'll find practical code examples, sensor deployment strategies, and automation approaches that account for the unpredictable nature of hybrid work.
+Integrate door counter or badge API data with CO2 sensors to calculate occupancy-adjusted thresholds (base 600 ppm + 15 ppm per person) instead of fixed alerts, reducing false positives during low-occupancy periods while catching real ventilation problems when the office fills up. Publish occupancy and CO2 readings to MQTT/WebSocket so your building automation system can adjust HVAC fan speed proportionally rather than binary on/off control. This approach—dynamic thresholds accounting for actual occupancy—prevents excessive alerts on Tuesdays when 8 people work alone while remaining sensitive to genuine ventilation shortfalls when 40 people occupy the same space.
 
 ## The Variable Occupancy Challenge
 

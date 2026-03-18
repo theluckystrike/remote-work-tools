@@ -9,11 +9,12 @@ categories: [guides]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 
-The Taiwan Gold Card (就業金卡) is a four-in-one work permit that combines a work visa, resident visa, alien residence certificate, and re-entry permit into a single card. For remote tech workers seeking to live and work in Taiwan while serving clients or companies outside the country, the Gold Card provides a streamlined pathway without requiring a local employer sponsor.
+The Taiwan Gold Card provides a four-in-one work permit combining visa, residency, and re-entry rights for remote tech workers earning NT$1,600,000+ ($50,000 USD) annually, requiring only 30-90 business days to process entirely from overseas. Unlike employer-sponsored work visas, the Gold Card lets you work for international clients while establishing residency, accessing Taiwan's healthcare system, and maintaining flexibility to switch clients or become self-employed—making it an ideal pathway for developers seeking a base in Asia with first-world infrastructure.
 
 ## Eligibility Requirements for Tech Workers
 

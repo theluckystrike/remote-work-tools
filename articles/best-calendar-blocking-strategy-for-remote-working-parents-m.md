@@ -11,15 +11,14 @@ categories: [guides]
 tags: [productivity, time-management, calendar, remote-work, childcare]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 
 {% raw %}
 
-Remote working parents face a unique challenge: your workday intersects with childcare responsibilities that don't follow a predictable schedule. School closures, sick days, and varying childcare arrangements create gaps that disrupt deep work sessions. The solution isn't hoping for uninterrupted blocks of time—it is building a calendar system that absorbs these disruptions while maintaining productivity.
-
-This guide provides a practical calendar blocking strategy designed specifically for developers and power users who need to protect focus time while managing childcare gaps.
+The asymmetric blocking framework—creating multiple 90-minute protected blocks with 15-minute buffers instead of hoping for a single 4-hour block—accommodates childcare interruptions without losing your entire deep work window. Combined with a secondary "Gaps" calendar that signals to colleagues your availability may shift, plus a Python script that auto-creates focus blocks in any calendar gap, this strategy protects your productivity against the unpredictable reality of parenting while working remotely.
 
 ## Understanding the Childcare Gap Problem
 

@@ -9,9 +9,10 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
-Working remotely from Southeast Asia for a US-based company presents unique timezone challenges. The time difference between countries like Vietnam, Thailand, Indonesia, or the Philippines and the United States can range from 12 to 17 hours. This significant gap requires deliberate strategies to maintain productivity and collaboration. This guide provides actionable approaches, tools, and code snippets to help developers in Southeast Asia manage timezone overlap effectively when working with US teams.
+Engineers in Bangkok have 1-3 hours of genuine US overlap time, so shift to async-first communication with written daily standup updates, rotate synchronous meetings between Asia-friendly and US-friendly times to share the burden fairly, and document expectations (24-hour response time for regular messages, 4-hour response during your working hours) so teammates understand your availability model. This approach—async as default, rotation for essential meetings, clear expectations—is more scalable than trying to find meeting times that work for everyone and prevents the burnout of constantly joining early-morning or midnight meetings.
 
 ## Understanding the Time Zone Reality
 

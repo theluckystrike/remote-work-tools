@@ -9,14 +9,13 @@ categories: [guides]
 tags: [barbados, remote-work-visa, digital-nomad, caribbean, tax-residency, visa-guide]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 # Barbados Welcome Stamp Visa for Remote Workers: 12-Month Program Details 2026
 
-The Barbados Welcome Stamp remains one of the most attractive long-term visa options for remote workers seeking a Caribbean base. Originally launched in 2020 as a response to the pandemic, this program has evolved into a permanent fixture in the global remote work ecosystem. For developers and power users who can work from anywhere, the 12-month Welcome Stamp offers a straightforward path to legal residency in a tax-friendly jurisdiction with excellent infrastructure.
+The Barbados Welcome Stamp lets remote workers live and work for 12 months in Barbados while earning from overseas clients, with no local income tax, fiber-optic internet speeds up to 100 Mbps, and an entirely digital application process. The USD $50,000 annual income requirement is straightforward for most developers, and the USD $2,000 application fee buys you legal residency in a stable English-speaking Caribbean nation with reliable banking, healthcare, and coworking infrastructure.
 
 ## Program Overview and Eligibility
 
