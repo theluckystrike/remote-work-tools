@@ -10,13 +10,14 @@ categories: [guides]
 tags: [remote-work, client-meetings, project-management]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # How to Run a Remote Client Kickoff Meeting for a New Project
 
-A well-executed kickoff meeting sets the foundation for project success. When that meeting happens remotely, you lose the natural energy of in-person interactions, but you gain documentation, async follow-up, and the ability to reference recorded discussions later. This guide covers the practical steps to run a remote client kickoff meeting that establishes clear expectations, builds trust, and gets your team aligned from day one.
+Send a 48-hour pre-meeting agenda, run a 90-minute meeting covering goals, scope, timeline, and communication cadence, then follow up with documented decisions and next steps. A well-executed kickoff meeting sets the foundation for project success—remote meetings lose in-person energy but gain documentation, async follow-up, and recorded discussions. This guide covers practical steps to run a remote client kickoff that establishes clear expectations, builds trust, and aligns your team from day one, including facilitation techniques and follow-up strategies.
 
 ## Pre-Meeting Preparation
 

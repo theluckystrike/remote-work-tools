@@ -9,6 +9,7 @@ permalink: /remote-team-documentation-culture-building-guide-for-engineering-man
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
@@ -49,8 +50,7 @@ Standards ensure consistency without requiring every document to start from scra
 ```markdown
 # Code Review Guide
 
-## Purpose
-Brief explanation of what this document covers.
+Build a documentation culture by making it a required step in your workflow (code review checkers, onboarding templates), celebrating documented decisions, and allocating time explicitly for writing. When documentation is optional, it gets skipped; when it's structural, it becomes habit.
 
 ## Prerequisites
 - Required reading before submitting PRs

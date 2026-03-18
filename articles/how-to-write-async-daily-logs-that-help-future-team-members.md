@@ -8,13 +8,12 @@ permalink: /how-to-write-async-daily-logs-that-help-future-team-members/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 
-As remote and distributed teams rely more heavily on asynchronous communication, the quality of your daily logs becomes critical infrastructure. Unlike status updates aimed at managers, daily logs serve a different purpose: they create a searchable, understandable record of your work that benefits your future self and teammates who need to understand your decisions, context, and progress.
-
-This guide covers how to write async daily logs that actually help future team members—whether they're onboarding to your project, debugging an issue you worked on, or simply trying to understand why you made certain technical choices.
+Write effective async daily logs by recording decisions with reasoning, capturing context that would otherwise be lost, linking to supporting evidence (PRs, tickets, Slack threads), and including learnings that benefit the team. Daily logs create searchable institutional knowledge that accelerates onboarding and prevents repeated problem-solving.
 
 ## Why Daily Logs Matter for Team Knowledge
 

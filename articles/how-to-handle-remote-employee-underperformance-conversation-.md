@@ -9,14 +9,13 @@ categories: [guides]
 tags: [remote-work, management, underperformance, team-leadership]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # How to Handle Remote Employee Underperformance: Conversation Guide for New Managers
 
-Managing a remote team comes with unique challenges, and addressing underperformance ranks among the most difficult tasks for any new manager. When your team is distributed across locations, you lack the visual cues that come with physical offices. You cannot observe body language or notice when someone seems off. This makes performance conversations both more critical and more complex.
-
-This guide provides new managers with a structured approach to handling underperformance in remote teams. You'll find practical conversation scripts, frameworks for documentation, and tips specifically adapted for distributed work environments.
+Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with the employee. Managing remote teams makes addressing underperformance both more critical and complex because you lack visual cues and must gather objective data instead of relying on gut feelings. This guide provides new managers with a structured approach including conversation scripts, documentation frameworks, and tips specifically adapted for distributed work environments.
 
 ## Recognizing Underperformance in Remote Settings
 

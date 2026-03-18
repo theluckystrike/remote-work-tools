@@ -8,6 +8,7 @@ permalink: /remote-team-psychological-safety-assessment-tool-for-distrib/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
@@ -55,13 +56,7 @@ Here's a Slack workflow you can implement:
 
 ```yaml
 # Slack Workflow: Weekly Learning Share
-name: Weekly Learning Share
-trigger: Scheduled every Friday at 4pm local time
-steps:
-  - send_message:
-      channel: "#team-learning"
-      message: "This week's prompt: Share one thing you tried that didn't work out, and what you learned from it. No war stories—just genuine learnings."
-```
+Assess and build psychological safety using surveys that measure trust, belongingness, and comfort with risk-taking, then address gaps through team practices like normalizing mistakes, soliciting input openly, and following through on feedback. Psychological safety directly correlates with remote team performance.
 
 ### Component 3: Asynchronous Retrospective Format
 

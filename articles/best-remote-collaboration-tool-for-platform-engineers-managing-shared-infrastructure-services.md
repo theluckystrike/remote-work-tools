@@ -9,14 +9,13 @@ categories: [guides]
 tags: [platform-engineering, infrastructure, shared-services, remote-work, collaboration]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 # Best Remote Collaboration Tool for Platform Engineers Managing Shared Infrastructure Services
 
-Platform engineers responsible for shared infrastructure services face distinct challenges when working remotely. Your team's work affects every other engineering team in the organization, which means coordination, documentation, and communication must be exceptionally clear. Without proper collaboration tools and processes, infrastructure changes can cause widespread issues, and troubleshooting becomes unnecessarily difficult across time zones.
-
-This guide evaluates practical approaches and tools for platform engineers managing shared infrastructure services remotely, with implementation examples you can apply immediately.
+Choose GitHub Projects if your platform engineering team already uses GitHub, or Backstage if you need a service catalog that scales across multiple infrastructure teams. For platform engineers managing shared infrastructure services remotely, your team's work affects every other engineering group, which means coordination must be exceptionally clear across time zones. This guide evaluates practical collaboration tools and implementation approaches—GitHub Projects for small teams, Backstage for service catalogs, and incident response coordination—with code examples you can apply immediately.
 
 ## The Remote Platform Engineering Challenge
 

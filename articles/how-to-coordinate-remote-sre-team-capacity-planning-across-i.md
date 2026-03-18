@@ -8,10 +8,11 @@ permalink: /how-to-coordinate-remote-sre-team-capacity-planning-across-i/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
-Capacity planning for remote SRE teams requires careful coordination when your team members are distributed across multiple infrastructure pods. Without clear processes, you risk overallocation in some areas while leaving expertise gaps in others. This guide provides practical methods for aligning remote SRE capacity with infrastructure demands.
+Map your infrastructure pods and on-call responsibilities, then use a capacity planning spreadsheet or tool to align remote SRE members with their zones—preventing overallocation in some areas while leaving expertise gaps in others. Capacity planning for remote SRE teams requires careful coordination across distributed infrastructure pods and time zones. This guide provides practical, step-by-step methods for aligning remote SRE capacity with infrastructure demands, including automation examples and coverage verification strategies.
 
 ## Understanding Infrastructure Pods and SRE Responsibilities
 

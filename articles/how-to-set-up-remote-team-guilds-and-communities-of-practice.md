@@ -9,13 +9,13 @@ categories: [guides]
 tags: [remote-work, guilds, communities-of-practice, knowledge-sharing, developer-productivity]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 # How to Set Up Remote Team Guilds and Communities of Practice
 
-Building knowledge-sharing structures in remote teams requires intentional design. Team guilds and communities of practice create cross-functional connections that would otherwise never form in distributed organizations. This guide walks you through setting up effective remote guilds that actually work.
+Launch remote team guilds by defining a guild purpose and membership, setting up a dedicated communication channel and regular meeting cadence, and creating a knowledge base for guild-specific resources. Guilds connect people across teams who share interests or expertise, strengthening organizational culture in distributed environments.
 
 ## Understanding Guilds Versus Communities of Practice
 

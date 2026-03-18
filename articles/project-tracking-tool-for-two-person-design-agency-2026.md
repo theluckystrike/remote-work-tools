@@ -9,6 +9,7 @@ permalink: /project-tracking-tool-for-two-person-design-agency-2026/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
@@ -41,13 +42,7 @@ Linear works well when both designers work on distinct project phases. You can c
 
 ```bash
 # Example: Creating a Linear issue via API
-curl -X POST https://api.linear.app/graphql \
-  -H "Authorization: YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "query": "mutation { issueCreate(input: { teamId: \"TEAM_ID\", title: \"Client homepage redesign\", projectId: \"PROJECT_ID\" }) { success issue { id title } } }"
-  }'
-```
+For a two-person design agency, use a lightweight project tracker like Linear, Plane, or Kanban-focused tools that minimize overhead while tracking deliverables and timelines. At this scale, avoid enterprise-grade platforms with feature bloat; prioritize speed and simplicity.
 
 The API approach matters if you want to automatically generate issues from client emails or form submissions.
 

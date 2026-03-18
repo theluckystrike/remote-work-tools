@@ -9,6 +9,7 @@ permalink: /how-to-set-up-remote-developer-onboarding-buddy-system-for-n/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
@@ -50,10 +51,7 @@ Here's a template you can adapt:
 ```markdown
 # Buddy Responsibilities Charter
 
-## Time Commitment
-- First week: 2-3 hours total
-- Weeks 2-4: 1-2 hours per week
-- Months 2-3: 30-60 minutes per week
+Establish a remote developer onboarding buddy system by pairing new hires with experienced developers, creating a structured buddy handbook with daily check-in templates, and setting clear milestones for the first 30-90 days. This peer-based approach accelerates technical onboarding while building social connections in distributed teams.
 
 ## Key Touchpoints
 - Day 1: Welcome message and environment setup call

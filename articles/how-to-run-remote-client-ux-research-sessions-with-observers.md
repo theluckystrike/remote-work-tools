@@ -10,13 +10,14 @@ categories: [guides]
 tags: [ux-research, remote-work, usability-testing]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # How to Run Remote Client UX Research Sessions with Observers
 
-Running UX research sessions remotely introduces unique challenges when multiple stakeholders want to observe. Whether you're working with product managers, designers, developers, or client representatives, you need a setup that keeps the participant comfortable while giving observers the context they need. This guide covers practical approaches for running effective remote UX research sessions with observers, tailored for developers and power users who want implementation details.
+Configure Zoom with breakout rooms or separate observer channels to keep participants comfortable while giving stakeholders visibility into research sessions. Running remote UX research sessions with multiple observers requires infrastructure that balances participant comfort with stakeholder visibility—you need separate video streams for the research and observer groups. This guide covers practical approaches for running effective remote UX research sessions with product managers, designers, developers, and client observers, with implementation details.
 
 ## Setting Up Your Session Infrastructure
 
