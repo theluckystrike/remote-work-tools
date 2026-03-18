@@ -1,14 +1,14 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Standup Format Accommodating Mixed In-Person and Remote"
+title: "Best Practice for Hybrid Team Standup Format."
 description: "A practical guide to running effective hybrid standups that include both in-office and remote developers. Includes formats, tools, and facilitation tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-standup-format-accommodating-m/
 reviewed: true
 score: 8
-categories: [best-of]
+categories: [guides]
 ---
 
 
@@ -153,5 +153,10 @@ Async standups using tools like Geekbot, Standuply, or simple Slack threads can 
 ---
 
 The best hybrid standup format is one your team actually follows consistently. Start with the round-robin + async buffer approach, refine your room setup, and iterate based on feedback. The goal isn't perfection—it's creating a daily rhythm where every team member, regardless of location, starts their day informed and connected.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Hybrid Office Digital Signage Showing Room Availability and Events"
-description: "A technical guide for developers building digital signage systems that display meeting room availability and calendar events in hybrid offices. Includes API integration patterns, Python code examples, and deployment strategies."
+title: "How to Set Up Hybrid Office Digital Signage Showing Room."
+description: "A technical guide for developers building digital signage systems that display meeting room availability and calendar events in hybrid offices."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/
@@ -277,6 +277,11 @@ When deploying room availability signage, consider these operational factors:
 Building room availability signage requires three moving parts: a calendar integration pulling booking data, a content transformation layer creating display-ready HTML, and a client running on your display hardware. Start with a single room and one calendar source, verify the data flows correctly, then expand to additional rooms and aggregate views.
 
 The same pattern works for other event types—swap the calendar source for a Slack API, incident tracker, or custom database. Treat your signage as another API consumer, and you'll find it straightforward to display whatever information your team needs.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
