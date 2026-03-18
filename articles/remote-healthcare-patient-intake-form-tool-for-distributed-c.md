@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Healthcare Patient Intake Form Tool for Distributed Clinics Going Paperless 2026"
-description: "A technical guide for developers and power users building patient intake solutions for distributed healthcare networks transitioning to paperless operations."
+title: "Remote Healthcare Patient Intake Form Tool for."
+description: "A technical guide for developers and power users building patient intake solutions for distributed healthcare networks transitioning to paperless."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-healthcare-patient-intake-form-tool-for-distributed-c/
@@ -193,6 +193,11 @@ function navigateToSection(currentIndex, direction = 'next') {
 Moving distributed clinics toward paperless patient intake requires balancing usability, compliance, and technical complexity. By implementing schema-driven forms with offline capabilities, robust encryption, and thoughtful integration with existing healthcare systems, your organization can achieve meaningful efficiency gains while maintaining regulatory compliance.
 
 The transition need not happen all at once. Begin with a single location, measure completion rates and error frequency, then expand systematically. Each incremental improvement compounds as your distributed network grows.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
