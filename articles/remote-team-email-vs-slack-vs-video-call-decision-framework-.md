@@ -2,13 +2,13 @@
 layout: default
 title: "Remote Team Email vs Slack vs Video Call Decision Framework for Managers 2026"
 description: "A practical decision framework for choosing between email, Slack, and video calls in remote teams. Includes matrix, code examples, and implementation patterns for engineering managers."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /remote-team-email-vs-slack-vs-video-call-decision-framework-/
 categories: [guides]
 tags: [remote-work, communication, team-management, async-communication, decision-framework]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
