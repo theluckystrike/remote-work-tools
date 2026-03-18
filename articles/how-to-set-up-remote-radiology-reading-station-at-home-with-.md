@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Remote Radiology Reading Station at Home with Proper Equipment"
-description: "A technical guide for radiologists and healthcare IT professionals setting up home PACS workstations. Covers hardware requirements, network configuration, security compliance, and workstation optimization."
+title: "How to Set Up Remote Radiology Reading Station at Home."
+description: "A technical guide for radiologists and healthcare IT professionals setting up home PACS workstations. Covers hardware requirements, network."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-radiology-reading-station-at-home-with-/
@@ -227,6 +227,11 @@ Validate image quality by comparing home readings against known datasets. Report
 A properly configured remote radiology reading station enables efficient, accurate interpretation from home while maintaining clinical standards and regulatory compliance. The investment in medical-grade displays, robust computing hardware, and secure network infrastructure pays dividends in productivity and diagnostic confidence.
 
 Start with your organization's IT security requirements, then work through the hardware specifications outlined here. Test thoroughly before beginning clinical work, and maintain ongoing documentation of your configuration for compliance audits.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

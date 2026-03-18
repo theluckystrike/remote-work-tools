@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Team Decision Making Framework for Distributed Organizations"
-description: "A practical guide to building a decision-making framework for remote and distributed teams. Includes templates, decision matrices, and implementation code for async workflows."
+title: "How to Create Remote Team Decision Making Framework for."
+description: "A practical guide to building a decision-making framework for remote and distributed teams. Includes templates, decision matrices, and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-decision-making-framework-for-dist/
@@ -218,6 +218,11 @@ Track these metrics to gauge whether your framework works:
 Regular review ensures the framework serves the team rather than becoming bureaucratic overhead.
 
 Building a decision-making framework for distributed teams takes deliberate effort, but the payoff is significant: faster decisions, clearer accountability, and team members who trust the process because they understand it. Start simple, iterate based on experience, and remember that the goal is better outcomes, not more documentation.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

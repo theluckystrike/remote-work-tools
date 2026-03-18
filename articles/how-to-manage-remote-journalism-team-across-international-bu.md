@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Remote Journalism Team Across International Bureaus and Time Zones"
+title: "How to Manage Remote Journalism Team Across."
 description: "A practical technical guide for managing distributed journalism teams across global bureaus with async workflows, shared tools, and time zone optimization."
 date: 2026-03-16
 author: theluckystrike
@@ -169,6 +169,11 @@ If cycle times are increasing or after-hours messages are climbing, your async i
 Managing a remote journalism team across international bureaus requires replacing synchronous habits with async systems. The teams that thrive invest in clear workflows, appropriate tooling, and explicit communication norms. Start with the tiered communication system, build shared pipelines, and protect your overlap windows for the conversations that truly require real-time interaction.
 
 The future of journalism is distributed. Building robust async operations now positions your newsroom for that reality.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

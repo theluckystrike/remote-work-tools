@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Remote Pharmacy Consultation Service with Video Conferencing Tools"
-description: "A technical guide for developers and power users building remote pharmacy consultation services. Covers video API integration, HIPAA compliance, and real-time communication architecture."
+title: "How to Set Up Remote Pharmacy Consultation Service with."
+description: "A technical guide for developers and power users building remote pharmacy consultation services. Covers video API integration, HIPAA compliance, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-pharmacy-consultation-service-with-video-conferencing-tools/
@@ -154,6 +154,11 @@ As your service grows, the architecture must handle increased demand:
 **Queue Management**: Implement consultation queuing for peak periods. Patients should see their position in queue and receive estimated wait times.
 
 Building a remote pharmacy consultation service demands attention to healthcare-specific requirements beyond standard video conferencing. The technical foundation must support regulatory compliance, integrate with pharmacy operations, and provide reliable access for patients across technical comfort levels. With proper architecture and implementation, video consultations can expand pharmacy services to patients who cannot visit in person while maintaining the security and documentation standards healthcare requires.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
