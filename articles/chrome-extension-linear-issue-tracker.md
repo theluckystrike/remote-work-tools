@@ -8,9 +8,10 @@ permalink: /chrome-extension-linear-issue-tracker/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
-Linear is a popular issue tracking tool among development teams for its clean interface and tight GitHub integration. While Linear offers a web app and desktop client, Chrome extensions can enhance your workflow by bringing Linear functionality directly into your browser. This guide covers practical extensions, their use cases, and how to integrate them into your daily development routine.
+Install the official Linear browser extension to create issues from any webpage without context switching and preview issues directly in GitHub PRs. Linear is popular among development teams for its clean interface and GitHub integration, but Chrome extensions add capabilities that improve workflow efficiency—create issues without switching tabs, view issue previews in PRs, and access notifications directly in Chrome. This guide covers practical Linear extensions and how to integrate them into your daily development routine.
 
 ## Why Use Chrome Extensions with Linear
 

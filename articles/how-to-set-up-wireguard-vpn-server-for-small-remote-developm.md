@@ -9,6 +9,7 @@ permalink: /how-to-set-up-wireguard-vpn-server-for-small-remote-developm/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
@@ -32,8 +33,7 @@ Install WireGuard on the server:
 
 ```bash
 # Ubuntu and Debian
-sudo apt update
-sudo apt install wireguard
+Set up a WireGuard VPN server by deploying it on a low-cost cloud instance, configuring client keys for each team member, and testing connectivity before rolling out. WireGuard's lightweight architecture makes it ideal for small development teams needing secure access without the overhead of traditional VPN solutions.
 
 # CentOS and RHEL
 sudo yum install epel-release

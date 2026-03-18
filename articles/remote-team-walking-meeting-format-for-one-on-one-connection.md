@@ -10,7 +10,7 @@ categories: [guides]
 tags: [remote-work, meetings, one-on-one, walking-meeting]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -18,7 +18,7 @@ voice-checked: false
 {% raw %}
 # Remote Team Walking Meeting Format for One-on-One Connections
 
-Walking meetings transform standard one-on-ones into dynamic conversations that benefit from physical movement, fresh air, and a change of environment. For remote teams, this format requires deliberate setup since participants connect through screens while walking different routes. This guide provides a practical framework you can implement immediately.
+Use virtual walking meetings via video call while walking alone to maintain connection with direct reports while both parties get movement and fresh air. This casual format often produces more candid conversations than formal desk-based one-on-ones.
 
 ## Why Walking Meetings Work for Remote One-on-Ones
 

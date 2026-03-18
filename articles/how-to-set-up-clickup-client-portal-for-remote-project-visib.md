@@ -9,12 +9,11 @@ permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 
-Setting up a ClickUp client portal gives remote development teams a structured way to share project progress with clients without resorting to endless email chains or frequent status meetings. For developers and technical leads managing distributed teams, the challenge is giving clients enough visibility to build trust while keeping internal technical discussions private. ClickUp's guest access and portal features provide the granularity needed to achieve this balance.
-
-This guide covers the technical implementation of client portals in ClickUp, with practical examples and automation patterns suitable for developer workflows.
+To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest provisioning and filter client-facing views. This approach gives remote development teams visibility into project progress while keeping internal technical discussions private.
 
 ## Guest Access vs. Client Portal: Understanding Your Options
 
@@ -56,13 +55,7 @@ def create_client_guest(email, name, accessible_list_ids):
     return response.json()
 
 # Example: Add a client to a specific project list
-client = create_client_guest(
-    email="client@acme.com",
-    name="Sarah Chen",
-    accessible_list_ids=["abc12345", "def67890"]
-)
-print(f"Guest created: {client.get('id')}")
-```
+To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest provisioning and filter client-facing views. This approach gives remote development teams visibility into project progress while keeping internal technical discussions private.
 
 This approach works well when you need to provision multiple clients across different projects—simply extend the `accessible_list_ids` array to match your project structure.
 

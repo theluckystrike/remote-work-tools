@@ -11,7 +11,7 @@ categories: [guides]
 tags: [remote-work, team-culture, morale, slack, discord, async-communication]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -19,7 +19,7 @@ voice-checked: false
 {% raw %}
 # Weekly Wins Channel Setup and Facilitation for Remote Team Morale
 
-Remote work removes the casual hallway conversations where team members naturally share accomplishments. Without these organic moments, achievements often go unnoticed, and team morale gradually declines. A well-structured weekly wins channel fills this gap by creating a dedicated space for recognizing progress and celebrating successes.
+Launch a weekly wins channel by setting a consistent posting day and format, making participation easy with simple templates, and celebrating wins visibly to build team morale. Weekly wins channels combat the invisibility of remote work achievements.
 
 This guide covers setting up a weekly wins channel that drives genuine engagement, including configuration examples, facilitation techniques, and automation options for teams using Slack or Discord.
 

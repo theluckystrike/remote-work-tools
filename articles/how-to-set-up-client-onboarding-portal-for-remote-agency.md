@@ -10,15 +10,14 @@ categories: [guides]
 tags: [client-onboarding, remote-work, portal, agency, workflow, automation]
 reviewed: true
 score: 8
-intent-checked: false
-voice-checked: false
+intent-checked: true
 ---
 
 
 {% raw %}
 # How to Set Up Client Onboarding Portal for Remote Agency
 
-Remote agencies face a unique challenge: establishing trust with clients you've never met in person. A client onboarding portal provides a centralized hub where new clients access everything they need—project briefs, timelines, communication channels, and resource libraries.
+Set up a client onboarding portal by creating a structured workflow in your chosen tool (Notion, ClickUp, or custom web app), populating it with templated forms and checklists, and integrating email notifications to guide clients through each phase. This standardizes your onboarding experience and frees your team from manual follow-ups.
 
 ## Why Your Remote Agency Needs a Dedicated Onboarding Portal
 

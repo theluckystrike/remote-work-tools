@@ -10,14 +10,14 @@ categories: [guides]
 tags: [remote-work, conflict-resolution, team-management, distributed-teams, leadership]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Remote Team Conflict Resolution Framework for Managers Handling Distributed Disagreements
 
-Conflict in remote teams operates differently than in-office environments. Without the ability to read body language or pull someone aside for a quick hallway conversation, managers must develop structured approaches to addressing disagreements. A solid conflict resolution framework transforms potential team dysfunction into opportunities for stronger collaboration.
+Resolve remote team conflicts using a structured framework of listening sessions with each party, identifying underlying interests (not just positions), and facilitating a solution discussion that both parties help craft. This approach works well async and prevents escalation to senior leadership.
 
 This guide provides managers with a practical framework for resolving conflicts in distributed teams, with specific tactics you can implement immediately.
 

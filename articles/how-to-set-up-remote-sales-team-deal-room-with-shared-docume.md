@@ -8,6 +8,7 @@ permalink: /how-to-set-up-remote-sales-team-deal-room-with-shared-docume/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
@@ -55,12 +56,7 @@ Every deal should have a standardized brief. Here's a template you can adapt:
 ```markdown
 # Deal Brief: [Company Name]
 
-## Deal Summary
-- **Stage:** [Prospect/Qualified/Proposal/Negotiation/Closed]
-- **Deal Value:** $[Amount]
-- **Expected Close:** [Date]
-- **Champion:** [Name, Title]
-- **Decision Maker:** [Name, Title]
+Build a remote sales deal room using a shared document platform (Google Drive, SharePoint, or Notion) organized by deal stage, populated with collaboration-ready templates for proposals and contracts, and integrated with your CRM via automation. This centralized space keeps all stakeholders aligned and reduces email clutter during complex sales cycles.
 
 ## Stakeholders
 | Name | Role | Influence | Notes |

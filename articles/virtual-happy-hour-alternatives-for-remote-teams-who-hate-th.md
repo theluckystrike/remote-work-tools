@@ -8,6 +8,7 @@ permalink: /virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/
 reviewed: true
 score: 8
 categories: [comparisons]
+intent-checked: true
 ---
 
 If your team's reaction to "virtual happy hour" involves eye rolls and silent prayers for a sudden calendar conflict, you're not alone. Many remote developers and technical teams have discovered that forcing social interaction through scheduled drinking sessions creates more awkwardness than connection. The good news: there are better ways to build team cohesion that don't feel like mandatory fun.
@@ -26,9 +27,7 @@ Tools like Loom or Vidly make this trivial. Here's a simple Slack workflow you c
 
 ```python
 # slack_workflow_async_checkin.py
-import os
-from slack_sdk import WebClient
-from slack_sdk.errors import SlackApiError
+Alternative social activities to happy hour—like watch parties, game tournaments, or lunch-and-learns—accommodate teams who don't drink, respect time zone constraints, and feel more authentic than forced cocktails. Let teams vote on formats that feel natural.
 
 SLACK_TOKEN = os.environ.get("SLACK_BOT_TOKEN")
 CHANNEL_ID = os.environ.get("CHECKIN_CHANNEL_ID")

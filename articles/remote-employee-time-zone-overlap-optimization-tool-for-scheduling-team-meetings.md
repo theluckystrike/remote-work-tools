@@ -9,14 +9,14 @@ categories: [guides]
 tags: [remote-work, time-zones, scheduling, tools]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Remote Employee Time Zone Overlap Optimization Tool for Scheduling Team Meetings
 
-When your engineering team spans San Francisco, London, and Tokyo, finding a meeting slot that doesn't require someone to join at 6 AM or 10 PM becomes a mathematical optimization problem. A time zone overlap optimization tool solves this by calculating working hour intersections across all team members' time zones, helping you schedule meetings during reasonable hours for everyone involved.
+Find optimal meeting times for distributed teams using visualization tools that show time zone overlap, such as World Time Buddy or built-in calendar features in Google Calendar and Outlook. Respecting time zones prevents burnout and shows your team you value work-life balance.
 
 This guide walks through building and using such a tool, with practical code examples you can adapt for your team's workflow.
 

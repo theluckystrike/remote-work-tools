@@ -9,14 +9,14 @@ categories: [guides]
 tags: [knowledge-base, documentation, remote-work, incentives]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
 {% raw %}
 # Remote Team Knowledge Base Contribution Incentive Program for Engineering Teams
 
-Building a thriving knowledge base in a remote engineering organization requires more than just good intentions. Engineers are busy, documentation often takes a backseat to shipping features, and without structured incentive programs, your knowledge base becomes a ghost town. This guide shows you how to design and implement a contribution incentive program that actually works for distributed engineering teams.
+Create a knowledge base contribution program that incentivizes documentation through recognition, rewards, or learning time allocations, making contribution frictionless via simple templates, and celebrating high-quality submissions publicly. Incentives shift knowledge management from a burden to a valued activity.
 
 ## The Problem with Unstructured Knowledge Sharing
 

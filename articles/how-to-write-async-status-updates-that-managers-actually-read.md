@@ -8,13 +8,12 @@ permalink: /how-to-write-async-status-updates-that-managers-actually-read/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
 
-Asynchronous status updates have become the backbone of remote team communication. Yet most managers skim past generic status reports because they lack specificity, context, or clear action items. The difference between an update that gets ignored and one that drives meaningful conversations comes down to structure and strategy.
-
-This guide covers how to write async status updates that managers actually read, with practical templates you can adapt for any team or project.
+Craft status updates managers read by opening with the single most important insight (impact or blocker), organizing supporting details into 3-4 bullet points, and closing with a clear ask. This format respects attention bandwidth while ensuring critical information surfaces through the noise.
 
 ## Why Most Status Updates Fail
 

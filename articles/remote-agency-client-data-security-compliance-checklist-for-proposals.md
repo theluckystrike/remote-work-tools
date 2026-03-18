@@ -10,7 +10,7 @@ categories: [guides]
 tags: [security, compliance, remote-work, proposals]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 
@@ -18,7 +18,7 @@ voice-checked: false
 {% raw %}
 # Remote Agency Client Data Security Compliance Checklist for Proposals
 
-When you run a remote agency, every client proposal needs a clear data security section. Clients—especially those in regulated industries—want to know their data stays protected when you handle it. A well-structured compliance checklist in your proposal demonstrates professionalism and builds trust from the first conversation.
+Address client data security and compliance expectations upfront by documenting your encryption standards, backup procedures, access controls, and compliance certifications (SOC 2, GDPR, HIPAA) in your proposals. Proactive transparency about security prevents expensive disputes later and wins trust.
 
 This guide provides a practical checklist you can adapt for proposals, with concrete examples and actionable requirements your agency can implement immediately.
 

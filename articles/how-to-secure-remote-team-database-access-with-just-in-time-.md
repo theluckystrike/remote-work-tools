@@ -9,11 +9,12 @@ permalink: /how-to-secure-remote-team-database-access-with-just-in-time-/
 categories: [guides]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
-Just-in-time (JIT) database access transforms how remote teams handle sensitive data. Instead of handing out permanent credentials that remain active indefinitely, you grant temporary access that expires automatically. This approach dramatically reduces the attack surface while maintaining developer productivity.
+Implement just-in-time database access that generates temporary credentials on-demand and expires them automatically—replacing permanent credentials that persist after employees leave. Just-in-time database access transforms how remote teams handle sensitive data by granting temporary access that expires automatically instead of permanent credentials. This approach dramatically reduces attack surface (leaked credentials become useless within hours) while maintaining developer productivity. This guide covers how JIT access works, implementation approaches with code examples, and practical deployment strategies.
 
 ## The Problem with Permanent Database Credentials
 

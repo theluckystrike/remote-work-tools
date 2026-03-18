@@ -10,13 +10,14 @@ categories: [troubleshooting]
 tags: [scope-change, client-communication, remote-agency]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # Remote Agency Scope Change Request Workflow for Client Projects
 
-Scope changes are inevitable in client work. A client discovers a new requirement mid-project, market conditions shift, or priorities evolve. What separates healthy project evolution from destructive scope creep is having a clear, documented workflow for handling these changes. This guide provides a practical scope change request workflow specifically designed for remote agencies working with distributed teams and async communication.
+Build a scope change workflow that requires written change requests documenting what's being added, estimating impact on timeline and budget, and requiring approval before execution. This prevents scope creep and keeps client expectations aligned with deliverables.
 
 ## The Core Problem
 
