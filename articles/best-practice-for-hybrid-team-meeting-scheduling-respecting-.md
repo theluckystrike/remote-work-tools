@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Hybrid Team Meeting Scheduling Respecting Remote and Office Preferences"
-description: "Learn practical strategies for scheduling hybrid meetings that respect both remote and office-based team members. Includes code examples, tooling recommendations, and implementation patterns for engineering teams."
+title: "Best Practice for Hybrid Team Meeting Scheduling."
+description: "Learn practical strategies for scheduling hybrid meetings that respect both remote and office-based team members. Includes code examples, tooling."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-meeting-scheduling-respecting-/
@@ -208,6 +208,11 @@ If you see disparities, iterate on your meeting formats. The goal is equitable o
 Building meeting systems that respect both remote and office preferences isn't about finding a perfect balance—it's about creating processes that continuously check for imbalances and correct them. Small structural changes compound into significant improvements in team equity and productivity.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

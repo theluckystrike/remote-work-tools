@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Design Hybrid Meeting Room with Equal Experience for Remote Attendees"
-description: "A technical guide to building hybrid meeting rooms where remote participants get the same experience as in-room attendees. Covers AV setup, software architecture, and implementation."
+title: "How to Design Hybrid Meeting Room with Equal Experience."
+description: "A technical guide to building hybrid meeting rooms where remote participants get the same experience as in-room attendees. Covers AV setup, software."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/
@@ -262,6 +262,11 @@ Even well-designed hybrid rooms fail when teams overlook these issues:
 Designing a hybrid meeting room with equal experience requires attention to both hardware and software. Focus on audio clarity first—poor audio ruins meetings faster than poor video. Then address visual requirements, ensuring remote participants can see materials clearly. Finally, invest in proper network infrastructure and software configuration to tie everything together.
 
 The investment in proper hybrid meeting design pays dividends in team collaboration. When remote participants have equal experience, they stay engaged, contribute more, and feel genuinely part of the team regardless of their physical location.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

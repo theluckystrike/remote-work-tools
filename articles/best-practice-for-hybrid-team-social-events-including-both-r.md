@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Social Events Including Both Remote and In-Office"
-description: "A practical guide to organizing hybrid team social events that engage both remote and in-office employees. Includes code examples, scheduling tools, and implementation strategies for engineering teams."
+title: "Best Practice for Hybrid Team Social Events Including."
+description: "A practical guide to organizing hybrid team social events that engage both remote and in-office employees. Includes code examples, scheduling tools."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-social-events-including-both-r/
@@ -157,6 +157,11 @@ Before your next hybrid social event, verify:
 Hybrid team social events succeed when they create genuine moments of connection rather than obligations to attend another meeting. The best practices outlined here—activity-first scheduling, synchronous participation, proper technology investment, and continuous feedback iteration—provide a framework that adapts to your team's specific needs.
 
 The goal is not to replicate office proximity but to create new forms of connection that work regardless of physical location. When designed thoughtfully, hybrid events can actually include more people than purely in-person gatherings while maintaining the relational depth that makes team culture meaningful.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by the luckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
