@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Best Practice for Hybrid Team Standup Format Accommodating Mixed In-Person and Remote"
 description: "A practical guide to running effective hybrid standups that include both in-office and remote developers. Includes formats, tools, and facilitation tips."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-standup-format-accommodating-m/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
+
 
 Running standups in a hybrid environment presents unique challenges that purely remote or purely in-person teams never face. When half your team is sitting together in a conference room while the other half joins from home, you risk creating two-tier experiences where remote participants feel disconnected or information doesn't flow equally. This guide covers practical formats and techniques for hybrid standups that keep every team member engaged and informed.
 

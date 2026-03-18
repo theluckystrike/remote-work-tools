@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "Meeting Room Acoustic Treatment Guide for Hybrid Offices - Reducing Echo on Calls"
 description: "A practical technical guide for developers and power users implementing acoustic treatment in meeting rooms to reduce echo and improve call quality for hybrid teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # Meeting Room Acoustic Treatment Guide for Hybrid Offices - Reducing Echo on Calls

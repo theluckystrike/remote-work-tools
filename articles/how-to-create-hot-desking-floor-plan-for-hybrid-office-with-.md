@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Create Hot Desking Floor Plan for Hybrid Office with Neighborhood Zones"
 description: "Learn how to create a hot desking floor plan for hybrid office spaces with neighborhood zones. Practical examples, data structures, and implementation patterns for developers and facility managers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/
 categories: [guides]
 tags: [hot-desking, hybrid-office, floor-plan, neighborhood-zones, office-management, workspace]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Create Hot Desking Floor Plan for Hybrid Office with Neighborhood Zones

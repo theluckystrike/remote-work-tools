@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Best Conference Room Speaker Mic for Hybrid Meetings with 10 In-Room Participants"
 description: "A technical comparison of conference room speaker microphone systems optimized for hybrid meetings with 10 in-room participants. Covers audio quality, coverage patterns, and configuration."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-conference-room-speaker-mic-for-hybrid-meetings-with-10/
 categories: [guides, hardware]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Best Conference Room Speaker Mic for Hybrid Meetings with 10 In-Room Participants

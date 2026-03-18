@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Design Hybrid Meeting Room with Equal Experience for Remote Attendees"
 description: "A technical guide to building hybrid meeting rooms where remote participants get the same experience as in-room attendees. Covers AV setup, software architecture, and implementation."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/
 categories: [guides]
 tags: [hybrid-meeting, remote-work, AV-setup, meeting-room, video-conferencing]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Design Hybrid Meeting Room with Equal Experience for Remote Attendees
