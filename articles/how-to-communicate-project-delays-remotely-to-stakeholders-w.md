@@ -10,11 +10,14 @@ categories: [guides]
 tags: [project-management, remote-communication, stakeholder-management, transparency, delay-notification]
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 ---
 
 
 {% raw %}
+
+Communicate project delays remotely to stakeholders by providing clear, structured notifications that include what changed, why it happened, your resolution plan, and a revised timeline—delivered early and specifically rather than with vague language or excessive apologies. This template-driven approach builds trust and manages expectations even when delivering bad news.
+
 # How to Communicate Project Delays Remotely to Stakeholders with Transparency: Template Guide
 
 Every developer faces it eventually: a project timeline that slips, dependencies that fail, or scope creep that derails the best-laid plans. When this happens remotely, the challenge intensifies. You cannot walk into a stakeholder's office for a quick chat. Every communication must be deliberate, clear, and trustworthy. This guide provides actionable templates, code examples, and workflows for communicating project delays to stakeholders while maintaining credibility and transparency.

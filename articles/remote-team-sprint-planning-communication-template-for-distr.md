@@ -7,11 +7,13 @@ author: "Remote Work Tools"
 permalink: /remote-team-sprint-planning-communication-template-for-distr/
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 categories: [guides]
 ---
 
 {% raw %}
+
+Run distributed sprint planning using async preparation phases in dedicated Slack channels where team members review backlog and post sprint commitments 48 hours before meetings, followed by structured async standup templates replacing daily synchronous meetings. This approach enables meaningful sprint coordination across time zones while reducing meeting overhead from hours to focused synchronous sessions.
 
 Sprint planning in distributed Scrum teams presents unique communication challenges. When your team spans multiple time zones, synchronous planning sessions become expensive, and informal hallway conversations disappear. A well-structured Slack-based communication template can bridge this gap, enabling async preparation, focused synchronous sessions, and clear handoffs across time zones.
 

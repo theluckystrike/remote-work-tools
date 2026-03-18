@@ -7,11 +7,14 @@ author: "Remote Work Tools"
 permalink: /how-to-facilitate-remote-team-workshops-using-miro-with-stru/
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 categories: [guides]
 ---
 
 {% raw %}
+
+Run effective remote workshops in Miro by combining structured communication exercises like round-robin protocols, async brainstorming, parking lot management, dot voting, and breakout frames with clear time boundaries and organized visual layouts. These techniques ensure equal participation, maintain engagement, and drive actionable outcomes for distributed teams.
+
 Running productive remote workshops presents unique challenges. Without the benefit of physical presence, facilitators must work harder to maintain engagement, ensure equal participation, and drive meaningful outcomes. Miro provides a powerful collaborative canvas, but the tool alone doesn't guarantee successful workshops. Combining Miro's features with structured communication exercises creates a framework that transforms async collaboration into focused,高效 sessions.
 
 This guide covers practical techniques for facilitating remote team workshops using Miro, with emphasis on structured communication exercises that developers and power users can implement immediately.
