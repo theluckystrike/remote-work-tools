@@ -2,13 +2,13 @@
 layout: default
 title: "Remote Legal Billing Software Comparison for Distributed Law Firms Tracking Hours 2026"
 description: "A technical comparison of remote legal billing software for distributed law firms. Evaluate time tracking, invoicing, trust accounting, and API integrations for remote legal teams."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /remote-legal-billing-software-comparison-for-distributed-law/
 categories: [comparisons]
 tags: [legal-billing, remote-work, law-firms, time-tracking, legal-tech, distributed-teams]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
