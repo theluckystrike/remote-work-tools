@@ -6,6 +6,10 @@ description: "A practical technical guide for developers and power users buildin
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-compliant-remote-employee-benefits-across-mult/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 # How to Set Up Compliant Remote Employee Benefits Across Multiple US States
