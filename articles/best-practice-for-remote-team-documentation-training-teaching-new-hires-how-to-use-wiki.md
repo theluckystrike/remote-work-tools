@@ -9,12 +9,11 @@ permalink: /best-practice-for-remote-team-documentation-training-teaching-new-hi
 reviewed: true
 score: 8
 categories: [best-of]
+intent-checked: true
 ---
 
 
-As remote developer teams grow, documentation becomes the backbone of knowledge sharing. A well-structured wiki empowers new hires to find answers independently, reduces repetitive questions, and accelerates onboarding. Training remote team members to use wiki effectively requires a structured approach that combines clear conventions, hands-on practice, and ongoing reinforcement.
-
-This guide covers practical strategies for teaching new hires how to use wiki systems, with examples tailored for developer and power user teams using tools like Confluence, Notion, GitHub Wiki, or custom solutions.
+Teach new hires to use your wiki by giving them a "Getting Started" page on day one covering naming conventions, section structure, and linking habits. Then assign them a hands-on practice task: find three specific answers in your wiki (e.g., "How do we deploy to staging?" or "Where are AWS credentials stored?"). Have them report back what they found and how long it took—this identifies navigation problems immediately. Finally, require them to contribute one new page or update two existing pages during their first sprint, which both embeds wiki habits and catches outdated content.
 
 ## Establishing Wiki Conventions Early
 

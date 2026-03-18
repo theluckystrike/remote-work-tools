@@ -9,13 +9,10 @@ categories: [guides]
 tags: [remote-work, expense-policy, handbook, reimbursement, remote-teams]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
-# Remote Team Handbook Section Template for Writing Expense Reimbursement Policy
-
-A well-crafted expense reimbursement policy prevents confusion, reduces reimbursement disputes, and saves hours of back-and-forth communication. For remote teams scattered across time zones, clarity becomes even more critical since employees cannot simply walk to finance for quick clarifications.
-
-This guide provides a template you can adapt directly into your remote team handbook, with explanations for each section and practical examples showing how to handle common scenarios.
+Copy this expense reimbursement template directly into your handbook: list eligible expenses (home office equipment, software, internet, travel, professional development), define submission process (expense tool + receipt within 30 days), set approval tiers by amount ($0-$100 manager-approved, $100-$500 CFO approval, $500+ founder), require specific documentation (date, business purpose, receipt), and commit to reimbursement within 15 days of approval. This structure eliminates the guesswork that otherwise eats up finance team time fielding clarification questions across time zones.
 
 ## Policy Structure Overview
 

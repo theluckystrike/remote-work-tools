@@ -9,14 +9,11 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
 {% raw %}
-# How to Structure Remote Team Handbook Table of Contents: Covering All Essential Policies
-
-A remote team handbook serves as the single source of truth for distributed organizations. Without physical office spaces reinforcing company culture and policies, documentation becomes the backbone of operational consistency. Structuring your handbook's table of contents strategically ensures every team member—from new hires to seasoned developers—can navigate policies efficiently and find answers without friction.
-
-This guide provides a comprehensive framework for building a remote team handbook table of contents that covers all essential policies, with practical examples tailored for developer-centric and power-user teams.
+Structure your remote handbook with these 10 core sections in order: Welcome & Mission → Communication Norms → Work Schedule & Time Tracking → Performance Management → Compensation & Benefits → Expense Reimbursement → Time Off Policies → Onboarding & Offboarding → Tools & Access → Code of Conduct. Make each section findable within three clicks and keep content actionable (e.g., "What do I do when..." instead of vague guidance). Use this specific ordering because time-critical topics like communication norms and work schedules come first, policy details follow, and code of conduct anchors the handbook's values.
 
 ## Core Principles for Handbook Structure
 

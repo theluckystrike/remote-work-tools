@@ -9,14 +9,11 @@ categories: [guides]
 tags: [documentation, remote-work, wiki, team-collaboration, dev-productivity]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 {% raw %}
-# How to Create a Remote Team Documentation Sprint: Fixing Outdated Wiki Pages
-
-Remote teams face a common problem: their wiki or knowledge base accumulates stale content faster than anyone can maintain it. Outdated documentation wastes developer time, causes confusion during onboarding, and erodes trust in your team's processes. A documentation sprint—a focused, time-boxed effort to improve your wiki—provides a structured solution to this recurring issue.
-
-This guide walks you through organizing an effective documentation sprint specifically designed to identify, prioritize, and fix outdated wiki pages in a remote team environment.
+To fix your outdated wiki, run a 2-week documentation sprint: audit stale pages using `git log --since="180 days ago"`, categorize them as critical/useful/deprecated, assign each person 2-4 pages to update (not write new ones), and use a shared tracking spreadsheet to show progress daily. Start with critical pages affecting onboarding or production, then let team members tackle their specialties. This structured time-box prevents wiki maintenance from disappearing back into the backlog indefinitely.
 
 ## Why Documentation Sprints Work
 
