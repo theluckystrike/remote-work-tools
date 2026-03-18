@@ -11,6 +11,7 @@ tags: [return-to-office, it-checklist, workstation-management, access-control, o
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

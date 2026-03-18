@@ -11,6 +11,7 @@ tags: [hybrid-work, management-training, leadership, distributed-teams, team-man
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 
