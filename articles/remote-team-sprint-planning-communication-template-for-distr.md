@@ -3,8 +3,11 @@ layout: default
 title: "Remote Team Sprint Planning Communication Template for Distributed Scrum Teams Using Slack"
 description: "A practical Slack-based communication template for distributed Scrum teams to streamline async sprint planning, daily standups, and retrospective workflows."
 date: 2026-03-16
-author: theluckystrike
-permalink: /remote-team-sprint-planning-communication-template-for-distributed-scrum-teams-using-slack/
+author: "Remote Work Tools"
+permalink: /remote-team-sprint-planning-communication-template-for-distr/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}

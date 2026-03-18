@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Remote Team All Hands Meeting Question Collection Tool for Distributed Organizations Guide"
 description: "A comprehensive guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes implementation patterns, code examples, and best practices for engineering teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-all-hands-meeting-question-collection-tool-for-d/
 categories: [guides]
 tags: [remote-work, all-hands-meeting, distributed-teams, question-collection, async-communication, meeting-tools]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Remote Team All Hands Meeting Question Collection Tool for Distributed Organizations Guide
@@ -28,7 +32,7 @@ Before implementing a solution, define the requirements your tool must satisfy. 
 
 ### Approach 1: Custom GitHub Issues Integration
 
-For engineering teams already comfortable with GitHub, leveraging Issues creates a low-friction workflow:
+For engineering teams already comfortable with GitHub, using Issues creates a low-friction workflow:
 
 ```javascript
 // GitHub Issue-based question collector
