@@ -9,6 +9,7 @@ permalink: /best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

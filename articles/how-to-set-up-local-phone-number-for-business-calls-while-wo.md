@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-local-phone-number-for-business-calls-while-wo/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

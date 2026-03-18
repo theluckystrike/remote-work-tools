@@ -11,6 +11,7 @@ tags: [compliance, sox, iso-27001, remote-work, documentation, audit]
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 
