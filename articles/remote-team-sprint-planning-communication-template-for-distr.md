@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /remote-team-sprint-planning-communication-template-for-distr/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

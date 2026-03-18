@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /how-to-create-remote-team-communication-guidelines-for-new-p/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

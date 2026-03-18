@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /how-to-create-remote-team-escalation-communication-template-/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

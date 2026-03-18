@@ -10,6 +10,7 @@ categories: [guides]
 tags: [project-management, remote-communication, stakeholder-management, transparency, delay-notification]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

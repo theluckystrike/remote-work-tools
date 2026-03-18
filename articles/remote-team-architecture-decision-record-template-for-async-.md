@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /remote-team-architecture-decision-record-template-for-async-/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

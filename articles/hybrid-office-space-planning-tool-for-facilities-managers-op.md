@@ -8,6 +8,7 @@ permalink: /hybrid-office-space-planning-tool-for-facilities-managers-op/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

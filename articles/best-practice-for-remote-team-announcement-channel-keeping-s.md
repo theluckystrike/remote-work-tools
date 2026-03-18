@@ -9,6 +9,7 @@ categories: [guides]
 tags: [remote-work, communication, team-management, slack, discord]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

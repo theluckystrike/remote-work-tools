@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-track-remote-team-hiring-pipeline-velocity-for-distri/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

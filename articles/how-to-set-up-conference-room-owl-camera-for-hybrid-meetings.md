@@ -9,6 +9,7 @@ categories: [guides]
 tags: [hybrid-meetings, conference-room, owl-labs, video-conferencing, remote-work]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

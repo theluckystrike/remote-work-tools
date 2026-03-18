@@ -10,6 +10,7 @@ categories: [guides]
 tags: [lightning-talks, remote-work, presentations, team-collaboration, knowledge-sharing]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

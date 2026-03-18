@@ -10,6 +10,7 @@ tags: [remote-work, communication, productivity, meetings, slack, team-managemen
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

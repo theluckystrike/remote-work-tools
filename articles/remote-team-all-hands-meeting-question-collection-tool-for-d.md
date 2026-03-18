@@ -13,6 +13,7 @@ categories: [guides]
 tags: [remote-work, all-hands-meeting, distributed-teams, question-collection, async-communication, meeting-tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

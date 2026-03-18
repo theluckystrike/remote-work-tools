@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /how-to-create-hybrid-work-stipend-policy-covering-both-home-/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

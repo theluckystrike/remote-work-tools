@@ -9,6 +9,7 @@ categories: [guides]
 tags: [hybrid-office, badge-access, desk-utilization, occupancy-tracking, workplace-analytics]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

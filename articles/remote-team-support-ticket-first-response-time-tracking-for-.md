@@ -8,6 +8,7 @@ author: "Remote Work Tools"
 permalink: /remote-team-support-ticket-first-response-time-tracking-for-/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

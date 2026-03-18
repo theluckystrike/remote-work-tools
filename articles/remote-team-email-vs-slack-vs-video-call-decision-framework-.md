@@ -10,6 +10,7 @@ tags: [remote-work, communication, team-management, async-communication, decisio
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

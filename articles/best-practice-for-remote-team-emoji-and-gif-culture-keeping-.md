@@ -4,6 +4,7 @@ raw %}
 author: "Remote Work Tools Guide"
 reviewed: true
 score: 8
+voice-checked: true
 date: 2026-03-15
 categories: [troubleshooting]
 permalink: /best-practice-for-remote-team-emoji-and-gif-culture-keeping-/

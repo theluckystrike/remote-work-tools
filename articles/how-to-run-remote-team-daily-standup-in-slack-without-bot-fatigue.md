@@ -9,6 +9,7 @@ categories: [guides]
 tags: [slack, daily-standup, remote-work, async-communication, team-collaboration]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

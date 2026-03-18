@@ -9,6 +9,7 @@ categories: [guides]
 tags: [async-communication, remote-work, standup-alternative, team-updates, weekly-status]
 reviewed: true
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

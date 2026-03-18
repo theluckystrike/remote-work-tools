@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /remote-team-conflict-resolution-over-chat-when-video-call-is/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

@@ -8,6 +8,7 @@ permalink: /remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/
 categories: [comparisons]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

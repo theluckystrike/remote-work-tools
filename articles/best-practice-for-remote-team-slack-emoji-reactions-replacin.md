@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /best-practice-for-remote-team-slack-emoji-reactions-replacin/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 
