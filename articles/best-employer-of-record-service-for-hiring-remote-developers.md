@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Best Employer of Record Service for Hiring Remote Developers Internationally 2026
-description: A practical guide to choosing the right employer of record service for hiring and managing remote developers across different countries.
+title: "Best Employer of Record Service for Hiring Remote Developers Internationally 2026"
+description: "A practical guide to choosing the right employer of record service for hiring and managing remote developers across different countries."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-employer-of-record-service-for-hiring-remote-developers/

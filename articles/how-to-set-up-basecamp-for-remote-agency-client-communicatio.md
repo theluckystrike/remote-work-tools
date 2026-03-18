@@ -12,6 +12,8 @@ score: 8
 intent-checked: true
 voice-checked: false
 ---
+{% raw %}
+
 
 # How to Set Up Basecamp for Remote Agency Client Communication
 
@@ -231,3 +233,4 @@ If clients still rely on email for primary communication, that's a sign the Base
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
