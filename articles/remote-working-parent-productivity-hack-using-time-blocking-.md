@@ -9,6 +9,7 @@ categories: [guides]
 tags: [productivity, time-management, remote-work, parenting, calendar]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

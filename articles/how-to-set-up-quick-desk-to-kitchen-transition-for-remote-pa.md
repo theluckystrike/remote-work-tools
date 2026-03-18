@@ -9,12 +9,14 @@ permalink: /how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/
 <<<<<<< HEAD
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 =======
 categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+voice-checked: true
 >>>>>>> cffa45fe6ff878e6ec5c6f3e78545a28b055679f
 ---
 

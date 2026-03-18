@@ -9,6 +9,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

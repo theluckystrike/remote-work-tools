@@ -10,6 +10,7 @@ categories: [guides]
 tags: [architecture-documentation, diagrams-as-code, remote-teams, mermaid, plantuml, technical-writing]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

@@ -9,6 +9,7 @@ categories: [guides]
 tags: [remote-work, work-life-balance, productivity, parenting, snow-day]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}

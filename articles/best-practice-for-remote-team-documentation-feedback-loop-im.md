@@ -11,6 +11,7 @@ tags: [documentation, remote-work, wiki, feedback-loop, knowledge-management]
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

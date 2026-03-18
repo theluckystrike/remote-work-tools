@@ -11,6 +11,7 @@ tags: [remote-work, productivity, health, work-from-home, parents]
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

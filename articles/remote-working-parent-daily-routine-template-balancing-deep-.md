@@ -10,6 +10,7 @@ categories: [guides]
 tags: [remote-work, productivity, deep-work, work-life-balance, parenting]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-write-remote-team-vendor-evaluation-documentation-tem/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

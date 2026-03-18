@@ -10,6 +10,7 @@ tags: [remote-onboarding, team-wiki, remote-work, onboarding-checklist, first-we
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

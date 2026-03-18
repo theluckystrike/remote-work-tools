@@ -10,6 +10,7 @@ categories: [guides]
 tags: [remote-work, parent, self-care, isolation, mental-health, developer-tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 

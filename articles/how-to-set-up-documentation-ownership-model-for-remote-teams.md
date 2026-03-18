@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-documentation-ownership-model-for-remote-teams/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 
