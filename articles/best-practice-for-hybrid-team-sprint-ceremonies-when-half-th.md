@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Best Practice for Hybrid Team Sprint Ceremonies When Half the Team is Remote"
 description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, facilitation tips, and async alternatives for development teams."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/
 categories: [guides]
 tags: [hybrid-work, sprint-ceremonies, agile, remote-work, team-communication]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Best Practice for Hybrid Team Sprint Ceremonies When Half the Team is Remote

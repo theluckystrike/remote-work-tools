@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Hybrid Team Onboarding Process Template for New Hires Splitting Time Between Office and Home"
 description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between office and home."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/
 categories: [guides]
 tags: [hybrid-work, onboarding, remote-work, team-management, developer-experience]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Hybrid Team Onboarding Process Template for New Hires Splitting Time Between Office and Home

@@ -1,12 +1,17 @@
 ---
 
+
 layout: default
 title: "How to Communicate Remote Work Policy Changes to Distributed Teams Without Causing Anxiety"
 description: "A practical guide for leaders and managers on announcing policy updates to remote teams while maintaining trust, reducing uncertainty, and keeping morale stable."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-communicate-remote-work-policy-changes-to-distributed/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 # How to Communicate Remote Work Policy Changes to Distributed Teams Without Causing Anxiety
