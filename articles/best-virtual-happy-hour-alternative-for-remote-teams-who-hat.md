@@ -10,6 +10,7 @@ tags: [remote-work, async-communication, team-culture, optional-participation]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

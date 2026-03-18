@@ -10,6 +10,7 @@ tags: [intellectual-property, remote-work, legal, contracts, distributed-teams, 
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

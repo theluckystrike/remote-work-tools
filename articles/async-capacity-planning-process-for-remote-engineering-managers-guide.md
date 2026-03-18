@@ -11,6 +11,7 @@ tags: [capacity-planning, remote-work, engineering-management, async, sprint-pla
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

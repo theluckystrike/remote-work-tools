@@ -11,6 +11,7 @@ tags: [async-standup, remote-work, mobile-development, team-communication, agile
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

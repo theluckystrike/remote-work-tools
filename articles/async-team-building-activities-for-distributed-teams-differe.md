@@ -11,6 +11,7 @@ tags: [async, remote-work, team-building, time-zones, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

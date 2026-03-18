@@ -10,6 +10,7 @@ tags: [customer-success, shared-inbox, remote-work, automation]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

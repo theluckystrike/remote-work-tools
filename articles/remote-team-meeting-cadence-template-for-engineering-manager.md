@@ -11,6 +11,7 @@ tags: [remote-work, meetings, engineering-management, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 

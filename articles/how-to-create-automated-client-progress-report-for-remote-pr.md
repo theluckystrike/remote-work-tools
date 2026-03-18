@@ -11,6 +11,7 @@ tags: [automation, remote-work, reporting, client-communication, scripts]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

@@ -11,6 +11,7 @@ tags: [tools]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 # How to Set Up Compliant Remote Employee Benefits Across Multiple US States

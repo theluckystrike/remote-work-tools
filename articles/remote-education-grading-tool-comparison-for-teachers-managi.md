@@ -10,6 +10,7 @@ tags: [grading, online-education, edtech, automation, api]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

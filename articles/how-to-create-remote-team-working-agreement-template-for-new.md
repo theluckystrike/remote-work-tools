@@ -10,6 +10,7 @@ tags: [remote-work, team-agreement, async-communication, distributed-teams, work
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

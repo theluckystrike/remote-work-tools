@@ -10,6 +10,7 @@ tags: [platform-engineering, infrastructure, shared-services, remote-work, colla
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

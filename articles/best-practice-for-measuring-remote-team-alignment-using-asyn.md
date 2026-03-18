@@ -11,6 +11,7 @@ tags: [remote-work, team-alignment, async-communication, strategy, metrics]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

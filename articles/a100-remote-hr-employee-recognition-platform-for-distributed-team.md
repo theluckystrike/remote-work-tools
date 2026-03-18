@@ -10,6 +10,7 @@ tags: [employee-recognition, remote-hr, distributed-teams, hr-tools, employee-en
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

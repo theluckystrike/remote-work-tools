@@ -11,6 +11,7 @@ tags: [remote-work, async-communication, team-leadership, weekly-recap, template
 reviewed: true
 score: 0
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

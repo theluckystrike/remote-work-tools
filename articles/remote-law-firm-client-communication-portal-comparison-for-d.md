@@ -8,6 +8,7 @@ permalink: /remote-law-firm-client-communication-portal-comparison-for-d/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

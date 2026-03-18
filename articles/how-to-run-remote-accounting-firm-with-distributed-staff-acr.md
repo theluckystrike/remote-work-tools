@@ -10,6 +10,7 @@ tags: [remote-work, accounting, distributed-teams, time-zones, async-workflow, a
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

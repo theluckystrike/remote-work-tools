@@ -10,6 +10,7 @@ tags: [incident-management, devops, remote-work, on-call, runbooks, sre]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

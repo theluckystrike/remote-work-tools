@@ -10,6 +10,7 @@ tags: [remote-work, journalism, distributed-teams, time-zones, async-communicati
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

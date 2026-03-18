@@ -8,6 +8,7 @@ permalink: /how-to-manage-a-remote-intern-team-of-4-effectively/
 categories: [guides]
 reviewed: true
 intent-checked: true
+voice-checked: true
 score: 8
 ---
 

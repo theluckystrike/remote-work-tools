@@ -11,6 +11,7 @@ tags: [client-feedback, remote-work, development-agency, tools, automation]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

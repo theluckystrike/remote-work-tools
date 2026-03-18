@@ -11,6 +11,7 @@ tags: [career-development, remote-work, distributed-teams, management, hr]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

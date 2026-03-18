@@ -11,6 +11,7 @@ tags: [client-revisions, remote-work, design-agency, async-communication, workfl
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

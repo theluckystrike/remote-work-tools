@@ -11,6 +11,7 @@ tags: [remote-work, team-building, virtual-events, collaboration, team-engagemen
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

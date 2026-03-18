@@ -10,13 +10,13 @@ tags: [retrospective, remote-work, async, team-processes, continuous-improvement
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 {% raw %}
 # Async Team Retrospective Using Shared Documents and Recorded Summaries
 
-Team retrospectives are the heartbeat of continuous improvement in software development. Yet for remote and distributed teams, the traditional synchronous retrospective often becomes a burden—scheduling conflicts across time zones, participants who disengage during lengthy video calls, and valuable insights that get lost in real-time discussion. An async team retrospective using shared documents and recorded summaries solves these problems while often producing more thoughtful, comprehensive results.
+Team retrospectives are the heartbeat of continuous improvement in software development. Yet for remote and distributed teams, the traditional synchronous retrospective often becomes a burden—scheduling conflicts across time zones, participants who disengage during lengthy video calls, and valuable insights that get lost in real-time discussion. An async team retrospective using shared documents and recorded summaries solves these problems while often producing more thoughtful, detailed results.
 
 This guide shows you how to implement a fully async retrospective workflow that your team can complete on their own schedules, without sacrificing the depth and actionability that make retrospectives valuable.
 
@@ -116,11 +116,7 @@ For teams that prefer audio over video, a podcast-style approach works equally w
 
 Once input collection closes, the facilitator's role shifts to synthesis. Review all responses and identify patterns:
 
-**Common themes** — What did multiple team members mention? These represent the strongest signals about what's actually happening.
-
-**Outliers** — Sometimes one person's observation reveals an important issue that others haven't articulated. Don't dismiss unusual feedback.
-
-**Specific examples** — Extract concrete instances that illustrate each theme. Generic observations like "communication could be better" need context to become actionable.
+Look for common themes — what multiple team members mentioned — as these represent the strongest signals about what's actually happening. Don't dismiss outliers; one person's observation sometimes reveals an important issue others haven't articulated. Extract specific examples that illustrate each theme, because generic observations like "communication could be better" need context to become actionable.
 
 Create a synthesized summary that the team can react to before finalizing action items:
 

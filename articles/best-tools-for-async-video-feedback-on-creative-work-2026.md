@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 # Best Tools for Async Video Feedback on Creative Work in 2026

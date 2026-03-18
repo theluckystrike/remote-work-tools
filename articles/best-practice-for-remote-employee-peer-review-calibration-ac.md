@@ -10,6 +10,7 @@ tags: [peer-review, remote-work, time-zones, async-communication, distributed-te
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

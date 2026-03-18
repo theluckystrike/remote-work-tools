@@ -10,6 +10,7 @@ tags: [kvm-switch, dual-pc, productivity, hardware]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

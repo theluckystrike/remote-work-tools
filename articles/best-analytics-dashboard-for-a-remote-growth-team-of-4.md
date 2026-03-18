@@ -11,7 +11,7 @@ tags: [analytics, dashboards, remote-work, growth]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: false
+voice-checked: true
 ---
 
 

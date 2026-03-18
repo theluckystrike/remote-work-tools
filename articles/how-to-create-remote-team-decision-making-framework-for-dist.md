@@ -9,6 +9,7 @@ categories: [guides]
 tags: [decision-making, remote-work, distributed-teams, async, framework, leadership]
 reviewed: true
 intent-checked: true
+voice-checked: true
 voice-checked: false
 score: 8
 ---

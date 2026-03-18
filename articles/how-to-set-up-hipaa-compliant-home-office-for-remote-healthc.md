@@ -9,6 +9,7 @@ categories: [guides]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 # How to Set Up HIPAA Compliant Home Office for Remote Healthcare Workers

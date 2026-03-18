@@ -11,6 +11,7 @@ tags: [remote-work, conflict-resolution, team-management, distributed-teams, lea
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

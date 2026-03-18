@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-framework-for-evaluating-remote-team-collaboration-qual/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [best-of]
 ---
 

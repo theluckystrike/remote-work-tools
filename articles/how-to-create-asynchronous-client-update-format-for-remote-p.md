@@ -9,6 +9,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 Structure client updates with Status Summary, Progress This Week, Blockers, Next Steps, and Decision Needed sections to enable async collaboration across time zones. When teams span multiple time zones, the way you format client updates determines whether information flows smoothly or gets lost in translation—synchronous communication patterns break down in distributed environments. This guide walks you through creating robust async update formats with concrete examples, templates, and implementation patterns for remote project teams.

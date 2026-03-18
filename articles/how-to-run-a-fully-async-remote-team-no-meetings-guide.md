@@ -11,6 +11,7 @@ tags: [remote-work, async, no-meetings, team-management, distributed-teams, work
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

@@ -11,6 +11,7 @@ tags: [cad, remote-collaboration, architecture-tools, distributed-teams, enginee
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

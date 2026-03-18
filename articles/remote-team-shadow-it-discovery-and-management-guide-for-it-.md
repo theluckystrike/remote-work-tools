@@ -10,6 +10,7 @@ tags: [shadow-it, remote-work, IT-security, endpoint-management, cloud-security]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

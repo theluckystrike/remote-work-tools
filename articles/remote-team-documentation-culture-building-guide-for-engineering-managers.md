@@ -11,6 +11,7 @@ tags: [documentation, remote-work, engineering-management, team-culture, knowled
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

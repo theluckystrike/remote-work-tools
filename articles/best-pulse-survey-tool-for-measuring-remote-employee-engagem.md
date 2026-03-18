@@ -10,6 +10,7 @@ tags: [remote-work, employee-engagement, pulse-survey, team-health, async-commun
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

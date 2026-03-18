@@ -10,6 +10,7 @@ tags: [remote-work, hr, onboarding, hiring, automation]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

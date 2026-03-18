@@ -11,6 +11,7 @@ tags: [remote-work, burnout, mental-health, team-management]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 

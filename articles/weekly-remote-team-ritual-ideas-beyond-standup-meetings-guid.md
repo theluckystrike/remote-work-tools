@@ -10,6 +10,7 @@ tags: [remote-work, team-rituals, async-communication, weekly-meetings, distribu
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

@@ -9,6 +9,7 @@ reviewed: true
 score: 8
 categories: [guides]
 intent-checked: true
+voice-checked: true
 ---
 
 For distributed teams, compare performance tracking tools by evaluating async feedback mechanisms, goal tracking capabilities, and integration with existing HR systems rather than invasive activity monitoring. Modern remote-friendly tools focus on outcomes and communication, not surveillance.

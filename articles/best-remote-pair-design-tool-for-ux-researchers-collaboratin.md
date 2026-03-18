@@ -8,6 +8,7 @@ permalink: /best-remote-pair-design-tool-for-ux-researchers-collaboratin/
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 categories: [guides]
 ---
 

@@ -9,6 +9,7 @@ reviewed: true
 <<<<<<< HEAD
 =======
 intent-checked: true
+voice-checked: true
 voice-checked: false
 >>>>>>> 4ae3289 (intent: restructure 11 articles for search intent alignment)
 score: 8

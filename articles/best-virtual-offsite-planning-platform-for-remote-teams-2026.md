@@ -10,6 +10,7 @@ categories: [guides]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 # Best Virtual Offsite Planning Platform for Remote Teams 2026: A Comparison Guide

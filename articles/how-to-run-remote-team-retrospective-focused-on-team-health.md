@@ -11,6 +11,7 @@ tags: [retrospective, remote-work, team-health, agile, psychological-safety]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 
