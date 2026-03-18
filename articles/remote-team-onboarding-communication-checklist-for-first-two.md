@@ -8,6 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /remote-team-onboarding-communication-checklist-for-first-two/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

@@ -1,12 +1,16 @@
 ---
+
 layout: default
 title: "Best Desk Sensor Technology for Hybrid Offices: Tracking Real-Time Occupancy Data in 2026"
 description: "A technical guide to implementing desk sensors for hybrid offices. Covers hardware options, MQTT data pipelines, API integrations, and code examples for developers building occupancy tracking systems."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-desk-sensor-technology-for-hybrid-offices-tracking-real/
 categories: [guides]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Best Desk Sensor Technology for Hybrid Offices: Tracking Real-Time Occupancy Data in 2026

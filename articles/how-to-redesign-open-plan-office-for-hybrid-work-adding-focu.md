@@ -1,16 +1,18 @@
 ---
+
 layout: default
 title: "How to Redesign Open Plan Office for Hybrid Work: Adding Focus Pods"
 description: "Learn how to redesign open plan offices for hybrid work by adding focus pods. Includes space planning, acoustic treatment, booking systems, and code examples for developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/
 categories: [guides]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # How to Redesign Open Plan Office for Hybrid Work: Adding Focus Pods
