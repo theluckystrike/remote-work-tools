@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Best Laptop Cooling Solutions for Remote Workers in."
+title: "Best Laptop Cooling Solutions for Remote Workers in Tropical Climates"
 description: "A technical guide to keeping your laptop cool while working remotely in tropical climates like Bali. Practical solutions for developers and power users."
-date: 2026-03-15
-author: "Remote Work Tools Guide"
+date: 2026-03-16
+author: theluckystrike
 permalink: /best-laptop-cooling-solution-for-remote-workers-in-tropical-/
 categories: [guides]
 tags: [laptop-cooling, remote-work, tropical-climate, hardware, performance]
