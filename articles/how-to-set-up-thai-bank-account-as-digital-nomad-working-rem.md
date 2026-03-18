@@ -5,7 +5,7 @@ description: "A practical guide for remote workers and digital nomads on opening
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/
-categories: [guides, banking, thailand, digital-nomad]
+categories: [guides]
 tags: [thai-bank-account, digital-nomad, banking-thailand, remote-work, financial-tools]
 reviewed: true
 score: 8

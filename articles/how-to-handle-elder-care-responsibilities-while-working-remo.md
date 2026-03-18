@@ -5,6 +5,10 @@ description: "A practical guide for developers and power users balancing remote 
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-elder-care-responsibilities-while-working-remotely/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 Balancing a full-time remote job with elder care responsibilities presents unique challenges that require thoughtful planning and the right tools. Whether you're caring for aging parents, helping with medical appointments, or managing household tasks for elderly family members, the flexibility of remote work can be both a blessing and a challenge.

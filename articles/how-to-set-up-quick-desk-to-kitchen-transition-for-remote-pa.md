@@ -5,6 +5,10 @@ description: "Learn practical strategies and automation scripts to create a seam
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 Transitioning from your desk to the kitchen during lunch when working remotely with kids requires more than just walking down the hallway. The average remote parent loses 12-15 minutes per meal just on context switching and coordination. This guide provides actionable strategies to minimize that friction and create a reliable lunch routine that works for the whole family.

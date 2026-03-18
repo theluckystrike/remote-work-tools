@@ -5,7 +5,7 @@ description: "Technical guide to blocking toddler noise during remote work. Comp
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-white-noise-machine-for-home-office-blocking-toddler-no/
-categories: [hardware, productivity]
+categories: [guides, productivity]
 reviewed: true
 score: 8
 intent-checked: true

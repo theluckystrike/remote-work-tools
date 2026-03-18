@@ -5,7 +5,7 @@ description: "A practical guide to creating lactation room policies for remote e
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-lactation-room-policy-template-for-employees-on-/
-categories: [guides, hr, policy]
+categories: [guides]
 tags: [remote-work, lactation-policy, video-calls, employee-benefits, hr-templates]
 reviewed: true
 intent-checked: true
