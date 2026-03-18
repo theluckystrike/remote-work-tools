@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sri Lanka Digital Nomad Visa Requirements and Coworking Scene for Remote Workers 2026"
+title: "Sri Lanka Digital Nomad Visa Requirements and Coworking."
 description: "Complete guide to Sri Lanka's digital nomad visa requirements and coworking spaces for remote workers in 2026. Practical details for developers and power users seeking to work from Sri Lanka."
 date: 2026-03-16
 author: theluckystrike
@@ -177,5 +177,10 @@ Many developers use:
 ## Conclusion
 
 Sri Lanka offers an accessible option for remote workers willing to navigate its visa system through ETA extensions. The country provides reliable internet, affordable coworking spaces, and a comfortable cost of living while remaining well-connected to global business centers. For developers seeking an alternative to more popular digital nomad destinations, Sri Lanka's combination of infrastructure and value makes it worth considering for medium-term remote work arrangements.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

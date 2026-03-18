@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Hungary Digital Nomad Visa White Card Application for Remote Workers Guide"
-description: "Complete guide to Hungary digital nomad visa (White Card) application process. Requirements, documents, income thresholds, and step-by-step instructions for developers."
+title: "Hungary Digital Nomad Visa White Card Application for."
+description: "Complete guide to Hungary digital nomad visa (White Card) application process. Requirements, documents, income thresholds, and step-by-step."
 date: 2026-03-16
 author: theluckystrike
 permalink: /hungary-digital-nomad-visa-white-card-application-for-remote/
@@ -124,6 +124,11 @@ Start gathering documents early, ensure your remote work setup is clearly docume
 
 Once approved, you'll have access to Hungary's affordable cost of living, excellent infrastructure, and strategic position for exploring Central and Eastern Europe.
 
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

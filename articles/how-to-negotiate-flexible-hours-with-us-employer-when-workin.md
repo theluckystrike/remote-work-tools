@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Negotiate Flexible Hours with US Employer When Working from European Timezone"
-description: "A practical guide for developers in Europe working with US companies. Learn negotiation strategies, overlap calculations, and async workflows to secure flexible hours."
+title: "How to Negotiate Flexible Hours with US Employer When."
+description: "A practical guide for developers in Europe working with US companies. Learn negotiation strategies, overlap calculations, and async workflows to secure."
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-negotiate-flexible-hours-with-us-employer-when-workin/
@@ -158,5 +158,10 @@ If initial negotiations don't succeed, explore alternatives:
 - **Document everything**: Track your productivity during any informal flexibility you already exercise
 
 Many developers have secured flexible hours by proving their value first and negotiating second. The key is demonstrating that your output quality remains high—or improves—when you're not forced to work during your biological trough hours.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up a Soundproof Home Office When Working Remotely with Young Children"
-description: "A practical guide for developers and power users to create a soundproof home office setup that handles the challenges of remote work with young children. Includes acoustic treatment strategies, budget solutions, and technical implementations."
+title: "How to Set Up a Soundproof Home Office When Working."
+description: "A practical guide for developers and power users to create a soundproof home office setup that handles the challenges of remote work with young."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-soundproof-home-office-when-working-remotely-w/
@@ -191,6 +191,11 @@ For developers working in shifts or on-call, consider a rapid-deploy setup—a p
 Effective soundproofing for remote work with young children combines physical sound isolation (MLV, door seals, window inserts), absorption treatment (acoustic panels, bookshelf diffusion), and electronic masking (white/brown noise). Start with door sealing and a quality pair of ANC headphones—these two interventions provide 80% of the benefit for most scenarios. Graduate to wall treatment and window inserts if your noise baseline remains above 50 dB during child activity.
 
 The goal isn't absolute silence—that's neither achievable nor healthy in a family home. Rather, create predictable acoustic conditions where unexpected sounds don't break your focus during critical deep work sessions.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

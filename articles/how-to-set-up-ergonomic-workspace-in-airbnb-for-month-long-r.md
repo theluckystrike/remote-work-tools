@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay"
-description: "A practical guide for developers and power users setting up an ergonomic workspace in an Airbnb for extended remote work stays. Includes equipment recommendations, quick fixes, and productivity scripts."
+title: "How to Set Up Ergonomic Workspace in Airbnb for."
+description: "A practical guide for developers and power users setting up an ergonomic workspace in an Airbnb for extended remote work stays. Includes equipment."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/
@@ -190,6 +190,11 @@ An ergonomic setup requires an upfront investment of about 30-60 minutes on day 
 Your body adapts quickly to good posture. By day four or five, you'll forget you're in a temporary space. The habits you develop—monitor height, keyboard distance, regular breaks—translate to any workspace you use afterward.
 
 Invest in your setup, and your work will thank you.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

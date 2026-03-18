@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Working Parent Support Group Template for Distributed Companies Building Community"
-description: "A practical guide to building a parent support group for remote workers in distributed companies. Includes templates, Slack channel setups, async check-ins, and community-building strategies for 2026."
+title: "Remote Working Parent Support Group Template for."
+description: "A practical guide to building a parent support group for remote workers in distributed companies. Includes templates, Slack channel setups, async."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-support-group-template-for-distributed/
@@ -200,6 +200,11 @@ The support group should feel like a gift from the company to parents, not an ex
 ---
 
 Building a parent support group takes initial setup effort but compounds in value over time. Start with the Slack channels, add async check-ins, and layer on synchronous connections as participation grows. The goal isn't a perfectly structured organization—it's creating space for remote working parents to feel seen, supported, and connected across time zones.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

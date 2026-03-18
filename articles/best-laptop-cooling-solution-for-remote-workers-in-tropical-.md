@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Laptop Cooling Solutions for Remote Workers in Tropical Climates"
+title: "Best Laptop Cooling Solutions for Remote Workers in."
 description: "A technical guide to keeping your laptop cool while working remotely in tropical climates like Bali. Practical solutions for developers and power users."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -158,6 +158,11 @@ Compare readings across different configurations to find your optimal setup. Tem
 ---
 
 Working in tropical climates requires proactive thermal management, but the right combination of hardware and software strategies keeps your development machine running at full speed. Start with environmental improvements, add active cooling, then tune software settings for your specific workload. The investment in finding your optimal setup pays dividends in daily productivity.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Manage Remote Team When Multiple Parents Have Overlapping School Holiday Schedules"
-description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes code examples and workflow templates."
+title: "How to Manage Remote Team When Multiple Parents Have."
+description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes code."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-when-multiple-parents-have-overlap/
@@ -210,6 +210,11 @@ Keep these meetings short—15 minutes maximum. The goal is information sharing,
 Managing a remote team through overlapping school holidays requires proactive planning rather than reactive problem-solving. By building shared visibility into availability, creating explicit coverage protocols, and defaulting to asynchronous communication during high-conflict periods, you can maintain team productivity while supporting parents through the inevitable schedule complexity.
 
 The parents on your team will appreciate not having to constantly explain or apologize for school commitments. And your team will be more resilient when inevitable schedule conflicts arise.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
