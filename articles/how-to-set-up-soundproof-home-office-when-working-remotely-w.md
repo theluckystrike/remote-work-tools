@@ -1,4 +1,5 @@
 ---
+
 layout: default
 title: "How to Set Up a Soundproof Home Office When Working Remotely with Young Children"
 description: "A practical guide for developers and power users to create a soundproof home office setup that handles the challenges of remote work with young children. Includes acoustic treatment strategies, budget solutions, and technical implementations."
@@ -10,6 +11,7 @@ tags: [remote-work, home-office, acoustic-treatment, soundproofing, work-from-ho
 reviewed: true
 score: 8
 ---
+
 
 {% raw %}
 # How to Set Up a Soundproof Home Office When Working Remotely with Young Children
