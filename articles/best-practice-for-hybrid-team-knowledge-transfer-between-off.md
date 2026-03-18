@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Hybrid Team Knowledge Transfer Between Office and Remote Days Guide"
-description: "Master knowledge transfer in hybrid teams with practical patterns, async workflows, and developer-focused tools. Learn to bridge the gap between office and remote days effectively."
+title: "Best Practice for Hybrid Team Knowledge Transfer Between."
+description: "Master knowledge transfer in hybrid teams with practical patterns, async workflows, and developer-focused tools. Learn to bridge the gap between office."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-knowledge-transfer-between-off/
@@ -204,6 +204,11 @@ Successful hybrid team knowledge transfer requires intentional systems that trea
 The investment in these systems pays dividends beyond hybrid work—they create more accessible, documented, and maintainable team knowledge that benefits everyone, whether fully remote, fully in-office, or somewhere in between.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

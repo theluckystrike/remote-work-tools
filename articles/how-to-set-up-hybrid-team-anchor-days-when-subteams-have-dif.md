@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Hybrid Team Anchor Days When Subteams Have Different Schedules"
-description: "A practical guide for developers and power users on coordinating hybrid work schedules when your subteams operate across different time zones and anchor day requirements."
+title: "How to Set Up Hybrid Team Anchor Days When Subteams Have."
+description: "A practical guide for developers and power users on coordinating hybrid work schedules when your subteams operate across different time zones and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-team-anchor-days-when-subteams-have-dif/
@@ -212,6 +212,11 @@ Setting up hybrid anchor days for teams with different schedules requires accept
 The goal isn't perfect synchronization. The goal is predictable, sustainable collaboration rhythms that respect individual constraints while enabling meaningful team alignment.
 
 Start with the configuration above, gather data on attendance and sentiment, and iterate. Your first schedule won't be your final schedule—and that's the point.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
