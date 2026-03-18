@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Remote Working Parent Self Care Checklist for Avoiding Isolation in Distributed Teams"
 description: "A practical self care checklist for remote working parents to avoid isolation in distributed teams. Includes automation scripts, communication patterns, and mental health strategies for developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/
 categories: [guides]
 tags: [remote-work, parent, self-care, isolation, mental-health, developer-tools]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Remote Working Parent Self Care Checklist for Avoiding Isolation in Distributed Teams

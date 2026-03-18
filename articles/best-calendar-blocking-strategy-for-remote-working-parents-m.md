@@ -1,4 +1,6 @@
 ---
+
+
 layout: default
 title: "Best Calendar Blocking Strategy for Remote Working."
 description: "A practical calendar blocking strategy for remote working parents dealing with childcare gaps. Learn actionable techniques, automation scripts, and."
@@ -10,6 +12,8 @@ tags: [productivity, time-management, calendar, remote-work, childcare]
 reviewed: true
 score: 8
 ---
+
+
 
 {% raw %}
 

@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Best Quick Healthy Snack Prep Ideas for Remote Working Parents Between Meetings"
 description: "Discover practical healthy snack prep strategies for remote working parents. Includes batch preparation techniques, quick assembly recipes, and code snippets for snack break reminders."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /best-quick-healthy-snack-prep-ideas-for-remote-working-parents/
 categories: [guides]
 tags: [remote-work, productivity, health, work-from-home, parents]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 # Best Quick Healthy Snack Prep Ideas for Remote Working Parents Between Meetings
@@ -154,3 +156,4 @@ The most sustainable approach combines batch preparation with strategic reminder
 Remote working parents who maintain consistent snack routines report better afternoon energy levels, improved meeting concentration, and fewer instances of "hangry" decision-making. Your snack strategy isn't just about nutrition—it's about protecting your cognitive performance during the hours that matter most.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

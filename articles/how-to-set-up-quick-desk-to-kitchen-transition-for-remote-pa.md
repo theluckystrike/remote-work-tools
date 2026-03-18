@@ -1,15 +1,23 @@
 ---
+
 layout: default
 title: "How to Set Up Quick Desk to Kitchen Transition for."
 description: "Learn practical strategies and automation scripts to create a seamless desk-to-kitchen transition that maximizes your lunch break efficiency as a."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/
+<<<<<<< HEAD
+reviewed: true
+score: 8
+categories: [guides]
+=======
 categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+>>>>>>> cffa45fe6ff878e6ec5c6f3e78545a28b055679f
 ---
+
 
 Transitioning from your desk to the kitchen during lunch when working remotely with kids requires more than just walking down the hallway. The average remote parent loses 12-15 minutes per meal just on context switching and coordination. This guide provides actionable strategies to minimize that friction and create a reliable lunch routine that works for the whole family.
 

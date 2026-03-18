@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "Remote Working Parent Daily Routine Template: Balancing Deep Work and Kid Interruptions"
 description: "A practical daily routine template for remote working parents. Learn strategies to protect deep work windows while managing childcare responsibilities and kid interruptions."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/
 categories: [guides]
 tags: [remote-work, productivity, deep-work, work-life-balance, parenting]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # Remote Working Parent Daily Routine Template: Balancing Deep Work and Kid Interruptions

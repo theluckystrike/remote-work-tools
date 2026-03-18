@@ -1,15 +1,23 @@
 ---
+
 layout: default
 title: "How to Handle Elder Care Responsibilities While Working."
 description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-handle-elder-care-responsibilities-while-working-remotely/
+<<<<<<< HEAD
+reviewed: true
+score: 8
+categories: [guides]
+=======
 categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+>>>>>>> cffa45fe6ff878e6ec5c6f3e78545a28b055679f
 ---
+
 
 Balancing a full-time remote job with elder care responsibilities presents unique challenges that require thoughtful planning and the right tools. Whether you're caring for aging parents, helping with medical appointments, or managing household tasks for elderly family members, the flexibility of remote work can be both a blessing and a challenge.
 
@@ -137,7 +145,7 @@ update_status() {
 # update_status "In a meeting" "calendar"
 ```
 
-## Leveraging Remote Work Benefits
+## using Remote Work Benefits
 
 Remote work offers unique advantages for caregivers that office workers cannot access:
 
