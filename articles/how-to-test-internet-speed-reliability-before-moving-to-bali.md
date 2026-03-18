@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Test Internet Speed and Reliability Before Moving to Bali as a Remote Worker"
+title: "How to Test Internet Speed and Reliability Before Moving."
 description: "A practical guide for remote workers looking to test internet speed and reliability before relocating to Bali, with tools and techniques for developers."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -166,5 +166,10 @@ Before finalizing your Bali relocation, consider these final checks:
 With proper testing, you can find excellent internet in Bali. The key is doing your research before you arrive and having backup options ready. Good internet is absolutely achievable in Bali's major remote work hubs—your productivity doesn't have to suffer.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

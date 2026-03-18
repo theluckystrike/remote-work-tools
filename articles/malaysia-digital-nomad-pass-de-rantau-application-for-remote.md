@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Malaysia Digital Nomad Pass DE Rantau Application for Remote Tech Workers 2026"
+title: "Malaysia Digital Nomad Pass DE Rantau Application for."
 description: "A practical guide to Malaysia's DE Rantau digital nomad pass application process. Requirements, documents, timelines, and actionable steps for remote developers and tech workers in 2026."
 date: 2026-03-16
 author: theluckystrike
@@ -97,6 +97,11 @@ The DE Rantau pass allows you to open a local bank account once you arrive, whic
 The Malaysia DE Rantau Digital Nomad Pass provides a viable pathway for remote tech workers seeking to live in Southeast Asia. The application process is straightforward if you gather the required documents and demonstrate a genuine remote work arrangement. With reasonable income requirements and a favorable cost of living, Malaysia remains an attractive destination for developers and digital professionals in 2026.
 
 Before applying, verify current requirements on the MDEC website, as immigration policies can change. Prepare your documents thoroughly and ensure your remote work setup is well-documented to streamline your application process.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

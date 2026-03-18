@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Create Remote Team Compliance Documentation Checklist for SOX and ISO Audits Guide"
-description: "A practical guide for developers and power users building compliance documentation for remote teams. Includes templates, code examples, and audit-ready checklists for SOX and ISO 27001 requirements."
+title: "How to Create Remote Team Compliance Documentation."
+description: "A practical guide for developers and power users building compliance documentation for remote teams. Includes templates, code examples, and audit-ready."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-compliance-documentation-checklist/
@@ -221,6 +221,11 @@ Keep your compliance documentation maintainable by storing it in version control
 Document everything with timestamps and responsible parties. When auditors ask "how do you know this control is working?", your automated logs and version history should provide immediate answers.
 
 The effort you invest in building proper compliance documentation protects your organization from financial penalties, reputational damage, and the operational disruption of audit findings. Start with the foundational elements—access controls, device management, and approval workflows—and expand your documentation as your remote team grows.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

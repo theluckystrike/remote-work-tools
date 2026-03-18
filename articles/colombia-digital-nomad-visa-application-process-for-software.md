@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Colombia Digital Nomad Visa Application Process for Software Developers Step by Step 2026"
-description: "A complete guide to the Colombia digital nomad visa application process for software developers. Learn requirements, documents, timelines, and practical tips."
+title: "Colombia Digital Nomad Visa Application Process for."
+description: "A complete guide to the Colombia digital nomad visa application process for software developers. Learn requirements, documents, timelines, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /colombia-digital-nomad-visa-application-process-for-software/
@@ -160,5 +160,10 @@ The digital nomad visa isn't always the best option. Consider these alternatives
 The Colombia digital nomad visa remains one of the most accessible options for remote workers in 2026. With proper documentation, the process takes 1-2 months from start to approval. The country offers excellent quality of life, affordable living costs, and a thriving tech community, particularly in Medellín and Bogotá.
 
 Start gathering your documents early, ensure your income meets the requirements, and be patient with the processing timeline. Many developers successfully navigate this process each year, and you can too.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
