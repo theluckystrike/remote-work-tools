@@ -1,6 +1,7 @@
 ---
 
 
+
 layout: default
 title: "Remote Team All Hands Meeting Question Collection Tool for Distributed Organizations Guide"
 description: "A comprehensive guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes implementation patterns, code examples, and best practices for engineering teams."
@@ -12,6 +13,7 @@ tags: [remote-work, all-hands-meeting, distributed-teams, question-collection, a
 reviewed: true
 score: 8
 ---
+
 
 
 
