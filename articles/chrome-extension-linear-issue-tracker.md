@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Chrome Extension Linear Issue Tracker: Practical Guide for Development Teams"
-description: "Discover Chrome extensions that integrate with Linear for issue tracking. Learn how to streamline your workflow with browser-based Linear access, quick issue creation, and keyboard shortcuts."
+title: "Chrome Extension Linear Issue Tracker: Practical Guide."
+description: "Discover Chrome extensions that integrate with Linear for issue tracking. Learn how to streamline your workflow with browser-based Linear access, quick."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /chrome-extension-linear-issue-tracker/
@@ -161,5 +161,10 @@ Extensions work best for quick actions and context-aware issue creation. Reserve
 ## Conclusion
 
 Chrome extensions bridge the gap between your browser and Linear, reducing context switching and speeding up issue creation. Start with the official Linear extension for basic functionality, then add specialized extensions based on your workflow. For unique requirements, building a custom extension using Linear's API provides the flexibility to automate your specific processes.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

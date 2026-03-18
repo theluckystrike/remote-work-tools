@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Zero Trust Remote Access Setup Guide for Small Engineering Teams 2026"
-description: "A practical zero trust remote access setup guide for small engineering teams in 2026. Learn implementation strategies, configuration examples, and deployment steps."
+title: "Zero Trust Remote Access Setup Guide for Small."
+description: "A practical zero trust remote access setup guide for small engineering teams in 2026. Learn implementation strategies, configuration examples, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /zero-trust-remote-access-setup-guide-for-small-engineering-t/
@@ -249,6 +249,11 @@ As your team grows, expand zero trust coverage incrementally. Add new resources 
 Start with your highest-sensitivity resources: production databases, CI/CD pipelines, and cloud infrastructure consoles. These represent the biggest blast radius if compromised. Once you've secured critical systems, extend coverage to lower-sensitivity resources.
 
 Zero trust isn't a product you buy—it's a framework you implement. Small engineering teams can deploy practical zero trust using open-source tools like Pomerium, Teleport, and Tailscale. The key is starting with your most sensitive resources and iterating systematically.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

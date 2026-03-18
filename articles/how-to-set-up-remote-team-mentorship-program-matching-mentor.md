@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Remote Team Mentorship Program Matching Mentors and Mentees"
-description: "Learn practical strategies for matching mentors and mentees in remote teams. Includes weighting algorithms, tooling examples, and implementation frameworks."
+title: "How to Set Up Remote Team Mentorship Program Matching."
+description: "Learn practical strategies for matching mentors and mentees in remote teams. Includes weighting algorithms, tooling examples, and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-mentorship-program-matching-mentor/
@@ -246,6 +246,11 @@ The key insight: invest upfront in the matching process. Strong matches create m
 Build your matching system once, refine it after each cohort, and watch your mentorship program deliver consistent value.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

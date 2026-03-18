@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Goal Setting Framework Tool for Remote Teams Using OKRs"
-description: "A practical guide to implementing OKRs for remote teams in 2026. Compare tools, see code examples, and learn implementation patterns for distributed engineering teams."
+description: "A practical guide to implementing OKRs for remote teams in 2026. Compare tools, see code examples, and learn implementation patterns for distributed."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-goal-setting-framework-tool-for-remote-teams-using-okrs/
@@ -180,6 +180,11 @@ Start simple. Use whatever tool integrates with your existing workflow. The fram
 Focus on consistency over perfection. Review progress regularly, adjust key results when circumstances change, and build the habit of goal-oriented work. The tool enables the process; the process creates the results.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

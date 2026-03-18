@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "DNS Filtering Setup for Remote Team Endpoint Security Using Cloudflare Gateway"
+title: "DNS Filtering Setup for Remote Team Endpoint Security."
 description: "A practical technical guide for developers and power users setting up DNS filtering with Cloudflare Gateway to secure remote team endpoints from threats."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -242,5 +242,10 @@ This approach enables version control for security policies, peer review of chan
 DNS filtering forms a foundational security layer, but works best combined with other endpoint protections. Integrate with EDR solutions, maintain software update policies, and train your team on recognizing social engineering attempts. Cloudflare Gateway continues expanding its threat intelligence, automatically protecting against new threats as they emerge.
 
 Your remote team's security posture improves immediately upon deploying DNS filtering. The protection travels with employees wherever they work, eliminating the gap between office and remote network security.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

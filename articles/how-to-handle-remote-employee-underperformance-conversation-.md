@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Handle Remote Employee Underperformance: Conversation Guide for New Managers"
-description: "A practical guide for new managers on handling remote employee underperformance conversations. Includes scripts, frameworks, and actionable tips for developers."
+title: "How to Handle Remote Employee Underperformance."
+description: "A practical guide for new managers on handling remote employee underperformance conversations. Includes scripts, frameworks, and actionable tips for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-remote-employee-underperformance-conversation-/
@@ -165,6 +165,11 @@ Handling underperformance is one of the hardest parts of managing people, and re
 Remember that your goal is not to catch employees failing—it's to help them succeed. Most people want to do good work. When they don't, there's usually a reason: unclear expectations, external blockers, skill gaps, or personal challenges. Your job is to identify the cause and provide support.
 
 Approach every conversation with the assumption that you both want the same outcome: the employee performing well and contributing to team success. This mindset transforms difficult conversations from confrontations into collaborations.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

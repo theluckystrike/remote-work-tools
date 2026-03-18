@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Coordinate Remote Frontend Developers on Shared Component Library Across Teams"
-description: "Learn practical strategies for coordinating remote frontend developers working on shared component libraries. Includes code examples and workflow templates."
+title: "How to Coordinate Remote Frontend Developers on Shared."
+description: "Learn practical strategies for coordinating remote frontend developers working on shared component libraries. Includes code examples and workflow."
 date: 2026-03-18
 author: "Remote Work Tools Guide"
 permalink: /how-to-coordinate-remote-frontend-developers-on-shared-compo/
@@ -168,6 +168,11 @@ Coordinating remote frontend developers on shared component libraries requires i
 Start with ownership and workflow, then layer in the other practices as your library matures. The investment pays dividends in reduced conflicts, faster development, and healthier team relationships.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Run Remote Team Quarterly Business Review for Distributed Leadership"
-description: "A practical guide to running effective quarterly business reviews with remote and distributed teams. Includes templates, async workflows, and leadership alignment strategies."
+title: "How to Run Remote Team Quarterly Business Review for."
+description: "A practical guide to running effective quarterly business reviews with remote and distributed teams. Includes templates, async workflows, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-quarterly-business-review-for-distrib/
@@ -156,6 +156,11 @@ Track these metrics to improve your QBR process over time:
 Running effective QBRs for distributed leadership requires abandoning the in-person playbook and rebuilding for async-first workflows. By emphasizing async preparation, focusing synchronous time on discussion rather than status updates, and maintaining strict accountability for follow-up actions, your team can conduct quarterly reviews that actually drive improvement.
 
 The key is treating the QBR as a process rather than a single meeting. The real work happens in the weeks before and after your synchronous session.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

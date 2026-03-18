@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Remote Team Social Channel Ideas for Building Genuine Connections"
-description: "Practical Slack channel strategies for remote teams looking to build authentic relationships. Real examples, automation scripts, and implementation tips for developers."
+title: "Best Remote Team Social Channel Ideas for Building."
+description: "Practical Slack channel strategies for remote teams looking to build authentic relationships. Real examples, automation scripts, and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-team-social-channel-ideas-for-building-genuine-c/
@@ -194,6 +194,11 @@ Start with one channel and prove it works before expanding:
 6. Expand based on what resonates
 
 Building genuine connections in remote teams requires intentional design. The channels exist, the tools are available—what matters is committing to social infrastructure as seriously as you take your technical infrastructure.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

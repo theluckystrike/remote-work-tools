@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Secure Remote Employee Home WiFi Network for Company Data"
-description: "A practical guide for developers and power users to secure home WiFi networks when accessing company resources. Includes configuration examples and code snippets."
+title: "How to Secure Remote Employee Home WiFi Network for."
+description: "A practical guide for developers and power users to secure home WiFi networks when accessing company resources. Includes configuration examples and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-secure-remote-employee-home-wifi-network-for-company-data/
@@ -153,6 +153,11 @@ Securing a home WiFi network for company data access requires layering multiple 
 These steps align with security frameworks used by enterprises while remaining achievable for individual remote workers. The time invested in proper configuration pays dividends in reduced risk exposure.
 
 For development teams, consider creating a simple provisioning script that employees can run to verify their home network meets minimum security requirements. This transforms security from a one-time setup into an ongoing practice.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub"
+title: "Async Pair Programming Workflow Using Recorded."
 description: "A comprehensive guide to implementing async pair programming for distributed teams using screen recordings, GitHub, and collaborative workflows."
 date: 2026-03-18
 author: theluckystrike
@@ -251,3 +251,8 @@ Start small: try one async pair programming session this week and see how it wor
 
 *Related Topics: Async Code Reviews, Remote Developer Workflows, Distributed Team Collaboration*
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
