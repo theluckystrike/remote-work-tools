@@ -5,7 +5,7 @@ description: "A practical guide to implementing OKR tracking for remote and dist
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-okr-tracking-system-for-distributed-engineerin/
-categories: [okr, remote-work, engineering-management]
+categories: [guides, workflows]
 reviewed: true
 score: 8
 intent-checked: true
