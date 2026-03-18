@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Write Remote Team Celebration Messages That Acknowledge Effort Authentically"
+title: "How to Write Remote Team Celebration Messages That."
 description: "A practical guide for developers and power users on crafting genuine celebration messages for distributed teams."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -158,6 +158,11 @@ Consider creating a shared document or Slack channel specifically for team wins.
 The goal is not performative praise but genuine acknowledgment that helps remote team members feel connected despite physical distance.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

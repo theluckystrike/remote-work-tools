@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Redesign Open Plan Office for Hybrid Work: Adding Focus Pods"
-description: "Learn how to redesign open plan offices for hybrid work by adding focus pods. Includes space planning, acoustic treatment, booking systems, and code examples for developers."
+title: "How to Redesign Open Plan Office for Hybrid Work: Adding."
+description: "Learn how to redesign open plan offices for hybrid work by adding focus pods. Includes space planning, acoustic treatment, booking systems, and code."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/
@@ -180,6 +180,11 @@ For teams starting their open plan to hybrid redesign:
 7. Gather feedback after one month and adjust placement or quantity as needed
 
 Focus pods represent infrastructure investment that signals your organization values deep work. When employees know they can book guaranteed quiet time at the office, the hybrid model becomes more attractive and productive.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

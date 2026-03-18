@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Create a Hybrid Work Equipment Checkout System for Shared Office Peripherals"
+title: "How to Create a Hybrid Work Equipment Checkout System."
 description: "A practical guide for developers building equipment checkout systems for hybrid workplaces. Includes code examples and architecture patterns."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -169,6 +169,11 @@ For organizations with multiple office locations, your data model should support
 ## Summary
 
 Building a hybrid work equipment checkout system requires thoughtful handling of equipment state, reservation timing, and user workflows. The patterns outlined here—status-driven logic, atomic transitions, and explicit condition tracking—provide a foundation that scales from small teams to enterprise deployments. Focus on the reservation-to-checkout flow as your core complexity, and build reporting and maintenance features on top once the basics work reliably.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

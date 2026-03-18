@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Return to Office IT Checklist for Reactivating Dormant Workstations and Access Badges 2026"
-description: "A practical technical guide for IT teams reactivating dormant workstations and access badges. Includes verification scripts, automation strategies, and security hardening steps."
+title: "Return to Office IT Checklist for Reactivating Dormant."
+description: "A practical technical guide for IT teams reactivating dormant workstations and access badges. Includes verification scripts, automation strategies, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/
@@ -213,6 +213,11 @@ For organizations with many dormant machines to reactivate, consider automation:
 - **Monitoring**: Set up alerts for machine health metrics immediately after reactivation
 
 This systematic approach ensures all dormant workstations and access badges are safely reactivated while maintaining security posture. The investment in thorough reactivation prevents security incidents and productivity losses from unexpected failures.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

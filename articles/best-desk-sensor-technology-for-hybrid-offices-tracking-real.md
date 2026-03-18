@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Desk Sensor Technology for Hybrid Offices: Tracking Real-Time Occupancy Data in 2026"
-description: "A technical guide to implementing desk sensors for hybrid offices. Covers hardware options, MQTT data pipelines, API integrations, and code examples for developers building occupancy tracking systems."
+title: "Best Desk Sensor Technology for Hybrid Offices: Tracking."
+description: "A technical guide to implementing desk sensors for hybrid offices. Covers hardware options, MQTT data pipelines, API integrations, and code examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-desk-sensor-technology-for-hybrid-offices-tracking-real/
@@ -258,6 +258,11 @@ Privacy remains paramount. Clearly communicate sensor placement and data usage t
 Building a desk sensor system for hybrid offices combines straightforward hardware with robust data infrastructure. ESP32 microcontrollers with combined PIR and pressure sensors provide reliable occupancy detection. MQTT and InfluxDB create a scalable data pipeline, while REST APIs enable integration with space management applications. The resulting system delivers actionable insights into desk utilization, supporting hot-desking policies, real estate optimization, and dynamic space allocation.
 
 Start with a pilot deployment of 10-20 sensors to validate your architecture before scaling. Iterate on sensor placement and sensitivity based on actual detection accuracy. With proper implementation, you'll have continuous visibility into how your hybrid workspace gets used—and the data to make smarter space decisions.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

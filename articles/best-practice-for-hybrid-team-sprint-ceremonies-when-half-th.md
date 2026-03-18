@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Sprint Ceremonies When Half the Team is Remote"
-description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, facilitation tips, and async alternatives for development teams."
+title: "Best Practice for Hybrid Team Sprint Ceremonies When."
+description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, facilitation tips, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/
@@ -147,6 +147,11 @@ Before your next sprint, verify:
 - [ ] Remote participation metrics are tracked
 
 Hybrid sprint ceremonies can work well when you treat remote participation as a design constraint that requires deliberate solutions rather than an afterthought. The practices above will help your half-remote team maintain the collaboration quality that effective Scrum requires.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

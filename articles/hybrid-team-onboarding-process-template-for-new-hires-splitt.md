@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Hybrid Team Onboarding Process Template for New Hires Splitting Time Between Office and Home"
-description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between office and home."
+title: "Hybrid Team Onboarding Process Template for New Hires."
+description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/
@@ -265,6 +265,11 @@ Every hybrid team has different dynamics. Adjust this template based on:
 The key principle remains constant: new hires need equal opportunity to succeed whether they work from home or the office. Your onboarding process should reflect that value from day one.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

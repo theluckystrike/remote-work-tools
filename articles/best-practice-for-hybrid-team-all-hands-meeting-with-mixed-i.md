@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Hybrid Team All Hands Meeting with Mixed In-Person Remote"
-description: "Master hybrid all-hands meetings with mixed in-person and remote attendees. Practical patterns, technical setup, facilitation techniques for developers and power users."
+title: "Best Practice for Hybrid Team All Hands Meeting with."
+description: "Master hybrid all-hands meetings with mixed in-person and remote attendees. Practical patterns, technical setup, facilitation techniques for developers."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/
@@ -179,6 +179,11 @@ Hybrid all-hands meetings require intentional design around technology, agenda s
 The investment in proper setup pays dividends in team alignment and engagement. Start with a single well-prepared all-hands, gather feedback, and iterate your process over time.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
