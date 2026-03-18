@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Conference Room Speaker Mic for Hybrid Meetings with 10 In-Room Participants"
-description: "A technical comparison of conference room speaker microphone systems optimized for hybrid meetings with 10 in-room participants. Covers audio quality, coverage patterns, and configuration."
+title: "Best Conference Room Speaker Mic for Hybrid Meetings."
+description: "A technical comparison of conference room speaker microphone systems optimized for hybrid meetings with 10 in-room participants. Covers audio quality."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-conference-room-speaker-mic-for-hybrid-meetings-with-10/
@@ -162,6 +162,11 @@ The key factors in your decision should be:
 Test any candidate system in your actual room before full deployment. Acoustic environments vary dramatically, and a system that works well in one space may struggle in another.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
