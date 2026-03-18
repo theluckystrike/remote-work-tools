@@ -2,6 +2,7 @@
 
 
 
+
 layout: default
 title: "Remote Work Caregiver Leave Policy Template for Distributed Companies Supporting Sandwich Generation"
 description: "A comprehensive caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents. Includes implementation code and practical examples."
@@ -13,6 +14,7 @@ tags: [remote-work, caregiver-leave, hr-policy, distributed-teams, sandwich-gene
 reviewed: true
 score: 8
 ---
+
 
 
 

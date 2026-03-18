@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Create Remote Team Architecture Documentation Using Diagrams as Code"
 description: "Learn how to create and maintain architecture documentation for remote teams using diagrams as code. Practical examples with Mermaid, PlantUML, and Git-based workflows."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-architecture-documentation-using-d/
 categories: [guides]
 tags: [architecture-documentation, diagrams-as-code, remote-teams, mermaid, plantuml, technical-writing]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Create Remote Team Architecture Documentation Using Diagrams as Code
@@ -16,7 +20,7 @@ Remote teams face unique challenges when documenting system architecture. Text-b
 
 ## Why Diagrams as Code for Remote Teams
 
-Traditional diagramming tools create binary files that don't merge well in version control. When team members across different time zones work on the same diagram, you encounter constant merge conflicts and lost changes. Diagrams as code treats your architecture drawings as plain text files that integrate seamlessly with Git workflows.
+Traditional diagramming tools create binary files that don't merge well in version control. When team members across different time zones work on the same diagram, you encounter constant merge conflicts and lost changes. Diagrams as code treats your architecture drawings as plain text files that integrate smoothly with Git workflows.
 
 The benefits extend beyond version control. Your diagrams become refactorable, testable, and reproducible. Teams can review diagram changes through pull requests, adding the same rigor to architecture decisions as code reviews.
 
