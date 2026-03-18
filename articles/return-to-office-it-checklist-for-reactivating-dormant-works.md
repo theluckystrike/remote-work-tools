@@ -10,16 +10,15 @@ categories: [guides]
 tags: [return-to-office, it-checklist, workstation-management, access-control, office-it]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 
 {% raw %}
 # Return to Office IT Checklist for Reactivating Dormant Workstations and Access Badges 2026
 
-When employees return to the office after an extended remote period, IT teams face the challenge of waking up dormant workstations and ensuring access badges function properly. This guide provides a systematic checklist for developers and power users managing office infrastructure in 2026.
+Before employees return from extended remote work, reactivate dormant workstations by applying security patches, testing network connectivity, and verifying access badges through your access control system's bulk reactivation API. This checklist includes Ansible playbooks for patching, PowerShell scripts for connectivity testing, and hardware assessment procedures to ensure workstations are secure and functional on day one.
 
 ## Pre-Return Hardware Assessment
 

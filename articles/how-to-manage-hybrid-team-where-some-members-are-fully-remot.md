@@ -9,12 +9,11 @@ permalink: /how-to-manage-hybrid-team-where-some-members-are-fully-remot/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
 ---
 
-
-Managing a hybrid team where some members are fully remote permanently creates a fundamentally different dynamic than either fully distributed or co-located teams. The challenge lies in creating systems that don't inadvertently favor either location while maintaining productivity and team cohesion.
-
-This guide provides concrete, implementable strategies for developers and technical leads building hybrid workflows.
+Hybrid teams with split remote and in-office members need explicit communication norms, video-first meetings, and documentation-first workflows to prevent information silos. Establish core hours for synchronous overlap, implement async-first standups using GitHub Actions or Slack, and make all meeting rooms video-conference ready with equal participation cues. This guide provides practical systems and code examples for managing teams that work across locations without enterprise tools.
+>>>>>>> 6f82cb5 (intent: restructure 6 articles for search intent alignment)
 
 ## The Asynchronous-First Foundation
 

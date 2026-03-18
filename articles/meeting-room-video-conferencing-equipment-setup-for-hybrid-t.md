@@ -9,12 +9,13 @@ categories: [guides]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 # Meeting Room Video Conferencing Equipment Setup for Hybrid Teams on a Budget
 
-Setting up a meeting room for hybrid video conferences doesn't require enterprise-level spending. With thoughtful component selection and some technical know-how, you can build a reliable setup that performs well for remote participants. This guide walks through practical equipment choices and configuration strategies optimized for teams on a budget.
+Build a hybrid meeting room for $180-500 by prioritizing audio quality, choosing reliable cameras like the Logitech C920, adding proper lighting, and automating setup with shell scripts. Audio quality matters most—use speakerphones or daisy-chained USB mics rather than built-in conference room speakers. This guide covers equipment recommendations by room size and provides automation scripts for one-touch meeting starts.
 
 ## Core Components You Actually Need
 

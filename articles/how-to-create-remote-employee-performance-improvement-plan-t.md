@@ -9,9 +9,10 @@ reviewed: true
 score: 8
 voice-checked: true
 categories: [guides]
+intent-checked: true
 ---
 
-Managing performance in distributed teams requires a fundamentally different approach than traditional office environments. When your team spans time zones and communicates primarily through asynchronous channels, the standard performance improvement plan (PIP) template needs adaptation. This guide provides a practical framework for creating remote employee performance improvement plans that actually work for distributed managers.
+Remote performance improvement plans (PIPs) require different structure than office-based PIPs because you lose real-time observation of work. Build PIPs with weekly check-ins, clearly documented metrics pulled from actual tools (GitHub PR times, Slack activity), and explicit communication expectations. This guide provides JSON templates and tracking scripts to implement fair, measurable PIPs for distributed teams.
 
 ## Why Remote PIPs Need Different Structure
 
