@@ -3,8 +3,11 @@ layout: default
 title: "How to Negotiate Flexible Hours with US Employer When Working from European Timezone"
 description: "A practical guide for developers in Europe working with US companies. Learn negotiation strategies, overlap calculations, and async workflows to secure flexible hours."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-negotiate-flexible-hours-with-us-employer-when-workin/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 Working from Europe for a US-based company means navigating significant timezone differences. When your employer operates on Eastern or Pacific time, you face a 5-9 hour gap that can disrupt your natural work rhythm. This guide shows you how to negotiate flexible hours that benefit both you and your US team, with practical examples and code tools to support your case.
@@ -134,7 +137,7 @@ Structure your request like a professional proposal:
 
 5. **Define success metrics**: "We can track PR review time, meeting attendance, and delivery predictability during the trial."
 
-## Leverage Async Tools to Support Your Case
+## use Async Tools to Support Your Case
 
 Show your employer that flexible hours work by demonstrating async communication competence:
 
