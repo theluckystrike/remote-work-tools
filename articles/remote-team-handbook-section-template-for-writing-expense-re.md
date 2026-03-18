@@ -2,11 +2,13 @@
 layout: default
 title: "Remote Team Handbook Section Template for Writing Expense Reimbursement Policy"
 description: "A practical template and guide for writing clear expense reimbursement policies for remote teams. Includes policy structure, code examples, and implementation patterns."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /remote-team-handbook-section-template-for-writing-expense-re/
 categories: [guides]
 tags: [remote-work, expense-policy, handbook, reimbursement, remote-teams]
+reviewed: true
+score: 8
 ---
 
 # Remote Team Handbook Section Template for Writing Expense Reimbursement Policy

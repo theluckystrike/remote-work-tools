@@ -2,10 +2,12 @@
 layout: default
 title: "Best Practice for Remote Team API Documentation: Keeping Internal Services Well Documented"
 description: "A practical guide to maintaining excellent API documentation for remote teams. Includes templates, automation strategies, code examples, and workflows that work across time zones."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-api-documentation-keeping-inte/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

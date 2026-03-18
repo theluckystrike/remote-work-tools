@@ -2,11 +2,13 @@
 layout: default
 title: "How to Create a Remote Team Documentation Sprint: Fixing Outdated Wiki Pages"
 description: "Learn how to organize a documentation sprint to fix outdated wiki pages in your remote team. Practical strategies, code examples, and workflows for developers."
-date: 2026-03-16
-author: theluckystrike
-permalink: /how-to-create-remote-team-documentation-sprint-dedicating-time-to-fix-outdated-wiki-pages/
+date: 2026-03-15
+author: "Remote Work Tools Guide"
+permalink: /how-to-create-remote-team-documentation-sprint-dedicating-ti/
 categories: [guides]
 tags: [documentation, remote-work, wiki, team-collaboration, dev-productivity]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
