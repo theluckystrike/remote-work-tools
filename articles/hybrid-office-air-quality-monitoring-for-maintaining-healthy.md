@@ -2,9 +2,12 @@
 layout: default
 title: "Hybrid Office Air Quality Monitoring for Maintaining Healthy Environment with Variable Occupancy"
 description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware thresholds, and automation code examples for developers."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
