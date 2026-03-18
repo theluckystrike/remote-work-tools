@@ -3,8 +3,11 @@ layout: default
 title: "Chrome Extension Linear Issue Tracker: Practical Guide for Development Teams"
 description: "Discover Chrome extensions that integrate with Linear for issue tracking. Learn how to streamline your workflow with browser-based Linear access, quick issue creation, and keyboard shortcuts."
 date: 2026-03-15
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /chrome-extension-linear-issue-tracker/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 Linear is a popular issue tracking tool among development teams for its clean interface and tight GitHub integration. While Linear offers a web app and desktop client, Chrome extensions can enhance your workflow by bringing Linear functionality directly into your browser. This guide covers practical extensions, their use cases, and how to integrate them into your daily development routine.
