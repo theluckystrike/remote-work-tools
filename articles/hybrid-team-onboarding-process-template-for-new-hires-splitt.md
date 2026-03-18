@@ -11,6 +11,7 @@ tags: [hybrid-work, onboarding, remote-work, team-management, developer-experien
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

@@ -11,6 +11,7 @@ tags: [hybrid-work, sprint-ceremonies, agile, remote-work, team-communication]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

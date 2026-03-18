@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

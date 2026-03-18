@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-test-internet-speed-reliability-before-moving-to-bali/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

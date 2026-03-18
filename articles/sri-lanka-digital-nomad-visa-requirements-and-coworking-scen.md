@@ -10,6 +10,7 @@ tags: [sri-lanka, digital-nomad-visa, remote-work-visa, coworking, south-asia, v
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

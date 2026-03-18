@@ -10,6 +10,7 @@ tags: [barbados, remote-work-visa, digital-nomad, caribbean, tax-residency, visa
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 

@@ -7,6 +7,7 @@ author: "Remote Work Tools"
 permalink: /how-to-manage-timezone-overlap-when-working-remotely-from-so/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

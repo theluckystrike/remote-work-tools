@@ -8,6 +8,7 @@ permalink: /best-ups-battery-backup-for-remote-workers-in-countries-with/
 categories: [guides]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
