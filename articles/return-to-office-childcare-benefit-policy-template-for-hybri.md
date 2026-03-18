@@ -5,7 +5,7 @@ description: "A practical policy template and implementation guide for hybrid te
 date: 2026-03-16
 author: theluckystrike
 permalink: /return-to-office-childcare-benefit-policy-template-for-hybri/
-categories: [guides, hr-policy, hybrid-work]
+categories: [guides]
 tags: [childcare, family-benefits, hybrid-work, rto-policy, employee-benefits, hr-automation]
 reviewed: true
 score: 8

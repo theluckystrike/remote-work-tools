@@ -5,7 +5,7 @@ description: "A practical technical guide for developers and IT administrators t
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/
-categories: [guides, security, networking]
+categories: [guides, security]
 reviewed: true
 score: 8
 intent-checked: true
