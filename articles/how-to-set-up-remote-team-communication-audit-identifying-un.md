@@ -3,12 +3,12 @@ layout: default
 title: "How to Set Up Remote Team Communication Audit: Identifying Unnecessary Meetings and Channels"
 description: "A practical guide for developers and power users to audit remote team communication, identify unnecessary meetings, and consolidate unused channels. Includes scripts and frameworks for systematic analysis."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-set-up-remote-team-communication-audit-identifying-un/
 categories: [guides]
 tags: [remote-work, communication, productivity, meetings, slack, team-management]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
@@ -26,7 +26,7 @@ Most remote teams fall into communication patterns without intentional design. N
 
 A communication audit forces you to answer uncomfortable questions: Which meetings actually require synchronous participation? Which channels have gone silent? Where is information getting lost because it's scattered across too many tools?
 
-## Step 1: Map Your Current Communication Landscape
+## Step 1: Map Your Current Communication ecosystem
 
 Before you can optimize, you need visibility. Gather data across all your communication tools.
 

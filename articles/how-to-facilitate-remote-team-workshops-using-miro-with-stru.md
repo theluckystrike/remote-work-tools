@@ -3,8 +3,11 @@ layout: default
 title: "How to Facilitate Remote Team Workshops Using Miro with Structured Communication Exercises"
 description: "Learn practical techniques for running effective remote workshops in Miro with structured communication exercises that keep teams engaged and productive."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-facilitate-remote-team-workshops-using-miro-with-stru/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
@@ -133,7 +136,7 @@ Successful remote workshop facilitation in Miro requires more than sharing a boa
 
 Start with the round-robin protocol for your next meeting. Add the parking lot for tangent management. Implement dot voting for decisions. These small structural additions compound into significantly more productive sessions.
 
-The remote work landscape continues evolving, but the fundamentals of good facilitation remain constant: clear goals, inclusive participation, and actionable outcomes. Miro provides the canvas—structured communication exercises provide the framework.
+The remote work ecosystem continues evolving, but the fundamentals of good facilitation remain constant: clear goals, inclusive participation, and actionable outcomes. Miro provides the canvas—structured communication exercises provide the framework.
 
 ---
 

@@ -3,9 +3,11 @@ layout: default
 title: "How to Create Hybrid Office Quiet Zone Policy for Employees Needing Focus Time"
 description: "A practical guide to building a quiet zone policy for hybrid offices. Includes scheduling systems, physical space setup, technical implementations, and code examples for developers."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-create-hybrid-office-quiet-zone-policy-for-employees-/
 categories: [guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

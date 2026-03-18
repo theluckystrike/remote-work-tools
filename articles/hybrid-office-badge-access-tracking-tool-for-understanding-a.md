@@ -3,10 +3,12 @@ layout: default
 title: "Hybrid Office Badge Access Tracking Tool for Understanding Actual Desk Utilization Data"
 description: "Learn how to build a hybrid office badge access tracking system to analyze real desk utilization data. Practical implementation guide for developers with code examples."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /hybrid-office-badge-access-tracking-tool-for-understanding-a/
 categories: [guides]
 tags: [hybrid-office, badge-access, desk-utilization, occupancy-tracking, workplace-analytics]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

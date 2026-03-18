@@ -3,8 +3,11 @@ layout: default
 title: "How to Create a Hybrid Work Stipend Policy Covering Both Home and Commute Costs"
 description: "A practical guide for engineering managers and HR leaders to design equitable hybrid work stipend policies that cover home office and commute expenses."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-create-hybrid-work-stipend-policy-covering-both-home-/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
