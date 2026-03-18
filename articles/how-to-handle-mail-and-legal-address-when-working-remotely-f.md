@@ -10,6 +10,7 @@ tags: [remote-work, digital-nomad, mail-forwarding, legal-address, tax-residency
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

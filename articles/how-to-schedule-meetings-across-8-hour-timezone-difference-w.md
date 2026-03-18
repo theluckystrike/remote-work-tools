@@ -10,6 +10,7 @@ tags: [remote-work, timezone, meeting-scheduling, async, developer-productivity,
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

@@ -10,6 +10,7 @@ tags: [compensation, remote-work, salary, benchmarking, hr-tech, data-analysis]
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

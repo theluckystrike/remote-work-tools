@@ -9,6 +9,7 @@ categories: [guides]
 tags: [vendor-management, remote-work, international-payments, finance, contracts]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
