@@ -11,13 +11,12 @@ tags: [hybrid-meeting, remote-work, AV-setup, meeting-room, video-conferencing]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 
 {% raw %}
-# How to Design Hybrid Meeting Room with Equal Experience for Remote Attendees
-
-Hybrid meetings have become standard in distributed teams, but the experience gap between in-room and remote participants remains a persistent problem. Remote attendees often struggle with unclear audio, limited visibility of whiteboards, and the frustrating feeling of being an afterthought rather than equal participants. This guide provides a practical framework for designing hybrid meeting rooms that treat remote attendees as first-class participants.
+Hybrid meeting rooms require ceiling-mounted panoramic cameras capturing the entire in-room scene, boundary microphones with strong echo cancellation, wireless presentation systems with automatic switching to video conferencing, and whiteboard cameras that stream to remote participants—treating remote attendees as design requirements rather than afterthoughts. By ensuring remote participants can see all in-room body language and whiteboard work, hear all speakers without feedback, and share screens without hardware friction, you eliminate the "participant in a box on the screen" feeling. This technical setup, combined with meeting facilitation rules that require participants to address the camera and repeat questions aloud, ensures remote colleagues are genuinely co-present rather than distributed afterthoughts forced to join video calls to half-engaged in-room meetings.
 
 ## The Equal Experience Principle
 
