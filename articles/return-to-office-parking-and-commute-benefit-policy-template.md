@@ -5,7 +5,7 @@ description: "A practical policy template for implementing parking and commute b
 date: 2026-03-16
 author: theluckystrike
 permalink: /return-to-office-parking-and-commute-benefit-policy-template/
-categories: [policy, hybrid-work, benefits]
+categories: [guides]
 tags: [parking, commute, benefits, hybrid-work, policy-template]
 reviewed: true
 score: 8

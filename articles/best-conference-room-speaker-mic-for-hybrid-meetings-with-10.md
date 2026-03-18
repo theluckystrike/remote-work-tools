@@ -6,7 +6,7 @@ description: "A technical comparison of conference room speaker microphone syste
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-conference-room-speaker-mic-for-hybrid-meetings-with-10/
-categories: [guides, hardware]
+categories: [guides]
 reviewed: true
 score: 8
 ---
