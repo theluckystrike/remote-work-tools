@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Meeting Room Video Conferencing Equipment Setup for Hybrid Teams on a Budget"
-description: "A practical guide to building affordable video conferencing setups for hybrid meetings. Covers camera, audio, lighting, and automation scripts for developers."
+title: "Meeting Room Video Conferencing Equipment Setup for."
+description: "A practical guide to building affordable video conferencing setups for hybrid meetings. Covers camera, audio, lighting, and automation scripts for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /meeting-room-video-conferencing-equipment-setup-for-hybrid-t/
@@ -243,6 +243,11 @@ if __name__ == "__main__":
 Building a capable hybrid meeting room on a budget comes down to prioritizing audio quality, choosing reliable camera hardware, adding proper lighting, and automating repetitive setup tasks. Start with a basic configuration—Logitech camera plus speakerphone—and expand based on room size and team needs. The scripts above provide a foundation; adapt them to your specific equipment and workflows.
 
 The best setup is one your team actually uses consistently. Don't over-engineer—start simple, measure what works, and iterate based on real feedback from both in-room and remote participants.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

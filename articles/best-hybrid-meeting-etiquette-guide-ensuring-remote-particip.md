@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Hybrid Meeting Etiquette Guide Ensuring Remote Participants Are Not Forgotten"
+title: "Best Hybrid Meeting Etiquette Guide Ensuring Remote."
 description: "A practical guide to running hybrid meetings where remote participants feel included. Code examples and workflows for developers and power users."
 date: 2026-03-16
 author: theluckystrike
@@ -221,6 +221,11 @@ If remote participation (measured by messages sent, questions asked, or action i
 Hybrid meeting equity requires intentional design, not just good intentions. By implementing proper room infrastructure, establishing inclusive protocols, and following up systematically, you create meetings where remote participants contribute at equal levels to in-room attendees.
 
 The technical solutions here—camera setups, shared documents, automation scripts—are straightforward. The harder work is consistently applying these practices until they become muscle memory for your team.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,12 +1,12 @@
 ---
 
 layout: default
-title: "Remote Engineering Team Build Time Tracking as Developer Productivity Bottleneck Indicator"
-description: "A technical guide for measuring and analyzing build times to identify developer productivity bottlenecks in remote engineering teams. Includes CI/CD configuration, Python scripts, and data analysis approaches."
+title: "Remote Engineering Team Build Time Tracking as Developer."
+description: "A technical guide for measuring and analyzing build times to identify developer productivity bottlenecks in remote engineering teams. Includes CI/CD."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-engineering-team-build-time-tracking-as-developer-pro/
-categories: [workflows, guides, productivity]
+categories: [guides]
 reviewed: true
 score: 8
 intent-checked: true
@@ -250,3 +250,8 @@ Track build times weekly and set a team目标 of keeping average CI time under 1
 Build by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+

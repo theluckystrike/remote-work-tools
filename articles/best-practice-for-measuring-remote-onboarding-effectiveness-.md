@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Measuring Remote Onboarding Effectiveness with Time to First Commit"
-description: "Learn how to measure remote developer onboarding effectiveness using time to first commit and other actionable metrics. Practical code examples for tracking onboarding."
+title: "Best Practice for Measuring Remote Onboarding."
+description: "Learn how to measure remote developer onboarding effectiveness using time to first commit and other actionable metrics. Practical code examples for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/
@@ -204,6 +204,11 @@ To get started measuring remote onboarding effectiveness:
 6. **Close the loop** — Document changes and measure their impact
 
 Time to first commit gives you a clear, objective signal about whether your remote onboarding process works. Combined with complementary metrics and a commitment to continuous improvement, TTFC helps you build an onboarding experience that helps developers contribute faster and with more confidence.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

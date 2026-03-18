@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Employee Output-Based Performance Measurement Framework: Replacing Hours Worked Tracking"
-description: "A practical guide to implementing output-based performance measurement for remote teams. Move beyond hours tracking to measurable outcomes, automated metrics, and developer-friendly frameworks."
+title: "Remote Employee Output-Based Performance Measurement."
+description: "A practical guide to implementing output-based performance measurement for remote teams. Move beyond hours tracking to measurable outcomes, automated."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-output-based-performance-measurement-framewo/
@@ -208,6 +208,11 @@ Run this script at month-end to generate context for performance discussions. Nu
 Output-based measurement transforms remote performance management from surveillance into accountability for results. Automate data collection, define clear objectives, and review outcomes regularly. The shift away from hours tracking requires cultural change—engineers initially may feel uncertain without time logs—but the payoff in autonomy and meaningful metrics pays dividends.
 
 The best frameworks disappear into the background, surfacing signal when needed and trusting developers to manage their own productivity. Implement incrementally, gather feedback, and iterate.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

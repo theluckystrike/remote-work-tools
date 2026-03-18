@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create a Remote Employee Performance Improvement Plan: A Template for Distributed Managers"
+title: "How to Create a Remote Employee Performance Improvement."
 description: "Learn how to create effective performance improvement plans for remote teams with practical templates and code examples for tracking."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -175,5 +175,10 @@ For teams using tools like Linear, Jira, or Asana, create a structured task brea
 If after the defined period (typically 30-60 days) the employee has not met success criteria, escalate to HR or leadership with your documented evidence. Your JSON tracking and weekly check-in notes provide the paper trail needed for fair termination or further action.
 
 The goal of any PIP is genuine improvement. When executed thoughtfully with clear metrics and consistent follow-up, remote performance improvement plans can turn struggling team members into reliable contributors. The structure you build now will scale as your distributed team grows.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

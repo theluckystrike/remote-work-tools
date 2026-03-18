@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up OKR Tracking System for Distributed Engineering Teams"
-description: "A practical guide to implementing OKR tracking for remote and distributed engineering teams. Includes code examples, tool comparisons, and implementation strategies for 2026."
+title: "How to Set Up OKR Tracking System for Distributed."
+description: "A practical guide to implementing OKR tracking for remote and distributed engineering teams. Includes code examples, tool comparisons, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-okr-tracking-system-for-distributed-engineerin/
@@ -211,6 +211,11 @@ If your teams are spending hours weekly on OKR administration, your system needs
 Start with the simplest tracking that provides adequate visibility, then add automation as you identify friction points. The best OKR system for distributed engineering teams is the one that fades into the background while keeping everyone aligned.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
