@@ -10,13 +10,14 @@ categories: [guides]
 tags: [remote-work, wellness, distributed-teams, health, productivity]
 reviewed: true
 score: 8
+intent-checked: true
 ---
 
 
 {% raw %}
 # Distributed Team Wellness Challenge Ideas: Steps, Meditation, and Water Tracking
 
-Keeping a distributed team healthy and motivated requires more than just good software tools. Wellness challenges create shared experiences across time zones, build community, and help team members develop healthier habits. This guide provides actionable steps for implementing wellness challenges that actually work for remote teams, with a focus on step tracking, meditation, and water consumption monitoring.
+Run asynchronous wellness challenges using step tracking apps (Google Fit, Apple Health, Fitbit), group meditation sessions with Calm or Headspace, and hydration tracking through simple Slack bots. Choose async-first challenges that don't require real-time participation and respect individual time zones. This guide shows you how to build team accountability for health habits without mandatory synchronous meetings.
 
 ## Why Wellness Challenges Matter for Distributed Teams
 
