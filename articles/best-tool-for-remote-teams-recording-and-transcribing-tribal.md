@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Tool for Remote Teams Recording and Transcribing Tribal Knowledge into Wiki Articles"
-description: "A practical guide for developers and power users on capturing, transcribing, and organizing tribal knowledge from remote meetings into searchable wiki articles using automation tools."
+title: "Best Tool for Remote Teams Recording and Transcribing."
+description: "A practical guide for developers and power users on capturing, transcribing, and organizing tribal knowledge from remote meetings into searchable wiki."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-teams-recording-and-transcribing-tribal/
@@ -269,6 +269,11 @@ The best tool combination depends on your existing infrastructure. Teams already
 Start with a single meeting type—perhaps sprint retrospectives or design discussions—and refine your workflow before expanding to all meetings. The goal is sustainable knowledge capture, not perfect automation from day one.
 
 Track how often wiki articles get referenced and updated. Tribal knowledge capture only succeeds when the resulting documentation actually gets used.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

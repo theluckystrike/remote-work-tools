@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Quick Exercise Routine for Remote Parents With Only 15 Minutes Between Meetings"
+title: "Best Quick Exercise Routine for Remote Parents With Only."
 description: "Practical 15-minute exercise routines designed for remote working parents who need to squeeze in movement between meetings. No equipment needed."
 date: 2026-03-16
 author: theluckystrike
@@ -131,6 +131,11 @@ The goal is consistency over intensity. Three 15-minute sessions per day equals 
 Start with a manageable target: one 15-minute session per day for your first week. Add a second session in week two. Adjust based on your schedule and energy levels. The routine should serve your life, not complicate it.
 
 Remote parents face real constraints on their time. Fifteen minutes between meetings does not need to mean fifteen minutes of sitting. With a simple routine and intentional scheduling, you can build movement into your workday without sacrificing productivity or family time.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
