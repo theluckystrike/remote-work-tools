@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /colombia-digital-nomad-visa-application-process-for-software/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [guides]
 ---
 

@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-currency-exchange-strategy-for-remote-workers-paid-in-u/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [best-of]
 ---
 

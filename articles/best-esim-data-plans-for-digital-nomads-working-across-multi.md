@@ -7,6 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-esim-data-plans-for-digital-nomads-working-across-multi/
 reviewed: true
 score: 8
+voice-checked: true
 categories: [best-of]
 ---
 
