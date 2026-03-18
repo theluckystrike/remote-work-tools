@@ -3,7 +3,7 @@ layout: default
 title: "How to Set Up Conference Room Owl Camera for Hybrid Meetings Quality Guide"
 description: "A technical guide for developers and power users on configuring Owl Labs Meeting Owl cameras for hybrid meetings. Covers network setup, API integration, audio optimization, and quality best practices."
 date: 2026-03-16
-author: "Remote Work Tools"
+author: "theluckystrike"
 permalink: /how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/
 categories: [guides]
 tags: [hybrid-meetings, conference-room, owl-labs, video-conferencing, remote-work]
