@@ -1,9 +1,10 @@
 ---
+
 layout: default
 title: "South Korea Digital Nomad Visa Application Requirements for Remote Workers 2026"
 description: "Complete guide to South Korea digital nomad visa requirements for remote workers in 2026. Learn eligibility criteria, required documents, income thresholds, and application process."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /south-korea-digital-nomad-visa-application-requirements-for-remote-workers/
 categories: [guides, visa, remote-work, south-korea]
 tags: [digital-nomad-visa, south-korea-visa, remote-work-visa, korea-visa-requirements, nomad-visa]
@@ -12,6 +13,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
 
 # South Korea Digital Nomad Visa Application Requirements for Remote Workers 2026
 
