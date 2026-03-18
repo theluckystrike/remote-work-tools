@@ -3,7 +3,7 @@ layout: default
 title: "Taiwan Gold Card Visa for Remote Tech Workers: Complete."
 description: "A step-by-step guide to the Taiwan Gold Card visa application process for remote tech workers. Covers eligibility, required documents, application."
 date: 2026-03-16
-author: "Remote Work Tools"
+author: "theluckystrike"
 permalink: /taiwan-gold-card-visa-for-remote-tech-workers-application-pr/
 categories: [guides]
 reviewed: true
