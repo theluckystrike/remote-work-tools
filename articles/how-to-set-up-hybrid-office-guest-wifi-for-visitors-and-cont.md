@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Hybrid Office Guest WiFi for Visitors and Contractors Securely"
-description: "A practical technical guide for developers and IT administrators to configure secure guest WiFi networks in hybrid offices. Includes network segmentation, authentication methods, and firewall rules."
+title: "How to Set Up Hybrid Office Guest WiFi for Visitors and."
+description: "A practical technical guide for developers and IT administrators to configure secure guest WiFi networks in hybrid offices. Includes network."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/
@@ -198,6 +198,11 @@ Start with network segmentation as your foundation. From there, layer on captive
 The key is assuming guests will connect untrusted devices and designing your network to contain that risk. Your internal team shouldn't even notice the guest network exists—it should be completely invisible to corporate systems.
 
 When contractors finish their engagements, revoke their credentials immediately. When events conclude, rotate passwords. These operational practices matter as much as the technical configuration.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

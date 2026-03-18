@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Hybrid Work Manager Training Program Template for Leading Partially Distributed Teams 2026"
-description: "A practical template and framework for training managers to lead hybrid teams with both remote and in-office employees. Includes exercises, templates, and implementation guidance."
+title: "Hybrid Work Manager Training Program Template for."
+description: "A practical template and framework for training managers to lead hybrid teams with both remote and in-office employees. Includes exercises, templates."
 date: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/
@@ -226,5 +226,10 @@ The transition from managing people you see every day to leading a distributed t
 {% endraw %}
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
