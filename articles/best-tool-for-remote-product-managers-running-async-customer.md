@@ -9,12 +9,12 @@ permalink: /best-tool-for-remote-product-managers-running-async-customer/
 categories: [guides]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 ---
 
 {% raw %}
 
-Remote product managers face a unique challenge when conducting customer discovery: coordinating interviews across time zones without sacrificing depth or quality of insights. Asynchronous customer discovery interviews offer a solution by allowing participants to record responses on their own schedules while product managers review them in batches. This approach scales better than live interviews, respects everyone's time, and produces a searchable archive of customer insights.
+Async customer discovery interviews let product managers collect video responses across time zones without scheduling live calls, scaling customer research faster while creating a searchable archive. Tools like Rile, Loom, and HomeBase support timestamped notes, question templates, and API access for programmatic analysis of qualitative data. This guide covers setup, question design, and integration patterns for distributed product teams.
 
 ## What Makes an Async Interview Tool Effective
 
