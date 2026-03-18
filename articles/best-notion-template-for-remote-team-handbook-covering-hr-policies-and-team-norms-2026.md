@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Notion Template for Remote Team Handbook Covering HR Policies and Team Norms 2026"
-description: "Discover practical Notion templates for creating comprehensive remote team handbooks. Includes HR policy frameworks, team norms documentation, and implementation code examples for developers building internal tools."
+title: "Best Notion Template for Remote Team Handbook Covering."
+description: "Discover practical Notion templates for creating comprehensive remote team handbooks. Includes HR policy frameworks, team norms documentation, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/
@@ -212,6 +212,11 @@ A well-structured Notion handbook reduces operational friction and ensures consi
 Start with the core sections (policies and norms), then expand to include tools documentation and escalation procedures. Your handbook should evolve with your team, not remain static after initial creation.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
