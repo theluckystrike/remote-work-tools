@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Test Internet Speed and Reliability Before Moving to Bali as a Remote Worker"
+title: "How to Test Internet Speed and Reliability Before Moving."
 description: "A practical guide for developers and digital nomads on testing internet speed and reliability before relocating to Bali."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -170,5 +170,10 @@ Thorough internet testing before moving to Bali requires combining automated spe
 
 Start with community research, validate with automated testing tools, and always test during peak hours before making your final decision. Your productivity depends on reliable connectivity—and due diligence now saves headaches later.
 {% endraw %}
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

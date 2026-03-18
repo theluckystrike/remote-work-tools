@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Hybrid Office Air Quality Monitoring for Maintaining Healthy Environment with Variable Occupancy"
-description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware thresholds, and automation code examples for developers."
+title: "Hybrid Office Air Quality Monitoring for Maintaining."
+description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
@@ -272,6 +272,11 @@ Monitoring air quality in hybrid offices with variable occupancy requires moving
 The implementation involves three technical components: collecting occupancy data, calculating dynamic thresholds based on current occupancy, and connecting everything to automation systems that respond proportionally. The code examples above provide starting points for each component.
 
 With proper implementation, your monitoring system adapts to the reality of hybrid work: an office that feels crowded on Tuesday and nearly empty on Thursday deserves different air quality expectations for each scenario.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

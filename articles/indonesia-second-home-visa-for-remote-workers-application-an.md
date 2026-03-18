@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Indonesia Second Home Visa for Remote Workers: Application and Requirements Guide 2026"
+title: "Indonesia Second Home Visa for Remote Workers."
 description: "A practical guide for developers and power users on Indonesia's Second Home Visa for remote workers. Complete application process, requirements, financial criteria, and tech tools for preparation."
 date: 2026-03-16
 author: theluckystrike
@@ -174,6 +174,11 @@ If the Second Home Visa requirements exceed your current situation, alternatives
 The Indonesia Second Home Visa provides an excellent pathway for developers and remote workers seeking long-term residence in one of Southeast Asia's most attractive destinations. The financial requirements are substantial but manageable for established professionals. Prepare documents thoroughly, demonstrate genuine intent for long-term stay, and account for the full application timeline when planning your move.
 
 Start by calculating your financial eligibility, gathering required documents, and identifying whether you need a sponsor. The online portal application process is straightforward for those with proper documentation.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Brazil Digital Nomad Visa Process and Tax Implications for Remote Developers"
+title: "Brazil Digital Nomad Visa Process and Tax Implications."
 description: "A practical guide to Brazil's digital nomad visa for remote developers. Learn the application process, eligibility requirements, and tax implications for working remotely from Brazil in 2026."
 date: 2026-03-16
 author: theluckystrike
@@ -145,6 +145,11 @@ Brazilian SIM cards require registration with your passport and CPF. Major carri
 The Brazil digital nomad visa offers a legitimate path for remote developers to base themselves in one of South America's most vibrant countries. The application process is straightforward for those with documented remote income, and Brazil's tax treatment of non-residents remains favorable. However, careful planning around tax residency, banking, and healthcare ensures you can focus on your work rather than administrative complications.
 
 With proper documentation and realistic expectations about Brazil's bureaucratic processes, you can successfully navigate the digital nomad visa and enjoy everything Brazil has to offer while continuing your remote developer career.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
