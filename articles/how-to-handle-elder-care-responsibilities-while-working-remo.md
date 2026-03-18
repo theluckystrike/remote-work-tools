@@ -6,9 +6,16 @@ description: "A practical guide for developers and power users balancing remote 
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-elder-care-responsibilities-while-working-remotely/
+<<<<<<< HEAD
 reviewed: true
 score: 8
 categories: [guides]
+=======
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
+>>>>>>> cffa45fe6ff878e6ec5c6f3e78545a28b055679f
 ---
 
 
