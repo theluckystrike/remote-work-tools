@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Team Project Kickoff Documentation Template with Stakeholder and Timeline"
-description: "A practical guide for developers and power users building remote project kickoff documentation. Includes templates, stakeholder mapping, and timeline frameworks."
+title: "How to Create Remote Team Project Kickoff Documentation."
+description: "A practical guide for developers and power users building remote project kickoff documentation. Includes templates, stakeholder mapping, and timeline."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-project-kickoff-documentation-temp/
@@ -220,6 +220,11 @@ Here's a condensed template you can copy and customize:
 Effective remote project kickoff documentation removes ambiguity and establishes clear expectations from day one. By including stakeholder maps, timeline milestones, communication protocols, and risk assessments, you create a reference document that keeps distributed teams aligned throughout the project lifecycle.
 
 Invest time in creating your kickoff document—it's far less expensive than recovering from misaligned expectations across five time zones.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

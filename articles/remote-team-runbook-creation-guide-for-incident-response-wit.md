@@ -2,8 +2,8 @@
 
 
 layout: default
-title: "Remote Team Runbook Creation Guide for Incident Response with Distributed On-Call Staff"
-description: "A practical guide to building incident response runbooks that work across time zones. Includes templates, automation examples, and handover protocols for distributed on-call teams."
+title: "Remote Team Runbook Creation Guide for Incident Response."
+description: "A practical guide to building incident response runbooks that work across time zones. Includes templates, automation examples, and handover protocols."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-runbook-creation-guide-for-incident-response-wit/
@@ -192,6 +192,11 @@ Several patterns reduce runbook effectiveness in distributed teams:
 Effective incident response in distributed teams requires documentation that compensates for the absence of synchronous collaboration. Your runbooks carry the context that would normally transfer through a quick hallway conversation or a desk-side question. Invest in making them clear, testable, and maintained. The time you spend improving runbooks before an incident directly translates to faster recovery when something actually breaks.
 
 The best runbook is one that a tired engineer at 3 AM can follow without confusion, make correct decisions without consultation, and resolve the incident before the next time zone wakes up.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

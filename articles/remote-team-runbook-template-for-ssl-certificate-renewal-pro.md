@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Runbook Template for SSL Certificate Renewal Process with Distributed Infrastructure Team"
+title: "Remote Team Runbook Template for SSL Certificate Renewal."
 description: "A comprehensive runbook template for managing SSL certificate renewals across distributed infrastructure teams working remotely."
 date: 2026-03-16
 author: theluckystrike
@@ -264,6 +264,11 @@ def check_certificate_expiration():
 Successful certificate renewal in distributed teams depends on four practices. First, start early with a two-week buffer to allow time for troubleshooting access issues or DNS propagation delays. Second, document everything in writing so any team member can execute the runbook without requiring verbal instructions. Third, test in staging first to catch configuration errors before they affect production. Fourth, maintain an accurate certificate inventory with expiration dates, owners, and renewal procedures.
 
 When your team spans multiple time zones, async-friendly processes prevent single points of failure. Every piece of knowledge should exist in documentation, not just in someone's head.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

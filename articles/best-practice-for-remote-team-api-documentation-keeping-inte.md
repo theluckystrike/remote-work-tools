@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team API Documentation: Keeping Internal Services Well Documented"
-description: "A practical guide to maintaining excellent API documentation for remote teams. Includes templates, automation strategies, code examples, and workflows that work across time zones."
+title: "Best Practice for Remote Team API Documentation: Keeping."
+description: "A practical guide to maintaining excellent API documentation for remote teams. Includes templates, automation strategies, code examples, and workflows."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-api-documentation-keeping-inte/
@@ -193,6 +193,11 @@ Several tools can reduce the manual effort required to maintain API documentatio
 The best tool depends on your team's existing tools and preferences. Evaluate based on how well it supports your chosen workflow, not just feature lists.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

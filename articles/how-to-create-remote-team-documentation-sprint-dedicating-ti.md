@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create a Remote Team Documentation Sprint: Fixing Outdated Wiki Pages"
-description: "Learn how to organize a documentation sprint to fix outdated wiki pages in your remote team. Practical strategies, code examples, and workflows for developers."
+title: "How to Create a Remote Team Documentation Sprint: Fixing."
+description: "Learn how to organize a documentation sprint to fix outdated wiki pages in your remote team. Practical strategies, code examples, and workflows for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-documentation-sprint-dedicating-ti/
@@ -162,6 +162,11 @@ A documentation sprint provides a focused, achievable approach to tackling outda
 The key is treating documentation maintenance as a legitimate team activity—worthy of dedicated time, clear ownership, and measurable outcomes.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

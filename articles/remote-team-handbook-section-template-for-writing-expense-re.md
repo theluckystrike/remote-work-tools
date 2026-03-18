@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Handbook Section Template for Writing Expense Reimbursement Policy"
-description: "A practical template and guide for writing clear expense reimbursement policies for remote teams. Includes policy structure, code examples, and implementation patterns."
+title: "Remote Team Handbook Section Template for Writing."
+description: "A practical template and guide for writing clear expense reimbursement policies for remote teams. Includes policy structure, code examples, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-handbook-section-template-for-writing-expense-re/
@@ -180,5 +180,10 @@ Set a calendar reminder to review your policy every 12 months. Technology costs 
 - [ ] Employees have been notified of the policy
 
 A clear expense reimbursement policy reduces administrative burden, prevents frustration, and helps your remote team focus on work instead of paperwork.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
