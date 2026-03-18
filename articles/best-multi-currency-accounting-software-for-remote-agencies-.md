@@ -2,9 +2,12 @@
 layout: default
 title: "Best Multi-Currency Accounting Software for Remote Agencies Billing Clients in Euros and USD"
 description: "A technical guide to multi-currency accounting solutions for remote agencies managing EUR and USD billing. Includes API integration examples and practical implementation tips."
-date: 2026-03-16
-author: theluckystrike
+date: 2026-03-15
+author: "Remote Work Tools Guide"
 permalink: /best-multi-currency-accounting-software-for-remote-agencies-/
+reviewed: true
+score: 8
+categories: [best-of]
 ---
 
 {% raw %}
