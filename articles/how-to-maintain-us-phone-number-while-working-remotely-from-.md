@@ -3,8 +3,11 @@ layout: default
 title: "How to Maintain a US Phone Number While Working Remotely from Portugal or Spain"
 description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Covers VoIP solutions, virtual numbers, SMS forwarding, and 2FA strategies."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}

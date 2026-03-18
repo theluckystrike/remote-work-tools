@@ -3,9 +3,11 @@ layout: default
 title: "Best UPS Battery Backup for Remote Workers in Countries with Frequent Power Outages"
 description: "A practical guide to choosing UPS systems for developers and power users dealing with unreliable electricity. Includes technical specifications and setup examples."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /best-ups-battery-backup-for-remote-workers-in-countries-with/
 categories: [hardware, guides]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

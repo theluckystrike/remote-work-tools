@@ -3,8 +3,11 @@ layout: default
 title: "How to Manage Timezone Overlap When Working Remotely from Southeast Asia for US Company"
 description: "A practical guide for developers in Southeast Asia working with US companies. Learn strategies, tools, and code examples to manage timezone overlap effectively."
 date: 2026-03-16
-author: theluckystrike
+author: "Remote Work Tools"
 permalink: /how-to-manage-timezone-overlap-when-working-remotely-from-so/
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 Working remotely from Southeast Asia for a US-based company presents unique timezone challenges. The time difference between countries like Vietnam, Thailand, Indonesia, or the Philippines and the United States can range from 12 to 17 hours. This significant gap requires deliberate strategies to maintain productivity and collaboration. This guide provides actionable approaches, tools, and code snippets to help developers in Southeast Asia manage timezone overlap effectively when working with US teams.
@@ -104,7 +107,7 @@ This rotation ensures neither party consistently bears the burden of unusual hou
 
 Tools like World Time Buddy or When2meet help visualize overlap windows across multiple time zones. Share these visualizations in your team channel to find mutually convenient times for ad-hoc meetings.
 
-## Leverage Time Zone Documentation
+## use Time Zone Documentation
 
 Maintain clear documentation of time expectations in your team handbook or README. This prevents misunderstandings and sets appropriate expectations:
 
