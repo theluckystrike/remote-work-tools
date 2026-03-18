@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Worker Ergonomic Equipment Reimbursement: Legal Obligation Guide for Employers 2026"
-description: "A practical guide for employers on legal obligations for reimbursing remote worker ergonomic equipment. Includes policy templates, compliance checklists, and code examples."
+title: "Remote Worker Ergonomic Equipment Reimbursement: Legal."
+description: "A practical guide for employers on legal obligations for reimbursing remote worker ergonomic equipment. Includes policy templates, compliance."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-worker-ergonomic-equipment-reimbursement-legal-obliga/
@@ -243,6 +243,11 @@ The smart approach: implement a compliant policy now, even if not legally requir
 Start by auditing your current remote work policies, identifying gaps in equipment reimbursement, and developing a phased implementation plan. Your developers and power users will thank you—and your legal team will appreciate the proactive approach.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
