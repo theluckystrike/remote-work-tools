@@ -9,14 +9,12 @@ permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/
 categories: [guides]
 reviewed: true
 score: 8
-voice-checked: true
+intent-checked: true
 ---
 
-
 {% raw %}
-# Return to Office IT Checklist for Reactivating Dormant Workstations and Access Badges 2026
 
-When employees transition back to office work after extended remote periods, IT teams face the challenge of reactivating workstations and access badges that have sat unused for months. Dormant hardware presents specific risks: expired certificates, degraded batteries, outdated software, and potential security vulnerabilities. This checklist provides a systematic approach to getting systems back online safely.
+Reactivating dormant workstations requires physical inspection, BIOS verification, operating system security updates, certificate/credential renewal, and antivirus signature updates before deploying back to production. Badge reactivation involves verifying user accounts in directory systems, checking access permissions against current employee status, and updating hardware (battery replacement, firmware). Implement Network Access Control (NAC) policies requiring compliance verification, automate large-scale reactivations using imaging and configuration management tools, and document all reactivation notes for future reference.
 
 ## Pre-Reactivation Assessment
 
