@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Online Teaching Platform for Remote Tutors Running Live Group Sessions"
-description: "Compare the best online teaching platforms for remote tutors running live group sessions. Includes code examples, API integrations, and implementation patterns."
+title: "Best Online Teaching Platform for Remote Tutors Running."
+description: "Compare the best online teaching platforms for remote tutors running live group sessions. Includes code examples, API integrations, and implementation."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-online-teaching-platform-for-remote-tutors-running-live/
@@ -248,6 +248,11 @@ Choose your platform based on your specific constraints:
 For most remote tutors running live group sessions, **Zoom** provides the best balance of features, reliability, and API access. If you're building a custom tutoring platform or need to minimize costs, **Jitsi Meet** or **BigBlueButton** offer self-hostable alternatives with full control over the infrastructure.
 
 The right choice ultimately depends on your existing tool ecosystem, technical capacity for integration work, and whether you need purpose-built education features like gradebook sync or assignment management.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
