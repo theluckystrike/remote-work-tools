@@ -10,6 +10,7 @@ tags: [hybrid-work, knowledge-management, remote-work, async-communication, team
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

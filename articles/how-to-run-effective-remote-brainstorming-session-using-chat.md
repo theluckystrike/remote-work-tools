@@ -10,6 +10,7 @@ tags: [remote-work, brainstorming, async, chat, team-collaboration, developer-to
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 
