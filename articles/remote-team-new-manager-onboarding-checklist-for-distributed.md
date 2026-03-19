@@ -19,7 +19,7 @@ First, schedule a formal handoff meeting between the new manager and their prede
 
 Next, prepare a team briefing document that includes each direct report's role, current projects, performance trajectory, and any personal context that helps build connection (like timezone differences or preferred communication styles). This document should also outline the team's current tools, workflows, and any unwritten norms that newcomers won't discover on their own.
 
-Finally, notify the broader organization about the promotion. Send a message introducing the new manager to stakeholders, cross-functional partners, and other teams they’ll need to collaborate with. This提前 notice helps others prepare for the leadership transition.
+Finally, notify the broader organization about the promotion. Send a message introducing the new manager to stakeholders, cross-functional partners, and other teams they’ll need to collaborate with. This advance notice helps others prepare for the leadership transition.
 
 ## First Week: Foundation Building
 
