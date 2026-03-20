@@ -68,7 +68,7 @@ WorkBright specializes in remote I-9 verification and document management. Their
 
 API Capabilities: WorkBright offers a REST API for document retrieval and status checking. Integration with major HRIS platforms is available through Zapier or custom webhooks.
 
-Best for: Companies hiring primarily in the US who need streamlined I-9 compliance.
+Best for: Companies hiring primarily in the US who need improved I-9 compliance.
 
 Automation limitations: Workflow automation is more limited compared to full-suite platforms. You'll likely need complementary tools for complete onboarding orchestration.
 

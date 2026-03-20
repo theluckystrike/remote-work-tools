@@ -89,22 +89,22 @@ Pair two team members together—one writes, one reviews in real-time. This catc
 
 1. Build the image:
    ```bash
-   docker build -t app:latest .
+ docker build -t app:latest.
    ```
 
 2. Tag for ECR:
    ```bash
-   aws ecr get-login-password --region us-east-1 | \
-     docker login --username AWS --password-stdin \
-     123456789012.dkr.ecr.us-east-1.amazonaws.com
-   
-   docker tag app:latest \
-     123456789012.dkr.ecr.us-east-1.amazonaws.com/app:latest
+ aws ecr get-login-password --region us-east-1 | \
+ docker login --username AWS --password-stdin \
+ 123456789012.dkr.ecr.us-east-1.amazonaws.com
+ 
+ docker tag app:latest \
+ 123456789012.dkr.ecr.us-east-1.amazonaws.com/app:latest
    ```
 
 3. Push to registry:
    ```bash
-   docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/app:latest
+ docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/app:latest
    ```
 
 4. Update ECS service (via Terraform or console)

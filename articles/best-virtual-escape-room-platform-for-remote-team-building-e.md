@@ -113,6 +113,149 @@ Facilitation: Designate someone to monitor progress, provide hints when teams st
 
 Follow-up: Schedule a short async discussion afterward. What communication patterns emerged? Who took leadership roles? These observations translate to workplace insights.
 
+## Platform Pricing Comparison
+
+Cost matters when budgeting for regular team events:
+
+| Platform | Per-Session (8 people) | Per-Person | Annual (monthly event) | Customization |
+|----------|----------------------|-----------|----------------------|----------------|
+| The Escape Game Remote | $300-400 | $37.50-50 | $3,600-4,800 | Facilitated only |
+| Escape Quest | $199-299 | $24.88-37 | $2,388-3,588 | Custom puzzles ($1,000+) |
+| Cipher Escape | $250-350 | $31-44 | $3,000-4,200 | Limited |
+| Miro Template DIY | $0-600 | $0-75 | $0-600 | Full control |
+| Custom Build (dev hours) | $5,000-15,000 | Varies | Varies | Complete |
+
+For a team of 10 doing monthly events, The Escape Game Remote at $500-600/session runs approximately $6,000-7,200 annually. DIY Miro templates cost zero but require 3-4 hours of preparation per event. Budget decisions should factor time investment, not just direct costs.
+
+## Detailed Platform Evaluation Framework
+
+When testing platforms, score each criterion on a 1-5 scale:
+
+```markdown
+## Evaluation Checklist
+
+### Technical Requirements (40% weight)
+- Connection stability under full team load (8-50 concurrent users)
+- Latency tolerance (sub-100ms ideal, <200ms acceptable)
+- Cross-platform browser support (Windows/Mac/Linux)
+- Mobile app availability (if needed for your team)
+
+### User Experience (30% weight)
+- Interface clarity (how quickly new users understand controls)
+- Learning curve (time to first successful puzzle solve)
+- Hint system quality (progressive, not frustrating)
+- Accessibility features (text size, high contrast, screen reader)
+
+### Team Dynamics (20% weight)
+- Chat/communication integration
+- Turn-taking mechanics (do people sit idle?)
+- Leadership emergence (can natural team leads coordinate?)
+- Post-game analytics (what data do you get?)
+
+### Logistics (10% weight)
+- Scheduling flexibility (can you run asynchronously?)
+- Support responsiveness (can you reach someone if issues arise?)
+- Backup plan clarity (what if the platform crashes mid-event?)
+```
+
+Score each platform honestly. A platform scoring 4.5/5 on technical but 2/5 on user experience may disappoint less technical team members.
+
+## Running a Successful Event: Detailed Timeline
+
+### Pre-Event (2 weeks before)
+
+**Week 2**:
+- Send calendar invite with platform link and how to join
+- Include: "Test your camera/mic 10 minutes early"
+- Create Slack channel for event day logistics
+
+**Week 1**:
+- Send reminder with login instructions
+- Run dry run with 2-3 early adopters to identify issues
+- Document any workarounds discovered during testing
+- Prepare post-event survey (Google Forms with 3 questions)
+
+### Day-Of (30 minutes before event)
+
+- Open platform 20 minutes early for tech check
+- Ensure all participants can access the room
+- Brief run-through of interface (2 minutes max)
+- Confirm everyone can see/hear each other
+
+### During Event (90 minutes total)
+
+**0-5 min**: Team introduction and rules explanation
+**5-60 min**: Active puzzle solving
+**60-65 min**: Final puzzle push and forced win
+**65-75 min**: Debrief and reflection discussion
+**75-90 min**: Optional: casual chat or feedback survey
+
+### Post-Event (within 2 days)
+
+- Share results/leaderboard if applicable
+- Send quick survey capturing what worked
+- Discuss as leadership: "Was this valuable? Should we repeat?"
+- Archive recording if applicable for asynchronous viewing
+
+## Asynchronous Escape Room Strategies
+
+For globally distributed teams, true synchronous events are impossible. Consider these alternatives:
+
+**Relay-Style Escape Room**:
+- Team A in Asia solves Puzzle 1, records solution
+- Team B in Europe solves Puzzle 2 using Team A's output
+- Team C in Americas solves Puzzle 3 using Teams A+B output
+- Creates interdependence and asynchronous collaboration
+- Duration: 3-5 days of calendar time
+
+**Persistent Escape Room**:
+- Miro board stays open for entire week
+- Each person contributes when available
+- Leaderboard tracks who contributed
+- Emphasizes inclusion over real-time collaboration
+- Less engaging than synchronous but more fair to distributed teams
+
+**Self-Paced Variant**:
+- Provide individual puzzle challenges
+- Weekly leaderboard of fastest solvers
+- Minimal collaboration but easy to schedule
+
+## Troubleshooting Common Event Issues
+
+**Issue: Someone's internet drops mid-event**
+- Solution: Have a "reserve player" ready to jump in, or pre-record rules so dropouts can rejoin without briefing
+- Prevention: Send connection test 1 hour before event
+
+**Issue: Puzzle too hard, team gives up**
+- Solution: Provide hints liberally; frustration kills engagement faster than making it easy
+- Prevention: Test with a external group to gauge difficulty
+
+**Issue: Puzzle too easy, team finishes early**
+- Solution: Keep a bonus round ready; it feels like a reward rather than the event ending abruptly
+- Prevention: Test with expert players to find optimal difficulty
+
+**Issue: Dominant personalities monopolize problem-solving**
+- Solution: Assign roles (one person per station/puzzle); rotate every 15 minutes
+- Prevention: Brief the facilitator on rotation frequency during pre-event call
+
+**Issue: Disengaged participants (lurkers)**
+- Solution: Use pair programming style—assign two people per puzzle
+- Prevention: Keep team size small (8-12 max) for full participation
+
+## Decision Tree: Which Platform to Choose
+
+```
+Start: Is your team mostly engineers?
+├─ YES: Did you recently have successful Miro collaboration?
+│  ├─ YES → Custom Miro template (save cost, full control)
+│  └─ NO → Browser-based platform like Cipher Escape (technical transparency)
+└─ NO: Does your team include non-technical people?
+   ├─ YES: Choose platform with video integration (Exit Plan)
+   └─ NO: Is your primary goal team bonding or cognitive challenge?
+      ├─ BONDING → Video-integrated (more social, less hard puzzles)
+      └─ CHALLENGE → Browser-based (focus on puzzles, less socializing)
+```
+
 ## Making the Decision
 
 The best platform depends on your team's specific constraints. Small teams (4-8) with overlapping work hours can use almost any platform effectively. Larger teams require careful size-handling evaluation. Globally distributed teams need to prioritize either time zone accommodation or accept that events require some team members to attend outside standard hours.

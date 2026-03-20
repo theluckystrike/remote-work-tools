@@ -86,8 +86,8 @@ Here's an example of a Dataview query that finds all notes tagged with ` #api ` 
 ```javascript
 ```dataview
 TABLE WITHOUT ID
-  file.link as "Note",
-  dateformat(date(created), "yyyy-MM-dd") as "Created"
+ file.link as "Note",
+ dateformat(date(created), "yyyy-MM-dd") as "Created"
 FROM ""
 WHERE contains(tags, "api")
 SORT date(created) DESC

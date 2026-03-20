@@ -169,7 +169,7 @@ ScreenPal works well for teams creating training content, documentation videos t
 
 ## Making the Decision
 
-For most remote developer teams, Loom provides the best balance of quality, speed, and integration. The recording experience is frictionless, the sharing workflow is seamless, and the pricing is reasonable for teams under 50 people.
+For most remote developer teams, Loom provides the best balance of quality, speed, and integration. The recording experience is frictionless, the sharing workflow is, and the pricing is reasonable for teams under 50 people.
 
 Choose Veed when your team needs to build video into automated processes—auto-generating documentation, processing customer support responses, or creating branded content at scale. The API investment pays off when you have repeatable workflows.
 

@@ -142,7 +142,7 @@ API Requirements: If you need programmatic board creation or content export, ver
 
 Team Size: FigJam and Excalidraw work excellently for small teams (under 20 participants). Miro and Mural scale better for large organization-wide sessions.
 
-Integration Ecosystem: Evaluate existing tools in your workflow. Figma users benefit from FigJam's seamless integration. Jira-heavy teams may prefer Mural's project management connections.
+Integration Ecosystem: Evaluate existing tools in your workflow. Figma users benefit from FigJam's integration. Jira-heavy teams may prefer Mural's project management connections.
 
 Data Privacy: Teams with compliance requirements should consider self-hosted options like Excalidraw or evaluate Miro's enterprise data handling policies.
 

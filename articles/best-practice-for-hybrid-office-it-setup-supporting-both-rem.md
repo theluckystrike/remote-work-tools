@@ -2,7 +2,7 @@
 
 layout: default
 title: "OpenVPN client configuration snippet"
-description: "A practical guide for developers and power users setting up IT infrastructure that seamlessly supports hybrid work models."
+description: "A practical guide for developers and power users setting up IT infrastructure that supports hybrid work models."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-office-it-setup-supporting-both-rem/

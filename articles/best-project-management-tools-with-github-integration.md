@@ -25,7 +25,7 @@ Developers already live in GitHub. Pull requests, commits, and branches represen
 The best integrations handle several key workflows: creating issues from pull requests, syncing status changes, linking branches to tasks, and triggering notifications based on code events. 
 ## Linear: Speed-First GitHub Integration
 
-Linear combines a keyboard-driven interface with seamless GitHub synchronization. The integration automatically links pull requests to issues when branch names follow a convention, creating a bidirectional connection between your code and tasks.
+Linear combines a keyboard-driven interface with GitHub synchronization. The integration automatically links pull requests to issues when branch names follow a convention, creating a bidirectional connection between your code and tasks.
 
 Setting up the integration involves granting OAuth access in Linear settings, then configuring which repositories to sync. Once connected, creating a branch from an issue automatically links the PR:
 
@@ -154,7 +154,7 @@ The integration supports:
 }
 ```
 
-Jira's strength lies in enterprise features: detailed permissions, complex workflows, and extensive reporting. The tradeoff is configuration complexity. Smaller teams often find Jira overwhelming compared to more streamlined alternatives.
+Jira's strength lies in enterprise features: detailed permissions, complex workflows, and extensive reporting. The tradeoff is configuration complexity. Smaller teams often find Jira overwhelming compared to more improved alternatives.
 
 For teams already invested in the Atlassian ecosystem, Jira with GitHub integration provides project tracking, though the learning curve demands patience.
 

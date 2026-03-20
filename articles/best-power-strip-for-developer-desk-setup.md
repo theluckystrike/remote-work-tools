@@ -48,7 +48,7 @@ Some power strips feature rotating outlets that adapt to different plug shapes. 
 USB charging has become essential. Most developers charge phones, tablets, wireless earbuds, and smartwatches via USB. USB-C with Power Delivery (PD) is now the standard for fast charging laptops and tablets.
 
 Key specifications to check:
-A USB-C PD output of 20W suffices for phones, but 45-100W lets you charge a laptop directly from the strip. The total USB output — the sum across all ports — typically runs 30-100W; make sure it matches your device count. Quick Charge compatibility is worth having if you use older Android devices.
+An USB-C PD output of 20W suffices for phones, but 45-100W lets you charge a laptop directly from the strip. The total USB output — the sum across all ports — typically runs 30-100W; make sure it matches your device count. Quick Charge compatibility is worth having if you use older Android devices.
 
 A power strip with built-in USB-C PD can eliminate separate laptop chargers, simplifying your setup.
 

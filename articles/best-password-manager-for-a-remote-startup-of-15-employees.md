@@ -114,6 +114,148 @@ Neglecting the exit strategy causes pain later. Document what happens when a tea
 
 Choosing features over usability backfires. The most secure password manager is the one your team actually uses. If developers resist the UI, find a solution with better CLI support.
 
+## Pricing Breakdown for 15-Person Teams
+
+Understanding actual costs prevents budget surprises during scaling:
+
+| Solution | Monthly Cost (15 users) | Setup Fees | Per-User Overage | Admin Console |
+|----------|----------------------|------------|-----------------|---------------|
+| Bitwarden Teams | $60-120 | $0 | $5/user | Included |
+| 1Password Teams | $150-180 | $0 | $8/user | Included |
+| HashiCorp Vault | $0-299 | $0 | Varies | Enterprise |
+| Keeper Business | $120-180 | $0 | $8/user | Included |
+
+**Bitwarden Total Cost of Ownership**:
+- Teams plan: $80/month ($960/year)
+- Self-hosting option: Can reduce to zero if you host internally
+- Training: ~2 hours for full team onboarding
+
+**1Password Total Cost**:
+- Teams plan: $15/user/month = $225/month ($2,700/year)
+- Higher upfront cost, but stronger brand familiarity reduces adoption friction
+
+## Advanced Configuration Examples
+
+### Setting Up Separate Vault Hierarchies
+
+For a 15-person team, structure should prevent accidental exposure while maintaining usability:
+
+```yaml
+# Recommended vault structure
+team_shared_vaults:
+  - name: "Infrastructure"
+    members: [DevOps lead, 2x backend devs]
+    contents: [AWS keys, GitHub tokens, database credentials]
+
+  - name: "Third-Party Services"
+    members: [All 15]
+    contents: [Slack token, Stripe API, Twilio credentials]
+
+  - name: "Client Secrets"
+    members: [CEO, CTO, designated dev per client]
+    contents: [Client API credentials, integration passwords]
+
+personal_vaults:
+  - Each user maintains their own vault for personal tools
+  - Excludes team from viewing
+  - Syncs to personal devices (phone, backup device)
+```
+
+### CI/CD Integration Pattern
+
+Connect your password manager to your deployment pipeline:
+
+```bash
+#!/bin/bash
+# Example: Pull database credential from Bitwarden during CI/CD
+
+# Install bw CLI if not present
+if ! command -v bw &> /dev/null; then
+  npm install -g @bitwarden/cli
+fi
+
+# Authenticate to Bitwarden (token from CI/CD environment variable)
+export BW_SESSION=$(bw unlock $BW_PASSWORD --raw)
+
+# Pull specific credential
+DB_PASSWORD=$(bw get password "production-db-primary")
+
+# Export to environment for deployment
+export DATABASE_PASSWORD=$DB_PASSWORD
+
+# Run deployment
+docker pull myapp:latest
+docker run -e DATABASE_PASSWORD=$DATABASE_PASSWORD myapp:latest
+```
+
+## Team Adoption Strategies
+
+Password manager rollout fails when adoption is neglected. Here's a phased approach that works:
+
+**Week 1 - Administrator Setup**:
+- Create admin accounts for founder/CTO
+- Set up vault structure matching your organization
+- Generate shareable invite links
+
+**Week 2 - Developer Adoption (if applicable)**:
+- Invite engineering team first (they understand the value)
+- Have them test the CLI and browser extension
+- Gather feedback on integration points
+- They become internal advocates
+
+**Week 3 - Non-Technical Team Adoption**:
+- Onboard sales, marketing, and operations
+- Focus on ease of use, not security details
+- Provide one-on-one guidance during first week
+- Create Slack channel for troubleshooting
+
+**Week 4 - Enforcement and Cleanup**:
+- Disable old credential storage (shared spreadsheets)
+- Migrate critical shared credentials
+- Set 2FA requirements for all users
+- Begin auditing access patterns
+
+**Ongoing - Maintenance**:
+- Monthly team member rotation of sensitive passwords
+- Quarterly access review
+- Incident response plan if breach suspected
+
+## Risk Mitigation During Migration
+
+Switching password managers creates temporary vulnerability. Reduce risk:
+
+```bash
+#!/bin/bash
+# Pre-migration audit script
+# Find all hardcoded credentials in codebase
+
+# Search for AWS keys
+grep -r "AKIA" . --exclude-dir=.git
+
+# Search for common secret patterns
+grep -rE "password|api_key|secret" . --include="*.env*" --include="*.config.*"
+
+# Search for encoded credentials (base64)
+# Review manually to distinguish from legitimate base64 strings
+
+# Generate report for remediation
+echo "Found credentials in codebase - migrate to password manager before rollout"
+```
+
+## Red Flags in Password Manager Selection
+
+Avoid these pitfalls:
+
+**No encryption evidence**: If a provider doesn't explain their encryption architecture clearly, question whether they understand zero-knowledge systems.
+
+**Proprietary encryption**: Open standards (AES-256) are more trustworthy than claims of "military-grade custom encryption."
+
+**No audit logs**: For a team, audit logs are essential. If the provider doesn't offer them, you lack visibility.
+
+**Unclear ownership transitions**: What happens to credentials when someone leaves? Can you rapidly revoke access? Poor answers here create future problems.
+
+**No CLI for developers**: If your development team can't integrate with their workflow, adoption fails. CLI support is non-negotiable for technical teams.
+
 ## Making the Decision
 
 For most 15-person remote startups, Bitwarden Teams strikes the best balance. The open-source model provides transparency, self-hosting offers data control, and the pricing scales appropriately. Teams with strong DevOps backgrounds might prefer HashiCorp Vault for its programmatic flexibility.
@@ -122,6 +264,24 @@ Whatever you choose, the key is commitment. A password manager only works when e
 
 Start the evaluation with your team's specific workflow. Identify which integrations matter most, test the CLI if developers will drive adoption, and pick the solution that fits your culture while meeting security requirements.
 
+## Incident Response: Credential Breach Checklist
+
+If a credential is exposed, follow this process:
+
+1. **Immediate (within 1 hour)**:
+   - Rotate the exposed credential
+   - Notify all users who have access to that credential
+   - Document the incident timestamp and impact scope
+
+2. **Short-term (within 24 hours)**:
+   - Review access logs to identify who accessed the credential during exposure window
+   - Audit where the credential was used (which systems/services)
+   - Cancel any actions authenticated with that credential
+
+3. **Long-term**:
+   - Implement credential rotation automation for sensitive accounts
+   - Update access policies to prevent future exposure
+   - Review password manager logs for suspicious access patterns
 
 ## Related Reading
 

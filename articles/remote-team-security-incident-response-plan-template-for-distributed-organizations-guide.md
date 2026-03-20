@@ -22,7 +22,7 @@ This guide provides a practical incident response plan template tailored for rem
 
 ## Why Remote Teams Need Dedicated Incident Response Plans
 
-Traditional security incident response assumes physical proximity. Team members can shout across the office, whiteboard together, and hand off responsibilities . Remote teams operate differently—your on-call engineer might be asleep when an alert fires in their timezone, and your security lead might be in a completely different region.
+Traditional security incident response assumes physical proximity. Team members can shout across the office, whiteboard together, and hand off responsibilities. Remote teams operate differently—your on-call engineer might be asleep when an alert fires in their timezone, and your security lead might be in a completely different region.
 
 A distributed organization needs an incident response plan that:
 

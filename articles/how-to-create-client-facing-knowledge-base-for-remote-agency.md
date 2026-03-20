@@ -66,7 +66,7 @@ Use case: Technical SaaS companies love GitBook documentation. If your clients a
 
 **ReadMe**: Focuses on interactive documentation with feedback loops, letting clients request clarifications directly within articles. Built-in analytics show which docs are most/least used. Good for agencies that want to optimize documentation based on usage data.
 
-Pricing is higher but includes robust support. Good for agencies with 50+ clients who need professional documentation infrastructure.
+Pricing is higher but includes support. Good for agencies with 50+ clients who need professional documentation infrastructure.
 
 **Confluence**: Works well for larger agencies but carries enterprise pricing ($80-1200/month depending on users). Overkill for most smaller agencies unless you have 20+ team members collaborating on documentation.
 
@@ -122,10 +122,10 @@ Create a simple list ranking these topics by frequency. The top ten questions or
 **Audit Process:**
 
 1. Search your email for common keywords:
-   - "How do I...?"
-   - "Can you explain...?"
-   - "What's the process for...?"
-   - "Where do I find...?"
+ - "How do I...?"
+ - "Can you explain...?"
+ - "What's the process for...?"
+ - "Where do I find...?"
 
 2. Review Slack history for repeated questions
 3. Check your project management tool for common request types

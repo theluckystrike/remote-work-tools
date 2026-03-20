@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team New Manager Onboarding Checklist for Distributed Organizations"
-description: "A comprehensive checklist for onboarding new managers in remote teams, specifically designed for companies promoting employees from within their."
+description: "A checklist for onboarding new managers in remote teams, specifically designed for companies promoting employees from within their."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-new-manager-onboarding-checklist-for-distributed/
@@ -99,7 +99,7 @@ The first month shifts focus to developing the specific skills remote managers n
 
 **Weekly one-on-ones** with direct reports should become a non-negotiable ritual. In distributed teams, these meetings serve as the primary relationship-building mechanism. Each should include three components: personal check-in, work progress review, and forward-looking discussion. Without the ability to observe body language or catch someone in the hallway, remote managers rely heavily on these structured conversations to stay connected.
 
-**Management training** should begin immediately. This might include company-provided resources, external courses, or mentorship from experienced managers. Topics particularly critical for remote managers include giving feedback , recognizing burnout signs in distributed team members, and helping effective meetings across time zones.
+**Management training** should begin immediately. This might include company-provided resources, external courses, or mentorship from experienced managers. Topics particularly critical for remote managers include giving feedback, recognizing burnout signs in distributed team members, and helping effective meetings across time zones.
 
 **Documentation creation** should be a priority. Ask the new manager to document their team's processes, decision-making criteria, and workflow as they learn them. This serves dual purposes—it accelerates the new manager's learning and builds organizational knowledge that benefits everyone.
 

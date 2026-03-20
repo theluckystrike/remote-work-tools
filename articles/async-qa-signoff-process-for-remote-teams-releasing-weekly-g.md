@@ -32,7 +32,7 @@ Not all changes require the same level of review. Categorize your signoffs to av
 
 - Hotfix Signoff: Critical bug fixes require expedited async review with a designated approver
 - Feature Signoff: New features need review against acceptance criteria
-- Routine Signoff: Dependency updates and minor changes follow a streamlined process
+- Routine Signoff: Dependency updates and minor changes follow an improved process
 
 Create a simple configuration to document these categories:
 

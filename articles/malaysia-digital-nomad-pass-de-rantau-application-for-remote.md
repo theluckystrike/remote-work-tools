@@ -69,21 +69,21 @@ Proof of Income:
 
 Employment Documentation:
 - [ ] Employment letter from company on company letterhead stating:
-  - Your position and start date
-  - Confirmation of remote work arrangement
-  - Monthly salary amount
-  - Statement that work is performed outside Malaysia
+ - Your position and start date
+ - Confirmation of remote work arrangement
+ - Monthly salary amount
+ - Statement that work is performed outside Malaysia
 - [ ] OR freelance client contracts showing:
-  - Client company name and location (non-Malaysia)
-  - Scope of work and deliverables
-  - Payment terms (USD amount and frequency)
-  - At least 2-3 different contracts recommended
+ - Client company name and location (non-Malaysia)
+ - Scope of work and deliverables
+ - Payment terms (USD amount and frequency)
+ - At least 2-3 different contracts recommended
 
 Health Insurance:
 - [ ] Policy document showing:
-  - Your name as insured
-  - Coverage dates covering your entire planned stay
-  - Geographic coverage including Malaysia
+ - Your name as insured
+ - Coverage dates covering your entire planned stay
+ - Geographic coverage including Malaysia
 - [ ] Acceptable providers: International travel insurance (World Nomads, SafetyWing, GeoBlue) or corporate health insurance with international coverage
 - [ ] Do NOT use basic travel insurance without health coverage
 
@@ -109,11 +109,11 @@ The application is submitted through MDEC's official portal at **de-rantau.mdec.
 
 1. Create an account on the portal (use your email, set strong password)
 2. Complete the application form with:
-   - Personal information (full name, date of birth, nationality)
-   - Passport details (number, expiration date)
-   - Employment details (employer/client name, salary/income)
-   - Planned stay dates (start date and duration, up to 12 months)
-   - Accommodation address in Malaysia (if known) or general location
+ - Personal information (full name, date of birth, nationality)
+ - Passport details (number, expiration date)
+ - Employment details (employer/client name, salary/income)
+ - Planned stay dates (start date and duration, up to 12 months)
+ - Accommodation address in Malaysia (if known) or general location
 3. Upload all documents in the specified sections
 4. Review for completeness before final submission
 5. Submit application and note the reference number

@@ -94,7 +94,7 @@ Our security practices meet SOC 2 Type II standards. The audit report is availab
 
 ## Credential Verification Strategies
 
-Agencies will verify credentials. Make this process seamless:
+Agencies will verify credentials. Make this process :
 
 - Provide direct verification URLs in your documentation
 - Include verification codes where available

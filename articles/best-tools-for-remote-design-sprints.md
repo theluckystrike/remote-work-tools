@@ -66,7 +66,7 @@ The main consideration is pricing. Miro's free tier limits team size and board a
 
 ## FigJam: Lightweight Sprint Sessions
 
-FigJam, developed by Figma, provides a more streamlined approach to remote collaboration. Its simplicity makes it particularly effective for teams that want minimal setup time and intuitive interfaces.
+FigJam, developed by Figma, provides a more improved approach to remote collaboration. Its simplicity makes it particularly effective for teams that want minimal setup time and intuitive interfaces.
 
 Practical sprint features:
 

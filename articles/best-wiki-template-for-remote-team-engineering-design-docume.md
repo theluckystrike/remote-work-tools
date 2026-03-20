@@ -59,10 +59,10 @@ Schema changes, new fields, or data flow modifications.
 ### API Specification
 ```json
 {
-  "endpoint": "/api/v1/resource",
-  "method": "POST",
-  "request": { "field": "type" },
-  "response": { "status": "201 Created" }
+ "endpoint": "/api/v1/resource",
+ "method": "POST",
+ "request": { "field": "type" },
+ "response": { "status": "201 Created" }
 }
 ```
 

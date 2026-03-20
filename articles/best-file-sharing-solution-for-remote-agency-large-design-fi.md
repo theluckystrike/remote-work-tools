@@ -66,7 +66,7 @@ Dropbox lacks granular role-based access controls compared to enterprise alterna
 
 ## Google Drive: Native Integration, Moderate Limits
 
-Google Drive works well for agencies already embedded in the Google Workspace ecosystem. Its real-time collaboration on Google Docs and Sheets transfers to shared folders, and the integration with Figma and other web-based tools is seamless. However, individual file size limits (5TB for single files) can constrain large video or 3D asset workflows.
+Google Drive works well for agencies already embedded in the Google Workspace ecosystem. Its real-time collaboration on Google Docs and Sheets transfers to shared folders, and the integration with Figma and other web-based tools is. However, individual file size limits (5TB for single files) can constrain large video or 3D asset workflows.
 
 Drive's API enables programmatic file management:
 

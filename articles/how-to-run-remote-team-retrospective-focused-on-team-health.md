@@ -194,7 +194,7 @@ A team that regularly examines its health builds resilience against the inevitab
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 - [Remote Team Retrospective Silent Brainstorming Technique.](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
-- [How to Facilitate Engaging Remote Retrospectives](/remote-work-tools/how-to-facilitate-engaging-remote-retrospectives/)
+- [How to Help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
 
 Built by
 

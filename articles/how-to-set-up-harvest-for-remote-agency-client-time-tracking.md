@@ -106,7 +106,7 @@ curl -X POST "https://api.harvestapp.com/v2/time_entries" \
   }'
 ```
 
-Integrate this with your development workflow using GitHub Actions or a custom Slack command for seamless time logging without leaving your workflow.
+Integrate this with your development workflow using GitHub Actions or a custom Slack command for time logging without leaving your workflow.
 
 ## Generating Reports and Invoices
 
@@ -129,7 +129,7 @@ Send invoices directly from Harvest or export to your accounting software. The i
 
 ## Integrating with Project Management Tools
 
-Connect Harvest with your existing project management stack for streamlined workflows.
+Connect Harvest with your existing project management stack for improved workflows.
 
 Slack Integration: Post time tracking reminders and weekly summaries to team channels. Configure notifications for missing time entries or budget alerts.
 

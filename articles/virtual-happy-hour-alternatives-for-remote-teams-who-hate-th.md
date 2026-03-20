@@ -86,7 +86,7 @@ A simple structure:
 
 1. Three presenters, 10 minutes each
 2. Can be anything: a CLI tool, a home automation project, a debugging journey, a new library discovery
-3. Q&A after each, but keep it casual
+3. Q&An after each, but keep it casual
 4. Record and archive for future team members
 
 This works because it uses what developers are already passionate about rather than forcing them to manufacture enthusiasm for small talk.

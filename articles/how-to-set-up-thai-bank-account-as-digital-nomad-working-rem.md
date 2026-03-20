@@ -74,16 +74,35 @@ Expect the process to take 30-60 minutes. The bank will issue an ATM card immedi
 One common challenge is receiving payments from international clients. Your Thai bank account supports:
 
 - **SWIFT transfers** – Direct wire transfers from clients abroad
-- **Wise (formerly TransferWise)** – Connect your Thai account for lower fees
-- **PayPal** – Withdraw to Thai bank accounts
+- **Wise (formerly TransferWise)** – Connect your Thai account for lower fees ($0.68-$6 for most transfers)
+- **PayPal** – Withdraw to Thai bank accounts ($1.99 per withdrawal + conversion fees)
+- **Stripe Connect** – Direct payouts to Thai bank accounts (2.2% for international transfers)
 
-Here's a comparison of typical fees:
+Here's a detailed comparison of typical fees for receiving $1,000 USD:
 
 ```
-Bank Transfer (SWIFT): ~500-800 THB per transaction
-Wise: ~1% + small fixed fee
-PayPal: ~100 THB withdrawal fee
+Bank Transfer (SWIFT):
+- Standard: ~500-800 THB per transaction (~$14-23)
+- International fee: 500 THB
+- Conversion: Mid-market rate typically -1% margin
+
+Wise Transfer:
+- Fee: ~1% = $10 USD
+- Conversion: True mid-market rate (lowest available)
+- Speed: 1-2 business days
+
+PayPal:
+- Withdrawal fee: ~100 THB (~$2.80)
+- Conversion fee: 2-3%
+- Speed: 3-5 business days
+
+Stripe:
+- Fee: 2.2% = $22 USD
+- Conversion: -0.5% margin
+- Speed: 2-3 business days
 ```
+
+**Recommended approach for most developers:** Use Wise for regular payments (lowest cost, fastest speed), PayPal as backup when Wise isn't available, and bank SWIFT transfers only for large amounts where percentage fees justify bank overhead.
 
 ### Currency Considerations
 
@@ -121,6 +140,81 @@ Once your account is active, set up these features:
 4. **Cross-border payments** – Link your account to Wise for international transfers
 
 For developers working remotely, integrating banking APIs can automate invoice payments and expense tracking. Thailand's banking API ecosystem is growing, with services like PromptPay enabling instant fund transfers between Thai bank accounts.
+
+## Thai Bank Selection Comparison
+
+| Bank | Mobile App Rating | English Support | International Wire Fees | Recommended For |
+|------|------------------|-----------------|------------------------|------------------|
+| SCB (Siam Commercial) | 4.5 stars | Excellent | 500-700 THB | English-speaking users |
+| Krungsri | 4.2 stars | Good | 500-700 THB | Established accounts |
+| KBANK | 4.0 stars | Good | 600-800 THB | Budget-conscious |
+| Bangkok Bank | 3.8 stars | Fair | 700-900 THB | Large accounts only |
+
+**SCB (Siam Commercial Bank) - Recommended for Most Developers:**
+- Mobile app fully translated to English
+- Online account opening available (faster than branch)
+- Competitive wire fees (500-700 THB)
+- Strong customer service for foreign clients
+- Wise partnership enables discounted international transfers
+
+**Krungsri (Bank of Ayudhya):**
+- Older, established bank (50+ year track record)
+- Good for developers planning 5+ year stays
+- ATM fee refunds on certain accounts
+- Fixed deposits with competitive rates (3-4% annually)
+
+**KBANK (Kasikornbank):**
+- Fastest mobile app response times
+- Most aggressive ATM network (7,500+ locations)
+- Budget option (lowest fees) for small accounts
+- Less English documentation but staff accommodating
+
+## First 30-Day Financial Setup Priorities
+
+**Days 1-3:**
+- Open main transaction account with SCB or Krungsri
+- Set up mobile banking app
+- Activate online banking credentials
+
+**Days 4-10:**
+- Connect Wise account to Thai bank (receive first international payment here)
+- Test wire transfer from home country bank (or have client send test payment)
+- Set up fixed deposit (FD) account if saving long-term
+
+**Days 11-30:**
+- Establish spending and savings routine in Thai account
+- Request ATM fee refund forms if eligible
+- Explore Promptpay for peer-to-peer transfers within Thailand
+- Open supplementary savings account for interest income (2-3% rates available)
+
+## Visa Requirements and Banking: Integration Points
+
+Opening a Thai bank account doesn't require a long-term visa, but certain visa types offer advantages:
+
+**Elite Visa (10+ year residency):** Opens fastest with banks, preferential interest rates
+**Education Visa (extension-based):** Requires proof of study, full account access available
+**Non-Immigrant B Visa (business):** Most common for remote workers, enables account opening
+**Tourist Visa:** Bank accounts possible but with limitations; may require minimum balance higher than resident requirement
+**Visa Exempt Entry:** Same-day account opening not always possible; visit tourist-friendly branches
+
+Digital nomads on tourist visas or visa exemptions should expect to visit branches in Chiang Mai, Bangkok, or Phuket where staff are experienced with foreigners. Interior branches sometimes refuse accounts to non-residents.
+
+## Tax Filing Considerations for Remote Developers
+
+Thailand uses a calendar year (Jan 1-Dec 31) tax year. For digital nomads, understanding reporting is crucial:
+
+**Not Thailand Tax Resident (under 180 days):**
+- No obligation to file Thai taxes
+- Foreign-sourced income not taxable in Thailand
+- Can open Thai bank accounts freely
+
+**Became Thailand Tax Resident (180+ days in year):**
+- Required to file annual tax return (by March 31 next year)
+- Foreign-sourced income not taxable, but must declare
+- Thai-sourced income (freelance work for Thai companies) IS taxable
+- Standard filing fee: 0 THB (free), but professional tax prep costs 500-2,000 THB
+
+Most remote developers remain non-residents by maintaining absences from Thailand during the year. Those planning 12+ month stays should consult with Thai tax professionals (available through expatriate accountants, $500-1,000 for full year planning).
 
 ## Related Reading
 

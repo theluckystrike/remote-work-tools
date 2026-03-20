@@ -158,11 +158,11 @@ Use this decision framework:
 2. **Calculate the break-even** using the script above with your local prices.
 
 3. **Score your priorities** on a 1-5 scale:
-   - Flexibility needs
-   - Consistency requirements 
-   - Meeting room frequency
-   - Community engagement
-   - Budget sensitivity
+ - Flexibility needs
+ - Consistency requirements 
+ - Meeting room frequency
+ - Community engagement
+ - Budget sensitivity
 
 4. Test before committing: Most spaces offer a free day or trial membership. Use these to validate your assumptions.
 

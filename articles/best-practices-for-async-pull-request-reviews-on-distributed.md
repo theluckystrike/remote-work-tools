@@ -127,7 +127,7 @@ The second example explains the concern, provides reasoning, and includes a conc
 
 ## Using Review Features Effectively
 
-Most Git platforms offer features that streamline async reviews:
+Most Git platforms offer features that improve async reviews:
 
 Line-specific comments: Address code sections precisely rather than making general observations. This makes feedback actionable and helps the author understand exactly what needs attention.
 
@@ -135,9 +135,9 @@ Suggestion commits: GitHub's suggestion feature lets reviewers propose code chan
 
 ```markdown
 ```suggestion
-  const isValidEmail = (email) => {
-    return email.includes('@') && email.length > 3;
-  };
+ const isValidEmail = (email) => {
+ return email.includes('@') && email.length > 3;
+ };
 ```
 
 The author can apply these suggestions with a single click, reducing implementation friction.
@@ -172,11 +172,11 @@ Reduce manual overhead with automation:
 name: CI
 on: [pull_request]
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - run: npm test
-      - run: npm run lint
+ test:
+ runs-on: ubuntu-latest
+ steps:
+ - run: npm test
+ - run: npm run lint
 ```
 
 **PR size limits**: Set alerts for large PRs. Studies consistently show that larger PRs take longer to review and contain more defects. A good rule: PRs over 400 lines warrant extra scrutiny.

@@ -167,7 +167,7 @@ The best corner desk for your home office depends on your specific room dimensio
 For developers, prioritize in this order:
 1. Surface depth for large monitors (minimum 30")
 2. Height adjustability for standing work (motorized > manual)
-3. Robust cable management
+3. cable management
 4. Stability under active typing
 
 Measure your space twice, consider your actual device layout, and choose a desk that accommodates your current setup with room to grow. Most developers upgrade desks every 5-7 years, so don't over-invest initially.

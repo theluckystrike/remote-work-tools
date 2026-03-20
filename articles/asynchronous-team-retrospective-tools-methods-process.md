@@ -393,7 +393,7 @@ TWO WEEKS LATER:
 
 ## Related Reading
 - [Async Team Building Activities for Distributed Teams](/remote-work-tools/guides-hub/)
-- [How to Facilitate Engaging Remote Retrospectives](/remote-work-tools/guides-hub/)
+- [How to Help Engaging Remote Retrospectives](/remote-work-tools/guides-hub/)
 - [Async Decision-Making with RFC Documents for Engineering Teams](/remote-work-tools/guides-hub/)
 
 ---

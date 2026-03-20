@@ -111,7 +111,7 @@ CodeSandbox's main limitation is that it's less suited for large production code
 
 Tuple is designed specifically for remote pair programming with a focus on low-latency screen sharing and minimal bandwidth usage. Unlike Live Share, Tuple streams the entire screen rather than syncing editor state, which provides a more natural experience for some workflows.
 
-Tuple's control-sharing mechanism allows seamless transitions between driver and navigator without requiring the navigator to have the project locally. The mouse pointer is visible during sharing, making it easy to follow along.
+Tuple's control-sharing mechanism allows transitions between driver and navigator without requiring the navigator to have the project locally. The mouse pointer is visible during sharing, making it easy to follow along.
 
 For teams that pair program frequently, Tuple's dedicated approach often feels more polished than general-purpose solutions. The trade-off is that it's macOS-only and focused purely on screen sharing rather than shared editing.
 

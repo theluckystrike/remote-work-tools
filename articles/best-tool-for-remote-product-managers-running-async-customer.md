@@ -26,7 +26,7 @@ For developers and power users, the tool should offer API access or at least exp
 
 ## Building a Custom Async Interview Pipeline
 
-Rather than relying on a single monolithic platform, many engineering-oriented product teams build custom pipelines that use best-in-class components. Here's how to construct one:
+Rather than relying on a single monolithic platform, many engineering-oriented product teams build custom pipelines that use leading components. Here's how to construct one:
 
 ### Step 1: Question Template Management
 

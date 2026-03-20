@@ -81,7 +81,7 @@ Recommendation: Set your task lighting to 2700K-3000K for all night coding sessi
 **Best overall**: BenQ ScreenBar Plus ($129) + Govee TV Backlights ($80-100)
 - ScreenBar Plus includes USB hub and auto-dimming
 - Govee backlights provide additional contrast reduction
-- Combined they create a comprehensive lighting environment
+- Combined they create a lighting environment
 - Total cost: $210-230 for professional-grade night coding setup
 
 ### Mid-Range Setup ($80-120)

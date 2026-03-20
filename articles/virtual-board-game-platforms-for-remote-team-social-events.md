@@ -171,23 +171,23 @@ For globally distributed teams, rotate session times fairly:
 
 ```python
 def calculate_fair_rotation(participants, sessions_per_rotation=4):
-    """Rotate game times to share inconvenience fairly."""
-    time_slots = [
-        "12:00 UTC", # Good for EMEA
-        "15:00 UTC", # Late EMEA / Early APAC
-        "18:00 UTC", # Evening EMEA / Day APAC
-        "21:00 UTC" # Night most regions / Morning Americas
-    ]
-    
-    assignments = {}
-    for i, participant in enumerate(participants):
-        # Cycle through time slots
-        slot_index = (i * sessions_per_rotation) % len(time_slots)
-        if participant not in assignments:
-            assignments[participant] = []
-        assignments[participant].append(time_slots[slot_index])
-    
-    return assignments
+ """Rotate game times to share inconvenience fairly."""
+ time_slots = [
+ "12:00 UTC", # Good for EMEA
+ "15:00 UTC", # Late EMEA / Early APAC
+ "18:00 UTC", # Evening EMEA / Day APAC
+ "21:00 UTC" # Night most regions / Morning Americas
+ ]
+ 
+ assignments = {}
+ for i, participant in enumerate(participants):
+ # Cycle through time slots
+ slot_index = (i * sessions_per_rotation) % len(time_slots)
+ if participant not in assignments:
+ assignments[participant] = []
+ assignments[participant].append(time_slots[slot_index])
+ 
+ return assignments
 ```
 
 This ensures no single person consistently attends at inconvenient hours.
@@ -224,17 +224,17 @@ A simple feedback form works:
 
 ```html
 <form action="/game-night-feedback" method="POST">
-  <label>Rate this session:</label>
-  <input type="radio" name="rating" value="1"> 1
-  <input type="radio" name="rating" value="2"> 2
-  <input type="radio" name="rating" value="3"> 3
-  <input type="radio" name="rating" value="4"> 4
-  <input type="radio" name="rating" value="5"> 5
-  
-  <label>What would make future sessions better?</label>
-  <textarea name="suggestion" rows="3"></textarea>
-  
-  <button type="submit">Submit Feedback</button>
+ <label>Rate this session:</label>
+ <input type="radio" name="rating" value="1"> 1
+ <input type="radio" name="rating" value="2"> 2
+ <input type="radio" name="rating" value="3"> 3
+ <input type="radio" name="rating" value="4"> 4
+ <input type="radio" name="rating" value="5"> 5
+ 
+ <label>What would make future sessions better?</label>
+ <textarea name="suggestion" rows="3"></textarea>
+ 
+ <button type="submit">Submit Feedback</button>
 </form>
 ```
 

@@ -62,7 +62,7 @@ THEN add a comment "@team Please review PR #123"
 AND set due date to +2 days
 ```
 
-This kind of no-code automation appeals to teams who want to streamline repetitive tasks without maintaining custom scripts.
+This kind of no-code automation appeals to teams who want to improve repetitive tasks without maintaining custom scripts.
 
 ## Comparing the Two
 

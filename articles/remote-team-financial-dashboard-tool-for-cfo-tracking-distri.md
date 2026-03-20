@@ -22,7 +22,7 @@ Building a financial dashboard for a distributed company requires careful consid
 
 Remote and distributed teams generate expenses across numerous categories: contractor payments, software subscriptions, cloud infrastructure, travel, and office allowances. Traditional monthly reconciliation cycles leave CFOs blind to spending trends until it's too late. A well-designed real-time financial dashboard transforms expense management from a reactive chore into a proactive strategic function.
 
-The key challenges include aggregating data from multiple sources, handling different currencies and exchange rates, maintaining data security, and providing actionable insights without overwhelming users with raw transaction data.
+The key challenges include aggregating data from multiple sources, handling different currencies and exchange rates, maintaining data security, and providing practical recommendations without overwhelming users with raw transaction data.
 
 ## Core Architecture Components
 

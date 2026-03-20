@@ -92,7 +92,7 @@ Pair this with the 20-20-20 rule: every 20 minutes, look at something 20 feet aw
 ### Premium Option ($80-120)
 **Warby Parker Blue Light Filtering** — Reputable brand with excellent frame selection, includes blue light filtering in all lenses, straightforward return policy. $95 base + $10-20 for blue light upgrade. Good choice if you already wear glasses and want to add blue light filtering to an existing prescription.
 
-**Clearly Blue Light Filtering** — Comprehensive selection, virtual try-on technology works well, competitive pricing with discounts for first-time buyers. Typically $80-100 with filtering included.
+**Clearly Blue Light Filtering** — selection, virtual try-on technology works well, competitive pricing with discounts for first-time buyers. Typically $80-100 with filtering included.
 
 ### Mid-Range Option ($40-80)
 **Zenni Blue Light Blocking Glasses** ($50-70) — Massive frame selection, affordable pricing, includes lens filtering. Zenni allows customization of blue light blocking percentage. Many developers find the value exceptional here.
@@ -128,7 +128,7 @@ Not all blue light blocking lenses are created equal. Here's what actually matte
 
 ## Effective Blue Light Reduction Strategy
 
-Glasses alone don't solve eye strain. Implement a comprehensive approach:
+Glasses alone don't solve eye strain. Implement an approach:
 
 1. **Blue light glasses** (90%+ blocking in 400-420nm range)
 2. **Screen filter software** like f.lux or macOS Night Shift set to 2700K in the evening
@@ -151,7 +151,7 @@ Most programmers replace blue light glasses every 18-24 months with regular wear
 
 ## Integration with Your Development Setup
 
-Blue light glasses work best as part of a comprehensive eye care strategy:
+Blue light glasses work best as part of an eye care strategy:
 
 **Screen brightness calibration**: Use your operating system's brightness settings to match ambient room light. Most developers run screens too bright. If using task lighting, reduce screen brightness to 60-70% of maximum and adjust based on comfort after 30 minutes of use.
 

@@ -15,7 +15,7 @@ voice-checked: true
 
 {% raw %}
 
-Set up the OneNote Web Clipper to capture web content directly into your personal knowledge base with automatic organization and full-text search capability. Whether you're researching technical documentation, saving developer tutorials, or archiving articles, proper configuration transforms this free extension into a streamlined content capture system. This guide walks through complete setup, keyboard shortcuts, and configuration options tailored for developers and power users who need instant content archiving.
+Set up the OneNote Web Clipper to capture web content directly into your personal knowledge base with automatic organization and full-text search capability. Whether you're researching technical documentation, saving developer tutorials, or archiving articles, proper configuration transforms this free extension into an improved content capture system. This guide walks through complete setup, keyboard shortcuts, and configuration options tailored for developers and power users who need instant content archiving.
 
 ## Installing the OneNote Web Clipper
 

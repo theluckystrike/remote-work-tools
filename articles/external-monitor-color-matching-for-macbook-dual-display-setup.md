@@ -77,14 +77,14 @@ For precise color matching—a requirement for photo editing, video work, or des
 1. **Connect both displays** and position your MacBook lid open (or closed if using only external monitors)
 
 2. **Install calibration software**
-   - For X-Rite: Download i1Profiler from xrite.com
-   - For Datacolor: Download SpyderX Elite from datacolor.com
+ - For X-Rite: Download i1Profiler from xrite.com
+ - For Datacolor: Download SpyderX Elite from datacolor.com
 
 3. **Run the calibration wizard**
-   - Select "Dual Display" or "Multiple Monitors" mode
-   - Place the colorimeter on the MacBook display first
-   - Follow prompts through grayscale, gamma, and white point adjustments
-   - Repeat for external monitor
+ - Select "Dual Display" or "Multiple Monitors" mode
+ - Place the colorimeter on the MacBook display first
+ - Follow prompts through grayscale, gamma, and white point adjustments
+ - Repeat for external monitor
 
 4. **Save profiles with descriptive names**
    ```

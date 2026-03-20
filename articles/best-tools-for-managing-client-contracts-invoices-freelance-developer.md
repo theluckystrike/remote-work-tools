@@ -382,9 +382,9 @@ By December 31:
 1. Export all invoices from HoneyBook/Wave/Zoho
 2. Export all expenses from invoicing tool
 3. Send to accountant with:
-   - Total invoiced revenue
-   - Quarterly estimated tax payments made
-   - Business expense summary
+ - Total invoiced revenue
+ - Quarterly estimated tax payments made
+ - Business expense summary
 4. Let accountant generate 1099 forms and calculate taxes
 
 Tools that auto-organize this:

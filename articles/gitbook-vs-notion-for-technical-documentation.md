@@ -106,7 +106,7 @@ v2.0/ (current)
 
 Each version renders as a separate documentation site or section. This model works perfectly for software with distinct release cycles—you document v2.0 features while keeping v1.1 accessible for users on older versions.
 
-Notion lacks native versioning. You can duplicate pages to create snapshots, but this requires manual process discipline. Some teams use date-based page naming conventions or dedicated "archive" databases, but the platform doesn't enforce or streamline this workflow.
+Notion lacks native versioning. You can duplicate pages to create snapshots, but this requires manual process discipline. Some teams use date-based page naming conventions or dedicated "archive" databases, but the platform doesn't enforce or improve this workflow.
 
 For products with frequent releases and users on different versions, GitBook's versioning model provides clear advantages.
 

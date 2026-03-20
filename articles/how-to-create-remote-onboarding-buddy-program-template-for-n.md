@@ -25,7 +25,7 @@ For developers joining a remote team, the first week often involves setting up c
 
 ## Core Components of Your Buddy Program Template
 
-A effective remote onboarding buddy program needs several structural elements. Let's build each component.
+An effective remote onboarding buddy program needs several structural elements. Let's build each component.
 
 ### 1. Buddy Assignment Criteria
 

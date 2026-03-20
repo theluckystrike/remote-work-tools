@@ -3,7 +3,7 @@
 
 layout: default
 title: "Automation Tools for Freelance Business Operations: A Practical Guide"
-description: "Discover automation tools that streamline freelance business operations. From client onboarding to invoicing, learn how to automate repetitive tasks and reclaim your time."
+description: "Discover automation tools that improve freelance business operations. From client onboarding to invoicing, learn how to automate repetitive tasks and reclaim your time."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /automation-tools-for-freelance-business-operations/

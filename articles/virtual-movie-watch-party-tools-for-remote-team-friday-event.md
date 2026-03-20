@@ -36,8 +36,8 @@ The limitation? You're locked into supported services. If your team uses Plex, J
 ```bash
 # Running Syncplay server on a VPS
 docker run -d -p 8999:8999 --name syncplay-server \
-  -e SYNCPLAY_SERVER_PASSWORD=your_secure_password \
-  syncplay/server
+ -e SYNCPLAY_SERVER_PASSWORD=your_secure_password \
+ syncplay/server
 ```
 
 The trade-off is setup time. You need a server accessible to all participants, which means configuring firewall rules, TLS certificates, and potentially dealing with corporate VPN restrictions. For teams with DevOps capacity, this provides the most flexibility.
@@ -55,10 +55,10 @@ For developers seeking programmatic control, **StreamSync** provides an API for 
 const streamSync = require('streamsync-client');
 
 const room = await streamSync.createRoom({
-  name: 'Friday Movie Night',
-  maxParticipants: 50,
-  videoSource: 'https://example.com/movie.mp4',
-  syncTolerance: 500 // milliseconds
+ name: 'Friday Movie Night',
+ maxParticipants: 50,
+ videoSource: 'https://example.com/movie.mp4',
+ syncTolerance: 500 // milliseconds
 });
 
 console.log(`Share this link: ${room.inviteUrl}`);
@@ -107,19 +107,19 @@ const { WebClient } = require('@slack/web-api');
 const slack = new WebClient(process.env.SLACK_TOKEN);
 
 async function scheduleMovieReminder(channelId, movieTitle, startTime) {
-  await slack.chat.postMessage({
-    channel: channelId,
-    text: `🎬 Friday Movie Night: ${movieTitle}`,
-    blocks: [
-      {
-        type: "section",
-        text: {
-          type: "mrkdwn",
-          text: `*${movieTitle}* starts at ${startTime}\nJoin at: https://your-streamsync-server.com/room`
-        }
-      }
-    ]
-  });
+ await slack.chat.postMessage({
+ channel: channelId,
+ text: `🎬 Friday Movie Night: ${movieTitle}`,
+ blocks: [
+ {
+ type: "section",
+ text: {
+ type: "mrkdwn",
+ text: `*${movieTitle}* starts at ${startTime}\nJoin at: https://your-streamsync-server.com/room`
+ }
+ }
+ ]
+ });
 }
 ```
 

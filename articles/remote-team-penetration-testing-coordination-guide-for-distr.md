@@ -44,23 +44,23 @@ Store scope documents in a version-controlled repository accessible only to auth
 ```yaml
 # penetration-test-scope.yaml
 scope:
-  production:
-    - api.production.example.com
-    - 203.0.113.0/24
-  staging:
-    - staging.example.com
-  excluded:
-    - *.internal.example.com
-    - 198.51.100.1
+ production:
+ - api.production.example.com
+ - 203.0.113.0/24
+ staging:
+ - staging.example.com
+ excluded:
+ - *.internal.example.com
+ - 198.51.100.1
 
 rules:
-  testing_hours: "UTC 00:00 - UTC 06:00, UTC 14:00 - UTC 20:00"
-  max_concurrent_requests: 50
-  prohibited:
-    - DDoS testing
-    - Social engineering
-    - Physical intrusion
-  critical_notification_threshold: CVSS 9.0
+ testing_hours: "UTC 00:00 - UTC 06:00, UTC 14:00 - UTC 20:00"
+ max_concurrent_requests: 50
+ prohibited:
+ - DDoS testing
+ - Social engineering
+ - Physical intrusion
+ critical_notification_threshold: CVSS 9.0
 ```
 
 ## Task Distribution Across Time Zones
@@ -74,37 +74,37 @@ A three-region distribution model works well for global teams:
 """Penetration test task distribution for distributed teams."""
 
 TEAM_REGIONS = {
-    "APAC": {"timezone": "Asia/Tokyo", " testers": ["yuki", "raj"]},
-    "EMEA": {"timezone": "Europe/London", "testers": ["marco", "sarah"]},
-    "AMER": {"timezone": "America/Los_Angeles", "testers": ["alex", "jordan"]}
+ "APAC": {"timezone": "Asia/Tokyo", " testers": ["yuki", "raj"]},
+ "EMEA": {"timezone": "Europe/London", "testers": ["marco", "sarah"]},
+ "AMER": {"timezone": "America/Los_Angeles", "testers": ["alex", "jordan"]}
 }
 
 def assign_testing_windows():
-    """Assign testing windows based on regional overlap."""
-    assignments = []
-    
-    # APAC prime time overlaps with late EMEA
-    assignments.append({
-        "region": "APAC",
-        "window": "00:00-06:00 UTC",
-        "focus": "API testing, authentication bypass"
-    })
-    
-    # EMEA covers middle ground
-    assignments.append({
-        "region": "EMEA",
-        "window": "14:00-20:00 UTC",
-        "focus": "Web application, network services"
-    })
-    
-    # AMER covers early morning overlap with late APAC
-    assignments.append({
-        "region": "AMER",
-        "window": "14:00-20:00 UTC",
-        "focus": "Night ops, report compilation"
-    })
-    
-    return assignments
+ """Assign testing windows based on regional overlap."""
+ assignments = []
+ 
+ # APAC prime time overlaps with late EMEA
+ assignments.append({
+ "region": "APAC",
+ "window": "00:00-06:00 UTC",
+ "focus": "API testing, authentication bypass"
+ })
+ 
+ # EMEA covers middle ground
+ assignments.append({
+ "region": "EMEA",
+ "window": "14:00-20:00 UTC",
+ "focus": "Web application, network services"
+ })
+ 
+ # AMER covers early morning overlap with late APAC
+ assignments.append({
+ "region": "AMER",
+ "window": "14:00-20:00 UTC",
+ "focus": "Night ops, report compilation"
+ })
+ 
+ return assignments
 ```
 
 Rotate primary testing responsibility weekly so no single region consistently bears the burden of odd-hour testing.
@@ -117,21 +117,21 @@ A minimal status tracking approach using a shared JSON structure:
 
 ```json
 {
-  "test_id": "PT-2026-03",
-  "status": "in_progress",
-  "current_phase": "external_reconnaissance",
-  "active_testers": ["yuki", "alex"],
-  "findings": {
-    "critical": 2,
-    "high": 5,
-    "medium": 12,
-    "low": 8
-  },
-  "tested_assets": [
-    {"target": "api.example.com", "status": "complete", "findings": 3},
-    {"target": "web.example.com", "status": "in_progress", "findings": 1}
-  ],
-  "last_update": "2026-03-16T15:30:00Z"
+ "test_id": "PT-2026-03",
+ "status": "in_progress",
+ "current_phase": "external_reconnaissance",
+ "active_testers": ["yuki", "alex"],
+ "findings": {
+ "critical": 2,
+ "high": 5,
+ "medium": 12,
+ "low": 8
+ },
+ "tested_assets": [
+ {"target": "api.example.com", "status": "complete", "findings": 3},
+ {"target": "web.example.com", "status": "in_progress", "findings": 1}
+ ],
+ "last_update": "2026-03-16T15:30:00Z"
 }
 ```
 
@@ -207,9 +207,9 @@ Use automated tools to convert markdown findings into various formats:
 ```bash
 # Convert findings to PDF using pandoc
 pandoc finding.md -o finding.pdf \
-  --from markdown \
-  --template report-template.tex \
-  --pdf-engine=xelatex
+ --from markdown \
+ --template report-template.tex \
+ --pdf-engine=xelatex
 ```
 
 ## Key Coordination Principles

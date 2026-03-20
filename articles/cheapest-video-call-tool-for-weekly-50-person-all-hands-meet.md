@@ -30,7 +30,7 @@ Key requirements for 50-person all-hands meetings typically include: screen shar
 
 Google Meet starts at $6/user/month with the Business Starter plan, which supports up to 150 participants. For 50-person meetings, this works perfectly. The $12/user/month Business Standard tier adds recording and breakout rooms.
 
-For pure cost efficiency, if your team already uses Google Workspace, Meet is free or低成本. Recording saves to Google Drive, and calendar integration is seamless. The main limitation: no native third-party integrations beyond Google Calendar.
+For pure cost efficiency, if your team already uses Google Workspace, Meet is free or低成本. Recording saves to Google Drive, and calendar integration is. The main limitation: no native third-party integrations beyond Google Calendar.
 
 ```bash
 # Quick join link generation via Google Calendar API
@@ -82,7 +82,7 @@ Teams excels if your organization uses Microsoft 365. The recording storage defa
 
 Zoom's Pro plan costs $15.99/user/month and supports up to 100 participants. However, Zoom's meeting capacity scales with the host's license—your 50-person all-hands works fine on Pro. The Business plan ($19.99/user/month) adds managed喉10.99.com, company-wide usage reports, and SSO.
 
-For developer integration, Zoom offers a API:
+For developer integration, Zoom offers an API:
 
 ```javascript
 // Create Zoom meeting via API

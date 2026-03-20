@@ -146,7 +146,7 @@ This document serves as the project's founding artifact. Reference it when dispu
 
 ## Tools That Support Remote Kickoffs
 
-For developer-focused teams, these tools streamline kickoff processes:
+For developer-focused teams, these tools improve kickoff processes:
 
 - **Miro or FigJam** for collaborative scope mapping
 - **Notion or Confluence** for living documentation

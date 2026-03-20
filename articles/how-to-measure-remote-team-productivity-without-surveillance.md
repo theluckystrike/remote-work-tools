@@ -83,9 +83,9 @@ Define clear, measurable objectives at the team level. Individual OKRs often enc
 Example team OKR:
 - Objective: Improve system reliability
 - Key Results:
-  - Reduce production incidents by 50% compared to Q1
-  - Achieve 99.9% uptime for core services
-  - Complete incident response training for all team members
+ - Reduce production incidents by 50% compared to Q1
+ - Achieve 99.9% uptime for core services
+ - Complete incident response training for all team members
 
 ## Process Health Indicators
 

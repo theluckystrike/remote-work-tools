@@ -30,7 +30,7 @@ Remote teams often struggle with feeling disconnected from their colleagues and 
 **Why Miro specifically** (vs. Figma, Lucidchart, or Google Docs):
 - Infinite canvas prevents the "running out of space" feeling
 - Sticky notes mimic physical brainstorming (familiar interaction pattern)
-- Built-in visual voting and clustering tools streamline the facilitation process
+- Built-in visual voting and clustering tools improve the facilitation process
 - Board remains accessible for future reference and updates
 - Free tier supports up to 3 boards, sufficient for many teams
 
@@ -44,7 +44,7 @@ Set up three main sections on your board using Miro's framing or container tools
 
 Within the brainstorming section, create individual sticky notes for each team member. Use different colors for different roles or departments if that makes sense for your team, but avoid making anyone feel singled out. The goal is inclusive participation, not competitive suggestion-making.
 
-## Facilitating the Values Generation Session
+## Helping the Values Generation Session
 
 Schedule a synchronous session where everyone can gather in the Miro board at the same time. Even though your team works asynchronously, this exercise benefits from real-time collaboration. The interaction and visible contributions from colleagues spark ideas and energy that asynchronous work sometimes lacks. Typical sessions run 60-90 minutes and should be scheduled during overlap hours when most team members are working.
 
@@ -69,7 +69,7 @@ Once everyone has contributed, move to the clustering phase. This is where the r
 
 Use Miro's ability to draw connection lines between related items. These visual connections help the team see patterns in their values. Often, what seems like a long list of disconnected ideas reveals a smaller set of core themes when grouped together.
 
-**How to facilitate clustering**: Suggest groupings and ask if the team agrees. For example: "I see several ideas about communication style—transparency, over-communication, sharing knowledge. Should these cluster together?" Let the team refine your suggestions. This participatory approach helps everyone understand how values relate.
+**How to help clustering**: Suggest groupings and ask if the team agrees. For example: "I see several ideas about communication style—transparency, over-communication, sharing knowledge. Should these cluster together?" Let the team refine your suggestions. This participatory approach helps everyone understand how values relate.
 
 During this phase, encourage discussion about what makes certain values essential versus nice-to-have. Some values might feel universal—things your team couldn't function without. Others might be aspirational—things you want to work toward but don't always achieve. Both types have value, but distinguishing between them helps prioritize.
 

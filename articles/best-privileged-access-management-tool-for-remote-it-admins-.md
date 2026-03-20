@@ -130,11 +130,11 @@ If your infrastructure leans heavily on Microsoft Azure, Azure Privileged Identi
 
 ### 4. AWS IAM Identity Center (formerly SSO)
 
-AWS IAM Identity Center provides centralized access management across AWS accounts and external applications. For remote IT admins primarily working with AWS, it offers streamlined credential management with strong integration.
+AWS IAM Identity Center provides centralized access management across AWS accounts and external applications. For remote IT admins primarily working with AWS, it offers improved credential management with strong integration.
 
 **Strengths for remote IT admins:**
 
-- Seamless AWS credential management
+- AWS credential management
 - Integration with AWS Organizations
 - Permission sets that map to job functions
 - Built-in reporting and compliance features

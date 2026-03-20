@@ -62,23 +62,23 @@ Here's a refactored approach:
 ```python
 # Before (nested)
 def validate(self, user):
-    if user.is_active:
-        if user.has_permission:
-            if user.profile.is_complete:
-                return True
-            else return False
-        else return False
-    else return False
+ if user.is_active:
+ if user.has_permission:
+ if user.profile.is_complete:
+ return True
+ else return False
+ else return False
+ else return False
 
 # After (early returns)
 def validate(self, user):
-    if not user.is_active:
-        return False
-    if not user.has_permission:
-        return False
-    if not user.profile.is_complete:
-        return False
-    return True
+ if not user.is_active:
+ return False
+ if not user.has_permission:
+ return False
+ if not user.profile.is_complete:
+ return False
+ return True
 ```
 
 Want me to approve once you address this? Happy to pair on the refactor if helpful.
@@ -122,9 +122,9 @@ Some feedback requires extra care. When addressing pattern issues, performance c
 2. **Name the pattern, not the person** — Instead of "You always push without tests," try "I've noticed the last three PRs were merged without test coverage. Can we discuss a workflow that ensures tests are included?"
 
 3. **Create space for response** — End with a question or explicit invitation:
-   - "Am I missing context here?"
-   - "What's your perspective on this?"
-   - "Happy to discuss further in a call if helpful."
+ - "Am I missing context here?"
+ - "What's your perspective on this?"
+ - "Happy to discuss further in a call if helpful."
 
 ## Example: Slack Feedback Template
 

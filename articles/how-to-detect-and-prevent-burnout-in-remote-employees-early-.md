@@ -161,7 +161,7 @@ Create rhythms that include rest:
 
 Sustainable remote work requires treating wellbeing as a technical requirement, not a soft skill. Just as you would refactor inefficient code, refactor workflows that create unnecessary stress. Track burnout metrics alongside your usual engineering KPIs. Celebrate employees who maintain healthy boundaries rather than those who consistently overextend.
 
-The goal is not to eliminate all stress—some pressure drives growth and innovation. The goal is ensuring that stress is balanced with recovery, that expectations are clear, and that employees feel empowered to raise concerns before they reach crisis levels.
+The goal is not to eliminate all stress—some pressure drives growth and innovation. The goal is ensuring that stress is balanced with recovery, that expectations are clear, and that employees feel enabled to raise concerns before they reach crisis levels.
 
 Prevention costs far less than recovery. A burned-out employee may require months to recover fully, and some never return to their previous productivity levels. Investing in detection and prevention protects both your team members and your project's success.
 

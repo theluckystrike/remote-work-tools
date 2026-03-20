@@ -192,7 +192,7 @@ defaults write com.apple.dt.Xcode IDESkipSourceEditorAllowsIndexing -bool YES
 
 ## Productivity Workflows
 
-Streamline daily workflows to maximize output during remote work hours.
+Improve daily workflows to maximize output during remote work hours.
 
 ### Hotkey Configuration
 

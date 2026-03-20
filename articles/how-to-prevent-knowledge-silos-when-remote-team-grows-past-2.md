@@ -91,10 +91,10 @@ Operational knowledge—what to do when things break—often resides only in sen
 2. Identify long-running queries: `SELECT pid, query, state, duration FROM pg_stat_activity WHERE state = 'active';`
 3. Kill problematic connections if needed:
    ```sql
-   SELECT pg_terminate_backend(pid) 
-   FROM pg_stat_activity 
-   WHERE state = 'idle in transaction' 
-   AND query_start < now() - interval '10 minutes';
+ SELECT pg_terminate_backend(pid) 
+ FROM pg_stat_activity 
+ WHERE state = 'idle in transaction' 
+ AND query_start < now() - interval '10 minutes';
    ```
 
 ## Prevention

@@ -75,7 +75,7 @@ def create_user_in_okta(user_email, user_name):
 
 ### Azure AD (Microsoft Entra ID)
 
-Microsoft's identity platform has evolved significantly, rebranded as Microsoft Entra ID. For organizations already invested in Microsoft 365, Azure AD provides seamless integration with Teams, SharePoint, and Windows devices.
+Microsoft's identity platform has evolved significantly, rebranded as Microsoft Entra ID. For organizations already invested in Microsoft 365, Azure AD provides integration with Teams, SharePoint, and Windows devices.
 
 **Strengths:**
 - Deep Microsoft ecosystem integration

@@ -20,7 +20,7 @@ Building an effective decision-making framework for distributed teams requires d
 
 ## Why Distributed Teams Need Explicit Decision Frameworks
 
-In co-located settings, decisions happen informally—over lunch, in hallway conversations, or during impromptu meetings. Distributed teams lose these ambient communication channels. A explicit framework replaces informal consensus-building with documented, reproducible processes.
+In co-located settings, decisions happen informally—over lunch, in hallway conversations, or during impromptu meetings. Distributed teams lose these ambient communication channels. An explicit framework replaces informal consensus-building with documented, reproducible processes.
 
 The core challenge is balancing speed with inclusivity. Teams that over-index on speed make autocratic decisions. Teams that over-index on inclusivity stall from endless discussion. A well-designed framework creates space for both: fast decisions for low-stakes issues, thorough deliberation for high-impact choices.
 

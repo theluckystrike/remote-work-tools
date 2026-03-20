@@ -191,7 +191,7 @@ Brazil: Labor law requires IP clauses to be explicitly included in employment co
 
 2. Missing Prior Inventions Exclusion: Failing to list prior inventions can lead to disputes over pre-existing IP.
 
-3. Ignoring Local Requirements: A US-centric clause may be unenforceable in other jurisdictions.
+3. Ignoring Local Requirements: An US-centric clause may be unenforceable in other jurisdictions.
 
 4. No Disclosure Process: Employees must know how and when to disclose inventions.
 
@@ -207,7 +207,7 @@ For developer-focused teams, consider these additional measures:
 - Create clear guidelines for side projects and outside work
 - Establish emergency protocols for critical IP situations
 
-A IP assignment framework protects your organization while providing clear guidance to remote employees. The templates and patterns in this guide give you a foundation to build jurisdiction-appropriate agreements that work for distributed teams.
+An IP assignment framework protects your organization while providing clear guidance to remote employees. The templates and patterns in this guide give you a foundation to build jurisdiction-appropriate agreements that work for distributed teams.
 
 Review your current IP assignment practices and identify gaps. Implement the checklist for new hires and audit existing agreements for compliance with local requirements.
 

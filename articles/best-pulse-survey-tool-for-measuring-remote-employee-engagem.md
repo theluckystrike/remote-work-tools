@@ -105,7 +105,7 @@ async function createWeeklyPulse() {
 }
 ```
 
-Lattice's strength is its unified approach—seeing engagement scores alongside OKR progress, feedback, and career development data. For engineering teams already using data-driven approaches, this correlation provides actionable insights.
+Lattice's strength is its unified approach—seeing engagement scores alongside OKR progress, feedback, and career development data. For engineering teams already using data-driven approaches, this correlation provides practical recommendations.
 
 ## Officevibe: Simple Integration with Communication Tools
 

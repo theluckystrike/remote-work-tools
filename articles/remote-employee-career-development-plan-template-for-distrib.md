@@ -21,7 +21,7 @@ Managing career growth for remote employees requires deliberate structure. Unlik
 
 ## The Core Career Development Framework
 
-A effective remote career development plan addresses four key dimensions: technical skill progression, leadership and communication growth, career trajectory clarity, and measurable milestones. Without explicit documentation, remote employees often feel their growth goes unnoticed, leading to disengagement and turnover.
+An effective remote career development plan addresses four key dimensions: technical skill progression, leadership and communication growth, career trajectory clarity, and measurable milestones. Without explicit documentation, remote employees often feel their growth goes unnoticed, leading to disengagement and turnover.
 
 The following YAML structure provides a starting point you can adapt to your organization's needs:
 

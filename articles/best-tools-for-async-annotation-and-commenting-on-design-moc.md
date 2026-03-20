@@ -73,7 +73,7 @@ For teams requiring more structure, MarkUp supports custom fields and workflows.
 
 Originally built for video review, Frame.io extends its annotation capabilities to static images and design files. The platform excels when teams need to review animations, interaction sequences, or design presentations rather than single mockups. Frame.io's timeline-based comments allow annotators to reference specific frames, making it valuable for motion design and interactive prototype reviews.
 
-Frame.io integrates with Adobe Creative Cloud, allowing seamless round-trips between design tools and the review platform. For teams using After Effects or Principle for animations, this integration preserves the connection between source files and feedback. Developers can export frame-specific annotations as JSON for programmatic processing:
+Frame.io integrates with Adobe Creative Cloud, allowing round-trips between design tools and the review platform. For teams using After Effects or Principle for animations, this integration preserves the connection between source files and feedback. Developers can export frame-specific annotations as JSON for programmatic processing:
 
 ```json
 {
@@ -125,7 +125,7 @@ Select annotation tools based on your team's existing workflow and integration r
 | Redline | Developer-focused workflows | CLI, Markdown/JSON output |
 | InVision | Enterprise organizations | Jira, Confluence, Slack |
 
-For most development teams, Figma provides the most seamless experience since it combines design creation with annotation capabilities. If your team uses a different primary design tool or requires specialized review workflows, consider the alternatives based on their integration APIs and export capabilities.
+For most development teams, Figma provides the most experience since it combines design creation with annotation capabilities. If your team uses a different primary design tool or requires specialized review workflows, consider the alternatives based on their integration APIs and export capabilities.
 
 ## Automating Annotation Workflows
 

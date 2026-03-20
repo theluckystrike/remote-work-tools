@@ -71,7 +71,7 @@ Culture Amp prioritizes employee development and engagement measurement. The pla
 
 ### BambooHR
 
-BambooHR serves as an all-in-one HRIS with built-in performance management. For teams already using BambooHR for onboarding and time tracking, the performance review module integrates . The platform emphasizes simplicity over advanced features.
+BambooHR serves as an all-in-one HRIS with built-in performance management. For teams already using BambooHR for onboarding and time tracking, the performance review module integrates. The platform emphasizes simplicity over advanced features.
 
 **Strengths:**
 - Unified HR data platform

@@ -129,7 +129,7 @@ While this article focuses on music selection, the hardware matters significantl
 
 - Sony WH-1000XM series (excellent ANC, comfortable for long sessions)
 - Bose QuietComfort (premium comfort, solid noise cancellation)
-- Apple AirPods Max (seamless ecosystem integration)
+- Apple AirPods Max (ecosystem integration)
 
 The investment pays dividends in open office environments or noisy home settings.
 

@@ -118,9 +118,9 @@ Retrieves user information by ID.
 **Response:**
 ```json
 {
-  "id": "123",
-  "username": "johndoe",
-  "email": "john@example.com"
+ "id": "123",
+ "username": "johndoe",
+ "email": "john@example.com"
 }
 ```
 ```

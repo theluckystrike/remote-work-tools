@@ -17,7 +17,7 @@ tags: [remote-work-tools, remote-work]
 
 {% raw %}
 
-Run effective async design critiques with five key steps: prepare designs with context and specific questions, set 24-48 hour review deadlines, collect feedback in a structured format (threaded comments, Markdown, or issues), synthesize and respond to all input, and close the loop by sharing implemented changes. This removes time zone friction while maintaining design quality through structured documentation and clear feedback prompts that produce actionable insights.
+Run effective async design critiques with five key steps: prepare designs with context and specific questions, set 24-48 hour review deadlines, collect feedback in a structured format (threaded comments, Markdown, or issues), synthesize and respond to all input, and close the loop by sharing implemented changes. This removes time zone friction while maintaining design quality through structured documentation and clear feedback prompts that produce practical recommendations.
 
 ## What Makes Async Design Critique Effective
 

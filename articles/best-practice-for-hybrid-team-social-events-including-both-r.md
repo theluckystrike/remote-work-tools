@@ -72,7 +72,7 @@ Avoid hybrid events where remote participants engage asynchronously while in-off
 
 Games work particularly well when structured correctly. Virtual trivia, collaborative puzzles, and guided experiences like online escape rooms create shared moments that physical distance cannot diminish.
 
-### Principle 3: Technology Stack for Seamless Integration
+### Principle 3: Technology Stack for Integration
 
 Invest in equipment that bridges the physical divide. A dedicated hybrid event setup in meeting rooms includes:
 

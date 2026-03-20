@@ -180,7 +180,7 @@ This ensures new hires receive consistent, timely introductions without manual i
 
 ## Linear: Task Management Integration
 
-Linear streamlines the assignment of onboarding tasks. Create a recurring template for new hire tasks:
+Linear improves the assignment of onboarding tasks. Create a recurring template for new hire tasks:
 
 ```json
 {

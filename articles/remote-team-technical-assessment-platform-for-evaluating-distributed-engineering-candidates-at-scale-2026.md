@@ -235,7 +235,7 @@ A positive assessment experience reflects directly on your employer brand. Key c
 
 ## Integration with Your Hiring Pipeline
 
-Connect your assessment platform with your applicant tracking system to create seamless workflows:
+Connect your assessment platform with your applicant tracking system to create workflows:
 
 ```javascript
 // Webhook integration with ATS

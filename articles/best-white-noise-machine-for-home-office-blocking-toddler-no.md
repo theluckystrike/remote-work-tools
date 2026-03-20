@@ -40,7 +40,7 @@ For developers who already wear headphones during coding sessions, active noise 
 
 - Sony WH-1000XM5: Excellent passive seal plus adaptive ANC
 - Bose QuietComfort Ultra: Comfortable for all-day wear during long debugging sessions
-- Apple AirPods Max: Seamless if you're in the Apple ecosystem
+- Apple AirPods Max: if you're in the Apple ecosystem
 
 Note that ANC performs better on consistent low-frequency noise (air conditioning, traffic) than on sporadic high-frequency sounds (toddler tantrums). ANC works best as a complement to white noise, not a replacement.
 

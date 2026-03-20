@@ -122,7 +122,7 @@ If you work primarily from a laptop with external displays:
 
 ## Critical Configuration: Networked Shutdown
 
-A UPS without automated shutdown is only half useful. When you're not present during an extended outage, your system should shut down gracefully.
+An UPS without automated shutdown is only half useful. When you're not present during an extended outage, your system should shut down gracefully.
 
 ### Linux Setup with apcupsd
 

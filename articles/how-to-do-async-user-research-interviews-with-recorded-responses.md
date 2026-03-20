@@ -295,7 +295,7 @@ Example: "If you could wave a magic wand and change anything about [process], wh
 
 ## Recording Guidelines for Quality Responses
 
-Help participants create high-quality video responses that provide actionable insights.
+Help participants create high-quality video responses that provide practical recommendations.
 
 ### Technical Setup Recommendations
 
@@ -337,7 +337,7 @@ Questions? Reply to this email and I'm happy to help.
 
 ## Analyzing Async Interview Responses
 
-Async interviews generate substantial video content. Systematic analysis ensures you extract actionable insights efficiently.
+Async interviews generate substantial video content. Systematic analysis ensures you extract practical recommendations efficiently.
 
 ### Analysis Workflow
 

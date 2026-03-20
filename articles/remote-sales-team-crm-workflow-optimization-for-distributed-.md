@@ -142,7 +142,7 @@ This routing ensures leads get handled during business hours in their time zone,
 
 ## Pipeline Visibility for Distributed Managers
 
-Remote sales managers need pipeline visibility without micromanagement. Build dashboards that surface actionable insights rather than raw data.
+Remote sales managers need pipeline visibility without micromanagement. Build dashboards that surface practical recommendations rather than raw data.
 
 ### Essential Pipeline Metrics
 

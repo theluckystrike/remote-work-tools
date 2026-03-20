@@ -63,7 +63,7 @@ The free tier includes Gantt charts with unlimited tasks, making it accessible f
 
 ## Linear: Speed for Sprint-Adjacent Planning
 
-Linear brings its signature speed to timeline visualization. The timeline view loads instantly and supports keyboard-first navigation. For teams already using Linear for issue tracking, the seamless connection between issues and timeline tasks creates an unified planning experience.
+Linear brings its signature speed to timeline visualization. The timeline view loads instantly and supports keyboard-first navigation. For teams already using Linear for issue tracking, the connection between issues and timeline tasks creates an unified planning experience.
 
 GraphQL API enables programmatic timeline management:
 

@@ -75,7 +75,7 @@ Philips Hue remains the gold standard for smart lighting, and their Lightstrip P
 
 **Pros:**
 - Excellent color accuracy and consistency
-- Seamless integration with smart home ecosystems
+- integration with smart home ecosystems
 - Smooth brightness dimming from 1% to 100%
 - Works with Razer Synapse for screen sync
 

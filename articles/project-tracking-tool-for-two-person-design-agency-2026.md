@@ -64,16 +64,16 @@ const { Client } = require('@notionhq/client')
 const notion = new Client({ auth: process.env.NOTION_KEY })
 
 async function getWeekTasks() {
-  const response = await notion.databases.query({
-    database_id: process.env.TASKS_DB_ID,
-    filter: {
-      and: [
-        { property: 'Status', status: { does_not_equal: 'Done' } },
-        { property: 'Due Date', date: { this_week: {} } }
-      ]
-    }
-  })
-  return response.results
+ const response = await notion.databases.query({
+ database_id: process.env.TASKS_DB_ID,
+ filter: {
+ and: [
+ { property: 'Status', status: { does_not_equal: 'Done' } },
+ { property: 'Due Date', date: { this_week: {} } }
+ ]
+ }
+ })
+ return response.results
 }
 ```
 
@@ -127,12 +127,12 @@ Regardless of your tool choice, these automations reduce manual overhead:
 ```javascript
 // Example: Linear webhook to notify on status change
 app.post('/webhook/linear', async (req, res) => {
-  const { type, data } = req.body
-  if (type === 'Issue' && data.state.name === 'Done') {
-    // Trigger notification to client or team member
-    await sendSlackNotification(`Issue "${data.title}" completed`)
-  }
-  res.status(200).send('OK')
+ const { type, data } = req.body
+ if (type === 'Issue' && data.state.name === 'Done') {
+ // Trigger notification to client or team member
+ await sendSlackNotification(`Issue "${data.title}" completed`)
+ }
+ res.status(200).send('OK')
 })
 ```
 

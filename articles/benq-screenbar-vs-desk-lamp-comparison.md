@@ -95,7 +95,7 @@ During late-night debugging sessions, the ScreenBar's directed light illuminates
 - The combination provides both monitor-mounted and adjustable desk lighting
 - ScreenBar Plus includes an autolight sensor and USB-C hub functionality
 - BenQ desk lamp features a curved light distribution pattern for even desk coverage
-- Together they create a comprehensive lighting environment for extended coding sessions
+- Together they create a lighting environment for extended coding sessions
 
 ### Mid-Range Setup ($90-140)
 

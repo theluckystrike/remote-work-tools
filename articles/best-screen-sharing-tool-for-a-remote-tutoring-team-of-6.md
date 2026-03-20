@@ -29,7 +29,7 @@ The six-person constraint is actually advantageous—most video conferencing pla
 
 ## Zoom: The Industry Standard for Education
 
-Zoom remains the most widely adopted solution for remote tutoring, and for good reason. The screen sharing quality is consistent across bandwidth conditions, and the host controls allow seamless switching between participants.
+Zoom remains the most widely adopted solution for remote tutoring, and for good reason. The screen sharing quality is consistent across bandwidth conditions, and the host controls allow switching between participants.
 
 ### Implementation for Tutoring Teams
 
@@ -55,7 +55,7 @@ Zoom's adaptive bitrate encoding handles variable connection speeds well. In tes
 
 ## Google Meet: Free Tier Advantage
 
-For budget-conscious tutoring teams, Google Meet offers surprising capability at no cost. The integration with Google Workspace provides calendar scheduling, automatic recording to Google Drive, and seamless collaboration features.
+For budget-conscious tutoring teams, Google Meet offers surprising capability at no cost. The integration with Google Workspace provides calendar scheduling, automatic recording to Google Drive, and collaboration features.
 
 ### Practical Setup
 
