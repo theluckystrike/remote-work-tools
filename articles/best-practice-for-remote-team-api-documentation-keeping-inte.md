@@ -199,7 +199,8 @@ The best tool depends on your team's existing tools and preferences. Evaluate ba
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

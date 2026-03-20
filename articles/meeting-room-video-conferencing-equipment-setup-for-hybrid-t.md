@@ -243,6 +243,8 @@ if __name__ == "__main__":
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Video Conferencing Setup for Hybrid Rooms: A.](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -310,6 +310,8 @@ Fire safety requires regular testing:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [How to Redesign Open Plan Office for Hybrid Work: Adding.](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

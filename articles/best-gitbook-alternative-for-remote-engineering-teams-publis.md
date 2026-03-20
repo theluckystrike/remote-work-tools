@@ -209,6 +209,8 @@ Each alternative handles internal documentation effectively when deployed behind
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Developer Documentation Collaboration Tools for.](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

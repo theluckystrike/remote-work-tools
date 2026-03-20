@@ -221,7 +221,8 @@ jobs:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+- [Best Remote Employee Recognition Program Ideas for.](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

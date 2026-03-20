@@ -241,7 +241,8 @@ Effective onboarding documentation transforms how new developers integrate into 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Career Ladder Documentation for Growing Engineering Organization 2026](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

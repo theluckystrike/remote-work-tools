@@ -165,7 +165,8 @@ eor_provider:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Remote Legal Billing Software Comparison for Distributed.](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

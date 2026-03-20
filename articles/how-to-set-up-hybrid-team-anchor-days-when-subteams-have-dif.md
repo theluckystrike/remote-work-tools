@@ -208,6 +208,8 @@ Neglecting async documentation: Without explicit async handoffs, anchor days cre
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
+- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+- [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

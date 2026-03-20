@@ -220,6 +220,8 @@ Remember: perfect documentation doesn't exist. The goal is continuous improvemen
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

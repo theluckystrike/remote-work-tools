@@ -244,6 +244,8 @@ Badge access tracking provides the factual foundation for hybrid workplace optim
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Hybrid Office Space Planning Tool for Facilities.](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+- [Best Desk Sensor Technology for Hybrid Offices: Tracking.](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

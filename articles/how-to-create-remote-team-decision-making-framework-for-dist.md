@@ -223,6 +223,8 @@ Building a decision-making framework for distributed teams takes deliberate effo
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Decision Making Framework.](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

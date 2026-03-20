@@ -176,6 +176,8 @@ Adjust the policy based on data. If morning quiet hours aren't working, try afte
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [How to Create a Hybrid Work Stipend Policy Covering Both.](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

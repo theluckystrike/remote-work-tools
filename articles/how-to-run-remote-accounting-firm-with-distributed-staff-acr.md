@@ -190,6 +190,8 @@ Review metrics monthly and adjust workflows accordingly. The goal is continuous 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [How to Manage Remote Journalism Team Across.](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

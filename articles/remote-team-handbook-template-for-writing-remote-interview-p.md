@@ -174,6 +174,8 @@ Before publishing your documentation, verify:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Remote Team Handbook Section Template for Writing.](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
+- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

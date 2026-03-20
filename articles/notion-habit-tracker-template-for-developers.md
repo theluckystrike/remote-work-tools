@@ -147,7 +147,8 @@ Make logging frictionless. Keep your Notion workspace easily accessible on all d
 ## Related Reading
 
 - [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

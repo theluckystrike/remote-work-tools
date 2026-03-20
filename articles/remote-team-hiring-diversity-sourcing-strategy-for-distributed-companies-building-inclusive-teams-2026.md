@@ -191,6 +191,8 @@ Track these metrics to understand if your sourcing strategy works:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Diversity Sourcing Strategy for Remote Teams: Building Inclusive Distributed Companies](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+- [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

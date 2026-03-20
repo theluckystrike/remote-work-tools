@@ -256,6 +256,8 @@ Use GitHub's built-in analytics or export Discussion data to a spreadsheet for a
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [Async Decision Making with RFC Documents for Engineering.](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

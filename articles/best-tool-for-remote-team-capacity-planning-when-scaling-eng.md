@@ -222,6 +222,8 @@ Whatever approach you choose, the key is consistency: track your projections aga
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+- [Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

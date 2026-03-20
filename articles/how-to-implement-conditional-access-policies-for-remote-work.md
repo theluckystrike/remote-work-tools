@@ -226,6 +226,8 @@ For remote teams specifically, ensure your policies account for legitimate use c
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
+- [How to Implement Geo-Fencing Access Controls for Remote.](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

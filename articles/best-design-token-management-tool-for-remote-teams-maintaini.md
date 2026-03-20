@@ -129,6 +129,8 @@ The most successful remote design teams treat design tokens as infrastructure, n
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
+- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Set Up Remote Design Handoff Workflow Between.](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

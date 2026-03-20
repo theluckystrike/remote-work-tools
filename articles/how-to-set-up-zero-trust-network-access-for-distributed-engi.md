@@ -234,5 +234,8 @@ The goal isn't perfect security—it's making attackers' jobs significantly hard
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Zero Trust Network Setup Using Cloudflare Access for.](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
+- [Zero Trust Remote Access Setup Guide for Small.](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [How to Set Up OKR Tracking System for Distributed.](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

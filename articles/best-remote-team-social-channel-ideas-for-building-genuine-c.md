@@ -199,6 +199,8 @@ Building genuine connections in remote teams requires intentional design. The ch
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [How to Create Interest-Based Slack Channels for Remote.](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

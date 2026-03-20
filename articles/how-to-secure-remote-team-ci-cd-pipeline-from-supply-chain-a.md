@@ -264,6 +264,8 @@ Create an incident response plan specifically for pipeline compromises. Know how
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend.](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Best DevSecOps Toolchain for Remote Teams Integrating.](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

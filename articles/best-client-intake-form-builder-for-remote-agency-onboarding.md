@@ -143,6 +143,8 @@ The best intake form builder is one your team actually uses consistently. A soph
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+- [Client Feedback Collection Tool for Remote Development.](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
+- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

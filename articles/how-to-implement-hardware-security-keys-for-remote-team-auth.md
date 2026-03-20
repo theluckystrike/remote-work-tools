@@ -267,6 +267,8 @@ For remote teams specifically, hardware keys eliminate the risk of SMS intercept
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [Certificate Based Authentication Setup for Remote Team.](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [How to Secure Remote Team CI/CD Pipeline From Supply.](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

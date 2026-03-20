@@ -112,6 +112,8 @@ This measurement approach helps you identify frequency-specific problems and tar
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
+- [How to Set Up a Soundproof Home Office When Working.](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

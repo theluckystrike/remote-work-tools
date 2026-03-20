@@ -179,5 +179,8 @@ Start small, stay consistent, and iterate based on feedback. Your remote teams w
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

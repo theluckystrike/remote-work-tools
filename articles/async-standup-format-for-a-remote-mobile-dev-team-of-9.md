@@ -186,6 +186,8 @@ No Follow-Up: Async standups work only if someone actually reads and acts on the
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Coordinate Remote Mobile Developers Releasing.](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
+- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

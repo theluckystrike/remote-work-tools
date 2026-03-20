@@ -156,6 +156,8 @@ When possible, schedule important calls during predictable quiet periods. If you
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Noise Gate Microphone Setting for Remote Parents.](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
+- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

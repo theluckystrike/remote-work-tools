@@ -151,6 +151,8 @@ Track these metrics to know if your framework works:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
+- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Measure Remote Team Productivity Without.](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

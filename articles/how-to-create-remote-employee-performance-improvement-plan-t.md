@@ -182,5 +182,8 @@ The goal of any PIP is genuine improvement. When executed thoughtfully with clea
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Employee Performance Tracking Tool Comparison for.](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

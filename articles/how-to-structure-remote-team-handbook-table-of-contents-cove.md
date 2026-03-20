@@ -213,6 +213,8 @@ Choose platforms that support granular permissions, as some sections (compensati
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Handbook Section Template for Writing.](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
+- [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

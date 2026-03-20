@@ -164,6 +164,8 @@ Remember: networking as a digital nomad requires more intentionality than tradit
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+- [How to Combat Loneliness as a Digital Nomad](/remote-work-tools/how-to-combat-loneliness-as-a-digital-nomad/)
+- [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -265,6 +265,8 @@ Implement these metrics in your dashboard to identify bottlenecks and continuous
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space.](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Collaboration Zones in Hybrid Office Layout](/remote-work-tools/collaboration-zones-in-hybrid-office-layout/)
+- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

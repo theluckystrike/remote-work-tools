@@ -205,6 +205,8 @@ If circumstances change—travel, illness, heavy workload—communicate proactiv
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [How to Support Neurodivergent Remote Workers](/remote-work-tools/how-to-support-neurodivergent-remote-workers/)
+- [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

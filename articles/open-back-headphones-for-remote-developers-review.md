@@ -114,7 +114,8 @@ For developers in suitable environments, open back headphones improve daily comf
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [Best Kid Safe Headphones for Children of Remote Workers.](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
+- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

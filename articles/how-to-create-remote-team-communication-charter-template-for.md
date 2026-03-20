@@ -218,6 +218,8 @@ By joining this team, I commit to following this charter and proposing updates w
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [How to Create Remote Team Communication Guidelines for.](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

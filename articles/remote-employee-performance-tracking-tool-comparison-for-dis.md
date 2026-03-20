@@ -187,5 +187,8 @@ This approach lets distributed managers track meaningful engineering metrics rat
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Employee Performance Improvement.](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
+- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [Remote Employee Output-Based Performance Measurement.](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

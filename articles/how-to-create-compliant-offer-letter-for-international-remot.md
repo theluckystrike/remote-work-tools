@@ -231,6 +231,8 @@ Building a compliant hiring process protects your company and ensures your new h
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Handle Mandatory Paid Leave Laws for Remote Employees in Different States](/remote-work-tools/how-to-handle-mandatory-paid-leave-laws-for-remote-employees/)
+- [How to Handle Employment Law Differences for Remote.](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -167,6 +167,8 @@ Start with the basic template, track how long each section actually takes, and a
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

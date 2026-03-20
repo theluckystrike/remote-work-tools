@@ -118,7 +118,8 @@ For remote workers specifically, establish clear schedules that align children's
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
+- [Open Back Headphones for Remote Developers Review](/remote-work-tools/open-back-headphones-for-remote-developers-review/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

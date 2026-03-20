@@ -257,6 +257,8 @@ Privacy remains paramount. Clearly communicate sensor placement and data usage t
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Occupancy Analytics Platform for Hybrid Offices.](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
+- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Best Desk Booking App for Hybrid Offices Using Microsoft.](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

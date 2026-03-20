@@ -209,6 +209,8 @@ Sentiment analysis works best as an early warning system, not a replacement for 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
+- [Remote Team One on One Meeting Template for Engineering.](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

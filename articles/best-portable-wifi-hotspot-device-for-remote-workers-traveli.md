@@ -134,6 +134,8 @@ Underestimating Data Needs: A single Zoom call uses 500MB-1GB per hour. Video ca
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

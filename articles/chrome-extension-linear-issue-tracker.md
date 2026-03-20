@@ -163,5 +163,8 @@ Extensions work best for quick actions and context-aware issue creation. Reserve
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Chrome Security Headers Extension: A Practical Guide for.](/remote-work-tools/chrome-security-headers-extension/)
+- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
+- [Linear vs Jira for Software Development: A Practical.](/remote-work-tools/linear-vs-jira-for-software-development/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

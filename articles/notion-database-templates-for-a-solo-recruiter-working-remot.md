@@ -191,6 +191,8 @@ Avoid storing sensitive data like salary negotiations or internal feedback in da
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Notion Setup for Solo Freelancer Managing 5 Clients: A Practical Guide](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

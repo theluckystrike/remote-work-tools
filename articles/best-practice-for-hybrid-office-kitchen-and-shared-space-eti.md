@@ -232,6 +232,8 @@ When rolling out new shared space guidelines, follow this sequence:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Hybrid Office Mail and Package Handling for Part Time Occupants](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
+- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
+- [Best Practice for Hybrid Team Social Events Including.](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

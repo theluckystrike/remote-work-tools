@@ -196,5 +196,8 @@ The key is layering tools appropriately: reference tools for quick lookups, deve
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Time Zone Management Tools for Global Teams: A Technical Guide](/remote-work-tools/best-time-zone-management-tools-for-global-teams/)
+- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

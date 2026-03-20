@@ -228,6 +228,8 @@ The right setup for your situation depends on your home country, destination, in
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Handle Social Security Contributions When Working.](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
+- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+- [How to Handle Health Insurance as a Digital Nomad.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

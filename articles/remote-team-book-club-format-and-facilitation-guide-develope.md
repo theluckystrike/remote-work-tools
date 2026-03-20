@@ -212,6 +212,8 @@ For remote developer book clubs, these tools integrate well with existing workfl
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [Remote Team Podcast Club Format for Professional Development](/remote-work-tools/remote-team-podcast-club-format-for-professional-development/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

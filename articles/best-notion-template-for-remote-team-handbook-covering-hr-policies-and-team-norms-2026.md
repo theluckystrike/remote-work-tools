@@ -208,6 +208,8 @@ Link related content using Notion's relation properties. When you update a polic
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [How to Create Remote Team Operations Handbook From Scratch Step by Step](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

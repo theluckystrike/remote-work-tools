@@ -194,6 +194,8 @@ function navigateToSection(currentIndex, direction = 'next') {
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Architecture Collaboration Tool for Distributed.](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

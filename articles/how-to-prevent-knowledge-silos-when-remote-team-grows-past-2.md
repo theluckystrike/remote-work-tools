@@ -254,6 +254,8 @@ Track these metrics to gauge knowledge silo reduction:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Handle Knowledge Base Handoff When Remote.](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

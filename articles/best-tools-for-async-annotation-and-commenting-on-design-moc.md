@@ -156,7 +156,8 @@ This webhook listener scans incoming Figma comments for `[ticket]` tags and auto
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Annotation Tool for Remote Design Review with.](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)
+- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

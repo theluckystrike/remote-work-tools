@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Middle Management Onboarding Guide for New."
-description: "A practical onboarding framework for newly created middle management positions in remote teams, bridging the gap between individual contributors and."
+title: "Remote Team Middle Management Onboarding Guide for New Managers in Distributed Organizations"
+description: "A practical onboarding framework for newly created middle management positions in remote teams, bridging the gap between individual contributors and senior leadership."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-middle-management-onboarding-guide-for-new-layer/
@@ -195,6 +195,8 @@ Establish clear success criteria with your director during onboarding:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Remote Team New Manager Onboarding Checklist for.](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

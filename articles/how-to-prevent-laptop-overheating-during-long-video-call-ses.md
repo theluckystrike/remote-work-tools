@@ -279,6 +279,8 @@ alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
+- [How to Hide Messy Room During Video Calls Without.](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
+- [Best Laptop Cooling Solutions for Remote Workers in Tropical Climates](/remote-work-tools/best-laptop-cooling-solution-for-remote-workers-in-tropical-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

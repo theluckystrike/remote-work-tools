@@ -267,6 +267,8 @@ Effective remote onboarding communication balances structure with flexibility. N
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Best Tool for Remote Team Onboarding Checklist.](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

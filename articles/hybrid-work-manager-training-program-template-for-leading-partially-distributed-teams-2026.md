@@ -221,5 +221,8 @@ Track these metrics before and after training:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
+- [Hybrid Team Onboarding Process Template for New Hires.](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

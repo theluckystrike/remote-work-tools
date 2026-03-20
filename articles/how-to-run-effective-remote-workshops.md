@@ -241,6 +241,8 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Facilitate Engaging Remote Retrospectives](/remote-work-tools/how-to-facilitate-engaging-remote-retrospectives/)
+- [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

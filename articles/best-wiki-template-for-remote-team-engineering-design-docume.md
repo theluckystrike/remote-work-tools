@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Wiki Template for Remote Team Engineering Design."
-description: "Discover the most effective wiki template for engineering design documents that works seamlessly with async review workflows for distributed teams."
+title: "Best Wiki Template for Remote Team Engineering Design Documents"
+description: "Discover the most effective wiki template for engineering design documents that works with async review workflows for distributed teams. Includes Notion and Confluence examples."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-wiki-template-for-remote-team-engineering-design-docume/
@@ -179,6 +179,8 @@ The best design document template is one your team actually uses. Implement this
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

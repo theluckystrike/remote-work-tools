@@ -128,6 +128,8 @@ Find other product builders at similar stages. Accountability partners or small 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
+- [Freelance Developer Portfolio Website Builders 2026](/remote-work-tools/freelance-developer-portfolio-website-builders-2026/)
+- [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -178,6 +178,8 @@ For most remote parents managing two or more children, Cozi Family Organizer off
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Handle School Snow Day When Both Parents Work.](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
+- [Best Meal Delivery Service Comparison for Remote Working.](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

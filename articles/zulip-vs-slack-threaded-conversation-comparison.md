@@ -179,5 +179,8 @@ Both platforms offer desktop applications built on Electron (Slack) and Qt (Zuli
 ## Related Reading
 
 - [Jitsi Meet vs Zoom: Privacy Comparison for Developers](/remote-work-tools/jitsi-meet-vs-zoom-privacy-comparison/)
+- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
+- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
+- [Figma vs Sketch for Remote Design Collaboration: A Developer's Guide](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

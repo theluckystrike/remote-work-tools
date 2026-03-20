@@ -193,6 +193,8 @@ Expect an adjustment period of two to three weeks. Team members need time to dev
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Replace Daily Standups with Async Text Updates.](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
+- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

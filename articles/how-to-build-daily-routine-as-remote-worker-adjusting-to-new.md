@@ -192,6 +192,8 @@ After 2-3 weeks, your routine should stabilize. Fine-tune with these developer-s
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [How to Test Internet Speed and Reliability Before Moving to Bali as a Remote Worker](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+- [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

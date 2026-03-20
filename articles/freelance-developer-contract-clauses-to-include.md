@@ -292,6 +292,8 @@ Deliverable accepted when:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
+- [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

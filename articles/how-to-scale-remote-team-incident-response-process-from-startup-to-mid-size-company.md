@@ -271,6 +271,8 @@ Scaling incident response isn't about adding bureaucracy—it's about creating s
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
+- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [How to Scale Remote Team Incident Response Process From Startup to Mid-Size Company](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

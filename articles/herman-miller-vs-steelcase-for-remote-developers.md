@@ -134,6 +134,8 @@ For remote developers specifically, consider your work environment: the climate 
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Herman Miller vs Steelcase for Home Office: A Developer's Guide](/remote-work-tools/herman-miller-vs-steelcase-for-home-office/)
+- [Best Home Office Setup for Software Developers: A.](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

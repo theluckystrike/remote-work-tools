@@ -178,6 +178,8 @@ This notification prompts you to adjust your humidifier manually or investigate 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
+- [How to Childproof Home Office When Toddler Interrupts.](/remote-work-tools/how-to-childproof-home-office-when-toddler-interrupts-meetin/)
+- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -311,4 +311,6 @@ claude "Generate API documentation from TypeScript types using TypeDoc. Include 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
+- [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
+- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
+- [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)

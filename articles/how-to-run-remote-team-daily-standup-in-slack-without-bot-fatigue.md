@@ -131,6 +131,8 @@ Third, lead by example. If senior team members treat standups as box-checking, o
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
+- [Remote Team Email vs Slack vs Video Call Decision.](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -194,6 +194,8 @@ Regular reflection transforms conflict from a source of friction into an opportu
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Conflict Resolution Framework for Managers.](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
+- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

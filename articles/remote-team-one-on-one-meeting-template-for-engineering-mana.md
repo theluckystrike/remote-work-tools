@@ -265,6 +265,8 @@ A well-executed one-on-one template transforms a simple meeting into your most p
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Remote Team Walking Meeting Format for One-on-One.](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

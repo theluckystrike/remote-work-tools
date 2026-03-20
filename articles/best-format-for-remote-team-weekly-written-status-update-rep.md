@@ -184,6 +184,8 @@ The format succeeds when it creates genuine alignment without requiring synchron
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team.](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

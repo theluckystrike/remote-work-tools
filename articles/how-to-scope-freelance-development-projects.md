@@ -190,6 +190,8 @@ Build these into your scoping workflow. They create accountability and documenta
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Milestone Based Payment Structure for Dev Projects: A Practical Guide](/remote-work-tools/milestone-based-payment-structure-for-dev-projects/)
+- [Project Management for Husband and Wife Freelance.](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
+- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

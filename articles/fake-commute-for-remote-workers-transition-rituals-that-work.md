@@ -168,6 +168,8 @@ The goal isn't perfection—it's creating reliable mental bookends that signal t
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
+- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [How to Prevent Burnout as Remote Developer: Practical.](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -142,6 +142,8 @@ This baseline ensures you're constantly maintaining connections rather than lett
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+- [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

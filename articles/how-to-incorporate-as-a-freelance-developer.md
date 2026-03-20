@@ -167,6 +167,8 @@ A one-time consultation with a small business attorney or CPA ($200-500) can pre
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
+- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
+- [How to Ask for Referrals as a Freelance Developer](/remote-work-tools/how-to-ask-for-referrals-as-freelance-developer/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

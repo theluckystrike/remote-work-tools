@@ -206,6 +206,8 @@ Track these weekly. If your actual times exceed targets by more than 20%, invest
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
+- [How to Set Up Remote Hiring Pipeline with Async.](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Remote Engineering Team Build Time Tracking as Developer.](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

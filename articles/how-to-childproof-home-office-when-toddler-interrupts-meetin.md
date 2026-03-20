@@ -191,6 +191,8 @@ Start with the simplest changes: cable management, door latches, and meeting sta
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up a Soundproof Home Office When Working.](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

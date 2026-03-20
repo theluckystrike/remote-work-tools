@@ -158,6 +158,8 @@ Test both platforms with actual team sessions before committing. Run a retrospec
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product.](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

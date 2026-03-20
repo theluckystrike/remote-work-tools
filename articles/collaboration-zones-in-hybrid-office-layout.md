@@ -176,6 +176,8 @@ Collect this data through your booking system and combine with periodic team sur
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Hybrid Office Mail and Package Handling for Part Time Occupants](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space.](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

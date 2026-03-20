@@ -227,6 +227,8 @@ The effort you invest in building proper compliance documentation protects your 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [Remote Team Documentation Culture: Building Guide for.](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

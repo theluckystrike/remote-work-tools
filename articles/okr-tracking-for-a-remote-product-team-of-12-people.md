@@ -182,6 +182,8 @@ A 12-person team has an advantage here: small enough that direct communication c
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Communication Tools for a Remote Research Team of 12.](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+- [Best Tool for Remote Team Mood Tracking and Sentiment.](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

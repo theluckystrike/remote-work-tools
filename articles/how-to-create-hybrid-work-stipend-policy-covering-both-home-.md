@@ -215,7 +215,8 @@ Track these metrics to evaluate your policy:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Hybrid Work Policy: Covering Which.](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [How to Create Remote Work Stipend Policy That Is Legally.](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

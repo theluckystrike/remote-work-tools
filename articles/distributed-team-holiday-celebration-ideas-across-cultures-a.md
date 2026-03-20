@@ -196,6 +196,8 @@ The most successful distributed celebrations combine careful planning with flexi
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Distributed Team Wellness Challenge Ideas: Steps.](/remote-work-tools/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)
+- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [How to Write Remote Team Celebration Messages That.](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

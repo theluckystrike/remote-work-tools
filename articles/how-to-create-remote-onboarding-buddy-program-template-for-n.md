@@ -238,5 +238,8 @@ The best buddy programs feel organic rather than scripted. Your templates provid
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

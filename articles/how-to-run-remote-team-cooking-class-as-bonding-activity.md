@@ -149,6 +149,8 @@ The best indicator is when participants start suggesting recipes for future sess
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
+- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
+- [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

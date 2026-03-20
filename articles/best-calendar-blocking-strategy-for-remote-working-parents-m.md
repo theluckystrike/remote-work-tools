@@ -236,7 +236,8 @@ This framework gives remote working parents a practical approach to calendar man
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Working Parent Productivity Hack: Time Blocking.](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Best Grocery Delivery Service Strategy for Remote.](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

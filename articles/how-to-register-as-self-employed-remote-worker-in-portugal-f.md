@@ -165,6 +165,8 @@ Keeping organized records from the start prevents complications during tax seaso
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
+- [How to Open a Business Bank Account as a Remote.](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Test Internet Speed and Reliability Before Moving to Bali as a Remote Worker](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

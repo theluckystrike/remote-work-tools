@@ -236,6 +236,8 @@ A well-used parent room often sees 3-5 bookings daily in offices with 50+ employ
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices.](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

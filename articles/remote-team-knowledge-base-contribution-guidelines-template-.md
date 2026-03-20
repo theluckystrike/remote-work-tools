@@ -186,6 +186,8 @@ Building a culture of documentation takes time, but the compounding benefits mak
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+- [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
+- [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

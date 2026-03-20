@@ -162,5 +162,8 @@ The developers who avoid tech neck most successfully share one characteristic: t
 ## Related Reading
 
 - [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Ergonomic Laptop Stand for Remote Workers: A Developer's Guide](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

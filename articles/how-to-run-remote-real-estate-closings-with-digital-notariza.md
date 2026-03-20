@@ -230,6 +230,8 @@ Protecting sensitive real estate data requires attention to several areas:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Real Estate Photographers.](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
+- [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
+- [Digital Signage for Hybrid Office Communication: A.](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

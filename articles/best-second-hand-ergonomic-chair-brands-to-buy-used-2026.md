@@ -199,6 +199,8 @@ Pair your ergonomic chair with:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/remote-work-tools/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
+- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
+- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

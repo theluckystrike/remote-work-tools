@@ -213,6 +213,8 @@ No follow-through: Retrospectives without action items create cynicism. Assign o
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team.](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

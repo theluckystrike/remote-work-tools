@@ -192,6 +192,8 @@ const scalingMetrics = {
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

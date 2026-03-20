@@ -132,5 +132,8 @@ Beyond the city center, these neighborhoods offer excellent cafe options with fe
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [Best Bug Tracking Tools for Remote QA Teams: A Developer's Guide](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
+- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

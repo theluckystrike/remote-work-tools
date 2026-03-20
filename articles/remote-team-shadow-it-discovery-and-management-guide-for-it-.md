@@ -242,6 +242,8 @@ Shadow IT is never "solved" once—it's an ongoing challenge. Set up recurring s
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Remote Team Change Management Communication Plan.](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
+- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

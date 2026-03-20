@@ -191,7 +191,8 @@ Don't make these mistakes that undermine cross-timezone collaboration:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Calculate Timezone Overlap Hours When Remote Team Spans Asia and Americas](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Best Practice for Remote Team Cross Functional Project.](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

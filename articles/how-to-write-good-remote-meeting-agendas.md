@@ -169,6 +169,8 @@ Write the agenda before sending the invite, then evaluate whether the meeting is
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness and Reducing Waste](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

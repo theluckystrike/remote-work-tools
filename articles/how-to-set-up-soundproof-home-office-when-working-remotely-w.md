@@ -193,6 +193,8 @@ For developers working in shifts or on-call, consider a rapid-deploy setup—a p
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [How to Childproof Home Office When Toddler Interrupts.](/remote-work-tools/how-to-childproof-home-office-when-toddler-interrupts-meetin/)
+- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

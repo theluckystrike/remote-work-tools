@@ -171,6 +171,8 @@ This data helps you refine your scoping process and identify areas where client 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
+- [How to Record Client Demo Videos Asynchronously for Remote Agency](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

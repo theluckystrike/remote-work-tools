@@ -121,5 +121,8 @@ Test both tools with a two-week sprint. Track how often your team updates each b
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
+- [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
+- [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

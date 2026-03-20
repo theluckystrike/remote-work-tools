@@ -106,6 +106,8 @@ The right keyboard lets you code confidently during calls without worrying about
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
+- [How to Hide Messy Room During Video Calls Without.](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

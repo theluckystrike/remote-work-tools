@@ -257,6 +257,8 @@ Running a successful remote developer hackathon for distributed engineering team
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Organize Virtual Volunteering Day for Distributed.](/remote-work-tools/how-to-organize-virtual-volunteering-day-for-distributed-team-members/)
+- [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -178,6 +178,8 @@ Some video bars support PoE (Power over Ethernet) when used with network cables,
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Video Conferencing Setup for Hybrid Rooms: A.](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison: A.](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -142,6 +142,8 @@ Sometimes conflicts can't be resolved at the team level. When escalation is nece
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Remote Team Conflict Resolution Over Chat When Video.](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [How to Run Remote Team Quarterly Business Review for.](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

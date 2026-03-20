@@ -274,6 +274,8 @@ Track how often wiki articles get referenced and updated. Tribal knowledge captu
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Documentation Linting Tool for Remote Teams.](/remote-work-tools/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
+- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

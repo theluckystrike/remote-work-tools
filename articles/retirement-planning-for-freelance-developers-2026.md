@@ -147,6 +147,8 @@ Retirement planning as a freelance developer is genuinely more flexible than tra
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Tax Deductions Guide for Freelance Developers 2026](/remote-work-tools/tax-deductions-guide-for-freelance-developers-2026/)
+- [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
+- [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

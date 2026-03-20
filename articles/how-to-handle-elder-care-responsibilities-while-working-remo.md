@@ -164,5 +164,8 @@ Technical solutions alone cannot address the emotional and physical demands of e
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
+- [How to Handle Mail and Legal Address When Working.](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
+- [Remote Working Parent Self Care Checklist for Avoiding.](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

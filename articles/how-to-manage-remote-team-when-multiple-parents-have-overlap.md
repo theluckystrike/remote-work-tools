@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Manage Remote Team When Multiple Parents Have."
-description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes code."
+title: "How to Manage Remote Team When Multiple Parents Have Overlapping School Holidays"
+description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes coverage templates and automation."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-when-multiple-parents-have-overlap/
@@ -208,6 +208,8 @@ Keep these meetings short—15 minutes maximum. The goal is information sharing,
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Manage Sprints with Remote Team: A Practical.](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+- [How to Scale Remote Team Sprint Ceremonies When Splitting Into Multiple Squads: A Practical Guide](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
+- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

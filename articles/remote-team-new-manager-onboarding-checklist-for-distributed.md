@@ -85,5 +85,8 @@ Building effective remote managers doesn't happen by accident. It requires delib
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Middle Management Onboarding Guide for New Managers in Distributed Organizations](/remote-work-tools/remote-team-middle-management-onboarding-guide-for-new-layer/)
+- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [Remote Team Onboarding Communication Checklist for First.](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

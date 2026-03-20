@@ -89,6 +89,8 @@ Fifth, maintain detailed records of employment decisions, performance issues, an
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Handle Mandatory Paid Leave Laws for Remote Employees in Different States](/remote-work-tools/how-to-handle-mandatory-paid-leave-laws-for-remote-employees/)
+- [How to Handle Overtime Pay Compliance for Remote Workers.](/remote-work-tools/how-to-handle-overtime-pay-compliance-for-remote-workers-acr/)
+- [Best Compliance Tool for Managing Remote Employees.](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

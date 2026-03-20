@@ -209,6 +209,8 @@ The initial setup takes some time, but the peace of mind is worth it. Your authe
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [How to Handle Social Security Contributions When Working.](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
+- [How to Handle Mail and Legal Address When Working.](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

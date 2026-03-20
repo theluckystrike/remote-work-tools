@@ -159,6 +159,8 @@ Remote working parents who maintain consistent snack routines report better afte
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Quick Exercise Routine for Remote Parents With Only.](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Distributed Team Wellness Challenge Ideas: Steps.](/remote-work-tools/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

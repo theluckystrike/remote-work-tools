@@ -224,6 +224,8 @@ If you're seeing progress, your retrospective process is working. If not, adjust
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

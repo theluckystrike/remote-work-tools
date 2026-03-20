@@ -222,6 +222,8 @@ Use this checklist when launching or auditing your buddy system:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
+- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

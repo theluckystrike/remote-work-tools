@@ -154,7 +154,8 @@ If the answer to any of these is "no," your documentation needs work. The goal i
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [How to Scale Remote Team Design System Documentation.](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

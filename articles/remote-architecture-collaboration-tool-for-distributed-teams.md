@@ -137,6 +137,8 @@ Teams that establish solid remote CAD review practices now will be better positi
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Architecture BIM Collaboration Tool for.](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
+- [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

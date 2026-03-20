@@ -187,7 +187,8 @@ Airbnb accommodations vary widely in desk quality. Your portable monitor ensures
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+- [Monitor Setup for Remote Developer: Two vs Three Screens.](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Best Portable WiFi Hotspot for Digital Nomads: A.](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

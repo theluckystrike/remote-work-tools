@@ -250,6 +250,8 @@ The remote architecture BIM collaboration ecosystem continues to evolve rapidly.
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Architecture Collaboration Tool for Distributed.](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

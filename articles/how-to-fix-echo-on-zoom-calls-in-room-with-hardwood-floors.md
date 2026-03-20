@@ -186,6 +186,8 @@ Room modes cause certain frequencies to resonate, exacerbating echo in specific 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call.](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices.](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

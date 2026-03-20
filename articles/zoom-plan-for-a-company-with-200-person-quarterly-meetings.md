@@ -233,6 +233,8 @@ With proper planning and the right technical setup, quarterly all-hands meetings
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
+- [Cheapest Video Call Tool for Weekly 50 Person All Hands.](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
+- [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

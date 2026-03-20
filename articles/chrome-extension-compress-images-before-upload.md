@@ -306,7 +306,8 @@ Some web applications use custom file upload components that don't use standard 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Chrome Extension Window Resizer Testing: Complete Guide for 2026](/remote-work-tools/chrome-extension-window-resizer-testing/)
+- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide.](/remote-work-tools/chrome-extension-linear-issue-tracker/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

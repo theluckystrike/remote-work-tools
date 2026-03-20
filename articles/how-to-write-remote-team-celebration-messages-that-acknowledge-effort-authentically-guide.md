@@ -164,7 +164,8 @@ The goal is not performative praise but genuine acknowledgment that helps remote
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Distributed Team Holiday Celebration Ideas Across.](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
+- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
+- [How to Set Up Remote Team Mentorship Program Matching.](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

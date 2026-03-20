@@ -171,7 +171,8 @@ If you're not ready for full automation, start with these simple changes:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+- [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

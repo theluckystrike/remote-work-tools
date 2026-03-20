@@ -138,6 +138,8 @@ Iterate based on results. Problem areas remaining after initial treatment typica
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [How to Handle Hybrid Meeting Whiteboard Challenge with.](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
+- [Best Conference Room Speaker Mic for Hybrid Meetings.](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

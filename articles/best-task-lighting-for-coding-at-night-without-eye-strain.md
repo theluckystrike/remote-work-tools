@@ -105,5 +105,8 @@ Consider F.Lux or Night Shift: These tools automatically adjust your screen's co
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
+- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
+- [How to Prevent Eye Fatigue from Multiple Monitors with.](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)*
+Built by

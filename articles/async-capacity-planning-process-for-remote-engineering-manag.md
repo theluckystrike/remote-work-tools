@@ -252,6 +252,8 @@ This async calculation completed without any meetings, using shared documents an
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Best Tool for Remote Team Capacity Planning When Scaling.](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

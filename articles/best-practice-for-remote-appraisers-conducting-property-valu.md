@@ -340,6 +340,8 @@ Build dashboards that surface these metrics in real-time and trigger alerts when
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Real Estate Photographers.](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
+- [Best Digital Signature Tool for Remote Agency Client.](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
+- [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

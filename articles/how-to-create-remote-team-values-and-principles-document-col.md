@@ -230,6 +230,8 @@ Avoid these mistakes:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [How to Create Remote Team Values Documentation That.](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
+- [How to Create Remote Team Promotion Criteria: A.](/remote-work-tools/how-to-create-remote-team-promotion-criteria-transparent-and/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -164,6 +164,8 @@ The best tools are ones you'll actually use. Start with GitHub and Vercel for th
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Project Management for a Solo Developer with 8 Client.](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
+- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

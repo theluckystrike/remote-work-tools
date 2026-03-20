@@ -178,6 +178,8 @@ The four-person growth team advantage is agility. Your dashboard should amplify 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Financial Dashboard Tool for CFO: Tracking.](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
+- [Shared Inbox Tool for a 4 Person Remote Customer Success.](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
+- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

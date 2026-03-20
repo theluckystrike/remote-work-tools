@@ -172,6 +172,8 @@ A well-organized virtual volunteering day strengthens distributed teams while cr
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [How to Run Remote Developer Hackathon for Distributed.](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

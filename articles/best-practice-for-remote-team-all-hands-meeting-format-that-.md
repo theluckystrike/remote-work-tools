@@ -145,6 +145,8 @@ Build the habit. Measure results. Adjust as your team continues to grow.
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
+- [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Best Practice for Remote Team Product Demo Day Format That Scales to 50 Engineers](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

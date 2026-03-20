@@ -193,6 +193,8 @@ Track these metrics to ensure your caregiver policy serves its purpose:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Lactation Room Policy Template for Employees.](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
+- [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Remote Work Special Needs Child Accommodation Guide for.](/remote-work-tools/remote-work-special-needs-child-accommodation-guide-for-parents/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

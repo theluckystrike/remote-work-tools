@@ -201,6 +201,8 @@ Balancing distributed team capacity requires intentional systems rather than hop
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
+- [How to Create Remote Team Communication Guidelines for.](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
+- [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

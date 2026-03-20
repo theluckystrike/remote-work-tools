@@ -138,6 +138,8 @@ A noise gate handles the heavy lifting for eliminating background noise, but the
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Noise Gate Microphone Setting for Remote Parents.](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Best Portable White Noise Speaker for Remote Parents.](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
+- [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

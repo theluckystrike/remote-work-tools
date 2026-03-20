@@ -183,6 +183,8 @@ Start with the template above, adapt it to your team's workflow, and commit to w
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Remote Team Architecture Decision Record Template for Async Decision-Making](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

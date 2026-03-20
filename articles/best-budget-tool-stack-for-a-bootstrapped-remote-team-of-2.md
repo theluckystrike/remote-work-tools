@@ -396,6 +396,8 @@ To maximize your budget tool stack:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend.](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Remote Team Retreat Planning Guide Budget and Logistics.](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

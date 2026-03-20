@@ -159,6 +159,8 @@ Building a remote pharmacy consultation service demands attention to healthcare-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Compliant Remote Employee Benefits Across.](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
+- [How to Set Up Remote Radiology Reading Station at Home.](/remote-work-tools/how-to-set-up-remote-radiology-reading-station-at-home-with-/)
+- [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

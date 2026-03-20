@@ -151,6 +151,8 @@ Open source contributions provide something rare in freelance work: verifiable, 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Best Digital Signature Tool for Remote Agency Client.](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
+- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

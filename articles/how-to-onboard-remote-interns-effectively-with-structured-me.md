@@ -157,6 +157,8 @@ A structured mentorship program requires more upfront planning than ad-hoc onboa
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [How to Create Remote Onboarding Buddy Program Template.](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

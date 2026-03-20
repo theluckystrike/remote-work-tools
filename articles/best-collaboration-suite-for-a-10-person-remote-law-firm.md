@@ -235,5 +235,8 @@ The key is matching tools to actual workflow needs rather than accumulating plat
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 {% endraw %}
+- [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
+- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

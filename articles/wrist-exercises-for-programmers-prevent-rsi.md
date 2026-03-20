@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Wrist Exercises for Programmers: Prevent RSI and Stay."
-description: "Practical wrist exercises and habits to prevent RSI for programmers and power users. Includes code snippets for break reminders and ergonomic tips."
+title: "Wrist Exercises for Programmers: Prevent RSI and Stay Pain-Free"
+description: "Practical wrist exercises and habits to prevent RSI for programmers and power users. Includes shell scripts and Python code for break reminders and ergonomic tips."
 date: 2026-03-15
 author: theluckystrike
 permalink: /wrist-exercises-for-programmers-prevent-rsi/
@@ -163,7 +163,8 @@ If you experience persistent pain, numbness, or weakness that doesn't improve wi
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
+- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

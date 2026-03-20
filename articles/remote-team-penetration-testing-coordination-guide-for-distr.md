@@ -222,6 +222,8 @@ Remote penetration testing coordination requires more deliberate structure than 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
+- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+- [Best Tool for Tracking Remote Team On-Call Burden.](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

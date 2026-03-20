@@ -179,7 +179,8 @@ Use this checklist to ensure your multi-monitor setup is eye-friendly:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [Screen Brightness Settings for Eye Health: A Developer's Guide](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
+- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)*
-
-{% endraw %}
+Built by

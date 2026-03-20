@@ -162,6 +162,8 @@ The right choice balances your actual threat model against the operational compl
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

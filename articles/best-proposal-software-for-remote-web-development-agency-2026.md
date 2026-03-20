@@ -216,6 +216,8 @@ Remember that proposal software is just one piece of your remote agency operatio
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Proposal Software for Remote Web Development Agency.](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
+- [How to Record Client Demo Videos Asynchronously for Remote Agency](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
+- [Best Whiteboard Tool for Remote Client Brainstorming.](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

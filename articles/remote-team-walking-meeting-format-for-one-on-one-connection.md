@@ -229,6 +229,8 @@ Walking meetings require more setup than sitting in front of a camera, but the p
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team One on One Meeting Template for Engineering.](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness and Reducing Waste](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

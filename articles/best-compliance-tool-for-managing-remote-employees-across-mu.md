@@ -251,6 +251,8 @@ async function syncEmployee(employeeId, complianceTool) {
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Handle Employment Law Differences for Remote.](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+- [How to Handle Overtime Pay Compliance for Remote Workers.](/remote-work-tools/how-to-handle-overtime-pay-compliance-for-remote-workers-acr/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

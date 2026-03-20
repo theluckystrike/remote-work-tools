@@ -217,6 +217,8 @@ Customize the template above for your specific needs and have it signed before b
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
+- [Essential Contract Clauses Every Freelance Developer.](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
+- [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

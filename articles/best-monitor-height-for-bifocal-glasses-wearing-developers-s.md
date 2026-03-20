@@ -182,6 +182,8 @@ The exact height varies by individual, but most bifocal-wearing developers need 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Headset for Wearing with Glasses All Day Remote Work](/remote-work-tools/best-headset-for-wearing-with-glasses-all-day-remote-work/)
+- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
+- [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

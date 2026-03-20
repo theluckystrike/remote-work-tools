@@ -222,5 +222,8 @@ Deploy endpoint detection and response (EDR) solutions across all devices, regar
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space.](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Satellite Office Strategy for Hybrid Companies](/remote-work-tools/satellite-office-strategy-for-hybrid-companies/)
+- [How to Design Mother and Parent Room for Hybrid Office.](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

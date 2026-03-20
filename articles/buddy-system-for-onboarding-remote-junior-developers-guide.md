@@ -146,6 +146,8 @@ A successful buddy system creates a template for how the team supports its membe
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [How to Set Up Remote Developer Onboarding Buddy System.](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

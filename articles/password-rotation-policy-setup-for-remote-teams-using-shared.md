@@ -156,6 +156,8 @@ Review these metrics monthly and adjust your policy based on operational data ra
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
+- [Remote Team Password Sharing Best Practices for Shared.](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

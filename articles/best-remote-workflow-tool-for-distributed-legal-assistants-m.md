@@ -201,7 +201,8 @@ Regardless of which tool you choose, implement these security practices:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Legal Billing Software Comparison for Distributed.](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
+- [Remote Legal Research Tool Comparison for Distributed.](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

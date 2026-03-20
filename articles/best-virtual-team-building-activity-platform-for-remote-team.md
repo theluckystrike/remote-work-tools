@@ -147,6 +147,8 @@ Track both quantitative and qualitative indicators:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Virtual Team Trivia Platform for Remote Social.](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
+- [Best Virtual Icebreaker Tool for Remote Team Meetings.](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
 
-Built by the luckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

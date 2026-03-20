@@ -153,6 +153,8 @@ The goal is clear audio that lets you focus on your work rather than worrying ab
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Noise Gate Settings for Blue Yeti Microphone Home.](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
+- [Best Portable White Noise Speaker for Remote Parents.](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
+- [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

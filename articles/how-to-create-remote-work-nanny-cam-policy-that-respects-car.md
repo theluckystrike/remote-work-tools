@@ -189,6 +189,8 @@ Remember that policy documents require ongoing attention. Review and update your
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Create Remote Work Stipend Policy That Is Legally.](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Remote Work Lactation Room Policy Template for Employees.](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

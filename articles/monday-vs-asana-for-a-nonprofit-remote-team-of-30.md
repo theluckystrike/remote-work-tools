@@ -222,6 +222,8 @@ The best tool is the one your team actually uses consistently. Both platforms of
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [Best Framework for Evaluating Remote Team Collaboration.](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

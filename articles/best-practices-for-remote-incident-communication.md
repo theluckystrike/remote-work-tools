@@ -225,6 +225,8 @@ The goal isn't to eliminate human communication—it's to eliminate the communic
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Remote Team Onboarding Communication Checklist for First.](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
+- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

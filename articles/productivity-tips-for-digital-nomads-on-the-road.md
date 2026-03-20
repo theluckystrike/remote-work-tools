@@ -205,7 +205,8 @@ Reduce decision fatigue by establishing non-negotiable defaults:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best eSIM Data Plans for Digital Nomads Working Across.](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
+- [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

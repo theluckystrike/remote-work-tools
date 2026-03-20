@@ -230,6 +230,8 @@ The best choice is the one your team actually uses consistently. Both Slack and 
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Best Practice for Remote Team: Slack Emoji Reactions.](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
+- [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
+- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

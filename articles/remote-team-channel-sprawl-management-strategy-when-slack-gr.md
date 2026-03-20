@@ -181,5 +181,8 @@ If Slack becomes unmanageable despite these strategies, evaluate alternatives. S
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+- [Best Contract Management Tool for Remote Agency Multiple.](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

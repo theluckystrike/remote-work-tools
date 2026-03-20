@@ -188,6 +188,8 @@ Collect feedback monthly during the first quarter, then quarterly. Track actual 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Hybrid Work Stipend Policy Covering Both.](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [How to Create Hybrid Work Schedule Template for Teams.](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
+- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

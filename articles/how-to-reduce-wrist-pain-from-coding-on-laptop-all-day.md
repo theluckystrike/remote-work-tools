@@ -176,6 +176,8 @@ Reducing wrist pain requires consistency. Start with one or two changes—perhap
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
+- [Roost Stand vs Nexstand Laptop Stand Comparison: A Developer's Guide](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

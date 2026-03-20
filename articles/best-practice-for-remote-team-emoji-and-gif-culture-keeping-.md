@@ -174,7 +174,8 @@ Building a healthy emoji and GIF culture requires intentionality but pays divide
 ## Related Reading
 
 - [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+- [Best Practice for Remote Team: Slack Emoji Reactions.](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
+- [Best Practice for Preserving Remote Team Culture When.](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubli/)
+- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

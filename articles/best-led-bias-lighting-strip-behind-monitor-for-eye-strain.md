@@ -182,4 +182,6 @@ While bias lighting significantly helps, combine it with these practices for max
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
+- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [Screen Brightness Settings for Eye Health: A Developer's Guide](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)

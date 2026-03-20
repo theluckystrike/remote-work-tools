@@ -164,6 +164,8 @@ Track which proposals win and which don't. Over time, you'll learn what resonate
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
+- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
+- [Retirement Planning for Freelance Developers 2026](/remote-work-tools/retirement-planning-for-freelance-developers-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

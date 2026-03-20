@@ -224,6 +224,8 @@ if __name__ == "__main__":
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
+- [Desk Organizer and Storage for Home Office 2026: A Developer's Guide](/remote-work-tools/desk-organizer-and-storage-for-home-office-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

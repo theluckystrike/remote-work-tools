@@ -167,6 +167,8 @@ The goal is not to use one tool exclusively, but to match tool capabilities to c
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Remote Team Email vs Slack vs Video Call Decision.](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Remote Team Video Call Fatigue Reduction Strategy.](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

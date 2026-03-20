@@ -146,6 +146,8 @@ Review your workflow monthly. What broke last month? What took longer than expec
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Project Management for a Solo Developer with 8 Client.](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
+- [Best Project Tracking Tool for Remote Hardware.](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

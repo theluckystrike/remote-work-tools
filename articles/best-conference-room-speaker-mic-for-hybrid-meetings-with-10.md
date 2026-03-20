@@ -167,6 +167,8 @@ Test any candidate system in your actual room before full deployment. Acoustic e
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices.](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

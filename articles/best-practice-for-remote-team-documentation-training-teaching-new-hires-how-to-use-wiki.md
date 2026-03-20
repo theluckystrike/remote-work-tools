@@ -155,5 +155,8 @@ Several tools complement wiki training:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Documentation Scaling When Wiki Becomes Unwieldy](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

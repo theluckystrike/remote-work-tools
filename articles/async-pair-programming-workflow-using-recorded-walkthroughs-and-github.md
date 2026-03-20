@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Pair Programming Workflow Using Recorded."
+title: "Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub"
 description: "A comprehensive guide to implementing async pair programming for distributed teams using screen recordings, GitHub, and collaborative workflows."
 date: 2026-03-18
 author: theluckystrike
@@ -244,4 +244,6 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
+- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)

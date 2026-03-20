@@ -107,7 +107,8 @@ The best approach: try both tools with your actual standup workflow for one week
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Remote Team Async Video Update Tool Comparison: Loom vs.](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
+- [How to Replace Daily Standups with Async Text Updates.](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Async Standup Alternative Using GitHub Commit Summaries Automatically](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

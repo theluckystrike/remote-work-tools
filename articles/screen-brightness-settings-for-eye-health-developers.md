@@ -228,5 +228,8 @@ You can also create your own automation using cron jobs or launch agents:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [How to Prevent Eye Fatigue from Multiple Monitors with.](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

@@ -161,6 +161,8 @@ Most clients genuinely don't understand IP rights. A professional explanation of
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Employee Intellectual Property Assignment Clause.](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [How to Separate Business and Personal Finances as a Freelancer](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

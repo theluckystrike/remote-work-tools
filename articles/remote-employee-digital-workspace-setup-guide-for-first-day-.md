@@ -237,5 +237,8 @@ Setting up your digital workspace properly on day one pays dividends throughout 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
+- [Monitor Setup for Remote Developer: Two vs Three Screens.](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

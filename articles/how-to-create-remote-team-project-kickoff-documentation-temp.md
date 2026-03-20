@@ -218,6 +218,8 @@ Here's a condensed template you can copy and customize:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Shared Project Timeline with Remote Agency.](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

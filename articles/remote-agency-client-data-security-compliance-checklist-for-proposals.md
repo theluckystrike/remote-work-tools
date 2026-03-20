@@ -212,6 +212,8 @@ The goal isn't to overwhelm clients with jargon—it's to demonstrate that you t
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [How to Create Remote Team Compliance Documentation.](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

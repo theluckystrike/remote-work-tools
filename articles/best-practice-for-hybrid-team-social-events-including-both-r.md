@@ -162,6 +162,8 @@ The goal is not to replicate office proximity but to create new forms of connect
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Best Practice for Hybrid Team Standup Format.](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
 
-Built by the luckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

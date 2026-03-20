@@ -141,6 +141,8 @@ Remember that successful freelancing rarely happens on a single platform immedia
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
+- [LLC vs Sole Proprietor for Freelance Developers: A Practical Guide](/remote-work-tools/llc-vs-sole-proprietor-for-freelance-developers/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

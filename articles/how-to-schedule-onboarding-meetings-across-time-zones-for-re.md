@@ -188,7 +188,8 @@ Document this constraint so new hires understand why initial meetings are sparse
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [How to Run Remote User Research Sessions for UX.](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

@@ -188,5 +188,8 @@ Choose the complexity level that matches your team's needs. The goal is clear co
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Client Project Retrospective Format for.](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

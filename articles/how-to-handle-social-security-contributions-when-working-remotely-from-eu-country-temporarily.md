@@ -195,6 +195,8 @@ The rules exist to protect workers and ensure fair contribution distribution acr
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Handle Mail and Legal Address When Working.](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
+- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+- [How to Handle Two Factor Authentication Apps When.](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

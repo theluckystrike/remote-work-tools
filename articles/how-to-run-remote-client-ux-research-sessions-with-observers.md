@@ -206,6 +206,8 @@ A simple Google Sheets template works well for tracking observations:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Run Remote User Research Sessions for UX.](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [Best Online Teaching Platform for Remote Tutors Running.](/remote-work-tools/best-online-teaching-platform-for-remote-tutors-running-live/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

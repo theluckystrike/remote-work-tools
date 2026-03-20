@@ -198,6 +198,8 @@ The goal isn't to replicate an office water cooler. It's to create something bet
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

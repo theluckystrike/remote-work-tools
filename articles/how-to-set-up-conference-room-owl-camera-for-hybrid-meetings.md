@@ -212,6 +212,8 @@ This approach enables consistent configuration across all conference rooms and s
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Best Conference Room Speaker Mic for Hybrid Meetings.](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

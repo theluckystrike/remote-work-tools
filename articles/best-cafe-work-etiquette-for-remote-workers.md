@@ -205,6 +205,8 @@ Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find ano
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+- [Ergonomic Laptop Stand for Remote Workers: A Developer's Guide](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
+- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

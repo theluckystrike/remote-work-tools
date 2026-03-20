@@ -175,5 +175,8 @@ Several mistakes undermine virtual offsites:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Remote Pair Design Tool for UX Researchers.](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
+- [Best Whiteboard Tool for Remote Client Brainstorming.](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [Best Virtual Escape Room Platform for Remote Team.](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

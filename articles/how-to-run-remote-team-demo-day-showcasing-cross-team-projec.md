@@ -239,6 +239,8 @@ Block prep time for presenters the week before. Make the schedule visible and ho
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Build Cross-Team Relationships in Large Remote.](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
+- [Best Practice for Remote Team Product Demo Day Format That Scales to 50 Engineers](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+- [Best Practice for Remote Team Cross Functional Project.](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

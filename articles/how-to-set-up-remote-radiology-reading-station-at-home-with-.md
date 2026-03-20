@@ -225,6 +225,8 @@ Challenge: Family member internet usage impacting performance
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Set Up Remote Pharmacy Consultation Service with.](/remote-work-tools/how-to-set-up-remote-pharmacy-consultation-service-with-video-conferencing-tools/)
+- [How to Set Up Home Office in Bali Rental Apartment with Reliable Power](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

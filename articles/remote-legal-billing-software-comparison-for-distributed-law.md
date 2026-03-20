@@ -134,7 +134,8 @@ Building internal integrations requires developer resources. Budget for implemen
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Remote Legal Research Tool Comparison for Distributed.](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

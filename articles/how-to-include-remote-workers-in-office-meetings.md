@@ -202,6 +202,8 @@ The goal is creating meetings where location becomes irrelevant—where every pa
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Screen Sharing Solutions for Hybrid Meetings](/remote-work-tools/screen-sharing-solutions-for-hybrid-meetings/)
+- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

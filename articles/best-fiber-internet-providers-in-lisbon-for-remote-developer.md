@@ -135,6 +135,8 @@ Packet loss: Check your local network equipment first—old routers or damaged E
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
+- [Best Neighborhoods in Lisbon for Remote Workers with.](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

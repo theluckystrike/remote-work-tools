@@ -172,6 +172,8 @@ Direct message your escalation contact first, then post to the appropriate chann
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Remote Team Communication Guidelines for.](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

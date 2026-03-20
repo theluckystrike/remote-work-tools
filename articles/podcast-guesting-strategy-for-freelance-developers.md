@@ -179,6 +179,8 @@ Start with three target podcasts this week. Research their formats, draft person
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Cold Outreach Templates for Freelance Developers](/remote-work-tools/cold-outreach-templates-for-freelance-developers/)
+- [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

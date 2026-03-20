@@ -232,6 +232,8 @@ Checklists reduce errors and ensure consistency.
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async QA Signoff Process for Remote Teams Releasing.](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
+- [Async Design Critique Process for Remote UX Teams.](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

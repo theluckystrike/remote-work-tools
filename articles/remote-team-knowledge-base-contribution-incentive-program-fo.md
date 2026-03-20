@@ -132,6 +132,8 @@ Don't ignore quality: A large knowledge base full of outdated or incorrect infor
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
+- [How to Create a Client-Facing Knowledge Base for a.](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [How to Handle Knowledge Base Handoff When Remote.](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
-Built by the luckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

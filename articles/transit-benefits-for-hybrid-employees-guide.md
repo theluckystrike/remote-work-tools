@@ -205,6 +205,8 @@ Before your next open enrollment period:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
+- [Best Video Conferencing Setup for Hybrid Rooms: A.](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

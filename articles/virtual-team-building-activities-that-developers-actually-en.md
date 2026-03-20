@@ -165,6 +165,8 @@ The goal remains simple: create moments where developers connect as humans, shar
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Virtual Team Building Activities That Developers Actually Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
+- [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

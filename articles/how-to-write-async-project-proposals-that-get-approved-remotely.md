@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Write Async Project Proposals That Get Approved."
-description: "A comprehensive guide to crafting async project proposals that get approved in remote teams. Learn frameworks, templates, and strategies for winning."
+title: "How to Write Async Project Proposals That Get Approved Remotely"
+description: "A practical guide to crafting async project proposals that get approved in remote teams. Learn frameworks, templates, and strategies for winning async buy-in."
 date: 2026-03-18
 author: theluckystrike
 permalink: /how-to-write-async-project-proposals-that-get-approved-remotely/
@@ -173,4 +173,6 @@ Proposals from someone with a track record of successful projects get more trust
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
+- [How to Write Async Technical RFCs That Get Meaningful Feedback](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
+- [How to Write Clear Async Project Briefs for Remote Teams.](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
+- [How to Write Freelance Proposals That Win](/remote-work-tools/how-to-write-freelance-proposals-that-win/)

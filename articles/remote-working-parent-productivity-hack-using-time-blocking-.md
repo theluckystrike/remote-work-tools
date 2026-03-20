@@ -191,6 +191,8 @@ Build your time blocks around the bus. Protect them fiercely. Watch your output 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Best Calendar Blocking Strategy for Remote Working.](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

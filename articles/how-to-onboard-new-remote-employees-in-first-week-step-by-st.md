@@ -248,6 +248,8 @@ Day 5:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [How to Onboard Remote Interns Effectively With.](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

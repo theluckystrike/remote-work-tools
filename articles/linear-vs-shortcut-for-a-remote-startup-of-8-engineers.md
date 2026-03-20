@@ -147,7 +147,8 @@ Then configure GitHub integration through Settings → Integrations, map your re
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Shortcut vs Linear: Issue Tracking Comparison for.](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [Linear vs Jira for Software Development: A Practical.](/remote-work-tools/linear-vs-jira-for-software-development/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

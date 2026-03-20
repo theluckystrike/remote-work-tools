@@ -174,6 +174,8 @@ Start with one template, customize it for your target clients, and track your re
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
+- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -217,7 +217,8 @@ Start with the simplest tracking that provides adequate visibility, then add aut
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [Best Tool for Tracking Remote Team Goals and Key Results.](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

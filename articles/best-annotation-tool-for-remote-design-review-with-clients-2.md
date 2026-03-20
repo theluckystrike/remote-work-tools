@@ -187,7 +187,8 @@ Annotations can inadvertently expand project scope. When clients add feedback th
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
+- [Best Tools for Async Annotation and Commenting on Design.](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
+- [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}
+Built by

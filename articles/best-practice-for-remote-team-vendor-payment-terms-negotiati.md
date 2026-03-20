@@ -131,6 +131,8 @@ Document everything in writing. Verbal agreements about payment terms create amb
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Onboarding Wiki.](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Best Practice for Remote Team Meeting Structure That.](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

@@ -152,6 +152,8 @@ Hybrid sprint ceremonies can work well when you treat remote participation as a 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [How to Scale Remote Team Sprint Ceremonies When Splitting Into Multiple Squads: A Practical Guide](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
+- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

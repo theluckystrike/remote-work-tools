@@ -186,5 +186,8 @@ A clear expense reimbursement policy reduces administrative burden, prevents fru
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Remote Team Handbook Template: Writing Remote Interview.](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [How to Structure Remote Team Handbook Table of Contents.](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

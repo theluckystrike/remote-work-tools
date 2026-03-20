@@ -100,4 +100,6 @@ Finally, make it enjoyable. Values creation should feel like a celebration of wh
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
+- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [How to Run Remote Team Cooking Class as Bonding Activity](/remote-work-tools/how-to-run-remote-team-cooking-class-as-bonding-activity/)

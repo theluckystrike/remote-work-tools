@@ -161,6 +161,8 @@ Even without insurance, these costs are significantly lower than in the US or Eu
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+- [How to Set Up Thai Bank Account as Digital Nomad Working.](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

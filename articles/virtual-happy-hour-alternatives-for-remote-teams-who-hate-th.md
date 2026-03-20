@@ -142,5 +142,8 @@ The teams that abandon the "virtual happy hour" concept entirely and replace it 
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Best Virtual Happy Hour Alternative for Remote Teams Who.](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

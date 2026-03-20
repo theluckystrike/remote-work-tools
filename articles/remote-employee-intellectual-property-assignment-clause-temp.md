@@ -215,6 +215,8 @@ Review your current IP assignment practices and identify gaps. Implement the che
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Employee Belonging and Inclusion Program Ideas.](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
+- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

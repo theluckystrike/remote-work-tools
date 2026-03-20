@@ -266,6 +266,8 @@ Capacity problems rarely resolve themselves. When engineers feel overworked, the
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [How to Coordinate Remote Mobile Developers Releasing.](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
+- [Best Tool for Remote Team Capacity Planning When Scaling.](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

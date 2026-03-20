@@ -246,6 +246,8 @@ async function autoScheduleInterview(candidates, interviewers, position) {
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Technical Assessment Platform for Evaluating.](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
+- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+- [How to Create Remote Employee Exit Interview Process for.](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

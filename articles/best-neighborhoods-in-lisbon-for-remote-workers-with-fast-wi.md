@@ -101,5 +101,8 @@ Peak hours at popular cafes run 10am-2pm and 3pm-6pm on weekdays. For guaranteed
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
+- [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

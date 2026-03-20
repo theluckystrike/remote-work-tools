@@ -145,6 +145,8 @@ This script creates a trivia game from a custom configuration and announces it i
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Virtual Escape Room Platform for Remote Team.](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
+- [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

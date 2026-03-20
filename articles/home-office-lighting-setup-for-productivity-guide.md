@@ -212,6 +212,8 @@ The best lighting setup is one you'll actually use consistently. Incremental imp
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+- [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

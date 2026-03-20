@@ -151,6 +151,8 @@ The specific carriers and plans depend on your destinations and usage patterns. 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [Best eSIM Data Plans for Digital Nomads Working Across.](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

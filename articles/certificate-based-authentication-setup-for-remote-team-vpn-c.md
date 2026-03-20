@@ -256,6 +256,8 @@ Document your PKI structure and revocation procedures. When security incidents o
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [Remote Team Runbook Template for SSL Certificate Renewal.](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+- [How to Implement Hardware Security Keys for Remote Team.](/remote-work-tools/how-to-implement-hardware-security-keys-for-remote-team-auth/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

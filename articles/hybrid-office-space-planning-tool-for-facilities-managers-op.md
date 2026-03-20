@@ -331,6 +331,8 @@ Start with a pilot floor covering 20-50 desks. Validate your sensor reliability,
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Best Desk Sensor Technology for Hybrid Offices: Tracking.](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

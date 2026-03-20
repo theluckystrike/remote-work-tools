@@ -155,5 +155,8 @@ Agencies increasingly require compliance certifications as minimum barriers to p
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Remote Team Password Sharing Best Practices for Shared.](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+- [How to Create a Remote Team Acceptable Use Policy for.](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

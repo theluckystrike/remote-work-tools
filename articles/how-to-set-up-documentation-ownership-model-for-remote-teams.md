@@ -226,5 +226,8 @@ A well-implemented ownership model transforms documentation from a chaotic after
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [Documentation Platform for a 15 Person Remote Data.](/remote-work-tools/documentation-platform-for-a-15-person-remote-data-science-t/)
+- [How to Set Up Remote Hiring Pipeline with Async.](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
+Built by

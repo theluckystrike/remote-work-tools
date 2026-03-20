@@ -106,6 +106,8 @@ For temporary setups or locations where neither WiFi nor powerline works adequat
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
+- [How to Set Up Home Office in Bali Rental Apartment with Reliable Power](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

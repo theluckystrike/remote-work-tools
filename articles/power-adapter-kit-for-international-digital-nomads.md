@@ -139,6 +139,8 @@ Carry two replacement fuses in your kit. Most quality travel adapters include sp
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
+- [Best eSIM Data Plans for Digital Nomads Working Across.](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

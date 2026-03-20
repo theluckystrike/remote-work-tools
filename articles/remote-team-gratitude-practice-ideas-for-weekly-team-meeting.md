@@ -232,6 +232,8 @@ Integrate gratitude into existing meetings rather than creating new ones. Replac
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings.](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
+- [Best Practice for Measuring Remote Team Alignment Using.](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

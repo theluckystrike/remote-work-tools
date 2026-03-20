@@ -173,6 +173,8 @@ Start with one activity that fits your team size and culture. Try it for a month
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Virtual Team Building Activities That Developers Actually Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
+- [Best Virtual Icebreaker Tool for Remote Team Meetings.](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
+- [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by

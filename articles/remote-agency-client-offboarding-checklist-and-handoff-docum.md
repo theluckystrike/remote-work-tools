@@ -208,6 +208,8 @@ Forgetting Recurring Costs: Remind clients about subscriptions, renewals, and on
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Agency Client Data Security Compliance Checklist.](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Client Project Status Dashboard Setup for Remote Agency.](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
 
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by
