@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /nix-vs-docker-for-reproducible-dev-environments/
 categories: [guides]
-tags: [nix, docker, devops, development-tools]
+tags: [remote-work-tools, nix, docker, devops, development-tools, comparison]
 reviewed: true
 score: 8
 intent-checked: true

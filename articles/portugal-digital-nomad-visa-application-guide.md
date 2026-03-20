@@ -6,9 +6,9 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /portugal-digital-nomad-visa-application-guide/
 categories: [guides]
-tags: [portugal, digital-nomad, visa, remote-work, europe]
+tags: [remote-work-tools, portugal, digital-nomad, visa, remote-work, europe]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

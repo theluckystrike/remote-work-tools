@@ -6,9 +6,9 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /power-adapter-kit-for-international-digital-nomads/
 categories: [guides]
-tags: [power, adapters, travel, digital-nomad, hardware]
+tags: [remote-work-tools, power, adapters, travel, digital-nomad, hardware]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

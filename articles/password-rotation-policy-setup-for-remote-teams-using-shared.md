@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /password-rotation-policy-setup-for-remote-teams-using-shared/
 categories: [guides]
-tags: [password-security, remote-work, credentials, security, shared-accounts]
+tags: [remote-work-tools, password-security, remote-work, credentials, security, shared-accounts]
 reviewed: true
 score: 8
 intent-checked: true

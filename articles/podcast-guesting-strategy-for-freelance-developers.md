@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /podcast-guesting-strategy-for-freelance-developers/
 categories: [guides]
-tags: [podcast, guesting, freelance, marketing, personal-brand]
+tags: [remote-work-tools, podcast, guesting, freelance, marketing, personal-brand]
 reviewed: true
 score: 8
 intent-checked: true

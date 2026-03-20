@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /productivity-tips-for-digital-nomads-on-the-road/
 categories: [guides]
-tags: [remote-work, digital-nomad, productivity, travel-work]
+tags: [remote-work-tools, remote-work, digital-nomad, productivity, travel-work]
 reviewed: true
 score: 8
 intent-checked: true

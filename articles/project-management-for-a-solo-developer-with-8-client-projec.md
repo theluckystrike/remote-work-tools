@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /project-management-for-a-solo-developer-with-8-client-projec/
 categories: [guides]
-tags: [project-management, solo-developer, productivity, workflow]
+tags: [remote-work-tools, project-management, solo-developer, productivity, workflow]
 reviewed: true
 score: 8
 intent-checked: true

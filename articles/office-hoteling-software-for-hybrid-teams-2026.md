@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /office-hoteling-software-for-hybrid-teams-2026/
 categories: [guides]
-tags: [office-hoteling, hybrid-work, workspace-management]
+tags: [remote-work-tools, office-hoteling, hybrid-work, workspace-management]
 reviewed: true
 score: 8
 intent-checked: true

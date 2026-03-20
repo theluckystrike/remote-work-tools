@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /okr-tracking-for-a-remote-product-team-of-12-people/
 categories: [guides]
-tags: [okr, product-management, remote-work, goal-tracking, team-collaboration]
+tags: [remote-work-tools, okr, product-management, remote-work, goal-tracking, team-collaboration]
 reviewed: true
 score: 8
 intent-checked: true

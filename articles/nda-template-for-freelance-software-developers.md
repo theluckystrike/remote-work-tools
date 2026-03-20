@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /nda-template-for-freelance-software-developers/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 reviewed: true
 score: 8
 intent-checked: true

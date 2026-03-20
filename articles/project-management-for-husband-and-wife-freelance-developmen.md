@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /project-management-for-husband-and-wife-freelance-developmen/
 categories: [guides]
-tags: [project-management, freelance, workflows]
+tags: [remote-work-tools, project-management, freelance, workflows]
 reviewed: true
 score: 8
 intent-checked: true

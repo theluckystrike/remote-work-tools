@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /noise-cancelling-headphones-vs-earbuds-remote-work/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, comparison, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
