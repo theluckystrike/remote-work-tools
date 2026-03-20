@@ -6,10 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-manager-training-program-for-first-time-m/
 categories: [guides]
-score: 7
+score: 8
 voice-checked: true
 reviewed: true
 intent-checked: true
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

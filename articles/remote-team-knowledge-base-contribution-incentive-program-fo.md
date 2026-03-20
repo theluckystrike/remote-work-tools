@@ -6,9 +6,9 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-knowledge-base-contribution-incentive-program-fo/
 categories: [guides]
-tags: [knowledge-base, documentation, remote-work, incentives]
+tags: [remote-work-tools, knowledge-base, documentation, remote-work, incentives]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

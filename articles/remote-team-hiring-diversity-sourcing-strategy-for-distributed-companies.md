@@ -6,8 +6,8 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/
 categories: [guides]
-tags: [remote-hiring, diversity, diversity-sourcing, inclusive-hiring, distributed-teams, talent-acquisition]
-score: 7
+tags: [remote-work-tools, remote-hiring, diversity, diversity-sourcing, inclusive-hiring, distributed-teams, talent-acquisition, remote-work]
+score: 8
 voice-checked: true
 reviewed: true
 intent-checked: true

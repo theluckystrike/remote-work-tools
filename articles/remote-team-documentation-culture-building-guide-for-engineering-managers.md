@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers/
 categories: [guides]
-tags: [documentation, remote-work, engineering-management, team-culture, knowledge-sharing]
+tags: [remote-work-tools, documentation, remote-work, engineering-management, team-culture, knowledge-sharing]
 reviewed: true
 score: 8
 intent-checked: true

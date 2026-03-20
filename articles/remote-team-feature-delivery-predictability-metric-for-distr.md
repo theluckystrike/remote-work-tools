@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-feature-delivery-predictability-metric-for-distr/
 categories: [guides]
-tags: [feature-delivery, predictability, metrics, remote-work, distributed-teams, dev-metrics]
+tags: [remote-work-tools, feature-delivery, predictability, metrics, remote-work, distributed-teams, dev-metrics]
 reviewed: true
 score: 8
 intent-checked: true

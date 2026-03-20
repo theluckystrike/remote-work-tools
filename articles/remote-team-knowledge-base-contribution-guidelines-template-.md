@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-knowledge-base-contribution-guidelines-template-/
 categories: [guides]
-tags: [knowledge-base, documentation, remote-work, collaboration, team-guidelines]
+tags: [remote-work-tools, knowledge-base, documentation, remote-work, collaboration, team-guidelines]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 ## Why Documentation Guidelines Matter
 

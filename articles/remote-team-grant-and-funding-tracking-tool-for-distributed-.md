@@ -6,9 +6,9 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-grant-and-funding-tracking-tool-for-distributed-/
 categories: [guides]
-tags: [grant-tracking, nonprofit-budget, remote-teams, funding-management, distributed-npo, budget-tools]
+tags: [remote-work-tools, grant-tracking, nonprofit-budget, remote-teams, funding-management, distributed-npo, budget-tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

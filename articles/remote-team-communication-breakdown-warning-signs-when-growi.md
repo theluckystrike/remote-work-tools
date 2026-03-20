@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-communication-breakdown-warning-signs-when-growi/
 categories: [guides]
-tags: [remote-work, communication, team-management, scaling, distributed-teams]
+tags: [remote-work-tools, remote-work, communication, team-management, scaling, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

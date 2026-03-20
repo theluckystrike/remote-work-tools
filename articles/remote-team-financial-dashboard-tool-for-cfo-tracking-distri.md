@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-financial-dashboard-tool-for-cfo-tracking-distri/
 categories: [guides]
-tags: [financial-dashboard, remote-work, cfo-tools, expense-tracking, distributed-teams, real-time-analytics]
+tags: [remote-work-tools, financial-dashboard, remote-work, cfo-tools, expense-tracking, distributed-teams, real-time-analytics]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

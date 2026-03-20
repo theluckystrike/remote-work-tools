@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-interviewer-calibration-process-for-ensuring-con/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 voice-checked: true

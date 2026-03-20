@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-handbook-template-for-writing-remote-interview-p/
 categories: [guides]
-tags: [remote-hiring, hiring-managers, interview-process, remote-onboarding, team-handbook, documentation]
+tags: [remote-work-tools, remote-hiring, hiring-managers, interview-process, remote-onboarding, team-handbook, documentation, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

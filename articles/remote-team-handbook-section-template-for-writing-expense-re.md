@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-handbook-section-template-for-writing-expense-re/
 categories: [guides]
-tags: [remote-work, expense-policy, handbook, reimbursement, remote-teams]
+tags: [remote-work-tools, remote-work, expense-policy, handbook, reimbursement, remote-teams]
 reviewed: true
 score: 8
 intent-checked: true

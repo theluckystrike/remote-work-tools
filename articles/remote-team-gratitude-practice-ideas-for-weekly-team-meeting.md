@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-gratitude-practice-ideas-for-weekly-team-meeting/
 categories: [guides]
-tags: [remote-work, team-culture, gratitude, weekly-meeting, async-communication, developer-experience]
+tags: [remote-work-tools, remote-work, team-culture, gratitude, weekly-meeting, async-communication, developer-experience]
 reviewed: true
 score: 8
 intent-checked: true

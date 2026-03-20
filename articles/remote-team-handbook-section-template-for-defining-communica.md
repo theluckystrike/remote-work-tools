@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-handbook-section-template-for-defining-communica/
 categories: [guides]
-tags: [remote-work, communication, team-handbook, response-times, async]
+tags: [remote-work-tools, remote-work, communication, team-handbook, response-times, async]
 reviewed: true
 score: 8
 intent-checked: true

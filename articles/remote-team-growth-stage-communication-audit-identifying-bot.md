@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-growth-stage-communication-audit-identifying-bot/
 categories: [guides]
-tags: [remote-work, communication, team-growth, bottleneck-analysis, async-communication, distributed-teams]
+tags: [remote-work-tools, remote-work, communication, team-growth, bottleneck-analysis, async-communication, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true
