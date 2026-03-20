@@ -8,7 +8,7 @@ permalink: /best-noise-gate-microphone-setting-for-remote-parents-with-k/
 categories: [guides]
 tags: [remote-work-tools, audio, microphone, noise gate, remote work, parents, kids, home office]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
