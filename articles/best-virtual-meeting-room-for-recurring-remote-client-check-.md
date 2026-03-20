@@ -143,6 +143,182 @@ Different platforms excel for different scenarios:
 
 For agencies managing multiple clients, a platform with room branding (custom backgrounds, logo display) reinforces your professional image.
 
+## Advanced Features for Specialized Scenarios
+
+Beyond the basics, consider these features depending on your client needs:
+
+**Whiteboarding and Collaboration:**
+Miro ($10-100/month) integrates with most platforms and allows clients to sketch ideas, draw diagrams, and annotate designs live. Perfect for UX reviews or architecture discussions.
+
+**Real-time Document Editing:**
+Google Docs embedded in the meeting allows simultaneous editing. Clients can see your document changes in real-time without switching applications. Configure by sharing the Docs link in the meeting chat.
+
+**Breakout Rooms:**
+For larger team check-ins, Zoom breakout rooms let you split clients into smaller groups for focused discussions. Automate assignments or allow self-selection.
+
+```python
+# Example: Automating breakout room assignment for recurring calls
+def setup_breakout_rooms(meeting_data, group_size=3):
+    """Assign participants to breakout rooms"""
+    participants = meeting_data["participants"]
+    rooms = []
+
+    for i in range(0, len(participants), group_size):
+        group = participants[i:i+group_size]
+        rooms.append({
+            "name": f"Discussion Group {len(rooms)+1}",
+            "participants": group
+        })
+
+    return rooms
+```
+
+**Closed Captions in Real-Time:**
+Zoom, Google Meet, and Teams all offer automatic captioning. Enable this by default for client accessibility and for your own reference—captions help you catch misunderstandings immediately.
+
+**Virtual Backgrounds:**
+While mainly aesthetic, a professional branded background (company logo, calm image) reinforces your credibility on calls. Most clients prefer this over your actual home office background.
+
+## Building Long-Term Client Relationships Through Meeting Consistency
+
+The persistent meeting room becomes part of your client relationship infrastructure. Consistency matters:
+
+```markdown
+# Client Meeting Room Protocol (Internal Documentation)
+
+## Standing Recurring Check-in
+- Client: TechStartup Inc
+- Room Link: https://meet.yourdomain.com/techstartup-inc
+- Schedule: Tuesdays 2:00 PM CET / 1:00 PM UTC
+- Recurrence: Indefinite until project completion
+- Duration: 30 minutes
+- Attendees: [Client PM], [Client Tech Lead], [Your Name]
+
+## Before Each Meeting
+- [ ] Test audio 5 minutes early
+- [ ] Review last week's notes
+- [ ] Prepare progress artifacts (designs, code samples, metrics)
+- [ ] Check for any urgent issues in project management tool
+
+## Meeting Agenda (Reusable Template)
+- Welcome & Check-in (2 min)
+- Week's Progress (10 min)
+- Blockers & Decisions (8 min)
+- Next Week Priorities (5 min)
+- Q&A (5 min)
+
+## After Meeting
+- [ ] Send summary email within 2 hours
+- [ ] Update project management tool with decisions
+- [ ] Note any follow-up items
+- [ ] Record any action items with deadlines
+
+This consistency transforms the meeting from "another video call" into a structured business touchpoint.
+```
+
+## Migrating Between Platforms Without Disrupting Clients
+
+If you need to switch platforms (Zoom to Whereby to self-hosted Jitsi), communicate clearly:
+
+```markdown
+# Client Migration Notice
+
+Dear [Client Name],
+
+Starting [DATE], our weekly check-in will use a new meeting platform that will provide better [FEATURE: recording, whiteboarding, integrations].
+
+**Old meeting link:** No longer active
+**New meeting link:** https://meet.yourdomain.com/client-name
+**Time:** Unchanged (Tuesdays 2:00 PM CET)
+**What changes:** Platform, appearance—same structured agenda
+
+Instructions for your first meeting:
+1. Click the new link above
+2. Allow browser camera/microphone access
+3. Join as your name
+4. No account needed—meetings are browser-based
+
+If you experience any technical issues joining, reply to this email immediately with a screenshot.
+
+Looking forward to continued partnership.
+```
+
+Give clients 2-3 weeks notice and offer a practice call if they're not tech-comfortable.
+
+## Cost Comparison: Paid vs. Free vs. Self-Hosted
+
+For one recurring client relationship, cost efficiency matters:
+
+```
+Scenario: Single client, weekly 30-minute check-in, 52 weeks/year
+
+Option 1: Free Zoom (Limited 40 minutes on group calls)
+- Cost: $0
+- Setup time: 5 minutes
+- Problem: Calls cut off automatically, must restart
+- Hidden cost: 1 minute/week reconnecting = 52 minutes/year lost
+
+Option 2: Zoom Pro ($15.99/month)
+- Cost: $192/year
+- Setup time: 10 minutes (account creation, PMI setup)
+- Benefit: Unlimited call length, persistent meeting room
+- ROI: Eliminates reconnection pain, professional appearance
+
+Option 3: Whereby ($30/month)
+- Cost: $360/year
+- Setup time: 20 minutes (custom branding, room setup)
+- Benefits: Embeddable room, simple interface, no client software needed
+- ROI: Clients appreciate simplicity, reduces tech support questions
+
+Option 4: Self-hosted Jitsi (Free)
+- Cost: $0 (or $30-50/month for hosting)
+- Setup time: 2-4 hours (installation, SSL cert, testing)
+- Benefits: Complete control, privacy, scalability
+- ROI: Worth it if you have 5+ recurring clients (amortized)
+
+For a single client relationship, Zoom Pro is typically optimal cost/benefit.
+```
+
+## Security Considerations for Client Meetings
+
+Your persistent meeting room is a potential security liability. Implement basic protections:
+
+**Waiting Room:** Always enable so you control when clients enter
+**Recording Permissions:** Disable client ability to record without permission
+**Chat:** Allow only authenticated participants to chat
+**Screen Sharing:** Restrict to only hosts (you) unless client needs to present
+
+```bash
+# Zoom meeting security checklist
+- [ ] Waiting room enabled
+- [ ] Recording: host-only, with consent notification
+- [ ] Participants muted on entry
+- [ ] Chat: disabled or hosts-only
+- [ ] Screen sharing: hosts-only (or specific users)
+- [ ] Password required: at least 10 characters
+- [ ] Meeting locked once started (no late entry)
+- [ ] Participant list hidden from guests
+```
+
+For sensitive discussions, ensure your backdrop is clean and no confidential information is visible.
+
+## Troubleshooting Common Issues
+
+**Problem: Audio drops frequently**
+- Solution: Client likely on weak WiFi. Suggest they move closer to router or use wired connection for important calls
+
+**Problem: Client can't find the meeting link**
+- Solution: Send the link in a different way (SMS, backup email) with clear instructions. Assume they didn't save the first version.
+
+**Problem: Participants complain about lag/video quality**
+- Solution: Request everyone disable video except when actively speaking. Prioritize audio over video for reliability.
+
+**Problem: Client cancels frequently last-minute**
+- Solution: Send reminder 24 hours before and 15 minutes before. Most cancellations drop from forgetfulness with proper reminders.
+
+**Problem: Meeting room feels impersonal or awkward**
+- Solution: Start with 2 minutes casual conversation (weather, weekend plans) before jumping into agenda. Human connection matters.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

@@ -143,6 +143,271 @@ When implementing security headers, watch for these issues:
 - Overly permissive CSP: Avoid `'unsafe-inline'` and `'unsafe-eval'` unless absolutely necessary
 - Missing headers on error pages: Ensure your error pages also return security headers
 
+## Building a Custom Security Header Audit Script
+
+For developers managing multiple applications, automate security header audits:
+
+```javascript
+// audit-security-headers.js - Run this in browser console or as Node script
+
+const criticalHeaders = [
+  'Strict-Transport-Security',
+  'X-Content-Type-Options',
+  'X-Frame-Options',
+  'Content-Security-Policy'
+];
+
+async function auditHeaders(url) {
+  try {
+    const response = await fetch(url, { method: 'HEAD' });
+    const headers = {};
+
+    response.headers.forEach((value, key) => {
+      headers[key.toLowerCase()] = value;
+    });
+
+    const audit = {
+      url: url,
+      timestamp: new Date().toISOString(),
+      results: {
+        passed: [],
+        missing: [],
+        warnings: []
+      }
+    };
+
+    criticalHeaders.forEach(header => {
+      const headerLower = header.toLowerCase();
+      if (headers[headerLower]) {
+        audit.results.passed.push({
+          header: header,
+          value: headers[headerLower]
+        });
+      } else {
+        audit.results.missing.push(header);
+      }
+    });
+
+    // Additional checks
+    if (headers['x-xss-protection'] === '0') {
+      audit.results.warnings.push('X-XSS-Protection is disabled (intentional?)');
+    }
+
+    return audit;
+  } catch (error) {
+    console.error(`Audit failed for ${url}:`, error);
+  }
+}
+
+// Usage: Run audit on multiple endpoints
+const endpoints = [
+  'https://api.example.com',
+  'https://example.com',
+  'https://dashboard.example.com'
+];
+
+Promise.all(endpoints.map(auditHeaders)).then(results => {
+  console.table(results);
+  // Export to JSON for tracking over time
+  console.log(JSON.stringify(results, null, 2));
+});
+```
+
+Run this script monthly and track changes. When you add a new header, verify it propagated to all endpoints.
+
+## Real-World Security Header Implementations
+
+Here's what production implementations actually look like:
+
+**Tight Security (B2B SaaS with sensitive data):**
+```
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-abc123'; style-src 'self' fonts.googleapis.com
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+```
+
+**Balanced Security (SaaS with external integrations):**
+```
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self'; script-src 'self' cdn.example.com; img-src 'self' data: https:
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: camera=(), microphone=()
+```
+
+**Permissive Security (Public marketing site with many third-party tools):**
+```
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: default-src 'self' https:; script-src 'self' 'unsafe-inline' https:
+Referrer-Policy: no-referrer-when-downgrade
+```
+
+The trade-off: tighter CSP prevents more attacks but breaks more integrations. Start tight and relax only when necessary.
+
+## Content-Security-Policy: The Deep Dive
+
+CSP is the most complex header and worth understanding thoroughly:
+
+```
+# CSP Anatomy
+
+default-src 'self'        # Default policy for all content types
+  ├─ Applies unless overridden by specific directive
+  └─ 'self' = same origin, nothing else
+
+script-src 'self' 'nonce-XYZ'  # Where scripts can load from
+  ├─ 'self': scripts from your domain
+  ├─ 'nonce-XYZ': inline scripts with matching nonce attribute
+  └─ Blocks all other inline scripts and external sources
+
+style-src 'self' data:     # Where stylesheets can come from
+  ├─ 'self': stylesheets from your domain
+  ├─ data: embedded data URIs
+  └─ Blocks external CDN stylesheets unless explicitly allowed
+
+img-src *                   # Images can load from anywhere
+font-src 'self' fonts.gstatic.com  # Fonts from self or Google
+connect-src 'self' https://api.example.com  # XHR/fetch/WebSocket destinations
+```
+
+**Common CSP mistakes:**
+
+1. Using `'unsafe-inline'` for styles/scripts — defeats the purpose of CSP
+2. Using `*` for script-src — allows any attacker-controlled script
+3. Forgetting to update CSP when adding third-party tools — tools break mysteriously
+4. Not using nonce/hash for inline scripts — undermines security
+
+**Testing CSP without breaking production:**
+
+```
+Content-Security-Policy-Report-Only: ...
+```
+
+Use `-Report-Only` first. This logs violations without blocking anything. Monitor for 1-2 weeks, fix issues, then switch to enforcing mode.
+
+## Practical Incident Response Using Headers
+
+When you discover a security issue, security headers help contain damage:
+
+```markdown
+# Incident: Third-party library has XSS vulnerability
+
+Response using CSP:
+1. Review CSP: does script-src allow this library?
+2. If yes: remove from CSP immediately
+3. Notify users that content from library domain is blocked
+4. Library users experience some feature breakage but are protected from XSS
+5. Update to patched version
+6. Re-add to CSP after verification
+
+Without CSP:
+1. Users are vulnerable until they update browsers
+2. Library XSS attack steals session tokens
+3. Incident response is reactive, not preventive
+```
+
+Good headers let you act defensively immediately, even before patches exist.
+
+## Monitoring Header Compliance Over Time
+
+Track compliance across your infrastructure:
+
+```python
+# Security header monitoring dashboard
+
+import requests
+from datetime import datetime
+from collections import defaultdict
+
+class SecurityHeaderMonitor:
+    def __init__(self):
+        self.endpoints = [
+            'https://api.example.com',
+            'https://example.com',
+            'https://admin.example.com'
+        ]
+        self.required_headers = [
+            'Strict-Transport-Security',
+            'X-Content-Type-Options',
+            'X-Frame-Options'
+        ]
+
+    def check_endpoint(self, url):
+        try:
+            resp = requests.head(url, timeout=5)
+            headers = {k.lower(): v for k, v in resp.headers.items()}
+
+            status = {
+                'url': url,
+                'timestamp': datetime.now().isoformat(),
+                'compliant': True,
+                'missing_headers': []
+            }
+
+            for header in self.required_headers:
+                if header.lower() not in headers:
+                    status['missing_headers'].append(header)
+                    status['compliant'] = False
+
+            return status
+        except Exception as e:
+            return {
+                'url': url,
+                'error': str(e),
+                'compliant': False
+            }
+
+    def audit_all(self):
+        results = []
+        for endpoint in self.endpoints:
+            results.append(self.check_endpoint(endpoint))
+        return results
+
+# Run daily via CI/CD
+monitor = SecurityHeaderMonitor()
+audit_results = monitor.audit_all()
+
+# Alert if any endpoint is non-compliant
+non_compliant = [r for r in audit_results if not r.get('compliant')]
+if non_compliant:
+    send_slack_alert(f"Security header audit failed: {non_compliant}")
+```
+
+This catches configuration drift (headers accidentally removed during deployments).
+
+## Browser DevTools Alternative: Network Tab Inspection
+
+If you prefer not to use extensions, inspect headers directly:
+
+1. Open Chrome DevTools (F12)
+2. Go to Network tab
+3. Reload the page
+4. Click the main document request (usually first in list)
+5. Check Headers section: scroll to "Response Headers"
+6. Look for security-related headers (Strict-Transport-Security, CSP, etc.)
+
+This is slower than extensions but requires no installation and provides detailed header inspection.
+
+## Common Questions About Security Headers
+
+**Q: Will security headers break my site?**
+A: Start with `Content-Security-Policy-Report-Only` first. Only enforce after verifying nothing breaks. Other headers rarely cause issues.
+
+**Q: Do security headers replace HTTPS?**
+A: No, they complement HTTPS. Strict-Transport-Security forces HTTPS, but other headers (CSP, X-Frame-Options) add application-level protections.
+
+**Q: How often should I audit headers?**
+A: After every deployment. Monthly automated audits catch drift. Whenever adding third-party integrations, verify CSP still allows them.
+
+**Q: What's the difference between X-XSS-Protection and CSP?**
+A: X-XSS-Protection is legacy (for old browsers). CSP is modern. Use CSP for new applications.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

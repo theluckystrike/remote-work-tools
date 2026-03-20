@@ -671,3 +671,8 @@ For most teams, CodeTogether is the sweet spot: $10/month, supports any IDE, exc
 The real cost of pair programming isn't the tool—it's the time spent debugging connection issues. Spend $10-20/month to eliminate that, and productivity increases far exceed the tool cost.
 
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
