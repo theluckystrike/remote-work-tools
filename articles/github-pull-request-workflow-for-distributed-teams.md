@@ -10,6 +10,7 @@ score: 8
 categories: [productivity]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, workflow]
 ---
 
 

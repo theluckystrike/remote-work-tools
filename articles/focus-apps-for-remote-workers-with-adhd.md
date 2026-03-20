@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /focus-apps-for-remote-workers-with-adhd/
 categories: [guides]
-tags: [adhd, focus, productivity, remote work, tools]
+tags: [remote-work-tools, adhd, focus, productivity, remote work, tools, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

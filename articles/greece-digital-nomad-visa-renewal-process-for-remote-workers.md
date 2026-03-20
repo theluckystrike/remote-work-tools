@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /greece-digital-nomad-visa-renewal-process-for-remote-workers/
 categories: [guides]
-tags: [greece, digital-nomad, visa, renewal, remote-work, europe]
+tags: [remote-work-tools, greece, digital-nomad, visa, renewal, remote-work, europe]
 reviewed: true
 score: 8
 intent-checked: true

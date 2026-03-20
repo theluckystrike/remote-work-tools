@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/
 categories: [guides]
-tags: [home-office, ergonomics, workspace-setup]
+tags: [remote-work-tools, home-office, ergonomics, workspace-setup, comparison]
 reviewed: true
 score: 8
 intent-checked: true

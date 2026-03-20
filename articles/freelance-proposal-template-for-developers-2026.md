@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /freelance-proposal-template-for-developers-2026/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 reviewed: true
 score: 8
 intent-checked: true

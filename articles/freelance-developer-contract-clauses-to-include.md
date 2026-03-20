@@ -6,9 +6,9 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /freelance-developer-contract-clauses-to-include/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

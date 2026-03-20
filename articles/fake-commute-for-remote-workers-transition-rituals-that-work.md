@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /fake-commute-for-remote-workers-transition-rituals-that-work/
 categories: [guides]
-tags: [remote-work, productivity, wellness, routines]
+tags: [remote-work-tools, remote-work, productivity, wellness, routines]
 reviewed: true
 score: 8
 intent-checked: true

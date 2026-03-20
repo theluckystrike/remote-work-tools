@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /freelance-developer-networking-strategies-online/
 categories: [guides]
-tags: [freelance, networking, career, remote-work]
+tags: [remote-work-tools, freelance, networking, career, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

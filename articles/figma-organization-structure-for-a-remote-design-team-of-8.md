@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /figma-organization-structure-for-a-remote-design-team-of-8/
 categories: [guides]
-tags: [figma, design-systems, remote-work, collaboration]
+tags: [remote-work-tools, figma, design-systems, remote-work, collaboration]
 reviewed: true
 score: 8
 intent-checked: true

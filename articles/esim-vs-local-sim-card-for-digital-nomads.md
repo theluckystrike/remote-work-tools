@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /esim-vs-local-sim-card-for-digital-nomads/
 categories: [guides]
-tags: [esim, sim-card, digital-nomad, remote-work]
+tags: [remote-work-tools, esim, sim-card, digital-nomad, remote-work, comparison]
 reviewed: true
 score: 8
 intent-checked: true

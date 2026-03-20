@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /first-90-days-as-freelance-developer-guide/
 categories: [guides]
-tags: [freelance, career]
+tags: [remote-work-tools, freelance, career]
 reviewed: true
 score: 8
 intent-checked: true

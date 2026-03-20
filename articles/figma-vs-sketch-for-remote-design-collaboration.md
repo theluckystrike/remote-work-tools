@@ -6,10 +6,11 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /figma-vs-sketch-for-remote-design-collaboration/
 reviewed: true
-score: 8
+score: 9
 categories: [comparisons]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, comparison, remote-work, collaboration]
 ---
 
 

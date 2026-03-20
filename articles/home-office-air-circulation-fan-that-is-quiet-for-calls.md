@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-air-circulation-fan-that-is-quiet-for-calls/
 categories: [guides]
-tags: [home-office, remote-work, air-circulation, productivity]
+tags: [remote-work-tools, home-office, remote-work, air-circulation, productivity]
 reviewed: true
 score: 8
 intent-checked: true

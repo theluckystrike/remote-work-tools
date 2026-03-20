@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /freelance-developer-toolkit-essential-apps-2026/
 categories: [guides]
-tags: [freelance, developer, toolkit, productivity, apps]
+tags: [remote-work-tools, freelance, developer, toolkit, productivity, apps]
 reviewed: true
 score: 8
 intent-checked: true
