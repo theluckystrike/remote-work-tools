@@ -40,16 +40,23 @@ If you're forming a company, you'll also need:
 
 ## Choosing the Right Bank
 
-Not all banks serve freelancers equally. Here's a quick comparison of options popular among remote workers in Portugal:
+Not all banks serve freelancers equally. Here's a comprehensive comparison of options popular among remote workers in Portugal:
 
-| Bank | Business Account Fee | Online Banking | English Support |
-|------|---------------------|-----------------|-----------------|
-| Millennium BCP | €6.90/month | Excellent | Good |
-| Caixa Geral de Depósitos | €4.50/month | Good | Limited |
-| Novo Banco | €7.50/month | Excellent | Good |
-| Bunq (EU-based, no physical presence) | €10/month | Excellent | Excellent |
+| Bank | Monthly Fee | Setup Time | Minimum Balance | Features | Best For |
+|------|------------|-----------|-----------------|----------|----------|
+| **Millennium BCP** | €6.90 | 5-10 days | €0 | Mobile app, API, Portuguese tax integration | Traditional setup, integration with Softland |
+| **Caixa Geral de Depósitos** | €4.50 | 7-14 days | €0 | Basic online, legacy interface | Budget-conscious, minimal features needed |
+| **Novo Banco** | €7.50 | 5-10 days | €0 | Modern app, competitive rates | Tech-savvy users, good UX |
+| **Bunq** | €10/month | 1-2 hours | €0 | Full digital, multiple IBANs, real-time notifications | Fastest setup, fully remote |
+| **Wise Business** | €0 + 0.5% transfer fee | 30 minutes | €0 | Multi-currency, competitive rates, 24/7 support | International payments, budget-optimized |
+| **N26 Business** | €0-10 | 10 minutes | €0 | Digital-only, no Portuguese integration | Quick setup, minimal tax compliance |
 
-**For developers and tech users:** If you prefer a fully digital experience, **Bunq** or **Wise** (available in Portugal) offer quick account setup entirely online. However, traditional banks like Millennium BCP often provide better integration with Portuguese tax systems and more support for invoices generated through Portuguese accounting software.
+**For developers and tech users:** If you prefer a fully digital experience, **Bunq** or **Wise** (available in Portugal) offer quick account setup entirely online with English support. Bunq especially provides API access and real-time notifications ideal for automation. However, traditional banks like Millennium BCP often provide better integration with Portuguese tax systems and accounting software like Softland, Ploomes, or Invoicex—critical for Portuguese tax compliance.
+
+**Monthly cost analysis for solo freelancers:**
+- Budget tier ($0-5/month): Caixa Geral, Wise + transfers
+- Balanced tier ($5-15/month): Millennium BCP, Novo Banco
+- Premium tier ($15+/month): Enterprise accounts with relationship management
 
 ## The Application Process
 
@@ -99,12 +106,41 @@ Solution: You'll need to obtain a NIF first by registering as a tax resident. Th
 **Problem: High minimum balance requirements.**
 Solution: Some business accounts require a minimum deposit or maintain a minimum balance. Compare options carefully—Millennium BCP's business account has no minimum balance but charges a monthly fee.
 
+## Setup Timeline and Expected Costs
+
+**Sole Trader (Trabalhador Independente) Path:**
+- Day 1-3: NIF registration via Portal das Finanças (€0)
+- Day 5-10: Bank appointment, account opening (€0 setup, €4.50-10/month ongoing)
+- Day 10-14: Account activation, receive debit card and IBAN
+- **Total startup cost: €0-30 for documentation translation if needed**
+- **Monthly ongoing: €54-120/year in bank fees**
+
+**Limited Company (Lda.) Path:**
+- Day 1: Notary appointment (€200-400)
+- Day 3-5: Registry of Commerce registration (€150-300)
+- Day 10-15: Bank appointment with company documents (€0 setup)
+- **Total startup cost: €350-700**
+- **Monthly ongoing: €150-300/year depending on corporate account tier**
+
 ## Practical Recommendations
 
-1. **Start with a digital bank** like Bunq or Wise for quick setup while you build a relationship with a traditional Portuguese bank.
-2. **Register as a sole trader first** if you're just starting out—the administrative burden is minimal and you can always upgrade to a company structure later.
-3. **Use Portuguese invoicing software** like Softland, Ploomes, or the free Invoicex to generate compliant invoices that integrate with your bank.
+1. **Start with a digital bank** like Bunq ($10/month, 1 hour setup) or Wise ($0 + 0.5% transfer fee) for quick setup and parallel operation with a traditional Portuguese bank.
+2. **Register as a sole trader first** if you're just starting out—the administrative burden is minimal (3-5 hours, €0 cost) and you can always upgrade to a company structure later.
+3. **Use Portuguese invoicing software** like Softland (€7-15/month), Ploomes (€35+/month), or free Invoicex to generate compliant invoices that integrate with your bank and auto-report to authorities.
 4. **Keep personal and business finances strictly separate** from day one to simplify tax calculations and avoid headaches during inspections.
+5. **Automate invoicing and payments** using your bank's API (Millennium BCP, Novo Banco) or connect through Zapier ($20/month) for real-time expense tracking.
+
+**Tax compliance workflow:**
+```
+Invoice generated (Softland)
+  → Sent to client via email
+  → Payment received to business account
+  → Automatically categorized by Softland
+  → Monthly summary exported to tax software
+  → Annual tax return pre-filled
+```
+
+This automation reduces year-end tax filing from 8-16 hours to 2-3 hours.
 
 ## Related Reading
 

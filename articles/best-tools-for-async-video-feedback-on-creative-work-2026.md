@@ -23,79 +23,156 @@ Creative projects often involve multiple stakeholders who need to review designs
 
 This approach saves hours of meeting time each week, gives reviewers time to formulate thoughtful feedback rather than reacting on the spot, and creates a permanent record of feedback that can be revisited later. For creative agencies, in-house design teams, and content production studios, async video feedback has become essential infrastructure.
 
-## Top Tools for Async Video Feedback
+## Top Tools for Async Video Feedback: Detailed Comparison
 
 ### Loom
 
 Loom remains one of the most popular choices for async video feedback, offering a Chrome extension and desktop app that makes recording seamless. Users can capture their screen, camera, or both with a single click, then share the video link immediately. Loom's timestamped comments let reviewers mark specific moments in the video, making it easy for creators to understand exactly what needs attention.
 
-The platform offers a free tier with basic features, while professional plans add analytics, CRM integrations, and team management features. Loom works particularly well for creative teams that already use design tools like Figma, as the integrations allow embedding video feedback directly into design files.
+| Plan | Price | Storage | Features | Best For |
+|------|-------|---------|----------|----------|
+| Free | $0 | Unlimited | 5-min recording limit, basic sharing | Solo creators testing |
+| Pro | $12/user/month | Unlimited | Unlimited length, transcript search, Figma integration | Individual creators |
+| Business | $25/user/month | Unlimited | Team management, advanced analytics, custom domain | Small creative teams |
+
+Loom works particularly well for creative teams that already use design tools like Figma, as integrations allow embedding video feedback directly into design files.
 
 **Key Features:**
 - One-click recording from browser or desktop
 - Timestamp comments for precise feedback
 - Figma and Slack integrations
 - Viewer analytics showing who watched
+- Transcript search ($12/month minimum)
 
 ### Vimeo Record
 
 Vimeo Record provides professional-grade video recording backed by Vimeo's infrastructure. Unlike consumer-focused tools, Vimeo Record includes enterprise security features, custom branding options, and detailed access controls that matter for agencies working with client confidentiality.
 
-The platform records in high definition and offers editing tools for trimming recordings before sharing. Vimeo Record also provides a video hub where teams can organize feedback videos by project, campaign, or client, creating a searchable library of creative feedback over time.
+| Plan | Price | Quality | Team Size | Best For |
+|------|-------|---------|-----------|----------|
+| Free | $0 | 720p | 1 user | Basic testing |
+| Vimeo Plus | $18/month | 1080p HD | 1 user | Professionals |
+| Vimeo Pro | $75/month | 4K + Advanced | 1 user + integrations | Studios |
+| Team | Custom | 4K | 5+ users | Agencies (starts $500+/mo) |
+
+The platform records in high definition and offers editing tools for trimming recordings before sharing. Vimeo also provides a video hub where teams can organize feedback videos by project, campaign, or client, creating a searchable library of creative feedback over time.
 
 **Key Features:**
 - HD recording with trimming tools
 - Enterprise security and access controls
 - Branded video portals
 - Project-based organization
+- Team pricing with workspace management
 
 ### Screen Studio
 
 Screen Studio has gained traction among UX designers and product teams for its focus on high-quality screen recordings. The tool captures screen content at high frame rates and includes automatic enhancements like cursor highlighting and click indicators that make recordings more professional.
 
-What sets Screen Studio apart is its attention to detail for creative review. The platform includes annotation tools that let reviewers draw directly on the screen recording, highlighting specific UI elements or design details that need modification. This visual feedback combines with verbal commentary for review sessions.
+| Plan | Price | Frame Rate | Best For |
+|------|-------|-----------|----------|
+| One-time | $99 | 60fps | Mac users, permanent license |
+| Subscription | $9/month | 60fps | Monthly commitment, continuous updates |
+
+What sets Screen Studio apart is its attention to detail for creative review. Annotation tools let reviewers draw directly on screen recordings, highlighting specific UI elements or design details that need modification.
 
 **Key Features:**
-- High-frame-rate screen capture
+- High-frame-rate screen capture (60fps)
 - Automatic cursor enhancement
 - In-video annotation and drawing
 - Export to multiple formats
+- Motion blur and animations capture
+
+**Best for:** UX designers, product managers, video tutorial creators
 
 ### Clip
 
 Clip positions itself as the fastest way to record and share video feedback, stripping away unnecessary features in favor of speed and simplicity. The tool opens with a single keyboard shortcut, records immediately, and generates a shareable link within seconds of stopping the recording.
 
-For teams that need quick feedback loops without friction, Clip delivers. The platform stores recordings in the cloud and automatically generates transcripts, making it easy to search through past feedback. While the feature set is more limited than competitors, the simplicity appeals to teams tired of complex video tools.
+| Plan | Price | Features | Transcription |
+|------|-------|----------|---------------|
+| Free | $0 | Basic recording, 50 videos max | Limited |
+| Pro | $9.99/month | Unlimited videos, advanced sharing | Full transcription search |
+
+For teams that need quick feedback loops without friction, Clip delivers. The platform stores recordings in the cloud and automatically generates transcripts, making it easy to search through past feedback.
 
 **Key Features:**
 - Instant recording with keyboard shortcuts
 - Automatic transcription
 - Cloud storage with search
 - Minimal, fast interface
+- 3-second sharing (fastest in category)
+
+**Best for:** Fast-moving design and product teams, agencies managing many clients
 
 ### Dumpling
 
 Dumpling focuses on creative teams that need to review video content, animation, and motion graphics. The platform includes a custom video player designed specifically for creative review, with frame-accurate seeking, annotation tools, and version comparison features.
 
-Unlike general-purpose video tools, Dumpling understands the creative review workflow. Reviewers can leave time-coded comments, compare versions side by side, and track feedback through multiple revision rounds. The platform integrates with project management tools like Asana and Monday.com to keep feedback connected to deliverables.
+| Plan | Price | Team Size | Integrations |
+|------|-------|-----------|--------------|
+| Free | $0 | 1 user | Asana, Monday basic |
+| Pro | $19/month | Up to 5 users | All integrations |
+| Studio | $99/month | Unlimited users | Priority support |
+
+Unlike general-purpose video tools, Dumpling understands the creative review workflow. Reviewers can leave time-coded comments, compare versions side by side, and track feedback through multiple revision rounds.
 
 **Key Features:**
 - Frame-accurate video player
 - Version comparison tools
 - Time-coded annotations
-- Project management integrations
+- Project management integrations (Asana, Monday, Jira)
+- Automated approval workflows
+
+**Best for:** Motion graphics teams, animation studios, video post-production
 
 ## How to Choose the Right Tool
 
 Selecting the best async video feedback tool depends on your team's specific needs. Consider the following factors when evaluating options:
 
+**Budget tier decision matrix:**
+
+| Team Size | Use Case | Budget | Recommended Tool | Monthly Cost |
+|-----------|----------|--------|------------------|--------------|
+| 1 creator | Testing | $0-10 | Loom Free + Clip Free | $0 |
+| 2-3 reviewers | Design feedback | $10-25 | Screen Studio ($9) or Clip Pro ($10) | $10-20 |
+| 5-10 designers | Agency with clients | $50-100 | Dumpling Pro ($19) or Vimeo Plus ($18 × users) | $50-100 |
+| 10+ creatives | Studio/Enterprise | $200+/mo | Dumpling Studio ($99) + Vimeo Team | $200-500+ |
+
 **Integration Requirements:** If your team uses Figma, Slack, or specific project management tools, check which platforms offer native integrations. The ability to keep feedback connected to source files reduces context switching and helps teams stay organized.
+
+Integration strength ranking:
+- **Loom:** Figma (native), Slack (native), Notion (native) - Best for design teams
+- **Dumpling:** Asana (native), Monday.com (native), Jira (native) - Best for agencies
+- **Vimeo:** Slack (native), custom webhooks - Best for studios
+- **Screen Studio:** Loom compatibility, limited integrations - Best for standalone use
+- **Clip:** Slack (native), minimal integrations - Best for speed, minimal ecosystem
 
 **Security and Compliance:** Creative agencies working with NDAs and sensitive client information need tools with appropriate security features. Look for platforms that offer access controls, encryption, and compliance certifications relevant to your industry.
 
+Security features by tool:
+- Loom: Password protection, expiring links, access logs
+- Vimeo: Enterprise encryption, HIPAA/GDPR compliant, branded portals
+- Dumpling: Collaboration permissions, audit trails, version control
+- Screen Studio: Local storage option (no cloud backup)
+- Clip: Cloud-only, standard security
+
 **Video Quality:** For teams reviewing visual work like design or video, recording quality matters. Some tools offer higher resolution or frame rates that preserve detail during review.
 
+Quality specifications:
+- Screen Studio: 60fps, best for UI/motion
+- Vimeo: 4K support, pro codec options
+- Loom: 1080p, good compression
+- Clip: 720p standard, sufficient for feedback
+- Dumpling: Preserves source file quality
+
 **Team Size and Pricing:** Consider how many team members need access and whether the pricing model scales affordably. Some tools charge per user while others offer flat team pricing.
+
+Cost scaling analysis (10-person team):
+- Loom: $120/month (10 × $12 Pro)
+- Screen Studio: $90-99/month (team uses same license)
+- Clip Pro: $99.90/month (10 × $9.99)
+- Dumpling: $19-99/month (Pro to Studio)
+- Vimeo: $180-500+/month (per-user or team plan)
 
 ## Best Practices for Async Video Feedback
 

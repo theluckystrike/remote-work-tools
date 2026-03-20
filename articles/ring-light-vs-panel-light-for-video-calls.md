@@ -98,13 +98,61 @@ Panel lights with adjustable color temperature (typically 3200K-5600K) let you m
 # - Mixed lighting: adjust until skin tones appear natural on camera
 ```
 
+## Specific Product Recommendations and Pricing
+
+### Ring Light Options
+
+| Model | Size | Price | Power | Best For |
+|-------|------|-------|-------|----------|
+| Neewer 10" USB Ring Light | 10" | $30-40 | USB 5V | Budget setup, compact desks |
+| TikTok Creator Kit (18") | 18" | $50-70 | USB + AC | Serious streamers, high brightness |
+| Yongnuo YN608 LED Ring | 17.7" | $80-100 | USB + AC | Color temperature control (3200K-5600K) |
+| Neewer 14" Dimmable | 14" | $45-60 | USB + AC | Best flexibility for ring lights |
+
+**Budget tiers:**
+- **$30-50**: Entry-level ring lights work for basic video calls with laptop webcam
+- **$60-100**: Mid-range options add color temperature adjustment and better build quality
+- **$120+**: Professional ring lights with studio-grade dimming and larger diameters (18"+)
+
+### Panel Light Options
+
+| Model | Size | Price | Color Temp | Best For |
+|-------|------|-------|------------|----------|
+| Neewer Bi-Color Panel | 12"x20" | $45-65 | 3200K-5600K | Compact desk space, adjustable temperature |
+| NANLITE Forza 60B | 7.4"x4.4" | $280-320 | 5600K + RGB | Professional work, high output |
+| Elgato Key Light Air | 15"x10" | $130-150 | 2700K-6500K | Premium, HomeKit integration |
+| Aputure MC 4-Light | 7.6"x7.6" (4-pack) | $150-180 | 5600K | Multiple panels for 3-light setup |
+
+**Budget tiers:**
+- **$50-100**: Basic bi-color panels for home office use
+- **$130-200**: Premium options with better software control and HomeKit/smart home integration
+- **$280+**: Professional panels for content creators and studios
+
 ## Making Your Decision
 
-Choose a ring light if you want quick setup with minimal adjustment, primarily record straight-on to your webcam, and prefer consistent, shadowless illumination. Ring lights work particularly well in rooms with some existing ambient light where you need a modest boost.
+Choose a ring light if you want quick setup with minimal adjustment, primarily record straight-on to your webcam, and prefer consistent, shadowless illumination. Ring lights work particularly well in rooms with some existing ambient light where you need a modest boost. Start with a 12-14" ring light ($40-70) and add a tripod ($20-30) for flexible positioning.
 
-Choose a panel light if you value control over lighting direction and color temperature, have space for more involved setup, or need to match existing room lighting precisely. Panels suit developers who take video quality seriously or who record content beyond simple call appearances.
+Choose a panel light if you value control over lighting direction and color temperature, have space for more involved setup, or need to match existing room lighting precisely. Panels suit developers who take video quality seriously or who record content beyond simple call appearances. A single Neewer bi-color panel ($50-65) plus adjustable light stand ($30-50) provides excellent flexibility.
 
 For developers using standing desks or frequently reorganizing their workspace, consider portable options in both categories. Some compact ring lights and mini panels offer sufficient quality without permanent desk presence.
+
+### Real-World Setup Guide: Ring Light Installation
+
+1. Place 10-12" ring light on sturdy tripod with laptop on desk behind it
+2. Position camera lens through ring light center (minimal obstruction)
+3. Adjust tripod height so light is at eye level when seated
+4. USB power from laptop or wall adapter
+5. Cost: Light ($40-50) + tripod ($25-35) = $65-85 total
+6. Setup time: 5 minutes
+
+### Real-World Setup Guide: Panel Light Installation
+
+1. Position panel 45 degrees to the side and slightly above seated eye level
+2. Mount on light stand with 5/8" grip head, aimed at face (not directly overhead)
+3. Use diffusion cloth if direct light is harsh
+4. Plug into wall outlet (AC powered models)
+5. Cost: Panel ($60-150) + stand ($25-40) + diffuser ($10-15) = $95-205
+6. Setup time: 10-15 minutes, more careful positioning required
 
 ## Related Reading
 
