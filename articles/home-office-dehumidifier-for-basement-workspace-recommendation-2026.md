@@ -137,6 +137,152 @@ Continuous drainage units use slightly more energy but eliminate bucket-emptying
 
 Consider adding your dehumidifier to smart power strips to track actual energy consumption. Many modern units include energy monitoring in their mobile apps.
 
+## Technical Specifications Explained
+
+Understanding dehumidifier specs helps match unit to your specific basement:
+
+**Energy Factor (EF) Rating**
+Measured in liters per kilowatt-hour (L/kWh). Higher = more efficient.
+
+- Budget models: 1.5-2.0 L/kWh (older technology)
+- Mid-range: 2.0-2.5 L/kWh (typical for 2026 models)
+- Premium/inverter: 2.5-3.5+ L/kWh (energy-efficient compressors)
+
+A 50-pint dehumidifier with EF of 2.0 vs 3.0 represents roughly 30% difference in annual electricity cost. Over 5 years, this $1,500-2,000 unit difference pays back through electricity savings.
+
+**Compressor Types**
+
+Traditional Rotary Compressor: Single-speed operation. Runs at full capacity or off. Older designs run at ~60dB continuously. Energy consumption: consistent, not optimized to actual humidity levels.
+
+Inverter-Driven Compressor: Variable speed. Ramps operation based on detected humidity. Runs quietly at partial capacity most of the time. Newer technology found in premium models. Energy consumption: adaptive, saving 20-30% vs fixed-speed.
+
+Rotary-Sliding Vane: Alternative single-speed design. Less common but more durable than some rotary models. Typically $100-200 more expensive.
+
+**Refrigerant Used**
+
+R-410A (standard): Most common refrigerant in US market. Reliable, established. Prices: widely available models.
+
+R-32 (newer): More efficient, increasingly common in premium units. Slightly higher cost, better cooling performance.
+
+HFC refrigerants: Being phased out due to environmental regulations. Avoid models advertising HFC-based systems unless they specifically state environmental performance acceptance.
+
+**Pint Capacity Deep Dive**
+
+"30-pint" means removes 30 pints of moisture in 24 hours under specific laboratory conditions (80°F, 60% RH). Real-world capacity varies:
+
+- Cooler basements (65°F) remove 20-25% less moisture
+- Drier basements (50% RH starting point) need less capacity
+- Very humid basements (75%+ RH) require 15-20% more capacity
+
+Estimate conservatively: calculate room volume in cubic feet, assume 2 air exchanges per hour, multiply by humidity differential. For a 600 sq ft basement (7.5 ft ceiling = 4,500 cu ft):
+
+```
+Air mass = 4,500 cu ft × 2 exchanges/hour = 9,000 cu ft/hour moved
+Humidity reduction needed = 60% → 45% = 15% differential
+Moisture removal required = 9,000 cu ft × 0.015 = ~135 pints daily
+Rule of thumb capacity = 135 ÷ 1.5 = 90 pints (add 50% safety factor)
+
+For this space, a 70-pint dehumidifier with margin.
+Smaller 50-pint will work but cycle continuously in peak humidity.
+```
+
+## Installation and Ventilation Considerations
+
+**Placement and Airflow**
+Dehumidifiers extract moisture from air around them, requiring circulation:
+
+- Central location in basement: Improves air mixing
+- 6+ inches from walls: Prevents short-circuiting (extracting same air repeatedly)
+- Near lowest point: Moisture concentrates at floor level
+- Away from vents: Hot air from HVAC interferes with humidity sensors
+
+Optimal: Center-room placement on a platform that elevates it 2-3 feet. This positions the intake at typical moisture concentration height.
+
+**Drainage Planning**
+Water must leave the unit continuously:
+
+Gravity drainage: Works if floor drain sits below dehumidifier. Hose diameter matters—1-inch hose prevents clogs better than 3/4-inch. Elevate hose slightly between unit and drain to prevent siphoning (creates back-pressure that can damage compressor).
+
+Pump drainage: Required if no floor drain exists. Delivers water upward to sink or window. Check vertical lift capability:
+
+- 10 feet vertical: Standard for most pump-assisted models
+- 15-20 feet: Heavy-duty pumps, more expensive
+- Plus horizontal distance: Reduces effective lift (10 feet vertical + 20 feet horizontal ≈ 12 feet "total" lift)
+
+Install a check valve ($5-10) on the drain line to prevent water backflow if pump fails.
+
+**Temperature Considerations**
+
+Dehumidifiers struggle below 60°F (16°C). The evaporator coil approaches the dew point too closely, causing frost buildup that reduces efficiency. Some units include "low-temperature mode" that cycles the compressor to prevent frost.
+
+Basement temperature considerations:
+- Winter basements (often 55-60°F): Choose units with low-temp operation
+- Partial-year operation: If you only run dehumidifier May-September, temperature won't constrain
+- Below 50°F: Dehumidifiers become ineffective; address water sealing instead
+
+## Seasonal Operation Strategy
+
+Dehumidifiers run differently throughout the year:
+
+**Spring (March-May): 4-6 hours/day**
+Increasing outdoor humidity and warming. Run evenings to remove accumulated moisture.
+
+**Summer (June-August): 12-16 hours/day**
+Peak humidity season. Many users run continuously or on timer during high-humidity periods (1-6 PM typically).
+
+**Fall (September-November): 6-10 hours/day**
+Decreasing humidity but still above comfort zone. Taper operation as outdoor humidity drops.
+
+**Winter (December-February): 2-4 hours/day**
+Heating runs, which typically dries air. Run only if mold or mustiness appears.
+
+This seasonal approach reduces annual electricity cost by 30-40% compared to year-round continuous operation.
+
+## Troubleshooting Common Issues
+
+**Issue: Dehumidifier collecting water but humidity stays high**
+- Cause: Unit too small for space or not sized for current humidity level
+- Solution: Add second unit, or increase fan speed and continuous drain operation
+- Diagnostic: Measure humidity in three locations; if readings vary widely, airflow circulation is poor
+
+**Issue: Water collecting in bucket despite drain hose connected**
+- Cause: Drain valve not fully opened, or check valve installed backwards
+- Solution: Verify valve handle is horizontal (open position), check valve arrow points toward drain
+- Diagnostic: Temporarily disconnect drain, water should flow freely
+
+**Issue: Unit running but humidity unchanged**
+- Cause: Air not circulating properly, or humidity sensor miscalibrated
+- Solution: Position unit in room center, try resetting humidistat, check room is sealed (doors closed)
+- Diagnostic: Compare internal humidistat reading to standalone hygrometer ($10-15)
+
+**Issue: High energy consumption (running constantly)**
+- Cause: Unit capacity insufficient for space, or room sealed poorly
+- Solution: Identify air leaks (basement should be mostly sealed; cold air intrusion adds moisture), consider upgrading to larger capacity
+- Diagnostic: Calculate expected run time based on pint capacity and moisture generation
+
+## Maintenance Schedule for Long-Term Reliability
+
+**Every 50 hours of operation (~monthly for continuous summer use):**
+- Empty water bucket or check drainage
+- Verify filter status visually
+- Check for unusual vibration or noise
+
+**Every 200 hours (every 3-4 months):**
+- Remove and clean intake filter
+- Inspect evaporator coils for frost (if present, low-temp mode isn't working)
+- Clean exhaust grill
+
+**Every 500 hours (every 6 months):**
+- Professional cleaning of internal coils recommended ($50-150)
+- Verify compressor isn't leaking refrigerant (check filter for oil spots)
+
+**Annually:**
+- Professional servicing: compressor inspection, refrigerant charge verification
+- Drain pump test (pour water manually to verify pump activates)
+- Full filter replacement if washable filters don't fully clean
+
+Proper maintenance extends unit lifespan from 5-7 years (typical) to 10+ years.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
