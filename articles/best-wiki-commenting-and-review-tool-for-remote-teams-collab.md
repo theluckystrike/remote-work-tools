@@ -122,6 +122,40 @@ Wiki.js provides a self-hosted solution with granular permission controls and a 
 
 Some teams separate documentation writing from reviewing. GitHub Pull Requests excel at code review and translate well to Markdown documentation. Docuum and similar tools specialize in diff-based documentation review with inline commenting.
 
+## Advanced Commenting Features to Evaluate
+
+When testing platforms, specifically evaluate:
+
+**Suggestion Mode:** Can reviewers propose changes that writers can accept with one click? This dramatically speeds up review cycles. The best tools show diff-style changes inline.
+
+**Quote Integration:** When commenting on a specific paragraph, does the tool automatically quote the relevant text? This prevents "I'm confused about what you're referencing" confusion.
+
+**Resolution Workflows:** Beyond commenting, can reviewers mark feedback as:
+- "Needs revision" (blocking publication)
+- "Nice to have" (suggestions, not blocking)
+- "Resolved" (addressed by author)
+- "Disputed" (author disagrees, needs discussion)
+
+Tools with granular resolution workflows reduce comment sprawl and clearly indicate blocking issues.
+
+**Threading Depth:** How many levels of replies can comments support? Teams benefit from discussions that can split into sub-threads without losing context.
+
+**Bulk Operations:** Can you resolve multiple comments at once? Can you export all comments from a document for archive purposes? These features matter as documentation grows.
+
+## Common Documentation Review Mistakes to Avoid
+
+**Mistake: Mixing technical review with style editing**
+Fix: Create separate passes. Technical review first (is the information correct?), then style pass (does it read well?). Mixed reviews confuse both reviewers and writers.
+
+**Mistake: Requiring approval from too many people**
+Fix: Establish explicit approval authority. For API docs, API owner approves. For tutorials, a senior engineer approves. For release notes, product manager approves. Not all three.
+
+**Mistake: Letting comments go unresolved indefinitely**
+Fix: Establish review SLA: comments must receive a response within 2 business days. Unresolved comments after 5 days auto-escalate to manager. This prevents documentation from becoming blocked indefinitely.
+
+**Mistake: No visibility into documentation quality over time**
+Fix: Track metrics: average review time per document, number of revisions per document, comment resolution rate. These metrics reveal whether your review process works or creates bottlenecks.
+
 ## Implementation Recommendations
 
 For remote teams, prioritize tools that support async workflows. Look for:
@@ -133,6 +167,29 @@ For remote teams, prioritize tools that support async workflows. Look for:
 
 A practical starting point: use what your team already knows. If your developers use GitHub daily, use Pull Requests for documentation review. If your team lives in Slack, evaluate Notion's Slack integration. Adoption trumps feature parity.
 
+### Tool Pricing Comparison
+
+Confluence (Cloud): $6 per user/month minimum 5 users ($30/month for small teams), scales to $100-200/month for 25+ people
+Notion: $10-20 per user/month or Team subscription at $25/month
+GitBook: Free for limited use, $50/month for professional teams with multiple spaces
+ReadMe: Pricing varies, typically $50-300+/month depending on API tier
+GitHub (Pull Request reviews): $4-21 per user/month depending on plan tier
+
+For a remote team of 6-12 people doing documentation review, GitHub PRs on a Pro plan ($7/user/month = $42-84/month total) typically costs less than dedicated documentation platforms while providing powerful commenting features.
+
+### Real-World Workflow Example
+
+Here's how a 10-person remote team implements documentation review using GitHub:
+
+1. Technical writers draft documentation in Markdown in a dedicated /docs folder
+2. They create a pull request with the new or updated documentation
+3. Subject matter experts review the PR, commenting on specific lines
+4. Discussions resolve comments or mark them as approved
+5. Once approved, the documentation merges and automatically deploys via continuous integration
+6. The PR becomes a permanent record of all review discussion
+
+This approach requires zero additional tooling beyond what developers already use daily.
+
 ## Measuring Review Effectiveness
 
 Track these metrics to improve your documentation review process:
@@ -143,6 +200,76 @@ Track these metrics to improve your documentation review process:
 - Contributor participation: Who's engaging in documentation reviews?
 
 Tools with built-in analytics help, but you can also export comment data to spreadsheets for custom analysis.
+
+## Documentation Review Workflows by Team Size
+
+**Small teams (3-5 people):**
+Use GitHub Pull Requests with simple approval process. One technical review required before merge. Entire process should take 48 hours max. Tools: Free GitHub Pro tier ($7/user/month).
+
+**Medium teams (6-15 people):**
+Move to dedicated documentation platform if you're doing substantial docs. GitHub PRs work but lack domain-specific features. Consider Notion for less technical docs, GitBook for API documentation. Tools: $10-15/person/month for platform.
+
+**Large teams (15+ people):**
+Implement structured reviewing with multiple approval paths. Different docs require different approvers. Use analytics to track documentation quality. Tools: Confluence or enterprise GitBook ($50-150/month).
+
+## Common Documentation Review Mistakes to Avoid (Extended)
+
+**Mistake: Review comments don't translate to action**
+Fix: After review, create explicit action items. "Chapter 2 needs examples" becomes a task assigned to writer with clear completion criteria.
+
+**Mistake: Reviewers are inconsistent in standards**
+Fix: Create a style guide and review checklist. All reviewers use the same criteria. Reduces debates about preferences versus standards.
+
+**Mistake: Documentation review becomes a bottleneck**
+Fix: Set response SLAs (comments answered within 2 business days, approval decisions within 3 days). Track review velocity. If it's slow, add more reviewers.
+
+**Mistake: No feedback loop on review quality**
+Fix: Track whether documentation with lots of review comments is actually better than documentation with minimal comments. Sometimes extensive review produces mediocre docs. Adjust your process based on outcomes, not effort.
+
+## Integration Patterns for Developers
+
+### Docusaurus + GitHub PRs
+Many engineering-focused teams use Docusaurus (a documentation framework) with GitHub Pull Requests:
+
+```bash
+# Documentation lives in /docs folder
+# Writers create branch, make changes
+# PR automatically builds preview site
+# Reviewers comment on preview link
+# Merge deploys to production
+```
+
+This pattern has zero additional tools—uses infrastructure you already have. Docusaurus is free and open source.
+
+### API Documentation Workflow
+For API docs, consider specialized tools:
+
+```
+OpenAPI spec written → ReadMe or GitBook import
+→ Automatic API explorer generation
+→ Comments on specific endpoints
+→ Changes tracked via GitHub
+```
+
+These tools understand APIs deeply and generate request/response examples automatically. ReadMe costs $50-300+/month depending on API size.
+
+### Confluence for Organizational Wikis
+Larger teams using Confluence can leverage:
+- Page templates for documentation consistency
+- Approval workflows (draft → review → published)
+- Space permissions matching team structure
+- Built-in commenting with @mentions
+- Email-based review notifications
+
+## Choosing Your Starting Point
+
+If you have:
+- **Pure engineering team:** Start with GitHub PRs. They're free and native to your workflow.
+- **Mixed team (engineers + product/design):** Use Notion for easier collaboration with non-technical stakeholders.
+- **API-focused documentation:** GitBook or ReadMe provide specialized features for API docs.
+- **Large organization with complex workflows:** Confluence provides the customization you'll eventually need.
+
+Don't overthink tool selection. Pick something, run it for 3 months, collect feedback, adjust. Most organizations change tools 1-2 times before finding what works for their team.
 
 ## Related Reading
 
