@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-format-for-remote-team-weekly-written-status-update-rep/
 categories: [guides]
-tags: [async-communication, remote-work, standup-alternative, team-updates, weekly-status]
+tags: [remote-work-tools, async-communication, remote-work, standup-alternative, team-updates, weekly-status, best-of]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

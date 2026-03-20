@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-gitbook-alternative-for-remote-engineering-teams-publis/
 categories: [guides]
-tags: [documentation, gitbook, remote-work, internal-docs]
+tags: [remote-work-tools, documentation, gitbook, remote-work, internal-docs, best-of]
 reviewed: true
 score: 8
 intent-checked: true

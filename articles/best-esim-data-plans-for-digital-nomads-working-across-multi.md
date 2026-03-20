@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-esim-data-plans-for-digital-nomads-working-across-multi/
 categories: [guides]
-tags: [esim, digital-nomad, remote-work, data-plans, international-travel, connectivity]
+tags: [remote-work-tools, esim, digital-nomad, remote-work, data-plans, international-travel, connectivity, best-of]
 reviewed: true
 score: 8
 intent-checked: true

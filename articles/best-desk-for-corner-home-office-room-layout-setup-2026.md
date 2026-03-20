@@ -7,11 +7,11 @@ date: 2026-03-16
 author: "theluckystrike"
 permalink: /best-desk-for-corner-home-office-room-layout-setup-2026/
 categories: [guides]
-tags: [corner-desk, home-office, room-layout, ergonomics, remote-work]
+tags: [remote-work-tools, corner-desk, home-office, room-layout, ergonomics, remote-work, best-of]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 

@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-document-collaboration-for-a-remote-legal-team-of-12/
 categories: [guides]
-tags: [legal-tech, document-collaboration, remote-work, legal-operations]
+tags: [remote-work-tools, legal-tech, document-collaboration, remote-work, legal-operations, best-of, collaboration]
 reviewed: true
 score: 8
 intent-checked: true

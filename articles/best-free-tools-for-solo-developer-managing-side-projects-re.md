@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-free-tools-for-solo-developer-managing-side-projects-re/
 categories: [guides]
-tags: [tools, solo-developer, side-projects, remote-work, productivity]
+tags: [remote-work-tools, tools, solo-developer, side-projects, remote-work, productivity, best-of]
 reviewed: true
 score: 8
 intent-checked: true

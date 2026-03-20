@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-goal-setting-framework-tool-for-remote-teams-using-okrs/
 categories: [guides]
-tags: [okr, goal-setting, remote-work, productivity]
+tags: [remote-work-tools, okr, goal-setting, remote-work, productivity, best-of]
 reviewed: true
 score: 8
 intent-checked: true
