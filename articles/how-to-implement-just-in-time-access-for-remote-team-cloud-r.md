@@ -2,13 +2,13 @@
 layout: default
 title: "How to Implement Just-in-Time Access for Remote Team Cloud Resources"
 description: "A practical guide to implementing just-in-time (JIT) access for remote teams. Learn how to secure cloud resources with temporary credentials, reduce attack surface, and maintain compliance."
-date: 2026-03-20
-author: theluckystrike
+date: 2026-03-16
+author: "Remote Work Tools"
 permalink: /how-to-implement-just-in-time-access-for-remote-team-cloud-r/
 categories: [guides]
 tags: [remote-work-tools, cloud-security, just-in-time-access, iam, security, aws, gcp, azure, zero-trust]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
