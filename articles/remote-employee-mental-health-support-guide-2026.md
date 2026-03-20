@@ -2,10 +2,13 @@
 layout: default
 title: "Remote Employee Mental Health Support Guide 2026"
 description: "A practical guide for developers and power users to support mental health in remote work environments. Includes tools, frameworks, and code examples."
-date: 2026-03-20
-author: theluckystrike
+date: 2026-03-16
+author: "Remote Work Tools"
 permalink: /remote-employee-mental-health-support-guide-2026/
 voice-checked: true
+reviewed: true
+score: 8
+categories: [guides]
 ---
 
 {% raw %}
