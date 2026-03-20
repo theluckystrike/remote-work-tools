@@ -125,6 +125,204 @@ Developer communities on Twitter, Hacker News, Discord, and specialized forums p
 
 Find other product builders at similar stages. Accountability partners or small mastermind groups provide support and perspective that lonely solo development cannot.
 
+## Pricing Strategy for Your First Product
+
+One of the hardest decisions: how much to charge? Start with research:
+
+```python
+# Pricing research framework
+research = {
+    "direct_competitors": [
+        {"name": "Competitor A", "price": 29, "features": 8},
+        {"name": "Competitor B", "price": 49, "features": 15},
+        {"name": "Competitor C", "price": 99, "features": 30},
+    ],
+    "willingness_to_pay": {
+        "survey_responses": 42,
+        "avg_price_point": 35,
+        "high_end_users": 60,
+        "budget_conscious": 15,
+    }
+}
+
+# For SaaS, typical metrics:
+# - Standard approach: $29/month (solo), $99/month (team), $299/month (enterprise)
+# - Value-based approach: Price at 10% of value delivered (e.g., saves 1 hour/week = $1/week = ~$50/month)
+# - Cost-plus approach: 3-5x your development cost (avoid—ignores market dynamics)
+
+# Recommendation: Start low ($9-29), raise after hitting product-market fit
+# Price increases feel less risky when you already have revenue
+```
+
+### Pricing Models to Consider
+
+**Freemium** (Free + paid plan):
+- Pros: High user acquisition, easy onboarding
+- Cons: 1-2% conversion typical, requires strong retention
+- When to use: When you have significant free value to offer
+
+**Free Trial** (14-30 day trial, then paid):
+- Pros: Users experience full value before committing
+- Cons: Requires credit card upfront (some friction)
+- When to use: When product value is clear in short timeframe
+
+**Usage-Based** (Pay per action/API call):
+- Pros: Aligns pricing with customer value, no seat limits
+- Cons: Requires detailed tracking, unpredictable for customers
+- When to use: For tools/APIs where usage varies wildly
+
+**Annual Prepay** (Discount for annual vs monthly):
+- Pros: Improves cash flow, reduces churn psychology
+- Cons: Fewer customers can afford upfront
+- When to use: When you want predictability (ideal for first product)
+
+## Managing Your Product's Evolution
+
+As you move from freelance to product mode, your relationship with the code changes:
+
+```bash
+# Freelance mindset: "Deliver, ship, move on"
+# Time: 3 months per project
+# Goal: Client satisfaction, on-spec delivery
+# Testing: "Works for this use case"
+# Documentation: Minimal
+
+# Product mindset: "Ship MVP, iterate based on usage"
+# Time: 12+ months of active development ahead
+# Goal: Long-term retention, expansion revenue
+# Testing: "Works for 80% of use cases, known issues documented"
+# Documentation: Essential for user self-service support
+
+# Transition strategy: Do both for first 6 months
+# Freelance projects (40% time) → Fund product development (60% time)
+# As product revenue grows, shift ratio toward product
+```
+
+## Common Failure Patterns for First-Time Product Builders
+
+Understanding these helps you avoid them:
+
+**The Over-Feature Trap**:
+- You build 30 features; users only want 3
+- Solution: Interview first, build second. Ask "Which feature matters most?" not "What do you think of this?"
+
+**The Wrong Customer Discovery**:
+- You ask friends/family who are biased toward saying yes
+- Solution: Talk to strangers who have the problem but don't know you. Pay them for 30-min interviews ($20-50 each).
+
+**The Feature Chasing Pivot**:
+- One user asks for a feature. You build it. Wrong user persona now.
+- Solution: Require 3+ separate users requesting before building. Track feature requests in a public voting board.
+
+**The Premature Scaling**:
+- You reach 10 paying customers and start hiring. High CAC kills the business.
+- Solution: Stay solo until hitting $5K/month recurring revenue. Then hire.
+
+**The Invisible Launch**:
+- You build in stealth. Launch to crickets because nobody knows you exist.
+- Solution: Start talking about the problem you're solving before you finish building.
+
+## Detailed Revenue Metrics to Track
+
+As a product builder, these metrics determine your success:
+
+```python
+# Critical KPIs for early-stage product
+metrics = {
+    "acquisition": {
+        "monthly_signups": 50,  # Target: +10% month-over-month
+        "qualified_leads": 10,   # Target: 20% of signups
+        "customer_acquisition_cost": 150,  # Limit to <30% of customer lifetime value
+    },
+    "engagement": {
+        "daily_active_users": 15,  # Of 50 signups, only 15 use daily
+        "weekly_active_users": 25,
+        "usage_frequency": "3x per week average",
+    },
+    "retention": {
+        "1_month_retention": 0.60,  # 60% of users stay after 30 days
+        "3_month_retention": 0.35,  # 35% after 90 days (target: >30%)
+        "churn_rate": 0.15,  # 15% monthly churn (target: <5% for paid)
+    },
+    "revenue": {
+        "monthly_recurring_revenue": 2500,  # 25 paying customers × $100/month
+        "annual_run_rate": 30000,
+        "customer_lifetime_value": 2400,  # Assumes 24-month average retention
+        "payback_period_months": 6.25,  # CAC ($150) ÷ Monthly profit (~$24)
+    }
+}
+
+# Health check: LTV > 3x CAC
+# In this example: $2,400 > $450 ✓ (Good)
+
+# Growth rate targets:
+# Month 1-6: +5% MRR is acceptable (you're finding product-market fit)
+# Month 6-12: +10-15% MRR (product-market fit emerging)
+# Month 12+: +20%+ MRR or pivot/pause (not sustainable growth)
+```
+
+## Transitioning from Freelance Project Mind to Product Mind
+
+This is the psychological shift that derails many developers:
+
+**Freelance**: "Ship and move on"
+- Success = client happy + payment received
+- Timeline: 3 months (project end)
+- Mindset: "Done is better than perfect"
+
+**Product**: "Ship and iterate forever"
+- Success = long-term retention + expansion revenue
+- Timeline: Years of active development
+- Mindset: "Done is the beginning of real work"
+
+```bash
+# Exercise: Reframe common freelance decisions as product decisions
+
+Freelance decision: "This feature seems nice. Client liked it in the demo."
+Product decision: "This feature seems nice. Do paying users actually use it?
+                   Will it increase retention? Is there a simpler way?"
+
+Freelance decision: "That's a one-off edge case. Ship without fixing."
+Product decision: "This edge case affects 1% of users. If we gain 1,000 users,
+                   that's 10 angry customers. Fix it or document it."
+
+Freelance decision: "User asked for this feature. Build it."
+Product decision: "User asked for this feature. But is this their real problem?
+                   What are they actually trying to accomplish?"
+```
+
+## Financial Planning for the Transition
+
+Concrete numbers for sustainability:
+
+```
+Scenario: $50K annual salary need
+Target: Reach this via product by month 18
+
+Timeline:
+Month 1-6: Keep freelance income (€4,000/month) while building
+  - Freelance revenue: €24,000
+  - Product revenue: €0
+  - Total: €24,000
+
+Month 7-12: Transition to hybrid
+  - Freelance income: €2,000/month (reduced to 25% time)
+  - Product revenue: €1,500/month (25 paying customers)
+  - Total: €42,000
+
+Month 13-18: Product-focused
+  - Freelance income: €500/month (emergency only)
+  - Product revenue: €4,000/month (200 customers or higher ARR)
+  - Total: €54,000
+
+Month 19+: Product-only (if healthy)
+  - Freelance: €0
+  - Product: €4,000+/month
+  - Total: €48,000+/year
+```
+
+This timeline is aggressive but realistic with discipline.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

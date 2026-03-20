@@ -125,6 +125,212 @@ Another pitfall is allowing "zombie tickets" to accumulate. Tickets that can't b
 
 Finally, don't skip the verification step. Some teams ship directly from "In Dev" to "Closed" to keep counts low. This defeats the purpose of QA. Every fix needs verification, even if it's just a five-minute smoke test.
 
+## Tool Comparison for 7-Person QA Teams
+
+Selecting the right platform is foundational. Here's how the main options stack up:
+
+| Feature | Jira | Linear | GitHub Issues | Azure DevOps |
+|---------|------|--------|---------------|--------------|
+| Custom workflows | Full | Custom states | Limited | Full |
+| Automation rules | Full | Good | Limited | Full |
+| API access | Complete | REST v2 | GraphQL | REST |
+| Slack integration | Built-in | Built-in | Built-in | Built-in |
+| Per-user cost | $7-10 | $5-7 | Free (if GH users) | Free-$80 |
+| Learning curve | Steep | Moderate | Minimal | Steep |
+| Best for QA teams | Yes | Yes | Small teams only | Large orgs |
+
+For a 7-person team, Linear offers the best balance—modern interface, strong automation, and reasonable pricing. Jira works if you already own it.
+
+## Advanced Automation Setup (Jira Example)
+
+Automation eliminates manual status updates and reminder emails:
+
+```yaml
+# Jira automation rule: Auto-assign severity based on keywords
+Rule: Auto-assign critical severity
+Trigger: Issue created
+Condition: Summary contains ("crash", "data loss", "security")
+Action: Set severity = Critical
+
+# Automation rule: Notify testers on deployments
+Rule: Alert testers for verification
+Trigger: Custom event (received from CI/CD webhook)
+Condition: Ticket status = "Ready for Verification"
+Action: Send Slack notification to assigned tester
+
+# Automation rule: Close stale unverified bugs
+Rule: Archive old tickets
+Trigger: Issue was not updated in 30 days
+Condition: Status = "Won't Fix" OR Status = "Ready for Verification"
+Action: Move to "Archived" status + create Slack notification
+```
+
+## Sample Ticket Template with Expected Fields
+
+Enforce structure through templates—no deviation:
+
+```markdown
+## Steps to Reproduce
+[Paste exact steps, not approximations]
+1. Click [exact button/link name]
+2. Scroll to [position]
+3. [Specific action]
+4. Observe [expected vs actual]
+
+## Environment
+Browser: [Chrome 120, Firefox 121, Safari 17, etc.]
+OS: [macOS Sonoma, Windows 11, Ubuntu 22.04]
+Device: [Desktop, iPhone 15 Pro, iPad Gen 9]
+App version: [Extract from About menu]
+Viewport size: [1920x1080 for desktop]
+
+## Severity Assessment
+- Critical: Feature completely broken, blocks user workflow, affects production data
+- High: Feature partially broken, workaround difficult, affects many users
+- Medium: Feature broken for specific scenario, workaround exists, affects subset
+- Low: Minor issue, cosmetic problem, affects single user or rare scenario
+
+## Attachments
+[Screenshot showing the issue - use arrow to point to problem]
+[Screen recording of reproduction (Loom, QuickTime, or Gyroflow)]
+[Browser console errors (F12 > Console tab)]
+
+## Expected Result
+[Describe what should happen]
+
+## Actual Result
+[Describe what does happen]
+
+## Additional Context
+[Browser extensions? VPN active? Network throttled? Time zone?]
+```
+
+Enforce this template in Jira/Linear—don't accept bug reports without required fields.
+
+## Feature-Based Ownership Model
+
+For a 7-person team, assign ownership like this:
+
+```
+Team Structure (7 testers)
+├── Tester 1: Authentication & Authorization (Login, 2FA, permissions)
+├── Tester 2: Payments & Billing (Checkout, invoices, refunds)
+├── Tester 3: User Profiles & Settings (Account, preferences, data)
+├── Tester 4: Content Management (Create, edit, publish, delete)
+├── Tester 5: Search & Discovery (Search, filters, sorting, recommendations)
+├── Tester 6: Mobile Experience (iOS/Android specific, responsive design)
+└── Lead Tester: Cross-cutting concerns (Performance, security, accessibility)
+```
+
+Each owner becomes an expert in their domain. They understand edge cases, know which features have issues, and can mentor others on their systems.
+
+## Daily Triage Workflow
+
+Structure triage to prevent backlog bloat:
+
+```
+Daily Standup (10 min, 9 AM)
+├─ Each tester: "What I found yesterday, what I'm testing today"
+├─ Lead: "Any blocking issues? New critical bugs to triage?"
+└─ Confirm assignments for today's testing
+
+Triage Sessions (Twice weekly, Tue/Fri 10 AM, 15 min each)
+├─ Review all "New" status tickets
+├─ Verify reproducibility (essential—many reported bugs are user error)
+├─ Assign severity and priority
+├─ Assign to feature owner
+├─ Move to "In Progress" if actively being investigated
+
+New Bugs Appearing This Week > Backlog Cleanup
+├─ If a bug hasn't been touched in 30 days, archive it
+├─ Escalate critical bugs to development daily
+├─ Weekly: Review metrics (average cycle time, bug age)
+```
+
+## Measuring QA Team Performance
+
+Track metrics that matter:
+
+```sql
+-- Query: Average time from reported to verified
+SELECT
+  AVG(DATEDIFF(day, created, verified_date)) as avg_days_to_verify,
+  COUNT(*) as total_bugs_verified
+FROM bugs
+WHERE verified_date >= CURRENT_DATE - INTERVAL 30 DAY
+GROUP BY severity;
+
+-- Results expected:
+-- Critical: <2 days
+-- High: <5 days
+-- Medium: <10 days
+-- Low: <15 days
+
+-- Query: False positive rate (bugs reported but not reproducible)
+SELECT
+  (COUNT(*) FILTER (WHERE status = 'Won''t Fix')) /
+  COUNT(*) as false_positive_rate
+FROM bugs
+WHERE created >= CURRENT_DATE - INTERVAL 30 DAY;
+
+-- Target: <10% false positive rate
+-- Higher suggests testers lack domain knowledge or environment issues
+```
+
+## Integration with Development Workflow
+
+Connect your QA tracker to development without context switching:
+
+### Jira-GitHub Connection
+
+```bash
+# When developer creates a branch with ticket prefix,
+# commit messages auto-link to tickets
+
+# Branch naming convention
+git checkout -b fix/JIRA-523-payment-timeout
+
+# Commit message
+git commit -m "Fix payment timeout issue on slow connections"
+
+# Jira automatically links this commit to ticket JIRA-523
+# Tester assigned to JIRA-523 sees commit in ticket
+# When PR merges, ticket auto-moves to "Ready for Verification"
+```
+
+### Slack Integration Automation
+
+```bash
+# Set up Slack notifications for QA workflow
+# → Bug reported → Slack: "New critical bug in Auth, assigned to Tester 1"
+# → Dev starts work → Slack: "JIRA-457 moved to In Dev"
+# → Dev deploys → Slack: "JIRA-457 ready for verification by Tester 3"
+# → Tester verifies → Slack: "JIRA-457 marked verified, resolving"
+
+# Configure in Jira via Slack integration or Zapier
+```
+
+## Handling Edge Cases in QA
+
+Remote teams face specific challenges:
+
+**Environment Mismatches**: Testers in different locations see different bugs due to CDN, regional blocking, time zone artifacts:
+- Solution: Document test environment for each tester (region, VPN status, etc.)
+- Rotate testers across regions monthly to catch regional issues
+
+**Device/Browser Coverage**: With 7 testers, you can't test all combinations:
+- Solution: Assign device specialization (Tester 6 owns all mobile, another owns Safari only)
+- Use remote device labs (BrowserStack) for expensive combinations
+
+**Flaky Tests**: Some bugs are timing-sensitive and don't reproduce reliably:
+- Solution: Document reproduction difficulty honestly ("Flaky—reproduced 4/10 times")
+- Mark as "Needs Investigation" rather than closing prematurely
+
+**Regression Tracking**: After a fix, did we introduce new bugs?
+- Solution: Create regression test suite (manual checklist)
+- Run regression suite after every major deployment
+- Track regression bugs separately (label: "regression")
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

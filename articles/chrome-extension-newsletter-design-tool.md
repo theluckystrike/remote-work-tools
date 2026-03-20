@@ -126,6 +126,226 @@ Experienced developers still make these errors when designing for email:
 - Neglecting plain text versions: Always include a plain-text fallback. Some recipients prefer text-only emails, and spam filters appreciate the effort.
 - Ignoring dark mode: Email clients increasingly support dark mode, which can invert colors unexpectedly. Test your designs in both light and dark contexts.
 
+## Email Client Compatibility Matrix
+
+Understanding which features work in which clients saves debugging time:
+
+| Feature | Gmail | Outlook | Apple Mail | Yahoo | Gmail Mobile |
+|---------|-------|---------|-----------|-------|--------------|
+| CSS in `<style>` | No | No | No | No | No |
+| Inline CSS | Yes | Yes | Yes | Yes | Yes |
+| HTML tables | Yes | Yes | Yes | Yes | Yes |
+| Flexbox | Limited | No | No | No | No |
+| Background images | No | No | Yes | No | Limited |
+| Hover effects | No | No | Limited | No | No |
+| Media queries | Limited | No | Limited | No | Limited |
+| Multiple columns | Table-only | Table-only | Limited | Table-only | Table-only |
+
+The pattern is clear: use HTML tables with inline CSS, and you're safe across all clients.
+
+## Complete Newsletter Design Workflow with Tools
+
+Here's a realistic end-to-end workflow combining multiple extensions:
+
+### Step 1: Write HTML with Styles
+Use VS Code with an InlineStyle linter:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .container { max-width: 600px; }
+    .header { background-color: #2c3e50; color: white; padding: 20px; }
+    a { color: #3498db; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <table role="presentation" width="100%">
+    <tr>
+      <td class="header">
+        <h1>Your Newsletter</h1>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 20px;">
+        <p>Your content here</p>
+        <a href="https://example.com">Call to Action</a>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+```
+
+### Step 2: Inline All Styles
+Use the Inliner extension or Premailer:
+
+```bash
+# Via CLI for automation
+npm install -g premailer
+premailer template.html > template-inlined.html
+```
+
+### Step 3: Test Across Clients
+Use Email on Acid or similar to generate previews:
+
+```bash
+# Command-line testing (via Email on Acid API)
+curl -X POST https://api.emailonacid.com/api/email/test \
+  -H "Authorization: Bearer YOUR_API_KEY" \
+  -F "file=@template-inlined.html" \
+  -F "test_name=Newsletter_Jan2026"
+```
+
+### Step 4: Validate HTML
+Use a validator to catch common errors:
+
+```bash
+# Validate email HTML
+npm install -g email-validator
+email-validator validate template-inlined.html
+```
+
+### Step 5: Deploy
+Copy the inlined HTML to your email marketing platform.
+
+## Dark Mode Handling Strategies
+
+Email clients increasingly support dark mode. Here's how to design for both:
+
+```html
+<!-- Basic dark mode support with media queries (limited support) -->
+<style>
+  .container { background: white; color: black; }
+
+  @media (prefers-color-scheme: dark) {
+    .container { background: #1a1a1a; color: #f0f0f0; }
+  }
+</style>
+
+<!-- More reliable: Use background colors that work in both themes -->
+<style>
+  .text { color: #333; } /* Dark enough on white, visible on dark */
+  .link { color: #0066cc; } /* Works on both light and dark backgrounds -->
+  .accent { background: #f5f5f5; } /* Light gray, visible in both themes -->
+</style>
+```
+
+### Testing Dark Mode Rendering
+Test in each client's dark mode settings:
+
+```bash
+# Gmail dark mode test
+# 1. Enable dark mode: Settings > Display > Dark theme
+# 2. Check how colors render
+# 3. Note any CSS that applies unexpectedly
+
+# Apple Mail dark mode
+# 1. System Preferences > General > Appearance > Dark
+# 2. Open email and compare appearance
+# 3. Verify text contrast meets WCAG AA standards
+```
+
+## Building a Reusable Template Library
+
+Store commonly-used components in a version-controlled template repository:
+
+```bash
+# Directory structure for template library
+templates/
+├── base-template.html
+├── components/
+│   ├── header.html
+│   ├── cta-button.html
+│   ├── footer.html
+│   └── testimonial-block.html
+├── styles/
+│   ├── colors.css
+│   ├── typography.css
+│   └── spacing.css
+└── README.md
+```
+
+### Template Example: Reusable CTA Button
+
+```html
+<!-- Store this in components/cta-button.html -->
+<table role="presentation" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td align="center" style="border-radius: 4px; background-color: {{button_color}};">
+      <a href="{{button_url}}" style="
+        font-size: 16px;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 12px 24px;
+        display: inline-block;
+        border-radius: 4px;
+        background-color: {{button_color}};
+      ">
+        {{button_text}}
+      </a>
+    </td>
+  </tr>
+</table>
+```
+
+Use template variables for dynamic content, then substitute during build:
+
+```bash
+#!/bin/bash
+# Replace template variables before sending
+sed "s/{{button_color}}/#007bff/g" template.html | \
+  sed "s/{{button_url}}/https:\/\/example.com/g" | \
+  sed "s/{{button_text}}/Learn More/g" > final-newsletter.html
+```
+
+## Spam Filter Optimization
+
+Email providers scrutinize newsletters for spam signals. Optimize your design:
+
+```html
+<!-- 1. Include SPF, DKIM, DMARC headers (handled by your email provider) -->
+
+<!-- 2. Use good list-unsubscribe practices -->
+<p style="text-align: center; font-size: 12px; color: #999;">
+  <a href="{{ unsubscribe_url }}" style="color: #999;">Unsubscribe</a> |
+  <a href="{{ manage_preferences_url }}" style="color: #999;">Manage Preferences</a>
+</p>
+
+<!-- 3. Balance image-to-text ratio (aim for 30%+ text) -->
+<!-- 4. Avoid spam trigger words: "Buy now", "FREE", "Urgent", "Limited time" -->
+<!-- 5. Include clear sender information -->
+<div style="font-size: 12px; color: #666;">
+  MyCompany, Inc.
+  123 Main Street
+  New York, NY 10001
+</div>
+```
+
+Check your newsletter's spam score using a tool:
+
+```bash
+# Test email for spam signals
+# Services: MXToolbox, CheckTLS, or your email provider's testing tool
+# Look for: Authentication failures, URL flagging, content warnings
+```
+
+## Performance Metrics for Newsletters
+
+Track these metrics to optimize designs:
+
+- **Open rate**: Should be 15-25% for industry-specific newsletters
+- **Click-through rate**: 2-5% indicates good engagement
+- **Bounce rate**: Should be <5%; higher suggests rendering issues
+- **Complaint rate**: <0.1%; high rate indicates spam filter problems
+- **List growth**: Track unsubscribes vs new signups
+
+Monitor these via your email provider's analytics dashboard and adjust design elements accordingly.
+
 ## Related Reading
 
 - [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)

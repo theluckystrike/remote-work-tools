@@ -124,6 +124,177 @@ Portugal follows EU regulations, meaning no roaming charges apply within the Eur
 
 Non-EU residents should note that Portuguese SIM cards require registration with a valid ID. Tourist SIM cards from carriers like Vodafone bypass this requirement but have less favorable terms. If you plan to stay longer than 90 days, obtaining a NIF (Portuguese tax number) significantly expands your options and typically lowers prices.
 
+## Speed and Network Technology Comparison
+
+5G availability and speeds vary significantly by location and carrier:
+
+| Carrier | 5G Coverage | Download Speed (5G) | Download Speed (4G LTE) | Typical Latency |
+|---------|-------------|-------------------|----------------------|-----------------|
+| NOS | 90% (urban) | 300-600 Mbps | 50-100 Mbps | 20-40ms |
+| Vodafone | 85% (urban) | 250-500 Mbps | 40-80 Mbps | 25-45ms |
+| MEO | 70% (urban) | 200-400 Mbps | 30-60 Mbps | 30-50ms |
+
+For developers, these speeds matter. Video conferences require stable 5-10 Mbps. Git operations scale linearly—larger repositories benefit from higher bandwidth. NOS's 5G coverage means faster deployments in Lisbon and Porto.
+
+## Activation and Account Management Tips
+
+### Getting Your Portuguese Phone Number
+
+The process differs based on your residency status:
+
+**Tourist/Short-term (Days 1-90)**:
+1. Visit any Vodafone store (no ID usually required for prepaid)
+2. Purchase starter pack (~€5-10)
+3. Activate immediately in-store
+4. Receive Portuguese number
+
+**Long-term (90+ days)**:
+1. Obtain NIF (Tax ID) from Finanças office
+   - Bring: Passport, proof of address (rental contract), completed form 11 or 14
+   - Wait: 5-10 business days
+2. With NIF, register for postpaid plans at carrier office
+3. Get better rates and more plan options
+
+### Managing Multiple Plans
+
+Remote workers often maintain multiple phone numbers:
+
+```bash
+# Example: Using multiple SIM cards on modern phones
+# iPhone: Settings > Cellular > Add Cellular Plan (eSIM)
+# Dual SIM phones (Samsung Galaxy S24, etc.):
+#   - Physical SIM: Primary daily use plan
+#   - eSIM: Backup or second carrier
+
+# Pro workflow:
+#   - SIM 1 (NOS): Primary with 30GB (€20)
+#   - eSIM 2 (Holafly): Backup unlimited (€19/month)
+#   - Cost: €39, covers almost any scenario
+```
+
+## Backup Connectivity Strategies
+
+Relying on a single carrier creates risk. Developers should have contingency plans:
+
+**Two-Carrier Approach**:
+- Primary: NOS or Vodafone (best coverage)
+- Backup: Holafly eSIM (£/€/$ per month, no local commitment)
+- Cost: ~€35-40/month for redundancy
+- Benefit: If primary fails, switch instantly without visiting store
+
+**WiFi Calling Integration**:
+Most carriers support WiFi calling—your phone routes calls/texts through WiFi instead of cellular:
+
+```bash
+# Activate WiFi calling on iOS
+# Settings > Cellular > WiFi Calling > Toggle On
+# Now calls/texts work even without cellular signal
+
+# Works across borders—useful when traveling between Portugal and Spain
+# Counts as domestic call/text for billing purposes
+```
+
+## Troubleshooting Common Issues
+
+### Poor Signal in Specific Locations
+
+```bash
+# Diagnose signal strength
+# iOS: Open Field Test Mode
+# Dial: *3001#12345#*
+# Press Call - shows signal strength bars and tower info
+
+# Android: Open Network Info
+# Settings > About > Network > Signal Strength
+# Values: -51 to -120 (closer to 0 = stronger)
+# Acceptable: -85 to -100
+# Poor: -120 or worse
+
+# If consistently poor in one location:
+# 1. Try different carrier (borrow friend's SIM)
+# 2. Change device position (move away from building edge)
+# 3. Request tower upgrade from carrier
+```
+
+### Data Stops Working Mid-Plan
+
+```bash
+# Check balance and remaining data
+# NOS: Dial *150# or use app
+# Vodafone: Dial *122# or app
+# MEO: Dial *120# or app
+
+# Common causes and fixes:
+# 1. Fair use threshold hit
+#    - Contact support, request upgrade
+# 2. Account suspended for non-payment
+#    - Check payment history, add payment method
+# 3. Roaming settings disabled
+#    - Settings > Cellular > Roaming > Toggle ON
+# 4. APN settings corrupted
+#    - Reset network settings completely
+```
+
+### VPN and Tethering Performance
+
+```bash
+# Test speeds with tethering enabled
+# macOS terminal command
+iperf3 -c your-server -P 4 -R -t 30
+
+# Expected when tethering:
+# - Speed reduction: 20-40% normal
+# - Latency increase: 10-20ms additional
+# - If more degradation, try:
+#   1. Closer phone-to-device distance
+#   2. Different WiFi frequency (5GHz if available)
+#   3. Reduce number of connected devices
+
+# VPN + tethering = compounded overhead
+# Minimize by using split tunneling or VPN only when needed
+```
+
+## Seasonal Considerations
+
+Portugal's tourism seasons affect network congestion:
+
+**High Season (June-September)**:
+- Expect 20-30% speed reduction in tourist areas
+- Data limits fill faster if near threshold
+- Plan larger plans (30GB minimum) during peak summer
+- Test download times during off-hours for reliability
+
+**Low Season (November-March)**:
+- Excellent speeds and reliability
+- Good time to test new carriers
+- Tighten data usage habits—fewer backup plans needed
+
+## Cost Optimization Over 6-12 Months
+
+Calculate the optimal plan tier for your actual usage:
+
+```python
+# Monthly data usage tracker
+import csv
+from datetime import datetime
+
+# Log weekly usage for 4 weeks
+weekly_usage = [3.2, 2.8, 4.1, 3.5]  # GB per week
+total = sum(weekly_usage)
+average = total / len(weekly_usage)
+peak = max(weekly_usage)
+
+# Calculate optimal plan
+target = peak * 1.3  # 30% buffer over peak week
+print(f"Average: {average:.1f}GB/week = {average*4:.1f}GB/month")
+print(f"Peak: {peak:.1f}GB/week")
+print(f"Recommended plan: {target*4:.0f}GB/month")
+
+# Avoid overage costs while preventing unused data
+```
+
+For developers averaging 15GB/month, a 20GB plan costs €15 with buffer for occasional peaks. Jumping to 30GB (+€5) might be wasteful—stick with 20GB and buy supplemental packs on high-usage months.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
