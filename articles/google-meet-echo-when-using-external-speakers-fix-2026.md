@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /google-meet-echo-when-using-external-speakers-fix-2026/
 categories: [guides]
-tags: [google-meet, echo-fix, audio-troubleshooting, remote-work, video-conferencing]
+tags: [remote-work-tools, google-meet, echo-fix, audio-troubleshooting, remote-work, video-conferencing, troubleshooting]
 reviewed: true
 score: 8
 intent-checked: true
