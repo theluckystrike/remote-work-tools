@@ -30,11 +30,73 @@ Beyond convenience, a knowledge base signals professionalism. When clients see d
 
 The right platform depends on your agency's technical comfort level, budget, and integration needs. Three categories work well for remote agencies: all-in-one tools, dedicated documentation platforms, and custom-built solutions.
 
-**All-in-one tools** like Notion, ClickUp Docs, or Coda offer the fastest setup. These platforms combine documentation with project management, letting clients access both your knowledge base and active project spaces in one location. Notion's sharing permissions let you create separate workspaces for each client while maintaining a central agency handbook. ClickUp Docs integrates directly with your project boards, so documentation stays connected to active work. The tradeoff is some flexibility—you're constrained by each platform's structure and may face higher costs as your client roster grows.
+**All-in-one Tools Comparison:**
 
-**Dedicated documentation platforms** like GitBook, ReadMe, or Confluence provide more sophisticated features. GitBook shines for agencies with technical clients who appreciate API documentation-style layouts. Its version control integration appeals to teams already using Git workflows. ReadMe focuses on interactive documentation with feedback loops, letting clients request clarifications directly within articles. Confluence works well for larger agencies but carries enterprise pricing that may exceed smaller agency budgets.
+| Tool | Price | Best For | Setup Time | Key Features |
+|------|-------|----------|------------|--------------|
+| Notion | Free - $100/user | Small agencies, flexible | 1-2 days | Flexible structure, per-client workspaces |
+| ClickUp Docs | $5-19/month | Project-centric agencies | 2-3 days | Integrated with projects, timeline view |
+| Coda | $10-50/team/month | Collaborative, formula-driven | 1-2 days | Interactive docs, databases, powerful |
 
-**Custom-built solutions** using static site generators like Docusaurus, Hugo, or 11ty offer maximum control. You design every aspect of the experience, integrate with any third-party service, and host anywhere. The tradeoff is development time—you're building and maintaining the platform rather than using a managed service. For agencies with development capacity, this approach can become a differentiator, especially if you specialize in building web applications.
+**Notion**: Offer the fastest setup. These platforms combine documentation with project management, letting clients access both your knowledge base and active project spaces in one location. Notion's sharing permissions let you create separate workspaces for each client while maintaining a central agency handbook. Pricing scales as client count grows ($100/user/month for unlimited guests can add up with many clients).
+
+Implementation example:
+```
+Main Workspace: Agency handbook (shared link)
+Client A Workspace: Project-specific docs + active projects
+Client B Workspace: Project-specific docs + active projects
+Permissions: Restrict client visibility to their workspace only
+```
+
+**ClickUp Docs**: Integrates directly with your project boards, so documentation stays connected to active work. Good for agencies where documentation needs to reference specific tasks. Tradeoff is less flexibility in documentation structure compared to Notion.
+
+**Coda**: Powerful for interactive documentation (embedding live data, forms, calculations). Pricing is reasonable, but database features may be overkill for simple knowledge bases.
+
+**Dedicated Documentation Platforms:**
+
+| Platform | Price | Best For | Setup Time | Key Feature |
+|----------|-------|----------|------------|------------|
+| GitBook | Free - $100/month | Technical audiences | 2-4 days | Version control, API docs style |
+| ReadMe | $100-500/month | Interactive documentation | 2-3 days | Feedback loops, integrations |
+| Confluence | $80-1200/month | Large agencies | 3-5 days | Enterprise features, permissions |
+
+**GitBook**: Shines for agencies with technical clients who appreciate API documentation-style layouts. Its version control integration appeals to teams already using Git workflows. Setup involves connecting to a Git repository, which adds complexity for non-technical users.
+
+Use case: Technical SaaS companies love GitBook documentation. If your clients are developers, this is ideal.
+
+**ReadMe**: Focuses on interactive documentation with feedback loops, letting clients request clarifications directly within articles. Built-in analytics show which docs are most/least used. Good for agencies that want to optimize documentation based on usage data.
+
+Pricing is higher but includes robust support. Good for agencies with 50+ clients who need professional documentation infrastructure.
+
+**Confluence**: Works well for larger agencies but carries enterprise pricing ($80-1200/month depending on users). Overkill for most smaller agencies unless you have 20+ team members collaborating on documentation.
+
+**Custom-Built Solutions:**
+
+Platforms like Docusaurus, Hugo, or 11ty offer maximum control.
+
+Pros:
+- Design every aspect of the experience
+- Integrate with any third-party service
+- Host anywhere (cheap hosting options available)
+- Scalable indefinitely without per-user costs
+
+Cons:
+- Development time required (40-80 hours initial setup)
+- Ongoing maintenance responsibility
+- Requires technical team member's involvement
+
+Best for agencies with:
+- Developer on staff
+- 30+ clients (amortizes development cost)
+- Specific branding/integration requirements
+- Long-term knowledge base investment
+
+**Platform Recommendation by Agency Size:**
+
+Freelance/Solo: Notion (free, flexible, sufficient)
+1-5 person agency: Notion or ClickUp Docs ($50-100/month)
+5-15 person agency: GitBook or custom solution ($100-500/month or one-time dev cost)
+15+ person agency: ReadMe or Confluence ($500+/month)
 
 ## Structuring Your Knowledge Base Content
 
@@ -52,29 +114,148 @@ Organization makes or breaks a knowledge base. A disorganized collection of link
 
 Building a knowledge base works best as an incremental project rather than a massive launch. Follow these phases to create something useful quickly while avoiding overwhelm.
 
-### Phase 1: Audit Existing Communications
+### Phase 1: Audit Existing Communications (3-5 days)
 
-Before writing anything, review what you're already explaining repeatedly. Search your Slack, email, and project management tools for questions that come up repeatedly. Look for onboarding emails you send to new clients, explanation messages about your process, and responses to common concerns. This audit reveals exactly what content your knowledge base needs.
+Before writing anything, review what you're already explaining repeatedly. Search your Slack, email, and project management tools for questions that come up repeatedly. Look for onboarding emails you send to new clients, explanation messages about your process, and responses to common concerns.
 
 Create a simple list ranking these topics by frequency. The top ten questions or explanations become your priority content. You don't need documentation immediately—start with the materials that immediately reduce client support burden.
+**Audit Process:**
 
-### Phase 2: Choose and Configure Your Platform
+1. Search your email for common keywords:
+   - "How do I...?"
+   - "Can you explain...?"
+   - "What's the process for...?"
+   - "Where do I find...?"
 
-Select your platform based on the criteria that matter most for your agency. If speed to launch matters, start with Notion or ClickUp Docs and customize their templates. If you need advanced features or plan to scale significantly, invest in GitBook or build a custom solution.
+2. Review Slack history for repeated questions
+3. Check your project management tool for common request types
+4. Compile into a spreadsheet with columns: Question, Frequency, Time to Answer
+
+Example audit results:
+```
+Question: "How do I submit feedback on drafts?" - Frequency: 3x/week - Time: 5 min
+Question: "What's your revision policy?" - Frequency: 5x/month - Time: 3 min
+Question: "Where are my login credentials?" - Frequency: 10x/month - Time: 2 min
+Question: "How long does a project usually take?" - Frequency: 2x/month - Time: 8 min
+```
+
+Create a simple list ranking topics by frequency × time to answer. This identifies highest-ROI documentation.
+
+**Target:** Top 10-15 questions that collectively save 10+ hours monthly across your team.
+
+### Phase 2: Choose and Configure Your Platform (2-3 days)
+
+Select your platform based on the criteria that matter most for your agency. If speed to launch matters, start with Notion or ClickUp Docs and customize their templates. If you need advanced features or plan to scale significantly, invest in GitBook.
+
+**Platform Setup Checklist:**
+
+For Notion:
+```
+[ ] Create main workspace
+[ ] Create "Shared" section (all clients see)
+[ ] Create template for "Client Workspace" (duplicate per client)
+[ ] Set sharing permissions (all clients can access shared, only their workspace)
+[ ] Create navigation page linking to key sections
+[ ] Set up basic styling/branding (logo, colors match your site)
+```
+
+For GitBook:
+```
+[ ] Create organization account
+[ ] Create primary space for agency handbook
+[ ] Set up Git repository connection
+[ ] Configure custom domain if desired
+[ ] Set up access permissions (public or private)
+[ ] Create basic navigation structure
+```
 
 Configure basic organization before adding content. Create the sections you identified in your audit, set up navigation that makes sense, and establish permissions. Decide whether clients need individual workspaces or can access a shared base. Test the experience yourself—can you find information easily? Does the navigation make sense? Fix problems before inviting clients.
 
-### Phase 3: Write Core Content
+### Phase 3: Write Core Content (1-2 weeks)
 
-Begin with your onboarding section and most-frequently-asked topics. Write clearly and concisely—clients need actionable information, not marketing language. Use headings that match client questions, include screenshots or videos for visual processes, and provide specific next steps rather than vague guidance.
+Begin with your onboarding section and most-frequently-asked topics. Write clearly and concisely—clients need actionable information, not marketing language.
+
+**Content Template (Use for every article):**
+
+```
+# Article Title (match a client question)
+
+TLDR: One-sentence summary of what clients will learn
+
+## When to Use This
+Brief explanation of what situation requires this knowledge.
+
+## Step-by-Step Instructions
+1. First step (be specific)
+2. Second step (include any tools/buttons to click)
+3. Next step (visual description if there's a UI involved)
+4. Final step (what success looks like)
+
+## Screenshots/Video
+[Include images here with arrows/highlights]
+
+## Common Issues
+Q: What if X happens?
+A: Do Y
+
+## Next Steps
+Link to related documentation or next logical action.
+
+## Questions?
+Contact [your email or support portal link]
+```
 
 Keep each article focused on a single topic. Clients searching for "how to submit feedback" shouldn't scroll through unrelated information about billing. Cross-link related articles when appropriate, but maintain clear boundaries between topics.
 
-### Phase 4: Launch and Iterate
+**Writing Tips for Client Documentation:**
+
+- Use "you/your" language (addresses client directly)
+- Include actual screenshots with cursor/highlight (shows exactly what to do)
+- Avoid jargon (if you must use it, define it first)
+- Keep articles to 300-500 words (longer = client frustration)
+- Use numbered lists for procedures, bullets for features
+- Include actual timelines ("this takes 2-3 business days", not "soon")
+
+### Phase 4: Launch and Iterate (Ongoing)
 
 Invite a few trusted clients to use the knowledge base and provide feedback. Watch which articles they access most, where they get stuck, and what questions remain unanswered. This real usage data guides your iteration priorities.
 
-Establish a maintenance routine. Schedule monthly reviews to update outdated content, add new articles based on emerging questions, and remove materials that prove unhelpful. A knowledge base that stagnates loses value quickly—clients stop checking when they expect outdated information.
+**Launch Email Template:**
+
+```
+Subject: New Knowledge Base Available for Your Project
+
+Hi [Client Name],
+
+We've created a client knowledge base to help you find answers
+to common questions without waiting for us to respond.
+
+Access it here: [link]
+
+The base includes:
+- How to submit feedback and revisions
+- Our revision policy and timelines
+- Your project timeline and milestones
+- Troubleshooting common issues
+
+We're still building this out, so if something you need isn't
+there yet, please let us know. Your feedback helps us make it
+more useful.
+
+Best,
+[Your Name]
+```
+
+**Maintenance Routine (Monthly):**
+
+Schedule 2-3 hours monthly for:
+- Review page view analytics (most/least accessed docs)
+- Update outdated information
+- Add articles for new questions that came up
+- Remove or consolidate articles that duplicate others
+- Check for broken links or outdated screenshots
+
+A knowledge base that stagnates loses value quickly—clients stop checking when they expect outdated information. Monthly maintenance is minimal effort with high ROI.
 
 ## Best Practices for Remote Agency Knowledge Bases
 
