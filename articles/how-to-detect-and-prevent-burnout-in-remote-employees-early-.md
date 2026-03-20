@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/
 categories: [guides]
-tags: [remote-work, burnout, mental-health, team-management]
+tags: [remote-work-tools, remote-work, burnout, mental-health, team-management]
 reviewed: true
 score: 8
 intent-checked: true

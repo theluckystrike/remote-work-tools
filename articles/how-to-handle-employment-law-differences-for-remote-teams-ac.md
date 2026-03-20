@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-employment-law-differences-for-remote-teams-ac/
 categories: [guides]
-tags: [employment-law, remote-work, eu-compliance, hr, payroll, legal]
+tags: [remote-work-tools, employment-law, remote-work, eu-compliance, hr, payroll, legal]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

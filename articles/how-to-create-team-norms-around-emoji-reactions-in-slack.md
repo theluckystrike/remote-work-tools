@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-team-norms-around-emoji-reactions-in-slack/
 categories: [guides]
-tags: [slack, emoji-reactions, team-culture, communication-norms, remote-work]
+tags: [remote-work-tools, slack, emoji-reactions, team-culture, communication-norms, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

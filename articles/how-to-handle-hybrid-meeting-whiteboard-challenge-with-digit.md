@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/
 categories: [guides]
-tags: [hybrid-work, meetings, collaboration, remote-work, whiteboard, video-conferencing]
+tags: [remote-work-tools, hybrid-work, meetings, collaboration, remote-work, whiteboard, video-conferencing]
 reviewed: true
 score: 8
 intent-checked: true

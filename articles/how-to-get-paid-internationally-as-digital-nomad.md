@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-paid-internationally-as-digital-nomad/
 categories: [guides]
-tags: [digital-nomad, remote-work, payments, finance, international]
+tags: [remote-work-tools, digital-nomad, remote-work, payments, finance, international]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-emergency-client-communication-for-remote-agen/
 categories: [guides]
-tags: [client-communication, emergency, remote-work, agency, crisis-management]
+tags: [remote-work-tools, client-communication, emergency, remote-work, agency, crisis-management]
 reviewed: true
 score: 8
 intent-checked: true

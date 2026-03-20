@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-confidential-client-data-on-remote-team-device/
 categories: [guides]
-tags: [security, remote-work, data-protection]
+tags: [remote-work-tools, security, remote-work, data-protection]
 reviewed: true
 score: 8
 intent-checked: true

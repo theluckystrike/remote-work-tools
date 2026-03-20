@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-team-agreements-around-meeting-free-focus-time/
 categories: [guides]
-tags: [remote-work, productivity, team-culture]
+tags: [remote-work-tools, remote-work, productivity, team-culture]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/
 categories: [guides]
-tags: [ergonomics, workspace, remote-work, home-office]
+tags: [remote-work-tools, ergonomics, workspace, remote-work, home-office]
 reviewed: true
 score: 8
 intent-checked: true

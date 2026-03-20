@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-give-constructive-feedback-asynchronously-without-mis/
 categories: [guides]
-tags: [communication, async-work, feedback, remote-work]
+tags: [remote-work-tools, communication, async-work, feedback, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

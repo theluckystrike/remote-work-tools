@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-recurring-clients-as-freelance-developer/
 categories: [guides]
-tags: [freelance, career, business-development, client-retention]
+tags: [remote-work-tools, freelance, career, business-development, client-retention]
 reviewed: true
 score: 8
 intent-checked: true

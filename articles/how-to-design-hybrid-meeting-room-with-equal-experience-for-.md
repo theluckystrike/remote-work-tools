@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/
 categories: [guides]
-tags: [hybrid-meeting, remote-work, AV-setup, meeting-room, video-conferencing]
+tags: [remote-work-tools, hybrid-meeting, remote-work, AV-setup, meeting-room, video-conferencing]
 reviewed: true
 score: 8
 voice-checked: true

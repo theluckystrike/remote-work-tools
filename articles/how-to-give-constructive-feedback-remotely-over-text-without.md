@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-give-constructive-feedback-remotely-over-text-without/
 categories: [guides]
-tags: [remote-work, feedback, communication, soft-skills, async]
+tags: [remote-work-tools, remote-work, feedback, communication, soft-skills, async]
 reviewed: true
 score: 8
 intent-checked: true

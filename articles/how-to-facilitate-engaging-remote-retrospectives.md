@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-facilitate-engaging-remote-retrospectives/
 categories: [guides]
-tags: [remote-work, retrospectives, agile, team-building]
+tags: [remote-work-tools, remote-work, retrospectives, agile, team-building]
 reviewed: true
 score: 8
 intent-checked: true

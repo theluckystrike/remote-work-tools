@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-health-insurance-as-digital-nomad-working-from/
 categories: [guides]
-tags: [thailand, digital-nomad, health-insurance, remote-work, expat-living]
+tags: [remote-work-tools, thailand, digital-nomad, health-insurance, remote-work, expat-living]
 reviewed: true
 score: 8
 intent-checked: true

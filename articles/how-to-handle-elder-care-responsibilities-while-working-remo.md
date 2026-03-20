@@ -10,7 +10,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 ---
 
 

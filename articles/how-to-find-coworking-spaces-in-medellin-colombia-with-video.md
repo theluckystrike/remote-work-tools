@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-find-coworking-spaces-in-medellin-colombia-with-video/
 categories: [guides]
-tags: [coworking, medellin, remote-work, colombia, video-calls]
+tags: [remote-work-tools, coworking, medellin, remote-work, colombia, video-calls]
 reviewed: true
 score: 8
 intent-checked: true
