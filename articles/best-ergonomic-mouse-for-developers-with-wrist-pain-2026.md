@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /best-ergonomic-mouse-for-developers-with-wrist-pain-2026/
 categories: [guides]
-tags: [remote-work-tools, ergonomics]
+tags: [remote-work-tools, ergonomics, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

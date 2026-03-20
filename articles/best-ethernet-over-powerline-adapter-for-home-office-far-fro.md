@@ -8,7 +8,7 @@ permalink: /best-ethernet-over-powerline-adapter-for-home-office-far-fro/
 categories: [guides]
 tags: [remote-work-tools, networking, powerline-adapter, home-office, ethernet, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
