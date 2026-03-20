@@ -293,6 +293,132 @@ describe('Idempotent Order Creation', () => {
 ```
 
 
+
+
+## Idempotency in Distributed Systems and Microservices
+
+In microservice architectures, a single user-facing operation often triggers multiple internal service calls. Idempotency must be implemented at each service boundary, not just at the entry point.
+
+Consider a payment flow that calls three internal services: billing, inventory, and notifications. If the payment service receives a duplicate request, all three downstream services should also receive the same idempotency key to prevent double-billing, double-inventory-deduction, and duplicate notification emails.
+
+Pass idempotency keys through service boundaries explicitly:
+
+```javascript
+// payment-service/handlers/processPayment.js
+async function processPayment(idempotencyKey, paymentData) {
+  // Each downstream call uses the same idempotency key
+  const billingResult = await billingService.charge({
+    idempotencyKey: `billing:${idempotencyKey}`,
+    ...paymentData
+  });
+
+  const inventoryResult = await inventoryService.reserve({
+    idempotencyKey: `inventory:${idempotencyKey}`,
+    ...paymentData
+  });
+
+  const notificationResult = await notificationService.send({
+    idempotencyKey: `notification:${idempotencyKey}`,
+    email: paymentData.customerEmail,
+    template: 'payment_confirmed'
+  });
+
+  return { billing: billingResult, inventory: inventoryResult };
+}
+```
+
+Prefix the key at each service layer (`billing:`, `inventory:`) to prevent key collisions across service namespaces. Each service independently checks and stores the prefixed key in its own idempotency store.
+
+
+## Choosing Your Idempotency Storage Backend
+
+The in-memory Map used in the examples above works for single-server deployments but breaks in horizontally scaled systems. Production implementations need a shared storage backend:
+
+**Redis** is the standard choice for idempotency key storage. It supports atomic operations, built-in TTL, and handles high throughput:
+
+```javascript
+const redis = require('redis');
+const client = redis.createClient({ url: process.env.REDIS_URL });
+
+class RedisIdempotencyStore {
+  constructor(ttlSeconds = 86400) {  // 24 hours default
+    this.ttlSeconds = ttlSeconds;
+  }
+
+  async get(key) {
+    const value = await client.get(`idempotent:${key}`);
+    return value ? JSON.parse(value) : null;
+  }
+
+  async setIfAbsent(key, value) {
+    // NX option: only set if key doesn't exist (atomic)
+    const result = await client.set(
+      `idempotent:${key}`,
+      JSON.stringify(value),
+      { NX: true, EX: this.ttlSeconds }
+    );
+    return result === 'OK'; // true = key was set (new), false = key existed
+  }
+}
+```
+
+The `NX` (Not eXists) option makes the Redis SET atomic — it either sets the key if absent and returns `OK`, or returns `null` if the key already existed. This eliminates the race condition where two concurrent duplicate requests both see the key as absent and both create the resource.
+
+**PostgreSQL** works when you are already using it and want to avoid adding Redis:
+
+```sql
+-- idempotent_requests table
+CREATE TABLE idempotent_requests (
+  key VARCHAR(255) PRIMARY KEY,
+  request_hash VARCHAR(64) NOT NULL,
+  response JSONB NOT NULL,
+  created_at TIMESTAMPTZ DEFAULT NOW(),
+  expires_at TIMESTAMPTZ NOT NULL
+);
+
+-- Automatic cleanup of expired keys
+CREATE INDEX idx_idempotent_expires_at ON idempotent_requests (expires_at);
+```
+
+Use PostgreSQL's `INSERT ... ON CONFLICT DO NOTHING` for atomic upsert behavior similar to Redis NX.
+
+
+## Idempotency Key Generation on the Client
+
+Client-side key generation strategies significantly affect your system's safety properties. Poorly generated keys cause either unintended duplicates (too short, possible collision) or unnecessary uniqueness (new key per retry, defeating the purpose).
+
+The best strategy: generate the key when the user initiates an action, not when the request is sent. Store the key in memory for the duration of the operation. Only generate a new key if the user explicitly starts a new transaction:
+
+```javascript
+class PaymentForm {
+  constructor() {
+    // Key generated once when form is loaded
+    this.idempotencyKey = crypto.randomUUID();
+  }
+
+  async submitPayment(paymentData) {
+    // All retries use the same key
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        return await apiClient.post('/payments', paymentData, {
+          headers: { 'Idempotency-Key': this.idempotencyKey }
+        });
+      } catch (error) {
+        if (!isRetryable(error) || attempt === 2) throw error;
+        await sleep(Math.pow(2, attempt) * 1000);
+      }
+    }
+  }
+
+  resetForm() {
+    // Only regenerate key when user explicitly cancels and starts over
+    this.idempotencyKey = crypto.randomUUID();
+  }
+}
+```
+
+This pattern ensures that button-spam and network retries all use the same idempotency key, while explicit user actions (clicking "cancel" and starting over) generate a fresh key.
+
 ## Related Reading
 
 - [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
