@@ -93,6 +93,90 @@ Positioning matters significantly. Avoid plugging adapters into:
 - outlets near major appliances
 - GFCI outlets in kitchens or bathrooms (these may have filtering)
 
+## Product Recommendations by Tier
+
+### Premium Powerline Setup ($150-200)
+**TP-Link Archer PE400** (2400 Mbps)
+- Highest speed rating available
+- Excellent real-world throughput (400-600 Mbps measured)
+- Built-in WiFi extender option
+- Two gigabit ethernet ports
+- Price: $180-200 per pair
+- Best for: Developers requiring maximum reliability and speed
+
+### Mid-Range Setup ($80-120)
+**TP-Link PA9020P** (1200 Mbps)
+- Reliable 1200 Mbps standard
+- Pass-through power outlet
+- Gigabit ethernet ports
+- Good build quality
+- Price: $100-130 per pair
+- Best for: Most remote workers seeking balanced value
+
+**D-Link DHP-W611AV** (500 Mbps with WiFi)
+- WiFi extender functionality built-in
+- Works as both wired and wireless solution
+- More affordable alternative for those wanting both options
+- Price: $60-80
+- Best for: Those seeking WiFi and wired flexibility
+
+### Budget Setup ($40-70)
+**TP-Link PA7010** (1000 Mbps)
+- Older generation but reliable
+- Lower cost than 1200 Mbps models
+- Basic feature set
+- Adequate for most remote work tasks
+- Price: $50-70 per pair
+- Best for: Budget-conscious setups where maximum speed isn't critical
+
+## Speed and Reliability Testing
+
+Before committing to a powerline setup, verify actual performance:
+
+**In-network testing** (safe, recommended):
+- Install adapters in target locations
+- Use `iperf3` to measure throughput between devices
+- Test during different times of day (appliances affect performance)
+- Expected results: 30-60% of rated speed under normal conditions
+
+```bash
+# Install iperf3
+brew install iperf3  # macOS
+apt install iperf3   # Linux
+
+# On server machine:
+iperf3 -s
+
+# On client machine:
+iperf3 -c [server-ip] -t 30
+```
+
+**Latency testing** (important for video calls):
+```bash
+# Ping the device behind powerline adapter
+ping -c 100 [ip-address]
+# Look for latency under 10ms and consistent values
+```
+
+Normal powerline latency: 5-20ms (acceptable for remote work)
+Poor powerline installation: 50-100ms (problematic for real-time work)
+
+If testing reveals poor performance, try different outlet pairs before abandoning powerline entirely.
+
+## Troubleshooting Common Issues
+
+**Adapters won't pair**: Verify both adapters are on the same electrical circuit. In older homes with separate panels, try running a longer ethernet cable to a central location instead.
+
+**Slow actual speeds** (below 100 Mbps):
+1. Move adapters to different outlets (test each pair)
+2. Remove any surge protectors or extension cords
+3. Plug directly into wall outlets, avoid power strips
+4. Update firmware to latest version
+
+**Intermittent connection drops**: Often caused by electrical noise from appliances. Document when drops occur and correlate with appliance usage. Moving outlets away from microwave, refrigerator, or other noise sources often solves this.
+
+**Security concerns**: Apartment or condo residents should use the pairing button to establish encrypted connection, preventing neighbors from accessing your network through shared electrical circuits.
+
 ## When Powerline Is Not the Right Solution
 
 Powerline networking solves specific problems, but alternatives may serve better in certain scenarios.
