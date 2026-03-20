@@ -304,6 +304,124 @@ claude "Generate API documentation from TypeScript types using TypeDoc. Include 
 - Set Up Dependabot: Automated dependency updates keep your package secure
 {% endraw %}
 
+
+
+## Handling Backward Compatibility as Your Package Evolves
+
+The hardest part of maintaining a public npm package is not building new features — it is removing or changing existing ones without breaking dependent projects. Claude Code helps you think through compatibility implications before making changes.
+
+Before removing a deprecated method, add an explicit deprecation warning:
+
+```typescript
+// src/deprecated.ts
+export class MyPackage {
+  /**
+   * @deprecated Use `executeAsync` instead. Will be removed in v3.0.0.
+   */
+  execute(data: string): string {
+    console.warn(
+      '[MyPackage] execute() is deprecated. Use executeAsync() instead. ' +
+      'This method will be removed in v3.0.0.'
+    );
+    return data.toUpperCase();
+  }
+
+  async executeAsync(data: string): Promise<string> {
+    return data.toUpperCase();
+  }
+}
+```
+
+Run a deprecation cycle of at least two minor versions before removing anything. This gives downstream consumers two release cycles to migrate.
+
+Use Claude Code to generate a migration guide whenever you make breaking changes:
+
+```bash
+claude "Review the diff between v1.x and v2.0 in this changelog. Generate a migration guide for users upgrading from v1 to v2, covering all breaking changes, renamed methods, and configuration changes."
+```
+
+The migration guide should live in `MIGRATION.md` at your package root and be linked from your README's changelog section.
+
+
+## Publishing Dual Packages: ESM and CommonJS
+
+Modern npm packages need to support both ES Modules (used by Vite, modern bundlers, and native Node.js ESM) and CommonJS (used by older Node.js projects and Jest). Configure your `package.json` exports field correctly:
+
+```json
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    }
+  }
+}
+```
+
+Configure TypeScript to output both formats:
+
+```json
+// tsconfig.esm.json
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "./dist/esm"
+  }
+}
+```
+
+```bash
+# Build script in package.json
+"build": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json && tsc --emitDeclarationOnly -p tsconfig.types.json"
+```
+
+Ask Claude Code to audit your package.json exports field and verify that bundler tools resolve both formats correctly. Edge cases in the exports field — especially around subpath exports and conditional exports — are a common source of "works in my project, breaks in yours" reports.
+
+
+## Automating Package Quality with Claude Code
+
+Beyond test generation, Claude Code can perform ongoing quality checks as part of your development workflow.
+
+**API surface review**: Before each release, ask Claude Code to review your public API for consistency:
+
+```bash
+claude "Review the exported types in src/index.ts. Flag: method naming inconsistencies, parameter ordering that doesn't follow a clear convention, missing JSDoc on public methods, and any methods that could cause confusion with similar-sounding built-in JavaScript methods."
+```
+
+**Bundle size analysis**: Large bundle sizes hurt downstream consumers. Use size-limit to enforce bundle budgets:
+
+```bash
+npm install --save-dev size-limit @size-limit/preset-small-lib
+```
+
+```json
+// package.json
+"size-limit": [
+  {
+    "path": "dist/esm/index.js",
+    "limit": "10 KB"
+  }
+]
+```
+
+Ask Claude Code to suggest size optimizations when the bundle exceeds your target:
+
+```bash
+claude "The bundle size for this npm package exceeds our 10KB limit. Review the imports in src/index.ts and suggest which dependencies could be made optional or replaced with lighter alternatives."
+```
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

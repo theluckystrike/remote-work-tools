@@ -187,6 +187,37 @@ Balance criticism with appreciation. Creative work improves when reviewers ackno
 
 Respond to feedback promptly. Even if you're not ready to implement changes, acknowledging receipt of feedback keeps the review cycle moving forward.
 
+## Loom Webhook Integration for Review Notifications
+
+Loom supports webhooks to notify your team when a new review recording is posted:
+
+```python
+from flask import Flask, request, jsonify
+import requests
+
+app = Flask(__name__)
+SLACK_WEBHOOK = "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+
+@app.route("/loom-webhook", methods=["POST"])
+def loom_event():
+    event = request.json
+    if event.get("type") == "recording.created":
+        video = event["video"]
+        message = {
+            "text": f"New feedback recording: *{video['title']}*",
+            "attachments": [{
+                "title": video["title"],
+                "title_link": video["url"],
+                "footer": f"From {video['owner']['name']}"
+            }]
+        }
+        requests.post(SLACK_WEBHOOK, json=message)
+    return jsonify({"status": "ok"})
+
+if __name__ == "__main__":
+    app.run(port=5000)
+```
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
