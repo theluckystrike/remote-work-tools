@@ -123,9 +123,282 @@ For electronics specifically, dedicated coverage through your home insurance (wi
 
 ## The Bottom Line
 
+## Insurance Provider Deep Dive and 2026 Pricing
+
+### SafetyWing Nomad Insurance
+
+**Coverage Details:**
+- Medical: Up to $250,000
+- Evacuation: Up to $100,000
+- Duration: Up to 364 consecutive days
+- Electronics: $500 (weak point)
+- Cost: ~$45/month
+
+**Real claim scenario:**
+Appendicitis requiring emergency surgery in Thailand. SafetyWing covers:
+- Hospital admission: $8,500
+- Surgery: $12,000
+- Post-op care: $3,000
+- **Total paid: $23,500** (well within $250k limit)
+
+**Electronics gap:**
+Laptop stolen in hostel. SafetyWing pays $500 maximum. Your MacBook Pro costs $2,400. Out of pocket: $1,900.
+
+**Best for:** Budget nomads prioritizing medical coverage, willing to supplement electronics elsewhere.
+
+### Genki World Explorer
+
+**Coverage Details:**
+- Medical: $300,000
+- Evacuation: $150,000
+- Electronics: $2,500 (dedicated coverage)
+- Duration: Up to 730 days (2 years)
+- Cost: ~$90/month
+
+**Real claim scenario:**
+Similar appendicitis in Thailand:
+- Hospital admission: $8,500
+- Surgery: $12,000
+- Post-op care: $3,000
+- **Total paid: $23,500** (within $300k limit)
+
+Laptop stolen:
+- Genki pays: $2,500 (covers most of MacBook replacement)
+
+**Best for:** Long-term nomads (1-2 years), developers with expensive gear, wants one comprehensive policy.
+
+### World Nomads Standard
+
+**Coverage Details:**
+- Medical: $100,000
+- Evacuation: $50,000
+- Electronics: $1,000
+- Duration: Max 180 days per trip
+- Cost: ~$30/month
+
+**Weakness:** Medical cap of $100k means expensive surgery or evacuation becomes your problem. Thailand surgery scenario ends with you paying $35,500 out of pocket.
+
+**Best for:** Occasional travelers (< 6 months), minimal equipment value.
+
+### Regional Insurance (Travel Broadly)
+
+Some providers specialize by region:
+
+**AXA (Europe-focused)**
+- Medical: €200,000
+- Duration: 365 days
+- Cost: €35-50/month
+- Best for: Nomads staying primarily in EU
+
+**Allianz (Global)**
+- Medical: $300,000
+- Evacuation: $500,000
+- Electronics: $3,000
+- Cost: $80-120/month
+- Best for: Comfort-focused nomads, frequent emergencies
+
+## Insurance Scoring Framework Explained
+
+Using the Python example from earlier, here's how to weight your decision:
+
+```python
+# YOUR SPECIFIC RISK PROFILE SCORING
+
+def score_policy_for_your_situation(policy):
+    """
+    Adjust weights based on YOUR priorities
+    (not generic developer priorities)
+    """
+    score = 0
+
+    # If your laptop is your livelihood: weight heavily
+    laptop_value = 3000  # Your actual MacBook cost
+    electronics_coverage = policy['electronics_coverage']
+    electronics_score = min(electronics_coverage / laptop_value, 1.0) * 40
+    score += electronics_score
+
+    # If you have chronic condition: weight medical heavily
+    has_chronic_condition = True
+    medical_weight = 50 if has_chronic_condition else 30
+    medical_coverage = policy['medical_coverage']
+    medical_score = min(medical_coverage / 300000, 1.0) * medical_weight
+    score += medical_score
+
+    # If you do extreme sports: weight evacuation heavily
+    does_adventure_sports = True  # rock climbing, mountaineering
+    adventure_weight = 40 if does_adventure_sports else 10
+    evacuation_coverage = policy['evacuation_coverage']
+    evacuation_score = min(evacuation_coverage / 250000, 1.0) * adventure_weight
+    score += evacuation_score
+
+    # Duration flexibility
+    duration_flexibility = policy['max_duration_days'] >= 365
+    duration_score = 10 if duration_flexibility else 5
+    score += duration_score
+
+    return score
+
+# Your specific profile:
+my_profile = {
+    'primary_worry': 'laptop theft (work depends on it)',
+    'secondary_worry': 'emergency medical evacuation',
+    'travel_duration': '12 months',
+    'adventure_activities': ['rock climbing', 'hiking'],
+    'destinations': ['Southeast Asia', 'Central America', 'Eastern Europe'],
+    'laptop_value': 3000,
+    'total_gear_value': 6000
+}
+
+# Score different policies against YOUR needs
+policies_scored = {
+    'SafetyWing': score_policy_for_your_situation({
+        'electronics_coverage': 500,
+        'medical_coverage': 250000,
+        'evacuation_coverage': 100000,
+        'max_duration_days': 364
+    }),
+    'Genki World': score_policy_for_your_situation({
+        'electronics_coverage': 2500,
+        'medical_coverage': 300000,
+        'evacuation_coverage': 150000,
+        'max_duration_days': 730
+    }),
+    'World Nomads': score_policy_for_your_situation({
+        'electronics_coverage': 1000,
+        'medical_coverage': 100000,
+        'evacuation_coverage': 50000,
+        'max_duration_days': 180
+    })
+}
+
+# For YOUR profile: Genki scores highest due to laptop coverage + long duration
+print(policies_scored)  # Genki World Explorer wins
+```
+
+## Real Claim Process Walkthrough
+
+**Scenario: Laptop stolen in Vietnam**
+
+**Day 1 (Monday):**
+- Theft occurs at beach in Da Nang
+- File police report (required for claim)
+- Contact insurance provider via app
+- Attach photos of serial number/proof of purchase
+- Report case number: CLAS-2026-0123
+
+**Days 2-3:**
+- Insurance adjuster reviews documentation
+- Requests additional info (receipt, proof of payment)
+- Evaluates replacement cost in local market
+- Determines depreciation (8-month-old MacBook: original $2,500, depreciated to $1,800)
+
+**Day 5:**
+- Insurance approves claim for $1,800
+- Offers two options:
+  1. Direct payment to laptop replacement store in Vietnam
+  2. Reimbursement to your bank account (takes 5-7 business days)
+
+**Day 7-10:**
+- You receive reimbursement
+- Minus deductible ($50-200 depending on policy)
+- **Final payout: ~$1,650**
+
+**Total timeline: 1-2 weeks** from theft to usable funds. Meanwhile, you're without a laptop for work.
+
+**Lesson:** Some nomads keep backup laptop budget ($500-800) separate from insurance. Insurance reimburses, backup fund lets you stay working.
+
+## Coverage Comparison Matrix: Realistic Scenarios
+
+| Scenario | SafetyWing | Genki | World Nomads |
+|----------|-----------|-------|--------------|
+| **$3000 laptop theft** | $500 covered, $2,500 out of pocket | Full $2,500 covered | $1,000 covered, $2,000 out of pocket |
+| **Emergency surgery ($20k)** | Covered in full | Covered in full | Covered in full |
+| **Severe malaria ($50k treatment)** | Covered in full | Covered in full | Covered in full |
+| **Medical evacuation ($100k)** | Covered in full | Covered in full | $50k covered, $50k out of pocket |
+| **Lost luggage ($500)** | Covered | Covered | Covered |
+| **Trip cancellation** | Not covered | Not covered | Covered |
+| **Annual cost (12 months)** | $540 | $1,080 | $360 |
+
+For developers prioritizing laptop protection, Genki's 2.7x higher cost is justified by avoiding $1,500+ out-of-pocket scenarios.
+
+## Supplementary Insurance Options
+
+Rather than single comprehensive policy, some nomads stack coverage:
+
+```
+Tier 1: SafetyWing Nomad Insurance ($45/month)
+├─ Covers: Medical, evacuation, basic coverage
+├─ Cost: $540/year
+
+Tier 2: Standalone Electronics Insurance via your home insurance
+├─ Extend international electronics coverage via policy rider
+├─ Cost: $30-50/month ($360-600/year)
+├─ Covers: Laptop, phone, external drives
+├─ Note: Check if policy covers 12+ months abroad
+
+Tier 3: Travel cancellation via Allianz/AXA ($20/month)
+├─ Covers: Trip cancellation (varies by reason)
+├─ Cost: $240/year
+
+Total: ~$1,140/year
+vs. Genki single policy: $1,080/year
+
+Advantage: Customized to YOUR risks, not compromise coverage
+Disadvantage: Multiple claim processes, coordination headaches
+```
+
+## Pre-Travel Insurance Documentation Checklist
+
+**Electronics:**
+- [ ] Photograph serial number of laptop, phone, external drives
+- [ ] Save receipt/purchase documentation (cloud drive, email)
+- [ ] Document configuration (RAM, storage, specs for replacement)
+- [ ] Make list of all valuable items with photos
+- [ ] Store everything in password-protected cloud (Google Drive, Dropbox)
+- [ ] Include proof of payment (credit card statement, PayPal receipt)
+
+**Medical:**
+- [ ] List all medications with prescriptions (in case you need refill abroad)
+- [ ] Document any pre-existing conditions (required for some policies)
+- [ ] Get prescription from doctor (helpful for medication refills)
+- [ ] Blood type (keep card in wallet)
+- [ ] Vaccination records (yellow fever, etc.)
+
+**Insurance-specific:**
+- [ ] Save policy documents in cloud
+- [ ] Take screenshot of policy number and emergency contact
+- [ ] Note claim process (many require photos, receipts immediately)
+- [ ] Test mobile app access before travel
+- [ ] Confirm provider network in destination countries
+- [ ] Download app on phone for offline access to policy details
+
+## Making the Decision
+
 For developers in 2026, the best travel insurance combines medical evacuation strength with meaningful electronics coverage. No single policy perfectly covers every scenario, so assess your specific risk profile — the value of your gear, the activities you'll pursue, and your destination's healthcare quality.
 
 Prioritize policies with explicit electronics coverage rather than generic personal property language. Ensure evacuation coverage matches the cost of medical transport in your destination regions. And maintain documentation of your equipment and purchases — claim success often depends on proving the value of what you lost.
+
+## Final Recommendations by Profile
+
+**Budget Nomad (< $2k gear, 3-6 months travel):**
+- SafetyWing Nomad Insurance + separate electronics rider
+- Cost: ~$60-80/month total
+- Trade-off: Lower electronics coverage, but medical solid
+
+**Serious Developer (> $3k gear, 6-12 months travel):**
+- Genki World Explorer
+- Cost: ~$90/month
+- Includes laptop protection, long duration flexibility
+
+**Comfort Nomad (extended travel, expensive gear, adventure activities):**
+- Allianz Global or AXA Comprehensive
+- Cost: ~$120-150/month
+- Complete coverage, premium support, high evacuation limits
+
+**Ultra-Budget Hacker (< $1k gear, stays in safe regions):**
+- SafetyWing only ($45/month)
+- Risk: Electronics loss = total loss, medical gap above $250k
+- Requires backup plan for electronics replacement
 
 
 ## Related Reading

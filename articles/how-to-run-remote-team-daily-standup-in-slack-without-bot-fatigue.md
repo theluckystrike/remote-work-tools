@@ -128,6 +128,297 @@ Second, revisit the format quarterly. Ask your team what's working and what isn'
 
 Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
 
+## Standup Format Variations for Different Team Types
+
+### Engineering Teams (Async-Heavy)
+
+```markdown
+# Daily Standup - Engineering Team (9 AM PT Window)
+
+**Template everyone uses:**
+Yesterday: [2-3 completed tasks]
+Today: [2-3 planned tasks]
+Blockers: [Any impediments]
+Help needed: [What others could assist with]
+
+**Real example:**
+Yesterday:
+- Merged payment module refactoring (PR #2341)
+- Fixed database connection pooling bug
+- Reviewed @alice's authentication changes
+
+Today:
+- Implementing webhook retry logic
+- Documentation for payment API endpoints
+- Code review capacity: 2-3 PRs available
+
+Blockers:
+- Staging environment credentials needed for integration testing
+
+Help needed:
+- Anyone familiar with Stripe webhook timing edge cases?
+```
+
+**Why this format works:**
+- Specific task-oriented (developers understand concrete actions)
+- Includes offer-to-help (creates reciprocal support culture)
+- Blockers separated (easy to scan for impediments)
+- Time-boxed (80-character rule encourages brevity)
+
+### Product/Design Teams (Collaborative)
+
+```markdown
+# Daily Standup - Product Team (10 AM PT Window)
+
+**Template:**
+🎯 Yesterday's focus: [What did you work on?]
+🚀 Today's priority: [What moves the needle?]
+🤝 Collaboration needed: [Who do you need to sync with?]
+⚠️ Risks/Changes: [Anything that impacts timeline?]
+
+**Real example:**
+🎯 Yesterday's focus:
+Finalized customer research findings from 12 interviews
+Synthesized insights into 5 key problem statements
+Created persona update deck for Thursday stakeholder review
+
+🚀 Today's priority:
+Present findings to product council
+Begin prioritization framework for Q2 initiatives
+Coordinate with design on mockup timeline
+
+🤝 Collaboration needed:
+@design-lead: need 30-min sync on interaction patterns for top 3 problems
+@engineering-lead: rough feasibility check on two technical approaches
+
+⚠️ Risks/Changes:
+Customer call shifted to Friday (gives 1 extra day for deck polish)
+Research budget: on track, no overruns
+```
+
+**Why this format works:**
+- Emoji aids scanability across long threads
+- Emphasizes collaboration (product teams need lateral coordination)
+- Calls out risks explicitly (helps PMs stay ahead of issues)
+- Less technical detail needed (design/product teams work at higher abstraction)
+
+### Support/Operations Teams
+
+```markdown
+# Daily Standup - Support Team (2 PM UTC Window)
+
+**Template:**
+📞 Yesterday's volume: [Tickets handled]
+🔧 Issues resolved: [Notable fixes]
+⏰ Today's focus: [Planned activities]
+🚨 Escalations: [Anything needing management attention]
+
+**Real example:**
+📞 Yesterday's volume: 23 tickets, 2 critical
+
+🔧 Issues resolved:
+- Payment failure cluster affecting 8 customers (root cause: API timeout)
+- Integration sync issue for Salesforce connector (config error)
+- 5 feature requests logged for product team
+
+⏰ Today's focus:
+- Monitor payment API stability (after yesterday's timeout)
+- Prepare response templates for common billing questions
+- Training new support agent on escalation process
+
+🚨 Escalations:
+- Payment API timeouts may indicate infrastructure load—flag to engineering
+- One customer requesting refund for service disruption (forwarded to finance)
+```
+
+## Standup Metrics Worth Tracking
+
+Use these to evaluate standup health over time:
+
+```yaml
+# Monthly Standup Health Report
+
+participation_metrics:
+  days_tracked: 22  # business days
+  participants: 8
+  avg_participation_rate: 87%  # (missing 3 standups is normal/acceptable)
+  non-responders:
+    - alice: 1 missed standup (legitimate—was at customer site)
+    - bob: 2 missed (should address pattern)
+  response_time: "within 2 hours of standup window 95% of time"
+
+quality_metrics:
+  avg_update_length: "45 characters" # sweet spot, not too terse
+  blockers_identified: 12
+  blockers_resolved_within_day: 10  # 83% resolution rate
+  help_requests_answered: 9/11  # 82% response rate
+
+engagement_metrics:
+  emoji_reactions_to_updates: 47  # high = engaged team
+  follow_up_questions_in_threads: 8  # medium = good, not excessive
+  off_topic_chatter_in_channel: "minimal" # should mostly stay focused
+
+issues_identified:
+  - One team member's blockers never resolved (process issue)
+  - Help requests sometimes go unanswered (support culture issue)
+  - Friday updates sparse (maybe move standup earlier in day?)
+```
+
+Track these over a month. If metrics degrade, standup process needs refinement.
+
+## Standup Failure Patterns and Fixes
+
+**Pattern 1: Declining Participation**
+```
+Week 1: 8/8 participation
+Week 2: 7/8 participation
+Week 3: 5/8 participation
+Week 4: 4/8 participation
+
+Problem: Bots create false urgency. Real human process feels optional.
+Fix: Explicitly value standups—reference them in team syncs
+"Great insight from @bob's standup about customer feedback"
+(Make standups visible in decision-making)
+```
+
+**Pattern 2: Bot Notification Noise**
+```
+Every standup bot creates 3+ messages:
+1. Reminder to post update
+2. Update notification when you post
+3. Digest summary
+
+This creates 24-32 notifications/day for 10-person team
+Fix: Disable bot notifications except digest (once daily)
+Keep human participation without notification fatigue
+```
+
+**Pattern 3: Standup Becomes Status Report Theater**
+```
+Red flag: All updates say "everything on track"
+Reality: Real blockers exist but team hides them
+Root cause: Standup blamed for delays/failures
+
+Fix: Reframe standup as "coordination tool" not "status tracking"
+Make it safe to share blockers without judgment
+Leadership responds to blockers with empathy, not blame
+```
+
+**Pattern 4: Time Zone Chaos**
+```
+Team spans SF (PT), London (GMT), Mumbai (IST), Sydney (AEDT)
+- PT morning = Mumbai evening (reasonable)
+- PT morning = Sydney night (unreasonable)
+
+Options:
+1. Rotating standup time (each team gets rough time once/week)
+2. Async-only standup (no live time requirement)
+3. Split standup (SF-EU sync, EU-APAC sync)
+
+Best: Async-only thread with no required live time
+```
+
+## Standup Evolution Template
+
+As teams mature, standup format changes. Track this evolution:
+
+```markdown
+# Standup Evolution Timeline
+
+## Month 1: Chaotic (No Process)
+- Random timing
+- Inconsistent format
+- Often forgotten
+- Action: Implement dedicated channel + scheduled message
+
+## Month 2-3: Bot-Heavy (Overcorrection)
+- Slack bot reminder every morning
+- Structured form responses
+- Daily digest summary
+- Problem: Notification fatigue begins
+- Action: Simplify format, remove non-essential bot features
+
+## Month 4-6: Stable (Sweet Spot)
+- Dedicated #standup channel
+- Consistent 9 AM PT window (humans know this)
+- Simple text format (Yesterday/Today/Blockers)
+- Weekly human-curated summary (no bot)
+- High participation (>85%)
+- Action: Maintain this rhythm, iterate quarterly
+
+## Month 7+: Mature (Optimization)
+- Team knows standup cadence, needs no reminders
+- Format refined based on team feedback
+- Standups reference actual blockers/decisions
+- Leadership visibly acts on blocked items
+- Standup becomes part of team identity
+- Action: Quarterly refinement only, collect team feedback
+```
+
+## Standup Content Examples by Industry
+
+**SaaS Product Team:**
+```
+Yesterday: Launched feature flags for dark mode beta (5% of users)
+Today: Monitor rollout metrics, design next feature batch
+Blockers: Design assets still pending for navigation redesign (waiting on design review)
+```
+
+**Agency (Client Delivery):**
+```
+Yesterday: Client A: Finished homepage design, scheduled review. Client B: Deployed blog update
+Today: Client A: incorporate feedback, Client B: plan email template designs
+Blockers: Client A feedback meeting not scheduled—following up today
+```
+
+**DevOps/Infrastructure:**
+```
+Yesterday: Upgraded monitoring cluster to Prometheus 2.40, tests pass
+Today: Run load test simulations, document upgrade runbook
+Blockers: K8s cluster version incompatibility needs senior review before rollout
+```
+
+**Startup/Early Stage:**
+```
+Yesterday: Customer calls (12 prospects), synthesized feedback, updated pitch deck
+Today: Present findings to board, start building prototype for top feature request
+Blockers: Need design resources for prototype—currently just me
+```
+
+## Running Your First Standup (Checklist)
+
+- [ ] Create dedicated Slack channel (#daily-standup)
+- [ ] Pick a time that works for majority (earlier usually better)
+- [ ] Draft format matching your team's work type
+- [ ] Post format explanation in channel description
+- [ ] Send message "First standup tomorrow at 9 AM PT, here's the format"
+- [ ] Participate in first standup as team lead (show example)
+- [ ] Acknowledge everyone's first updates (build participation norm)
+- [ ] After day 1: ask what worked, what felt awkward
+- [ ] Make one format adjustment based on feedback
+- [ ] Declare "this is our standup format for month 1" (give it stability)
+- [ ] At month-end: collect team feedback, adjust for month 2
+- [ ] At month-3: evaluate participation and engagement metrics
+
+## Standup Health Red Flags
+
+If you see these, standup process needs fixing:
+
+- Participation drops below 60% for 2+ weeks
+- Blockers identified but never resolved
+- Team uses standup to announce already-known information
+- Standup is first time manager hears about major blocker
+- Lengthy standup discussions (should be quick reading, detailed discussions elsewhere)
+- Same person always has blockers (signals systemic problem)
+- Updates are generic ("working on sprint tasks") not concrete
+- Team dreads standup time (you see this in reactions)
+- Standup discussions drift into other topics (lack of focus)
+- Silent channels—nobody responds to questions or offers help
+
+Address these immediately. Standup only works if it's genuinely useful to the team.
+
+Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

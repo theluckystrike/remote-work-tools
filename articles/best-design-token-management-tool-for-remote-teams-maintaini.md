@@ -121,7 +121,182 @@ The "best" tool depends on your team's composition and workflow:
 
 **Choose Supernova** if you need design system management beyond tokens, your team spans both design and development, and budget allows for a platform.
 
+## Pricing Comparison and Implementation Costs
+
+| Tool | Pricing Model | Team Size (10 people) | Setup Time | Maintenance |
+|------|---------------|----------------------|-----------|------------|
+| **Style Dictionary** | Free (open source) | $0/month | 2-4 weeks | Moderate (requires ops) |
+| **Tokens Studio** | $5-10/user/month + Figma | $50-100 + Figma | 1-2 weeks | Low (Figma-native) |
+| **Supernova** | $200-500/month team | $200-500/month | 3-4 weeks | Low (hosted platform) |
+| **Amazon Luna (internal)** | N/A (enterprise-only) | N/A | N/A | N/A |
+
+## Real Implementation Workflow: Tokens Studio
+
+A distributed design team across San Francisco, London, and Tokyo uses Tokens Studio for daily workflows:
+
+```
+Monday morning (PT):
+1. Designer in SF updates primary color in Figma variables
+2. Tokens Studio plugin detects change, triggers sync to GitHub
+3. CI/CD pipeline runs token build, generates CSS/JS outputs
+4. Code review auto-requested for color change
+5. PR approved, merged to main branch
+
+By Tuesday morning (London):
+6. London developer pulls latest build, CSS variables reflect new color
+7. Component library docs auto-regenerated with updated colors
+8. Storybook reflects changes immediately
+
+By Wednesday (Tokyo):
+9. Tokyo designer sees new color reflected in Figma (synced from repository)
+10. Brand consistency maintained across all time zones without synchronous meetings
+```
+
+## Token Governance Framework
+
+Establish these governance layers before rolling out:
+
+**Level 1: Creation & Proposal**
+- Only senior designers can propose new token categories
+- Self-service token creation within approved categories
+- All new tokens require documentation of intent
+
+**Level 2: Review & Approval**
+- Design lead reviews all new tokens (24-48 hour SLA)
+- Engineering lead verifies implementation feasibility
+- Product review ensures business alignment
+
+**Level 3: Usage & Monitoring**
+- Monthly audit of token adoption across codebases
+- Identify unused tokens for deprecation
+- Track token change frequency to catch instability
+
+## Common Token Naming Conventions
+
+Different teams use different naming approaches. Document yours explicitly:
+
+```json
+{
+  "naming_convention": "category-context-state-emphasis",
+  "examples": {
+    "color": {
+      "background-primary-default": "#FFFFFF",
+      "background-primary-hover": "#F5F5F5",
+      "background-primary-active": "#E8E8E8",
+      "text-primary-default": "#1A1A1A",
+      "text-primary-disabled": "#999999"
+    },
+    "spacing": {
+      "space-xs": "0.25rem",
+      "space-sm": "0.5rem",
+      "space-md": "1rem",
+      "space-lg": "2rem",
+      "space-xl": "4rem"
+    },
+    "typography": {
+      "font-size-display-1": "2.5rem",
+      "font-size-heading-1": "2rem",
+      "font-size-body": "1rem",
+      "font-size-caption": "0.75rem",
+      "line-height-tight": "1.2",
+      "line-height-normal": "1.5",
+      "line-height-loose": "1.8"
+    }
+  }
+}
+```
+
+## Managing Token Drift Prevention
+
+Token drift—divergence between what's documented and what's implemented—kills brand consistency over time:
+
+**Detection mechanisms:**
+```bash
+# Audit CSS for undocumented colors
+grep -r "color:" styles/ | grep -v "var(" | wc -l
+# Should return 0 if all colors use tokens
+
+# Validate all tokens are used in code
+node validate-token-usage.js
+# Reports orphaned tokens and missing implementations
+```
+
+**Prevention strategies:**
+1. Run quarterly audits comparing tokens to actual implementation
+2. Block CSS/design changes that don't use tokens via CI/CD
+3. Monthly team sync (async) to discuss token usage patterns
+4. Maintain "token deprecation backlog" for removal
+
+## Integration Points for Remote Teams
+
+Connect tokens to other systems your team uses:
+
+```yaml
+integrations:
+  design_tools:
+    - figma: via Tokens Studio plugin
+    - sketch: via Sketch design tokens plugin
+    - adobe_xd: limited support
+
+  development:
+    - react: import as JavaScript module
+    - vue: import as CSS variables
+    - swift: generate as Swift constants (iOS)
+    - kotlin: generate as Kotlin objects (Android)
+
+  documentation:
+    - storybook: auto-generate docs from tokens
+    - design_system_site: publish token reference
+    - slack: send weekly token changes to #design channel
+
+  monitoring:
+    - github: auto-create PRs for token changes
+    - sentry: track design changes correlating with bugs
+```
+
+## Decision Matrix: Picking the Right Tool
+
+Rate your team's needs on a scale of 1-5:
+
+```
+If score is:
+16-20: Choose Supernova (comprehensive platform)
+11-15: Choose Tokens Studio (Figma-integrated)
+6-10: Choose Style Dictionary (developer-first)
+
+Scoring criteria (1=low importance, 5=critical):
+[ ] Need visual interface for designers
+[ ] Already using Figma extensively
+[ ] Want turn-key solution without setup
+[ ] Team includes many non-technical designers
+[ ] Require advanced reporting/analytics
+```
+
 Regardless of which tool you choose, establish a token governance process early. Define who can create, modify, and approve token changes. Set up review workflows that work across your time zones. Document your token naming conventions and usage guidelines. The tool handles the technical complexity—your team handles the human coordination that makes brand consistency possible.
+
+## Quarterly Token Health Review
+
+Schedule a lightweight quarterly review:
+
+```markdown
+# Token Health Check - Q2 2026
+
+**Metrics to Review:**
+- New tokens created: 12
+- Tokens deprecated: 3
+- Adoption rate (% of colors using tokens): 94%
+- Breaking changes needed: 0
+- Average time from token creation to implementation: 2 days
+
+**Decisions Made:**
+- Consolidate typography tokens (reduce from 8 to 6 variants)
+- Add spacing token for micro-interactions
+- Establish clear light mode / dark mode token separation
+
+**Next Quarter Focus:**
+- Improve design token discoverability in developer documentation
+- Automate quarterly audits to catch drift earlier
+```
 
 The most successful remote design teams treat design tokens as infrastructure, not afterthoughts. Invest in your token management system, and your distributed team will ship consistent products regardless of who wrote the code or when they wrote it.
 
