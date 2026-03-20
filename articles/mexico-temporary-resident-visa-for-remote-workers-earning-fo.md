@@ -132,7 +132,160 @@ After four years, you can apply for permanent residence if you meet the continuo
 - Incorrect visa type: Ensure you apply for the temporary resident visa, not the visitor visa with permit for paid activities, which has different requirements.
 - Overstaying the initial period: Once approved, you must enter Mexico within 60 days or your visa becomes void.
 
-## Related Reading
+## Complete Cost of Living Analysis for Remote Workers
+
+Mexico's appeal for remote workers stems from affordable living costs. Here's a detailed breakdown for different Mexican cities:
+
+### Mexico City — Urban Hub
+
+| Expense | Monthly Cost | Notes |
+|---------|---------|---------|
+| Apartment (1BR, central) | $800-1,200 | Condesa, Roma, Polanco |
+| Apartment (1BR, suburban) | $500-800 | San Ángel, Coyoacán |
+| Utilities | $40-60 | Electricity, water, gas |
+| Internet (fiber) | $30-50 | 100Mbps+ widely available |
+| Groceries | $200-300 | Mix of supermarket and mercado |
+| Public Transport | $25-40 | Monthly metro pass system |
+| Restaurant meals | $150-250 | Mix of street food and nice restaurants |
+| Coworking space | $100-200 | Daily or monthly passes available |
+| **Total** | **$1,345-3,040** | Varies by lifestyle |
+
+### Playa del Carmen — Beach/Digital Nomad Hub
+
+| Expense | Monthly Cost | Notes |
+|---------|---------|---------|
+| Apartment (1BR) | $700-1,200 | Near center vs. further out |
+| Utilities | $50-80 | Higher air conditioning use |
+| Internet | $30-60 | Critical for digital nomads |
+| Groceries | $200-300 | Similar to CDMX |
+| Dining | $200-400 | Tourism impact increases costs |
+| Coworking | $150-300 | More expensive than inland cities |
+| **Total** | **$1,330-2,340** | Beach premium vs. CDMX |
+
+### Guadalajara — Secondary City
+
+| Expense | Monthly Cost | Notes |
+|---------|---------|---------|
+| Apartment (1BR) | $400-700 | Excellent value |
+| Utilities | $30-50 | Lower than beach cities |
+| Internet | $25-40 | Growing fiber infrastructure |
+| Groceries | $150-200 | Cheapest among major cities |
+| Dining | $100-200 | Affordable street food culture |
+| Coworking | $50-150 | Limited but improving options |
+| **Total** | **$755-1,340** | Best value proposition |
+
+## Visa Application Checklist and Timeline
+
+Use this structured timeline to prevent missing deadlines and documentation:
+
+### Month 1: Preparation Phase
+- [ ] Request criminal background check from home country
+- [ ] Gather 12 months of bank statements
+- [ ] Collect or request employer letter
+- [ ] Schedule apostille notarization for background check
+- [ ] Take official passport photos (50x40mm)
+- [ ] Begin gathering personal ID documents
+
+### Month 2: Documentation Assembly
+- [ ] Complete IMM-NMC-2 form online (available on consulate website)
+- [ ] Translate critical documents to Spanish if required
+- [ ] Create organized document folder with PDF copies
+- [ ] Calculate 12-month average income in detail
+- [ ] Prepare income documentation summary letter
+- [ ] Contact nearest Mexican consulate for appointment
+
+### Month 3: Application Submission
+- [ ] Attend consulate appointment with all originals
+- [ ] Pay visa application fee
+- [ ] Receive processing timeline confirmation
+- [ ] Note collection date for passport
+- [ ] Document received passport with visa stamp
+- [ ] Plan arrival within 60-day window
+
+## Banking and Financial Setup for Remote Workers
+
+Opening a Mexican bank account significantly simplifies remote work income management:
+
+### Major Banks Accepting Residents
+
+- **BBVA** — 1,200+ branches, good for remote workers
+- **Santander** — Strong fintech features, mobile app
+- **Citibanamex** — International transfers, good for US connections
+- **Scotiabank** — Mexico-US integration beneficial
+- **Banco Azteca** — More accessible, fewer requirements
+
+### Account Opening Requirements
+
+- Valid passport with tourist or resident visa
+- Proof of address (rental agreement, utility bill, or hotel confirmation)
+- Tax ID (RFC) — obtainable at SAT office or online
+- Minimum deposit (typically $1,000-5,000 MXN)
+
+### International Wire Transfer Considerations
+
+Most remote workers receive USD-denominated income. Mexican banks offer competitive exchange rates, but expect:
+
+- Transfer fee: $5-15 USD per international incoming wire
+- Processing time: 2-5 business days
+- Exchange rate: Usually within 0.5% of mid-market rate
+- Daily transfer limits: Varies; $2,000-5,000 USD common for new accounts
+
+Alternative services like Wise, Stripe, or PayPal often provide better rates for smaller transfers.
+
+## Healthcare Access and Insurance Options
+
+As a temporary resident, you have legal access to Mexico's public healthcare system:
+
+### Public Healthcare (IMSS)
+
+- Register with IMSS office in your state
+- Monthly cost: $200-400 for voluntary coverage
+- Access to clinics and hospitals nationwide
+- Prescription medications subsidized
+
+### Private Healthcare (Recommended for Remote Workers)
+
+- **Axa** — Comprehensive plans starting $2,000 MXN/month
+- **Monterrey New York Life** — Popular among expats
+- **GNP** — Strong dental and specialist coverage
+- **Medex** — International expat-focused plans
+
+Cost range: $200-500 USD monthly for comprehensive coverage depending on age and location.
+
+### Prescription and Dental Costs
+
+Mexico offers significant healthcare cost advantages:
+
+- Doctor consultation: $30-50 USD
+- Specialist visit: $50-100 USD
+- Dental cleaning: $40-60 USD
+- Prescription antibiotics: $5-15 USD (vs. $50-200 in US)
+
+Many remote workers maintain private insurance but also utilize Mexico's affordable services.
+
+## Comparison with Other Latin American Digital Nomad Visas
+
+| Country | Income Requirement | Processing Time | Visa Duration | Renewal Difficulty |
+|---------|---------|---------|---------|---------|
+| Mexico | $2,600/month | 2-4 weeks | 4 years (extendable) | Easy, multiple times |
+| Colombia | $1,500/month | 1-2 weeks | 2 years | Straightforward |
+| Argentina | $1,200/month | 1-2 weeks | 3 years | Relatively easy |
+| Panama | $1,350/month | 1-2 weeks | 3 years | Very easy |
+
+Mexico's advantage is the highest visa duration (4 years) with clear extension pathways, despite having a higher income threshold than most regional competitors.
+
+## Advanced: Tax Planning for US Citizens and Expats
+
+If you're a US citizen, you have additional considerations:
+
+- **FEIE (Foreign Earned Income Exclusion)** — Excludes first ~$120,000 of foreign-earned income from US taxes (2024 limits)
+- **PFIC Issues** — Some Mexican investment accounts trigger complex tax reporting
+- **Banking FATCA Compliance** — Mexican banks comply with US reporting requirements
+- **ITIN for Mexican Tax ID** — Obtain Mexican RFC ID for banking and taxes
+
+Consult a tax professional specializing in US expat taxation before establishing your financial structure in Mexico.
+
+## Common Pitfalls to Avoid
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
