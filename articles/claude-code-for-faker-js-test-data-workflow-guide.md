@@ -5,7 +5,7 @@ description: "Learn how to leverage Claude Code to automate and streamline your 
 date: 2026-03-20
 author: Claude Skills Guide
 permalink: /claude-code-for-faker-js-test-data-workflow-guide/
-categories: [Development, Testing, Automation]
+categories: [guides, workflows]
 tags: [claude-code, claude-skills]
 ---
 
