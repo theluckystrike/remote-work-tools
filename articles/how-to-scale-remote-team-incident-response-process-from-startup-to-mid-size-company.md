@@ -10,6 +10,7 @@ tags: [incident-response, remote-work, devops, scaling, team-collaboration, on-c
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

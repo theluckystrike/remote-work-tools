@@ -9,6 +9,7 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 # Best Tool for Remote Team Org Directory with Timezone and Availability Information 2026

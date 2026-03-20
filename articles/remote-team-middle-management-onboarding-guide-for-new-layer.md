@@ -10,6 +10,7 @@ tags: [remote-management, middle-management, team-leadership, onboarding, remote
 reviewed: true
 score: 8
 intent-checked: true
+voice-checked: true
 voice-checked: false
 ---
 

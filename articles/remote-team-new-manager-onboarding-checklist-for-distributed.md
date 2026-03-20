@@ -9,6 +9,7 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 Transitioning from individual contributor to manager is one of the most challenging career moves in any organization. When that transition happens in a remote-first company, the complexity multiplies. You're no longer just managing tasks—you're managing people, relationships, and culture across time zones, often without the benefit of face-to-face interactions that help build trust quickly.

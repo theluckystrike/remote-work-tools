@@ -9,6 +9,7 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 When your remote engineering team triples in size—from 10 to 30 developers—the code review process that worked smoothly before suddenly becomes a bottleneck. Pull requests pile up, review turnaround times stretch from hours to days, and the quality bar that your team worked hard to maintain starts to slip. Scaling code review in a distributed team requires more than just adding more reviewers. It demands structural changes, clear protocols, and thoughtful tooling decisions.

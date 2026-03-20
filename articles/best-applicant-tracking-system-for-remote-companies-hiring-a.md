@@ -9,6 +9,7 @@ categories: [guides]
 tags: [tools]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 Hiring remotely across multiple countries presents unique challenges that traditional applicant tracking systems weren't designed to handle. From navigating varying labor laws to managing timezone differences and handling international payments, remote companies need specialized tools. This guide examines the best applicant tracking systems built specifically for distributed teams hiring globally.
