@@ -223,3 +223,5 @@ New Hire Ramp Time: How long until new team members feel productive
 - [How to Create Remote Employee Exit Interview Process for.](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
 - [How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
 - [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

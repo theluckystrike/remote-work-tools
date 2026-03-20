@@ -186,3 +186,5 @@ This structure demonstrates the core pattern: scheduled trigger, form collection
 - [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

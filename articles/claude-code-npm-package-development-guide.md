@@ -314,3 +314,5 @@ claude "Generate API documentation from TypeScript types using TypeDoc. Include 
 - [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
 - [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
 - [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -166,3 +166,5 @@ Even without insurance, these costs are significantly lower than in the US or Eu
 - [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

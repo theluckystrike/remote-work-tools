@@ -230,3 +230,5 @@ The goal isn't to eliminate human communication—it's to eliminate the communic
 - [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

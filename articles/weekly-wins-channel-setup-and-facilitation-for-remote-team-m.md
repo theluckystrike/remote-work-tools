@@ -240,3 +240,5 @@ The best weekly wins channels become a team ritual that people genuinely look fo
 - [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

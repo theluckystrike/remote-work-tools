@@ -232,3 +232,5 @@ The best speakerphone for your situation depends on room characteristics, partic
 - [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

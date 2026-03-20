@@ -238,3 +238,5 @@ The best backup solution is one that runs automatically without requiring user i
 - [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

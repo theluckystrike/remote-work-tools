@@ -231,3 +231,5 @@ For remote teams specifically, ensure your policies account for legitimate use c
 - [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -159,3 +159,5 @@ The Taiwan Gold Card provides an attractive option for remote tech workers seeki
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

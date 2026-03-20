@@ -129,3 +129,5 @@ Ensure no other application is currently using your camera. Close other video ap
 - [Chrome Security Headers Extension: A Practical Guide for.](/remote-work-tools/chrome-security-headers-extension/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -183,3 +183,5 @@ For most remote parents managing two or more children, Cozi Family Organizer off
 - [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

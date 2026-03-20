@@ -240,3 +240,5 @@ The key is matching tools to actual workflow needs rather than accumulating plat
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

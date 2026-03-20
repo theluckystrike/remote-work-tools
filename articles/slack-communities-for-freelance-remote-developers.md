@@ -200,3 +200,5 @@ New community members often undermine their own experience:
 - [Best Insider Threat Detection Tool for Fully Remote.](/remote-work-tools/best-insider-threat-detection-tool-for-fully-remote-companie/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

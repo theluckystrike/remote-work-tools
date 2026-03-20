@@ -165,3 +165,5 @@ Establish team norms around core hours—periods when everyone should be availab
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

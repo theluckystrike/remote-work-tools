@@ -154,3 +154,5 @@ Consider starting with one tool and measuring adoption before adding more comple
 - [Best Virtual Happy Hour Alternative for Remote Teams Who.](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

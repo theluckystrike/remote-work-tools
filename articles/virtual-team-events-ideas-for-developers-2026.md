@@ -273,3 +273,5 @@ Start with one event type, get participation, then add more. The best virtual te
 - [Best Virtual Whiteboard for Remote Team Brainstorming and Ideation Sessions 2026](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

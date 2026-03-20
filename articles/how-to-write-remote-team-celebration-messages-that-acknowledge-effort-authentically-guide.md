@@ -169,3 +169,5 @@ The goal is not performative praise but genuine acknowledgment that helps remote
 - [How to Set Up Remote Team Mentorship Program Matching.](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

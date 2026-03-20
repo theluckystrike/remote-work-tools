@@ -220,3 +220,5 @@ Track these metrics to evaluate your policy:
 - [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -228,3 +228,5 @@ The goal is understanding whether the team is productive, not proving individual
 - [Best Tool for Remote Team Mood Tracking and Sentiment.](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

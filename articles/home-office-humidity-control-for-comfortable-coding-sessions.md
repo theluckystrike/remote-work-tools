@@ -183,3 +183,5 @@ This notification prompts you to adjust your humidifier manually or investigate 
 - [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

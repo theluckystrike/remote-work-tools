@@ -168,3 +168,5 @@ Remember: your goal isn't to show you're busy. It's to show you're making progre
 - [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

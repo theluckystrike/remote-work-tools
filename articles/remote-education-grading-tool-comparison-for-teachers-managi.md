@@ -275,3 +275,5 @@ The most effective large-class grading strategies combine multiple approaches: a
 - [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -210,3 +210,5 @@ Start with the basics: define your severity levels, create your handoff template
 - [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -202,3 +202,5 @@ Start with hourly if you're uncertain. Build your estimating skills over time. T
 - [Health Insurance Options for Freelancers 2026: A.](/remote-work-tools/health-insurance-options-for-freelancers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

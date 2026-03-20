@@ -160,3 +160,5 @@ Review these dependencies weekly in cross-team sync meetings. Discuss timelines,
 - [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

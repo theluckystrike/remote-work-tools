@@ -211,3 +211,5 @@ Schedule a quarterly review of active ADRs to identify:
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

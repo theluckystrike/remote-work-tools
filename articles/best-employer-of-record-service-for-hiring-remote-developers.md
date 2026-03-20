@@ -170,3 +170,5 @@ eor_provider:
 - [Remote Legal Billing Software Comparison for Distributed.](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

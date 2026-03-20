@@ -211,3 +211,5 @@ Track these weekly. If your actual times exceed targets by more than 20%, invest
 - [Remote Engineering Team Build Time Tracking as Developer.](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

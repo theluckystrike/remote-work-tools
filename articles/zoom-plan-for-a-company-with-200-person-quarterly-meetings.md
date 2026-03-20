@@ -238,3 +238,5 @@ With proper planning and the right technical setup, quarterly all-hands meetings
 - [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

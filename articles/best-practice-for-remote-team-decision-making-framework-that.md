@@ -260,3 +260,5 @@ When this works, founders can focus on tier 3-4 decisions where their experience
 - [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

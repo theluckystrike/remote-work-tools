@@ -217,3 +217,5 @@ Survey engineers after each cycle:
 - [Best Practices for Async Pull Request Reviews on.](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

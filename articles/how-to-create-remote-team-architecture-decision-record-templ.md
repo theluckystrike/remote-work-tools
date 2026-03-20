@@ -188,3 +188,5 @@ Start with the template above, adapt it to your team's workflow, and commit to w
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

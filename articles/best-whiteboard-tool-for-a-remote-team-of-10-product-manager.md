@@ -134,3 +134,5 @@ The right tool is the one your team actually uses. Evaluate based on your team's
 - [Best Virtual Whiteboard for Remote Team Brainstorming and Ideation Sessions 2026](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

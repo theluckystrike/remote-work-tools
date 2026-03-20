@@ -126,3 +126,5 @@ Test both tools with a two-week sprint. Track how often your team updates each b
 - [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -158,3 +158,5 @@ The teams that succeed with hybrid work treat remote participants not as a speci
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

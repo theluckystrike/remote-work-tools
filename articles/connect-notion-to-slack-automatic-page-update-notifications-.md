@@ -191,3 +191,5 @@ Testing your setup thoroughly before rolling it out team-wide prevents notificat
 - [Notion Habit Tracker Template for Developers: Build Consistent Routines](/remote-work-tools/notion-habit-tracker-template-for-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

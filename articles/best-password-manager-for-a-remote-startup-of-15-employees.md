@@ -130,3 +130,5 @@ Start the evaluation with your team's specific workflow. Identify which integrat
 - [Password Manager Comparison for Remote Teams: Bitwarden.](/remote-work-tools/password-manager-comparison-for-remote-teams-bitwarden-vs-1p/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

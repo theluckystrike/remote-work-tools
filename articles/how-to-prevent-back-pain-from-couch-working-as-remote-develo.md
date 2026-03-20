@@ -155,3 +155,5 @@ Your body will thank you after years of remote work. The investment in proper se
 - [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

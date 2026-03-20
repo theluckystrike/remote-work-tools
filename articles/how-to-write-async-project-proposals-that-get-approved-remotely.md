@@ -176,3 +176,5 @@ Proposals from someone with a track record of successful projects get more trust
 - [How to Write Async Technical RFCs That Get Meaningful Feedback](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 - [How to Write Clear Async Project Briefs for Remote Teams.](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
 - [How to Write Freelance Proposals That Win](/remote-work-tools/how-to-write-freelance-proposals-that-win/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

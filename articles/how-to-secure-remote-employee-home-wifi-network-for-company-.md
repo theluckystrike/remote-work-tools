@@ -164,3 +164,5 @@ For development teams, consider creating a simple provisioning script that emplo
 - [How to Create a Remote Team Acceptable Use Policy for.](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

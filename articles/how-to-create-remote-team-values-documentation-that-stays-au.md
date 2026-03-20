@@ -159,3 +159,5 @@ If the answer to any of these is "no," your documentation needs work. The goal i
 - [How to Scale Remote Team Design System Documentation.](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

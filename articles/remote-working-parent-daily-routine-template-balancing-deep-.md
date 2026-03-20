@@ -254,3 +254,5 @@ Start with one change this week. Perhaps it's the visual timer. Perhaps it's blo
 - [How to Handle School Snow Day When Both Parents Work.](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

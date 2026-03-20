@@ -261,3 +261,5 @@ Document your PKI structure and revocation procedures. When security incidents o
 - [How to Implement Hardware Security Keys for Remote Team.](/remote-work-tools/how-to-implement-hardware-security-keys-for-remote-team-auth/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

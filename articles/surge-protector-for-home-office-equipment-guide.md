@@ -183,3 +183,5 @@ After major event: Always replace point-of-use units
 - [Best White Noise Machine for Home Office Blocking.](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

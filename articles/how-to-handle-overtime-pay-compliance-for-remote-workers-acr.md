@@ -199,3 +199,5 @@ Compliance with overtime laws across states requires attention to detail and pro
 - [How to Handle Employment Law Differences for Remote.](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

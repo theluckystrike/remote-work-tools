@@ -216,3 +216,5 @@ Remote work accommodations for special needs children aren't about working lessâ
 - [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
 
 Built by
+
+Built by theluckystrike â€” More at [zovo.one](https://zovo.one)

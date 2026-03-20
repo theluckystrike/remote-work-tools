@@ -213,3 +213,5 @@ Keep these meetings short—15 minutes maximum. The goal is information sharing,
 - [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

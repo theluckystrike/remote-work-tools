@@ -207,3 +207,5 @@ Successful remote work in Mexico City depends on three things: reliable internet
 - [Costa Rica Digital Nomad Visa Tax Obligations for Remote.](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

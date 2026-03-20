@@ -150,3 +150,5 @@ The goal isn't enforceability—it's creating norms where people feel comfortabl
 - [How to Create Remote Team Values Documentation That.](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

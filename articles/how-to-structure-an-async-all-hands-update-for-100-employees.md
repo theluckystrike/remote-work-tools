@@ -186,3 +186,5 @@ An async all-hands for 100 employees succeeds through structure, not magic. Defi
 - [Remote Team All Hands Meeting Question Collection Tool.](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

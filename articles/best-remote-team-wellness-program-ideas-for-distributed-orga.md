@@ -203,3 +203,5 @@ The best remote wellness initiatives treat health as infrastructure—built into
 - [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

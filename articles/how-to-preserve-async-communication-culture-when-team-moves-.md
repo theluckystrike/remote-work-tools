@@ -190,3 +190,5 @@ Review these metrics monthly and adjust your practices accordingly.
 - [How to Maintain Remote Team Culture When Transitioning.](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

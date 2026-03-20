@@ -198,3 +198,5 @@ Track these metrics to ensure your caregiver policy serves its purpose:
 - [Remote Work Special Needs Child Accommodation Guide for.](/remote-work-tools/remote-work-special-needs-child-accommodation-guide-for-parents/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -144,3 +144,5 @@ Evaluate based on your actual workflow: if you need to script response actions o
 - [Best Endpoint Security Solution for Remote Employees.](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

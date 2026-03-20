@@ -192,3 +192,5 @@ This approach lets distributed managers track meaningful engineering metrics rat
 - [Remote Employee Output-Based Performance Measurement.](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

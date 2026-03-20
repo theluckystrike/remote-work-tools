@@ -160,3 +160,5 @@ Several tools complement wiki training:
 - [Best Practice for Remote Team Documentation Scaling When Wiki Becomes Unwieldy](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

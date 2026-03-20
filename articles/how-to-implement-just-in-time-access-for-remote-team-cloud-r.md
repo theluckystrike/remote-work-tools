@@ -229,3 +229,5 @@ JIT access significantly reduces risk but requires attention to several security
 - [How to Secure Remote Team Database Access with.](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

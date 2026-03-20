@@ -196,3 +196,5 @@ The best wireless presentation system for your organization depends on existing 
 - [Screen Sharing Solutions for Hybrid Meetings](/remote-work-tools/screen-sharing-solutions-for-hybrid-meetings/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

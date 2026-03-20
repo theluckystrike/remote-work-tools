@@ -176,3 +176,5 @@ These physical solutions work every time, don't require software processing, and
 - [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

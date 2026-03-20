@@ -214,3 +214,5 @@ The initial setup takes some time, but the peace of mind is worth it. Your authe
 - [How to Handle Mail and Legal Address When Working.](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

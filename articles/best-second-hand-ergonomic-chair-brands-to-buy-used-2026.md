@@ -204,3 +204,5 @@ Pair your ergonomic chair with:
 - [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

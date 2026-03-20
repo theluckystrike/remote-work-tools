@@ -161,3 +161,5 @@ Review these metrics monthly and adjust your policy based on operational data ra
 - [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

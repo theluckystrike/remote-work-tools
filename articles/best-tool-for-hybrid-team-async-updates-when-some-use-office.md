@@ -147,3 +147,5 @@ Many teams struggle with async updates because they fall into predictable traps.
 - [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

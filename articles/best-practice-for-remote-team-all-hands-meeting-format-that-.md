@@ -150,3 +150,5 @@ Build the habit. Measure results. Adjust as your team continues to grow.
 - [Best Practice for Remote Team Product Demo Day Format That Scales to 50 Engineers](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

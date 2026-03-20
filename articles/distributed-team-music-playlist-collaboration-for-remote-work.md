@@ -113,3 +113,5 @@ Start with a simple focus playlist for everyday deep work, then expand to themed
 - [Remote Architecture Collaboration Tool for Distributed.](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

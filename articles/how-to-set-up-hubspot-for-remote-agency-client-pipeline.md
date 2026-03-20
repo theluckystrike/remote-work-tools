@@ -163,3 +163,5 @@ Review stale deals monthly — build a workflow that flags deals unchanged for 1
 - [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

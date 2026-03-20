@@ -205,3 +205,5 @@ Effective freelance developer networking combines strategic presence, genuine co
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

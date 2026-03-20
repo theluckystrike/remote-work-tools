@@ -172,3 +172,5 @@ Test any candidate system in your actual room before full deployment. Acoustic e
 - [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -111,3 +111,5 @@ The right keyboard lets you code confidently during calls without worrying about
 - [How to Hide Messy Room During Video Calls Without.](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

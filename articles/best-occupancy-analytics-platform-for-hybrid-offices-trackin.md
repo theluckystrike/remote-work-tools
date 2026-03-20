@@ -247,3 +247,5 @@ When selecting an occupancy analytics platform, evaluate these technical factors
 - [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

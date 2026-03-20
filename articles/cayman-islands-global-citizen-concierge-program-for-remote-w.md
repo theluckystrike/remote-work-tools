@@ -163,3 +163,5 @@ For developers evaluating international relocation options, the GCCP offers an u
 - [Malaysia Digital Nomad Pass DE Rantau Application for.](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

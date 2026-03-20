@@ -10,6 +10,7 @@ tags: [knowledge-management, remote-teams, scaling-engineering, documentation, t
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -259,3 +260,5 @@ Track these metrics to gauge knowledge silo reduction:
 - [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

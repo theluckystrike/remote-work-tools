@@ -183,3 +183,5 @@ The right scheduling tool eliminates friction in multi-time zone coordination, l
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

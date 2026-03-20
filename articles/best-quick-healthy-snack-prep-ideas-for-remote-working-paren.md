@@ -164,3 +164,5 @@ Remote working parents who maintain consistent snack routines report better afte
 - [Distributed Team Wellness Challenge Ideas: Steps.](/remote-work-tools/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

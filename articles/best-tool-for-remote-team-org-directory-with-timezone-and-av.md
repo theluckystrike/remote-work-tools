@@ -259,3 +259,5 @@ What matters most is that your directory data is accessible programmatically, st
 - [Remote Team Interview Scheduling Tool for Coordinating.](/remote-work-tools/remote-team-interview-scheduling-tool-for-coordinating-acros/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

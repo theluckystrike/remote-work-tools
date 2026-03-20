@@ -220,3 +220,5 @@ Review your current IP assignment practices and identify gaps. Implement the che
 - [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

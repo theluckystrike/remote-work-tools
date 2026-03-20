@@ -246,3 +246,5 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 - [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

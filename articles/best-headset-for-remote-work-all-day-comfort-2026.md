@@ -141,3 +141,5 @@ Test headsets in your actual work environment before committing. Your acoustic e
 - [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

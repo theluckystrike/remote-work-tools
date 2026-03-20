@@ -245,3 +245,5 @@ The right tool transforms affinity mapping from a tedious chore into a powerful 
 - [Async Design Critique Process for Remote UX Teams.](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

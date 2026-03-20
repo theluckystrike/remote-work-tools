@@ -190,3 +190,5 @@ Recognition frequency matters more than grandeur. Small, regular acknowledgments
 - [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

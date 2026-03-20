@@ -153,3 +153,5 @@ Test different switch types if possible—many stores display samples. What feel
 - [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

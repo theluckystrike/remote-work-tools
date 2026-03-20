@@ -10,6 +10,7 @@ tags: [return-to-office, employee-survey, sentiment-analysis, remote-work-policy
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -273,3 +274,5 @@ Building an effective RTO sentiment survey requires thoughtful question design, 
 - [Return to Office Mental Health Support Resources for.](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

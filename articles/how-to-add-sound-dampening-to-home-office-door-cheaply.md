@@ -155,3 +155,5 @@ The key insight is that sound dampening follows the law of diminishing returns. 
 - [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

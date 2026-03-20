@@ -148,3 +148,5 @@ Document these conventions in your team handbook or contributing guide. New team
 - [How to Set Up Remote Team Peer Feedback Process Without.](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

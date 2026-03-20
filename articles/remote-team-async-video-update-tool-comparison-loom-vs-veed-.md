@@ -186,3 +186,5 @@ Test all three with actual team workflows before committing. Record a code revie
 - [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

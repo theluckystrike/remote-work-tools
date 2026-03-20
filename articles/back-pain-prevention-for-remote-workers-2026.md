@@ -206,3 +206,5 @@ Small consistent improvements beat dramatic overhauls that you abandon after a w
 - [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

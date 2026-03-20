@@ -137,3 +137,5 @@ Beyond the city center, these neighborhoods offer excellent cafe options with fe
 - [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -178,3 +178,5 @@ Remember: the goal isn't to convince clients that remote work is superior. It's 
 - [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

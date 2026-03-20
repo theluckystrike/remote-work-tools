@@ -253,3 +253,5 @@ Survey your team quarterly:
 - [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

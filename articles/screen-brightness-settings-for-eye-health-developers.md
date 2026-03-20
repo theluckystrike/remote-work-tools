@@ -233,3 +233,5 @@ You can also create your own automation using cron jobs or launch agents:
 - [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

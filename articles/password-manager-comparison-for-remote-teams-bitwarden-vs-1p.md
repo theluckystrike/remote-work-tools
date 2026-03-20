@@ -242,3 +242,5 @@ Both Bitwarden and 1Password serve remote developer teams well. The choice ultim
 - [Best Password Manager for a Remote Startup of 15 Employees](/remote-work-tools/best-password-manager-for-a-remote-startup-of-15-employees/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

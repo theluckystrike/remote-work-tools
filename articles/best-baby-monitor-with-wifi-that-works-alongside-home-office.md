@@ -180,3 +180,5 @@ Regardless of your choice, proper network configuration ensures your monitoring 
 - [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

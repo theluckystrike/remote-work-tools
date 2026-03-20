@@ -341,3 +341,5 @@ Invest in automation from day one. Every manual step in your demo provisioning p
 - [Async Sales Demo Recordings for Remote Enterprise Sales.](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

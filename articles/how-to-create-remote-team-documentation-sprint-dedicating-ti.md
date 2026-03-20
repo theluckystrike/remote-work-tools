@@ -164,3 +164,5 @@ Share these results with stakeholders. Documentation improvements often go unnot
 - [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

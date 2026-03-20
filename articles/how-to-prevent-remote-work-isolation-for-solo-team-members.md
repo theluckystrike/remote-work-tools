@@ -218,3 +218,5 @@ Set clear start and end times for work. Physical cues help: change clothes for w
 - [How to Measure Remote Team Productivity Without.](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

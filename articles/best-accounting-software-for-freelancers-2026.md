@@ -207,3 +207,5 @@ Whatever you choose, ensure your financial data remains portable. Regular export
 - [Best Invoicing Tools for Freelancers 2026: A Developer's Guide](/remote-work-tools/best-invoicing-tools-for-freelancers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

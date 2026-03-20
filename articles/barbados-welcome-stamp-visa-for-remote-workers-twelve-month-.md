@@ -128,3 +128,5 @@ For developers who can work remotely and want a high quality of life with reliab
 - [Taiwan Gold Card Visa for Remote Tech Workers: Complete.](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

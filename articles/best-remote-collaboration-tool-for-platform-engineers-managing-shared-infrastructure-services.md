@@ -224,3 +224,5 @@ graph TD
 - [Remote Developer Documentation Collaboration Tools for.](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

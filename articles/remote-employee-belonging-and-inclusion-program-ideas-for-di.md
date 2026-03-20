@@ -187,3 +187,5 @@ The best belonging programs treat inclusion as infrastructure, not an event. Con
 - [Remote Employee Intellectual Property Assignment Clause.](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

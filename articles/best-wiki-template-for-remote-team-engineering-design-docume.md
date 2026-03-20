@@ -184,3 +184,5 @@ The best design document template is one your team actually uses. Implement this
 - [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

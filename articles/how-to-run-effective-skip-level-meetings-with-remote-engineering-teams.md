@@ -10,6 +10,7 @@ tags: [skip-level-meeting, remote-work, engineering-management, leadership]
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -196,3 +197,5 @@ Done right, skip level meetings transform how your remote engineering team commu
 - [How to Run Effective Remote Brainstorming Session Using.](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

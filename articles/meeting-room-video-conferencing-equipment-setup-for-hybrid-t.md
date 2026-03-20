@@ -248,3 +248,5 @@ if __name__ == "__main__":
 - [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

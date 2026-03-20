@@ -272,3 +272,5 @@ For remote teams specifically, hardware keys eliminate the risk of SMS intercept
 - [How to Secure Remote Team CI/CD Pipeline From Supply.](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

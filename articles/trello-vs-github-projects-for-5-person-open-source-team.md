@@ -142,3 +142,5 @@ Start with GitHub Projects if your open source work centers on code. Expand to T
 - [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

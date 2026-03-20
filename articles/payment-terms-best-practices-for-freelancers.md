@@ -188,3 +188,5 @@ Always document everything. Keep records of all communication, especially if you
 - [Milestone Based Payment Structure for Dev Projects: A Practical Guide](/remote-work-tools/milestone-based-payment-structure-for-dev-projects/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

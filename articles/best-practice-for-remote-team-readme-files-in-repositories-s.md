@@ -237,3 +237,5 @@ If these metrics don't improve, your READMEs need work. Survey developers period
 - [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

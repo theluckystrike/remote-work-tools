@@ -160,3 +160,5 @@ Start with documentation, stagger your hires, and build rituals that work at sca
 - [Best Practice for Remote Team Offboarding at Scale.](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

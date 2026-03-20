@@ -128,3 +128,5 @@ Finding the right headset for glasses-wearing developers comes down to understan
 - [Best Monitor Height for Bifocal Glasses Wearing.](/remote-work-tools/best-monitor-height-for-bifocal-glasses-wearing-developers-setup/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

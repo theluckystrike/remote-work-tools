@@ -242,3 +242,5 @@ Separate environments: Never use production API keys in development or staging. 
 - [Best Secrets Management Tool for Remote Development.](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -140,3 +140,5 @@ The data you collect from tracking time—even for a few months—becomes invalu
 - [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

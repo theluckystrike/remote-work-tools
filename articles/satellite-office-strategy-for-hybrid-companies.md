@@ -226,3 +226,5 @@ A satellite office strategy for hybrid companies requires upfront investment in 
 - [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

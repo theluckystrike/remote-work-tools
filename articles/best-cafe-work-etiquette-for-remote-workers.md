@@ -210,3 +210,5 @@ Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find ano
 - [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

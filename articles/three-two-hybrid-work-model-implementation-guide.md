@@ -147,3 +147,5 @@ Adjust based on what you learn. The three-two model isn't one-size-fits-all—yo
 - [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

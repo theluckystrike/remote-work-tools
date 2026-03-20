@@ -152,3 +152,5 @@ For a 12-person research team, budget approximately $50-100 per month per person
 - [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

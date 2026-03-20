@@ -196,3 +196,5 @@ The future of remote sales forecasting leans heavily toward AI-assisted predicti
 - [Remote Team Financial Dashboard Tool for CFO: Tracking.](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

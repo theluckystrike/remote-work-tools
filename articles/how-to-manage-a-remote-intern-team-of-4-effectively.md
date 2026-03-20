@@ -190,3 +190,5 @@ The systems you build—check-ins, task templates, code review practices—scale
 - [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

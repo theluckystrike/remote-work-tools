@@ -139,3 +139,5 @@ Building internal integrations requires developer resources. Budget for implemen
 - [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

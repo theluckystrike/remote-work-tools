@@ -134,3 +134,5 @@ The most successful remote design teams treat design tokens as infrastructure, n
 - [How to Set Up Remote Design Handoff Workflow Between.](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -224,3 +224,5 @@ This approach transforms onboarding from a chaotic introduction into a structure
 - [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

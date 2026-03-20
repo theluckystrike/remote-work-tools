@@ -235,3 +235,5 @@ Protecting sensitive real estate data requires attention to several areas:
 - [Digital Signage for Hybrid Office Communication: A.](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

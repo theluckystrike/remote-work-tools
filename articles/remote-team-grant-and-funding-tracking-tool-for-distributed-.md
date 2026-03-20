@@ -435,3 +435,5 @@ Regardless of the tool chosen, establishing clear processes around budget approv
 - [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -186,3 +186,5 @@ Most teams see improvements within four to six weeks. The initial adjustment per
 - [Best Tool for Hybrid Team Async Updates When Some Use.](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

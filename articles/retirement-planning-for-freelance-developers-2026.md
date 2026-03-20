@@ -152,3 +152,5 @@ Retirement planning as a freelance developer is genuinely more flexible than tra
 - [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -204,3 +204,5 @@ Building genuine connections in remote teams requires intentional design. The ch
 - [How to Create Interest-Based Slack Channels for Remote.](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

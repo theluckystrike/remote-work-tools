@@ -205,3 +205,5 @@ Track these indicators to assess whether your knowledge transfer systems are wor
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

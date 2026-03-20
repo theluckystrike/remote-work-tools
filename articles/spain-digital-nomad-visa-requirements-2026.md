@@ -180,3 +180,5 @@ Provide clear evidence of remote work, down to individual contracts and invoices
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

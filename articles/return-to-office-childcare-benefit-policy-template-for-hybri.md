@@ -206,3 +206,5 @@ Watch for these issues when implementing childcare benefits:
 - [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

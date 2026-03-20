@@ -157,3 +157,5 @@ Track these metrics to improve your QBR process over time:
 - [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

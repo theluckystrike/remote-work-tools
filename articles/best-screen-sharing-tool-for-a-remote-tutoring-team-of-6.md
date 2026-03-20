@@ -170,3 +170,5 @@ The ideal approach often involves combining tools—Zoom for primary sessions, G
 - [Remote Team Password Sharing Best Practices for Shared.](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

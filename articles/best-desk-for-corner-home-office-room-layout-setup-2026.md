@@ -11,6 +11,7 @@ tags: [corner-desk, home-office, room-layout, ergonomics, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 
@@ -184,3 +185,5 @@ The right corner desk transforms awkward room angles into your most productive w
 - [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

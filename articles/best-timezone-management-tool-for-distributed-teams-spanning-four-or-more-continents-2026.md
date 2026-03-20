@@ -10,6 +10,7 @@ tags: [timezone, distributed-teams, remote-work, productivity, team-collaboratio
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -243,3 +244,5 @@ The key insight is that teams spanning four or more continents cannot rely on in
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -198,3 +198,5 @@ For developers working in shifts or on-call, consider a rapid-deploy setup—a p
 - [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

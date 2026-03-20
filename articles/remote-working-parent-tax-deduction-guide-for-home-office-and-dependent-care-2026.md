@@ -163,3 +163,5 @@ The tax benefits for remote working parents are real but require active document
 - [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

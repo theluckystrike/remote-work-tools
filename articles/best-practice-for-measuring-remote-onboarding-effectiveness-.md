@@ -215,3 +215,5 @@ Time to first commit gives you a clear, objective signal about whether your remo
 - [Best Practice for Measuring Remote Team Alignment Using.](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

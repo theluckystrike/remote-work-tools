@@ -166,3 +166,5 @@ Provide time for the employee to compose their thoughts. Async communication fav
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

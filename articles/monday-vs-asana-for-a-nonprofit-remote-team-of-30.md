@@ -227,3 +227,5 @@ The best tool is the one your team actually uses consistently. Both platforms of
 - [Best Framework for Evaluating Remote Team Collaboration.](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -219,3 +219,5 @@ Security awareness training for remote teams requires platforms that work as har
 - [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

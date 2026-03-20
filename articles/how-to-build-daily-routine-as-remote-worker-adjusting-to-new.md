@@ -197,3 +197,5 @@ After 2-3 weeks, your routine should stabilize. Fine-tune with these developer-s
 - [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

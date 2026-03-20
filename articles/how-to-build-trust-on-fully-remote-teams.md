@@ -217,3 +217,5 @@ The tool choice matters less than consistent usage. Pick tools your team will ac
 - [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -176,3 +176,5 @@ Update your escalation criteria, runbooks, and contact rotation based on these f
 - [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

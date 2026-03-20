@@ -209,3 +209,5 @@ When contractors finish their engagements, revoke their credentials immediately.
 - [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

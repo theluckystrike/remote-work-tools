@@ -122,3 +122,5 @@ Once approved, you'll have access to Portugal's relatively low cost of living, e
 - [Malaysia Digital Nomad Pass DE Rantau Application for.](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -124,3 +124,5 @@ The goal is creating reliable independent play infrastructure that supports your
 - [Best Quick Healthy Snack Prep Ideas for Remote Working.](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

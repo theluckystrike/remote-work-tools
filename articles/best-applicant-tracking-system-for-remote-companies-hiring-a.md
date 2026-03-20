@@ -181,3 +181,5 @@ The right ATS transforms remote hiring from a logistical nightmare into a scalab
 - [Best Project Tracking Tool for Remote Hardware.](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

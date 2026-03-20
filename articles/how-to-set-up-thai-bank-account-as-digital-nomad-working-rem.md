@@ -130,3 +130,5 @@ For developers working remotely, integrating banking APIs can automate invoice p
 - [How to Handle Health Insurance as a Digital Nomad.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

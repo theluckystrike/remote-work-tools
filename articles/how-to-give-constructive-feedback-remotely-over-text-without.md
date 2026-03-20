@@ -170,3 +170,5 @@ The goal isn't to eliminate all friction—healthy friction drives improvement. 
 - [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

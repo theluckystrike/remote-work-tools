@@ -154,3 +154,5 @@ The best indicator is when participants start suggesting recipes for future sess
 - [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

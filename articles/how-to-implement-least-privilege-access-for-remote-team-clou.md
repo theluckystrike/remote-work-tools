@@ -10,6 +10,7 @@ tags: [iam, least-privilege, cloud-security, access-control, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -294,3 +295,5 @@ Schedule this audit to run weekly and generate reports for security review.
 - [Best Security Information and Event Management Tool for.](/remote-work-tools/best-security-information-event-management-tool-for-remote-first-companies-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

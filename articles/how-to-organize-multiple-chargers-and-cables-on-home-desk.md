@@ -234,3 +234,5 @@ spares:
 - [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

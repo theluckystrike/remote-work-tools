@@ -109,3 +109,5 @@ Regardless of which option you choose, invest in monitor stands or arms for prop
 - [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

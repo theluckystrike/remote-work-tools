@@ -118,3 +118,5 @@ The best backpack for digital nomad developers balances protection, organization
 - [Power Adapter Kit for International Digital Nomads](/remote-work-tools/power-adapter-kit-for-international-digital-nomads/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

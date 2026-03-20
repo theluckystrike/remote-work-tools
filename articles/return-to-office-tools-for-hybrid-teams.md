@@ -169,3 +169,5 @@ If your team has development capacity, investing in custom tooling can pay divid
 - [Hybrid Office Air Quality Monitoring for Maintaining.](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -141,3 +141,5 @@ Remote parents face real constraints on their time. Fifteen minutes between meet
 - [Remote Work Special Needs Child Accommodation Guide for.](/remote-work-tools/remote-work-special-needs-child-accommodation-guide-for-parents/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

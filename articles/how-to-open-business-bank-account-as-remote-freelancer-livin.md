@@ -114,3 +114,5 @@ Solution: Some business accounts require a minimum deposit or maintain a minimum
 - [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

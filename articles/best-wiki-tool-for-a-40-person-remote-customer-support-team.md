@@ -187,3 +187,5 @@ A well-implemented wiki reduces agent onboarding time by 40% and improves first-
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

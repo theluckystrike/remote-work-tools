@@ -152,3 +152,5 @@ Start with these foundational steps regardless of which tools you ultimately dep
 - [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

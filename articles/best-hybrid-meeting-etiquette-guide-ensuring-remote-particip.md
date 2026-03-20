@@ -224,3 +224,5 @@ If remote participation (measured by messages sent, questions asked, or action i
 - [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

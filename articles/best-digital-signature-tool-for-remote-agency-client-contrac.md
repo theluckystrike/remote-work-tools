@@ -240,3 +240,5 @@ Digital signature tools provide the infrastructure, but your implementation dete
 - [Remote Agency Client Satisfaction Survey Template and.](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

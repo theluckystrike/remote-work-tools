@@ -222,3 +222,5 @@ Customize the template above for your specific needs and have it signed before b
 - [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

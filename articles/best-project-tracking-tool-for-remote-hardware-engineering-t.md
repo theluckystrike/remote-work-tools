@@ -170,3 +170,5 @@ Consider starting with a 30-day trial of your top two choices, running actual ha
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

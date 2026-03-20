@@ -191,3 +191,5 @@ No Follow-Up: Async standups work only if someone actually reads and acts on the
 - [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

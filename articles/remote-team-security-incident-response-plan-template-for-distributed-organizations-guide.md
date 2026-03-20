@@ -10,6 +10,7 @@ tags: [security, incident-response, remote-work, distributed-teams]
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -294,3 +295,5 @@ A plan that isn't tested is just a document. For distributed teams, test your in
 - [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

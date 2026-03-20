@@ -161,3 +161,5 @@ When possible, schedule important calls during predictable quiet periods. If you
 - [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

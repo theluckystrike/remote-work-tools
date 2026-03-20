@@ -144,3 +144,5 @@ This workflow produces reusable artifacts. Your interview library becomes a refe
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

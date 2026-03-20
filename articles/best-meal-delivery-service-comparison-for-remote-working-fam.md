@@ -180,3 +180,5 @@ Remote working families in 2026 have excellent meal delivery options. The right 
 - [Best Portable White Noise Speaker for Remote Parents.](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

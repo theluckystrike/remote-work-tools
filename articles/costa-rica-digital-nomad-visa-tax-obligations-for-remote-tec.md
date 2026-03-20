@@ -146,3 +146,5 @@ By understanding these fundamentals, you can enjoy Costa Rica's beaches and comm
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

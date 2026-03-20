@@ -10,6 +10,7 @@ tags: [productivity, remote-work, automation, time-management]
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -199,3 +200,5 @@ The best grocery delivery strategy for remote working parents isn't about findin
 - [Best Portable White Noise Speaker for Remote Parents.](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

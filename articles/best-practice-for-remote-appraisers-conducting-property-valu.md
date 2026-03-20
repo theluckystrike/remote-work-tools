@@ -345,3 +345,5 @@ Build dashboards that surface these metrics in real-time and trigger alerts when
 - [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

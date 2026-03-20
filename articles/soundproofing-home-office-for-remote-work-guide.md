@@ -146,3 +146,5 @@ Your acoustic environment affects productivity as much as lighting and ergonomic
 - [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

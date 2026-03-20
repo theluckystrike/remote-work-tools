@@ -208,3 +208,5 @@ The right health insurance for freelancers depends on your specific situation. U
 - [Thailand Long Term Visa for Remote Workers 2026: Complete Guide](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

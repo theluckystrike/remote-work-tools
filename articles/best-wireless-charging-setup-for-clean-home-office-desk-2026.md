@@ -123,3 +123,5 @@ Position the 65W charger near your laptop work zone, and keep the Qi pads in you
 - [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/remote-work-tools/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

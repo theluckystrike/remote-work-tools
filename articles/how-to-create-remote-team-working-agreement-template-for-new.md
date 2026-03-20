@@ -261,3 +261,5 @@ The goal isn't perfection—it's creating a shared understanding that lets your 
 - [Remote Working Parent Support Group Template for.](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

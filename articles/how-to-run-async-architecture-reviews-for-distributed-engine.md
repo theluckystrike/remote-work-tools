@@ -171,3 +171,5 @@ This tiered approach prevents bottlenecks while ensuring significant decisions r
 - [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

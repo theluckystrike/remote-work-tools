@@ -172,3 +172,5 @@ Remember: your setup doesn't need to be silent—your colleagues simply shouldn'
 - [Best Keyboard for Quiet Typing During Video Calls in.](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

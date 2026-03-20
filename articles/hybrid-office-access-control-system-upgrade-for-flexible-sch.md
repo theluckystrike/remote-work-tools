@@ -282,3 +282,5 @@ Upgrading access control infrastructure requires careful planning:
 - [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

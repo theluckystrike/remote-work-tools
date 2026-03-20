@@ -238,3 +238,5 @@ Iterate on your format based on feedback. Every team evolves their retrospective
 - [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

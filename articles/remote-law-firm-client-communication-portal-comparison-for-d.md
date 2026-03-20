@@ -251,3 +251,5 @@ Factor in additional costs for API overages, data storage, and implementation su
 - [Best Employer of Record Service for Hiring Remote.](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

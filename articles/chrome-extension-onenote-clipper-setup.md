@@ -198,3 +198,5 @@ For edge cases, consider capturing content as PDF through Chrome's built-in prin
 - [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developers/)
 - [Building a Zettelkasten for Software Engineering](/remote-work/building-a-zettelkasten-for-software-engineering/)
 - [Obsidian vs Notion for Personal Knowledge Management](/remote-work/obsidian-vs-notion-for-personal-knowledge-management/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -202,3 +202,5 @@ For most remote design agencies, a hybrid approach works best: Dropbox or Google
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

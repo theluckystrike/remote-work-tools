@@ -156,3 +156,5 @@ Avoid generic evaluations that could apply to any vendor. Specific, measurable c
 - [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

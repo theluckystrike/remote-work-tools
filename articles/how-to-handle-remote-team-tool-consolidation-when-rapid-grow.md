@@ -192,3 +192,5 @@ These metrics justify the effort and identify areas for further optimization.
 - [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

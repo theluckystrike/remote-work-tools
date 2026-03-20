@@ -225,3 +225,5 @@ This pattern keeps sensitive booking data on-premises while using Microsoft 365 
 - [Best Hot Desking Software for Hybrid Offices with Under.](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

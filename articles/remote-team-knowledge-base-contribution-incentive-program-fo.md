@@ -137,3 +137,5 @@ Don't ignore quality: A large knowledge base full of outdated or incorrect infor
 - [How to Handle Knowledge Base Handoff When Remote.](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

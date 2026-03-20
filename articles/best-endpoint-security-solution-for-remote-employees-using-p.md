@@ -213,3 +213,5 @@ The best endpoint security solution for remote employees using personal devices 
 - [Best Backup Solution for Remote Employee Laptops.](/remote-work-tools/best-backup-solution-for-remote-employee-laptops-automatic-a/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

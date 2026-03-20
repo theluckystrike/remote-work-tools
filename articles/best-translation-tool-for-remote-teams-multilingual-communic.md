@@ -250,3 +250,5 @@ For most remote teams, a pragmatic approach combines DeepL for accuracy-sensitiv
 - [Best Cloud Access Security Broker for Remote Teams Using.](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

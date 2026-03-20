@@ -218,3 +218,5 @@ The goal isn't surveillance—it's understanding where your team struggles and w
 - [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

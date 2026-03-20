@@ -388,3 +388,5 @@ A well-integrated locker system removes one of the friction points in hot-deskin
 - [Best Visitor Management System for Hybrid Offices.](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

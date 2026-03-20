@@ -207,3 +207,5 @@ The teams that thrive across five-plus timezones aren't those that find better m
 - [Best Timezone Management Tool for Distributed Teams.](/remote-work-tools/best-timezone-management-tool-for-distributed-teams-spanning-four-or-more-continents-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

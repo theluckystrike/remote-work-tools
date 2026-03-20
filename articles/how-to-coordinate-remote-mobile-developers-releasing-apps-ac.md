@@ -275,3 +275,5 @@ The goal is creating systems where developers can work independently while stayi
 - [How to Coordinate Remote SRE Team Capacity Planning.](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

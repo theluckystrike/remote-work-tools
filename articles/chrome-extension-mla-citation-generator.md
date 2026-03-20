@@ -182,3 +182,5 @@ MLA citation generator Chrome extensions eliminate repetitive formatting work, l
 - [Chrome Extension Window Resizer Testing: Complete Guide for 2026](/remote-work-tools/chrome-extension-window-resizer-testing/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

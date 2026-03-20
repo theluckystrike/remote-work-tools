@@ -140,3 +140,5 @@ Packet loss: Check your local network equipment first—old routers or damaged E
 - [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

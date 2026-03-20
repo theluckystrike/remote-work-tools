@@ -237,3 +237,5 @@ Integrate gratitude into existing meetings rather than creating new ones. Replac
 - [Best Practice for Measuring Remote Team Alignment Using.](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

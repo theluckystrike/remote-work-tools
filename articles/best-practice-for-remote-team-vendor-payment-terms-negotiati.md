@@ -136,3 +136,5 @@ Document everything in writing. Verbal agreements about payment terms create amb
 - [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

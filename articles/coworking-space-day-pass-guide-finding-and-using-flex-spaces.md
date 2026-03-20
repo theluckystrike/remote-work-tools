@@ -164,3 +164,5 @@ The key is matching your workspace needs to your actual usage patterns—day pas
 - [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

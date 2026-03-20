@@ -181,3 +181,5 @@ Collect this data through your booking system and combine with periodic team sur
 - [Best Practice for Hybrid Office Kitchen and Shared Space.](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

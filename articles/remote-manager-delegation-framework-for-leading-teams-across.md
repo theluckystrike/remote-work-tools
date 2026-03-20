@@ -203,3 +203,5 @@ Next steps: Audit your current workload. Categorize your tasks using the four ti
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

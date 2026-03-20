@@ -143,3 +143,5 @@ Iterate based on results. Problem areas remaining after initial treatment typica
 - [Best Conference Room Speaker Mic for Hybrid Meetings.](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

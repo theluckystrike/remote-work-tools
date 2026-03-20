@@ -168,3 +168,5 @@ The goal is not standup itself—standup is a tool for coordination. If your tea
 - [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -176,3 +176,5 @@ This data helps you refine your scoping process and identify areas where client 
 - [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

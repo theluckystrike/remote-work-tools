@@ -166,3 +166,5 @@ Most clients genuinely don't understand IP rights. A professional explanation of
 - [How to Separate Business and Personal Finances as a Freelancer](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

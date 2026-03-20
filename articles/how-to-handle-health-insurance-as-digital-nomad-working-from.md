@@ -178,3 +178,5 @@ Without insurance, the same hospitalization could cost $5,000-15,000 at a privat
 - [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

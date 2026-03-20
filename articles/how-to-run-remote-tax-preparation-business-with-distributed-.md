@@ -226,3 +226,5 @@ Remote tax preparation with distributed seasonal staff works when you invest in 
 - [How to Run Remote Team Quarterly Business Review for.](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

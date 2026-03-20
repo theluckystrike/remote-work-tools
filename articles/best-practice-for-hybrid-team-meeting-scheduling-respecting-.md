@@ -218,3 +218,5 @@ Building meeting systems that respect both remote and office preferences isn't a
 - [How to Create Remote Team Inclusive Meeting Practices.](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -217,3 +217,5 @@ The best lighting setup is one you'll actually use consistently. Incremental imp
 - [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

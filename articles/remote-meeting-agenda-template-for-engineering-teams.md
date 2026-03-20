@@ -210,3 +210,5 @@ Effective remote meeting agenda templates transform chaotic video calls into pro
 - [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

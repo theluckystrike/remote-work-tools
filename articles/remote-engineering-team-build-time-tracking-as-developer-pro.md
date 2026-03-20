@@ -258,3 +258,5 @@ Build by theluckystrike — More at [zovo.one](https://zovo.one)
 - [Remote Team Support Ticket First Response Time Tracking.](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
 - [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
 - [Remote Team Story Point Velocity Trend Analysis Tool for.](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -198,3 +198,5 @@ Automated generation keeps documentation synchronized with deployed services. Ru
 - [Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

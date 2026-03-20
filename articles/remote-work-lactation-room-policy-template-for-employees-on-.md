@@ -10,6 +10,7 @@ tags: [remote-work, lactation-policy, video-calls, employee-benefits, hr-templat
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -201,3 +202,5 @@ Track policy success through metrics that matter:
 - [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

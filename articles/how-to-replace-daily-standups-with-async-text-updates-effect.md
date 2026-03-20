@@ -175,3 +175,5 @@ Async text updates transform daily standups from a mandatory meeting into a flex
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -181,3 +181,5 @@ Reducing wrist pain requires consistency. Start with one or two changes—perhap
 - [Roost Stand vs Nexstand Laptop Stand Comparison: A Developer's Guide](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

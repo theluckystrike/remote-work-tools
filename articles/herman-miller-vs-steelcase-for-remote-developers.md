@@ -139,3 +139,5 @@ For remote developers specifically, consider your work environment: the climate 
 - [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

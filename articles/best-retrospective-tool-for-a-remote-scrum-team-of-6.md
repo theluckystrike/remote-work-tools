@@ -198,3 +198,5 @@ Test two or three options with actual sprints before committing. The tool that f
 - [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

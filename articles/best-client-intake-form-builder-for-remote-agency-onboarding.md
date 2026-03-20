@@ -148,3 +148,5 @@ The best intake form builder is one your team actually uses consistently. A soph
 - [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

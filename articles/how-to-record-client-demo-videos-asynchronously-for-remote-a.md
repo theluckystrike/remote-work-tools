@@ -187,3 +187,5 @@ This prevents demos from floating in limbo while clients assume you'll wait inde
 - [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

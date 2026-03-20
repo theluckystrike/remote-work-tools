@@ -178,3 +178,5 @@ The best business bank account for freelance developers in 2026 balances low cos
 - [Best Time Tracking Tools for Remote Freelancers: A.](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -211,3 +211,5 @@ Start with quick wins that have high visibility. Implementing a channel cleanup 
 - [Remote Team Communication Breakdown: Warning Signs When.](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

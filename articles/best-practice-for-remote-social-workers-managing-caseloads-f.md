@@ -180,3 +180,5 @@ Remote social work demands disciplined systems and intentional practices. By imp
 - [How to Facilitate Remote Team Workshops Using Miro with.](/remote-work-tools/how-to-facilitate-remote-team-workshops-using-miro-with-stru/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

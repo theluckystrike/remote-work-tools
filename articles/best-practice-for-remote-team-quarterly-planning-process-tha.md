@@ -7,6 +7,8 @@ author: theluckystrike
 permalink: /best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/
 categories: [guides]
 tags: [quarterly-planning, remote-work, scaling, multi-team, planning-process, async]
+score: 7
+reviewed: true
 ---
 
 {% raw %}
@@ -180,3 +182,11 @@ A quarterly plan isn't set-and-forget. Build in a mid-quarter sync (around week 
 
 The most effective quarterly planning processes combine bottom-up input (what teams believe they can accomplish) with top-down direction (strategic priorities from leadership). Teams that feel ownership over their commitments perform better than teams that receive mandates.
 
+
+## Related Reading
+
+- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
+- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
+- [Remote Work Tools Hub](/guides-hub/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

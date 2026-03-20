@@ -177,3 +177,5 @@ Every kickoff meeting should end with specific action items: "Client will provid
 - [How to Create Client Project Retrospective Format for.](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

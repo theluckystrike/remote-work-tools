@@ -146,3 +146,5 @@ You can combine hardware and software approaches. Use the hardware KVM for your 
 - [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

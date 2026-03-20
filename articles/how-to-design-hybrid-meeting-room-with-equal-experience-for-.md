@@ -265,3 +265,5 @@ Even well-designed hybrid rooms fail when teams overlook these issues:
 - [Best Wireless Presentation System for Hybrid Meeting.](/remote-work-tools/best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -239,3 +239,5 @@ The goal isn't perfect security—it's making attackers' jobs significantly hard
 - [How to Set Up OKR Tracking System for Distributed.](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

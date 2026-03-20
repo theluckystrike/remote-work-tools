@@ -365,3 +365,5 @@ The right combination of tools transforms GDPR compliance from a legal burden in
 - [Virtual Team Events Ideas for Developers in 2026](/remote-work-tools/virtual-team-events-ideas-for-developers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -237,3 +237,5 @@ A solid BYOD policy enables the flexibility remote teams need while maintaining 
 - [How to Create a Remote Team Acceptable Use Policy for.](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -163,3 +163,5 @@ Start with the microphone placement and acoustic treatment—these provide the f
 - [Best Video Bar for Small Hybrid Meeting Rooms Under 8.](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

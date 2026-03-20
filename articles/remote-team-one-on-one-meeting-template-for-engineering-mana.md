@@ -10,6 +10,7 @@ tags: [one-on-one, remote-work, engineering-management, direct-reports, check-in
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -270,3 +271,5 @@ A well-executed one-on-one template transforms a simple meeting into your most p
 - [Remote Team Walking Meeting Format for One-on-One.](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

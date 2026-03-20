@@ -189,3 +189,5 @@ Remote teams must be intentional about knowledge sharing. Without hallway conver
 - [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

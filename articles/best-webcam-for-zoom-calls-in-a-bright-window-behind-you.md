@@ -143,3 +143,5 @@ Look for these quality indicators in your test: your face should be properly exp
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

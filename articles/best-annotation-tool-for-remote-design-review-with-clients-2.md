@@ -192,3 +192,5 @@ Annotations can inadvertently expand project scope. When clients add feedback th
 - [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

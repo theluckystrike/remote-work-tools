@@ -119,3 +119,5 @@ For developers in suitable environments, open back headphones improve daily comf
 - [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

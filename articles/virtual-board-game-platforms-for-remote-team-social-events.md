@@ -264,3 +264,5 @@ The technical tools matter less than consistent participation. A team that plays
 - [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

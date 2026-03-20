@@ -266,3 +266,5 @@ Review these metrics weekly. If approval times spike, investigate whether team c
 - [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

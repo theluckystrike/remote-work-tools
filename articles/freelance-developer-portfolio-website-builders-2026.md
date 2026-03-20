@@ -305,3 +305,5 @@ Build something you're proud to show, keep it fast, and update it regularly. You
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

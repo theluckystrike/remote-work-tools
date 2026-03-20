@@ -159,3 +159,5 @@ Chiang Mai offers excellent value for remote workers willing to invest time in f
 - [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

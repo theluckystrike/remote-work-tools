@@ -189,3 +189,5 @@ If these trends do not appear after three months, your update format or communic
 - [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

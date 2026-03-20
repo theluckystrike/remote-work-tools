@@ -209,3 +209,5 @@ For teams with stricter requirements, consider combining WireGuard with addition
 - [How to Set Up ClickUp Client Portal for Remote Project.](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

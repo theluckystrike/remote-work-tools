@@ -253,3 +253,5 @@ Managing client permissions across remote team tools requires treating access co
 - [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

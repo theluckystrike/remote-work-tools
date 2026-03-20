@@ -172,3 +172,5 @@ The goal is not to use one tool exclusively, but to match tool capabilities to c
 - [Remote Team Video Call Fatigue Reduction Strategy.](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -193,3 +193,5 @@ The best tool for your team depends on where your people already work and how mu
 - [Best Virtual Team Trivia Platform for Remote Social.](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

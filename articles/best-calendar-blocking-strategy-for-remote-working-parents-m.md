@@ -241,3 +241,5 @@ This framework gives remote working parents a practical approach to calendar man
 - [Best Grocery Delivery Service Strategy for Remote.](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

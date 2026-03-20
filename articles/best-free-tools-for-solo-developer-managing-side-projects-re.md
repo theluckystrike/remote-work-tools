@@ -169,3 +169,5 @@ The best tools are ones you'll actually use. Start with GitHub and Vercel for th
 - [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

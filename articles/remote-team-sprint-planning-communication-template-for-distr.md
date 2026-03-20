@@ -256,3 +256,5 @@ The key to success with these templates is consistency. Use the same channel nam
 - [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -179,3 +179,5 @@ Start with one template, customize it for your target clients, and track your re
 - [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

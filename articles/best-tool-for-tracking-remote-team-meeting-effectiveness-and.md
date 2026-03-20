@@ -190,3 +190,5 @@ These conversations, grounded in data, create buy-in for changes that would othe
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -262,3 +262,5 @@ Privacy remains paramount. Clearly communicate sensor placement and data usage t
 - [Best Desk Booking App for Hybrid Offices Using Microsoft.](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

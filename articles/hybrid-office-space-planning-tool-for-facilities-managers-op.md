@@ -336,3 +336,5 @@ Start with a pilot floor covering 20-50 desks. Validate your sensor reliability,
 - [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

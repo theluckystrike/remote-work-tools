@@ -7,6 +7,8 @@ author: theluckystrike
 permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/
 categories: [guides]
 tags: [remote-hiring, diversity, diversity-sourcing, inclusive-hiring, distributed-teams, talent-acquisition]
+score: 7
+reviewed: true
 ---
 
 {% raw %}
@@ -175,3 +177,11 @@ Diversity sourcing requires ongoing measurement to identify what's working:
 
 Set baseline measurements before implementing changes, then track quarterly. Small improvements compound—moving from 15% to 20% diverse hires over two years represents significant organizational change.
 
+
+## Related Reading
+
+- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
+- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
+- [Remote Work Tools Hub](/guides-hub/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -219,3 +219,5 @@ The specific numbers and venues matter less than the discipline of planning. Use
 - [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

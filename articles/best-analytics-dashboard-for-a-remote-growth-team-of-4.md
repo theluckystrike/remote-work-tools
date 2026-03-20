@@ -183,3 +183,5 @@ The four-person growth team advantage is agility. Your dashboard should amplify 
 - [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

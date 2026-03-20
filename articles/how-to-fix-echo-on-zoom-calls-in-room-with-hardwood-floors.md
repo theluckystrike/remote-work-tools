@@ -191,3 +191,5 @@ Room modes cause certain frequencies to resonate, exacerbating echo in specific 
 - [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

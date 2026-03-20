@@ -170,3 +170,5 @@ The goal remains simple: create moments where developers connect as humans, shar
 - [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

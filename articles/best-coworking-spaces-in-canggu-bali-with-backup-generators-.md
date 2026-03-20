@@ -140,3 +140,5 @@ The best coworking space for your work depends on your specific requirements: CI
 - [UPS Battery Backup for Home Office Setup 2026](/remote-work-tools/ups-battery-backup-for-home-office-setup-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

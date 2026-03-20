@@ -199,3 +199,5 @@ function navigateToSection(currentIndex, direction = 'next') {
 - [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

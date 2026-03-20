@@ -169,3 +169,5 @@ Remember: networking as a digital nomad requires more intentionality than tradit
 - [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

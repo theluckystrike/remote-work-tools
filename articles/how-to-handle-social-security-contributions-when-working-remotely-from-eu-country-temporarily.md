@@ -200,3 +200,5 @@ The rules exist to protect workers and ensure fair contribution distribution acr
 - [How to Handle Two Factor Authentication Apps When.](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

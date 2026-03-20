@@ -177,3 +177,5 @@ CLI-based timelines offer reproducibility, version control, and integration capa
 - [Best File Sharing Solution for Remote Agency Large.](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

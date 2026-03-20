@@ -212,3 +212,5 @@ Your threat model differs from enterprises. Your budget differs from enterprises
 - [Endpoint Encryption Enforcement for Remote Team Laptops.](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

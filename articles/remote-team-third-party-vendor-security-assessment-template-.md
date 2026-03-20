@@ -200,3 +200,5 @@ Use this checklist when deploying your vendor security assessment template:
 - [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

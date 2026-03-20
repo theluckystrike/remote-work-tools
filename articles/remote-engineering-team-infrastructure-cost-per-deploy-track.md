@@ -188,3 +188,5 @@ Implementing cost tracking across remote engineering teams requires coordination
 - [Remote Team Runbook Template for SSL Certificate Renewal.](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

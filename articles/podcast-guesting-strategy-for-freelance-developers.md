@@ -184,3 +184,5 @@ Start with three target podcasts this week. Research their formats, draft person
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

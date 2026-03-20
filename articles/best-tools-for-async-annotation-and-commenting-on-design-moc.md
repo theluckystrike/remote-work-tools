@@ -161,3 +161,5 @@ This webhook listener scans incoming Figma comments for `[ticket]` tags and auto
 - [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

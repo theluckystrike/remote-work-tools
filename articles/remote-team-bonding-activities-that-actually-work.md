@@ -178,3 +178,5 @@ Start with one activity that fits your team size and culture. Try it for a month
 - [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -149,3 +149,5 @@ The technical skills that made you employable transfer directly to freelance wor
 - [Freelance Developer to Product Builder Transition: A.](/remote-work-tools/freelance-developer-to-product-builder-transition/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

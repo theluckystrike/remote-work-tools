@@ -192,3 +192,5 @@ Airbnb accommodations vary widely in desk quality. Your portable monitor ensures
 - [Best Portable WiFi Hotspot for Digital Nomads: A.](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

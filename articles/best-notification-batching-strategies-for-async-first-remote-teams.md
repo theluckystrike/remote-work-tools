@@ -150,3 +150,5 @@ Make batching flexible—adjust your windows monthly based on actual usage patte
 - [Remote Team Onboarding Communication Checklist for First.](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

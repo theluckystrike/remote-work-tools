@@ -232,3 +232,5 @@ The right tool is the one your team will actually use consistently. A simple sys
 - [Remote Agency Subcontractor Client Communication.](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

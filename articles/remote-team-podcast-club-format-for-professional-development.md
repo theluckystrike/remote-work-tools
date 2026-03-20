@@ -173,3 +173,5 @@ The best remote teams invest in learning together. A podcast club provides struc
 - [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

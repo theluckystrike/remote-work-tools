@@ -211,3 +211,5 @@ A good contract builds trust. When both parties understand expectations clearly,
 - [Essential Contract Clauses Every Freelance Developer.](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

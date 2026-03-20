@@ -167,3 +167,5 @@ The remote work environment makes documentation culture more important than ever
 - [How to Create Remote Team Compliance Documentation.](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

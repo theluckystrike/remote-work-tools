@@ -222,3 +222,5 @@ Start with the simplest tracking that provides adequate visibility, then add aut
 - [Best Tool for Tracking Remote Team Goals and Key Results.](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

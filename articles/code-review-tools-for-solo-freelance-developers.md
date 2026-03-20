@@ -189,3 +189,5 @@ Remember, code review isn't about finding fault. It's about continuous improveme
 - [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

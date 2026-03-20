@@ -7,6 +7,8 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-incident-response-process-from-star/
 categories: [guides]
+score: 7
+reviewed: true
 ---
 
 {% raw %}
@@ -329,3 +331,11 @@ Regardless of team size, apply these foundational practices:
 
 **Document everything.** If it's not written down, it doesn't exist. Create artifacts that help future responders.
 
+
+## Related Reading
+
+- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
+- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
+- [Remote Work Tools Hub](/guides-hub/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

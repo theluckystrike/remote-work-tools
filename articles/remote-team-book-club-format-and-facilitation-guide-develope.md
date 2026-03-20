@@ -217,3 +217,5 @@ For remote developer book clubs, these tools integrate well with existing workfl
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -160,3 +160,5 @@ Agencies increasingly require compliance certifications as minimum barriers to p
 - [How to Create a Remote Team Acceptable Use Policy for.](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

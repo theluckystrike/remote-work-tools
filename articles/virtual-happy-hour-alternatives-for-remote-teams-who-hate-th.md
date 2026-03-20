@@ -147,3 +147,5 @@ The teams that abandon the "virtual happy hour" concept entirely and replace it 
 - [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

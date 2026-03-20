@@ -207,3 +207,5 @@ Start by mapping your current approval process, identify bottlenecks, and select
 - [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

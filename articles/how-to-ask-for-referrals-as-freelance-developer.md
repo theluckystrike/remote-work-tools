@@ -179,3 +179,5 @@ Developers who build genuine relationships with clients rarely need to "ask" for
 - [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

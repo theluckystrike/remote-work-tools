@@ -237,3 +237,5 @@ When rolling out new shared space guidelines, follow this sequence:
 - [Best Practice for Hybrid Team Social Events Including.](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

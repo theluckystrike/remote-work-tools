@@ -214,3 +214,5 @@ Sentiment analysis works best as an early warning system, not a replacement for 
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

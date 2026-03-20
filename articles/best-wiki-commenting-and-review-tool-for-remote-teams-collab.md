@@ -152,3 +152,5 @@ Tools with built-in analytics help, but you can also export comment data to spre
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

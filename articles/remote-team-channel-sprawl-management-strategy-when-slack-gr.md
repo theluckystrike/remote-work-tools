@@ -186,3 +186,5 @@ If Slack becomes unmanageable despite these strategies, evaluate alternatives. S
 - [Best Contract Management Tool for Remote Agency Multiple.](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

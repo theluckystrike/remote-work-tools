@@ -106,3 +106,5 @@ Peak hours at popular cafes run 10am-2pm and 3pm-6pm on weekdays. For guaranteed
 - [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -124,3 +124,5 @@ Your project management tool should feel like it accelerates your work, not adds
 - [Best Tool for Remote Team Cross-Functional Project Staffing as Organization Grows Larger 2026](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

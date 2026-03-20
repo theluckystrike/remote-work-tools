@@ -168,3 +168,5 @@ Extensions work best for quick actions and context-aware issue creation. Reserve
 - [Linear vs Jira for Software Development: A Practical.](/remote-work-tools/linear-vs-jira-for-software-development/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

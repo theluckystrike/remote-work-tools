@@ -193,3 +193,5 @@ Document this constraint so new hires understand why initial meetings are sparse
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

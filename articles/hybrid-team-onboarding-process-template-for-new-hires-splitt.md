@@ -273,3 +273,5 @@ The key principle remains constant: new hires need equal opportunity to succeed 
 - [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

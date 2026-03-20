@@ -185,3 +185,5 @@ Some teams maintain a "lightning talk queue" where volunteers add their names an
 - [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

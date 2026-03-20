@@ -197,3 +197,5 @@ Here's a practical template you can adapt:
 - [Async Decision Making with RFC Documents for Engineering.](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

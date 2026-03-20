@@ -157,3 +157,5 @@ Hybrid sprint ceremonies can work well when you treat remote participation as a 
 - [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

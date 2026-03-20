@@ -235,3 +235,5 @@ The best choice is the one your team actually uses consistently. Both Slack and 
 - [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

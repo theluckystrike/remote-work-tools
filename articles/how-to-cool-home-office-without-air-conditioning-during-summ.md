@@ -180,3 +180,5 @@ Track your productivity alongside temperature readings:
 - [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

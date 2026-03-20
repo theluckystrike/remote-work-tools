@@ -248,3 +248,5 @@ Start with browser-based capture for the simplest implementation, migrate to Web
 - [How to Set Up Hybrid Office Wayfinding System for.](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

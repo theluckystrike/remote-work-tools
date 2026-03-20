@@ -197,3 +197,5 @@ A team that regularly examines its health builds resilience against the inevitab
 - [How to Facilitate Engaging Remote Retrospectives](/remote-work-tools/how-to-facilitate-engaging-remote-retrospectives/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

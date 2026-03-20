@@ -237,3 +237,5 @@ Track these secondary metrics alongside raw FRT to understand the full picture:
 - [Best Tool for Tracking Remote Team On-Call Burden.](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

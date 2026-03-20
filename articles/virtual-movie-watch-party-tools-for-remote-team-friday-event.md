@@ -150,3 +150,5 @@ The best choice depends on your team size, technical capacity, existing infrastr
 - [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

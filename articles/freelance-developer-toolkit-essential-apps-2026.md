@@ -252,3 +252,5 @@ Build your toolkit deliberately, maintain your systems consistently, and your pr
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

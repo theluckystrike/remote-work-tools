@@ -256,3 +256,5 @@ async function syncEmployee(employeeId, complianceTool) {
 - [How to Handle Overtime Pay Compliance for Remote Workers.](/remote-work-tools/how-to-handle-overtime-pay-compliance-for-remote-workers-acr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

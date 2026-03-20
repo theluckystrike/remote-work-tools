@@ -196,3 +196,5 @@ The best project management tool for freelancers in 2026 is the one that fits yo
 - [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

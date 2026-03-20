@@ -280,3 +280,5 @@ The right tool depends on your specific requirements. Many platforms use multipl
 - [Remote Team Technical Assessment Platform for Evaluating.](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

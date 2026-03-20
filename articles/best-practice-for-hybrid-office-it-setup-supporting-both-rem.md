@@ -227,3 +227,5 @@ Deploy endpoint detection and response (EDR) solutions across all devices, regar
 - [How to Design Mother and Parent Room for Hybrid Office.](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

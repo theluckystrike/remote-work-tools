@@ -217,3 +217,5 @@ The goal isn't to overwhelm clients with jargon—it's to demonstrate that you t
 - [How to Create Remote Team Compliance Documentation.](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -162,3 +162,5 @@ A structured mentorship program requires more upfront planning than ad-hoc onboa
 - [How to Create Remote Onboarding Buddy Program Template.](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

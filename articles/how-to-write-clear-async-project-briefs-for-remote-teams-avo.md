@@ -240,3 +240,5 @@ The best async project briefs anticipate questions before they appear. They give
 - [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

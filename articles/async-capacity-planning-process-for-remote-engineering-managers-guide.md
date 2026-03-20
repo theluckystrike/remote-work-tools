@@ -252,3 +252,5 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 - [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

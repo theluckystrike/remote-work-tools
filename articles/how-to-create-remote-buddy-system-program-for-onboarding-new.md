@@ -7,6 +7,8 @@ author: theluckystrike
 permalink: /how-to-create-remote-buddy-system-program-for-onboarding-new/
 categories: [guides]
 tags: [remote-onboarding, buddy-program, employee-onboarding, remote-work, scaling-teams]
+score: 7
+reviewed: true
 ---
 
 {% raw %}
@@ -206,6 +208,13 @@ Use this checklist to launch your program:
 - [ ] Iterate based on data
 
 A remote buddy system program requires upfront investment but pays dividends through faster onboarding, stronger cultural cohesion, and improved retention. Start simple, measure outcomes, and scale the program as your team grows.
+
+
+## Related Reading
+
+- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
+- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
+- [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

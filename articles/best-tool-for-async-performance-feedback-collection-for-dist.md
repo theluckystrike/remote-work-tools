@@ -305,3 +305,5 @@ Track participation rates and completion times to measure success. The best asyn
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

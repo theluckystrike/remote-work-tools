@@ -206,3 +206,5 @@ Regardless of which tool you choose, implement these security practices:
 - [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

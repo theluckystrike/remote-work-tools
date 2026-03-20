@@ -205,3 +205,5 @@ Based on common digital nomad workflows, here's a recommended setup:
 - [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

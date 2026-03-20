@@ -147,3 +147,5 @@ This baseline ensures you're constantly maintaining connections rather than lett
 - [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

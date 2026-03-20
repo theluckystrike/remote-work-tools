@@ -177,3 +177,5 @@ A well-organized virtual volunteering day strengthens distributed teams while cr
 - [How to Run Remote Developer Hackathon for Distributed.](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -172,3 +172,5 @@ If cycle times are increasing or after-hours messages are climbing, your async i
 - [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

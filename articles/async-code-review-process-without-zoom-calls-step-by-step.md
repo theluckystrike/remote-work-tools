@@ -163,3 +163,5 @@ Async reviews fail when teams don't establish clear norms. Avoid these mistakes:
 - [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

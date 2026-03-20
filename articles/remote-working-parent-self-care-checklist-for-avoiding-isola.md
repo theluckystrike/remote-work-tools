@@ -189,3 +189,5 @@ Print or save this quick reference:
 - [Remote Working Parent Burnout Prevention Checklist for.](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

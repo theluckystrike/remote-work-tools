@@ -112,3 +112,5 @@ The best approach: try both tools with your actual standup workflow for one week
 - [Async Standup Alternative Using GitHub Commit Summaries Automatically](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -146,3 +146,5 @@ Remember that successful freelancing rarely happens on a single platform immedia
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

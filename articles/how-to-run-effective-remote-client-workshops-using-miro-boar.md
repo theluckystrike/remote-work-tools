@@ -198,3 +198,5 @@ Start with the templates in this guide, adapt them to your client relationships,
 - [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

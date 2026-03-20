@@ -154,3 +154,5 @@ The goal isn't participation rate—it's creating conditions where team members 
 - [Best Async Voice Message Tools for Remote Teams 2026.](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

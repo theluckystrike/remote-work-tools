@@ -164,3 +164,5 @@ These practices create conditions where neurodivergent team members can contribu
 - [Response Time Expectations for Remote Workers: A.](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

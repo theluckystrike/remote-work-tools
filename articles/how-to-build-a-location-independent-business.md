@@ -229,3 +229,5 @@ Most failed location independent businesses skip stages 3 and 4. They automate d
 - [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

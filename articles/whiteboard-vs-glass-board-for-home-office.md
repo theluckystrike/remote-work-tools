@@ -108,3 +108,5 @@ The right choice ultimately depends on your specific workspace constraints, usag
 - [Best Acoustic Foam Placement for Home Office Zoom Call.](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -169,3 +169,5 @@ Track which proposals win and which don't. Over time, you'll learn what resonate
 - [Retirement Planning for Freelance Developers 2026](/remote-work-tools/retirement-planning-for-freelance-developers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

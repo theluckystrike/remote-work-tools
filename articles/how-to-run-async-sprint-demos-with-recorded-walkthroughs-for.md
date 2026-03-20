@@ -214,3 +214,5 @@ Running async sprint demos requires upfront investment in recording habits and w
 - [Best Async Voice Message Tools for Remote Teams 2026.](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

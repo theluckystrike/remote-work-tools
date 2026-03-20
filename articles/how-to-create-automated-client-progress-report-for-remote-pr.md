@@ -235,3 +235,5 @@ Building an automated client progress reporting system requires upfront developm
 - [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

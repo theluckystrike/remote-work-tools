@@ -134,3 +134,5 @@ Start with what's free, add complexity only when needed, and always prioritize c
 - [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

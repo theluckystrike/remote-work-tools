@@ -176,3 +176,5 @@ A well-chosen desk becomes your primary work surface for years. Investing time i
 - [Best Standing Desk for Home Office Coding: A Developer's Guide](/remote-work-tools/best-standing-desk-for-home-office-coding/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

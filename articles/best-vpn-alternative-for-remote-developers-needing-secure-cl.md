@@ -152,3 +152,5 @@ The era of traditional VPNs for developer access is ending. Zero-trust alternati
 - [Best VPN for Remote Development Teams with Split.](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

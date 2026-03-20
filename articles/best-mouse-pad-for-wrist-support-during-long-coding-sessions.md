@@ -137,3 +137,5 @@ While a quality mouse pad helps, complete wrist health requires a holistic appro
 - [Seat Cushion for Long Coding Sessions Review 2026](/remote-work-tools/seat-cushion-for-long-coding-sessions-review-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

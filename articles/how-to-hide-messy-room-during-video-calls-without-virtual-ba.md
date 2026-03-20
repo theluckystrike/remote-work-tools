@@ -163,3 +163,5 @@ When you need to hide mess immediately without preparation:
 - [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

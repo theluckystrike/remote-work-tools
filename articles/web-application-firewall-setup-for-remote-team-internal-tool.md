@@ -192,3 +192,5 @@ Implement alerting for security events. Configure notifications when WAF blocks 
 - [Password Rotation Policy Setup for Remote Teams Using.](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

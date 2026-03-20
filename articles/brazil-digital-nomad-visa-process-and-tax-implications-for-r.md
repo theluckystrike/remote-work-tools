@@ -181,3 +181,5 @@ For remote developers who want to experience South America while continuing to w
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

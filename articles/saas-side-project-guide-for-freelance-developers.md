@@ -115,3 +115,5 @@ Reinvest early revenue into the product rather than taking distributions. Growth
 - [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

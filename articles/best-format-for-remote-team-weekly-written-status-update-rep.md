@@ -10,6 +10,7 @@ tags: [async-communication, remote-work, standup-alternative, team-updates, week
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -189,3 +190,5 @@ The format succeeds when it creates genuine alignment without requiring synchron
 - [Remote Team Gratitude Practice Ideas for Weekly Team.](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

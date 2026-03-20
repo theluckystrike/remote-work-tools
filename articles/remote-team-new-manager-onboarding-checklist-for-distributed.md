@@ -182,3 +182,5 @@ Monitor new managers closely during their first quarter. Watch for the pitfalls 
 - [Remote Team Onboarding Communication Checklist for First.](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

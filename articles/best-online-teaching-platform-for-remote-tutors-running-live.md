@@ -258,3 +258,5 @@ The right choice ultimately depends on your existing tool ecosystem, technical c
 - [Virtual Escape Room Platforms for Remote Engineering Team Events](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

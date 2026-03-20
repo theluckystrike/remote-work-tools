@@ -201,3 +201,5 @@ This separation prevents version confusion and makes it easy to archive old rele
 - [Best Practice for Remote Team Slack Do Not Disturb.](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -218,3 +218,5 @@ Choosing the right PAM solution depends on your specific context. Consider these
 - [Zero Trust Remote Access Setup Guide for Small.](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

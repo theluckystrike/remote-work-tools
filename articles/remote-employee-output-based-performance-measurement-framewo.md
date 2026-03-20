@@ -211,3 +211,5 @@ Setting static targets: Teams evolve. Review and adjust thresholds quarterly bas
 - [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

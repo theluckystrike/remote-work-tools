@@ -179,3 +179,5 @@ Before publishing your documentation, verify:
 - [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

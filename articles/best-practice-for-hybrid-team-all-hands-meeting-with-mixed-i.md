@@ -180,3 +180,5 @@ This respects different work schedules and time zones while maintaining informat
 - [Best Practice for Remote Team All Hands Meeting Format.](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

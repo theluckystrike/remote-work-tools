@@ -179,3 +179,5 @@ Each solution involves trade-offs between security, performance, cost, and admin
 - [Communication Tools for a Remote Research Team of 12.](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

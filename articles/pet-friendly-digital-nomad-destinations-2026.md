@@ -121,3 +121,5 @@ Factor these into your cost-of-living calculations. Some destinations, like Mexi
 - [Sri Lanka Digital Nomad Visa Requirements and Coworking.](/remote-work-tools/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

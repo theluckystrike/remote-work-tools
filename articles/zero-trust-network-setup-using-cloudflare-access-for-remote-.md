@@ -240,3 +240,5 @@ Always maintain a fallback access method for critical situations. Configure brea
 - [VPN vs Zero Trust Architecture Comparison for Remote Teams: 2026 Guide](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

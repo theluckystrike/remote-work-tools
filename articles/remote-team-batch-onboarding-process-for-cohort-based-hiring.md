@@ -239,3 +239,5 @@ The upfront investment in building this system pays dividends immediately. Each 
 - [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

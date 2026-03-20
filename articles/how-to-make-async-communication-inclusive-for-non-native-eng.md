@@ -167,3 +167,5 @@ The goal isn't to dumb down your communication. It’s to remove unnecessary bar
 - [Remote Team Growth Stage Communication Audit.](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -257,3 +257,5 @@ A desk reservation app for hybrid workplace solves a genuine operational problem
 - [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -330,3 +330,5 @@ The DE Rantau pass allows you to open a local bank account once you arrive, whic
 - [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

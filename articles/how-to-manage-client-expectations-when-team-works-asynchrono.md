@@ -169,3 +169,5 @@ These aren't required but reduce friction in async client relationships.
 - [How to Create Asynchronous Client Update Format for.](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

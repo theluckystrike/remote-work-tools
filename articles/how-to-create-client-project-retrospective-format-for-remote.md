@@ -176,3 +176,5 @@ For clients in significantly different time zones, prioritize asynchronous surve
 - [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

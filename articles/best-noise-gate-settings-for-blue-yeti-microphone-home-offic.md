@@ -143,3 +143,5 @@ A noise gate handles the heavy lifting for eliminating background noise, but the
 - [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

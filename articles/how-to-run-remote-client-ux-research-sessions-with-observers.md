@@ -211,3 +211,5 @@ A simple Google Sheets template works well for tracking observations:
 - [Best Online Teaching Platform for Remote Tutors Running.](/remote-work-tools/best-online-teaching-platform-for-remote-tutors-running-live/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

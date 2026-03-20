@@ -144,3 +144,5 @@ Consider adding your dehumidifier to smart power strips to track actual energy c
 - [Home Office Humidity Control for Comfortable Coding Sessions](/remote-work-tools/home-office-humidity-control-for-comfortable-coding-sessions/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -164,3 +164,5 @@ The best hybrid standup format is one your team actually follows consistently. S
 - [How to Manage Hybrid Team Where Some Members Are Fully.](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -305,3 +305,5 @@ The tools and patterns in this guide provide a foundation for territory mapping 
 - [Remote Sales Team Demo Environment Setup for Distributed.](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

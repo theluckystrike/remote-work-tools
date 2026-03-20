@@ -10,6 +10,7 @@ tags: [remote-work, async-communication, productivity, miscommunication]
 reviewed: true
 voice-checked: true
 intent-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -223,3 +224,5 @@ Applying these patterns consistently will dramatically reduce miscommunication i
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

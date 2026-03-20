@@ -195,3 +195,5 @@ Review metrics monthly and adjust workflows accordingly. The goal is continuous 
 - [How to Manage Remote Journalism Team Across.](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

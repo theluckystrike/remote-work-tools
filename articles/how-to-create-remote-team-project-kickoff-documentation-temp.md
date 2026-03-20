@@ -223,3 +223,5 @@ Here's a condensed template you can copy and customize:
 - [How to Create Shared Project Timeline with Remote Agency.](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

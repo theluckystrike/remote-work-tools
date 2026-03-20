@@ -247,3 +247,5 @@ Shadow IT is never "solved" once—it's an ongoing challenge. Set up recurring s
 - [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

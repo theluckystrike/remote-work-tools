@@ -213,3 +213,5 @@ The combination of live engagement and async follow-up creates a communication l
 - [Remote 1 on 1 Meeting Tool Comparison for Distributed Managers 2026](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

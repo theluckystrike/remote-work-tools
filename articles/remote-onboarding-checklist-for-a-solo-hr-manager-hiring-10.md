@@ -225,3 +225,5 @@ Update this weekly and share with leadership for visibility.
 - [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

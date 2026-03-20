@@ -180,3 +180,5 @@ The right chair mat is an investment in both your comfort and your flooring. Tak
 - [L-Shaped Desk vs Straight Desk for Home Office: A.](/remote-work-tools/l-shaped-desk-vs-straight-desk-for-home-office/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

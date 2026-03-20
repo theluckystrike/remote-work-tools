@@ -200,3 +200,5 @@ Consider starting with PandaDoc or Qwilr—both offer free trials long enough to
 - [Best CRM for Solo Consultant Managing 30 Active Clients Remotely](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

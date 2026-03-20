@@ -232,3 +232,5 @@ The effort you invest in building proper compliance documentation protects your 
 - [Remote Team Documentation Culture: Building Guide for.](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

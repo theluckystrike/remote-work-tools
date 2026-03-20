@@ -242,3 +242,5 @@ Use this feedback to evolve your process and ensure every new hire, regardless o
 - [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

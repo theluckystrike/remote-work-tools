@@ -200,3 +200,5 @@ Regardless of which tool you choose, implement these practices:
 - [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

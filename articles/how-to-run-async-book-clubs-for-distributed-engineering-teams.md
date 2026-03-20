@@ -316,3 +316,5 @@ Here's your quick-start checklist:
 - [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -205,3 +205,5 @@ The right choice depends on your current hiring pattern, technical integration r
 - [Remote Team Security Awareness Training Platform.](/remote-work-tools/remote-team-security-awareness-training-platform-comparison-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

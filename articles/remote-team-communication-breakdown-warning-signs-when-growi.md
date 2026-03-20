@@ -137,3 +137,5 @@ The goal isn't eliminating all communication friction. Some is natural at scale.
 - [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

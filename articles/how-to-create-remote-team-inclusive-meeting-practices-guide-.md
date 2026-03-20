@@ -258,3 +258,5 @@ Watch out for these patterns that undermine inclusive meetings:
 - [How to Create Remote Team Operations Handbook From Scratch Step by Step](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -213,3 +213,5 @@ Treat signage as another API-driven output channel: the same data flowing throug
 - [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

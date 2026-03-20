@@ -243,3 +243,5 @@ The shift from text replies to emoji reactions represents a fundamental improvem
 - [How to Run Remote Team Daily Standup in Slack Without.](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -196,3 +196,5 @@ Try both with a small pilot: create five real issues in each tool, integrate wit
 - [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

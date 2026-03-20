@@ -249,3 +249,5 @@ Badge access tracking provides the factual foundation for hybrid workplace optim
 - [Best Desk Sensor Technology for Hybrid Offices: Tracking.](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

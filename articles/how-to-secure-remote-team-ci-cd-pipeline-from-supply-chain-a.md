@@ -269,3 +269,5 @@ Create an incident response plan specifically for pipeline compromises. Know how
 - [Best DevSecOps Toolchain for Remote Teams Integrating.](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

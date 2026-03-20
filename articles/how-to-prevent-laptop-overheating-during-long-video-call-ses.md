@@ -284,3 +284,5 @@ alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000
 - [Best Laptop Cooling Solutions for Remote Workers in Tropical Climates](/remote-work-tools/best-laptop-cooling-solution-for-remote-workers-in-tropical-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

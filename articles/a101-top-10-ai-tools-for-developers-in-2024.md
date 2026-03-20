@@ -286,3 +286,5 @@ Each tool has strengths suited to different use cases:
 - [Best Window Management Tools for Developers](/remote-work-tools/best-window-management-tools-for-developers/)
 - [Best Clipboard Manager for Developers](/remote-work-tools/best-clipboard-manager-for-developers/)
 - [Brain.fm vs Endel: Focus Music Comparison for Developers](/remote-work-tools/brain-fm-vs-endel-focus-music-comparison/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -142,3 +142,5 @@ Teams that establish solid remote CAD review practices now will be better positi
 - [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

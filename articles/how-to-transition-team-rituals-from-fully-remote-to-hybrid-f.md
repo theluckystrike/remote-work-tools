@@ -200,3 +200,5 @@ If remote participation drops or remote team members report feeling disconnected
 - [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

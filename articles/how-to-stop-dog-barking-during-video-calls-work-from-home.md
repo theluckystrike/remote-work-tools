@@ -210,3 +210,5 @@ When barking persists despite preparations:
 - [Best Keyboard for Quiet Typing During Video Calls in.](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

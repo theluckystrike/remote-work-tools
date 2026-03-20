@@ -322,3 +322,5 @@ Track completion rate, time to kickoff, support tickets, and client feedback. It
 - [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

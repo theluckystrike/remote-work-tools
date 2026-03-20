@@ -311,3 +311,5 @@ Some web applications use custom file upload components that don't use standard 
 - [Chrome Extension Linear Issue Tracker: Practical Guide.](/remote-work-tools/chrome-extension-linear-issue-tracker/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

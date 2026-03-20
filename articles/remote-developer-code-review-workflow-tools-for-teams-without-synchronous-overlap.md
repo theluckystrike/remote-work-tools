@@ -201,3 +201,5 @@ GitHub's native analytics provide baseline metrics; integrate with tools like St
 - [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

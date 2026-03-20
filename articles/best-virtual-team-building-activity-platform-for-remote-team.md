@@ -152,3 +152,5 @@ Track both quantitative and qualitative indicators:
 - [Best Virtual Icebreaker Tool for Remote Team Meetings.](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -268,3 +268,5 @@ Example Ansible playbook for Linux security hardening:
 - [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

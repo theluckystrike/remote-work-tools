@@ -226,3 +226,5 @@ The goal is not to maximize velocity but to create reliable expectations that en
 - [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

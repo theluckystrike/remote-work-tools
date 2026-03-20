@@ -172,3 +172,5 @@ A one-time consultation with a small business attorney or CPA ($200-500) can pre
 - [How to Ask for Referrals as a Freelance Developer](/remote-work-tools/how-to-ask-for-referrals-as-freelance-developer/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

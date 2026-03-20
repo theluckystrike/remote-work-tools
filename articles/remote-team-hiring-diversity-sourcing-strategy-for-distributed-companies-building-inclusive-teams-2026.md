@@ -196,3 +196,5 @@ Track these metrics to understand if your sourcing strategy works:
 - [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

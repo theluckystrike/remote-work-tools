@@ -172,3 +172,5 @@ If you find clients consistently asking for more frequent updates, your cadence 
 - [Remote Agency Subcontractor Client Communication.](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

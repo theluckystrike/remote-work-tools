@@ -236,3 +236,5 @@ Record yourself walking through this template. The structure becomes automatic a
 - [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

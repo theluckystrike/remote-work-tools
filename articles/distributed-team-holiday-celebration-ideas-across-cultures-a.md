@@ -201,3 +201,5 @@ The most successful distributed celebrations combine careful planning with flexi
 - [How to Write Remote Team Celebration Messages That.](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

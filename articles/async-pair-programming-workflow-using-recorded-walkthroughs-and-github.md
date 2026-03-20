@@ -247,3 +247,5 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

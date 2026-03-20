@@ -143,3 +143,5 @@ One advantage of starting as a sole proprietor: you can always form an LLC later
 - [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

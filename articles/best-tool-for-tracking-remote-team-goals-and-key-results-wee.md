@@ -285,3 +285,5 @@ The best tool for tracking remote team goals weekly is the one your team actuall
 - [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

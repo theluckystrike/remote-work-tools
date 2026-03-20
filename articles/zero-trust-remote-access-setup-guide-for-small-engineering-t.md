@@ -261,3 +261,5 @@ Zero trust isn't a product you buy—it's a framework you implement. Small engin
 - [Best Privileged Access Management Tool for Remote IT.](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

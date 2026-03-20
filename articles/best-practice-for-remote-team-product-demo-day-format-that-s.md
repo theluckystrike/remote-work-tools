@@ -198,3 +198,5 @@ Even with the right format, teams run into problems:
 - [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

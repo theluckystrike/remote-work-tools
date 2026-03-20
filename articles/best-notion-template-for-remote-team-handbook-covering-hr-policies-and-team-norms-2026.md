@@ -213,3 +213,5 @@ Link related content using Notion's relation properties. When you update a polic
 - [How to Create Remote Team Operations Handbook From Scratch Step by Step](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

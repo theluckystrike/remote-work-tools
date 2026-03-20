@@ -242,3 +242,5 @@ Setting up your digital workspace properly on day one pays dividends throughout 
 - [Monitor Setup for Remote Developer: Two vs Three Screens.](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

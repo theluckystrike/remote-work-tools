@@ -243,3 +243,5 @@ The best buddy programs feel organic rather than scripted. Your templates provid
 - [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

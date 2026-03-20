@@ -155,3 +155,5 @@ Constructive code review comments are a skill that improves with attention. The 
 - [Best Practice for Remote Team Decision Making Framework.](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

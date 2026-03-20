@@ -233,3 +233,5 @@ ORDER BY departure_date DESC;
 - [Best Practice for Remote Team Escalation Paths That Scale With Organizational Complexity](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

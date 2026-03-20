@@ -401,3 +401,5 @@ To maximize your budget tool stack:
 - [Remote Team Retreat Planning Guide Budget and Logistics.](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

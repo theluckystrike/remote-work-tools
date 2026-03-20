@@ -180,3 +180,5 @@ Several mistakes undermine remote user research effectiveness. First, avoid cond
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

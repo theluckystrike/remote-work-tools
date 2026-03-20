@@ -204,3 +204,5 @@ The best tool depends on your team's existing tools and preferences. Evaluate ba
 - [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

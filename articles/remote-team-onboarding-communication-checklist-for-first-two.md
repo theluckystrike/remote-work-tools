@@ -272,3 +272,5 @@ Effective remote onboarding communication balances structure with flexibility. N
 - [Best Tool for Remote Team Onboarding Checklist.](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -270,3 +270,5 @@ Cross timezone communication works when you design for it explicitly. The strate
 - [Best Notification Batching Strategies for Async-First Remote Teams](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

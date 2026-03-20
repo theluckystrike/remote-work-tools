@@ -154,3 +154,5 @@ A reliable power setup protects your hardware, reduces daily frustrations, and k
 - [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

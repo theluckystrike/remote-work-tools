@@ -278,3 +278,5 @@ Start with Vale using basic rules, then expand configuration as your team's docu
 - [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

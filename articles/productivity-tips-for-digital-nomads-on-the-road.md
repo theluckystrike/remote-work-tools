@@ -210,3 +210,5 @@ Reduce decision fatigue by establishing non-negotiable defaults:
 - [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

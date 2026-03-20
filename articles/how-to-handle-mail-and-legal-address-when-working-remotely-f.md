@@ -233,3 +233,5 @@ The right setup for your situation depends on your home country, destination, in
 - [How to Handle Health Insurance as a Digital Nomad.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

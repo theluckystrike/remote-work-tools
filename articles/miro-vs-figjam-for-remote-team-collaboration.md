@@ -163,3 +163,5 @@ Test both platforms with actual team sessions before committing. Run a retrospec
 - [Best Whiteboard Tool for a Remote Team of 10 Product.](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -196,3 +196,5 @@ Build your time blocks around the bus. Protect them fiercely. Watch your output 
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

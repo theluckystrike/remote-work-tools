@@ -187,3 +187,5 @@ The shift to async-first communication transforms how remote teams operate. Mess
 - [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

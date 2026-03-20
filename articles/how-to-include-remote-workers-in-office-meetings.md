@@ -207,3 +207,5 @@ The goal is creating meetings where location becomes irrelevant—where every pa
 - [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

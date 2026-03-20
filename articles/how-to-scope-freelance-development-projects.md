@@ -195,3 +195,5 @@ Build these into your scoping workflow. They create accountability and documenta
 - [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

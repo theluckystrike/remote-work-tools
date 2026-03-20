@@ -10,6 +10,7 @@ tags: [financial-dashboard, remote-work, cfo-tools, expense-tracking, distribute
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -367,3 +368,5 @@ Consider data retention policies. While real-time access is crucial, maintaining
 - [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

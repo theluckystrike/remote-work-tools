@@ -213,3 +213,5 @@ The right tool is the one your team actually uses consistently. A simpler tool u
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

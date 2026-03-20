@@ -280,3 +280,5 @@ Timezone handling: Meeting rooms often display times in the local timezone, but 
 - [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

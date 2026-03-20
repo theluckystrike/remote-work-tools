@@ -223,3 +223,5 @@ This systematic approach ensures all dormant workstations and access badges are 
 - [Return to Office Mental Health Support Resources for.](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

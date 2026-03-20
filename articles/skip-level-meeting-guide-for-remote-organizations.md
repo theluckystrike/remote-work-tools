@@ -192,3 +192,5 @@ The best remote organizations build multiple redundant paths for feedback. Skip 
 - [Remote Team Conflict Resolution Framework for Managers.](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

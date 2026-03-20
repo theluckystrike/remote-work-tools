@@ -215,3 +215,5 @@ Remote teams that celebrate together stay together. Anniversaries provide a pred
 - [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -189,3 +189,5 @@ Building the right org structure for a growing remote team takes experimentation
 - [Remote Team Channel Sprawl Management Strategy When.](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

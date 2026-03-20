@@ -146,3 +146,5 @@ Test your webcam before important meetings. Most platforms offer preview functio
 - [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

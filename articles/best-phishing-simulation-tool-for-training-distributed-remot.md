@@ -209,3 +209,5 @@ The best phishing simulation tool ultimately depends on your organization's spec
 - [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

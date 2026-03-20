@@ -10,6 +10,7 @@ tags: [japan, digital-nomad-visa, remote-work, japan-visa, software-engineer]
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -139,3 +140,5 @@ The Digital Nomad Visa allows initial stays of up to 6 months. Extensions are po
 - [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -176,3 +176,5 @@ For organizations with multiple office locations, your data model should support
 - [How to Create Hybrid Work Feedback Loop Collecting.](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

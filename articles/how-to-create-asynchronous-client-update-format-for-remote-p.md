@@ -193,3 +193,5 @@ Choose the complexity level that matches your team's needs. The goal is clear co
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

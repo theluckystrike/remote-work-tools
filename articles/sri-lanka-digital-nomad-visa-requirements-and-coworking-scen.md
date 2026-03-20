@@ -181,3 +181,5 @@ Many developers use:
 - [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -203,3 +203,5 @@ Run through this checklist when upgrading your hybrid office network:
 - [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -110,3 +110,5 @@ Consider F.Lux or Night Shift: These tools automatically adjust your screen's co
 - [How to Prevent Eye Fatigue from Multiple Monitors with.](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -132,3 +132,5 @@ Test any platform with a small group before committing to a full-team event. Mos
 - [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -273,3 +273,5 @@ Before your first async code pairing session:
 - [Best Tool for Remote Product Managers Running Async.](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

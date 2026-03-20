@@ -151,3 +151,5 @@ Review your workflow monthly. What broke last month? What took longer than expec
 - [Best Project Tracking Tool for Remote Hardware.](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

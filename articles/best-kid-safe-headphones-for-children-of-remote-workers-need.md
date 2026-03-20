@@ -123,3 +123,5 @@ For remote workers specifically, establish clear schedules that align children's
 - [Open Back Headphones for Remote Developers Review](/remote-work-tools/open-back-headphones-for-remote-developers-review/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -233,3 +233,5 @@ Policy changes don't have to cause anxiety. With careful communication, they can
 - [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

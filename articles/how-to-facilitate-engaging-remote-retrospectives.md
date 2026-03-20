@@ -159,3 +159,5 @@ Introduce a new format every quarter. Solicit team feedback on which formats the
 - [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

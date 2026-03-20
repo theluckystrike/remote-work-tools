@@ -174,3 +174,5 @@ Write the agenda before sending the invite, then evaluate whether the meeting is
 - [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

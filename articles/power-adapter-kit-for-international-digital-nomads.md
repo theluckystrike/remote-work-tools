@@ -144,3 +144,5 @@ Carry two replacement fuses in your kit. Most quality travel adapters include sp
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

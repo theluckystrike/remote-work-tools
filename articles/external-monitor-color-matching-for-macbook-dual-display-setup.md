@@ -242,3 +242,5 @@ Use a reference photo with diverse skin tones. Adjust until skin tones appear si
 - [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

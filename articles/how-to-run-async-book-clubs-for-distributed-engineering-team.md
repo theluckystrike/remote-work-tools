@@ -174,3 +174,5 @@ Running async book clubs across distributed engineering teams takes deliberate s
 - [How to Run Async Architecture Reviews for Distributed.](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

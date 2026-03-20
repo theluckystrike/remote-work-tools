@@ -289,3 +289,5 @@ renderDashboard(complianceData);
 - [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

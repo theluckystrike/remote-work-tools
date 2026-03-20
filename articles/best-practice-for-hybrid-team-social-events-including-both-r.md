@@ -167,3 +167,5 @@ The goal is not to replicate office proximity but to create new forms of connect
 - [Best Practice for Hybrid Team Standup Format.](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

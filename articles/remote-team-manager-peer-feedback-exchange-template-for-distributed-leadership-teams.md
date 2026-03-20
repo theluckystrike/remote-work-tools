@@ -175,3 +175,5 @@ Several patterns undermine peer feedback exchanges in distributed teams. First, 
 - [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

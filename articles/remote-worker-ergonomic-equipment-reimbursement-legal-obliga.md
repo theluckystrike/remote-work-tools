@@ -253,3 +253,5 @@ Start by auditing your current remote work policies, identifying gaps in equipme
 - [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

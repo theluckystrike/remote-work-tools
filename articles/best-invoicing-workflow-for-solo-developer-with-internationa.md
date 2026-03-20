@@ -192,3 +192,5 @@ Consistent invoice numbering, organized client records, and a centralized paymen
 - [Notion Setup for Solo Freelancer Managing 5 Clients: A Practical Guide](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

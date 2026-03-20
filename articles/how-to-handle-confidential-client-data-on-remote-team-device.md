@@ -282,3 +282,5 @@ Technical controls work best combined with clear team policies:
 - [Remote Agency Client Data Security Compliance Checklist.](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

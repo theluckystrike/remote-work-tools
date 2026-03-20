@@ -221,3 +221,5 @@ Remember that proposal software is just one piece of your remote agency operatio
 - [Best Whiteboard Tool for Remote Client Brainstorming.](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

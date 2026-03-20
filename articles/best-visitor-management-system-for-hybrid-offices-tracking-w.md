@@ -217,3 +217,5 @@ Use this checklist when deploying a visitor management system:
 - [How to Create a Hybrid Work Equipment Checkout System.](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

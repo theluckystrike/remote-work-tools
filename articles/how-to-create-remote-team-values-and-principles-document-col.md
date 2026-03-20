@@ -235,3 +235,5 @@ Avoid these mistakes:
 - [How to Create Remote Team Promotion Criteria: A.](/remote-work-tools/how-to-create-remote-team-promotion-criteria-transparent-and/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

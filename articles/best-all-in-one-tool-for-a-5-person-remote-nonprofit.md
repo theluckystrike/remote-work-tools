@@ -10,6 +10,7 @@ tags: [nonprofit, remote-work, tools, productivity]
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -143,3 +144,5 @@ The best all-in-one tool for your 5-person remote nonprofit is the one your team
 - [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -183,3 +183,5 @@ When calculating timezone overlaps, watch for these frequent mistakes:
 - [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

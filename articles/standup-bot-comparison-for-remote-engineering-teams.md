@@ -119,3 +119,5 @@ Rotate standup facilitators who summarize themes and flag items needing synchron
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -196,3 +196,5 @@ Always consult a tax professional for advice specific to your situation, as indi
 - [Best Practice for Remote Team Slack Do Not Disturb.](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

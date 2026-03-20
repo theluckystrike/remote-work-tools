@@ -307,3 +307,5 @@ resource "aws_codebuild_project" "backend_ci" {
 - [Best DevSecOps Toolchain for Remote Teams Integrating.](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

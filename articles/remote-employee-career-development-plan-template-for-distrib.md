@@ -187,3 +187,5 @@ Several patterns undermine remote career development:
 - [Remote Employee Probation Period Management Tools and.](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

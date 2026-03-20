@@ -152,3 +152,5 @@ Then configure GitHub integration through Settings → Integrations, map your re
 - [Linear vs Jira for Software Development: A Practical.](/remote-work-tools/linear-vs-jira-for-software-development/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

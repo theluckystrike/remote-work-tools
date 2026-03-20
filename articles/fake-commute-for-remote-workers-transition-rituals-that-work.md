@@ -173,3 +173,5 @@ The goal isn't perfection—it's creating reliable mental bookends that signal t
 - [How to Prevent Burnout as Remote Developer: Practical.](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -156,3 +156,5 @@ Running effective remote client workshops using Miro Board requires preparation,
 - [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

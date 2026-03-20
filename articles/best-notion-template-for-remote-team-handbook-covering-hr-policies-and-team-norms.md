@@ -123,3 +123,5 @@ Your handbook should feel like a living document, not a static rulebook. Build i
 - [Remote Team Handbook Template: Writing Remote Interview.](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

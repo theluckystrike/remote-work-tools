@@ -193,3 +193,5 @@ Start small. Record one interview this week. Share it with your team. See how lo
 - [Async QA Signoff Process for Remote Teams Releasing.](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

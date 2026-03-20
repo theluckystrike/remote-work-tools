@@ -211,3 +211,5 @@ Measure your cycle time from feedback receipt to resolution. This reveals whethe
 - [Remote Team Manager Peer Feedback Exchange Template for.](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 
 Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
