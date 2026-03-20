@@ -143,6 +143,163 @@ Automate follow-up tasks, create calendar events in project management tools, or
 
 The investment in proper scheduling infrastructure pays dividends in reduced coordination overhead. Every minute saved on scheduling negotiation is time available for actual work.
 
+## Detailed Tool Comparison with Pricing
+
+| Tool | Price | Free Tier | Best For | Key Strength |
+|------|-------|-----------|----------|--------------|
+| Calendly | $12-25/month | Yes (limited) | General teams | Simplicity and reliability |
+| Cal.com | Self-hosted or $199/year | Open source | Self-hosting | Full control and customization |
+| Savvycal | $12-20/month | Limited | Developers | API access and flexibility |
+| Coordinate | $10-50/month | Yes | Slack teams | Native Slack integration |
+| Acuity Scheduling | $16-30/month | No | Service providers | Client scheduling + payments |
+| SimplyBook.me | $12-99/month | Yes | Consultants | Multi-team capacity |
+| Motion | $19/month | No | AI scheduling | Smart calendar optimization |
+
+**Calendly ($12-25/month)** remains the market leader for reason: it works reliably for 80% of teams without configuration. The free tier (limited to one event type and 1 meeting/week) helps you test before upgrading. The Team plan ($25/month per organizer) adds group booking, which works well for round-robin scheduling among 2-5 people.
+
+**Cal.com (self-hosted or $199/year)** appeals to developers comfortable managing infrastructure. The open-source version deploys to any server (Docker, Vercel, or cloud providers). You own your data completely—a critical requirement for companies with data residency needs. The managed version ($199/year) handles hosting and integrations for simpler deployments.
+
+**Savvycal ($12-20/month)** stands out for developers needing advanced scheduling. The API supports programmatic meeting creation, and the platform integrates naturally with tools developers use: GitHub, Linear, Slack. The polling interface (proposing multiple times simultaneously) works better than Calendly for finding consensus in distributed teams.
+
+**Coordinate ($10-50/month)** specializes in Slack teams. The /coordinate command works entirely within Slack, eliminating app switching. For teams living in Slack for communication, the friction reduction is substantial. The free tier covers basic scheduling for single users.
+
+## Implementation Guide: Setting Up Scheduling for Remote Teams
+
+### Phase 1: Choose Your Tool
+- **If your team is small (2-5 people) and not technical:** Calendly
+- **If you need full control or have compliance requirements:** Cal.com self-hosted
+- **If your team is developer-heavy:** Savvycal or Cal.com
+- **If your team operates entirely in Slack:** Coordinate
+
+### Phase 2: Calendar Integration
+All tools require connecting to Google Calendar or Outlook. Set up the integration:
+
+```javascript
+// Example: Calendly API webhook setup
+async function setupCalendlyWebhook(webhookUrl) {
+  const response = await fetch('https://api.calendly.com/webhook_subscriptions', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${CALENDLY_TOKEN}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      url: webhookUrl,
+      events: [
+        'invitee.created',
+        'invitee.canceled'
+      ]
+    })
+  });
+  return response.json();
+}
+```
+
+### Phase 3: Define Event Types
+Create recurring event types for your team's common meeting patterns:
+
+- **1:1 (30 minutes)** — For peer-level discussions, 2-3 slots available per day
+- **Team Sync (60 minutes)** — Weekly recurring, limited to specific hours
+- **Client Call (60 minutes)** — Higher buffer time before/after for preparation
+- **Pair Programming (90 minutes)** — Extended focus session
+
+### Phase 4: Set Working Hours
+Configure availability to reflect your team's timezone. Most teams block:
+- Pre-9 AM (deep work)
+- 12-1 PM (lunch)
+- After 5 PM (off hours)
+- Fridays 4-5 PM (wrap-up time)
+
+### Phase 5: Establish Meeting Spacing
+Configure buffer time between meetings. Most scheduling tools allow:
+- 15-30 minutes before meetings (context switching)
+- 5-15 minutes after meetings (note-taking)
+- Minimum gap between back-to-back meetings (30 minutes recommended)
+
+## Automation Workflows Beyond Basic Scheduling
+
+Modern schedulers enable sophisticated automation when connected to your workflow stack:
+
+**Meeting Confirmation Workflow:**
+```javascript
+// Trigger: Meeting booked
+// Step 1: Send calendar invite
+// Step 2: Create Slack reminder
+// Step 3: Post to #calendar-activities channel for team visibility
+// Step 4: Generate Notion task for host to prepare
+// Step 5: Send pre-meeting async agenda request
+
+createAsyncAgenda(meeting) {
+  return {
+    recipient: meeting.organizer,
+    template: 'Meeting Agenda Template',
+    dueDate: dayBefore(meeting.startTime),
+    instruction: "Please prepare 3 key topics for discussion"
+  };
+}
+```
+
+**Follow-up Task Generation:**
+```javascript
+// Trigger: Meeting completed
+// Step 1: Check if action items mentioned in meeting description
+// Step 2: Create tasks in ClickUp/Linear with attendees assigned
+// Step 3: Send follow-up email with task links
+// Step 4: Schedule reminder to check task completion one week out
+
+generateFollowUpTasks(meeting, transcriptNotes) {
+  const actionItems = extractActionItems(transcriptNotes);
+  return actionItems.map(item => ({
+    title: item.text,
+    assigned_to: item.owner,
+    due_date: addDays(meeting.endTime, 7),
+    linked_meeting: meeting.id
+  }));
+}
+```
+
+**No-Show Detection:**
+Some tools (particularly Savvycal) automatically detect when calendar events are marked busy but the participant is elsewhere. This data helps teams identify chronic issues with scheduling or meeting culture.
+
+## Timezone Optimization for Global Teams
+
+For teams spanning multiple regions, implement timezone-aware scheduling rules:
+
+```javascript
+// Scheduling rules for distributed team
+const schedulingRules = {
+  'US-based team': {
+    prefer_hours: '9am-5pm ET',
+    core_hours: '10am-3pm ET',  // Overlap window
+    buffer_timezone_calls: 30,   // minutes
+  },
+  'EMEA-based team': {
+    prefer_hours: '9am-5pm CET',
+    core_hours: '11am-3pm CET',
+  },
+  'APAC-based team': {
+    prefer_hours: '9am-5pm SGT',
+    core_hours: '2pm-5pm SGT',   // Limited overlap
+  },
+  'global_meeting_rule': {
+    'maximum_attendee_timezone_spread': 12,  // hours
+    'prefer_rotating_time': true,
+    'allow_async_attendance': true
+  }
+};
+```
+
+## Scheduling Health Metrics
+
+Monitor these metrics to ensure scheduling efficiency:
+
+- **Calendar fragmentation** — Average number of meetings per day (ideal: 2-4 meetings/day)
+- **Deep work blocks** — Hours per week without meetings (target: 15+ hours)
+- **Meeting density by time** — Identify if meetings cluster (should be spread throughout day)
+- **No-show rate** — Percentage of scheduled meetings that don't happen (should be below 5%)
+- **Rescheduling frequency** — How often meetings are moved (indicates scheduling tool isn't capturing availability well)
+
+Track these quarterly and adjust your scheduling tool's settings accordingly.
 
 ## Related Reading
 
