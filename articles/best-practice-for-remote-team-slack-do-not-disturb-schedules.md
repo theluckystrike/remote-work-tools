@@ -8,7 +8,7 @@ permalink: /best-practice-for-remote-team-slack-do-not-disturb-schedules/
 categories: [guides]
 tags: [remote-work-tools, slack, remote-work, productivity, time-zones, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
