@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /asynchronous-team-retrospective-tools-methods-process/
 categories: [guides]
-tags: [remote-work, retrospectives, async, team-process]
+tags: [remote-work-tools, remote-work, retrospectives, async, team-process]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

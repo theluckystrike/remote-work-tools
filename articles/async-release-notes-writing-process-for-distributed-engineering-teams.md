@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /async-release-notes-writing-process-for-distributed-engineering-teams/
 categories: [guides]
-tags: [release-notes, remote-work, async, engineering, team-collaboration, documentation]
+tags: [remote-work-tools, release-notes, remote-work, async, engineering, team-collaboration, documentation]
 reviewed: true
 score: 8
 intent-checked: true
