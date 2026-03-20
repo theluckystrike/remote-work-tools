@@ -155,6 +155,153 @@ Second, build feedback loops between support and product teams. Use API integrat
 
 Third, invest time in documentation. Create internal knowledge base articles that support agents can reference. Most platforms include knowledge base functionality that can serve both customer self-service and agent reference purposes.
 
+## SLA Management Across Time Zones
+
+Remote support teams face unique SLA challenges. A customer in Singapore needs response within 4 hours, but your support team is based in California.
+
+**Front's timezone-aware approach:**
+Front tracks response time separately from resolution time and weights SLA calculation by customer timezone. If your Singapore customer emailed at 9 PM PT (their morning), Front calculates the 4-hour SLA window starting from their timezone, not yours.
+
+**HelpScout's timezone handling:**
+HelpScout provides customizable SLA rules per mailbox. You can define:
+- Response SLA: 4 hours for premium customers, 24 hours for standard
+- Resolution SLA: 48 hours for bugs, 7 days for feature requests
+- Adjust automatically by customer timezone
+
+**Zendesk's SLA flexibility:**
+Zendesk allows custom SLA policies with business hours definitions. You can define "business hours" separately for each geographic region, ensuring SLAs account for timezone differences.
+
+For distributed support teams, this timezone-awareness is essential. Otherwise, support agents in US timezone appear to violate SLAs consistently when handling Asia-Pacific customers.
+
+## Building Effective Support Workflows
+
+A well-designed support workflow in shared inboxes prevents duplicate responses and confusion:
+
+**Stage 1: Triage (First 15 minutes)**
+- New conversation arrives
+- Auto-assign based on topic or priority
+- If complex, assign to more senior agent
+- If urgent, route to on-call engineer
+
+```javascript
+// Example triage rules (pseudo-code)
+if (subject.includes('API error') && priority === 'urgent') {
+  assign_to('engineering-on-call');
+} else if (subject.includes('billing')) {
+  assign_to('billing-team');
+} else if (sentiment_score < 0.3) {
+  // Negative sentiment - escalate
+  assign_to('senior-support', priority='high');
+} else {
+  assign_to('general-support-queue');
+}
+```
+
+**Stage 2: Initial Response (30-60 minutes)**
+- Agent acknowledges the issue
+- Gathers clarifying information if needed
+- Provides quick workaround if available
+- Sets expectation for resolution timeline
+
+**Stage 3: Investigation (1-48 hours depending on issue)**
+- Agent researches the problem
+- Coordinates with product team if bug
+- Implements fix or workaround
+- Tests solution with customer
+
+**Stage 4: Resolution**
+- Customer confirms issue is resolved
+- Agent marks conversation complete
+- Create internal ticket if issue is new bug or feature request
+- Schedule follow-up if complex issue
+
+This workflow structure prevents agents from duplicating work on the same issue.
+
+## Analytics and Performance Metrics
+
+Track these metrics for your support team:
+
+**Response Time Distribution**
+Graph showing what percentage of conversations get first response in 1 hour, 4 hours, 24 hours. Target: >80% within 4 hours for most teams.
+
+**First Contact Resolution Rate**
+Percentage of conversations resolved without follow-ups. Target: 70-80% depending on product complexity. Low FCR indicates customers have questions about your solution or your agents lack knowledge.
+
+**Average Handle Time**
+How long conversations stay open from first message to resolution. Track separately from response time. Some conversations may have quick responses but lengthy resolution.
+
+**Sentiment Trend**
+Customer sentiment by agent, by topic, over time. Tracking sentiment identifies agents who need coaching and topics where customers are consistently frustrated.
+
+**On-Call Load**
+For teams with on-call rotation, track which engineers field the most support escalations. Engineers with high on-call load might have knowledge gaps or poor delegation skills.
+
+All three platforms (Front, HelpScout, Zendesk) provide these metrics in their dashboards.
+
+## Preventing Agent Burnout in Remote Support
+
+Remote support teams face isolation and burnout risk. Shared inbox tools should enable sustainable work patterns:
+
+**1. Implement shift-based coverage**
+Not all team members work the same hours. Document which team members cover which time zones. Tools like Front show agent status (online/offline) so customers know who's available.
+
+**2. Establish escalation protocols**
+Complex issues shouldn't linger with one agent. Create clear rules: if an issue sits unresolved for 4 hours, escalate to manager. This prevents agents from feeling stuck on impossible problems.
+
+**3. Track and limit conversation volume**
+No agent should handle 50+ conversations daily. Track conversations per agent per day. If someone consistently exceeds healthy volume, either hire more support staff or adjust inbound volume management.
+
+**4. Create knowledge sharing practices**
+When agents solve interesting problems, capture the solution in a shared knowledge base. This:
+- Reduces repetitive explanations
+- Develops agents' problem-solving skills
+- Prevents knowledge from leaving if agent departs
+
+**5. Build async feedback loops**
+In remote teams, face-to-face coaching doesn't happen. Use async approaches:
+- Record exemplary customer interactions (anonymized)
+- Leave recorded feedback for agents
+- Discuss difficult conversations in weekly team sync
+
+## Choosing Based on Team Maturity
+
+**Early-stage (1-3 support agents):**
+Use HelpScout. Simple to set up, minimal onboarding, covers all basics without overwhelming new teams.
+
+**Growing stage (5-10 agents):**
+Consider switching to Front. Collision detection and API integration become valuable as team grows and needs more sophisticated routing.
+
+**Mature stage (15+ agents):**
+Likely move to Zendesk. Enterprise features, extensive customization, and sophisticated reporting justify complexity.
+
+**Hybrid approach (complex organization):**
+Front for general support + Zendesk for specific products + HelpScout for small team. Avoid this unless necessary; tool proliferation creates training burden.
+
+## Implementation Timeline and Migration
+
+**Switching from Gmail shared inbox to shared inbox tool:**
+
+Week 1:
+- Set up account in new platform
+- Configure basic ticket categories
+- Create email forwarding rules
+
+Week 2:
+- Set up team members and their permissions
+- Define assignment rules for automatic routing
+- Import previous email history (most platforms support this)
+
+Week 3:
+- Run parallel test: new tool processes copy of real support volume
+- Team familiarizes with interface
+- Adjust rules based on test results
+
+Week 4:
+- Official cutover to new tool
+- Monitor for issues during transition
+- Provide quick support for team learning curve
+
+Most migrations complete within month. HelpScout moves fastest (3-4 weeks). Zendesk implementations often take 6-8 weeks with complex customization.
 
 ## Related Reading
 

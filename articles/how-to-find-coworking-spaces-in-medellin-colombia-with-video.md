@@ -149,8 +149,129 @@ Finding the right coworking space with video call booths in Medellín requires r
 
 The investment in finding the right space pays dividends in your daily productivity and professional image during video calls. Take your time to evaluate options—you'll be working from this space for potentially months, so it pays to get it right.
 
----
+## Popular Coworking Spaces with Video Booths in Medellín
 
+**Selina Medellín (El Poblado)**
+Selina operates in several Latin American cities and their Medellín location includes multiple video booths. Known for good internet, reliable power, and an international community. Day pass: $20-25, Monthly: $250-350. Strong choice for developers working with North American clients.
+
+**Casa M (Laureles)**
+Smaller, more intimate coworking space popular with local founders and developers. 2-3 private booths available. Monthly rates $150-200. Better wifi stability than some larger spaces. English-speaking community but smaller than Poblado options.
+
+**El Hueco Coworking (Downtown)**
+Most affordable option if you don't mind a less polished aesthetic. Basic video booths available, occasional internet issues during peak hours. Monthly: $80-120. Test before committing.
+
+**Pura Vida (Poblado)**
+Boutique coworking focused on quality. Only 4-5 booth stations but excellent sound isolation. Premium pricing: $35 day pass, $300-400 monthly. Best option if you have critical video calls daily.
+
+## Video Booth Setup Best Practices
+
+When using coworking video booths, optimize your setup:
+
+```bash
+# Coworking booth checklist before calls
+□ Arrive 5 minutes early to secure preferred booth
+□ Test audio: join call 2 minutes early, ask if audio is clear
+□ Check camera angle: laptop/external monitor positioned at eye level
+□ Verify lighting: close blinds if harsh sunlight, use ring light if too dark
+□ Test screenshare: open Google Drive, verify smooth streaming
+□ Close browser tabs: minimize background processes affecting upload
+□ Set phone to silent: avoid unexpected notifications during call
+□ Have backup headphones: coworking audio gear sometimes fails mid-call
+```
+
+Booth etiquette matters in shared spaces. Keep calls to scheduled time, respect noise levels, and clean up after yourself.
+
+## Internet Speed Verification
+
+Before committing to a coworking space, verify internet quality:
+
+1. **During a day pass**, conduct a real speed test while sitting in the booth
+2. **Run the test at different times**: morning, midday, late afternoon
+3. **Minimum requirements for video calls**:
+   - Upload: 5+ Mbps (critical for video quality)
+   - Download: 10+ Mbps
+   - Latency: <50ms
+   - Jitter: <10ms
+
+Many coworking spaces display impressive speeds during quiet hours but degrade during peak usage. Test during the times you'll actually work.
+
+## Cost-Benefit of Monthly vs. Day Passes
+
+If you're short-term in Medellín (under 2 months), day passes make sense. But if you're staying longer:
+
+- **Day passes**: $20-25 per day = $400-500 monthly (if using 20 days)
+- **Monthly membership**: $200-350 = effectively $9-17 per day if you use 20+ days
+
+Monthly membership often includes benefits: mail address, phone answering service, meeting rooms. Do the math for your usage pattern.
+
+Some spaces offer hybrid pricing: pay monthly but use days flexibly, allowing remote work some days and office days others.
+
+## Time Zone Considerations for Video Calls
+
+Medellín operates in Colombia Standard Time (CST, UTC-5), which affects call scheduling:
+
+- **Eastern US (UTC-4/5)**: Usually 1-hour overlap, early morning for Medellín
+- **Pacific US (UTC-7/8)**: Usually afternoon/evening overlap
+- **Europe (UTC+0/1)**: Evening calls require staying late (7 PM+ Medellín time)
+- **Asia (UTC+8/9)**: Very limited overlap, requires early mornings
+
+When scouting spaces, consider proximity to your workspace for early morning calls. Being able to stay home for 6 AM Pacific calls but use coworking for afternoon European calls optimizes your work-life balance.
+
+## Building Your Coworking Network
+
+Beyond finding a space, leverage coworking community for professional growth:
+
+- **Attend community events**: Most spaces host monthly meetups or skill-shares
+- **Connect on LinkedIn**: Add coworking community members who work in your field
+- **Join WhatsApp groups**: Most Medellín digital nomad groups coordinate via WhatsApp
+- **Contribute to local tech**: Give a talk about your domain expertise to the community
+
+Your coworking space becomes a networking hub. The developer you meet on your second day might become a collaborator or client contact months later.
+
+## Contingency Plans for Booth Unavailability
+
+Coworking spaces occasionally have all booths booked. Have a backup:
+
+- **Secondary coworking space**: Identify a second location for backup booth access
+- **Hotel meeting room**: Some Medellín hotels offer hourly conference room rental ($15-30/hour)
+- **Coffee shop locations**: Scout quiet cafés with good wifi and electrical outlets for non-critical calls
+- **Co-worker space-sharing**: Exchange booth time with other digital nomads during peak hours
+
+Having options prevents the panic of an important call approaching with no available booth.
+
+## Longer-Term Residence Considerations
+
+If staying in Medellín 3+ months, consider:
+
+- **Leasing a furnished apartment with dedicated office space** (~$600-1,000/month in Poblado)
+- **Using coworking only 10-15 days monthly** for meetings and external call booths
+- **Hybrid approach**: Home office for deep work, coworking for client calls and networking
+
+Many developers find that a small apartment with a dedicated office space, supplemented with occasional coworking booth use, costs less than full-time coworking while providing better productivity.
+
+## Medellín Coworking Etiquette
+
+Remote work culture in Medellín is generally professional, but understanding local norms helps:
+
+- **Language**: English is spoken in coworking spaces, but learning basic Spanish shows respect
+- **Punctuality**: Colombian time is more relaxed than North American norms
+- **Noise levels**: Respect quiet hours typically mid-morning and early afternoon
+- **Community events**: Attend at least one community event to build local network
+- **Tipping**: Not required but appreciated for support staff (NT$10,000-20,000/month if using daily)
+
+Medellín's coworking community is welcoming to foreigners, especially developers. Most spaces have established norms that work well for remote professionals.
+
+## Using Coworking as Network Hub
+
+Beyond video calls, coworking spaces offer networking opportunities:
+
+- **Monthly meetups**: Most spaces host developer meetups (JavaScript, Python, DevOps)
+- **Skill-sharing sessions**: Free workshops on various technical topics
+- **Professional connections**: Meet other remote workers, potential collaborators, or future colleagues
+
+Attending one community event per month can lead to unexpected professional opportunities or friendships that extend your stay enjoyable.
+
+---
 
 ## Related Reading
 

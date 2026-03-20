@@ -152,6 +152,171 @@ Feature C (Team Alpha) → depends on → Design system (Team Design)
 
 Review these dependencies weekly in cross-team sync meetings. Discuss timelines, identify blockers, and surface potential conflicts early. These conversations build relationships through shared problem-solving.
 
+## Building Cross-Team Mentorship Relationships
+
+Formal mentorship programs explicitly pair people from different teams:
+
+**Structured Mentorship Program Format:**
+
+Duration: 12 weeks, meeting 1-2 times weekly
+Mentor selection: Intentionally pick mentors outside mentee's team
+Topics: Company strategy, career development, different team's engineering challenges
+
+A frontend developer paired with backend engineer mentor learns architecture thinking. Backend engineer paired with frontend mentor understands UI/UX constraints. By week 12, both have developed understanding and likely friendship.
+
+Capture these relationships—mentors and mentees often collaborate on projects later, and mentorship builds organizational coherence.
+
+## Infrastructure for Cross-Team Visibility
+
+The tools you use shape cross-team visibility. Implement these systems:
+
+**Shared Architecture Decision Records (ADRs)**
+Every team records major technical decisions in shared repository with template:
+
+```markdown
+# ADR: Using PostgreSQL for analytics pipeline
+
+## Context
+Team needed queryable analytics storage for dashboards
+
+## Decision
+Use PostgreSQL with Timescale extension
+
+## Consequences
+- Positive: Full SQL expressiveness, excellent performance for time-series
+- Negative: Added operational burden for backup management
+- Risk: Scaling limits for events >1B/month
+
+## Alternatives Considered
+- MongoDB: Too slow for complex queries
+- Elasticsearch: No multi-user ACID transactions
+```
+
+Other teams learn how your team approaches problems. When they face similar decisions, they consult ADRs first.
+
+**Weekly Engineering Digest**
+Friday email showing what each team shipped:
+
+```
+## Backend Platform Team
+- Deployed new authentication service (breaking changes documented)
+- Reduced API latency by 15% through caching optimization
+- Looking for input on database schema for user profiles
+
+## Frontend Team
+- Released new dashboard design
+- Improving form validation UX
+- Interested in backend team's profiling work
+```
+
+5-minute read, massive visibility. Teams discover collaboration opportunities immediately.
+
+**Monthly Tech Talk Series**
+Each team presents 30-minute technical deep-dive on internal Slack or recorded video:
+
+- Frontend team presents component library design decisions
+- Backend team explains scaling strategy
+- DevOps team shares deployment pipeline improvements
+
+Required attendance? No. Recorded for later viewing? Yes. Optional participation removes pressure but recorded versions ensure information reaches distributed team members across time zones.
+
+## Measuring Success of Cross-Team Relationships
+
+Track these patterns to understand relationship quality:
+
+**Collaboration Indicators:**
+- Count of cross-team code reviews (comments from different team members)
+- Cross-team PRs (developers from different teams contributing to same project)
+- Shared Slack channel activity (teams discussing common problems)
+- Cross-team bug reports (one team reporting issues in another team's system)
+
+**Relationship Depth:**
+- Quarterly pulse survey: "I regularly interact with people from other teams" (1-5 scale)
+- Count of cross-team coffee chats booked per month
+- Retention of engineers who've rotated teams
+
+**Organizational Health:**
+- Projects completed on time with explicit cross-team dependencies
+- Post-mortem analysis showing cross-team coordination issues have decreased
+- Surprise collaborations initiated by engineers without manager prompting
+
+If cross-team interactions remain low after implementation, revisit your approach. The strategy may not match your team's actual workflow or preference.
+
+## Structured Pair Programming Across Teams
+
+Cross-team pairing creates authentic working relationships. Unlike office spontaneity, remote teams need explicit processes:
+
+1. **Schedule quarterly cross-team pair sessions** with clear learning objectives
+2. **Pair senior engineers from one team with senior engineers from another** to share architectural thinking
+3. **Pair junior engineers with senior engineers from different teams** for structured mentorship
+4. **Keep pairing sessions to 90 minutes** to prevent fatigue while allowing deep work
+
+A backend engineer pairing with a frontend engineer on API design discussions creates understanding that pure documentation cannot achieve. The frontend engineer learns backend constraints, the backend engineer understands frontend performance implications.
+
+## Cross-Team Knowledge Artifacts
+
+Create reusable assets that teams can reference:
+
+- **Architecture decision records (ADRs)** from each team stored in a shared wiki
+- **API design principles** document collaboratively maintained across teams
+- **Weekly engineering digest** highlighting what each team shipped (5-minute read)
+- **Recorded tech talks** from each team available on-demand in a shared video library
+
+When teams contribute equally to these artifacts, everyone feels invested in quality and consistency. The knowledge becomes collaborative property rather than one team's documentation.
+
+## Celebration and Acknowledgment Patterns
+
+Remote teams need explicit recognition of cross-team wins. Establish these patterns:
+
+- **Monthly all-hands shout-out section** (5-10 minutes): Team leads nominate cross-team collaborations
+- **#wins channel** where teams post what other teams enabled them to accomplish
+- **Quarterly cross-team award** recognizing the most impactful collaboration
+
+Public acknowledgment is underrated in remote organizations. When people know their cross-team work will be celebrated, they invest more energy in collaboration.
+
+## Async-First Cross-Team Communication
+
+The biggest mistake remote teams make is assuming cross-team work requires synchronous meetings. Instead:
+
+1. **Propose ideas in writing** with all relevant context in a shared document
+2. **Set clear comment deadlines** (e.g., "please provide feedback by Thursday EOD")
+3. **Use explicit decision points** in documents: "Decision needed: Option A vs. Option B"
+4. **Summarize decisions in a follow-up message** confirming what was decided
+
+Document-first communication scales across time zones and creates permanent records. Contrast this with synchronous meetings where important decisions happen verbally and only meeting attendees remember the conclusion.
+
+## Creating Trust Through Vulnerability
+
+Cross-team relationships require vulnerability. Structure opportunities for teams to admit what they're struggling with:
+
+- **"Struggling with" channels**: Teams can post technical challenges they're facing
+- **Problem-solving sessions**: Other teams volunteer to help with tough technical problems
+- **Reverse mentoring**: Junior engineers from one team mentor senior engineers from another on new technologies
+
+When teams openly share struggles, other teams see them as human and collaborative. This differs from the perception of teams that present only polished work.
+
+## Measuring Cross-Team Relationship Quality
+
+Track these metrics quarterly:
+
+- **Number of cross-team commits** (engineers from different teams collaborating on same codebase)
+- **Cross-team PR reviews** (developers reviewing each other's code)
+- **Survey question**: "I understand what other teams are building" (1-5 scale)
+- **Spontaneous cross-team messages** in Slack (teams reaching out without being asked)
+
+If these metrics trend upward, your relationship-building efforts are working. If they plateau or decline, reassess your approach.
+
+## When Cross-Team Relationships Go Wrong
+
+Sometimes teams develop adversarial relationships—especially over shared systems or resource contention. Address this explicitly:
+
+1. **Name the problem**: Hold a facilitated discussion about tension between teams
+2. **Clarify incentives**: Ensure teams aren't competing for the same limited resources
+3. **Create shared success metrics**: Teams share responsibility for company outcomes, not just team outcomes
+4. **Rebuild through project collaboration**: Assign a small project where teams must work together
+
+Often the issue is structural rather than interpersonal. Teams competing for on-call burden or infrastructure resources naturally develop friction. Reorganize the system so teams share the burden fairly.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
