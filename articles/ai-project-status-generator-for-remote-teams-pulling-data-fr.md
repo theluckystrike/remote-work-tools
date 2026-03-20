@@ -8,7 +8,7 @@ permalink: /ai-project-status-generator-for-remote-teams-pulling-data-fr/
 categories: [guides]
 tags: [remote-work-tools, ai-automation, project-management, api-integration, developer-tools, productivity, remote-work, artificial-intelligence]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
