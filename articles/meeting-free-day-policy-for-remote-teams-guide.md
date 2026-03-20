@@ -8,7 +8,7 @@ permalink: /meeting-free-day-policy-for-remote-teams-guide/
 categories: [guides]
 tags: [remote-work-tools, remote-work, meetings, productivity, async-communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

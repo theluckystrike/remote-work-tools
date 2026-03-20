@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /linear-vs-shortcut-for-a-remote-startup-of-8-engineers/
 categories: [comparisons]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison, remote-work]
