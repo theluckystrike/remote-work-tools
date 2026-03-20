@@ -92,13 +92,101 @@ Beyond hardware choices, software configurations help minimize keyboard impact d
 
 Consider your typing position and angle. keyboards angled toward you tend to direct sound downward into the desk, while flat keyboards allow sound to dissipate more naturally. Experiment with keyboard position to find the angle that minimizes sound transmission to your video call participants.
 
+## Product Recommendations by Budget and Preference
+
+### Premium Quiet Mechanical ($150-250)
+**Keychron K8 Pro with Boba U4T switches** ($180-220)
+- Custom mechanical keyboard with quiet switches
+- Wireless or wired operation
+- Excellent build quality
+- Adjustable backlighting
+- Available in full-size, tenkeyless layouts
+
+**Leopold FC660M with Cherry MX Silent Red** ($150-200)
+- Compact tenkeyless design saves desk space
+- Premium build quality, Japanese-made
+- Highly regarded in mechanical keyboard community
+- Minimal profile noise
+
+### Mid-Range Quiet Options ($80-150)
+**Keychron K3 Pro** ($100-130)
+- Low-profile mechanical switches (less noise than standard)
+- Wireless + wired options
+- Good compromise between mechanical feel and quiet operation
+
+**Logitech MX Keys** ($99)
+- Non-mechanical scissor switches
+- Excellent typing feel without mechanical click
+- Smart illumination
+- Professional appearance suitable for video calls
+
+**Nuphy Halo96** ($130)
+- Custom mechanical with quiet linear switches
+- Wireless and wired capability
+- Minimal, modern aesthetic
+
+### Budget Quiet Keyboards ($40-80)
+**Apple Magic Keyboard** ($49-99)
+- Quiet scissor switches
+- Excellent compatibility across Apple ecosystem
+- Lightweight, portable design
+
+**Logitech K380** ($39-50)
+- Low-profile scissor switches
+- Wireless multi-device support
+- Very quiet operation
+
+**ASUS ZenBook Keyboard** ($50-70)
+- Quiet chiclet-style keys
+- USB-C wired connection
+- Budget-friendly quiet option
+
+## Noise Level Comparison
+
+| Keyboard Type | Decibel Level | Audible in Video Calls |
+|--------|--------|--------|
+| Mechanical clicky (Blue switches) | 75-80 dB | Very audible, distracting |
+| Mechanical tactile (Brown) | 70-75 dB | Noticeable, somewhat distracting |
+| Mechanical quiet (Boba U4T, Silent Red) | 60-65 dB | Subtle, acceptable |
+| Membrane/scissor switches | 55-65 dB | Very quiet, not noticeable |
+| Laptop chiclet keyboards | 50-60 dB | Minimal noise presence |
+
+Reference: Normal conversation = 60 dB, whisper = 30 dB
+
+## Customization Strategies for Existing Mechanical Keyboards
+
+If you already own a mechanical keyboard, these modifications reduce noise without full replacement:
+
+**Switch dampening** ($10-20 investment):
+- O-rings (silicone donuts on key stems): Reduce bottom-out noise by 5-8 dB
+- Lubrication (specialty keyboard lube): Smooths switch operation, reduces friction noise
+- Tape modding (thin tape under stabilizers): Absorbs vibration, reduces pinging
+
+**Case dampening** ($5-15):
+- Foam padding between PCB and case: Absorbs housing resonance
+- Stabilizer modifications: Better isolation reduces key wobble noise
+- Gasket strips: Isolate switches from hard mounting surface
+
+**Cost-benefit**: $15-30 total investment can reduce keyboard noise by 30-40%, often sufficient to make a loud keyboard acceptable for video calls.
+
 ## Making the Switch
 
 Transitioning to a quieter keyboard requires adjustment period. Your typing speed may temporarily decrease as your fingers adapt to different switch characteristics or key travel. This is normal and typically resolves within one to two weeks of consistent use.
 
 Start with a keyboard that matches your current layout preference—full-size, tenkeyless, or compact. Adding layout adaptation on top of switch adaptation creates unnecessary friction. Once you adjust to the quieter switches, you can experiment with different layouts if desired.
 
-For developers working in open offices or frequently on video calls, investing in a quiet keyboard improves your work environment and reduces friction with teammates. The best option depends on your typing style, budget, and willingness to modify your setup. Start with one of the recommended quiet mechanical switches if you want tactile feedback, or try a quality membrane keyboard for immediate quiet operation without adjustment.
+**Transition strategy**:
+1. Purchase quieter keyboard while keeping existing keyboard available
+2. Use new keyboard for 30-50% of typing tasks during week 1-2
+3. Gradually increase usage as comfort improves
+4. By week 3-4, you'll likely have adapted completely
+
+For developers working in open offices or frequently on video calls, investing in a quiet keyboard improves your work environment and reduces friction with teammates. The best option depends on your typing style, budget, and willingness to modify your setup:
+
+- **Pure tactile feedback preference**: Boba U4T mechanical with O-rings ($150+ but custom-configured)
+- **Quick improvement**: Logitech MX Keys for immediate quiet operation without adjustment ($99)
+- **Budget upgrade**: Apple Magic Keyboard or Logitech K380 ($50-99)
+- **Existing keyboard**: O-ring modification for immediate 30-40% noise reduction ($20)
 
 The right keyboard lets you code confidently during calls without worrying about distracting your team. Test different options when possible, and remember that quiet operation doesn't mean sacrificing the typing experience that makes you productive.
 
