@@ -90,25 +90,160 @@ The free tier includes unlimited users and unlimited standups, supported by opti
 | Teams Support | No | Yes | No | No |
 | Self-Hosted | No | No | Yes | No |
 | Free Tier | Limited | Limited | Yes | Yes |
-| Starting Price | $5/user | $5/user | Free | Free |
-| AI Summaries | No | Yes | No | No |
+| Starting Price | $5/user/mo | $5/user/mo | Free | Free |
+| AI Summaries | No | Yes (extra) | No | No |
 | Project Integrations | Basic | Extensive | None | Basic |
+| Standup Templates | 10+ preset | Unlimited custom | Configurable | 8+ preset |
+| Max Schedule/Week | 7 | Unlimited | Unlimited | Unlimited |
+| Mobile App | Web only | Yes | No | Web only |
+| Analytics Dashboard | Basic | Advanced | None | Basic |
 
-## Implementation Recommendations
+## Detailed Pricing Breakdown
 
-For small teams just starting with async standups, DailyStandup offers the lowest friction. The interface is straightforward, and the free tier removes budget concerns while you establish the habit.
+**GeekBot**: Free tier includes 3 standups per month; $5/user/month for unlimited standups with dashboard analytics. Teams of 3-5 typically pay $15-25/month total.
 
-Teams already using Jira or Asana should lean toward Standuply for its deep integrations. The ability to pull task context automatically saves time and makes standups more actionable.
+**Standuply**: Free for up to 100 messages/month; $4.99/user/month ($25-50 for small teams) with unlimited standups. AI summaries cost $1.99/month extra per user. Total for 5-person team with AI: $35-50/month.
 
-Organizations with data compliance requirements or those wanting to avoid per-user subscription costs should consider Cyclops. The self-hosted approach requires DevOps effort but gives complete data ownership.
+**Cyclops**: Fully free and self-hosted; only cost is infrastructure if you run it on AWS or similar cloud. Budget $20-50/month for basic cloud hosting. Internal setup requires ~4 hours DevOps work initially.
+
+**DailyStandup**: Free tier genuinely unlimited for small teams. $3/user/month for analytics and custom branding. Small teams can use free tier indefinitely; $9-15/month for paid features on 3-5 person team.
+
+## Real-World Deployment Scenarios
+
+### Scenario 1: Bootstrap Startup (3 Engineers, No Budget)
+**Recommendation**: DailyStandup free tier or Cyclops self-hosted
+- **Why**: No per-user costs; DailyStandup free tier is genuinely feature-complete
+- **Monthly cost**: $0
+- **Setup time**: 15 minutes for DailyStandup, 2-4 hours for Cyclops
+- **Trade-off**: No advanced analytics, but you get essential standup functionality
+
+### Scenario 2: Growth-Stage Company (12 Engineers, $5K/mo tools budget)
+**Recommendation**: Standuply with AI summaries
+- **Why**: Deep Jira integration accelerates planning; AI summaries save managers 3-5 hours/week reading updates
+- **Monthly cost**: $60-70 (12 users at $5/month + AI)
+- **Setup time**: 2 hours for integrations
+- **ROI**: Manager time saved pays for tool in under a month
+
+### Scenario 3: Distributed Teams (20+ Engineers Across 5 Time Zones)
+**Recommendation**: Standuply or GeekBot
+- **Why**: Flexible scheduling per time zone; comprehensive analytics help identify blockers across regions
+- **Monthly cost**: GeekBot $100 (20 users), Standuply $120-150 (with AI)
+- **Setup time**: 3-4 hours to customize questions and integrations
+- **Value**: Async standups prevent mandatory 5am or 11pm meetings for someone
+
+## Advanced Configuration Examples
+
+### GeekBot Custom Question Flow
+
+```yaml
+# GeekBot advanced configuration for distributed team
+standup_questions:
+  - "What shipped yesterday?" (all teams)
+  - "What are your top 3 priorities today?" (engineering only)
+  - "Any blockers preventing progress?" (all teams)
+  - "Who needs help?" (all teams)
+  - "What did you learn?" (optional, Fridays only)
+
+timezone_handling:
+  - Team US/Eastern: 9:00am ET
+  - Team EU: 10:00am CET (separate standup)
+  - Team APAC: 5:00pm Singapore time
+
+report_format: "Thread in #standups, also email to manager"
+```
+
+### Standuply Jira Integration Setup
+
+For teams using Jira, Standuply can pull task context automatically:
+
+```bash
+# Connect your Jira instance
+# 1. Generate API token at https://id.atlassian.com/manage/api-tokens
+# 2. In Standuply dashboard: Settings > Integrations > Jira
+# 3. Enter Jira URL and API token
+# 4. Enable automatic task suggestions in standup flow
+
+# Questions will now include:
+# "What tasks did you move from In Progress to Done?"
+# with automatic suggestions from your Jira board
+```
+
+### Cyclops Docker Deployment with Slack Notifications
+
+```bash
+# Production Cyclops setup with data persistence
+docker run -d \
+  --name cyclops-standup \
+  -e SLACK_TOKEN=xoxb-your-token \
+  -e STANDUP_CHANNEL_ID=C12345 \
+  -e QUESTIONS="What shipped yesterday?|What will you work on today?|Any blockers?" \
+  -e SLACK_NOTIFICATION_TIME="09:00" \
+  -e TZ="America/New_York" \
+  -v /data/cyclops:/data \
+  -v /data/cyclops/db:/app/db \
+  --restart unless-stopped \
+  cyclops/standup-bot:latest
+
+# Verify it's running
+docker logs cyclops-standup
+```
+
+## Implementation Recommendations by Team Size and Maturity
+
+### Teams Under 5 Engineers
+Start with DailyStandup free or Standuply. At this scale, per-user costs don't matter much (total $0-15/month). Get the habit established, then optimize later. Time spent on tool evaluation exceeds time saved.
+
+### Teams 5-15 Engineers
+Move toward tool that provides the most value for your workflow. If using Jira heavily, Standuply's integrations save significant manual data entry. If fully distributed across time zones, Standuply's flexible scheduling becomes critical.
+
+### Teams 15+ Engineers
+Cyclops self-hosted becomes attractive (one-time 4-hour DevOps setup, then $30-50/month hosting). Large teams justify the initial infrastructure investment through data privacy compliance and cost savings ($5/person/month = $75-100+ monthly savings).
+
+### Global Teams with Strict Data Compliance
+Cyclops is non-negotiable. Self-hosted ensures your standup data never touches third-party servers. Budget 4-6 hours for initial setup, then minimal ongoing maintenance.
 
 ## Making Async Standups Work
 
-Deploying a bot is only half the battle. Make async standups valuable by keeping questions focused, reading teammates' updates consistently, and using the information to identify dependencies before they cause blockers.
+Deploying a bot is only half the battle. Make async standups valuable by implementing these practices:
 
-Adjust questions based on your team's needs. Some teams benefit from "What will you work on today?" while others need "What decisions did you make yesterday?" to surface architectural choices.
+### Question Design Best Practices
 
-Rotate standup facilitators who summarize themes and flag items needing synchronous discussion. Async standups work best when they feed into occasional sync meetings rather than replacing all communication.
+**Focused questions** prevent standup bloat. Instead of "What did you do?", ask:
+- "What shipped?" (forces you to think in terms of deliverables)
+- "What's blocking you?" (surfaces real problems)
+- "What help do you need?" (encourages collaboration)
+
+Avoid "How are you?" and generic status questions—they generate noise without insight.
+
+### Standup Facilitation
+
+Designate a rotating facilitator for each standup cycle (weekly or biweekly). The facilitator's job is to:
+
+1. Read all responses within 2 hours of the standup closing
+2. Identify patterns and blockers
+3. Flag items needing synchronous discussion
+4. Write a 2-3 sentence summary of the cycle for stakeholders
+
+This 15-minute daily commitment ensures standups inform actual project decisions.
+
+### Integration with Your Development Process
+
+Connect standup data to your project management tool:
+- **Blockers mentioned in standup** → Create a Jira issue, tag as blocker
+- **Help requests** → Assign to team members, track resolution
+- **Shipped work** → Update task status if not automatically synced
+
+This transforms standups from a communication ritual into a real-time project management signal.
+
+### Cadence Recommendations
+
+For distributed teams, daily standups work, but **biweekly deep standups** provide better value:
+
+- **Daily lightweight**: 3 quick questions, 2-minute response window, mostly async
+- **Weekly digest**: 5-minute manager summary of week's progress and blockers
+- **Biweekly planning**: Synchronous 30-minute meeting discussing week 3-4, using standups as input
+
+This hybrid approach reduces standup fatigue while maintaining visibility across time zones.
 
 
 ## Related Reading
