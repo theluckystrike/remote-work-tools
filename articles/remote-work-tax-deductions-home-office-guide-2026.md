@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Work Tax Deductions: Home Office Guide 2026 (US, UK, EU)"
-description: "Complete guide to home office tax deductions for remote workers. US IRS deduction methods, UK/EU rules, qualifying expenses, calculation methods, record-keeping tools, and tax-advantaged software."
+title: "Remote Work Tax Deductions: Home Office Guide 2026 (US."
+description: "Complete guide to home office tax deductions for remote workers. US IRS deduction methods, UK/EU rules, qualifying expenses, calculation methods."
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-home-office-tax-deductions-2026/
@@ -684,3 +684,8 @@ Examples:
 The time investment is 2-3 hours. The tax savings: $300-1,500 per year. ROI: Priceless.
 
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
