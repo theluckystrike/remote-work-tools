@@ -168,6 +168,57 @@ While private insurance is required for the visa:
 - The SUMMA emergency service is free for everyone
 - Private clinics are widely available in major cities
 
+## Document Checklist
+
+Use this checklist to track your application. A single missing document is the most common cause of delays:
+
+```markdown
+# Spain Digital Nomad Visa — Document Checklist
+
+## Identity
+- [ ] Passport valid for 12+ months beyond intended departure
+- [ ] 2x passport photos (white background, 35x45mm)
+
+## Employment Evidence
+- [ ] Employment contract or freelance agreements
+- [ ] Letter from employer confirming remote status outside Spain
+- [ ] Last 3 payslips or invoices showing EUR 2,334/month minimum
+
+## Financial
+- [ ] Bank statements — last 6 months (consistent income, no large gaps)
+
+## Legal
+- [ ] Criminal background check from home country (within 6 months)
+- [ ] Apostille on all criminal record certificates
+
+## Health
+- [ ] Private health insurance: full coverage in Spain, no co-payments
+
+## Beckham Law (file within 30 days of arrival)
+- [ ] Form 149 filed with Spanish Tax Agency (AEAT)
+- [ ] Proof of first entry date
+- [ ] Evidence of not being Spanish tax resident in prior 5 years
+```
+
+Track renewal deadlines with this shell script:
+
+```bash
+#!/bin/bash
+# visa_tracker.sh — Days remaining for Spain DNV renewals
+VISA_EXPIRY="2027-03-20"
+INSURANCE_EXPIRY="2027-03-15"
+CRIMINAL_CHECK_EXPIRY="2026-09-01"
+today=$(date +%Y-%m-%d)
+days_diff() { echo $(( ( $(date -d "$1" +%s) - $(date -d "$today" +%s) ) / 86400 )); }
+echo "Spain DNV Tracker — $today"
+printf "Visa expiry:          %s days\n" "$(days_diff $VISA_EXPIRY)"
+printf "Insurance expiry:     %s days\n" "$(days_diff $INSURANCE_EXPIRY)"
+printf "Criminal check expiry:%s days\n" "$(days_diff $CRIMINAL_CHECK_EXPIRY)"
+if [ "$(days_diff $VISA_EXPIRY)" -lt 90 ]; then
+    echo "WARNING: Renewal window is open — apply now."
+fi
+```
+
 ## Tips for a Successful Application
 
 Provide clear evidence of remote work, down to individual contracts and invoices. Avoid large fluctuations in bank statements in the six months before you apply. Consider hiring an immigration lawyer—the document requirements are specific and a single missing item delays everything. Apply early, since processing times range from 20 to 60 days. Keep organized files from the start, because you will need the same documents again at renewal.

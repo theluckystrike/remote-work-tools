@@ -168,6 +168,56 @@ Finding the right bias lighting settings is personal, but here are some guidelin
 
 **Position:** The lights should create even illumination across the wall behind your monitor. Avoid concentrating light in one spot, which can create new contrast issues.
 
+## Automating Color Temperature with Home Assistant
+
+If you run Home Assistant, automate bias light color temperature to shift with the time of day:
+
+```yaml
+# configuration.yaml — bias light automation
+automation:
+  - alias: "Bias Light — Morning (cool, 5000K)"
+    trigger:
+      platform: time
+      at: "07:00:00"
+    action:
+      service: light.turn_on
+      target:
+        entity_id: light.monitor_bias_strip
+      data:
+        kelvin: 5000
+        brightness_pct: 40
+
+  - alias: "Bias Light — Evening (warm, 2700K)"
+    trigger:
+      platform: time
+      at: "18:00:00"
+    action:
+      service: light.turn_on
+      target:
+        entity_id: light.monitor_bias_strip
+      data:
+        kelvin: 2700
+        brightness_pct: 25
+
+  - alias: "Bias Light — Off at bedtime"
+    trigger:
+      platform: time
+      at: "22:30:00"
+    action:
+      service: light.turn_off
+      target:
+        entity_id: light.monitor_bias_strip
+```
+
+For Govee strips with the LAN API enabled, control color temperature directly via curl:
+
+```bash
+# Set Govee strip to warm white (3000K) — requires LAN Control in Govee app
+curl -X PUT "http://192.168.1.105:4003/govee/v1/device/control" \
+  -H "Content-Type: application/json" \
+  -d '{"msg": {"cmd": "colorTemInKelvin", "data": {"value": 3000}}}'
+```
+
 ## Additional Tips for Reducing Eye Strain
 
 While bias lighting significantly helps, combine it with these practices for maximum eye comfort:
