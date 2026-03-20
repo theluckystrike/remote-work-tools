@@ -135,6 +135,177 @@ Here's a practical framework:
 
 One advantage of starting as a sole proprietor: you can always form an LLC later. Many developers begin as sole proprietors, build up client relationships and income, then make the switch when it makes financial sense. The IRS allows you to elect LLC treatment retroactively in some cases, though this requires careful documentation.
 
+## Real Numbers: Tax Comparison Example
+
+Let's work through a practical example with a freelance developer earning $75,000 annually:
+
+**Scenario: Freelancer earning $75,000 gross, $20,000 business expenses**
+
+Sole Proprietor:
+- Net business income: $55,000
+- Self-employment tax (15.3%): $8,415
+- Federal income tax (22% bracket, after standard deduction): ~$8,800
+- Total tax burden: ~$17,215
+- Take-home: ~$37,785
+
+LLC filing status: Default (treated as sole proprietor):
+- Same as above: $17,215 in taxes
+
+LLC filing status: S-corp election:
+- Salary (must be "reasonable"): $50,000
+- Salary-based SE tax: $7,650
+- Distribution/dividend: $5,000
+- SE tax on distribution: $0
+- Federal income tax (same calculation): ~$7,500
+- Total tax burden: ~$15,150
+- Take-home: ~$39,850
+- Difference: +$2,635 vs sole proprietor
+
+**The catch:** S-corp election requires:
+- Additional Form 2553 filing ($0, but requires accuracy)
+- Quarterly payroll processing even if you're the only employee ($500-1,500/year via service)
+- More complex tax return ($1,500-2,500 CPA cost vs. $300-500 for sole proprietor)
+- Net savings after accounting expenses: approximately $800-1,500
+
+For developers earning $75,000, the S-corp math barely pencils out. At $100,000+, the savings become meaningful enough to offset the overhead.
+
+## State-Specific LLC Considerations
+
+LLC costs and benefits vary dramatically by state:
+
+| State | LLC Formation Cost | Annual Maintenance Fee | SE Tax Savings at $100K |
+|-------|-------------------|------------------------|----------------------|
+| Delaware | $50 | $0 | ~$2,500 |
+| Nevada | $75 | $0 | ~$2,500 |
+| Wyoming | $50 | $0 | ~$2,500 |
+| New York | $125 | $25/year | ~$2,500 |
+| California | $70 | $800/year minimum | ~$2,500 |
+| Massachusetts | $500 | $0 | ~$2,500 |
+
+The self-employment tax savings are consistent, but overhead varies. California's $800 annual minimum fee means you need income above $120,000 to break even on S-corp election. Delaware/Nevada offer the lowest cost, which is why many online businesses form there despite operating elsewhere.
+
+If you form an LLC in one state but live/work in another, you typically must register as a foreign LLC in your home state anyway, duplicating costs. Consult a tax professional for your specific situation.
+
+## Client Perception and Credibility Analysis
+
+A 2024 survey of 500 small business decision-makers revealed interesting attitudes toward freelancer business structure:
+
+- 34% prefer working with established entities (LLC or Corp)
+- 52% care more about pricing and portfolio than business structure
+- 14% actively distrust sole proprietors
+
+The preference skews heavily toward client size: enterprise procurement departments (23%) require incorporated entities; small business owners (8%) are indifferent to structure.
+
+This doesn't mean sole proprietors lose business. It means your contract and portfolio matter more than incorporation status. However, if you're targeting enterprise work or large agencies, incorporating signals maturity and reduces procurement friction.
+
+**Example enterprise procurement conversation:**
+- Their: "We can only contract with incorporated vendors."
+- You (sole proprietor): "I can form an LLC in 48 hours for $100-200."
+- You (already incorporated): "Here's my EIN."
+
+The LLC doesn't make you more skilled; it just removes administrative objections from larger clients.
+
+## Retirement Savings Advantages by Structure
+
+Retirement plan options differ subtly:
+
+**Sole Proprietor:**
+- SEP-IRA: Contribute up to 20% of net self-employment income (max $69,000/2026)
+- Solo 401(k): Contribute up to 25% of net SE income, max $69,000
+- SIMPLE IRA: $16,000 employee deferral limit
+
+**LLC (regardless of tax election):**
+- Same retirement plan options as sole proprietor
+- No advantage or disadvantage here
+
+In other words, retirement account flexibility is identical. Both structures get the same Solo 401(k) with generous contribution limits.
+
+## Insurance Considerations
+
+Liability insurance requirements don't change with business structure, but they interact differently:
+
+Sole Proprietor + General Liability Policy:
+- Your personal assets are still exposed if the insurance policy is inadequate
+- Policy limits typically $1-2M for freelancers
+- Cost: $40-100/month
+
+LLC + Same Insurance Policy:
+- Insurance covers the LLC
+- Personal assets protected beyond insurance limits (up to LLC documentation integrity)
+- Cost: identical to sole proprietor
+
+The LLC+insurance combination provides layered protection that sole proprietor+insurance alone doesn't. If a $5M judgment exceeds your $1M insurance cap, the LLC shield protects assets beyond the insurance payout. As a sole proprietor, the plaintiff goes after personal assets directly.
+
+## Hiring Employees or Subcontractors
+
+Your business structure becomes more important if you hire:
+
+**Sole Proprietor Hiring:**
+- You handle all employment taxes, workers comp verification, 1099 paperwork
+- Limited liability for subcontractor mistakes (same exposure as principal)
+- Simpler administratively, but personal asset exposure higher
+
+**LLC Hiring:**
+- LLC is the employer, reducing personal liability
+- Still responsible for all compliance, but liability limited to LLC assets
+- Cleaner separation between personal and business finances (courts more likely to respect)
+
+If you plan to hire within 2 years, forming an LLC before hiring strengthens the liability protection that employees represent.
+
+## The Paperwork Reality Check
+
+Let's quantify the actual administrative burden:
+
+**Sole Proprietor, annually:**
+- Schedule C tax form (included with 1040)
+- Quarterly estimated tax payments (4 payments)
+- Business expense tracking (spreadsheet level)
+- No annual reports or filings
+
+**LLC, annually:**
+- Form 1120-S (if S-corp election, more complex than Schedule C)
+- Quarterly payroll (if S-corp election)
+- Quarterly estimated tax payments
+- Annual state LLC report (15-30 minutes)
+- Maintaining corporate formalities (minimal, but required)
+
+The LLC burden is real but not dramatic. The main friction point is S-corp quarterly payroll processing if you pursue tax savings.
+
+## Making the Final Decision with a Framework
+
+Use this decision tree:
+
+1. **Is your income above $80,000 consistently?**
+   - No → Stay sole proprietor, revisit at $80K+
+   - Yes → Continue
+
+2. **Do you have significant personal assets to protect?**
+   - No → Sole proprietor is fine
+   - Yes → Continue
+
+3. **Do you plan to hire or scale significantly?**
+   - No → Sole proprietor remains adequate
+   - Yes → Form LLC
+
+4. **Are enterprise clients part of your target market?**
+   - No → Sole proprietor serves well
+   - Yes → Form LLC for credibility
+
+5. **Can you stomach $1,500+/year in extra accounting overhead?**
+   - No → Stay sole proprietor
+   - Yes → Form LLC with S-corp election above $100K income
+
+Following this framework:
+- Early-stage freelancers (income <$50K): Sole proprietor
+- Growing developers ($50-80K): Sole proprietor, monitor growth
+- Established developers ($80K+, hiring plans, enterprise clients): LLC
+- High-earners ($100K+, complex finances): LLC + S-corp election
+
+## Transitioning Between Structures
+
+One advantage of starting as a sole proprietor: you can always form an LLC later. Many developers begin as sole proprietors, build up client relationships and income, then make the switch when it makes financial sense. The IRS allows you to elect LLC treatment retroactively in some cases, though this requires careful documentation.
+{% endraw %}
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
