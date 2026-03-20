@@ -8,7 +8,7 @@ permalink: /best-webcam-for-zoom-calls-in-a-bright-window-behind-you/
 categories: [guides]
 tags: [remote-work-tools, webcam, zoom, remote-work, video-calling, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
