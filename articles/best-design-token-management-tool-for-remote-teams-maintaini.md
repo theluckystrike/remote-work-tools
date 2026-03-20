@@ -8,7 +8,7 @@ permalink: /best-design-token-management-tool-for-remote-teams-maintaining-brand
 categories: [guides]
 tags: [remote-work-tools, design-tokens, design-systems, remote-work, brand-consistency, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -8,7 +8,7 @@ permalink: /best-fiber-internet-providers-in-lisbon-for-remote-developer/
 categories: [guides]
 tags: [remote-work-tools, lisbon, fiber-internet, remote-work, Portugal, low-latency, developer-tools, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
