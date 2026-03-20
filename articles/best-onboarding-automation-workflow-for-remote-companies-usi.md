@@ -6,8 +6,8 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/
 categories: [guides]
-tags: [onboarding, automation, slack, notion, remote-work, dev-tools]
-score: 7
+tags: [remote-work-tools, onboarding, automation, slack, notion, remote-work, dev-tools, best-of]
+score: 8
 voice-checked: true
 reviewed: true
 ---

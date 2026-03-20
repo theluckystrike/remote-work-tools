@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-occupancy-analytics-platform-for-hybrid-offices-trackin/
 categories: [guides]
-tags: [occupancy-analytics, hybrid-office, desk-booking, room-management, workplace-tech, sensors, api-integrations]
+tags: [remote-work-tools, occupancy-analytics, hybrid-office, desk-booking, room-management, workplace-tech, sensors, api-integrations]
 reviewed: true
 score: 8
 intent-checked: true

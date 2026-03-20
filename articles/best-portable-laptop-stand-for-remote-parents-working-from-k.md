@@ -10,6 +10,7 @@ score: 8
 voice-checked: true
 categories: [guides]
 intent-checked: true
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 A sub-2-pound aluminum portable stand that folds in under 5 seconds and fits your laptop sleeve is more valuable than premium materials because deployment speed matches the reality of kitchen table work—you might clear the table for breakfast, work for an hour, then clear again for lunch. Stands offering 6-15 inches height adjustment, a stable 8+ inch base, and one-handed folding handle the unpredictable kitchen environment better than prettier but heavier options that never leave the closet.

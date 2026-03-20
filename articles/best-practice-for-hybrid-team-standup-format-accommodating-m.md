@@ -11,6 +11,7 @@ score: 8
 voice-checked: true
 categories: [guides]
 intent-checked: true
+tags: [remote-work-tools, best-of]
 ---
 
 The "all-remote standup format" where even in-office participants dial in from individual desks prevents asymmetric participation and ensures remote attendees don't become invisible second-class participants. By breaking standups into 60-second individual updates instead of conversational round-robins, using async Slack updates with dedicated response threads, and rotating standup facilitation to distributed team members, hybrid teams ensure information flows equally and remote voices get heard. This inverts the default problem—rather than fitting remote workers into an in-office meeting structure, designing standups for distributed-first participation paradoxically improves engagement for co-located teams while ensuring equity across your entire distributed workforce.

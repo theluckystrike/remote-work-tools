@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-social-events-including-both-r/
 categories: [guides]
-tags: [hybrid-work, team-building, remote-culture, in-office, social-events]
+tags: [remote-work-tools, hybrid-work, team-building, remote-culture, in-office, social-events, best-of]
 reviewed: true
 score: 8
 voice-checked: true

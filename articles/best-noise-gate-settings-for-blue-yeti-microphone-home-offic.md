@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-noise-gate-settings-for-blue-yeti-microphone-home-offic/
 categories: [guides]
-tags: [audio, microphone, blue yeti, noise gate, home office, remote work]
+tags: [remote-work-tools, audio, microphone, blue yeti, noise gate, home office, remote work, best-of]
 reviewed: true
 score: 8
 intent-checked: true

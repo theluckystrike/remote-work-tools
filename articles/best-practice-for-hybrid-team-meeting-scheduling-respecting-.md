@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-meeting-scheduling-respecting-/
 categories: [guides]
-tags: [hybrid-work, meeting-scheduling, remote-work, office-preferences, team-collaboration]
+tags: [remote-work-tools, hybrid-work, meeting-scheduling, remote-work, office-preferences, team-collaboration, best-of]
 reviewed: true
 score: 8
 intent-checked: true

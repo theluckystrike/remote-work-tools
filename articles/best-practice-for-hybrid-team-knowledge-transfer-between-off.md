@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-knowledge-transfer-between-off/
 categories: [guides]
-tags: [hybrid-work, knowledge-management, remote-work, async-communication, team-collaboration]
+tags: [remote-work-tools, hybrid-work, knowledge-management, remote-work, async-communication, team-collaboration, best-of]
 reviewed: true
 score: 8
 intent-checked: true

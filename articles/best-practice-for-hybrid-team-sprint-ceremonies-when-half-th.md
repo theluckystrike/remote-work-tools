@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/
 categories: [guides]
-tags: [hybrid-work, sprint-ceremonies, agile, remote-work, team-communication]
+tags: [remote-work-tools, hybrid-work, sprint-ceremonies, agile, remote-work, team-communication, best-of]
 reviewed: true
 score: 8
 intent-checked: true

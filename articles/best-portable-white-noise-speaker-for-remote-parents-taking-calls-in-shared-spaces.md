@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/
 categories: [guides]
-tags: [remote work, white noise, video calls, productivity, parents]
+tags: [remote-work-tools, remote work, white noise, video calls, productivity, parents, best-of, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
