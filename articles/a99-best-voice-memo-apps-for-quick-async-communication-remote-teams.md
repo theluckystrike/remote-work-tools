@@ -190,6 +190,42 @@ Consider these factors when selecting a voice memo solution:
 4. Security requirements: Enterprise teams may need specific compliance features
 5. Mobile needs: If your team works on mobile, prioritize apps with strong mobile experiences
 
+## Loom API Integration for Automated Async Workflows
+
+Teams using Loom can automate video notifications into Slack when a new recording is added:
+
+```python
+import requests
+
+LOOM_API_KEY = "your_loom_api_key"
+SLACK_WEBHOOK = "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+
+def get_recent_loom_videos(limit=1):
+    headers = {"Authorization": f"Bearer {LOOM_API_KEY}"}
+    resp = requests.get(
+        "https://www.loom.com/v1/videos",
+        headers=headers,
+        params={"limit": limit}
+    )
+    resp.raise_for_status()
+    return resp.json().get("videos", [])
+
+def post_to_slack(video):
+    message = {
+        "text": f"New async update: *{video['name']}*",
+        "attachments": [{
+            "title": video["name"],
+            "title_link": video["url"],
+            "footer": f"Recorded by {video['owner']['name']}"
+        }]
+    }
+    requests.post(SLACK_WEBHOOK, json=message)
+
+videos = get_recent_loom_videos()
+if videos:
+    post_to_slack(videos[0])
+```
+
 
 ## Related Reading
 
