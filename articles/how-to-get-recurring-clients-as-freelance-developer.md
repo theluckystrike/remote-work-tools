@@ -8,7 +8,7 @@ permalink: /how-to-get-recurring-clients-as-freelance-developer/
 categories: [guides]
 tags: [remote-work-tools, freelance, career, business-development, client-retention]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

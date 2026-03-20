@@ -8,7 +8,7 @@ permalink: /how-to-handle-client-calls-across-8-hour-time-difference/
 categories: [guides]
 tags: [remote-work-tools, remote-work, client-communication, time-zones, async, developer-productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
