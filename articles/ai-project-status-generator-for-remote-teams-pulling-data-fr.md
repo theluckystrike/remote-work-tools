@@ -311,8 +311,159 @@ jobs:
 
 **Customization**: The prompt in `StatusReportGenerator` can be modified to match your team's specific format requirements. Some teams prefer bullet points, others prefer paragraphs.
 
-Building an AI project status generator eliminates the manual drudgery of synthesizing updates across disparate tools. Your team gets consistent, data-driven status reports without anyone spending hours gathering information.
+## Adding Notion and Linear Connectors
 
+The same data connector pattern extends to other tools. Notion pages make excellent sources for documentation status and pending decisions. Linear provides detailed engineering metrics including cycle time and scope creep.
+
+```python
+class NotionConnector:
+    def __init__(self, api_key: str):
+        self.headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Notion-Version": "2022-06-28",
+            "Content-Type": "application/json"
+        }
+        self.base_url = "https://api.notion.com/v1"
+
+    def get_database_items(self, database_id: str, days: int = 7) -> ProjectData:
+        from datetime import datetime, timedelta
+        cutoff = (datetime.now() - timedelta(days=days)).isoformat()
+
+        payload = {
+            "filter": {
+                "property": "Last edited time",
+                "last_edited_time": {"after": cutoff}
+            },
+            "sorts": [{"timestamp": "last_edited_time", "direction": "descending"}],
+            "page_size": 50
+        }
+
+        response = requests.post(
+            f"{self.base_url}/databases/{database_id}/query",
+            headers=self.headers,
+            json=payload
+        )
+        pages = response.json().get("results", [])
+        return ProjectData(source="notion", items=pages, timestamp=datetime.now())
+
+
+class LinearConnector:
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+        self.endpoint = "https://api.linear.app/graphql"
+
+    def get_cycle_data(self, team_id: str) -> ProjectData:
+        query = """
+        query TeamIssues($teamId: String!) {
+          team(id: $teamId) {
+            cycles(first: 1, orderBy: startedAt) {
+              nodes {
+                startsAt
+                endsAt
+                completedAt
+                issues {
+                  nodes {
+                    title
+                    state { name }
+                    completedAt
+                    estimate
+                  }
+                }
+              }
+            }
+          }
+        }
+        """
+        response = requests.post(
+            self.endpoint,
+            headers={"Authorization": self.api_key},
+            json={"query": query, "variables": {"teamId": team_id}}
+        )
+        cycle_data = response.json().get("data", {})
+        return ProjectData(source="linear", items=[cycle_data], timestamp=datetime.now())
+```
+
+## Caching API Responses to Stay Within Rate Limits
+
+Running the generator multiple times per day (or on-demand) against live APIs burns through rate limits quickly. Cache connector responses with a short TTL to allow re-runs without hitting limits:
+
+```python
+import hashlib
+import json
+import os
+from datetime import datetime, timedelta
+from pathlib import Path
+
+class CachedConnector:
+    def __init__(self, connector, cache_dir: str = ".status-cache", ttl_minutes: int = 30):
+        self.connector = connector
+        self.cache_dir = Path(cache_dir)
+        self.cache_dir.mkdir(exist_ok=True)
+        self.ttl = timedelta(minutes=ttl_minutes)
+
+    def _cache_key(self, method_name: str, *args) -> str:
+        key = f"{type(self.connector).__name__}:{method_name}:{':'.join(str(a) for a in args)}"
+        return hashlib.md5(key.encode()).hexdigest()
+
+    def _cached(self, method_name: str, *args):
+        key = self._cache_key(method_name, *args)
+        cache_file = self.cache_dir / f"{key}.json"
+
+        if cache_file.exists():
+            cached = json.loads(cache_file.read_text())
+            cached_at = datetime.fromisoformat(cached["cached_at"])
+            if datetime.now() - cached_at < self.ttl:
+                return cached["data"]
+
+        # Cache miss — call the real connector
+        result = getattr(self.connector, method_name)(*args)
+        cache_file.write_text(json.dumps({
+            "cached_at": datetime.now().isoformat(),
+            "data": result.__dict__ if hasattr(result, '__dict__') else result
+        }))
+        return result
+```
+
+## Delivering Reports to Multiple Channels
+
+A status report that only prints to stdout isn't useful for distributed teams. Add output adapters for Slack, email, and Confluence:
+
+```python
+class ReportDelivery:
+    def send_to_slack(self, report: str, webhook_url: str, channel: str):
+        """Post report to a Slack channel via webhook."""
+        payload = {
+            "channel": channel,
+            "text": f"*Weekly Status Report*\n{report}",
+            "mrkdwn": True
+        }
+        requests.post(webhook_url, json=payload)
+
+    def save_to_notion(self, report: str, page_id: str, notion_token: str):
+        """Append report as a new child page in Notion."""
+        headers = {
+            "Authorization": f"Bearer {notion_token}",
+            "Notion-Version": "2022-06-28",
+            "Content-Type": "application/json"
+        }
+        date_str = datetime.now().strftime("%Y-%m-%d")
+        requests.post(
+            "https://api.notion.com/v1/pages",
+            headers=headers,
+            json={
+                "parent": {"page_id": page_id},
+                "properties": {
+                    "title": {"title": [{"text": {"content": f"Status Report {date_str}"}}]}
+                },
+                "children": [
+                    {"object": "block", "type": "paragraph",
+                     "paragraph": {"rich_text": [{"text": {"content": report}}]}}
+                ]
+            }
+        )
+```
+
+Building an AI project status generator eliminates the manual drudgery of synthesizing updates across disparate tools. Your team gets consistent, data-driven status reports without anyone spending hours gathering information.
 
 ## Related Reading
 
