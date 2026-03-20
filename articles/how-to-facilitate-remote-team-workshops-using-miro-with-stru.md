@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-facilitate-remote-team-workshops-using-miro-with-stru/
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]

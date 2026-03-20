@@ -8,7 +8,7 @@ permalink: /how-to-facilitate-engaging-remote-retrospectives/
 categories: [guides]
 tags: [remote-work-tools, remote-work, retrospectives, agile, team-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

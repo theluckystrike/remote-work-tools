@@ -8,7 +8,7 @@ permalink: /how-to-find-coworking-spaces-in-medellin-colombia-with-video/
 categories: [guides]
 tags: [remote-work-tools, coworking, medellin, remote-work, colombia, video-calls]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -8,7 +8,7 @@ permalink: /how-to-create-remote-team-values-documentation-that-stays-au/
 categories: [guides]
 tags: [remote-work-tools, tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---
