@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-headset-for-wearing-with-glasses-all-day-remote-work/
 categories: [guides]
-tags: [headsets, remote-work, glasses, ergonomic]
+tags: [remote-work-tools, headsets, remote-work, glasses, ergonomic, best-of]
 reviewed: true
 score: 8
 intent-checked: true

@@ -12,6 +12,7 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 

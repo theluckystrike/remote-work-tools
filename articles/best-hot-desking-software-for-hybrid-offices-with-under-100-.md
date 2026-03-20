@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/
 categories: [guides]
-tags: [hot-desking, hybrid-work, desk-booking, workspace-management, small-team]
+tags: [remote-work-tools, hot-desking, hybrid-work, desk-booking, workspace-management, small-team, best-of]
 reviewed: true
 score: 8
 intent-checked: true

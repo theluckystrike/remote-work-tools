@@ -7,7 +7,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /best-music-for-coding-and-focus/
 categories: [guides]
-tags: [coding, focus, productivity, music]
+tags: [remote-work-tools, coding, focus, productivity, music, best-of]
 reviewed: true
 score: 8
 intent-checked: true

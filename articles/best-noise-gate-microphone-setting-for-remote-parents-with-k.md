@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-noise-gate-microphone-setting-for-remote-parents-with-k/
 categories: [guides]
-tags: [audio, microphone, noise gate, remote work, parents, kids, home office]
+tags: [remote-work-tools, audio, microphone, noise gate, remote work, parents, kids, home office]
 reviewed: true
 score: 8
 intent-checked: true

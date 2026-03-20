@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-keyboard-for-quiet-typing-during-video-calls-open-offic/
 categories: [guides]
-tags: [keyboards, remote-work, productivity]
+tags: [remote-work-tools, keyboards, remote-work, productivity, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/
 categories: [guides]
-tags: [noise cancelling, remote work, bali, digital nomad, focus, productivity]
+tags: [remote-work-tools, noise cancelling, remote work, bali, digital nomad, focus, productivity, best-of]
 reviewed: true
 score: 8
 intent-checked: true

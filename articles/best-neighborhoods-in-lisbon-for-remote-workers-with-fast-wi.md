@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/
 categories: [guides]
-tags: [lisbon, remote-work, digital-nomad, coworking, wifi]
+tags: [remote-work-tools, lisbon, remote-work, digital-nomad, coworking, wifi, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

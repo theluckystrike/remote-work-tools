@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-lighting-setup-for-video-calls-in-basement-home-office/
 categories: [guides]
-tags: [lighting, video-calls, home-office, remote-work]
+tags: [remote-work-tools, lighting, video-calls, home-office, remote-work, best-of]
 reviewed: true
 score: 8
 intent-checked: true

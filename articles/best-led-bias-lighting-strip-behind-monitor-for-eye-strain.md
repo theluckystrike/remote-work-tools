@@ -7,9 +7,10 @@ author: "Remote Work Tools Guide"
 permalink: /best-led-bias-lighting-strip-behind-monitor-for-eye-strain/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, best-of]
 ---
 
 {% raw %}
