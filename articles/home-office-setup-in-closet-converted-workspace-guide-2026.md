@@ -195,6 +195,42 @@ Most successful closet offices require 2-3 months of optimization before settlin
 
 If your closet doesn't meet these baseline requirements, consider alternatives like converting a corner of a larger room instead.
 
+## Comparison: Closet Office vs. Alternatives
+
+**Closet Office:**
+- Cost: $600-2,500
+- Setup time: 1-2 weeks
+- Space required: 3'x4' minimum
+- Work-life boundary: Excellent (physical separation)
+- Scalability: Difficult (can't expand beyond closet)
+- Best for: Solo developers, those without dedicated rooms
+
+**Bedroom Corner Desk:**
+- Cost: $300-1,500
+- Setup time: 1 week
+- Space required: 4'x6' corner area
+- Work-life boundary: Moderate (shared sleeping space)
+- Scalability: Easy (can expand with room)
+- Best for: Small apartments with extra bedroom
+
+**Kitchen Table Setup:**
+- Cost: $100-500
+- Setup time: 1 day
+- Space required: Flexible
+- Work-life boundary: Poor (living area conflict)
+- Scalability: Limited (tables not optimized for work)
+- Best for: Temporary arrangements, flexible schedules
+
+**Micro Office Shed/Pod:**
+- Cost: $2,000-8,000
+- Setup time: 2-4 weeks (professional installation)
+- Space required: Outdoor space (4'x6' minimum)
+- Work-life boundary: Excellent
+- Scalability: Fixed (pod size)
+- Best for: Homeowners with yard space
+
+For apartment dwellers without extra bedrooms, closet offices are the superior option. The work-life boundary and dedicated separation outweigh the space constraints. Kitchen tables create mental friction (difficulty disengaging from home environment), while bedroom setups mix work and sleep (harmful for sleep quality). Closet offices solve both problems with minimal cost.
+
 A closet office works best for developers who need a dedicated space without dedicated square footage. The key is matching your equipment to the space constraints rather than forcing standard furniture into an atypical environment. Start minimal, test stability over two weeks, then upgrade specific components based on actual pain points.
 
 

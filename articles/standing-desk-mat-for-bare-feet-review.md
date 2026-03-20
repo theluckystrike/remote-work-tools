@@ -189,6 +189,27 @@ Studies on standing desk mats show measurable differences between barefoot and s
 
 Most developers who shift to barefoot standing report preference within 2-3 weeks. The direct contact provides better proprioceptive feedback that improves posture and reduces back strain. This advantage often outweighs the minor hygiene considerations.
 
+## Temperature Management for Barefoot Standing
+
+Foot temperature dramatically affects comfort during extended standing:
+
+**Cold Floor Scenario (Concrete, Tile):**
+- Barefoot: Feet become cold within 30 minutes, triggering discomfort and vasoconstriction (reduced blood flow)
+- With mat: Mat provides insulation, maintains foot temperature at neutral level
+- Solution: Gel-infused or high-density foam mats retain heat better
+
+**Warm Climate or Office Heat:**
+- Barefoot: Direct contact allows heat dissipation, feet stay cool
+- With mat: Cushioning reduces airflow, feet may overheat
+- Solution: Lighter mat thickness, breathable materials, ventilation-conscious mat selection
+
+**Variable Temperature Rooms:**
+- Most offices maintain 68-72°F, but developers standing in corners or near windows experience temperature variations
+- Test mat in your actual work location during both morning (cooler) and afternoon (warmer)
+- Developers in climate-controlled office buildings rarely experience temperature issues; those in spaces with radiant heating or cooling should account for seasonal adjustments
+
+Experienced barefoot standing desk users often have two mats: a warmer option for winter months and a lighter option for summer. This $100-150 investment optimizes comfort across seasonal variations.
+
 ## Investment ROI: When Mats Pay for Themselves
 
 For developers averaging 5 hours daily standing desk use:

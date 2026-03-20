@@ -163,6 +163,47 @@ For developers earning $100k+ annually, the Welcome Stamp is financially sustain
 
 Most successful Welcome Stamp holders report that the Caribbean lifestyle and tax advantages offset slightly higher living costs compared to secondary US cities. The intangible benefits—weather, beach access, lower stress—are frequently cited as the real value proposition.
 
+## Practical Onboarding Timeline for New Welcome Stamp Arrivals
+
+**Week 1: Arrival and Immediate Setup**
+- Days 1-2: Airport arrival, settle into initial accommodation
+- Days 3-4: Explore neighborhoods, test internet at potential rentals
+- Days 5-7: Attend local digital nomad meetups, connect with community
+- Action: Identify 3-5 potential long-term accommodations
+
+**Week 2-3: Banking and Logistics**
+- Open Thai bank account (if proceeding to Thailand, otherwise start Barbados account)
+- Secure reliable housing (1-3 month lease to test before committing to year)
+- Join coworking space or test residential internet stability
+- Register with embassy (optional but recommended for emergencies)
+
+**Week 4+: Settling In**
+- Finalize 12-month rental lease
+- Establish work routine with timezone-aware scheduling
+- Build local social connections (coworking, meetups, recreational activities)
+- Review tax and financial planning quarterly
+
+**Critical Timeline:** Most successful Welcome Stamp holders make major decisions (housing, banking, work setup) within first 2-3 weeks, allowing 9 months to optimize and build sustainability. Those who delay these decisions past 4 weeks often face rushed choices and higher stress.
+
+## Support Resources for Welcome Stamp Holders
+
+**Online Communities:**
+- Facebook: "Barbados Digital Nomads" (2,000+ members, active daily)
+- Reddit: r/digitalnomad (general advice), specific Barbados threads
+- Slack: "Remote Workers Caribbean" (networking, job opportunities)
+
+**Professional Services:**
+- Immigration consultants: $500-1,200 for application support
+- Accountants: $800-2,000 for first-year tax/financial setup
+- Real estate agents: Specializing in short-term rentals for Welcome Stamp holders
+
+**Government Resources:**
+- Official Welcome Stamp portal: All applications, status tracking online
+- Barbados Investment and Development Corporation: Business registration support
+- Ministry of Finance: Tax residency and filing information
+
+Using these resources during your first 30 days dramatically improves Welcome Stamp experience and reduces costly mistakes in housing, financial setup, or visa paperwork.
+
 ## Practical Tips for a Successful Stay
 
 Based on feedback from developers who have completed the Welcome Stamp, here are actionable recommendations:
