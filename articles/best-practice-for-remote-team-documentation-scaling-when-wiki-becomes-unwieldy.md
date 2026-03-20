@@ -69,6 +69,27 @@ Manual maintenance becomes impossible at scale. Implement automated systems to h
 
 **Broken link checking** catches navigation failures automatically. Most CI/CD pipelines can run link checkers as part of deployment. Schedule weekly reports of broken links and assign owners to fix them.
 
+```yaml
+# .github/workflows/check-docs-links.yml
+# Weekly broken-link scan across all wiki Markdown files
+name: Documentation Link Check
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check all Markdown links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress "**/*.md"
+          fail: true
+```
+
 **Content freshness indicators** help readers assess reliability. Add visual cues showing when a page was last updated and by whom. Some teams implement color-coded warnings: green for verified current, yellow for needs review, red for potentially outdated.
 
 **Template enforcement** ensures consistency. When creating new pages, require front matter fields like owner, last reviewed date, and category. This structured data enables automated maintenance and reporting.
