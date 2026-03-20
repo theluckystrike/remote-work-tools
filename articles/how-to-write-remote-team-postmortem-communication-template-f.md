@@ -8,7 +8,7 @@ permalink: /how-to-write-remote-team-postmortem-communication-template-f/
 categories: [guides]
 tags: [remote-work-tools, postmortem, incident-management, remote-work, communication-templates, devops]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /loom-vs-vimeo-record-for-async-standup-updates-comparison/
 categories: [comparisons]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison]
