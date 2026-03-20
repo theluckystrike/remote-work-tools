@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-manage-remote-journalism-team-across-international-bu/
 categories: [guides]
-tags: [remote-work, journalism, distributed-teams, time-zones, async-communication, workflow]
+tags: [remote-work-tools, remote-work, journalism, distributed-teams, time-zones, async-communication, workflow]
 reviewed: true
 score: 8
 intent-checked: true

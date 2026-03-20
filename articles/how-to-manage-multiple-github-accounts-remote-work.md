@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-multiple-github-accounts-remote-work/
 categories: [guides]
-tags: [github, ssh, git, remote-work, productivity]
+tags: [remote-work-tools, github, ssh, git, remote-work, productivity]
 reviewed: true
 score: 8
 intent-checked: true

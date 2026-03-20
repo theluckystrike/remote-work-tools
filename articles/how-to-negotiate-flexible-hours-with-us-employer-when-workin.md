@@ -10,6 +10,7 @@ score: 8
 voice-checked: true
 categories: [guides]
 intent-checked: true
+tags: [remote-work-tools]
 ---
 
 Propose specific alternatives like 10 AM - 4 PM CET core hours (overlapping 2-4 PM US East Coast), showing how this gives the US team morning hours for meetings while you work during peak productivity. Demonstrate your async capability with PR descriptions, async video walkthroughs, and 24-hour code review turnaround for two weeks before the negotiation, then present this track record as proof that flexible hours don't mean unavailability. If denied initially, start with 1-2 flexible days weekly as a trial, document your productivity metrics, then revisit the conversation once you've proven the arrangement works.

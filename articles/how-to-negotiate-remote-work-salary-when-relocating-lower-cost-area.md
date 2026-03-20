@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /how-to-negotiate-remote-work-salary-when-relocating-lower-cost-area/
 categories: [guides]
-tags: [remote-work, salary, negotiation, career]
+tags: [remote-work-tools, remote-work, salary, negotiation, career]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

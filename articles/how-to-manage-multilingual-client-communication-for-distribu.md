@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-manage-multilingual-client-communication-for-distributed-agency-team/
 categories: [guides]
-tags: [multilingual, client-communication, distributed-teams, agency, localization, i18n]
+tags: [remote-work-tools, multilingual, client-communication, distributed-teams, agency, localization, i18n]
 reviewed: true
 score: 8
 intent-checked: true

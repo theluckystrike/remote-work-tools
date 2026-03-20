@@ -6,9 +6,9 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-mount-monitor-on-wall-behind-standing-desk-setup/
 categories: [guides]
-tags: [monitor-mount, standing-desk, workspace-setup, ergonomic]
+tags: [remote-work-tools, monitor-mount, standing-desk, workspace-setup, ergonomic]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

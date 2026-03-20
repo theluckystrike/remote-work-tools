@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-network-as-a-digital-nomad-developer/
 categories: [guides]
-tags: [networking, digital-nomad, remote-work, career]
+tags: [remote-work-tools, networking, digital-nomad, remote-work, career]
 reviewed: true
 score: 8
 intent-checked: true

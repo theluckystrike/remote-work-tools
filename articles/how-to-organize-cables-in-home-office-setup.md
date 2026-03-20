@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-organize-cables-in-home-office-setup/
 categories: [guides]
-tags: [cable-management, home-office, workspace, desk-setup]
+tags: [remote-work-tools, cable-management, home-office, workspace, desk-setup]
 reviewed: true
 score: 8
 intent-checked: true

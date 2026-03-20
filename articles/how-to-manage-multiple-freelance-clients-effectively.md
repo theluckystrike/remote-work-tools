@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-multiple-freelance-clients-effectively/
 categories: [guides]
-tags: [freelance, productivity, client-management]
+tags: [remote-work-tools, freelance, productivity, client-management]
 reviewed: true
 score: 8
 intent-checked: true

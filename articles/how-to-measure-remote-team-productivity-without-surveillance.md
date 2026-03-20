@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-measure-remote-team-productivity-without-surveillance/
 categories: [guides]
-tags: [remote-work, productivity, team-management, developer-tools, privacy]
+tags: [remote-work-tools, remote-work, productivity, team-management, developer-tools, privacy]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-onboard-remote-interns-effectively-with-structured-me/
 categories: [guides]
-tags: [remote-work, onboarding, mentorship, internship, developer-experience, team-building]
+tags: [remote-work-tools, remote-work, onboarding, mentorship, internship, developer-experience, team-building]
 reviewed: true
 score: 8
 intent-checked: true
