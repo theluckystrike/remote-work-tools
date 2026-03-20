@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Sales Team CRM Workflow Optimization for."
+title: "Industry match (40% weight)"
 description: "A technical guide to optimizing CRM workflows for remote sales teams managing distributed accounts. Includes automation scripts, API integrations, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

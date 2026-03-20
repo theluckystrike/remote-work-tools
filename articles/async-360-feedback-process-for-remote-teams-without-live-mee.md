@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Async 360 Feedback Process for Remote Teams Without Live."
+title: "Async 360 Feedback Process for Remote Teams Without Live Meetings"
 description: "A practical guide to implementing async 360 feedback for remote teams. Learn how to collect structured feedback from peers, managers, and reports."
 date: 2026-03-16
 author: theluckystrike
@@ -164,7 +164,6 @@ Track these metrics to evaluate your async feedback process:
 - Sentiment trends (do feedback scores improve over time?)
 - Team satisfaction (do people find the process valuable?)
 
-## 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

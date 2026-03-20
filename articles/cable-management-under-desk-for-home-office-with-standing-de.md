@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cable Management Under Desk for Home Office With."
+title: "Cable Management Under Desk for Home Office With Standing Desk"
 description: "A practical guide to cable management under desk for home office with standing desk. Learn routing techniques, mounting solutions, and automation tips."
 date: 2026-03-16
 author: theluckystrike

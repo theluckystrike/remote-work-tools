@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Ultrawide Monitor for Programming and Remote Work."
+title: "Example: Checking monitor USB-C capabilities"
 description: "A comprehensive guide to choosing the best ultrawide monitor for programming and remote work. Learn what specs matter most for developers who need."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

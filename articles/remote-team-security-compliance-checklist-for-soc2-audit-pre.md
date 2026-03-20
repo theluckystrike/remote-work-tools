@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Security Compliance Checklist for SOC 2."
+title: "Remote Team Security Compliance Checklist for SOC 2 Audit Preparation"
 description: "A practical 2026 guide for developers and power users preparing their remote team for SOC 2 compliance audits. Includes actionable checklist items and."
 date: 2026-03-16
 author: theluckystrike

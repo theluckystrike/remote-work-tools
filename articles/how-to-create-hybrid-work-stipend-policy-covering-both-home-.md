@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create a Hybrid Work Stipend Policy Covering Both."
+title: "Everyone gets home office base"
 description: "A practical guide for engineering managers and HR leaders to design equitable hybrid work stipend policies that cover home office and commute expenses."
 date: 2026-03-16
 author: "Remote Work Tools"

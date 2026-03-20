@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Write Remote Team Postmortem Communication."
+title: "How to Write Remote Team Postmortem Communication Template for Incident Announcements"
 description: "A practical guide to creating effective postmortem communication templates for remote teams. Includes ready-to-use templates, best practices, and code."
 date: 2026-03-16
 author: theluckystrike

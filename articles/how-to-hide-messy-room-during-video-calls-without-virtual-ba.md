@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Hide Messy Room During Video Calls Without."
+title: "How to Hide Messy Room During Video Calls Without Virtual Background"
 description: "Practical solutions for hiding cluttered rooms during video calls without relying on virtual backgrounds. Physical setups, lighting tricks, and OBS."
 date: 2026-03-16
 author: theluckystrike

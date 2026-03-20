@@ -6,11 +6,11 @@ description: "A practical guide for engineering managers on scaling remote team 
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 categories: [guides]
-intent-checked: false
-voice-checked: false
+intent-checked: true
+voice-checked: true
 ---
 
 

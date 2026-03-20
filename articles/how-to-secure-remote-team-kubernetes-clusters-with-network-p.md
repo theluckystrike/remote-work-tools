@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Secure Remote Team Kubernetes Clusters with."
+title: "How to Secure Remote Team Kubernetes Clusters with Network Policies"
 description: "A practical guide to implementing Kubernetes network policies to secure your remote team's cluster infrastructure."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

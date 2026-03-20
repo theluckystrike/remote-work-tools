@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Announcement Channel."
+title: "#eng-announcements Channel Guidelines"
 description: "Practical strategies for maintaining high signal-to-noise ratio in remote team announcement channels. Learn channel governance, message frameworks, and."
 date: 2026-03-16
 author: "Remote Work Tools"

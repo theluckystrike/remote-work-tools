@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Measuring Remote Onboarding."
+title: "Find the first commit by a specific author"
 description: "Learn how to measure remote developer onboarding effectiveness using time to first commit and other actionable metrics. Practical code examples for."
 date: 2026-03-16
 author: theluckystrike

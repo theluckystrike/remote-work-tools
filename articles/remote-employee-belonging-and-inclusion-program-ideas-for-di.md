@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Belonging and Inclusion Program Ideas."
+title: "Remote Employee Belonging and Inclusion Program Ideas for Distributed Teams 2026"
 description: "Practical remote employee belonging and inclusion program ideas for distributed teams in 2026. Implementation strategies, tools, and code examples for."
 date: 2026-03-16
 author: theluckystrike

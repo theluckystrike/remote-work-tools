@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Multi-Currency Accounting Software for Remote."
+title: "Example: Create invoice with automatic currency conversion"
 description: "A technical guide to multi-currency accounting solutions for remote agencies managing EUR and USD billing. Includes API integration examples and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

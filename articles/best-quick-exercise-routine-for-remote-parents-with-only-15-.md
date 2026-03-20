@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Quick Exercise Routine for Remote Parents With Only."
+title: "Best Quick Exercise Routine for Remote Parents With Only 15 Minutes Between Meetings"
 description: "Practical 15-minute exercise routines designed for remote working parents who need to squeeze in movement between meetings. No equipment needed."
 date: 2026-03-16
 author: theluckystrike

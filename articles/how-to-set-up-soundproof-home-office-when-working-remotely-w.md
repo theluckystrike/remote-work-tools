@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Set Up a Soundproof Home Office When Working."
+title: "How to Set Up a Soundproof Home Office When Working Remotely with Young Children"
 description: "A practical guide for developers and power users to create a soundproof home office setup that handles the challenges of remote work with young."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

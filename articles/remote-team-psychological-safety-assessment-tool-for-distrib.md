@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Psychological Safety Assessment Tool for."
+title: "Slack Workflow: Weekly Learning Share"
 description: "A practical framework and assessment tool for measuring and improving psychological safety in remote engineering teams across time zones."
 date: 2026-03-16
 author: "Remote Work Tools"

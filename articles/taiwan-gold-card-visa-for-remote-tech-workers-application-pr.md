@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Taiwan Gold Card Visa for Remote Tech Workers: Complete."
+title: "Example NHI enrollment at a local district office"
 description: "A step-by-step guide to the Taiwan Gold Card visa application process for remote tech workers. Covers eligibility, required documents, application."
 date: 2026-03-16
 author: "theluckystrike"

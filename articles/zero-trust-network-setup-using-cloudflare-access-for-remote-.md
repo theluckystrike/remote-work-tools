@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Zero Trust Network Setup Using Cloudflare Access for."
+title: "Download and install cloudflared"
 description: "Learn how to implement zero trust network architecture with Cloudflare Access. Practical setup guide for securing remote team access to internal."
 date: 2026-03-16
 author: theluckystrike

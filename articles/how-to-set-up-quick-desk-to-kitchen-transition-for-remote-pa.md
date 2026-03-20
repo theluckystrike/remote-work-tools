@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Set Up Quick Desk to Kitchen Transition for."
+title: "Quick save script for terminal workflows"
 description: "Learn practical strategies and automation scripts to create a seamless desk-to-kitchen transition that maximizes your lunch break efficiency as a."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /how-to-structure-jira-for-a-remote-team-of-50-developers/
 categories: [guides]
 reviewed: true
-score: 0
+score: 8
 intent-checked: true
 voice-checked: true
 ---

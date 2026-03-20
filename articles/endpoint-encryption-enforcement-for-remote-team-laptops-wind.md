@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Endpoint Encryption Enforcement for Remote Team Laptops."
+title: "Endpoint Encryption Enforcement for Remote Team Laptops: Windows and Mac Guide"
 description: "A practical guide to implementing endpoint encryption enforcement for remote team laptops on Windows and Mac. Learn configuration methods, policy."
 date: 2026-03-16
 author: theluckystrike

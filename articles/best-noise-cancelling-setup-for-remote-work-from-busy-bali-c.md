@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Noise Cancelling Setup for Remote Work from Busy."
+title: "Best Noise Cancelling Setup for Remote Work from Busy Bali Cafes"
 description: "Build the ultimate noise cancelling setup for remote work in Bali's bustling cafes. Technical recommendations, software tools, and practical strategies for developers."
 date: 2026-03-16
 author: theluckystrike

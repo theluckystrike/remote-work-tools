@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Retreat Planning Guide Budget and Logistics."
+title: "Remote Team Retreat Planning Guide Budget and Logistics Template"
 description: "A practical template for planning remote team retreats with detailed budgets and logistics. Includes cost breakdowns, scheduling frameworks, and."
 date: 2026-03-16
 author: theluckystrike

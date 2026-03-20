@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Scaling Retrospective Template for."
+title: "Remote Team Scaling Retrospective Template for Reflecting on Growth Challenges"
 description: "A practical quarterly retrospective template designed for remote teams navigating scaling challenges. Includes actionable categories, facilitation."
 date: 2026-03-16
 author: theluckystrike

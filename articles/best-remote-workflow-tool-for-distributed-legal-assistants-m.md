@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Workflow Tool for Distributed Legal."
+title: "Best Remote Workflow Tool for Distributed Legal Assistants Managing Court Filing Deadlines"
 description: "Discover the ideal workflow management solution for remote legal assistants handling court filing deadlines across multiple jurisdictions and time zones."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Effective Remote Client Workshops Using Miro."
+title: "How to Run Effective Remote Client Workshops Using Miro Board"
 description: "A practical guide to running interactive remote client workshops using Miro Board. Learn facilitation techniques, setup steps, and best practices for."
 date: 2026-03-16
 author: theluckystrike

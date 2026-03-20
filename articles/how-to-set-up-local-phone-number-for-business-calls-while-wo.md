@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up a Local Phone Number for Business Calls."
+title: "Install Twilio CLI"
 description: "A practical guide for developers and remote workers on setting up local business phone numbers while working internationally, including VoIP solutions."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Healthcare Patient Intake Form Tool for."
+title: "Example: HIPAA-compliant data handling"
 description: "A technical guide for developers and power users building patient intake solutions for distributed healthcare networks transitioning to paperless."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

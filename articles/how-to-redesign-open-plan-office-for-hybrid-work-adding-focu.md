@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Redesign Open Plan Office for Hybrid Work: Adding."
+title: "Calculate pod count based on floor space and team size"
 description: "Learn how to redesign open plan offices for hybrid work by adding focus pods. Includes space planning, acoustic treatment, booking systems, and code."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

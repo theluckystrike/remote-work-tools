@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chrome Extension Linear Issue Tracker: Practical Guide."
+title: "Chrome Extension Linear Issue Tracker: Practical Guide for Remote Teams"
 description: "Discover Chrome extensions that integrate with Linear for issue tracking. Learn how to streamline your workflow with browser-based Linear access, quick."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

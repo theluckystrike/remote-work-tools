@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote User Research Sessions for UX."
+title: "Recommended recording setup for user research"
 description: "A practical guide to conducting remote user research sessions for distributed UX teams跨越时区. Includes scheduling strategies, async workflows, and tool."
 date: 2026-03-16
 author: theluckystrike

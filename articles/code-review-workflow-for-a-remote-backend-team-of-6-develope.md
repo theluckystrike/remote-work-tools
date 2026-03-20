@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Code Review Workflow for a Remote Backend Team of 6."
+title: "Review assignment logic (example)"
 description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

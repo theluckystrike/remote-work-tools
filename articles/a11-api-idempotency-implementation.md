@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /a11-api-idempotency-implementation/
 categories: [guides]
 tags: [api-design, distributed-systems, backend-development, reliability, best-practices]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Digital Workspace Setup Guide for First."
+title: "Install OpenConnect (common in enterprise environments)"
 description: "A practical setup guide for developers and power users setting up their remote work environment on day one. Includes configuration scripts, security."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team SOP Template for Customer Escalation Process."
+title: "Auto-assign severity based on rules"
 description: "A practical SOP template for managing customer escalations across distributed support teams. Includes triage levels, handoff protocols, and code."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

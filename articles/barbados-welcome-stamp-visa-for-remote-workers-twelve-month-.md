@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Barbados Welcome Stamp Visa for Remote Workers: 12-Month."
+title: "Barbados Welcome Stamp Visa for Remote Workers: 12-Month Program Details 2026"
 description: "Complete guide to the Barbados Welcome Stamp visa for remote workers in 2026. Eligibility requirements, application process, tax implications, and."
 date: 2026-03-16
 author: "Remote Work Tools"

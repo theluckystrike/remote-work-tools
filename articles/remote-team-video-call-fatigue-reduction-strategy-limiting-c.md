@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Video Call Fatigue Reduction Strategy."
+title: "Meeting Camera Guidelines"
 description: "A practical guide to implementing camera-on policies that reduce video call fatigue for remote development teams. Includes configuration examples and."
 date: 2026-03-16
 author: theluckystrike

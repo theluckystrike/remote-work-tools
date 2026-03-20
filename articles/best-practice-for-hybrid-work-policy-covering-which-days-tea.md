@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Work Policy: Covering Which."
+title: "Example: Generating a staggered schedule for a 6-person team"
 description: "A practical guide for developers and power users on structuring hybrid work policies that define which days teams come to office. Includes scheduling."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

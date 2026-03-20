@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create a Remote Team Communication Charter That."
+title: ".github/communication.yml"
 description: "A practical guide for developers and technical teams to build communication charters that actually get adopted by new hires during onboarding."
 date: 2026-03-16
 author: theluckystrike

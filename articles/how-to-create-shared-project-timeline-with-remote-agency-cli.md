@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Create Shared Project Timeline with Remote Agency."
+title: "macOS"
 description: "Learn how to build and share project timelines with remote agency clients using CLI tools. Practical examples and code snippets for developers and."
 date: 2026-03-16
 author: theluckystrike

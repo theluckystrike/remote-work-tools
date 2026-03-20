@@ -2,7 +2,7 @@
 
 
 layout: default
-title: "Best Calendar Blocking Strategy for Remote Working."
+title: "calendar_manager.py - Manage childcare-aware calendar blocks"
 description: "A practical calendar blocking strategy for remote working parents dealing with childcare gaps. Learn actionable techniques, automation scripts, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

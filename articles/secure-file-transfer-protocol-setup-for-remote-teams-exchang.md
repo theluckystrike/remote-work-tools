@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Secure File Transfer Protocol Setup for Remote Teams."
+title: "Secure File Transfer Protocol Setup for Remote Teams Exchanging Large Files"
 description: "Learn how to set up secure file transfer protocol for remote teams exchanging large files. Includes OpenSSH configuration, key-based auth, and."
 date: 2026-03-16
 author: theluckystrike

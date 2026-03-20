@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Create Hot Desking Floor Plan for Hybrid Office."
+title: "How to Create Hot Desking Floor Plan for Hybrid Office with Booking System"
 description: "Learn how to create a hot desking floor plan for hybrid office spaces with neighborhood zones. Practical examples, data structures, and implementation."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

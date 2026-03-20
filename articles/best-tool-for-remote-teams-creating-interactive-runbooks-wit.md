@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Remote Teams Creating Interactive Runbooks."
+title: "Migration runbook example structure"
 description: "A practical guide to interactive runbooks with embedded terminal commands for distributed development teams."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

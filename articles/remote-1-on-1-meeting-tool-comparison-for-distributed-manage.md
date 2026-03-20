@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /remote-1-on-1-meeting-tool-comparison-for-distributed-manage/
 categories: [guides]
 tags: [remote-work, 1-on-1-meetings, distributed-teams, management-tools, async-communication]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

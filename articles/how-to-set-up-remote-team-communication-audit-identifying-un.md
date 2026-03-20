@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Team Communication Audit."
+title: "How to Set Up Remote Team Communication Audit: Identifying Unnecessary Meetings and Channels"
 description: "A practical guide for developers and power users to audit remote team communication, identify unnecessary meetings, and consolidate unused channels."
 date: 2026-03-16
 author: "Remote Work Tools"

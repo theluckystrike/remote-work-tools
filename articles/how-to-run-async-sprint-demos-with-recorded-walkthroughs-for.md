@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Run Async Sprint Demos with Recorded Walkthroughs."
+title: "How to Run Async Sprint Demos with Recorded Walkthroughs for Stakeholders"
 description: "Learn practical methods for recording sprint demos asynchronously. This guide covers tools, workflows, and code snippets for effective async presentations."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

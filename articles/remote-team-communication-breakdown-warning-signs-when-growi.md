@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Communication Breakdown: Warning Signs When."
+title: "Remote Team Communication Breakdown: Warning Signs When Growing Past 15 People"
 description: "Learn to identify the critical warning signs of communication breakdown in remote teams as they scale beyond 15 people. Includes practical detection."
 date: 2026-03-16
 author: theluckystrike

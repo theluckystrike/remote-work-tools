@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Employee Recognition Program Ideas for."
+title: "Simple Slack kudos automation using Slack API"
 description: "Discover practical, low-cost employee recognition programs designed for remote and distributed teams. Includes implementation tips and code tools for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

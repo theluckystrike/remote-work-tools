@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Design Hybrid Meeting Room with Equal Experience."
+title: "Example room configuration"
 description: "A technical guide to building hybrid meeting rooms where remote participants get the same experience as in-room attendees. Covers AV setup, software."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

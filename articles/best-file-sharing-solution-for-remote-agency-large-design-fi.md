@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best File Sharing Solution for Remote Agency Large."
+title: "Upload large file with chunked upload"
 description: "A practical guide to the best file sharing solutions for remote agencies handling large design files, with API examples and implementation tips for."
 date: 2026-03-16
 author: theluckystrike

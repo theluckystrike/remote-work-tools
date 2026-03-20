@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/
 categories: [guides]
 tags: [remote-work, sprint-ceremonies, squad-splitting]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 {% raw %}
 

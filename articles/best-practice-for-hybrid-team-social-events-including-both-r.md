@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Social Events Including."
+title: "conversation-prompts.yaml - Example prompt rotation system"
 description: "A practical guide to organizing hybrid team social events that engage both remote and in-office employees. Includes code examples, scheduling tools."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

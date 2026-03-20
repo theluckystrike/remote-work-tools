@@ -2,7 +2,7 @@
 
 
 layout: default
-title: "Best Wireless Presentation System for Hybrid Meeting."
+title: "Barco ClickShare API: Starting a presentation session"
 description: "Discover the best wireless presentation systems for hybrid meeting rooms with BYOD support in 2026. Compare features, technical requirements, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

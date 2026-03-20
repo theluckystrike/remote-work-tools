@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /remote-team-first-90-days-plan-template-for-senior-hires-joi/
 categories: [guides]
 tags: [remote work, onboarding, distributed teams, senior hires, 90-day plan, new hire]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

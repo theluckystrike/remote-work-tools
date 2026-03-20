@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Productivity Hack: Time Blocking."
+title: "Add to crontab for daily school-day reminders"
 description: "A practical time blocking strategy for remote working parents to maximize productivity during school hours. Learn how to align your deep work with."
 date: 2026-03-16
 author: theluckystrike

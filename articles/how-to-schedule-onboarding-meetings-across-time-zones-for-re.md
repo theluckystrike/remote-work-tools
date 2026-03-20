@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Schedule Onboarding Meetings Across Time Zones."
+title: "Find overlapping work hours across three zones"
 description: "A practical guide for developers and power users to schedule onboarding meetings across time zones. Includes tools, strategies, code snippets, and."
 date: 2026-03-16
 author: theluckystrike

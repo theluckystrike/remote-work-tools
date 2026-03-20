@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Handbook Section Template for Defining."
+title: "Remote Team Handbook Section Template for Defining Communication Channels and Expected Response Times"
 description: "A practical template for remote teams to define communication channels and establish clear response time expectations. Includes code snippets and."
 date: 2026-03-16
 author: theluckystrike

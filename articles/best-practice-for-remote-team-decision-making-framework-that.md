@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Decision Making Framework."
+title: "Best Practice for Remote Team Decision Making Framework That Scales Beyond Founder Decisions"
 description: "A practical guide to building decision making frameworks for remote teams that scale beyond founder decisions. Includes code examples, RACI matrices."
 date: 2026-03-16
 author: theluckystrike

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Structure Remote Team Handbook Table of Contents."
+title: "Remote Team Handbook"
 description: "Learn how to structure a remote team handbook table of contents that covers all essential policies. Includes practical examples, code snippets, and."
 date: 2026-03-16
 author: theluckystrike

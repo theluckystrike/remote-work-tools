@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/
 categories: [guides]
 tags: [remote-team, information-architecture, tool-organization, scaling, developer-tools]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

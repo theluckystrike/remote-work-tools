@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Implement Device Management Policy for Fully."
+title: "Example: Minimum device requirements for team members"
 description: "A practical guide to building device management policies for distributed startup teams. Learn frameworks, code examples, and tools for securing remote."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

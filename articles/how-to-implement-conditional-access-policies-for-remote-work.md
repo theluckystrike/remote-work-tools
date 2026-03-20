@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Implement Conditional Access Policies for Remote."
+title: "Using Microsoft Graph API to create named locations"
 description: "A practical guide for developers and IT professionals on implementing Azure Conditional Access policies to secure remote work environments. Includes."
 date: 2026-03-16
 author: "Remote Work Tools"

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Coworking Spaces in Canggu Bali with Backup."
+title: "Infrastructure evaluation script concept"
 description: "A technical guide to coworking spaces in Canggu Bali featuring backup generators, fiber internet speeds, 24/7 access, and developer-friendly amenities."
 date: 2026-03-16
 author: theluckystrike

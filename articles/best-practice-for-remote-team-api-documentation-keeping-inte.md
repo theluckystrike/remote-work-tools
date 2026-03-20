@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team API Documentation: Keeping."
+title: "Example OpenAPI specification snippet"
 description: "A practical guide to maintaining excellent API documentation for remote teams. Includes templates, automation strategies, code examples, and workflows."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

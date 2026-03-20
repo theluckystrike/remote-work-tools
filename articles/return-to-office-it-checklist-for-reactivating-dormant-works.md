@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Return to Office IT Checklist for Reactivating Dormant."
+title: "Quick inventory script to scan network for dormant machines"
 description: "A practical technical guide for IT teams reactivating dormant workstations and access badges. Includes verification scripts, automation strategies, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "ClickUp Automations for Developer Workflows: A Practical."
+title: "ClickUp Automations for Developer Workflows: A Practical Guide"
 description: "Learn how to streamline your development process with ClickUp automations. Practical examples and code snippets for developers and power users."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

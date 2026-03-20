@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Coordinate Remote Mobile Developers Releasing."
+title: "How to Coordinate Remote Mobile Developers Releasing Apps Across iOS and Android"
 description: "A practical guide to coordinating remote mobile developers for releasing apps across iOS and Android platforms. Includes CI/CD pipelines, version."
 date: 2026-03-16
 author: theluckystrike

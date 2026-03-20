@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Screen Recording Tools for Remote Client Bug."
+title: "macOS: Screen recording permission is required"
 description: "Learn how to capture effective screen recordings for remote bug reporting. Tools, techniques, and code snippets for developers and power users."
 date: 2026-03-16
 author: theluckystrike

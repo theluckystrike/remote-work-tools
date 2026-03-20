@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Track Remote Team Hiring Pipeline Velocity for."
+title: "How to Track Remote Team Hiring Pipeline Velocity"
 description: "Learn practical methods and code examples for measuring and optimizing your remote hiring pipeline velocity across distributed teams."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

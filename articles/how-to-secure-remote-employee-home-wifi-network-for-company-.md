@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Secure Remote Employee Home WiFi Network for."
+title: "Check your router's current firmware version"
 description: "A practical guide for developers and power users to secure home WiFi networks when accessing company resources. Includes configuration examples and."
 date: 2026-03-16
 author: theluckystrike

@@ -4,7 +4,7 @@
 
 
 layout: default
-title: "Remote Team All Hands Meeting Question Collection Tool."
+title: "FastAPI-based question collection endpoint"
 description: "A comprehensive guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

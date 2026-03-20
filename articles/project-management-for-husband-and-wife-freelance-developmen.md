@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Management for Husband and Wife Freelance."
+title: "Project Management for Husband and Wife Freelance Development Team"
 description: "Practical project management strategies for husband and wife freelance development teams. Learn workflow optimization, communication patterns, and tool."
 date: 2026-03-16
 author: theluckystrike

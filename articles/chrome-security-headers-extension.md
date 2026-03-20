@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chrome Security Headers Extension: A Practical Guide for."
+title: "Chrome Security Headers Extension: A Practical Guide for Developers"
 description: "Learn how to use Chrome extensions to inspect, test, and debug security headers directly in your browser. Practical examples and tool recommendations."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

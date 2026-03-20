@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Async Architecture Reviews for Distributed."
+title: "How to Run Async Architecture Reviews for Distributed Engineering Teams"
 description: "Learn practical strategies for conducting async architecture reviews in distributed engineering teams. Includes templates, workflows, and code examples."
 date: 2026-03-16
 author: theluckystrike

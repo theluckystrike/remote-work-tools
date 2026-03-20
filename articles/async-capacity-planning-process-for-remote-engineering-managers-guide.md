@@ -242,8 +242,6 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 
 **Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
 
-## 
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

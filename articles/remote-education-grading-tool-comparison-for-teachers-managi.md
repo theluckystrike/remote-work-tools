@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Education Grading Tool Comparison for Teachers."
+title: "Remote Education Grading Tool Comparison for Teachers Managing Large Online Classes 2026"
 description: "A technical comparison of grading tools for large-scale online education. Learn about API integrations, bulk grading workflows, and automation."
 date: 2026-03-16
 author: theluckystrike

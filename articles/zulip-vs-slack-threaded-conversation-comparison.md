@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Zulip vs Slack: A Deep Dive into Threaded Conversation."
+title: "Zulip vs Slack: A Deep Dive into Threaded Conversation Comparison"
 description: "Zulip vs Slack: A Deep Dive into Threaded Conversation. — practical guide for remote teams and distributed workers with tools, tips, and workflows for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

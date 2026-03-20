@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Virtual Team Building Activity Platform for Remote."
+title: "Best Virtual Team Building Activity Platform for Remote Teams Under 50"
 description: "A comprehensive guide to selecting the best virtual team building activity platform for small remote teams under 50 members. Compare features, pricing."
 date: 2026-03-16
 author: theluckystrike

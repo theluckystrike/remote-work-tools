@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Tool for Tracking Remote Team Goals and Key Results."
+title: "Parse: "Accomplished X. Next: Y. Blockers: Z""
 description: "A practical guide for developers and power users comparing tools to track OKRs and weekly team goals in remote settings. Includes API examples and."
 date: 2026-03-16
 author: theluckystrike

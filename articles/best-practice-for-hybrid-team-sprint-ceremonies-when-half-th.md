@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Sprint Ceremonies When."
+title: "Recommended equipment configuration for hybrid meeting rooms"
 description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, facilitation tips, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

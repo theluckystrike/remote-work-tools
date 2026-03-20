@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Facilitate Remote Team Workshops Using Miro with."
+title: "Example: Export Miro board via API"
 description: "Learn practical techniques for running effective remote workshops in Miro with structured communication exercises that keep teams engaged and productive."
 date: 2026-03-16
 author: "Remote Work Tools"

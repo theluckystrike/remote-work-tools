@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Onboarding Wiki."
+title: "Best Practice for Remote Team Onboarding Wiki: Organizing First Week Tasks by Role"
 description: "A practical guide to building an effective remote team onboarding wiki. Learn how to structure first week tasks by role, with examples and code."
 date: 2026-03-16
 author: theluckystrike

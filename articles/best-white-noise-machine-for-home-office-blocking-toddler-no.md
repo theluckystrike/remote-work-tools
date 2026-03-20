@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best White Noise Machine for Home Office Blocking."
+title: "Pink noise filter approximation"
 description: "Technical guide to blocking toddler noise during remote work. Compare hardware solutions, build custom white noise generators with code, and optimize."
 date: 2026-03-16
 author: theluckystrike

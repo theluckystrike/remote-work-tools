@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Manager Delegation Framework for Leading Teams."
+title: "Remote Manager Delegation Framework for Leading Teams Across Time Zones"
 description: "A practical framework for delegating effectively in distributed teams spanning multiple time zones. Includes decision matrices, async workflows, and."
 date: 2026-03-16
 author: "theluckystrike"

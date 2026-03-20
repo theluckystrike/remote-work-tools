@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "External Monitor Color Matching for MacBook Dual Display."
+title: "List available color profiles"
 description: "Learn how to match colors across your MacBook and external monitor for consistent visual experience. Practical calibration steps and automation scripts."
 date: 2026-03-16
 author: "theluckystrike"

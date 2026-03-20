@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Herman Miller vs Steelcase for Remote Developers: A."
+title: "Herman Miller vs Steelcase for Remote Developers: A Technical Comparison"
 description: "A practical comparison of Herman Miller and Steelcase ergonomic chairs for developers working from home. Includes technical specs, durability analysis."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

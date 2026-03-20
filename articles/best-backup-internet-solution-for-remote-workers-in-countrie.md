@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Backup Internet Solution for Remote Workers in."
+title: "On Android, enable tethering via settings"
 description: "A practical guide to backup internet solutions for remote workers in regions with frequent power outages and unreliable connectivity."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

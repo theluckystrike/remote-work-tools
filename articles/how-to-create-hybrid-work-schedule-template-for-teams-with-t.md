@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Create Hybrid Work Schedule Template for Teams."
+title: "Simple assignment: rotate through combinations"
 description: "A practical guide for developers and power users building a hybrid work schedule template with three office days, including rotation patterns."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

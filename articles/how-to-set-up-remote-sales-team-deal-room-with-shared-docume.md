@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up a Remote Sales Team Deal Room with Shared."
+title: "Deal Brief: [Company Name]"
 description: "A practical guide for developers and power users building deal rooms for remote sales teams using shared documents and collaborative tools."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

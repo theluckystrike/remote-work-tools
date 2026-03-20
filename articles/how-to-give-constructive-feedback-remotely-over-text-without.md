@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Give Constructive Feedback Remotely Over Text."
+title: "How to Give Constructive Feedback Remotely Over Text Without Sounding Harsh"
 description: "Master the art of delivering constructive feedback in remote text-based communication. Practical frameworks, templates, and techniques for developers."
 date: 2026-03-16
 author: theluckystrike

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Negotiate Flexible Hours with US Employer When."
+title: "Example on-call schedule that leverages timezone difference"
 description: "A practical guide for developers in Europe working with US companies. Learn negotiation strategies, overlap calculations, and async workflows to secure."
 date: 2026-03-16
 author: "Remote Work Tools"

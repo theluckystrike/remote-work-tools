@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Set Up WireGuard VPN Server for Small Remote."
+title: "Ubuntu and Debian"
 description: "A practical guide to setting up WireGuard VPN for small remote development teams. Includes server configuration, client setup, and production-ready."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

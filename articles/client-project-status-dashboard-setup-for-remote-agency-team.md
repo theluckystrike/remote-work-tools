@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Client Project Status Dashboard Setup for Remote Agency."
+title: "Client Project Status Dashboard Setup for Remote Agency Teams"
 description: "Learn how to build a client project status dashboard tailored for distributed agency teams with practical implementation examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

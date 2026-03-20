@@ -2,7 +2,7 @@
 
 
 layout: default
-title: "Best Home Office Setup for Software Developers: A."
+title: "Redshift - Linux/Unix blue light filter"
 description: "Create an optimal home office setup for software development. Covers desk configuration, monitor placement, lighting, ergonomic considerations, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

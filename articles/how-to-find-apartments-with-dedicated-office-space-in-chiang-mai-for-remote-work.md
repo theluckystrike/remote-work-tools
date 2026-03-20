@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Find Apartments with Dedicated Office Space in."
+title: "Useful Thai search terms"
 description: "A practical guide for developers and digital nomads seeking dedicated workspace apartments in Chiang Mai, Thailand."
 date: 2026-03-16
 author: theluckystrike

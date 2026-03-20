@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Async Video Update Tool Comparison: Loom vs."
+title: "Veed API - Upload and process video"
 description: "A technical comparison of Loom, Veed, and ScreenPal for async video updates in remote teams. API access, automation, developer features, and."
 date: 2026-03-16
 author: theluckystrike

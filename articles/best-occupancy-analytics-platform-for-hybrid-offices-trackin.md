@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Occupancy Analytics Platform for Hybrid Offices."
+title: "Upload to your analytics backend"
 description: "A technical guide to occupancy analytics platforms for hybrid offices. Learn how to track desk and room usage with API integrations, sensor data, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

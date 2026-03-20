@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Virtual Movie Watch Party Tools for Remote Team Friday."
+title: "Teleparty supports these streaming platforms:"
 description: "Discover the best virtual movie watch party tools for remote team Friday events. Compare sync-play platforms, browser extensions, and open-source."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

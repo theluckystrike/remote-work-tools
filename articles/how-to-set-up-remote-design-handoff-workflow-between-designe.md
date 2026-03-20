@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Design Handoff Workflow Between."
+title: "How to Set Up Remote Design Handoff Workflow Between Designers and Developers"
 description: "A practical guide to establishing efficient design handoff processes for remote teams. Learn tools, workflows, and best practices for seamless."
 date: 2026-03-16
 author: theluckystrike

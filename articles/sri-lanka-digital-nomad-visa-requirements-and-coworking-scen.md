@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Sri Lanka Digital Nomad Visa Requirements and Coworking."
+title: "Sri Lanka Digital Nomad Visa Requirements and Coworking Scene for Remote Workers 2026"
 description: "Sri Lanka Digital Nomad Visa Requirements and Coworking. — practical guide for remote teams and distributed workers with tools, tips, and workflows for."
 date: 2026-03-16
 author: theluckystrike

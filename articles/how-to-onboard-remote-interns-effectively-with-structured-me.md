@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Onboard Remote Interns Effectively With."
+title: "How to Onboard Remote Interns Effectively With Structured Mentorship Program Template"
 description: "A practical guide to building a structured mentorship program for remote interns. Includes templates, workflows, and code examples for engineering teams."
 date: 2026-03-16
 author: theluckystrike

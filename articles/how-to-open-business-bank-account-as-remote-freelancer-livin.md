@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Open a Business Bank Account as a Remote."
+title: "Format: INV-2026-0001"
 description: "A practical guide for developers and power users on opening a business bank account in Portugal as a remote freelancer. Requirements, process, and."
 date: 2026-03-16
 author: theluckystrike

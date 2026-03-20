@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Applicant Tracking System for Remote Companies."
+title: "Example: Timezone-aware scheduling"
 description: "A comprehensive comparison of applicant tracking systems designed for remote teams hiring globally in 2026."
 date: 2026-03-16
 author: theluckystrike

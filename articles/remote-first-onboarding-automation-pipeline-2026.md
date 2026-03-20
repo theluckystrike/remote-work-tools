@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote-First Onboarding Automation Pipeline 2026."
+title: "Remote-First Onboarding Automation Pipeline 2026"
 description: "End-to-end guide to automating new employee onboarding with checklists, welcome sequences, and task automation for distributed teams."
 date: 2026-03-20
 author: theluckystrike

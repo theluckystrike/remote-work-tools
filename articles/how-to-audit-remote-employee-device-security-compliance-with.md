@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Audit Remote Employee Device Security Compliance."
+title: "How to Audit Remote Employee Device Security Compliance Without Physical Access"
 description: "A practical guide for developers and IT teams to audit remote employee device security compliance using automated tools, remote queries, and endpoint."
 date: 2026-03-16
 author: theluckystrike

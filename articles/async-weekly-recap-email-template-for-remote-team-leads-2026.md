@@ -9,7 +9,7 @@ permalink: /async-weekly-recap-email-template-for-remote-team-leads-2026/
 categories: [guides]
 tags: [remote-work, async-communication, team-leadership, weekly-recap, templates]
 reviewed: true
-score: 0
+score: 8
 intent-checked: true
 voice-checked: true
 ---
@@ -262,8 +262,6 @@ Track whether your weekly recaps actually help your team:
 - Can you reference past recaps during planning?
 
 If the answers are yes, your recaps are working. If not, experiment with format, length, or content focus.
-
-## 
 
 ## Related Reading
 

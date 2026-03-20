@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Communication Playbook for New."
+title: "Calculate reasonable response windows based on overlap"
 description: "A practical guide for new managers stepping into distributed organizations. Build effective communication patterns with templates, workflows, and."
 date: 2026-03-16
 author: theluckystrike

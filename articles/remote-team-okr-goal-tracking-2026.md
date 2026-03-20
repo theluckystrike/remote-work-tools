@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team OKR and Goal Tracking 2026."
+title: "Remote Team OKR and Goal Tracking 2026"
 description: "Complete guide to setting up async OKR tracking for distributed teams including tool recommendations and process templates."
 date: 2026-03-20
 author: theluckystrike

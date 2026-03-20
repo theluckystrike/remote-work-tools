@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /gong-revenue-intelligence-for-remote-sales-teams-review-2026/
 categories: [guides]
 tags: [revenue-intelligence, sales-tools, remote-sales, ai-sales, conversation-analytics]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

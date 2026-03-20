@@ -7,10 +7,10 @@ author: theluckystrike
 permalink: /best-practice-for-remote-team-meeting-hygiene-when-calendar-/
 categories: [guides]
 tags: [remote-work, meeting-hygiene, calendar-management, team-scaling, productivity]
-reviewed: false
-score: 0
-intent-checked: false
-voice-checked: false
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
 ---
 
 {% raw %}

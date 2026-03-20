@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Pharmacy Consultation Service with."
+title: "How to Set Up Remote Pharmacy Consultation Service with Video Conferencing Tools"
 description: "A technical guide for developers and power users building remote pharmacy consultation services. Covers video API integration, HIPAA compliance, and."
 date: 2026-03-16
 author: theluckystrike

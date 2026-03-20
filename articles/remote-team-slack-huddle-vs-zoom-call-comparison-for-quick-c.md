@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Slack Huddle vs Zoom Call Comparison for."
+title: "Test UDP latency to Slack's media servers"
 description: "A practical comparison of Slack Huddles and Zoom calls for remote development teams. When to use each, performance considerations, and implementation."
 date: 2026-03-16
 author: "Remote Work Tools"
