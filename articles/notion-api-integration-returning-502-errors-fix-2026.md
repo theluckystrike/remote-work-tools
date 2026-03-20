@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /notion-api-integration-returning-502-errors-fix-2026/
 categories: [guides]
-tags: [remote-work-tools, notion, api-errors, troubleshooting, integration, distributed-teams, productivity]
+tags: [remote-work-tools, notion, api-errors, troubleshooting, integration, distributed-teams, productivity, api]
 reviewed: true
 score: 8
 intent-checked: true
