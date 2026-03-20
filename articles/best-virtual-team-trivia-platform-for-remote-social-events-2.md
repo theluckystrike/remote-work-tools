@@ -8,7 +8,7 @@ permalink: /best-virtual-team-trivia-platform-for-remote-social-events-2/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, trivia, virtual-events, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

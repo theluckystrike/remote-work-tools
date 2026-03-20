@@ -8,7 +8,7 @@ permalink: /best-virtual-happy-hour-alternative-for-remote-teams-who-hat/
 categories: [guides]
 tags: [remote-work-tools, remote-work, async-communication, team-culture, optional-participation, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
