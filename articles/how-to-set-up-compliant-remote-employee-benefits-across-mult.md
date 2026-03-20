@@ -303,8 +303,92 @@ class StateRegistrationTracker:
 
 Building a compliant multi-state benefits system requires tracking employee locations accurately, implementing state-specific rules, and monitoring for regulatory changes. The data models and code examples above provide a starting point for architecting this capability into your HR systems.
 
----
+## Integrating with Payroll APIs
 
+Manually updating payroll configurations when employees move states creates compliance gaps. Automate the handoff between your location tracking system and payroll processor using their API:
+
+```python
+class PayrollIntegration:
+    """Example integration with Gusto-style payroll API."""
+
+    def __init__(self, api_key: str, company_id: str):
+        self.api_key = api_key
+        self.company_id = company_id
+        self.base_url = "https://api.payrollprovider.example/v1"
+
+    def update_employee_state(self, employee_id: str, new_state: str, effective_date: str) -> dict:
+        """Trigger state withholding update on payroll side."""
+        import requests
+        response = requests.put(
+            f"{self.base_url}/companies/{self.company_id}/employees/{employee_id}/tax_info",
+            headers={"Authorization": f"Bearer {self.api_key}"},
+            json={
+                "work_state": new_state,
+                "effective_date": effective_date,
+                "withholding_type": "state_income_tax",
+            }
+        )
+        response.raise_for_status()
+        return response.json()
+
+    def verify_state_registration(self, state: str) -> bool:
+        """Check if company is registered to pay taxes in a given state."""
+        import requests
+        response = requests.get(
+            f"{self.base_url}/companies/{self.company_id}/state_registrations",
+            headers={"Authorization": f"Bearer {self.api_key}"},
+        )
+        registrations = {r["state"] for r in response.json().get("registrations", [])}
+        return state in registrations
+```
+
+The `verify_state_registration` call is critical: before hiring a first employee in a new state, confirm your company is registered as an employer there. Most payroll APIs expose this status, letting you catch registration gaps before they become compliance violations.
+
+## Handling Paid Sick Leave Mandates
+
+Paid sick leave requirements vary significantly by state and city. Several major states have specific accrual rates and usage rules that differ from employer-provided PTO policies:
+
+```python
+PAID_SICK_LEAVE_MANDATES = {
+    "CA": {
+        "accrual_rate": "1 hour per 30 hours worked",
+        "minimum_accrual_cap": 48,
+        "carryover": True,
+        "front_loading_allowed": True,
+        "notes": "Local ordinances (SF, LA) may exceed state minimums"
+    },
+    "NY": {
+        "accrual_rate": "1 hour per 30 hours worked",
+        "minimum_accrual_cap": 56,
+        "carryover": True,
+        "front_loading_allowed": True,
+        "notes": "NYC employees get 56 hours; all other NY employees get 40"
+    },
+    "WA": {
+        "accrual_rate": "1 hour per 40 hours worked",
+        "minimum_accrual_cap": None,
+        "carryover": True,
+        "front_loading_allowed": True,
+        "notes": "Seattle has a separate ordinance"
+    },
+    "TX": {
+        "accrual_rate": None,
+        "minimum_accrual_cap": None,
+        "carryover": None,
+        "notes": "No statewide mandate; Austin and Dallas ordinances preempted by state law"
+    }
+}
+
+def get_sick_leave_requirement(state: str) -> dict:
+    """Return applicable sick leave requirements for an employee's work state."""
+    return PAID_SICK_LEAVE_MANDATES.get(state, {"notes": "No statewide mandate found"})
+```
+
+Keep this data updated annually. Sick leave requirements are one of the most frequently changing areas of employment law at the state and local level.
+
+Building a compliant multi-state benefits system requires tracking employee locations accurately, implementing state-specific rules, and monitoring for regulatory changes. The data models and code examples above provide a starting point for architecting this capability into your HR systems.
+
+---
 
 ## Related Reading
 
