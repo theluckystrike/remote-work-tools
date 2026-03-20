@@ -374,7 +374,7 @@ const metrics = {
 function recordProcessingTime(durationMs) {
   metrics.propertiesProcessed++;
   metrics.processingTimeMs += durationMs;
-  
+
   const avgTime = metrics.processingTimeMs / metrics.propertiesProcessed;
   console.log(`Average processing time: ${(avgTime / 1000).toFixed(2)}s per property`);
 }
@@ -388,15 +388,109 @@ function exportMetrics() {
       processingTimePerProperty: metrics.processingTimeMs / metrics.propertiesProcessed
     }
   };
-  
+
   fs.writeFileSync(
     './metrics/delivery-report.json',
     JSON.stringify(report, null, 2)
   );
-  
+
   return report;
 }
 ```
+
+## Automating Client Notifications on Tour Delivery
+
+Manual emails to notify clients when a tour is ready creates delays and inconsistency. Automate the notification as the final step in your delivery pipeline:
+
+```python
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from string import Template
+
+DELIVERY_EMAIL_TEMPLATE = Template("""
+Subject: Your Virtual Tour for $property_address is Ready
+
+Hi $client_name,
+
+Your virtual tour for $property_address is now ready for review.
+
+View your tour: $tour_url
+
+This link will be active for 7 days. If you need an extension,
+reply to this email and we'll generate a new link.
+
+Questions about the tour? Reply here or call $photographer_phone.
+
+Best,
+$photographer_name
+""")
+
+def send_delivery_notification(client_email: str, delivery_info: dict, smtp_config: dict):
+    msg = MIMEMultipart()
+    msg["From"] = smtp_config["from_address"]
+    msg["To"] = client_email
+    msg["Subject"] = f"Your Virtual Tour for {delivery_info['property_address']} is Ready"
+
+    body = DELIVERY_EMAIL_TEMPLATE.substitute(**delivery_info)
+    msg.attach(MIMEText(body, "plain"))
+
+    with smtplib.SMTP_SSL(smtp_config["host"], 465) as server:
+        server.login(smtp_config["username"], smtp_config["password"])
+        server.sendmail(smtp_config["from_address"], client_email, msg.as_string())
+```
+
+Trigger this function at the end of your `TourDeliveryService.upload_tour()` call to make notification seamless and traceable.
+
+## Handling High-Demand Periods with a Job Queue
+
+Real estate activity spikes around spring listing season and end-of-month closings. A synchronous batch processor that works fine for 5 properties per day will queue up and miss SLAs when you have 30 properties to process simultaneously.
+
+Add a simple job queue using Redis and RQ (Redis Queue) to process properties concurrently:
+
+```python
+from redis import Redis
+from rq import Queue
+from rq.job import Job
+
+redis_conn = Redis()
+tour_queue = Queue("tour_processing", connection=redis_conn)
+
+def enqueue_property(property_dir: str, output_dir: str, client_email: str) -> str:
+    """Add a property to the processing queue. Returns job ID."""
+    job = tour_queue.enqueue(
+        process_and_deliver_property,
+        property_dir,
+        output_dir,
+        client_email,
+        job_timeout=1800,  # 30 minutes max per property
+        result_ttl=86400   # Keep result for 24 hours
+    )
+    return job.id
+
+def get_job_status(job_id: str) -> dict:
+    """Check the status of a queued property."""
+    job = Job.fetch(job_id, connection=redis_conn)
+    return {
+        "id": job.id,
+        "status": job.get_status(),
+        "enqueued_at": job.enqueued_at.isoformat() if job.enqueued_at else None,
+        "started_at": job.started_at.isoformat() if job.started_at else None,
+        "ended_at": job.ended_at.isoformat() if job.ended_at else None,
+    }
+```
+
+Start multiple workers to process the queue in parallel during busy periods:
+
+```bash
+# Start 4 workers to process up to 4 properties simultaneously
+rq worker tour_processing &
+rq worker tour_processing &
+rq worker tour_processing &
+rq worker tour_processing &
+```
+
+Scale workers up during peak season and down during slow periods. This approach handles demand spikes without over-provisioning infrastructure year-round.
 
 ## Related Reading
 
