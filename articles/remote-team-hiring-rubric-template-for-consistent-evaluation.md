@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Hiring Rubric Template for Consistent Evaluation Across Distributed Interviewers 2026"
+title: "Remote Team Hiring Rubric Template for Consistent."
 description: "A practical hiring rubric template for remote teams. Build consistent evaluation criteria that work across time zones and multiple interviewers."
 date: 2026-03-16
 author: theluckystrike
@@ -203,6 +203,11 @@ Role: Senior Frontend Developer
 This rubric provides a foundation—customize it based on your organizational priorities. A startup might emphasize adaptability and breadth of skills. An enterprise team might weight system design and cross-functional communication more heavily.
 
 Document your rubric in your team wiki or hiring handbook. New interviewers should review it before their first candidate. Over time, refine scores based on hire success. Your rubric improves alongside your hiring maturity.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

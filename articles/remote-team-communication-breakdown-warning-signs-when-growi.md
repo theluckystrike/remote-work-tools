@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Team Communication Breakdown: Warning Signs When Growing Past 15 People"
-description: "Learn to identify the critical warning signs of communication breakdown in remote teams as they scale beyond 15 people. Includes practical detection methods and remediation strategies."
+title: "Remote Team Communication Breakdown: Warning Signs When."
+description: "Learn to identify the critical warning signs of communication breakdown in remote teams as they scale beyond 15 people. Includes practical detection."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-communication-breakdown-warning-signs-when-growi/
@@ -127,6 +127,11 @@ After implementing changes, track the same metrics that revealed the warning sig
 The goal isn't eliminating all communication friction. Some is natural at scale. The goal is preventing friction from becoming dysfunction.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

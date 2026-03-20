@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Prevent Knowledge Silos When Remote Team Grows Past 25 Engineers"
-description: "A practical guide for developers and engineering leaders on breaking down knowledge silos as your remote team scales beyond 25 engineers. Includes code examples and actionable processes."
+title: "How to Prevent Knowledge Silos When Remote Team Grows."
+description: "A practical guide for developers and engineering leaders on breaking down knowledge silos as your remote team scales beyond 25 engineers. Includes code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/
@@ -260,6 +260,11 @@ As your team grows past 25 engineers, the cost of knowledge silos compounds. Eng
 The best time to start was when your team reached 15. The second best time is now.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

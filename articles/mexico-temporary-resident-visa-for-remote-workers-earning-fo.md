@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Mexico Temporary Resident Visa for Remote Workers Earning Foreign Income Guide 2026"
+title: "Mexico Temporary Resident Visa for Remote Workers."
 description: "Complete guide to Mexico's temporary resident visa for remote workers earning foreign income. Requirements, application process, income thresholds, and practical tips for digital nomads and developers."
 date: 2026-03-16
 author: theluckystrike
@@ -137,6 +137,11 @@ After four years, you can apply for permanent residence if you meet the continuo
 The Mexico temporary resident visa provides a viable pathway for developers and remote workers to establish long-term residency while continuing to work for international clients. With monthly income requirements around $2,600 USD and a straightforward application process at Mexican consulates, this visa accommodates the realities of modern remote work.
 
 Success depends on thorough documentation and realistic expectations about the timeline. Start gathering your paperwork at least three months before your intended move date, and you'll find the process manageable even while continuing your regular work schedule.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

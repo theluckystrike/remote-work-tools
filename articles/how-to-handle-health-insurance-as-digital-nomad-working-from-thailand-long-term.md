@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Handle Health Insurance as a Digital Nomad Working from Thailand Long Term"
-description: "A practical guide for developers and remote workers on managing health insurance while living in Thailand long term. Covers visa options, local vs international plans, and cost-effective strategies."
+title: "How to Handle Health Insurance as a Digital Nomad."
+description: "A practical guide for developers and remote workers on managing health insurance while living in Thailand long term. Covers visa options, local vs."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/
@@ -163,6 +163,11 @@ Even without insurance, these costs are significantly lower than in the US or Eu
 Securing health insurance as a digital nomad in Thailand requires balancing cost, coverage, and flexibility. For most developers and remote workers, an international expat plan provides the best combination of evacuation coverage and multi-country protection. Supplementing with local Thai insurance for routine care can further optimize your healthcare spending.
 
 The key is starting early—insurance is more affordable and comprehensive when you enroll before any health issues arise. With proper coverage in place, you can focus on your work and enjoy everything Thailand has to offer.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Practice for Remote Team All Hands Meeting Format That Scales to 100 People"
-description: "A practical guide to running effective all-hands meetings for remote teams of 100+. Learn formatting strategies, facilitation techniques, and tooling recommendations."
+title: "Best Practice for Remote Team All Hands Meeting Format."
+description: "A practical guide to running effective all-hands meetings for remote teams of 100+. Learn formatting strategies, facilitation techniques, and tooling."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/
@@ -140,6 +140,11 @@ Start with a template and iterate. The first attempt won't be perfect, and that'
 The hybrid async-sync approach described here scales because it respects the constraints of remote work: different time zones, varied communication preferences, and limited synchronous attention. By moving information consumption to asynchronous channels, the synchronous time becomes valuable rather than perfunctory.
 
 Build the habit. Measure results. Adjust as your team continues to grow.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

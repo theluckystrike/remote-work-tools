@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Scale Remote Team Social Events From Informal Chats to Structured Programs"
-description: "A practical guide for developers and technical teams to evolve remote social events from spontaneous conversations into scalable, structured programs that build genuine team connections."
+title: "How to Scale Remote Team Social Events From Informal."
+description: "A practical guide for developers and technical teams to evolve remote social events from spontaneous conversations into scalable, structured programs."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-social-events-from-informal-chats-t/
@@ -193,6 +193,11 @@ The transition from informal to structured social programs isn't a sign that you
 Start where you are. If your team is small, add one structured element to your existing informal culture. If you're already scaling, invest in the programs and infrastructure that will carry your culture forward.
 
 The goal isn't to replicate an office water cooler. It's to create something better—intentional spaces where people can connect as humans, regardless of when they work or where they live.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
