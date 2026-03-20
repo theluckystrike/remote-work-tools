@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /coworking-space-finder-apps-for-nomads/
 categories: [guides]
-tags: [remote work, coworking, digital nomad, productivity, tools]
+tags: [remote-work-tools, remote work, coworking, digital nomad, productivity, tools]
 reviewed: true
 score: 8
 intent-checked: true

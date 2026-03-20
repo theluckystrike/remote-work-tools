@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /daily-check-in-tools-for-remote-teams-2026/
 categories: [guides]
-tags: [remote-work, daily-standup, async-communication, team-collaboration]
+tags: [remote-work-tools, remote-work, daily-standup, async-communication, team-collaboration]
 reviewed: true
 score: 8
 intent-checked: true

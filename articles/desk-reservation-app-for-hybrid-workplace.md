@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /desk-reservation-app-for-hybrid-workplace/
 categories: [guides]
-tags: [desk-reservation, hybrid-work, workplace, app-development]
+tags: [remote-work-tools, desk-reservation, hybrid-work, workplace, app-development]
 reviewed: true
 score: 8
 intent-checked: true

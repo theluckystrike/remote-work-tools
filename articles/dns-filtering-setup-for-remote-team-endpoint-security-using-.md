@@ -10,6 +10,7 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, security, remote-work]
 ---
 
 # DNS Filtering Setup for Remote Team Endpoint Security Using Cloudflare Gateway

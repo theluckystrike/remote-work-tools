@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /collaboration-zones-in-hybrid-office-layout/
 categories: [guides]
-tags: [collaboration-zones, hybrid-office, office-layout, workspace-design, team-productivity]
+tags: [remote-work-tools, collaboration-zones, hybrid-office, office-layout, workspace-design, team-productivity, collaboration]
 reviewed: true
 score: 8
 intent-checked: true

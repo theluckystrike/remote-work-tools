@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /endpoint-encryption-enforcement-for-remote-team-laptops-wind/
 categories: [guides]
-tags: [security, encryption, endpoint-protection, remote-work, windows, macos]
+tags: [remote-work-tools, security, encryption, endpoint-protection, remote-work, windows, macos]
 reviewed: true
 score: 8
 intent-checked: true

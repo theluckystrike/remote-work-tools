@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /daily-workflow-for-a-solo-remote-technical-writer-2026/
 categories: [guides]
-tags: [technical-writing, remote-work, productivity, workflow]
+tags: [remote-work-tools, technical-writing, remote-work, productivity, workflow]
 reviewed: true
 score: 8
 intent-checked: true

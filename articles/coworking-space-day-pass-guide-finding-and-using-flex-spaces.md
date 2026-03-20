@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /coworking-space-day-pass-guide-finding-and-using-flex-spaces/
 categories: [guides]
-tags: [coworking, remote-work, flex-spaces, day-pass, workspace]
+tags: [remote-work-tools, coworking, remote-work, flex-spaces, day-pass, workspace]
 reviewed: true
 score: 8
 intent-checked: true

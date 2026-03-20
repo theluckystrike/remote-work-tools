@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/
 categories: [guides]
-tags: [digital-nomad, costa-rica, visa, tax, remote-work, developers]
+tags: [remote-work-tools, digital-nomad, costa-rica, visa, tax, remote-work, developers]
 reviewed: true
 score: 8
 intent-checked: true

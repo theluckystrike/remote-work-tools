@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /communication-norms-for-a-remote-team-of-20-across-4-timezon/
 categories: [guides]
-tags: [remote-work, communication, async, timezones, team-management]
+tags: [remote-work-tools, remote-work, communication, async, timezones, team-management]
 reviewed: true
 intent-checked: true
 voice-checked: true

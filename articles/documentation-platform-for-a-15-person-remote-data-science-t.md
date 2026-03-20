@@ -6,9 +6,9 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /documentation-platform-for-a-15-person-remote-data-science-t/
 categories: [guides]
-tags: [documentation, remote-work, data-science, knowledge-management]
+tags: [remote-work-tools, documentation, remote-work, data-science, knowledge-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

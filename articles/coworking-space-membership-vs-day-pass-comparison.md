@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /coworking-space-membership-vs-day-pass-comparison/
 categories: [guides]
-tags: [coworking, remote-work, productivity]
+tags: [remote-work-tools, coworking, remote-work, productivity, comparison]
 reviewed: true
 score: 8
 intent-checked: true

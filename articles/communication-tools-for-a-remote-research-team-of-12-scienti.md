@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /communication-tools-for-a-remote-research-team-of-12-scienti/
 categories: [guides]
-tags: [scientific-collaboration, research-communication, remote-work, distributed-teams]
+tags: [remote-work-tools, scientific-collaboration, research-communication, remote-work, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

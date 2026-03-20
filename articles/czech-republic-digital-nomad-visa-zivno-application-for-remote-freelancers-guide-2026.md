@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/
 categories: [guides]
-tags: [digital-nomad, czech-republic, zivno, visa, remote-work, freelancer, europe]
+tags: [remote-work-tools, digital-nomad, czech-republic, zivno, visa, remote-work, freelancer, europe]
 reviewed: true
 score: 8
 voice-checked: true

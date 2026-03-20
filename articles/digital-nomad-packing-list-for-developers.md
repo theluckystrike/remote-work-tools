@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /digital-nomad-packing-list-for-developers/
 categories: [guides]
-tags: [digital-nomad, remote-work, productivity, gear]
+tags: [remote-work-tools, digital-nomad, remote-work, productivity, gear]
 reviewed: true
 score: 8
 intent-checked: true

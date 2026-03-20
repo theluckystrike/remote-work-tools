@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /cold-outreach-templates-for-freelance-developers/
 categories: [guides]
-tags: [freelance, business-development, client-acquisition]
+tags: [remote-work-tools, freelance, business-development, client-acquisition]
 reviewed: true
 score: 8
 intent-checked: true

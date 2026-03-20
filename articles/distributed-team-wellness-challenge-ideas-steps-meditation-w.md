@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/
 categories: [guides]
-tags: [remote-work, wellness, distributed-teams, health, productivity]
+tags: [remote-work-tools, remote-work, wellness, distributed-teams, health, productivity]
 reviewed: true
 score: 8
 intent-checked: true
