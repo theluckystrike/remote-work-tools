@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-write-clear-async-project-briefs-for-remote-teams-avo/
 categories: [guides]
-tags: [async-communication, remote-work, project-briefs, team-collaboration, developer-productivity]
+tags: [remote-work-tools, async-communication, remote-work, project-briefs, team-collaboration, developer-productivity]
 reviewed: true
 score: 8
 intent-checked: true

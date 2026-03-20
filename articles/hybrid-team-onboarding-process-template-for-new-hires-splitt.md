@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/
 categories: [guides]
-tags: [hybrid-work, onboarding, remote-work, team-management, developer-experience]
+tags: [remote-work-tools, hybrid-work, onboarding, remote-work, team-management, developer-experience]
 reviewed: true
 score: 8
 intent-checked: true

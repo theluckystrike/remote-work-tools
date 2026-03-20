@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/
 categories: [guides]
-tags: [remote-work, hybrid-work, team-rituals, async-communication]
+tags: [remote-work-tools, remote-work, hybrid-work, team-rituals, async-communication]
 reviewed: true
 score: 8
 intent-checked: true

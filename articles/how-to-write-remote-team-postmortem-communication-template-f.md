@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-write-remote-team-postmortem-communication-template-f/
 categories: [guides]
-tags: [postmortem, incident-management, remote-work, communication-templates, devops]
+tags: [remote-work-tools, postmortem, incident-management, remote-work, communication-templates, devops]
 reviewed: true
 score: 8
 intent-checked: true

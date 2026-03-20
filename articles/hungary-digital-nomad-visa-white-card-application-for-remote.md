@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /hungary-digital-nomad-visa-white-card-application-for-remote/
 categories: [guides]
-tags: [hungary, digital-nomad, visa, white-card, remote-work, europe]
+tags: [remote-work-tools, hungary, digital-nomad, visa, white-card, remote-work, europe]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /hybrid-work-culture-building-strategies-guide/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 reviewed: true
 score: 8
 voice-checked: true

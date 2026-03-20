@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-async-technical-rfcs-that-get-meaningful-feedba/
 categories: [guides]
-tags: [rfc, async, technical-writing, remote-work]
+tags: [remote-work-tools, rfc, async, technical-writing, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

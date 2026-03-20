@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-track-remote-team-velocity-metrics/
 categories: [guides]
-tags: [velocity, metrics, remote-work, productivity]
+tags: [remote-work-tools, velocity, metrics, remote-work, productivity]
 reviewed: true
 score: 8
 intent-checked: true

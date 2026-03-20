@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-badge-access-tracking-tool-for-understanding-a/
 categories: [guides]
-tags: [hybrid-office, badge-access, desk-utilization, occupancy-tracking, workplace-analytics]
+tags: [remote-work-tools, hybrid-office, badge-access, desk-utilization, occupancy-tracking, workplace-analytics]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-write-freelance-proposals-that-win/
 categories: [guides]
-tags: [freelance, proposals, business]
+tags: [remote-work-tools, freelance, proposals, business]
 reviewed: true
 score: 8
 intent-checked: true

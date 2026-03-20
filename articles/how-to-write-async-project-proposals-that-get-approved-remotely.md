@@ -6,7 +6,7 @@ date: 2026-03-18
 author: theluckystrike
 permalink: /how-to-write-async-project-proposals-that-get-approved-remotely/
 categories: [guides]
-tags: [project-management, remote-work, async, proposals, approval-workflow, decision-making]
+tags: [remote-work-tools, project-management, remote-work, async, proposals, approval-workflow, decision-making]
 reviewed: true
 score: 8
 intent-checked: true

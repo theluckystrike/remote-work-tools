@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /hybrid-meeting-equity-tips-for-remote-participants/
 categories: [guides]
-tags: [hybrid-work, remote-work, meeting-equity, video-conferencing]
+tags: [remote-work-tools, hybrid-work, remote-work, meeting-equity, video-conferencing]
 reviewed: true
 score: 8
 intent-checked: true

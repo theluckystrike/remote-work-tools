@@ -6,9 +6,9 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-write-postmortem-reports-for-remote-teams/
 categories: [guides]
-tags: [postmortem, incident-management, remote-work]
+tags: [remote-work-tools, postmortem, incident-management, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

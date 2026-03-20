@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/
 categories: [guides]
-tags: [remote-work-tools, productivity, ai-tools, meeting-efficiency, asynchronous-communication]
+tags: [remote-work-tools, productivity, ai-tools, meeting-efficiency, asynchronous-communication, remote-work, artificial-intelligence]
 reviewed: true
 score: 8
 voice-checked: true

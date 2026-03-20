@@ -6,9 +6,9 @@ date: 2026-03-18
 author: theluckystrike
 permalink: /hybrid-office-locker-system-for-employees-who-hot-desk/
 categories: [guides]
-tags: [locker-system, hot-desk, hybrid-work, access-control, smart-lockers]
+tags: [remote-work-tools, locker-system, hot-desk, hybrid-work, access-control, smart-lockers]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
