@@ -7,7 +7,7 @@ author: "theluckystrike"
 permalink: /taiwan-gold-card-visa-for-remote-tech-workers-application-pr/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 tags: [remote-work-tools, remote-work]
