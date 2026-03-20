@@ -13,52 +13,6 @@ intent-checked: true
 voice-checked: true
 score: 8
 ---
-
-
-{% raw %}
-# Async Engineering Proposal Process Using GitHub Discussions Step by Step
-
-To run async engineering proposals with GitHub Discussions, create a dedicated "Engineering Proposals" category, define a structured proposal template, and set up a GitHub Actions workflow to manage review lifecycles with labels and deadlines. This approach lets distributed teams collect meaningful reviewer input across time zones without synchronous meetings while keeping every decision searchable and linked to the code it affects.
-
-## Why GitHub Discussions for Engineering Proposals
-
-GitHub Discussions offers several advantages over traditional proposal methods:
-
-- Integrated with your workflow: Proposals live in the same repository where code changes happen
-- Asynchronous by default: Team members contribute on their own schedules
-- Searchable: Future teams can find past decisions and reasoning
-- Threaded conversations: Related discussions stay organized
-- Voting mechanisms: Easy sentiment gathering on proposals
-
-Unlike RFCs buried in Google Docs or Notion, Discussions connect directly to issues and pull requests, creating a complete audit trail of why decisions were made.
-
-## Step 1: Create a Proposal Category
-
-Start by setting up a dedicated space for engineering proposals in your repository.
-
-1. Navigate to your repository on GitHub
-2. Click the **Discussions** tab
-3. Click **Edit repository settings** (the gear icon)
-4. Under "Discussion category settings," add a new category called **Engineering Proposals**
-5. Configure it with these settings:
- - Format: [x] Announcement (for pinned proposals)
- - Emoji: 📋
-
-You can also create supporting categories like **Decision Archive** (for accepted proposals) and **Questions** (for early-stage brainstorming).
-
-## Step 2: Define a Proposal Template
-
-A consistent template ensures every proposal contains the information reviewers need. Create `.github/DISCUSSION_TEMPLATE/engineering-proposal.md`:
-
-```yaml
----
-name: Engineering Proposal
-about: Submit an engineering proposal for team review
-title: "[Proposal] "
-labels: proposal
-assignees: ''
----
-
 ## Summary
 
 <!-- 2-3 sentence description of what you're proposing and why it matters -->

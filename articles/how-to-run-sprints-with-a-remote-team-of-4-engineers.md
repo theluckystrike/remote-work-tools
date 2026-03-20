@@ -12,32 +12,6 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
-{% raw %}
-
-# How to Run Sprints with a Remote Team of 4 Engineers: A Practical Guide
-
-Running sprints with a small remote team of 4 engineers requires a different approach than managing larger distributed squads. With four people, you can maintain strong async communication without the overhead that slows down bigger teams. The key is designing ceremonies that respect each engineer's time zone while keeping everyone aligned on goals.
-
-This guide covers practical patterns you can implement immediately: async ceremonies that work, capacity calculations tailored for small teams, and automation that reduces administrative burden.
-
-## Structuring Sprint Ceremonies for a 4-Person Remote Team
-
-A 4-person team has a natural advantage: everyone knows what everyone else is working on. You do not need complex dashboards or heavy tooling. Focus on lightweight async updates and minimal synchronous meetings.
-
-### Weekly Async Standups
-
-Replace daily video standups with weekly async text updates. With four people, daily synchronous meetings create more interruption cost than value. Instead, use a structured async approach:
-
-```yaml
-# .github/ISSUE_TEMPLATE/weekly-standup.md
----
-name: Weekly Sprint Update
-about: End-of-week async standup
-title: "Sprint Update: Week [WEEK_NUMBER]"
-labels: standup
-assignees: ""
----
-
 ## Completed This Week
 - What did you ship?
 

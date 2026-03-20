@@ -13,47 +13,6 @@ categories: [guides]
 intent-checked: true
 voice-checked: true
 ---
-
-
-{% raw %}
-Create incident runbooks with the assumption that the responder has zero context: include exact URLs for dashboards, exact command-line incantations with environment variables, and decision trees that ask "Is X happening?" with yes/no branches rather than vague severity guidance. Use a YAML structure with symptom detection, immediate actions, escalation thresholds, and rollback procedures. Never say "check the database"—say "SSH to `prod-db-01.aws` and run `SELECT COUNT(*) FROM active_sessions;` then compare to the baseline of 1200 from your runbook." This removes the back-and-forth that slows down 2 AM incident response in distributed teams.
-
-## Why Runbooks Need Different Treatment in Distributed Teams
-
-Traditional on-call runbooks assume the responder has context. They assume you can lean over to a colleague and ask a quick question. They assume the senior engineer is awake when something breaks. Distributed teams lose these assumptions, which means your runbooks must carry more weight.
-
-The core principle: every decision point in your runbook should be answerable without human clarification. If your runbook says "check the dashboard," include the exact URL. If it says "restart the service," include the exact command with environment variables. The goal is reducing back-and-forth communication during incidents when every minute counts.
-
-## Structuring Your Runbook Document
-
-Start with a consistent template that every engineer recognizes immediately. Here's a structure that works well for distributed teams:
-
-```yaml
----
-runbook:
-  title: "Database Connection Pool Exhaustion"
-  severity: "SEV-1 / SEV-2"
-  symptoms:
-    - "HTTP 503 errors increasing"
-    - "Database connections at max"
-    - "Latency spikes > 2s"
-  detection:
-    - "Datadog alert: connections > 90% for 2 minutes"
-    - "PagerDuty: SEV-1 triggered"
-  immediate_actions:
-    - "Check current connection count"
-    - "Identify long-running queries"
-    - "Consider temporary connection pool increase"
-  escalation:
-    - "SEV-1: Call on-call DBA immediately"
-    - "SEV-2: Page on-call via PagerDuty"
-  rollback:
-    - "Revert recent deploys"
-    - "Restart application pods"
-  post_incident:
-    - "Analyze slow queries from pg_stat_statements"
-    - "Schedule post-mortem within 48 hours"
----
 ```
 
 This front-matter style approach allows teams to scan the critical path quickly. Each section answers a specific question: What does this problem look like? What should I do first? Who do I call? What if I make things worse?

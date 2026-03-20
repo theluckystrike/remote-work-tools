@@ -12,50 +12,6 @@ categories: [guides]
 intent-checked: true
 voice-checked: true
 ---
-
-{% raw %}
-# How to Create Remote Work Playbook for Team
-
-Create your remote work playbook by documenting five foundational sections: communication norms (which channels serve which purposes), meeting protocols (recurring vs. optional, camera expectations, recording policy), documentation standards (templates with ownership and status fields), workflow definitions (branch naming, PR review requirements, deployment procedures), and a tool inventory mapping every tool to its purpose and access instructions. Build it iteratively over four weeks--observe current behavior, identify gaps, draft sections, then validate with your team before finalizing.
-
-## Core Components of a Remote Work Playbook
-
-Your playbook needs five foundational sections. Skip the fluff—focus on what actually changes daily behavior.
-
-**1. Communication Norms**
-
-Define which channels serve which purposes. Example structure:
-
-- `#team` — announcements and decisions requiring visibility
-- `#dev` — technical discussions, code reviews, architecture
-- `#standup` — daily async updates
-- Slack/Discord DM — sensitive topics and 1:1s
-
-Include response time expectations. A practical rule: "Expect replies within 4 hours during work hours, 24 hours for non-urgent."
-
-**2. Meeting Protocols**
-
-Remote teams over-communicate through meetings or under-communicate. Your playbook should specify:
-
-- Which meetings are recurring vs. optional
-- Camera-on expectations (default: on for <6 people, optional for larger)
-- Pre-read requirements (send agenda 24 hours in advance)
-- Recording policy for async team members in different time zones
-
-**3. Documentation Standards**
-
-Define where docs live and how they're structured. Most teams fail here by not specifying formats.
-
-Example documentation header template:
-
-```markdown
----
-title: "[Feature Name] Implementation Guide"
-owner: @developer-handle
-status: draft|in-review|final
-last-updated: 2026-03-15
----
-
 ## Overview
 Brief description of what this document covers.
 
