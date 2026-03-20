@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Automated Client Progress Report for."
 description: "A practical guide to building automated client progress reports for remote projects. Learn to use scripts, APIs, and templates to keep stakeholders."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Manage Work-Life Balance as a Remote Developer"
 description: "Practical strategies and tools for developers working remotely. Learn time management techniques, automation scripts, and boundary-setting methods."

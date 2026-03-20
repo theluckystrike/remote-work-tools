@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Manager Delegation Framework for Leading Teams."
 description: "A practical framework for delegating effectively in distributed teams spanning multiple time zones. Includes decision matrices, async workflows, and."

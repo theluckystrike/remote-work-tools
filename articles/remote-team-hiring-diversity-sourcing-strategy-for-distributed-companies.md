@@ -10,6 +10,7 @@ tags: [remote-hiring, diversity, diversity-sourcing, inclusive-hiring, distribut
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

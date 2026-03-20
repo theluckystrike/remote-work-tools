@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Slack Channel Strategy for a Remote Company with 75."
 description: "A practical Slack channel strategy for a remote company with 75 employees. Learn channel hierarchy, naming conventions, and automation patterns."

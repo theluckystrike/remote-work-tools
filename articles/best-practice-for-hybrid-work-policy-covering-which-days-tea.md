@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Generating a staggered schedule for a 6-person team"
 description: "A practical guide for developers and power users on structuring hybrid work policies that define which days teams come to office. Includes scheduling."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Visitor Management System for Hybrid Offices."
 description: "A technical guide to implementing visitor management systems for hybrid offices. Covers API integrations, real-time occupancy tracking, badge systems."

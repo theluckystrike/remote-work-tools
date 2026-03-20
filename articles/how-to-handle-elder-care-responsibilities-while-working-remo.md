@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Set up calendar service"
 description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Culture Building Strategies Guide"
 description: "A practical guide to building and maintaining strong team culture in remote environments. Includes code snippets and actionable strategies for developers."

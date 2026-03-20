@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Practice for Remote Team All Hands Meeting Format."
 description: "A practical guide to running effective all-hands meetings for remote teams of 100+. Learn formatting strategies, facilitation techniques, and tooling."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Create a booking via API"
 description: "Discover the top client scheduling tools designed for remote agencies managing teams and clients across different time zones. Compare features."

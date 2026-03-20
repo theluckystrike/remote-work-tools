@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Get recent workflow run durations"
 description: "A technical guide for measuring and analyzing build times to identify developer productivity bottlenecks in remote engineering teams. Includes CI/CD."

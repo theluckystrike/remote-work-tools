@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "NDA Template for Freelance Software Developers"
 description: "A practical NDA template and guide for freelance software developers. Includes customizable clauses, code examples, and tips for protecting your."

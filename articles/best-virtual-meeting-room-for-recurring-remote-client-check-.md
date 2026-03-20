@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Zoom CLI example for updating PMI settings"
 description: "A practical guide to setting up virtual meeting rooms for recurring remote client check-ins. Features, technical considerations, and setup examples for."

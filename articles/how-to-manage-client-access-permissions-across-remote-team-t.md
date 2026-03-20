@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "permission-matrix.yaml"
 description: "A practical guide for developers and power users on managing client access permissions across remote team tools. Includes code examples, permission."

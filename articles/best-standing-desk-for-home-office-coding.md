@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Standing Desk for Home Office Coding"
 description: "A practical guide to selecting the best standing desk for home office coding. Learn about desk types, height adjustment mechanisms, and how to."

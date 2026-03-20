@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Journaling Apps for Remote Worker Reflection"
 description: "A practical guide to journaling applications designed for remote developers and power users. Explore CLI tools, markdown-based solutions, and workflow."

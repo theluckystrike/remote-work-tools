@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Quick Healthy Snack Prep Ideas for Remote Working."
 description: "Discover practical healthy snack prep strategies for remote working parents. Includes batch preparation techniques, quick assembly recipes, and code."

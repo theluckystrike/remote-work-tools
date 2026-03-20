@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Obsidian vs Logseq for Developer Notes"
 description: "Compare Obsidian and Logseq for managing developer notes. Explore markdown workflows, backlink systems, graph views, and plugin ecosystems to find the."

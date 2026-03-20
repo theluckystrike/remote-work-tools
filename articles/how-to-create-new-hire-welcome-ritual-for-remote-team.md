@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Create New Hire Welcome Ritual for Remote Team"
 description: "A practical guide for developers and power users to build effective welcome rituals for remote team newcomers. Includes automation scripts, templates."

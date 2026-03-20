@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Linux: Check audio input levels"
 description: "Find the perfect headset for 8+ hour remote work sessions. Key features, technical specs, and practical advice for developers and power users."

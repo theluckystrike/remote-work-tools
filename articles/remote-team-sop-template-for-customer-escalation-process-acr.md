@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Auto-assign severity based on rules"
 description: "A practical SOP template for managing customer escalations across distributed support teams. Includes triage levels, handoff protocols, and code."

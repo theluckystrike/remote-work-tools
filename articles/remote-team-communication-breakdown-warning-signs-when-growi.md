@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Communication Breakdown: Warning Signs When."
 description: "Learn to identify the critical warning signs of communication breakdown in remote teams as they scale beyond 15 people. Includes practical detection."

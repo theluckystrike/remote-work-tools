@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Mesh WiFi for Home Office Video Calls: A Technical."
 description: "A practical guide for developers and power users choosing mesh WiFi systems for reliable video conferencing. Covers specs, placement, and network."

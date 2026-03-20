@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Upload to your analytics backend"
 description: "A technical guide to occupancy analytics platforms for hybrid offices. Learn how to track desk and room usage with API integrations, sensor data, and."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Shortcut vs Linear: Issue Tracking Comparison for."
 description: "A practical comparison of Shortcut vs Linear issue tracking. Learn the key differences, workflow approaches, and which tool fits your development."

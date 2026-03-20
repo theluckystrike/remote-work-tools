@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Client Approval Workflow Tool for Remote Design Teams"
 description: "A technical guide to selecting and implementing client approval workflows for distributed design teams. API integrations, automation patterns, and."

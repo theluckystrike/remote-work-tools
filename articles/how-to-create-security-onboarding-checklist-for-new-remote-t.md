@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Verify MFA is enabled via API (GitHub Enterprise)"
 description: "A practical guide to building security onboarding checklists for remote teams. Includes code snippets and implementation examples for developers."

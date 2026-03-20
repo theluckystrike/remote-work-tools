@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Using Microsoft Graph API to create named locations"
 description: "A practical guide for developers and IT professionals on implementing Azure Conditional Access policies to secure remote work environments. Includes."

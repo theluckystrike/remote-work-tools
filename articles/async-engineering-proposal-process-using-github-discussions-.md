@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Async Engineering Proposal Process Using GitHub."
 description: "A practical guide to running async engineering proposals using GitHub Discussions. Includes setup steps, templates, and automation tips for distributed."

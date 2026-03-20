@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Return to Office Tools for Hybrid Teams: A Practical Guide"
 description: "Discover the essential tools for managing hybrid teams effectively. From desk booking systems to occupancy sensors, find solutions that work for."

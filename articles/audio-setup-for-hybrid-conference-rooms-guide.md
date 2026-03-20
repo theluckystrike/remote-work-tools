@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Audio Setup for Hybrid Conference Rooms: A Technical Guide"
 description: "A practical guide for developers and power users setting up audio in hybrid conference rooms. Covers microphone types, acoustic treatment, DSP."

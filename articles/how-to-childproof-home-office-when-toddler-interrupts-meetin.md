@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Childproof Home Office When Toddler Interrupts."
 description: "Practical solutions for developers and remote workers to childproof their home office and handle toddler interruptions during video calls. Includes."

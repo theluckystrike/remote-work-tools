@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Architecture Collaboration Tool for Distributed."
 description: "A practical guide to remote architecture collaboration tools for distributed teams doing CAD review. Learn about real-time synchronization, version."

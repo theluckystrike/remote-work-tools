@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Meeting Cadence Template for Engineering."
 description: "A practical meeting cadence template for engineering managers running distributed teams. Includes schedules, async alternatives, and code examples for."

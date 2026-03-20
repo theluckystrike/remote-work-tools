@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Shared Inbox Tools for Remote Support Teams"
 description: "Compare top shared inbox tools for remote support teams with API integrations, automation examples, and implementation patterns for distributed."

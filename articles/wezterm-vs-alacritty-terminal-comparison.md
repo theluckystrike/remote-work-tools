@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Wezterm vs Alacritty Terminal Comparison: A Practical Guide"
 description: "A practical comparison of Wezterm and Alacritty terminal emulators for developers. Explore performance, customization, features, and use cases to find."

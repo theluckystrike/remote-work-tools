@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Meeting Scheduler Tools for Remote Teams"
 description: "A guide to the best meeting scheduler tools for remote teams. Compare features, APIs, and developer-friendly integrations for distributed."

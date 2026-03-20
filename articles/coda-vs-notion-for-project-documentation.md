@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Coda vs Notion for Project Documentation"
 description: "Compare Coda and Notion for managing project documentation. Includes API access, developer features, database relationships, and practical."

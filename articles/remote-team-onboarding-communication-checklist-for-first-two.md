@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "communication-preferences.yaml"
 description: "A practical communication checklist to help new remote hires integrate smoothly during their first two weeks. Includes templates, tools, and best."

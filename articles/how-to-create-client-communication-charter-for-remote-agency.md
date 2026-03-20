@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Client Communication Charter for Remote."
 description: "A practical guide to building a client communication charter that scales your remote agency. Includes templates, code examples, and implementation steps."

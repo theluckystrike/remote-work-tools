@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Building a Zettelkasten for Software Engineering"
 description: "Learn how to build a Zettelkasten note-taking system tailored for software engineering. Discover practical methods for capturing ideas, linking."

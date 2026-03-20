@@ -10,6 +10,7 @@ tags: [remote-work-tools, escalation, remote-work, incident-response, team-struc
 score: 8
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

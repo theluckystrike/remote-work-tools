@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Using Slack webhooks for deployment notifications"
 description: "A practical comparison of client communication tools for remote development teams. Learn which platforms excel at real-time messaging, async updates."

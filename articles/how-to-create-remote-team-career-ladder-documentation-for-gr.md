@@ -10,6 +10,7 @@ tags: [career-ladder, remote-work, engineering-management, hiring, talent-develo
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

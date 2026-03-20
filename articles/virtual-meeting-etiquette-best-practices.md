@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Virtual Meeting Etiquette Best Practices: A Developer Guide"
 description: "Practical virtual meeting etiquette best practices for developers and power users. Includes technical tips, automation examples, and platform-specific."

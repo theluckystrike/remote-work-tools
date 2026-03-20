@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Manage Standups for a Remote QA Team of 7"
 description: "Practical strategies for running effective daily standups with a remote QA team of 7. Includes schedule templates, async alternatives, and automation tips."

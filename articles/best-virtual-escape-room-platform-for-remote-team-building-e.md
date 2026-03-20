@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Virtual Escape Room Platform for Remote Team."
 description: "A technical comparison of virtual escape room platforms for remote team building events. Evaluate features, API capabilities, pricing models, and."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Notification Batching Strategies for Async-First."
 description: "Learn practical notification batching strategies that help async-first remote teams stay focused without missing critical updates."

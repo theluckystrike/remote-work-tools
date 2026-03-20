@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Record Client Demo Videos Asynchronously for."
 description: "Learn practical techniques for recording client demo videos asynchronously. Includes setup recommendations, recording workflows, and automation scripts."

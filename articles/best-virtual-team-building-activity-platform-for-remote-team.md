@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Virtual Team Building Activity Platform for Remote."
 description: "A guide to selecting the best virtual team building activity platform for small remote teams under 50 members. Compare features, pricing."

@@ -10,6 +10,7 @@ tags: [vpn, remote-work, thailand, geo-restrictions, security]
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

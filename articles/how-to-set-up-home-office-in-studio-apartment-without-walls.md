@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Set Up Home Office in Studio Apartment Without Walls"
 description: "A practical guide to creating a productive home office in a studio apartment where space is limited and walls are nonexistent. Learn zone划分."

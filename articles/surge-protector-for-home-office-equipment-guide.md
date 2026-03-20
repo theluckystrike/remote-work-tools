@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Surge Protector for Home Office Equipment Guide."
 description: "Learn how to protect your expensive development equipment from power surges. This guide covers surge protector specs, joule ratings, and smart setups."

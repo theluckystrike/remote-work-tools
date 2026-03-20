@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Feedback webhook handler"
 description: "Learn how to build an asynchronous customer feedback synthesis workflow that scales across time zones. Practical examples and code snippets for remote."

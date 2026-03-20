@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Element Matrix Messenger for Team Communication"
 description: "A practical guide to using Element Matrix for developer team communication with self-hosting options, Bot API integration, and room management."

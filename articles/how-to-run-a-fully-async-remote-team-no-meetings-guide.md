@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Run a Fully Async Remote Team No Meetings Guide"
 description: "A guide to running a fully asynchronous remote team without live meetings. Learn frameworks, tools, and best practices for async-first."

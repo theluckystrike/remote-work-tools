@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Optimize macOS for Remote Development"
 description: "Learn how to optimize macOS for remote development with practical tips on terminal configuration, network performance, security settings, and."

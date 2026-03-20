@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Freelance Developer to Product Builder Transition: A."
 description: "Learn how to transition from freelance developer to product builder. Discover the mindset shifts, technical skills, and business strategies needed to."

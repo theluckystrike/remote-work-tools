@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Output paths"
 description: "Learn how to build an async sales demo recording workflow for distributed enterprise sales teams. Includes automation scripts, best practices, and."

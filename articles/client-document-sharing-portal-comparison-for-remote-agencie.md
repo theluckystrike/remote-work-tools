@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Share with client"
 description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation."

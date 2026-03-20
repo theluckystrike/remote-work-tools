@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Upload large file with chunked upload"
 description: "A practical guide to the best file sharing solutions for remote agencies handling large design files, with API examples and implementation tips for."

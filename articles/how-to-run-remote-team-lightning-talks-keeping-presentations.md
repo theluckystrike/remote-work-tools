@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Run Remote Team Lightning Talks Keeping."
 description: "A practical guide for running effective lightning talks with remote teams. Learn how to structure five-minute presentations, manage time constraints."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Async Interview Process for Hiring Remote Developers: No."
 description: "A practical guide to building a fully asynchronous interview process for hiring remote developers. Step-by-step framework with templates and examples."

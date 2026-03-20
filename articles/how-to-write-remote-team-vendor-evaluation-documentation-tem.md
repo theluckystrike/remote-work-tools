@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Security Checklist Example"
 description: "A practical guide to creating vendor evaluation documentation for remote teams. Includes templates and best practices for procurement."

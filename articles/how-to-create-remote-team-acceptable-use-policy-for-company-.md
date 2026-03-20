@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Required security configurations for company laptops"
 description: "A practical guide for developers and power users on crafting an effective acceptable use policy for remote team company devices."

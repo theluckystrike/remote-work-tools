@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "List available color profiles"
 description: "Learn how to match colors across your MacBook and external monitor for consistent visual experience. Practical calibration steps and automation scripts."

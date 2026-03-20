@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Generate weekly team activity report from GitHub"
 description: "A practical guide for developers and power users on managing hybrid teams with permanent remote members. Includes automation scripts, workflow."

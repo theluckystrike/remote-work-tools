@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Productboard vs Aha for Remote Product Management"
 description: "A technical comparison of Productboard and Aha! for managing product development in distributed teams. Features, API capabilities, and real-world use."

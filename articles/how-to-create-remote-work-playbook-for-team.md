@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Remote Work Playbook for Team"
 description: "A practical guide for developers and power users building remote work playbooks. Includes templates, automation examples, and implementation strategies."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Power Strip for Developer Desk Setup: A Practical Guide"
 description: "Discover the best power strip for developer desk setups. Learn about USB-C PD, surge protection, outlet spacing, and smart features for powering your."

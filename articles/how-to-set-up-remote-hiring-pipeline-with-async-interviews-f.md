@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: GitHub Actions workflow for assessment tracking"
 description: "A practical guide to building a remote hiring pipeline with async interviews. Step-by-step implementation for evaluating distributed candidates across."

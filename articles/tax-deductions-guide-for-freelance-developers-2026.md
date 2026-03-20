@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Tax Deductions Guide for Freelance Developers 2026"
 description: "A practical guide to tax deductions for freelance developers. Learn what expenses you can write off, how to track them, and maximize your savings in 2026."

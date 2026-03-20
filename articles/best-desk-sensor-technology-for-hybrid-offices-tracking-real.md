@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "MicroPython code for ESP32 desk sensor node"
 description: "A technical guide to implementing desk sensors for hybrid offices. Covers hardware options, MQTT data pipelines, API integrations, and code examples."

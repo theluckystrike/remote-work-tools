@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Run Remote Team Retrospective Focused on Team Health"
 description: "A practical guide for developers on running remote retrospectives that prioritize psychological safety, burnout prevention, and team cohesion."

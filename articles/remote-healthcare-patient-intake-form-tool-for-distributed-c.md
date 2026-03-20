@@ -6,11 +6,8 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-healthcare-patient-intake-form-tool-for-distributed-c/
 reviewed: true
-<<<<<<< HEAD
-=======
 intent-checked: true
 voice-checked: true
->>>>>>> 4ae3289 (intent: restructure 11 articles for search intent alignment)
 score: 8
 categories: [guides]
 ---

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Track Remote Team Hiring Pipeline Velocity"
 description: "Learn practical methods and code examples for measuring and optimizing your remote hiring pipeline velocity across distributed teams."

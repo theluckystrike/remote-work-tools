@@ -10,6 +10,7 @@ tags: [remote-onboarding, buddy-program, employee-onboarding, remote-work, scali
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

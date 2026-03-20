@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Satellite Office Strategy for Hybrid Companies"
 description: "A practical guide to satellite office strategy for hybrid companies. Learn infrastructure setup, team coordination patterns, and implementation."

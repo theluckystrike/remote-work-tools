@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best SIP Phone Software for Remote Workers: A Technical."
 description: "A practical guide for developers and power users evaluating SIP phone software. Covers open-source clients, VoIP configuration, and deployment."

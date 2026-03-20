@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Secure Slack and Teams Channels for Remote Team."
 description: "A practical guide for developers and power users on securing Slack and Teams channels for confidential remote team discussions. Learn channel."

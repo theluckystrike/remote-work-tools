@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Whiteboard Tools for Video Calls"
 description: "A practical guide to the best whiteboard tools for video calls, tailored for developers and power users who need real-time collaboration."

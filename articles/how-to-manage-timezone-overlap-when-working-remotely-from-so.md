@@ -10,6 +10,7 @@ tags: [timezone, remote-work, southeast-asia, async-communication, developer-too
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

@@ -1,8 +1,4 @@
 ---
-
-
-
-
 layout: default
 title: "South Korea Digital Nomad Visa Application Requirements."
 description: "Complete guide to South Korea digital nomad visa requirements for remote workers in 2026. Learn eligibility criteria, required documents, income."

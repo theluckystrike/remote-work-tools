@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example room configuration"
 description: "A technical guide to building hybrid meeting rooms where remote participants get the same experience as in-room attendees. Covers AV setup, software."

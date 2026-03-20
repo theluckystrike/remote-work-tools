@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example celebration message generator (Python)"
 description: "A practical guide for developers and power users on crafting genuine celebration messages for distributed teams."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Miro vs FigJam for Remote Team Collaboration"
 description: "Compare Miro and FigJam for remote team collaboration. Includes API integrations, whiteboard features, developer workflows, and practical."

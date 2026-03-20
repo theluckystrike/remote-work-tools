@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "teleport-db-config.yaml"
 description: "Learn how to implement just-in-time database access for remote teams. Practical examples, code snippets, and implementation guide for developers."

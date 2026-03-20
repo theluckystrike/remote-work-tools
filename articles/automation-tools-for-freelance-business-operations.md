@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Automation Tools for Freelance Business Operations: A."
 description: "Discover automation tools that improve freelance business operations. From client onboarding to invoicing, learn how to automate repetitive tasks and."

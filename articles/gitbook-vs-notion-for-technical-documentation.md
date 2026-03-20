@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "GitBook vs Notion for Technical Documentation"
 description: "Compare GitBook and Notion for technical documentation. Includes API integrations, version control workflows, and practical implementation examples for."

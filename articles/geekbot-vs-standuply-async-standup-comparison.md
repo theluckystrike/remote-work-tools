@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "GeekBot vs Standuply: Async Standup Tools Compared"
 description: "A practical comparison of GeekBot and Standuply for asynchronous standups. Learn how each tool handles scheduled surveys, Slack integration, and team."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Digital Nomad Legal Residency Options 2026: Complete Guide"
 description: "A guide to legal residency options for digital nomads in 2026. Explore visa programs, tax implications, and practical pathways for location-independent."

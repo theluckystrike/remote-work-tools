@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Infrastructure evaluation script concept"
 description: "A technical guide to coworking spaces in Canggu Bali featuring backup generators, fiber internet speeds, 24/7 access, and developer-friendly amenities."

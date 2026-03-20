@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Return to Office Mental Health Support Resources for."
 description: "A practical guide to mental health support resources for employees returning to office and adjusting to commuting routines. Includes tools, strategies."

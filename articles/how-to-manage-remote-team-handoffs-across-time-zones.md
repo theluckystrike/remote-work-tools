@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Manage Remote Team Handoffs Across Time Zones: A."
 description: "Practical strategies and code examples for managing handovers in distributed teams. Learn async communication patterns, documentation standards, and."

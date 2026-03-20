@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Page Title"
 description: "A practical guide to training remote team members on wiki documentation systems, with examples and strategies for developer teams."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Run Remote Client UX Research Sessions with Observers"
 description: "Learn practical methods for running remote UX research sessions with multiple observers. Includes setup configurations, tooling recommendations, and."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Practice for Remote Team Documentation Feedback."
 description: "Learn practical strategies for building effective documentation feedback loops in remote teams. Discover code examples, workflow patterns, and tools to."

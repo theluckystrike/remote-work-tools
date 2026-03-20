@@ -1,8 +1,4 @@
 ---
-
-
-
-
 layout: default
 title: "Remote Work Caregiver Leave Policy Template for."
 description: "A caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents."

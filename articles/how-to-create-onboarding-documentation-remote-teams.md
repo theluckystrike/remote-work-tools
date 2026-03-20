@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Onboarding Documentation for Remote Teams"
 description: "A practical guide for developers and power users to create effective onboarding documentation for remote teams. Includes templates, tools, code examples."

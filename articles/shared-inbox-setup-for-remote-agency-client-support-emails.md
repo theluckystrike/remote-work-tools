@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Shared Inbox Setup for Remote Agency Client Support Emails"
 description: "A practical guide to setting up shared inboxes for remote agency client support. Includes configuration examples, automation scripts, and."

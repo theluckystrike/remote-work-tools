@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Response Time Expectations for Remote Workers: A."
 description: "Learn how to set realistic response time expectations for remote work. Includes code snippets for notification scheduling, status indicators, and async."

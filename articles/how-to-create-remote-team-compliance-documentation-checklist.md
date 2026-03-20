@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Remote Team Compliance Documentation."
 description: "A practical guide for developers and power users building compliance documentation for remote teams. Includes templates, code examples, and audit-ready."
@@ -12,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-intent-checked: true
 ---
 
 

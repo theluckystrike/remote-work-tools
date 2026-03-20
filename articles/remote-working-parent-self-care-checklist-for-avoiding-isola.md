@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Working Parent Self Care Checklist for Avoiding."
 description: "A practical self care checklist for remote working parents to avoid isolation in distributed teams. Includes automation scripts, communication."

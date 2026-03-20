@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Scale Remote Team Incident Response Process From."
 description: "A practical guide to evolving your incident response process as your remote team grows. Includes runbook templates, escalation workflows, and code."
@@ -10,6 +9,7 @@ categories: [guides]
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

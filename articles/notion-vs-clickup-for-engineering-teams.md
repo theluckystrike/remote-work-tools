@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Notion vs ClickUp for Engineering Teams: A Practical."
 description: "A technical comparison of Notion and ClickUp for engineering teams. Learn when each tool excels, real-world use cases, and how to choose based on your."

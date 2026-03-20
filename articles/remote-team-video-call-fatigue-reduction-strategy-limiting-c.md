@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Meeting Camera Guidelines"
 description: "A practical guide to implementing camera-on policies that reduce video call fatigue for remote development teams. Includes configuration examples and."

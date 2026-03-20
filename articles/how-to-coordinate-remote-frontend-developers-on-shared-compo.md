@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example GitHub Actions quality gates"
 description: "Learn practical strategies for coordinating remote frontend developers working on shared component libraries. Includes code examples and workflow."

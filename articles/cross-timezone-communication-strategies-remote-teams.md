@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Cross Timezone Communication Strategies for Remote Teams"
 description: "Practical cross timezone communication strategies for remote teams. Learn async workflows, overlap scheduling, and automation for developers."

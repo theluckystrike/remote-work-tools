@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Fibery vs Notion: All-in-One Workspace Comparison"
 description: "Compare Fibery and Notion as all-in-one workspaces for development teams. Includes API capabilities, database features, automation workflows, and."

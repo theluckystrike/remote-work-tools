@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Design Collaboration Tools for Remote Teams"
 description: "A practical guide to the best design collaboration tools for remote teams, tailored for developers and power users who need design workflows."

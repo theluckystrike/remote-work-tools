@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Working Parent Daily Routine Template: Balancing."
 description: "A practical daily routine template for remote working parents. Learn strategies to protect deep work windows while managing childcare responsibilities."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Linear vs Shortcut for a Remote Startup of 8 Engineers"
 description: "A practical comparison of Linear and Shortcut for managing an 8-engineer remote startup. Features, API access, GitHub integration, and implementation."

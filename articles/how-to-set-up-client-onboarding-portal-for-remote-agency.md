@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Set Up Client Onboarding Portal for Remote Agency"
 description: "A practical guide to building a client onboarding portal for remote agencies. Learn the essential components, tools, and implementation steps."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Chrome Extension OneNote Clipper Setup: Complete Guide"
 description: "Learn how to set up and configure the OneNote Web Clipper Chrome extension for efficient note-taking, research organization, and content archiving."

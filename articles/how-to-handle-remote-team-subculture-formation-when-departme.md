@@ -10,6 +10,7 @@ tags: [remote-work, team-management, culture]
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Review assignment logic (example)"
 description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Password Manager for Remote Development Teams"
 description: "Find the best password manager for remote development teams with CLI integration, team sharing features, and security features developers need."

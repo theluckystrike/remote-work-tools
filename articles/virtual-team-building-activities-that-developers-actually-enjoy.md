@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Virtual Team Building Activities That Developers."
 description: "Discover virtual team building activities that developers genuinely enjoy. Practical ideas for remote engineering teams that build real connections."

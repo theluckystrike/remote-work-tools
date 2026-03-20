@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Handle Client Revision Rounds in Remote Design Agency"
 description: "A practical guide to managing client revision rounds in remote design agencies. Includes async workflows, code templates, and implementation strategies."

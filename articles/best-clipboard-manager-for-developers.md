@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Clipboard Manager for Developers"
 description: "Discover the best clipboard manager for developers. Compare top tools with practical examples, code snippets, and implementation guidance for boosting."

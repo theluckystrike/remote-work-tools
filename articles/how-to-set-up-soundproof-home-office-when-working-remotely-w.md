@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Set Up a Soundproof Home Office When Working."
 description: "A practical guide for developers and power users to create a soundproof home office setup that handles the challenges of remote work with young."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Meeting Room Booking System for Hybrid Office 2026"
 description: "A guide to meeting room booking systems for hybrid offices in 2026. Compare top solutions, features, pricing, and implementation tips."

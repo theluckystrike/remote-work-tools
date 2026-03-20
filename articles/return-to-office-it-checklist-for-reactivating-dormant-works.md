@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Quick inventory script to scan network for dormant machines"
 description: "A practical technical guide for IT teams reactivating dormant workstations and access badges. Includes verification scripts, automation strategies, and."

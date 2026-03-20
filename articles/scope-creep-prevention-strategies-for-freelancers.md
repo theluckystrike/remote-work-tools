@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Scope Creep Prevention Strategies for Freelancers"
 description: "Practical scope creep prevention strategies for freelancers. Learn concrete techniques with code examples and templates to protect your projects and rates."

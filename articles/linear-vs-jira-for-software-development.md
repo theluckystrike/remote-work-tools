@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Linear vs Jira for Software Development: A Practical."
 description: "A detailed comparison of Linear vs Jira for software development teams. Learn the key differences, when to choose each, and practical implementation."

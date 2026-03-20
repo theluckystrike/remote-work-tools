@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Test upload/download speed to common video call servers"
 description: "A technical guide for upgrading hybrid office network infrastructure to handle increased video call bandwidth. Includes practical examples, network."

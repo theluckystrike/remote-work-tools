@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Time Zone Management Tools for Nomads: A Developer."
 description: "Practical time zone tools and libraries for digital nomads who frequently change locations. Includes code examples, CLI tools, and automation patterns."

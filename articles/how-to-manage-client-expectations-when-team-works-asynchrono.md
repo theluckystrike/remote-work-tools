@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Manage Client Expectations When Team Works."
 description: "Practical strategies for setting clear communication boundaries and managing client expectations when your team works across different time zones."

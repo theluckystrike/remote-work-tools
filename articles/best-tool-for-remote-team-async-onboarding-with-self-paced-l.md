@@ -10,6 +10,7 @@ score: 8
 voice-checked: true
 reviewed: true
 tags: [remote-work-tools, best-of, remote-work]
+intent-checked: true
 ---
 
 {% raw %}

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "conversation-prompts.yaml - Example prompt rotation system"
 description: "A practical guide to organizing hybrid team social events that engage both remote and in-office employees. Includes code examples, scheduling tools."

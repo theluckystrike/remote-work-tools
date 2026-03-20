@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Gantt Chart Tools for Software Teams: A Technical."
 description: "A practical comparison of Gantt chart tools for software development teams. Includes API integrations, automation examples, and implementation patterns."

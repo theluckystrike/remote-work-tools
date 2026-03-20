@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Benefit request data structure"
 description: "A practical policy template and implementation guide for hybrid teams offering childcare benefits to employees with families. Includes code examples."
