@@ -132,6 +132,71 @@ Map form responses directly to project tasks. When a client submits an intake fo
 
 Some form builders can generate client portals from intake data. This gives clients a self-service view of their project status, reducing the support burden on your team.
 
+## Decision Framework: Choosing Your Form Builder
+
+Use this decision tree to select the right tool:
+
+**Question 1: Does your team already use a specific ecosystem?**
+- If deeply in Notion → Use Notion Forms (free, simplest integration)
+- If deeply in HubSpot → Use HubSpot Forms (CRM native)
+- If using Zapier heavily → Any tool with Zapier support works
+
+**Question 2: How many responses/month do you expect?**
+- Under 50 responses → Google Forms (free, sufficient)
+- 50-500 responses → Typeform or JotForm ($25-75/month)
+- 500+ responses → JotForm or custom solution ($75+/month)
+
+**Question 3: Do you need advanced conditional logic?**
+- Simple "if/then" → Google Forms, Typeform Standard
+- Complex multi-branch logic → JotForm, HubSpot
+- Extremely custom → Build custom with Formspree or Basin
+
+**Question 4: Is payment collection part of intake?**
+- No payment needed → Any form builder works
+- Deposit collection → JotForm or HubSpot Forms preferred
+- Complex payment flow → Consider Stripe + custom solution
+
+## Intake Form Builder Comparison with Pricing
+
+| Tool | Price | Best For | Integrations | Conditional Logic |
+|------|-------|----------|--------------|-------------------|
+| Typeform | $25-83/month | Simple, visual forms | Zapier, webhooks | Yes, advanced |
+| Google Forms | Free | Starting point | Sheets, email | Limited |
+| JotForm | $34-99/month | Feature-rich | 500+ integrations | Yes, excellent |
+| Formsite | $12-40/month | Custom branding | API, webhooks | Yes |
+| Notion Forms | Free (with workspace) | Notion-native teams | Native integration | Basic |
+| HubSpot Forms | Free-$3,200+/month | CRM-integrated | Native to HubSpot | Yes |
+| Airtable Forms | Free-$20+/month | Database teams | Native to Airtable | Yes, via base setup |
+| Cal.com (forms feature) | Free-$180/month | Developer-focused | API-first | Yes |
+
+**Typeform ($25-83/month per month)** excels for agencies prioritizing design and user experience. The platform's visual form builder requires zero coding. Conditional logic is sophisticated—you can show different sections based on multiple conditional statements. Integration with Zapier enables routing to Slack, email, or project management tools. The main limitation: at the Standard plan ($25/month), you're limited to 100 responses per month.
+
+**Google Forms (free)** serves as a starting point for micro-agencies or testing. It integrates seamlessly with Google Sheets, making data analysis straightforward. The tradeoff: limited customization, no advanced conditional logic, and your form looks generic unless heavily customized with CSS hacks.
+
+**JotForm ($34-99/month)** offers the deepest feature set without enterprise pricing. The platform includes over 500 native integrations, powerful conditional branching, and post-submission workflows. Payment integration is built-in—critical for deposits from prospects. For a $75/month plan, you get unlimited responses and form entries, making it cost-effective for active intake.
+
+**HubSpot Forms (free-$3,200+/month)** integrates directly with HubSpot's CRM. If your agency already uses HubSpot for sales and client management, native form integration means data flows automatically to contact records. The free tier includes basic forms; conditional logic and advanced routing requires paid plans.
+
+## Advanced Intake Features: Progressive Profiling
+
+Rather than asking clients everything upfront, progressive profiling spreads questions across early project interactions:
+
+**Initial Intake (Form 1):** Capture only essential information
+- Company and contact info
+- Project type
+- Budget range
+- Timeline
+
+**Kickoff Meeting (Verbal):** Dive deeper on vision and goals
+
+**Discovery Phase (Form 2):** Collect detailed requirements
+- Competitive analysis
+- Technical details
+- Stakeholder structure
+- Success metrics
+
+This approach reduces friction on initial form completion (higher completion rates) while gathering deeper information as trust develops. Implement by creating two sequential forms in your form builder with conditional routing based on initial responses.
+
 ## Implementation Recommendations
 
 Start with your current pain points. If clients consistently forget to share important information, add specific prompts or required fields. If your team spends too much time on manual routing, invest in automation first.
@@ -140,14 +205,79 @@ For agencies just starting with structured intake, tools like Typeform or Google
 
 The best intake form builder is one your team actually uses consistently. A sophisticated tool abandoned for a simpler alternative provides less value than a basic tool that captures client information reliably.
 
+## Real-World Workflow: From Submission to Project Start
+
+Here's how a typical remote agency implements intake automation:
+
+**Step 1: Client Submits Form (10 minutes)**
+Client completes intake on your branded form. Conditional logic reveals different sections based on project type selected.
+
+**Step 2: Instant Notification (2 minutes)**
+Webhook triggers immediately upon submission. A Zapier workflow fires:
+- Creates new contact in HubSpot or Pipedrive
+- Sends confirmation email to client
+- Posts to #new-leads Slack channel with key details
+- Adds task to project manager's calendar to follow up
+
+**Step 3: Automated Document Generation (5 minutes)**
+Zapier or Make generates a statement of work from template, pre-filling key details (client name, scope from intake). Document drops into shared folder (Google Drive, Dropbox) automatically.
+
+**Step 4: Calendar Booking (15 minutes)**
+PM sends calendar link for kickoff meeting using Calendly. When client books, Zoom details auto-populate in confirmation email.
+
+**Step 5: Pre-Kickoff Preparation (30 minutes)**
+Team members access the intake data in shared project management tool and prepare for kickoff. No chasing for missing information.
+
+This entire workflow—from submission to ready-for-kickoff—takes about an hour of client time and 30 minutes of team coordination, versus the 4-6 hours of back-and-forth that unstructured intake creates.
+
+## Conditional Logic Examples
+
+Beyond basic form switching, conditional logic enables sophisticated client qualification. Here's a practical example:
+
+```
+IF project_budget < $5,000
+  THEN show_message: "For projects under $5k, we recommend our fixed-scope package"
+  AND hide_section: "Custom Implementation Options"
+
+IF project_timeline == "less than 2 weeks"
+  AND number_of_team_members < 2
+  THEN show_warning: "This timeline with your team size may create bottlenecks"
+  AND auto_route_to: "senior-project-lead"
+
+IF technology_stack includes "legacy system"
+  THEN ask_follow_up: "Can you share documentation or architecture diagrams?"
+  AND show_section: "Legacy System Experience"
+```
+
+This logic prevents under-scoped projects from entering your pipeline without leadership awareness while automatically routing complex projects to senior staff.
+
+## Post-Submission Client Experience
+
+Don't let the intake experience end at form submission. Excellent remote agencies use the intake window to set expectations:
+
+1. **Instant confirmation email** — Arrive within 1 minute with: submission receipt, what happens next, timeline for response
+2. **Welcome sequence** — 3-5 emails over following week covering: process overview, team introduction, pre-kickoff deliverables needed
+3. **Client portal** — Grant access to shared folder or portal showing project status before work officially starts
+4. **Onboarding checklist** — Show client what they need to complete before kickoff (access credentials, asset delivery, stakeholder availability)
+
+This approach transforms intake from a one-way data collection into a relationship-building sequence that establishes professional norms.
+
+## Measuring Intake Form Effectiveness
+
+Track these metrics to optimize your intake process:
+
+- **Completion rate** — What percentage of people who start the form finish? Below 60% signals the form is too long or confusing.
+- **Time to complete** — How long do clients spend on the form? More than 15 minutes suggests too many questions.
+- **Data quality** — Do you receive all the information needed, or do you still follow up asking clarifying questions?
+- **Conversion rate** — What percentage of qualified intakes convert to clients? This indicates if qualification questions are working.
+- **Team efficiency** — How much time does your team spend on manual intake processing? Should decrease as automation improves.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
 - [Client Feedback Collection Tool for Remote Development.](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
 - [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
