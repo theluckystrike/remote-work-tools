@@ -1,13 +1,13 @@
 ---
 layout: default
 title: "Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)"
-description: "A practical troubleshooting guide for remote workers experiencing choppy Zoom calls on home WiFi. Step-by-step solutions to fix audio and video quality issues."
+description: "A practical troubleshooting guide for remote workers experiencing choppy Zoom calls on home WiFi. Step-by-step solutions to fix audio and video quality."
 date: 2026-03-20
 author: theluckystrike
 permalink: /zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/
 reviewed: true
 score: 8
-categories: [how-to]
+categories: [troubleshooting]
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, how-to]
@@ -90,5 +90,10 @@ For distributed teams, having a backup internet option provides peace of mind. M
 Creating a consistent testing routine helps you catch problems before important meetings. Run a quick speed test before client calls or team standups to ensure your connection is performing adequately.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
