@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Browser Extensions for Developer Productivity"
-description: "Discover the best browser extensions for developer productivity. Learn which tools enhance your workflow with practical examples, code snippets, and implementation guidance."
+description: "Discover the best browser extensions for developer productivity. Learn which tools enhance your workflow with practical examples, code snippets, and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-browser-extensions-for-developer-productivity/

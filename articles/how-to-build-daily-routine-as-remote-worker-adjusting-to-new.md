@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build a Daily Routine as a Remote Worker Adjusting to a New Timezone Abroad"
+title: "How to Build a Daily Routine as a Remote Worker."
 description: "Practical strategies for developers and power users to establish a sustainable daily routine when relocating to a new timezone. Includes timezone-aware."
 date: 2026-03-16
 author: theluckystrike

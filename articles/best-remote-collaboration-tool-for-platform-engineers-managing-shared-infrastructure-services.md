@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Remote Collaboration Tool for Platform Engineers Managing Shared Infrastructure Services"
-description: "A practical guide for platform engineers working remotely to manage shared infrastructure services. Compare tools, see code examples, and implement effective collaboration workflows."
+title: "Best Remote Collaboration Tool for Platform Engineers."
+description: "A practical guide for platform engineers working remotely to manage shared infrastructure services. Compare tools, see code examples, and implement."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/

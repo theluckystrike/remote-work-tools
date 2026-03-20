@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates"
-description: "Learn how to build a scalable onboarding automation workflow for remote companies using Slack bots and Notion templates. Includes code examples and implementation patterns for 2026."
+title: "Best Onboarding Automation Workflow for Remote Companies."
+description: "Learn how to build a scalable onboarding automation workflow for remote companies using Slack bots and Notion templates. Includes code examples and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/

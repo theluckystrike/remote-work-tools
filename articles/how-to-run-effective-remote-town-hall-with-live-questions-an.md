@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Effective Remote Town Hall with Live Questions and Async Follow Up"
+title: "How to Run Effective Remote Town Hall with Live."
 description: "Learn practical strategies for running effective remote town halls with live Q&A sessions and async follow-up. Includes code examples, tools, and."
 date: 2026-03-16
 author: theluckystrike

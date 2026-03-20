@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Maintain a US Phone Number While Working Remotely from Portugal or Spain"
-description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Includes code examples and setup tips."
+title: "How to Maintain a US Phone Number While Working Remotely."
+description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Includes code examples."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/

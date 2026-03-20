@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Vendor Payment Terms Negotiation When Dealing Internationally Guide"
+title: "Best Practice for Remote Team Vendor Payment Terms."
 description: "A practical guide to negotiating vendor payment terms for remote teams operating internationally. Learn about currency, contracts, tax compliance, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

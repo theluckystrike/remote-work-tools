@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Sales Team Forecasting Tool Comparison for Distributed Revenue Operations 2026"
+title: "Remote Sales Team Forecasting Tool Comparison for."
 description: "Compare remote sales team forecasting tools for distributed revenue operations. Practical implementation guides, API integrations, and code examples."
 date: 2026-03-16
 author: theluckystrike

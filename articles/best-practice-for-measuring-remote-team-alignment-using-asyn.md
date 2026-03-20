@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Measuring Remote Team Alignment Using Async Strategy Update Cadence"
+title: "Best Practice for Measuring Remote Team Alignment Using."
 description: "Learn practical methods to measure and improve remote team alignment through structured async strategy updates. Includes code examples and."
 date: 2026-03-16
 author: theluckystrike

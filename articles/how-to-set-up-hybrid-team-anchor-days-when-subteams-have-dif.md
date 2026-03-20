@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Hybrid Team Anchor Days When Subteams Have Different Schedules"
+title: "How to Set Up Hybrid Team Anchor Days When Subteams Have."
 description: "A practical guide for developers and power users on coordinating hybrid work schedules when your subteams operate across different time zones and."
 date: 2026-03-16
 author: theluckystrike

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Badge Access Systems for Hybrid Workplace 2026: A Technical Guide"
+title: "Badge Access Systems for Hybrid Workplace 2026: A."
 description: "Explore badge access systems for hybrid workplaces in 2026. Learn about API integrations, credential management, and implementation strategies for."
 date: 2026-03-15
 author: theluckystrike

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Team Career Ladder Documentation for Growing Engineering Organization 2026"
-description: "Learn how to build career ladder documentation for remote engineering teams. Practical examples, YAML templates, and implementation strategies for scaling organizations."
+title: "How to Create Remote Team Career Ladder Documentation."
+description: "Learn how to build career ladder documentation for remote engineering teams. Practical examples, YAML templates, and implementation strategies for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-career-ladder-documentation-for-gr/

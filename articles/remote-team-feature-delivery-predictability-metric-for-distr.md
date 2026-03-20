@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Feature Delivery Predictability Metric for Distributed Product Organizations 2026 Guide"
+title: "Remote Team Feature Delivery Predictability Metric for."
 description: "Learn how to measure and improve feature delivery predictability for remote and distributed product teams. Includes Python metrics calculation, GitHub."
 date: 2026-03-16
 author: theluckystrike

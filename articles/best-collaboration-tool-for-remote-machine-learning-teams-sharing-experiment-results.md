@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Collaboration Tool for Remote Machine Learning Teams Sharing Experiment Results"
+title: "Best Collaboration Tool for Remote Machine Learning."
 description: "Discover the best collaboration tools for remote machine learning teams to share experiment results effectively. Compare solutions with code examples."
 date: 2026-03-16
 author: theluckystrike

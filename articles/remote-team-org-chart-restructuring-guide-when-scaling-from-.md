@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Org Chart Restructuring Guide: Scaling from Flat to Layered Management"
+title: "Remote Team Org Chart Restructuring Guide: Scaling from."
 description: "A practical guide for developers and engineering leaders on restructuring remote team org charts when scaling from flat hierarchies to layered."
 date: 2026-03-16
 author: theluckystrike

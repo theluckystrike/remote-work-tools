@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Wrist Exercises for Programmers: Prevent RSI and Stay Pain-Free"
-description: "Practical wrist exercises and habits to prevent RSI for programmers and power users. Includes shell scripts and Python code for break reminders and ergonomic tips."
+title: "Wrist Exercises for Programmers: Prevent RSI and Stay."
+description: "Practical wrist exercises and habits to prevent RSI for programmers and power users. Includes shell scripts and Python code for break reminders and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /wrist-exercises-for-programmers-prevent-rsi/

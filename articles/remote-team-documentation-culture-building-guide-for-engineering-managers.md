@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Documentation Culture: Building Guide for Engineering Managers"
+title: "Remote Team Documentation Culture: Building Guide for."
 description: "A practical step-by-step guide for engineering managers to build lasting documentation culture in remote teams. Includes templates, workflows, and code."
 date: 2026-03-16
 author: theluckystrike

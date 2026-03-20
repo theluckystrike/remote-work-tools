@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Cross Functional Project Kickoff Meeting Agenda Template"
+title: "Best Practice for Remote Team Cross Functional Project."
 description: "A practical guide to creating effective cross-functional project kickoff agendas for remote teams. Includes templates, code examples, and actionable."
 date: 2026-03-16
 author: theluckystrike

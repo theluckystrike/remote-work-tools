@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Async Project Management Tools for Distributed Teams 2026"
+title: "Best Async Project Management Tools for Distributed."
 description: "Compare async-first PM tools: Linear, Notion, Height, Shortcut. Focus on timezone handling, notification management, and async workflows for remote teams."
 date: 2026-03-20
 author: theluckystrike

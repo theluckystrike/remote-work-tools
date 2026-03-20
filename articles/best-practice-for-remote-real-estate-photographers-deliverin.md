@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Real Estate Photographers Delivering Virtual Tours Efficiently"
+title: "Best Practice for Remote Real Estate Photographers."
 description: "Technical guide for remote real estate photographers delivering virtual tours efficiently. Includes automation scripts, workflow optimization, and API."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

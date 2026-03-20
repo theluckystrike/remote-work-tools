@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026"
-description: "A practical template and implementation guide for building employee referral programs in remote and distributed companies. Includes bonus structures, automation examples, and best practices for 2026."
+title: "Remote Team Referral Program Template for Distributed."
+description: "A practical template and implementation guide for building employee referral programs in remote and distributed companies. Includes bonus structures."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-referral-program-template-for-distributed-compan/

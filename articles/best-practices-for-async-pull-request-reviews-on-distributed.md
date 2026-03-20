@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practices for Async Pull Request Reviews on Distributed Teams"
+title: "Best Practices for Async Pull Request Reviews on."
 description: "Master async pull request reviews on distributed teams with practical strategies, code review templates, and time zone-friendly workflows."
 date: 2026-03-16
 author: theluckystrike

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Team Leadership Development Pipeline for Growing Distributed Organizations"
-description: "A practical guide for building leadership development pipelines in remote and distributed organizations. Includes frameworks, code examples, and implementation strategies."
+title: "How to Create Remote Team Leadership Development."
+description: "A practical guide for building leadership development pipelines in remote and distributed organizations. Includes frameworks, code examples, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-leadership-development-pipeline-fo/

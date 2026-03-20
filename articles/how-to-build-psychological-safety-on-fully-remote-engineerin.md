@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build Psychological Safety on Fully Remote Engineering Teams"
+title: "How to Build Psychological Safety on Fully Remote."
 description: "Practical strategies for building psychological safety in fully remote engineering teams. Learn communication patterns, feedback systems, and cultural."
 date: 2026-03-16
 author: theluckystrike

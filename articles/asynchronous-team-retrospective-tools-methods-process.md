@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asynchronous team retrospectives that drive real improvements."
+title: "Asynchronous team retrospectives that drive real."
 description: "Guide to running effective async retrospectives with Miro, Retrium, and Google Docs—proven methods for distributed teams across timezones."
 date: 2026-03-20
 author: theluckystrike

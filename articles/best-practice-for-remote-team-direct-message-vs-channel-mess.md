@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Direct Message vs Channel Message Decision Making Guide"
+title: "Best Practice for Remote Team Direct Message vs Channel."
 description: "A practical decision making guide for remote teams on when to use direct messages versus channel messages. Includes frameworks, code examples, and."
 date: 2026-03-16
 author: theluckystrike

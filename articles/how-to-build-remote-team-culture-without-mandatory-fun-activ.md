@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Build Remote Team Culture Without Mandatory Fun Activities Guide"
-description: "A practical guide for developers and power users on building authentic remote team culture through voluntary, meaningful connections instead of forced activities."
+title: "How to Build Remote Team Culture Without Mandatory Fun."
+description: "A practical guide for developers and power users on building authentic remote team culture through voluntary, meaningful connections instead of forced."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-culture-without-mandatory-fun-activ/

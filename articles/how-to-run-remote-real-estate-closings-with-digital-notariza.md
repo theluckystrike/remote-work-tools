@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Real Estate Closings with Digital Notarization Tools Guide"
+title: "How to Run Remote Real Estate Closings with Digital."
 description: "A technical guide for developers and power users on implementing remote real estate closings using digital notarization tools. Includes API."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

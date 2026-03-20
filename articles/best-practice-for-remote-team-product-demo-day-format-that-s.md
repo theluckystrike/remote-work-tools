@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Product Demo Day Format That Scales to 50 Engineers"
-description: "A practical guide to running effective product demo days with remote engineering teams of 50+. Learn the async-first format, scheduling strategies, and automation tips."
+title: "Best Practice for Remote Team Product Demo Day Format."
+description: "A practical guide to running effective product demo days with remote engineering teams of 50+. Learn the async-first format, scheduling strategies, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-product-demo-day-format-that-s/

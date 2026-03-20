@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Czech Republic Digital Nomad Visa (Zivno) Application Guide for Remote Freelancers 2026"
+title: "Czech Republic Digital Nomad Visa (Zivno) Application."
 description: "Complete guide to applying for Czech Republic Zivno digital nomad visa in 2026. Eligibility, documents, financial requirements, and step-by-step."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

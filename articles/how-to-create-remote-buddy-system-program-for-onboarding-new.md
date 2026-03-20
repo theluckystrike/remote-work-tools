@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Buddy System Program for Onboarding New Hires at Scale"
-description: "A practical guide to building a remote buddy system program for onboarding new hires at scale. Includes code examples, automation scripts, and implementation patterns for engineering teams."
+title: "How to Create Remote Buddy System Program for Onboarding."
+description: "A practical guide to building a remote buddy system program for onboarding new hires at scale. Includes code examples, automation scripts, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-buddy-system-program-for-onboarding-new/

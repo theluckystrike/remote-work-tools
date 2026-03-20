@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Pair Design Tool for UX Researchers Collaborating on Affinity Maps"
+title: "Best Remote Pair Design Tool for UX Researchers."
 description: "A practical comparison of collaborative design tools for remote UX researchers working on affinity mapping. Compare Miro, Figma, FigJam, and MURAL with."
 date: 2026-03-16
 author: "Remote Work Tools"

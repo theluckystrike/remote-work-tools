@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools"
-description: "A practical guide for developers and power users on reorganizing remote team tool ecosystems as teams grow. Includes implementation patterns, code examples, and organizational frameworks."
+title: "Remote Team Information Architecture Overhaul Guide When."
+description: "A practical guide for developers and power users on reorganizing remote team tool ecosystems as teams grow. Includes implementation patterns, code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/

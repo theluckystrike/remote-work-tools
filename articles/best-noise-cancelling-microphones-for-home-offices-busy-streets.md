@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best noise-canceling microphones for home offices near busy streets."
+title: "Best noise-canceling microphones for home offices near."
 description: "In-depth comparison of noise-canceling microphones tested in urban environments: Blue Yeti, Audio-Technica AT2020, Shure MV7, and more."
 date: 2026-03-20
 author: theluckystrike

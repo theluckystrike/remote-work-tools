@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Daily Check In Tools for Remote Teams 2026"
-description: "A practical guide to daily check-in tools for remote teams in 2026. Compare solutions with code examples, API integrations, and implementation patterns for developers."
+description: "A practical guide to daily check-in tools for remote teams in 2026. Compare solutions with code examples, API integrations, and implementation patterns."
 date: 2026-03-15
 author: theluckystrike
 permalink: /daily-check-in-tools-for-remote-teams-2026/

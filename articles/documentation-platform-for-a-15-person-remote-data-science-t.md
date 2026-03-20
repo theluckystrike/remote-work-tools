@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Documentation Platform for a 15 Person Remote Data Science Team"
+title: "Documentation Platform for a 15 Person Remote Data."
 description: "A practical guide to building a documentation platform for a 15 person remote data science team. Includes code examples, workflow patterns, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

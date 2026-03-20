@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Sales Team Commission Tracking Tool for Distributed Sales Operations 2026"
+title: "Remote Sales Team Commission Tracking Tool for."
 description: "Build a commission tracking system for distributed sales teams. Explore API integrations, database schemas, and implementation patterns for."
 date: 2026-03-16
 author: theluckystrike

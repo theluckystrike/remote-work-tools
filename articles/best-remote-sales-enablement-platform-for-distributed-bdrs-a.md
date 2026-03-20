@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Remote Sales Enablement Platform for Distributed BDRs and Account Executives 2026"
-description: "A technical comparison of sales enablement platforms for remote BDRs and AEs. Includes API integrations, automation patterns, and implementation guides for distributed sales teams."
+title: "Best Remote Sales Enablement Platform for Distributed."
+description: "A technical comparison of sales enablement platforms for remote BDRs and AEs. Includes API integrations, automation patterns, and implementation guides."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-sales-enablement-platform-for-distributed-bdrs-a/

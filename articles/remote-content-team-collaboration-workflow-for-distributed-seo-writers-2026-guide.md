@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Content Team Collaboration Workflow for Distributed SEO Writers 2026 Guide"
+title: "Remote Content Team Collaboration Workflow for."
 description: "Master async content workflows for distributed SEO writers. Includes Git-based versioning, content pipelines, and real-world code examples for 2026."
 date: 2026-03-16
 author: theluckystrike

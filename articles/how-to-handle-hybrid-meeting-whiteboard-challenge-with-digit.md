@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Hybrid Meeting Whiteboard Challenge with Digital and Physical Participants"
+title: "How to Handle Hybrid Meeting Whiteboard Challenge with."
 description: "A practical guide for developers and power users on managing hybrid meetings where some participants are in-person while others join remotely, with a."
 date: 2026-03-16
 author: theluckystrike

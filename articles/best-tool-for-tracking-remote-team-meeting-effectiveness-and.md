@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Tool for Tracking Remote Team Meeting Effectiveness and Reducing Waste"
-description: "A practical guide to measuring and improving remote meeting effectiveness. Learn metrics, automation approaches, and code-based solutions for development teams."
+title: "Best Tool for Tracking Remote Team Meeting Effectiveness."
+description: "A practical guide to measuring and improving remote meeting effectiveness. Learn metrics, automation approaches, and code-based solutions for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-tracking-remote-team-meeting-effectiveness-and/

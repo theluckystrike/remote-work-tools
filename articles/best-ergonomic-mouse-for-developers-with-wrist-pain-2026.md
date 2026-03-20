@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Ergonomic Mouse for Developers with Wrist Pain 2026"
-description: "Find the best ergonomic mouse for developers experiencing wrist pain. Compare vertical mice, trackballs, and advanced ergonomic options with wrist support features."
+description: "Find the best ergonomic mouse for developers experiencing wrist pain. Compare vertical mice, trackballs, and advanced ergonomic options with wrist."
 date: 2026-03-20
 author: theluckystrike
 permalink: /best-ergonomic-mouse-for-developers-with-wrist-pain-2026/

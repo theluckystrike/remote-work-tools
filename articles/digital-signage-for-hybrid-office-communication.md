@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Digital Signage for Hybrid Office Communication: A Technical Implementation Guide"
+title: "Digital Signage for Hybrid Office Communication: A."
 description: "Learn how to build and integrate digital signage systems for hybrid office communication. Includes API examples, content management strategies, and."
 date: 2026-03-15
 author: theluckystrike

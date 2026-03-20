@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Payment Terms Best Practices for Freelancers: A Developer Guide"
+title: "Payment Terms Best Practices for Freelancers: A."
 description: "Master payment terms as a freelancer. Learn contract templates, automation scripts, and workflows that protect your cash flow and client relationships."
 date: 2026-03-15
 author: theluckystrike

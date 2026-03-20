@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Employer Childcare Stipend Policy Template for Distributed Companies Offering Benefits 2026"
+title: "Remote Work Employer Childcare Stipend Policy Template."
 description: "A practical policy template for remote companies implementing childcare stipend programs. Includes implementation examples, eligibility criteria, and."
 date: 2026-03-16
 author: theluckystrike

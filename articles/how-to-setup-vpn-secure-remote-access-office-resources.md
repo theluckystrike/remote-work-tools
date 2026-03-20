@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up a VPN for Secure Remote Access to Office Resources"
+title: "How to Set Up a VPN for Secure Remote Access to Office."
 description: "Step-by-step guide to VPN setup for secure remote work. Learn WireGuard vs OpenVPN, firewall configuration, and troubleshooting for teams of any size."
 date: 2026-03-20
 author: theluckystrike

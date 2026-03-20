@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Chrome Extension Currency Converter for Shopping: A Developer's Guide"
+title: "Chrome Extension Currency Converter for Shopping: A."
 description: "Discover the best Chrome extensions for real-time currency conversion while shopping online. Compare features, accuracy, and ease of use for."
 date: 2026-03-15
 author: theluckystrike

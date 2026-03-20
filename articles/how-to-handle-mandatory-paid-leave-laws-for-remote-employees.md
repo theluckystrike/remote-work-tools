@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Handle Mandatory Paid Leave Laws for Remote Employees in Different States"
-description: "A practical technical guide for managing mandatory paid leave laws when employing remote workers across different US states. Includes code examples for compliance tracking."
+title: "How to Handle Mandatory Paid Leave Laws for Remote."
+description: "A practical technical guide for managing mandatory paid leave laws when employing remote workers across different US states. Includes code examples for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-mandatory-paid-leave-laws-for-remote-employees/

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Business Bank Accounts for Freelancers 2026: A Developer Guide"
+title: "Best Business Bank Accounts for Freelancers 2026: A."
 description: "Discover the best business bank accounts for freelancers in 2026. Compare developer-friendly features, API integrations, fee structures, and tools for."
 date: 2026-03-15
 author: theluckystrike

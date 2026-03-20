@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Run Remote Team Lightning Talks Keeping Presentations Under Five Minutes Guide"
+title: "How to Run Remote Team Lightning Talks Keeping."
 description: "A practical guide for running effective lightning talks with remote teams. Learn how to structure five-minute presentations, manage time constraints."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

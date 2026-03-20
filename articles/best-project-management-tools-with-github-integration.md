@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Project Management Tools with GitHub Integration"
-description: "A practical comparison of project management tools with deep GitHub integration for developers. Includes API examples, automation patterns, and implementation guidance for engineering teams."
+description: "A practical comparison of project management tools with deep GitHub integration for developers. Includes API examples, automation patterns, and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-project-management-tools-with-github-integration/

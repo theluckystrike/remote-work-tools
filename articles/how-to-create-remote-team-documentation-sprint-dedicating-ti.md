@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Example: Find pages not modified in the last 180 days using git"
+title: "Example: Find pages not modified in the last 180 days."
 description: "Learn how to organize a documentation sprint to fix outdated wiki pages in your remote team. Practical strategies, code examples, and workflows for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

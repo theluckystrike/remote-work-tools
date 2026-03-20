@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Architecture BIM Collaboration Tool for Distributed Teams Using Revit Together 2026"
+title: "Remote Architecture BIM Collaboration Tool for."
 description: "A guide to remote architecture BIM collaboration tools enabling distributed teams to work on Revit projects together in real-time. Covers."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

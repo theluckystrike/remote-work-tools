@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Front vs HelpScout for Remote Customer Support: A Practical Guide"
+title: "Front vs HelpScout for Remote Customer Support: A."
 description: "A detailed comparison of Front vs HelpScout for remote customer support teams. Learn the key differences, API capabilities, integration options, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

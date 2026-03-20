@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Async Capacity Planning Process for Remote Engineering Managers Guide"
-description: "A practical guide for engineering managers on implementing async capacity planning. Learn how to forecast team capacity, balance workloads, and plan sprints without endless meetings."
+title: "Async Capacity Planning Process for Remote Engineering."
+description: "A practical guide for engineering managers on implementing async capacity planning. Learn how to forecast team capacity, balance workloads, and plan."
 date: 2026-03-18
 author: theluckystrike
 permalink: /async-capacity-planning-process-for-remote-engineering-managers-guide/

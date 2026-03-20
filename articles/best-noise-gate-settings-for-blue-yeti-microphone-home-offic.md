@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Noise Gate Settings for Blue Yeti Microphone Home Office"
+title: "Best Noise Gate Settings for Blue Yeti Microphone Home."
 description: "Discover optimal noise gate settings for your Blue Yeti microphone in a home office. Expert configuration guide for developers and power users."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

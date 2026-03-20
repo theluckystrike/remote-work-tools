@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team"
-description: "A practical guide for developers and power users managing team meetings across 8-hour timezone differences. Learn async strategies, overlapping hours calculation, and sustainable scheduling patterns."
+title: "How to Schedule Meetings Across 8 Hour Timezone."
+description: "A practical guide for developers and power users managing team meetings across 8-hour timezone differences. Learn async strategies, overlapping hours."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-schedule-meetings-across-8-hour-timezone-difference-w/

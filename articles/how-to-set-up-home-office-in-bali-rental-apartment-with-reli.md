@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Home Office in Bali Rental Apartment with Reliable Power"
-description: "A practical guide for developers and digital nomads setting up a productive home office in Bali rental apartments. Covers power infrastructure, equipment selection, and productivity configurations."
+title: "How to Set Up Home Office in Bali Rental Apartment with."
+description: "A practical guide for developers and digital nomads setting up a productive home office in Bali rental apartments. Covers power infrastructure."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-home-office-in-bali-rental-apartment-with-reli/
