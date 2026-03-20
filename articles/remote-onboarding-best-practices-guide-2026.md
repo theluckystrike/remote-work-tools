@@ -10,6 +10,7 @@ tags: [remote-work, onboarding, developer-tools, best-practices, productivity, 2
 reviewed: true
 score: 8
 intent-checked: false
+voice-checked: true
 voice-checked: false
 ---
 
