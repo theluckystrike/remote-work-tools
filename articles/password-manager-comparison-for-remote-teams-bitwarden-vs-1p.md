@@ -24,7 +24,7 @@ This guide compares Bitwarden and 1Password across the dimensions that actually 
 
 ## CLI Access and Developer Integration
 
-Developer-focused password management starts with command-line interface (CLI) tools. Both vendors provide robust CLI options, though with different philosophies.
+Developer-focused password management starts with command-line interface (CLI) tools. Both vendors provide CLI options, though with different philosophies.
 
 ### Bitwarden CLI
 
@@ -153,17 +153,17 @@ Both solutions have developed features specifically addressing remote team conce
 
 ### Bitwarden Security Features
 
-- **Self-hosting option**: For teams with data residency requirements, Bitwarden can be self-hosted
-- **Directory sync**: Connect directly to Google Workspace, Azure AD, or Okta
-- **Event logging**: Detailed audit logs showing access patterns
-- **Master password policies**: Enforce password complexity across the organization
+- Self-hosting option: For teams with data residency requirements, Bitwarden can be self-hosted
+- Directory sync: Connect directly to Google Workspace, Azure AD, or Okta
+- Event logging: Detailed audit logs showing access patterns
+- Master password policies: Enforce password complexity across the organization
 
 ### 1Password Security Features
 
-- **Secret Automation**: Time-limited credential access for high-security scenarios
-- **Duo integration**: Built-in 2FA enforcement
-- **Item visibility controls**: Hide sensitive fields from specific users
-- **Travel mode**: Automatically remove sensitive data when team members cross borders
+- Secret Automation: Time-limited credential access for high-security scenarios
+- Duo integration: Built-in 2FA enforcement
+- Item visibility controls: Hide sensitive fields from specific users
+- Travel mode: Automatically remove sensitive data when team members cross borders
 
 For remote teams with members in multiple jurisdictions, Bitwarden's self-hosting option provides compliance flexibility. 1Password's travel mode addresses a specific remote work pain point for internationally mobile developers.
 
@@ -173,18 +173,18 @@ Cost becomes a deciding factor when scaling remote teams.
 
 ### Bitwarden Pricing (2026)
 
-- **Free**: Individual use with unlimited devices
-- **Premium**: $10/year per user
-- **Families**: $40/year (up to 6 users)
-- **Teams**: $3/user/month (billed annually)
-- **Enterprise**: $5/user/month with additional features
+- Free: Individual use with unlimited devices
+- Premium: $10/year per user
+- Families: $40/year (up to 6 users)
+- Teams: $3/user/month (billed annually)
+- Enterprise: $5/user/month with additional features
 
 ### 1Password Pricing (2026)
 
-- **Individual**: $2.99/month
-- **Families**: $4.99/month (up to 5 users)
-- **Teams**: $7.99/user/month
-- **Business**: $9.99/user/month
+- Individual: $2.99/month
+- Families: $4.99/month (up to 5 users)
+- Teams: $7.99/user/month
+- Business: $9.99/user/month
 
 Bitwarden's pricing advantage is significant for cost-conscious remote teams. A 20-person distributed team pays approximately $720/year with Bitwarden versus $1,920/year with 1Password for comparable team features.
 

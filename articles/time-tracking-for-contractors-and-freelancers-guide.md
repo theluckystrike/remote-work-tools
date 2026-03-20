@@ -257,7 +257,7 @@ This outputs a clean invoice ready to send to clients.
 
 ## Choosing Your Tracking Approach
 
-Start with the simplest method that fits your workflow. If you already use Git for development, add GTM and get time tracking with minimal behavior change. If you work across many applications, automatic tracking with ActivityWatch provides comprehensive coverage. For pure simplicity, a CLI timer or even a text file works perfectly.
+Start with the simplest method that fits your workflow. If you already use Git for development, add GTM and get time tracking with minimal behavior change. If you work across many applications, automatic tracking with ActivityWatch provides coverage. For pure simplicity, a CLI timer or even a text file works perfectly.
 
 The best time tracking system is the one you actually use consistently. Experiment with different approaches until you find the rhythm that works for your specific situation.
 

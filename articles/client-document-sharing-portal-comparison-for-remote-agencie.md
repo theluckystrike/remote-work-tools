@@ -66,7 +66,7 @@ Cost: Free for basic use; Google Workspace starts at $12/user/month.
 
 ## Dropbox: The Developer-Friendly Option
 
-Dropbox positions itself as the professional choice, and their API reflects this focus. The Dropbox API v2 offers straightforward token-based authentication and comprehensive endpoint coverage.
+Dropbox positions itself as the professional choice, and their API reflects this focus. The Dropbox API v2 offers straightforward token-based authentication and endpoint coverage.
 
 ### Automation Example
 

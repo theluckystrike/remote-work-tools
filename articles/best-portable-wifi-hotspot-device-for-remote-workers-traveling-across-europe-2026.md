@@ -133,7 +133,7 @@ WantedBy=multi-user.target
 
 ### Power Considerations
 
-European outlets vary by country. Italy uses Type L (three prongs in a row), Switzerland uses Type J, and the UK uses Type G. Pack a quality universal adapter and consider a USB-C PD charger that works across 100-240V inputs.
+European outlets vary by country. Italy uses Type L (three prongs in a row), Switzerland uses Type J, and the UK uses Type G. Pack a quality universal adapter and consider an USB-C PD charger that works across 100-240V inputs.
 
 ### Physical Security
 

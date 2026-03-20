@@ -224,15 +224,6 @@ const dashboard = meetings
 
 This approach lets you see all meetings with one-click joining without navigating through calendar apps.
 
-## Summary
-
-Google Meet provides a solid foundation for video conferencing, but its power lies in how you integrate it into your workflow. The combination of keyboard shortcuts, automation through Apps Script, and thoughtful meeting practices significantly improves productivity for developers managing frequent meetings.
-
-Small optimizations compound into substantial time savings over weeks and months of regular meetings.
-
----
-
-
 ## Related Reading
 
 - More guides coming soon.

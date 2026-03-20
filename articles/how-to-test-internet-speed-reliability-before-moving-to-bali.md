@@ -64,10 +64,10 @@ Look for consistent latency below 100ms to major global endpoints. Packet loss e
 
 Network performance varies throughout the day. Test during:
 
-- **Morning (7-9 AM)**: Light usage, typically reliable
-- **Midday (12-2 PM)**: Moderate traffic
-- **Evening (7-10 PM)**: Peak usage, potential congestion
-- **Late night (11 PM - 6 AM)**: Minimal load
+- Morning (7-9 AM): Light usage, typically reliable
+- Midday (12-2 PM): Moderate traffic
+- Evening (7-10 PM): Peak usage, potential congestion
+- Late night (11 PM - 6 AM): Minimal load
 
 Create a testing schedule that captures these windows:
 
@@ -98,8 +98,8 @@ Bali offers numerous coworking spaces with varying internet setups. Before signi
 
 1. **Connect to the workspace WiFi** with your laptop
 2. **Run multiple speed tests** at different times during your visit
-3. **Test your actual workflow**: clone a large GitHub repository, join a Zoom call, upload to S3
-4. **Ask about backup connections**: some spaces have redundant fiber or 4G/5G failover
+3. Test your actual workflow: clone a large GitHub repository, join a Zoom call, upload to S3
+4. Ask about backup connections: some spaces have redundant fiber or 4G/5G failover
 
 Request the specific bandwidth allocation from space management. A space claiming "100 Mbps" may share that across 50 users, resulting in 2 Mbps per person during peak hours.
 

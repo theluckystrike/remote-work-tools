@@ -20,7 +20,7 @@ Implement certificate-based VPN authentication using a two-tier PKI hierarchy: o
 
 ## Understanding Certificate-Based VPN Authentication
 
-Certificate-based authentication uses public key infrastructure (PKI) to verify client identity. Instead of sharing passwords, each remote worker receives a uniquely signed certificate. When the client connects, it presents this certificate, and the server validates it against a trusted certificate authority (CA).
+Certificate-based authentication uses public key infrastructure (PKI) to verify client identity. Instead of sharing passwords, each remote worker receives an uniquely signed certificate. When the client connects, it presents this certificate, and the server validates it against a trusted certificate authority (CA).
 
 The security advantages are substantial. Certificates cannot be phished or brute-forced like passwords. You can set expiration dates, revoke compromised certificates instantly, and bind certificates to specific devices. For remote teams, this means you can provision access for contractors with short-lived certificates that expire automatically.
 
@@ -65,7 +65,7 @@ The extended key usage extension ensures this certificate can only be used for s
 
 ### Provisioning Client Certificates
 
-Each team member receives a unique client certificate:
+Each team member receives an unique client certificate:
 
 ```bash
 # Generate client key and CSR
@@ -252,13 +252,6 @@ Implement certificate pinning on mobile devices. Both iOS and Android support ce
 Rotate keys regularly but automate the process to avoid service disruptions. Consider using short-lived certificates (30-90 days) for clients with automated renewal.
 
 Document your PKI structure and revocation procedures. When security incidents occur, clear documentation enables rapid response.
-
-## Conclusion
-
-Certificate-based authentication transforms VPN security from password-dependent to key-based. While initial setup requires more effort than shared passwords, the operational benefits—automated revocation, device binding, and elimination of credential sharing—make the investment worthwhile for any remote team prioritizing security.
-
-Start with a simple CA, provision certificates for your core team, and expand from there. The workflow becomes natural once the infrastructure is in place, and your team gains protection against the most common VPN attack vectors.
-
 
 ## Related Reading
 

@@ -24,13 +24,13 @@ Hybrid work introduces unique challenges for working parents. Office days requir
 
 A childcare benefit policy addresses three core concerns:
 
-1. **Financial accessibility**: Offsetting childcare costs makes office attendance feasible
-2. **Scheduling flexibility**: Accommodating family commitments reduces stress
-3. **Equity**: Parents shouldn't face career disadvantages due to family responsibilities
+1. Financial accessibility: Offsetting childcare costs makes office attendance feasible
+2. Scheduling flexibility: Accommodating family commitments reduces stress
+3. Equity: Parents shouldn't face career disadvantages due to family responsibilities
 
 ## Policy Template Structure
 
-A robust childcare benefit policy contains seven key components. Customize each section to match your organization's culture and resources.
+A childcare benefit policy contains seven key components. Customize each section to match your organization's culture and resources.
 
 ### 1. Eligibility Criteria
 
@@ -193,15 +193,10 @@ Before launching, ensure these items are in place:
 
 Watch for these issues when implementing childcare benefits:
 
-- **Inconsistent application**: Apply eligibility criteria uniformly to prevent legal exposure
-- **Underfunding**: Low stipends fail to achieve retention goals
-- **Poor communication**: Employees unaware of benefits won't use them
-- **Rigid policies**: Allow exceptions for special circumstances
-
-## Conclusion
-
-A childcare benefit policy for hybrid employees requires careful design but delivers significant retention value. Start with the template above, adapt it to your organization's needs, and iterate based on feedback. The goal is simple: remove barriers that prevent parents from succeeding in hybrid work environments.
-
+- Inconsistent application: Apply eligibility criteria uniformly to prevent legal exposure
+- Underfunding: Low stipends fail to achieve retention goals
+- Poor communication: Employees unaware of benefits won't use them
+- Rigid policies: Allow exceptions for special circumstances
 
 ## Related Reading
 

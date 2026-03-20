@@ -14,7 +14,7 @@ voice-checked: false
 ---
 
 {% raw %}
-# API Idempotency Implementation Guide for Robust Distributed Systems
+# API Idempotency Implementation Guide for Distributed Systems
 
 Idempotency is a fundamental concept in API design that ensures the same request can be executed multiple times without producing different results. When implementing distributed systems, network failures, timeouts, and client retries can cause the same operation to be processed accidentally multiple times. Without proper idempotency handling, this leads to duplicate records, double charges, inconsistent state, and frustrated users.
 
@@ -157,7 +157,7 @@ async function createIdempotentOrder(db, idempotencyKey, orderData) {
 
 ## Idempotency for Payment Processing
 
-Payment systems absolutely require idempotency. Here's a robust pattern:
+Payment systems absolutely require idempotency. Here's a pattern:
 
 ```javascript
 class PaymentIdempotencyService {
@@ -238,15 +238,15 @@ async function validateIdempotencyKey(req, res, next) {
 
 ## Best Practices
 
-1. **Use appropriate TTL**: Store idempotency keys long enough to handle delayed retries (typically 24-48 hours for payments, shorter for other operations).
+1. Use appropriate TTL: Store idempotency keys long enough to handle delayed retries (typically 24-48 hours for payments, shorter for other operations).
 
-2. **Return proper status codes**: Use 201 for successful creation, 200 for successful updates, and return the original response for duplicates.
+2. Return proper status codes: Use 201 for successful creation, 200 for successful updates, and return the original response for duplicates.
 
-3. **Document idempotent endpoints**: Clearly indicate which endpoints support idempotency and how to use the idempotency key.
+3. Document idempotent endpoints: Clearly indicate which endpoints support idempotency and how to use the idempotency key.
 
-4. **Implement at the API gateway level**: Consider implementing idempotency handling at the gateway to protect all backend services.
+4. Implement at the API gateway level: Consider implementing idempotency handling at the gateway to protect all backend services.
 
-5. **Handle partial failures**: If a request succeeds but the response fails to deliver, the client retries - ensure your system handles this gracefully.
+5. Handle partial failures: If a request succeeds but the response fails to deliver, the client retries - ensure your system handles this gracefully.
 
 ## Testing Idempotency
 
@@ -292,7 +292,3 @@ describe('Idempotent Order Creation', () => {
 });
 ```
 
-## Summary
-
-Implementing idempotency is essential for building reliable distributed systems. By using client-generated unique keys, storing responses, and properly handling duplicate requests, you can prevent duplicate operations, ensure data consistency, and provide a better experience for API consumers. Start with critical operations like payments and orders, then expand to other endpoints as needed.
-{% endraw %}

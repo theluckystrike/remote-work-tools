@@ -139,10 +139,10 @@ Self-paced learning modules work best when organized around concrete outcomes ra
 
 Effective module structure follows this pattern:
 
-1. **Context**: Why this material matters for their role
-2. **Content**: The actual information to absorb
-3. **Application**: A practical task that uses the information
-4. **Verification**: A checkpoint confirming understanding
+1. Context: Why this material matters for their role
+2. Content: The actual information to absorb
+3. Application: A practical task that uses the information
+4. Verification: A checkpoint confirming understanding
 
 For technical onboarding, video walkthroughs work well for demonstrating complex IDE setup or architecture navigation, while written documentation excels for API references, coding standards, and process descriptions. The combination accommodates different learning preferences while maintaining searchable, referenceable content.
 
@@ -150,11 +150,11 @@ For technical onboarding, video walkthroughs work well for demonstrating complex
 
 Quantifying async onboarding success requires tracking both completion metrics and quality indicators. Key metrics include:
 
-- **Time to productivity**: Days from start to first meaningful contribution
-- **Module completion rates**: Percentage of content consumed
-- **Checkpoint scores**: Performance on verification challenges
-- **Support ticket volume**: Questions from new hires about covered topics
-- **First PR quality**: Review feedback on initial code submissions
+- Time to productivity: Days from start to first meaningful contribution
+- Module completion rates: Percentage of content consumed
+- Checkpoint scores: Performance on verification challenges
+- Support ticket volume: Questions from new hires about covered topics
+- First PR quality: Review feedback on initial code submissions
 
 Building dashboards that surface these metrics helps teams iteratively improve their onboarding content. When a particular module consistently produces low checkpoint scores, that's a signal the content needs revision.
 
@@ -189,11 +189,3 @@ function assignOnboarding(employee) {
 
 This automation ensures consistent experiences while accommodating role variations. New hires receive appropriate modules automatically based on their position, with deadlines calculated from their start date and module duration.
 
-## Conclusion
-
-The best async onboarding infrastructure combines self-paced learning modules with meaningful verification, workflow integration, and progress tracking. Rather than relying on any single platform, effective implementations often combine version-controlled content, custom verification challenges, and integration with existing development tools.
-
-Success comes from treating onboarding as a reproducible system with clear outcomes, versioned content, and measurable results. The configuration-driven approach shown here allows teams to iterate on their onboarding content without engineering involvement, while code-based verification confirms actual competency rather than mere completion.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -34,7 +34,7 @@ Croissant functions as a coworking membership network with a mobile-first approa
 
 ### LiquidSpace
 
-LiquidSpace focuses on day passes and hourly rentals, making it particularly useful for nomads with unpredictable schedules. The platform aggregates spaces from WeWork, Regus, and independent coworking operators into a unified search interface. Developers can filter by amenities, view real-time availability, and book spaces through the mobile app. The API availability makes this platform interesting for developers who want to build custom booking workflows.
+LiquidSpace focuses on day passes and hourly rentals, making it particularly useful for nomads with unpredictable schedules. The platform aggregates spaces from WeWork, Regus, and independent coworking operators into an unified search interface. Developers can filter by amenities, view real-time availability, and book spaces through the mobile app. The API availability makes this platform interesting for developers who want to build custom booking workflows.
 
 ### Workfrom
 

@@ -84,7 +84,7 @@ Workstation Specifications:
     reasoning: Sub-100ms latency for image preloading
 ```
 
-The GPU deserves particular attention. Modern PACS applications use CUDA and OpenCL for hardware-accelerated rendering. When reviewing your organization's supported workflows, confirm which acceleration technologies they utilize.
+The GPU deserves particular attention. Modern PACS applications use CUDA and OpenCL for hardware-accelerated rendering. When reviewing your organization's supported workflows, confirm which acceleration technologies they use.
 
 ## Network Configuration
 
@@ -177,22 +177,22 @@ Document your security configuration. Many healthcare organizations require atte
 
 ### Phase 1: Infrastructure Preparation
 
-1. **Internet Upgrade**: Ensure symmetric business-class internet with 100+ Mbps upload
-2. **Network Equipment**: Quality router, managed switch if using wired connections
-3. **Power Protection**: UPS battery backup for uninterrupted operation
+1. Internet Upgrade: Ensure symmetric business-class internet with 100+ Mbps upload
+2. Network Equipment: Quality router, managed switch if using wired connections
+3. Power Protection: UPS battery backup for uninterrupted operation
 
 ### Phase 2: Hardware Procurement
 
-1. **Medical Display**: Purchase or request from organization
-2. **Workstation**: Build or purchase per specifications above
-3. **Ergonomic Setup**: Adjustable desk, proper chair, task lighting
+1. Medical Display: Purchase or request from organization
+2. Workstation: Build or purchase per specifications above
+3. Ergonomic Setup: Adjustable desk, proper chair, task lighting
 
 ### Phase 3: Software Configuration
 
-1. **Operating System**: Windows 10/11 Enterprise or organization-approved distribution
-2. **PACS Client**: Install and configure per IT specifications
-3. **VPN Client**: Configure with security team assistance
-4. **Display Calibration**: Run initial calibration with medical-grade QA software
+1. Operating System: Windows 10/11 Enterprise or organization-approved distribution
+2. PACS Client: Install and configure per IT specifications
+3. VPN Client: Configure with security team assistance
+4. Display Calibration: Run initial calibration with medical-grade QA software
 
 ### Phase 4: Testing and Validation
 
@@ -211,24 +211,17 @@ Validate image quality by comparing home readings against known datasets. Report
 
 ## Common Challenges and Solutions
 
-**Challenge**: Image lag during peak network usage times
+Challenge: Image lag during peak network usage times
 
 *Solution*: Implement QoS (Quality of Service) on your router to prioritize VPN traffic. Schedule intensive review sessions during off-peak hours.
 
-**Challenge**: Display calibration drift
+Challenge: Display calibration drift
 
 *Solution*: Schedule weekly calibration checks. Many medical displays include automated calibration sensors.
 
-**Challenge**: Family member internet usage impacting performance
+Challenge: Family member internet usage impacting performance
 
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
-
-## Conclusion
-
-A properly configured remote radiology reading station enables efficient, accurate interpretation from home while maintaining clinical standards and regulatory compliance. The investment in medical-grade displays, robust computing hardware, and secure network infrastructure pays dividends in productivity and diagnostic confidence.
-
-Start with your organization's IT security requirements, then work through the hardware specifications outlined here. Test thoroughly before beginning clinical work, and maintain ongoing documentation of your configuration for compliance audits.
-
 
 ## Related Reading
 

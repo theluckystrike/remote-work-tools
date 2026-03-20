@@ -189,11 +189,6 @@ Tag every document with a last-updated date and owner. Set calendar reminders fo
 
 When model configurations or data schemas change, require documentation updates as part of the code review process. This integrates maintenance into existing workflows rather than creating separate tasks.
 
-## Summary
-
-A documentation platform for a remote data science team of 15 people succeeds when it reduces friction for contributors while keeping information discoverable. Structure documentation into clear categories, automate updates where possible, implement async review workflows, and establish maintenance routines that prevent rot. The specific tools matter less than consistency in application. Teams that document intentionally save hours of duplicated effort and accelerate onboarding for new members.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

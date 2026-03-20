@@ -19,7 +19,7 @@ voice-checked: false
 
 Internal mobility has become one of the most powerful retention tools for remote teams. When employees see clear paths for growth, they stay longer, contribute more, and become advocates for your organization. Yet many remote companies struggle to build mobility programs that actually work across time zones and async workflows.
 
-This guide provides a comprehensive framework for creating an internal mobility program specifically designed for remote teams—one that creates real growth opportunities without requiring co-located mentorship or in-person career conversations.
+This guide provides a framework for creating an internal mobility program specifically designed for remote teams—one that creates real growth opportunities without requiring co-located mentorship or in-person career conversations.
 
 ## Why Remote Teams Need Structured Internal Mobility
 
@@ -33,9 +33,9 @@ The business case is clear: companies with strong internal mobility retain emplo
 
 Before employees can move, they need to understand what movement looks like. Create a clear career architecture that defines:
 
-- **Level progressions**: What distinguishes a senior engineer from a staff engineer? What skills and impact differentiate a product manager from a senior product manager?
-- **Track options**: Technical track, management track, and specialist tracks should all be documented with clear expectations
-- **Lateral moves**: Not all growth is vertical. Define paths for moving between teams, domains, or functions
+- Level progressions: What distinguishes a senior engineer from a staff engineer? What skills and impact differentiate a product manager from a senior product manager?
+- Track options: Technical track, management track, and specialist tracks should all be documented with clear expectations
+- Lateral moves: Not all growth is vertical. Define paths for moving between teams, domains, or functions
 
 Here's an example career architecture structure:
 
@@ -68,10 +68,10 @@ Each role needs a competency framework that defines what success looks like. The
 
 For remote teams, skill frameworks should emphasize:
 
-- **Async communication proficiency**: Can the candidate collaborate effectively without real-time interaction?
-- **Documentation skills**: Can they create clear written content that others can act on?
-- **Self-management**: Do they demonstrate the ability to work independently across time zones?
-- **Remote-specific tools**: Have they demonstrated proficiency with distributed team tooling?
+- Async communication proficiency: Can the candidate collaborate effectively without real-time interaction?
+- Documentation skills: Can they create clear written content that others can act on?
+- Self-management: Do they demonstrate the ability to work independently across time zones?
+- Remote-specific tools: Have they demonstrated proficiency with distributed team tooling?
 
 ```markdown
 ## Senior Engineer Competency Framework
@@ -152,10 +152,10 @@ Internal mobility requires buy-in from leadership. Work with executives to:
 
 Movement requires support systems:
 
-- **Mentorship matching**: Connect employees with mentors in target roles
-- **Skill gap analysis**: Help employees understand what they need to develop
-- **Interview preparation**: Provide resources for internal candidates
-- **Rotation programs**: Create structured opportunities to try different roles
+- Mentorship matching: Connect employees with mentors in target roles
+- Skill gap analysis: Help employees understand what they need to develop
+- Interview preparation: Provide resources for internal candidates
+- Rotation programs: Create structured opportunities to try different roles
 
 ```markdown
 ## Mentorship Matching Process
@@ -185,9 +185,9 @@ Launch the program with clear communication:
 
 Remote internal mobility must account for geography:
 
-- **Asynchronous interviews**: Design interview processes that don't require real-time interaction
-- **Flexible transitions**: Allow gradual time zone shifts rather than immediate requirements
-- **Distributed team exposure**: Create opportunities to work with teams in different regions before committing to a move
+- Asynchronous interviews: Design interview processes that don't require real-time interaction
+- Flexible transitions: Allow gradual time zone shifts rather than immediate requirements
+- Distributed team exposure: Create opportunities to work with teams in different regions before committing to a move
 
 ### Async Career Conversations
 
@@ -211,27 +211,27 @@ Remote employees often don't see opportunities in other teams:
 
 Track these metrics to understand if your program is working:
 
-- **Internal fill rate**: What percentage of open roles are filled by internal candidates?
-- **Time to mobility**: How long does it take for an employee to move from interest to new role?
-- **Retention rates**: Do employees who use the program stay longer than those who don't?
-- **Satisfaction scores**: Do employees feel the process is fair and accessible?
-- **Manager feedback**: Do managers support the program or create barriers?
+- Internal fill rate: What percentage of open roles are filled by internal candidates?
+- Time to mobility: How long does it take for an employee to move from interest to new role?
+- Retention rates: Do employees who use the program stay longer than those who don't?
+- Satisfaction scores: Do employees feel the process is fair and accessible?
+- Manager feedback: Do managers support the program or create barriers?
 
 ## Common Pitfalls to Avoid
 
-**The revolving door**: If high performers leave immediately after promotion, your program may be creating movement without development.
+The revolving door: If high performers leave immediately after promotion, your program may be creating movement without development.
 
-**Hidden requirements**: If internal candidates consistently lose to external hires, investigate whether actual requirements differ from posted ones.
+Hidden requirements: If internal candidates consistently lose to external hires, investigate whether actual requirements differ from posted ones.
 
-**Manager obstruction**: If managers lose talent to other teams, they may subtly discourage mobility. Address this through incentives and norms.
+Manager obstruction: If managers lose talent to other teams, they may subtly discourage mobility. Address this through incentives and norms.
 
-**One-way movement**: Internal mobility should go both directions. Lateral moves and temporary assignments are valuable.
+One-way movement: Internal mobility should go both directions. Lateral moves and temporary assignments are valuable.
 
 ## Building a Culture of Growth
 
 An internal mobility program is more than a set of processes—it's a statement about how your organization values people. When employees see that their growth matters to leadership, they invest more in their work and stay longer with your company.
 
-For remote teams, this cultural element is especially important. The physical distance that characterizes remote work can create feelings of disconnection and invisibility. A robust internal mobility program counteracts these dynamics by making career development visible, supported, and achievable regardless of where someone works.
+For remote teams, this cultural element is especially important. The physical distance that characterizes remote work can create feelings of disconnection and invisibility. A internal mobility program counteracts these dynamics by making career development visible, supported, and achievable regardless of where someone works.
 
 Start small if needed—a pilot program in one department can demonstrate value and build momentum for broader adoption. The key is beginning the conversation about career growth and making it a structural priority rather than an afterthought.
 

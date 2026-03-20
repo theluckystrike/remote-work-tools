@@ -251,17 +251,7 @@ Schedule brief check-ins during onboarding. Use these to answer questions and ve
 
 **Skipping practical exercises.** Reading about phishing does not build skills. Include hands-on components where possible.
 
-**Treating security as a one-time event.** Security onboarding starts the process. Plan ongoing training and refreshers throughout the year.
-
-## Conclusion
-
-A security onboarding checklist gives remote teams the foundation they need to work securely. By breaking security requirements into clear, completable phases, you remove ambiguity and create accountability.
-
-Start with the five phases outlined above. Customize them for your specific tools and requirements. Most importantly, verify completion and follow up regularly. Security is a continuous process, and your checklist is just the beginning.
-
-The investment in thorough onboarding pays dividends. New remote team members become productive faster while making fewer security mistakes. Your entire organization benefits.
-
-
+**Treating security as an one-time event.** Security onboarding starts the process. Plan ongoing training and refreshers throughout the year.
 
 ## Related Reading
 

@@ -113,13 +113,13 @@ The A1 certificate is issued by the social security authority in your home count
 
 The application process varies by country but generally follows these steps:
 
-1. **Contact your employer**: Your HR department typically initiates the application with your home country's social security authority. They need to confirm your employment status and that you're working remotely.
+1. Contact your employer: Your HR department typically initiates the application with your home country's social security authority. They need to confirm your employment status and that you're working remotely.
 
-2. **Provide documentation**: You'll need to submit proof of remote work arrangement, your employment contract, and evidence of the temporary nature of your work in the host country.
+2. Provide documentation: You'll need to submit proof of remote work arrangement, your employment contract, and evidence of the temporary nature of your work in the host country.
 
-3. **Receive the certificate**: Processing times vary from a few days to several weeks depending on your country. Apply well before your planned departure.
+3. Receive the certificate: Processing times vary from a few days to several weeks depending on your country. Apply well before your planned departure.
 
-4. **Carry it with you**: Keep the A1 certificate with your travel documents. Border guards or local authorities may request it during checks.
+4. Carry it with you: Keep the A1 certificate with your travel documents. Border guards or local authorities may request it during checks.
 
 Here's a practical checklist for obtaining your A1 certificate:
 
@@ -145,16 +145,16 @@ You're employed full-time remotely by a Spanish company, living in Poland. You p
 
 ### Scenario 3: Digital Nomad Lifestyle
 
-You work remotely for a US company while traveling through multiple EU countries. Each country has different rules. Your US employer's social security contributions don't cover you in the EU. You need to either maintain coverage in one EU country (where you have residency or significant presence) or arrange private insurance that meets local requirements.
+You work remotely for an US company while traveling through multiple EU countries. Each country has different rules. Your US employer's social security contributions don't cover you in the EU. You need to either maintain coverage in one EU country (where you have residency or significant presence) or arrange private insurance that meets local requirements.
 
 ## What Happens If You Exceed the 90 Days
 
 If you work beyond 90 days in an EU country without proper arrangements, several consequences may apply:
 
-- **Back payments**: You may be required to pay social security contributions retroactively to the host country, often at higher rates than your home country.
-- **Gaps in coverage**: Your home country may no longer provide coverage, leaving you in a gap between systems.
-- **Penalties**: Some countries impose fines for non-compliance, though enforcement varies significantly.
-- **Legal complications**: Continued work without proper registration could affect your legal status for future visa or residency applications.
+- Back payments: You may be required to pay social security contributions retroactively to the host country, often at higher rates than your home country.
+- Gaps in coverage: Your home country may no longer provide coverage, leaving you in a gap between systems.
+- Penalties: Some countries impose fines for non-compliance, though enforcement varies significantly.
+- Legal complications: Continued work without proper registration could affect your legal status for future visa or residency applications.
 
 ## Self-Employed Developers: Additional Considerations
 
@@ -183,11 +183,11 @@ A social security consultant or international tax advisor can review your specif
 
 Managing social security contributions while working remotely in the EU requires attention to three main areas:
 
-1. **Track your days**: Use a tracking system to monitor days spent in each EU country. The 90-day threshold triggers different obligations.
+1. Track your days: Use a tracking system to monitor days spent in each EU country. The 90-day threshold triggers different obligations.
 
-2. **Obtain the A1 certificate**: Before working remotely from another EU country, secure this document from your home country's social security authority.
+2. Obtain the A1 certificate: Before working remotely from another EU country, secure this document from your home country's social security authority.
 
-3. **Plan ahead**: If your stay exceeds 90 days, research the host country's social security requirements and prepare for registration.
+3. Plan ahead: If your stay exceeds 90 days, research the host country's social security requirements and prepare for registration.
 
 The rules exist to protect workers and ensure fair contribution distribution across the EU. By understanding and following them, you maintain access to healthcare, avoid financial penalties, and keep your remote work arrangements legally sound.
 

@@ -25,10 +25,10 @@ When a company grows from 20 to 50 employees, the flat structure that worked bef
 
 Successful reorg communication starts before you write a single announcement. Spend time mapping your communication tree:
 
-1. **Identify influence hubs**: Which team members naturally disseminate information? These are your multipliers.
-2. **Assess information sensitivity**: Who needs to know what, and when?
-3. **Prepare managers**: Your first-line managers are critical. They need talking points, FAQ documents, and escalation paths before the announcement.
-4. **Document role changes**: Write clear descriptions of new roles, responsibilities, and success metrics before communicating anything.
+1. Identify influence hubs: Which team members naturally disseminate information? These are your multipliers.
+2. Assess information sensitivity: Who needs to know what, and when?
+3. Prepare managers: Your first-line managers are critical. They need talking points, FAQ documents, and escalation paths before the announcement.
+4. Document role changes: Write clear descriptions of new roles, responsibilities, and success metrics before communicating anything.
 
 Create a communication matrix:
 
@@ -48,7 +48,7 @@ For remote teams, the announcement should follow a specific cadence:
 
 **Step 1: Written announcement first (async)**
 
-Send a comprehensive written document before any live session. This allows people to process information privately and formulate questions. The document should include:
+Send a written document before any live session. This allows people to process information privately and formulate questions. The document should include:
 
 - The rationale behind the change (business context, not just organizational chart updates)
 - Timeline for implementation
@@ -79,7 +79,7 @@ Direct managers should schedule 1:1s with each team member within one week. Thes
 
 ### Phase 3: Sustained Communication
 
-The reorg announcement is not a one-time event. Remote teams need ongoing touchpoints:
+The reorg announcement is not an one-time event. Remote teams need ongoing touchpoints:
 
 **Week 1: Daily check-ins**
 
@@ -152,11 +152,11 @@ When team members complain about learning news at bad hours:
 
 Several tools can help manage communication at scale:
 
-- **Notion or Confluence**: Store all reorg documents in a searchable, version-controlled location
-- **Slack**: Create dedicated channels for questions with clear threading
-- **Loom**: Record brief video updates from leadership that feel personal
-- **Typeform or Google Forms**: Collect questions anonymously before Q&A sessions
-- **Lattice or 15Five**: Run pulse surveys and track sentiment over time
+- Notion or Confluence: Store all reorg documents in a searchable, version-controlled location
+- Slack: Create dedicated channels for questions with clear threading
+- Loom: Record brief video updates from leadership that feel personal
+- Typeform or Google Forms: Collect questions anonymously before Q&A sessions
+- Lattice or 15Five: Run pulse surveys and track sentiment over time
 
 Example Slack channel structure:
 
@@ -172,21 +172,16 @@ Example Slack channel structure:
 
 Track these metrics to gauge reorg communication effectiveness:
 
-1. **Question volume**: Are questions decreasing over time? This indicates clarity improving.
-2. **Sentiment scores**: Are pulse survey scores improving week-over-week?
-3. **Productivity metrics**: Are teams delivering their normal output, or is there a measurable dip?
-4. **Attrition**: Are affected employees staying through the transition period?
+1. Question volume: Are questions decreasing over time? This indicates clarity improving.
+2. Sentiment scores: Are pulse survey scores improving week-over-week?
+3. Productivity metrics: Are teams delivering their normal output, or is there a measurable dip?
+4. Attrition: Are affected employees staying through the transition period?
 
 ## Common Mistakes to Avoid
 
-1. **Over-communicating to some, under-communicating to others**: Use your matrix to ensure consistent messaging
-2. **Focusing only on leadership messages**: The most important conversations happen in team 1:1s
-3. **Assuming written communication is sufficient**: Remote workers need human connection during change
-4. **Ignoring the emotional response**: People need time to process. Don't demand immediate buy-in.
-5. **Failing to follow up**: A reorg announcement without follow-up creates vacuum for rumors
+1. Over-communicating to some, under-communicating to others: Use your matrix to ensure consistent messaging
+2. Focusing only on leadership messages: The most important conversations happen in team 1:1s
+3. Assuming written communication is sufficient: Remote workers need human connection during change
+4. Ignoring the emotional response: People need time to process. Don't demand immediate buy-in.
+5. Failing to follow up: A reorg announcement without follow-up creates vacuum for rumors
 
-## Conclusion
-
-Reorganizing a remote team requires deliberate, multi-channel communication that acknowledges the unique challenges of distributed work. By preparing thoroughly, following a structured communication framework, and maintaining ongoing dialogue, you can navigate restructuring while keeping your team aligned and productive. The goal is not just to inform people of changes, but to help them adapt and thrive in the new structure.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)

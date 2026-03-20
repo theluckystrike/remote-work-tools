@@ -196,10 +196,10 @@ jobs:
 
 Basic metrics tell part of the story. Consider adding:
 
-- **Highlights Section**: One or two accomplishments worth calling out
-- **Blockers**: Current impediments affecting progress
-- **Next Week Priorities**: Planned work for the upcoming period
-- **Risk Items**: Potential issues to monitor
+- Highlights Section: One or two accomplishments worth calling out
+- Blockers: Current impediments affecting progress
+- Next Week Priorities: Planned work for the upcoming period
+- Risk Items: Potential issues to monitor
 
 You can gather this context through structured conventions like a weekly standup bot that collects status updates, or by pulling from a dedicated "status" label in your issue tracker.
 
@@ -207,10 +207,10 @@ You can gather this context through structured conventions like a weekly standup
 
 When automating client reports, keep these best practices in mind:
 
-- **Limit Exposed Data**: Only include information the client should see
-- **Use Environment Variables**: Never hardcode API tokens or credentials
-- **Audit Logs**: Track report generation and delivery for troubleshooting
-- **Opt-Out Mechanism**: Allow clients to pause or adjust report frequency
+- Limit Exposed Data: Only include information the client should see
+- Use Environment Variables: Never hardcode API tokens or credentials
+- Audit Logs: Track report generation and delivery for troubleshooting
+- Opt-Out Mechanism: Allow clients to pause or adjust report frequency
 
 ## Measuring Report Effectiveness
 

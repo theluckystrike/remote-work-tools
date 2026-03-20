@@ -24,7 +24,7 @@ This guide provides a complete ADR template designed specifically for remote tea
 
 ## Why ADRs Matter for Distributed Teams
 
-Remote engineering teams face a unique challenge: significant technical decisions often get lost in Slack threads, lost Zoom recordings, or individual memory. When team members in Tokyo, London, and San Francisco need to understand why a particular database was chosen or why a microservices architecture was rejected, they need more than a final decision—they need the reasoning that led to it.
+Remote engineering teams face an unique challenge: significant technical decisions often get lost in Slack threads, lost Zoom recordings, or individual memory. When team members in Tokyo, London, and San Francisco need to understand why a particular database was chosen or why a microservices architecture was rejected, they need more than a final decision—they need the reasoning that led to it.
 
 ADRs solve this problem by creating a persistent, searchable record of each significant technical decision. Unlike meeting notes that capture discussion, ADRs capture outcomes and their context.
 
@@ -202,13 +202,6 @@ Schedule a quarterly review of active ADRs to identify:
 **Missing alternatives:** A decision without considered alternatives lacks rigor. Even if you ultimately choose the obvious option, document what else was evaluated and why it was rejected.
 
 **Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
-
-## Conclusion
-
-ADRs transform async technical discussions from ephemeral conversations into lasting institutional knowledge. The template and workflow outlined here provide a foundation your team can adapt to your specific needs. Start with your next significant technical decision and build from there.
-
-The key is consistency—making ADR creation a normal part of your team's decision-making process ensures that future team members (including future you) can understand not just what decisions were made, but why they were made.
-
 
 ## Related Reading
 

@@ -21,13 +21,13 @@ Hybrid office visitor management requires real-time occupancy tracking, pre-regi
 
 Before implementing a solution, identify the fundamental capabilities your system needs. Hybrid office visitor management requires more than signing in visitors—it demands real-time tracking, integration with access control systems, and automated notifications.
 
-**Real-time occupancy visibility**: You need to know current headcount, who is present, and their location within the building. This requires connecting your visitor management system with access control logs, badge scans, and check-in data.
+Real-time occupancy visibility: You need to know current headcount, who is present, and their location within the building. This requires connecting your visitor management system with access control logs, badge scans, and check-in data.
 
-**Pre-registration workflows**: Visitors should be registered before arrival through calendar integrations or self-service portals. This reduces wait times and provides security teams advance notice.
+Pre-registration workflows: Visitors should be registered before arrival through calendar integrations or self-service portals. This reduces wait times and provides security teams advance notice.
 
-**Automated check-in and check-out**: Manual sign-in sheets are insufficient for hybrid offices. Implement QR code scanning, badge taps, or mobile app check-ins that automatically record arrival and departure times.
+Automated check-in and check-out: Manual sign-in sheets are insufficient for hybrid offices. Implement QR code scanning, badge taps, or mobile app check-ins that automatically record arrival and departure times.
 
-**Integration with existing infrastructure**: Your visitor system must connect with badge systems, calendar platforms (Google Workspace, Microsoft 365), Slack or Teams for notifications, and potentially building management systems.
+Integration with existing infrastructure: Your visitor system must connect with badge systems, calendar platforms (Google Workspace, Microsoft 365), Slack or Teams for notifications, and potentially building management systems.
 
 ## Building a Custom Visitor Management System
 
@@ -174,13 +174,13 @@ app.post('/api/webhooks/calendar', async (req, res) => {
 
 ## Commercial Solutions Worth Considering
 
-Several established platforms offer robust visitor management without requiring custom development:
+Several established platforms offer visitor management without requiring custom development:
 
-**Envoy**: Provides visitor registration, badge printing, and integrations with access control systems. Their API enables custom workflows, though pricing scales with visitor volume.
+Envoy: Provides visitor registration, badge printing, and integrations with access control systems. Their API enables custom workflows, though pricing scales with visitor volume.
 
-**Proxyclick**: Offers enterprise-grade features including watchlist screening and NDA management. Strong integration with Microsoft ecosystem makes it suitable for organizations using Microsoft 365.
+Proxyclick: Offers enterprise-grade features including watchlist screening and NDA management. Strong integration with Microsoft ecosystem makes it suitable for organizations using Microsoft 365.
 
-**Greet**: Emphasizes touchless check-in with QR codes and mobile credentials. Provides real-time dashboards for occupancy tracking.
+Greet: Emphasizes touchless check-in with QR codes and mobile credentials. Provides real-time dashboards for occupancy tracking.
 
 When evaluating commercial solutions, prioritize API flexibility—your system will likely need custom integrations with internal tools that vendors cannot anticipate.
 
@@ -188,13 +188,13 @@ When evaluating commercial solutions, prioritize API flexibility—your system w
 
 Visitor management systems handle sensitive personal data. Implement these security practices:
 
-**Data encryption**: Encrypt visitor data at rest and in transit. Visitor PII (personally identifiable information) should never be logged in plain text.
+Data encryption: Encrypt visitor data at rest and in transit. Visitor PII (personally identifiable information) should never be logged in plain text.
 
-**Retention policies**: Automatically purge visitor records after a defined period (typically 90 days) unless legally required to retain longer.
+Retention policies: Automatically purge visitor records after a defined period (typically 90 days) unless legally required to retain longer.
 
-**Access logging**: Maintain audit trails of all system access, including who checked in visitors and when badge assignments changed.
+Access logging: Maintain audit trails of all system access, including who checked in visitors and when badge assignments changed.
 
-**Badge voiding**: Implement automated processes to void badges when visitors fail to check out, preventing orphaned access credentials.
+Badge voiding: Implement automated processes to void badges when visitors fail to check out, preventing orphaned access credentials.
 
 ## Practical Implementation Checklist
 
@@ -208,11 +208,6 @@ Use this checklist when deploying a visitor management system:
 - [ ] Configure automatic checkout triggers (time-based or badge-out)
 - [ ] Test integration with access control system
 - [ ] Establish visitor data retention and purge policies
-
-## Conclusion
-
-Effective visitor management in hybrid offices requires moving beyond paper sign-in sheets to automated, integrated systems. Whether you build a custom solution or adopt a commercial platform, prioritize real-time occupancy visibility, seamless calendar integration, and robust API capabilities. The goal is simple: at any moment, you should be able to answer the question "who is in the building" with confidence and precision.
-
 
 ## Related Reading
 

@@ -177,9 +177,9 @@ Deploy this script on Node.js, schedule it with GitHub Actions, or run it locall
 
 Many remote agencies use no-code tools that already integrate survey functionality. If you're using Notion, Airtable, or similar tools:
 
-1. **Notion**: Use Notion's database with a "Send Survey" button that triggers a Make (formerly Integromat) or Zapier automation
-2. **Airtable**: Create an automation that sends a Formstack or Typeform link when a record matches your criteria
-3. **ClickUp/Podio**: Built-in automation workflows can handle survey triggers based on task completion
+1. Notion: Use Notion's database with a "Send Survey" button that triggers a Make (formerly Integromat) or Zapier automation
+2. Airtable: Create an automation that sends a Formstack or Typeform link when a record matches your criteria
+3. ClickUp/Podio: Built-in automation workflows can handle survey triggers based on task completion
 
 ## Analyzing Survey Responses
 

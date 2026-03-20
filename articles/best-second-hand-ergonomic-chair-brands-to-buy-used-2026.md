@@ -19,11 +19,11 @@ voice-checked: false
 {% raw %}
 # Best Second Hand Ergonomic Chair Brands to Buy Used 2026
 
-Buy a used Herman Miller Aeron Gen2 ($400-700) for the best combination of durability and ergonomic support -- its Pellicle mesh does not compress over time, so even 3-5 year old units retain their supportive properties. For a lower budget, the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened. Haworth Zody ($250-450) is the value pick with replaceable cushions that extend its usable life. All three brands build chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
+Buy an used Herman Miller Aeron Gen2 ($400-700) for the best combination of durability and ergonomic support -- its Pellicle mesh does not compress over time, so even 3-5 year old units retain their supportive properties. For a lower budget, the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened. Haworth Zody ($250-450) is the value pick with replaceable cushions that extend its usable life. All three brands build chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
 
 ## Why Buy Second-Hand Ergonomic Chairs
 
-The math is straightforward. A new Herman Miller Aeron costs around $1,400. The same chair in good condition, 2-3 years old, often appears on resale platforms for $500-700. That's a savings of 50-65% for essentially the same ergonomic benefits.
+The math is straightforward. A new Herman Miller Aeron costs around $1,400. The same chair in good condition, 2-3 years old, often appears on resale platforms for $500-700. That's a savings of 50-65% for the same ergonomic benefits.
 
 Most premium ergonomic chairs are built to last 10-15 years with proper care. Buying a 3-year-old chair means you're getting a product with 70%+ of its lifespan remaining, at half the price.
 
@@ -46,7 +46,7 @@ Herman Miller chairs, particularly the Aeron and Embody, dominate the ergonomic 
 - Aeron Remapped: $600-900
 - Embody: $500-800
 
-The Aeron uses a unique Pellicle mesh that distributes weight across the seat and back. Unlike foam, this material doesn't compress permanently, so even used chairs often retain their supportive properties.
+The Aeron uses an unique Pellicle mesh that distributes weight across the seat and back. Unlike foam, this material doesn't compress permanently, so even used chairs often retain their supportive properties.
 
 ### Steelcase
 
@@ -196,21 +196,6 @@ Pair your ergonomic chair with:
 - A desk at proper height (elbows at 90° when typing)
 - A monitor at eye level (top of screen at or slightly below eye level)
 - Keyboard and mouse positioned to keep wrists neutral
-
-## Summary
-
-For developers and power users, a quality ergonomic chair is a productivity investment. Herman Miller (Aeron, Embody), Steelcase (Leap, Gesture), and Haworth (Zody, Fern) chairs hold their value and provide years of comfortable sitting when purchased second-hand.
-
-Focus on:
-1. Finding models 3-5 years old for the best value-to-condition ratio
-2. Inspecting hydraulic cylinders, mesh/foam condition, and adjustment mechanisms
-3. Budgeting for minor repairs if needed — most components are replaceable
-4. Testing the chair in person before committing
-
-A well-chosen used ergonomic chair will serve you for another decade, making the upfront research time worthwhile.
-
----
-
 
 ## Related Reading
 

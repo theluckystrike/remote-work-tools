@@ -119,15 +119,15 @@ Asana offers a REST API with more endpoints but requires more setup for complex 
 
 Asana's pricing tiers:
 
-- **Basic**: Free for unlimited users
-- **Advanced**: $24.99/user/month (includes custom fields, automation)
-- **Enterprise**: Contact sales (includes SSO, advanced security)
+- Basic: Free for unlimited users
+- Advanced: $24.99/user/month (includes custom fields, automation)
+- Enterprise: Contact sales (includes SSO, advanced security)
 
 Linear's pricing:
 
-- **Free**: Up to 250 issues
-- **Standard**: $8/user/month (includes cycles, priorities)
-- **Plus**: $17/user/month (includes team highlights, SLA)
+- Free: Up to 250 issues
+- Standard: $8/user/month (includes cycles, priorities)
+- Plus: $17/user/month (includes team highlights, SLA)
 
 For a 10-person team on paid plans, Asana runs approximately $250/month at the Advanced tier, while Linear's Standard plan costs $80/month. If you need advanced automation and custom portfolios, Asana justifies the premium. If your team just needs fast issue tracking with cycles, Linear offers better value.
 

@@ -86,13 +86,13 @@ Pricing mirrors CrowdStrike at approximately $7-8 per endpoint, though SentinelO
 
 ### Trellix (formerly McAfee Enterprise)
 
-Trellix provides the most comprehensive legacy support, handling older Windows versions and mixed OS environments better than newer cloud-native competitors. If your team includes designers on older MacBooks or engineers running legacy development environments, Trellix compatibility advantages become significant.
+Trellix provides the most legacy support, handling older Windows versions and mixed OS environments better than newer cloud-native competitors. If your team includes designers on older MacBooks or engineers running legacy development environments, Trellix compatibility advantages become significant.
 
 The API story remains weaker than competitors—SOAP interfaces persist in certain product tiers, and REST APIs lack consistent documentation. For developer experience, Trellix ranks lowest among these options, but operational compatibility sometimes outweighs modern API preferences.
 
 ### Elastic Security
 
-Elastic Security offers a unique positioning: the agent is open-source (Elastic Agent), and the entire stack can run self-hosted. If your team already operates Elasticsearch for application logging, extending to endpoint security adds minimal infrastructure overhead.
+Elastic Security offers an unique positioning: the agent is open-source (Elastic Agent), and the entire stack can run self-hosted. If your team already operates Elasticsearch for application logging, extending to endpoint security adds minimal infrastructure overhead.
 
 ```yaml
 # elastic-agent.yml - endpoint configuration
@@ -115,11 +115,11 @@ The primary advantage: predictable costs based on data ingestion volume rather t
 
 Agent deployment for remote teams differs from office-based rollouts. Consider these practical factors:
 
-**Update distribution**: Cloud-native solutions push agent updates automatically. Self-hosted options require planned update windows or acceptance of slightly delayed patch deployment.
+Update distribution: Cloud-native solutions push agent updates automatically. Self-hosted options require planned update windows or acceptance of slightly delayed patch deployment.
 
-**Network resilience**: Agents should queue events locally when connectivity drops, then sync when reconnected. All major vendors handle this, but test failover behavior with your specific network conditions.
+Network resilience: Agents should queue events locally when connectivity drops, then sync when reconnected. All major vendors handle this, but test failover behavior with your specific network conditions.
 
-**Developer machine specifications**: Running EDR alongside local Docker containers, IDEs, and compilation workflows impacts system performance. Request trial deployments on representative developer hardware before committing.
+Developer machine specifications: Running EDR alongside local Docker containers, IDEs, and compilation workflows impacts system performance. Request trial deployments on representative developer hardware before committing.
 
 ## Making Your Decision
 

@@ -58,7 +58,7 @@ client_data:
 
 ### 2. Access Control Mechanisms
 
-Remote teams need robust access controls since developers work from various locations. Your proposal should outline your authentication and authorization approach.
+Remote teams need access controls since developers work from various locations. Your proposal should outline your authentication and authorization approach.
 
 **Include these specifications:**
 
@@ -134,11 +134,11 @@ Your clients need assurance that if something goes wrong, you have a plan. Outli
 
 Different industries require different compliance standards. Include your alignment with relevant frameworks:
 
-- **SOC 2 Type II**: Standard for service organizations handling customer data
-- **GDPR**: Required for any EU resident data
-- **CCPA**: California consumer privacy requirements
-- **HIPAA**: Healthcare data protection (if applicable)
-- **PCI-DSS**: Payment card data handling
+- SOC 2 Type II: Standard for service organizations handling customer data
+- GDPR: Required for any EU resident data
+- CCPA: California consumer privacy requirements
+- HIPAA: Healthcare data protection (if applicable)
+- PCI-DSS: Payment card data handling
 
 ## Practical Checklist Template
 
@@ -174,7 +174,7 @@ Not every client needs the same level of security documentation. Adjust your pro
 
 **Startup clients** typically need basic security commitments: encrypted storage, access controls, and a DPA. Don't overwhelm them with SOC 2 reports they won't read.
 
-**Enterprise clients** expect comprehensive documentation. Prepare your SOC 2 report, ISO 27001 certification, and detailed technical specifications upfront. Be ready to answer penetration test results and security questionnaire requests.
+**Enterprise clients** expect documentation. Prepare your SOC 2 report, ISO 27001 certification, and detailed technical specifications upfront. Be ready to answer penetration test results and security questionnaire requests.
 
 **Regulated industry clients** (healthcare, finance, government) need specific compliance documentation. Know which frameworks apply and have your evidence ready before the proposal stage.
 

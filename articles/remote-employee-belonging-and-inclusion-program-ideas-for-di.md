@@ -62,10 +62,10 @@ Synchronous all-hands meetings exclude half the world regardless of when you sch
 
 Use a simple Slack workflow:
 
-1. **Tuesday**: Post prompt in #show-and-tell channel ("What did you ship this week?")
-2. **Wednesday-Thursday**: Team members record 60-second Loom or Vidyard videos
-3. **Friday**: Compile links into a threaded Slack post with emoji reactions enabled
-4. **Next Monday**: Select three videos for live shoutouts in the weekly meeting (optional)
+1. Tuesday: Post prompt in #show-and-tell channel ("What did you ship this week?")
+2. Wednesday-Thursday: Team members record 60-second Loom or Vidyard videos
+3. Friday: Compile links into a threaded Slack post with emoji reactions enabled
+4. Next Monday: Select three videos for live shoutouts in the weekly meeting (optional)
 
 ```yaml
 # slack_workflow_async_showandtell.yaml
@@ -129,10 +129,10 @@ Give each remote employee an annual stipend ($500-1500) for in-person team gathe
 
 Structure the program:
 
-- **Allowance**: Fixed amount per year, use-it-or-lose-it
-- **Requirements**: Share one photo and a brief reflection in the team channel
-- **Options**: Coworking day, team retreat, industry conference, or coffee with a remote colleague
-- **Reporting**: Simple form with 2-3 questions about what you learned
+- Allowance: Fixed amount per year, use-it-or-lose-it
+- Requirements: Share one photo and a brief reflection in the team channel
+- Options: Coworking day, team retreat, industry conference, or coffee with a remote colleague
+- Reporting: Simple form with 2-3 questions about what you learned
 
 This approach works because it gives employees agency while creating natural sharing moments. The documentation requirement generates content that reinforces belonging for the entire team.
 

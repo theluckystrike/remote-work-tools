@@ -142,7 +142,7 @@ const initiateIdentityVerification = async (signerId, signerInfo) => {
 };
 ```
 
-The combination of government ID verification, KBA questions, and biometric checks provides robust identity assurance that satisfies most state legal requirements.
+The combination of government ID verification, KBA questions, and biometric checks provides identity assurance that satisfies most state legal requirements.
 
 ## Handling State-Specific Requirements
 
@@ -211,29 +211,22 @@ const finalizeClosing = async (sessionId) => {
 
 Several practical issues arise when building remote closing systems:
 
-**Browser Compatibility**: Ensure your video conferencing integration works across browsers, particularly Safari's stricter security policies. Test thoroughly with the actual notarization platform's supported browsers.
+Browser Compatibility: Ensure your video conferencing integration works across browsers, particularly Safari's stricter security policies. Test thoroughly with the actual notarization platform's supported browsers.
 
-**Time Zone Coordination**: Closing participants span multiple time zones. Build scheduling that automatically converts to each participant's local time and accounts for notary availability in the property's jurisdiction.
+Time Zone Coordination: Closing participants span multiple time zones. Build scheduling that automatically converts to each participant's local time and accounts for notary availability in the property's jurisdiction.
 
-**Document Version Control**: Last-minute changes to closing documents require careful handling. Implement version comparison and ensure all signers acknowledge the final version before notarization begins.
+Document Version Control: Last-minute changes to closing documents require careful handling. Implement version comparison and ensure all signers acknowledge the final version before notarization begins.
 
-**Internet Connectivity**: Video sessions require stable connections. Provide clear bandwidth requirements upfront and have backup communication channels ready.
+Internet Connectivity: Video sessions require stable connections. Provide clear bandwidth requirements upfront and have backup communication channels ready.
 
 ## Security Considerations
 
 Protecting sensitive real estate data requires attention to several areas:
 
-- **Encryption**: All documents should encrypt at rest (AES-256) and in transit (TLS 1.3)
-- **Access Control**: Implement role-based permissions limiting document access to necessary parties
-- **Audit Logging**: Maintain comprehensive logs of all document access and actions
-- **Data Retention**: Follow jurisdiction-specific retention requirements, typically 5-10 years for real estate documents
-
-## Conclusion
-
-Remote real estate closings using digital notarization represent a mature technology with established service providers and clear regulatory frameworks. Developers can integrate RON capabilities through APIs to build seamless closing experiences, while power users benefit from understanding the underlying workflows to manage complex transactions effectively.
-
-The key to successful implementation lies in verifying state-specific requirements, building flexible identity verification, and maintaining robust document preservation. Start with a reputable notarization API provider, implement the workflow components described above, and thoroughly test with actual closing scenarios before production deployment.
-
+- Encryption: All documents should encrypt at rest (AES-256) and in transit (TLS 1.3)
+- Access Control: Implement role-based permissions limiting document access to necessary parties
+- Audit Logging: Maintain logs of all document access and actions
+- Data Retention: Follow jurisdiction-specific retention requirements, typically 5-10 years for real estate documents
 
 ## Related Reading
 

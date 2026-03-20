@@ -22,13 +22,13 @@ Brazil's Vitem XIV visa requires $1,500 monthly income proof, valid health insur
 
 The Brazilian government designed the Vitem XIV visa specifically for foreign nationals who work remotely for entities outside Brazil. To qualify, you must meet several key requirements.
 
-**Income Threshold**: You need to demonstrate a minimum monthly income of $1,500 USD from remote work activities. This can include salary from a foreign employer, freelance client payments, or income from a registered business abroad. Three months of bank statements, PayPal records, or payment invoices typically serve as sufficient proof.
+Income Threshold: You need to demonstrate a minimum monthly income of $1,500 USD from remote work activities. This can include salary from a foreign employer, freelance client payments, or income from a registered business abroad. Three months of bank statements, PayPal records, or payment invoices typically serve as sufficient proof.
 
-**Remote Work Confirmation**: Your employment or client contracts must clearly indicate that your work is performed entirely or predominantly outside Brazil. If you're a freelancer, having contracts with international clients strengthens your application significantly.
+Remote Work Confirmation: Your employment or client contracts must clearly indicate that your work is performed entirely or predominantly outside Brazil. If you're a freelancer, having contracts with international clients strengthens your application significantly.
 
-**Health Insurance**: Brazil requires all digital nomad visa holders to maintain health insurance coverage valid throughout their stay in the country. International providers like SafetyWing, Genki World, and other travel insurance companies offer policies that meet Brazil's requirements.
+Health Insurance: Brazil requires all digital nomad visa holders to maintain health insurance coverage valid throughout their stay in the country. International providers like SafetyWing, Genki World, and other travel insurance companies offer policies that meet Brazil's requirements.
 
-**Passport Validity**: Your passport must remain valid for at least six months beyond your intended departure date from Brazil.
+Passport Validity: Your passport must remain valid for at least six months beyond your intended departure date from Brazil.
 
 ## Application Process Step by Step
 
@@ -98,11 +98,11 @@ Brazil uses a progressive income tax system for individuals:
 
 | Annual Income (BRL) | Tax Rate |
 |---------------------|----------|
-| Up to R$22,847.76   | Exempt   |
+| Up to R$22,847.76 | Exempt |
 | R$22,847.77 - R$33,919.80 | 7.5% |
 | R$33,919.81 - R$45,012.60 | 15% |
 | R$45,012.61 - R$55,976.16 | 22.5% |
-| Above R$55,976.16  | 27.5%   |
+| Above R$55,976.16 | 27.5% |
 
 For digital nomads, the key insight is that foreign-sourced income paid to non-residents or tax residents with income primarily from abroad may qualify for different treatment. Consult a Brazilian tax accountant (contador) familiar with expatriate tax situations.
 
@@ -150,17 +150,17 @@ print(f"Effective Rate: {effective_rate:.1f}%")
 
 ### IRS Reporting for US Citizens
 
-If you're a US citizen or permanent resident, you must continue filing US tax returns regardless of where you live. However, the Foreign Earned Income Exclusion (FEIE) allows you to exclude a portion of foreign-earned income from US taxation. For 2026, the exclusion amount is approximately $126,500 USD.
+If you're an US citizen or permanent resident, you must continue filing US tax returns regardless of where you live. However, the Foreign Earned Income Exclusion (FEIE) allows you to exclude a portion of foreign-earned income from US taxation. For 2026, the exclusion amount is approximately $126,500 USD.
 
 ## Practical Tips for Remote Developers
 
-**Banking**: Open a Brazilian bank account (Banco do Brasil, Itaú, or NuBank) once you arrive. This makes paying local expenses and taxes easier. Many banks allow account opening via app with your passport and visa.
+Banking: Open a Brazilian bank account (Banco do Brasil, Itaú, or NuBank) once you arrive. This makes paying local expenses and taxes easier. Many banks allow account opening via app with your passport and visa.
 
-**CPF Number**: Apply for a CPF (Cadastro de Pessoas Físicas) - Brazil's individual taxpayer registry. You'll need this for banking, renting apartments, and paying taxes. Apply online through the Receita Federal website before arrival or at any Brazilian bank.
+CPF Number: Apply for a CPF (Cadastro de Pessoas Físicas) - Brazil's individual taxpayer registry. You'll need this for banking, renting apartments, and paying taxes. Apply online through the Receita Federal website before arrival or at any Brazilian bank.
 
-**Mobile Phone**: Purchase a local SIM card from carriers like Vivo, Claro, or TIM. You'll need your passport and CPF to register the SIM.
+Mobile Phone: Purchase a local SIM card from carriers like Vivo, Claro, or TIM. You'll need your passport and CPF to register the SIM.
 
-**Health Insurance**: Don't skip this requirement. Brazilian public healthcare (SUS) is available but often overwhelmed. Private health insurance costs range from $50-150 USD monthly depending on coverage.
+Health Insurance: Don't skip this requirement. Brazilian public healthcare (SUS) is available but often overwhelmed. Private health insurance costs range from $50-150 USD monthly depending on coverage.
 
 ## Is Brazil Right for You in 2026?
 

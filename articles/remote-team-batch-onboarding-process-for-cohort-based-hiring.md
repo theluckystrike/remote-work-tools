@@ -27,11 +27,11 @@ Traditional one-by-one onboarding forces managers to repeat the same introductio
 
 Cohort-based hiring solves three critical problems:
 
-**Knowledge sharing efficiency**: New hires in a cohort learn together, ask questions collectively, and can help each other understand company processes. The "stupid question" burden decreases when multiple people are learning simultaneously.
+Knowledge sharing efficiency: New hires in a cohort learn together, ask questions collectively, and can help each other understand company processes. The "stupid question" burden decreases when multiple people are learning simultaneously.
 
-**Community building**: Remote employees often struggle with isolation during onboarding. Starting alongside peers creates immediate connections and a support network that persists beyond the initial onboarding period.
+Community building: Remote employees often struggle with isolation during onboarding. Starting alongside peers creates immediate connections and a support network that persists beyond the initial onboarding period.
 
-**Manager bandwidth**: Instead of spreading thin across multiple concurrent onboardings, managers can focus on a single cohort flow, batch-process paperwork, and deliver training in sessions that serve everyone.
+Manager bandwidth: Instead of spreading thin across multiple concurrent onboardings, managers can focus on a single cohort flow, batch-process paperwork, and deliver training in sessions that serve everyone.
 
 ## Structuring Your Batch Onboarding Timeline
 
@@ -62,11 +62,11 @@ pre_arrival:
 
 The first week of actual onboarding should focus on company-wide context:
 
-**Day 1-2**: Account setup and basic tooling. New hires should have all credentials working before any training begins.
+Day 1-2: Account setup and basic tooling. New hires should have all credentials working before any training begins.
 
-**Day 3**: Company overview session (recorded for async makeup). Cover mission, values, organizational structure, and key processes. This session works best as a live presentation with recording, allowing real-time Q&A while creating a reusable asset.
+Day 3: Company overview session (recorded for async makeup). Cover mission, values, organizational structure, and key processes. This session works best as a live presentation with recording, allowing real-time Q&A while creating a reusable asset.
 
-**Day 4-5**: Team-specific introductions. Each new hire meets their immediate team through short async video introductions or live 30-minute meet-and-greets.
+Day 4-5: Team-specific introductions. Each new hire meets their immediate team through short async video introductions or live 30-minute meet-and-greets.
 
 ### Week 3: Deep Dives and First Tasks
 
@@ -216,13 +216,13 @@ Collect this data systematically. After each cohort, review what worked and what
 
 ## Common Pitfalls to Avoid
 
-**Cohort size too large**: Beyond 10-12 new hires, the management overhead exceeds the efficiency gains. Large companies should run multiple parallel cohorts rather than one massive batch.
+Cohort size too large: Beyond 10-12 new hires, the management overhead exceeds the efficiency gains. Large companies should run multiple parallel cohorts rather than one massive batch.
 
-**Ignoring timezone distribution**: If your cohort spans five time zones, avoid scheduling any required live sessions. Record everything and let people watch at their convenience.
+Ignoring timezone distribution: If your cohort spans five time zones, avoid scheduling any required live sessions. Record everything and let people watch at their convenience.
 
-**Treating onboarding as firefighting**: When urgent projects arise, new hires often get pulled away from learning. Protect their onboarding time aggressively during the first two weeks.
+Treating onboarding as firefighting: When urgent projects arise, new hires often get pulled away from learning. Protect their onboarding time aggressively during the first two weeks.
 
-**Skipping the buddy system**: Automated tools cannot replace human connection. Every new hire needs an assigned buddy who proactively reaches out, not just someone listed in a wiki.
+Skipping the buddy system: Automated tools cannot replace human connection. Every new hire needs an assigned buddy who proactively reaches out, not just someone listed in a wiki.
 
 ## Building Your Cohort Onboarding System
 

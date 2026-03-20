@@ -34,11 +34,11 @@ Key advantages include:
 
 Before starting your application, ensure you meet the following criteria:
 
-1. **Employment**: You must be employed by or have contracts with companies outside Bermuda
-2. **Minimum Income**: Demonstrable annual income of at least USD 100,000
-3. **Health Insurance**: Comprehensive health insurance covering Bermuda
-4. **Clean Record**: No criminal background
-5. **Purpose**: Genuine intention to work remotely while residing in Bermuda
+1. Employment: You must be employed by or have contracts with companies outside Bermuda
+2. Minimum Income: Demonstrable annual income of at least USD 100,000
+3. Health Insurance: health insurance covering Bermuda
+4. Clean Record: No criminal background
+5. Purpose: Genuine intention to work remotely while residing in Bermuda
 
 For tech professionals, this typically means showing contracts with international clients or employment letters from companies registered outside Bermuda. Freelancers can use a combination of client invoices and service agreements.
 
@@ -131,8 +131,8 @@ Consult a cross-border tax specialist before relocating. Many remote workers ben
 Bermuda offers reliable internet infrastructure. Major providers include:
 
 - **Flow** (Cable & Wireless): Business-grade fiber plans available
-- **Digicel**: Mobile 5G coverage across the island
-- **One Communications**: Enterprise solutions for businesses
+- Digicel: Mobile 5G coverage across the island
+- One Communications: Enterprise solutions for businesses
 
 For developers requiring stable connections, Bermuda's telecom infrastructure supports video conferencing, cloud development, and CI/CD pipelines. Typical speeds for residential fiber range from 100Mbps to 1Gbps.
 
@@ -141,7 +141,7 @@ For developers requiring stable connections, Bermuda's telecom infrastructure su
 While Bermuda's co-working scene is smaller than major tech hubs, options exist:
 
 - **Bermuda Business Development Agency** resources for entrepreneurs
-- **The Hive Bermuda**: Community space for remote workers
+- The Hive Bermuda: Community space for remote workers
 - Hotel business centers in Hamilton for day passes
 
 ### Banking and Finance
@@ -200,13 +200,6 @@ Your Work From Bermuda certificate is valid for one year. Renewal requires:
 - Evidence of Bermuda residence during the previous period
 
 After five years of continuous residence, you may apply for Bermudian status, though this involves additional requirements and a separate application process.
-
-## Conclusion
-
-The Bermuda Work From Bermuda certificate offers a viable pathway for remote tech professionals seeking a tax-efficient base with excellent quality of life. The application process is straightforward, though documentation preparation and tax planning require careful attention. For developers and power users comfortable with remote work arrangements, Bermuda provides stable infrastructure, reliable connectivity, and access to a stable financial jurisdiction.
-
-Evaluate your specific situation: income requirements, home country tax obligations, and long-term residency goals. The certificate works best for those with established remote work arrangements who can demonstrate consistent income and have the flexibility to relocate.
-
 
 ## Related Reading
 

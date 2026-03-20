@@ -158,15 +158,6 @@ Send a thoughtful async message first:
 
 Provide time for the employee to compose their thoughts. Async communication favors considered responses over spontaneous ones, which can actually benefit performance discussions.
 
-## Conclusion
-
-Handling underperformance is one of the hardest parts of managing people, and remote work adds layers of complexity. Success requires clear documentation, structured conversations, genuine support, and consistent follow-through.
-
-Remember that your goal is not to catch employees failing—it's to help them succeed. Most people want to do good work. When they don't, there's usually a reason: unclear expectations, external blockers, skill gaps, or personal challenges. Your job is to identify the cause and provide support.
-
-Approach every conversation with the assumption that you both want the same outcome: the employee performing well and contributing to team success. This mindset transforms difficult conversations from confrontations into collaborations.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

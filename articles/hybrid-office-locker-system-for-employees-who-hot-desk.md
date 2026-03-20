@@ -32,11 +32,11 @@ A smart locker system consists of four primary components: the locker controller
 
 The controller hardware manages individual locker doors and communicates with the central system. Most commercial smart locker solutions use one of three architectures:
 
-**Networked Controllers**: Each locker has a network-connected controller that communicates over Ethernet or WiFi. These controllers accept commands from a central server and report status changes. Examples include systems from Essential Robotics and OpenSpaces.
+Networked Controllers: Each locker has a network-connected controller that communicates over Ethernet or WiFi. These controllers accept commands from a central server and report status changes. Examples include systems from Essential Robotics and OpenSpaces.
 
-**Bus-Based Systems**: Lockers connect to a central controller via a communication bus (RS-485 or CAN bus). This architecture reduces wiring complexity but requires longer cable runs. Bosch Smart Locker and Stanley Access Control use this approach.
+Bus-Based Systems: Lockers connect to a central controller via a communication bus (RS-485 or CAN bus). This architecture reduces wiring complexity but requires longer cable runs. Bosch Smart Locker and Stanley Access Control use this approach.
 
-**Standalone Smart Locks**: Individual battery-powered smart locks retrofit onto existing lockers. August Home and SmartRent offer locks that connect via Zigbee, Z-Wave, or WiFi. These work well for organizations wanting to upgrade existing furniture without full system replacement.
+Standalone Smart Locks: Individual battery-powered smart locks retrofit onto existing lockers. August Home and SmartRent offer locks that connect via Zigbee, Z-Wave, or WiFi. These work well for organizations wanting to upgrade existing furniture without full system replacement.
 
 For new installations, networked controllers provide the most reliable performance and easiest integration. Here's a typical controller specification:
 
@@ -369,13 +369,13 @@ def get_fleet_status(lockers):
 
 When deploying smart lockers in hybrid offices, several practical factors affect success:
 
-**Power and Network**: Networked lockers require both power and Ethernet connectivity to each controller. Plan cable routes during office construction. For retrofit installations, consider PoE (Power over Ethernet) to reduce electrical work. Battery-powered smart locks work for wireless scenarios but require regular battery replacement.
+Power and Network: Networked lockers require both power and Ethernet connectivity to each controller. Plan cable routes during office construction. For retrofit installations, consider PoE (Power over Ethernet) to reduce electrical work. Battery-powered smart locks work for wireless scenarios but require regular battery replacement.
 
-**Location Strategy**: Place lockers near high-traffic areas like elevator banks and stairwells. Consider zoning—lockers for each floor or department reduce congestion. Provide a mix of sizes: small for wallets and phones, medium for bags and laptops, large for coats and equipment.
+Location Strategy: Place lockers near high-traffic areas like elevator banks and stairwells. Consider zoning—lockers for each floor or department reduce congestion. Provide a mix of sizes: small for wallets and phones, medium for bags and laptops, large for coats and equipment.
 
-**Maintenance Access**: Build in maintenance modes for battery replacement, hardware repairs, and firmware updates. The API should support temporarily taking individual lockers offline without affecting the rest of the fleet.
+Maintenance Access: Build in maintenance modes for battery replacement, hardware repairs, and firmware updates. The API should support temporarily taking individual lockers offline without affecting the rest of the fleet.
 
-**User Communication**: Set clear expectations about what can and cannot be stored. Most systems prohibit valuables, perishables, and prohibited items. Display policies on locker doors and include in employee onboarding.
+User Communication: Set clear expectations about what can and cannot be stored. Most systems prohibit valuables, perishables, and prohibited items. Display policies on locker doors and include in employee onboarding.
 
 A well-integrated locker system removes one of the friction points in hot-desking, making it effortless for employees to store belongings securely while they work from any desk in the office.
 

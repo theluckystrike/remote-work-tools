@@ -34,10 +34,10 @@ An explicit framework solves this by making advancement about measurable, demons
 
 Start by documenting what success looks like at each level. For technical teams, this typically includes:
 
-- **Scope of work**: What project complexity and organizational impact defines each level?
-- **Technical proficiency**: What skills and knowledge are expected?
-- **Communication**: How does communication scope change at each level?
-- **Leadership**: What mentorship or people leadership is expected?
+- Scope of work: What project complexity and organizational impact defines each level?
+- Technical proficiency: What skills and knowledge are expected?
+- Communication: How does communication scope change at each level?
+- Leadership: What mentorship or people leadership is expected?
 
 Here's a practical example of level definitions in code:
 
@@ -72,11 +72,11 @@ levels:
 
 Remote promotion requires evidence you can actually see. Structure your framework around categories that generate artifacts:
 
-- **Code contributions**: PRs, technical designs, code reviews
-- **Project delivery**: Features shipped, problems solved, metrics improved
-- **Documentation**: RFCs, architecture decision records, runbooks
-- **Mentorship**: Code pairing sessions, feedback given, knowledge transfer
-- **Initiative ownership**: Problems identified and solved proactively
+- Code contributions: PRs, technical designs, code reviews
+- Project delivery: Features shipped, problems solved, metrics improved
+- Documentation: RFCs, architecture decision records, runbooks
+- Mentorship: Code pairing sessions, feedback given, knowledge transfer
+- Initiative ownership: Problems identified and solved proactively
 
 ### 3. Build a Scoring Rubric
 
@@ -132,13 +132,13 @@ Your first framework won't be perfect. Plan quarterly reviews to:
 
 ## Common Pitfalls to Avoid
 
-**The listicle trap**: Avoid creating promotion criteria that are just a checklist of activities. Promotions should be about impact, not checkbox completion.
+The listicle trap: Avoid creating promotion criteria that are just a checklist of activities. Promotions should be about impact, not checkbox completion.
 
-**Ignoring remote-specific factors**: If your framework was designed for co-located teams, it probably values synchronous communication too heavily. Weight async contributions equally.
+Ignoring remote-specific factors: If your framework was designed for co-located teams, it probably values synchronous communication too heavily. Weight async contributions equally.
 
-**Static criteria**: Technology roles evolve quickly. Your senior engineer's job looks different than it did two years ago. Review criteria annually.
+Static criteria: Technology roles evolve quickly. Your senior engineer's job looks different than it did two years ago. Review criteria annually.
 
-**Vague language**: Phrases like "demonstrated leadership" or "technical excellence" mean different things to different people. Define them specifically.
+Vague language: Phrases like "demonstrated leadership" or "technical excellence" mean different things to different people. Define them specifically.
 
 ## Measuring Framework Effectiveness
 
@@ -148,15 +148,6 @@ Track these metrics to know if your framework works:
 - Promotion satisfaction: Do promoted employees feel the process was fair?
 - Representation: Are promotions equitable across demographic groups?
 - Self-assessment accuracy: Can employees accurately predict their promotion readiness?
-
-## Conclusion
-
-A transparent promotion framework transforms career development from a mystery into a map. For remote technical teams, this clarity is essential—without the daily visibility of office work, employees need to understand what concrete achievements will advance their careers.
-
-Start with clear level definitions, create observable evidence categories, build a scoring rubric, and iterate based on real feedback. The goal isn't perfection—it's making the path forward visible.
-
-Remember: the best promotion framework is one your team actually uses. Keep it simple enough to understand, specific enough to act on, and flexible enough to evolve with your organization.
-
 
 ## Related Reading
 

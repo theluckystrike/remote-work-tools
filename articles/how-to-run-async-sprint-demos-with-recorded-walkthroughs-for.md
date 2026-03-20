@@ -71,9 +71,9 @@ Run the script to start recording. Press `q` to stop when finished.
 
 Most operating systems include built-in screen recording:
 
-- **macOS**: Use Command+Shift+5 to open the screenshot toolbar, then select screen recording
-- **Windows**: Press Windows+Alt+R or use the Xbox Game Bar
-- **Linux**: Use GNOME's built-in recorder (Alt+Ctrl+Shift+R) or SimpleScreenRecorder
+- macOS: Use Command+Shift+5 to open the screenshot toolbar, then select screen recording
+- Windows: Press Windows+Alt+R or use the Xbox Game Bar
+- Linux: Use GNOME's built-in recorder (Alt+Ctrl+Shift+R) or SimpleScreenRecorder
 
 These tools are easier for quick demos and require no setup.
 
@@ -142,10 +142,10 @@ Once recorded, get the video to stakeholders effectively:
 
 ### Platform Options
 
-- **GitHub Issues**: Upload videos as artifacts or link to hosted videos
-- **Slack**: Share directly in channels, but be mindful of file size limits
-- **Notion/Confluence**: Embed videos in team spaces for permanent storage
-- **YouTube (unlisted)**: Good for longer recordings with timestamps
+- GitHub Issues: Upload videos as artifacts or link to hosted videos
+- Slack: Share directly in channels, but be mindful of file size limits
+- Notion/Confluence: Embed videos in team spaces for permanent storage
+- YouTube (unlisted): Good for longer recordings with timestamps
 
 ### Add Context with Description
 
@@ -174,19 +174,19 @@ Always include a written summary with your video:
 
 The demo isn't complete until you've gathered feedback. Set up a clear async feedback loop:
 
-1. **Deadlines**: Specify when stakeholders should review (e.g., "by Thursday")
-2. **Format**: Ask for specific feedback (e.g., "approve" or "request changes")
-3. **Channel**: Designate where to collect responses (GitHub issue, Slack thread)
-4. **Follow-up**: Summarize feedback in your next standup or async update
+1. Deadlines: Specify when stakeholders should review (e.g., "by Thursday")
+2. Format: Ask for specific feedback (e.g., "approve" or "request changes")
+3. Channel: Designate where to collect responses (GitHub issue, Slack thread)
+4. Follow-up: Summarize feedback in your next standup or async update
 
 ## Tools Worth Considering
 
 Several tools specialize in async presentations:
 
-- **Loom**: Quick recordings with links and comments
-- **Vidyard**: Business-focused with analytics
-- **Screen Studio**: Simple, high-quality Mac screen recording
-- **OBS**: Free, cross-platform, highly customizable
+- Loom: Quick recordings with links and comments
+- Vidyard: Business-focused with analytics
+- Screen Studio: Simple, high-quality Mac screen recording
+- OBS: Free, cross-platform, highly customizable
 
 Choose based on your team's existing tools and workflow. The best tool is one your team will actually use consistently.
 
@@ -194,10 +194,10 @@ Choose based on your team's existing tools and workflow. The best tool is one yo
 
 Track whether async demos are working for your team:
 
-- **Review completion rate**: Are stakeholders watching?
-- **Feedback quality**: Are you getting actionable responses?
-- **Time saved**: Compare to synchronous demo meeting hours
-- **Stakeholder satisfaction**: Quick pulse survey after each sprint
+- Review completion rate: Are stakeholders watching?
+- Feedback quality: Are you getting actionable responses?
+- Time saved: Compare to synchronous demo meeting hours
+- Stakeholder satisfaction: Quick pulse survey after each sprint
 
 Iterate on your approach based on these metrics.
 

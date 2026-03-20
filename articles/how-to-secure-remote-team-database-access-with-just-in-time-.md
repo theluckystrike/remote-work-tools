@@ -172,7 +172,7 @@ Developers retrieve credentials programmatically:
 vault read database/creds/developer-readonly
 ```
 
-The response includes a username and password that automatically expire after the configured TTL.
+The response includes an username and password that automatically expire after the configured TTL.
 
 ## Setting Up Approval Workflows
 
@@ -220,15 +220,6 @@ Document the request process clearly. Remote teams span time zones—ensure deve
 Balance security with velocity. If developers cannot access databases quickly during incidents, they'll find workarounds. Set reasonable TTLs and ensure approvers understand on-call scenarios.
 
 Review access patterns regularly. Even with JIT, some users may accumulate excessive access over time. Periodic audits ensure the system continues to align with actual needs.
-
-## Conclusion
-
-Just-in-time database access addresses the core security challenges of remote team development. By eliminating permanent credentials, automatically enforcing expiration, and maintaining comprehensive audit logs, you significantly reduce breach risk while maintaining developer productivity.
-
-The implementation path matters less than starting. Whether using Teleport, AWS IAM, HashiCorp Vault, or another solution, the fundamental pattern remains: grant access temporarily, log everything, and continuously refine based on team workflow.
-
-Start with one database, establish your approval patterns, and expand systematically. Your security posture improves with each credential that automatically expires.
-
 
 ## Related Reading
 

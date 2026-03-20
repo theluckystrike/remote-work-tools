@@ -169,11 +169,11 @@ anonymize_after_days: 90
 
 For truly distributed teams, your process must accommodate varying time zones and work schedules. Here's how:
 
-**Asynchronous Timing**: Send exit interview requests during the departing employee's working hours. This seems minor but shows respect for their time and increases completion rates.
+Asynchronous Timing: Send exit interview requests during the departing employee's working hours. This seems minor but shows respect for their time and increases completion rates.
 
-**Flexible Deadlines**: Give at least one week to complete the interview. Rushed timelines reduce response quality, especially for employees who may be working notice periods remotely.
+Flexible Deadlines: Give at least one week to complete the interview. Rushed timelines reduce response quality, especially for employees who may be working notice periods remotely.
 
-**Multi-Language Support**: If your team spans countries, provide the questionnaire in the employee's native language. This significantly improves response quality for non-native English speakers.
+Multi-Language Support: If your team spans countries, provide the questionnaire in the employee's native language. This significantly improves response quality for non-native English speakers.
 
 ## Analyzing and Acting on Exit Interview Data
 
@@ -217,13 +217,13 @@ Review this data quarterly with leadership. Look for patterns: are multiple empl
 
 ## Best Practices Summary
 
-- **Start early**: Send the exit interview during the notice period, not on the last day
-- **Keep it async**: Allow respondents to complete at their own pace
-- **Guarantee anonymity**: Be clear about what gets shared and with whom
-- **Ask specific questions**: Generic questions produce generic answers
-- **Follow up**: Share how feedback led to changes
-- **Automate wisely**: Use scripts to reduce manual tracking work
-- **Respect time zones**: Send and set deadlines during working hours
+- Start early: Send the exit interview during the notice period, not on the last day
+- Keep it async: Allow respondents to complete at their own pace
+- Guarantee anonymity: Be clear about what gets shared and with whom
+- Ask specific questions: Generic questions produce generic answers
+- Follow up: Share how feedback led to changes
+- Automate wisely: Use scripts to reduce manual tracking work
+- Respect time zones: Send and set deadlines during working hours
 
 Building an effective remote exit interview process requires the same async-first thinking you apply to other distributed team workflows. The result: richer feedback, happier departing employees, and actionable insights for organizational improvement.
 

@@ -20,7 +20,7 @@ Maintaining internal engineering wikis across distributed teams requires the rig
 
 ## Git-Based Wiki Solutions
 
-The most robust approach for engineering teams involves storing wiki content in Git. This provides version control, pull request reviews, and the ability to treat documentation like code.
+The most approach for engineering teams involves storing wiki content in Git. This provides version control, pull request reviews, and the ability to treat documentation like code.
 
 ### GitHub Wiki with Repository Integration
 
@@ -86,9 +86,9 @@ Many remote teams adopt Notion for its flexibility and low learning curve. The k
 
 Create a structured database for technical documentation:
 
-1. **Architecture Decision Records (ADRs)**: Track technical decisions with status, date, and owner fields
-2. **Runbooks Database**: Include priority, last reviewed date, and related services
-3. **API Documentation**: Link to code repositories and auto-generate reference pages
+1. Architecture Decision Records (ADRs): Track technical decisions with status, date, and owner fields
+2. Runbooks Database: Include priority, last reviewed date, and related services
+3. API Documentation: Link to code repositories and auto-generate reference pages
 
 Use Notion's API to sync documentation with code repositories:
 
@@ -154,15 +154,15 @@ async function notifyUpdate(pageTitle, updatedBy) {
 
 ## Confluence for Enterprise Documentation
 
-Larger organizations often require Confluence's enterprise features. Remote teams should leverage Confluence's team spaces and content moderation features.
+Larger organizations often require Confluence's enterprise features. Remote teams should use Confluence's team spaces and content moderation features.
 
 ### Creating Effective Team Spaces
 
 Structure team spaces to mirror your organization's topology:
 
-- **Platform Team Space**: Core infrastructure and shared services
-- **Product Team Spaces**: Feature-specific documentation
-- **Engineering Operations**: Process docs, on-call schedules, runbooks
+- Platform Team Space: Core infrastructure and shared services
+- Product Team Spaces: Feature-specific documentation
+- Engineering Operations: Process docs, on-call schedules, runbooks
 
 Use Confluence's macros to create living documents that pull in real-time data:
 
@@ -191,9 +191,9 @@ Regardless of your tool choice, establish consistent workflows for documentation
 
 Implement documentation reviews as part of your sprint routine:
 
-1. **Weekly**: Quick scan for outdated information
-2. **Monthly**: Comprehensive review of critical pages
-3. **Quarterly**: Full audit of wiki structure and navigation
+1. Weekly: Quick scan for outdated information
+2. Monthly: review of critical pages
+3. Quarterly: Full audit of wiki structure and navigation
 
 ### Ownership Model
 
@@ -220,7 +220,7 @@ documentation:
 
 ### Search Strategy
 
-Remote teams need robust search across documentation. Consider implementing a unified search layer:
+Remote teams need search across documentation. Consider implementing an unified search layer:
 
 ```typescript
 interface SearchResult {

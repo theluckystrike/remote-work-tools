@@ -32,7 +32,7 @@ Managing peer feedback in distributed leadership environments requires deliberat
 
 ## Why Distributed Leadership Teams Need Structured Feedback
 
-Leadership teams in remote organizations face a unique challenge: how do you provide honest, constructive feedback when you rarely (or never) meet face-to-face? The absence of physical proximity removes many of the subtle cues that make feedback easier to deliver and receive in person. Leaders in distributed teams must be more explicit, more documented, and more intentional about their feedback processes.
+Leadership teams in remote organizations face an unique challenge: how do you provide honest, constructive feedback when you rarely (or never) meet face-to-face? The absence of physical proximity removes many of the subtle cues that make feedback easier to deliver and receive in person. Leaders in distributed teams must be more explicit, more documented, and more intentional about their feedback processes.
 
 A well-designed peer feedback exchange template solves three problems simultaneously. First, it creates consistency across the team, ensuring everyone knows what to expect. Second, it reduces the emotional weight of feedback by framing it as a routine process rather than a reaction to specific incidents. Third, it produces documentation that teams can reference later when evaluating growth and development.
 
@@ -166,14 +166,7 @@ The timing of when feedback is sent also matters. For global teams, establish a 
 
 ## Common Pitfalls to Avoid
 
-Several patterns undermine peer feedback exchanges in distributed teams. First, avoiding specificity: vague feedback like "good job" or "needs improvement" provides no actionable information. Second, focusing only on negatives: balanced feedback includes what to continue doing, not just what to change. Third, failing to follow up: without check-ins, feedback loses its impact. Fourth, treating feedback as a one-way street: everyone should both give and receive feedback, creating mutual accountability.
-
-## Conclusion
-
-Peer feedback in distributed leadership teams requires intentional structure. The JSON templates and workflow patterns in this guide provide a starting point, but adapt them to your team's specific culture and needs. The goal is not perfection—it is consistency. By establishing a regular, structured feedback exchange, you build trust, improve leadership effectiveness, and model the feedback culture you want to see across your entire organization.
-
-The best peer feedback templates are those your team actually uses. Start simple, gather feedback on the process itself, and iterate. Your distributed leadership team will be stronger for it.
-
+Several patterns undermine peer feedback exchanges in distributed teams. First, avoiding specificity: vague feedback like "good job" or "needs improvement" provides no actionable information. Second, focusing only on negatives: balanced feedback includes what to continue doing, not just what to change. Third, failing to follow up: without check-ins, feedback loses its impact. Fourth, treating feedback as an one-way street: everyone should both give and receive feedback, creating mutual accountability.
 
 ## Related Reading
 

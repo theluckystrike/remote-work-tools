@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff
 
-When your primary database instance fails at 3 AM while your DBA is eight time zones away, the difference between a 15-minute recovery and a multi-hour outage often comes down to having a well-practiced failover runbook. Database failures don't wait for business hours, and distributed DevOps teams can't rely on synchronous handoffs during critical incidents. This guide provides a comprehensive runbook template that remote engineering teams can adapt for handling database failovers across distributed staff.
+When your primary database instance fails at 3 AM while your DBA is eight time zones away, the difference between a 15-minute recovery and a multi-hour outage often comes down to having a well-practiced failover runbook. Database failures don't wait for business hours, and distributed DevOps teams can't rely on synchronous handoffs during critical incidents. This guide provides a runbook template that remote engineering teams can adapt for handling database failovers across distributed staff.
 
 ## The Challenge of Database Failover in Distributed Teams
 
@@ -225,7 +225,7 @@ done
 
 ### Phase 4: Post-Failover Verification (20-30 minutes)
 
-Run comprehensive checks to ensure the failover was successful:
+Run checks to ensure the failover was successful:
 
 ```bash
 #!/bin/bash
@@ -298,10 +298,6 @@ Create an incident report within 24 hours of the failover:
 **Practice the runbook regularly.** Schedule quarterly failover drills. Test the process with a non-production database to identify gaps before real incidents expose them.
 
 **Establish clear ownership rotation.** Ensure that failover authority is not limited to a single person. Train multiple team members and rotate on-call schedules to provide coverage across time zones.
-
-## Conclusion
-
-Database failover in distributed DevOps teams requires careful preparation, clear decision criteria, and well-documented procedures that work across time zones. The runbook template above provides a framework—adapt it to your specific database technology, monitoring tools, and team communication preferences. The key is establishing processes that enable rapid response while maintaining safety through thoughtful automation and clear escalation paths.
 
 ## Related Reading
 

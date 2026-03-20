@@ -25,7 +25,7 @@ This guide provides a practical framework for running remote demo days that genu
 
 Remote work naturally creates information silos. Engineers on one team often have no visibility into what engineers on another team are building, even when their projects directly intersect. Without deliberate exposure to other team's work, teams duplicate effort, miss opportunities to share reusable components, and struggle to understand how their contributions fit the larger picture.
 
-A well-run demo day solves this by creating a regular cadence where teams present collaborative work to the entire organization. The format forces presenters to articulate not just what they built, but why it matters and how other teams can leverage it.
+A well-run demo day solves this by creating a regular cadence where teams present collaborative work to the entire organization. The format forces presenters to articulate not just what they built, but why it matters and how other teams can use it.
 
 ## Structuring the Demo Day Format
 

@@ -222,13 +222,13 @@ Lattice requires paid plans for advanced features, and the integration ecosystem
 
 Consider these factors when selecting a weekly goal tracking tool:
 
-**Existing infrastructure**: If you already use Linear for issues, extend it rather than adding another tool. If your team uses Notion for documentation, build your goal tracker there.
+Existing infrastructure: If you already use Linear for issues, extend it rather than adding another tool. If your team uses Notion for documentation, build your goal tracker there.
 
-**Technical sophistication**: Code-first teams benefit from GitHub Projects. Teams wanting less configuration might prefer dedicated solutions like Lattice.
+Technical sophistication: Code-first teams benefit from GitHub Projects. Teams wanting less configuration might prefer dedicated solutions like Lattice.
 
-**Integration needs**: Consider what other systems must feed into your goal tracking. Marketing, design, and operations may have different tool preferences.
+Integration needs: Consider what other systems must feed into your goal tracking. Marketing, design, and operations may have different tool preferences.
 
-**Update frequency**: Some tools excel at daily updates, others at weekly or quarterly cadences. Match the tool's rhythm to your team's actual meeting schedule.
+Update frequency: Some tools excel at daily updates, others at weekly or quarterly cadences. Match the tool's rhythm to your team's actual meeting schedule.
 
 ## Implementation Pattern for Weekly Check-Ins
 

@@ -83,7 +83,7 @@ For teams using Discord, the setup follows similar principles:
 3. Create a forum channel instead for threaded discussions on individual wins
 4. Set up a recurring reminder using Discord's built-in scheduled messages
 
-## Facilitating Participation
+## helping Participation
 
 A channel only works if people use it. Facilitation makes the difference between a ghost town and a thriving community.
 

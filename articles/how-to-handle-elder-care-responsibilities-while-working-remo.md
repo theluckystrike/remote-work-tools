@@ -106,9 +106,9 @@ automation:
 Time blocking works exceptionally well for remote workers managing caregiving duties. Divide your day into dedicated blocks:
 
 - **Deep work blocks** (2-3 hours): Schedule during your peak productivity hours when caregiving interruptions are unlikely
-- **Care blocks**: Dedicated time for medical appointments, medication administration, and physical assistance
-- **Buffer blocks**: Flexible time between work and care for unexpected needs
-- **Communication blocks**: Set specific times for updating family members and coordinating with healthcare providers
+- Care blocks: Dedicated time for medical appointments, medication administration, and physical assistance
+- Buffer blocks: Flexible time between work and care for unexpected needs
+- Communication blocks: Set specific times for updating family members and coordinating with healthcare providers
 
 Use a tool like Todoist or Notion to manage these blocks visually. The key is protecting your deep work time while remaining responsive to caregiving needs.
 
@@ -116,9 +116,9 @@ Use a tool like Todoist or Notion to manage these blocks visually. The key is pr
 
 Despite best planning, interruptions will happen. Develop a protocol for handling them:
 
-1. **Use status indicators**: Set your Slack/Teams status to indicate availability
-2. **Create auto-responses**: Draft templates for unexpected absences
-3. **Build async documentation**: Ensure your team can function without immediate responses
+1. Use status indicators: Set your Slack/Teams status to indicate availability
+2. Create auto-responses: Draft templates for unexpected absences
+3. Build async documentation: Ensure your team can function without immediate responses
 
 ```bash
 # Simple bash script to update your status based on caregiving needs
@@ -145,10 +145,10 @@ update_status() {
 
 Remote work offers unique advantages for caregivers that office workers cannot access:
 
-- **Eliminate commute time**: Reclaim hours otherwise spent traveling
-- **Flexible scheduling**: Attend afternoon appointments without taking vacation
-- **Reduce stress**: Work from a comfortable environment
-- **Quick transitions**: Handle emergencies without leaving work entirely
+- Eliminate commute time: Reclaim hours otherwise spent traveling
+- Flexible scheduling: Attend afternoon appointments without taking vacation
+- Reduce stress: Work from a comfortable environment
+- Quick transitions: Handle emergencies without leaving work entirely
 
 Document your caregiving situation properly. Many HR departments now recognize caregiver burnout as a valid concern. Some companies offer caregiver leave, flexible spending accounts for medical expenses, or employee assistance programs.
 
@@ -160,13 +160,6 @@ Technical solutions alone cannot address the emotional and physical demands of e
 - Consider hiring occasional respite care to prevent burnout
 - Use meal delivery services to reduce daily workload
 - Coordinate with siblings or family members using shared task management
-
-## Conclusion
-
-Successfully managing elder care while working remotely full-time requires a combination of clear communication, smart automation, and intentional time management. The strategies outlined here—automating coordination, creating dedicated spaces, time blocking, and building support systems—help maintain productivity without sacrificing the quality of care your loved one deserves.
-
-The flexibility of remote work, when paired with technical solutions and proper boundaries, creates an environment where both career responsibilities and caregiving duties can be fulfilled effectively. Start with one or two changes, measure their impact, and iterate as your situation evolves.
-
 
 ## Related Reading
 

@@ -58,9 +58,9 @@ The first comment attacks the author's work without specificity. The second prov
 
 When you spot a potential bug or flawed logic, frame the comment as a question or observation rather than a directive:
 
-**Harsh**: "This is wrong. The API expects a string, not an object."
+Harsh: "This is wrong. The API expects a string, not an object."
 
-**Constructive**: "I'm seeing the API call passing `userConfig` as an object on line 45. The endpoint documentation shows it expects `{ key: string }` format. Will this serialize correctly, or should we extract the relevant string property first?"
+Constructive: "I'm seeing the API call passing `userConfig` as an object on line 45. The endpoint documentation shows it expects `{ key: string }` format. Will this serialize correctly, or should we extract the relevant string property first?"
 
 The second version shows you've considered the context, acknowledges you might be wrong, and invites collaboration rather than demanding compliance.
 
@@ -68,9 +68,9 @@ The second version shows you've considered the context, acknowledges you might b
 
 Remote teams often have diverse backgrounds with different solution patterns. Suggest alternatives without dismissing the author's work:
 
-**Harsh**: "Use a map instead of this for loop. It's more Pythonic."
+Harsh: "Use a map instead of this for loop. It's more Pythonic."
 
-**Constructive**: "This loop works well here. An alternative approach using `map()` would eliminate the mutable accumulator and could make the transformation logic more composable. Here's an example:
+Constructive: "This loop works well here. An alternative approach using `map()` would eliminate the mutable accumulator and could make the transformation logic more composable. Here's an example:
 
 ```python
 # Alternative approach for consideration
@@ -85,9 +85,9 @@ This approach shares knowledge without imposing preference and explicitly leaves
 
 Code style discussions generate more friction than almost any other review topic. Establish team linters and style guides upfront, then limit style comments to educational opportunities:
 
-**Harsh**: "Use f-strings instead of .format(). Everyone knows they're better."
+Harsh: "Use f-strings instead of .format(). Everyone knows they're better."
 
-**Constructive**: "This uses `.format()` syntax. Our style guide recommends f-strings for new code—they're slightly more readable and have marginally better performance. Not blocking, but worth updating if you're touching this area anyway."
+Constructive: "This uses `.format()` syntax. Our style guide recommends f-strings for new code—they're slightly more readable and have marginally better performance. Not blocking, but worth updating if you're touching this area anyway."
 
 The key difference: framing style preferences as team standards rather than personal opinions, and offering flexibility with "not blocking."
 
@@ -95,16 +95,16 @@ The key difference: framing style preferences as team standards rather than pers
 
 Individual comment practices scale through team agreements. Consider establishing these norms explicitly:
 
-**Response time expectations**: Define SLA for review turnaround. In async teams, 24-48 hours shows respect for authors waiting on feedback.
+Response time expectations: Define SLA for review turnaround. In async teams, 24-48 hours shows respect for authors waiting on feedback.
 
-**Comment prefixes**: Some teams use tags to clarify intent:
+Comment prefixes: Some teams use tags to clarify intent:
 
 - `[suggestion]` - Optional improvement, author's choice
-- `[question]` - Seeking clarification, not criticism  
+- `[question]` - Seeking clarification, not criticism 
 - `[nit]` - Trivial preference, not worth blocking
 - `[required]` - Actual blocker requiring change
 
-**Approval etiquette**: Define what "approved with comments" means versus "changes requested." GitHub's review features help enforce these distinctions.
+Approval etiquette: Define what "approved with comments" means versus "changes requested." GitHub's review features help enforce these distinctions.
 
 ## Modeling Constructive Feedback at Scale
 
@@ -116,19 +116,19 @@ Conversely, harsh comments from senior engineers signal that criticism is accept
 
 Sometimes authors push back on feedback. This is healthy and should be encouraged when done respectfully. When pushback occurs:
 
-1. **Reconsider your position**: The author may have context you lack
-2. **Acknowledge valid points**: "You make a fair point about performance here—I hadn't considered the database connection overhead"
-3. **Escalate only when necessary**: If disagreement involves security, compliance, or architectural principles, involve the team or tech lead
-4. **Let go of non-issues**: If your suggestion was genuinely optional, accept the author's decision gracefully
+1. Reconsider your position: The author may have context you lack
+2. Acknowledge valid points: "You make a fair point about performance here—I hadn't considered the database connection overhead"
+3. Escalate only when necessary: If disagreement involves security, compliance, or architectural principles, involve the team or tech lead
+4. Let go of non-issues: If your suggestion was genuinely optional, accept the author's decision gracefully
 
 ## Measuring Review Comment Quality
 
 Track these signals to assess your team's review culture:
 
-- **Review cycle time**: Are comments turning around quickly enough?
-- **Comment sentiment**: Do reviews feel supportive or combative?
-- **Author retention**: Do developers stay engaged with the review process?
-- **Knowledge transfer**: Are junior developers learning from review comments?
+- Review cycle time: Are comments turning around quickly enough?
+- Comment sentiment: Do reviews feel supportive or combative?
+- Author retention: Do developers stay engaged with the review process?
+- Knowledge transfer: Are junior developers learning from review comments?
 
 Regular retrospectives should include discussion of review practices, not just code outcomes.
 

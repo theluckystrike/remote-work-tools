@@ -67,10 +67,10 @@ Create a dedicated space structure that separates client-visible content from in
 ```
 Client Projects/
 ├── Acme Corp Website/
-│   ├── 01_Project_Plan (Client View)
-│   ├── 02_Milestones (Client View)
-│   ├── 03_Deliverables (Client View)
-│   └── Internal_Discussions (Team Only)
+│ ├── 01_Project_Plan (Client View)
+│ ├── 02_Milestones (Client View)
+│ ├── 03_Deliverables (Client View)
+│ └── Internal_Discussions (Team Only)
 ```
 
 The key principle: curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status—not sprint planning, bug backlogs, or internal code review discussions.
@@ -92,7 +92,7 @@ const createClientView = async (listId) => {
       "name": "Client Progress View",
       "filters": {
         "status": ["Not Started", "In Progress", "Complete"],
-        "assignees": []  // Show all tasks
+        "assignees": [] // Show all tasks
       },
       "filter_version": 2,
       "show_subtasks": true,

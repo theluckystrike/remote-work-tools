@@ -128,7 +128,7 @@ Store these in a searchable location—GitHub issues, a Notion database, or a de
 
 When decisions require broader input, implement structured async voting:
 
-**Single Ticket Voting**: Use emoji reactions or simple polls
+Single Ticket Voting: Use emoji reactions or simple polls
 ```
 👍 = Agree, move forward
 👎 = Disagree, need revision
@@ -136,7 +136,7 @@ When decisions require broader input, implement structured async voting:
 🎉 = Enthusiastic support
 ```
 
-**Multi-Option Selection**: For choices with multiple alternatives, use scored voting:
+Multi-Option Selection: For choices with multiple alternatives, use scored voting:
 
 ```python
 # Simple async voting calculator
@@ -189,10 +189,10 @@ Time bounds create urgency while maintaining async compatibility. Team members k
 
 Start with low-stakes decisions to build muscle memory:
 
-1. **Week 1-2**: Use decision records for Tier 2 and Tier 3 decisions only
-2. **Week 3-4**: Introduce voting mechanisms for team process decisions
-3. **Month 2**: Expand to include Tier 1 decisions
-4. **Month 3**: Conduct retrospective on what's working and iterate
+1. Week 1-2: Use decision records for Tier 2 and Tier 3 decisions only
+2. Week 3-4: Introduce voting mechanisms for team process decisions
+3. Month 2: Expand to include Tier 1 decisions
+4. Month 3: Conduct retrospective on what's working and iterate
 
 Resistance to new processes is normal. Frame the framework as iterative—perfect processes don't exist, and your team will refine the approach over time.
 
@@ -200,10 +200,10 @@ Resistance to new processes is normal. Frame the framework as iterative—perfec
 
 Several patterns undermine decision-making frameworks:
 
-- **Analysis paralysis**: Requiring too much documentation for trivial decisions
-- **Silent disagreement**: Team members who don't voice concerns but won't execute
-- **Revisiting decisions**: Continuously reopening settled matters
-- **Missing context**: Decisions made without adequate background for reviewers
+- Analysis paralysis: Requiring too much documentation for trivial decisions
+- Silent disagreement: Team members who don't voice concerns but won't execute
+- Revisiting decisions: Continuously reopening settled matters
+- Missing context: Decisions made without adequate background for reviewers
 
 Address these through clear guidelines about when to push back, how to voice dissent constructively, and explicit policies about decision finality.
 

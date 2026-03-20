@@ -225,10 +225,10 @@ The critical part: if no decision-maker responds within the time-box, implement 
 
 Track these metrics to understand if your decision-making framework is working:
 
-- **Decision velocity**: Average time from proposal to resolution
-- **Escalation rate**: Percentage of decisions that escalate beyond tier 1-2
-- **Decision reversal rate**: How often decisions are undone (high rates may indicate poor context)
-- **Participation in decisions**: Are team members contributing to async discussions?
+- Decision velocity: Average time from proposal to resolution
+- Escalation rate: Percentage of decisions that escalate beyond tier 1-2
+- Decision reversal rate: How often decisions are undone (high rates may indicate poor context)
+- Participation in decisions: Are team members contributing to async discussions?
 
 ```sql
 -- Query to measure decision velocity

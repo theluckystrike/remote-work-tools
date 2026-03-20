@@ -249,18 +249,10 @@ app.action('complete_task', async ({ body, ack, client }) => {
 
 Track key metrics to continuously improve your workflow:
 
-- **Time to Productivity**: Days from start to first meaningful contribution
-- **Check-in Response Rate**: How quickly new hires respond to automated messages
-- **Task Completion Time**: Average time to complete each onboarding milestone
-- **New Hire Satisfaction**: Weekly pulse survey scores during onboarding
+- Time to Productivity: Days from start to first meaningful contribution
+- Check-in Response Rate: How quickly new hires respond to automated messages
+- Task Completion Time: Average time to complete each onboarding milestone
+- New Hire Satisfaction: Weekly pulse survey scores during onboarding
 
 Store these metrics in Notion alongside employee records, creating a data-driven approach to onboarding optimization.
 
-## Conclusion
-
-Building an automated onboarding workflow with Slack bots and Notion templates requires upfront development investment but pays dividends through consistent employee experiences and reduced operational overhead. Start with the basics—welcome messages and a shared checklist—then layer in complexity as your system matures.
-
-The examples above provide a foundation you can adapt to your specific tools and processes. Focus on eliminating manual handoffs, creating clear accountability for tasks, and maintaining visibility into each new hire's progress.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

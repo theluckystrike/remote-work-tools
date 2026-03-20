@@ -50,7 +50,7 @@ The API lets you retrieve video metadata, manage sharing settings, and access tr
 
 Loom also offers a Chrome extension API for team-wide deployment and a Slack integration that posts recordings directly to channels.
 
-**Veed** provides a more comprehensive API with actual video creation capabilities:
+**Veed** provides a more API with actual video creation capabilities:
 
 ```python
 import requests
@@ -110,24 +110,24 @@ ScreenPal's automation focuses on educational content workflows—quiz generatio
 
 Loom's pricing tiers:
 
-- **Free**: 25 videos, 5-minute limit, Loom branding
-- **Personal**: $8/month, unlimited videos, 30-minute limit
-- **Business**: $12/user/month, unlimited length, admin controls, API access
-- **Enterprise**: Custom pricing, SSO, advanced analytics
+- Free: 25 videos, 5-minute limit, Loom branding
+- Personal: $8/month, unlimited videos, 30-minute limit
+- Business: $12/user/month, unlimited length, admin controls, API access
+- Enterprise: Custom pricing, SSO, advanced analytics
 
 Veed's pricing:
 
-- **Free**: 10 minutes upload, 720p exports
-- **Personal**: $18/month, 50 minutes, 1080p, API access
-- **Business**: $35/user/month, unlimited, 4K exports, team features
-- **Enterprise**: Custom pricing, API limits removed
+- Free: 10 minutes upload, 720p exports
+- Personal: $18/month, 50 minutes, 1080p, API access
+- Business: $35/user/month, unlimited, 4K exports, team features
+- Enterprise: Custom pricing, API limits removed
 
 ScreenPal's pricing:
 
-- **Free**: 15-minute recordings, basic editing
-- **Premier**: $24/year, 30-minute recordings, longer exports
-- **Team**: $89/year, 45-minute recordings, team management
-- **Business**: Custom pricing, API access, SSO
+- Free: 15-minute recordings, basic editing
+- Premier: $24/year, 30-minute recordings, longer exports
+- Team: $89/year, 45-minute recordings, team management
+- Business: Custom pricing, API access, SSO
 
 For a 10-person developer team with API needs, Loom Business runs approximately $120/month, Veed Business runs $350/month, and ScreenPal Business pricing requires a quote. Loom offers the best value for standard async updates, while Veed justifies higher costs if you need programmatic video processing.
 

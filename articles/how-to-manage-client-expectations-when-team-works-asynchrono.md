@@ -161,13 +161,6 @@ Several tools support async client communication:
 
 These aren't required but reduce friction in async client relationships.
 
-## Summary
-
-Managing client expectations with async teams comes down to three principles: **set clear boundaries**, **communicate proactively**, and **deliver consistently**. Define response windows in contracts, use appropriate channels for different urgency levels, create predictable update rhythms, and build trust through reliable delivery. Your team maintains work-life balance while clients feel informed and valued.
-
-The shift from synchronous to asynchronous client management requires upfront effort but pays dividends in sustainable team operations and strong client relationships built on transparency rather than availability.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

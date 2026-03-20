@@ -251,19 +251,12 @@ Compare scores between remote and office team members quarterly. If remote membe
 
 Onboarding remote employees requires extra structure:
 
-1. **Week 1**: Set up all accounts, complete security training, and run through codebase architecture
-2. **Week 2**: Pair program with a buddy on small tasks, attend all team meetings
-3. **Week 3-4**: Take on meaningful work with code review from multiple team members
-4. **Monthly**: Check-in with manager on integration, tools, and process effectiveness
+1. Week 1: Set up all accounts, complete security training, and run through codebase architecture
+2. Week 2: Pair program with a buddy on small tasks, attend all team meetings
+3. Week 3-4: Take on meaningful work with code review from multiple team members
+4. Monthly: Check-in with manager on integration, tools, and process effectiveness
 
 Document the entire onboarding process so remote hires can reference it later.
-
-## Conclusion
-
-Successfully managing a hybrid team with permanent remote members comes down to intentional infrastructure. Build systems that make work visible, document decisions proactively, and create asynchronous workflows that don't penalize time zone differences.
-
-Start by implementing one or two of these practices—perhaps the communication norms and automated status reporting—and iterate based on what your specific team needs.
-
 
 ## Related Reading
 

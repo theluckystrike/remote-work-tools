@@ -54,10 +54,10 @@ TPE has become the premium choice for hard floors because it contains no harmful
 
 Thickness directly impacts chair maneuverability and floor protection:
 
-- **Under 2mm**: Too thin, offers minimal protection, prone to curling
-- **2-3mm**: Standard for low-pile carpet and hardwood, good balance
-- **3-5mm**: Thick carpet use, may require chair with long stem casters
-- **5mm+**: Industrial/commercial use, can create tripping hazard
+- Under 2mm: Too thin, offers minimal protection, prone to curling
+- 2-3mm: Standard for low-pile carpet and hardwood, good balance
+- 3-5mm: Thick carpet use, may require chair with long stem casters
+- 5mm+: Industrial/commercial use, can create tripping hazard
 
 For developers and power users who frequently roll between desk, keyboard stand, and monitor arm, a mat that's too thick creates inconsistent rolling resistance—a subtle but persistent annoyance during long work sessions.
 
@@ -68,18 +68,18 @@ For developers and power users who frequently roll between desk, keyboard stand,
 If your home office has carpeting:
 
 1. **Measure pile depth** by pressing a ruler into the fibers. Low-pile (< 1/4 inch), medium-pile (1/4 to 1/2 inch), high-pile (> 1/2 inch)
-2. **Choose backing type**: Cleated/gripper for carpet, smooth for hard floors—never interchange
-3. **Verify edge treatment**: Beveled edges prevent tripping and allow smooth caster entry/exit
-4. **Check caster compatibility**: Thick carpet may require stem extenders
+2. Choose backing type: Cleated/gripper for carpet, smooth for hard floors—never interchange
+3. Verify edge treatment: Beveled edges prevent tripping and allow smooth caster entry/exit
+4. Check caster compatibility: Thick carpet may require stem extenders
 
 ### For Hardwood/Floor Offices
 
 For hardwood, laminate, tile, or vinyl flooring:
 
-1. **Ensure non-staining backing**: Some PVC mats leave permanent discoloration
-2. **Look for anti-static properties**: Important if you work with sensitive electronics
-3. **Verify transparency options**: Clear mats preserve visual continuity of flooring
-4. **Test grip when wet**: Some mats become slippery in humid conditions
+1. Ensure non-staining backing: Some PVC mats leave permanent discoloration
+2. Look for anti-static properties: Important if you work with sensitive electronics
+3. Verify transparency options: Clear mats preserve visual continuity of flooring
+4. Test grip when wet: Some mats become slippery in humid conditions
 
 ## Automated Comparison Script
 
@@ -143,13 +143,13 @@ This approach demonstrates how to systematically evaluate options—useful when 
 
 ## Common Mistakes to Avoid
 
-**Using a carpet mat on hardwood**: The gripper backing will scratch and damage hard flooring surfaces.
+Using a carpet mat on hardwood: The gripper backing will scratch and damage hard flooring surfaces.
 
-**Using a thin hard floor mat on thick carpet**: The mat will sink into the carpet, creating an uneven surface and defeating its purpose.
+Using a thin hard floor mat on thick carpet: The mat will sink into the carpet, creating an uneven surface and defeating its purpose.
 
-**Choosing aesthetics over function**: Transparent mats look sleek but may show scratches and wear more visibly.
+Choosing aesthetics over function: Transparent mats look sleek but may show scratches and wear more visibly.
 
-**Ignouncing caster compatibility**: Not all chair mats work with all chair types. Some require standard stem casters; others need roller-bar casters for thick carpet.
+Ignouncing caster compatibility: Not all chair mats work with all chair types. Some require standard stem casters; others need roller-bar casters for thick carpet.
 
 ## Maintenance and Longevity
 
@@ -164,10 +164,10 @@ Extend your chair mat's life regardless of type:
 
 For most home office setups:
 
-- **Carpet up to 1/2 inch pile**: 2-3mm polycarbonate with gripper backing
-- **Thick carpet over 1/2 inch**: 4-5mm polycarbonate, consider caster extenders
-- **Hardwood/Laminate**: 2-3mm TPE or natural rubber with non-slip backing
-- **Mixed flooring**: Universal mat with moderate thickness, or two mats for different zones
+- Carpet up to 1/2 inch pile: 2-3mm polycarbonate with gripper backing
+- Thick carpet over 1/2 inch: 4-5mm polycarbonate, consider caster extenders
+- Hardwood/Laminate: 2-3mm TPE or natural rubber with non-slip backing
+- Mixed flooring: Universal mat with moderate thickness, or two mats for different zones
 
 The right chair mat is an investment in both your comfort and your flooring. Take time to measure your carpet depth or verify your floor type, check your chair's caster type, and choose materials appropriate to your specific situation. Your joints—and your floor—will thank you after years of daily use.
 

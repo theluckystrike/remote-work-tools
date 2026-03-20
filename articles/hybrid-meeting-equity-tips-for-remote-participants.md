@@ -163,10 +163,10 @@ After each meeting, post a written summary with action items, decisions made, an
 
 Design every meeting document as if someone will read it without attending. Include:
 
-- **Context section**: Why this meeting matters and what background participants need
-- **Decision criteria**: What factors will determine the outcome
-- **Pre-meeting input**: Specific questions each participant should answer in writing before the meeting
-- **Async contribution window**: A 24-hour period before the meeting where written comments are accepted
+- Context section: Why this meeting matters and what background participants need
+- Decision criteria: What factors will determine the outcome
+- Pre-meeting input: Specific questions each participant should answer in writing before the meeting
+- Async contribution window: A 24-hour period before the meeting where written comments are accepted
 
 ### Camera and Visibility Equity
 

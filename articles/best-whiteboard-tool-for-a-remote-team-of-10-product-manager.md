@@ -25,11 +25,11 @@ A team of 10 product managers working remotely has specific needs that differ fr
 
 Consider these core requirements before evaluating specific platforms:
 
-- **Latency tolerance**: Sub-100ms cursor sync for natural collaboration
-- **Template library**: Pre-built frameworks for roadmapping and story mapping
-- **API access**: Programmatically export boards or sync with external systems
-- **Presentation mode**: Clean viewing experience for stakeholder demos
-- **Pricing at scale**: 10-user teams need predictable per-seat costs
+- Latency tolerance: Sub-100ms cursor sync for natural collaboration
+- Template library: Pre-built frameworks for roadmapping and story mapping
+- API access: Programmatically export boards or sync with external systems
+- Presentation mode: Clean viewing experience for stakeholder demos
+- Pricing at scale: 10-user teams need predictable per-seat costs
 
 ## Miro: The Enterprise Standard
 

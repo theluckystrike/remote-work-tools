@@ -208,11 +208,11 @@ Several trends are reshaping remote capacity planning:
 
 The best tool depends on your team's specific situation:
 
-- **Small teams (under 15 engineers)**: Start with spreadsheets or built-in project management features. Add complexity only when pain points emerge.
+- Small teams (under 15 engineers): Start with spreadsheets or built-in project management features. Add complexity only when pain points emerge.
 
-- **Mid-size teams (15-50 engineers)**: Consider specialized tools like Linear or Height that balance capability with adoption overhead.
+- Mid-size teams (15-50 engineers): Consider specialized tools like Linear or Height that balance capability with adoption overhead.
 
-- **Large teams (50+ engineers)**: Invest in dedicated capacity planning infrastructure, whether commercial tools or custom-built dashboards integrated with your existing systems.
+- Large teams (50+ engineers): Invest in dedicated capacity planning infrastructure, whether commercial tools or custom-built dashboards integrated with your existing systems.
 
 Whatever approach you choose, the key is consistency: track your projections against actual outcomes, refine your models quarterly, and maintain transparent communication about capacity constraints with stakeholders.
 

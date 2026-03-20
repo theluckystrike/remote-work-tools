@@ -262,15 +262,6 @@ function checkPipelineModifications() {
 
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
 
-## Summary
-
-Securing CI/CD pipelines from supply chain attacks requires a defense-in-depth approach. Start by pinning dependencies and verifying their integrity. Add security scanning tools to your pipeline and ensure proper secrets management. Isolate build environments and apply least-privilege access controls throughout.
-
-Remote teams should pay special attention to developer workstation security and ensure pipeline modifications require proper review. By implementing these practical measures, you significantly reduce the risk of supply chain compromises affecting your software delivery process.
-
-The security of your software ultimately depends on the integrity of your delivery pipeline. Invest in protecting it accordingly.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

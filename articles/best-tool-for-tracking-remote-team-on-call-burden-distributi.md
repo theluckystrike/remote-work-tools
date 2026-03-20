@@ -213,7 +213,7 @@ Start tracking on-call burden without purchasing new tools:
 3. **Review burden monthly** in team retrospectives
 4. **Adjust upcoming schedules** based on previous month's data
 
-The "best" tool ultimately depends on what you already have. Teams with GitHub can start immediately using issues. Teams withPagerDuty can leverage existing analytics. Teams running Kubernetes can adopt Grafana On-Call as a natural extension of their observability stack.
+The "best" tool ultimately depends on what you already have. Teams with GitHub can start immediately using issues. Teams withPagerDuty can use existing analytics. Teams running Kubernetes can adopt Grafana On-Call as a natural extension of their observability stack.
 
 Fair on-call distribution is a solved problem at the tracking level—the challenge is consistently reviewing the data and actually adjusting rotations based on what it reveals.
 

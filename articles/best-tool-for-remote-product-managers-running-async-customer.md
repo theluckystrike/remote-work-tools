@@ -21,7 +21,7 @@ Async customer discovery interviews let product managers collect video responses
 
 The ideal tool for async customer discovery combines several capabilities: video recording with timestamped notes, structured question templates, easy sharing with stakeholders, and integration with your existing workflow. Most importantly, it should produce artifacts that your team can reference long after the interview concludes.
 
-For developers and power users, the tool should offer API access or at least export capabilities that let you manipulate interview data programmatically. Customer discovery generates enormous amounts of qualitative data—being able to query, tag, and analyze this data programmatically transforms it from static recordings into a actionable knowledge base.
+For developers and power users, the tool should offer API access or at least export capabilities that let you manipulate interview data programmatically. Customer discovery generates enormous amounts of qualitative data—being able to query, tag, and analyze this data programmatically transforms it from static recordings into an actionable knowledge base.
 
 ## Building a Custom Async Interview Pipeline
 
@@ -135,13 +135,6 @@ Regardless of which tool you choose, structure your async discovery process cons
 5. **Share actionable summaries** — Convert insights into issues, features, or docs
 
 This workflow produces reusable artifacts. Your interview library becomes a referenceable knowledge base that new team members can explore independently.
-
-## Conclusion
-
-The best tool for async customer discovery depends on your team's technical comfort level and integration needs. Engineering-forward teams benefit from building custom pipelines that export data in portable formats. Less technical teams may prefer all-in-one platforms that handle recording, transcription, and analysis in one place.
-
-What matters most is consistency. Run enough async interviews to identify patterns, store the recordings accessibly, and create systematic ways to convert insights into product decisions. The tool is secondary to the process.
-
 
 ## Related Reading
 

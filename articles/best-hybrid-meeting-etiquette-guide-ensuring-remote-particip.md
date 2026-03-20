@@ -81,7 +81,7 @@ const meetingNotesTemplate = `
 
 ### The Round-Robin Rule
 
-In hybrid meetings, natural conversation flow favors in-room participants. Implement a explicit round-robin practice where you directly address remote participants:
+In hybrid meetings, natural conversation flow favors in-room participants. Implement an explicit round-robin practice where you directly address remote participants:
 
 ```
 "Before we move to the next topic, let's hear from each remote participant. 
@@ -112,9 +112,9 @@ echo "Meeting Reminder: Enable live captions before starting" | \
 
 Remote participants cannot see what's written on physical whiteboards or pointed at on physical documents. Establish protocols:
 
-- **Digitize everything**: Use Miro, FigJam, or Google Docs instead of physical whiteboards
-- **Verbally describe visuals**: When pointing at something, describe it aloud: "I'm highlighting the error rate spike in the third column"
-- **Share screens proactively**: Don't ask if people want to see the screen—just share it
+- Digitize everything: Use Miro, FigJam, or Google Docs instead of physical whiteboards
+- Verbally describe visuals: When pointing at something, describe it aloud: "I'm highlighting the error rate spike in the third column"
+- Share screens proactively: Don't ask if people want to see the screen—just share it
 
 ## Technical Implementation: Meeting Bot
 
@@ -193,10 +193,10 @@ python3 hybrid_meeting_helper.py
 
 The meeting doesn't end when everyone leaves the video call. Remote participants benefit from explicit follow-up:
 
-1. **Share recordings within 24 hours**: Always record and share meetings
-2. **Send written meeting notes**: Even with transcription, a summary helps
-3. **Assign action items explicitly**: Don't assume everyone heard who committed to what
-4. **Create async feedback channels**: Give remote participants time to provide input after the meeting
+1. Share recordings within 24 hours: Always record and share meetings
+2. Send written meeting notes: Even with transcription, a summary helps
+3. Assign action items explicitly: Don't assume everyone heard who committed to what
+4. Create async feedback channels: Give remote participants time to provide input after the meeting
 
 ## Measuring Success
 
@@ -216,13 +216,6 @@ HAVING remote_count > 0;
 ```
 
 If remote participation (measured by messages sent, questions asked, or action items assigned) drops below 30% of total participation, your meetings are likely excluding remote team members.
-
-## Conclusion
-
-Hybrid meeting equity requires intentional design, not just good intentions. By implementing proper room infrastructure, establishing inclusive protocols, and following up systematically, you create meetings where remote participants contribute at equal levels to in-room attendees.
-
-The technical solutions here—camera setups, shared documents, automation scripts—are straightforward. The harder work is consistently applying these practices until they become muscle memory for your team.
-
 
 ## Related Reading
 

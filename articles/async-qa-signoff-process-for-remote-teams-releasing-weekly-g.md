@@ -29,9 +29,9 @@ The key benefits include eliminating meeting scheduling overhead, providing a pe
 
 Not all changes require the same level of review. Categorize your signoffs to avoid over-processing:
 
-- **Hotfix Signoff**: Critical bug fixes require expedited async review with a designated approver
-- **Feature Signoff**: New features need comprehensive review against acceptance criteria
-- **Routine Signoff**: Dependency updates and minor changes follow a streamlined process
+- Hotfix Signoff: Critical bug fixes require expedited async review with a designated approver
+- Feature Signoff: New features need review against acceptance criteria
+- Routine Signoff: Dependency updates and minor changes follow a streamlined process
 
 Create a simple configuration to document these categories:
 
@@ -141,10 +141,10 @@ def check_pending_signoffs():
 
 When reviewers disagree, avoid the temptation to immediately schedule a meeting. Use async discussion to clarify:
 
-1. **Request clarification**: Ask specific questions about the concern
-2. **Provide context**: Share screenshots, logs, or user research findings
-3. **Propose options**: Suggest alternatives that address the concern
-4. **Escalate if needed**: After 2-3 async exchanges, schedule a focused sync
+1. Request clarification: Ask specific questions about the concern
+2. Provide context: Share screenshots, logs, or user research findings
+3. Propose options: Suggest alternatives that address the concern
+4. Escalate if needed: After 2-3 async exchanges, schedule a focused sync
 
 Document disagreements and their resolution in the PR for future reference:
 
@@ -202,23 +202,16 @@ jobs:
 
 Track these metrics to improve your async QA signoff process:
 
-- **Time to first review**: How quickly does the first reviewer comment?
-- **Review completion time**: Total time from PR open to approved signoff
-- **Signoff rejection rate**: How often are changes sent back for revision?
-- **Sync meeting reduction**: How many synchronous meetings did async replace?
+- Time to first review: How quickly does the first reviewer comment?
+- Review completion time: Total time from PR open to approved signoff
+- Signoff rejection rate: How often are changes sent back for revision?
+- Sync meeting reduction: How many synchronous meetings did async replace?
 
 Review these metrics weekly during your release retrospective and iterate on your process.
 
 ## Common Pitfalls to Avoid
 
 Several patterns undermine async QA effectiveness. First, unclear acceptance criteria lead to ambiguous feedback—always define what "done" looks like before requesting review. Second, excessive reviewers create coordination overhead—two reviewers typically suffice for feature PRs. Third, ignoring time zone considerations when assigning reviewers causes delays—distribute review requests across regions. Fourth, bypassing the async process during time pressure defeats the purpose—protect the process even during crunch periods.
-
-## Conclusion
-
-An async QA signoff process for remote teams releasing weekly transforms how your team handles quality assurance. By structuring PRs for async review, automating reminders, and using clear feedback templates, you maintain quality standards without synchronizing calendars. Start with one team or project, measure your results, and expand the process as your team builds confidence in the async workflow.
-
-The transition requires patience and consistent practice. Teams typically need 3-4 weekly release cycles to fully adopt the process. Stick with it—your future self dealing with 2 AM release emergencies will thank you.
-
 
 ## Related Reading
 

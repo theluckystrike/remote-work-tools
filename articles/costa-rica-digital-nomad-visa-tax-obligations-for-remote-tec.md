@@ -55,7 +55,7 @@ For digital nomads earning exclusively foreign income, these rates typically do 
 
 Even if your foreign income is not taxed by Costa Rica, you may still need to file an annual tax declaration. Costa Rica requires all residents and de facto residents to report worldwide income, though foreign-source income is taxed at reduced rates or may be exempt under tax treaties.
 
-As a practical example, consider a remote developer earning $120,000 annually from a US-based startup:
+As a practical example, consider a remote developer earning $120,000 annually from an US-based startup:
 
 ```python
 # Example: Calculating Costa Rican tax liability on foreign income
@@ -74,15 +74,15 @@ taxable_local_equivalent = 0  # Foreign income not subject to full taxation
 estimated_tax = 0  # No Costa Rican tax on pure foreign earnings
 ```
 
-The actual calculation depends on tax treaty provisions between Costa Rica and your home country. The United States does not have a comprehensive tax treaty with Costa Rica, but both countries have limited agreements addressing certain income types.
+The actual calculation depends on tax treaty provisions between Costa Rica and your home country. The United States does not have a tax treaty with Costa Rica, but both countries have limited agreements addressing certain income types.
 
 ## Home Country Tax Obligations
 
 Most digital nomads maintain tax residence in their home country. The United States, for example, taxes citizens and green card holders on worldwide income regardless of physical location. This means:
 
-- **US Citizens**: Continue filing US tax returns and reporting foreign bank accounts (FBAR) if aggregate foreign account balances exceed $10,000
-- **US Tax Credits**: May claim foreign income tax paid to Costa Rica as a credit against US tax liability
-- **Foreign Earned Income Exclusion**: Can exclude up to $126,500 (2024 figure) of foreign-earned income if you pass either the physical presence test or bona fide residence test
+- US Citizens: Continue filing US tax returns and reporting foreign bank accounts (FBAR) if aggregate foreign account balances exceed $10,000
+- US Tax Credits: May claim foreign income tax paid to Costa Rica as a credit against US tax liability
+- Foreign Earned Income Exclusion: Can exclude up to $126,500 (2024 figure) of foreign-earned income if you pass either the physical presence test or bona fide residence test
 
 For developers spending significant time in Costa Rica, the foreign earned income exclusion often eliminates US tax liability on remote work income entirely.
 
@@ -108,20 +108,20 @@ For US citizens, working abroad does not typically exempt you from US Social Sec
 
 Before relocating under Costa Rica's digital nomad visa, establish a compliance framework:
 
-1. **Determine tax residence**: Clarify whether you will maintain home-country residence or establish Costa Rican residence
-2. **Check tax treaties**: Review any applicable treaty between Costa Rica and your home country
-3. **Maintain foreign income documentation**: Keep records showing income source and payment location
-4. **File annually**: Complete required tax returns in both Costa Rica (if required) and your home country
-5. **Report foreign accounts**: File FBAR or equivalent if you open local bank accounts
-6. **Consider professional advice**: Tax situations for digital nomads are complex; professional guidance prevents costly errors
+1. Determine tax residence: Clarify whether you will maintain home-country residence or establish Costa Rican residence
+2. Check tax treaties: Review any applicable treaty between Costa Rica and your home country
+3. Maintain foreign income documentation: Keep records showing income source and payment location
+4. File annually: Complete required tax returns in both Costa Rica (if required) and your home country
+5. Report foreign accounts: File FBAR or equivalent if you open local bank accounts
+6. Consider professional advice: Tax situations for digital nomads are complex; professional guidance prevents costly errors
 
 ## State Considerations for Remote Contractors
 
 If you contract directly with companies rather than working as an employee, your tax situation includes additional considerations:
 
-- **Self-employment tax**: In the US, you pay both employer and employee Social Security contributions (15.3% on net earnings)
-- **Quarterly estimated taxes**: Avoid underpayment penalties by filing quarterly estimates
-- **State taxes**: Some US states tax worldwide income regardless of residency; California and New York are particularly aggressive
+- Self-employment tax: In the US, you pay both employer and employee Social Security contributions (15.3% on net earnings)
+- Quarterly estimated taxes: Avoid underpayment penalties by filing quarterly estimates
+- State taxes: Some US states tax worldwide income regardless of residency; California and New York are particularly aggressive
 
 For developers working as contractors, structuring your business as an LLC or S-corporation can reduce self-employment tax liability and provide additional flexibility.
 

@@ -98,15 +98,15 @@ The key insight: **always score independently before discussing**. Group discuss
 
 After practice interviews, analyze the variance in scoring. Look for patterns:
 
-- **Lenient outlier**: One interviewer consistently scores 2 points higher than the group average
-- **Harsh outlier**: One interviewer rejects candidates others would pass
-- **Category bias**: Someone scores high on coding but harsh on communication
+- Lenient outlier: One interviewer consistently scores 2 points higher than the group average
+- Harsh outlier: One interviewer rejects candidates others would pass
+- Category bias: Someone scores high on coding but harsh on communication
 
 Address these patterns through targeted coaching. A lenient interviewer might benefit from reviewing rejected candidate examples. Someone harsh on communication might need calibration on what's actually required for the role.
 
 ## Running Ongoing Calibration
 
-Calibration shouldn't be a one-time event. Build it into your recurring processes:
+Calibration shouldn't be an one-time event. Build it into your recurring processes:
 
 ### Monthly Calibration Refreshers
 
@@ -162,10 +162,10 @@ Beyond candidate evaluation, use calibration sessions to practice candidate expe
 
 Track these metrics to validate your calibration program:
 
-- **Score variance**: Standard deviation of scores across interviewers should decrease over time
-- **Offer acceptance correlation**: Candidates who pass multiple interviewers should perform better post-hire
-- **New hire quality**: Track performance ratings of hires from different interviewers over their first year
-- **Interview-to-offer ratio**: Should stabilize as calibration reduces false negatives and positives
+- Score variance: Standard deviation of scores across interviewers should decrease over time
+- Offer acceptance correlation: Candidates who pass multiple interviewers should perform better post-hire
+- New hire quality: Track performance ratings of hires from different interviewers over their first year
+- Interview-to-offer ratio: Should stabilize as calibration reduces false negatives and positives
 
 After six months of dedicated calibration, most teams see variance decrease by 40-60% and notice improved post-hire performance correlation.
 
@@ -173,18 +173,11 @@ After six months of dedicated calibration, most teams see variance decrease by 4
 
 Avoid these mistakes that undermine calibration efforts:
 
-1. **Scoring after discussion**: Always score independently first
-2. **Infrequent sessions**: Quarterly isn't enough; aim for monthly
-3. **Ignoring soft skills**: Technical calibration gets attention, but communication and culture fit need equal weight
-4. **No accountability**: Track individual interviewer patterns and address outliers
-5. **Static rubrics**: Update competency matrices as role requirements evolve
-
-## Conclusion
-
-Interviewer calibration transforms remote hiring from a crapshoot into a repeatable, defensible process. By establishing clear competency definitions, running structured practice sessions, and continuously measuring variance, your distributed team can maintain hiring quality that matches or exceeds co-located organizations.
-
-The investment pays dividends in reduced mis-hires, consistent team quality, and equitable candidate experiences regardless of which interviewer they encounter.
-
+1. Scoring after discussion: Always score independently first
+2. Infrequent sessions: Quarterly isn't enough; aim for monthly
+3. Ignoring soft skills: Technical calibration gets attention, but communication and culture fit need equal weight
+4. No accountability: Track individual interviewer patterns and address outliers
+5. Static rubrics: Update competency matrices as role requirements evolve
 
 ## Related Reading
 

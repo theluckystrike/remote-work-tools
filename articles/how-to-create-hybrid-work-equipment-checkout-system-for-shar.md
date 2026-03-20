@@ -168,11 +168,6 @@ As your deployment grows, several patterns help maintain performance. First, imp
 
 For organizations with multiple office locations, your data model should support location-aware queries. Employees should see equipment available at their primary office first, with optional filters for nearby locations.
 
-## Summary
-
-Building a hybrid work equipment checkout system requires thoughtful handling of equipment state, reservation timing, and user workflows. The patterns outlined here—status-driven logic, atomic transitions, and explicit condition tracking—provide a foundation that scales from small teams to enterprise deployments. Focus on the reservation-to-checkout flow as your core complexity, and build reporting and maintenance features on top once the basics work reliably.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

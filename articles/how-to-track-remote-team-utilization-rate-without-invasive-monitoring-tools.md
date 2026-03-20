@@ -26,7 +26,7 @@ Before implementing any tracking system, distinguish between activity and utiliz
 
 Instead of monitoring keystrokes or capturing screenshots, focus on outputs and outcomes. Developers produce code, documentation, code reviews, and communication. These artifacts represent genuine work without requiring surveillance.
 
-## GitHub Activity as a Utilization Signal
+## GitHub Activity as an Utilization Signal
 
 If your team uses GitHub, you already have a rich data source for understanding utilization patterns. The GitHub API provides commit history, pull request metrics, issue activity, and review patterns. This data reflects actual work without monitoring personal behavior.
 
@@ -172,7 +172,7 @@ def get_async_contribution_score(channel_id, days=7):
     }
 ```
 
-## Building a Utilization Dashboard
+## Building an Utilization Dashboard
 
 Combine these data sources into a single view. Use a simple approach with Google Sheets or a custom dashboard:
 
@@ -212,20 +212,13 @@ When utilization drops significantly below baseline, investigate root causes rat
 
 Follow these principles to keep utilization tracking ethical:
 
-1. **Transparency**: Share what you measure and why with your team
-2. **Aggregate over individual**: Look at team patterns, not individual surveillance
-3. **Outcome over activity**: Track deliverables, not hours worked
-4. **No real-time monitoring**: Daily or weekly aggregates, not live dashboards
-5. **Opt-in where possible**: Give team members ownership of their metrics
+1. Transparency: Share what you measure and why with your team
+2. Aggregate over individual: Look at team patterns, not individual surveillance
+3. Outcome over activity: Track deliverables, not hours worked
+4. No real-time monitoring: Daily or weekly aggregates, not live dashboards
+5. Opt-in where possible: Give team members ownership of their metrics
 
 The goal is understanding whether the team is productive, not proving individuals are working every moment.
-
-## Conclusion
-
-Tracking remote team utilization without invasive tools comes down to leveraging existing data sources—GitHub activity, project management tools, and communication platforms. Focus on outputs rather than inputs, aggregate metrics rather than individual surveillance, and trends rather than point-in-time measurements.
-
-Build systems that help teams improve their processes rather than proving someone worked enough hours. Your developers will appreciate the trust, and you'll still get the visibility you need to manage effectively.
-
 
 ## Related Reading
 

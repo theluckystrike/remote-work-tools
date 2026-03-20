@@ -28,15 +28,15 @@ The most effective freelance contracts address four areas: scope definition, pay
 
 Before selecting a template, understand the must-have clauses:
 
-**Scope of Work**: Define deliverables with enough specificity to prevent scope creep. List features, acceptance criteria, and any exclusions clearly.
+Scope of Work: Define deliverables with enough specificity to prevent scope creep. List features, acceptance criteria, and any exclusions clearly.
 
-**Payment Terms**: Specify amounts, timing, and method. Include late payment penalties and deposit requirements for new clients.
+Payment Terms: Specify amounts, timing, and method. Include late payment penalties and deposit requirements for new clients.
 
-**Intellectual Property**: Determine who owns the code after payment. Most developers transfer full ownership to clients, but you should retain rights to reusable components or tools you created.
+Intellectual Property: Determine who owns the code after payment. Most developers transfer full ownership to clients, but you should retain rights to reusable components or tools you created.
 
-**Revision Limits**: Clarify how many revision rounds are included and what additional work costs.
+Revision Limits: Clarify how many revision rounds are included and what additional work costs.
 
-**Termination Clause**: Define how either party can end the agreement and what compensation applies for work completed.
+Termination Clause: Define how either party can end the agreement and what compensation applies for work completed.
 
 ## Top Contract Templates for Freelance Developers
 
@@ -162,31 +162,31 @@ Meeting availability: [Days/times]
 
 ## Common Pitfalls to Avoid
 
-**Vague Scope Descriptions**: Phrases like "modernize the website" invite disputes. Be specific: "Redesign homepage with new branding, responsive layout, and animation effects."
+Vague Scope Descriptions: Phrases like "modernize the website" invite disputes. Be specific: "Redesign homepage with new branding, responsive layout, and animation effects."
 
-**Missing Payment Deadlines**: Always specify exact payment timing. "Payment due upon receipt" is meaningless without defining what "receipt" means. Use "within 14 days of invoice."
+Missing Payment Deadlines: Always specify exact payment timing. "Payment due upon receipt" is meaningless without defining what "receipt" means. Use "within 14 days of invoice."
 
-**No Kill Fee**: If a client cancels mid-project, you deserve compensation for work completed. Include a cancellation clause specifying what percentage of the remaining balance is due.
+No Kill Fee: If a client cancels mid-project, you deserve compensation for work completed. Include a cancellation clause specifying what percentage of the remaining balance is due.
 
-**Ignoring Jurisdiction**: Specify which state's laws govern the contract. This matters if disputes arise.
+Ignoring Jurisdiction: Specify which state's laws govern the contract. This matters if disputes arise.
 
 ## Selecting the Right Template
 
 Your choice depends on project type and client relationship:
 
-- **New client, fixed scope**: Start with fixed-price template, require 25-50% deposit
-- **Ongoing relationship, evolving needs**: Use hourly template with budget caps
-- **High-value project**: Include both contract and NDA
-- **Quick small jobs**: Even $500 tasks need written terms
+- New client, fixed scope: Start with fixed-price template, require 25-50% deposit
+- Ongoing relationship, evolving needs: Use hourly template with budget caps
+- High-value project: Include both contract and NDA
+- Quick small jobs: Even $500 tasks need written terms
 
 ## Free Resources for Contract Templates
 
 Several platforms offer free, customizable contract templates:
 
-- **GitHub**: Search for freelance contract templates in various formats
-- **LegalZoom**: Basic templates with optional attorney review
-- **Pandadoc**: Includes e-signature integration
-- **Freelancers Union**: Contract builder specifically for independent workers
+- GitHub: Search for freelance contract templates in various formats
+- LegalZoom: Basic templates with optional attorney review
+- Pandadoc: Includes e-signature integration
+- Freelancers Union: Contract builder specifically for independent workers
 
 Customize any template to your specific situation. A template provides structure, but your specific project details make it enforceable.
 

@@ -14,7 +14,7 @@ voice-checked: true
 ---
 
 {% raw %}
-Attracting top distributed talent requires more than posting jobs on LinkedIn. Your employer brand—the story you tell about working at your company—determines whether engineers even apply. Remote teams face a unique challenge: competing for talent against companies worldwide, without the advantage of physical presence.
+Attracting top distributed talent requires more than posting jobs on LinkedIn. Your employer brand—the story you tell about working at your company—determines whether engineers even apply. Remote teams face an unique challenge: competing for talent against companies worldwide, without the advantage of physical presence.
 
 This guide provides concrete strategies to build employer branding that attracts developers at scale. You'll find actionable frameworks, code examples for measuring brand equity, and systems you can implement immediately.
 
@@ -259,14 +259,6 @@ Building employer brand takes time. Prioritize actions by impact:
 - Set up developer community presence
 - Build 12-month content calendar
 - Track cNPS and iterate on interview process
-
-## Conclusion
-
-Remote team employer branding requires showing your actual engineering culture, not just describing it. Every public artifact—from README files to interview feedback—contributes to how developers perceive your company.
-
-Start with transparency. Make your interview process visible, publish technical content regularly, and invest in candidate experience even when you don't extend offers. These efforts compound over time, creating a talent attraction engine that scales.
-
-The developers you want to hire have choices. Build a brand worth choosing.
 
 ## Related Reading
 

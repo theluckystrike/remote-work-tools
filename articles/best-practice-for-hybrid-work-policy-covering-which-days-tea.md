@@ -101,7 +101,7 @@ Regardless of which pattern you choose, apply these principles when structuring 
 
 ### 1. Minimum Viable Overlap
 
-Your policy should guarantee at least two days where most team members are in office together. This enables impromptu collaboration, team meetings, and social bonding that remote-only interactions cannot replicate. Wednesdays typically work well as a universal overlap day due to mid-week energy and minimal proximity to weekend travel.
+Your policy should guarantee at least two days where most team members are in office together. This enables impromptu collaboration, team meetings, and social bonding that remote-only interactions cannot replicate. Wednesdays typically work well as an universal overlap day due to mid-week energy and minimal proximity to weekend travel.
 
 ### 2. Flexibility Within Boundaries
 
@@ -184,11 +184,6 @@ Collect feedback monthly during the first quarter, then quarterly. Track actual 
 **Ignoring commute realities** leads to resentment. Consider geographical distribution when setting expectations—a two-hour commute twice weekly feels very different from a fifteen-minute walk.
 
 **Treating remote days as less important** undermines trust. Ensure promotions, visibility opportunities, and interesting projects flow to remote workers equally.
-
-## Conclusion
-
-The best hybrid work policy for defining which days teams come to office is one your team actually follows. Start with a simple framework, gather data, and iterate. Whether you choose staggered days, cohort-based scheduling, or sprint-synchronized presence, the goal remains the same: maximize valuable collaboration while respecting individual work styles and life circumstances.
-
 
 ## Related Reading
 

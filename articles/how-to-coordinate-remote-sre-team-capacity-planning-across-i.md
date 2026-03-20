@@ -74,11 +74,11 @@ Store this inventory in a shared location accessible to all team members. Update
 
 Remote coordination requires transparent visibility into team availability. Create a capacity tracking system that captures:
 
-**Individual capacity**: Each SRE's available hours per week, accounting for meetings, admin tasks, and focus time. Assume 32-36 productive hours weekly after accounting for non-engineering work.
+Individual capacity: Each SRE's available hours per week, accounting for meetings, admin tasks, and focus time. Assume 32-36 productive hours weekly after accounting for non-engineering work.
 
-**On-call rotation load**: Track on-call frequency per pod. Excessive on-call time indicates capacity gaps.
+On-call rotation load: Track on-call frequency per pod. Excessive on-call time indicates capacity gaps.
 
-**Project allocation**: Document planned work versus reactive work. High reactive work percentages signal staffing issues.
+Project allocation: Document planned work versus reactive work. High reactive work percentages signal staffing issues.
 
 Use a lightweight tracking approach:
 
@@ -107,9 +107,9 @@ Share this report weekly in a dedicated Slack channel or team wiki. Remote team 
 
 When pods have expertise gaps or when team members are unavailable, cross-pod coverage prevents service disruptions. Establish formal coverage agreements that define:
 
-**Primary coverage**: The SRE normally responsible for a pod
-**Secondary coverage**: Backup SRE who can handle escalations
-**Escalation path**: What happens when neither is available
+Primary coverage: The SRE normally responsible for a pod
+Secondary coverage: Backup SRE who can handle escalations
+Escalation path: What happens when neither is available
 
 ```yaml
 # coverage-agreements.yaml
@@ -139,9 +139,9 @@ These agreements work bidirectionally. Engineers from other pods agree to cover 
 
 Remote teams benefit from regular async capacity discussions combined with occasional synchronous planning. Use a cadence that works for your team's time zone distribution:
 
-**Monthly async review**: Team members update their capacity document with upcoming availability changes—planned leave, training, or project deadlines. This happens asynchronously through a shared document or issue.
+Monthly async review: Team members update their capacity document with upcoming availability changes—planned leave, training, or project deadlines. This happens asynchronously through a shared document or issue.
 
-**Quarterly sync planning**: Schedule a 60-minute video call to review the upcoming quarter's capacity. Discuss major initiatives requiring SRE support, anticipated infrastructure changes, and any hiring needs.
+Quarterly sync planning: Schedule a 60-minute video call to review the upcoming quarter's capacity. Discuss major initiatives requiring SRE support, anticipated infrastructure changes, and any hiring needs.
 
 Prepare a simple agenda for quarterly sessions:
 
@@ -164,11 +164,11 @@ New SREs or engineers transitioning between pods need structured onboarding to r
 
 Create a transition plan:
 
-**Week 1-2**: Shadow existing on-call engineer. Review incidents, observe escalation patterns, familiarize with runbooks.
+Week 1-2: Shadow existing on-call engineer. Review incidents, observe escalation patterns, familiarize with runbooks.
 
-**Week 3-4**: Share on-call duties as secondary. Handle pages alongside primary engineer, who reviews all decisions.
+Week 3-4: Share on-call duties as secondary. Handle pages alongside primary engineer, who reviews all decisions.
 
-**Week 5+**: Assume primary on-call responsibility with secondary support available.
+Week 5+: Assume primary on-call responsibility with secondary support available.
 
 Track transition progress in your capacity document:
 
@@ -189,13 +189,13 @@ This graduated approach builds confidence and ensures knowledge transfer before 
 
 Sometimes capacity gaps emerge unexpectedly—a team member leaves, illness spreads, or project demands spike. Prepare response procedures:
 
-**Short-term fixes**:
+Short-term fixes:
 - Redistribute on-call within acceptable limits
 - Bring in contractors for specific expertise areas
 - Defer non-critical projects temporarily
 - Request temporary assistance from other teams
 
-**Medium-term fixes**:
+Medium-term fixes:
 - Accelerate hiring process
 - Cross-train team members to cover gaps
 - Adjust project timelines to match available capacity
@@ -225,13 +225,13 @@ Document your emergency procedures in a runbook:
 
 Track these metrics to evaluate your coordination effectiveness:
 
-**On-call frequency variance**: How evenly is on-call distributed? Aim for standard deviation below 4 hours per week.
+On-call frequency variance: How evenly is on-call distributed? Aim for standard deviation below 4 hours per week.
 
-**Coverage gap incidents**: How often did services suffer due to SRE unavailability? Track these and review root causes.
+Coverage gap incidents: How often did services suffer due to SRE unavailability? Track these and review root causes.
 
-**Time-to-competency**: How quickly do new engineers reach full capacity? Declining times indicate better transition processes.
+Time-to-competency: How quickly do new engineers reach full capacity? Declining times indicate better transition processes.
 
-**Project completion rate**: Are planned projects finishing on schedule? Missed deadlines often indicate capacity miscalculation.
+Project completion rate: Are planned projects finishing on schedule? Missed deadlines often indicate capacity miscalculation.
 
 Review these metrics quarterly and adjust your processes accordingly.
 
@@ -262,13 +262,6 @@ Capacity problems rarely resolve themselves. When engineers feel overworked, the
 **Planning once and forgetting**. Infrastructure changes constantly. Your capacity plan needs regular updates, not annual reviews.
 
 **Skipping async coordination**. Relying entirely on synchronous meetings wastes available time and excludes remote team members in different zones.
-
-## Conclusion
-
-Coordinating remote SRE team capacity across infrastructure pods requires deliberate processes, transparent visibility, and mutual accountability. Start by mapping your pod structure, implement capacity tracking, establish coverage agreements, and maintain regular review cycles. The investment in coordination pays dividends through reduced burnout, better incident response, and more predictable delivery of reliability improvements.
-
-The key is consistency. Apply these practices weekly and quarterly, and your team will develop reliable capacity awareness without excessive overhead.
-
 
 ## Related Reading
 

@@ -17,7 +17,7 @@ score: 8
 
 When potential clients evaluate freelancers, they face a fundamental problem: how to verify technical competence from a portfolio of potentially inflated claims. Open source contributions solve this problem by providing verifiable evidence of your skills. Unlike testimonials or portfolio pieces that exist behind NDA walls, your contributions to public repositories are inspectable, runnable, and judgeable by anyone with technical knowledge.
 
-This guide covers how to leverage open source contributions strategically to build credibility as a freelance developer.
+This guide covers how to use open source contributions strategically to build credibility as a freelance developer.
 
 ## Why Open Source Matters for Freelance Work
 
@@ -25,9 +25,9 @@ Client work often happens in private repositories. Even when you deliver excelle
 
 The credibility benefits are threefold:
 
-1. **Proof of actual code**: Anyone can review your commits, pull requests, and code quality
-2. **Consistency over time**: Regular contributions demonstrate sustained engagement with technology
-3. **Community standing**: Recognition in open source communities signals expertise to potential clients
+1. Proof of actual code: Anyone can review your commits, pull requests, and code quality
+2. Consistency over time: Regular contributions demonstrate sustained engagement with technology
+3. Community standing: Recognition in open source communities signals expertise to potential clients
 
 A GitHub profile with thoughtful contributions tells clients more than a resume ever could.
 
@@ -95,7 +95,7 @@ export function formatRelativeTime(date) {
 }
 ```
 
-Publish such utilities to npm with proper documentation. A well-documented package with thoughtful TypeScript types, comprehensive README, and reasonable test coverage tells clients you understand the full software development lifecycle.
+Publish such utilities to npm with proper documentation. A well-documented package with thoughtful TypeScript types, README, and reasonable test coverage tells clients you understand the full software development lifecycle.
 
 ## Documenting Your Work
 

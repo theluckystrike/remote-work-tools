@@ -25,10 +25,10 @@ This guide covers the essential components for setting up incident management th
 
 Establishing clear severity levels upfront prevents over-escalation and ensures appropriate response times. For a team of five, use a four-tier system:
 
-- **SEV1**: Critical production outage affecting all users. Target resolution: 1 hour.
-- **SEV2**: Major feature broken, significant user impact. Target resolution: 4 hours.
-- **SEV3**: Minor feature broken or performance degradation. Target resolution: 24 hours.
-- **SEV4**: Cosmetic issues or minor inconveniences. Target resolution: Next sprint.
+- SEV1: Critical production outage affecting all users. Target resolution: 1 hour.
+- SEV2: Major feature broken, significant user impact. Target resolution: 4 hours.
+- SEV3: Minor feature broken or performance degradation. Target resolution: 24 hours.
+- SEV4: Cosmetic issues or minor inconveniences. Target resolution: Next sprint.
 
 Document these levels in your team wiki and ensure every team member can reference them quickly during an incident.
 
@@ -64,12 +64,12 @@ Runbooks are step-by-step guides for handling specific incidents. They reduce co
 
 Structure each runbook with these sections:
 
-1. **Trigger conditions**: When should this runbook be used?
-2. **Immediate actions**: What to do in the first 60 seconds
-3. **Diagnosis steps**: How to identify the root cause
-4. **Resolution steps**: Concrete commands or actions to fix the issue
-5. **Verification**: How to confirm the issue is resolved
-6. **Follow-up**: Post-incident tasks and notifications
+1. Trigger conditions: When should this runbook be used?
+2. Immediate actions: What to do in the first 60 seconds
+3. Diagnosis steps: How to identify the root cause
+4. Resolution steps: Concrete commands or actions to fix the issue
+5. Verification: How to confirm the issue is resolved
+6. Follow-up: Post-incident tasks and notifications
 
 Here is an example runbook for high CPU usage:
 
@@ -109,9 +109,9 @@ Build runbooks incrementally. Start with the five most common incident types you
 
 Alert routing ensures the right person receives the right notifications. Use a tiered approach:
 
-- **Platform alerts**: All on-call engineers receive these
-- **Service-specific alerts**: Targeted to the engineer who owns that service
-- **Escalation alerts**: If an alert is unacknowledged for 10 minutes, escalate to the secondary on-call
+- Platform alerts: All on-call engineers receive these
+- Service-specific alerts: Targeted to the engineer who owns that service
+- Escalation alerts: If an alert is unacknowledged for 10 minutes, escalate to the secondary on-call
 
 Example alert configuration using Prometheus Alertmanager:
 
@@ -154,7 +154,7 @@ receivers:
 
 During an incident, clear communication prevents confusion. Prepare templates for common scenarios:
 
-**Initial Incident Alert (Slack)**:
+Initial Incident Alert (Slack):
 ```
 🚨 INCIDENT SEV{{severity}}: {{title}}
 Affected: {{services}}
@@ -163,7 +163,7 @@ Status: Investigating
 Update thread: {{thread_link}}
 ```
 
-**Status Update**:
+Status Update:
 ```
 📢 INCIDENT UPDATE #{{incident_id}}
 Status: {{investigating|identified|monitoring|resolved}}
@@ -172,7 +172,7 @@ Next action: {{next_steps}}
 ETA for resolution: {{eta}}
 ```
 
-**Incident Resolution**:
+Incident Resolution:
 ```
 ✅ INCIDENT RESOLVED #{{incident_id}}
 Duration: {{duration}}
@@ -187,12 +187,12 @@ After resolving any SEV1 or SEV2 incident, conduct a blameless post-mortem withi
 
 Use this template:
 
-1. **Summary**: What happened and impact
-2. **Timeline**: Minute-by-minute events
-3. **Root cause**: Technical trigger and contributing factors
-4. **What went well**: Successful responses to highlight
-5. **What could improve**: Action items with owners and deadlines
-6. **Similar risks**: Other areas that could have similar issues
+1. Summary: What happened and impact
+2. Timeline: Minute-by-minute events
+3. Root cause: Technical trigger and contributing factors
+4. What went well: Successful responses to highlight
+5. What could improve: Action items with owners and deadlines
+6. Similar risks: Other areas that could have similar issues
 
 Track action items in your project management tool and assign clear owners. Review open action items in each team meeting until resolved.
 

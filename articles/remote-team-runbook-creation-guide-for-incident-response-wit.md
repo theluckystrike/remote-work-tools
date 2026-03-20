@@ -96,9 +96,9 @@ Account for time zone gaps explicitly. Your escalation matrix should look like:
 
 | Severity | Time (responder) | Primary | Secondary | Tertiary |
 |----------|------------------|---------|-----------|----------|
-| SEV-1    | 22:00-06:00 UTC | On-call engineer (paged) | Engineering manager (paged) | CTO (paged) |
-| SEV-1    | 06:00-22:00 UTC | On-call engineer (paged) | Team lead (notified) | Engineering manager |
-| SEV-2    | Any             | On-call engineer (paged) | Team lead (notified) | - |
+| SEV-1 | 22:00-06:00 UTC | On-call engineer (paged) | Engineering manager (paged) | CTO (paged) |
+| SEV-1 | 06:00-22:00 UTC | On-call engineer (paged) | Team lead (notified) | Engineering manager |
+| SEV-2 | Any | On-call engineer (paged) | Team lead (notified) | - |
 
 This clarity prevents the "should I wake someone up?" paralysis that plagues distributed teams.
 
@@ -106,9 +106,9 @@ This clarity prevents the "should I wake someone up?" paralysis that plagues dis
 
 The trickiest part of distributed on-call is the transition period. When the San Francisco engineer hands off to the London engineer, critical context often gets lost. Build explicit handoff requirements:
 
-1. **Handoff document**: Before going off-call, document active issues in a shared location
-2. **Active incident status**: If an incident is open, the on-call engineer stays until the handoff is explicitly acknowledged
-3. **Recent changes**: List deploys, config changes, and any unusual traffic patterns from the last 24 hours
+1. Handoff document: Before going off-call, document active issues in a shared location
+2. Active incident status: If an incident is open, the on-call engineer stays until the handoff is explicitly acknowledged
+3. Recent changes: List deploys, config changes, and any unusual traffic patterns from the last 24 hours
 
 Here's a simple handoff template:
 
@@ -134,11 +134,11 @@ Here's a simple handoff template:
 
 A runbook that hasn't been tested is just documentation. Build testing into your routine:
 
-**Tabletop exercises**: Walk through a scenario without executing. Identify gaps in your runbooks where the written instructions don't match reality.
+Tabletop exercises: Walk through a scenario without executing. Identify gaps in your runbooks where the written instructions don't match reality.
 
-**Game days**: Deliberately trigger non-production incidents and follow the runbook end-to-end. Time how long each step takes. If step 3 requires SSH access and you don't have keys configured, you'll discover this during a game day, not during a real incident.
+Game days: Deliberately trigger non-production incidents and follow the runbook end-to-end. Time how long each step takes. If step 3 requires SSH access and you don't have keys configured, you'll discover this during a game day, not during a real incident.
 
-**Chaos engineering**: If you use tools like Chaos Monkey or Gremlin, use the same runbooks you'd use in production. The real test is whether your documentation survives real conditions.
+Chaos engineering: If you use tools like Chaos Monkey or Gremlin, use the same runbooks you'd use in production. The real test is whether your documentation survives real conditions.
 
 ## Automating Runbook Steps
 
@@ -173,9 +173,9 @@ This script returns a clear exit code that your monitoring can interpret. The ru
 
 Runbooks decay. Systems change, commands become outdated, and escalation contacts shift. Build review cadence into your workflow:
 
-- **Monthly**: On-call engineers review runbooks they used during incidents
-- **Quarterly**: Dedicated runbook audit across all SEV-1 covered systems
-- **Post-incident**: Update runbooks as part of every post-mortem action items
+- Monthly: On-call engineers review runbooks they used during incidents
+- Quarterly: Dedicated runbook audit across all SEV-1 covered systems
+- Post-incident: Update runbooks as part of every post-mortem action items
 
 Track changes with version control. When someone proposes a runbook update, the diff shows exactly what changed—this matters when you're trusting this document during a stressful incident.
 
@@ -183,17 +183,10 @@ Track changes with version control. When someone proposes a runbook update, the 
 
 Several patterns reduce runbook effectiveness in distributed teams:
 
-- **Over-linking**: If your runbook is "click here for the full guide" repeated five times, you're creating navigation overhead. Include critical steps inline.
-- **Assumed context**: Never assume the responder knows which dashboard, which repo, or which account. Every resource needs explicit identification.
-- **Single points of failure**: If one person wrote all your runbooks and leaves, you have a knowledge gap. Distribute runbook ownership across the team.
-- **Perfectionism**: A good runbook that exists beats a perfect runbook that doesn't. Start with the basics and iterate.
-
-## Final Thoughts
-
-Effective incident response in distributed teams requires documentation that compensates for the absence of synchronous collaboration. Your runbooks carry the context that would normally transfer through a quick hallway conversation or a desk-side question. Invest in making them clear, testable, and maintained. The time you spend improving runbooks before an incident directly translates to faster recovery when something actually breaks.
-
-The best runbook is one that a tired engineer at 3 AM can follow without confusion, make correct decisions without consultation, and resolve the incident before the next time zone wakes up.
-
+- Over-linking: If your runbook is "click here for the full guide" repeated five times, you're creating navigation overhead. Include critical steps inline.
+- Assumed context: Never assume the responder knows which dashboard, which repo, or which account. Every resource needs explicit identification.
+- Single points of failure: If one person wrote all your runbooks and leaves, you have a knowledge gap. Distribute runbook ownership across the team.
+- Perfectionism: A good runbook that exists beats a perfect runbook that doesn't. Start with the basics and iterate.
 
 ## Related Reading
 

@@ -154,10 +154,10 @@ For most 10-person hybrid meeting rooms, a quality USB speakerphone like the Jab
 
 The key factors in your decision should be:
 
-1. **Meeting frequency**: Daily use justifies better equipment
-2. **Remote participant importance**: If external clients frequently join, invest in better audio
-3. **Room acoustics**: Untreated rooms need better microphone directionality
-4. **Integration requirements**: Some teams need Dante or other network audio protocols
+1. Meeting frequency: Daily use justifies better equipment
+2. Remote participant importance: If external clients frequently join, invest in better audio
+3. Room acoustics: Untreated rooms need better microphone directionality
+4. Integration requirements: Some teams need Dante or other network audio protocols
 
 Test any candidate system in your actual room before full deployment. Acoustic environments vary dramatically, and a system that works well in one space may struggle in another.
 

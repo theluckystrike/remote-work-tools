@@ -133,11 +133,11 @@ Create these templates in your ticketing system so support agents can generate t
 
 Your SOP should define what gets measured:
 
-- **First Response Time**: Time from ticket creation to first staff response
-- **Time to Resolution**: Total elapsed time until the issue is resolved
-- **Handoff Gaps**: Periods where no team member actively worked the escalation
-- **Escalation Accuracy**: Percentage of escalations correctly classified at first triage
-- **Customer Satisfaction**: Post-resolution survey scores for escalated issues
+- First Response Time: Time from ticket creation to first staff response
+- Time to Resolution: Total elapsed time until the issue is resolved
+- Handoff Gaps: Periods where no team member actively worked the escalation
+- Escalation Accuracy: Percentage of escalations correctly classified at first triage
+- Customer Satisfaction: Post-resolution survey scores for escalated issues
 
 Review these metrics weekly in your team sync. Patterns in the data reveal where your process needs adjustment.
 
@@ -176,10 +176,10 @@ Automations like these ensure nothing slips through the cracks, especially durin
 
 Distributed teams need thoughtful on-call coverage. Your SOP should specify:
 
-- **Coverage windows**: Which time zones are covered during which hours
-- **Escalation path**: Exactly who gets paged first, second, and third
-- **Handoff timing**: When on-call responsibility transfers between regions
-- **Holiday coverage**: How escalations are handled during regional holidays
+- Coverage windows: Which time zones are covered during which hours
+- Escalation path: Exactly who gets paged first, second, and third
+- Handoff timing: When on-call responsibility transfers between regions
+- Holiday coverage: How escalations are handled during regional holidays
 
 For teams spanning three or more time zones, consider a "follow the sun" model where each region hands off active escalations at the end of their workday.
 

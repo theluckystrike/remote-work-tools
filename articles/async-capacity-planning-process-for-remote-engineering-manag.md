@@ -19,12 +19,12 @@ Build async capacity planning by collecting weekly availability reports from eac
 
 ## Why Async Capacity Planning Matters for Remote Teams
 
-Traditional capacity planning often relies on synchronous planning meetings—sprint planning, quarterly planning sessions, or resource allocation meetings where everyone gathers (virtually or in person) to discuss bandwidth. While these sessions serve a purpose, they create several problems for distributed teams:
+Traditional capacity planning often relies on synchronous planning meetings—sprint planning, quarterly planning sessions, or resource allocation meetings where everyone gathers (or in person) to discuss bandwidth. While these sessions serve a purpose, they create several problems for distributed teams:
 
-- **Time zone fatigue**: Scheduling meetings that work for everyone often means someone joins outside their working hours
-- **Groupthink**: Real-time discussions tend to favor vocal participants rather than thoughtful analysis
-- **Surface-level analysis**: Quick conversations don't allow for careful consideration of team capacity and constraints
-- **Documentation gaps**: Decisions made in meetings often live in recordings or transcriptions rather than accessible documentation
+- Time zone fatigue: Scheduling meetings that work for everyone often means someone joins outside their working hours
+- Groupthink: Real-time discussions tend to favor vocal participants rather than thoughtful analysis
+- Surface-level analysis: Quick conversations don't allow for careful consideration of team capacity and constraints
+- Documentation gaps: Decisions made in meetings often live in recordings or transcriptions rather than accessible documentation
 
 An async capacity planning process addresses these issues by allowing team members to contribute their input on their own schedules, with time to think through their responses carefully. The result is more thoughtful capacity assessments and better documentation of the planning process.
 
@@ -32,11 +32,11 @@ An async capacity planning process addresses these issues by allowing team membe
 
 The foundation of any capacity planning process is accurate availability data. For remote engineering teams, this means collecting information about:
 
-- **Planned time off**: Vacations, personal days, holidays
-- **Part-time schedules**: Some team members work reduced hours
-- **On-call rotations**: Time spent on-call affects available capacity
-- **Administrative tasks**: Meetings, interviews, training that reduce coding time
-- **Context switching**: Multiple projects reduce effective capacity
+- Planned time off: Vacations, personal days, holidays
+- Part-time schedules: Some team members work reduced hours
+- On-call rotations: Time spent on-call affects available capacity
+- Administrative tasks: Meetings, interviews, training that reduce coding time
+- Context switching: Multiple projects reduce effective capacity
 
 Create a simple template for team members to report their availability:
 
@@ -217,8 +217,8 @@ for multi-project team members
 
 Let's walk through a complete async capacity planning cycle for a fictional team:
 
-**Team**: Platform Engineering (5 engineers)
-**Planning Period**: Q2 2026
+Team: Platform Engineering (5 engineers)
+Planning Period: Q2 2026
 
 ### Available Data
 - Total team hours: 5 × 480 hours (12 weeks × 40 hours) = 2,400 hours
@@ -248,15 +248,6 @@ Less Buffer (10%): -197 hours
 - Status: Tight fit, requires careful scope management
 
 This async calculation completed without any meetings, using shared documents and written communication.
-
-## Conclusion
-
-Building an effective async capacity planning process for remote engineering teams requires structured templates, consistent data collection, and clear workflows. The key advantages include better documentation, reduced meeting fatigue, and more thoughtful planning through asynchronous reflection.
-
-Start with simple availability tracking, add velocity or throughput metrics, and progressively build more sophisticated capacity models as your team matures. The investment in async capacity planning pays dividends through more reliable forecasts and less fire-drill planning.
-
-The shift from synchronous to async capacity planning represents a broader transition in how remote teams operate—trading real-time convenience for documented, thoughtful, and scalable processes.
-
 
 ## Related Reading
 

@@ -33,7 +33,7 @@ The ideal solution scales with your client base without requiring expensive per-
 
 ### PandaDoc
 
-PandaDoc offers a robust API and template system that works well for agencies managing standardized contracts across clients. You can create dynamic templates with variables:
+PandaDoc offers a API and template system that works well for agencies managing standardized contracts across clients. You can create dynamic templates with variables:
 
 ```javascript
 // Example: Generate contract from template via API

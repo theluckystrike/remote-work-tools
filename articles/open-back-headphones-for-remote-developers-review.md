@@ -45,7 +45,7 @@ The vented design reduces pressure buildup inside the ear cup, which means less 
 
 However, comfort varies significantly between models. Padding materials, clamp force, and frame design all influence long-term wearability. Memory foam cushions generally outperform standard foam in comfort tests, though they add to the overall cost.
 
-A practical tip: if you wear glasses, the temple arms can create pressure points against your ears with any over-ear headphone. Some open back models address this with angled drivers or thinner ear pads, but this remains a universal consideration for glasses-wearing developers.
+A practical tip: if you wear glasses, the temple arms can create pressure points against your ears with any over-ear headphone. Some open back models address this with angled drivers or thinner ear pads, but this remains an universal consideration for glasses-wearing developers.
 
 ## Practical Examples: Typical Use Cases
 

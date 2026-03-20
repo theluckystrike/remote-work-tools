@@ -90,9 +90,9 @@ This framework reflects our value of "respect for time" by matching effort to co
 
 Since your team already uses Git for code, use it for values documentation too. This approach provides several advantages:
 
-1. **Traceability**: Every change includes a commit message explaining why
-2. **Inclusion**: Team members can propose changes via pull requests
-3. **History**: You can see how values evolved and understand the reasoning
+1. Traceability: Every change includes a commit message explaining why
+2. Inclusion: Team members can propose changes via pull requests
+3. History: You can see how values evolved and understand the reasoning
 
 ```bash
 # Example workflow for updating team values
@@ -110,10 +110,10 @@ Treat your values repository like any other critical documentation—review quar
 
 Documentation that lives in a standalone file gets forgotten. Embed values into tools and processes your team already uses:
 
-- **Onboarding checklist**: Include a values review session with their buddy
-- **Pull request templates**: Add a checkbox for "Did you include an explanation, not just a correction?"
-- **Meeting retrospectives**: Dedicate one question to "Which of our values did we live well this sprint?"
-- **Performance reviews**: Ask for specific examples of living team values
+- Onboarding checklist: Include a values review session with their buddy
+- Pull request templates: Add a checkbox for "Did you include an explanation, not just a correction?"
+- Meeting retrospectives: Dedicate one question to "Which of our values did we live well this sprint?"
+- Performance reviews: Ask for specific examples of living team values
 
 ```markdown
 <!-- Example pull request template -->
@@ -132,11 +132,11 @@ Documentation that lives in a standalone file gets forgotten. Embed values into 
 
 The techniques above work when you're small, but they require deliberate structure to survive growth. Here are the critical adjustments for different team sizes:
 
-**5-15 people**: Values exist in shared understanding. Document them informally but thoroughly. Everyone knows everyone, so values can be implicit in many cases.
+5-15 people: Values exist in shared understanding. Document them informally but thoroughly. Everyone knows everyone, so values can be implicit in many cases.
 
-**15-40 people**: Documentation becomes essential. New hires don't have organic exposure to founding team members. Embed values into tools and processes actively. Consider a "values champion" role that rotates quarterly.
+15-40 people: Documentation becomes essential. New hires don't have organic exposure to founding team members. Embed values into tools and processes actively. Consider a "values champion" role that rotates quarterly.
 
-**40+ people**: Sub-teams will develop their own interpretations. Create a values council with representatives from each sub-team. Hold quarterly sync to ensure alignment while allowing local adaptation.
+40+ people: Sub-teams will develop their own interpretations. Create a values council with representatives from each sub-team. Hold quarterly sync to ensure alignment while allowing local adaptation.
 
 The key insight is that authenticity doesn't mean rigidity. Your values documentation should feel like a living document that grows with the team, not a fixed碑 stone that ignores changing circumstances.
 
@@ -150,17 +150,6 @@ Ask these questions quarterly to evaluate your values documentation:
 4. Have we updated our documentation based on team feedback in the past six months?
 
 If the answer to any of these is "no," your documentation needs work. The goal isn't perfect wording—it's shared understanding that translates into consistent behavior across time zones and tools.
-
-## Final Thoughts
-
-Remote team values documentation that stays authentic requires moving beyond inspirational posters into operational specifics. Extract values from observable behavior, write them as behavioral commitments, build decision-making frameworks, version control everything, and integrate into existing workflows.
-
-Your team of five probably didn't need any of this. Your team of fifty cannot survive without it. The time to build these systems is before you need them—when you still have the organic culture to draw from.
-
-Start small. Pick one value, document it with specific behaviors, and embed it into one existing workflow. Iterate from there. The goal isn't a perfect document—it's a shared understanding that translates into consistent action across your distributed team.
-
----
-
 
 ## Related Reading
 

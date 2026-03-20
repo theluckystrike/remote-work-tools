@@ -23,11 +23,11 @@ This guide provides a step-by-step framework for engineering managers who want t
 
 Before implementing changes, understand where you currently stand. Conduct a documentation audit across three dimensions:
 
-**Existing Documentation Inventory**: List all current documentation sources—Wikis, README files, Google Docs, Notion pages, Slack pinned messages. Identify gaps, outdated content, and orphaned information.
+Existing Documentation Inventory: List all current documentation sources—Wikis, README files, Google Docs, Notion pages, Slack pinned messages. Identify gaps, outdated content, and orphaned information.
 
-**Team Survey**: Ask your engineers three questions: What documentation do you wish existed? Where do you go when you need to learn something new? How much time do you spend answering repeated questions?
+Team Survey: Ask your engineers three questions: What documentation do you wish existed? Where do you go when you need to learn something new? How much time do you spend answering repeated questions?
 
-**Onboarding Experience**: Document the journey of a new engineer joining your team. Trace every source they need to consult, every person they need to ask, and every obstacle they encounter.
+Onboarding Experience: Document the journey of a new engineer joining your team. Trace every source they need to consult, every person they need to ask, and every obstacle they encounter.
 
 This audit reveals your starting point and identifies the highest-impact areas to address first.
 
@@ -35,10 +35,10 @@ This audit reveals your starting point and identifies the highest-impact areas t
 
 Organize your documentation into clear categories that match how your team thinks about information. A practical framework includes:
 
-- **Architecture Docs**: System diagrams, API contracts, database schemas, dependency relationships
-- **Process Docs**: Code review guidelines, deployment procedures, incident response playbooks
-- **Onboarding Docs**: Setup instructions, team structure, communication norms, tools access
-- **Decision Records**: RFCs, architectural decisions, post-mortems, project retrospectives
+- Architecture Docs: System diagrams, API contracts, database schemas, dependency relationships
+- Process Docs: Code review guidelines, deployment procedures, incident response playbooks
+- Onboarding Docs: Setup instructions, team structure, communication norms, tools access
+- Decision Records: RFCs, architectural decisions, post-mortems, project retrospectives
 
 Create a simple folder structure that reflects these categories. Use your version control system as the canonical home for technical documentation, and reserve your wiki for process and team information.
 
@@ -95,7 +95,7 @@ Distribute these templates through your team's repository templates or wiki, and
 
 Documentation only improves when it's explicitly part of your team's workflow. Integrate documentation tasks into existing processes:
 
-**Pull Request Requirements**: Require that every PR includes documentation updates if the change affects user-facing behavior, APIs, or system behavior. Add a PR template checkbox:
+Pull Request Requirements: Require that every PR includes documentation updates if the change affects user-facing behavior, APIs, or system behavior. Add a PR template checkbox:
 
 ```markdown
 ## Documentation
@@ -104,11 +104,11 @@ Documentation only improves when it's explicitly part of your team's workflow. I
 - [ ] Architecture diagrams updated (if applicable)
 ```
 
-**Ticket Documentation Standards**: Add documentation tasks to your Definition of Done. Every feature ticket should include a subtask for updating relevant documentation.
+Ticket Documentation Standards: Add documentation tasks to your Definition of Done. Every feature ticket should include a subtask for updating relevant documentation.
 
-**Post-Incident Reviews**: Mandate written post-mortems for all incidents above a certain severity level. Store these in a searchable, version-controlled location.
+Post-Incident Reviews: Mandate written post-mortems for all incidents above a certain severity level. Store these in a searchable, version-controlled location.
 
-**Architecture Decision Records (ADRs)**: Require ADRs for any significant technical decision. A simple ADR format:
+Architecture Decision Records (ADRs): Require ADRs for any significant technical decision. A simple ADR format:
 
 ```markdown
 # ADR-001: Use PostgreSQL for Primary Database
@@ -132,13 +132,13 @@ We will use PostgreSQL hosted on AWS RDS.
 
 Documentation culture thrives when it's recognized and rewarded. Implement systems that make documentation visible:
 
-**Documentation Rotations**: Assign weekly documentation review duties on a rotating basis. One engineer each week is responsible for reviewing recent PRs for documentation completeness and identifying gaps.
+Documentation Rotations: Assign weekly documentation review duties on a rotating basis. One engineer each week is responsible for reviewing recent PRs for documentation completeness and identifying gaps.
 
-**Monthly Documentation Reviews**: Schedule a monthly meeting to review documentation health. Check for outdated content, identify orphaned pages, and prioritize gaps.
+Monthly Documentation Reviews: Schedule a monthly meeting to review documentation health. Check for outdated content, identify orphaned pages, and prioritize gaps.
 
-**Recognition Program**: Highlight documentation contributions in team meetings or all-hands. Create a "Documentation Champion" rotating award for engineers who significantly improve documentation.
+Recognition Program: Highlight documentation contributions in team meetings or all-hands. Create a "Documentation Champion" rotating award for engineers who significantly improve documentation.
 
-**Metrics Without Obsession**: Track basic metrics—pages created, pages updated, time since last review—but avoid turning documentation into a numbers game. Quality matters more than quantity.
+Metrics Without Obsession: Track basic metrics—pages created, pages updated, time since last review—but avoid turning documentation into a numbers game. Quality matters more than quantity.
 
 ## Step 6: Build Onboarding Documentation First
 
@@ -164,11 +164,11 @@ Each document should take no more than 15-20 minutes to complete. If a document 
 
 ## Step 7: Maintain and Evolve Documentation
 
-Documentation is not a one-time project—it's an ongoing practice. Establish maintenance rhythms:
+Documentation is not an one-time project—it's an ongoing practice. Establish maintenance rhythms:
 
-**Quarterly Reviews**: Set aside time each quarter to review and update key documentation. Focus on high-traffic pages first.
+Quarterly Reviews: Set aside time each quarter to review and update key documentation. Focus on high-traffic pages first.
 
-**Stale Content Indicators**: Add "Last Updated" dates to all documents. Create a simple GitHub Action that alerts when pages haven't been reviewed in six months:
+Stale Content Indicators: Add "Last Updated" dates to all documents. Create a simple GitHub Action that alerts when pages haven't been reviewed in six months:
 
 ```yaml
 name: Documentation Staleness Check
@@ -187,7 +187,7 @@ jobs:
           grep -v node_modules
 ```
 
-**Documentation Office Hours**: Consider holding monthly optional documentation office hours where the team can collaborate on documentation improvements together.
+Documentation Office Hours: Consider holding monthly optional documentation office hours where the team can collaborate on documentation improvements together.
 
 ## Building Long-Term Culture
 

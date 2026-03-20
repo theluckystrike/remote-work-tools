@@ -128,11 +128,11 @@ This gradual approach dramatically reduces risk while allowing you to validate t
 
 As an employee, benefits come automatically. As a freelancer, you manage everything:
 
-**Health insurance**: Purchase through your state's marketplace (ACA). Deduct premiums if self-employed. Budget significantly more than employer contributions—you're now covering the full premium plus employer portion.
+Health insurance: Purchase through your state's marketplace (ACA). Deduct premiums if self-employed. Budget significantly more than employer contributions—you're now covering the full premium plus employer portion.
 
-**Retirement**: Open a SEP-IRA or Solo 401(k). These allow larger contributions than traditional employee plans since you're both employer and employee.
+Retirement: Open a SEP-IRA or Solo 401(k). These allow larger contributions than traditional employee plans since you're both employer and employee.
 
-**Taxes**: Set aside 25-30% of income for taxes. Make quarterly estimated payments to avoid penalties. Many freelancers use QuickBooks Self-Employed or hire bookkeepers to manage this.
+Taxes: Set aside 25-30% of income for taxes. Make quarterly estimated payments to avoid penalties. Many freelancers use QuickBooks Self-Employed or hire bookkeepers to manage this.
 
 ## Before You Hand In Your Notice
 

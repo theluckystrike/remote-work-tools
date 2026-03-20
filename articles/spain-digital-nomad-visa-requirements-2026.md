@@ -38,7 +38,7 @@ You must demonstrate that you work remotely for clients or companies outside Spa
 
 The Spanish government requires digital nomad visa applicants to prove sufficient financial means:
 
-- **Minimum monthly income**: €2,334 (approximately $2,500 USD)
+- Minimum monthly income: €2,334 (approximately $2,500 USD)
 - This amount increases if you plan to bring dependents
 - You must demonstrate this income level for at least 6 months prior to application
 
@@ -55,7 +55,7 @@ You must have private health insurance that covers:
 
 Applicants must provide a criminal background check from their country of residence and any country where they've lived in the past five years.
 
-### 5. Not Being a EU/EEA Citizen
+### 5. Not Being an EU/EEA Citizen
 
 This visa is specifically for non-EU/EEA nationals. Citizens of EU countries can live and work in Spain without any visa.
 
@@ -77,8 +77,8 @@ Prepare the following documentation:
 
 You can submit your application:
 
-- **From your home country**: At the Spanish consulate
-- **From within Spain**: If you're already legal on a tourist visa (90-day limit)
+- From your home country: At the Spanish consulate
+- From within Spain: If you're already legal on a tourist visa (90-day limit)
 
 The processing time typically takes 20-60 days.
 
@@ -90,10 +90,10 @@ Once approved, you'll receive a TIE (Tarjeta de Identidad de Extranjero) - the f
 
 ### Initial Visa Duration
 
-- **1 year**: Initial digital nomad visa
-- **2 years**: First renewal
-- **2 years**: Second renewal
-- **Total possible stay**: Up to 5 years
+- 1 year: Initial digital nomad visa
+- 2 years: First renewal
+- 2 years: Second renewal
+- Total possible stay: Up to 5 years
 
 ### Renewal Requirements
 
@@ -112,7 +112,7 @@ One of the major advantages of Spain's digital nomad visa is the tax regime:
 
 Digital nomad visa holders can qualify for the "Beckham Law" special tax status:
 
-- **Flat tax rate**: 24% on worldwide income (instead of progressive rates up to 47%)
+- Flat tax rate: 24% on worldwide income (instead of progressive rates up to 47%)
 - Valid for the first 6 years of residence
 - Must apply within 30 days of arriving in Spain
 - Requires showing significant economic ties to Spain
@@ -171,11 +171,6 @@ While private insurance is required for the visa:
 ## Tips for a Successful Application
 
 Provide clear evidence of remote work, down to individual contracts and invoices. Avoid large fluctuations in bank statements in the six months before you apply. Consider hiring an immigration lawyer—the document requirements are specific and a single missing item delays everything. Apply early, since processing times range from 20 to 60 days. Keep organized files from the start, because you will need the same documents again at renewal.
-
-## Conclusion
-
-Spain's digital nomad visa is a practical route for non-EU remote workers who can meet the income threshold and document their work outside Spain. The Beckham Law tax benefit makes it more financially attractive than most comparable European visas, but the application depends on documentation quality—clean contracts, six months of consistent bank statements, and health coverage.
-
 
 ## Related Reading
 

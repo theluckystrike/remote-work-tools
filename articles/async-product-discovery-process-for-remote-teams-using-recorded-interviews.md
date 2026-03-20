@@ -41,11 +41,11 @@ For the actual interview setup, position the camera to show both the interviewer
 
 A well-structured interview yields better recordings. Prepare a discussion guide that covers:
 
-1. **Opening (2-3 minutes)**: Introduce yourself, explain the purpose, and set expectations for the recording
-2. **Context Building (5-10 minutes)**: Understand the user's role, background, and context for using your product
-3. **Problem Exploration (15-20 minutes)**: Dive into the challenges they face and current workarounds
-4. **Solution Discussion (10-15 minutes)**: Explore potential solutions and gather reactions to concepts
-5. **Closing (2-3 minutes)**: Thank them, explain next steps, and ask for follow-up
+1. Opening (2-3 minutes): Introduce yourself, explain the purpose, and set expectations for the recording
+2. Context Building (5-10 minutes): Understand the user's role, background, and context for using your product
+3. Problem Exploration (15-20 minutes): Dive into the challenges they face and current workarounds
+4. Solution Discussion (10-15 minutes): Explore potential solutions and gather reactions to concepts
+5. Closing (2-3 minutes): Thank them, explain next steps, and ask for follow-up
 
 Keep each interview to 45-60 minutes maximum. Longer sessions produce lower quality content as participants fatigue.
 
@@ -135,9 +135,9 @@ Distribute this summary async. Team members comment and react over 24-48 hours. 
 
 Your async discovery process will improve with use. Track metrics that matter:
 
-- **Time from interview to insight**: How quickly do findings reach the team?
-- **Team participation rate**: Are all team members reviewing recordings?
-- **Insight actionability**: Are discoveries leading to product decisions?
+- Time from interview to insight: How quickly do findings reach the team?
+- Team participation rate: Are all team members reviewing recordings?
+- Insight actionability: Are discoveries leading to product decisions?
 
 Adjust your approach based on what you learn. If reviews are lagging, try shorter clips instead of full recordings. If synthesis feels slow, refine your observation template.
 
@@ -145,15 +145,15 @@ Adjust your approach based on what you learn. If reviews are lagging, try shorte
 
 A remote product team spanning UTC-8 to UTC+8 might run this weekly cadence:
 
-**Monday**: Conduct 2-3 user interviews (some team members watch live if their timezone allows)
+Monday: Conduct 2-3 user interviews (some team members watch live if their timezone allows)
 
-**Tuesday**: Team members watch recordings asynchronously. Each person adds 3-5 timestamped observations to the shared document.
+Tuesday: Team members watch recordings asynchronously. Each person adds 3-5 timestamped observations to the shared document.
 
-**Wednesday**: Product manager reviews all observations, updates the affinity map, and identifies top themes.
+Wednesday: Product manager reviews all observations, updates the affinity map, and identifies top themes.
 
-**Thursday**: Product manager publishes discovery summary. Team members comment with questions or additional context.
+Thursday: Product manager publishes discovery summary. Team members comment with questions or additional context.
 
-**Friday**: Quick async check - does anyone object to the proposed priorities? If consensus forms, move forward. If not, flag for discussion.
+Friday: Quick async check - does anyone object to the proposed priorities? If consensus forms, move forward. If not, flag for discussion.
 
 This cadence keeps discovery flowing without requiring everyone to synchronize their calendars.
 

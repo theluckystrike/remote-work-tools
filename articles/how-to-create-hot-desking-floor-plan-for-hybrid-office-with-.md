@@ -24,10 +24,10 @@ This guide walks through the process of creating a data-driven floor plan with n
 
 Neighborhood zones divide your office space into distinct areas, each designed for specific work patterns. A typical hybrid office might include:
 
-- **Collaboration zones**: Open areas with whiteboard walls and meeting pods
-- **Focus zones**: Quiet sections for deep work
-- **Team neighborhoods**: Designated areas for specific departments
-- **Amenity proximity**: Desks near kitchens, printers, or breakout spaces
+- Collaboration zones: Open areas with whiteboard walls and meeting pods
+- Focus zones: Quiet sections for deep work
+- Team neighborhoods: Designated areas for specific departments
+- Amenity proximity: Desks near kitchens, printers, or breakout spaces
 
 The goal is matching workspace characteristics to team needs while maintaining the flexibility that hot desking provides.
 
@@ -186,15 +186,6 @@ This visualization helps facilities teams understand space utilization and plan 
 Avoid creating zones that are too small to be useful—a six-desk team neighborhood barely justifies the designation. Similarly, don't create overly complex naming systems that confuse users about which zone serves their needs.
 
 Another common mistake is neglecting to account for meeting room proximity. Teams that collaborate frequently benefit from being near meeting spaces, so factor this into your zone assignments.
-
-## Conclusion
-
-Building a hot desking floor plan with neighborhood zones requires upfront planning but pays dividends in employee satisfaction and space efficiency. The key is treating your floor plan as data rather than a static image—using structured data models enables flexible desk assignment, capacity planning, and continuous optimization based on actual usage patterns.
-
-Start with a simple zone structure and iterate based on feedback. Your initial design won't be perfect, but with proper data collection and analysis, you can refine the arrangement to serve your hybrid workforce effectively.
-
----
-
 
 ## Related Reading
 

@@ -190,13 +190,6 @@ def generate_deployment_diagram(services):
 
 Automated generation keeps documentation synchronized with deployed services. Run generation as part of your CI pipeline to ensure diagrams always reflect current state.
 
-## Conclusion
-
-Diagrams as code transforms architecture documentation from a chore into a collaborative process. Remote teams gain version-controlled, reviewable, and maintainable diagrams that scale with their systems. Start with Mermaid for quick wins, then explore PlantUML or Structurizr for advanced needs.
-
-The key is treating diagrams as code—version them, review them, and keep them close to the systems they describe. Your remote team will thank you for documentation that actually stays up to date.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

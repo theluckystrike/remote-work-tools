@@ -23,7 +23,7 @@ Mexico City has become one of the top destinations for remote workers, offering 
 
 Choosing the right neighborhood impacts your daily productivity.
 
-**Condesa and Roma** — These adjacent neighborhoods form the heart of Mexico City's remote worker scene. Tree-lined streets, excellent cafes with reliable WiFi, and a high density of coworking spaces make this area ideal. Average apartment rental: $800-1,200/month for a one-bedroom. The area has strong 4G/5G coverage from all major carriers.
+**Condesa and Roma** — These adjacent neighborhoods form the heart of Mexico City's remote worker scene. Tree-lined streets, excellent cafes with reliable WiFi, and a high density of coworking spaces make this area ideal. Average apartment rental: $800-1,200/month for an one-bedroom. The area has strong 4G/5G coverage from all major carriers.
 
 **Del Valle and Santa Fe** — More modern and business-oriented, these southern neighborhoods offer quieter streets and newer apartment buildings. Better for those who prefer less tourism and more local living. Santa Fe has several corporate coworking chains.
 

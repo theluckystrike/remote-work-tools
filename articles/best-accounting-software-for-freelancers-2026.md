@@ -85,7 +85,7 @@ The text-based approach means your financial data lives in version control, and 
 
 ### 3. Freshbooks
 
-Freshbooks remains popular among freelancers for good reason. While it lacks a CLI, it offers robust API access and time-tracking integration that developers appreciate.
+Freshbooks remains popular among freelancers for good reason. While it lacks a CLI, it offers API access and time-tracking integration that developers appreciate.
 
 **Key features:**
 - RESTful API for custom integrations
@@ -114,7 +114,7 @@ def create_invoice(client_email, items):
 
 ### 4. QuickBooks Online
 
-QuickBooks Online provides comprehensive accounting with excellent tax preparation features. The platform offers extensive API coverage and integrates with most payment processors.
+QuickBooks Online provides accounting with excellent tax preparation features. The platform offers extensive API coverage and integrates with most payment processors.
 
 **Strengths:**
 - Automatic bank categorization

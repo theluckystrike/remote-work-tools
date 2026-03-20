@@ -27,10 +27,10 @@ Chat-based brainstorming works because it removes the pressure of real-time perf
 
 Consider these advantages:
 
-- **Asynchronous participation**: Team members in Tokyo, New York, and London can contribute without anyone waking up at 3 AM
-- **Documented output**: Every idea is automatically captured in searchable chat history
-- **Equal voice**: Introverted team members often contribute more in text than in live meetings
-- **Parallel thinking**: Multiple people can develop ideas simultaneously rather than waiting for one speaker to finish
+- Asynchronous participation: Team members in Tokyo, New York, and London can contribute without anyone waking up at 3 AM
+- Documented output: Every idea is automatically captured in searchable chat history
+- Equal voice: Introverted team members often contribute more in text than in live meetings
+- Parallel thinking: Multiple people can develop ideas simultaneously rather than waiting for one speaker to finish
 
 ## Setting Up Your Chat Brainstorming Session
 
@@ -62,10 +62,10 @@ to the settings panel. Currently, it takes 5 clicks and 12 seconds.
 
 Set clear expectations before starting:
 
-- **Duration**: 24-48 hours for async sessions (or 60-90 minutes for synchronous chat)
-- **Format**: Each participant posts ideas as numbered lists
-- **No criticism**: All ideas welcome during the ideation phase
-- **Build on others**: Use "What if we combined X with Y?" responses
+- Duration: 24-48 hours for async sessions (or 60-90 minutes for synchronous chat)
+- Format: Each participant posts ideas as numbered lists
+- No criticism: All ideas welcome during the ideation phase
+- Build on others: Use "What if we combined X with Y?" responses
 
 ## Practical Techniques for Chat Brainstorming
 
@@ -128,7 +128,7 @@ Use reactions or a simple voting mechanism:
 ❓ = need more information
 ```
 
-## Facilitating Effectively in Chat
+## helping Effectively in Chat
 
 Chat brainstorming requires different facilitation skills than video meetings. Your role shifts to:
 
@@ -162,17 +162,17 @@ The real value of chat brainstorming comes from converting ideas into action. Af
 
 ## Common Pitfalls to Avoid
 
-- **Setting no time limit**: Chat sessions can drag on indefinitely. Set a clear end time.
-- **Ignoring quiet participants**: Gently prompt those who haven't contributed.
-- **Jumping to evaluation too early**: Separate ideation from evaluation.
-- **Failing to follow up**: Ideas without owners die in chat history.
+- Setting no time limit: Chat sessions can drag on indefinitely. Set a clear end time.
+- Ignoring quiet participants: Gently prompt those who haven't contributed.
+- Jumping to evaluation too early: Separate ideation from evaluation.
+- Failing to follow up: Ideas without owners die in chat history.
 
 ## When Chat Works Best
 
 Chat brainstorming excels for:
 
 - Feature ideation and product improvements
-- Problem identification and root cause analysis  
+- Problem identification and root cause analysis 
 - Technical approach discussions
 - Cross-functional idea gathering
 - Time zone-challenged teams

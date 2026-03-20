@@ -65,7 +65,7 @@ npm cache ls > ~/cache/npm-packages.txt
 npm pack $(cat ~/cache/npm-packages.txt)
 ```
 
-**Offline-first development**: Choose tools that function without continuous connectivity. VS Code with Remote-SSH extensions requires internet, but local editors like Neovim with locally-installed language servers continue working during outages.
+Offline-first development: Choose tools that function without continuous connectivity. VS Code with Remote-SSH extensions requires internet, but local editors like Neovim with locally-installed language servers continue working during outages.
 
 ### Network Testing Script
 
@@ -133,7 +133,7 @@ meetingScheduler([
 ]);
 ```
 
-## Implement Robust Backup and Sync Systems
+## Implement Backup and Sync Systems
 
 Data loss while traveling is catastrophic. Your backup strategy must survive device theft, hardware failure, and accidental deletion.
 
@@ -141,9 +141,9 @@ Data loss while traveling is catastrophic. Your backup strategy must survive dev
 
 Maintain three copies of critical data, on two different media types, with one copy stored geographically apart. For nomads, this translates to:
 
-- **Local working copy**: Your primary machine
-- **Encrypted cloud backup**: Services like Backblaze, rsync.net, or encrypted S3 buckets
-- **Physical backup**: A small encrypted USB drive carried separately from your laptop
+- Local working copy: Your primary machine
+- Encrypted cloud backup: Services like Backblaze, rsync.net, or encrypted S3 buckets
+- Physical backup: A small encrypted USB drive carried separately from your laptop
 
 Automate backups to prevent forgetting:
 
@@ -178,19 +178,19 @@ Your body experiences the consequences of poor ergonomics more quickly in tempor
 
 A minimal but effective travel kit includes:
 
-- **Laptop stand**: Collapsible aluminum stands pack flat and provide immediate ergonomic improvement
-- **Wireless keyboard**: Enable comfortable typing angles even at cramped café tables
-- **Noise-canceling headphones**: Essential for focus in public spaces
-- **Cable management pouch**: Prevents the tangle that wastes setup time
+- Laptop stand: Collapsible aluminum stands pack flat and provide immediate ergonomic improvement
+- Wireless keyboard: Enable comfortable typing angles even at cramped café tables
+- Noise-canceling headphones: Essential for focus in public spaces
+- Cable management pouch: Prevents the tangle that wastes setup time
 
 ### Quick Workspace Assessment
 
 Before starting work in any new location, run through this 30-second checklist:
 
-1. **Power source**: Identify outlets, bring adapters, test charging
-2. **Screen positioning**: Find a angle that reduces glare from windows and lights
-3. **Seating**: Assess chair height relative to table, use books or bags for adjustment if needed
-4. **Background noise**: Put on noise cancellation before starting focused work
+1. Power source: Identify outlets, bring adapters, test charging
+2. Screen positioning: Find an angle that reduces glare from windows and lights
+3. Seating: Assess chair height relative to table, use books or bags for adjustment if needed
+4. Background noise: Put on noise cancellation before starting focused work
 
 ## Protect Cognitive Bandwidth
 
@@ -198,14 +198,9 @@ Nomad life constantly demands small decisions—where to eat, which route to tak
 
 Reduce decision fatigue by establishing non-negotiable defaults:
 
-- **Same breakfast order everywhere**: Eliminates one daily decision
-- **Standard work locations**: Return to the same cafés and co-working spaces rather than constantly exploring new options
-- **Automated workflows**: Use scripts for routine tasks rather than manually performing them each time
-
-## Conclusion
-
-The best digital nomads treat their mobile lifestyle as a professional discipline rather than a vacation with occasional work. Apply these strategies consistently, and you'll find that productivity and location independence coexist.
-
+- Same breakfast order everywhere: Eliminates one daily decision
+- Standard work locations: Return to the same cafés and co-working spaces rather than constantly exploring new options
+- Automated workflows: Use scripts for routine tasks rather than manually performing them each time
 
 ## Related Reading
 

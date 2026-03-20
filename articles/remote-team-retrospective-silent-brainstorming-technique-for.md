@@ -29,7 +29,7 @@ Silent brainstorming addresses these issues by decoupling idea generation from r
 Most collaborative tools support digital stickies. Here's a practical setup using Miro, which offers a free tier sufficient for small teams:
 
 1. **Create a new board** named "Sprint XX Retrospective"
-2. **Add three columns**: "What went well", "What could improve", "Action items"
+2. Add three columns: "What went well", "What could improve", "Action items"
 3. **Set a deadline** for contributions (typically 24-48 hours before your sync meeting)
 4. **Share the link** in your team Slack channel with clear instructions
 
@@ -54,8 +54,8 @@ For teams preferring open-source solutions, HedgeDoc (formerly CodiMD) provides 
 
 Each team member adds stickies independently. Encourage specific, actionable observations rather than vague complaints. For example:
 
-**Instead of**: "Testing was slow"
-**Write**: "QA regression testing took 3 hours; automating the smoke test suite could reduce this to 30 minutes"
+Instead of: "Testing was slow"
+Write: "QA regression testing took 3 hours; automating the smoke test suite could reduce this to 30 minutes"
 
 Provide a simple template for contributors:
 
@@ -70,10 +70,10 @@ Sticky format:
 
 Before the synchronous meeting, someone (usually the facilitator) groups similar stickies together. This clustering reveals patterns that individual observations might miss. Common themes for engineering teams include:
 
-- **Communication gaps**: Misaligned expectations or missing context
-- **Tool issues**: CI/CD failures, outdated dependencies, slow build times
-- **Process bottlenecks**: Approval delays, unnecessary meetings, handoff friction
-- **Technical debt**: Legacy code causing bugs, missing documentation
+- Communication gaps: Misaligned expectations or missing context
+- Tool issues: CI/CD failures, outdated dependencies, slow build times
+- Process bottlenecks: Approval delays, unnecessary meetings, handoff friction
+- Technical debt: Legacy code causing bugs, missing documentation
 
 ### Phase 3: Focused Synchronous Discussion (30-45 minutes)
 
@@ -88,7 +88,7 @@ The live meeting becomes much more efficient. Skip the typical round-robin where
 
 Here's how a six-person distributed engineering team applied this technique:
 
-**Setup**: Team spread across UTC-8, UTC+1, and UTC+5. Sprint ended on Friday. Silent brainstorm window: Friday 5 PM UTC through Monday 9 AM UTC. Sync meeting: Monday 2 PM UTC.
+Setup: Team spread across UTC-8, UTC+1, and UTC+5. Sprint ended on Friday. Silent brainstorm window: Friday 5 PM UTC through Monday 9 AM UTC. Sync meeting: Monday 2 PM UTC.
 
 **Results from silent phase** (12 stickies total):
 - 4 stickies about slow CI/CD pipeline
@@ -96,9 +96,9 @@ Here's how a six-person distributed engineering team applied this technique:
 - 2 stickies about knowledge silos in the frontend code
 - 3 stickies about positive items (release process improved, code review turnaround faster)
 
-**Grouping revealed**: CI/CD and acceptance criteria both tied to insufficient ticket refinement—actionable insight that wouldn't emerge as clearly in a traditional meeting.
+Grouping revealed: CI/CD and acceptance criteria both tied to insufficient ticket refinement—actionable insight that wouldn't emerge as clearly in a traditional meeting.
 
-**Sync meeting outcome**: Team agreed to add "acceptance criteria checklist" to ticket templates and allocated 20% of next sprint to CI/CD optimization. Clear owners assigned, with a follow-up check-in scheduled for next week's async update.
+Sync meeting outcome: Team agreed to add "acceptance criteria checklist" to ticket templates and allocated 20% of next sprint to CI/CD optimization. Clear owners assigned, with a follow-up check-in scheduled for next week's async update.
 
 ## Tools for Digital Stickies
 
@@ -116,25 +116,25 @@ Choose based on your existing tool stack. The technique works regardless of whic
 
 ## Making It Work: Best Practices
 
-**Set clear expectations**: Tell the team exactly when the silent phase starts and ends. Send a reminder 24 hours before the deadline.
+Set clear expectations: Tell the team exactly when the silent phase starts and ends. Send a reminder 24 hours before the deadline.
 
-**Lead by example**: Add your own stickies early. This encourages others to contribute and models the detail level you're looking for.
+Lead by example: Add your own stickies early. This encourages others to contribute and models the detail level you're looking for.
 
-**Keep stickies specific**: Vague observations like "communication was bad" don't lead to actionable improvements. Prompt for specifics when needed.
+Keep stickies specific: Vague observations like "communication was bad" don't lead to actionable improvements. Prompt for specifics when needed.
 
-**Follow up consistently**: If action items from previous retrospectives keep getting ignored, the process loses meaning. Track completion rates and review them in subsequent sessions.
+Follow up consistently: If action items from previous retrospectives keep getting ignored, the process loses meaning. Track completion rates and review them in subsequent sessions.
 
-**Rotate the facilitator**: Different team members bring different perspectives to grouping and theme identification. Rotation keeps the process fresh and develops leadership skills.
+Rotate the facilitator: Different team members bring different perspectives to grouping and theme identification. Rotation keeps the process fresh and develops leadership skills.
 
 ## Common Pitfalls to Avoid
 
-**Too long a window**: A week-long silent phase leads to forgotten contributions and momentum loss. Stick to 24-48 hours.
+Too long a window: A week-long silent phase leads to forgotten contributions and momentum loss. Stick to 24-48 hours.
 
-**Skipping the sync meeting**: The synchronous discussion is essential for building team consensus and assigning ownership. Don't treat it as optional.
+Skipping the sync meeting: The synchronous discussion is essential for building team consensus and assigning ownership. Don't treat it as optional.
 
-**No follow-through**: Action items without owners and deadlines become forgotten items. Be specific: "Jane will investigate CI caching options by Wednesday" works better than "we should improve the build."
+No follow-through: Action items without owners and deadlines become forgotten items. Be specific: "Jane will investigate CI caching options by Wednesday" works better than "we should improve the build."
 
-**Overloading the meeting**: If you have 30+ stickies, something went wrong in the framing. Each retrospective should focus on one sprint's worth of observations.
+Overloading the meeting: If you have 30+ stickies, something went wrong in the framing. Each retrospective should focus on one sprint's worth of observations.
 
 ## Automating Follow-Up
 
@@ -158,13 +158,6 @@ jobs:
 ```
 
 This integration keeps retrospective outcomes visible within existing development workflows.
-
-## Conclusion
-
-Silent brainstorming with digital stickies transforms retrospectives from time-zone-burning meetings into async-friendly sessions that surface better insights. The key is separating idea generation (async, individual) from discussion and prioritization (synchronous, collaborative). This approach respects diverse working styles, timezone constraints, and produces more actionable improvements for engineering teams.
-
-Give it a try next sprint. You'll likely see participation increase and follow-through improve.
-
 
 ## Related Reading
 

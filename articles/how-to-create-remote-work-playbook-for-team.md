@@ -209,16 +209,9 @@ A 50-page playbook nobody reads is worse than a 5-page one everyone uses. Priori
 
 Your team has unique needs. Borrow structure from other playbooks, not content. A playbook that doesn't reflect your actual workflows creates false confidence.
 
-The playbook is a living document, not a one-time project. Assign owners to each section and schedule regular reviews.
+The playbook is a living document, not an one-time project. Assign owners to each section and schedule regular reviews.
 
 New team members should read the playbook in their first week. Include a "getting started" section with the most critical paths.
-
-## Final Thoughts
-
-A remote work playbook removes ambiguity from distributed work. For developer teams, it means fewer interruptions asking "how do I..." and more time building. For power users, it provides a framework to systematize operations at scale.
-
-Start small. Document your most painful ambiguity first. Iterate from there.
-
 
 ## Related Reading
 

@@ -72,18 +72,18 @@ gh pr list --state all --limit 100 --json createdAt,mergedAt,closedAt,title |
 ```
 
 Key metrics to monitor:
-- **Time to first review**: How quickly do PRs get initial attention?
-- **Review turnaround**: How fast are reviews completed after approval requested?
-- **PR size**: Are changes small and manageable or massive and hard to review?
-- **Revision cycles**: How often do PRs require changes after initial review?
+- Time to first review: How quickly do PRs get initial attention?
+- Review turnaround: How fast are reviews completed after approval requested?
+- PR size: Are changes small and manageable or massive and hard to review?
+- Revision cycles: How often do PRs require changes after initial review?
 
 ### Objective Key Results (OKRs)
 
 Define clear, measurable objectives at the team level. Individual OKRs often encourage competition rather than collaboration, while team OKRs promote shared ownership.
 
 Example team OKR:
-- **Objective**: Improve system reliability
-- **Key Results**:
+- Objective: Improve system reliability
+- Key Results:
   - Reduce production incidents by 50% compared to Q1
   - Achieve 99.9% uptime for core services
   - Complete incident response training for all team members
@@ -186,22 +186,11 @@ This approach measures and rewards the behaviors that actually make teams effect
 
 Start implementing trust-based productivity measurement:
 
-1. **Audit current metrics**: List what you currently measure and why
-2. **Identify surveillance tools**: Phase out keyboard loggers and screenshot tools
-3. **Define team outcomes**: Collaboratively establish measurable objectives
-4. **Build dashboards**: Create shared visibility into team performance
-5. **Iterate and refine**: Adjust metrics based on what actually improves outcomes
-
-## Conclusion
-
-Measuring remote team productivity effectively requires shifting focus from activity surveillance to outcome tracking. By measuring what matters—delivery velocity, code quality, collaboration patterns, and team health—you can support your team's success without invading their privacy.
-
-The best indicators of a productive remote team are ones they can see and influence themselves. Build systems that empower improvement rather than monitoring punishment.
-
-Trust your team members to be professionals. Provide visibility into collective performance. Focus on removing obstacles rather than catching underperformers. This approach produces better results while building the psychological safety that high-performing teams need.
-
----
-
+1. Audit current metrics: List what you currently measure and why
+2. Identify surveillance tools: Phase out keyboard loggers and screenshot tools
+3. Define team outcomes: Collaboratively establish measurable objectives
+4. Build dashboards: Create shared visibility into team performance
+5. Iterate and refine: Adjust metrics based on what actually improves outcomes
 
 ## Related Reading
 

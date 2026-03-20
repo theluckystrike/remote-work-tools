@@ -128,9 +128,9 @@ Interns need clear deliverables with unambiguous completion criteria. Vague goal
 
 Continuous feedback prevents end-of-internship surprises. Implement three feedback channels:
 
-**Weekly**: Informal async feedback on PRs and commits
-**Bi-weekly**: 30-minute synchronous session covering soft skills, communication, and technical growth
-**End-of-internship**: Formal review with manager and mentor
+Weekly: Informal async feedback on PRs and commits
+Bi-weekly: 30-minute synchronous session covering soft skills, communication, and technical growth
+End-of-internship: Formal review with manager and mentor
 
 ## Mentorship Best Practices for Remote Contexts
 
@@ -146,9 +146,9 @@ Continuous feedback prevents end-of-internship surprises. Implement three feedba
 
 Every team has unique needs. Modify this framework by:
 
-- **Adjusting timeline**: Shorter internships (8 weeks) compress the milestones
-- **Adding domain-specific onboarding**: Include team-specific tools, coding standards, and review processes
-- **Scaling mentorship**: For larger intern cohorts, consider cohort-based programs where interns learn from each other
+- Adjusting timeline: Shorter internships (8 weeks) compress the milestones
+- Adding domain-specific onboarding: Include team-specific tools, coding standards, and review processes
+- Scaling mentorship: For larger intern cohorts, consider cohort-based programs where interns learn from each other
 
 The key principle remains constant: structure replaces the ambient learning that remote work removes. By building intentional touchpoints, measurable goals, and consistent feedback loops, you create an internship experience that produces real value for both the intern and your team.
 

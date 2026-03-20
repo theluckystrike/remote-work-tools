@@ -179,9 +179,9 @@ The format is only part of the solution. How you use it determines success.
 
 Track two metrics to evaluate your async check-in implementation:
 
-1. **Completion rate**: What percentage of team members post daily updates? Above 90% indicates the process is sustainable.
+1. Completion rate: What percentage of team members post daily updates? Above 90% indicates the process is sustainable.
 
-2. **Blocker resolution time**: How quickly do blockers get addressed? A decrease over time suggests the async format is working.
+2. Blocker resolution time: How quickly do blockers get addressed? A decrease over time suggests the async format is working.
 
 If completion drops below 80%, the format may be too burdensome. Simplify the sections or try a less structured approach.
 
@@ -190,13 +190,6 @@ If completion drops below 80%, the format may be too burdensome. Simplify the se
 Move to async check-ins gradually. Start by making standups async for one day per week, then increase as the team adapts. Some teams keep a brief weekly synchronous meeting for complex coordination while handling daily updates asynchronously.
 
 Expect an adjustment period of two to three weeks. Team members need time to develop the habit of writing updates and reading others' updates.
-
-## Conclusion
-
-Async daily check-ins replace the informational value of standups while eliminating scheduling pain. The format above takes two to three minutes to complete, creates a searchable record, and respects time zones. Implement it with tools you already use—Slack, GitHub Issues, or a simple bot.
-
-Start with the basic four-section format, keep updates brief, and respond to blockers promptly. Your team will reclaim hours each week while maintaining the coordination that standups provided.
-
 
 ## Related Reading
 

@@ -78,10 +78,10 @@ The structure of your announcements directly impacts whether people actually rea
 
 Structure every announcement using four components:
 
-- **Purpose**: Why does this announcement matter?
-- **Action**: What do recipients need to do?
-- **Relevant Details**: Supporting information (links, dates, context)
-- **Acknowledgment**: How should people confirm receipt?
+- Purpose: Why does this announcement matter?
+- Action: What do recipients need to do?
+- Relevant Details: Supporting information (links, dates, context)
+- Acknowledgment: How should people confirm receipt?
 
 ```markdown
 [ANNOUNCEMENT] Production Deployment - Payment Service v2.3
@@ -247,15 +247,6 @@ Start implementing these practices with this actionable checklist:
 - [ ] Create tiered channels for different urgency levels
 - [ ] Run a weekly SNR check for the first month
 - [ ] Gather team feedback after 30 days and adjust
-
-## Conclusion
-
-High signal-to-noise ratio in announcement channels doesn't happen by accident. It requires explicit governance, thoughtful message frameworks, appropriate automation, and ongoing measurement. The investment pays dividends in reduced notification fatigue, better information retention, and more engaged team members.
-
-Start with one channel, implement these practices, and expand to others once the pattern proves effective. Your team will thank you for respecting their attention.
-
----
-
 
 ## Related Reading
 

@@ -21,12 +21,12 @@ Working from Bali's vibrant cafe scene offers an incredible lifestyle, but the c
 
 ## The Bali Café Acoustic Challenge
 
-Bali cafes present a unique noise profile that differs from typical office environments. The combination of hard surfaces (common in tropical café designs), overlapping conversations, bass-heavy playlist music, and unpredictable disturbances creates an acoustic challenge that basic earplugs cannot address. Understanding what you're fighting against helps you build the right defense.
+Bali cafes present an unique noise profile that differs from typical office environments. The combination of hard surfaces (common in tropical café designs), overlapping conversations, bass-heavy playlist music, and unpredictable disturbances creates an acoustic challenge that basic earplugs cannot address. Understanding what you're fighting against helps you build the right defense.
 
 The frequency spectrum in busy Bali cafés typically breaks down as:
-- **Low frequency (20-250Hz)**: HVAC hum, bass from speakers, traffic rumble from nearby roads
-- **Mid frequency (250Hz-2kHz)**: Human speech, clinking dishes, chair movements
-- **High frequency (2-20kHz)**: Sharp conversations, door sounds, glass surfaces
+- Low frequency (20-250Hz): HVAC hum, bass from speakers, traffic rumble from nearby roads
+- Mid frequency (250Hz-2kHz): Human speech, clinking dishes, chair movements
+- High frequency (2-20kHz): Sharp conversations, door sounds, glass surfaces
 
 Effective noise cancellation must address all three bands. Most developers make the mistake of focusing only on ANC headphones, ignoring the other two-thirds of the problem.
 
@@ -37,9 +37,9 @@ Effective noise cancellation must address all three bands. Most developers make 
 For Bali café work, over-ear headphones with hybrid ANC provide the best foundation. The over-ear form factor creates passive isolation that works alongside active cancellation, and hybrid ANC handles both incoming and reflected sound.
 
 Look for headphones with:
-- **Adjustable ANC levels**: You often need transparency mode to hear your name being called or orders being taken
-- **Comfort for extended wear**: 6+ hour battery life means you can work through long café sessions
-- **Good microphone quality**: For taking calls without asking people to repeat themselves
+- Adjustable ANC levels: You often need transparency mode to hear your name being called or orders being taken
+- Comfort for extended wear: 6+ hour battery life means you can work through long café sessions
+- Good microphone quality: For taking calls without asking people to repeat themselves
 
 If you prefer earbuds for the tropical heat, look for models with multiple ear tip sizes to achieve proper seal—the single biggest factor in passive noise reduction with earbuds.
 
@@ -136,9 +136,9 @@ code ~/projects/current-work
 
 Mechanical keyboards amplify in noisy environments—your typing becomes part of the café noise. Consider:
 
-- **Lighter switch types**: MX Brown or Cherry MX Red produce less sound than Blues
-- **O-rings**: Rubber rings under keycaps reduce bottom-out noise
-- **Keyboard covers**: Silicone covers dampen all key sounds
+- Lighter switch types: MX Brown or Cherry MX Red produce less sound than Blues
+- O-rings: Rubber rings under keycaps reduce bottom-out noise
+- Keyboard covers: Silicone covers dampen all key sounds
 
 If you must use a louder keyboard in a pinch, position your body to shield the keyboard from direct sound projection toward other café patrons.
 

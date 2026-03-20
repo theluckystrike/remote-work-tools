@@ -33,7 +33,7 @@ Code review tools for solo freelance developers serve three main purposes:
 
 The foundation of any code review process starts with automation. Linters catch syntax errors, style violations, and potential bugs before you even run your code.
 
-For JavaScript and TypeScript projects, ESLint combined with Prettier provides comprehensive checking:
+For JavaScript and TypeScript projects, ESLint combined with Prettier provides checking:
 
 ```bash
 npm install --save-dev eslint prettier eslint-config-prettier

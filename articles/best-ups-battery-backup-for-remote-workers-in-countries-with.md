@@ -19,17 +19,17 @@ An APC Back-UPS Pro 1500VA with pure sine wave output provides 15-20 minutes of 
 
 ## Understanding Your Power Requirements
 
-Before purchasing a UPS, calculate your actual power consumption. Most developers underestimate their load, selecting units that last only minutes under real conditions.
+Before purchasing an UPS, calculate your actual power consumption. Most developers underestimate their load, selecting units that last only minutes under real conditions.
 
 ### Calculating Your Load
 
 List every device you need running during an outage:
 
-- **Desktop workstation**: 300-800W depending on specs
-- **External monitors**: 50-100W per monitor
-- **Modem and router**: 15-30W combined
+- Desktop workstation: 300-800W depending on specs
+- External monitors: 50-100W per monitor
+- Modem and router: 15-30W combined
 - **Laptop** (if used as secondary): 45-65W
-- **Network-attached storage**: 20-50W
+- Network-attached storage: 20-50W
 
 Use a kill-a-watt meter or check manufacturer specifications to get precise numbers. Add a 20% buffer for safety—UPS batteries degrade over time, and peak power draw during boot sequences often exceeds steady-state consumption.
 
@@ -176,8 +176,8 @@ Some UPS units accept external batteries for extended runtime. The APC Smart-UPS
 
 Not everything needs UPS power:
 
-- **Uninterruptible**: Workstation, monitors, router/modem
-- **Non-critical**: Speakers, desk lamps, phone chargers
+- Uninterruptible: Workstation, monitors, router/modem
+- Non-critical: Speakers, desk lamps, phone chargers
 
 Use a power strip with switched outlets to exclude non-essential items from UPS load, extending runtime for critical equipment.
 
@@ -205,19 +205,6 @@ upscmd -u admin upsname shutdown.return
 ```
 
 Perform load tests quarterly—simulate an outage by pulling the power cord (safest with line-interactive units) and verify expected runtime.
-
-## Summary
-
-For developers in regions with frequent power outages, a line-interactive UPS with pure sine wave output provides the best balance of protection and cost. The APC Back-UPS Pro 1500VA or Smart-UPS 1500VA suits most workstation configurations, providing 10-20 minutes of runtime—enough to save work and shut down properly.
-
-Key selection criteria:
-- Pure sine wave output (mandatory for modern PSUs)
-- Minimum 1500VA capacity for desktop workstations
-- Networked shutdown capability via apcupsd or PowerChute
-- AVR for handling voltage fluctuations without battery drain
-
-Calculate your actual wattage, add 20% buffer, and select capacity accordingly. Configure automated shutdown before relying on your UPS during actual outages.
-
 
 ## Related Reading
 

@@ -43,8 +43,8 @@ Adjust column names based on your workflow. Some teams separate "Review" from "T
 
 WIP limits prevent overloading individual engineers and keep work flowing. For a three-person team, start with these guidelines:
 
-- **In Progress limit**: 2 per person (so at most 6 items across the board)
-- **Review/Testing limit**: 3 total (this often becomes a bottleneck)
+- In Progress limit: 2 per person (so at most 6 items across the board)
+- Review/Testing limit: 3 total (this often becomes a bottleneck)
 
 When a column hits its WIP limit, the team must finish existing items before pulling new ones. This sounds restrictive, but it forces early identification of blockers. If someone has three items in progress and can't start a fourth, they either finish something or explicitly swarm to unblock a teammate.
 
@@ -64,19 +64,19 @@ Configure WIP limits in your tool of choice. Most Kanban tools support column-le
 
 With only three people, you might consider swimlanes by category rather than assignee:
 
-- **Incidents**: Urgent production issues
-- **Projects**: Planned infrastructure changes
-- **Maintenance**: Routine updates and housekeeping
-- **Debt**: Technical improvements that aren't urgent
+- Incidents: Urgent production issues
+- Projects: Planned infrastructure changes
+- Maintenance: Routine updates and housekeeping
+- Debt: Technical improvements that aren't urgent
 
 This separation helps during triage. When a production incident hits, everyone knows to check the Incident swimlane first. During quieter periods, engineers pick from Maintenance or Debt based on their energy and context.
 
 Prioritize within each swimlane using labels:
 
-- **P1**: Critical—immediate attention required
-- **P2**: High—scheduled for current day/night
-- **P3**: Medium—backlog, address this week
-- **P4**: Low—fill gaps between priorities
+- P1: Critical—immediate attention required
+- P2: High—scheduled for current day/night
+- P3: Medium—backlog, address this week
+- P4: Low—fill gaps between priorities
 
 ## Automation Rules That Reduce Friction
 
@@ -174,9 +174,9 @@ This separation ensures incidents get immediate attention while routine work con
 
 With a three-person team across time zones, establish a lightweight daily ritual:
 
-1. **Morning (primary overlap)**: Quick 15-minute sync. Review board together. Identify today's priorities and any blockers.
-2. **Async updates**: Throughout the day, update card status when starting, blocking, or completing work. Add comments with context.
-3. **End of day**: Move completed items to Done. Update any stalled items. Review tomorrow's priorities.
+1. Morning (primary overlap): Quick 15-minute sync. Review board together. Identify today's priorities and any blockers.
+2. Async updates: Throughout the day, update card status when starting, blocking, or completing work. Add comments with context.
+3. End of day: Move completed items to Done. Update any stalled items. Review tomorrow's priorities.
 
 The board replaces most status questions. When someone asks "what are you working on?" the answer is on the board.
 
@@ -184,10 +184,10 @@ The board replaces most status questions. When someone asks "what are you workin
 
 Track these metrics to improve your process:
 
-- **Lead time**: Time from card creation to Done
-- **Cycle time**: Time from In Progress to Done  
-- **Throughput**: Cards completed per week
-- **Blockage frequency**: How often cards hit Blocked
+- Lead time: Time from card creation to Done
+- Cycle time: Time from In Progress to Done 
+- Throughput: Cards completed per week
+- Blockage frequency: How often cards hit Blocked
 
 Review these weekly. If lead time increases, look for bottlenecks. If blockage frequency rises, investigate what's causing stalls.
 
@@ -195,10 +195,10 @@ Review these weekly. If lead time increases, look for bottlenecks. If blockage f
 
 Avoid these mistakes when setting up your board:
 
-- **Too many columns**: Keep it simple. More columns mean more decisions about where things go.
-- **Ignoring WIP limits**: Setting limits without enforcing them defeats the purpose.
-- **Over-labeling**: Labels help, but too many become noise. Stick to 5-8 meaningful ones.
-- **Forgetting archived items**: Old completed cards clutter views. Archive or delete them periodically.
+- Too many columns: Keep it simple. More columns mean more decisions about where things go.
+- Ignoring WIP limits: Setting limits without enforcing them defeats the purpose.
+- Over-labeling: Labels help, but too many become noise. Stick to 5-8 meaningful ones.
+- Forgetting archived items: Old completed cards clutter views. Archive or delete them periodically.
 
 ## Adapting as Your Team Grows
 

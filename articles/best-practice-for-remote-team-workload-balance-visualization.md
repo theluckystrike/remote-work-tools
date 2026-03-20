@@ -120,7 +120,7 @@ Not every team has budget for specialized workload management platforms. Several
 
 **Spreadsheet-based tracking** remains viable for teams under fifteen people. Create a shared sheet with columns for team member, task description, estimated hours, priority, and due date. Calculate utilization totals with formulas. Color-code rows based on thresholds. This approach lacks automation but provides the core visibility needed.
 
-**Tag-based filtering** in tools like Linear, Jira, or Asana enables quick workload assessment. Assign each task a priority tag and assignee. Filter by assignee to see individual workloads. Add custom fields for estimated hours. While manual, this leverages tools you likely already use.
+**Tag-based filtering** in tools like Linear, Jira, or Asana enables quick workload assessment. Assign each task a priority tag and assignee. Filter by assignee to see individual workloads. Add custom fields for estimated hours. While manual, this uses tools you likely already use.
 
 **Weekly status automation** through simple forms builds lightweight visibility. Ask team members to report current task count, estimated hours remaining, and capacity feeling (low/medium/high). Aggregate responses into a simple visualization. This approach works surprisingly well for distributed teams willing to invest two minutes weekly.
 
@@ -128,13 +128,13 @@ Not every team has budget for specialized workload management platforms. Several
 
 Effective workload management operates on a regular cadence. Implement a bi-weekly review process:
 
-**Day 1 (Sprint Start)**: Generate workload visualization from sprint tasks. Identify members above 85% or below 50% utilization.
+Day 1 (Sprint Start): Generate workload visualization from sprint tasks. Identify members above 85% or below 50% utilization.
 
-**Day 2 (Planning Adjustment)**: During sprint planning, explicitly consider workload distribution. When pulling new work, check whether adding a task pushes any member into overload. Redirect work from overloaded to underutilized members.
+Day 2 (Planning Adjustment): During sprint planning, explicitly consider workload distribution. When pulling new work, check whether adding a task pushes any member into overload. Redirect work from overloaded to underutilized members.
 
-**Day 5 (Mid-Sprint Check)**: Review actual versus estimated times. Adjust assignments if certain members struggle while others finish early. This adaptive approach handles uncertainty inherent in knowledge work.
+Day 5 (Mid-Sprint Check): Review actual versus estimated times. Adjust assignments if certain members struggle while others finish early. This adaptive approach handles uncertainty inherent in knowledge work.
 
-**Day 10 (Final Adjustment)**: Complete final rebalancing before sprint end. Ensure no one carries disproportionate bug-fix burden or urgent requests.
+Day 10 (Final Adjustment): Complete final rebalancing before sprint end. Ensure no one carries disproportionate bug-fix burden or urgent requests.
 
 This cycle prevents accumulation of workload imbalances that lead to burnout and disengagement.
 
@@ -154,7 +154,7 @@ Workload visualization serves a larger purpose: sustainable remote work practice
 
 Start with whatever data you have available. Even simple spreadsheets create more awareness than no visibility. As your team matures, invest in more sophisticated tooling and automation. The fundamental principle remains constant: you cannot manage what you cannot see.
 
-Effective distributed teams treat workload balance not as a one-time fix but as an ongoing practice. Regular visualization, combined with willingness to adjust assignments, keeps teams healthy and productive across time zones and organizational changes.
+Effective distributed teams treat workload balance not as an one-time fix but as an ongoing practice. Regular visualization, combined with willingness to adjust assignments, keeps teams healthy and productive across time zones and organizational changes.
 
 ---
 

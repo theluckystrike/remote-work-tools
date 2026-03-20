@@ -203,13 +203,6 @@ Set velocity targets based on your data. A reasonable remote hiring pipeline sho
 
 Track these weekly. If your actual times exceed targets by more than 20%, investigate the bottleneck stage. For distributed teams, expect slightly longer technical stages due to scheduling complexity.
 
-## Final Thoughts
-
-Pipeline velocity tracking for distributed recruiting teams requires intentional measurement. Start simple: track stage times, identify bottlenecks, and automate alerts. As your remote hiring scales, these metrics become essential for maintaining candidate experience across time zones.
-
-The goal isn't just speed—it's creating a predictable, fair hiring process where location doesn't determine outcome. Measure consistently, iterate on your processes, and your distributed team will build stronger hiring practices over time.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

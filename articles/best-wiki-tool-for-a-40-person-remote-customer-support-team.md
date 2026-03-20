@@ -25,11 +25,11 @@ Use Notion for flexible formatting and permission controls, Confluence if your t
 
 A 40-person remote support team has distinct needs that differ from engineering or marketing wikis:
 
-- **Ticket integration**: Agents need wiki access without leaving their support interface
-- **Version control**: Support procedures change frequently; audit trails matter
-- **Permission granularity**: Some documents (like escalation playbooks) require restricted access
-- **Search speed**: Agents cannot wait seconds for results during live chats
-- **Content formatting**: Support teams need tables, checklists, and media embedding more than code blocks
+- Ticket integration: Agents need wiki access without leaving their support interface
+- Version control: Support procedures change frequently; audit trails matter
+- Permission granularity: Some documents (like escalation playbooks) require restricted access
+- Search speed: Agents cannot wait seconds for results during live chats
+- Content formatting: Support teams need tables, checklists, and media embedding more than code blocks
 
 ## Solution 1: Notion — The Flexible All-Rounder
 
@@ -163,11 +163,11 @@ For most 40-person remote support teams, Notion provides the fastest path to pro
 
 Regardless of your chosen tool, implement these practices:
 
-1. **Audit existing knowledge**: Collect current documents, chat macros, and email templates before migration
-2. **Establish ownership**: Assign document owners responsible for quarterly reviews
-3. **Create templates**: Standardize article structure with problem/solution/next-steps sections
-4. **Integrate search**: Connect wiki search to your support platform's agent interface
-5. **Monitor usage**: Track which articles agents search for but cannot find
+1. Audit existing knowledge: Collect current documents, chat macros, and email templates before migration
+2. Establish ownership: Assign document owners responsible for quarterly reviews
+3. Create templates: Standardize article structure with problem/solution/next-steps sections
+4. Integrate search: Connect wiki search to your support platform's agent interface
+5. Monitor usage: Track which articles agents search for but cannot find
 
 ## Measuring Success
 

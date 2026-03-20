@@ -18,7 +18,7 @@ voice-checked: false
 {% raw %}
 # Remote Team Conflict Resolution Framework for Managers Handling Distributed Disagreements
 
-Resolve remote team conflicts using a structured framework of listening sessions with each party, identifying underlying interests (not just positions), and facilitating a solution discussion that both parties help craft. This approach works well async and prevents escalation to senior leadership.
+Resolve remote team conflicts using a structured framework of listening sessions with each party, identifying underlying interests (not just positions), and helping a solution discussion that both parties help craft. This approach works well async and prevents escalation to senior leadership.
 
 This guide provides managers with a practical framework for resolving conflicts in distributed teams, with specific tactics you can implement immediately.
 
@@ -139,13 +139,6 @@ Sometimes conflicts can't be resolved at the team level. When escalation is nece
 2. **Present both perspectives fairly** — Show you've attempted to understand all sides
 3. **Recommend next steps** — Suggest specific actions rather than just presenting the problem
 4. **Protect the team** — Avoid creating a culture where escalation is punished
-
-## Conclusion
-
-Remote team conflict resolution requires more structure than in-office management. By implementing the SCARF-based framework—Stop, Connect, Clarify, Agree, Review—you create a systematic approach that addresses both practical disputes and emotional needs. Combined with proactive communication norms, your team can transform conflict into collaboration.
-
-Remember that conflict itself isn't bad—it often indicates that people care about outcomes and are engaged. Your job as a manager is to channel that energy productively.
-
 
 ## Related Reading
 

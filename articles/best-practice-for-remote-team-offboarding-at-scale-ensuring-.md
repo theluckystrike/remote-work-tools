@@ -80,7 +80,7 @@ Access revocation must happen in order of sensitivity. Start with the most criti
 
 #### Terraform-Based Access Revocation
 
-If your organization uses infrastructure-as-code, leverage it for access management:
+If your organization uses infrastructure-as-code, use it for access management:
 
 ```hcl
 # Module for offboarding user access
@@ -191,11 +191,11 @@ def process_offboarding_queue(hris_client, it_client):
 
 ## Common Pitfalls to Avoid
 
-**The "I" Problem**: Avoid offloading all offboarding work onto the departing employee. They may not feel motivated to document everything thoroughly. Instead, assign a peer to review and supplement their handoff.
+The "I" Problem: Avoid offloading all offboarding work onto the departing employee. They may not feel motivated to document everything thoroughly. Instead, assign a peer to review and supplement their handoff.
 
-**Temporal Gaps**: Run knowledge transfer sessions at least one week before departure. Rushing this process guarantees gaps in institutional knowledge.
+Temporal Gaps: Run knowledge transfer sessions at least one week before departure. Rushing this process guarantees gaps in institutional knowledge.
 
-**Access Blind Spots**: Remote teams often accumulate shadow IT—personal API keys, temporary deployment accounts, or individual SaaS subscriptions. Query your cloud billing and audit logs to catch these:
+Access Blind Spots: Remote teams often accumulate shadow IT—personal API keys, temporary deployment accounts, or individual SaaS subscriptions. Query your cloud billing and audit logs to catch these:
 
 ```bash
 # Find AWS access keys created in last 90 days
@@ -203,7 +203,7 @@ aws iam list-access-keys --region us-east-1 \
   | jq '.AccessKeyMetadata[] | select(.CreateDate > (now - 7776000))'
 ```
 
-**Incomplete Communication Updates**: Missing email updates cause support escalations to bounce to inactive accounts. Verify all aliases and forwarding rules before deactivating accounts.
+Incomplete Communication Updates: Missing email updates cause support escalations to bounce to inactive accounts. Verify all aliases and forwarding rules before deactivating accounts.
 
 ## Measuring Offboarding Effectiveness
 
@@ -224,11 +224,6 @@ FROM offboarding_log
 GROUP BY DATE(last_day)
 ORDER BY departure_date DESC;
 ```
-
-## Conclusion
-
-Remote team offboarding at scale demands the same engineering rigor you apply to your codebase. By automating access revocation, structuring knowledge transfer as parallel workstreams, and maintaining audit trails, you protect your organization from both security vulnerabilities and knowledge loss. The scripts and workflows above provide a foundation—adapt them to your specific toolchain and compliance requirements.
-
 
 ## Related Reading
 

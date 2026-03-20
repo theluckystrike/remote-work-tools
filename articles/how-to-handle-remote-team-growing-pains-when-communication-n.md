@@ -15,7 +15,7 @@ voice-checked: true
 {% raw %}
 # How to Handle Remote Team Growing Pains When Communication Norms Stop Working at Scale
 
-Every remote team reaches a tipping point. The communication norms that worked seamlessly with five people suddenly fracture when you add fifteen more. Decisions that once happened in organic hallway conversations now require explicit coordination. The "just ask in Slack" approach that felt efficient becomes a noise problem that drives people to mute channels entirely.
+Every remote team reaches a tipping point. The communication norms that worked with five people suddenly fracture when you add fifteen more. Decisions that once happened in organic hallway conversations now require explicit coordination. The "just ask in Slack" approach that felt efficient becomes a noise problem that drives people to mute channels entirely.
 
 This is the scaling problem every distributed team faces. Communication norms that emerge naturally in small teams rarely survive contact with growth. Here's how to recognize the warning signs and rebuild your communication infrastructure for scale.
 
@@ -23,13 +23,13 @@ This is the scaling problem every distributed team faces. Communication norms th
 
 The symptoms of communication breakdown are often subtle at first, then suddenly overwhelming. Watch for these indicators:
 
-**Response time inflation**: What once was "I'll reply in an hour" becomes "I'll get to this tomorrow." Threads that used to resolve in hours stretch across days.
+Response time inflation: What once was "I'll reply in an hour" becomes "I'll get to this tomorrow." Threads that used to resolve in hours stretch across days.
 
-**Channel abandonment**: Developers stop checking team channels because the signal-to-noise ratio has collapsed. Important announcements get lost in the noise.
+Channel abandonment: Developers stop checking team channels because the signal-to-noise ratio has collapsed. Important announcements get lost in the noise.
 
-**Meeting proliferation**: Without effective async communication, teams compensate by scheduling more synchronous meetings. Your calendar becomes the victim.
+Meeting proliferation: Without effective async communication, teams compensate by scheduling more synchronous meetings. Your calendar becomes the victim.
 
-**Knowledge silos emerge**: As teams grow, information that used to flow freely now gets trapped in private conversations between subsets of team members.
+Knowledge silos emerge: As teams grow, information that used to flow freely now gets trapped in private conversations between subsets of team members.
 
 When these symptoms appear, your communication norms have stopped working at scale. It's time to rebuild them intentionally.
 
@@ -216,12 +216,12 @@ git revert HEAD && git push --force
 
 The communication norms that work for twenty people won't work for fifty. Build in regular review cycles:
 
-**Quarterly communication audits**:
+Quarterly communication audits:
 - Review which channels are active vs. abandoned
 - Analyze response time data
 - Survey team satisfaction with async communication
 
-**Experiment with new patterns**:
+Experiment with new patterns:
 - Try different sync meeting frequencies
 - Test new async templates
 - Measure the impact of changes

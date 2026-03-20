@@ -101,7 +101,7 @@ Originally known for performance management, CultureAMP has expanded into securi
 
 ### API-First Design
 
-CultureAMP provides robust API access that developers appreciate. You can trigger training assignments based on events in your existing workflows:
+CultureAMP provides API access that developers appreciate. You can trigger training assignments based on events in your existing workflows:
 
 ```javascript
 // GitHub Actions: Assign security training on new repo access

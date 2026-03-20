@@ -246,7 +246,7 @@ For most distributed engineering teams, a hybrid approach works best:
 3. **Surface availability in Slack** — use custom apps or integrations to show who's available now
 4. **Build automation around the data** — scheduled reports, overlap calculators, and timezone converters
 
-The "best" tool depends on your existing stack. Teams already using Notion should extend it. Teams on Google Workspace can leverage People API. Teams prioritizing Slack integration should build custom apps.
+The "best" tool depends on your existing stack. Teams already using Notion should extend it. Teams on Google Workspace can use People API. Teams prioritizing Slack integration should build custom apps.
 
 What matters most is that your directory data is accessible programmatically, stays current, and integrates with where your team actually communicates.
 

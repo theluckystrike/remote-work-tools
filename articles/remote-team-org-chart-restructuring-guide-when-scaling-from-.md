@@ -158,10 +158,10 @@ Layered management can signal that management is the only advancement path. Expl
 
 After 90 days, evaluate your restructure:
 
-- **Decision velocity**: Are things moving faster or slower?
-- **Onboarding time**: Can new hires find their manager within 5 minutes?
-- **Meeting load**: Has the total meeting hours decreased?
-- **Employee sentiment**: Do people understand who they report to?
+- Decision velocity: Are things moving faster or slower?
+- Onboarding time: Can new hires find their manager within 5 minutes?
+- Meeting load: Has the total meeting hours decreased?
+- Employee sentiment: Do people understand who they report to?
 
 If metrics don't improve, you may have added layers without adding value. Revert and try a different approach.
 

@@ -26,7 +26,7 @@ Without intentional intervention, this leads to what researchers call "the two-t
 
 ## Document Everything: The Async-First Foundation
 
-The most practical starting point is documenting virtually everything that happens in the office. This does not mean transcribing every casual conversation, but it does mean ensuring that substantive discussions, decisions, and context live in tools everyone can access asynchronously.
+The most practical starting point is documenting everything that happens in the office. This does not mean transcribing every casual conversation, but it does mean ensuring that substantive discussions, decisions, and context live in tools everyone can access asynchronously.
 
 A straightforward approach uses a shared document system with a standardized template. When your team discusses a technical decision in a meeting room, someone types notes into a collaborative document using a format like this:
 
@@ -86,9 +86,9 @@ Meetings are where hybrid friction becomes most visible. When some participants 
 
 Adopt a "remote-first" meeting philosophy even when some people share a room. This means:
 
-- **One person, one screen**: Everyone, including those in the office, joins the video call from their own device. The meeting room displays the video feed on a shared screen. This ensures remote participants see faces clearly and in-person participants remember to speak to the camera.
-- **Always-on transcription**: Use tools like Otter.ai, Whisper, or built-in platform transcription to generate real-time captions. This serves dual purposes—accessibility and providing a written record for async teammates.
-- **Visual-first communication**: When discussing architecture, APIs, or designs, share screens rather than pointing at physical whiteboards. If you must use a whiteboard, photograph it and share the image in the meeting chat immediately.
+- One person, one screen: Everyone, including those in the office, joins the video call from their own device. The meeting room displays the video feed on a shared screen. This ensures remote participants see faces clearly and in-person participants remember to speak to the camera.
+- Always-on transcription: Use tools like Otter.ai, Whisper, or built-in platform transcription to generate real-time captions. This serves dual purposes—accessibility and providing a written record for async teammates.
+- Visual-first communication: When discussing architecture, APIs, or designs, share screens rather than pointing at physical whiteboards. If you must use a whiteboard, photograph it and share the image in the meeting chat immediately.
 
 For code reviews and technical discussions, consider whether the meeting could be asynchronous entirely. Many decisions that teams make in synchronous meetings—API design, database schema changes, feature prioritization—work well as async discussions using tools like GitHub Discussions, Linear comments, or dedicated async video tools like Loom.
 

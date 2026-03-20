@@ -82,10 +82,10 @@ app.shortcut('open_question_modal', async ({ shortcut, client, ack }) => {
 
 A tight agenda keeps town halls productive. Aim for 45-60 minutes total with these proportions:
 
-- **Updates and announcements**: 15 minutes
-- **Deep-dive topic**: 10 minutes  
-- **Live Q&A**: 20 minutes
-- **Async question roundup and next steps**: 5 minutes
+- Updates and announcements: 15 minutes
+- Deep-dive topic: 10 minutes 
+- Live Q&A: 20 minutes
+- Async question roundup and next steps: 5 minutes
 
 Share the agenda 24 hours in advance so attendees can prepare questions relevant to specific topics.
 

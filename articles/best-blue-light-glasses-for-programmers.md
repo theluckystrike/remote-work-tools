@@ -57,9 +57,9 @@ If you already wear prescription lenses, many blue light glasses can be made wit
 
 You'll likely wear these for entire workdays. Key considerations:
 
-- **Weight**: Under 30g is ideal for all-day comfort
-- **Temple pressure**: Adjustable temple tips prevent headaches
-- **Nose pads**: Silicone pads provide better grip than plastic
+- Weight: Under 30g is ideal for all-day comfort
+- Temple pressure: Adjustable temple tips prevent headaches
+- Nose pads: Silicone pads provide better grip than plastic
 
 ## Practical Setup: Beyond Just Glasses
 
@@ -97,15 +97,6 @@ Lens coatings degrade over time, especially with improper cleaning. Replace your
 - You notice increased eye strain you didn't have before
 - The coating is visibly scratched or peeling
 - The frame has stretched and no longer fits properly
-
-## Conclusion
-
-Blue light glasses are a straightforward investment in your long-term eye health. Focus on lens effectiveness (90%+ blocking in the 400-420nm range), comfortable fit for all-day wear, and clear lenses for color-critical work. Combine with screen temperature automation and regular breaks for a comprehensive approach to reducing digital eye strain.
-
-Your eyes will thank you after years of coding.
-
----
-
 
 ## Related Reading
 

@@ -59,10 +59,10 @@ This is where the philosophical difference becomes most apparent.
 
 Linear uses a relatively flat project structure:
 
-- **Projects**: Top-level containers
-- **Issues**: The core unit of work
-- **Cycles**: Time-boxed iterations (optional)
-- **Teams**: Grouping for permissions and organization
+- Projects: Top-level containers
+- Issues: The core unit of work
+- Cycles: Time-boxed iterations (optional)
+- Teams: Grouping for permissions and organization
 
 Here's how you might structure a project in Linear:
 
@@ -191,13 +191,6 @@ Choose **Shortcut** if:
 If you're moving from one platform to another, both offer import tools. Linear can import from Jira, Asana, and other tools. Shortcut supports imports from Trello, Asana, and Jira as well.
 
 The migration effort depends on your data complexity. Custom fields, attachments, and historical comments all require careful mapping.
-
-## Final Thoughts
-
-Test both with your actual team workflow before committing. A keyboard-first team will feel the friction of Shortcut's heavier interface within weeks, while story-driven Agile teams may outgrow Linear's flat structure just as quickly.
-
----
-
 
 ## Related Reading
 

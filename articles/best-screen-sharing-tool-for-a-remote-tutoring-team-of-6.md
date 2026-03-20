@@ -152,10 +152,10 @@ For most remote tutoring teams of six, **Zoom** provides the best balance of rel
 
 However, specific scenarios warrant different choices:
 
-- **Budget constraints**: Google Meet's free tier covers essential needs
-- **Programming focus**: VS Code Live Share enables superior collaboration
-- **Community aspect**: Discord provides communication infrastructure alongside screen sharing
-- **Visual subjects**: Miro or FigJam integrations enhance whiteboard-dependent sessions
+- Budget constraints: Google Meet's free tier covers essential needs
+- Programming focus: VS Code Live Share enables superior collaboration
+- Community aspect: Discord provides communication infrastructure alongside screen sharing
+- Visual subjects: Miro or FigJam integrations enhance whiteboard-dependent sessions
 
 The ideal approach often involves combining tools—Zoom for primary sessions, Google Meet as backup, and Discord for ongoing student communication. This layered strategy provides redundancy while allowing each tool to excel in its specialty.
 

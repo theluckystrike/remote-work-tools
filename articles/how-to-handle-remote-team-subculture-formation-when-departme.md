@@ -136,7 +136,7 @@ const toolSettings = {
 
 ### 5. Address Friction Points Directly
 
-When subculture differences cause measurable problems—missed deadlines, miscommunication, frustrated team members—address them explicitly. Don't hope norms will converge naturally. Facilitate explicit negotiation.
+When subculture differences cause measurable problems—missed deadlines, miscommunication, frustrated team members—address them explicitly. Don't hope norms will converge naturally. help explicit negotiation.
 
 Create a simple escalation template:
 
@@ -164,13 +164,13 @@ Without intervention, this becomes a chronic friction point. Engineers feel cons
 
 A practical resolution might look like:
 
-1. **Define urgency tiers**: "Critical" (production issues) gets 1-hour response. "Normal" gets 24 hours. "Can wait" gets 72 hours.
+1. Define urgency tiers: "Critical" (production issues) gets 1-hour response. "Normal" gets 24 hours. "Can wait" gets 72 hours.
 
-2. **Create escalation paths**: Marketing knows exactly who to ping for urgent requests.
+2. Create escalation paths: Marketing knows exactly who to ping for urgent requests.
 
-3. **Establish async alternatives**: Engineering provides estimated response times publicly. Marketing learns to plan ahead.
+3. Establish async alternatives: Engineering provides estimated response times publicly. Marketing learns to plan ahead.
 
-4. **Review and adjust**: Monthly check-ins on whether the agreement works.
+4. Review and adjust: Monthly check-ins on whether the agreement works.
 
 This approach respects both teams' operational needs without forcing either to completely abandon their working style.
 

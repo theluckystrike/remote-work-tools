@@ -24,10 +24,10 @@ When your organization had 15 people, staffing decisions happened organically. Y
 
 Cross-functional projects—those requiring collaboration between engineering, design, product, and operations—present unique staffing challenges:
 
-- **Skill matching**: Finding people with overlapping competencies across disciplines
-- **Availability windows**: Ensuring sufficient timezone overlap for real-time collaboration
-- **Workload balancing**: Avoiding burnout while distributing interesting work
-- **Historical context**: Knowing who has worked together successfully before
+- Skill matching: Finding people with overlapping competencies across disciplines
+- Availability windows: Ensuring sufficient timezone overlap for real-time collaboration
+- Workload balancing: Avoiding burnout while distributing interesting work
+- Historical context: Knowing who has worked together successfully before
 
 Generic project management tools handle task assignment, but they lack the specialized intelligence needed for strategic staffing decisions.
 
@@ -54,8 +54,8 @@ fields:
     options: [Available, Assigned, On Leave]
 ```
 
-**Strengths**: Deep GitHub integration, excellent API, familiar interface for developers
-**Limitations**: Requires manual updates to staffing data, no automated skill detection
+Strengths: Deep GitHub integration, excellent API, familiar interface for developers
+Limitations: Requires manual updates to staffing data, no automated skill detection
 
 ### Float: Resource Planning Focus
 
@@ -75,26 +75,26 @@ const team = await response.json();
 //            scheduled_hours, capacity_percentage }]
 ```
 
-**Strengths**: Visual capacity planning, drag-and-drop scheduling, capacity forecasting
-**Limitations**: Less emphasis on skill matching, primarily designed for agencies
+Strengths: Visual capacity planning, drag-and-drop scheduling, capacity forecasting
+Limitations: Less emphasis on skill matching, primarily designed for agencies
 
 ### Robin: Hybrid Workforce Management
 
 Robin positions itself as the operating system for hybrid work, with strong scheduling and room booking. Its staffing features include skill tagging and project-based assignments.
 
-**Strengths**: Strong workplace integration, desk booking, meeting room management
-**Limitations**: Less developer-focused, enterprise pricing at scale
+Strengths: Strong workplace integration, desk booking, meeting room management
+Limitations: Less developer-focused, enterprise pricing at scale
 
 ### Resource Guru: Service-Oriented Staffing
 
 Resource Guru targets professional services teams with emphasis on utilization rates and project profitability. It handles contractor management well, useful when scaling includes external resources.
 
-**Strengths**: Utilization reporting, contractor management, booking workflows
-**Limitations**: Less suitable for product engineering teams
+Strengths: Utilization reporting, contractor management, booking workflows
+Limitations: Less suitable for product engineering teams
 
 ## Recommended Solution: Custom Pipeline with Notion + API Integration
 
-For remote teams prioritizing developer experience and flexibility, building a custom staffing pipeline using Notion's API provides the best balance of customization and functionality. This approach gives you complete control over staffing data while leveraging existing tools your team already uses.
+For remote teams prioritizing developer experience and flexibility, building a custom staffing pipeline using Notion's API provides the best balance of customization and functionality. This approach gives you complete control over staffing data while using existing tools your team already uses.
 
 ### Architecture Overview
 
@@ -115,14 +115,14 @@ For remote teams prioritizing developer experience and flexibility, building a c
 
 Create a database with the following properties:
 
-- **Name**: Person's name
-- **Skills**: Multi-select (e.g., Frontend, Backend, DevOps, Design)
-- **Timezone**: Select (e.g., PST, EST, GMT, CET, JST)
-- **Capacity**: Number (0-100, percentage of available time)
-- **Current Projects**: Relation to Projects database
-- **Preferred Projects**: Multi-select
-- **Manager**: Person
-- **Availability Date**: Date (for planned capacity changes)
+- Name: Person's name
+- Skills: Multi-select (e.g., Frontend, Backend, DevOps, Design)
+- Timezone: Select (e.g., PST, EST, GMT, CET, JST)
+- Capacity: Number (0-100, percentage of available time)
+- Current Projects: Relation to Projects database
+- Preferred Projects: Multi-select
+- Manager: Person
+- Availability Date: Date (for planned capacity changes)
 
 ### Step 2: Build the Staffing API
 
@@ -232,10 +232,10 @@ app.command('/staff-project', async ({ command, ack, say }) => {
 
 Start with manual data entry in your Notion staffing database. Run staffing reviews weekly to keep data current. As your team grows past 100 people, invest in automating data synchronization:
 
-1. **Week 1-2**: Set up Notion database, invite team to update profiles
-2. **Week 3-4**: Build basic API endpoint, test with real staffing decisions
-3. **Month 2**: Add Slack integration for quick lookups
-4. **Month 3**: Automate capacity updates from time tracking or project management tools
+1. Week 1-2: Set up Notion database, invite team to update profiles
+2. Week 3-4: Build basic API endpoint, test with real staffing decisions
+3. Month 2: Add Slack integration for quick lookups
+4. Month 3: Automate capacity updates from time tracking or project management tools
 
 The custom approach requires more setup than off-the-shelf solutions, but it adapts to your organization's unique staffing patterns. As remote teams continue to grow, having visibility into skills, availability, and project history becomes a competitive advantage in executing cross-functional work effectively.
 

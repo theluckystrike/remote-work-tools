@@ -18,13 +18,13 @@ The most effective documentation ownership model for remote teams assigns a prim
 
 Remote work eliminates the informal hallway conversations where knowledge transfers happen naturally. When anyone can edit everything, responsibility becomes diffuse. A well-designed ownership model solves three critical problems:
 
-1. **Accountability**: Someone is explicitly responsible for reviewing changes and keeping content current
-2. **Quality control**: Page maintainers can enforce standards and catch errors before publication
-3. **Reduced friction**: Contributors know who to approach with questions or proposed changes
+1. Accountability: Someone is explicitly responsible for reviewing changes and keeping content current
+2. Quality control: Page maintainers can enforce standards and catch errors before publication
+3. Reduced friction: Contributors know who to approach with questions or proposed changes
 
 ## Step 1: Audit Your Current Documentation ecosystem
 
-Before assigning ownership, understand what you're working with. Create a comprehensive inventory of your documentation:
+Before assigning ownership, understand what you're working with. Create an inventory of your documentation:
 
 ```bash
 # List all markdown files in your docs directory
@@ -126,7 +126,7 @@ if __name__ == "__main__":
 
 Ownership only works when paired with clear review processes. Implement these practices:
 
-**Required reviews**: Configure your CI to require approval from the document owner before merging:
+Required reviews: Configure your CI to require approval from the document owner before merging:
 
 ```yaml
 # .github/workflows/docs-review.yml
@@ -155,7 +155,7 @@ jobs:
             });
 ```
 
-**Stale content alerts**: Set up automated reminders for owners to review their pages:
+Stale content alerts: Set up automated reminders for owners to review their pages:
 
 ```yaml
 # .github/workflows/stale-docs.yml
@@ -178,9 +178,9 @@ jobs:
 
 Documentation ownership only succeeds when everyone participates. Train your team with these onboarding steps:
 
-1. **Add new pages**: When creating documentation, explicitly assign ownership in the PR
-2. **Request changes**: Contributors should tag the owner when proposing edits
-3. **Report issues**: Use labels like `docs-bug` or `docs-outdated` to surface problems
+1. Add new pages: When creating documentation, explicitly assign ownership in the PR
+2. Request changes: Contributors should tag the owner when proposing edits
+3. Report issues: Use labels like `docs-bug` or `docs-outdated` to surface problems
 
 Create a CONTRIBUTING guide that explains the ownership model:
 
@@ -202,9 +202,9 @@ Owners should respond to review requests within 48 hours.
 
 Track these metrics to validate your ownership model:
 
-- **Time to review**: Average time between PR creation and owner approval
-- **Stale content ratio**: Percentage of docs not reviewed in 90 days
-- **Contributor satisfaction**: Survey team members on documentation clarity
+- Time to review: Average time between PR creation and owner approval
+- Stale content ratio: Percentage of docs not reviewed in 90 days
+- Contributor satisfaction: Survey team members on documentation clarity
 
 ```sql
 -- Example: Find docs not reviewed in 90 days
@@ -215,10 +215,10 @@ WHERE last_reviewed < DATE_SUB(CURDATE(), INTERVAL 90 DAY);
 
 ## Common Pitfalls to Avoid
 
-- **Over-fragmentation**: Assigning one owner per page creates bottlenecks
-- **No backup plan**: Always have secondary owners for absences
-- **Ownership without authority**: Owners need decision power, not just responsibility
-- **Forgotten registry**: Keep the ownership file in sync with actual content
+- Over-fragmentation: Assigning one owner per page creates bottlenecks
+- No backup plan: Always have secondary owners for absences
+- Ownership without authority: Owners need decision power, not just responsibility
+- Forgotten registry: Keep the ownership file in sync with actual content
 
 A well-implemented ownership model transforms documentation from a chaotic afterthought into a reliable team resource. The initial setup effort pays dividends in reduced confusion, faster onboarding, and content that actually stays current.
 

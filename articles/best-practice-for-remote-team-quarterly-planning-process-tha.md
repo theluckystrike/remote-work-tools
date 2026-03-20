@@ -180,11 +180,3 @@ A quarterly plan isn't set-and-forget. Build in a mid-quarter sync (around week 
 
 The most effective quarterly planning processes combine bottom-up input (what teams believe they can accomplish) with top-down direction (strategic priorities from leadership). Teams that feel ownership over their commitments perform better than teams that receive mandates.
 
-## Summary
-
-Scaling quarterly planning across multiple remote teams requires moving beyond synchronous marathons to a structured async approach. The three-phase framework—individual preparation, cross-team synchronization, and final consolidation—produces documented artifacts that scale without proportional coordination overhead. 
-
-Key principles to remember: document everything, automate what you can, resolve conflicts asynchronously first, and build in mid-quarter flexibility. Organizations that implement this approach find that planning actually takes less time than the old meeting-heavy methods while producing better alignment and fewer surprises throughout the quarter.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -237,7 +237,7 @@ For most developer teams, integrating an established service like Daily.co or Li
 
 The key factors in your decision are: team size (affects SFU requirements), latency sensitivity (real-time collaboration needs WebRTC), custom processing needs (recording, transcription, content moderation), and browser compatibility requirements.
 
-Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building comprehensive meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
+Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
 
 
 ## Related Reading

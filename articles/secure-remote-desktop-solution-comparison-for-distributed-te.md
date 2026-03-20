@@ -133,7 +133,7 @@ The hosting option runs in the system tray, making VMs accessible to authorized 
 
 Regardless of your chosen solution, implement these security practices:
 
-**Jump Server Architecture**: Never expose remote desktop services directly to the internet. Route all connections through a hardened jump server with strong authentication:
+Jump Server Architecture: Never expose remote desktop services directly to the internet. Route all connections through a hardened jump server with strong authentication:
 
 ```bash
 # Fail2ban configuration for SSH brute force protection
@@ -145,18 +145,18 @@ maxretry = 3
 bantime = 3600
 ```
 
-**Certificate-Based Authentication**: Replace password authentication with certificates wherever possible. For RDP, configure smart card authentication. For SSH, use ed25519 keys with agent forwarding.
+Certificate-Based Authentication: Replace password authentication with certificates wherever possible. For RDP, configure smart card authentication. For SSH, use ed25519 keys with agent forwarding.
 
-**Network Segmentation**: Isolate remote desktop infrastructure on dedicated network segments. Use VLANs to separate development environments from production systems.
+Network Segmentation: Isolate remote desktop infrastructure on dedicated network segments. Use VLANs to separate development environments from production systems.
 
 ## Performance Optimization
 
 Optimize remote desktop performance for distributed teams:
 
-1. **Reduce Color Depth**: Lower from 32-bit to 16-bit when visual fidelity isn't critical
-2. **Disable Wallpapers**: Remove desktop backgrounds to decrease bandwidth
-3. **Adjust Compression**: Most solutions offer compression level settings—balance CPU usage against network demands
-4. **Use Wired Connections**: WiFi introduces latency that compounds across remote sessions
+1. Reduce Color Depth: Lower from 32-bit to 16-bit when visual fidelity isn't critical
+2. Disable Wallpapers: Remove desktop backgrounds to decrease bandwidth
+3. Adjust Compression: Most solutions offer compression level settings—balance CPU usage against network demands
+4. Use Wired Connections: WiFi introduces latency that compounds across remote sessions
 
 ## Selecting Your Solution
 

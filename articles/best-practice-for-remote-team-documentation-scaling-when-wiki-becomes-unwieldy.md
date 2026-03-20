@@ -15,7 +15,7 @@ voice-checked: false
 
 
 {% raw %}
-When your remote team's wiki grows beyond a few hundred pages, the same features that made it useful—comprehensive coverage, searchable content, easy editing—start working against you. Finding relevant information becomes a scavenger hunt, outdated content accumulates faster than anyone can clean up, and new team members face a wall of documentation that feels overwhelming rather than welcoming. Scaling documentation effectively requires different strategies at different sizes, and the transition points often catch teams off guard.
+When your remote team's wiki grows beyond a few hundred pages, the same features that made it useful—coverage, searchable content, easy editing—start working against you. Finding relevant information becomes a scavenger hunt, outdated content accumulates faster than anyone can clean up, and new team members face a wall of documentation that feels overwhelming rather than welcoming. Scaling documentation effectively requires different strategies at different sizes, and the transition points often catch teams off guard.
 
 This guide covers practical approaches to managing wiki growth while maintaining quality, discoverability, and contributor motivation across remote teams of varying sizes.
 
@@ -59,7 +59,7 @@ Documentation rot happens when nobody feels responsible for content. Effective s
 
 **Tour-of-duty updates** recognize that ownership changes. When someone changes teams or leaves, their documentation responsibilities must transfer explicitly. Include documentation ownership in offboarding checklists and make succession visible—team members should know who's responsible for each section without asking.
 
-**Contribution incentives** matter more at scale. When hundreds of pages exist, hoping for volunteer maintenance fails. Consider approaches like linking documentation contributions to performance reviews, having documentation as a explicit priority in sprint planning, running monthly "documentation days" where the whole team focuses on improvements, or recognizing documentation contributions in team meetings.
+**Contribution incentives** matter more at scale. When hundreds of pages exist, hoping for volunteer maintenance fails. Consider approaches like linking documentation contributions to performance reviews, having documentation as an explicit priority in sprint planning, running monthly "documentation days" where the whole team focuses on improvements, or recognizing documentation contributions in team meetings.
 
 **Stale page policies** prevent accumulation of outdated content. Implement automated alerts for pages not updated in a configured period—six months is common. These alerts should go to the page owner, who either updates the page, archives it, or explicitly marks it as still-valid with a new review date.
 
@@ -113,7 +113,7 @@ Documentation scaling efforts need metrics to validate effectiveness and guide c
 
 **Onboarding velocity** measures how quickly new hires become productive. While documentation is just one factor, improved discoverability should correlate with faster onboarding.
 
-Set up dashboards tracking these metrics and review them monthly. Documentation scaling is ongoing work, not a one-time project—continuous measurement enables continuous improvement.
+Set up dashboards tracking these metrics and review them monthly. Documentation scaling is ongoing work, not an one-time project—continuous measurement enables continuous improvement.
 
 ## Common Pitfalls to Avoid
 

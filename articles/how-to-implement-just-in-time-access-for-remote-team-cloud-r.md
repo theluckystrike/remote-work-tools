@@ -38,7 +38,7 @@ A practical JIT system requires four functional components:
 3. **Credential issuance** - Temporary credentials are generated with expiration
 4. **Access monitoring** - All elevated sessions are logged and monitored
 
-Several open-source and commercial tools implement these patterns. HashiCorp Vault provides robust JIT through its temporary credentials system. AWS IAM Identity Center supports just-in-time provisioning. Kubernetes RBAC can integrate with tools like Pinniped for temporary cluster access. The implementation pattern remains consistent regardless of the underlying platform.
+Several open-source and commercial tools implement these patterns. HashiCorp Vault provides JIT through its temporary credentials system. AWS IAM Identity Center supports just-in-time provisioning. Kubernetes RBAC can integrate with tools like Pinniped for temporary cluster access. The implementation pattern remains consistent regardless of the underlying platform.
 
 ## Implementing JIT with HashiCorp Vault
 
@@ -221,11 +221,6 @@ JIT access significantly reduces risk but requires attention to several security
 **Session monitoring** - Monitor active sessions for suspicious activity. Terminate sessions that exhibit anomalous behavior.
 
 **Approval workflows** - For sensitive resources, require multi-party approval. This prevents a single compromised account from granting unauthorized access.
-
-## Conclusion
-
-Implementing just-in-time access for remote team cloud resources reduces security risk while maintaining developer productivity. Start with one high-value resource—perhaps production database access or Kubernetes cluster elevation—and expand the pattern across your infrastructure. The initial investment in automation pays dividends through reduced credential sprawl and improved auditability.
-
 
 ## Related Reading
 

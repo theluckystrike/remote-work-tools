@@ -124,13 +124,6 @@ Portugal follows EU regulations, meaning no roaming charges apply within the Eur
 
 Non-EU residents should note that Portuguese SIM cards require registration with a valid ID. Tourist SIM cards from carriers like Vodafone bypass this requirement but have less favorable terms. If you plan to stay longer than 90 days, obtaining a NIF (Portuguese tax number) significantly expands your options and typically lowers prices.
 
-## Conclusion
-
-For most remote developers in Portugal, **NOS 5G with 30 GB** provides the optimal balance of coverage, speed, and cost. If you need flexibility as a digital nomad, **Vodafone prepaid** offers the best accessibility without residency requirements. Heavy users who can provide Portuguese identification should consider **MEO unlimited** for truly unrestricted connectivity.
-
-The right choice depends on your specific situation—duration of stay, location within Portugal, and whether you need eSIM functionality. All three major carriers provide adequate service for remote work, with 5G coverage improving consistently across the country. Test your primary work locations before committing to a long-term contract, and maintain a backup connectivity option for critical deadlines.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

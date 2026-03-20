@@ -23,7 +23,7 @@ This guide covers practical strategies for maximizing natural light, automated s
 
 ## Why Natural Light Matters for Developers
 
-Working under artificial light alone disrupts your circadian rhythm. Your body's internal clock uses light cues to regulate sleep hormones, alertness, and cognitive function. When you spend 8+ hours under fluorescent or LED lighting without natural light exposure, you're essentially working against your biology.
+Working under artificial light alone disrupts your circadian rhythm. Your body's internal clock uses light cues to regulate sleep hormones, alertness, and cognitive function. When you spend 8+ hours under fluorescent or LED lighting without natural light exposure, you're working against your biology.
 
 Research consistently shows that workers with access to natural light report higher productivity levels and fewer headaches. For developers, this translates to fewer syntax errors, faster problem-solving, and better overall code quality.
 
@@ -167,13 +167,6 @@ If you're not ready for full automation, start with these simple changes:
 - **Trim outdoor vegetation** that blocks windows, particularly on south-facing exposures.
 - **Use a daylight lamp** on gray days or during winter months when natural light is insufficient.
 - **Take light breaks**—step outside for 10 minutes during peak daylight hours.
-
-## Conclusion
-
-Natural light optimization requires upfront assessment and some strategic investments, but the productivity and health benefits justify the effort. Start by understanding your current light conditions, then implement window treatments, positioning adjustments, or automation systems that work for your specific situation. The improvements in focus, reduced eye strain, and better sleep quality will compound over time.
-
-The best home office setups treat natural light as a primary design consideration rather than an afterthought. Your code quality and long-term health both improve when you work with your body's natural rhythms instead of against them.
-
 
 ## Related Reading
 

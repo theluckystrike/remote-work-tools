@@ -113,7 +113,7 @@ When evaluating coworking spaces, specifically ask about:
 
 Most coworking spaces offer day passes ($10-25 USD) or week trials. Use this time to:
 
-- Conduct a actual video call from a booth
+- Conduct an actual video call from a booth
 - Test your specific video conferencing software
 - Check microphone and camera quality
 - Verify WiFi stability during different times of day

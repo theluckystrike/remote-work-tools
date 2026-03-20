@@ -72,7 +72,7 @@ Set up a Slack workflow that triggers when a new team member joins:
 }
 ```
 
-Loom's limitation is that it's primarily one-directional. Team responses live as comments on the video rather than as a unified thread. This works for smaller teams but becomes fragmented at scale.
+Loom's limitation is that it's primarily one-directional. Team responses live as comments on the video rather than as an unified thread. This works for smaller teams but becomes fragmented at scale.
 
 ### Slack Threaded Introductions
 

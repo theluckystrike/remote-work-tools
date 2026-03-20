@@ -106,10 +106,10 @@ Backup: Phone call if connection fails
 
 For different relationship types:
 
-- **Manager-to-report one-on-ones**: Weekly, 30 minutes
-- **Tech lead to developer**: Bi-weekly, 30 minutes
-- **Cross-functional partnerships**: Monthly, 30-45 minutes
-- **Skip-level meetings**: Monthly, 30 minutes
+- Manager-to-report one-on-ones: Weekly, 30 minutes
+- Tech lead to developer: Bi-weekly, 30 minutes
+- Cross-functional partnerships: Monthly, 30-45 minutes
+- Skip-level meetings: Monthly, 30 minutes
 
 ## Practical Examples: Meeting Templates
 

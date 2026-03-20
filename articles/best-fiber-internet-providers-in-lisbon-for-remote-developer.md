@@ -22,10 +22,10 @@ Finding reliable high-speed internet ranks among the top concerns for remote dev
 
 Developers have different needs than typical home users. While streaming and browsing require moderate bandwidth, active development work demands consistent upload speeds, low jitter, and minimal packet loss. Here are the key metrics that matter:
 
-- **Latency (ping)**: Critical for real-time collaboration, SSH sessions, and API integrations
-- **Upload speed**: Essential for pushing git commits, deploying to cloud platforms, and sharing large codebases
-- **Symmetrical speeds**: Ideal if upload matches download, common with fiber connections
-- **Jitter**: Low variation in latency ensures stable VoIP calls and consistent WebSocket connections
+- Latency (ping): Critical for real-time collaboration, SSH sessions, and API integrations
+- Upload speed: Essential for pushing git commits, deploying to cloud platforms, and sharing large codebases
+- Symmetrical speeds: Ideal if upload matches download, common with fiber connections
+- Jitter: Low variation in latency ensures stable VoIP calls and consistent WebSocket connections
 
 A connection meeting the 100/100 Mbps threshold with latency under 10ms to major European data centers handles most development scenarios effectively.
 
@@ -109,39 +109,28 @@ Run this diagnostic during peak hours (evening, 7-10 PM) and off-peak hours to u
 
 ## Practical Recommendations by Use Case
 
-**General development work**: MEO or NOS 500 Mbps plans provide reliable performance at reasonable prices. Both offer good coverage and consistent speeds for typical development workflows including Git operations, CI/CD pipelines, and video conferencing.
+General development work: MEO or NOS 500 Mbps plans provide reliable performance at reasonable prices. Both offer good coverage and consistent speeds for typical development workflows including Git operations, CI/CD pipelines, and video conferencing.
 
-**Real-time applications and gaming**: If you maintain WebSocket servers or play latency-sensitive games, prioritize providers with lower jitter. Vodafone showed the most consistent latency patterns in testing, with jitter below 2ms.
+Real-time applications and gaming: If you maintain WebSocket servers or play latency-sensitive games, prioritize providers with lower jitter. Vodafone showed the most consistent latency patterns in testing, with jitter below 2ms.
 
-**Running home labs or servers**: Request a static IP from your provider. MEO and Vodafone make this straightforward, while NOS charges additional fees. Ensure your terms of service allow running servers—most residential contracts have restrictions.
+Running home labs or servers: Request a static IP from your provider. MEO and Vodafone make this straightforward, while NOS charges additional fees. Ensure your terms of service allow running servers—most residential contracts have restrictions.
 
-**Teams with multiple developers**: Consider business-grade plans from any provider. These typically include priority support, Service Level Agreements (SLAs), and better upload speeds. MEO's business fiber packages start at €50/month with 500/250 Mbps speeds.
+Teams with multiple developers: Consider business-grade plans from any provider. These typically include priority support, Service Level Agreements (SLAs), and better upload speeds. MEO's business fiber packages start at €50/month with 500/250 Mbps speeds.
 
 ## Troubleshooting Common Issues
 
 Even with good providers, issues arise. Here's how to diagnose common problems:
 
-**High latency despite good speeds**: Check your router placement and cabling. Use wired Ethernet instead of WiFi for development machines. Run `traceroute` to identify where delays occur:
+High latency despite good speeds: Check your router placement and cabling. Use wired Ethernet instead of WiFi for development machines. Run `traceroute` to identify where delays occur:
 
 ```bash
 # Identify latency bottlenecks
 traceroute -I github.com
 ```
 
-**Inconsistent speeds**: Contact your provider to verify your line is provisioned correctly. Run speed tests at different times over several days and keep logs. ISP infrastructure upgrades sometimes cause temporary degradation.
+Inconsistent speeds: Contact your provider to verify your line is provisioned correctly. Run speed tests at different times over several days and keep logs. ISP infrastructure upgrades sometimes cause temporary degradation.
 
-**Packet loss**: Check your local network equipment first—old routers or damaged Ethernet cables cause packet loss. If the problem persists, contact your provider with specific test results.
-
-## Summary
-
-Lisbon's fiber internet landscape offers solid options for remote developers. MEO and NOS provide the most extensive coverage with reliable performance. Vodafone competes aggressively on price with comparable speeds. For those in areas with Nowo coverage, their pricing makes them worth considering.
-
-Focus on upload speeds and latency over raw download numbers. A 300/300 Mbps connection with 15ms latency outperforms a 1 Gbps asymmetrical connection for most development tasks. Test your specific location before committing, and keep diagnostic scripts running to establish baselines and catch degradation early.
-
-The right provider depends on your exact location in Lisbon, your specific speed requirements, and whether you need static IP addresses. All major providers offer 14-day cooling-off periods, allowing you to test performance before fully committing.
-
----
-
+Packet loss: Check your local network equipment first—old routers or damaged Ethernet cables cause packet loss. If the problem persists, contact your provider with specific test results.
 
 ## Related Reading
 

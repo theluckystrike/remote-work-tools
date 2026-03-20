@@ -27,7 +27,7 @@ The solution is not to force synchronous work—that burns people out and defeat
 
 The first protocol element is defining explicit overlap hours. These are times when at least some team members from each region are available for synchronous communication.
 
-For a US-west coast to APAC team, the practical overlap is surprisingly narrow:
+For an US-west coast to APAC team, the practical overlap is surprisingly narrow:
 
 - San Francisco (PST): 9 AM - 5 PM
 - Tokyo (JST): 1 AM - 9 AM (next day)
@@ -148,11 +148,11 @@ Cross-timezone teams succeed or fail based on how well they communicate in writi
 
 Your tooling stack matters less than consistent usage. However, certain categories help:
 
-**Async video**: Loom, Vidyard, Screen Studio
-**Documentation**: Notion, GitBook, or GitHub wiki
-**Project management**: Linear, Jira, or Linear with custom views
-**Communication**: Slack with timezone-aware bots
-**Time tracking**: World Time Buddy, Every Time Zone visualizations
+Async video: Loom, Vidyard, Screen Studio
+Documentation: Notion, GitBook, or GitHub wiki
+Project management: Linear, Jira, or Linear with custom views
+Communication: Slack with timezone-aware bots
+Time tracking: World Time Buddy, Every Time Zone visualizations
 
 Configure Slack to respect working hours. Many teams set up do-not-disturb rules based on user timezones:
 
@@ -167,10 +167,10 @@ Configure Slack to respect working hours. Many teams set up do-not-disturb rules
 
 Track these metrics to know if your cross-timezone protocol works:
 
-- **PR cycle time**: Days from open to merge
-- **Response latency**: Hours between async message and response
-- **Meeting load**: Hours spent in synchronous meetings per week
-- **Decision documentation rate**: Percentage of decisions captured in writing
+- PR cycle time: Days from open to merge
+- Response latency: Hours between async message and response
+- Meeting load: Hours spent in synchronous meetings per week
+- Decision documentation rate: Percentage of decisions captured in writing
 
 Healthy numbers for a mature cross-timezone team:
 
@@ -187,15 +187,6 @@ Don't make these mistakes that undermine cross-timezone collaboration:
 **Using async channels for urgent matters.** If something genuinely needs immediate attention, use synchronous channels—phone, video call, or urgent Slack messages. Async is not for emergencies.
 
 **Skipping documentation because "it's faster to just talk."** That conversation happens, nobody records it, and the next person recreates the work. Write it down.
-
-## Summary
-
-Cross-timezone collaboration when scaling to Asia Pacific requires explicit protocols rather than hoping time differences work themselves out. Define overlap windows, structure your code review process, build a documentation culture, and measure your results. The investment in these protocols pays dividends in team velocity and reduced coordination overhead.
-
-The best remote teams treat timezone differences as a constraint to design around, not a problem to solve. Your APAC team members are not working around your schedule—they are working on their schedule, with you meeting them in the middle through thoughtful async-first processes.
-
----
-
 
 ## Related Reading
 

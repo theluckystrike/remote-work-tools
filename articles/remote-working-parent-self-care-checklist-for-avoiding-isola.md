@@ -32,10 +32,10 @@ The challenge intensifies when your work involves deep focus coding sessions. Yo
 
 Start your day with intentional practices that set a foundation for connection:
 
-1. **Physical movement**: 15-30 minutes of exercise, even if it's a quick walk around the block while your child watches a show
-2. **Hydration and nutrition**: Don't skip breakfast; it affects energy and mood throughout the day
-3. **Intentional shift**: Create a small ritual that marks the transition from parent mode to work mode—this might be changing clothes, making a specific coffee, or a 2-minute meditation
-4. **Check your team's async updates**: Review Slack, Discord, or your team's communication tool for overnight activity
+1. Physical movement: 15-30 minutes of exercise, even if it's a quick walk around the block while your child watches a show
+2. Hydration and nutrition: Don't skip breakfast; it affects energy and mood throughout the day
+3. Intentional shift: Create a small ritual that marks the transition from parent mode to work mode—this might be changing clothes, making a specific coffee, or a 2-minute meditation
+4. Check your team's async updates: Review Slack, Discord, or your team's communication tool for overnight activity
 
 ### Work Session Structure
 
@@ -66,28 +66,28 @@ This approach ensures you protect deep work time while intentionally scheduling 
 
 Schedule these touchpoints deliberately:
 
-- **Async video updates**: Record 2-3 minute Loom or Vidyard updates explaining your code changes, design decisions, or project progress. This creates a sense of presence even in async teams
-- **Virtual coffee chats**: Schedule 15-minute calls with teammates who aren't your direct reports or managers. These peer connections build genuine relationships
-- **Parent-specific Slack channels**: Join communities of remote working parents in your industry. Many tech companies have #working-parents channels
+- Async video updates: Record 2-3 minute Loom or Vidyard updates explaining your code changes, design decisions, or project progress. This creates a sense of presence even in async teams
+- Virtual coffee chats: Schedule 15-minute calls with teammates who aren't your direct reports or managers. These peer connections build genuine relationships
+- Parent-specific Slack channels: Join communities of remote working parents in your industry. Many tech companies have #working-parents channels
 
 ### End-of-Day Practices
 
-1. **Write a brief daily summary**: Document what you accomplished, what you learned, and what you're blocked on. Share this in your team's async standup channel
-2. **Physical closure**: Close your laptop, leave your home office space if possible
-3. **Transition ritual**: Change clothes, take a short walk, or do a quick stretch to mark the end of work
+1. Write a brief daily summary: Document what you accomplished, what you learned, and what you're blocked on. Share this in your team's async standup channel
+2. Physical closure: Close your laptop, leave your home office space if possible
+3. Transition ritual: Change clothes, take a short walk, or do a quick stretch to mark the end of work
 
 ## Weekly Actions to Combat Isolation
 
 ### Structured Social Activities
 
-- **One virtual co-working session**: Use tools like Screenleap or Tuple to share your screen while working alongside a colleague. This mimics the "working in the same room" feeling
-- **Team retro or planning**: Participate actively in team ceremonies, but suggest adding a social element like sharing a personal win or a photo from your week
-- **Interest-based channels**: Join or create channels for non-work topics—parenting tips, gaming, books, fitness
+- One virtual co-working session: Use tools like Screenleap or Tuple to share your screen while working alongside a colleague. This mimics the "working in the same room" feeling
+- Team retro or planning: Participate actively in team ceremonies, but suggest adding a social element like sharing a personal win or a photo from your week
+- Interest-based channels: Join or create channels for non-work topics—parenting tips, gaming, books, fitness
 
 ### Professional Development Connection
 
-- **Tech community involvement**: Contribute to open source projects, participate in developer forums, or attend virtual meetups
-- **Mentorship**: Either find a mentor or become one. These relationships create accountability and meaningful connection
+- Tech community involvement: Contribute to open source projects, participate in developer forums, or attend virtual meetups
+- Mentorship: Either find a mentor or become one. These relationships create accountability and meaningful connection
 
 ### Personal Boundary Management
 
@@ -118,17 +118,17 @@ Setting these boundaries explicitly helps your team understand when you're avail
 
 Don't automate away human interaction entirely. Use tools that enhance rather than replace connection:
 
-- **Meeting scheduling**: Use Clockwise or Calendly to find optimal meeting times across time zones, but preserve time for ad-hoc conversations
-- **Status indicators**: Use Slack status to signal availability—":coffee: Grabbing coffee" or ":walking: Taking a walk break"
-- **Bot-assisted check-ins**: Use bots like Geekbot or Standuply for async standups, but supplement with live conversations
+- Meeting scheduling: Use Clockwise or Calendly to find optimal meeting times across time zones, but preserve time for ad-hoc conversations
+- Status indicators: Use Slack status to signal availability—":coffee: Grabbing coffee" or ":walking: Taking a walk break"
+- Bot-assisted check-ins: Use bots like Geekbot or Standuply for async standups, but supplement with live conversations
 
 ### Asynchronous Communication Patterns
 
 Develop habits that maintain visibility:
 
-1. **Document decisions explicitly**: Write meeting notes, architectural decisions, and project updates in shared wikis (Notion, Confluence, GitHub)
-2. **Code review as connection**: Treat code reviews as learning and relationship-building opportunities, not just quality control
-3. **Video over text when possible**: A 30-second video message conveys tone and personality that text cannot
+1. Document decisions explicitly: Write meeting notes, architectural decisions, and project updates in shared wikis (Notion, Confluence, GitHub)
+2. Code review as connection: Treat code reviews as learning and relationship-building opportunities, not just quality control
+3. Video over text when possible: A 30-second video message conveys tone and personality that text cannot
 
 ## Mental Health Indicators to Monitor
 
@@ -180,13 +180,6 @@ Print or save this quick reference:
 - [ ] Contribution to team documentation or knowledge base
 - [ ] Active participation in at least one non-work community channel
 - [ ] Regular check-ins with manager about workload and well-being
-
-## Conclusion
-
-Combating isolation as a remote working parent requires intentional effort and structural support. By implementing these practices consistently, you create sustainable habits that maintain connection without sacrificing productivity. Remember that isolation is not a personal failing—it is a systemic challenge that requires both individual action and team-level support.
-
-The strategies in this checklist work best when adapted to your specific situation. Start with two or three practices that feel manageable, then gradually add more as they become habits. Your well-being directly impacts your effectiveness as a developer and team member, making self-care an investment in your work, not a distraction from it.
-
 
 ## Related Reading
 

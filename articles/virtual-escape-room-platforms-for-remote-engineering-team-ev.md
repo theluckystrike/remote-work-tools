@@ -89,11 +89,11 @@ Consider mixing seniority levels in each group. Junior developers often bring fr
 
 For the smoothest experience, prepare your technical setup:
 
-1. **Backup Communication Channel**: Have a secondary way to reach participants if the primary video tool fails.
+1. Backup Communication Channel: Have a secondary way to reach participants if the primary video tool fails.
 
-2. **Screen Sharing Protocol**: Designate one person to share their screen to show the game interface, while others share insights verbally.
+2. Screen Sharing Protocol: Designate one person to share their screen to show the game interface, while others share insights verbally.
 
-3. **Documentation**: Assign someone to take notes on interesting moments or team dynamics observed during the game.
+3. Documentation: Assign someone to take notes on interesting moments or team dynamics observed during the game.
 
 ## Creating Custom Puzzle Experiences
 
@@ -133,10 +133,10 @@ This pattern can be extended with specific puzzle types: code-breaking challenge
 
 After the event, gather feedback to improve future sessions:
 
-- **Completion Rate**: Did the team finish in time?
-- **Engagement Level**: Did everyone participate, or did some members stay silent?
-- **Problem-Solving Approaches**: What strategies worked well?
-- **Would Repeat**: Would the team want to do this again?
+- Completion Rate: Did the team finish in time?
+- Engagement Level: Did everyone participate, or did some members stay silent?
+- Problem-Solving Approaches: What strategies worked well?
+- Would Repeat: Would the team want to do this again?
 
 Send a brief survey within 24 hours while the experience is fresh:
 
@@ -161,16 +161,10 @@ Thanks for joining our virtual escape room! Quick feedback:
 
 ## Common Pitfalls to Avoid
 
-- **Technical failures**: Test the platform beforehand with a few team members
-- **Time zone confusion**: Always specify UTC times for distributed teams
-- **Group sizes too large**: Keep under 6 people per room
-- **No backup plan**: Have an alternative activity ready if the platform fails
-
-## Summary
-
-Virtual escape rooms offer engineering teams a way to build trust, practice communication under pressure, and have fun together. Whether you use a dedicated platform or build custom puzzles, the key is creating an environment where everyone participates and collaborates. Start with one of the platforms listed above, gather feedback, and iterate on your approach. Your team will thank you for the break from standups and sprints.
-
----
+- Technical failures: Test the platform beforehand with a few team members
+- Time zone confusion: Always specify UTC times for distributed teams
+- Group sizes too large: Keep under 6 people per room
+- No backup plan: Have an alternative activity ready if the platform fails
 
 ## Related Reading
 

@@ -22,10 +22,10 @@ Thailand has become one of the most popular destinations for digital nomads, off
 
 Your visa type significantly impacts your insurance options. Thailand offers several long-term visa options for remote workers:
 
-- **Thailand Elite Visa**: A premium visa program offering 5-20 year stays
-- **Long-Term Resident (LTR) Visa**: Targets highly skilled professionals, investors, and executives
-- **Retirement Visa**: Available for those aged 50 and above
-- **Tourist Visa with extensions**: Can be extended but has limitations
+- Thailand Elite Visa: A premium visa program offering 5-20 year stays
+- Long-Term Resident (LTR) Visa: Targets highly skilled professionals, investors, and executives
+- Retirement Visa: Available for those aged 50 and above
+- Tourist Visa with extensions: Can be extended but has limitations
 
 While Thailand does not mandate health insurance for all visa types, certain applications require proof of insurance. The LTR visa, for instance, requires coverage meeting specific minimums ($50,000 for medical treatment and $25,000 for medical evacuation).
 
@@ -83,7 +83,7 @@ providers:
 **Advantages:**
 - Coverage in multiple countries
 - No medical evacuation concerns
-- More comprehensive pre-existing condition coverage
+- More pre-existing condition coverage
 
 **Disadvantages:**
 - Higher premiums
@@ -94,8 +94,8 @@ providers:
 
 Many long-term digital nomads use a hybrid strategy that combines local and international coverage:
 
-1. **International plan as primary**: Provides evacuation coverage and flexibility for travel
-2. **Local Thai insurance as secondary**: Covers day-to-day medical needs at lower cost
+1. International plan as primary: Provides evacuation coverage and flexibility for travel
+2. Local Thai insurance as secondary: Covers day-to-day medical needs at lower cost
 
 This approach optimizes costs while ensuring you have coverage for emergencies requiring evacuation to Singapore, Bangkok, or home countries.
 
@@ -108,8 +108,8 @@ As a developer or tech professional, consider these additional factors:
 Your employment status affects insurance options:
 
 - **Full-time employed** with US/European company: Check if employer provides international coverage
-- **Freelancer/contractor**: International expat plans are typically your best option
-- **Business owner**: Consider establishing a company that provides employee coverage
+- Freelancer/contractor: International expat plans are typically your best option
+- Business owner: Consider establishing a company that provides employee coverage
 
 ### Pre-Existing Conditions
 
@@ -144,26 +144,19 @@ Even without insurance, these costs are significantly lower than in the US or Eu
 
 ## Actionable Steps to Secure Coverage
 
-1. **Assess your visa status**: Determine which visa you'll hold and any insurance requirements
-2. **Calculate your budget**: Monthly premiums plus expected out-of-pocket expenses
-3. **Research providers**: Request quotes from at least 3 international providers and 2 local options
-4. **Read the fine print**: Pay attention to exclusions, waiting periods, and claim processes
-5. **Start coverage before arrival**: Many plans have waiting periods, so enroll before traveling
-6. **Keep documentation accessible**: Store policy documents and emergency contacts in the cloud
+1. Assess your visa status: Determine which visa you'll hold and any insurance requirements
+2. Calculate your budget: Monthly premiums plus expected out-of-pocket expenses
+3. Research providers: Request quotes from at least 3 international providers and 2 local options
+4. Read the fine print: Pay attention to exclusions, waiting periods, and claim processes
+5. Start coverage before arrival: Many plans have waiting periods, so enroll before traveling
+6. Keep documentation accessible: Store policy documents and emergency contacts in the cloud
 
 ## Common Mistakes to Avoid
 
-- **Waiting too long**: Pre-existing condition coverage improves the longer you're insured
-- **Choosing cheapest option only**: Low premiums often mean high deductibles or poor coverage
-- **Ignoring evacuation coverage**: Medical evacuation from Thailand can cost $50,000+
-- **Not disclosing conditions**: Always be truthful about health history to avoid claim denials
-
-## Conclusion
-
-Securing health insurance as a digital nomad in Thailand requires balancing cost, coverage, and flexibility. For most developers and remote workers, an international expat plan provides the best combination of evacuation coverage and multi-country protection. Supplementing with local Thai insurance for routine care can further optimize your healthcare spending.
-
-The key is starting early—insurance is more affordable and comprehensive when you enroll before any health issues arise. With proper coverage in place, you can focus on your work and enjoy everything Thailand has to offer.
-
+- Waiting too long: Pre-existing condition coverage improves the longer you're insured
+- Choosing cheapest option only: Low premiums often mean high deductibles or poor coverage
+- Ignoring evacuation coverage: Medical evacuation from Thailand can cost $50,000+
+- Not disclosing conditions: Always be truthful about health history to avoid claim denials
 
 ## Related Reading
 

@@ -20,11 +20,11 @@ This guide provides practical VPN solutions tailored for developers and power us
 
 Thailand's internet infrastructure has expanded significantly, yet many international services maintain regional blocks. Developers commonly face these obstacles:
 
-- **AI development tools**: Several AI-assisted coding platforms have restricted availability in certain Asian regions
-- **Cloud provider services**: Some AWS, GCP, and Azure managed services launch in Thai data centers later than US regions
-- **Internal corporate resources**: Company VPNs often lack exit nodes positioned in Thailand
-- **Payment processing**: Certain payment gateways and Stripe alternatives restrict Thai IP addresses
-- **CI/CD and monitoring platforms**: Some DevOps tools impose partial regional restrictions
+- AI development tools: Several AI-assisted coding platforms have restricted availability in certain Asian regions
+- Cloud provider services: Some AWS, GCP, and Azure managed services launch in Thai data centers later than US regions
+- Internal corporate resources: Company VPNs often lack exit nodes positioned in Thailand
+- Payment processing: Certain payment gateways and Stripe alternatives restrict Thai IP addresses
+- CI/CD and monitoring platforms: Some DevOps tools impose partial regional restrictions
 
 Understanding these challenges helps you choose the right VPN architecture for your specific needs.
 
@@ -69,7 +69,7 @@ sudo wg-quick up wg0
 sudo systemctl enable wg-quick@wg0
 ```
 
-WireGuard clients are available for macOS, Windows, Linux, iOS, and Android. The protocol's handshake completes in milliseconds, making reconnection virtually unnoticeable.
+WireGuard clients are available for macOS, Windows, Linux, iOS, and Android. The protocol's handshake completes in milliseconds, making reconnection unnoticeable.
 
 ### Outline VPN: Simple Developer Setup
 
@@ -94,11 +94,11 @@ When self-hosting isn't practical, commercial services offer reliable connectivi
 
 Prioritize these technical requirements when selecting a service:
 
-1. **Protocol support**: WireGuard or OpenVPN availability
-2. **Dedicated IP options**: Reduces chance of IP blocks
-3. **Server proximity**: Singapore, Hong Kong, or Japan servers minimize latency
-4. **Split tunneling**: Route only restricted traffic through VPN
-5. **No-log policies**: Essential for handling sensitive work data
+1. Protocol support: WireGuard or OpenVPN availability
+2. Dedicated IP options: Reduces chance of IP blocks
+3. Server proximity: Singapore, Hong Kong, or Japan servers minimize latency
+4. Split tunneling: Route only restricted traffic through VPN
+5. No-log policies: Essential for handling sensitive work data
 
 ### Proxy Configuration for Development Tools
 
@@ -163,19 +163,19 @@ ssh -T git@your-company-gitlab.com
 
 Configure your entire workflow to appear from an alternate location:
 
-1. **IDE extensions**: VS Code Remote works through VPN tunnels
-2. **Container registries**: Docker Hub and GHCR respect proxy settings
-3. **Package managers**: npm, pip, and Cargo honor system proxy variables
-4. **API clients**: Postman and Insomnia support SOCKS5 proxy configuration
+1. IDE extensions: VS Code Remote works through VPN tunnels
+2. Container registries: Docker Hub and GHCR respect proxy settings
+3. Package managers: npm, pip, and Cargo honor system proxy variables
+4. API clients: Postman and Insomnia support SOCKS5 proxy configuration
 
 ## Performance Optimization
 
 VPN connections inherently add latency. Minimize impact with these strategies:
 
-- **Server selection**: Singapore or Hong Kong exit points typically offer 30-50ms latency from Bangkok
-- **Protocol choice**: WireGuard outperforms OpenVPN in speed benchmarks
-- **Split tunneling**: Route only geo-blocked traffic through VPN
-- **DNS configuration**: Some geo-checks resolve at DNS level before connection
+- Server selection: Singapore or Hong Kong exit points typically offer 30-50ms latency from Bangkok
+- Protocol choice: WireGuard outperforms OpenVPN in speed benchmarks
+- Split tunneling: Route only geo-blocked traffic through VPN
+- DNS configuration: Some geo-checks resolve at DNS level before connection
 
 Measure your actual performance:
 

@@ -133,10 +133,10 @@ clockwise_event = {
 
 For developers integrating either tool, consider these patterns:
 
-1. **Start with defensive scheduling**: Block focus time first, then let tools optimize around it
-2. **Use buffer time strategically**: Both tools handle buffers differently—test various configurations
-3. **Monitor false positives**: Review automatically scheduled events weekly to refine rules
-4. **Use Slack integration**: Set up notifications for schedule changes to stay aware of shifts
+1. Start with defensive scheduling: Block focus time first, then let tools optimize around it
+2. Use buffer time strategically: Both tools handle buffers differently—test various configurations
+3. Monitor false positives: Review automatically scheduled events weekly to refine rules
+4. Use Slack integration: Set up notifications for schedule changes to stay aware of shifts
 
 ```javascript
 // Example: Check scheduled events via API

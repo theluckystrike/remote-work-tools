@@ -150,21 +150,10 @@ These strategies only work when leadership commits to them. Specifically, leader
 
 Track whether your communication channels are working:
 
-- **Response time**: How long does leadership take to respond to async questions?
-- **Utilization**: Are office hours being booked? If not, maybe they are not needed—or not visible enough
-- **Escalation rate**: Are blockers being resolved through proper channels, or are people going around them?
-- **Sentiment**: Quarterly surveys can gauge whether team members feel heard
-
-## Conclusion
-
-Scaling past 50 people does not mean losing direct access to leadership. It means being intentional about communication channels that respect everyone's time while preserving the transparency and influence that make remote teams effective.
-
-Start with one strategy—perhaps office hours or a structured async channel—and build from there. The goal is not to overwhelm leadership with requests, but to create systems where the right people can get answers when they need them.
-
-The best remote companies treat communication infrastructure as seriously as product infrastructure. The tools and processes you put in place now will determine whether your team remains nimble or becomes bureaucratic.
-
----
-
+- Response time: How long does leadership take to respond to async questions?
+- Utilization: Are office hours being booked? If not, maybe they are not needed—or not visible enough
+- Escalation rate: Are blockers being resolved through proper channels, or are people going around them?
+- Sentiment: Quarterly surveys can gauge whether team members feel heard
 
 ## Related Reading
 

@@ -139,15 +139,6 @@ The issue with most advice is that it relies on motivation. Motivation fades. Sy
 
 This baseline ensures you're constantly maintaining connections rather than letting them atrophy.
 
-## Conclusion
-
-Fighting loneliness as a digital nomad requires treating social connection as a system, not a mood. Build the habits, automate the reminders, and show up consistently. The freedom of the nomad lifestyle only matters if you're happy while living it.
-
-The strategies above work because they remove the decision fatigue from social interaction. You don't need to feel motivated to connect—you just follow the pattern you've built.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

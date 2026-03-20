@@ -262,10 +262,10 @@ Set soft and hard limits appropriate to your storage capacity and use cases.
 
 Your team has several client options depending on workflow:
 
-- **Command-line sftp/scp**: Built into every Unix-like system, perfect for scripts and one-off transfers
-- **FileZilla or Cyberduck**: GUI clients with bookmark management, good for non-technical team members
-- **Rsync over SSH**: Ideal for repeated syncs with minimal bandwidth (only transfers differences)
-- **SFTP libraries in Python (pysftp, paramiko)**: For custom automation and CI/CD integration
+- Command-line sftp/scp: Built into every Unix-like system, perfect for scripts and one-off transfers
+- FileZilla or Cyberduck: GUI clients with bookmark management, good for non-technical team members
+- Rsync over SSH: Ideal for repeated syncs with minimal bandwidth (only transfers differences)
+- SFTP libraries in Python (pysftp, paramiko): For custom automation and CI/CD integration
 
 For Python-based automation, here's a quick example using `pysftp`:
 
@@ -277,13 +277,6 @@ with pysftp.Connection('sftp.example.com', username='deploy',
     sftp.put('/local/build/app.tar.gz', '/remote/builds/app.tar.gz')
     sftp.get('/remote/logs/transfer.log', '/local/logs/transfer.log')
 ```
-
-## Summary
-
-Setting up SFTP for your remote team takes under an hour and gives you complete control over large file exchanges. Use OpenSSH's built-in SFTP server, enforce key-based authentication, implement chroot restrictions for isolation, and add rate limiting and logging for production hardening. Scripts and automation integrate smoothly with existing CI/CD pipelines, making secure file transfer a seamless part of your development workflow.
-
-The infrastructure cost is minimal—any Linux VPS or existing server can host your SFTP daemon—and the flexibility outperforms cloud storage for large files. Your team gets fast, secure transfers without the restrictions and costs of commercial alternatives.
-
 
 ## Related Reading
 

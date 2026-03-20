@@ -22,10 +22,10 @@ The ideal relative humidity for a home office coding environment is between 30% 
 
 The ideal relative humidity range for indoor spaces is between 30% and 50%. Below 30%, you experience dry skin, irritated eyes, and increased static electricity that can fry components. Above 60%, mold growth becomes a concern and you feel sluggish. For programmers spending 8+ hours daily in a home office, maintaining this balance prevents:
 
-- **Static discharge**: Low humidity creates static buildup that poses risks to sensitive electronics
-- **Dry eyes and throat**: Air-conditioned or heated offices strip moisture from your mucous membranes
-- **Reduced focus**: Discomfort from dry air distracts you from complex problem-solving
-- **Equipment damage**: Excessive humidity can affect servers, keyboards, and other electronics
+- Static discharge: Low humidity creates static buildup that poses risks to sensitive electronics
+- Dry eyes and throat: Air-conditioned or heated offices strip moisture from your mucous membranes
+- Reduced focus: Discomfort from dry air distracts you from complex problem-solving
+- Equipment damage: Excessive humidity can affect servers, keyboards, and other electronics
 
 ## Measuring Your Current Humidity
 
@@ -122,10 +122,10 @@ automation:
 
 For a typical home office (100-200 square feet), consider these components:
 
-1. **Digital Hygrometer**: Place at desk height, away from vents
-2. **Ultrasonic Humidifier**: 2-3 liter capacity handles small rooms effectively
-3. **Smart Plug**: Any ESP8266-based plug works for MQTT control
-4. **Optional Dehumidifier**: Needed only in naturally humid climates
+1. Digital Hygrometer: Place at desk height, away from vents
+2. Ultrasonic Humidifier: 2-3 liter capacity handles small rooms effectively
+3. Smart Plug: Any ESP8266-based plug works for MQTT control
+4. Optional Dehumidifier: Needed only in naturally humid climates
 
 ### Placement Matters
 
@@ -135,9 +135,9 @@ Position your humidifier at least 3 feet from electronics and 6 feet from your d
 
 Humidity needs vary throughout the year:
 
-- **Winter (heating season)**: Target 40-45% to compensate for indoor heating
-- **Summer**: Target 50-55% but monitor more closely with AC running
-- **Shoulder seasons**: 45% provides a comfortable baseline
+- Winter (heating season): Target 40-45% to compensate for indoor heating
+- Summer: Target 50-55% but monitor more closely with AC running
+- Shoulder seasons: 45% provides a comfortable baseline
 
 ## Monitoring Long-Term Trends
 
@@ -174,11 +174,6 @@ automation:
 ```
 
 This notification prompts you to adjust your humidifier manually or investigate issues like open windows.
-
-## Conclusion
-
-Proper humidity control in your home office takes minimal investment and setup but delivers measurable comfort improvements during coding sessions. Start with a $15 hygrometer, add a basic humidifier, and automate based on your local climate. Your sinuses, electronics, and focus will thank you during those extended debugging sessions.
-
 
 ## Related Reading
 

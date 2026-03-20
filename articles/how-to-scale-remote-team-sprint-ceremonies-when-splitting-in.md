@@ -24,7 +24,7 @@ A single-team Scrum format works well with six to eight people sharing a daily 1
 
 First, coordinating sprint planning across squads creates meeting fatigue. If you have four squads each doing one-hour planning, that's four hours of synchronous time just to align on dependencies.
 
-Second, duplicate ceremonies waste capacity. Four squads doing separate backlog refinement sessions consume four times the team hours for essentially the same activity.
+Second, duplicate ceremonies waste capacity. Four squads doing separate backlog refinement sessions consume four times the team hours for the same activity.
 
 Third, cross-squad dependencies get lost. When Squad A's API changes break Squad B's integration, the synchronization happens too late in the sprint.
 
@@ -75,10 +75,10 @@ This script runs at a scheduled time each morning, collects responses from the p
 
 For sprint planning, maintain a synchronous session but limit it to two hours maximum. Structure the agenda:
 
-- **15 minutes**: Review sprint goal and capacity (pre-read)
-- **30 minutes**: Individual squad member story selection (async, prior to meeting)
-- **45 minutes**: Dependency mapping and cross-squad ticket assignment
-- **30 minutes**: Commitment and risk identification
+- 15 minutes: Review sprint goal and capacity (pre-read)
+- 30 minutes: Individual squad member story selection (async, prior to meeting)
+- 45 minutes: Dependency mapping and cross-squad ticket assignment
+- 30 minutes: Commitment and risk identification
 
 The key is moving individual story selection to async. Each developer reviews the sprint backlog beforehand and adds comments to tickets they intend to pick up. The synchronous portion focuses purely on coordination.
 
@@ -172,10 +172,10 @@ This automation posts a dependency status report every Wednesday, giving teams v
 
 Full-team retrospectives don't scale beyond two or three squads. Implement a rotating focus model:
 
-**Week 1**: Each squad runs their own retro (async or sync)
-**Week 2**: One squad presents findings to engineering leadership
-**Week 3**: Action items from all squads are consolidated and prioritized
-**Week 4**: Follow-up on previous action items
+Week 1: Each squad runs their own retro (async or sync)
+Week 2: One squad presents findings to engineering leadership
+Week 3: Action items from all squads are consolidated and prioritized
+Week 4: Follow-up on previous action items
 
 This distributes the retro load while still surfacing cross-team issues.
 
@@ -251,11 +251,11 @@ This script helps you generate a rotation schedule where no single time zone con
 
 Scaling sprint ceremonies when splitting into squads requires three structural changes:
 
-1. **Move individual preparation async**: Story selection, status updates, and initial feedback happen asynchronously before synchronous sessions.
+1. Move individual preparation async: Story selection, status updates, and initial feedback happen asynchronously before synchronous sessions.
 
-2. **Embed coordination into tools**: Dependency tracking lives in your project management system, not in additional meetings.
+2. Embed coordination into tools: Dependency tracking lives in your project management system, not in additional meetings.
 
-3. **Rotate burden fairly**: Ceremony scheduling should rotate across time zones so no group consistently attends meetings at inconvenient hours.
+3. Rotate burden fairly: Ceremony scheduling should rotate across time zones so no group consistently attends meetings at inconvenient hours.
 
 The goal is maintaining sprint rhythm and team alignment without creating meeting overhead that negates the productivity benefits of squad-based organization.
 

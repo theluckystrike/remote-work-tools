@@ -141,13 +141,13 @@ This friction reduces duplicate channels and forces people to think about purpos
 
 Slack provides organizational features that reduce manual work:
 
-**Channel Browser**: Use this regularly to search and filter channels by member count, creation date, and activity.
+Channel Browser: Use this regularly to search and filter channels by member count, creation date, and activity.
 
-**Slack Connect**: For external collaborations, use shared channels instead of creating separate workspaces.
+Slack Connect: For external collaborations, use shared channels instead of creating separate workspaces.
 
-**Directory & Segmentation**: Organize channels using Slack's built-in directory features so users can browse by category.
+Directory & Segmentation: Organize channels using Slack's built-in directory features so users can browse by category.
 
-**Retention Policies**: Set workspace-level and channel-level retention to auto-delete old messages, reducing clutter.
+Retention Policies: Set workspace-level and channel-level retention to auto-delete old messages, reducing clutter.
 
 ## Practical Cleanup Workflow
 

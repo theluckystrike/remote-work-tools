@@ -79,9 +79,9 @@ Let's walk through a concrete scenario involving three team locations: Singapore
 
 ### Team Configuration
 
-- **Singapore (SGT)**: UTC+8, working hours 9:00 AM - 6:00 PM
-- **Bangalore (IST)**: UTC+5:30, working hours 9:30 AM - 6:30 PM
-- **Austin (CST)**: UTC-6, working hours 8:00 AM - 5:00 PM
+- Singapore (SGT): UTC+8, working hours 9:00 AM - 6:00 PM
+- Bangalore (IST): UTC+5:30, working hours 9:30 AM - 6:30 PM
+- Austin (CST): UTC-6, working hours 8:00 AM - 5:00 PM
 
 ### Calculating Pairwise Overlaps
 
@@ -126,13 +126,13 @@ This calculation reveals that Singapore and Austin have approximately 2-3 hours 
 
 Once you understand your overlap windows, several strategies help maximize team productivity:
 
-**Rotate Meeting Times**: Distribute the inconvenience by rotating meeting times across time zones. If your overlap window falls at 4:00 PM in one location, schedule some meetings at that time and others at a more reasonable hour for other team members.
+Rotate Meeting Times: Distribute the inconvenience by rotating meeting times across time zones. If your overlap window falls at 4:00 PM in one location, schedule some meetings at that time and others at a more reasonable hour for other team members.
 
-**Asynchronous-First Communication**: Reduce reliance on synchronous meetings by documenting decisions thoroughly. Use collaborative tools that support async workflows, allowing team members to contribute on their own schedules.
+Asynchronous-First Communication: Reduce reliance on synchronous meetings by documenting decisions thoroughly. Use collaborative tools that support async workflows, allowing team members to contribute on their own schedules.
 
-**Core Collaboration Windows**: Designate a smaller "core hours" window where everyone should be available, typically 1-2 hours, and protect this time for high-bandwidth collaboration like code reviews or planning sessions.
+Core Collaboration Windows: Designate a smaller "core hours" window where everyone should be available, typically 1-2 hours, and protect this time for high-bandwidth collaboration like code reviews or planning sessions.
 
-**Flexible Working Hours**: Allow team members to adjust their schedules within reasonable bounds. Someone in Tokyo might start at 10:00 AM instead of 9:00 AM to align better with the Americas team.
+Flexible Working Hours: Allow team members to adjust their schedules within reasonable bounds. Someone in Tokyo might start at 10:00 AM instead of 9:00 AM to align better with the Americas team.
 
 ## Using Timezone Libraries
 
@@ -171,16 +171,9 @@ function findBestMeetingSlot(locations, durationHours = 1) {
 
 When calculating timezone overlaps, watch for these frequent mistakes:
 
-- **Ignoring Daylight Saving Time**: Always use IANA timezone identifiers (like "Asia/Tokyo" or "America/Los_Angeles") rather than fixed UTC offsets, as DST changes affect offsets throughout the year.
-- **Assuming Same Working Hours**: Not all teams work 9-to-5. Confirm actual working hours with team members, as flexibility varies by culture and role.
-- **Forgetting Weekends**: Some team members might work weekends occasionally. Factor in weekend preferences when scheduling recurring meetings.
-
-## Conclusion
-
-Calculating timezone overlap hours for Asia-Americas remote teams requires deliberate analysis and creative scheduling solutions. By understanding the fundamental formulas, implementing proper timezone handling in your tools, and establishing team norms around async-first communication, you can build effective collaboration patterns regardless of geographic distance.
-
-The key lies not in finding a perfect overlap (which often doesn't exist) but in establishing clear expectations and supporting asynchronous workflows that keep your team productive across time zones.
-
+- Ignoring Daylight Saving Time: Always use IANA timezone identifiers (like "Asia/Tokyo" or "America/Los_Angeles") rather than fixed UTC offsets, as DST changes affect offsets throughout the year.
+- Assuming Same Working Hours: Not all teams work 9-to-5. Confirm actual working hours with team members, as flexibility varies by culture and role.
+- Forgetting Weekends: Some team members might work weekends occasionally. Factor in weekend preferences when scheduling recurring meetings.
 
 ## Related Reading
 

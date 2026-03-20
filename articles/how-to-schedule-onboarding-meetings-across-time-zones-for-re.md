@@ -143,14 +143,14 @@ When true overlap is impossible, recording becomes essential:
 For larger teams, separate onboarding into regional cohorts:
 
 - Americas cohort: 9 AM - 12 PM EST
-- EMEA cohort: 9 AM - 12 PM CET  
+- EMEA cohort: 9 AM - 12 PM CET 
 - APAC cohort: 9 AM - 12 PM IST
 
 Then schedule cross-regional "all hands" monthly rather than weekly.
 
 ## Practical Onboarding Meeting Schedule Example
 
-Here's a week-one schedule for a new developer joining a US-based team with European colleagues:
+Here's a week-one schedule for a new developer joining an US-based team with European colleagues:
 
 **Monday**
 - 10:00 AM PST: 1:1 with manager (60 min)
@@ -184,11 +184,6 @@ Sometimes you need to bring someone on quickly. For urgent hires:
 4. Accept that week one may have less synchronous face-time
 
 Document this constraint so new hires understand why initial meetings are sparse.
-
-## Conclusion
-
-Effective time zone scheduling for onboarding requires upfront planning, the right tools, and flexibility. Use timezone calculators to find overlaps, rotate meeting times fairly across regions, and record sessions for async review. When done correctly, remote onboarding feels personal rather than inconvenient—setting new hires up for success from day one.
-
 
 ## Related Reading
 

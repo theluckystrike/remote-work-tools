@@ -158,9 +158,9 @@ monitor_settings:
 
 Beyond the 20-20-20 rule, incorporate longer breaks:
 
-- **Every hour**: 5-minute break from all screens
-- **Every afternoon**: 15-minute walk or stretch
-- **End of day**: Completely shut off monitors 1 hour before bed
+- Every hour: 5-minute break from all screens
+- Every afternoon: 15-minute walk or stretch
+- End of day: Completely shut off monitors 1 hour before bed
 
 ## Quick Setup Checklist
 
@@ -176,15 +176,6 @@ Use this checklist to ensure your multi-monitor setup is eye-friendly:
 - [ ] Take hourly short breaks
 - [ ] Adjust font size if squinting
 
-## Conclusion
-
-Preventing eye fatigue with multiple monitors requires a combination of brightness management, blue light filtering, proper positioning, and regular breaks. Start with the brightness and night shift adjustments, then implement the 20-20-20 rule. Your eyes will thank you after long coding sessions or workdays spent in front of multiple screens.
-
-Remember: the best monitor setup is one that doesn't make you think about your eyes at all. Once you've optimized your environment, you can focus entirely on your work.
-
----
-
-*
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

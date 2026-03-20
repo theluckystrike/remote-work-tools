@@ -94,9 +94,9 @@ Each session requires a designated researcher who conducts the interview and an 
 
 For staggered sessions, use collaboration tools that support async observation:
 
-- **Miro**: Create a shared board where observers pin observations in real-time using sticky notes color-coded by theme
-- **Notion**: Use a database that tags observations by participant, session number, and research question
-- **Slack**: Set up a dedicated channel for live session observations with timestamped updates
+- Miro: Create a shared board where observers pin observations in real-time using sticky notes color-coded by theme
+- Notion: Use a database that tags observations by participant, session number, and research question
+- Slack: Set up a dedicated channel for live session observations with timestamped updates
 
 ## Strategy 3: Hybrid Synchronous Windows
 
@@ -171,13 +171,6 @@ After completing all sessions, schedule a synthesis session using your overlap w
 ## Common Pitfalls to Avoid
 
 Several mistakes undermine remote user research effectiveness. First, avoid conducting sessions alone when your team is distributed. Always have at least one observer from each major time zone represented. Second, do not skip transcription. Manually reviewing hours of recordings wastes time that could go toward insight synthesis. Third, resist the temptation to only schedule sessions during your local work hours. This defeats the purpose of distributed research and excludes team member participation.
-
-## Summary
-
-Running effective remote user research across time zones requires shifting from synchronous-first to async-first thinking. Use recorded sessions as your primary method, implement staggered handoffs when live interaction is necessary, and protect small overlap windows for high-value synthesis work. Document everything systematically and distribute observation responsibilities across your global team.
-
-With the right tools and processes, distributed UX teams can conduct research that produces the same quality insights as co-located teams, without the scheduling chaos and team exhaustion that comes from forcing everyone into inconvenient live sessions.
-
 
 ## Related Reading
 

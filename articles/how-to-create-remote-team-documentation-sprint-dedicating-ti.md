@@ -43,9 +43,9 @@ For wikis hosted on platforms like Notion, Confluence, or GitBook, use their bui
 
 Not all outdated pages deserve equal attention. Categorize them into three buckets:
 
-1. **Critical**: Pages actively causing problems (wrong deployment instructions, incorrect API endpoints)
-2. **Useful but outdated**: Pages with value that need refreshing
-3. **Deprecated**: Content that's no longer relevant and should be archived or deleted
+1. Critical: Pages actively causing problems (wrong deployment instructions, incorrect API endpoints)
+2. Useful but outdated: Pages with value that need refreshing
+3. Deprecated: Content that's no longer relevant and should be archived or deleted
 
 Create a simple tracking system. A shared spreadsheet or project board works well for remote teams:
 
@@ -61,13 +61,13 @@ Prioritize critical items first—they provide immediate value and demonstrate t
 
 Documentation sprints succeed with defined boundaries. Establish these parameters upfront:
 
-**Duration**: One to two weeks works well for most teams. Shorter sprints create urgency; longer sprints risk losing momentum.
+Duration: One to two weeks works well for most teams. Shorter sprints create urgency; longer sprints risk losing momentum.
 
-**Time commitment**: Ask team members to dedicate 2-4 hours daily during the sprint. This keeps documentation work as a primary focus without abandoning core responsibilities.
+Time commitment: Ask team members to dedicate 2-4 hours daily during the sprint. This keeps documentation work as a primary focus without abandoning core responsibilities.
 
-**Communication cadence**: Daily async check-ins or a brief synchronous standup help maintain progress and allow team members to share blockers.
+Communication cadence: Daily async check-ins or a brief synchronous standup help maintain progress and allow team members to share blockers.
 
-**Definition of done**: Establish what "fixed" means. A page might require updated content, corrected code snippets, removed deprecated sections, or a clear "this is no longer applicable" banner.
+Definition of done: Establish what "fixed" means. A page might require updated content, corrected code snippets, removed deprecated sections, or a clear "this is no longer applicable" banner.
 
 ## Step 4: Execute with Structured Sessions
 
@@ -120,7 +120,7 @@ Assign each team member to review a set number of pages per day. Reviewers add c
 
 The sprint solves immediate problems, but long-term maintenance prevents future decay. Implement lightweight processes to keep documentation current:
 
-**Documentation as code**: Store wiki content in version control. Require documentation updates alongside code changes in pull requests. A pre-commit hook can remind developers:
+Documentation as code: Store wiki content in version control. Require documentation updates alongside code changes in pull requests. A pre-commit hook can remind developers:
 
 ```bash
 # .git/hooks/pre-commit
@@ -129,9 +129,9 @@ echo "Remember: Did this change affect any documentation?"
 echo "Check docs/ directory for related files."
 ```
 
-**Review cycles**: Schedule quarterly documentation reviews for high-traffic pages. Assign owners who receive calendar reminders to review their assigned pages.
+Review cycles: Schedule quarterly documentation reviews for high-traffic pages. Assign owners who receive calendar reminders to review their assigned pages.
 
-**Outdated banners**: Add visible banners to pages that haven't been reviewed in over six months:
+Outdated banners: Add visible banners to pages that haven't been reviewed in over six months:
 
 ```markdown
 ---
@@ -143,7 +143,7 @@ review-status: needs-review
 > Some information may be outdated. Please verify before following any instructions.
 ```
 
-**Ownership mapping**: Maintain a simple mapping of which team member "owns" each documentation category. When processes change, the owner knows to update the relevant pages.
+Ownership mapping: Maintain a simple mapping of which team member "owns" each documentation category. When processes change, the owner knows to update the relevant pages.
 
 ## Measuring Sprint Success
 
@@ -155,15 +155,6 @@ Track metrics before and after the sprint to demonstrate value:
 - New documentation created for previously uncovered topics
 
 Share these results with stakeholders. Documentation improvements often go unnoticed—make the sprint impact visible to secure future buy-in.
-
-## Conclusion
-
-A documentation sprint provides a focused, achievable approach to tackling outdated wiki pages in remote teams. By auditing existing content, prioritizing critical updates, setting clear parameters, and establishing ongoing maintenance, you transform documentation from a chronic problem into a well-managed asset.
-
-The key is treating documentation maintenance as a legitimate team activity—worthy of dedicated time, clear ownership, and measurable outcomes.
-
----
-
 
 ## Related Reading
 

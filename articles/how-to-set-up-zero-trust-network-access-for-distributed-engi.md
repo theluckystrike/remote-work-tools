@@ -213,10 +213,10 @@ Set up alerts for failed device compliance, access from unusual locations, or af
 
 Transitioning from VPN to zero trust works best incrementally:
 
-1. **Phase 1**: Deploy identity-aware proxy for internal tools (low-risk, high-visibility)
-2. **Phase 2**: Replace VPN with WireGuard for infrastructure access
-3. **Phase 3**: Implement mTLS for service-to-service communication
-4. **Phase 4**: Add device posture checks and continuous validation
+1. Phase 1: Deploy identity-aware proxy for internal tools (low-risk, high-visibility)
+2. Phase 2: Replace VPN with WireGuard for infrastructure access
+3. Phase 3: Implement mTLS for service-to-service communication
+4. Phase 4: Add device posture checks and continuous validation
 
 Start with tools your team uses most frequently, then expand to cover remaining resources.
 

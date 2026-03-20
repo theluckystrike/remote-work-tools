@@ -24,9 +24,9 @@ Remote hiring introduces unique challenges. Candidates cannot observe your offic
 
 Structured documentation solves three critical problems:
 
-1. **Consistency**: Every candidate at the same level answers the same core questions
-2. **Accountability**: Evaluation criteria are visible and defensible
-3. **Scalability**: New hiring managers can onboard quickly without informal training
+1. Consistency: Every candidate at the same level answers the same core questions
+2. Accountability: Evaluation criteria are visible and defensible
+3. Scalability: New hiring managers can onboard quickly without informal training
 
 ## Template: Remote Interview Process Documentation
 
@@ -154,11 +154,11 @@ Include warnings based on your team's hiring mistakes:
 
 Every organization adjusts based on role type and team size. Consider these modifications:
 
-**For Technical Roles**: Add a live coding or system design stage. Document the specific platforms (CoderPad, HackerRank, etc.) and what constitutes passing performance.
+For Technical Roles: Add a live coding or system design stage. Document the specific platforms (CoderPad, HackerRank, etc.) and what constitutes passing performance.
 
-**For Non-Technical Roles**: Replace technical assessments with case studies or work samples. Define evaluation criteria for presentation skills and strategic thinking.
+For Non-Technical Roles: Replace technical assessments with case studies or work samples. Define evaluation criteria for presentation skills and strategic thinking.
 
-**For Senior Leadership**: Include reference checks earlier in the process. Add a "presentation to the team" stage where candidates present their past work.
+For Senior Leadership: Include reference checks earlier in the process. Add a "presentation to the team" stage where candidates present their past work.
 
 ## Implementation Checklist
 
@@ -170,13 +170,6 @@ Before publishing your documentation, verify:
 - [ ] Questions are approved by legal/HR for compliance
 - [ ] Documentation lives in a centralized, searchable location
 - [ ] There's a process for updating questions quarterly
-
-## Conclusion
-
-Well-documented interview processes remove friction from hiring and protect your team from costly hiring mistakes. Start with this template, adapt it to your specific needs, and treat documentation as a living resource that improves with each hiring cycle.
-
-The best remote hiring systems treat candidates fairly, evaluate consistently, and scale without adding administrative burden. Your handbook makes that possible.
-
 
 ## Related Reading
 

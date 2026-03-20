@@ -23,13 +23,13 @@ The Tripp Lite TLP1208TELTV is the best overall power strip with surge protector
 
 Before examining specific products, you need to understand the technical specifications that determine real-world protection:
 
-**Joule Rating**: This measures how much energy the surge protector can absorb before failing. For a home office with sensitive electronics, look for at least 2000 joules. Higher is better—the best options offer 3000-4000 joules.
+Joule Rating: This measures how much energy the surge protector can absorb before failing. For a home office with sensitive electronics, look for at least 2000 joules. Higher is better—the best options offer 3000-4000 joules.
 
-**Clamping Voltage**: This is the voltage level at which the surge protector begins blocking excess power. Look for 330V or 400V clamping—the lower, the better for sensitive equipment.
+Clamping Voltage: This is the voltage level at which the surge protector begins blocking excess power. Look for 330V or 400V clamping—the lower, the better for sensitive equipment.
 
-**Response Time**: Measured in nanoseconds, this indicates how quickly the protector reacts. Anything under 1 nanosecond is excellent.
+Response Time: Measured in nanoseconds, this indicates how quickly the protector reacts. Anything under 1 nanosecond is excellent.
 
-**EMI/RFI Filtering**: This reduces electromagnetic and radio frequency interference, which matters if you run sensitive audio equipment or experience electrical noise affecting your displays.
+EMI/RFI Filtering: This reduces electromagnetic and radio frequency interference, which matters if you run sensitive audio equipment or experience electrical noise affecting your displays.
 
 ## Top Recommendations
 
@@ -113,9 +113,9 @@ This integration enables you to track power consumption patterns, identify devic
 
 Modern surge protectors increasingly include smart features that appeal to technical users:
 
-**Automatic Shutdown**: Some models detect when the master device (typically your computer) powers down and automatically cut power to peripheral devices. This eliminates vampire power draw from monitors, printers, and charging accessories.
+Automatic Shutdown: Some models detect when the master device (typically your computer) powers down and automatically cut power to peripheral devices. This eliminates vampire power draw from monitors, printers, and charging accessories.
 
-**Network Monitoring**: High-end options like the APC Smart-UPS series provide network management cards that expose power data via SNMP. For server room-adjacent home offices, this integrates with existing monitoring infrastructure:
+Network Monitoring: High-end options like the APC Smart-UPS series provide network management cards that expose power data via SNMP. For server room-adjacent home offices, this integrates with existing monitoring infrastructure:
 
 ```python
 # Example: Querying APC UPS via SNMP
@@ -140,19 +140,19 @@ def get_apc_power_status(host, community, oid):
             print(f"{varBind[0]} = {varBind[1]}")
 ```
 
-**Outlet Grouping**: Advanced surge protectors allow you to group outlets by device type—always-on (router, NAS), computer-controlled (monitors, speakers), and switched (chargers). This enables precise power sequencing and reduces wasted energy.
+Outlet Grouping: Advanced surge protectors allow you to group outlets by device type—always-on (router, NAS), computer-controlled (monitors, speakers), and switched (chargers). This enables precise power sequencing and reduces wasted energy.
 
 ## Installation Best Practices
 
 Proper installation maximizes both safety and equipment longevity:
 
-**Daisy Chaining Limitation**: Never chain multiple surge protectors together. This creates a safety hazard and voids UL certifications. If you need more outlets, purchase a single unit with sufficient capacity.
+Daisy Chaining Limitation: Never chain multiple surge protectors together. This creates a safety hazard and voids UL certifications. If you need more outlets, purchase a single unit with sufficient capacity.
 
-**Grounding Verification**: Test your outlets with a grounding tester before relying on surge protection. Many older homes have ungrounded circuits where surge protectors cannot function as designed.
+Grounding Verification: Test your outlets with a grounding tester before relying on surge protection. Many older homes have ungrounded circuits where surge protectors cannot function as designed.
 
-**Cable Management**: Route the power strip cord along desk edges or through cable management channels. Avoid running cords under rugs or through walls—these conditions create fire hazards.
+Cable Management: Route the power strip cord along desk edges or through cable management channels. Avoid running cords under rugs or through walls—these conditions create fire hazards.
 
-**Replacement Schedule**: Surge protectors degrade with each event they handle. Replace units every 3-5 years, or immediately after any significant surge event (nearby lightning strike, power outage followed by surge).
+Replacement Schedule: Surge protectors degrade with each event they handle. Replace units every 3-5 years, or immediately after any significant surge event (nearby lightning strike, power outage followed by surge).
 
 ## Making Your Decision
 

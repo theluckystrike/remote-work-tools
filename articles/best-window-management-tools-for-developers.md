@@ -121,7 +121,7 @@ With this configuration, yabai manages windows in a binary space partition layou
 
 ## KDE Plasma: Built-in Window Management
 
-Linux developers using KDE Plasma have powerful window management built into the desktop environment. KWin, KDE's window manager, offers comprehensive tiling through scripts and built-in features.
+Linux developers using KDE Plasma have powerful window management built into the desktop environment. KWin, KDE's window manager, offers tiling through scripts and built-in features.
 
 Enable tiling in KDE Plasma settings under Window Management > KWin Scripts. Install the "Krohnkite" script for dynamic tiling:
 
@@ -165,7 +165,7 @@ Monitor your window arrangement patterns. Most developers settle into predictabl
 
 ## Choosing the Right Tool
 
-Select your window management tool based on your operating system and comfort level with configuration. Rectangle offers the easiest macOS setup with immediate productivity gains. PowerToys provides robust Windows functionality without additional software. Yabai suits macOS power users who want CLI control. Linux users benefit from desktop environment integration.
+Select your window management tool based on your operating system and comfort level with configuration. Rectangle offers the easiest macOS setup with immediate productivity gains. PowerToys provides Windows functionality without additional software. Yabai suits macOS power users who want CLI control. Linux users benefit from desktop environment integration.
 
 The best window management tool is one you'll actually use consistently. Start with simpler tools like Rectangle or PowerToys, then explore more advanced options as your needs evolve. Your development workflow will become more efficient, and you'll reduce the cognitive load of managing multiple windows throughout your day.
 

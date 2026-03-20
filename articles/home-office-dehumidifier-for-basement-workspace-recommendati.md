@@ -53,10 +53,10 @@ Traditional compressor-based units remove moisture by cooling air below dew poin
 
 For basement offices, look for units rated at 30-50 pints per day, which handles spaces up to 2,500 square feet. Key specifications include:
 
-- **Capacity**: Pints removed per 24 hours
-- **Energy Factor**: Liters removed per kilowatt-hour (higher is better)
-- **Noise Level**: Measured in decibels (critical for focused work)
-- **Water Container**: Continuous drain option preferred
+- Capacity: Pints removed per 24 hours
+- Energy Factor: Liters removed per kilowatt-hour (higher is better)
+- Noise Level: Measured in decibels (critical for focused work)
+- Water Container: Continuous drain option preferred
 
 ### Desiccant Dehumidifiers
 
@@ -202,13 +202,6 @@ automation:
         data:
           message: "Dehumidifier activated - Humidity at {{ states('sensor.basement_humidity') }}%"
 ```
-
-## Conclusion
-
-Controlling humidity in basement home offices requires understanding your specific environment, selecting appropriately sized equipment, and integrating with smart home systems for automated management. The investment in proper dehumidification protects both your health and your equipment while creating a comfortable workspace for focused development work.
-
-Monitor your humidity patterns over several weeks before finalizing automation rules. Seasonal changes require adjustment of target humidity levels and runtime schedules. With proper setup, your basement office maintains consistent comfort year-round.
-
 
 ## Related Reading
 

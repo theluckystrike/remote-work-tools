@@ -33,10 +33,10 @@ Effective remote one-on-ones need to surface context that would normally happen 
 
 This template uses the BASE framework: **Blockers, Accomplishments, Support needs, Energy and wellbeing**. Each category serves a distinct purpose:
 
-- **Blockers**: Identify obstacles preventing progress
-- **Accomplishments**: Acknowledge progress (not just task completion)
-- **Support needs**: Surface where help would accelerate work
-- **Energy and wellbeing**: Check for burnout signals and motivation levels
+- Blockers: Identify obstacles preventing progress
+- Accomplishments: Acknowledge progress (not just task completion)
+- Support needs: Surface where help would accelerate work
+- Energy and wellbeing: Check for burnout signals and motivation levels
 
 ### Weekly Check-In Question Template
 

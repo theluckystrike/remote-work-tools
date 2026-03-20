@@ -208,9 +208,9 @@ A blocked domain should return NXDOMAIN or an appropriate error. Allowed domains
 
 Remote employees occasionally encounter connectivity issues. Common problems include:
 
-- **Client fails to connect**: Verify the device has internet connectivity and can reach `gateway.teams.cloudflare.com`. Check firewall rules allow the WARP client ports.
-- **Policies not applying**: Confirm the device is enrolled in your organization and the correct profile is selected. Review policy precedence—lower precedence policies may match first.
-- **Slow DNS resolution**: Cloudflare Gateway typically provides fast resolution, but geographic distance matters. Ensure clients connect from supported regions.
+- Client fails to connect: Verify the device has internet connectivity and can reach `gateway.teams.cloudflare.com`. Check firewall rules allow the WARP client ports.
+- Policies not applying: Confirm the device is enrolled in your organization and the correct profile is selected. Review policy precedence—lower precedence policies may match first.
+- Slow DNS resolution: Cloudflare Gateway typically provides fast resolution, but geographic distance matters. Ensure clients connect from supported regions.
 
 ## Scaling Your Deployment
 

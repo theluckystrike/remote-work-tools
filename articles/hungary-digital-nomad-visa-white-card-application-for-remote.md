@@ -30,17 +30,17 @@ A clean criminal record from your country of residence is required. Hungary requ
 
 Gathering the correct documentation is the most time-consuming part of the Hungary digital nomad visa application. Here's what you need:
 
-**Proof of income**: Bank statements from the past three months showing deposits meeting the €2,000 monthly threshold. Self-employed applicants should provide invoices and corresponding payment receipts. If you receive a salary, employment contracts and pay stubs work as supplementary evidence.
+Proof of income: Bank statements from the past three months showing deposits meeting the €2,000 monthly threshold. Self-employed applicants should provide invoices and corresponding payment receipts. If you receive a salary, employment contracts and pay stubs work as supplementary evidence.
 
-**Employment or client contracts**: Documents demonstrating your remote work relationship with non-Hungarian entities. Include the full contract or agreement showing the nature of your work and that it's performed remotely.
+Employment or client contracts: Documents demonstrating your remote work relationship with non-Hungarian entities. Include the full contract or agreement showing the nature of your work and that it's performed remotely.
 
-**Health insurance**: Private health insurance with valid coverage in Hungary for the entire visa duration. Travel insurance policies typically don't meet this requirement since they exclude long-term residency.
+Health insurance: Private health insurance with valid coverage in Hungary for the entire visa duration. Travel insurance policies typically don't meet this requirement since they exclude long-term residency.
 
-**Criminal record certificate**: Official document from your country of residence proving no serious criminal convictions. This document usually needs to be recent (within 90 days) and may require apostille certification depending on your home country.
+Criminal record certificate: Official document from your country of residence proving no serious criminal convictions. This document usually needs to be recent (within 90 days) and may require apostille certification depending on your home country.
 
-**Passport**: Valid for at least the duration of your planned stay with at least two blank pages.
+Passport: Valid for at least the duration of your planned stay with at least two blank pages.
 
-**Proof of accommodation**: Hotel bookings, rental agreements, or a letter from a host confirming your address in Hungary. Some applicants use Airbnb bookings for initial documentation.
+Proof of accommodation: Hotel bookings, rental agreements, or a letter from a host confirming your address in Hungary. Some applicants use Airbnb bookings for initial documentation.
 
 ## Application Process
 

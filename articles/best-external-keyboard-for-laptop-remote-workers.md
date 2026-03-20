@@ -67,9 +67,9 @@ Software like QMK (Quantum Mechanical Keyboard) and VIA allows you to remap keys
 
 Consider your connectivity needs:
 
-- **USB-C wired**: Lowest latency, no batteries, ideal for stationary setups
-- **Bluetooth**: Cleaner desk, works across multiple devices, slight input lag
-- **2.4GHz wireless**: USB dongle provides Bluetooth-like freedom with wired-like latency
+- USB-C wired: Lowest latency, no batteries, ideal for stationary setups
+- Bluetooth: Cleaner desk, works across multiple devices, slight input lag
+- 2.4GHz wireless: USB dongle provides Bluetooth-like freedom with wired-like latency
 
 For development work where every millisecond matters during competitive gaming or precise cursor work, wired connections remain superior. However, Bluetooth suffices for typical coding tasks.
 
@@ -134,11 +134,11 @@ Keycaps wear over time—their legends fade with use. PBT keycaps resist this be
 
 The "best" keyboard ultimately depends on your specific situation:
 
-- **Budget**: Quality options exist from $50 to $300+
-- **Environment**: Noise level matters in shared spaces
-- **Work style**: IDE-heavy developers benefit from tactile feedback
-- **Health concerns**: Ergonomic options may reduce strain
-- **Customization**: Programmable keyboards reward technical users
+- Budget: Quality options exist from $50 to $300+
+- Environment: Noise level matters in shared spaces
+- Work style: IDE-heavy developers benefit from tactile feedback
+- Health concerns: Ergonomic options may reduce strain
+- Customization: Programmable keyboards reward technical users
 
 Test different switch types if possible—many stores display samples. What feels right varies significantly between individuals.
 

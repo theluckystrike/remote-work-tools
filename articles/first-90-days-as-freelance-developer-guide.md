@@ -26,9 +26,9 @@ Before writing any code for clients, set up your business infrastructure. This p
 
 Most freelance developers start as sole proprietors, but consider these factors:
 
-- **Sole Proprietor**: Simplest setup, but personal liability exposure. File Schedule C with your personal tax return.
-- **LLC (Limited Liability Company)**: Separates personal and business assets. Costs $50-800 to form depending on your state. Recommended once you have your first client.
-- **S-Corp Election**: If projected income exceeds $80,000/year, consult a CPA about potential tax savings.
+- Sole Proprietor: Simplest setup, but personal liability exposure. File Schedule C with your personal tax return.
+- LLC (Limited Liability Company): Separates personal and business assets. Costs $50-800 to form depending on your state. Recommended once you have your first client.
+- S-Corp Election: If projected income exceeds $80,000/year, consult a CPA about potential tax savings.
 
 ```bash
 # Quick checklist for Week 1:
@@ -55,9 +55,9 @@ With infrastructure in place, focus on defining your niche and attracting your f
 
 Vague positioning leads to commodity pricing. Specialize instead:
 
-- **Technology Stack**: "React and Node.js developer specializing in e-commerce"
-- **Industry Vertical**: "SaaS developer for B2B startups"
-- **Problem Focus**: "Developer helping agencies scale legacy migrations"
+- Technology Stack: "React and Node.js developer specializing in e-commerce"
+- Industry Vertical: "SaaS developer for B2B startups"
+- Problem Focus: "Developer helping agencies scale legacy migrations"
 
 Specific positioning attracts better clients and justifies premium rates.
 
@@ -65,9 +65,9 @@ Specific positioning attracts better clients and justifies premium rates.
 
 Without client work to showcase, demonstrate capabilities through:
 
-1. **Open Source Contributions**: Fix bugs, add features to tools you use
-2. **Personal Projects**: Build something that solves a real problem
-3. **Technical Writing**: Blog posts, documentation improvements, Stack Overflow answers
+1. Open Source Contributions: Fix bugs, add features to tools you use
+2. Personal Projects: Build something that solves a real problem
+3. Technical Writing: Blog posts, documentation improvements, Stack Overflow answers
 
 ```javascript
 // Example: Portfolio project structure
@@ -85,10 +85,10 @@ const portfolio = {
 
 Priority order for new freelance developers:
 
-1. **Existing Network**: Past colleagues, managers, LinkedIn connections
-2. **Freelance Platforms**: Upwork, Toptal, Gun.io (build profiles, expect initial low rates)
-3. **Job Boards**: We Work Remotely, RemoteOK, Hacker News Hire
-4. **Cold Outreach**: Target 10 companies per week with personalized messages
+1. Existing Network: Past colleagues, managers, LinkedIn connections
+2. Freelance Platforms: Upwork, Toptal, Gun.io (build profiles, expect initial low rates)
+3. Job Boards: We Work Remotely, RemoteOK, Hacker News Hire
+4. Cold Outreach: Target 10 companies per week with personalized messages
 
 ## Month 2: Onboarding Clients and Establishing Processes
 
@@ -169,18 +169,18 @@ Create reusable components and documentation that speed up future work:
 
 Automate financial management to reduce administrative burden:
 
-1. **Invoicing**: Set up recurring invoice templates for retainer clients
-2. **Expense Tracking**: Use receipt scanning apps (Expensify, Shoeboxed)
-3. **Quarterly Tax Payments**: Schedule reminders for IRS estimated payments
-4. **Income Forecasting**: Track pipeline value monthly
+1. Invoicing: Set up recurring invoice templates for retainer clients
+2. Expense Tracking: Use receipt scanning apps (Expensify, Shoeboxed)
+3. Quarterly Tax Payments: Schedule reminders for IRS estimated payments
+4. Income Forecasting: Track pipeline value monthly
 
 ### Building Recurring Revenue
 
 The freelance trap is trading all time for money. Work toward revenue streams that generate income without direct client work:
 
-- **Productized Services**: Fixed-scope offerings (code audits, security reviews)
-- **Templates and Tools**: Sellable digital products
-- **Referral Fees**: Establish relationships with agencies and consultants
+- Productized Services: Fixed-scope offerings (code audits, security reviews)
+- Templates and Tools: Sellable digital products
+- Referral Fees: Establish relationships with agencies and consultants
 
 ### Continuous Learning Investment
 
@@ -190,20 +190,11 @@ Dedicate 10% of billable hours to skill development. This maintains competitive 
 
 The overwhelm of freelance independence catches many developers off guard. Focus on these priorities in order:
 
-1. **Legal and Financial Setup**: Get proper structure in place before income arrives
-2. **First Two Clients**: Revenue validates the transition and provides learning opportunities
-3. **One Repeat Client**: A returning client stabilizes income and reduces acquisition costs
-4. **Systems Documentation**: Capture processes while they're fresh
-5. **Positioning Refinement**: Adjust based on what clients actually value
-
-## Conclusion
-
-The first 90 days as a freelance developer establish patterns that persist for years. Build strong foundations in legal and financial setup, prioritize client delivery excellence, and begin creating systems that reduce dependence on direct labor. Success as a freelance developer comes from treating your work as a business—not just a different way to code.
-
-Start with the legal fundamentals, secure your first clients through targeted outreach, and continuously refine your positioning based on market feedback. The transition requires patience, but the flexibility and autonomy await on the other side.
-
----
-
+1. Legal and Financial Setup: Get proper structure in place before income arrives
+2. First Two Clients: Revenue validates the transition and provides learning opportunities
+3. One Repeat Client: A returning client stabilizes income and reduces acquisition costs
+4. Systems Documentation: Capture processes while they're fresh
+5. Positioning Refinement: Adjust based on what clients actually value
 
 ## Related Reading
 

@@ -28,9 +28,9 @@ The key is combining multiple sources to create a weighted view of your talent m
 
 Before collecting data, define your compensation philosophy. Remote teams typically use one of three approaches:
 
-1. **Location-agnostic**: Pay all employees the same regardless of geography
-2. **Location-adjusted**: Base pay on employee location with cost-of-living adjustments
-3. **Market-based**: Match compensation to the local market rate for each role
+1. Location-agnostic: Pay all employees the same regardless of geography
+2. Location-adjusted: Base pay on employee location with cost-of-living adjustments
+3. Market-based: Match compensation to the local market rate for each role
 
 Each approach has trade-offs. Location-agnostic creates equity but strains budgets for lower-cost locations. Location-adjusted maintains competitiveness but requires ongoing location data. Market-based is complex to administer but reflects real talent costs.
 
@@ -118,12 +118,12 @@ For tech roles, remote premiums vary from -5% to +15% depending on role seniorit
 
 Your final benchmarking report should include these sections:
 
-1. **Executive Summary**: Key findings and recommendations
-2. **Methodology**: Data sources, normalization process, limitations
-3. **Role-by-Role Analysis**: Each position with market range and internal comparison
-4. **Geographic Analysis**: Cost-of-living and PPP-adjusted views
-5. **Remote Work Considerations**: Premiums, policies, recommendations
-6. **Action Items**: Specific compensation adjustments needed
+1. Executive Summary: Key findings and recommendations
+2. Methodology: Data sources, normalization process, limitations
+3. Role-by-Role Analysis: Each position with market range and internal comparison
+4. Geographic Analysis: Cost-of-living and PPP-adjusted views
+5. Remote Work Considerations: Premiums, policies, recommendations
+6. Action Items: Specific compensation adjustments needed
 
 Include visualizations showing how your team's compensation compares to market benchmarks. Box plots work well for showing distribution ranges. Line charts show experience-to-salary progression.
 
@@ -161,12 +161,12 @@ def create_benchmark_chart(internal_data, market_data):
 
 ## Updating and Maintaining the Report
 
-Compensation benchmarking is not a one-time exercise. Plan for quarterly updates:
+Compensation benchmarking is not an one-time exercise. Plan for quarterly updates:
 
-- **Q1**: Full market refresh with latest survey data
-- **Q2**: Mid-year adjustment for significant market changes
-- **Q3**: Budget planning cycle review
-- **Q4**: Annual compensation planning baseline
+- Q1: Full market refresh with latest survey data
+- Q2: Mid-year adjustment for significant market changes
+- Q3: Budget planning cycle review
+- Q4: Annual compensation planning baseline
 
 Automate as much of the data collection as possible. Write scripts that pull from APIs or parse downloaded CSV files. The less manual work required, the more likely you'll maintain the report consistently.
 
@@ -174,11 +174,11 @@ Automate as much of the data collection as possible. Write scripts that pull fro
 
 Several mistakes undermine compensation benchmarking efforts:
 
-- **Using unadjusted nominal salaries**: Always adjust for cost-of-living or PPP
-- **Ignoring equity**: Total compensation includes stock options, which vary significantly
-- **Single-source data**: Combine multiple surveys for reliability
-- **Outdated data**: Tech salaries change quickly—aim for current year data
-- **Over-weighting big companies**: Startup compensation often differs significantly
+- Using unadjusted nominal salaries: Always adjust for cost-of-living or PPP
+- Ignoring equity: Total compensation includes stock options, which vary significantly
+- Single-source data: Combine multiple surveys for reliability
+- Outdated data: Tech salaries change quickly—aim for current year data
+- Over-weighting big companies: Startup compensation often differs significantly
 
 ## Practical Example: Building a Simple Benchmark
 
@@ -191,11 +191,6 @@ Second, apply PPP: Argentina's PPP factor is approximately 0.4, meaning $1 in th
 Third, apply remote adjustment: If remote work carries a 10% premium in your industry, adjust accordingly.
 
 The final recommendation: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment. This reflects global market rates while accounting for remote work value.
-
-## Conclusion
-
-A well-built compensation benchmarking report transforms how you approach remote team salaries. Instead of guessing, you have data-driven insights that attract talent, maintain equity, and control costs. Start with clear methodology, use multiple data sources, normalize for purchasing power, and update regularly. Your team and your budget will benefit from the rigor.
-
 
 ## Related Reading
 

@@ -23,9 +23,9 @@ The most effective step you can take is network segmentation. Most modern router
 
 Access your router's administrative interface—typically at `192.168.0.1` or `192.168.1.1`—and create a dedicated network for work devices. Configure it with the following properties:
 
-- **Separate SSID**: Use a distinct name like "Work-Secure" rather than default names
-- **Strong encryption**: WPA3-Personal if supported, otherwise WPA2-AES
-- **Isolated from main network**: Ensure devices on the work network cannot communicate with personal devices
+- Separate SSID: Use a distinct name like "Work-Secure" rather than default names
+- Strong encryption: WPA3-Personal if supported, otherwise WPA2-AES
+- Isolated from main network: Ensure devices on the work network cannot communicate with personal devices
 
 Most ASUS, Netgear, and TP-Link routers support this through their web interfaces. The exact path varies by model, but you'll generally find it under Wireless Settings → Guest Network.
 
@@ -82,10 +82,10 @@ A properly configured VPN creates an encrypted tunnel between your home network 
 
 Essential VPN security settings include:
 
-- **Kill switch**: Automatically blocks all traffic if the VPN connection drops
-- **Strong encryption**: AES-256 at minimum, ChaCha20 for better mobile performance
-- **Certificate pinning**: Prevents man-in-the-middle attacks on the VPN itself
-- **Multi-factor authentication**: Adds a second verification layer beyond passwords
+- Kill switch: Automatically blocks all traffic if the VPN connection drops
+- Strong encryption: AES-256 at minimum, ChaCha20 for better mobile performance
+- Certificate pinning: Prevents man-in-the-middle attacks on the VPN itself
+- Multi-factor authentication: Adds a second verification layer beyond passwords
 
 Test your VPN configuration regularly:
 
@@ -118,9 +118,9 @@ Schedule regular scans to maintain an inventory of authorized devices. When new 
 
 Configuring your router to use secure DNS servers adds another protective layer. Instead of using your ISP's default DNS—which can be vulnerable to hijacking or snooping—configure your router to use privacy-focused alternatives:
 
-- **Cloudflare**: 1.1.1.1 and 1.0.0.1
-- **Google Public DNS**: 8.8.8.8 and 8.8.4.4
-- **Quad9**: 9.9.9.9 (blocks malicious domains)
+- Cloudflare: 1.1.1.1 and 1.0.0.1
+- Google Public DNS: 8.8.8.8 and 8.8.4.4
+- Quad9: 9.9.9.9 (blocks malicious domains)
 
 For advanced users, Pi-hole provides network-wide ad and tracker blocking while logging DNS queries for security analysis:
 
@@ -153,7 +153,7 @@ Securing a home WiFi network for company data access requires layering multiple 
 
 These steps align with security frameworks used by enterprises while remaining achievable for individual remote workers. The time invested in proper configuration pays dividends in reduced risk exposure.
 
-For development teams, consider creating a simple provisioning script that employees can run to verify their home network meets minimum security requirements. This transforms security from a one-time setup into an ongoing practice.
+For development teams, consider creating a simple provisioning script that employees can run to verify their home network meets minimum security requirements. This transforms security from an one-time setup into an ongoing practice.
 
 
 ## Related Reading

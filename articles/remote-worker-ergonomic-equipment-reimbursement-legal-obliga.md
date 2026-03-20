@@ -76,24 +76,24 @@ def check_reimbursement_requirement(employee_state: str) -> dict:
 
 For companies with global remote teams, obligations vary significantly:
 
-- **Germany**: Employers must provide ergonomic equipment under workplace safety laws (ArbSchG)
-- **UK**: No explicit requirement, but employers have duty of care under Health and Safety at Work Act
-- **Canada**: Varies by province; Ontario requires employer-provided equipment under ESA
-- **Australia**: Fair Work Act requires employers to provide necessary equipment
+- Germany: Employers must provide ergonomic equipment under workplace safety laws (ArbSchG)
+- UK: No explicit requirement, but employers have duty of care under Health and Safety at Work Act
+- Canada: Varies by province; Ontario requires employer-provided equipment under ESA
+- Australia: Fair Work Act requires employers to provide necessary equipment
 
 ## Developing a Compliant Reimbursement Policy
 
-Creating a robust policy requires balancing legal compliance with practical implementation. A well-structured policy protects both employees and the organization.
+Creating a policy requires balancing legal compliance with practical implementation. A well-structured policy protects both employees and the organization.
 
 ### Core Policy Elements
 
 Your ergonomic equipment reimbursement policy should include:
 
-1. **Eligibility criteria**: Define which roles qualify for equipment reimbursement
-2. **Allowed equipment**: List covered items with price ceilings
-3. **Process for requesting reimbursement**: Clear submission and approval workflow
-4. **Tax implications**: Guidance on taxable benefits
-5. **Asset ownership**: Clarify whether equipment belongs to employee or company
+1. Eligibility criteria: Define which roles qualify for equipment reimbursement
+2. Allowed equipment: List covered items with price ceilings
+3. Process for requesting reimbursement: Clear submission and approval workflow
+4. Tax implications: Guidance on taxable benefits
+5. Asset ownership: Clarify whether equipment belongs to employee or company
 
 ```yaml
 # Example: Ergonomic equipment policy configuration
@@ -163,10 +163,10 @@ const accommodationWorkflow = {
 
 Failing to meet reimbursement obligations carries real costs. Beyond legal penalties, organizations face:
 
-- **California penalties**: Up to $4,000 per violation under Labor Code
-- **Employee attrition**: 67% of remote workers cite equipment as key retention factor
-- **Productivity losses**: Inadequate equipment reduces output by an estimated 15-20%
-- **Workers' compensation claims**: Poor home office ergonomics lead to repetitive strain injuries
+- California penalties: Up to $4,000 per violation under Labor Code
+- Employee attrition: 67% of remote workers cite equipment as key retention factor
+- Productivity losses: Inadequate equipment reduces output by an estimated 15-20%
+- Workers' compensation claims: Poor home office ergonomics lead to repetitive strain injuries
 
 ```python
 # Example: Total cost of ownership calculator

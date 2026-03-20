@@ -24,10 +24,10 @@ Traditional performance review processes assume everyone operates in the same ti
 
 Async performance feedback collection solves several critical problems:
 
-- **Time zone independence**: Team members contribute feedback on their own schedule
-- **Thoughtful responses**: People can reflect and craft detailed feedback rather than improvising in meetings
-- **Documentation**: All feedback is written down, creating an auditable record
-- **Inclusion**: Introverted team members or non-native speakers have equal opportunity to contribute
+- Time zone independence: Team members contribute feedback on their own schedule
+- Thoughtful responses: People can reflect and craft detailed feedback rather than improvising in meetings
+- Documentation: All feedback is written down, creating an auditable record
+- Inclusion: Introverted team members or non-native speakers have equal opportunity to contribute
 
 ## Core Features to Evaluate
 
@@ -61,9 +61,9 @@ Quarterly reviews require historical data. Look for tools that visualize feedbac
 
 ## Tool Comparison for Distributed Teams
 
-### Lattice: Comprehensive Performance Management
+### Lattice: Performance Management
 
-Lattice has emerged as a strong choice for distributed teams needing structured performance reviews. The platform offers robust goal-setting features, continuous feedback mechanisms, and detailed analytics.
+Lattice has emerged as a strong choice for distributed teams needing structured performance reviews. The platform offers goal-setting features, continuous feedback mechanisms, and detailed analytics.
 
 ```javascript
 // Lattice API: Programmatic feedback submission
@@ -111,7 +111,7 @@ submitFeedback(
 );
 ```
 
-Lattice's strength lies in its comprehensive approach to performance management, including goal tracking, engagement surveys, and career development planning. The platform integrates with Slack, Microsoft Teams, and popular HRIS systems.
+Lattice's strength lies in its approach to performance management, including goal tracking, engagement surveys, and career development planning. The platform integrates with Slack, Microsoft Teams, and popular HRIS systems.
 
 ### 15Five: Continuous Feedback with Insights
 
@@ -275,13 +275,13 @@ Self-hosted solutions require more development effort but offer complete data ow
 
 Regardless of which tool you choose, successful async feedback collection requires thoughtful implementation:
 
-**Set Clear Expectations**: Define what good feedback looks like. Provide examples and training so team members know how to write constructive reviews.
+Set Clear Expectations: Define what good feedback looks like. Provide examples and training so team members know how to write constructive reviews.
 
-**Establish Timeline Buffer**: Build extra days into your quarterly cycle. Distributed teams need flexibility for different time zones and unexpected delays.
+Establish Timeline Buffer: Build extra days into your quarterly cycle. Distributed teams need flexibility for different time zones and unexpected delays.
 
-**Combine Async and Sync**: Use async feedback collection for the heavy lifting, then hold brief synchronous meetings to discuss themes and action items.
+Combine Async and Sync: Use async feedback collection for the heavy lifting, then hold brief synchronous meetings to discuss themes and action items.
 
-**Follow Up Consistently**: Feedback without follow-up becomes meaningless. Ensure managers schedule time to discuss feedback with their reports.
+Follow Up Consistently: Feedback without follow-up becomes meaningless. Ensure managers schedule time to discuss feedback with their reports.
 
 ## Making Your Selection
 

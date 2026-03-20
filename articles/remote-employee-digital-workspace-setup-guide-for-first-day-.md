@@ -195,10 +195,10 @@ Create a local bookmark folder organized by category for quick access during you
 
 Install and configure these essential applications:
 
-- **Password manager**: 1Password, Bitwarden, or LastPass
-- **Note-taking**: Notion, Obsidian, or company-approved alternatives
-- **Screenshot and recording**: CleanShot X, ShareX, or native tools
-- **Window management**: Rectangle, Magnet, or similar utilities
+- Password manager: 1Password, Bitwarden, or LastPass
+- Note-taking: Notion, Obsidian, or company-approved alternatives
+- Screenshot and recording: CleanShot X, ShareX, or native tools
+- Window management: Rectangle, Magnet, or similar utilities
 
 ```bash
 # Install window manager (macOS)
@@ -212,10 +212,10 @@ brew install cleanshot
 
 A reliable home office setup prevents productivity loss:
 
-- **Internet**: Hardwire your primary workstation via Ethernet when possible
-- **Backup connection**: Mobile hotspot as failover for critical meetings
-- **Router placement**: Position your router centrally for optimal coverage
-- **UPS/battery backup**: Protect your workstation from power fluctuations
+- Internet: Hardwire your primary workstation via Ethernet when possible
+- Backup connection: Mobile hotspot as failover for critical meetings
+- Router placement: Position your router centrally for optimal coverage
+- UPS/battery backup: Protect your workstation from power fluctuations
 
 ## First Day Checklist Summary
 

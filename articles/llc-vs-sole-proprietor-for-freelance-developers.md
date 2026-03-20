@@ -23,7 +23,7 @@ This guide breaks down the practical differences between LLCs and sole proprieto
 
 A **sole proprietorship** is the simplest business structure. There's no legal separation between you and your business—when you work as a freelance developer under your own name or a trade name, you're automatically operating as a sole proprietor. This means all business income flows directly to your personal tax return.
 
-An **LLC (Limited Liability Company)** creates a legal separation between you personally and your business. The LLC is its own legal entity that can own bank accounts, sign contracts, and hold assets. If someone sues your business, your personal assets (house, car, personal bank accounts) are generally protected—unlike in a sole proprietorship where your personal and business liabilities are essentially the same.
+An **LLC (Limited Liability Company)** creates a legal separation between you personally and your business. The LLC is its own legal entity that can own bank accounts, sign contracts, and hold assets. If someone sues your business, your personal assets (house, car, personal bank accounts) are generally protected—unlike in a sole proprietorship where your personal and business liabilities are the same.
 
 ## Liability Protection: What Actually Happens
 
@@ -32,14 +32,14 @@ For most freelance developers, the primary reason to consider an LLC is liabilit
 **Scenario 1: Client Project Dispute**
 You're building a custom web application for a client. Due to a bug in your code, the application experiences downtime that causes your client to lose $50,000 in e-commerce revenue. The client sues for damages.
 
-- **Sole Proprietor**: Your personal assets are at risk. The plaintiff can go after your bank accounts, car, and potentially your home to satisfy a judgment.
-- **LLC**: Only the business assets are typically at risk. Your personal assets remain protected (assuming you maintain proper separation between personal and business finances).
+- Sole Proprietor: Your personal assets are at risk. The plaintiff can go after your bank accounts, car, and potentially your home to satisfy a judgment.
+- LLC: Only the business assets are typically at risk. Your personal assets remain protected (assuming you maintain proper separation between personal and business finances).
 
 **Scenario 2: Developer Injury**
 A subcontractor you hired for a project gets injured on the job and files a workers' compensation claim.
 
-- **Sole Proprietor**: Your personal assets could be exposed.
-- **LLC**: The LLC's assets provide a layer of protection, though this varies by state.
+- Sole Proprietor: Your personal assets could be exposed.
+- LLC: The LLC's assets provide a layer of protection, though this varies by state.
 
 Realistically, many freelance developers work on projects where the financial stakes don't warrant extensive liability protection. However, if you're handling client data, working on financial systems, or building software with significant business impact, the LLC protection becomes more valuable.
 
@@ -96,7 +96,7 @@ print(f"Category: {category}")  # Output: Category: software
 **Sole Proprietor Costs**
 - Registration: Often $0-50 (DBA filing if using a trade name)
 - Ongoing: Minimal to none
-- Time investment: Very low; you essentially file a Schedule C with your personal taxes
+- Time investment: Very low; you file a Schedule C with your personal taxes
 
 **LLC Costs**
 - Formation: $50-800 depending on state (filing fees range from $50 to $800)
@@ -134,15 +134,6 @@ Here's a practical framework:
 ## Transitioning Between Structures
 
 One advantage of starting as a sole proprietor: you can always form an LLC later. Many developers begin as sole proprietors, build up client relationships and income, then make the switch when it makes financial sense. The IRS allows you to elect LLC treatment retroactively in some cases, though this requires careful documentation.
-
-## Conclusion
-
-For freelance developers, the LLC vs sole proprietor decision ultimately comes down to risk tolerance, income level, and client type. A solo developer building small business websites may never need an LLC. A developer handling sensitive financial data or targeting enterprise clients will likely benefit from the liability protection and professional credibility an LLC provides.
-
-The good news is that neither choice is permanent. You can start simple and evolve as your freelance career grows.
-
----
-
 
 ## Related Reading
 

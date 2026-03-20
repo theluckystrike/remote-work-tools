@@ -26,7 +26,7 @@ The core requirements for effective cross-timezone scheduling include accurate t
 
 ## Technical Foundation: Timezone Handling
 
-At the foundation of any scheduling tool lies proper timezone data handling. The IANA Time Zone Database provides the most reliable source for timezone information. Modern JavaScript environments include Intl.DateTimeFormat for robust timezone conversion:
+At the foundation of any scheduling tool lies proper timezone data handling. The IANA Time Zone Database provides the most reliable source for timezone information. Modern JavaScript environments include Intl.DateTimeFormat for timezone conversion:
 
 ```javascript
 // Convert a UTC time to multiple participant timezones
@@ -196,7 +196,7 @@ async function createInterviewEvent(interviewDetails) {
 
 Several edge cases require special attention when building scheduling tools for globally distributed teams. Working hour definitions vary significantly across regions—what constitutes normal business hours in one country may be unreasonable in another. Implement configurable working hour preferences per participant rather than enforcing a single standard.
 
-Holiday calendars differ substantially across countries. A scheduling tool should account for public holidays in each participant's region. Libraries like date-holidays provide comprehensive holiday data that can filter out unavailable dates.
+Holiday calendars differ substantially across countries. A scheduling tool should account for public holidays in each participant's region. Libraries like date-holidays provide holiday data that can filter out unavailable dates.
 
 Some candidates or interviewers may have recurring availability constraints, such as only being available on certain days of the week due to other commitments. Building flexible recurrence rules into your availability system allows participants to express these preferences naturally.
 
@@ -242,13 +242,6 @@ async function autoScheduleInterview(candidates, interviewers, position) {
   return { status: 'scheduled', event, slot: selectedSlot };
 }
 ```
-
-## Conclusion
-
-Building effective remote team interview scheduling tools requires careful attention to timezone handling, availability matching, and calendar integration. The patterns and code examples above provide a foundation for implementing scheduling functionality that works across any number of timezones. Focus on providing clear timezone information to all participants, automating where possible while preserving human oversight for edge cases, and integrating smoothly with the tools your team already uses.
-
-The key to success lies in treating timezone awareness as a core architectural concern rather than an afterthought. When candidates and interviewers can see meeting times in their own timezones without mental conversion, the scheduling experience improves significantly for everyone involved.
-
 
 ## Related Reading
 

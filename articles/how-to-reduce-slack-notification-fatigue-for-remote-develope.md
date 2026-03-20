@@ -75,7 +75,7 @@ Slack's "Pause Notifications" feature provides instant relief. Use keyboard shor
 
 This toggles notification pausing instantly. Get in the habit of pausing when you start a focused work session.
 
-## Leverage Slack's Built-In Tools for Async Communication
+## use Slack's Built-In Tools for Async Communication
 
 ### Set Custom Statuses as Availability Signals
 
@@ -202,21 +202,12 @@ Extensions like [Slack Reader](https://readersExtension.com) let you catch up on
 
 Track whether these changes improve your productivity:
 
-1. **Task completion rate**: Are you finishing more tasks?
-2. **Time to complete deep work**: Has your coding session length increased?
-3. **Response time satisfaction**: Are urgent messages still reaching you?
-4. **Stress levels**: Do you feel less overwhelmed by communication?
+1. Task completion rate: Are you finishing more tasks?
+2. Time to complete deep work: Has your coding session length increased?
+3. Response time satisfaction: Are urgent messages still reaching you?
+4. Stress levels: Do you feel less overwhelmed by communication?
 
 Adjust your approach based on what works for your specific role and team.
-
-## Final Thoughts
-
-Slack notification fatigue is solvable. The key is combining technical configuration with team communication and personal habits. Start with one change—configure DND hours, set a status, or batch your message checking—and build from there.
-
-Your productivity and mental health are worth protecting. Your team will adapt to clearer communication norms, and you'll accomplish more meaningful work when you control your attention.
-
----
-
 
 ## Related Reading
 

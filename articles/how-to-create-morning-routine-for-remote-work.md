@@ -40,19 +40,19 @@ A sustainable morning routine consists of three phases: wake, prepare, and launc
 
 This phase transitions you from sleep to alertness without screen stimulation. The goal is gentle activation, not productivity maximization.
 
-**Movement**: Light physical activity resets your nervous system. A 15-minute walk, stretching session, or brief yoga flow increases blood flow and cortisol regulation. Many developers report reduced back pain and fewer headaches when they add morning movement.
+Movement: Light physical activity resets your nervous system. A 15-minute walk, stretching session, or brief yoga flow increases blood flow and cortisol regulation. Many developers report reduced back pain and fewer headaches when they add morning movement.
 
-**Hydration and nutrition**: After 7-8 hours without water, your brain needs hydration to function optimally. Keep a water bottle at your bedside and drink 16-20 oz before coffee. Eat protein-rich breakfast within 90 minutes of waking to stabilize blood sugar—eggs, yogurt, or leftovers from dinner work well.
+Hydration and nutrition: After 7-8 hours without water, your brain needs hydration to function optimally. Keep a water bottle at your bedside and drink 16-20 oz before coffee. Eat protein-rich breakfast within 90 minutes of waking to stabilize blood sugar—eggs, yogurt, or leftovers from dinner work well.
 
-**Review and intention**: Spend 5-10 minutes reviewing your tasks for the day. This isn't about detailed planning but about knowing your top 2-3 priorities before opening your code editor.
+Review and intention: Spend 5-10 minutes reviewing your tasks for the day. This isn't about detailed planning but about knowing your top 2-3 priorities before opening your code editor.
 
 ### Phase 2: Prepare Your Environment (15-20 minutes)
 
 This is where developers can automate and systematize to reduce cognitive load.
 
-**Workspace setup**: Ensure your desk is ready the night before. Close yesterday's tabs, clear your physical workspace, and verify your monitors are positioned correctly. Reducing visual clutter decreases decision fatigue.
+Workspace setup: Ensure your desk is ready the night before. Close yesterday's tabs, clear your physical workspace, and verify your monitors are positioned correctly. Reducing visual clutter decreases decision fatigue.
 
-**Terminal-based daily initialization**: Create a startup script that prepares your development environment:
+Terminal-based daily initialization: Create a startup script that prepares your development environment:
 
 ```bash
 #!/bin/bash
@@ -78,15 +78,15 @@ code daily-notes/$(date +%Y-%m-%d).md
 
 Running this script each morning creates a consistent starting point and ensures you're working with the latest codebase.
 
-**Communication batch**: Check email and Slack only after completing your first deep work block. If you must check, use a specific time limit—15 minutes maximum—and batch responses rather than staying reactive.
+Communication batch: Check email and Slack only after completing your first deep work block. If you must check, use a specific time limit—15 minutes maximum—and batch responses rather than staying reactive.
 
 ### Phase 3: Launch Into Deep Work (15 minutes)
 
 The final phase transitions you into your highest-value work.
 
-**Task selection**: Identify the one task that requires your best cognitive energy. This should be something that requires problem-solving, not administrative work. Protect this block from meetings and interruptions.
+Task selection: Identify the one task that requires your best cognitive energy. This should be something that requires problem-solving, not administrative work. Protect this block from meetings and interruptions.
 
-**Warmup coding**: Before tackling your main feature, spend 10-15 minutes on something low-stakes—reviewing a PR, writing a test, or addressing a small bug. This gradually engages your technical thinking without the pressure of breakthrough work.
+Warmup coding: Before tackling your main feature, spend 10-15 minutes on something low-stakes—reviewing a PR, writing a test, or addressing a small bug. This gradually engages your technical thinking without the pressure of breakthrough work.
 
 ## Automating Routine Elements
 
@@ -144,11 +144,11 @@ This approach eliminates decision fatigue. You're not choosing whether to do som
 
 A morning routine isn't static. Your energy patterns, work demands, and life circumstances change. Review and adjust monthly.
 
-**Track your energy**: Note when you feel most productive. If you're consistently peak-performing at 10 AM, protect that window and schedule less demanding tasks for earlier in the morning.
+Track your energy: Note when you feel most productive. If you're consistently peak-performing at 10 AM, protect that window and schedule less demanding tasks for earlier in the morning.
 
-**Rotate focus areas**: During sprint planning, your routine might emphasize preparation for planning sessions. During implementation phases, emphasize deep work launch. Tailor the details while keeping the structure.
+Rotate focus areas: During sprint planning, your routine might emphasize preparation for planning sessions. During implementation phases, emphasize deep work launch. Tailor the details while keeping the structure.
 
-**Handle disruptions**: Sick days, travel, or family obligations will interrupt your routine. Build flexibility by identifying which elements are non-negotiable (hydration, task review) versus optional (exercise, script execution).
+Handle disruptions: Sick days, travel, or family obligations will interrupt your routine. Build flexibility by identifying which elements are non-negotiable (hydration, task review) versus optional (exercise, script execution).
 
 ## Common Pitfalls to Avoid
 
@@ -175,15 +175,6 @@ Here's one effective configuration for a developer:
 | 8:10 AM | Begin first deep work block |
 
 This totals 90 minutes from wake to work start. Adjust timing based on your work schedule and energy patterns.
-
-## Final Thoughts
-
-Your morning routine for remote work is a personal system, not a prescription. The specific activities matter less than the underlying principles: intentional transition from rest to work, environment preparation that reduces friction, and deliberate task selection before reactive input takes over.
-
-Start small. Pick two or three elements that feel achievable and build from there. Automate where possible, track what works, and adjust monthly. The compounding benefit of a consistent morning routine shows up in sustained energy, clearer priorities, and deeper work output over months—not days.
-
----
-
 
 ## Related Reading
 

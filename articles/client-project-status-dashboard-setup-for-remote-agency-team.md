@@ -21,11 +21,11 @@ Build a custom dashboard using Node.js, Express, and GitHub/Linear APIs to displ
 
 Before selecting tools or writing code, define the essential features your dashboard must provide:
 
-- **Real-time project status**: Current phase, milestones completed, blockers
-- **Task and ticket overview**: Active items, pending reviews, completed work
-- **Client visibility**: What the client can see versus internal team views
-- **Time tracking integration**: Hours logged, budget burn rate
-- **File and deliverable links**: Quick access to latest assets, deployments, documentation
+- Real-time project status: Current phase, milestones completed, blockers
+- Task and ticket overview: Active items, pending reviews, completed work
+- Client visibility: What the client can see versus internal team views
+- Time tracking integration: Hours logged, budget burn rate
+- File and deliverable links: Quick access to latest assets, deployments, documentation
 
 Remote teams need dashboards that update automatically. Manual updates quickly become outdated and create additional overhead that defeats the purpose of consolidation.
 
@@ -116,7 +116,7 @@ setInterval(loadDashboard, 60000); // Refresh every minute
 loadDashboard();
 ```
 
-This minimal example demonstrates the core pattern: aggregate data from your existing tools into a unified view.
+This minimal example demonstrates the core pattern: aggregate data from your existing tools into an unified view.
 
 ## Integrating Project Management Platforms
 
@@ -149,9 +149,9 @@ async function getProjectStatus(databaseId) {
 
 Remote agencies must balance transparency with security. Create separate views for different audiences:
 
-**Internal Dashboard**: Full access to issues, time logs, internal notes, budget calculations, and team communication.
+Internal Dashboard: Full access to issues, time logs, internal notes, budget calculations, and team communication.
 
-**Client Dashboard**: Filtered view showing only deliverables, milestone completion, and scheduled reviews. Use read-only tokens or generate shareable links that expire.
+Client Dashboard: Filtered view showing only deliverables, milestone completion, and scheduled reviews. Use read-only tokens or generate shareable links that expire.
 
 A practical approach uses role-based rendering on the frontend:
 
@@ -169,9 +169,9 @@ function renderDashboard(userRole) {
 
 Host your dashboard where team members can access it reliably. Common options include:
 
-- **Vercel or Netlify**: Free tier suitable for lightweight dashboards
-- **DigitalOcean Droplet**: Full control, approximately $5/month
-- **Internal server**: If your agency has existing infrastructure
+- Vercel or Netlify: Free tier suitable for lightweight dashboards
+- DigitalOcean Droplet: Full control, approximately $5/month
+- Internal server: If your agency has existing infrastructure
 
 Set up HTTPS through Let's Encrypt or your hosting provider. Remote teams accessing dashboards from various locations need encrypted connections.
 
@@ -181,9 +181,9 @@ Configure health checks and uptime monitoring. A dashboard that goes offline def
 
 Reduce manual entry by automating status changes:
 
-- **GitHub Actions**: Update dashboard when issues are closed or merged
-- **Calendar integrations**: Show upcoming deadlines and meetings
-- **Deployment webhooks**: Display latest releases and environment status
+- GitHub Actions: Update dashboard when issues are closed or merged
+- Calendar integrations: Show upcoming deadlines and meetings
+- Deployment webhooks: Display latest releases and environment status
 
 ```yaml
 # .github/workflows/update-dashboard.yml
@@ -205,17 +205,12 @@ jobs:
 
 Track whether your dashboard actually improves team workflow:
 
-- **Time spent finding information**: Before and after dashboard implementation
-- **Meeting frequency**: Do status meetings decrease?
-- **Client satisfaction**: Are clients receiving clearer updates?
-- **Team feedback**: Collect input on dashboard usefulness
+- Time spent finding information: Before and after dashboard implementation
+- Meeting frequency: Do status meetings decrease?
+- Client satisfaction: Are clients receiving clearer updates?
+- Team feedback: Collect input on dashboard usefulness
 
 Iterate based on usage patterns. Remove features nobody uses, and add integrations for tools your team adopts.
-
-## Summary
-
-A client project status dashboard consolidates scattered updates into a reliable single source of truth. Start with minimal viable functionality—pulling data from one or two tools your team already uses—and expand incrementally. The goal is reducing context-switching overhead while maintaining the visibility remote agencies need to deliver excellent client work.
-
 
 ## Related Reading
 

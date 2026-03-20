@@ -20,7 +20,7 @@ A cluttered desk with cables snaking across it kills focus and wastes time. For 
 
 ## Understanding Power Requirements
 
-Before buying pads and hubs, calculate what your devices actually need. Most modern smartphones support 15W wireless charging, but flagship devices like recent iPhones and Samsung Galaxies can hit 25W with compatible chargers. Your laptop might not support wireless charging natively, but a USB-C hub with Power Delivery can sit on your desk and charge via cable while your phone goes wireless.
+Before buying pads and hubs, calculate what your devices actually need. Most modern smartphones support 15W wireless charging, but flagship devices like recent iPhones and Samsung Galaxies can hit 25W with compatible chargers. Your laptop might not support wireless charging natively, but an USB-C hub with Power Delivery can sit on your desk and charge via cable while your phone goes wireless.
 
 Here's a quick reference for common device power draw:
 
@@ -41,7 +41,7 @@ A clean desk setup requires thoughtful placement. Most people benefit from two o
 
 **Secondary Zone (Accessories):** Designate a spot for earbuds, a secondary phone, or a smartwatch. A multi-device charging pad works here, but verify it supports all your devices. Some pads advertise high wattage but share that across devices, slowing everything down.
 
-**Tertiary Zone (Laptop Power):** Even with wireless charging for phones, you'll likely still need cable charging for your laptop. Use a USB-C PD hub mounted under your desk or positioned at the edge. This keeps the cable off your work surface while maintaining fast charging.
+**Tertiary Zone (Laptop Power):** Even with wireless charging for phones, you'll likely still need cable charging for your laptop. Use an USB-C PD hub mounted under your desk or positioned at the edge. This keeps the cable off your work surface while maintaining fast charging.
 
 ## Cable Management Strategies
 
@@ -114,13 +114,6 @@ Position the 65W charger near your laptop work zone, and keep the Qi pads in you
 **Mixing fast and slow devices:** Some multi-device chargers throttle down when you add a third device. If you need simultaneous fast charging for your phone and laptop, use separate dedicated chargers rather than a single hub trying to do everything.
 
 **Forgetting about cases:** Thick metal cases or cases with battery packs often block wireless charging. Remove cases before placing phones on chargers, or verify your specific case works with Qi charging.
-
-## Final Thoughts
-
-A clean desk with reliable wireless charging comes down to planning your power zones, managing cables proactively, and adding automation where it makes sense. The goal isn't perfection—it's reducing friction so you focus on work rather than hunting for cables or managing device batteries.
-
-Start with one charging zone, get it working reliably, then expand. Your desk will stay cleaner, your devices will stay charged, and you'll have one less thing distracting you from coding.
-
 
 ## Related Reading
 

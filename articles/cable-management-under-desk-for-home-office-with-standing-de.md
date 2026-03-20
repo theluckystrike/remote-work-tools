@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Cable Management Under Desk for Home Office With Standing Desk
 
-Setting up a standing desk in your home office introduces a unique challenge: managing cables that need to move with your desk as it rises and lowers. Unlike a fixed desk where you can route cables once and forget about them, a standing desk setup demands a more dynamic approach. This guide covers practical solutions for keeping your workspace organized, safe, and functional.
+Setting up a standing desk in your home office introduces an unique challenge: managing cables that need to move with your desk as it rises and lowers. Unlike a fixed desk where you can route cables once and forget about them, a standing desk setup demands a more dynamic approach. This guide covers practical solutions for keeping your workspace organized, safe, and functional.
 
 ## The Standing Desk Cable Challenge
 
@@ -45,10 +45,10 @@ Cable management trays mount directly to the desk frame and hold power strips, a
 
 When selecting a tray, verify these specifications:
 
-- **Weight capacity**: Should support your power strip plus any hubs
-- **Mounting compatibility**: Must attach to your specific desk frame (Z-leg, T-leg, or rectangular)
-- **Depth**: Deep enough to hide cables but shallow enough to avoid hitting your legs when sitting
-- **Cable entry points**: Multiple openings allow routing separate cables for data and power
+- Weight capacity: Should support your power strip plus any hubs
+- Mounting compatibility: Must attach to your specific desk frame (Z-leg, T-leg, or rectangular)
+- Depth: Deep enough to hide cables but shallow enough to avoid hitting your legs when sitting
+- Cable entry points: Multiple openings allow routing separate cables for data and power
 
 Many standing desk frames include compatible trays. If yours didn't, generic trays from brands like cable management specialists fit most standard frames.
 
@@ -91,10 +91,10 @@ echo "Minimum cable length: ${TOTAL} inches per monitor"
 
 The most effective cable management strategy involves eliminating cables where practical. Consider these upgrades:
 
-- **Wireless keyboard and mouse**: Reduces two cables at the desk surface
-- **Bluetooth headphones**: Eliminates headset cable management entirely
-- **Wireless charging pads**: Some standing desk accessories include built-in wireless charging
-- **USB-C docking station**: Single-cable connection to laptop replaces multiple cables
+- Wireless keyboard and mouse: Reduces two cables at the desk surface
+- Bluetooth headphones: Eliminates headset cable management entirely
+- Wireless charging pads: Some standing desk accessories include built-in wireless charging
+- USB-C docking station: Single-cable connection to laptop replaces multiple cables
 
 While wireless solutions cost more upfront, they simplify your setup significantly and reduce the physical strain on cables over time.
 
@@ -142,10 +142,10 @@ This documentation helps when relocating your desk or troubleshooting connection
 
 Schedule quarterly inspections of your cable setup:
 
-1. **Check for wear**: Examine cable insulation at bend points for cracks or fraying
-2. **Test connections**: Ensure all devices still connect properly after desk movement
-3. **Adjust slack**: Over time, cables settle and may need re-routing to maintain proper tension
-4. **Clean debris**: Dust accumulates in cable management trays and can cause overheating
+1. Check for wear: Examine cable insulation at bend points for cracks or fraying
+2. Test connections: Ensure all devices still connect properly after desk movement
+3. Adjust slack: Over time, cables settle and may need re-routing to maintain proper tension
+4. Clean debris: Dust accumulates in cable management trays and can cause overheating
 
 Replace any cables showing signs of wear immediately. Damaged cables present fire hazards, especially when bundled together in cable sleeves where heat cannot dissipate.
 
@@ -164,13 +164,6 @@ A typical developer standing desk setup with solid cable management includes:
 | Ethernet | 1 (optional) | Cable sleeve |
 
 This totals 3-6 cables depending on wireless adoption, all routed cleanly and hidden from view.
-
-## Summary
-
-Effective cable management under a standing desk combines flexible routing (sleeves and cable chains), fixed staging areas (under-desk trays), and strategic wireless adoption. The key is accommodating desk movement while keeping cables protected and accessible. Invest in quality cable management components once, and your setup will serve you reliably through years of standing desk use.
-
----
-
 
 ## Related Reading
 

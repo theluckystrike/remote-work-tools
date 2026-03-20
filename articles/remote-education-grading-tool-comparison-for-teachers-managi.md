@@ -23,10 +23,10 @@ Grading at scale requires API-driven bulk operations, automated scoring through 
 
 When evaluating grading tools for large-scale remote education, focus on these technical capabilities:
 
-- **API Access**: Programmatic submission retrieval, grade posting, and feedback injection
-- **Bulk Operations**: Process multiple submissions simultaneously
-- **Integration Points**: Connect with learning management systems (LMS), version control, and automation pipelines
-- **Scalability**: Handle peak loads during assignment deadlines without performance degradation
+- API Access: Programmatic submission retrieval, grade posting, and feedback injection
+- Bulk Operations: Process multiple submissions simultaneously
+- Integration Points: Connect with learning management systems (LMS), version control, and automation pipelines
+- Scalability: Handle peak loads during assignment deadlines without performance degradation
 
 ## Approach 1: Learning Management System Native Tools
 

@@ -194,10 +194,10 @@ Prevent this situation by testing your recovery flow before you need it. Set a c
 
 For developers who travel frequently, the optimal setup combines multiple layers:
 
-- **Primary**: Password manager with built-in TOTP (1Password, Bitwarden)
-- **Secondary**: Hardware security key for critical services (GitHub, AWS, cloud providers)
-- **Backup**: Physical recovery codes in a secure location
-- **Emergency**: Static VoIP number for SMS-only services
+- Primary: Password manager with built-in TOTP (1Password, Bitwarden)
+- Secondary: Hardware security key for critical services (GitHub, AWS, cloud providers)
+- Backup: Physical recovery codes in a secure location
+- Emergency: Static VoIP number for SMS-only services
 
 This layered approach means no single point of failure. Your SIM card change becomes a minor inconvenience rather than an account lockout scenario.
 

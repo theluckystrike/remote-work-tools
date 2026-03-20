@@ -12,15 +12,15 @@ tags: [timezone, remote-work, southeast-asia, async-communication, developer-too
 {% raw %}
 # How to Manage Timezone Overlap When Working Remotely from Southeast Asia for US Company
 
-Working remotely for a US-based company from Southeast Asia presents unique challenges around timezone management. When you're in Bangkok, Singapore, or Manila, your typical working hours might span 12 PM to 9 PM IST, while your US colleagues operate in PST or EST. The key to success lies not in fighting these differences, but in building systems that turn timezone gaps into advantages.
+Working remotely for an US-based company from Southeast Asia presents unique challenges around timezone management. When you're in Bangkok, Singapore, or Manila, your typical working hours might span 12 PM to 9 PM IST, while your US colleagues operate in PST or EST. The key to success lies not in fighting these differences, but in building systems that turn timezone gaps into advantages.
 
 ## Understanding Your Overlap Windows
 
 The first step is calculating exactly when you can synchronize with your US team. Most US companies operate between 9 AM and 6 PM in their respective time zones, which means:
 
-- **PST (Los Angeles)**: Overlap typically 6 PM to 9 PM your local time
-- **EST (New York)**: Overlap typically 9 PM to 12 AM your local time
-- **CST (Chicago)**: Overlap typically 8 PM to 11 PM your local time
+- PST (Los Angeles): Overlap typically 6 PM to 9 PM your local time
+- EST (New York): Overlap typically 9 PM to 12 AM your local time
+- CST (Chicago): Overlap typically 8 PM to 11 PM your local time
 
 Use a timezone converter to map your specific location. Here's a quick reference for major Southeast Asian cities:
 
@@ -119,29 +119,21 @@ Always store timestamps in UTC in your database. Convert to local time only at t
 
 Working US hours from Southeast Asia can lead to burnout if you're not careful. Here's how to maintain boundaries:
 
-1. **Define your core hours**: Choose your overlap window and protect it. Don't extend beyond 2-3 hours of synchronous work daily.
+1. Define your core hours: Choose your overlap window and protect it. Don't extend beyond 2-3 hours of synchronous work daily.
 
-2. **Use status indicators**: Set your Slack/Teams status to indicate your hours. "Available 7 PM - 10 PM SGT" helps manage expectations.
+2. Use status indicators: Set your Slack/Teams status to indicate your hours. "Available 7 PM - 10 PM SGT" helps manage expectations.
 
-3. **Batch meetings**: Schedule all synchronous meetings in your overlap window. Avoid scattering them throughout your day.
+3. Batch meetings: Schedule all synchronous meetings in your overlap window. Avoid scattering them throughout your day.
 
-4. **Communicate delays explicitly**: If you send a message at 10 PM your time, don't expect a response until their morning. Set those expectations proactively.
+4. Communicate delays explicitly: If you send a message at 10 PM your time, don't expect a response until their morning. Set those expectations proactively.
 
 ## Handling On-Call and Urgent Issues
 
 Unexpected issues don't respect timezone boundaries. Prepare for these scenarios:
 
-- **Establish escalation paths**: Know who covers your timezone when you're offline
-- **Use async incident response**: Document your on-call rotation and handoff procedures
-- **Set up monitoring alerts**: Configure alerts to route to the appropriate person based on time
+- Establish escalation paths: Know who covers your timezone when you're offline
+- Use async incident response: Document your on-call rotation and handoff procedures
+- Set up monitoring alerts: Configure alerts to route to the appropriate person based on time
 
 Many teams implement "follow the sun" coverage, where US developers handle business hours IST and you cover evenings. This distributes the burden fairly.
 
-## Conclusion
-
-Managing timezone overlap as a Southeast Asian developer working for US companies requires intentional systems rather than constant improvisation. Calculate your overlap windows precisely, build async communication habits, use proper timezone handling in your code, and set firm boundaries around your working hours.
-
-When executed well, the timezone difference becomes a 24-hour development cycle—your US team reviews and deploys during their day, and you pick up the next iteration when they finish. This continuous handoff actually accelerates development velocity.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

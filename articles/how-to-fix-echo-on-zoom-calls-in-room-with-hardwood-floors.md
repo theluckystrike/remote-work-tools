@@ -71,9 +71,9 @@ When software fixes aren't enough, hardware changes typically resolve the issue.
 
 Microphone position dramatically affects echo capture. The goal is maximizing the ratio of direct sound to reflected sound:
 
-- **Position the microphone close to your mouth**: 6-12 inches (15-30 cm) provides the best direct-to-reflected ratio
-- **Use a directional microphone**: Cardioid or supercardioid patterns reject sound from behind and sides
-- **Elevate the microphone**: Place it above desk level to increase the path difference between direct sound and floor reflections
+- Position the microphone close to your mouth: 6-12 inches (15-30 cm) provides the best direct-to-reflected ratio
+- Use a directional microphone: Cardioid or supercardioid patterns reject sound from behind and sides
+- Elevate the microphone: Place it above desk level to increase the path difference between direct sound and floor reflections
 
 ```yaml
 # Example: Optimal microphone positioning for a desk setup
@@ -84,13 +84,13 @@ microphone_position:
   orientation: "toward mouth, away from floor"
 ```
 
-### Consider a USB Microphone with Built-in Processing
+### Consider an USB Microphone with Built-in Processing
 
 Dedicated USB microphones often include better echo cancellation than built-in laptop mics:
 
-- **Blue Yeti**: Has a cardioid pattern that rejects rear reflections
-- **Shure MV7**: Includes DSP with echo reduction built into the firmware
-- **Rode NT-USB Mini**: Compact with decent off-axis rejection
+- Blue Yeti: Has a cardioid pattern that rejects rear reflections
+- Shure MV7: Includes DSP with echo reduction built into the firmware
+- Rode NT-USB Mini: Compact with decent off-axis rejection
 
 These microphones process audio before it reaches your computer, meaning the echo reduction happens at the hardware level and is more consistent across different video conferencing applications.
 
@@ -114,9 +114,9 @@ First reflection points are locations where sound from your mouth bounces off a 
 
 If you're willing to commit to the setup:
 
-- **Area rug**: A 6x9 foot rug covering the primary walking and reflection path reduces floor reflections by 60-80%
-- **Bookshelf with books**: Fill a bookshelf with books of varying sizes—irregular surfaces scatter sound effectively
-- **Curtains**: Heavy curtains over windows and bare wall sections absorb mid and high frequencies
+- Area rug: A 6x9 foot rug covering the primary walking and reflection path reduces floor reflections by 60-80%
+- Bookshelf with books: Fill a bookshelf with books of varying sizes—irregular surfaces scatter sound effectively
+- Curtains: Heavy curtains over windows and bare wall sections absorb mid and high frequencies
 
 ```bash
 # Calculate room reverb time (RT60) for your space
@@ -182,23 +182,6 @@ Room modes cause certain frequencies to resonate, exacerbating echo in specific 
 - Use a measurement microphone and software like Room EQ Wizard (REW) to identify problem frequencies
 - Apply narrow notches (Q factor > 5) to reduce resonance without affecting speech intelligibility
 - Typical problem frequencies in small rooms fall between 80-300 Hz
-
-## Summary Checklist
-
-Use this checklist to systematically address echo in your hardwood-floor room:
-
-- [ ] Reduce microphone input gain to 70-80%
-- [ ] Enable Zoom's echo suppression
-- [ ] Position microphone 6-12 inches from mouth
-- [ ] Add absorption at first reflection points
-- [ ] Place area rug in primary sound path
-- [ ] Consider dedicated USB microphone if problems persist
-- [ ] Implement DSP routing for advanced control
-
-Most users resolve echo issues by combining software settings with basic acoustic treatment. The combination of proper microphone placement and a strategically placed area rug or absorption panel typically eliminates problematic echo without significant investment.
-
----
-
 
 ## Related Reading
 

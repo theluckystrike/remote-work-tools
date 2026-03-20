@@ -30,10 +30,10 @@ Herman Miller chairs, particularly the Aeron and Embody, have achieved near-lege
 
 The Aeron comes in three sizes (A, B, C) and features:
 
-- **8Z Pellicle suspension**: The mesh material distributes weight across the seat and back, preventing the "hot seat" problem during long coding sessions
-- **PostureFit SL**: Adjustable sacral and lumbar support that maintains spine alignment
-- **Fully adjustable armrests**: Can be positioned to support arms during keyboard-only work
-- **Tilt mechanism**: Allows natural recline with proper support
+- 8Z Pellicle suspension: The mesh material distributes weight across the seat and back, preventing the "hot seat" problem during long coding sessions
+- PostureFit SL: Adjustable sacral and lumbar support that maintains spine alignment
+- Fully adjustable armrests: Can be positioned to support arms during keyboard-only work
+- Tilt mechanism: Allows natural recline with proper support
 
 For developers, the Aern's cooling properties matter significantly. When you're deep in debugging or coding sprints, heat buildup causes discomfort and distraction. The Pellicle mesh allows airflow that traditional foam chairs simply cannot match.
 
@@ -61,10 +61,10 @@ const comfortByHour = {
 
 The Embody targets a different developer persona—those dealing with back issues:
 
-- **Backfit™ adjustment**: Allows you to align the chair to your spine's natural curve
-- **Pixelated support**: Distributes pressure across more points than traditional mesh
-- **Synchro-tilt**: Keeps you balanced whether sitting forward or reclining
-- **Narrower seat pan**: Better for smaller frames
+- Backfit™ adjustment: Allows you to align the chair to your spine's natural curve
+- Pixelated support: Distributes pressure across more points than traditional mesh
+- Synchro-tilt: Keeps you balanced whether sitting forward or reclining
+- Narrower seat pan: Better for smaller frames
 
 The Embody's learning curve is steeper than the Aeron. You need to spend time adjusting it correctly. But once dialed in, many developers report it becoming "invisible" during focused work.
 
@@ -76,10 +76,10 @@ Steelcase chairs are ubiquitous in corporate offices. The Gesture and Leap are t
 
 The Gesture was designed with today"s devices in mind:
 
-- **360-degree armrests**: Can accommodate any arm position, from typing to tablet use
-- **Intuitive adjustments**: Less confusing than Herman Miller's multiple controls
-- **Variable weight sensor**: Automatically adjusts to your body weight
-- **Core equalizer**: Mimics the spine's natural movement
+- 360-degree armrests: Can accommodate any arm position, from typing to tablet use
+- Intuitive adjustments: Less confusing than Herman Miller's multiple controls
+- Variable weight sensor: Automatically adjusts to your body weight
+- Core equalizer: Mimics the spine's natural movement
 
 For developers using multiple devices (laptop, external keyboard, tablet), the Gesture's flexible armrests provide genuine value. The ability to adjust armrest angle independently means you can find a position that works whether you're in "coding mode" or "reading documentation mode."
 
@@ -108,10 +108,10 @@ For developers using multiple devices (laptop, external keyboard, tablet), the G
 
 The Leap offers a more conventional design:
 
-- **LiveBack technology**: Changes shape to support the spine as you move
-- **Natural glide system**: Allows smooth recline while maintaining sight lines to your monitors
-- **Proven durability**: Many Leap chairs in corporate use last 15+ years
-- **Lower price point**: Significant savings over Herman Miller options
+- LiveBack technology: Changes shape to support the spine as you move
+- Natural glide system: Allows smooth recline while maintaining sight lines to your monitors
+- Proven durability: Many Leap chairs in corporate use last 15+ years
+- Lower price point: Significant savings over Herman Miller options
 
 The Leap feels more "office-like" than the Herman Miller options. If you're coming from a basic office chair and want an upgrade without the premium price tag, the Leap provides meaningful ergonomic improvement.
 

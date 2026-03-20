@@ -24,10 +24,10 @@ This guide covers the technical considerations for running virtual board game se
 
 Virtual board game sessions solve several problems that async communication cannot:
 
-- **Real-time interaction**: Players make decisions simultaneously, creating natural conversation
-- **Shared focus**: Everyone concentrates on the same activity, eliminating the meeting-within-a-meeting problem
-- **Equal participation**: Turn-based games ensure introverts and remote workers get equal screen time
-- **Built-in structure**: Games provide natural conversation prompts and ice breakers
+- Real-time interaction: Players make decisions simultaneously, creating natural conversation
+- Shared focus: Everyone concentrates on the same activity, eliminating the meeting-within-a-meeting problem
+- Equal participation: Turn-based games ensure introverts and remote workers get equal screen time
+- Built-in structure: Games provide natural conversation prompts and ice breakers
 
 The key is selecting platforms that minimize technical friction while maximizing engagement.
 
@@ -173,10 +173,10 @@ For globally distributed teams, rotate session times fairly:
 def calculate_fair_rotation(participants, sessions_per_rotation=4):
     """Rotate game times to share inconvenience fairly."""
     time_slots = [
-        "12:00 UTC",  # Good for EMEA
-        "15:00 UTC",  # Late EMEA / Early APAC
-        "18:00 UTC",  # Evening EMEA / Day APAC
-        "21:00 UTC"   # Night most regions / Morning Americas
+        "12:00 UTC", # Good for EMEA
+        "15:00 UTC", # Late EMEA / Early APAC
+        "18:00 UTC", # Evening EMEA / Day APAC
+        "21:00 UTC" # Night most regions / Morning Americas
     ]
     
     assignments = {}

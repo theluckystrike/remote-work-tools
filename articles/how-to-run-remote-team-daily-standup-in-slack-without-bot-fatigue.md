@@ -19,7 +19,7 @@ Run effective daily standups in Slack without bots by creating dedicated standup
 
 # How to Run Remote Team Daily Standup in Slack Without Bot Fatigue
 
-Daily standups are the backbone of remote team coordination, but the bot-heavy approach has worn thin. Automated reminders, threaded surveys, and constant notifications have created a new problem: bot fatigue. Your team mutes channels, ignores prompts, and the standup becomes a chore rather than a useful ritual.
+Daily standups are the backbone of remote team coordination, but the bot-heavy approach has worn thin. Automated reminders, threaded surveys, and constant notifications have created a new problem: bot fatigue. Your team mutes channels, ignores prompts, and the standup becomes a chore rather than an useful ritual.
 
 You can run effective daily standups in Slack without adding another bot to your workflow. The key is designing a lightweight, human-centered process that respects your team's time and attention.
 
@@ -29,7 +29,7 @@ Bot-driven standups typically follow a predictable pattern: a scheduled message 
 
 First, the format feels impersonal. Team members paste answers into a form without engaging with colleagues. Second, the notification burden accumulates—reminder messages, summary posts, and follow-up threads create noise. Third, the standup loses its purpose as a coordination mechanism and becomes a reporting exercise that nobody looks forward to.
 
-When your team starts using standup bots as an excuse to avoid real communication, you've lost the plot. The standup should facilitate collaboration, not replace it with automated form-filling.
+When your team starts using standup bots as an excuse to avoid real communication, you've lost the plot. The standup should help collaboration, not replace it with automated form-filling.
 
 ## A Human-First Standup Framework for Slack
 
@@ -98,7 +98,7 @@ At the end of your standup window, a team lead or rotating facilitator can post 
 - Staging credentials issue escalated to infra team
 ```
 
-The summary serves team members who scan rather than read every thread, and it provides a useful reference for the rest of the day.
+The summary serves team members who scan rather than read every thread, and it provides an useful reference for the rest of the day.
 
 ## Handling Time Zones Without Automated Conversion
 
@@ -127,13 +127,6 @@ First, rotate facilitation duties. When one person is always posting the summary
 Second, revisit the format quarterly. Ask your team what's working and what isn't. Maybe one-word updates suffice some weeks, while detailed async updates make sense during intense project phases.
 
 Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
-
-## Conclusion
-
-Running effective daily standups in Slack without bots is entirely feasible. The approach requires more intentionality than installing a plugin, but the payoff is a process your team actually uses and finds valuable. By leveraging Slack's native features—channels, threads, scheduled messages, and emoji reactions—you create a lightweight standup framework that scales with your team.
-
-The shift from bot-driven to human-centered standups isn't about rejecting automation; it's about choosing the right level of automation for coordination rituals. Your team communicates better when they're talking with each other, not at a form submission.
-
 
 ## Related Reading
 

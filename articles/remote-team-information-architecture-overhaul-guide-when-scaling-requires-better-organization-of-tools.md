@@ -203,7 +203,7 @@ This architecture documentation should live in a dedicated location and include 
 
 After implementing these changes, track specific metrics to confirm improvement. Measure time-to-find for common information types through periodic surveys. Track documentation contribution rates. Monitor channel creation rates and channel cleanup activity. New team member onboarding time should decrease measurably when information architecture works correctly.
 
-An information architecture overhaul is not a one-time project but an ongoing practice. As your team continues scaling, revisit these structures quarterly and adjust based on usage patterns and emerging needs.
+An information architecture overhaul is not an one-time project but an ongoing practice. As your team continues scaling, revisit these structures quarterly and adjust based on usage patterns and emerging needs.
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

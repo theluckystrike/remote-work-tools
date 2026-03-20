@@ -35,7 +35,7 @@ Hue lights support both white ambiance (adjustable color temperature) and full c
 **Key advantages:**
 - Local API access via Hue Bridge (no cloud dependency)
 - Extensive third-party integrations
-- Robust REST API for custom automation
+- REST API for custom automation
 
 ### LIFX: The Brightness Leader
 
@@ -110,13 +110,6 @@ Once you confirm local control works, layer in time-based automations through Ho
 Smart lighting costs vary significantly based on your setup. A basic three-bulb Hue system runs approximately $150 including the bridge. LIFX bulbs cost $30-50 each but eliminate bridge requirements. Nanoleaf Essentials starter kits begin around $80.
 
 The return on investment manifests through reduced eye strain, improved video call quality, and automation that handles lighting without manual adjustment. Most developers report noticeable productivity improvements within the first week of proper smart lighting installation.
-
-## Conclusion
-
-For developers seeking the best smart lighting for home office use, Philips Hue offers the most robust ecosystem with local API control. LIFX provides simpler setup with direct WiFi control. Nanoleaf excels for developers who want lighting that enhances their video call backgrounds.
-
-The key is selecting a system that supports programmatic control—because as developers, we should automate our environments rather than manually adjust them throughout the day.
-
 
 ## Related Reading
 

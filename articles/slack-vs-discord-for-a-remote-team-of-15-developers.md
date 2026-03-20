@@ -143,18 +143,18 @@ Both platforms handle bot development well. Discord's bot API uses Python and Ja
 
 Slack's pricing tiers:
 
-- **Free**: 90-day message history, 10k messages per month
-- **Pro**: $8.75/user/month (unlimited history, unlimited integrations)
-- **Business+**: $15/user/month (SSO, guest access)
-- **Enterprise Grid**: Custom pricing
+- Free: 90-day message history, 10k messages per month
+- Pro: $8.75/user/month (unlimited history, unlimited integrations)
+- Business+: $15/user/month (SSO, guest access)
+- Enterprise Grid: Custom pricing
 
 For 15 developers on Slack Pro: approximately $131/month.
 
 Discord's pricing:
 
-- **Free**: Unlimited messages, standard features
-- **Nitro**: $99.99/year ($8.33/user/month for basic, $14.99/user/month for full Nitro)
-- **Nitro Server Boosting**: Additional perks for server features
+- Free: Unlimited messages, standard features
+- Nitro: $99.99/year ($8.33/user/month for basic, $14.99/user/month for full Nitro)
+- Nitro Server Boosting: Additional perks for server features
 
 For 15 developers on Discord Nitro (basic): approximately $125/year.
 

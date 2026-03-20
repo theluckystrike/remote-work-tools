@@ -25,11 +25,11 @@ A noise gate is an audio processor that mutes signals below a certain threshold 
 
 The key parameters you'll encounter in most noise gate implementations include:
 
-- **Threshold**: The decibel level at which the gate opens. Sounds above this level pass through; sounds below get silenced.
-- **Attack**: How quickly the gate opens once the threshold is exceeded. Fast attack times prevent initial syllables from being cut off.
-- **Hold**: How long the gate stays open after the signal drops below threshold.
-- **Release**: How gradually the gate closes. Too fast creates audible clicking; too slow lets noise bleed through.
-- **Range**: How completely the gate attenuates the signal when closed (usually expressed in dB).
+- Threshold: The decibel level at which the gate opens. Sounds above this level pass through; sounds below get silenced.
+- Attack: How quickly the gate opens once the threshold is exceeded. Fast attack times prevent initial syllables from being cut off.
+- Hold: How long the gate stays open after the signal drops below threshold.
+- Release: How gradually the gate closes. Too fast creates audible clicking; too slow lets noise bleed through.
+- Range: How completely the gate attenuates the signal when closed (usually expressed in dB).
 
 ## Recommended Software for Noise Gate Processing
 
@@ -113,39 +113,28 @@ The gate LED illuminates when audio exceeds your threshold, making it easy to se
 
 The ideal noise gate settings depend on your specific environment and speaking patterns. Follow this testing protocol:
 
-1. **Baseline recording**: Record 30 seconds of yourself speaking normally without any processing
-2. **Apply settings**: Add your chosen noise gate configuration
-3. **Compare**: Listen to the processed version and note any issues
-4. **Iterate**: Adjust threshold up if too much noise bleeds through, or down if your voice cuts off
+1. Baseline recording: Record 30 seconds of yourself speaking normally without any processing
+2. Apply settings: Add your chosen noise gate configuration
+3. Compare: Listen to the processed version and note any issues
+4. Iterate: Adjust threshold up if too much noise bleeds through, or down if your voice cuts off
 
 Pay attention to these common problems:
 
-- **Chopping**: Your voice cuts off mid-word — lower the threshold or increase hold time
-- **Pumping**: Audible volume changes between words — increase release time
-- **Breath noise gets through**: Try a lower threshold or add a high-pass filter
-- **Background noise at sentence ends**: Increase release time to prevent abrupt cutoffs
+- Chopping: Your voice cuts off mid-word — lower the threshold or increase hold time
+- Pumping: Audible volume changes between words — increase release time
+- Breath noise gets through: Try a lower threshold or add a high-pass filter
+- Background noise at sentence ends: Increase release time to prevent abrupt cutoffs
 
 ## Beyond Noise Gates: Complementary Techniques
 
 While noise gates solve many problems, combining multiple approaches produces superior results:
 
-- **Acoustic treatment**: Foam panels reduce reverb and reflections
-- **Microphone positioning**: Speaking closer to the mic improves signal-to-noise ratio
-- **Dynamic microphones**: Consider the Audio-Technica AT2020 for better background rejection
-- **Compression**: Adding compression after gating smooths out volume inconsistencies
+- Acoustic treatment: Foam panels reduce reverb and reflections
+- Microphone positioning: Speaking closer to the mic improves signal-to-noise ratio
+- Dynamic microphones: Consider the Audio-Technica AT2020 for better background rejection
+- Compression: Adding compression after gating smooths out volume inconsistencies
 
 A noise gate handles the heavy lifting for eliminating background noise, but these complementary techniques create a complete professional audio chain.
-
-## Summary of Recommended Configurations
-
-| Scenario | Threshold | Attack | Hold | Release | Range |
-|----------|-----------|--------|------|---------|-------|
-| Quiet Office | -40 dB | 5ms | 100ms | 150ms | -60 dB |
-| Noisy Environment | -35 dB | 3ms | 200ms | 200ms | -80 dB |
-| Voiceover Recording | -45 dB | 2ms | 150ms | 100ms | -70 dB |
-
-Start with the settings matching your scenario and adjust based on your recorded results. The Blue Yeti is capable of professional-quality audio when paired with proper noise gate configuration — the difference between mediocre and polished sound often comes down to these subtle parameter adjustments.
-
 
 ## Related Reading
 

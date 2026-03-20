@@ -35,7 +35,7 @@ Executive/Principal: $15,000 - $25,000
 For fully distributed teams, apply a multiplier based on candidate location:
 
 - North America/Europe: 1.0x base
-- Latin America: 0.8x base  
+- Latin America: 0.8x base 
 - Asia-Pacific: 0.7x base
 - Other regions: Negotiated case-by-case
 
@@ -150,11 +150,11 @@ We'll ping you when there's movement. Thanks for helping us grow!
 
 Track these metrics to evaluate your program's effectiveness:
 
-- **Referral hiring rate**: Percentage of hires from referrals (target: 20-30%)
-- **Referral retention rate**: Compare referral employee retention vs. other sources
-- **Time to fill**: Average days from referral submission to offer acceptance
-- **Cost per hire**: Total referral spend divided by referral hires
-- **Employee participation**: Active referrers / total employees
+- Referral hiring rate: Percentage of hires from referrals (target: 20-30%)
+- Referral retention rate: Compare referral employee retention vs. other sources
+- Time to fill: Average days from referral submission to offer acceptance
+- Cost per hire: Total referral spend divided by referral hires
+- Employee participation: Active referrers / total employees
 
 A healthy referral program typically shows 2-3x better retention than other sources, making the investment worthwhile despite the upfront costs.
 
@@ -162,13 +162,13 @@ A healthy referral program typically shows 2-3x better retention than other sour
 
 Several mistakes undermine referral programs in distributed companies:
 
-**Delayed payments**: Process bonuses within 30 days of triggering milestones. Late payments damage trust and reduce future participation.
+Delayed payments: Process bonuses within 30 days of triggering milestones. Late payments damage trust and reduce future participation.
 
-**Poor communication**: Remote employees easily miss program updates. Use multiple channels (Slack, email, team meetings) and repeat key information quarterly.
+Poor communication: Remote employees easily miss program updates. Use multiple channels (Slack, email, team meetings) and repeat key information quarterly.
 
-**Inconsistent rules**: Apply eligibility criteria uniformly. Exceptions create perception of favoritism and resentment.
+Inconsistent rules: Apply eligibility criteria uniformly. Exceptions create perception of favoritism and resentment.
 
-**Missing documentation**: Maintain a public wiki with complete program details. When questions arise, point people to the source of truth.
+Missing documentation: Maintain a public wiki with complete program details. When questions arise, point people to the source of truth.
 
 ## Implementation Checklist
 
@@ -185,13 +185,3 @@ Use this checklist when launching or updating your referral program:
 - [ ] Set up metrics tracking in your ATS or HR dashboard
 - [ ] Review and adjust tiers annually
 
-## Final Thoughts
-
-A well-structured referral program accelerates hiring while reducing cost-per-hire and improving new employee quality. For distributed companies, the key lies in clear documentation, consistent communication across time zones, and timely bonus payments that demonstrate you value employee participation.
-
-Start with a simple tier structure, gather feedback from your team, and iterate based on participation rates and hiring outcomes. The best referral programs evolve with your company growth and hiring needs.
-
----
-
-*Built by theluckystrike — More at [zovo.one](https://zovo.one)*
-{% endraw %}

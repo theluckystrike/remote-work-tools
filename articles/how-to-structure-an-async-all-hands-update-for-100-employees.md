@@ -132,7 +132,7 @@ Pair the update with a clear call-to-action: "Please review and submit questions
 
 ## Step 5: Handle Questions Asynchronously
 
-The Q&A section distinguishes a true async all-hands from a one-way broadcast. Collect questions in advance through a simple form (Google Forms, Typeform, or a dedicated Slack channel).
+The Q&A section distinguishes a true async all-hands from an one-way broadcast. Collect questions in advance through a simple form (Google Forms, Typeform, or a dedicated Slack channel).
 
 Process questions in two ways:
 

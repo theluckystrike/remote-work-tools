@@ -155,13 +155,6 @@ When you need to hide mess immediately without preparation:
 - **Use background blur** built into Zoom, Google Meet, or Teams—this uses simpler processing than full virtual backgrounds and often works better with less reliable results
 - **Move one item** into the camera's blind spot—often one repositioned object dramatically improves the frame
 
-## Summary
-
-Hiding a messy room during video calls without virtual backgrounds requires combining physical barriers, strategic lighting, and camera positioning. The most reliable approach uses collapsible screens or curtains as a permanent backdrop, positions lighting to make your face significantly brighter than your background, and adjusts camera angle to minimize visible clutter.
-
-For developers comfortable with additional setup, OBS provides blur filters that outperform basic virtual backgrounds without requiring AI processing. Start with the simplest solution—a physical backdrop—and add layers of complexity only as needed.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

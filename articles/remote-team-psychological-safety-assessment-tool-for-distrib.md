@@ -16,7 +16,7 @@ voice-checked: true
 
 Building psychological safety in distributed engineering teams requires deliberate measurement and continuous improvement. Unlike co-located teams where managers can observe body language and team dynamics in person, remote teams demand structured approaches to understand how comfortable team members feel sharing ideas, asking questions, and admitting mistakes.
 
-This guide provides a comprehensive assessment framework that engineering managers can implement immediately to measure psychological safety across their remote teams.
+This guide provides an assessment framework that engineering managers can implement immediately to measure psychological safety across their remote teams.
 
 ## Understanding Psychological Safety in Remote Contexts
 

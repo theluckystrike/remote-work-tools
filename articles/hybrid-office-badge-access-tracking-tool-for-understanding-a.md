@@ -179,11 +179,11 @@ Organizations frequently discover no-show rates of 30-50%, indicating significan
 
 ## Integration with Building Management Systems
 
-For comprehensive analytics, combine badge data with other building systems:
+For analytics, combine badge data with other building systems:
 
-- **HVAC data**: Correlate occupancy with energy usage
-- **Meeting room bookings**: Understand desk vs. room usage tradeoffs
-- **Floor plan layouts**: Map badge data to specific zones
+- HVAC data: Correlate occupancy with energy usage
+- Meeting room bookings: Understand desk vs. room usage tradeoffs
+- Floor plan layouts: Map badge data to specific zones
 
 ```python
 class OccupancyAnalytics:
@@ -218,23 +218,23 @@ class OccupancyAnalytics:
 
 When implementing badge-based utilization tracking, consider these operational factors:
 
-**Privacy implications**: Badge data tracks individual movements. Aggregate data for reporting, and anonymize individual identifiers unless explicit consent exists for personal tracking.
+Privacy implications: Badge data tracks individual movements. Aggregate data for reporting, and anonymize individual identifiers unless explicit consent exists for personal tracking.
 
-**Data retention**: Access logs can grow large quickly. Establish retention policies—typically 12-24 months of detailed data with longer-term aggregates.
+Data retention: Access logs can grow large quickly. Establish retention policies—typically 12-24 months of detailed data with longer-term aggregates.
 
-**System limitations**: Badge systems record entry, not actual desk usage. Someone badging in at 9 AM and leaving at 5 PM may not sit at a desk the entire time. Supplement with desk sensors if precise occupancy is critical.
+System limitations: Badge systems record entry, not actual desk usage. Someone badging in at 9 AM and leaving at 5 PM may not sit at a desk the entire time. Supplement with desk sensors if precise occupancy is critical.
 
-**API rate limits**: Most commercial badge systems impose API limits. Cache data locally and sync incrementally rather than pulling full datasets repeatedly.
+API rate limits: Most commercial badge systems impose API limits. Cache data locally and sync incrementally rather than pulling full datasets repeatedly.
 
 ## Actionable Insights from Badge Analytics
 
 Once you have the data, translate it into workplace decisions:
 
-1. **Right-size your real estate**: If average occupancy runs 40%, consider reducing square footage or consolidating floors
-2. **Optimize cleaning schedules**: Focus maintenance on high-traffic days and times
-3. **Adjust booking policies**: If no-show rates exceed 30%, tighten cancellation windows
-4. **Plan hot-desk zones**: Create neighborhoods for teams that consistently co-present
-5. **Inform remote work policies**: Use attendance data to calibrate in-office expectations
+1. Right-size your real estate: If average occupancy runs 40%, consider reducing square footage or consolidating floors
+2. Optimize cleaning schedules: Focus maintenance on high-traffic days and times
+3. Adjust booking policies: If no-show rates exceed 30%, tighten cancellation windows
+4. Plan hot-desk zones: Create neighborhoods for teams that consistently co-present
+5. Inform remote work policies: Use attendance data to calibrate in-office expectations
 
 Badge access tracking provides the factual foundation for hybrid workplace optimization. Rather than guessing how employees use office space, you build decisions on observed behavior.
 

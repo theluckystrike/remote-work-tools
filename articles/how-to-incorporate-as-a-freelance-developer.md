@@ -26,10 +26,10 @@ Incorporation creates a legal separation between you and your business. Your com
 
 Beyond liability protection, incorporation offers:
 
-- **Tax flexibility**: S-corporation election can reduce self-employment tax
-- **Professional credibility**: Incorporated businesses appear more established to enterprise clients
-- **Banking benefits**: Business accounts often come with better features and protections
-- **Deduction expansion**: Some business expenses become more straightforward to deduct
+- Tax flexibility: S-corporation election can reduce self-employment tax
+- Professional credibility: Incorporated businesses appear more established to enterprise clients
+- Banking benefits: Business accounts often come with better features and protections
+- Deduction expansion: Some business expenses become more straightforward to deduct
 
 ## Choosing Your Business Entity Type
 
@@ -141,12 +141,12 @@ Article IV: Distributions
 
 Once incorporated, track these common developer business expenses:
 
-- **Equipment**: Computers, monitors, keyboards, and hardware
-- **Software**: IDE subscriptions, cloud services, domain names
-- **Home office**: Portion of rent/mortgage, utilities, internet
-- **Professional services**: Accountant, lawyer, bookkeeper
-- **Continuing education**: Courses, books, conference tickets
-- **Communication**: Business phone, video conferencing subscriptions
+- Equipment: Computers, monitors, keyboards, and hardware
+- Software: IDE subscriptions, cloud services, domain names
+- Home office: Portion of rent/mortgage, utilities, internet
+- Professional services: Accountant, lawyer, bookkeeper
+- Continuing education: Courses, books, conference tickets
+- Communication: Business phone, video conferencing subscriptions
 
 ### Estimated Tax Payments
 
@@ -163,13 +163,6 @@ While many developers incorporate themselves, certain situations warrant profess
 - Previous legal or tax issues
 
 A one-time consultation with a small business attorney or CPA ($200-500) can prevent costly mistakes and ensure your structure aligns with your goals.
-
-## Conclusion
-
-Incorporating as a freelance developer is more straightforward than it might seem. For most solo developers, a single-member LLC in your home state, possibly electing S-corp status, provides the right balance of protection, simplicity, and tax efficiency.
-
-The key steps—choose your entity, file formation documents, get an EIN, open a business account, and set up basic accounting—can be completed within a week. Once done, you'll have the foundation for a scalable freelance practice with legal protection and professional credibility.
-
 
 ## Related Reading
 

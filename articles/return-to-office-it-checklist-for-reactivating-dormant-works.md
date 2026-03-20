@@ -43,10 +43,10 @@ This basic scan helps identify which machines respond on the network. Machines t
 
 Before powering on, visually inspect each workstation:
 
-- **Cables and connections**: Check for frayed cables, loose connections, or signs of damage
-- **Dust accumulation**: Excessive dust can cause overheating when the machine runs under load
-- **Battery condition**: Laptop batteries degrade faster when left fully discharged
-- **Peripherals**: Verify keyboards, mice, and monitors are present and functional
+- Cables and connections: Check for frayed cables, loose connections, or signs of damage
+- Dust accumulation: Excessive dust can cause overheating when the machine runs under load
+- Battery condition: Laptop batteries degrade faster when left fully discharged
+- Peripherals: Verify keyboards, mice, and monitors are present and functional
 
 ### 2. Initial Power-On and BIOS Check
 
@@ -79,10 +79,10 @@ sudo reboot
 
 Dormant machines often have expired certificates and credentials. Check and renew:
 
-- **SSL certificates**: Applications using self-signed certs may have expired
-- **VPN client certificates**: Corporate VPN access often requires certificate renewal
-- **WiFi profiles**: Enterprise 802.1X credentials may need re-authentication
-- **SSO tokens**: Single sign-on tokens typically expire after 90 days
+- SSL certificates: Applications using self-signed certs may have expired
+- VPN client certificates: Corporate VPN access often requires certificate renewal
+- WiFi profiles: Enterprise 802.1X credentials may need re-authentication
+- SSO tokens: Single sign-on tokens typically expire after 90 days
 
 ```python
 #!/usr/bin/env python3
@@ -156,9 +156,9 @@ AND u.employment_status = 'ACTIVE';
 
 ### 2. Physical Badge Hardware
 
-- **Battery replacement**: Proximity badges with embedded batteries may be dead
-- **Card reader cleaning**: Dust and debris can affect read reliability
-- **Door controller firmware**: Update if out of date
+- Battery replacement: Proximity badges with embedded batteries may be dead
+- Card reader cleaning: Dust and debris can affect read reliability
+- Door controller firmware: Update if out of date
 
 ### 3. Multi-Factor Authentication Sync
 
@@ -208,9 +208,9 @@ After completing reactivation:
 
 For organizations with many dormant machines to reactivate, consider automation:
 
-- **Imaging servers**: Use tools like Fog Project or Microsoft Deployment Toolkit for consistent OS deployment
-- **Configuration management**: Ansible, Puppet, or Chef playbooks for post-imaging setup
-- **Monitoring**: Set up alerts for machine health metrics immediately after reactivation
+- Imaging servers: Use tools like Fog Project or Microsoft Deployment Toolkit for consistent OS deployment
+- Configuration management: Ansible, Puppet, or Chef playbooks for post-imaging setup
+- Monitoring: Set up alerts for machine health metrics immediately after reactivation
 
 This systematic approach ensures all dormant workstations and access badges are safely reactivated while maintaining security posture. The investment in thorough reactivation prevents security incidents and productivity losses from unexpected failures.
 

@@ -27,7 +27,7 @@ Portugal remains a top choice for remote workers, and Lisbon has expanded its pe
 
 **Average monthly cost** for a pet-friendly studio: €1,200-€1,800
 **Pet deposit** typically ranges from €200-€500 (refundable)
-**Internet speed**: Average 150 Mbps down, 50 Mbps up
+Internet speed: Average 150 Mbps down, 50 Mbps up
 
 Lisbon's digital nomad visa now explicitly accommodates foreign remote workers with pets. You'll need to demonstrate consistent income and health insurance that covers your animal.
 
@@ -35,12 +35,12 @@ Lisbon's digital nomad visa now explicitly accommodates foreign remote workers w
 
 Mexico City has emerged as a premier destination for pet-carrying nomads. The Roma and Condesa neighborhoods are particularly well-suited, with abundant pet-friendly cafes and the city's extensive parks.
 
-**Recommended pet-friendly co-working spaces**:
+Recommended pet-friendly co-working spaces:
 - **WeWork Roma** — Dogs welcome in common areas
 - **Urban House** — Pet-friendly dorms and private rooms
 
-**Average monthly cost**: $800-1,400 USD for pet-friendly accommodation
-**Temperature**: Mild year-round, though summers can be warm
+Average monthly cost: $800-1,400 USD for pet-friendly accommodation
+Temperature: Mild year-round, though summers can be warm
 
 Mexico's temporary resident visa process is straightforward. For pets, you'll need a veterinary certificate issued within 10 days of travel, vaccination records, and an import permit from SENASICA.
 
@@ -48,9 +48,9 @@ Mexico's temporary resident visa process is straightforward. For pets, you'll ne
 
 Thailand's digital nomad visa (Long-Term Resident visa) is attractive, and Chiang Mai maintains its reputation as a budget-friendly hub. The Old City area has several pet-welcoming guesthouses, and Nimman Road features cafes where dogs are common patrons.
 
-**Average monthly cost**: $600-1,000 USD
-**Coworking spaces**: Punspace, CAMP, and Hub53 all have varying pet policies—call ahead
-**Internet**: Typically 100+ Mbps in Nimman area
+Average monthly cost: $600-1,000 USD
+Coworking spaces: Punspace, CAMP, and Hub53 all have varying pet policies—call ahead
+Internet: Typically 100+ Mbps in Nimman area
 
 Thailand requires a 30-day notice for pet import and a rabies titer test. Plan this well in advance of your trip.
 
@@ -58,9 +58,9 @@ Thailand requires a 30-day notice for pet import and a rabies titer test. Plan t
 
 Spain's digital nomad visa launched in 2023 and continues to gain popularity. Barcelona offers excellent infrastructure, though pet-friendly housing costs a premium.
 
-**Pet-friendly coworking**: OneCoWork, MOB, and Aticco all permit pets in various capacities
-**Average monthly cost**: €1,400-€2,200 for pet-friendly apartment
-**Beach access**: Several dog-friendly beaches within city limits
+Pet-friendly coworking: OneCoWork, MOB, and Aticco all permit pets in various capacities
+Average monthly cost: €1,400-€2,200 for pet-friendly apartment
+Beach access: Several dog-friendly beaches within city limits
 
 ## Practical Tools for Planning
 
@@ -105,20 +105,13 @@ Before relocating with your pet, verify the following:
 
 Pet travel adds significant costs beyond standard nomad budgeting:
 
-- **Airline fees**: $100-500 each way (cabin pets)
-- **Import permits**: $50-300 depending on country
-- **Veterinary checks**: $50-200 per country entry
-- **Pet deposits**: $200-1,000 (often non-refundable in some markets)
-- **Monthly pet rent premium**: 10-30% above standard rates
+- Airline fees: $100-500 each way (cabin pets)
+- Import permits: $50-300 depending on country
+- Veterinary checks: $50-200 per country entry
+- Pet deposits: $200-1,000 (often non-refundable in some markets)
+- Monthly pet rent premium: 10-30% above standard rates
 
 Factor these into your cost-of-living calculations. Some destinations, like Mexico and Thailand, offer lower overall costs that absorb these additional expenses better than European capitals.
-
-## Conclusion
-
-Pet-friendly digital nomad travel requires more planning than solo adventures, but the destinations above have developed the infrastructure to support both productivity and animal companionship. Start with the countries offering clear digital nomad visas, verify all pet documentation requirements early, and prioritize destinations with established expat communities—these groups often share insights about pet-welcoming housing and services.
-
-Your pet can thrive in a nomad lifestyle with proper preparation. The key is choosing destinations with genuine pet infrastructure rather than just accepting "pets allowed" at face value.
-
 
 ## Related Reading
 

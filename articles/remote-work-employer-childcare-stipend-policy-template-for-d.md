@@ -109,9 +109,9 @@ class ChildcareStipendClaim:
 
 Offer flexibility in how employees receive funds:
 
-- **Monthly reimbursement**: Submit receipts, get reimbursed
-- **Quarterly advance**: Receive funds upfront, provide documentation later
-- **Annual lump sum**: Budget-friendly option with year-end reconciliation
+- Monthly reimbursement: Submit receipts, get reimbursed
+- Quarterly advance: Receive funds upfront, provide documentation later
+- Annual lump sum: Budget-friendly option with year-end reconciliation
 
 ## Implementation Example: HR System Integration
 
@@ -160,13 +160,13 @@ function calculateMonthlyStipend(employee, effectiveDate) {
 
 Remote companies must navigate different regulations:
 
-**United States**: Stipends may be taxable income unless part of a qualified dependent care FSA. Consider working with a benefits administrator to structure payments correctly.
+United States: Stipends may be taxable income unless part of a qualified dependent care FSA. Consider working with a benefits administrator to structure payments correctly.
 
-**United Kingdom**: Childcare vouchers were replaced by Tax-Free Childcare. Employers should coordinate with employees to avoid double-dipping.
+United Kingdom: Childcare vouchers were replaced by Tax-Free Childcare. Employers should coordinate with employees to avoid double-dipping.
 
-**Germany**: Kindergeld may affect eligibility. Consult local counsel for compliance.
+Germany: Kindergeld may affect eligibility. Consult local counsel for compliance.
 
-**Canada**: Similar to US, stipend structure affects taxation. Some provinces offer additional child care subsidies.
+Canada: Similar to US, stipend structure affects taxation. Some provinces offer additional child care subsidies.
 
 ## Policy Template You Can Adapt
 
@@ -213,40 +213,31 @@ Contact [HR email/Slack channel] for policy questions.
 
 ## Best Practices for Remote Companies
 
-1. **Communicate clearly**: Many employees won't know childcare benefits exist. Send dedicated announcements during open enrollment.
+1. Communicate clearly: Many employees won't know childcare benefits exist. Send dedicated announcements during open enrollment.
 
-2. **Make submission easy**: A 15-minute monthly process is acceptable; an hour-long process creates friction.
+2. Make submission easy: A 15-minute monthly process is acceptable; an hour-long process creates friction.
 
-3. **Trust employees**: Audit randomly rather than requiring extensive documentation for every claim.
+3. Trust employees: Audit randomly rather than requiring extensive documentation for every claim.
 
-4. **Review annually**: Adjust amounts based on local childcare costs and company budget changes.
+4. Review annually: Adjust amounts based on local childcare costs and company budget changes.
 
-5. **Track equity**: Monitor usage across demographic groups to ensure the benefit reaches all eligible employees.
+5. Track equity: Monitor usage across demographic groups to ensure the benefit reaches all eligible employees.
 
 ## Common Pitfalls to Avoid
 
-- **Complex eligibility rules**: If employees need a law degree to understand if they qualify, simplify.
-- **Long reimbursement delays**: Remote workers often live paycheck to paycheck. Process claims within two weeks.
-- **Inconsistent enforcement**: Apply rules uniformly to avoid perception of favoritism.
-- **Ignoring part-time workers**: Many parents work reduced hours; excluding them creates equity issues.
+- Complex eligibility rules: If employees need a law degree to understand if they qualify, simplify.
+- Long reimbursement delays: Remote workers often live paycheck to paycheck. Process claims within two weeks.
+- Inconsistent enforcement: Apply rules uniformly to avoid perception of favoritism.
+- Ignoring part-time workers: Many parents work reduced hours; excluding them creates equity issues.
 
 ## Measuring Success
 
 Track these metrics to evaluate your program:
 
-- **Utilization rate**: Percentage of eligible employees using the benefit
-- **Retention impact**: Compare turnover rates between employees with and without childcare responsibilities
-- **Employee satisfaction**: Include childcare benefits in quarterly surveys
-- **Cost per employee**: Calculate actual spend versus budgeted amounts
-
-## Conclusion
-
-A well-designed childcare stipend policy removes a significant source of stress for working parents on your distributed team. The template and code examples above give you a starting point—adapt them to your company's size, budget, and workforce geography. Start with clear eligibility rules, simple submission processes, and reasonable amounts, then iterate based on employee feedback.
-
-The investment pays dividends in reduced turnover, improved productivity, and stronger employer brand reputation in the competitive remote talent market.
-
----
-
+- Utilization rate: Percentage of eligible employees using the benefit
+- Retention impact: Compare turnover rates between employees with and without childcare responsibilities
+- Employee satisfaction: Include childcare benefits in quarterly surveys
+- Cost per employee: Calculate actual spend versus budgeted amounts
 
 ## Related Reading
 

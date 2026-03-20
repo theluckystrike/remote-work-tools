@@ -25,11 +25,11 @@ The three pillars of any video conferencing setup are audio, video, and lighting
 
 For meeting rooms seating 2-8 people, you have several viable options at different price points:
 
-**Budget Option ($40-80)**: Logitech C920 or C922 remains the standard for reliable 1080p capture. These cameras work out of the box with every major video platform and produce consistent results.
+Budget Option ($40-80): Logitech C920 or C922 remains the standard for reliable 1080p capture. These cameras work out of the box with every major video platform and produce consistent results.
 
-**Mid-Range Option ($150-250)**: The Logitech Brio offers 4K resolution with excellent auto-exposure. For larger rooms, the PTZ Pro 2 provides motorized pan-tilt-zoom via remote control—a useful feature for automating camera framing.
+Mid-Range Option ($150-250): The Logitech Brio offers 4K resolution with excellent auto-exposure. For larger rooms, the PTZ Pro 2 provides motorized pan-tilt-zoom via remote control—an useful feature for automating camera framing.
 
-**DIY Option**: A Raspberry Pi with the HQ Camera Module paired with a wide-angle lens can serve as a network camera streaming to your video platform. This requires more setup but costs under $100 and gives you complete control:
+DIY Option: A Raspberry Pi with the HQ Camera Module paired with a wide-angle lens can serve as a network camera streaming to your video platform. This requires more setup but costs under $100 and gives you complete control:
 
 ```python
 # Raspberry Pi network camera streaming example
@@ -57,11 +57,11 @@ curl.setopt(curl.URL, "https://your-stream-endpoint.com/ingest")
 
 Video quality matters, but audio quality determines whether meetings are usable. Budget setups often fail here first.
 
-**The Speakerphone Solution**: For small rooms (2-4 people), a single speakerphone like the Jabra Speak 410 ($100) or even a USB microphone like the Blue Yeti ($130) handles both input and output. Position the microphone within 6 feet of speakers for best results.
+The Speakerphone Solution: For small rooms (2-4 people), a single speakerphone like the Jabra Speak 410 ($100) or even an USB microphone like the Blue Yeti ($130) handles both input and output. Position the microphone within 6 feet of speakers for best results.
 
-**Daisy-Chaining for Larger Spaces**: Many budget speakerphones support daisy-chaining. The Konftel Ego ($180) can connect to another unit, extending coverage to medium-sized meeting rooms.
+Daisy-Chaining for Larger Spaces: Many budget speakerphones support daisy-chaining. The Konftel Ego ($180) can connect to another unit, extending coverage to medium-sized meeting rooms.
 
-**The DIY Approach**: Building a custom microphone array using USB microphones and a DSP algorithm can outperform consumer hardware:
+The DIY Approach: Building a custom microphone array using USB microphones and a DSP algorithm can outperform consumer hardware:
 
 ```python
 # Simple audio level monitoring for meeting rooms
@@ -94,9 +94,9 @@ def monitor_audio_levels():
 
 Poor lighting makes even expensive cameras look terrible. A few targeted lights solve most problems:
 
-- **Key Light**: A simple LED panel ($30-50) positioned in front of participants at face level
-- **Fill Light**: Reduce shadows with softer ambient lighting
-- **Avoid**: Windows behind participants (creates backlight)
+- Key Light: A simple LED panel ($30-50) positioned in front of participants at face level
+- Fill Light: Reduce shadows with softer ambient lighting
+- Avoid: Windows behind participants (creates backlight)
 
 The Elgato Key Light Air ($200) offers app control, but budget alternatives like the Neewer LED panels ($40) work equally well for the technical user who doesn't need software integration.
 
@@ -187,9 +187,9 @@ if __name__ == "__main__":
 
 Don't overlook network infrastructure. Even the best equipment fails with poor connectivity:
 
-- **Wired Ethernet**: Always prefer ethernet for the host computer over WiFi
-- **Dedicated VLAN**: Isolate meeting traffic from general office network
-- **Bandwidth Planning**: 1080p video calls need 3-4 Mbps per stream; plan capacity accordingly
+- Wired Ethernet: Always prefer ethernet for the host computer over WiFi
+- Dedicated VLAN: Isolate meeting traffic from general office network
+- Bandwidth Planning: 1080p video calls need 3-4 Mbps per stream; plan capacity accordingly
 
 ## Practical Recommendations by Room Size
 
@@ -239,13 +239,6 @@ if __name__ == "__main__":
         msg["Subject"] = "Meeting Room Alert"
         # Send notification to IT team
 ```
-
-## Summary
-
-Building a capable hybrid meeting room on a budget comes down to prioritizing audio quality, choosing reliable camera hardware, adding proper lighting, and automating repetitive setup tasks. Start with a basic configuration—Logitech camera plus speakerphone—and expand based on room size and team needs. The scripts above provide a foundation; adapt them to your specific equipment and workflows.
-
-The best setup is one your team actually uses consistently. Don't over-engineer—start simple, measure what works, and iterate based on real feedback from both in-room and remote participants.
-
 
 ## Related Reading
 

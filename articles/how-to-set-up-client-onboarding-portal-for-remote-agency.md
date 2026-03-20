@@ -56,10 +56,10 @@ Stack Airtable for data, Zapier for automation, and Webflow for the frontend. Th
 
 For agencies with development resources, building a custom portal using modern web technologies offers maximum flexibility. A simple implementation uses:
 
-- **Frontend**: Next.js with authentication
-- **Database**: PostgreSQL or Supabase
-- **Forms**: React Hook Form with validation
-- **File Storage**: AWS S3 or Cloudflare R2
+- Frontend: Next.js with authentication
+- Database: PostgreSQL or Supabase
+- Forms: React Hook Form with validation
+- File Storage: AWS S3 or Cloudflare R2
 
 This guide focuses on the custom development approach since it provides the most control and demonstrates implementation patterns developers need.
 
@@ -171,7 +171,7 @@ export default function ClientDashboard() {
 
 ### Step 3: Dynamic Project Brief Form
 
-Create a comprehensive form that captures all necessary project information. Use conditional logic to show relevant sections based on project type.
+Create a form that captures all necessary project information. Use conditional logic to show relevant sections based on project type.
 
 ```tsx
 // pages/brief.tsx
@@ -313,11 +313,6 @@ Before launching, verify your portal handles real-world scenarios: test form sub
 ## Measuring Portal Effectiveness
 
 Track completion rate, time to kickoff, support tickets, and client feedback. Iterate based on data—small improvements compound into significant time savings.
-
-## Conclusion
-
-A well-built client onboarding portal transforms how your remote agency starts relationships. By centralizing information, automating notifications, and providing self-service resources, you reduce administrative burden while delivering a professional first impression. Start with core components—dashboard, brief form, document storage—and expand based on client needs.
-
 
 ## Related Reading
 

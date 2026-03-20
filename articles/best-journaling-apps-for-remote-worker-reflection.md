@@ -23,11 +23,11 @@ The best journaling apps for remote worker reflection are **Obsidian** for devel
 
 Before examining specific applications, consider the requirements that matter most for remote developers:
 
-- **Keyboard accessibility**: Minimal mouse interaction allows faster capture of thoughts
-- **Markdown support**: Enables code snippets, formatted lists, and clean exports
-- **Cross-device sync**: Essential for switching between laptop and mobile
-- **Privacy control**: Some users prefer local-first solutions over cloud storage
-- **Export capabilities**:便于迁移和备份
+- Keyboard accessibility: Minimal mouse interaction allows faster capture of thoughts
+- Markdown support: Enables code snippets, formatted lists, and clean exports
+- Cross-device sync: Essential for switching between laptop and mobile
+- Privacy control: Some users prefer local-first solutions over cloud storage
+- Export capabilities:便于迁移和备份
 
 The ideal journaling app should feel like an extension of your development environment rather than a separate tool requiring context switching.
 
@@ -164,7 +164,7 @@ Jrnl supports multiple journal files, allowing separation of work and personal e
 
 ## Selecting Your Journaling Workflow
 
-The best journaling app ultimately depends on your existing toolchain and preferences. If you already use VS Code, the VS Code Journal extension provides embedded journaling without leaving your editor. If Taskwarrior manages your task list, extending it for journaling creates a unified productivity system.
+The best journaling app ultimately depends on your existing toolchain and preferences. If you already use VS Code, the VS Code Journal extension provides embedded journaling without leaving your editor. If Taskwarrior manages your task list, extending it for journaling creates an unified productivity system.
 
 Start simply: commit to five minutes of daily reflection, then refine your approach as the habit solidifies. The technical setup matters less than consistent practice. A basic text file captured daily provides more value than a sophisticated application used sporadically.
 

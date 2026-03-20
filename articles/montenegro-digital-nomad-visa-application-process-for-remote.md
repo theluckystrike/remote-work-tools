@@ -30,17 +30,17 @@ A clean criminal record from your country of residence is required. Montenegro a
 
 Gathering documents takes the most time in this process. Start collecting these early:
 
-**Proof of income**: Three months of bank statements showing deposits meeting the €1,350 monthly threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Montenegrin companies work as supplementary evidence.
+Proof of income: Three months of bank statements showing deposits meeting the €1,350 monthly threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Montenegrin companies work as supplementary evidence.
 
-**Health insurance**: International health insurance with coverage valid in Montenegro. Travel insurance policies typically exclude residency and won't satisfy this requirement.
+Health insurance: International health insurance with coverage valid in Montenegro. Travel insurance policies typically exclude residency and won't satisfy this requirement.
 
-**Criminal record certificate**: Obtain this from your country of residence. Many countries require apostille certification. The certificate must be recent, typically within 90 days of application.
+Criminal record certificate: Obtain this from your country of residence. Many countries require apostille certification. The certificate must be recent, typically within 90 days of application.
 
-**Passport**: Valid for at least three months beyond your planned stay with at least two blank pages.
+Passport: Valid for at least three months beyond your planned stay with at least two blank pages.
 
-**Proof of remote work**: Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Montenegro.
+Proof of remote work: Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Montenegro.
 
-**Accommodation proof**: A rental agreement, property ownership documents, or a hotel booking for your initial stay.
+Accommodation proof: A rental agreement, property ownership documents, or a hotel booking for your initial stay.
 
 ## Application Process
 
@@ -113,7 +113,7 @@ Montenegro uses the Euro as its currency, simplifying financial planning for EU-
 
 While travel insurance satisfies the visa requirement, you'll want proper coverage for longer stays. Options include:
 
-- Cigna Global (comprehensive international coverage)
+- Cigna Global (international coverage)
 - SafetyWing (designed for digital nomads)
 - Local private insurance after arrival
 

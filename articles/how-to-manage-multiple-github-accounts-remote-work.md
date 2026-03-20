@@ -22,7 +22,7 @@ The core solution involves generating separate SSH keys for each account and con
 
 ## Generating SSH Keys for Each Account
 
-First, generate a unique SSH key for each GitHub account. Avoid using the default key for everything—separate keys give you granular control over which account accesses which repository.
+First, generate an unique SSH key for each GitHub account. Avoid using the default key for everything—separate keys give you granular control over which account accesses which repository.
 
 Generate a key for your personal account:
 
@@ -214,13 +214,6 @@ git config --global url."https://github-work/".insteadOf "git@github-work:"
 ```
 
 This approach uses your GitHub personal access token stored in the credential helper, avoiding SSH entirely.
-
-## Summary
-
-Setting up multiple GitHub accounts requires generating unique SSH keys for each identity, configuring SSH to route connections based on host aliases, and ensuring Git commits use the correct author information. Once configured, switching between accounts is automatic—you clone, push, and pull using the right host, and Git handles the rest.
-
-This setup scales well. Add new accounts by generating another key pair, updating your SSH config, and adding the public key to GitHub. The same pattern works whether you're managing two accounts or ten.
-
 
 ## Related Reading
 

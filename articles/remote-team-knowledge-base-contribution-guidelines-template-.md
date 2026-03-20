@@ -37,10 +37,10 @@ Start by explicitly defining what belongs in your knowledge base. A clear scope 
 
 Consider organizing your scope around these categories:
 
-- **Process documentation**: How to complete key tasks, from deploying code to running effective meetings
-- **Technical reference**: API specifications, architecture decisions, and system configurations
-- **Onboarding materials**: Step-by-step guides for new team members joining different roles
-- **Troubleshooting**: Known issues, workarounds, and debugging procedures
+- Process documentation: How to complete key tasks, from deploying code to running effective meetings
+- Technical reference: API specifications, architecture decisions, and system configurations
+- Onboarding materials: Step-by-step guides for new team members joining different roles
+- Troubleshooting: Known issues, workarounds, and debugging procedures
 
 ### Contribution Types
 

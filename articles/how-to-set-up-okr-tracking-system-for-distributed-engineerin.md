@@ -203,9 +203,9 @@ This automation captures engineering output without requiring engineers to manua
 
 Track these metrics to know if your OKR system is working:
 
-- **Update compliance rate**: What percentage of key results receive weekly updates? Target: 80%+
-- **Goal achievement rate**: What percentage of key results reach their target? Target: 60-70% (100% means you're sandbagging)
-- **Time spent on tracking**: How many hours per week does the team spend on OKR-related activities? Target: <30 minutes total
+- Update compliance rate: What percentage of key results receive weekly updates? Target: 80%+
+- Goal achievement rate: What percentage of key results reach their target? Target: 60-70% (100% means you're sandbagging)
+- Time spent on tracking: How many hours per week does the team spend on OKR-related activities? Target: <30 minutes total
 
 If your teams are spending hours weekly on OKR administration, your system needs simplification rather than more features.
 

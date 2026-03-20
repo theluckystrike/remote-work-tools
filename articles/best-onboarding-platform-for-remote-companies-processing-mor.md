@@ -33,7 +33,7 @@ Before evaluating specific platforms, identify the capabilities that matter for 
 
 ### API-First Architecture
 
-Platforms with robust APIs allow you to programmatically:
+Platforms with APIs allow you to programmatically:
 
 - Trigger onboarding workflows when new hires are added to your HRIS
 - Automatically provision accounts in downstream systems (GitHub, Slack, AWS, etc.)
@@ -65,17 +65,17 @@ Your onboarding platform must connect with:
 
 WorkBright specializes in remote I-9 verification and document management. Their strength lies in automated employment eligibility verification—a critical requirement for US-based companies hiring remotely.
 
-**API Capabilities**: WorkBright offers a REST API for document retrieval and status checking. Integration with major HRIS platforms is available through Zapier or custom webhooks.
+API Capabilities: WorkBright offers a REST API for document retrieval and status checking. Integration with major HRIS platforms is available through Zapier or custom webhooks.
 
-**Best for**: Companies hiring primarily in the US who need streamlined I-9 compliance.
+Best for: Companies hiring primarily in the US who need streamlined I-9 compliance.
 
-**Automation limitations**: Workflow automation is more limited compared to full-suite platforms. You'll likely need complementary tools for complete onboarding orchestration.
+Automation limitations: Workflow automation is more limited compared to full-suite platforms. You'll likely need complementary tools for complete onboarding orchestration.
 
 ### BambooHR
 
-BambooHR provides comprehensive HRIS functionality with onboarding as a core module. For remote companies processing high volumes, BambooHR's strength is its tight integration between hiring, onboarding, and employee data management.
+BambooHR provides HRIS functionality with onboarding as a core module. For remote companies processing high volumes, BambooHR's strength is its tight integration between hiring, onboarding, and employee data management.
 
-**API Capabilities**: BambooHR offers robust APIs for employee data, document management, and workflow triggers. Their open API allows programmatic access to nearly all onboarding data.
+API Capabilities: BambooHR offers APIs for employee data, document management, and workflow triggers. Their open API allows programmatic access to nearly all onboarding data.
 
 ```python
 import requests
@@ -99,25 +99,25 @@ def trigger_onboarding(employee_id, start_date, department):
     return response.status_code == 201
 ```
 
-**Automation**: BambooHR supports custom onboarding workflows with automated task assignments, document requests, and email triggers. You can create role-specific workflows that automatically adjust based on position type.
+Automation: BambooHR supports custom onboarding workflows with automated task assignments, document requests, and email triggers. You can create role-specific workflows that automatically adjust based on position type.
 
-**Integration**: Native integrations with Slack, Microsoft Teams, Google Workspace, and numerous IT management tools.
+Integration: Native integrations with Slack, Microsoft Teams, Google Workspace, and numerous IT management tools.
 
 ### Personio
 
 Personio targets European companies but supports global remote hiring. Their onboarding module excels at compliance-heavy environments with multi-country requirements.
 
-**API Capabilities**: Personio provides comprehensive REST APIs covering employee data, documents, and workflow automation. GraphQL support offers more flexible data queries.
+API Capabilities: Personio provides REST APIs covering employee data, documents, and workflow automation. GraphQL support offers more flexible data queries.
 
-**Automation**: Strong workflow builder with conditional logic, automatic reminders, and deadline tracking. Excellent for companies with complex approval chains.
+Automation: Strong workflow builder with conditional logic, automatic reminders, and deadline tracking. Excellent for companies with complex approval chains.
 
-**Integration**: Extensive integration marketplace including SAP, Oracle, and numerous HR tools.
+Integration: Extensive integration marketplace including SAP, Oracle, and numerous HR tools.
 
 ### Rippling
 
-Rippling combines HR, IT, and onboarding into a unified platform. For remote companies, Rippling's ability to provision accounts across all employee systems from a single dashboard is particularly valuable.
+Rippling combines HR, IT, and onboarding into an unified platform. For remote companies, Rippling's ability to provision accounts across all employee systems from a single dashboard is particularly valuable.
 
-**API Capabilities**: Rippling offers one of the most comprehensive APIs in the HR tech space, covering employee management, device provisioning, and workflow automation.
+API Capabilities: Rippling offers one of the most APIs in the HR tech space, covering employee management, device provisioning, and workflow automation.
 
 ```javascript
 // Example: Programmatic onboarding with Rippling
@@ -156,9 +156,9 @@ async function createOnboarding(employee) {
 }
 ```
 
-**Automation**: Rippling's automation engine handles equipment ordering, account provisioning, policy acknowledgment, and compliance training assignment automatically. The platform can provision accounts in 200+ integrated apps simultaneously.
+Automation: Rippling's automation engine handles equipment ordering, account provisioning, policy acknowledgment, and compliance training assignment automatically. The platform can provision accounts in 200+ integrated apps simultaneously.
 
-**Integration**: Extensive native integrations plus an open API. Particularly strong for IT management with direct JumpCloud, Google Workspace, and AWS IAM integration.
+Integration: Extensive native integrations plus an open API. Particularly strong for IT management with direct JumpCloud, Google Workspace, and AWS IAM integration.
 
 ## Building Your Evaluation Framework
 
@@ -228,26 +228,10 @@ tasks:
 
 For maximum automation, connect your onboarding platform to a central orchestration layer:
 
-1. **HRIS as source of truth**: New hire data flows from your ATS or recruiter
-2. **Onboarding platform orchestrates**: Triggers workflows, collects documents, assigns tasks
-3. **IT automation executes**: Provisioning happens via JumpCloud, Okta, or custom scripts
-4. **Analytics layer monitors**: Track time-to-productivity, completion rates, bottlenecks
-
-## Conclusion
-
-For remote companies processing more than 20 new hires monthly, manual onboarding processes create friction that slows growth and hurts new hire experience. The platforms examined here—WorkBright, BambooHR, Personio, and Rippling—each address high-volume onboarding differently.
-
-**Recommendation by use case**:
-
-- **US-focused companies needing I-9 compliance**: WorkBright
-- **Companies wanting unified HR + onboarding**: BambooHR
-- **European multi-country requirements**: Personio
-- **Maximum automation and IT provisioning**: Rippling
-
-The right choice depends on your specific scale, geographic distribution, and how deeply you need to integrate onboarding with IT systems. Start with a pilot group, measure time-to-productivity improvements, and scale based on validated results.
-
----
-
+1. HRIS as source of truth: New hire data flows from your ATS or recruiter
+2. Onboarding platform orchestrates: Triggers workflows, collects documents, assigns tasks
+3. IT automation executes: Provisioning happens via JumpCloud, Okta, or custom scripts
+4. Analytics layer monitors: Track time-to-productivity, completion rates, bottlenecks
 
 ## Related Reading
 

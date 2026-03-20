@@ -106,7 +106,7 @@ Your handbook should address how team members request help or escalate issues. R
 
 ## Implementation Strategy
 
-Building a comprehensive handbook takes iteration. Start with your minimum viable handbook covering the essentials: remote work policy, communication norms, and onboarding basics. Add sections incrementally as your team identifies gaps.
+Building a handbook takes iteration. Start with your minimum viable handbook covering the essentials: remote work policy, communication norms, and onboarding basics. Add sections incrementally as your team identifies gaps.
 
 Create a handbook maintenance schedule. Designate an owner responsible for quarterly reviews of each section. Include a changelog so team members can see recent updates. Consider setting up Notion alerts for page updates so team members stay informed.
 

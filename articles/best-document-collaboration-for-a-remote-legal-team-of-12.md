@@ -19,14 +19,14 @@ voice-checked: false
 {% raw %}
 # Best Document Collaboration for a Remote Legal Team of 12
 
-For a remote legal team of 12, use a Git-backed document management system paired with a real-time collaboration layer like Etherpad or Google Docs for active drafting sessions. This hybrid approach gives you the comprehensive version history and audit trails that legal compliance demands, while still supporting concurrent editing across matters. Teams already in the Microsoft ecosystem should use SharePoint with Information Rights Management instead.
+For a remote legal team of 12, use a Git-backed document management system paired with a real-time collaboration layer like Etherpad or Google Docs for active drafting sessions. This hybrid approach gives you the version history and audit trails that legal compliance demands, while still supporting concurrent editing across matters. Teams already in the Microsoft ecosystem should use SharePoint with Information Rights Management instead.
 
 ## Core Requirements for Legal Document Collaboration
 
 Before evaluating tools, establish your baseline requirements. A legal team of 12 typically handles multiple concurrent matters, each involving contracts, briefs, correspondence, and research documents. Your collaboration system must handle:
 
 - **Role-based access control** ensuring attorneys see only matters they're assigned to
-- **Comprehensive version history** tracking every change with attribution
+- **version history** tracking every change with attribution
 - **Audit logging** for compliance and liability protection
 - **Concurrent editing** without conflicts corrupting documents
 - **Integration with legal practice management systems** like Clio, MyCase, or custom solutions
@@ -269,10 +269,10 @@ A team of 12 benefits from Git-backed collaboration because the overhead remains
 
 Roll out document collaboration in phases:
 
-1. **Week 1**: Establish repository structure and access control configuration
-2. **Week 2**: Migrate active matters to the new system
-3. **Week 3**: Implement audit logging and compliance reporting
-4. **Week 4**: Add workflow automation for common tasks
+1. Week 1: Establish repository structure and access control configuration
+2. Week 2: Migrate active matters to the new system
+3. Week 3: Implement audit logging and compliance reporting
+4. Week 4: Add workflow automation for common tasks
 
 Start with your most active matter as a pilot. Learn from that implementation before migrating your entire practice.
 

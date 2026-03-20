@@ -85,7 +85,7 @@ async function createOKRIssue() {
 }
 ```
 
-Linear's advantage is that engineers never leave their workflow. If your team already tracks work in Linear, adding OKR context requires minimal overhead. The trade-off is less formal OKR tooling—you're essentially repurposing project management features.
+Linear's advantage is that engineers never leave their workflow. If your team already tracks work in Linear, adding OKR context requires minimal overhead. The trade-off is less formal OKR tooling—you're repurposing project management features.
 
 ### Airtable: Customizable OKR Dashboards
 

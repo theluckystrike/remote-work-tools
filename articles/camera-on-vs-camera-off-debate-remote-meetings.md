@@ -114,9 +114,9 @@ Here's a sample team camera policy you can adapt:
 
 Modern tools offer nuanced controls beyond binary on/off:
 
-- **Zoom**: Enable "HD Video" selectively, use "Touch Up Appearance" for softer lighting
-- **Google Meet**: Background blur is less CPU-intensive than full virtual backgrounds
-- **Microsoft Teams**: Together Mode groups participants in a shared virtual space
+- Zoom: Enable "HD Video" selectively, use "Touch Up Appearance" for softer lighting
+- Google Meet: Background blur is less CPU-intensive than full virtual backgrounds
+- Microsoft Teams: Together Mode groups participants in a shared virtual space
 
 For developers, consider building internal tools that automatically adjust camera settings based on meeting size. A simple browser extension could detect meeting participant count and toggle optimal settings:
 

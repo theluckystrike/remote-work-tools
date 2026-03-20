@@ -27,7 +27,7 @@ The real value emerges when tools offer API access, programmatic task creation, 
 
 ## ClickUp: Flexible Timeline Management
 
-ClickUp combines Gantt functionality with comprehensive project management features. The timeline view displays tasks horizontally, with drag-and-drop adjustment of start and end dates. Dependencies link tasks visually, showing critical path analysis automatically.
+ClickUp combines Gantt functionality with project management features. The timeline view displays tasks horizontally, with drag-and-drop adjustment of start and end dates. Dependencies link tasks visually, showing critical path analysis automatically.
 
 Developers appreciate ClickUp's native integrations with GitHub:
 
@@ -62,7 +62,7 @@ The free tier includes Gantt charts with unlimited tasks, making it accessible f
 
 ## Linear: Speed for Sprint-Adjacent Planning
 
-Linear brings its signature speed to timeline visualization. The timeline view loads instantly and supports keyboard-first navigation. For teams already using Linear for issue tracking, the seamless connection between issues and timeline tasks creates a unified planning experience.
+Linear brings its signature speed to timeline visualization. The timeline view loads instantly and supports keyboard-first navigation. For teams already using Linear for issue tracking, the seamless connection between issues and timeline tasks creates an unified planning experience.
 
 GraphQL API enables programmatic timeline management:
 
@@ -89,7 +89,7 @@ Linear works best for teams that prioritize speed and already embrace Linear for
 
 Jira's Advanced Roadmaps (formerly Structure) provides enterprise-grade Gantt capabilities. Large organizations with multiple teams and complex dependencies find Jira's permission controls and governance features essential.
 
-Jira's REST API supports comprehensive automation:
+Jira's REST API supports automation:
 
 ```python
 import requests

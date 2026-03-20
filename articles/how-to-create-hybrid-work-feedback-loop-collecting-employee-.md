@@ -98,7 +98,7 @@ const feedbackForm = {
 
 ## Implementing the Feedback Loop Cycle
 
-A feedback loop isn't a one-time survey. It requires a continuous cycle with distinct phases.
+A feedback loop isn't an one-time survey. It requires a continuous cycle with distinct phases.
 
 ### Phase 1: Collect (Week 1)
 

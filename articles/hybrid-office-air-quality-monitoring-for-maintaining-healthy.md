@@ -265,15 +265,6 @@ Adjust your per-person allowance values based on actual observations. Buildings 
 
 After validation, expand sensors to all significant areas. Meeting rooms typically need dedicated sensors since they experience rapid occupancy changes when filled or emptied.
 
-## Conclusion
-
-Monitoring air quality in hybrid offices with variable occupancy requires moving beyond static thresholds. By integrating occupancy data—through door counters, badge systems, or WiFi counts—you can calculate contextually appropriate alerts that reduce noise while catching genuine problems.
-
-The implementation involves three technical components: collecting occupancy data, calculating dynamic thresholds based on current occupancy, and connecting everything to automation systems that respond proportionally. The code examples above provide starting points for each component.
-
-With proper implementation, your monitoring system adapts to the reality of hybrid work: an office that feels crowded on Tuesday and nearly empty on Thursday deserves different air quality expectations for each scenario.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

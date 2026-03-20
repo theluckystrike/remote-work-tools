@@ -171,9 +171,9 @@ def update_project_board(channel, emoji_status):
 
 Connect emoji reactions to your existing tools:
 
-- **GitHub**: React to PR notifications with approved/requested changes
-- **Jira**: Update ticket status via reactions
-- **CI/CD**: React to deployment messages with success/failure status
+- GitHub: React to PR notifications with approved/requested changes
+- Jira: Update ticket status via reactions
+- CI/CD: React to deployment messages with success/failure status
 
 ```yaml
 # Example: GitHub Actions workflow that listens for Slack reactions
@@ -208,18 +208,18 @@ jobs:
 
 Track whether emoji reactions actually reduce message volume:
 
-1. **Before period**: Count acknowledgment messages (got it, thanks, ok, etc.)
-2. **After period**: Compare channel message rates after implementing standards
-3. **Quality check**: Verify that important information remains findable
+1. Before period: Count acknowledgment messages (got it, thanks, ok, etc.)
+2. After period: Compare channel message rates after implementing standards
+3. Quality check: Verify that important information remains findable
 
 Teams typically see 30-50% reduction in non-essential messages within the first month of adopting reaction-based workflows.
 
 ## Common Pitfalls to Avoid
 
-- **Over-responding**: Not every message needs a reaction. Reserve reactions for messages requiring acknowledgment or action.
-- **Inconsistent meanings**: Without team documentation, emoji interpretations vary widely.
-- **Ignoring accessibility**: Some team members may have visual impairments. Ensure critical information appears in text, not just reactions.
-- **Mixed signals**: Don't use reactions for重要 decisions that require written discussion.
+- Over-responding: Not every message needs a reaction. Reserve reactions for messages requiring acknowledgment or action.
+- Inconsistent meanings: Without team documentation, emoji interpretations vary widely.
+- Ignoring accessibility: Some team members may have visual impairments. Ensure critical information appears in text, not just reactions.
+- Mixed signals: Don't use reactions for重要 decisions that require written discussion.
 
 ## Building the Habit
 

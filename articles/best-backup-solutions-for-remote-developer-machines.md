@@ -101,7 +101,7 @@ Run this script automatically using a cron job or launchd:
 
 ## Full System Backups with Restic
 
-For comprehensive backups that include dependencies, builds, and cached data, Restic offers an excellent balance of efficiency and simplicity. It provides deduplication, encryption, and flexible retention policies.
+For backups that include dependencies, builds, and cached data, Restic offers an excellent balance of efficiency and simplicity. It provides deduplication, encryption, and flexible retention policies.
 
 Install Restic and initialize a backup repository:
 
@@ -275,10 +275,10 @@ Schedule weekly verification:
 
 The most effective backup strategy combines multiple layers, each addressing different failure scenarios:
 
-1. **Real-time sync**: Keep configuration in version control and push changes immediately
-2. **Daily automated backups**: Use Restic or similar tools for incremental full-system backups
-3. **Periodic cloud sync**: Push encrypted backups to cloud storage weekly
-4. **Regular testing**: Verify backup integrity monthly and test restoration procedures
+1. Real-time sync: Keep configuration in version control and push changes immediately
+2. Daily automated backups: Use Restic or similar tools for incremental full-system backups
+3. Periodic cloud sync: Push encrypted backups to cloud storage weekly
+4. Regular testing: Verify backup integrity monthly and test restoration procedures
 
 Start with the configuration backup approach—it's immediate, requires minimal setup, and provides the highest value per effort invested. Expand to automated full-system backups as you identify additional data worth protecting.
 

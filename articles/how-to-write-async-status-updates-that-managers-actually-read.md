@@ -20,11 +20,11 @@ Craft status updates managers read by opening with the single most important ins
 
 Before diving into solutions, let's identify why typical status updates fall flat:
 
-- **Vague progress claims**: "Made good progress on the project" tells managers nothing measurable
-- **Missing context**: Updates without background force managers to chase details
-- **No clear ask**: Failing to specify what you need from the manager wastes their time
-- **Wrong frequency**: Over-updating dilutes signal; under-updating creates anxiety
-- **Burying the lead**: Important information hidden in paragraph text gets missed
+- Vague progress claims: "Made good progress on the project" tells managers nothing measurable
+- Missing context: Updates without background force managers to chase details
+- No clear ask: Failing to specify what you need from the manager wastes their time
+- Wrong frequency: Over-updating dilutes signal; under-updating creates anxiety
+- Burying the lead: Important information hidden in paragraph text gets missed
 
 The fix isn't writing more—it's writing smarter.
 
@@ -89,15 +89,15 @@ Here's a template that applies this framework:
 
 ### Strong Update (Emulate)
 
-> **Completed**: Finalized the sales dashboard mockups - shared in Figma for review
+> Completed: Finalized the sales dashboard mockups - shared in Figma for review
 > 
-> **Progress**: Started React component implementation - 60% complete on the main chart components
+> Progress: Started React component implementation - 60% complete on the main chart components
 > 
-> **Blocked**: Need API endpoint `/sales/metrics` to return date range filters - pinged backend team, awaiting response
+> Blocked: Need API endpoint `/sales/metrics` to return date range filters - pinged backend team, awaiting response
 > 
-> **Next**: Complete chart components by Wednesday, integrate API response by Friday
+> Next: Complete chart components by Wednesday, integrate API response by Friday
 > 
-> **Help needed**: @manager - can you review the Figma mockups and confirm the metrics displayed match priorities?
+> Help needed: @manager - can you review the Figma mockups and confirm the metrics displayed match priorities?
 
 Notice the difference: specific tasks, measurable progress, clear deadlines, and a specific ask.
 
@@ -113,10 +113,10 @@ Instead of "significant progress," say "completed 3 of 5 user stories" or "reduc
 
 ### Match Update Frequency to Project Phase
 
-- **Sprint start**: Detailed plans and priorities
-- **Sprint middle**: Progress against goals, emerging blockers
-- **Sprint end**: Completed items, retrospective notes
-- **Crisis mode**: More frequent updates with clear status indicators
+- Sprint start: Detailed plans and priorities
+- Sprint middle: Progress against goals, emerging blockers
+- Sprint end: Completed items, retrospective notes
+- Crisis mode: More frequent updates with clear status indicators
 
 ### Use Consistent Formatting
 
@@ -146,10 +146,10 @@ If your manager asks follow-up questions after every update, you're probably not
 
 Consider using these tools to structure your updates:
 
-- **Notion**: Create templates for recurring updates
-- **Slack**: Use thread features to keep updates organized  
-- **Linear/Asana**: Link tasks to status updates for context
-- **Google Docs**: For longer-form weekly reports with embedded visuals
+- Notion: Create templates for recurring updates
+- Slack: Use thread features to keep updates organized 
+- Linear/Asana: Link tasks to status updates for context
+- Google Docs: For longer-form weekly reports with embedded visuals
 
 ## Key Takeaways
 

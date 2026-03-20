@@ -205,15 +205,15 @@ Once Basecamp is configured, success comes down to consistent habits:
 
 Many agencies set up Basecamp but fail to get client adoption. Watch for these issues:
 
-1. **Too many projects**: Clients can't find information if it's spread across dozens of projects. Consolidate to one project per client relationship.
+1. Too many projects: Clients can't find information if it's spread across dozens of projects. Consolidate to one project per client relationship.
 
-2. **No routine**: Without scheduled check-ins, Basecamp becomes another place clients ignore. Commit to the cadence.
+2. No routine: Without scheduled check-ins, Basecamp becomes another place clients ignore. Commit to the cadence.
 
-3. **Internal noise**: Don't share internal team discussions with clients. Use the permission settings to keep those private.
+3. Internal noise: Don't share internal team discussions with clients. Use the permission settings to keep those private.
 
-4. **Attachments in email**: Train clients to check Basecamp for files. Email attachments create duplicate work.
+4. Attachments in email: Train clients to check Basecamp for files. Email attachments create duplicate work.
 
-5. **Outdated to-dos**: Review and clean up to-dos weekly. Stale items reduce trust.
+5. Outdated to-dos: Review and clean up to-dos weekly. Stale items reduce trust.
 
 ## Measuring Success
 

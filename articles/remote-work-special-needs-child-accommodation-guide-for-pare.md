@@ -89,7 +89,7 @@ When something unexpected occurs, a quick async message prevents confusion:
 
 ## Technical Systems for Buffer Management
 
-Developers and power users can leverage automation to create buffers against interruptions.
+Developers and power users can use automation to create buffers against interruptions.
 
 ### Pomodoro with Child-Appropriate Variations
 

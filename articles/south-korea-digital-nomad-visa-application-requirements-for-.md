@@ -53,7 +53,7 @@ You must maintain your foreign employment throughout your stay in South Korea. T
 
 ### Health Insurance
 
-Applicants must possess comprehensive international health insurance that covers medical treatment in South Korea with a minimum coverage of **USD 100,000** for the entire visa duration. Some applicants opt for Korean national health insurance after arrival, but proof of insurance is required at application time.
+Applicants must possess international health insurance that covers medical treatment in South Korea with a minimum coverage of **USD 100,000** for the entire visa duration. Some applicants opt for Korean national health insurance after arrival, but proof of insurance is required at application time.
 
 ### Criminal Record
 
@@ -149,13 +149,6 @@ To extend your visa for a second year, you must submit:
 - Clean criminal record certificate (updated)
 
 Extensions are processed at the immigration office in South Korea. Apply at least 30 days before your current visa expires.
-
-## Conclusion
-
-The South Korea digital nomad visa provides an excellent opportunity for remote workers seeking to experience Korean culture and infrastructure. The application process is straightforward if you maintain proper documentation and meet the income requirements. For developers and tech professionals, the visa offers stability—unlike tourist visa runs or visa-exempt entries that create uncertainty.
-
-Start your preparation early, maintain clear records of your remote work activities, and ensure your health insurance meets the minimum coverage requirements. With proper documentation, the application process typically proceeds without complications.
-
 
 ## Related Reading
 

@@ -65,13 +65,13 @@ function getMeetingTime(weekNumber, regionStacks) {
 
 Instead of daily standups, implement structured async check-ins that respect time zone boundaries. The following rhythm works well for globally distributed teams:
 
-**Daily**: Team Slack channel update with completed work, planned work, and blockers (posted by 10 AM in each team member's local timezone)
+Daily: Team Slack channel update with completed work, planned work, and blockers (posted by 10 AM in each team member's local timezone)
 
-**Weekly**: Written team summary published every Friday, highlighting wins, challenges, and the coming week's priorities
+Weekly: Written team summary published every Friday, highlighting wins, challenges, and the coming week's priorities
 
-**Bi-weekly**: Synchronous team meeting rotated through different time zones, focusing on cross-team collaboration and social connection
+Bi-weekly: Synchronous team meeting rotated through different time zones, focusing on cross-team collaboration and social connection
 
-**Monthly**: One-on-one meetings between managers and direct reports, scheduled during each employee's preferred hours
+Monthly: One-on-one meetings between managers and direct reports, scheduled during each employee's preferred hours
 
 Use world clock tools that display multiple time zones simultaneously. Tools like World Time Buddy or simply configuring your system clock to show multiple zones help prevent the cognitive load of constant timezone conversion.
 
@@ -79,9 +79,9 @@ Use world clock tools that display multiple time zones simultaneously. Tools lik
 
 When your team spans five time zones, institutional knowledge becomes critical. Every decision, rationale, and discussion must be documented where new team members can find it. This means:
 
-1. **Decision logs**: Record why specific technical choices were made, including alternatives considered and rejected
-2. **Process documentation**: Write down how things get done, not just what the end result looks like
-3. **Onboarding guides**: Create comprehensive materials that allow new hires to become productive without requiring constant real-time support
+1. Decision logs: Record why specific technical choices were made, including alternatives considered and rejected
+2. Process documentation: Write down how things get done, not just what the end result looks like
+3. Onboarding guides: Create materials that allow new hires to become productive without requiring constant real-time support
 
 ```markdown
 ## Example Decision Log Entry
@@ -107,10 +107,10 @@ When your team spans five time zones, institutional knowledge becomes critical. 
 
 Managing across time zones requires deliberate time blocking on your calendar. Block specific hours for:
 
-- **Deep work**: 2-3 hours when you handle strategic work without interruptions
-- **Reactive time**: Dedicated slots for responding to messages across all time zones
-- **Async review**: Time reserved for reading and providing feedback on pull requests, documents, and proposals
-- **Social connection**: Brief windows for casual team interactions that build relationships
+- Deep work: 2-3 hours when you handle strategic work without interruptions
+- Reactive time: Dedicated slots for responding to messages across all time zones
+- Async review: Time reserved for reading and providing feedback on pull requests, documents, and proposals
+- Social connection: Brief windows for casual team interactions that build relationships
 
 Protect these blocks ruthlessly. The temptation to be "always on" for a globally distributed team leads to burnout and diminishes the quality of your leadership.
 
@@ -156,16 +156,16 @@ The most effective remote managers understand that sustainable pace trumps heroi
 
 Traditional management metrics don't work well for distributed teams. Instead, focus on:
 
-- **Output over availability**: What gets delivered, not when people are online
-- **Outcome over process**: Results achieved, not hours logged
-- **Team health indicators**: Retention rates, engagement scores, and burnout signals
-- **Async communication quality**: Clarity and completeness of written documentation
+- Output over availability: What gets delivered, not when people are online
+- Outcome over process: Results achieved, not hours logged
+- Team health indicators: Retention rates, engagement scores, and burnout signals
+- Async communication quality: Clarity and completeness of written documentation
 
 Quarterly surveys can help you understand how well your async communication is working and identify pain points before they become retention risks.
 
 ---
 
-Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build robust documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.
+Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.
 
 
 ## Related Reading

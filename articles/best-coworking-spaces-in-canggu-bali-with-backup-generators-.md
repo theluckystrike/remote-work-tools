@@ -23,10 +23,10 @@ When you're running CI/CD pipelines, debugging production issues, or maintaining
 
 Most coworking spaces market themselves to remote workers, but the distinction between "has internet" and "has enterprise-grade redundancy" matters for power users. Here's what to evaluate:
 
-- **Generator runtime**: Full facility coverage vs. partial coverage
-- **Internet failover**: Automatic switchover vs. manual reconnection
-- **Uptime SLA**: Whether the space commits to availability percentages
-- **Power outlet density**: Proximity to desks for multi-device setups
+- Generator runtime: Full facility coverage vs. partial coverage
+- Internet failover: Automatic switchover vs. manual reconnection
+- Uptime SLA: Whether the space commits to availability percentages
+- Power outlet density: Proximity to desks for multi-device setups
 
 ## Top Coworking Spaces with Backup Generators
 
@@ -36,11 +36,11 @@ Dojo maintains generator backup for the entire facility, including common areas 
 
 The space offers hot desks, dedicated desks, and private offices. Power outlet placement is adequate, though peak hours can mean sharing. Night owls benefit from 24-hour access on dedicated desk plans, which matters when you're debugging across time zones.
 
-**Practical note**: Dojo's community skews toward long-term digital nomads. You'll find other developers, but the social atmosphere can be energetic. If you need absolute silence for deep focus work, consider the dedicated office options.
+Practical note: Dojo's community skews toward long-term digital nomads. You'll find other developers, but the social atmosphere can be energetic. If you need absolute silence for deep focus work, consider the dedicated office options.
 
 ### Outpost Coworking
 
-Outpost operates multiple locations in Canggu, with their main facility featuring comprehensive generator coverage and multi-carrier internet bonding. Their technical infrastructure includes:
+Outpost operates multiple locations in Canggu, with their main facility featuring generator coverage and multi-carrier internet bonding. Their technical infrastructure includes:
 
 - 500Mbps+ fiber connections (primary and backup carriers)
 - Generator backup with automatic transfer
@@ -108,22 +108,22 @@ Record results over a week to establish baseline performance and identify peak d
 
 After evaluating dozens of spaces, here's the honest assessment:
 
-**Generator coverage**: Full facility coverage matters more than you think. Partial coverage means the cafe stays lit while the workspace goes dark—common at spaces that added generators as an afterthought.
+Generator coverage: Full facility coverage matters more than you think. Partial coverage means the cafe stays lit while the workspace goes dark—common at spaces that added generators as an afterthought.
 
-**Internet redundancy**: Automatic failover beats manual reconnection every time. When you're mid-deploy and fiber drops, waiting for manual reconnection creates unnecessary stress.
+Internet redundancy: Automatic failover beats manual reconnection every time. When you're mid-deploy and fiber drops, waiting for manual reconnection creates unnecessary stress.
 
-**Community fit**: Technical communities cluster naturally. Dojo and Tropical Futures attract more developers. Outpost has broader appeal. Choose based on whether you want peer interaction or focused isolation.
+Community fit: Technical communities cluster naturally. Dojo and Tropical Futures attract more developers. Outpost has broader appeal. Choose based on whether you want peer interaction or focused isolation.
 
-**Cost vs. value**: Expect to pay $200-400/month for dedicated desk or private office with infrastructure guarantees. Hot desks run $100-200/month. The price differential reflects actual operational cost—spaces charging below market rate often skimp on generator maintenance.
+Cost vs. value: Expect to pay $200-400/month for dedicated desk or private office with infrastructure guarantees. Hot desks run $100-200/month. The price differential reflects actual operational cost—spaces charging below market rate often skimp on generator maintenance.
 
 ## Hidden Factors
 
 Power users notice details that marketing doesn't highlight:
 
-- **Air conditioning reliability**: Generator-backed AC prevents heat-related laptop throttling during outages
-- **Noise management**: Generator noise varies by space—visit during a power outage to test actual conditions
-- **Water backup**: Less critical but relevant—some spaces have well pumps that fail with grid power
-- **Cell signal reinforcement**: Indoor signal boosters matter when internet fails and you need LTE fallback
+- Air conditioning reliability: Generator-backed AC prevents heat-related laptop throttling during outages
+- Noise management: Generator noise varies by space—visit during a power outage to test actual conditions
+- Water backup: Less critical but relevant—some spaces have well pumps that fail with grid power
+- Cell signal reinforcement: Indoor signal boosters matter when internet fails and you need LTE fallback
 
 ## Bottom Line
 

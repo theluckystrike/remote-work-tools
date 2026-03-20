@@ -66,7 +66,7 @@ Schedule recurring 1:1 meetings with teammates, not just managers. A peer 1:1 cr
 
 ## Building Virtual Social Infrastructure
 
-Technical solutions cannot replace human connection, but they can facilitate it. Implement systems that create serendipitous interactions.
+Technical solutions cannot replace human connection, but they can help it. Implement systems that create serendipitous interactions.
 
 ### Slack Channel Strategies
 
@@ -209,15 +209,6 @@ Create separation between work and living spaces. Even a small desk in a corner 
 ### Boundary Management
 
 Set clear start and end times for work. Physical cues help: change clothes for work, step outside at lunch, create a shutdown ritual. Communicate these boundaries to teammates so they know when you're available.
-
-## Conclusion
-
-Preventing remote work isolation requires intentional effort, but the strategies are straightforward. Establish structured communication patterns that create connection, build virtual social infrastructure, automate relationship maintenance where possible, and create support systems for mental health. The key is being proactive rather than waiting for isolation to become overwhelming.
-
-Remote work isolation will not fix itself. By implementing these practices consistently, solo team members can maintain the connections, context, and community needed to thrive in distributed work environments.
-
----
-
 
 ## Related Reading
 

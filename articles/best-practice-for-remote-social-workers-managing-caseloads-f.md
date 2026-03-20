@@ -18,7 +18,7 @@ Remote social work requires structured case management systems, automated admini
 
 The foundation of effective remote case management lies in a well-organized system. Without the physical infrastructure of an office, digital tools become essential for tracking client interactions, documentation, and deadlines.
 
-A robust case management approach uses hierarchical organization:
+A case management approach uses hierarchical organization:
 
 ```
 /client-database/
@@ -76,7 +76,7 @@ Essential security practices include:
 
 - Using encrypted email services for sensitive information
 - Implementing two-factor authentication on all case management platforms
-- Utilizing secure video conferencing platforms with end-to-end encryption
+- using secure video conferencing platforms with end-to-end encryption
 - Establishing clear protocols for handling emergency communications
 
 A practical approach to secure messaging involves setting up a dedicated work phone number through services like Google Voice or Twilio, keeping personal and professional communications strictly separated.

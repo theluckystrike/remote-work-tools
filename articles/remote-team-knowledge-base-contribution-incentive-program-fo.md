@@ -79,9 +79,9 @@ Required Knowledge Base Contributions:
 
 The easier you make it to contribute, the more participation you'll see. Implement these entry points:
 
-**Quick-Edit Buttons**: Place edit links directly on every knowledge base page. Engineers reading documentation and noticing an error should be one click away from fixing it.
+Quick-Edit Buttons: Place edit links directly on every knowledge base page. Engineers reading documentation and noticing an error should be one click away from fixing it.
 
-**Template System**: Provide ready-made templates for common contribution types. Don't make people figure out formatting.
+Template System: Provide ready-made templates for common contribution types. Don't make people figure out formatting.
 
 ```markdown
 <!-- Example: Quick Reference Template -->
@@ -100,40 +100,35 @@ The easier you make it to contribute, the more participation you'll see. Impleme
 - [Internal link 2]
 ```
 
-**Slack Integration**: Let engineers submit knowledge base entries directly from Slack. A simple slash command captures information while it's fresh in their minds.
+Slack Integration: Let engineers submit knowledge base entries directly from Slack. A simple slash command captures information while it's fresh in their minds.
 
 ### Build Contribution Into Existing Workflows
 
 The best incentive programs don't add extra work—they integrate with what engineers already do.
 
-**Post-Incident Reviews**: After resolving production issues, require a brief knowledge base entry as part of your incident review process. This captures tribal knowledge before it escapes.
+Post-Incident Reviews: After resolving production issues, require a brief knowledge base entry as part of your incident review process. This captures tribal knowledge before it escapes.
 
-**Pull Request Reviews**: Add a checkbox to your PR template asking whether the change requires documentation updates. Make documentation review part of code review.
+Pull Request Reviews: Add a checkbox to your PR template asking whether the change requires documentation updates. Make documentation review part of code review.
 
-**Onboarding Tasks**: New hires can contribute their learning as they go through onboarding. This reduces their imposter syndrome while building your knowledge base.
+Onboarding Tasks: New hires can contribute their learning as they go through onboarding. This reduces their imposter syndrome while building your knowledge base.
 
 ## Measuring Success
 
 Track these metrics to understand if your program is working:
 
-- **Contribution Velocity**: Number of contributions per week/month over time
-- **Active Contributors**: Unique contributors making at least one contribution per month
-- **Article Quality Score**: Average helpfulness ratings or reduction in duplicate questions
-- **Search Success Rate**: Percentage of searches returning useful results
-- **Time to Find Information**: Average time engineers spend finding answers in the knowledge base
+- Contribution Velocity: Number of contributions per week/month over time
+- Active Contributors: Unique contributors making at least one contribution per month
+- Article Quality Score: Average helpfulness ratings or reduction in duplicate questions
+- Search Success Rate: Percentage of searches returning useful results
+- Time to Find Information: Average time engineers spend finding answers in the knowledge base
 
 ## Avoiding Common Pitfalls
 
-**Don't over-gamify**: Points and leaderboards work initially but can backfire if they feel performative. Keep the focus on genuine knowledge sharing.
+Don't over-gamify: Points and leaderboards work initially but can backfire if they feel performative. Keep the focus on genuine knowledge sharing.
 
-**Don't make it mandatory**: Forced contributions produce low-quality content. The goal is creating a culture where sharing becomes natural, not checking boxes.
+Don't make it mandatory: Forced contributions produce low-quality content. The goal is creating a culture where sharing becomes natural, not checking boxes.
 
-**Don't ignore quality**: A large knowledge base full of outdated or incorrect information is worse than a small one with high-quality content. Implement review processes and retire obsolete content regularly.
-
-## Conclusion
-
-A successful knowledge base incentive program for remote engineering teams combines recognition, clear contribution paths, integration with existing workflows, and meaningful metrics. Start small, measure what matters, and adjust based on actual participation patterns. The goal isn't points—it's building a culture where capturing and sharing knowledge becomes as natural as writing code.
-
+Don't ignore quality: A large knowledge base full of outdated or incorrect information is worse than a small one with high-quality content. Implement review processes and retire obsolete content regularly.
 
 ## Related Reading
 

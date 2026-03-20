@@ -13,7 +13,7 @@ voice-checked: true
 ---
 
 {% raw %}
-A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face a unique challenge: figuring out unwritten rules, discovering tools, and building relationships without the casual hallway conversations that office workers take for granted. A well-structured buddy system addresses these gaps by pairing new hires with experienced team members who serve as guides, advocates, and first points of contact.
+A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face an unique challenge: figuring out unwritten rules, discovering tools, and building relationships without the casual hallway conversations that office workers take for granted. A well-structured buddy system addresses these gaps by pairing new hires with experienced team members who serve as guides, advocates, and first points of contact.
 
 ## What Makes a Buddy System Effective
 

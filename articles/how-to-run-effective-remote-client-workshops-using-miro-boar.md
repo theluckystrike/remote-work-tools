@@ -19,7 +19,7 @@ voice-checked: false
 
 Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky note without talking over someone, and cannot read the room when everyone is a small video thumbnail. Miro boards solve these problems when you approach them with the right strategy.
 
-This guide walks through setting up and facilitating productive remote client workshops using Miro, with practical templates you can adapt immediately.
+This guide walks through setting up and helping productive remote client workshops using Miro, with practical templates you can adapt immediately.
 
 ## Preparing Your Miro Board Before the Workshop
 
@@ -105,15 +105,15 @@ Here is a proven board structure for initial client discovery sessions:
 
 ### Frame 1: Problem Space
 
-- **Left column**: "Current Challenges" — sticky notes where clients describe pain points
-- **Right column**: "Success Metrics" — how they will measure project success
-- **Center**: Empty space for grouping related challenges
+- Left column: "Current Challenges" — sticky notes where clients describe pain points
+- Right column: "Success Metrics" — how they will measure project success
+- Center: Empty space for grouping related challenges
 
 ### Frame 2: Solution Space
 
-- **Top row**: "Must Have" features (red dots for priority)
-- **Middle row**: "Nice to Have" features (yellow dots)
-- **Bottom row**: "Out of Scope" items (grey notes)
+- Top row: "Must Have" features (red dots for priority)
+- Middle row: "Nice to Have" features (yellow dots)
+- Bottom row: "Out of Scope" items (grey notes)
 
 ### Frame 3: Timeline View
 
@@ -153,9 +153,9 @@ Always have a fallback:
 
 The workshop value compounds when you follow up effectively:
 
-1. **Same day**: Export the board as PDF and send to all participants
-2. **24 hours**: Create a concise summary document highlighting key decisions
-3. **One week**: Schedule a 15-minute follow-up call to review implemented items
+1. Same day: Export the board as PDF and send to all participants
+2. 24 hours: Create a concise summary document highlighting key decisions
+3. One week: Schedule a 15-minute follow-up call to review implemented items
 
 Miro's built-in export features handle the PDF generation. Navigate to the board settings and select "Export" to generate a high-resolution PDF or image sequence.
 

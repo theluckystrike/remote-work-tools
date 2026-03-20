@@ -112,10 +112,10 @@ For a parent working at a standard 30-inch kitchen table with a 17-inch chair he
 
 No single stand excels at everything. The key is identifying which constraints matter most for your situation:
 
-- **Maximum portability**: Choose the lightest option, accepting limited adjustability
-- **Best ergonomics**: Prioritize height range and angle adjustment, accepting more weight
-- **Quick transitions**: Look for friction hinges and one-handed deployment
-- **Budget priority**: Basic plastic stands work adequately for occasional use
+- Maximum portability: Choose the lightest option, accepting limited adjustability
+- Best ergonomics: Prioritize height range and angle adjustment, accepting more weight
+- Quick transitions: Look for friction hinges and one-handed deployment
+- Budget priority: Basic plastic stands work adequately for occasional use
 
 For kitchen table work specifically, I recommend prioritizing deployment speed and storage size over premium materials. The stand that gets used beats the perfect stand that stays in the closet.
 

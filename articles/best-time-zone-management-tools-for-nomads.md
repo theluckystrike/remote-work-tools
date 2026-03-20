@@ -65,7 +65,7 @@ This tool shines for quick checks without opening a browser. Install it once and
 
 ### moment-timezone: JavaScript Date Handling
 
-For Node.js applications, moment-timezone provides comprehensive date handling:
+For Node.js applications, moment-timezone provides date handling:
 
 ```javascript
 const moment = require('moment-timezone');

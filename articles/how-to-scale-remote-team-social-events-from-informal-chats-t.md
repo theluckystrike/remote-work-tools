@@ -85,10 +85,10 @@ Once you've formalized informal interactions, introduce programs with clear stru
 
 Generic "let's hang out" sessions struggle to generate engagement. Theme-based events give people something to prepare for and talk about:
 
-- **Show and Tell (Non-Work)**: Share a hobby, a project outside work, or something you're passionate about
-- **Book Club**: Read and discuss books outside professional context
-- **Skill Share**: Teach something you know—coding tricks, cooking, photography
-- **Game Sessions**: Organized multiplayer games with teams
+- Show and Tell (Non-Work): Share a hobby, a project outside work, or something you're passionate about
+- Book Club: Read and discuss books outside professional context
+- Skill Share: Teach something you know—coding tricks, cooking, photography
+- Game Sessions: Organized multiplayer games with teams
 
 The structure matters more than the activity. Define a clear format: opening, main activity, closing. Keep it to sixty minutes maximum. Record for those who can't attend live.
 
@@ -113,11 +113,11 @@ These groups self-organize around natural affinities, creating smaller communiti
 
 Not everything needs to be synchronous. Async social traditions work particularly well for distributed teams:
 
-**Virtual Coffee Photo Thread**: Weekly thread where people share what they're drinking and a brief update
+Virtual Coffee Photo Thread: Weekly thread where people share what they're drinking and a brief update
 
-**Weekend Wins Channel**: Low-pressure space to share personal achievements from the week
+Weekend Wins Channel: Low-pressure space to share personal achievements from the week
 
-**Playlist Collaboration**: Shared Spotify or Apple Music playlist where anyone adds songs
+Playlist Collaboration: Shared Spotify or Apple Music playlist where anyone adds songs
 
 These require zero scheduling but still create shared experiences and conversation starters.
 
@@ -178,13 +178,13 @@ Numbers tell you if programs are failing; they don't tell you if they're succeed
 
 ## Common Pitfalls to Avoid
 
-**Forcing Fun**: Mandatory fun isn't fun. Every program should have clear value, but participation should remain voluntary. The goal is creating opportunities, not requiring attendance.
+Forcing Fun: Mandatory fun isn't fun. Every program should have clear value, but participation should remain voluntary. The goal is creating opportunities, not requiring attendance.
 
-**Over-Scheduling**: Remote workers already have enough meetings. Social programs should feel like relief from work, not another obligation. Start small—a single monthly event is better than five poorly-attended weekly ones.
+Over-Scheduling: Remote workers already have enough meetings. Social programs should feel like relief from work, not another obligation. Start small—a single monthly event is better than five poorly-attended weekly ones.
 
-**Ignoring Timezones**: A social event at 9 AM San Francisco is 6 PM London and midnight Singapore. If your team spans three continents, rotate event times or create region-specific programs that bridge occasionally.
+Ignoring Timezones: A social event at 9 AM San Francisco is 6 PM London and midnight Singapore. If your team spans three continents, rotate event times or create region-specific programs that bridge occasionally.
 
-**One-Person Shows**: Programs that depend on one enthusiastic person will fail when that person burns out or leaves. Design for sustainability from the start.
+One-Person Shows: Programs that depend on one enthusiastic person will fail when that person burns out or leaves. Design for sustainability from the start.
 
 ## Building Culture That Scales
 

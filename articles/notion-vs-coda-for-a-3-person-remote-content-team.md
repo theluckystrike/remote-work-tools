@@ -21,7 +21,7 @@ Choose Notion if your content team values flexible pages, rich media support, an
 
 Notion organizes content in a hierarchical page structure. Each page can contain blocks—text, images, databases, embeds, and more. Pages can be nested infinitely, creating a tree-like organization. This structure works naturally for documentation and wikis but can become unwieldy when you need complex relationships between pieces of content.
 
-Coda combines documents and databases into a single construct. Every Coda doc is essentially a database where rows represent items and columns represent properties. You can add rich text to any row, creating what Coda calls "docs that think." This architectural difference shapes everything else about how each platform handles content operations.
+Coda combines documents and databases into a single construct. Every Coda doc is a database where rows represent items and columns represent properties. You can add rich text to any row, creating what Coda calls "docs that think." This architectural difference shapes everything else about how each platform handles content operations.
 
 For a three-person content team managing a blog, newsletter, and social media, consider how you'd track content pieces:
 

@@ -166,12 +166,7 @@ Ask these questions:
 - Did the runbook help or hinder the resolution?
 - What information was missing when the incident started?
 
-Update your escalation criteria, runbooks, and contact rotation based on these findings. Your protocol is a living document, not a one-time writeup.
-
-## Summary
-
-Effective escalation protocols for remote engineering teams require explicit ownership at each level, clear criteria for when to escalate, documented handoff procedures between time zones, dedicated communication channels, detailed runbooks, and automated triggers to handle middle-of-the-night scenarios. Test your protocol with chaos engineering exercises, review after every significant incident, and keep iterating.
-
+Update your escalation criteria, runbooks, and contact rotation based on these findings. Your protocol is a living document, not an one-time writeup.
 
 ## Related Reading
 

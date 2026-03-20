@@ -25,9 +25,9 @@ Zoom's standard Large Meeting add-on supports up to 500 participants, but the 20
 
 The primary constraints at 200 participants are:
 
-- **Screen share quality**: Only one person can share at a time, which means careful coordination is required
-- **Audio management**: Open microphones create feedback loops; you need strict muting protocols
-- **Visual engagement**: With 200 faces on screen, traditional video grids become overwhelming
+- Screen share quality: Only one person can share at a time, which means careful coordination is required
+- Audio management: Open microphones create feedback loops; you need strict muting protocols
+- Visual engagement: With 200 faces on screen, traditional video grids become overwhelming
 
 ## Room Configuration and Settings
 
@@ -157,11 +157,11 @@ Rotate through department heads with concise updates. Limit each presenter to 3-
 
 The Q&A requires structured facilitation at 200-person scale. Use one of these approaches:
 
-**Chat-Based Q&A**: Participants submit questions in chat. A moderator curates and reads questions to the speaker. This works well for async participation.
+Chat-Based Q&A: Participants submit questions in chat. A moderator curates and reads questions to the speaker. This works well for async participation.
 
-**Slido Integration**: Embed Slido directly in Zoom for live polling and upvoting. Questions with most votes get addressed first.
+Slido Integration: Embed Slido directly in Zoom for live polling and upvoting. Questions with most votes get addressed first.
 
-**Written Questions Only**: For sensitive topics, allow only written questions that presenters answer directly.
+Written Questions Only: For sensitive topics, allow only written questions that presenters answer directly.
 
 ## Technical Backup Procedures
 
@@ -186,10 +186,10 @@ Large meetings require contingency planning. Prepare for common failure scenario
 
 After your quarterly meeting, distribute materials within 24 hours:
 
-- **Recording**: Upload to company intranet with chapter markers
-- **Transcript**: Generate from Zoom's auto-transcription
-- **Action items**: Extract from chat and assign owners
-- **Feedback survey**: Quick pulse on what worked and what didn't
+- Recording: Upload to company intranet with chapter markers
+- Transcript: Generate from Zoom's auto-transcription
+- Action items: Extract from chat and assign owners
+- Feedback survey: Quick pulse on what worked and what didn't
 
 ```python
 # Extract action items from meeting chat

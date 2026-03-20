@@ -210,7 +210,7 @@ documentation:
 
 Remote teams cannot lean on walking over to someone's desk to ask questions. Your documentation must be findable without human intervention.
 
-Implement a comprehensive search strategy:
+Implement a search strategy:
 
 1. **Algolia DocSearch** or similar for full-text search across all documentation
 2. **In-context help** - Tooltip components that link to relevant documentation

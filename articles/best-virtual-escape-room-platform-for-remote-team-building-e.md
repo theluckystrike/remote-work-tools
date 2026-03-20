@@ -27,10 +27,10 @@ Remote engineering teams have specific requirements that generic team-building p
 
 The primary evaluation criteria should center on:
 
-- **Session stability**: Can the platform handle your full team without connection drops?
-- **Puzzle variety**: Are the challenges mentally engaging for analytical minds?
-- **Facilitation tools**: Can you customize difficulty or add team-specific hints?
-- **Time flexibility**: Can teams run sessions on their own schedules?
+- Session stability: Can the platform handle your full team without connection drops?
+- Puzzle variety: Are the challenges mentally engaging for analytical minds?
+- Facilitation tools: Can you customize difficulty or add team-specific hints?
+- Time flexibility: Can teams run sessions on their own schedules?
 
 ## Platform Categories for Remote Teams
 
@@ -106,13 +106,13 @@ Can you add custom puzzles? Incorporate company branding? Adjust difficulty mid-
 
 Running a successful virtual escape room event requires more than selecting a platform. Consider these operational details:
 
-**Session length**: Plan for 60-90 minutes of actual puzzle time plus 15-30 minutes for briefing and debrief. Technical teams appreciate clear time boundaries.
+Session length: Plan for 60-90 minutes of actual puzzle time plus 15-30 minutes for briefing and debrief. Technical teams appreciate clear time boundaries.
 
-**Team composition**: Mix experience levels and roles. Developers, designers, and product managers bring different problem-solving approaches that complement each other.
+Team composition: Mix experience levels and roles. Developers, designers, and product managers bring different problem-solving approaches that complement each other.
 
-**Facilitation**: Designate someone to monitor progress, provide hints when teams struggle, and keep the event on schedule. This role requires familiarity with the specific platform.
+Facilitation: Designate someone to monitor progress, provide hints when teams struggle, and keep the event on schedule. This role requires familiarity with the specific platform.
 
-**Follow-up**: Schedule a short async discussion afterward. What communication patterns emerged? Who took leadership roles? These observations translate to workplace insights.
+Follow-up: Schedule a short async discussion afterward. What communication patterns emerged? Who took leadership roles? These observations translate to workplace insights.
 
 ## Making the Decision
 

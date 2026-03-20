@@ -127,7 +127,7 @@ Retrieves user information by ID.
 
 ## Monitoring and Error Tracking
 
-Sentry's free tier provides comprehensive error tracking with 7,500 errors per month—more than sufficient for side projects. Install the SDK in your application:
+Sentry's free tier provides error tracking with 7,500 errors per month—more than sufficient for side projects. Install the SDK in your application:
 
 ```javascript
 // JavaScript/Node.js Sentry SDK setup
@@ -152,7 +152,7 @@ For uptime monitoring, UptimeRobot offers 50 free monitors with 5-minute check i
 
 ## Putting It All Together
 
-The most effective workflow combines these tools into an automated pipeline. Connect GitHub to Vercel for deployment, add Sentry for error tracking, and configure UptimeRobot for monitoring. This creates a hands-off system where your side project essentially manages itself while you focus on building features.
+The most effective workflow combines these tools into an automated pipeline. Connect GitHub to Vercel for deployment, add Sentry for error tracking, and configure UptimeRobot for monitoring. This creates a hands-off system where your side project manages itself while you focus on building features.
 
 Set up a weekly review habit to address issues flagged by your monitoring tools and plan next week's development. Use Trello or Notion to capture ideas as they come, preventing the scatter that leads to abandoned projects.
 

@@ -17,7 +17,7 @@ The best multi-currency accounting software for remote agencies billing in both 
 
 ## Why Multi-Currency Matters for Remote Agencies
 
-When you bill a US client $10,000 and your expenses are in euros, every invoice creates a foreign exchange exposure. Your bank might convert at 1.08 EUR/USD today, but by the time payment arrives 30 days later, the rate could shift significantly. Proper multi-currency accounting tracks these gains and losses accurately in your books.
+When you bill an US client $10,000 and your expenses are in euros, every invoice creates a foreign exchange exposure. Your bank might convert at 1.08 EUR/USD today, but by the time payment arrives 30 days later, the rate could shift significantly. Proper multi-currency accounting tracks these gains and losses accurately in your books.
 
 The core requirement is simple: your accounting system must record transactions in their original currency while maintaining accurate EUR and USD equivalents for reporting.
 
@@ -25,11 +25,11 @@ The core requirement is simple: your accounting system must record transactions 
 
 Before evaluating specific tools, understand what your system actually needs to handle:
 
-1. **Multi-currency nominal ledger**: Every transaction must be recordable in original currency with automatic conversion
-2. **Real-time exchange rate fetching**: APIs that pull current rates for accurate invoicing
-3. **Recurring invoice automation**: Scheduled invoices in any supported currency
-4. **Foreign currency bank accounts**: The ability to hold and spend in multiple currencies without constant conversion
-5. **Tax-compliant reporting**: VAT/GST handling across jurisdictions
+1. Multi-currency nominal ledger: Every transaction must be recordable in original currency with automatic conversion
+2. Real-time exchange rate fetching: APIs that pull current rates for accurate invoicing
+3. Recurring invoice automation: Scheduled invoices in any supported currency
+4. Foreign currency bank accounts: The ability to hold and spend in multiple currencies without constant conversion
+5. Tax-compliant reporting: VAT/GST handling across jurisdictions
 
 ## Practical Implementation Examples
 
@@ -72,7 +72,7 @@ This approach ensures your invoices carry the exact exchange rate used at creati
 
 ### API-First Solutions
 
-For developers who want full control, solutions like **Xero** and **QuickBooks Online** provide robust REST APIs. You can programmatically create invoices, sync with your CRM, and build custom dashboards.
+For developers who want full control, solutions like **Xero** and **QuickBooks Online** provide REST APIs. You can programmatically create invoices, sync with your CRM, and build custom dashboards.
 
 ```javascript
 // QuickBooks Online: Creating a multi-currency invoice
@@ -100,7 +100,7 @@ Xero handles multi-currency more natively, allowing you to set a currency per in
 If you prefer full data ownership, **Invoice Ninja** and **Dolibarr** offer self-hosted versions with multi-currency support. Both support API access:
 
 - **Invoice Ninja** (v5): Full REST API with webhooks, supports 50+ currencies, handles automatic exchange rate updates
-- **Dolibarr**: More complex setup but comprehensive ERP features beyond just invoicing
+- Dolibarr: More complex setup but ERP features beyond just invoicing
 
 Self-hosting gives you complete control over your data, which matters if you operate in regions with strict data sovereignty requirements.
 

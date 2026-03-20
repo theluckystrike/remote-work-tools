@@ -42,11 +42,11 @@ Here's a quick reference for common scenarios:
 
 Professional video lighting uses a three-point setup: key light, fill light, and back light. Each serves a distinct purpose in creating dimension and eliminating shadows.
 
-**Key Light**: Your primary light source, positioned 45 degrees to one side and slightly above eye level. This creates the main illumination and defines your face. For basement offices, a ring light or LED panel works well as a key light. Position it directly in front of you, slightly above camera height, for even illumination without harsh shadows.
+Key Light: Your primary light source, positioned 45 degrees to one side and slightly above eye level. This creates the main illumination and defines your face. For basement offices, a ring light or LED panel works well as a key light. Position it directly in front of you, slightly above camera height, for even illumination without harsh shadows.
 
-**Fill Light**: A softer light on the opposite side, at about half the intensity of your key light. This fills in shadows created by the key light without eliminating them entirely. A desk lamp with a diffused bulb or a second LED panel set to lower intensity works effectively.
+Fill Light: A softer light on the opposite side, at about half the intensity of your key light. This fills in shadows created by the key light without eliminating them entirely. A desk lamp with a diffused bulb or a second LED panel set to lower intensity works effectively.
 
-**Back Light**: Positioned behind you, this separates you from the background and adds depth. It prevents you from blending into whatever is behind you—which in a basement might be a wall or shelving unit.
+Back Light: Positioned behind you, this separates you from the background and adds depth. It prevents you from blending into whatever is behind you—which in a basement might be a wall or shelving unit.
 
 For a minimal basement setup, you can achieve good results with just two lights: a key light in front and a back light behind. The fill light is optional but improves quality.
 

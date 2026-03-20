@@ -24,7 +24,7 @@ voice-checked: true
 {% raw %}
 # Remote Work Caregiver Leave Policy Template for Distributed Companies Supporting Sandwich Generation
 
-A comprehensive caregiver leave policy for distributed companies should provide 10-15 days annually, allow unpaid leave options, and include flexible scheduling for elder care without requiring advance notice. This policy template specifically addresses the "sandwich generation"—employees balancing children and aging parents—while maintaining productivity in async-first environments. It includes implementation guidance, communication templates, and return-to-work procedures for your remote organization.
+A caregiver leave policy for distributed companies should provide 10-15 days annually, allow unpaid leave options, and include flexible scheduling for elder care without requiring advance notice. This policy template specifically addresses the "sandwich generation"—employees balancing children and aging parents—while maintaining productivity in async-first environments. It includes implementation guidance, communication templates, and return-to-work procedures for your remote organization.
 
 ## Understanding the Sandwich Generation in Remote Work
 
@@ -174,10 +174,10 @@ Marcus manages a team spanning UTC-5 to UTC+9. His elderly mother requires weekl
 
 For developer audiences, document your caregiver policy alongside technical documentation. Use the same tools your team prefers—whether that's a Notion workspace, GitHub wiki, or internal developer portal. Include:
 
-1. **Self-service eligibility checker**: Build a quick calculator showing available leave
-2. **FAQ in Q&A format**: Address common scenarios directly
-3. **Team coordination templates**: Provide copy-paste messages for coverage requests
-4. **Manager escalation path**: Clear process for complex situations
+1. Self-service eligibility checker: Build a quick calculator showing available leave
+2. FAQ in Q&A format: Address common scenarios directly
+3. Team coordination templates: Provide copy-paste messages for coverage requests
+4. Manager escalation path: Clear process for complex situations
 
 ## Measuring Policy Effectiveness
 
@@ -189,15 +189,6 @@ Track these metrics to ensure your caregiver policy serves its purpose:
 | Return-to-work retention | >90% within 6 months | Annual |
 | Team coverage satisfaction | >4/5 rating | Quarterly |
 | Time-to-approval | <48 hours | Monthly |
-
-## Conclusion
-
-A caregiver leave policy for distributed companies supporting the sandwich generation requires more than generous time-off numbers. It needs explicit provisions for concurrent caregiving responsibilities, time zone-aware flexibility, and practical implementation tools that engineering teams can actually use. The template and examples above provide a foundation—adapt them to your team size, geographic distribution, and cultural values.
-
-Start with the core entitlements, add the sandwich generation bonus, then refine based on your team's specific needs. The investment in thoughtful caregiver policies pays dividends in retention, reduced burnout, and demonstrated commitment to your employees' whole lives.
-
----
-
 
 ## Related Reading
 

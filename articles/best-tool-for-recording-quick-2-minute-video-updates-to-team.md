@@ -80,10 +80,10 @@ Configure a scene for quick team updates with this approach:
 
 For 2-minute updates, configure these settings in Settings > Output:
 
-- **Recording Format**: mp4
-- **Video Bitrate**: 2500 kbps (good balance of quality and size)
-- **Audio Bitrate**: 128 kbps
-- **Recording Path**: Set to a folder synced with your cloud storage
+- Recording Format: mp4
+- Video Bitrate: 2500 kbps (good balance of quality and size)
+- Audio Bitrate: 128 kbps
+- Recording Path: Set to a folder synced with your cloud storage
 
 Create a scene preset for quick updates:
 

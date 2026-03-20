@@ -24,11 +24,11 @@ This guide provides a complete framework for implementing async release notes wo
 
 Traditional release notes creation often involves synchronous meetings where team members gather to discuss what shipped in the release. While this works for co-located teams, it creates several problems for distributed teams:
 
-1. **Time zone conflicts**: Finding a time that works for San Francisco, London, and Tokyo is nearly impossible
-2. **Meeting fatigue**: Adding another synchronous meeting to already crowded calendars
-3. **Rushed discussions**: Team members who join late at night or early in the morning are less engaged
-4. **Incomplete memory**: Important details get forgotten by the time the meeting happens
-5. **Documentation gap**: No permanent record of the decision-making process
+1. Time zone conflicts: Finding a time that works for San Francisco, London, and Tokyo is nearly impossible
+2. Meeting fatigue: Adding another synchronous meeting to already crowded calendars
+3. Rushed discussions: Team members who join late at night or early in the morning are less engaged
+4. Incomplete memory: Important details get forgotten by the time the meeting happens
+5. Documentation gap: No permanent record of the decision-making process
 
 An async approach converts these challenges into advantages. Team members contribute when it's convenient for them, review during their productive hours, and the entire process creates a documented trail of what changed and why.
 
@@ -112,10 +112,10 @@ This ongoing collection prevents the last-minute scramble to remember what chang
 
 After code freeze, the release manager (or rotating role) creates the initial draft:
 
-1. **Aggregate contributions**: Compile all entries from the shared document
-2. **Categorize**: Group by type (features, fixes, breaking changes, etc.)
-3. **Edit for clarity**: Ensure descriptions are user-facing and consistent
-4. **Add context**: Include release highlights and any important caveats
+1. Aggregate contributions: Compile all entries from the shared document
+2. Categorize: Group by type (features, fixes, breaking changes, etc.)
+3. Edit for clarity: Ensure descriptions are user-facing and consistent
+4. Add context: Include release highlights and any important caveats
 
 ### Phase 3: Async Review (Before Release)
 
@@ -141,10 +141,10 @@ Comment directly in the doc or add emoji reactions to approve.
 
 Once review is complete:
 
-1. **Final approval**: Release manager confirms all feedback addressed
-2. **Format conversion**: Convert to your distribution format (markdown, HTML, PDF)
-3. **Multi-channel distribution**: Send to appropriate channels
-4. **Archive**: Save a copy for historical reference
+1. Final approval: Release manager confirms all feedback addressed
+2. Format conversion: Convert to your distribution format (markdown, HTML, PDF)
+3. Multi-channel distribution: Send to appropriate channels
+4. Archive: Save a copy for historical reference
 
 ## Tools and Integrations
 
@@ -169,10 +169,10 @@ Once review is complete:
 
 Consider these automations to reduce manual work:
 
-1. **PR label automation**: When a PR is merged with a specific label, prompt for release notes contribution
-2. **Changelog generation**: Use tools like release-please to auto-generate from conventional commits
-3. **Slack notifications**: Bot posts in #releases when notes are ready for review
-4. **Version tagging**: Auto-create GitHub releases with release notes content
+1. PR label automation: When a PR is merged with a specific label, prompt for release notes contribution
+2. Changelog generation: Use tools like release-please to auto-generate from conventional commits
+3. Slack notifications: Bot posts in #releases when notes are ready for review
+4. Version tagging: Auto-create GitHub releases with release notes content
 
 ## Handling Common Challenges
 
@@ -188,8 +188,8 @@ Consider these automations to reduce manual work:
 
 **Solution:** Provide examples of good vs. bad descriptions:
 
-❌ **Bad**: "Fixed NPE in user service"
-✅ **Good**: "Fixed crash that occurred when users tried to upload profile pictures with special characters in their username"
+❌ Bad: "Fixed NPE in user service"
+✅ Good: "Fixed crash that occurred when users tried to upload profile pictures with special characters in their username"
 
 ### Challenge: Review Delays
 
@@ -211,18 +211,11 @@ Consider these automations to reduce manual work:
 
 Track these metrics to continuously improve your async release notes process:
 
-1. **On-time publication**: Percentage of releases with notes published before or on release day
-2. **Review participation**: How many team members contribute to review
-3. **Stakeholder feedback**: Survey readability and usefulness
-4. **Correction rate**: How often errors are found post-publication
-5. **Time to produce**: Total hours spent on release notes creation
-
-## Conclusion
-
-An async release notes process transforms what was often a painful synchronous chore into a smooth, collaborative workflow that respects distributed teams' time zones and working hours. The key is starting simple, establishing clear guidelines, and iterating based on what works for your specific team dynamics.
-
-Start with the template and guidelines in this article, adapt them to your team's needs, and don't be afraid to experiment with different tools and timing until you find your perfect rhythm.
-{% endraw %}
+1. On-time publication: Percentage of releases with notes published before or on release day
+2. Review participation: How many team members contribute to review
+3. Stakeholder feedback: Survey readability and usefulness
+4. Correction rate: How often errors are found post-publication
+5. Time to produce: Total hours spent on release notes creation
 
 ## Related Reading
 

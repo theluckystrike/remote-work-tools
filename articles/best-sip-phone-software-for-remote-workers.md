@@ -114,7 +114,7 @@ Zoiper provides desktop and mobile apps with a consistent interface. The WebRTC 
 
 ### Bria (CounterPath)
 
-Bria represents the premium commercial tier with polished interfaces and robust support. It excels in environments requiring tight integration with existing telephony infrastructure.
+Bria represents the premium commercial tier with polished interfaces and support. It excels in environments requiring tight integration with existing telephony infrastructure.
 
 Bria offers professional support with regular updates, visual custom branding options, and advanced call handling with UC integration. Deployment tools support enterprise rollout. The cost is justified when support guarantees matter for business-critical communications.
 
@@ -184,8 +184,8 @@ SIP encryption protects signaling, but the voice media (RTP) travels separately.
 
 SIP uses multiple ports:
 
-- **5060/5061**: SIP signaling (UDP/TCP/TLS)
-- **10000-20000**: RTP media ports (adjustable in most clients)
+- 5060/5061: SIP signaling (UDP/TCP/TLS)
+- 10000-20000: RTP media ports (adjustable in most clients)
 
 Ensure your firewall permits both directions for these ranges.
 

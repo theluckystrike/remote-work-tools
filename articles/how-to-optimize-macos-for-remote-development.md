@@ -26,7 +26,7 @@ The terminal serves as your primary workspace. Optimizing it directly impacts da
 
 ### Switching to Zsh with Oh My Zsh
 
-macOS Catalina and later use Zsh by default, but configuring it properly unlocks significant improvements. Oh My Zsh provides a robust framework with plugins and themes that accelerate common tasks.
+macOS Catalina and later use Zsh by default, but configuring it properly unlocks significant improvements. Oh My Zsh provides a framework with plugins and themes that accelerate common tasks.
 
 ```bash
 # Install Oh My Zsh

@@ -199,7 +199,7 @@ One effective practice: start each team meeting with a brief round-robin where e
 
 ## Tools That Support Trust-Building
 
-While trust is fundamentally about behavior rather than tools, certain tools facilitate trust-building practices:
+While trust is fundamentally about behavior rather than tools, certain tools help trust-building practices:
 
 - **Async video (Loom, Vidyard):** Enables rich async communication
 - **Documentation (Notion, GitBook, Confluence):** Makes knowledge accessible
@@ -208,13 +208,6 @@ While trust is fundamentally about behavior rather than tools, certain tools fac
 - **Status pages (GitHub Status, Atlassian Statuspage):** Demonstrates operational honesty
 
 The tool choice matters less than consistent usage. Pick tools your team will actually use and commit to them.
-
-## Conclusion
-
-Building trust on remote teams requires abandoning habits that worked in co-located settings and adopting new practices centered on transparency, documentation, and explicit communication. Start with small, consistent actions: deliver on commitments, share context generously, and make knowledge accessible. Over time, these patterns compound into a trust foundation that enables truly effective remote collaboration.
-
-The investment pays dividends in reduced coordination costs, faster decision-making, and team resilience. When trust is solid, remote work doesn't just work—it thrives.
-
 
 ## Related Reading
 

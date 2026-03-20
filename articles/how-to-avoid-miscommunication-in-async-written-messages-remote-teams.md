@@ -165,7 +165,7 @@ Create team-wide conventions for urgency and intent:
 [QUESTION] — Needs clarification, not time-sensitive
 ```
 
-### Leverage Async Video for Complex Topics
+### use Async Video for Complex Topics
 
 When text creates too much ambiguity, a 2-minute Loom or Vidyard recording adds tone and context. Explain complex ideas face-to-face (even asynchronously) and follow up with a written summary for reference.
 

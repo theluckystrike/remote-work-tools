@@ -180,10 +180,10 @@ Some countries tax only income earned within their borders. If you work remotely
 
 Several countries now offer digital nomad visas with specific tax treatment:
 
-- **Estonia**: E-residency + digital nomad visa, no capital gains tax
-- **Portugal**: NHR provides 20% flat tax on most foreign income
-- **Croatia**: Digital nomad visa, no local tax for up to 5 years
-- **Indonesia**: Second home visa with tax benefits
+- Estonia: E-residency + digital nomad visa, no capital gains tax
+- Portugal: NHR provides 20% flat tax on most foreign income
+- Croatia: Digital nomad visa, no local tax for up to 5 years
+- Indonesia: Second home visa with tax benefits
 
 Research your specific situation carefully. Tax treaties between countries affect your obligations, and rules change frequently.
 
@@ -191,18 +191,11 @@ Research your specific situation carefully. Tax treaties between countries affec
 
 Based on common digital nomad workflows, here's a recommended setup:
 
-1. **Primary Account**: Wise for multi-currency management and receiving client payments in USD, EUR, GBP
-2. **Secondary Account**: Payoneer if you work through freelancing platforms
-3. **Crypto Allocation**: 10-20% of income in stablecoins for emergencies and international flexibility
-4. **Local Banking**: Open a local bank account in your most frequent country for ATM withdrawals and local expenses
-5. **Documentation**: Keep detailed records of income sources, locations, and visa status for tax purposes
-
-## Conclusion
-
-Getting paid internationally as a digital nomad requires understanding the payment ecosystem and choosing tools that match your specific situation. Wise covers most freelancer use cases efficiently. Crypto provides flexibility for clients who prefer it and serves as a useful hedge. Regional banking handles local needs.
-
-Start with one primary platform, add secondary options as needed, and build a system that works for your specific income sources and travel patterns. The setup effort pays off quickly through lower fees and faster access to your money.
-
+1. Primary Account: Wise for multi-currency management and receiving client payments in USD, EUR, GBP
+2. Secondary Account: Payoneer if you work through freelancing platforms
+3. Crypto Allocation: 10-20% of income in stablecoins for emergencies and international flexibility
+4. Local Banking: Open a local bank account in your most frequent country for ATM withdrawals and local expenses
+5. Documentation: Keep detailed records of income sources, locations, and visa status for tax purposes
 
 ## Related Reading
 

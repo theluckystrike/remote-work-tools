@@ -36,10 +36,10 @@ For the base M4 chip, you'll typically get one external display at full resoluti
 
 Developers consistently report significant productivity improvements with external displays:
 
-- **Reduced window switching**: Keep code, documentation, and tests visible simultaneously
-- **Better code reviews**: View diffs side-by-side without scrolling
-- **Improved focus**: Dedicated screens for communication tools and reference material
-- **Ergonomic benefits**: Position external displays at eye level to reduce neck strain
+- Reduced window switching: Keep code, documentation, and tests visible simultaneously
+- Better code reviews: View diffs side-by-side without scrolling
+- Improved focus: Dedicated screens for communication tools and reference material
+- Ergonomic benefits: Position external displays at eye level to reduce neck strain
 
 Research shows developers can save 2-4 hours daily through improved workflow efficiency when using multiple monitors.
 
@@ -53,15 +53,15 @@ The MacBook Air M4 features USB-C ports with Thunderbolt 4 support. For the clea
 - Transfer video, audio, and data over a single cable
 - Support daisy-chaining for multiple monitors
 
-If your preferred display uses HDMI, you'll need a USB-C to HDMI adapter. This works fine but adds cable clutter to your setup.
+If your preferred display uses HDMI, you'll need an USB-C to HDMI adapter. This works fine but adds cable clutter to your setup.
 
 ### Resolution and Screen Real Estate
 
 For developer workflows, resolution matters more than refresh rates:
 
-- **1440p (QHD)**: Minimum acceptable for comfortable code viewing
-- **4K (UHD)**: Ideal balance of screen real estate and text clarity
-- **5K/6K**: Maximum detail for large monitors, requires Pro/Max chip for full utilization
+- 1440p (QHD): Minimum acceptable for comfortable code viewing
+- 4K (UHD): Ideal balance of screen real estate and text clarity
+- 5K/6K: Maximum detail for large monitors, requires Pro/Max chip for full utilization
 
 The MacBook Air M4 handles 4K displays without issues. Text scaling in macOS makes even 27-inch 4K displays comfortable for all-day coding.
 
@@ -69,9 +69,9 @@ The MacBook Air M4 handles 4K displays without issues. Text scaling in macOS mak
 
 Developer-focused displays typically use IPS panels for:
 
-- **Consistent colors**: Important if you occasionally work with design tasks
-- **Wide viewing angles**: Collaborate with colleagues viewing your screen
-- **Reduced eye strain**: Less glare compared to glossy OLED options
+- Consistent colors: Important if you occasionally work with design tasks
+- Wide viewing angles: Collaborate with colleagues viewing your screen
+- Reduced eye strain: Less glare compared to glossy OLED options
 
 OLED displays offer deeper blacks and higher contrast, but can cause eye strain during long coding sessions due to PWM dimming.
 
@@ -79,9 +79,9 @@ OLED displays offer deeper blacks and higher contrast, but can cause eye strain 
 
 Consider your desk depth and viewing distance:
 
-- **24-27 inches**: Fits most desks, provides substantial screen real estate
-- **32 inches**: Requires deeper desk (20+ inches), excellent for split-screen workflows
-- **Ultrawide (34+ inches)**: Replaces dual-monitor setups, but requires more desk space
+- 24-27 inches: Fits most desks, provides substantial screen real estate
+- 32 inches: Requires deeper desk (20+ inches), excellent for split-screen workflows
+- Ultrawide (34+ inches): Replaces dual-monitor setups, but requires more desk space
 
 Look for displays with:
 - Height adjustment for eye-level positioning
@@ -108,7 +108,7 @@ The IPS Black technology delivers improved contrast ratios compared to standard 
 - Multiple USB ports for peripherals
 - ComfortView Plus reduces blue light
 
-**Price range**: $600-700
+Price range: $600-700
 
 ### Best Budget Option: LG 27UN880-B Ergo 27-Inch 4K Display
 
@@ -128,7 +128,7 @@ The unique Ergo stand clamps to your desk and extends far, making it ideal for s
 - Clear 4K text rendering
 - Reliable brand with good warranty
 
-**Price range**: $350-450
+Price range: $350-450
 
 ### Best Ultrawide: Samsung Odyssey G7 S49AG950N
 
@@ -140,7 +140,7 @@ For developers who want to replace dual monitors with a single ultrawide:
 - 144Hz refresh rate
 - 1000R curvature
 
-This massive display essentially gives you two 27-inch monitors side-by-side without bezels in the middle. The 32:9 ratio is perfect for wide code views, documentation, and communication tools simultaneously.
+This massive display gives you two 27-inch monitors side-by-side without bezels in the middle. The 32:9 ratio is perfect for wide code views, documentation, and communication tools simultaneously.
 
 **Why it works for developers:**
 - Replaces dual-monitor setup
@@ -148,9 +148,9 @@ This massive display essentially gives you two 27-inch monitors side-by-side wit
 - Curved design reduces head movement
 - Picture-by-Picture mode for two inputs
 
-**Note**: Requires desk depth of at least 20 inches. The MacBook Air M4 may need a dock to run this at full resolution.
+Note: Requires desk depth of at least 20 inches. The MacBook Air M4 may need a dock to run this at full resolution.
 
-**Price range**: $900-1100
+Price range: $900-1100
 
 ### Best for Text Clarity: Apple Studio Display
 
@@ -171,9 +171,9 @@ The Studio Display delivers the crisp text rendering Mac users expect. At 5K res
 - Built-in camera for video calls
 - Clean, minimalist design matches MacBook
 
-**Consideration**: No height adjustment in standard model; stand adds significant cost.
+Consideration: No height adjustment in standard model; stand adds significant cost.
 
-**Price range**: $1,600-2,000
+Price range: $1,600-2,000
 
 ## Setting Up Your External Display
 
@@ -181,35 +181,35 @@ The Studio Display delivers the crisp text rendering Mac users expect. At 5K res
 
 Position your external display for maximum comfort:
 
-1. **Height**: Top of screen at or slightly below eye level
-2. **Distance**: Arm's length away (20-26 inches)
-3. **Angle**: Slight tilt back (10-20 degrees)
-4. **Alignment**: Center with your keyboard and MacBook
+1. Height: Top of screen at or slightly below eye level
+2. Distance: Arm's length away (20-26 inches)
+3. Angle: Slight tilt back (10-20 degrees)
+4. Alignment: Center with your keyboard and MacBook
 
 ### macOS Display Configuration
 
 Configure your display in System Settings > Displays:
 
-- **Resolution**: Select "Default for display" for automatic scaling
-- **Arrangement**: Drag displays to match physical layout
-- **Main display**: Set your external display as primary if preferred
-- **Night Shift**: Enable for evening coding sessions
+- Resolution: Select "Default for display" for automatic scaling
+- Arrangement: Drag displays to match physical layout
+- Main display: Set your external display as primary if preferred
+- Night Shift: Enable for evening coding sessions
 
 ### Color Profile Selection
 
 For accurate colors in occasional design work:
 
-- **General coding**: "Default" or "sRGB"
-- **Design tasks**: "Display P3"
-- **Photo/video**: Match your workflow requirements
+- General coding: "Default" or "sRGB"
+- Design tasks: "Display P3"
+- Photo/video: Match your workflow requirements
 
 ## Power Delivery Considerations
 
 When choosing a display, verify USB-C power delivery meets your MacBook Air M4 needs:
 
-- **M4 MacBook Air**: 30W charging sufficient
-- **M4 with performance demands**: 35W+ recommended
-- **Always keep adapter nearby**: Use as backup when display is off
+- M4 MacBook Air: 30W charging sufficient
+- M4 with performance demands: 35W+ recommended
+- Always keep adapter nearby: Use as backup when display is off
 
 The displays listed above all provide sufficient power for the MacBook Air M4, though charging speed varies.
 

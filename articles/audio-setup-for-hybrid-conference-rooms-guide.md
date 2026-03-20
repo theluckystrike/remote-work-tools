@@ -24,10 +24,10 @@ Hybrid rooms combine two acoustic environments that rarely work well together. T
 
 The most common problems in hybrid conference rooms are:
 
-- **Echo**: In-room speakers' audio feeds back through microphones
-- **Far-end noise**: Remote participants hear room noise amplified by their speakers
-- **Uneven coverage**: Some speakers are clearly audible while others are faint
-- **Reverberation**: Hard surfaces cause sound to bounce, creating muddy audio
+- Echo: In-room speakers' audio feeds back through microphones
+- Far-end noise: Remote participants hear room noise amplified by their speakers
+- Uneven coverage: Some speakers are clearly audible while others are faint
+- Reverberation: Hard surfaces cause sound to bounce, creating muddy audio
 
 Address these systematically through equipment selection, room treatment, and proper gain staging.
 

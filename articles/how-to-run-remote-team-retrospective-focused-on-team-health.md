@@ -80,7 +80,7 @@ Sharing these reflections is optional—sometimes the act of writing is valuable
 
 ## Facilitation Techniques That Work Remotely
 
-Facilitating health discussions remotely requires intentional structure. Without careful facilitation, some voices dominate while others stay silent.
+helping health discussions remotely requires intentional structure. Without careful facilitation, some voices dominate while others stay silent.
 
 **Use written responses first.** Before opening verbal discussion, give everyone 5-10 minutes to write their thoughts individually. This ensures quieter team members have opportunity to contribute, and written responses often surface issues that people hesitate to mention verbally.
 

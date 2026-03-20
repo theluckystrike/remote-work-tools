@@ -28,10 +28,10 @@ Effective async critique also relies on **clear prompts** that guide reviewers t
 
 Before requesting feedback, structure your design documentation so reviewers have everything they need. Include:
 
-- **Context**: What problem does this design solve? Who is the target user?
-- **Success criteria**: What does success look like for this feature?
-- **Variations**: If you're comparing multiple approaches, present each clearly.
-- **Known concerns**: Highlight areas where you specifically want feedback.
+- Context: What problem does this design solve? Who is the target user?
+- Success criteria: What does success look like for this feature?
+- Variations: If you're comparing multiple approaches, present each clearly.
+- Known concerns: Highlight areas where you specifically want feedback.
 
 Use a consistent format for presenting designs. Many teams use a simple markdown template:
 
@@ -163,13 +163,6 @@ Monitor your async critique process over time. Are deadlines being met? Is feedb
 **Making critique mandatory for everything.** Reserve async critique for significant design decisions. Small tweaks may not warrant the overhead.
 
 **Ignoring non-designers.** Developers and product managers often spot issues that designers miss. Include them selectively based on the design area under review.
-
-## Conclusion
-
-An async design critique process transforms how remote UX teams collaborate. By structuring feedback collection, setting clear timelines, and closing the loop consistently, teams overcome the limitations of distributed work without sacrificing design quality.
-
-The key is starting simple. Pick one project type, try the markdown template approach, and iterate based on what works for your team. Over time, async critique becomes a natural part of your design workflow—one that actually improves when team members have time to think before they respond.
-
 
 ## Related Reading
 

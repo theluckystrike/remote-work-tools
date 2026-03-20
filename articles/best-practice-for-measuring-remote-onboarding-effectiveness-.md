@@ -99,10 +99,10 @@ Raw TTFC numbers mean little without context. You need to establish benchmarks b
 
 A reasonable starting framework:
 
-- **Week 1 (0-7 days)**: Excellent—developer contributed quickly
-- **Week 2 (8-14 days)**: Good—within expected range
-- **Weeks 3-4 (15-30 days)**: Needs attention—investigate barriers
-- **Beyond 30 days**: Problem—immediate intervention required
+- Week 1 (0-7 days): Excellent—developer contributed quickly
+- Week 2 (8-14 days): Good—within expected range
+- Weeks 3-4 (15-30 days): Needs attention—investigate barriers
+- Beyond 30 days: Problem—immediate intervention required
 
 Adjust these ranges based on your technology stack complexity. A team using a monolithic Rails application will naturally have longer TTFC than a team with microservices where new developers can contribute to a single service quickly.
 

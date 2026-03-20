@@ -173,7 +173,7 @@ These check-ins provide visibility without requiring simultaneous presence. Team
 
 ## Maintaining Your Playbook
 
-A communication playbook is a living document, not a one-time creation. Schedule quarterly reviews to assess whether your communication patterns are working. Ask your team:
+A communication playbook is a living document, not an one-time creation. Schedule quarterly reviews to assess whether your communication patterns are working. Ask your team:
 
 - Are response times realistic?
 - Are channels being used appropriately?
@@ -190,15 +190,6 @@ Gather feedback through simple async surveys:
 3. What's one change that would improve our async communication?
 4. How can our meetings be more effective?
 ```
-
-## Conclusion
-
-Creating a communication playbook requires upfront investment but pays dividends in reduced friction and improved team coordination. The key is starting simple—define channels, establish response expectations, document decisions, and iterate based on real usage.
-
-The best playbooks evolve with the team. What works for a five-person startup may not scale to twenty people. Regular review and adjustment ensures your communication infrastructure matches your team's needs.
-
-Start with the basics: know your time zones, define your channels, set realistic response expectations, and document your decisions. You can always add complexity as your team grows.
-
 
 ## Related Reading
 

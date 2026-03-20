@@ -64,7 +64,7 @@ Miro's real-time collaboration supports up to 50 simultaneous viewers, with unli
 **Strengths:**
 - Unlimited canvas space with infinite zoom
 - Extensive third-party integrations (Figma, Jira, Confluence)
-- Robust voting and dot-voting plugins
+- voting and dot-voting plugins
 - Strong presence indicators showing who's viewing what
 
 **Limitations:**
@@ -210,7 +210,7 @@ async function createSynthesisWorkshop(workspaceId) {
 **Limitations:**
 - More expensive than competitors
 - Canvas performance issues with heavy content
-- Integration ecosystem not as robust as Miro
+- Integration ecosystem not as as Miro
 
 ## Choosing the Right Tool for Your Team
 

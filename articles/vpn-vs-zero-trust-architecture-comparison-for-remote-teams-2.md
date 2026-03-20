@@ -109,7 +109,7 @@ This level of granularity is impossible with traditional VPN architecture.
 
 ## Performance and Latency Considerations
 
-VPN introduces latency by routing all traffic through a central gateway. A developer in Sydney connecting to a US-based VPN gateway experiences noticeable delays. This becomes problematic with:
+VPN introduces latency by routing all traffic through a central gateway. A developer in Sydney connecting to an US-based VPN gateway experiences noticeable delays. This becomes problematic with:
 
 - Real-time collaboration tools
 - Video conferencing
@@ -156,11 +156,11 @@ Zero Trust requires more upfront investment:
 
 For teams using VPN today, a phased approach works best:
 
-1. **Phase 1**: Enable MFA on VPN connections
-2. **Phase 2**: Implement device posture checks alongside VPN
-3. **Phase 3**: Deploy identity-aware proxy for critical applications
-4. **Phase 4**: Migrate resources to direct access with Zero Trust policies
-5. **Phase 5**: Decommission VPN for general access
+1. Phase 1: Enable MFA on VPN connections
+2. Phase 2: Implement device posture checks alongside VPN
+3. Phase 3: Deploy identity-aware proxy for critical applications
+4. Phase 4: Migrate resources to direct access with Zero Trust policies
+5. Phase 5: Decommission VPN for general access
 
 Here's a Terraform example for an identity-aware proxy:
 

@@ -177,11 +177,11 @@ if __name__ == '__main__':
 
 Evaluate project management tools based on these criteria:
 
-- **Data portability**: Can you export all data in standard formats?
-- **Pricing transparency**: Does the cost scale predictably with usage?
-- **API quality**: Can you automate repetitive actions?
-- **Self-hosting option**: Do you own your data or rent access?
-- **CLI support**: Can you perform core actions without GUI?
+- Data portability: Can you export all data in standard formats?
+- Pricing transparency: Does the cost scale predictably with usage?
+- API quality: Can you automate repetitive actions?
+- Self-hosting option: Do you own your data or rent access?
+- CLI support: Can you perform core actions without GUI?
 
 For developers who value control and transparency, the combination of Taskwarrior for personal tracking, Linear for client work, and Focalboard for complex projects provides flexibility without vendor lock-in. The initial setup requires more effort than signing up for Asana, but the long-term benefits include predictable costs, complete data ownership, and workflows tailored to your specific needs.
 

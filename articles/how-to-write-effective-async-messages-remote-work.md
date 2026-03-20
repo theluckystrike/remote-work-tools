@@ -162,11 +162,11 @@ If you notice patterns of missed deadlines, unclear requirements, or frequent me
 
 Several tools enhance async communication for remote teams:
 
-- **Loom**: Video messages that convey tone and context efficiently
-- **Notion**: Wiki-style documentation that preserves decision history
-- **GitHub Discussions**: Technical decision tracking alongside code
-- **Loomai**: AI-assisted message drafting and clarity scoring
-- **Yac**: Voice messages that respect time zone differences
+- Loom: Video messages that convey tone and context efficiently
+- Notion: Wiki-style documentation that preserves decision history
+- GitHub Discussions: Technical decision tracking alongside code
+- Loomai: AI-assisted message drafting and clarity scoring
+- Yac: Voice messages that respect time zone differences
 
 These tools complement clear writing, not replace it. Even with video or voice options, the written summary ensures accessibility and searchability.
 

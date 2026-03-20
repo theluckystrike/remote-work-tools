@@ -89,7 +89,7 @@ sensor:
 
 ### High-End Solutions with Local Processing
 
-Enterprise-grade monitors like the Nanit Pro and Owlet Dream Duo offer robust feature sets but vary significantly in their network behavior. The Nanit Pro provides local recording to an SD card and offers an API for temperature and breathing motion data. However, cloud connectivity remains required for full functionality, which may concern privacy-sensitive developers.
+Enterprise-grade monitors like the Nanit Pro and Owlet Dream Duo offer feature sets but vary significantly in their network behavior. The Nanit Pro provides local recording to an SD card and offers an API for temperature and breathing motion data. However, cloud connectivity remains required for full functionality, which may concern privacy-sensitive developers.
 
 The Owlet Dream Duo integrates with HomeKit and provides local network discovery, making it compatible with Apple Home ecosystems while offering reasonable data export capabilities.
 

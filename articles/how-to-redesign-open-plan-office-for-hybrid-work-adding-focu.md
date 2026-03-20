@@ -158,13 +158,13 @@ The combination of focus pods plus ambient acoustic treatment creates a space wh
 
 Redesigning an open plan office requires tracking whether the changes achieve their intended goals. Key metrics include:
 
-**Pod utilization rate**: Aim for 60-80% average utilization. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
+Pod utilization rate: Aim for 60-80% average utilization. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
 
-**Employee satisfaction scores**: Survey team members quarterly on their ability to concentrate at the office. Compare scores before and after pod installation.
+Employee satisfaction scores: Survey team members quarterly on their ability to concentrate at the office. Compare scores before and after pod installation.
 
-**Meeting room conversion**: If you're converting traditional meeting rooms to focus pods, track whether meeting frequency decreases while individual productivity increases.
+Meeting room conversion: If you're converting traditional meeting rooms to focus pods, track whether meeting frequency decreases while individual productivity increases.
 
-**Hybrid attendance correlation**: The ultimate test—do employees come to the office more when focus pods are available? This indicates the pods provide genuine value versus desk space.
+Hybrid attendance correlation: The ultimate test—do employees come to the office more when focus pods are available? This indicates the pods provide genuine value versus desk space.
 
 ## Implementation Checklist
 

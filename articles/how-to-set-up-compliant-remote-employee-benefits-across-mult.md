@@ -32,7 +32,7 @@ Your system needs to identify where each employee works and apply the correct ru
 
 ## Data Model for Multi-State Benefits
 
-Start with a robust employee location model that tracks work jurisdictions:
+Start with a employee location model that tracks work jurisdictions:
 
 ```python
 from dataclasses import dataclass

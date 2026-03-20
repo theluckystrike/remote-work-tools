@@ -47,11 +47,11 @@ When evaluating remote work tools, prioritize security requirements heavily. Dat
 
 Remote teams handle sensitive data across borders, making security evaluation critical. Create a dedicated section that addresses:
 
-- **Data encryption**: At rest and in transit
-- **Access controls**: Role-based permissions, MFA support
-- **Audit logging**: What events are tracked and for how long
-- **Compliance certifications**: SOC 2, ISO 27001, GDPR, HIPAA
-- **Vendor breach history**: Document any security incidents in the past three years
+- Data encryption: At rest and in transit
+- Access controls: Role-based permissions, MFA support
+- Audit logging: What events are tracked and for how long
+- Compliance certifications: SOC 2, ISO 27001, GDPR, HIPAA
+- Vendor breach history: Document any security incidents in the past three years
 
 ```yaml
 # Security Checklist Example
@@ -94,7 +94,7 @@ Evaluate how each vendor fits into your existing toolchain. Document:
 - Webhook support for custom workflows
 - Data export capabilities (vendor lock-in risk)
 
-For remote teams, consider how well the tool supports async workflows. Can teams collaborate without real-time presence? Does the tool have robust threading and search capabilities?
+For remote teams, consider how well the tool supports async workflows. Can teams collaborate without real-time presence? Does the tool have threading and search capabilities?
 
 ## Evaluation Process Framework
 
@@ -147,15 +147,6 @@ Reach out to current customers, preferably those with similar team sizes and use
 Maintain version control for your evaluation documents. As new information becomes available or vendor offerings change, update your documentation and track changes. This creates a valuable institutional memory that improves future procurement decisions.
 
 Avoid generic evaluations that could apply to any vendor. Specific, measurable criteria produce better outcomes than subjective assessments. Instead of "good security," document "SOC 2 Type II certified with annual audits."
-
-## Conclusion
-
-Effective vendor evaluation documentation transforms procurement from a subjective exercise into a data-driven process. For remote teams, this documentation becomes even more valuable—it's the primary mechanism for achieving alignment without synchronous meetings.
-
-Invest time upfront in creating robust templates and evaluation criteria. The effort pays dividends through faster future evaluations, clearer decision rationale, and better vendor relationships built on mutual understanding of requirements.
-
----
-
 
 ## Related Reading
 

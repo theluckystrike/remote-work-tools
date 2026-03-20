@@ -25,16 +25,16 @@ Design sprints follow the Google Sprint methodology: Understand, Diverge, Decide
 
 You need sticky note collaboration that feels natural in a digital space. You need voting and prioritization mechanisms that work asynchronously. You need timer utilities that keep sessions on track across time zones. You need prototype building capabilities that don't require designers to be present in real-time.
 
-## Miro: Comprehensive Sprint Facilitation
+## Miro: Sprint Facilitation
 
 Miro stands as the most feature-complete platform for running remote design sprints. Its extensive template library includes pre-built sprint boards that map directly to the five-day sprint methodology.
 
 Key features for sprint teams:
 
-- **Sprint template library**: Pre-configured boards for Map, Sketch, Decide, and Prototype phases
-- **Timer widgets**: Built-in countdown timers for activity-based sessions
-- **Voting and clustering**: Anonymous voting for idea prioritization and sticky note grouping
-- **Integrations**: Slack notifications, Jira synchronization, and Confluence embedding
+- Sprint template library: Pre-configured boards for Map, Sketch, Decide, and Prototype phases
+- Timer widgets: Built-in countdown timers for activity-based sessions
+- Voting and clustering: Anonymous voting for idea prioritization and sticky note grouping
+- Integrations: Slack notifications, Jira synchronization, and Confluence embedding
 
 For developers, Miro offers a REST API that allows programmatic board creation and content extraction. This proves useful when you want to automatically export sprint results to your documentation:
 
@@ -69,10 +69,10 @@ FigJam, developed by Figma, provides a more streamlined approach to remote colla
 
 Practical sprint features:
 
-- **Quick reactions**: Emoji voting and reactions without navigating complex menus
-- **Sticky note templates**: Pre-formatted notes for common sprint activities
-- **Real-time cursors**: See where team members are focused during discussions
-- **Timer and voting**: Essential facilitation tools built directly into the interface
+- Quick reactions: Emoji voting and reactions without navigating complex menus
+- Sticky note templates: Pre-formatted notes for common sprint activities
+- Real-time cursors: See where team members are focused during discussions
+- Timer and voting: Essential facilitation tools built directly into the interface
 
 For teams already using Figma for design work, FigJam integrates directly. You can embed FigJam boards directly into Figma files, creating a natural workflow from ideation to design execution.
 
@@ -84,16 +84,16 @@ Mural excels at structured facilitation, offering guided workflows that help spr
 
 Notable capabilities:
 
-- **Guided mode**: Lock/unlock sections to control session flow
-- **Timer presets**: Pre-configured timers for activities like lightning demos
-- **Affinity mapping**: Automatic clustering of similar sticky notes
-- **Workshop templates**: Pre-built agendas for various sprint formats
+- Guided mode: Lock/unlock sections to control session flow
+- Timer presets: Pre-configured timers for activities like lightning demos
+- Affinity mapping: Automatic clustering of similar sticky notes
+- Workshop templates: Pre-built agendas for various sprint formats
 
 The learning curve proves steeper than alternatives, but teams investing time in Mural's methodology gain powerful controls for managing large group sessions. Mural works particularly well for organizations running frequent workshops across multiple teams.
 
 ## Specialized Sprint Tools
 
-Beyond comprehensive whiteboards, specific tools address individual sprint phases more deeply.
+Beyond whiteboards, specific tools address individual sprint phases more deeply.
 
 ### Sprint Planning and Management
 
@@ -123,9 +123,9 @@ Tools like Linear or Jira can track sprint tasks alongside development work, mai
 
 For teams spread across significant time zones, asynchronous ideation tools complement synchronous sessions. These platforms allow team members to contribute ideas before scheduled discussions:
 
-- **Confluence**: Team-only ideation pages with voting
-- **Notion**: Collaborative databases for idea collection
-- **Roam Research**: Network-style thought organization
+- Confluence: Team-only ideation pages with voting
+- Notion: Collaborative databases for idea collection
+- Roam Research: Network-style thought organization
 
 ### Rapid Prototyping
 
@@ -173,7 +173,7 @@ Selecting tools depends on your team's specific constraints:
 
 | Tool | Best For | Free Tier | Learning Curve |
 |------|----------|-----------|----------------|
-| Miro | Comprehensive sprints | 3 boards | Moderate |
+| Miro | sprints | 3 boards | Moderate |
 | FigJam | Quick iterations | Unlimited | Low |
 | Mural | Large team facilitation | 30 days | Steep |
 

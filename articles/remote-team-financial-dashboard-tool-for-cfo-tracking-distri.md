@@ -25,15 +25,15 @@ The key challenges include aggregating data from multiple sources, handling diff
 
 ## Core Architecture Components
 
-A robust real-time expense tracking system consists of several interconnected components:
+A real-time expense tracking system consists of several interconnected components:
 
-**Data Ingestion Layer**: Collects expense data from various sources including expense management platforms, accounting software, payment processors, and bank APIs.
+Data Ingestion Layer: Collects expense data from various sources including expense management platforms, accounting software, payment processors, and bank APIs.
 
-**Processing Layer**: Normalizes, categorizes, and enriches expense data in real time. This includes currency conversion, merchant categorization, and anomaly detection.
+Processing Layer: Normalizes, categorizes, and enriches expense data in real time. This includes currency conversion, merchant categorization, and anomaly detection.
 
-**Storage Layer**: Maintains both raw transaction data and aggregated metrics. Time-series databases work well for financial metrics.
+Storage Layer: Maintains both raw transaction data and aggregated metrics. Time-series databases work well for financial metrics.
 
-**Presentation Layer**: Provides the dashboard interface with filtering, visualization, and export capabilities.
+Presentation Layer: Provides the dashboard interface with filtering, visualization, and export capabilities.
 
 ## Building the Data Pipeline
 
@@ -323,15 +323,15 @@ def normalize_expense(expense):
 
 Beyond basic expense tracking, CFOs need strategic metrics:
 
-**Burn Rate by Team**: Track monthly spending per department to identify cost centers requiring attention.
+Burn Rate by Team: Track monthly spending per department to identify cost centers requiring attention.
 
-**Vendor Concentration**: Monitor spending distribution across vendors to assess risk and negotiate leverage.
+Vendor Concentration: Monitor spending distribution across vendors to assess risk and negotiate use.
 
-**Anomaly Detection**: Flag unusual transactions exceeding normal thresholds by category or user.
+Anomaly Detection: Flag unusual transactions exceeding normal thresholds by category or user.
 
-**Budget vs Actual**: Compare real-time spending against approved budgets with alerts for overages.
+Budget vs Actual: Compare real-time spending against approved budgets with alerts for overages.
 
-**Trend Analysis**: Identify seasonal patterns and forecast future expenses based on historical data.
+Trend Analysis: Identify seasonal patterns and forecast future expenses based on historical data.
 
 ```javascript
 // Simple anomaly detection
@@ -354,7 +354,7 @@ function detectAnomalies(transactions, category) {
 
 Start with a minimal viable dashboard that connects to your existing expense management tools. Prioritize accurate data ingestion over fancy visualizations. Establish clear categorization rules early, as retroactively correcting miscategorized expenses is painful.
 
-Invest in robust alerting configurations. CFOs shouldn't need to constantly monitor dashboards—they should receive notifications when intervention is needed. Set budget thresholds that trigger alerts at 75%, 90%, and 100% of allocated amounts.
+Invest in alerting configurations. CFOs shouldn't need to constantly monitor dashboards—they should receive notifications when intervention is needed. Set budget thresholds that trigger alerts at 75%, 90%, and 100% of allocated amounts.
 
 Consider data retention policies. While real-time access is crucial, maintaining historical data enables trend analysis and audit requirements. Compress older data while preserving aggregate metrics.
 

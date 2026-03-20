@@ -169,11 +169,6 @@ Use dedicated channels for different incident stages. A common pattern:
 
 Direct message your escalation contact first, then post to the appropriate channel. This prevents channel noise while ensuring the right person sees the message immediately.
 
-## Summary
-
-Effective escalation communication templates for remote teams require clear severity levels, structured message formats, explicit time zone handoff procedures, and automation where possible. Test your templates regularly during game days, gather feedback after real incidents, and iterate. The goal is reducing friction when stress is highest and ensuring no critical information falls through the cracks.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

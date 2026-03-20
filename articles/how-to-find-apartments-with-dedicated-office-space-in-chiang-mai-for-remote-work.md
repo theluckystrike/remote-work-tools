@@ -19,10 +19,10 @@ Target the Nimman, Huay Kaew, and Old City neighborhoods in Chiang Mai to find a
 
 Before searching, define what "dedicated office space" means for your situation. Consider these factors:
 
-- **Internet speed**: Minimum 100 Mbps download for video calls and code deployments
-- **Work hours**: Will you be on calls at unusual times? Neighbors matter
-- **Equipment**: Do you need space for multiple monitors, standing desks, or specialized hardware?
-- **Quiet environment**: Air conditioning noise, street noise, and neighborhood activity levels
+- Internet speed: Minimum 100 Mbps download for video calls and code deployments
+- Work hours: Will you be on calls at unusual times? Neighbors matter
+- Equipment: Do you need space for multiple monitors, standing desks, or specialized hardware?
+- Quiet environment: Air conditioning noise, street noise, and neighborhood activity levels
 
 For developers, Chiang Mai offers fiber internet in most areas, but coverage varies by building. Targeting neighborhoods with established expat communities simplifies the search considerably.
 
@@ -57,9 +57,9 @@ Search on [Hipflat](https://www.hipflat.co.th) and [DDproperty](https://www.ddpr
 
 ### International Platforms
 
-- **Booking.com**: Useful for monthly stays in serviced apartments
-- **Airbnb**: Good for short-term evaluation of neighborhoods
-- **Facebook Groups**: Chiang Mai Digital Nomad, Chiang Mai Housing groups
+- Booking.com: Useful for monthly stays in serviced apartments
+- Airbnb: Good for short-term evaluation of neighborhoods
+- Facebook Groups: Chiang Mai Digital Nomad, Chiang Mai Housing groups
 
 Join Facebook groups and introduce yourself with your requirements. Landlords frequently post directly in these communities, and recommendations from current residents help identify suitable buildings.
 
@@ -87,10 +87,10 @@ True dedicated office space within apartments varies in Chiang Mai. Understandin
 
 ### Types of Configurations
 
-1. **Separate Office Room**: A distinct room with a door, ideal for video calls
-2. **Alcove/Study Nook**: A corner or converted space, often without a door
-3. **Spacious Studio**: Open floor plan allowing desk placement away from living area
-4. **Two-Bedroom Units**: Using second bedroom as dedicated office
+1. Separate Office Room: A distinct room with a door, ideal for video calls
+2. Alcove/Study Nook: A corner or converted space, often without a door
+3. Spacious Studio: Open floor plan allowing desk placement away from living area
+4. Two-Bedroom Units: Using second bedroom as dedicated office
 
 Two-bedroom units typically cost 30-50% more than studios but provide genuine separation. For developers requiring focus time and client calls, this investment often pays off in productivity.
 
@@ -121,10 +121,10 @@ Utilities typically add 1,500-3,000 THB monthly, depending on air conditioning u
 
 Most landlords expect negotiation on annual leases. Key points:
 
-- **Payment terms**: Annual payment often provides 10-15% discount
-- **Move-in date**: Flexible timing can yield better rates
-- **Internet setup**: Request landlord installation or contribution
-- **Furniture**: Negotiate included items or removal for personal setup
+- Payment terms: Annual payment often provides 10-15% discount
+- Move-in date: Flexible timing can yield better rates
+- Internet setup: Request landlord installation or contribution
+- Furniture: Negotiate included items or removal for personal setup
 
 Request a minimum six-month lease initially. This provides flexibility while demonstrating commitment to landlords who prefer annual agreements.
 
@@ -142,11 +142,11 @@ Watch for these warning signs:
 
 Finding the right apartment requires balancing multiple factors. For developers and power users:
 
-1. **Start with neighborhood**: Spend a week in your target area using Airbnb
-2. **Test internet thoroughly**: Run actual speed tests with your work applications
-3. **Prioritize dedicated space**: Separate work from living areas increases productivity
-4. **Build relationships**: Thai landlords value long-term tenants who communicate clearly
-5. **Document everything**: Get all agreements in writing, especially regarding internet
+1. Start with neighborhood: Spend a week in your target area using Airbnb
+2. Test internet thoroughly: Run actual speed tests with your work applications
+3. Prioritize dedicated space: Separate work from living areas increases productivity
+4. Build relationships: Thai landlords value long-term tenants who communicate clearly
+5. Document everything: Get all agreements in writing, especially regarding internet
 
 Chiang Mai offers excellent value for remote workers willing to invest time in finding the right fit. The city's infrastructure continues improving, and the community of remote workers provides valuable network support during your search.
 

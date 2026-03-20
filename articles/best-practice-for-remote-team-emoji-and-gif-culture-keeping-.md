@@ -23,10 +23,10 @@ Text-based communication lacks the nonverbal cues present in face-to-face intera
 
 For developers and technical teams working across time zones, these visual elements serve several practical functions:
 
-- **Tone clarification**: Signaling friendliness or sarcasm that might otherwise be misinterpreted
-- **Quick acknowledgment**: Reacting to messages without derailing threads
-- **Team bonding**: Creating shared moments of humor and connection
-- **Reducing cognitive load**: A well-placed reaction often suffices where a reply would be excessive
+- Tone clarification: Signaling friendliness or sarcasm that might otherwise be misinterpreted
+- Quick acknowledgment: Reacting to messages without derailing threads
+- Team bonding: Creating shared moments of humor and connection
+- Reducing cognitive load: A well-placed reaction often suffices where a reply would be excessive
 
 The challenge lies in establishing norms that encourage authentic expression while preventing miscommunication or discomfort among team members from diverse cultural backgrounds.
 
@@ -108,10 +108,10 @@ One of the most practical applications of emoji in remote teams is the simple re
 
 ### Recommended Reaction Guidelines
 
-- **Single reactions preferred**: One reaction usually suffices when acknowledging a message
-- **Avoid reaction spam**: Don't pile on multiple reactions to the same message
-- **Use specific reactions**: Choose reactions that add meaning (🎉 for celebrations, 🤔 for questions)
-- **Respect read receipts**: A reaction often serves as an effective "I've seen this"
+- Single reactions preferred: One reaction usually suffices when acknowledging a message
+- Avoid reaction spam: Don't pile on multiple reactions to the same message
+- Use specific reactions: Choose reactions that add meaning (🎉 for celebrations, 🤔 for questions)
+- Respect read receipts: A reaction often serves as an effective "I've seen this"
 
 ### Thread Etiquette
 
@@ -125,10 +125,10 @@ When responding to threads, consider whether a reaction or a reply is more appro
 
 Despite best efforts, emoji and GIF usage will occasionally cause issues. Having a framework for addressing problems helps maintain professionalism:
 
-1. **Private feedback first**: If someone's usage makes you uncomfortable, address it privately before making it public
-2. **Assume positive intent**: Most misuses stem from misunderstanding rather than malice
-3. **Update guidelines**: Use mistakes as opportunities to clarify team expectations
-4. **Document precedents**: Keep a running log of decisions for future reference
+1. Private feedback first: If someone's usage makes you uncomfortable, address it privately before making it public
+2. Assume positive intent: Most misuses stem from misunderstanding rather than malice
+3. Update guidelines: Use mistakes as opportunities to clarify team expectations
+4. Document precedents: Keep a running log of decisions for future reference
 
 ### Example Response Template
 
@@ -159,10 +159,10 @@ Regular pulse surveys can help gauge whether team members feel the culture suppo
 
 Emoji and GIF culture shouldn't require constant maintenance. The goal is to establish norms that become second nature:
 
-- **Onboard new members**: Include emoji guidelines in your team onboarding
-- **Lead by example**: Senior team members modeling appropriate usage sets the tone
-- **Revisit quarterly**: Teams evolve, so review guidelines periodically
-- **Keep it optional**: Guidelines should encourage, not mandate, usage
+- Onboard new members: Include emoji guidelines in your team onboarding
+- Lead by example: Senior team members modeling appropriate usage sets the tone
+- Revisit quarterly: Teams evolve, so review guidelines periodically
+- Keep it optional: Guidelines should encourage, not mandate, usage
 
 The most successful remote teams treat emoji and GIFs as tools for connection rather than requirements for belonging. Some team members will use them frequently, others sparingly—and both approaches should feel valid.
 

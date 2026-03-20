@@ -70,7 +70,7 @@ The power of Notion lies in its ability to create linked databases. Connect inte
 
 Linear brings the speed and keyboard-first experience that developers love to project management. For internship programs where interns work on real projects, Linear provides the issue tracking infrastructure that integrates with your existing development workflows.
 
-The advantage for intern management comes from Linear's clean interface and robust API. Interns familiar with modern developer tools immediately understand the workflow. Issues, projects, and cycles translate naturally to internship milestones.
+The advantage for intern management comes from Linear's clean interface and API. Interns familiar with modern developer tools immediately understand the workflow. Issues, projects, and cycles translate naturally to internship milestones.
 
 Creating a dedicated intern project with cycle-based milestones keeps everyone aligned:
 

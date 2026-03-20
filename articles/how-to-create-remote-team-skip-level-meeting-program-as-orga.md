@@ -118,16 +118,16 @@ Running this script produces skip-level pairs that you can use to build meeting 
 
 For remote teams, quarterly skip-level meetings work well. Monthly can feel too frequent for leaders managing multiple teams, while biannual allows problems to fester too long. Here's a suggested format:
 
-**Meeting Duration**: 30-45 minutes
-**Frequency**: Quarterly
-**Setting**: 1:1 or small group (3-5 ICs with one leader)
+Meeting Duration: 30-45 minutes
+Frequency: Quarterly
+Setting: 1:1 or small group (3-5 ICs with one leader)
 
-**Sample Agenda**:
-1. **Opening (2 min)**: Leader explains the purpose and confidentiality boundaries
-2. **What's working (10 min)**: ICs share what helps them succeed
-3. **What's not working (10 min)**: Honest discussion of obstacles
-4. **Ideas and feedback (10 min)**: Suggestions for improvement
-5. **Close (3 min)**: Next steps and follow-up commitment
+Sample Agenda:
+1. Opening (2 min): Leader explains the purpose and confidentiality boundaries
+2. What's working (10 min): ICs share what helps them succeed
+3. What's not working (10 min): Honest discussion of obstacles
+4. Ideas and feedback (10 min): Suggestions for improvement
+5. Close (3 min): Next steps and follow-up commitment
 
 Send the agenda in advance and ask participants to prepare one thing they want to discuss. This ensures the meeting isn't just small talk.
 
@@ -135,9 +135,9 @@ Send the agenda in advance and ask participants to prepare one thing they want t
 
 The biggest failure mode for skip-level meetings is participants holding back because they fear retaliation from their direct manager. Address this explicitly:
 
-- **Document what was discussed**: Share a summary with the skip-level leader, but ask ICs what can be included in any report to their manager
-- **Follow up publicly**: If you commit to action items, complete them and share the outcome
-- **Protect participants**: Make clear that participation is expected and that opting out won't be held against anyone
+- Document what was discussed: Share a summary with the skip-level leader, but ask ICs what can be included in any report to their manager
+- Follow up publicly: If you commit to action items, complete them and share the outcome
+- Protect participants: Make clear that participation is expected and that opting out won't be held against anyone
 
 ### Phase 4: Handle Time Zones
 
@@ -171,20 +171,20 @@ This ensures fairness over time. If someone always meets at an inconvenient hour
 
 Track whether skip-level meetings actually help:
 
-1. **Issue identification rate**: How many problems surfaced in skip-levels that wouldn't have been caught otherwise?
-2. **Time to resolution**: How quickly do raised issues get addressed?
-3. **Participant satisfaction**: Anonymous surveys after each session
-4. **Retention correlation**: Do employees who participate in skip-levels stay longer?
+1. Issue identification rate: How many problems surfaced in skip-levels that wouldn't have been caught otherwise?
+2. Time to resolution: How quickly do raised issues get addressed?
+3. Participant satisfaction: Anonymous surveys after each session
+4. Retention correlation: Do employees who participate in skip-levels stay longer?
 
 ## Common Pitfalls to Avoid
 
-**Don't make it a performance review**: Skip-levels aren't for evaluating ICs. Leaders should listen, not judge.
+Don't make it a performance review: Skip-levels aren't for evaluating ICs. Leaders should listen, not judge.
 
-**Don't skip preparation**: Without an agenda and pre-work, meetings become wasted time.
+Don't skip preparation: Without an agenda and pre-work, meetings become wasted time.
 
-**Don't ignore outcomes**: If nothing changes after skip-level discussions, participants will stop engaging.
+Don't ignore outcomes: If nothing changes after skip-level discussions, participants will stop engaging.
 
-**Don't over-schedule**: More than quarterly per person creates meeting fatigue and diminishes returns.
+Don't over-schedule: More than quarterly per person creates meeting fatigue and diminishes returns.
 
 ## Automation with Slack
 

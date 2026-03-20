@@ -238,9 +238,9 @@ If matches fail early, don't force continuation. Better to rematch than to susta
 
 For larger organizations, consider building this into existing tools:
 
-- **Notion**: Create databases for mentors and mentees with relation properties
-- **Airtable**: Use formula fields for scoring calculations
-- **Custom script**: Run matching locally and import results into your HR system
+- Notion: Create databases for mentors and mentees with relation properties
+- Airtable: Use formula fields for scoring calculations
+- Custom script: Run matching locally and import results into your HR system
 
 The key insight: invest upfront in the matching process. Strong matches create mentorship relationships that drive real team growth. Weak matches create administrative overhead and participant frustration.
 

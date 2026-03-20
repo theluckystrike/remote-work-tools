@@ -144,10 +144,10 @@ When testers document findings asynchronously, consistency becomes critical. Est
 ```markdown
 ## Finding: [Brief Title]
 
-**Severity:** [Critical|High|Medium|Low|Info]  
-**CVSS Score:** [X.X]  
-**Target:** [Affected asset]  
-**Discovered by:** [Tester name]  
+**Severity:** [Critical|High|Medium|Low|Info] 
+**CVSS Score:** [X.X] 
+**Target:** [Affected asset] 
+**Discovered by:** [Tester name] 
 **Date:** [YYYY-MM-DD]
 
 ### Description

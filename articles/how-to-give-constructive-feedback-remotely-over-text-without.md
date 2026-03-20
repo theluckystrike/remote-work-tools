@@ -31,9 +31,9 @@ The solution isn't to soften everything into meaningless praise. It's to structu
 
 The Situation-Behavior-Impact (SBI) model translates well to written feedback because it forces specificity:
 
-- **Situation**: When and where did the behavior occur?
-- **Behavior**: What exactly happened? (Stick to observable facts)
-- **Impact**: What was the result of the behavior?
+- Situation: When and where did the behavior occur?
+- Behavior: What exactly happened? (Stick to observable facts)
+- Impact: What was the result of the behavior?
 
 Here's how it looks in practice:
 
@@ -161,17 +161,6 @@ Constructive feedback at scale requires consistent patterns across the team. Con
 - Recognizing when feedback improves outcomes ("Your code review suggestion prevented a potential outage")
 
 The goal isn't to eliminate all friction—healthy friction drives improvement. The goal is ensuring friction comes from the work, not from poor communication.
-
-## Summary
-
-Giving constructive feedback remotely without sounding harsh comes down to specificity, structure, and generosity. Use the SBI framework for clarity. Apply templates that balance positive and constructive observations. Replace accusatory statements with curious questions. Time your messages appropriately. And always leave the door open for dialogue.
-
-Text-based feedback, when done well, actually has advantages over in-person conversations. It creates a record. It allows thoughtful responses rather than reactive ones. And it gives both parties time to reflect before continuing the conversation.
-
-Practice these patterns consistently, and you'll build a culture where feedback is expected, appreciated, and actionable.
-
----
-
 
 ## Related Reading
 

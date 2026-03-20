@@ -66,9 +66,9 @@ For voice-only applications (Zoom, Teams, Meet), 2-inch thick foam provides exce
 
 | Thickness | NRC Rating | Best For |
 |-----------|------------|----------|
-| 1 inch    | 0.45-0.55  | High-frequency control |
-| 2 inches  | 0.70-0.80  | Voice applications |
-| 3 inches  | 0.85+      | Recording studios |
+| 1 inch | 0.45-0.55 | High-frequency control |
+| 2 inches | 0.70-0.80 | Voice applications |
+| 3 inches | 0.85+ | Recording studios |
 
 In rooms under 150 square feet, avoid over-treating. Too much foam makes the room sound "dead" and unnatural. You want reduction in reverberation, not complete sound elimination.
 
@@ -92,9 +92,9 @@ After installing foam, record a test call or use your operating system's voice m
 
 If problems persist, check these common issues:
 
-- **Still boomy**: Add mass to the wall behind your mic (thicker foam or mineral wool)
-- **Sibilance harshness**: Your foam may be too thin; upgrade to 2-inch panels
-- **Voice sounds distant**: You may have over-treated; remove some foam panels
+- Still boomy: Add mass to the wall behind your mic (thicker foam or mineral wool)
+- Sibilance harshness: Your foam may be too thin; upgrade to 2-inch panels
+- Voice sounds distant: You may have over-treated; remove some foam panels
 
 Iterate gradually. Acoustic treatment is additive—you can always add more, but removing incorrectly placed foam wastes effort.
 
@@ -108,15 +108,6 @@ sox -n -r 48000 -c 2 test_tone.wav synth 30 sine 1000
 ```
 
 This measurement approach helps you identify frequency-specific problems and target treatment precisely.
-
-## Summary
-
-Effective acoustic foam placement follows a priority system: behind the microphone first, then side wall reflection points, then ceiling, then behind your monitor. Start with these zones before adding more treatment. For most home offices, 6-10 panels of 2-inch foam deliver significant improvement in Zoom call quality without over-treating the space.
-
-The investment is modest compared to the return: clearer voice capture means less fatigue for meeting participants, fewer requests to repeat yourself, and a more professional presence in every call.
-
----
-
 
 ## Related Reading
 

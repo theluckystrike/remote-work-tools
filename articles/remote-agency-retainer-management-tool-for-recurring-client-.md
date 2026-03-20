@@ -129,7 +129,7 @@ Schedule this function to run hourly via a cron job or your preferred task sched
 
 ## Handling Scope Changes
 
-Retainer clients occasionally request work outside the agreed scope. Build a explicit process for tracking change orders that sit outside the retainer:
+Retainer clients occasionally request work outside the agreed scope. Build an explicit process for tracking change orders that sit outside the retainer:
 
 ```javascript
 async function createChangeOrder(clientId, description, hours, approvedBy) {
@@ -186,9 +186,9 @@ This generates draft invoices that your team reviews before sending. The separat
 
 Most agencies already use project management software, time tracking tools, or CRM systems. Build your retainer system to integrate rather than replace:
 
-- **Time Tracking**: Sync entries from tools like Toggl, Harvest, or Clockify using their APIs
-- **Project Management**: Pull task data from Asana or Linear to validate hour reports
-- **Communication**: Post retainer alerts to Slack or Microsoft Teams channels
+- Time Tracking: Sync entries from tools like Toggl, Harvest, or Clockify using their APIs
+- Project Management: Pull task data from Asana or Linear to validate hour reports
+- Communication: Post retainer alerts to Slack or Microsoft Teams channels
 
 ```javascript
 async function syncTimeEntries(fromTool, clientId) {

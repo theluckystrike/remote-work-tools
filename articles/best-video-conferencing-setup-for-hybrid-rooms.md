@@ -152,7 +152,7 @@ This basic pattern extends to controlling camera presets, muting audio, and mana
 
 For developers and power users configuring hybrid rooms, follow this implementation sequence:
 
-1. **Assess the space**: Measure the room dimensions, note window locations, identify primary seating positions
+1. Assess the space: Measure the room dimensions, note window locations, identify primary seating positions
 2. **Install proper lighting** before purchasing cameras—poorly lit rooms defeat expensive cameras
 3. **Select camera positions** that cover the primary speaking area with minimal distortion
 4. **Configure display placement** for in-room visibility of remote participants

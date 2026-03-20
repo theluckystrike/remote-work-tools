@@ -215,7 +215,7 @@ Record decisions in a shared document accessible to all time zones:
 - Team C: 38 story points
 ```
 
-This approach scales to 20+ person organizations while maintaining alignment. Tools facilitate coordination, but the process remains human-driven.
+This approach scales to 20+ person organizations while maintaining alignment. Tools help coordination, but the process remains human-driven.
 
 ---
 

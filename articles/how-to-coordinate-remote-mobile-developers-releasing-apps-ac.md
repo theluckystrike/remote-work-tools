@@ -259,11 +259,11 @@ For urgent releases, use abbreviated async processes:
 
 Coordinating remote mobile developers releasing apps across iOS and Android comes down to:
 
-1. **Predictable schedules**: Establish and document your release cadence
-2. **Clear status tracking**: Use a single source of truth for version status
-3. **Automated pipelines**: Reduce manual coordination through CI/CD
-4. **Async-first communication**: Write things down, use templates, avoid synchronous waiting
-5. **Prepared procedures**: Document emergency processes before you need them
+1. Predictable schedules: Establish and document your release cadence
+2. Clear status tracking: Use a single source of truth for version status
+3. Automated pipelines: Reduce manual coordination through CI/CD
+4. Async-first communication: Write things down, use templates, avoid synchronous waiting
+5. Prepared procedures: Document emergency processes before you need them
 
 The goal is creating systems where developers can work independently while staying synchronized. When your coordination processes work well, your team can ship to both platforms consistently without constant meetings or status check-ins.
 

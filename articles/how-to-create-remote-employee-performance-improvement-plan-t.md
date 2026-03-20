@@ -24,12 +24,12 @@ The core challenge: remote performance issues often stem from communication brea
 
 A solid remote PIP contains these essential elements:
 
-1. **Objective Baseline**: Clear metrics defining satisfactory performance
-2. **Gap Analysis**: Specific, documented examples where performance fell short
-3. **Improvement Goals**: Measurable targets with concrete timelines
-4. **Support Structure**: Resources, tools, and access the employee will receive
-5. **Check-in Schedule**: Weekly or bi-weekly synchronous meetings
-6. **Success Criteria**: Quantifiable outcomes that indicate improvement
+1. Objective Baseline: Clear metrics defining satisfactory performance
+2. Gap Analysis: Specific, documented examples where performance fell short
+3. Improvement Goals: Measurable targets with concrete timelines
+4. Support Structure: Resources, tools, and access the employee will receive
+5. Check-in Schedule: Weekly or bi-weekly synchronous meetings
+6. Success Criteria: Quantifiable outcomes that indicate improvement
 
 ## A Practical Template for Distributed Teams
 
@@ -130,10 +130,10 @@ def check_pip_progress(pip_data):
 
 For teams using tools like Linear, Jira, or Asana, create a structured task breakdown:
 
-- **Epic**: [Employee Name] Performance Improvement Plan
-- **Weekly Check-in Tasks**: Recurring tasks for each check-in meeting
-- **Metrics Tracking**: Tasks to pull analytics weekly
-- **Final Review**: Task scheduled for end of PIP period
+- Epic: [Employee Name] Performance Improvement Plan
+- Weekly Check-in Tasks: Recurring tasks for each check-in meeting
+- Metrics Tracking: Tasks to pull analytics weekly
+- Final Review: Task scheduled for end of PIP period
 
 ```markdown
 ## Weekly Check-in Template

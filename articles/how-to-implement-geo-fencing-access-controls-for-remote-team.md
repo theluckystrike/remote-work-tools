@@ -19,7 +19,7 @@ Implement geo-fencing using MaxMind GeoIP2 to restrict application access to spe
 
 ## Understanding Geo-Fencing for Access Control
 
-Geo-fencing in access control works by comparing a user's detected location against a predefined set of allowed locations. When a user attempts to access a protected resource, the system checks whether their current geographic coordinates fall within an approved region. If the location is outside the allowed area, access gets denied or flagged for review.
+Geo-fencing in access control works by comparing an user's detected location against a predefined set of allowed locations. When an user attempts to access a protected resource, the system checks whether their current geographic coordinates fall within an approved region. If the location is outside the allowed area, access gets denied or flagged for review.
 
 The implementation requires several components working together:
 
@@ -197,13 +197,6 @@ When implementing geo-fencing access controls, follow these guidelines:
 - **Test thoroughly** - Verify behavior with requests from different geographic locations
 - **Layer with other controls** - Geo-fencing complements but shouldn't replace authentication, authorization, and encryption
 - **Keep databases updated** - IP geolocation data changes frequently; update your databases regularly
-
-## Conclusion
-
-Geo-fencing access controls provide meaningful security improvements for remote team applications. By detecting and restricting access based on geographic location, you reduce the attack surface available to malicious actors and gain better visibility into where your resources are being accessed from.
-
-Start with basic IP-based geo-fencing, add VPN detection, and progressively implement more sophisticated controls as your security requirements evolve. The implementation patterns shown here scale from small teams to enterprise deployments.
-
 
 ## Related Reading
 

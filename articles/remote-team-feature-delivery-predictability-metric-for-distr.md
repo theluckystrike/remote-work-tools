@@ -81,7 +81,7 @@ lead_time = lead_time_calculator("2026-03-01", "2026-03-15")
 print(f"Lead Time: {lead_time} days")  # Output: 14 days
 ```
 
-Lead time includes prioritization delays, estimation, and waiting time—making it the most comprehensive delivery metric.
+Lead time includes prioritization delays, estimation, and waiting time—making it the most delivery metric.
 
 ### 4. Predictability Score (Composite Metric)
 

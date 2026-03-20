@@ -180,15 +180,6 @@ Despite clear terms, late payments happen. Follow this escalation path:
 
 Always document everything. Keep records of all communication, especially if you need to demonstrate good faith efforts later.
 
-## Summary
-
-Effective payment terms require upfront clarity, written documentation, and consistent enforcement. Define clear milestones, automate reminders, and establish escalation procedures before problems arise. Your contracts should protect both parties while establishing professional boundaries.
-
-The time invested in solid payment terms pays dividends through smoother cash flow, fewer disputes, and more professional client relationships.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

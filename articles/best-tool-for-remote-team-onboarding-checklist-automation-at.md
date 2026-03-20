@@ -65,7 +65,7 @@ Dedicated platforms work well when onboarding is a core business process and bud
 
 ## Integration Approach Using HR Systems
 
-Many organizations already use HRIS platforms that include onboarding modules. Leveraging existing systems reduces tool sprawl and centralizes employee data. This approach works best when the HR system supports sufficient customization for checklist automation.
+Many organizations already use HRIS platforms that include onboarding modules. using existing systems reduces tool sprawl and centralizes employee data. This approach works best when the HR system supports sufficient customization for checklist automation.
 
 Modern HR platforms increasingly offer low-code workflow builders, enabling teams to construct role-specific onboarding sequences without custom development. Integration with identity providers (Okta, Azure AD) automates account provisioning, while webhook listeners trigger checklist creation when new employees are added.
 
@@ -173,16 +173,16 @@ Effective role templates share common structural elements regardless of the auto
 
 Group tasks by time periods (Week 1, Week 2, Month 1) rather than functional categories alone. This helps new hires understand their evolving responsibilities and provides natural check-in points with managers. Include both technical setup tasks (account access, tool installation) and social integration items (meeting teammates, joining channels).
 
-Dependencies matter. Technical prerequisites should precede tasks requiring those tools. If security training must complete before accessing production systems, structure the template to enforce this ordering. Many automation tools support task dependencies; leverage them rather than relying on due dates alone.
+Dependencies matter. Technical prerequisites should precede tasks requiring those tools. If security training must complete before accessing production systems, structure the template to enforce this ordering. Many automation tools support task dependencies; use them rather than relying on due dates alone.
 
 ## Measuring Onboarding Effectiveness
 
 Automation provides data that manual processes cannot. Track these metrics to evaluate and improve your onboarding program:
 
-- **Completion rate**: Percentage of checklist items completed on time
-- **Time to productivity**: Days from start to first meaningful contribution
-- **New hire feedback**: Qualitative input on onboarding experience
-- **Manager time**: Hours spent on onboarding coordination
+- Completion rate: Percentage of checklist items completed on time
+- Time to productivity: Days from start to first meaningful contribution
+- New hire feedback: Qualitative input on onboarding experience
+- Manager time: Hours spent on onboarding coordination
 
 Regularly review checklist completion patterns. Tasks with consistently low completion rates may indicate unclear instructions, unrealistic timeframes, or unnecessary items. Tasks marked as blockers deserve immediate attention—they often reveal systemic issues in the onboarding process.
 

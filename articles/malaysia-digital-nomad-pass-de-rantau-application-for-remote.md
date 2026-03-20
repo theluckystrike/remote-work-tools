@@ -30,7 +30,7 @@ To qualify for the DE Rantau Digital Nomad Pass, you must meet several criteria.
 
 You must also prove that your work is genuinely remote. The Malaysian authorities require documentation showing your employment or contractual relationship with entities outside Malaysia. If you're a freelance developer, you should have active client contracts or ongoing project agreements with non-Malaysian companies.
 
-The program requires you to have health insurance coverage that is valid in Malaysia for the entire duration of your stay. Some applicants also choose to obtain comprehensive travel insurance as an additional safeguard.
+The program requires you to have health insurance coverage that is valid in Malaysia for the entire duration of your stay. Some applicants also choose to obtain travel insurance as an additional safeguard.
 
 Your passport must be valid for at least six months beyond your intended stay in Malaysia. You should not have any criminal convictions that would affect your eligibility for a visa.
 
@@ -38,17 +38,17 @@ Your passport must be valid for at least six months beyond your intended stay in
 
 Gathering the required documents is a critical step in the application process. Here's what you need to prepare:
 
-**Proof of Income**: Bank statements showing regular deposits totaling at least USD 2,000 per month for the past three months, or an employment contract with an overseas company showing your salary. Self-employed applicants should provide client invoices and payment receipts.
+Proof of Income: Bank statements showing regular deposits totaling at least USD 2,000 per month for the past three months, or an employment contract with an overseas company showing your salary. Self-employed applicants should provide client invoices and payment receipts.
 
-**Employment or Client Documentation**: A letter from your employer confirming your remote work arrangement, or contracts with freelance clients demonstrating ongoing work relationships. If you run your own business, provide business registration documents and client agreements.
+Employment or Client Documentation: A letter from your employer confirming your remote work arrangement, or contracts with freelance clients demonstrating ongoing work relationships. If you run your own business, provide business registration documents and client agreements.
 
-**Health Insurance**: A valid health insurance policy that covers Malaysia for the entire pass duration. The policy should cover medical treatment and hospitalization.
+Health Insurance: A valid health insurance policy that covers Malaysia for the entire pass duration. The policy should cover medical treatment and hospitalization.
 
-**Passport**: A clear copy of your passport's biographical page and any previous visas.
+Passport: A clear copy of your passport's biographical page and any previous visas.
 
-**Application Form**: Completed DE Rantau application forms, which are available through the Malaysia Digital Economy Corporation (MDEC) website.
+Application Form: Completed DE Rantau application forms, which are available through the Malaysia Digital Economy Corporation (MDEC) website.
 
-**Recent Photograph**: A passport-sized photo taken within the last three months.
+Recent Photograph: A passport-sized photo taken within the last three months.
 
 ## Application Process
 
@@ -91,13 +91,6 @@ Malaysia offers excellent value for remote workers. A comfortable lifestyle in c
 Coworking spaces in major Malaysian cities typically cost between USD 200 and USD 400 per month. Many spaces offer high-speed internet, meeting rooms, and community events that help with networking.
 
 The DE Rantau pass allows you to open a local bank account once you arrive, which simplifies managing living expenses. However, you should maintain your overseas bank accounts for receiving remote work income.
-
-## Conclusion
-
-The Malaysia DE Rantau Digital Nomad Pass provides a viable pathway for remote tech workers seeking to live in Southeast Asia. The application process is straightforward if you gather the required documents and demonstrate a genuine remote work arrangement. With reasonable income requirements and a favorable cost of living, Malaysia remains an attractive destination for developers and digital professionals in 2026.
-
-Before applying, verify current requirements on the MDEC website, as immigration policies can change. Prepare your documents thoroughly and ensure your remote work setup is well-documented to streamline your application process.
-
 
 ## Related Reading
 

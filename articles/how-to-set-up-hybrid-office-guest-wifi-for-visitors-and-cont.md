@@ -13,7 +13,7 @@ voice-checked: true
 ---
 
 {% raw %}
-When your hybrid office hosts visitors, contractors, and clients, providing internet access becomes a security balancing act. You want convenient connectivity for guests while protecting internal systems from potential threats. A poorly configured guest network essentially creates an unlocked door into your corporate infrastructure.
+When your hybrid office hosts visitors, contractors, and clients, providing internet access becomes a security balancing act. You want convenient connectivity for guests while protecting internal systems from potential threats. A poorly configured guest network creates an unlocked door into your corporate infrastructure.
 
 This guide walks through setting up guest WiFi that keeps visitors connected without exposing your internal network to unnecessary risk. The strategies here work with enterprise-grade equipment and affordable access points alike.
 
@@ -52,7 +52,7 @@ Configure your router or firewall to drop all traffic originating from the guest
 
 ## Implementing VLAN Isolation
 
-Most business-grade access points support VLAN tagging. Here's how to configure this using a UniFi setup as an example:
+Most business-grade access points support VLAN tagging. Here's how to configure this using an UniFi setup as an example:
 
 ```json
 {

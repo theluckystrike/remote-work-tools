@@ -128,7 +128,7 @@ Some feedback requires back-and-forth. Plan for this from the start by:
 
 - Setting up a dedicated Slack channel or thread for RFC discussion
 - Creating a living document where you can incorporate feedback
-- Scheduling a optional sync call if the discussion gets complex
+- Scheduling an optional sync call if the discussion gets complex
 
 ## Common Async RFC Mistakes to Avoid
 
@@ -189,15 +189,6 @@ Here's a practical template you can adapt:
 ## Feedback Requested By
 [Date and tagged reviewers]
 ```
-
-## Conclusion
-
-The difference between RFCs that gather dust and RFCs that generate meaningful feedback comes down to clarity, structure, and consideration for your reviewers' time. By providing concrete examples, framing decisions as questions, and explicitly directing your feedback requests, you create RFCs that distributed teams can effectively evaluate asynchronously.
-
-Start treating your RFCs as products for your reviewers—design them to be understood, evaluated, and responded to. Your future self will thank you when implementation goes smoothly because stakeholders had the context they needed to provide solid feedback.
-
----
-
 
 ## Related Reading
 

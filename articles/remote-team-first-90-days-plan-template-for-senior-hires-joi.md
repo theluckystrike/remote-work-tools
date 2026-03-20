@@ -33,11 +33,11 @@ The first week focuses on getting your environment operational and understanding
 
 Start by ensuring you have access to every tool the team uses. This typically includes:
 
-- **Communication platforms**: Slack, Microsoft Teams, or Discord for daily communication
-- **Project management**: Linear, Jira, Asana, or GitHub Projects for tracking work
-- **Documentation**: Notion, Confluence, GitBook, or custom wikis for team knowledge
-- **Code repositories**: GitHub, GitLab, or Bitbucket with appropriate access levels
-- **Meeting tools**: Zoom, Google Meet, or specialized video platforms
+- Communication platforms: Slack, Microsoft Teams, or Discord for daily communication
+- Project management: Linear, Jira, Asana, or GitHub Projects for tracking work
+- Documentation: Notion, Confluence, GitBook, or custom wikis for team knowledge
+- Code repositories: GitHub, GitLab, or Bitbucket with appropriate access levels
+- Meeting tools: Zoom, Google Meet, or specialized video platforms
 
 Configure your notification settings early. Most remote teams appreciate new hires who set clear availability patterns rather than appearing online 24/7. Define your core working hours and communicate them to your manager.
 
@@ -146,9 +146,9 @@ The final phase shifts from learning to leading. You should now have sufficient 
 
 Based on your 30-day review, identify 2-3 areas where you can deliver value:
 
-- **Technical leadership**: Propose architecture improvements or lead implementation of complex features
-- **Process improvement**: Suggest better ways of working based on your experience
-- **Team building**: Mentor junior members or help improve team documentation
+- Technical leadership: Propose architecture improvements or lead implementation of complex features
+- Process improvement: Suggest better ways of working based on your experience
+- Team building: Mentor junior members or help improve team documentation
 
 Take ownership of something meaningful. Senior hires who deliver visible impact in their first quarter establish credibility that accelerates their influence throughout their tenure.
 

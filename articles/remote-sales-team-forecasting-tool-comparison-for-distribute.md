@@ -177,11 +177,11 @@ This approach unifies data from CRM, conversation intelligence tools, marketing 
 
 The right tool depends on your team size, technical resources, and forecast accuracy requirements:
 
-- **Teams under 10 people**: Start with spreadsheet-based forecasting. Add CRM API connections and build weighted models. Upgrade when manual processes become bottlenecks.
+- Teams under 10 people: Start with spreadsheet-based forecasting. Add CRM API connections and build weighted models. Upgrade when manual processes become bottlenecks.
 
-- **Teams of 10-50 people**: Dedicated platforms like Clari or Gong provide immediate value through automated anomaly detection and conversation intelligence. The integration overhead pays off quickly.
+- Teams of 10-50 people: Dedicated platforms like Clari or Gong provide immediate value through automated anomaly detection and conversation intelligence. The integration overhead pays off quickly.
 
-- **Teams over 50 people with engineering capacity**: Consider building a custom pipeline or implementing a warehouse-first approach. The investment pays dividends in forecast accuracy and business-specific modeling.
+- Teams over 50 people with engineering capacity: Consider building a custom pipeline or implementing a warehouse-first approach. The investment pays dividends in forecast accuracy and business-specific modeling.
 
 Regardless of your tool choice, successful remote sales forecasting requires disciplined data hygiene. Deal stages must be consistent across the team, probability mappings need regular calibration, and pipeline reviews should happen at consistent intervals that accommodate timezone diversity.
 

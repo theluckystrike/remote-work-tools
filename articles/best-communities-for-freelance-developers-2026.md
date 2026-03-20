@@ -23,10 +23,10 @@ Freelance developers face unique challenges that communities directly address. I
 
 Beyond combatting loneliness, communities provide tangible business benefits:
 
-- **Project leads and referrals**: Active members often share opportunities before they reach public job boards
-- **Technical problem-solving**: Peer review and collective knowledge accelerate debugging
-- **Rate negotiation support**: Community benchmarks help you price services confidently
-- **Industry trend awareness**: Stay current on technologies, tools, and market demands
+- Project leads and referrals: Active members often share opportunities before they reach public job boards
+- Technical problem-solving: Peer review and collective knowledge accelerate debugging
+- Rate negotiation support: Community benchmarks help you price services confidently
+- Industry trend awareness: Stay current on technologies, tools, and market demands
 
 The best communities balance social connection with practical resources. Finding your fit requires understanding what each community offers and where your participation adds value.
 
@@ -84,11 +84,11 @@ Effective community involvement requires deliberate approach. Random participati
 
 Begin by evaluating communities using these criteria:
 
-1. **Activity level**: Check posting frequency and response times. A community with 10,000 members but zero activity provides no value.
-2. **Topic alignment**: Ensure discussions match your specialization and interests. Generic communities often lack depth.
-3. **Engagement quality**: Look for substantive discussions rather than superficial comments.
-4. **Moderation quality**: Well-moderated communities maintain helpful environments. Check for clear guidelines and enforcement.
-5. **Real-world outcomes**: Search for examples of members finding projects or clients through the community.
+1. Activity level: Check posting frequency and response times. A community with 10,000 members but zero activity provides no value.
+2. Topic alignment: Ensure discussions match your specialization and interests. Generic communities often lack depth.
+3. Engagement quality: Look for substantive discussions rather than superficial comments.
+4. Moderation quality: Well-moderated communities maintain helpful environments. Check for clear guidelines and enforcement.
+5. Real-world outcomes: Search for examples of members finding projects or clients through the community.
 
 ### Maximizing Your Participation
 
@@ -137,13 +137,13 @@ Sharing practical utilities like this establishes credibility and starts convers
 
 Communities can waste time or create negative experiences without intentional participation:
 
-**Spamming promotional content**: Self-promotion without relationship building damages reputation. Most communities have specific channels or rules for promotional content.
+Spamming promotional content: Self-promotion without relationship building damages reputation. Most communities have specific channels or rules for promotional content.
 
-**Parasocial relationships**: Remember that connections remain online unless you cultivate them through deeper interaction. Surface-level participation produces surface-level relationships.
+Parasocial relationships: Remember that connections remain online unless you cultivate them through deeper interaction. Surface-level participation produces surface-level relationships.
 
-**Information overload**: Joining too many communities spreads thin. Focus on two or three active communities rather than passively joining dozens.
+Information overload: Joining too many communities spreads thin. Focus on two or three active communities rather than passively joining dozens.
 
-**Comparing yourself to highlight members**: Community leaders often represent extreme outcomes. Their success stories may not reflect typical results.
+Comparing yourself to highlight members: Community leaders often represent extreme outcomes. Their success stories may not reflect typical results.
 
 ## Measuring Community Value
 

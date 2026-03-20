@@ -160,10 +160,10 @@ This ADR format creates institutional memory that preserves the reasoning behind
 
 The final principle is measurement. You need feedback loops that tell you whether your scaling efforts are working:
 
-- **Onboarding time**: How long until new hires are productive? Track this across cohorts.
-- **Code review turnaround**: Are PRs blocking? Measure time from request to approval.
-- **Meeting load**: How many hours per week in synchronous meetings? This should decrease or stay flat, not increase.
-- **Documentation coverage**: Can new hires find answers without asking? Survey them at 30/60/90 days.
+- Onboarding time: How long until new hires are productive? Track this across cohorts.
+- Code review turnaround: Are PRs blocking? Measure time from request to approval.
+- Meeting load: How many hours per week in synchronous meetings? This should decrease or stay flat, not increase.
+- Documentation coverage: Can new hires find answers without asking? Survey them at 30/60/90 days.
 
 ```javascript
 // Example: Simple metrics tracking
@@ -188,14 +188,6 @@ const scalingMetrics = {
   }
 };
 ```
-
-## Conclusion
-
-Scaling from 5 to 20 doesn't mean abandoning what made your startup successful. It means evolving your mechanisms for collaboration while preserving the autonomy, speed, and innovation that define your culture.
-
-The transition requires intentional investment in documentation, onboarding, rituals, and metrics. Do this right, and you'll emerge at 20 people with the same energy you had at 5—plus the structural clarity to keep growing.
-
-Start with one area where you're feeling friction, implement a concrete fix, measure the results, and iterate. Your team will thank you for building systems that respect their time while maintaining the human connection that makes remote work fulfilling.
 
 ## Related Reading
 

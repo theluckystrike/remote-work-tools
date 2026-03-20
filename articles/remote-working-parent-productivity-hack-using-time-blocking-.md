@@ -171,9 +171,9 @@ Track your productivity during school bus windows using a simple metric:
 
 | Week | Deep Work Hours | Meetings | Context Switching |
 |------|-----------------|----------|-------------------|
-| 1    | 22              | 8        | High              |
-| 2    | 26              | 6        | Medium            |
-| 3    | 28              | 5        | Low               |
+| 1 | 22 | 8 | High |
+| 2 | 26 | 6 | Medium |
+| 3 | 28 | 5 | Low |
 
 After 2-3 weeks, you'll have data to optimize your blocks. Maybe morning hours work better for code reviews while afternoons suit debugging. Adjust accordingly.
 

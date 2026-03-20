@@ -39,16 +39,16 @@ For developers who frequently switch between deep work and quick tasks, a quick-
 
 ## Stability and Weight Capacity
 
-A wobbly laptop stand undermines its ergonomic purpose. When you type vigorously—common during debugging sessions or rapid iteration—a unstable stand creates micro-movements that strain your eyes and wrists. Look for stands with a low center of gravity and wide base footprint.
+A wobbly laptop stand undermines its ergonomic purpose. When you type vigorously—common during debugging sessions or rapid iteration—an unstable stand creates micro-movements that strain your eyes and wrists. Look for stands with a low center of gravity and wide base footprint.
 
 Weight capacity deserves careful attention. Most laptop stands specify capacity between 3-10 pounds, but this rating assumes even weight distribution. A 15-inch developer laptop with an external SSD, USB hub, and cooling mount can easily exceed 8 pounds. Exceeding the weight limit causes gradual drooping and mechanism fatigue.
 
 Consider these stability factors:
 
-- **Base width**: Wider bases resist tipping but consume more desk space
-- **Material weight**: Heavier stands resist movement but reduce portability
-- **Clamp mechanisms**: Desk-mounted clamps anchor firmly but limit placement flexibility
-- **Silicone padding**: Non-slip surfaces prevent laptop sliding during vibration
+- Base width: Wider bases resist tipping but consume more desk space
+- Material weight: Heavier stands resist movement but reduce portability
+- Clamp mechanisms: Desk-mounted clamps anchor firmly but limit placement flexibility
+- Silicone padding: Non-slip surfaces prevent laptop sliding during vibration
 
 For developers running resource-intensive workloads, thermal management intersects with stability. Laptops running at 80+ degrees Celsius generate more fan vibration, which transmits through unstable stands. A stable platform becomes even more critical when your laptop produces significant operational noise.
 
@@ -66,9 +66,9 @@ Developer workflows often involve multiple workspaces: home office, co-working s
 
 Consider your typical desk setup:
 
-- **Fixed home office**: A larger, more stable floor-standing or heavy desktop stand works well
-- **Hybrid workspace**: A folding stand that fits in a laptop bag maintains flexibility
-- **Hot desk environment**: Lightweight aluminum stands balance portability and functionality
+- Fixed home office: A larger, more stable floor-standing or heavy desktop stand works well
+- Hybrid workspace: A folding stand that fits in a laptop bag maintains flexibility
+- Hot desk environment: Lightweight aluminum stands balance portability and functionality
 
 Cable management features matter for developer setups. Multiple monitors, mechanical keyboards, external drives, and charging cables create cable clutter that compounds on elevated surfaces. Some stands include built-in cable routing or document the optimal routing path for common configurations.
 

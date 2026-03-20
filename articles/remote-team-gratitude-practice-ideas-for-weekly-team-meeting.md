@@ -27,10 +27,10 @@ Remote work accelerates a dangerous pattern: people feel invisible. Developers s
 
 Gratitude practices solve several remote-specific problems:
 
-1. **Counteract isolation**: Regular acknowledgment reminds people they matter
-2. **Build psychological safety**: When teammates express gratitude, it signals that vulnerability is welcome
-3. **Improve retention**: Developers who feel appreciated stay longer
-4. **Increase psychological safety**: Gratitude creates positive interactions that balance critical code review feedback
+1. Counteract isolation: Regular acknowledgment reminds people they matter
+2. Build psychological safety: When teammates express gratitude, it signals that vulnerability is welcome
+3. Improve retention: Developers who feel appreciated stay longer
+4. Increase psychological safety: Gratitude creates positive interactions that balance critical code review feedback
 
 ## Practical Gratitude Formats for Weekly Meetings
 
@@ -206,15 +206,15 @@ Here's a 5-minute gratitude segment you can add to any weekly meeting:
 
 Gratitude practices fail when they're mandatory or performative. Here are patterns that work:
 
-**Keep it short**: 5 minutes maximum. Longer sessions feel like meetings about meetings.
+Keep it short: 5 minutes maximum. Longer sessions feel like meetings about meetings.
 
-**Make it optional**: Some people are uncomfortable with public recognition. Allow silent participation or written alternatives only.
+Make it optional: Some people are uncomfortable with public recognition. Allow silent participation or written alternatives only.
 
-**Be specific**: Train the team to mention concrete actions, not just names. "Thanks for the code review" is okay; "Thanks for the thorough code review on the auth refactor — you caught a security issue" is better.
+Be specific: Train the team to mention concrete actions, not just names. "Thanks for the code review" is okay; "Thanks for the thorough code review on the auth refactor — you caught a security issue" is better.
 
-**Rotate facilitation**: Don't make one person own the gratitude segment forever. Share the responsibility.
+Rotate facilitation: Don't make one person own the gratitude segment forever. Share the responsibility.
 
-**Track over time**: A leaderboard or simple log helps people see patterns of appreciation and recognizes consistent contributors.
+Track over time: A leaderboard or simple log helps people see patterns of appreciation and recognizes consistent contributors.
 
 ## Overcoming Common Obstacles
 
@@ -229,15 +229,6 @@ Start slowly. Try written-only appreciation boards for a month before adding liv
 
 **"We already have too many meetings"**
 Integrate gratitude into existing meetings rather than creating new ones. Replace 5 minutes of status updates with appreciation instead.
-
-## Conclusion
-
-Gratitude practices cost nothing but time, yet they measurably improve remote team cohesion. The key is starting simple: a shared document, a Slack channel, or just 3 minutes at meeting start.
-
-Begin with one practice this week. Add complexity only when the team requests it. The goal isn't a perfect system — it's building the habit of recognizing each other's work.
-
----
-
 
 ## Related Reading
 

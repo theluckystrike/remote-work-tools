@@ -399,13 +399,6 @@ function exportMetrics() {
 }
 ```
 
-## Summary
-
-Efficient virtual tour delivery for remote real estate photography relies on automation at every stage. Batch processing scripts handle image optimization in parallel. Tour generation pipelines create standardized, interactive experiences programmatically. Cloud delivery services provide reliable, time-limited access for clients. Quality assurance automation catches issues before delivery.
-
-Start with one area—probably batch processing—and gradually build out your automation stack. The initial investment pays dividends through consistent quality, faster delivery times, and scalable operations.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

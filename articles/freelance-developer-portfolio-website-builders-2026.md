@@ -284,11 +284,11 @@ Webflow offers pixel-perfect control through its visual editor while generating 
 
 Select your portfolio builder based on three factors:
 
-1. **Maintenance willingness**: Static sites require occasional dependency updates. Headless CMS options add hosting complexity but provide easier content management.
+1. Maintenance willingness: Static sites require occasional dependency updates. Headless CMS options add hosting complexity but provide easier content management.
 
-2. **Customization depth**: Astro and Hugo offer complete control. Framer and Webflow constrain customization in exchange for faster workflows.
+2. Customization depth: Astro and Hugo offer complete control. Framer and Webflow constrain customization in exchange for faster workflows.
 
-3. **Performance requirements**: Astro delivers the best performance out of the box. Hugo matches it with proper configuration. Platform builders vary in optimization.
+3. Performance requirements: Astro delivers the best performance out of the box. Hugo matches it with proper configuration. Platform builders vary in optimization.
 
 For most freelance developers in 2026, Astro with a markdown-based workflow provides the optimal balance. You demonstrate modern web capabilities through your portfolio's implementation while maintaining full control over every byte delivered to visitors.
 

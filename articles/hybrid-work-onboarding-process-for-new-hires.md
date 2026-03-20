@@ -185,12 +185,12 @@ Hybrid work fails without excellent documentation. New hires cannot simply lean 
 
 Create and maintain these core documents:
 
-- **Day 1 Checklist**: Everything needed to be productive on day one
-- **Environment Setup Guide**: Step-by-step with screenshots for all common setups
-- **Team Directory**: Photos, roles, time zones, and best contact methods
-- **Communication Norms**: When to use sync vs async, response time expectations
-- **Meeting Guidelines**: How to run and participate in hybrid meetings
-- **Project Onboarding**: Technical context for the specific projects they'll work on
+- Day 1 Checklist: Everything needed to be productive on day one
+- Environment Setup Guide: Step-by-step with screenshots for all common setups
+- Team Directory: Photos, roles, time zones, and best contact methods
+- Communication Norms: When to use sync vs async, response time expectations
+- Meeting Guidelines: How to run and participate in hybrid meetings
+- Project Onboarding: Technical context for the specific projects they'll work on
 
 ### Making Documentation Accessible
 

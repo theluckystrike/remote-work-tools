@@ -25,15 +25,15 @@ Screen recordings capture the complete user journey—the exact moment something
 
 When evaluating screen recording tools for bug reporting, prioritize these capabilities:
 
-**Frame rate and quality**: 30fps minimum ensures smooth playback of UI transitions and animations. Higher resolution (1080p or 4K) captures small UI details and error messages that might be illegible at lower resolutions.
+Frame rate and quality: 30fps minimum ensures smooth playback of UI transitions and animations. Higher resolution (1080p or 4K) captures small UI details and error messages that might be illegible at lower resolutions.
 
-**System audio capture**: Some bugs only manifest with specific error sounds or system notifications. Audio provides additional debugging context.
+System audio capture: Some bugs only manifest with specific error sounds or system notifications. Audio provides additional debugging context.
 
-**Annotation tools**: The ability to draw rectangles around problem areas, add arrows, or insert text callouts directly in the recording helps highlight exactly what needs attention.
+Annotation tools: The ability to draw rectangles around problem areas, add arrows, or insert text callouts directly in the recording helps highlight exactly what needs attention.
 
-**Automatic upload and sharing**: Bug reports need to reach developers quickly. Tools that automatically generate shareable links eliminate the friction of file transfers.
+Automatic upload and sharing: Bug reports need to reach developers quickly. Tools that automatically generate shareable links eliminate the friction of file transfers.
 
-**Timestamped comments**: Viewers should be able to add time-stamped feedback at specific moments, creating async discussions tied to exact video moments.
+Timestamped comments: Viewers should be able to add time-stamped feedback at specific moments, creating async discussions tied to exact video moments.
 
 ## Setting Up Your Recording Environment
 
@@ -62,13 +62,13 @@ Position your recording window to exclude sensitive information. Close email cli
 
 A poorly recorded bug report defeats the purpose. Follow these techniques:
 
-**Start with context**: Before demonstrating the bug, briefly describe what you're about to show. "This recording demonstrates the payment failure when using Stripe with expired cards."
+Start with context: Before demonstrating the bug, briefly describe what you're about to show. "This recording demonstrates the payment failure when using Stripe with expired cards."
 
-**Navigate to the bug methodically**: Don't jump directly to the broken state. Show the steps leading to the issue: navigate to the relevant page, complete preliminary actions, then trigger the bug. This helps developers understand the user flow.
+Navigate to the bug methodically: Don't jump directly to the broken state. Show the steps leading to the issue: navigate to the relevant page, complete preliminary actions, then trigger the bug. This helps developers understand the user flow.
 
-**Pause on error states**: When the error appears, pause and let the recording capture the full error message. Developers need time to read and document the exact error text.
+Pause on error states: When the error appears, pause and let the recording capture the full error message. Developers need time to read and document the exact error text.
 
-**Include browser dev tools**: Open the browser's developer console before reproducing the bug. Console errors often contain the technical details developers need:
+Include browser dev tools: Open the browser's developer console before reproducing the bug. Console errors often contain the technical details developers need:
 
 ```javascript
 // In browser console, capture error details
@@ -81,9 +81,9 @@ window.onerror = function(msg, url, lineNo, columnNo, error) {
 };
 ```
 
-**Narrate while recording**: Speak aloud what you're doing and what you observe. Narration explains visual actions that might be unclear without context.
+Narrate while recording: Speak aloud what you're doing and what you observe. Narration explains visual actions that might be unclear without context.
 
-**Keep recordings focused**: One bug per recording. If multiple issues appear, create separate recordings for each. This keeps issues organized and assignable to specific developers.
+Keep recordings focused: One bug per recording. If multiple issues appear, create separate recordings for each. This keeps issues organized and assignable to specific developers.
 
 ## Workflow Integration Strategies
 
@@ -143,13 +143,13 @@ This creates a complete audit trail from bug report to resolution.
 
 ## Common Pitfalls to Avoid
 
-**Recording too long**: Viewers abandon lengthy recordings. Keep bug reports under 2 minutes—enough to demonstrate the issue without unnecessary padding.
+Recording too long: Viewers abandon lengthy recordings. Keep bug reports under 2 minutes—enough to demonstrate the issue without unnecessary padding.
 
-**Missing audio**: Always include narration explaining what the viewer is seeing. Silent recordings require more cognitive effort to interpret.
+Missing audio: Always include narration explaining what the viewer is seeing. Silent recordings require more cognitive effort to interpret.
 
-**Poor lighting**: Ensure your screen brightness is adequate. Dim recordings make text difficult to read.
+Poor lighting: Ensure your screen brightness is adequate. Dim recordings make text difficult to read.
 
-**Incomplete reproduction**: Show the full path to the bug, not just the broken state. Developers need to understand how users reach the problem area.
+Incomplete reproduction: Show the full path to the bug, not just the broken state. Developers need to understand how users reach the problem area.
 
 ## Evaluating Tools for Your Team
 

@@ -88,7 +88,7 @@ Structure the buddy relationship around clear phases. Here's a 30-day template:
 
 ### 3. Buddy Checklist Template
 
-Create a comprehensive checklist buddies can follow:
+Create a checklist buddies can follow:
 
 ```markdown
 # Remote Onboarding Buddy Checklist
@@ -165,11 +165,11 @@ No pressure for long responses—quick thoughts work great.
 
 Track your buddy program's effectiveness with these metrics:
 
-- **Time to first commit**: How long until new hires submit their first PR?
-- **Onboarding satisfaction scores**: Survey new hires at 30, 60, and 90 days
-- **Buddy participation rate**: What percentage of eligible employees volunteer?
-- **Question response time**: How quickly do new hires get answers to questions?
-- **Retention at 90 days**: Are new hires staying longer with the buddy program?
+- Time to first commit: How long until new hires submit their first PR?
+- Onboarding satisfaction scores: Survey new hires at 30, 60, and 90 days
+- Buddy participation rate: What percentage of eligible employees volunteer?
+- Question response time: How quickly do new hires get answers to questions?
+- Retention at 90 days: Are new hires staying longer with the buddy program?
 
 Create a simple survey to collect feedback:
 

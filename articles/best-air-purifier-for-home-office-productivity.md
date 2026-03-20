@@ -169,7 +169,7 @@ For developers requiring hospital-grade air filtration, the IQAir offers the bes
 
 ## Automating Your Office Environment
 
-Create a comprehensive automation setup that responds to air quality changes:
+Create an automation setup that responds to air quality changes:
 
 ```bash
 #!/bin/bash
@@ -194,10 +194,10 @@ fi
 
 Regular maintenance ensures optimal performance. Set calendar reminders for:
 
-- **Pre-filter cleaning**: Monthly (vacuum or wash)
-- **HEPA filter replacement**: Every 6-12 months depending on usage
-- **Carbon filter replacement**: Every 3-6 months if VOC filtering is active
-- **Sensor calibration**: Annually for units with particle sensors
+- Pre-filter cleaning: Monthly (vacuum or wash)
+- HEPA filter replacement: Every 6-12 months depending on usage
+- Carbon filter replacement: Every 3-6 months if VOC filtering is active
+- Sensor calibration: Annually for units with particle sensors
 
 Track filter life with a simple script:
 
@@ -220,11 +220,6 @@ if __name__ == "__main__":
     else:
         print(f"✓ Filter OK: {remaining} days remaining")
 ```
-
-## Conclusion
-
-Investing in a quality air purifier for your home office directly impacts your coding productivity. The combination of HEPA filtration, smart home integration, and real-time monitoring creates an environment where you can maintain focus without respiratory distractions. Start with a unit sized for your room, add automation scripts to manage it proactively, and enjoy cleaner air during your most intensive coding sessions.
-
 
 ## Related Reading
 

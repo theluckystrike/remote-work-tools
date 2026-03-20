@@ -205,7 +205,7 @@ Share these settings with your team and establish norms around their use. For ex
 
 ## Documentation and Follow-Up
 
-Inclusive meetings extend beyond the actual meeting time. Comprehensive documentation ensures team members in different time zones or those who couldn't attend can stay informed:
+Inclusive meetings extend beyond the actual meeting time. documentation ensures team members in different time zones or those who couldn't attend can stay informed:
 
 ```markdown
 ## Meeting: [Title]
@@ -236,10 +236,10 @@ Create a standing "asynchronous feedback" section where people who couldn't atte
 
 Start with one or two practices and iterate. Here's a suggested implementation order:
 
-1. **Week 1-2**: Implement the meeting justification template
-2. **Week 3-4**: Switch standups to RAG format
-3. **Week 5-6**: Add meeting rotation script for discussion meetings
-4. **Week 7-8**: Audit and configure accessibility settings across tools
+1. Week 1-2: Implement the meeting justification template
+2. Week 3-4: Switch standups to RAG format
+3. Week 5-6: Add meeting rotation script for discussion meetings
+4. Week 7-8: Audit and configure accessibility settings across tools
 
 Track participation rates and gather feedback. The goal isn't perfection—it's continuous improvement toward meetings that work for everyone, regardless of location.
 
@@ -247,16 +247,9 @@ Track participation rates and gather feedback. The goal isn't perfection—it's 
 
 Watch out for these patterns that undermine inclusive meetings:
 
-- **Defaulting to "core hours"**: If your team spans 12+ hours, no single hour works for everyone. Accept that some meetings will require early or late times for everyone.
-- **Recording as an afterthought**: Start recordings from the beginning so synchronous attendees don't have advantages over async viewers.
-- **Same-host timezone dominance**: Rotate not just meeting times but meeting hosts, giving each time zone ownership.
-
-## Conclusion
-
-Creating truly inclusive meeting practices for global remote teams requires moving beyond assumptions about what "normal" meetings look like. By implementing time zone rotation, async-first communication, structured formats, and comprehensive documentation, you build a meeting culture that works for developers and team members across any geographic distribution.
-
-The key is starting small, measuring impact, and continuously refining based on team feedback. Inclusive meetings aren't a destination—they're an ongoing practice.
-
+- Defaulting to "core hours": If your team spans 12+ hours, no single hour works for everyone. Accept that some meetings will require early or late times for everyone.
+- Recording as an afterthought: Start recordings from the beginning so synchronous attendees don't have advantages over async viewers.
+- Same-host timezone dominance: Rotate not just meeting times but meeting hosts, giving each time zone ownership.
 
 ## Related Reading
 

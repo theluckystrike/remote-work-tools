@@ -37,7 +37,7 @@ Shared vaults should support granular permissions. You might want some team memb
 
 ### 3. CLI and Developer Integration
 
-Developers prefer keyboard-driven workflows. Look for password managers with robust CLI tools that integrate into your existing workflow:
+Developers prefer keyboard-driven workflows. Look for password managers with CLI tools that integrate into your existing workflow:
 
 ```bash
 # Example: CLI-based password retrieval
@@ -94,16 +94,16 @@ Rolling out a password manager to 15 people works best with a phased approach:
 
 The password manager becomes a single point of failure—that's intentional. Protecting it properly means:
 
-**Master Password Hygiene**: Require 20+ character master passwords. Use a passphrase approach:
+Master Password Hygiene: Require 20+ character master passwords. Use a passphrase approach:
 
 ```bash
 # Generate a memorable passphrase
 head -c 256 /dev/urandom | base64 | cut -d' ' -f1 | tr '[:upper:]' '[:lower:]'
 ```
 
-**Two-Factor Authentication**: Every team member should enable 2FA. Hardware keys (YubiKey, Solo) provide the strongest protection, but TOTP apps work well.
+Two-Factor Authentication: Every team member should enable 2FA. Hardware keys (YubiKey, Solo) provide the strongest protection, but TOTP apps work well.
 
-**Session Management**: Configure session timeouts appropriate to your team's work patterns. Remote teams often benefit from longer sessions with strong device-level protections.
+Session Management: Configure session timeouts appropriate to your team's work patterns. Remote teams often benefit from longer sessions with strong device-level protections.
 
 ## Common Pitfalls to Avoid
 

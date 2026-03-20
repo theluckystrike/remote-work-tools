@@ -13,7 +13,7 @@ voice-checked: true
 ---
 
 {% raw %}
-For remote teams, use markdown-based runbooks with embedded copy-to-clipboard commands stored in Git—this is the best balance of security, version control, and usability. Tools like Runwayml or custom scripts can display these in a UI with step-by-step validation; the copy-to-terminal model keeps commands out of unauthorized environments while still providing one-click access. Store runbooks in the same repo as infrastructure code so they stay synchronized, and embed variable substitution placeholders (e.g., `$ENVIRONMENT`) that team members fill in before executing commands.
+For remote teams, use markdown-based runbooks with embedded copy-to-clipboard commands stored in Git—this is the best balance of security, version control, and usability. Tools like Runwayml or custom scripts can display these in an UI with step-by-step validation; the copy-to-terminal model keeps commands out of unauthorized environments while still providing one-click access. Store runbooks in the same repo as infrastructure code so they stay synchronized, and embed variable substitution placeholders (e.g., `$ENVIRONMENT`) that team members fill in before executing commands.
 
 ## What Makes Runbooks Interactive
 
@@ -157,20 +157,12 @@ Version control your runbooks alongside your code. This practice enables code re
 
 Track these metrics to improve your runbook practice:
 
-- **Execution frequency**: Which runbooks get used most?
-- **Time to completion**: Do runbooks reduce time-to-resolution?
-- **Failure rate**: Do users encounter errors when following guides?
-- **Feedback loops**: Can users suggest improvements easily?
+- Execution frequency: Which runbooks get used most?
+- Time to completion: Do runbooks reduce time-to-resolution?
+- Failure rate: Do users encounter errors when following guides?
+- Feedback loops: Can users suggest improvements easily?
 
 Regular review sessions where team members walk through runbooks together catch outdated steps and identify gaps.
-
-## Conclusion
-
-Interactive runbooks with embedded terminal commands represent a practical evolution in operational documentation for remote teams. By choosing tools that match your team's workflow, implementing proper security, and maintaining a living library of procedures, you reduce operational friction and improve consistency across distributed teams.
-
-The investment in creating and maintaining interactive runbooks pays dividends during incidents when clear, executable documentation prevents mistakes that extend outages. Start with your most common procedures, build incrementally, and treat runbook maintenance as a core part of your operational practice.
-{% endraw %}
-
 
 ## Related Reading
 

@@ -38,7 +38,7 @@ code --install-extension ms-vsliveshare.vsliveshare
 
 Once installed, you start a Live Share session from the Activity Bar, and collaborators join via a generated link. The session host controls who can edit versus who can only observe.
 
-Live Share works particularly well for code reviews and mentoring. A senior developer can walk through a implementation while the junior developer follows along, with both able to type and run commands. The shared debug console allows both parties to inspect variables simultaneously.
+Live Share works particularly well for code reviews and mentoring. A senior developer can walk through an implementation while the junior developer follows along, with both able to type and run commands. The shared debug console allows both parties to inspect variables simultaneously.
 
 For teams already using VS Code, Live Share requires no additional infrastructure and works with any language the editor supports. The main limitation is that all participants need VS Code installed and a Microsoft or GitHub account.
 

@@ -34,7 +34,7 @@ The best all-in-one tool for a 5-person remote nonprofit should offer:
 
 ### ClickUp: Most Features Per Dollar
 
-ClickUp offers the most comprehensive feature set for small teams. Its free tier accommodates 5 users comfortably, with unlimited tasks and file storage. The platform combines docs, project boards, calendars, chat, and goal tracking in a single interface.
+ClickUp offers the most feature set for small teams. Its free tier accommodates 5 users comfortably, with unlimited tasks and file storage. The platform combines docs, project boards, calendars, chat, and goal tracking in a single interface.
 
 Set up a nonprofit project space in ClickUp:
 

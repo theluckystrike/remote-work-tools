@@ -228,10 +228,10 @@ Use overlap windows for:
 
 Track these metrics to ensure norms are working:
 
-- **Response time**: Average time to first response in channels
-- **Meeting load**: Hours of synchronous meetings per week
-- **Decision velocity**: Time from proposal to decision
-- **Async adoption**: Percentage of discussions happening in documents vs. meetings
+- Response time: Average time to first response in channels
+- Meeting load: Hours of synchronous meetings per week
+- Decision velocity: Time from proposal to decision
+- Async adoption: Percentage of discussions happening in documents vs. meetings
 
 Survey your team quarterly:
 
@@ -244,13 +244,6 @@ Survey your team quarterly:
 4. How often do you feel required to be online outside work hours?
 5. What's one change that would improve our team communication?
 ```
-
-## Conclusion
-
-Establishing communication norms for a 20-person remote team across 4 time zones requires explicit agreements that would be unnecessary in a co-located setting. The investment pays dividends: reduced context-switching, better documentation, and healthier work-life boundaries.
-
-Start with channel structure and response expectations, then layer in async alternatives to meetings. Document decisions and measure regularly. The norms will evolve—that's expected. The key is having a foundation to iterate from.
-
 
 ## Related Reading
 

@@ -29,10 +29,10 @@ Colombia has emerged as a top destination for remote workers, particularly in Me
 
 Before starting your application, confirm you meet these requirements:
 
-1. **Remote work arrangement**: You must work for a company or clients outside Colombia
-2. **Minimum income**: $1,260 USD monthly (approximately three times Colombia's minimum wage)
-3. **Health insurance**: Coverage valid in Colombia with minimum $50,000 in medical evacuation and hospitalization
-4. **Passport validity**: At least 6 months beyond your intended stay
+1. Remote work arrangement: You must work for a company or clients outside Colombia
+2. Minimum income: $1,260 USD monthly (approximately three times Colombia's minimum wage)
+3. Health insurance: Coverage valid in Colombia with minimum $50,000 in medical evacuation and hospitalization
+4. Passport validity: At least 6 months beyond your intended stay
 
 ## Step 1: Prepare Your Documents
 
@@ -181,9 +181,9 @@ setup_visa_reminders(entry)
 After arriving, you'll want to set up local banking:
 
 **Recommended banks:**
-- **NU**: Fully digital, faster account opening process
-- **Banco de Bogotá**: Better international transfer support
-- **Banco Popular**: Lower fees, requires more documentation
+- NU: Fully digital, faster account opening process
+- Banco de Bogotá: Better international transfer support
+- Banco Popular: Lower fees, requires more documentation
 
 You'll need your passport, visa approval document, and proof of address (hotel booking or rental agreement works initially).
 
@@ -191,8 +191,8 @@ You'll need your passport, visa approval document, and proof of address (hotel b
 
 Two paths for healthcare coverage:
 
-1. **International travel insurance**: Maintains your existing coverage
-2. **Colombian EPS system**: Register for local health insurance at approximately $80-150 USD monthly
+1. International travel insurance: Maintains your existing coverage
+2. Colombian EPS system: Register for local health insurance at approximately $80-150 USD monthly
 
 Many developers use a combination—travel insurance for visa compliance, then switch to EPS after establishing residency.
 
@@ -208,25 +208,18 @@ Colombia tax rules for digital nomads:
 
 Avoid these issues that delay or derail applications:
 
-1. **Insufficient income documentation**: Bank statements must clearly show consistent income above $1,260 USD monthly
-2. **Insurance gaps**: Policy must explicitly cover Colombia with stated coverage amounts
-3. **Translation issues**: Documents not in Spanish need official translations
-4. **Timing**: Start the process 2-3 months before you plan to travel
+1. Insufficient income documentation: Bank statements must clearly show consistent income above $1,260 USD monthly
+2. Insurance gaps: Policy must explicitly cover Colombia with stated coverage amounts
+3. Translation issues: Documents not in Spanish need official translations
+4. Timing: Start the process 2-3 months before you plan to travel
 
 ## When to Consider Alternatives
 
 The digital nomad visa isn't ideal for everyone. Consider:
 
-- **Freelancer visa**: If you have significant Colombian clients
-- **Business visa**: If planning to start a Colombian company
-- **Student visa**: If enrolling in Spanish courses or degree programs
-
-## Conclusion
-
-The Colombia digital nomad visa application process is straightforward when you prepare properly. For software developers, the combination of affordable living, growing tech community, and straightforward visa requirements makes Colombia an excellent base for remote work in 2026.
-
-Start gathering documents early, ensure your income meets the threshold, and be patient with processing times. Many developers successfully navigate this process each year—you can definitely do it too.
-
+- Freelancer visa: If you have significant Colombian clients
+- Business visa: If planning to start a Colombian company
+- Student visa: If enrolling in Spanish courses or degree programs
 
 ## Related Reading
 

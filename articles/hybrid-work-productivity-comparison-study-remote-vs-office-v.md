@@ -22,9 +22,9 @@ The debate between remote, office, and hybrid work continues to dominate organiz
 
 Before diving into comparisons, let's establish clear definitions:
 
-- **Fully Remote**: 100% work from home or other non-office locations
-- **Fully Office**: 100% work from a company-provided physical space
-- **Hybrid**: A structured combination, typically 2-3 office days per week
+- Fully Remote: 100% work from home or other non-office locations
+- Fully Office: 100% work from a company-provided physical space
+- Hybrid: A structured combination, typically 2-3 office days per week
 
 The "hybrid days" model has emerged as the most common implementation in 2026, with companies standardizing specific in-office days for collaboration while protecting remote days for deep work.
 
@@ -82,7 +82,7 @@ Average Weekly Meeting Hours:
 - Office: 8.4 hours
 ```
 
-Hybrid workers often attend meetings twice—once in person and once virtually to include remote colleagues—effectively doubling their meeting load on office days.
+Hybrid workers often attend meetings twice—once in person and once to include remote colleagues—effectively doubling their meeting load on office days.
 
 ## Hybrid Days: Finding the Optimal Balance
 
@@ -164,9 +164,9 @@ Teams of 3-5 developers often thrive remotely with proper async workflows. Large
 
 Productivity varies by task type:
 
-- **Feature development**: Remote preferred (fewer interruptions)
-- **Incident response**: Mixed—remote workers handle minor incidents faster; complex outages benefit from in-person war rooms
-- **Onboarding**: Hybrid works best—remote for documentation review, in-person for team integration
+- Feature development: Remote preferred (fewer interruptions)
+- Incident response: Mixed—remote workers handle minor incidents faster; complex outages benefit from in-person war rooms
+- Onboarding: Hybrid works best—remote for documentation review, in-person for team integration
 
 ### Experience Level
 
@@ -191,7 +191,7 @@ git log --since='30 days ago' --format='%ad' --date=format:'%A' | sort | uniq -c
 
 ## Conclusion: The Hybrid Sweet Spot
 
-The 2026 data points to hybrid work as the optimal model for most technical teams—not because it excels at everything, but because it balances deep work capacity with collaboration needs. The key is intentional scheduling that protects remote days for uninterrupted coding while leveraging office days for relationship building and complex collaboration.
+The 2026 data points to hybrid work as the optimal model for most technical teams—not because it excels at everything, but because it balances deep work capacity with collaboration needs. The key is intentional scheduling that protects remote days for uninterrupted coding while using office days for relationship building and complex collaboration.
 
 Remote-first remains the best choice for teams with established async workflows and strong documentation practices. Pure office work increasingly represents an outdated model that struggles to attract and retain developer talent.
 

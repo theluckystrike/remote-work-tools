@@ -84,7 +84,7 @@ Proofpoint's learning paths integrate with popular LMS systems, making it suitab
 
 ### Cofense
 
-Cofense takes a community-driven approach, leveraging threat intelligence from their email reporting network to create realistic phishing templates. This means templates update based on actual attacks their customers report.
+Cofense takes a community-driven approach, using threat intelligence from their email reporting network to create realistic phishing templates. This means templates update based on actual attacks their customers report.
 
 For remote teams, Cofense's strength is rapid template deployment:
 

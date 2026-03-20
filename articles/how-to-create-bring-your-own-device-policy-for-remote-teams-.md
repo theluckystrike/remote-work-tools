@@ -196,11 +196,11 @@ If employee refuses wipe, escalate to legal with:
 
 Your BYOD policy must account for local employment and privacy laws. Some key considerations:
 
-**European Union (GDPR)**: Employees have the "right to be forgotten." Your policy must specify how you handle personal data during device wipes and how long you retain employee device information.
+European Union (GDPR): Employees have the "right to be forgotten." Your policy must specify how you handle personal data during device wipes and how long you retain employee device information.
 
-**California (CCPA)**: Similar to GDPR, California residents have rights regarding personal information. Ensure your policy addresses data minimization—what you collect and store on personal devices.
+California (CCPA): Similar to GDPR, California residents have rights regarding personal information. Ensure your policy addresses data minimization—what you collect and store on personal devices.
 
-**United States**: Employment laws vary by state. Some states require explicit written consent for software installation on personal devices. Consult employment counsel for your specific jurisdictions.
+United States: Employment laws vary by state. Some states require explicit written consent for software installation on personal devices. Consult employment counsel for your specific jurisdictions.
 
 ## Enforcement and Policy Updates
 

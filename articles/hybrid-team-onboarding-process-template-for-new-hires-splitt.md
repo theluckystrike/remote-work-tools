@@ -157,10 +157,10 @@ If your team has designated office days, ensure the new hire experiences both sc
 
 Developers in hybrid teams must be comfortable with asynchronous communication. This week introduces:
 
-1. **Daily standup format**: Written updates posted to Slack or Teams
-2. **Decision documentation**: Using RFCs or ADRs for technical decisions
-3. **Availability management**: Calendar blocking for focus time and meetings
-4. **Status indicators**: Clear signals for availability (in office, working from home, in a meeting)
+1. Daily standup format: Written updates posted to Slack or Teams
+2. Decision documentation: Using RFCs or ADRs for technical decisions
+3. Availability management: Calendar blocking for focus time and meetings
+4. Status indicators: Clear signals for availability (in office, working from home, in a meeting)
 
 **Example Async Standup Template:**
 
@@ -256,9 +256,9 @@ Track these metrics to improve your hybrid onboarding process:
 
 Every hybrid team has different dynamics. Adjust this template based on:
 
-- **Office days**: If your team has mandatory in-office days, prioritize those in Week 2
-- **Time zones**: For distributed teams across time zones, ensure overlap hours for sync sessions
-- **Team size**: Smaller teams may combine some sessions; larger teams may need more structured processes
+- Office days: If your team has mandatory in-office days, prioritize those in Week 2
+- Time zones: For distributed teams across time zones, ensure overlap hours for sync sessions
+- Team size: Smaller teams may combine some sessions; larger teams may need more structured processes
 
 The key principle remains constant: new hires need equal opportunity to succeed whether they work from home or the office. Your onboarding process should reflect that value from day one.
 

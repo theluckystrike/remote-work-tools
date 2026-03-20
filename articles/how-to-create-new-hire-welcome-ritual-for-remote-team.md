@@ -252,20 +252,13 @@ const onboardingCommands = {
 
 Track these metrics to evaluate your welcome rituals:
 
-- **Time to first contribution**: How long until the new hire makes their first merge?
-- **Time to productivity**: When can they work independently on tasks?
-- **New hire satisfaction**: Monthly check-in scores during first 90 days
-- **Retention at 90 days**: Are new hires staying past probation?
-- **Manager time investment**: Hours spent on manual onboarding tasks
+- Time to first contribution: How long until the new hire makes their first merge?
+- Time to productivity: When can they work independently on tasks?
+- New hire satisfaction: Monthly check-in scores during first 90 days
+- Retention at 90 days: Are new hires staying past probation?
+- Manager time investment: Hours spent on manual onboarding tasks
 
 Review these metrics quarterly and adjust your rituals based on data rather than assumptions.
-
-## Conclusion
-
-Creating effective welcome rituals for remote teams requires intentional design across multiple phases. Start with solid pre-boarding, make first days warm and structured, provide guided learning during the first week, and establish feedback loops through the first month.
-
-The investment in thoughtful onboarding pays dividends through faster productivity, stronger team cohesion, and higher retention. Iterate on your rituals based on feedback and metrics, and your remote team will build the connection that remote work can sometimes lack.
-
 
 ## Related Reading
 

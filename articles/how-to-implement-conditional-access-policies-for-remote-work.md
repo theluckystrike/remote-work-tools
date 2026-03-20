@@ -18,7 +18,7 @@ Implement Conditional Access policies in Azure Entra ID to require multi-factor 
 
 ## Understanding Conditional Access Fundamentals
 
-Conditional Access works on a simple principle: evaluate signals about a user's identity and environment, then decide whether to grant access, block access, or require additional verification. The core components include:
+Conditional Access works on a simple principle: evaluate signals about an user's identity and environment, then decide whether to grant access, block access, or require additional verification. The core components include:
 
 - **Assignments** define who the policy applies to and what conditions must be met
 - **Access controls** specify what happens when conditions are satisfied
@@ -185,16 +185,16 @@ Beyond blocking or granting access, Conditional Access supports session policies
 }
 ```
 
-The continuous access evaluation feature provides real-time token revocation—when a user's account is disabled or their risk level changes, active sessions are terminated immediately rather than waiting for token expiration.
+The continuous access evaluation feature provides real-time token revocation—when an user's account is disabled or their risk level changes, active sessions are terminated immediately rather than waiting for token expiration.
 
 ## Combining Policies for Layered Security
 
 The most effective Conditional Access implementations use multiple policies together. A typical remote work scenario might include:
 
-1. **Baseline policy**: Require MFA for all cloud apps
-2. **Device policy**: Block non-compliant devices from production environments
-3. **Location policy**: Require MFA for sign-ins outside trusted regions
-4. **Risk policy**: Block high-risk sign-ins entirely
+1. Baseline policy: Require MFA for all cloud apps
+2. Device policy: Block non-compliant devices from production environments
+3. Location policy: Require MFA for sign-ins outside trusted regions
+4. Risk policy: Block high-risk sign-ins entirely
 
 Test each policy in report-only mode before enabling enforcement. Microsoft's Conditional Access insights workbook helps you understand the impact before deployment.
 
@@ -202,11 +202,11 @@ Test each policy in report-only mode before enabling enforcement. Microsoft's Co
 
 When implementing Conditional Access for remote teams, you'll inevitably encounter access issues. Common problems include:
 
-**Users blocked unexpectedly**: Check the sign-in logs in Microsoft Entra ID. Filter by the user and examine the detailed error. The "Why blocked" column often provides specific guidance.
+Users blocked unexpectedly: Check the sign-in logs in Microsoft Entra ID. Filter by the user and examine the detailed error. The "Why blocked" column often provides specific guidance.
 
-**MFA prompts every sign-in**: Ensure trusted locations are configured correctly, or adjust session duration settings. You can also exclude browser sign-ins from MFA requirements if appropriate for your risk tolerance.
+MFA prompts every sign-in: Ensure trusted locations are configured correctly, or adjust session duration settings. You can also exclude browser sign-ins from MFA requirements if appropriate for your risk tolerance.
 
-**Device compliance issues**: Verify Intune enrollment status and compliance policies. Users need to enroll their devices and receive compliant status before device-based policies will work.
+Device compliance issues: Verify Intune enrollment status and compliance policies. Users need to enroll their devices and receive compliant status before device-based policies will work.
 
 ## Deployment Best Practices
 

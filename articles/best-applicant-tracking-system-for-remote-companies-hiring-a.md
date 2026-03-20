@@ -19,10 +19,10 @@ Lever TRM and Greenhouse lead the market for remote hiring, with Lever excelling
 
 Most traditional applicant tracking systems assume a single-location hiring model. When you're hiring across borders, you quickly encounter limitations:
 
-- **Compliance complexity**: Different countries have different employment regulations, contract types, and required documentation
-- **Timezone chaos**: Scheduling interviews across 12+ hour time differences requires intelligent scheduling
-- **Currency and payment issues**: Contractor agreements, signing bonuses, and salary negotiations involve multiple currencies
-- **Remote-specific assessments**: Evaluating candidates for remote work requires different criteria than office-based roles
+- Compliance complexity: Different countries have different employment regulations, contract types, and required documentation
+- Timezone chaos: Scheduling interviews across 12+ hour time differences requires intelligent scheduling
+- Currency and payment issues: Contractor agreements, signing bonuses, and salary negotiations involve multiple currencies
+- Remote-specific assessments: Evaluating candidates for remote work requires different criteria than office-based roles
 
 The right ATS for remote hiring addresses these pain points directly rather than treating them as afterthoughts.
 
@@ -33,7 +33,7 @@ The right ATS for remote hiring addresses these pain points directly rather than
 Lever combines applicant tracking with relationship-building features that remote teams particularly benefit from. Its strength lies in maintaining candidate relationships over time, which is crucial when building a global talent pipeline.
 
 **Key features for remote hiring:**
-- Automated interview scheduling that handles timezone conversions seamlessly
+- Automated interview scheduling that handles timezone conversions 
 - Built-in candidate relationship management for maintaining talent pools across regions
 - DEI analytics that help ensure hiring practices are fair across different geographies
 
@@ -41,7 +41,7 @@ Lever combines applicant tracking with relationship-building features that remot
 
 ### 2. Greenhouse
 
-Greenhouse has become the standard for growth-stage remote companies. Its robust interview scorecards and structured hiring process help distributed teams maintain consistency.
+Greenhouse has become the standard for growth-stage remote companies. Its interview scorecards and structured hiring process help distributed teams maintain consistency.
 
 **Key features for remote hiring:**
 - Structured interview kits that standardize evaluations regardless of interviewer location
@@ -63,7 +63,7 @@ Ashby is a modern ATS built specifically for companies that don't have a physica
 
 ### 4. Workday (for enterprise remote hiring)
 
-For larger organizations managing remote hiring at scale, Workday provides comprehensive talent management beyond just tracking applicants.
+For larger organizations managing remote hiring at scale, Workday provides talent management beyond just tracking applicants.
 
 **Key features for remote hiring:**
 - Enterprise-grade compliance management across 80+ countries
@@ -105,10 +105,10 @@ Most ATS platforms let you define hiring regions with specific compliance requir
 
 Traditional interview scorecards focus on skills and culture fit. Remote hiring requires additional criteria:
 
-- **Async communication skills**: Can they convey ideas clearly in written form?
-- **Self-management ability**: Do they demonstrate independent problem-solving?
-- **Timezone flexibility**: Are they willing to overlap with core team hours?
-- **Digital tool proficiency**: Can they quickly adapt to new collaboration platforms?
+- Async communication skills: Can they convey ideas clearly in written form?
+- Self-management ability: Do they demonstrate independent problem-solving?
+- Timezone flexibility: Are they willing to overlap with core team hours?
+- Digital tool proficiency: Can they quickly adapt to new collaboration platforms?
 
 ### Step 3: Automate Timezone Handling
 
@@ -145,7 +145,7 @@ Remote hiring requires more documentation than local hiring. Use your ATS to sto
 - Communication channel preferences
 - Expected overlap hours
 
-### Leverage Async Assessments
+### use Async Assessments
 
 Video introductions and written response questions help evaluate remote candidates without the complexity of scheduling across timezones. Most modern ATS platforms support these features natively.
 
@@ -164,9 +164,9 @@ Your ATS is only as good as the people using it. Invest in training hiring manag
 
 The best applicant tracking system for your remote company depends on your specific situation:
 
-- **Startup teams under 50 people**: Greenhouse or Lever offer the best balance of features and simplicity
-- **Mid-size companies (50-500)**: Ashby provides modern features with reasonable pricing
-- **Enterprise organizations**: Workday handles the complexity of large-scale global hiring
+- Startup teams under 50 people: Greenhouse or Lever offer the best balance of features and simplicity
+- Mid-size companies (50-500): Ashby provides modern features with reasonable pricing
+- Enterprise organizations: Workday handles the complexity of large-scale global hiring
 
 Consider starting with a free trial before committing. Most platforms offer 14-30 day evaluation periods that let you test their international hiring features with real candidates.
 

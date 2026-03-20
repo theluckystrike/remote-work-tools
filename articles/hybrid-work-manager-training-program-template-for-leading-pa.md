@@ -44,7 +44,7 @@ The training program below addresses these challenges through four core modules,
 
 Hybrid teams typically fall into one of three structures. The hub-and-spoke model has a central office with remote workers. The split model divides the team evenly between office and remote. The flexible model allows team members to choose their location daily.
 
-Each structure requires different management approaches. For partially distributed teams, the flexible model has gained traction in 2026, but it demands robust coordination protocols.
+Each structure requires different management approaches. For partially distributed teams, the flexible model has gained traction in 2026, but it demands coordination protocols.
 
 ### Practical Exercise: Team Topology Mapping
 
@@ -136,7 +136,7 @@ This practice typically reduces meeting load by 30-50% while improving informati
 ### Learning Objectives
 - Design meetings that work equally well for in-person and remote participants
 - Use technical setups that create meeting equity
-- Facilitate discussions with remote-first thinking
+- help discussions with remote-first thinking
 
 ### Core Content
 

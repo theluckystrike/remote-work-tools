@@ -31,17 +31,17 @@ This approach takes seconds and requires no equipment beyond adjusting your lapt
 
 A portable backdrop gives you a consistent, professional look without relying on software:
 
-- **Collapsible backdrop**: These ring-light-style screens fold flat and pop open in seconds. A solid color (navy, gray, or white) works best for professional calls.
-- **Fabric hanging system**: Mount a curtain rod behind your desk and hang a piece of fabric. Velvet and flannel look premium and absorb sound.
-- **Room divider**: A small folding screen placed behind you creates an instant clean background and adds visual separation from your actual space.
+- Collapsible backdrop: These ring-light-style screens fold flat and pop open in seconds. A solid color (navy, gray, or white) works best for professional calls.
+- Fabric hanging system: Mount a curtain rod behind your desk and hang a piece of fabric. Velvet and flannel look premium and absorb sound.
+- Room divider: A small folding screen placed behind you creates an instant clean background and adds visual separation from your actual space.
 
 ## 3. Master Lighting to Hide Clutter
 
 Smart lighting draws attention away from mess and toward you:
 
-- **Front-facing light**: Position a desk lamp or ring light in front of you. Bright light on your face naturally darkens the background through exposure settings.
-- **Backdrop lighting**: Place a light behind you aimed at the wall. This creates a subtle glow that reduces background detail visibility.
-- **Natural light positioning**: Sit with a window in front of you. Bright daylight on your face achieves the same background-darkening effect and looks more natural than artificial lighting.
+- Front-facing light: Position a desk lamp or ring light in front of you. Bright light on your face naturally darkens the background through exposure settings.
+- Backdrop lighting: Place a light behind you aimed at the wall. This creates a subtle glow that reduces background detail visibility.
+- Natural light positioning: Sit with a window in front of you. Bright daylight on your face achieves the same background-darkening effect and looks more natural than artificial lighting.
 
 ## 4. Declutter the Camera's View Only
 
@@ -54,7 +54,7 @@ You don't need to clean your whole room—just what the camera sees:
 
 This approach works because video calls typically show only 5-10% of your room.
 
-## 5. Leverage Depth of Field
+## 5. use Depth of Field
 
 If your camera or software supports it, use shallow depth of field to blur the background:
 

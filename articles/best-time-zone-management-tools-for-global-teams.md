@@ -88,7 +88,7 @@ This reminder delivers at 9:00 AM in the recipient's configured time zone, not t
 
 Slack's custom emoji status integration enables creative availability signaling. Teams create emoji indicators for "working hours," "async only," or "offline," allowing colleagues to gauge response expectations at a glance.
 
-The limitation: Slack provides basic functionality rather than comprehensive time zone management. Complex scheduling requires additional tools.
+The limitation: Slack provides basic functionality rather than time zone management. Complex scheduling requires additional tools.
 
 ## Cronofy: Calendar Integration
 
@@ -138,7 +138,7 @@ The API runs on a free tier with reasonable rate limits. For production systems,
 
 ## Moment Timezone: JavaScript Library
 
-For frontend applications displaying time zone information, Moment Timezone provides comprehensive JavaScript library support:
+For frontend applications displaying time zone information, Moment Timezone provides JavaScript library support:
 
 ```javascript
 const moment = require('moment-timezone');

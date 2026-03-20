@@ -188,13 +188,6 @@ Track these metrics to understand if your sourcing strategy works:
 3. **culture fit as bias** — "Culture fit" can become code for "people like us"—evaluate values alignment instead
 4. **Set and forget** — Diversity sourcing requires ongoing investment, not one-time campaigns
 
-## Conclusion
-
-Effective diversity sourcing for remote teams requires expanding beyond traditional channels, building genuine relationships with diverse talent communities, removing bias from screening processes, and measuring progress. The technical tools and strategies outlined here provide a foundation, but the real work comes from consistent commitment to inclusive practices at every stage of the hiring lifecycle.
-
-The remote work movement gives companies unprecedented access to global talent. By pairing that access with intentional diversity sourcing, distributed companies can build teams that are not just talented, but truly representative of the world they're building for.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

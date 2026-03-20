@@ -36,7 +36,7 @@ When evaluating secrets management tools for distributed teams, focus on these p
 
 ## Approach 1: HashiCorp Vault
 
-HashiCorp Vault stands out as a mature, open-source solution for secrets management. It provides a centralized hub for storing and accessing sensitive data, with robust access controls and detailed audit logs.
+HashiCorp Vault stands out as a mature, open-source solution for secrets management. It provides a centralized hub for storing and accessing sensitive data, with access controls and detailed audit logs.
 
 Vault uses a concept called "secrets engines" to handle different types of secrets. For cloud infrastructure, the KV (Key-Value) engine works well for generic secrets, while cloud-specific engines integrate directly with AWS, GCP, and Azure.
 

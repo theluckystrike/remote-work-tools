@@ -25,7 +25,7 @@ This guide provides a practical framework for handling these differences without
 
 The European Union sets minimum standards through directives that all member states must implement, but countries often go beyond these minimums. The Working Time Directive establishes a 48-hour maximum work week, minimum daily and weekly rest periods, and paid annual leave of at least four weeks. The Posted Workers Directive addresses employees working temporarily in another EU country. The Directive on Part-time Work and Fixed-term Contracts provides protections against discrimination.
 
-However, these directives leave significant room for national variation. Germany mandates that employers contribute to a comprehensive social insurance system. France imposes strict rules about after-hours communications. Spain requires detailed payroll documentation that differs substantially from Italian requirements. The Netherlands has its own interpretation of flexible work arrangements.
+However, these directives leave significant room for national variation. Germany mandates that employers contribute to a social insurance system. France imposes strict rules about after-hours communications. Spain requires detailed payroll documentation that differs substantially from Italian requirements. The Netherlands has its own interpretation of flexible work arrangements.
 
 Before hiring in any EU country, research its specific implementation of EU directives. Official government websites for labor ministries typically provide English-language summaries of key requirements. For detailed compliance advice, consult with an employment lawyer familiar with that specific jurisdiction.
 
@@ -86,15 +86,6 @@ Third, implement payroll processes that handle each country's reporting and fili
 Fourth, establish clear policies about working hours, availability, and communication expectations. These policies should respect local requirements while enabling team coordination.
 
 Fifth, maintain detailed records of employment decisions, performance issues, and any disciplinary actions. Documentation prevents disputes and demonstrates compliance if challenges arise.
-
-## Conclusion
-
-Handling employment law differences across EU countries requires attention to detail and ongoing vigilance, but it's manageable with the right approach. The key is understanding that employment law is fundamentally local—even within the EU's common framework, each country implements its own rules.
-
-Choose employment structures that match your team's needs, partner with specialists for compliance in complex jurisdictions, and maintain thorough documentation. With these practices in place, you can build a talented remote team across Europe while minimizing legal risk.
-
-The effort pays off in access to a diverse talent pool and the ability to hire the best people regardless of geography. Europe's highly educated workforce and strong worker protections make it an attractive region for building remote teams—just ensure you're handling the legal requirements properly.
-
 
 ## Related Reading
 

@@ -29,7 +29,7 @@ For creative agencies managing multiple client projects simultaneously, this phi
 
 Creative agencies typically manage projects across several stages: brief, concept, design, revision, approval, and delivery. Both tools can accommodate these workflows, but the implementation differs significantly.
 
-Basecamp's Hill Charts provide a unique way to visualize project progress beyond simple completion percentages. For creative work, this helps teams understand when a project is "figuring things out" versus "executing":
+Basecamp's Hill Charts provide an unique way to visualize project progress beyond simple completion percentages. For creative work, this helps teams understand when a project is "figuring things out" versus "executing":
 
 ```
 Hill Chart Position:
@@ -66,8 +66,8 @@ ClickUp's Docs feature offers collaborative documents with real-time editing, si
 
 For client collaboration, both platforms offer shared access:
 
-- **Basecamp**: Invite clients to specific projects with controlled access. They see to-dos, schedules, and can comment on documents.
-- **ClickUp**: Guest access with granular permissions. You can restrict clients to specific tasks, views, or documents.
+- Basecamp: Invite clients to specific projects with controlled access. They see to-dos, schedules, and can comment on documents.
+- ClickUp: Guest access with granular permissions. You can restrict clients to specific tasks, views, or documents.
 
 ## Automation and API Access
 
@@ -123,17 +123,17 @@ for task in tasks:
 ## Pricing for 25-Person Teams
 
 Basecamp pricing is straightforward:
-- **Personal**: $15/month (single user)
-- **Basecamp Business**: $149/month (unlimited projects, users)
-- **Basecamp Enterprise**: Custom pricing
+- Personal: $15/month (single user)
+- Basecamp Business: $149/month (unlimited projects, users)
+- Basecamp Enterprise: Custom pricing
 
 For a 25-person agency, Basecamp Business at $149/month is competitive—the entire team gets access to everything.
 
 ClickUp pricing scales per user:
-- **Free**: Limited features
-- **Unlimited**: $10/user/month
-- **Business**: $19/user/month (includes custom fields, goals)
-- **Enterprise**: Contact sales
+- Free: Limited features
+- Unlimited: $10/user/month
+- Business: $19/user/month (includes custom fields, goals)
+- Enterprise: Contact sales
 
 At 25 users, ClickUp Unlimited costs $250/month, and Business runs $475/month. The pricing difference is significant—Basecamp offers more features at a lower fixed cost.
 
@@ -143,7 +143,7 @@ However, ClickUp's customizability might justify the premium if your workflows r
 
 Creative agencies often need different perspectives on project data:
 
-**Basecamp provides**:
+Basecamp provides:
 - To-do lists with assignments and due dates
 - Hill Charts for progress visualization
 - Schedule (calendar view)

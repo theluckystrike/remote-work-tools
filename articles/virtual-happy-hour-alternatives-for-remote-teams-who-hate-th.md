@@ -129,10 +129,10 @@ The social bonding happens naturally through the shared struggle and eventual br
 
 The best alternative depends on your team's specific dynamics. Consider:
 
-- **Team size**: Smaller teams (under 8) might handle synchronous options; larger teams need async approaches
-- **Time zones**: The more spread out, the more async you should go
-- **Existing culture**: If your team already bonds over technical discussions, lean into that rather than forcing social topics
-- **Optionality**: Never make attendance mandatory. The teams that build genuine connection are the ones where participation is genuinely voluntary
+- Team size: Smaller teams (under 8) might handle synchronous options; larger teams need async approaches
+- Time zones: The more spread out, the more async you should go
+- Existing culture: If your team already bonds over technical discussions, lean into that rather than forcing social topics
+- Optionality: Never make attendance mandatory. The teams that build genuine connection are the ones where participation is genuinely voluntary
 
 Start with one alternative, try it for a month, gather feedback, and iterate. The goal isn't to replicate office culture—it's to build connection in a way that respects how remote developers actually want to interact.
 

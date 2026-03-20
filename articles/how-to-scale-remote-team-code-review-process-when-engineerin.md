@@ -165,10 +165,10 @@ When developers can't submit massive PRs, they naturally decompose problems into
 
 Track these metrics to know if your scaling efforts work:
 
-- **Review turnaround time**: Target under 24 hours
-- **PR to merge ratio**: Should stay consistent as you grow
-- **Reviewer load distribution**: No reviewer should handle more than 30% of reviews
-- **Rejection rate**: Changes that get reverted after merge indicate review gaps
+- Review turnaround time: Target under 24 hours
+- PR to merge ratio: Should stay consistent as you grow
+- Reviewer load distribution: No reviewer should handle more than 30% of reviews
+- Rejection rate: Changes that get reverted after merge indicate review gaps
 
 ```sql
 -- Query to check reviewer distribution
@@ -196,15 +196,6 @@ Don't make these mistakes when scaling your review process:
 Scaling code review isn't just about processes—it's about building a culture where review is seen as a critical part of development, not an interruption. When developers understand that good reviews make the whole team better, they invest the time to do them well.
 
 Encourage senior engineers to model good review behavior: thorough but kind feedback, quick turnaround times, and helpful explanations rather than just corrections.
-
-## Conclusion
-
-Scaling your remote code review process when your team triples requires deliberate systems, not just hope. Establish clear guidelines, use tiered review requirements, implement rotations, leverage automation, and track your metrics. Start with one or two changes, measure the impact, and iterate.
-
-The goal isn't to make code review faster—it's to make it sustainable while maintaining the quality standards that protect your codebase.
-
----
-
 
 ## Related Reading
 

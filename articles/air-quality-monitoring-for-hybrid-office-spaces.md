@@ -21,17 +21,17 @@ To implement air quality monitoring in hybrid offices, deploy ESP32-based sensor
 
 Before implementing a monitoring system, you need to understand which metrics actually matter for office environments. The primary measurements fall into several categories.
 
-**Particulate Matter (PM2.5 and PM10)**: These microscopic particles penetrate deep into lungs and can trigger respiratory issues. PM2.5 particles are especially concerning because they can enter the bloodstream. For office spaces, target levels below 35 µg/m³ for PM2.5 and below 150 µg/m³ for PM10.
+Particulate Matter (PM2.5 and PM10): These microscopic particles penetrate deep into lungs and can trigger respiratory issues. PM2.5 particles are especially concerning because they can enter the bloodstream. For office spaces, target levels below 35 µg/m³ for PM2.5 and below 150 µg/m³ for PM10.
 
-**Carbon Dioxide (CO2)**: Elevated CO2 levels cause drowsiness, reduced concentration, and headaches. Indoor CO2 concentrations above 1000 ppm indicate poor ventilation. The EPA recommends maintaining levels below 1000 ppm, with optimal performance below 600 ppm.
+Carbon Dioxide (CO2): Elevated CO2 levels cause drowsiness, reduced concentration, and headaches. Indoor CO2 concentrations above 1000 ppm indicate poor ventilation. The EPA recommends maintaining levels below 1000 ppm, with optimal performance below 600 ppm.
 
-**Volatile Organic Compounds (VOCs)**: Emitted by furniture, cleaning supplies, and electronics, VOCs can cause headaches and long-term health issues. Total VOC levels should stay below 500 ppb for healthy indoor air.
+Volatile Organic Compounds (VOCs): Emitted by furniture, cleaning supplies, and electronics, VOCs can cause headaches and long-term health issues. Total VOC levels should stay below 500 ppb for healthy indoor air.
 
-**Temperature and Humidity**: While not directly air quality metrics, these affect comfort and mold growth. Maintain humidity between 30-60% to prevent both dry air irritation and mold proliferation.
+Temperature and Humidity: While not directly air quality metrics, these affect comfort and mold growth. Maintain humidity between 30-60% to prevent both dry air irritation and mold proliferation.
 
 ## Hardware Selection for Office Deployment
 
-Building a robust monitoring system requires selecting appropriate sensors. For hybrid office spaces, consider both fixed installations and portable monitoring options.
+Building a monitoring system requires selecting appropriate sensors. For hybrid office spaces, consider both fixed installations and portable monitoring options.
 
 ### Recommended Sensor Modules
 
@@ -204,13 +204,6 @@ Start with a pilot deployment of 3-5 sensors to validate your infrastructure bef
 Position sensors away from direct airflow, windows, and doors to avoid skewed readings. Mount at desk height (approximately 4 feet) rather than floor or ceiling level for representative measurements.
 
 Document sensor locations and calibration schedules in your facilities management system. Create runbooks for responding to different alert levels so your team knows exactly what actions to take.
-
-## Conclusion
-
-Implementing air quality monitoring in hybrid office spaces protects employee health, ensures regulatory compliance, and optimizes HVAC performance. The technical components are straightforward: sensors, a data collection pipeline, visualization dashboards, and automated alerting. Focus on accurate sensor placement, reliable data transmission, and actionable alerts to build a system that genuinely improves workplace conditions.
-
-With proper implementation, you'll have visibility into the air your team breathes, enabling data-driven decisions about ventilation, filtration, and space utilization that benefit everyone in your hybrid organization.
-
 
 ## Related Reading
 

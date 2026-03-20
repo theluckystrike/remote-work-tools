@@ -61,27 +61,27 @@ print(f"Submit by: {result['renewal_window_end']}")
 
 The renewal application requires several documents that prove your continued eligibility:
 
-**Proof of Continued Remote Work**: Submit updated employment contracts, freelance agreements, or client invoices demonstrating ongoing work for non-Greek entities. If you're employed, provide a letter from your employer confirming continued remote work arrangements. Self-employed individuals should provide contracts and invoices from the past six months.
+Proof of Continued Remote Work: Submit updated employment contracts, freelance agreements, or client invoices demonstrating ongoing work for non-Greek entities. If you're employed, provide a letter from your employer confirming continued remote work arrangements. Self-employed individuals should provide contracts and invoices from the past six months.
 
-**Financial Documentation**: Bank statements showing regular income deposits for the past six months. The income requirement remains at least €3,500 monthly (or €42,000 annually). If your income has increased, include documentation supporting the change.
+Financial Documentation: Bank statements showing regular income deposits for the past six months. The income requirement remains at least €3,500 monthly (or €42,000 annually). If your income has increased, include documentation supporting the change.
 
-**Health Insurance**: Provide proof of private health insurance covering Greece for the renewal period. Ensure the policy explicitly mentions Greece or provides worldwide coverage including Greece.
+Health Insurance: Provide proof of private health insurance covering Greece for the renewal period. Ensure the policy explicitly mentions Greece or provides worldwide coverage including Greece.
 
-**Accommodation Proof**: Rental agreements, property deeds, or hotel booking confirmations showing your current Greek address.
+Accommodation Proof: Rental agreements, property deeds, or hotel booking confirmations showing your current Greek address.
 
-**Passport**: Valid passport with at least two blank pages and validity extending beyond your renewal period.
+Passport: Valid passport with at least two blank pages and validity extending beyond your renewal period.
 
-**Application Form**: Completed the appropriate renewal application form from the Greek immigration authority (Υπηρεσία Αλλοδαπών και Μετανάστευσης).
+Application Form: Completed the appropriate renewal application form from the Greek immigration authority (Υπηρεσία Αλλοδαπών και Μετανάστευσης).
 
 ## The Application Process
 
 Submit your renewal application through the Greek immigration portal or in person at the local foreigners' bureau (Αστυνομικό Τμήμα Αλλοδαπών) depending on your jurisdiction. The process involves:
 
-1. **Gather documents**: Collect all required documentation listed above.
-2. **Complete application form**: Fill out the renewal form accurately.
-3. **Pay fees**: The renewal fee is approximately €300-€400, depending on processing options.
-4. **Submit application**: Apply online or in person.
-5. **Attend appointment**: You may need to visit the immigration office for biometric data.
+1. Gather documents: Collect all required documentation listed above.
+2. Complete application form: Fill out the renewal form accurately.
+3. Pay fees: The renewal fee is approximately €300-€400, depending on processing options.
+4. Submit application: Apply online or in person.
+5. Attend appointment: You may need to visit the immigration office for biometric data.
 
 Processing typically takes 30-60 days. During this period, you can remain in Greece if your current visa expires.
 
@@ -123,13 +123,13 @@ You can integrate this with notification systems like Slack or email to stay on 
 
 ## Common Renewal Issues and Solutions
 
-**Income drops below threshold**: If your income temporarily decreases, provide documentation showing the average over six months meets the requirement. Maintain consistent client relationships and invoice regularly.
+Income drops below threshold: If your income temporarily decreases, provide documentation showing the average over six months meets the requirement. Maintain consistent client relationships and invoice regularly.
 
-**Missing documentation**: Keep digital and physical copies of all documents. Use cloud storage with automatic synchronization to ensure you always have access to required paperwork.
+Missing documentation: Keep digital and physical copies of all documents. Use cloud storage with automatic synchronization to ensure you always have access to required paperwork.
 
-**Address changes**: If you move within Greece, update your address with the local authorities within 30 days. Include the new accommodation proof with your renewal application.
+Address changes: If you move within Greece, update your address with the local authorities within 30 days. Include the new accommodation proof with your renewal application.
 
-**Processing delays**: Greek immigration offices have varying workloads. Apply early and follow up politely if processing exceeds 60 days.
+Processing delays: Greek immigration offices have varying workloads. Apply early and follow up politely if processing exceeds 60 days.
 
 ## Extending Beyond Five Years
 
@@ -141,7 +141,7 @@ If you plan to stay in Greece long-term, research these options at least one yea
 
 - Start your renewal 60 days before visa expiration
 - Maintain income above €3,500 monthly with documented proof
-- Keep comprehensive records of remote work activities
+- Keep records of remote work activities
 - Use automation tools to track deadlines
 - Plan for long-term residency options before the five-year limit
 

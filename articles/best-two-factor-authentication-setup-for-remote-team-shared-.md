@@ -100,7 +100,7 @@ Hardware keys resist phishing because they cryptographically verify the service'
 
 ## Method 3: Centralized Identity with SSO
 
-If your team uses Google Workspace or Microsoft 365, you can leverage SSO for many services. However, for services that don't integrate with your identity provider, consider using a centralized authentication proxy.
+If your team uses Google Workspace or Microsoft 365, you can use SSO for many services. However, for services that don't integrate with your identity provider, consider using a centralized authentication proxy.
 
 ### Using Authelia or oauth2-proxy
 

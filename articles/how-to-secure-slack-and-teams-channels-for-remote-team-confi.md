@@ -26,11 +26,11 @@ Secure Slack and Teams channels require restricted member access, disallowed for
 
 Before configuring permissions, identify the types of discussions requiring enhanced security:
 
-- **HR matters**: Compensation, performance reviews, disciplinary actions
-- **Legal discussions**: Contract negotiations, compliance issues, litigation strategy
-- **Financial data**: Budget planning, salary bands, financial forecasts
-- **Security incidents**: Vulnerability details, breach response, penetration test results
-- **Client confidential information**: Pricing proposals, roadmaps, proprietary features
+- HR matters: Compensation, performance reviews, disciplinary actions
+- Legal discussions: Contract negotiations, compliance issues, litigation strategy
+- Financial data: Budget planning, salary bands, financial forecasts
+- Security incidents: Vulnerability details, breach response, penetration test results
+- Client confidential information: Pricing proposals, roadmaps, proprietary features
 
 Each category warrants different access controls and retention policies. Creating dedicated channels with explicit security configurations ensures conversations remain private.
 
@@ -71,9 +71,9 @@ In Slack, navigate to **Workspace Settings > Channel Management** to implement t
 
 If your organization uses Slack Enterprise Grid, use these advanced features:
 
-- **Data Loss Prevention (DLP)**: Automatically flag or block messages containing sensitive patterns like credit card numbers or SSNs
-- **eDiscovery**: Comprehensive audit logs for compliance requirements
-- **Channel locking**: Temporarily freeze sensitive channels during crisis situations
+- Data Loss Prevention (DLP): Automatically flag or block messages containing sensitive patterns like credit card numbers or SSNs
+- eDiscovery: audit logs for compliance requirements
+- Channel locking: Temporarily freeze sensitive channels during crisis situations
 
 ```javascript
 // Slack app configuration for DLP compliance
@@ -105,8 +105,8 @@ Enforce 2FA for all team members accessing sensitive channels. In **Workspace Se
 
 Microsoft Teams offers two channel types with different security models:
 
-- **Standard private channels**: Only invited members see content, but workspace admins can access
-- **Shared channels**: Cross-organization collaboration with granular external sharing controls
+- Standard private channels: Only invited members see content, but workspace admins can access
+- Shared channels: Cross-organization collaboration with granular external sharing controls
 
 For maximum confidentiality, use private channels with sensitivity labels.
 
@@ -165,7 +165,7 @@ securityPolicy:
 
 When conducting video calls for sensitive matters:
 
-1. **Enable lobby controls**: Require host admission for all participants
+1. Enable lobby controls: Require host admission for all participants
 2. **Disable recording** by default for confidential meetings
 3. **Use end-to-end encryption** available in Teams meetings
 4. **Implement watermark** for screen sharing content
@@ -255,13 +255,6 @@ Several frequent errors undermine channel security:
 - **Relying on honor system** without technical enforcement
 
 Automated policies catch mistakes that human vigilance misses.
-
-## Conclusion
-
-Securing Slack and Teams channels for confidential remote team discussions requires deliberate configuration beyond default settings. By implementing private channels, sensitivity labels, strict access controls, and automated retention policies, you protect sensitive conversations from unauthorized access and accidental exposure.
-
-The effort invested in proper configuration prevents costly data breaches and compliance violations. Start with your most sensitive discussions—HR, legal, security—and apply these patterns progressively across your organization's communication infrastructure.
-
 
 ## Related Reading
 

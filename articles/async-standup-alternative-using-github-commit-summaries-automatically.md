@@ -25,10 +25,10 @@ Using GitHub commit summaries as a standup alternative gives your team visibilit
 
 Traditional standups suffer from several problems that commit summaries solve:
 
-1. **Information accuracy**: People forget what they did yesterday. Commits never lie.
-2. **Time zone fairness**: No one has to meet at inconvenient hours
-3. **Async by default**: Team members can review summaries on their own schedule
-4. **Reduced anxiety**: Introverted developers don't have to perform in front of cameras
+1. Information accuracy: People forget what they did yesterday. Commits never lie.
+2. Time zone fairness: No one has to meet at inconvenient hours
+3. Async by default: Team members can review summaries on their own schedule
+4. Reduced anxiety: Introverted developers don't have to perform in front of cameras
 
 The key insight is that meaningful work gets committed to version control. By aggregating these commits into a daily digest, you create a truthful picture of team progress.
 
@@ -185,10 +185,10 @@ gh api -X POST /repos/{owner}/{repo}/subscriptions \
 
 Track these metrics to refine your approach:
 
-- **Meeting time saved**: Calculate hours per week not spent in standups
-- **Blocker resolution time**: How quickly issues get identified and solved
-- **Team satisfaction**: Quarterly survey on async communication effectiveness
-- **PR cycle time**: Whether visibility improves throughput
+- Meeting time saved: Calculate hours per week not spent in standups
+- Blocker resolution time: How quickly issues get identified and solved
+- Team satisfaction: Quarterly survey on async communication effectiveness
+- PR cycle time: Whether visibility improves throughput
 
 ## Common Pitfalls to Avoid
 
@@ -224,15 +224,6 @@ jobs:
 ### No Escalation Path
 
 When async communication fails, have a fallback. If a summary shows no progress for 48 hours, trigger a check-in.
-
-## Conclusion
-
-Replacing daily standups with automated GitHub commit summaries transforms how remote teams stay aligned. By focusing on actual work done rather than verbal reports, you get more accurate information, respect everyone's time zones, and eliminate meeting fatigue.
-
-Start by implementing the basic commit aggregation, then layer on PR context, issue tracking, and Slack integration. Your team will quickly discover that knowing what everyone shipped is more valuable than hearing what they plan to do.
-
-The transition takes two to three weeks as everyone adjusts to the new rhythm. Stick with it—even on days when the summary seems thin, the consistency builds visibility that standups rarely achieve.
-
 
 ## Related Reading
 

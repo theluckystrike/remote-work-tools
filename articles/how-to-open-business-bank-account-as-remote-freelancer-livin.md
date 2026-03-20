@@ -49,7 +49,7 @@ Not all banks serve freelancers equally. Here's a quick comparison of options po
 | Novo Banco | €7.50/month | Excellent | Good |
 | Bunq (EU-based, no physical presence) | €10/month | Excellent | Excellent |
 
-**For developers and tech users:** If you prefer a fully digital experience, **Bunq** or **Wise** (available in Portugal) offer quick account setup entirely online. However, traditional banks like Millennium BCP often provide better integration with Portuguese tax systems and more comprehensive support for invoices generated through Portuguese accounting software.
+**For developers and tech users:** If you prefer a fully digital experience, **Bunq** or **Wise** (available in Portugal) offer quick account setup entirely online. However, traditional banks like Millennium BCP often provide better integration with Portuguese tax systems and more support for invoices generated through Portuguese accounting software.
 
 ## The Application Process
 
@@ -105,13 +105,6 @@ Solution: Some business accounts require a minimum deposit or maintain a minimum
 2. **Register as a sole trader first** if you're just starting out—the administrative burden is minimal and you can always upgrade to a company structure later.
 3. **Use Portuguese invoicing software** like Softland, Ploomes, or the free Invoicex to generate compliant invoices that integrate with your bank.
 4. **Keep personal and business finances strictly separate** from day one to simplify tax calculations and avoid headaches during inspections.
-
-## Final Thoughts
-
-Opening a business bank account in Portugal as a remote freelancer is a straightforward process once you have your documentation in order. The key is choosing a bank that aligns with your workflow—whether you prefer in-person support or a fully digital experience. Remember that building a relationship with a local bank can pay dividends when you need credit, mortgage applications, or support with more complex financial products.
-
-Take the time to understand your business structure, gather required documents, and select a bank that supports your long-term goals as a freelancer operating internationally.
-
 
 ## Related Reading
 

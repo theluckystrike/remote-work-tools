@@ -302,10 +302,10 @@ This verification process creates an audit trail and flags any issues requiring 
 
 Building a complete equipment return system requires connecting several components:
 
-- **HRIS integration**: Sync employee termination or offboarding triggers with return initiation
-- **Asset management database**: Link returns to existing asset records for accurate inventory
-- **Finance system**: Trigger final paycheck adjustments for damaged or unreturned equipment
-- **ITAM tools**: Update device assignment status and prepare for redeployment or disposal
+- HRIS integration: Sync employee termination or offboarding triggers with return initiation
+- Asset management database: Link returns to existing asset records for accurate inventory
+- Finance system: Trigger final paycheck adjustments for damaged or unreturned equipment
+- ITAM tools: Update device assignment status and prepare for redeployment or disposal
 
 The specific implementation depends on your existing tooling. Most modern systems support webhook-based integrations or REST APIs that enable these connections with minimal custom code.
 

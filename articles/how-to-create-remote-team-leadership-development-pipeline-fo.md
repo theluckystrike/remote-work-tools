@@ -168,9 +168,9 @@ sprint_lead_rotation:
 
 Assign potential leaders to lead specific initiatives:
 
-- **Shadow projects**: Observe a senior lead in planning meetings without formal responsibility
-- **Pilot projects**: Lead a small cross-team initiative with executive sponsorship
-- **Improvement initiatives**: Own a process improvement with defined success metrics
+- Shadow projects: Observe a senior lead in planning meetings without formal responsibility
+- Pilot projects: Lead a small cross-team initiative with executive sponsorship
+- Improvement initiatives: Own a process improvement with defined success metrics
 
 Each project type provides different leadership experiences and creates evidence for promotion decisions.
 

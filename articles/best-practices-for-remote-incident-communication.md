@@ -222,11 +222,6 @@ def notify_status_page(incident: Incident):
 
 The goal isn't to eliminate human communication—it's to eliminate the communication tasks that can be automated so humans focus on what matters: fixing the problem.
 
-## Summary
-
-The investment in these systems pays off the moment your first incident hits. Assign roles, write the templates, and configure the channels before an outage forces you to improvise. The practices above work whether you're a team of five or five hundred — the difference is whether you built the scaffolding in advance.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

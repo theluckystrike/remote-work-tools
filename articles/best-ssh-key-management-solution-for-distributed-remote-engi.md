@@ -179,17 +179,17 @@ For most distributed remote engineering teams, starting with a structured file-b
 
 Start with these steps regardless of which solution you choose:
 
-1. **Audit existing keys**: Identify all current SSH keys and their access levels. Remove unused keys.
+1. Audit existing keys: Identify all current SSH keys and their access levels. Remove unused keys.
 
-2. **Establish a key policy**: Define requirements for key types (Ed25519 preferred over RSA), key rotation frequency, and access review cadence.
+2. Establish a key policy: Define requirements for key types (Ed25519 preferred over RSA), key rotation frequency, and access review cadence.
 
-3. **Implement access groups**: Organize access by team and environment rather than individual keys.
+3. Implement access groups: Organize access by team and environment rather than individual keys.
 
-4. **Automate provisioning**: Every new developer should receive access through automation, not manual server configuration.
+4. Automate provisioning: Every new developer should receive access through automation, not manual server configuration.
 
-5. **Plan for offboarding**: Ensure clear processes for removing access when team members transition.
+5. Plan for offboarding: Ensure clear processes for removing access when team members transition.
 
-The right solution depends on your team size, infrastructure maturity, and security requirements. Small teams benefit from simple Ansible-based approaches, while larger organizations should invest in certificate-based systems or managed solutions that provide comprehensive audit trails and automatic rotation.
+The right solution depends on your team size, infrastructure maturity, and security requirements. Small teams benefit from simple Ansible-based approaches, while larger organizations should invest in certificate-based systems or managed solutions that provide audit trails and automatic rotation.
 
 
 ## Related Reading

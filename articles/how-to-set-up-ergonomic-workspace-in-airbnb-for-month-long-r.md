@@ -51,9 +51,9 @@ Here's a quick reference for common heights:
 
 | Your Height | Recommended Desk Height |
 |-------------|------------------------|
-| Under 5'6"  | 26-28 inches           |
-| 5'6"-5'10"  | 28-30 inches           |
-| Over 5'10"  | 30-32 inches           |
+| Under 5'6" | 26-28 inches |
+| 5'6"-5'10" | 28-30 inches |
+| Over 5'10" | 30-32 inches |
 
 ### Positioning Your Monitor
 
@@ -182,15 +182,6 @@ Work from the floor with a lap desk and pillow arrangement. Not ideal for long s
 - [ ] Lighting eliminates glare and shadows
 - [ ] Keyboard and mouse at comfortable reach
 - [ ] Break reminder system active
-
-## Wrapping Up Your Month-Long Stay
-
-An ergonomic setup requires an upfront investment of about 30-60 minutes on day one. After that, you'll work comfortably for weeks without the physical toll that derails productivity and mood.
-
-Your body adapts quickly to good posture. By day four or five, you'll forget you're in a temporary space. The habits you develop—monitor height, keyboard distance, regular breaks—translate to any workspace you use afterward.
-
-Invest in your setup, and your work will thank you.
-
 
 ## Related Reading
 

@@ -61,11 +61,11 @@ Required for the upcoming user dashboard feature (PROD-123). Currently, all endp
 
 Explicit expectations prevent confusion and help reviewers provide useful feedback. Include these elements in your PR or team documentation:
 
-**Review turnaround time**: Define expected response windows. A common pattern for distributed teams is "review within 24 hours during working hours in your time zone."
+Review turnaround time: Define expected response windows. A common pattern for distributed teams is "review within 24 hours during working hours in your time zone."
 
-**Priority indicators**: Use labels or prefixes to communicate urgency. For instance, `[urgent]` for production hotfixes, `[routine]` for standard feature work.
+Priority indicators: Use labels or prefixes to communicate urgency. For instance, `[urgent]` for production hotfixes, `[routine]` for standard feature work.
 
-**Scope boundaries**: Specify what the PR does and does not include. This prevents scope creep during review and helps reviewers focus their feedback appropriately.
+Scope boundaries: Specify what the PR does and does not include. This prevents scope creep during review and helps reviewers focus their feedback appropriately.
 
 ## Code Review Templates
 
@@ -97,22 +97,22 @@ When reviewers receive consistently structured PRs, they can quickly assess scop
 
 The primary challenge in async reviews is managing feedback loops across time zones. Several approaches help minimize delays:
 
-**Overlap windows**: Identify hours when multiple time zones are simultaneously available. Even two hours of overlap significantly accelerates async communication. Teams often use shared calendars to visualize these windows.
+Overlap windows: Identify hours when multiple time zones are simultaneously available. Even two hours of overlap significantly accelerates async communication. Teams often use shared calendars to visualize these windows.
 
-**Asynchronous standups in PRs**: Instead of daily sync meetings, use PR comments as status updates. A simple "LGTM from my side, waiting on API review" provides clear status without scheduling conflicts.
+Asynchronous standups in PRs: Instead of daily sync meetings, use PR comments as status updates. A simple "LGTM from my side, waiting on API review" provides clear status without scheduling conflicts.
 
-**Review round limits**: Establish a maximum number of review rounds per PR. This prevents infinite back-and-forth and encourages thorough, complete feedback in each round.
+Review round limits: Establish a maximum number of review rounds per PR. This prevents infinite back-and-forth and encourages thorough, complete feedback in each round.
 
 ## Providing Constructive Feedback
 
 Effective async feedback is specific, actionable, and contextual. Compare these two comments:
 
-**Weak feedback**:
+Weak feedback:
 ```
 This function is confusing.
 ```
 
-**Strong feedback**:
+Strong feedback:
 ```
 Consider extracting the validation logic into a separate function. The current approach mixes validation with business logic, making it harder to test. Here's a refactored version:
 
@@ -129,9 +129,9 @@ The second example explains the concern, provides reasoning, and includes a conc
 
 Most Git platforms offer features that streamline async reviews:
 
-**Line-specific comments**: Address code sections precisely rather than making general observations. This makes feedback actionable and helps the author understand exactly what needs attention.
+Line-specific comments: Address code sections precisely rather than making general observations. This makes feedback actionable and helps the author understand exactly what needs attention.
 
-**Suggestion commits**: GitHub's suggestion feature lets reviewers propose code changes directly:
+Suggestion commits: GitHub's suggestion feature lets reviewers propose code changes directly:
 
 ```markdown
 ```suggestion

@@ -77,11 +77,11 @@ Document these findings and present them to leadership. Frame consolidation as a
 
 When multiple tools exist in one category, you need to choose which one becomes the standard. Avoid making this decision unilaterally. Instead, evaluate based on criteria that matter to your team:
 
-1. **Feature parity**: Can the chosen tool do everything the other tools do?
-2. **Integration capabilities**: Does it connect with your existing workflow?
-3. **User satisfaction**: Survey team members who use each tool
-4. **Scalability**: Will it handle your projected growth?
-5. **Pricing structure**: How does cost change as you add users?
+1. Feature parity: Can the chosen tool do everything the other tools do?
+2. Integration capabilities: Does it connect with your existing workflow?
+3. User satisfaction: Survey team members who use each tool
+4. Scalability: Will it handle your projected growth?
+5. Pricing structure: How does cost change as you add users?
 
 For communication tools, consider this evaluation framework:
 

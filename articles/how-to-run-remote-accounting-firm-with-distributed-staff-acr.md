@@ -180,20 +180,13 @@ Document your security policies and require annual acknowledgment from all team 
 
 Track these metrics to ensure your distributed model serves clients effectively:
 
-- **Turnaround time**: Hours from client document receipt to deliverable completion
-- **First-time accuracy**: Percentage of work requiring no revisions
-- **Client satisfaction**: Quarterly surveys on communication and quality
-- **Team engagement**: Monthly pulse surveys on workload and collaboration
-- **Coverage overlap**: Hours when multiple time zones have team members available
+- Turnaround time: Hours from client document receipt to deliverable completion
+- First-time accuracy: Percentage of work requiring no revisions
+- Client satisfaction: Quarterly surveys on communication and quality
+- Team engagement: Monthly pulse surveys on workload and collaboration
+- Coverage overlap: Hours when multiple time zones have team members available
 
 Review metrics monthly and adjust workflows accordingly. The goal is continuous improvement, not rigid adherence to initial designs.
-
-## Conclusion
-
-Running a remote accounting firm across time zones requires intentional system design. Focus on async-first workflows, clear handoff protocols, smart scheduling tools, and robust security practices. The technical infrastructure exists—you need only implement it thoughtfully.
-
-Start with one or two of these approaches, measure their impact, and expand from there. Your team and clients will adapt as they see the benefits of a well-coordinated distributed operation.
-
 
 ## Related Reading
 

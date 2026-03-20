@@ -78,7 +78,7 @@ function convertToLocal(utcHour, utcMinute, timezone) {
 }
 ```
 
-This basic implementation finds slots where everyone is within working hours. For a more robust solution, use the `luxon` or `date-fns-tz` libraries which handle daylight saving time transitions correctly.
+This basic implementation finds slots where everyone is within working hours. For a more solution, use the `luxon` or `date-fns-tz` libraries which handle daylight saving time transitions correctly.
 
 ## Practical Tool Options
 
@@ -166,13 +166,13 @@ This approach removes the negotiation overhead entirely. Team members just confi
 
 International teams must account for several complications:
 
-**Daylight Saving Time**: Always use IANA time zone identifiers (like "America/New_York") rather than fixed offsets. Libraries like Luxon handle DST transitions automatically.
+Daylight Saving Time: Always use IANA time zone identifiers (like "America/New_York") rather than fixed offsets. Libraries like Luxon handle DST transitions automatically.
 
-**Flexible Hours**: Some team members work non-standard schedules. Allow participants to specify their actual availability rather than assuming 9-6.
+Flexible Hours: Some team members work non-standard schedules. Allow participants to specify their actual availability rather than assuming 9-6.
 
-**One-Time vs Recurring**: A tool should distinguish between finding a single slot (more flexibility) and establishing a recurring meeting (needs long-term stability).
+One-Time vs Recurring: A tool should distinguish between finding a single slot (more flexibility) and establishing a recurring meeting (needs long-term stability).
 
-**Public Holidays**: For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
+Public Holidays: For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
 
 ## Key Takeaways
 

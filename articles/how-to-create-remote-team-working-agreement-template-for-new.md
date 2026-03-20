@@ -195,13 +195,13 @@ Your first version won't be perfect. Schedule a check-in after two weeks to disc
 
 Several mistakes frequently derail working agreement efforts.
 
-**Over-specification**: Don't try to document every possible scenario. Focus on the most important expectations and trust team members to handle specifics reasonably.
+Over-specification: Don't try to document every possible scenario. Focus on the most important expectations and trust team members to handle specifics reasonably.
 
-**Ignoring time zones**: If your team spans multiple time zones, availability and meeting policies must account for this explicitly. Rotating meeting times distributes the burden fairly.
+Ignoring time zones: If your team spans multiple time zones, availability and meeting policies must account for this explicitly. Rotating meeting times distributes the burden fairly.
 
-**No enforcement mechanism**: An agreement without accountability becomes optional. Define simple consequences for consistent violations, starting with friendly reminders.
+No enforcement mechanism: An agreement without accountability becomes optional. Define simple consequences for consistent violations, starting with friendly reminders.
 
-**Treating it as complete**: Your agreement should evolve. A quarterly review cadence keeps it relevant as your team grows and circumstances change.
+Treating it as complete: Your agreement should evolve. A quarterly review cadence keeps it relevant as your team grows and circumstances change.
 
 ## Practical Template You Can Use Today
 

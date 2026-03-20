@@ -40,7 +40,7 @@ Candidates review a pull request and provide written feedback. This tests their 
 **Stage 4: Architectural Discussion**
 A written or recorded response to a system design question. Candidates explain their thinking in text or video format.
 
-Skip the live coding interview entirely. These stages provide comprehensive evaluation without requiring real-time interaction.
+Skip the live coding interview entirely. These stages provide evaluation without requiring real-time interaction.
 
 ## Step 2: Create the Technical Challenge
 
@@ -227,16 +227,6 @@ Document how your team handles these situations to maintain consistency.
 **Ignoring non-technical communication.** Code quality matters, but so does the ability to explain decisions. Weight your rubric accordingly.
 
 **Skipping cultural fit assessment.** Async doesn't mean impersonal. Include questions about collaboration style and work preferences.
-
-## Conclusion
-
-An async interview process for hiring remote developers eliminates scheduling friction while improving evaluation quality. The key is designing assessments that measure real job skills through practical challenges, code reviews, and architectural discussions.
-
-Start with the technical challenge template, build your code review exercise, and add an architectural discussion if needed. Set clear rubrics, communicate consistently, and iterate based on what you learn.
-
-When implemented well, async interviews respect candidates' time, reduce bias, and help your team hire stronger developers—no calendar coordination required.
-
-
 
 ## Related Reading
 

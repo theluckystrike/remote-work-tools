@@ -88,7 +88,7 @@ Beyond hardware choices, software configurations help minimize keyboard impact d
 # defaults write -g KeyRepeat -int 2
 ```
 
-**Mechanical keyboard programming** allows remapping keys to reduce reliance on loud keys. For example, remapping the Caps Lock key to Control or Escape eliminates the loud "click" of that key while keeping a useful function accessible.
+**Mechanical keyboard programming** allows remapping keys to reduce reliance on loud keys. For example, remapping the Caps Lock key to Control or Escape eliminates the loud "click" of that key while keeping an useful function accessible.
 
 Consider your typing position and angle. keyboards angled toward you tend to direct sound downward into the desk, while flat keyboards allow sound to dissipate more naturally. Experiment with keyboard position to find the angle that minimizes sound transmission to your video call participants.
 

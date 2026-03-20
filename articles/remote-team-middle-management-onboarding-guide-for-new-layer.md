@@ -87,10 +87,10 @@ Day 5: Initial reflection
 
 Not all meetings carry equal value. Prioritize these in the first week:
 
-- **Team standup**: Understand how the team communicates blockers and progress
-- **Recent retrospective**: Learn what the team thinks about their processes
-- **Planning session**: See how work gets estimated and assigned
-- **Skip-level meetings**: If the director holds these, observe the dynamic
+- Team standup: Understand how the team communicates blockers and progress
+- Recent retrospective: Learn what the team thinks about their processes
+- Planning session: See how work gets estimated and assigned
+- Skip-level meetings: If the director holds these, observe the dynamic
 
 Avoid the temptation to make changes in week one. Resist offering opinions until you've built sufficient context.
 
@@ -192,13 +192,6 @@ Establish clear success criteria with your director during onboarding:
 | Day 1-30 | Context, relationships | All 1:1s scheduled, documentation reviewed, first team meeting attended |
 | Day 31-60 | Ownership, trust | First responsibility handoff complete, upward update cadence established |
 | Day 61-90 | Impact, independence | Team velocity stable or improved, relationship trust scores positive |
-
-## Conclusion
-
-Onboarding into a newly created middle management position in a remote team requires deliberate structure and patience. The framework outlined here—heavy on observation early, gradual responsibility transfer, and intentional relationship building—provides a template that adapts to your organization's specifics.
-
-The middle layer position exists to translate between strategy and execution, between organizational goals and individual growth. Your success depends not just on what you know, but on how effectively you build the trust necessary to bridge those gaps.
-
 
 ## Related Reading
 

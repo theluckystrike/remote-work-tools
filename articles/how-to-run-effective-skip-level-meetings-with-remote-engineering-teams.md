@@ -172,10 +172,10 @@ Protect these meetings on your calendar as you would a board meeting or customer
 
 Track a few simple metrics to understand if your skip level program works:
 
-- **Issue resolution rate**: What percentage of raised issues get resolved?
-- **Repeat topics**: Are the same problems appearing across different engineers?
-- **Meeting effectiveness survey**: After each meeting, ask: "Was this valuable? What would make it more useful?"
-- **Engagement correlation**: Compare engagement scores for engineers who've had skip levels vs. those who haven't
+- Issue resolution rate: What percentage of raised issues get resolved?
+- Repeat topics: Are the same problems appearing across different engineers?
+- Meeting effectiveness survey: After each meeting, ask: "Was this valuable? What would make it more useful?"
+- Engagement correlation: Compare engagement scores for engineers who've had skip levels vs. those who haven't
 
 ## Building a Sustainable Program
 

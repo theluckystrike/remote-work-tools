@@ -191,7 +191,7 @@ The most powerful boundary tool is documentation. When expectations are written 
 1. **Project charter:** Define scope, communication channels, and escalation paths at project start
 2. **Status report templates:** Weekly summaries that reduce ad-hoc check-ins
 3. **Decision logs:** Record why certain calls were made to avoid repeated discussions
-4. **Meeting notes:** Share and archive all call notes in a accessible location
+4. **Meeting notes:** Share and archive all call notes in an accessible location
 
 ## Building Sustainable Communication Habits
 

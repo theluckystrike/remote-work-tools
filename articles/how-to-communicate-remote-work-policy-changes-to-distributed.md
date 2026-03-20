@@ -216,9 +216,9 @@ Certain approaches reliably increase anxiety and damage trust:
 
 After implementing your communication plan, watch for these indicators:
 
-- **Survey results**: Send an optional pulse survey 1-2 weeks after the announcement asking about clarity and confidence
-- **Support ticket volume**: Track how many questions or concerns are submitted
-- **Team sentiment**: Note whether informal conversations reflect stress or acceptance
+- Survey results: Send an optional pulse survey 1-2 weeks after the announcement asking about clarity and confidence
+- Support ticket volume: Track how many questions or concerns are submitted
+- Team sentiment: Note whether informal conversations reflect stress or acceptance
 
 Policy changes don't have to cause anxiety. With careful communication, they can actually strengthen trust by demonstrating that leadership communicates transparently and values team input.
 

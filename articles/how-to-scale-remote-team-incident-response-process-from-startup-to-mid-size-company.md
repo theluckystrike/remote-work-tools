@@ -27,10 +27,10 @@ In the early stages, your incident response likely looks like this: something br
 
 At this stage, your incident handling probably relies on:
 
-- **Implicit knowledge**: Only the original developers know how to diagnose issues
-- **Reactive paging**: Someone checks alerts manually or gets woken up by automated pages
-- **Ad-hoc communication**: Incident discussions happen in the main Slack channel
-- **No formal escalation**: Everyone jumps in, creating noise rather than focus
+- Implicit knowledge: Only the original developers know how to diagnose issues
+- Reactive paging: Someone checks alerts manually or gets woken up by automated pages
+- Ad-hoc communication: Incident discussions happen in the main Slack channel
+- No formal escalation: Everyone jumps in, creating noise rather than focus
 
 This approach has one genuine advantage: speed. When everyone knows everything, you can diagnose and fix issues fast. The problem is it doesn't scale, and it burns out your early engineers who become the de facto on-call for everything.
 
@@ -131,10 +131,10 @@ As you grow beyond twenty engineers, introduce formal incident command.
 
 Designate an Incident Commander (IC) for each active incident. The IC's role:
 
-- **Owns communication**: Updates stakeholders, coordinates responders
-- **Makes decisions**: Approves rollbacks, declares SEV levels
-- **Delegates**: Assigns specific tasks to subject matter experts
-- **Documents**: Creates incident timeline in a dedicated channel
+- Owns communication: Updates stakeholders, coordinates responders
+- Makes decisions: Approves rollbacks, declares SEV levels
+- Delegates: Assigns specific tasks to subject matter experts
+- Documents: Creates incident timeline in a dedicated channel
 
 ```python
 # incident_commander_rotation.py
@@ -260,11 +260,11 @@ Quarterly, simulate major failures to test your response:
 
 Regardless of team size, these principles remain constant:
 
-1. **Blameless post-mortems**: Focus on fixing systems, not fixing people
-2. **Clear ownership**: Every alert must have a clear owner within one hour
-3. **Document everything**: Decisions made during incidents become institutional knowledge
-4. **Practice regularly**: Runbooks and automation only work if tested
-5. **Respect time zones**: Design rotations that don't burden specific regions permanently
+1. Blameless post-mortems: Focus on fixing systems, not fixing people
+2. Clear ownership: Every alert must have a clear owner within one hour
+3. Document everything: Decisions made during incidents become institutional knowledge
+4. Practice regularly: Runbooks and automation only work if tested
+5. Respect time zones: Design rotations that don't burden specific regions permanently
 
 Scaling incident response isn't about adding bureaucracy—it's about creating structure that lets your team respond faster and more effectively as the system complexity grows. Start with foundations at ten engineers, mature the process at twenty, and formalize at fifty. Your on-call team will thank you.
 

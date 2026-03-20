@@ -96,7 +96,7 @@ policies = [
 ]
 ```
 
-This scoring approach prioritizes what matters for developers: robust medical coverage and meaningful electronics protection.
+This scoring approach prioritizes what matters for developers: medical coverage and meaningful electronics protection.
 
 ## Common Exclusions to Watch For
 

@@ -29,7 +29,7 @@ The core challenge involves three moving parts: determining which states have Ne
 
 ### Vertex Cloud
 
-Vertex offers enterprise-grade tax calculation services with robust multi-state support. Their API covers withholding tax calculation, Nexus analysis, and compliance reporting across all 50 states. For large organizations managing hundreds or thousands of remote workers, Vertex provides the most comprehensive coverage.
+Vertex offers enterprise-grade tax calculation services with multi-state support. Their API covers withholding tax calculation, Nexus analysis, and compliance reporting across all 50 states. For large organizations managing hundreds or thousands of remote workers, Vertex provides the most coverage.
 
 ```python
 import vertex_cloud
@@ -191,15 +191,6 @@ For most development teams, a hybrid approach works best: use commercial APIs fo
 ### Documentation and Audit Trails
 
 Maintain detailed logs of all tax calculations and Nexus determinations. When audits occur—and they will for organizations with remote workers across many states—having clear audit trails prevents costly penalties.
-
-## Conclusion
-
-The best tool for tracking remote worker tax obligations across US states depends on your scale and technical capacity. Enterprise solutions like Vertex and Avalara provide comprehensive coverage but at significant cost. Development teams with strong engineering resources can build effective custom systems using open-source data and well-designed APIs.
-
-For most growing organizations, starting with a custom Nexus tracker using the patterns shown above provides a solid foundation. As compliance requirements grow more complex, layer in commercial calculation services while retaining your tracking infrastructure.
-
-The key insight: tax compliance for remote workers is fundamentally a data problem. Get your employee location data right, keep state rules current, and build systems that generate audit trails. These fundamentals matter more than any specific tool choice.
-
 
 ## Related Reading
 

@@ -139,10 +139,10 @@ function routeForReview(designAsset, context) {
 
 Track these metrics to evaluate your approval workflow effectiveness:
 
-- **Cycle time**: Time from initial submission to approved state
-- **Revision count**: How many rounds of changes typically occur
-- **Feedback latency**: Time between client review sessions and feedback submission
-- **Approval rate by stage**: Which stages most frequently cause delays
+- Cycle time: Time from initial submission to approved state
+- Revision count: How many rounds of changes typically occur
+- Feedback latency: Time between client review sessions and feedback submission
+- Approval rate by stage: Which stages most frequently cause delays
 
 A healthy remote design approval process should see:
 - First-round submission to client feedback within 48 hours
@@ -165,7 +165,7 @@ curl -X GET "https://api.approval-tool.com/v1/projects/proj_8x7y6z/approvals" \
   --data-urlencode "limit=50"
 ```
 
-**SSO integration**: For enterprise deployments, SAML/OIDC support ensures your client portals work with existing identity providers.
+SSO integration: For enterprise deployments, SAML/OIDC support ensures your client portals work with existing identity providers.
 
 ## Building Your Custom Solution
 

@@ -20,13 +20,13 @@ The Taiwan Gold Card provides a four-in-one work permit combining visa, residenc
 
 The Taiwan Gold Card targets foreign professionals across multiple industries, with tech workers comprising a significant portion of approved applicants. You qualify if you meet at least one of the following criteria:
 
-**Salary threshold**: Annual salary of at least NT$1,600,000 (approximately USD $50,000). This can be from remote work for overseas clients, freelance contracts, or employment with a Taiwan company.
+Salary threshold: Annual salary of at least NT$1,600,000 (approximately USD $50,000). This can be from remote work for overseas clients, freelance contracts, or employment with a Taiwan company.
 
-**Professional qualifications**: Possess specialized skills or knowledge in information and communications technology (ICT), semiconductors, cybersecurity, or related fields. Taiwan's National Development Council maintains a list of approved professional categories.
+Professional qualifications: Possess specialized skills or knowledge in information and communications technology (ICT), semiconductors, cybersecurity, or related fields. Taiwan's National Development Council maintains a list of approved professional categories.
 
-**Employment history**: Have at least two years of relevant work experience in your field. This can include remote work, freelance projects, or traditional employment.
+Employment history: Have at least two years of relevant work experience in your field. This can include remote work, freelance projects, or traditional employment.
 
-**Educational requirements**: Hold a bachelor's degree or higher in a relevant field, though this can be substituted with professional certifications or demonstrated expertise.
+Educational requirements: Hold a bachelor's degree or higher in a relevant field, though this can be substituted with professional certifications or demonstrated expertise.
 
 ## Required Documents
 
@@ -102,7 +102,7 @@ With an approved Gold Card, you can enter Taiwan without a separate visa. Howeve
 
 ### Required Post-Arrival Steps
 
-**Health insurance registration**: Taiwan requires Gold Card holders to enroll in National Health Insurance (NHI) within six months of arrival. Monthly premiums are approximately NT$1,200-2,500 depending on your income level.
+Health insurance registration: Taiwan requires Gold Card holders to enroll in National Health Insurance (NHI) within six months of arrival. Monthly premiums are approximately NT$1,200-2,500 depending on your income level.
 
 ```bash
 # Example NHI enrollment at a local district office
@@ -118,19 +118,19 @@ With an approved Gold Card, you can enter Taiwan without a separate visa. Howeve
 # Receive NHI card within 2-3 weeks
 ```
 
-**Address registration**: Within 14 days of arrival, register your Taiwan address at the local household registration office. This is required for the ARC and accessing public services.
+Address registration: Within 14 days of arrival, register your Taiwan address at the local household registration office. This is required for the ARC and accessing public services.
 
-**Bank account setup**: With your Gold Card and ARC, you can open a Taiwan bank account, which simplifies receiving payments and managing local expenses.
+Bank account setup: With your Gold Card and ARC, you can open a Taiwan bank account, which simplifies receiving payments and managing local expenses.
 
 ## Maintaining Your Gold Card Status
 
 Gold Card holders must adhere to certain requirements to maintain valid status:
 
-**Minimum presence**: While there's no strict minimum stay requirement, you should maintain genuine ties to Taiwan. Extended absences (over six months continuously) may require explanation.
+Minimum presence: While there's no strict minimum stay requirement, you should maintain genuine ties to Taiwan. Extended absences (over six months continuously) may require explanation.
 
-**Income documentation**: Keep records of your income meeting the salary threshold. For self-employed workers, maintain contracts and invoice records.
+Income documentation: Keep records of your income meeting the salary threshold. For self-employed workers, maintain contracts and invoice records.
 
-**Address updates**: Report any change of address within 14 days to the immigration authorities.
+Address updates: Report any change of address within 14 days to the immigration authorities.
 
 ## Converting to Permanent Residence
 
@@ -138,15 +138,15 @@ After holding the Gold Card for five consecutive years with at least 183 days pr
 
 ## Practical Tips for Remote Tech Workers
 
-**Start the process before relocating**: You can apply from overseas, which allows you to secure approval before arranging Taiwan relocation.
+Start the process before relocating: You can apply from overseas, which allows you to secure approval before arranging Taiwan relocation.
 
-**Prepare comprehensive income proof**: Combine multiple income sources (contracts, invoices, bank statements) to demonstrate you meet the threshold. A consistent monthly income pattern strengthens your application.
+Prepare income proof: Combine multiple income sources (contracts, invoices, bank statements) to demonstrate you meet the threshold. A consistent monthly income pattern strengthens your application.
 
-**Select the correct category**: Choose "Information and Communications Technology" if your work involves software development, DevOps, cybersecurity, or related fields. The ICT category has relatively straightforward documentation requirements.
+Select the correct category: Choose "Information and Communications Technology" if your work involves software development, DevOps, cybersecurity, or related fields. The ICT category has relatively straightforward documentation requirements.
 
-**Consider hiring a facilitator**: Some applicants use immigration consultants, particularly for document authentication and translation. Fees range from NT$5,000-20,000 depending on services.
+Consider hiring a facilitator: Some applicants use immigration consultants, particularly for document authentication and translation. Fees range from NT$5,000-20,000 depending on services.
 
-**Plan for health insurance**: While you can purchase travel insurance initially, budget for NHI enrollment within six months. The coverage is comprehensive and cost-effective compared to private alternatives.
+Plan for health insurance: While you can purchase travel insurance initially, budget for NHI enrollment within six months. The coverage is and cost-effective compared to private alternatives.
 
 The Taiwan Gold Card provides an attractive option for remote tech workers seeking a base in Asia with access to excellent healthcare, modern infrastructure, and a vibrant tech community. The application process is straightforward but requires careful document preparation and patience during processing. With proper preparation, most qualified tech workers receive approval within the standard 30-90 day window.
 

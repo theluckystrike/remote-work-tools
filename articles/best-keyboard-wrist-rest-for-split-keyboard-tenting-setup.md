@@ -108,13 +108,6 @@ Wrist rests for tented split keyboards require consideration of keyboard placeme
 
 Some prefer rests that move with the keyboard when adjusting width. Others maintain fixed rest positions and adjust keyboard halves to meet them. Experiment to find your optimal arrangement.
 
-## Conclusion
-
-Finding the best keyboard wrist rest for a split keyboard tenting setup requires moving beyond standard options. The unique geometry of tented split keyboards demands rests designed for angled support. Whether you choose commercial articulating rests, custom-cut wood, or a 3D printed solution, prioritize height matching and independent adjustability for each keyboard half.
-
-The investment in proper wrist support pays dividends in reduced fatigue and improved typing comfort during long coding sessions. Take time to measure your specific configuration and test different approaches until you find the setup that works for your body and workflow.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

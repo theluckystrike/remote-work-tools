@@ -35,9 +35,9 @@ Each team gets its own projects and library access. The Leads team owns design s
 
 Assign permissions at the team level rather than per-file:
 
-- **Can edit**: Team members working on that domain
-- **Can view**: Cross-functional partners (developers, PMs)
-- **Can comment**: Stakeholders who need to provide feedback
+- Can edit: Team members working on that domain
+- Can view: Cross-functional partners (developers, PMs)
+- Can comment: Stakeholders who need to provide feedback
 
 Figma's Organization plan ($45 per editor/month) provides the admin controls you need for this structure. Without it, you're limited to workspace-level permissions that don't scale well.
 
@@ -155,10 +155,10 @@ Remote work requires async feedback loops. Figma's built-in commenting handles t
 
 ### Review Workflow
 
-1. **Create a review branch**: Duplicate the main file before major changes
-2. **Use frames for feedback**: Add specific comment threads on individual frames
-3. **Set review deadlines**: "Please comment by EOD Tuesday"
-4. **Use status labels**: Apply "Ready for Review" and "Needs Changes" labels
+1. Create a review branch: Duplicate the main file before major changes
+2. Use frames for feedback: Add specific comment threads on individual frames
+3. Set review deadlines: "Please comment by EOD Tuesday"
+4. Use status labels: Apply "Ready for Review" and "Needs Changes" labels
 
 Create a dedicated feedback project:
 
@@ -191,10 +191,10 @@ With eight designers, manual processes become bottlenecks. Use Figma's API and c
 
 ### Useful Plugins for Team Workflow
 
-- **Design Lint**: Automatically check for inconsistent spacing, missing text styles
-- **Iconify**: Access thousands of icons without leaving Figma
-- **Figmotion**: Create animations within Figma
-- **Lorem Ipsum**: Generate placeholder content quickly
+- Design Lint: Automatically check for inconsistent spacing, missing text styles
+- Iconify: Access thousands of icons without leaving Figma
+- Figmotion: Create animations within Figma
+- Lorem Ipsum: Generate placeholder content quickly
 
 ### Custom Automation Script
 

@@ -25,15 +25,15 @@ This guide shows you how to build compliance into your remote work infrastructur
 
 Each US state with paid leave mandates operates under its own rules. The variations affect several key dimensions:
 
-- **Eligibility thresholds**: Some states require employers to provide paid leave after a minimum number of hours worked. Colorado mandates leave accrual starting day one of employment. Other states set thresholds at 90 days or specific hour counts.
+- Eligibility thresholds: Some states require employers to provide paid leave after a minimum number of hours worked. Colorado mandates leave accrual starting day one of employment. Other states set thresholds at 90 days or specific hour counts.
 
-- **Accrual rates**: States dictate how quickly employees earn leave. California accrues at different rates depending on employer size. New York's calculation method differs from Washington's.
+- Accrual rates: States dictate how quickly employees earn leave. California accrues at different rates depending on employer size. New York's calculation method differs from Washington's.
 
-- **Carryover rules**: Some states let employees roll unused leave into the next year; others do not. New York City prohibits carryover entirely for most employers.
+- Carryover rules: Some states let employees roll unused leave into the next year; others do not. New York City prohibits carryover entirely for most employers.
 
-- **Usage reasons**: Paid sick leave and paid family leave often have different allowable uses. Some states allow leave for any purpose; others restrict it to specific situations like illness, caring for family members, or domestic violence matters.
+- Usage reasons: Paid sick leave and paid family leave often have different allowable uses. Some states allow leave for any purpose; others restrict it to specific situations like illness, caring for family members, or domestic violence matters.
 
-- **Notice requirements**: Advance notice periods vary. Some states require same-day notification; others demand advance notice for foreseeable absences.
+- Notice requirements: Advance notice periods vary. Some states require same-day notification; others demand advance notice for foreseeable absences.
 
 Before hiring in any new state, verify the current requirements directly through the state's labor department website. Laws change frequently, and municipal ordinances often add another layer on top of state requirements.
 
@@ -148,11 +148,11 @@ When an employee splits time across locations, you may need to apportion leave a
 
 Beyond the technical implementation, consider these operational factors:
 
-**Documentation requirements**: Maintain records of where each remote employee works. Some states require employers to document work location history. Keep employee attestations about their primary work location on file and update them when circumstances change.
+Documentation requirements: Maintain records of where each remote employee works. Some states require employers to document work location history. Keep employee attestations about their primary work location on file and update them when circumstances change.
 
-**Policy harmonization**: You can always offer more generous leave than the law requires, but never less. Create a baseline policy that meets the strictest applicable requirement and apply it to all employees. This simplifies administration but may exceed what you must provide in lower-mandate states.
+Policy harmonization: You can always offer more generous leave than the law requires, but never less. Create a baseline policy that meets the strictest applicable requirement and apply it to all employees. This simplifies administration but may exceed what you must provide in lower-mandate states.
 
-**Notice workflows**: Implement a simple request system that captures advance notice when required. A Slack workflow or simple form that asks employees to indicate whether their leave is foreseeable can satisfy documentation requirements.
+Notice workflows: Implement a simple request system that captures advance notice when required. A Slack workflow or simple form that asks employees to indicate whether their leave is foreseeable can satisfy documentation requirements.
 
 ```yaml
 # Example leave request workflow
@@ -173,7 +173,7 @@ actions:
   - check_notice_compliance(state=employee.state)
 ```
 
-**Annual review process**: Schedule a quarterly review of state leave laws. Subscribe to your state's labor law email updates or use a compliance service that tracks these changes. Update your code and policies when laws change.
+Annual review process: Schedule a quarterly review of state leave laws. Subscribe to your state's labor law email updates or use a compliance service that tracks these changes. Update your code and policies when laws change.
 
 ## Common Pitfalls to Avoid
 

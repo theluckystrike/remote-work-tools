@@ -20,10 +20,10 @@ Write effective async daily logs by recording decisions with reasoning, capturin
 
 When you write daily logs with future readers in mind, you're building institutional knowledge that outlasts any single project or role. Here's what happens when teams adopt this practice:
 
-- **Onboarding accelerates**: New team members can trace decisions through your logs instead of scheduling dozens of intro meetings
-- **Context travels**: When you're unavailable, teammates can pick up where you left off without losing momentum  
-- **Decision history becomes clear**: Future developers understand why certain choices were made, even years later
-- **You help your future self**: When you return to a project after months, your logs refresh your memory instantly
+- Onboarding accelerates: New team members can trace decisions through your logs instead of scheduling dozens of intro meetings
+- Context travels: When you're unavailable, teammates can pick up where you left off without losing momentum 
+- Decision history becomes clear: Future developers understand why certain choices were made, even years later
+- You help your future self: When you return to a project after months, your logs refresh your memory instantly
 
 The key insight is this: you're not writing for today. You're writing for someone who needs to understand your work six months from now, possibly while you're on vacation or have left the team.
 
@@ -128,11 +128,11 @@ Here's a practical template you can adapt for your team:
 
 Different teams prefer different systems. Here are options that work well:
 
-- **Notion**: Great for searchable databases with custom properties
-- **GitHub Discussions**: Keeps logs near the code they relate to
-- **Slack with Threading**: Quick to write, but harder to search later
-- **Obsidian/Local Markdown**: Maximum control, but requires discipline to share
-- **Confluence/Google Docs**: Works well for larger organizations
+- Notion: Great for searchable databases with custom properties
+- GitHub Discussions: Keeps logs near the code they relate to
+- Slack with Threading: Quick to write, but harder to search later
+- Obsidian/Local Markdown: Maximum control, but requires discipline to share
+- Confluence/Google Docs: Works well for larger organizations
 
 The best tool is one your team will actually use consistently. Start simple and iterate.
 

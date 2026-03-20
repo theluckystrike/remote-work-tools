@@ -36,7 +36,7 @@ Set up three main sections on your board using Miro's framing or container tools
 
 Within the brainstorming section, create individual sticky notes for each team member. Use different colors for different roles or departments if that makes sense for your team, but avoid making anyone feel singled out. The goal is inclusive participation, not competitive suggestion-making.
 
-## Facilitating the Values Generation Session
+## helping the Values Generation Session
 
 Schedule a synchronous session where everyone can gather in the Miro board at the same time. Even though your team works asynchronously, this exercise benefits from real-time collaboration. The interaction and visible contributions from colleagues spark ideas and energy that asynchronous work sometimes lacks.
 
@@ -97,11 +97,6 @@ Second, consider time zones when scheduling. Try to find a time when the maximum
 Third, assign a facilitator who can keep the discussion on track. Without someone guiding the process, conversations can drift or certain voices can dominate. The facilitator's job is to ensure everyone contributes and the team makes meaningful progress.
 
 Finally, make it enjoyable. Values creation should feel like a celebration of what makes your team great, not a bureaucratic exercise. Play some music, start with positive stories about the team, and acknowledge the effort everyone is putting into making the team better.
-
-## Conclusion
-
-A values wall in Miro transforms abstract concepts into a visual, collaborative artifact that remote teams can use to build culture and guide behavior. The process of creating it—bringing people together, generating ideas, debating priorities, and agreeing on commitments—matters as much as the final product. Your values wall becomes a shared reference point that reinforces what makes your team unique and guides how you work together, even when you're physically apart.
-{% endraw %}
 
 ## Related Reading
 

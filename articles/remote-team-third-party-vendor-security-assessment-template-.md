@@ -150,11 +150,11 @@ A vendor must meet the pass threshold in each category, not just the overall sco
 
 Initial assessment is only the beginning. Establish a process for continuous monitoring:
 
-1. **Annual Reassessment**: Conduct full assessment review yearly
-2. **Continuous Scanning**: Monitor vendor-facing assets for vulnerabilities
-3. **Contract Reviews**: Verify service level agreements include security requirements
-4. **Access Audits**: Quarterly review of vendor access permissions
-5. **Threat Intelligence**: Subscribe to vendor security advisories
+1. Annual Reassessment: Conduct full assessment review yearly
+2. Continuous Scanning: Monitor vendor-facing assets for vulnerabilities
+3. Contract Reviews: Verify service level agreements include security requirements
+4. Access Audits: Quarterly review of vendor access permissions
+5. Threat Intelligence: Subscribe to vendor security advisories
 
 ```bash
 # Example: Simple vendor access audit script
@@ -192,13 +192,6 @@ Use this checklist when deploying your vendor security assessment template:
 - [ ] Track assessment results in a central register
 - [ ] Set calendar reminders for reassessment dates
 - [ ] Train team members on vendor access request procedures
-
-## Conclusion
-
-A well-designed third-party vendor security assessment template protects your remote team by ensuring every vendor meets minimum security standards before gaining system access. The template in this guide provides a starting point—customize categories and thresholds based on your organization's risk tolerance and compliance requirements.
-
-Regular reassessment and continuous monitoring transform security from a one-time evaluation into an ongoing protection mechanism. Your remote team's security depends on the weakest vendor link; make sure that link meets your standards.
-
 
 ## Related Reading
 

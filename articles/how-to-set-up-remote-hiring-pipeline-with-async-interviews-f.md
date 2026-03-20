@@ -42,7 +42,7 @@ Candidates review a pull request and provide structured feedback. This evaluates
 **Stage 4: Async Cultural Fit Discussion**
 A written or recorded response to questions about collaboration preferences, work style, and career goals.
 
-This four-stage pipeline provides comprehensive evaluation without any real-time components.
+This four-stage pipeline provides evaluation without any real-time components.
 
 ## Implementing Stage 2: The Technical Assessment
 
@@ -227,15 +227,6 @@ Review these metrics quarterly and iterate on your pipeline stages.
 **Slow response times:** Extended delays signal disorganization. Aim for 3-5 business days between stage notifications.
 
 **No cultural assessment:** Technical skills matter, but collaboration style predicts team success. Include non-technical evaluation.
-
-## Conclusion
-
-Setting up a remote hiring pipeline with async interviews requires upfront investment in design and tooling, but pays dividends through reduced scheduling friction, broader talent access, and more consistent evaluation. Start with a single role, refine your assessments based on data, and expand gradually.
-
-The key is treating each stage as a deliberate evaluation instrument. Your technical challenge should measure job-relevant skills. Your code review should assess senior-level thinking. Your communication templates should set clear expectations.
-
-When built thoughtfully, an async pipeline helps your distributed team hire excellent candidates without the calendar gymnastics of traditional interviews.
-
 
 ## Related Reading
 

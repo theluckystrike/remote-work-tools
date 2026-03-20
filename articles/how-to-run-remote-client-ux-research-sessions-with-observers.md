@@ -203,19 +203,6 @@ A simple Google Sheets template works well for tracking observations:
 | 14:31     | Mike     | Successfully completed task | — | User succeeded | Low      |
 ```
 
-## Summary
-
-Running remote UX research sessions with observers requires thoughtful preparation and clear communication. The key elements are:
-
-- **Separate channels** for observers to communicate without disrupting the session
-- **Clear guidelines** for all participants before the session begins
-- **Structured workflow** for managing observer input during tasks
-- **Quick debrief** to capture insights while they're fresh
-- **Backup plans** for technical failures
-
-With these practices in place, you can conduct valuable UX research that satisfies both participant comfort and stakeholder information needs.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

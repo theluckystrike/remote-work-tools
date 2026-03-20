@@ -114,10 +114,10 @@ Use a password manager to share credentials securely. Neither partner should be 
 
 There will be times when both partners are working on the same client project or competing for the same resources. Establish a protocol for these situations:
 
-1. **Same task**: The partner with more context or availability takes it
-2. **Same client, different features**: Split by module or feature area
-3. **Code conflicts**: Use feature branches and code review before merging
-4. **Timeline pressure**: Have a candid conversation about capacity before promising deadlines
+1. Same task: The partner with more context or availability takes it
+2. Same client, different features: Split by module or feature area
+3. Code conflicts: Use feature branches and code review before merging
+4. Timeline pressure: Have a candid conversation about capacity before promising deadlines
 
 The goal is not to avoid all conflict but to have a predictable way of resolving it that doesn't require emotional negotiation every time.
 
@@ -131,10 +131,10 @@ Set up recurring invoice templates for retainer clients. This reduces the admini
 
 Many couples fall into these traps:
 
-- **No written agreements**: Discuss how you'll handle income division, client ownership, and what happens if one partner wants to exit the business
-- **Working all the time**: The home office is always there, making it tempting to skip evenings and weekends
-- **Skipping process**: "We're just two people, we don't need that overhead" leads to missed deadlines and scope creep
-- **No individual space**: Even in a small home, each partner needs a dedicated workspace
+- No written agreements: Discuss how you'll handle income division, client ownership, and what happens if one partner wants to exit the business
+- Working all the time: The home office is always there, making it tempting to skip evenings and weekends
+- Skipping process: "We're just two people, we don't need that overhead" leads to missed deadlines and scope creep
+- No individual space: Even in a small home, each partner needs a dedicated workspace
 
 ## Making It Sustainable
 

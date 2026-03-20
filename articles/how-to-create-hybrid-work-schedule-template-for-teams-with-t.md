@@ -27,9 +27,9 @@ The key challenge is preventing the schedule from becoming chaotic. Without a cl
 
 A three-office-day schedule typically follows one of two patterns:
 
-**Fixed Pattern**: Team members have assigned office days that don't rotate. This works well when team size is small or when individual roles have specific in-office requirements.
+Fixed Pattern: Team members have assigned office days that don't rotate. This works well when team size is small or when individual roles have specific in-office requirements.
 
-**Rotating Pattern**: Team members rotate through office day combinations on a weekly or bi-weekly basis. This maximizes randomness in office attendance and ensures everyone experiences different collaboration dynamics.
+Rotating Pattern: Team members rotate through office day combinations on a weekly or bi-weekly basis. This maximizes randomness in office attendance and ensures everyone experiences different collaboration dynamics.
 
 For most technical teams, a rotating pattern provides better outcomes. Here's a Python script that generates valid rotation schedules:
 

@@ -106,10 +106,10 @@ This script uses macOS notifications, but similar tools exist for Linux (notify-
 
 Some effective stretches require no special equipment or floor space:
 
-- **Chest opener**: Clasp hands behind back, squeeze shoulder blades together
-- **Neck rolls**: Slowly roll head in circles, reversing direction halfway
-- **Seated spinal twist**: Rotate torso toward one side, hold, then switch
-- **Cat-cow seated**: Inhale while arching back, exhale while rounding spine
+- Chest opener: Clasp hands behind back, squeeze shoulder blades together
+- Neck rolls: Slowly roll head in circles, reversing direction halfway
+- Seated spinal twist: Rotate torso toward one side, hold, then switch
+- Cat-cow seated: Inhale while arching back, exhale while rounding spine
 
 Perform these stretches during your movement breaks. They counteract the forward-hunched position that couch working encourages.
 
@@ -134,11 +134,11 @@ A dedicated workspace with proper ergonomic support becomes necessary when sympt
 
 Preventing back pain from couch working requires combining multiple strategies. No single solution provides complete protection. The most effective approach combines:
 
-1. **Proper elevation**: Keep your screen at eye level
-2. **Lumbar support**: Restore your spine's natural curve
-3. **External input devices**: Enable proper arm positioning
-4. **Regular movement**: Stand and stretch every 30 minutes
-5. **Body awareness**: Notice when pain begins and address it early
+1. Proper elevation: Keep your screen at eye level
+2. Lumbar support: Restore your spine's natural curve
+3. External input devices: Enable proper arm positioning
+4. Regular movement: Stand and stretch every 30 minutes
+5. Body awareness: Notice when pain begins and address it early
 
 Start with one change this week. Add another next week. Gradually building these habits prevents the overwhelm that leads to abandoning ergonomic improvements entirely.
 

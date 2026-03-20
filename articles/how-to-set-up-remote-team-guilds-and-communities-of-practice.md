@@ -95,10 +95,10 @@ Guilds produce artifacts. Without documentation, guild activities vanish after e
 
 Essential guild artifacts include:
 
-- **Decision records**: Document why the guild made specific technical choices
-- **Learning summaries**: After investigating new tools or approaches, write up findings
-- **Resource collections**: Curate links to useful articles, courses, and tools
-- **Meeting notes**: Decisions made, action items assigned, and attendance
+- Decision records: Document why the guild made specific technical choices
+- Learning summaries: After investigating new tools or approaches, write up findings
+- Resource collections: Curate links to useful articles, courses, and tools
+- Meeting notes: Decisions made, action items assigned, and attendance
 
 Example decision record format:
 
@@ -138,10 +138,10 @@ Keep synchronous meetings under 60 minutes. Anything longer loses attention in r
 
 Guilds become irrelevant if product teams ignore their outputs. Build formal connections between guilds and team workflows:
 
-1. **RFC review**: Require guild input on RFCs touching their domain
-2. **Tooling decisions**: Guilds recommend tools; teams adopt through normal procurement
-3. **Technical debt**: Guilds triage and prioritize shared technical debt
-4. **Hiring input**: Guilds define technical screening criteria for relevant roles
+1. RFC review: Require guild input on RFCs touching their domain
+2. Tooling decisions: Guilds recommend tools; teams adopt through normal procurement
+3. Technical debt: Guilds triage and prioritize shared technical debt
+4. Hiring input: Guilds define technical screening criteria for relevant roles
 
 These connections give guilds real influence and prevent them from becoming talking shops that produce nothing useful.
 
@@ -162,11 +162,11 @@ Guilds naturally evolve. A guild focused on a specific framework might expand or
 
 Watch for these failure modes:
 
-- **No clear ownership**: Without a guild lead, nothing happens
-- **Scope explosion**: Guilds trying to cover everything produce nothing
-- **Meeting fatigue**: Too many synchronous meetings destroy engagement
-- **No executive sponsorship**: Guilds need management support to influence teams
-- **Forgotten existence**: Publicly celebrate guild outputs to maintain visibility
+- No clear ownership: Without a guild lead, nothing happens
+- Scope explosion: Guilds trying to cover everything produce nothing
+- Meeting fatigue: Too many synchronous meetings destroy engagement
+- No executive sponsorship: Guilds need management support to influence teams
+- Forgotten existence: Publicly celebrate guild outputs to maintain visibility
 
 ## Practical Starting Point
 

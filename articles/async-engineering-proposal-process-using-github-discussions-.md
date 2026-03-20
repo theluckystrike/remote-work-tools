@@ -25,11 +25,11 @@ To run async engineering proposals with GitHub Discussions, create a dedicated "
 
 GitHub Discussions offers several advantages over traditional proposal methods:
 
-- **Integrated with your workflow**: Proposals live in the same repository where code changes happen
-- **Asynchronous by default**: Team members contribute on their own schedules
-- **Searchable**: Future teams can find past decisions and reasoning
-- **Threaded conversations**: Related discussions stay organized
-- **Voting mechanisms**: Easy sentiment gathering on proposals
+- Integrated with your workflow: Proposals live in the same repository where code changes happen
+- Asynchronous by default: Team members contribute on their own schedules
+- Searchable: Future teams can find past decisions and reasoning
+- Threaded conversations: Related discussions stay organized
+- Voting mechanisms: Easy sentiment gathering on proposals
 
 Unlike RFCs buried in Google Docs or Notion, Discussions connect directly to issues and pull requests, creating a complete audit trail of why decisions were made.
 
@@ -42,8 +42,8 @@ Start by setting up a dedicated space for engineering proposals in your reposito
 3. Click **Edit repository settings** (the gear icon)
 4. Under "Discussion category settings," add a new category called **Engineering Proposals**
 5. Configure it with these settings:
-   - **Format**: [x] Announcement (for pinned proposals)
-   - **Emoji**: 📋
+   - Format: [x] Announcement (for pinned proposals)
+   - Emoji: 📋
 
 You can also create supporting categories like **Decision Archive** (for accepted proposals) and **Questions** (for early-stage brainstorming).
 
@@ -158,10 +158,10 @@ With infrastructure in place, here's how to run an actual proposal:
 
 Reviewers engage on their own schedules. Encourage them to use:
 
-- **Comments**: For questions, concerns, or suggestions
-- **💬 reactions**: Quick acknowledgment ("I read this")
-- **Answer (✓)**: Marking questions as resolved
-- **Upvote/Downvote**: For sentiment on specific approaches
+- Comments: For questions, concerns, or suggestions
+- 💬 reactions: Quick acknowledgment ("I read this")
+- Answer (✓): Marking questions as resolved
+- Upvote/Downvote: For sentiment on specific approaches
 
 ### Phase 3: Collect Decisions
 
@@ -247,23 +247,12 @@ Every proposal deserves a final update:
 
 Track these metrics to improve your async proposal process:
 
-- **Time to decision**: Average days from submission to resolution
-- **Review participation**: What percentage of team engages?
-- **Revision cycles**: How many proposals need major revisions?
-- **Implementation rate**: How many approved proposals actually ship?
+- Time to decision: Average days from submission to resolution
+- Review participation: What percentage of team engages?
+- Revision cycles: How many proposals need major revisions?
+- Implementation rate: How many approved proposals actually ship?
 
 Use GitHub's built-in analytics or export Discussion data to a spreadsheet for analysis.
-
-## Conclusion
-
-GitHub Discussions provide a robust foundation for async engineering proposals in distributed teams. By establishing clear categories, templates, and workflows, you create a process that scales across time zones while maintaining thorough documentation of technical decisions.
-
-The key is consistency: every proposal follows the same structure, every review gets acknowledged, and every decision gets documented. This builds institutional knowledge over time while keeping your team productive without synchronous meetings.
-
-Start small with one category and one template, then refine based on what works for your team's specific needs.
-
----
-
 
 ## Related Reading
 

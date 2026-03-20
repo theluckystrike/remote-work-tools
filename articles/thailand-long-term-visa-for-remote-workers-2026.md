@@ -21,10 +21,10 @@ The LTR (Long-Term Resident) visa is the best option for remote workers in Thail
 
 Thailand offers several visa pathways for long-term stays, but not all are suitable for remote workers. The key options in 2026 include:
 
-- **LTR Visa (Long-Term Resident)**: The flagship visa for remote workers, introduced by the Thailand Board of Investment
-- **Smart Visa**: Targeted at tech professionals and startup founders
-- **Tourist Visa with Extensions**: Not ideal for remote work but a fallback option
-- **Elite Visa**: A premium membership-based visa with additional benefits
+- LTR Visa (Long-Term Resident): The flagship visa for remote workers, introduced by the Thailand Board of Investment
+- Smart Visa: Targeted at tech professionals and startup founders
+- Tourist Visa with Extensions: Not ideal for remote work but a fallback option
+- Elite Visa: A premium membership-based visa with additional benefits
 
 For most developers and digital nomads, the LTR visa or Smart Visa will be the most practical choices. Both allow legal remote work for foreign employers without requiring local employment.
 
@@ -42,12 +42,12 @@ The LTR visa, launched in 2023 and refined through 2026, specifically targets re
 
 To qualify for the LTR visa as a remote worker, you need to meet these criteria:
 
-1. **Income threshold**: Earn at least $80,000 USD annually (or $40,000 if you have a STEM degree from a recognized institution)
-2. **Health insurance**: Provide proof of health insurance coverage in Thailand (minimum 50,000 USD coverage)
-3. **Work arrangement**: Demonstrate you work remotely for a company outside Thailand
-4. **Documentation**: Submit employment contracts, bank statements, and professional credentials
-5. **Health requirements**: Pass a basic medical examination
-6. **Background check**: Provide a clean criminal record from your country of residence
+1. Income threshold: Earn at least $80,000 USD annually (or $40,000 if you have a STEM degree from a recognized institution)
+2. Health insurance: Provide proof of health insurance coverage in Thailand (minimum 50,000 USD coverage)
+3. Work arrangement: Demonstrate you work remotely for a company outside Thailand
+4. Documentation: Submit employment contracts, bank statements, and professional credentials
+5. Health requirements: Pass a basic medical examination
+6. Background check: Provide a clean criminal record from your country of residence
 
 ### Application Process
 
@@ -73,21 +73,21 @@ Processing typically takes 20-60 business days, though expedited processing is a
 
 The Smart Visa program offers an alternative pathway, particularly for those in the technology sector. It includes four categories:
 
-- **Smart T**: For tech professionals
-- **Smart S**: For startup founders
-- **Smart E**: For executives
-- **Smart I**: For investors
+- Smart T: For tech professionals
+- Smart S: For startup founders
+- Smart E: For executives
+- Smart I: For investors
 
 ### Smart T Requirements
 
 For developers applying under the Smart T category:
 
-1. **Salary**: Minimum 100,000 THB (approximately $2,800 USD) monthly
-2. **Health insurance**: Coverage of at least $50,000 USD
-3. **Work**: Employment at a qualifying tech company or as a freelancer with tech clients
-4. **Skills**: Demonstrated expertise in a relevant technical field
+1. Salary: Minimum 100,000 THB (approximately $2,800 USD) monthly
+2. Health insurance: Coverage of at least $50,000 USD
+3. Work: Employment at a qualifying tech company or as a freelancer with tech clients
+4. Skills: Demonstrated expertise in a relevant technical field
 
-The Smart Visa offers faster processing (around 30 days) and provides a one-stop service for work permits and long-term stay.
+The Smart Visa offers faster processing (around 30 days) and provides an one-stop service for work permits and long-term stay.
 
 ## Practical Tips for Developers
 
@@ -95,9 +95,9 @@ The Smart Visa offers faster processing (around 30 days) and provides a one-stop
 
 Opening a Thai bank account requires a valid visa and proof of address. Most remote workers use:
 
-- **Kasikorn Bank**: Good for international transfers
-- **SCB (Siam Commercial Bank)**: Extensive online banking features
-- **Bangkok Bank**: Largest network, excellent for USD accounts
+- Kasikorn Bank: Good for international transfers
+- SCB (Siam Commercial Bank): Extensive online banking features
+- Bangkok Bank: Largest network, excellent for USD accounts
 
 Many developers maintain both a local Thai bank account and an international service like Wise or Revolut for receiving payments from overseas clients.
 
@@ -105,9 +105,9 @@ Many developers maintain both a local Thai bank account and an international ser
 
 Thailand has excellent private healthcare, but it comes at a cost. As an LTR visa holder, you must maintain health insurance. Consider these options:
 
-- **AXA Thai Health Insurance**: Popular among expats
-- **Luma Health**: Digital-first insurance provider
-- **Cigna Global**: International coverage including Thailand
+- AXA Thai Health Insurance: Popular among expats
+- Luma Health: Digital-first insurance provider
+- Cigna Global: International coverage including Thailand
 
 ### Internet and Workspaces
 
@@ -134,9 +134,9 @@ WORKSPACES=(
 
 For backup connectivity, Thai SIM cards are affordable:
 
-- **AIS**: Best coverage, 30-day plans from 199 THB
-- **True**: Good urban coverage, similar pricing
-- **DTAC**: Budget-friendly options available
+- AIS: Best coverage, 30-day plans from 199 THB
+- True: Good urban coverage, similar pricing
+- DTAC: Budget-friendly options available
 
 ## Common Mistakes to Avoid
 
@@ -166,16 +166,10 @@ Total monthly budget: 25,000-46,000 THB ($700-$1,300 USD)
 
 While Thailand remains excellent for remote workers, consider these factors before committing:
 
-- **Tax implications**: Thailand offers no-tax years for certain visa types, but consult a tax professional
-- **Internet reliability**: Outside Bangkok, Chiang Mai, and Phuket, expect occasional outages
-- **Language barrier**: English is common in tourist areas but limited elsewhere
-- **Climate**: Hot and humid year-round—most comfortable November-February
-
-## Conclusion
-
-Thailand's LTR visa and Smart Visa programs provide legitimate pathways for developers and remote workers to live and work in Thailand long-term. The requirements are straightforward if you can demonstrate stable income and maintain proper documentation. The key is planning ahead—gather your documents, ensure your income meets thresholds, and apply through proper channels.
-
----
+- Tax implications: Thailand offers no-tax years for certain visa types, but consult a tax professional
+- Internet reliability: Outside Bangkok, Chiang Mai, and Phuket, expect occasional outages
+- Language barrier: English is common in tourist areas but limited elsewhere
+- Climate: Hot and humid year-round—most comfortable November-February
 
 ## Related Reading
 

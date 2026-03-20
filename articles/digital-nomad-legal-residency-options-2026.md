@@ -186,10 +186,10 @@ Legal residency typically includes healthcare access, but requirements vary:
 
 Most residency programs grant access to public healthcare systems:
 
-- **Portugal**: NHS-style system, relatively quick access
-- **Spain**: Full NHS coverage for residents
-- **Estonia**: Modern digital healthcare system
-- **Croatia**: Public system with reasonable wait times
+- Portugal: NHS-style system, relatively quick access
+- Spain: Full NHS coverage for residents
+- Estonia: Modern digital healthcare system
+- Croatia: Public system with reasonable wait times
 
 ### Private Insurance Requirements
 
@@ -260,19 +260,19 @@ Gather documentation proving:
 
 Most applications require:
 
-1. **Proof of income**: 3-12 months of bank statements
-2. **Employment documentation**: Contracts, invoices, client letters
-3. **Health insurance**: Coverage meeting country requirements
-4. **Accommodation evidence**: Rental agreement or property deed
-5. **Background checks**: Apostilled criminal records
+1. Proof of income: 3-12 months of bank statements
+2. Employment documentation: Contracts, invoices, client letters
+3. Health insurance: Coverage meeting country requirements
+4. Accommodation evidence: Rental agreement or property deed
+5. Background checks: Apostilled criminal records
 
 ### Step 4: Application Submission
 
 Process varies by country:
 
-- **Consular applications**: Apply in home country before travel
-- **In-country applications**: Some allow switching from tourist status
-- **Online portals**: Estonia and Croatia accept digital applications
+- Consular applications: Apply in home country before travel
+- In-country applications: Some allow switching from tourist status
+- Online portals: Estonia and Croatia accept digital applications
 
 ## Common Mistakes to Avoid
 
@@ -290,11 +290,11 @@ Process varies by country:
 
 Several new programs are gaining attention:
 
-- **Indonesia**: New digital nomad visa with 5-year validity
-- **Malaysia**: Enhanced MM2H program with faster processing
-- **Mexico**: Temporary resident visa for remote workers
-- **Costa Rica**: Digital nomad visa with tax benefits
-- **Philippines**: Extended stay options for remote workers
+- Indonesia: New digital nomad visa with 5-year validity
+- Malaysia: Enhanced MM2H program with faster processing
+- Mexico: Temporary resident visa for remote workers
+- Costa Rica: Digital nomad visa with tax benefits
+- Philippines: Extended stay options for remote workers
 
 Research current requirements as programs evolve throughout 2026.
 

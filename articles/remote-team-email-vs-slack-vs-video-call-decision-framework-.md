@@ -45,7 +45,7 @@ Email remains the gold standard for asynchronous, documented communication. Use 
 - **Complex technical proposals** with multiple attachments
 - **External stakeholder communication**
 - **Formal approvals** and contracts
-- **Comprehensive status updates** that need to be referenced later
+- **status updates** that need to be referenced later
 
 A good rule: if the information needs to be searchable in 6 months, use email.
 
@@ -177,17 +177,10 @@ Remote teams spanning multiple time zones must default to async. Even "quick Sla
 
 Track these metrics to evaluate if your channel selection is working:
 
-- **Response time variance**: Are expected response times being met?
-- **Meeting hours per week**: Trending up or down?
-- **Decision documentation rate**: Are decisions captured in searchable formats?
-- **Team satisfaction**: Quarterly survey on communication effectiveness
-
-## Summary
-
-The right communication channel depends on urgency, complexity, documentation needs, and team availability. Default to async (email) for most communication—it's respectful of focused work time and creates lasting records. Use Slack for quick coordination and team discussions. Reserve video calls for complex problem-solving and relationship building.
-
-This framework reduces communication overhead while ensuring important information reaches the right people through the right channels. Start by sharing the decision matrix with your team, then iterate based on what works for your specific context.
-
+- Response time variance: Are expected response times being met?
+- Meeting hours per week: Trending up or down?
+- Decision documentation rate: Are decisions captured in searchable formats?
+- Team satisfaction: Quarterly survey on communication effectiveness
 
 ## Related Reading
 

@@ -63,7 +63,7 @@ curl -X POST https://api.mailforwarding.example.com/webhooks \
 
 ### Popular Services and Their Tradeoffs
 
-**Mailforwarding.com** and **Traveling Mailbox** offer comprehensive plans with scanning, check depositing, and package forwarding. Prices typically range from $10-30/month for basic plans, with additional fees for international forwarding.
+**Mailforwarding.com** and **Traveling Mailbox** offer plans with scanning, check depositing, and package forwarding. Prices typically range from $10-30/month for basic plans, with additional fees for international forwarding.
 
 For developers, services with API access matter. Some services provide programmatic access to your mail inventory:
 
@@ -158,7 +158,7 @@ Your legal address determines tax residency in most countries. For US citizens, 
 
 ### State Residency for US Remote Workers
 
-If you're a US citizen working remotely, establishing which state claims your residency affects income tax. Many remote workers establish residency in states without income tax (Texas, Florida, Washington, Nevada) while technically maintaining ties elsewhere.
+If you're an US citizen working remotely, establishing which state claims your residency affects income tax. Many remote workers establish residency in states without income tax (Texas, Florida, Washington, Nevada) while technically maintaining ties elsewhere.
 
 ```python
 # Example: Simple state tax burden calculator
@@ -182,7 +182,7 @@ For voting, most states require physical presence or intent to return. A mail fo
 
 ## Practical Setup: Putting It Together
 
-A comprehensive mail and address strategy for long-term remote work typically includes:
+A mail and address strategy for long-term remote work typically includes:
 
 1. **Mail scanning service** ($10-25/month) for automated handling of official correspondence
 2. **Trusted proxy** for documents requiring physical signature

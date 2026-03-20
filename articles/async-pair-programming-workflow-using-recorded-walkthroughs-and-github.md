@@ -49,10 +49,10 @@ This cycle can repeat as needed until the code meets quality standards.
 
 For an effective async pair programming setup, you'll need:
 
-- **Screen recording tool**: Loom, OBS, or similar
-- **Version control**: GitHub (using PRs and comments)
-- **Documentation**: A shared wiki or Notion for guidelines
-- **Video hosting**: Loom embeds or YouTube (unlisted)
+- Screen recording tool: Loom, OBS, or similar
+- Version control: GitHub (using PRs and comments)
+- Documentation: A shared wiki or Notion for guidelines
+- Video hosting: Loom embeds or YouTube (unlisted)
 
 ## Step 1: Driver Creates the Implementation Walkthrough
 
@@ -62,11 +62,11 @@ When you're driving (implementing), start by recording a walkthrough before or d
 
 Your walkthrough should cover:
 
-1. **The problem**: What issue are you solving? Reference any related issues or PRs.
-2. **Your approach**: Walk through the overall strategy before diving into code.
-3. **Key decisions**: Explain why you chose this implementation over alternatives.
-4. **Potential concerns**: Be transparent about tradeoffs or areas of uncertainty.
-5. **Specific code sections**: Highlight the most important or complex parts of your implementation.
+1. The problem: What issue are you solving? Reference any related issues or PRs.
+2. Your approach: Walk through the overall strategy before diving into code.
+3. Key decisions: Explain why you chose this implementation over alternatives.
+4. Potential concerns: Be transparent about tradeoffs or areas of uncertainty.
+5. Specific code sections: Highlight the most important or complex parts of your implementation.
 
 ### Example Recording Script
 
@@ -94,7 +94,7 @@ Let me know if you have questions!"
 
 ## Step 2: Creating Effective PR Descriptions for Async Review
 
-Since your navigator won't be able to ask live questions, your PR description needs to be comprehensive enough to stand alone.
+Since your navigator won't be able to ask live questions, your PR description needs to be enough to stand alone.
 
 ### PR Template for Async Pair Programming
 
@@ -132,7 +132,7 @@ As the navigator, your job is to watch the recording carefully and provide const
 ### How to Give Effective Async Feedback
 
 1. **Watch the entire recording** before commenting—don't jump to conclusions
-2. **Be specific**: Reference line numbers, function names, or timestamps
+2. Be specific: Reference line numbers, function names, or timestamps
 3. **Distinguish between blocking and non-blocking feedback**
 4. **Ask questions instead of making demands** when you're uncertain
 5. **Acknowledge good decisions** alongside areas for improvement
@@ -218,9 +218,9 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 
 ### Set Clear Expectations
 
-- **Response time SLA**: Agree on how quickly navigators should respond (e.g., 24-48 hours)
-- **Recording length**: Aim for 5-15 minute recordings—concise but comprehensive
-- **Feedback format**: Standardize how feedback is structured
+- Response time SLA: Agree on how quickly navigators should respond (e.g., 24-48 hours)
+- Recording length: Aim for 5-15 minute recordings—concise but 
+- Feedback format: Standardize how feedback is structured
 
 ### Maintain Human Connection
 
@@ -236,22 +236,11 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 
 ## Common Pitfalls to Avoid
 
-1. **Recordings without context**: Don't just show code—explain your thinking
-2. **Vague feedback**: "This seems wrong" isn't helpful; be specific
-3. **Skipping follow-up recordings**: If changes are significant, record them
-4. **Ignoring timezones entirely**: Check when your reviewer is likely to be online
-5. **Perfectionism**: Async pair programming is about collaboration, not getting everything perfect on the first try
-
-## Conclusion
-
-Async pair programming isn't about replacing synchronous collaboration—it's about complementing it. By combining the depth of code review with the clarity of video explanations, distributed teams can maintain high code quality while respecting individual work styles and time zones.
-
-Start small: try one async pair programming session this week and see how it works for your team. With the right tools and expectations in place, you'll wonder how you ever managed without it.
-
----
-
-*Related Topics: Async Code Reviews, Remote Developer Workflows, Distributed Team Collaboration*
-{% endraw %}
+1. Recordings without context: Don't just show code—explain your thinking
+2. Vague feedback: "This seems wrong" isn't helpful; be specific
+3. Skipping follow-up recordings: If changes are significant, record them
+4. Ignoring timezones entirely: Check when your reviewer is likely to be online
+5. Perfectionism: Async pair programming is about collaboration, not getting everything perfect on the first try
 
 ## Related Reading
 

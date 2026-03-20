@@ -31,9 +31,9 @@ The challenge isn't just physical logistics. The loss of autonomy over your envi
 
 Modern EAPs have evolved beyond generic counseling referrals. Look for programs that offer:
 
-- **Async therapy options**: Text-based sessions that fit into developer schedules without requiring video calls during work hours
-- **Scheduling integration**: APIs that let employees book therapy slots directly from calendar apps
-- **Specialized practitioners**: Therapists familiar with tech industry pressures including on-call stress, imposter syndrome, and performance review anxiety
+- Async therapy options: Text-based sessions that fit into developer schedules without requiring video calls during work hours
+- Scheduling integration: APIs that let employees book therapy slots directly from calendar apps
+- Specialized practitioners: Therapists familiar with tech industry pressures including on-call stress, imposter syndrome, and performance review anxiety
 
 Many major EAP providers now offer dedicated portals with these features. Integration typically involves adding the provider's SAML app to your identity system.
 
@@ -64,10 +64,10 @@ breathe --duration 120 --pattern box
 
 Rather than generic wellness budgets, structure stipends around commute-specific needs:
 
-- **Transit pass coverage**: Pre-tax commuter benefits reduce financial burden
-- **Ergonomic commute gear**: Noise-cancelling headphones, reading tablets for transit time
-- **Flexible start times**: Allow employees to avoid peak transit crowds
-- **Remote work flexibility**: Guaranteed office-free days per week
+- Transit pass coverage: Pre-tax commuter benefits reduce financial burden
+- Ergonomic commute gear: Noise-cancelling headphones, reading tablets for transit time
+- Flexible start times: Allow employees to avoid peak transit crowds
+- Remote work flexibility: Guaranteed office-free days per week
 
 A sample stipend policy in code:
 
@@ -94,10 +94,10 @@ wellness_benefit:
 
 Technical managers often struggle with mental health discussions because they're trained to solve problems, not hold space for emotions. Effective training focuses on:
 
-- **Recognizing signs**: Sleep disruption, code quality drops, meeting avoidance
-- **Asking opening questions**: "I've noticed you've been quieter in standups lately—how are things going?"
-- **Appropriate responses**: Listening without immediately offering solutions
-- **Escalation paths**: Knowing when to involve HR or EAP resources
+- Recognizing signs: Sleep disruption, code quality drops, meeting avoidance
+- Asking opening questions: "I've noticed you've been quieter in standups lately—how are things going?"
+- Appropriate responses: Listening without immediately offering solutions
+- Escalation paths: Knowing when to involve HR or EAP resources
 
 Implement a simple check-in system for your team:
 
@@ -133,10 +133,10 @@ async function sendWeeklyCheckIn(channel) {
 
 The open office environment that worked for sales teams creates particular challenges for developers. Advocate for policies that protect deep work:
 
-- **Core hours only**: Define a narrow window (e.g., 2-4 hours) when meetings can be scheduled
-- **No-meeting days**: Thursday or Friday as meeting-free focus days
-- **Quiet zone designations**: Physical spaces marked for focused work
-- **Async by default**: Written updates before synchronous meetings
+- Core hours only: Define a narrow window (e.g., 2-4 hours) when meetings can be scheduled
+- No-meeting days: Thursday or Friday as meeting-free focus days
+- Quiet zone designations: Physical spaces marked for focused work
+- Async by default: Written updates before synchronous meetings
 
 These policies reduce the cognitive load of constant context switching, which compounds commute stress.
 
@@ -144,10 +144,10 @@ These policies reduce the cognitive load of constant context switching, which co
 
 Formal programs work best alongside organic peer connections. Encourage:
 
-- **Mental health champions**: Voluntary advocates in each team
-- **Buddy systems**: Pair returning employees with adjusted colleagues
-- **Interest channels**: Slack channels for non-work topics (gaming, fitness, parenting)
-- **Virtual coffee chats**: Maintained even after office return
+- Mental health champions: Voluntary advocates in each team
+- Buddy systems: Pair returning employees with adjusted colleagues
+- Interest channels: Slack channels for non-work topics (gaming, fitness, parenting)
+- Virtual coffee chats: Maintained even after office return
 
 ## Practical Daily Strategies for Developers
 
@@ -155,18 +155,18 @@ Formal programs work best alongside organic peer connections. Encourage:
 
 Transform commute time from lost hours to productive or restful ones:
 
-- **Audio learning**: Technical podcasts, audiobooks, language learning
-- **Physical movement**: Walk or bike portions of the commute
-- **Mental transition rituals**: A specific playlist or podcast that signals "work mode" and "home mode"
+- Audio learning: Technical podcasts, audiobooks, language learning
+- Physical movement: Walk or bike portions of the commute
+- Mental transition rituals: A specific playlist or podcast that signals "work mode" and "home mode"
 
 ### Office Survival Tactics
 
 Once at the office:
 
-- **Noise management**: Invest in quality noise-cancelling headphones (Sony WH-1000XM5 or similar)
-- **Break scheduling**: Use Pomodoro timers with explicit break walks
-- **Private space booking**: Reserve phone booths for focused work or personal calls
-- **Commute tracking**: Use apps like Transit or Citymapper to optimize routes and reduce uncertainty anxiety
+- Noise management: Invest in quality noise-cancelling headphones (Sony WH-1000XM5 or similar)
+- Break scheduling: Use Pomodoro timers with explicit break walks
+- Private space booking: Reserve phone booths for focused work or personal calls
+- Commute tracking: Use apps like Transit or Citymapper to optimize routes and reduce uncertainty anxiety
 
 ### Boundary Setting with Calendar Enforcement
 
@@ -207,10 +207,10 @@ def enforce_commute_boundaries():
 
 Track whether your mental health resources actually help:
 
-- **Anonymous surveys**: Quarterly pulse surveys on workplace satisfaction
-- **EAP utilization rates**: Monitor uptake without identifying individuals
-- **Absenteeism patterns**: Track if commute-related absences decrease over time
-- **Team velocity stability**: Ensure no productivity crashes during transition
+- Anonymous surveys: Quarterly pulse surveys on workplace satisfaction
+- EAP utilization rates: Monitor uptake without identifying individuals
+- Absenteeism patterns: Track if commute-related absences decrease over time
+- Team velocity stability: Ensure no productivity crashes during transition
 
 Create a simple dashboard:
 
@@ -236,10 +236,10 @@ ORDER BY month DESC;
 
 Mental health support for returning to office shouldn't be a temporary initiative. Build sustainable practices:
 
-- **Regular policy review**: Quarterly assessment of what works
-- **Leadership modeling**: Managers openly using flexible work benefits
-- **Continuous feedback loops**: Anonymous channels for ongoing suggestions
-- **Budget protection**: Mental health stipends shouldn't be first cut in budget reviews
+- Regular policy review: Quarterly assessment of what works
+- Leadership modeling: Managers openly using flexible work benefits
+- Continuous feedback loops: Anonymous channels for ongoing suggestions
+- Budget protection: Mental health stipends shouldn't be first cut in budget reviews
 
 The goal is creating an environment where returning to office is a choice that employees make with genuine buy-in, not a mandate that feels punitive. When organizations invest in genuine support structures, the transition becomes manageable and even beneficial for team cohesion.
 

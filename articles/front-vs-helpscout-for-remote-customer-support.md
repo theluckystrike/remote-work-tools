@@ -164,7 +164,7 @@ Best regards,
 {{agent.name}}
 ```
 
-Customer profiles aggregate interaction history across all channels, providing a unified view for support agents.
+Customer profiles aggregate interaction history across all channels, providing an unified view for support agents.
 
 ## Pricing Considerations
 

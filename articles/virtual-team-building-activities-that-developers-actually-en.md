@@ -99,7 +99,7 @@ Choose books with practical applications—something like "Building Microservice
 
 1. Team votes on a book chapter to read
 2. Each person implements a small example demonstrating the concept
-3. Share implementations in a async thread
+3. Share implementations in an async thread
 4. Live discussion covers what worked and what didn't
 
 This approach appeals to developers who prefer doing over discussing. The implementation projects become useful reference code for future projects.

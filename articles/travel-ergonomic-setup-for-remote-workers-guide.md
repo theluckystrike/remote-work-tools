@@ -32,11 +32,11 @@ The solution isn't carrying your entire office with you. It's understanding whic
 
 Your travel ergonomic kit should fit in a carry-on or laptop bag. Focus on these high-impact items:
 
-1. **Laptop stand**: Portable aluminum stands weigh under 400g and raise your screen to eye level
-2. **Compact keyboard**: A travel keyboard enables proper typing posture with any screen height
-3. **Lumbar support cushion**: Inflatable or foldable options add back support to any chair
-4. **Cable management clips**: Keeps your setup organized in tight spaces
-5. **Blue light glasses**: Reduces eye strain from inconsistent lighting
+1. Laptop stand: Portable aluminum stands weigh under 400g and raise your screen to eye level
+2. Compact keyboard: A travel keyboard enables proper typing posture with any screen height
+3. Lumbar support cushion: Inflatable or foldable options add back support to any chair
+4. Cable management clips: Keeps your setup organized in tight spaces
+5. Blue light glasses: Reduces eye strain from inconsistent lighting
 
 ```bash
 # Travel ergonomic kit weight estimate
@@ -175,10 +175,10 @@ function ergonomic-reminder() {
 
 You don't need to spend hundreds on specialized travel gear. Start with:
 
-1. **Laptop stand ($25-50)**: The single highest-impact purchase
-2. **Compact keyboard ($30-60)**: Enables proper posture anywhere
-3. **Lumbar cushion ($15-30)**: Adds back support to any chair
-4. **Sleep mask + earplugs**: Enables proper rest in hotels
+1. Laptop stand ($25-50): The single highest-impact purchase
+2. Compact keyboard ($30-60): Enables proper posture anywhere
+3. Lumbar cushion ($15-30): Adds back support to any chair
+4. Sleep mask + earplugs: Enables proper rest in hotels
 
 Total initial investment: under $150. This covers 80% of travel ergonomic needs.
 
@@ -186,11 +186,11 @@ Total initial investment: under $150. This covers 80% of travel ergonomic needs.
 
 Knowledge without action produces nothing. Implement these changes in order:
 
-**Week 1**: Buy and test your laptop stand and keyboard at home first. Don't wait until travel to discover your setup doesn't work.
+Week 1: Buy and test your laptop stand and keyboard at home first. Don't wait until travel to discover your setup doesn't work.
 
-**Week 2**: Practice the environment assessment process. When working from cafes or hotels near you, try different configurations.
+Week 2: Practice the environment assessment process. When working from cafes or hotels near you, try different configurations.
 
-**Week 3+**: Travel with your kit and refine your process. Note what works and what doesn't in a travel log.
+Week 3+: Travel with your kit and refine your process. Note what works and what doesn't in a travel log.
 
 Consistency matters more than perfection. Even small improvements compound over months of travel.
 
@@ -217,16 +217,6 @@ echo "4. Walk: 10 minutes minimum"
 echo ""
 echo "Tomorrow's productivity starts tonight"
 ```
-
-## Conclusion
-
-Travel ergonomic setup isn't about perfection—it's about adaptation. The developer who travels frequently and protects their body will outlast the one who ignores ergonomics and pays the price in pain and decreased focus.
-
-Start small. One piece of gear, one habit, one awareness check at a time. Your body will thank you after 100 flights instead of cursing you.
-
-The best setup is the one you actually use. Don't overcomplicate. Begin with a laptop stand and keyboard, assess every space you enter, and build from there.
-
----
 
 ## Related Reading
 

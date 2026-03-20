@@ -76,8 +76,8 @@ Both tools handle real-time collaboration effectively. Notion's page-level comme
 
 Cost matters significantly for startups running lean budgets. Both platforms offer free tiers suitable for small teams:
 
-- **Notion Free**: Unlimited pages and blocks for individuals; guest access limited
-- **ClickUp Free**: 100MB storage, unlimited tasks and members
+- Notion Free: Unlimited pages and blocks for individuals; guest access limited
+- ClickUp Free: 100MB storage, unlimited tasks and members
 
 As your team grows, Notion's Plus plan ($10/month per user) includes unlimited guests and advanced database features. ClickUp Unlimited ($7/month per user) adds unlimited storage and advanced reporting.
 

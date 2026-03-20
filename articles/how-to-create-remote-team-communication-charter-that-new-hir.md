@@ -54,9 +54,9 @@ Async work requires explicit agreements about response times. Without these, new
 
 Define three tiers of urgency:
 
-- **Immediate**: Production incidents affecting customers. Use PagerDuty, phone calls, or urgent Slack tags. Expect response within 15 minutes during work hours.
-- **Standard**: Day-to-day questions, code reviews, project updates. Expect response within one business day (24 hours) in your primary timezone.
-- **Low priority**: RFCs, design documents, informational posts. Expect response within 3 business days.
+- Immediate: Production incidents affecting customers. Use PagerDuty, phone calls, or urgent Slack tags. Expect response within 15 minutes during work hours.
+- Standard: Day-to-day questions, code reviews, project updates. Expect response within one business day (24 hours) in your primary timezone.
+- Low priority: RFCs, design documents, informational posts. Expect response within 3 business days.
 
 Document these in your onboarding repository with timezone expectations:
 
@@ -142,10 +142,10 @@ Closes #123
 
 For developer teams, reduce synchronous meetings by default and establish clear guidelines for when meetings are necessary:
 
-- **No regular meetings without an async alternative**: Daily standups can become async Slack updates. Sprint planning can use written planning documents.
-- **Meetings require agendas**: Any meeting longer than 30 minutes needs a written agenda shared at least 24 hours in advance.
-- **Record or transcribe**: All meetings should be recorded or have detailed notes for team members in different time zones.
-- **Default to no-camera**: Video optional unless presenting or discussing visual content.
+- No regular meetings without an async alternative: Daily standups can become async Slack updates. Sprint planning can use written planning documents.
+- Meetings require agendas: Any meeting longer than 30 minutes needs a written agenda shared at least 24 hours in advance.
+- Record or transcribe: All meetings should be recorded or have detailed notes for team members in different time zones.
+- Default to no-camera: Video optional unless presenting or discussing visual content.
 
 Add meeting decision logic to your team workflow:
 
@@ -206,13 +206,13 @@ Create an automated checklist for onboarding that includes communication tasks:
 
 Static documents become outdated within months. Build these practices into your team workflow to keep the charter current:
 
-**Quarterly review**: Schedule 30 minutes each quarter to review the charter and update based on team feedback and lessons learned.
+Quarterly review: Schedule 30 minutes each quarter to review the charter and update based on team feedback and lessons learned.
 
-**Version control**: Store your charter in Git so changes get reviewed through pull requests, making updates transparent.
+Version control: Store your charter in Git so changes get reviewed through pull requests, making updates transparent.
 
-**Searchable**: Add the charter to your team's Notion, Confluence, or wiki so it's findable when someone asks a question.
+Searchable: Add the charter to your team's Notion, Confluence, or wiki so it's findable when someone asks a question.
 
-**Examples over rules**: When updating the charter, lead with examples of what worked and what didn't rather than abstract principles.
+Examples over rules: When updating the charter, lead with examples of what worked and what didn't rather than abstract principles.
 
 ## Testing Charter Adoption
 

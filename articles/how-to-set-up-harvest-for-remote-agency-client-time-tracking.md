@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Set Up Harvest for Remote Agency Client Time Tracking
 
-Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a robust solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients.
+Remote agencies face unique challenges when tracking time across distributed teams and multiple clients. Harvest provides a solution for capturing billable hours, managing client projects, and generating invoices. This guide covers practical setup steps for agencies working with remote clients.
 
 ## Creating Your Agency Workspace
 
@@ -26,9 +26,9 @@ When setting up, choose between a single workspace or multiple workspaces. Singl
 
 After account creation, invite team members through the team settings. Assign appropriate permission levels:
 
-- **Full Access**: Can track time, create projects, manage invoices
-- **Light Access**: Can track time and view assigned projects only  
-- **Time Only**: Can only log hours with no project management access
+- Full Access: Can track time, create projects, manage invoices
+- Light Access: Can track time and view assigned projects only 
+- Time Only: Can only log hours with no project management access
 
 For remote teams, ensure everyone downloads the mobile app for time tracking on the go. The browser extension provides one-click tracking from any webpage.
 
@@ -73,23 +73,23 @@ Set up staff member hourly rates in the team settings. These rates calculate int
 
 Harvest supports several billing scenarios:
 
-**Hourly Rate Per Project**: Charge a flat hourly rate for all work on a specific project. Use this when scope remains fluid and you bill for actual hours.
+Hourly Rate Per Project: Charge a flat hourly rate for all work on a specific project. Use this when scope remains fluid and you bill for actual hours.
 
-**Task-Based Rates**: Assign different rates to different task types. Design work might bill at $175/hour while development rates are $150/hour. Configure this in project settings under task assignments.
+Task-Based Rates: Assign different rates to different task types. Design work might bill at $175/hour while development rates are $150/hour. Configure this in project settings under task assignments.
 
-**Fixed Fee Projects**: For defined scope work, set a fixed price. Track time against the project while Harvest calculates earned value versus actual time spent.
+Fixed Fee Projects: For defined scope work, set a fixed price. Track time against the project while Harvest calculates earned value versus actual time spent.
 
-**Retainer Billing**: Set up recurring invoices for ongoing client work. Track time against retainer projects, and Harvest applies hours against the prepaid amount.
+Retainer Billing: Set up recurring invoices for ongoing client work. Track time against retainer projects, and Harvest applies hours against the prepaid amount.
 
 ## Time Tracking Workflows for Remote Teams
 
 Establish clear time tracking habits that work across time zones. The key is consistency rather than complex processes.
 
-**Daily Tracking**: Have team members log time at the end of each day. This prevents forgotten hours and keeps project budgets accurate. The Harvest timer works well for active work sessions.
+Daily Tracking: Have team members log time at the end of each day. This prevents forgotten hours and keeps project budgets accurate. The Harvest timer works well for active work sessions.
 
-**Weekly Review**: Designate a time weekly to review logged hours for accuracy. Team leads can run the "Team Overview" report to identify missing entries or suspicious patterns.
+Weekly Review: Designate a time weekly to review logged hours for accuracy. Team leads can run the "Team Overview" report to identify missing entries or suspicious patterns.
 
-**Code Snippet for Time Entry API**: For teams wanting programmatic time tracking, Harvest provides a REST API:
+Code Snippet for Time Entry API: For teams wanting programmatic time tracking, Harvest provides a REST API:
 
 ```bash
 # Create time entry via Harvest API
@@ -112,11 +112,11 @@ Integrate this with your development workflow using GitHub Actions or a custom S
 
 Harvest reporting helps agencies understand profitability, forecast workload, and bill clients accurately.
 
-**Project Profitability Report**: Shows revenue versus costs for each project. Critical for understanding which clients and project types generate positive margins.
+Project Profitability Report: Shows revenue versus costs for each project. Critical for understanding which clients and project types generate positive margins.
 
-**Budget vs Actual Report**: Compares planned hours against logged time. Use this to identify projects heading over budget and initiate scope conversations with clients early.
+Budget vs Actual Report: Compares planned hours against logged time. Use this to identify projects heading over budget and initiate scope conversations with clients early.
 
-**Team Utilization Report**: Tracks how much of available capacity your team is billing. Healthy agency utilization typically falls between 60-75% accounting for non-billable work like meetings and admin.
+Team Utilization Report: Tracks how much of available capacity your team is billing. Healthy agency utilization typically falls between 60-75% accounting for non-billable work like meetings and admin.
 
 For client invoicing, create invoice templates with your agency branding. Include these elements:
 
@@ -131,9 +131,9 @@ Send invoices directly from Harvest or export to your accounting software. The i
 
 Connect Harvest with your existing project management stack for streamlined workflows.
 
-**Slack Integration**: Post time tracking reminders and weekly summaries to team channels. Configure notifications for missing time entries or budget alerts.
+Slack Integration: Post time tracking reminders and weekly summaries to team channels. Configure notifications for missing time entries or budget alerts.
 
-**GitHub Integration**: Link commits to Harvest time entries using the Harvest GitHub Actions workflow:
+GitHub Integration: Link commits to Harvest time entries using the Harvest GitHub Actions workflow:
 
 ```yaml
 name: Log Time to Harvest
@@ -160,29 +160,29 @@ jobs:
             }'
 ```
 
-**API Webhooks**: Set up webhooks to trigger actions when projects reach certain budget thresholds or when invoices are paid.
+API Webhooks: Set up webhooks to trigger actions when projects reach certain budget thresholds or when invoices are paid.
 
 ## Best Practices for Remote Agency Time Tracking
 
 Implement these practices to maintain accurate time records:
 
-1. **Track time daily**: Waiting until Friday means forgetting details from Monday through Thursday.
+1. Track time daily: Waiting until Friday means forgetting details from Monday through Thursday.
 
-2. **Write descriptive notes**: Client-facing invoice descriptions should mean something. "Debugging" is less helpful than "Fixed login timeout issue on production server."
+2. Write descriptive notes: Client-facing invoice descriptions should mean something. "Debugging" is less helpful than "Fixed login timeout issue on production server."
 
-3. **Use task budgets**: They create accountability and early warning systems for scope creep.
+3. Use task budgets: They create accountability and early warning systems for scope creep.
 
-4. **Review utilization weekly**: Catch underutilization before it becomes a problem.
+4. Review utilization weekly: Catch underutilization before it becomes a problem.
 
-5. **Separate billable from non-billable**: Track all time, but distinguish between client work and internal projects.
+5. Separate billable from non-billable: Track all time, but distinguish between client work and internal projects.
 
 ## Automating Administrative Tasks
 
 Reduce manual overhead with Harvest's automation features:
 
-- **Recurring invoices**: Schedule monthly invoices for retainer clients
-- **Timesheet reminders**: Configure email reminders for missing daily entries  
-- **Budget alerts**: Get notified when projects reach configurable threshold percentages
+- Recurring invoices: Schedule monthly invoices for retainer clients
+- Timesheet reminders: Configure email reminders for missing daily entries 
+- Budget alerts: Get notified when projects reach configurable threshold percentages
 
 Set up these automations in the Settings > Notifications section. Tailor thresholds based on project size—smaller projects might warrant 75% alerts while larger engagements use 90%.
 

@@ -170,7 +170,7 @@ feature/teamname-feature-name
 
 Create a centralized repository with team folders. This prevents merge nightmares at the end of the hackathon.
 
-## Facilitating the Event
+## helping the Event
 
 Remote hackathons need active facilitation to succeed. Designate someone as the "hackathon lead" who monitors progress and identifies struggling teams.
 
@@ -213,9 +213,9 @@ Fair judging requires clear criteria communicated upfront.
 
 For remote voting, use tools like:
 
-- **Trello**: Simple card-based voting
-- **Google Forms**: Anonymous submissions
-- **Dedicated platforms**: Devpost or HackerEarth (for larger events)
+- Trello: Simple card-based voting
+- Google Forms: Anonymous submissions
+- Dedicated platforms: Devpost or HackerEarth (for larger events)
 
 Give participants equal voting weight to judges. This increases engagement and provides diverse perspectives.
 
@@ -243,11 +243,11 @@ This transforms one-off events into ongoing innovation pipelines.
 
 Several mistakes consistently undermine remote hackathons:
 
-- **Overly complex themes**: Theme confusion leads to aimless wandering
-- **No clear judging criteria**: Ambiguity creates frustration
-- **Ignoring time zones**: Forcing unnatural schedules hurts participation
-- **Insufficient async preparation**: Remote teams cannot be as spontaneous as collocated ones
-- **No rest periods**: Exhausted developers produce poor quality work
+- Overly complex themes: Theme confusion leads to aimless wandering
+- No clear judging criteria: Ambiguity creates frustration
+- Ignoring time zones: Forcing unnatural schedules hurts participation
+- Insufficient async preparation: Remote teams cannot be as spontaneous as collocated ones
+- No rest periods: Exhausted developers produce poor quality work
 
 Addressing these proactively significantly improves outcomes.
 

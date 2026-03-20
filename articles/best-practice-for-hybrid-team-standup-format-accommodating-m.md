@@ -59,9 +59,9 @@ Physical room setup dramatically impacts hybrid standup quality. Here are the re
 
 ### Camera and Audio
 
-- **Dedicated meeting camera**: Don't rely on laptop webcams. Use a conference room camera like Logitech Rally or Owl Labs that frames the entire room
-- **Multiple microphones**: A single room microphone creates audio that favors people closest to it. Use beamforming mics or individual table microphones
-- **Display for remote participants**: The room should have a TV or monitor showing the remote participants' faces during the meeting, not just when someone shares their screen
+- Dedicated meeting camera: Don't rely on laptop webcams. Use a conference room camera like Logitech Rally or Owl Labs that frames the entire room
+- Multiple microphones: A single room microphone creates audio that favors people closest to it. Use beamforming mics or individual table microphones
+- Display for remote participants: The room should have a TV or monitor showing the remote participants' faces during the meeting, not just when someone shares their screen
 
 ### Equal Visibility
 
@@ -75,7 +75,7 @@ Good facilitation prevents hybrid standups from becoming one-sided. Try these ap
 
 ### The "Remote First" Rule
 
-When facilitating, explicitly prioritize remote participants. This doesn't mean ignoring in-room team members, but it means:
+When helping, explicitly prioritize remote participants. This doesn't mean ignoring in-room team members, but it means:
 
 - Ask remote participants to speak first in the round-robin
 - Direct questions to specific remote people by name
@@ -107,18 +107,18 @@ Several tools can enhance your hybrid standup experience:
 
 ### Video Platforms
 
-- **Zoom**: Works well with proper room setup. Use "gallery view" so remote participants see faces, not just names
-- **Google Meet**: Simpler integration with Google Workspace, decent room audio with proper hardware
-- **Slack Huddles**: Consider switching to Slack Huddles for quick 1:1 or small group syncs after main standup
+- Zoom: Works well with proper room setup. Use "gallery view" so remote participants see faces, not just names
+- Google Meet: Simpler integration with Google Workspace, decent room audio with proper hardware
+- Slack Huddles: Consider switching to Slack Huddles for quick 1:1 or small group syncs after main standup
 
 ### Task Board Integration
 
 Share your task board directly in the meeting:
 
-- **Linear**: Linear's board view works well for standups
-- **Jira**: Cloud Jira board shared via screen
-- **GitHub Projects**: Kanban view visible to everyone
-- **Trello**: Board view with cards visible
+- Linear: Linear's board view works well for standups
+- Jira: Cloud Jira board shared via screen
+- GitHub Projects: Kanban view visible to everyone
+- Trello: Board view with cards visible
 
 The goal is having something visual that everyone can reference simultaneously, regardless of their physical location.
 
@@ -135,10 +135,10 @@ Here's a practical agenda you can copy:
 
 ## Common Pitfalls to Avoid
 
-- **Having in-room participants speak without structure**: This leads to sidebar conversations remote participants can't hear
-- **Skipping async updates and trying to cover everything verbally**: This wastes time and leaves remote participants at a disadvantage
-- **Using poor room audio**: Nothing frustrates remote participants more than not being able to hear clearly
-- **Treating standup as a status report to management**: Keep it as a team sync, not a reporting session
+- Having in-room participants speak without structure: This leads to sidebar conversations remote participants can't hear
+- Skipping async updates and trying to cover everything verbally: This wastes time and leaves remote participants at a disadvantage
+- Using poor room audio: Nothing frustrates remote participants more than not being able to hear clearly
+- Treating standup as a status report to management: Keep it as a team sync, not a reporting session
 
 ## When to Go Fully Async Instead
 

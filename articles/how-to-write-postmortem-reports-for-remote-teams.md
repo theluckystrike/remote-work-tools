@@ -186,13 +186,6 @@ The best postmortem is one that actually gets written and read. For remote teams
 
 4. **Follow up on action items.** Track action items in your project management tool. A postmortem full of uncompleted tickets builds cynicism, not improvement.
 
-## Conclusion
-
-Writing effective postmortem reports for remote teams comes down to structure, clarity, and async-readiness. A well-crafted postmortem serves as both a learning document and a team artifact—something someone joining next year can read to understand what went wrong and how you got better.
-
-Start with the template above, customize it to your team's needs, and treat each incident as an opportunity to strengthen your systems and your processes.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

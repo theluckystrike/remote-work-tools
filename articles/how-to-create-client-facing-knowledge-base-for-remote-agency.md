@@ -24,7 +24,7 @@ Remote agencies face unique communication challenges that in-person firms don't 
 
 A well-designed knowledge base addresses these challenges by providing 24/7 access to answers. Clients can reference onboarding materials, understand your revision workflows, find login credentials, and review project timelines without waiting for your team to be online. This asynchronous accessibility matches how remote teams already operate internally, creating consistency in client experience.
 
-Beyond convenience, a knowledge base signals professionalism. When clients see comprehensive documentation about your processes, pricing structures, and project management approaches, they gain confidence in your agency's organization. You're not just another freelancer working from a home office—you're a structured business with systems that scale.
+Beyond convenience, a knowledge base signals professionalism. When clients see documentation about your processes, pricing structures, and project management approaches, they gain confidence in your agency's organization. You're not just another freelancer working from a home office—you're a structured business with systems that scale.
 
 ## Choosing Your Knowledge Base Platform
 
@@ -56,7 +56,7 @@ Building a knowledge base works best as an incremental project rather than a mas
 
 Before writing anything, review what you're already explaining repeatedly. Search your Slack, email, and project management tools for questions that come up repeatedly. Look for onboarding emails you send to new clients, explanation messages about your process, and responses to common concerns. This audit reveals exactly what content your knowledge base needs.
 
-Create a simple list ranking these topics by frequency. The top ten questions or explanations become your priority content. You don't need comprehensive documentation immediately—start with the materials that immediately reduce client support burden.
+Create a simple list ranking these topics by frequency. The top ten questions or explanations become your priority content. You don't need documentation immediately—start with the materials that immediately reduce client support burden.
 
 ### Phase 2: Choose and Configure Your Platform
 
@@ -80,16 +80,11 @@ Establish a maintenance routine. Schedule monthly reviews to update outdated con
 
 **Keep content fresh.** Nothing frustrates clients more than finding instructions for tools you've since replaced or processes you've changed. Add "last updated" dates to articles and review quarterly. Consider notifying clients when significant changes occur rather than expecting them to discover updates.
 
-**Make it searchable.** Clients shouldn't navigate through multiple levels to find answers. Implement robust search functionality, include a prominent search bar, and tag articles with synonyms clients might use. If they think "where do I see the design mockups?" your search should find articles about viewing drafts or accessing previews.
+**Make it searchable.** Clients shouldn't navigate through multiple levels to find answers. Implement search functionality, include a prominent search bar, and tag articles with synonyms clients might use. If they think "where do I see the design mockups?" your search should find articles about viewing drafts or accessing previews.
 
 **Enable feedback.** Add ways for clients to indicate articles helped or request clarification. This feedback loop reveals content gaps and helps you understand client mental models. When someone struggles with documentation, improve it rather than simply answering their question again.
 
 **Integrate with client workflows.** Don't force clients to visit a separate site for your knowledge base. Embed relevant articles in project management tools, reference them in regular updates, and link from invoices or proposals. The more integrated the knowledge base feels with your overall service, the more clients use it.
-
-## Conclusion
-
-A client-facing knowledge base represents one of the highest-ROI investments for remote agencies. The upfront effort to create and organize content pays ongoing dividends through reduced support burden, improved client independence, and perceived professionalism. Start with your most common client questions, choose a platform that matches your agency scale, and commit to incremental improvement. Your clients gain clarity, your team gains time, and your agency gains a competitive differentiator that scales with your growth.
-
 
 ## Related Reading
 

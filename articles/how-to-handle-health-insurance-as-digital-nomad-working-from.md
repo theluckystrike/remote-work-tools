@@ -30,15 +30,15 @@ As a digital nomad on a long-term visa (typically a 60-day extension on a Touris
 
 ### International Health Insurance
 
-International health insurance plans provide the most comprehensive coverage and work across multiple countries. These plans suit digital nomads who travel between countries or plan extended stays elsewhere.
+International health insurance plans provide the most coverage and work across multiple countries. These plans suit digital nomads who travel between countries or plan extended stays elsewhere.
 
 Popular providers include:
-- **Cigna Global**: Modular plans with flexible coverage
-- **AXA Gold**: Wide network, good for expats
-- **Allianz Care**: Competitive pricing for individuals
-- **SafetyWing**: Designed specifically for digital nomads
+- Cigna Global: Modular plans with flexible coverage
+- AXA Gold: Wide network, good for expats
+- Allianz Care: Competitive pricing for individuals
+- SafetyWing: Designed specifically for digital nomads
 
-A typical comprehensive plan for a healthy 30-year-old might cost $100-200 USD per month, with deductibles ranging from $250-1,000.
+A typical plan for a healthy 30-year-old might cost $100-200 USD per month, with deductibles ranging from $250-1,000.
 
 ### Thailand-Specific Expat Plans
 
@@ -143,13 +143,13 @@ Thailand's Long-Term Resident (LTR) visa category (launched in 2024) requires he
 
 ## Common Mistakes to Avoid
 
-**Waiting until you need care**: Insurance doesn't cover pre-existing conditions that develop before your coverage starts. Get covered before any health issues arise.
+Waiting until you need care: Insurance doesn't cover pre-existing conditions that develop before your coverage starts. Get covered before any health issues arise.
 
-**Choosing based solely on price**: The cheapest plan often has high deductibles or numerous exclusions. Calculate your actual out-of-pocket exposure.
+Choosing based solely on price: The cheapest plan often has high deductibles or numerous exclusions. Calculate your actual out-of-pocket exposure.
 
-**Ignoring renewal terms**: Some policies increase premiums significantly at renewal based on claims history. Check whether the insurer offers guaranteed renewal.
+Ignoring renewal terms: Some policies increase premiums significantly at renewal based on claims history. Check whether the insurer offers guaranteed renewal.
 
-**Not disclosing everything**: Failing to declare health conditions voids your policy when you need to claim.
+Not disclosing everything: Failing to declare health conditions voids your policy when you need to claim.
 
 ## Cost Example: Real-World Scenarios
 
@@ -169,13 +169,6 @@ Typical out-of-pocket costs:
 
 Without insurance, the same hospitalization could cost $5,000-15,000 at a private Thai hospital.
 ```
-
-## Conclusion
-
-Securing health insurance as a digital nomad in Thailand requires upfront research and budget allocation, but the financial protection and peace of mind prove invaluable. International health insurance provides the most flexibility for long-term remote workers, while Thailand-specific plans offer good value if you plan to stay primarily in the country.
-
-Factor insurance costs into your remote work budget early—treating it as a non-negotiable expense like your accommodation or internet connection. Your health is your most important asset as a developer, and protecting it ensures you can continue enjoying the digital nomad lifestyle in Thailand for years to come.
-
 
 ## Related Reading
 

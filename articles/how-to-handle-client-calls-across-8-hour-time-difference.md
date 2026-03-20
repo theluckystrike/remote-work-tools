@@ -21,7 +21,7 @@ voice-checked: false
 
 ## Understanding the 8-Hour Challenge
 
-An 8-hour time difference essentially creates two non-overlapping workdays. If you're in New York (EST) and your client is in London (GMT), you're starting your day when they're finishing theirs. The overlap window for acceptable meeting times is narrow or nonexistent.
+An 8-hour time difference creates two non-overlapping workdays. If you're in New York (EST) and your client is in London (GMT), you're starting your day when they're finishing theirs. The overlap window for acceptable meeting times is narrow or nonexistent.
 
 Traditional advice suggests "finding the middle ground," but with 8 hours difference, that middle ground often means early mornings or late evenings—times when neither party operates at peak capacity. This approach works for occasional meetings but becomes unsustainable for ongoing projects.
 
@@ -60,9 +60,9 @@ This structure gives your client everything they need to provide feedback withou
 
 Establish explicit expectations about response times rather than expecting immediate replies. A typical async-first agreement might look like:
 
-- **Routine questions**: 24-48 hour response time
-- **Urgent issues**: Same-day response during business hours
-- **Critical blockers**: Phone call reserved for true emergencies
+- Routine questions: 24-48 hour response time
+- Urgent issues: Same-day response during business hours
+- Critical blockers: Phone call reserved for true emergencies
 
 This removes the pressure of constant availability while ensuring important matters get addressed promptly.
 
@@ -70,16 +70,16 @@ This removes the pressure of constant availability while ensuring important matt
 
 Async communication handles most situations, but certain moments benefit from real-time conversation:
 
-1. **Project kickoffs**: Establish rapport and clarify big-picture goals
-2. **Complex technical discussions**: When nuance matters and back-and-forth is needed
-3. **Scope changes**: Discussing project boundaries benefits from real-time dialogue
-4. **Relationship building**: Occasional calls maintain personal connection
+1. Project kickoffs: Establish rapport and clarify big-picture goals
+2. Complex technical discussions: When nuance matters and back-and-forth is needed
+3. Scope changes: Discussing project boundaries benefits from real-time dialogue
+4. Relationship building: Occasional calls maintain personal connection
 
 For these essential calls, be strategic about timing. Accept that one party will meet outside ideal hours occasionally—but limit it.
 
 ### The "Golden Hours" Approach
 
-Identify 2-3 hours that work acceptably for both parties, even if not perfectly. If you're EST and client is PST, the overlap is essentially nonexistent. However, if you're CET (Paris) and client is EST (New York), 8 AM your time / 2 PM their time works for early meetings.
+Identify 2-3 hours that work acceptably for both parties, even if not perfectly. If you're EST and client is PST, the overlap is nonexistent. However, if you're CET (Paris) and client is EST (New York), 8 AM your time / 2 PM their time works for early meetings.
 
 Document these "golden hours" clearly so both parties know when urgent calls can happen:
 
@@ -97,9 +97,9 @@ const yourTimezone = 'Europe/Paris';
 
 Use tooling that handles the complexity automatically:
 
-- **World Time Buddy**: Visual overlap finder for non-overlapping zones
-- **Calendly with time zone detection**: Let clients book slots in their local time
-- **GitHub Actions timezone matrix**: For coordinating across distributed teams
+- World Time Buddy: Visual overlap finder for non-overlapping zones
+- Calendly with time zone detection: Let clients book slots in their local time
+- GitHub Actions timezone matrix: For coordinating across distributed teams
 
 When sharing times, always include both time zones explicitly:
 
@@ -115,9 +115,9 @@ This prevents confusion and shows consideration for the other party's schedule.
 
 Sometimes a decision can't wait for async back-and-forth. For these situations:
 
-1. **Provide advance notice**: Send questions before end of your client's workday so they can prepare responses for next morning
-2. **Use async video**: Loom or similar tools let you explain context thoroughly without scheduling
-3. **Create decision deadlines**: "Please review and approve by Thursday 5 PM your time"
+1. Provide advance notice: Send questions before end of your client's workday so they can prepare responses for next morning
+2. Use async video: Loom or similar tools let you explain context thoroughly without scheduling
+3. Create decision deadlines: "Please review and approve by Thursday 5 PM your time"
 
 ```markdown
 ## Request for Decision: API Integration Approach
@@ -136,18 +136,11 @@ This gives your client control while preventing decision paralysis.
 
 Working across 8-hour time differences tempts you to stretch hours in both directions. Protect your boundaries explicitly:
 
-- **Block focus time**: Use calendar blocking for deep work, communicate these times to clients
-- **Define availability**: "I'm available for calls between X and Y my time"
-- **Use async status**: Set Slack status or email signature indicating your hours and response expectations
+- Block focus time: Use calendar blocking for deep work, communicate these times to clients
+- Define availability: "I'm available for calls between X and Y my time"
+- Use async status: Set Slack status or email signature indicating your hours and response expectations
 
 A client in a different time zone won't naturally respect your boundaries—you must communicate them clearly and consistently.
-
-## Summary
-
-Managing client calls across an 8-hour time difference requires shifting from synchronous-default to async-first thinking. Build communication systems that don't require simultaneous presence: thorough documentation, clear response time expectations, and strategic use of the limited synchronous windows that exist.
-
-The goal isn't eliminating calls—it's making them meaningful rather than routine. Your client gets thoughtful, complete updates. You get protected focus time and sustainable work hours. The project moves forward efficiently without either party sacrificing productivity or work-life balance.
-
 
 ## Related Reading
 

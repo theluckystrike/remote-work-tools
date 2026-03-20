@@ -23,16 +23,16 @@ The traditional approach—where an IT admin manually creates accounts in each s
 
 ## Building a Tool Inventory and Access Matrix
 
-Before automating anything, you need visibility into your current state. Create a comprehensive inventory of every tool your team uses and categorize them by access sensitivity.
+Before automating anything, you need visibility into your current state. Create an inventory of every tool your team uses and categorize them by access sensitivity.
 
 **Tool categories include:**
 
-- **Communication**: Slack, Microsoft Teams, Discord
-- **Productivity**: Google Workspace, Microsoft 365, Notion
-- **Development**: GitHub, GitLab, Bitbucket, AWS, GCP, Azure
-- **Project Management**: Jira, Linear, Asana, ClickUp
-- **Security**: 1Password, Bitwarden, Duo, Authy
-- **HR and Finance**: Workday, Gusto, Expensify
+- Communication: Slack, Microsoft Teams, Discord
+- Productivity: Google Workspace, Microsoft 365, Notion
+- Development: GitHub, GitLab, Bitbucket, AWS, GCP, Azure
+- Project Management: Jira, Linear, Asana, ClickUp
+- Security: 1Password, Bitwarden, Duo, Authy
+- HR and Finance: Workday, Gusto, Expensify
 
 For each tool, document who should have access at each role level. A junior developer needs different permissions than a senior engineer or a product manager. Create an access matrix that maps roles to tool access levels.
 
@@ -67,7 +67,7 @@ This matrix becomes your source of truth for automated provisioning.
 
 The foundation of scalable access management is centralizing your user directory. Connect your identity provider (Google Workspace, Microsoft Entra ID, or Okta) to all your SaaS tools using SCIM (System for Cross-domain Identity Management).
 
-SCIM automates user provisioning across connected applications. When you add a user in your identity provider, SCIM automatically creates accounts in all connected tools. When someone leaves, SCIM deactivates accounts across the board.
+SCIM automates user provisioning across connected applications. When you add an user in your identity provider, SCIM automatically creates accounts in all connected tools. When someone leaves, SCIM deactivates accounts across the board.
 
 ```python
 # Example: SCIM user provisioning webhook handler
@@ -195,7 +195,7 @@ Combine this with just-in-time (JIT) access for elevated permissions. Engineers 
 
 ## Offboarding Automation
 
-Scaling access management isn't complete without considering offboarding. When employees leave, you need immediate, comprehensive access revocation. Your SCIM setup should handle this automatically:
+Scaling access management isn't complete without considering offboarding. When employees leave, you need immediate, access revocation. Your SCIM setup should handle this automatically:
 
 1. Deactivate user in identity provider
 2. SCIM pushes deactivation to all connected apps
@@ -225,10 +225,10 @@ def revoke_all_access(email):
 
 Track key metrics to identify bottlenecks and improve your provisioning workflow:
 
-- **Time to productive**: How long from hire date to full tool access?
-- **Provisioning speed**: Average time to grant each tool access
-- **Access errors**: Failed provisioning attempts requiring manual intervention
-- **Orphaned accounts**: Accounts that remain active after offboarding
+- Time to productive: How long from hire date to full tool access?
+- Provisioning speed: Average time to grant each tool access
+- Access errors: Failed provisioning attempts requiring manual intervention
+- Orphaned accounts: Accounts that remain active after offboarding
 
 Review these metrics monthly. Look for patterns—certain tools that consistently cause delays, role changes that require manual intervention, or onboarding stages that create bottlenecks.
 

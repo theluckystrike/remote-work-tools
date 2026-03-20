@@ -144,13 +144,6 @@ linear cycle create --start 2026-03-16 --duration 14
 
 Then configure GitHub integration through Settings → Integrations, map your repositories, and you're tracking issues within an afternoon.
 
-## Summary
-
-Both Linear and Shortcut serve remote engineering teams well at eight engineers. Linear wins on developer experience, speed, and minimal friction. Shortcut wins on workflow flexibility and customization. For most eight-person remote startups shipping software, Linear's opinionated design accelerates delivery. The $64/month investment pays for itself in reduced tool friction and faster cycle planning.
-
-Evaluate based on your team's workflow preferences, not feature checklists. A team that embraces Linear's constraints will ship faster. A team that needs Shortcut's flexibility will avoid fighting their tool.
-
-
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)

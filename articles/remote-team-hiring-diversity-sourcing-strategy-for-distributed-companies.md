@@ -26,9 +26,9 @@ The challenge lies in moving beyond homogeneous networks. Most hiring teams unco
 
 Standard job boards often reproduce existing biases in who applies. Diversify your channels by posting to platforms specifically designed to reach underrepresented groups:
 
-- **Underrepresented Developer Communities**: GitHub's diversity initiatives, Women Who Code job boards, and Black Tech Jobs connect you with qualified candidates often missed by mainstream channels.
-- **Global Talent Platforms**: Toptal, Turing, and similar platforms vet engineers globally and can filter for diverse candidate pools.
-- **University Pipeline Programs**: Partner with HBCUs, Hispanic-serving institutions, and universities with strong diversity initiatives for early-career hiring.
+- Underrepresented Developer Communities: GitHub's diversity initiatives, Women Who Code job boards, and Black Tech Jobs connect you with qualified candidates often missed by mainstream channels.
+- Global Talent Platforms: Toptal, Turing, and similar platforms vet engineers globally and can filter for diverse candidate pools.
+- University Pipeline Programs: Partner with HBCUs, Hispanic-serving institutions, and universities with strong diversity initiatives for early-career hiring.
 
 ### Building Relationships with Community Organizations
 
@@ -175,11 +175,3 @@ Diversity sourcing requires ongoing measurement to identify what's working:
 
 Set baseline measurements before implementing changes, then track quarterly. Small improvements compound—moving from 15% to 20% diverse hires over two years represents significant organizational change.
 
-## Conclusion
-
-Effective diversity sourcing for remote teams combines expanded channels, structured evaluation, thoughtful onboarding, and continuous measurement. The specific tactics matter less than the commitment to systematic improvement. Companies that treat diversity sourcing as an ongoing experiment—testing channels, measuring outcomes, and iterating—consistently outcompete those hoping for organic improvement.
-
-Start with one channel you've never used. Implement structured interviews for your next hiring cycle. Add a buddy to your next new hire's onboarding. Small actions compound into transformational change.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

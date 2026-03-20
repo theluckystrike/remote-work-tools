@@ -36,10 +36,10 @@ If you use an external keyboard when your laptop is raised, you're already halfw
 
 Run through this checklist right now:
 
-1. **Screen height**: Can you look at the top third of your screen without tilting your head?
-2. **Distance**: Is your screen about an arm's length away?
-3. **Keyboard position**: Are your elbows at a 90-degree angle when typing?
-4. **Shoulder position**: Are your shoulders relaxed, not hunched toward your ears?
+1. Screen height: Can you look at the top third of your screen without tilting your head?
+2. Distance: Is your screen about an arm's length away?
+3. Keyboard position: Are your elbows at a 90-degree angle when typing?
+4. Shoulder position: Are your shoulders relaxed, not hunched toward your ears?
 
 If you answered "no" to any of these, your desk setup likely contributes to your neck pain.
 

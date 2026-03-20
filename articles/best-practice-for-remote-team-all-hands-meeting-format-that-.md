@@ -69,7 +69,7 @@ Using a shared tool like Notion, Confluence, or a GitHub Discussions board lets 
 
 Rather than opening the floor during the meeting—a guaranteed way to create awkward silence or dominate voices—collect questions beforehand. Use a simple form or spreadsheet where anyone can submit topics they want addressed.
 
-Categorize and prioritize these questions. Group similar topics together. This preprocessing step transforms the synchronous session from a information dump into a targeted Q&A that actually matters to the team.
+Categorize and prioritize these questions. Group similar topics together. This preprocessing step transforms the synchronous session from an information dump into a targeted Q&A that actually matters to the team.
 
 ### Phase 3: The Synchronous Session (30-45 Minutes Maximum)
 

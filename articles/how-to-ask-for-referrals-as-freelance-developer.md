@@ -24,8 +24,8 @@ A referred client arrives with built-in social proof. Your ideal client's friend
 
 Consider the conversion funnel comparison:
 
-- **Cold outreach**: 100 emails sent → 5 responses → 1 client (1% conversion)
-- **Referral**: 10 referrals received → 5 meetings → 3 clients (30% conversion)
+- Cold outreach: 100 emails sent → 5 responses → 1 client (1% conversion)
+- Referral: 10 referrals received → 5 meetings → 3 clients (30% conversion)
 
 The math is undeniable. Referrals multiply your effective reach while reducing sales effort.
 
@@ -35,11 +35,11 @@ Timing matters more than wording. Asking too early damages relationships; asking
 
 ### The Ideal Moments
 
-**Right after successful delivery**: The moment a client expresses satisfaction—either through a message or during a call—represents your best opportunity. They've just experienced your best work and are feeling positive about the relationship.
+Right after successful delivery: The moment a client expresses satisfaction—either through a message or during a call—represents your best opportunity. They've just experienced your best work and are feeling positive about the relationship.
 
-**During a positive review moment**: When a client says "you're great to work with" or "this exceeded expectations," that's your opening. The emotion behind their words makes them more likely to say yes to a request.
+During a positive review moment: When a client says "you're great to work with" or "this exceeded expectations," that's your opening. The emotion behind their words makes them more likely to say yes to a request.
 
-**At project closure**: The project completion stage naturally invites reflection. A formal "what went well" discussion creates space to mention referrals.
+At project closure: The project completion stage naturally invites reflection. A formal "what went well" discussion creates space to mention referrals.
 
 ### What to Avoid
 

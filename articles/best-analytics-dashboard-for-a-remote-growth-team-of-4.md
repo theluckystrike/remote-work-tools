@@ -86,7 +86,7 @@ curl -X POST "https://your-metabase/api/pulse" \
 
 ## Grafana: Operational Metrics with Strong Visualization
 
-If your growth team leans toward product-led metrics and needs to monitor system health alongside business metrics, Grafana provides exceptional visualization capabilities. Originally built for infrastructure monitoring, Grafana has expanded into a general-purpose dashboard tool that integrates with virtually any data source.
+If your growth team leans toward product-led metrics and needs to monitor system health alongside business metrics, Grafana provides exceptional visualization capabilities. Originally built for infrastructure monitoring, Grafana has expanded into a general-purpose dashboard tool that integrates with any data source.
 
 For a four-person growth team, Grafana excels when you need real-time operational visibility—think active user counts, feature adoption rates, and experiment outcome tracking. The template variable system lets each team member create personalized views of shared dashboards.
 

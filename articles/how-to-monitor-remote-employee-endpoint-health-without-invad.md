@@ -23,11 +23,11 @@ Endpoint health monitoring in a privacy-respecting context focuses on technical 
 
 Key metrics that support operations without invading privacy include:
 
-- **System resource utilization**: CPU, memory, and disk usage
-- **Network connectivity status**: Internet access, VPN status, network latency
-- **Security posture**: Operating system version, last update timestamp, encryption status
-- **Hardware health**: Storage health indicators, battery condition (for laptops)
-- **Service availability**: Whether critical services run correctly
+- System resource utilization: CPU, memory, and disk usage
+- Network connectivity status: Internet access, VPN status, network latency
+- Security posture: Operating system version, last update timestamp, encryption status
+- Hardware health: Storage health indicators, battery condition (for laptops)
+- Service availability: Whether critical services run correctly
 
 This approach provides IT teams with actionable information while respecting employee boundaries.
 
@@ -205,10 +205,10 @@ Technical tools work best within a framework of clear policies that establish ex
 
 Document and share with your team:
 
-1. **What data you collect**: List specific metrics, collection frequency, and storage duration
-2. **Who has access**: Define which team members can view endpoint data
-3. **How you use data**: Explain that monitoring supports IT operations, not performance evaluation
-4. **Employee rights**: Allow employees to request their data or opt out of non-essential collection
+1. What data you collect: List specific metrics, collection frequency, and storage duration
+2. Who has access: Define which team members can view endpoint data
+3. How you use data: Explain that monitoring supports IT operations, not performance evaluation
+4. Employee rights: Allow employees to request their data or opt out of non-essential collection
 
 ### Data Minimization Practices
 

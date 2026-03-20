@@ -161,7 +161,7 @@ SecRule REQUEST_HEADERS:Content-Type "!@rx ^(application/x-www-form-urlencoded|m
 
 Deploying a WAF requires ongoing attention to reduce false positives while maintaining strong protection. Remote team workflows may generate legitimate traffic patterns that initially trigger WAF rules.
 
-Enable comprehensive logging to understand traffic patterns:
+Enable logging to understand traffic patterns:
 
 ```bash
 # AWS WAF - enable logging
@@ -183,13 +183,6 @@ SecAuditLog /var/log/modsec_audit.log
 Review blocked requests weekly during initial deployment. Identify patterns where legitimate team workflows trigger rules, then create exceptions using rule IDs. Document these exceptions and revisit them quarterly to ensure they remain necessary.
 
 Implement alerting for security events. Configure notifications when WAF blocks suspicious activity, but avoid alert fatigue by focusing on high-severity blocks and unusual patterns rather than routine attacks that the WAF handles automatically.
-
-## Conclusion
-
-A properly configured web application firewall significantly reduces the risk of attacks against your internal tools. For remote teams, the key considerations are choosing an architecture that matches your infrastructure capabilities, implementing rules that account for legitimate distributed access patterns, and maintaining vigilance through ongoing monitoring and tuning.
-
-Start with managed rulesets from your WAF provider, then customize based on your specific application behavior. The initial investment in proper WAF setup pays dividends in reduced security incidents and improved protection for the sensitive data your remote team accesses daily.
-
 
 ## Related Reading
 

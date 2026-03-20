@@ -112,7 +112,7 @@ A simple Slack slash command can remind participants:
 
 ### Channel Bots That Encourage Engagement
 
-Bots can facilitate conversation without forcing it:
+Bots can help conversation without forcing it:
 
 ```javascript
 // Simple Slack bot for random pairing
@@ -158,10 +158,10 @@ Emoji create emotional shorthand that builds team identity over time.
 
 Social channels shouldn't be metrics-driven, but you can observe health indicators:
 
-- **Message velocity**: Are people actively posting, or is the channel dead?
-- **Response rate**: When someone shares something, do others respond?
-- **New member onboarding**: Do new hires find and join social channels?
-- **Cross-team participation**: Are people from different teams interacting?
+- Message velocity: Are people actively posting, or is the channel dead?
+- Response rate: When someone shares something, do others respond?
+- New member onboarding: Do new hires find and join social channels?
+- Cross-team participation: Are people from different teams interacting?
 
 A simple weekly check that takes 30 seconds: glance at your social channels. If they're active and varied, your culture work is succeeding.
 

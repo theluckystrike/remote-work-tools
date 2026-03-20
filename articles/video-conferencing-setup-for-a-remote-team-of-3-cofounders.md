@@ -17,7 +17,7 @@ voice-checked: true
 {% raw %}
 # Video Conferencing Setup for a Remote Team of 3 Cofounders
 
-Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, a USB condenser or headset microphone, and a key light at 45 degrees from the camera. Use a wired Ethernet connection with QoS rules prioritizing video traffic, then pick one platform (Zoom for reliability, Google Meet if you already use Workspace) and configure it for join-before-host, cloud recording, and automatic transcription. This guide covers the hardware, network optimization, platform configuration, and automation scripts that make daily cofounder calls seamless.
+Set up video conferencing for three remote cofounders by equipping each home office with a 1080p webcam at eye level, an USB condenser or headset microphone, and a key light at 45 degrees from the camera. Use a wired Ethernet connection with QoS rules prioritizing video traffic, then pick one platform (Zoom for reliability, Google Meet if you already use Workspace) and configure it for join-before-host, cloud recording, and automatic transcription. This guide covers the hardware, network optimization, platform configuration, and automation scripts that make daily cofounder calls seamless.
 
 ## Why 3-Person Teams Have Unique Requirements
 
@@ -33,10 +33,10 @@ Each cofounder needs a baseline setup that delivers professional video quality w
 
 For individual home offices, a dedicated webcam outperforms built-in laptop cameras significantly. The key specifications to evaluate:
 
-- **Resolution**: 1080p minimum, 4K preferred for future-proofing
-- **Field of view**: 65-78 degrees covers most home office setups
-- **Low-light performance**: Critical for evening meetings
-- **Mounting flexibility**: Ability to attach to monitors or stands
+- Resolution: 1080p minimum, 4K preferred for future-proofing
+- Field of view: 65-78 degrees covers most home office setups
+- Low-light performance: Critical for evening meetings
+- Mounting flexibility: Ability to attach to monitors or stands
 
 Many modern webcams include Windows Hello support, which integrates with system login for added convenience. Place cameras at eye level to maintain natural eye contact during calls.
 
@@ -185,19 +185,12 @@ Establish consistent recording practices for important discussions:
 
 For a new three-person cofounder team, follow this implementation sequence:
 
-1. **Individual workspace setup**: Each cofounder configures their home office with adequate lighting, camera, and microphone
-2. **Platform selection**: Choose one primary platform based on existing tool ecosystem
-3. **Account configuration**: Set up shared calendars, contacts, and organizational settings
-4. **Network optimization**: Ensure each location has stable connectivity with appropriate QoS
-5. **Automation implementation**: Add meeting creation shortcuts and recording workflows
-6. **Testing and refinement**: Conduct test calls with screen sharing and recording to verify quality
-
-## Summary
-
-The optimal video conferencing setup for a remote team of 3 cofounders prioritizes individual workspace quality, reliable platform selection, and workflow automation. Each cofounder needs a dedicated setup with proper lighting, good audio, and stable connectivity. The shared platform should support quick ad-hoc calls alongside scheduled meetings. Automation reduces friction in daily operations and ensures consistent meeting documentation.
-
-The specific hardware matters less than consistent quality across all participants. A well-lit workspace with decent audio outperforms expensive equipment in poorly treated rooms.
-
+1. Individual workspace setup: Each cofounder configures their home office with adequate lighting, camera, and microphone
+2. Platform selection: Choose one primary platform based on existing tool ecosystem
+3. Account configuration: Set up shared calendars, contacts, and organizational settings
+4. Network optimization: Ensure each location has stable connectivity with appropriate QoS
+5. Automation implementation: Add meeting creation shortcuts and recording workflows
+6. Testing and refinement: Conduct test calls with screen sharing and recording to verify quality
 
 ## Related Reading
 

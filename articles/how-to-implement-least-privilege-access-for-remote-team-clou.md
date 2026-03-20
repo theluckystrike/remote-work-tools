@@ -27,7 +27,7 @@ The traditional approach of VPN-based access to a corporate network no longer se
 
 ## Identity-Based Access with Cloud IAM
 
-Major cloud providers offer robust IAM systems that form the foundation of least privilege implementation. Rather than granting access to entire services, you define specific permissions for individual resources.
+Major cloud providers offer IAM systems that form the foundation of least privilege implementation. Rather than granting access to entire services, you define specific permissions for individual resources.
 
 ### AWS IAM Implementation
 
@@ -285,15 +285,6 @@ def find_unused_roles(days_threshold=90):
 ```
 
 Schedule this audit to run weekly and generate reports for security review.
-
-## Conclusion
-
-Implementing least privilege for remote teams combines identity management, temporary credentials, network controls, and ongoing audits. Start by mapping current access patterns, then systematically reduce permissions to only what each role requires.
-
-The initial effort pays dividends in reduced attack surface and easier compliance demonstration. Remote teams can remain productive while security boundaries are enforced programmatically rather than through restrictive policies that encourage workarounds.
-
----
-
 
 ## Related Reading
 

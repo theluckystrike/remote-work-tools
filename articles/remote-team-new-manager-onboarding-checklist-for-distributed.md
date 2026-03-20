@@ -29,7 +29,7 @@ Finally, notify the broader organization about the promotion. Send a message int
 
 The initial week focuses on relationship building and context gathering.
 
-**Day one** should begin with a one-on-one meeting between the new manager and their direct reports. These initial conversations should be purely relational—understanding the employee's career goals, preferred work styles, and concerns about the transition. In remote settings, these personal connections require more intentional effort than in co-located environments.
+**Day one** should begin with an one-on-one meeting between the new manager and their direct reports. These initial conversations should be purely relational—understanding the employee's career goals, preferred work styles, and concerns about the transition. In remote settings, these personal connections require more intentional effort than in co-located environments.
 
 **Days two through four** should involve shadowing and learning. Have the new manager attend team meetings, one-on-ones with other team leaders, and cross-functional syncs. Encourage them to take notes on processes, decision-making patterns, and communication norms. In remote teams, observation becomes even more critical since informal learning opportunities are limited.
 
@@ -41,7 +41,7 @@ The first month shifts focus to developing the specific skills remote managers n
 
 **Weekly one-on-ones** with direct reports should become a non-negotiable ritual. In distributed teams, these meetings serve as the primary relationship-building mechanism. Each should include three components: personal check-in, work progress review, and forward-looking discussion. Without the ability to observe body language or catch someone in the hallway, remote managers rely heavily on these structured conversations to stay connected.
 
-**Management training** should begin immediately. This might include company-provided resources, external courses, or mentorship from experienced managers. Topics particularly critical for remote managers include giving feedback virtually, recognizing burnout signs in distributed team members, and facilitating effective meetings across time zones.
+**Management training** should begin immediately. This might include company-provided resources, external courses, or mentorship from experienced managers. Topics particularly critical for remote managers include giving feedback , recognizing burnout signs in distributed team members, and helping effective meetings across time zones.
 
 **Documentation creation** should be a priority. Ask the new manager to document their team's processes, decision-making criteria, and workflow as they learn them. This serves dual purposes—it accelerates the new manager's learning and builds organizational knowledge that benefits everyone.
 
@@ -55,7 +55,7 @@ The first quarter is about the new manager finding their authentic leadership vo
 
 **Performance feedback** practice should begin early. New managers often struggle with giving feedback, especially in remote settings where tone can be easily misinterpreted. Create low-stakes opportunities for them to practice giving feedback, perhaps starting with positive feedback before moving to constructive criticism.
 
-**Team norms establishment** should be a collaborative process. The new manager shouldn't impose their preferences but should facilitate a conversation about how the team wants to work together. This might cover response time expectations for messages, meeting norms, how decisions get made, and how disagreements get resolved.
+**Team norms establishment** should be a collaborative process. The new manager shouldn't impose their preferences but should help a conversation about how the team wants to work together. This might cover response time expectations for messages, meeting norms, how decisions get made, and how disagreements get resolved.
 
 **Cross-team relationships** need cultivation. Help the new manager identify key stakeholders outside their team and schedule intentional relationship-building conversations. In distributed companies, these relationships often require more effort since casual hallway conversations don't happen naturally.
 
@@ -67,7 +67,7 @@ Successful onboarding extends beyond the first quarter with continued support st
 
 **Quarterly leadership reviews** provide formal feedback on management effectiveness. These should include 360-degree feedback from direct reports, peers, and leadership. Use this feedback to identify growth areas and celebrate successes.
 
-**Access to resources** should be ongoing. Whether through a management library, coach, or mentorship program, new managers need continued access to development opportunities. The transition from IC to manager is permanent learning curve, not a one-time event.
+**Access to resources** should be ongoing. Whether through a management library, coach, or mentorship program, new managers need continued access to development opportunities. The transition from IC to manager is permanent learning curve, not an one-time event.
 
 ## Common Pitfalls to Avoid
 

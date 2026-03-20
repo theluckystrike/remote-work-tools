@@ -151,15 +151,15 @@ Consider using digital signature platforms that timestamp and verify identity:
 
 For developers building home camera systems, prioritize these privacy-first patterns:
 
-1. **Local processing**: Run person detection and motion alerts on local hardware (e.g., Home Assistant with Coral TPU) rather than sending video to cloud ML services.
+1. Local processing: Run person detection and motion alerts on local hardware (e.g., Home Assistant with Coral TPU) rather than sending video to cloud ML services.
 
-2. **Zone masking**: Configure camera zones to exclude areas where caregivers expect privacy, such as changing areas or bathrooms.
+2. Zone masking: Configure camera zones to exclude areas where caregivers expect privacy, such as changing areas or bathrooms.
 
-3. **Indicator lights**: Use cameras with visible recording indicators that cannot be disabled remotely.
+3. Indicator lights: Use cameras with visible recording indicators that cannot be disabled remotely.
 
-4. **No audio by default**: Enable audio only with explicit written consent, as audio recordings carry stricter legal requirements.
+4. No audio by default: Enable audio only with explicit written consent, as audio recordings carry stricter legal requirements.
 
-5. **Audit logging**: Maintain logs of who accessed camera feeds and when:
+5. Audit logging: Maintain logs of who accessed camera feeds and when:
 
 ```yaml
 # audit_logging.yaml

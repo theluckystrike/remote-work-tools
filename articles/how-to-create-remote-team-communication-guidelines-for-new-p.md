@@ -215,16 +215,9 @@ communication:
 
 Communication guidelines for new projects should include a built-in review cadence. Schedule explicit discussions to adjust norms as the project matures.
 
-**Week 1**: Confirm guidelines work, make quick adjustments
-**End of Month 1**: Full review, incorporate lessons learned
-**Quarterly**: Compare with other projects, share what works
-
-## Conclusion
-
-The best communication guidelines are those your team actually follows. Start with the core components—channel selection, async writing standards, meeting protocols, time zone rules, and documentation requirements—then adapt based on what works for your specific situation.
-
-Effective remote team communication isn't about finding the perfect tool or following every best practice. It's about making explicit choices, documenting them, and consistently revisiting them as your project evolves.
-
+Week 1: Confirm guidelines work, make quick adjustments
+End of Month 1: Full review, incorporate lessons learned
+Quarterly: Compare with other projects, share what works
 
 ## Related Reading
 

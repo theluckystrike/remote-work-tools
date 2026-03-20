@@ -26,7 +26,7 @@ The primary challenges include: currency conversion with accurate exchange rates
 
 ## Building the Data Model
 
-A robust commission system starts with a properly normalized database schema. The following PostgreSQL schema handles the core entities:
+A commission system starts with a properly normalized database schema. The following PostgreSQL schema handles the core entities:
 
 ```sql
 CREATE TABLE sales_reps (
@@ -314,13 +314,6 @@ When building commission tracking for distributed teams, prioritize transparency
 Timezone handling requires careful consideration. Store all timestamps in UTC but display them in the rep's local timezone. When generating reports for specific regions, filter by business hours in that timezone to avoid confusion about which day a deal closed.
 
 Security is critical given the financial sensitivity. Implement role-based access control so reps only see their own commissions while finance and admin roles access organizational data. Log all changes to commission records for compliance purposes.
-
-## Conclusion
-
-Building a commission tracking system for distributed sales operations requires thoughtful handling of currency, timezone, and regional compensation rules. The data model and API approach outlined here provides a foundation that scales across regions while maintaining transparency for sales teams. Focus on real-time calculation visibility, automated payout workflows, and comprehensive audit trails to support both rep satisfaction and financial compliance.
-
-The key is treating commission tracking as a first-class system rather than an afterthought in your sales infrastructure. With proper API integration and webhook support, you can achieve near-real-time commission visibility that keeps your distributed sales team motivated and informed.
-
 
 ## Related Reading
 

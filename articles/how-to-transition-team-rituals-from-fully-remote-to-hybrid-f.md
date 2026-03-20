@@ -94,9 +94,9 @@ Key principle: equal weight to contributions regardless of whether someone is re
 
 Sprint planning often happens synchronously in remote teams. For hybrid teams, consider moving more planning work async:
 
-- **Backlog grooming**: Do async through your project management tool
-- **Estimating**: Use Planning Poker tools that work equally for remote and in-office participants
-- **Sprint commitment**: A shorter synchronous meeting to discuss blockers and dependencies
+- Backlog grooming: Do async through your project management tool
+- Estimating: Use Planning Poker tools that work equally for remote and in-office participants
+- Sprint commitment: A shorter synchronous meeting to discuss blockers and dependencies
 
 ```yaml
 # Example: Hybrid sprint planning agenda
@@ -125,9 +125,9 @@ Fully remote teams build connection through virtual coffee chats, game sessions,
 
 Address this with intentional hybrid social formats:
 
-- **Maintain virtual-first social events**: Keep game nights, coffee chats, and informal calls video-based even when some team members share physical space
-- **Create office-specific rituals**: Allow in-office days to include informal lunch gatherings or walking meetings
-- **Rotate the "remote" experience**: Occasionally have in-office members join from home to maintain empathy for remote colleagues
+- Maintain virtual-first social events: Keep game nights, coffee chats, and informal calls video-based even when some team members share physical space
+- Create office-specific rituals: Allow in-office days to include informal lunch gatherings or walking meetings
+- Rotate the "remote" experience: Occasionally have in-office members join from home to maintain empathy for remote colleagues
 
 ```
 Example: Weekly social schedule for hybrid team
@@ -175,11 +175,11 @@ Create a documentation habit:
 
 Avoid changing everything at once. A phased approach reduces disruption:
 
-**Week 1-2**: Audit existing rituals and communicate planned changes
-**Week 3-4**: Pilot hybrid standup format
-**Week 5-6**: Adapt one synchronous meeting (retrospective or planning)
-**Week 7-8**: Review and adjust social rituals
-**Ongoing**: Solicit feedback and iterate
+Week 1-2: Audit existing rituals and communicate planned changes
+Week 3-4: Pilot hybrid standup format
+Week 5-6: Adapt one synchronous meeting (retrospective or planning)
+Week 7-8: Review and adjust social rituals
+Ongoing: Solicit feedback and iterate
 
 ## Measuring Success
 
@@ -191,13 +191,6 @@ Track whether your hybrid rituals work through simple metrics:
 - Team sentiment in regular check-ins
 
 If remote participation drops or remote team members report feeling disconnected, revisit your hybrid meeting design immediately.
-
-## Conclusion
-
-Transitioning team rituals from fully remote to hybrid doesn't require abandoning what made remote work effective. Instead, it requires intentional adaptation—keeping async workflows where they excel while creating genuine connection for both remote and in-office participants. The goal remains the same: an inclusive team where everyone has equal opportunity to contribute, regardless of physical location.
-
-Start with audit, adapt incrementally, document everything, and keep measuring. Your team will find the hybrid rhythm that works for your specific context.
-
 
 ## Related Reading
 

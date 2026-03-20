@@ -15,9 +15,9 @@ voice-checked: true
 {% raw %}
 # Remote Team One on One Meeting Template for Engineering Managers with Direct Reports
 
-Engineering managers overseeing remote teams face a unique challenge: building genuine connection and providing meaningful guidance without the benefit of in-person interactions. A well-structured one-on-one meeting template becomes your primary tool for maintaining engagement, catching issues early, and helping your direct reports grow professionally.
+Engineering managers overseeing remote teams face an unique challenge: building genuine connection and providing meaningful guidance without the benefit of in-person interactions. A well-structured one-on-one meeting template becomes your primary tool for maintaining engagement, catching issues early, and helping your direct reports grow professionally.
 
-This guide provides a comprehensive template you can implement immediately, along with the reasoning behind each section and practical code snippets for automating meeting prep.
+This guide provides a template you can implement immediately, along with the reasoning behind each section and practical code snippets for automating meeting prep.
 
 ## The Core One-on-One Template Structure
 
@@ -166,7 +166,7 @@ This script generates a personalized check-in template by pulling your direct re
 
 ## Handling Different Experience Levels
 
-Your template should adapt based on who's sitting (virtually) across from you:
+Your template should adapt based on who's sitting () across from you:
 
 ### For Junior Engineers (0-2 years)
 
@@ -231,33 +231,33 @@ Set a weekly cadence where both parties write their sections asynchronously. Sch
 
 ## Common Pitfalls to Avoid
 
-**The status meeting trap**: If your one-on-ones feel like status updates, you're doing it wrong. Save status for standups or Slack updates. One-on-ones should be strategic, not operational.
+The status meeting trap: If your one-on-ones feel like status updates, you're doing it wrong. Save status for standups or Slack updates. One-on-ones should be strategic, not operational.
 
-**The always-scheduled trap**: Following the same agenda every week leads to autopilot. Rotate questions, focus on different themes each month, and leave room for unexpected topics.
+The always-scheduled trap: Following the same agenda every week leads to autopilot. Rotate questions, focus on different themes each month, and leave room for unexpected topics.
 
-**The manager-dominated conversation**: If you're talking more than 30% of the time, your direct report isn't getting value. Your role is to ask questions and listen.
+The manager-dominated conversation: If you're talking more than 30% of the time, your direct report isn't getting value. Your role is to ask questions and listen.
 
-**Skipping async prep**: Without the pre-check, you waste meeting time on basic updates. The 10 minutes spent on async prep saves 20 minutes of meeting time.
+Skipping async prep: Without the pre-check, you waste meeting time on basic updates. The 10 minutes spent on async prep saves 20 minutes of meeting time.
 
 ## Measuring One-on-One Effectiveness
 
 Track these signals to assess if your one-on-ones are working:
 
-- **Retention**: Are your direct reports staying on your team?
-- **Engagement**: Do they seem prepared and interested in meetings?
-- **Growth**: Are they progressing in skills and responsibilities?
-- **Feedback**: Do they give you honest feedback about your management?
+- Retention: Are your direct reports staying on your team?
+- Engagement: Do they seem prepared and interested in meetings?
+- Growth: Are they progressing in skills and responsibilities?
+- Feedback: Do they give you honest feedback about your management?
 
 If these metrics decline, your one-on-ones need adjustment.
 
 ## Implementation Checklist
 
-1. **Schedule consistently**: Same day/time each week, protected from other meetings
-2. **Send async prep 24 hours before**: Use the template above
-3. **Start with wins**: Brief celebration builds positive momentum
-4. **End with open space**: Leave 5-10 minutes for unexpected topics
-5. **Follow up in writing**: Send a brief summary of action items after each call
-6. **Iterate quarterly**: Review and adjust your approach based on feedback
+1. Schedule consistently: Same day/time each week, protected from other meetings
+2. Send async prep 24 hours before: Use the template above
+3. Start with wins: Brief celebration builds positive momentum
+4. End with open space: Leave 5-10 minutes for unexpected topics
+5. Follow up in writing: Send a brief summary of action items after each call
+6. Iterate quarterly: Review and adjust your approach based on feedback
 
 A well-executed one-on-one template transforms a simple meeting into your most powerful management tool. The consistency builds trust over time, and the structure ensures nothing important falls through the cracks.
 

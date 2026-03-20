@@ -23,7 +23,7 @@ Remote agencies that skip formal offboarding create risk. Without documentation,
 
 ## Pre-Offboarding Phase: Gather Information
 
-Before initiating the offboarding process, compile a comprehensive inventory of the client's assets, access credentials, and project history.
+Before initiating the offboarding process, compile an inventory of the client's assets, access credentials, and project history.
 
 ### Asset Inventory Checklist
 
@@ -181,13 +181,13 @@ Open floor for questions. Anticipate concerns about maintaining systems, handlin
 
 Define what support, if any, you provide after the official offboarding date. Common options include:
 
-**Paid Support Retainer**: Client pays ongoing retainer for defined support hours per month. Clearly document response times and scope.
+Paid Support Retainer: Client pays ongoing retainer for defined support hours per month. Clearly document response times and scope.
 
-**Emergency-Only Contact**: Provide a single point of contact for critical issues only. Define what constitutes "critical" to prevent abuse.
+Emergency-Only Contact: Provide a single point of contact for critical issues only. Define what constitutes "critical" to prevent abuse.
 
-**Transition Period**: Offer 30 days of limited support to handle questions arising from the handoff. This is often included as professional courtesy.
+Transition Period: Offer 30 days of limited support to handle questions arising from the handoff. This is often included as professional courtesy.
 
-**No Ongoing Support**: Complete transition with no further obligations. Ensure handoff documentation is comprehensive enough to stand alone.
+No Ongoing Support: Complete transition with no further obligations. Ensure handoff documentation is enough to stand alone.
 
 Document the support arrangement in writing before offboarding completes.
 
@@ -195,24 +195,15 @@ Document the support arrangement in writing before offboarding completes.
 
 Avoid these frequent mistakes that plague remote agency offboarding:
 
-**Incomplete Access Transfer**: Clients receive documentation but lack actual access to accounts. Verify credentials work before the offboarding date.
+Incomplete Access Transfer: Clients receive documentation but lack actual access to accounts. Verify credentials work before the offboarding date.
 
-**Assuming Client Technical Knowledge**: Your team understands the system intimately—clients may not. Document everything at an appropriate level.
+Assuming Client Technical Knowledge: Your team understands the system intimately—clients may not. Document everything at an appropriate level.
 
-**Rushing the Process**: Compress timelines to accommodate client requests create gaps in knowledge transfer. Stick to minimum timelines.
+Rushing the Process: Compress timelines to accommodate client requests create gaps in knowledge transfer. Stick to minimum timelines.
 
-**No Rollback Plan**: If the client makes changes and systems break, they need a path to recover. Always provide rollback procedures.
+No Rollback Plan: If the client makes changes and systems break, they need a path to recover. Always provide rollback procedures.
 
-**Forgetting Recurring Costs**: Remind clients about subscriptions, renewals, and ongoing costs they may not have been aware were being managed by your team.
-
-## Conclusion
-
-Remote agency client offboarding requires intentional structure. By building a comprehensive handoff package—asset inventories, technical documentation, operational runbooks, and clear communication—you protect your agency while respecting your client's operational needs.
-
-The investment in thorough offboarding pays dividends: fewer post-engagement support requests, stronger professional relationships, and a repeatable process your team can execute consistently.
-
-Start building your offboarding templates now. When client engagements end, you'll have ready-made frameworks that ensure professional transitions every time.
-
+Forgetting Recurring Costs: Remind clients about subscriptions, renewals, and ongoing costs they may not have been aware were being managed by your team.
 
 ## Related Reading
 

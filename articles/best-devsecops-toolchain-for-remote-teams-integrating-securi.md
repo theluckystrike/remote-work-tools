@@ -120,7 +120,7 @@ updates:
       interval: "weekly"
 ```
 
-For more comprehensive scanning, integrate OWASP Dependency-Check into your pipeline:
+For more scanning, integrate OWASP Dependency-Check into your pipeline:
 
 ```yaml
 - name: Dependency Check

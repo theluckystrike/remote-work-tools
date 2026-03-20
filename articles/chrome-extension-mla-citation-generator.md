@@ -46,7 +46,7 @@ This approach works well for news articles, blog posts, and content-rich website
 
 ### Metadata Extraction
 
-Schema.org metadata provides a more reliable data source. Many modern websites implement structured data for SEO purposes, which extensions can leverage:
+Schema.org metadata provides a more reliable data source. Many modern websites implement structured data for SEO purposes, which extensions can use:
 
 ```javascript
 function extractFromSchema() {
@@ -114,13 +114,13 @@ This function produces citations that match MLA 9th edition format requirements,
 
 Chrome extension MLA citation generators prove valuable across several research scenarios:
 
-**Literature Reviews**: When gathering sources for academic papers, quickly generating citations as you discover sources keeps your research organized. Extensions that save citations to integrated libraries or reference managers (like Zotero, Mendeley, or BibTeX) enhance this workflow further.
+Literature Reviews: When gathering sources for academic papers, quickly generating citations as you discover sources keeps your research organized. Extensions that save citations to integrated libraries or reference managers (like Zotero, Mendeley, or BibTeX) enhance this workflow further.
 
-**Source Verification**: Generating citations helps verify that you have accurate source information before committing to using a source in your work. A properly formatted citation confirms you've captured all necessary metadata.
+Source Verification: Generating citations helps verify that you have accurate source information before committing to using a source in your work. A properly formatted citation confirms you've captured all necessary metadata.
 
-**Teaching and Instruction**: Instructors can demonstrate citation best practices using these tools, showing students how to capture complete source information during research sessions.
+Teaching and Instruction: Instructors can demonstrate citation best practices using these tools, showing students how to capture complete source information during research sessions.
 
-**Freelance Writing and Content Creation**: Content creators who cite sources regularly—journalists, technical writers, bloggers—benefit from consistent, accurate citations without manual formatting overhead.
+Freelance Writing and Content Creation: Content creators who cite sources regularly—journalists, technical writers, bloggers—benefit from consistent, accurate citations without manual formatting overhead.
 
 ## Building a Custom Citation Generator
 
@@ -147,7 +147,7 @@ The content script extracts page metadata, the popup UI provides formatting opti
 
 Consider adding features like:
 - Multiple citation format support (APA, Chicago, Harvard)
-- One-click copy to clipboard functionality  
+- One-click copy to clipboard functionality 
 - Export to reference managers via BibTeX or CSL
 - Citation history storage using chrome.storage
 

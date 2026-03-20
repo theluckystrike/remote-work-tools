@@ -221,11 +221,6 @@ For most remote teams, a minimal setup includes:
 
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
 
-## Conclusion
-
-Start with simple data collection from your existing tools, build basic aggregations, and iterate as your team's measurement needs evolve. The goal isn't to maximize velocity numbers—it's to understand your team's actual capacity and identify when something slows work down.
-
-
 ## Related Reading
 
 - [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)

@@ -88,7 +88,7 @@ For developers and tech workers, reliable internet is non-negotiable. Barbados d
 **Co-working spaces:** Several co-working options cater to the remote worker community:
 
 - **The Bridge** in Bridgetown: $250 USD/month for hot desk
-- **UWH (Unplugged Work Hub)**: $300 USD/month, includes meeting room access
+- UWH (Unplugged Work Hub): $300 USD/month, includes meeting room access
 - **Coastal Co-work** in St. James: Beachfront location, $350 USD/month
 
 Before committing to a long-term rental, test internet speeds at different times of day. Evening speeds can differ significantly from midday due to residential usage patterns.
@@ -103,7 +103,7 @@ Based on feedback from developers who have completed the Welcome Stamp, here are
 
 **Transportation:** Barbados drives on the left side of the road, a legacy of British colonization. Rental cars are readily available but expect higher prices than in the US—compact cars run $40-60 USD daily. Public buses (public transport) are affordable at $2 USD per trip but operate on less predictable schedules.
 
-** timezone advantages:** Barbados sits in the Eastern Caribbean Time Zone (UTC-4), aligning with US Eastern Time during standard months. This makes it convenient for developers working with US-based teams or clients. However, note that Barbados does not observe daylight saving time, so there is a one-hour difference during US DST months.
+** timezone advantages:** Barbados sits in the Eastern Caribbean Time Zone (UTC-4), aligning with US Eastern Time during standard months. This makes it convenient for developers working with US-based teams or clients. However, note that Barbados does not observe daylight saving time, so there is an one-hour difference during US DST months.
 
 ## Extending Your Stay
 
@@ -113,7 +113,7 @@ After 12 consecutive months of residence, you may be eligible to apply for long-
 
 ## Is the Barbados Welcome Stamp Right for You?
 
-The Barbados Welcome Stamp suits developers who meet the income threshold, want a stable base in a English-speaking Caribbean nation, and value the tax advantages of a territorial tax system. It is less ideal for those seeking the lowest cost of living or those who need to frequently travel to multiple countries (as you'll need to maintain valid re-entry documentation).
+The Barbados Welcome Stamp suits developers who meet the income threshold, want a stable base in an English-speaking Caribbean nation, and value the tax advantages of a territorial tax system. It is less ideal for those seeking the lowest cost of living or those who need to frequently travel to multiple countries (as you'll need to maintain valid re-entry documentation).
 
 For developers who can work remotely and want a high quality of life with reliable infrastructure, excellent weather, and a professional expatriate community, the Welcome Stamp remains a strong choice in 2026.
 

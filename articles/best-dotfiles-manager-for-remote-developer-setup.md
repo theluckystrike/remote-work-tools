@@ -209,7 +209,7 @@ For most remote developers, the choice depends on complexity tolerance and speci
 
 - **Chezmoi** appeals to developers comfortable with templating and wanting granular control over machine-specific configurations.
 
-- **Dotbot** excels when you need comprehensive automation beyond simple configuration synchronization.
+- **Dotbot** excels when you need automation beyond simple configuration synchronization.
 
 Start with Stow if you're new to dotfiles management—its simplicity lets you understand the core concepts before adding complexity. As your needs evolve, you can migrate to more feature-rich solutions without losing your existing configuration.
 

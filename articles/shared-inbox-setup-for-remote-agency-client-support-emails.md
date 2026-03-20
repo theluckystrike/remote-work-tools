@@ -27,10 +27,10 @@ This guide covers practical approaches to setting up shared inboxes specifically
 
 Traditional shared email accounts create several issues for remote teams:
 
-- **Accountability gaps**: Everyone sees everything, but nobody owns specific tickets
-- **Response chaos**: Multiple team members reply to the same email, creating confusing threads
-- **No visibility**: Hard to track SLA compliance or identify bottlenecks
-- **Context loss**: Email threads get forwarded between team members, losing history
+- Accountability gaps: Everyone sees everything, but nobody owns specific tickets
+- Response chaos: Multiple team members reply to the same email, creating confusing threads
+- No visibility: Hard to track SLA compliance or identify bottlenecks
+- Context loss: Email threads get forwarded between team members, losing history
 
 A proper shared inbox solution addresses these by providing ticket ownership, audit trails, and workflow automation.
 

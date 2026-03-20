@@ -134,7 +134,7 @@ Mermaid requires writing code rather than drawing, which appeals to developers b
 
 ## Figma: Design-to-Architecture Workflow
 
-Figma, primarily a UI design tool, has gained adoption among architects who need polished, presentation-ready system diagrams. The recent FigJam addition provides whiteboarding features alongside the core design capabilities.
+Figma, primarily an UI design tool, has gained adoption among architects who need polished, presentation-ready system diagrams. The recent FigJam addition provides whiteboarding features alongside the core design capabilities.
 
 ### Strengths for Architecture
 
@@ -173,9 +173,9 @@ Choose based on your team's primary workflow:
 
 Regardless of tool choice, establish a session structure:
 
-1. **Pre-work**: Share the problem statement and context 24 hours before the session using Google Docs or Notion
-2. **Synchronous session**: Use the whiteboard for collaborative sketching with one person driving and others contributing
-3. **Async follow-up**: Export the diagram and post to your documentation for team members in different time zones to review
+1. Pre-work: Share the problem statement and context 24 hours before the session using Google Docs or Notion
+2. Synchronous session: Use the whiteboard for collaborative sketching with one person driving and others contributing
+3. Async follow-up: Export the diagram and post to your documentation for team members in different time zones to review
 
 Document decisions alongside diagrams. Connect architecture choices to ADRs (Architecture Decision Records) so future team members understand the reasoning behind each design element.
 

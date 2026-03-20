@@ -142,7 +142,7 @@ Review these metrics quarterly and adjust your approach. Documentation culture i
 
 ## Common Pitfalls to Avoid
 
-**Perfectionism** kills documentation. Don't require every doc to be comprehensive before publishing. A good doc that exists beats a perfect doc that never gets written. Encourage iterative improvements.
+**Perfectionism** kills documentation. Don't require every doc to be before publishing. A good doc that exists beats a perfect doc that never gets written. Encourage iterative improvements.
 
 **Documentation as gatekeeping** backfires. If documentation becomes a barrier to getting work done, people will bypass it. Keep docs lightweight and accessible.
 

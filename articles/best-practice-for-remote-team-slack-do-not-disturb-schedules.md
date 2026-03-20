@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Best Practice for Remote Team Slack Do Not Disturb Schedules Respecting Time Zones
 
-Remote teams spanning multiple time zones face a unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND) feature, when configured thoughtfully, becomes a powerful tool for respecting personal boundaries while maintaining asynchronous collaboration. This guide covers practical strategies for implementing DND schedules that work across time zones.
+Remote teams spanning multiple time zones face an unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND) feature, when configured thoughtfully, becomes a powerful tool for respecting personal boundaries while maintaining asynchronous collaboration. This guide covers practical strategies for implementing DND schedules that work across time zones.
 
 ## Understanding Slack DND for Remote Teams
 
@@ -110,9 +110,9 @@ This script calculates appropriate snooze durations based on each team member's 
 
 Establishing team norms around DND prevents misunderstandings. Consider implementing these policies:
 
-**Core Hours Policy**: Define 2-3 hours of guaranteed overlap when all team members should be available. Outside these hours, DND becomes the default expectation. Document these hours in your team wiki or Slack channel topic.
+Core Hours Policy: Define 2-3 hours of guaranteed overlap when all team members should be available. Outside these hours, DND becomes the default expectation. Document these hours in your team wiki or Slack channel topic.
 
-**Status-Based Communication**: Encourage team members to set Slack status indicators reflecting availability. Use emojis like 🌙 for DND, 🟢 for available, or 🔴 for deep work:
+Status-Based Communication: Encourage team members to set Slack status indicators reflecting availability. Use emojis like 🌙 for DND, 🟢 for available, or 🔴 for deep work:
 
 ```
 /status 🔴 Deep work until 2pm
@@ -120,7 +120,7 @@ Establishing team norms around DND prevents misunderstandings. Consider implemen
 /status 🌙 DND - responding tomorrow
 ```
 
-**Respecting Night Hours**: A practical rule—avoid sending messages to colleagues during their local night hours (10pm-6am) unless urgent. Use Slack's scheduling feature to deliver messages during recipients' business hours.
+Respecting Night Hours: A practical rule—avoid sending messages to colleagues during their local night hours (10pm-6am) unless urgent. Use Slack's scheduling feature to deliver messages during recipients' business hours.
 
 ## Using Slack Workflows for DND Reminders
 
@@ -136,9 +136,9 @@ This approach reduces cognitive load—team members don't need to remember to en
 
 Even with DND enabled, teams need protocols for genuine emergencies. Establish a clear definition of "urgent" and provide alternative communication channels:
 
-- **Dedicated emergency channel**: Create a separate Slack channel for critical issues
-- **Phone calls for P0 issues**: Define what constitutes a wake-up-worthy situation
-- **Override mechanism**: Allow DND bypass for specific users or roles
+- Dedicated emergency channel: Create a separate Slack channel for critical issues
+- Phone calls for P0 issues: Define what constitutes a wake-up-worthy situation
+- Override mechanism: Allow DND bypass for specific users or roles
 
 Document your emergency protocol in a pinned message or team handbook. Review and refine it quarterly.
 
@@ -151,15 +151,6 @@ Track whether your DND policies actually improve work-life balance. Consider mon
 - Burnout indicators like after-hours message volume
 
 Adjust schedules based on feedback. A policy that works for a five-person startup may need modification as you scale.
-
-## Summary
-
-Effective Slack DND management for distributed teams requires a combination of individual configuration, team-wide policies, and selective automation. Start with clear core hours that respect time zone overlaps, establish norms around after-hours communication, and provide automation tools that reduce manual burden. The goal isn't to limit communication—it's to ensure asynchronous work happens on terms that protect personal time while maintaining team cohesion.
-
-Remember: DND works best when everyone commits to respecting boundaries. Lead by example, and your team will follow.
-
----
-
 
 ## Related Reading
 

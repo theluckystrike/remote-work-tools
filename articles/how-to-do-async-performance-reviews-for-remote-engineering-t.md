@@ -128,7 +128,7 @@ A typical async review cycle spans two weeks. Here's how to structure it:
 
 ### Week 1: Collection Phase
 
-**Days 1-2**: Manager posts review templates and announces timeline in team channel
+Days 1-2: Manager posts review templates and announces timeline in team channel
 
 ```markdown
 # Q1 Performance Review Cycle
@@ -143,17 +143,17 @@ A typical async review cycle spans two weeks. Here's how to structure it:
 Copy the template from [link], fill it out, and tag me when complete.
 ```
 
-**Days 3-5**: Engineers complete self-reviews. Simultaneously, trigger peer feedback requests.
+Days 3-5: Engineers complete self-reviews. Simultaneously, trigger peer feedback requests.
 
-**Days 6-7**: Peers provide feedback. Managers can begin reading self-reviews.
+Days 6-7: Peers provide feedback. Managers can begin reading self-reviews.
 
 ### Week 2: Synthesis Phase
 
-**Days 8-10**: Manager writes their review, incorporating self-assessment and peer feedback
+Days 8-10: Manager writes their review, incorporating self-assessment and peer feedback
 
-**Days 11-12**: Employee receives manager review, has time to read and reflect
+Days 11-12: Employee receives manager review, has time to read and reflect
 
-**Days 13-14**: Optional synchronous follow-up for clarifications, goal-setting discussion
+Days 13-14: Optional synchronous follow-up for clarifications, goal-setting discussion
 
 ## Handling Difficult Conversations
 
@@ -202,11 +202,11 @@ Survey engineers after each cycle:
 
 ## Best Practices Summary
 
-- **Start early**: Give two weeks minimum for each cycle
-- **Be specific**: Questions about concrete achievements beat generic "how are you doing"
-- **Require examples**: Feedback without specifics isn't actionable
-- **Automate wisely**: Use reminders but preserve human connection
-- **Follow up**: Async works for initial reviews; sync for complex discussions
+- Start early: Give two weeks minimum for each cycle
+- Be specific: Questions about concrete achievements beat generic "how are you doing"
+- Require examples: Feedback without specifics isn't actionable
+- Automate wisely: Use reminders but preserve human connection
+- Follow up: Async works for initial reviews; sync for complex discussions
 
 
 ## Related Reading

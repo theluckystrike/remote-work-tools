@@ -130,9 +130,9 @@ Every 20 minutes, look away from your screen for 20 seconds, and move your wrist
 
 Perform these stretches during your breaks:
 
-1. **Wrist circles**: Rotate your wrists clockwise 10 times, then counterclockwise 10 times.
-2. **Prayer stretch**: Press your palms together in front of your chest, fingers pointing up. Lower your hands until you feel a stretch in your wrists.
-3. **Wrist flexor stretch**: Extend your arm with palm up, use your other hand to gently pull your fingers back toward you.
+1. Wrist circles: Rotate your wrists clockwise 10 times, then counterclockwise 10 times.
+2. Prayer stretch: Press your palms together in front of your chest, fingers pointing up. Lower your hands until you feel a stretch in your wrists.
+3. Wrist flexor stretch: Extend your arm with palm up, use your other hand to gently pull your fingers back toward you.
 
 ### Take Real Breaks
 

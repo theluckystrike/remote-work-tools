@@ -16,7 +16,7 @@ score: 9
 {% raw %}
 # How to Create Remote Team Architecture Decision Record Template for Tracking Technical Choices
 
-Remote engineering teams face a unique challenge: capturing the reasoning behind technical decisions when team members span multiple time zones and communicate asynchronously. Without a structured approach, technical choices become tribal knowledge—understood by the person who made them but lost on everyone else. Architecture Decision Records (ADRs) solve this problem by providing a standardized format for documenting why decisions were made, what alternatives were considered, and what tradeoffs were accepted.
+Remote engineering teams face an unique challenge: capturing the reasoning behind technical decisions when team members span multiple time zones and communicate asynchronously. Without a structured approach, technical choices become tribal knowledge—understood by the person who made them but lost on everyone else. Architecture Decision Records (ADRs) solve this problem by providing a standardized format for documenting why decisions were made, what alternatives were considered, and what tradeoffs were accepted.
 
 This guide shows you how to create an effective ADR template specifically designed for remote team workflows, with practical examples you can adapt to your organization's needs.
 
@@ -24,17 +24,17 @@ This guide shows you how to create an effective ADR template specifically design
 
 In co-located teams, architectural decisions get discussed in real-time. Someone asks a question in the office, three engineers debate it at a whiteboard, and the decision gets implemented. Remote teams lack these spontaneous conversations. When a developer in Tokyo makes a database choice without documenting the reasoning, the developer in Berlin six months later faces the same decision from scratch—or worse, undoes the original decision because the context is missing.
 
-An ADR template standardizes how your team captures these decisions. Each record becomes a artifact that lives with your codebase, searchable by future team members who need to understand why the system works the way it does.
+An ADR template standardizes how your team captures these decisions. Each record becomes an artifact that lives with your codebase, searchable by future team members who need to understand why the system works the way it does.
 
 ## Core Components of an Effective ADR Template
 
 A practical ADR template for remote teams includes these sections:
 
-- **Title and metadata**: Unique identifier, date, authors, status
-- **Context**: The situation that prompted the decision
-- **Decision**: What was actually decided
-- **Consequences**: Tradeoffs, positive and negative outcomes
-- **Alternatives considered**: Options that were rejected and why
+- Title and metadata: Unique identifier, date, authors, status
+- Context: The situation that prompted the decision
+- Decision: What was actually decided
+- Consequences: Tradeoffs, positive and negative outcomes
+- Alternatives considered: Options that were rejected and why
 
 Here is a YAML-based template you can use directly:
 

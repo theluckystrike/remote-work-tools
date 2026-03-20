@@ -202,11 +202,6 @@ The most effective response time strategy is reliability. When you commit to res
 
 If circumstances change—travel, illness, heavy workload—communicate proactively. A quick message like "Swamped today, may take 24 hours for PR reviews" is far better than leaving teammates guessing.
 
-## Final Thoughts
-
-Document your availability, set appropriate status indicators, and communicate your response time commitments to your team. Adjust based on feedback and team needs, but never sacrifice the ability to do focused work for the sake of appearing responsive.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

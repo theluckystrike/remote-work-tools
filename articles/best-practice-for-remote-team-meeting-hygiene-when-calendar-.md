@@ -24,10 +24,10 @@ Calendar bloat occurs when the number of meetings grows faster than the team siz
 
 The problem compounds because each new team member brings their own meeting culture. Without intentional hygiene practices, you'll encounter:
 
-- **Double-booked chaos**: Five people in three meetings covering the same topic
-- **Meeting fatigue**: Video call exhaustion from back-to-back syncs
-- **Knowledge silos**: Decisions made in ad-hoc calls without documentation
-- **Time zone friction**: Overlapping meeting slots that squeeze async workflows
+- Double-booked chaos: Five people in three meetings covering the same topic
+- Meeting fatigue: Video call exhaustion from back-to-back syncs
+- Knowledge silos: Decisions made in ad-hoc calls without documentation
+- Time zone friction: Overlapping meeting slots that squeeze async workflows
 
 ## Establishing Meeting Standards Early
 
@@ -217,11 +217,11 @@ function suggestMeetingReschedule(meetingDate) {
 
 Default to async communication for most discussions:
 
-1. **RFCs and proposals**: Use GitHub Discussions or Notion
-2. **Design reviews**: Record Loom walkthroughs (max 5 minutes)
-3. **Status updates**: Async written updates in Slack or Teams
-4. **Retrospectives**: Use PostHaven or dedicated async tools
-5. **One-on-ones**: Combine async check-ins with shorter sync meetings
+1. RFCs and proposals: Use GitHub Discussions or Notion
+2. Design reviews: Record Loom walkthroughs (max 5 minutes)
+3. Status updates: Async written updates in Slack or Teams
+4. Retrospectives: Use PostHaven or dedicated async tools
+5. One-on-ones: Combine async check-ins with shorter sync meetings
 
 ## Measuring Meeting Hygiene Success
 
@@ -246,11 +246,3 @@ metrics:
     measurement: "Calendar audit"
 ```
 
-## Conclusion
-
-Calendar bloat during team scaling isn't inevitable. By establishing clear meeting standards, automating hygiene checks, and defaulting to async communication, you can maintain productivity while growing your remote team. Start with one change this week—perhaps implementing the meeting overlap detector—and build from there.
-
-The key is treating meeting hygiene as a process improvement exercise, not a scheduling crackdown. Your team will thank you with deeper focus time and fewer context-switching costs.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

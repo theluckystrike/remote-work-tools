@@ -83,9 +83,9 @@ esac
 
 Dedicate browsers or profiles to specific contexts. One approach:
 
-- **Work Profile**: Extensions blocked, no personal accounts logged in
-- **Research Profile**: Clean slate for investigating new topics
-- **Personal Profile**: For breaks and after hours
+- Work Profile: Extensions blocked, no personal accounts logged in
+- Research Profile: Clean slate for investigating new topics
+- Personal Profile: For breaks and after hours
 
 Install extensions like StayFocusd to limit time on non-work sites:
 
@@ -180,15 +180,6 @@ A distraction-free workspace requires maintenance. Weekly tasks include:
 - Checking that focus scripts still function after system updates
 
 Monthly, evaluate whether your setup still serves your work style. Remote work evolves; your space should adapt.
-
-## Conclusion
-
-Building a distraction-free workspace at home combines physical environment design, digital boundaries, and intentional scheduling. Start with one change—noise management, notification blocking, or a cleaner desk—and build from there. The goal isn't perfection but a space that supports sustained focus during the hours developers need to think deeply about complex problems.
-
-The best workspace is one you barely notice, allowing your attention to remain where it belongs: on the code you're writing and the problems you're solving.
-
----
-
 
 ## Related Reading
 

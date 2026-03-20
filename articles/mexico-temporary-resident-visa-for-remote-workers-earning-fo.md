@@ -127,17 +127,10 @@ After four years, you can apply for permanent residence if you meet the continuo
 
 ## Common Pitfalls to Avoid
 
-- **Insufficient income documentation**: Bank statements alone may not suffice. Include contracts or client letters confirming ongoing work relationships.
-- **Missing background checks**: The criminal background check must be apostilled in your home country before arriving at the consulate.
-- **Incorrect visa type**: Ensure you apply for the temporary resident visa, not the visitor visa with permit for paid activities, which has different requirements.
-- **Overstaying the initial period**: Once approved, you must enter Mexico within 60 days or your visa becomes void.
-
-## Conclusion
-
-The Mexico temporary resident visa provides a viable pathway for developers and remote workers to establish long-term residency while continuing to work for international clients. With monthly income requirements around $2,600 USD and a straightforward application process at Mexican consulates, this visa accommodates the realities of modern remote work.
-
-Success depends on thorough documentation and realistic expectations about the timeline. Start gathering your paperwork at least three months before your intended move date, and you'll find the process manageable even while continuing your regular work schedule.
-
+- Insufficient income documentation: Bank statements alone may not suffice. Include contracts or client letters confirming ongoing work relationships.
+- Missing background checks: The criminal background check must be apostilled in your home country before arriving at the consulate.
+- Incorrect visa type: Ensure you apply for the temporary resident visa, not the visitor visa with permit for paid activities, which has different requirements.
+- Overstaying the initial period: Once approved, you must enter Mexico within 60 days or your visa becomes void.
 
 ## Related Reading
 

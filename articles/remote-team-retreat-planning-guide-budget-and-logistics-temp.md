@@ -180,10 +180,10 @@ Always verify venue internet specifications in writing before booking. Request p
 
 Build in adequate time for the work your team actually does:
 
-- **Pair programming sessions**: Include pairing stations or breakout spaces
-- **Code reviews**: Schedule specific review sessions if needed
-- **Architecture discussions**: Whiteboard access or digital alternatives like Miro
-- **Documentation time**: Capture decisions in real-time
+- Pair programming sessions: Include pairing stations or breakout spaces
+- Code reviews: Schedule specific review sessions if needed
+- Architecture discussions: Whiteboard access or digital alternatives like Miro
+- Documentation time: Capture decisions in real-time
 
 ### Hybrid Considerations
 

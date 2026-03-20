@@ -27,10 +27,10 @@ A remote law firm of 10 attorneys and staff needs a collaboration stack that han
 
 Consider these technical requirements when evaluating platforms:
 
-- **Encryption standards**: Look for AES-256 encryption at rest and TLS 1.3 for transit
-- **Audit logging**: Track who accessed which documents and when
-- **Retention policies**: Automated rules to preserve client matter files per jurisdictional requirements
-- **API availability**: Ability to integrate with legal practice management software
+- Encryption standards: Look for AES-256 encryption at rest and TLS 1.3 for transit
+- Audit logging: Track who accessed which documents and when
+- Retention policies: Automated rules to preserve client matter files per jurisdictional requirements
+- API availability: Ability to integrate with legal practice management software
 
 ## Document Collaboration and Version Control
 
@@ -126,7 +126,7 @@ meeting_security:
 
 The glue holding a legal collaboration suite together is practice management software. This handles case organization, time tracking, billing, and client intake—functions that generic collaboration tools cannot replace.
 
-**Clio** remains the market leader for cloud-based practice management, with robust API access and over 200 integrations. Its API allows custom integrations:
+**Clio** remains the market leader for cloud-based practice management, with API access and over 200 integrations. Its API allows custom integrations:
 
 ```python
 # Clio Manage API - Creating a matter with custom fields
@@ -184,7 +184,7 @@ Based on the requirements above, here is a practical stack recommendation:
 | Client Portal | Clio (included) | — |
 | E-Signature | DocuSign Business | $100 |
 
-**Total monthly investment**: Approximately $945 before adding legal-specific tools like Westlaw or LexisNexis.
+Total monthly investment: Approximately $945 before adding legal-specific tools like Westlaw or LexisNexis.
 
 This stack prioritizes simplicity—each tool integrates with the others, training overhead is low, and the monthly cost per attorney under $100 is reasonable for legal technology.
 

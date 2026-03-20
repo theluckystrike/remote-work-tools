@@ -51,10 +51,10 @@ The TPM-only mode works well for most scenarios, automatically unlocking the dri
 
 For enterprise deployment, Group Policy provides centralized control. Configure these settings under Computer Configuration > Administrative Templates > Windows Components > BitLocker Drive Encryption:
 
-- **Choose drive encryption method and cipher strength**: Set to XTS-AES-256 for maximum security
-- **Configure BitLocker on fixed data drives**: Require encryption for all fixed drives
-- **Configure BitLocker on removable data drives**: Enable and allow users to encrypt USB drives
-- **Configure startup credentials**: Decide whether TPM-only, TPM+PIN, or TPM+USB key is required
+- Choose drive encryption method and cipher strength: Set to XTS-AES-256 for maximum security
+- Configure BitLocker on fixed data drives: Require encryption for all fixed drives
+- Configure BitLocker on removable data drives: Enable and allow users to encrypt USB drives
+- Configure startup credentials: Decide whether TPM-only, TPM+PIN, or TPM+USB key is required
 
 The following script deploys BitLocker to all eligible drives in a Windows environment:
 
@@ -204,10 +204,10 @@ Remote work creates recovery challenges that office-based IT teams rarely face. 
 
 Establish clear procedures for each scenario:
 
-1. **Forgotten user PIN/Password**: Users should contact IT with identity verification to receive their recovery key from escrow
-2. **Lost recovery key**: Requires identity verification and manager approval before IT provides institutional recovery
-3. **Hardware failure**: Encrypted drives can be sent to professional recovery services, but this is expensive and not always successful
-4. **Terminated employees**: Remote wipe capabilities through MDM should be available as a last resort
+1. Forgotten user PIN/Password: Users should contact IT with identity verification to receive their recovery key from escrow
+2. Lost recovery key: Requires identity verification and manager approval before IT provides institutional recovery
+3. Hardware failure: Encrypted drives can be sent to professional recovery services, but this is expensive and not always successful
+4. Terminated employees: Remote wipe capabilities through MDM should be available as a last resort
 
 Store recovery keys in a secure location separate from the encrypted data. For enterprise deployments, key escrow services like MBAM for Windows or MDM-stored keys for Mac provide secure recovery options.
 

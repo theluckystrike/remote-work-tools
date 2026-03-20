@@ -200,13 +200,13 @@ At this stage, you also need:
 
 ## Common Pitfalls to Avoid
 
-**The "Always Escalate" culture**: When teams lack confidence or trust, everything escalates to leadership. Monitor escalation rates and coach teams on appropriate self-resolution.
+The "Always Escalate" culture: When teams lack confidence or trust, everything escalates to leadership. Monitor escalation rates and coach teams on appropriate self-resolution.
 
-**Stale escalation contacts**: Update your escalation matrix quarterly. People change teams, roles, and responsibilities. A contact list from 6 months ago is dangerous.
+Stale escalation contacts: Update your escalation matrix quarterly. People change teams, roles, and responsibilities. A contact list from 6 months ago is dangerous.
 
-**No escalation criteria**: Telling someone to "escalate if blocked" without defining what "blocked" means leads to either over-escalation or silent suffering.
+No escalation criteria: Telling someone to "escalate if blocked" without defining what "blocked" means leads to either over-escalation or silent suffering.
 
-**Ignoring time zones completely**: Your escalation path must include explicit coverage for every time zone where employees work. If someone in Tokyo is blocked at midnight JST, who do they contact?
+Ignoring time zones completely: Your escalation path must include explicit coverage for every time zone where employees work. If someone in Tokyo is blocked at midnight JST, who do they contact?
 
 ## Building a Culture of Healthy Escalation
 

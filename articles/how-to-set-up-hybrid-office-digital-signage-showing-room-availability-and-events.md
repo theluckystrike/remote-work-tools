@@ -21,10 +21,10 @@ Digital signage displaying real-time room availability and upcoming events solve
 
 Before writing code, identify what your signage needs to show:
 
-1. **Current room status**: Available, occupied, or reserved soon
-2. **Next meeting details**: Who booked the room and for how long
-3. **Daily event highlights**: Company all-hands, team standups, or important deadlines
-4. **Visual indicators**: Color-coded status (green for available, red for in-use)
+1. Current room status: Available, occupied, or reserved soon
+2. Next meeting details: Who booked the room and for how long
+3. Daily event highlights: Company all-hands, team standups, or important deadlines
+4. Visual indicators: Color-coded status (green for available, red for in-use)
 
 The challenge is pulling data from your calendar system, processing it into display-friendly content, and pushing it to screens at regular intervals. Most organizations use either Google Calendar or Microsoft 365, so this guide covers both.
 
@@ -208,9 +208,9 @@ This gives you a single feed combining room bookings with team events—useful f
 
 For the display endpoint, you have several approaches:
 
-1. **Dedicated signage players**: Hardware like BrightSign or Samsung Smart Signage Platform runs a browser-based client
-2. **Repurposed hardware**: A Chromecast, Amazon Fire TV Stick, or old laptop running in kiosk mode
-3. **Native display APIs**: Some platforms like Yodeck, Screenly, or Rise Vision provide APIs for pushing content
+1. Dedicated signage players: Hardware like BrightSign or Samsung Smart Signage Platform runs a browser-based client
+2. Repurposed hardware: A Chromecast, Amazon Fire TV Stick, or old laptop running in kiosk mode
+3. Native display APIs: Some platforms like Yodeck, Screenly, or Rise Vision provide APIs for pushing content
 
 A simple Chromium-based client works for most scenarios:
 
@@ -264,20 +264,13 @@ The meta refresh tag provides a simple fallback if JavaScript fails, while the i
 
 When deploying room availability signage, consider these operational factors:
 
-**Network topology**: Place displays on a wired network when possible. WiFi congestion in busy offices causes content to stutter or fail loading. If using WiFi, ensure displays connect to the same VLAN as your API servers.
+Network topology: Place displays on a wired network when possible. WiFi congestion in busy offices causes content to stutter or fail loading. If using WiFi, ensure displays connect to the same VLAN as your API servers.
 
-**Update frequency**: Fetch calendar data every 1-5 minutes. Calendar systems rate-limit API calls, so balance freshness against quota limits. Cache responses server-side and serve cached data to displays.
+Update frequency: Fetch calendar data every 1-5 minutes. Calendar systems rate-limit API calls, so balance freshness against quota limits. Cache responses server-side and serve cached data to displays.
 
-**Fallback content**: Always have a default view showing static information (building map, company values, or a clock) when the API is unreachable. Displays showing "loading" or blank screens look broken.
+Fallback content: Always have a default view showing static information (building map, company values, or a clock) when the API is unreachable. Displays showing "loading" or blank screens look broken.
 
-**Timezone handling**: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
-
-## Wrapping Up
-
-Building room availability signage requires three moving parts: a calendar integration pulling booking data, a content transformation layer creating display-ready HTML, and a client running on your display hardware. Start with a single room and one calendar source, verify the data flows correctly, then expand to additional rooms and aggregate views.
-
-The same pattern works for other event types—swap the calendar source for a Slack API, incident tracker, or custom database. Treat your signage as another API consumer, and you'll find it straightforward to display whatever information your team needs.
-
+Timezone handling: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
 
 ## Related Reading
 

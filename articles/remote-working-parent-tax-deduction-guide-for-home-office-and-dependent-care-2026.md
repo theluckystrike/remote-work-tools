@@ -125,7 +125,7 @@ touch tax-docs/2026/dependent-care/expenses.csv
 # 2026-01-31,Sunshine Daycare,"Emma,Liam",1200.00,january_invoice.pdf
 ```
 
-### Leverage the Home Office for Side Work
+### use the Home Office for Side Work
 
 If you're an employee but also do freelance development work on the side, the home office deduction only applies to self-employment income. Track your freelance hours and expenses separately from your W-2 job. This separation is critical—the IRS disallows home office deductions when the space is used primarily for employer work.
 

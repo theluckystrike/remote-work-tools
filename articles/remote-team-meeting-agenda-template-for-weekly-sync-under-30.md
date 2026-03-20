@@ -137,10 +137,10 @@ For teams spanning multiple time zones, combine async updates with a shorter syn
 
 Several tools integrate well with this meeting structure:
 
-- **Loom video updates**: Record 2-minute video updates before the meeting for async context
-- **GitHub/GitLab project boards**: Link sprint boards for real-time visibility
-- **Slack / Discord threads**: Pre-meeting discussion reduces synchronous meeting time
-- **Parabol or similar**: Structured meeting agendas with timer features
+- Loom video updates: Record 2-minute video updates before the meeting for async context
+- GitHub/GitLab project boards: Link sprint boards for real-time visibility
+- Slack / Discord threads: Pre-meeting discussion reduces synchronous meeting time
+- Parabol or similar: Structured meeting agendas with timer features
 
 The key is selecting tools that reduce redundant communication while maintaining visibility into team progress.
 
@@ -148,27 +148,21 @@ The key is selecting tools that reduce redundant communication while maintaining
 
 Even with a good template, teams often undermine their effectiveness:
 
-- **No pre-meeting preparation**: Expecting people to come unprepared wastes synchronous time
-- **Allowing side conversations**: When discussions drift, the meeting runs over
-- **Missing action item follow-through**: If action items aren't tracked, the meeting has no accountability
-- **Inviting too many people**: Keep the meeting to those who need to coordinate directly
+- No pre-meeting preparation: Expecting people to come unprepared wastes synchronous time
+- Allowing side conversations: When discussions drift, the meeting runs over
+- Missing action item follow-through: If action items aren't tracked, the meeting has no accountability
+- Inviting too many people: Keep the meeting to those who need to coordinate directly
 
 ## Adapting the Template for Your Team
 
 Every team has different needs. Adjust the template based on:
 
-- **Team size**: Larger teams may need longer status rounds or breakout discussions
-- **Meeting frequency**: Some teams benefit from twice-weekly short syncs
-- **Project complexity**: Complex projects may need more time for coordination
-- **Time zone distribution**: Teams across many time zones may prefer async-first approaches
+- Team size: Larger teams may need longer status rounds or breakout discussions
+- Meeting frequency: Some teams benefit from twice-weekly short syncs
+- Project complexity: Complex projects may need more time for coordination
+- Time zone distribution: Teams across many time zones may prefer async-first approaches
 
 Start with the basic template, track how long each section actually takes, and adjust allocations accordingly. After a few iterations, you'll have a rhythm that works for your specific team.
-
-## Conclusion
-
-A well-structured weekly sync respects developer time while maintaining team alignment. The 30-minute constraint forces prioritization and prevents the meeting from becoming a status-reporting session. Use the templates provided as starting points, adapt them to your team's workflow, and commit to consistent facilitation.
-
-The goal isn't just shorter meetings—it's more productive collaboration that gives developers time back for deep work while ensuring the team stays coordinated.
 
 ## Related Reading
 

@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Run Async Architecture Reviews for Distributed Engineering Teams
 
-Async architecture reviews replace the traditional conference room whiteboard session with a structured, time-zone-independent process that lets distributed engineering teams collaborate on significant technical decisions without scheduling conflicts. Instead of coordinating a live meeting across six time zones, teams use a async workflow where proposals circulate through review stages, allowing each participant to contribute thoughtful feedback on their own schedule.
+Async architecture reviews replace the traditional conference room whiteboard session with a structured, time-zone-independent process that lets distributed engineering teams collaborate on significant technical decisions without scheduling conflicts. Instead of coordinating a live meeting across six time zones, teams use an async workflow where proposals circulate through review stages, allowing each participant to contribute thoughtful feedback on their own schedule.
 
 This approach works particularly well for distributed engineering teams because it respects asynchronous communication patterns already in place. Engineers can review diagrams, read through trade-off analyses, and compose detailed responses without feeling pressured to respond immediately. The resulting documentation also creates a permanent record of the decision-making process that future team members can reference.
 
@@ -143,13 +143,13 @@ Regardless of platform, ensure your chosen tool supports these capabilities:
 
 Async architecture reviews fail when teams treat them as formality rather than genuine collaboration. Avoid these common mistakes:
 
-**Review periods too short**: A 24-hour turnaround rarely produces thoughtful feedback. Respect time zones and competing priorities by allowing at least five days.
+Review periods too short: A 24-hour turnaround rarely produces thoughtful feedback. Respect time zones and competing priorities by allowing at least five days.
 
-**Vague proposals**: Proposals that skip trade-off analysis or ignore alternatives force reviewers to do extensive research before providing useful feedback. Do the analytical work upfront.
+Vague proposals: Proposals that skip trade-off analysis or ignore alternatives force reviewers to do extensive research before providing useful feedback. Do the analytical work upfront.
 
-**No clear ownership**: Every review needs a designated owner who drives the process forward, synthesizes feedback, and ensures the decision gets documented. Without ownership, reviews stall indefinitely.
+No clear ownership: Every review needs a designated owner who drives the process forward, synthesizes feedback, and ensures the decision gets documented. Without ownership, reviews stall indefinitely.
 
-**Skipping the documentation**: The primary value of async architecture reviews is the permanent record they create. Without a clear decision document, future engineers cannot understand why decisions were made.
+Skipping the documentation: The primary value of async architecture reviews is the permanent record they create. Without a clear decision document, future engineers cannot understand why decisions were made.
 
 ## Scaling Across Large Organizations
 
@@ -162,13 +162,6 @@ Consider a tiered approach:
 - **Tier 3** (formal): Multi-team review with sync kickoff and dedicated reviewers
 
 This tiered approach prevents bottlenecks while ensuring significant decisions receive appropriate scrutiny.
-
-## Conclusion
-
-Async architecture reviews transform how distributed engineering teams make technical decisions. By documenting proposals thoroughly, allowing adequate review time, and maintaining clear decision records, teams can move faster while making better-informed choices. The upfront investment in process pays dividends through improved decision quality, reduced rework, and institutional knowledge that survives personnel changes.
-
-Start with your next architecture decision—replace the calendar invite with a shared document and watch how the quality of feedback improves when reviewers have time to think through their responses carefully.
-
 
 ## Related Reading
 

@@ -21,9 +21,9 @@ Build a shared "School Breaks" calendar showing each parent's childcare gaps, th
 
 The core challenge isn't just about calendar conflicts. When multiple team members have children in different schools, you face:
 
-- **Non-uniform break periods**: One child's school might be on winter break while another's has professional development days
-- **Cascade effects**: A parent covering for another during their break creates hidden dependencies
-- **Communication gaps**: Asynchronous work helps, but real-time coordination still requires overlap
+- Non-uniform break periods: One child's school might be on winter break while another's has professional development days
+- Cascade effects: A parent covering for another during their break creates hidden dependencies
+- Communication gaps: Asynchronous work helps, but real-time coordination still requires overlap
 
 The solution isn't to mandate availability or expect parents to work around the clock. Instead, build systems that treat school schedule variance as a normal part of distributed team dynamics.
 
@@ -204,13 +204,6 @@ At the start of each semester or term, hold a brief planning session where paren
 ```
 
 Keep these meetings short—15 minutes maximum. The goal is information sharing, not extensive discussion.
-
-## Conclusion
-
-Managing a remote team through overlapping school holidays requires proactive planning rather than reactive problem-solving. By building shared visibility into availability, creating explicit coverage protocols, and defaulting to asynchronous communication during high-conflict periods, you can maintain team productivity while supporting parents through the inevitable schedule complexity.
-
-The parents on your team will appreciate not having to constantly explain or apologize for school commitments. And your team will be more resilient when inevitable schedule conflicts arise.
-
 
 ## Related Reading
 

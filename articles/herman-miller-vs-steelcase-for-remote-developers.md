@@ -67,9 +67,9 @@ This simplified calculation shows why many developers consider premium chairs an
 
 The Aeron takes a different approach with its iconic mesh design. It comes in three sizes (A, B, C), which is crucial—size matters more than most people realize when selecting an ergonomic chair.
 
-- **Size A**: Fits users 4'10" to 5'4"
-- **Size B**: Fits users 5'3" to 6'0"
-- **Size C**: Fits users 5'10" to 6'7"
+- Size A: Fits users 4'10" to 5'4"
+- Size B: Fits users 5'3" to 6'0"
+- Size C: Fits users 5'10" to 6'7"
 
 The mesh back provides excellent breathability, which matters if you work in warmer climates or tend to run hot during intense debugging sessions. The Aeron also features adjustable armrests that move in multiple directions, allowing you to find the exact position that keeps your shoulders relaxed while typing.
 

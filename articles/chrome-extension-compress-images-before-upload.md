@@ -181,7 +181,7 @@ class ImageCompressor {
 new ImageCompressor();
 ```
 
-This content script automatically attaches to file input elements that accept images. When a user selects files, it compresses each image using the Canvas API and replaces the original file with the compressed version.
+This content script automatically attaches to file input elements that accept images. When an user selects files, it compresses each image using the Canvas API and replaces the original file with the compressed version.
 
 ## Adding User Controls
 
@@ -302,13 +302,6 @@ This approach works well for most use cases but has some constraints. The Canvas
 Very large images might cause memory issues on lower-end devices. The extension includes dimension limits to help prevent this, but you can adjust these based on your typical use case.
 
 Some web applications use custom file upload components that don't use standard `<input type="file">` elements. In these cases, you'll need to extend the content script to handle their specific upload mechanisms.
-
-## Conclusion
-
-Building a Chrome extension for image compression before upload gives you control over file sizes without relying on external services. The extension works automatically in the background, compressing images as you select them for upload. With adjustable quality and dimension settings, you can balance file size against image quality based on your specific needs.
-
-The implementation uses only browser-native APIs, keeping the extension lightweight and private. All processing happens locally on your device, making it fast and secure.
-
 
 ## Related Reading
 

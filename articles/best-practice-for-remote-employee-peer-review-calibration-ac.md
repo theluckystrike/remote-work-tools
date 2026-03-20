@@ -231,7 +231,7 @@ High variance in reviewer scores indicates calibration problems. Extended review
 
 ## Tools That Support Async Calibration
 
-Several tools facilitate cross-timezone peer review:
+Several tools help cross-timezone peer review:
 
 - **GitHub/GitLab PR Reviews** - Built-in review features with structured comments
 - **Mergify** - Automated reviewer assignment based on timezone and availability

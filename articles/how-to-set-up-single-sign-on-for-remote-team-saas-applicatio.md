@@ -32,10 +32,10 @@ Before configuring SaaS applications, establish a centralized identity provider 
 
 Create an application within your IdP dashboard and note these critical values:
 
-- **Client ID**: Unique identifier for your SSO application
-- **Client Secret**: Secure token for authentication
-- **Discovery Endpoint**: URL where SaaS apps can fetch IdP configuration
-- **Redirect URIs**: Authorized URLs where users return after authentication
+- Client ID: Unique identifier for your SSO application
+- Client Secret: Secure token for authentication
+- Discovery Endpoint: URL where SaaS apps can fetch IdP configuration
+- Redirect URIs: Authorized URLs where users return after authentication
 
 ```
 Example Auth0 Application Configuration:
@@ -207,7 +207,7 @@ Implement fallback authentication methods. When SSO experiences outages, maintai
 
 ---
 
-Building robust SSO for remote teams requires thoughtful protocol selection, careful configuration, and ongoing maintenance. The initial investment pays dividends through reduced password management burden, improved security posture, and streamlined user provisioning. Start with your most critical tools, establish consistent patterns, and expand methodically across your SaaS stack.
+Building SSO for remote teams requires thoughtful protocol selection, careful configuration, and ongoing maintenance. The initial investment pays dividends through reduced password management burden, improved security posture, and streamlined user provisioning. Start with your most critical tools, establish consistent patterns, and expand methodically across your SaaS stack.
 
 
 ## Related Reading

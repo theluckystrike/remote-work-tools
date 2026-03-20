@@ -29,7 +29,7 @@ The best approach combines a dedicated secrets manager for production infrastruc
 
 ## Setting Up Your Vault Infrastructure
 
-For most remote development teams, HashiCorp Vault provides the most comprehensive solution. It supports multiple authentication methods, fine-grained policies, and integrates with nearly every cloud provider. AWS Secrets Manager or Azure Key Vault work well if your team operates exclusively within a single cloud ecosystem.
+For most remote development teams, HashiCorp Vault provides the most solution. It supports multiple authentication methods, fine-grained policies, and integrates with nearly every cloud provider. AWS Secrets Manager or Azure Key Vault work well if your team operates exclusively within a single cloud ecosystem.
 
 Start by deploying a Vault server accessible to your entire team. For remote teams, this typically means running Vault in a cloud environment with VPN access or using HashiCorp's managed HCP Vault service, which handles infrastructure while your team connects securely.
 
@@ -224,22 +224,15 @@ Schedule this script to run weekly or monthly depending on your security require
 
 Implementing these practices strengthens your security posture without creating unnecessary friction for your team.
 
-**Network access**: Route all Vault traffic through your VPN or require Vault access through a jump host with strong authentication. Avoid exposing Vault directly to the internet.
+Network access: Route all Vault traffic through your VPN or require Vault access through a jump host with strong authentication. Avoid exposing Vault directly to the internet.
 
-**MFA requirements**: Enable multi-factor authentication for all team members accessing the vault. Hardware tokens provide the strongest protection.
+MFA requirements: Enable multi-factor authentication for all team members accessing the vault. Hardware tokens provide the strongest protection.
 
-**Session timeouts**: Configure short session durations (1-4 hours) so that idle sessions automatically expire. Developers re-authenticate as needed without daily password entry.
+Session timeouts: Configure short session durations (1-4 hours) so that idle sessions automatically expire. Developers re-authenticate as needed without daily password entry.
 
-**Audit monitoring**: Set up alerts for unusual access patterns—multiple failed authentication attempts, credential access outside working hours, or bulk secret downloads.
+Audit monitoring: Set up alerts for unusual access patterns—multiple failed authentication attempts, credential access outside working hours, or bulk secret downloads.
 
-**Separate environments**: Never use production API keys in development or staging. Create separate credentials for each environment and restrict production access to only those who need it.
-
-## Conclusion
-
-A vault-based API key management workflow provides remote development teams with secure, auditable credential access without sacrificing productivity. The key is starting simple: deploy a vault, create a few access policies, and build retrieval scripts that match your team's existing workflows.
-
-From there, gradually add automation for rotation and CI/CD integration. Your team will appreciate the security and convenience, and you'll avoid the panic of leaked credentials or compromised keys.
-
+Separate environments: Never use production API keys in development or staging. Create separate credentials for each environment and restrict production access to only those who need it.
 
 ## Related Reading
 

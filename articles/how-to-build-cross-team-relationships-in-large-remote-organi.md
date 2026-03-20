@@ -131,10 +131,10 @@ Guilds bring together people across teams who share similar interests or respons
 
 Popular guild structures include:
 
-- **API Guild**: Engineers from all teams who work on API design standards
-- **Testing Guild**: QA and developers focused on testing practices
-- **Documentation Guild**: Technical writers and engineers who care about docs
-- **Performance Guild**: Engineers optimizing system performance
+- API Guild: Engineers from all teams who work on API design standards
+- Testing Guild: QA and developers focused on testing practices
+- Documentation Guild: Technical writers and engineers who care about docs
+- Performance Guild: Engineers optimizing system performance
 
 Guilds typically meet monthly, discuss challenges and solutions, and maintain shared resources. Participation is usually voluntary but encouraged. The relationships built through guilds often lead to unexpected collaborations and improved consistency across teams.
 
@@ -151,15 +151,6 @@ Feature C (Team Alpha) → depends on → Design system (Team Design)
 ```
 
 Review these dependencies weekly in cross-team sync meetings. Discuss timelines, identify blockers, and surface potential conflicts early. These conversations build relationships through shared problem-solving.
-
-## Conclusion
-
-Building cross-team relationships in large remote organizations requires intentionality, not accident. The patterns above—shared documentation, office hours, rotations, async video, strategic channels, joint retrospectives, guilds, and visible dependencies—create systematic opportunities for connection.
-
-Start with one or two approaches that fit your organization's culture. Measure participation and gather feedback. Iterate until you find the right balance between connection and overhead.
-
-The teams that excel at remote work aren't those with the best video conferencing setup—they're the ones who've designed systems where relationships can flourish despite physical distance.
-
 
 ## Related Reading
 

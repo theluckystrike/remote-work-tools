@@ -23,10 +23,10 @@ Product demo days become exponentially harder as your remote engineering team gr
 
 Synchronous demo days assume everyone can attend at the same time and stay focused throughout. With 50 engineers spread across time zones, you're dealing with:
 
-- **Impossible overlap windows**: Finding a 60-minute slot where all regions are awake and in reasonable working hours becomes mathematically improbable.
-- **Attention degradation**: Video call fatigue sets in after 20-30 minutes, yet traditional demos run 2-4 hours.
-- **Context switching costs**: Developers context-switch away from deep work for a meeting that could have been async.
-- **Redundant explanations**: The same technical context gets repeated for each demo as late joiners catch up.
+- Impossible overlap windows: Finding a 60-minute slot where all regions are awake and in reasonable working hours becomes mathematically improbable.
+- Attention degradation: Video call fatigue sets in after 20-30 minutes, yet traditional demos run 2-4 hours.
+- Context switching costs: Developers context-switch away from deep work for a meeting that could have been async.
+- Redundant explanations: The same technical context gets repeated for each demo as late joiners catch up.
 
 The solution isn't just making demos shorter—it's fundamentally restructuring how information flows.
 
@@ -131,9 +131,9 @@ As your team grows beyond 50 engineers, the basic async format still works, but 
 
 Split demos into thematic tracks running across different days:
 
-- **Track A (Mon-Wed)**: Frontend and user-facing features
-- **Track B (Mon-Wed)**: Backend and infrastructure changes
-- **Track C (Friday)**: Data, ML, and analytics demos
+- Track A (Mon-Wed): Frontend and user-facing features
+- Track B (Mon-Wed): Backend and infrastructure changes
+- Track C (Friday): Data, ML, and analytics demos
 
 This prevents demo overload and lets engineers focus on relevant content.
 
@@ -175,10 +175,10 @@ demo_automation = {
 
 Track what's actually working:
 
-- **View count**: How many engineers watched each demo?
-- **Feedback threads**: Are people asking questions asynchronously?
-- **Live attendance**: For synchronous sessions, track who shows up
-- **Time to feedback**: How quickly do engineers respond to questions?
+- View count: How many engineers watched each demo?
+- Feedback threads: Are people asking questions asynchronously?
+- Live attendance: For synchronous sessions, track who shows up
+- Time to feedback: How quickly do engineers respond to questions?
 
 Use this data to iterate on your format quarterly.
 
@@ -186,19 +186,10 @@ Use this data to iterate on your format quarterly.
 
 Even with the right format, teams run into problems:
 
-- **Demo fatigue**: If engineers demo too frequently, quality drops. Cap at one demo per engineer per month.
-- **No clear value**: Demos without business context or user impact feel like status updates. Always connect features to outcomes.
-- **Feedback silence**: If no one asks questions, your demos might be too obscure or your feedback channels aren't visible enough.
-- **Live session overload**: The temptation to make everything live defeats the entire purpose. Keep synchronous time minimal and optional.
-
-## Conclusion
-
-Scaling product demo days beyond 50 engineers requires abandoning the synchronous, one-day event model. The async-first approach—pre-recorded demos, centralized hubs, async feedback, and limited live Q&A—maintains team visibility into progress without destroying productivity.
-
-Start by implementing the submission system and demo hub, then add automation as your team grows comfortable with the format. The goal isn't perfect execution on day one; it's establishing a sustainable rhythm that scales.
-
-Your engineering team deserves to stay informed about what others are building without sacrificing their ability to do meaningful work.
-
+- Demo fatigue: If engineers demo too frequently, quality drops. Cap at one demo per engineer per month.
+- No clear value: Demos without business context or user impact feel like status updates. Always connect features to outcomes.
+- Feedback silence: If no one asks questions, your demos might be too obscure or your feedback channels aren't visible enough.
+- Live session overload: The temptation to make everything live defeats the entire purpose. Keep synchronous time minimal and optional.
 
 ## Related Reading
 

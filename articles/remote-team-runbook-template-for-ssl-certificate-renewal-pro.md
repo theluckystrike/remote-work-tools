@@ -32,12 +32,12 @@ Without explicit runbooks, critical knowledge lives only in individual Slack mes
 
 Before initiating a certificate renewal, gather the following information:
 
-- **Certificate domain(s)**: The fully qualified domain names covered by the certificate
-- **Current certificate expiration date**: Available from your monitoring system or certificate details
-- **Certificate authority (CA)**: The organization that issued your current certificate
-- **Cloud provider(s)**: Where the certificates are currently deployed (AWS, GCP, Azure, or on-premise)
-- **Primary and secondary owners**: Team members responsible for this certificate
-- **Renewal method**: ACM (Automated Certificate Management Environment), manual CSR generation, or DNS validation
+- Certificate domain(s): The fully qualified domain names covered by the certificate
+- Current certificate expiration date: Available from your monitoring system or certificate details
+- Certificate authority (CA): The organization that issued your current certificate
+- Cloud provider(s): Where the certificates are currently deployed (AWS, GCP, Azure, or on-premise)
+- Primary and secondary owners: Team members responsible for this certificate
+- Renewal method: ACM (Automated Certificate Management Environment), manual CSR generation, or DNS validation
 
 ### Phase 1: Preparation (14 Days Before Expiration)
 

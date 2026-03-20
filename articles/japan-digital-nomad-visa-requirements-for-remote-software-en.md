@@ -21,19 +21,19 @@ Japan introduced its Digital Nomad Visa in 2024, and the program has evolved sig
 
 The Japan Digital Nomad Visa targets remote workers employed by companies outside Japan. Unlike the standard work visa, you cannot work for Japanese companies with this visa type. The key eligibility requirements for 2026 include:
 
-**Income Threshold**: You must demonstrate an annual income of at least ¥10 million (approximately $67,000 USD). This represents a significant increase from the initial ¥10 million threshold and reflects Japan's tightening of the program. For software engineers, this income level is achievable at many companies, particularly those paying competitive salaries in USD or EUR.
+Income Threshold: You must demonstrate an annual income of at least ¥10 million (approximately $67,000 USD). This represents a significant increase from the initial ¥10 million threshold and reflects Japan's tightening of the program. For software engineers, this income level is achievable at many companies, particularly those paying competitive salaries in USD or EUR.
 
-**Employment Status**: You must be employed by a company registered outside Japan. Freelancers and contractors qualify if they can demonstrate ongoing contracts with non-Japanese clients. Self-employed developers should prepare documentation showing client contracts, invoices, and payment history.
+Employment Status: You must be employed by a company registered outside Japan. Freelancers and contractors qualify if they can demonstrate ongoing contracts with non-Japanese clients. Self-employed developers should prepare documentation showing client contracts, invoices, and payment history.
 
-**Health Insurance**: Unlike earlier versions of the visa, 2026 requirements mandate either travel insurance with minimum ¥10 million coverage or enrollment in Japan's national health insurance system within 14 days of arrival.
+Health Insurance: Unlike earlier versions of the visa, 2026 requirements mandate either travel insurance with minimum ¥10 million coverage or enrollment in Japan's national health insurance system within 14 days of arrival.
 
-**Professional Experience**: While not explicitly stated, you should hold relevant qualifications or documented experience in software engineering. A GitHub profile, LinkedIn history, or employment contracts serve as evidence of your profession.
+Professional Experience: While not explicitly stated, you should hold relevant qualifications or documented experience in software engineering. A GitHub profile, LinkedIn history, or employment contracts serve as evidence of your profession.
 
 ## Required Documentation
 
 Preparing your documentation before applying significantly smooths the process. Gather these documents before starting your application:
 
-**Proof of Income**: Bank statements showing deposits over the past 12 months, or a letter from your employer confirming your annual salary. If you receive payments in multiple currencies, provide exchange rate documentation.
+Proof of Income: Bank statements showing deposits over the past 12 months, or a letter from your employer confirming your annual salary. If you receive payments in multiple currencies, provide exchange rate documentation.
 
 ```json
 {
@@ -50,11 +50,11 @@ Preparing your documentation before applying significantly smooths the process. 
 }
 ```
 
-**Employment Verification**: A letter from your employer stating your position, employment duration, and confirmation that you work remotely. Japanese immigration requires this letter to explicitly state your work location will be Japan.
+Employment Verification: A letter from your employer stating your position, employment duration, and confirmation that you work remotely. Japanese immigration requires this letter to explicitly state your work location will be Japan.
 
-**Business Registration**: If you work as a contractor or freelancer, provide proof of business registration in your home country—articles of incorporation, business license, or equivalent documentation.
+Business Registration: If you work as a contractor or freelancer, provide proof of business registration in your home country—articles of incorporation, business license, or equivalent documentation.
 
-**Travel Insurance**: Minimum coverage of ¥10 million for medical expenses and ¥10 million for repatriation. Many software engineers opt for global coverage plans from providers like SafetyWing, World Nomads, or Genki.
+Travel Insurance: Minimum coverage of ¥10 million for medical expenses and ¥10 million for repatriation. Many software engineers opt for global coverage plans from providers like SafetyWing, World Nomads, or Genki.
 
 ## Application Process Step by Step
 
@@ -62,11 +62,11 @@ The application process differs based on whether you're applying from abroad or 
 
 ### Applying from Outside Japan
 
-1. **Prepare Documentation**: Compile all required documents listed above
-2. **Schedule Appointment**: Book an appointment at your nearest Japanese embassy or consulate
-3. **Submit Application**: Attend your appointment with all documents
-4. **Processing Time**: Expect 2-4 weeks for initial processing
-5. **Visa Issuance**: Receive your visa with up to 6-month validity
+1. Prepare Documentation: Compile all required documents listed above
+2. Schedule Appointment: Book an appointment at your nearest Japanese embassy or consulate
+3. Submit Application: Attend your appointment with all documents
+4. Processing Time: Expect 2-4 weeks for initial processing
+5. Visa Issuance: Receive your visa with up to 6-month validity
 
 ### Changing Status Within Japan
 
@@ -88,7 +88,7 @@ Understanding how immigration calculates your income prevents application surpri
 
 For employed software engineers, your base salary plus bonuses counts toward the ¥10 million threshold. Stock options, restricted stock units, and equity compensation create complexity—consult a Japanese immigration attorney if significant compensation comes from equity.
 
-**Freelance Developer Calculation**: Net income (after business expenses) typically qualifies. Japanese immigration reviews your invoices and payment receipts. Maintain clean records showing consistent monthly income exceeding ¥833,333 ($5,500 USD).
+Freelance Developer Calculation: Net income (after business expenses) typically qualifies. Japanese immigration reviews your invoices and payment receipts. Maintain clean records showing consistent monthly income exceeding ¥833,333 ($5,500 USD).
 
 ```python
 # Simple income verification calculation
@@ -130,21 +130,6 @@ Japan offers excellent internet infrastructure. Major airports, cafes, and cowor
 ## Renewal and Extension
 
 The Digital Nomad Visa allows initial stays of up to 6 months. Extensions are possible but require re-application and proof of continued employment outside Japan. The 2026 policy allows multiple entries within the validity period, enabling brief trips home without visa issues.
-
-## Summary Checklist
-
-Before applying, verify these items:
-
-- [ ] Annual income ≥ ¥10 million JPY
-- [ ] Employment by non-Japanese company (or freelance with non-Japanese clients)
-- [ ] Travel insurance with ¥10 million medical coverage
-- [ ] Employment verification letter stating remote work
-- [ ] Valid passport (6 months beyond intended stay)
-- [ ] Completed visa application forms
-- [ ] Passport photos (45mm × 45mm, white background)
-
-Japan's Digital Nomad Visa provides an excellent opportunity for software engineers seeking to experience Japanese culture while continuing remote work. The income threshold remains attainable for mid-level developers at established companies, and the application process, while document-intensive, follows a clear path. Prepare your documentation thoroughly, and you'll find Japanese immigration offices professional and helpful during the process.
-
 
 ## Related Reading
 

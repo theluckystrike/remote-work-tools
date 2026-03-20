@@ -103,7 +103,7 @@ Key indicators that suggest meeting overload:
 
 For distributed teams, async communication quality directly impacts productivity. Evaluate these specific failure modes:
 
-**Response time degradation**: Track how long messages wait for responses in different channels. A useful query:
+Response time degradation: Track how long messages wait for responses in different channels. A useful query:
 
 ```python
 def calculate_response_times(slack_client, channel_id, days=14):
@@ -140,7 +140,7 @@ def calculate_response_times(slack_client, channel_id, days=14):
 
 Response times exceeding 24 hours in async channels signal that people have stopped expecting timely replies — a clear bottleneck indicator.
 
-**Documentation gaps**: Check how much institutional knowledge lives in Slack threads versus written documentation:
+Documentation gaps: Check how much institutional knowledge lives in Slack threads versus written documentation:
 
 ```bash
 # Find channels with high "how do I" type questions
@@ -161,9 +161,9 @@ Channels with frequent questions about basic processes need better documentation
 
 When teams exceed 30 people, boundaries form between sub-teams. Map dependencies to find bottlenecks:
 
-1. **Identify handoff points**: Where work moves from one team to another
-2. **Measure wait times**: How long does work sit waiting for input from another team?
-3. **Count escalation paths**: How many issues require cross-team coordination?
+1. Identify handoff points: Where work moves from one team to another
+2. Measure wait times: How long does work sit waiting for input from another team?
+3. Count escalation paths: How many issues require cross-team coordination?
 
 ```python
 # Example: Analyze cross-team communication patterns
@@ -202,13 +202,6 @@ Once you've identified bottlenecks, prioritize based on impact. Common effective
 | Cross-team silos | Establish guilds or communities of practice |
 
 Start with quick wins that have high visibility. Implementing a channel cleanup typically takes a few hours but immediately reduces noise for everyone.
-
-## Conclusion
-
-Auditing communication patterns at team scale requires systematic data collection rather than relying on intuition. The methods outlined here — channel inventories, meeting analysis, response time tracking, and dependency mapping — provide a concrete foundation for identifying where your team's communication is breaking down.
-
-Schedule a communication audit quarterly as your team continues to grow. The patterns that work for 30 people will differ from those needed at 50 or 100, and staying ahead of the curve prevents the productivity losses that come with unmanaged communication complexity.
-
 
 ## Related Reading
 

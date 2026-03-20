@@ -22,11 +22,11 @@ Deploy YubiKey or similar FIDO2-compatible hardware keys for remote team authent
 
 Hardware security keys implement the FIDO2 (Fast Identity Online 2) protocol, which combines the CTAP2 (Client to Authenticator Protocol 2) specification with WebAuthn. The architecture solves several problems common to password-based and even TOTP-based authentication:
 
-- **Phishing resistance**: The cryptographic key is bound to the specific relying party (RP) domain
-- **No shared secrets**: The server stores a public key, not a secret that could be leaked
-- **Hardware-bound credentials**: Private keys cannot be exported or replicated
+- Phishing resistance: The cryptographic key is bound to the specific relying party (RP) domain
+- No shared secrets: The server stores a public key, not a secret that could be leaked
+- Hardware-bound credentials: Private keys cannot be exported or replicated
 
-When a user registers a hardware key, the device generates a new key pair. The public key goes to your server, while the private key stays in the hardware. Authentication requires physical presence—the user must touch the key to prove they're there.
+When an user registers a hardware key, the device generates a new key pair. The public key goes to your server, while the private key stays in the hardware. Authentication requires physical presence—the user must touch the key to prove they're there.
 
 ## Server-Side Implementation
 
@@ -34,7 +34,7 @@ Most modern authentication frameworks support WebAuthn natively. Here's how to i
 
 ### Registration Flow
 
-When a user wants to add a hardware key, your server first generates challenge options:
+When an user wants to add a hardware key, your server first generates challenge options:
 
 ```javascript
 import { generateRegistrationOptions } from '@simplewebauthn/server';
@@ -249,11 +249,11 @@ async function canUsePasswordAuth(user) {
 
 ## Common Implementation Challenges
 
-**Browser compatibility**: All modern browsers support WebAuthn, but older browsers need fallbacks. Check `window.PublicKeyCredential` to detect support.
+Browser compatibility: All modern browsers support WebAuthn, but older browsers need fallbacks. Check `window.PublicKeyCredential` to detect support.
 
-**Key management**: Users lose keys. Build administrative interfaces for credential revocation and consider implementing credential migration for users switching between organizations.
+Key management: Users lose keys. Build administrative interfaces for credential revocation and consider implementing credential migration for users switching between organizations.
 
-**Mobile support**: Mobile devices can use hardware keys via NFC (most modern phones) or Lightning/USB-C connections. Test thoroughly with your team's device mix.
+Mobile support: Mobile devices can use hardware keys via NFC (most modern phones) or Lightning/USB-C connections. Test thoroughly with your team's device mix.
 
 ## Security Considerations
 

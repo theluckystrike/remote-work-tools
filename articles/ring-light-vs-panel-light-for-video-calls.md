@@ -78,7 +78,7 @@ console.log(calculatePanelPosition(250, 0.8, 0.4));
 
 Panel lights excel when you need precise control over lighting direction. You can position a panel to create subtle shadows that add depth to your face, making you appear more three-dimensional on camera. This is particularly valuable for developers who record tutorials or demos where visual quality matters significantly.
 
-The trade-off involves setup complexity. Unlike ring lights—which essentially require only placement in front of you—panels demand more thought about positioning, angle, and potentially diffuser attachments to achieve soft, flattering light.
+The trade-off involves setup complexity. Unlike ring lights—which require only placement in front of you—panels demand more thought about positioning, angle, and potentially diffuser attachments to achieve soft, flattering light.
 
 ## Practical Considerations for Developers
 

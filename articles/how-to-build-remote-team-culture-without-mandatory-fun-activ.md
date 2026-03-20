@@ -92,7 +92,7 @@ Culture isn't just about social activities—it's about how people work together
 - Maintain a living team handbook in Notion or GitHub
 - Document decisions and the reasoning behind them
 - Share meeting notes publicly
-- Make onboarding resources comprehensive
+- Make onboarding resources 
 
 When people understand how their team works, they feel included in the culture automatically. This is especially powerful for remote workers who can't casually observe office dynamics.
 
@@ -112,10 +112,10 @@ This respect builds trust, which is the foundation of genuine connection. When p
 
 Instead of forced fun, unite your team around shared challenges or goals:
 
-- **Hackathons**: Voluntary events where people build something together
-- **Learning cohorts**: Groups that commit to learning a new technology together
-- **Open source contributions**: Team members contributing to shared projects
-- **Internal tooling days**: Time dedicated to improving developer experience
+- Hackathons: Voluntary events where people build something together
+- Learning cohorts: Groups that commit to learning a new technology together
+- Open source contributions: Team members contributing to shared projects
+- Internal tooling days: Time dedicated to improving developer experience
 
 These activities have a clear purpose beyond "bonding," which makes participation feel more natural. The connection happens through working toward something meaningful together.
 
@@ -130,15 +130,6 @@ Without mandatory attendance metrics, how do you know if your culture works? Loo
 - Is there low drama and high psychological safety?
 
 You won't find these metrics in a participation spreadsheet. Culture health shows in how people collaborate when no one is watching.
-
-## Conclusion
-
-Building remote team culture without mandatory fun activities requires shifting your mindset from "how do we force connection?" to "how do we create conditions for genuine connection?" The strategies above—async spaces, interest groups, transparent processes, optional co-working, shared challenges, and genuine respect—create an environment where authentic relationships can form naturally.
-
-The teams with the strongest remote cultures are ones where people feel free to be themselves, opt into social participation, and build bonds through shared work rather than forced Small Talk. Your culture will be stronger when it grows organically rather than being mandated from above.
-
-Start with one or two of these strategies, observe what resonates with your team, and iterate. The goal isn't a perfect culture—it's a culture where people genuinely want to collaborate and support each other.
-
 
 ## Related Reading
 

@@ -28,10 +28,10 @@ The technical foundation relies on indoor positioning. You have several options:
 
 A production wayfinding system consists of these components:
 
-1. **Positioning Layer**: BLE beacons or anchors deployed throughout the office
-2. **Mobile App**: React Native or Flutter application for employee navigation
-3. **Backend API**: Node.js or Python service handling location requests
-4. **Data Integration**: Connection to room booking systems, desk management platforms
+1. Positioning Layer: BLE beacons or anchors deployed throughout the office
+2. Mobile App: React Native or Flutter application for employee navigation
+3. Backend API: Node.js or Python service handling location requests
+4. Data Integration: Connection to room booking systems, desk management platforms
 
 Here's a conceptual architecture in code:
 
@@ -190,13 +190,6 @@ When deploying your wayfinding system, start small. Choose one floor or building
 Battery consumption matters for mobile apps. Continuous beacon scanning drains phone batteries quickly. Implement adaptive scanning—scan every 2-3 seconds when the user opens the app, then every 10-15 seconds once they've started navigation. Reduce to once per minute when the app runs in the background.
 
 Consider privacy implications. Store location data ephemerally and provide clear opt-in controls. Most employees appreciate wayfinding convenience but resist persistent tracking. Implement data retention policies that delete location history after 24-48 hours.
-
-## Conclusion
-
-Building a wayfinding system for hybrid offices requires combining indoor positioning technology with workplace data integration. Start with BLE beacon deployment for the positioning layer, build a mobile application that handles trilateration, and integrate with your existing room and desk booking systems. The key to success is iterative deployment—begin with a pilot floor, measure accuracy, gather user feedback, and expand gradually.
-
-The investment pays off through improved employee experience, reduced time spent lost in offices, and better utilization of workplace resources. For developers and power users, providing a well-designed digital navigation tool demonstrates that your organization embraces practical technology solutions for modern workplace challenges.
-
 
 ## Related Reading
 

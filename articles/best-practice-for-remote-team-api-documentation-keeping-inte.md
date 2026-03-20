@@ -82,12 +82,12 @@ Establish clear standards for what your documentation must include. These standa
 
 Every endpoint documentation should contain:
 
-1. **Purpose**: What does this endpoint accomplish? Why would a developer use it?
-2. **Authentication**: What credentials or tokens are required? How do developers obtain them?
-3. **Request format**: What fields are required versus optional? What are the data types and constraints?
-4. **Response format**: What does a successful response look like? What status codes indicate success versus errors?
-5. **Error handling**: What error codes might developers encounter? What do they mean and how should applications handle them?
-6. **Example requests and responses**: Concrete code samples showing typical usage patterns.
+1. Purpose: What does this endpoint accomplish? Why would a developer use it?
+2. Authentication: What credentials or tokens are required? How do developers obtain them?
+3. Request format: What fields are required versus optional? What are the data types and constraints?
+4. Response format: What does a successful response look like? What status codes indicate success versus errors?
+5. Error handling: What error codes might developers encounter? What do they mean and how should applications handle them?
+6. Example requests and responses: Concrete code samples showing typical usage patterns.
 
 ```
 /**

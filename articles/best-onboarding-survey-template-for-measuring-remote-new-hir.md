@@ -197,11 +197,3 @@ Survey data without action creates cynicism. Close the loop by:
 
 One of our engineering teams reduced time-to-productivity by 40% after discovering that new hires spent two weeks waiting for repository access. The 30-day survey surfaced this systematically—previously, individual complaints were dismissed as normal adjustment.
 
-## Final Thoughts
-
-Effective remote onboarding requires deliberate measurement. The 30-60-90 day framework provides structure, but the real value comes from acting on the data. Start with the templates above, customize for your team's context, and commit to closing the feedback loop.
-
-The goal is not perfect satisfaction scores—it's identifying and removing barriers that prevent new hires from succeeding.
-
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

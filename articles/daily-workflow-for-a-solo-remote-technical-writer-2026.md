@@ -151,9 +151,9 @@ As a solo technical writer, automation pays off quickly because you bear the ful
 
 Common automation targets:
 
-- **Screenshots**: Use tools like `maim` or `screencapture` with keyboard shortcuts to grab and save screenshots to a dated folder structure
-- **Version updates**: Search and replace version numbers across multiple files using `sed` or a script
-- **TOC generation**: Auto-generate table of contents from markdown headings
+- Screenshots: Use tools like `maim` or `screencapture` with keyboard shortcuts to grab and save screenshots to a dated folder structure
+- Version updates: Search and replace version numbers across multiple files using `sed` or a script
+- TOC generation: Auto-generate table of contents from markdown headings
 
 ```bash
 #!/bin/bash
@@ -192,11 +192,6 @@ docs/
 ```
 
 This separation prevents version confusion and makes it easy to archive old releases without losing historical reference material.
-
-## Conclusion
-
-A sustainable daily workflow for solo remote technical writing combines intentional planning, protected deep-work time, automation of repetitive tasks, and clear boundaries between work and personal life. Start with the basics—morning priorities, midday review, afternoon maintenance—and add automation as you identify pain points. Your workflow will evolve, and that's fine. The goal is a system that lets you produce quality documentation consistently without burning out.
-
 
 ## Related Reading
 

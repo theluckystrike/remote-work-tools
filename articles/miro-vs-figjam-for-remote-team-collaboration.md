@@ -20,7 +20,7 @@ Choose Miro if your team needs enterprise-grade security, extensive integrations
 
 ## Platform Origins and Integration Ecosystem
 
-Miro started as a digital whiteboard in 2011, evolving into a comprehensive visual collaboration platform. Its market maturity shows in over 100 integrations with tools like Jira, Confluence, Slack, and Microsoft Teams. For teams already invested in the Atlassian or Microsoft ecosystems, Miro's connectors feel natural.
+Miro started as a digital whiteboard in 2011, evolving into a visual collaboration platform. Its market maturity shows in over 100 integrations with tools like Jira, Confluence, Slack, and Microsoft Teams. For teams already invested in the Atlassian or Microsoft ecosystems, Miro's connectors feel natural.
 
 FigJam emerged from Figma in 2021, designed as a lightweight companion to the design tool. If your team uses Figma for UI work, FigJam shares the same interface patterns, making the learning curve nearly nonexistent. The tight integration allows direct transitions between design files and whiteboards.
 
@@ -113,7 +113,7 @@ Running remote workshops requires specific features. Miro provides:
 
 FigJam includes timers and basic voting but lacks breakout room functionality. This matters for workshops requiring parallel subgroup work.
 
-For asynchronous collaboration, both platforms support async contributions through comments and reactions. Miro's video recording feature allows capturing walkthroughs of board sections—a useful feature for distributed teams across time zones.
+For asynchronous collaboration, both platforms support async contributions through comments and reactions. Miro's video recording feature allows capturing walkthroughs of board sections—an useful feature for distributed teams across time zones.
 
 ## Pricing Considerations
 
@@ -152,7 +152,7 @@ Many teams use both. FigJam for quick syncs, design discussions, and lightweight
 
 The key is matching tool capability to session requirements. Over-engineering simple meetings wastes time. Under-engineering complex sessions creates frustration.
 
-Test both platforms with actual team sessions before committing. Run a retrospective in each, facilitate a design discussion in each, and measure setup time versus productive output. Your team's specific workflow will reveal the better fit.
+Test both platforms with actual team sessions before committing. Run a retrospective in each, help a design discussion in each, and measure setup time versus productive output. Your team's specific workflow will reveal the better fit.
 
 
 ## Related Reading

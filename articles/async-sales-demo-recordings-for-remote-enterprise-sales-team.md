@@ -22,9 +22,9 @@ Enterprise sales teams operating across multiple time zones face a fundamental c
 
 For remote enterprise sales teams, async demos provide three concrete advantages:
 
-1. **Time zone independence**: Prospects watch recordings when convenient, eliminating scheduling negotiations
-2. **Scalability**: One recording serves unlimited prospects simultaneously
-3. **Consistency**: Every prospect receives the same quality demonstration
+1. Time zone independence: Prospects watch recordings when convenient, eliminating scheduling negotiations
+2. Scalability: One recording serves unlimited prospects simultaneously
+3. Consistency: Every prospect receives the same quality demonstration
 
 ## Core Components of an Async Demo Recording System
 
@@ -159,10 +159,10 @@ app.get('/track/demo-view', (req, res) => {
 
 Track these key metrics:
 
-- **Play rate**: Percentage of links opened
-- **Completion rate**: How many watched the full demo
-- **Engagement peaks**: Which sections got most re-watches
-- **Time-to-action**: Days from view to meeting request
+- Play rate: Percentage of links opened
+- Completion rate: How many watched the full demo
+- Engagement peaks: Which sections got most re-watches
+- Time-to-action: Days from view to meeting request
 
 ## Workflow Integration for Sales Teams
 
@@ -172,10 +172,10 @@ Integrating async demos into your sales process requires defining clear triggers
 
 Automate recording creation based on sales stage progression:
 
-1. **Initial interest**: Record general product overview
-2. **Technical evaluation**: Record feature-specific deep-dives
-3. **Proposal stage**: Record custom solution demonstrations
-4. **Renewal discussions**: Record update previews for existing customers
+1. Initial interest: Record general product overview
+2. Technical evaluation: Record feature-specific deep-dives
+3. Proposal stage: Record custom solution demonstrations
+4. Renewal discussions: Record update previews for existing customers
 
 ### Personalization Workflow
 
@@ -241,10 +241,10 @@ Start with commercial tools for faster deployment, then migrate to custom infras
 
 Track your async demo program with these KPIs:
 
-- **Demo-to-meeting conversion rate**: How many viewers schedule calls
-- **Sales cycle impact**: Compare cycle length for async vs. live demo paths
-- **Resource savings**: Hours saved on demo preparation
-- **Prospect satisfaction**: Post-demo survey scores
+- Demo-to-meeting conversion rate: How many viewers schedule calls
+- Sales cycle impact: Compare cycle length for async vs. live demo paths
+- Resource savings: Hours saved on demo preparation
+- Prospect satisfaction: Post-demo survey scores
 
 Remote enterprise sales teams implementing async demos typically see 30-40% reduction in demo-related time investment while maintaining or improving conversion rates. The key is treating recordings as first-class sales assets with proper production quality and analytics tracking.
 

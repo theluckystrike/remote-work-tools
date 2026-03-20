@@ -19,7 +19,7 @@ voice-checked: true
 
 # Health Insurance Options for Freelancers 2026: A Practical Guide
 
-Choose an ACA marketplace plan if you earn $60K-$80K yearly and need comprehensive coverage with subsidies; choose an HSA + high-deductible plan if you're healthy and want tax-advantaged long-term savings; choose cost-sharing programs if you prefer lower monthly costs with fewer preventive care guarantees. This guide covers the tradeoffs, calculation tools, and specific programs so you can evaluate the right path based on your income, location, and healthcare needs.
+Choose an ACA marketplace plan if you earn $60K-$80K yearly and need coverage with subsidies; choose an HSA + high-deductible plan if you're healthy and want tax-advantaged long-term savings; choose cost-sharing programs if you prefer lower monthly costs with fewer preventive care guarantees. This guide covers the tradeoffs, calculation tools, and specific programs so you can evaluate the right path based on your income, location, and healthcare needs.
 
 ## The Freelancer Insurance ecosystem in 2026
 
@@ -160,10 +160,10 @@ Several states offer additional programs for freelancers and self-employed indiv
 
 Many freelancers combine approaches for optimal coverage:
 
-1. **Primary coverage**: ACA plan subsidized through marketplace
-2. **HSA backup**: Contribute to HSA if using HDHP
-3. **Catastrophic coverage**: Consider accident or critical illness insurance for serious events
-4. **Telehealth**: Use free or low-cost telehealth for minor issues
+1. Primary coverage: ACA plan subsidized through marketplace
+2. HSA backup: Contribute to HSA if using HDHP
+3. Catastrophic coverage: Consider accident or critical illness insurance for serious events
+4. Telehealth: Use free or low-cost telehealth for minor issues
 
 ### Sample Monthly Budget
 

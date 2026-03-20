@@ -79,7 +79,7 @@ createFeature(process.env.PB_TOKEN, {
 
 ### Aha! API
 
-Aha! offers a more comprehensive API with REST endpoints and extensive webhook support:
+Aha! offers a more API with REST endpoints and extensive webhook support:
 
 ```javascript
 // Aha! API - Creating a feature with custom fields
