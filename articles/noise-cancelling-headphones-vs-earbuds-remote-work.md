@@ -8,7 +8,7 @@ permalink: /noise-cancelling-headphones-vs-earbuds-remote-work/
 categories: [guides]
 tags: [remote-work-tools, tools, comparison, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
