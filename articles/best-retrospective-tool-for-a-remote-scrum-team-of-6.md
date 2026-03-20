@@ -8,7 +8,7 @@ permalink: /best-retrospective-tool-for-a-remote-scrum-team-of-6/
 categories: [guides]
 tags: [remote-work-tools, retrospective, agile, remote-work, scrum, best-of]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---
