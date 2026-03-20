@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-runbook-template-for-deploying-hotfix-to-product/
 categories: [guides]
-tags: [hotfix, deployment, remote-work, runbook, devops, distributed-teams]
+tags: [remote-work-tools, hotfix, deployment, remote-work, runbook, devops, distributed-teams, troubleshooting]
 reviewed: true
 score: 8
 intent-checked: true

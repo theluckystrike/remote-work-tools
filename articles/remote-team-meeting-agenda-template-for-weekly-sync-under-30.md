@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-meeting-agenda-template-for-weekly-sync-under-30/
 categories: [guides]
-tags: [remote-work, meeting-agenda, team-sync, productivity, developer-tools]
+tags: [remote-work-tools, remote-work, meeting-agenda, team-sync, productivity, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

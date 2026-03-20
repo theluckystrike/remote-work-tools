@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-shadow-it-discovery-and-management-guide-for-it-/
 categories: [guides]
-tags: [shadow-it, remote-work, IT-security, endpoint-management, cloud-security]
+tags: [remote-work-tools, shadow-it, remote-work, IT-security, endpoint-management, cloud-security]
 reviewed: true
 score: 8
 intent-checked: true

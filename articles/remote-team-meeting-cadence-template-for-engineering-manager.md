@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-meeting-cadence-template-for-engineering-manager/
 categories: [guides]
-tags: [remote-work, meetings, engineering-management, distributed-teams]
+tags: [remote-work-tools, remote-work, meetings, engineering-management, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

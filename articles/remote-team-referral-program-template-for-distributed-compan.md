@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-referral-program-template-for-distributed-compan/
 categories: [guides]
-tags: [remote-hiring, employee-referrals, distributed-teams, recruitment, referral-bonus]
+tags: [remote-work-tools, remote-hiring, employee-referrals, distributed-teams, recruitment, referral-bonus, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

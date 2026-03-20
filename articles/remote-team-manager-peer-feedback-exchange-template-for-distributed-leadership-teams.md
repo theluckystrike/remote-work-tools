@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/
 categories: [guides]
-tags: [peer-feedback, remote-management, distributed-teams, leadership, async-communication, feedback-templates]
+tags: [remote-work-tools, peer-feedback, remote-management, distributed-teams, leadership, async-communication, feedback-templates, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-security-compliance-checklist-for-soc2-audit-pre/
 categories: [guides]
-tags: [security, compliance, soc2, remote-work, audit]
+tags: [remote-work-tools, security, compliance, soc2, remote-work, audit]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-org-chart-restructuring-guide-when-scaling-from-/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 voice-checked: true

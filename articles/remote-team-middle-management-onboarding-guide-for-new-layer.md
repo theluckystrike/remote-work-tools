@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-middle-management-onboarding-guide-for-new-layer/
 categories: [guides]
-tags: [remote-management, middle-management, team-leadership, onboarding, remote-onboarding, engineering-management]
+tags: [remote-work-tools, remote-management, middle-management, team-leadership, onboarding, remote-onboarding, engineering-management, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

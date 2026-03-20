@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-retrospective-silent-brainstorming-technique-for/
 categories: [guides]
-tags: [retrospective, remote-work, async, team-collaboration, digital-stickies]
+tags: [remote-work-tools, retrospective, remote-work, async, team-collaboration, digital-stickies]
 reviewed: true
 score: 8
 intent-checked: true

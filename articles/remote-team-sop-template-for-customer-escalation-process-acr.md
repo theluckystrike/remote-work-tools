@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-sop-template-for-customer-escalation-process-acr/
 categories: [guides]
-tags: [remote-work, customer-support, sop, escalation, distributed-teams]
+tags: [remote-work-tools, remote-work, customer-support, sop, escalation, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-new-manager-onboarding-checklist-for-distributed/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

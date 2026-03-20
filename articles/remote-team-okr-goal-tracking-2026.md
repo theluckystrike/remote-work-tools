@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /remote-team-okr-goal-tracking-2026/
 categories: [guides]
-tags: [remote-work, okr, goals, management]
+tags: [remote-work-tools, remote-work, okr, goals, management]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

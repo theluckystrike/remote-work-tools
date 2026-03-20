@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-one-on-one-meeting-template-for-engineering-mana/
 categories: [guides]
-tags: [one-on-one, remote-work, engineering-management, direct-reports, check-ins]
+tags: [remote-work-tools, one-on-one, remote-work, engineering-management, direct-reports, check-ins]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

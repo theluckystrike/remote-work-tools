@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-scaling-retrospective-template-for-reflecting-on/
 categories: [guides]
-tags: [remote-work, team-scaling, retrospective, growth, quarterly-review]
+tags: [remote-work-tools, remote-work, team-scaling, retrospective, growth, quarterly-review]
 reviewed: true
 score: 8
 intent-checked: true

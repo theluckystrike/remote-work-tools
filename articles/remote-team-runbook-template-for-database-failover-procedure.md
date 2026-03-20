@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-runbook-template-for-database-failover-procedure/
 categories: [guides]
-tags: [database, failover, devops, remote-work, runbook, distributed-teams, incident-response]
+tags: [remote-work-tools, database, failover, devops, remote-work, runbook, distributed-teams, incident-response]
 reviewed: true
 score: 8
 intent-checked: true

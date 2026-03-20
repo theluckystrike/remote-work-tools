@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-retreat-planning-guide-budget-and-logistics-temp/
 categories: [guides]
-tags: [remote-work, team-retreat, budget-planning, logistics, team-building]
+tags: [remote-work-tools, remote-work, team-retreat, budget-planning, logistics, team-building]
 reviewed: true
 score: 8
 intent-checked: true

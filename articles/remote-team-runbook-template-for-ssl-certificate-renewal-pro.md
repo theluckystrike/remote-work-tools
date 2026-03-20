@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-runbook-template-for-ssl-certificate-renewal-pro/
 categories: [guides]
-tags: [ssl, certificates, security, infrastructure, remote-work, devops]
+tags: [remote-work-tools, ssl, certificates, security, infrastructure, remote-work, devops]
 reviewed: true
 score: 8
 intent-checked: true
