@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Tool for Remote Team Capacity Planning When Scaling Engineering Headcount Quarterly in 2026"
-description: "Discover the best tools and strategies for remote team capacity planning when scaling engineering headcount quarterly in 2026. Practical examples, code snippets, and implementation guides for engineering managers."
+title: "Best Tool for Remote Team Capacity Planning When Scaling."
+description: "Discover the best tools and strategies for remote team capacity planning when scaling engineering headcount quarterly in 2026. Practical examples, code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-capacity-planning-when-scaling-eng/
@@ -217,6 +217,11 @@ The best tool depends on your team's specific situation:
 Whatever approach you choose, the key is consistency: track your projections against actual outcomes, refine your models quarterly, and maintain transparent communication about capacity constraints with stakeholders.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

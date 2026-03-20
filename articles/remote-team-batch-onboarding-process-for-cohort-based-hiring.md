@@ -2,7 +2,7 @@
 
 layout: default
 title: "Remote Team Batch Onboarding Process for Cohort-Based Hiring"
-description: "A practical guide to implementing batch onboarding for distributed companies hiring in cohorts. Includes process templates, automation scripts, and async communication strategies."
+description: "A practical guide to implementing batch onboarding for distributed companies hiring in cohorts. Includes process templates, automation scripts, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-batch-onboarding-process-for-cohort-based-hiring/
@@ -229,6 +229,11 @@ Collect this data systematically. After each cohort, review what worked and what
 Start with a single cohort and iterate. Document every friction point, then automate or template the solutions for future batches. Within three cycles, you'll have a well-oiled machine that scales as your hiring grows.
 
 The upfront investment in building this system pays dividends immediately. Each subsequent cohort benefits from accumulated learnings, refined templates, and improving infrastructure. Your future hires will thank you—and so will your managers.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

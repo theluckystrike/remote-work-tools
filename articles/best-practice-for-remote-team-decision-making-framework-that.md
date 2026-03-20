@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Decision Making Framework That Scales Beyond Founder Decisions"
-description: "A practical guide to building decision making frameworks for remote teams that scale beyond founder decisions. Includes code examples, RACI matrices, and async decision workflows for developers and engineering leaders."
+title: "Best Practice for Remote Team Decision Making Framework."
+description: "A practical guide to building decision making frameworks for remote teams that scale beyond founder decisions. Includes code examples, RACI matrices."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-decision-making-framework-that/
@@ -250,5 +250,10 @@ The goal is not bureaucratic process for its own sake. The goal is enabling a re
 
 When this works, founders can focus on tier 3-4 decisions where their experience and business context matters most, while teams confidently handle everything below that threshold.
 {% endraw %}
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

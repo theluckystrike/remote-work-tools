@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Hiring: Diversity Sourcing Strategy for Distributed Companies Building Inclusive Teams 2026"
-description: "A practical guide to building a diversity sourcing strategy for remote team hiring. Discover actionable techniques, tools, and code examples for inclusive recruitment in distributed companies."
+title: "Remote Team Hiring: Diversity Sourcing Strategy for."
+description: "A practical guide to building a diversity sourcing strategy for remote team hiring. Discover actionable techniques, tools, and code examples for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/
@@ -193,6 +193,11 @@ Track these metrics to understand if your sourcing strategy works:
 Effective diversity sourcing for remote teams requires expanding beyond traditional channels, building genuine relationships with diverse talent communities, removing bias from screening processes, and measuring progress. The technical tools and strategies outlined here provide a foundation, but the real work comes from consistent commitment to inclusive practices at every stage of the hiring lifecycle.
 
 The remote work movement gives companies unprecedented access to global talent. By pairing that access with intentional diversity sourcing, distributed companies can build teams that are not just talented, but truly representative of the world they're building for.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

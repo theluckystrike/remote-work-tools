@@ -379,5 +379,10 @@ When deploying smart lockers in hybrid offices, several practical factors affect
 
 A well-integrated locker system removes one of the friction points in hot-desking, making it effortless for employees to store belongings securely while they work from any desk in the office.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at https://zovo.one
 {% endraw %}

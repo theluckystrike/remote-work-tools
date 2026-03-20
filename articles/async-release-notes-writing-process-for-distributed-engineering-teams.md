@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Release Notes Writing Process for Distributed Engineering Teams"
+title: "Async Release Notes Writing Process for Distributed."
 description: "A comprehensive guide to creating effective asynchronous release notes workflows for distributed engineering teams across multiple time zones."
 date: 2026-03-20
 author: theluckystrike
@@ -223,3 +223,8 @@ An async release notes process transforms what was often a painful synchronous c
 
 Start with the template and guidelines in this article, adapt them to your team's needs, and don't be afraid to experiment with different tools and timing until you find your perfect rhythm.
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+

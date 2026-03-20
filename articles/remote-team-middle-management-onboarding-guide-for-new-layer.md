@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Middle Management Onboarding Guide for New Layer Between IC and Director"
-description: "A practical onboarding framework for newly created middle management positions in remote teams, bridging the gap between individual contributors and senior directors."
+title: "Remote Team Middle Management Onboarding Guide for New."
+description: "A practical onboarding framework for newly created middle management positions in remote teams, bridging the gap between individual contributors and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-middle-management-onboarding-guide-for-new-layer/
@@ -197,6 +197,11 @@ Establish clear success criteria with your director during onboarding:
 Onboarding into a newly created middle management position in a remote team requires deliberate structure and patience. The framework outlined here—heavy on observation early, gradual responsibility transfer, and intentional relationship building—provides a template that adapts to your organization's specifics.
 
 The middle layer position exists to translate between strategy and execution, between organizational goals and individual growth. Your success depends not just on what you know, but on how effectively you build the trust necessary to bridge those gaps.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

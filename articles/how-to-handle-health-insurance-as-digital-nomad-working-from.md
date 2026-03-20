@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Health Insurance as Digital Nomad Working From Thailand Long Term"
+title: "How to Handle Health Insurance as Digital Nomad Working."
 description: "A practical guide for developers and remote workers on navigating health insurance options while living and working in Thailand long term."
 date: 2026-03-16
 author: theluckystrike
@@ -175,6 +175,11 @@ Without insurance, the same hospitalization could cost $5,000-15,000 at a privat
 Securing health insurance as a digital nomad in Thailand requires upfront research and budget allocation, but the financial protection and peace of mind prove invaluable. International health insurance provides the most flexibility for long-term remote workers, while Thailand-specific plans offer good value if you plan to stay primarily in the country.
 
 Factor insurance costs into your remote work budget early—treating it as a non-negotiable expense like your accommodation or internet connection. Your health is your most important asset as a developer, and protecting it ensures you can continue enjoying the digital nomad lifestyle in Thailand for years to come.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

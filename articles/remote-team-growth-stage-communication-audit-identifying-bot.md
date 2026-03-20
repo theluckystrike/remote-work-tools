@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Growth Stage Communication Audit: Identifying Bottlenecks as Team Exceeds 30 People"
+title: "Remote Team Growth Stage Communication Audit."
 description: "A practical guide for developers and power users to audit communication patterns and identify bottlenecks in remote teams growing beyond 30 people in 2026."
 date: 2026-03-16
 author: theluckystrike
@@ -208,6 +208,11 @@ Start with quick wins that have high visibility. Implementing a channel cleanup 
 Auditing communication patterns at team scale requires systematic data collection rather than relying on intuition. The methods outlined here — channel inventories, meeting analysis, response time tracking, and dependency mapping — provide a concrete foundation for identifying where your team's communication is breaking down.
 
 Schedule a communication audit quarterly as your team continues to grow. The patterns that work for 30 people will differ from those needed at 50 or 100, and staying ahead of the curve prevents the productivity losses that come with unmanaged communication complexity.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
