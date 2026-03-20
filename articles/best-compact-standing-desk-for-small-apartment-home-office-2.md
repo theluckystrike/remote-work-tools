@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-compact-standing-desk-for-small-apartment-home-office-2/
 categories: [guides]
-tags: [standing-desk, home-office, remote-work, ergonomics]
+tags: [remote-work-tools, standing-desk, home-office, remote-work, ergonomics, best-of]
 reviewed: true
 score: 8
 intent-checked: true

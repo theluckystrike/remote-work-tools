@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /best-contract-templates-for-freelance-developers/
 categories: [guides]
-tags: [contracts, freelance, legal, developer-tools]
+tags: [remote-work-tools, contracts, freelance, legal, developer-tools, best-of]
 reviewed: true
 score: 8
 intent-checked: true

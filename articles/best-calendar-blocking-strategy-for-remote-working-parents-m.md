@@ -8,7 +8,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-calendar-blocking-strategy-for-remote-working-parents-m/
 categories: [guides]
-tags: [productivity, time-management, calendar, remote-work, childcare]
+tags: [remote-work-tools, productivity, time-management, calendar, remote-work, childcare, best-of]
 reviewed: true
 score: 8
 intent-checked: true
