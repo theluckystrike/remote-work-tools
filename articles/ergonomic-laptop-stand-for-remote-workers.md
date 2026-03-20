@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Ergonomic Laptop Stand for Remote Workers: A Developer's Guide"
+title: "Ergonomic Laptop Stand for Remote Workers"
 description: "Learn how an ergonomic laptop stand improves posture, reduces neck strain, and enhances productivity for developers working from home. Technical specs."
 date: 2026-03-15
 author: theluckystrike

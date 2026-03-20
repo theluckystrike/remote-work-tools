@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Scale Remote Team Incident Response Process From."
+title: "Scale Remote Team Incident Response Process From."
 description: "A practical guide to evolving your incident response process as your remote team grows. Includes runbook templates, escalation workflows, and code."
 date: 2026-03-16
 author: theluckystrike
