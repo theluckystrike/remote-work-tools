@@ -10,7 +10,7 @@ tags: [remote-work-tools, nonprofit, remote-work, tools, productivity, best-of]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}
