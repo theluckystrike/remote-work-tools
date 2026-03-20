@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/
 categories: [guides]
-tags: [platform-engineering, infrastructure, shared-services, remote-work, collaboration]
+tags: [remote-work-tools, platform-engineering, infrastructure, shared-services, remote-work, collaboration, best-of]
 reviewed: true
 score: 8
 intent-checked: true

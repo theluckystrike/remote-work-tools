@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-sales-enablement-platform-for-distributed-bdrs-a/
 categories: [guides]
-tags: [sales, remote-work, bdr, sales-enablement, distributed-teams]
+tags: [remote-work-tools, sales, remote-work, bdr, sales-enablement, distributed-teams, best-of]
 reviewed: true
 score: 8
 intent-checked: true

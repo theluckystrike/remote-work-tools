@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-router-placement-for-home-office-on-second-floor-wifi/
 categories: [guides]
-tags: [wifi, networking, home-office, router]
+tags: [remote-work-tools, wifi, networking, home-office, router, best-of]
 reviewed: true
 score: 8
 intent-checked: true

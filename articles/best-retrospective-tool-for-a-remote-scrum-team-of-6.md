@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-retrospective-tool-for-a-remote-scrum-team-of-6/
 categories: [guides]
-tags: [retrospective, agile, remote-work, scrum]
+tags: [remote-work-tools, retrospective, agile, remote-work, scrum, best-of]
 reviewed: true
 score: 8
 intent-checked: true

@@ -10,6 +10,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
+tags: [remote-work-tools, best-of, workflow, remote-work]
 ---
 
 {% raw %}

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-remote-team-wellness-program-ideas-for-distributed-orga/
 categories: [guides]
-tags: [remote-work, wellness, team-building]
+tags: [remote-work-tools, remote-work, wellness, team-building, best-of]
 reviewed: true
 score: 8
 intent-checked: true

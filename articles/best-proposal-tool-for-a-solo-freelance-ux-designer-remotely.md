@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/
 categories: [guides]
-tags: [proposals, freelance, ux-design, remote-work, tools]
+tags: [remote-work-tools, proposals, freelance, ux-design, remote-work, tools, best-of]
 reviewed: true
 score: 8
 intent-checked: true

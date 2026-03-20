@@ -7,7 +7,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-team-social-channel-ideas-for-building-genuine-c/
 categories: [guides]
-tags: [slack, remote-culture, team-building, social-channels, connections]
+tags: [remote-work-tools, slack, remote-culture, team-building, social-channels, connections, best-of, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

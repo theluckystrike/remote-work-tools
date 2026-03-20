@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-team-async-daily-check-in-format-replacing-standup-meetings/
 categories: [guides]
-tags: [remote-work, async-communication, daily-standup, team-collaboration, productivity]
+tags: [remote-work-tools, remote-work, async-communication, daily-standup, team-collaboration, productivity, best-of]
 reviewed: true
 score: 8
 intent-checked: true

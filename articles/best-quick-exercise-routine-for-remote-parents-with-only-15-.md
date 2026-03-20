@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-quick-exercise-routine-for-remote-parents-with-only-15-/
 categories: [guides]
-tags: [remote-work, fitness, health, productivity, parents]
+tags: [remote-work-tools, remote-work, fitness, health, productivity, parents, best-of]
 reviewed: true
 score: 8
 intent-checked: true

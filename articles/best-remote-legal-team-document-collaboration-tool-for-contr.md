@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-legal-team-document-collaboration-tool-for-contr/
 categories: [guides]
-tags: [legal-tech, document-collaboration, remote-work, contract-review]
+tags: [remote-work-tools, legal-tech, document-collaboration, remote-work, contract-review, best-of, collaboration]
 reviewed: true
 score: 8
 intent-checked: true
