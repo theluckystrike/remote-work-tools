@@ -138,17 +138,248 @@ Watch for these warning signs:
 - Landlords unwilling to provide tenant contact for reference
 - Contracts requiring more than two months deposit
 
+## Internet Verification Checklist
+
+Before signing any lease, verify internet quality yourself:
+
+```bash
+#!/bin/bash
+# Internet quality verification script
+# Run this in the apartment before committing
+
+echo "=== Internet Quality Verification ==="
+
+# Speed test (requires speedtest-cli)
+echo "Downloading speedtest-cli..."
+pip install speedtest-cli
+
+echo "Morning test (7-9 AM):"
+speedtest-cli --simple
+
+echo "Midday test (12-2 PM):"
+speedtest-cli --simple
+
+echo "Evening test (7-10 PM):"
+speedtest-cli --simple
+
+# Video call test
+echo ""
+echo "Video call quality test:"
+echo "1. Open Zoom"
+echo "2. Join test meeting (zoom.us/test)"
+echo "3. Check: video/audio quality, no stuttering"
+
+# Consistency test
+echo ""
+echo "Ping consistency (100 samples):"
+ping -c 100 8.8.8.8 | grep -E "rtt|stddev"
+
+# DNS test
+echo ""
+echo "DNS speed:"
+nslookup google.com
+nslookup github.com
+
+echo ""
+echo "=== Results Assessment ==="
+echo "Acceptable for remote work:"
+echo "- Download: 50+ Mbps"
+echo "- Upload: 20+ Mbps"
+echo "- Ping: <50ms to 8.8.8.8"
+echo "- Jitter (stddev): <20ms"
+echo "- Video call: No drops, clear audio"
+```
+
+Document the results and compare against your requirements.
+
+## Comparing Neighborhoods: Cost vs. Convenience Matrix
+
+This comprehensive table compares all neighborhoods:
+
+| Factor | Nimman | Old City | Santitham | Hang Dong |
+|--------|--------|----------|-----------|-----------|
+| **Rent (2BR w/ office)** | 18k-28k | 16k-25k | 12k-18k | 10k-16k |
+| **Internet availability** | 95%+ | 90%+ | 85%+ | 80%+ |
+| **Noise level** | High | Medium-High | Low | Very Low |
+| **Walking distance to cafes** | Excellent | Good | Fair | Poor |
+| **Coworking spaces nearby** | 10+ | 8+ | 3-5 | 1-2 |
+| **Expat community** | Largest | Medium | Growing | Small |
+| **Transportation ease** | Excellent (central) | Good (scooters) | Fair | Requires scooter |
+| **Tourist impact** | High | Very High | Low | Minimal |
+| **Cost of living index** | 100 | 110 | 85 | 75 |
+
+### Decision Framework
+- **Prioritize productivity**: Santitham (quiet, reliable internet, decent community)
+- **Prioritize lifestyle**: Nimman (excellent amenities, community, noise acceptable)
+- **Maximize savings**: Hang Dong (cheapest, best if you have scooter)
+- **Short-term flexibility**: Old City (tourist infrastructure, monthly leases)
+
+## Rental Costs Over Time (Historical Data)
+
+Prices have increased steadily. Budget accordingly:
+
+```
+2023 baseline:
+1BR + office: 14,000 THB
+2BR: 20,000 THB
+
+2024:
+1BR + office: 16,000 THB (+14%)
+2BR: 23,000 THB (+15%)
+
+2025:
+1BR + office: 17,000 THB (+6%)
+2BR: 25,000 THB (+9%)
+
+2026 projection:
+1BR + office: 18,000-20,000 THB
+2BR: 26,000-30,000 THB
+```
+
+**Implication**: Budget is 10-15% higher than older online guides suggest.
+
+## Apartment Size and Configuration Guide
+
+### Size Recommendations by Usage
+
+| Daily Schedule | Recommended Config | Size | Monthly Budget |
+|----------------|-------------------|------|-----------------|
+| Mostly remote, occasional meetings | Studio + study nook | 35-45m² | 10k-14k |
+| Mix of remote + coworking | 1BR with small office | 45-60m² | 14k-18k |
+| Full-time remote, client calls | 1BR with dedicated office | 55-70m² | 16k-22k |
+| Team of 2 remote + 1 in office | 2BR with shared office | 70-90m² | 22k-30k |
+
+### Layout Considerations
+- **Door separating office**: Critical for video calls (minimize background noise)
+- **Window in office space**: Important for mental health during long work days
+- **Electrical outlets**: Verify 2+ outlets in office area for equipment
+- **AC in office**: Separate AC vs. shared affects comfort during heat
+- **Insulation**: Concrete buildings quieter than older structures
+
+## Application Timeline: 30-Day Search Plan
+
+### Week 1: Research and Neighborhood Testing
+- Book 1-week Airbnb in target neighborhood
+- Live there, experience noise levels, neighborhood feel
+- Run speed tests, test coworking spaces
+- Talk to 5+ long-term residents about their setup
+
+### Week 2: Initial Viewings
+- View 5-8 apartments in your target neighborhood
+- Use apartment viewing checklist (below)
+- Take photos and notes
+- Request landlord references for 2-3 properties
+
+### Week 3: Verification and Negotiation
+- Contact references (call/WhatsApp)
+- Perform internet verification in finalists
+- Negotiate final price and terms
+- Get written agreement (in English)
+
+### Week 4: Move-In
+- Execute lease
+- Arrange utilities transfer
+- Plan furniture delivery
+- Establish landlord communication channel
+
+## Apartment Viewing Checklist
+
+Print this and bring to viewings:
+
+```
+Property: ________________  Date: ________
+
+CONNECTIVITY
+☐ Tested internet (speedtest) - speeds: ______ Mbps
+☐ Landlord confirmed fiber (not shared cable)
+☐ Router placement OK for office location
+☐ Backup power verified (UPS or generator)
+
+OFFICE SPACE
+☐ Separate room or clear separate area
+☐ Door closes (sound isolation)
+☐ Window present (natural light)
+☐ Desk-sized surface available
+☐ 2+ electrical outlets
+☐ AC unit in office (separate or shared)
+
+GENERAL CONDITIONS
+☐ Noise levels acceptable (at different times)
+☐ Security: locked building entrance
+☐ Emergency contact established
+☐ Utilities included or estimated cost
+☐ Parking available (if you have scooter)
+
+LANDLORD/LEASE
+☐ Landlord responsive and professional
+☐ References confirmed positive
+☐ Lease in English (not just Thai)
+☐ Deposit amount (usually 1-2 months)
+☐ Early termination clause clear
+☐ Internet support policy documented
+
+FINAL RATING: ___/10
+Would you sign today? YES / NO
+Why or why not: ________________
+```
+
+## Lease Template Essentials
+
+Ensure your lease covers these points (have translated if needed):
+
+```markdown
+## Critical Lease Provisions
+
+1. **Internet Provision**
+   - Landlord provides fiber internet OR
+   - Landlord covers installation AND provides credentials
+   - Minimum speed: 100 Mbps download (NOT "high speed")
+   - Troubleshooting response time: 24 hours
+
+2. **Early Termination**
+   - Allow termination with 1-month notice
+   - Non-refundable deposit if violated (vs. full forfeit)
+   - Acceptable move-out condition defined
+
+3. **Maintenance**
+   - AC maintenance responsibility (typically landlord)
+   - Water heater issues (typically landlord)
+   - Electrical problems (landlord within 48 hours)
+
+4. **Changes/Furniture**
+   - Your right to add shelves, desk setup
+   - What cannot be modified
+   - Restoration requirements at move-out
+
+5. **Utilities**
+   - Included vs. meter-based breakdown
+   - Reasonable usage expectations
+   - Billing process and payment terms
+```
+
 ## Final Recommendations
 
 Finding the right apartment requires balancing multiple factors. For developers and power users:
 
-1. Start with neighborhood: Spend a week in your target area using Airbnb
-2. Test internet thoroughly: Run actual speed tests with your work applications
-3. Prioritize dedicated space: Separate work from living areas increases productivity
-4. Build relationships: Thai landlords value long-term tenants who communicate clearly
-5. Document everything: Get all agreements in writing, especially regarding internet
+1. **Start with neighborhood**: Spend a week in your target area using Airbnb (budget: $15-25/night)
+2. **Test internet thoroughly**: Run actual speed tests with your work applications before committing
+3. **Prioritize dedicated space**: Separate work from living areas increases productivity significantly
+4. **Build relationships**: Thai landlords value long-term tenants who communicate clearly
+5. **Document everything**: Get all agreements in writing, especially regarding internet and office setup
 
-Chiang Mai offers excellent value for remote workers willing to invest time in finding the right fit. The city's infrastructure continues improving, and the community of remote workers provides valuable network support during your search.
+### Budget Planning
+- Expect to spend 4,000-8,000 THB monthly on utilities (electricity can be high with AC)
+- Allocate 1-2 months to find the right place
+- Budget 500-2,000 THB for furniture/setup
+
+### Timeline Expectation
+Most remote workers find suitable apartments within 2-3 weeks of active searching, provided they:
+- Test neighborhoods first (don't decide online)
+- Verify internet before signing
+- Communicate clearly with landlords
+- Are flexible on minor imperfections
+
+Chiang Mai offers exceptional value for remote workers willing to invest time in finding the right fit. The city's infrastructure continues improving, and the community of remote workers provides valuable network support during your search. Once settled, most remote workers report cost of living 50-70% lower than major Western cities while maintaining excellent work conditions.
 
 
 ## Related Reading

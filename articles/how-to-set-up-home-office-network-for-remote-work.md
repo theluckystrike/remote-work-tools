@@ -147,9 +147,164 @@ curl -sSL https://install.pi-hole.net | bash
 
 Alternatively, use fast public DNS servers like Cloudflare (1.1.1.1) or Google (8.8.8.8) if local resolution isn't necessary for your setup.
 
+## Hardware Recommendations and Pricing
+
+Your network's quality depends directly on router and switch quality. Here's a comparison of popular options:
+
+### Consumer Routers (Budget)
+| Router | Price | Best For | Downsides |
+|--------|-------|----------|-----------|
+| TP-Link Archer AX12 | $80-100 | Basic WiFi 6, small homes | Limited wired ports, no VLAN |
+| Netgear Nighthawk AX12 | $120-150 | Good range, user-friendly | Mediocre QoS implementation |
+| ASUS RT-AX88U | $150-200 | Strong performance, tweakable | Steeper learning curve |
+
+### Prosumer Routers (Power Users)
+| Router | Price | Best For | Downsides |
+|--------|-------|----------|-----------|
+| Ubiquiti Dream Machine | $300-350 | Full network management, security | Requires technical knowledge |
+| ASUS ProArt AXE16000 | $400+ | Extreme performance, 6GHz | Overkill for most home offices |
+
+### Network Switches (Wired Expansion)
+If your router lacks enough Ethernet ports, add a managed switch:
+- TP-Link TL-SG108PE (8 ports): $35-50 — Simple, reliable PoE support
+- Netgear MS510TX (5 ports): $60-80 — Managed switch with VLAN support
+- Ubiquiti UniFi Switch (16 ports): $150+ — Enterprise-grade, integrates with UniFi ecosystem
+
+For most remote workers, a good consumer WiFi 6 router ($100-150) plus a basic managed switch ($50-80) covers 95% of real-world needs. Don't overspend on hardware if your network design is solid.
+
+## Cable Infrastructure Strategy
+
+Ethernet cable quality matters less than placement. Cat5e handles gigabit speeds; Cat6 future-proofs for 10Gbps (overkill for residential). The real investment is labor:
+
+- Budget 30-40 minutes per 50 feet of cable to run neatly
+- Use cable conduit if drilling through walls
+- Label both ends clearly for troubleshooting
+- Consider wall-mounted conduit if permanent installation isn't feasible
+
+Total cost estimate for a home office with 3-4 wired devices: $100-200 in cable and hardware.
+
+## Backup Connectivity Options
+
+A single internet connection represents a critical failure point. Consider these backup strategies:
+
+### Mobile Hotspot Backup
+Keep a mobile plan with 10-20GB monthly data (~$20-40/month). Test it monthly to ensure it actually works when needed. Configure your laptop to automatically switch if primary connection fails.
+
+### Dual ISP Setup
+If your building has fiber and cable availability, maintain both connections. Route critical applications through one, batch transfers through the other. A simple router with dual WAN failover handles this automatically.
+
+### Community WiFi Alternatives
+Map nearby coworking spaces and coffee shops offering free WiFi. These serve as fallback venues if your home office becomes unusable.
+
+## Testing and Validation Framework
+
+Before relying on your network for critical work, run this validation suite:
+
+1. **Latency test (10 runs)**: Target p95 latency <20ms to your primary cloud services
+2. **Jitter measurement**: Run constant ping for 5 minutes, calculate standard deviation
+3. **Video call test**: Schedule test call with stability checks (bitrate stability, packet loss rate)
+4. **Large file transfer**: Copy 1GB file locally, then over network, compare speeds
+5. **Peak load test**: Run video call + large download + speed test simultaneously
+
+Document baseline metrics. When problems emerge, compare against this baseline to identify regression.
+
+## Monitoring and Alerting Setup
+
+Set up automated monitoring to catch problems before they impact work:
+
+```bash
+#!/bin/bash
+# Monitor script with alerting
+# Save as /usr/local/bin/network-monitor.sh
+
+PING_THRESHOLD=50  # ms
+LOSS_THRESHOLD=5   # percent
+TARGET_HOST="8.8.8.8"
+
+check_network() {
+  result=$(ping -c 10 -W 2 $TARGET_HOST | tail -1)
+
+  avg=$(echo "$result" | awk '{print $4}' | cut -d'/' -f2)
+  loss=$(echo "$result" | grep -oP '\d+(?=% packet loss)')
+
+  if (( $(echo "$avg > $PING_THRESHOLD" | bc -l) )); then
+    echo "WARNING: High latency ($avg ms) at $(date)"
+    # Send alert: curl, mail, Slack, etc.
+  fi
+
+  if (( loss > $LOSS_THRESHOLD )); then
+    echo "WARNING: Packet loss ($loss%) at $(date)"
+  fi
+}
+
+# Run every 5 minutes
+check_network
+```
+
+## Advanced Configuration Examples
+
+### VLAN Setup with OpenWrt
+If you have an OpenWrt-compatible router:
+
+```bash
+# SSH into router
+ssh root@192.168.1.1
+
+# Create new VLAN
+uci set network.guest=interface
+uci set network.guest.type=bridge
+uci set network.guest.proto=static
+uci set network.guest.ipaddr=192.168.3.1
+uci set network.guest.netmask=255.255.255.0
+uci commit network
+
+# Create new wireless interface
+uci set wireless.wifiguest=wifi-iface
+uci set wireless.wifiguest.device=radio0
+uci set wireless.wifiguest.mode=ap
+uci set wireless.wifiguest.network=guest
+uci set wireless.wifiguest.ssid="Guest Network"
+uci set wireless.wifiguest.encryption=psk2
+uci set wireless.wifiguest.key="your-password"
+uci commit wireless
+
+wifi
+```
+
+### WireGuard VPN on Home Network
+For accessing home resources securely:
+
+```bash
+# Generate keys on server
+umask 077
+wg genkey | tee privatekey | wg pubkey > publickey
+
+# Create config
+cat > /etc/wireguard/wg0.conf << EOF
+[Interface]
+Address = 10.0.0.1/24
+ListenPort = 51820
+PrivateKey = <server-private-key>
+
+[Peer]
+PublicKey = <client-public-key>
+AllowedIPs = 10.0.0.2/32
+
+[Peer]
+PublicKey = <laptop-public-key>
+AllowedIPs = 10.0.0.3/32
+EOF
+
+# Enable and start
+systemctl enable wg-quick@wg0
+systemctl start wg-quick@wg0
+```
+
 ## Final Recommendations
 
 Building a reliable home office network requires balancing cost, complexity, and performance. Start with wired connections where practical, segment your network for security, and prioritize traffic for your most critical applications. Test your setup under realistic conditions before relying on it for important work.
+
+Budget $200-400 total for a solid setup: good router ($100-150), managed switch ($50-80), cable infrastructure ($50-100), and monitoring tools (free). This investment pays for itself in productivity within weeks.
 
 A well-configured network fades into the background—you forget it exists until something breaks.
 
