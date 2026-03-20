@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding"
+title: "How to Create a Remote Team Communication Charter That."
 description: "A practical guide for developers and technical teams to build communication charters that actually get adopted by new hires during onboarding."
 date: 2026-03-16
 author: theluckystrike
@@ -227,5 +227,10 @@ After implementing your charter, measure whether it's actually working:
 - Track response times to see if expectations are realistic
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
