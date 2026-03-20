@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /bermuda-work-from-bermuda-certificate-application-for-remote/
 categories: [guides]
-tags: [bermuda, remote-work, digital-nomad, tax-residency, work-permit, remote-work-visa]
+tags: [remote-work-tools, bermuda, remote-work, digital-nomad, tax-residency, work-permit, remote-work-visa]
 reviewed: true
 score: 8
 intent-checked: true

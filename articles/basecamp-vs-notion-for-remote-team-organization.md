@@ -11,6 +11,7 @@ score: 8
 voice-checked: true
 categories: [comparisons]
 intent-checked: true
+tags: [remote-work-tools, comparison, remote-work]
 ---
 
 

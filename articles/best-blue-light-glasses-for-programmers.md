@@ -7,10 +7,11 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-blue-light-glasses-for-programmers/
 reviewed: true
-score: 8
+score: 7
 categories: [guides]
 voice-checked: true
 intent-checked: true
+tags: [remote-work-tools, best-of]
 ---
 
 

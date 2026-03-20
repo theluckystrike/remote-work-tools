@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-annotation-tool-for-remote-design-review-with-clients-2/
 categories: [guides]
-tags: [design, collaboration, annotation, remote-work, client-communication]
+tags: [remote-work-tools, design, collaboration, annotation, remote-work, client-communication, best-of]
 reviewed: true
 score: 8
 intent-checked: true

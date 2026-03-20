@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-analytics-dashboard-for-a-remote-growth-team-of-4/
 categories: [guides]
-tags: [analytics, dashboards, remote-work, growth]
+tags: [remote-work-tools, analytics, dashboards, remote-work, growth, best-of]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /best-browser-extensions-for-developer-productivity/
 categories: [guides]
-tags: [productivity, browser-extensions, developer-tools]
+tags: [remote-work-tools, productivity, browser-extensions, developer-tools, best-of]
 reviewed: true
 score: 8
 intent-checked: true

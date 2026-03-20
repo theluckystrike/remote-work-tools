@@ -7,9 +7,9 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-adjustable-laptop-stand-for-eye-level-on-standing-desk/
 categories: [guides]
-tags: [ergonomics, laptop-stand, standing-desk, remote-work]
+tags: [remote-work-tools, ergonomics, laptop-stand, standing-desk, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
