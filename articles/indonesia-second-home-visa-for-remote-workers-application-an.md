@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /indonesia-second-home-visa-for-remote-workers-application-an/
 categories: [guides]
-tags: [indonesia, second-home-visa, remote-work, digital-nomad, visa-guide, indonesian-visa]
+tags: [remote-work-tools, indonesia, second-home-visa, remote-work, digital-nomad, visa-guide, indonesian-visa]
 reviewed: true
 score: 8
 intent-checked: true

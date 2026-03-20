@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /meeting-free-day-policy-for-remote-teams-guide/
 categories: [guides]
-tags: [remote-work, meetings, productivity, async-communication]
+tags: [remote-work-tools, remote-work, meetings, productivity, async-communication]
 reviewed: true
 score: 8
 intent-checked: true

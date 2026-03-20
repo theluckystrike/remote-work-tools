@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /mexico-temporary-resident-visa-for-remote-workers-earning-fo/
 categories: [guides]
-tags: [mexico-visa, remote-work-visa, digital-nomad, temporary-resident-visa, mexico-immigration, remote-workers, foreign-income]
+tags: [remote-work-tools, mexico-visa, remote-work-visa, digital-nomad, temporary-resident-visa, mexico-immigration, remote-workers, foreign-income]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

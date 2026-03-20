@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /japan-digital-nomad-visa-requirements-for-remote-software-en/
 categories: [guides]
-tags: [japan, digital-nomad-visa, remote-work, japan-visa, software-engineer]
+tags: [remote-work-tools, japan, digital-nomad-visa, remote-work, japan-visa, software-engineer]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 9
 ---
 
 {% raw %}

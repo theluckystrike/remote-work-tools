@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/
 categories: [guides]
-tags: [hybrid-work, management-training, leadership, distributed-teams, team-management]
+tags: [remote-work-tools, hybrid-work, management-training, leadership, distributed-teams, team-management]
 reviewed: true
 score: 8
 intent-checked: true

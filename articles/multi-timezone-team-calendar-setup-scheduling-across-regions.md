@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /multi-timezone-team-calendar-setup-scheduling-across-regions/
 categories: [guides]
-tags: [remote-work, calendar, scheduling, timezones]
+tags: [remote-work-tools, remote-work, calendar, scheduling, timezones]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

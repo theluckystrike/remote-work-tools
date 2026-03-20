@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /incident-management-setup-for-a-remote-devops-team-of-5/
 categories: [guides]
-tags: [incident-management, devops, remote-work, on-call, runbooks, sre]
+tags: [remote-work-tools, incident-management, devops, remote-work, on-call, runbooks, sre]
 reviewed: true
 score: 8
 intent-checked: true

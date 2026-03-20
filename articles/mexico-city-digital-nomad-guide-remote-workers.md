@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /mexico-city-digital-nomad-guide-remote-workers/
 categories: [guides]
-tags: [digital-nomad, mexico-city, remote-work, coworking]
+tags: [remote-work-tools, digital-nomad, mexico-city, remote-work, coworking]
 reviewed: true
 score: 8
 intent-checked: true

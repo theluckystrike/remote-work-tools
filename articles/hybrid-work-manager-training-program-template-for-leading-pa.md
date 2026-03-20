@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-manager-training-program-template-for-leading-pa/
 categories: [guides]
-tags: [hybrid-work, manager-training, distributed-teams, team-leadership, remote-management, training-template]
+tags: [remote-work-tools, hybrid-work, manager-training, distributed-teams, team-leadership, remote-management, training-template]
 reviewed: true
 score: 8
 intent-checked: true

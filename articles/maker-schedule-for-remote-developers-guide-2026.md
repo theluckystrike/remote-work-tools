@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /maker-schedule-for-remote-developers-guide-2026/
 categories: [guides]
-tags: [productivity, remote-work, maker-schedule, deep-work, time-management]
+tags: [remote-work-tools, productivity, remote-work, maker-schedule, deep-work, time-management]
 reviewed: true
 score: 8
 intent-checked: true

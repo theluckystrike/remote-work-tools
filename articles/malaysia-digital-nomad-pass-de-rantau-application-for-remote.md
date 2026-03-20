@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /malaysia-digital-nomad-pass-de-rantau-application-for-remote/
 categories: [guides]
-tags: [malaysia, digital-nomad, de-rantau, visa, remote-work, southeast-asia]
+tags: [remote-work-tools, malaysia, digital-nomad, de-rantau, visa, remote-work, southeast-asia]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

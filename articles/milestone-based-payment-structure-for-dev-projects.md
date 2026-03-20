@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /milestone-based-payment-structure-for-dev-projects/
 categories: [guides]
-tags: [payments, contracts, freelance, project-management]
+tags: [remote-work-tools, payments, contracts, freelance, project-management]
 reviewed: true
 score: 8
 intent-checked: true

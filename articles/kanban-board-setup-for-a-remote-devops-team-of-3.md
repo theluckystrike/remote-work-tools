@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /kanban-board-setup-for-a-remote-devops-team-of-3/
 categories: [guides]
-tags: [kanban, remote-work, devops, productivity]
+tags: [remote-work-tools, kanban, remote-work, devops, productivity]
 reviewed: true
 score: 8
 intent-checked: true

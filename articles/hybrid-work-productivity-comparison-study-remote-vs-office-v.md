@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/
 categories: [guides]
-tags: [remote-work, hybrid-work, productivity, productivity-metrics, work-models]
+tags: [remote-work-tools, remote-work, hybrid-work, productivity, productivity-metrics, work-models, comparison]
 reviewed: true
 score: 8
 intent-checked: true

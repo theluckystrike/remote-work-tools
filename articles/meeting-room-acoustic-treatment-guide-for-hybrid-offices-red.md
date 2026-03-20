@@ -6,10 +6,11 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 categories: [guides]
 intent-checked: true
+tags: [remote-work-tools]
 ---
 
 
