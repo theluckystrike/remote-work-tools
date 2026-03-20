@@ -8,7 +8,7 @@ permalink: /best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/
 categories: [guides]
 tags: [remote-work-tools, portugal, sim-card, mobile-data, remote-work, digital-nomad, 5g, esim]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
