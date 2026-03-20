@@ -8,7 +8,7 @@ permalink: /best-practice-for-remote-team-code-review-comments-keeping-f/
 categories: [guides]
 tags: [remote-work-tools, code-review, remote-work, feedback, team-collaboration, developer-culture, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

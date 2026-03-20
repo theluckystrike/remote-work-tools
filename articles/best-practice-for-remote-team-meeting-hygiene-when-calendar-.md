@@ -8,7 +8,7 @@ permalink: /best-practice-for-remote-team-meeting-hygiene-when-calendar-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, meeting-hygiene, calendar-management, team-scaling, productivity, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
