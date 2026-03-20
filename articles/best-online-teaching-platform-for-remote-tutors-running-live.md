@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Online Teaching Platform for Remote Tutors Running Live Group Sessions"
+title: "Best Online Teaching Platform for Remote Tutors Running."
 description: "Compare the best online teaching platforms for remote tutors running live group sessions. Includes code examples, API integrations, and implementation."
 date: 2026-03-16
 author: theluckystrike

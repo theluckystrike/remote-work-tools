@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Whiteboard Tool for Remote Client Brainstorming Sessions 2026"
+title: "Best Whiteboard Tool for Remote Client Brainstorming."
 description: "Discover the best whiteboard tool for remote client brainstorming sessions in 2026. Compare features, real-time collaboration, API access, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

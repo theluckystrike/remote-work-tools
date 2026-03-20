@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Chrome Extension Window Resizer Testing: Complete Guide for 2026"
-description: "Master Chrome extension window resizer testing with this guide. Learn about the best viewport testing extensions, how to test responsive designs, and improve your development workflow."
+title: "Chrome Extension Window Resizer Testing: Complete Guide."
+description: "Master Chrome extension window resizer testing with this guide. Learn about the best viewport testing extensions, how to test responsive designs, and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-window-resizer-testing/

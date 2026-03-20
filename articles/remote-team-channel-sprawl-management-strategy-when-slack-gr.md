@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Channel Sprawl Management Strategy When Slack Grows Too Large"
+title: "Remote Team Channel Sprawl Management Strategy When."
 description: "A practical guide for developers and power users to manage Slack channel sprawl in remote teams with 200+ channels. Includes automation scripts."
 date: 2026-03-16
 author: theluckystrike

@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies"
-description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code snippets for building effective hiring processes."
+title: "Remote Team Hiring Manager Training Program for."
+description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-manager-training-program-for-first-time-m/

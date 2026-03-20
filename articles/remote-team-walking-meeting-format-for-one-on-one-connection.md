@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Walking Meeting Format for One-on-One Connections"
+title: "Remote Team Walking Meeting Format for One-on-One."
 description: "A practical guide to running walking meetings with remote team members. Includes format templates, scheduling scripts, and audio configuration tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

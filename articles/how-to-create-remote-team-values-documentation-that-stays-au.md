@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Values Documentation That Stays Authentic During Rapid Scaling"
+title: "How to Create Remote Team Values Documentation That."
 description: "A practical guide for developers and technical leads building team values documentation that maintains authenticity when scaling from 5 to 50+."
 date: 2026-03-16
 author: theluckystrike

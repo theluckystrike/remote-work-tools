@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Thailand Long Term Visa for Remote Workers 2026: Complete Guide"
+title: "Thailand Long Term Visa for Remote Workers 2026."
 description: "Everything developers and digital nomads need to know about Thailand's visa options for remote work in 2026. Compare requirements, application processes, and practical tips."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

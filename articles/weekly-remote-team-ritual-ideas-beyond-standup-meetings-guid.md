@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guide"
+title: "Weekly Remote Team Ritual Ideas Beyond Standup Meetings."
 description: "Discover practical weekly remote team ritual ideas beyond standup meetings. This guide provides actionable examples and code snippets for developers."
 date: 2026-03-16
 author: theluckystrike

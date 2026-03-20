@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team One on One Meeting Template for Engineering Managers with Direct Reports"
+title: "Remote Team One on One Meeting Template for Engineering."
 description: "A practical template and framework for engineering managers running effective one-on-one meetings with remote direct reports. Includes async options."
 date: 2026-03-16
 author: theluckystrike

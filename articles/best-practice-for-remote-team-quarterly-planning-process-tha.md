@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide"
-description: "A practical guide to scaling quarterly planning across multiple remote teams. Learn actionable frameworks, templates, and automation strategies that reduce coordination overhead while maintaining alignment."
+title: "Best Practice for Remote Team Quarterly Planning Process."
+description: "A practical guide to scaling quarterly planning across multiple remote teams. Learn actionable frameworks, templates, and automation strategies that."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/

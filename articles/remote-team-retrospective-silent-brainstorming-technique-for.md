@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Retrospective Silent Brainstorming Technique for Distributed Teams Using Digital Stickies"
+title: "Remote Team Retrospective Silent Brainstorming Technique."
 description: "A practical guide to running effective async retrospectives with digital stickies. Learn how silent brainstorming levels the playing field for remote."
 date: 2026-03-16
 author: theluckystrike

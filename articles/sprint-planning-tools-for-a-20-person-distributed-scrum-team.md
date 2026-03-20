@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sprint Planning Tools for a 20 Person Distributed Scrum Team"
-description: "Discover practical sprint planning tools for a 20 person distributed scrum team. Compare solutions with code examples, API integrations, and implementation patterns."
+description: "Discover practical sprint planning tools for a 20 person distributed scrum team. Compare solutions with code examples, API integrations, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /sprint-planning-tools-for-a-20-person-distributed-scrum-team/

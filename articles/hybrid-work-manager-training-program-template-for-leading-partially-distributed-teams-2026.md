@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Hybrid Work Manager Training Program Template for Leading Partially Distributed Teams 2026"
+title: "Hybrid Work Manager Training Program Template for."
 description: "A practical template and framework for training managers to lead hybrid teams with both remote and in-office employees. Includes exercises, templates."
 date: 2026-03-16
 author: theluckystrike

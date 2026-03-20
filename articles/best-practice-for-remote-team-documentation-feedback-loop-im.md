@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Remote Team Documentation Feedback Loop: Improving Wiki Quality Over Time"
+title: "Best Practice for Remote Team Documentation Feedback."
 description: "Learn practical strategies for building effective documentation feedback loops in remote teams. Discover code examples, workflow patterns, and tools to."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

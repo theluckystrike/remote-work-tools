@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Bring Your Own Device Policy for Remote Teams Legally"
+title: "How to Create Bring Your Own Device Policy for Remote."
 description: "A practical guide to building a legally compliant BYOD policy for remote developers and distributed teams. Includes templates, code examples, and."
 date: 2026-03-16
 author: theluckystrike

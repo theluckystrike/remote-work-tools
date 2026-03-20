@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Transition Team Rituals from Fully Remote to Hybrid Format Smoothly"
+title: "How to Transition Team Rituals from Fully Remote to."
 description: "Practical guide for developers and power users transitioning team rituals from fully remote to hybrid work. Includes code snippets and actionable examples."
 date: 2026-03-16
 author: theluckystrike

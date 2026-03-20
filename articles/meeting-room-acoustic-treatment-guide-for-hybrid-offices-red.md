@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Meeting Room Acoustic Treatment Guide for Hybrid Offices: Reducing Echo"
+title: "Meeting Room Acoustic Treatment Guide for Hybrid."
 description: "A practical technical guide for developers and power users implementing acoustic treatment in meeting rooms to reduce echo and improve call quality for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

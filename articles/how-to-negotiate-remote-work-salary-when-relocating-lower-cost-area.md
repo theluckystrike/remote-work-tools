@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Negotiate Remote Work Salary When Relocating to Lower Cost Area."
+title: "How to Negotiate Remote Work Salary When Relocating to."
 description: "Data-driven strategies to maintain your salary while moving to cheaper cities without justifying a pay cut."
 date: 2026-03-20
 author: theluckystrike

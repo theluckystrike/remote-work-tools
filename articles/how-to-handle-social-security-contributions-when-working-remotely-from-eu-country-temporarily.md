@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Social Security Contributions When Working Remotely from an EU Country Temporarily"
+title: "How to Handle Social Security Contributions When Working."
 description: "A practical guide for developers and remote workers on managing social security contributions when working temporarily in EU countries. Covers the."
 date: 2026-03-16
 author: theluckystrike

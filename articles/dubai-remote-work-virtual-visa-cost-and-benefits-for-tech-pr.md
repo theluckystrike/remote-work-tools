@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Dubai Remote Work Virtual Visa Cost and Benefits for Tech Professionals 2026"
+title: "Dubai Remote Work Virtual Visa Cost and Benefits for."
 description: "A practical guide to Dubai's virtual visa options for developers and remote tech workers. Compare costs, eligibility, and benefits for working remotely from the UAE."
 date: 2026-03-16
 author: theluckystrike

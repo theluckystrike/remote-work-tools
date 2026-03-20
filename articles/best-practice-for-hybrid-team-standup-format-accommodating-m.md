@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Standup Format Accommodating Mixed Attendance"
+title: "Best Practice for Hybrid Team Standup Format."
 description: "A practical guide to running effective hybrid standups that include both in-office and remote developers. Includes formats, tools, and facilitation tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

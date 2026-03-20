@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Compact Standing Desk for Small Apartment Home Office 2026"
+title: "Best Compact Standing Desk for Small Apartment Home."
 description: "A practical guide to compact standing desks for small apartment home offices. Features, considerations, and setup tips for developers and power users."
 date: 2026-03-16
 author: theluckystrike

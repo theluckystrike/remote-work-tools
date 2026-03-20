@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "L-Shaped Desk vs Straight Desk for Home Office: A Developer Comparison"
+title: "L-Shaped Desk vs Straight Desk for Home Office: A."
 description: "Compare l-shaped desk vs straight desk for home office setups. Analyze space efficiency, monitor configurations, cable management, and ergonomics for."
 date: 2026-03-15
 author: theluckystrike

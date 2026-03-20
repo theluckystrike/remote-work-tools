@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Sales Team Demo Environment Setup for Distributed Solution Engineers Guide"
+title: "Remote Sales Team Demo Environment Setup for Distributed."
 description: "A practical guide to setting up demo environments for remote sales teams. Learn how distributed solution engineers can create consistent, secure, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

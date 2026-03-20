@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Record Client Demo Videos Asynchronously for Remote Agency"
+title: "How to Record Client Demo Videos Asynchronously for."
 description: "Learn practical techniques for recording client demo videos asynchronously. Includes setup recommendations, recording workflows, and automation scripts."
 date: 2026-03-16
 author: theluckystrike

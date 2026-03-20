@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Hybrid Team All Hands Meeting with Mixed In-Person Remote"
+title: "Best Practice for Hybrid Team All Hands Meeting with."
 description: "Master hybrid all-hands meetings with mixed in-person and remote attendees. Practical patterns, technical setup, facilitation techniques for developers."
 date: 2026-03-16
 author: theluckystrike

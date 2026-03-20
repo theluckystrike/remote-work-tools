@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Build a Productive Home Office for Under $500"
-description: "Build a high-productivity home office setup on a budget. Detailed breakdown of essential equipment, smart shopping strategies, and DIY alternatives that work."
+description: "Build a high-productivity home office setup on a budget. Detailed breakdown of essential equipment, smart shopping strategies, and DIY alternatives."
 date: 2026-03-20
 author: theluckystrike
 permalink: /how-to-build-a-productive-home-office-for-under-500/

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tools for Managing Client Contracts and Invoices as a Freelance Developer."
+title: "Best Tools for Managing Client Contracts and Invoices as."
 description: "Integrated solutions for contracts, invoicing, payment tracking, and tax compliance without legal nightmare."
 date: 2026-03-20
 author: theluckystrike

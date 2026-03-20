@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hybrid Office Space Planning Tool for Facilities Managers: Optimizing Desk Utilization in 2026"
+title: "Hybrid Office Space Planning Tool for Facilities."
 description: "A technical guide to building desk utilization tracking systems for hybrid offices. Covers sensor integration, occupancy analytics, API design, and."
 date: 2026-03-16
 author: "Remote Work Tools"

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Organize Cables in Home Office Setup"
-description: "A practical guide for developers and power users on organizing cables in home office setups. Includes cable management scripts, routing strategies, and maintenance automation."
+description: "A practical guide for developers and power users on organizing cables in home office setups. Includes cable management scripts, routing strategies, and."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-organize-cables-in-home-office-setup/

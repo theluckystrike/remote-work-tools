@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Whiteboard Tool for a Remote Team of 10 Product Managers"
+title: "Best Whiteboard Tool for a Remote Team of 10 Product."
 description: "Find the ideal digital whiteboard solution for a distributed product team. Compare real-time collaboration features, API integrations, and pricing for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

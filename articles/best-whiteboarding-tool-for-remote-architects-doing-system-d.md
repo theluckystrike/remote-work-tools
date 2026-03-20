@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026"
-description: "Discover the best whiteboarding tools for remote architects running system design sessions. Compare real-time collaboration, diagramming features, and pricing for"
+title: "Best Whiteboarding Tool for Remote Architects Doing."
+description: "Discover the best whiteboarding tools for remote architects running system design sessions. Compare real-time collaboration, diagramming features, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-whiteboarding-tool-for-remote-architects-doing-system-d/

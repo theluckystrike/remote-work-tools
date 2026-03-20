@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Give Constructive Feedback Asynchronously Without Misunderstanding Tone"
+title: "How to Give Constructive Feedback Asynchronously Without."
 description: "Master asynchronous feedback techniques for remote teams. Learn structured frameworks, tone indicators, and code examples that prevent tone."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

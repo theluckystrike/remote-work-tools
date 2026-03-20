@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Hybrid Meeting Etiquette Guide Ensuring Remote Participants Are Not Forgotten"
+title: "Best Hybrid Meeting Etiquette Guide Ensuring Remote."
 description: "A practical guide to running hybrid meetings where remote participants feel included. Code examples and workflows for developers and power users."
 date: 2026-03-16
 author: theluckystrike

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Meeting Structure That Scales Without Adding More Meetings 2026"
+title: "Best Practice for Remote Team Meeting Structure That."
 description: "Learn how to build a remote team meeting structure that scales as your team grows without creating more meetings. Practical frameworks for developers."
 date: 2026-03-16
 author: theluckystrike

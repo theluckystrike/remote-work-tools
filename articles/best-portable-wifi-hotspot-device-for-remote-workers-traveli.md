@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026"
+title: "Best Portable WiFi Hotspot Device for Remote Workers."
 description: "A technical guide to selecting portable WiFi hotspot devices for remote workers traveling across Europe. Compare cellular bands, data plans, and setup."
 date: 2026-03-16
 author: theluckystrike

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Home Office Dehumidifier for Basement Workspace: 2026 Technical Guide"
+title: "Home Office Dehumidifier for Basement Workspace: 2026."
 description: "A technical guide for developers and power users selecting dehumidifiers for basement home offices. Covers humidity metrics, smart home."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

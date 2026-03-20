@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company"
+title: "Remote Team First 90 Days Plan Template for Senior Hires."
 description: "A 90-day onboarding plan template for senior hires joining remote teams. Practical frameworks, weekly milestones, and async communication strategies."
 date: 2026-03-16
 author: theluckystrike

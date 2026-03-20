@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Best Practice for Remote Team Documentation Scaling When Wiki Becomes Unwieldy"
-description: "A practical guide for engineering managers on scaling remote team documentation when wikis grow too large, with strategies for organization, search, and maintenance."
+title: "Best Practice for Remote Team Documentation Scaling When."
+description: "A practical guide for engineering managers on scaling remote team documentation when wikis grow too large, with strategies for organization, search."
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/

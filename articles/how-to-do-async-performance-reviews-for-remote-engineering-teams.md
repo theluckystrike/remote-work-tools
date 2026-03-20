@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "How to Do Async Performance Reviews for Remote Engineering Teams"
-description: "A practical guide to running effective async performance reviews for distributed engineering teams. Learn frameworks, templates, and tools for remote feedback."
+title: "How to Do Async Performance Reviews for Remote."
+description: "A practical guide to running effective async performance reviews for distributed engineering teams. Learn frameworks, templates, and tools for remote."
 date: 2026-03-17
 author: theluckystrike
 permalink: /how-to-do-async-performance-reviews-for-remote-engineering-teams/

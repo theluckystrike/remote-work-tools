@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote 1 on 1 Meeting Tool Comparison for Distributed Managers 2026"
-description: "Compare the best remote 1 on 1 meeting tools for distributed managers in 2026. Evaluate Zoom, Google Meet, Microsoft Teams, Poppins, Hypercontext, and specialized async options with code examples and implementation patterns."
+title: "Remote 1 on 1 Meeting Tool Comparison for Distributed."
+description: "Compare the best remote 1 on 1 meeting tools for distributed managers in 2026. Evaluate Zoom, Google Meet, Microsoft Teams, Poppins, Hypercontext, and."
 date: 2026-03-20
 author: theluckystrike
 permalink: /remote-1-on-1-meeting-tool-comparison-for-distributed-manage/

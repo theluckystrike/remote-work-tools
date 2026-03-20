@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub"
+title: "Async Pair Programming Workflow Using Recorded."
 description: "A guide to implementing async pair programming for distributed teams using screen recordings, GitHub, and collaborative workflows."
 date: 2026-03-18
 author: theluckystrike

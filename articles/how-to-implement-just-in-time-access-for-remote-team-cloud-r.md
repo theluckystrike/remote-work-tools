@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Implement Just-in-Time Access for Remote Team Cloud Resources"
+title: "How to Implement Just-in-Time Access for Remote Team."
 description: "Learn how to implement just-in-time access for remote team cloud resources with practical code examples, implementation patterns, and security best."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

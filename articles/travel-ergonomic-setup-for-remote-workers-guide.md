@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace"
-description: "Practical strategies for maintaining ergonomic health while traveling for remote work. Build a portable setup that protects your body across hotels, coworking spaces, and cafes."
+description: "Practical strategies for maintaining ergonomic health while traveling for remote work. Build a portable setup that protects your body across hotels."
 date: 2026-03-15
 author: theluckystrike
 permalink: /travel-ergonomic-setup-for-remote-workers-guide/

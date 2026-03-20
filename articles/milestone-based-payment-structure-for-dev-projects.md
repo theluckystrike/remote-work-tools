@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Milestone Based Payment Structure for Dev Projects: A Practical Guide"
-description: "Learn how to implement milestone-based payment structures for development projects. Includes contract templates, code examples, and real-world frameworks for freelancers and agencies."
+title: "Milestone Based Payment Structure for Dev Projects: A."
+description: "Learn how to implement milestone-based payment structures for development projects. Includes contract templates, code examples, and real-world."
 date: 2026-03-15
 author: theluckystrike
 permalink: /milestone-based-payment-structure-for-dev-projects/

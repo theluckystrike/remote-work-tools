@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Scale Remote Team From 5 to 20 Without Losing Startup Culture"
-description: "A practical guide for developers and technical leads on scaling remote teams from 5 to 20 people while preserving startup culture, communication speed, and innovation."
+title: "How to Scale Remote Team From 5 to 20 Without Losing."
+description: "A practical guide for developers and technical leads on scaling remote teams from 5 to 20 people while preserving startup culture, communication speed."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-from-5-to-20-without-losing-startup/

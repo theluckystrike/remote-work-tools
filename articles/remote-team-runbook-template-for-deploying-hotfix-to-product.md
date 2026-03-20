@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Runbook Template for Deploying Hotfix to Production with Distributed Approvers"
+title: "Remote Team Runbook Template for Deploying Hotfix to."
 description: "A practical runbook template for remote engineering teams deploying hotfixes to production with distributed approval workflows across time zones."
 date: 2026-03-16
 author: theluckystrike

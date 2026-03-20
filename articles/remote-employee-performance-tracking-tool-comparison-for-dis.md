@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Performance Tracking Tool Comparison for Distributed Teams"
+title: "Remote Employee Performance Tracking Tool Comparison for."
 description: "A practical comparison of performance tracking tools for managing remote and distributed teams. Includes API integrations, automation examples, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

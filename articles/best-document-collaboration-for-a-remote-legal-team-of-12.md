@@ -2,7 +2,7 @@
 
 layout: default
 title: "Best Document Collaboration for a Remote Legal Team of 12"
-description: "Discover the best document collaboration tools and strategies for a remote legal team of 12. Compare implementations, code examples, and workflows tailored for legal professionals working distributed."
+description: "Discover the best document collaboration tools and strategies for a remote legal team of 12. Compare implementations, code examples, and workflows."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-document-collaboration-for-a-remote-legal-team-of-12/

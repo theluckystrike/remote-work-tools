@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Mexico Temporary Resident Visa for Remote Workers Earning Foreign Income Guide 2026"
+title: "Mexico Temporary Resident Visa for Remote Workers."
 description: "Mexico Temporary Resident Visa for Remote Workers. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026."
 date: 2026-03-16
 author: theluckystrike

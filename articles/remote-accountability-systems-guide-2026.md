@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Accountability Systems Guide 2026"
-description: "A practical guide to building and implementing accountability systems for remote teams. Learn about automated check-ins, progress tracking, and developer-friendly tools for distributed team success."
+description: "A practical guide to building and implementing accountability systems for remote teams. Learn about automated check-ins, progress tracking, and."
 date: 2026-03-20
 author: theluckystrike
 permalink: /remote-accountability-systems-guide-2026/

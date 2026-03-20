@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Accounting Firm with Distributed Staff Across Time Zones"
+title: "How to Run Remote Accounting Firm with Distributed Staff."
 description: "A practical technical guide for managing a remote accounting firm with staff across multiple time zones. Includes workflows, automation scripts, and."
 date: 2026-03-16
 author: theluckystrike
