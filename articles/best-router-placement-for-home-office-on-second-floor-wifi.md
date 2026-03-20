@@ -144,6 +144,166 @@ If you've optimized placement and still experience issues, consider these indica
 
 For developers running multiple video calls, CI/CD pipelines, and cloud-based IDEs, a wired access point or quality mesh system typically provides the most reliable experience without monthly subscription costs.
 
+## Router Comparison: Equipment That Works for Multi-Story Homes
+
+Here's a breakdown of popular routers and mesh systems suited for second-floor offices:
+
+| System | Type | Price | Coverage | Best For | Notes |
+|--------|------|-------|----------|----------|-------|
+| Ubiquiti Dream Machine | Single | $300 | 1500-2000 sq ft | Networks requiring management | Enterprise-grade, web UI |
+| TP-Link Archer AXE300 | Single | $150 | 1000-1500 sq ft | Budget mesh starter | WiFi 6E, decent range |
+| Asus RT-AX88U | Single | $250 | 1200-1600 sq ft | Gaming/streaming | Powerful processor, customizable |
+| Eero Pro 6E | Mesh | $400 (3-pack) | 2000+ sq ft | Most home offices | Seamless roaming, strong upstairs coverage |
+| Netgear Orbi 970 | Mesh | $700 (3-pack) | 2500+ sq ft | Multi-story homes | 10 Gbps backhaul, pro-grade |
+| Unifi 6 Plus AP | Single/Satellite | $150 each | 1500 sq ft per unit | Wired backhaul preference | Professional UI, scalable |
+| Google Nest WiFi Pro | Mesh | $300 (2-pack) | 1600 sq ft | Simplicity | Easy setup, Matter support |
+
+## Installation and Optimization Guide
+
+### Step 1: Baseline Measurement
+
+Before moving anything, document current performance:
+
+```bash
+# Measure signal strength and throughput at current router location
+# On macOS
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -I | grep -i signal
+
+# On Linux
+nmcli -f IN-USE,SIGNAL,SSID dev wifi list
+
+# Measure throughput with iperf3 if you have multiple devices
+# Server side: iperf3 -s
+# Client side: iperf3 -c 192.168.1.1
+```
+
+Document signal strength (in dBm), throughput (Mbps), and latency (ms). This baseline helps you measure improvement after repositioning.
+
+### Step 2: Router Positioning
+
+For single-router setups, positioning is critical. Test these locations:
+
+```
+Primary Floor (most impactful):
+- High ceiling location (attic access, high shelf)
+- Central to home footprint
+- Away from metal studs or reinforced walls
+- Minimum 12" clearance on all sides for air circulation
+
+Second Floor Fallback:
+- Highest point in the stairwell
+- Open hallway rather than closed room
+- At least 6 feet from microwave or cordless phone base
+```
+
+After moving your router, wait 30 seconds for it to stabilize, then re-measure signal strength. A 10+ dBm improvement indicates effective repositioning.
+
+### Step 3: Channel Optimization
+
+Automatic channel selection often underperforms in dense apartment complexes. Manual selection works better:
+
+```bash
+# Scan nearby networks and find least-congested channels
+# macOS
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s
+
+# Linux with nmcli
+nmcli dev wifi list
+
+# Look for channels with minimal overlap:
+# 2.4 GHz: Use 1, 6, or 11 (non-overlapping in US)
+# 5 GHz: Use channels 36-48 (UNII-1) for most compatibility
+# 6 GHz: Use 5-229 (WiFi 6E and newer)
+```
+
+In your router admin panel, disable automatic channel selection and manually set:
+- 2.4 GHz: Channel 1 or 11 (depending on neighbor network scan)
+- 5 GHz: Channel 40 or 44 (if clean), else 36
+- 6 GHz: Channel 5 or higher (if supported)
+
+Monitor real-world impact for 48 hours before changing again—changes take time to stabilize in your area.
+
+### Step 4: QoS Configuration for Development Work
+
+Configure Quality of Service to prioritize your work traffic:
+
+```
+Router Admin Panel → QoS Settings:
+
+High Priority (Guaranteed 40%):
+- Video conferencing (Zoom, Teams, Meet)
+  UDP ports: 50000-51000 (typical)
+- SSH/VPN connections
+  TCP port: 22 (SSH), 1194 (OpenVPN)
+
+Medium Priority (Guaranteed 30%):
+- Cloud IDE and development tools
+  Ports: 3000, 8000, 8080 (common dev server ports)
+
+Low Priority (Best Effort):
+- Streaming, downloads, backups
+  Ports: 6881-6889 (Bittorrent), 80/443 (HTTP/S)
+```
+
+Your router admin interface typically has a table where you enter device MAC addresses or application names. Consult your specific router's manual for exact configuration.
+
+## Mesh Network Installation Example
+
+For teams with persistent second-floor WiFi problems, mesh systems deliver reliable improvement:
+
+```
+Installation Plan for 2-Story, 2000 sq ft Home:
+
+Node 1 (Primary): Main floor, central location
+- Connected to modem via ethernet
+- Responsible for upstairs coverage via 5 GHz backhaul
+
+Node 2 (Satellite): Second floor, opposite side from Node 1
+- Connected to primary via WiFi or ethernet (if available)
+- Provides reliable local coverage for office
+
+Configuration:
+- Single SSID for seamless roaming
+- Separate guest network for visitors
+- Clients automatically switch to strongest node
+
+Expected Performance:
+- Signal at second-floor office: -45 to -55 dBm (excellent)
+- Latency to ISP: <15ms
+- Video call stability: >95% packet delivery
+```
+
+## Troubleshooting Common Second-Floor Issues
+
+**Problem: High latency spikes during peak hours**
+Check if ISP issues or neighbor WiFi congestion. Run a wired connection to your ISP modem directly and measure latency. If it's still high, contact your ISP. If wired latency is low but WiFi is high, your router likely needs channel adjustment.
+
+**Problem: Frequent disconnections**
+Often caused by weak signal forcing the device between 2.4 GHz and 5 GHz bands. Solution: Force your devices to 5 GHz only in WiFi settings, or create separate SSIDs for each band and connect only the fast-switching laptop to 5 GHz.
+
+**Problem: Slow speed despite strong signal**
+Weak signal to router but strong to nearby access point suggests your gateway (modem) isn't optimally placed. Move your primary node closer to the modem, or add a wired access point on the second floor for ethernet backhaul.
+
+## Cost-Benefit Analysis
+
+**Single router optimization: $0-50**
+- Time investment: 2-3 hours for testing and configuration
+- Typical improvement: 10-20 dBm signal gain if router repositioning helps
+- Risk: Minimal
+
+**Mesh system addition: $200-400 for quality second node**
+- Time investment: 1 hour setup
+- Typical improvement: -70 dBm → -50 dBm on second floor
+- Risk: Minimal, can return if ineffective
+
+**Professional installation: $100-300**
+- Ideal for complex homes or those uncomfortable with networking
+- Often includes long-term support and optimization consultation
+
+For remote developers whose livelihood depends on stable connections, mesh systems ROI within 6 months if they eliminate video call interruptions or deployment pipeline hiccups.
+
+---
+
 
 ## Related Reading
 

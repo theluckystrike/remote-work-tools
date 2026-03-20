@@ -146,6 +146,232 @@ Several patterns reduce runbook effectiveness in distributed teams:
 - Single points of failure: If one person wrote all your runbooks and leaves, you have a knowledge gap. Distribute runbook ownership across the team.
 - Perfectionism: A good runbook that exists beats a perfect runbook that doesn't. Start with the basics and iterate.
 
+## Runbook Template and Examples
+
+Here's a complete runbook template optimized for distributed teams:
+
+```markdown
+# [Service Name] Incident Runbook
+
+## Quick Facts
+- **Owner**: [Team name]
+- **On-Call**: [Name] (until [timezone]/time)
+- **Escalation**: [Manager name] if owner unreachable
+- **Critical Links**:
+  - Logs: [Grafana/Datadog link]
+  - Metrics: [Link]
+  - Deployment history: [Link]
+
+## Detection Symptoms
+- Error rate above X% for more than 2 minutes
+- P99 latency exceeds Yms consistently
+- Specific error message pattern: [example]
+
+## Immediate Actions (First 60 Seconds)
+1. Acknowledge alert in PagerDuty
+2. Check deployment status: `./scripts/check-deploy-status.sh`
+3. Review last 10 commits: `git log --oneline -10`
+4. Measure current error rate and latency
+5. Decide: Is this a rollback situation?
+
+## Decision Tree
+```
+IF error_rate > 10%:
+  THEN follow: Quick Rollback procedure
+
+ELSE IF error_rate 5-10% AND latency normal:
+  THEN check: Dependency health (database, cache)
+
+ELSE IF error_rate < 5%:
+  THEN probably transient, monitor for 5 minutes
+
+ELSE IF latency high BUT error_rate normal:
+  THEN check: Resource utilization, recent deploys
+```
+
+## Rollback Procedure
+```bash
+# On-call engineer with deploy access runs:
+# Verify current state
+kubectl get deployment [service] -n production
+
+# Check previous stable version
+git log --oneline | head -5
+
+# Trigger rollback
+./deploy.sh --service=[service] --version=[previous-stable] --env=prod
+# Wait for: "Deployment successful"
+
+# Verify health
+kubectl rollout status deployment/[service] -n production
+curl https://api.example.com/health
+```
+
+## Database Issues Procedure
+- Check connection pool: `SELECT count(*) FROM pg_stat_activity;`
+- Look for long-running queries: `SELECT query, duration FROM pg_stat_statements;`
+- If queue building: Scale read replicas or restart pool
+
+## Cache Issues Procedure
+- Redis: Check memory with `redis-cli INFO memory`
+- Memcached: Review eviction rate and hit ratio
+- If full: Flush non-critical cache or scale up
+
+## Escalation Checklist
+Before escalating, complete:
+- [ ] Deployed most recent stable version
+- [ ] Checked dependency health (database, cache, external APIs)
+- [ ] Monitored for 5+ minutes to confirm issue persists
+- [ ] Checked for any recent configuration changes
+- [ ] Notified customers in status page if applicable
+
+If still unresolved after 15 minutes, escalate to:
+[Manager name] or [CTO name] based on severity and time of day
+```
+
+## Infrastructure Documentation System
+
+Many teams fail to maintain runbooks because documentation feels like overhead. Instead, integrate runbooks into daily workflow:
+
+```
+Git-based runbook structure:
+
+runbooks/
+├── services/
+│   ├── api/
+│   │   ├── incidents.md (this file)
+│   │   ├── troubleshooting.md
+│   │   └── metrics.md
+│   ├── database/
+│   │   └── incidents.md
+│   └── cache/
+│       └── incidents.md
+├── infrastructure/
+│   ├── networking.md
+│   ├── kubernetes.md
+│   └── scaling.md
+└── procedures/
+    ├── deployment.md
+    ├── database-migration.md
+    └── security-incident.md
+
+# Runbooks live in your code repo
+# Every engineer reviews them during code review
+# Runbooks are versioned and deployed with your application
+```
+
+This approach ensures runbooks stay current because they're treated like production code, not separate documentation.
+
+## Tools That Support Runbook Integration
+
+| Tool | Strength | Cost | Best For |
+|------|----------|------|----------|
+| GitHub Wiki | Version controlled, accessible | Free | Small teams, 5-20 engineers |
+| Notion | Searchable, structured | $100-200/year | Teams wanting beautiful docs |
+| Confluence | Integrated with Jira | $100-500/month | Organizations with multiple teams |
+| GitBook | Published docs from Git | Free-100/mo | Public/internal runbook sites |
+| Custom Wiki | Complete control | Dev time | Mature organizations with CI needs |
+
+## Performance Metrics for Your Runbooks
+
+After implementing runbooks, track these metrics monthly:
+
+```
+Mean Time To Recovery (MTTR):
+- Before runbooks: [baseline]
+- After month 1: [your metric]
+- Target: 30% reduction in MTTR after 3 months
+
+False Escalations:
+- Track how many pages the on-call engineer escalates
+- Target: <20% of incidents require manager involvement
+
+Runbook Usage:
+- Pull/view count per runbook
+- Identify orphaned runbooks (zero views = outdated)
+- Update or archive unused runbooks quarterly
+
+False Alarm Rate:
+- Percentage of alerts that aren't real issues
+- If >30%, refine your alert thresholds
+- Runbooks should include false-alarm-specific steps
+```
+
+## Example: Complete Service Runbook
+
+```markdown
+# Payment Service Incident Runbook
+
+## Overview
+Processes customer transactions. Handles ~1000 requests/second peak.
+Data loss is critical—always check database consistency before restart.
+
+## Symptoms → Actions
+1. "Payment declined" errors increasing
+   → Check Stripe API status (external issue likely)
+   → Check our service health dashboard
+   → If our service: database or API timeout
+
+2. Timeouts in payment processing
+   → Check database connection pool (maxed = timeout)
+   → Check Stripe API latency (external slowness)
+   → Review recent deploys or config changes
+
+3. Database replication lag > 5 seconds
+   → Check network between primary and replica
+   → Restart replica sync if lag doesn't clear
+   → If persists, escalate to database team
+
+## Critical Checks
+Before ANY restart or config change, verify:
+- [ ] No active transactions in database: `SELECT count(*) FROM transactions WHERE status = 'processing'`
+- [ ] Recent backups present: `ls -la /backups/payment/`
+- [ ] Slack notification posted to #payment-incidents
+
+## Rollback Decision
+Rollback if:
+- Error rate jumped >50% after recent deploy
+- Payment success rate dropped below 98%
+- Database health degraded after migration
+
+DO NOT rollback if:
+- Issue exists before most recent deploy
+- Issue is in external dependency (Stripe API)
+- Database migrations are involved (rollback only on instruction)
+
+## Escalation
+After 10 minutes if unresolved:
+- Notify [Team Lead] in Slack @mention
+- After 15 minutes: Page [Manager]
+- After 25 minutes: Page [CTO] if tier-1 revenue impact
+```
+
+## Post-Incident Runbook Review Process
+
+After every incident, improve your runbooks:
+
+```
+Post-Incident Review (40 minutes):
+
+1. Incident owner (20 min): Timeline and root cause
+2. On-call engineer (10 min): Was runbook helpful?
+   - What steps worked?
+   - What was missing?
+   - How could we improve?
+3. Team lead (10 min): Long-term fixes needed?
+
+Action items from review:
+- If runbook was incomplete: Add missing steps
+- If decision tree was wrong: Revise detection logic
+- If escalation timing was off: Adjust thresholds
+- If new tool revealed: Document and link in runbook
+
+Update runbook same week while incident is fresh.
+```
+
+---
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
