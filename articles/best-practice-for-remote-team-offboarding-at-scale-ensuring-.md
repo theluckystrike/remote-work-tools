@@ -13,6 +13,7 @@ voice-checked: true
 intent-checked: true
 ---
 
+{% raw %}
 Scale remote offboarding by running two parallel tracks: knowledge transfer and access removal, executed through automated scripts and structured handoff documents rather than informal conversations. Without physical handshakes or office walkthroughs, departing employees retain dangerous system access while critical knowledge walks out the door. This framework provides actionable checklists and automation code for systematic offboarding across distributed teams.
 
 ## The Two-Phase Offboarding Framework
@@ -235,3 +236,4 @@ ORDER BY departure_date DESC;
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

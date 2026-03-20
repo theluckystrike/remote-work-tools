@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Cafe Work Etiquette for Remote Workers: A Developer's Guide"
+title: "Best Cafe Work Etiquette for Remote Workers"
 description: "Master cafe work etiquette for remote workers with practical tips on laptop setup, Wi-Fi optimization, noise management, and professional conduct."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

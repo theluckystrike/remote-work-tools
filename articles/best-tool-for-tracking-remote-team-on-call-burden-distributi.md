@@ -13,6 +13,8 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
+
+{% raw %}
 ## Shift Summary
 
 **Time Zone:** 
@@ -199,3 +201,4 @@ Fair on-call distribution is a solved problem at the tracking level—the challe
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Screen Brightness Settings for Eye Health: A Developer's Guide"
+title: "Screen Brightness Settings for Eye Health"
 description: "Learn how to configure screen brightness settings for eye health as a developer. Practical tips, code examples, and tools to reduce eye strain during."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

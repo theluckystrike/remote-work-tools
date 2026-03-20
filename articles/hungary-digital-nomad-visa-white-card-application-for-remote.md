@@ -116,11 +116,205 @@ Processing times vary significantly depending on your home country and Hungarian
 
 **Accommodation proof** requires attention. Some applicants assume any hotel booking works, but authorities prefer confirmed bookings or rental agreements. Airbnb bookings with verified hosts typically work well.
 
+## Cost-of-Living Analysis for Digital Nomads
+
+Hungary offers exceptional value compared to Western European alternatives:
+
+| Expense | Monthly Cost (EUR) | vs. Western Europe |
+|---------|-------------------|-------------------|
+| **Apartment (1BR, central)** | €400-600 | 40-60% cheaper |
+| **Groceries/food (self-catering)** | €200-300 | 50% cheaper |
+| **Restaurant meal (casual)** | €6-10 | 60% cheaper |
+| **Coffee (cafe)** | €2-3 | 40% cheaper |
+| **Gym membership** | €30-50 | 40-50% cheaper |
+| **Internet/utilities** | €40-60 | Similar |
+| **Public transport pass** | €25-35 | 60% cheaper |
+| **Total estimated budget** | €900-1,500 | 50-60% cheaper overall |
+
+A developer with €2,000/month income lives comfortably in Budapest with substantial savings potential.
+
+## Visa Comparison: Hungary vs Alternatives
+
+| Country | Visa Duration | Income Threshold | Application Time | Processing Cost |
+|---------|---------------|-----------------|------------------|-----------------|
+| **Hungary** | 2 years | €2,000/month | 8-14 weeks | €60-100 |
+| **Portugal** | 1 year (renewable) | €1,300/month | 4-6 weeks | €100-150 |
+| **Spain** | 1 year (renewable) | €2,300/month | 6-10 weeks | €180-250 |
+| **Greece** | 1 year (renewable) | €2,500/month | 4-8 weeks | €150-200 |
+| **Czech Republic** | 1 year (renewable) | €1,800/month | 6-10 weeks | €50-100 |
+| **Poland** | 2 years | €2,000/month | 8-12 weeks | €50-80 |
+
+Hungary offers the longest initial visa duration (2 years) at a reasonable income threshold with moderate processing time.
+
+## Hungarian Banking Setup Guide
+
+Once you arrive with your White Card, opening a bank account streamlines your financial life:
+
+**Banks most accessible to foreigners:**
+- OTP Bank (largest, most branches)
+- Raiffeisen Bank (also widely available)
+- K&H Bank (English support available)
+- Wise (multi-currency, easiest onboarding)
+- Revolut (EU-based, no Hungarian residency requirement)
+
+**Required documents for bank account:**
+```bash
+# Prepare these documents:
+1. Valid passport
+2. White Card (residence permit)
+3. Proof of address (utility bill or rental contract)
+4. Tax identification number (TAJ szám - obtained from tax office)
+   - Application form ÖAT-0 from local tax office
+   - Processing: 2-3 weeks
+4. Initial deposit (€100-500 depending on bank)
+```
+
+**Banking workflow in Hungary:**
+```
+Week 1 (arrival):
+- Register accommodation address with local authorities
+- Obtain registration certificate
+
+Week 2:
+- Visit tax office (Adóhatóság) with registration certificate
+- Apply for TAJ szám (tax ID)
+- Bank cannot issue account without this ID
+
+Week 3-4:
+- Return to tax office to collect TAJ szám
+- Visit bank with TAJ szám + other documents
+- Open account (usually same day)
+
+Week 4-5:
+- Receive bank card and access to online banking
+```
+
+## Remote Work Documentation Requirements
+
+Hungarian immigration specifically scrutinizes the "remote" aspect. Ensure your employment setup is ironclad:
+
+**What counts as acceptable proof of remote work:**
+
+✓ Employment contract explicitly stating:
+- "Employee will work remotely"
+- "Work location: Home office or any location outside Hungary"
+- "Employer address in non-Hungarian jurisdiction"
+
+✓ Client contracts for freelancers with:
+- Explicit remote work terminology
+- Non-Hungarian client address
+- Statements like "Service will be provided remotely"
+
+✓ Bank statements showing:
+- Consistent deposits from non-Hungarian entities
+- Company name matching employment contract
+- Regular monthly amounts meeting €2,000 threshold
+
+❌ What does NOT count:
+- General employment contracts without "remote" explicitly stated
+- Client projects but no formalized contract
+- Undeclared freelance work with only cash payments
+- Contracts that merely allow remote work but don't require it
+
+**For freelancers specifically:**
+You need invoices with dates, amounts, and client names visible on bank deposit records. If invoices don't match deposits (e.g., client sends wire under different business name), immigration may question legitimacy.
+
+## Tax Residency Clarification
+
+The White Card creates some ambiguity around tax residency:
+
+**Generally accepted interpretation (consult local tax professional):**
+
+Year 1-2: You're NOT a Hungarian tax resident if:
+- You don't exceed 183 days in Hungary in calendar year
+- You maintain tax residence elsewhere
+- You have no permanent employment in Hungary
+
+However: Tax authorities might argue otherwise if:
+- You have an apartment lease for 1+ year (suggests permanent settlement)
+- You're physically present >90 days continuously
+- You're receiving income while living in Hungary
+
+**Best practice for tax compliance:**
+```
+1. Consult with Hungarian tax advisor (ügyvéd or könyvelő) within month of arrival
+2. Verify your home country's tax residency rules (some countries count >183 days in any jurisdiction)
+3. File taxes in BOTH countries for first year (conservative approach)
+4. Keep meticulous records of:
+   - Days physically in Hungary
+   - Income source (which country)
+   - Any client meetings conducted in Hungary
+5. Maintain evidence of home country domicile (utility bills, lease, etc.)
+```
+
+## Post-Approval Logistics
+
+**Upon receiving White Card approval:**
+
+```bash
+# 1. Schedule appointment for card collection
+# - Usually available within 2-3 weeks of approval letter
+# - Collect at immigration office (Bevándorlási Hivatal)
+
+# 2. Book arrival in Hungary
+# - Travel to Hungary with approval letter
+# - Consider first entry timing for 183-day clock
+
+# 3. Register residence within 90 days
+# - Required: Find accommodation first (Airbnb booking initially)
+# - Visit local government office (járási hivatal)
+# - Submit: passport, White Card, proof of address
+# - Receive: registration certificate (essential for everything else)
+
+# 4. Complete administrative setup
+# - Tax office registration (mentioned above)
+# - Bank account opening
+# - Notify home country tax authorities
+
+# 5. Establish work setup
+# - Test VPN if company requires
+# - Verify internet quality (check Speedtest results)
+# - Register any dependent income if applicable
+```
+
+## Internet and Infrastructure Assessment
+
+Budapest and major cities have excellent digital infrastructure:
+
+**Internet options:**
+- Vodafone/Telenor: 100-300 Mbps ADSL (~€15-25/month)
+- UPC/Vodafone: 1 Gbps fiber where available (~€30-40/month)
+- Yettel: Mobile hotspot 4G/5G (~€20-30/month)
+
+**Speed testing:**
+Most developers report 50+ Mbps consistently available, sufficient for video calls, deployments, and large file transfers. Redundancy (backup mobile connection) recommended for critical work.
+
+**Co-working spaces (if needed):**
+- WeWork Budapest: €499-799/month
+- Coworking Spaces (various): €150-300/month
+- Coffee culture: Strong throughout Budapest, reliable WiFi standard
+
 ## Moving Forward
 
 The Hungary White Card offers a straightforward pathway to legal residency in Central Europe for remote workers. The income threshold is reasonable, processing times are generally faster than Western European alternatives, and Hungary's central location provides easy access to other European destinations.
 
 Start gathering documents early, ensure your remote work setup is clearly documented, and verify your health insurance meets the specific requirements. The application process follows a predictable structure once you have the necessary paperwork in order.
+
+## Pre-Departure Checklist
+
+Before finalizing your move:
+
+- [ ] Research your home country's position on tax residency (critical)
+- [ ] Consult tax advisor in BOTH countries
+- [ ] Obtain criminal record certificate (most time-consuming step)
+- [ ] Gather and translate all employment/client contracts
+- [ ] Collect 3 months of bank statements showing income
+- [ ] Purchase health insurance (purchase before arrival if possible)
+- [ ] Notify employer/clients of address change
+- [ ] Arrange initial accommodation (first month minimum)
+- [ ] Download offline maps and translation apps
+- [ ] Join Budapest digital nomad community (Facebook groups, Meetup)
+- [ ] Verify internet quality at your accommodation before committing long-term
 
 Once approved, you'll have access to Hungary's affordable cost of living, excellent infrastructure, and strategic position for exploring Central and Eastern Europe.
 

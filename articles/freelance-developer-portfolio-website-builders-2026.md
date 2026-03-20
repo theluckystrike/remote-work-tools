@@ -12,6 +12,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
+{% raw %}
 <article class="project-card">
   <h3>{title}</h3>
   <p>{description}</p>
@@ -266,3 +268,4 @@ Build something you're proud to show, keep it fast, and update it regularly. You
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

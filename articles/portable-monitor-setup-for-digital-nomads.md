@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Portable Monitor Setup for Digital Nomads: A Developer's Guide"
+title: "Portable Monitor Setup for Digital Nomads"
 description: "Learn how to set up a portable monitor for digital nomad work. Practical tips on connectivity, power management, display configuration, and."
 date: 2026-03-15
 author: theluckystrike

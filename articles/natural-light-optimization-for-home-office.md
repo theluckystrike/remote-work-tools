@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Natural Light Optimization for Home Office: A Developer's Guide"
+title: "Natural Light Optimization for Home Office"
 description: "Learn how to optimize natural light in your home office for better coding performance, reduced eye strain, and improved circadian rhythm. Practical."
 date: 2026-03-15
 author: theluckystrike

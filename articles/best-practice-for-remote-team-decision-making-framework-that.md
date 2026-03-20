@@ -12,6 +12,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
+{% raw %}
 ```
 
 This structure works well with Git-based workflows. Store decisions in a `decisions/` directory and use pull requests for proposed decisions, allowing async review and discussion.
@@ -194,3 +196,4 @@ When this works, founders can focus on tier 3-4 decisions where their experience
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

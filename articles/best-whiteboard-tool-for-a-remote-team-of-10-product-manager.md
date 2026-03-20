@@ -115,11 +115,206 @@ The integration ecosystem is thinner than Miro. API access exists but requires t
 
 At $8 per workspace monthly (up to 10 users with Excalidraw Plus), pricing competes with FigJam. Teams valuing simplicity over feature depth find Excalidraw's minimalism refreshing.
 
+## Detailed Pricing Analysis for 10-Person Teams
+
+| Platform | Per-User Cost | Team Cost (10 people) | Annual Cost | Free Tier | Notes |
+|----------|----------------|----------------------|------------|-----------|--------|
+| **Miro** | $10 (annual billing) | $120/month | $1,440 | Limited (3 boards) | Industry standard |
+| **FigJam** | $8 (with Figma org) | $120/month | $1,440 | Limited boards | Only if using Figma |
+| **Mattermost** | $0-400/month | $400/month (self-hosted) | $4,800 | Yes (community edition) | Infrastructure cost |
+| **Excalidraw** | $8-10 | $80-100/month | $960-1,200 | Yes (open source) | Minimal features |
+| **Lucidchart** | $9.99-15.99 | $150-200/month | $1,800-2,400 | Yes | More focused on diagrams |
+| **MURAL** | $12-18 | $180-240/month | $2,160-2,880 | Yes | Similar to Miro |
+
+## Template Library Deep Dive: What Miro Actually Provides
+
+Miro offers 500+ templates across different industries. For product teams specifically:
+
+**Roadmap Templates:**
+- OKR (Objectives & Key Results) planning
+- Product roadmap with swimlanes
+- Release planning with dependency mapping
+- Competitive feature matrix
+- Market positioning matrix
+
+**Workshop Templates:**
+- User story mapping (20+ variations)
+- Journey mapping (customer and user flows)
+- Empathy maps (understanding user emotions)
+- SWOT analysis (strengths, weaknesses, opportunities, threats)
+- Impact/Effort matrix (prioritization framework)
+- Kano model (feature satisfaction analysis)
+
+**Operational Templates:**
+- Sprint planning board with burndown
+- Retrospective framework (Start/Stop/Continue)
+- Design critique framework
+- Decision matrix template
+- Persona development board
+
+FigJam offers fewer templates (approximately 100) and lacks the structured product management frameworks that Miro specializes in. Building roadmap templates from scratch in FigJam takes 2-3 hours versus 2 minutes instantiating from Miro's template library.
+
+## Real-World Product Team Workflow: Q2 Planning Session
+
+A 10-person product team across San Francisco and Berlin uses Miro for quarterly planning:
+
+**Week 1: Async Input Phase**
+```
+Time: Monday morning PT (evening for Berlin)
+Action: Product lead creates "Q2 Planning" board from Miro's OKR template
+Participants: All 10 PMs contribute async sticky notes over 3 days
+- Ideas for new initiatives
+- Customer feedback to address
+- Technical debt to prioritize
+- Performance improvement opportunities
+
+Berlin team works Tuesday evening (Wednesday morning), adds their perspective.
+By Wednesday PT, board has 50+ input stickies organized by category.
+```
+
+**Week 2: Synthesis Phase**
+```
+Time: Wednesday afternoon PT (live meeting)
+Duration: 90 minutes
+Activity: Live whiteboard session with all attendees
+- Group related initiatives into themes
+- Map dependencies between initiatives
+- Assign rough effort estimates
+- Identify resource constraints
+
+Miro's real-time collaboration means 6 people in SF room + 4 people in Berlin offices see cursor movement and changes live.
+Berlin team speaks up immediately about blocking dependencies discovered in real-time.
+```
+
+**Week 3: Finalization**
+```
+Time: Async refinement (72 hours)
+Activity: Structured review workflow
+- Finance lead reviews resource implications
+- Engineering lead confirms technical feasibility
+- Design lead identifies design system implications
+- Each leaves comments directly on related sticky notes
+
+Miro's comment threads keep discussions contextual rather than scattered in Slack.
+```
+
+**Week 4: Execution**
+```
+Action: Export finalized board to Jira
+Process: Use Miro's Jira integration to create tickets directly from roadmap items
+Automation: Custom field mapping preserves estimation and priority information
+```
+
+This workflow requires templates, real-time multi-user support, and integrations—all Miro specialties.
+
+## Integration Comparison Matrix
+
+| Integration | Miro | FigJam | Excalidraw | Mattermost |
+|-------------|------|--------|-----------|-----------|
+| **Jira** | Native, bidirectional | Via Figma org | Manual export | Slack-based |
+| **Confluence** | Native embed | Via Figma | Manual embed | Slack-based |
+| **Slack** | Native notifications | Via Figma | Third-party | Native |
+| **Google Drive** | Export to Drive | Native | Manual upload | N/A |
+| **Zapier** | Full support | Limited | None | Limited |
+| **Custom API** | Comprehensive REST API | Limited | Read-only | Available |
+
+### Miro API Example for Automation
+
+```javascript
+// Create a Miro board and populate with product roadmap data
+const createRoadmapBoard = async (productData) => {
+  // Create new board
+  const boardResponse = await fetch('https://api.miro.com/v2/boards', {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${MIRO_API_KEY}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      name: `Q2 2026 Roadmap - ${productData.team}`,
+      teamId: MIRO_TEAM_ID
+    })
+  });
+
+  const board = await boardResponse.json();
+  const boardId = board.id;
+
+  // Add roadmap items as shapes with rich metadata
+  const items = productData.initiatives.map((initiative) => ({
+    type: 'shape',
+    data: {
+      shape: 'rect',
+      text: initiative.title
+    },
+    metadata: {
+      initiative_id: initiative.id,
+      quarter: 'Q2',
+      team: initiative.owningTeam,
+      effort: initiative.estimatedEffort,
+      impact: initiative.customerImpact
+    },
+    position: {
+      x: initiative.timelineWeek * 100,
+      y: initiative.priority * 50
+    }
+  }));
+
+  // Batch create items
+  const itemsResponse = await fetch(
+    `https://api.miro.com/v2/boards/${boardId}/items`,
+    {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${MIRO_API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ items })
+    }
+  );
+
+  return boardId;
+};
+```
+
+## Feature Request Use Case
+
+Miro excels when handling complex cross-cutting conversations:
+
+```
+Product Manager creates "Feature Request Evaluation" board:
+- Left section: Customer feedback (with sentiment labels)
+- Center section: Feature candidates (mapped on impact/effort matrix)
+- Right section: Priority queue (with swimlanes for Q1, Q2, Q3)
+
+As discussion evolves:
+- Designers add mocked UI in the design area
+- Engineering adds technical feasibility flags
+- Support adds customer urgency indicators
+- Board becomes the single source of truth for that decision
+
+Board preserves the entire discussion history and reasoning—future PMs reference it when similar requests arrive.
+```
+
+FigJam could support this but lacks templates and structured layouts that make the decision process transparent.
+
 ## Making the Decision
 
 For most remote product teams of 10, Miro provides the best balance of features, integrations, and collaboration quality. The template library alone justifies the per-user cost for teams running regular planning ceremonies. API access enables automation that scales with organizational needs.
 
 Choose FigJam if your team already pays for Figma organization and prioritizes design handoff simplicity over process tooling. Choose Excalidraw if visual simplicity matters more than framework support and your team includes developers comfortable with technical tools.
+
+## Implementation Checklist
+
+Before rolling out your whiteboard solution:
+
+- [ ] Define which ceremonies require whiteboarding (planning, retrospectives, brainstorms)
+- [ ] Identify existing tools that will integrate (Jira, Confluence, Slack)
+- [ ] Test integrations with your current workflow
+- [ ] Train team on 2-3 templates you'll use repeatedly
+- [ ] Set access controls (who can create boards, who can export)
+- [ ] Establish naming convention for boards (e.g., "Q2 2026 - Roadmap")
+- [ ] Schedule monthly tool optimization review
+- [ ] Document which decisions are captured in boards vs. recorded elsewhere
 
 The right tool is the one your team actually uses. Evaluate based on your team's workflow, not feature matrices. A simpler tool used consistently outperforms a powerful tool abandoned due to complexity.
 
