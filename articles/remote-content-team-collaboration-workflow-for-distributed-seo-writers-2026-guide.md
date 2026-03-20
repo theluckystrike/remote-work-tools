@@ -167,6 +167,124 @@ lastUpdated: 2026-03-18
 
 Pull this data periodically to identify which content performs well and inform future topic selection.
 
+
+## Scaling the Workflow as Your Team Grows
+
+The git-based content workflow scales differently than a traditional CMS. Understanding where friction appears helps you address it before it slows throughput.
+
+**At 3-5 writers**: The workflow works with minimal overhead. One person acts as editor and merges PRs. The validation CI catches SEO issues automatically.
+
+**At 6-12 writers**: Add a branch naming convention to make the PR queue scannable:
+
+```bash
+# Branch naming: content/[status]/[slug]
+git checkout -b content/draft/remote-seo-workflow-2026
+git checkout -b content/ready-for-review/remote-seo-workflow-2026
+git checkout -b content/approved/remote-seo-workflow-2026
+```
+
+Use GitHub labels to track editorial state without requiring everyone to follow branch naming:
+
+```bash
+gh label create "draft" --color "yellow"
+gh label create "seo-review" --color "blue"
+gh label create "final-edit" --color "orange"
+gh label create "approved" --color "green"
+```
+
+**At 13+ writers**: Assign dedicated reviewers per content vertical. Route PRs automatically using CODEOWNERS:
+
+```
+# .github/CODEOWNERS
+content/seo/      @seo-lead
+content/product/  @product-editor
+content/tech/     @tech-editor
+```
+
+Each reviewer only sees PRs for their vertical, preventing review queue overwhelm.
+
+
+## Automating Content Quality Scoring
+
+Manual quality checks slow down editorial workflows. Automate the parts that follow consistent rules. The validation workflow already checks for keyword presence — extend it with readability and word count checks:
+
+```python
+# scripts/check_content_quality.py
+import sys
+import re
+
+def check_article(filepath):
+    with open(filepath) as f:
+        content = f.read()
+
+    body = content.split('---', 2)[-1]
+    body = re.sub(r'```.*?```', '', body, flags=re.DOTALL)
+
+    words = len(body.split())
+    sentences = len(re.findall(r'[.!?]+', body))
+    avg_sentence_len = words / max(sentences, 1)
+
+    issues = []
+    if words < 800:
+        issues.append(f"Short article: {words} words (target: 1000+)")
+    if avg_sentence_len > 25:
+        issues.append(f"Long sentences: avg {avg_sentence_len:.0f} words/sentence (target: <20)")
+
+    return issues
+
+if __name__ == "__main__":
+    issues = check_article(sys.argv[1])
+    for issue in issues:
+        print(f"WARNING: {issue}")
+    if issues:
+        sys.exit(1)
+    print("Article passed quality checks")
+```
+
+Add this script to your CI pipeline so every PR gets quality feedback automatically before it reaches editorial review.
+
+
+## Managing Editorial Deadlines Across Time Zones
+
+Distributed content teams face review bottlenecks when a reviewer in UTC+9 cannot respond to a writer in UTC-5 until the next morning. Set explicit SLAs for each review stage and automate deadline reminders:
+
+```yaml
+# .github/workflows/review-deadline-reminder.yml
+name: Editorial Review Deadline
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const twoDaysAgo = new Date(Date.now() - 2 * 24 * 60 * 60 * 1000);
+            const prs = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open'
+            });
+            for (const pr of prs.data) {
+              if (new Date(pr.created_at) < twoDaysAgo) {
+                const reviewers = pr.requested_reviewers.map(r => '@' + r.login).join(', ');
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.number,
+                  body: `Reminder: This article has been waiting for review for 48+ hours. Assigned: ${reviewers}`
+                });
+              }
+            }
+```
+
+This automation pings reviewers automatically without requiring a project manager to track every open PR manually. Pair it with a written SLA document specifying response time expectations per review stage.
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
