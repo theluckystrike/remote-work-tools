@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team New Manager Onboarding Checklist for Distributed Companies Promoting from Within 2026"
-description: "A comprehensive checklist for onboarding new managers in remote teams, specifically designed for companies promoting employees from within their distributed workforce."
+title: "Remote Team New Manager Onboarding Checklist for."
+description: "A comprehensive checklist for onboarding new managers in remote teams, specifically designed for companies promoting employees from within their."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-new-manager-onboarding-checklist-for-distributed/
@@ -80,5 +80,10 @@ Several patterns consistently trip up new remote managers. Watch for these warni
 **Neglecting personal development** happens when managers get consumed by their new responsibilities. Remind new managers that their growth hasn't stopped—they've simply shifted to developing leadership skills rather than technical skills.
 
 Building effective remote managers doesn't happen by accident. It requires deliberate structure, consistent support, and patience. The checklist above provides that structure, but remember that each manager and team is unique. Adapt these guidelines to fit your organization's specific culture and needs while maintaining the core principles of clear communication, intentional relationship building, and ongoing development.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

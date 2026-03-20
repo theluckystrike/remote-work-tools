@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Chrome Extension Compress Images Before Upload: A Practical Guide"
-description: "Learn how to build a Chrome extension that automatically compresses images before upload. Perfect for developers and power users who need to optimize image files."
+title: "Chrome Extension Compress Images Before Upload: A."
+description: "Learn how to build a Chrome extension that automatically compresses images before upload. Perfect for developers and power users who need to optimize."
 date: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-compress-images-before-upload/
@@ -308,6 +308,11 @@ Some web applications use custom file upload components that don't use standard 
 Building a Chrome extension for image compression before upload gives you control over file sizes without relying on external services. The extension works automatically in the background, compressing images as you select them for upload. With adjustable quality and dimension settings, you can balance file size against image quality based on your specific needs.
 
 The implementation uses only browser-native APIs, keeping the extension lightweight and private. All processing happens locally on your device, making it fast and secure.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

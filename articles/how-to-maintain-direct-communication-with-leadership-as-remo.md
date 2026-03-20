@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Maintain Direct Communication With Leadership as Remote Team Scales Past 50 People"
-description: "Learn practical strategies for preserving direct access to leadership as your remote team grows beyond 50 people. Includes code examples and actionable frameworks."
+title: "How to Maintain Direct Communication With Leadership as."
+description: "Learn practical strategies for preserving direct access to leadership as your remote team grows beyond 50 people. Includes code examples and actionable."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-maintain-direct-communication-with-leadership-as-remo/
@@ -166,5 +166,10 @@ Start with one strategy—perhaps office hours or a structured async channel—a
 The best remote companies treat communication infrastructure as seriously as product infrastructure. The tools and processes you put in place now will determine whether your team remains nimble or becomes bureaucratic.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

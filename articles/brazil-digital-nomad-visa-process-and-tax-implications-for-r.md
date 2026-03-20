@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Brazil Digital Nomad Visa Process and Tax Implications for Remote Developers 2026"
+title: "Brazil Digital Nomad Visa Process and Tax Implications."
 description: "A practical guide covering Brazil's digital nomad visa application process, eligibility requirements, and tax implications for remote developers in 2026."
 date: 2026-03-16
 author: theluckystrike
@@ -169,6 +169,11 @@ The visa process is straightforward when you have the required documentation in 
 For remote developers who want to experience South America while continuing to work for international clients or employers, Brazil's digital nomad visa provides a solid legal framework to do so in 2026.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

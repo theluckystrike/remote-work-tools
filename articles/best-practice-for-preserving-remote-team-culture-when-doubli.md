@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Preserving Remote Team Culture When Doubling Headcount in One Year"
+title: "Best Practice for Preserving Remote Team Culture When."
 description: "A practical guide for developers and power users on maintaining remote team culture while rapidly scaling from 10 to 20 employees in twelve months."
 date: 2026-03-16
 author: theluckystrike
@@ -150,6 +150,11 @@ The compound effect is powerful: teams that invest in cultural infrastructure du
 Your goal isn't to preserve the exact culture you had at 10 people. It's to create a culture that can absorb new members while maintaining the values and connection that made your team successful in the first place. The practices above give you the systems to do exactly that.
 
 Start with documentation, stagger your hires, and build rituals that work at scale. Your future team of 20 will thank you.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

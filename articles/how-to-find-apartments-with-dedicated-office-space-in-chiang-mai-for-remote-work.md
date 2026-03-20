@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Find Apartments with Dedicated Office Space in Chiang Mai for Remote Work"
+title: "How to Find Apartments with Dedicated Office Space in."
 description: "A practical guide for developers and digital nomads seeking dedicated workspace apartments in Chiang Mai, Thailand."
 date: 2026-03-16
 author: theluckystrike
@@ -147,5 +147,10 @@ Finding the right apartment requires balancing multiple factors. For developers 
 5. **Document everything**: Get all agreements in writing, especially regarding internet
 
 Chiang Mai offers excellent value for remote workers willing to invest time in finding the right fit. The city's infrastructure continues improving, and the community of remote workers provides valuable network support during your search.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

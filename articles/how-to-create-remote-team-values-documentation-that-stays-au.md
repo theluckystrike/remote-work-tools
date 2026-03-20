@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Create Remote Team Values Documentation That Stays Authentic During Rapid Scaling"
-description: "A practical guide for developers and technical leads building team values documentation that maintains authenticity when scaling from 5 to 50+ distributed team members."
+title: "How to Create Remote Team Values Documentation That."
+description: "A practical guide for developers and technical leads building team values documentation that maintains authenticity when scaling from 5 to 50+."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-values-documentation-that-stays-au/
@@ -160,6 +160,11 @@ Your team of five probably didn't need any of this. Your team of fifty cannot su
 Start small. Pick one value, document it with specific behaviors, and embed it into one existing workflow. Iterate from there. The goal isn't a perfect document—it's a shared understanding that translates into consistent action across your distributed team.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Offboarding at Scale: Ensuring Knowledge Transfer and Access Removal"
+title: "Best Practice for Remote Team Offboarding at Scale."
 description: "A practical guide for engineering managers and developers handling remote team offboarding at scale, with actionable scripts and workflows."
 date: 2026-03-16
 author: theluckystrike
@@ -226,5 +226,10 @@ ORDER BY departure_date DESC;
 ## Conclusion
 
 Remote team offboarding at scale demands the same engineering rigor you apply to your codebase. By automating access revocation, structuring knowledge transfer as parallel workstreams, and maintaining audit trails, you protect your organization from both security vulnerabilities and knowledge loss. The scripts and workflows above provide a foundation—adapt them to your specific toolchain and compliance requirements.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

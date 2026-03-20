@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Channel Sprawl Management Strategy When Slack Grows Past 200 Channels"
-description: "A practical guide for developers and power users to manage Slack channel sprawl in remote teams with 200+ channels. Includes automation scripts, governance frameworks, and cleanup strategies."
+title: "Remote Team Channel Sprawl Management Strategy When."
+description: "A practical guide for developers and power users to manage Slack channel sprawl in remote teams with 200+ channels. Includes automation scripts."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-channel-sprawl-management-strategy-when-slack-gr/
@@ -174,5 +174,10 @@ After initial cleanup, prevent regression with these habits:
 If Slack becomes unmanageable despite these strategies, evaluate alternatives. Some teams split into multiple workspaces by department. Others move persistent documentation to wikis and use Slack only for real-time communication. The goal is effective communication, not Slack perfection.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

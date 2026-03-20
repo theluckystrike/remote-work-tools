@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Org Chart Restructuring Guide: Scaling from Flat to Layered Management"
-description: "A practical guide for developers and engineering leaders on restructuring remote team org charts when scaling from flat hierarchies to layered management structures."
+title: "Remote Team Org Chart Restructuring Guide: Scaling from."
+description: "A practical guide for developers and engineering leaders on restructuring remote team org charts when scaling from flat hierarchies to layered."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-org-chart-restructuring-guide-when-scaling-from-/
@@ -177,6 +177,11 @@ The goal is finding the structure that matches your team's current needs—not c
 ---
 
 Building the right org structure for a growing remote team takes experimentation. Start with the minimum viable hierarchy, measure results, and adjust. Your team will tell you what works.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

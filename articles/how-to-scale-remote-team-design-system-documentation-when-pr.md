@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Scale Remote Team Design System Documentation When Product Team Grows Past 20 People"
+title: "How to Scale Remote Team Design System Documentation."
 description: "A practical guide for developers and product teams on managing design system documentation as your remote organization expands beyond 20 people."
 date: 2026-03-16
 author: theluckystrike
@@ -258,6 +258,11 @@ Start with what causes the most pain today. If your Slack channels are flooded w
 The goal is not perfect documentation—it's documentation that enables your team to move faster, not slower.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
