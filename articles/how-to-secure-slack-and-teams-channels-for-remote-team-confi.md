@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-secure-slack-and-teams-channels-for-remote-team-confi/
 categories: [guides]
-tags: [security, remote-work, slack, microsoft-teams]
+tags: [remote-work-tools, security, remote-work, slack, microsoft-teams]
 reviewed: true
 score: 8
 intent-checked: true

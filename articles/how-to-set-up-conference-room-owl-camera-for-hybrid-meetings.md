@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "theluckystrike"
 permalink: /how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/
 categories: [guides]
-tags: [hybrid-meetings, conference-room, owl-labs, video-conferencing, remote-work]
+tags: [remote-work-tools, hybrid-meetings, conference-room, owl-labs, video-conferencing, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

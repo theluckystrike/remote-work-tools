@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-up-linux-workstation-for-remote-work/
 categories: [guides]
-tags: [linux, remote-work, workstation, productivity]
+tags: [remote-work-tools, linux, remote-work, workstation, productivity]
 reviewed: true
 score: 8
 intent-checked: true

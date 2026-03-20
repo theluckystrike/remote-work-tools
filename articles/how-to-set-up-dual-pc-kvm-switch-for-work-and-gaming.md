@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/
 categories: [guides]
-tags: [kvm-switch, dual-pc, productivity, hardware]
+tags: [remote-work-tools, kvm-switch, dual-pc, productivity, hardware]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/
 categories: [guides]
-tags: [remote-work, ergonomics, airbnb, workspace, productivity, health]
+tags: [remote-work-tools, remote-work, ergonomics, airbnb, workspace, productivity, health]
 reviewed: true
 score: 8
 intent-checked: true

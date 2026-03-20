@@ -10,6 +10,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 The most effective documentation ownership model for remote teams assigns a primary maintainer to each page who reviews updates quarterly, updates metadata automatically, and serves as the async point of contact for related questions. This approach solves outdated content, prevents knowledge silos, and scales documentation responsibility across the entire team without overloading a few contributors. This guide walks you through implementing a documentation ownership model that works across time zones.

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/
 categories: [guides]
-tags: [ci-cd, security, devsecops, supply-chain, pipeline-security, remote-work]
+tags: [remote-work-tools, ci-cd, security, devsecops, supply-chain, pipeline-security, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

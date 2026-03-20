@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-freelance-developer-rates-2026/
 categories: [guides]
-tags: [freelance, pricing, income]
+tags: [remote-work-tools, freelance, pricing, income]
 reviewed: true
 score: 8
 intent-checked: true

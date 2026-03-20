@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hubspot-for-remote-agency-client-pipeline/
 categories: [guides]
-tags: [hubspot, crm, remote-work, client-management, agency-tools]
+tags: [remote-work-tools, hubspot, crm, remote-work, client-management, agency-tools]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/
 categories: [guides]
-tags: [hybrid-work, office-wayfinding, indoor-navigation, workplace-tools, developer-tools]
+tags: [remote-work-tools, hybrid-work, office-wayfinding, indoor-navigation, workplace-tools, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

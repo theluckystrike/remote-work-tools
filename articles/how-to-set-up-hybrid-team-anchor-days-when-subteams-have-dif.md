@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-team-anchor-days-when-subteams-have-dif/
 categories: [guides]
-tags: [hybrid-work, remote-work, team-coordination, anchor-days, scheduling]
+tags: [remote-work-tools, hybrid-work, remote-work, team-coordination, anchor-days, scheduling]
 reviewed: true
 score: 8
 intent-checked: true

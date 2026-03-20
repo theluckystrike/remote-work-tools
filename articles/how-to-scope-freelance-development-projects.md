@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-scope-freelance-development-projects/
 categories: [guides]
-tags: [freelance, project-management, scoping]
+tags: [remote-work-tools, freelance, project-management, scoping]
 reviewed: true
 score: 8
 intent-checked: true

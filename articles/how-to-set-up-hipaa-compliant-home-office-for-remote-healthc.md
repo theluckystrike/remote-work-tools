@@ -7,9 +7,10 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, remote-work]
 ---
 
 # How to Set Up HIPAA Compliant Home Office for Remote Healthcare Workers

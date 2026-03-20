@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-harvest-for-remote-agency-client-time-tracking/
 categories: [guides]
-tags: [harvest, time-tracking, remote-work, agency-tools]
+tags: [remote-work-tools, harvest, time-tracking, remote-work, agency-tools]
 reviewed: true
 score: 8
 intent-checked: true

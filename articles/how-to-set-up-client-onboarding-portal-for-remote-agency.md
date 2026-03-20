@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-client-onboarding-portal-for-remote-agency/
 categories: [guides]
-tags: [client-onboarding, remote-work, portal, agency, workflow, automation]
+tags: [remote-work-tools, client-onboarding, remote-work, portal, agency, workflow, automation]
 reviewed: true
 score: 8
 intent-checked: true
