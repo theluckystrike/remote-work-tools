@@ -8,7 +8,7 @@ permalink: /soundproofing-home-office-for-remote-work-guide/
 categories: [guides]
 tags: [remote-work-tools, workspace, productivity, remote-work, acoustics, soundproofing]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
