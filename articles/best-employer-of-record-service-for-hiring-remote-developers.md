@@ -8,7 +8,7 @@ permalink: /best-employer-of-record-service-for-hiring-remote-developers/
 categories: [guides]
 tags: 
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
