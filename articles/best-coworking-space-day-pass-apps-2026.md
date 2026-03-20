@@ -316,3 +316,8 @@ Combine Deskpass (fast booking) + LiquidSpace (meeting rooms) + WeWork (premium 
 Choose based on your usage pattern. Frequent office users should pick monthly subscriptions (Deskpass, Desana). Occasional travelers should use pay-as-you-go (Croissant, LiquidSpace). Premium-first companies should commit to WeWork.
 
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/Remote Work Guides Hub/)
+

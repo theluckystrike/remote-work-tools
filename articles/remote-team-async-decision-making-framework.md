@@ -487,3 +487,8 @@ Train managers to enforce timeboxing. If decision drags past deadline, escalate 
 Review decision quality quarterly. If 80%+ of implemented decisions have positive outcomes, async is working. If reversals exceed 20%, tighten escalation criteria.
 
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/Remote Work Guides Hub/)
+
