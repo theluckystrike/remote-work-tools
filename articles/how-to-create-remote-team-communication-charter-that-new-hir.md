@@ -7,6 +7,7 @@ author: theluckystrike
 permalink: /how-to-create-remote-team-communication-charter-that-new-hir/
 categories: [guides]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

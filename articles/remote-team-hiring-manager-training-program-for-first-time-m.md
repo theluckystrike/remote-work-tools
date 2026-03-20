@@ -8,6 +8,7 @@ author: theluckystrike
 permalink: /remote-team-hiring-manager-training-program-for-first-time-m/
 categories: [guides]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

@@ -8,6 +8,7 @@ permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-compa
 categories: [guides]
 tags: [remote-hiring, diversity, diversity-sourcing, inclusive-hiring, distributed-teams, talent-acquisition]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

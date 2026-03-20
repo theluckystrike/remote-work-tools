@@ -8,6 +8,7 @@ permalink: /how-to-create-remote-buddy-system-program-for-onboarding-new/
 categories: [guides]
 tags: [remote-onboarding, buddy-program, employee-onboarding, remote-work, scaling-teams]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

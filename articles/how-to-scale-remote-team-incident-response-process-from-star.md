@@ -8,6 +8,7 @@ author: theluckystrike
 permalink: /how-to-scale-remote-team-incident-response-process-from-star/
 categories: [guides]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

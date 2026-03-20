@@ -8,6 +8,7 @@ permalink: /how-to-set-up-home-office-in-bali-rental-apartment-with-reli/
 categories: [guides]
 tags: [bali, remote-work, home-office, power-setup, digital-nomad, infrastructure]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

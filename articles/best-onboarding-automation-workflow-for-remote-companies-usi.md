@@ -8,6 +8,7 @@ permalink: /best-onboarding-automation-workflow-for-remote-companies-using-slack
 categories: [guides]
 tags: [onboarding, automation, slack, notion, remote-work, dev-tools]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

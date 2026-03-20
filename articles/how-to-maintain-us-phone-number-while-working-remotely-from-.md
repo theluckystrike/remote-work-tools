@@ -7,6 +7,7 @@ author: theluckystrike
 permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/
 categories: [guides]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

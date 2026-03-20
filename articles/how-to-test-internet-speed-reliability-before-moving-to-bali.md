@@ -8,6 +8,7 @@ permalink: /how-to-test-internet-speed-reliability-before-moving-to-bali/
 categories: [guides]
 tags: [bali, remote-work, internet-speed, digital-nomad, connectivity]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

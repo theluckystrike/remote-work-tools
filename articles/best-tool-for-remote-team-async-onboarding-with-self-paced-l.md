@@ -7,6 +7,7 @@ author: theluckystrike
 permalink: /best-tool-for-remote-team-async-onboarding-with-self-paced-l/
 categories: [guides]
 score: 7
+voice-checked: true
 reviewed: true
 ---
 

@@ -15,6 +15,7 @@ tags:
 - productivity
 permalink: /a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/
 score: 7
+voice-checked: true
 reviewed: true
 ---
 
