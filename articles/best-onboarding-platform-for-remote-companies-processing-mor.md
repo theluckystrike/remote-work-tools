@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Trigger BambooHR onboarding workflow via API"
 description: "A technical comparison of onboarding platforms designed for high-volume remote hiring. Features, APIs, automation capabilities, and integration."

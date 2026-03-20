@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Deploy a secure Element (Matrix) server for pen test."
 description: "A practical guide for coordinating penetration testing activities across distributed security teams. Includes code examples and coordination workflows."

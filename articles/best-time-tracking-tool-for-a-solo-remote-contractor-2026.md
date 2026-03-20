@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Time Tracking Tool for a Solo Remote Contractor 2026"
 description: "A practical guide to time tracking tools for solo developers and remote contractors. Compare CLI-based timers, desktop apps, and automated solutions."

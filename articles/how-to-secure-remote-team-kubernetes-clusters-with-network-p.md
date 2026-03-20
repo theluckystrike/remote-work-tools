@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Secure Remote Team Kubernetes Clusters with."
 description: "A practical guide to implementing Kubernetes network policies to secure your remote team's cluster infrastructure."

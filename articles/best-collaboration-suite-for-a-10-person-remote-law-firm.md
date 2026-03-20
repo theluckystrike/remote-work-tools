@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Collaboration Suite for a 10 Person Remote Law Firm"
 description: "Find the ideal collaboration suite for a distributed 10-person remote law firm. Compare real-time document management, secure messaging, case."

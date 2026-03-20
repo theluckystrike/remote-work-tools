@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Cloud Access Security Broker for Remote Teams Using."
 description: "A technical guide to cloud access security brokers (CASB) for remote teams managing multiple SaaS applications. Compare architecture, API integration."

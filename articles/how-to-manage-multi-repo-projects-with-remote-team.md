@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Manage Multi-Repo Projects with Remote Team"
 description: "Practical strategies for coordinating codebases across distributed teams. Includes Git workflows, tooling patterns, and automation examples for."

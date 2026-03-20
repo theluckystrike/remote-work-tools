@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Retrospective Tool for a Remote Scrum Team of 6"
 description: "Find the best retrospective tool for a remote scrum team of 6. Compare features, integrations, and real-world setup examples for small distributed teams."

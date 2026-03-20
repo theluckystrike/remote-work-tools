@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Tool for Tracking Remote Team Meeting Effectiveness."
 description: "A practical guide to measuring and improving remote meeting effectiveness. Learn metrics, automation approaches, and code-based solutions for."

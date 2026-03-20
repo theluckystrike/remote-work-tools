@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Monday vs Asana for a Nonprofit Remote Team of 30"
 description: "A practical comparison of Monday.com and Asana for managing a 30-person nonprofit remote team. Features, pricing, automation, and implementation guidance."

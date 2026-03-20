@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Do Async Performance Reviews for Remote."
 description: "A practical guide with code snippets and templates for implementing async performance reviews in distributed engineering teams."

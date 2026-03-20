@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Agency Scope Change Request Workflow for Client."
 description: "A practical step-by-step workflow for handling scope change requests in remote agency client projects. Includes code templates, process examples, and."

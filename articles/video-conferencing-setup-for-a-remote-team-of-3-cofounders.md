@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Video Conferencing Setup for a Remote Team of 3 Cofounders"
 description: "A practical guide for developers and power users setting up video conferencing for a 3-person remote cofounder team. Covers hardware, software, and."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Jitsi Meet vs Zoom: Privacy Comparison for Developers"
 description: "A technical privacy comparison between Jitsi Meet and Zoom for developers and power users. Explore encryption, data handling, self-hosting options, and."

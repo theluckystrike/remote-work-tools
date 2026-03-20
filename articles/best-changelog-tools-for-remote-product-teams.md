@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Changelog Tools for Remote Product Teams"
 description: "A practical comparison of changelog tools for distributed product teams. Covers API integrations, automation patterns, and implementation examples for."

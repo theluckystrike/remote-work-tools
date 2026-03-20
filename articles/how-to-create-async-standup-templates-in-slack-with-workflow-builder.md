@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Async Standup Templates in Slack With."
 description: "Learn how to build asynchronous standup templates using Slack Workflow Builder. Set up automated prompts, custom forms, and scheduled reminders for."

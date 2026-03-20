@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Notion Template for Remote Team Handbook: Covering."
 description: "Discover the best Notion templates for creating remote team handbooks. Includes HR policies, team norms, onboarding checklists, and."

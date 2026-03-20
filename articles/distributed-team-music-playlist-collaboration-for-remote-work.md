@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Music Playlist Collaboration Tools for Distributed."
 description: "Discover the best tools and strategies for creating shared music playlists that remote teams can enjoy together, boosting morale and connection across."

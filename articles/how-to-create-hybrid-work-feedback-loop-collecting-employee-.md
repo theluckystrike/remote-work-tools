@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Hybrid Work Feedback Loop Collecting."
 description: "A practical guide to building feedback systems that collect employee input on hybrid work policy changes. Includes code examples and implementation."

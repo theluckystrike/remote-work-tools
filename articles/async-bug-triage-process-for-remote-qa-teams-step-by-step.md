@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Async Bug Triage Process for Remote QA Teams: Step-by-Step"
 description: "Learn how to run effective asynchronous bug triage with remote QA teams. Practical examples and code snippets included."

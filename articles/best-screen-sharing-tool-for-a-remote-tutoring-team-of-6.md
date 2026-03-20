@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Screen Sharing Tool for a Remote Tutoring Team of 6"
 description: "A practical guide to screen sharing solutions for small remote tutoring teams. Compare Zoom, Google Meet, Discord, and team-oriented tools with real."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Teleparty supports these streaming platforms:"
 description: "Discover the best virtual movie watch party tools for remote team Friday events. Compare sync-play platforms, browser extensions, and open-source."

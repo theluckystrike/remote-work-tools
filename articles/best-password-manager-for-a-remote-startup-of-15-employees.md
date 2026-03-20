@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Password Manager for a Remote Startup of 15 Employees"
 description: "A practical guide to choosing password management solutions for small remote teams. Compare features, security models, and implementation strategies."

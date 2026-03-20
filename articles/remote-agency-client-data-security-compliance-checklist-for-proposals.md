@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Agency Client Data Security Compliance Checklist."
 description: "A practical compliance checklist for remote agencies. Includes security requirements, code examples, and proposal templates for protecting client data."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Manage Cross-Functional Remote Projects"
 description: "A practical guide for developers and power users managing cross-functional remote projects. Covers coordination, communication patterns, and workflow."

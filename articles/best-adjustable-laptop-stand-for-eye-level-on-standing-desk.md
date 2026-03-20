@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Adjustable Laptop Stand for Eye Level on Standing Desk"
 description: "A practical guide for developers and power users finding the optimal laptop stand for eye-level use with standing desks. Covers height range, stability."

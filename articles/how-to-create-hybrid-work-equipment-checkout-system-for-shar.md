@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create a Hybrid Work Equipment Checkout System."
 description: "A practical guide for developers building equipment checkout systems for hybrid workplaces. Includes code examples and architecture patterns."

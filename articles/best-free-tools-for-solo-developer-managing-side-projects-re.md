@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Free Tools for Solo Developer Managing Side."
 description: "A practical guide to free tools for solo developers managing side projects remotely. Includes code examples, setup guides, and implementation patterns."

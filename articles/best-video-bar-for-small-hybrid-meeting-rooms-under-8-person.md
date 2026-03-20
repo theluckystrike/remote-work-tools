@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Video Bar for Small Hybrid Meeting Rooms Under 8."
 description: "A technical guide for developers and IT teams selecting video bars for small hybrid meeting rooms. Covers USB audio/video solutions, API integrations."

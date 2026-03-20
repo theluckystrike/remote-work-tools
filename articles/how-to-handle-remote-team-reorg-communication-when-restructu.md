@@ -10,6 +10,7 @@ tags: [remote-work, team-reorganization, distributed-teams, change-management, c
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 # How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Time Tracking for Contractors and Freelancers Guide"
 description: "A practical guide to time tracking for contractors and freelancers. Learn setup methods, automation techniques, and tools for accurate billing."

@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Barco ClickShare API: Starting a presentation session"
 description: "Discover the best wireless presentation systems for hybrid meeting rooms with BYOD support in 2026. Compare features, technical requirements, and."

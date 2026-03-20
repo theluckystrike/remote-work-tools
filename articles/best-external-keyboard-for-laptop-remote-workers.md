@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: A simple keyboard macro concept"
 description: "Find the ideal external keyboard for your remote work setup. We cover mechanical, membrane, and ergonomic options with practical advice for developers."

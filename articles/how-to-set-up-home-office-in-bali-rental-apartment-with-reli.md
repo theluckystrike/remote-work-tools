@@ -10,6 +10,7 @@ tags: [bali, remote-work, home-office, power-setup, digital-nomad, infrastructur
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

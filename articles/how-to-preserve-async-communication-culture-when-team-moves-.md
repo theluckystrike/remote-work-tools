@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Preserve Async Communication Culture When Team."
 description: "A practical guide for developers and power users on maintaining asynchronous communication patterns when transitioning from fully remote to hybrid work."

@@ -10,6 +10,7 @@ tags: [remote-work-tools, onboarding, automation, slack, notion, remote-work, de
 score: 8
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

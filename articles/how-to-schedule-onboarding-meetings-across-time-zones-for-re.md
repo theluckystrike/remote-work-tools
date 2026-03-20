@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Find overlapping work hours across three zones"
 description: "A practical guide for developers and power users to schedule onboarding meetings across time zones. Includes tools, strategies, code snippets, and."

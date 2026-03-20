@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Build a Remote Team Wiki from Scratch"
 description: "A practical guide for developers and power users to build a collaborative team wiki from scratch. Includes architecture, tools, code examples, and."

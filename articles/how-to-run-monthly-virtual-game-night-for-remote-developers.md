@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Run Monthly Virtual Game Night for Remote Developers"
 description: "A practical guide to organizing and running monthly virtual game nights for remote development teams. Includes scheduling tips, game recommendations."

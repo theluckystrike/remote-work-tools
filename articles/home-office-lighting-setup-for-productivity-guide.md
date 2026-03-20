@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Home Office Lighting Setup for Productivity"
 description: "Optimize your home office lighting for maximum productivity. Learn about color temperature, brightness levels, smart automation, and practical."

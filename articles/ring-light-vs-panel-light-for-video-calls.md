@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Ring Light vs Panel Light for Video Calls: A Developer Guide"
 description: "Technical comparison of ring lights and panel lights for video calls. Learn which lighting solution works best for developers and remote professionals."

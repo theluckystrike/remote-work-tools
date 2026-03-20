@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Invoicing Workflow for Solo Developer with."
 description: "Learn how to build an efficient invoicing workflow tailored for solo developers working with international clients. Includes practical examples."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Simple assignment: rotate through combinations"
 description: "A practical guide for developers and power users building a hybrid work schedule template with three office days, including rotation patterns."

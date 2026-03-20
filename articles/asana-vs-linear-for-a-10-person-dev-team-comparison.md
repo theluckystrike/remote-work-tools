@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Asana vs Linear for a 10-Person Dev Team Comparison"
 description: "A technical comparison of Asana and Linear for managing a 10-person development team. Features, API access, GitHub integration, and implementation."

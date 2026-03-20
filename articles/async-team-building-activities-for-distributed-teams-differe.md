@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Async Team Building Activities for Distributed Teams."
 description: "Practical async team building activities for distributed teams working across different time zones. Implementation patterns, code examples, and."

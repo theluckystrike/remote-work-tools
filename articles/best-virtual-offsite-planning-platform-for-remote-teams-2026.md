@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Virtual Offsite Planning Platform for Remote Teams."
 description: "A practical guide for developers and power users comparing virtual offsite planning platforms. Covers Miro, MURAL, Google Jamboard, Figma, and custom."

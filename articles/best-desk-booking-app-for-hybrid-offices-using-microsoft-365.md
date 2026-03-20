@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Desk Booking App for Hybrid Offices Using Microsoft 365"
 description: "A technical guide to desk booking systems with Microsoft 365 integration for hybrid offices. Learn about Graph API integration, auto-provisioning, and."

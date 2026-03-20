@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Employer Branding Strategy for Attracting."
 description: "A practical guide to building employer branding that attracts distributed talent. Concrete strategies, code examples, and frameworks for remote-first."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Tool for Hybrid Team Async Updates When Some Use."
 description: "A technical guide to async update tools for hybrid teams where some members work in office spaces with whiteboards. Covers implementation strategies."

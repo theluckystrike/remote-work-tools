@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Remote Team Grant and Funding Tracking Tool for."
 description: "A guide to grant and funding tracking tools for distributed nonprofit organizations. Compare solutions, implementation patterns, and code."

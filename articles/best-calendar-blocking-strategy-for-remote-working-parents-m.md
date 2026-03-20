@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "calendar_manager.py - Manage childcare-aware calendar blocks"
 description: "A practical calendar blocking strategy for remote working parents dealing with childcare gaps. Learn actionable techniques, automation scripts, and."

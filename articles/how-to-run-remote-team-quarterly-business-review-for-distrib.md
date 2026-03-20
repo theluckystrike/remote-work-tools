@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Run Remote Team Quarterly Business Review for."
 description: "A practical guide to running effective quarterly business reviews with remote and distributed teams. Includes templates, async workflows, and."

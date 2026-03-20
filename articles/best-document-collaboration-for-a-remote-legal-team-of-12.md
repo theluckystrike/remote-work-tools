@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Document Collaboration for a Remote Legal Team of 12"
 description: "Discover the best document collaboration tools and strategies for a remote legal team of 12. Compare implementations, code examples, and workflows."

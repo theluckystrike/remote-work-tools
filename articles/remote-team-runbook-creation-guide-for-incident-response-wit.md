@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "From your local machine with VPN active"
 description: "A practical guide to building incident response runbooks that work across time zones. Includes templates, automation examples, and handover protocols."

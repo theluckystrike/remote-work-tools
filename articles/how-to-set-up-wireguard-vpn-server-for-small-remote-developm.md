@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Ubuntu and Debian"
 description: "A practical guide to setting up WireGuard VPN for small remote development teams. Includes server configuration, client setup, and production-ready."

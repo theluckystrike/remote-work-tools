@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Documentation Platform for a 15 Person Remote Data."
 description: "A practical guide to building a documentation platform for a 15 person remote data science team. Includes code examples, workflow patterns, and."

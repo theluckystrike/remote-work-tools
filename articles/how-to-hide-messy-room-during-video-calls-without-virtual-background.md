@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Hide Messy Room During Video Calls Without a."
 description: "Practical tips and techniques to hide your messy room during video calls without using virtual backgrounds. Physical solutions, lighting tricks, and."

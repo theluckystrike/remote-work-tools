@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Tools for Remote Design Sprints: A Practical Guide"
 description: "Best Tools for Remote Design Sprints: A Practical Guide — practical guide for remote teams and distributed workers with tools, tips, and workflows for."

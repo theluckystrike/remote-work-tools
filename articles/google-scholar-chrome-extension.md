@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Google Scholar Chrome Extension Development Guide"
 description: "A practical guide to building and using Chrome extensions for Google Scholar. Covers Manifest V3, content scripts, and real-world implementation."

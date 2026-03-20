@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Remote Team Social Channel Ideas for Building."
 description: "Practical Slack channel strategies for remote teams looking to build authentic relationships. Real examples, automation scripts, and implementation."

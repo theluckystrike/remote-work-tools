@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Calculate pod count based on floor space and team size"
 description: "Learn how to redesign open plan offices for hybrid work by adding focus pods. Includes space planning, acoustic treatment, booking systems, and code."

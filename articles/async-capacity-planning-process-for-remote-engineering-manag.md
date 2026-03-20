@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Async Capacity Planning Process for Remote Engineering."
 description: "Learn how to build an effective async capacity planning process for distributed engineering teams. Includes templates, formulas, and real-world examples."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Remote Team Architecture Documentation."
 description: "Learn how to create and maintain architecture documentation for remote teams using diagrams as code. Practical examples with Mermaid, PlantUML, and."

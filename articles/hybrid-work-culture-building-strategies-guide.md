@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Hybrid Work Culture Building Strategies Guide"
 description: "A practical guide to building and maintaining strong team culture in hybrid work environments. Includes code snippets and actionable strategies for."

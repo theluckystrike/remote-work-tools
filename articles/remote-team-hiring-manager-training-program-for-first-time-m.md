@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Hiring Manager Training Program for."
 description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code."
@@ -10,6 +9,7 @@ categories: [guides]
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

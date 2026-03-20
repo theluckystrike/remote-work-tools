@@ -1,8 +1,4 @@
 ---
-
-
-
-
 layout: default
 title: "Node.js and npm"
 description: "A guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best."

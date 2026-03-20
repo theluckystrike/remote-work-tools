@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "OpenVPN client configuration snippet"
 description: "A practical guide for developers and power users setting up IT infrastructure that supports hybrid work models."

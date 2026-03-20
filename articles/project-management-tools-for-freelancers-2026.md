@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Project Management Tools for Freelancers 2026: A."
 description: "A practical guide to project management tools for freelancers in 2026. Compare self-hosted, CLI-based, and API-first solutions designed for developers."

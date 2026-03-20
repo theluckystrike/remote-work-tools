@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Redshift - Linux/Unix blue light filter"
 description: "Create an optimal home office setup for software development. Covers desk configuration, monitor placement, lighting, ergonomic considerations, and."

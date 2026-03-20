@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Build Trust with Clients Who Prefer In-Person."
 description: "Learn practical strategies for building trust with clients who prefer in-person meetings while working in remote or hybrid environments."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Track Project Dependencies in a Remote Team: A."
 description: "Learn effective strategies and tools for tracking project dependencies across distributed teams. Includes code examples, automation scripts, and."

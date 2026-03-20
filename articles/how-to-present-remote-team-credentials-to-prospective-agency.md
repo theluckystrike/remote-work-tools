@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Present Remote Team Credentials to Prospective."
 description: "Learn practical strategies for showcasing your remote team's credentials, certifications, and expertise to win agency contracts."

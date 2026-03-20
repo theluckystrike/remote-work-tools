@@ -10,6 +10,7 @@ tags: [bali, remote-work, internet-speed, digital-nomad, connectivity]
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

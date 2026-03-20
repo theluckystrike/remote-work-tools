@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Best Time Tracking Tools for Remote Freelancers"
 description: "Discover the best time tracking tools for remote freelancers. Compare CLI tools, desktop apps, and automation approaches built for developers and power."

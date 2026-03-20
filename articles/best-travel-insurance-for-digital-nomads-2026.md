@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Travel Insurance for Digital Nomads 2026: A."
 description: "Find the best travel insurance for digital nomads in 2026. Compare coverage options, understand policy technicalities, and learn how to automate your."

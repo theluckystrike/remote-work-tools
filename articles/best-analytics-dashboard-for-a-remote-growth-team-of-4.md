@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Analytics Dashboard for a Remote Growth Team of 4"
 description: "Find the best analytics dashboard for a remote growth team of 4. Compare tools with code examples, API integrations, and implementation patterns."

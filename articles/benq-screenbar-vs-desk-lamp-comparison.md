@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "BenQ ScreenBar vs Desk Lamp Comparison: A Developer."
 description: "A technical comparison of BenQ ScreenBar and traditional desk lamps for coding setups. Learn which lighting solution works best for developers and."

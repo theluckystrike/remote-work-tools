@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Encrypted Messaging App for Remote Team Sensitive."
 description: "Compare the best encrypted messaging apps for remote teams handling sensitive communications. Technical analysis of Signal, Telegram, Session, Wickr."

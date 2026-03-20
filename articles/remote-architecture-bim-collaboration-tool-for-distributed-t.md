@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Architecture BIM Collaboration Tool for."
 description: "A guide to remote architecture BIM collaboration tools enabling distributed teams to work on Revit projects together in real-time. Covers."

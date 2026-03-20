@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Communication Norms for a Remote Team of 20 Across 4."
 description: "A practical guide to establishing communication norms for a 20-person remote team spread across 4 time zones. Includes async-first workflows, tool."

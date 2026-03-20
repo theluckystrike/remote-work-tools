@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Slack Alternatives for Small Teams in 2026"
 description: "Discover the top Slack alternatives for small development teams. Compare features, pricing, and find the perfect communication tool for your workflow."

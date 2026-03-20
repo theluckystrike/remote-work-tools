@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Code Review Tools for Solo Freelance Developers"
 description: "Discover the best code review tools for solo freelance developers to improve code quality, catch bugs early, and maintain professional standards."

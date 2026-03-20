@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "macOS"
 description: "Learn how to build and share project timelines with remote agency clients using CLI tools. Practical examples and code snippets for developers and."

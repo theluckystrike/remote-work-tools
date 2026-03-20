@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Async 360 Feedback Process for Remote Teams Without Live."
 description: "A practical guide to implementing async 360 feedback for remote teams. Learn how to collect structured feedback from peers, managers, and reports."

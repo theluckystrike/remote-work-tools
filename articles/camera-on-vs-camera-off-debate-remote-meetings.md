@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Camera On vs Camera Off Debate in Remote Meetings: A."
 description: "Camera On vs Camera Off Debate in Remote Meetings: A. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026."

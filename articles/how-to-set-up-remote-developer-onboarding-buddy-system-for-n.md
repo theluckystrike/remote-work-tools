@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Buddy Responsibilities Charter"
 description: "Learn how to build an effective remote developer onboarding buddy system. Practical setup guide with code snippets and implementation examples."

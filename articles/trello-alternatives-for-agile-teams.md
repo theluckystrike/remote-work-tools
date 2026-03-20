@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Trello Alternatives for Agile Teams"
 description: "Explore Trello alternatives for agile teams with API integrations, automation patterns, and implementation examples for developers building modern."

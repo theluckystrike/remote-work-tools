@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Google Meet Tips and Tricks for Productivity in 2026"
 description: "Master Google Meet with advanced tips for developers and power users. Learn keyboard shortcuts, API integrations, automation scripts, and hidden features."

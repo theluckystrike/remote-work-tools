@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Virtual Board Game Platforms for Remote Team Social Events"
 description: "Explore virtual board game platforms for remote team social events. Compare tools, setup requirements, and implementation strategies for distributed teams."

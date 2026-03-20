@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Legal Research Tool Comparison for Distributed."
 description: "A technical comparison of AI-powered legal research tools for distributed law firms. APIs, integrations, pricing, and implementation examples for."

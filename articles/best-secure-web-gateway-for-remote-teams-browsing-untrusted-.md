@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Secure Web Gateway for Remote Teams Browsing."
 description: "A practical guide to secure web gateways for remote teams. Compare solutions with configuration examples, deployment patterns, and implementation."

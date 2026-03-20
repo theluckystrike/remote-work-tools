@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Air Purifier for Home Office Productivity"
 description: "Discover how air quality affects coding performance and learn which air purifiers can improve focus, reduce fatigue, and create a healthier home office."

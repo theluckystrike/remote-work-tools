@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Recommended equipment configuration for hybrid meeting rooms"
 description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, facilitation tips, and."

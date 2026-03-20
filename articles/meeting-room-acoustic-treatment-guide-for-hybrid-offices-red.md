@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Meeting Room Acoustic Treatment Guide for Hybrid."
 description: "A practical technical guide for developers and power users implementing acoustic treatment in meeting rooms to reduce echo and improve call quality for."

@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Communication Strategy Guide"
 description: "A practical guide to building effective remote team communication strategies for developers and technical teams."

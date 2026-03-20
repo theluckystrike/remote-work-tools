@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Practice for Hybrid Team Standup Format."
 description: "A practical guide to running effective hybrid standups that include both in-office and remote developers. Includes formats, tools, and facilitation tips."

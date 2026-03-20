@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Practices for Remote Incident Communication"
 description: "Learn practical strategies for communicating during incidents when working remotely. Includes status page templates, Slack workflows, escalation."

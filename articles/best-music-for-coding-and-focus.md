@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Music for Coding and Focus: A Developer's Guide"
 description: "Discover the best music for coding and focus. Explore genre-specific recommendations, playlists, and tools to enhance your developer productivity."

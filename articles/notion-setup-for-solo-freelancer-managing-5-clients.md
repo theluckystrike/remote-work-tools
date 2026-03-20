@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Notion Setup for Solo Freelancer Managing 5 Clients: A."
 description: "Build a practical Notion system to manage multiple clients efficiently. Learn database structures, templates, and workflows designed for solo."

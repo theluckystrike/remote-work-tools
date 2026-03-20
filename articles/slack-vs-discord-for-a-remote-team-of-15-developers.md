@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Slack vs Discord for a Remote Team of 15 Developers"
 description: "A practical comparison of Slack and Discord for a 15-developer remote team. Real-world workflows, pricing, integrations, and which platform fits your."

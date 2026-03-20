@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Batch Onboarding Process for Cohort-Based Hiring"
 description: "A practical guide to implementing batch onboarding for distributed companies hiring in cohorts. Includes process templates, automation scripts, and."

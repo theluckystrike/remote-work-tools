@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Escalation Protocols for Remote Engineering Teams"
 description: "A practical guide to building effective escalation protocols for remote engineering teams. Includes code examples, Slack integration patterns, and."

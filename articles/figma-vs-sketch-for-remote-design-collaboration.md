@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Figma vs Sketch for Remote Design Collaboration"
 description: "A technical comparison of Figma and Sketch for remote design teams. Learn about real-time collaboration, API integrations, and which tool fits your."

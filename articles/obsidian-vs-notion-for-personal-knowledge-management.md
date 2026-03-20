@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Obsidian vs Notion for Personal Knowledge Management"
 description: "Compare Obsidian and Notion for personal knowledge management from a developer perspective. Includes local-first architecture, markdown workflows."

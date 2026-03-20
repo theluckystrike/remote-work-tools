@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Parse: "Accomplished X. Next: Y. Blockers: Z""
 description: "A practical guide for developers and power users comparing tools to track OKRs and weekly team goals in remote settings. Includes API examples and."

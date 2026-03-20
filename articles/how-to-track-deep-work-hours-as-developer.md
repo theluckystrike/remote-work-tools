@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Track Deep Work Hours as a Developer: A Practical."
 description: "Learn practical methods to track and maximize your deep work hours as a developer. Includes code snippets, CLI tools, and automation strategies."

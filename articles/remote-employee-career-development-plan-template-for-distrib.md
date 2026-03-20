@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Employee Career Development Plan Template for."
 description: "A practical template and implementation guide for managing remote employee career development in distributed teams. Includes code examples and."

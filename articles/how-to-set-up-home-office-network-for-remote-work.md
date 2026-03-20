@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Set Up Home Office Network for Remote Work"
 description: "A practical technical guide for developers and power users setting up a reliable home office network. Covers wired vs wireless, subnet configuration."

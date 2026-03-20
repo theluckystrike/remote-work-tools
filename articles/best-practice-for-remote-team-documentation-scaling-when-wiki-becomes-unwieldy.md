@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Practice for Remote Team Documentation Scaling When."
 description: "A practical guide for engineering managers on scaling remote team documentation when wikis grow too large, with strategies for organization, search."

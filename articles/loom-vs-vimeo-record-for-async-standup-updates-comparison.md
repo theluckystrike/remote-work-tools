@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Loom vs Vimeo Record for Async Standup Updates Comparison"
 description: "A technical comparison of Loom and Vimeo Record for creating async standup updates. Recording quality, integrations, sharing workflows, and."

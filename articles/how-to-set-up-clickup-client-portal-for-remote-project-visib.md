@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Example: Add a client to a specific project list"
 description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for."

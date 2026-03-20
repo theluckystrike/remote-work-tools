@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "Example: Calculate optimal announcement time for global team"
 description: "A practical guide for leaders and managers on announcing policy updates to remote teams while maintaining trust, reducing uncertainty, and keeping."

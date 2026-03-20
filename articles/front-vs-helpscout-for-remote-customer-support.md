@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Front vs HelpScout for Remote Customer Support: A."
 description: "A detailed comparison of Front vs HelpScout for remote customer support teams. Learn the key differences, API capabilities, integration options, and."

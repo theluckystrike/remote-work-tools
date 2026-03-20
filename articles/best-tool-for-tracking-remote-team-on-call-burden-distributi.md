@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: ".github/ISSUE_TEMPLATE/oncall-shift.md"
 description: "A practical guide for developers and power users comparing tools and methods to track and balance on-call burden across distributed remote teams."

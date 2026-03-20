@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Interest-Based Slack Channels for Remote."
 description: "Learn how to build interest-based Slack channels that strengthen remote team culture. Practical examples, naming conventions, and automation scripts."

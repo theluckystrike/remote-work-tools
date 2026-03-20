@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Create Hot Desking Floor Plan for Hybrid Office."
 description: "Learn how to create a hot desking floor plan for hybrid office spaces with neighborhood zones. Practical examples, data structures, and implementation."

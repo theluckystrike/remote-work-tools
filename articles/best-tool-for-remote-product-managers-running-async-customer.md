@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Tool for Remote Product Managers Running Async."
 description: "A practical guide to selecting and implementing async customer discovery interview tools for distributed product teams. Code examples and evaluation."

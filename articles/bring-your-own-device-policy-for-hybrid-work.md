@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Bring Your Own Device Policy for Hybrid Work"
 description: "A practical guide for developers and power users implementing BYOD policies in hybrid work environments. Covers security, device management, and."

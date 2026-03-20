@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Detect and Prevent Burnout in Remote Employees."
 description: "Learn how to detect and prevent burnout in remote employees with practical early warning signs and actionable prevention strategies for developers and."

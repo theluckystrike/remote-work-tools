@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Notion Database Templates for a Solo Recruiter Working."
 description: "A practical guide to building custom Notion database templates for solo recruiters working remotely. Includes database schemas, formulas, and."

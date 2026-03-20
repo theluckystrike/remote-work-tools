@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Noise Cancelling Headphones vs Earbuds for Remote Work."
 description: "Compare noise cancelling headphones and earbuds for remote work. Technical analysis, use case recommendations, and tips for developers seeking focus."

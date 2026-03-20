@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Manage Multiple Freelance Clients Effectively"
 description: "Practical strategies and automation scripts for developers juggling multiple freelance clients. Learn client management systems, time blocking."

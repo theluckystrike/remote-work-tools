@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Quick save script for terminal workflows"
 description: "Learn practical strategies and automation scripts to create a desk-to-kitchen transition that maximizes your lunch break efficiency as a."

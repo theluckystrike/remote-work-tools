@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Avoid Miscommunication in Async Written Messages."
 description: "A practical guide to preventing misunderstandings in async text communication. Learn frameworks, templates, and best practices for clear remote team."

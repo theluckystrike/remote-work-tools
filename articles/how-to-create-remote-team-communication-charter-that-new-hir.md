@@ -9,6 +9,7 @@ categories: [guides]
 score: 7
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 A communication charter serves as the connective tissue for distributed teams. Without one, new hires scramble to understand when to use Slack versus email, how quickly they should respond to messages, and where critical information lives. Building a charter that actually gets adopted during onboarding requires more than documenting rules—it demands making those rules accessible, contextual, and reinforced through the first weeks of employment.

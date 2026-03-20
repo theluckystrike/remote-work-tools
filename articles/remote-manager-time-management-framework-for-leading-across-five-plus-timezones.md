@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Convert to UTC range"
 description: "A practical framework for remote managers handling distributed teams across five or more timezones. Includes scheduling algorithms, async workflows."

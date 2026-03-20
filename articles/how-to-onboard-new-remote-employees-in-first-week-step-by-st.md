@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Developer environment bootstrap script"
 description: "A practical step-by-step guide for onboarding new remote employees during their first week. Includes checklists, meeting templates, and communication."

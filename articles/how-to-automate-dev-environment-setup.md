@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Automate Dev Environment Setup: A Practical Guide"
 description: "A hands-on guide to automating your development environment setup. Learn to use configuration management tools, shell scripts, and containerization to."

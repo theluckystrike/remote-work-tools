@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Conflict Resolution Framework for Managers."
 description: "A practical framework for resolving conflicts in remote teams. Learn actionable strategies for addressing disagreements across time zones and."

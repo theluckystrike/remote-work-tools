@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Run a Remote Client Kickoff Meeting for a New Project"
 description: "Learn practical strategies for running effective remote client kickoff meetings. Includes preparation checklists, facilitation techniques, and tools."

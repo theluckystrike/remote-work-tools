@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Code Review Guide"
 description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples."

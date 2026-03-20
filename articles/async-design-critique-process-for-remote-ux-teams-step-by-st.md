@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Async Design Critique Process for Remote UX Teams."
 description: "Learn how to run effective asynchronous design critiques with remote UX teams. Practical examples and code snippets included."

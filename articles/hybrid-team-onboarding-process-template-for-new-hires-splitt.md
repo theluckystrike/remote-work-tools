@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: ".github/ISSUE_TEMPLATE/onboarding.yml"
 description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between."

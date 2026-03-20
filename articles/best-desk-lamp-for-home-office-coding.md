@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Desk Lamp for Home Office Coding: A Developer's Guide"
 description: "Find the ideal desk lamp for coding with our guide covering color temperature, brightness, smart integration, and ergonomic placement."

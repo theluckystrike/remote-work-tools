@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Team Support Ticket First Response Time Tracking."
 description: "Learn how to implement first response time tracking for remote support teams. Includes code examples, SLA configurations, and practical strategies for."

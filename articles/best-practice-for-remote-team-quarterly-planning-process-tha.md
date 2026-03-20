@@ -10,6 +10,7 @@ tags: [remote-work-tools, quarterly-planning, remote-work, scaling, multi-team, 
 score: 8
 voice-checked: true
 reviewed: true
+intent-checked: true
 ---
 
 {% raw %}

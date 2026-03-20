@@ -1,8 +1,4 @@
 ---
-
-
-
-
 layout: default
 title: "FastAPI-based question collection endpoint"
 description: "A guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes."

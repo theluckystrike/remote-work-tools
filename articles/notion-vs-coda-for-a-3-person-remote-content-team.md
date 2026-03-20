@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Notion vs Coda for a 3-Person Remote Content Team"
 description: "A technical comparison of Notion and Coda for managing a 3-person remote content team. API access, automation capabilities, databases, and."

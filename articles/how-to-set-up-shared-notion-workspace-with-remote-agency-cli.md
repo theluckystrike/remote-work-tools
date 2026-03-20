@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Set Up Shared Notion Workspace with Remote Agency."
 description: "A practical guide for developers and power users setting up shared Notion workspaces for remote agency client collaboration. Includes workspace."

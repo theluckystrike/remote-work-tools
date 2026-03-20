@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Communicate Project Delays Remotely to."
 description: "Learn how to communicate project delays remotely to stakeholders with transparency. Includes templates, code snippets, and best practices for."

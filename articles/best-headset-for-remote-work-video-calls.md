@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Headset for Remote Work Video Calls: A Technical Guide"
 description: "A practical guide for developers and power users choosing headsets for video conferencing. Covers audio quality, microphone performance, and platform."

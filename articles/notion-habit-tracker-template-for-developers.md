@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Notion Habit Tracker Template for Developers: Build."
 description: "A practical guide to building a habit tracker in Notion designed specifically for developers. Includes template structures, database configurations."

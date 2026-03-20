@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Remote Work Special Needs Child Accommodation Guide for."
 description: "A practical guide for developers and remote workers parenting children with special needs. Learn accommodation strategies, communication frameworks."

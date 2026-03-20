@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "How to Optimize Internet Speed for Remote Work"
 description: "A practical guide for developers and power users to optimize internet speed for remote work. Includes network configuration, speed testing, and."

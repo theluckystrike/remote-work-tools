@@ -1,6 +1,4 @@
 ---
-
-
 layout: default
 title: "How to Structure an Async All Hands Update for 100 Employees"
 description: "A practical guide to running asynchronous all hands meetings at scale. Templates, tools, and code examples for 100-person teams."

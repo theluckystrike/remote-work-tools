@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Mexico City Digital Nomad Guide for Remote Workers"
 description: "A practical guide for developers and power users working remotely in Mexico City. Covers neighborhoods, coworking spaces, internet setup, and essential."

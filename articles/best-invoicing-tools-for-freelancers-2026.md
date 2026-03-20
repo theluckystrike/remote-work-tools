@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: "Best Invoicing Tools for Freelancers 2026"
 description: "A practical comparison of invoicing tools for freelancers in 2026. Includes API integrations, automation scripts, and implementation patterns for."
