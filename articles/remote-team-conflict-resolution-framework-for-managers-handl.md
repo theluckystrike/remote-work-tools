@@ -8,7 +8,7 @@ permalink: /remote-team-conflict-resolution-framework-for-managers-handl/
 categories: [guides]
 tags: [remote-work-tools, remote-work, conflict-resolution, team-management, distributed-teams, leadership]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
