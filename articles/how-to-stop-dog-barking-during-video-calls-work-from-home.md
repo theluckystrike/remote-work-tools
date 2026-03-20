@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, best-of]
 ---
 
 # How to Stop Dog Barking During Video Calls: A Complete Work From Home Guide

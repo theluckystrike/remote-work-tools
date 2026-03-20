@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-team-peer-feedback-process-without-awkw/
 categories: [guides]
-tags: [feedback, remote-work, peer-feedback, async, team-development]
+tags: [remote-work-tools, feedback, remote-work, peer-feedback, async, team-development]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-finance-team-approval-workflow-for-expe/
 categories: [guides]
-tags: [finance, expense-reports, remote-work, workflow-automation, async]
+tags: [remote-work-tools, finance, expense-reports, remote-work, workflow-automation, async, workflow]
 reviewed: true
 score: 8
 intent-checked: true

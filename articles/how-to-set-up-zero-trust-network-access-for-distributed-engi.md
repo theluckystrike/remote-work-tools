@@ -10,6 +10,7 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools]
 ---
 
 # How to Set Up Zero Trust Network Access for Distributed Engineering Teams

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-soundproof-home-office-when-working-remotely-w/
 categories: [guides]
-tags: [remote-work, home-office, acoustic-treatment, soundproofing, work-from-home]
+tags: [remote-work-tools, remote-work, home-office, acoustic-treatment, soundproofing, work-from-home]
 reviewed: true
 score: 8
 voice-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-share-home-office-with-partner-both-on-calls/
 categories: [guides]
-tags: [remote-work, home-office, productivity, setup]
+tags: [remote-work-tools, remote-work, home-office, productivity, setup]
 reviewed: true
 score: 8
 intent-checked: true

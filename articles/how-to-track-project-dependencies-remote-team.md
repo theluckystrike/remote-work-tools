@@ -10,6 +10,7 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, remote-work]
 ---
 
 # How to Track Project Dependencies in a Remote Team: A Practical Guide

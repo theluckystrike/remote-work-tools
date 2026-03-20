@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-design-handoff-workflow-between-designe/
 categories: [guides]
-tags: [design-handoff, remote-work, designer-developer-collaboration, workflow, figma, design-tools]
+tags: [remote-work-tools, design-handoff, remote-work, designer-developer-collaboration, workflow, figma, design-tools]
 reviewed: true
 score: 8
 intent-checked: true

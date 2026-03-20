@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-radiology-reading-station-at-home-with-/
 categories: [guides]
-tags: [radiology, healthcare-it, pacs, telemedicine, remote-work, medical-imaging]
+tags: [remote-work-tools, radiology, healthcare-it, pacs, telemedicine, remote-work, medical-imaging]
 reviewed: true
 intent-checked: true
 voice-checked: true

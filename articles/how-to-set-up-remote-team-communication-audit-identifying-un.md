@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-set-up-remote-team-communication-audit-identifying-un/
 categories: [guides]
-tags: [remote-work, communication, productivity, meetings, slack, team-management]
+tags: [remote-work-tools, remote-work, communication, productivity, meetings, slack, team-management]
 reviewed: true
 score: 8
 intent-checked: true

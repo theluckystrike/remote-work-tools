@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-up-second-brain-for-developers/
 categories: [guides]
-tags: [productivity, note-taking, knowledge-management]
+tags: [remote-work-tools, productivity, note-taking, knowledge-management]
 reviewed: true
 score: 8
 intent-checked: true

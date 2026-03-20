@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-guilds-and-communities-of-practice/
 categories: [guides]
-tags: [remote-work, guilds, communities-of-practice, knowledge-sharing, developer-productivity]
+tags: [remote-work-tools, remote-work, guilds, communities-of-practice, knowledge-sharing, developer-productivity]
 reviewed: true
 score: 8
 intent-checked: true

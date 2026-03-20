@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-support-neurodivergent-remote-workers/
 categories: [guides]
-tags: [remote-work, neurodiversity, inclusion, productivity]
+tags: [remote-work-tools, remote-work, neurodiversity, inclusion, productivity]
 reviewed: true
 score: 8
 voice-checked: true

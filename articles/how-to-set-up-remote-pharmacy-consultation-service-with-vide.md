@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-pharmacy-consultation-service-with-video-conferencing-tools/
 categories: [guides]
-tags: [pharmacy, telemedicine, video-conferencing, healthcare,HIPAA]
+tags: [remote-work-tools, pharmacy, telemedicine, video-conferencing, healthcare, HIPAA, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

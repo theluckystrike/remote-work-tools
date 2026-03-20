@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/
 categories: [guides]
-tags: [banking, thailand, digital-nomad, remote-work, finance]
+tags: [remote-work-tools, banking, thailand, digital-nomad, remote-work, finance, artificial-intelligence]
 reviewed: true
 score: 8
 intent-checked: true
