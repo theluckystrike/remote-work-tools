@@ -10,9 +10,10 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
-When a team member leaves a remote organization, the challenge extends far beyond the typical exit interview. Without physical handshakes or office walkthroughs, engineering managers must systematically capture institutional knowledge while simultaneously revoking access to dozens of systems. This article provides actionable frameworks and code examples for scaling remote offboarding across distributed teams.
+Scale remote offboarding by running two parallel tracks: knowledge transfer and access removal, executed through automated scripts and structured handoff documents rather than informal conversations. Without physical handshakes or office walkthroughs, departing employees retain dangerous system access while critical knowledge walks out the door. This framework provides actionable checklists and automation code for systematic offboarding across distributed teams.
 
 ## The Two-Phase Offboarding Framework
 

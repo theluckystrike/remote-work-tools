@@ -10,11 +10,10 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
-When your remote engineering team triples in size—from 10 to 30 developers—the code review process that worked smoothly before suddenly becomes a bottleneck. Pull requests pile up, review turnaround times stretch from hours to days, and the quality bar that your team worked hard to maintain starts to slip. Scaling code review in a distributed team requires more than just adding more reviewers. It demands structural changes, clear protocols, and thoughtful tooling decisions.
-
-This guide walks through practical approaches to scale your code review process when your engineering team triples in size, with concrete examples you can implement immediately.
+Scale code review from 10 to 30 developers by assigning ownership-based reviewers per code area, establishing clear review guidelines with pass/fail criteria, and automating trivial checks (formatting, type errors) to free humans for architectural feedback. Tripling your team breaks informal "hey can you review?" processes—PRs wait 2-3 days and quality slips. The solution distributes review load by domain ownership, not by adding more people, while defining explicit pass/fail criteria that reduce debate overhead. This guide provides concrete implementation approaches you can use immediately.
 
 ## The Core Problem: Why Tripling Breaks Your Review Process
 

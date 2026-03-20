@@ -10,15 +10,14 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 
 # Chrome Extension Compress Images Before Upload: A Practical Guide
 
-Image file sizes can quickly become a bottleneck when uploading content to websites, content management systems, or cloud storage. A 10MB photo from your smartphone might be perfect for printing, but it creates slow upload times, consumes unnecessary bandwidth, and can hit file size limits on many platforms. Building a Chrome extension to compress images before upload solves this problem directly in your browser.
-
-This guide walks you through creating a Chrome extension that intercepts file inputs, compresses images using the Canvas API, and replaces the original file with an optimized version. You'll have a working solution that works across any website with file upload functionality.
+Build a Chrome extension using the Canvas API to compress images before upload, reducing file sizes by 70-90% and dramatically speeding up upload times across all websites. Large image files create slow uploads, consume unnecessary bandwidth, and hit file size limits—a local browser solution avoids external services while keeping data private. This guide walks you through creating an extension that intercepts file inputs, compresses using Canvas, and replaces the original file with an optimized version that works across any website.
 
 ## Why Client-Side Compression Matters
 

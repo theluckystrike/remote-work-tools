@@ -10,15 +10,14 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 
 # How to Create Remote Team Values Documentation That Stays Authentic During Rapid Scaling
 
-Your remote team started with five people who shared a Slack channel, inside jokes, and an unspoken understanding of "how we do things here." Then you scaled to twenty. Then forty. Suddenly, new hires ask questions you never had to answer, cultural drift becomes visible in async discussions, and that authenticity you once took for granted starts fading into corporate-speak.
-
-This guide provides a practical framework for creating remote team values documentation that actually works—not a decorative poster, but a living reference that maintains its authenticity as you scale from a tight-knit crew to a distributed organization.
+Document your team values through concrete behavior examples—not abstract principles—and include decision-making frameworks, pull request review norms, and failure stories that show what "transparency" or "ownership" actually looks like in practice. Most values documentation fails because leadership drafts generic words handed down without input from people who embody them daily. This guide provides a practical framework for creating living documentation that maintains authenticity as you scale from five people to a distributed organization.
 
 ## Why Most Team Values Documentation Fails at Scale
 

@@ -10,12 +10,11 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
-When your engineering team spans five time zones and three continents, maintaining a consistent hiring bar becomes one of the most challenging aspects of remote recruitment. Without deliberate calibration, interviewers naturally develop different standards—one manager might prioritize system design depth while another focuses on coding speed. This drift silently creates uneven candidate experiences and, more critically, inconsistent team quality.
-
-Interviewer calibration is the systematic process of aligning your interview panel on what "passing" actually means. For remote teams, this process requires extra structure since you lose the informal hallway conversations where calibration naturally happens in co-located offices.
+Fix 30%+ variance in remote hiring by implementing monthly calibration sessions where interviewers discuss candidate scorecards, define competency matrices per level, and align on pass/fail criteria using recorded reference interviews. Without deliberate calibration, distributed interviewers across timezones develop wildly different standards—one prioritizes system design, another coding speed—creating inconsistent hiring and team quality drift. This systematic process rebuilds the hallway conversations that naturally calibrate co-located teams, but structures them for async distributed teams.
 
 ## Why Remote Teams Need Structured Calibration
 

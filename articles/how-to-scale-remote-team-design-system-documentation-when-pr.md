@@ -10,13 +10,12 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 
-When your product team crosses the 20-person threshold, the design system that once felt manageable begins to show cracks. What worked for a team of five or ten—an informal wiki, a shared Figma file, a Slack channel for questions—becomes a liability at scale. Documentation gaps widen,重复 questions flood communication channels, and the gap between "how things are documented" and "how things actually work" grows wider each week.
-
-Scaling design system documentation in a remote team requires moving from ad-hoc knowledge sharing to structured, maintainable systems. This guide provides practical strategies for teams that have outgrown their documentation and need a path forward.
+Move design system documentation from informal wikis to structured component libraries with versioning, usage examples, and ownership assignments at the 20-person threshold, assigning domain owners per component family who maintain docs and answer questions. Informal Slack channels and shared Figma files create documentation gaps that explode at scale—repetitive questions flood chat and your docs fall out of sync with reality. This guide provides practical strategies for teams that have outgrown their documentation and need a structured path forward.
 
 ## The Breaking Point: Why 20 People Changes Everything
 

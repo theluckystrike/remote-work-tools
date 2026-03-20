@@ -10,12 +10,13 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 # Brazil Digital Nomad Visa Process and Tax Implications for Remote Developers 2026
 
-Brazil's digital nomad visa (Vitem XIV) has become one of the most popular pathways for remote developers seeking to live and work from South America. Launched in 2022 and refined through 2026, this visa offers a legitimate path for freelancers and remote employees to base themselves in Brazil while continuing to work for clients or employers abroad. This guide covers the complete application process and the tax implications you need to understand before making the move.
+Brazil's Vitem XIV visa requires $1,500 monthly income proof, valid health insurance, and passport validity of 6+ months, processed through a straightforward application that typically approves within 4-6 weeks at a cost of approximately $350-450. As a popular pathway for remote developers in South America, this visa legitimizes your stay while you work for international clients, but you'll owe Brazilian income tax on worldwide income once established as a resident. This guide covers the complete application process and tax implications before making the move.
 
 ## Eligibility Requirements for Brazil's Digital Nomad Visa
 

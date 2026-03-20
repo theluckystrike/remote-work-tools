@@ -10,9 +10,10 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
-Managing Slack channels in a growing remote team becomes chaotic when you cross the 200-channel threshold. What starts as a handful of focused channels transforms into a sprawling mess where nobody knows where to post, information gets lost, and discovery becomes nearly impossible. This guide provides actionable strategies for developers and power users to regain control of channel sprawl.
+Implement a naming convention (prefix-team-topic), establish quarterly channel audits with required ownership, and enforce retirement policies for inactive channels to manage 200+ channel sprawl. Beyond 200 channels, chaos emerges—duplicate topics, lost information, poor discovery. Channel sprawl is a governance problem, not a tool problem. This guide provides actionable automation scripts and policies for developers and power users to regain control without losing important channels.
 
 ## Understanding Channel Sprawl at Scale
 

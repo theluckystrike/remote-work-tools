@@ -10,14 +10,13 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 # Best Practice for Preserving Remote Team Culture When Doubling Headcount in One Year
 
-Scaling a remote team from 10 to 20 people in a single year presents a unique challenge: the cultural fabric that held your small team together starts to stretch thin. Every new hire dilutes the shared history, inside jokes, and implicit norms that made your team feel cohesive. Without deliberate intervention, you'll watch your culture transform from a tight-knit community into a disconnected collection of individuals sending messages into the void.
-
-The good news is that preserving remote team culture during rapid growth is entirely possible. It requires shifting from passive culture-building to intentional systems that scale with your team. Here's how to do it.
+Preserve remote team culture during 2x growth by documenting your cultural foundation before scaling, establishing explicit communication norms, and creating structured onboarding rituals that embed new hires into your values. Without deliberate intervention, your tight-knit team of 10 becomes a disconnected collection of 20 individuals. The solution shifts from passive culture-building to intentional systems: document norms early, scale rituals intentionally, and prioritize async mechanisms that replace hallway conversations.
 
 ## Document Your Cultural Foundation Early
 

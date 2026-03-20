@@ -10,11 +10,10 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
-Transitioning from individual contributor to manager is one of the most challenging career moves in any organization. When that transition happens in a remote-first company, the complexity multiplies. You're no longer just managing tasks—you're managing people, relationships, and culture across time zones, often without the benefit of face-to-face interactions that help build trust quickly.
-
-This checklist helps distributed companies set up newly promoted managers for success by providing structure during those critical first weeks and months.
+Remote new managers need three core elements: a formal 2-hour handoff from the predecessor, a team briefing document covering each direct report's performance and context, and 1-on-1s scheduled before day one to signal accessibility. Transitioning to management in a remote-first company multiplies complexity—you lose hallway building blocks that create trust at co-located companies. This checklist structures the first weeks and months for remote-first promotion success.
 
 ## Pre-Start Preparation (Before Day One)
 

@@ -10,13 +10,10 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
-When your remote team grows past 50 people, something shifts. The CEO who once replied to your Slack message in minutes now feels distant. Team meetings multiply, but clarity decreases. You find yourself navigating layers of management just to get a straightforward answer.
-
-This is the scaling problem. As organizations grow, the natural tendency is to add hierarchy—more managers, more team leads, more intermediaries. While this sometimes helps with bandwidth, it often creates friction for developers and power users who need direct access to leadership decisions.
-
-The good news: maintaining direct communication channels with leadership is achievable at scale. Here is how to do it.
+Maintain direct CEO/leadership access at 50+ people by establishing dedicated async channels for questions, monthly all-hands with embedded Q&A slots, and explicit decision-making frameworks that let teams decide without escalation. At scale, the natural tendency is hierarchy layering that kills direct access and adds friction. Remote teams especially suffer because there's no hallway tap-tap to get clarification. This solution combines structured channels, explicit decision frameworks, and deliberate documentation to preserve the transparency that made your early team effective.
 
 ## Why Direct Communication Breaks Down at 50+
 

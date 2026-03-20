@@ -10,11 +10,12 @@ tags: [tools]
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
 ---
 
 {% raw %}
 
-As a remote freelancer based in Portugal, one of the first administrative milestones you'll encounter is setting up a business bank account. Whether you're operating as a sole trader (trabalhador independente) or through a limited company (Lda.), having a dedicated business account separates your personal finances from professional income and simplifies tax reporting. This guide walks you through the process with practical details tailored for developers and tech professionals.
+Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your passport, tax registration, and proof of residence to any Portuguese bank—the entire process takes 2-3 weeks and costs nothing for most banks. Whether operating as a sole trader or limited company, a dedicated business account separates personal from professional income and simplifies your annual tax filing. This guide walks you through the process with practical details for developers and tech professionals.
 
 ## Understanding Your Business Structure
 
