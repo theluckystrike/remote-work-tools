@@ -8,7 +8,7 @@ permalink: /how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/
 categories: [guides]
 tags: [remote-work-tools, kvm-switch, dual-pc, productivity, hardware]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
