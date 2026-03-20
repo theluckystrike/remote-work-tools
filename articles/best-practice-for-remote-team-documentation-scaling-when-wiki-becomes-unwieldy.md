@@ -115,20 +115,201 @@ Documentation scaling efforts need metrics to validate effectiveness and guide c
 
 Set up dashboards tracking these metrics and review them monthly. Documentation scaling is ongoing work, not an one-time project—continuous measurement enables continuous improvement.
 
+## Real-World Implementation: Case Studies
+
+### Case Study 1: Growing from 15 to 30 People
+
+**Initial state**: 150 pages, flat structure, no clear ownership, search often returns irrelevant results.
+
+**Problem identified**: New hires complaining "I can't find the deployment guide," search for "deploy" returned pages about feature deployment, scaling deployment, API deployment—no clarity.
+
+**Intervention**:
+- Implemented tiered structure: Tier 1 (core), Tier 2 (team-specific), Tier 3 (projects)
+- Added metadata fields: owner, last-reviewed-date, type
+- Implemented consistent naming: "How to Deploy to Production" (Tier 1), "Kubernetes Troubleshooting" (Tier 2)
+- Set up automated stale-page alerts (6-month review cycle)
+
+**Results** (after 3 months):
+- Search success rate improved from 45% to 78%
+- New hire onboarding time dropped from 2 weeks to 1.2 weeks
+- Contributor count increased (people stopped being intimidated by the size)
+
+**Key lesson**: Adding structure before you're drowning is easier than fixing it after. The 30-person size is the inflection point where flat structures break.
+
+### Case Study 2: Enterprise Knowledge Base Scaling (150+ people)
+
+**Initial state**: 1200+ pages, outdated content mixed with current, multiple sections contradicting each other, dedicated documentation team struggling.
+
+**Problem identified**: Team members googling external resources instead of using internal KB (signal that internal search wasn't working). Duplicate documentation in multiple sections. New project documentation never made it into the KB.
+
+**Intervention**:
+- Implemented dedicated documentation ownership model
+- Each team's subteam gets a "documentation owner" (5-10% of their time)
+- Integrated documentation into sprint planning (2-3 items per sprint)
+- Implemented aggressive archival (anything not reviewed in 9 months gets archived automatically with 30-day notice)
+- Set up search analytics dashboard showing "queries with no results" and "high-bounce-rate pages"
+
+**Results** (6 months):
+- Stale content dropped from 40% to 8%
+- Search quality improved from "I'll just ask in Slack" to "I found it in KB first"
+- Documentation contribution distribution broadened (used to be 5% of team, now 25%)
+
+**Key lesson**: At 100+ people, documentation needs its own ownership structure. Can't be volunteer-run or bottlenecked through a single team.
+
 ## Common Pitfalls to Avoid
 
 Several approaches seem helpful but often create more problems than they solve.
 
-**Over-categorization** creates complex hierarchies that mirror organizational charts but frustrate users who don't know which bucket contains what. Prefer flat structures with powerful search over deep hierarchies.
+**Over-categorization** creates complex hierarchies that mirror organizational charts but frustrate users who don't know which bucket contains what. If your navigation has 8+ top-level categories, you're doing it wrong. Prefer flat structures with powerful search over deep hierarchies.
+
+Implementation: Start with 4-5 broad categories. Use tags and search refinement rather than hierarchies. Example:
+- Wrong: 12 categories including "Tools/Deployment/Infrastructure/AWS/EC2/Instance Setup"
+- Right: 4 categories + Tags: "deployment-tools", "aws", "instance-configuration"
 
 **Perfectionism requirements** slow documentation and discourage contribution. Accept that first drafts can be imperfect and improve over time. The best documentation is documentation that exists and gets used, not documentation that's perfect but never written.
 
+Implementation: Version your contribution standards. Tier 1 docs require review. Tier 2 docs get basic review (30 minutes). Tier 3 docs can publish draft. This differentiates effort by content importance.
+
 **Gatekeeping review processes** that require approval before publishing create bottlenecks. Consider lightweight review for critical content while allowing faster iteration on less critical pages.
+
+Implementation: Pre-approval for Tier 1 (architecture, core processes). Async review for Tier 2 (team-specific). Self-publish for Tier 3 (project work). Set review SLA at 24 hours max.
 
 **Ignoring non-technical contributors** when selecting tools or designing workflows. If your team includes product managers, designers, or other non-developers, their needs matter. Documentation that only developers can contribute to misses their valuable perspective.
 
+Implementation: If using Git-based documentation, provide a simple web editor. Test your tool with non-technical team members. Ensure they can contribute without learning Git/Markdown.
+
+**Assuming all content has the same lifespan**. Project documentation becomes stale in 3 months. Architecture decision records should last years. Treating them the same breaks your review process.
+
+Implementation: Set different review cycles by tier. Tier 1: 12-month review. Tier 2: 6-month review. Tier 3: 3-month archive by default.
+
+## Evolution Path for Growing Teams
+
+This is how documentation scaling typically evolves:
+
+**Stage 1 (5-10 people)**: Simple wiki or Google Drive folder, no structure needed, everything in shared docs.
+
+**Stage 2 (10-20 people)**: Basic categorization appears (Frontend, Backend, DevOps), some duplication but manageable.
+
+**Stage 3 (20-40 people)**: Scaling problems hit hard. Search sucks. Duplicates abound. Time to implement tiered structure + ownership model.
+
+**Stage 4 (40-100 people)**: Dedicated documentation tooling needed. Consider tools like Confluence or Notion with robust search. Implement formal ownership + review processes.
+
+**Stage 5 (100+ people)**: Distributed ownership model essential. Each team maintains their section. Central team focuses on tooling, search, onboarding integration, archival.
+
 Scaling documentation effectively requires ongoing attention, appropriate tools, and realistic expectations. The strategies in this guide form a foundation, but adapt them to your team's specific context, size, and technical comfort level.
 
+## Documentation Health Audit: Finding Your Current State
+
+Before implementing scaling strategies, understand where you are:
+
+### Quick Audit (30 minutes)
+
+1. **Count pages**: Run a search that returns all pages (usually "title: *" or similar)
+   - <100 pages: You're early stage, scaling not yet urgent
+   - 100-300 pages: Getting complex, start planning
+   - 300-500 pages: Scaling issues likely present
+   - 500+ pages: Definitely need scaling strategies
+
+2. **Check for duplicates**: Search for common topics
+   - "How to deploy"—how many results?
+   - "Database setup"—how many results?
+   - If you find 3+ versions of the same topic, you have duplication problems
+
+3. **Check for outdated content**: Pick 10 random pages, check last update dates
+   - <3 months: Actively maintained
+   - 3-6 months: Needs attention
+   - >6 months: Likely outdated
+
+4. **Search test**: Ask non-expert team members to find something
+   - Can they find it in <2 minutes?
+   - Do they find relevant results or noise?
+   - Would they ask in Slack instead of searching?
+
+### Full Audit (2-3 hours, run quarterly)
+
+Create a spreadsheet tracking:
+- Page title
+- Category
+- Last updated date
+- Owner
+- Quality score (1-5)
+- Usage (views, searches that land here)
+- Relevance (still accurate?)
+
+Patterns will emerge: outdated sections, missing owners, stale pages, over-categorization.
+
+## Tool Migration Guide: When to Switch
+
+You'll eventually outgrow your current tool. Recognize the signs:
+
+**Stay with current tool if**:
+- <300 pages
+- Search works reasonably
+- Ownership is clear
+- Contribution rate is healthy
+
+**Time to upgrade if**:
+- Search quality declining (people can't find things)
+- No ownership model (random people editing, no quality control)
+- Multiple contradictory versions of same topic
+- New contributors getting lost or confused
+- Archival/cleanup happening manually because tool doesn't support it
+
+**Migration process**:
+1. Choose new tool (run pilot with one section)
+2. Export data from old tool
+3. Transform to new format (usually 1-2 day project)
+4. Test search and navigation in new tool
+5. Soft launch: Make both available, migrate gradually
+6. Sunset old tool: Stop accepting updates there, send traffic to new tool
+7. Archive old tool: Keep for historical reference
+
+## Monitoring Documentation Health: Ongoing Metrics
+
+Set up monthly tracking to prevent future scaling crises:
+
+| Metric | Healthy | Warning | Critical |
+|--------|---------|---------|----------|
+| Pages added per month | >3 | 1-3 | <1 |
+| Unique contributors | >30% of team | 10-30% | <10% |
+| Stale content (>6mo) | <10% | 10-30% | >30% |
+| Search success | >80% | 50-80% | <50% |
+| Orphaned pages (no owner) | 0 | <5% | >5% |
+
+If any metric hits "Warning," investigate. If it hits "Critical," that's your sprint focus.
+
+## Checklist: Is Your Documentation Ready to Scale?
+
+Use this to assess whether you're ready to implement scaling strategies:
+
+- [ ] You have more than 200 pages
+- [ ] New hire onboarding takes >1 week finding resources
+- [ ] Search returns irrelevant results (3+ unrelated results on typical query)
+- [ ] You have 3+ outdated versions of the same topic
+- [ ] Documentation additions are 1-2 per month or fewer
+- [ ] No clear owner for major sections
+- [ ] You're unsure who maintains what
+- [ ] Pages haven't been updated in 6+ months
+- [ ] Team members say "I'll just ask in Slack" instead of searching
+- [ ] New hires complain they can't find what they need
+
+If you've checked 4+, it's time to implement scaling strategies. Don't wait until all 8 are checked—that's too late.
+
+## Quick Start: Implement the Most Important Fix First
+
+Too much to do? Prioritize this way:
+
+**Week 1**: Implement tiered structure (separate Tier 1, 2, 3 content). Takes 2 hours, has immediate impact on discoverability.
+
+**Week 2-3**: Add ownership model. Assign clear owner to major sections. Takes 4 hours, prevents content decay.
+
+**Week 4-5**: Implement stale-page alerts. Automate notifications of pages not reviewed in 6 months. Takes 2 hours, ongoing maintenance.
+
+**Month 2**: Integrate documentation into onboarding. Make it part of the new hire checklist.
+
+**Month 3**: Set up search analytics. Start reviewing what people search for that returns no results.
+
+After these five steps, your documentation scaling is under control. Everything else is optimization.
 
 ## Related Reading
 

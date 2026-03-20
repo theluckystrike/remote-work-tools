@@ -123,11 +123,242 @@ Track these metrics to understand if your program is working:
 
 ## Avoiding Common Pitfalls
 
-Don't over-gamify: Points and leaderboards work initially but can backfire if they feel performative. Keep the focus on genuine knowledge sharing.
+**Don't over-gamify**: Points and leaderboards work initially but can backfire if they feel performative or competitive. Keep the focus on genuine knowledge sharing. If team members feel they're competing for points, they'll write quantity over quality.
 
-Don't make it mandatory: Forced contributions produce low-quality content. The goal is creating a culture where sharing becomes natural, not checking boxes.
+**Don't make it mandatory**: Forced contributions produce low-quality content written to satisfy a quota. The goal is creating a culture where sharing becomes natural, not checking boxes.
 
-Don't ignore quality: A large knowledge base full of outdated or incorrect information is worse than a small one with high-quality content. Implement review processes and retire obsolete content regularly.
+**Don't ignore quality**: A large knowledge base full of outdated or incorrect information is worse than a small one with high-quality content. Implement lightweight review processes (peer review, not gatekeeping) and retire obsolete content regularly.
+
+**Don't reward hollow contributions**: A single-paragraph stub shouldn't get the same recognition as a thorough, well-researched article. Bias your recognition toward substantial contributions.
+
+## Implementation Timeline
+
+### Month 1: Foundation
+- Establish clear program guidelines
+- Set up basic tracking (spreadsheet or simple database)
+- Train 3 "knowledge champions" to demonstrate contribution
+- Publish 5-10 quality articles as examples
+- Announce program in all-hands with clear expectations
+
+### Month 2-3: Build Momentum
+- Highlight early contributors in weekly updates
+- Run one "documentation sprint" where the whole team focuses on KB gaps
+- Implement review process and feedback workflows
+- Track metrics: contribution velocity, unique contributors
+- Solicit feedback: "What's making this easy or hard?"
+
+### Month 4+: Scale and Sustain
+- Integrate knowledge contributions into performance reviews (if applicable)
+- Celebrate milestones: "We hit 100 articles!"
+- Archive outdated content (this is still contribution work, recognize it)
+- Adjust the program based on what's working
+
+## Measuring Program Success: Beyond Vanity Metrics
+
+Track these metrics to understand if your program is actually working:
+
+### Contribution Health Metrics
+
+| Metric | How to Track | Healthy Target |
+|--------|-------------|-----------------|
+| Monthly contributions | Count new/updated articles per month | Growing 10-20% month-over-month |
+| Active contributors | Unique people contributing per month | 40%+ of team contributing quarterly |
+| Contribution types | Track new articles vs. updates vs. edits | Balanced mix (not all stubs) |
+| Quality score | Average helpfulness rating (1-5) | 4.0+ average |
+
+### Impact Metrics
+
+| Metric | How to Track | What It Means |
+|--------|-------------|--------------|
+| Search success rate | "Searches returning results / Total searches" | Rising = KB is filling gaps |
+| Time to find answer | Survey: "How long to find what you need?" | Target: < 2 minutes |
+| Reduction in repeated questions | Track duplicate Slack questions month-over-month | Dropping = knowledge is captured |
+| New hire onboarding speed | Days to "productive on their first task" | Target: 40% faster than before |
+
+### Engagement Metrics (Not vanity, but supportive)
+
+- Views per article (trending upward = content matters)
+- Contributor diversity (growing number of new people = culture shift)
+- Comments on articles (engagement = people are reading and learning)
+
+## Real Examples: What's Working
+
+### Example 1: Engineering Team at Mid-Size SaaS
+
+Setup: Simple point system (25 points for article, 15 for improvement, 8 for edit), monthly "recognition in standup" for top contributors.
+
+Results: 3-6 new articles per month, ~60% team participation over a year. Within 9 months, search-first documentation behavior became the default. Onboarding time dropped 2 weeks.
+
+Key success factor: Monthly recognition in standups (5 seconds each) created more motivation than points.
+
+### Example 2: Remote-First Startup (20 people)
+
+Setup: Articles are legitimate work items in sprint planning (5% of capacity dedicated). Quarterly "documentation review" where stale content is archived. No points, no leaderboards.
+
+Results: 8-12 new articles per month, very high quality. Culture of "if it's not documented, it's not done" took root. Junior devs feel empowered to document their learnings.
+
+Key success factor: Making documentation legitimate work (not "extra") changed everything. Junior devs stepped up when they saw it was valued as much as shipping features.
+
+### Example 3: Distributed Team (30 people, 5 time zones)
+
+Setup: Recognition program with quarterly "most helpful article" voting (team-wide vote, winner gets $200 credit or 4 hours paid learning time). Async-only reviews to respect time zones.
+
+Results: Consistent 15-20 articles/month. Voting ceremony creates engagement. Much broader participation (not just senior people documenting).
+
+Key success factor: Tangible rewards (not just recognition) mattered for this distributed team. The voting made it community-driven.
+
+## Advanced Strategies for Mature Programs
+
+Once your basic program is running, consider these enhancements:
+
+### Documentation Mentorship Pairs
+
+Pair junior engineers with experienced ones to co-write articles. Junior brings fresh perspective on what's confusing. Senior ensures accuracy. Results: better documentation + skill building.
+
+### Incentivize Reviews, Not Just Writing
+
+Recognition for thoughtful peer reviews of KB articles. This distributes the burden of quality-checking and engages people who don't like writing.
+
+### Create Content Paths
+
+For different contributor types:
+- **Quick fix path**: Spotted an error? 10-minute fix gets recognition.
+- **Deep dive path**: Spending a day writing a comprehensive guide gets recognition.
+- **Organizational path**: Managing KB sections, archiving outdated content gets recognition.
+
+This lets people contribute at different intensities.
+
+### Integrate with Onboarding
+
+Every new hire must contribute one KB article in their first month. This builds the habit early and provides fresh perspective on confusing topics.
+
+### Annual Knowledge Audit
+
+Once a year, have the whole team spend a day reviewing and updating the KB. Gamify it: "We're going to update 50 articles in one day." It's a sprint, it's visible, it builds ownership.
+
+## Real Incentive Program Examples
+
+### Example 1: Points + Monthly Recognition (Small Team)
+
+**Setup for 10-person engineering team**:
+- New article: 25 points
+- Article update/improvement: 10 points
+- Code snippet contribution: 15 points
+- Review/edit: 5 points
+- Monthly "Most Helpful" award: 50 bonus points
+
+**Rewards**:
+- 50 points: Shout-out in team meeting
+- 100 points per quarter: $25 coffee/lunch credit
+- 200 points per quarter: 4 hours paid learning time
+
+**Results**: Team went from 2-3 KB articles per month to 8-10. Broad participation (7 of 10 people contributed within 6 months). Culture shift: "Documentation is legitimate work."
+
+**Lessons learned**: The monetary reward mattered less than the public recognition. Points were just a way to track and celebrate.
+
+### Example 2: Leveled Recognition (Growing Team)
+
+**Setup for 25-person engineering team**:
+- Bronze level: 5 articles per quarter → mentioned in monthly all-hands
+- Silver level: 12 articles per quarter → "Documentation Champion" badge + gift card
+- Gold level: 20+ articles per quarter → public recognition, team lunch celebration
+
+**Why leveling worked**: Created achievement tiers. Bronze was accessible (1-2 articles/month for 10% of team). Gold was aspirational but achievable. Silver was the sweet spot.
+
+**Results**: First quarter had 8 Bronze, 3 Silver, 1 Gold. By month 6: 12 Bronze, 8 Silver, 4 Gold (contributors tripled). Culture changed from "optional" to "expected."
+
+### Example 3: Elimination of Points (Mature Team)
+
+**Setup for 50-person organization**:
+- No points or leaderboards
+- Recognition: "Contributors of the Month" voted by team (no manager involvement)
+- Tie to performance: Documentation contributions count toward performance review under "Knowledge Sharing"
+- Incentive: Knowledge contributions = promotion criteria for staff engineer level
+
+**Results**: Most healthy program they saw. Contributions are consistent (20+ articles/month). Quality is high. Participation is broad. No resentment or gaming.
+
+**Lessons**: For mature teams with intrinsic motivation, remove external rewards and tie to career progression instead.
+
+## Addressing Common Objections
+
+**"Won't this just get people to write quantity over quality?"**
+
+Risk is real. Mitigate with:
+- Quality score weighted more heavily than article count
+- Peer review before publishing (catches low-quality work)
+- Minimum standards (articles must be >500 words, include example, etc.)
+- Emphasis on "helpful" articles, not just "lots" of articles
+
+**"We don't have budget for rewards."**
+
+You don't need monetary rewards:
+- Time off (4 hours paid learning time)
+- Public recognition (mentioned in all-hands)
+- Career benefit (counts toward performance review)
+- Team celebration (monthly winner gets to pick team lunch)
+
+The psychology: Recognition in public > small monetary reward.
+
+**"People will create bad documentation just for points."**
+
+They might, initially. Prevent this:
+- First review: lightweight review before publishing (ensures minimum quality)
+- Ongoing review: quarterly audit marks outdated/unhelpful content
+- Tie rewards to "helpful" articles (ask team: "Which articles actually helped you?")
+- Show quality metrics alongside quantity
+
+**"Some people naturally write more. Isn't that unfair?"**
+
+Yes, and that's okay. You're rewarding contribution, which isn't equal. But you can:
+- Reward different contribution types (new articles, updates, reviews, mentorship)
+- Create different tiers (silver might be 2-3 substantial articles vs. 10 quick tips)
+- Recognize in different ways (some get public recognition, some get learning time, some get career advancement)
+
+## Preventing Program Fatigue
+
+Incentive programs can lose effectiveness over time:
+
+**Month 1-3**: High novelty, high engagement
+
+**Month 4-6**: Novelty wears off, but engagement still good if program is working
+
+**Month 9+**: Risk of burnout or gaming
+
+**Prevention**:
+- Rotate the recognition method (points → public recognition → learning time)
+- Change the game every 6 months (different tier structure, new rewards)
+- Celebrate milestones (100 articles! 50 contributors! Keep energy)
+- Make it feel like continuous evolution, not a stale program
+
+## Team Maturity and Program Design
+
+Your program should match your team's maturity:
+
+**Early stage (startup)**: Light program. Verbal recognition works. Focus on normalizing documentation, not gamifying it.
+
+**Growing stage (20-50 people)**: Start structured incentives. Points + recognition. Integrate into performance reviews.
+
+**Mature stage (50+ people)**: Tie to career progression. Points unnecessary. Documentation is just "how we work."
+
+**Shift your program** as you grow rather than keeping it static. What works for 10 people overwhelms 50.
+
+## Measuring Program Impact: Beyond Metrics
+
+Track these quantitative metrics:
+
+- Articles per month (should grow 20%+)
+- Unique contributors (should increase)
+- Stale content (should decrease if you're updating)
+- Search success (should improve)
+
+But also measure qualitatively:
+
+- "Is documentation part of our culture now?" (ask in retros)
+- "Do people see writing as legitimate work?" (ask in 1:1s)
+- "Did new hires say documentation helped?" (exit survey new hires)
+- "Are fewer questions asked in Slack?" (analyze Slack trends)
+
+A successful program feels like documentation is just "how we do things," not "the incentive program we're running."
 
 ## Related Reading
 
