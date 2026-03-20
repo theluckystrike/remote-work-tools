@@ -5,6 +5,7 @@ description: "Reviews, comparisons, and guides for the best remote work tools, a
 permalink: /
 ---
 
+{% raw %}
 # Remote Work Tools
 
 Reviews, comparisons, and guides for the best remote work tools, apps, and productivity software.
@@ -14,3 +15,4 @@ Reviews, comparisons, and guides for the best remote work tools, apps, and produ
 - [{{ page.title }}]({{ page.url | relative_url }})
 {% endif %}
 {% endfor %}
+{% endraw %}
