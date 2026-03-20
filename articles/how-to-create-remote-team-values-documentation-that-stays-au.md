@@ -151,6 +151,143 @@ Ask these questions quarterly to evaluate your values documentation:
 
 If the answer to any of these is "no," your documentation needs work. The goal isn't perfect wording—it's shared understanding that translates into consistent behavior across time zones and tools.
 
+## Building Culture Documentation Across Tools
+
+Your values need to live in multiple places where team members spend time. Don't rely on a single document stored in your wiki.
+
+### Slack Integration
+
+Create a Slack workflow that surfaces values during critical moments:
+
+```yaml
+# Example Slack workflow: Daily values reminder
+trigger: every_monday_morning
+channels: [#general, #engineering]
+message: |
+  📌 This week's value spotlight: Learning
+
+  What does this mean for us?
+  - Code reviews include explanations, not just corrections
+  - We document our mistakes so others don't repeat them
+  - Unblocking teammates takes priority over sprint velocity
+
+  Share an example of how you lived this value last week in thread 👇
+```
+
+Pin this in your values-focused channels and rotate it weekly. Team members who engage with these reminders maintain stronger connection to documented values.
+
+### Git Repository Structure
+
+Version control your values with the same rigor you apply to code:
+
+```
+team-docs/
+├── values/
+│   ├── README.md (overview)
+│   ├── learning.md (detailed learning value)
+│   ├── transparency.md
+│   ├── ownership.md
+│   └── examples/
+│       ├── learning-example-1.md
+│       ├── transparency-example-2.md
+│       └── ownership-example-3.md
+├── decision-frameworks/
+│   ├── communication-channels.md
+│   ├── when-to-escalate.md
+│   └── code-review-standards.md
+└── rituals/
+    ├── standups.md
+    ├── retrospectives.md
+    └── 1-on-1s.md
+```
+
+This structure allows team members to:
+- Suggest value updates via pull requests
+- See the history of how values have evolved
+- Find specific behavioral examples when needed
+- Link values documentation to code decisions
+
+### Onboarding Checklist Integration
+
+Embed values into your onboarding process so new hires absorb them naturally:
+
+```markdown
+## Week 1 Onboarding Tasks
+
+### Day 1
+- [ ] Read team values documentation (30 minutes)
+- [ ] Discuss one value deeply with your buddy (30 minutes)
+- [ ] Watch recorded example: "How we demonstrate learning in code reviews" (15 minutes)
+
+### Day 2-3
+- [ ] Observe three actual interactions exemplifying team values
+- [ ] Document one observation in #learning channel
+- [ ] Ask one clarifying question about values in #onboarding
+
+### Day 4-5
+- [ ] Contribute to a pull request demonstrating our values
+- [ ] Receive feedback on how well you embodied team principles
+- [ ] Complete values comprehension questionnaire (informal, conversational)
+```
+
+## Managing Values Drift at Scale
+
+As your team grows, values naturally drift. Prevent this by installing regular checkpoints:
+
+### Monthly Values Pulse
+
+Send a 2-minute form asking:
+
+1. Which of our documented values felt most prominent in your work this month?
+2. Which value felt absent or forgotten?
+3. Did you see any gap between documented values and actual behavior?
+4. Suggest one behavioral update to our documentation
+
+This lightweight pulse catches drift early before it becomes systemic.
+
+### Quarterly Values Council
+
+Assemble 6-8 representatives from different teams and functions. Their job:
+- Review monthly pulse feedback
+- Identify patterns of drift
+- Propose documentation updates
+- Present changes to full team for feedback
+
+This prevents a small leadership group from controlling values interpretation while ensuring consistency.
+
+### Annual Values Refresh
+
+Every 12 months, hold a half-day workshop where the entire team reflects on:
+- Which values have proven most impactful?
+- Which documented behaviors still feel authentic?
+- What new behaviors have emerged that we should document?
+- Are there values we've outgrown?
+
+Document this session, publish the findings, and update your documentation accordingly.
+
+## Practical Tools for Values Collaboration
+
+**Notion:** Database of values with examples, linked to team members who best embody each value. Works well for teams already using Notion.
+
+**GitHub Pages:** Host your values documentation as a website. Makes it searchable and forces clear writing.
+
+**Figma:** Create visual representations of values as component libraries. Useful for design-focused teams.
+
+**Miro:** Collaborative values mapping with your distributed team. Generates visual artifacts you can reference.
+
+**Loom:** Record short videos showing values in action. Particularly effective for onboarding.
+
+## The Long Game
+
+Values documentation won't generate immediate visibility or revenue. The payoff comes over 1-2 years when:
+
+- New hires onboard 30% faster because values are explicit
+- Team members make decisions aligned with company principles without constant guidance
+- Conflicts resolve more smoothly because shared values provide foundation
+- Scaling becomes less chaotic because culture is documented, not tribal
+
+The technical teams that execute this best treat values documentation with the same seriousness they apply to architecture documentation. They version it, measure its effectiveness, and iterate based on feedback.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
