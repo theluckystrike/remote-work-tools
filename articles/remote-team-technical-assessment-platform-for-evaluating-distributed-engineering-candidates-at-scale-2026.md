@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Technical Assessment Platform for Evaluating Distributed Engineering Candidates at Scale 2026"
-description: "A practical guide to building and implementing technical assessment platforms for hiring remote engineering candidates. Learn about automated evaluation, proctoring strategies, and scaling your hiring process."
+title: "Remote Team Technical Assessment Platform for Evaluating."
+description: "A practical guide to building and implementing technical assessment platforms for hiring remote engineering candidates. Learn about automated."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/
@@ -268,6 +268,11 @@ Track key metrics to continuously improve your assessment process:
 - **Offer acceptance rate** — Correlate with assessment scores to ensure you're attracting candidates who pass
 
 Remote technical assessment platforms have become essential infrastructure for distributed engineering teams. By implementing secure execution environments, thoughtful proctoring, and automated scoring, you can evaluate candidates at scale while maintaining fairness and candidate experience.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

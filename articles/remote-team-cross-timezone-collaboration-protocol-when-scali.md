@@ -1,12 +1,12 @@
 ---
 
 layout: default
-title: "Remote Team Cross Timezone Collaboration Protocol When Scaling Adds Teams in Asia Pacific 2026"
-description: "A practical protocol for maintaining effective async communication when your remote team scales with Asia Pacific developers. Includes code examples, overlap windows, and tooling strategies."
+title: "Remote Team Cross Timezone Collaboration Protocol When."
+description: "A practical protocol for maintaining effective async communication when your remote team scales with Asia Pacific developers. Includes code examples."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-cross-timezone-collaboration-protocol-when-scali/
-categories: [remote-work, collaboration]
+categories: [guides]
 reviewed: true
 score: 8
 intent-checked: true
@@ -195,6 +195,11 @@ Cross-timezone collaboration when scaling to Asia Pacific requires explicit prot
 The best remote teams treat timezone differences as a constraint to design around, not a problem to solve. Your APAC team members are not working around your schedule—they are working on their schedule, with you meeting them in the middle through thoughtful async-first processes.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
