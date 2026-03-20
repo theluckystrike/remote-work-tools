@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/
 categories: [guides]
-tags: [hardware, noise-reduction, video-calls, remote-work]
+tags: [remote-work-tools, hardware, noise-reduction, video-calls, remote-work, best-of]
 reviewed: true
 score: 8
 intent-checked: true

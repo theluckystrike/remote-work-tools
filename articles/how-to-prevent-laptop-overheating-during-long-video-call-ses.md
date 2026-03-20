@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-laptop-overheating-during-long-video-call-ses/
 categories: [guides]
-tags: [performance, video-calls, hardware, remote-work]
+tags: [remote-work-tools, performance, video-calls, hardware, remote-work, best-of]
 reviewed: true
 score: 8
 intent-checked: true

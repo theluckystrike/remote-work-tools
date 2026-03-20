@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-prevent-burnout-as-remote-developer/
 categories: [guides]
-tags: [remote-work, burnout, mental-health, productivity]
+tags: [remote-work-tools, remote-work, burnout, mental-health, productivity]
 reviewed: true
 score: 8
 intent-checked: true

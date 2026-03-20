@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-boar/
 categories: [guides]
-tags: [remote-work, client-management, miro, workshop-facilitation, virtual-collaboration]
+tags: [remote-work-tools, remote-work, client-management, miro, workshop-facilitation, virtual-collaboration]
 reviewed: true
 score: 8
 intent-checked: true

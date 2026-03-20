@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-organize-virtual-volunteering-day-for-distributed-team-members/
 categories: [guides]
-tags: [remote-work, volunteering, distributed-teams, team-building]
+tags: [remote-work-tools, remote-work, volunteering, distributed-teams, team-building]
 reviewed: true
 score: 8
 intent-checked: true

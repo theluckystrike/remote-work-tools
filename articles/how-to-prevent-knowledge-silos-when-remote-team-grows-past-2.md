@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/
 categories: [guides]
-tags: [knowledge-management, remote-teams, scaling-engineering, documentation, team-growth]
+tags: [remote-work-tools, knowledge-management, remote-teams, scaling-engineering, documentation, team-growth, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

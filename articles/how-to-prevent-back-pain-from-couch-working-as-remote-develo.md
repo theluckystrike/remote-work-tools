@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-back-pain-from-couch-working-as-remote-develo/
 categories: [guides]
-tags: [remote-work, ergonomics, health, developer-tools, productivity]
+tags: [remote-work-tools, remote-work, ergonomics, health, developer-tools, productivity]
 intent-checked: true
 voice-checked: true
 reviewed: true

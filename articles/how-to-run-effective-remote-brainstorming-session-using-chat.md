@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-brainstorming-session-using-chat/
 categories: [guides]
-tags: [remote-work, brainstorming, async, chat, team-collaboration, developer-tools]
+tags: [remote-work-tools, remote-work, brainstorming, async, chat, team-collaboration, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

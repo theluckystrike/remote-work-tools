@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/
 categories: [guides]
-tags: [sprint-demos, async-communication, remote-work, stakeholders]
+tags: [remote-work-tools, sprint-demos, async-communication, remote-work, stakeholders]
 reviewed: true
 score: 8
 intent-checked: true

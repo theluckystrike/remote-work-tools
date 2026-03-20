@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-present-sprint-demos-to-non-technical-remote-clients/
 categories: [guides]
-tags: [sprint-demo, remote-work, client-communication, presentation-skills, agile]
+tags: [remote-work-tools, sprint-demo, remote-work, client-communication, presentation-skills, agile]
 reviewed: true
 score: 8
 intent-checked: true

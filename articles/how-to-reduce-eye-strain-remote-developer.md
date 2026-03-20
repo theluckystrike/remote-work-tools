@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-reduce-eye-strain-remote-developer/
 categories: [guides]
-tags: [health, productivity, remote work, eye strain, developer tools]
+tags: [remote-work-tools, health, productivity, remote work, eye strain, developer tools, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

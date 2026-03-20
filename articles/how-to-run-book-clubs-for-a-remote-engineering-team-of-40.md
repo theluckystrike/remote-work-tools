@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-book-clubs-for-a-remote-engineering-team-of-40/
 categories: [guides]
-tags: [book-club, remote-work, team-building, engineering-culture, learning]
+tags: [remote-work-tools, book-club, remote-work, team-building, engineering-culture, learning]
 reviewed: true
 score: 8
 intent-checked: true

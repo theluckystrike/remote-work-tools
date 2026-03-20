@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-record-client-demo-videos-asynchronously-for-remote-a/
 categories: [guides]
-tags: [async-communication, remote-work, client-demo, video-recording]
+tags: [remote-work-tools, async-communication, remote-work, client-demo, video-recording]
 reviewed: true
 score: 8
 intent-checked: true

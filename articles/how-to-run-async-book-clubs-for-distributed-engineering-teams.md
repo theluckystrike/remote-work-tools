@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-async-book-clubs-for-distributed-engineering-teams/
 categories: [guides]
-tags: [async, book-club, remote-work, distributed-teams, engineering-culture, learning-development]
+tags: [remote-work-tools, async, book-club, remote-work, distributed-teams, engineering-culture, learning-development]
 intent-checked: true
 voice-checked: true
 reviewed: true

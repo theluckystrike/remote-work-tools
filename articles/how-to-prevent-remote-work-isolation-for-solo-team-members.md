@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-remote-work-isolation-for-solo-team-members/
 categories: [guides]
-tags: [remote-work, isolation, mental-health, developer-tools]
+tags: [remote-work-tools, remote-work, isolation, mental-health, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

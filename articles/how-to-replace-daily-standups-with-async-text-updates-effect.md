@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-replace-daily-standups-with-async-text-updates-effect/
 categories: [guides]
-tags: [async-communication, standups, remote-work, productivity]
+tags: [remote-work-tools, async-communication, standups, remote-work, productivity]
 reviewed: true
 score: 8
 intent-checked: true

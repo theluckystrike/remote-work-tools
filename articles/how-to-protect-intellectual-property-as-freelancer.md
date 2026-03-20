@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-protect-intellectual-property-as-freelancer/
 categories: [guides]
-tags: [intellectual-property, freelancing, contracts, licensing, legal]
+tags: [remote-work-tools, intellectual-property, freelancing, contracts, licensing, legal]
 reviewed: true
 score: 8
 intent-checked: true
