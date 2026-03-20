@@ -12,6 +12,15 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+Platform engineers managing shared infrastructure from a remote or distributed team need collaboration tools that handle both the async communication side and the technical coordination of shared services. The best setup combines an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones. This guide covers practical tooling and patterns for each layer.
+
+## Internal Developer Portals for Service Discovery
+
+When engineers across multiple time zones need to find who owns the Postgres cluster or how to use the internal API gateway, an internal developer portal eliminates the need to ping people directly.
+
+Backstage is the most widely adopted open-source IDP. Register shared services using its catalog format:
+
+```yaml
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
@@ -99,7 +108,7 @@ Use Slack's workflow builder to create self-service request forms:
       "title": "Request Infrastructure Change",
       "fields": [
         {"name": "service", "label": "Affected Service"},
-        {"name": "change_type", "label": "Change Type", "type": "select", 
+        {"name": "change_type", "label": "Change Type", "type": "select",
          "options": ["Configuration", "Capacity", "New Resource", "Decommission"]},
         {"name": "justification", "label": "Business Justification"},
         {"name": "timeline", "label": "Requested Timeline"}
@@ -132,10 +141,72 @@ graph TD
     G --> I[Data Returned]
     H --> I
     I --> A
-    
+
     style G fill:#f9f,stroke:#333
     style H fill:#ff9,stroke:#333
 ```
+
+## Change Management for Shared Services
+
+Shared infrastructure changes carry higher risk than single-team deployments because they affect downstream teams who may not know a change is coming. Remote platform teams need a lightweight change management process that does not create bureaucratic overhead.
+
+Use a weekly change calendar shared in a dedicated channel:
+
+```markdown
+## Infra Change Calendar — Week of 2026-03-17
+
+### Monday
+- 14:00 UTC: Postgres connection pool size increase (platform-team)
+
+### Wednesday
+- 10:00 UTC: Redis cluster node replacement (platform-team)
+
+### Thursday
+- Maintenance window: API gateway config update (platform-team)
+
+### Friday
+- No changes scheduled (pre-weekend freeze)
+```
+
+Announce changes 24 hours in advance for non-emergency changes. For same-day changes, notify affected service owners in their team channels, not just the infrastructure channel.
+
+Tag your change announcements with affected services. Engineers subscribe to updates for services they depend on and ignore the rest, keeping the signal-to-noise ratio high.
+
+## Async Runbook Reviews
+
+Runbooks go stale faster than code. A platform team of 3 engineers cannot manually review 50 runbooks quarterly. Automate staleness detection:
+
+```yaml
+# .github/workflows/runbook-freshness.yml
+name: Runbook Freshness Check
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Every Monday
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Find stale runbooks
+        run: |
+          STALE_DAYS=90
+          find docs/runbooks -name "*.md" -mtime +${STALE_DAYS} | while read f; do
+            OWNER=$(grep "owner:" "$f" | head -1 | cut -d: -f2 | tr -d ' ')
+            echo "Stale runbook: $f (owner: $OWNER)"
+          done > stale-runbooks.txt
+      - name: Post to Slack
+        if: ${{ hashFiles('stale-runbooks.txt') != '' }}
+        run: |
+          cat stale-runbooks.txt | while read line; do
+            curl -X POST $SLACK_WEBHOOK -d "{\"text\": \"$line needs review\"}"
+          done
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+```
+
+This surfaces stale runbooks automatically without manual tracking. Owners get direct notifications rather than having the platform team act as intermediary.
 
 ## Related Reading
 
