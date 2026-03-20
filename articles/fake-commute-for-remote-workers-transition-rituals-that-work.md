@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Fake Commute for Remote Workers: Transition Rituals That Work"
-description: "A practical guide on implementing fake commute rituals for remote workers. Learn transition rituals, automation scripts, and routines that help developers separate work from personal life."
+title: "Fake Commute for Remote Workers: Transition Rituals That."
+description: "A practical guide on implementing fake commute rituals for remote workers. Learn transition rituals, automation scripts, and routines that help."
 date: 2026-03-20
 author: theluckystrike
 permalink: /fake-commute-for-remote-workers-transition-rituals-that-work/
@@ -163,6 +163,11 @@ This script activates when you press Cmd+Shift+6, closing work applications and 
 Fake commutes and transition rituals replace the missing physical boundary of a traditional commute. By deliberately creating morning and evening routines, you train your brain to switch between work and rest states. Start with a simple 10-minute ritual, automate what you can with scripts, and build consistency over time.
 
 The goal isn't perfection—it's creating reliable mental bookends that signal the start and end of your workday. Your productivity and well-being will benefit from the clarity that transition rituals provide.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
