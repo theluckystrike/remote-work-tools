@@ -98,7 +98,7 @@ This example demonstrates a combined sensor approach that reduces false positive
 
 ## Data Pipeline Architecture
 
-Building a occupancy tracking system requires reliable data collection, storage, and presentation layers. MQTT serves as the message broker for sensor-to-server communication, providing the lightweight pub/sub model ideal for IoT deployments.
+Building an occupancy tracking system requires reliable data collection, storage, and presentation layers. MQTT serves as the message broker for sensor-to-server communication, providing the lightweight pub/sub model ideal for IoT deployments.
 
 ### MQTT to InfluxDB Pipeline
 

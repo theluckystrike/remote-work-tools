@@ -178,7 +178,7 @@ Remote social work demands disciplined systems and intentional practices. By imp
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Best Practice for Remote Accountants Handling Client Tax.](/remote-work-tools/best-practice-for-remote-accountants-handling-client-tax-doc/)
 - [Best Practice for Remote Real Estate Photographers.](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
-- [How to Facilitate Remote Team Workshops Using Miro with.](/remote-work-tools/how-to-facilitate-remote-team-workshops-using-miro-with-stru/)
+- [How to Help Remote Team Workshops Using Miro with.](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 
 Built by
 

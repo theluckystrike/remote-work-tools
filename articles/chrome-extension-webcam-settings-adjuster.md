@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chrome Extension Webcam Settings Adjuster Guide"
-description: "A comprehensive guide to webcam settings adjustments using Chrome extensions. Learn how to control resolution, frame rate, brightness, contrast, and."
+description: "A guide to webcam settings adjustments using Chrome extensions. Learn how to control resolution, frame rate, brightness, contrast, and."
 date: 2026-03-17
 author: theluckystrike
 permalink: /chrome-extension-webcam-settings-adjuster/

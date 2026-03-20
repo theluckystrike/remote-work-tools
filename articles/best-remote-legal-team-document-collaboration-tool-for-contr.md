@@ -194,7 +194,7 @@ For development teams building legal tech integrations, GitHub and Notion offer 
 
 ## Implementation Recommendations
 
-Start with your team's existing tool investments. If your organization uses Microsoft 365, SharePoint and Teams provide the most seamless integration. For smaller teams or those already in the Notion ecosystem, build your contract workflow there first.
+Start with your team's existing tool investments. If your organization uses Microsoft 365, SharePoint and Teams provide the most integration. For smaller teams or those already in the Notion ecosystem, build your contract workflow there first.
 
 Regardless of tool choice, establish clear naming conventions and folder structures from the beginning:
 

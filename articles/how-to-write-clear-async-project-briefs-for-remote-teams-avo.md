@@ -162,9 +162,9 @@ Current implementation in `paymentservice.js` lines 45-67:
 ```javascript
 const timeout = 10000;
 const response = await fetch(paymentEndpoint, {
-  method: 'POST',
-  body: JSON.stringify(data),
-  timeout: timeout
+ method: 'POST',
+ body: JSON.stringify(data),
+ timeout: timeout
 });
 ```
 

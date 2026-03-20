@@ -99,13 +99,13 @@ Notion's API is REST-based and works well for:
 ```javascript
 // Notion API: Create a new content brief
 const response = await notion.pages.create({
-  parent: { database_id: CONTENT_DATABASE_ID },
-  properties: {
-    Name: { title: [{ text: { content: "Q2 Content Brief" } }] },
-    Status: { select: { name: "Planning" } },
-    Assignee: { people: [{ id: "user_id" }] },
-    DueDate: { date: { start: "2026-04-01" } }
-  }
+ parent: { database_id: CONTENT_DATABASE_ID },
+ properties: {
+ Name: { title: [{ text: { content: "Q2 Content Brief" } }] },
+ Status: { select: { name: "Planning" } },
+ Assignee: { people: [{ id: "user_id" }] },
+ DueDate: { date: { start: "2026-04-01" } }
+ }
 });
 ```
 
@@ -114,9 +114,9 @@ Coda's API is more limited but sufficient for basic operations. Coda's strength 
 ```javascript
 // Coda in-doc script: Generate content brief automatically
 ContentBrief.Run(
-  GenerateOutline(Topic),
-  SetAssignee(RotateAuthor()),
-  SetDeadline(PublishDate - 14 days)
+ GenerateOutline(Topic),
+ SetAssignee(RotateAuthor()),
+ SetDeadline(PublishDate - 14 days)
 )
 ```
 

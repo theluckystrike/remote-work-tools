@@ -64,7 +64,7 @@ In distributed teams, goals become the primary alignment mechanism:
 
 ### Lattice
 
-Lattice is purpose-built for OKRs and continuous feedback. It's the most comprehensive solution.
+Lattice is purpose-built for OKRs and continuous feedback. It's the most solution.
 
 **Features:**
 - OKR creation and tracking interface
@@ -345,7 +345,7 @@ Track these meta-metrics:
 
 Run a quick survey mid-year: "Rate 1-5 how clear company priorities are to you."
 
-OKRs done well make remote teams feel connected, aligned, and empowered. They're the clearest signal that distributed work can be just as effective as office work.
+OKRs done well make remote teams feel connected, aligned, and enabled. They're the clearest signal that distributed work can be just as effective as office work.
 
 ## Related Reading
 

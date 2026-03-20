@@ -224,7 +224,7 @@ Review this data quarterly with leadership. Look for patterns: are multiple empl
 - Automate wisely: Use scripts to reduce manual tracking work
 - Respect time zones: Send and set deadlines during working hours
 
-Building an effective remote exit interview process requires the same async-first thinking you apply to other distributed team workflows. The result: richer feedback, happier departing employees, and actionable insights for organizational improvement.
+Building an effective remote exit interview process requires the same async-first thinking you apply to other distributed team workflows. The result: richer feedback, happier departing employees, and practical recommendations for organizational improvement.
 
 ---
 

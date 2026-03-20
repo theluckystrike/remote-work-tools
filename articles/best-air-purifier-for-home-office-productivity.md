@@ -160,7 +160,7 @@ This customizable unit offers six filter stages including a specialized VOC filt
 
 ### Premium Option: IQAir HealthPro Plus
 
-For developers requiring hospital-grade air filtration, the IQAir offers the best-in-class filtration with H13 HEPA and activated carbon V5 cell filters. The Swiss engineering ensures durability, though the price reflects the quality.
+For developers requiring hospital-grade air filtration, the IQAir offers the leading filtration with H13 HEPA and activated carbon V5 cell filters. The Swiss engineering ensures durability, though the price reflects the quality.
 
 **Specifications:**
 - CADR: 400 CFM

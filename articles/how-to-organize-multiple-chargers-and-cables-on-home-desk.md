@@ -25,7 +25,7 @@ This guide provides practical solutions for organizing multiple chargers and cab
 Before implementing any organization system, inventory what you're working with. Most developer setups include:
 
 - Power cables: Laptop charger, monitor power, desktop PSU, phone charger
-- Data/charging cables: USB-C cables for devices, USB-A accessories, Lightning cables
+- Data/charging cables: USB-C cables for devices, USB-An accessories, Lightning cables
 - Peripheral cables: Keyboard, mouse, external storage, monitor connections
 - Network cables: Ethernet, especially for developers who prefer wired connections
 

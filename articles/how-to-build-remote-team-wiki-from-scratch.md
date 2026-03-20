@@ -61,7 +61,7 @@ For most remote teams, Git-based flat files strike the best balance. You get ver
 
 ## Building the Search System
 
-Search makes or breaks a wiki. A wiki users can't search becomes a graveyard of outdated information. Implement search early and make it .
+Search makes or breaks a wiki. A wiki users can't search becomes a graveyard of outdated information. Implement search early and make it.
 
 For Git-based wikis, consider adding a search index that builds on each commit:
 

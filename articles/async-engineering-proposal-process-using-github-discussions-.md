@@ -41,8 +41,8 @@ Start by setting up a dedicated space for engineering proposals in your reposito
 3. Click **Edit repository settings** (the gear icon)
 4. Under "Discussion category settings," add a new category called **Engineering Proposals**
 5. Configure it with these settings:
-   - Format: [x] Announcement (for pinned proposals)
-   - Emoji: 📋
+ - Format: [x] Announcement (for pinned proposals)
+ - Emoji: 📋
 
 You can also create supporting categories like **Decision Archive** (for accepted proposals) and **Questions** (for early-stage brainstorming).
 

@@ -26,7 +26,7 @@ The best phishing simulation tools for remote teams share these capabilities:
 
 - Multi-channel phishing simulation (email, Slack, Microsoft Teams, SMS)
 - Automated scheduling across time zones
-- Real-time reporting with actionable insights
+- Real-time reporting with practical recommendations
 - Integration with identity providers and HR systems
 - Customizable templates that match your organization's actual communication style
 

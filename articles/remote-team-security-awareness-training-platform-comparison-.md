@@ -26,7 +26,7 @@ Remote teams face distinct security challenges that cloud-based training platfor
 
 - **Automated assignment and tracking** across time zones and schedules
 - **Phishing simulation** with real-world attack scenarios
-- **Integration with identity providers** for seamless provisioning
+- **Integration with identity providers** for provisioning
 - **Metrics that translate to actual risk reduction**, not just completion rates
 - **API access** for custom reporting and workflow automation
 

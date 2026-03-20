@@ -154,7 +154,7 @@ new_page = notion.pages.create(
 )
 ```
 
-Notion works well when teams need flexible page structures, databases with linked properties, and seamless real-time collaboration. The downside involves treating documentation as data rather than code—version control requires additional tooling like GitHub Sync.
+Notion works well when teams need flexible page structures, databases with linked properties, and real-time collaboration. The downside involves treating documentation as data rather than code—version control requires additional tooling like GitHub Sync.
 
 ## VuePress: Lightweight Documentation with Vue Components
 

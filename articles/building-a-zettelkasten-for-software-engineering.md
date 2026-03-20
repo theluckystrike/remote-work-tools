@@ -43,11 +43,11 @@ Prevent API calls from firing on every keystroke when implementing search autoco
 
 ```javascript
 function debounce(fn, delay) {
-  let timeoutId;
-  return function (...args) {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => fn.apply(this, args), delay);
-  };
+ let timeoutId;
+ return function (...args) {
+ clearTimeout(timeoutId);
+ timeoutId = setTimeout(() => fn.apply(this, args), delay);
+ };
 }
 ```
 

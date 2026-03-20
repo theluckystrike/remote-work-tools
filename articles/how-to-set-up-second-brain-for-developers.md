@@ -99,14 +99,14 @@ Notion offers a cloud-hosted solution with databases, calendars, and collaborati
 Create a new Notion page and add these databases:
 
 1. Code Snippets Database
-   - Properties: Language (select), Description (text), Tags (multi-select)
-   - Relation: Links to Projects
+ - Properties: Language (select), Description (text), Tags (multi-select)
+ - Relation: Links to Projects
 
 2. Project Log Database
-   - Properties: Project Name (title), Status (select), Start Date (date), Notes (text)
+ - Properties: Project Name (title), Status (select), Start Date (date), Notes (text)
 
 3. Decision Log Database
-   - Properties: Decision (title), Context (text), Outcome (text), Date (date)
+ - Properties: Decision (title), Context (text), Outcome (text), Date (date)
 
 ### Using Relation Properties
 

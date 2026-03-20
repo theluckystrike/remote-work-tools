@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Timezone-aware scheduling"
-description: "A comprehensive comparison of applicant tracking systems designed for remote teams hiring globally in 2026."
+description: "A comparison of applicant tracking systems designed for remote teams hiring globally in 2026."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-applicant-tracking-system-for-remote-companies-hiring-a/
@@ -56,7 +56,7 @@ Ashby is a modern ATS built specifically for companies that don't have a physica
 
 **Key features for remote hiring:**
 - Completely remote-first interface design
-- Native Zoom and Google Meet integration for seamless video interview management
+- Native Zoom and Google Meet integration for video interview management
 - Candidate portal that works beautifully on mobile for international candidates
 
 **Pricing:** Custom pricing, generally competitive with Greenhouse.

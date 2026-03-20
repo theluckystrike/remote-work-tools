@@ -28,7 +28,7 @@ This approach saves hours of meeting time each week, gives reviewers time to for
 
 ### Loom
 
-Loom remains one of the most popular choices for async video feedback, offering a Chrome extension and desktop app that makes recording seamless. Users can capture their screen, camera, or both with a single click, then share the video link immediately. Loom's timestamped comments let reviewers mark specific moments in the video, making it easy for creators to understand exactly what needs attention.
+Loom remains one of the most popular choices for async video feedback, offering a Chrome extension and desktop app that makes recording. Users can capture their screen, camera, or both with a single click, then share the video link immediately. Loom's timestamped comments let reviewers mark specific moments in the video, making it easy for creators to understand exactly what needs attention.
 
 | Plan | Price | Storage | Features | Best For |
 |------|-------|---------|----------|----------|

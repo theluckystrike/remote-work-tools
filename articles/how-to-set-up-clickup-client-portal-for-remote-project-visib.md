@@ -82,25 +82,25 @@ Configure custom views that filter out technical details. Use ClickUp's view API
 ```javascript
 // ClickUp API: Create a filtered view for clients
 const createClientView = async (listId) => {
-  const response = await fetch(`https://api.clickup.com/api/v2/list/${listId}/view`, {
-    method: "POST",
-    headers: {
-      "Authorization": process.env.CLICKUP_API_KEY,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      "name": "Client Progress View",
-      "filters": {
-        "status": ["Not Started", "In Progress", "Complete"],
-        "assignees": [] // Show all tasks
-      },
-      "filter_version": 2,
-      "show_subtasks": true,
-      "visible_fields": ["name", "due_date", "status", "assignees", "attachments"]
-    })
-  });
-  
-  return response.json();
+ const response = await fetch(`https://api.clickup.com/api/v2/list/${listId}/view`, {
+ method: "POST",
+ headers: {
+ "Authorization": process.env.CLICKUP_API_KEY,
+ "Content-Type": "application/json"
+ },
+ body: JSON.stringify({
+ "name": "Client Progress View",
+ "filters": {
+ "status": ["Not Started", "In Progress", "Complete"],
+ "assignees": [] // Show all tasks
+ },
+ "filter_version": 2,
+ "show_subtasks": true,
+ "visible_fields": ["name", "due_date", "status", "assignees", "attachments"]
+ })
+ });
+ 
+ return response.json();
 };
 ```
 
@@ -113,32 +113,32 @@ Automate status updates to reduce manual communication overhead. This Integromat
 ```javascript
 // Webhook payload handler for weekly client digest
 const generateClientDigest = async (clientEmail, projectId) => {
-  // Fetch completed tasks from the past week
-  const tasks = await clickup.getTasks({
-    list_id: projectId,
-    filter: {
-      statuses: ["complete"],
-      date_updated: {
-        start: weekAgo(),
-        end: now()
-      }
-    }
-  });
-  
-  // Format the digest
-  const completed = tasks.filter(t => t.status.status === "complete");
-  const inProgress = tasks.filter(t => t.status.status === "in_progress");
-  
-  return {
-    to: clientEmail,
-    subject: `Project Update: ${completed.length} tasks completed this week`,
-    body: `
-      Completed: ${completed.map(t => t.name).join(", ")}
-      In Progress: ${inProgress.map(t => t.name).join(", ")}
-      
-      View full details: ${dashboardUrl}
-    `
-  };
+ // Fetch completed tasks from the past week
+ const tasks = await clickup.getTasks({
+ list_id: projectId,
+ filter: {
+ statuses: ["complete"],
+ date_updated: {
+ start: weekAgo(),
+ end: now()
+ }
+ }
+ });
+ 
+ // Format the digest
+ const completed = tasks.filter(t => t.status.status === "complete");
+ const inProgress = tasks.filter(t => t.status.status === "in_progress");
+ 
+ return {
+ to: clientEmail,
+ subject: `Project Update: ${completed.length} tasks completed this week`,
+ body: `
+ Completed: ${completed.map(t => t.name).join(", ")}
+ In Progress: ${inProgress.map(t => t.name).join(", ")}
+ 
+ View full details: ${dashboardUrl}
+ `
+ };
 };
 ```
 
@@ -157,35 +157,35 @@ from clickup_api import ClickUpClient
 import json
 
 def export_project_status(space_id):
-    """Export project status as JSON for external dashboards."""
-    client = ClickUpClient(api_key=os.getenv("CLICKUP_API_KEY"))
-    
-    # Get all lists in the space
-    lists = client.get_lists(space_id)
-    
-    status_data = {
-        "project_name": space_id,
-        "milestones": [],
-        "tasks_by_status": {
-            "pending": 0,
-            "in_progress": 0,
-            "complete": 0
-        }
-    }
-    
-    for lst in lists:
-        tasks = client.get_tasks(lst.id)
-        for task in tasks:
-            status = task.status.status.lower().replace(" ", "_")
-            if status in status_data["tasks_by_status"]:
-                status_data["tasks_by_status"][status] += 1
-    
-    return status_data
+ """Export project status as JSON for external dashboards."""
+ client = ClickUpClient(api_key=os.getenv("CLICKUP_API_KEY"))
+ 
+ # Get all lists in the space
+ lists = client.get_lists(space_id)
+ 
+ status_data = {
+ "project_name": space_id,
+ "milestones": [],
+ "tasks_by_status": {
+ "pending": 0,
+ "in_progress": 0,
+ "complete": 0
+ }
+ }
+ 
+ for lst in lists:
+ tasks = client.get_tasks(lst.id)
+ for task in tasks:
+ status = task.status.status.lower().replace(" ", "_")
+ if status in status_data["tasks_by_status"]:
+ status_data["tasks_by_status"][status] += 1
+ 
+ return status_data
 
 # Serve via Flask for client dashboard
 @app.route("/api/project-status")
 def project_status():
-    return jsonify(export_project_status("acme_website"))
+ return jsonify(export_project_status("acme_website"))
 ```
 
 This pattern works well when you need to embed project status into a client portal running on your own domain.
@@ -196,25 +196,25 @@ Periodically audit guest permissions to prevent accidental exposure:
 
 ```python
 def audit_guest_access():
-    """List all guests and their accessible resources."""
-    client = ClickUpClient(api_key=os.getenv("CLICKUP_API_KEY"))
-    
-    team_members = client.get_team_members()
-    guests = [m for m in team_members if m.get("is_guest")]
-    
-    audit_report = []
-    for guest in guests:
-        guest_id = guest["id"]
-        accessible = client.get_guest_sharedFolders(guest_id)
-        
-        audit_report.append({
-            "email": guest["email"],
-            "name": guest["name"],
-            "accessible_folders": [f["name"] for f in accessible],
-            "last_active": guest.get("last_active")
-        })
-    
-    return audit_report
+ """List all guests and their accessible resources."""
+ client = ClickUpClient(api_key=os.getenv("CLICKUP_API_KEY"))
+ 
+ team_members = client.get_team_members()
+ guests = [m for m in team_members if m.get("is_guest")]
+ 
+ audit_report = []
+ for guest in guests:
+ guest_id = guest["id"]
+ accessible = client.get_guest_sharedFolders(guest_id)
+ 
+ audit_report.append({
+ "email": guest["email"],
+ "name": guest["name"],
+ "accessible_folders": [f["name"] for f in accessible],
+ "last_active": guest.get("last_active")
+ })
+ 
+ return audit_report
 ```
 
 Run this monthly to ensure former clients no longer have access and current clients only see what they need.

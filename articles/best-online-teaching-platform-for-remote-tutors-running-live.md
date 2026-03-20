@@ -84,7 +84,7 @@ def create_zoom_meeting(topic, start_time, duration, breakout_rooms=True):
 
 Zoom's primary drawback is its consumer-focused origins—while powerful, it wasn't designed specifically for education, so features like gradebook integration or assignment tracking require third-party tools.
 
-## Google Meet: Seamless Google Workspace Integration
+## Google Meet: Google Workspace Integration
 
 For tutors already using Google Workspace, Meet offers a frictionless experience with Calendar integration and zero participant setup.
 

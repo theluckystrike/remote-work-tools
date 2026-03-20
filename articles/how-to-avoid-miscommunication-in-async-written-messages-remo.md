@@ -104,9 +104,9 @@ After valid credentials, user receives session token.
 ## Actual Behavior
 ```json
 {
-  "status": 401,
-  "error": "Unauthorized",
-  "message": "Invalid token"
+ "status": 401,
+ "error": "Unauthorized",
+ "message": "Invalid token"
 }
 ```
 

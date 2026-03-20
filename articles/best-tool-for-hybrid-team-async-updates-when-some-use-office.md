@@ -122,7 +122,7 @@ This pattern reduces meeting time by 30-50% for many teams while maintaining ali
 
 When evaluating tools for your team, consider these factors:
 
-**Integration with existing workflows:** Does the tool connect to your current task manager, version control, or communication platform? Seamless integration reduces friction and increases adoption.
+**Integration with existing workflows:** Does the tool connect to your current task manager, version control, or communication platform? integration reduces friction and increases adoption.
 
 **Mobile accessibility:** Team members should be able to view and contribute to async updates from mobile devices when away from desks.
 

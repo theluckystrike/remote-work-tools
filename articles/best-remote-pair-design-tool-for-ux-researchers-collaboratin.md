@@ -108,12 +108,12 @@ async function createAffinityNote(fileKey, nodeId, noteText, color) {
 }
 ```
 
-Figma works best when research insights feed directly into design iterations. The ability to link affinity map nodes to design components creates seamless synthesis-to-design workflows.
+Figma works best when research insights feed directly into design iterations. The ability to link affinity map nodes to design components creates synthesis-to-design workflows.
 
 ### Strengths and Limitations
 
 **Strengths:**
-- Seamless integration with existing design workflows
+- integration with existing design workflows
 - Excellent for mixed research + design teams
 - Powerful component libraries for standardized notes
 

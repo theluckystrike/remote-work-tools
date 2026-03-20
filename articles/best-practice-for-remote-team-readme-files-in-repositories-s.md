@@ -62,15 +62,15 @@ The getting started section must be foolproof. This is where remote teams benefi
 1. Clone the repository
 2. Copy the example environment file:
    ```bash
-   cp .env.example .env
+ cp .env.example .env
    ```
 3. Start dependencies:
    ```bash
-   docker-compose up -d
+ docker-compose up -d
    ```
 4. Run the application:
    ```bash
-   go run cmd/api/main.go
+ go run cmd/api/main.go
    ```
 
 The API will be available at http://localhost:8080
@@ -94,7 +94,7 @@ This service is part of the user platform and communicates with:
 
 ### Common Tasks
 
-Document the commands developers need most often. This reduces questions and empowers developers to work independently.
+Document the commands developers need most often. This reduces questions and enables developers to work independently.
 
 ```markdown
 ## Common Tasks

@@ -76,7 +76,7 @@ The digital nomad visa fee is approximately $100 USD (subject to change based on
 
 ### Step 4: Attend Consulate Appointment (If Required)
 
-Depending on your country of residence and the Brazilian consulate's procedures, you may need to attend an in-person appointment to provide biometrics and verify your documents. Some consulates have streamlined this to a fully online process.
+Depending on your country of residence and the Brazilian consulate's procedures, you may need to attend an in-person appointment to provide biometrics and verify your documents. Some consulates have improved this to a fully online process.
 
 ### Step 5: Receive Your Visa
 

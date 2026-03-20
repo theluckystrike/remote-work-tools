@@ -158,9 +158,9 @@ Creates a new user account.
 ## Request Body
 ```json
 {
-  "email": "string",
-  "name": "string",
-  "role": "admin | user"
+ "email": "string",
+ "name": "string",
+ "role": "admin | user"
 }
 ```
 

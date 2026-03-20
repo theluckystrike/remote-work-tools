@@ -164,7 +164,7 @@ Review these metrics monthly. If engagement drops, adjust length, timing, or str
 
 ## Tools That Support Async All-Hands
 
-While the process matters more than the tool, certain platforms streamline execution:
+While the process matters more than the tool, certain platforms improve execution:
 
 - **Notion** — Collaborative editing with database views for tracking
 - **GitHub** — Markdown-based workflow with version control

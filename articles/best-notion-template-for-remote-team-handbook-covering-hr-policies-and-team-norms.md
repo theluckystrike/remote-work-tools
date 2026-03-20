@@ -3,7 +3,7 @@
 
 layout: default
 title: "Best Notion Template for Remote Team Handbook: Covering HR Policies and Team Norms"
-description: "Discover the best Notion templates for creating comprehensive remote team handbooks. Includes HR policies, team norms, onboarding checklists, and."
+description: "Discover the best Notion templates for creating remote team handbooks. Includes HR policies, team norms, onboarding checklists, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/

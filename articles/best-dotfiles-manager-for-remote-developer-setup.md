@@ -78,7 +78,7 @@ Your configurations are now identical across machines. Stow handles conflicts gr
 
 ## YADM: Git-Based Configuration with Special Features
 
-YADM (Yet Another Dotfiles Manager) extends Git's functionality with features specifically designed for dotfiles management. It provides encryption for sensitive files, alternate file templates for different operating systems, and seamless bootstrapping.
+YADM (Yet Another Dotfiles Manager) extends Git's functionality with features specifically designed for dotfiles management. It provides encryption for sensitive files, alternate file templates for different operating systems, and bootstrapping.
 
 ### Basic YADM Setup
 

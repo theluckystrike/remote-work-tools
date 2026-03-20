@@ -32,7 +32,7 @@ You don't need expensive equipment. A clean audio setup matters more than video 
 
 ### Audio Essentials
 
-A USB condenser microphone in the $50-100 range delivers professional results. Position the mic 6-12 inches from your mouth, slightly off-axis to reduce plosives. Apply a simple noise gate in your DAW or recording software to eliminate background noise.
+An USB condenser microphone in the $50-100 range delivers professional results. Position the mic 6-12 inches from your mouth, slightly off-axis to reduce plosives. Apply a simple noise gate in your DAW or recording software to eliminate background noise.
 
 For recording software, OBS Studio handles screen capture with audio cleanly and costs nothing. Loom provides faster setup for quick updates, though the free tier limits video length to 5 minutes.
 

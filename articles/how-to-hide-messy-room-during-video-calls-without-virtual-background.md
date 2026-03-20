@@ -39,7 +39,7 @@ These ring-light-style screens fold flat and pop open in seconds. A solid color 
 
 Popular options:
 - **Neewer 5-in-1 Collapsible Backdrop**: ~$25-35, includes white/black/green/blue/gray. Lightweight, folds to 11" diameter. Works with any stand or table clamp.
-- **Savage Seamless Paper Backdrop**: ~$15-20 for rolls of background paper (54" wide). Needs separate stand ($40-80). Professional look, replaceable when worn.
+- **Savage Paper Backdrop**: ~$15-20 for rolls of background paper (54" wide). Needs separate stand ($40-80). Professional look, replaceable when worn.
 - **Kate 5x7 ft Backdrop**: ~$20-40, fabric option, darker colors hide wrinkles better than light colors.
 
 **Fabric Hanging System ($50-150)**
@@ -49,9 +49,9 @@ Installation:
 - Command removable adhesive rods: ~$30, no wall damage
 - Tension rod: ~$20-40, requires no fasteners
 - Fabric choice:
-  - Velvet blackout fabric: ~$10-15/yard, looks expensive, excellent sound absorption
-  - Flannel sheets: ~$15-30 per sheet, casual but professional
-  - Cotton canvas: ~$20-40/yard, neutral backgrounds (tan, gray, navy work well)
+ - Velvet blackout fabric: ~$10-15/yard, looks expensive, excellent sound absorption
+ - Flannel sheets: ~$15-30 per sheet, casual but professional
+ - Cotton canvas: ~$20-40/yard, neutral backgrounds (tan, gray, navy work well)
 
 Mounting example: 60" wide backdrop needs 2-3 yards of fabric and a 6-foot rod
 

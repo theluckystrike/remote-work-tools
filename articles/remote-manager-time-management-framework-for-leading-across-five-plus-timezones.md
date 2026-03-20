@@ -157,19 +157,19 @@ Implement a rotation system:
 
 ```python
 def generate_sync_rotation(timezone_names, weeks=4):
-    """
-    Generate a fair rotation for synchronous meeting times.
-    Each timezone hosts (accepts inconvenient hours) equally.
-    """
-    rotation = []
-    for week in range(weeks):
-        week_schedule = {}
-        for i, tz in enumerate(timezone_names):
-            # Assign "inconvenient" slot based on rotation
-            inconvenience_index = (i + week) % len(timezone_names)
-            week_schedule[tz] = inconvenience_index
-        rotation.append(week_schedule)
-    return rotation
+ """
+ Generate a fair rotation for synchronous meeting times.
+ Each timezone hosts (accepts inconvenient hours) equally.
+ """
+ rotation = []
+ for week in range(weeks):
+ week_schedule = {}
+ for i, tz in enumerate(timezone_names):
+ # Assign "inconvenient" slot based on rotation
+ inconvenience_index = (i + week) % len(timezone_names)
+ week_schedule[tz] = inconvenience_index
+ rotation.append(week_schedule)
+ return rotation
 
 # Example output shows which timezone "hosts" each week
 team = ["San Francisco", "New York", "London", "Tokyo", "Sydney"]

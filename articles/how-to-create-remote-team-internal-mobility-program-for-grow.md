@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Remote Team Internal Mobility Program for Grow"
-description: "A comprehensive guide for building an internal mobility program that helps remote teams grow careers, retain talent, and foster professional development across distributed organizations."
+description: "A guide for building an internal mobility program that helps remote teams grow careers, retain talent, and foster professional development across distributed organizations."
 date: 2026-03-18
 author: theluckystrike
 permalink: /how-to-create-remote-team-internal-mobility-program-for-grow/
@@ -231,7 +231,7 @@ One-way movement: Internal mobility should go both directions. Lateral moves and
 
 An internal mobility program is more than a set of processes—it's a statement about how your organization values people. When employees see that their growth matters to leadership, they invest more in their work and stay longer with your company.
 
-For remote teams, this cultural element is especially important. The physical distance that characterizes remote work can create feelings of disconnection and invisibility. A internal mobility program counteracts these dynamics by making career development visible, supported, and achievable regardless of where someone works.
+For remote teams, this cultural element is especially important. The physical distance that characterizes remote work can create feelings of disconnection and invisibility. An internal mobility program counteracts these dynamics by making career development visible, supported, and achievable regardless of where someone works.
 
 Start small if needed—a pilot program in one department can demonstrate value and build momentum for broader adoption. The key is beginning the conversation about career growth and making it a structural priority rather than an afterthought.
 

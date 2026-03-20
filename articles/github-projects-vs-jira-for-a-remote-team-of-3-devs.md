@@ -43,7 +43,7 @@ GitHub Projects is free for organizations with public repositories, and the Proj
 
 ## Integration Reality
 
-GitHub Projects works natively with GitHub Actions, Issues, Pull Requests, and Codespaces. Automation feels seamless:
+GitHub Projects works natively with GitHub Actions, Issues, Pull Requests, and Codespaces. Automation feels :
 
 ```yaml
 # Example: Auto-move issue to In Progress when assigned

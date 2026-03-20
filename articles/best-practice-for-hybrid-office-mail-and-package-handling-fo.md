@@ -152,7 +152,7 @@ const pickupWorkflow = {
 };
 ```
 
-Integration with building access systems provides seamless check-in. When employees badge into the office, the system can automatically check for awaiting packages and display pickup locations on their phone or office kiosk.
+Integration with building access systems provides check-in. When employees badge into the office, the system can automatically check for awaiting packages and display pickup locations on their phone or office kiosk.
 
 ## Managing Shared Package Locations
 

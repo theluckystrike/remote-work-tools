@@ -150,7 +150,7 @@ Early-stage startups with fewer than ten people operate differently than teams a
 
 At seed stage, informal communication works because everyone knows each other's context. Focus your playbook on documentation standards and tooling—these investments pay dividends as you scale.
 
-At Series A and beyond, introduce formal structures: meeting norms, decision-making processes, and role-specific guidelines. Your playbook should grow with the company, not become a rigid handbook that nobody reads.
+At Series An and beyond, introduce formal structures: meeting norms, decision-making processes, and role-specific guidelines. Your playbook should grow with the company, not become a rigid handbook that nobody reads.
 
 ## Continuous Improvement
 

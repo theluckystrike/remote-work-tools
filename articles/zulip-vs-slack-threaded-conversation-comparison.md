@@ -62,7 +62,7 @@ Messages within the same topic are visually grouped together, creating a persist
 
 Zulip's advantage: topics persist indefinitely in free tier. New team members can scroll back through months of discussion on any topic without hitting paywalls or losing context. The topic model encourages descriptive naming, which improves discoverability.
 
-Slack's advantage: channel-based organization works well for real-time communication. Threads feel more organic for quick Q&A exchanges. However, thread decay in free tier means older discussions become inaccessible.
+Slack's advantage: channel-based organization works well for real-time communication. Threads feel more organic for quick Q&An exchanges. However, thread decay in free tier means older discussions become inaccessible.
 
 ### Notification Management
 

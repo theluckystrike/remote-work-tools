@@ -118,7 +118,7 @@ This transparency accomplishes several trust-building goals: it shows you're mak
 
 ### Make Knowledge Accessible
 
-When team members can find information independently, they feel empowered rather than dependent. Build systems that make knowledge discoverable:
+When team members can find information independently, they feel enabled rather than dependent. Build systems that make knowledge discoverable:
 
 - **Runbooks** for operational procedures
 - **Architecture decision records** (ADRs) for technical choices

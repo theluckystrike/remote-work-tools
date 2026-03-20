@@ -28,7 +28,7 @@ Key features relevant to developers:
 - **JSON import/export** for custom integrations
 - **Embeddable frames** that work directly within video call tools
 
-For teams already using Jira or Confluence, Miro's bidirectional integration streamlines documentation workflows. The timeline view proves particularly useful for sprint planning sessions where visual scope management matters.
+For teams already using Jira or Confluence, Miro's bidirectional integration improves documentation workflows. The timeline view proves particularly useful for sprint planning sessions where visual scope management matters.
 
 ## FigJam: Lightweight and Developer-Friendly
 

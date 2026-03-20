@@ -139,7 +139,7 @@ When facing a Docker networking issue at 2 AM, a developer posts in the DevOps c
 > ```
 > services:
 > app:
-> build: .
+> build:.
 > ports:
 > - "3000:3000"
 > redis:

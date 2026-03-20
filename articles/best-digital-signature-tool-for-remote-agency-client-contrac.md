@@ -130,7 +130,7 @@ sign_url = client.signature_request.get_embedded_sign_url(
 print(f"Signing URL: {sign_url.url}")
 ```
 
-HelloSign's embedded signing feature lets you keep clients within your application interface, creating a more seamless experience than redirect-based flows.
+HelloSign's embedded signing feature lets you keep clients within your application interface, creating a more experience than redirect-based flows.
 
 ### CLI Tools for Quick Signing
 

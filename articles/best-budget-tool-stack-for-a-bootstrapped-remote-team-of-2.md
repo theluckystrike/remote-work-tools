@@ -33,7 +33,7 @@ The goal is to keep your total tool spending under $50/month while maintaining p
 
 ### Slack: The Standard (With a Budget Twist)
 
-Slack remains the gold standard for team communication, and their free tier is surprisingly . For a team of two, you'll get:
+Slack remains the gold standard for team communication, and their free tier is surprisingly. For a team of two, you'll get:
 
 - 10,000 message history
 - 10 integrations with other apps

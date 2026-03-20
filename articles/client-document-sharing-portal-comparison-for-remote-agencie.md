@@ -95,7 +95,7 @@ async function createClientDropbox(clientName, expiryDays) {
 
 ### Strengths and Limitations
 
-Dropbox Paper provides collaborative document editing, though it's less feature-rich than Google Docs. The desktop sync client remains best-in-class for teams that need local file access. API rate limits can be restrictive for heavy automation—careful with batch operations.
+Dropbox Paper provides collaborative document editing, though it's less feature-rich than Google Docs. The desktop sync client remains leading for teams that need local file access. API rate limits can be restrictive for heavy automation—careful with batch operations.
 
 Cost: Professional plans start at $15/user/month.
 

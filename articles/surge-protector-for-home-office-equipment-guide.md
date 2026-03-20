@@ -109,7 +109,7 @@ For example, when a significant surge is detected, your system could automatical
 
 ### UPS Integration
 
-For ultimate protection, combine surge protection with an Uninterruptible Power Supply (UPS). A UPS provides battery backup during outages, giving you time to save work and shut down gracefully. Many UPS units also include surge protection, making them a two-in-one solution.
+For ultimate protection, combine surge protection with an Uninterruptible Power Supply (UPS). An UPS provides battery backup during outages, giving you time to save work and shut down gracefully. Many UPS units also include surge protection, making them a two-in-one solution.
 
 When selecting an UPS for development work, consider the runtime you need for graceful shutdown (typically 5-15 minutes is sufficient), the power capacity for your equipment, and whether you need pure sine wave output for sensitive equipment. Line-interactive UPS units provide the best balance of cost and protection for most home offices.
 

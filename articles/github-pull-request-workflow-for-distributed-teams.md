@@ -109,13 +109,13 @@ This configuration ensures the right people review the right code without manual
 Apply the "nitpick, suggestion, requirement" framework:
 
 - Nitpick: Minor style preferences, optional improvements
-  - "Consider using const here for clarity"
-  
+ - "Consider using const here for clarity"
+ 
 - Suggestion: Better approach but not blocking
-  - "We could simplify this with lodash's merge. Not blocking though."
-  
+ - "We could simplify this with lodash's merge. Not blocking though."
+ 
 - Requirement: Must change before merge
-  - "This needs a null check before accessing the property"
+ - "This needs a null check before accessing the property"
 
 Prefixing feedback with these labels prevents confusion about what's blocking versus what's optional. Reviewers often forget that their preference isn't universal.
 

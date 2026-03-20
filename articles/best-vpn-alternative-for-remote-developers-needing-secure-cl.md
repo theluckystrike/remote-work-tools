@@ -78,7 +78,7 @@ The trade-off is that Tailscale requires installing client software on every dev
 
 ### AWS Client VPN and AWS Verified Access
 
-If you're heavily invested in AWS, native solutions provide seamless integration:
+If you're heavily invested in AWS, native solutions provide integration:
 
 ```bash
 # AWS Client VPN configuration example

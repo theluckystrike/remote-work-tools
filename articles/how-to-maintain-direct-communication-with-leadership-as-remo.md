@@ -105,7 +105,7 @@ We will implement:
 - Negative: Leaders need to protect office hours time
 ```
 
-When decisions are documented with context, team members can understand the "why" even without direct access. This reduces the need to interrupt leaders and empowers individuals to make aligned decisions independently.
+When decisions are documented with context, team members can understand the "why" even without direct access. This reduces the need to interrupt leaders and enables individuals to make aligned decisions independently.
 
 ## Strategy 4: Skip-Level Meetings
 

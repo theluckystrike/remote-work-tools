@@ -28,7 +28,7 @@ The MacBook Air M4 supports up to two external displays when docked, but the bas
 
 The M4 chip in the MacBook Air supports:
 - Up to two external displays at up to 6K resolution (with M4 Pro/Max)
-- Native USB-C connectivity for streamlined setups
+- Native USB-C connectivity for improved setups
 - Thunderbolt 4 bandwidth for high-resolution output
 
 For the base M4 chip, you'll typically get one external display at full resolution, though this varies by specific configuration. The USB-C ports on the MacBook Air M4 provide enough bandwidth for most modern displays without needing additional docks or adapters.

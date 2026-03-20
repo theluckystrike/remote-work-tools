@@ -19,7 +19,7 @@ voice-checked: true
 
 Implement a structured peer feedback process using a rotating feedback schedule, templated forms that guide specific observations, and async delivery through shared documents to reduce awkwardness. This systematizes feedback-giving and removes real-time pressure that often derails meaningful conversations.
 
-The solution is not to avoid peer feedback but to structure it in a way that removes the social friction. This guide shows you how to implement a peer feedback process that feels natural, produces actionable insights, and keeps your remote team engaged.
+The solution is not to avoid peer feedback but to structure it in a way that removes the social friction. This guide shows you how to implement a peer feedback process that feels natural, produces practical recommendations, and keeps your remote team engaged.
 
 ## Why Peer Feedback Fails in Remote Settings
 

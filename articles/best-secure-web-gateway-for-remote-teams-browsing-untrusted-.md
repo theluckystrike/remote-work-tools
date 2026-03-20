@@ -98,7 +98,7 @@ Your team likely has varied access needs. Developers need broad internet access 
 
 ### Integration with Existing Tools
 
-If you already use identity providers like Okta, Azure AD, or Google Workspace, ensure your gateway integrates for seamless authentication. This enables you to apply policies based on user groups without manual client configuration.
+If you already use identity providers like Okta, Azure AD, or Google Workspace, ensure your gateway integrates for authentication. This enables you to apply policies based on user groups without manual client configuration.
 
 ## Implementation Pattern: Tiered Access Control
 

@@ -93,7 +93,7 @@ Many teams combine both—feature ownership for major areas with rotation for bu
 
 ## Integrate With Development Workflow
 
-The boundary between QA and development must be seamless. Connect your bug tracker to GitHub or GitLab so developers see related issues without leaving their workflow.
+The boundary between QA and development must be. Connect your bug tracker to GitHub or GitLab so developers see related issues without leaving their workflow.
 
 Use branch naming conventions that link commits to tickets:
 

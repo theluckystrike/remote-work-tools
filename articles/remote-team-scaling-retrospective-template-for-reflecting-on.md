@@ -37,7 +37,7 @@ Attempting to address these questions in a standard retro without proper framing
 
 ## The Remote Team Scaling Retrospective Framework
 
-This template organizes your quarterly reflection into five sections. Each includes targeted prompts that help teams move beyond generic complaints to actionable insights.
+This template organizes your quarterly reflection into five sections. Each includes targeted prompts that help teams move beyond generic complaints to practical recommendations.
 
 ### Section 1: Growth Metrics and Headcount Changes
 
@@ -214,7 +214,7 @@ Copy this template directly into your preferred tool:
 Track whether your actions actually improve things:
 
 - Did the identified problems decrease in subsequent quarters?
-- Do team members feel heard and empowered to make changes?
+- Do team members feel heard and enabled to make changes?
 - Are action items actually completed, or do they languish?
 - Has team sentiment improved since implementing changes?
 

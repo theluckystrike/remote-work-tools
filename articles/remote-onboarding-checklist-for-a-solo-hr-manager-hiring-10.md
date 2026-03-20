@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Remote Onboarding Checklist for a Solo HR Manager Hiring 10
 
-Handling 10 simultaneous remote new hires as a solo HR manager requires structure, automation, and clear workflows. Without a system in place, you'll spend 40+ hours on administrative tasks alone. With the right checklist and tools, you can streamline the entire process while ensuring each new hire receives a consistent, high-quality experience.
+Handling 10 simultaneous remote new hires as a solo HR manager requires structure, automation, and clear workflows. Without a system in place, you'll spend 40+ hours on administrative tasks alone. With the right checklist and tools, you can improve the entire process while ensuring each new hire receives a consistent, high-quality experience.
 
 This guide provides a complete checklist, automation scripts, and practical templates specifically designed for solo HR managers managing bulk remote hiring.
 

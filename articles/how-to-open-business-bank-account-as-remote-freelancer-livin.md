@@ -40,7 +40,7 @@ If you're forming a company, you'll also need:
 
 ## Choosing the Right Bank
 
-Not all banks serve freelancers equally. Here's a comprehensive comparison of options popular among remote workers in Portugal:
+Not all banks serve freelancers equally. Here's a comparison of options popular among remote workers in Portugal:
 
 | Bank | Monthly Fee | Setup Time | Minimum Balance | Features | Best For |
 |------|------------|-----------|-----------------|----------|----------|

@@ -178,7 +178,7 @@ Most modern video platforms support hybrid meeting features. Configure these set
 
 ### Integration with Room Systems
 
-For a seamless experience, integrate your video conferencing platform with room scheduling systems:
+For an experience, integrate your video conferencing platform with room scheduling systems:
 
 ```python
 # Example: Room availability check for hybrid meetings

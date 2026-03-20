@@ -18,7 +18,7 @@ voice-checked: true
 
 Feedback is the engine of growth in any team. In fully remote environments, the absence of casual hallway conversations and spontaneous desk visits means you must be intentional about how feedback flows. Building an async-first feedback culture requires establishing clear frameworks, appropriate tools, and norms that make giving and receiving feedback as natural as writing code.
 
-This guide provides actionable strategies for creating a async feedback culture that scales across time zones and improves team performance.
+This guide provides actionable strategies for creating an async feedback culture that scales across time zones and improves team performance.
 
 ## Why Async Feedback Matters in Remote Teams
 

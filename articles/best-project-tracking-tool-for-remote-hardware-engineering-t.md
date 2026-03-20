@@ -26,7 +26,7 @@ Remote hardware teams also deal with longer iteration cycles. A hardware prototy
 
 ## Linear: Modern Issue Tracking for Hardware Teams
 
-Linear has emerged as a strong choice for hardware engineering teams seeking a streamlined issue tracking experience. While originally designed for software, Linear's flexible workflow system adapts well to hardware development processes.
+Linear has emerged as a strong choice for hardware engineering teams seeking an improved issue tracking experience. While originally designed for software, Linear's flexible workflow system adapts well to hardware development processes.
 
 ### Setting Up Linear for Hardware Workflows
 

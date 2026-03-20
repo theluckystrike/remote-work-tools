@@ -143,7 +143,7 @@ For developers managing eSIM deployments or building applications around eSIM fu
 
 ### Profile Management Script
 
-Automating eSIM profile switching enables seamless carrier transitions:
+Automating eSIM profile switching enables carrier transitions:
 
 ```python
 #!/usr/bin/env python3

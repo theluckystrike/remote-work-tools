@@ -84,22 +84,22 @@ A good async demo walkthrough follows a consistent structure. Stakeholders shoul
 ### Recommended Demo Structure
 
 1. **Overview** (30 seconds)
-   - Sprint goal and scope
-   - What was completed vs. planned
+ - Sprint goal and scope
+ - What was completed vs. planned
 
 2. **Feature Walkthrough** (2-5 minutes per feature)
-   - Show the feature in action
-   - Narrate what you're demonstrating
-   - Highlight key decisions or tradeoffs
+ - Show the feature in action
+ - Narrate what you're demonstrating
+ - Highlight key decisions or tradeoffs
 
 3. **Technical Highlights** (optional, 1-2 minutes)
-   - Architecture changes
-   - Performance improvements
-   - Code refactoring
+ - Architecture changes
+ - Performance improvements
+ - Code refactoring
 
 4. **Next Steps** (30 seconds)
-   - What's coming in the next sprint
-   - Dependencies or blockers
+ - What's coming in the next sprint
+ - Dependencies or blockers
 
 ### Recording Best Practices
 

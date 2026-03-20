@@ -158,7 +158,7 @@ Create a shared resource document that accumulates all demo links, including:
 - Team contact channels
 - RFCs or design documents
 
-## Handling Q&A Effectively
+## Handling Q&An Effectively
 
 Q&A makes or breaks demo days. Without structure, sessions devolve into either awkward silence or lengthy debates that derail the schedule.
 

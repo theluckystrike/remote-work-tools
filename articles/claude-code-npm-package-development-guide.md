@@ -5,7 +5,7 @@
 
 layout: default
 title: "Node.js and npm"
-description: "A comprehensive guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best."
+description: "A guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best."
 date: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /claude-code-npm-package-development-guide/

@@ -44,7 +44,7 @@ Your actual market rate depends on:
 3. Company stage (startup vs. public company)
 4. Your geographic region (historical—doesn't change with relocation)
 
-**Important:** If you're moving FROM a high-CoL city (SF, NYC, Boston) TO a lower-CoL city, you have leverage. Your employer was already paying market rate for your home city. Relocation shouldn't trigger a "cost of living adjustment" in reverse.
+**Important:** If you're moving FROM a high-CoL city (SF, NYC, Boston) TO a lower-CoL city, you have use. Your employer was already paying market rate for your home city. Relocation shouldn't trigger a "cost of living adjustment" in reverse.
 
 ## The Negotiation Framework
 
@@ -68,7 +68,7 @@ Market Rate Analysis:
 - Relocation cost savings to employer: $0 (remote, no office overhead)
 ```
 
-**Step 2: Identify negotiation leverage**
+**Step 2: Identify negotiation use**
 
 ```
 Your Leverage Points:
@@ -198,7 +198,7 @@ If your employer:
 ## Negotiation Checklist
 
 - [ ] Document current market rate using Levels.fyi, Blind, OpenComp
-- [ ] Identify your leverage (specialization, performance, tenure)
+- [ ] Identify your use (specialization, performance, tenure)
 - [ ] Prepare 3-5 responses to common objections
 - [ ] Have conversation with manager, not HR, first
 - [ ] Use "market rate preservation" framing, not "cost of living"

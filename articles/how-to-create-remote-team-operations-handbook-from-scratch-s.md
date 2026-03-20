@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Remote Team Operations Handbook From Scratch Step by Step"
-description: "A practical guide for developers and power users to build a comprehensive remote team operations handbook from the ground up."
+description: "A practical guide for developers and power users to build a remote team operations handbook from the ground up."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/
@@ -131,17 +131,17 @@ Developers should never have to guess how to handle routine operational tasks. C
 
 1. Ensure you're on the main branch and have pulled latest:
    ```bash
-   git checkout main && git pull origin main
+ git checkout main && git pull origin main
    ```
 
 2. Create a release branch:
    ```bash
-   git checkout -b release/$(date +%Y%m%d)
+ git checkout -b release/$(date +%Y%m%d)
    ```
 
 3. Run the staging deployment script:
    ```bash
-   ./scripts/deploy.sh staging
+ ./scripts/deploy.sh staging
    ```
 
 4. Verify deployment in #deployments Slack channel
@@ -158,7 +158,7 @@ If issues are detected after staging deployment:
 4. Post in #incidents describing the issue
 ```
 
-Runbooks reduce support burden and empower team members to handle tasks independently. Review and test these quarterly—outdated runbooks are worse than none at all.
+Runbooks reduce support burden and enable team members to handle tasks independently. Review and test these quarterly—outdated runbooks are worse than none at all.
 
 ## Automate Handbook Maintenance
 

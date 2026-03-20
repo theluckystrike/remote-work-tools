@@ -78,7 +78,7 @@ Clearly define what the stipend covers:
 
 ### 4. Claim Submission Process
 
-For distributed teams, a streamlined digital submission process is essential:
+For distributed teams, an improved digital submission process is essential:
 
 ```python
 # Example claim submission workflow

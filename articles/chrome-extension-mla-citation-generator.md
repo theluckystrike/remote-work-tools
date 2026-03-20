@@ -14,7 +14,7 @@ voice-checked: true
 
 {% raw %}
 
-MLA (Modern Language Association) citation format remains the standard for humanities, literature, arts, and many social science disciplines. When conducting research online, generating accurate MLA citations manually can be time-consuming and error-prone. Chrome extensions that automate MLA citation generation streamline this process significantly for researchers, students, and academics.
+MLA (Modern Language Association) citation format remains the standard for humanities, literature, arts, and many social science disciplines. When conducting research online, generating accurate MLA citations manually can be time-consuming and error-prone. Chrome extensions that automate MLA citation generation improve this process significantly for researchers, students, and academics.
 
 This guide covers how MLA citation generator Chrome extensions work under the hood, their practical applications, and provides technical insights for developers interested in building or customizing these tools.
 

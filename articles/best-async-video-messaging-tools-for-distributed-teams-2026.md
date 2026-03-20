@@ -152,7 +152,7 @@ This option works for quick explainers but lacks polish for important communicat
 
 ## Microsoft Stream
 
-Teams using Microsoft 365 can leverage Microsoft Stream:
+Teams using Microsoft 365 can use Microsoft Stream:
 
 - Integrated with Teams and Outlook
 - Auto-generates transcripts and captions
@@ -326,7 +326,7 @@ A typical well-run team records 5-10 async videos weekly and eliminates 10-15 un
 
 **Mature companies (100+ people)**: Add Codeshot for developer-specific communication. Large companies benefit from multiple specialized tools.
 
-Async video messaging is the highest-leverage change teams can make to improve distributed work. One recorded explanation saves your team hours of meeting time while creating permanent knowledge resources.
+Async video messaging is the highest-use change teams can make to improve distributed work. One recorded explanation saves your team hours of meeting time while creating permanent knowledge resources.
 
 ## Related Reading
 

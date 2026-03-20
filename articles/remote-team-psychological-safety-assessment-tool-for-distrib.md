@@ -107,20 +107,20 @@ import re
 from collections import defaultdict
 
 def analyze_pr_feedback(comments):
-    feedback_by_author = defaultdict(list)
-    for comment in comments:
-        author = comment['author']
-        # Classify comment type
-        if '?' in comment['body'] or 'consider' in comment['body'].lower():
-            feedback_type = 'suggestion'
-        elif 'nit:' in comment['body'].lower():
-            feedback_type = 'nitpick'
-        elif 'lgtm' in comment['body'].lower() or 'approve' in comment['body'].lower():
-            feedback_type = 'approval'
-        else:
-            feedback_type = 'other'
-        feedback_by_author[author].append(feedback_type)
-    return feedback_by_author
+ feedback_by_author = defaultdict(list)
+ for comment in comments:
+ author = comment['author']
+ # Classify comment type
+ if '?' in comment['body'] or 'consider' in comment['body'].lower():
+ feedback_type = 'suggestion'
+ elif 'nit:' in comment['body'].lower():
+ feedback_type = 'nitpick'
+ elif 'lgtm' in comment['body'].lower() or 'approve' in comment['body'].lower():
+ feedback_type = 'approval'
+ else:
+ feedback_type = 'other'
+ feedback_by_author[author].append(feedback_type)
+ return feedback_by_author
 ```
 
 ### Meeting Participation Metrics

@@ -22,7 +22,7 @@ Choose Linear if your team prioritizes speed, a keyboard-driven workflow, and a 
 
 ## The Core Philosophy
 
-Jira, developed by Atlassian, has been the enterprise standard for nearly two decades. It offers extensive customization, complex workflows, and deep integration with the Atlassian ecosystem. Linear, a newer entrant, focuses on speed, simplicity, and a streamlined user experience designed specifically for modern software teams.
+Jira, developed by Atlassian, has been the enterprise standard for nearly two decades. It offers extensive customization, complex workflows, and deep integration with the Atlassian ecosystem. Linear, a newer entrant, focuses on speed, simplicity, and an improved user experience designed specifically for modern software teams.
 
 If your team values customization and doesn't mind a steeper learning curve, Jira provides powerful capabilities. If you prioritize speed of execution and a cleaner interface, Linear often wins.
 
@@ -162,7 +162,7 @@ The Linear import tool handles basic Jira migrations, though custom fields and c
 
 Jira excels in enterprise environments requiring extensive customization and integration depth. Linear provides a faster, more focused experience for teams that prioritize velocity over configuration.
 
-For most software development teams building modern applications, Linear's streamlined approach fits agile practices. However, if your organization has established Jira workflows or requires enterprise-grade reporting, the migration cost may outweigh the benefits.
+For most software development teams building modern applications, Linear's improved approach fits agile practices. However, if your organization has established Jira workflows or requires enterprise-grade reporting, the migration cost may outweigh the benefits.
 
 Evaluate your team's specific needs, try both tools with a small project, and choose based on how well each fits your actual workflow rather than feature lists.
 

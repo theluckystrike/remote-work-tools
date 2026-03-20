@@ -169,7 +169,7 @@ def create_client_matter(firm_id, client_data, case_details):
     return requests.post(endpoint, json=payload, headers=headers)
 ```
 
-For 10-person firms, Clio's pricing at $39 per user per month for the Core plan is reasonable. **PracticePanther** offers a more streamlined experience at $34 per user per month with similar core features. Both integrate with the major communication and document tools.
+For 10-person firms, Clio's pricing at $39 per user per month for the Core plan is reasonable. **PracticePanther** offers a more improved experience at $34 per user per month with similar core features. Both integrate with the major communication and document tools.
 
 ## Recommended Stack for a 10-Person Remote Law Firm
 

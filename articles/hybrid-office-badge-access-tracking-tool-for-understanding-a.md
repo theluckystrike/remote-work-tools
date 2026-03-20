@@ -226,7 +226,7 @@ System limitations: Badge systems record entry, not actual desk usage. Someone b
 
 API rate limits: Most commercial badge systems impose API limits. Cache data locally and sync incrementally rather than pulling full datasets repeatedly.
 
-## Actionable Insights from Badge Analytics
+## Practical recommendations from Badge Analytics
 
 Once you have the data, translate it into workplace decisions:
 
