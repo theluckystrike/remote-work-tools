@@ -8,7 +8,7 @@ permalink: /how-to-add-sound-dampening-to-home-office-door-cheaply/
 categories: [guides]
 tags: [remote-work-tools, home-office, soundproofing, remote-work, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

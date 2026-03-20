@@ -8,7 +8,7 @@ permalink: /home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/
 categories: [guides]
 tags: [remote-work-tools, chair-mat, home-office, flooring, ergonomics, workspace, comparison]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

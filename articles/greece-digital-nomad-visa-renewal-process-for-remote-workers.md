@@ -8,7 +8,7 @@ permalink: /greece-digital-nomad-visa-renewal-process-for-remote-workers/
 categories: [guides]
 tags: [remote-work-tools, greece, digital-nomad, visa, renewal, remote-work, europe]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
