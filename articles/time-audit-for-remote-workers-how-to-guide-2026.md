@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Time Audit for Remote Workers: A Practical How-To Guide for 2026"
+title: "Time Audit for Remote Workers: A Practical How-To Guide."
 description: "Learn how to perform a comprehensive time audit as a remote worker. Practical examples, CLI tools, and automation scripts for developers and power users."
 date: 2026-03-20
 author: theluckystrike
@@ -148,5 +148,10 @@ Even a rough manual audit often reveals surprising insights. The act of categori
 A time audit is a diagnostic tool. It tells you what is actually happening in your workday, not what you think is happening. For remote developers and power users, the combination of automated tracking and deliberate analysis provides the clarity needed to design a work structure that respects your energy and maximizes your impact.
 
 Start small. Track one week. Categorize the data. Make one change. Measure again. The compound effect of these audits over several months transforms how you work.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
