@@ -192,3 +192,4 @@ No Follow-Up: Async standups work only if someone actually reads and acts on the
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

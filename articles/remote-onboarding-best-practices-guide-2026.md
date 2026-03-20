@@ -231,4 +231,4 @@ Track metrics to improve the onboarding process continuously.
 - **Retention Rate**: Percentage of new hires remaining after one year
 
 Analyze data quarterly. Identify bottlenecks and iterate on the process.
-
+{% endraw %}

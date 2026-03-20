@@ -168,3 +168,4 @@ This script activates when you press Cmd+Shift+6, closing work applications and 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

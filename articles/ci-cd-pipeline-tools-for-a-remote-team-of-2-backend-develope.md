@@ -309,3 +309,4 @@ resource "aws_codebuild_project" "backend_ci" {
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -14,6 +14,7 @@ voice-checked: true
 ---
 
 {% raw %}
+{% raw %}
 ## Completed This Week
 - What did you ship?
 

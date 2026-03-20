@@ -256,3 +256,4 @@ This hybrid approach reduces standup fatigue while maintaining visibility across
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

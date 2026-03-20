@@ -207,3 +207,4 @@ Track these indicators to assess whether your knowledge transfer systems are wor
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

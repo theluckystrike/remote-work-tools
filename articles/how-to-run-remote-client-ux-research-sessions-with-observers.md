@@ -212,3 +212,4 @@ A simple Google Sheets template works well for tracking observations:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

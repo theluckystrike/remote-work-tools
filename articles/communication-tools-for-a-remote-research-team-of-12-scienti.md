@@ -154,3 +154,4 @@ For a 12-person research team, budget approximately $50-100 per month per person
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -178,3 +178,4 @@ Every kickoff meeting should end with specific action items: "Client will provid
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

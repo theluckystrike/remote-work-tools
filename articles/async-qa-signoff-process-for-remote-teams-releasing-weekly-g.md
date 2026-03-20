@@ -224,3 +224,4 @@ Several patterns undermine async QA effectiveness. First, unclear acceptance cri
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

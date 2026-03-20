@@ -238,3 +238,4 @@ Implement these patterns to maintain security with distributed teams:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

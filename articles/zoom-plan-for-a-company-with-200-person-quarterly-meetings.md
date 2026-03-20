@@ -240,3 +240,4 @@ With proper planning and the right technical setup, quarterly all-hands meetings
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

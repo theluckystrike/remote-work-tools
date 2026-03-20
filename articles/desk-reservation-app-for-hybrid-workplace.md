@@ -259,3 +259,4 @@ A desk reservation app for hybrid workplace solves a genuine operational problem
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

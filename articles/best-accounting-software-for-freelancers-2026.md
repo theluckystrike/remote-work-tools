@@ -210,3 +210,4 @@ Whatever you choose, ensure your financial data remains portable. Regular export
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

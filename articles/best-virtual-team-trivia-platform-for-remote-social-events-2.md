@@ -152,3 +152,4 @@ This script creates a trivia game from a custom configuration and announces it i
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

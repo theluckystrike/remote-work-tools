@@ -307,3 +307,4 @@ The tools and patterns in this guide provide a foundation for territory mapping 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

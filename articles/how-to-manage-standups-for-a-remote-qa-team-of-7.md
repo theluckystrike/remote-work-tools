@@ -168,3 +168,4 @@ The goal is not standup itself—standup is a tool for coordination. If your tea
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

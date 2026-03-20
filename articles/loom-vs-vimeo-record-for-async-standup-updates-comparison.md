@@ -148,3 +148,4 @@ The best approach: try both tools with your actual standup workflow for one week
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -429,3 +429,4 @@ Third, lead by example. If senior team members treat standups as box-checking, o
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

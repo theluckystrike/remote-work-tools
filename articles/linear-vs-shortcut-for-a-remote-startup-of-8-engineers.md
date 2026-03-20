@@ -153,3 +153,4 @@ Then configure GitHub integration through Settings → Integrations, map your re
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

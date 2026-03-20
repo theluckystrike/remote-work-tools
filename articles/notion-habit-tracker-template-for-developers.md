@@ -153,3 +153,4 @@ Make logging frictionless. Keep your Notion workspace easily accessible on all d
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

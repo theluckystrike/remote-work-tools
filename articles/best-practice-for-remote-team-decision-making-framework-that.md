@@ -14,6 +14,7 @@ voice-checked: true
 ---
 
 {% raw %}
+{% raw %}
 ```
 
 This structure works well with Git-based workflows. Store decisions in a `decisions/` directory and use pull requests for proposed decisions, allowing async review and discussion.

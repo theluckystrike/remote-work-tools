@@ -193,3 +193,4 @@ Consistent invoice numbering, organized client records, and a centralized paymen
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

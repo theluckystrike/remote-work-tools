@@ -189,3 +189,4 @@ A 12-person team has an advantage here: small enough that direct communication c
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

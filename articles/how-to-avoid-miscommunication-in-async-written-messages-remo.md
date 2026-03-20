@@ -226,3 +226,4 @@ Applying these patterns consistently will dramatically reduce miscommunication i
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

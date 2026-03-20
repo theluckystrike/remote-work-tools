@@ -230,3 +230,4 @@ The goal is understanding whether the team is productive, not proving individual
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

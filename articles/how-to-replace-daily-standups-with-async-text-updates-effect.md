@@ -177,3 +177,4 @@ Async text updates transform daily standups from a mandatory meeting into a flex
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

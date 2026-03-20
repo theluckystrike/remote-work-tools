@@ -175,3 +175,4 @@ Use retrospective data to refine your agenda template for the next project.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

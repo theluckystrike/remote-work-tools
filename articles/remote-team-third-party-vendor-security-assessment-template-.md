@@ -202,3 +202,4 @@ Use this checklist when deploying your vendor security assessment template:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

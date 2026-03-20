@@ -215,3 +215,4 @@ Document your rubric in your team wiki or hiring handbook. New interviewers shou
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

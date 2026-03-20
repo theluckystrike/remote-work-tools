@@ -14,6 +14,7 @@ voice-checked: true
 ---
 
 {% raw %}
+{% raw %}
 ## Yesterday
 - What did you complete?
 
