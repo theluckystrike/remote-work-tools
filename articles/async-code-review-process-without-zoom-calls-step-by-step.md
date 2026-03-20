@@ -8,7 +8,7 @@ permalink: /async-code-review-process-without-zoom-calls-step-by-step/
 categories: [guides]
 tags: [remote-work-tools, code-review, remote-work, async, developer-tools, team-collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

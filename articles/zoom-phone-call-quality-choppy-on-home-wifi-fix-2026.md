@@ -10,7 +10,7 @@ score: 8
 categories: [troubleshooting]
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, how-to]
+tags: [remote-work-tools, how-to, troubleshooting]
 ---
 
 # Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)
