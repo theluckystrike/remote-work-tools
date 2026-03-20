@@ -623,3 +623,8 @@ Your company likely spends $10,000+ per year protecting the office network. Your
 Start with Layer 1 and 3 (free, immediate protection), upgrade to Layer 2 (VLANs) when you can afford better router.
 
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
