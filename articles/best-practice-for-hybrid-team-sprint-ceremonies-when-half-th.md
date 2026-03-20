@@ -8,7 +8,7 @@ permalink: /best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, sprint-ceremonies, agile, remote-work, team-communication, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -8,7 +8,7 @@ permalink: /best-practice-for-remote-real-estate-photographers-deliverin/
 categories: [guides]
 tags: [remote-work-tools, real-estate, virtual-tours, remote-photography, automation, property-marketing, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

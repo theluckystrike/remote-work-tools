@@ -8,7 +8,7 @@ permalink: /best-practice-for-remote-appraisers-conducting-property-valu/
 categories: [guides]
 tags: [remote-work-tools, virtual-inspection, remote-appraisal, property-valuation, proptech, automation, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
