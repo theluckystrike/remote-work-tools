@@ -6,9 +6,9 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-legal-billing-software-comparison-for-distributed-law/
 categories: [comparisons]
-tags: [legal-billing, remote-work, law-firms, time-tracking, legal-tech, distributed-teams]
+tags: [remote-work-tools, legal-billing, remote-work, law-firms, time-tracking, legal-tech, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

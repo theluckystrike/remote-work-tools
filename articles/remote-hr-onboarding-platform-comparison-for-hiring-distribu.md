@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-hr-onboarding-platform-comparison-for-hiring-distribu/
 categories: [guides]
-tags: [remote-work, hr, onboarding, hiring, distributed-teams, automation]
+tags: [remote-work-tools, remote-work, hr, onboarding, hiring, distributed-teams, automation]
 reviewed: true
 score: 8
 intent-checked: true

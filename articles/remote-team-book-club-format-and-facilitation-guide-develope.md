@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-book-club-format-and-facilitation-guide-developers/
 categories: [guides]
-tags: [book-club, remote-work, team-building]
+tags: [remote-work-tools, book-club, remote-work, team-building]
 reviewed: true
 score: 8
 intent-checked: true

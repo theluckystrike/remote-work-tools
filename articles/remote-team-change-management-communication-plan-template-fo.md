@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-change-management-communication-plan-template-fo/
 categories: [guides]
-tags: [remote-work, change-management, communication, distributed-teams]
+tags: [remote-work-tools, remote-work, change-management, communication, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

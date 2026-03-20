@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /remote-meeting-agenda-template-for-engineering-teams/
 categories: [guides]
-tags: [remote-work, meetings, engineering, productivity]
+tags: [remote-work-tools, remote-work, meetings, engineering, productivity]
 reviewed: true
 score: 8
 intent-checked: true

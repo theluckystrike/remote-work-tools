@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-hr-performance-review-tools-comparison-for-managing-d/
 categories: [guides]
-tags: [remote-work, hr-tools, performance-review, distributed-teams, async]
+tags: [remote-work-tools, remote-work, hr-tools, performance-review, distributed-teams, async]
 reviewed: true
 score: 8
 intent-checked: true

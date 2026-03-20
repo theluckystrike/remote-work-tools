@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-all-hands-meeting-question-collection-tool-for-d/
 categories: [guides]
-tags: [remote-work, all-hands-meeting, distributed-teams, question-collection, async-communication, meeting-tools]
+tags: [remote-work-tools, remote-work, all-hands-meeting, distributed-teams, question-collection, async-communication, meeting-tools]
 reviewed: true
 score: 8
 voice-checked: true

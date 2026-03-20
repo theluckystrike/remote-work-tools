@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /remote-team-bonding-activities-that-actually-work/
 categories: [guides]
-tags: [remote-work, team-building, productivity]
+tags: [remote-work-tools, remote-work, team-building, productivity]
 reviewed: true
 score: 8
 intent-checked: true

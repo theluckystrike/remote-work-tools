@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-batch-onboarding-process-for-cohort-based-hiring/
 categories: [guides]
-tags: [remote-work, onboarding, batch-onboarding, cohort-hiring, distributed-teams]
+tags: [remote-work-tools, remote-work, onboarding, batch-onboarding, cohort-hiring, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

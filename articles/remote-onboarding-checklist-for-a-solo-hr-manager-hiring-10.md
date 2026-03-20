@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/
 categories: [guides]
-tags: [remote-work, hr, onboarding, hiring, automation]
+tags: [remote-work-tools, remote-work, hr, onboarding, hiring, automation]
 reviewed: true
 score: 8
 intent-checked: true

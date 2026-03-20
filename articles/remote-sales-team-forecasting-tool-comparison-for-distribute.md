@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-sales-team-forecasting-tool-comparison-for-distribute/
 categories: [guides]
-tags: [sales-forecasting, revenue-operations, remote-work, distributed-teams]
+tags: [remote-work-tools, sales-forecasting, revenue-operations, remote-work, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

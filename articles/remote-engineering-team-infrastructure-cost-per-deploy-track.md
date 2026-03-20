@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-engineering-team-infrastructure-cost-per-deploy-track/
 categories: [guides]
-tags: [devops, infrastructure, cost-tracking, remote-work, observability, cloud-costs]
+tags: [remote-work-tools, devops, infrastructure, cost-tracking, remote-work, observability, cloud-costs]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-manager-one-on-one-question-template-for-distributed-team-check-ins/
 categories: [guides]
-tags: [one-on-one, remote-work, management, distributed-teams, check-ins]
+tags: [remote-work-tools, one-on-one, remote-work, management, distributed-teams, check-ins]
 reviewed: true
 score: 8
 intent-checked: true

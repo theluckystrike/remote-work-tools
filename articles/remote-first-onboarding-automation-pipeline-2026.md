@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /remote-first-onboarding-automation-pipeline-2026/
 categories: [guides]
-tags: [remote-work, automation, onboarding, operations]
+tags: [remote-work-tools, remote-work, automation, onboarding, operations]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

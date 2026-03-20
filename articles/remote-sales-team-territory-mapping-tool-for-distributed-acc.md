@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-sales-team-territory-mapping-tool-for-distributed-acc/
 categories: [guides]
-tags: [sales, territory-mapping, remote-work, account-executives]
+tags: [remote-work-tools, sales, territory-mapping, remote-work, account-executives]
 reviewed: true
 score: 8
 intent-checked: true
