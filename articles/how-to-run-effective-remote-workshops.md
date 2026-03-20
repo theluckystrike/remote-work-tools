@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-run-effective-remote-workshops/
 categories: [guides]
-tags: [remote-work, workshops, facilitation, team-building]
+tags: [remote-work-tools, remote-work, workshops, facilitation, team-building]
 reviewed: true
 score: 8
 intent-checked: true

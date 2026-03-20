@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-quarterly-business-review-for-distrib/
 categories: [guides]
-tags: [quarterly-business-review, remote-work, distributed-teams, leadership, async-meetings, team-management]
+tags: [remote-work-tools, quarterly-business-review, remote-work, distributed-teams, leadership, async-meetings, team-management]
 reviewed: true
 score: 8
 intent-checked: true

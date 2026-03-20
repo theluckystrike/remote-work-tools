@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-developer-hackathon-for-distributed-engine/
 categories: [guides]
-tags: [remote-work, hackathons, distributed-teams, engineering, team-building]
+tags: [remote-work-tools, remote-work, hackathons, distributed-teams, engineering, team-building]
 reviewed: true
 score: 8
 intent-checked: true

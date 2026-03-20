@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-ux-research-sessions-with-observers/
 categories: [guides]
-tags: [ux-research, remote-work, usability-testing]
+tags: [remote-work-tools, ux-research, remote-work, usability-testing]
 reviewed: true
 score: 8
 intent-checked: true

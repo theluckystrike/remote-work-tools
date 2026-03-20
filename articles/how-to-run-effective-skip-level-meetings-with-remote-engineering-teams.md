@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/
 categories: [guides]
-tags: [skip-level-meeting, remote-work, engineering-management, leadership]
+tags: [remote-work-tools, skip-level-meeting, remote-work, engineering-management, leadership]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

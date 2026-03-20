@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-kickoff-meeting-for-new-project/
 categories: [guides]
-tags: [remote-work, client-meetings, project-management]
+tags: [remote-work-tools, remote-work, client-meetings, project-management]
 reviewed: true
 score: 8
 intent-checked: true

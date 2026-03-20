@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-town-hall-with-live-questions-and-async-follow-up/
 categories: [guides]
-tags: [remote-meetings, town-hall, async-communication, virtual-events, distributed-teams]
+tags: [remote-work-tools, remote-meetings, town-hall, async-communication, virtual-events, distributed-teams, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

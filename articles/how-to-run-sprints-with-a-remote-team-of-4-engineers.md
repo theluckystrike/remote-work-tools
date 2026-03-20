@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-sprints-with-a-remote-team-of-4-engineers/
 categories: [guides]
-tags: [remote-work, agile, sprints]
+tags: [remote-work-tools, remote-work, agile, sprints]
 reviewed: true
 score: 8
 intent-checked: true

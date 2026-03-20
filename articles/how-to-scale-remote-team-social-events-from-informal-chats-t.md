@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-social-events-from-informal-chats-t/
 categories: [guides]
-tags: [remote-work, team-building, social-events, remote-culture, async-communication]
+tags: [remote-work-tools, remote-work, team-building, social-events, remote-culture, async-communication]
 reviewed: true
 score: 8
 intent-checked: true

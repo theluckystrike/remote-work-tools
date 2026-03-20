@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-tax-preparation-business-with-distributed-/
 categories: [guides]
-tags: [remote-work, tax-preparation, seasonal-staff, distributed-teams, business-operations, workflow-automation]
+tags: [remote-work-tools, remote-work, tax-preparation, seasonal-staff, distributed-teams, business-operations, workflow-automation]
 reviewed: true
 score: 8
 intent-checked: true

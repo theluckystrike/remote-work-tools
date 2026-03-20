@@ -6,9 +6,9 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/
 categories: [guides]
-tags: [slack, daily-standup, remote-work, async-communication, team-collaboration]
+tags: [remote-work-tools, slack, daily-standup, remote-work, async-communication, team-collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

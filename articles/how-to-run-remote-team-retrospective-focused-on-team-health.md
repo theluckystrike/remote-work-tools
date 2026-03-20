@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-retrospective-focused-on-team-health/
 categories: [guides]
-tags: [retrospective, remote-work, team-health, agile, psychological-safety]
+tags: [remote-work-tools, retrospective, remote-work, team-health, agile, psychological-safety]
 reviewed: true
 score: 8
 intent-checked: true

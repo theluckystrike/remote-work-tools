@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-remote-team-cooking-class-as-bonding-activity/
 categories: [guides]
-tags: [remote-work, team-building, virtual-events, cooking, bonding]
+tags: [remote-work-tools, remote-work, team-building, virtual-events, cooking, bonding]
 reviewed: true
 score: 8
 intent-checked: true

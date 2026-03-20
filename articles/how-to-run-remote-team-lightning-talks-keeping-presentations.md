@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-lightning-talks-keeping-presentations/
 categories: [guides]
-tags: [lightning-talks, remote-work, presentations, team-collaboration, knowledge-sharing]
+tags: [remote-work-tools, lightning-talks, remote-work, presentations, team-collaboration, knowledge-sharing]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-workshop-for-product-managers-defining-qua/
 categories: [guides]
-tags: [remote-work, okr, product-management, workshops, quarterly-planning]
+tags: [remote-work-tools, remote-work, okr, product-management, workshops, quarterly-planning]
 reviewed: true
 score: 8
 intent-checked: true

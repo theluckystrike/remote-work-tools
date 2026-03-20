@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-monthly-virtual-game-night-for-remote-developers/
 categories: [guides]
-tags: [remote-work, team-building, virtual-events]
+tags: [remote-work-tools, remote-work, team-building, virtual-events]
 reviewed: true
 score: 8
 intent-checked: true

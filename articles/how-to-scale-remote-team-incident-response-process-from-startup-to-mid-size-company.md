@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/
 categories: [guides]
-tags: [incident-response, remote-work, devops, scaling, team-collaboration, on-call]
+tags: [remote-work-tools, incident-response, remote-work, devops, scaling, team-collaboration, on-call]
 reviewed: true
 score: 8
 intent-checked: true
