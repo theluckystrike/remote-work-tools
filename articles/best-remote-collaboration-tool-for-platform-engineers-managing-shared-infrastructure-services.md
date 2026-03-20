@@ -8,7 +8,7 @@ permalink: /best-remote-collaboration-tool-for-platform-engineers-managing-share
 categories: [guides]
 tags: [remote-work-tools, platform-engineering, infrastructure, shared-services, remote-work, collaboration, best-of]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true
 ---
