@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "AI Project Status Generator for Remote Teams Pulling Data from Multiple Tools"
-description: "Learn how to build an AI-powered project status generator that aggregates data from multiple remote work tools. Complete implementation guide with code examples."
+title: "AI Project Status Generator for Remote Teams Pulling."
+description: "Learn how to build an AI-powered project status generator that aggregates data from multiple remote work tools. Complete implementation guide with code."
 date: 2026-03-16
 author: theluckystrike
 permalink: /ai-project-status-generator-for-remote-teams-pulling-data-fr/
@@ -312,6 +312,11 @@ jobs:
 **Customization**: The prompt in `StatusReportGenerator` can be modified to match your team's specific format requirements. Some teams prefer bullet points, others prefer paragraphs.
 
 Building an AI project status generator eliminates the manual drudgery of synthesizing updates across disparate tools. Your team gets consistent, data-driven status reports without anyone spending hours gathering information.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

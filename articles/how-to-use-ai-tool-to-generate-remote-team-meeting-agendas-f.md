@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Use AI Tools to Generate Remote Team Meeting Agendas from Previous Notes"
+title: "How to Use AI Tools to Generate Remote Team Meeting."
 description: "Learn how to leverage AI to automatically generate meeting agendas by analyzing your previous meeting notes, Slack discussions, and project documentation."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -209,6 +209,11 @@ Each source adds context. The AI serves as the aggregator, transforming noise in
 AI-powered agenda generation transforms how remote teams prepare for meetings. Instead of spending 30 minutes hunting through scattered notes, you get a structured draft in seconds. The time investment is minimal—setting up the pipeline takes an hour or two—and the return is consistent meeting efficiency.
 
 Start simple: gather your last two weeks of notes, run them through a basic AI prompt, and see what emerges. Refine from there based on what your team actually needs to discuss.
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
