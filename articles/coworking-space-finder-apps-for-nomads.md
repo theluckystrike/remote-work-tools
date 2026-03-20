@@ -8,7 +8,7 @@ permalink: /coworking-space-finder-apps-for-nomads/
 categories: [guides]
 tags: [remote-work-tools, remote work, coworking, digital nomad, productivity, tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

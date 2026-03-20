@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /claude-code-for-faker-js-test-data-workflow-guide/
 categories: [guides, workflows]
-tags: [claude-code, claude-skills]
+tags: [remote-work-tools, claude-code, claude-skills, workflow, claude-ai]
 reviewed: true
 score: 8
 ---

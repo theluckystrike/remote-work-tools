@@ -8,7 +8,7 @@ permalink: /coworking-space-day-pass-guide-finding-and-using-flex-spaces/
 categories: [guides]
 tags: [remote-work-tools, coworking, remote-work, flex-spaces, day-pass, workspace]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

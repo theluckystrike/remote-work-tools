@@ -8,7 +8,7 @@ permalink: /czech-republic-digital-nomad-visa-zivno-application-for-remote-freel
 categories: [guides]
 tags: [remote-work-tools, digital-nomad, czech-republic, zivno, visa, remote-work, freelancer, europe]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

@@ -8,7 +8,7 @@ permalink: /communication-tools-for-a-remote-research-team-of-12-scienti/
 categories: [guides]
 tags: [remote-work-tools, scientific-collaboration, research-communication, remote-work, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
