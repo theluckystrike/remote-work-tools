@@ -8,7 +8,7 @@ permalink: /best-noise-gate-settings-for-blue-yeti-microphone-home-offic/
 categories: [guides]
 tags: [remote-work-tools, audio, microphone, blue yeti, noise gate, home office, remote work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
