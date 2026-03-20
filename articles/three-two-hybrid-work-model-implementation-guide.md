@@ -8,7 +8,7 @@ permalink: /three-two-hybrid-work-model-implementation-guide/
 categories: [guides]
 tags: [remote-work-tools, tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
