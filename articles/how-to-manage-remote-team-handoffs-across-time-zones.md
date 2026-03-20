@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Remote Team Handoffs Across Time Zones: A."
+title: "How to Manage Remote Team Handoffs Across Time Zones: A"
 description: "Practical strategies and code examples for managing handovers in distributed teams. Learn async communication patterns, documentation standards, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

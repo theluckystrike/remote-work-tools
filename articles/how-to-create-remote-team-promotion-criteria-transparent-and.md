@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Promotion Criteria: A."
+title: "How to Create Remote Team Promotion Criteria: A"
 description: "A practical guide for creating clear, fair promotion criteria for remote teams. Learn how to build promotion frameworks that developers and technical."
 date: 2026-03-16
 author: theluckystrike

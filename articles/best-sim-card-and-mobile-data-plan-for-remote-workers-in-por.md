@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best SIM Card and Mobile Data Plan for Remote Workers in."
+title: "Best SIM Card and Mobile Data Plan for Remote Workers in"
 description: "A practical guide to the best SIM cards and mobile data plans for remote workers in Portugal. Compare carriers, data allowances, 5G coverage, and eSIM."
 date: 2026-03-16
 author: theluckystrike
@@ -150,8 +150,8 @@ The process differs based on your residency status:
 
 **Long-term (90+ days)**:
 1. Obtain NIF (Tax ID) from Finanças office
-   - Bring: Passport, proof of address (rental contract), completed form 11 or 14
-   - Wait: 5-10 business days
+ - Bring: Passport, proof of address (rental contract), completed form 11 or 14
+ - Wait: 5-10 business days
 2. With NIF, register for postpaid plans at carrier office
 3. Get better rates and more plan options
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Emoji and GIF Culture."
+title: "Best Practice for Remote Team Emoji and Gif Culture Keeping"
 description: "Learn how to build and maintain a healthy emoji and GIF culture in remote teams while keeping communication channels professional and inclusive."
 author: theluckystrike
 reviewed: true

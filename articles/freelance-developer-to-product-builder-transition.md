@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Freelance Developer to Product Builder Transition: A."
+title: "Freelance Developer to Product Builder Transition: A"
 description: "Learn how to transition from freelance developer to product builder. Discover the mindset shifts, technical skills, and business strategies needed to."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

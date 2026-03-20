@@ -133,10 +133,10 @@ Remote dev teams using GitHub Projects report:
 Remote dev teams using Jira report:
 - **Setup satisfaction:** 60% (complexity, configuration questions)
 - **Daily usage friction:** Moderate (switching between GitHub and Jira)
-- **Feature adequacy:** 95% (comprehensive, some unused)
+- **Feature adequacy:** 95% (, some unused)
 - **Team onboarding:** New developers productive after 2-3 hours (learning curve)
 
-For a three-person team, GitHub Projects' satisfaction scores matter more than feature completeness. A tool that developers actually use beats a comprehensive tool requiring mental effort to maintain.
+For a three-person team, GitHub Projects' satisfaction scores matter more than feature completeness. A tool that developers actually use beats a tool requiring mental effort to maintain.
 
 ## The Real Cost Beyond Pricing
 
@@ -145,7 +145,7 @@ GitHub Projects true cost for a three-person team:
 - Setup time: 6 minutes
 - Daily context switches: 1-2 (minimized)
 - Training new developers: 5-10 minutes
-- Monthly maintenance: Essentially zero
+- Monthly maintenance: zero
 
 Jira true cost for a three-person team:
 - Monetary cost: $0-90/month

@@ -194,7 +194,7 @@ These practices prevent whiteboard knowledge loss that commonly occurs when diag
 
 **Figma/FigJam Integration:**
 - Figma files embed directly into FigJam
-- Seamless design-to-collaboration flow
+- design-to-collaboration flow
 - Best for: Product teams mixing design and whiteboarding
 - Setup time: Minutes
 

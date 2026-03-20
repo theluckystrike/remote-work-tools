@@ -16,7 +16,7 @@ tags: [remote-work-tools, best-of]
 
 {% raw %}
 
-Desk sensor technology enables hybrid offices to track real-time occupancy and optimize space utilization by detecting whether desks are in use. ESP32-based microcontrollers combined with PIR motion sensors and pressure sensors provide reliable occupancy data through MQTT pipelines into InfluxDB. This architecture enables REST APIs for desk booking systems and heat maps showing which areas are actually used, supporting hot-desking policies and smart real estate decisions.
+Desk sensor technology enables hybrid offices to track real-time occupancy and optimize space use by detecting whether desks are in use. ESP32-based microcontrollers combined with PIR motion sensors and pressure sensors provide reliable occupancy data through MQTT pipelines into InfluxDB. This architecture enables REST APIs for desk booking systems and heat maps showing which areas are actually used, supporting hot-desking policies and smart real estate decisions.
 
 ## Understanding Desk Sensor Technologies
 
@@ -152,7 +152,7 @@ This pipeline collects sensor readings and stores them in InfluxDB, a time-serie
 
 ### Occupancy State Aggregation
 
-Raw sensor data needs aggregation into meaningful occupancy metrics. Calculate desk utilization rates over time windows to understand usage patterns.
+Raw sensor data needs aggregation into meaningful occupancy metrics. Calculate desk use rates over time windows to understand usage patterns.
 
 ```python
 # Python: Query and analyze desk occupancy

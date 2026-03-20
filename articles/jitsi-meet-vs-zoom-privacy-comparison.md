@@ -236,7 +236,7 @@ const securityBestPractices = {
 
 ## Related Reading
 
-- [Privacy Tools Guide](/privacy-tools-guide/){: .cross-repo-linked}
+- [Privacy Tools Guide](/privacy-tools-guide/){:.cross-repo-linked}
 - [Zulip vs Slack: A Deep Dive into Threaded Conversation.](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

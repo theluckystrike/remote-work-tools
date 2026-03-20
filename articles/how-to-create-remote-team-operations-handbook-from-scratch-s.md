@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Operations Handbook From."
+title: "How to Create Remote Team Operations Handbook From Scratch"
 description: "A practical guide for developers and power users to build a remote team operations handbook from the ground up."
 date: 2026-03-16
 author: theluckystrike
@@ -141,7 +141,7 @@ Developers should never have to guess how to handle routine operational tasks. C
 
 3. Run the staging deployment script:
    ```bash
- ./scripts/deploy.sh staging
+./scripts/deploy.sh staging
    ```
 
 4. Verify deployment in #deployments Slack channel

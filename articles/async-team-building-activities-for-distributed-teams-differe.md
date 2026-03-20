@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Team Building Activities for Distributed Teams."
+title: "Async Team Building Activities for Distributed Teams Across"
 description: "Practical async team building activities for distributed teams working across different time zones. Implementation patterns, code examples, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

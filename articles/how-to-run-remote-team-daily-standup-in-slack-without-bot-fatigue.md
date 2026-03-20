@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Team Daily Standup in Slack Without."
+title: "How to Run Remote Team Daily Standup in Slack Without Bot"
 description: "Learn practical strategies to run effective daily standups in Slack for remote teams without relying on bots. Reduce notification overload and keep."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -122,7 +122,7 @@ The threaded approach shines when your team values asynchronous communication, w
 
 The biggest challenge isn't setting up the process—it's keeping it meaningful months down the line. A few practices help:
 
-First, rotate facilitation duties. When one person is always posting the summary, it becomes a burden. Sharing this responsibility keeps things fresh.
+First, rotate help duties. When one person is always posting the summary, it becomes a burden. Sharing this responsibility keeps things fresh.
 
 Second, revisit the format quarterly. Ask your team what's working and what isn't. Maybe one-word updates suffice some weeks, while detailed async updates make sense during intense project phases.
 

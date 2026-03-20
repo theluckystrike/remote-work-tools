@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home Office Chair Mat for Carpet vs Hardwood Floor."
+title: "Home Office Chair Mat for Carpet vs Hardwood Floor"
 description: "A practical comparison of chair mats for carpet vs hardwood floors in home office setups. Learn which mat type suits your flooring and workspace needs."
 date: 2026-03-16
 author: theluckystrike

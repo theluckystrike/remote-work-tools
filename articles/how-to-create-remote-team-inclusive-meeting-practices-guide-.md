@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Inclusive Meeting Practices."
+title: "How to Create Remote Team Inclusive Meeting Practices Guide"
 description: "A practical guide to building inclusive meeting practices for distributed remote teams across multiple time zones. Includes code examples and."
 date: 2026-03-16
 author: theluckystrike

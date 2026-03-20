@@ -165,7 +165,7 @@ Similar appendicitis in Thailand:
 Laptop stolen:
 - Genki pays: $2,500 (covers most of MacBook replacement)
 
-**Best for:** Long-term nomads (1-2 years), developers with expensive gear, wants one comprehensive policy.
+**Best for:** Long-term nomads (1-2 years), developers with expensive gear, wants one policy.
 
 ### World Nomads Standard
 
@@ -295,8 +295,8 @@ print(policies_scored)  # Genki World Explorer wins
 **Day 5:**
 - Insurance approves claim for $1,800
 - Offers two options:
-  1. Direct payment to laptop replacement store in Vietnam
-  2. Reimbursement to your bank account (takes 5-7 business days)
+ 1. Direct payment to laptop replacement store in Vietnam
+ 2. Reimbursement to your bank account (takes 5-7 business days)
 
 **Day 7-10:**
 - You receive reimbursement
@@ -323,7 +323,7 @@ For developers prioritizing laptop protection, Genki's 2.7x higher cost is justi
 
 ## Supplementary Insurance Options
 
-Rather than single comprehensive policy, some nomads stack coverage:
+Rather than single policy, some nomads stack coverage:
 
 ```
 Tier 1: SafetyWing Nomad Insurance ($45/month)
@@ -391,7 +391,7 @@ Prioritize policies with explicit electronics coverage rather than generic perso
 - Includes laptop protection, long duration flexibility
 
 **Comfort Nomad (extended travel, expensive gear, adventure activities):**
-- Allianz Global or AXA Comprehensive
+- Allianz Global or AXA
 - Cost: ~$120-150/month
 - Complete coverage, premium support, high evacuation limits
 

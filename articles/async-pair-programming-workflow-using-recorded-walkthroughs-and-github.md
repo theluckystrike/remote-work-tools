@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Pair Programming Workflow Using Recorded."
+title: "Async Pair Programming Workflow Using Recorded Walkthroughs"
 description: "A guide to implementing async pair programming for distributed teams using screen recordings, GitHub, and collaborative workflows."
 date: 2026-03-18
 author: theluckystrike
@@ -218,7 +218,7 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 ### Set Clear Expectations
 
 - Response time SLA: Agree on how quickly navigators should respond (e.g., 24-48 hours)
-- Recording length: Aim for 5-15 minute recordings—concise but 
+- Recording length: Aim for 5-15 minute recordings—concise but
 - Feedback format: Standardize how feedback is structured
 
 ### Maintain Human Connection

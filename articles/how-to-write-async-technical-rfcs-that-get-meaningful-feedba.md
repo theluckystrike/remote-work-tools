@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Write Async Technical RFCs That Get Meaningful."
+title: "How to Write Async Technical RFCs That Get Meaningful"
 description: "Learn practical techniques for writing async technical RFCs that generate meaningful feedback from distributed teams. Includes templates and examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -159,9 +159,6 @@ Here's a practical template you can adapt:
 
 ```markdown
 # RFC: [Short Title]
-
-## Summary
-[2-3 sentence description of what this proposes and why it matters]
 
 ## Motivation
 [Specific problem this solves, with concrete examples]

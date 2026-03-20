@@ -73,11 +73,11 @@ Store reusable code snippets with language tags for syntax highlighting:
 ```javascript
 // Generic debounce function
 function debounce(fn, delay) {
-  let timeoutId;
-  return function (...args) {
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => fn.apply(this, args), delay);
-  };
+ let timeoutId;
+ return function (...args) {
+ clearTimeout(timeoutId);
+ timeoutId = setTimeout(() => fn.apply(this, args), delay);
+ };
 }
 ```
 ````

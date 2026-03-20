@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Herman Miller vs Steelcase for Remote Developers: A."
+title: "Herman Miller vs Steelcase for Remote Developers: A"
 description: "A practical comparison of Herman Miller and Steelcase ergonomic chairs for developers working from home. Includes technical specs, durability analysis."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -194,7 +194,7 @@ Both brands offer 12-year warranties, but what they cover differs:
 
 **Herman Miller**: Covers manufacturing defects, structural failures, and the proprietary mechanisms. Cosmetic issues (worn upholstery) aren't covered. Repairs typically happen through authorized dealers. Average repair time: 2-3 weeks. Many developers report never needing warranty service despite 10+ years of use.
 
-**Steelcase**: Similarly comprehensive warranty with excellent dealer network support. Steelcase actively encourages refurbishment and remanufacturing—used Steelcase chairs often get overhauled and resold at lower prices through official channels. This creates a healthy secondary market.
+**Steelcase**: Similarly warranty with excellent dealer network support. Steelcase actively encourages refurbishment and remanufacturing—used Steelcase chairs often get overhauled and resold at lower prices through official channels. This creates a healthy secondary market.
 
 ## Size Matters: The Critical Detail Everyone Misses
 

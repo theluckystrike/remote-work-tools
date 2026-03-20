@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Whiteboarding Tool for Remote Architects Doing."
+title: "Best Whiteboarding Tool for Remote Architects Doing System"
 description: "Discover the best whiteboarding tools for remote architects running system design sessions. Compare real-time collaboration, diagramming features, and."
 date: 2026-03-16
 author: theluckystrike

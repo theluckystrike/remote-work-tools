@@ -22,7 +22,7 @@ Use Log4brains if you want ADRs stored directly in your codebase with a browsabl
 
 When your engineering team spans multiple time zones, you lose the informal context that happens in office hallways. Someone makes a database choice in 2024, and by 2026, nobody remembers the tradeoffs that shaped that decision. ADRs solve this by creating a permanent, searchable record of technical choices and their reasoning.
 
-The best ADR tools for remote teams share several characteristics: they integrate with your existing workflow, support async review processes, and keep decisions discoverable over time. 
+The best ADR tools for remote teams share several characteristics: they integrate with your existing workflow, support async review processes, and keep decisions discoverable over time.
 ## Log4brains: ADR Management in Your Codebase
 
 Log4brains treats ADRs as code, storing them directly in your repository alongside your documentation. It works with markdown files following the ADR format and provides a web interface for browsing decisions.

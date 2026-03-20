@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Phishing Simulation Tool for Training Distributed."
+title: "Best Phishing Simulation Tool for Training Distributed"
 description: "A practical comparison of phishing simulation tools for training distributed remote teams in 2026. Includes code examples, API integrations, and."
 date: 2026-03-16
 author: theluckystrike

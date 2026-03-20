@@ -17,7 +17,7 @@ voice-checked: true
 {% raw %}
 # How to Run Monthly Virtual Game Night for Remote Developers
 
-Monthly virtual game nights build team bonding through optional, low-pressure social time that developers actually enjoy—replacing forced mandatory fun. Games like Among Us, Jackbox, and online trivia work across time zones when scheduled at rotating times. This guide covers scheduling strategies, game selection, facilitation techniques, and tools for running engaging remote game nights.
+Monthly virtual game nights build team bonding through optional, low-pressure social time that developers actually enjoy—replacing forced mandatory fun. Games like Among Us, Jackbox, and online trivia work across time zones when scheduled at rotating times. This guide covers scheduling strategies, game selection, help techniques, and tools for running engaging remote game nights.
 
 ## Setting Up the Foundation
 
@@ -138,9 +138,9 @@ Keep things fresh by rotating game types monthly:
 
 This variety ensures different personality types find something they enjoy throughout the year.
 
-## Facilitation and Engagement
+## Help and Engagement
 
-The biggest challenge with virtual game nights is keeping energy levels high when people aren't physically together. Active facilitation makes the difference between an awkward Zoom call and a genuinely fun event.
+The biggest challenge with virtual game nights is keeping energy levels high when people aren't physically together. Active help makes the difference between an awkward Zoom call and a genuinely fun event.
 
 ### Designated Host Rotation
 

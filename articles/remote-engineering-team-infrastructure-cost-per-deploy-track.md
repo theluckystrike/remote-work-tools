@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Engineering Team Infrastructure Cost Per Deploy."
+title: "Remote Engineering Team Infrastructure Cost Per Deploy"
 description: "A practical guide to tracking infrastructure costs per deploy for remote engineering teams. Learn how to implement cost observability in your."
 date: 2026-03-16
 author: theluckystrike

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Finance Team Approval Workflow for."
+title: "How to Set Up Remote Finance Team Approval Workflow for"
 description: "A practical guide to building async expense report approval workflows for distributed finance teams. Includes workflow design, automation examples, and."
 date: 2026-03-16
 author: theluckystrike

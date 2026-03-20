@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Middle Management Onboarding Guide for New."
+title: "Remote Team Middle Management Onboarding Guide for New"
 description: "A practical onboarding framework for newly created middle management positions in remote teams, bridging the gap between individual contributors and."
 date: 2026-03-16
 author: theluckystrike

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Music Playlist Collaboration Tools for Distributed."
+title: "Post new team playlist additions to Slack every 4 hours"
 description: "Discover the best tools and strategies for creating shared music playlists that remote teams can enjoy together, boosting morale and connection across."
 date: 2026-03-17
 author: "Remote Work Tools Guide"

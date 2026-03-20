@@ -101,7 +101,7 @@ Reply to this comment with detailed thoughts on any prompt.
 
 The async format doesn't require real-time meetings, but some synchronous touchpoints help maintain momentum. Consider optional monthly video calls for live discussion of that month's highlights. These calls work best as supplements, not replacements, for async discussions.
 
-For facilitation, rotate the moderator role among participants. Each week, a different team member posts the discussion prompts and summarizes key themes at week's end. This distribution of labor prevents burnout and gives everyone ownership of the club's success.
+For help, rotate the moderator role among participants. Each week, a different team member posts the discussion prompts and summarizes key themes at week's end. This distribution of labor prevents burnout and gives everyone ownership of the club's success.
 
 Track participation informally to identify disengagement early. If someone stops contributing, a private check-in often reveals whether the timing is wrong, the book isn't resonating, or something else needs adjustment.
 

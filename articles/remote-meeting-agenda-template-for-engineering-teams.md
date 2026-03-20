@@ -191,7 +191,7 @@ Time-box every agenda item strictly. Assign each topic a specific duration and s
 
 Record meetings with summaries for those who cannot attend. Use tools like Loom for asynchronous video updates or detailed written summaries in your team wiki. This creates a documentation trail that remote teams can reference later.
 
-Rotate facilitation responsibilities. This distributes the cognitive load and helps team members develop leadership skills. It also prevents any single person from dominating meeting dynamics.
+Rotate help responsibilities. This distributes the cognitive load and helps team members develop leadership skills. It also prevents any single person from dominating meeting dynamics.
 
 End every meeting with clear action items that include owners and deadlines. Ambiguous action items like "someone should look into that" create accountability gaps in remote teams where informal follow-ups don't happen naturally.
 

@@ -97,7 +97,7 @@ POST https://api.invisionapp.com/v3/reviews
 Miro expanded from whiteboarding into structured design workflows. Remote teams use it for:
 
 - User journey mapping with sticky notes
-- Design sprint facilitation
+- Design sprint help
 - Wireframing with pre-built UI libraries
 - Integration with Jira, Confluence, and GitHub
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Escalation Paths That."
+title: "Best Practice for Remote Team Escalation Paths That Scale"
 description: "A practical guide to building escalation paths for distributed teams that grow with your organization. Includes code examples, tiered frameworks, and."
 date: 2026-03-16
 author: theluckystrike

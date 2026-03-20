@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "API Idempotency Implementation Guide for Robust."
+title: "API Idempotency Implementation Guide for Distributed Systems"
 description: "A guide to implementing API idempotency. Learn how to design idempotent endpoints that safely handle retries, prevent duplicate operations, and build."
 date: 2026-03-18
 author: theluckystrike
@@ -380,7 +380,7 @@ CREATE TABLE idempotent_requests (
 CREATE INDEX idx_idempotent_expires_at ON idempotent_requests (expires_at);
 ```
 
-Use PostgreSQL's `INSERT ... ON CONFLICT DO NOTHING` for atomic upsert behavior similar to Redis NX.
+Use PostgreSQL's `INSERT... ON CONFLICT DO NOTHING` for atomic upsert behavior similar to Redis NX.
 
 
 ## Idempotency Key Generation on the Client

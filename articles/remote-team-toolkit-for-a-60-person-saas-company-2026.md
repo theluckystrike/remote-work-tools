@@ -192,9 +192,6 @@ Request for Comments documents help distribute decision-making:
 ```markdown
 # RFC: Adopting GraphQL for Public API
 
-## Summary
-Migrate from REST to GraphQL for our public API.
-
 ## Motivation
 - Reduce over-fetching for mobile clients
 - Enable flexible query patterns

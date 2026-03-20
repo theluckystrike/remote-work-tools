@@ -27,7 +27,7 @@ Beyond perception, virtual backgrounds solve practical problems:
 - **Speed:** No time spent tidying the actual room before video calls
 - **Equity:** Remote workers can present as professional as in-office colleagues
 
-The technology has improved dramatically. Early virtual backgrounds were obviously fake (flickering edges, unnatural shadows). Modern solutions blend backgrounds seamlessly, with realistic edge detection that distinguishes you from the background even during hand gestures and camera movements.
+The technology has improved dramatically. Early virtual backgrounds were obviously fake (flickering edges, unnatural shadows). Modern solutions blend backgrounds, with realistic edge detection that distinguishes you from the background even during hand gestures and camera movements.
 
 ## Built-in Platform Solutions
 
@@ -167,24 +167,24 @@ For professionals doing regular video broadcasts or presentations, a physical gr
 **Hardware Components:**
 
 1. **Green screen fabric:** $30-150
-   - Budget: Muslin backdrop kit ($30-50)
-   - Mid-range: Chromakey cotton backdrop ($80-120)
-   - Professional: Paper rolls + support stands ($150-300)
+ - Budget: Muslin backdrop kit ($30-50)
+ - Mid-range: Chromakey cotton backdrop ($80-120)
+ - Professional: Paper rolls + support stands ($150-300)
 
 2. **Lighting:** Critical for clean green screen
-   - Minimum: 2 adjustable lights ($100-200)
-   - Recommended: 3-light kit ($200-400)
-   - Professional: Softboxes + key/fill lights ($400-1000)
+ - Minimum: 2 adjustable lights ($100-200)
+ - Recommended: 3-light kit ($200-400)
+ - Professional: Softboxes + key/fill lights ($400-1000)
 
 3. **Support structure:** $50-200
-   - Basic stand-alone backdrop stand
-   - Wall-mounted frame
-   - Ceiling-mounted system (for permanent setup)
+ - Basic stand-alone backdrop stand
+ - Wall-mounted frame
+ - Ceiling-mounted system (for permanent setup)
 
 4. **Camera setup:**
-   - Distance: 6-10 feet from green screen
-   - Angle: Directly facing (not angled)
-   - Lighting: Evenly lit, no shadows on screen
+ - Distance: 6-10 feet from green screen
+ - Angle: Directly facing (not angled)
+ - Lighting: Evenly lit, no shadows on screen
 
 **Total Cost:** $200-400 for basic setup, $500-1000 for professional quality.
 

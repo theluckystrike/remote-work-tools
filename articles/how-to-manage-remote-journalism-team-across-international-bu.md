@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Remote Journalism Team Across."
+title: "How to Manage Remote Journalism Team Across International"
 description: "A practical technical guide for managing distributed journalism teams across global bureaus with async workflows, shared tools, and time zone optimization."
 date: 2026-03-16
 author: theluckystrike

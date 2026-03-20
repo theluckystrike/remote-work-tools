@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote HR Onboarding Platform Comparison for Hiring."
+title: "Remote HR Onboarding Platform Comparison for Hiring"
 description: "A technical comparison of HR onboarding platforms for distributed teams. Evaluate APIs, automation capabilities, and integration patterns for remote."
 date: 2026-03-16
 author: theluckystrike

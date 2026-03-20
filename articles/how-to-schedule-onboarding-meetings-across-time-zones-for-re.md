@@ -142,7 +142,7 @@ When true overlap is impossible, recording becomes essential:
 For larger teams, separate onboarding into regional cohorts:
 
 - Americas cohort: 9 AM - 12 PM EST
-- EMEA cohort: 9 AM - 12 PM CET 
+- EMEA cohort: 9 AM - 12 PM CET
 - APAC cohort: 9 AM - 12 PM IST
 
 Then schedule cross-regional "all hands" monthly rather than weekly.

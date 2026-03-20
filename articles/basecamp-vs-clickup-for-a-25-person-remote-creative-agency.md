@@ -103,7 +103,7 @@ Action: Set due date to +3 days
 Action: Create subtask "Collect feedback"
 ```
 
-For agencies with development resources, ClickUp's API enables sophisticated reporting—pulling data for client invoices, utilization tracking, or custom dashboards:
+For agencies with development resources, ClickUp's API enables sophisticated reporting—pulling data for client invoices, use tracking, or custom dashboards:
 
 ```python
 import requests

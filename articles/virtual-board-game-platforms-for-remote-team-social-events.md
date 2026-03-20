@@ -176,7 +176,7 @@ def calculate_fair_rotation(participants, sessions_per_rotation=4):
  "18:00 UTC", # Evening EMEA / Day APAC
  "21:00 UTC" # Night most regions / Morning Americas
  ]
- 
+
  assignments = {}
  for i, participant in enumerate(participants):
  # Cycle through time slots
@@ -184,7 +184,7 @@ def calculate_fair_rotation(participants, sessions_per_rotation=4):
  if participant not in assignments:
  assignments[participant] = []
  assignments[participant].append(time_slots[slot_index])
- 
+
  return assignments
 ```
 
@@ -228,10 +228,10 @@ A simple feedback form works:
  <input type="radio" name="rating" value="3"> 3
  <input type="radio" name="rating" value="4"> 4
  <input type="radio" name="rating" value="5"> 5
- 
+
  <label>What would make future sessions better?</label>
  <textarea name="suggestion" rows="3"></textarea>
- 
+
  <button type="submit">Submit Feedback</button>
 </form>
 ```

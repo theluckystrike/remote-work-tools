@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Remote Team Reorg Communication When."
+title: "How to Handle Remote Team Reorg Communication When"
 description: "A practical guide for managing team reorganization communication in remote and distributed organizations. Learn frameworks, templates, and automation."
 date: 2026-03-16
 author: theluckystrike

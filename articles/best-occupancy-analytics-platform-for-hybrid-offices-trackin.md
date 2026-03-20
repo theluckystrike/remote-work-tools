@@ -16,11 +16,11 @@ voice-checked: true
 
 {% raw %}
 
-Occupancy analytics platforms combine hardware sensors with software dashboards to track desk utilization, room occupancy, and space density in hybrid offices. These platforms provide RESTful APIs, real-time sensor data streaming, historical trend analysis, and webhook support for integrating with workplace tools. Best implementations buffer sensor events, calculate actual vs. booked usage ratios, offer WebSocket APIs for live dashboards, and export data for custom analytics.
+Occupancy analytics platforms combine hardware sensors with software dashboards to track desk use, room occupancy, and space density in hybrid offices. These platforms provide RESTful APIs, real-time sensor data streaming, historical trend analysis, and webhook support for integrating with workplace tools. Best implementations buffer sensor events, calculate actual vs. booked usage ratios, offer WebSocket APIs for live dashboards, and export data for custom analytics.
 
 ## Understanding Occupancy Analytics Requirements
 
-Modern hybrid offices need to track three primary metrics: desk utilization, room occupancy, and overall space density. The best occupancy analytics platforms combine hardware sensors with software dashboards to deliver practical recommendations. When evaluating solutions, prioritize API accessibility, data granularity, and integration flexibility.
+Modern hybrid offices need to track three primary metrics: desk use, room occupancy, and overall space density. The best occupancy analytics platforms combine hardware sensors with software dashboards to deliver practical recommendations. When evaluating solutions, prioritize API accessibility, data granularity, and integration flexibility.
 
 Key technical requirements include real-time sensor data streaming, historical data storage for trend analysis, webhook support for event-driven workflows, and identity-aware tracking for privacy-compliant monitoring. Platforms that expose RESTful APIs with proper authentication enable custom integrations with existing workplace tools.
 
@@ -82,7 +82,7 @@ This pattern buffers sensor events and batches them for efficient API transmissi
 
 ## Room Usage Tracking with Calendar Integration
 
-Room analytics extends beyond simple occupancy detection. The best platforms integrate with calendar systems to correlate booking data with actual usage. Here's how to build a room utilization comparison:
+Room analytics extends beyond simple occupancy detection. The best platforms integrate with calendar systems to correlate booking data with actual usage. Here's how to build a room use comparison:
 
 ```python
 from datetime import datetime, timedelta

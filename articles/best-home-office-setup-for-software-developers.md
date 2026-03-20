@@ -139,8 +139,8 @@ This configuration balances comfort, productivity, and budget while supporting t
 
 **Height-Adjustable Desk Specifications**:
 - Motor type: Single vs. dual motor
-  - Single motor: Less stable, often tilts under load
-  - Dual motor: Synchronized, maintains level across full range
+ - Single motor: Less stable, often tilts under load
+ - Dual motor: Synchronized, maintains level across full range
 - Weight capacity: Minimum 150 lbs recommended
 - Height range: 28-48 inches standard
 - Motor speed: 1.5 inches/second ideal (faster is better, within reason)

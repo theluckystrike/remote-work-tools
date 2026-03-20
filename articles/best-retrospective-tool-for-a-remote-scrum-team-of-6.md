@@ -34,25 +34,25 @@ Notion offers flexible page templates that work well for structured retrospectiv
 ```javascript
 // Notion API - create retrospective page
 const notionResponse = await notion.pages.create({
-  parent: { database_id: "YOUR_DATABASE_ID" },
-  properties: {
-    "Name": {
-      title: [
-        { text: { content: "Sprint 24 Retrospective" } }
-      ]
-    },
-    "Status": {
-      select: { name: "Completed" }
-    },
-    "Date": {
-      date: { start: new Date().toISOString() }
-    },
-    "Action Items": {
-      relation: [
-        { database_id: "ACTION_ITEMS_DB_ID" }
-      ]
-    }
-  }
+ parent: { database_id: "YOUR_DATABASE_ID" },
+ properties: {
+ "Name": {
+ title: [
+ { text: { content: "Sprint 24 Retrospective" } }
+ ]
+ },
+ "Status": {
+ select: { name: "Completed" }
+ },
+ "Date": {
+ date: { start: new Date().toISOString() }
+ },
+ "Action Items": {
+ relation: [
+ { database_id: "ACTION_ITEMS_DB_ID" }
+ ]
+ }
+ }
 });
 ```
 
@@ -84,11 +84,11 @@ Create a dedicated repository or project for retrospectives:
 # Directory structure
 retros/
 ├── 2024-03/
-│   ├── sprint-24-retro.md
-│   └── action-items.md
+│ ├── sprint-24-retro.md
+│ └── action-items.md
 ├── 2024-04/
-│   ├── sprint-25-retro.md
-│   └── action-items.md
+│ ├── sprint-25-retro.md
+│ └── action-items.md
 
 # Automate issue creation from action items
 # In your CI/CD pipeline, trigger after sprint closes
@@ -120,38 +120,38 @@ Push action items to your task tracker automatically:
 name: Sync Retrospective Actions
 
 on:
-  push:
-    paths:
-      - 'retrospectives/**'
+ push:
+ paths:
+ - 'retrospectives/**'
 
 jobs:
-  create-issues:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+ create-issues:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v4
 
-      - name: Parse action items
-        run: |
-          grep -r "^- \[ \]" retrospectives/ \
-            --include="*.md" \
-            --only-matching \
-            | sed 's/- \[ \] //' >> action-items.txt
+ - name: Parse action items
+ run: |
+ grep -r "^- \[ \]" retrospectives/ \
+ --include="*.md" \
+ --only-matching \
+ | sed 's/- \[ \] //' >> action-items.txt
 
-      - name: Create GitHub issues
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const items = fs.readFileSync('action-items.txt', 'utf8');
-            for (const item of items.split('\n').filter(Boolean)) {
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: `[Retro] ${item}`,
-                labels: ['retrospective', 'action-item'],
-                assignees: [getAssignee(item)]
-              });
-            }
+ - name: Create GitHub issues
+ uses: actions/github-script@v7
+ with:
+ script: |
+ const fs = require('fs');
+ const items = fs.readFileSync('action-items.txt', 'utf8');
+ for (const item of items.split('\n').filter(Boolean)) {
+ await github.rest.issues.create({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ title: `[Retro] ${item}`,
+ labels: ['retrospective', 'action-item'],
+ assignees: [getAssignee(item)]
+ });
+ }
 ```
 
 This automation transforms retrospective outputs into trackable work without requiring manual copying between tools. Test this in one sprint to see if it works for your team's workflow.

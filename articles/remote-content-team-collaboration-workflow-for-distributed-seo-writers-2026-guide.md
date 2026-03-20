@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Content Team Collaboration Workflow for."
+title: "Remote Content Team Collaboration Workflow for Distributed"
 description: "Master async content workflows for distributed SEO writers. Includes Git-based versioning, content pipelines, and real-world code examples for 2026."
 date: 2026-03-16
 author: theluckystrike
@@ -30,7 +30,7 @@ git label add content/remote-seo-workflow-2026 "needs-review"
 
 # When complete, open PR
 gh pr create --title "Content: Remote SEO Workflow Guide" \
-  --body "Keyword: remote content team collaboration
+ --body "Keyword: remote content team collaboration
 
 Writer: @username
 Target word count: 1200
@@ -66,32 +66,32 @@ Automate repetitive tasks using CI/CD principles. This example uses GitHub Actio
 ```yaml
 name: Content Validation
 on:
-  pull_request:
-    paths:
-      - 'content/**/*.md'
+ pull_request:
+ paths:
+ - 'content/**/*.md'
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Check keyword presence
-        run: |
-          TITLE=$(head -20 ${{ github.event.pull_request.title }})
-          if ! echo "$TITLE" | grep -q "remote content team collaboration"; then
-            echo "Error: Target keyword not in title"
-            exit 1
-          fi
-      
-      - name: Validate front matter
-        run: python scripts/validate_front_matter.py
-      
-      - name: Check readability
-        run: python scripts/check_readability.py
-      
-      - name: Verify internal links
-        run: python scripts/verify_links.py
+ validate:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v4
+
+ - name: Check keyword presence
+ run: |
+ TITLE=$(head -20 ${{ github.event.pull_request.title }})
+ if ! echo "$TITLE" | grep -q "remote content team collaboration"; then
+ echo "Error: Target keyword not in title"
+ exit 1
+ fi
+
+ - name: Validate front matter
+ run: python scripts/validate_front_matter.py
+
+ - name: Check readability
+ run: python scripts/check_readability.py
+
+ - name: Verify internal links
+ run: python scripts/verify_links.py
 ```
 
 This catches SEO issues before human review, reducing editorial cycle time.
@@ -109,8 +109,8 @@ cd content-repo
 npm install -g content-lint seo-validator
 
 # Configure git hooks for auto-formatting
-cp .git-hooks/pre-commit .git/hooks/
-chmod +x .git/hooks/pre-commit
+cp.git-hooks/pre-commit.git/hooks/
+chmod +x.git/hooks/pre-commit
 
 # Set up your writer profile
 git config user.name "Your Name"
@@ -127,26 +127,26 @@ Distributed teams need explicit coordination protocols. Use scheduled labels and
 # Example: Auto-assign reviews based on time zones
 name: Time Zone Routing
 on:
-  pull_request:
-    types: [opened]
+ pull_request:
+ types: [opened]
 
 jobs:
-  route:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Determine reviewer by time zone
-        run: |
-          HOUR=$(date -u +%H)
-          if [ $HOUR -ge 13 ] && [ $HOUR -lt 21 ]; then
-            # US team is online
-            echo "reviewer=@us-editor" >> $GITHUB_ENV
-          else
-            # EU team is online
-            echo "reviewer=@eu-editor" >> $GITHUB_ENV
-          fi
-      
-      - name: Assign reviewer
-        run: gh pr edit ${{ github.event.pull_request.number }} --reviewer ${{ env.reviewerer }}
+ route:
+ runs-on: ubuntu-latest
+ steps:
+ - name: Determine reviewer by time zone
+ run: |
+ HOUR=$(date -u +%H)
+ if [ $HOUR -ge 13 ] && [ $HOUR -lt 21 ]; then
+ # US team is online
+ echo "reviewer=@us-editor" >> $GITHUB_ENV
+ else
+ # EU team is online
+ echo "reviewer=@eu-editor" >> $GITHUB_ENV
+ fi
+
+ - name: Assign reviewer
+ run: gh pr edit ${{ github.event.pull_request.number }} --reviewer ${{ env.reviewerer }}
 ```
 
 ## Performance Tracking
@@ -196,9 +196,9 @@ gh label create "approved" --color "green"
 
 ```
 # .github/CODEOWNERS
-content/seo/      @seo-lead
-content/product/  @product-editor
-content/tech/     @tech-editor
+content/seo/ @seo-lead
+content/product/ @product-editor
+content/tech/ @tech-editor
 ```
 
 Each reviewer only sees PRs for their vertical, preventing review queue overwhelm.
@@ -214,31 +214,31 @@ import sys
 import re
 
 def check_article(filepath):
-    with open(filepath) as f:
-        content = f.read()
+ with open(filepath) as f:
+ content = f.read()
 
-    body = content.split('---', 2)[-1]
-    body = re.sub(r'```.*?```', '', body, flags=re.DOTALL)
+ body = content.split('---', 2)[-1]
+ body = re.sub(r'```.*?```', '', body, flags=re.DOTALL)
 
-    words = len(body.split())
-    sentences = len(re.findall(r'[.!?]+', body))
-    avg_sentence_len = words / max(sentences, 1)
+ words = len(body.split())
+ sentences = len(re.findall(r'[.!?]+', body))
+ avg_sentence_len = words / max(sentences, 1)
 
-    issues = []
-    if words < 800:
-        issues.append(f"Short article: {words} words (target: 1000+)")
-    if avg_sentence_len > 25:
-        issues.append(f"Long sentences: avg {avg_sentence_len:.0f} words/sentence (target: <20)")
+ issues = []
+ if words < 800:
+ issues.append(f"Short article: {words} words (target: 1000+)")
+ if avg_sentence_len > 25:
+ issues.append(f"Long sentences: avg {avg_sentence_len:.0f} words/sentence (target: <20)")
 
-    return issues
+ return issues
 
 if __name__ == "__main__":
-    issues = check_article(sys.argv[1])
-    for issue in issues:
-        print(f"WARNING: {issue}")
-    if issues:
-        sys.exit(1)
-    print("Article passed quality checks")
+ issues = check_article(sys.argv[1])
+ for issue in issues:
+ print(f"WARNING: {issue}")
+ if issues:
+ sys.exit(1)
+ print("Article passed quality checks")
 ```
 
 Add this script to your CI pipeline so every PR gets quality feedback automatically before it reaches editorial review.
@@ -253,33 +253,33 @@ Distributed content teams face review bottlenecks when a reviewer in UTC+9 canno
 name: Editorial Review Deadline
 
 on:
-  schedule:
-    - cron: '0 9 * * *'
+ schedule:
+ - cron: '0 9 * * *'
 
 jobs:
-  remind:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/github-script@v7
-        with:
-          script: |
-            const twoDaysAgo = new Date(Date.now() - 2 * 24 * 60 * 60 * 1000);
-            const prs = await github.rest.pulls.list({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open'
-            });
-            for (const pr of prs.data) {
-              if (new Date(pr.created_at) < twoDaysAgo) {
-                const reviewers = pr.requested_reviewers.map(r => '@' + r.login).join(', ');
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: pr.number,
-                  body: `Reminder: This article has been waiting for review for 48+ hours. Assigned: ${reviewers}`
-                });
-              }
-            }
+ remind:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/github-script@v7
+ with:
+ script: |
+ const twoDaysAgo = new Date(Date.now() - 2 * 24 * 60 * 60 * 1000);
+ const prs = await github.rest.pulls.list({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ state: 'open'
+ });
+ for (const pr of prs.data) {
+ if (new Date(pr.created_at) < twoDaysAgo) {
+ const reviewers = pr.requested_reviewers.map(r => '@' + r.login).join(', ');
+ await github.rest.issues.createComment({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ issue_number: pr.number,
+ body: `Reminder: This article has been waiting for review for 48+ hours. Assigned: ${reviewers}`
+ });
+ }
+ }
 ```
 
 This automation pings reviewers automatically without requiring a project manager to track every open PR manually. Pair it with a written SLA document specifying response time expectations per review stage.

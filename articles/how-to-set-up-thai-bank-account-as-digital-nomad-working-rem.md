@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Thai Bank Account as Digital Nomad Working."
+title: "How to Set Up Thai Bank Account as Digital Nomad Working"
 description: "A practical guide for remote workers and digital nomads on opening a Thai bank account. Covers requirements, processes, and tips for foreigners."
 date: 2026-03-16
 author: theluckystrike

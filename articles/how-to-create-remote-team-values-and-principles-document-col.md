@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Values and Principles Document."
+title: "How to Create Remote Team Values and Principles Document"
 description: "A practical guide for developers and power users on building remote team values and principles through collaborative processes. Includes templates."
 date: 2026-03-16
 author: theluckystrike
@@ -18,7 +18,7 @@ voice-checked: true
 
 Remote teams need explicit documentation of values and principles that guide behavior, decision-making, and collaboration. Without the organic interactions of a physical office, building this document through a collaborative process ensures buy-in from everyone and creates a foundation that actually reflects how the team operates.
 
-This guide walks through a practical workflow for creating remote team values using async-first processes, version control, and structured facilitation techniques.
+This guide walks through a practical workflow for creating remote team values using async-first processes, version control, and structured help techniques.
 
 ## Why Collaborative Creation Matters
 

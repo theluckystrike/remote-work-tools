@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run a Remote Team Demo Day Showcasing Cross-Team."
+title: "How to Run a Remote Team Demo Day Showcasing Cross-Team"
 description: "A practical guide for running effective remote demo days that highlight cross-team collaboration. Learn frameworks, formats, and tooling for."
 date: 2026-03-16
 author: theluckystrike

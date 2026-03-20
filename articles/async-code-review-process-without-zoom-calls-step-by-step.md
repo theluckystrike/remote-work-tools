@@ -32,9 +32,6 @@ The foundation of async code reviews is clear communication through structured p
 Here's a PR template that encourages thorough descriptions:
 
 ```markdown
-## Summary
-Brief description of the change and its purpose.
-
 ## Approach
 Explain your implementation decisions and why you chose this approach.
 

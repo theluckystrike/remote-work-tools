@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Stop Dog Barking During Video Calls: A Complete."
+title: "How to Stop Dog Barking During Video Calls: A Complete"
 description: "Practical strategies to prevent dog barking during video calls. Learn training techniques, environmental modifications, and tech solutions for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

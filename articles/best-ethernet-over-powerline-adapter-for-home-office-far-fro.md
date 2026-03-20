@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Ethernet Over Powerline Adapter for Home Office Far."
+title: "Best Ethernet Over Powerline Adapter for Home Office Far"
 description: "A practical guide for developers and power users selecting powerline adapters when your home office is far from the router. Covers specs, setup, and."
 date: 2026-03-16
 author: theluckystrike

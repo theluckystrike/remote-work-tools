@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Decision Making Framework for."
+title: "How to Create Remote Team Decision Making Framework for"
 description: "A practical guide to building a decision-making framework for remote and distributed teams. Includes templates, decision matrices, and implementation."
 date: 2026-03-16
 author: theluckystrike
@@ -93,9 +93,6 @@ Create a standardized decision document format your team can use consistently. H
 **Status**: [Proposed | Approved | Deprecated | Superseded]
 **Author**: [Name]
 **Decider**: [Name]
-
-## Summary
-One-paragraph description of what was decided and why it matters.
 
 ## Context
 What problem or opportunity prompted this decision? What constraints exist?

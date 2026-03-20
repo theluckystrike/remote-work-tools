@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Virtual Team Building Activity Platform for Remote."
+title: "Best Virtual Team Building Activity Platform for Remote"
 description: "A guide to selecting the best virtual team building activity platform for small remote teams under 50 members. Compare features, pricing."
 date: 2026-03-16
 author: theluckystrike
@@ -52,7 +52,7 @@ Icebreaker specializes in quick, structured activities that work well for team k
 **Key Features:**
 
 - Ready-to-run activity templates
-- Timer and facilitation guides included
+- Timer and help guides included
 - Option for competitive or collaborative modes
 - Custom activity creation
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Hybrid Team All Hands Meeting with."
-description: "Master hybrid all-hands meetings with mixed in-person and remote attendees. Practical patterns, technical setup, facilitation techniques for developers."
+title: "Best Practice for Hybrid Team All Hands Meeting with Mixed"
+description: "Master hybrid all-hands meetings with mixed in-person and remote attendees. Practical patterns, technical setup, help techniques for developers."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/
@@ -144,7 +144,7 @@ meeting = create_all_hands_meeting("Q1 All-Hands", 60)
 print(f"Meeting URL: {meeting.get('join_url')}")
 ```
 
-## Facilitation Techniques
+## Help Techniques
 
 The way you run the meeting matters as much as the technology.
 

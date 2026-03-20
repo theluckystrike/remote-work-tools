@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Hybrid Team Meeting Scheduling."
+title: "Best Practice for Hybrid Team Meeting Scheduling Respecting"
 description: "Learn practical strategies for scheduling hybrid meetings that respect both remote and office-based team members. Includes code examples, tooling."
 date: 2026-03-16
 author: theluckystrike
@@ -102,7 +102,7 @@ const HYBRID_MEETING_CONFIG: MeetingConfig = {
 **Practical implementation:**
 
 - Digital-first rule: Everyone dials into the video call, even when physically in the office. This eliminates the "two-room problem" where office and remote participants have different experiences.
- 
+
 - Structured speaking turns: Use a queue or round-robin approach. When讨论 becomes free-for-all, dominant voices (often in-office) capture more airtime.
 
 - Visible timer displays: Show a countdown timer on screen for time-boxed agenda items. This helps remote participants gauge when their turn might come.

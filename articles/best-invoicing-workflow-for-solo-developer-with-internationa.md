@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Invoicing Workflow for Solo Developer with."
+title: "Best Invoicing Workflow for Solo Developer with"
 description: "Learn how to build an efficient invoicing workflow tailored for solo developers working with international clients. Includes practical examples."
 date: 2026-03-16
 author: theluckystrike

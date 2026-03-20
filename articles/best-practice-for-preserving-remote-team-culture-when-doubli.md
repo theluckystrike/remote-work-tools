@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Preserving Remote Team Culture When."
+title: "Best Practice for Preserving Remote Team Culture When"
 description: "A practical guide for developers and power users on maintaining remote team culture while rapidly scaling from 10 to 20 employees in twelve months."
 date: 2026-03-16
 author: theluckystrike

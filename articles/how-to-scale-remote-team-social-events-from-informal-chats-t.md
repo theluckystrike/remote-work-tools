@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Scale Remote Team Social Events From Informal."
+title: "How to Scale Remote Team Social Events From Informal Chats"
 description: "A practical guide for developers and technical teams to evolve remote social events from spontaneous conversations into scalable, structured programs."
 date: 2026-03-16
 author: theluckystrike

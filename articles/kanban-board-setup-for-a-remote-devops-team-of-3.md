@@ -185,7 +185,7 @@ The board replaces most status questions. When someone asks "what are you workin
 Track these metrics to improve your process:
 
 - Lead time: Time from card creation to Done
-- Cycle time: Time from In Progress to Done 
+- Cycle time: Time from In Progress to Done
 - Throughput: Cards completed per week
 - Blockage frequency: How often cards hit Blocked
 

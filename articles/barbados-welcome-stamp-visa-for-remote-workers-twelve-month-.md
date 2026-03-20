@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Barbados Welcome Stamp Visa for Remote Workers: 12-Month."
+title: "Barbados Welcome Stamp Visa for Remote Workers"
 description: "Complete guide to the Barbados Welcome Stamp visa for remote workers in 2026. Eligibility requirements, application process, tax implications, and."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -135,7 +135,7 @@ Solution: During renewal, provide updated employment letters or recent invoice r
 **Challenge: Health Insurance Acceptance**
 Solution: Many US insurers exclude Caribbean destinations or require specific riders. Recommended options for Welcome Stamp holders include:
 - SafetyWing ($45-70/month): Basic coverage for major incidents
-- Allianz Global ($100-200/month): Comprehensive international coverage
+- Allianz Global ($100-200/month): international coverage
 - Local Barbados insurance ($800-1,500/year): Often cheaper if committing to 1+ year
 
 Read policy fine print carefully—some plans exclude work-related injuries or have limited coverage for existing conditions.

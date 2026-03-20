@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practice for Remote Team All Hands Meeting Format."
-description: "A practical guide to running effective all-hands meetings for remote teams of 100+. Learn formatting strategies, facilitation techniques, and tooling."
+title: "Best Practice for Remote Team All Hands Meeting Format That"
+description: "A practical guide to running effective all-hands meetings for remote teams of 100+. Learn formatting strategies, help techniques, and tooling."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/
@@ -18,7 +18,7 @@ voice-checked: true
 
 Running an all-hands meeting for a team of 10 is straightforward. Everyone speaks, discussions happen organically, and you can read the room. Scale that to 100 people across multiple time zones, and the same approach collapses under its own weight. The meeting becomes a broadcast rather than a gathering, engagement drops, and valuable time gets wasted.
 
-This guide covers practical formats and facilitation strategies for running all-hands meetings that actually work when your team grows beyond the point where everyone can participate in a traditional synchronous discussion.
+This guide covers practical formats and help strategies for running all-hands meetings that actually work when your team grows beyond the point where everyone can participate in a traditional synchronous discussion.
 
 ## Why Traditional All-Hands Formats Break at Scale
 

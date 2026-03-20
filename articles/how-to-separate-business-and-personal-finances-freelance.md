@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Separate Business and Personal Finances as a."
+title: "How to Separate Business and Personal Finances as a"
 description: "A practical guide for developers and power users to cleanly separate business and personal finances. Includes CLI tools, automation scripts, and."
 date: 2026-03-15
 author: theluckystrike

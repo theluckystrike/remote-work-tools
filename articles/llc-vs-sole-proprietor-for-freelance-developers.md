@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "LLC vs Sole Proprietor for Freelance Developers: A."
+title: "LLC vs Sole Proprietor for Freelance Developers: A"
 description: "Compare LLC vs sole proprietor structures for freelance developers. Learn liability protection, tax implications, and which business entity fits your."
 date: 2026-03-15
 author: theluckystrike

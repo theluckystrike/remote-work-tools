@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build Psychological Safety on Fully Remote."
+title: "How to Build Psychological Safety on Fully Remote"
 description: "Practical strategies for building psychological safety in fully remote engineering teams. Learn communication patterns, feedback systems, and cultural."
 date: 2026-03-16
 author: theluckystrike
@@ -91,9 +91,6 @@ Production incidents are psychological safety flashpoints. The natural instinct 
 
 ```markdown
 # Incident Postmortem: API Timeout 2026-03-15
-
-## Summary
-The payment service experienced 12 minutes of elevated latency during the 2pm PST window.
 
 ## Root Cause
 A missing database index on the orders table caused query timeouts under load.

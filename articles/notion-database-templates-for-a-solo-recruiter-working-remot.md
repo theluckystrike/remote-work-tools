@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Notion Database Templates for a Solo Recruiter Working."
+title: "Notion Database Templates for a Solo Recruiter Working Remot"
 description: "A practical guide to building custom Notion database templates for solo recruiters working remotely. Includes database schemas, formulas, and."
 date: 2026-03-16
 author: theluckystrike

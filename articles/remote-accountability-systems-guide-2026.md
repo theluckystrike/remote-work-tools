@@ -26,7 +26,7 @@ Effective remote accountability focuses on outputs rather than inputs. Instead o
 
 ## Core Components of Accountability Systems
 
-A robust remote accountability system includes three fundamental elements: clear commitments, regular check-ins, and visible progress tracking.
+A remote accountability system includes three fundamental elements: clear commitments, regular check-ins, and visible progress tracking.
 
 ### Clear Commitments
 
@@ -165,7 +165,7 @@ jobs:
 
 ## Key Principles for Effective Implementation
 
-Start small and iterate. Implementing comprehensive accountability overnight overwhelms teams. Begin with weekly check-ins, then gradually add more frequent updates as the culture adapts.
+Start small and iterate. Implementing accountability overnight overwhelms teams. Begin with weekly check-ins, then gradually add more frequent updates as the culture adapts.
 
 Focus on psychological safety. Accountability systems fail when team members fear punishment for reporting problems. Design systems that surface blockers early rather than penalizing delays. The goal involves identifying obstacles, not assigning blame.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Sprints with Remote Team: A Practical."
+title: "How to Manage Sprints with Remote Team: A Practical"
 description: "Learn practical strategies and code examples for managing sprints with remote development teams. Includes async standups, sprint planning scripts, and."
 date: 2026-03-15
 author: theluckystrike
@@ -33,32 +33,32 @@ Automate standup collection with a GitHub Action that aggregates updates:
 # .github/workflows/standup-collector.yml
 name: Weekly Standup Summary
 on:
-  schedule:
-    - cron: '0 16 * * 5'  # Friday at 4pm UTC
-  workflow_dispatch:
+ schedule:
+ - cron: '0 16 * * 5' # Friday at 4pm UTC
+ workflow_dispatch:
 
 jobs:
-  collect:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Fetch standup issues
-        run: |
-          gh issue list \
-            --label standup \
-            --search "created:>=2024-01-01" \
-            --json title,body,author \
-            > standups.json
-      - name: Generate summary
-        run: |
-          cat standups.json | jq -r '
-            .[] | "### \(.author.login)\n\(.body)\n"'
-          > STANDUP_SUMMARY.md
-      - name: Create summary issue
-        run: |
-          gh issue create \
-            --title "Sprint $(date +%U) Standup Summary" \
-            --body-file STANDUP_SUMMARY.md \
-            --label documentation
+ collect:
+ runs-on: ubuntu-latest
+ steps:
+ - name: Fetch standup issues
+ run: |
+ gh issue list \
+ --label standup \
+ --search "created:>=2024-01-01" \
+ --json title,body,author \
+ > standups.json
+ - name: Generate summary
+ run: |
+ cat standups.json | jq -r '
+.[] | "### \(.author.login)\n\(.body)\n"'
+ > STANDUP_SUMMARY.md
+ - name: Create summary issue
+ run: |
+ gh issue create \
+ --title "Sprint $(date +%U) Standup Summary" \
+ --body-file STANDUP_SUMMARY.md \
+ --label documentation
 ```
 
 ## Sprint Planning for Distributed Teams
@@ -79,51 +79,51 @@ from dataclasses import dataclass
 
 @dataclass
 class TeamMember:
-    name: str
-    hours_per_day: float
-    timezone: str  # UTC offset
-    meeting_overhead: float  # 0.0 to 1.0
-    
+ name: str
+ hours_per_day: float
+ timezone: str # UTC offset
+ meeting_overhead: float # 0.0 to 1.0
+
 def calculate_sprint_capacity(members: list[TeamMember], sprint_days: int = 10) -> dict:
-    """
-    Calculate available team capacity for a sprint.
-    
-    Args:
-        members: List of team members with their availability
-        sprint_days: Number of working days in the sprint
-    """
-    total_capacity = 0
-    timezone_overlap_hours = 4  # Minimum overlap window
-    
-    for member in members:
-        # Reduce hours based on meeting overhead
-        effective_hours = member.hours_per_day * (1 - member.meeting_overhead)
-        
-        # Further reduce for remote communication overhead
-        # Remote teams typically lose 15-20% to async communication costs
-        remote_factor = 0.82
-        daily_capacity = effective_hours * remote_factor
-        
-        member_capacity = daily_capacity * sprint_days
-        total_capacity += member_capacity
-        
-    return {
-        "total_hours": total_capacity,
-        "story_points_estimate": total_capacity * 0.6,  # Adjust based on historical velocity
-        "team_breakdown": [
-            {
-                "name": m.name,
-                "capacity": m.hours_per_day * (1 - m.meeting_overhead) * 0.82 * sprint_days
-            }
-            for m in members
-        ]
-    }
+ """
+ Calculate available team capacity for a sprint.
+
+ Args:
+ members: List of team members with their availability
+ sprint_days: Number of working days in the sprint
+ """
+ total_capacity = 0
+ timezone_overlap_hours = 4 # Minimum overlap window
+
+ for member in members:
+ # Reduce hours based on meeting overhead
+ effective_hours = member.hours_per_day * (1 - member.meeting_overhead)
+
+ # Further reduce for remote communication overhead
+ # Remote teams typically lose 15-20% to async communication costs
+ remote_factor = 0.82
+ daily_capacity = effective_hours * remote_factor
+
+ member_capacity = daily_capacity * sprint_days
+ total_capacity += member_capacity
+
+ return {
+ "total_hours": total_capacity,
+ "story_points_estimate": total_capacity * 0.6, # Adjust based on historical velocity
+ "team_breakdown": [
+ {
+ "name": m.name,
+ "capacity": m.hours_per_day * (1 - m.meeting_overhead) * 0.82 * sprint_days
+ }
+ for m in members
+ ]
+ }
 
 # Example usage
 team = [
-    TeamMember("Alice", 8.0, "UTC-5", 0.15),
-    TeamMember("Bob", 8.0, "UTC+1", 0.20),
-    TeamMember("Charlie", 8.0, "UTC+8", 0.10),
+ TeamMember("Alice", 8.0, "UTC-5", 0.15),
+ TeamMember("Bob", 8.0, "UTC+1", 0.20),
+ TeamMember("Charlie", 8.0, "UTC+8", 0.10),
 ]
 
 result = calculate_sprint_capacity(team)
@@ -139,9 +139,9 @@ Your Definition of Done must account for the unique challenges of distributed co
 
 1. Code written and passing tests
 2. PR created with description explaining:
-   - What the change does
-   - How to test it
-   - Screenshots for UI changes
+ - What the change does
+ - How to test it
+ - Screenshots for UI changes
 3. At least one approval from a reviewer in a different timezone
 4. All CI checks passing
 5. Documentation updated (if applicable)
@@ -158,48 +158,48 @@ Remote teams often struggle with traditional burndown charts because story point
 ```javascript
 // velocity-tracker.js - Track sprint progress without complex tooling
 class VelocityTracker {
-  constructor(sprintStart, sprintEnd) {
-    this.sprintStart = new Date(sprintStart);
-    this.sprintEnd = new Date(sprintEnd);
-    this.completedItems = [];
-    this.totalPoints = 0;
-  }
-  
-  addItem(points) {
-    this.completedItems.push({
-      points,
-      completedAt: new Date()
-    });
-    this.totalPoints += points;
-  }
-  
-  getVelocity() {
-    const now = new Date();
-    const sprintLength = this.sprintEnd - this.sprintStart;
-    const timeElapsed = now - this.sprintStart;
-    const percentComplete = timeElapsed / sprintLength;
-    
-    const completedSoFar = this.completedItems.reduce(
-      (sum, item) => sum + item.points, 0
-    );
-    
-    const projectedVelocity = percentComplete > 0 
-      ? completedSoFar / percentComplete 
-      : 0;
-    
-    return {
-      completed: completedSoFar,
-      projected: Math.round(projectedVelocity),
-      percentComplete: Math.round(percentComplete * 100)
-    };
-  }
+ constructor(sprintStart, sprintEnd) {
+ this.sprintStart = new Date(sprintStart);
+ this.sprintEnd = new Date(sprintEnd);
+ this.completedItems = [];
+ this.totalPoints = 0;
+ }
+
+ addItem(points) {
+ this.completedItems.push({
+ points,
+ completedAt: new Date()
+ });
+ this.totalPoints += points;
+ }
+
+ getVelocity() {
+ const now = new Date();
+ const sprintLength = this.sprintEnd - this.sprintStart;
+ const timeElapsed = now - this.sprintStart;
+ const percentComplete = timeElapsed / sprintLength;
+
+ const completedSoFar = this.completedItems.reduce(
+ (sum, item) => sum + item.points, 0
+ );
+
+ const projectedVelocity = percentComplete > 0
+ ? completedSoFar / percentComplete
+ : 0;
+
+ return {
+ completed: completedSoFar,
+ projected: Math.round(projectedVelocity),
+ percentComplete: Math.round(percentComplete * 100)
+ };
+ }
 }
 
 // Usage
 const sprint = new VelocityTracker('2026-03-01', '2026-03-14');
-sprint.addItem(5);  // User authentication
-sprint.addItem(3);  // API endpoint
-sprint.addItem(8);  // Dashboard feature
+sprint.addItem(5); // User authentication
+sprint.addItem(3); // API endpoint
+sprint.addItem(8); // Dashboard feature
 
 console.log(sprint.getVelocity());
 // Output: { completed: 16, projected: 21, percentComplete: 57 }
@@ -216,41 +216,41 @@ Blockers in remote teams require explicit escalation paths. A "blocker" that wou
 name: Blocker Escalation
 
 on:
-  issues:
-    types: [labeled]
-    
+ issues:
+ types: [labeled]
+
 jobs:
-  escalate:
-    if: github.event.label.name == 'blocker'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Create urgent Slack notification
-        run: |
-          curl -X POST ${{ secrets.SLACK_WEBHOOK }} \
-            -H 'Content-type: application/json' \
-            --data '{
-              "text": "🚨 Blocker detected!",
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Blocker:* '+${{ github.event.issue.title }}'"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "Assigned: ${{ github.event.issue.assignee.login }}"
-                  }
-                }
-              ]
-            }'
-      - name: Add to triage board
-        run: |
-          gh issue edit ${{ github.event.issue.number }} \
-            --add-label urgent
+ escalate:
+ if: github.event.label.name == 'blocker'
+ runs-on: ubuntu-latest
+ steps:
+ - name: Create urgent Slack notification
+ run: |
+ curl -X POST ${{ secrets.SLACK_WEBHOOK }} \
+ -H 'Content-type: application/json' \
+ --data '{
+ "text": "🚨 Blocker detected!",
+ "blocks": [
+ {
+ "type": "section",
+ "text": {
+ "type": "mrkdwn",
+ "text": "*Blocker:* '+${{ github.event.issue.title }}'"
+ }
+ },
+ {
+ "type": "section",
+ "text": {
+ "type": "mrkdwn",
+ "text": "Assigned: ${{ github.event.issue.assignee.login }}"
+ }
+ }
+ ]
+ }'
+ - name: Add to triage board
+ run: |
+ gh issue edit ${{ github.event.issue.number }} \
+ --add-label urgent
 ```
 
 ## Sprint Retrospectives That Actually Work

@@ -36,29 +36,29 @@ const path = require('path');
 const matter = require('gray-matter');
 
 function buildIndex(dir, index = []) {
-  const files = fs.readdirSync(dir);
-  
-  files.forEach(file => {
-    const fullPath = path.join(dir, file);
-    const stat = fs.statSync(fullPath);
-    
-    if (stat.isDirectory()) {
-      buildIndex(fullPath, index);
-    } else if (file.endsWith('.md')) {
-      const content = fs.readFileSync(fullPath, 'utf-8');
-      const { data, content: body } = matter(content);
-      
-      index.push({
-        title: data.title || file.replace('.md', ''),
-        path: fullPath.replace('docs/', '/'),
-        tags: data.tags || [],
-        content: body.substring(0, 5000), // First 5000 chars
-        lastUpdated: data.last_updated
-      });
-    }
-  });
-  
-  return index;
+ const files = fs.readdirSync(dir);
+
+ files.forEach(file => {
+ const fullPath = path.join(dir, file);
+ const stat = fs.statSync(fullPath);
+
+ if (stat.isDirectory()) {
+ buildIndex(fullPath, index);
+ } else if (file.endsWith('.md')) {
+ const content = fs.readFileSync(fullPath, 'utf-8');
+ const { data, content: body } = matter(content);
+
+ index.push({
+ title: data.title || file.replace('.md', ''),
+ path: fullPath.replace('docs/', '/'),
+ tags: data.tags || [],
+ content: body.substring(0, 5000), // First 5000 chars
+ lastUpdated: data.last_updated
+ });
+ }
+ });
+
+ return index;
 }
 
 const index = buildIndex('./docs');
@@ -119,7 +119,7 @@ Create a **stale content** indicator using git history:
 ```bash
 # Find files not modified in the last 90 days
 git log --since="90 days ago" --pretty=format:'%h %s' --name-only | \
-  grep -E '\.md$' | sort | uniq -c | sort -n
+ grep -E '\.md$' | sort | uniq -c | sort -n
 ```
 
 Review files that haven't received updates. Either they're no longer needed, or they're orphaned and require attention.
@@ -135,13 +135,13 @@ Configure your deployment to run search index generation as part of the build pr
 ```yaml
 # netlify.toml
 [build]
-  command = "npm run build && npm run index"
-  publish = "dist"
+ command = "npm run build && npm run index"
+ publish = "dist"
 
 [[redirects]]
-  from = "/search"
-  to = "/search.html"
-  status = 200
+ from = "/search"
+ to = "/search.html"
+ status = 200
 ```
 
 Preview deployments let teammates review documentation changes before they go live. This is particularly valuable for architectural decisions where precision matters.

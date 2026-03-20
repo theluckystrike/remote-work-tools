@@ -200,7 +200,7 @@ For remote design teams using Sketch, the limited cross-platform plugin support 
 - Product Manager D (Singapore) reviews and approves
 - CEO E (remote) views read-only for stakeholder reviews
 - **Cost: $60/month organization plan (5 editors, unlimited viewers)**
-- **Collaboration model: Seamless, asynchronous-friendly**
+- **Collaboration model:, asynchronous-friendly**
 
 **Remote Design Team Using Sketch (3-person, all Mac):**
 - Designer A creates base components

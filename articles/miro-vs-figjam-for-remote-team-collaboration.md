@@ -102,7 +102,7 @@ Both platforms offer retrospective templates. Miro's retrospective templates inc
 
 For teams valuing structure, Miro's opinionated templates accelerate setup. For teams wanting to experiment with retrospective formats, FigJam's flexibility wins.
 
-### Workshop Facilitation
+### Workshop Help
 
 Running remote workshops requires specific features. Miro provides:
 - Timer tools for timed activities

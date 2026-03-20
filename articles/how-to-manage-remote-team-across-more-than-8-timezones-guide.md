@@ -328,19 +328,19 @@ Minimum sections:
 **Track these to ensure async-first is working:**
 
 1. **Decision turnaround time:** How long from "decision needed" to "decision made"?
-   - Target: 48 hours for normal, 24 hours for urgent
+ - Target: 48 hours for normal, 24 hours for urgent
 
 2. **Overlap meeting attendance:** What % of team attends meetings at bad times?
-   - Target: No individual should attend meetings outside core hours more than 1x/week
+ - Target: No individual should attend meetings outside core hours more than 1x/week
 
 3. **Async documentation update frequency:** How often is decision log, architecture docs updated?
-   - Target: 2-3 updates per week per 10-person team
+ - Target: 2-3 updates per week per 10-person team
 
 4. **Communication tool usage:** What % of important decisions are documented vs. in Slack?
-   - Target: 100% of decisions documented, Slack for discussion only
+ - Target: 100% of decisions documented, Slack for discussion only
 
 5. **Time to resolution for async discussions:** How long from issue raised to decided?
-   - Target: 48 hours for normal priority
+ - Target: 48 hours for normal priority
 
 If decisions are taking > 72 hours, team isn't doing async well. If people are attending 3+ meetings per week outside core hours, schedule is broken.
 

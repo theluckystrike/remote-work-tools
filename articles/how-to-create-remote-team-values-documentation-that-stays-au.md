@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Values Documentation That."
+title: "How to Create Remote Team Values Documentation That Stays"
 description: "A practical guide for developers and technical leads building team values documentation that maintains authenticity when scaling from 5 to 50+."
 date: 2026-03-16
 author: theluckystrike
@@ -31,7 +31,7 @@ For remote teams, the stakes are higher. Without in-person interactions to reinf
 
 ### Step 1: Extract Values from Observable Behavior
 
-Before writing anything, observe how your team actually operates. In remote settings, this means reviewing async communication patterns, meeting facilitation styles, and how feedback flows through your tools.
+Before writing anything, observe how your team actually operates. In remote settings, this means reviewing async communication patterns, meeting help styles, and how feedback flows through your tools.
 
 Create a simple tracking system for one to two weeks. Document specific moments where team members demonstrated behaviors worth preserving:
 

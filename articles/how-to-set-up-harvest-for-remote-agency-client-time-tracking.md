@@ -27,7 +27,7 @@ When setting up, choose between a single workspace or multiple workspaces. Singl
 After account creation, invite team members through the team settings. Assign appropriate permission levels:
 
 - Full Access: Can track time, create projects, manage invoices
-- Light Access: Can track time and view assigned projects only 
+- Light Access: Can track time and view assigned projects only
 - Time Only: Can only log hours with no project management access
 
 For remote teams, ensure everyone downloads the mobile app for time tracking on the go. The browser extension provides one-click tracking from any webpage.
@@ -116,7 +116,7 @@ Project Profitability Report: Shows revenue versus costs for each project. Criti
 
 Budget vs Actual Report: Compares planned hours against logged time. Use this to identify projects heading over budget and initiate scope conversations with clients early.
 
-Team Utilization Report: Tracks how much of available capacity your team is billing. Healthy agency utilization typically falls between 60-75% accounting for non-billable work like meetings and admin.
+Team Use Report: Tracks how much of available capacity your team is billing. Healthy agency use typically falls between 60-75% accounting for non-billable work like meetings and admin.
 
 For client invoicing, create invoice templates with your agency branding. Include these elements:
 
@@ -172,7 +172,7 @@ Implement these practices to maintain accurate time records:
 
 3. Use task budgets: They create accountability and early warning systems for scope creep.
 
-4. Review utilization weekly: Catch underutilization before it becomes a problem.
+4. Review use weekly: Catch underutilization before it becomes a problem.
 
 5. Separate billable from non-billable: Track all time, but distinguish between client work and internal projects.
 
@@ -181,7 +181,7 @@ Implement these practices to maintain accurate time records:
 Reduce manual overhead with Harvest's automation features:
 
 - Recurring invoices: Schedule monthly invoices for retainer clients
-- Timesheet reminders: Configure email reminders for missing daily entries 
+- Timesheet reminders: Configure email reminders for missing daily entries
 - Budget alerts: Get notified when projects reach configurable threshold percentages
 
 Set up these automations in the Settings > Notifications section. Tailor thresholds based on project size—smaller projects might warrant 75% alerts while larger engagements use 90%.

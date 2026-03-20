@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Documentation Feedback."
+title: "Best Practice for Remote Team Documentation Feedback Loop"
 description: "Learn practical strategies for building effective documentation feedback loops in remote teams. Discover code examples, workflow patterns, and tools to."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -209,7 +209,7 @@ This workflow runs on every pull request, catching broken links and untagged cod
 
 ## Sustaining the Loop Long-Term
 
-Documentation feedback loops succeed when they become invisible—part of how your team naturally works. Schedule a monthly 30-minute documentation retro focused specifically on wiki health. Rotate facilitation to share ownership.
+Documentation feedback loops succeed when they become invisible—part of how your team naturally works. Schedule a monthly 30-minute documentation retro focused specifically on wiki health. Rotate help to share ownership.
 
 The remote work advantage here is asynchronous participation. Team members across time zones can add their feedback to a shared document before the meeting. This produces better outcomes than real-time-only discussions.
 

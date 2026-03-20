@@ -364,11 +364,11 @@ Time saved: 20-30 hours/quarter
 4. **Use async-first for certain discussions**: Design decisions, code reviews, and non-urgent updates should be async. Save sync time for blockers and brainstorming.
 
 5. **Calculate actual overlap**: For a 10-person team spanning SF-London-Singapore:
-   - 3-4 hour overlap across all three
-   - 8 hour overlap SF-London
-   - 2 hour overlap London-Singapore
+ - 3-4 hour overlap across all three
+ - 8 hour overlap SF-London
+ - 2 hour overlap London-Singapore
 
-   Use these different windows for different meeting types.
+ Use these different windows for different meeting types.
 
 6. **Document timezone abbreviations**: Define your team's standard abbreviations (PT, ET, GMT, IST, JST) in Slack or wiki. Reduces math errors.
 

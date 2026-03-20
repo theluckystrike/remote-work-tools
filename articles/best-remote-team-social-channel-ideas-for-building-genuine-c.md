@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Team Social Channel Ideas for Building."
+title: "Best Remote Team Social Channel Ideas for Building Genuine"
 description: "Practical Slack channel strategies for remote teams looking to build authentic relationships. Real examples, automation scripts, and implementation."
 date: 2026-03-16
 author: theluckystrike

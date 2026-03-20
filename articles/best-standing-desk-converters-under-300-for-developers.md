@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Standing Desk Converters Under $300 for Developers."
+title: "Best Standing Desk Converters Under $300 for Developers"
 description: "Affordable standing desk converters that improve posture without requiring full desk replacement."
 date: 2026-03-20
 author: theluckystrike

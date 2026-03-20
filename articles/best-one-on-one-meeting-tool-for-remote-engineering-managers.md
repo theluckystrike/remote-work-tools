@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best One on One Meeting Tool for Remote Engineering."
+title: "Best One on One Meeting Tool for Remote Engineering"
 description: "Discover the best one on one meeting tool for remote engineering managers in 2026. Compare features, integrations, and practical implementation for."
 date: 2026-03-16
 author: theluckystrike

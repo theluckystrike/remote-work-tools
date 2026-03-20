@@ -142,7 +142,7 @@ Most issues resolve by switching to a virtual camera approach (OBS) rather than 
 - Learning curve steeper than alternatives
 
 **Best for Chrome-Only:** Webcam Settings Controller (full feature set)
-- Most comprehensive controls
+- Most controls
 - $3 premium removes ads but isn't necessary
 - Performance impact minimal (< 5% CPU overhead)
 

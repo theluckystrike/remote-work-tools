@@ -126,7 +126,7 @@ The free tier includes unlimited users and unlimited standups, supported by opti
 
 ### Scenario 3: Distributed Teams (20+ Engineers Across 5 Time Zones)
 **Recommendation**: Standuply or GeekBot
-- **Why**: Flexible scheduling per time zone; comprehensive analytics help identify blockers across regions
+- **Why**: Flexible scheduling per time zone; analytics help identify blockers across regions
 - **Monthly cost**: GeekBot $100 (20 users), Standuply $120-150 (with AI)
 - **Setup time**: 3-4 hours to customize questions and integrations
 - **Value**: Async standups prevent mandatory 5am or 11pm meetings for someone
@@ -215,7 +215,7 @@ Deploying a bot is only half the battle. Make async standups valuable by impleme
 
 Avoid "How are you?" and generic status questions—they generate noise without insight.
 
-### Standup Facilitation
+### Standup Help
 
 Designate a rotating facilitator for each standup cycle (weekly or biweekly). The facilitator's job is to:
 

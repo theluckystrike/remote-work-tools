@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Fiber Internet Providers in Lisbon for Remote."
+title: "Best Fiber Internet Providers in Lisbon for Remote"
 description: "A practical guide to fiber internet providers in Lisbon for remote developers needing low latency connections. Compare speeds, latency, and real-world."
 date: 2026-03-16
 author: theluckystrike

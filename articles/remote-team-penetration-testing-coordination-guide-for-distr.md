@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Deploy a secure Element (Matrix) server for pen test."
+title: "Deploy a secure Element (Matrix) server for pen test"
 description: "A practical guide for coordinating penetration testing activities across distributed security teams. Includes code examples and coordination workflows."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -81,28 +81,28 @@ TEAM_REGIONS = {
 def assign_testing_windows():
  """Assign testing windows based on regional overlap."""
  assignments = []
- 
+
  # APAC prime time overlaps with late EMEA
  assignments.append({
  "region": "APAC",
  "window": "00:00-06:00 UTC",
  "focus": "API testing, authentication bypass"
  })
- 
+
  # EMEA covers middle ground
  assignments.append({
  "region": "EMEA",
  "window": "14:00-20:00 UTC",
  "focus": "Web application, network services"
  })
- 
+
  # AMER covers early morning overlap with late APAC
  assignments.append({
  "region": "AMER",
  "window": "14:00-20:00 UTC",
  "focus": "Night ops, report compilation"
  })
- 
+
  return assignments
 ```
 
@@ -143,10 +143,10 @@ When testers document findings asynchronously, consistency becomes critical. Est
 ```markdown
 ## Finding: [Brief Title]
 
-**Severity:** [Critical|High|Medium|Low|Info] 
-**CVSS Score:** [X.X] 
-**Target:** [Affected asset] 
-**Discovered by:** [Tester name] 
+**Severity:** [Critical|High|Medium|Low|Info]
+**CVSS Score:** [X.X]
+**Target:** [Affected asset]
+**Discovered by:** [Tester name]
 **Date:** [YYYY-MM-DD]
 
 ### Description

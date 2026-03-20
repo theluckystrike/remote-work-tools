@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Documentation Platform for a 15 Person Remote Data."
+title: "Documentation Platform for a 15 Person Remote Data Science T"
 description: "A practical guide to building a documentation platform for a 15 person remote data science team. Includes code examples, workflow patterns, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -74,8 +74,8 @@ title: Data Science Team Documentation
 baseurl: /docs
 theme: minimal
 plugins:
-  - jekyll-sitemap
-  - jekyll-search
+ - jekyll-sitemap
+ - jekyll-search
 EOF
 
 # Enable GitHub Pages in repository settings
@@ -137,12 +137,12 @@ npx create-docusaurus@latest data-science-docs classic
 
 # Structure for data science team
 docs/
-├── guides/           # Best practices, tutorials
-├── datasets/         # Data dictionary, schemas
-├── models/           # Model cards, experiment tracking
-├── operations/       # Deployment, monitoring
-├── decisions/        # Decision logs, ADRs
-└── onboarding/       # New hire resources
+├── guides/ # Best practices, tutorials
+├── datasets/ # Data dictionary, schemas
+├── models/ # Model cards, experiment tracking
+├── operations/ # Deployment, monitoring
+├── decisions/ # Decision logs, ADRs
+└── onboarding/ # New hire resources
 
 # Build and deploy
 npm run build

@@ -148,7 +148,7 @@ The content script extracts page metadata, the popup UI provides formatting opti
 
 Consider adding features like:
 - Multiple citation format support (APA, Chicago, Harvard)
-- One-click copy to clipboard functionality 
+- One-click copy to clipboard functionality
 - Export to reference managers via BibTeX or CSL
 - Citation history storage using chrome.storage
 

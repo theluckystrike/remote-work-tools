@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Employer Branding Strategy for Attracting."
+title: "Remote Team Employer Branding Strategy for Attracting"
 description: "A practical guide to building employer branding that attracts distributed talent. Concrete strategies, code examples, and frameworks for remote-first."
 date: 2026-03-16
 author: theluckystrike
@@ -51,7 +51,7 @@ This project requires:
 
 ```bash
 git clone git@github.com:yourcompany/yourproject.git
-cp .env.example .env
+cp.env.example.env
 docker-compose up -d
 npm install
 npm run dev
@@ -208,7 +208,7 @@ Every quarter, review these signals:
 
 Your current employees are your most powerful recruitment tool. Give them resources to represent your brand authentically.
 
-### Empowerment Framework
+### Enablement Framework
 
 Create a public advocacy guide:
 
@@ -236,7 +236,7 @@ We encourage team members to:
 - Tag company in social posts
 ```
 
-This empowerment generates authentic content that no marketing team can replicate.
+This enablement generates authentic content that no marketing team can replicate.
 
 ## Implementation Roadmap
 

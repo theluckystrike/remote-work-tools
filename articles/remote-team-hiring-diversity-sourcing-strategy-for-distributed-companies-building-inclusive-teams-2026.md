@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Hiring: Diversity Sourcing Strategy for."
+title: "Remote Team Hiring: Diversity Sourcing Strategy for"
 description: "A practical guide to building a diversity sourcing strategy for remote team hiring. Discover actionable techniques, tools, and code examples for."
 date: 2026-03-16
 author: theluckystrike

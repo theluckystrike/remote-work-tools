@@ -76,21 +76,21 @@ gantt
  title Website Redesign Project Timeline
  dateFormat YYYY-MM-DD
  axisFormat %m-%d
- 
+
  section Discovery
  Requirements gathering :active, des1, 2026-03-16, 5d
  Stakeholder interviews : des2, after des1, 3d
- 
+
  section Design
  Wireframes : des3, after des2, 7d
  Visual design : des4, after des3, 5d
  Design review :crit, des5, after des4, 2d
- 
+
  section Development
  Frontend build : dev1, after des5, 10d
  Backend integration : dev2, after dev1, 7d
  API development : dev3, parallel with dev1, 8d
- 
+
  section Launch
  UAT : test1, after dev2, 5d
  Bug fixes :crit, test2, after test1, 3d
@@ -128,21 +128,21 @@ def generate_html_timeline(csv_file):
  with open(csv_file, 'r') as f:
  reader = csv.DictReader(f)
  tasks = list(reader)
- 
+
  html = ['<table class="timeline">', '<thead><tr>',
  '<th>Phase</th><th>Task</th><th>Dates</th><th>Owner</th>',
  '</tr></thead><tbody>']
- 
+
  for task in tasks:
  start = datetime.strptime(task['Start Date'], '%Y-%m-%d')
  end = datetime.strptime(task['End Date'], '%Y-%m-%d')
  duration = (end - start).days + 1
- 
+
  html.append(f"<tr><td>{task['Phase']}</td>")
  html.append(f"<td>{task['Task']}</td>")
  html.append(f"<td>{start.strftime('%m/%d')} - {end.strftime('%m/%d')} ({duration}d)</td>")
  html.append(f"<td>{task['Owner']}</td></tr>")
- 
+
  html.append('</tbody></table>')
  return '\n'.join(html)
 
@@ -163,11 +163,6 @@ git commit -m "Update timeline: extend design phase for client feedback"
 ```
 
 This creates an audit trail of project evolution that helps both parties understand scope changes.
-
-## Summary
-
-CLI-based timelines offer reproducibility, version control, and integration capabilities that GUI tools lack. Taskwarrior provides task management with calendar export. Mermaid diagrams render visual Gantt charts from text. CSV-based approaches bridge spreadsheet workflows with shareable outputs. Choose the method matching your team's tool preferences and client communication style.
-
 
 ## Related Reading
 

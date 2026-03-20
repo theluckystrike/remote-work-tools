@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Distributed Team Wellness Challenge Ideas: Steps."
+title: "Distributed Team Wellness Challenge Ideas"
 description: "Practical wellness challenge ideas for distributed teams including step goals, meditation practices, and hydration tracking with code-powered tools."
 date: 2026-03-16
 author: "Remote Work Tools Guide"

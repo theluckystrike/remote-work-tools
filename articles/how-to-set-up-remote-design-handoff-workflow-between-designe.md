@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Set Up Remote Design Handoff Workflow Between."
-description: "A practical guide to establishing efficient design handoff processes for remote teams. Learn tools, workflows, and best practices for ."
+title: "How to Set Up Remote Design Handoff Workflow Between"
+description: "A practical guide to establishing efficient design handoff processes for remote teams. Learn tools, workflows, and best practices for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-design-handoff-workflow-between-designe/
@@ -197,7 +197,7 @@ Manual asset export wastes time and creates inconsistency. Set up automation to 
 Use Figma's native export settings or plugins like:
 
 - Iconify: Icon library integration
-- Redlines: Measurement and specification automation 
+- Redlines: Measurement and specification automation
 - Tokens Studio: Sync design tokens with code
 
 ```javascript

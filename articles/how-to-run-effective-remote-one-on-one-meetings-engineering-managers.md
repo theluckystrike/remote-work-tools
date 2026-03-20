@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Effective Remote One-on-One Meetings: Engineering Managers Guide"
+title: "How to Run Effective Remote One-on-One Meetings"
 description: "Guide for engineering managers running remote 1:1s. Async prep, tools, templates, feedback frameworks, career growth conversations."
 date: 2026-03-20
 author: theluckystrike

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Financial Dashboard Tool for CFO: Tracking."
+title: "Remote Team Financial Dashboard Tool for CFO"
 description: "Learn how to build or implement a financial dashboard for CFOs tracking expenses across distributed teams. Includes API integrations, real-time data."
 date: 2026-03-16
 author: theluckystrike

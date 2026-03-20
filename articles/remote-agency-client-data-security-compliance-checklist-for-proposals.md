@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Agency Client Data Security Compliance Checklist."
+title: "Remote Agency Client Data Security Compliance Checklist for"
 description: "A practical compliance checklist for remote agencies. Includes security requirements, code examples, and proposal templates for protecting client data."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -201,7 +201,7 @@ grep -i $CLIENT_NAME compliance_matrix.csv || echo "  Custom requirements pendin
 
 ## Final Recommendations
 
-Include a data security appendix in every proposal, even if the client doesn't explicitly ask for it. This proactive approach separates professional agencies from amateurs. 
+Include a data security appendix in every proposal, even if the client doesn't explicitly ask for it. This proactive approach separates professional agencies from amateurs.
 
 Review and update your checklist quarterly—security standards evolve, and your proposals should reflect current best practices. Keep your SOC 2 reports current, maintain your DPA templates, and document every security measure you implement.
 

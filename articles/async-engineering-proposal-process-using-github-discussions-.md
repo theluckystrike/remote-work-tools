@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Engineering Proposal Process Using GitHub."
+title: "Async Engineering Proposal Process Using Github Discussions"
 description: "A practical guide to running async engineering proposals using GitHub Discussions. Includes setup steps, templates, and automation tips for distributed."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -12,10 +12,6 @@ intent-checked: true
 voice-checked: true
 score: 8
 ---
-## Summary
-
-<!-- 2-3 sentence description of what you're proposing and why it matters -->
-
 ## Problem Statement
 
 <!-- What specific problem does this solve? Include metrics or user impact if available -->
@@ -30,10 +26,10 @@ score: 8
 
 ## Impact Assessment
 
-- **Breaking changes**: 
-- **Migration required**: 
-- **Performance implications**: 
-- **Security considerations**: 
+- **Breaking changes**:
+- **Migration required**:
+- **Performance implications**:
+- **Security considerations**:
 
 ## Open Questions
 
@@ -45,9 +41,9 @@ score: 8
 
 ---
 
-**Submitted by**: 
-**Review deadline**: 
-**Required reviewers**: 
+**Submitted by**:
+**Review deadline**:
+**Required reviewers**:
 ```
 
 This template guarantees every proposal follows a reviewable structure.
@@ -60,37 +56,37 @@ Create a GitHub Actions workflow to manage proposal lifecycle. Save as `.github/
 name: Engineering Proposal Review
 
 on:
-  discussion:
-    types: [created, edited]
+ discussion:
+ types: [created, edited]
 
 jobs:
-  label-proposal:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/github-script@v6
-        with:
-          script: |
-            const discussion = context.payload.discussion;
-            if (discussion.category.name === 'Engineering Proposals') {
-              github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: discussion.number,
-                labels: ['pending-review']
-              });
-              
-              // Create review deadline (7 days from now)
-              const deadline = new Date();
-              deadline.setDate(deadline.getDate() + 7);
-              
-              github.rest.discussions.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                discussion_number: discussion.number,
-                category_id: discussion.category.id,
-                pinned: true
-              });
-            }
+ label-proposal:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/github-script@v6
+ with:
+ script: |
+ const discussion = context.payload.discussion;
+ if (discussion.category.name === 'Engineering Proposals') {
+ github.rest.issues.addLabels({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ issue_number: discussion.number,
+ labels: ['pending-review']
+ });
+
+ // Create review deadline (7 days from now)
+ const deadline = new Date();
+ deadline.setDate(deadline.getDate() + 7);
+
+ github.rest.discussions.update({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ discussion_number: discussion.number,
+ category_id: discussion.category.id,
+ pinned: true
+ });
+ }
 ```
 
 This workflow automatically labels new proposals and pins them for visibility.
@@ -151,11 +147,11 @@ Use GitHub Issues to create tracking items for approved proposals:
 ```yaml
 # After proposal approval, create tracking issue
 github.rest.issues.create({
-  owner: context.repo.owner,
-  repo: context.repo.repo,
-  title: "[Tracking] Implementation: New Data Layer Migration",
-  body: "Tracking issue for approved proposal: [Link to discussion]\n\n- [ ] Phase 1: Schema migration\n- [ ] Phase 2: Data migration scripts\n- [ ] Phase 3: Application updates",
-  labels: ['implementation', 'tracking']
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ title: "[Tracking] Implementation: New Data Layer Migration",
+ body: "Tracking issue for approved proposal: [Link to discussion]\n\n- [ ] Phase 1: Schema migration\n- [ ] Phase 2: Data migration scripts\n- [ ] Phase 3: Application updates",
+ labels: ['implementation', 'tracking']
 });
 ```
 

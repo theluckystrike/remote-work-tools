@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Cross Timezone Collaboration Protocol When."
+title: "Remote Team Cross Timezone Collaboration Protocol When Scali"
 description: "A practical protocol for maintaining effective async communication when your remote team scales with Asia Pacific developers. Includes code examples."
 date: 2026-03-16
 author: theluckystrike

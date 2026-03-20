@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Buddy System Program for Onboarding."
+title: "How to Create Remote Buddy System Program for Onboarding"
 description: "A practical guide to building a remote buddy system program for onboarding new hires at scale. Includes code examples, automation scripts, and."
 date: 2026-03-16
 author: theluckystrike
@@ -174,7 +174,7 @@ Measurement ensures continuous improvement. Track these metrics:
 - Time-to-first-deployment: Compare new hire velocity before and after buddy program implementation
 - 90-day retention: Monitor whether buddy participants stay longer
 - Survey scores: Include questions like "Did your buddy help you feel welcome?" and "Would you recommend being a buddy?"
-- Buddy capacity utilization: Ensure no buddy is overwhelmed or underutilized
+- Buddy capacity use: Ensure no buddy is overwhelmed or underutilized
 
 Create a simple dashboard that surfaces these numbers monthly. Share results with stakeholders to maintain buy-in for the program.
 

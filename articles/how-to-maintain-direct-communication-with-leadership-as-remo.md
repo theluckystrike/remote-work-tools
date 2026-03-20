@@ -151,7 +151,7 @@ These strategies only work when leadership commits to them. Specifically, leader
 Track whether your communication channels are working:
 
 - Response time: How long does leadership take to respond to async questions?
-- Utilization: Are office hours being booked? If not, maybe they are not needed—or not visible enough
+- Use: Are office hours being booked? If not, maybe they are not needed—or not visible enough
 - Escalation rate: Are blockers being resolved through proper channels, or are people going around them?
 - Sentiment: Quarterly surveys can gauge whether team members feel heard
 

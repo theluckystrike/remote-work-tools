@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Tax Preparation Business with."
+title: "How to Run Remote Tax Preparation Business with Distributed"
 description: "A practical guide for running a remote tax preparation business with distributed seasonal staff. Includes workflow automation, tool selection, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

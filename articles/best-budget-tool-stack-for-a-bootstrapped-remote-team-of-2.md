@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Budget Tool Stack for a Bootstrapped Remote Team of 2"
-description: "Discover the most cost-effective tools for a bootstrapped remote team of 2. From project management to communication, find affordable solutions that won't break the bank."
+description: "Discover the most cost-effective tools for a bootstrapped remote team of 2. From project management to communication, find affordable solutions that won't..."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-budget-tool-stack-for-a-bootstrapped-remote-team-of-2/

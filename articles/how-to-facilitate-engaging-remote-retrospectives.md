@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Facilitate Engaging Remote Retrospectives"
-description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes facilitation scripts, digital tools, and actionable."
+description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes help scripts, digital tools, and actionable."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-facilitate-engaging-remote-retrospectives/
@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to help Engaging Remote Retrospectives
 
-Remote retrospectives often feel like mandatory meetings where team members half-actively type anonymous notes into a shared document while mentally checking emails. After years of running retros for distributed teams, I've learned that the difference between an useless retrospective and one that actually drives improvement comes down to three factors: psychological safety, structured facilitation, and follow-through. This guide covers practical techniques you can implement immediately.
+Remote retrospectives often feel like mandatory meetings where team members half-actively type anonymous notes into a shared document while mentally checking emails. After years of running retros for distributed teams, I've learned that the difference between an useless retrospective and one that actually drives improvement comes down to three factors: psychological safety, structured help, and follow-through. This guide covers practical techniques you can implement immediately.
 
 ## Setting the Foundation
 
@@ -45,12 +45,12 @@ Not everyone speaks up in live meetings, and that's fine. Use async pre-work to 
 A simple Google Form or Typeform with three questions works well:
 
 1. What went well? (one thing)
-2. What didn't go well? (one thing) 
+2. What didn't go well? (one thing)
 3. One action item we should commit to
 
-Collect responses 24 hours before your meeting. Review themes and prepare your facilitation focus accordingly.
+Collect responses 24 hours before your meeting. Review themes and prepare your help focus accordingly.
 
-## Facilitation Techniques That Work
+## Help Techniques That Work
 
 The facilitator's job is not to solve problems—it's to guide the conversation so the team solves their own problems.
 
@@ -73,7 +73,7 @@ The silent participant: If someone hasn't contributed, explicitly invite them: "
 
 ## Digital Tools and Setups
 
-Your tool choice matters less than how you use it. However, certain tools support better facilitation.
+Your tool choice matters less than how you use it. However, certain tools support better help.
 
 ### Miro Template for Remote Retros
 

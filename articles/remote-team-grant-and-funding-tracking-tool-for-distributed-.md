@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Grant and Funding Tracking Tool for."
+title: "Remote Team Grant and Funding Tracking Tool for Distributed"
 description: "A guide to grant and funding tracking tools for distributed nonprofit organizations. Compare solutions, implementation patterns, and code."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

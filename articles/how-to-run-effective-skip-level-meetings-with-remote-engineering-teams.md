@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Run Effective Skip Level Meetings with Remote."
-description: "A practical guide for engineering managers on running skip level meetings with remote teams. Includes async preparation, facilitation scripts, and."
+title: "How to Run Effective Skip Level Meetings with Remote"
+description: "A practical guide for engineering managers on running skip level meetings with remote teams. Includes async preparation, help scripts, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/
@@ -53,7 +53,7 @@ This approach respects engineers' time and gives you context to prepare specific
 
 For remote engineering teams, 30 minutes works well for most conversations. Save longer sessions for when an engineer has significant concerns to discuss.
 
-Here's a facilitation structure that balances conversation flow with practical outcomes:
+Here's a help structure that balances conversation flow with practical outcomes:
 
 **Minutes 0-5: Check-in and rapport building**
 

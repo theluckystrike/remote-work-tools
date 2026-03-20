@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Overtime Pay Compliance for Remote Workers."
+title: "How to Handle Overtime Pay Compliance for Remote Workers"
 description: "A practical guide for developers and power users managing remote teams. Learn how to handle overtime pay compliance across different state laws with."
 date: 2026-03-16
 author: theluckystrike

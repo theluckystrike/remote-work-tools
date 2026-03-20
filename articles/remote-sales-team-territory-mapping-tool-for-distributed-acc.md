@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Sales Team Territory Mapping Tool for Distributed."
+title: "Remote Sales Team Territory Mapping Tool for Distributed"
 description: "A practical guide to territory mapping tools for remote sales teams. Learn how to implement territory assignment, balance workloads, and optimize."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -292,7 +292,7 @@ Establish a regular rebalancing cadence. Quarterly reviews work well for most te
 
 Document territory rationale. Not every account fits neatly into one territory. Create guidelines for edge cases and exceptions, and track these decisions alongside your territory data.
 
-Build dashboards that show territory health at a glance. Track metrics like coverage percentage, average deal size per territory, pipeline velocity, and rep utilization. Remote teams benefit from transparent metrics that everyone can access.
+Build dashboards that show territory health at a glance. Track metrics like coverage percentage, average deal size per territory, pipeline velocity, and rep use. Remote teams benefit from transparent metrics that everyone can access.
 
 The tools and patterns in this guide provide a foundation for territory mapping that scales with your team. Adapt the data models and algorithms to match your specific market focus and sales process.
 

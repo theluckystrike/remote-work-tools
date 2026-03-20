@@ -72,9 +72,6 @@ Build a documentation culture by making it a required step in your workflow (cod
 ```markdown
 # RFC: [Title]
 
-## Summary
-One-paragraph overview of the proposal.
-
 ## Motivation
 Why are we doing this? What problem does it solve?
 

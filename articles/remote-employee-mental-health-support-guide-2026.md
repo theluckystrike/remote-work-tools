@@ -5,6 +5,7 @@ description: "A practical guide for developers and power users to support mental
 date: 2026-03-20
 author: theluckystrike
 permalink: /remote-employee-mental-health-support-guide-2026/
+voice-checked: true
 ---
 
 {% raw %}

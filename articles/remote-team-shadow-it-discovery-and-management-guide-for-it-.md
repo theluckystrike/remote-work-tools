@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Shadow IT Discovery and Management Guide for."
+title: "Remote Team Shadow IT Discovery and Management Guide for IT"
 description: "A practical guide for discovering and managing shadow IT in remote teams. Learn detection methods, risk assessment frameworks, and governance strategies."
 date: 2026-03-16
 author: theluckystrike

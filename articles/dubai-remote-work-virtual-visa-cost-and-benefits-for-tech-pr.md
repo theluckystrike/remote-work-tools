@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Dubai Remote Work Virtual Visa Cost and Benefits for."
-description: "A practical guide to Dubai's virtual visa options for developers and remote tech workers. Compare costs, eligibility, and benefits for working remotely from the UAE."
+title: "Dubai Remote Work Virtual Visa Cost and Benefits for Tech"
+description: "A practical guide to Dubai's virtual visa options for developers and remote tech workers. Compare costs, eligibility, and benefits for working remotely..."
 date: 2026-03-16
 author: theluckystrike
 permalink: /dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/
@@ -187,10 +187,10 @@ Dubai's tax-free status requires careful documentation:
 ### What Requires Compliance
 - **Tax Home Determination**: If Dubai is your primary residence, income is tax-free
 - **Documentary Evidence**:
-  - Residence visa showing Dubai address
-  - Lease agreement
-  - Emirates ID
-  - Bank statements showing local address
+ - Residence visa showing Dubai address
+ - Lease agreement
+ - Emirates ID
+ - Bank statements showing local address
 
 ### For US Citizens (Special Case)
 - US still requires tax filing (FATCA regulations)

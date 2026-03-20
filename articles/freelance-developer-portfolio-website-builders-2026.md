@@ -15,36 +15,36 @@ voice-checked: true
 
 {% raw %}
 <article class="project-card">
-  <h3>{title}</h3>
-  <p>{description}</p>
-  <ul class="tech-stack">
-    {tech.map((t) => <li><span class="tag">{t}</span></li>)}
-  </ul>
-  <a href={link}>View Project →</a>
+ <h3>{title}</h3>
+ <p>{description}</p>
+ <ul class="tech-stack">
+ {tech.map((t) => <li><span class="tag">{t}</span></li>)}
+ </ul>
+ <a href={link}>View Project →</a>
 </article>
 
 <style>
-  .project-card {
-    padding: 1.5rem;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
-    transition: transform 0.2s ease;
-  }
-  .project-card:hover {
-    transform: translateY(-4px);
-  }
-  .tech-stack {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    list-style: none;
-  }
-  .tag {
-    background: #f3f4f6;
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    font-size: 0.875rem;
-  }
+.project-card {
+ padding: 1.5rem;
+ border: 1px solid #e5e7eb;
+ border-radius: 8px;
+ transition: transform 0.2s ease;
+ }
+.project-card:hover {
+ transform: translateY(-4px);
+ }
+.tech-stack {
+ display: flex;
+ gap: 0.5rem;
+ flex-wrap: wrap;
+ list-style: none;
+ }
+.tag {
+ background: #f3f4f6;
+ padding: 0.25rem 0.75rem;
+ border-radius: 9999px;
+ font-size: 0.875rem;
+ }
 </style>
 ```
 
@@ -55,14 +55,14 @@ Astro's content collections provide type-safe markdown handling for your portfol
 import { defineCollection, z } from 'astro:content';
 
 const projects = defineCollection({
-  type: 'content',
-  schema: z.object({
-    title: z.string(),
-    description: z.string(),
-    tech: z.array(z.string()),
-    link: z.string().url(),
-    featured: z.boolean().default(false),
-  }),
+ type: 'content',
+ schema: z.object({
+ title: z.string(),
+ description: z.string(),
+ tech: z.array(z.string()),
+ link: z.string().url(),
+ featured: z.boolean().default(false),
+ }),
 });
 
 export const collections = { projects };
@@ -91,17 +91,17 @@ Hugo's templating system uses Go's text/template package. Create a project list 
 {{ define "main" }}
 <h1>Projects</h1>
 <div class="projects-grid">
-  {{ range where .Site.RegularPages "Type" "projects" }}
-    <div class="project">
-      <h2>{{ .Title }}</h2>
-      <p>{{ .Description }}</p>
-      <ul class="tech">
-        {{ range .Params.tech }}
-        <li>{{ . }}</li>
-        {{ end }}
-      </ul>
-    </div>
-  {{ end }}
+ {{ range where.Site.RegularPages "Type" "projects" }}
+ <div class="project">
+ <h2>{{.Title }}</h2>
+ <p>{{.Description }}</p>
+ <ul class="tech">
+ {{ range.Params.tech }}
+ <li>{{. }}</li>
+ {{ end }}
+ </ul>
+ </div>
+ {{ end }}
 </div>
 {{ end }}
 ```
@@ -123,23 +123,23 @@ Create the admin configuration:
 ```yaml
 # static/admin/config.yml
 backend:
-  name: git-gateway
-  branch: main
+ name: git-gateway
+ branch: main
 
 media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "projects"
-    label: "Projects"
-    folder: "content/projects"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Technologies", name: "tech", widget: "list"}
-      - {label: "Project Link", name: "link", widget: "string"}
-      - {label: "Featured", name: "featured", widget: "boolean"}
+ - name: "projects"
+ label: "Projects"
+ folder: "content/projects"
+ create: true
+ fields:
+ - {label: "Title", name: "title", widget: "string"}
+ - {label: "Description", name: "description", widget: "text"}
+ - {label: "Technologies", name: "tech", widget: "list"}
+ - {label: "Project Link", name: "link", widget: "string"}
+ - {label: "Featured", name: "featured", widget: "boolean"}
 ```
 
 Add the admin HTML at `static/admin/index.html`:
@@ -148,12 +148,12 @@ Add the admin HTML at `static/admin/index.html`:
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Content Manager</title>
+ <meta charset="utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Content Manager</title>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+ <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
 </body>
 </html>
 ```
@@ -173,46 +173,46 @@ Define your project schema:
 ```javascript
 // schemas/project.js
 export default {
-  name: 'project',
-  title: 'Project',
-  type: 'document',
-  fields: [
-    {
-      name: 'title',
-      title: 'Title',
-      type: 'string',
-    },
-    {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      options: { source: 'title' },
-    },
-    {
-      name: 'tech',
-      title: 'Technologies',
-      type: 'array',
-      of: [{ type: 'string' }],
-      options: {
-        layout: 'tags',
-      },
-    },
-    {
-      name: 'description',
-      title: 'Description',
-      type: 'text',
-    },
-    {
-      name: 'link',
-      title: 'Project Link',
-      type: 'url',
-    },
-    {
-      name: 'code',
-      title: 'Code Repository',
-      type: 'url',
-    },
-  ],
+ name: 'project',
+ title: 'Project',
+ type: 'document',
+ fields: [
+ {
+ name: 'title',
+ title: 'Title',
+ type: 'string',
+ },
+ {
+ name: 'slug',
+ title: 'Slug',
+ type: 'slug',
+ options: { source: 'title' },
+ },
+ {
+ name: 'tech',
+ title: 'Technologies',
+ type: 'array',
+ of: [{ type: 'string' }],
+ options: {
+ layout: 'tags',
+ },
+ },
+ {
+ name: 'description',
+ title: 'Description',
+ type: 'text',
+ },
+ {
+ name: 'link',
+ title: 'Project Link',
+ type: 'url',
+ },
+ {
+ name: 'code',
+ title: 'Code Repository',
+ type: 'url',
+ },
+ ],
 }
 ```
 
@@ -220,12 +220,12 @@ Fetch projects in your frontend:
 
 ```typescript
 const query = `*[_type == "project"]{
-  title,
-  "slug": slug.current,
-  tech,
-  description,
-  link,
-  code
+ title,
+ "slug": slug.current,
+ tech,
+ description,
+ link,
+ code
 }`;
 
 const projects = await client.fetch(query);

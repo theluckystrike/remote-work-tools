@@ -137,7 +137,7 @@ Start with GitHub Projects if your open source work centers on code. Expand to T
 
 ### GitHub Projects: Integration Excellence
 
-GitHub Projects' strength lies in seamless integration with your code workflow:
+GitHub Projects' strength lies in integration with your code workflow:
 
 **Automated card movement**:
 ```yaml
@@ -295,24 +295,24 @@ Create Trello card in "Community & Release" board
 **Start by answering these questions**:
 
 1. **Do 80%+ of your tasks involve code work?**
-   - Yes → GitHub Projects
-   - No → Trello
+ - Yes → GitHub Projects
+ - No → Trello
 
 2. **Do your contributors mostly interact via PRs and issues?**
-   - Yes → GitHub Projects
-   - No → Trello (they might not even have GitHub notifications)
+ - Yes → GitHub Projects
+ - No → Trello (they might not even have GitHub notifications)
 
 3. **Do you need significant non-code project management?**
-   - Yes → Trello
-   - No → GitHub Projects
+ - Yes → Trello
+ - No → GitHub Projects
 
 4. **Is your team comfortable in GitHub already?**
-   - Yes → Start with GitHub Projects
-   - No → Trello is less intimidating for new contributors
+ - Yes → Start with GitHub Projects
+ - No → Trello is less intimidating for new contributors
 
 5. **Do you need advanced automation and integrations?**
-   - Yes → Trello (more Power-Ups)
-   - No → GitHub Projects (simpler setup)
+ - Yes → Trello (more Power-Ups)
+ - No → GitHub Projects (simpler setup)
 
 ## Implementation Walkthrough: GitHub Projects
 

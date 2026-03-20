@@ -131,7 +131,7 @@ Take a typical 30-minute status meeting and convert it to an async format. The t
 
 This practice typically reduces meeting load by 30-50% while improving information sharing.
 
-## Module 3: Meeting Facilitation for Mixed Locations
+## Module 3: Meeting Help for Mixed Locations
 
 ### Learning Objectives
 - Design meetings that work equally well for in-person and remote participants
@@ -140,7 +140,7 @@ This practice typically reduces meeting load by 30-50% while improving informati
 
 ### Core Content
 
-Meeting equity means remote participants have the same experience as those in the room. This requires intentional setup, facilitation techniques, and sometimes accepting that some meetings work better fully remote or fully in-person.
+Meeting equity means remote participants have the same experience as those in the room. This requires intentional setup, help techniques, and sometimes accepting that some meetings work better fully remote or fully in-person.
 
 ### Technical Setup Checklist
 
@@ -151,7 +151,7 @@ For hybrid meetings, ensure:
 - Hybrid-friendly conferencing software (Zoom, Google Meet, Teams with gallery mode)
 - Clear verbal identification when speaking ("This is Sarah, adding to John's point...")
 
-### Facilitation Techniques
+### Help Techniques
 
 Use these structured approaches for inclusive discussions:
 
@@ -244,7 +244,7 @@ Before launching this training program:
 
 ## Key Takeaways
 
-Training managers for hybrid leadership requires addressing three core areas: communication patterns that work asynchronously, meeting facilitation that ensures equity, and performance management that focuses on outcomes rather than visibility. The template above provides a starting framework—adapt it to your team's specific topology and industry requirements.
+Training managers for hybrid leadership requires addressing three core areas: communication patterns that work asynchronously, meeting help that ensures equity, and performance management that focuses on outcomes rather than visibility. The template above provides a starting framework—adapt it to your team's specific topology and industry requirements.
 
 The managers who succeed in partially distributed environments are those who treat hybrid not as a problem to solve but as a capability to build. This training program gives them the foundation to do exactly that.
 

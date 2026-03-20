@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Team Quarterly Business Review for."
+title: "How to Run Remote Team Quarterly Business Review for"
 description: "A practical guide to running effective quarterly business reviews with remote and distributed teams. Includes templates, async workflows, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Run Remote Team Quarterly Business Review for Distributed Leadership
 
-Remote team QBRs use async documentation, recorded updates, and focused sync discussions to align distributed leadership on metrics, wins, and next-quarter goals. Async-first QBRs let geographically scattered teams participate fully while avoiding exhausting all-hands marathon meetings. This guide covers QBR structure, templates, metrics selection, and facilitation for distributed organizations.
+Remote team QBRs use async documentation, recorded updates, and focused sync discussions to align distributed leadership on metrics, wins, and next-quarter goals. Async-first QBRs let geographically scattered teams participate fully while avoiding exhausting all-hands marathon meetings. This guide covers QBR structure, templates, metrics selection, and help for distributed organizations.
 
 ## Why Traditional QBRs Fail for Distributed Teams
 
