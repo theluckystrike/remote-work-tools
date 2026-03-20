@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /cable-management-under-desk-for-home-office-with-standing-de/
 categories: [guides]
-tags: [cable-management, standing-desk, home-office, setup]
+tags: [remote-work-tools, cable-management, standing-desk, home-office, setup]
 reviewed: true
 score: 8
 intent-checked: true

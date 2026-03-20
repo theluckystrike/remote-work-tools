@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-window-resizer-testing/
 categories: [guides]
-tags: [chrome-extension, testing, responsive-design, developer-tools, viewport]
+tags: [remote-work-tools, chrome-extension, testing, responsive-design, developer-tools, viewport]
 reviewed: true
 score: 8
 intent-checked: true

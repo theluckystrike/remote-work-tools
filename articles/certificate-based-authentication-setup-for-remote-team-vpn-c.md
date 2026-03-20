@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /certificate-based-authentication-setup-for-remote-team-vpn-c/
 categories: [guides]
-tags: [vpn, security, authentication, remote-work, certificates]
+tags: [remote-work-tools, vpn, security, authentication, remote-work, certificates]
 reviewed: true
 score: 8
 intent-checked: true

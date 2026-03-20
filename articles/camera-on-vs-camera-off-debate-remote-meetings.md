@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /camera-on-vs-camera-off-debate-remote-meetings/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, comparison, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

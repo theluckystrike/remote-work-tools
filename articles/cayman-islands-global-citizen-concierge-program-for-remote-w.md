@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /cayman-islands-global-citizen-concierge-program-for-remote-w/
 categories: [guides]
-tags: [cayman-islands, remote-work, digital-nomad, visa, tax-residency]
+tags: [remote-work-tools, cayman-islands, remote-work, digital-nomad, visa, tax-residency]
 reviewed: true
 score: 8
 intent-checked: true

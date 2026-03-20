@@ -6,9 +6,9 @@ date: 2026-03-17
 author: theluckystrike
 permalink: /chrome-extension-webcam-settings-adjuster/
 categories: [guides]
-tags: [chrome-extension, webcam, video-calling, remote-work, productivity-tools]
+tags: [remote-work-tools, chrome-extension, webcam, video-calling, remote-work, productivity-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

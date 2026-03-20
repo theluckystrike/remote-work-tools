@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /bring-your-own-device-policy-for-hybrid-work/
 categories: [guides]
-tags: [byod, hybrid-work, security, device-policy]
+tags: [remote-work-tools, byod, hybrid-work, security, device-policy]
 reviewed: true
 score: 8
 intent-checked: true

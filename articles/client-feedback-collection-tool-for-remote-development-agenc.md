@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /client-feedback-collection-tool-for-remote-development-agenc/
 categories: [guides]
-tags: [client-feedback, remote-work, development-agency, tools, automation]
+tags: [remote-work-tools, client-feedback, remote-work, development-agency, tools, automation]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-compress-images-before-upload/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 reviewed: true
 score: 8
 voice-checked: true

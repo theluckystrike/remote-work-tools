@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/
 categories: [guides]
-tags: [video-conferencing, remote-work, collaboration-tools]
+tags: [remote-work-tools, video-conferencing, remote-work, collaboration-tools]
 reviewed: true
 score: 8
 intent-checked: true

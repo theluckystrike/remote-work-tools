@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /client-retention-strategies-for-freelancers-2026/
 categories: [guides]
-tags: [freelance, client-retention, remote-work]
+tags: [remote-work-tools, freelance, client-retention, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
