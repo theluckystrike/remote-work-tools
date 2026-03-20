@@ -8,7 +8,7 @@ permalink: /esim-vs-local-sim-card-for-digital-nomads/
 categories: [guides]
 tags: [remote-work-tools, esim, sim-card, digital-nomad, remote-work, comparison]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
