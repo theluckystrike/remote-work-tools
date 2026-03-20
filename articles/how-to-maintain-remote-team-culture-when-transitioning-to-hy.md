@@ -8,7 +8,7 @@ permalink: /how-to-maintain-remote-team-culture-when-transitioning-to-hy/
 categories: [guides]
 tags: [remote-work-tools, remote-work, hybrid-work, team-culture, async-communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

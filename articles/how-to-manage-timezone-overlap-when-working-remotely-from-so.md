@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /how-to-manage-timezone-overlap-when-working-remotely-from-so/
 categories: [guides]
 tags: [remote-work-tools, timezone, remote-work, southeast-asia, async-communication, developer-tools]
-score: 8
+score: 9
 voice-checked: true
 reviewed: true
 intent-checked: true
