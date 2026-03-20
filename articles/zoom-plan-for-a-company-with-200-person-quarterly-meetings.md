@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /zoom-plan-for-a-company-with-200-person-quarterly-meetings/
 categories: [guides]
-tags: [zoom, remote-work, video-conferencing, company-meetings, scaling-meetings]
+tags: [remote-work-tools, zoom, remote-work, video-conferencing, company-meetings, scaling-meetings]
 reviewed: true
 score: 8
 intent-checked: true
