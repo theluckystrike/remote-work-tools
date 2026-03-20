@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]

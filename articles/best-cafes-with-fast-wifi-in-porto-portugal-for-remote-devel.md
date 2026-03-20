@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 categories: [best-of]
 intent-checked: true
