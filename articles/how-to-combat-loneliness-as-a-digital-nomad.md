@@ -8,7 +8,7 @@ permalink: /how-to-combat-loneliness-as-a-digital-nomad/
 categories: [guides]
 tags: [remote-work-tools, digital-nomad, remote-work, mental-health, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

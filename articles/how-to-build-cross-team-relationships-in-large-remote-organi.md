@@ -8,7 +8,7 @@ permalink: /how-to-build-cross-team-relationships-in-large-remote-organi/
 categories: [guides]
 tags: [remote-work-tools, remote-work, cross-team, collaboration, communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
