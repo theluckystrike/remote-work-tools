@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-worker-ergonomic-equipment-reimbursement-legal-obliga/
 categories: [guides]
-tags: [remote-work, ergonomics, legal, employer-obligations, equipment-policy]
+tags: [remote-work-tools, remote-work, ergonomics, legal, employer-obligations, equipment-policy]
 reviewed: true
 score: 8
 intent-checked: true

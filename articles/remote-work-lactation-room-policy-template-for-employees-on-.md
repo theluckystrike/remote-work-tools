@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-lactation-room-policy-template-for-employees-on-/
 categories: [guides]
-tags: [remote-work, lactation-policy, video-calls, employee-benefits, hr-templates]
+tags: [remote-work-tools, remote-work, lactation-policy, video-calls, employee-benefits, hr-templates]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

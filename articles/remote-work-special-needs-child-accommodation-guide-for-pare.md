@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-special-needs-child-accommodation-guide-for-parents/
 categories: [guides]
-tags: [remote-work, special-needs, parenting, productivity, distributed-teams, accommodation]
+tags: [remote-work-tools, remote-work, special-needs, parenting, productivity, distributed-teams, accommodation]
 reviewed: true
 score: 8
 intent-checked: true

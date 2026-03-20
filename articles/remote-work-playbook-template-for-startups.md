@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /remote-work-playbook-template-for-startups/
 categories: [guides]
-tags: [remote-work, templates, startups, workflows]
+tags: [remote-work-tools, remote-work, templates, startups, workflows]
 reviewed: true
 score: 8
 intent-checked: true

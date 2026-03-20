@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-work-caregiver-leave-policy-template-for-distributed-/
 categories: [guides]
-tags: [remote-work, caregiver-leave, hr-policy, distributed-teams, sandwich-generation, remote-benefits]
+tags: [remote-work-tools, remote-work, caregiver-leave, hr-policy, distributed-teams, sandwich-generation, remote-benefits]
 reviewed: true
 score: 8
 intent-checked: true

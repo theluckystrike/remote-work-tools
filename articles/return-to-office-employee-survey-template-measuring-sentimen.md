@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /return-to-office-employee-survey-template-measuring-sentimen/
 categories: [guides]
-tags: [return-to-office, employee-survey, sentiment-analysis, remote-work-policy, hr-tools, workplace-strategy]
+tags: [remote-work-tools, return-to-office, employee-survey, sentiment-analysis, remote-work-policy, hr-tools, workplace-strategy]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

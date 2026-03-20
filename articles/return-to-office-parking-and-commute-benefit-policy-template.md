@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /return-to-office-parking-and-commute-benefit-policy-template/
 categories: [guides]
-tags: [parking, commute, benefits, hybrid-work, policy-template]
+tags: [remote-work-tools, parking, commute, benefits, hybrid-work, policy-template]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /response-time-expectations-for-remote-workers-guide/
 categories: [guides]
-tags: [remote-work, communication, productivity, async-work]
+tags: [remote-work-tools, remote-work, communication, productivity, async-work]
 reviewed: true
 score: 8
 intent-checked: true

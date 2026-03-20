@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /return-to-office-tools-for-hybrid-teams/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 reviewed: true
 score: 8
 voice-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/
 categories: [guides]
-tags: [remote-work, productivity, deep-work, work-life-balance, parenting]
+tags: [remote-work-tools, remote-work, productivity, deep-work, work-life-balance, parenting]
 reviewed: true
 score: 8
 intent-checked: true

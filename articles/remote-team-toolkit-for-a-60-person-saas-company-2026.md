@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-toolkit-for-a-60-person-saas-company-2026/
 categories: [guides]
-tags: [remote-work, saas, team-toolkit, dev-tools]
+tags: [remote-work-tools, remote-work, saas, team-toolkit, dev-tools]
 reviewed: true
 score: 8
 intent-checked: true

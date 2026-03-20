@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/
 categories: [guides]
-tags: [remote-work, parent, self-care, isolation, mental-health, developer-tools]
+tags: [remote-work-tools, remote-work, parent, self-care, isolation, mental-health, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

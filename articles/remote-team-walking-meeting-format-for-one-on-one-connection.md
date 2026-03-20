@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-walking-meeting-format-for-one-on-one-connection/
 categories: [guides]
-tags: [remote-work, meetings, one-on-one, walking-meeting]
+tags: [remote-work-tools, remote-work, meetings, one-on-one, walking-meeting]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-employer-childcare-stipend-policy-template-for-d/
 categories: [guides]
-tags: [remote-work, benefits, childcare, policy, hr, distributed-teams]
+tags: [remote-work-tools, remote-work, benefits, childcare, policy, hr, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

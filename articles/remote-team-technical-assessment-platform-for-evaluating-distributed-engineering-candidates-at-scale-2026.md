@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/
 categories: [guides]
-tags: [remote-hiring, technical-assessment, hiring, engineering-recruitment, distributed-teams]
+tags: [remote-work-tools, remote-hiring, technical-assessment, hiring, engineering-recruitment, distributed-teams, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

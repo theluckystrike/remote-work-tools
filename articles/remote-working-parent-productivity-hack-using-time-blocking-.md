@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-productivity-hack-using-time-blocking-/
 categories: [guides]
-tags: [productivity, time-management, remote-work, parenting, calendar]
+tags: [remote-work-tools, productivity, time-management, remote-work, parenting, calendar]
 reviewed: true
 score: 8
 intent-checked: true

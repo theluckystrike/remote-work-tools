@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /remote-work-internet-speed-requirements-by-task-type-guide/
 categories: [guides]
-tags: [remote-work, internet, networking, bandwidth]
+tags: [remote-work-tools, remote-work, internet, networking, bandwidth]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

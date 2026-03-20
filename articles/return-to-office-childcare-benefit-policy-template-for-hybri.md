@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /return-to-office-childcare-benefit-policy-template-for-hybri/
 categories: [guides]
-tags: [childcare, family-benefits, hybrid-work, rto-policy, employee-benefits, hr-automation]
+tags: [remote-work-tools, childcare, family-benefits, hybrid-work, rto-policy, employee-benefits, hr-automation]
 reviewed: true
 score: 8
 intent-checked: true

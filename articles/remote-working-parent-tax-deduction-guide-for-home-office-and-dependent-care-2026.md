@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/
 categories: [guides]
-tags: [tax-deductions, remote-work, home-office, dependent-care]
+tags: [remote-work-tools, tax-deductions, remote-work, home-office, dependent-care]
 reviewed: true
 score: 8
 intent-checked: true

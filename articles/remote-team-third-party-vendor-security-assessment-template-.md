@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-third-party-vendor-security-assessment-template-/
 categories: [guides]
-tags: [security, vendor-assessment, remote-work, it-admin, third-party-risk]
+tags: [remote-work-tools, security, vendor-assessment, remote-work, it-admin, third-party-risk]
 reviewed: true
 score: 8
 intent-checked: true

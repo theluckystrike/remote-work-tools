@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-support-group-template-for-distributed/
 categories: [guides]
-tags: [remote-work, parent-support, distributed-teams, community-building, async-communication]
+tags: [remote-work-tools, remote-work, parent-support, distributed-teams, community-building, async-communication]
 reviewed: true
 score: 8
 intent-checked: true
