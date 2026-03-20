@@ -232,3 +232,8 @@ Track metrics to improve the onboarding process continuously.
 
 Analyze data quarterly. Identify bottlenecks and iterate on the process.
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
