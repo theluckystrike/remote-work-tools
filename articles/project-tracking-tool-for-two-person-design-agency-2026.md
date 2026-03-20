@@ -138,6 +138,121 @@ app.post('/webhook/linear', async (req, res) => {
 
 Automations become valuable as project volume increases. For a two-person agency just starting, manual processes work fine. Introduce automations when you notice repetitive tasks consuming significant time.
 
+## Advanced Tool Alternatives for 2026
+
+### Plane: Linear's Open-Source Competitor
+
+Plane provides Linear-like speed with self-hosting options. For a two-person agency valuing privacy or running on a budget:
+
+- **Cost**: Free (self-hosted) or $20/month team plan
+- **Features**: Cycles, module support, GitHub/Figma integration
+- **Setup**: Docker deployment takes 15 minutes
+
+```bash
+# Deploy Plane locally
+docker run -d --name plane \
+  -p 80:80 \
+  -e NEXT_PUBLIC_API_BASE_URL=http://localhost \
+  plane/plane
+```
+
+Plane suits design agencies that already run their own infrastructure.
+
+### Airtable for Design-Specific Workflows
+
+Airtable's flexibility allows designing project tracking tailored to design work:
+
+```bash
+# Example Airtable structure for design agencies
+Base: Design Agency Hub
+├── Projects (Client, Deadline, Status, Budget)
+├── Tasks (Project Link, Owner, Status, Hours)
+├── Clients (Name, Email, Contract URL, Billing Info)
+├── Time Tracking (Task Link, Hours, Date, Designer)
+└── Portfolio Archive (Project Link, Images, Deliverables)
+```
+
+**Airtable pricing**: $12/user/month (two-person agency: $24/month for base + automation)
+
+Airtable excels when you want custom views tailored to design workflows—client portal views, timeline views, status board for stakeholders.
+
+### Figma for Project Management?
+
+Many design agencies use Figma's built-in board features and multiplayer capabilities for lightweight collaboration. While not a dedicated project tracker, Figma works well for:
+
+- Design iteration tracking via version history
+- Component library management
+- Client feedback collection
+- Collaborative design boards
+
+**Cost**: $12-80/month depending on file storage needs
+
+Combine Figma with a lightweight task list (even a Google Sheet) for minimal overhead.
+
+## Pricing Comparison for 2026
+
+| Tool | Cost (2-person) | Best For | Learning Curve |
+|------|----------------|----------|-----------------|
+| Linear | $16/month | Speed-focused agencies | Low |
+| Notion | $20/month (team) | Customization, portals | Medium |
+| Plane | Free (self-hosted) | Privacy, simplicity | Low |
+| Airtable | $24/month | Design-specific workflows | Medium |
+| Taskwarrior | Free | Terminal-native agencies | High |
+| Google Tasks | Free | Minimal, lightweight | Very Low |
+| Monday.com | $99+/month | Overkill (avoid) | High |
+
+The sweet spot for most agencies: Linear ($16/month) + Notion ($20/month) = $36/month total for professional tracking plus client documentation.
+
+## Client Portal and Transparency
+
+Many design agencies benefit from offering clients visibility into project status. Choose a tool supporting client portals:
+
+**Linear**: Limited client access, mainly internal
+**Notion**: Excellent client portal support with read-only pages
+**Airtable**: Good client portal views at $20+/month add-on
+**StatusPage.io**: Dedicated tool for project status ($29+/month)
+
+For two-person agencies managing 3-5 concurrent projects, a Notion public page showing deliverable status and timeline often suffices. Clients see progress without cluttering your actual tracking system.
+
+## Setting Up Your Initial System
+
+Day 1 implementation checklist:
+
+1. **Create project template**: Define standard fields (client name, deadline, budget, status)
+2. **Set up cycle/sprint structure**: 2-week cycles work well for design iteration
+3. **Establish labeling system**: design, review, revision, approved, delivered
+4. **Connect to communication**: Integrations with Slack for status notifications
+5. **Document approval process**: Clear criteria for "done" status
+
+Example first week:
+- Monday: Set up tracking tool and import existing clients
+- Tuesday: Create 2-3 sample projects to test workflow
+- Wednesday: Adjust template based on first-pass experience
+- Thursday: Train both team members on daily usage
+- Friday: First weekly planning session using the system
+
+## Scaling Beyond Two People
+
+If your agency grows to three people, Linear remains excellent without additional setup. At five people, consider:
+
+- **Separate projects for each client** rather than a single board
+- **Time tracking integration** (Harvest, Toggl) to link tasks to billable hours
+- **Resource planning** to understand capacity and prevent overcommitment
+
+The tools scale, but your processes need adjustment at each growth stage.
+
+## Common Mistakes to Avoid
+
+**Over-tracking**: Don't log every 15-minute task. Focus on deliverables and milestones.
+
+**Unused features**: Most two-person agencies use 20% of available features. Start minimal and add only what solves actual problems.
+
+**Tool thrashing**: Resist switching tools frequently. Choose one, commit for 3 months, then evaluate.
+
+**Client sync friction**: If explaining your tracking system to clients becomes tedious, simplify by creating client-facing views separate from your internal system.
+
+**Scope creep invisibility**: The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

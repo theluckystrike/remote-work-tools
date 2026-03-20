@@ -137,6 +137,128 @@ Costa Rica's Digital Nomad Visa offers remote workers a compelling lifestyle opt
 
 By understanding these fundamentals, you can enjoy Costa Rica's beaches and communities while maintaining compliance with both local and international tax authorities.
 
+## Practical Tax Planning Examples
+
+### Example 1: US Developer on Digital Nomad Visa
+
+**Scenario**: Sarah is a US citizen working as a contractor for a Silicon Valley tech company. Annual income: $150,000.
+
+**Tax Analysis**:
+- US tax liability: Full $150,000 is taxable
+- Foreign Earned Income Exclusion: Can exclude ~$126,500 (2024), reducing US tax to ~$23,500
+- Costa Rican tax: $0 (foreign income not subject to local tax)
+- Social Security: Still pays 15.3% self-employment tax (~$23,000) unless she qualifies for a totalization agreement
+- FBAR/FATCA: Must report Costa Rican bank accounts if aggregate balance exceeds $10,000
+- **Total tax burden**: ~$23,500 + $23,000 = $46,500 (approximately 31% of income)
+
+Key optimization: Form 2555 (Foreign Earned Income Exclusion) is essential for reducing US tax burden.
+
+### Example 2: UK Developer on Visa
+
+**Scenario**: James is a UK citizen working remotely for a London agency. Annual income: £100,000 (~$125,000 USD).
+
+**Tax Analysis**:
+- UK tax liability: Depends on remaining UK ties; non-residents with no UK property typically pay 0% on foreign employment income
+- Costa Rican tax: Could apply if James is considered tax resident (likely not if visa explicitly temporary)
+- National Insurance: UK does not tax foreign employment, but contributions vary based on residence
+- HMRC reporting: Must report worldwide income if remaining UK resident for tax purposes
+- **Total tax burden**: Potentially 0-20% depending on UK residence determination
+
+Key optimization: Establishing clear non-resident status with HMRC prevents double taxation.
+
+### Example 3: Canadian Developer
+
+**Scenario**: Maya is a Canadian citizen working as a self-employed contractor. Annual income: CAD $140,000.
+
+**Tax Analysis**:
+- Canadian tax liability: Still taxed on worldwide income (Canada taxes residents, not citizens)
+- Foreign tax credit: Any Costa Rican taxes paid can reduce Canadian liability
+- CPP contributions: Self-employed Canadians contribute 9.9% (~CAD $13,860)
+- Costa Rican tax: $0 on foreign income
+- **Total tax burden**: ~30-35% (Canadian rates) plus CPP contributions
+- **Optimization**: Spend <183 days in Canada to avoid provincial taxes (significant savings for BC/AB residents)
+
+Key optimization: Carefully manage days in Canada; leaving before 183 days saves provincial tax (5-20%).
+
+## Investment and Pension Planning for Nomads
+
+Costa Rica's visa is designed for temporary residence, not permanent settlement. Tax-efficient nomads plan for their eventual return or next destination. Consider these financial structures:
+
+**Defined Benefit Pension Plans**: If self-employed in the US, solo 401(k) contributions reduce taxable income:
+
+```python
+# US Self-Employed Retirement Optimization
+annual_income = 150000
+self_employment_tax = annual_income * 0.9235 * 0.153  # ~$20,700
+
+# Solo 401(k) contribution limits
+employee_deferral = min(22500, annual_income)  # Up to $22,500
+employer_contribution = (annual_income - self_employment_tax) * 0.20  # Up to 20%
+
+total_401k_contribution = min(
+    employee_deferral + employer_contribution,
+    69000  # 2024 limit
+)
+
+taxable_income_after_401k = annual_income - total_401k_contribution
+print(f"Reduced taxable income: ${taxable_income_after_401k:,.0f}")
+```
+
+For a $150,000 income, maxing a Solo 401(k) reduces taxable US income to roughly $100,000, saving ~$10,000 in federal tax alone.
+
+**Roth Conversions**: Digital nomads often drop into lower tax brackets during relocation. Consider Roth conversions when taxable income dips due to visa transition timing.
+
+## Healthcare and Insurance Compliance
+
+Costa Rica's digital nomad visa requires health insurance. Maintaining separate health, disability, and life insurance is complex but necessary:
+
+**Insurance Costs** (annual estimates):
+- CAJA (Costa Rican public health): ~$80-120/month for non-residents
+- International health (expat-focused): $150-400/month depending on age and coverage
+- Disability income insurance: $50-150/month
+- Life insurance: $20-50/month (age-dependent)
+
+**Total monthly**: $300-700 for comprehensive coverage
+
+Many remote workers maintain their home country insurance and add supplemental Costa Rican coverage for local medical needs. This approach costs more but ensures continuity when returning to your home country.
+
+## Quarterly Compliance Calendar
+
+Maintain this calendar to avoid late filings and penalties:
+
+| Month | Task |
+|-------|------|
+| January | Calculate prior year taxes; determine residence status for the year |
+| March 15 | US tax return deadline (April 15 with extension) |
+| April 30 | Costa Rican annual income tax return deadline |
+| June 15 | US estimated quarterly tax payment (if self-employed) |
+| September 15 | US estimated quarterly tax payment |
+| October 15 | US tax filing deadline (if extension filed) |
+| December 31 | File FBAR (Form 114) by April 15 of following year |
+
+Missing any of these creates penalties and complications with both tax authorities.
+
+## Professional Tax Help: Cost Benefit
+
+Hiring a tax professional familiar with digital nomad situations costs $2,000-5,000 annually but often saves more than that through optimization. When evaluating tax professionals:
+
+- **Search for "digital nomad tax" specialists** on platforms like Clarity or Crosson.com
+- **Verify Costa Rican tax experience**: US-only CPAs may miss important details
+- **Ask about specific optimizations** (Foreign Earned Income Exclusion, solo 401k, Roth conversions)
+- **Expect to pay per-project**: $500-1,500 for initial setup, $300-500 for annual filings
+
+For income below $60,000, self-filing with good record-keeping works. Above $100,000, professional help typically pays for itself through tax reduction strategies.
+
+## Long-Term Visa Planning Beyond Costa Rica
+
+Digital nomad visas are designed as temporary arrangements. Plan your next move:
+
+- **Visa stacking**: Some digital nomads rotate between countries (Costa Rica → Portugal → Mexico) to minimize tax residence anywhere
+- **Residency timing**: If Costa Rica becomes home, transition to permanent residency (requires 3x income proof or property ownership)
+- **Remote employee status**: Becoming a full-time employee of a Costa Rican company changes tax rules significantly (and usually unfavorably)
+
+The most tax-efficient path for most nomads: maintain home country tax residence, use digital nomad visas temporarily, and repatriate when home country situation improves.
+
 
 ## Related Reading
 

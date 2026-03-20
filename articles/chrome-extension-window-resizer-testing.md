@@ -140,6 +140,126 @@ Text that looks perfect on desktop may be unreadable on mobile or appear too lar
 
 Navigation menus that work beautifully on desktop often break on mobile. Test your hamburger menus, slide-out navigation, and any conditional menus at multiple viewport sizes to ensure smooth transitions and easy touch access.
 
+## Extension Comparison and Pricing
+
+| Extension | Free | Pro | Real-Time Preview | Preset Devices | Screenshots |
+|-----------|------|-----|-------------------|-----------------|------------|
+| Window Resizer | Yes | $8 one-time | Yes | 20+ | Yes |
+| Viewport Resizer | Yes | Free | Yes | 15+ | No |
+| Responsive Viewer | Yes | Free | Yes-simultaneous | 25+ | Yes |
+| Screenfly | No | $4.99 | Yes | 30+ | Yes |
+| Mobile Simulator | Yes | $10 | Yes | 40+ | Yes |
+
+Window Resizer remains the best all-around choice for most developers due to its balance of features and low cost. However, Responsive Viewer excels if you need simultaneous multi-viewport testing. For budget-conscious developers, the free options (Viewport Resizer, free tier of Responsive Viewer) handle most workflows adequately.
+
+## Advanced Testing with Chromatic
+
+For teams managing large component libraries, visual regression testing with Chromatic integrates directly with Chrome's window resizer testing:
+
+```javascript
+// Example: Testing with Chromatic CLI
+// chromatic script automatically tests across viewport sizes
+
+const chromatic = require('chromatic');
+
+async function testResponsiveComponents() {
+  const viewports = [
+    { width: 375, height: 667, label: 'iPhone' },
+    { width: 768, height: 1024, label: 'iPad' },
+    { width: 1920, height: 1080, label: 'Desktop' }
+  ];
+
+  for (const viewport of viewports) {
+    await chromatic.snapshot({
+      url: 'https://storybook.example.com',
+      viewport: viewport,
+      component: 'Button'
+    });
+  }
+}
+
+testResponsiveComponents();
+```
+
+This approach scales to hundreds of components and creates a permanent visual reference you can compare across commits.
+
+## Testing Device-Specific Interactions
+
+Window resizer testing handles viewport dimensions but misses device-specific interactions. Modern remote testing services like BrowserStack combine viewport simulation with actual device farm testing:
+
+- **BrowserStack pricing**: $99-499/month depending on device access needs
+- **Sauce Labs**: Similar pricing with focus on automation at scale
+- **Lambdatest**: Competitive at $99/month with 24/7 support
+
+These tools matter for teams shipping to millions of users. For most agencies and internal projects, viewport resizing extensions suffice for the 80% case.
+
+## Creating a Responsive Testing Workflow
+
+Establish a systematic testing process within your development cycle:
+
+```bash
+#!/bin/bash
+# responsive-test.sh - Test all critical pages at key breakpoints
+
+PAGES=(
+  "https://example.com/"
+  "https://example.com/products"
+  "https://example.com/blog"
+)
+
+BREAKPOINTS=(
+  "320x480"   # Small mobile
+  "375x667"   # iPhone size
+  "768x1024"  # Tablet
+  "1024x768"  # Landscape tablet
+  "1280x720"  # Desktop
+  "1920x1080" # Large desktop
+)
+
+for page in "${PAGES[@]}"; do
+  echo "Testing $page"
+  for bp in "${BREAKPOINTS[@]}"; do
+    echo "  Breakpoint: $bp"
+    # Use Puppeteer or Playwright to capture screenshots
+  done
+done
+```
+
+Running this daily or per-commit ensures responsive issues surface immediately rather than reaching production.
+
+## Debugging Responsive Issues
+
+When you identify layout problems through viewport testing, use browser DevTools to diagnose:
+
+1. **Elements Inspector**: Identify which CSS rule causes overflow or misalignment
+2. **Computed Styles**: Verify that media queries apply as expected
+3. **Grid/Flexbox Debugger**: Firefox's DevTools include excellent layout debugging
+4. **Mobile Emulation**: Chrome's native mobile emulation (F12 → Toggle device toolbar) complements resizer extensions
+
+The combination of window resizer extensions and browser DevTools provides comprehensive debugging capability for responsive issues.
+
+## Performance Considerations at Different Viewports
+
+Desktop browsers can render complex layouts efficiently. Mobile viewports expose performance issues that remain hidden at larger sizes:
+
+- **DOM complexity**: Render trees with thousands of nodes perform better on desktop than mobile
+- **Script execution**: JavaScript that takes 100ms on desktop may take 500ms on mobile due to CPU limitations
+- **Image optimization**: Unoptimized images matter less on desktop; mobile users notice immediately
+
+When testing responsive designs, profiling performance at mobile viewport sizes reveals optimization opportunities. Use Lighthouse audits within Chrome DevTools to identify performance regressions at specific breakpoints.
+
+## Building a Device-Agnostic Testing Framework
+
+The ultimate goal of responsive testing is ensuring your site works across any device. Achieve this by:
+
+1. **Testing at real-world breakpoints** based on your analytics data, not arbitrary numbers
+2. **Automating visual regression testing** to catch subtle layout changes
+3. **Performance testing** at mobile viewport sizes specifically
+4. **Touch interaction testing** using Playwright or Puppeteer to simulate touch events
+5. **Actual device testing** for critical user flows (purchase, signup, key conversions)
+
+Window resizer extensions handle #1 effectively. Combine them with automation and occasional real device testing for comprehensive coverage.
+
 ## Related Reading
 
 - [Best Window Management Tools for Developers](/remote-work-tools/best-window-management-tools-for-developers/)

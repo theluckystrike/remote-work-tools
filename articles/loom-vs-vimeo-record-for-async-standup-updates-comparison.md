@@ -138,6 +138,171 @@ For most engineering teams doing async standups, Loom's frictionless approach wi
 
 The best approach: try both tools with your actual standup workflow for one week each. Measure time from "want to record" to "team has watched" using each platform. The tool that minimizes friction for your specific team composition wins.
 
+## Alternative Options: OBS and Self-Hosted Solutions
+
+For teams wanting maximum control and privacy, open-source alternatives exist:
+
+### OBS (Open Broadcaster Software)
+
+**Cost**: Free
+**Platforms**: Windows, macOS, Linux
+**Best for**: Technical teams comfortable with open-source tools
+
+OBS records screen and camera simultaneously with fine-grained control:
+
+```bash
+# OBS command line recording
+obs-cli record --output "standup_$(date +%Y%m%d).mp4" --duration 300
+```
+
+**Trade-offs**:
+- No built-in sharing infrastructure (you manually upload to Slack or cloud storage)
+- Requires learning OBS interface and scene setup
+- Video files stored locally need external hosting
+- No automatic transcription or analytics
+- Saves money but costs time in setup and file management
+
+OBS suits teams with DevOps capacity who want to own their video infrastructure entirely.
+
+### Mux: Video API for Custom Solutions
+
+**Cost**: $0.001 per minute of video stored
+**Platform**: API-based
+**Best for**: Teams building custom recording applications
+
+Mux provides infrastructure for custom recording solutions:
+
+```javascript
+// Custom standup app using Mux
+const Mux = require('@mux/mux-node');
+
+const mux = new Mux({
+  accessTokenId: process.env.MUX_TOKEN_ID,
+  accessTokenSecret: process.env.MUX_TOKEN_SECRET
+});
+
+async function recordStandup(teamMemberId) {
+  // Create upload URL for standup video
+  const upload = await mux.video.uploads.create({
+    cors_origin: 'https://yourdomain.com'
+  });
+
+  return upload.url;
+}
+```
+
+This approach costs pennies but requires building your own recording and sharing interface.
+
+## Integration Opportunities: Slack Automations
+
+Both Loom and Vimeo can integrate with Slack workflows. Here's how to automate standup collection:
+
+```javascript
+// Slack Slash Command for recording standup
+const { App } = require('@slack/bolt');
+
+const app = new App({
+  token: process.env.SLACK_BOT_TOKEN,
+  signingSecret: process.env.SLACK_SIGNING_SECRET
+});
+
+app.command('/standup', async ({ ack, body, client }) => {
+  ack();
+
+  // Send modal for standup details
+  await client.views.open({
+    trigger_id: body.trigger_id,
+    view: {
+      type: 'modal',
+      callback_id: 'standup_modal',
+      title: { type: 'plain_text', text: 'Record Standup' },
+      blocks: [
+        {
+          type: 'section',
+          text: {
+            type: 'mrkdwn',
+            text: 'Ready to record your standup?\n\n1. Click the Loom extension\n2. Record your update (max 3 minutes)\n3. Share the link here'
+          }
+        }
+      ]
+    }
+  });
+});
+
+app.action('standup_submitted', async ({ body, client, ack }) => {
+  ack();
+  // Log standup to database or thread
+  await client.chat.postMessage({
+    channel: body.user.id,
+    text: 'Standup recorded! Team will review during async standup time.'
+  });
+});
+```
+
+This creates a guided workflow so team members know exactly what to do when you say "post your standup."
+
+## Measuring Standup Effectiveness
+
+Regardless of tool choice, track these metrics:
+
+| Metric | Target | How to Measure |
+|--------|--------|-----------------|
+| Recording rate | 90%+ | Count recordings posted vs team members |
+| Watch rate | 85%+ | Use platform analytics; if <85%, standups are too long |
+| Response time | 24 hours | Track how long before colleague watches |
+| Standup length | 2-3 min | Most platforms show duration; longer = information overload |
+| Engagement | 1+ comment per standup | Track discussions in Slack threads |
+| Time to setup | <60 seconds | Measure from "want to record" to recording in progress |
+
+If your watch rate drops below 75%, standups are too long or too frequent. If setup time exceeds 90 seconds, switching tools reduces friction.
+
+## Troubleshooting Async Standup Adoption
+
+**Problem**: Team members don't watch standups consistently
+
+**Solutions**:
+- Make watching standups part of daily routine (schedule 15 min first thing)
+- Shorter max length (2 minutes, not 5)
+- Highlight key blockers in Slack thread (don't force people to watch entire video)
+
+**Problem**: Recording quality degrades with poor internet
+
+**Solutions**:
+- Use Loom's "quality over speed" setting
+- Record locally with OBS then upload (eliminates network dependency)
+- Reduce resolution if bandwidth is limited
+- Test recording quality on your home network before committing to platform
+
+**Problem**: People record standups at inconsistent times, creating gaps
+
+**Solutions**:
+- Set specific standup time (e.g., "by 9am Monday-Friday")
+- Create Slack reminder 30 minutes before standup deadline
+- Rotate recording responsibility if multiple people manage standups
+- Use scheduled workflow to nudge non-recorders
+
+## Long-Form Video Compared to Standup Format
+
+Standups are short (2-3 min), but some documentation needs longer format. Keep Loom/Vimeo for standups; use different tools for longer content:
+
+- **Code walkthroughs** (5-15 min): Loom or Vimeo Record
+- **Architecture discussions** (20-30 min): Dedicated recording with OBS
+- **Training sessions** (45+ min): YouTube or Vimeo with proper playlist structure
+- **Demos to clients** (10-20 min): Vimeo with custom player branding
+
+The best practice: dedicated short-form tool (Loom) for standups + separate tool for longer documentation keeps your standup archive focused and searchable.
+
+## Cost Optimization for Growing Teams
+
+| Team Size | Recommendation | Cost |
+|-----------|----------------|------|
+| 2-5 people | Loom Free | $0 |
+| 6-10 people | Loom Free (limited by 5-min cap) or Loom Pro for 1-2 people | $12-25/month |
+| 11-20 people | Loom Pro for team or Vimeo Business | $40-60/month |
+| 20+ people | Vimeo Enterprise or OBS + Mux | $300+/month or custom |
+
+Most teams should start with Loom Free and upgrade to Loom Pro ($12/person/month) only when hitting the 5-minute recording limit consistently.
+
 
 ## Related Reading
 
