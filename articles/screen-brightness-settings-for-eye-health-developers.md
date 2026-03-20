@@ -10,6 +10,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
+tags: [remote-work-tools]
 ---
 
 To reduce eye strain, match your screen brightness to your ambient lighting: use 0.3-0.4 brightness in dark rooms, 0.6 in partial daylight, and full brightness in well-lit spaces. Automate these adjustments using system APIs (macOS, Linux xrandr, or Windows PowerShell) and supplement with blue light filtering set to 2700K after sunset. This guide provides cross-platform code examples for programmatic brightness control, ambient light sensor integration, and editor settings that minimize strain during long coding sessions.

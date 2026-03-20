@@ -6,9 +6,9 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /standup-bot-comparison-for-remote-engineering-teams/
 categories: [guides]
-tags: [standup, async, remote-work, team-communication]
+tags: [remote-work-tools, standup, async, remote-work, team-communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

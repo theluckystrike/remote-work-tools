@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /secure-file-transfer-protocol-setup-for-remote-teams-exchang/
 categories: [guides]
-tags: [sftp, security, remote-work, file-transfer]
+tags: [remote-work-tools, sftp, security, remote-work, file-transfer]
 reviewed: true
 score: 8
 intent-checked: true

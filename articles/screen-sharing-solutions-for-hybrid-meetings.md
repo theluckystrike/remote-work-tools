@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /screen-sharing-solutions-for-hybrid-meetings/
 categories: [guides]
-tags: [screen-sharing, hybrid-meetings, video-conferencing, developer-tools]
+tags: [remote-work-tools, screen-sharing, hybrid-meetings, video-conferencing, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

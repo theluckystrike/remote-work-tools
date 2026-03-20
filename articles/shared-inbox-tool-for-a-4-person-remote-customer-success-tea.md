@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /shared-inbox-tool-for-a-4-person-remote-customer-success-tea/
 categories: [guides]
-tags: [customer-success, shared-inbox, remote-work, automation]
+tags: [remote-work-tools, customer-success, shared-inbox, remote-work, automation]
 reviewed: true
 score: 8
 intent-checked: true

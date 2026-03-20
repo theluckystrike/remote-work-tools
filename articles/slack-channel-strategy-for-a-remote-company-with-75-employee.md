@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /slack-channel-strategy-for-a-remote-company-with-75-employee/
 categories: [guides]
-tags: [slack, remote-work, communication]
+tags: [remote-work-tools, slack, remote-work, communication]
 reviewed: true
 score: 8
 intent-checked: true

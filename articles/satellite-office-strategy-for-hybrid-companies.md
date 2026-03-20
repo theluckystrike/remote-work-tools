@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /satellite-office-strategy-for-hybrid-companies/
 categories: [guides]
-tags: [satellite-office, hybrid-work, remote-infrastructure]
+tags: [remote-work-tools, satellite-office, hybrid-work, remote-infrastructure]
 reviewed: true
 score: 8
 intent-checked: true

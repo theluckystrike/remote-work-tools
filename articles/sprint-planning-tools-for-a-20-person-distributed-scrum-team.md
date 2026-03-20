@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /sprint-planning-tools-for-a-20-person-distributed-scrum-team/
 categories: [guides]
-tags: [sprint-planning, scrum, remote-work, project-management]
+tags: [remote-work-tools, sprint-planning, scrum, remote-work, project-management]
 reviewed: true
 score: 8
 intent-checked: true

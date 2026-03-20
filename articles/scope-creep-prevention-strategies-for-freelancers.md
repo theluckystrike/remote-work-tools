@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /scope-creep-prevention-strategies-for-freelancers/
 categories: [workflows, productivity]
-tags: [scope-creep, freelance-tips, project-management]
+tags: [remote-work-tools, scope-creep, freelance-tips, project-management]
 reviewed: true
 score: 8
 intent-checked: true

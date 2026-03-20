@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /shared-inbox-setup-for-remote-agency-client-support-emails/
 categories: [guides]
-tags: [email, remote-work, automation, agency]
+tags: [remote-work-tools, email, remote-work, automation, agency]
 reviewed: true
 score: 8
 intent-checked: true

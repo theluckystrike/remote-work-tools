@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /south-korea-digital-nomad-visa-application-requirements-for-/
 categories: [guides, workflows]
-tags: [digital-nomad-visa, south-korea-visa, remote-work-visa, korea-visa-requirements, nomad-visa]
+tags: [remote-work-tools, digital-nomad-visa, south-korea-visa, remote-work-visa, korea-visa-requirements, nomad-visa]
 reviewed: true
 score: 8
 intent-checked: true

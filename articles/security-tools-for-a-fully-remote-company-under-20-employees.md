@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /security-tools-for-a-fully-remote-company-under-20-employees/
 categories: [guides]
-tags: [security, remote-work, vpn, 2fa, endpoint-protection]
+tags: [remote-work-tools, security, remote-work, vpn, 2fa, endpoint-protection]
 reviewed: true
 score: 8
 intent-checked: true

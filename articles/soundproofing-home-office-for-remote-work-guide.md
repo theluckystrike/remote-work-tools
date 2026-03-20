@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /soundproofing-home-office-for-remote-work-guide/
 categories: [guides]
-tags: [workspace, productivity, remote-work, acoustics, soundproofing]
+tags: [remote-work-tools, workspace, productivity, remote-work, acoustics, soundproofing]
 reviewed: true
 score: 8
 intent-checked: true
