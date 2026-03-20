@@ -1,10 +1,10 @@
 ---
 
 layout: default
-title: "How to Calculate Timezone Overlap Hours When Remote Team."
-description: "A practical guide for developers and remote teams to calculate timezone overlap hours between Asia and Americas using code and proven formulas."
+title: "How to Calculate Timezone Overlap Hours When Remote Team Spans Asia and Americas"
+description: "A practical guide for developers and power users to calculate timezone overlap hours between Asia and Americas using code and proven formulas."
 date: 2026-03-16
-author: "Remote Work Tools Guide"
+author: theluckystrike
 permalink: /how-to-calculate-timezone-overlap-hours-when-remote-team-spa/
 reviewed: true
 score: 8
