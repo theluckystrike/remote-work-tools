@@ -7,10 +7,11 @@ date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 

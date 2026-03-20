@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-readme-files-in-repositories-s/
 categories: [guides]
-tags: [documentation, remote-work, developer-experience, dev-tools, team-collaboration]
+tags: [remote-work-tools, documentation, remote-work, developer-experience, dev-tools, team-collaboration, best-of]
 reviewed: true
 score: 8
 intent-checked: true

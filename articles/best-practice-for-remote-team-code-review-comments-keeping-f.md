@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-code-review-comments-keeping-f/
 categories: [guides]
-tags: [code-review, remote-work, feedback, team-collaboration, developer-culture]
+tags: [remote-work-tools, code-review, remote-work, feedback, team-collaboration, developer-culture, best-of]
 reviewed: true
 score: 8
 intent-checked: true

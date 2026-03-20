@@ -6,8 +6,8 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/
 categories: [guides]
-tags: [quarterly-planning, remote-work, scaling, multi-team, planning-process, async]
-score: 7
+tags: [remote-work-tools, quarterly-planning, remote-work, scaling, multi-team, planning-process, async, best-of]
+score: 8
 voice-checked: true
 reviewed: true
 ---

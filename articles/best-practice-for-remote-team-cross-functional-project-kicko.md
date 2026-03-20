@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-cross-functional-project-kicko/
 categories: [guides]
-tags: [remote-work, project-management, kickoff-meeting, cross-functional-teams, meeting-agenda]
+tags: [remote-work-tools, remote-work, project-management, kickoff-meeting, cross-functional-teams, meeting-agenda, best-of]
 reviewed: true
 score: 8
 intent-checked: true

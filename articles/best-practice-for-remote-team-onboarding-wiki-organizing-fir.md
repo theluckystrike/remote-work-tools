@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-onboarding-wiki-organizing-fir/
 categories: [guides]
-tags: [remote-onboarding, team-wiki, remote-work, onboarding-checklist, first-week-tasks, developer-onboarding]
+tags: [remote-work-tools, remote-onboarding, team-wiki, remote-work, onboarding-checklist, first-week-tasks, developer-onboarding, best-of]
 reviewed: true
 score: 8
 intent-checked: true
