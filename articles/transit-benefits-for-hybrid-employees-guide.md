@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /transit-benefits-for-hybrid-employees-guide/
 categories: [guides]
-tags: [transit, commuting, hybrid work, benefits, savings]
+tags: [remote-work-tools, transit, commuting, hybrid work, benefits, savings]
 reviewed: true
 score: 8
 intent-checked: true

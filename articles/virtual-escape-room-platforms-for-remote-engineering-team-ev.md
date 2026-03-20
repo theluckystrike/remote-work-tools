@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /virtual-escape-room-platforms-for-remote-engineering-team-ev/
 categories: [guides]
-tags: [remote-work, team-building, virtual-events]
+tags: [remote-work-tools, remote-work, team-building, virtual-events]
 reviewed: true
 score: 8
 intent-checked: true

@@ -9,7 +9,8 @@ categories: [comparisons]
 intent-checked: true
 voice-checked: true
 reviewed: true
-score: 8
+score: 9
+tags: [remote-work-tools, comparison]
 ---
 
 

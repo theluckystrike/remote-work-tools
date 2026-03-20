@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /time-audit-for-remote-workers-how-to-guide-2026/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 voice-checked: true

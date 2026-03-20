@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/
 categories: [guides]
-tags: [remote-work, team-rituals, async-communication, weekly-meetings, distributed-teams]
+tags: [remote-work-tools, remote-work, team-rituals, async-communication, weekly-meetings, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

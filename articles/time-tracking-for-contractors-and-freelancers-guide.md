@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /time-tracking-for-contractors-and-freelancers-guide/
 categories: [guides]
-tags: [time-tracking, freelancers, contractors, productivity]
+tags: [remote-work-tools, time-tracking, freelancers, contractors, productivity]
 reviewed: true
 score: 8
 intent-checked: true

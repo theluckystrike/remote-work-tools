@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /video-conferencing-setup-for-a-remote-team-of-3-cofounders/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /weekly-wins-channel-setup-and-facilitation-for-remote-team-m/
 categories: [guides]
-tags: [remote-work, team-culture, morale, slack, discord, async-communication]
+tags: [remote-work-tools, remote-work, team-culture, morale, slack, discord, async-communication]
 reviewed: true
 score: 8
 intent-checked: true

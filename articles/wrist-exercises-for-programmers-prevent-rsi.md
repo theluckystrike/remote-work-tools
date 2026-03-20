@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /wrist-exercises-for-programmers-prevent-rsi/
 categories: [guides]
-tags: [health, productivity, developer tools, ergonomics, rsi prevention]
+tags: [remote-work-tools, health, productivity, developer tools, ergonomics, rsi prevention]
 reviewed: true
 score: 8
 intent-checked: true

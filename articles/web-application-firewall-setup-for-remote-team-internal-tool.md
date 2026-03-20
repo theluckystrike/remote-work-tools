@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /web-application-firewall-setup-for-remote-team-internal-tool/
 categories: [guides]
-tags: [waf, security, remote-work, internal-tools]
+tags: [remote-work-tools, waf, security, remote-work, internal-tools]
 reviewed: true
 score: 8
 intent-checked: true

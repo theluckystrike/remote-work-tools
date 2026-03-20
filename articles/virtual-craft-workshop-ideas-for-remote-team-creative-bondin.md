@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /virtual-craft-workshop-ideas-for-remote-team-creative-bondin/
 categories: [guides]
-tags: [remote-work, team-building, virtual-events, creative-bonding]
+tags: [remote-work-tools, remote-work, team-building, virtual-events, creative-bonding]
 reviewed: true
 score: 8
 intent-checked: true

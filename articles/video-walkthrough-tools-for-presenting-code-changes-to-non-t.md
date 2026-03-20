@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /video-walkthrough-tools-for-presenting-code-changes-to-non-t/
 categories: [guides]
-tags: [video-tools, client-communication, code-presentation, developer-tools, screen-recording]
+tags: [remote-work-tools, video-tools, client-communication, code-presentation, developer-tools, screen-recording]
 reviewed: true
 score: 8
 intent-checked: true

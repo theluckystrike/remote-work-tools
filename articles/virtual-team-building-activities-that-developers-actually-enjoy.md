@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /virtual-team-building-activities-that-developers-actually-enjoy/
 categories: [guides]
-tags: [remote-work, team-building, developers, productivity]
+tags: [remote-work-tools, remote-work, team-building, developers, productivity]
 reviewed: true
 score: 8
 intent-checked: true

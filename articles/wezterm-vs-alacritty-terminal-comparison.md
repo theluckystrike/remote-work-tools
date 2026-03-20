@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /wezterm-vs-alacritty-terminal-comparison/
 categories: [guides]
-tags: [wezterm, alacritty, terminal, emulator, development-tools]
+tags: [remote-work-tools, wezterm, alacritty, terminal, emulator, development-tools, comparison]
 reviewed: true
 score: 8
 intent-checked: true

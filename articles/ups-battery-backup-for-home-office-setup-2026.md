@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /ups-battery-backup-for-home-office-setup-2026/
 categories: [guides]
-tags: [ups, power-backup, home-office, hardware]
+tags: [remote-work-tools, ups, power-backup, home-office, hardware]
 reviewed: true
 score: 8
 intent-checked: true
