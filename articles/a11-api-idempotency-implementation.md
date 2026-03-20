@@ -8,7 +8,7 @@ permalink: /a11-api-idempotency-implementation/
 categories: [guides]
 tags: [remote-work-tools, api-design, distributed-systems, backend-development, reliability, best-practices, api]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
