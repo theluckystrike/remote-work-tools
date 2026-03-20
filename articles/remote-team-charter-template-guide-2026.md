@@ -238,3 +238,7 @@ Treat the charter as a living document. Schedule quarterly reviews to ensure it 
 
 **Copy-pasting templates.** A generic charter won't address your team's specific challenges. Customize for your context.
 
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
