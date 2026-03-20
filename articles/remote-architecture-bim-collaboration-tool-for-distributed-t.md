@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-architecture-bim-collaboration-tool-for-distributed-t/
 categories: [guides]
-tags: [bim, revit, architecture, remote-collaboration, distributed-teams, building-information-modeling]
+tags: [remote-work-tools, bim, revit, architecture, remote-collaboration, distributed-teams, building-information-modeling, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

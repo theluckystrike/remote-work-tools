@@ -6,9 +6,9 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-architecture-collaboration-tool-for-distributed-teams/
 categories: [guides]
-tags: [cad, remote-collaboration, architecture-tools, distributed-teams, engineering-collaboration, cad-review]
+tags: [remote-work-tools, cad, remote-collaboration, architecture-tools, distributed-teams, engineering-collaboration, cad-review, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

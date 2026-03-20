@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /remote-1-on-1-meeting-tool-comparison-for-distributed-manage/
 categories: [guides]
-tags: [remote-work, 1-on-1-meetings, distributed-teams, management-tools, async-communication]
+tags: [remote-work-tools, remote-work, 1-on-1-meetings, distributed-teams, management-tools, async-communication]
 reviewed: true
 score: 8
 intent-checked: true

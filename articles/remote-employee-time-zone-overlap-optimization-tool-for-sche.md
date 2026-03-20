@@ -10,6 +10,7 @@ score: 8
 categories: [guides]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, remote-work]
 ---
 
 Use a time zone overlap optimization tool to identify shared working hours across distributed teams, schedule critical meetings during windows that include all zones, and adjust work hours when beneficial. Tools like When2Meet or custom spreadsheets solve this common scheduling pain point.

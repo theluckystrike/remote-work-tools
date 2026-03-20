@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-client-data-security-compliance-checklist-for-proposals/
 categories: [guides]
-tags: [security, compliance, remote-work, proposals]
+tags: [remote-work-tools, security, compliance, remote-work, proposals]
 reviewed: true
 score: 8
 intent-checked: true

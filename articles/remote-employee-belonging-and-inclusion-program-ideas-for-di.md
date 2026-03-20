@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/
 categories: [guides]
-tags: [remote-work, inclusion, belonging, distributed-teams, culture]
+tags: [remote-work-tools, remote-work, inclusion, belonging, distributed-teams, culture]
 reviewed: true
 score: 8
 intent-checked: true

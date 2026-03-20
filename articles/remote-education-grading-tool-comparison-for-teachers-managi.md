@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-education-grading-tool-comparison-for-teachers-managi/
 categories: [comparisons]
-tags: [grading, online-education, edtech, automation, api]
+tags: [remote-work-tools, grading, online-education, edtech, automation, api, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

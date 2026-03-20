@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-client-nda-and-contract-signing-workflow-digit/
 categories: [guides]
-tags: [contracts, legal, workflow, remote-work, automation]
+tags: [remote-work-tools, contracts, legal, workflow, remote-work, automation]
 reviewed: true
 score: 8
 intent-checked: true

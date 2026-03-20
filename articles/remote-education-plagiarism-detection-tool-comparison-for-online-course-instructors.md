@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-education-plagiarism-detection-tool-comparison-for-online-course-instructors/
 categories: [guides]
-tags: [plagiarism, education, remote-work, tools]
+tags: [remote-work-tools, plagiarism, education, remote-work, tools]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-subcontractor-client-communication-boundaries-/
 categories: [guides]
-tags: [remote-work, subcontractor, agency, communication, boundaries, developer-tools]
+tags: [remote-work-tools, remote-work, subcontractor, agency, communication, boundaries, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

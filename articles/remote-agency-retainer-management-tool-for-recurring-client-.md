@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-retainer-management-tool-for-recurring-client-/
 categories: [guides]
-tags: [retainer, client-management, remote-work, automation]
+tags: [remote-work-tools, retainer, client-management, remote-work, automation]
 reviewed: true
 score: 8
 intent-checked: true

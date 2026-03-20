@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /remote-accountability-systems-guide-2026/
 categories: [guides]
-tags: [remote-work, accountability, async-communication, team-management, productivity, distributed-teams]
+tags: [remote-work-tools, remote-work, accountability, async-communication, team-management, productivity, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

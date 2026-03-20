@@ -9,6 +9,7 @@ voice-checked: true
 reviewed: true
 score: 8
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

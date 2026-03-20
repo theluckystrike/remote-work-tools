@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-output-based-performance-measurement-framewo/
 categories: [guides]
-tags: [remote-performance, output-metrics, remote-management, performance-kpis, remote-work]
+tags: [remote-work-tools, remote-performance, output-metrics, remote-management, performance-kpis, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

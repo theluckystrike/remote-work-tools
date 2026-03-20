@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-client-satisfaction-survey-template-and-automa/
 categories: [guides]
-tags: [client-survey, remote-work, automation, feedback, workflow]
+tags: [remote-work-tools, client-survey, remote-work, automation, feedback, workflow]
 reviewed: true
 score: 8
 intent-checked: true

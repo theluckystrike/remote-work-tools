@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/
 categories: [guides]
-tags: [remote-work, content, seo, collaboration]
+tags: [remote-work-tools, remote-work, content, seo, collaboration, workflow]
 reviewed: true
 score: 8
 intent-checked: true

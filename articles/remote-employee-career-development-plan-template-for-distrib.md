@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-career-development-plan-template-for-distrib/
 categories: [guides]
-tags: [career-development, remote-work, distributed-teams, management, hr]
+tags: [remote-work-tools, career-development, remote-work, distributed-teams, management, hr]
 reviewed: true
 score: 8
 intent-checked: true

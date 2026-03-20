@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/
 categories: [guides]
-tags: [remote-work, time-zones, scheduling, tools]
+tags: [remote-work-tools, remote-work, time-zones, scheduling, tools]
 reviewed: true
 score: 8
 intent-checked: true

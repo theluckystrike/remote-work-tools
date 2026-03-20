@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-scope-change-request-workflow-for-client-projects/
 categories: [troubleshooting]
-tags: [scope-change, client-communication, remote-agency]
+tags: [remote-work-tools, scope-change, client-communication, remote-agency, workflow, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

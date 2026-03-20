@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-developer-documentation-collaboration-tools-for-maint/
 categories: [guides]
-tags: [documentation, wikis, collaboration, remote-work, engineering]
+tags: [remote-work-tools, documentation, wikis, collaboration, remote-work, engineering]
 reviewed: true
 score: 8
 intent-checked: true

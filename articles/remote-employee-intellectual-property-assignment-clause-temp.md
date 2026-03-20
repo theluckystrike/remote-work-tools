@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-employee-intellectual-property-assignment-clause-temp/
 categories: [guides]
-tags: [intellectual-property, remote-work, legal, contracts, distributed-teams, ip-assignment]
+tags: [remote-work-tools, intellectual-property, remote-work, legal, contracts, distributed-teams, ip-assignment]
 reviewed: true
 score: 8
 intent-checked: true

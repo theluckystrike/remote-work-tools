@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-equipment-return-shipping-logistics-and-trac/
 categories: [guides, workflows]
-tags: [shipping, equipment-management, logistics, tracking, api]
+tags: [remote-work-tools, shipping, equipment-management, logistics, tracking, api, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
