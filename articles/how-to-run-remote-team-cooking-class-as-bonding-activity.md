@@ -8,7 +8,7 @@ permalink: /how-to-run-remote-team-cooking-class-as-bonding-activity/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, virtual-events, cooking, bonding]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

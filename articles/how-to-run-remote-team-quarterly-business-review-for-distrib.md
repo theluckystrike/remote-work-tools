@@ -8,7 +8,7 @@ permalink: /how-to-run-remote-team-quarterly-business-review-for-distrib/
 categories: [guides]
 tags: [remote-work-tools, quarterly-business-review, remote-work, distributed-teams, leadership, async-meetings, team-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

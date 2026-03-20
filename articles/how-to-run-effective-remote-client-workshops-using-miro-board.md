@@ -8,7 +8,7 @@ permalink: /how-to-run-effective-remote-client-workshops-using-miro-board/
 categories: [guides]
 tags: [remote-work-tools, remote-work, client-workshops, miro, virtual-meetings, collaboration-tools, workshop-facilitation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
