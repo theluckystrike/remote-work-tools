@@ -7,7 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-acoustic-foam-placement-for-home-office-zoom-call-quali/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
