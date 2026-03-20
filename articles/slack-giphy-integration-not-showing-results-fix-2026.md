@@ -161,5 +161,10 @@ Most issues resolve within the first three steps. Network and firewall restricti
 
 Giphy integration adds significant value to remote team communication, providing quick emotional context that text alone cannot convey. When it breaks, your team loses one of the lighter touchpoints in async collaboration. With these troubleshooting steps, you can restore functionality quickly and get back to sharing relevant GIFs in your team channels.
 
+
+## Related Reading
+
+- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
