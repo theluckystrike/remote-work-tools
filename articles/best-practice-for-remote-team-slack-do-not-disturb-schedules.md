@@ -152,6 +152,152 @@ Track whether your DND policies actually improve work-life balance. Consider mon
 
 Adjust schedules based on feedback. A policy that works for a five-person startup may need modification as you scale.
 
+## Advanced DND Management with Slack Workflows
+
+Slack Workflows enable sophisticated DND management without additional tooling. Create a workflow that runs at your designated DND start time:
+
+1. Trigger: Scheduled time (e.g., 6 PM daily)
+2. Action: Update your Slack status to "🌙 DND until 8 AM"
+3. Action: Send a message to your team channel confirming DND is active
+4. Optional: Create a button for team members to request urgent escalation
+
+This approach ensures consistent communication of your availability without relying on manual status updates.
+
+## Timezone-Aware Team Automation Scripts
+
+For teams managing complex timezone arrangements, a simple deployment-ready script can automate DND management across your organization:
+
+```python
+#!/usr/bin/env python3
+import os
+import json
+from datetime import datetime, timedelta
+from slack_sdk import WebClient
+from slack_sdk.errors import SlackApiError
+import pytz
+
+class DndScheduleManager:
+    def __init__(self, slack_token):
+        self.client = WebClient(token=slack_token)
+
+    def get_team_members(self):
+        """Fetch all active workspace members"""
+        try:
+            response = self.client.users_list()
+            return [user for user in response['members'] if not user['deleted'] and not user['is_bot']]
+        except SlackApiError as e:
+            print(f"Error fetching team members: {e.response['error']}")
+            return []
+
+    def apply_dnd_schedule(self, user_id, tz_name, work_hours):
+        """
+        Apply DND schedule based on timezone.
+        work_hours: {"start": "08:00", "end": "17:00"}
+        """
+        try:
+            tz = pytz.timezone(tz_name)
+            now = datetime.now(tz)
+
+            work_start = datetime.strptime(work_hours['start'], '%H:%M').time()
+            work_end = datetime.strptime(work_hours['end'], '%H:%M').time()
+
+            # Check if currently in work hours
+            if work_start <= now.time() <= work_end:
+                # During work hours - no DND
+                dnd_duration = 0
+            else:
+                # Outside work hours - calculate time until next work day starts
+                if now.time() < work_start:
+                    # Before work start today
+                    next_start = now.replace(hour=work_start.hour, minute=work_start.minute, second=0)
+                else:
+                    # After work end today - tomorrow morning
+                    tomorrow = now + timedelta(days=1)
+                    next_start = tomorrow.replace(hour=work_start.hour, minute=work_start.minute, second=0)
+
+                duration_seconds = (next_start - now).total_seconds()
+                dnd_duration = max(1, int(duration_seconds / 60))
+
+            if dnd_duration > 0:
+                response = self.client.dnd_setSnooze(
+                    user_id=user_id,
+                    num_minutes=min(dnd_duration, 480)  # Cap at 8 hours per Slack limits
+                )
+                return {'status': 'success', 'user_id': user_id, 'snooze_minutes': min(dnd_duration, 480)}
+            return {'status': 'skipped', 'user_id': user_id, 'reason': 'In work hours'}
+
+        except SlackApiError as e:
+            return {'status': 'error', 'user_id': user_id, 'error': str(e)}
+
+    def sync_dnd_for_organization(self, schedule_config):
+        """
+        schedule_config format:
+        {
+            "user_id": {"timezone": "America/Los_Angeles", "work_hours": {"start": "09:00", "end": "17:00"}},
+            ...
+        }
+        """
+        results = []
+        for user_id, config in schedule_config.items():
+            result = self.apply_dnd_schedule(
+                user_id,
+                config['timezone'],
+                config['work_hours']
+            )
+            results.append(result)
+        return results
+
+# Usage example
+if __name__ == '__main__':
+    slack_token = os.environ.get('SLACK_BOT_TOKEN')
+    manager = DndScheduleManager(slack_token)
+
+    # Define your team's timezone configuration
+    team_schedule = {
+        'U123456789': {
+            'timezone': 'America/Los_Angeles',
+            'work_hours': {'start': '09:00', 'end': '18:00'}
+        },
+        'U987654321': {
+            'timezone': 'Europe/London',
+            'work_hours': {'start': '08:00', 'end': '17:00'}
+        },
+        'U555555555': {
+            'timezone': 'Asia/Tokyo',
+            'work_hours': {'start': '09:00', 'end': '18:00'}
+        }
+    }
+
+    # Run the synchronization
+    results = manager.sync_dnd_for_organization(team_schedule)
+    print(json.dumps(results, indent=2))
+```
+
+Deploy this script as a scheduled Lambda function or cron job that runs every hour. It automatically ensures team members' DND settings match their timezone and work hours.
+
+## Communicating DND Policies in Onboarding
+
+New hires often don't understand timezone-aware DND practices. Add this to your onboarding documentation:
+
+**DND Protocol for [Company Name]**
+- Core hours: 12 PM - 4 PM UTC (everyone expected to be available)
+- Personal hours: Protect your local working hours with DND
+- Escalation: Production incidents override DND (use #emergency channel)
+- Respect: Never message someone during their marked DND hours unless truly urgent
+- Template message: "Available in [timezone] 9 AM - 5 PM. Using DND outside these hours."
+
+Include this in your team handbook and link it in Slack channel topics.
+
+## Monitoring DND Effectiveness
+
+Track whether your DND policies actually work using these metrics:
+
+1. **After-hours message volume**: Dashboard showing messages sent after 6 PM by timezone
+2. **Burnout indicators**: Track if people maintain consistent work hours or drift into late-night work
+3. **Quick pulse survey**: "Do you feel respected during your DND hours?" (1-5 scale monthly)
+
+Share results quarterly with the team. If people report not respecting DND, revisit your emergency protocols or consider team norms discussions.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
