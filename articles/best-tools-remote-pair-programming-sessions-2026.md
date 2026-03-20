@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /best-tools-remote-pair-programming-sessions-2026/
 categories: [guides]
-tags: [remote-work, collaboration, pair-programming]
+tags: [remote-work-tools, remote-work, collaboration, pair-programming, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---
