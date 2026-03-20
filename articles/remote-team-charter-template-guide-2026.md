@@ -239,6 +239,86 @@ Treat the charter as a living document. Schedule quarterly reviews to ensure it 
 
 **Copy-pasting templates.** A generic charter won't address your team's specific challenges. Customize for your context.
 
+## Version-Controlling Your Team Charter
+
+Storing a charter in a shared Google Doc or Confluence page creates accountability problems. There's no audit trail for who changed what, no way to revert contentious edits, and no mechanism for the team to formally approve changes.
+
+Store the charter in a Git repository alongside your code or documentation. Use pull requests for amendments, requiring review from at least two team members before merging:
+
+```bash
+# Team charter in version control
+docs/
+  team-charter.md           # The live charter
+  charter-history/
+    2026-01-charter-v1.md   # Initial version, archived
+    2026-03-charter-v2.md   # After Q1 retrospective
+
+# Amendment workflow
+git checkout -b charter/update-meeting-norms
+# Edit team-charter.md
+git add docs/team-charter.md
+git commit -m "charter: reduce standup to 3x/week based on retrospective feedback"
+git push origin charter/update-meeting-norms
+# Open PR, team reviews and merges
+```
+
+This creates a full history of every charter change, who proposed it, and what feedback was raised. When a team member questions a norm, you can trace it to the original discussion rather than arguing about what was "always the rule."
+
+## Handling Onboarding: Charter as the First Day Document
+
+New team members should receive the charter before their first day. Structure the onboarding section to answer the questions a new hire can't ask without feeling intrusive:
+
+```markdown
+## Onboarding Section (read this first)
+
+### What "async-first" actually means for day-to-day work
+
+We default to written communication in Slack and Notion over calls.
+If you have a question, post it in the relevant channel rather than
+scheduling a meeting. Most questions get answered within 4 hours
+during overlap time (10:00-14:00 UTC).
+
+### When it's appropriate to call someone
+
+- You're blocked and async hasn't resolved it in 2 hours
+- You're new (first 30 days) and genuinely confused — just ask
+- There's an active incident (SEV-1/SEV-2)
+
+### How to get feedback on your work
+
+Post a message in #team with a link and specific questions.
+"LGTM?" is not a question. "Does my data model for X handle Y edge case correctly?" is.
+
+### What happens at sprint planning
+
+We meet every other Tuesday at 10:00 UTC for 90 minutes.
+Come having read the tickets in the upcoming sprint backlog.
+Come prepared to flag any tickets you think are under-estimated.
+```
+
+The specificity matters. Vague onboarding sections ("we value communication") tell new hires nothing actionable. Explicit examples eliminate the guesswork that causes friction in the first 60 days.
+
+## Quarterly Charter Reviews: What to Actually Revisit
+
+Not all charter sections age at the same rate. Focus quarterly reviews on sections with operational impact rather than aspirational statements:
+
+**Always review:**
+- Core overlap hours — team composition changes, meeting times shift
+- Response time expectations — these become wrong as the team grows
+- Decision-making authority — promotions and reorgs change who decides what
+- Tool stack — tools get added, deprecated, or consolidated
+
+**Review annually:**
+- Professional development budget and allocations
+- Performance expectations and feedback cadence
+- Meeting norms that have been stable
+
+**Skip:**
+- Team purpose section (unless there's been a strategic pivot)
+- Signature page (it's a record, don't alter it)
+
+Run the quarterly review as a 60-minute async session: post specific questions about each high-priority section in Notion or Confluence, let team members comment asynchronously over two days, then hold a 30-minute synchronous call to resolve disagreements and merge the updated version.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

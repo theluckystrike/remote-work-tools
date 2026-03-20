@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "How to Calculate Productive Overlap Hours for Remote Pair Programming Across Timezones"
-description: "A practical guide for developers working across timezones to calculate and maximize productive pair programming hours with code examples and real-world scenarios."
+title: "How to Calculate Productive Overlap Hours for Remote."
+description: "A practical guide for developers working across timezones to calculate and maximize productive pair programming hours with code examples and real-world."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-calculate-productive-overlap-hours-for-remote-pair-pr/
@@ -179,6 +179,11 @@ Calculating productive overlap hours for remote pair programming requires conver
 With the formulas and approaches in this guide, you can systematically identify when your distributed team can pair effectively. The key is being explicit about working hours, rotating inconvenient slots fairly, and reserving overlap time for work that truly requires real-time collaboration.
 
 ---
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

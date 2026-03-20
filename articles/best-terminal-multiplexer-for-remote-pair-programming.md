@@ -251,6 +251,74 @@ echo "Taking driver seat as: $USER"
 echo "$USER" > "$TOKEN_FILE"
 ```
 
+## Persisting Session State Across Reconnects
+
+Network drops kill pairing sessions. Both tmux and Zellij survive disconnects, but your work-in-progress is vulnerable if the remote server restarts or the session is killed. Use tmux-resurrect or a manual checkpoint pattern:
+
+```bash
+# tmux-resurrect: saves and restores sessions across server restarts
+# Install via tpm (tmux plugin manager)
+# ~/.tmux.conf additions:
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+# Auto-save every 15 minutes
+set -g @continuum-restore 'on'
+set -g @continuum-save-interval '15'
+
+# Initialize plugin manager (keep at bottom of .tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'
+```
+
+After a reconnect, your pair partner can restore the session with the same pane layout, running processes, and scrollback history:
+
+```bash
+# Restore last saved environment
+tmux new-session -s pair
+# tmux-continuum restores automatically on server restart
+```
+
+For Zellij, sessions persist automatically. Both developers re-attach with the same command:
+
+```bash
+zellij attach pair-session
+```
+
+## Security Considerations for Shared SSH Sessions
+
+Shared terminal sessions give your pair partner full access to your shell environment, including environment variables, SSH keys, and credentials. Minimize risk with these practices:
+
+**Use a dedicated pairing user.** Create a separate account on the server that doesn't have access to production credentials or sensitive keys:
+
+```bash
+sudo useradd -m -s /bin/bash pairuser
+sudo passwd pairuser
+# Copy SSH public keys for both developers
+sudo -u pairuser mkdir -p /home/pairuser/.ssh
+echo "ssh-ed25519 AAAA... dev-a-key" | sudo -u pairuser tee -a /home/pairuser/.ssh/authorized_keys
+echo "ssh-ed25519 AAAA... dev-b-key" | sudo -u pairuser tee -a /home/pairuser/.ssh/authorized_keys
+sudo chmod 600 /home/pairuser/.ssh/authorized_keys
+```
+
+**Avoid environment variable exposure.** Don't load API keys or secrets in `.bashrc` or `.zshrc` on the shared user. Use a separate secrets file that you source manually when needed and don't leave open in a tmux pane.
+
+**Set session timeouts.** Add `set-option -g lock-after-time 1800` to `~/.tmux.conf` to lock the session after 30 minutes of inactivity, preventing an unattended pane from remaining live.
+
+## Comparing tmux vs Zellij for Pair Programming
+
+| Feature | tmux | Zellij |
+|---|---|---|
+| Setup complexity | High (config-file heavy) | Low (works out of box) |
+| Session persistence | Via plugins (tmux-resurrect) | Built-in |
+| Read-only observer mode | Yes (socket-based) | Limited |
+| Web browser access | Via ttyd plugin | Not native |
+| Layout files | Manual pane scripts | Native KDL layouts |
+| Performance overhead | Minimal | Slightly higher (Rust runtime) |
+| Windows/macOS client | Via SSH | Via SSH |
+
+The practical decision: use tmux if your team already knows it or if you need read-only observer mode for code reviews. Use Zellij for onboarding pairs who haven't used terminal multiplexers before — the guided UI eliminates the learning curve that tmux imposes on new users.
+
 ## Related Reading
 
 - [Remote Work Tools Guide Hub](/remote-work-tools/)

@@ -232,20 +232,96 @@ metrics:
   meeting_hours_per_engineer:
     target: "< 8 hours/week"
     measurement: "Calendar API aggregation"
-  
+
   async_decision_percentage:
     target: "> 70%"
     measurement: "GitHub/Notion decision tracking"
-  
+
   meeting_cancelation_rate:
     target: "> 15%"
     measurement: "Weekly tracking"
-  
+
   no-meeting_day_adherence:
     target: "100%"
     measurement: "Calendar audit"
 ```
 
+## The Meeting Debt Audit: Running a Quarterly Calendar Review
+
+Calendar bloat accumulates gradually. A quarterly audit surfaces meetings that no longer have a clear purpose. Schedule a 30-minute solo review every quarter using this process:
+
+1. Export all recurring meetings from your calendar API or download a CSV from Google Calendar / Outlook.
+2. For each recurring meeting, answer three questions: Who owns this meeting? What decision or output does it produce? When did the agenda last change?
+3. Any meeting where no one can name the owner or output is a candidate for cancellation.
+
+```python
+# Simple recurring meeting audit script
+import csv
+from datetime import datetime
+
+def audit_meetings(calendar_csv_path: str) -> list[dict]:
+    """Parse calendar export and flag meetings for review."""
+    flagged = []
+
+    with open(calendar_csv_path) as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if row.get("Recurrence") in ("Weekly", "Bi-Weekly", "Daily"):
+                created_date = datetime.strptime(row["Created"], "%Y-%m-%d")
+                age_days = (datetime.now() - created_date).days
+
+                # Flag meetings older than 90 days without recent description updates
+                if age_days > 90 and not row.get("Description", "").strip():
+                    flagged.append({
+                        "title": row["Subject"],
+                        "created": row["Created"],
+                        "frequency": row["Recurrence"],
+                        "age_days": age_days,
+                        "recommendation": "Review for cancellation or agenda refresh"
+                    })
+
+    return sorted(flagged, key=lambda x: x["age_days"], reverse=True)
+```
+
+A team of 20 engineers at a scaling startup typically finds 8-12 recurring meetings that can be cancelled or converted to async updates during a quarterly audit.
+
+## Using Async Video to Replace Low-Value Status Meetings
+
+Not every meeting can be fully async, but most status updates can. Loom, Claap, and Tella let engineers record 3-5 minute video updates that teammates watch at their own pace. This replaces the round-robin status section of weekly team syncs.
+
+A practical async video cadence for scaling teams:
+
+```markdown
+# Async Video Update Protocol
+
+**Weekly engineering update (replaces status section of team sync)**
+- Length: 3 minutes max
+- Recorded by: each engineer, every Thursday by 17:00 UTC
+- Posted to: #weekly-updates Slack channel
+- Contents:
+  1. What I shipped this week (30 seconds)
+  2. What I'm working on next week (30 seconds)
+  3. Any blockers that need synchronous discussion (flag these explicitly)
+
+**Demo videos (replaces demo section of sprint review)**
+- Length: 5 minutes max
+- Recorded by: feature owner before sprint review
+- Posted to: #demos channel with Jira ticket link
+- Sprint review meeting then focuses only on questions and decisions
+```
+
+Teams that implement this pattern typically cut their weekly sync from 45 minutes to 20 minutes — the synchronous time shifts from status-sharing to actual discussion and decision-making.
+
+## Handling the "But I Like Meetings" Resistance
+
+Not everyone experiences calendar bloat as a problem. Senior engineers, managers, and naturally social team members may actively prefer synchronous communication. Reduce resistance to hygiene practices by framing changes in terms of their benefit to everyone:
+
+- Frame meeting-free days as protecting focus time, not eliminating collaboration
+- Offer async alternatives that are just as responsive as meetings (Slack huddles, Loom video, GitHub Discussions)
+- Apply changes incrementally — start with no-meeting Wednesdays before mandating async-first for all discussions
+- Measure and share the data: when engineers see their own meeting hours drop from 18 to 10 per week, they become advocates
+
+The hardest part of meeting hygiene at scale isn't the tooling — it's building team norms that make it feel normal to cancel a meeting, decline an invite, or default to a written update instead of a call.
 
 ## Related Reading
 

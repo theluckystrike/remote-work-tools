@@ -222,6 +222,100 @@ Store templates in a centralized location and version control:
 
 Many teams integrate these templates directly into their incident management tools (PagerDuty, Opsgenie, or custom Slack bots) to auto-populate fields when incidents are declared.
 
+## Auto-Generating Postmortem Drafts from Incident Data
+
+Most teams lose 30-60 minutes after an incident reconstructing the timeline from Slack threads and alert logs. Automate the first draft by pulling data programmatically before the review meeting:
+
+```python
+import requests
+from datetime import datetime
+
+class PostmortemDraftGenerator:
+    def __init__(self, pagerduty_token: str, slack_token: str):
+        self.pd_headers = {
+            "Authorization": f"Token token={pagerduty_token}",
+            "Accept": "application/vnd.pagerduty+json;version=2"
+        }
+        self.slack_headers = {"Authorization": f"Bearer {slack_token}"}
+
+    def get_incident_timeline(self, incident_id: str) -> list[dict]:
+        response = requests.get(
+            f"https://api.pagerduty.com/incidents/{incident_id}/log_entries",
+            headers=self.pd_headers,
+            params={"include[]": "channels", "time_zone": "UTC"}
+        )
+        return response.json().get("log_entries", [])
+
+    def generate_draft(self, incident_id: str, channel_id: str) -> str:
+        timeline = self.get_incident_timeline(incident_id)
+
+        events = []
+        for entry in timeline:
+            ts = entry.get("created_at", "")
+            summary = entry.get("summary", "")
+            if ts and summary:
+                events.append(f"| {ts[:16]} | {summary} |")
+
+        draft = f"""# Postmortem Draft — Incident {incident_id}
+**Status:** Draft — complete before publishing
+**Generated:** {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}
+
+## Impact
+- **Duration:** [fill from timeline below]
+- **Affected Users:** [fill]
+- **Services Affected:** [fill]
+
+## Root Cause
+[To be determined during review meeting]
+
+## Timeline
+| Timestamp (UTC) | Event |
+|---|---|
+{chr(10).join(events[:20])}
+
+## Action Items
+| ID | Description | Owner | Due Date |
+|---|---|---|---|
+| 1 | [add during review] | @username | YYYY-MM-DD |
+"""
+        return draft
+```
+
+Running this script immediately after incident resolution gives your team a structured draft with the actual timeline populated. The review meeting focuses on root cause and action items rather than reconstructing "what happened when."
+
+## Distributing Postmortems to the Right Audiences
+
+A single postmortem serves multiple audiences with different information needs. Rather than writing separate documents, use section tagging to create targeted summaries:
+
+```markdown
+## Executive Summary [audience: leadership, customers]
+On [date], [service] experienced an outage lasting [duration] affecting [X%] of users.
+The root cause was [one-sentence explanation]. We have deployed a fix and implemented
+[number] preventive measures to avoid recurrence.
+
+## Technical Root Cause [audience: engineering]
+[Full technical explanation with system diagrams, code references, and failure chain]
+
+## Customer Communication [audience: support, customer success]
+During the incident, customers experienced [specific symptoms].
+No data was lost. Customers who [specific action] during the window should [specific remediation].
+```
+
+Distribute sections by audience using your documentation platform's permission system. Customers get the executive summary and customer communication sections through your status page. Engineering gets the full technical document internally. Leadership gets a condensed version with cost impact added.
+
+## Learning-Focused Language in Postmortems
+
+Postmortem quality degrades when teams use blame-focused language. This happens subtly — "the engineer failed to" versus "the system allowed," or "human error" versus "missing guardrail." Use these language substitutions to keep postmortems psychologically safe and more actionable:
+
+| Blame-Focused | Learning-Focused |
+|---|---|
+| "The engineer failed to restart the service" | "The runbook did not include a restart step" |
+| "Human error caused the outage" | "The deployment process lacked a pre-deployment validation check" |
+| "The team missed the alert" | "Alert routing was not configured for weekend on-call" |
+| "X made a mistake" | "The system permitted X without a confirmation step" |
+
+The shift from person to system is deliberate: action items that fix systems prevent the same class of error regardless of who's on the keyboard next time. Action items that blame individuals don't generalize.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

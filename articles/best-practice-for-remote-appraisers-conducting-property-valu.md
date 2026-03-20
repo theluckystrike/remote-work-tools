@@ -337,6 +337,122 @@ Track key performance indicators to continuously improve virtual inspection oper
 
 Build dashboards that surface these metrics in real-time and trigger alerts when metrics fall below targets.
 
+## Building an Automated Follow-Up System for Incomplete Submissions
+
+The most common cause of delayed appraisals is incomplete media submissions: missing room angles, blurry photos, or absent required documents. An automated follow-up system reduces human intervention:
+
+```python
+from datetime import datetime, timedelta
+import requests
+
+class FollowUpScheduler:
+    def __init__(self, notification_service, media_validator):
+        self.notifier = notification_service
+        self.validator = media_validator
+
+    def check_and_follow_up(self, inspection: dict) -> dict:
+        """Check inspection completeness and send follow-up if needed."""
+        validation = self.validator.validate_media(
+            inspection["media_assets"],
+            inspection["capture_requirements"]
+        )
+
+        if validation["passed"]:
+            return {"status": "complete", "action": None}
+
+        hours_since_submission = (
+            datetime.utcnow() - datetime.fromisoformat(inspection["submitted_at"])
+        ).total_seconds() / 3600
+
+        if hours_since_submission < 2:
+            return {"status": "pending", "action": "waiting"}
+        elif hours_since_submission < 24:
+            self.notifier.send_reminder(
+                to=inspection["occupant_email"],
+                subject=f"Action needed: Incomplete inspection for {inspection['property_address']}",
+                missing_items=validation["issues"],
+                deadline=(datetime.utcnow() + timedelta(hours=24)).isoformat()
+            )
+            return {"status": "reminded_once", "action": "reminder_sent"}
+        else:
+            self.notifier.escalate_to_appraiser(
+                appraiser_email=inspection["appraiser_email"],
+                inspection=inspection,
+                missing_items=validation["issues"]
+            )
+            return {"status": "escalated", "action": "appraiser_notified"}
+```
+
+The tiered approach — wait 2 hours, remind at 24 hours, escalate after 24 — prevents false alarm notifications for occupants who are still actively uploading while ensuring appraisers know about genuinely stalled submissions.
+
+## Handling Connectivity Issues During Synchronous Inspections
+
+Live video inspections in rural properties or older buildings frequently face bandwidth limitations. Build graceful degradation into your synchronous inspection workflow:
+
+```javascript
+const ConnectionQualityMonitor = {
+  thresholds: {
+    EXCELLENT: { minBandwidth: 5000, maxLatency: 50 },
+    GOOD: { minBandwidth: 2000, maxLatency: 100 },
+    DEGRADED: { minBandwidth: 500, maxLatency: 300 },
+    POOR: { minBandwidth: 0, maxLatency: Infinity }
+  },
+
+  checkQuality(stats) {
+    const { bandwidth, latency } = stats;
+    if (bandwidth >= 5000 && latency <= 50) return "EXCELLENT";
+    if (bandwidth >= 2000 && latency <= 100) return "GOOD";
+    if (bandwidth >= 500 && latency <= 300) return "DEGRADED";
+    return "POOR";
+  },
+
+  getRecommendation(quality) {
+    const recommendations = {
+      EXCELLENT: "Continue with full-resolution video",
+      GOOD: "Continue normally; auto-reduce to 720p if quality drops",
+      DEGRADED: "Switch to 480p; pause video for still photos at key items",
+      POOR: "Switch to asynchronous mode: occupant captures photos and uploads post-session"
+    };
+    return recommendations[quality];
+  }
+};
+```
+
+When connectivity drops below your usable threshold, present the occupant with a clear fallback: send a structured photo capture link via SMS that they can complete from their mobile data connection. Synchronous and asynchronous workflows should be interchangeable mid-session rather than requiring a rescheduled appointment.
+
+## Compliance Documentation for Remote Inspections
+
+Some state appraisal boards and lender guidelines require documentation that a virtual inspection was used in lieu of a physical inspection. Generate this certification automatically at inspection completion:
+
+```python
+def generate_inspection_certification(inspection: dict, appraiser: dict) -> str:
+    return f"""VIRTUAL INSPECTION CERTIFICATION
+
+Property Address: {inspection['property_address']}
+Inspection Date: {inspection['completed_at'][:10]}
+Inspection Method: {inspection['inspection_type'].replace('_', ' ').title()}
+
+I, {appraiser['name']}, Certified {appraiser['license_type']} Appraiser,
+License No. {appraiser['license_number']}, State of {appraiser['license_state']},
+certify that:
+
+1. A virtual inspection of the above-referenced property was conducted on
+   {inspection['completed_at'][:10]} in accordance with applicable guidelines.
+
+2. The inspection method utilized: {inspection['inspection_type']}.
+
+3. All required documentation has been retained in the appraisal workfile.
+
+4. This virtual inspection complies with the Uniform Standards of Professional
+   Appraisal Practice (USPAP) applicable at the time of the appraisal.
+
+Appraiser Signature: ________________________
+Date: {inspection['completed_at'][:10]}
+"""
+```
+
+Retain this certification in your appraisal workfile alongside the inspection media. Some lenders require it as an attachment to the appraisal report when desktop or hybrid appraisal products are used.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
