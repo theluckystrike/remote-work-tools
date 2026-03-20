@@ -142,6 +142,234 @@ def schedule_trivia_event(channel_id, game_config):
 
 This script creates a trivia game from a custom configuration and announces it in a Slack channel. You can extend this with scheduled events, automatic result posting, and leaderboard tracking.
 
+## Advanced Scoring and Engagement Mechanics
+
+Beyond basic trivia, sophisticated platforms offer scoring systems that encourage participation:
+
+**Streak multipliers:** Players earn higher points for consecutive correct answers. This rewards knowledge depth while keeping catch-up in play for leaders who go on a wrong answer streak.
+
+**Time-based scoring:** Faster correct answers yield more points. Encourages decision-making speed while penalizing overthinking.
+
+**Difficulty-adjusted points:** Easier questions = fewer points; harder questions = more points. Balances participation across skill levels.
+
+```json
+{
+  "scoring_algorithm": {
+    "base_points": 100,
+    "difficulty_weights": {
+      "easy": 0.5,
+      "medium": 1.0,
+      "hard": 2.0,
+      "expert": 3.0
+    },
+    "time_bonus": {
+      "answered_in_seconds": 5,
+      "max_bonus": 50,
+      "calculation": "max_bonus * (1 - seconds_taken / max_time)"
+    },
+    "streak_multiplier": {
+      "starts_at": 2,
+      "multiplier_per_streak": 0.1,
+      "max_multiplier": 2.0
+    },
+    "team_collaboration": {
+      "enabled": true,
+      "team_size_bonus": "points * 1.1 if team_size > 3 else 1.0"
+    }
+  }
+}
+```
+
+This creates engaging dynamics where different player types succeed: the speed runner (time bonus), the specialist (difficulty), the consistent performer (streaks), and the team player (collaboration bonus).
+
+## Building Custom Question Sets for Technical Teams
+
+Generic trivia bores developers. Create internal question sets around your company:
+
+```python
+# Custom question set for engineering team trivia
+
+custom_questions = [
+    {
+        "category": "Company History",
+        "question": "In what year did we migrate from MongoDB to PostgreSQL?",
+        "options": ["2021", "2022", "2023", "2024"],
+        "correct": "2023",
+        "difficulty": "medium",
+        "explanation": "Major infrastructure decision that reduced query latency 40%"
+    },
+    {
+        "category": "Architecture",
+        "question": "What is our primary cache layer?",
+        "options": ["Redis", "Memcached", "DynamoDB", "ElastiCache"],
+        "correct": "Redis",
+        "difficulty": "easy",
+        "explanation": "Deployed on K8s cluster, 99.9% uptime"
+    },
+    {
+        "category": "Product Features",
+        "question": "What was the earliest product feature we shipped?",
+        "options": ["User authentication", "API rate limiting", "Real-time analytics", "Team collaboration"],
+        "correct": "User authentication",
+        "difficulty": "hard",
+        "explanation": "Shipped Q1 2019. Most people don't know we pivoted from that to the current product."
+    }
+]
+
+# These questions strengthen company culture and reinforce institutional knowledge
+```
+
+Slack integration makes this instant:
+
+```python
+# Post trivia to Slack via webhook
+import requests
+import json
+
+def post_trivia_to_slack(channel, question_data):
+    payload = {
+        "channel": channel,
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": f"*🏆 Daily Trivia*\n{question_data['question']}"
+                }
+            },
+            {
+                "type": "actions",
+                "elements": [
+                    {
+                        "type": "button",
+                        "text": {"type": "plain_text", "text": option},
+                        "action_id": f"trivia_answer_{i}",
+                        "value": option
+                    }
+                    for i, option in enumerate(question_data['options'])
+                ]
+            }
+        ]
+    }
+
+    requests.post(SLACK_WEBHOOK_URL, json=payload)
+```
+
+This drives engagement throughout the day, not just during scheduled events.
+
+## Hybrid Model: Async + Sync Trivia
+
+Most distributed teams can't gather synchronously. A hybrid approach captures benefits of both:
+
+**Async component (ongoing):**
+- Daily trivia questions posted to Slack
+- Players answer at their convenience
+- Leaderboard updated in real-time
+- Company-wide visibility of who's winning
+
+**Sync component (monthly):**
+- Live trivia event with video call (30-45 minutes)
+- Larger prize pool to incentivize attendance
+- Team-based rounds for collaboration
+- Combines top async players with live-only participants
+
+```markdown
+# Hybrid Trivia Calendar (Example)
+
+Week 1-3: Async Daily Trivia
+- Questions posted 9 AM UTC
+- Window for answers: 24 hours
+- Points accumulate throughout month
+
+Week 4: Live Trivia Event
+- Scheduled Tuesday 3 PM UTC
+- 30-minute duration
+- Teams of 4-5 players
+- Winner gets €50 gift card
+
+Month-End: Leaderboard Reset
+- Top 3 async winners announced
+- Month's champion recognized in all-hands
+- New month begins
+```
+
+This approach includes people regardless of timezone while building toward a synchronous community event.
+
+## Measuring Engagement and ROI
+
+Track whether trivia is actually improving team culture:
+
+```python
+def measure_trivia_engagement(trivia_data):
+    metrics = {
+        "participation_rate": (
+            len(trivia_data['unique_participants']) /
+            len(trivia_data['team_size']) * 100
+        ),
+        "avg_daily_responses": (
+            sum(q['responses'] for q in trivia_data['questions']) /
+            len(trivia_data['questions'])
+        ),
+        "completion_rate": (
+            len(trivia_data['completed_games']) /
+            len(trivia_data['scheduled_games']) * 100
+        ),
+        "repeat_participation": (
+            len([p for p in trivia_data['participants'] if p['event_count'] > 1]) /
+            len(trivia_data['participants']) * 100
+        )
+    }
+
+    # Healthy metrics:
+    # participation_rate > 50%
+    # avg_daily_responses > 70% of team
+    # completion_rate > 80% for scheduled events
+    # repeat_participation > 60%
+
+    return metrics
+```
+
+If metrics are weak, the platform/format isn't working. Pivot quickly rather than forcing engagement.
+
+## Technical Setup: Self-Hosting Trivia
+
+For teams wanting full control and zero third-party dependencies:
+
+```yaml
+# docker-compose.yml: Self-hosted open-source trivia
+version: '3.8'
+services:
+  trivia-web:
+    image: openquiz/frontend:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - API_URL=http://trivia-api:8000
+
+  trivia-api:
+    image: openquiz/api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://user:pass@postgres:5432/trivia
+      - REDIS_URL=redis://redis:6379
+
+  postgres:
+    image: postgres:15
+    environment:
+      - POSTGRES_PASSWORD=secure_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+
+volumes:
+  postgres_data:
+```
+
+Self-hosting costs ~$20-50/month in hosting (VPS) and requires some DevOps knowledge, but gives you complete control over data and customization.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
