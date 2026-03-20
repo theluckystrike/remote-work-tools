@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-two-factor-authentication-apps-when-changing-s/
 categories: [guides]
-tags: [2fa, security, remote-work, authentication, digital-nomad]
+tags: [remote-work-tools, 2fa, security, remote-work, authentication, digital-nomad]
 reviewed: true
 score: 8
 intent-checked: true

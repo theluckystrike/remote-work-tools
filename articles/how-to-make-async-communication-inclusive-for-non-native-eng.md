@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-make-async-communication-inclusive-for-non-native-eng/
 categories: [guides]
-tags: [async-communication, remote-work, inclusion, non-native-english, global-teams]
+tags: [remote-work-tools, async-communication, remote-work, inclusion, non-native-english, global-teams]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-knowledge-base-handoff-when-remote-developer-l/
 categories: [guides]
-tags: [knowledge-management, remote-work, developer-handoffs, documentation, team-processes]
+tags: [remote-work-tools, knowledge-management, remote-work, developer-handoffs, documentation, team-processes]
 reviewed: true
 score: 8
 intent-checked: true

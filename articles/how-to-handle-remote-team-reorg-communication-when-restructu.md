@@ -6,8 +6,8 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-remote-team-reorg-communication-when-restructu/
 categories: [guides]
-tags: [remote-work, team-reorganization, distributed-teams, change-management, communication-strategy]
-score: 7
+tags: [remote-work-tools, remote-work, team-reorganization, distributed-teams, change-management, communication-strategy]
+score: 8
 voice-checked: true
 reviewed: true
 intent-checked: true

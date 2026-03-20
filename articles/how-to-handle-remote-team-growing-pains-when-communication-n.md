@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-remote-team-growing-pains-when-communication-n/
 categories: [guides]
-tags: [remote-work, team-communication, scaling, async, developer-productivity, distributed-teams]
+tags: [remote-work-tools, remote-work, team-communication, scaling, async, developer-productivity, distributed-teams]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

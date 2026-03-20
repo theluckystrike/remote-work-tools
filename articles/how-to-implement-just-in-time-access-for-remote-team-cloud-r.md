@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-implement-just-in-time-access-for-remote-team-cloud-resources/
 categories: [guides]
-tags: [security, access-control, cloud, remote-work, jit]
+tags: [remote-work-tools, security, access-control, cloud, remote-work, jit]
 reviewed: true
 score: 8
 intent-checked: true

@@ -7,9 +7,10 @@ author: "theluckystrike"
 permalink: /how-to-manage-client-expectations-when-team-works-asynchrono/
 categories: [guides]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools]
 ---
 
 {% raw %}

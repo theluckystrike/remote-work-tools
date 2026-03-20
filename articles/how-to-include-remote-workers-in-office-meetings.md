@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-include-remote-workers-in-office-meetings/
 categories: [guides]
-tags: [remote-work, hybrid-meetings, video-conferencing, developer-tools]
+tags: [remote-work-tools, remote-work, hybrid-meetings, video-conferencing, developer-tools]
 reviewed: true
 score: 8
 intent-checked: true

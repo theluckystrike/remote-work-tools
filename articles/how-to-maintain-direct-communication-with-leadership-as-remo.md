@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-maintain-direct-communication-with-leadership-as-remo/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools]
 reviewed: true
 score: 8
 voice-checked: true

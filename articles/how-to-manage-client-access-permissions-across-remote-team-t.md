@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-client-access-permissions-across-remote-team-t/
 categories: [guides]
-tags: [access-control, permissions, remote-work, security]
+tags: [remote-work-tools, access-control, permissions, remote-work, security]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-hide-messy-room-during-video-calls-without-virtual-ba/
 categories: [guides]
-tags: [video-calls, remote-work, productivity, OBS, streaming]
+tags: [remote-work-tools, video-calls, remote-work, productivity, OBS, streaming]
 reviewed: true
 intent-checked: true
 voice-checked: true

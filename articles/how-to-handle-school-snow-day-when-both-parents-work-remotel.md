@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-school-snow-day-when-both-parents-work-remotel/
 categories: [guides]
-tags: [remote-work, work-life-balance, productivity, parenting, snow-day]
+tags: [remote-work-tools, remote-work, work-life-balance, productivity, parenting, snow-day]
 reviewed: true
 score: 8
 intent-checked: true

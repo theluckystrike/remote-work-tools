@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-incorporate-as-a-freelance-developer/
 categories: [guides]
-tags: [freelance, incorporation, legal, business-structure, taxes]
+tags: [remote-work-tools, freelance, incorporation, legal, business-structure, taxes]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/
 categories: [guides]
-tags: [social-security, eu, remote-work, tax, digital-nomad, contributions]
+tags: [remote-work-tools, social-security, eu, remote-work, tax, digital-nomad, contributions, security]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

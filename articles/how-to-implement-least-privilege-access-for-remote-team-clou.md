@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-implement-least-privilege-access-for-remote-team-clou/
 categories: [guides]
-tags: [iam, least-privilege, cloud-security, access-control, remote-work]
+tags: [remote-work-tools, iam, least-privilege, cloud-security, access-control, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 {% raw %}

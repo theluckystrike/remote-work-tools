@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-implement-hardware-security-keys-for-remote-team-auth/
 categories: [guides]
-tags: [security, authentication, hardware-keys, remote-work, yubikey]
+tags: [remote-work-tools, security, authentication, hardware-keys, remote-work, yubikey]
 reviewed: true
 score: 8
 intent-checked: true
