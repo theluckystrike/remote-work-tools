@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /migrating-from-google-forms-to-typeform-for-remote-team-surv/
 categories: [guides]
-tags: [remote-work-tools, survey-tools, google-forms, typeform, remote-teams, productivity]
+tags: [remote-work-tools, survey-tools, google-forms, typeform, remote-teams, productivity, remote-work]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
