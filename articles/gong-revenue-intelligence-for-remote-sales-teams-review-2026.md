@@ -5,7 +5,7 @@ description: "A comprehensive review of Gong and revenue intelligence platforms 
 date: 2026-03-20
 author: theluckystrike
 permalink: /gong-revenue-intelligence-for-remote-sales-teams-review-2026/
-categories: [reviews]
+categories: [guides]
 tags: [revenue-intelligence, sales-tools, remote-sales, ai-sales, conversation-analytics]
 reviewed: false
 score: 0
