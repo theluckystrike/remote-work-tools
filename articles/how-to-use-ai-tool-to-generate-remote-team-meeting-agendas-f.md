@@ -9,6 +9,7 @@ categories: [guides]
 tags: [remote-work-tools, productivity, ai-tools, meeting-efficiency, asynchronous-communication]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
