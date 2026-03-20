@@ -130,19 +130,154 @@ detection_rules:
 
 ## Open Source and Hybrid Approaches
 
-For organizations preferring more control over their detection infrastructure, several open source tools provide building blocks. The Apache EDR project offers endpoint detection capabilities, while the Velociraptor framework provides forensic investigation tools that work well for remote endpoint analysis.
+For organizations preferring more control over their detection infrastructure, several open source tools provide building blocks:
+
+**Wazuh** – Open source host-based intrusion detection system (HIDS) with SaaS integration capabilities. Provides agent-based monitoring of Windows, Mac, and Linux endpoints. Good for detecting suspicious file modifications, privilege escalation attempts, and compliance violations.
+
+**Velociraptor** – Open source digital forensics and incident response platform. Excellent for performing remote investigations without connecting to a traditional VPN. Can query all endpoints simultaneously to find evidence of compromise.
+
+**Zeek** – Network-based intrusion detection system that analyzes network traffic for suspicious patterns. Particularly useful for detecting lateral movement within cloud infrastructure.
 
 Consider a layered approach: open source for log aggregation and basic anomaly detection, commercial tools for SaaS integration and threat intelligence, and custom automation for organization-specific detection rules.
+
+A typical hybrid stack:
+- Wazuh for endpoint monitoring ($0 open source or $100-500/month managed)
+- Stackstate or ELK Stack for log aggregation ($500-2000/month)
+- Custom Python/Go scripts for organization-specific detection ($0 if using internal engineers)
+- Commercial DLP tool like Forcepoint or Code42 for sensitive data tracking ($20-50/user/month for 50-person company = $1000-2500/month)
+- Total: $1500-5000/month vs $30,000-100,000 for fully managed solutions
+
+## Real-World Insider Threat Cases
+
+Understanding how threats actually manifest helps calibrate detection rules:
+
+**Case 1: Negligent Disclosure**
+Engineer leaves company, continues accessing GitHub with old credentials. Exfiltrates proprietary code to personal account. Detection: account access from new IP address outside company range, downloading repos at 3am, pushing to personal repositories.
+
+**Case 2: Credential Compromise**
+Junior engineer's laptop infected with malware. Attacker uses stolen credentials to access AWS, exfiltrates customer data. Detection: API calls from unusual IP addresses, bulk S3 downloads, changes to IAM roles from unexpected endpoints.
+
+**Case 3: Vengeful Departure**
+Senior engineer fired for performance reasons. Before access revocation, uploads company infrastructure templates and credentials to GitHub public repository. Detection: commits from flagged user to new external repository, large file uploads outside normal patterns, attempts to grant additional users access to critical systems.
+
+Each case reveals detection patterns: unusual locations, unusual times, unusual data movement, unusual access patterns, unusual account modifications.
+
+## Evaluating Commercial Tools
+
+When evaluating commercial insider threat detection platforms, focus on practical capabilities rather than vendor claims:
+
+**Workload-Specific Integration:** Tools like Google Chronicle (acquired by Google Cloud), Splunk, and Datadog excel at ingesting logs from SaaS platforms your team already uses. Before purchasing, verify integration with your specific tech stack: Does it work with your identity provider? Can it parse your cloud provider audit logs? Does it integrate with your communication tools?
+
+**Pricing Structure:** Most enterprise tools charge $10,000-50,000+ annually plus professional services for initial setup. For smaller remote teams (under 100 people), this may be overkill. Look for platforms with per-user pricing ($5-15/user/month) that scale with your team.
+
+**Alert Quality:** Request a trial period and evaluate false positive rates. Tools that generate hundreds of alerts weekly create alert fatigue—most alerts get ignored, defeating the purpose. A mature tool should generate fewer than 10 actionable alerts per week for a team of 50.
+
+**Investigation Workflow:** Can you drill into an alert to understand context? A good investigation tool shows:
+- Timeline of user activity across services
+- Related file access and sharing
+- Device information (OS, location, VPN usage)
+- Related user communications
+- Previous similar patterns from the same user
 
 ## Building Your Detection Stack
 
 Start with these foundational steps regardless of which tools you ultimately deploy:
 
-1. **Inventory your data sources** — List every SaaS application, cloud service, and system that stores sensitive information
-2. **Establish baseline behavior** — Collect 30-90 days of activity data before enabling detection rules to reduce false positives
-3. **Define incident response procedures** — Know how you'll investigate and escalate when alerts trigger
-4. **Implement privacy safeguards** — Document what data you collect, how it's used, and who has access
-5. **Regularly tune rules** — Review alerts weekly and adjust thresholds based on your organization's actual patterns
+1. **Inventory your data sources** — List every SaaS application, cloud service, and system that stores sensitive information. Typical lists for engineering teams include: GitHub, AWS, GCP, Azure, Google Workspace, Slack, Jira, Notion, Datadog, Zendesk, Okta, and vendor-specific tools.
+
+2. **Establish baseline behavior** — Collect 30-90 days of activity data before enabling detection rules to reduce false positives. This baseline helps distinguish normal behavior (senior engineers accessing sensitive repos) from anomalies (junior engineers exporting databases unexpectedly).
+
+3. **Define incident response procedures** — Know how you'll investigate and escalate when alerts trigger. Create a runbook specifying: who gets notified, how quickly they must respond, what investigation steps to take, when to involve management/HR, and when to involve law enforcement.
+
+4. **Implement privacy safeguards** — Document what data you collect, how it's used, and who has access. Inform employees that you're monitoring activity. Many insider threat programs fail because employees feel surveilled without understanding why. Transparency reduces legal risk and builds trust.
+
+5. **Regularly tune rules** — Review alerts weekly and adjust thresholds based on your organization's actual patterns. A rule flagging "bulk file downloads" might trigger constantly if your team works with large datasets. Either adjust the threshold or exclude specific users/workflows from that detection.
+
+6. **Plan for false positives** — When investigating an alert, maintain respect for the employee. An engineer downloading 500 files might be performing a legitimate audit or migration. Investigation should focus on context, not just activity volume.
+
+## Cost-Benefit Analysis
+
+A fully-managed insider threat detection platform costs $20,000-100,000+ annually for a 50-person remote company. A self-built stack using open source tools and cloud provider logs costs $10,000-30,000 in infrastructure and ~0.5-1 FTE in staffing.
+
+The trade-off is implementation effort: managed platforms have faster deployment but less flexibility, while self-built approaches require more engineering expertise but provide complete customization.
+
+## Detection Rules for Remote Teams
+
+Create detection rules tailored to your organization's actual behavior patterns. Generic rules create too many false positives. Here's how to build rules that work:
+
+**Rule: Unusual File Exfiltration**
+Monitors: S3 bucket downloads, Google Drive bulk exports, GitHub private repo access
+Baseline: Collect 30 days of activity to determine normal patterns
+Threshold: Flag when a user's downloads exceed 3x their average
+Response: Investigate the specific files being accessed and context
+
+**Rule: Privilege Escalation Attempts**
+Monitors: IAM policy changes, GitHub org changes, database permission grants
+Baseline: Track who normally makes these changes (usually ops/infra team)
+Threshold: Any unusual actor attempting policy changes
+Response: Verify with manager—was this authorized? If yes, mark as known good activity
+
+**Rule: Suspicious Time Patterns**
+Monitors: Access from unusual time zones, after-hours infrastructure access
+Baseline: Understand normal working hours for your team
+Threshold: Access patterns that deviate significantly (US engineer accessing systems at 3am Sydney time)
+Response: Consider legitimate context—is this a developer on-call? Working from travel?
+
+**Rule: Multi-System Reconnaissance**
+Monitors: Accessing multiple systems in short time windows without clear purpose
+Baseline: Know what normal access patterns look like (engineer debugging issue would hit logging, monitoring, databases in sequence)
+Threshold: Accessing 10+ systems in 15 minutes with no evident business purpose
+Response: Interview employee—what were they investigating?
+
+The key insight: most insider threat detection is about detecting behavior change, not absolute behavior. An engineer downloading 500 files might be normal (data science team), abnormal (typical developer), or suspicious (engineer who never downloads files suddenly downloading 500).
+
+## Compliance and Legal Considerations
+
+Implementing insider threat detection creates legal obligations:
+
+**Disclosure:** Inform employees you're monitoring activity. Most jurisdictions require this. Undisclosed monitoring creates legal liability and erodes trust.
+
+**Data Protection:** Ensure monitoring data is secured with same rigor as production data. Audit logs contain sensitive information—who accessed what, when.
+
+**Retention Policy:** Don't keep audit logs forever. Balance compliance needs (typically 1-3 years) with privacy. After retention period, delete logs.
+
+**Incident Handling:** If you detect a credible threat, follow a process: verify the evidence (false positives happen), interview the employee if possible, involve HR and legal, document everything.
+
+**False Positive Liability:** Never publicly accuse an employee based on detection rules. Reputational damage from a false accusation can lead to wrongful termination suits.
+
+## Benchmarking Your Implementation
+
+After 6-12 months of operating your detection system, measure its effectiveness:
+
+**Alert accuracy rate:** Percentage of alerts that represent genuine security concerns. Target: 70%+ (acknowledges false positives are normal). Below 50% indicates over-tuned rules generating noise.
+
+**Mean time to detection (MTTD):** How quickly do you detect anomalies after they start? Lower is better. Typical range: minutes for automated detection (ex: bulk downloads), hours for investigation (ex: unusual GitHub access).
+
+**Mean time to response (MTTR):** How quickly do you investigate alerts after they're generated? For remote teams without on-site security, 2-4 hours is reasonable. Critical alerts should get response within 1 hour.
+
+**Incident outcomes:** Of detected incidents, what percentage were:
+- True positives (actual security event): Target 70%+
+- False positives (legitimate activity misclassified): Target 30% or lower
+- Prevented incidents (threat stopped before damage): Measure quantitatively if possible
+
+**Team satisfaction:** Do team members feel monitored or enabled? Healthy organizations report that most employees see insider threat detection as protecting them, not spying on them.
+
+## Tools Comparison Summary
+
+Open Source Stack: $0-5000 setup + 0.5 FTE staffing
+- Wazuh + ELK Stack
+- Best for: Engineering-heavy teams that can maintain infrastructure
+- Complexity: High
+
+Managed Enterprise Platforms: $30,000-100,000/year
+- Code42, Forcepoint, or similar
+- Best for: Highly regulated industries requiring audit-ready solutions
+- Complexity: Low
+
+Cloud-Native Hybrid: $10,000-30,000/year
+- AWS CloudTrail + custom Lambda rules + GitHub integrations
+- Best for: AWS-focused companies with in-house DevOps
+- Complexity: Medium
 
 ## Related Reading
 

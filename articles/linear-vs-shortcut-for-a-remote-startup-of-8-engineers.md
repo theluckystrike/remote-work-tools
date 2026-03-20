@@ -110,19 +110,44 @@ Shortcut includes story comments and activities, though some teams find Linear's
 
 Eight engineers sits in a sweet spot. Large enough to need structure, small enough that everyone knows what everyone else works on. Linear's cycle planning works well at this scale—you can have meaningful planning sessions where all eight engineers participate.
 
+## Pricing and Long-Term Costs
+
+Linear pricing: $8/user/month (Standard) or $14/user/month (Premium)
+- For 8 engineers: $64/month (Standard) or $112/month (Premium)
+- Annual: $768-1,344 for your entire team
+
+Shortcut pricing: $8/user/month (Standard) or $15/user/month (Pro)
+- For 8 engineers: $64/month (Standard) or $120/month (Pro)
+- Annual: $768-1,440 for your entire team
+
+Both platforms offer similar pricing despite different features. The choice shouldn't be cost-driven—both are affordable for startup budgets. Additional cost consideration: GitHub Advanced Security ($45/month) integrates well with Linear for dependency scanning and secret detection.
+
+## Migration Concerns
+
+If you're switching from Jira, Asana, or another tool to Linear/Shortcut:
+
+**Data migration:** Linear and Shortcut both offer import tools for common platforms. Test the import on a subset of issues first. Expect 1-2 days of engineering effort plus cleanup time.
+
+**Team retraining:** Your engineers will need 2-4 hours to learn new shortcuts and workflows. Linear's keyboard-first approach takes longer to learn but feels natural after a week. Shortcut's flexibility requires upfront config but needs less learning curve if similar to previous tools.
+
+**Integration rebuilding:** If you've built custom integrations to your previous tool, you'll need to rebuild or replace them. Both Linear and Shortcut have active API communities, so most common integrations exist.
+
 ## Decision Framework
 
 Choose Linear if:
-- Your team values speed over customization
+- Your team values speed and minimal configuration overhead
 - Keyboard-first workflows appeal to your engineers
-- You want minimal configuration to start shipping
+- You want to ship with zero setup time
 - GitHub integration is your primary development workflow
+- You're starting fresh with no existing issue tracking system
+- Your team has similar needs (no special requirements for different roles)
 
 Choose Shortcut if:
-- Your process genuinely requires custom workflows
-- You need flexible story types with different fields
-- Your team includes non-engineers who need tailored views
-- You prefer REST APIs over GraphQL
+- Your process genuinely requires custom workflows or non-standard statuses
+- You need flexible story types with different fields for different work
+- Your team includes non-engineers (product, design) who need specialized views
+- You prefer REST APIs over GraphQL for custom integrations
+- You're migrating from Jira and want familiar customization levels
 
 ## Implementation Example
 
@@ -143,6 +168,121 @@ linear cycle create --start 2026-03-16 --duration 14
 ```
 
 Then configure GitHub integration through Settings → Integrations, map your repositories, and you're tracking issues within an afternoon.
+
+For Shortcut, the process is similar but requires more upfront configuration in the web interface for custom fields and workflows.
+
+## Success Metrics After Implementation
+
+Once you've chosen and implemented your system, track these metrics to ensure you've made the right choice:
+
+- **Time to first issue:** Should be under 5 minutes per engineer
+- **Daily active users:** Healthy teams see 90%+ of engineers interacting with issues daily
+- **Issue cycle time:** From creation to completion, typically 3-7 days for healthy small startups
+- **API usage:** If you've needed custom integrations, is the API providing what you need?
+- **Team satisfaction:** Survey your team at 1, 3, and 6-month marks on tool satisfaction
+
+Most teams report high satisfaction with both Linear and Shortcut. The "wrong" choice would be one you abandon for a different tool within 6 months—usually a sign of implementation issues rather than tool problems.
+
+## Day-to-Day Workflows: Linear vs Shortcut
+
+**Linear workflow (typical day):**
+```
+9am: Standup in Slack - Link to Linear for status updates
+1pm: Create issue with C keyboard shortcut
+    - Press C, type title, press Enter
+    - Issue created, immediately appears in cycle
+2pm: Review PR comments linked to issue via GitHub integration
+3pm: Resolve comments, close issue - status auto-updates in Linear
+4pm: Check upcoming issues in cycle view
+```
+
+**Shortcut workflow (typical day):**
+```
+9am: Standup in Slack - Click story links
+1pm: Navigate to Shortcut, click "New Story" button
+    - Fill in required fields
+    - Select story type (Task, Bug, Chore)
+    - Assign to cycle
+2pm: View GitHub PR integration
+3pm: Update story status to Done via story page
+4pm: Review upcoming stories in sprint view
+```
+
+The difference: Linear emphasizes keyboard shortcuts and minimal clicks. Shortcut emphasizes web interface flexibility. Engineers who type fast prefer Linear. Engineers who prefer visual planning prefer Shortcut.
+
+## Team Size Growth Considerations
+
+**At 8 engineers:**
+Both tools work equally well. No hidden costs or scaling issues. Choose based on workflow preference.
+
+**Growing to 15 engineers:**
+Linear starts showing advantages: keyboard workflow scales better when team is larger (less need for heavyweight configuration). Shortcut's flexibility becomes valuable if you have specialist roles (designer stories, ops stories) that need different fields.
+
+**Growing to 25+ engineers:**
+If you chose Linear, you might feel constrained by simplicity. Shortcut's customization prevents this. However, most successful startups find Linear's constraints force good habits—limiting custom fields forces consistency.
+
+Consider: many successful teams never outgrow Linear's feature set. Others feel limited after 12 months. The "right" answer depends on your specific processes.
+
+## Migration from Other Tools
+
+**From Jira:**
+- Linear: Simpler learning curve, faster migration, losing some workflow control
+- Shortcut: More similar to Jira's flexibility, smoother for Jira users, more configuration required
+
+**From GitHub Issues:**
+- Linear: Natural upgrade, GitHub integration is first-class feature
+- Shortcut: Also works well, provides additional structure beyond GitHub's basics
+
+**From Asana:**
+- Linear: Very different model, requires workflow rethinking
+- Shortcut: More similar to Asana, easier transition for teams used to flexible workflows
+
+**From Monday/ClickUp:**
+- Linear: Radical simplification, might feel like losing features you use
+- Shortcut: Similar feature set, easier transition, probably better for teams that like customization
+
+## Common Pitfalls and Solutions
+
+**Pitfall: Creating hundreds of projects**
+Solution: Limit to 3-5 core projects initially. As you grow, organize by product area or team, not by arbitrary grouping. Too many projects defeats the purpose of unified issue tracking.
+
+**Pitfall: Using status wrong**
+Solution: Define your statuses clearly:
+- Backlog: Not yet prioritized
+- Todo: Ready to work, waiting for engineer
+- In Progress: Engineer actively working
+- In Review: Waiting for PR review
+- Done: Shipped and closed
+
+Don't create statuses like "Blocked," "Waiting for Design," "Needs Clarification." These indicate process problems, not status. Fix the underlying process instead.
+
+**Pitfall: Issues become fire-and-forget**
+Solution: Establish review cadence:
+- Daily: Check In Progress items for blockers
+- 2x weekly: Triage new issues, move stalled items back to Todo
+- Weekly: Planning meeting to pull items into next cycle
+- Biweekly: Retrospective on completed work
+
+Without this cadence, issues accumulate and the tool becomes noise.
+
+## Making the Final Decision
+
+By now you should have clear guidance:
+
+**Choose Linear if:**
+- Your team is primarily engineering (non-engineers OK too)
+- You value workflow speed and minimal configuration
+- You're starting fresh with no complex legacy processes
+- Your team is early-stage (<20 people expected in next 2 years)
+
+**Choose Shortcut if:**
+- You have multiple teams with different workflows
+- You're migrating from a complex system like Jira
+- You need custom fields or complex workflows
+- You value configuration flexibility over speed
+
+**When in doubt:**
+Trial both for 1 week with real work. Most teams have clear preference after a week of actual use. Trust your engineers' intuition—they'll be using this tool 40+ hours weekly.
 
 ## Related Reading
 
