@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /best-standing-desk-converters-under-300-for-developers/
 categories: [guides]
-tags: [ergonomics, remote-work, health, equipment]
+tags: [remote-work-tools, ergonomics, remote-work, health, equipment, best-of]
 reviewed: true
 score: 8
 voice-checked: true

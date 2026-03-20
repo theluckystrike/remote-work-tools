@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-async-performance-feedback-collection-for-dist/
 categories: [guides]
-tags: [async-feedback, performance-reviews, distributed-teams, remote-work, team-management, quarterly-reviews]
+tags: [remote-work-tools, async-feedback, performance-reviews, distributed-teams, remote-work, team-management, quarterly-reviews, best-of]
 reviewed: true
 score: 8
 intent-checked: true

@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-second-hand-ergonomic-chair-brands-to-buy-used-2026/
 categories: [guides]
-tags: [ergonomics, remote-work, hardware]
+tags: [remote-work-tools, ergonomics, remote-work, hardware, best-of]
 reviewed: true
 score: 8
 intent-checked: true

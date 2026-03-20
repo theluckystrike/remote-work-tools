@@ -7,7 +7,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-standing-desk-for-home-office-2026/
 categories: [guides]
-tags: [standing-desk, home-office, ergonomics, remote-work]
+tags: [remote-work-tools, standing-desk, home-office, ergonomics, remote-work, best-of]
 reviewed: true
 score: 8
 intent-checked: true

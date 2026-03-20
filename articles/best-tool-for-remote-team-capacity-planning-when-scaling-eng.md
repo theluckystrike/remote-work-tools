@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-capacity-planning-when-scaling-eng/
 categories: [guides]
-tags: [capacity-planning, remote-teams, engineering-management, scaling, headcount-planning]
+tags: [remote-work-tools, capacity-planning, remote-teams, engineering-management, scaling, headcount-planning, best-of, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

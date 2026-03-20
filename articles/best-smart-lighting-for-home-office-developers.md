@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /best-smart-lighting-for-home-office-developers/
 categories: [guides]
-tags: [smart-home, lighting, home-office, developer-tools]
+tags: [remote-work-tools, smart-home, lighting, home-office, developer-tools, best-of]
 reviewed: true
 score: 8
 intent-checked: true

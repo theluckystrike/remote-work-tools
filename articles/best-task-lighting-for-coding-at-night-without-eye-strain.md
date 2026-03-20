@@ -7,9 +7,10 @@ author: "theluckystrike"
 permalink: /best-task-lighting-for-coding-at-night-without-eye-strain/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, best-of]
 ---
 
 # Best Task Lighting for Coding at Night Without Eye Strain

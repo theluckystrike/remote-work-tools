@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/
 categories: [guides]
-tags: [portugal, sim-card, mobile-data, remote-work, digital-nomad, 5g, esim]
+tags: [remote-work-tools, portugal, sim-card, mobile-data, remote-work, digital-nomad, 5g, esim]
 reviewed: true
 score: 8
 intent-checked: true
