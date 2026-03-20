@@ -147,6 +147,182 @@ Regularly reviewing these metrics helps you refine your workshop approach and de
 
 Running effective remote client workshops using Miro Board requires preparation, the right interactive elements, and skilled help. By structuring your sessions thoughtfully and using Miro's collaborative features, you can create engaging virtual experiences that produce meaningful outcomes for your clients.
 
+## Miro Pricing and Workspace Configuration
+
+### Miro Pricing Models
+
+- **Free tier**: Unlimited boards, 3 boards editable, basic shapes and templates
+- **Team**: $8/member/month (minimum 3 members) — unlimited editable boards, real-time collaboration, basic integrations
+- **Business**: $16/member/month — advanced integrations, team management, 500+ templates
+
+For client workshops, the Free tier works for one-off sessions. The Team tier ($24/month for 3 people) is cost-effective for agencies or consultancies running regular workshops.
+
+### Workspace Organization for Client Work
+
+Set up a dedicated workspace structure for managing multiple workshops:
+
+```
+Workspace: "Client Workshops"
+  Team: workshop-facilitators
+
+  Boards:
+    /Templates/
+      - UX Workshop Template
+      - Product Strategy Workshop Template
+      - Design Thinking Workshop Template
+      - Retrospective Template
+
+    /Clients/
+      - Client A - Q1 Planning Workshop
+      - Client B - Design System Discovery
+      - Client C - Roadmap Refinement
+
+    /Archive/
+      - Previous workshops (keep for reference)
+```
+
+Using templates dramatically reduces setup time for repeat workshop types.
+
+## Advanced Miro Features for Facilitators
+
+### Presenter Mode and Spotlight
+
+Miro's presenter mode highlights your specific board area while other participants see your focus:
+
+```
+Steps to use presenter mode:
+1. Enter "Present" view (menu > Present)
+2. Use arrow keys to navigate the board
+3. Click to spotlight specific elements
+4. Participants see your cursor and focus area
+5. Exit to return to normal editing
+```
+
+This prevents cognitive overload — participants follow your focus rather than getting lost on a large board.
+
+### Using Miro Automations (Frame Templates)
+
+Pre-built frame templates accelerate setup:
+
+1. **Create reusable frames** for common workshop sections
+2. **Name descriptively**: "Brainstorm: [Topic]", "Voting: [Topic]"
+3. **Duplicate for each session** rather than building from scratch
+4. **Update content 24 hours before workshop**
+
+A typical workshop template with 6-8 frames takes 15 minutes to customize versus 45 minutes to build from scratch.
+
+## Facilitation Techniques Specific to Remote Workshops
+
+### Managing Cross-Time-Zone Workshops
+
+When clients span multiple time zones:
+
+1. **Record the session** (Zoom/Meet recording → store for async viewers)
+2. **Async pre-workshop**: Send Miro link 24 hours early for timezone-distant participants
+3. **Async follow-up**: Share exported board + video recording + written summary within 24 hours
+4. **Time rotation**: If running recurring sessions, alternate convenient times
+
+### Preventing Dominant Voices from Drowning Out Quieter Participants
+
+**In-meeting techniques**:
+1. Start with 5 minutes of silent writing on sticky notes (everyone participates equally)
+2. Use rounds: "Let's hear from each person in order"
+3. Explicitly ask quiet participants: "Alex, what's your perspective?"
+4. Use reaction emoji for quick feedback (thumbs up, lightbulb, question mark)
+
+### Handling Challenging Participants
+
+| Scenario | Approach |
+|----------|----------|
+| Someone monopolizes discussion | "Let's capture that thought and move to the next person" |
+| Participant suggests off-topic idea | "That's interesting — let's add it to parking lot for later" |
+| Technical disruption (someone drops) | "No problem, [person] is rejoining. Let's continue." |
+| Group agreement conflicts | "I see two perspectives here. Let's document both and vote" |
+
+## Advanced Workshop Designs for Specific Outcomes
+
+### Design Thinking Workshop (90 minutes)
+
+Structure for discovering customer pain points:
+
+```
+Welcome (5 min) → Explain design thinking
+Empathy (20 min) → Participants describe customer personas in shared doc
+Define (15 min) → Group identifies top 3 customer problems
+Ideate (30 min) → Brainstorm solutions on Miro (sticky notes)
+Prototype (10 min) → Sketch wireframe/concept for top idea
+Feedback (10 min) → Quick peer review using emoji voting
+```
+
+**Miro setup**:
+- Frame 1: Persona cards (pre-filled templates)
+- Frame 2: Problem statement board
+- Frame 3: Brainstorm sticky notes area (large open space)
+- Frame 4: Prototype sketching zone
+- Frame 5: Feedback voting grid
+
+### Product Roadmap Alignment (60 minutes)
+
+Structure for aligning stakeholders on priorities:
+
+```
+Opening (5 min) → Share current product state
+Vision (10 min) → Present 6-month vision
+Priorities (20 min) → Discuss top 5 goals
+Tradeoffs (15 min) → Vote on which goals matter most
+Action (10 min) → Assign owners for initiatives
+```
+
+**Miro setup**:
+- Frame 1: Current product dashboard (screenshots or summary)
+- Frame 2: Vision statement and goals
+- Frame 3: Priority cards with voting dots
+- Frame 4: Tradeoff matrix (importance vs. effort)
+- Frame 5: Action items with owners assigned
+
+### Retrospective Workshop (45 minutes)
+
+Structure for team learning and process improvement:
+
+```
+Setup (5 min) → Explain the session
+Async input (10 min) → Anonymous pre-session survey inputs reviewed live
+Discussion (20 min) → Group themes from survey responses
+Action items (10 min) → Assign owners for improvements
+```
+
+**Miro setup**:
+- Frame 1: Welcome and guidelines
+- Frame 2: "What went well" responses (compiled from survey)
+- Frame 3: "What could improve" responses
+- Frame 4: "Action items" with owner assignment grid
+
+## Client Feedback and Iteration
+
+### Collecting Workshop Feedback
+
+Send post-workshop survey within 24 hours:
+
+1. **Overall satisfaction** (1-5 scale)
+2. **Specific questions**: "Which exercise was most valuable?"
+3. **What to improve**: "What would make this more useful?"
+4. **Follow-up interest**: "Would you run this workshop again?"
+
+Use a tool like Typeform or Google Forms linked in post-workshop email. Aim for 50%+ response rate.
+
+### Iterating Your Workshop Design
+
+Track metrics across multiple workshops:
+
+| Metric | Track | Benchmark |
+|--------|-------|-----------|
+| Participation rate | % of participants active on board | 70%+ |
+| Exercise completion | Which exercises finished | 80%+ |
+| Satisfaction score | Post-workshop survey | 4+/5 |
+| Follow-up actions | % of agreed items completed | 60%+ |
+| Time accuracy | Workshop ended on time | Yes/No |
+
+If satisfaction drops below 3.5/5 or participation below 60%, review recording and ask for specific feedback on which elements didn't work.
 
 ## Related Reading
 

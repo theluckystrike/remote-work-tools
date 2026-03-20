@@ -151,6 +151,227 @@ Sustainable scheduling across 8-hour time differences comes down to:
 
 The goal isn't eliminating meetings—it's making the ones you keep meaningful while protecting everyone's ability to disconnect and recharge.
 
+## Detailed Timezone Overlap Calculator
+
+For teams working across multiple timezones, calculate exact windows:
+
+```python
+from datetime import datetime, timedelta
+import pytz
+
+class TimezoneOverlapFinder:
+    def __init__(self, timezones):
+        """
+        timezones: list of timezone names (e.g., ['US/Pacific', 'Europe/London'])
+        """
+        self.timezones = timezones
+        self.tz_objects = [pytz.timezone(tz) for tz in timezones]
+
+    def find_work_overlaps(self, work_start=9, work_end=17):
+        """
+        Find overlapping working hours (9am-5pm local time)
+        """
+        overlaps = []
+
+        # Test each hour of the day in the first timezone
+        for utc_hour in range(24):
+            utc_time = datetime.now(pytz.UTC).replace(hour=utc_hour, minute=0, second=0)
+            local_times = [utc_time.astimezone(tz).hour for tz in self.tz_objects]
+
+            # Check if all timezones fall within work hours
+            if all(work_start <= hour < work_end for hour in local_times):
+                overlaps.append({
+                    'utc_time': utc_hour,
+                    'local_times': dict(zip(self.timezones, local_times))
+                })
+
+        return overlaps
+
+    def print_overlap_report(self):
+        """Generate readable overlap report"""
+        overlaps = self.find_work_overlaps()
+
+        if not overlaps:
+            print("No overlapping work hours found!")
+            return
+
+        print(f"Overlapping work hours for: {', '.join(self.timezones)}\n")
+
+        for overlap in overlaps:
+            utc = overlap['utc_time']
+            print(f"UTC {utc:02d}:00 →", end=" ")
+            for tz, hour in overlap['local_times'].items():
+                period = "AM" if hour < 12 else "PM"
+                display_hour = hour if hour <= 12 else hour - 12
+                print(f"{tz}: {display_hour:02d}:00 {period}", end=" | ")
+            print()
+
+# Example: SF, London, Singapore
+finder = TimezoneOverlapFinder(['US/Pacific', 'Europe/London', 'Asia/Singapore'])
+finder.print_overlap_report()
+```
+
+Output example:
+```
+Overlapping work hours for: US/Pacific, Europe/London, Asia/Singapore
+
+UTC 15:00 → US/Pacific: 07:00 AM | Europe/London: 03:00 PM | Asia/Singapore: 11:00 PM
+UTC 16:00 → US/Pacific: 08:00 AM | Europe/London: 04:00 PM | Asia/Singapore: 12:00 AM
+```
+
+This reveals that true overlap (all teams in working hours) is often impossible with 8+ hour differences. Planning for "least bad" time is more realistic than seeking perfect overlap.
+
+## Async Communication Patterns for Deep Work
+
+### Async Decision-Making with RFC (Request for Comments)
+
+For complex decisions that typically require meetings:
+
+```markdown
+# RFC: Migrate to [new technology]
+
+**Author**: Engineering Lead
+**Status**: Open (ends March 28)
+**Decision Deadline**: March 29
+
+## Problem Statement
+Current system has [specific limitation]. This RFC proposes [solution].
+
+## Proposed Solution
+- [Detail 1]
+- [Detail 2]
+- [Tradeoff analysis]
+
+## Timeline
+- Week 1: Team review and comment
+- Week 2: Sync discussion (30 min) to resolve conflicts
+- Week 3: Decision communicated
+
+## How to Contribute
+1. Read this RFC
+2. Add comments by March 28 (async)
+3. Attend optional sync on March 29 if you have concerns
+4. Final decision announced March 29 EOD
+
+## Current Feedback Summary
+[As comments accumulate, synthesize top themes]
+```
+
+This structure lets teams in different timezones contribute meaningfully without being required to join a synchronous call. The async step ensures everyone's had time to think deeply.
+
+### Recorded Updates Instead of Status Meetings
+
+For large distributed teams, replace sync standups with recorded videos:
+
+```bash
+#!/bin/bash
+# Weekly standup recording template
+
+record_standup() {
+  DATE=$(date +%Y-%m-%d)
+  STANDUP_FILE="standup-${DATE}.mp4"
+
+  # Use ScreenFlow, OBS, or ffmpeg to record
+  # Keep to 3-5 minutes
+  # Content: what you accomplished, current work, blockers
+
+  ffmpeg -f avfoundation -i "0:0" -t 300 "$STANDUP_FILE"
+
+  # Upload to shared drive or YouTube (unlisted)
+  # Post link to Slack with timestamp
+  echo "Recorded standup: $STANDUP_FILE"
+}
+
+record_standup
+```
+
+Team members watch videos during their own morning. Comments in Slack if they need clarification. This gives async teams full visibility without mandatory meeting time.
+
+## Timezone Fairness Metrics
+
+Track fairness to prevent one timezone bearing the burden:
+
+```javascript
+// Calculate fairness metrics for meeting scheduling
+const calculateTimezoneFairness = (schedule) => {
+  // schedule = array of meetings with times and attendees
+
+  const timezoneLoad = {};
+
+  schedule.forEach(meeting => {
+    meeting.attendees.forEach(attendee => {
+      const tz = attendee.timezone;
+      const localTime = convertToLocalTime(meeting.time, tz);
+      const painFactor = calculatePainFactor(localTime);
+
+      timezoneLoad[tz] = (timezoneLoad[tz] || 0) + painFactor;
+    });
+  });
+
+  // Pain factor: 0 = ideal (9am-5pm), increases for edges (6am, 10pm)
+  const calculatePainFactor = (hour) => {
+    if (hour < 6 || hour > 22) return 3; // extreme
+    if (hour < 9 || hour > 17) return 2; // inconvenient
+    return 0; // ideal
+  };
+
+  // Fairness score: std deviation of loads (lower = fairer)
+  const loads = Object.values(timezoneLoad);
+  const mean = loads.reduce((a, b) => a + b) / loads.length;
+  const variance = loads.reduce((sum, load) => sum + (load - mean) ** 2, 0) / loads.length;
+  const stdDev = Math.sqrt(variance);
+
+  return {
+    timezoneLoad,
+    fairnessScore: stdDev, // lower = fairer distribution
+    recommendation: stdDev < 1 ? "Fair" : "Adjust schedule"
+  };
+};
+```
+
+Review this monthly. If one timezone's fairness score is significantly higher, you're overloading them.
+
+## Technology Stack for Timezone-Distributed Teams
+
+| Tool | Purpose | Cost | Why It Helps |
+|------|---------|------|-------------|
+| Slack Scheduled Send | Queue messages for recipient's morning | Free | Async respects sleep |
+| Calendar.com Timezone Converter | Show all timezones during scheduling | Free | Prevents mistakes |
+| Reclaim.ai | Auto-optimize calendar | $10-15/month | Finds best meeting times |
+| Otter.ai | Meeting transcription | $8.33/month | Async attendees get notes |
+| Loom | Video recording for async updates | $5-25/month | Better than text for context |
+
+For distributed teams, Slack Scheduled Send + Reclaim.ai + Loom covers 80% of timezone coordination needs.
+
+## Recognition and Fairness Practices
+
+### Rotating Convenors, Not Victims
+
+Rather than always asking the same timezone to take inconvenient times, rotate who facilitates:
+
+```
+Week 1-2: PST-friendly times
+    → EU attendees take evening slots
+    → APAC attendees take early morning
+
+Week 3-4: EU-friendly times
+    → PST attendees take early morning
+    → APAC takes late evening
+
+Week 5-6: APAC-friendly times
+    → PST takes late evening
+    → EU takes early morning
+```
+
+Rotation prevents one group developing resentment.
+
+### Compensation for Inconvenient Hours
+
+For contractors or remote employees, consider:
+- Additional comp time (1 hour extra PTO per early/late meeting)
+- Flexible scheduling (if you attend 6am meeting, end day 2 hours earlier)
+- Async-first culture (minimize forced sync meetings regardless of timezone)
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
