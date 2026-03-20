@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-decision-log-documentation-for-remote-teams-re/
 categories: [guides]
-tags: [decision-log, documentation, remote-work, knowledge-management]
+tags: [remote-work-tools, decision-log, documentation, remote-work, knowledge-management]
 reviewed: true
 score: 8
 intent-checked: true

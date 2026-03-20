@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-async-standup-templates-in-slack-with-workflow-builder/
 categories: [guides]
-tags: [slack, async-standup, workflow-builder, remote-work, productivity]
+tags: [remote-work-tools, slack, async-standup, workflow-builder, remote-work, productivity, workflow]
 reviewed: true
 score: 8
 intent-checked: true

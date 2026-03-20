@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-automated-client-progress-report-for-remote-pr/
 categories: [guides]
-tags: [automation, remote-work, reporting, client-communication, scripts]
+tags: [remote-work-tools, automation, remote-work, reporting, client-communication, scripts]
 reviewed: true
 score: 8
 intent-checked: true

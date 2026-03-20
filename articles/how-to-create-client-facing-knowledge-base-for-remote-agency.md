@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-facing-knowledge-base-for-remote-agency/
 categories: [guides]
-tags: [knowledge-base, client-communication, remote-work, documentation, agency-tools]
+tags: [remote-work-tools, knowledge-base, client-communication, remote-work, documentation, agency-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

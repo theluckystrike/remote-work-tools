@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/
 categories: [guides]
-tags: [hot-desking, hybrid-office, floor-plan, neighborhood-zones, office-management, workspace]
+tags: [remote-work-tools, hot-desking, hybrid-office, floor-plan, neighborhood-zones, office-management, workspace]
 reviewed: true
 score: 8
 voice-checked: true

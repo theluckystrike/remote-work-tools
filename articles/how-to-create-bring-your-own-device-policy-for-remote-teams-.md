@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-bring-your-own-device-policy-for-remote-teams-/
 categories: [guides]
-tags: [byod, remote-work, security-policy, developer-tools, compliance]
+tags: [remote-work-tools, byod, remote-work, security-policy, developer-tools, compliance]
 reviewed: true
 score: 8
 intent-checked: true

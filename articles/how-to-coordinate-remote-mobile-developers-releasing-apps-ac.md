@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-coordinate-remote-mobile-developers-releasing-apps-ac/
 categories: [guides]
-tags: [mobile-development, remote-work, ios, android, ci-cd, app-release, coordinate-teams]
+tags: [remote-work-tools, mobile-development, remote-work, ios, android, ci-cd, app-release, coordinate-teams]
 reviewed: true
 score: 8
 intent-checked: true

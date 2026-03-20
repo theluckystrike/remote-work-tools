@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/
 categories: [guides]
-tags: [hybrid-work, feedback, policy, employee-input, remote-work]
+tags: [remote-work-tools, hybrid-work, feedback, policy, employee-input, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

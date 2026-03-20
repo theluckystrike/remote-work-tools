@@ -10,6 +10,7 @@ score: 8
 voice-checked: true
 categories: [guides]
 intent-checked: true
+tags: [remote-work-tools]
 ---
 
 Three-office-day hybrid schedules balance collaboration needs with focused individual work by using rotating assignment patterns that ensure 3 days in office, minimum team overlap, and no more than 60% office capacity on any day. Python scripts can generate valid rotation schedules, YAML configurations specify which days teams are in-office, and calendar sync tooling (Google Calendar API) makes schedules accessible where teams live. Desk booking systems prevent overbooking, communication protocols clarify when to prefer in-person versus async, and monthly reviews adapt schedules to actual team patterns.

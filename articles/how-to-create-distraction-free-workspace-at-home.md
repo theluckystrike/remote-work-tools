@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-create-distraction-free-workspace-at-home/
 categories: [guides]
-tags: [workspace, productivity, remote-work, focus]
+tags: [remote-work-tools, workspace, productivity, remote-work, focus]
 reviewed: true
 score: 8
 intent-checked: true

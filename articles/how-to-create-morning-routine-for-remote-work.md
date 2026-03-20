@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-create-morning-routine-for-remote-work/
 categories: [guides]
-tags: [remote-work, productivity, morning-routine, developer-habits]
+tags: [remote-work-tools, remote-work, productivity, morning-routine, developer-habits]
 reviewed: true
 score: 8
 intent-checked: true

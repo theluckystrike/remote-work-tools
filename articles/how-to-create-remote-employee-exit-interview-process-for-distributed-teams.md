@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-employee-exit-interview-process-for-distributed-teams/
 categories: [guides]
-tags: [exit-interview, remote-work, distributed-teams, hr-processes, async, team-management]
+tags: [remote-work-tools, exit-interview, remote-work, distributed-teams, hr-processes, async, team-management]
 reviewed: true
 score: 8
 intent-checked: true

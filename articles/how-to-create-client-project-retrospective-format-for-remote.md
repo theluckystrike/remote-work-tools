@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-project-retrospective-format-for-remote/
 categories: [guides]
-tags: [retrospective, remote-work, client-projects, project-management, async-communication]
+tags: [remote-work-tools, retrospective, remote-work, client-projects, project-management, async-communication]
 reviewed: true
 score: 8
 intent-checked: true

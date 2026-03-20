@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-compliant-offer-letter-for-international-remot/
 categories: [guides]
-tags: [remote-work, hr, compliance, international-hiring, legal, templates]
+tags: [remote-work-tools, remote-work, hr, compliance, international-hiring, legal, templates]
 reviewed: true
 score: 8
 intent-checked: true

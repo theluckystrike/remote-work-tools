@@ -10,6 +10,7 @@ score: 8
 voice-checked: true
 categories: [guides]
 intent-checked: true
+tags: [remote-work-tools, remote-work]
 ---
 
 Remote performance improvement plans (PIPs) require different structure than office-based PIPs because you lose real-time observation of work. Build PIPs with weekly check-ins, clearly documented metrics pulled from actual tools (GitHub PR times, Slack activity), and explicit communication expectations. This guide provides JSON templates and tracking scripts to implement fair, measurable PIPs for distributed teams.

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-communication-charter-for-remote-agency/
 categories: [guides]
-tags: [client-communication, remote-work, agency, communication-charter, workflow]
+tags: [remote-work-tools, client-communication, remote-work, agency, communication-charter, workflow]
 reviewed: true
 score: 8
 intent-checked: true
