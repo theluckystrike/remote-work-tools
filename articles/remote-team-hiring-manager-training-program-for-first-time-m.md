@@ -156,6 +156,177 @@ Review your hiring data quarterly. Track time-to-hire, offer acceptance rate, an
 
 First-time remote hiring managers who invest in structured processes save significant time on rework and build stronger teams faster. The skills transfer directly to managing ongoing remote performance, making this training valuable beyond the hiring process itself.
 
+## Building Your Hiring Team and Delegation
+
+As a first-time manager, you cannot review every candidate alone. Build a hiring committee that represents your team's needs:
+
+**Sample hiring committee for 5-person engineering team:**
+- You (hiring manager): Strategic fit, team integration
+- Senior engineer: Technical depth assessment
+- Another team member: Peer interaction and collaboration signals
+- HR representative: Process management and compliance
+- (Optional) Customer or partner: Customer-facing role requirements
+
+Each committee member has a specific lens. Coordinate their efforts with clear rubrics so everyone evaluates fairly.
+
+```python
+# Example: Rubric for distributed scoring
+class HiringRubric:
+    def __init__(self, max_score=4):
+        self.criteria = {
+            "technical_skills": {
+                "score": 0,
+                "weight": 30,
+                "evaluator": "senior_engineer",
+                "definition": "Can solve core technical problems for this role"
+            },
+            "remote_readiness": {
+                "score": 0,
+                "weight": 20,
+                "evaluator": "hiring_manager",
+                "definition": "Demonstrates self-direction, async communication, timezone awareness"
+            },
+            "collaboration": {
+                "score": 0,
+                "weight": 25,
+                "evaluator": "team_member",
+                "definition": "Shows respect for different viewpoints, asks clarifying questions"
+            },
+            "communication": {
+                "score": 0,
+                "weight": 15,
+                "evaluator": "all",
+                "definition": "Explains thinking clearly in writing and conversation"
+            },
+            "growth_mindset": {
+                "score": 0,
+                "weight": 10,
+                "evaluator": "hiring_manager",
+                "definition": "Seeks feedback, adapts approach, learns from mistakes"
+            }
+        }
+
+    def calculate_weighted_score(self):
+        total = sum(c["score"] * c["weight"] / 100
+                   for c in self.criteria.values())
+        return round(total, 2)
+
+    def get_recommendation(self, score):
+        if score >= 3.5: return "STRONG YES"
+        elif score >= 3.0: return "YES"
+        elif score >= 2.5: return "MAYBE"
+        else: return "NO"
+```
+
+Using distributed rubrics prevents a single person's biases from determining hiring decisions.
+
+## Sourcing and Pipeline Building
+
+First-time managers often underestimate the sourcing challenge. Building a strong pipeline takes months.
+
+**Sourcing channels for remote talent:**
+- LinkedIn Recruiter (budget: $150-300/month for direct messaging access)
+- GitHub (find developers by contributions to projects relevant to your work)
+- Hacker News "Who's Hiring" thread (monthly, free, surprisingly high-quality candidates)
+- Remote-specific job boards (We Work Remotely, Remote.co, FlexJobs)
+- Engineering communities (Sliced Bread Collective, Indie Hackers for senior engineers)
+- Internal referral program ($1,000-5,000 bounty per successful hire)
+
+For remote hiring, referrals account for 60%+ of quality hires. Invest in a structured referral program that makes it easy for your team to recommend candidates.
+
+```markdown
+# Referral Program Structure
+
+## Eligible Roles
+Any open engineering position (full-time or contract)
+
+## Referral Bonus
+- Engineer, L1-L2: $2,000
+- Engineer, L3+: $5,000
+- Referrer can choose: bonus paid upon hire OR $1,000 paid immediately + $1,000 on 90-day mark
+
+## Referrer Expectations
+- Introduce candidate by email (don't submit blindly)
+- Be available to discuss candidate's background with hiring team
+- Referrers can't be part of direct hiring decisions (conflict of interest)
+
+## Process
+1. Referrer submits candidate via Slack #referrals-channel
+2. Screening call within 48 hours
+3. Progress updates shared with referrer
+4. Bonus paid within 30 days of hire
+5. Thank you: referrer gets public recognition in all-hands
+
+## Sample intro email
+"Hi [hiring manager], I'd like to refer [name] for the [role]. [Name] is an experienced [specialty], and I've worked with them on [context]. They're interested in remote roles with [preferences]. I'll send their GitHub/portfolio separately. Happy to discuss further."
+```
+
+A well-run referral program fills 40%+ of your open roles through trusted sources.
+
+## Competitive Compensation for Remote Talent
+
+Remote hiring expands your talent pool geographically. This raises compensation questions: do you pay the same regardless of location?
+
+**Market-rate approach:**
+Pay based on the role level and specialty, regardless of location. A senior engineer is a senior engineer, whether in San Francisco or Tampa. This approach (Google, Meta, some startups) simplifies fairness and attracts the best talent globally.
+
+```python
+# Example: Location-independent compensation model
+base_salary_by_level = {
+    "L1": 120000,   # New grad, learning stage
+    "L2": 160000,   # 2-4 years, solid contributor
+    "L3": 210000,   # 4-8 years, lead projects
+    "L4": 280000,   # 8+ years, strategic impact
+}
+
+# Adjustments (minimal)
+adjustments = {
+    "specialty_premium": {
+        "security": 1.15,
+        "ml": 1.12,
+        "infrastructure": 1.1,
+    },
+    "remote_home_office_stipend": 2000,  # one-time equipment budget
+}
+```
+
+**Location-adjusted approach:**
+Some companies adjust for cost-of-living differences. A senior engineer in San Francisco might earn $280k while the same level in Austin earns $220k. This is more complex to manage but potentially reduces costs in lower-cost regions.
+
+```python
+# Example: Location-adjusted model (more complex)
+cost_of_living_index = {
+    "San Francisco, CA": 1.0,
+    "Austin, TX": 0.75,
+    "London, UK": 0.85,
+    "Toronto, Canada": 0.8,
+}
+
+def calculate_salary(base, location):
+    return int(base * cost_of_living_index.get(location, 0.9))
+```
+
+**Recommendation:** For distributed teams hiring globally, location-independent compensation is simpler to manage and attracts better talent. The difference in cost is often offset by reduced geographic restrictions on hiring.
+
+## Retention: The Forgotten Half of Hiring
+
+Hiring costs money, but retaining exceptional engineers is what builds value. First-time managers often focus on hiring without thinking through retention.
+
+**Early retention signals (first 6 months):**
+- Does the new hire have a mentor/buddy checking in regularly?
+- Are they contributing meaningfully to team discussions?
+- Do they understand career growth opportunities?
+- Are they receiving positive feedback in code reviews?
+
+**6-12 month check-ins:**
+Schedule a formal conversation: "How are you settling in? What's working? What could we improve?" Use this data to address issues before they become leaving reasons.
+
+**Longer-term retention (year 1+):**
+- Quarterly career conversations (growth trajectory)
+- Annual compensation review (especially important for remote workers who don't negotiate raises naturally)
+- Opportunities for mentorship or leadership (helping engineers grow within your team)
+
+The best hiring managers view their job as 70% retention. Building a hiring pipeline fills short-term gaps; building a team people want to stay in solves long-term growth.
 
 ## Related Reading
 

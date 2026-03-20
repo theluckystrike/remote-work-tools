@@ -153,6 +153,165 @@ Track these metrics to ensure your rotation policy works:
 
 Review these metrics monthly and adjust your policy based on operational data rather than theoretical security models.
 
+## Password Manager Selection for Shared Credentials
+
+The right password manager becomes your policy's operational backbone. Different managers handle shared credentials differently.
+
+**1Password Business** excels for teams needing shared vaults and audit trails. Multiple team members can access the same credentials, and 1Password logs every access. The vault-sharing model means you can grant access to subsets of credentials (e.g., only staging passwords, not production). Pricing around $3.99/user/month scales affordably.
+
+**Bitwarden** offers open-source flexibility and competitive pricing ($40/year for individuals, $60 per person/year for teams). The shared vault model works well, though its audit trail is less granular than 1Password's. Good for teams wanting self-hosted options or budget constraints.
+
+**HashiCorp Vault** (mentioned earlier) integrates deeply with infrastructure as code and CI/CD pipelines. The learning curve is steeper—Vault uses HCL for configuration and requires understanding auth methods. Worth it if your team is already using Terraform and infrastructure automation.
+
+**Okta Secrets** integrates with Okta's identity management, making sense if your team already uses Okta for SSO. The lifecycle management tightly integrates with your access control system.
+
+For most remote teams of 5-30 people, 1Password Business or Bitwarden provides the right balance of ease-of-use and audit capabilities.
+
+## Creating Rotation Triggers at Scale
+
+As you scale from 5 to 50 people, manual rotation triggers become unsustainable. Automate the detection:
+
+```python
+# Example: Detect security events and trigger rotation
+import boto3
+import json
+from datetime import datetime, timedelta
+
+def check_for_rotation_triggers(credential_id):
+    """Check various signals that might trigger credential rotation."""
+    triggers = []
+
+    # Check CloudTrail for suspicious access patterns
+    cloudtrail = boto3.client('cloudtrail')
+    events = cloudtrail.lookup_events(
+        LookupAttributes=[{
+            'AttributeKey': 'ResourceName',
+            'AttributeValue': credential_id
+        }],
+        StartTime=datetime.now() - timedelta(days=7)
+    )
+
+    # Suspicious patterns: access from unusual locations, failed logins
+    for event in events['Events']:
+        event_data = json.loads(event['CloudTrailEvent'])
+
+        # Flag if access from new country
+        if event_data.get('sourceIPAddress') not in KNOWN_IPS:
+            triggers.append("access_from_new_location")
+
+        # Flag repeated failed logins
+        if event_data.get('errorCode') in ['UnauthorizedOperation', 'AccessDenied']:
+            triggers.append("failed_auth_attempt")
+
+    return triggers
+
+# Usage
+triggers = check_for_rotation_triggers('prod-db-password')
+if triggers:
+    notify_security_team(f"Rotation recommended for credential: {triggers}")
+    schedule_rotation(credential_id, priority="high")
+```
+
+This script monitors access patterns and recommends rotation automatically, reducing the manual overhead.
+
+## Handling Credential Dependencies
+
+Many shared credentials have dependencies—services that depend on the credential remaining consistent. Rotating a production database password requires updating the application servers that use it.
+
+Map credential dependencies before implementing rotation:
+
+```yaml
+credential: production-database-password
+depends_on:
+  - api-server-1 (ENV: DB_PASSWORD)
+  - api-server-2 (ENV: DB_PASSWORD)
+  - data-pipeline (CONFIG: database.password)
+  - admin-dashboard (ENV: DATABASE_URL)
+
+rotation_procedure:
+  1. Create new password in password manager
+  2. SSH to api-server-1, update ENV variable, restart service
+  3. SSH to api-server-2, update ENV variable, restart service
+  4. Deploy data-pipeline with new config
+  5. Restart admin-dashboard
+  6. Verify all services still authenticate
+  7. Mark old password as deprecated (keep for 30 days as rollback)
+```
+
+Documenting dependencies prevents scenarios where you rotate a credential but forget to update one application, causing an outage.
+
+## Emergency Rotation Procedures
+
+Beyond scheduled rotation, prepare for emergency scenarios. Detailed runbooks prevent panic-driven mistakes:
+
+```markdown
+# Emergency Rotation Runbook: Production Database Password
+
+## Trigger
+- [ ] Suspected credential compromise
+- [ ] Unauthorized access detected
+- [ ] Employee with access leaves without proper offboarding
+- [ ] Credential exposed in logs or source control
+
+## Immediate Actions (within 15 minutes)
+1. Page the security on-call engineer
+2. Isolate affected credential: disable from password manager
+3. Notify engineering leadership in Slack #security channel
+4. Document what triggered the emergency rotation
+
+## Rotation (within 1 hour)
+1. Security engineer generates new password (20+ characters, high entropy)
+2. Database administrator updates the password in the database
+3. Secret management tool updated with new password
+4. Affected services notified via automated config deployment
+5. Each service restarted in sequence (watch for timeouts)
+6. Health checks confirm connectivity before moving to next service
+
+## Post-Rotation
+1. Review audit logs for the past 7 days
+2. Check if credential was used from unexpected locations
+3. If compromise suspected, escalate to incident response team
+4. Update incident log with rotation details
+5. Schedule post-incident review within 48 hours
+```
+
+Having this documented and practiced quarterly ensures your team handles crises calmly.
+
+## Policy Documentation and Team Training
+
+A rotation policy is only effective if your team understands and follows it. Document it clearly:
+
+```markdown
+# Shared Credential Rotation Policy v2.0
+
+## Policy Owner
+Security Team ([security@yourcompany.com](mailto:security@yourcompany.com))
+
+## Rotation Schedule
+| Credential Type | Rotation Interval | Last Rotated | Next Rotation |
+|---|---|---|---|
+| Production Database | Monthly | 2026-02-15 | 2026-03-15 |
+| CI/CD Deploy Key | Every 90 days | 2025-12-10 | 2026-03-10 |
+| API Keys | Every 180 days | 2025-09-15 | 2026-03-15 |
+
+## Who Can Rotate Credentials
+- Rotation triggers event-driven rotation (automatic)
+- Engineering leads can request manual rotation
+- Security team approves emergency rotations
+
+## Compliance
+Non-compliance with rotation schedule:
+- First violation: Team lead notification
+- Second violation: Credential access revoked until retrained
+- Third violation: Policy review with management
+
+## Training
+All new engineers complete rotation policy training within 30 days of hire.
+Annual refresher training required for all team members.
+```
+
+Communicate this policy during onboarding, and reference it in your team wiki.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

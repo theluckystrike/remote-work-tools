@@ -156,6 +156,167 @@ async function getOptimizedSchedule(tool) {
 
 For developers building custom workflows, Reclaim AI's API offers more flexibility for integrations. Both tools defend focus time automatically—the results depend on how carefully you configure the rules to match your working style.
 
+## Pricing and Licensing Models
+
+**Reclaim AI Pricing:**
+- Individual tier: $10/month (personal productivity)
+- Team tier: $8/person/month (minimum 3 people)
+- Enterprise tier: Custom pricing with API access and admin controls
+
+Individual developers often start with Reclaim AI's lower entry point. Teams scaling to 10+ people see better value in team licensing.
+
+**Clockwise Pricing:**
+- Individual: $10/month
+- Team: $10/person/month (minimum 3 people)
+- Enterprise: Custom pricing with advanced analytics
+
+Clockwise's per-person cost is slightly higher but often justified if meeting optimization is your primary pain point.
+
+**For budget-conscious teams:**
+Reclaim AI's team pricing ($8/person) edges out Clockwise ($10/person) at scale. However, if your primary need is meeting clustering (not task management), Clockwise's specialization might justify the cost.
+
+## Real-World Workflows Compared
+
+**Workflow 1: Deep Work Protection**
+
+*Using Reclaim AI:*
+1. Block "deep work" time slots on your calendar
+2. Set these blocks as "high priority" and "recurring"
+3. Reclaim intelligently reschedules meetings to protect these blocks
+4. New meeting requests check availability before booking
+5. You gain 6+ hours weekly of uninterrupted coding time
+
+*Using Clockwise:*
+1. Set focus time preferences in settings
+2. Clockwise suggests focus blocks and clusters meetings
+3. You accept or reject suggestions
+4. Requires more manual acceptance than Reclaim's automatic handling
+5. Focus time emerges from optimization, not explicit blocking
+
+For developers prioritizing deep work above all else, Reclaim AI's task-first approach feels more aligned.
+
+**Workflow 2: Team Productivity Across Departments**
+
+*Using Clockwise:*
+1. Manager sets team focus block requirements (e.g., "no meetings 1-4pm")
+2. Clockwise analyzes calendar overlap across team
+3. Suggests rescheduling meetings to cluster them outside focus blocks
+4. Generates reports showing team meeting load trends
+5. Team gains 8+ hours weekly of clustered focus time collectively
+
+*Using Reclaim AI:*
+1. Each team member sets individual focus blocks
+2. When their calendars sync, conflicts become visible
+3. Automated reschedules happen individually, not coordinately
+4. Less team-level optimization, more individual optimization
+
+For team-wide initiatives (like "engineering should have 20% deep time"), Clockwise's team perspective is stronger.
+
+## Integration Scenarios
+
+**Scenario 1: DevOps/SRE Team Using Infrastructure Tools**
+
+If your team uses PagerDuty for on-call rotations, you might want calendar optimization that respects on-call schedules. Reclaim AI's finer-grained rule system handles this better:
+
+```javascript
+// Reclaim AI: Protect focus time except when on-call
+const focusBlockRule = {
+  name: "Deep work (unless on-call)",
+  duration: 120,
+  days: ["monday", "tuesday", "wednesday", "thursday", "friday"],
+  priority: "high",
+  exceptions: [
+    { condition: "pagerduty_on_call == true", action: "allow_meetings" }
+  ]
+};
+```
+
+This level of conditional logic requires Reclaim AI's API.
+
+**Scenario 2: Sales Team with Meeting-Heavy Calendar**
+
+Sales teams often have back-to-back meetings with high scheduling overhead. Clockwise's meeting clustering helps:
+
+```yaml
+# Clockwise for sales teams
+focus_time: 9am-11am daily
+meeting_clustering:
+  - "Client calls should be 2:30-4:30pm (back-to-back)"
+  - "Internal syncs should be 10:30-11:30am"
+  - "Lunch should be uninterrupted 12-1pm"
+
+outcome: Calendar goes from 30+ context switches/day to 4-5
+```
+
+For meeting-heavy workloads, Clockwise shines.
+
+**Scenario 3: Engineering Manager Balancing 1-on-1s and Deep Work**
+
+Managers often have competing demands: protect 1-on-1 slots with reports while maintaining personal focus time. Both tools handle this, but Clockwise's team integration helps:
+
+```yaml
+# Clockwise perspective: Manager + Team
+focus_time:
+  manager: 1-3pm daily (protected)
+  team: 2-4pm daily (protected)
+  overlap: 2-3pm (both protected—mutual focus time)
+
+outcome: Manager gets focus time, team gets focus time, meeting load decreases
+```
+
+## Common Customizations
+
+**Customization 1: Protect Specific Meeting Types**
+
+Some teams want to cluster specific meeting types (all design critiques on Wednesdays) while protecting other times:
+
+*Better in Reclaim:* Custom rules engine handles exceptions and conditions more flexibly.
+
+**Customization 2: Respect Individual Preferences**
+
+Your team might have strong feelings about meeting times ("I never want meetings after 4pm"). Reclaim AI's per-person preferences are more granular.
+
+*Better in Reclaim:* Handles individual constraints better.
+
+**Customization 3: Report on Meeting Patterns**
+
+You want data on whether your team's focus time is improving. Clockwise's analytics are more developed:
+
+*Better in Clockwise:* Provides better reporting on team meeting metrics.
+
+## Trial and Evaluation Strategy
+
+Both tools offer free trials. Here's a structured evaluation:
+
+```markdown
+# Calendar Tool Trial Checklist
+
+Week 1: Setup
+- [ ] Connect your calendar
+- [ ] Define your focus time blocks
+- [ ] Set meeting preferences
+- [ ] Invite 1-2 team members to test
+
+Week 2: Experience
+- [ ] Document number of focus blocks created
+- [ ] Note meetings automatically rescheduled
+- [ ] Track focus hours gained
+- [ ] Collect feedback from colleagues
+
+Week 3: Comparison
+- [ ] Run same focus time rules in both tools (if testing both)
+- [ ] Evaluate ease of configuration
+- [ ] Check API documentation if custom integration needed
+- [ ] Calculate cost per person
+
+Week 4: Decision
+- [ ] Which tool reduced meeting load most?
+- [ ] Which tool was easiest to use?
+- [ ] Which pricing aligns with budget?
+- [ ] Start with 30-day commitment, then decide
+```
+
+Given that both tools cost similar amounts ($10/month), the decision often comes down to philosophy: do you prioritize personal task management (Reclaim AI) or team meeting optimization (Clockwise)?
 
 ## Related Reading
 

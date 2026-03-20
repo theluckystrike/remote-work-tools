@@ -153,6 +153,155 @@ The key principle remains constant: structure replaces the ambient learning that
 
 A structured mentorship program requires more upfront planning than ad-hoc onboarding, but the results speak for themselves—interns who contribute meaningfully, mentors who grow through teaching, and teams that scale their knowledge effectively across distance.
 
+## Handling Mentorship Challenges
+
+Even well-designed programs hit friction points. Here's how to address common challenges:
+
+**Challenge: Mentor is too busy to respond timely**
+This kills remote internships. Set explicit availability norms: "Mentor responds to Slack within 4 hours during business hours, schedules calls within 24 hours." If the assigned mentor cannot meet this, reassign before the relationship breaks. A responsive junior engineer makes a better mentor than an overloaded senior.
+
+**Challenge: Intern feels isolated despite meetings**
+Supplement one-on-one mentorship with team exposure. Include interns in team standups, code review sessions, and team chats. Assign a "buddy" for non-technical questions—someone to grab "lunch" with via Zoom, join random chat conversations, learn about company culture.
+
+**Challenge: Work quality stagnates after week 4**
+This signals that projects lack clarity. Revisit week 5-6 milestones. Break them into smaller deliverables. Provide more code review feedback earlier, catching quality issues before they accumulate.
+
+**Challenge: Intern proposes to extend and you cannot hire**
+Plan this conversation early. If you love an intern but cannot extend, start reaching out to companies in your network weeks before their end date. Make warm introductions to recruiters or hiring managers. Help them find their next role actively—your credibility in their success carries enormous weight for their career.
+
+## Scaling Mentorship to Multiple Interns
+
+When you have 2-3 interns per cycle, maintain structure but reduce redundancy:
+
+```yaml
+Cohort_Mentorship_Model:
+  Architecture_Overview: # Shared for all interns
+    When: Week 1, one session for all interns
+    Duration: 90 minutes
+    Content: System architecture, team structure, engineering culture
+    Facilitator: VP Engineering
+
+  Individual_Mentorship: # Each intern assigned one mentor
+    Weekly_Check_in: 30 minutes
+    Code_Review: Async, embedded in pull requests
+    Blocker_Resolution: Sync as needed
+    Mentor: Assigned engineer
+
+  Peer_Learning: # Interns learn from each other
+    Weekly_Cohort_Standup: 30 minutes
+    Topics: Progress, challenges, solutions
+    Peer_Code_Review: Interns review each other's PRs
+    Benefit: Reduced mentor load, builds cohort bonds
+
+  Final_Projects: # Interns present to full team
+    When: Week 11
+    Format: 15-minute demo + 10-minute Q&A per intern
+    Audience: Full engineering team
+    Outcome: Celebrates work, enables feedback from broader team
+```
+
+This model scales to 4-5 interns without proportionally increasing mentor burden.
+
+## Documentation as Mentorship
+
+The best mentorship combines synchronous interaction with asynchronous documentation. As interns ask questions, capture answers in team wikis:
+
+```markdown
+# Intern FAQ - Growing document as interns join
+
+## "How do I set up my development environment?"
+See: [Setup Guide for macOS/Linux/Windows](setup-guide.md)
+Last updated: 2026-03-01
+
+## "What's the code review process?"
+PR workflow: fork → branch → commit → push → open PR → address feedback → merge
+Review SLA: Feedback within 24 hours (working hours)
+See: [Code Review Standards](code-review-standards.md)
+
+## "How do I know if my code is ready to merge?"
+Checklist:
+- [ ] Tests pass locally
+- [ ] Linter passes (run `npm run lint`)
+- [ ] At least one approval from team
+- [ ] All feedback addressed
+- [ ] Squash commits before merging
+
+## "Where is the architectural documentation?"
+See: [Architecture Decision Records](adr/)
+Start with ADR-001 for overview
+
+## "What if I break something in production?"
+Don't panic. See: [Incident Response Guide](incident-response.md)
+Reach out to mentor or on-call engineer immediately.
+```
+
+This documentation answers 80% of intern questions without requiring mentor time.
+
+## Mentoring Across Time Zones
+
+For distributed teams with interns in different zones, establish clear timezone boundaries:
+
+```python
+def create_mentor_schedule(mentor_tz, intern_tz, sync_minutes=60):
+    """
+    Find reasonable sync times across time zones.
+    Rule: Don't schedule outside 8am-6pm for either party.
+    """
+    # Calculate overlap windows
+    # Prefer: mentor's morning (intern's evening) or mentor's evening (intern's morning)
+    # Avoid: middle-of-night for either party
+
+    # Example: Mentor in PT, Intern in IST (India)
+    # PT morning (8am) = IST late evening (8:30pm) ✓ workable
+    # PT evening (4pm) = IST early morning (5:30am) ✗ too early
+    # PT evening (6pm) = IST early morning (7:30am) ✓ workable
+
+    return suggested_times
+```
+
+For maximum timezone separation (e.g., San Francisco to Tokyo), you might schedule syncs only 2-3 times weekly and rely heavily on async communication otherwise.
+
+## Alumni Network and Internship Outcomes
+
+After interns complete their tenure, maintain relationships. Former interns become:
+
+- **Part-time contractors** if you need extra capacity
+- **Reference checks** when hiring full-time engineers
+- **Network nodes** who refer friends to your company
+- **Potential full-time hires** if they weren't ready as interns but grew in their next role
+
+Create an alumni channel in your Slack and maintain quarterly alumni newsletters. Invite alumni to company events. This builds long-term relationships that strengthen your recruiting pipeline.
+
+## Internship Program Evaluation
+
+After each cohort completes, evaluate program effectiveness:
+
+```python
+# Evaluation metrics
+metrics = {
+    "intern_feedback": {
+        "overall_experience": 4.5,  # out of 5
+        "clarity_of_expectations": 4.0,
+        "mentor_responsiveness": 4.8,
+        "learning_opportunities": 4.3,
+        "would_recommend": "90%"
+    },
+    "mentor_feedback": {
+        "intern_readiness": 3.8,  # out of 5
+        "mentoring_load": 3.5,  # 3=moderate, 4=heavy
+        "quality_of_mentee": 4.2,
+        "program_structure_helpful": 4.6
+    },
+    "business_outcomes": {
+        "stories_completed": 22,
+        "bugs_fixed": 5,
+        "code_shipped_to_production": 4,
+        "intern_conversion_to_full_time": "25%"  # if hired after
+    }
+}
+```
+
+Use this data to iterate on your program annually. Successful internship programs improve every cycle because you address feedback systematically.
 
 ## Related Reading
 

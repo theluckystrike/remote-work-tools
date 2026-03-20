@@ -155,6 +155,153 @@ Track whether your communication channels are working:
 - Escalation rate: Are blockers being resolved through proper channels, or are people going around them?
 - Sentiment: Quarterly surveys can gauge whether team members feel heard
 
+## Strategy 6: Context Documentation as a Proxy for Access
+
+When leaders cannot be available for every question, thorough documentation becomes a scalable substitute. Create wikis and decision logs that let team members make informed decisions without escalation.
+
+```markdown
+# Decision Log Template
+
+## Decision: Adopt async-first communication for engineering team
+
+**Date:** 2026-03-01
+**Decision Maker:** CEO + VP Engineering
+**Context:** Team scaled from 12 to 45 people, meeting load became unsustainable
+
+**Why This Decision**
+- Reduced meeting time from 25h/week to 8h/week
+- Enabled async participation across time zones
+- Improved focus time for deep work
+
+**What Changed**
+- Sync meetings default to only when coordination is truly needed
+- Decision requests go to leadership-read channel with 48h response SLA
+- Architecture decisions documented in ADRs before implementation
+
+**Impact on Teams**
+- Design: Can proceed with mockups without waiting for feedback
+- Backend: Can plan sprints independently
+- Frontend: Clear handoff specifications reduce rework
+
+**Related Decisions**
+- ADR-041: Async decision-making framework
+- Policy: Communication norms updated
+```
+
+When this level of context exists, team members make better decisions independently and escalate only when truly necessary.
+
+## Strategy 7: Rotating Leadership Exposure
+
+Rather than bottlenecking all communication through one or two leaders, rotate decision-making authority. Different leaders own different domains and can provide specialized advice.
+
+Create an organizational map:
+
+```yaml
+Leadership_Rotation:
+  Architecture_Decisions:
+    - Primary: VP Engineering (odd weeks)
+    - Secondary: Staff Engineer (even weeks)
+    - Office Hours: Tuesday 2-3pm PT
+
+  Hiring_Strategy:
+    - Primary: VP People (odd weeks)
+    - Secondary: Engineering Manager (even weeks)
+    - Office Hours: Thursday 1-2pm PT
+
+  Priority_Prioritization:
+    - Primary: Product Manager (always)
+    - Secondary: CEO (escalations only)
+    - Office Hours: Monday 3-4pm PT
+```
+
+This distribution prevents any single person from being the bottleneck and gives team members multiple routes to leadership input.
+
+## Strategy 8: Building Feedback Loops Into Regular Meetings
+
+Rather than creating entirely new communication channels, embed direct leadership access into existing meetings.
+
+**Weekly All-Hands Format (60 minutes):**
+- 20 minutes: CEO updates on company direction
+- 20 minutes: Department highlights and announcements
+- 15 minutes: Unstructured Q&A (anyone can ask anything)
+- 5 minutes: Closing remarks
+
+The Q&A section provides direct access without scheduling overhead. Leaders commit to answering during the meeting or following up within 48 hours with recorded responses.
+
+**Engineering Standup Adaptation (15 minutes):**
+- 12 minutes: Technical updates and blockers
+- 3 minutes: Quick concerns or questions for leadership
+- Leaders rotate attendance to maintain visibility
+
+Embedding access into existing meetings scales better than creating new channels.
+
+## Strategy 9: Asynchronous Video for Complex Communication
+
+When a question requires explanation, leaders recording 3-5 minute videos beats a 30-minute meeting. Developers can watch at their convenience and rewind complex sections.
+
+```python
+# Example: Video response workflow
+def process_async_question(question_text, question_context):
+    """
+    When a complex question arrives, encourage video response
+    """
+    response_guidelines = """
+    # How to Respond to Async Questions with Video
+
+    1. Record a 3-5 minute video answering the question
+    2. Include screen share if explaining complex concepts
+    3. Post to company knowledge base (searchable)
+    4. Reference in a brief text response: "See attached video: [link]"
+
+    Benefits:
+    - Tone and nuance communicate better than text
+    - Others with same question can discover the video
+    - Asynchronous but high-bandwidth communication
+    """
+    return response_guidelines
+```
+
+Many teams use Loom ($10/month) for this purpose. Leaders can record explanations that multiple people consume asynchronously.
+
+## Strategy 10: Creating Career Development Access
+
+Direct access to leadership matters most for career development conversations. Ensure these aren't deprioritized:
+
+```markdown
+# Career Development Access Guarantee
+
+Leadership commits to providing:
+- Annual career development conversation (30+ minutes)
+- Quarterly micro-mentoring slots (15 minutes each)
+- Growth plan documentation visible to team member
+- Clear path to next level with specific criteria
+
+Scheduling:
+- Book annual conversation during Q1, Q2, Q3, or Q4 (pick one)
+- Quarterly slots available on shared calendar
+- Override authority: team member can bump other meetings for career conversation
+```
+
+This structure ensures that career development—which requires direct access—doesn't get squeezed out by operational demands.
+
+## Measuring Progress and Adjusting
+
+After implementing these strategies, measure whether direct access actually improved:
+
+**Quantitative metrics:**
+- Time from question to response
+- Escalation depth (questions being blocked by middle management)
+- Meeting load on leadership
+- Office hours utilization
+
+**Qualitative signals:**
+- "I felt heard" survey responses
+- New ideas from individual contributors implemented
+- Retention of high performers who value direct access
+- Reduced political navigation in decision-making
+
+Adjust your approach based on data. If office hours are underutilized, meetings might work better. If leadership time is oversaturated, add more delegation. The mechanisms matter less than the outcome: team members feel they can reach leadership when it matters.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

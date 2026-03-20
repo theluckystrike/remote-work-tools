@@ -153,6 +153,127 @@ app.post('/figma-webhook', async (req, res) => {
 
 This webhook listener scans incoming Figma comments for `[ticket]` tags and automatically creates GitHub issues. Extend this pattern to post notifications to Slack, update project boards, or trigger design handoff pipelines.
 
+## Building Review Templates for Consistency
+
+Annotation workflows become scalable when your team standardizes how feedback gets communicated. Create templates for different review types—bug reports, polish feedback, accessibility reviews, and interaction clarification.
+
+```markdown
+## Feedback Template: Visual Polish
+- [ ] Typography: Font sizes, weights, line-height alignment
+- [ ] Spacing: Padding, margins, rhythm consistency
+- [ ] Colors: Contrast ratios, brand compliance, dark mode support
+- [ ] Hover states: Interactive feedback visible
+- [ ] Animation: Timing and easing curves
+
+## Feedback Template: Interaction Review
+- [ ] User flow is logical and discoverable
+- [ ] Error states are clear and recoverable
+- [ ] Loading states provide feedback
+- [ ] Edge cases documented (empty states, overflow)
+- [ ] Mobile responsiveness addressed
+```
+
+When annotators use consistent templates, developers extract meaning faster and implementation errors drop significantly.
+
+## Working with Design Systems and Tokens
+
+Modern design systems use design tokens—semantic variables for colors, typography, spacing, and other properties. When annotating against a design system, reference token names rather than pixel values.
+
+Instead of: "Make this button 12 pixels taller"
+Write: "Use spacing-lg (32px) instead of spacing-md (24px)"
+
+This approach connects feedback to design system maintenance and helps token-aware tools like Storybook, Tailwind, or CSS-in-JS frameworks automatically implement feedback.
+
+```json
+{
+  "comment_id": "c123",
+  "design_system_ref": "button.padding",
+  "current_value": "spacing-md",
+  "suggested_value": "spacing-lg",
+  "reasoning": "Larger touch targets improve mobile usability"
+}
+```
+
+When your design tool supports token exports, this structure allows developers to validate changes against the system programmatically.
+
+## Handling Async Feedback on Animations and Interactions
+
+Static image annotations work poorly for feedback on animations, transitions, and interactive states. Video-based tools like Frame.io excel here, but you can also enhance traditional tools with video context.
+
+Loom recordings paired with Figma comments work well: record a 2-minute video showing the desired interaction, then post the Figma comment linking to the Loom. This gives developers both visual reference (the design) and motion context (the video), reducing ambiguity.
+
+For interaction-heavy products, consider adding a "Prototype Notes" channel alongside static design reviews. In Figma, this might be a dedicated frame documenting animation specifications:
+
+```yaml
+# Animation Specifications Frame
+animation.button.primary.hover:
+  duration: 200ms
+  easing: cubic-bezier(0.4, 0, 0.2, 1)
+  properties:
+    - backgroundColor: primary-500
+    - boxShadow: elevation-large
+
+animation.modal.entrance:
+  duration: 300ms
+  easing: cubic-bezier(0.4, 0, 0.2, 1)
+  effect: fade-and-scale
+```
+
+This document lives alongside your mockups, allowing developers to reference exact animation specifications without guessing.
+
+## Managing Comment Resolution and Stakeholder Sign-Off
+
+With multiple reviewers leaving feedback, tracking what's resolved versus what remains becomes critical. Establish clear resolution workflows:
+
+1. **Comment author marks as resolved** when they see their feedback implemented
+2. **Final reviewer (often design lead) approves changes** before implementation
+3. **Developer links PR to resolved comments** for traceability
+
+This three-step process prevents developers from implementing feedback that later stakeholders disagree with, saving rework cycles.
+
+In Figma, use comment threading to keep discussion focused. When resolving, post a final comment: "Resolved—implemented in [PR link]". This creates a permanent record connecting feedback to implementation.
+
+## Performance Considerations for Large Design Files
+
+As design files grow (100+ frames with comments), tools can slow down. For teams hitting this scaling point:
+
+- Archive old versions of files periodically
+- Use separate files for different product areas rather than one massive file
+- Move completed annotation discussions to a searchable wiki or Notion database
+- Consider design file version control (Abstract, Zeplin) that supports snapshot comparisons
+
+These practices keep tools responsive while preserving feedback history.
+
+## Integration with Project Management
+
+Connect your annotation tool to your project management system to automatically create tickets for annotated feedback. Zapier, Make, or native integrations can bridge these systems:
+
+```javascript
+// Example: Detect critical annotation and create Jira ticket
+app.post('/figma-comment-webhook', async (req, res) => {
+  const { comment, file_key, node_id } = req.body;
+
+  // Check comment for priority indicators
+  if (comment.message.includes('[CRITICAL]') || comment.message.includes('[P0]')) {
+    const jiraTicket = await jira.issues.create({
+      project: 'DESIGN',
+      issueType: 'Task',
+      summary: comment.message.substring(0, 100),
+      description: `Figma annotation on file ${file_key}, node ${node_id}\n\n${comment.message}`,
+      priority: 'Highest'
+    });
+
+    // Reply to Figma comment with Jira ticket link
+    await figma.addComment(file_key, comment.id,
+      `Ticket created: ${jiraTicket.url}`);
+  }
+
+  res.status(200).send('Processed');
+});
+```
+
+This automation surfaces critical feedback to your team's attention system while keeping the design feedback loop intact.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

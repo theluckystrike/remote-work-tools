@@ -154,6 +154,183 @@ A functional hybrid conference room audio system requires:
 
 Start with the microphone placement and acoustic treatment—these provide the foundation. Add processing to address remaining issues, and verify everything works with actual test calls before relying on the system for important meetings.
 
+## Audio Equipment Recommendations by Room Size
+
+**Small Rooms (up to 8 people, 200 sq ft):**
+
+Equipment list:
+- Microphone: Yamaha MeetingMike USB condenser ($200-300)
+- Speaker: Bose Compact 1 ($300) or Sonos Play:1 ($150)
+- Audio interface: None needed (USB microphone connects directly)
+- Acoustic treatment: 2-3 panels on side walls, 1 bass trap in corner
+
+Setup time: 2-3 hours
+Cost: $500-600 total
+Audio quality: Excellent for the room size
+
+**Medium Rooms (8-20 people, 400 sq ft):**
+
+Equipment list:
+- Microphone: Shure MX410D/U ceiling array ($1,200) or Yamaha MXA40 ($2,000)
+- Speaker: Biamp TesiraFORTE X system ($2,500) or Dante-networked speakers ($1,500-3,000)
+- Audio processor: Dante interface for signal routing ($500-1,000)
+- Acoustic treatment: Panel coverage on 60% of wall surface, bass traps in corners
+
+Setup time: 8-16 hours (may require professional installation)
+Cost: $3,500-6,500 total
+Audio quality: Professional grade
+
+**Large Rooms (20+ people, 600+ sq ft):**
+
+Equipment list:
+- Microphones: Multiple ceiling arrays (2-3) from Shure, Yamaha, or Sennheiser ($2,000-4,000 per unit)
+- Speakers: Professional distributed system (6-12 speakers covering room) ($3,000-10,000)
+- Audio processor: Enterprise DSP system (QSC, Biamp, Dante) ($2,000-6,000)
+- Acoustic treatment: Professional acoustic design ($5,000-20,000)
+
+Setup time: 40+ hours (requires professional design and installation)
+Cost: $12,000-40,000+ total
+Audio quality: Studio-grade
+
+Budget tip: For larger rollouts, engage an AV integration company to design the system. The upfront consulting cost ($1,000-3,000) pays for itself through optimized equipment selection and proper installation.
+
+## Troubleshooting Common Audio Issues
+
+**Problem: Echo during calls**
+Symptoms: You hear your own voice played back with a delay, or remote participants hear you doubled.
+
+Solutions (in order of effectiveness):
+1. Separate microphone and speaker physically (place speaker away from microphone)
+2. Enable hardware echo cancellation in your video conferencing software
+3. Reduce speaker volume—echo often happens when speaker output feeds back into microphone
+4. Add acoustic absorption near the microphone (foam panel behind speaker)
+5. Use a properly calibrated echo cancellation DSP device
+
+Cause: Usually the microphone picks up audio from the speakers in the room, creating a feedback loop.
+
+**Problem: Distant participants sound very quiet**
+Symptoms: Remote participants must turn their volume to maximum and still can barely hear in-room speakers.
+
+Solutions:
+1. Check speaker placement—ensure speakers face the room, not a wall
+2. Increase speaker volume incrementally (don't max it out at once)
+3. Check that correct audio output is selected in your conferencing software
+4. Verify microphone gain is set appropriately (input levels 0-3dB on a -20 to +20 scale)
+5. If issue persists, check network—bandwidth constraints reduce audio quality
+
+Cause: Usually microphone signal too weak, speaker output path misconfigured, or network congestion.
+
+**Problem: Background noise overwhelming the meeting**
+Symptoms: HVAC hum, computer fan noise, or room ambient noise makes voices hard to understand.
+
+Solutions:
+1. Move microphone away from noise sources (HVAC vent, server, loud equipment)
+2. Enable noise suppression in video conferencing software
+3. If available, adjust microphone pickup pattern (cardioid patterns reject rear noise better than omnidirectional)
+4. Close doors and windows to reduce external noise
+5. Add absorption panels to reduce reverb that amplifies noise
+
+Cause: Microphone picking up environmental noise at comparable level to speech.
+
+**Problem: Voices sound muffled or filtered**
+Symptoms: Audio sounds like it's going through a filter—high frequencies are absent, voices lack clarity.
+
+Solutions:
+1. Check microphone distance—if too far, increase gain and move closer to speakers
+2. Verify all cables are fully seated and not damaged
+3. Check for dust on microphone capsule—clean gently with compressed air
+4. Disable aggressive noise suppression settings (sometimes over-suppress)
+5. Check EQ settings in DSP—if available, boost 2kHz-8kHz range slightly
+
+Cause: Usually microphone placement or aggressive audio processing removing clarity.
+
+## Documenting Your Audio Setup
+
+Create a setup guide for your conference room team:
+
+```markdown
+# Conference Room A: Audio Setup Guide
+
+## Quick Start
+1. Ensure room is free (calendar check)
+2. Turn on power strip (speakers, microphone array, processor)
+3. Start your video call (Zoom, Teams, etc.)
+4. Test audio: "Hello? Can you hear me?"
+5. Adjust speaker volume with remote: use arrows on wall-mounted control
+
+## Audio Control Panel
+Location: Right wall, 3 feet up
+Buttons:
+- Volume up/down: Adjust speaker volume
+- Mute: Mutes microphone (LED indicator shows status)
+- Source select: Switch between inputs if multiple devices connected
+
+## Troubleshooting
+- No sound? Check volume slider on wall—ensure it's not at minimum
+- Feedback/echo? Move away from speakers or increase distance between speaker and microphone
+- Can't hear remote participants? Speak louder into microphone—system has automatic gain control
+
+## To Report Issues
+- Create a ticket in #conference-room-support Slack channel
+- Include: room name, time, what happened, who to contact
+- For urgent issues: page the facilities on-call engineer
+
+## Preventive Maintenance
+Every Monday: Vacuum under microphone (dust buildup hurts clarity)
+Monthly: Clean speaker cones with damp cloth
+Quarterly: Professional audio technician checks levels and calibration
+```
+
+This documentation prevents common mistakes and speeds up issue resolution.
+
+## Network Prioritization for Audio Quality
+
+Even perfect audio equipment fails with poor network quality. Ensure your network prioritizes conferencing:
+
+```bash
+# Example: Configure QoS on a Linux router (iptables)
+# Prioritize UDP traffic used by Zoom, Teams, Google Meet
+
+# Create marking rule for voice/video traffic
+iptables -A PREROUTING -i eth0 -p udp --dport 8801 -j MARK --set-mark 1
+iptables -A PREROUTING -i eth0 -p udp --dport 16384:16394 -j MARK --set-mark 1
+
+# Create tc qdisc to prioritize marked traffic
+tc qdisc add dev eth0 root handle 1: htb default 30
+tc class add dev eth0 parent 1: classid 1:1 htb rate 1gbit
+tc class add dev eth0 parent 1:1 classid 1:10 htb rate 500mbit ceil 900mbit prio 0
+tc class add dev eth0 parent 1:1 classid 1:30 htb rate 100mbit prio 1
+
+tc filter add dev eth0 parent 1: protocol ip prio 0 handle 1 fw classid 1:10
+tc filter add dev eth0 parent 1: protocol ip prio 1 match u32 match ip dst 0.0.0.0/0 classid 1:30
+```
+
+This ensures conference room audio gets priority treatment, even during bandwidth-heavy operations elsewhere in your network.
+
+## Maintenance and Ongoing Optimization
+
+Audio quality degrades over time. Schedule regular maintenance:
+
+**Weekly:**
+- Vacuum microphone area (dust buildup reduces clarity)
+- Visual inspection of cables for damage
+
+**Monthly:**
+- Clean speaker cones with soft cloth
+- Test audio with a short conference call
+- Check that all controls function properly
+
+**Quarterly:**
+- Professional technician tunes levels and checks calibration
+- Replace any faulty cables
+- Update DSP firmware if available
+
+**Annually:**
+- Full system audit by AV integration company
+- Plan for equipment replacement as needed
+- Review usage patterns and adjust configuration if needed
+
+Proactive maintenance prevents surprise failures during important meetings.
 
 ## Related Reading
 
