@@ -528,3 +528,8 @@ Expected time savings with automation:
 For 50 hires/year: **Rippling saves 100+ hours of IT + HR time annually**. At $50/hr cost per employee, that's $5,000 in labor savings—paying for the platform.
 
 {% endraw %}
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
