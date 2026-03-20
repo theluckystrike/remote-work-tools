@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /async-engineering-proposal-process-using-github-discussions-/
 categories: [guides]
-tags: [async, github, proposals, engineering, remote-work]
+tags: [remote-work-tools, async, github, proposals, engineering, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true

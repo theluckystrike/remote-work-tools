@@ -6,7 +6,7 @@ date: 2026-03-18
 author: theluckystrike
 permalink: /async-pair-programming-workflow-using-recorded-walkthroughs-and-github/
 categories: [guides]
-tags: [pair-programming, remote-work, async, github, developer-tools, team-collaboration]
+tags: [remote-work-tools, pair-programming, remote-work, async, github, developer-tools, team-collaboration, workflow]
 reviewed: true
 score: 8
 intent-checked: true

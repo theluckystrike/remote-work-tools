@@ -7,7 +7,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /async-team-building-activities-for-distributed-teams-differe/
 categories: [guides]
-tags: [async, remote-work, team-building, time-zones, distributed-teams]
+tags: [remote-work-tools, async, remote-work, team-building, time-zones, distributed-teams]
 reviewed: true
 score: 8
 intent-checked: true

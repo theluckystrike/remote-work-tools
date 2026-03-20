@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /a100-remote-hr-employee-recognition-platform-for-distributed-team/
 categories: [guides]
-tags: [employee-recognition, remote-hr, distributed-teams, hr-tools, employee-engagement]
+tags: [remote-work-tools, employee-recognition, remote-hr, distributed-teams, hr-tools, employee-engagement, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

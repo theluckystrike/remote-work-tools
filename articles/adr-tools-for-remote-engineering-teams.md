@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /adr-tools-for-remote-engineering-teams/
 categories: [guides]
-tags: [adr, documentation, remote-work]
+tags: [remote-work-tools, adr, documentation, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

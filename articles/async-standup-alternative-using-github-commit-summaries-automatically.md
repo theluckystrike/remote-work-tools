@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /async-standup-alternative-using-github-commit-summaries-automatically/
 categories: [guides]
-tags: [async-communication, remote-work, github, standup-alternative, automation, developer-workflow]
+tags: [remote-work-tools, async-communication, remote-work, github, standup-alternative, automation, developer-workflow]
 reviewed: true
 score: 8
 intent-checked: true

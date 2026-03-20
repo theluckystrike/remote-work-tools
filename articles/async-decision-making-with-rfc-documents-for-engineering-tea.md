@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /async-decision-making-with-rfc-documents-for-engineering-teams/
 categories: [guides]
-tags: [async, rfc, decision-making, engineering, remote-work, collaboration]
+tags: [remote-work-tools, async, rfc, decision-making, engineering, remote-work, collaboration]
 reviewed: true
 intent-checked: true
 voice-checked: true

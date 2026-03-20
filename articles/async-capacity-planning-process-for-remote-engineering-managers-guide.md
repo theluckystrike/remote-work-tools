@@ -7,7 +7,7 @@ date: 2026-03-18
 author: theluckystrike
 permalink: /async-capacity-planning-process-for-remote-engineering-managers-guide/
 categories: [guides]
-tags: [capacity-planning, remote-work, engineering-management, async, sprint-planning]
+tags: [remote-work-tools, capacity-planning, remote-work, engineering-management, async, sprint-planning]
 reviewed: true
 score: 8
 intent-checked: true

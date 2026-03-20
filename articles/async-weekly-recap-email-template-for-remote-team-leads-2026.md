@@ -7,9 +7,9 @@ date: 2026-03-18
 author: theluckystrike
 permalink: /async-weekly-recap-email-template-for-remote-team-leads-2026/
 categories: [guides]
-tags: [remote-work, async-communication, team-leadership, weekly-recap, templates]
+tags: [remote-work-tools, remote-work, async-communication, team-leadership, weekly-recap, templates]
 reviewed: true
-score: 0
+score: 8
 intent-checked: true
 voice-checked: true
 voice-checked: false

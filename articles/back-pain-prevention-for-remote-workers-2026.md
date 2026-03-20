@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /back-pain-prevention-for-remote-workers-2026/
 categories: [guides]
-tags: [remote-work, ergonomics, health, developer-tools, productivity]
+tags: [remote-work-tools, remote-work, ergonomics, health, developer-tools, productivity]
 reviewed: true
 score: 8
 intent-checked: true

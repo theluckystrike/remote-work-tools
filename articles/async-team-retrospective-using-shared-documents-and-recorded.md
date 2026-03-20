@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /async-team-retrospective-using-shared-documents-and-recorded/
 categories: [guides]
-tags: [retrospective, remote-work, async, team-processes, continuous-improvement]
+tags: [remote-work-tools, retrospective, remote-work, async, team-processes, continuous-improvement]
 reviewed: true
 score: 8
 intent-checked: true

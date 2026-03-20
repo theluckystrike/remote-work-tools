@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/
 categories: [guides]
-tags: [barbados, remote-work-visa, digital-nomad, caribbean, tax-residency, visa-guide]
+tags: [remote-work-tools, barbados, remote-work-visa, digital-nomad, caribbean, tax-residency, visa-guide, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

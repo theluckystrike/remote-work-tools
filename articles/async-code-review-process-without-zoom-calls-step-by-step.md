@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /async-code-review-process-without-zoom-calls-step-by-step/
 categories: [guides]
-tags: [code-review, remote-work, async, developer-tools, team-collaboration]
+tags: [remote-work-tools, code-review, remote-work, async, developer-tools, team-collaboration]
 reviewed: true
 score: 8
 intent-checked: true

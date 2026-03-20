@@ -7,7 +7,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /async-standup-format-for-a-remote-mobile-dev-team-of-9/
 categories: [guides]
-tags: [async-standup, remote-work, mobile-development, team-communication, agile]
+tags: [remote-work-tools, async-standup, remote-work, mobile-development, team-communication, agile]
 reviewed: true
 score: 8
 intent-checked: true
