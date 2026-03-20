@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices
 
-Remote teams face a unique challenge: knowledge that would naturally transfer in office settings evaporates across time zones and chat channels. Someone makes a critical choice in a late-night PR review, and six months later, the reasoning disappears into Slack archives. Decision logs solve this by creating a searchable, version-controlled record of why choices were made.
+Remote teams face an unique challenge: knowledge that would naturally transfer in office settings evaporates across time zones and chat channels. Someone makes a critical choice in a late-night PR review, and six months later, the reasoning disappears into Slack archives. Decision logs solve this by creating a searchable, version-controlled record of why choices were made.
 
 This guide covers practical approaches to building decision log documentation that works for distributed teams. You'll find templates, tooling recommendations, and workflows designed for async collaboration.
 
@@ -126,10 +126,10 @@ To add a new decision:
 
 Pull requests work well for landing decisions, but GitHub Issues provide a better workflow for the async discussion phase. Here's a practical workflow:
 
-1. **Draft phase**: Author creates an issue with the decision template
-2. **Comment phase**: Team members add feedback over 48-72 hours
-3. **Resolution phase**: Author updates status based on feedback
-4. **Archival phase**: Accepted decisions move to the markdown log
+1. Draft phase: Author creates an issue with the decision template
+2. Comment phase: Team members add feedback over 48-72 hours
+3. Resolution phase: Author updates status based on feedback
+4. Archival phase: Accepted decisions move to the markdown log
 
 Use issue labels to track status:
 
@@ -223,11 +223,11 @@ This network of connections helps future readers understand how decisions evolve
 
 Decision logs only work if the team actually uses them. Establish clear conventions:
 
-- **When to create one**: Define triggers (technical choices above a certain threshold, process changes, tool evaluations)
-- **Who can propose**: Make it easy for anyone to initiate
-- **How long feedback lasts**: Standardize review windows (48 hours is common for remote teams)
-- **Where to store them**: Consistent location, searchable index
-- **How to find past decisions**: Clear naming, index README, tags
+- When to create one: Define triggers (technical choices above a certain threshold, process changes, tool evaluations)
+- Who can propose: Make it easy for anyone to initiate
+- How long feedback lasts: Standardize review windows (48 hours is common for remote teams)
+- Where to store them: Consistent location, searchable index
+- How to find past decisions: Clear naming, index README, tags
 
 Include decision log links in PR descriptions when relevant. When someone proposes a change, link to the relevant decision so reviewers understand the context.
 

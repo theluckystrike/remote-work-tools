@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Write Async Technical RFCs That Get Meaningful."
+title: "How to Write Async Technical RFCs That Get Meaningful Feedback"
 description: "Learn practical techniques for writing async technical RFCs that generate meaningful feedback from distributed teams. Includes templates and examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -128,7 +127,7 @@ Some feedback requires back-and-forth. Plan for this from the start by:
 
 - Setting up a dedicated Slack channel or thread for RFC discussion
 - Creating a living document where you can incorporate feedback
-- Scheduling a optional sync call if the discussion gets complex
+- Scheduling an optional sync call if the discussion gets complex
 
 ## Common Async RFC Mistakes to Avoid
 
@@ -190,18 +189,13 @@ Here's a practical template you can adapt:
 [Date and tagged reviewers]
 ```
 
-## Conclusion
-
-The difference between RFCs that gather dust and RFCs that generate meaningful feedback comes down to clarity, structure, and consideration for your reviewers' time. By providing concrete examples, framing decisions as questions, and explicitly directing your feedback requests, you create RFCs that distributed teams can effectively evaluate asynchronously.
-
-Start treating your RFCs as products for your reviewers—design them to be understood, evaluated, and responded to. Your future self will thank you when implementation goes smoothly because stakeholders had the context they needed to provide solid feedback.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Async Decision Making with RFC Documents for Engineering.](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

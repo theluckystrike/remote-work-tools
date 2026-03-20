@@ -48,10 +48,10 @@ A practical rotation schedule for a team in US East, US West, and Europe time zo
 
 | Week | Meeting Time (ET) | Meeting Time (PT) | Meeting Time (CET) |
 |------|-------------------|-------------------|---------------------|
-| 1    | 9:00 AM           | 6:00 AM           | 3:00 PM             |
-| 2    | 10:00 AM          | 7:00 AM           | 4:00 PM             |
-| 3    | 11:00 AM          | 8:00 AM           | 5:00 PM             |
-| 4    | 12:00 PM          | 9:00 AM           | 6:00 PM             |
+| 1 | 9:00 AM | 6:00 AM | 3:00 PM |
+| 2 | 10:00 AM | 7:00 AM | 4:00 PM |
+| 3 | 11:00 AM | 8:00 AM | 5:00 PM |
+| 4 | 12:00 PM | 9:00 AM | 6:00 PM |
 
 Track rotation in a shared document or Slack pinned message so everyone knows when their "early" or "late" week occurs.
 
@@ -111,9 +111,9 @@ At 7 people, personality differences and technical disagreements will emerge. St
 
 Establish ground rules for standup discussion:
 
-- **Blocker prioritization happens offline**: If someone raises a blocker, note it and assign a follow-up meeting rather than debugging live
-- **No solution-finding in standup**: Standup identifies problems, not solves them—schedule separate discussions for complex issues
-- **Rotate facilitation**: Different team members lead standup each week to distribute emotional labor and prevent any one person from dominating
+- Blocker prioritization happens offline: If someone raises a blocker, note it and assign a follow-up meeting rather than debugging live
+- No solution-finding in standup: Standup identifies problems, not solves them—schedule separate discussions for complex issues
+- Rotate facilitation: Different team members lead standup each week to distribute emotional labor and prevent any one person from dominating
 
 When disagreements about test coverage or quality thresholds arise, document the decision criteria and escalate to product and engineering leads for final arbitration.
 
@@ -121,9 +121,9 @@ When disagreements about test coverage or quality thresholds arise, document the
 
 Track whether standups actually prevent waste. Useful metrics:
 
-- **Blocker resolution time**: How long do raised blockers take to resolve?
-- **Standup-to-meeting ratio**: How many synchronous meetings result from standup discussions?
-- **Repeat blocker frequency**: Are the same blockers raised multiple times, indicating underlying process issues?
+- Blocker resolution time: How long do raised blockers take to resolve?
+- Standup-to-meeting ratio: How many synchronous meetings result from standup discussions?
+- Repeat blocker frequency: Are the same blockers raised multiple times, indicating underlying process issues?
 
 If blockers consistently take more than 24 hours to resolve, your async communication channels may be failing. If standup regularly runs over 20 minutes, you're discussing the wrong topics.
 
@@ -163,6 +163,10 @@ The goal is not standup itself—standup is a tool for coordination. If your tea
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [How to Manage Remote Team When Multiple Parents Have Overlapping School Holidays](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

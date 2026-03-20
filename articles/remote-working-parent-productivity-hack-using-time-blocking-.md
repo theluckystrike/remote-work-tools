@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Productivity Hack: Time Blocking."
+title: "Add to crontab for daily school-day reminders"
 description: "A practical time blocking strategy for remote working parents to maximize productivity during school hours. Learn how to align your deep work with."
 date: 2026-03-16
 author: theluckystrike
@@ -171,9 +171,9 @@ Track your productivity during school bus windows using a simple metric:
 
 | Week | Deep Work Hours | Meetings | Context Switching |
 |------|-----------------|----------|-------------------|
-| 1    | 22              | 8        | High              |
-| 2    | 26              | 6        | Medium            |
-| 3    | 28              | 5        | Low               |
+| 1 | 22 | 8 | High |
+| 2 | 26 | 6 | Medium |
+| 3 | 28 | 5 | Low |
 
 After 2-3 weeks, you'll have data to optimize your blocks. Maybe morning hours work better for code reviews while afternoons suit debugging. Adjust accordingly.
 
@@ -191,6 +191,10 @@ Build your time blocks around the bus. Protect them fiercely. Watch your output 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Best Calendar Blocking Strategy for Remote Working.](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

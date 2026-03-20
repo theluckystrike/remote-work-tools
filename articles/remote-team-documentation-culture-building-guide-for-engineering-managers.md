@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Documentation Culture: Building Guide for."
+title: "Remote Team Documentation Culture: Building Guide for Engineering Managers"
 description: "A practical step-by-step guide for engineering managers to build lasting documentation culture in remote teams. Includes templates, workflows, and code."
 date: 2026-03-16
 author: theluckystrike
@@ -142,7 +142,7 @@ Review these metrics quarterly and adjust your approach. Documentation culture i
 
 ## Common Pitfalls to Avoid
 
-**Perfectionism** kills documentation. Don't require every doc to be comprehensive before publishing. A good doc that exists beats a perfect doc that never gets written. Encourage iterative improvements.
+**Perfectionism** kills documentation. Don't require every doc to be before publishing. A good doc that exists beats a perfect doc that never gets written. Encourage iterative improvements.
 
 **Documentation as gatekeeping** backfires. If documentation becomes a barrier to getting work done, people will bypass it. Keep docs lightweight and accessible.
 
@@ -162,6 +162,10 @@ The remote work environment makes documentation culture more important than ever
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Documentation Culture Building Guide for.](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [How to Create Remote Team Compliance Documentation.](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -30,15 +30,15 @@ Clean criminal record verification from your country of residence is required. P
 
 Gathering documents takes the most time in this process. Start collecting these early:
 
-**Proof of income**: Three to six months of bank statements showing consistent deposits meeting the income threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Portuguese companies work as supplementary evidence.
+Proof of income: Three to six months of bank statements showing consistent deposits meeting the income threshold. Self-employed applicants need invoices and corresponding payment records. Employment contracts or service agreements with non-Portuguese companies work as supplementary evidence.
 
-**Health insurance**: Travel insurance is not sufficient. You need private health insurance with international coverage valid in Portugal, or documentation showing enrollment in a public healthcare system in your home country.
+Health insurance: Travel insurance is not sufficient. You need private health insurance with international coverage valid in Portugal, or documentation showing enrollment in a public healthcare system in your home country.
 
-**Criminal record certificate**: Obtain this from your country of residence. Many countries require apostille certification or translation. The certificate must be recent, typically within 90 days of application.
+Criminal record certificate: Obtain this from your country of residence. Many countries require apostille certification or translation. The certificate must be recent, typically within 90 days of application.
 
-**Passport**: Valid for at least three months beyond your planned stay with at least two blank pages.
+Passport: Valid for at least three months beyond your planned stay with at least two blank pages.
 
-**Proof of remote work**: Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Portugal.
+Proof of remote work: Employment letters, freelance contracts, or client agreements demonstrating your work is remote and performed for entities outside Portugal.
 
 ## Application Process
 
@@ -85,7 +85,7 @@ Opening a Portuguese bank account simplifies life in Portugal. Most banks requir
 
 ### Healthcare Access
 
-Once you register for the residence permit, you access Portugal's public healthcare system (SNS). However, private health insurance remains advisable for comprehensive coverage and faster access to specialists.
+Once you register for the residence permit, you access Portugal's public healthcare system (SNS). However, private health insurance remains advisable for coverage and faster access to specialists.
 
 ## Timeline Estimate
 
@@ -117,6 +117,10 @@ Once approved, you'll have access to Portugal's relatively low cost of living, e
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Malaysia Digital Nomad Pass DE Rantau Application for.](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

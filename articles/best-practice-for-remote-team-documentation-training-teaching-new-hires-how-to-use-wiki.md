@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Remote Team Documentation Training."
+title: "Page Title"
 description: "A practical guide to training remote team members on wiki documentation systems, with examples and strategies for developer teams."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -20,10 +20,10 @@ Teach new hires to use your wiki by giving them a "Getting Started" page on day 
 
 Before training begins, your team needs documented conventions. New hires should find a "Getting Started" or "Wiki Guidelines" page within their first day. This page should cover:
 
-- **Naming conventions**: How pages should be titled (use kebab-case for URLs, Title Case for headings)
-- **Section structure**: Standard templates for different page types (ADR, technical spec, runbook)
-- **Linking habits**: When to link vs. inline content
-- **Ownership**: Who maintains which sections
+- Naming conventions: How pages should be titled (use kebab-case for URLs, Title Case for headings)
+- Section structure: Standard templates for different page types (ADR, technical spec, runbook)
+- Linking habits: When to link vs. inline content
+- Ownership: Who maintains which sections
 
 Create a template for new documentation pages:
 
@@ -52,11 +52,11 @@ Schedule a live session during the new hire's first week. Walk through creating,
 
 ### Live Demo Structure
 
-1. **Navigation**: Show how to search, filter, and browse the wiki hierarchy
-2. **Creating a page**: Demonstrate the template usage from the previous section
-3. **Linking**: Show internal links, backlinks, and cross-references
-4. **Organization**: Explain categories, tags, and parent-child page relationships
-5. **Review workflow**: If applicable, show how draft review and approval work
+1. Navigation: Show how to search, filter, and browse the wiki hierarchy
+2. Creating a page: Demonstrate the template usage from the previous section
+3. Linking: Show internal links, backlinks, and cross-references
+4. Organization: Explain categories, tags, and parent-child page relationships
+5. Review workflow: If applicable, show how draft review and approval work
 
 Record these sessions for future reference. New hires can revisit the recording when practicing later.
 
@@ -93,9 +93,9 @@ For example, if developers frequently search "how to restart the API," create a 
 
 The wiki's value depends on ongoing updates. Build these habits into your team's workflow:
 
-- **Defensive documentation**: When fixing a bug, update the relevant page immediately
-- **Review comments**: When reviewing PRs, note if documentation needs updates
-- **Quarterly audits**: Assign team members to review and update sections periodically
+- Defensive documentation: When fixing a bug, update the relevant page immediately
+- Review comments: When reviewing PRs, note if documentation needs updates
+- Quarterly audits: Assign team members to review and update sections periodically
 
 Consider a simple "Docs as Code" approach using Markdown stored in the repository. This appeals to developer preferences and enables pull request reviews for documentation changes:
 
@@ -141,26 +141,24 @@ Provide new hires with a clear checklist:
 
 Several tools complement wiki training:
 
-- **Browser extensions**: Save commonly used wiki pages as bookmarks
-- **Slack integrations**: Many wiki tools offer `/wiki search` commands
-- **Personal wikis**: Encourage team members to maintain personal notes that link to the main wiki
+- Browser extensions: Save commonly used wiki pages as bookmarks
+- Slack integrations: Many wiki tools offer `/wiki search` commands
+- Personal wikis: Encourage team members to maintain personal notes that link to the main wiki
 
 ## Common Pitfalls to Avoid
 
-- **Over-structuring**: Too many templates slows down documentation
-- **Abandoned pages**: Regularly archive or remove outdated content
-- **Permission issues**: Ensure new hires can edit appropriate sections
-- **Version neglect**: Link to the current version, not stale references
-
-## Conclusion
-
-Effective wiki training transforms documentation from a chore into a team asset. By establishing clear conventions, providing hands-on practice, and reinforcing contribution habits, remote teams can build and maintain knowledge bases that scale. New hires who learn to use wiki effectively become self-sufficient faster and contribute to a culture of shared knowledge.
-
-Start with a single training session, provide practical assignments, and measure results. Your future self—and your future teammates—will thank you.
-
+- Over-structuring: Too many templates slows down documentation
+- Abandoned pages: Regularly archive or remove outdated content
+- Permission issues: Ensure new hires can edit appropriate sections
+- Version neglect: Link to the current version, not stale references
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Documentation Scaling When Wiki Becomes Unwieldy](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

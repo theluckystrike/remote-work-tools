@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Handle Elder Care Responsibilities While Working."
+title: "Set up calendar service"
 description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -106,9 +106,9 @@ automation:
 Time blocking works exceptionally well for remote workers managing caregiving duties. Divide your day into dedicated blocks:
 
 - **Deep work blocks** (2-3 hours): Schedule during your peak productivity hours when caregiving interruptions are unlikely
-- **Care blocks**: Dedicated time for medical appointments, medication administration, and physical assistance
-- **Buffer blocks**: Flexible time between work and care for unexpected needs
-- **Communication blocks**: Set specific times for updating family members and coordinating with healthcare providers
+- Care blocks: Dedicated time for medical appointments, medication administration, and physical assistance
+- Buffer blocks: Flexible time between work and care for unexpected needs
+- Communication blocks: Set specific times for updating family members and coordinating with healthcare providers
 
 Use a tool like Todoist or Notion to manage these blocks visually. The key is protecting your deep work time while remaining responsive to caregiving needs.
 
@@ -116,9 +116,9 @@ Use a tool like Todoist or Notion to manage these blocks visually. The key is pr
 
 Despite best planning, interruptions will happen. Develop a protocol for handling them:
 
-1. **Use status indicators**: Set your Slack/Teams status to indicate availability
-2. **Create auto-responses**: Draft templates for unexpected absences
-3. **Build async documentation**: Ensure your team can function without immediate responses
+1. Use status indicators: Set your Slack/Teams status to indicate availability
+2. Create auto-responses: Draft templates for unexpected absences
+3. Build async documentation: Ensure your team can function without immediate responses
 
 ```bash
 # Simple bash script to update your status based on caregiving needs
@@ -145,10 +145,10 @@ update_status() {
 
 Remote work offers unique advantages for caregivers that office workers cannot access:
 
-- **Eliminate commute time**: Reclaim hours otherwise spent traveling
-- **Flexible scheduling**: Attend afternoon appointments without taking vacation
-- **Reduce stress**: Work from a comfortable environment
-- **Quick transitions**: Handle emergencies without leaving work entirely
+- Eliminate commute time: Reclaim hours otherwise spent traveling
+- Flexible scheduling: Attend afternoon appointments without taking vacation
+- Reduce stress: Work from a comfortable environment
+- Quick transitions: Handle emergencies without leaving work entirely
 
 Document your caregiving situation properly. Many HR departments now recognize caregiver burnout as a valid concern. Some companies offer caregiver leave, flexible spending accounts for medical expenses, or employee assistance programs.
 
@@ -161,15 +161,13 @@ Technical solutions alone cannot address the emotional and physical demands of e
 - Use meal delivery services to reduce daily workload
 - Coordinate with siblings or family members using shared task management
 
-## Conclusion
-
-Successfully managing elder care while working remotely full-time requires a combination of clear communication, smart automation, and intentional time management. The strategies outlined here—automating coordination, creating dedicated spaces, time blocking, and building support systems—help maintain productivity without sacrificing the quality of care your loved one deserves.
-
-The flexibility of remote work, when paired with technical solutions and proper boundaries, creates an environment where both career responsibilities and caregiving duties can be fulfilled effectively. Start with one or two changes, measure their impact, and iterate as your situation evolves.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
+- [How to Handle Mail and Legal Address When Working.](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
+- [Remote Working Parent Self Care Checklist for Avoiding.](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

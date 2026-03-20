@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Team Communication Audit."
+title: "How to Set Up Remote Team Communication Audit: Identifying Unnecessary Meetings and Channels"
 description: "A practical guide for developers and power users to audit remote team communication, identify unnecessary meetings, and consolidate unused channels."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -125,11 +124,11 @@ For each recurring meeting, ask: Could this information be communicated asynchro
 
 Apply similar logic to your communication channels:
 
-- **Project-specific**: Active discussion for specific projects
-- **Team-specific**: Internal team coordination
-- **Announcements**: One-way broadcast channels
-- **Social**: Non-work conversation
-- **Archive-candidates**: No messages in 30+ days
+- Project-specific: Active discussion for specific projects
+- Team-specific: Internal team coordination
+- Announcements: One-way broadcast channels
+- Social: Non-work conversation
+- Archive-candidates: No messages in 30+ days
 
 ## Step 3: Calculate the Cost
 
@@ -201,10 +200,10 @@ done
 
 The audit is only valuable if results persist. Establish communication norms:
 
-- **Default to async**: New meetings should require justification
-- **Channel lifecycle**: Review channels quarterly, archive inactive ones
-- **Meeting budgets**: Limit total meeting hours per person per week
-- **No-meeting days**: Consider blocking focus time without meetings
+- Default to async: New meetings should require justification
+- Channel lifecycle: Review channels quarterly, archive inactive ones
+- Meeting budgets: Limit total meeting hours per person per week
+- No-meeting days: Consider blocking focus time without meetings
 
 ## Practical Example: The 25-Person Engineering Team
 
@@ -226,16 +225,16 @@ The team recovered approximately 6 hours per person weekly—time redirected to 
 
 For developers who want to automate parts of this audit:
 
-- **Slack Export**: Built-in workspace analytics
-- **Google Calendar APIs**: Export and analyze meeting patterns
-- **Loom**: Replace informational meetings with async video
-- **GeekBot or Standuply**: Async standup alternatives
+- Slack Export: Built-in workspace analytics
+- Google Calendar APIs: Export and analyze meeting patterns
+- Loom: Replace informational meetings with async video
+- GeekBot or Standuply: Async standup alternatives
 
 These tools don't require purchasing new software—most teams already have access but haven't configured them for audit purposes.
 
 ## Moving Forward
 
-A communication audit isn't a one-time exercise. Set a quarterly reminder to re-evaluate your communication patterns. Teams evolve, projects end, and new needs emerge. What served your team six months ago may now be technical debt.
+A communication audit isn't an one-time exercise. Set a quarterly reminder to re-evaluate your communication patterns. Teams evolve, projects end, and new needs emerge. What served your team six months ago may now be technical debt.
 
 The goal isn't to eliminate all meetings or channels—some synchronous communication is essential for collaboration. The goal is intentionality: every meeting should have a purpose, every channel should have active participants, and your team should have protected time for actual work.
 
@@ -243,6 +242,10 @@ The goal isn't to eliminate all meetings or channels—some synchronous communic
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Announcement Channel.](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Remote Team Growth Stage Communication Audit.](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

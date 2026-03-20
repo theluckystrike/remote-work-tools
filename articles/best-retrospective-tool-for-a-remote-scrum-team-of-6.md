@@ -12,14 +12,13 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 
 {% raw %}
 # Best Retrospective Tool for a Remote Scrum Team of 6
 
-Use Funretro for straightforward board-based async retros with voting, Retrium for comprehensive retrospective templates and integrations with Slack, or Confluence if you prefer keeping everything within your existing documentation tool. For six-person teams, choose a tool that supports both real-time sessions and async contribution across time zones.
+Use Funretro for straightforward board-based async retros with voting, Retrium for retrospective templates and integrations with Slack, or Confluence if you prefer keeping everything within your existing documentation tool. For six-person teams, choose a tool that supports both real-time sessions and async contribution across time zones.
 
 ## What a Remote Scrum Team of 6 Actually Needs
 
@@ -194,6 +193,10 @@ Test two or three options with actual sprints before committing. The tool that f
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Scaling Retrospective Template for.](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
+- [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

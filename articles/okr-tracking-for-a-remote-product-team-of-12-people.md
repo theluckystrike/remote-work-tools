@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -23,9 +22,9 @@ Managing Objectives and Key Results (OKRs) across a distributed team of 12 peopl
 
 With 12 people, you likely have enough complexity to warrant clear ownership but not so much that coordination becomes overwhelming. A three-tier structure typically works well:
 
-- **Company-level OKRs**: 3-4 objectives set quarterly
-- **Team-level OKRs**: Aligned to company objectives, 2-3 per team
-- **Individual OKRs**: Supporting team goals, 1-2 per person
+- Company-level OKRs: 3-4 objectives set quarterly
+- Team-level OKRs: Aligned to company objectives, 2-3 per team
+- Individual OKRs: Supporting team goals, 1-2 per person
 
 For a product team of 12, you probably have 2-3 sub-teams (engineering, design, product management). Each sub-team should own their objectives while remaining connected to company goals.
 
@@ -49,10 +48,10 @@ Company Objective: Launch Mobile App v2.0 with 50% Retention
 
 For a remote team of 12, your tooling needs to support async visibility and easy status updates. Popular options include:
 
-- **Notion**: Flexible databases with custom views
-- **Lattice**: Dedicated OKR management with check-ins
-- **7Geese**: Goal setting with progress tracking
-- **Confluence**: Native Atlassian integration if you already use Jira
+- Notion: Flexible databases with custom views
+- Lattice: Dedicated OKR management with check-ins
+- 7Geese: Goal setting with progress tracking
+- Confluence: Native Atlassian integration if you already use Jira
 
 For teams comfortable with code, a custom Notion database often provides the best balance of customization and ease of use. Here's a basic schema:
 
@@ -148,10 +147,10 @@ A sustainable quarterly cycle for a 12-person team looks like:
 
 Avoid the trap of grade inflation. A simple grading scale works:
 
-- **1.0**: Fully achieved
-- **0.7**: Mostly achieved, minor gaps
-- **0.3**: Significant progress but missed target
-- **0.0**: No meaningful progress
+- 1.0: Fully achieved
+- 0.7: Mostly achieved, minor gaps
+- 0.3: Significant progress but missed target
+- 0.0: No meaningful progress
 
 Average scores of 0.9+ suggest your targets are too easy. Average scores below 0.5 suggest either poor goal-setting or resource constraints that need addressing.
 
@@ -159,15 +158,15 @@ Average scores of 0.9+ suggest your targets are too easy. Average scores below 0
 
 Remote product teams frequently encounter these OKR tracking challenges:
 
-1. **Too many key results**: Limit each objective to 3-5 KRs maximum. More than that dilutes focus.
+1. Too many key results: Limit each objective to 3-5 KRs maximum. More than that dilutes focus.
 
-2. **Vague key results**: "Improve user experience" is not a KR. "Reduce time-to-checkout from 4 clicks to 2" is measurable and clear.
+2. Vague key results: "Improve user experience" is not a KR. "Reduce time-to-checkout from 4 clicks to 2" is measurable and clear.
 
-3. **Missing owner accountability**: Every KR needs a single owner who is responsible for tracking and reporting.
+3. Missing owner accountability: Every KR needs a single owner who is responsible for tracking and reporting.
 
-4. **No regular review**: Without weekly visibility, small delays become big misses by quarter-end.
+4. No regular review: Without weekly visibility, small delays become big misses by quarter-end.
 
-5. **Confusing activity with outcomes**: Completing 10 user interviews (activity) differs from improving NPS by 10 points (outcome). Prioritize outcome-based KRs.
+5. Confusing activity with outcomes: Completing 10 user interviews (activity) differs from improving NPS by 10 points (outcome). Prioritize outcome-based KRs.
 
 ## Integrating OKRs with Daily Work
 
@@ -180,15 +179,13 @@ The connection between daily tasks and quarterly objectives often breaks in remo
 
 A 12-person team has an advantage here: small enough that direct communication can fill gaps, but large enough to need structure. Use weekly async updates as your primary coordination mechanism, and reserve synchronous meetings for quarterly planning and retro.
 
-## Conclusion
-
-Effective OKR tracking for a remote product team of 12 comes down to three practices: clear ownership, regular async updates, and tooling that reduces manual overhead. Start with a simple Notion database and weekly Slack updates, then add automation as your process matures. The goal is visibility and alignment, not complexity.
-
-The best OKR system is one your team actually uses consistently. Build habits first, optimize later.
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Communication Tools for a Remote Research Team of 12.](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+- [Best Tool for Remote Team Mood Tracking and Sentiment.](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

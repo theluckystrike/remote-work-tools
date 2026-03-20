@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Childproof Home Office When Toddler Interrupts."
+title: "How to Childproof Home Office When Toddler Interrupts Meetings"
 description: "Practical solutions for developers and remote workers to childproof their home office and handle toddler interruptions during video calls. Includes."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -102,9 +102,9 @@ Run this script via keyboard shortcut when you join a call. Your team immediatel
 
 Modern video conferencing tools offer noise suppression, but for crying toddlers, configure aggressive settings:
 
-- **Zoom**: Settings > Audio > Advanced > Suppress Persistent Background Noise > Auto
-- **Google Meet**: Settings > Audio > Noise cancellation > Aggressive
-- **Slack Huddles**: Enable in desktop app settings
+- Zoom: Settings > Audio > Advanced > Suppress Persistent Background Noise > Auto
+- Google Meet: Settings > Audio > Noise cancellation > Aggressive
+- Slack Huddles: Enable in desktop app settings
 
 For developers using OBS or similar streaming software, add a noise gate:
 
@@ -121,11 +121,11 @@ release_time: 100ms
 
 Before every important call, run through this mental checklist:
 
-1. **Door check**: Confirm door is closed and latch is engaged
-2. **Snack station**: Place toddler-friendly snacks within their reach outside your office
-3. **Entertainment buffer**: Have a new toy or activity ready for unexpected downtime
-4. **Partner coordination**: Establish a signal with your co-parent for emergency rescue
-5. **Mute discipline**: Enable push-to-mute rather than toggle-mute
+1. Door check: Confirm door is closed and latch is engaged
+2. Snack station: Place toddler-friendly snacks within their reach outside your office
+3. Entertainment buffer: Have a new toy or activity ready for unexpected downtime
+4. Partner coordination: Establish a signal with your co-parent for emergency rescue
+5. Mute discipline: Enable push-to-mute rather than toggle-mute
 
 ## Creating a Toddler-Resistant Charging Station
 
@@ -151,10 +151,10 @@ This setup keeps cables out of reach while maintaining convenient charging for y
 
 Sometimes preparation fails. Have a protocol for when your toddler appears on camera:
 
-1. **Mute immediately**: Keyboard shortcut (Cmd+D on Mac) mutes before they speak
-2. **Camera cover**: Keep a physical cover handy for instant camera blocking
-3. **Quick message**: Pre-type a Slack message: "Toddler emergency, brb" that sends with one click
-4. **Virtual background**: Ensure your background is professional enough that a brief appearance isn't career-ending
+1. Mute immediately: Keyboard shortcut (Cmd+D on Mac) mutes before they speak
+2. Camera cover: Keep a physical cover handy for instant camera blocking
+3. Quick message: Pre-type a Slack message: "Toddler emergency, brb" that sends with one click
+4. Virtual background: Ensure your background is professional enough that a brief appearance isn't career-ending
 
 Test your emergency protocol monthly. Muscle memory matters more than perfect preparation.
 
@@ -191,6 +191,10 @@ Start with the simplest changes: cable management, door latches, and meeting sta
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up a Soundproof Home Office When Working.](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

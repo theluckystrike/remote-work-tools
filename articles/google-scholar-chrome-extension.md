@@ -301,9 +301,9 @@ Use console.log statements freely in content scripts—they appear in the page's
 
 Common issues you will encounter:
 
-- **Content script not running**: Check that your manifest matches correctly and the page URL pattern is accurate
-- **Selectors not matching**: Google Scholar may have changed their DOM structure; verify selectors in the Elements panel
-- **CORS errors**: If making API calls, ensure you have the correct permissions in manifest.json
+- Content script not running: Check that your manifest matches correctly and the page URL pattern is accurate
+- Selectors not matching: Google Scholar may have changed their DOM structure; verify selectors in the Elements panel
+- CORS errors: If making API calls, ensure you have the correct permissions in manifest.json
 
 ## Distribution and Updates
 

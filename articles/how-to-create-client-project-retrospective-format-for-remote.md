@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Create Client Project Retrospective Format for."
+title: "How to Create Client Project Retrospective Format for Remote Teams"
 description: "A practical guide to building effective client project retrospective formats for remote teams. Learn structured templates, async approaches, and best."
 date: 2026-03-16
 author: theluckystrike
@@ -167,10 +167,13 @@ Enterprise clients often prefer structured formats with written documentation th
 
 For clients in significantly different time zones, prioritize asynchronous surveys and written documentation. Use synchronous time sparingly for high-value discussion rather than information gathering that could happen asynchronously.
 
-## 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Asynchronous Client Update Format for.](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
+- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

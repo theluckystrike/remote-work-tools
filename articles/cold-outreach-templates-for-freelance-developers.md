@@ -81,8 +81,8 @@ Hi [Name],
 
 I specialize in [your niche, e.g., building high-performance React applications for fintech startups]. Recently, I shipped:
 
-- **[Project A]**: [specific result, e.g., "Real-time trading dashboard handling 50k updates/second for a Series B fintech"]
-- **[Project B]**: [specific result, e.g., "Migration from Angular to Next.js that improved Core Web Vitals by 40%"]
+- [Project A]: [specific result, e.g., "Real-time trading dashboard handling 50k updates/second for a Series B fintech"]
+- [Project B]: [specific result, e.g., "Migration from Angular to Next.js that improved Core Web Vitals by 40%"]
 
 I saw that [Company] is [specific current initiative that matches your skills]. My approach to [relevant technical area] aligns with what you're building.
 
@@ -159,10 +159,10 @@ A/B test your subject lines, message length, and call-to-action phrasing. Small 
 
 These templates work across specialties, but customize them based on your target market:
 
-- **Enterprise clients**: Emphasize security, compliance, and scalability
-- **Startups**: Focus on speed, iteration, and lean solutions
-- **Agencies**: Highlight capacity, reliability, and communication skills
-- **Non-technical founders**: Simplify technical language and emphasize business outcomes
+- Enterprise clients: Emphasize security, compliance, and scalability
+- Startups: Focus on speed, iteration, and lean solutions
+- Agencies: Highlight capacity, reliability, and communication skills
+- Non-technical founders: Simplify technical language and emphasize business outcomes
 
 Replace bracketed placeholders with specific, researched details. Generic templates get generic results—personalized outreach gets responses.
 
@@ -174,6 +174,10 @@ Start with one template, customize it for your target clients, and track your re
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [Podcast Guesting Strategy for Freelance Developers](/remote-work-tools/podcast-guesting-strategy-for-freelance-developers/)
+- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

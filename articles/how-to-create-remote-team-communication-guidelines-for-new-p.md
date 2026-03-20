@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Communication Guidelines for."
+title: "ADR-003: Use PostgreSQL for Primary Data Store"
 description: "A practical guide for developers and technical teams to establish effective communication protocols when launching new remote projects in 2026."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -215,19 +215,17 @@ communication:
 
 Communication guidelines for new projects should include a built-in review cadence. Schedule explicit discussions to adjust norms as the project matures.
 
-**Week 1**: Confirm guidelines work, make quick adjustments
-**End of Month 1**: Full review, incorporate lessons learned
-**Quarterly**: Compare with other projects, share what works
-
-## Conclusion
-
-The best communication guidelines are those your team actually follows. Start with the core components—channel selection, async writing standards, meeting protocols, time zone rules, and documentation requirements—then adapt based on what works for your specific situation.
-
-Effective remote team communication isn't about finding the perfect tool or following every best practice. It's about making explicit choices, documenting them, and consistently revisiting them as your project evolves.
-
+Week 1: Confirm guidelines work, make quick adjustments
+End of Month 1: Full review, incorporate lessons learned
+Quarterly: Compare with other projects, share what works
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

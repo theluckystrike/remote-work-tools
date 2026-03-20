@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Skip Level Meeting Guide for Remote Organizations
 
-A skip level meeting is a one-on-one where a senior leader meets directly with individual contributors, bypassing their immediate manager, to surface hidden blockers, gauge team culture, and retain top talent. In remote organizations, hold them monthly for 30 minutes, rotating through ICs so each person gets face time with senior leadership every 2-3 months.
+A skip level meeting is an one-on-one where a senior leader meets directly with individual contributors, bypassing their immediate manager, to surface hidden blockers, gauge team culture, and retain top talent. In remote organizations, hold them monthly for 30 minutes, rotating through ICs so each person gets face time with senior leadership every 2-3 months.
 
 ## Why Skip Level Meetings Matter
 
@@ -81,10 +81,10 @@ See you [date/time]!
 
 Keep the meeting loose enough for organic conversation, but focused enough to be productive. A sample agenda:
 
-- **0-5 minutes**: Casual check-in, remove the awkwardness
-- **5-15 minutes**: What they're working on, what's exciting
-- **15-25 minutes**: Challenges, blockers, friction points
-- **25-30 minutes**: Career aspirations, feedback for leadership
+- 0-5 minutes: Casual check-in, remove the awkwardness
+- 5-15 minutes: What they're working on, what's exciting
+- 15-25 minutes: Challenges, blockers, friction points
+- 25-30 minutes: Career aspirations, feedback for leadership
 
 ### Post-Meeting Action Items
 
@@ -161,10 +161,10 @@ async_skip_level:
 
 Track whether skip level meetings produce results:
 
-- **Issue resolution rate**: How many surfaced blockers get addressed?
-- **Sentiment trend**: Do team engagement scores improve over time?
-- **Retention**: Do ICs in skip level programs stay longer?
-- **Manager feedback**: How do direct managers feel about the process?
+- Issue resolution rate: How many surfaced blockers get addressed?
+- Sentiment trend: Do team engagement scores improve over time?
+- Retention: Do ICs in skip level programs stay longer?
+- Manager feedback: How do direct managers feel about the process?
 
 A simple tracking spreadsheet:
 
@@ -187,6 +187,10 @@ The best remote organizations build multiple redundant paths for feedback. Skip 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Skip Level Meeting Program As.](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [How to Run Effective Skip Level Meetings with Remote.](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [Remote Team Conflict Resolution Framework for Managers.](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

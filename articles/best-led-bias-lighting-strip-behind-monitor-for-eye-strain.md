@@ -10,7 +10,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -42,10 +41,10 @@ The brightness of your bias light should be sufficient to create ambient illumin
 
 Modern LED strips offer various smart features that enhance usability:
 
-- **App control**: Customize colors, brightness, and effects through a smartphone application
-- **Voice control**: Integration with Alexa, Google Assistant, or Siri for hands-free operation
-- **Sync with screen**: Some strips can automatically adjust based on your screen content
-- **Scheduling**: Set the lights to turn on/off at specific times or based on sunrise/sunset
+- App control: Customize colors, brightness, and effects through a smartphone application
+- Voice control: Integration with Alexa, Google Assistant, or Siri for hands-free operation
+- Sync with screen: Some strips can automatically adjust based on your screen content
+- Scheduling: Set the lights to turn on/off at specific times or based on sunrise/sunset
 
 ### Power and Installation
 
@@ -169,32 +168,72 @@ Finding the right bias lighting settings is personal, but here are some guidelin
 
 **Position:** The lights should create even illumination across the wall behind your monitor. Avoid concentrating light in one spot, which can create new contrast issues.
 
+## Automating Color Temperature with Home Assistant
+
+If you run Home Assistant, automate bias light color temperature to shift with the time of day:
+
+```yaml
+# configuration.yaml — bias light automation
+automation:
+  - alias: "Bias Light — Morning (cool, 5000K)"
+    trigger:
+      platform: time
+      at: "07:00:00"
+    action:
+      service: light.turn_on
+      target:
+        entity_id: light.monitor_bias_strip
+      data:
+        kelvin: 5000
+        brightness_pct: 40
+
+  - alias: "Bias Light — Evening (warm, 2700K)"
+    trigger:
+      platform: time
+      at: "18:00:00"
+    action:
+      service: light.turn_on
+      target:
+        entity_id: light.monitor_bias_strip
+      data:
+        kelvin: 2700
+        brightness_pct: 25
+
+  - alias: "Bias Light — Off at bedtime"
+    trigger:
+      platform: time
+      at: "22:30:00"
+    action:
+      service: light.turn_off
+      target:
+        entity_id: light.monitor_bias_strip
+```
+
+For Govee strips with the LAN API enabled, control color temperature directly via curl:
+
+```bash
+# Set Govee strip to warm white (3000K) — requires LAN Control in Govee app
+curl -X PUT "http://192.168.1.105:4003/govee/v1/device/control" \
+  -H "Content-Type: application/json" \
+  -d '{"msg": {"cmd": "colorTemInKelvin", "data": {"value": 3000}}}'
+```
+
 ## Additional Tips for Reducing Eye Strain
 
 While bias lighting significantly helps, combine it with these practices for maximum eye comfort:
 
-- **Follow the 20-20-20 rule**: Every 20 minutes, look at something 20 feet away for 20 seconds
-- **Adjust monitor height**: Your eyes should be level with the top third of the screen
-- **Use blue light filters**: Enable night shift or f.lux in the evenings
-- **Ensure proper room lighting**: Avoid working in complete darkness
-- **Blink regularly**: Remind yourself to blink to prevent dry eyes
-- **Get regular eye exams**: Annual checkups can catch and address vision issues
-
-## Conclusion
-
-LED bias lighting is one of the most effective investments you can make for your home office. By reducing the contrast between your bright screen and dark surroundings, it significantly decreases eye strain during long work sessions. Whether you choose a premium solution like Philips Hue or a budget-friendly option like LumiShape, the key is finding the right brightness and color temperature for your specific setup and work patterns.
-
-Start with one of the recommended options, install it properly following our guide, and adjust the settings to find your perfect balance. Your eyes will thank you after hours of coding, writing, or any other screen-intensive work.
-
----
-
-**Related Articles:**
-- [Best External Display for MacBook Air M4 Home Office Setup](/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Best Desk Setup Accessories for Remote Developers 2026](/best-desk-setup-accessories-for-remote-developers-2026/)
-- [Audio Setup for Hybrid Conference Rooms Guide](/audio-setup-for-hybrid-conference-rooms-guide/)
-{% endraw %}
+- Follow the 20-20-20 rule: Every 20 minutes, look at something 20 feet away for 20 seconds
+- Adjust monitor height: Your eyes should be level with the top third of the screen
+- Use blue light filters: Enable night shift or f.lux in the evenings
+- Ensure proper room lighting: Avoid working in complete darkness
+- Blink regularly: Remind yourself to blink to prevent dry eyes
+- Get regular eye exams: Annual checkups can catch and address vision issues
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
+- [Screen Brightness Settings for Eye Health: A Developer's Guide](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

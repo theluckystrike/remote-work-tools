@@ -131,15 +131,15 @@ Asana's App Directory is larger, but Monday.com's integrations tend to require l
 Budget matters significantly for nonprofit organizations. Here's how pricing compares:
 
 **Monday.com pricing:**
-- **Basic**: $9/user/month ($270/month for 30 users)
-- **Standard**: $14/user/month ($420/month)
-- **Pro**: $19/user/month ($570/month)
-- **Enterprise**: Custom pricing
+- Basic: $9/user/month ($270/month for 30 users)
+- Standard: $14/user/month ($420/month)
+- Pro: $19/user/month ($570/month)
+- Enterprise: Custom pricing
 
 **Asana pricing:**
-- **Basic**: Free for unlimited users (limited features)
-- **Advanced**: $24.99/user/month ($750/month for 30 users)
-- **Enterprise**: Custom pricing
+- Basic: Free for unlimited users (limited features)
+- Advanced: $24.99/user/month ($750/month for 30 users)
+- Enterprise: Custom pricing
 
 The free tier difference is notable: Monday.com limits boards on free plans, while Asana's Basic tier is free but excludes advanced features like custom fields and automations. For a 30-person nonprofit, Asana's Advanced tier at $750/month represents a significant expense compared to Monday.com's Standard tier at $420/month.
 
@@ -222,6 +222,10 @@ The best tool is the one your team actually uses consistently. Both platforms of
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [Best Framework for Evaluating Remote Team Collaboration.](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

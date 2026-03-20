@@ -24,7 +24,7 @@ Choose Notion if your team prioritizes clean, readable documentation pages with 
 
 The fundamental difference between Coda and Notion lies in how each platform structures data. Notion uses a block-based system where every piece of content is a block that can be rearranged, nested, or transformed. Pages contain blocks, and databases are special page types with structured properties. This hierarchical model feels natural for documentation but becomes complex when you need cross-referencing between documents.
 
-Coda combines documents and databases into a unified structure. Every Coda doc is essentially a database where rows can contain rich text, attachments, or embedded tables. The `Coda` formula language provides spreadsheet-like expressions that reference other rows, making it possible to build interconnected documentation systems that behave like lightweight applications.
+Coda combines documents and databases into an unified structure. Every Coda doc is a database where rows can contain rich text, attachments, or embedded tables. The `Coda` formula language provides spreadsheet-like expressions that reference other rows, making it possible to build interconnected documentation systems that behave like lightweight applications.
 
 For project documentation, this distinction manifests in practical ways. Consider documenting API endpoints across multiple services. In Notion, you might create a database where each endpoint is a page with properties for method, path, and service. Cross-referencing requires manual links or relation properties. In Coda, you can embed a table directly in your documentation page and reference it in formulas, creating live connections between your endpoint list and usage examples.
 
@@ -66,7 +66,7 @@ The Coda approach stays within the document interface. The Notion approach requi
 
 For developer-centric documentation workflows, API access determines how well the tool integrates with your existing infrastructure.
 
-Notion's API provides comprehensive database operations, page creation, and property updates. The rate limits (3 requests per second on average) handle most automation scenarios. You can sync Notion content with external systems, generate documentation from code comments, or automatically create pages from GitHub issues.
+Notion's API provides database operations, page creation, and property updates. The rate limits (3 requests per second on average) handle most automation scenarios. You can sync Notion content with external systems, generate documentation from code comments, or automatically create pages from GitHub issues.
 
 Coda's API covers document manipulation, table operations, and formula execution. What Coda lacks in raw documentation features, it compensates with pack integrations—pre-built connections to services like GitHub, Slack, and Jira that work without additional code.
 

@@ -59,12 +59,12 @@ Notion offers flexibility for teams already using it for documentation. You can 
 
 Set up an ADR database with these properties:
 
-- **Name**: ADR title
-- **Status**: Select (Proposed, Accepted, Deprecated, Superseded)
-- **Date Created**: Date
-- **Author**: Person
-- **Tags**: Multi-select (database, api, frontend, infrastructure)
-- **Superseded By**: Relation to other ADR entries
+- Name: ADR title
+- Status: Select (Proposed, Accepted, Deprecated, Superseded)
+- Date Created: Date
+- Author: Person
+- Tags: Multi-select (database, api, frontend, infrastructure)
+- Superseded By: Relation to other ADR entries
 
 Create a template for new ADRs that includes the standard sections:
 

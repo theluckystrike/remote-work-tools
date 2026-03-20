@@ -132,7 +132,7 @@ Pair the update with a clear call-to-action: "Please review and submit questions
 
 ## Step 5: Handle Questions Asynchronously
 
-The Q&A section distinguishes a true async all-hands from a one-way broadcast. Collect questions in advance through a simple form (Google Forms, Typeform, or a dedicated Slack channel).
+The Q&A section distinguishes a true async all-hands from an one-way broadcast. Collect questions in advance through a simple form (Google Forms, Typeform, or a dedicated Slack channel).
 
 Process questions in two ways:
 
@@ -181,6 +181,10 @@ An async all-hands for 100 employees succeeds through structure, not magic. Defi
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team All Hands Meeting Format.](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Async Mentorship Program Structure for Remote Junior.](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
+- [Remote Team All Hands Meeting Question Collection Tool.](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

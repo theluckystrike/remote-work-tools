@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Do Async Performance Reviews for Remote."
+title: "How to Do Async Performance Reviews for Remote Engineering Teams"
 description: "A practical guide with code snippets and templates for implementing async performance reviews in distributed engineering teams."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -128,7 +128,7 @@ A typical async review cycle spans two weeks. Here's how to structure it:
 
 ### Week 1: Collection Phase
 
-**Days 1-2**: Manager posts review templates and announces timeline in team channel
+Days 1-2: Manager posts review templates and announces timeline in team channel
 
 ```markdown
 # Q1 Performance Review Cycle
@@ -143,17 +143,17 @@ A typical async review cycle spans two weeks. Here's how to structure it:
 Copy the template from [link], fill it out, and tag me when complete.
 ```
 
-**Days 3-5**: Engineers complete self-reviews. Simultaneously, trigger peer feedback requests.
+Days 3-5: Engineers complete self-reviews. Simultaneously, trigger peer feedback requests.
 
-**Days 6-7**: Peers provide feedback. Managers can begin reading self-reviews.
+Days 6-7: Peers provide feedback. Managers can begin reading self-reviews.
 
 ### Week 2: Synthesis Phase
 
-**Days 8-10**: Manager writes their review, incorporating self-assessment and peer feedback
+Days 8-10: Manager writes their review, incorporating self-assessment and peer feedback
 
-**Days 11-12**: Employee receives manager review, has time to read and reflect
+Days 11-12: Employee receives manager review, has time to read and reflect
 
-**Days 13-14**: Optional synchronous follow-up for clarifications, goal-setting discussion
+Days 13-14: Optional synchronous follow-up for clarifications, goal-setting discussion
 
 ## Handling Difficult Conversations
 
@@ -202,16 +202,20 @@ Survey engineers after each cycle:
 
 ## Best Practices Summary
 
-- **Start early**: Give two weeks minimum for each cycle
-- **Be specific**: Questions about concrete achievements beat generic "how are you doing"
-- **Require examples**: Feedback without specifics isn't actionable
-- **Automate wisely**: Use reminders but preserve human connection
-- **Follow up**: Async works for initial reviews; sync for complex discussions
+- Start early: Give two weeks minimum for each cycle
+- Be specific: Questions about concrete achievements beat generic "how are you doing"
+- Require examples: Feedback without specifics isn't actionable
+- Automate wisely: Use reminders but preserve human connection
+- Follow up: Async works for initial reviews; sync for complex discussions
 
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
+- [Best Practices for Async Pull Request Reviews on.](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

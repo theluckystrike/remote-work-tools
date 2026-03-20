@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Hybrid Team Onboarding Process Template for New Hires."
+title: ".github/ISSUE_TEMPLATE/onboarding.yml"
 description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -157,10 +157,10 @@ If your team has designated office days, ensure the new hire experiences both sc
 
 Developers in hybrid teams must be comfortable with asynchronous communication. This week introduces:
 
-1. **Daily standup format**: Written updates posted to Slack or Teams
-2. **Decision documentation**: Using RFCs or ADRs for technical decisions
-3. **Availability management**: Calendar blocking for focus time and meetings
-4. **Status indicators**: Clear signals for availability (in office, working from home, in a meeting)
+1. Daily standup format: Written updates posted to Slack or Teams
+2. Decision documentation: Using RFCs or ADRs for technical decisions
+3. Availability management: Calendar blocking for focus time and meetings
+4. Status indicators: Clear signals for availability (in office, working from home, in a meeting)
 
 **Example Async Standup Template:**
 
@@ -256,9 +256,9 @@ Track these metrics to improve your hybrid onboarding process:
 
 Every hybrid team has different dynamics. Adjust this template based on:
 
-- **Office days**: If your team has mandatory in-office days, prioritize those in Week 2
-- **Time zones**: For distributed teams across time zones, ensure overlap hours for sync sessions
-- **Team size**: Smaller teams may combine some sessions; larger teams may need more structured processes
+- Office days: If your team has mandatory in-office days, prioritize those in Week 2
+- Time zones: For distributed teams across time zones, ensure overlap hours for sync sessions
+- Team size: Smaller teams may combine some sessions; larger teams may need more structured processes
 
 The key principle remains constant: new hires need equal opportunity to succeed whether they work from home or the office. Your onboarding process should reflect that value from day one.
 
@@ -268,6 +268,10 @@ The key principle remains constant: new hires need equal opportunity to succeed 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

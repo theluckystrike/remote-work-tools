@@ -127,20 +127,20 @@ The meeting-free day becomes a forcing function for building these habits. When 
 
 Track these metrics before and after implementing a meeting-free day:
 
-- **Sprint velocity**: Does it increase when developers have more focused time?
-- **Code review turnaround**: Are merge requests getting reviewed faster?
-- **Team satisfaction**: Use a simple weekly pulse survey
-- **Deep work hours**: Track time spent on focused tasks
+- Sprint velocity: Does it increase when developers have more focused time?
+- Code review turnaround: Are merge requests getting reviewed faster?
+- Team satisfaction: Use a simple weekly pulse survey
+- Deep work hours: Track time spent on focused tasks
 
 Most teams see improvement within 2-3 weeks. The key is consistency. Missing even one week sends a signal that the policy isn't serious.
 
 ## Common Pitfalls
 
-**Scheduling client meetings on focus days**: Establish a rule that external meetings must be scheduled by Tuesday for the following week. This gives the team visibility into what's coming.
+Scheduling client meetings on focus days: Establish a rule that external meetings must be scheduled by Tuesday for the following week. This gives the team visibility into what's coming.
 
-**One-on-ones getting moved**: Treat one-on-ones as meetings and move them to other days. Some teams keep them but make them optional or shorter.
+One-on-ones getting moved: Treat one-on-ones as meetings and move them to other days. Some teams keep them but make them optional or shorter.
 
-**The policy becoming optional**: Leadership must model the behavior. If managers schedule meetings on focus days, the policy loses credibility.
+The policy becoming optional: Leadership must model the behavior. If managers schedule meetings on focus days, the policy loses credibility.
 
 ## Getting Started Today
 
@@ -152,6 +152,10 @@ The goal isn't perfection—it's protecting time for the deep work that matters.
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Conflict Resolution Over Chat When Video."
+title: ".github/workflows/conflict-escalation.yaml"
 description: "Learn practical strategies for resolving team conflicts asynchronously via chat. Perfect for developers and remote teams dealing with time zone."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -14,7 +14,7 @@ categories: [guides]
 
 {% raw %}
 
-Resolve conflicts asynchronously through chat by pausing 15-30 minutes before responding, acknowledging the other person's concerns, stating your position clearly with facts, and proposing specific next steps—creating written records that prevent escalation while maintaining team cohesion across time zones. This approach prevents hot-headed responses that destroy relationships while leveraging async communication's advantage of thoughtful replies.
+Resolve conflicts asynchronously through chat by pausing 15-30 minutes before responding, acknowledging the other person's concerns, stating your position clearly with facts, and proposing specific next steps—creating written records that prevent escalation while maintaining team cohesion across time zones. This approach prevents hot-headed responses that destroy relationships while using async communication's advantage of thoughtful replies.
 
 Conflict in remote teams is inevitable. When video calls aren't feasible due to time zones, bandwidth limitations, or scheduling conflicts, resolving disagreements through chat becomes a critical skill. This guide provides developers and power users with actionable strategies for navigating difficult conversations asynchronously.
 
@@ -134,9 +134,9 @@ This automation ensures conflicts don't stagnate by automatically escalating aft
 
 Establishing clear protocols prevents conflicts from spiraling. Document these guidelines in your team wiki:
 
-- **Response time expectations**: Define acceptable windows for acknowledging messages during conflicts (e.g., "within 4 hours during work hours")
-- **Escalation paths**: Specify when to involve a mediator and who serves in that role
-- **Decision rights**: Clarify who has final authority on technical decisions
+- Response time expectations: Define acceptable windows for acknowledging messages during conflicts (e.g., "within 4 hours during work hours")
+- Escalation paths: Specify when to involve a mediator and who serves in that role
+- Decision rights: Clarify who has final authority on technical decisions
 
 Example protocol document:
 
@@ -163,10 +163,10 @@ All conflict threads must be summarized in #team-retrospectives with:
 
 Avoid these behaviors that undermine async conflict resolution:
 
-- **Sarcasm**: Text-based sarcasm almost always reads as hostility
-- **Public escalation**: Take disagreements to DMs first before involving the team
-- **Absence of closure**: Always explicitly state when a conflict is resolved
-- **Ghosting**: Not responding signals disregard, not agreement
+- Sarcasm: Text-based sarcasm almost always reads as hostility
+- Public escalation: Take disagreements to DMs first before involving the team
+- Absence of closure: Always explicitly state when a conflict is resolved
+- Ghosting: Not responding signals disregard, not agreement
 
 ## When to Switch to Video
 
@@ -194,6 +194,10 @@ Regular reflection transforms conflict from a source of friction into an opportu
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Conflict Resolution Framework for Managers.](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
+- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -129,23 +129,23 @@ This way, your code review comments focus on logic, architecture, and learning o
 
 A remote intern's first week sets the tone. Here's a day-by-day onboarding checklist:
 
-**Day 1**: Environment setup
+Day 1: Environment setup
 - Video call to meet the team
 - GitHub organization invite
 - Development environment setup (provide a detailed guide)
 - First "good first issue" assigned
 
-**Day 2**: Codebase orientation
+Day 2: Codebase orientation
 - Walkthrough of architecture documentation
 - Local environment working
 - First commit merged (even if small)
 
-**Day 3-4**: Paired coding
+Day 3-4: Paired coding
 - Shadow a senior developer for code reviews
 - Pair program on a small feature
 - Start working on first substantive task
 
-**Day 5**: First presentation
+Day 5: First presentation
 - Intern presents what they learned about the codebase
 - Team asks questions and offers guidance
 
@@ -185,6 +185,10 @@ The systems you build—check-ins, task templates, code review practices—scale
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Manage Remote Journalism Team Across.](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
+- [How to Run Sprints with a Remote Team of 4 Engineers: A Practical Guide](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
+- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

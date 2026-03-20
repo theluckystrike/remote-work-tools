@@ -144,11 +144,11 @@ For code-specific discussions, setting up a collaborative IDE environment ensure
 
 Create explicit guidelines for hybrid meetings that your team documents and enforces. These norms should address:
 
-**Speaking order**: Use hand-raise features or explicit verbal cues so remote participants can signal when they want to speak. The meeting facilitator should actively monitor for these signals rather than relying on in-room participants to notice.
+Speaking order: Use hand-raise features or explicit verbal cues so remote participants can signal when they want to speak. The meeting facilitator should actively monitor for these signals rather than relying on in-room participants to notice.
 
-**Chat monitoring**: Assign someone to watch the meeting chat and surface questions or comments that remote participants type. In-room participants often don't see chat messages, so verbalizing them creates awareness.
+Chat monitoring: Assign someone to watch the meeting chat and surface questions or comments that remote participants type. In-room participants often don't see chat messages, so verbalizing them creates awareness.
 
-**Decision documentation**: Type meeting notes in real-time and read back action items at the end. This ensures remote workers confirm their understanding matches what was discussed.
+Decision documentation: Type meeting notes in real-time and read back action items at the end. This ensures remote workers confirm their understanding matches what was discussed.
 
 A markdown template for meeting notes that enforces this:
 
@@ -182,9 +182,9 @@ A markdown template for meeting notes that enforces this:
 
 Track metrics that reveal whether remote workers are truly participating:
 
-- **Speaking time distribution**: Use meeting analytics to compare speaking time between in-office and remote participants
-- **Action item assignment**: Ensure remote workers receive a proportional share of tasks
-- **Meeting satisfaction surveys**: Ask specifically about whether participants felt heard
+- Speaking time distribution: Use meeting analytics to compare speaking time between in-office and remote participants
+- Action item assignment: Ensure remote workers receive a proportional share of tasks
+- Meeting satisfaction surveys: Ask specifically about whether participants felt heard
 
 If you have access to meeting recordings, review them to identify moments where remote participants tried to speak but were interrupted or overlooked. This qualitative data helps refine your processes over time.
 
@@ -202,6 +202,10 @@ The goal is creating meetings where location becomes irrelevant—where every pa
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Screen Sharing Solutions for Hybrid Meetings](/remote-work-tools/screen-sharing-solutions-for-hybrid-meetings/)
+- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
+- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

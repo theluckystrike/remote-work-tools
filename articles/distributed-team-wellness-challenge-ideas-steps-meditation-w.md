@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Distributed Team Wellness Challenge Ideas: Steps."
+title: "Distributed Team Wellness Challenge Ideas: Steps, Meditation, and Water Tracking"
 description: "Practical wellness challenge ideas for distributed teams including step goals, meditation practices, and hydration tracking with code-powered tools."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -215,6 +215,10 @@ The goal is not perfection—it is progress. Small, consistent actions compound 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -43,8 +42,8 @@ For most teams with an 8-hour spread, you'll find a 2-4 hour overlap in the morn
 
 If you always meet at the convenience of one timezone, that team will burn out. A rotation system ensures fairness:
 
-- **Week A**: Meetings at SF morning / Berlin evening
-- **Week B**: Meetings at Berlin morning / SF evening (early for SF, 7am)
+- Week A: Meetings at SF morning / Berlin evening
+- Week B: Meetings at Berlin morning / SF evening (early for SF, 7am)
 
 Track rotation in your team charter or shared document. Some teams use a simple schedule like:
 
@@ -109,10 +108,10 @@ This removes ambiguity and gives everyone permission to decline meetings outside
 
 Several tools help manage timezone complexity:
 
-- **WorldTimeBuddy** or **Every Time Zone**: Visual overlap finder
-- **Clockwise** or **Reclaim**: Automatic calendar optimization
+- **WorldTimeBuddy** or Every Time Zone: Visual overlap finder
+- **Clockwise** or Reclaim: Automatic calendar optimization
 - **Scheduled Send** in Slack/Email: Queue messages for recipient's morning
-- **Notion** or **Confluence**: Timezone-aware documentation
+- **Notion** or Confluence: Timezone-aware documentation
 
 For developers, consider timezone-aware automation:
 

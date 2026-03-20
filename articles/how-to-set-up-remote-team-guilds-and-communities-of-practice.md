@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 # How to Set Up Remote Team Guilds and Communities of Practice
@@ -95,10 +94,10 @@ Guilds produce artifacts. Without documentation, guild activities vanish after e
 
 Essential guild artifacts include:
 
-- **Decision records**: Document why the guild made specific technical choices
-- **Learning summaries**: After investigating new tools or approaches, write up findings
-- **Resource collections**: Curate links to useful articles, courses, and tools
-- **Meeting notes**: Decisions made, action items assigned, and attendance
+- Decision records: Document why the guild made specific technical choices
+- Learning summaries: After investigating new tools or approaches, write up findings
+- Resource collections: Curate links to useful articles, courses, and tools
+- Meeting notes: Decisions made, action items assigned, and attendance
 
 Example decision record format:
 
@@ -138,10 +137,10 @@ Keep synchronous meetings under 60 minutes. Anything longer loses attention in r
 
 Guilds become irrelevant if product teams ignore their outputs. Build formal connections between guilds and team workflows:
 
-1. **RFC review**: Require guild input on RFCs touching their domain
-2. **Tooling decisions**: Guilds recommend tools; teams adopt through normal procurement
-3. **Technical debt**: Guilds triage and prioritize shared technical debt
-4. **Hiring input**: Guilds define technical screening criteria for relevant roles
+1. RFC review: Require guild input on RFCs touching their domain
+2. Tooling decisions: Guilds recommend tools; teams adopt through normal procurement
+3. Technical debt: Guilds triage and prioritize shared technical debt
+4. Hiring input: Guilds define technical screening criteria for relevant roles
 
 These connections give guilds real influence and prevent them from becoming talking shops that produce nothing useful.
 
@@ -162,11 +161,11 @@ Guilds naturally evolve. A guild focused on a specific framework might expand or
 
 Watch for these failure modes:
 
-- **No clear ownership**: Without a guild lead, nothing happens
-- **Scope explosion**: Guilds trying to cover everything produce nothing
-- **Meeting fatigue**: Too many synchronous meetings destroy engagement
-- **No executive sponsorship**: Guilds need management support to influence teams
-- **Forgotten existence**: Publicly celebrate guild outputs to maintain visibility
+- No clear ownership: Without a guild lead, nothing happens
+- Scope explosion: Guilds trying to cover everything produce nothing
+- Meeting fatigue: Too many synchronous meetings destroy engagement
+- No executive sponsorship: Guilds need management support to influence teams
+- Forgotten existence: Publicly celebrate guild outputs to maintain visibility
 
 ## Practical Starting Point
 
@@ -180,5 +179,10 @@ Start small, stay consistent, and iterate based on feedback. Your remote teams w
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

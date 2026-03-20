@@ -22,9 +22,9 @@ Whether you're on calls with clients, debugging code in deep focus mode, or part
 
 Before buying materials, understand how sound travels through doors. Doors are typically hollow-core constructions with minimal mass. Sound waves pass through easily because there's nothing to absorb or block the energy. The key principles are:
 
-1. **Mass**: Heavier materials block more sound
-2. **Damping**: Absorbing vibration energy reduces transmission
-3. **Sealing**: Gaps around doors let sound leak through
+1. Mass: Heavier materials block more sound
+2. Damping: Absorbing vibration energy reduces transmission
+3. Sealing: Gaps around doors let sound leak through
 
 You don't need acoustic panels. You need a strategic combination of these three principles applied to your existing door.
 
@@ -34,8 +34,8 @@ The cheapest and most effective first step costs almost nothing. Measure the gap
 
 ### Materials Needed
 
-- **Weather stripping**: Foam or rubber self-adhesive strips ($5-10 for a pack)
-- **Door sweep**: Rubber or brush-style bottom seal ($8-15)
+- Weather stripping: Foam or rubber self-adhesive strips ($5-10 for a pack)
+- Door sweep: Rubber or brush-style bottom seal ($8-15)
 - **Acoustic sealant** (optional): For gaps larger than 5mm ($10)
 
 ### Installation
@@ -60,9 +60,9 @@ Purchase a moving blanket (often available at hardware stores for $15-25) and ha
 
 - **Hook and loop strips** ($5-10): Attach to door and blanket corners
 - **Over-the-door hooks** ($8-12): No adhesive required
-- **Tension rod**: Fits in door frame opening
+- Tension rod: Fits in door frame opening
 
-The blanket adds 5-10 pounds of mass and contains fiberglass or cotton batting that absorbs sound energy. For a more permanent solution, consider a acoustic foam panel mounted to a wooden frame that hangs over the door.
+The blanket adds 5-10 pounds of mass and contains fiberglass or cotton batting that absorbs sound energy. For a more permanent solution, consider an acoustic foam panel mounted to a wooden frame that hangs over the door.
 
 ### Option 2: Mass-Loaded Vinyl (MLV)
 
@@ -86,9 +86,9 @@ Mass alone isn't enough—adding a damping layer converts sound energy to heat. 
 
 Apply a damping compound between two layers of mass:
 
-1. **Layer 1**: Attach MLV directly to door surface
-2. **Layer 2**: Add a second layer of MDF or plywood (1/4 inch)
-3. **Between layers**: Apply acoustic damping compound ($20-30 for a tube)
+1. Layer 1: Attach MLV directly to door surface
+2. Layer 2: Add a second layer of MDF or plywood (1/4 inch)
+3. Between layers: Apply acoustic damping compound ($20-30 for a tube)
 
 The compound creates a "constrained layer damping" system that absorbs resonant frequencies that pass through simple mass barriers. This combination can achieve STC (Sound Transmission Class) ratings of 35-40, comparable to solid core doors costing $300+.
 
@@ -125,15 +125,15 @@ def measure_decibel_level(duration=5):
 # Compare results to validate your sound dampening work
 ```
 
-Set up a Raspberry Pi with a USB microphone to measure decibel levels before and after modifications. This gives you quantitative data on your improvements—useful for justifying the setup to skeptical partners or for your own optimization process.
+Set up a Raspberry Pi with an USB microphone to measure decibel levels before and after modifications. This gives you quantitative data on your improvements—useful for justifying the setup to skeptical partners or for your own optimization process.
 
 ## Combined Approach: The Developer Setup
 
 For maximum sound dampening at minimum cost, combine these techniques in order:
 
 1. **Seal all gaps** (weather stripping + door sweep): $15-25
-2. **Add hanging door blanket**: $15-25
-3. **Optional: Add MLV layer**: $40-60
+2. Add hanging door blanket: $15-25
+3. Optional: Add MLV layer: $40-60
 
 This three-stage approach can achieve 25-35dB reduction—transforming a noisy hallway conversation into a faint murmur, or eliminating audible distractions from your video calls entirely.
 
@@ -141,21 +141,19 @@ This three-stage approach can achieve 25-35dB reduction—transforming a noisy h
 
 Once you've implemented basic dampening, consider these enhancements:
 
-- **Automatic door closer**: Ensures consistent seal ($15-20)
-- **Soundproofing curtain**: Adds absorption to door frame gaps ($30-50)
-- **White noise generator**: Masks any remaining leakage (free/cheap apps)
+- Automatic door closer: Ensures consistent seal ($15-20)
+- Soundproofing curtain: Adds absorption to door frame gaps ($30-50)
+- White noise generator: Masks any remaining leakage (free/cheap apps)
 
 The key insight is that sound dampening follows the law of diminishing returns. The first $30-40 in materials (weather stripping + door blanket) provides 80% of the benefit. Additional mass and damping layers add incremental improvement but at increasing cost.
-
-## Conclusion
-
-Sound dampening your home office door doesn't require expensive professional installation. By understanding the physics of sound transmission and applying strategic, affordable interventions, you can achieve meaningful noise reduction. Start with sealing gaps, add mass incrementally, and measure your results. Your teammates on calls—and your neighbors—will notice the difference.
-
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
+- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

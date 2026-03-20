@@ -212,7 +212,7 @@ Ignoring cable types together causes interference. Keep power and audio/video ca
 
 ## Building Your System
 
-Start with inventory, add routing, apply labels, and automate maintenance. Each step builds on the previous one, creating a sustainable system rather than a one-time organization project.
+Start with inventory, add routing, apply labels, and automate maintenance. Each step builds on the previous one, creating a sustainable system rather than an one-time organization project.
 
 The goal isn't perfection—it's creating a setup where you can swap devices, troubleshoot issues, and modify your configuration without wrestling with cable spaghetti. A well-organized desk supports focus and productivity, letting you concentrate on code rather than untangling connections.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Transition from Sync Meetings to Async Updates."
+title: "Example GitHub PR template"
 description: "A practical guide for developers and power users on moving from synchronous meetings to asynchronous communication without disrupting team workflow."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -181,6 +181,10 @@ Most teams see improvements within four to six weeks. The initial adjustment per
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [How to Replace Daily Standups with Async Text Updates.](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Best Tool for Hybrid Team Async Updates When Some Use.](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

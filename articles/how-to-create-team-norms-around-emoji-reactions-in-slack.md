@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -169,4 +168,8 @@ Pin this where your team can easily find it, and update as your norms evolve.
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team: Slack Emoji Reactions.](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
+- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

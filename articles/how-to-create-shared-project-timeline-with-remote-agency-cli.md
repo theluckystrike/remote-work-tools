@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Create Shared Project Timeline with Remote Agency."
+title: "macOS"
 description: "Learn how to build and share project timelines with remote agency clients using CLI tools. Practical examples and code snippets for developers and."
 date: 2026-03-16
 author: theluckystrike
@@ -74,27 +74,27 @@ Create a `timeline.md` file in your project:
 ```mermaid
 gantt
     title Website Redesign Project Timeline
-    dateFormat  YYYY-MM-DD
-    axisFormat  %m-%d
+    dateFormat YYYY-MM-DD
+    axisFormat %m-%d
     
     section Discovery
-    Requirements gathering :active,  des1, 2026-03-16, 5d
-    Stakeholder interviews      :         des2, after des1, 3d
+    Requirements gathering :active, des1, 2026-03-16, 5d
+    Stakeholder interviews : des2, after des1, 3d
     
     section Design
-    Wireframes           :         des3, after des2, 7d
-    Visual design        :         des4, after des3, 5d
-    Design review        :crit,    des5, after des4, 2d
+    Wireframes : des3, after des2, 7d
+    Visual design : des4, after des3, 5d
+    Design review :crit, des5, after des4, 2d
     
     section Development
-    Frontend build       :         dev1, after des5, 10d
-    Backend integration  :         dev2, after dev1, 7d
-    API development      :         dev3, parallel with dev1, 8d
+    Frontend build : dev1, after des5, 10d
+    Backend integration : dev2, after dev1, 7d
+    API development : dev3, parallel with dev1, 8d
     
     section Launch
-    UAT                  :         test1, after dev2, 5d
-    Bug fixes            :crit,    test2, after test1, 3d
-    Production deploy    :milestone, 2026-05-20, 0d
+    UAT : test1, after dev2, 5d
+    Bug fixes :crit, test2, after test1, 3d
+    Production deploy :milestone, 2026-05-20, 0d
 ```
 
 The `crit` keyword marks critical path items, while `milestone` highlights key deliverables. Clients see a visual representation that updates automatically when you modify the underlying text.
@@ -172,7 +172,10 @@ CLI-based timelines offer reproducibility, version control, and integration capa
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
+- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [Best File Sharing Solution for Remote Agency Large.](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

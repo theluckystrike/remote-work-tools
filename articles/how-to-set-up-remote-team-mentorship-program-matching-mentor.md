@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Team Mentorship Program Matching."
+title: "matching_weights.py"
 description: "Learn practical strategies for matching mentors and mentees in remote teams. Includes weighting algorithms, tooling examples, and implementation."
 date: 2026-03-16
 author: theluckystrike
@@ -238,9 +238,9 @@ If matches fail early, don't force continuation. Better to rematch than to susta
 
 For larger organizations, consider building this into existing tools:
 
-- **Notion**: Create databases for mentors and mentees with relation properties
-- **Airtable**: Use formula fields for scoring calculations
-- **Custom script**: Run matching locally and import results into your HR system
+- Notion: Create databases for mentors and mentees with relation properties
+- Airtable: Use formula fields for scoring calculations
+- Custom script: Run matching locally and import results into your HR system
 
 The key insight: invest upfront in the matching process. Strong matches create mentorship relationships that drive real team growth. Weak matches create administrative overhead and participant frustration.
 
@@ -252,6 +252,10 @@ Build your matching system once, refine it after each cohort, and watch your men
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Async Mentorship Program Structure for Remote Junior.](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
+- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

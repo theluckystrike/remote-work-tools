@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team API Documentation: Keeping."
+title: "Example OpenAPI specification snippet"
 description: "A practical guide to maintaining excellent API documentation for remote teams. Includes templates, automation strategies, code examples, and workflows."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -82,12 +82,12 @@ Establish clear standards for what your documentation must include. These standa
 
 Every endpoint documentation should contain:
 
-1. **Purpose**: What does this endpoint accomplish? Why would a developer use it?
-2. **Authentication**: What credentials or tokens are required? How do developers obtain them?
-3. **Request format**: What fields are required versus optional? What are the data types and constraints?
-4. **Response format**: What does a successful response look like? What status codes indicate success versus errors?
-5. **Error handling**: What error codes might developers encounter? What do they mean and how should applications handle them?
-6. **Example requests and responses**: Concrete code samples showing typical usage patterns.
+1. Purpose: What does this endpoint accomplish? Why would a developer use it?
+2. Authentication: What credentials or tokens are required? How do developers obtain them?
+3. Request format: What fields are required versus optional? What are the data types and constraints?
+4. Response format: What does a successful response look like? What status codes indicate success versus errors?
+5. Error handling: What error codes might developers encounter? What do they mean and how should applications handle them?
+6. Example requests and responses: Concrete code samples showing typical usage patterns.
 
 ```
 /**
@@ -199,7 +199,10 @@ The best tool depends on your team's existing tools and preferences. Evaluate ba
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

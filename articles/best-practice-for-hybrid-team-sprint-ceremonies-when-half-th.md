@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Sprint Ceremonies When."
+title: "Recommended equipment configuration for hybrid meeting rooms"
 description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, facilitation tips, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -152,6 +152,10 @@ Hybrid sprint ceremonies can work well when you treat remote participation as a 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [How to Scale Remote Team Sprint Ceremonies When Splitting Into Multiple Squads: A Practical Guide](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
+- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

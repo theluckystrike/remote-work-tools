@@ -92,7 +92,7 @@ Notion provides:
 - Execute code blocks in some plans for interactive examples
 - API access for programmatic content management
 
-For documentation that includes runnable examples, Notion's execute blocks offer a advantage—you can embed working code that readers run directly. GitBook focuses on displaying code rather than executing it.
+For documentation that includes runnable examples, Notion's execute blocks offer an advantage—you can embed working code that readers run directly. GitBook focuses on displaying code rather than executing it.
 
 ## Versioning and Releases
 

@@ -135,14 +135,13 @@ ffplay -f avfoundation -i "0"
 
 Look for these quality indicators in your test: your face should be properly exposed with visible details, the window should show some cloud or building detail rather than pure white, and transitions between light and dark areas should show smooth gradients.
 
-## Summary
-
-Solving backlight problems for Zoom calls requires either hardware with strong dynamic range (Logitech Brio 4K, Razer Kiyo Pro) or software compensation through OBS filters or direct camera control. The most cost-effective approach combines a decent webcam with proper desk positioning and a supplemental front light. Test your setup during the time of day you typically take calls, since window lighting changes dramatically throughout the day.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Chrome Extension Webcam Settings Adjuster Guide](/remote-work-tools/chrome-extension-webcam-settings-adjuster/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

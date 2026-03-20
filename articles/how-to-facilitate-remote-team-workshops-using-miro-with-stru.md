@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Facilitate Remote Team Workshops Using Miro with."
+title: "Example: Export Miro board via API"
 description: "Learn practical techniques for running effective remote workshops in Miro with structured communication exercises that keep teams engaged and productive."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -18,7 +18,7 @@ Run effective remote workshops in Miro by combining structured communication exe
 
 Running productive remote workshops presents unique challenges. Without the benefit of physical presence, facilitators must work harder to maintain engagement, ensure equal participation, and drive meaningful outcomes. Miro provides a powerful collaborative canvas, but the tool alone doesn't guarantee successful workshops. Combining Miro's features with structured communication exercises creates a framework that transforms async collaboration into focused,高效 sessions.
 
-This guide covers practical techniques for facilitating remote team workshops using Miro, with emphasis on structured communication exercises that developers and power users can implement immediately.
+This guide covers practical techniques for helping remote team workshops using Miro, with emphasis on structured communication exercises that developers and power users can implement immediately.
 
 ## Setting Up Your Miro Workshop Environment
 
@@ -44,7 +44,7 @@ One of the most effective techniques for remote workshops is the round-robin pro
 
 1. **Create a timer frame** in Miro using the timer widget or a simple sticky note with a countdown
 2. **Assign speaking order** using numbered sticky notes arranged in a circle
-3. **Set explicit rules**: Each person speaks for exactly 2 minutes when their turn arrives
+3. Set explicit rules: Each person speaks for exactly 2 minutes when their turn arrives
 4. **Use the "pass" option** for participants who want to skip their turn
 
 For developers, this structure works well during code review discussions, architecture planning, and incident post-mortems. The fixed time allocation prevents discussions from spiraling while ensuring all perspectives get heard.
@@ -120,7 +120,7 @@ After breakout sessions, reconvene and have each group present their findings. U
 
 ## Documentation and Follow-Up
 
-The value of a well-facilitated workshop diminishes without proper documentation. After each session:
+The value of a well-helped workshop diminishes without proper documentation. After each session:
 
 1. Export the canvas as PDF for permanent record
 2. Screenshot key decision points
@@ -149,6 +149,10 @@ The remote work ecosystem continues evolving, but the fundamentals of good facil
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
+- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

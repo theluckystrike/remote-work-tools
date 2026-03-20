@@ -85,10 +85,10 @@ The key is consistency. Set a recurring calendar block for movement if your job 
 
 These four stretches take under 2 minutes and address the most common issues:
 
-1. **Chest opener**: Clasp hands behind back, lift slightly, open chest
-2. **Neck tilts**: Gently tilt ear to shoulder, hold 15 seconds each side
-3. **Seated spinal twist**: Rotate torso toward chair back, hold 20 seconds
-4. **Hip flexor stretch**: One foot on desk (sitting), lean forward slightly
+1. Chest opener: Clasp hands behind back, lift slightly, open chest
+2. Neck tilts: Gently tilt ear to shoulder, hold 15 seconds each side
+3. Seated spinal twist: Rotate torso toward chair back, hold 20 seconds
+4. Hip flexor stretch: One foot on desk (sitting), lean forward slightly
 
 Perform these every time you finish a coding task or before starting a new one.
 
@@ -185,7 +185,7 @@ You don't need to spend hundreds of dollars. Start with these:
 2. **External keyboard** ($30-80): Enables proper monitor height
 3. **Lumbar support cushion** ($15-30): Adds missing back support
 4. **Footrest** ($20-40): Levels your posture if feet dangle
-5. **Timer app**: Any Pomodoro app works for movement tracking
+5. Timer app: Any Pomodoro app works for movement tracking
 
 Total investment: under $200. Compare that to physical therapy costs.
 
@@ -201,6 +201,10 @@ Small consistent improvements beat dramatic overhauls that you abandon after a w
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
+- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

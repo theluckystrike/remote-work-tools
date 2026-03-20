@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Values and Principles Document."
+title: "How to Create Remote Team Values and Principles Document Collaboratively"
 description: "A practical guide for developers and power users on building remote team values and principles through collaborative processes. Includes templates."
 date: 2026-03-16
 author: theluckystrike
@@ -68,11 +68,11 @@ Designate a facilitator to synthesize the responses. They cluster similar themes
 
 Common value categories that emerge:
 
-- **Communication**: How we share information and handle async vs sync discussions
-- **Ownership**: Taking responsibility for deliverables
-- **Respect**: Time zone awareness, assuming good intent
-- **Growth**: Learning from mistakes and knowledge sharing
-- **Results**: Outcome over hours, sustainable pace
+- Communication: How we share information and handle async vs sync discussions
+- Ownership: Taking responsibility for deliverables
+- Respect: Time zone awareness, assuming good intent
+- Growth: Learning from mistakes and knowledge sharing
+- Results: Outcome over hours, sustainable pace
 
 Create a structured document:
 
@@ -147,9 +147,9 @@ docs/
 
 A values document only matters if the team uses it. Build reference points into workflows:
 
-- **Onboarding**: New team members review and share which resonate most
-- **Retrospectives**: Reference values when discussing what worked
-- **Hiring**: Share values with candidates to assess cultural fit
+- Onboarding: New team members review and share which resonate most
+- Retrospectives: Reference values when discussing what worked
+- Hiring: Share values with candidates to assess cultural fit
 
 Review quarterly. Teams evolve, and values should reflect current priorities.
 
@@ -212,9 +212,9 @@ Burnout destroys long-term productivity.
 
 Remote teams use various tools:
 
-- **Notion/Confluence**: Structured databases with property tracking
-- **GitHub/GitLab**: Version-controlled documents with PR reviews
-- **Google Docs**: Async commenting and suggestions
+- Notion/Confluence: Structured databases with property tracking
+- GitHub/GitLab: Version-controlled documents with PR reviews
+- Google Docs: Async commenting and suggestions
 
 Choose tools your team already uses.
 
@@ -222,23 +222,18 @@ Choose tools your team already uses.
 
 Avoid these mistakes:
 
-- **Too many values**: Limit to 5-8 core principles
-- **Generic language**: Be specific about what values look like in practice
-- **Written once, never revisited**: Treat values as living documents
-- **No accountability**: Reference values in feedback and decisions
-
-## Conclusion
-
-Creating team values collaboratively takes time, but the investment pays dividends in team cohesion and decision-making clarity. The async-first approach ensures everyone contributes equally, version control maintains integrity, and regular reviews keep it relevant.
-
-Start with the brainstorm phase, synthesize thoughtfully, refine collaboratively, and commit to living the values you create.
-
----
-
+- Too many values: Limit to 5-8 core principles
+- Generic language: Be specific about what values look like in practice
+- Written once, never revisited: Treat values as living documents
+- No accountability: Reference values in feedback and decisions
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [How to Create Remote Team Values Documentation That.](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
+- [How to Create Remote Team Promotion Criteria: A.](/remote-work-tools/how-to-create-remote-team-promotion-criteria-transparent-and/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

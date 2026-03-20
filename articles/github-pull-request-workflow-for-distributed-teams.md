@@ -108,13 +108,13 @@ This configuration ensures the right people review the right code without manual
 
 Apply the "nitpick, suggestion, requirement" framework:
 
-- **Nitpick**: Minor style preferences, optional improvements
+- Nitpick: Minor style preferences, optional improvements
   - "Consider using const here for clarity"
   
-- **Suggestion**: Better approach but not blocking
+- Suggestion: Better approach but not blocking
   - "We could simplify this with lodash's merge. Not blocking though."
   
-- **Requirement**: Must change before merge
+- Requirement: Must change before merge
   - "This needs a null check before accessing the property"
 
 Prefixing feedback with these labels prevents confusion about what's blocking versus what's optional. Reviewers often forget that their preference isn't universal.
@@ -125,9 +125,9 @@ Establish explicit SLAs for different PR types:
 
 | PR Type | Expected First Response | Max Review Time |
 |---------|------------------------|-----------------|
-| Hotfix  | 1 hour                 | 4 hours         |
-| Feature | 24 hours               | 72 hours        |
-| Refactor| 48 hours               | 1 week          |
+| Hotfix | 1 hour | 4 hours |
+| Feature | 24 hours | 72 hours |
+| Refactor| 48 hours | 1 week |
 
 Document these expectations in your team's handbook or GitHub organization README. When everyone knows the expectations, time zone differences become manageable.
 
@@ -221,9 +221,9 @@ When your team spans multiple time zones, asynchronous communication becomes the
 
 Instead of expecting instant responses, structure review sessions:
 
-1. **Morning batch**: Review PRs opened overnight
-2. **End of day**: Address feedback and update your PRs
-3. **Weekly sync**: Discuss complex PRs that need discussion
+1. Morning batch: Review PRs opened overnight
+2. End of day: Address feedback and update your PRs
+3. Weekly sync: Discuss complex PRs that need discussion
 
 Use GitHub's review request features to batch reviews. Request reviews from team members in their morning timezone when you're wrapping up your day.
 

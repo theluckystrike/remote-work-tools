@@ -34,22 +34,22 @@ The foundation of any Notion habit tracker consists of two connected databases: 
 
 Create a database with these properties:
 
-- **Name**: The habit name (e.g., "Code commit", "Read technical documentation")
-- **Category**: Select property with options like Coding, Learning, Health, Communication
-- **Frequency**: Select property with Daily, Weekly, Custom options
-- **Target Count**: Number property for habits measured in quantity (e.g., 3 pull requests)
-- **Streak**: Rollup property counting consecutive completions
-- **Started**: Date property marking when you began tracking
+- Name: The habit name (e.g., "Code commit", "Read technical documentation")
+- Category: Select property with options like Coding, Learning, Health, Communication
+- Frequency: Select property with Daily, Weekly, Custom options
+- Target Count: Number property for habits measured in quantity (e.g., 3 pull requests)
+- Streak: Rollup property counting consecutive completions
+- Started: Date property marking when you began tracking
 
 ### Daily Log Database
 
 This database records each day's completion status:
 
-- **Date**: Date property
-- **Habit**: Relation connecting to the Habits database
-- **Completed**: Checkbox property
-- **Notes**: Text property for context (e.g., "Skipped due to on-call emergency")
-- **Quality**: Select property with Excellent, Good, Fair options
+- Date: Date property
+- Habit: Relation connecting to the Habits database
+- Completed: Checkbox property
+- Notes: Text property for context (e.g., "Skipped due to on-call emergency")
+- Quality: Select property with Excellent, Good, Fair options
 
 ## Implementing the Tracker
 
@@ -111,11 +111,11 @@ This formula displays a checkmark when you meet weekly commit targets, providing
 
 Structure your categories to reflect real developer priorities:
 
-1. **Technical Practice**: LeetCode problems, code reviews, documentation writing
-2. **Learning**: Reading technical blogs, watching tutorials, exploring new frameworks
-3. **Communication**: Team standups, mentor meetings, feedback sessions
-4. **Health**: Exercise, breaks, sleep tracking
-5. **Tooling**: Dotfile updates, IDE configuration, alias creation
+1. Technical Practice: LeetCode problems, code reviews, documentation writing
+2. Learning: Reading technical blogs, watching tutorials, exploring new frameworks
+3. Communication: Team standups, mentor meetings, feedback sessions
+4. Health: Exercise, breaks, sleep tracking
+5. Tooling: Dotfile updates, IDE configuration, alias creation
 
 ### Weekly Review Template
 
@@ -144,17 +144,13 @@ Review your tracker every Sunday evening. This 15-minute habit review helps you 
 
 Make logging frictionless. Keep your Notion workspace easily accessible on all devices. The less effort required to mark completion, the more likely you maintain the habit during busy periods.
 
-## Conclusion
-
-A well-designed Notion habit tracker adapts to your specific developer workflow. The database structure outlined above provides flexibility for tracking simple daily tasks while supporting complex metrics like streaks and weekly targets. Start with the basics, add complexity as habits solidify, and iterate based on what actually helps you improve.
-
-The best habit tracker is one you consistently use. Build something simple enough to maintain during crunch time but powerful enough to reveal meaningful patterns in your development practice.
-
-
 ## Related Reading
 
 - [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

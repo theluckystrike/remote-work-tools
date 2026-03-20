@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Knowledge Base Handoff When Remote."
+title: "How to Handle Knowledge Base Handoff When Remote Developer Leaves"
 description: "A practical guide for managing knowledge base handoff when a remote developer leaves. Includes templates, tools, and step-by-step processes for developers."
 date: 2026-03-16
 author: theluckystrike
@@ -20,7 +20,7 @@ When a remote developer leaves your team, the knowledge they've accumulated over
 
 ## Start the Handoff Process Early
 
-The most critical factor in successful knowledge handoff is timing. As soon as you know a developer is leaving, initiate the process. Ideally, provide two to three weeks for comprehensive knowledge transfer. Rushed handoffs result in gaps that surface as production issues weeks later.
+The most critical factor in successful knowledge handoff is timing. As soon as you know a developer is leaving, initiate the process. Ideally, provide two to three weeks for knowledge transfer. Rushed handoffs result in gaps that surface as production issues weeks later.
 
 Begin with a knowledge audit. Work with the departing developer to identify:
 
@@ -135,9 +135,9 @@ Remote developers often build relationships with external contacts. Note:
 
 Several tools help capture and preserve knowledge effectively.
 
-**Wikis and Documentation Sites**: GitBook, Notion, or Confluence serve as centralized knowledge bases. Encourage developers to maintain living documents rather than static files.
+Wikis and Documentation Sites: GitBook, Notion, or Confluence serve as centralized knowledge bases. Encourage developers to maintain living documents rather than static files.
 
-**Architecture Decision Records (ADRs)**: A lightweight practice for documenting technical decisions. Each ADR follows a standard format:
+Architecture Decision Records (ADRs): A lightweight practice for documenting technical decisions. Each ADR follows a standard format:
 
 ```markdown
 # ADR-001: Use PostgreSQL for Primary Database
@@ -158,14 +158,14 @@ We will use PostgreSQL as our primary database.
 - Con: Horizontal scaling requires more effort
 ```
 
-**Video Documentation**: Loom and similar tools enable quick video walkthroughs. A 10-minute screen recording explaining a complex process often communicates more than pages of written documentation.
+Video Documentation: Loom and similar tools enable quick video walkthroughs. A 10-minute screen recording explaining a complex process often communicates more than pages of written documentation.
 
 ## Post-Departure Validation
 
 After a developer leaves, verify your knowledge base actually works. Assign someone to:
 
 - Attempt to deploy each system they owned
-- Answer questions a user might ask about their features
+- Answer questions an user might ask about their features
 - Handle common issues that would have gone to the departed developer
 
 This validation catches gaps while they're fixable. Create a feedback loop where the person covering these responsibilities documents what was missing.
@@ -184,6 +184,10 @@ Remote teams must be intentional about knowledge sharing. Without hallway conver
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
+- [How to Prevent Knowledge Silos When Remote Team Grows.](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
+- [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

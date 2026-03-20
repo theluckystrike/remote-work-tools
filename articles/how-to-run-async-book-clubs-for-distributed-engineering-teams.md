@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Async Book Clubs for Distributed Engineering."
+title: "Configuration"
 description: "A practical guide for engineering leaders to run effective async book clubs across distributed teams. Learn formats, tools, discussion frameworks, and."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -23,10 +23,10 @@ This guide walks you through setting up an async book club that actually works f
 
 Synchronous book clubs force everyone to meet at a specific time — often early morning for APAC team members or late evening for Americas. This creates burnout and exclusion. Async formats eliminate these pain points by allowing:
 
-- **Flexible participation**: Team members contribute when it fits their schedule
-- **Deeper reflections**: People can write thoughtful responses instead of scrambling for words in real-time
-- **Permanent discussion archive**: Every insight is documented and searchable
-- **Inclusive time zones**: No one has to attend at 7 AM or 9 PM
+- Flexible participation: Team members contribute when it fits their schedule
+- Deeper reflections: People can write thoughtful responses instead of scrambling for words in real-time
+- Permanent discussion archive: Every insight is documented and searchable
+- Inclusive time zones: No one has to attend at 7 AM or 9 PM
 
 ## Setting Up Your Async Book Club Framework
 
@@ -73,10 +73,10 @@ Here's a sample weekly schedule that works across time zones:
 
 ### Recommended Tool Stack
 
-- **Discussion**: Slack threads or Discord forums
-- **Documentaton**: Notion, Confluence, or GitHub Wiki
-- **Scheduling**: Linear or Notion calendar view
-- **Book purchasing**: Team library via O'Reilly, Pragmatic Programmer, or Kindle for Teams
+- Discussion: Slack threads or Discord forums
+- Documentaton: Notion, Confluence, or GitHub Wiki
+- Scheduling: Linear or Notion calendar view
+- Book purchasing: Team library via O'Reilly, Pragmatic Programmer, or Kindle for Teams
 
 ### Automation Script: Weekly Discussion Poster
 
@@ -271,16 +271,16 @@ Track these metrics to ensure your async book club is delivering value:
 ## Common Pitfalls and Solutions
 
 ### Problem: Low engagement after initial excitement
-**Solution**: Keep discussions focused on practical applications. Engineers want to know "how does this help our work?" not just abstract concepts.
+Solution: Keep discussions focused on practical applications. Engineers want to know "how does this help our work?" not just abstract concepts.
 
 ### Problem: Discussions become superficial
-**Solution**: Assign specific discussion roles each week — "devil's advocate," "implementation skeptic," "connector to our architecture."
+Solution: Assign specific discussion roles each week — "devil's advocate," "implementation skeptic," "connector to our architecture."
 
 ### Problem: Book selection becomes controversial
-**Solution**: Rotate book selection authority. Let different team members choose, with some light guardrails (technical books preferred).
+Solution: Rotate book selection authority. Let different team members choose, with some light guardrails (technical books preferred).
 
 ### Problem: Async fatigue
-**Solution**: Limit required reading to 30 minutes per week. Make participation optional but encouraged. Never make it feel like another meeting.
+Solution: Limit required reading to 30 minutes per week. Make participation optional but encouraged. Never make it feel like another meeting.
 
 ## Book Recommendations for Engineering Teams
 
@@ -311,7 +311,10 @@ Here's your quick-start checklist:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
 
-Built by theluckystrike** — More at [zovo.one](https://zovo.one)
+Built by
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

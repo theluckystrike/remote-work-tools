@@ -72,7 +72,7 @@ Who needs to be notified before/after deployment?
 
 ## Backstage for Service Catalogs
 
-For larger organizations running multiple shared services, Backstage provides a comprehensive platform for service ownership and documentation. It works particularly well for remote teams because it serves as a single source of truth that everyone can access without needing to ask questions.
+For larger organizations running multiple shared services, Backstage provides a platform for service ownership and documentation. It works particularly well for remote teams because it serves as a single source of truth that everyone can access without needing to ask questions.
 
 Create a standardized template for your infrastructure services:
 
@@ -192,10 +192,10 @@ Use Slack's workflow builder to create self-service request forms:
 
 Effective remote collaboration requires documentation that answers questions before they get asked. Maintain these key documents for every shared service:
 
-1. **Runbooks**: Step-by-step procedures for common operations (scale a service, rotate credentials, troubleshoot latency)
-2. **Architecture diagrams**: Visual representation of how services connect
-3. **SLO definitions**: Clear service level objectives that other teams can understand
-4. **Change logs**: Historical record of what changed and when
+1. Runbooks: Step-by-step procedures for common operations (scale a service, rotate credentials, troubleshoot latency)
+2. Architecture diagrams: Visual representation of how services connect
+3. SLO definitions: Clear service level objectives that other teams can understand
+4. Change logs: Historical record of what changed and when
 
 Use Mermaid diagrams that stay in version control alongside your infrastructure code:
 
@@ -216,18 +216,13 @@ graph TD
     style H fill:#ff9,stroke:#333
 ```
 
-## Conclusion
-
-Managing shared infrastructure services remotely requires combining the right tools with consistent processes. GitHub Projects provides visibility into infrastructure changes with full audit trails. Backstage excels for organizations needing comprehensive service catalogs. Structured incident response procedures ensure rapid coordination during outages. Cross-team communication channels match urgency to response time expectations.
-
-Start with what you have: create issue templates for infrastructure changes, establish communication channels with clear response expectations, and maintain documentation that answers common questions. As your remote platform engineering practice matures, layer in additional tools based on your specific needs.
-
-The goal is making shared infrastructure manageable without requiring real-time availability from everyone on the team. Effective asynchronous collaboration protects your team's time while maintaining the reliability that every other team depends on.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy.](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
+- [Remote Developer Documentation Collaboration Tools for.](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

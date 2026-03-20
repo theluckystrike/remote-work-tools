@@ -70,7 +70,7 @@ Organize a local hackathon or workshop when you arrive in a new city. Even a sma
 
 Offer to teach something you know well—TypeScript patterns, Docker optimization, or testing strategies. Teaching establishes credibility and attracts developers interested in similar topics.
 
-## Leveraging Your Existing Network
+## using Your Existing Network
 
 ### Reactivating Dormant Connections
 
@@ -92,9 +92,9 @@ Conferences provide concentrated networking opportunities. As a digital nomad, y
 
 Prioritize conferences that match your career goals:
 
-- **Language-specific**: Python Conf, JSConf, RustConf
-- **Remote-work focused**: Remote Conf, Nomad Cruise
-- **General tech**: Strange Loop, PyCon regional events
+- Language-specific: Python Conf, JSConf, RustConf
+- Remote-work focused: Remote Conf, Nomad Cruise
+- General tech: Strange Loop, PyCon regional events
 
 Smaller conferences often provide better networking opportunities than large events. With fewer attendees, meaningful conversations come more naturally.
 
@@ -146,13 +146,13 @@ When staying in a city long-term, focus on becoming a known quantity in the loca
 
 ## Common Networking Mistakes to Avoid
 
-**Being too transactional**: Nobody enjoys being approached only when you need something. Lead with value before asking for favors.
+Being too transactional: Nobody enjoys being approached only when you need something. Lead with value before asking for favors.
 
-**Ignoring local communities**: Don't only connect with other nomads. Local developers understand the regional tech scene and can provide insider knowledge.
+Ignoring local communities: Don't only connect with other nomads. Local developers understand the regional tech scene and can provide insider knowledge.
 
-**Overcommitting**: It's better to maintain ten strong relationships than a hundred weak ones. Be realistic about your capacity.
+Overcommitting: It's better to maintain ten strong relationships than a hundred weak ones. Be realistic about your capacity.
 
-**Neglecting async etiquette**: When reaching across time zones, be respectful of others' schedules. Leave clear, complete messages that don't require immediate responses.
+Neglecting async etiquette: When reaching across time zones, be respectful of others' schedules. Leave clear, complete messages that don't require immediate responses.
 
 ## Practical Next Steps
 
@@ -164,6 +164,10 @@ Remember: networking as a digital nomad requires more intentionality than tradit
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+- [How to Combat Loneliness as a Digital Nomad](/remote-work-tools/how-to-combat-loneliness-as-a-digital-nomad/)
+- [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

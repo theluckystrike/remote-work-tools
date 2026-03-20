@@ -129,27 +129,20 @@ For browser-based work, extensions like f.lux or built-in dark modes help. Many 
 
 While software solutions help, hardware improvements offer lasting benefits.
 
-**Monitor size and resolution**: A larger monitor at a comfortable distance reduces eye strain compared to squinting at a small screen. For developers, 27-inch monitors at 1440p or 4K resolutions strike a good balance.
+Monitor size and resolution: A larger monitor at a comfortable distance reduces eye strain compared to squinting at a small screen. For developers, 27-inch monitors at 1440p or 4K resolutions strike a good balance.
 
-**Anti-glare screens**: Matte screen protectors reduce reflections, especially in rooms with windows.
+Anti-glare screens: Matte screen protectors reduce reflections, especially in rooms with windows.
 
-**Quality displays**: IPS panels generally offer better viewing angles and color accuracy than TN panels, reducing the need to tilt your head or strain to see content.
+Quality displays: IPS panels generally offer better viewing angles and color accuracy than TN panels, reducing the need to tilt your head or strain to see content.
 
 ## Eye Care Habits for Developers
 
 Beyond environmental adjustments, develop habits that protect your vision.
 
-- **Blink regularly**: Staring at code reduces blink rate, causing dry eyes. Be mindful of blinking, or use lubricating eye drops.
-- **Stay hydrated**: Proper hydration affects eye moisture. Keep water nearby.
-- **Annual eye exams**: Regular checkups catch issues early. Discuss your screen time with your eye doctor.
-- **Correct prescription**: Outdated prescriptions force your eyes to work harder. Update glasses or contacts as needed.
-
-## Summary
-
-Reducing eye strain as a remote developer requires a multi-pronged approach. Configure your display settings for your environment, choose comfortable fonts and color schemes, implement regular breaks using the 20-20-20 rule, and optimize your workspace lighting. These changes compound—each improvement contributes to more comfortable coding sessions over time.
-
-Your eyes are your primary tool as a developer. Protecting them ensures you can continue doing what you love without discomfort or long-term damage.
-
+- Blink regularly: Staring at code reduces blink rate, causing dry eyes. Be mindful of blinking, or use lubricating eye drops.
+- Stay hydrated: Proper hydration affects eye moisture. Keep water nearby.
+- Annual eye exams: Regular checkups catch issues early. Discuss your screen time with your eye doctor.
+- Correct prescription: Outdated prescriptions force your eyes to work harder. Update glasses or contacts as needed.
 
 ## Related Reading
 

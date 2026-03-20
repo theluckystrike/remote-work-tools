@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -85,7 +84,7 @@ async function createOKRIssue() {
 }
 ```
 
-Linear's advantage is that engineers never leave their workflow. If your team already tracks work in Linear, adding OKR context requires minimal overhead. The trade-off is less formal OKR tooling—you're essentially repurposing project management features.
+Linear's advantage is that engineers never leave their workflow. If your team already tracks work in Linear, adding OKR context requires minimal overhead. The trade-off is less formal OKR tooling—you're repurposing project management features.
 
 ### Airtable: Customizable OKR Dashboards
 
@@ -186,6 +185,10 @@ Focus on consistency over perfection. Review progress regularly, adjust key resu
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

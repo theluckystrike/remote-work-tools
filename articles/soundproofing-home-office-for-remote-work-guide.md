@@ -56,27 +56,27 @@ True soundproofing requires mass. Dense materials block sound energy. Adding a s
 
 Focus on air sealing and portable solutions. Start with:
 
-- **Door sweep and weather stripping**: $20-40
-- **Acoustic foam panels (12-pack)**: $30-50
-- **Heavy curtains for windows**: $20-40
-- **Bookshelf as bass trap**: Free if you own books
+- Door sweep and weather stripping: $20-40
+- Acoustic foam panels (12-pack): $30-50
+- Heavy curtains for windows: $20-40
+- Bookshelf as bass trap: Free if you own books
 
 This tier addresses the easiest problems first. Air sealing provides immediate returns. Basic foam panels improve internal room acoustics for video calls.
 
 ### $100-500: Intermediate Upgrades
 
-- **Acoustic panels (custom size)**: $100-300
-- **Mass-loaded vinyl (MLV) for doors/walls**: $50-150
-- **Soundproof curtains**: $50-100
-- **Acoustic door seal kit**: $30-50
+- Acoustic panels (custom size): $100-300
+- Mass-loaded vinyl (MLV) for doors/walls: $50-150
+- Soundproof curtains: $50-100
+- Acoustic door seal kit: $30-50
 
 MLV is a dense, flexible material that adds mass without thickness. Hang it over doors or mount it to walls. It blocks sound effectively but looks industrial—consider covering with fabric or placing behind a bookshelf.
 
 ### $500+: Professional Grade
 
-- **Acoustic door replacement**: $300-600
-- **Soundproof windows (secondary glazing)**: $200-500 per window
-- **Isolated room construction**: Varies significantly
+- Acoustic door replacement: $300-600
+- Soundproof windows (secondary glazing): $200-500 per window
+- Isolated room construction: Varies significantly
 
 For developers in apartments or shared housing, a dedicated acoustic door provides the biggest single improvement. Standard interior doors weigh 25-40 pounds; solid-core doors weigh 80-120 pounds. The mass difference blocks substantially more sound.
 
@@ -141,6 +141,10 @@ Your acoustic environment affects productivity as much as lighting and ergonomic
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
+- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

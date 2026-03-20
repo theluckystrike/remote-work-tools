@@ -24,9 +24,9 @@ Developers have unique lighting needs compared to typical office workers. Your e
 
 The three primary light layers in a functional home office are:
 
-- **Ambient lighting**: Overall room illumination
-- **Task lighting**: Focused light for your desk area
-- **Accent lighting**: Decorative or background elements
+- Ambient lighting: Overall room illumination
+- Task lighting: Focused light for your desk area
+- Accent lighting: Decorative or background elements
 
 Most developers focus only on task lighting, ignoring ambient and accent layers. A balanced approach creates a workspace where your eyes can relax during pauses between coding sessions.
 
@@ -91,9 +91,9 @@ Brightness, measured in lumens, directly impacts eye comfort. The recommended br
 
 **Practical brightness guidelines:**
 
-- **Dark room (no windows)**: 400-600 lumens for task lighting
-- **Partial daylight**: 300-500 lumens
-- **Bright room**: 200-400 lumens to avoid glare
+- Dark room (no windows): 400-600 lumens for task lighting
+- Partial daylight: 300-500 lumens
+- Bright room: 200-400 lumens to avoid glare
 
 Monitor-mounted light bars have become popular among developers because they provide focused task lighting without occupying desk space or creating screen glare. Position the light bar so it illuminates your keyboard and desk surface without reflecting on your screen.
 
@@ -101,9 +101,9 @@ Monitor-mounted light bars have become popular among developers because they pro
 
 If you take video meetings regularly, proper lighting affects how colleagues perceive you. A simple three-point setup dramatically improves video quality:
 
-1. **Key light**: Main light source in front of you, slightly above eye level. This should be your brightest light.
-2. **Fill light**: Softer light on the opposite side of the key light, filling in shadows. Usually 50-75% of key light brightness.
-3. **Back light**: Light behind you that separates you from the background, adding depth.
+1. Key light: Main light source in front of you, slightly above eye level. This should be your brightest light.
+2. Fill light: Softer light on the opposite side of the key light, filling in shadows. Usually 50-75% of key light brightness.
+3. Back light: Light behind you that separates you from the background, adding depth.
 
 For developers on a budget, a ring light or panel light as your key light, combined with a desk lamp as fill, creates a professional appearance. Position your key light at 45 degrees to your face for the most flattering angle.
 
@@ -212,6 +212,10 @@ The best lighting setup is one you'll actually use consistently. Incremental imp
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+- [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

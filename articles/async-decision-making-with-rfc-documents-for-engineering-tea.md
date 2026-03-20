@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Decision Making with RFC Documents for Engineering."
+title: "Async Decision Making with RFC Documents for Engineering Teams"
 description: "A practical guide to implementing async decision making using RFC documents. Includes templates, workflows, and best practices for distributed."
 date: 2026-03-16
 author: theluckystrike
@@ -10,7 +10,6 @@ tags: [remote-work-tools, async, rfc, decision-making, engineering, remote-work,
 reviewed: true
 intent-checked: true
 voice-checked: true
-voice-checked: false
 score: 8
 ---
 
@@ -25,10 +24,10 @@ An RFC document captures a proposed change, its rationale, alternatives consider
 
 The async nature of RFCs provides several key benefits:
 
-- **Inclusive participation**: Team members contribute feedback on their own schedule
-- **Thoughtful responses**: Reviewers have time to research and craft detailed feedback
-- **Reduced meeting fatigue**: Eliminates the need for synchronous decision-making meetings
-- **Searchable history**: Future teams understand why decisions were made
+- Inclusive participation: Team members contribute feedback on their own schedule
+- Thoughtful responses: Reviewers have time to research and craft detailed feedback
+- Reduced meeting fatigue: Eliminates the need for synchronous decision-making meetings
+- Searchable history: Future teams understand why decisions were made
 
 ## Structuring an RFC Document
 
@@ -87,10 +86,10 @@ Set a minimum review period—72 hours works well for global teams to accommodat
 
 Encourage reviewers to use specific markers:
 
-- **Question**: Clarification needed
-- **Suggestion**: Optional improvement
-- **Concern**: Potential issue requiring resolution
-- **Approval**: Agreement with the proposal
+- Question: Clarification needed
+- Suggestion: Optional improvement
+- Concern: Potential issue requiring resolution
+- Approval: Agreement with the proposal
 
 ### Phase 3: Decision and Documentation
 
@@ -160,22 +159,19 @@ Use asynchronous voting for non-controversial decisions. When an RFC receives no
 
 RFCs fail when they become performative exercises rather than genuine decision-making tools. Avoid these mistakes:
 
-- **Proposing without context**: Always explain why a decision is needed before proposing a solution
-- **Ignoring alternatives**: Reviewers question proposals without documented alternatives
-- **Endless revision cycles**: Set clear deadlines and stick to them
-- **No clear owner**: Every RFC needs a single author responsible for driving it forward
-- **Bypassing the process for "urgent" decisions**: Reserve exceptions for true emergencies
-
-## Conclusion
-
-RFC documents transform how distributed engineering teams make decisions. By providing structured templates, clear workflows, and persistent documentation, RFCs enable thoughtful collaboration without synchronous meetings. The initial investment in creating and reviewing documents pays dividends through better decisions and accessible historical context.
-
-Start with one decision type—architecture changes, process updates, or tool selections—and refine your workflow based on team feedback. Over time, your RFC process becomes a competitive advantage, enabling your team to make confident decisions at scale.
-
+- Proposing without context: Always explain why a decision is needed before proposing a solution
+- Ignoring alternatives: Reviewers question proposals without documented alternatives
+- Endless revision cycles: Set clear deadlines and stick to them
+- No clear owner: Every RFC needs a single author responsible for driving it forward
+- Bypassing the process for "urgent" decisions: Reserve exceptions for true emergencies
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
+- [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

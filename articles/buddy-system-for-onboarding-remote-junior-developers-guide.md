@@ -13,7 +13,7 @@ voice-checked: true
 ---
 
 {% raw %}
-A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face a unique challenge: figuring out unwritten rules, discovering tools, and building relationships without the casual hallway conversations that office workers take for granted. A well-structured buddy system addresses these gaps by pairing new hires with experienced team members who serve as guides, advocates, and first points of contact.
+A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face an unique challenge: figuring out unwritten rules, discovering tools, and building relationships without the casual hallway conversations that office workers take for granted. A well-structured buddy system addresses these gaps by pairing new hires with experienced team members who serve as guides, advocates, and first points of contact.
 
 ## What Makes a Buddy System Effective
 
@@ -146,6 +146,10 @@ A successful buddy system creates a template for how the team supports its membe
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [How to Set Up Remote Developer Onboarding Buddy System.](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Tool for Tracking Remote Team On-Call Burden."
+title: ".github/ISSUE_TEMPLATE/oncall-shift.md"
 description: "A practical guide for developers and power users comparing tools and methods to track and balance on-call burden across distributed remote teams."
 date: 2026-03-16
 author: theluckystrike
@@ -213,7 +213,7 @@ Start tracking on-call burden without purchasing new tools:
 3. **Review burden monthly** in team retrospectives
 4. **Adjust upcoming schedules** based on previous month's data
 
-The "best" tool ultimately depends on what you already have. Teams with GitHub can start immediately using issues. Teams withPagerDuty can leverage existing analytics. Teams running Kubernetes can adopt Grafana On-Call as a natural extension of their observability stack.
+The "best" tool ultimately depends on what you already have. Teams with GitHub can start immediately using issues. Teams withPagerDuty can use existing analytics. Teams running Kubernetes can adopt Grafana On-Call as a natural extension of their observability stack.
 
 Fair on-call distribution is a solved problem at the tracking level—the challenge is consistently reviewing the data and actually adjusting rotations based on what it reveals.
 
@@ -221,6 +221,10 @@ Fair on-call distribution is a solved problem at the tracking level—the challe
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Penetration Testing Coordination Guide for.](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
+- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+- [Remote Team Financial Dashboard Tool for CFO: Tracking.](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

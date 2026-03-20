@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Single Sign-On for Remote Team SaaS."
+title: "Register OAuth app on GitHub"
 description: "A practical guide to implementing SSO for distributed teams. Learn SAML 2.0, OAuth 2.0, and OIDC setup with code examples."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -32,10 +32,10 @@ Before configuring SaaS applications, establish a centralized identity provider 
 
 Create an application within your IdP dashboard and note these critical values:
 
-- **Client ID**: Unique identifier for your SSO application
-- **Client Secret**: Secure token for authentication
-- **Discovery Endpoint**: URL where SaaS apps can fetch IdP configuration
-- **Redirect URIs**: Authorized URLs where users return after authentication
+- Client ID: Unique identifier for your SSO application
+- Client Secret: Secure token for authentication
+- Discovery Endpoint: URL where SaaS apps can fetch IdP configuration
+- Redirect URIs: Authorized URLs where users return after authentication
 
 ```
 Example Auth0 Application Configuration:
@@ -207,11 +207,16 @@ Implement fallback authentication methods. When SSO experiences outages, maintai
 
 ---
 
-Building robust SSO for remote teams requires thoughtful protocol selection, careful configuration, and ongoing maintenance. The initial investment pays dividends through reduced password management burden, improved security posture, and streamlined user provisioning. Start with your most critical tools, establish consistent patterns, and expand methodically across your SaaS stack.
+Building SSO for remote teams requires thoughtful protocol selection, careful configuration, and ongoing maintenance. The initial investment pays dividends through reduced password management burden, improved security posture, and streamlined user provisioning. Start with your most critical tools, establish consistent patterns, and expand methodically across your SaaS stack.
 
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [How to Set Up Remote Hiring Pipeline with Async.](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

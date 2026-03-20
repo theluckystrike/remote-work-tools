@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team SOP Template for Customer Escalation Process."
+title: "Auto-assign severity based on rules"
 description: "A practical SOP template for managing customer escalations across distributed support teams. Includes triage levels, handoff protocols, and code."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -133,11 +133,11 @@ Create these templates in your ticketing system so support agents can generate t
 
 Your SOP should define what gets measured:
 
-- **First Response Time**: Time from ticket creation to first staff response
-- **Time to Resolution**: Total elapsed time until the issue is resolved
-- **Handoff Gaps**: Periods where no team member actively worked the escalation
-- **Escalation Accuracy**: Percentage of escalations correctly classified at first triage
-- **Customer Satisfaction**: Post-resolution survey scores for escalated issues
+- First Response Time: Time from ticket creation to first staff response
+- Time to Resolution: Total elapsed time until the issue is resolved
+- Handoff Gaps: Periods where no team member actively worked the escalation
+- Escalation Accuracy: Percentage of escalations correctly classified at first triage
+- Customer Satisfaction: Post-resolution survey scores for escalated issues
 
 Review these metrics weekly in your team sync. Patterns in the data reveal where your process needs adjustment.
 
@@ -176,10 +176,10 @@ Automations like these ensure nothing slips through the cracks, especially durin
 
 Distributed teams need thoughtful on-call coverage. Your SOP should specify:
 
-- **Coverage windows**: Which time zones are covered during which hours
-- **Escalation path**: Exactly who gets paged first, second, and third
-- **Handoff timing**: When on-call responsibility transfers between regions
-- **Holiday coverage**: How escalations are handled during regional holidays
+- Coverage windows: Which time zones are covered during which hours
+- Escalation path: Exactly who gets paged first, second, and third
+- Handoff timing: When on-call responsibility transfers between regions
+- Holiday coverage: How escalations are handled during regional holidays
 
 For teams spanning three or more time zones, consider a "follow the sun" model where each region hands off active escalations at the end of their workday.
 
@@ -205,5 +205,10 @@ Start with the basics: define your severity levels, create your handoff template
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

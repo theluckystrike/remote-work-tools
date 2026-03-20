@@ -96,7 +96,7 @@ For embedding external content, Notion provides more integration options. You ca
 
 Knowledge bases only work when teams find information quickly.
 
-Slite offers slash commands for quick document creation and robust full-text search. The search indexes document content and titles, with results showing relevant snippets. Recent documents and favorites provide quick access to frequently used pages.
+Slite offers slash commands for quick document creation and full-text search. The search indexes document content and titles, with results showing relevant snippets. Recent documents and favorites provide quick access to frequently used pages.
 
 Notion's search is powerful but complex. Global search finds content across all workspaces, with filters for database, page, or inline content. The learning curve involves understanding search operators and saved searches for common queries.
 

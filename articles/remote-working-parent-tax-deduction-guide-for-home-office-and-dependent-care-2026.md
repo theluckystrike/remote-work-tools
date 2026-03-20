@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Tax Deduction Guide for Home."
+title: "Remote Working Parent Tax Deduction Guide for Home Office and Dependent Care 2026"
 description: "A practical guide for remote working parents on tax deductions for home offices and dependent care expenses. Learn what qualifies, how to document."
 date: 2026-03-16
 author: theluckystrike
@@ -125,7 +125,7 @@ touch tax-docs/2026/dependent-care/expenses.csv
 # 2026-01-31,Sunshine Daycare,"Emma,Liam",1200.00,january_invoice.pdf
 ```
 
-### Leverage the Home Office for Side Work
+### use the Home Office for Side Work
 
 If you're an employee but also do freelance development work on the side, the home office deduction only applies to self-employment income. Track your freelance hours and expenses separately from your W-2 job. This separation is critical—the IRS disallows home office deductions when the space is used primarily for employer work.
 
@@ -158,6 +158,10 @@ The tax benefits for remote working parents are real but require active document
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Working Parent Burnout Prevention Checklist for.](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Remote Working Parent Self Care Checklist for Avoiding.](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

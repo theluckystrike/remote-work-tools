@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Negotiate Flexible Hours with US Employer When."
+title: "Example on-call schedule that leverages timezone difference"
 description: "A practical guide for developers in Europe working with US companies. Learn negotiation strategies, overlap calculations, and async workflows to secure."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -129,15 +129,15 @@ on_call_coverage:
 
 Structure your request like a professional proposal:
 
-1. **State the problem**: "The 6-hour timezone difference between my location (CET) and our main US office limits real-time collaboration to ~2 hours daily."
+1. State the problem: "The 6-hour timezone difference between my location (CET) and our main US office limits real-time collaboration to ~2 hours daily."
 
-2. **Propose the solution**: "I'd like to adjust my core hours to 10 AM - 4 PM CET, with availability for meetings during our overlap window."
+2. Propose the solution: "I'd like to adjust my core hours to 10 AM - 4 PM CET, with availability for meetings during our overlap window."
 
-3. **Show the benefits**: "This gives us 4 hours of overlap, improves my code review turnaround, and maintains full team coverage across timezones."
+3. Show the benefits: "This gives us 4 hours of overlap, improves my code review turnaround, and maintains full team coverage across timezones."
 
-4. **Suggest a trial period**: "I'm happy to try this for one sprint (2 weeks) and we can evaluate effectiveness."
+4. Suggest a trial period: "I'm happy to try this for one sprint (2 weeks) and we can evaluate effectiveness."
 
-5. **Define success metrics**: "We can track PR review time, meeting attendance, and delivery predictability during the trial."
+5. Define success metrics: "We can track PR review time, meeting attendance, and delivery predictability during the trial."
 
 ## use Async Tools to Support Your Case
 
@@ -154,10 +154,10 @@ When your manager sees you deliver reliably without requiring real-time availabi
 
 If initial negotiations don't succeed, explore alternatives:
 
-- **Gradual adjustment**: Start with one or two flexible days per week
-- **Role-specific solutions**: Some roles (backend, DevOps) naturally work better with async workflows
-- **Team-by-team approach**: Perhaps one team member can accommodate your hours even if management won't formally change policy
-- **Document everything**: Track your productivity during any informal flexibility you already exercise
+- Gradual adjustment: Start with one or two flexible days per week
+- Role-specific solutions: Some roles (backend, DevOps) naturally work better with async workflows
+- Team-by-team approach: Perhaps one team member can accommodate your hours even if management won't formally change policy
+- Document everything: Track your productivity during any informal flexibility you already exercise
 
 Many developers have secured flexible hours by proving their value first and negotiating second. The key is demonstrating that your output quality remains high—or improves—when you're not forced to work during your biological trough hours.
 
@@ -165,5 +165,10 @@ Many developers have secured flexible hours by proving their value first and neg
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [Remote Team Conflict Resolution Over Chat When Video.](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Create Remote Team Architecture Documentation."
+title: "How to Create Remote Team Architecture Documentation Using Diagrams as Code"
 description: "Learn how to create and maintain architecture documentation for remote teams using diagrams as code. Practical examples with Mermaid, PlantUML, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -190,16 +190,13 @@ def generate_deployment_diagram(services):
 
 Automated generation keeps documentation synchronized with deployed services. Run generation as part of your CI pipeline to ensure diagrams always reflect current state.
 
-## Conclusion
-
-Diagrams as code transforms architecture documentation from a chore into a collaborative process. Remote teams gain version-controlled, reviewable, and maintainable diagrams that scale with their systems. Start with Mermaid for quick wins, then explore PlantUML or Structurizr for advanced needs.
-
-The key is treating diagrams as code—version them, review them, and keep them close to the systems they describe. Your remote team will thank you for documentation that actually stays up to date.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

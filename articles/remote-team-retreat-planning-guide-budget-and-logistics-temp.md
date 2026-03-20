@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Retreat Planning Guide Budget and Logistics."
+title: "Remote Team Retreat Planning Guide Budget and Logistics Template"
 description: "A practical template for planning remote team retreats with detailed budgets and logistics. Includes cost breakdowns, scheduling frameworks, and."
 date: 2026-03-16
 author: theluckystrike
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -180,10 +179,10 @@ Always verify venue internet specifications in writing before booking. Request p
 
 Build in adequate time for the work your team actually does:
 
-- **Pair programming sessions**: Include pairing stations or breakout spaces
-- **Code reviews**: Schedule specific review sessions if needed
-- **Architecture discussions**: Whiteboard access or digital alternatives like Miro
-- **Documentation time**: Capture decisions in real-time
+- Pair programming sessions: Include pairing stations or breakout spaces
+- Code reviews: Schedule specific review sessions if needed
+- Architecture discussions: Whiteboard access or digital alternatives like Miro
+- Documentation time: Capture decisions in real-time
 
 ### Hybrid Considerations
 
@@ -215,6 +214,10 @@ The specific numbers and venues matter less than the discipline of planning. Use
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Book Club Format and Facilitation Guide for.](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
+- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Support Group Template for."
+title: "Remote Working Parent Support Group Template for Distributed Companies Building Community"
 description: "A practical guide to building a parent support group for remote workers in distributed companies. Includes templates, Slack channel setups, async."
 date: 2026-03-16
 author: theluckystrike
@@ -205,6 +205,10 @@ Building a parent support group takes initial setup effort but compounds in valu
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Remote Working Parent Burnout Prevention Checklist for.](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

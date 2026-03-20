@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "DNS Filtering Setup for Remote Team Endpoint Security."
+title: "DNS Filtering Setup for Remote Team Endpoint Security Using Cloudflare Gateway"
 description: "A practical technical guide for developers and power users setting up DNS filtering with Cloudflare Gateway to secure remote team endpoints from threats."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -208,9 +208,9 @@ A blocked domain should return NXDOMAIN or an appropriate error. Allowed domains
 
 Remote employees occasionally encounter connectivity issues. Common problems include:
 
-- **Client fails to connect**: Verify the device has internet connectivity and can reach `gateway.teams.cloudflare.com`. Check firewall rules allow the WARP client ports.
-- **Policies not applying**: Confirm the device is enrolled in your organization and the correct profile is selected. Review policy precedence—lower precedence policies may match first.
-- **Slow DNS resolution**: Cloudflare Gateway typically provides fast resolution, but geographic distance matters. Ensure clients connect from supported regions.
+- Client fails to connect: Verify the device has internet connectivity and can reach `gateway.teams.cloudflare.com`. Check firewall rules allow the WARP client ports.
+- Policies not applying: Confirm the device is enrolled in your organization and the correct profile is selected. Review policy precedence—lower precedence policies may match first.
+- Slow DNS resolution: Cloudflare Gateway typically provides fast resolution, but geographic distance matters. Ensure clients connect from supported regions.
 
 ## Scaling Your Deployment
 
@@ -249,5 +249,10 @@ Your remote team's security posture improves immediately upon deploying DNS filt
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Endpoint Encryption Enforcement for Remote Team Laptops.](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+- [How to Audit Remote Employee Device Security Compliance.](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

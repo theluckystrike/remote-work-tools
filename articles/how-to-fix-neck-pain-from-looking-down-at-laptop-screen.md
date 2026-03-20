@@ -36,10 +36,10 @@ If you use an external keyboard when your laptop is raised, you're already halfw
 
 Run through this checklist right now:
 
-1. **Screen height**: Can you look at the top third of your screen without tilting your head?
-2. **Distance**: Is your screen about an arm's length away?
-3. **Keyboard position**: Are your elbows at a 90-degree angle when typing?
-4. **Shoulder position**: Are your shoulders relaxed, not hunched toward your ears?
+1. Screen height: Can you look at the top third of your screen without tilting your head?
+2. Distance: Is your screen about an arm's length away?
+3. Keyboard position: Are your elbows at a 90-degree angle when typing?
+4. Shoulder position: Are your shoulders relaxed, not hunched toward your ears?
 
 If you answered "no" to any of these, your desk setup likely contributes to your neck pain.
 
@@ -162,5 +162,10 @@ The developers who avoid tech neck most successfully share one characteristic: t
 ## Related Reading
 
 - [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Ergonomic Laptop Stand for Remote Workers: A Developer's Guide](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

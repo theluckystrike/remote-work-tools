@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Desk Sensor Technology for Hybrid Offices: Tracking."
+title: "MicroPython code for ESP32 desk sensor node"
 description: "A technical guide to implementing desk sensors for hybrid offices. Covers hardware options, MQTT data pipelines, API integrations, and code examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -97,7 +97,7 @@ This example demonstrates a combined sensor approach that reduces false positive
 
 ## Data Pipeline Architecture
 
-Building a robust occupancy tracking system requires reliable data collection, storage, and presentation layers. MQTT serves as the message broker for sensor-to-server communication, providing the lightweight pub/sub model ideal for IoT deployments.
+Building a occupancy tracking system requires reliable data collection, storage, and presentation layers. MQTT serves as the message broker for sensor-to-server communication, providing the lightweight pub/sub model ideal for IoT deployments.
 
 ### MQTT to InfluxDB Pipeline
 
@@ -254,16 +254,13 @@ Calibration significantly impacts sensor accuracy. PIR sensors need clear sightl
 
 Privacy remains paramount. Clearly communicate sensor placement and data usage to employees. Store occupancy data in aggregate form rather than tracking individuals. Many jurisdictions regulate employee monitoring—consult legal counsel for compliance requirements specific to your location.
 
-## Conclusion
-
-Building a desk sensor system for hybrid offices combines straightforward hardware with robust data infrastructure. ESP32 microcontrollers with combined PIR and pressure sensors provide reliable occupancy detection. MQTT and InfluxDB create a scalable data pipeline, while REST APIs enable integration with space management applications. The resulting system delivers actionable insights into desk utilization, supporting hot-desking policies, real estate optimization, and dynamic space allocation.
-
-Start with a pilot deployment of 10-20 sensors to validate your architecture before scaling. Iterate on sensor placement and sensitivity based on actual detection accuracy. With proper implementation, you'll have continuous visibility into how your hybrid workspace gets used—and the data to make smarter space decisions.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Occupancy Analytics Platform for Hybrid Offices.](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
+- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Best Desk Booking App for Hybrid Offices Using Microsoft.](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

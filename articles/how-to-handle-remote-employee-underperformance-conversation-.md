@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Remote Employee Underperformance."
+title: "How to Handle Remote Employee Underperformance: Conversation Guide for New Managers"
 description: "A practical guide for new managers on handling remote employee underperformance conversations. Includes scripts, frameworks, and actionable tips for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -158,18 +158,13 @@ Send a thoughtful async message first:
 
 Provide time for the employee to compose their thoughts. Async communication favors considered responses over spontaneous ones, which can actually benefit performance discussions.
 
-## Conclusion
-
-Handling underperformance is one of the hardest parts of managing people, and remote work adds layers of complexity. Success requires clear documentation, structured conversations, genuine support, and consistent follow-through.
-
-Remember that your goal is not to catch employees failing—it's to help them succeed. Most people want to do good work. When they don't, there's usually a reason: unclear expectations, external blockers, skill gaps, or personal challenges. Your job is to identify the cause and provide support.
-
-Approach every conversation with the assumption that you both want the same outcome: the employee performing well and contributing to team success. This mindset transforms difficult conversations from confrontations into collaborations.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+- [Remote Employee Belonging and Inclusion Program Ideas.](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

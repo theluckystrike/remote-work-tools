@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Work Stipend Policy That Is Legally."
+title: "How to Create Remote Work Stipend Policy That Is Legally Tax Compliant"
 description: "A practical guide for developers and power users building tax-compliant remote work stipend policies. Includes policy templates, IRS requirements, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -196,6 +196,10 @@ Start with equipment stipends—they're the easiest to document and defend. As y
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
+- [How to Create a Hybrid Work Stipend Policy Covering Both.](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

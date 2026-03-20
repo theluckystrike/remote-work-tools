@@ -13,7 +13,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 
@@ -36,7 +35,7 @@ Set up three main sections on your board using Miro's framing or container tools
 
 Within the brainstorming section, create individual sticky notes for each team member. Use different colors for different roles or departments if that makes sense for your team, but avoid making anyone feel singled out. The goal is inclusive participation, not competitive suggestion-making.
 
-## Facilitating the Values Generation Session
+## helping the Values Generation Session
 
 Schedule a synchronous session where everyone can gather in the Miro board at the same time. Even though your team works asynchronously, this exercise benefits from real-time collaboration. The interaction and visible contributions from colleagues spark ideas and energy that asynchronous work sometimes lacks.
 
@@ -98,12 +97,11 @@ Third, assign a facilitator who can keep the discussion on track. Without someon
 
 Finally, make it enjoyable. Values creation should feel like a celebration of what makes your team great, not a bureaucratic exercise. Play some music, start with positive stories about the team, and acknowledge the effort everyone is putting into making the team better.
 
-## Conclusion
-
-A values wall in Miro transforms abstract concepts into a visual, collaborative artifact that remote teams can use to build culture and guide behavior. The process of creating it—bringing people together, generating ideas, debating priorities, and agreeing on commitments—matters as much as the final product. Your values wall becomes a shared reference point that reinforces what makes your team unique and guides how you work together, even when you're physically apart.
-{% endraw %}
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [How to Run Remote Team Cooking Class as Bonding Activity](/remote-work-tools/how-to-run-remote-team-cooking-class-as-bonding-activity/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Management for Husband and Wife Freelance."
+title: "Project Management for Husband and Wife Freelance Development Team"
 description: "Practical project management strategies for husband and wife freelance development teams. Learn workflow optimization, communication patterns, and tool."
 date: 2026-03-16
 author: theluckystrike
@@ -114,10 +114,10 @@ Use a password manager to share credentials securely. Neither partner should be 
 
 There will be times when both partners are working on the same client project or competing for the same resources. Establish a protocol for these situations:
 
-1. **Same task**: The partner with more context or availability takes it
-2. **Same client, different features**: Split by module or feature area
-3. **Code conflicts**: Use feature branches and code review before merging
-4. **Timeline pressure**: Have a candid conversation about capacity before promising deadlines
+1. Same task: The partner with more context or availability takes it
+2. Same client, different features: Split by module or feature area
+3. Code conflicts: Use feature branches and code review before merging
+4. Timeline pressure: Have a candid conversation about capacity before promising deadlines
 
 The goal is not to avoid all conflict but to have a predictable way of resolving it that doesn't require emotional negotiation every time.
 
@@ -131,10 +131,10 @@ Set up recurring invoice templates for retainer clients. This reduces the admini
 
 Many couples fall into these traps:
 
-- **No written agreements**: Discuss how you'll handle income division, client ownership, and what happens if one partner wants to exit the business
-- **Working all the time**: The home office is always there, making it tempting to skip evenings and weekends
-- **Skipping process**: "We're just two people, we don't need that overhead" leads to missed deadlines and scope creep
-- **No individual space**: Even in a small home, each partner needs a dedicated workspace
+- No written agreements: Discuss how you'll handle income division, client ownership, and what happens if one partner wants to exit the business
+- Working all the time: The home office is always there, making it tempting to skip evenings and weekends
+- Skipping process: "We're just two people, we don't need that overhead" leads to missed deadlines and scope creep
+- No individual space: Even in a small home, each partner needs a dedicated workspace
 
 ## Making It Sustainable
 
@@ -146,6 +146,10 @@ Review your workflow monthly. What broke last month? What took longer than expec
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Project Management for a Solo Developer with 8 Client.](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
+- [Best Project Tracking Tool for Remote Hardware.](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

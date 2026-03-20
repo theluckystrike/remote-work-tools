@@ -21,7 +21,7 @@ The best mesh WiFi for home office video calls is a tri-band WiFi 6 system with 
 
 ## Why Mesh WiFi Beats Single Routers for Home Offices
 
-Traditional single-router setups suffer from dead zones and signal degradation at distance. Mesh systems solve this by deploying multiple nodes that create a unified network. For video calls, the benefits are tangible:
+Traditional single-router setups suffer from dead zones and signal degradation at distance. Mesh systems solve this by deploying multiple nodes that create an unified network. For video calls, the benefits are tangible:
 
 Consistent bandwidth across all rooms eliminates stream quality drops. Smooth handoff between nodes keeps calls stable as you move through your home. Reduced latency matters for real-time communication tools, and better device congestion handling keeps your connection stable when phones, tablets, smart home devices, and computers compete for bandwidth.
 
@@ -37,9 +37,9 @@ WiFi 6 (802.11ax) handles current video conferencing needs comfortably. WiFi 7 (
 
 The communication between mesh nodes determines system performance:
 
-- **Wireless backhaul**: Nodes communicate over WiFi. Simpler setup but some bandwidth loss between nodes.
-- **Wired backhaul**: Ethernet connections between nodes deliver full gigabit speeds. Preferred for home offices where cabling is feasible.
-- **Tri-band systems**: Add a dedicated 5GHz or 6GHz band for node communication, reducing congestion on the main network.
+- Wireless backhaul: Nodes communicate over WiFi. Simpler setup but some bandwidth loss between nodes.
+- Wired backhaul: Ethernet connections between nodes deliver full gigabit speeds. Preferred for home offices where cabling is feasible.
+- Tri-band systems: Add a dedicated 5GHz or 6GHz band for node communication, reducing congestion on the main network.
 
 For video calls specifically, wired backhaul provides the most consistent experience. If running cables is impractical, a tri-band system with a dedicated backhaul channel comes second.
 
@@ -47,8 +47,8 @@ For video calls specifically, wired backhaul provides the most consistent experi
 
 Modern mesh systems operate across multiple bands:
 
-- **2.4GHz**: Longer range, slower speeds, crowded spectrum. Use only for IoT devices.
-- **5GHz**: The sweet spot for video calls. Less congestion, lower latency.
+- 2.4GHz: Longer range, slower speeds, crowded spectrum. Use only for IoT devices.
+- 5GHz: The sweet spot for video calls. Less congestion, lower latency.
 - **6GHz** (WiFi 6E/WiFi 7): Unlicensed spectrum with minimal interference. Ideal for demanding applications.
 
 When evaluating systems, prioritize those with dedicated 5GHz or 6GHz backhaul capabilities.
@@ -151,10 +151,10 @@ For homes over 2,500 square feet or multiple floors:
 
 Mesh WiFi requires ongoing attention:
 
-- **Firmware updates**: Mesh systems improve through software updates. Enable automatic updates or check monthly.
-- **Periodic channel changes**: Re-scan for congestion quarterly and adjust as needed.
-- **Node health monitoring**: Most apps provide connection quality metrics. Review these when call quality degrades.
-- **Reboot schedules**: Monthly reboots clear memory leaks and restore optimal performance.
+- Firmware updates: Mesh systems improve through software updates. Enable automatic updates or check monthly.
+- Periodic channel changes: Re-scan for congestion quarterly and adjust as needed.
+- Node health monitoring: Most apps provide connection quality metrics. Review these when call quality degrades.
+- Reboot schedules: Monthly reboots clear memory leaks and restore optimal performance.
 
 For developers and power users, prioritize systems with wired backhaul options, strong QoS controls, and WiFi 6 support. Place nodes thoughtfully, optimize your channel selection, and hardwire critical devices when possible.
 

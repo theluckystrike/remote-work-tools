@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Redesign Open Plan Office for Hybrid Work: Adding."
+title: "Calculate pod count based on floor space and team size"
 description: "Learn how to redesign open plan offices for hybrid work by adding focus pods. Includes space planning, acoustic treatment, booking systems, and code."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -158,13 +157,13 @@ The combination of focus pods plus ambient acoustic treatment creates a space wh
 
 Redesigning an open plan office requires tracking whether the changes achieve their intended goals. Key metrics include:
 
-**Pod utilization rate**: Aim for 60-80% average utilization. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
+Pod utilization rate: Aim for 60-80% average utilization. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
 
-**Employee satisfaction scores**: Survey team members quarterly on their ability to concentrate at the office. Compare scores before and after pod installation.
+Employee satisfaction scores: Survey team members quarterly on their ability to concentrate at the office. Compare scores before and after pod installation.
 
-**Meeting room conversion**: If you're converting traditional meeting rooms to focus pods, track whether meeting frequency decreases while individual productivity increases.
+Meeting room conversion: If you're converting traditional meeting rooms to focus pods, track whether meeting frequency decreases while individual productivity increases.
 
-**Hybrid attendance correlation**: The ultimate test—do employees come to the office more when focus pods are available? This indicates the pods provide genuine value versus desk space.
+Hybrid attendance correlation: The ultimate test—do employees come to the office more when focus pods are available? This indicates the pods provide genuine value versus desk space.
 
 ## Implementation Checklist
 
@@ -184,6 +183,10 @@ Focus pods represent infrastructure investment that signals your organization va
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

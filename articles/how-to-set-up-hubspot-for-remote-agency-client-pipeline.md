@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -156,16 +155,13 @@ Require stage change notes — when moving a deal forward, mandate a brief note 
 
 Review stale deals monthly — build a workflow that flags deals unchanged for 14+ days. Remote agencies cannot rely on hallway conversations to surface neglected relationships.
 
-## Summary
-
-Setting up HubSpot for a remote agency client pipeline requires rethinking default configurations to accommodate asynchronous work patterns. Build pipeline stages that reflect how deals actually progress in a distributed environment, add custom properties for timezone and communication preferences, and use automation to keep your remote team informed without creating extra busywork.
-
-The goal is a system where your team can understand deal status without real-time communication, enabling true remote collaboration while maintaining the personal touch that agency relationships require.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

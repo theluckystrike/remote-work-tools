@@ -25,9 +25,9 @@ The key insight for remote workers is that your USD income should stay in USD as
 
 The optimal setup involves maintaining accounts in both currencies:
 
-1. **US-based USD account**: Keep your income here (Wise, Payoneer, or US bank account)
-2. **Thai bank account**: For local expenses and withdrawals
-3. **Intermediary service**: For large conversions when rates are favorable
+1. US-based USD account: Keep your income here (Wise, Payoneer, or US bank account)
+2. Thai bank account: For local expenses and withdrawals
+3. Intermediary service: For large conversions when rates are favorable
 
 ### Step 1: Maintain Your USD Base
 

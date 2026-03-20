@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Set Up ClickUp Client Portal for Remote Project."
+title: "Example: Add a client to a specific project list"
 description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for."
 date: 2026-03-16
 author: theluckystrike
@@ -67,10 +67,10 @@ Create a dedicated space structure that separates client-visible content from in
 ```
 Client Projects/
 ├── Acme Corp Website/
-│   ├── 01_Project_Plan (Client View)
-│   ├── 02_Milestones (Client View)
-│   ├── 03_Deliverables (Client View)
-│   └── Internal_Discussions (Team Only)
+│ ├── 01_Project_Plan (Client View)
+│ ├── 02_Milestones (Client View)
+│ ├── 03_Deliverables (Client View)
+│ └── Internal_Discussions (Team Only)
 ```
 
 The key principle: curate spaces explicitly for clients rather than exposing your entire workspace. Clients should see milestones, deliverables, and status—not sprint planning, bug backlogs, or internal code review discussions.
@@ -92,7 +92,7 @@ const createClientView = async (listId) => {
       "name": "Client Progress View",
       "filters": {
         "status": ["Not Started", "In Progress", "Complete"],
-        "assignees": []  // Show all tasks
+        "assignees": [] // Show all tasks
       },
       "filter_version": 2,
       "show_subtasks": true,
@@ -232,5 +232,10 @@ The client portal setup is not a one-time configuration—treat it as part of yo
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

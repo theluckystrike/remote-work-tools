@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle School Snow Day When Both Parents Work."
+title: "How to Handle School Snow Day When Both Parents Work Remotely"
 description: "A practical guide for remote working parents managing unexpected school closures due to snow days. Strategies for maintaining productivity while caring."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -186,6 +186,10 @@ If your region experiences 5-10 snow days annually, planning for this reduction 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Remote Work Special Needs Child Accommodation Guide for.](/remote-work-tools/remote-work-special-needs-child-accommodation-guide-for-parents/)
+- [Best After School Activity Scheduling App for Remote.](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

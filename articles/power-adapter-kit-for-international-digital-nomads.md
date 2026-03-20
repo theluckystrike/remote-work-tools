@@ -36,10 +36,10 @@ Most modern laptop chargers, phone bricks, and USB-C power delivery adapters are
 
 Beyond voltage, plug shapes vary. The international standard system (IEC 60083) recognizes roughly 15 common plug types, but in practice, you'll encounter three or four main families:
 
-- **Type A/B**: US/Japan (two or three flat prongs)
-- **Type C/E/F**: Europe (two round prongs, sometimes with grounding)
-- **Type G**: UK/Ireland (three rectangular prongs)
-- **Type I**: Australia/China/New Zealand (two or three angled prongs)
+- Type A/B: US/Japan (two or three flat prongs)
+- Type C/E/F: Europe (two round prongs, sometimes with grounding)
+- Type G: UK/Ireland (three rectangular prongs)
+- Type I: Australia/China/New Zealand (two or three angled prongs)
 
 A quality travel adapter set covers these. Avoid the $5 adapter sets from airport kiosks—they're often poorly constructed and lack fuse protection. Spend $20-40 on a reputable brand like Universal Voyagers, Ceptics, or Brennenstuhl. Look for:
 
@@ -81,13 +81,13 @@ Backup/Long Stay:
 
 Certain countries require specific attention:
 
-**Japan**: 100V works with most universal chargers, but the frequency differs (50Hz in Eastern Japan, 60Hz in Western). This matters for equipment with motors or precise timing.
+Japan: 100V works with most universal chargers, but the frequency differs (50Hz in Eastern Japan, 60Hz in Western). This matters for equipment with motors or precise timing.
 
-**UK and Hong Kong**: Type G sockets have shutter mechanisms. Cheap adapters often fail to engage properly. Test your adapter before relying on it.
+UK and Hong Kong: Type G sockets have shutter mechanisms. Cheap adapters often fail to engage properly. Test your adapter before relying on it.
 
-**Southeast Asia**: Voltage fluctuates. Hotels in Bali or Bangkok may deliver inconsistent power. A surge protector with auto-shutoff protects your gear.
+Southeast Asia: Voltage fluctuates. Hotels in Bali or Bangkok may deliver inconsistent power. A surge protector with auto-shutoff protects your gear.
 
-**South America**: Mixed voltages. Argentina uses 220V but some older buildings have 110V. Verify before plugging in.
+South America: Mixed voltages. Argentina uses 220V but some older buildings have 110V. Verify before plugging in.
 
 A voltage tester (like the Klein Tools MM400 multimeter, $50) pays for itself after one fried device.
 
@@ -120,10 +120,10 @@ This matters when planning work sessions in locations with limited outlets.
 
 Skip these common mistakes:
 
-- **Voltage converters for modern devices**: Unnecessary if your charger says 100-240V.
-- **Multiple identical adapters**: One quality multi-region adapter plus specific regional spares suffices.
-- **Daisy-chaining adapters**: Creates fire risk. Use a power strip instead.
-- **Cheap cables**: Off-brand USB-C cables may not support full power delivery and can damage devices.
+- Voltage converters for modern devices: Unnecessary if your charger says 100-240V.
+- Multiple identical adapters: One quality multi-region adapter plus specific regional spares suffices.
+- Daisy-chaining adapters: Creates fire risk. Use a power strip instead.
+- Cheap cables: Off-brand USB-C cables may not support full power delivery and can damage devices.
 
 ## Maintenance and Replacement
 
@@ -136,14 +136,13 @@ Your kit degrades over time. Check these quarterly:
 
 Carry two replacement fuses in your kit. Most quality travel adapters include spares.
 
-## Summary
-
-A solid power adapter kit for international digital nomads costs $80-150 upfront but prevents hundreds in device replacement and lost productivity. Focus on universal-input chargers, quality multi-region adapters with fuses, high-capacity USB-C PD power banks, and a compact power strip. Test everything before departure, verify voltage compatibility for each destination, and carry a multimeter for peace of mind.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
+- [Best eSIM Data Plans for Digital Nomads Working Across.](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

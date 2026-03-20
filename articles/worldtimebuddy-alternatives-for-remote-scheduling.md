@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "WorldTimeBuddy Alternatives for Remote Scheduling: A."
+title: "WorldTimeBuddy Alternatives for Remote Scheduling"
 description: "Discover powerful WorldTimeBuddy alternatives for remote scheduling. Compare API-driven tools, automation options, and developer-focused solutions for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

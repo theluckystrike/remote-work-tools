@@ -132,13 +132,13 @@ Skip books that are too basic or too focused on tools—the discussion should ma
 
 Avoid generic party games. Instead, choose activities that appeal to technical minds:
 
-**Code golf competitions**: Who can solve a simple problem in the fewest characters. Great for quick 15-minute breaks.
+Code golf competitions: Who can solve a simple problem in the fewest characters. Great for quick 15-minute breaks.
 
-**Regex challenges**: Given a string, write a regex to extract specific patterns. Competitive and educational.
+Regex challenges: Given a string, write a regex to extract specific patterns. Competitive and educational.
 
-**Architecture reviews of bad software**: Watch videos of notoriously bad code or UI decisions and discuss what went wrong.
+Architecture reviews of bad software: Watch videos of notoriously bad code or UI decisions and discuss what went wrong.
 
-**Terminal games**: Compete on command-line games like nethack, vi clones, or custom CLI challenges your team creates.
+Terminal games: Compete on command-line games like nethack, vi clones, or custom CLI challenges your team creates.
 
 Set up a simple leaderboard:
 
@@ -173,6 +173,10 @@ Start with one activity that fits your team size and culture. Try it for a month
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Virtual Team Building Activities That Developers Actually Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
+- [Best Virtual Icebreaker Tool for Remote Team Meetings.](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
+- [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

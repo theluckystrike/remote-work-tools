@@ -25,7 +25,7 @@ Every remote team's onboarding documentation should address four fundamental are
 
 ### Access and Accounts Checklist
 
-Create a comprehensive checklist of every account and system access a new developer needs. This typically includes:
+Create a checklist of every account and system access a new developer needs. This typically includes:
 
 - Email and calendar access
 - Communication platforms (Slack, Teams, Discord)
@@ -235,13 +235,16 @@ Choose tools that integrate with your existing workflow and support the collabor
 
 ---
 
-Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating comprehensive, well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
+Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating , well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
 
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Career Ladder Documentation for Growing Engineering Organization 2026](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

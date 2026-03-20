@@ -34,7 +34,7 @@ Before diving into specific tools, identify the capabilities that matter most fo
 
 ## Stripe: Developer-First Payment Infrastructure
 
-Stripe dominates the developer-first payment space. While it's primarily a payment processor rather than a full invoicing solution, Stripe Invoicing provides robust functionality for agencies with technical resources.
+Stripe dominates the developer-first payment space. While it's primarily a payment processor rather than a full invoicing solution, Stripe Invoicing provides functionality for agencies with technical resources.
 
 Set up Stripe Invoicing via the API:
 
@@ -152,7 +152,7 @@ Pricing: $40/month for the core plan, $60/month for professional features.
 
 ## Chargebee: Subscription Management for Retainer Models
 
-Remote agencies often work on retainer arrangements. Chargebee provides robust subscription management with invoicing capabilities, making it ideal for agencies with recurring revenue.
+Remote agencies often work on retainer arrangements. Chargebee provides subscription management with invoicing capabilities, making it ideal for agencies with recurring revenue.
 
 Configure a retainer subscription:
 

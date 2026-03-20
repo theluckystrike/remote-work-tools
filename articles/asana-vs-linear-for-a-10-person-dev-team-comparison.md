@@ -120,15 +120,15 @@ Asana offers a REST API with more endpoints but requires more setup for complex 
 
 Asana's pricing tiers:
 
-- **Basic**: Free for unlimited users
-- **Advanced**: $24.99/user/month (includes custom fields, automation)
-- **Enterprise**: Contact sales (includes SSO, advanced security)
+- Basic: Free for unlimited users
+- Advanced: $24.99/user/month (includes custom fields, automation)
+- Enterprise: Contact sales (includes SSO, advanced security)
 
 Linear's pricing:
 
-- **Free**: Up to 250 issues
-- **Standard**: $8/user/month (includes cycles, priorities)
-- **Plus**: $17/user/month (includes team highlights, SLA)
+- Free: Up to 250 issues
+- Standard: $8/user/month (includes cycles, priorities)
+- Plus: $17/user/month (includes team highlights, SLA)
 
 For a 10-person team on paid plans, Asana runs approximately $250/month at the Advanced tier, while Linear's Standard plan costs $80/month. If you need advanced automation and custom portfolios, Asana justifies the premium. If your team just needs fast issue tracking with cycles, Linear offers better value.
 
@@ -192,6 +192,10 @@ Try both with a small pilot: create five real issues in each tool, integrate wit
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

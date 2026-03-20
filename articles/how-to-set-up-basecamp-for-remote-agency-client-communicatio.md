@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Basecamp for Remote Agency Client."
+title: "How to Set Up Basecamp for Remote Agency Client Communication"
 description: "A practical guide to configuring Basecamp for seamless client communication in remote agencies. Set up projects, automate updates, and streamline feedback."
 date: 2026-03-16
 author: theluckystrike
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 {% raw %}
 
@@ -205,15 +204,15 @@ Once Basecamp is configured, success comes down to consistent habits:
 
 Many agencies set up Basecamp but fail to get client adoption. Watch for these issues:
 
-1. **Too many projects**: Clients can't find information if it's spread across dozens of projects. Consolidate to one project per client relationship.
+1. Too many projects: Clients can't find information if it's spread across dozens of projects. Consolidate to one project per client relationship.
 
-2. **No routine**: Without scheduled check-ins, Basecamp becomes another place clients ignore. Commit to the cadence.
+2. No routine: Without scheduled check-ins, Basecamp becomes another place clients ignore. Commit to the cadence.
 
-3. **Internal noise**: Don't share internal team discussions with clients. Use the permission settings to keep those private.
+3. Internal noise: Don't share internal team discussions with clients. Use the permission settings to keep those private.
 
-4. **Attachments in email**: Train clients to check Basecamp for files. Email attachments create duplicate work.
+4. Attachments in email: Train clients to check Basecamp for files. Email attachments create duplicate work.
 
-5. **Outdated to-dos**: Review and clean up to-dos weekly. Stale items reduce trust.
+5. Outdated to-dos: Review and clean up to-dos weekly. Stale items reduce trust.
 
 ## Measuring Success
 
@@ -232,6 +231,10 @@ If clients still rely on email for primary communication, that's a sign the Base
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
+- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

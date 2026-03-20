@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Employee Recognition Program Ideas for."
+title: "Simple Slack kudos automation using Slack API"
 description: "Discover practical, low-cost employee recognition programs designed for remote and distributed teams. Includes implementation tips and code tools for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -185,6 +185,10 @@ Recognition frequency matters more than grandeur. Small, regular acknowledgments
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Employee Belonging and Inclusion Program Ideas.](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Remote Employee Probation Period Management Tools and.](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
+- [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

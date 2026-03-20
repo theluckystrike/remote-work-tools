@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build Psychological Safety on Fully Remote."
+title: "How to Build Psychological Safety on Fully Remote Engineering Teams"
 description: "Practical strategies for building psychological safety in fully remote engineering teams. Learn communication patterns, feedback systems, and cultural."
 date: 2026-03-16
 author: theluckystrike
@@ -24,7 +24,7 @@ This guide provides concrete patterns for building psychological safety in fully
 
 In physical offices, psychological safety builds through informal interactions—grabbing coffee, chatting at the whiteboard, noticing when a colleague seems stressed. Remote work removes these signals. Text-based communication strips tone, timing creates gaps that feel like silence, and async workflows can make feedback feel like judgment rather than guidance.
 
-For engineering teams, the stakes are high. Code reviews, incident responses, and technical debates are inherently vulnerable activities. A developer who fears looking incompetent will not ask the clarifying question that prevents a production outage. A junior engineer who fears criticism will not flag a architectural concern that could save weeks of refactoring work.
+For engineering teams, the stakes are high. Code reviews, incident responses, and technical debates are inherently vulnerable activities. A developer who fears looking incompetent will not ask the clarifying question that prevents a production outage. A junior engineer who fears criticism will not flag an architectural concern that could save weeks of refactoring work.
 
 Building psychological safety remotely requires making the invisible visible and the implicit explicit.
 
@@ -147,11 +147,11 @@ These norms prevent the anxiety of uncertain response times and make it safe to 
 
 While psychological safety is inherently qualitative, you can track proxy indicators:
 
-- **Question frequency in public channels**: Are team members asking questions publicly, or only in DMs?
-- **Incident reporting speed**: How quickly do people report problems they discover?
-- **RFC participation**: Do junior engineers comment on design proposals?
-- **Meeting speaking patterns**: Do the same few people dominate discussions?
-- **Attribute sharing**: Do team members share personal context about their work style, preferences, or challenges?
+- Question frequency in public channels: Are team members asking questions publicly, or only in DMs?
+- Incident reporting speed: How quickly do people report problems they discover?
+- RFC participation: Do junior engineers comment on design proposals?
+- Meeting speaking patterns: Do the same few people dominate discussions?
+- Attribute sharing: Do team members share personal context about their work style, preferences, or challenges?
 
 Survey your team quarterly using questions like "I feel safe admitting when I don't know something" or "I feel comfortable challenging ideas without fear of retaliation." Track changes over time and investigate when patterns shift negatively.
 
@@ -165,6 +165,10 @@ Start with one pattern this week. Ask a question you already know the answer to.
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -128,7 +128,7 @@ Jira suits teams that need granular permission control, complex approval chains,
 
 ## Asana: Multi-View Project Management
 
-Asana started as a simple task manager and evolved into comprehensive project management. The board view is just one lens—list view, timeline, and calendar views provide alternative perspectives on the same work.
+Asana started as a simple task manager and evolved into project management. The board view is just one lens—list view, timeline, and calendar views provide alternative perspectives on the same work.
 
 For developers, custom fields enable tracking technical details:
 

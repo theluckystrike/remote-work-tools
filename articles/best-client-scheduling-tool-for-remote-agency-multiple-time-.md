@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Client Scheduling Tool for Remote Agency Working."
+title: "Example: Create a booking via API"
 description: "Discover the top client scheduling tools designed for remote agencies managing teams and clients across different time zones. Compare features."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -178,5 +178,10 @@ The right scheduling tool eliminates friction in multi-time zone coordination, l
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
+- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

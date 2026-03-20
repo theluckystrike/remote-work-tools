@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Design Mother and Parent Room for Hybrid Office."
+title: "Pin configuration"
 description: "A practical guide for developers and power users on designing dedicated mother and parent rooms in hybrid offices. Includes space planning, technology."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -29,9 +29,9 @@ The design choices you make affect adoption rates. A poorly designed room gets i
 
 The smallest functional parent room needs about 50 square feet for a single-occupancy layout. However, if your office has multiple nursing parents, plan for 80-100 square feet per station. Consider these dimensions:
 
-- **Single-user room**: Minimum 5' x 10' (50 sq ft)
-- **Multi-user room**: 10' x 12' to 12' x 15' (120-180 sq ft) for 2-3 stations
-- **Family emergency room**: 10' x 10' for quick calls or calming a child
+- Single-user room: Minimum 5' x 10' (50 sq ft)
+- Multi-user room: 10' x 12' to 12' x 15' (120-180 sq ft) for 2-3 stations
+- Family emergency room: 10' x 10' for quick calls or calming a child
 
 ### Location and Accessibility
 
@@ -146,17 +146,17 @@ automation:
 
 The chair is the most important purchase. Avoid standard office chairs—they're not designed for extended nursing sessions. Options include:
 
-- **Glider rockers**: $200-400, smooth gliding motion helps soothe babies
-- **Nursing chairs with ottomans**: $150-300, compact and supportive
-- **Ergonomic task chairs**: $300-600, if the room serves as a workspace too
+- Glider rockers: $200-400, smooth gliding motion helps soothe babies
+- Nursing chairs with ottomans: $150-300, compact and supportive
+- Ergonomic task chairs: $300-600, if the room serves as a workspace too
 
 ### Other Must-Have Items
 
-- **Compact refrigerator**: 4-6 cubic feet, dedicated to the room (not a shared kitchen fridge)
-- **Microwave**: For warming bottles or food
-- **Sink with counter**: For washing pump parts
-- **Storage**: Locking cabinets for personal pump equipment
-- **Whiteboard or bulletin board**: For community notes and local resources
+- Compact refrigerator: 4-6 cubic feet, dedicated to the room (not a shared kitchen fridge)
+- Microwave: For warming bottles or food
+- Sink with counter: For washing pump parts
+- Storage: Locking cabinets for personal pump equipment
+- Whiteboard or bulletin board: For community notes and local resources
 
 ## Privacy and Security Considerations
 
@@ -199,9 +199,9 @@ If using a booking system, store minimal personal data. Don't track who books fo
 
 Parent rooms need more frequent cleaning than standard offices:
 
-- **Daily**: Wipe surfaces, empty trash, restock supplies
-- **Weekly**: Deep clean refrigerator, sanitize pump stations
-- **Monthly**: HVAC filter replacement, deep clean floors
+- Daily: Wipe surfaces, empty trash, restock supplies
+- Weekly: Deep clean refrigerator, sanitize pump stations
+- Monthly: HVAC filter replacement, deep clean floors
 
 ### Supply Management
 
@@ -226,25 +226,20 @@ app.post('/api/supplies/low', async (req, res) => {
 
 Track these metrics to improve the parent room experience:
 
-- **Booking frequency**: How often is the room used?
-- **Average duration**: Are 30-minute slots sufficient?
-- **Feedback scores**: Simple 1-5 rating after each booking
-- **Maintenance requests**: Track issues by category
+- Booking frequency: How often is the room used?
+- Average duration: Are 30-minute slots sufficient?
+- Feedback scores: Simple 1-5 rating after each booking
+- Maintenance requests: Track issues by category
 
-A well-utilized parent room often sees 3-5 bookings daily in offices with 50+ employees. If usage is lower, survey employees to understand barriers.
-
-## Summary
-
-Designing an effective mother and parent room for hybrid offices requires attention to location, privacy, comfort, and technology. Start with 50-80 square feet per user, prioritize a quality glider chair, implement smart access control, and add a booking system for multi-user rooms. Maintain the space with frequent cleaning and automated supply alerts.
-
-The investment signals organizational commitment to working parents and directly impacts retention. A well-designed parent room costs $3,000-8,000 to equip initially but pays dividends through reduced turnover and improved employee satisfaction.
-
----
-
+A well-used parent room often sees 3-5 bookings daily in offices with 50+ employees. If usage is lower, survey employees to understand barriers.
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices.](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

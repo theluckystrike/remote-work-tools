@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best White Noise Machine for Home Office Blocking."
+title: "Pink noise filter approximation"
 description: "Technical guide to blocking toddler noise during remote work. Compare hardware solutions, build custom white noise generators with code, and optimize."
 date: 2026-03-16
 author: theluckystrike
@@ -28,9 +28,9 @@ The key insight for developers: treat sound management as a system design proble
 
 Physical white noise machines generate consistent audio that masks intermittent sounds. Look for devices offering multiple sound profiles—white noise, pink noise, and brown noise each behave differently:
 
-- **White noise**: Equal energy across all frequencies. Effective but can feel harsh
-- **Pink noise**: Weighted toward lower frequencies. More natural-sounding, better for extended use
-- **Brown noise**: Dominated by low frequencies. Excellent for masking speech patterns
+- White noise: Equal energy across all frequencies. Effective but can feel harsh
+- Pink noise: Weighted toward lower frequencies. More natural-sounding, better for extended use
+- Brown noise: Dominated by low frequencies. Excellent for masking speech patterns
 
 Place the machine 3-5 feet from your workspace, ideally behind you, to create a sound barrier between you and the noise source.
 
@@ -137,9 +137,9 @@ This pattern extends to any communication tool with status indicators. When you'
 
 Position your noise sources strategically. A white noise machine placed between your office door and the child's play area creates the most effective barrier. Combine this with:
 
-1. **Door weatherstripping**: Prevents sound leakage under doors
-2. **Heavy curtains**: Windows transmit significant noise
-3. **Bookshelf barrier**: Filled bookshelves absorb more sound than empty walls
+1. Door weatherstripping: Prevents sound leakage under doors
+2. Heavy curtains: Windows transmit significant noise
+3. Bookshelf barrier: Filled bookshelves absorb more sound than empty walls
 
 For the ultimate setup, consider a calibrated USB microphone near your desk that monitors ambient levels and automatically adjusts white noise volume:
 
@@ -188,6 +188,10 @@ Whatever approach you choose, test it during your highest-noise times before imp
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
+- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

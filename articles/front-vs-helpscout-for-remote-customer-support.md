@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Front vs HelpScout for Remote Customer Support: A."
+title: "Front vs HelpScout for Remote Customer Support: A Practical Guide"
 description: "A detailed comparison of Front vs HelpScout for remote customer support teams. Learn the key differences, API capabilities, integration options, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -164,7 +164,7 @@ Best regards,
 {{agent.name}}
 ```
 
-Customer profiles aggregate interaction history across all channels, providing a unified view for support agents.
+Customer profiles aggregate interaction history across all channels, providing an unified view for support agents.
 
 ## Pricing Considerations
 

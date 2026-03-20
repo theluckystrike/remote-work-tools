@@ -85,9 +85,9 @@ obs --startrecording --scene "Presentation" --filter "color correction: brightne
 
 Mute when not speaking. This seems obvious, but many meetings suffer from background noise, keyboard typing, or echo from unmuted participants. Most platforms show clear mute indicators—use them:
 
-- **Zoom**: ⌘+D (Mac) or Alt+M (Windows)
-- **Google Meet**: ⌘+D (Mac) or Ctrl+D (Windows)
-- **Microsoft Teams**: ⌘+Shift+M (Mac) or Ctrl+Shift+M (Windows)
+- Zoom: ⌘+D (Mac) or Alt+M (Windows)
+- Google Meet: ⌘+D (Mac) or Ctrl+D (Windows)
+- Microsoft Teams: ⌘+Shift+M (Mac) or Ctrl+Shift+M (Windows)
 
 When speaking, slightly lean toward your microphone for clarity. If using a headset with a boom microphone, position it two finger-widths from your mouth.
 
@@ -231,13 +231,6 @@ Meeting etiquette extends beyond the call itself:
 - Update action items in your project management tool immediately
 - Share relevant recordings with timestamps for absent team members
 - Clean up shared resources—close shared documents, end shared cursor sessions
-
-## Conclusion
-
-Small scripts that handle setup, reminders, and follow-ups compound over time, saving hours each week while improving meeting quality.
-
----
-
 
 ## Related Reading
 

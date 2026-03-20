@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Conference Room Speaker Mic for Hybrid Meetings."
+title: "Example: Calculating appropriate microphone gain"
 description: "A technical comparison of conference room speaker microphone systems optimized for hybrid meetings with 10 in-room participants. Covers audio quality."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -154,10 +154,10 @@ For most 10-person hybrid meeting rooms, a quality USB speakerphone like the Jab
 
 The key factors in your decision should be:
 
-1. **Meeting frequency**: Daily use justifies better equipment
-2. **Remote participant importance**: If external clients frequently join, invest in better audio
-3. **Room acoustics**: Untreated rooms need better microphone directionality
-4. **Integration requirements**: Some teams need Dante or other network audio protocols
+1. Meeting frequency: Daily use justifies better equipment
+2. Remote participant importance: If external clients frequently join, invest in better audio
+3. Room acoustics: Untreated rooms need better microphone directionality
+4. Integration requirements: Some teams need Dante or other network audio protocols
 
 Test any candidate system in your actual room before full deployment. Acoustic environments vary dramatically, and a system that works well in one space may struggle in another.
 
@@ -167,6 +167,10 @@ Test any candidate system in your actual room before full deployment. Acoustic e
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices.](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

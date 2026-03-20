@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up OKR Tracking System for Distributed."
+title: "Example Linear API query for OKR progress"
 description: "A practical guide to implementing OKR tracking for remote and distributed engineering teams. Includes code examples, tool comparisons, and."
 date: 2026-03-16
 author: theluckystrike
@@ -203,9 +203,9 @@ This automation captures engineering output without requiring engineers to manua
 
 Track these metrics to know if your OKR system is working:
 
-- **Update compliance rate**: What percentage of key results receive weekly updates? Target: 80%+
-- **Goal achievement rate**: What percentage of key results reach their target? Target: 60-70% (100% means you're sandbagging)
-- **Time spent on tracking**: How many hours per week does the team spend on OKR-related activities? Target: <30 minutes total
+- Update compliance rate: What percentage of key results receive weekly updates? Target: 80%+
+- Goal achievement rate: What percentage of key results reach their target? Target: 60-70% (100% means you're sandbagging)
+- Time spent on tracking: How many hours per week does the team spend on OKR-related activities? Target: <30 minutes total
 
 If your teams are spending hours weekly on OKR administration, your system needs simplification rather than more features.
 
@@ -217,7 +217,10 @@ Start with the simplest tracking that provides adequate visibility, then add aut
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [Best Tool for Tracking Remote Team Goals and Key Results.](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

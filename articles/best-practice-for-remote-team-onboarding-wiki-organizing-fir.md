@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Onboarding Wiki."
+title: "Best Practice for Remote Team Onboarding Wiki: Organizing First Week Tasks by Role"
 description: "A practical guide to building an effective remote team onboarding wiki. Learn how to structure first week tasks by role, with examples and code."
 date: 2026-03-16
 author: theluckystrike
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -220,6 +219,10 @@ This approach transforms onboarding from a chaotic introduction into a structure
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Best Practice for Remote Team Slack Do Not Disturb.](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

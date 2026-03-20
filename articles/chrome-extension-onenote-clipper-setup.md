@@ -64,9 +64,9 @@ Click the gear icon within the OneNote Web Clipper interface to access configura
 
 By default, all clips go to your default notebook's first section. Configure section-specific behavior:
 
-- **Automatic Section Selection**: The extension attempts to detect appropriate sections based on content
-- **Manual Section Override**: Always clip to a specific section regardless of content
-- **Create New Sections**: Allow the extension to create sections based on domain names or categories
+- Automatic Section Selection: The extension attempts to detect appropriate sections based on content
+- Manual Section Override: Always clip to a specific section regardless of content
+- Create New Sections: Allow the extension to create sections based on domain names or categories
 
 ### Clip Formatting Options
 
@@ -127,9 +127,9 @@ This becomes useful if you're building a personal knowledge management system th
 
 The extension supports keyboard shortcuts for rapid clipping without leaving your keyboard:
 
-- **Ctrl+Shift+M**: Open clipper with current page pre-loaded
-- **Ctrl+Shift+L**: Clip current selection immediately
-- **Ctrl+Shift+B**: Save as bookmark only
+- Ctrl+Shift+M: Open clipper with current page pre-loaded
+- Ctrl+Shift+L: Clip current selection immediately
+- Ctrl+Shift+B: Save as bookmark only
 
 Memorizing these shortcuts transforms clipping from a multi-click process into a sub-second operation—essential when researching across dozens of pages.
 
@@ -163,7 +163,7 @@ With setup complete, consider these workflow optimizations:
 
 Train yourself to clip有价值 content immediately:
 1. Find useful content → Ctrl+Shift+L
-2. Add a one-word tag if needed → Enter
+2. Add an one-word tag if needed → Enter
 3. Continue browsing
 
 This prevents the "I'll save it later" accumulation that leads to unread clip backlogs.
@@ -186,23 +186,17 @@ The web clipper works smoothly with OneNote's desktop application. Install the W
 
 The OneNote Web Clipper excels at its core function but has boundaries:
 
-- **Dynamic content**: Single-page applications and heavily JavaScript-driven sites may not clip correctly
-- **Authentication-gated content**: Pages behind login won't be accessible to the extension
-- **Large media**: High-resolution images or embedded videos increase storage quickly
-- **Offline clipping**: You need an internet connection to save clips
+- Dynamic content: Single-page applications and heavily JavaScript-driven sites may not clip correctly
+- Authentication-gated content: Pages behind login won't be accessible to the extension
+- Large media: High-resolution images or embedded videos increase storage quickly
+- Offline clipping: You need an internet connection to save clips
 
 For edge cases, consider capturing content as PDF through Chrome's built-in print function, then attach the PDF to OneNote manually.
-
-## Conclusion
-
-The OneNote Web Clipper, properly configured, becomes an essential part of your personal knowledge infrastructure. Take time to establish good notebook structures, configure default behaviors for your workflow, and practice keyboard-driven clipping. The initial setup investment pays dividends in organized research and accessible documentation.
-
-Start with the basics—install, authenticate, clip a few articles—and iterate from there. Your optimal configuration will emerge naturally as you identify pain points in your workflow.
-
-{% endraw %}
 
 ## Related Reading
 
 - [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developers/)
 - [Building a Zettelkasten for Software Engineering](/remote-work/building-a-zettelkasten-for-software-engineering/)
 - [Obsidian vs Notion for Personal Knowledge Management](/remote-work/obsidian-vs-notion-for-personal-knowledge-management/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

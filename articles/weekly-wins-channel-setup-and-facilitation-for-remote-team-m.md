@@ -2,7 +2,7 @@
 
 
 layout: default
-title: "Weekly Wins Channel Setup and Facilitation for Remote."
+title: "Weekly Wins Channel Setup and Facilitation for Remote Team Morale"
 description: "A practical guide to setting up and running a weekly wins channel that boosts morale in remote teams. Includes Slack configuration, automation tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -13,7 +13,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 
@@ -83,7 +82,7 @@ For teams using Discord, the setup follows similar principles:
 3. Create a forum channel instead for threaded discussions on individual wins
 4. Set up a recurring reminder using Discord's built-in scheduled messages
 
-## Facilitating Participation
+## helping Participation
 
 A channel only works if people use it. Facilitation makes the difference between a ghost town and a thriving community.
 
@@ -236,6 +235,10 @@ The best weekly wins channels become a team ritual that people genuinely look fo
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Announcement Channel.](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team.](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

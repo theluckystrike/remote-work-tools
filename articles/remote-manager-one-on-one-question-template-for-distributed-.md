@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Manager One on One Question Template for."
+title: "Remote Manager One on One Question Template for Distributed Team Check Ins"
 description: "A practical question template and framework for running effective one-on-one meetings with remote distributed teams. Includes async options and."
 date: 2026-03-16
 author: theluckystrike
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -33,10 +32,10 @@ Effective remote one-on-ones need to surface context that would normally happen 
 
 This template uses the BASE framework: **Blockers, Accomplishments, Support needs, Energy and wellbeing**. Each category serves a distinct purpose:
 
-- **Blockers**: Identify obstacles preventing progress
-- **Accomplishments**: Acknowledge progress (not just task completion)
-- **Support needs**: Surface where help would accelerate work
-- **Energy and wellbeing**: Check for burnout signals and motivation levels
+- Blockers: Identify obstacles preventing progress
+- Accomplishments: Acknowledge progress (not just task completion)
+- Support needs: Surface where help would accelerate work
+- Energy and wellbeing: Check for burnout signals and motivation levels
 
 ### Weekly Check-In Question Template
 
@@ -197,6 +196,10 @@ Start with the BASE framework, gather feedback from your team on what's helpful,
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+- [Remote Team One on One Meeting Template for Engineering.](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

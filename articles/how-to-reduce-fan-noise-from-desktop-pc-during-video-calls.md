@@ -26,10 +26,10 @@ Modern video conferencing applications like Zoom, Google Meet, and Microsoft Tea
 
 The culprits are predictable:
 
-- **Video encoding**: Whether using hardware acceleration or software encoding, your CPU/GPU works to compress your camera feed
-- **Browser overhead**: Running Chrome or Firefox with multiple tabs while on a call adds background processes
-- **Background applications**: IDEs, terminal emulators, Docker containers, and CI/CD pipelines all generate heat
-- **Thermal throttling**: When components get hot, they slow down—but your fans spin up to prevent that
+- Video encoding: Whether using hardware acceleration or software encoding, your CPU/GPU works to compress your camera feed
+- Browser overhead: Running Chrome or Firefox with multiple tabs while on a call adds background processes
+- Background applications: IDEs, terminal emulators, Docker containers, and CI/CD pipelines all generate heat
+- Thermal throttling: When components get hot, they slow down—but your fans spin up to prevent that
 
 Understanding these sources helps you target the right solutions.
 
@@ -59,10 +59,10 @@ Access your BIOS during boot (usually Delete or F2) and look for "Fan Control" o
 
 | Temperature (°C) | Fan Speed (%) |
 |------------------|---------------|
-| 30               | 20            |
-| 50               | 35            |
-| 70               | 60            |
-| 85               | 100           |
+| 30 | 20 |
+| 50 | 35 |
+| 70 | 60 |
+| 85 | 100 |
 
 This keeps fans slow during light work and only ramps up when temperatures actually warrant it.
 
@@ -72,9 +72,9 @@ If your motherboard supports it, manufacturer software like ASUS AI Suite, MSI A
 
 Software video encoding (using your CPU) generates more heat than hardware encoding (using your GPU or dedicated encoder). Most video apps support hardware acceleration—enable it in your settings:
 
-- **Zoom**: Settings → Video → Enable hardware acceleration
-- **Google Meet**: Automatically uses hardware encoding when available
-- **Microsoft Teams**: Settings → Devices → Make sure "Use hardware acceleration for video" is on
+- Zoom: Settings → Video → Enable hardware acceleration
+- Google Meet: Automatically uses hardware encoding when available
+- Microsoft Teams: Settings → Devices → Make sure "Use hardware acceleration for video" is on
 
 This simple change often reduces CPU load by 20-30% during calls.
 
@@ -133,16 +133,16 @@ Sometimes you can't eliminate all fan noise. In those cases, audio processing he
 
 Most video conferencing tools include noise suppression:
 
-- **Zoom**: Settings → Audio → Suppress persistent background noise (set to "Auto" or "Low")
-- **Microsoft Teams**: Settings → Devices → Noise suppression → "Auto"
-- **Google Meet**: Automatically applies noise reduction
+- Zoom: Settings → Audio → Suppress persistent background noise (set to "Auto" or "Low")
+- Microsoft Teams: Settings → Devices → Noise suppression → "Auto"
+- Google Meet: Automatically applies noise reduction
 
 ### Apply System-Level Noise Suppression
 
 For stronger suppression, use system-level tools:
 
-- **Windows**: Krisp (free tier works well) or NVIDIA RTX Voice (if you have a recent GPU)
-- **Linux**: PulseAudio module with noise cancellation, or use `noise-suppression-for-voice` via PipeWire
+- Windows: Krisp (free tier works well) or NVIDIA RTX Voice (if you have a recent GPU)
+- Linux: PulseAudio module with noise cancellation, or use `noise-suppression-for-voice` via PipeWire
 
 These tools apply real-time audio processing to remove fan noise before it reaches your call.
 
@@ -167,6 +167,10 @@ Remember: your setup doesn't need to be silent—your colleagues simply shouldn'
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Prevent Laptop Overheating During Long Video Call.](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
+- [How to Hide Messy Room During Video Calls Without.](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
+- [Best Keyboard for Quiet Typing During Video Calls in.](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

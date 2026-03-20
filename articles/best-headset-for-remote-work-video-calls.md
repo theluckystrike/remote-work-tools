@@ -53,7 +53,7 @@ Wired headsets also avoid the pairing issues that plague Bluetooth devices. If y
 
 ### Wireless Headsets
 
-Wireless provides freedom to pace during calls—a useful option for thinking through complex problems. Modern Bluetooth 5.0+ headsets offer acceptable latency for voice calls:
+Wireless provides freedom to pace during calls—an useful option for thinking through complex problems. Modern Bluetooth 5.0+ headsets offer acceptable latency for voice calls:
 
 - Bluetooth 5.0+: ~40-50ms latency
 - Bluetooth 5.2+ with LE Audio: ~20-30ms latency
@@ -76,7 +76,7 @@ USB-C wired headsets draw power from your laptop. This is generally fine, but be
 
 ### macOS
 
-macOS handles audio device switching reasonably well, but Bluetooth codec selection is limited. macOS defaults to SBC for most Bluetooth devices, though some headsets support AAC. For the best macOS experience, use a USB-C or USB-A wired headset, or invest in a headset with a dedicated USB dongle.
+macOS handles audio device switching reasonably well, but Bluetooth codec selection is limited. macOS defaults to SBC for most Bluetooth devices, though some headsets support AAC. For the best macOS experience, use an USB-C or USB-A wired headset, or invest in a headset with a dedicated USB dongle.
 
 ```bash
 # List audio devices on macOS
@@ -106,9 +106,9 @@ pactl list short sources
 
 Before committing to a headset, test it with these steps:
 
-1. **Record a test message**: Use your video platform's test feature or a simple voice recorder
-2. **Play it back on different devices**: Your headset might sound different to others than it does to you
-3. **Test in realistic conditions**: Background noise, typing, moving around
+1. Record a test message: Use your video platform's test feature or a simple voice recorder
+2. Play it back on different devices: Your headset might sound different to others than it does to you
+3. Test in realistic conditions: Background noise, typing, moving around
 
 ```python
 # Simple audio test script for Linux/macOS

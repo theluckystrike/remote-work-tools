@@ -30,9 +30,9 @@ The cost accumulates quickly: context switching consumes 20-40% of productivity,
 
 Focus time agreements only work when the entire team commits to them. Start by presenting the problem clearly:
 
-1. **Measure current meeting load**: Calculate average meeting hours per week per team member
-2. **Quantify context switching**: Track how often developers report interruption-related delays
-3. **Share the data**: Present findings in your next team sync
+1. Measure current meeting load: Calculate average meeting hours per week per team member
+2. Quantify context switching: Track how often developers report interruption-related delays
+3. Share the data: Present findings in your next team sync
 
 Frame the conversation around outcomes rather than complaints. Instead of "too many meetings," use "we lose approximately 8 hours per week to context switching from ad-hoc calls."
 
@@ -44,9 +44,9 @@ Effective focus time agreements address three dimensions: when, how, and enforce
 
 Choose a time window that works across your time zone spread. Common approaches include:
 
-- **Absolute core hours**: Everyone blocks 10am-2pm their local time for meetings only
-- **Rotating focus blocks**: Different days have different focus priorities
-- **Meeting-free days**: Wednesdays or Fridays become no-meeting zones
+- Absolute core hours: Everyone blocks 10am-2pm their local time for meetings only
+- Rotating focus blocks: Different days have different focus priorities
+- Meeting-free days: Wednesdays or Fridays become no-meeting zones
 
 For a team spanning US and European time zones, a practical setup:
 
@@ -69,9 +69,9 @@ const focusTimePolicy = {
 
 Define how focus time works in practice:
 
-- **Status indicators**: Use Slack status or calendar blocking to signal availability
-- **Response expectations**: How quickly should someone respond during focus time?
-- **Escalation path**: What counts as urgent enough to interrupt?
+- Status indicators: Use Slack status or calendar blocking to signal availability
+- Response expectations: How quickly should someone respond during focus time?
+- Escalation path: What counts as urgent enough to interrupt?
 
 ```yaml
 # Example: .focus-time-rules.yaml
@@ -184,22 +184,22 @@ Place this document in your team wiki or repo and reference it during onboarding
 
 Not everyone will immediately embrace focus time. Common objections and responses:
 
-**"But we need to collaborate!"**  
+**"But we need to collaborate!"** 
 Clarify that focus time protects specific work, not all collaboration. Core hours exist specifically for synchronous work.
 
-**"My calendar is already full."**  
+**"My calendar is already full."** 
 This is exactly the problem focus time solves. Start by declining just one recurring meeting per week.
 
-**"Clients won't accept it."**  
+**"Clients won't accept it."** 
 Most clients prefer working with teams that deliver quality output. Frame focus time as a feature, not a limitation.
 
 ## Measuring Success
 
 Track whether your focus time agreements actually improve productivity:
 
-- **Sprint velocity**: Does it stabilize or improve after implementation?
-- **Code review turnaround**: Do PRs get reviewed faster when developers have protected blocks?
-- **Self-reported focus**: Survey team members on perceived deep work time
+- Sprint velocity: Does it stabilize or improve after implementation?
+- Code review turnaround: Do PRs get reviewed faster when developers have protected blocks?
+- Self-reported focus: Survey team members on perceived deep work time
 
 A simple tracking script:
 
@@ -232,10 +232,10 @@ def weekly_focus_summary(sessions: list[FocusSession]) -> dict:
 
 Focus time agreements require ongoing attention:
 
-1. **Review monthly**: Check if the policy works for everyone
-2. **Adjust for team size**: Smaller teams may need more flexibility
-3. **Onboard new members**: Include focus time in team orientation
-4. **Lead by example**: Senior developers must respect focus boundaries
+1. Review monthly: Check if the policy works for everyone
+2. Adjust for team size: Smaller teams may need more flexibility
+3. Onboard new members: Include focus time in team orientation
+4. Lead by example: Senior developers must respect focus boundaries
 
 The goal isn't rigid enforcement but creating a culture where deep work is valued as much as collaboration. When your team consistently delivers quality code without burnout, you've built something sustainable.
 
@@ -245,6 +245,10 @@ The goal isn't rigid enforcement but creating a culture where deep work is value
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
+- [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
+- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

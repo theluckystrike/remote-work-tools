@@ -30,11 +30,11 @@ Beyond simple history, modern clipboard managers offer features specifically use
 
 When evaluating clipboard managers, prioritize these capabilities:
 
-- **History persistence**: The ability to search and access copies from hours or days ago
-- **Cross-platform support**: Consistent experience across your development machines
-- **Search functionality**: Quick retrieval using keywords or regex patterns
-- **Code snippet support**: Preserving formatting and syntax when copying code
-- **Keyboard-driven workflow**: Minimal mouse interaction for maximum speed
+- History persistence: The ability to search and access copies from hours or days ago
+- Cross-platform support: Consistent experience across your development machines
+- Search functionality: Quick retrieval using keywords or regex patterns
+- Code snippet support: Preserving formatting and syntax when copying code
+- Keyboard-driven workflow: Minimal mouse interaction for maximum speed
 
 ## Top Clipboard Managers for Developers
 

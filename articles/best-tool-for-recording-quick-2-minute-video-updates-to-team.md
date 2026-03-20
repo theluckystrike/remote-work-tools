@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -80,10 +79,10 @@ Configure a scene for quick team updates with this approach:
 
 For 2-minute updates, configure these settings in Settings > Output:
 
-- **Recording Format**: mp4
-- **Video Bitrate**: 2500 kbps (good balance of quality and size)
-- **Audio Bitrate**: 128 kbps
-- **Recording Path**: Set to a folder synced with your cloud storage
+- Recording Format: mp4
+- Video Bitrate: 2500 kbps (good balance of quality and size)
+- Audio Bitrate: 128 kbps
+- Recording Path: Set to a folder synced with your cloud storage
 
 Create a scene preset for quick updates:
 
@@ -232,6 +231,10 @@ Record yourself walking through this template. The structure becomes automatic a
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Email vs Slack vs Video Call Decision.](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

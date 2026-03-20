@@ -32,15 +32,15 @@ For hybrid teams, the value comes from data. You can measure actual desk utiliza
 
 When evaluating office hoteling software, developers should focus on these technical requirements:
 
-**API First Architecture**: The best systems provide RESTful APIs or GraphQL endpoints for everything. You need programmatic access to create reservations, fetch availability, manage users, and pull analytics. Ask for API documentation before committing.
+API First Architecture: The best systems provide RESTful APIs or GraphQL endpoints for everything. You need programmatic access to create reservations, fetch availability, manage users, and pull analytics. Ask for API documentation before committing.
 
-**Authentication and Authorization**: Look for OAuth 2.0 or SAML SSO integration with your identity provider. Role-based access control should support admin, manager, and user roles with granular permissions.
+Authentication and Authorization: Look for OAuth 2.0 or SAML SSO integration with your identity provider. Role-based access control should support admin, manager, and user roles with granular permissions.
 
-**Real-time Availability**: Desk and room availability must update instantly. WebSocket connections or proper caching strategies prevent double-booking and show users accurate inventory.
+Real-time Availability: Desk and room availability must update instantly. WebSocket connections or proper caching strategies prevent double-booking and show users accurate inventory.
 
-**Integration Points**: The system should connect with calendar apps (Google Calendar, Outlook), building access systems, Slack or Teams for notifications, and HR systems for employee data synchronization.
+Integration Points: The system should connect with calendar apps (Google Calendar, Outlook), building access systems, Slack or Teams for notifications, and HR systems for employee data synchronization.
 
-**Reporting and Analytics**: Export capabilities matter. Look for scheduled report generation, raw data exports, and dashboard APIs that let you build custom visualizations.
+Reporting and Analytics: Export capabilities matter. Look for scheduled report generation, raw data exports, and dashboard APIs that let you build custom visualizations.
 
 ## Building a Custom Reservation System
 
@@ -144,13 +144,13 @@ function DeskBooking({ date, onSelectDesk }) {
 
 Most teams don't want another standalone app. Office hoteling software should integrate with tools you already use.
 
-**Calendar Integration**: When someone books a desk, create a calendar event with the desk location. Use iCal feeds so availability shows in Google Calendar or Outlook:
+Calendar Integration: When someone books a desk, create a calendar event with the desk location. Use iCal feeds so availability shows in Google Calendar or Outlook:
 
 ```
 GET /api/availability.ics?user_id=123&start=2026-03-15&end=2026-03-20
 ```
 
-**Slack/Teams Notifications**: Send booking confirmations and reminders through your chat platform:
+Slack/Teams Notifications: Send booking confirmations and reminders through your chat platform:
 
 ```javascript
 async function sendSlackNotification(user, reservation) {
@@ -185,15 +185,15 @@ async function sendSlackNotification(user, reservation) {
 }
 ```
 
-**Building Access Systems**: For high-security environments, integrate with access control APIs to grant door access only during valid reservation times. This typically involves webhooks from your reservation system to the access control platform.
+Building Access Systems: For high-security environments, integrate with access control APIs to grant door access only during valid reservation times. This typically involves webhooks from your reservation system to the access control platform.
 
 ## Practical Considerations for Implementation
 
 Before implementing, consider these operational realities:
 
-**Cancellation Policies**: Build flexible cancellation with configurable lead times. Some teams need 2-hour windows, others require 24-hour notice. Make this configurable per space or globally.
+Cancellation Policies: Build flexible cancellation with configurable lead times. Some teams need 2-hour windows, others require 24-hour notice. Make this configurable per space or globally.
 
-**Waitlist Functionality**: When desks are full, users should join a waitlist. A background job checks for cancellations and automatically notifies waitlisted users:
+Waitlist Functionality: When desks are full, users should join a waitlist. A background job checks for cancellations and automatically notifies waitlisted users:
 
 ```javascript
 // Cron job runs every 5 minutes
@@ -213,7 +213,7 @@ async function processWaitlist(deskId, date) {
 }
 ```
 
-**Analytics and Reporting**: Track utilization rates, peak booking times, and no-show rates. This data justifies office investments and identifies patterns:
+Analytics and Reporting: Track utilization rates, peak booking times, and no-show rates. This data justifies office investments and identifies patterns:
 
 ```sql
 SELECT 

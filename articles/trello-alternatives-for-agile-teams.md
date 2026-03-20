@@ -68,7 +68,7 @@ Linear's free tier covers teams up to 250 active issues, making it viable for gr
 
 Jira remains the enterprise standard for a reason. If your team runs SAFe, LeSS, or other scaled frameworks, Jira's hierarchical structure—projects, epics, stories, tasks, subtasks—maps directly to how you think about work. The native sprint planning, backlog grooming, and velocity reporting require no configuration.
 
-For developers, Jira's REST API provides comprehensive automation:
+For developers, Jira's REST API provides automation:
 
 ```javascript
 // Jira: Transition issue through workflow

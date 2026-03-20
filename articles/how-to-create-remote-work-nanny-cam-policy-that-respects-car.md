@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Work Nanny Cam Policy That Respects."
+title: "How to Create Remote Work Nanny Cam Policy That Respects Caregiver Privacy Guide"
 description: "A practical guide for developers and power users on creating remote work nanny cam policies that balance home security with caregiver privacy and consent."
 date: 2026-03-16
 author: theluckystrike
@@ -151,15 +151,15 @@ Consider using digital signature platforms that timestamp and verify identity:
 
 For developers building home camera systems, prioritize these privacy-first patterns:
 
-1. **Local processing**: Run person detection and motion alerts on local hardware (e.g., Home Assistant with Coral TPU) rather than sending video to cloud ML services.
+1. Local processing: Run person detection and motion alerts on local hardware (e.g., Home Assistant with Coral TPU) rather than sending video to cloud ML services.
 
-2. **Zone masking**: Configure camera zones to exclude areas where caregivers expect privacy, such as changing areas or bathrooms.
+2. Zone masking: Configure camera zones to exclude areas where caregivers expect privacy, such as changing areas or bathrooms.
 
-3. **Indicator lights**: Use cameras with visible recording indicators that cannot be disabled remotely.
+3. Indicator lights: Use cameras with visible recording indicators that cannot be disabled remotely.
 
-4. **No audio by default**: Enable audio only with explicit written consent, as audio recordings carry stricter legal requirements.
+4. No audio by default: Enable audio only with explicit written consent, as audio recordings carry stricter legal requirements.
 
-5. **Audit logging**: Maintain logs of who accessed camera feeds and when:
+5. Audit logging: Maintain logs of who accessed camera feeds and when:
 
 ```yaml
 # audit_logging.yaml
@@ -189,6 +189,10 @@ Remember that policy documents require ongoing attention. Review and update your
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Create Remote Work Stipend Policy That Is Legally.](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Remote Work Lactation Room Policy Template for Employees.](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Video Walkthrough Tools for Presenting Code Changes to."
+title: "Video Walkthrough Tools for Presenting Code Changes to Non-Technical Clients"
 description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording."
 date: 2026-03-16
 author: theluckystrike
@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Video Walkthrough Tools for Presenting Code Changes to Non-Technical Clients
 
-Showing code changes to non-technical clients presents a unique communication challenge. Your client needs to understand what changed, why it matters, and how it affects their project—without getting lost in syntax, file structures, or developer jargon. Video walkthroughs bridge this gap by combining visual demonstration with verbal explanation, letting you control the narrative and pace.
+Showing code changes to non-technical clients presents an unique communication challenge. Your client needs to understand what changed, why it matters, and how it affects their project—without getting lost in syntax, file structures, or developer jargon. Video walkthroughs bridge this gap by combining visual demonstration with verbal explanation, letting you control the narrative and pace.
 
 This guide covers the tools and techniques you need to create effective video explanations of code changes for non-technical stakeholders.
 
@@ -24,10 +24,10 @@ This guide covers the tools and techniques you need to create effective video ex
 
 Static screenshots capture a moment in time but fail to show process, interaction, or change over time. A client looking at a diff cannot easily understand what was added, removed, or modified without technical context. Video walkthroughs solve this by:
 
-- **Showing sequence**: Clients see changes happen in order, following your logic
-- **Adding voice context**: You explain intent while demonstrating implementation
-- **Highlighting key areas**: Annotation tools draw attention to what matters
-- **Enabling playback**: Clients can review explanations on their own schedule
+- Showing sequence: Clients see changes happen in order, following your logic
+- Adding voice context: You explain intent while demonstrating implementation
+- Highlighting key areas: Annotation tools draw attention to what matters
+- Enabling playback: Clients can review explanations on their own schedule
 
 ## Essential Tools for Code Change Presentations
 
@@ -35,9 +35,9 @@ Static screenshots capture a moment in time but fail to show process, interactio
 
 Tools like **Loom** and **Screen Studio** provide quick screen capture with built-in editing. For code-specific recordings, consider:
 
-- **Raycast Screen Capture**: Fast capture with simple editing, works well on macOS
-- **CleanShot X**: Screenshot and recording tool with annotation features
-- **OBS Studio**: Free, open-source option with scene composition
+- Raycast Screen Capture: Fast capture with simple editing, works well on macOS
+- CleanShot X: Screenshot and recording tool with annotation features
+- OBS Studio: Free, open-source option with scene composition
 
 When recording code changes, use a syntax-highlighted theme that provides visual contrast. Dark themes with colorful syntax highlighting make code easier to read on video.
 
@@ -45,9 +45,9 @@ When recording code changes, use a syntax-highlighted theme that provides visual
 
 Static diffs confuse non-technical clients. These tools visualize changes more intuitively:
 
-- **GitGraph.js**: Render git history as visual graphs
-- **GitHub's diff viewer**: Use the rendered diff view for PR descriptions
-- **Mermaid diagrams**: Include flow diagrams in your documentation
+- GitGraph.js: Render git history as visual graphs
+- GitHub's diff viewer: Use the rendered diff view for PR descriptions
+- Mermaid diagrams: Include flow diagrams in your documentation
 
 Here's an example of a Mermaid diagram showing a feature flow for client documentation:
 
@@ -63,9 +63,9 @@ graph LR
 
 For web projects, recording directly in the browser sometimes works better than system-level screen capture:
 
-- **Prequel**: Browser-based screen recorder with editing
-- **Vercel Clip**: Create shareable demos of web features
-- **Carrot**: Quick browser recordings with simple sharing
+- Prequel: Browser-based screen recorder with editing
+- Vercel Clip: Create shareable demos of web features
+- Carrot: Quick browser recordings with simple sharing
 
 ## Creating Effective Code Walkthroughs
 
@@ -73,10 +73,10 @@ For web projects, recording directly in the browser sometimes works better than 
 
 Before recording, set up your screen for clarity:
 
-1. **Increase font size**: Code should be readable at 1080p
-2. **Use a focused theme**: Remove distractions from your IDE
-3. **Prepare the starting point**: Open the relevant files or PR
-4. **Test audio levels**: Ensure your voice records clearly
+1. Increase font size: Code should be readable at 1080p
+2. Use a focused theme: Remove distractions from your IDE
+3. Prepare the starting point: Open the relevant files or PR
+4. Test audio levels: Ensure your voice records clearly
 
 ### Step 2: Structure Your Presentation
 
@@ -149,11 +149,11 @@ This approach keeps technical details accessible while giving the client confide
 
 ## Best Practices for Client Communication
 
-1. **Keep videos under 5 minutes**: Attention spans are limited
-2. **Lead with the outcome**: Tell clients what you fixed before showing how
-3. **Use plain language**: Replace "we refactored the auth module" with "we improved the login system"
-4. **Provide context**: Remind clients what the original request was
-5. **Offer follow-up**: Invite questions if anything remains unclear
+1. Keep videos under 5 minutes: Attention spans are limited
+2. Lead with the outcome: Tell clients what you fixed before showing how
+3. Use plain language: Replace "we refactored the auth module" with "we improved the login system"
+4. Provide context: Remind clients what the original request was
+5. Offer follow-up: Invite questions if anything remains unclear
 
 ## Automating Documentation with Video Links
 
@@ -177,6 +177,10 @@ Video walkthroughs transform how you communicate code changes to non-technical c
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
+- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

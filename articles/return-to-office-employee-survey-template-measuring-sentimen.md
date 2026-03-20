@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Return to Office Employee Survey Template: Measuring."
+title: "Return to Office Employee Survey Template: Measuring Sentiment Before Policy Change 2026"
 description: "A practical guide to building a return to office employee survey with code examples. Measure sentiment, analyze results, and make data-driven decisions."
 date: 2026-03-16
 author: theluckystrike
@@ -10,6 +10,7 @@ tags: [return-to-office, employee-survey, sentiment-analysis, remote-work-policy
 reviewed: true
 intent-checked: true
 voice-checked: true
+score: 7
 ---
 
 {% raw %}
@@ -268,6 +269,10 @@ Building an effective RTO sentiment survey requires thoughtful question design, 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Return to Office Parking and Commute Benefit Policy.](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
+- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Return to Office Mental Health Support Resources for.](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

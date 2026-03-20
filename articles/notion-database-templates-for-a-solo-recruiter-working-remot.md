@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Notion Database Templates for a Solo Recruiter Working."
+title: "Notion Database Templates for a Solo Recruiter Working Remotely"
 description: "A practical guide to building custom Notion database templates for solo recruiters working remotely. Includes database schemas, formulas, and."
 date: 2026-03-16
 author: theluckystrike
@@ -160,11 +160,11 @@ Show: Name, Company, Last Contact, Phone
 
 Solo recruiters juggle email, Slack, and calendar. Connect Notion to these tools using native integrations or automation platforms:
 
-**Calendar Integration**: Use Notion's calendar view for interviews. Sync with Google Calendar or Cal.com for candidate-facing scheduling.
+Calendar Integration: Use Notion's calendar view for interviews. Sync with Google Calendar or Cal.com for candidate-facing scheduling.
 
-**Email Tracking**: Notion doesn't track email opens natively. Use a separate email tool with a blind BCC to a personal inbox, then manually update "Last Contact" in Notion after significant exchanges.
+Email Tracking: Notion doesn't track email opens natively. Use a separate email tool with a blind BCC to a personal inbox, then manually update "Last Contact" in Notion after significant exchanges.
 
-**Slack Reminders**: Set up Slack reminders that query Notion:
+Slack Reminders: Set up Slack reminders that query Notion:
 
 ```
 /remind me "Follow up with candidates in interview stage" every Monday at 9am
@@ -174,13 +174,13 @@ Solo recruiters juggle email, Slack, and calendar. Connect Notion to these tools
 
 As your candidate volume grows, these patterns help maintain efficiency:
 
-1. **Use relations, not text fields**: Linking candidates to jobs and companies enables powerful rollups and cross-database views.
+1. Use relations, not text fields: Linking candidates to jobs and companies enables powerful rollups and cross-database views.
 
-2. **Implement status automation**: When a candidate moves to "Hired," automatically archive the job if all positions are filled using Notion's native automation.
+2. Implement status automation: When a candidate moves to "Hired," automatically archive the job if all positions are filled using Notion's native automation.
 
-3. **Create template pages per job**: Each job entry can contain a linked page with interview scorecards, evaluation criteria, and team feedback.
+3. Create template pages per job: Each job entry can contain a linked page with interview scorecards, evaluation criteria, and team feedback.
 
-4. **Separate warm from cold outreach**: Maintain different databases or tags for proactive sourcing versus reactive applications.
+4. Separate warm from cold outreach: Maintain different databases or tags for proactive sourcing versus reactive applications.
 
 ## What to Avoid
 
@@ -188,14 +188,13 @@ Don't over-engineer your system on day one. Start with basic candidate and job t
 
 Avoid storing sensitive data like salary negotiations or internal feedback in databases shared with hiring managers. Use separate private databases for confidential information.
 
-## Summary
-
-Notion databases replace expensive ATS software for solo recruiters willing to invest in setup time. Build three core databases (Candidates, Companies, Jobs), connect them with relations, and use formulas to surface actionable insights. Start simple, iterate based on your actual workflow, and resist the urge to model every possible scenario before you need it.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Notion Setup for Solo Freelancer Managing 5 Clients: A Practical Guide](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Best Practice for Hybrid Team Social Events Including."
+title: "conversation-prompts.yaml - Example prompt rotation system"
 description: "A practical guide to organizing hybrid team social events that engage both remote and in-office employees. Includes code examples, scheduling tools."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -20,7 +20,7 @@ Hybrid team social events require scheduled video participation for all remote a
 
 ## The Fundamental Challenge: Asymmetric Experiences
 
-The core problem with hybrid social events stems from physical proximity asymmetry. In-office employees share physical space, spontaneous conversations, and visual cues that remote participants cannot access. Remote attendees often feel like secondary participants watching a event they cannot fully join.
+The core problem with hybrid social events stems from physical proximity asymmetry. In-office employees share physical space, spontaneous conversations, and visual cues that remote participants cannot access. Remote attendees often feel like secondary participants watching an event they cannot fully join.
 
 Effective hybrid social events flip this dynamic by designing activities where physical location becomes irrelevant. The best events treat remote and in-office participants as equal participants in the same experience rather than broadcasting one group's experience to another.
 
@@ -149,7 +149,7 @@ Before your next hybrid social event, verify:
 - [ ] In-office participants can see remote participant screens/faces
 - [ ] Activity works equally well for participants in both locations
 - [ ] Meeting times rotate to share timezone inconvenience
-- [ ] Someone is explicitly responsible for facilitating remote inclusion
+- [ ] Someone is explicitly responsible for helping remote inclusion
 - [ ] Backup plans exist for technology failures
 
 ## Building Lasting Connection
@@ -162,6 +162,10 @@ The goal is not to replicate office proximity but to create new forms of connect
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Best Practice for Hybrid Team Standup Format.](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
 
-Built by the luckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+Built by
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

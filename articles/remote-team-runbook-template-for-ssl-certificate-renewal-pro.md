@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Runbook Template for SSL Certificate Renewal."
+title: "Remote Team Runbook Template for SSL Certificate Renewal Process with Distributed Infrastructure Team"
 description: "A comprehensive runbook template for managing SSL certificate renewals across distributed infrastructure teams working remotely."
 date: 2026-03-16
 author: theluckystrike
@@ -32,12 +32,12 @@ Without explicit runbooks, critical knowledge lives only in individual Slack mes
 
 Before initiating a certificate renewal, gather the following information:
 
-- **Certificate domain(s)**: The fully qualified domain names covered by the certificate
-- **Current certificate expiration date**: Available from your monitoring system or certificate details
-- **Certificate authority (CA)**: The organization that issued your current certificate
-- **Cloud provider(s)**: Where the certificates are currently deployed (AWS, GCP, Azure, or on-premise)
-- **Primary and secondary owners**: Team members responsible for this certificate
-- **Renewal method**: ACM (Automated Certificate Management Environment), manual CSR generation, or DNS validation
+- Certificate domain(s): The fully qualified domain names covered by the certificate
+- Current certificate expiration date: Available from your monitoring system or certificate details
+- Certificate authority (CA): The organization that issued your current certificate
+- Cloud provider(s): Where the certificates are currently deployed (AWS, GCP, Azure, or on-premise)
+- Primary and secondary owners: Team members responsible for this certificate
+- Renewal method: ACM (Automated Certificate Management Environment), manual CSR generation, or DNS validation
 
 ### Phase 1: Preparation (14 Days Before Expiration)
 
@@ -269,6 +269,10 @@ When your team spans multiple time zones, async-friendly processes prevent singl
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

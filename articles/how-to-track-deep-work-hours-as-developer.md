@@ -188,13 +188,6 @@ Focus on a few core measurements rather than overwhelming yourself with data:
 
 Aim for a realistic weekly deep work target — typically 20-30 hours for knowledge workers. Track session length: most people can sustain deep focus for 60-90 minutes before needing a break. Monitor context-switching frequency to see how often you interrupt yourself. Log project time allocation so you know how much focused time each project actually requires.
 
-## Conclusion
-
-Tracking deep work hours as a developer doesn't require expensive software or complex systems. Start with a text file, a CLI tool, or git-based logging, and refine from there. The goal is insight, not perfection. Once you understand where your time goes, you can make intentional decisions about focused attention — and give stakeholders realistic timelines based on your actual capacity.
-
----
-
-
 ## Related Reading
 
 - [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)

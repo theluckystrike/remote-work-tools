@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Set Up Remote Developer Onboarding Buddy System."
+title: "Buddy Responsibilities Charter"
 description: "Learn how to build an effective remote developer onboarding buddy system. Practical setup guide with code snippets and implementation examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -219,16 +219,13 @@ Use this checklist when launching or auditing your buddy system:
 
 **Ignoring feedback.** Collecting data without acting on it signals that the program lacks genuine commitment.
 
-## Conclusion
-
-A remote developer buddy system requires upfront investment but pays dividends through faster integration, improved retention, and stronger team culture. Start with clear responsibilities, simple assignment processes, and robust materials. Measure results, gather feedback, and refine your approach over time.
-
-The goal is not perfection—it's consistent, reliable support that helps every new developer feel welcomed and equipped to succeed from day one.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
+- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

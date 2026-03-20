@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Sprint Planning Communication Template for."
+title: "Sprint {{ sprint_number }} Preparation"
 description: "A practical Slack-based communication template for distributed Scrum teams to streamline async sprint planning, daily standups, and retrospective."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -251,7 +251,10 @@ The key to success with these templates is consistency. Use the same channel nam
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Code Review Workflow for a Remote Backend Team of 6."
+title: "Review assignment logic (example)"
 description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -38,9 +38,9 @@ Split your reviews into two categories: **feature reviews** (larger changes, req
 
 With six developers, you likely have members across two or three time zones. Structure your review expectations around overlap hours:
 
-- **Same-day reviews**: Expect initial feedback within 4 hours during overlapping work hours
-- **Next-day reviews**: Non-urgent PRs should receive attention within 24 hours
-- **Async by default**: Write clear PR descriptions so reviewers can understand context without asking questions
+- Same-day reviews: Expect initial feedback within 4 hours during overlapping work hours
+- Next-day reviews: Non-urgent PRs should receive attention within 24 hours
+- Async by default: Write clear PR descriptions so reviewers can understand context without asking questions
 
 Create a shared schedule document that identifies each developer's core overlap hours. When someone in UTC+1 pushes code at their end of day, the reviewer in UTC+8 should have enough context to provide meaningful feedback the next morning.
 
@@ -73,12 +73,12 @@ This structure reduces back-and-forth questions. Reviewers know exactly what to 
 
 Every reviewer should verify these items systematically:
 
-1. **Correctness**: Does the code do what it claims? Are edge cases handled?
-2. **Security**: No exposed secrets, proper input validation, parameterized queries
-3. **Performance**: N+1 queries avoided, appropriate indexing, caching where beneficial
-4. **Error handling**: Graceful failures, meaningful error messages, proper logging
-5. **Testing**: Sufficient test coverage for new functionality
-6. **Documentation**: Comments for complex logic, updated API docs
+1. Correctness: Does the code do what it claims? Are edge cases handled?
+2. Security: No exposed secrets, proper input validation, parameterized queries
+3. Performance: N+1 queries avoided, appropriate indexing, caching where beneficial
+4. Error handling: Graceful failures, meaningful error messages, proper logging
+5. Testing: Sufficient test coverage for new functionality
+6. Documentation: Comments for complex logic, updated API docs
 
 Create a living document with examples specific to your stack. For instance, if you use Go, include items about goroutine management and context usage. For Python, verify async/await patterns are correct.
 
@@ -86,10 +86,10 @@ Create a living document with examples specific to your stack. For instance, if 
 
 Disputes will happen. When they do, escalate through a clear process:
 
-1. **First pass**: Author explains their reasoning in the PR
-2. **Second pass**: Reviewer provides alternative approach with tradeoffs
-3. **Discussion call**: Schedule a 15-minute call for complex disagreements
-4. **Tech lead decision**: For unresolved issues, your tech lead makes the final call
+1. First pass: Author explains their reasoning in the PR
+2. Second pass: Reviewer provides alternative approach with tradeoffs
+3. Discussion call: Schedule a 15-minute call for complex disagreements
+4. Tech lead decision: For unresolved issues, your tech lead makes the final call
 
 Document controversial decisions in a `DECISIONS.md` file. Future developers will thank you.
 
@@ -123,9 +123,9 @@ Automate: linting, unit tests, security scanning, and required checklist verific
 
 Track these numbers to identify bottlenecks:
 
-- **PR to merge time**: Target under 24 hours for small PRs, 48 hours for features
-- **Review round count**: Aim for 1-2 rounds maximum
-- **Reviewer load distribution**: Ensure no one carries more than 25% of reviews
+- PR to merge time: Target under 24 hours for small PRs, 48 hours for features
+- Review round count: Aim for 1-2 rounds maximum
+- Reviewer load distribution: Ensure no one carries more than 25% of reviews
 
 Review these metrics weekly in your team sync. If someone is overwhelmed, redistribute the load temporarily.
 
@@ -154,5 +154,10 @@ Start with these patterns, measure their impact, and refine based on your specif
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

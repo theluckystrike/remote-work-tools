@@ -148,6 +148,10 @@ To evaluate Element Matrix, deploy a Synapse server on a small VM, bridge it to 
 ## Related Reading
 
 - [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
+- [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [Best Encrypted Messaging App for Remote Team Sensitive.](/remote-work-tools/best-encrypted-messaging-app-for-remote-team-sensitive-commu/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

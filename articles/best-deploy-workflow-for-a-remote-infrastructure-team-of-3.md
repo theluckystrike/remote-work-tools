@@ -51,7 +51,7 @@ This catches basic errors before code reaches version control, reducing review c
 
 ### Stage 2: Automated Testing in CI
 
-Your continuous integration pipeline runs comprehensive checks on every branch:
+Your continuous integration pipeline runs checks on every branch:
 
 ```yaml
 # .github/workflows/validate.yaml

@@ -164,9 +164,9 @@ def calculate_brightness(ambient):
 
 Brightness is only part of the equation. Blue light from screens affects your circadian rhythm and can disrupt sleep. Many operating systems include built-in blue light filters:
 
-- **macOS**: Enable Night Shift in System Preferences > Displays
-- **Windows**: Use Night Light settings in Display options
-- **Linux**: Use Redshift or f.lux
+- macOS: Enable Night Shift in System Preferences > Displays
+- Windows: Use Night Light settings in Display options
+- Linux: Use Redshift or f.lux
 
 You can also control color temperature programmatically:
 
@@ -213,7 +213,7 @@ Regardless of your brightness settings, follow the 20-20-20 rule: every 20 minut
 
 Several tools can handle brightness adjustment automatically:
 
-- **Flux (f.lux)**: Adjusts color temperature based on sunrise and sunset times
+- Flux (f.lux): Adjusts color temperature based on sunrise and sunset times
 - **Redshift** (Linux): Open-source alternative to f.lux
 - **Monitorian** (Windows): Multi-monitor brightness control
 - **Brightness Slider** (macOS): Menu bar control with automation support
@@ -228,5 +228,10 @@ You can also create your own automation using cron jobs or launch agents:
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [How to Prevent Eye Fatigue from Multiple Monitors with.](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -23,10 +23,10 @@ Newsletter design is challenging because of how email clients handle HTML. Email
 
 The key constraints include:
 
-- **Inline CSS required**: Most email clients ignore external stylesheets and `<style>` blocks in the `<head>`
-- **Table-based layouts**: Legacy clients still require table structures for reliable rendering
-- **Limited JavaScript**: Email clients disable JavaScript for security reasons
-- **Image blocking**: Many clients disable images by default until the user explicitly loads them
+- Inline CSS required: Most email clients ignore external stylesheets and `<style>` blocks in the `<head>`
+- Table-based layouts: Legacy clients still require table structures for reliable rendering
+- Limited JavaScript: Email clients disable JavaScript for security reasons
+- Image blocking: Many clients disable images by default until the user explicitly loads them
 
 The right Chrome extensions help you work within these limitations.
 
@@ -121,15 +121,10 @@ Treat your newsletter HTML like any other code project. Store templates in a Git
 
 Experienced developers still make these errors when designing for email:
 
-- **Using modern CSS properties**: Flexbox and Grid don't work in most email clients. Stick to table layouts for complex designs.
-- **Forgetting image alt text**: Many clients block images by default. Descriptive alt text ensures your message gets across even without visuals.
-- **Neglecting plain text versions**: Always include a plain-text fallback. Some recipients prefer text-only emails, and spam filters appreciate the effort.
-- **Ignoring dark mode**: Email clients increasingly support dark mode, which can invert colors unexpectedly. Test your designs in both light and dark contexts.
-
-## Conclusion
-
-Start with an inline CSS converter, add preview testing to catch rendering issues early, and build a library of reusable components to speed up future newsletters. That combination covers the full pipeline without leaving your browser.
-
+- Using modern CSS properties: Flexbox and Grid don't work in most email clients. Stick to table layouts for complex designs.
+- Forgetting image alt text: Many clients block images by default. Descriptive alt text ensures your message gets across even without visuals.
+- Neglecting plain text versions: Always include a plain-text fallback. Some recipients prefer text-only emails, and spam filters appreciate the effort.
+- Ignoring dark mode: Email clients increasingly support dark mode, which can invert colors unexpectedly. Test your designs in both light and dark contexts.
 
 ## Related Reading
 

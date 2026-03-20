@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "How to Schedule Onboarding Meetings Across Time Zones."
+title: "Find overlapping work hours across three zones"
 description: "A practical guide for developers and power users to schedule onboarding meetings across time zones. Includes tools, strategies, code snippets, and."
 date: 2026-03-16
 author: theluckystrike
@@ -143,14 +143,14 @@ When true overlap is impossible, recording becomes essential:
 For larger teams, separate onboarding into regional cohorts:
 
 - Americas cohort: 9 AM - 12 PM EST
-- EMEA cohort: 9 AM - 12 PM CET  
+- EMEA cohort: 9 AM - 12 PM CET 
 - APAC cohort: 9 AM - 12 PM IST
 
 Then schedule cross-regional "all hands" monthly rather than weekly.
 
 ## Practical Onboarding Meeting Schedule Example
 
-Here's a week-one schedule for a new developer joining a US-based team with European colleagues:
+Here's a week-one schedule for a new developer joining an US-based team with European colleagues:
 
 **Monday**
 - 10:00 AM PST: 1:1 with manager (60 min)
@@ -185,15 +185,13 @@ Sometimes you need to bring someone on quickly. For urgent hires:
 
 Document this constraint so new hires understand why initial meetings are sparse.
 
-## Conclusion
-
-Effective time zone scheduling for onboarding requires upfront planning, the right tools, and flexibility. Use timezone calculators to find overlaps, rotate meeting times fairly across regions, and record sessions for async review. When done correctly, remote onboarding feels personal rather than inconvenient—setting new hires up for success from day one.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [How to Run Remote User Research Sessions for UX.](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Remote Journalism Team Across."
+title: "How to Manage Remote Journalism Team Across International Bureaus and Time Zones"
 description: "A practical technical guide for managing distributed journalism teams across global bureaus with async workflows, shared tools, and time zone optimization."
 date: 2026-03-16
 author: theluckystrike
@@ -11,7 +11,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}
@@ -51,10 +50,10 @@ columns:
 
 Each story card should include:
 
-- **Bureau location**: Time zone context for urgency
-- **Language**: If multilingual coverage
-- **Priority tag**: Breaking, feature, or evergreen
-- **Handoff notes**: What the next shift needs to know
+- Bureau location: Time zone context for urgency
+- Language: If multilingual coverage
+- Priority tag: Breaking, feature, or evergreen
+- Handoff notes: What the next shift needs to know
 
 This structure allows Tokyo journalists to start their day seeing exactly what the London desk accomplished overnight, without requiring any live handoff.
 
@@ -62,9 +61,9 @@ This structure allows Tokyo journalists to start their day seeing exactly what t
 
 Identify the narrow windows when your furthest-apart team members share availability. For a New York-London-Tokyo operation:
 
-- **NYC-London**: 8am-11am EST (1pm-4pm GMT)
-- **London-Tokyo**: 8am-10am GMT (5pm-7pm JST)
-- **NYC-Tokyo**: Very limited overlap, handle async
+- NYC-London: 8am-11am EST (1pm-4pm GMT)
+- London-Tokyo: 8am-10am GMT (5pm-7pm JST)
+- NYC-Tokyo: Very limited overlap, handle async
 
 Reserve these 2-3 hour windows for:
 - Live editorial conferences
@@ -102,11 +101,11 @@ This format scales indefinitely and respects each person's working hours.
 
 Select tools that support async collaboration natively:
 
-- **Documentation**: Notion or Confluence for style guides, contact databases, and institutional knowledge
-- **Story tracking**: Linear, GitHub Projects, or Coda for pipeline visibility
-- **Communication**: Slack with timezone-aware status indicators and thread-based discussions
-- **File sharing**: Google Drive or Dropbox with clear folder structures by bureau and story
-- **Video**: Loom for recorded editorial feedback—faster than scheduling live calls
+- Documentation: Notion or Confluence for style guides, contact databases, and institutional knowledge
+- Story tracking: Linear, GitHub Projects, or Coda for pipeline visibility
+- Communication: Slack with timezone-aware status indicators and thread-based discussions
+- File sharing: Google Drive or Dropbox with clear folder structures by bureau and story
+- Video: Loom for recorded editorial feedback—faster than scheduling live calls
 
 Avoid tools that require real-time presence. If your editorial feedback tool forces both parties into a live session, replace it.
 
@@ -114,10 +113,10 @@ Avoid tools that require real-time presence. If your editorial feedback tool for
 
 Breaking news exposes async weaknesses. Prepare a protocol:
 
-1. **Alert system**: Use dedicated Slack channel with @here or @channel for immediate visibility
-2. **Rolling coverage**: Assign bureaus by time zone for continuous coverage
-3. **Shared live doc**: Google Doc where each bureau adds updates in their section
-4. **Handoff checklist**: What the incoming shift needs to know, pre-formatted
+1. Alert system: Use dedicated Slack channel with @here or @channel for immediate visibility
+2. Rolling coverage: Assign bureaus by time zone for continuous coverage
+3. Shared live doc: Google Doc where each bureau adds updates in their section
+4. Handoff checklist: What the incoming shift needs to know, pre-formatted
 
 ```markdown
 # Breaking News Handoff - [Headline]
@@ -146,11 +145,11 @@ This document becomes the single source of truth, replacing frantic Slack thread
 
 New bureau hires need structured onboarding that does not rely on informal hallway knowledge transfer. Create a digital onboarding packet:
 
-- **Time zone cheat sheet**: Working hours for every team member, converted to their local time
-- **Bureau contact list**: Who to contact for what, with response time expectations
-- **Tool access checklist**: Accounts, permissions, and channels they need
-- **Style guide**: Your newsroom's standards, including localization notes
-- **Sample stories**: Exemplars from each bureau category
+- Time zone cheat sheet: Working hours for every team member, converted to their local time
+- Bureau contact list: Who to contact for what, with response time expectations
+- Tool access checklist: Accounts, permissions, and channels they need
+- Style guide: Your newsroom's standards, including localization notes
+- Sample stories: Exemplars from each bureau category
 
 Assign a buddy in a different time zone to ensure new hires experience the async culture from day one.
 
@@ -158,23 +157,20 @@ Assign a buddy in a different time zone to ensure new hires experience the async
 
 Track these metrics to ensure your distributed workflow actually works:
 
-- **Story cycle time**: From pitch to publication, by bureau
-- **Async vs. sync ratio**: Percentage of communication that happens async
-- **After-hours messages**: Volume of communication outside working hours per person
-- **Escalation frequency**: How often stories get blocked waiting for real-time input
+- Story cycle time: From pitch to publication, by bureau
+- Async vs. sync ratio: Percentage of communication that happens async
+- After-hours messages: Volume of communication outside working hours per person
+- Escalation frequency: How often stories get blocked waiting for real-time input
 
 If cycle times are increasing or after-hours messages are climbing, your async infrastructure needs adjustment.
-
-## Conclusion
-
-Managing a remote journalism team across international bureaus requires replacing synchronous habits with async systems. The teams that thrive invest in clear workflows, appropriate tooling, and explicit communication norms. Start with the tiered communication system, build shared pipelines, and protect your overlap windows for the conversations that truly require real-time interaction.
-
-The future of journalism is distributed. Building robust async operations now positions your newsroom for that reality.
-
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
+- [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

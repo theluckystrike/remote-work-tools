@@ -252,24 +252,21 @@ const onboardingCommands = {
 
 Track these metrics to evaluate your welcome rituals:
 
-- **Time to first contribution**: How long until the new hire makes their first merge?
-- **Time to productivity**: When can they work independently on tasks?
-- **New hire satisfaction**: Monthly check-in scores during first 90 days
-- **Retention at 90 days**: Are new hires staying past probation?
-- **Manager time investment**: Hours spent on manual onboarding tasks
+- Time to first contribution: How long until the new hire makes their first merge?
+- Time to productivity: When can they work independently on tasks?
+- New hire satisfaction: Monthly check-in scores during first 90 days
+- Retention at 90 days: Are new hires staying past probation?
+- Manager time investment: Hours spent on manual onboarding tasks
 
 Review these metrics quarterly and adjust your rituals based on data rather than assumptions.
-
-## Conclusion
-
-Creating effective welcome rituals for remote teams requires intentional design across multiple phases. Start with solid pre-boarding, make first days warm and structured, provide guided learning during the first week, and establish feedback loops through the first month.
-
-The investment in thoughtful onboarding pays dividends through faster productivity, stronger team cohesion, and higher retention. Iterate on your rituals based on feedback and metrics, and your remote team will build the connection that remote work can sometimes lack.
-
 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Communication Playbook for New.](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -108,11 +108,11 @@ services:
 
 Zoom collects more extensive user data:
 
-- **Meeting metadata**: duration, participant count, timestamps
-- **Chat logs**: stored unless explicitly deleted
-- **Recording analytics**: who viewed, when, for how long
-- **Device information**: OS, browser, IP addresses
-- **User profiles**: names, email addresses, organization data
+- Meeting metadata: duration, participant count, timestamps
+- Chat logs: stored unless explicitly deleted
+- Recording analytics: who viewed, when, for how long
+- Device information: OS, browser, IP addresses
+- User profiles: names, email addresses, organization data
 
 Zoom's data retention policies mean your meeting data may persist on their servers even after meetings end, depending on your account settings and plan.
 
@@ -193,8 +193,8 @@ const config = {
 
 Both platforms offer APIs, but Jitsi's open-source nature provides more flexibility:
 
-- **Jitsi**: Full source code access, custom modding, iframe embedding, webhook support
-- **Zoom**: REST API, SDKs, but limited visibility into core functionality
+- Jitsi: Full source code access, custom modding, iframe embedding, webhook support
+- Zoom: REST API, SDKs, but limited visibility into core functionality
 
 ## Summary: When to Choose Each
 

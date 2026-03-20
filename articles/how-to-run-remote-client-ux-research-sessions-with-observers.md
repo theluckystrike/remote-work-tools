@@ -203,22 +203,13 @@ A simple Google Sheets template works well for tracking observations:
 | 14:31     | Mike     | Successfully completed task | — | User succeeded | Low      |
 ```
 
-## Summary
-
-Running remote UX research sessions with observers requires thoughtful preparation and clear communication. The key elements are:
-
-- **Separate channels** for observers to communicate without disrupting the session
-- **Clear guidelines** for all participants before the session begins
-- **Structured workflow** for managing observer input during tasks
-- **Quick debrief** to capture insights while they're fresh
-- **Backup plans** for technical failures
-
-With these practices in place, you can conduct valuable UX research that satisfies both participant comfort and stakeholder information needs.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Run Remote User Research Sessions for UX.](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [Best Online Teaching Platform for Remote Tutors Running.](/remote-work-tools/best-online-teaching-platform-for-remote-tutors-running-live/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

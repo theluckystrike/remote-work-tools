@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Walking Meeting Format for One-on-One."
+title: "Remote Team Walking Meeting Format for One-on-One Connections"
 description: "A practical guide to running walking meetings with remote team members. Includes format templates, scheduling scripts, and audio configuration tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -12,7 +12,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 
@@ -106,10 +105,10 @@ Backup: Phone call if connection fails
 
 For different relationship types:
 
-- **Manager-to-report one-on-ones**: Weekly, 30 minutes
-- **Tech lead to developer**: Bi-weekly, 30 minutes
-- **Cross-functional partnerships**: Monthly, 30-45 minutes
-- **Skip-level meetings**: Monthly, 30 minutes
+- Manager-to-report one-on-ones: Weekly, 30 minutes
+- Tech lead to developer: Bi-weekly, 30 minutes
+- Cross-functional partnerships: Monthly, 30-45 minutes
+- Skip-level meetings: Monthly, 30 minutes
 
 ## Practical Examples: Meeting Templates
 
@@ -230,6 +229,10 @@ Walking meetings require more setup than sitting in front of a camera, but the p
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team One on One Meeting Template for Engineering.](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness and Reducing Waste](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

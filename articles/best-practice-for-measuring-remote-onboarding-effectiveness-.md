@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Measuring Remote Onboarding."
+title: "Find the first commit by a specific author"
 description: "Learn how to measure remote developer onboarding effectiveness using time to first commit and other actionable metrics. Practical code examples for."
 date: 2026-03-16
 author: theluckystrike
@@ -99,10 +99,10 @@ Raw TTFC numbers mean little without context. You need to establish benchmarks b
 
 A reasonable starting framework:
 
-- **Week 1 (0-7 days)**: Excellent—developer contributed quickly
-- **Week 2 (8-14 days)**: Good—within expected range
-- **Weeks 3-4 (15-30 days)**: Needs attention—investigate barriers
-- **Beyond 30 days**: Problem—immediate intervention required
+- Week 1 (0-7 days): Excellent—developer contributed quickly
+- Week 2 (8-14 days): Good—within expected range
+- Weeks 3-4 (15-30 days): Needs attention—investigate barriers
+- Beyond 30 days: Problem—immediate intervention required
 
 Adjust these ranges based on your technology stack complexity. A team using a monolithic Rails application will naturally have longer TTFC than a team with microservices where new developers can contribute to a single service quickly.
 
@@ -210,6 +210,10 @@ Time to first commit gives you a clear, objective signal about whether your remo
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Remote Team Onboarding Wiki.](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Best Practice for Measuring Remote Team Alignment Using.](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

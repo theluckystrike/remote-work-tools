@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Remote Team Video Call Fatigue Reduction Strategy."
+title: "Meeting Camera Guidelines"
 description: "A practical guide to implementing camera-on policies that reduce video call fatigue for remote development teams. Includes configuration examples and."
 date: 2026-03-16
 author: theluckystrike
@@ -131,9 +131,9 @@ Document the consensus. Revisit quarterly. Norms evolve as team composition chan
 
 Develop non-verbal cues that reduce pressure to maintain constant attention:
 
-- **Green status**: Camera on, fully present
-- **Yellow status**: Camera off but actively listening (use hand raise or chat)
-- **Red status**: Stepping away temporarily
+- Green status: Camera on, fully present
+- Yellow status: Camera off but actively listening (use hand raise or chat)
+- Red status: Stepping away temporarily
 
 This gives permission to disable video without signaling disengagement. Team members understand that yellow status means "I am here, just preserving mental energy."
 
@@ -191,10 +191,10 @@ For certain meeting types, asynchronous communication eliminates video fatigue e
 
 Track whether your camera policies actually improve team wellbeing:
 
-- **Sprint velocity stability**: Fatigue reduction should correlate with consistent output
-- **Meeting engagement scores**: Brief polls after major meetings
-- ** Voluntary camera-on rates**: If people keep cameras off even for "required" meetings, the requirement may need adjustment
-- **Retention and burnout indicators**: Track sprint-over-sprint energy levels
+- Sprint velocity stability: Fatigue reduction should correlate with consistent output
+- Meeting engagement scores: Brief polls after major meetings
+- Voluntary camera-on rates: If people keep cameras off even for "required" meetings, the requirement may need adjustment
+- Retention and burnout indicators: Track sprint-over-sprint energy levels
 
 ## Adjusting Policies Based on Team Feedback
 
@@ -215,11 +215,11 @@ Use this feedback loop to calibrate requirements. A policy that works for one te
 
 Effective camera-on requirements for remote developer teams in 2026 follow these principles:
 
-- **Purpose-driven video**: Cameras on when visual presence serves a clear goal
-- **Default-to-off**: Platforms configured with cameras off unless explicitly needed
-- **Explicit permissions**: Team members feel comfortable disabling video without explanation
-- **Asynchronous alternatives**: Reduce synchronous meeting load overall
-- **Continuous calibration**: Policies adjust based on team feedback
+- Purpose-driven video: Cameras on when visual presence serves a clear goal
+- Default-to-off: Platforms configured with cameras off unless explicitly needed
+- Explicit permissions: Team members feel comfortable disabling video without explanation
+- Asynchronous alternatives: Reduce synchronous meeting load overall
+- Continuous calibration: Policies adjust based on team feedback
 
 The strongest remote teams treat camera usage as a tool, not a test of commitment. Your code quality and collaboration matter more than whether your face appears on a screen.
 
@@ -229,6 +229,10 @@ The strongest remote teams treat camera usage as a tool, not a test of commitmen
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Email vs Slack vs Video Call Decision.](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

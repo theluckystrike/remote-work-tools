@@ -82,11 +82,11 @@ Equipment decisions impact daily productivity more than most strategic choices. 
 
 For a satellite office supporting 3-8 people:
 
-- **Router**: Business-grade WiFi 6 router with VLAN support (Ubiquiti Dream Machine or similar)
-- **Switch**: Managed Gigabit switch for wired connections
-- **Displays**: One 27" monitor per team member
-- **Audio**: Dedicated speakerphone for conference room (Jabra Speak or Yealink)
-- **Backup**: LTE/5G failover modem for connectivity redundancy
+- Router: Business-grade WiFi 6 router with VLAN support (Ubiquiti Dream Machine or similar)
+- Switch: Managed Gigabit switch for wired connections
+- Displays: One 27" monitor per team member
+- Audio: Dedicated speakerphone for conference room (Jabra Speak or Yealink)
+- Backup: LTE/5G failover modem for connectivity redundancy
 
 ### Configuration Management
 
@@ -133,9 +133,9 @@ Technology enables satellite offices, but process keeps them running. Here are c
 
 Satellite offices across time zones require asynchronous communication as the default:
 
-1. **Daily standups in writing**: Use Slack threads or Notion databases instead of live meetings
-2. **Decision logs**: Every significant decision gets documented in a shared location
-3. **Status pages**: Keep visibility into what each location is working on
+1. Daily standups in writing: Use Slack threads or Notion databases instead of live meetings
+2. Decision logs: Every significant decision gets documented in a shared location
+3. Status pages: Keep visibility into what each location is working on
 
 ### Meeting Protocol
 
@@ -221,6 +221,10 @@ A satellite office strategy for hybrid companies requires upfront investment in 
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
+- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

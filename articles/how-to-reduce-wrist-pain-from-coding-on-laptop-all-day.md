@@ -130,9 +130,9 @@ Every 20 minutes, look away from your screen for 20 seconds, and move your wrist
 
 Perform these stretches during your breaks:
 
-1. **Wrist circles**: Rotate your wrists clockwise 10 times, then counterclockwise 10 times.
-2. **Prayer stretch**: Press your palms together in front of your chest, fingers pointing up. Lower your hands until you feel a stretch in your wrists.
-3. **Wrist flexor stretch**: Extend your arm with palm up, use your other hand to gently pull your fingers back toward you.
+1. Wrist circles: Rotate your wrists clockwise 10 times, then counterclockwise 10 times.
+2. Prayer stretch: Press your palms together in front of your chest, fingers pointing up. Lower your hands until you feel a stretch in your wrists.
+3. Wrist flexor stretch: Extend your arm with palm up, use your other hand to gently pull your fingers back toward you.
 
 ### Take Real Breaks
 
@@ -176,6 +176,10 @@ Reducing wrist pain requires consistency. Start with one or two changes—perhap
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
+- [Roost Stand vs Nexstand Laptop Stand Comparison: A Developer's Guide](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

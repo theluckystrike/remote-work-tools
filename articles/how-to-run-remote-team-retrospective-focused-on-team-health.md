@@ -12,7 +12,6 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 
@@ -80,7 +79,7 @@ Sharing these reflections is optional—sometimes the act of writing is valuable
 
 ## Facilitation Techniques That Work Remotely
 
-Facilitating health discussions remotely requires intentional structure. Without careful facilitation, some voices dominate while others stay silent.
+helping health discussions remotely requires intentional structure. Without careful facilitation, some voices dominate while others stay silent.
 
 **Use written responses first.** Before opening verbal discussion, give everyone 5-10 minutes to write their thoughts individually. This ensures quieter team members have opportunity to contribute, and written responses often surface issues that people hesitate to mention verbally.
 
@@ -193,6 +192,10 @@ A team that regularly examines its health builds resilience against the inevitab
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Remote Team Retrospective Silent Brainstorming Technique.](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
+- [How to Facilitate Engaging Remote Retrospectives](/remote-work-tools/how-to-facilitate-engaging-remote-retrospectives/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

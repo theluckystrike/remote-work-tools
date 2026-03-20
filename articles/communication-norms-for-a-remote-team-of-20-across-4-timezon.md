@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: "Communication Norms for a Remote Team of 20 Across 4."
+title: "Communication Norms for a Remote Team of 20 Across 4 Timezones"
 description: "A practical guide to establishing communication norms for a 20-person remote team spread across 4 time zones. Includes async-first workflows, tool."
 date: 2026-03-16
 author: theluckystrike
@@ -228,10 +228,10 @@ Use overlap windows for:
 
 Track these metrics to ensure norms are working:
 
-- **Response time**: Average time to first response in channels
-- **Meeting load**: Hours of synchronous meetings per week
-- **Decision velocity**: Time from proposal to decision
-- **Async adoption**: Percentage of discussions happening in documents vs. meetings
+- Response time: Average time to first response in channels
+- Meeting load: Hours of synchronous meetings per week
+- Decision velocity: Time from proposal to decision
+- Async adoption: Percentage of discussions happening in documents vs. meetings
 
 Survey your team quarterly:
 
@@ -245,16 +245,13 @@ Survey your team quarterly:
 5. What's one change that would improve our team communication?
 ```
 
-## Conclusion
-
-Establishing communication norms for a 20-person remote team across 4 time zones requires explicit agreements that would be unnecessary in a co-located setting. The investment pays dividends: reduced context-switching, better documentation, and healthier work-life boundaries.
-
-Start with channel structure and response expectations, then layer in async alternatives to meetings. Document decisions and measure regularly. The norms will evolve—that's expected. The key is having a foundation to iterate from.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

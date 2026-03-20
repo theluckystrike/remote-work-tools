@@ -185,12 +185,12 @@ Hybrid work fails without excellent documentation. New hires cannot simply lean 
 
 Create and maintain these core documents:
 
-- **Day 1 Checklist**: Everything needed to be productive on day one
-- **Environment Setup Guide**: Step-by-step with screenshots for all common setups
-- **Team Directory**: Photos, roles, time zones, and best contact methods
-- **Communication Norms**: When to use sync vs async, response time expectations
-- **Meeting Guidelines**: How to run and participate in hybrid meetings
-- **Project Onboarding**: Technical context for the specific projects they'll work on
+- Day 1 Checklist: Everything needed to be productive on day one
+- Environment Setup Guide: Step-by-step with screenshots for all common setups
+- Team Directory: Photos, roles, time zones, and best contact methods
+- Communication Norms: When to use sync vs async, response time expectations
+- Meeting Guidelines: How to run and participate in hybrid meetings
+- Project Onboarding: Technical context for the specific projects they'll work on
 
 ### Making Documentation Accessible
 
@@ -237,6 +237,10 @@ Use this feedback to evolve your process and ensure every new hire, regardless o
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Hybrid Team Onboarding Process Template for New Hires.](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

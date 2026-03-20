@@ -10,7 +10,6 @@ tags: [knowledge-base, documentation, remote-work, collaboration, team-guideline
 reviewed: true
 intent-checked: true
 voice-checked: true
-voice-checked: false
 score: 8
 ---
 
@@ -37,10 +36,10 @@ Start by explicitly defining what belongs in your knowledge base. A clear scope 
 
 Consider organizing your scope around these categories:
 
-- **Process documentation**: How to complete key tasks, from deploying code to running effective meetings
-- **Technical reference**: API specifications, architecture decisions, and system configurations
-- **Onboarding materials**: Step-by-step guides for new team members joining different roles
-- **Troubleshooting**: Known issues, workarounds, and debugging procedures
+- Process documentation: How to complete key tasks, from deploying code to running effective meetings
+- Technical reference: API specifications, architecture decisions, and system configurations
+- Onboarding materials: Step-by-step guides for new team members joining different roles
+- Troubleshooting: Known issues, workarounds, and debugging procedures
 
 ### Contribution Types
 
@@ -187,6 +186,10 @@ Building a culture of documentation takes time, but the compounding benefits mak
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+- [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
+- [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote User Research Sessions for UX."
+title: "Recommended recording setup for user research"
 description: "A practical guide to conducting remote user research sessions for distributed UX teams跨越时区. Includes scheduling strategies, async workflows, and tool."
 date: 2026-03-16
 author: theluckystrike
@@ -94,9 +94,9 @@ Each session requires a designated researcher who conducts the interview and an 
 
 For staggered sessions, use collaboration tools that support async observation:
 
-- **Miro**: Create a shared board where observers pin observations in real-time using sticky notes color-coded by theme
-- **Notion**: Use a database that tags observations by participant, session number, and research question
-- **Slack**: Set up a dedicated channel for live session observations with timestamped updates
+- Miro: Create a shared board where observers pin observations in real-time using sticky notes color-coded by theme
+- Notion: Use a database that tags observations by participant, session number, and research question
+- Slack: Set up a dedicated channel for live session observations with timestamped updates
 
 ## Strategy 3: Hybrid Synchronous Windows
 
@@ -172,17 +172,13 @@ After completing all sessions, schedule a synthesis session using your overlap w
 
 Several mistakes undermine remote user research effectiveness. First, avoid conducting sessions alone when your team is distributed. Always have at least one observer from each major time zone represented. Second, do not skip transcription. Manually reviewing hours of recordings wastes time that could go toward insight synthesis. Third, resist the temptation to only schedule sessions during your local work hours. This defeats the purpose of distributed research and excludes team member participation.
 
-## Summary
-
-Running effective remote user research across time zones requires shifting from synchronous-first to async-first thinking. Use recorded sessions as your primary method, implement staggered handoffs when live interaction is necessary, and protect small overlap windows for high-value synthesis work. Document everything systematically and distribute observation responsibilities across your global team.
-
-With the right tools and processes, distributed UX teams can conduct research that produces the same quality insights as co-located teams, without the scheduling chaos and team exhaustion that comes from forcing everyone into inconvenient live sessions.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
+- [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
-{% endraw %}

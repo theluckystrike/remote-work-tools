@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Effective Remote Town Hall with Live."
+title: "How to Run Effective Remote Town Hall with Live Questions and Async Follow Up"
 description: "Learn practical strategies for running effective remote town halls with live Q&A sessions and async follow-up. Includes code examples, tools, and."
 date: 2026-03-16
 author: theluckystrike
@@ -82,10 +82,10 @@ app.shortcut('open_question_modal', async ({ shortcut, client, ack }) => {
 
 A tight agenda keeps town halls productive. Aim for 45-60 minutes total with these proportions:
 
-- **Updates and announcements**: 15 minutes
-- **Deep-dive topic**: 10 minutes  
-- **Live Q&A**: 20 minutes
-- **Async question roundup and next steps**: 5 minutes
+- Updates and announcements: 15 minutes
+- Deep-dive topic: 10 minutes 
+- Live Q&A: 20 minutes
+- Async question roundup and next steps: 5 minutes
 
 Share the agenda 24 hours in advance so attendees can prepare questions relevant to specific topics.
 
@@ -208,6 +208,10 @@ The combination of live engagement and async follow-up creates a communication l
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
+- [Remote 1 on 1 Meeting Tool Comparison for Distributed Managers 2026](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
+
+Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
