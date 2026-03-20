@@ -187,6 +187,35 @@ For developers working remotely, integrating banking APIs can automate invoice p
 - Explore Promptpay for peer-to-peer transfers within Thailand
 - Open supplementary savings account for interest income (2-3% rates available)
 
+## Visa Requirements and Banking: Integration Points
+
+Opening a Thai bank account doesn't require a long-term visa, but certain visa types offer advantages:
+
+**Elite Visa (10+ year residency):** Opens fastest with banks, preferential interest rates
+**Education Visa (extension-based):** Requires proof of study, full account access available
+**Non-Immigrant B Visa (business):** Most common for remote workers, enables account opening
+**Tourist Visa:** Bank accounts possible but with limitations; may require minimum balance higher than resident requirement
+**Visa Exempt Entry:** Same-day account opening not always possible; visit tourist-friendly branches
+
+Digital nomads on tourist visas or visa exemptions should expect to visit branches in Chiang Mai, Bangkok, or Phuket where staff are experienced with foreigners. Interior branches sometimes refuse accounts to non-residents.
+
+## Tax Filing Considerations for Remote Developers
+
+Thailand uses a calendar year (Jan 1-Dec 31) tax year. For digital nomads, understanding reporting is crucial:
+
+**Not Thailand Tax Resident (under 180 days):**
+- No obligation to file Thai taxes
+- Foreign-sourced income not taxable in Thailand
+- Can open Thai bank accounts freely
+
+**Became Thailand Tax Resident (180+ days in year):**
+- Required to file annual tax return (by March 31 next year)
+- Foreign-sourced income not taxable, but must declare
+- Thai-sourced income (freelance work for Thai companies) IS taxable
+- Standard filing fee: 0 THB (free), but professional tax prep costs 500-2,000 THB
+
+Most remote developers remain non-residents by maintaining absences from Thailand during the year. Those planning 12+ month stays should consult with Thai tax professionals (available through expatriate accountants, $500-1,000 for full year planning).
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
