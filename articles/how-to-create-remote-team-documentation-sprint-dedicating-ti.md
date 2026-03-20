@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-documentation-sprint-dedicating-ti/
 categories: [guides]
-tags: [documentation, remote-work, wiki, team-collaboration, dev-productivity]
+tags: [remote-work-tools, documentation, remote-work, wiki, team-collaboration, dev-productivity]
 reviewed: true
 score: 8
 intent-checked: true

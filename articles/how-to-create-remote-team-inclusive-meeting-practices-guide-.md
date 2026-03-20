@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-inclusive-meeting-practices-guide-/
 categories: [guides]
-tags: [remote-work, inclusive-meetings, global-teams, async, team-collaboration]
+tags: [remote-work-tools, remote-work, inclusive-meetings, global-teams, async, team-collaboration]
 reviewed: true
 score: 8
 intent-checked: true

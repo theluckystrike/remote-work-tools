@@ -6,11 +6,11 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-architecture-decision-record-templ/
 categories: [guides]
-tags: [architecture, adr, technical-decisions, remote-work, distributed-teams, documentation, engineering]
+tags: [remote-work-tools, architecture, adr, technical-decisions, remote-work, distributed-teams, documentation, engineering]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 9
+score: 8
 ---
 
 {% raw %}

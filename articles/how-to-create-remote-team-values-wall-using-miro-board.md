@@ -6,9 +6,9 @@ date: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-values-wall-using-miro-board/
 categories: [guides]
-tags: [remote-work, team-building, miro, collaboration, values, culture]
+tags: [remote-work-tools, remote-work, team-building, miro, collaboration, values, culture]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

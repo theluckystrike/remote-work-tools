@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-working-agreement-template-for-new/
 categories: [guides]
-tags: [remote-work, team-agreement, async-communication, distributed-teams, workflow]
+tags: [remote-work-tools, remote-work, team-agreement, async-communication, distributed-teams, workflow]
 reviewed: true
 score: 8
 intent-checked: true

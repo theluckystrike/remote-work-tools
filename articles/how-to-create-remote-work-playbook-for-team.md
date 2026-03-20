@@ -6,10 +6,11 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-playbook-for-team/
 reviewed: true
-score: 8
+score: 7
 categories: [guides]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

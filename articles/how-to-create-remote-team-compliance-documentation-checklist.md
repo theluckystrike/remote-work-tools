@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-compliance-documentation-checklist/
 categories: [guides]
-tags: [compliance, sox, iso-27001, remote-work, documentation, audit]
+tags: [remote-work-tools, compliance, sox, iso-27001, remote-work, documentation, audit]
 reviewed: true
 score: 8
 intent-checked: true

@@ -10,6 +10,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 Establish remote team communication guidelines for new projects by creating a channel selection matrix, defining async writing standards, setting meeting protocols with time zone rules, and capturing documentation artifacts like ADRs. This framework prevents communication friction, reduces coordination overhead, and ensures important information survives beyond individual conversations—critical for distributed teams across time zones.

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-values-and-principles-document-col/
 categories: [guides]
-tags: [remote-work, team-culture, collaboration]
+tags: [remote-work-tools, remote-work, team-culture, collaboration]
 reviewed: true
 score: 8
 intent-checked: true

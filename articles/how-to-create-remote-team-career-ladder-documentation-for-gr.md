@@ -6,8 +6,8 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-career-ladder-documentation-for-gr/
 categories: [guides]
-tags: [career-ladder, remote-work, engineering-management, hiring, talent-development]
-score: 7
+tags: [remote-work-tools, career-ladder, remote-work, engineering-management, hiring, talent-development]
+score: 8
 voice-checked: true
 reviewed: true
 intent-checked: true

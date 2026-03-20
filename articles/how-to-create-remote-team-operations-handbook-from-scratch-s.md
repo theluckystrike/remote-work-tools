@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/
 categories: [guides]
-tags: [remote-work, operations-handbook, team-collaboration, documentation, developer-productivity]
+tags: [remote-work-tools, remote-work, operations-handbook, team-collaboration, documentation, developer-productivity]
 reviewed: true
 score: 8
 intent-checked: true

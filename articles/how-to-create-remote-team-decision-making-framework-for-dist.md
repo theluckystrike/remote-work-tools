@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-decision-making-framework-for-dist/
 categories: [guides]
-tags: [decision-making, remote-work, distributed-teams, async, framework, leadership]
+tags: [remote-work-tools, decision-making, remote-work, distributed-teams, async, framework, leadership]
 reviewed: true
 intent-checked: true
 voice-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-onboarding-buddy-program-template-for-n/
 categories: [guides]
-tags: [onboarding, remote-work, buddy-program, new-hire, team-collaboration]
+tags: [remote-work-tools, onboarding, remote-work, buddy-program, new-hire, team-collaboration]
 reviewed: true
 score: 8
 intent-checked: true

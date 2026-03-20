@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-promotion-criteria-transparent-and/
 categories: [guides]
-tags: [remote-work, promotions, career-growth, hr, team-management]
+tags: [remote-work-tools, remote-work, promotions, career-growth, hr, team-management]
 reviewed: true
 score: 8
 intent-checked: true

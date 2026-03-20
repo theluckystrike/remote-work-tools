@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-work-nanny-cam-policy-that-respects-car/
 categories: [guides]
-tags: [remote-work, home-security, privacy, policy, automation, smart-home]
+tags: [remote-work-tools, remote-work, home-security, privacy, policy, automation, smart-home]
 reviewed: true
 score: 8
 intent-checked: true
