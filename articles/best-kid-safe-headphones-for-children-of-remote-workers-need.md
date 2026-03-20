@@ -9,7 +9,7 @@ permalink: /best-kid-safe-headphones-for-children-of-remote-workers-need/
 categories: [guides]
 tags: [remote-work-tools, tools, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
