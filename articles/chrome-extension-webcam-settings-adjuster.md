@@ -33,24 +33,26 @@ Chrome extensions that adjust webcam settings solve these problems by giving you
 
 ### 1. Webcam Settings Controller
 
-This extension provides the most control panel for webcam settings directly in Chrome. It supports:
+This extension provides the most control panel for webcam settings directly in Chrome. Price: Free (Ad-supported) or $2.99 for premium version. It supports:
 
 - Resolution selection: Choose from 720p, 1080p, or even 4K if your camera supports it
 - Frame rate control: Adjust from 15fps to 60fps based on your bandwidth needs
 - Manual focus: Lock focus on your face or a specific distance
 - White balance: Correct color temperature for different lighting conditions
+- Zoom and Pan: Digital zoom control for framing adjustments
 
-The interface appears as a popup when you click the extension icon, showing sliders for each parameter in real-time.
+The interface appears as a popup when you click the extension icon, showing sliders for each parameter in real-time. 4.2-star rating on Chrome Web Store with 50k+ users.
 
 ### 2. Camera Settings Plus
 
-Camera Settings Plus takes a simpler approach, offering quick-access controls that work across all video platforms. Key features include:
+Camera Settings Plus takes a simpler approach, offering quick-access controls that work across all video platforms. Price: Free. Key features include:
 
 - One-click presets: Apply settings optimized for meetings, streaming, or recording
 - Auto-enhance: AI-powered adjustments that analyze your frame and optimize accordingly
 - Device memory: Save different profiles for different cameras or use cases
+- Brightness/Contrast/Saturation sliders: Basic adjustments for all lighting conditions
 
-This extension is ideal if you want good results without spending time tweaking dozens of settings.
+This extension is ideal if you want good results without spending time tweaking dozens of settings. 4.0-star rating, 25k+ active users.
 
 ### 3. Video Settings Tweaker
 
@@ -60,8 +62,72 @@ For developers and power users, Video Settings Tweaker offers advanced controls 
 - ISO control: Adjust light sensitivity for darker environments
 - Saturation and hue: Fine-tune colors to match your brand or preference
 - Mirroring and rotation: Fix orientation issues without system-wide changes
+- Advanced color grading: Temperature, tint, and advanced white balance
 
-This extension requires some knowledge of camera terminology but provides the most flexibility.
+This extension requires some knowledge of camera terminology but provides the most flexibility. Price: Free. 3.9-star rating, 15k+ users.
+
+### Alternative: OBS Virtual Camera (Not a Chrome extension)
+
+While not a Chrome extension, OBS Virtual Camera ($0, open-source) provides system-wide webcam control that works across all applications. Install OBS, configure your camera settings there, and launch OBS Virtual Camera. Every application—including Chrome—sees the adjusted camera output. This approach eliminates extension limitations and provides the most powerful control option for developers.
+
+## Best Practices for Webcam Settings
+
+**Default Starting Settings (2026 networks):**
+```
+Resolution: 1080p (1920x1080) or 720p if bandwidth < 5 Mbps
+Frame Rate: 30fps (reduce to 24fps on poor connections)
+Brightness: +15 (adjust +/-5 based on room lighting)
+Contrast: +5 to +10
+Saturation: Neutral or +5 (avoid oversaturation)
+White Balance: Auto (unless lighting is perfectly consistent)
+```
+
+**Lighting-First Approach:** Before tweaking extension settings, optimize your physical environment:
+1. Position window or light source in front of you (not behind)
+2. Use a basic desk lamp angled toward your face
+3. Avoid harsh shadows across your face
+4. Test extension settings after lighting is correct
+
+No extension compensates for genuinely poor lighting. A $20 ring light combined with basic extension settings produces better results than premium extension features with poor lighting.
+
+**Performance Monitoring:** After enabling extensions, monitor:
+- CPU usage (extensions should add < 5% overhead)
+- Frame rate consistency (60+ fps capture, 24-30 fps output)
+- Bandwidth impact (add 0.5-1 Mbps for video, varies by settings)
+
+If you notice lag or dropped frames, reduce resolution or frame rate before disabling the extension.
+
+## Troubleshooting Table for Common Extension Issues
+
+| Problem | Cause | Solution |
+|---------|-------|----------|
+| Settings don't apply in Zoom | App camera access override | Use virtual camera (OBS) instead |
+| Settings reset when opening new tab | Per-tab persistence | Activate extension before joining call |
+| Camera not detected | Permission not granted | Restart browser, grant camera access |
+| Lag during video calls | Extension processing overhead | Reduce resolution or disable effects |
+| Colors look washed out | Overcorrection in white balance | Reset to auto white balance |
+| Frame rate inconsistent | Low bandwidth | Reduce resolution and frame rate together |
+
+Most issues resolve by switching to a virtual camera approach (OBS) rather than direct extension application.
+
+## When Extensions Are Worth Using vs. Alternatives
+
+**Use extensions when:**
+- You're in Chrome-only environment (Chromebook, VM)
+- You need quick, temporary adjustments
+- Your platform supports direct camera adjustment (Zoom, Google Meet)
+- You prefer browser-based tools over system-level solutions
+
+**Use OBS Virtual Camera instead when:**
+- You need settings that persist across all applications
+- You're using Microsoft Teams or other restrictive platforms
+- You value full control over camera pipeline
+- You're recording video or streaming simultaneously
+
+**Invest in hardware instead when:**
+- Your built-in camera is genuinely poor quality (ancient laptop)
+- Your lighting is the limiting factor (extensions can't fix darkness)
+- You're planning long-term remote work (Logitech C920 ~$60-80 pays for itself in quality)
 
 ## How to Install and Configure a Webcam Settings Extension
 
@@ -88,6 +154,15 @@ White Balance: Auto (or manual if you have consistent lighting)
 ### Step 4: Test Across Platforms
 
 Open your video app of choice—Zoom, Google Meet, Microsoft Teams, or OBS—and verify that your settings persist. Some extensions can apply settings globally, while others need to be activated per-tab.
+
+**Platform-specific behavior (2026):**
+- **Zoom**: Most extensions apply settings within the app itself
+- **Google Meet**: Extensions work but browser-level camera settings may override custom adjustments
+- **Microsoft Teams**: Native camera controls sometimes conflict with extension settings
+- **Discord**: Extensions work reliably for voice calls
+- **Twitch/YouTube Live**: Extensions apply to browser camera feed sent to streaming software
+
+Test your specific platform combination before relying on extensions for important calls.
 
 ## Advanced Tips for Webcam Optimization
 

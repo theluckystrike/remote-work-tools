@@ -101,9 +101,22 @@ Sketch's version history exists but feels like an afterthought compared to Figma
 
 ## Cost Considerations for Remote Teams
 
-Both tools operate on subscription models, but the pricing structure affects remote teams differently. Sketch charges per editor, making it cost-effective for small teams but expensive as you scale. Figma's organization-wide licensing often works out cheaper for companies with many stakeholders who need view-only access.
+Both tools operate on subscription models, but the pricing structure affects remote teams differently:
 
-For open-source projects, both offer free tiers, though Figma's community file hosting provides better visibility for collaborative design work.
+**Sketch Pricing (2026):**
+- Sketch Teams: $120/editor/year (paid annually), unlimited files, cloud storage
+- Sketch Pro (Mac only): $120/year single license
+- Educational licenses available at 50% discount
+
+**Figma Pricing (2026):**
+- Free Tier: 3 files, unlimited collaborators, limited sharing features
+- Professional: $12/editor/month, unlimited files, unlimited collaborators
+- Organization: $60/month (covers entire team), unlimited files and editors
+- Enterprise: Custom pricing for 50+ team members
+
+For a small remote design team (3-5 designers), Sketch's per-editor model costs $360-600 annually. Figma's Professional tier costs $144-180 annually per designer, while a shared Organization tier might be $60-120/month depending on team size. Figma's model becomes advantageous when including non-designers (product managers, developers) who need view-only access—they don't require paid seats in Figma.
+
+For open-source projects, both offer free tiers, though Figma's community file hosting provides better visibility for collaborative design work. Sketch's free tier is extremely limited (one file only), while Figma's free tier supports 3 files with full collaboration capabilities.
 
 ## Practical Recommendations
 
@@ -121,7 +134,95 @@ Choose Sketch if:
 
 For remote design collaboration in 2026, Figma has become the default choice for most teams. Its web-first approach aligns naturally with distributed work, and the developer experience improvements over the past years have closed many gaps that once favored Sketch.
 
+## Feature Depth Comparison for Developer Handoff
+
+**Figma Developer Handoff:**
+- Inspect panel: Click any element, view exact dimensions, padding, spacing, typography
+- Code export: CSS, SWIFT, Kotlin auto-generated from design systems
+- Component variants: Document all states (hover, active, disabled) in single component
+- REST API access: Pull design tokens programmatically into your pipeline
+- GitHub integration: Link branches to Figma files for automatic updates
+
+**Sketch Developer Handoff:**
+- Inspect panel: Limited; requires Sketch Cloud
+- Code export: Limited; third-party plugins needed (often paid)
+- Symbol management: Older paradigm than Figma variants
+- No native API: Third-party tools required for automation
+- No Git integration: Manual version management
+
+For developer teams integrating design systems into code, Figma's advantage is substantial. An average developer spends 30-40% less time implementing designs when using Figma's inspect tools versus Sketch's more manual process.
+
+## Recommendation Framework
+
+**Choose Figma if:**
+- Your team is distributed across time zones or operating systems
+- You have non-design stakeholders who need design access (developers, product managers)
+- You value API-driven design system automation
+- Budget allows for organization licensing ($60-120/month)
+- You want native Git-like version control and branching
+
+**Choose Sketch if:**
+- Your entire design team exclusively uses macOS
+- Offline work is essential for your workflow
+- You have significant investment in Sketch plugins
+- You prefer local-file paradigm over cloud-first
+- Your team size is strictly limited (per-editor licensing is cheaper at 1-3 editors)
+
 The best approach is evaluating your specific constraints: team geography, existing tool investments, and integration requirements with your development pipeline. Both tools produce excellent design outputs—the difference lies in how your team collaborates to get there.
+
+## Plugin and Extension Ecosystem Comparison
+
+**Figma Plugins (3,000+ available):**
+- Design system management (Supernova, Zeplin)
+- Code generation (Penpot, Locofy)
+- Asset management and optimization
+- Accessibility checkers
+- AI-powered design assistance (recent additions)
+
+Most Figma plugins are free or under $50/month. The ecosystem is mature and well-documented, making custom plugin development straightforward for developers familiar with JavaScript.
+
+**Sketch Plugins (800+ available):**
+- Excellent design-to-code plugins (Anima, Avocode)
+- Asset management (Craft, Framer)
+- Workflow automation
+- Animation tools
+
+Sketch's plugin ecosystem is more curated but smaller. Some popular plugins are Mac-only and require native development knowledge. Plugin costs typically range $0-100/year, comparable to Figma.
+
+For remote design teams using Sketch, the limited cross-platform plugin support becomes a real limitation when developers on Windows or Linux need design tool access.
+
+## Real-World Implementation Examples
+
+**Remote Design Team Using Figma (5-person distributed):**
+- Designer A (SF) creates components, shares link
+- Designer B (London) iterates on components in real-time, leaves comments
+- Developer C (NYC) inspects and implements CSS
+- Product Manager D (Singapore) reviews and approves
+- CEO E (remote) views read-only for stakeholder reviews
+- **Cost: $60/month organization plan (5 editors, unlimited viewers)**
+- **Collaboration model: Seamless, asynchronous-friendly**
+
+**Remote Design Team Using Sketch (3-person, all Mac):**
+- Designer A creates base components
+- Designer B imports via Dropbox, makes changes (version conflicts possible)
+- Developer C exports assets for implementation
+- Product Manager reviews screenshots/PDFs shared via Slack
+- **Cost: $120/year × 3 = $360/year (Sketch Teams)**
+- **Collaboration model: Sequential rather than simultaneous**
+
+The Figma team moves faster with fewer integration steps. The Sketch team works well for three distributed developers, but adding a fourth team member (or non-Mac user) introduces friction.
+
+## Migration Checklist for Teams Considering Figma
+
+If moving from Sketch to Figma:
+
+**Week 1:** Audit existing Sketch files, identify critical assets (icons, components, patterns)
+**Week 2:** Recreate 20% of most-used components in Figma (design tokens, color systems)
+**Week 3:** Run test sprint with mixed Figma/Sketch workflows
+**Week 4:** Full migration of remaining components
+**Week 5-6:** Retire Sketch files after validation period
+
+Most teams report 3-4 week transition time with zero productivity loss. The upfront investment pays off immediately through faster collaboration and fewer versioning headaches.
 
 
 ## Related Reading
