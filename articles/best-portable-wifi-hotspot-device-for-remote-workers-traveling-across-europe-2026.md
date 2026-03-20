@@ -142,13 +142,217 @@ European outlets vary by country. Italy uses Type L (three prongs in a row), Swi
 
 Portable hotspots store your network credentials. Enable WPA3 encryption, change default admin passwords, and avoid configuring devices in public spaces where shoulder surfing could compromise your settings.
 
+## Device Comparison: Complete Decision Matrix
+
+### Entry-Level Options ($50-150)
+| Device | Price | Best For | Drawbacks |
+|--------|-------|----------|-----------|
+| TP-Link M7350 | $80-100 | Budget travelers | Limited bands, weaker battery |
+| Netgear AirCard 810S | $120-150 | Casual usage | Older technology, slower speeds |
+| Huawei E8372 | $100-120 | Europe-specific | Limited support, firmware concerns |
+
+**Recommendation for budget**: Skip this tier if you work remotely. The $50-100 you save becomes a problem when connectivity fails during client calls.
+
+### Mid-Range Professional ($150-350)
+| Device | Price | 4G/5G | Battery | Antennas | Best For |
+|--------|-------|--------|---------|----------|----------|
+| GL.iNet GL-M1300 | $80-120 | 4G LTE | 8h | No | Backup device |
+| TP-Link M7450 | $150-200 | 4G LTE | 12h | Yes | Reliable all-rounder |
+| Netgear Nighthawk M6 | $250-300 | 4G/5G | 11h | Yes | Speed priority |
+
+**Recommendation**: TP-Link M7450 balances reliability, battery life, and cost for European travel.
+
+### Professional Tier ($300-600)
+| Device | Price | 5G | Battery | Features | Best For |
+|--------|-------|-----|---------|----------|----------|
+| GL.iNet GL-MT3000 | $200-250 | No | 10h | WireGuard, OpenWrt | Security priority |
+| Netgear Nighthawk M6 Pro | $400-500 | Yes | 14h | Best specs, 5G | Speed/coverage |
+| ASUS AiMesh-capable | $300-400 | 4G | 10h | Mesh networking | Multiple locations |
+
+**Recommendation for professionals**: GL.iNet GL-MT3000 for developers valuing privacy and control, or M6 Pro for absolute reliability in poor coverage areas.
+
+## Carrier Selection Strategy for Europe
+
+### Primary SIM Selection by Country
+
+```
+Recommended carriers by coverage quality:
+├── Western Europe (France, Spain, Germany, Italy)
+│   ├── France: Orange (best) or SFR
+│   ├── Spain: Vodafone ES or Telefónica
+│   ├── Germany: Deutsche Telekom or Vodafone DE
+│   └── Italy: Tim or Vodafone IT
+├── Northern Europe (Nordic countries)
+│   ├── Sweden: Telia or Telenor (both excellent)
+│   ├── Norway: Telenor (best coverage)
+│   └── Denmark: TDC or Telia
+├── Eastern Europe (Poland, Czech Republic, Hungary)
+│   ├── Poland: Orange Polska (best)
+│   ├── Czech Republic: O2 Czech Republic
+│   └── Hungary: Magyar Telekom
+└── Southern Europe (Portugal, Greece, Croatia)
+    ├── Portugal: MEO or Vodafone PT
+    ├── Greece: Vodafone GR or OTE
+    └── Croatia: T-Mobile HR
+```
+
+### Cost Optimization
+
+Rather than pre-purchasing roaming packages, buy local SIMs:
+- Cost: €15-30 for 30GB monthly plan
+- Speed: Same carrier priority as locals (no roaming throttling)
+- Reliability: Direct relationship with carrier
+
+Tool for finding cheapest SIM:
+```bash
+# Create a SIM comparison spreadsheet template
+# Fill in at each new destination
+
+Country,Carrier,Plan Size,Monthly Cost,Coverage Score,Setup Time
+France,Orange,30GB,€20,5,10min
+Spain,Vodafone,30GB,€18,5,10min
+```
+
+### eSIM Strategy for Seamless Transition
+
+Use eSIM for redundancy and regional plans:
+- Airalo: €5-20 for regional European coverage (20GB across 40 EU countries)
+- Holafly: €20-50 for single country high-speed plans
+- Local carrier eSIMs in major countries for backup
+
+Typical setup:
+- Primary: Local physical SIM (best price, best local support)
+- Secondary: Airalo eSIM (seamless EU roaming fallback)
+- Tertiary: Holafly eSIM (premium option, activate if primary fails)
+
+Cost for complete redundancy: ~€40/month
+
+## Connectivity Troubleshooting Framework
+
+When connectivity fails while traveling:
+
+### Immediate Diagnostics (5 minutes)
+```bash
+# Test basic connectivity
+ping -c 5 8.8.8.8
+
+# Check signal strength and bands
+# (Method varies by device, typically in settings)
+
+# Verify IP assignment
+ifconfig | grep inet
+
+# Check DNS resolution
+nslookup google.com
+
+# Speed test if connection exists
+# Use your phone's test app or laptop speedtest.net
+```
+
+### Root Cause Analysis
+| Symptom | Likely Cause | Solution |
+|---------|-------------|----------|
+| No signal bars | No coverage or airplane mode | Verify location coverage map, toggle airplane mode |
+| Signal but no data | Network mode mismatch | Force 4G mode (disable 5G if issues exist) |
+| Slow speeds | Congestion or wrong band | Change location, restart device, force carrier selection |
+| Frequent disconnects | Poor signal or battery | Reduce background apps, lower screen brightness, move closer to window |
+
+### Failover Activation
+```bash
+# If primary SIM fails, activate eSIM backup
+# Process depends on device, typically:
+# 1. Settings > SIM Management
+# 2. Select Airalo eSIM
+# 3. Activate data
+# 4. Test connectivity
+
+# If traveling far from city, activate high-speed eSIM
+# Usually works within 30 seconds of activation
+```
+
+## Real-World Usage Patterns
+
+### Scenario 1: City-Based Work (Berlin, Barcelona, Amsterdam)
+**Setup**: Local carrier SIM + Airalo eSIM backup
+**Expected performance**: 30-50 Mbps download, <50ms latency
+**Cost**: €20-25/month
+**Recommendation**: Reliable, minimal backup activation needed
+
+### Scenario 2: Digital Nomad (Multiple cities, 2 weeks each)
+**Setup**: Local SIM in each location, Holafly premium eSIM
+**Expected performance**: 20-40 Mbps download, varies by location
+**Cost**: €35-50/month
+**Recommendation**: Maximizes local network advantages
+
+### Scenario 3: Rural/Remote Work (Countryside, smaller towns)
+**Setup**: GL.iNet router with dual SIM support + external antenna
+**Expected performance**: 5-15 Mbps, more stable than phone
+**Cost**: €30-40/month + equipment
+**Recommendation**: External antenna critical for signal strength
+
+## Testing Your Setup Before Relying on It
+
+Complete this validation suite:
+
+```bash
+#!/bin/bash
+# Connectivity validation before production use
+
+echo "=== Portable WiFi Validation Suite ==="
+
+# Test 1: Download performance
+echo "Test 1: Download speed"
+speedtest-cli --simple
+
+# Test 2: Upload performance (critical for video calls)
+speedtest-cli --upload-only
+
+# Test 3: Latency consistency
+echo "Test 3: Latency stability (ping 100 times)"
+ping -c 100 8.8.8.8 | tail -1
+
+# Test 4: Video call simulation
+# Open Zoom/Teams, run 10-min test call
+# Check: no disconnects, clear audio, stable video
+
+# Test 5: Large file transfer
+# Transfer 500MB file over WiFi
+# Measure: transfer speed, interruptions
+
+# Test 6: DNS resolution
+echo "Test 6: DNS resolution speed"
+nslookup google.com
+nslookup github.com
+nslookup cloudflare.com
+```
+
 ## Building Your Connectivity Stack
 
 The best portable WiFi setup combines hardware reliability, carrier redundancy, and software resilience. No single device or carrier guarantees perfect connectivity across all European environments. Your goal is minimizing single points of failure.
 
-Start with a GL.iNet router for portability and OpenWrt flexibility, add a local carrier SIM as primary data, maintain an eSIM as backup, and always tunnel through VPN when using any public network. This stack handles most scenarios developers encounter while working across European cities and towns.
+### Budget-Conscious Stack ($400-500 total)
+- TP-Link M7450 portable router ($180)
+- Local SIM in primary location ($25/month)
+- Airalo eSIM regional backup ($15)
+- Backup mobile hotspot via phone ($10/month)
+- Total recurring: ~€50/month
 
-Test your connectivity setup before relying on it for production work. Run bandwidth tests at different times of day, evaluate latency to your primary cloud services, and verify that VPN performance remains acceptable over cellular connections.
+### Professional Stack ($700-900 initial, ~€60/month)
+- GL.iNet GL-MT3000 + external antenna ($300)
+- Dual SIM mobile router as backup ($200)
+- Primary local SIM + Holafly premium eSIM ($40/month)
+- VPN subscribed with good throughput ($10/month)
+
+### Enterprise Reliability Stack ($1,500+ initial)
+- Multiple GL.iNet routers (different locations)
+- Local SIMs in 3-4 major working countries
+- Holafly + Airalo eSIM redundancy
+- Dedicated VPN service ($20/month)
+- Usage: Move router between locations monthly
+
+Start with a mid-range device (GL.iNet GL-MT3000 or TP-Link M7450) plus local SIM plus Airalo backup. This handles 95% of real-world European travel scenarios for developers.
+
+Test your connectivity setup before relying on it for production work. Run bandwidth tests at different times of day, evaluate latency to your primary cloud services, and verify that VPN performance remains acceptable over cellular connections. Budget 2-3 hours in your first destination city for testing before a critical client call.
 
 ---
 

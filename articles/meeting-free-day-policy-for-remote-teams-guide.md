@@ -142,11 +142,198 @@ One-on-ones getting moved: Treat one-on-ones as meetings and move them to other 
 
 The policy becoming optional: Leadership must model the behavior. If managers schedule meetings on focus days, the policy loses credibility.
 
+## Tooling and Implementation Options
+
+Different teams require different solutions. Here's a comparison of approaches and tools:
+
+### Approach 1: Calendar Block + Manual Enforcement
+**Cost:** Free
+**Effort:** Low
+**Best for:** Teams with strong culture and small size (under 10 people)
+
+Create a recurring all-day event on focus day. Title it "Focus Time - No Meetings." Set transparency to opaque so it blocks calendar visibility.
+
+### Approach 2: Email Filter Rules
+**Cost:** Free (Gmail, Outlook built-in)
+**Effort:** Medium
+**Best for:** Teams using email-based meeting systems
+
+Gmail filter example:
+- Matches: All email to/from account
+- Has attachment: meeting invite, schedule
+- Label: Do Not Process on Friday
+- Never mark as spam
+
+### Approach 3: Slack Bot Automation
+**Cost:** Free (custom bot) to $20/month (commercial)
+**Effort:** Medium
+**Best for:** Teams already using Slack heavily
+
+Popular options:
+- Custom bot using Slack API (free, requires setup)
+- Reclaim.ai ($10-25/user/month, includes calendar management)
+- Clockwise ($7-10/user/month, focuses on focus time)
+
+For a team of 5-6 developers, custom bot costs: ~2 hours setup time (then runs free forever).
+
+### Approach 4: Calendar Management Platform
+**Cost:** $8-30/user/month
+**Effort:** Low
+**Best for:** Teams already heavily calendar-dependent
+
+Popular choices:
+- **Reclaim.ai**: Automatically schedules focus blocks, respects them across team
+- **Clockwise**: Focuses on deep work windows, integrates with Slack
+- **Motion**: AI scheduling that protects focus time and schedules meetings efficiently
+
+Pricing comparison for team of 6:
+- Reclaim: $60-150/month ($10-25 per user)
+- Clockwise: $42-60/month ($7-10 per user)
+- Motion: $50-130/month
+
+## Implementation Timeline and Rollout
+
+### Week 1: Planning
+- Survey team about preferences (which day, which exceptions)
+- Document policy in writing (template below)
+- Announce decision with full context
+
+### Week 2-3: Soft Launch
+- Block calendar day, but don't enforce strictly
+- Track what breaks naturally
+- Gather feedback in team sync
+
+### Week 4: Hard Launch
+- Implement tooling (calendar blocks, Slack rules, etc.)
+- Enforce exceptions policy strictly
+- Measure baseline metrics
+
+### Week 5-8: Iteration
+- Review metrics weekly
+- Adjust threshold based on team feedback
+- Refine exception handling
+
+## Policy Template for Your Team
+
+Copy and adapt this template to your wiki:
+
+```markdown
+# Meeting-Free Day Policy
+
+## Goal
+Protect developer time for deep work, code review, and problem-solving.
+
+## The Policy
+- **Day:** Every Wednesday
+- **Hours:** 9:00 AM - 5:00 PM (your timezone)
+- **Scope:** No scheduled meetings, no new Slack threads, no ad-hoc pings
+
+## Approved Exceptions
+Only these situations justify a Wednesday meeting:
+- **Critical incident response** (P0 or higher)
+- **Client emergency** (with prior approval from manager)
+- **All-hands** (quarterly or less frequent)
+- **Escalation discussion** (15 min max, scheduled by Friday before)
+
+## Enforcement
+- Recurring calendar block marks the day as "busy"
+- Meeting invites received after 5 PM Friday are automatically declined
+- Slack: Do-not-disturb status enabled automatically 9 AM - 5 PM
+- Exceptions require management approval sent 24 hours in advance
+
+## Feedback
+Report violations or improvements needed in #engineering-processes
+Weekly check-in every other week in team sync
+```
+
+## Measuring Impact: Metrics Framework
+
+Track these metrics before and after implementation:
+
+### Productivity Metrics
+| Metric | Target | How to Measure |
+|--------|--------|----------------|
+| Code commits on focus day | +20% vs other days | GitHub analytics |
+| PR review turnaround | <8 hours | Linear/GitHub stats |
+| Issues closed on focus day | +15% vs other days | Issue tracker |
+| Unplanned context switches | -40% | Calendar fragmentation analysis |
+
+### Developer Satisfaction
+- Pulse survey: "Do you have enough focus time?" (1-5 scale)
+- Retention: Monitor departures (focus time cited as factor)
+- Burnout signals: Track async check-in sentiment
+
+### Team Throughput
+- Sprint velocity week-to-week
+- Mean time to resolve (MTTR) for bugs
+- Customer-facing feature delivery rate
+
+### Sample Measurement Script
+```python
+# Measure meeting load before/after
+import json
+from datetime import datetime, timedelta
+
+def calculate_meeting_load(calendar_data, start_date, days=30):
+    """Calculate minutes of meetings per day"""
+
+    daily_meetings = {}
+    for event in calendar_data:
+        if event['status'] != 'confirmed':
+            continue
+
+        event_date = event['start']['dateTime'].split('T')[0]
+        duration = (
+            datetime.fromisoformat(event['end']['dateTime']) -
+            datetime.fromisoformat(event['start']['dateTime'])
+        ).total_seconds() / 60
+
+        if event_date not in daily_meetings:
+            daily_meetings[event_date] = 0
+        daily_meetings[event_date] += duration
+
+    avg_before = sum([v for k, v in daily_meetings.items()
+                      if k < start_date]) / len([...])
+    avg_after = sum([v for k, v in daily_meetings.items()
+                     if k >= start_date]) / len([...])
+
+    return {
+        'avg_before': avg_before,
+        'avg_after': avg_after,
+        'reduction_percent': ((avg_before - avg_after) / avg_before) * 100
+    }
+```
+
+## Scaling to Multiple Teams or Company-Wide
+
+### Phase 1: Single Team (Weeks 1-4)
+- One team tests policy
+- Document learnings
+- Create reusable tooling
+
+### Phase 2: Cross-Team Rollout (Weeks 5-8)
+- Share template and success metrics
+- Let other teams adopt independently
+- Track adoption and results
+
+### Phase 3: Company-Wide Standardization (Months 3-6)
+- Align focus day across teams (usually same day)
+- Implement company-level Slack rules and calendar policies
+- Build culture celebrating focus time
+
 ## Getting Started Today
 
 Start small. Pick one day next week. Block it on your calendar and communicate it to your team. See what breaks and fix those issues. Iterate from there.
 
 The goal isn't perfection—it's protecting time for the deep work that matters. Most teams find that once they experience focused work without interruptions, they never want to go back.
+
+For a quick start:
+1. Create recurring all-day calendar event next Wednesday (takes 2 min)
+2. Share policy template above with your team (copy/paste to wiki)
+3. Announce: "Let's try meeting-free Wednesday this week"
+4. Gather feedback in Friday sync
+
+Measure results after week 2. By week 4, the practice becomes self-sustaining as team members experience the benefits directly.
 
 
 ## Related Reading

@@ -152,13 +152,250 @@ Several tools complement wiki training:
 - Permission issues: Ensure new hires can edit appropriate sections
 - Version neglect: Link to the current version, not stale references
 
+## Wiki Platform Selection
+
+Your training approach depends on which platform you choose. Here's comparison:
+
+### Popular Wiki Platforms
+
+| Platform | Cost | Best For | Learning Curve | Setup Time |
+|----------|------|----------|-----------------|------------|
+| Confluence | $5-50/user/month | Established teams | Medium | 2 hours |
+| Notion | Free-$12/user/month | Flexible docs | Low | 1 hour |
+| GitBook | Free-$40/month | Developer-focused | Low | 30 min |
+| MediaWiki | Free (self-hosted) | Large orgs | High | 1-2 days |
+| MkDocs | Free (self-hosted) | Code-heavy teams | Medium | 3 hours |
+
+**Recommendation for small teams (5-15 people)**: **Notion** combines ease of use with powerful organization. Free tier handles most startups.
+
+### Setup Time by Platform
+- Notion: 30 minutes to working wiki
+- GitBook: 1 hour including basic docs
+- Confluence: 2-3 hours including permissions
+- MkDocs: 3-4 hours but more flexible for developers
+
+## Training Timeline and Effort
+
+### For New Hire Training
+- **Time investment per person**: 2-3 hours total
+  - Initial walkthrough: 60 minutes
+  - Hands-on practice: 45 minutes
+  - Documentation task: 30-45 minutes
+
+- **Team time investment per hire**: 1-2 hours
+  - Recording walkthrough once per quarter: 60 minutes
+  - Reviewing submissions: 15-30 minutes per hire
+  - Answering questions: 10-20 minutes
+
+**Monthly cost**: If onboarding 1 hire/month, team investment is ~2-3 hours
+
+### For Existing Team Maintenance
+- **Weekly time**: 30-60 minutes total (distributed)
+  - Review and update during sprint: 20 minutes
+  - Respond to wiki-related questions: 20-40 minutes
+  - Archive/deprecate outdated docs: 20 minutes (monthly)
+
+## Content Strategy for Different Document Types
+
+Your wiki likely contains multiple document types. Train new hires on each:
+
+### Type 1: How-To Guides
+```markdown
+# How to [Action]
+
+## Prerequisites
+- Requirement 1 (with link to dependency)
+- Requirement 2
+
+## Step-by-Step
+1. First step (include exact commands)
+2. Second step
+3. Verify step (how do you know it worked?)
+
+## Troubleshooting
+**If X happens**: Try Y
+
+## Related Docs
+- [Related guide 1]
+- [Related guide 2]
+```
+
+**Training for this type**: Show by example, have hire write one
+
+### Type 2: Architecture Decision Records (ADRs)
+```markdown
+# ADR-[Number]: [Decision Title]
+
+## Status
+Proposed/Accepted/Deprecated
+
+## Context
+Why we're making this decision
+
+## Decision
+What we decided to do
+
+## Consequences
+Benefits and drawbacks of this approach
+
+## Alternatives Considered
+- Alternative 1 and why we didn't choose it
+- Alternative 2 and why we didn't choose it
+```
+
+**Training for this type**: Show existing ADRs, discuss reasoning
+
+### Type 3: Reference Documentation
+```markdown
+# [System/Service] Reference
+
+## Overview
+What this is and why it exists
+
+## Configuration
+Key config options and defaults
+
+## Common Operations
+- Operation A: command and expected output
+- Operation B: command and expected output
+
+## Troubleshooting
+Common problems and solutions
+
+## Monitoring
+Where to check health, key metrics to monitor
+```
+
+**Training for this type**: Live demo, then walk through with hire
+
+## Habit Building: Integration with Daily Workflow
+
+Training only sticks if documentation becomes a daily habit. Integrate into workflow:
+
+### Pair Programming Integration
+```
+Pair programming with new hire:
+├── Every 3rd pairing session (days 1-3 of onboarding)
+├── "Let's document this as we go"
+├── Alternate who drives docs editing
+└── Creates immediate documentation wins
+```
+
+### Code Review Integration
+Add a docs-checking step:
+```
+Code review checklist:
+☐ Code changes approved
+☐ Tests adequate
+☐ Documentation updated (if needed)
+☐ Wiki pages link to code (if relevant)
+```
+
+### Standup Integration
+```
+Weekly standup:
+├── Last item: "What did we learn that others should know?"
+├── Owner: Document in wiki that day
+└── Link in Slack #announcements
+```
+
+## Measuring Wiki Adoption
+
+Track whether your training works:
+
+| Metric | Target | How to Measure |
+|--------|--------|----------------|
+| Wiki questions in Slack | <3 per week | Monitor Slack |
+| New hire self-service | >70% questions answered by wiki | Survey new hires |
+| Search effectiveness | <2 queries to find info | Test 5 common questions |
+| Doc accuracy | <1 complaint/month | Monitor feedback |
+| Update frequency | All sections updated quarterly | Metadata in docs |
+
+### Sample Analytics Query (Notion/Confluence)
+```sql
+-- Which pages get the most views?
+SELECT page_name, view_count, last_updated
+FROM wiki_analytics
+WHERE view_count > 100
+ORDER BY view_count DESC
+
+-- Are new hires searching effectively?
+SELECT new_hire_id, searches_before_finding_answer, found_answer
+FROM wiki_analytics
+WHERE user_created_within_30_days = true
+
+-- Which sections are stale?
+SELECT page_name, last_updated
+FROM wiki_pages
+WHERE last_updated < 90 days ago
+ORDER BY last_updated DESC
+```
+
+## Scaling Documentation as Team Grows
+
+As you grow beyond 5 people, documentation becomes critical. Plan ahead:
+
+### Team Size 5-10
+- One person owns documentation process
+- Weekly update meetings to catch stale content
+- Simple folder structure
+
+### Team Size 10-25
+- Rotating documentation owner (monthly)
+- Dedicated documentation sprint (quarterly)
+- Clear ownership by system (backend owns API docs, etc.)
+
+### Team Size 25+
+- Documentation team member (0.5-1.0 FTE)
+- Documentation standards and review process
+- Central wiki + system-specific docs
+- Regular audit of content quality
+
+## Common Documentation Training Pitfalls
+
+### Mistake 1: Over-structuring
+Too many templates creates friction. Solution: Start with 1-2 templates, add gradually.
+
+### Mistake 2: "Write docs, then tell people"
+Documentation only works if people know it exists. Solution: Link docs from Slack, code comments, and onboarding.
+
+### Mistake 3: One-time training
+Training only sticks with repetition. Solution: Brief refresher monthly, model documentation behavior consistently.
+
+### Mistake 4: Outdated documentation
+Stale docs destroy trust. Solution: Assign ownership, schedule quarterly audits, archive old content.
+
+## Quick-Start Implementation
+
+Roll this out this week:
+
+```
+Day 1:
+☐ Choose platform (Notion recommended)
+☐ Create "Getting Started" page
+☐ Document 3 essential processes
+
+Day 2:
+☐ Set up with first new hire
+☐ Record walkthrough (30 min)
+☐ Have them complete practice task
+
+Week 1:
+☐ Integrate with code reviews
+☐ Add first ADR if applicable
+☐ Set up monthly documentation refresh
+
+Month 1:
+☐ Collect feedback
+☐ Update training based on issues
+☐ Share metrics with team
+```
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
 - [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
 - [Best Practice for Remote Team Documentation Scaling When Wiki Becomes Unwieldy](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
