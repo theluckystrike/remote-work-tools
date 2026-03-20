@@ -13,36 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
 ---
-
-{% raw %}
-
-Tracking on-call burden fairly across distributed teams requires more than just remembering who was last on rotation. When team members span multiple time zones, work different schedules, or have varying seniority levels, manual tracking breaks down. The right approach combines clear rotation schedules with metrics that capture actual on-call burden, not just scheduled shifts.
-
-## What Actually Constitutes On-Call Burden
-
-On-call burden extends beyond the hours spent on rotation. True burden includes:
-
-- Incidents woken up during the night
-- Time spent resolving escalated issues
-- After-hours interrupts that fragment rest
-- Cognitive load carrying a pager affects next-day productivity
-
-A developer who responds to three critical incidents at 3 AM carries a heavier burden than someone who sleeps through their entire shift, even if both were "on call" for the same hours. Fair distribution means accounting for this reality.
-
-## Building a Custom On-Call Tracker with GitHub Issues
-
-For teams already using GitHub, tracking on-call rotations through issues provides flexibility without additional tooling. Create a rotating issue template:
-
-```yaml
-# .github/ISSUE_TEMPLATE/oncall-shift.md
----
-name: On-Call Shift Report
-about: Document your on-call shift activity
-title: "On-Call: [NAME] - [DATE RANGE]"
-labels: oncall
-assignee: @username
----
-
 ## Shift Summary
 
 **Time Zone:** 

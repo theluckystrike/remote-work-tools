@@ -12,44 +12,6 @@ categories: [guides]
 intent-checked: true
 voice-checked: true
 ---
-
-
-{% raw %}
-To build a remote team wiki from scratch, start with a Git-based flat-file architecture using Markdown with YAML front matter, add a search index that rebuilds on each commit, and organize content into four top-level categories: Onboarding, Architecture, Processes, and Reference. This approach gives you version control, familiar developer workflows, and straightforward hosting through GitHub Pages or Netlify without database overhead.
-
-This guide walks you through each step--from choosing your storage architecture and building search to implementing collaborative editing and maintaining content quality over time.
-
-## Defining Your Wiki Requirements
-
-Before writing a single line of documentation, establish what your team actually needs. Remote teams typically require three core capabilities: centralized storage, quick search, and collaborative editing. The complexity comes from balancing these requirements against maintenance overhead.
-
-Start by auditing your current knowledge gaps. Track what questions repeat in Slack over a two-week period. Document the onboarding steps developers repeatedly explain to new hires. Identify the technical decisions that live only in someone's head. This audit becomes your initial content roadmap and validates why you're building this in the first place.
-
-Consider your team's technical comfort level. A team comfortable with Git will embrace a file-based wiki. Non-technical teammates might prefer a web-based editor. This decision shapes everything else, so get it right upfront.
-
-## Choosing Your Storage Architecture
-
-The foundation of your wiki is how you store and sync content. Three approaches work well for technical teams:
-
-**Git-based storage** treats your wiki as code. Documentation lives in a repository, version control handles history, and pull requests manage reviews. This approach integrates naturally with developer workflows.
-
-```bash
-# Initialize your wiki repository
-git init team-wiki
-cd team-wiki
-mkdir -p {docs,architecture,onboarding,processes}
-```
-
-**Flat-file with front matter** gives you structured metadata without database complexity. Each Markdown file includes YAML front matter defining title, author, tags, and last-updated date. This enables powerful querying without external tools.
-
-```markdown
----
-title: "API Authentication Guide"
-author: "sarah"
-tags: ["security", "api", "onboarding"]
-last_updated: 2026-03-10
----
-
 # API Authentication
 
 Your team needs to implement OAuth 2.0 for all external API access...

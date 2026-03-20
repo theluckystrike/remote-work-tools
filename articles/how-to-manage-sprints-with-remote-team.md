@@ -12,31 +12,6 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
-{% raw %}
-
-
-# How to Manage Sprints with Remote Team: A Practical Guide for Developers
-
-Manage sprints with a remote team by replacing synchronous ceremonies with async alternatives: use GitHub Issues with templates for daily standups, build capacity calculations that factor in 15-20% communication overhead for distributed teams, and set up automated blocker escalation via Slack webhooks so no one waits days for unblocking. Below are the specific scripts, GitHub Actions workflows, and sprint planning patterns you can implement this week.
-
-## Setting Up Async Sprint Ceremonies
-
-The foundation of remote sprint management is replacing synchronous meetings with asynchronous alternatives. This does not mean eliminating communication—it means making it optional and documentation-first.
-
-### Async Standups Using GitHub Issues
-
-Instead of daily video calls, use GitHub Issues with a simple template:
-
-```yaml
-# .github/ISSUE_TEMPLATE/daily-standup.md
----
-name: Daily Standup
-about: Daily async standup update
-title: "Standup: [DATE]"
-labels: standup
-assignee: @username
----
-
 ## Yesterday
 - What did you complete?
 
