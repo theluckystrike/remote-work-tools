@@ -148,6 +148,179 @@ Maintain version control for your evaluation documents. As new information becom
 
 Avoid generic evaluations that could apply to any vendor. Specific, measurable criteria produce better outcomes than subjective assessments. Instead of "good security," document "SOC 2 Type II certified with annual audits."
 
+## Vendor Evaluation Template You Can Use
+
+Here's a complete template your team can adapt immediately:
+
+```markdown
+# Vendor Evaluation: [Product Name]
+
+## Executive Summary
+**Problem Solved**: [1-2 sentences]
+**Recommended Action**: [Proceed/Consider alternatives/Do not proceed]
+**Cost**: $[amount]
+**Timeline to Implementation**: [X weeks]
+
+---
+
+## Requirements Assessment
+
+| Requirement | Weight | Met? | Notes |
+|---|---|---|---|
+| End-to-end encryption | 10 | ✓/✗ | Describe level/implementation |
+| SSO/SAML support | 8 | ✓/✗ | Which providers? |
+| API/webhook integration | 7 | ✓/✗ | Rate limits, documentation quality? |
+| Data residency options | 9 | ✓/✗ | Which regions? |
+| Audit logging | 8 | ✓/✗ | How far back? Export format? |
+| Mobile app | 5 | ✓/✗ | iOS/Android/both? |
+
+**Total Score**: [Sum of (weight × whether met)]
+
+---
+
+## Security Deep Dive
+
+**Compliance Certifications:**
+- [ ] SOC 2 Type II
+- [ ] ISO 27001
+- [ ] GDPR compliant
+- [ ] HIPAA (if needed)
+- [ ] Other: ___________
+
+**Encryption:**
+- At rest: [Algorithm, key management]
+- In transit: [TLS version]
+- Key management: [Customer-controlled? Escrow?]
+
+**Incident History:**
+- Search date range: [Last 3 years]
+- Known breaches: [Yes/No, describe if yes]
+- Security advisories: [List any CVEs]
+
+---
+
+## Cost Analysis (3-Year TCO)
+
+| Item | Year 1 | Year 2 | Year 3 | Total |
+|---|---|---|---|---|
+| Per-user annual | $X × 10 users | $X × 12 users | $X × 12 users | $ |
+| Implementation | $X | $0 | $0 | $ |
+| Training | $X | $0 | $X (new hires) | $ |
+| Integration work | $X hours × rate | $X | $0 | $ |
+| Support tier | $X/month | $X/month | $X/month | $ |
+| **Total** | | | | **$X** |
+
+**Cost per user per year**: [Total ÷ 3 ÷ avg users]
+
+---
+
+## Integration Assessment
+
+**Available Integrations:**
+- Slack: [ ] Yes [ ] No [ ] Partial
+- Microsoft Teams: [ ] Yes [ ] No [ ] Partial
+- Email: [ ] Yes [ ] No [ ] Partial
+- Zapier: [ ] Yes [ ] No [ ] Partial
+- GitHub/GitLab: [ ] Yes [ ] No [ ] Partial
+- Custom API: [ ] Yes [ ] No
+
+**API Documentation Quality:**
+- [ ] Excellent (detailed, examples provided)
+- [ ] Good (complete but minimal examples)
+- [ ] Fair (incomplete, need to contact support)
+- [ ] Poor (inadequate for development)
+
+**Data Export Capabilities:**
+- Format(s) available: [CSV, JSON, API, etc.]
+- Frequency: [On-demand, scheduled, real-time]
+- Vendor lock-in risk: [Low/Medium/High]
+
+---
+
+## Evaluation Sessions
+
+### Session 1: [Evaluator], [Date]
+
+**Test Scenario**: User onboarding workflow
+- Time spent: 2 hours
+- Pain points encountered: [List]
+- Positive surprises: [List]
+- Recommendation: Proceed/Caution/Stop
+
+---
+
+## Final Recommendation
+
+**Recommended**: [Yes/No/Conditional]
+**Key Advantages**:
+1.
+2.
+
+**Key Risks**:
+1.
+2.
+
+**Next Steps**: [Deploy/Get more info/Reject]
+**Decision Authority**: [Who approved]
+**Decision Date**: [Date]
+```
+
+Save this template in a shared folder and fill it out collaboratively. Version control (keep dated copies) creates a record of how your requirements and vendor capabilities evolved.
+
+## Handling Vendor Changes and Price Increases
+
+Software vendors change offerings and pricing regularly. Build review processes:
+
+**Annual vendor review checklist:**
+- [ ] Pricing increased? By how much?
+- [ ] Feature changes affect your use case?
+- [ ] Support quality maintained?
+- [ ] Better alternatives emerged?
+- [ ] Contract terms favorable?
+
+Document these reviews. If a vendor becomes unsuitable, you'll have evidence to justify switching costs.
+
+## Decision-Making Framework When Torn Between Options
+
+When you can't definitively choose between vendors:
+
+```
+Weighted Scoring Model:
+
+For each vendor:
+1. Score each criterion 1-5
+2. Multiply by weight
+3. Sum total score
+4. Highest score wins
+
+Example:
+- Security (weight 10): Vendor A=5, Vendor B=4 → A:50, B:40
+- Ease of use (weight 7): Vendor A=3, Vendor B=5 → A:21, B:35
+- Cost (weight 6): Vendor A=2, Vendor B=4 → A:12, B:24
+- Total: Vendor A=83, Vendor B=99 → Choose Vendor B
+
+This removes subjective "gut feeling" from decisions and creates
+a defensible rationale when stakeholders ask why you chose a more
+expensive option.
+```
+
+Document your weighting assumptions upfront. Changing weights mid-evaluation signals you're trying to force a preferred outcome.
+
+## Red Flags During Vendor Evaluation
+
+Stop further evaluation if you see these warning signs:
+
+- **Vague on security**: "We take security seriously" without specifics
+- **No SLA provided**: Refuses to commit to uptime or support response times
+- **Contract trap clauses**: Auto-renewal without clear cancellation terms
+- **Dismissive of integration**: "Our API is not our focus" = expect integration pain
+- **No references**: Can't provide names of similar-sized customers
+- **Customer churn**: Research: are customers leaving for competitors?
+- **Requires personal data**: Wants employee data before trial period
+- **Pricing "upon request"**: Usually signals premium pricing that doesn't scale
+
+Any of these warrants serious caution. Multiple red flags means exploring alternatives is warranted.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

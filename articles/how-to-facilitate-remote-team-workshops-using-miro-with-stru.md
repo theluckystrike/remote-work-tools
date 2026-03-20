@@ -144,8 +144,130 @@ Start with the round-robin protocol for your next meeting. Add the parking lot f
 
 The remote work ecosystem continues evolving, but the fundamentals of good help remain constant: clear goals, inclusive participation, and actionable outcomes. Miro provides the canvas—structured communication exercises provide the framework.
 
----
+## Alternative Tools and Comparison
 
+While Miro dominates collaborative whiteboarding, several alternatives offer distinct advantages:
+
+**Miro ($10-16/month per user):**
+- Strengths: Largest library of templates, strong API, excellent performance with large groups
+- Best for: Teams already using Miro, developers wanting API integration
+- Limitations: Cost adds up at scale, requires subscription commitment
+
+**FigJam (included in Figma Professional - $12/month):**
+- Strengths: Deep integration with design tools, multiplayer editing, real-time communication
+- Best for: Design-heavy teams, teams using Figma already
+- Limitations: Less whiteboarding-specific than Miro, smaller template library
+
+**Mural ($12/month):**
+- Strengths: Strong facilitation tools, built-in timers, dedicated workshop templates
+- Best for: Facilitators running many workshops, teams needing meeting structure
+- Limitations: Higher learning curve, fewer integrations than Miro
+
+**Google Jamboard (Free with Google Workspace):**
+- Strengths: Simple, familiar interface, no additional cost if using Google Workspace
+- Best for: Budget-conscious teams, Google Workspace users, simple diagrams
+- Limitations: Limited advanced features, fewer collaborative tools
+
+**Excalidraw (Free):**
+- Strengths: Lightweight, open-source, no account required
+- Best for: Quick collaborative sketching, developers preferring open tools
+- Limitations: Minimal structure/templates, fewer facilitation features
+
+**Pricing Comparison Summary:**
+- Miro: $10-16/month per user, ~$120-192/year individual
+- FigJam: Included with Figma Professional ($12/month), ~$144/year
+- Mural: $12/month, ~$144/year
+- Google Jamboard: Free with Google Workspace ($6-18/month depending on tier)
+- Excalidraw: Free (open-source, self-hosted option available)
+
+For small teams (5-10 people), FigJam or free options often provide better ROI than dedicated whiteboarding software. For larger teams or heavy workshop users, Miro's investment pays off through time saved and better outcomes.
+
+## Facilitator Checklists for Different Workshop Types
+
+**Architecture Review Workshop (90 minutes):**
+
+1. **Pre-workshop (1 week):** Distribute architecture diagram for async review
+2. **Opening (5 min):** Clarify decision scope and constraints
+3. **Async input (15 min):** Participants add questions/concerns to designated frame
+4. **Presentation (20 min):** Architect walks through design decisions
+5. **Guided critique (30 min):** Round-robin protocol for structured feedback
+6. **Parking lot review (10 min):** Address tangential issues identified
+7. **Action items (5 min):** Assign follow-ups and next meeting
+8. **Post-workshop:** Export decision record within 24 hours
+
+**Feature Brainstorm Workshop (60 minutes):**
+
+1. **Warm-up (5 min):** Share recent successful features
+2. **Async input (ongoing):** Team members add ideas during week before meeting
+3. **Clustering (15 min):** Group related ideas, identify themes
+4. **Impact/effort analysis (15 min):** Dot voting to score each cluster
+5. **Discussion (15 min):** Talk through top-voted items
+6. **Next steps (5 min):** Decide which ideas to prototype/explore
+7. **Post-workshop:** Create tickets from validated ideas
+
+**Retrospective Workshop (60 minutes):**
+
+1. **Safe space (2 min):** Remind team of psychological safety commitment
+2. **Async input (20 min during week):** Team members add what went well/could improve
+3. **Grouping (10 min):** Cluster related feedback
+4. **Discussion (15 min):** Talk through top themes
+5. **Action planning (10 min):** Pick 1-2 experiments to try
+6. **Commitment (3 min):** Team agrees on what to measure
+7. **Post-workshop:** Track follow-ups in dedicated retro document
+
+## Technical Setup for Large Group Workshops (20+ participants)
+
+Miro performance degrades with many simultaneous editors. For larger groups:
+
+1. **Use breakout boards:** Divide into groups of 5-8, each in separate frames
+2. **Assign facilitators:** One person manages each breakout group
+3. **Stagger editing:** Have groups work sequentially rather than simultaneously
+4. **Simplify visuals:** Reduce complexity of main board when over 15 participants
+5. **Use voting instead of live editing:** More participants = more voting features, fewer live edits
+
+```bash
+#!/bin/bash
+# Miro performance tuning for large workshops
+# Run before major facilitation
+
+echo "Optimizing Miro board for large group..."
+
+# Archive old prototype boards (unused content slows performance)
+# Delete duplicate frames
+# Reduce image resolution (replace high-res images with optimized versions)
+# Simplify complex nested frame structures
+# Test performance in private test meeting before launching with full group
+
+echo "Miro optimization complete"
+```
+
+## Documentation and Institutional Memory
+
+A workshop's value extends far beyond the 90 minutes if properly documented:
+
+**During workshop:**
+- Assign note-taker to capture decisions and action items in parallel
+- Take screenshots at key points
+- Record consent for video recording
+
+**Immediately after (within 2 hours):**
+- Export board as PDF with high resolution
+- Create summary document with decisions and next steps
+- Assign owners to action items with due dates
+
+**Within 24 hours:**
+- Share summary with team
+- Create tickets for action items
+- Archive board with clear naming convention
+
+**Ongoing:**
+- Link workshop outputs to related project documentation
+- Reference in future related workshops
+- Update outcomes 30-60 days post-workshop to show what actually happened with recommendations
+
+This creates a searchable archive that new team members can review to understand how decisions were made and why current practices exist.
+
+---
 
 ## Related Reading
 

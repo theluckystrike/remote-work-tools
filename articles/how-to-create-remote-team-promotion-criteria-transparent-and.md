@@ -147,6 +147,132 @@ Track these metrics to know if your framework works:
 - Representation: Are promotions equitable across demographic groups?
 - Self-assessment accuracy: Can employees accurately predict their promotion readiness?
 
+## Implementation Tools and Templates
+
+**Promotion Documentation Platforms:**
+
+Several tools help organize and track promotion readiness:
+
+- **Lattice/Ally**: Full performance management platform with built-in promotion workflows. $12-25/employee/month. Good for teams 50+.
+- **15Five**: Performance management with lightweight promotion tracking. $10/employee/month. Good for smaller teams.
+- **Notion templates**: Community-built free templates for tracking promotion progress. Requires self-management.
+- **Google Workspace**: Spreadsheets + docs for DIY tracking. Free or included in existing licenses.
+
+For most remote teams, a well-structured Google Doc or Notion page outperforms expensive software.
+
+## Avoiding Common Pitfalls in Remote Teams
+
+**Pitfall 1: Visibility Bias**
+Remote teams struggle to see async work. A developer shipping critical backend improvements gets less "credit" than someone visible in meetings. Counter this by:
+- Requiring written quarterly reviews from peers
+- Tracking shipped features, not just attendance
+- Highlighting async contributions in team updates
+
+**Pitfall 2: Communication Style Penalization**
+Introverted developers and those from different communication cultures may appear less promotable simply because they don't perform well in synchronous meetings. Mitigate by:
+- Valuing written communication equally with verbal
+- Assessing decision-making quality, not presentation style
+- Providing multiple formats for demonstrating readiness
+
+**Pitfall 3: Geographic/Timezone Invisibility**
+Remote workers in different timezones may miss key "visibility moments." Counter by:
+- Recording important meetings for async review
+- Creating written decision logs
+- Rotating meeting times for visibility across zones
+
+**Pitfall 4: Tool Lock-in**
+Using proprietary systems for promotion criteria makes the process opaque. Keep criteria in:
+- Shared documents all employees can access
+- Version control (git) for historical tracking
+- Plain language, not corporate jargon
+
+## Quarterly Promotion Readiness Checkpoints
+
+Implement quarterly reviews to help employees understand their readiness status:
+
+```markdown
+## Promotion Readiness Checkpoint (Quarterly)
+
+**Employee**: [Name]
+**Date**: [Quarter/Year]
+**Current Level**: [Level]
+**Target Level**: [Level]
+
+### Evidence Gathered This Quarter
+
+#### Technical Excellence
+- [ ] Shipped features: [list]
+- [ ] Code quality improvements: [describe]
+- [ ] Technical decisions made: [describe]
+
+#### Impact & Scope
+- [ ] Projects completed: [list]
+- [ ] Cross-team influence: [describe]
+- [ ] Problem-solving: [describe]
+
+#### Communication & Collaboration
+- [ ] Documentation produced: [list]
+- [ ] Mentorship provided: [describe]
+- [ ] Async contributions: [describe]
+
+#### Gap Analysis
+
+**Areas where ready:**
+1.
+2.
+
+**Areas needing growth:**
+1.
+2.
+
+**Growth activities for next quarter:**
+1.
+2.
+
+### Next Checkpoint: [Date]
+```
+
+Share this assessment with the employee. They should rarely be surprised by promotion readiness if checkpoints are regular.
+
+## Handling Promotion Disagreement
+
+When an employee disagrees with promotion decisions, have a structured conversation:
+
+```
+1. Listen fully without interrupting
+2. Acknowledge their perspective: "I hear you feel your impact wasn't visible"
+3. Share your assessment: "Based on our criteria, here's what we see..."
+4. Identify specific gaps: "To reach [level], we need to see..."
+5. Commit to improvement: "Let's check in on [specific criterion] in 2 months"
+6. Document the conversation and follow-up plan
+```
+
+Document disagreements—they often reveal gaps in your framework. If multiple people disagree with the same decision, your criteria may need revision.
+
+## Scaling the Framework as Teams Grow
+
+As your remote team scales from 5 to 50+ people, your promotion framework must evolve:
+
+**Stage 1 (5-15 people):**
+- Minimal formal structure
+- Quarterly reviews with manager
+- Informal peer feedback
+- Framework: Simple YAML/document
+
+**Stage 2 (15-40 people):**
+- Structured rubrics
+- Quarterly checkpoint system
+- Peer review process
+- Tool: Spreadsheet or Notion
+
+**Stage 3 (40+ people):**
+- Formal calibration sessions (yearly)
+- Defined promotion "windows" (e.g., Jan/July)
+- Dedicated promotion committee
+- Tool: Dedicated platform or detailed spreadsheet system
+
+Track when to transition between stages based on growth, not just headcount. A high-velocity team might need Stage 2 practices at 10 people; a stable team might stay in Stage 1 at 30.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

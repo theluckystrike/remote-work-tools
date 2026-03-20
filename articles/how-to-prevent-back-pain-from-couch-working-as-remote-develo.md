@@ -144,8 +144,155 @@ Start with one change this week. Add another next week. Gradually building these
 
 Your body will thank you after years of remote work. The investment in proper setup and habits pays dividends in sustained productivity and comfort throughout your career.
 
----
+## Equipment Recommendations and Pricing
 
+**Laptop Stands ($15-80):**
+- Basic stacking solution: $0-5 (use books)
+- Budget adjustable: $15-30 (AmazonBasics, generic brands)
+- Premium ergonomic: $50-80 (Rain Design, Twelve South)
+
+**Wireless Keyboards ($30-150):**
+- Budget mechanical: $30-50 (gaming brands often best value)
+- Ergonomic split: $80-120 (Kinesis, ErgoDox)
+- Premium wireless: $100-150 (Logitech, Keychron)
+
+**Wireless Mouse ($20-80):**
+- Standard trackball: $20-40 (Logitech, Anker)
+- Ergonomic vertical: $40-70 (Anker, Evoluent)
+- Premium ergonomic: $60-80 (Logitech MX, Razer)
+
+**Lumbar Support Pillow ($20-60):**
+- Memory foam: $20-30 (generic, works well)
+- Adjustable: $30-50 (Better Back, Everlasting Comfort)
+- Premium: $50-80 (Herman Miller, premium brands)
+
+**Full Couch Setup Cost Estimate:**
+- Minimal (books + existing mouse): $0-20
+- Budget (stand + keyboard + lumbar support): $50-80
+- Mid-range (quality stand + ergonomic keyboard/mouse + support): $120-200
+- Premium (all ergonomic options): $200-400
+
+Most developers find the $100-150 "sweet spot" provides 90% of the benefit of $400+ setups.
+
+## Stretches and Exercises Specifically for Couch Workers
+
+Beyond the basic stretches, these exercises counteract couch-specific damage:
+
+**Hip Flexor Stretch (counteracts anterior pelvic tilt):**
+1. Kneeling on one leg, other foot forward
+2. Push hips forward until you feel stretch in front of hip
+3. Hold 30 seconds, repeat 3x per leg
+4. Do 1-2x daily to reverse damage from sitting
+
+**Thoracic Spine Rotation:**
+1. Lying on side with knees bent
+2. Extend arm across body, then sweep overhead
+3. Feel twist in mid-back
+4. Repeat 10x per side, 2x daily
+
+**Child's Pose (opposite of forward slouch):**
+1. Kneeling position, sit back on heels
+2. Arms forward, forehead to ground
+3. Hold 60 seconds, repeat 3x
+4. Stretches entire posterior chain
+
+**Standing Desk Alternative Breaks:**
+If a standing desk isn't possible, alternate:
+- Sit 25 minutes
+- Stand 5 minutes (counter, kitchen table, wall)
+- Repeat
+
+This prevents the continuous compression that creates chronic pain.
+
+## When to Seek Professional Help
+
+If you experience persistent pain despite these interventions:
+
+- Persistent pain after work hours
+- Tingling or numbness in extremities
+- Pain radiating into legs
+- Morning stiffness lasting 30+ minutes
+- Headaches from forward head posture
+
+Consult a physical therapist ($75-150 per session) before the problem becomes chronic. Remote workers can often find telehealth PT options. Many insurance plans cover 20-30 PT sessions annually.
+
+## Building a Couch-to-Desk Transition Plan
+
+If pain signals that couch work isn't sustainable, transition gradually:
+
+**Phase 1 (Week 1-2):** Implement laptop stand and lumbar support. Maintain couch but with better positioning.
+
+**Phase 2 (Week 3-4):** Add external keyboard/mouse. Evaluate whether pain improves.
+
+**Phase 3 (Week 5-6):** Consider small side table or tray desk if pain persists.
+
+**Phase 4 (Week 7+):** Invest in basic desk/chair setup if couch modifications insufficient.
+
+This gradual transition prevents buyer's remorse and helps you identify what actually helps your specific back situation.
+
+## Creating Sustainable Long-Term Habits
+
+The biggest risk with couch work setups is habit degradation. You implement good ergonomics but gradually slip back to bad habits:
+
+```python
+import json
+from datetime import datetime, timedelta
+
+class CouchErgonomicsTracker:
+    def __init__(self):
+        self.daily_log = []
+
+    def log_posture_check(self, hour, posture_quality):
+        """1=poor (full slouch), 5=excellent (upright)"""
+        self.daily_log.append({
+            'time': datetime.now().isoformat(),
+            'hour': hour,
+            'posture': posture_quality
+        })
+
+    def movement_break_reminder(self):
+        """Send reminder every 30 minutes"""
+        # Integrate with system notifications
+        pass
+
+    def weekly_report(self):
+        """Analyze adherence to good habits"""
+        if not self.daily_log:
+            return {}
+
+        # Calculate average posture quality
+        postures = [log['posture'] for log in self.daily_log]
+        avg_posture = sum(postures) / len(postures)
+
+        # Identify worst hours (likely problems)
+        problem_hours = [log for log in self.daily_log if log['posture'] < 3]
+
+        return {
+            'average_posture_quality': avg_posture,
+            'problem_hours': len(problem_hours),
+            'trend': 'improving' if avg_posture > 3.5 else 'needs_attention'
+        }
+
+# Use: tracker = CouchErgonomicsTracker()
+# At start of each hour: tracker.log_posture_check(hour=8, posture_quality=4)
+# Weekly: print(tracker.weekly_report())
+```
+
+Self-monitoring creates accountability. Knowing you're tracking makes you more likely to maintain good habits.
+
+## The Couch Isn't Inherently Bad
+
+The real issue isn't couches specifically—it's prolonged static posture in any configuration. Developers working 8+ hours at standing desks, high chairs, or yoga balls without movement also develop problems.
+
+The couch works fine if combined with:
+1. Proper ergonomic setup (elevation, support, external input devices)
+2. Regular movement (stand every 30 minutes)
+3. Awareness (notice when pain starts, address immediately)
+4. Alternative work locations (change environment occasionally)
+
+Treating couch work as temporary (not permanent workstation) reduces pain risk significantly. If you're back-to-back meetings, a permanent desk makes sense. If you're doing focused coding with occasional calls, a well-optimized couch setup works fine.
+
+---
 
 ## Related Reading
 
