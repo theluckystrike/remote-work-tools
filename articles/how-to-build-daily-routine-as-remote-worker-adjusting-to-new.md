@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/
 categories: [guides]
-tags: [remote-work, timezone, productivity, digital-nomad, routine-building]
+tags: [remote-work-tools, remote-work, timezone, productivity, digital-nomad, routine-building]
 reviewed: true
 score: 8
 intent-checked: true

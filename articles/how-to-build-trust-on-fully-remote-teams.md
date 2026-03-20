@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-build-trust-on-fully-remote-teams/
 categories: [guides]
-tags: [remote-work, trust, team-building, communication]
+tags: [remote-work-tools, remote-work, trust, team-building, communication]
 reviewed: true
 score: 8
 intent-checked: true

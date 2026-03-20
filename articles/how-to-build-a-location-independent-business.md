@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-build-a-location-independent-business/
 categories: [guides]
-tags: [location-independent, remote-work, entrepreneurship, digital-nomad, business-automation]
+tags: [remote-work-tools, location-independent, remote-work, entrepreneurship, digital-nomad, business-automation]
 reviewed: true
 score: 8
 intent-checked: true

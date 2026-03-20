@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-celebrate-employee-anniversaries-on-fully-remote-team/
 categories: [guides]
-tags: [remote-work, employee-engagement, automation]
+tags: [remote-work-tools, remote-work, employee-engagement, automation]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /hot-desk-booking-software-comparison-2026/
 categories: [guides]
-tags: [hot-desk, booking, workspace, desk-booking, hybrid-work]
+tags: [remote-work-tools, hot-desk, booking, workspace, desk-booking, hybrid-work]
 reviewed: true
 score: 8
 intent-checked: true

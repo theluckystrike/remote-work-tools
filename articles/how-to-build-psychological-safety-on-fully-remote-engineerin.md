@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-build-psychological-safety-on-fully-remote-engineerin/
 categories: [guides]
-tags: [remote-work, psychological-safety, engineering-teams, team-culture, communication]
+tags: [remote-work-tools, remote-work, psychological-safety, engineering-teams, team-culture, communication]
 reviewed: true
 score: 8
 intent-checked: true

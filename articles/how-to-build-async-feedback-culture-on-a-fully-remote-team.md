@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-build-async-feedback-culture-on-a-fully-remote-team/
 categories: [guides]
-tags: [remote-work, async-communication, feedback, team-culture]
+tags: [remote-work-tools, remote-work, async-communication, feedback, team-culture]
 reviewed: true
 score: 8
 intent-checked: true

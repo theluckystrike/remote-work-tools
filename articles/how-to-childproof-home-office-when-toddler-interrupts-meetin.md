@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-childproof-home-office-when-toddler-interrupts-meetin/
 categories: [guides]
-tags: [remote-work, productivity, home-office]
+tags: [remote-work-tools, remote-work, productivity, home-office]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-trust-with-clients-who-prefer-in-person-meeting/
 categories: [guides]
-tags: [client-relations, trust-building, remote-work]
+tags: [remote-work-tools, client-relations, trust-building, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

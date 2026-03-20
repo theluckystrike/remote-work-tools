@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-build-cross-team-relationships-in-large-remote-organi/
 categories: [guides]
-tags: [remote-work, cross-team, collaboration, communication]
+tags: [remote-work-tools, remote-work, cross-team, collaboration, communication]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-audit-remote-employee-device-security-compliance-without-physical-access/
 categories: [guides]
-tags: [device-security, remote-work, endpoint-security, compliance, sysadmin, DevOps]
+tags: [remote-work-tools, device-security, remote-work, endpoint-security, compliance, sysadmin, DevOps, security]
 reviewed: true
 score: 8
 intent-checked: true

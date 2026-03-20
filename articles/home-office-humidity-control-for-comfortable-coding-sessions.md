@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-humidity-control-for-comfortable-coding-sessions/
 categories: [guides]
-tags: [home-office, humidity, comfort, productivity, smart-home]
+tags: [remote-work-tools, home-office, humidity, comfort, productivity, smart-home]
 reviewed: true
 score: 8
 intent-checked: true

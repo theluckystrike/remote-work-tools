@@ -7,9 +7,10 @@ author: "theluckystrike"
 permalink: /home-office-dehumidifier-for-basement-workspace-recommendation-2026/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools]
 ---
 
 # Home Office Dehumidifier for Basement Workspace Recommendation 2026

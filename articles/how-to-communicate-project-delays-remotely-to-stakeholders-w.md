@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-communicate-project-delays-remotely-to-stakeholders-w/
 categories: [guides]
-tags: [project-management, remote-communication, stakeholder-management, transparency, delay-notification]
+tags: [remote-work-tools, project-management, remote-communication, stakeholder-management, transparency, delay-notification, remote-work]
 reviewed: true
 score: 8
 intent-checked: true

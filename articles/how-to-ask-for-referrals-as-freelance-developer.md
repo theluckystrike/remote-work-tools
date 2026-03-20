@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-ask-for-referrals-as-freelance-developer/
 categories: [guides]
-tags: [freelance, career, business-development]
+tags: [remote-work-tools, freelance, career, business-development]
 reviewed: true
 score: 8
 intent-checked: true

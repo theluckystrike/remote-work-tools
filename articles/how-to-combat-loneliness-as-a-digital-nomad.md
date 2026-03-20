@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-combat-loneliness-as-a-digital-nomad/
 categories: [guides]
-tags: [digital-nomad, remote-work, mental-health, productivity]
+tags: [remote-work-tools, digital-nomad, remote-work, mental-health, productivity]
 reviewed: true
 score: 8
 intent-checked: true
