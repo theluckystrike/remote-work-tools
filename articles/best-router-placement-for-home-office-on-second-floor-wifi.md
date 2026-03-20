@@ -8,7 +8,7 @@ permalink: /best-router-placement-for-home-office-on-second-floor-wifi/
 categories: [guides]
 tags: [remote-work-tools, wifi, networking, home-office, router, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

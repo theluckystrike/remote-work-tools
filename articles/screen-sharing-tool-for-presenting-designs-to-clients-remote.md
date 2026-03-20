@@ -149,8 +149,154 @@ Large design files can cause lag during screen sharing. Consider these optimizat
 
 For most design teams in 2026, Zoom remains the safest choice for client presentations due to its ubiquity and reliability. However, Loom excels for async workflows, and Discord offers the best quality for teams that can require client installation. The best tool depends on your specific workflow, client preferences, and integration requirements. Test a few options with real projects to find what works best for your team.
 
----
+## Advanced Techniques for Design Presentations
 
+### Handling Real-Time Client Feedback
+
+Live feedback on designs often needs documentation for future reference. Set up efficient capture:
+
+**During Presentation:**
+```
+Use a shared document (Google Doc) alongside screen sharing:
+
+Design: Homepage Hero Section
+Feedback captured:
+- "Hero image feels too dark" (client: Sarah)
+- "CTA button needs more contrast" (client: Mike)
+- "Font size on subtitle seems small" (client: Sarah)
+
+Live priority poll: Which concern is highest priority? [Vote in Slack]
+```
+
+This dual-documentation approach ensures feedback isn't lost and creates a reference record both you and client can review later.
+
+### Creating Async Presentation Videos
+
+Record your presentations so time-zone-disconnected stakeholders can participate:
+
+```bash
+# Using Loom for async design presentations:
+# 1. Open Figma design files
+# 2. Start Loom recording
+# 3. Walk through designs at natural pace, explaining thinking
+# 4. Call out specific decisions: "We chose sans-serif here for readability"
+# 5. End with clear next steps and how to provide feedback
+# 6. Share link in email and Slack with deadline for feedback
+```
+
+Async recordings reduce meeting load while creating searchable documentation. Future team members can watch recorded presentations to understand design decisions.
+
+### Handling Multi-Stakeholder Presentations
+
+Design presentations often include stakeholders with different priorities (business, tech, creative). Address each audience:
+
+```markdown
+## Homepage Redesign Presentation Structure
+
+### Part 1: Business Justification (5 min)
+- Addresses CFO, product leader concerns
+- Metrics: conversion impact, user testing results, competitive analysis
+- Audience concern: "Why are we doing this work now?"
+
+### Part 2: Design Approach (15 min)
+- Addresses creative director and design team
+- Methodology: user research, accessibility requirements, design system alignment
+- Audience concern: "Does this match our brand and values?"
+
+### Part 3: Technical Feasibility (5 min)
+- Addresses engineering team
+- Browser compatibility, animation performance, responsive approach
+- Audience concern: "Can we actually build this?"
+
+### Part 4: Open Feedback (10 min)
+- All stakeholders contribute
+- Facilitator gathers feedback by stakeholder role
+- Document for post-presentation action items
+```
+
+This structure ensures everyone's concerns get attention without derailing the presentation.
+
+## Presentation Preparation Checklist
+
+Before presenting designs to clients:
+
+```
+2 Days Before:
+[ ] Finalize design files, ensure no WIP or notes visible
+[ ] Create backup of current files
+[ ] Prepare annotated version highlighting key changes
+[ ] Write presentation outline with timing
+
+1 Day Before:
+[ ] Test screen sharing with a colleague
+[ ] Verify internet speed (minimum 10Mbps for 1080p screen share)
+[ ] Check monitor brightness and color accuracy
+[ ] Prepare notes with talking points for each design
+[ ] Backup backup (cloud storage + local drive)
+
+1 Hour Before:
+[ ] Close email, Slack, and notifications
+[ ] Enable Do Not Disturb or Focus Assist
+[ ] Test lighting and camera if using webcam
+[ ] Load design files and test switching between artboards
+[ ] Have backup video call link ready
+
+During Presentation:
+[ ] Speak at natural pace, pause after showing designs
+[ ] Invite questions: "What questions come up when you see this?"
+[ ] Document feedback in real-time or summarize after
+[ ] Record if client consents
+[ ] Confirm next steps before ending
+```
+
+## Managing Common Presentation Problems
+
+**Problem: Client sees your messy desktop during screen sharing**
+- Solution: Use presentation mode in your design tool
+- Always test screen sharing before going live
+- Have a minimal, clean desktop background
+- Use virtual backgrounds in Zoom if showing desktop is unavoidable
+
+**Problem: Design appears pixelated or blurry**
+- Solution: Disable scaling on your monitor if possible
+- Use native resolution without zoom
+- Share at 1080p or lower for consistent quality
+- Zoom in on specific elements rather than zooming out to see everything
+
+**Problem: Client asks "Can you change X?" and you're not sure**
+- Solution: Avoid making commitments in the moment
+- Say: "That's a good point. Let me explore that approach and send you mockups by [date]"
+- Document the requested change and follow up async
+- Prevent scope creep by clearly defining what's included in the presentation
+
+**Problem: Multiple people talking over each other**
+- Solution: Establish speaking order at start of presentation
+- "I'll walk through the designs first, then we'll open to questions"
+- Use chat for questions if video call becomes chaotic
+- Manage speakers: "Thanks for that input, I'm noting it—let's continue through the design, then circle back"
+
+## Integrating Feedback Into Design Workflow
+
+After presenting, systematically incorporate feedback:
+
+```
+Post-Presentation Process:
+
+1. Compile all feedback (verbal notes, chat, email)
+2. Categorize:
+   - Technical feasibility issues (flag for engineering)
+   - Brand/style concerns (return to design)
+   - Business questions (discuss with product)
+3. Assess impact:
+   - High impact + low effort: implement immediately
+   - High impact + high effort: plan for future iteration
+   - Low impact: log for future consideration
+4. Create update mockups addressing highest priority feedback
+5. Share updated designs with 3-4 day turnaround
+6. Confirm feedback was addressed via async message (no follow-up call needed)
+```
+
+This prevents the endless revision cycle where feedback creates more questions instead of moving toward resolution.
 
 ## Related Reading
 

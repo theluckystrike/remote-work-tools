@@ -136,6 +136,164 @@ Choose a panel light if you value control over lighting direction and color temp
 
 For developers using standing desks or frequently reorganizing their workspace, consider portable options in both categories. Some compact ring lights and mini panels offer sufficient quality without permanent desk presence.
 
+## Advanced Lighting Techniques for Video Quality
+
+Once you've chosen a light type, positioning and configuration matters significantly for camera presence.
+
+### Understanding Color Temperature Matching
+
+Your lighting should match your monitor and ambient light to appear natural on camera:
+
+```
+Monitor Color Temp: Typically 6500K (daylight)
+Warm Room Lighting: 3200K-4000K
+Mixed Room (window + artificial): 4500K-5500K
+Optimal Video Setup: Match ambient + boost to 5500K
+
+If your room has warm 3200K ambient light but your monitor is 6500K:
+- Use 5000K lighting to create balanced appearance (compromise)
+- Or adjust monitor color temp in display settings to match lighting
+```
+
+Most panel lights with color temperature control let you dial in the exact color temperature. Ring lights offer less flexibility, which is another advantage of panels for serious video content creators.
+
+### Three-Point Lighting for Professional Appearance
+
+Professional video studios use three-point lighting. You can achieve a simplified version at home:
+
+**Setup:**
+1. **Key Light** (main): Panel or ring light in front, slightly off-center (45 degrees)
+2. **Fill Light** (secondary): Dimmer light or reflector to reduce harsh shadows
+3. **Back Light** (separation): Optional light behind you to separate you from background
+
+For a minimal setup, use a single panel light as key light and position a white poster board or foam core as reflector for fill. This creates dimensional, flattering lighting without complexity.
+
+```
+Camera View (from above):
+        BACK LIGHT (optional)
+             |
+    KEY LIGHT \  / FILL REFLECTOR
+              \ /
+            YOU
+             |||
+           CAMERA
+```
+
+### Camera Position Relative to Lights
+
+Your camera placement relative to lighting dramatically affects appearance:
+
+- **Camera at light level:** Most flattering for video calls (light directly at eye level)
+- **Camera above light:** Creates upward angle that may emphasize chin
+- **Camera below light:** Creates downward angle creating shadows under eyes
+
+Adjust your monitor or laptop height so your camera lens aligns with your eye level when seated. This single adjustment often makes more difference than the lighting itself.
+
+## Troubleshooting Common Lighting Issues
+
+**Issue: Harsh shadows under eyes**
+- Solution: Add fill light (reflector or second light) opposite key light
+- Or: Bounce key light off white ceiling instead of direct
+- Or: Move key light further away to soften shadows
+
+**Issue: Blown-out face (overexposed)**
+- Solution: Reduce light intensity (dim if dimmable, move farther away)
+- Or: Add ND (neutral density) filter between light and you
+- Or: Reduce light output to 50% instead of 100%
+
+**Issue: Circular catchlight distracting in ring light**
+- Solution: Position ring light slightly off-center instead of directly front
+- Or: Accept catchlight (many find it flattering)
+- Or: Switch to panel light for less distinctive catchlight
+
+**Issue: Colors look unnatural on camera**
+- Solution: Adjust color temperature to match your room
+- Or: Adjust white balance in your camera settings
+- Or: Record test video and compare on different monitors
+
+## Long-Term Setup Evolution
+
+Your lighting needs may evolve as your remote work patterns change:
+
+**Starting out (first 6 months):**
+- Basic ring light ($40-50)
+- Acceptable for video calls
+- Minimal setup time
+
+**Growing confidence (6-18 months):**
+- Add second light or reflector
+- Experiment with positioning
+- Invest in adjustable tripod/light stand
+
+**Serious content (18+ months):**
+- Upgrade to high-quality panel lights
+- Invest in light stands and diffusers
+- Consider key, fill, and back light setup
+
+Track your investment over time. Many developers find that $150-300 in lighting transforms their video presence on calls and recordings, making it one of the highest ROI home office investments.
+
+## Budget Planning by Workspace Type
+
+### Apartment Dweller Setup (Minimal Space)
+
+**Ring light choice** typically works better:
+- 12" ring light: $45-60
+- Lightweight tripod: $25-35
+- Total: $70-95
+
+**Setup:**
+- Place ring light on tripod behind laptop
+- Laptop camera looks through center of ring
+- Tripod folds away when not in use
+- Minimal desk footprint
+
+### Standing Desk or Multi-Monitor Setup
+
+**Panel light choice** works better:
+- 12"x20" bi-color panel: $50-80
+- Adjustable light stand: $30-50
+- Optional diffusion cloth: $10-15
+- Total: $90-145
+
+**Setup:**
+- Position panel 45 degrees to the side
+- Light stand mounts off desk side, not taking up work surface
+- Can adjust height and angle without moving ring light obstruction
+- Professional appearance for frequent on-camera work
+
+### Content Creator/Streamer Setup
+
+**Three-light system:**
+- Key light (panel): $80-120
+- Fill light (panel or reflector): $50-100
+- Back light (budget panel): $50-80
+- Light stands (3x): $75-150
+- Diffusers and modifiers: $50-100
+- Total: $305-550
+
+**Setup:**
+- Key light slightly off-center front
+- Fill light opposite side at lower intensity
+- Back light behind you, aimed at back of head for separation
+- Creates dimensional, professional appearance for recordings
+
+## Common Lighting Mistakes
+
+**Mistake 1: Light directly overhead**
+Creates shadows under eyes and nose. Unflattering. Position light at 45-degree angle slightly above eye level.
+
+**Mistake 2: Too much light intensity**
+Overexposed, washed-out appearance. Dim to 50-70% intensity for natural look.
+
+**Mistake 3: Mismatched color temperatures**
+Warm natural light (3200K) + cool artificial light (5600K) creates unnatural, sickly appearance. Match all lights to same temperature.
+
+**Mistake 4: Light positioned too close**
+Creates harsh shadows and potential discomfort. Position at least 3-4 feet away from your face.
+
+**Mistake 5: Ignoring camera height**
+Light positioning is useless if camera is too low. Adjust monitor height so camera is at eye level.
+
 ### Real-World Setup Guide: Ring Light Installation
 
 1. Place 10-12" ring light on sturdy tripod with laptop on desk behind it

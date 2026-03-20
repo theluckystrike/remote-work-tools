@@ -151,6 +151,121 @@ Your goal isn't to preserve the exact culture you had at 10 people. It's to crea
 
 Start with documentation, stagger your hires, and build rituals that work at scale. Your future team of 20 will thank you.
 
+## Identifying and Preventing Cultural Drift
+
+Cultural drift happens gradually. You won't notice it until the shift is already significant. Install early-warning systems:
+
+### Quarterly Pulse Survey
+
+Keep it brief (5 minutes) to maximize participation:
+
+```markdown
+On a scale of 1-5:
+1. I feel connected to my teammates
+2. I understand how we make decisions here
+3. Our team values are clear to me
+4. I would recommend this team to a friend
+5. I feel psychologically safe sharing opinions
+
+Open-ended:
+- What feels different about our team now vs. 6 months ago?
+- What's one thing we should change?
+```
+
+Track responses over time. Declining scores on connection and psychological safety indicate cultural drift before you lose team members.
+
+### Retention Tracking by Cohort
+
+Not all departures are equal. Track:
+
+```
+Hired in 2024: 8 people, 1 departure (12.5% attrition)
+Hired in 2025: 12 people, 3 departures (25% attrition)
+Hired in 2026: 6 people, 1 departure (16.7% attrition)
+```
+
+Increasing attrition for newer cohorts suggests the onboarding or culture integration isn't working.
+
+### Informal Channel Monitoring
+
+Pay attention to Slack dynamics:
+- Are newer team members actively participating in #general, or mostly lurking?
+- Do people socialize across cohorts, or do hiring groups form cliques?
+- Is #random getting quieter? (Social channels declining suggests disengagement)
+
+These soft signals often precede departure notices.
+
+## Sub-Team Culture Within Scaling Organizations
+
+At 20+ people, you'll have sub-teams (backend, frontend, design, product). These sub-teams develop their own sub-cultures.
+
+This isn't bad—it's inevitable. But ensure sub-cultures align with core company values:
+
+**Example: Engineering sub-culture within larger team**
+- Company value: "We support each other's growth"
+- Engineering sub-culture interpretation: "We do detailed code reviews that teach, not just approve"
+
+**Example: Design sub-culture within larger team**
+- Company value: "User obsession"
+- Design sub-culture interpretation: "We test with users early and often, not just create pretty mockups"
+
+The key: Allow sub-cultures to express core values differently while maintaining alignment on fundamentals.
+
+## Handling Culture Carriers Who Leave
+
+Culture carriers (people who embody and teach values) leaving creates a vacuum. Plan for this:
+
+**Before they leave:**
+- Document their cultural teaching in writing
+- Record them explaining key cultural norms
+- Have them mentor their replacement on culture, not just technical skills
+
+**After they leave:**
+- Explicitly call out their contribution: "Sarah was one of our strongest culture carriers. Here's how we'll maintain what she brought."
+- Identify replacement culture carriers early
+- Increase facilitation of cultural rituals to compensate for lost organic teaching
+
+**Long-term:**
+- Rotate culture carrier responsibility so no single person is irreplaceable
+- Build cultural practices that don't depend on individual personalities
+
+## The Founder/Leader Role in Scaling Culture
+
+As founder or team leader, your behavior sets the culture baseline. Pay attention to:
+
+**Communication norms:** If you respond to Slack at 11pm, your team reads that as "work at night." Model the async-first behavior you're advocating.
+
+**Risk-taking:** If you punish failure, your team stops experimenting. Publicly discuss your mistakes and how you learned.
+
+**Prioritization:** If you say "values matter" but cut values work to hit deadlines, your team learns that values are performative.
+
+**Equity in voice:** If leadership dominates retrospectives, newer team members stay silent. Explicitly create space for junior voices.
+
+Your actions will be amplified as you scale. A small inconsistency between stated values and actual behavior becomes a cultural crisis at 20 people.
+
+## Avoiding the "Scaling Death Spiral"
+
+Teams sometimes enter a cycle where growth undermines culture, which undermines retention, which requires more hiring, which further disrupts culture. The cycle accelerates and becomes hard to break.
+
+Prevent this by:
+
+1. **Slowing hiring if culture signals decline:** If attrition jumps or pulse scores drop, pause hiring for a quarter and fix culture issues
+2. **Investing in culture infrastructure:** Systems that scale (documentation, rituals, measurement) cost time upfront but prevent crises later
+3. **Protecting culture-building time:** Don't eliminate retros, values updates, or onboarding when pressed for deadlines
+4. **Measuring culture ROI:** Track how strong culture correlates with retention, code quality, and hiring pipeline—make it business-critical, not optional
+
+The companies that maintain culture through growth treat it with the same rigor they apply to architecture or product. It's not optional nice-to-have. It's foundational infrastructure.
+
+## One Year In: What Success Looks Like
+
+After doubling your team, success looks like:
+
+- **Cohesion across cohorts:** Team members from year 1 and year 2 collaborate without friction
+- **Shared values language:** New people can explain your values unprompted, not just parrot documentation
+- **Balanced growth:** Retention rates are stable; new hires stay 18+ months
+- **Scaling satisfaction:** Your founding team feels the culture has been preserved, not lost
+
+This doesn't mean things haven't changed. They have. But the fundamental identity of your team has survived rapid growth, which is the real achievement.
 
 ## Related Reading
 
