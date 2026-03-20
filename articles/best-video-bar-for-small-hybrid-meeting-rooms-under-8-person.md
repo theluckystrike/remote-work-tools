@@ -7,7 +7,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, best-of]
 reviewed: true
 score: 8
 voice-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-teams-recording-and-transcribing-tribal/
 categories: [guides]
-tags: [tribal-knowledge, remote-work, documentation, wiki, transcription, automation]
+tags: [remote-work-tools, tribal-knowledge, remote-work, documentation, wiki, transcription, automation, best-of]
 reviewed: true
 score: 8
 intent-checked: true

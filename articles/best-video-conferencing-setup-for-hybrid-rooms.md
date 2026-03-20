@@ -7,7 +7,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /best-video-conferencing-setup-for-hybrid-rooms/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, best-of]
 reviewed: true
 score: 8
 voice-checked: true

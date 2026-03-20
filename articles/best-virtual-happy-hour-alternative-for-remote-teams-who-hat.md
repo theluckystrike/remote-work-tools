@@ -6,7 +6,7 @@ date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /best-virtual-happy-hour-alternative-for-remote-teams-who-hat/
 categories: [guides]
-tags: [remote-work, async-communication, team-culture, optional-participation]
+tags: [remote-work-tools, remote-work, async-communication, team-culture, optional-participation, best-of]
 reviewed: true
 score: 8
 intent-checked: true

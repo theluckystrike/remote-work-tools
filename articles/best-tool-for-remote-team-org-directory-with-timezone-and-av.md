@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-org-directory-with-timezone-and-av/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, best-of, remote-work]
 reviewed: true
 score: 8
 voice-checked: true

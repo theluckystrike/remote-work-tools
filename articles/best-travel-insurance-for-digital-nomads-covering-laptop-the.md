@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-travel-insurance-for-digital-nomads-covering-laptop-the/
 categories: [guides]
-tags: [tools]
+tags: [remote-work-tools, tools, best-of]
 reviewed: true
 score: 8
 voice-checked: true

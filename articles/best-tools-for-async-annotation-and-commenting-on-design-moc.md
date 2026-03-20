@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-tools-for-async-annotation-and-commenting-on-design-moc/
 categories: [guides]
-tags: [design, collaboration, async, mockups, annotation]
+tags: [remote-work-tools, design, collaboration, async, mockups, annotation, best-of]
 reviewed: true
 score: 8
 intent-checked: true
