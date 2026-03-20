@@ -5,6 +5,10 @@ description: "A comprehensive checklist for onboarding new managers in remote te
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-new-manager-onboarding-checklist-for-distributed/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 Transitioning from individual contributor to manager is one of the most challenging career moves in any organization. When that transition happens in a remote-first company, the complexity multiplies. You're no longer just managing tasks—you're managing people, relationships, and culture across time zones, often without the benefit of face-to-face interactions that help build trust quickly.

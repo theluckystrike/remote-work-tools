@@ -5,6 +5,10 @@ description: "A practical guide covering Brazil's digital nomad visa application
 date: 2026-03-16
 author: theluckystrike
 permalink: /brazil-digital-nomad-visa-process-and-tax-implications-for-r/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

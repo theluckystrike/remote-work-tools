@@ -5,6 +5,10 @@ description: "Learn how to implement interviewer calibration sessions to maintai
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-interviewer-calibration-process-for-ensuring-con/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

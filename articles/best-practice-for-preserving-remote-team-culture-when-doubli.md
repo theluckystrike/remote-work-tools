@@ -5,6 +5,10 @@ description: "A practical guide for developers and power users on maintaining re
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-preserving-remote-team-culture-when-doubli/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

@@ -5,6 +5,10 @@ description: "Learn how to build a Chrome extension that automatically compresse
 date: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-compress-images-before-upload/
+categories: [guides]
+tags: [tools]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

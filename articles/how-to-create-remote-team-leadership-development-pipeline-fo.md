@@ -5,7 +5,7 @@ description: "A practical guide for building leadership development pipelines in
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-leadership-development-pipeline-fo/
-categories: [leadership, remote-work, career-development]
+categories: [guides, workflows]
 reviewed: true
 score: 8
 intent-checked: true
