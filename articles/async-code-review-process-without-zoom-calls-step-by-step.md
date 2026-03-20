@@ -143,7 +143,163 @@ Track these metrics to improve your process:
 
 Regularly revisit your guidelines and adjust based on what your team learns.
 
-## Common Pitfalls to Avoid
+## Creating a Feedback Culture
+
+Async reviews fail without psychological safety. Team members hold back honest feedback if they fear offending colleagues. Build a feedback-positive culture:
+
+### Feedback Language Patterns
+
+Structure feedback so it feels helpful rather than critical:
+
+**Weak:** "This code is inefficient"
+**Better:** "I wonder if we could optimize this query—it might help with the performance goals we discussed"
+
+**Weak:** "You forgot to handle this edge case"
+**Better:** "I see the happy path is covered. What's your thinking on this edge case? I can think of one scenario where it might fail..."
+
+**Weak:** "This doesn't match our standards"
+**Better:** "I notice this follows a different pattern than we typically use in this codebase. Is there a reason for this approach?"
+
+This language invites discussion rather than commanding compliance.
+
+### The Praise Sandwich Problem (and Why You Should Avoid It)
+
+The praise sandwich (positive-negative-positive feedback) feels patronizing to smart engineers. Instead:
+
+1. **Lead with specific positive feedback:**
+   "The error handling in this function is really solid—good thinking to differentiate between connection errors and validation errors."
+
+2. **Transition to improvement area:**
+   "One area I'd suggest reconsidering is the hardcoded timeout value. I wonder if we should make that configurable since different clients have different latency characteristics."
+
+3. **End with clear action:**
+   "Could you either make it configurable or add a comment explaining the timeout choice?"
+
+This approach respects reviewer and author intelligence.
+
+## Scaling Async Reviews Across Time Zones
+
+When your team spans multiple time zones, async reviews become essential but also risky. A PR can stall waiting for a reviewer in a different zone.
+
+### Reviewer Assignment Patterns
+
+Avoid the "anyone can review" approach where PRs wait indefinitely. Instead:
+
+**Pattern 1: Distributed reviewers**
+Assign the same PR to two reviewers from different time zones. One from each zone. This ensures someone will review within 24 hours.
+
+**Pattern 2: Role-based reviewers**
+- Architecture reviews: assigned to architecture owner
+- Frontend changes: assigned to frontend lead
+- Database changes: assigned to database specialist
+
+This prevents bottlenecks where every PR waits for one person's schedule.
+
+**Pattern 3: On-call reviewer**
+Each week, one engineer is "on-call" for reviews. They commit to reviewing all PRs within 24 hours. Rotate this responsibility.
+
+### Escalation Protocols for Blocked PRs
+
+Define what happens when a PR stalls:
+
+```markdown
+## PR Escalation Process
+
+### After 24 hours without review:
+1. Ping assigned reviewers with brief message
+2. If no response in 4 hours, message in #engineering channel
+3. Anyone can then review and approve
+
+### After 48 hours without merge:
+1. Escalate to team lead
+2. Discuss in next daily standup
+3. Determine if blocking issues need unblocking
+
+### After 72 hours without merge:
+1. Consider pair-programming review with author
+2. Or: author and lead sync on requirements
+3. Document what caused the blockage
+```
+
+This prevents the demoralization of PRs sitting for a week waiting for reviews.
+
+## Advanced Review Techniques
+
+### Suggested Changes Feature
+
+Most Git platforms support suggested changes—the reviewer proposes exactly what code they'd like to see:
+
+```diff
+- const userId = req.params.id
++ const userId = parseInt(req.params.id, 10)
++ if (isNaN(userId)) {
++   throw new Error('Invalid user ID')
++ }
+```
+
+The author can accept with one click, reducing back-and-forth. This works great for:
+- Formatting improvements
+- Simple refactoring suggestions
+- Documentation updates
+
+### Conversation vs. Code Concerns
+
+Distinguish between concerns that are blocking versus conversational:
+
+```markdown
+## Blocking Issues
+[Issues listed here require resolution before merge]
+
+1. SQL Injection vulnerability in user query
+2. Missing error handling for API timeout
+
+## Conversational Concerns
+[These are improvements worth discussing, but not required for merge]
+
+1. Consider extracting this validation logic into a utility
+2. This matches the pattern we use in other parts of the codebase
+```
+
+This prevents every comment from feeling like a blocker.
+
+## Measuring Review Quality
+
+Track metrics beyond just time to merge:
+
+**Review Depth:** Do reviews identify actual issues, or just skim the code?
+- Count number of comments per PR
+- Count number of issues caught in code review vs. production bugs
+- (Higher production bugs = reviews weren't thorough enough)
+
+**Review Speed:** Are reviews happening quickly enough to unblock work?
+- Average time to first review comment
+- Average time between reviewer feedback and author response
+- (Goal: <24 hours for initial review, <48 hours for iterations)
+
+**Review Tone:** Is feedback encouraging or discouraging?
+- Periodic pulse: "Do code reviews feel helpful or critical?" (1-5 scale)
+- Track whether authors respond to feedback or push back
+- (Good: most feedback is accepted; bad: lots of "I disagree with this comment")
+
+## When to Escalate to Synchronous Review
+
+Some discussions are faster synchronously. Escalate when:
+
+1. **Architectural disagreement:** 5+ comments debating approach
+   → Schedule 15-minute design discussion
+
+2. **Performance concerns:** Complex tradeoff discussion
+   → Quick call to align on priorities
+
+3. **Security vulnerability:** Potential breach discussion
+   → Immediate sync (don't let it sit in PR comments)
+
+4. **Interpersonal tension:** Multiple exchanges feeling heated
+   → Personal call to rebuild relationship
+
+Document the outcome in the PR afterward so future readers understand the decision.
+
+## Related Reading
 
 Async reviews fail when teams don't establish clear norms. Avoid these mistakes:
 
