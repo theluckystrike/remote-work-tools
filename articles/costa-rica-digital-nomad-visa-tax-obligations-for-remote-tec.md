@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Costa Rica Digital Nomad Visa Tax Obligations for Remote."
-description: "A practical guide to Costa Rica's digital nomad visa tax obligations for remote tech workers. Learn about residency requirements, tax rates, and compliance strategies for developers working abroad."
+description: "Costa Rica Digital Nomad Visa Tax Obligations for Remote. — practical guide for remote teams and distributed workers with tools, tips, and workflows."
 date: 2026-03-16
 author: theluckystrike
 permalink: /costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/

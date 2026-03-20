@@ -2,7 +2,7 @@
 
 layout: default
 title: "Camera On vs Camera Off Debate in Remote Meetings: A."
-description: "A developer's guide to the camera on vs camera off debate in remote meetings. Includes browser APIs, automation tips, and team policies that actually work."
+description: "Camera On vs Camera Off Debate in Remote Meetings: A. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026."
 date: 2026-03-15
 author: theluckystrike
 permalink: /camera-on-vs-camera-off-debate-remote-meetings/

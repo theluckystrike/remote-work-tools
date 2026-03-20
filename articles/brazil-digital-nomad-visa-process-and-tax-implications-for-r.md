@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Brazil Digital Nomad Visa Process and Tax Implications."
-description: "A practical guide covering Brazil's digital nomad visa application process, eligibility requirements, and tax implications for remote developers in 2026."
+description: "Brazil Digital Nomad Visa Process and Tax Implications. — practical guide for remote teams and distributed workers with tools, tips, and workflows for."
 date: 2026-03-16
 author: theluckystrike
 permalink: /brazil-digital-nomad-visa-process-and-tax-implications-for-r/
