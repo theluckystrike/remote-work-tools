@@ -8,7 +8,7 @@ permalink: /how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/
 categories: [guides]
 tags: [remote-work-tools, dual-monitors, desk-setup, monitor-arms, ergonomic-workstation, home-office, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: false
 voice-checked: false
 ---
