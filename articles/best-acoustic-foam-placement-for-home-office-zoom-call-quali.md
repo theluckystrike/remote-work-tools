@@ -65,27 +65,92 @@ Your monitor reflects sound downward toward your desk and then to your microphon
 
 For voice-only applications (Zoom, Teams, Meet), 2-inch thick foam provides excellent absorption without overwhelming small rooms. The NRC (Noise Reduction Coefficient) rating indicates effectiveness—look for foam with NRC ratings of 0.70 or higher.
 
-| Thickness | NRC Rating | Best For |
-|-----------|------------|----------|
-| 1 inch | 0.45-0.55 | High-frequency control |
-| 2 inches | 0.70-0.80 | Voice applications |
-| 3 inches | 0.85+ | Recording studios |
+### Acoustic Foam Products and Pricing
 
-In rooms under 150 square feet, avoid over-treating. Too much foam makes the room sound "dead" and unnatural. You want reduction in reverberation, not complete sound elimination.
+| Product | Size | NRC Rating | Price per Panel | Budget Option |
+|---------|------|------------|-----------------|----------------|
+| Auralex Wedgies | 2"×12"×12" | 0.70 | $4-6 | No (premium) |
+| Arrowzoom Studio Foam | 2"×12"×12" | 0.73 | $2-3 | Yes |
+| Elgin Acoustic Panels | 2"×24"×12" | 0.75 | $15-20 | No |
+| Amazon Basics Acoustic Tiles | 1"×12"×12" | 0.45-0.55 | $1-2 | Yes (thin) |
+| Sweetwater SoundClub | 2"×48"×24" (large) | 0.80 | $40-60 | No |
+| Bass Traps (corner) | 2"×12"×24" | 0.85+ | $30-50 | No (specialized) |
 
-## Mounting Approaches
+**Budget breakdown for home office treatment (6-10 panels):**
 
-### Command Strips and Adhesive
+| Tier | Panel Count | Type | Total Cost | Result |
+|------|------------|------|-----------|--------|
+| Budget | 6 panels | 1-inch basic | $15-25 | Modest improvement (RT60 ~0.5s) |
+| Standard | 8 panels | 2-inch wedge | $50-80 | Good improvement (RT60 ~0.3s) |
+| Premium | 10+ panels | 2-inch premium | $100-150 | Excellent (RT60 <0.2s) |
+
+| Thickness | NRC Rating | Best For | Price per sq ft |
+|-----------|------------|----------|-----------------|
+| 1 inch | 0.45-0.55 | High-frequency control only | $0.50-1.00 |
+| 2 inches | 0.70-0.80 | Voice applications | $1.00-2.50 |
+| 3 inches | 0.85+ | Recording studios, bass control | $2.50-4.00 |
+
+**Real-world setup cost example (12×10 office, modest treatment):**
+- 6× 2-inch foam panels: $40-60
+- Command strips and mounting hardware: $10-15
+- Optional ceiling panel (1×2'): $15-20
+- **Total: $65-95**
+- **Expected result:** Noticeable reduction in echo, clearer voice on calls
+
+In rooms under 150 square feet, avoid over-treating. Too much foam makes the room sound "dead" and unnatural. You want reduction in reverberation, not complete sound elimination. The target RT60 (reverberation time) for voice communication is 0.3-0.4 seconds.
+
+## Mounting Approaches and Installation Guide
+
+### Command Strips and Adhesive (Rental-Friendly, $15-25)
 
 For temporary setups or rental spaces, adhesive hanging strips work well. Apply two strips per panel (top corners) and press firmly for 30 seconds. This method allows repositioning and leaves no wall damage.
 
-### Picture Hanging Wire
+**Best for:** Renters, temporary setups, easily repositionable testing
+**Installation time:** 2-3 minutes per panel
+**Failure rate:** Low if wall is clean and dry (>90% success rate)
+**Cost:** Command strips $0.50-1.00 per panel
+
+### Picture Hanging Wire and Hooks (Semi-Permanent, $20-40)
 
 For a more permanent setup, thread picture hanging wire through foam and hang from wall-mounted hooks. This approach accommodates angled positioning and supports heavier panels.
 
-### Desktop Mounts
+**Best for:** Home offices, permanent installations, precise angle control
+**Installation time:** 10-15 minutes per panel
+**Failure rate:** Very low (<5%), supports up to 10 lbs per hook
+**Cost:** Wire and hooks $2-3 per panel + professional installation if desired
+
+**Installation steps:**
+1. Mark hook positions 12-18" from edges
+2. Drill pilot holes if using wall anchors
+3. Install hooks level
+4. Thread wire through foam mounting points
+5. Hang and adjust angle as needed
+
+### Acoustic Panel Frames (Professional, $40-80)
+
+Metal or plastic frames designed to hold foam panels provide cleaner aesthetics and easier repositioning. Some frames include built-in angle adjustment.
+
+**Best for:** Professional appearance, frequent repositioning, multi-panel configurations
+**Installation time:** 5-10 minutes per panel
+**Cost:** Frames $30-50 per panel, mounting hardware $10-15
+
+### Desktop Mounts and Stands (Portable, $50-100)
 
 If wall mounting is impractical, desktop foam panels sit on stands behind your microphone. These work for very small spaces but are less effective than wall mounting since they cannot break the reflection path as cleanly.
+
+**Best for:** Desks that can't handle wall drilling, temporary testing
+**Effectiveness:** 60-70% of wall mounting (closer distance limits coverage)
+**Cost:** Stands $40-80, foam panels $15-30
+**Downside:** Takes valuable desk space, less coverage area
+
+### DIY Mounting Solution (Budget, $10-20)
+
+Stack panels using small wooden brackets or metal L-brackets attached to walls.
+
+**Best for:** Creative solutions, custom angles, budget constraints
+**Installation time:** 20-30 minutes setup plus planning
+**Cost:** Brackets $5-15, fasteners $5-10
+**Pro tip:** Use 3/4" plywood backing for panel support and angle adjustment
 
 ## Validation and Iteration
 

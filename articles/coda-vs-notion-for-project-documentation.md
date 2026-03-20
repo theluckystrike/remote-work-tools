@@ -93,19 +93,89 @@ Notion's template gallery provides starting points for various documentation nee
 
 Coda's templates often include working logic. A documentation template might automatically track which pages need review, calculate staleness based on edit dates, and notify responsible parties—all built into the template.
 
-## Pricing Considerations
+## Pricing and Team Size Comparison
 
-Notion's free tier covers most small team needs. Paid plans add unlimited file uploads, version history, and advanced permissions. The pricing scales per user, making it predictable for team budgeting.
+| Plan | Notion | Coda |
+|------|--------|------|
+| **Free** | Unlimited pages/databases, 1 user | 3 docs, 1 workspace, limited automations |
+| **Pro** | $10/user/month, unlimited block types | $10/month per doc, unlimited features |
+| **Team** | $25/user/month | $15/month per doc or team pricing |
+| **Enterprise** | Custom pricing, $1000+/month | Custom, per-doc scaling |
 
-Coda's free tier is generous for individuals but limits the number of docs and automation features. Team pricing includes more docs and pack access. The calculation differs from Notion since you're paying for doc capacity rather than user features alone.
+**Cost analysis for documentation teams:**
 
-## Implementation Recommendations
+For 5-person documentation team:
+- Notion Pro: $50/month (5 users × $10) - unlimited docs, all features
+- Coda Team: $100-200/month (10-20 docs × $10-15) - depends on doc complexity
 
-Notion's block system produces consistent content that requires minimal technical skill to maintain. Integration with existing tools happens through mature third-party services.
+Notion's per-user model favors larger teams sharing one workspace. Coda's per-doc model favors teams with fewer, more complex documents. For teams managing 50+ documentation pages, Notion typically costs 30-50% less.
+
+**Free tier decision matrix:**
+- Choose Notion free if: Small team (<3 people), static documentation, no complex queries
+- Choose Coda free if: Individual prototyping, interactive runbooks, formula-heavy docs (limited to 3 docs)
+
+Notion's free tier covers most small team needs. Paid plans add unlimited file uploads, version history, and advanced permissions ($10-25/user/month). The pricing scales per user, making it predictable for team budgeting.
+
+Coda's free tier is generous for individuals but limits the number of docs and automation features. Team pricing includes more docs and pack access ($10-15/month per doc). The calculation differs from Notion since you're paying for doc capacity rather than user features alone.
+
+## Implementation Recommendations by Team Type
+
+### Notion Implementation
+
+Notion's block system produces consistent content that requires minimal technical skill to maintain. Integration with existing tools happens through mature third-party services (Zapier, Make, native integrations).
+
+**Ideal for:**
+- Product requirements documentation (PRDs, specs)
+- Knowledge base and FAQ content
+- Engineering wikis and onboarding
+- Status pages for project tracking
+
+**Setup time:** 2-4 weeks to establish templates, 1-2 days per new doc
+**Best integration:** GitHub (wiki replacement), Slack (notifications)
+
+**Example team:**
+- 4 engineers, 1 product manager
+- 200+ documentation pages
+- Cost: $50/month (5 users)
+- Time investment: 3-4 hours/week maintenance
+
+### Coda Implementation
 
 Coda's formula language suits teams managing complex state — tracking API versions alongside deployment status, correlating documentation with sprint milestones. The learning curve is steeper, but the resulting docs can become operational tools rather than static reference material.
 
-For developers comfortable with version control, neither platform fully replaces Git-based documentation. Both work well as the layer above raw markdown files, providing search, collaboration, and structure that GitHub wikis or raw repositories lack.
+**Ideal for:**
+- API documentation with live status integration
+- Deployment runbooks that auto-update
+- Feature flag documentation linked to deployment
+- Incident response playbooks with current status
+
+**Setup time:** 3-6 weeks for complex formula setup, formula learning curve
+**Best integration:** GitHub (version sync), Slack (interactive dashboards)
+
+**Example team:**
+- 3-4 engineers focused on backend/infrastructure
+- 8-10 complex docs with interconnected state
+- Cost: $120-180/month (12-18 docs × $10-15)
+- Time investment: 4-6 hours/week maintenance
+
+### Hybrid Approach (Recommended for Large Teams)
+
+Use Notion for static documentation + Coda for operational docs:
+- Notion: Product specs, engineering guides, onboarding
+- Coda: Deployment status, API health, feature flags
+- Combined cost: $50-100/month
+- Reduced training: Team learns what they need per platform
+
+For developers comfortable with version control, neither platform fully replaces Git-based documentation (Markdown). Both work well as the layer above raw markdown files, providing search, collaboration, and structure that GitHub wikis or raw repositories lack.
+
+**Version control integration pattern:**
+```
+GitHub Markdown Docs
+      ↓ (synced daily via Zapier)
+Notion/Coda Central Hub
+      ↓ (searched via platform UI)
+Team Search & Navigation
+```
 
 The best choice depends on your team's workflow maturity. Teams early in their documentation journey often prefer Notion's simplicity. Teams with established practices who need dynamic, interconnected docs find Coda's flexibility advantageous.
 
