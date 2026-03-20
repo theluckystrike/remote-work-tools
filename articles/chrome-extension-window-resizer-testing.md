@@ -8,7 +8,7 @@ permalink: /chrome-extension-window-resizer-testing/
 categories: [guides]
 tags: [remote-work-tools, chrome-extension, testing, responsive-design, developer-tools, viewport]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

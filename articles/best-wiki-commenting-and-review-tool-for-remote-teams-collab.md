@@ -8,7 +8,7 @@ permalink: /best-wiki-commenting-and-review-tool-for-remote-teams-collab/
 categories: [guides]
 tags: [remote-work-tools, wiki, documentation, remote-collaboration, commenting, review-tools, async-communication, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

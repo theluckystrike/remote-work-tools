@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /buddy-system-for-onboarding-remote-junior-developers-guide/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
