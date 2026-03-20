@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Essential Contract Clauses Every Freelance Developer."
+title: "Essential Contract Clauses Every Freelance Developer Should"
 description: "Protect your freelance development business with these essential contract clauses. Includes practical examples, code snippets, and templates for."
 date: 2026-03-15
 author: theluckystrike
@@ -355,3 +355,4 @@ Most freelance contract disputes fall into one of four categories. Understanding
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

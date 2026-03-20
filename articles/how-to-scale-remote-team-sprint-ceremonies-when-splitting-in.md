@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Scale Remote Team Sprint Ceremonies When."
+title: "How to Scale Remote Team Sprint Ceremonies When Splitting"
 description: "Learn practical strategies for scaling sprint ceremonies when your remote team splits into multiple squads. Includes async formats, scheduling scripts."
 date: 2026-03-16
 author: theluckystrike

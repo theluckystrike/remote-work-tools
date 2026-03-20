@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Diversity Sourcing Strategy for Remote Teams: Building."
+title: "Diversity Sourcing Strategy for Remote Teams"
 description: "A practical guide to diversity sourcing strategy for remote team hiring. Learn actionable techniques to build inclusive pipelines, reduce bias, and."
 date: 2026-03-16
 author: theluckystrike
@@ -187,3 +187,4 @@ Set baseline measurements before implementing changes, then track quarterly. Sma
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

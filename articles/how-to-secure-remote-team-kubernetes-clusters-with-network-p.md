@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Secure Remote Team Kubernetes Clusters with."
+title: "How to Secure Remote Team Kubernetes Clusters with Network P"
 description: "A practical guide to implementing Kubernetes network policies to secure your remote team's cluster infrastructure."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -210,3 +210,4 @@ Consider using tools like Calico or Cilium that provide enhanced network policy 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

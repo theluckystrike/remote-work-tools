@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Education Grading Tool Comparison for Teachers."
+title: "Remote Education Grading Tool Comparison for Teachers"
 description: "A technical comparison of grading tools for large-scale online education. Learn about API integrations, bulk grading workflows, and automation."
 date: 2026-03-16
 author: theluckystrike
@@ -277,3 +277,4 @@ The most effective large-class grading strategies combine multiple approaches: a
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Architecture Documentation."
+title: "How to Create Remote Team Architecture Documentation Using"
 description: "Learn how to create and maintain architecture documentation for remote teams using diagrams as code. Practical examples with Mermaid, PlantUML, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -199,3 +199,4 @@ Automated generation keeps documentation synchronized with deployed services. Ru
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

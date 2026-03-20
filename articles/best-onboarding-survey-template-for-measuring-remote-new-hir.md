@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Onboarding Survey Template for Measuring Remote New."
+title: "Best Onboarding Survey Template for Measuring Remote New"
 description: "A practical guide to creating effective onboarding surveys for remote new hires at 30, 60, and 90 day milestones. Includes templates and code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -205,3 +205,4 @@ One of our engineering teams reduced time-to-productivity by 40% after discoveri
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

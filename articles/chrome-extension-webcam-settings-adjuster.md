@@ -142,7 +142,7 @@ Most issues resolve by switching to a virtual camera approach (OBS) rather than 
 - Learning curve steeper than alternatives
 
 **Best for Chrome-Only:** Webcam Settings Controller (full feature set)
-- Most comprehensive controls
+- Most controls
 - $3 premium removes ads but isn't necessary
 - Performance impact minimal (< 5% CPU overhead)
 
@@ -233,3 +233,4 @@ Ensure no other application is currently using your camera. Close other video ap
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

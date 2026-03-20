@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Video Conferencing Setup for Hybrid Rooms: A."
+title: "Best Video Conferencing Setup for Hybrid Rooms: A"
 description: "A practical guide for developers and power users configuring video conferencing in hybrid rooms. Covers camera selection, lighting, and software."
 date: 2026-03-15
 author: theluckystrike
@@ -170,3 +170,4 @@ The specific hardware matters less than ensuring each component serves both audi
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

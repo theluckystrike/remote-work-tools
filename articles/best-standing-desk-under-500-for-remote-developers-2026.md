@@ -174,7 +174,7 @@ Fully positions the Jarvis as the premium budget option, emphasizing design and 
 - Slower movement speed increases switching friction
 - Premium finishes push toward $500 upper limit
 - Lower weight capacity than competitors
-- Less comprehensive feature set
+- Less feature set
 
 **Pricing:** $380-495 depending on desktop material and size (2026).
 

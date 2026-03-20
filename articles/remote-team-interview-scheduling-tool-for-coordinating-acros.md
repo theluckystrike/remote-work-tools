@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Interview Scheduling Tool for Coordinating."
+title: "Remote Team Interview Scheduling Tool for Coordinating"
 description: "A technical guide to building and implementing interview scheduling tools that handle timezone complexity for distributed hiring teams. Includes code."
 date: 2026-03-16
 author: theluckystrike
@@ -253,3 +253,4 @@ async function autoScheduleInterview(candidates, interviewers, position) {
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

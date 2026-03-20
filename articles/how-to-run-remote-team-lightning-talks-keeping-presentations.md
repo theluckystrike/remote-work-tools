@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Team Lightning Talks Keeping."
+title: "How to Run Remote Team Lightning Talks Keeping"
 description: "A practical guide for running effective lightning talks with remote teams. Learn how to structure five-minute presentations, manage time constraints."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -186,3 +186,4 @@ Some teams maintain a "lightning talk queue" where volunteers add their names an
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

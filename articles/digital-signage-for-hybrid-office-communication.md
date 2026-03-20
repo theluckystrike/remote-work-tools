@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Digital Signage for Hybrid Office Communication: A."
+title: "Digital Signage for Hybrid Office Communication: A"
 description: "Learn how to build and integrate digital signage systems for hybrid office communication. Includes API examples, content management strategies, and."
 date: 2026-03-15
 author: theluckystrike
@@ -216,3 +216,4 @@ Treat signage as another API-driven output channel: the same data flowing throug
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

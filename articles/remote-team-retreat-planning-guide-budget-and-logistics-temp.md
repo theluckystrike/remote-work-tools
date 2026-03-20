@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Retreat Planning Guide Budget and Logistics."
+title: "Remote Team Retreat Planning Guide Budget and Logistics"
 description: "A practical template for planning remote team retreats with detailed budgets and logistics. Includes cost breakdowns, scheduling frameworks, and."
 date: 2026-03-16
 author: theluckystrike
@@ -214,10 +214,11 @@ The specific numbers and venues matter less than the discipline of planning. Use
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Book Club Format and Facilitation Guide for.](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Remote Team Book Club Format and Help Guide for.](/remote-work-tools/remote-team-book-club-format-and-help-guide-developers/)
 - [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

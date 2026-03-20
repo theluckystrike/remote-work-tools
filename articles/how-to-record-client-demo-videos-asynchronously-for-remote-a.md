@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Record Client Demo Videos Asynchronously for."
+title: "How to Record Client Demo Videos Asynchronously for Remote"
 description: "Learn practical techniques for recording client demo videos asynchronously. Includes setup recommendations, recording workflows, and automation scripts."
 date: 2026-03-16
 author: theluckystrike
@@ -188,3 +188,4 @@ This prevents demos from floating in limbo while clients assume you'll wait inde
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

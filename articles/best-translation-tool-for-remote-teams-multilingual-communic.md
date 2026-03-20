@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Translation Tool for Remote Teams Multilingual."
+title: "Best Translation Tool for Remote Teams Multilingual"
 description: "Compare the best translation tools for remote teams in 2026. Learn about API integrations, real-time collaboration features, and implementation."
 date: 2026-03-20
 author: theluckystrike
@@ -252,3 +252,4 @@ For most remote teams, a pragmatic approach combines DeepL for accuracy-sensitiv
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

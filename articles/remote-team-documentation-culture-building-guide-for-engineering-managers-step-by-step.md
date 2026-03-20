@@ -72,9 +72,6 @@ Build a documentation culture by making it a required step in your workflow (cod
 ```markdown
 # RFC: [Title]
 
-## Summary
-One-paragraph overview of the proposal.
-
 ## Motivation
 Why are we doing this? What problem does it solve?
 
@@ -209,3 +206,4 @@ Start small, stay consistent, and watch your documentation culture develop natur
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

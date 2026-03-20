@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Collaborative Coding Tools for Remote Teams: A."
+title: "Best Collaborative Coding Tools for Remote Teams: A"
 description: "Best Collaborative Coding Tools for Remote Teams: A. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Architecture Decision Record."
+title: "How to Create Remote Team Architecture Decision Record"
 description: "A practical guide to building an architecture decision record (ADR) template for remote and distributed engineering teams. Includes YAML templates."
 date: 2026-03-16
 author: theluckystrike
@@ -190,3 +190,4 @@ Start with the template above, adapt it to your team's workflow, and commit to w
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -159,7 +159,7 @@ Use this decision framework:
 
 3. **Score your priorities** on a 1-5 scale:
  - Flexibility needs
- - Consistency requirements 
+ - Consistency requirements
  - Meeting room frequency
  - Community engagement
  - Budget sensitivity
@@ -183,3 +183,4 @@ The right choice depends on your specific work patterns, local market, and perso
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

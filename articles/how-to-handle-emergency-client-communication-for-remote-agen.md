@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Emergency Client Communication for Remote."
+title: "How to Handle Emergency Client Communication for Remote"
 description: "A practical guide to managing emergency client communications in a remote agency. Learn protocols, tools, and workflows for urgent client situations."
 date: 2026-03-16
 author: theluckystrike
@@ -223,3 +223,4 @@ Share relevant findings with clients when appropriate—they appreciate transpar
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

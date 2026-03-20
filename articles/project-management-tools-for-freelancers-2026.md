@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Management Tools for Freelancers 2026: A."
+title: "Project Management Tools for Freelancers 2026: A"
 description: "A practical guide to project management tools for freelancers in 2026. Compare self-hosted, CLI-based, and API-first solutions designed for developers."
 date: 2026-03-15
 author: theluckystrike
@@ -197,3 +197,4 @@ The best project management tool for freelancers in 2026 is the one that fits yo
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

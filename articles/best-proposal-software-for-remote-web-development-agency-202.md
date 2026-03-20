@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Proposal Software for Remote Web Development Agency 2026: Technical Approach Compared"
+title: "Best Proposal Software for Remote Web Development Agency"
 description: "Discover the best proposal software for a remote web development agency. Compare features, integrations, API capabilities, and pricing for teams."
 date: 2026-03-16
 author: theluckystrike
@@ -180,3 +180,4 @@ A typical remote web development agency might structure their proposal process l
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

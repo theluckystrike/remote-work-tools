@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Skip Level Meeting Program As."
+title: "How to Create Remote Team Skip Level Meeting Program As"
 description: "A practical guide to implementing skip-level meetings in remote organizations. Learn how to maintain direct communication channels as your team grows."
 date: 2026-03-16
 author: theluckystrike
@@ -211,3 +211,4 @@ This keeps the relationship alive without requiring synchronous meetings.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

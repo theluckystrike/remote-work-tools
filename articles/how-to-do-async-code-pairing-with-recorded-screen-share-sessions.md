@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "How to Do Async Code Pairing with Recorded Screen Share."
+title: "How to Do Async Code Pairing with Recorded Screen Share"
 description: "Learn how to conduct effective async code pairing sessions using recorded screen shares. Complete 2026 guide for remote development teams."
 date: 2026-03-18
 author: "Remote Work Tools Guide"
@@ -274,3 +274,4 @@ Before your first async code pairing session:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

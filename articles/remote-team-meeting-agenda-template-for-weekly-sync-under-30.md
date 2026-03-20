@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Meeting Agenda Template for Weekly Sync."
+title: "Remote Team Meeting Agenda Template for Weekly Sync Under"
 description: "A practical guide and ready-to-use template for running efficient 30-minute weekly sync meetings with remote development teams."
 date: 2026-03-16
 author: theluckystrike
@@ -174,3 +174,4 @@ Start with the basic template, track how long each section actually takes, and a
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

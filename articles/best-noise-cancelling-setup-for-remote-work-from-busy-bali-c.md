@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Noise Cancelling Setup for Remote Work from Busy."
-description: "Build the ultimate noise cancelling setup for remote work in Bali's bustling cafes. Technical recommendations, software tools, and practical strategies for developers."
+title: "Best Noise Cancelling Setup for Remote Work from Busy Bali"
+description: "Build the ultimate noise cancelling setup for remote work in Bali's bustling cafes. Technical recommendations, software tools, and practical strategies..."
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/
@@ -194,3 +194,4 @@ Have backup locations identified: your accommodation, a quieter coworking space,
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

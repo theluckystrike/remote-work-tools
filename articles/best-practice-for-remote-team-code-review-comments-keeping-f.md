@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Code Review Comments."
+title: "Best Practice for Remote Team Code Review Comments"
 description: "A practical guide to writing constructive code review comments for remote teams. Learn frameworks and examples for giving feedback that improves code."
 date: 2026-03-16
 author: theluckystrike
@@ -84,7 +84,7 @@ This approach shares knowledge without imposing preference and explicitly leaves
 
 Code style discussions generate more friction than almost any other review topic. Establish team linters and style guides upfront, then limit style comments to educational opportunities:
 
-Harsh: "Use f-strings instead of .format(). Everyone knows they're better."
+Harsh: "Use f-strings instead of.format(). Everyone knows they're better."
 
 Constructive: "This uses `.format()` syntax. Our style guide recommends f-strings for new code—they're slightly more readable and have marginally better performance. Not blocking, but worth updating if you're touching this area anyway."
 
@@ -99,7 +99,7 @@ Response time expectations: Define SLA for review turnaround. In async teams, 24
 Comment prefixes: Some teams use tags to clarify intent:
 
 - `[suggestion]` - Optional improvement, author's choice
-- `[question]` - Seeking clarification, not criticism 
+- `[question]` - Seeking clarification, not criticism
 - `[nit]` - Trivial preference, not worth blocking
 - `[required]` - Actual blocker requiring change
 
@@ -157,3 +157,4 @@ Constructive code review comments are a skill that improves with attention. The 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

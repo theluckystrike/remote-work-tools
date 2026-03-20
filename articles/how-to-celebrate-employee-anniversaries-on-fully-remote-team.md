@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Celebrate Employee Anniversaries on Fully Remote."
+title: "How to Celebrate Employee Anniversaries on Fully Remote"
 description: "Practical strategies and code examples for celebrating employee anniversaries in fully remote teams. Automate recognition with Slack bots, custom."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -217,3 +217,4 @@ Remote teams that celebrate together stay together. Anniversaries provide a pred
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

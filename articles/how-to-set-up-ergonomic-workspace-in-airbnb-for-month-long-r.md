@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Ergonomic Workspace in Airbnb for."
+title: "How to Set Up Ergonomic Workspace in Airbnb for Month-Long"
 description: "A practical guide for developers and power users setting up an ergonomic workspace in an Airbnb for extended remote work stays. Includes equipment."
 date: 2026-03-16
 author: theluckystrike
@@ -193,3 +193,4 @@ Work from the floor with a lap desk and pillow arrangement. Not ideal for long s
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

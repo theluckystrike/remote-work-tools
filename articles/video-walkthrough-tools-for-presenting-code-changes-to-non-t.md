@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Video Walkthrough Tools for Presenting Code Changes to."
+title: "Video Walkthrough Tools for Presenting Code Changes to"
 description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording."
 date: 2026-03-16
 author: theluckystrike
@@ -184,3 +184,4 @@ Video walkthroughs transform how you communicate code changes to non-technical c
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

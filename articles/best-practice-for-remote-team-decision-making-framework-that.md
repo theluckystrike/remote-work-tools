@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Decision Making Framework."
+title: "Best Practice for Remote Team Decision Making Framework That"
 description: "A practical guide to building decision making frameworks for remote teams that scale beyond founder decisions. Includes code examples, RACI matrices."
 date: 2026-03-16
 author: theluckystrike
@@ -14,6 +14,7 @@ voice-checked: true
 ---
 
 {% raw %}
+{% raw %}
 ```
 
 This structure works well with Git-based workflows. Store decisions in a `decisions/` directory and use pull requests for proposed decisions, allowing async review and discussion.
@@ -25,51 +26,51 @@ A RACI matrix (Responsible, Accountable, Consulted, Informed) clarifies roles fo
 ```javascript
 // raci-config.js - Programmatic decision rights definition
 const decisionMatrix = {
-  'technical/architecture': {
-    responsible: 'architecture-team',
-    accountable: 'vp-engineering',
-    consulted: ['security-lead', 'devops-lead'],
-    informed: ['all-engineers']
-  },
-  'technical/code-standards': {
-    responsible: 'tech-leads',
-    accountable: 'engineering-manager',
-    consulted: [],
-    informed: ['all-engineers']
-  },
-  'product/feature-priority': {
-    responsible: 'product-manager',
-    accountable: 'cpo',
-    consulted: ['engineering-leads', 'customer-success'],
-    informed: ['all-teams']
-  },
-  'process/process-changes': {
-    responsible: 'team-lead-proposing',
-    accountable: 'engineering-manager',
-    consulted: ['other-team-leads'],
-    informed: ['all-engineers']
-  },
-  'hiring/engineering-hires': {
-    responsible: 'recruiting',
-    accountable: 'hiring-manager',
-    consulted: ['team-members'],
-    informed: ['leadership']
-  }
+ 'technical/architecture': {
+ responsible: 'architecture-team',
+ accountable: 'vp-engineering',
+ consulted: ['security-lead', 'devops-lead'],
+ informed: ['all-engineers']
+ },
+ 'technical/code-standards': {
+ responsible: 'tech-leads',
+ accountable: 'engineering-manager',
+ consulted: [],
+ informed: ['all-engineers']
+ },
+ 'product/feature-priority': {
+ responsible: 'product-manager',
+ accountable: 'cpo',
+ consulted: ['engineering-leads', 'customer-success'],
+ informed: ['all-teams']
+ },
+ 'process/process-changes': {
+ responsible: 'team-lead-proposing',
+ accountable: 'engineering-manager',
+ consulted: ['other-team-leads'],
+ informed: ['all-engineers']
+ },
+ 'hiring/engineering-hires': {
+ responsible: 'recruiting',
+ accountable: 'hiring-manager',
+ consulted: ['team-members'],
+ informed: ['leadership']
+ }
 };
 
 function getDecisionRACI(decisionType) {
-  return decisionMatrix[decisionType] || {
-    responsible: 'unassigned',
-    accountable: 'unassigned',
-    consulted: [],
-    informed: ['all']
-  };
+ return decisionMatrix[decisionType] || {
+ responsible: 'unassigned',
+ accountable: 'unassigned',
+ consulted: [],
+ informed: ['all']
+ };
 }
 
 function canDecide(user, decisionType) {
-  const raci = getDecisionRACI(decisionType);
-  return user.roles.includes(raci.responsible) || 
-         user.roles.includes(raci.accountable);
+ const raci = getDecisionRACI(decisionType);
+ return user.roles.includes(raci.responsible) ||
+ user.roles.includes(raci.accountable);
 }
 ```
 
@@ -119,37 +120,37 @@ When decisions need to escalate, establish clear time-boxes:
 ```typescript
 // decision-timebox.ts
 interface DecisionRequest {
-  id: string;
-  title: string;
-  category: keyof typeof DECISION_TIERS;
-  context: string;
-  requestedBy: string;
-  timeline: 'urgent' | 'normal' | 'flexible';
+ id: string;
+ title: string;
+ category: keyof typeof DECISION_TIERS;
+ context: string;
+ requestedBy: string;
+ timeline: 'urgent' | 'normal' | 'flexible';
 }
 
 const DECISION_TIERS = {
-  'tier-1': { responseTime: '24h', escalationPath: ['team-lead'] },
-  'tier-2': { responseTime: '72h', escalationPath: ['team-lead', 'eng-manager'] },
-  'tier-3': { responseTime: '1 week', escalationPath: ['eng-manager', 'vp'] },
-  'tier-4': { responseTime: '2 weeks', escalationPath: ['vp', 'exec-team'] }
+ 'tier-1': { responseTime: '24h', escalationPath: ['team-lead'] },
+ 'tier-2': { responseTime: '72h', escalationPath: ['team-lead', 'eng-manager'] },
+ 'tier-3': { responseTime: '1 week', escalationPath: ['eng-manager', 'vp'] },
+ 'tier-4': { responseTime: '2 weeks', escalationPath: ['vp', 'exec-team'] }
 };
 
 async function processDecision(request: DecisionRequest): Promise<Decision> {
-  const tier = DECISION_TIERS[request.category];
-  
-  // Create a decision ticket with SLA
-  const decisionTicket = await createTicket({
-    title: request.title,
-    category: request.category,
-    sla: {
-      responseBy: addBusinessDays(new Date(), tier.responseTime),
-      escalateAfter: addHours(new Date(), parseResponseTime(tier.responseTime))
-    },
-    escalationPath: tier.escalationPath,
-    context: request.context
-  });
-  
-  return decisionTicket;
+ const tier = DECISION_TIERS[request.category];
+
+ // Create a decision ticket with SLA
+ const decisionTicket = await createTicket({
+ title: request.title,
+ category: request.category,
+ sla: {
+ responseBy: addBusinessDays(new Date(), tier.responseTime),
+ escalateAfter: addHours(new Date(), parseResponseTime(tier.responseTime))
+ },
+ escalationPath: tier.escalationPath,
+ context: request.context
+ });
+
+ return decisionTicket;
 }
 ```
 
@@ -166,11 +167,11 @@ Track these metrics to understand if your decision-making framework is working:
 
 ```sql
 -- Query to measure decision velocity
-SELECT 
-  category,
-  COUNT(*) as total_decisions,
-  AVG(DATEDIFF(resolved_at, created_at)) as avg_days_to_resolve,
-  COUNT(CASE WHEN escalated = true THEN 1 END) as escalation_count
+SELECT
+ category,
+ COUNT(*) as total_decisions,
+ AVG(DATEDIFF(resolved_at, created_at)) as avg_days_to_resolve,
+ COUNT(CASE WHEN escalated = true THEN 1 END) as escalation_count
 FROM decisions
 WHERE created_at > DATE_SUB(NOW(), INTERVAL 90 DAY)
 GROUP BY category;

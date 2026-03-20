@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Referral Program Template for Distributed."
+title: "Remote Team Referral Program Template for Distributed"
 description: "A practical template and implementation guide for building employee referral programs in remote and distributed companies. Includes bonus structures."
 date: 2026-03-16
 author: theluckystrike
@@ -35,7 +35,7 @@ Executive/Principal: $15,000 - $25,000
 For fully distributed teams, apply a multiplier based on candidate location:
 
 - North America/Europe: 1.0x base
-- Latin America: 0.8x base 
+- Latin America: 0.8x base
 - Asia-Pacific: 0.7x base
 - Other regions: Negotiated case-by-case
 
@@ -193,3 +193,4 @@ Use this checklist when launching or updating your referral program:
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Onboarding Tools for a Remote Team Hiring 3 People."
+title: "Best Onboarding Tools for a Remote Team Hiring 3 People"
 description: "A practical guide to onboarding tools for remote teams hiring 3 people monthly. Compare solutions with code examples, automation scripts, and."
 date: 2026-03-16
 author: theluckystrike
@@ -272,3 +272,4 @@ For teams scaling to three monthly hires, the automation ROI becomes clear withi
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

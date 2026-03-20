@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Remote Pharmacy Consultation Service with."
+title: "How to Set Up Remote Pharmacy Consultation Service with"
 description: "A technical guide for developers and power users building remote pharmacy consultation services. Covers video API integration, HIPAA compliance, and."
 date: 2026-03-16
 author: theluckystrike
@@ -166,3 +166,4 @@ Building a remote pharmacy consultation service demands attention to healthcare-
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

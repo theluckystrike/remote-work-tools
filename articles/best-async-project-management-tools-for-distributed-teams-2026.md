@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Async Project Management Tools for Distributed."
+title: "Best Async Project Management Tools for Distributed Teams"
 description: "Compare async-first PM tools: Linear, Notion, Height, Shortcut. Focus on timezone handling, notification management, and async workflows for remote teams."
 date: 2026-03-20
 author: theluckystrike
@@ -420,18 +420,18 @@ For a distributed team of 10: **$2/user/month** (best value).
 ### Key Rules for Async Success
 
 1. **Assume your message won't be read for 24h**
-   - Write complete context, not "I have a question"
-   - Provide code examples, not "This is broken"
-   - Link resources instead of saying "I'll send you the doc"
+ - Write complete context, not "I have a question"
+ - Provide code examples, not "This is broken"
+ - Link resources instead of saying "I'll send you the doc"
 
 2. **Batch decisions**
-   - Don't expect immediate response
-   - Plan work assuming 1-day turnaround
-   - Use the tool's "awaiting" status for clarity
+ - Don't expect immediate response
+ - Plan work assuming 1-day turnaround
+ - Use the tool's "awaiting" status for clarity
 
 3. **Respect timezone notifications**
-   - Don't Slack someone during their sleep
-   - Use the tool to schedule notification delivery
+ - Don't Slack someone during their sleep
+ - Use the tool to schedule notification delivery
 
 ## Real Metrics: Async PM Adoption
 

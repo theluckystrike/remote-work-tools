@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Video Bar for Small Hybrid Meeting Rooms Under 8."
+title: "Best Video Bar for Small Hybrid Meeting Rooms Under 8"
 description: "A technical guide for developers and IT teams selecting video bars for small hybrid meeting rooms. Covers USB audio/video solutions, API integrations."
 date: 2026-03-16
 author: theluckystrike
@@ -184,3 +184,4 @@ Some video bars support PoE (Power over Ethernet) when used with network cables,
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Management for Husband and Wife Freelance."
+title: "Project Management for Husband and Wife Freelance"
 description: "Practical project management strategies for husband and wife freelance development teams. Learn workflow optimization, communication patterns, and tool."
 date: 2026-03-16
 author: theluckystrike
@@ -153,3 +153,4 @@ Review your workflow monthly. What broke last month? What took longer than expec
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

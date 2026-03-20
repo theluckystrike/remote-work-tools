@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Acoustic Foam Placement for Home Office Zoom Call."
+title: "Best Acoustic Foam Placement for Home Office Zoom Call"
 description: "A practical technical guide for developers and power users optimizing acoustic foam placement to improve Zoom call quality in home offices."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -185,3 +185,4 @@ This measurement approach helps you identify frequency-specific problems and tar
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

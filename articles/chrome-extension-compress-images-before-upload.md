@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chrome Extension Compress Images Before Upload: A."
+title: "Chrome Extension Compress Images Before Upload: A"
 description: "Learn how to build a Chrome extension that automatically compresses images before upload. Perfect for developers and power users who need to optimize."
 date: 2026-03-15
 author: theluckystrike
@@ -313,3 +313,4 @@ Some web applications use custom file upload components that don't use standard 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

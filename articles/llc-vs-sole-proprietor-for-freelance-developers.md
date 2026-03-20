@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "LLC vs Sole Proprietor for Freelance Developers: A."
+title: "LLC vs Sole Proprietor for Freelance Developers: A"
 description: "Compare LLC vs sole proprietor structures for freelance developers. Learn liability protection, tax implications, and which business entity fits your."
 date: 2026-03-15
 author: theluckystrike
@@ -145,3 +145,4 @@ One advantage of starting as a sole proprietor: you can always form an LLC later
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

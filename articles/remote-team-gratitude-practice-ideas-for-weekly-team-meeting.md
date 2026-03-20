@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Gratitude Practice Ideas for Weekly Team."
+title: "Remote Team Gratitude Practice Ideas for Weekly Team"
 description: "Practical gratitude exercises and digital tools to build connection in your distributed team. Examples include shoutout boards, appreciation scripts."
 date: 2026-03-16
 author: theluckystrike
@@ -211,7 +211,7 @@ Make it optional: Some people are uncomfortable with public recognition. Allow s
 
 Be specific: Train the team to mention concrete actions, not just names. "Thanks for the code review" is okay; "Thanks for the thorough code review on the auth refactor — you caught a security issue" is better.
 
-Rotate facilitation: Don't make one person own the gratitude segment forever. Share the responsibility.
+Rotate help: Don't make one person own the gratitude segment forever. Share the responsibility.
 
 Track over time: A leaderboard or simple log helps people see patterns of appreciation and recognizes consistent contributors.
 
@@ -239,3 +239,4 @@ Integrate gratitude into existing meetings rather than creating new ones. Replac
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

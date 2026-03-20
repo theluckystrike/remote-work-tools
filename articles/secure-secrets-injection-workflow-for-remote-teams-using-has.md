@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Secure Secrets Injection Workflow for Remote Teams Using."
+title: "Secure Secrets Injection Workflow for Remote Teams Using"
 description: "Learn how to implement secure secrets injection workflows for distributed teams using HashiCorp Vault. Practical examples, code snippets, and."
 date: 2026-03-16
 author: theluckystrike
@@ -238,3 +238,4 @@ Implement these patterns to maintain security with distributed teams:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Sales Team Forecasting Tool Comparison for."
+title: "Remote Sales Team Forecasting Tool Comparison for"
 description: "Compare remote sales team forecasting tools for distributed revenue operations. Practical implementation guides, API integrations, and code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -198,3 +198,4 @@ The future of remote sales forecasting leans heavily toward AI-assisted predicti
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

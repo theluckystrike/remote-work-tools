@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Remote Team Growing Pains When."
+title: "How to Handle Remote Team Growing Pains When Communication"
 description: "A practical guide for developers and technical teams dealing with communication breakdown as remote teams grow. Includes code examples, workflow."
 date: 2026-03-16
 author: theluckystrike
@@ -78,9 +78,6 @@ Visual confirmation of changes
 
 **Decision requests** should follow a lightweight RFC pattern:
 ```markdown
-## Summary
-One-paragraph proposal overview
-
 ## Problem
 What pain point does this solve?
 
@@ -244,3 +241,4 @@ The shift from organic to intentional communication feels uncomfortable at first
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

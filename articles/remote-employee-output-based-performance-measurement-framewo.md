@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Output-Based Performance Measurement."
+title: "Remote Employee Output-Based Performance Measurement"
 description: "A practical guide to implementing output-based performance measurement for remote teams. Move beyond hours tracking to measurable outcomes, automated."
 date: 2026-03-16
 author: theluckystrike
@@ -213,3 +213,4 @@ Setting static targets: Teams evolve. Review and adjust thresholds quarterly bas
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

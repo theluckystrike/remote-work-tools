@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Async Architecture Reviews for Distributed."
+title: "How to Run Async Architecture Reviews for Distributed"
 description: "Learn practical strategies for conducting async architecture reviews in distributed engineering teams. Includes templates, workflows, and code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -173,3 +173,4 @@ This tiered approach prevents bottlenecks while ensuring significant decisions r
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

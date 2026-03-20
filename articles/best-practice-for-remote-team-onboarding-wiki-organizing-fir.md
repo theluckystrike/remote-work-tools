@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Onboarding Wiki."
+title: "Best Practice for Remote Team Onboarding Wiki"
 description: "A practical guide to building an effective remote team onboarding wiki. Learn how to structure first week tasks by role, with examples and code."
 date: 2026-03-16
 author: theluckystrike
@@ -226,3 +226,4 @@ This approach transforms onboarding from a chaotic introduction into a structure
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

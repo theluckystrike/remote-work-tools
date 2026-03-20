@@ -226,3 +226,4 @@ The goal is a Jira instance where developers can find what they need, understand
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

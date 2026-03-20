@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Remote Employee Underperformance."
+title: "How to Handle Remote Employee Underperformance"
 description: "A practical guide for new managers on handling remote employee underperformance conversations. Includes scripts, frameworks, and actionable tips for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -168,3 +168,4 @@ Provide time for the employee to compose their thoughts. Async communication fav
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

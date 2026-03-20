@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Tracking Remote Employee Work Permits and."
+title: "Best Tool for Tracking Remote Employee Work Permits and"
 description: "A practical guide for developers and power users building systems to track remote employee work permits and visa expirations. Includes code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -186,3 +186,4 @@ The best tool ultimately depends on your team's size, technical capacity, and ex
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

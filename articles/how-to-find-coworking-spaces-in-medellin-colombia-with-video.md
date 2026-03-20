@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Find Coworking Spaces in Medellín Colombia with."
+title: "How to Find Coworking Spaces in Medellín Colombia with"
 description: "A practical guide for developers and remote workers to find coworking spaces in Medellín with video call booths. Includes search strategies, tools, and."
 date: 2026-03-16
 author: theluckystrike
@@ -162,3 +162,4 @@ The investment in finding the right space pays dividends in your daily productiv
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

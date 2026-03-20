@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Release Notes Writing Process for Distributed."
+title: "Async Release Notes Writing Process for Distributed"
 description: "A guide to creating effective asynchronous release notes workflows for distributed engineering teams across multiple time zones."
 date: 2026-03-20
 author: theluckystrike
@@ -225,3 +225,4 @@ Track these metrics to continuously improve your async release notes process:
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

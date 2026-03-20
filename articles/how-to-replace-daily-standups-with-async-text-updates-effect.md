@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Replace Daily Standups with Async Text Updates."
+title: "How to Replace Daily Standups with Async Text Updates"
 description: "Learn practical strategies for replacing daily standups with async text updates. Discover templates, tools, and workflows for remote teams."
 date: 2026-03-16
 author: theluckystrike
@@ -177,3 +177,4 @@ Async text updates transform daily standups from a mandatory meeting into a flex
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

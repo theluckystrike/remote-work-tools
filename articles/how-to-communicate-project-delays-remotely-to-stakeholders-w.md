@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Communicate Project Delays Remotely to."
+title: "How to Communicate Project Delays Remotely to Stakeholders"
 description: "Learn how to communicate project delays remotely to stakeholders with transparency. Includes templates, code snippets, and best practices for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -237,3 +237,4 @@ This workflow scales whether you are managing one project or dozens. The key is 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

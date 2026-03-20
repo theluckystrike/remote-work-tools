@@ -230,3 +230,4 @@ Position the 65W charger near your laptop work zone, and keep the Qi pads in you
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Caregiver Leave Policy Template for."
+title: "Remote Work Caregiver Leave Policy Template for Distributed"
 description: "A caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -196,3 +196,4 @@ Track these metrics to ensure your caregiver policy serves its purpose:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

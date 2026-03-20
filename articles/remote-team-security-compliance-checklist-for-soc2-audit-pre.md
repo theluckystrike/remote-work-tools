@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Security Compliance Checklist for SOC 2."
+title: "Remote Team Security Compliance Checklist for SOC 2 Audit"
 description: "A practical 2026 guide for developers and power users preparing their remote team for SOC 2 compliance audits. Includes actionable checklist items and."
 date: 2026-03-16
 author: theluckystrike
@@ -322,3 +322,4 @@ Start preparing at least 3-4 months before your audit date:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Basecamp for Remote Agency Client."
+title: "How to Set Up Basecamp for Remote Agency Client"
 description: "A practical guide to configuring Basecamp for client communication in remote agencies. Set up projects, automate updates, and improve feedback."
 date: 2026-03-16
 author: theluckystrike
@@ -119,7 +119,7 @@ Each to-do list should contain granular tasks with:
 - Attachments for relevant files
 - Dependencies noted in descriptions
 
-## Streamlining File Sharing
+## Improving File Sharing
 
 Clients often need to review deliverables—design mockups, documentation, video recordings. Basecamp's Docs & Files section handles this, but structure it intentionally:
 
@@ -238,3 +238,4 @@ If clients still rely on email for primary communication, that's a sign the Base
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

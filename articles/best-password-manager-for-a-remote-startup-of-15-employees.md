@@ -268,19 +268,19 @@ Start the evaluation with your team's specific workflow. Identify which integrat
 If a credential is exposed, follow this process:
 
 1. **Immediate (within 1 hour)**:
-   - Rotate the exposed credential
-   - Notify all users who have access to that credential
-   - Document the incident timestamp and impact scope
+ - Rotate the exposed credential
+ - Notify all users who have access to that credential
+ - Document the incident timestamp and impact scope
 
 2. **Short-term (within 24 hours)**:
-   - Review access logs to identify who accessed the credential during exposure window
-   - Audit where the credential was used (which systems/services)
-   - Cancel any actions authenticated with that credential
+ - Review access logs to identify who accessed the credential during exposure window
+ - Audit where the credential was used (which systems/services)
+ - Cancel any actions authenticated with that credential
 
 3. **Long-term**:
-   - Implement credential rotation automation for sensitive accounts
-   - Update access policies to prevent future exposure
-   - Review password manager logs for suspicious access patterns
+ - Implement credential rotation automation for sensitive accounts
+ - Update access policies to prevent future exposure
+ - Review password manager logs for suspicious access patterns
 
 ## Related Reading
 
@@ -292,3 +292,4 @@ If a credential is exposed, follow this process:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

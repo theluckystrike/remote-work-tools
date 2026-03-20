@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Laptop Cooling Solutions for Remote Workers in."
+title: "Best Laptop Cooling Solutions for Remote Workers in"
 description: "A technical guide to keeping your laptop cool while working remotely in tropical climates like Bali. Practical solutions for developers and power users."
 date: 2026-03-16
 author: theluckystrike
@@ -172,3 +172,4 @@ Working in tropical climates requires proactive thermal management, but the righ
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

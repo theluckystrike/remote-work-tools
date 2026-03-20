@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Malaysia Digital Nomad Pass DE Rantau Application for."
+title: "Malaysia Digital Nomad Pass DE Rantau Application for"
 description: "Malaysia Digital Nomad Pass DE Rantau Application for. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026."
 date: 2026-03-16
 author: theluckystrike
@@ -332,3 +332,4 @@ The DE Rantau pass allows you to open a local bank account once you arrive, whic
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

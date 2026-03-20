@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Write Async Project Proposals That Get Approved."
+title: "How to Write Async Project Proposals That Get Approved"
 description: "A practical guide to crafting async project proposals that get approved in remote teams. Learn frameworks, templates, and strategies for winning async."
 date: 2026-03-18
 author: theluckystrike
@@ -138,9 +138,6 @@ After sending your proposal, follow up at the right time. 3-5 days is appropriat
 Here's a template structure you can customize for your team's needs:
 
 ```
-## Summary
-[2-3 sentences capturing the essence]
-
 ## Problem
 [What issue are you solving? Evidence?]
 
@@ -177,3 +174,4 @@ Proposals from someone with a track record of successful projects get more trust
 - [How to Write Freelance Proposals That Win](/remote-work-tools/how-to-write-freelance-proposals-that-win/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

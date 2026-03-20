@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Story Point Velocity Trend Analysis Tool for."
+title: "Remote Team Story Point Velocity Trend Analysis Tool for"
 description: "A practical guide for remote engineering teams on implementing story point velocity trend analysis. Learn how to track, analyze, and use velocity."
 date: 2026-03-16
 author: theluckystrike
@@ -367,3 +367,4 @@ As you implement velocity tracking, keep these considerations in mind:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

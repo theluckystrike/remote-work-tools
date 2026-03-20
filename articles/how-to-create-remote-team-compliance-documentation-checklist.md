@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Compliance Documentation."
+title: "How to Create Remote Team Compliance Documentation"
 description: "A practical guide for developers and power users building compliance documentation for remote teams. Includes templates, code examples, and audit-ready."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -232,3 +232,4 @@ The effort you invest in building proper compliance documentation protects your 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -21,7 +21,7 @@ Write effective async daily logs by recording decisions with reasoning, capturin
 When you write daily logs with future readers in mind, you're building institutional knowledge that outlasts any single project or role. Here's what happens when teams adopt this practice:
 
 - Onboarding accelerates: New team members can trace decisions through your logs instead of scheduling dozens of intro meetings
-- Context travels: When you're unavailable, teammates can pick up where you left off without losing momentum 
+- Context travels: When you're unavailable, teammates can pick up where you left off without losing momentum
 - Decision history becomes clear: Future developers understand why certain choices were made, even years later
 - You help your future self: When you return to a project after months, your logs refresh your memory instantly
 

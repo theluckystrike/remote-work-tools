@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Client Feedback Collection Tool for Remote Development."
+title: "Client Feedback Collection Tool for Remote Development"
 description: "A practical guide to implementing client feedback collection tools for remote development agencies. Learn about API integrations, automation, and best."
 date: 2026-03-16
 author: theluckystrike
@@ -221,3 +221,4 @@ Establish metrics that matter. Client feedback collection tools should ultimatel
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

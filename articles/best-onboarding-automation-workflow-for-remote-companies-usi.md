@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Onboarding Automation Workflow for Remote Companies."
+title: "Best Onboarding Automation Workflow for Remote Companies"
 description: "Learn how to build a scalable onboarding automation workflow for remote companies using Slack bots and Notion templates. Includes code examples and."
 date: 2026-03-16
 author: theluckystrike
@@ -268,3 +268,4 @@ Store these metrics in Notion alongside employee records, creating a data-driven
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Multilingual Client Communication for."
+title: "How to Manage Multilingual Client Communication for"
 description: "A practical guide for managing client communication across multiple languages in distributed agency teams. Learn workflows, tools, and automation."
 date: 2026-03-16
 author: theluckystrike
@@ -286,3 +286,4 @@ Review these monthly and adjust your processes accordingly.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

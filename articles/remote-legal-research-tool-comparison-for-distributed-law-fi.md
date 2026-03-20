@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Legal Research Tool Comparison for Distributed."
+title: "Remote Legal Research Tool Comparison for Distributed Law"
 description: "A technical comparison of AI-powered legal research tools for distributed law firms. APIs, integrations, pricing, and implementation examples for."
 date: 2026-03-16
 author: theluckystrike
@@ -215,3 +215,4 @@ Distributed firms handling international matters should evaluate cross-border re
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

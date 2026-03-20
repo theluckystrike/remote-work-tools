@@ -143,9 +143,6 @@ Request for Comments documents capture proposals before they become decisions. R
 ```markdown
 # RFC-015: Introduce Message Queue for Async Processing
 
-## Summary
-Propose adding RabbitMQ to handle background job processing.
-
 ## Problem Statement
 Currently, all background jobs run synchronously within request handlers, 
 causing timeout issues for long-running operations.

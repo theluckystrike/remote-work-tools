@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Intellectual Property Assignment Clause."
+title: "Remote Employee Intellectual Property Assignment Clause"
 description: "A practical guide to crafting IP assignment clauses for remote and distributed teams. Includes template examples, legal considerations, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -222,3 +222,4 @@ Review your current IP assignment practices and identify gaps. Implement the che
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

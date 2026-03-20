@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run a Remote Team Demo Day Showcasing Cross-Team."
+title: "How to Run a Remote Team Demo Day Showcasing Cross-Team"
 description: "A practical guide for running effective remote demo days that highlight cross-team collaboration. Learn frameworks, formats, and tooling for."
 date: 2026-03-16
 author: theluckystrike
@@ -246,3 +246,4 @@ Block prep time for presenters the week before. Make the schedule visible and ho
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

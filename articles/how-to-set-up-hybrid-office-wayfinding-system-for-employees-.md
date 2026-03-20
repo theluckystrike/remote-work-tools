@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Hybrid Office Wayfinding System for."
+title: "How to Set Up Hybrid Office Wayfinding System for Employees"
 description: "A technical guide to building a wayfinding system for hybrid offices that helps infrequent visitors navigate your workplace. Includes code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -201,3 +201,4 @@ Consider privacy implications. Store location data ephemerally and provide clear
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

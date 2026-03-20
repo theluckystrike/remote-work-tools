@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Write Async Status Updates That Managers Actually."
+title: "How to Write Async Status Updates That Managers Actually"
 description: "Learn practical strategies for writing async status updates that managers actually read and respond to. Includes templates and examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -90,13 +90,13 @@ Here's a template that applies this framework:
 ### Strong Update (Emulate)
 
 > Completed: Finalized the sales dashboard mockups - shared in Figma for review
-> 
+>
 > Progress: Started React component implementation - 60% complete on the main chart components
-> 
+>
 > Blocked: Need API endpoint `/sales/metrics` to return date range filters - pinged backend team, awaiting response
-> 
+>
 > Next: Complete chart components by Wednesday, integrate API response by Friday
-> 
+>
 > Help needed: @manager - can you review the Figma mockups and confirm the metrics displayed match priorities?
 
 Notice the difference: specific tasks, measurable progress, clear deadlines, and a specific ask.
@@ -147,7 +147,7 @@ If your manager asks follow-up questions after every update, you're probably not
 Consider using these tools to structure your updates:
 
 - Notion: Create templates for recurring updates
-- Slack: Use thread features to keep updates organized 
+- Slack: Use thread features to keep updates organized
 - Linear/Asana: Link tasks to status updates for context
 - Google Docs: For longer-form weekly reports with embedded visuals
 
@@ -170,3 +170,4 @@ Remember: your goal isn't to show you're busy. It's to show you're making progre
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hybrid Office Fire Safety and Evacuation Plan Update for."
+title: "Hybrid Office Fire Safety and Evacuation Plan Update for"
 description: "Learn how to update fire safety and evacuation plans for hybrid offices with variable occupancy. Covers smart occupancy tracking, dynamic evacuation."
 date: 2026-03-16
 author: theluckystrike
@@ -317,3 +317,4 @@ Fire safety requires regular testing:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

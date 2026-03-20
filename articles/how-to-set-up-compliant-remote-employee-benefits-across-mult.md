@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Compliant Remote Employee Benefits Across."
+title: "How to Set Up Compliant Remote Employee Benefits Across"
 description: "A practical technical guide for developers and power users building systems to manage compliant remote employee benefits across US state lines."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

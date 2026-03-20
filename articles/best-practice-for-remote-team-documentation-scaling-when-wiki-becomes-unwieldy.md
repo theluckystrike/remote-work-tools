@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Documentation Scaling When."
+title: "Best Practice for Remote Team Documentation Scaling When"
 description: "A practical guide for engineering managers on scaling remote team documentation when wikis grow too large, with strategies for organization, search."
 date: 2026-03-20
 author: "Remote Work Tools Guide"
@@ -213,7 +213,7 @@ This is how documentation scaling typically evolves:
 
 **Stage 3 (20-40 people)**: Scaling problems hit hard. Search sucks. Duplicates abound. Time to implement tiered structure + ownership model.
 
-**Stage 4 (40-100 people)**: Dedicated documentation tooling needed. Consider tools like Confluence or Notion with robust search. Implement formal ownership + review processes.
+**Stage 4 (40-100 people)**: Dedicated documentation tooling needed. Consider tools like Confluence or Notion with search. Implement formal ownership + review processes.
 
 **Stage 5 (100+ people)**: Distributed ownership model essential. Each team maintains their section. Central team focuses on tooling, search, onboarding integration, archival.
 
@@ -226,25 +226,25 @@ Before implementing scaling strategies, understand where you are:
 ### Quick Audit (30 minutes)
 
 1. **Count pages**: Run a search that returns all pages (usually "title: *" or similar)
-   - <100 pages: You're early stage, scaling not yet urgent
-   - 100-300 pages: Getting complex, start planning
-   - 300-500 pages: Scaling issues likely present
-   - 500+ pages: Definitely need scaling strategies
+ - <100 pages: You're early stage, scaling not yet urgent
+ - 100-300 pages: Getting complex, start planning
+ - 300-500 pages: Scaling issues likely present
+ - 500+ pages: Definitely need scaling strategies
 
 2. **Check for duplicates**: Search for common topics
-   - "How to deploy"—how many results?
-   - "Database setup"—how many results?
-   - If you find 3+ versions of the same topic, you have duplication problems
+ - "How to deploy"—how many results?
+ - "Database setup"—how many results?
+ - If you find 3+ versions of the same topic, you have duplication problems
 
 3. **Check for outdated content**: Pick 10 random pages, check last update dates
-   - <3 months: Actively maintained
-   - 3-6 months: Needs attention
-   - >6 months: Likely outdated
+ - <3 months: Actively maintained
+ - 3-6 months: Needs attention
+ - >6 months: Likely outdated
 
 4. **Search test**: Ask non-expert team members to find something
-   - Can they find it in <2 minutes?
-   - Do they find relevant results or noise?
-   - Would they ask in Slack instead of searching?
+ - Can they find it in <2 minutes?
+ - Do they find relevant results or noise?
+ - Would they ask in Slack instead of searching?
 
 ### Full Audit (2-3 hours, run quarterly)
 

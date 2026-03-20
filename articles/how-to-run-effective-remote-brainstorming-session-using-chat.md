@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Effective Remote Brainstorming Session Using."
+title: "How to Run Effective Remote Brainstorming Session Using"
 description: "A practical guide for developers and power users on running productive remote brainstorming sessions using text-based chat tools."
 date: 2026-03-16
 author: theluckystrike
@@ -129,14 +129,14 @@ Use reactions or a simple voting mechanism:
 
 ## helping Effectively in Chat
 
-Chat brainstorming requires different facilitation skills than video meetings. Your role shifts to:
+Chat brainstorming requires different help skills than video meetings. Your role shifts to:
 
 1. **Asking follow-up questions** in threads to develop ideas further
 2. **Summarizing themes** every few hours to show progress
 3. **Gently prompting** quieter team members who haven't contributed
 4. **Managing energy** by acknowledging good contributions publicly
 
-Example facilitation messages:
+Example help messages:
 
 ```
 📋 INTERIM SUMMARY (Hour 12)
@@ -171,7 +171,7 @@ The real value of chat brainstorming comes from converting ideas into action. Af
 Chat brainstorming excels for:
 
 - Feature ideation and product improvements
-- Problem identification and root cause analysis 
+- Problem identification and root cause analysis
 - Technical approach discussions
 - Cross-functional idea gathering
 - Time zone-challenged teams
@@ -193,3 +193,4 @@ Chat-based brainstorming transforms how remote teams generate ideas. By embracin
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

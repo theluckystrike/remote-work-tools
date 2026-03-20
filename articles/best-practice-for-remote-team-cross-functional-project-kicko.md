@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Cross Functional Project."
+title: "Best Practice for Remote Team Cross Functional Project"
 description: "A practical guide to creating effective cross-functional project kickoff agendas for remote teams. Includes templates, code examples, and actionable."
 date: 2026-03-16
 author: theluckystrike
@@ -175,3 +175,4 @@ Use retrospective data to refine your agenda template for the next project.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

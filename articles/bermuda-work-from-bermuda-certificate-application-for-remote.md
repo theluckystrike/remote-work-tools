@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Bermuda Work From Bermuda Certificate: Application Guide."
+title: "Bermuda Work From Bermuda Certificate"
 description: "Bermuda Work From Bermuda Certificate: Application Guide. — practical guide for remote teams and distributed workers with tools, tips, and workflows."
 date: 2026-03-16
 author: theluckystrike
@@ -211,3 +211,4 @@ After five years of continuous residence, you may apply for Bermudian status, th
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

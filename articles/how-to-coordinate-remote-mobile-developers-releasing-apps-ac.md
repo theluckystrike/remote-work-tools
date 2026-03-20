@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Coordinate Remote Mobile Developers Releasing."
+title: "How to Coordinate Remote Mobile Developers Releasing Apps"
 description: "A practical guide to coordinating remote mobile developers for releasing apps across iOS and Android platforms. Includes CI/CD pipelines, version."
 date: 2026-03-16
 author: theluckystrike
@@ -277,3 +277,4 @@ The goal is creating systems where developers can work independently while stayi
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

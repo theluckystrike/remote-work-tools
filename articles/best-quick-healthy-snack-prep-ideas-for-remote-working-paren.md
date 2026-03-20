@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Quick Healthy Snack Prep Ideas for Remote Working."
+title: "Best Quick Healthy Snack Prep Ideas for Remote Working"
 description: "Discover practical healthy snack prep strategies for remote working parents. Includes batch preparation techniques, quick assembly recipes, and code."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -165,3 +165,4 @@ Remote working parents who maintain consistent snack routines report better afte
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

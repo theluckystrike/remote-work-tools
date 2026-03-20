@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "L-Shaped Desk vs Straight Desk for Home Office: A."
+title: "L-Shaped Desk vs Straight Desk for Home Office: A"
 description: "Compare l-shaped desk vs straight desk for home office setups. Analyze space efficiency, monitor configurations, cable management, and ergonomics for."
 date: 2026-03-15
 author: theluckystrike
@@ -178,3 +178,4 @@ A well-chosen desk becomes your primary work surface for years. Investing time i
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

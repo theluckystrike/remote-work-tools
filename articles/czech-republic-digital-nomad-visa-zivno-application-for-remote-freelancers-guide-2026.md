@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Czech Republic Digital Nomad Visa (Zivno) Application."
+title: "Czech Republic Digital Nomad Visa (Zivno) Application Guide"
 description: "Complete guide to applying for Czech Republic Zivno digital nomad visa in 2026. Eligibility, documents, financial requirements, and step-by-step."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -161,3 +161,4 @@ Renewal processing takes 30-60 days. Start your renewal 60-90 days before expira
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

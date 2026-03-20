@@ -154,7 +154,7 @@ Rotate through department heads with concise updates. Limit each presenter to 3-
 
 ### Phase 4: Q&A Session (20 minutes)
 
-The Q&A requires structured facilitation at 200-person scale. Use one of these approaches:
+The Q&A requires structured help at 200-person scale. Use one of these approaches:
 
 Chat-Based Q&A: Participants submit questions in chat. A moderator curates and reads questions to the speaker. This works well for async participation.
 
@@ -240,3 +240,4 @@ With proper planning and the right technical setup, quarterly all-hands meetings
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

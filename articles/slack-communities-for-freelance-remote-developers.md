@@ -135,7 +135,7 @@ Three months later, when someone asks about payment integration again, another d
 When facing a Docker networking issue at 2 AM, a developer posts in the DevOps channel:
 
 > "Getting 'connection refused' when trying to connect my Node app container to Redis container. Both are in default bridge network. Here's my docker-compose:
-> 
+>
 > ```
 > services:
 > app:
@@ -145,7 +145,7 @@ When facing a Docker networking issue at 2 AM, a developer posts in the DevOps c
 > redis:
 > image: redis:alpine
 > ```
-> 
+>
 > The app tries connecting to `localhost:6379`. Works locally without Docker."
 
 Multiple developers respond with the solution: containers communicate using service names, not localhost. The fix:
@@ -202,3 +202,4 @@ New community members often undermine their own experience:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

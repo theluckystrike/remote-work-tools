@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Contract Management Tool for Remote Agency Multiple."
+title: "Best Contract Management Tool for Remote Agency Multiple"
 description: "Find the best contract management tool for remote agency with multiple clients. Compare CLI-first approaches, automation scripts, and."
 date: 2026-03-16
 author: "theluckystrike"
@@ -233,3 +233,4 @@ The right tool is the one your team will actually use consistently. A simple sys
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

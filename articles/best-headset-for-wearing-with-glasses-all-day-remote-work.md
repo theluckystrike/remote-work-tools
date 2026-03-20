@@ -78,7 +78,7 @@ Beyond modifications, purchasing a glasses-friendly headset solves the problem p
 
 - **Audeze Maxwell** ($299-350): Gaming headset but excellent for developers, specifically designed with glasses-wearer feedback based on community forums, memory foam ear cups (38mm+), 24-hour battery, excellent spatial audio for music during breaks. Lighter than competitors (330g). 2-year warranty.
 
-- **Sony WH-1000XM5** ($378-400): Industry standard for noise cancellation, moderate ear cup depth (35mm), slightly tight for thick acetate frames but excellent overall comfort for metal-frame glasses. Best-in-class noise cancellation (40dB reduction). 2-year coverage.
+- **Sony WH-1000XM5** ($378-400): Industry standard for noise cancellation, moderate ear cup depth (35mm), slightly tight for thick acetate frames but excellent overall comfort for metal-frame glasses. Leading noise cancellation (40dB reduction). 2-year coverage.
 
 - **Shure SRH840A** ($245-300): Studio-quality over-ear, comfortable headband distribution with excellent pressure balance, 38mm ear cup depth, exceptional microphone, available in wired or wireless variants. Professional-grade audio, 2-year warranty.
 
@@ -224,3 +224,4 @@ Finding the right headset for glasses-wearing developers comes down to understan
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

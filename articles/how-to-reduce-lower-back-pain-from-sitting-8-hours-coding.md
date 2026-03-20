@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Reduce Lower Back Pain from Sitting 8 Hours."
+title: "How to Reduce Lower Back Pain from Sitting 8 Hours Coding"
 description: "Proven strategies to eliminate lower back pain from prolonged coding sessions. Ergonomic fixes, movement routines, and code-powered solutions for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -364,3 +364,4 @@ Start with one change today. Then another next week. Your future self will thank
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

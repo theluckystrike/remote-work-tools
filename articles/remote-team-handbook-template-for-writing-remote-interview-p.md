@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Handbook Template: Writing Remote Interview."
+title: "Remote Team Handbook Template"
 description: "A practical template and guide for writing remote interview process documentation. Learn how to create clear, consistent interview playbooks for hiring."
 date: 2026-03-16
 author: theluckystrike
@@ -181,3 +181,4 @@ Before publishing your documentation, verify:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

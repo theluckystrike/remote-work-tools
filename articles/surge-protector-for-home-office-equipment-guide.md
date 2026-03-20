@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Surge Protector for Home Office Equipment Guide."
+title: "Surge Protector for Home Office Equipment Guide"
 description: "Learn how to protect your expensive development equipment from power surges. This guide covers surge protector specs, joule ratings, and smart setups."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -184,3 +184,4 @@ After major event: Always replace point-of-use units
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Prevent Laptop Overheating During Long Video Call."
+title: "How to Prevent Laptop Overheating During Long Video Call"
 description: "Practical techniques and developer tools to prevent laptop overheating during extended video calls. Monitor temps, optimize resources, and stay cool."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -286,3 +286,4 @@ alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

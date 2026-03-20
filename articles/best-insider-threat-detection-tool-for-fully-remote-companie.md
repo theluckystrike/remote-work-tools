@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Insider Threat Detection Tool for Fully Remote."
+title: "Best Insider Threat Detection Tool for Fully Remote"
 description: "A practical review of insider threat detection tools for fully remote companies. Learn implementation patterns, detection strategies, and code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -154,3 +154,4 @@ Start with these foundational steps regardless of which tools you ultimately dep
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

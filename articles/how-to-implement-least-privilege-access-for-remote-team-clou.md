@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Implement Least Privilege Access for Remote Team."
+title: "How to Implement Least Privilege Access for Remote Team"
 description: "Learn practical strategies for implementing least privilege access for remote team cloud resources with code examples, IAM patterns, and security best."
 date: 2026-03-16
 author: theluckystrike
@@ -297,3 +297,4 @@ Schedule this audit to run weekly and generate reports for security review.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

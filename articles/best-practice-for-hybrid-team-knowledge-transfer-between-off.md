@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Hybrid Team Knowledge Transfer Between."
+title: "Best Practice for Hybrid Team Knowledge Transfer Between"
 description: "Master knowledge transfer in hybrid teams with practical patterns, async workflows, and developer-focused tools. Learn to bridge the gap between office."
 date: 2026-03-16
 author: theluckystrike
@@ -207,3 +207,4 @@ Track these indicators to assess whether your knowledge transfer systems are wor
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

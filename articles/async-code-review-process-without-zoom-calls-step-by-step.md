@@ -32,9 +32,6 @@ The foundation of async code reviews is clear communication through structured p
 Here's a PR template that encourages thorough descriptions:
 
 ```markdown
-## Summary
-Brief description of the change and its purpose.
-
 ## Approach
 Explain your implementation decisions and why you chose this approach.
 
@@ -165,3 +162,4 @@ Async reviews fail when teams don't establish clear norms. Avoid these mistakes:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Social Security Contributions When Working."
+title: "How to Handle Social Security Contributions When Working"
 description: "A practical guide for developers and remote workers on managing social security contributions when working temporarily in EU countries. Covers the."
 date: 2026-03-16
 author: theluckystrike
@@ -202,3 +202,4 @@ The rules exist to protect workers and ensure fair contribution distribution acr
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

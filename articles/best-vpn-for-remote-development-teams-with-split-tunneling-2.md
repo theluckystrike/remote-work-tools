@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best VPN for Remote Development Teams with Split."
+title: "Best VPN for Remote Development Teams with Split Tunneling"
 description: "A practical comparison of VPN solutions with split tunneling for remote development teams. Includes configuration examples, performance benchmarks, and."
 date: 2026-03-16
 author: theluckystrike
@@ -188,3 +188,4 @@ For remote development teams, start with these steps:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

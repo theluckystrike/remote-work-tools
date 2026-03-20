@@ -15,7 +15,7 @@ voice-checked: true
 
 {% raw %}
 
-Childcare benefit policies for hybrid employees should offer multiple benefit types (monthly stipods, on-site childcare partnerships, flexible spending), define clear eligibility criteria and office day requirements, and implement documentation workflows tracking benefit requests. Include required proof of guardianship, establish quarterly policy reviews monitoring utilization rates and retention impact, and provide consistent communication through onboarding, annual enrollment, and quarterly verification. Design policies that genuinely remove barriers for working parents rather than creating compliance burdens.
+Childcare benefit policies for hybrid employees should offer multiple benefit types (monthly stipods, on-site childcare partnerships, flexible spending), define clear eligibility criteria and office day requirements, and implement documentation workflows tracking benefit requests. Include required proof of guardianship, establish quarterly policy reviews monitoring use rates and retention impact, and provide consistent communication through onboarding, annual enrollment, and quarterly verification. Design policies that genuinely remove barriers for working parents rather than creating compliance burdens.
 
 ## Why Childcare Benefits Matter for Hybrid Teams
 
@@ -207,3 +207,4 @@ Watch for these issues when implementing childcare benefits:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

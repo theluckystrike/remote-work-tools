@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Brazil Digital Nomad Visa Process and Tax Implications."
+title: "Brazil Digital Nomad Visa Process and Tax Implications for"
 description: "Brazil Digital Nomad Visa Process and Tax Implications. — practical guide for remote teams and distributed workers with tools, tips, and workflows for."
 date: 2026-03-16
 author: theluckystrike
@@ -183,3 +183,4 @@ For remote developers who want to experience South America while continuing to w
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

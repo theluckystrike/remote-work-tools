@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Tracking Remote Worker Tax Obligations."
+title: "Best Tool for Tracking Remote Worker Tax Obligations Across"
 description: "A technical guide to tracking remote worker tax obligations across US states. Compare APIs, automation tools, and implementation strategies for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -201,3 +201,4 @@ Maintain detailed logs of all tax calculations and Nexus determinations. When au
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

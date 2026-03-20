@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Project Management for a Solo Developer with 8 Client."
+title: "Project Management for a Solo Developer with 8 Client"
 description: "Practical strategies and tools for managing 8 client projects simultaneously. Learn time-blocking, task isolation, and workflow automation techniques."
 date: 2026-03-16
 author: theluckystrike
@@ -187,3 +187,4 @@ Choose tools that integrate with each other and don't require excessive maintena
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

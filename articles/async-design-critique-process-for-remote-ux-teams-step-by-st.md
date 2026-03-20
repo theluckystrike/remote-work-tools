@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Design Critique Process for Remote UX Teams."
+title: "Async Design Critique Process for Remote Ux Teams Step by St"
 description: "Learn how to run effective asynchronous design critiques with remote UX teams. Practical examples and code snippets included."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -174,3 +174,4 @@ Monitor your async critique process over time. Are deadlines being met? Is feedb
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

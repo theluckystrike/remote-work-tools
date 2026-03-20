@@ -52,7 +52,7 @@ For developers, this structure works well during code review discussions, archit
 
 ## Icebreaker Exercise: Async Brainstorm Mapping
 
-For distributed teams spanning multiple time zones, async workshops require different facilitation approaches. Use this structured exercise to gather input before synchronous sessions:
+For distributed teams spanning multiple time zones, async workshops require different help approaches. Use this structured exercise to gather input before synchronous sessions:
 
 ### Setup Template
 
@@ -100,7 +100,7 @@ For engineering teams, this works exceptionally well for tech debt prioritizatio
 
 For complex problems, divide participants into smaller groups for focused discussion. Miro's breakout frames feature allows simultaneous collaboration in separate canvas sections.
 
-### Facilitation Template
+### Help Template
 
 ```
 ┌─────────────────────────────────────────┐
@@ -138,11 +138,11 @@ curl -X POST "https://api.miro.com/v2/boards/{board_id}/export" \
 
 ## Key Takeaways
 
-Successful remote workshop facilitation in Miro requires more than sharing a board link. Structure your sessions with clear time boundaries, equal participation mechanisms, and organized visual layouts. The techniques outlined here work for teams of any size, though you'll want to adjust timing based on group dynamics.
+Successful remote workshop help in Miro requires more than sharing a board link. Structure your sessions with clear time boundaries, equal participation mechanisms, and organized visual layouts. The techniques outlined here work for teams of any size, though you'll want to adjust timing based on group dynamics.
 
 Start with the round-robin protocol for your next meeting. Add the parking lot for tangent management. Implement dot voting for decisions. These small structural additions compound into significantly more productive sessions.
 
-The remote work ecosystem continues evolving, but the fundamentals of good facilitation remain constant: clear goals, inclusive participation, and actionable outcomes. Miro provides the canvas—structured communication exercises provide the framework.
+The remote work ecosystem continues evolving, but the fundamentals of good help remain constant: clear goals, inclusive participation, and actionable outcomes. Miro provides the canvas—structured communication exercises provide the framework.
 
 ---
 
@@ -157,3 +157,4 @@ The remote work ecosystem continues evolving, but the fundamentals of good facil
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

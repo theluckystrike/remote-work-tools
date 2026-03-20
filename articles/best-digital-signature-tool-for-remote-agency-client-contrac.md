@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Digital Signature Tool for Remote Agency Client."
+title: "Best Digital Signature Tool for Remote Agency Client"
 description: "A practical comparison of digital signature tools for remote agencies. Learn which APIs and integrations work best for automating client contract."
 date: 2026-03-16
 author: theluckystrike
@@ -242,3 +242,4 @@ Digital signature tools provide the infrastructure, but your implementation dete
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

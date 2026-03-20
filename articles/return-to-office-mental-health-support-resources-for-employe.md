@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Return to Office Mental Health Support Resources for."
+title: "Return to Office Mental Health Support Resources for"
 description: "A practical guide to mental health support resources for employees returning to office and adjusting to commuting routines. Includes tools, strategies."
 date: 2026-03-16
 author: theluckystrike
@@ -207,7 +207,7 @@ def enforce_commute_boundaries():
 Track whether your mental health resources actually help:
 
 - Anonymous surveys: Quarterly pulse surveys on workplace satisfaction
-- EAP utilization rates: Monitor uptake without identifying individuals
+- EAP use rates: Monitor uptake without identifying individuals
 - Absenteeism patterns: Track if commute-related absences decrease over time
 - Team velocity stability: Ensure no productivity crashes during transition
 
@@ -253,3 +253,4 @@ The goal is creating an environment where returning to office is a choice that e
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

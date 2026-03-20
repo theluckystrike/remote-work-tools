@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Real Estate Closings with Digital."
+title: "How to Run Remote Real Estate Closings with Digital"
 description: "A technical guide for developers and power users on implementing remote real estate closings using digital notarization tools. Includes API."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -237,3 +237,4 @@ Protecting sensitive real estate data requires attention to several areas:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

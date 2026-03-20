@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote HR Performance Review Tools Comparison for."
+title: "Remote HR Performance Review Tools Comparison for Managing"
 description: "A practical comparison of remote HR performance review tools for managing distributed teams. Evaluate features, API integrations, and implementation."
 date: 2026-03-16
 author: theluckystrike
@@ -202,3 +202,4 @@ Regardless of which tool you choose, implement these practices:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

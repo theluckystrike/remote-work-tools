@@ -148,7 +148,7 @@ The content script extracts page metadata, the popup UI provides formatting opti
 
 Consider adding features like:
 - Multiple citation format support (APA, Chicago, Harvard)
-- One-click copy to clipboard functionality 
+- One-click copy to clipboard functionality
 - Export to reference managers via BibTeX or CSL
 - Citation history storage using chrome.storage
 
@@ -185,3 +185,4 @@ MLA citation generator Chrome extensions eliminate repetitive formatting work, l
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

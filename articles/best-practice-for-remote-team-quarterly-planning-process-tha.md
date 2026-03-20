@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Quarterly Planning Process."
+title: "Best Practice for Remote Team Quarterly Planning Process"
 description: "A practical guide to scaling quarterly planning across multiple remote teams. Learn actionable frameworks, templates, and automation strategies that."
 date: 2026-03-16
 author: theluckystrike
@@ -192,3 +192,4 @@ The most effective quarterly planning processes combine bottom-up input (what te
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

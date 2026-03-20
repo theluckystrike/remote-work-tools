@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build Trust with Clients Who Prefer In-Person."
+title: "How to Build Trust with Clients Who Prefer In-Person"
 description: "Learn practical strategies for building trust with clients who prefer in-person meetings while working in remote or hybrid environments."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -179,3 +179,4 @@ Remember: the goal isn't to convince clients that remote work is superior. It's 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

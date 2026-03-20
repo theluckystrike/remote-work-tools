@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Example: Find pages not modified in the last 180 days."
+title: "Example: Find pages not modified in the last 180 days using"
 description: "Learn how to organize a documentation sprint to fix outdated wiki pages in your remote team. Practical strategies, code examples, and workflows for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -97,7 +97,7 @@ Pair two team members together—one writes, one reviews in real-time. This catc
  aws ecr get-login-password --region us-east-1 | \
  docker login --username AWS --password-stdin \
  123456789012.dkr.ecr.us-east-1.amazonaws.com
- 
+
  docker tag app:latest \
  123456789012.dkr.ecr.us-east-1.amazonaws.com/app:latest
    ```
@@ -166,3 +166,4 @@ Share these results with stakeholders. Documentation improvements often go unnot
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

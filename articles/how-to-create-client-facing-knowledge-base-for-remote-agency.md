@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create a Client-Facing Knowledge Base for a."
+title: "How to Create a Client-Facing Knowledge Base for a Remote"
 description: "A practical guide for remote agencies to build and maintain a client-facing knowledge base. Includes platform recommendations, content organization."
 date: 2026-03-16
 author: theluckystrike
@@ -277,3 +277,4 @@ A knowledge base that stagnates loses value quickly—clients stop checking when
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

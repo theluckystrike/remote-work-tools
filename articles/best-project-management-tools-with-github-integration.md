@@ -22,7 +22,7 @@ Linear is the best project management tool with GitHub integration for speed-foc
 
 Developers already live in GitHub. Pull requests, commits, and branches represent the actual state of work in progress. When your project management tool connects to this workflow, you eliminate duplicate data entry and ensure your planning reflects reality.
 
-The best integrations handle several key workflows: creating issues from pull requests, syncing status changes, linking branches to tasks, and triggering notifications based on code events. 
+The best integrations handle several key workflows: creating issues from pull requests, syncing status changes, linking branches to tasks, and triggering notifications based on code events.
 ## Linear: Speed-First GitHub Integration
 
 Linear combines a keyboard-driven interface with GitHub synchronization. The integration automatically links pull requests to issues when branch names follow a convention, creating a bidirectional connection between your code and tasks.

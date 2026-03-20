@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Slack Do Not Disturb."
+title: "Best Practice for Remote Team Slack Do Not Disturb"
 description: "Learn how to configure Slack Do Not Disturb schedules for distributed teams across time zones. Practical examples, automation scripts, and policies for."
 date: 2026-03-16
 author: theluckystrike
@@ -162,3 +162,4 @@ Adjust schedules based on feedback. A policy that works for a five-person startu
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -189,7 +189,7 @@ This integration adds value for power users who already manage their schedules d
 
 ## Desk Analytics Dashboard
 
-Understanding desk utilization helps facilities teams optimize office layout and reduce costs. Build a simple analytics endpoint that returns utilization metrics:
+Understanding desk use helps facilities teams optimize office layout and reduce costs. Build a simple analytics endpoint that returns use metrics:
 
 ```javascript
 app.get('/api/analytics/utilization', async (req, res) => {
@@ -214,7 +214,7 @@ app.get('/api/analytics/utilization', async (req, res) => {
 });
 ```
 
-Track metrics like peak booking days, average utilization rate, and popular desk locations. This data informs decisions about office capacity, desk expansion, or consolidation.
+Track metrics like peak booking days, average use rate, and popular desk locations. This data informs decisions about office capacity, desk expansion, or consolidation.
 
 ## Security Considerations
 
@@ -259,3 +259,4 @@ A desk reservation app for hybrid workplace solves a genuine operational problem
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

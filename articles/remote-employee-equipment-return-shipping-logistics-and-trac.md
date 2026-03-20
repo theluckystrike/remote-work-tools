@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Equipment Return: Shipping Logistics and."
+title: "Remote Employee Equipment Return"
 description: "A practical guide to building shipping logistics and tracking systems for remote employee equipment returns. Includes API integrations, code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -324,3 +324,4 @@ When implementing equipment return logistics, prioritize three areas: clear comm
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

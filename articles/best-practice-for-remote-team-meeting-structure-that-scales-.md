@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Meeting Structure That."
+title: "Best Practice for Remote Team Meeting Structure That Scales"
 description: "Learn how to build a remote team meeting structure that scales as your team grows without creating more meetings. Practical frameworks for developers."
 date: 2026-03-16
 author: theluckystrike
@@ -207,3 +207,4 @@ The goal is not zero meetings—that is unrealistic for most teams. The goal is 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

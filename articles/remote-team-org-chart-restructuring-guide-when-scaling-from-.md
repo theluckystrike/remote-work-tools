@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Org Chart Restructuring Guide: Scaling from."
+title: "Remote Team Org Chart Restructuring Guide"
 description: "A practical guide for developers and engineering leaders on restructuring remote team org charts when scaling from flat hierarchies to layered."
 date: 2026-03-16
 author: theluckystrike
@@ -191,3 +191,4 @@ Building the right org structure for a growing remote team takes experimentation
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

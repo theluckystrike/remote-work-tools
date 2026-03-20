@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Client Communication Charter for Remote."
+title: "How to Create Client Communication Charter for Remote"
 description: "A practical guide to building a client communication charter that scales your remote agency. Includes templates, code examples, and implementation steps."
 date: 2026-03-16
 author: theluckystrike
@@ -172,3 +172,4 @@ Finally, avoid overcomplicating. A three-page charter nobody reads defeats the p
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

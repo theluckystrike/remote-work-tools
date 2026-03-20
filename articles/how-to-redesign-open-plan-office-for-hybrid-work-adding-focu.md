@@ -14,7 +14,7 @@ voice-checked: true
 
 {% raw %}
 
-Hybrid offices require focus pods providing acoustic isolation (30+ dB reduction), proper ventilation, adjustable lighting, and power connectivity placed within 3 minutes of any desk. Calculate pod requirements at 1 per 4-5 active employees using 50% occupancy as baseline, implement WebSocket-backed booking systems to manage availability, and add ambient acoustic treatment throughout open areas. Success metrics include 60-80% utilization rates, improved employee satisfaction surveys, and increased hybrid office attendance when pods are available.
+Hybrid offices require focus pods providing acoustic isolation (30+ dB reduction), proper ventilation, adjustable lighting, and power connectivity placed within 3 minutes of any desk. Calculate pod requirements at 1 per 4-5 active employees using 50% occupancy as baseline, implement WebSocket-backed booking systems to manage availability, and add ambient acoustic treatment throughout open areas. Success metrics include 60-80% use rates, improved employee satisfaction surveys, and increased hybrid office attendance when pods are available.
 
 ## The Hybrid Work Space Problem
 
@@ -36,7 +36,7 @@ Not all focus pods are created equal. A phone booth with a chair doesn't constit
 
 ## Space Planning for Pod Placement
 
-Before purchasing anything, map your current space utilization. Most open plan offices have zones: collaboration areas, meeting rooms, social spaces, and hot desks. Focus pods typically work best adjacent to but not within collaboration zones.
+Before purchasing anything, map your current space use. Most open plan offices have zones: collaboration areas, meeting rooms, social spaces, and hot desks. Focus pods typically work best adjacent to but not within collaboration zones.
 
 A practical approach uses the "three-minute rule": any employee should reach a focus pod within three minutes of their desk. For a 5,000 square foot open plan floor with 50 employees, this means distributing 8-12 pods across the space rather than clustering them in one corner.
 
@@ -156,7 +156,7 @@ The combination of focus pods plus ambient acoustic treatment creates a space wh
 
 Redesigning an open plan office requires tracking whether the changes achieve their intended goals. Key metrics include:
 
-Pod utilization rate: Aim for 60-80% average utilization. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
+Pod use rate: Aim for 60-80% average use. Below 40% suggests too many pods or poor placement; above 90% indicates insufficient capacity.
 
 Employee satisfaction scores: Survey team members quarterly on their ability to concentrate at the office. Compare scores before and after pod installation.
 
@@ -168,7 +168,7 @@ Hybrid attendance correlation: The ultimate test—do employees come to the offi
 
 For teams starting their open plan to hybrid redesign:
 
-1. Audit current space utilization over two weeks
+1. Audit current space use over two weeks
 2. Calculate pod requirements using the space planning model above
 3. Evaluate pod vendors based on acoustic performance, ventilation, and warranty
 4. Identify optimal pod placements using the three-minute rule
@@ -189,3 +189,4 @@ Focus pods represent infrastructure investment that signals your organization va
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

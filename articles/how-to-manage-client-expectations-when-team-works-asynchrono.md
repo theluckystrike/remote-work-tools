@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Client Expectations When Team Works."
+title: "Example: project-update.yml - Scheduled updates structure"
 description: "Practical strategies for setting clear communication boundaries and managing client expectations when your team works across different time zones."
 date: 2026-03-16
 author: "theluckystrike"
@@ -170,3 +170,4 @@ These aren't required but reduce friction in async client relationships.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

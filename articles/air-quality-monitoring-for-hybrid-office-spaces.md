@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Air Quality Monitoring for Hybrid Office Spaces: A."
+title: "Air Quality Monitoring for Hybrid Office Spaces: A"
 description: "Learn how to implement air quality monitoring systems in hybrid office spaces. Covers sensors, APIs, automation rules, and code examples for developers."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -216,3 +216,4 @@ Document sensor locations and calibration schedules in your facilities managemen
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

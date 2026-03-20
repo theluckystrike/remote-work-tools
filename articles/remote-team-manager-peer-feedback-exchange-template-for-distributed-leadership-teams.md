@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Manager Peer Feedback Exchange Template for."
+title: "Remote Team Manager Peer Feedback Exchange Template for"
 description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -173,3 +173,4 @@ Several patterns undermine peer feedback exchanges in distributed teams. First, 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

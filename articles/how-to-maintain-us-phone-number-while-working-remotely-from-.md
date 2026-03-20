@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Maintain a US Phone Number While Working Remotely."
+title: "Track all critical accounts requiring phone verification"
 description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Includes code examples."
 date: 2026-03-16
 author: theluckystrike
@@ -159,13 +159,13 @@ If you maintain a relationship with an US carrier, some offer international roam
 
 T-Mobile's ONE plan is the most affordable option for maintaining a US number while living abroad. When traveling in Portugal/Spain, SMS and voice work normally (though at varying speeds/reliability). International data is included at no extra cost, though speeds throttle after 50GB.
 
-**Best for**: People who want zero setup complexity; those maintaining active US employment; people wanting comprehensive cellular service.
+**Best for**: People who want zero setup complexity; those maintaining active US employment; people wanting cellular service.
 
 **Cost**: T-Mobile ONE plan is $30-70/month depending on how many lines you have. If you keep your existing US phone plan active just for the number, budget $30-50/month minimum.
 
 ## Option 4: Google Fi Wireless ($10-50/month)
 
-Google Fi (formerly Google Project Fi) provides US phone numbers with international data usage. The service works seamlessly in Portugal and Spain with no special setup—your phone automatically switches between local carriers and WiFi.
+Google Fi (formerly Google Project Fi) provides US phone numbers with international data usage. The service works in Portugal and Spain with no special setup—your phone automatically switches between local carriers and WiFi.
 
 **Pricing structure**:
 - Flexible plan: $20/month base + $10 per GB data (capped at $60/month for unlimited)
@@ -280,3 +280,4 @@ Update your email and secondary phone numbers with all critical accounts before 
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

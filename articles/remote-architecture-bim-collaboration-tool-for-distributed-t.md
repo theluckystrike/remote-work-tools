@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Architecture BIM Collaboration Tool for."
+title: "Remote Architecture BIM Collaboration Tool for Distributed"
 description: "A guide to remote architecture BIM collaboration tools enabling distributed teams to work on Revit projects together in real-time. Covers."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -256,3 +256,4 @@ The remote architecture BIM collaboration ecosystem continues to evolve rapidly.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -184,13 +184,13 @@ Place this document in your team wiki or repo and reference it during onboarding
 
 Not everyone will immediately embrace focus time. Common objections and responses:
 
-**"But we need to collaborate!"** 
+**"But we need to collaborate!"**
 Clarify that focus time protects specific work, not all collaboration. Core hours exist specifically for synchronous work.
 
-**"My calendar is already full."** 
+**"My calendar is already full."**
 This is exactly the problem focus time solves. Start by declining just one recurring meeting per week.
 
-**"Clients won't accept it."** 
+**"Clients won't accept it."**
 Most clients prefer working with teams that deliver quality output. Frame focus time as a feature, not a limitation.
 
 ## Measuring Success
@@ -252,3 +252,4 @@ The goal isn't rigid enforcement but creating a culture where deep work is value
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

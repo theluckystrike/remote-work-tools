@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Career Ladder Documentation."
+title: "How to Create Remote Team Career Ladder Documentation for"
 description: "Learn how to build career ladder documentation for remote engineering teams. Practical examples, YAML templates, and implementation strategies for."
 date: 2026-03-16
 author: theluckystrike
@@ -162,3 +162,4 @@ Set a quarterly review cycle for your career ladder. Remote engineering evolves 
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

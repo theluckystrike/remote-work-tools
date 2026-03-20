@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Hybrid Office Digital Signage Showing Room."
+title: "How to Set Up Hybrid Office Digital Signage Showing Room"
 description: "A technical guide for developers building digital signage systems that display meeting room availability and calendar events in hybrid offices."
 date: 2026-03-16
 author: theluckystrike
@@ -282,3 +282,4 @@ Timezone handling: Meeting rooms often display times in the local timezone, but 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

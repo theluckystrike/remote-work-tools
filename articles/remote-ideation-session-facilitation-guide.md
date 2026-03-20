@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Ideation Session Facilitation Guide"
-description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn facilitation techniques, tools, and code examples."
+description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-ideation-session-facilitation-guide/
@@ -13,9 +13,9 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Ideation Session Facilitation Guide
+# Remote Ideation Session Help Guide
 
-Start every remote ideation session with a "silent start" -- send the problem prompt 24-48 hours in advance and have participants contribute ideas asynchronously before any live discussion. This eliminates the loudest-voice-wins problem and produces higher-quality input from the entire team. This guide covers the full facilitation toolkit, including round-robin generation, the 6-3-5 method, SCAMPER frameworks, and post-session follow-through workflows.
+Start every remote ideation session with a "silent start" -- send the problem prompt 24-48 hours in advance and have participants contribute ideas asynchronously before any live discussion. This eliminates the loudest-voice-wins problem and produces higher-quality input from the entire team. This guide covers the full help toolkit, including round-robin generation, the 6-3-5 method, SCAMPER frameworks, and post-session follow-through workflows.
 
 ## Setting Up Your Ideation Environment
 
@@ -52,7 +52,7 @@ How might we reduce onboarding time for new developers?
 - [ ] @bob to research video hosting options
 ```
 
-## Facilitation Techniques That Work Remotely
+## Help Techniques That Work Remotely
 
 ### The Silent Start Method
 
@@ -200,9 +200,10 @@ Avoid these mistakes that reduce ideation session effectiveness:
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [Remote Team Book Club Format and Facilitation Guide for.](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Remote Team Book Club Format and Help Guide for.](/remote-work-tools/remote-team-book-club-format-and-help-guide-developers/)
 - [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

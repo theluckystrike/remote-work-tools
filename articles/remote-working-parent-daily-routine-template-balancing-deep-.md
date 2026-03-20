@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Daily Routine Template: Balancing."
+title: "Remote Working Parent Daily Routine Template"
 description: "A practical daily routine template for remote working parents. Learn strategies to protect deep work windows while managing childcare responsibilities."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -255,3 +255,4 @@ Start with one change this week. Perhaps it's the visual timer. Perhaps it's blo
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

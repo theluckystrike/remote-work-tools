@@ -58,9 +58,6 @@ Examples:
 Include this structure in every PR description:
 
 ```markdown
-## Summary
-Brief description of changes and their purpose.
-
 ## Changes
 - Added new authentication middleware
 - Modified user model to support OAuth providers
@@ -109,10 +106,10 @@ Apply the "nitpick, suggestion, requirement" framework:
 
 - Nitpick: Minor style preferences, optional improvements
  - "Consider using const here for clarity"
- 
+
 - Suggestion: Better approach but not blocking
  - "We could simplify this with lodash's merge. Not blocking though."
- 
+
 - Requirement: Must change before merge
  - "This needs a null check before accessing the property"
 

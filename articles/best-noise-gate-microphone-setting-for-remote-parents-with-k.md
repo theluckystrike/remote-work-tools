@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Noise Gate Microphone Setting for Remote Parents."
+title: "Best Noise Gate Microphone Setting for Remote Parents With"
 description: "Practical noise gate configuration guide for remote workers with children. Filter out playground noise, toys, and household sounds during video calls."
 date: 2026-03-16
 author: theluckystrike
@@ -160,3 +160,4 @@ The goal is clear audio that lets you focus on your work rather than worrying ab
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

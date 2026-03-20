@@ -332,7 +332,7 @@ $ mysql> ALTER TABLE users ADD COLUMN new_field INT;
 ```
 
 **Strengths:**
-- Seamless integration with JetBrains IDEs
+- integration with JetBrains IDEs
 - Can execute code within IDE (run tests, debug)
 - Both developers can navigate independently (unlike VS Code Live Share)
 - 150-280ms latency (acceptable)

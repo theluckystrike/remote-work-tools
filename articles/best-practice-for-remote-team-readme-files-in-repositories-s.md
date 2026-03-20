@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team README Files in."
+title: "Best Practice for Remote Team README Files in Repositories"
 description: "A practical guide to creating and maintaining effective README files for remote development teams. Includes templates, code examples, and GitHub."
 date: 2026-03-16
 author: theluckystrike
@@ -62,7 +62,7 @@ The getting started section must be foolproof. This is where remote teams benefi
 1. Clone the repository
 2. Copy the example environment file:
    ```bash
- cp .env.example .env
+ cp.env.example.env
    ```
 3. Start dependencies:
    ```bash
@@ -101,7 +101,7 @@ Document the commands developers need most often. This reduces questions and ena
 
 ### Running Tests
 ```bash
-go test ./...
+go test./...
 ```
 
 ### Running Migrations
@@ -239,3 +239,4 @@ If these metrics don't improve, your READMEs need work. Survey developers period
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

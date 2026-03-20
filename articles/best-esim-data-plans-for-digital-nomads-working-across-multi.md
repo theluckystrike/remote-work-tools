@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best eSIM Data Plans for Digital Nomads Working Across."
+title: "Best eSIM Data Plans for Digital Nomads Working Across"
 description: "A technical guide to eSIM data plans for digital nomads traveling across multiple countries. Compare global coverage, data limits, activation methods."
 date: 2026-03-16
 author: theluckystrike
@@ -264,3 +264,4 @@ The ideal eSIM strategy often combines a primary global plan for reliability wit
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

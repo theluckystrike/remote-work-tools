@@ -25,11 +25,11 @@ When you're woken up at 3 AM, cognitive load is your enemy. Your runbook must mi
 
 ```
 IF error rate > 5% AND single service
-  THEN follow: service-specific runbook
-  ELSE IF error rate > 5% AND all services
-  THEN follow: infrastructure runbook
-  ELSE IF latency only
-  THEN check: recent deploys correlation
+ THEN follow: service-specific runbook
+ ELSE IF error rate > 5% AND all services
+ THEN follow: infrastructure runbook
+ ELSE IF latency only
+ THEN check: recent deploys correlation
 ```
 
 This branching logic removes ambiguity. The responder reads the current state, matches it to a bucket, and follows the corresponding path.
@@ -111,13 +111,13 @@ echo "Restarting $SERVICE in $NAMESPACE..."
 kubectl rollout restart deployment/$SERVICE -n $NAMESPACE
 
 if kubectl rollout status deployment/$SERVICE -n $NAMESPACE --timeout=300s; then
-    echo "Deployment successful. Checking health..."
-    sleep 10
-    HEALTH=$(kubectl get pod -n $NAMESPACE -l app=$SERVICE -o jsonpath='{.items[0].status.phase}')
-    if [ "$HEALTH" == "Running" ]; then
-        echo "Service $SERVICE is healthy"
-        exit 0
-    fi
+ echo "Deployment successful. Checking health..."
+ sleep 10
+ HEALTH=$(kubectl get pod -n $NAMESPACE -l app=$SERVICE -o jsonpath='{.items[0].status.phase}')
+ if [ "$HEALTH" == "Running" ]; then
+ echo "Service $SERVICE is healthy"
+ exit 0
+ fi
 fi
 
 echo "Verification failed - escalation may be needed"

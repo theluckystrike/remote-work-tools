@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Remote Team Async Introductions."
+title: "Best Tool for Remote Team Async Introductions"
 description: "Discover the best async introduction tools for remote teams in 2026. Compare solutions with code examples, setup guides, and implementation patterns."
 date: 2026-03-16
 author: theluckystrike
@@ -195,3 +195,4 @@ The best tool for your team depends on where your people already work and how mu
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

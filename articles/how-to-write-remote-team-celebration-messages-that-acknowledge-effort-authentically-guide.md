@@ -81,11 +81,11 @@ print(message)
 
 This produces:
 > 🎉 Huge shoutout to Sarah!
-> 
+>
 > They migrated our PostgreSQL schema to support multi-tenant isolation.
-> 
+>
 > I know this required careful planning across 47 affected tables and coordinating with the client team during their business hours.
-> 
+>
 > This directly led to eliminating the data leakage vulnerability we identified in the security audit.
 
 ## Automating Thoughtful Recognition
@@ -170,3 +170,4 @@ The goal is not performative praise but genuine acknowledgment that helps remote
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

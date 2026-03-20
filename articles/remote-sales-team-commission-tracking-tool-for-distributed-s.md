@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Sales Team Commission Tracking Tool for."
+title: "Remote Sales Team Commission Tracking Tool for Distributed"
 description: "Build a commission tracking system for distributed sales teams. Explore API integrations, database schemas, and implementation patterns for."
 date: 2026-03-16
 author: theluckystrike
@@ -325,3 +325,4 @@ Security is critical given the financial sensitivity. Implement role-based acces
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

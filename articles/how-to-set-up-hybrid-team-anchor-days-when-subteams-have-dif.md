@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Hybrid Team Anchor Days When Subteams Have."
+title: "How to Set Up Hybrid Team Anchor Days When Subteams Have"
 description: "A practical guide for developers and power users on coordinating hybrid work schedules when your subteams operate across different time zones and."
 date: 2026-03-16
 author: theluckystrike
@@ -215,3 +215,4 @@ Neglecting async documentation: Without explicit async handoffs, anchor days cre
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Async Performance Feedback Collection for."
+title: "Best Tool for Async Performance Feedback Collection for"
 description: "Discover the best tools for async performance feedback collection in distributed teams. Compare features, API capabilities, and implementation patterns."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -307,3 +307,4 @@ Track participation rates and completion times to measure success. The best asyn
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

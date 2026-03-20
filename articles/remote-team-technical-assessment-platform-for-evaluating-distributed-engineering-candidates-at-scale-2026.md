@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Technical Assessment Platform for Evaluating."
+title: "Remote Team Technical Assessment Platform for Evaluating"
 description: "A practical guide to building and implementing technical assessment platforms for hiring remote engineering candidates. Learn about automated."
 date: 2026-03-16
 author: theluckystrike
@@ -280,3 +280,4 @@ Remote technical assessment platforms have become essential infrastructure for d
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

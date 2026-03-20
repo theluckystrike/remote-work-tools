@@ -124,7 +124,7 @@ Several journaling applications handle code blocks gracefully. Obsidian and Logs
 ````markdown
 ```python
 def calculate_technical_debt(features):
-    return sum(f.maintenance_cost for f in features)
+ return sum(f.maintenance_cost for f in features)
 ```
 ````
 

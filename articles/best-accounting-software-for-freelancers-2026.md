@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Accounting Software for Freelancers 2026: A."
+title: "Best Accounting Software for Freelancers 2026: A"
 description: "Discover the best accounting software for freelancers in 2026. Compare CLI tools, API-driven solutions, and developer-friendly approaches for managing."
 date: 2026-03-15
 author: theluckystrike
@@ -210,3 +210,4 @@ Whatever you choose, ensure your financial data remains portable. Regular export
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

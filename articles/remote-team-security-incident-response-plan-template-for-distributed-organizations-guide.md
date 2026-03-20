@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Security Incident Response Plan Template for."
+title: "Remote Team Security Incident Response Plan Template for"
 description: "A practical security incident response plan template designed for remote and distributed teams. Includes actionable workflows, communication templates."
 date: 2026-03-16
 author: theluckystrike
@@ -297,3 +297,4 @@ A plan that isn't tested is just a document. For distributed teams, test your in
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

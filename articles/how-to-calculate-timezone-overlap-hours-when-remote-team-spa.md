@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Calculate Timezone Overlap Hours When Remote Team."
+title: "Team hours (as datetime.time objects converted to hours)"
 description: "A practical guide for developers and power users to calculate timezone overlap hours between Asia and Americas using code and proven formulas."
 date: 2026-03-16
 author: theluckystrike

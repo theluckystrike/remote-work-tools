@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Implement Just-in-Time Access for Remote Team."
+title: "How to Implement Just-in-Time Access for Remote Team Cloud"
 description: "Learn how to implement just-in-time access for remote team cloud resources with practical code examples, implementation patterns, and security best."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -230,3 +230,4 @@ JIT access significantly reduces risk but requires attention to several security
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

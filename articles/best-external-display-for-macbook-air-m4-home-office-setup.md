@@ -62,7 +62,7 @@ For developer workflows, resolution matters more than refresh rates:
 
 - 1440p (QHD): Minimum acceptable for comfortable code viewing
 - 4K (UHD): Ideal balance of screen real estate and text clarity
-- 5K/6K: Maximum detail for large monitors, requires Pro/Max chip for full utilization
+- 5K/6K: Maximum detail for large monitors, requires Pro/Max chip for full use
 
 The MacBook Air M4 handles 4K displays without issues. Text scaling in macOS makes even 27-inch 4K displays comfortable for all-day coding.
 
@@ -242,3 +242,4 @@ Remember that your external display is an investment in your daily comfort and p
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

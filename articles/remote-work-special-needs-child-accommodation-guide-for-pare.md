@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Special Needs Child Accommodation Guide for."
+title: "Remote Work Special Needs Child Accommodation Guide for"
 description: "A practical guide for developers and remote workers parenting children with special needs. Learn accommodation strategies, communication frameworks."
 date: 2026-03-16
 author: theluckystrike
@@ -217,3 +217,4 @@ Remote work accommodations for special needs children aren't about working lessâ
 Built by
 
 Built by theluckystrike â€” More at [zovo.one](https://zovo.one)
+{% endraw %}

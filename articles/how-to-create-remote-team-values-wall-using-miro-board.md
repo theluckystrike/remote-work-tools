@@ -17,7 +17,7 @@ voice-checked: true
 {% raw %}
 # How to Create a Remote Team Values Wall Using Miro Board
 
-Miro values walls help distributed teams collaboratively define shared principles for decision-making, conflict resolution, and cultural cohesion across time zones. A visual, interactive values wall captures everyone's input asynchronously, surfaces alignment, and creates accountability for living those values. This guide covers Miro setup, facilitation techniques, and strategies for translating values into team norms and decision frameworks.
+Miro values walls help distributed teams collaboratively define shared principles for decision-making, conflict resolution, and cultural cohesion across time zones. A visual, interactive values wall captures everyone's input asynchronously, surfaces alignment, and creates accountability for living those values. This guide covers Miro setup, help techniques, and strategies for translating values into team norms and decision frameworks.
 
 ## Why Use Miro for Remote Team Values
 
@@ -28,11 +28,11 @@ Remote teams often struggle with feeling disconnected from their colleagues and 
 **Why Miro specifically** (vs. Figma, Lucidchart, or Google Docs):
 - Infinite canvas prevents the "running out of space" feeling
 - Sticky notes mimic physical brainstorming (familiar interaction pattern)
-- Built-in visual voting and clustering tools improve the facilitation process
+- Built-in visual voting and clustering tools improve the help process
 - Board remains accessible for future reference and updates
 - Free tier supports up to 3 boards, sufficient for many teams
 
-**Compared to in-person workshops**: Miro's asynchronous compatibility lets team members participate during their work hours rather than requiring everyone at the same time. Distributed teams in different timezones can add input over a few hours or days, then synchronize for the prioritization phase. In-person facilitation would require scheduling around 5+ timezones.
+**Compared to in-person workshops**: Miro's asynchronous compatibility lets team members participate during their work hours rather than requiring everyone at the same time. Distributed teams in different timezones can add input over a few hours or days, then synchronize for the prioritization phase. In-person help would require scheduling around 5+ timezones.
 
 ## Preparing Your Miro Board Setup
 
@@ -139,7 +139,7 @@ Create a **decision filter** that explicitly references values during important 
 
 **Conflict resolution**: When two team members disagree, reference values to find common ground rather than arguing positions.
 
-**Performance and promotion decisions**: Values guide who gets promoted into leadership. If a value is "empowering others," someone who accumulates individual contributions but doesn't mentor teammates might not be the right promotion candidate. Conversely, someone building team capability aligns with that value.
+**Performance and promotion decisions**: Values guide who gets promoted into leadership. If a value is "enabling others," someone who accumulates individual contributions but doesn't mentor teammates might not be the right promotion candidate. Conversely, someone building team capability aligns with that value.
 
 ## Maintaining and Evolving Your Values Wall
 
@@ -177,3 +177,4 @@ Finally, make it enjoyable. Values creation should feel like a celebration of wh
 - [How to Run Remote Team Cooking Class as Bonding Activity](/remote-work-tools/how-to-run-remote-team-cooking-class-as-bonding-activity/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

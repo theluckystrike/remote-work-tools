@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Effective Remote Workshops"
-description: "Learn practical techniques to run effective remote workshops for distributed teams. Includes facilitation scripts, automation examples, and actionable."
+description: "Learn practical techniques to run effective remote workshops for distributed teams. Includes help scripts, automation examples, and actionable."
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-run-effective-remote-workshops/
@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Run Effective Remote Workshops
 
-Remote workshops fill a critical gap in distributed team workflows. Whether you're running a design sprint, technical planning session, or skills training, the difference between a workshop that accomplishes nothing and one that generates real outcomes comes down to preparation, facilitation, and the right tooling. This guide covers practical techniques for running remote workshops that actually work.
+Remote workshops fill a critical gap in distributed team workflows. Whether you're running a design sprint, technical planning session, or skills training, the difference between a workshop that accomplishes nothing and one that generates real outcomes comes down to preparation, help, and the right tooling. This guide covers practical techniques for running remote workshops that actually work.
 
 ## Pre-Workshop Preparation
 
@@ -83,7 +83,7 @@ const workshopInput = {
 
 Tools like GitHub Issues, Notion, or Coda work well for collecting structured input before the workshop.
 
-## Facilitation Techniques That Work
+## Help Techniques That Work
 
 helping remote workshops requires different skills than in-person sessions. Without physical presence, you need to be more explicit with communication and engagement management.
 
@@ -248,3 +248,4 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

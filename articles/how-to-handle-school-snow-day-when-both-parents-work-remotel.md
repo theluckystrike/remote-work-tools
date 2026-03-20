@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle School Snow Day When Both Parents Work."
+title: "How to Handle School Snow Day When Both Parents Work"
 description: "A practical guide for remote working parents managing unexpected school closures due to snow days. Strategies for maintaining productivity while caring."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -193,3 +193,4 @@ If your region experiences 5-10 snow days annually, planning for this reduction 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

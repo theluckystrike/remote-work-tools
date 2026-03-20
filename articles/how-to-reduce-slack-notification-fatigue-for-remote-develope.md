@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Reduce Slack Notification Fatigue for Remote."
+title: "How to Reduce Slack Notification Fatigue for Remote"
 description: "Practical strategies and tools to help remote developers manage Slack notifications, reclaim focus time, and maintain productivity without missing."
 date: 2026-03-16
 author: theluckystrike
@@ -70,7 +70,7 @@ This automatically silences notifications during your most productive hours. You
 
 Slack's "Pause Notifications" feature provides instant relief. Use keyboard shortcuts:
 
-- Mac: `Cmd + Shift + K` 
+- Mac: `Cmd + Shift + K`
 - Windows/Linux: `Ctrl + Shift + K`
 
 This toggles notification pausing instantly. Get in the habit of pausing when you start a focused work session.
@@ -219,3 +219,4 @@ Adjust your approach based on what works for your specific role and team.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

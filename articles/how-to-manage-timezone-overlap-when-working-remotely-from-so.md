@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Timezone Overlap When Working Remotely."
+title: "How to Manage Timezone Overlap When Working Remotely from"
 description: "A practical guide for developers in Southeast Asia managing timezone differences with US-based remote teams. Learn strategies, tools, and workflows."
 date: 2026-03-16
 author: theluckystrike
@@ -149,3 +149,4 @@ Many teams implement "follow the sun" coverage, where US developers handle busin
 - [Remote Work Tools Hub](/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async QA Signoff Process for Remote Teams Releasing."
+title: "Async QA Signoff Process for Remote Teams Releasing Weekly"
 description: "Learn how to implement an async QA signoff process for remote teams releasing weekly. Practical examples, code snippets, and workflows included."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -224,3 +224,4 @@ Several patterns undermine async QA effectiveness. First, unclear acceptance cri
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

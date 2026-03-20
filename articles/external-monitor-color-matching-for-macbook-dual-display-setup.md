@@ -102,7 +102,7 @@ If you lack calibration hardware, manual white point adjustment reduces the most
 
 1. Open **System Settings** → **Displays** → **Color**
 2. Click **Calibrate** to open Display Calibrator Assistant
-3. Select "Expert Mode" 
+3. Select "Expert Mode"
 4. Adjust the white point slider toward 6500K (daylight)
 5. Complete the wizard and save a custom profile
 
@@ -244,3 +244,4 @@ Use a reference photo with diverse skin tones. Adjust until skin tones appear si
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

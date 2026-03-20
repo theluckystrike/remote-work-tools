@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Write Remote Team Postmortem Communication."
+title: "How to Write Remote Team Postmortem Communication Template"
 description: "A practical guide to creating effective postmortem communication templates for remote teams. Includes ready-to-use templates, best practices, and code."
 date: 2026-03-16
 author: theluckystrike
@@ -85,9 +85,6 @@ After incident resolution, publish a detailed postmortem using this structure:
 **Date:** [YYYY-MM-DD]
 **Authors:** [Names of investigators]
 **Status:** [Published / Draft / Review]
-
-## Summary
-[2-3 paragraph overview of what happened, why it mattered, and how it was resolved]
 
 ## Impact
 - **Duration:** [Start] to [End]
@@ -235,3 +232,4 @@ Many teams integrate these templates directly into their incident management too
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

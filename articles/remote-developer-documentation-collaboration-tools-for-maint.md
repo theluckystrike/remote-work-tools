@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Developer Documentation Collaboration Tools for."
+title: "Remote Developer Documentation Collaboration Tools for"
 description: "A practical guide to documentation collaboration tools for remote engineering teams. Learn how to maintain internal wikis with code examples, workflow."
 date: 2026-03-16
 author: theluckystrike
@@ -269,3 +269,4 @@ The best choice depends on your team's technical sophistication, existing tool i
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

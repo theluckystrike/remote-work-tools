@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Give Constructive Feedback Remotely Over Text."
+title: "How to Give Constructive Feedback Remotely Over Text"
 description: "Master the art of delivering constructive feedback in remote text-based communication. Practical frameworks, templates, and techniques for developers."
 date: 2026-03-16
 author: theluckystrike
@@ -171,3 +171,4 @@ The goal isn't to eliminate all friction—healthy friction drives improvement. 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

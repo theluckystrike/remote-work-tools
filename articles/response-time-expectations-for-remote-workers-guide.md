@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Response Time Expectations for Remote Workers: A."
+title: "Response Time Expectations for Remote Workers: A"
 description: "Learn how to set realistic response time expectations for remote work. Includes code snippets for notification scheduling, status indicators, and async."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -77,7 +77,7 @@ This approach gives your team visual cues about your availability without requir
 
 ## Defining Your Working Hours
 
-Your working hours should be explicitly documented and communicated. This doesn't mean you're unavailable outside these hours—it means responses are not expected. 
+Your working hours should be explicitly documented and communicated. This doesn't mean you're unavailable outside these hours—it means responses are not expected.
 
 Create a simple `.availability.md` file in your project docs or personal wiki:
 
@@ -211,3 +211,4 @@ If circumstances change—travel, illness, heavy workload—communicate proactiv
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

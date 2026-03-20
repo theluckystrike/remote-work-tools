@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hybrid Office Air Quality Monitoring for Maintaining."
+title: "Hybrid Office Air Quality Monitoring for Maintaining"
 description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -275,3 +275,4 @@ After validation, expand sensors to all significant areas. Meeting rooms typical
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

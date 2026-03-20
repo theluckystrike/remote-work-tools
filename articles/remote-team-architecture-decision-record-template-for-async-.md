@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Architecture Decision Record Template for."
+title: "Remote Team Architecture Decision Record Template for Async"
 description: "A practical ADR template and workflow for distributed teams making technical decisions asynchronously. Includes code examples and implementation guide."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -213,3 +213,4 @@ Schedule a quarterly review of active ADRs to identify:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

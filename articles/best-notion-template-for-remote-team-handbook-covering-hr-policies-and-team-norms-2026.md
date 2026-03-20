@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Notion Template for Remote Team Handbook Covering."
+title: "Best Notion Template for Remote Team Handbook Covering HR"
 description: "Discover practical Notion templates for creating remote team handbooks. Includes HR policy frameworks, team norms documentation, and."
 date: 2026-03-16
 author: theluckystrike
@@ -215,3 +215,4 @@ Link related content using Notion's relation properties. When you update a polic
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

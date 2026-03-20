@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Collaboration Tool for Technical Architects."
+title: "Best Remote Collaboration Tool for Technical Architects"
 description: "A practical guide for technical architects working remotely to document system dependencies. Compare tools, see code examples, and implement dependency."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -276,3 +276,4 @@ done
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

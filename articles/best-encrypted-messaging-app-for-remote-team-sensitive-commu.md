@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Encrypted Messaging App for Remote Team Sensitive."
+title: "Best Encrypted Messaging App for Remote Team Sensitive"
 description: "Compare the best encrypted messaging apps for remote teams handling sensitive communications. Technical analysis of Signal, Telegram, Session, Wickr."
 date: 2026-03-16
 author: theluckystrike
@@ -169,3 +169,4 @@ The right choice balances your actual threat model against the operational compl
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

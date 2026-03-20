@@ -16,9 +16,9 @@ tags: [remote-work-tools, best-of, remote-work]
 {% raw %}
 ## Shift Summary
 
-**Time Zone:** 
-**Shift Start:** 
-**Shift End:** 
+**Time Zone:**
+**Shift Start:**
+**Shift End:**
 
 ## Incidents Handled
 
@@ -41,10 +41,10 @@ Query incident burden across the team using GitHub's search API:
 
 ```bash
 gh search issues --repo org/infrastructure \
-  --label oncall,incident \
-  --created "2026-01-01..2026-03-01" \
-  --json number,title,assignee,created \
-  --template '{{range .}}{{.number}} {{.title}} by {{.assignee.login}} on {{.created}}{{"\n"}}{{end}}'
+ --label oncall,incident \
+ --created "2026-01-01..2026-03-01" \
+ --json number,title,assignee,created \
+ --template '{{range.}}{{.number}} {{.title}} by {{.assignee.login}} on {{.created}}{{"\n"}}{{end}}'
 ```
 
 This gives you raw incident counts per person, though it doesn't capture severity or resolution time.
@@ -64,30 +64,30 @@ import requests
 from datetime import datetime, timedelta
 
 def get_oncall_burden(pd_api_key, start_date, end_date):
-    url = "https://api.pagerduty.com/analytics/incidents"
-    headers = {
-        "Authorization": f"Token token={pd_api_key}",
-        "Content-Type": "application/json"
-    }
-    params = {
-        "time_zone": "UTC",
-        "start": start_date,
-        "end": end_date
-    }
-    
-    response = requests.get(url, headers=headers, params=params)
-    data = response.json()
-    
-    # Aggregate by responder
-    burden = {}
-    for incident in data.get("incidents", []):
-        for responder in incident.get("acknowledged_by", []):
-            responder_id = responder["id"]
-            if responder_id not in burden:
-                burden[responder_id] = {"count": 0, "total_minutes": 0}
-            burden[responder_id]["count"] += 1
-    
-    return burden
+ url = "https://api.pagerduty.com/analytics/incidents"
+ headers = {
+ "Authorization": f"Token token={pd_api_key}",
+ "Content-Type": "application/json"
+ }
+ params = {
+ "time_zone": "UTC",
+ "start": start_date,
+ "end": end_date
+ }
+
+ response = requests.get(url, headers=headers, params=params)
+ data = response.json()
+
+ # Aggregate by responder
+ burden = {}
+ for incident in data.get("incidents", []):
+ for responder in incident.get("acknowledged_by", []):
+ responder_id = responder["id"]
+ if responder_id not in burden:
+ burden[responder_id] = {"count": 0, "total_minutes": 0}
+ burden[responder_id]["count"] += 1
+
+ return burden
 ```
 
 The limitation with PagerDuty is that free tiers restrict analytics access, and the data focuses on incident counts rather than holistic burden including after-hours disruption to personal time.
@@ -110,35 +110,35 @@ from typing import List
 
 @dataclass
 class Engineer:
-    id: str
-    name: str
-    incidents_last_30d: int
-    timezone: str
-    preferred_hours: tuple  # (start_hour, end_hour)
+ id: str
+ name: str
+ incidents_last_30d: int
+ timezone: str
+ preferred_hours: tuple # (start_hour, end_hour)
 
 def calculate_shift_weight(engineer: Engineer) -> float:
-    """Lower weight = more eligible for upcoming shift"""
-    base_weight = 1.0
-    
-    # Penalize high incident volume
-    incident_factor = 1 + (engineer.incidents_last_30d * 0.1)
-    
-    # Combine factors
-    return base_weight * incident_factor
+ """Lower weight = more eligible for upcoming shift"""
+ base_weight = 1.0
+
+ # Penalize high incident volume
+ incident_factor = 1 + (engineer.incidents_last_30d * 0.1)
+
+ # Combine factors
+ return base_weight * incident_factor
 
 def suggest_next_oncall(engineers: List[Engineer]) -> str:
-    """Suggest next on-call engineer based on fair distribution"""
-    weights = {e.id: calculate_shift_weight(e) for e in engineers}
-    
-    # Return engineer with lowest burden weight
-    selected_id = min(weights, key=weights.get)
-    return next(e.name for e in engineers if e.id == selected_id)
+ """Suggest next on-call engineer based on fair distribution"""
+ weights = {e.id: calculate_shift_weight(e) for e in engineers}
+
+ # Return engineer with lowest burden weight
+ selected_id = min(weights, key=weights.get)
+ return next(e.name for e in engineers if e.id == selected_id)
 
 # Example usage
 team = [
-    Engineer("e1", "Alex", 3, "UTC", (9, 17)),
-    Engineer("e2", "Jordan", 7, "PST", (9, 17)),
-    Engineer("e3", "Casey", 2, "EST", (9, 17)),
+ Engineer("e1", "Alex", 3, "UTC", (9, 17)),
+ Engineer("e2", "Jordan", 7, "PST", (9, 17)),
+ Engineer("e3", "Casey", 2, "EST", (9, 17)),
 ]
 
 print(f"Next on-call: {suggest_next_oncall(team)}")
@@ -158,8 +158,8 @@ Export on-call data for custom analysis:
 
 ```bash
 curl -X GET "https://grafana.example.com/api/oncall/v1/schedules" \
-  -H "Authorization: Bearer $GRAFANA_API_KEY" \
-  -H "Content-Type: application/json"
+ -H "Authorization: Bearer $GRAFANA_API_KEY" \
+ -H "Content-Type: application/json"
 ```
 
 Parse the response to calculate coverage hours per engineer and identify imbalances.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Interest-Based Slack Channels for Remote."
+title: "How to Create Interest-Based Slack Channels for Remote"
 description: "Learn how to build interest-based Slack channels that strengthen remote team culture. Practical examples, naming conventions, and automation scripts."
 date: 2026-03-16
 author: theluckystrike
@@ -210,3 +210,4 @@ The best time to create interest channels was when your team formed. The second 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

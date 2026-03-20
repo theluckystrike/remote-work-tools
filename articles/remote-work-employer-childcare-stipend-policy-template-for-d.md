@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Employer Childcare Stipend Policy Template."
+title: "Remote Work Employer Childcare Stipend Policy Template for"
 description: "A practical policy template for remote companies implementing childcare stipend programs. Includes implementation examples, eligibility criteria, and."
 date: 2026-03-16
 author: theluckystrike
@@ -234,7 +234,7 @@ Contact [HR email/Slack channel] for policy questions.
 
 Track these metrics to evaluate your program:
 
-- Utilization rate: Percentage of eligible employees using the benefit
+- Use rate: Percentage of eligible employees using the benefit
 - Retention impact: Compare turnover rates between employees with and without childcare responsibilities
 - Employee satisfaction: Include childcare benefits in quarterly surveys
 - Cost per employee: Calculate actual spend versus budgeted amounts
@@ -249,3 +249,4 @@ Track these metrics to evaluate your program:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

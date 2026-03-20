@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Communication Norms for a Remote Team of 20 Across 4."
+title: "Communication Norms for a Remote Team of 20 Across 4"
 description: "A practical guide to establishing communication norms for a 20-person remote team spread across 4 time zones. Includes async-first workflows, tool."
 date: 2026-03-16
 author: theluckystrike
@@ -254,3 +254,4 @@ Survey your team quarterly:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

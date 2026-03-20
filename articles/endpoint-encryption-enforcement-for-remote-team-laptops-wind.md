@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Endpoint Encryption Enforcement for Remote Team Laptops."
+title: "Endpoint Encryption Enforcement for Remote Team Laptops"
 description: "A practical guide to implementing endpoint encryption enforcement for remote team laptops on Windows and Mac. Learn configuration methods, policy."
 date: 2026-03-16
 author: theluckystrike
@@ -234,3 +234,4 @@ Start with encryption enforcement as your baseline security control, then layer 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -153,7 +153,7 @@ Generators vary significantly in capability. Here's what to ask:
 - Refueling schedule: Daily vs. weekly vs. automatic
 
 **Load Management**:
-- Automatic transfer switch (ATS): Seamless switchover under 50ms
+- Automatic transfer switch (ATS): switchover under 50ms
 - Manual switchover: Requires someone to start generator and switch manually
 - Partial coverage: Only critical areas (cafe, restrooms) vs. full building
 - Load shedding capability: Automatically sheds non-essential loads when grid fails
@@ -360,3 +360,4 @@ Built by
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

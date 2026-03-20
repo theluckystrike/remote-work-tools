@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Scale Remote Team From 5 to 20 Without Losing."
+title: "How to Scale Remote Team From 5 to 20 Without Losing"
 description: "A practical guide for developers and technical leads on scaling remote teams from 5 to 20 people while preserving startup culture, communication speed."
 date: 2026-03-16
 author: theluckystrike
@@ -31,9 +31,6 @@ Here's a practical template for technical decision documents that scales:
 
 ```markdown
 # RFC: Migrate Authentication Service to Auth0
-
-## Summary
-Move from custom JWT implementation to Auth0 for improved security and reduced maintenance.
 
 ## Problem Statement
 Current auth service requires dedicated maintenance. Security patches, token refresh logic, and password reset flows consume ~20% of one engineer's time monthly.
@@ -199,3 +196,4 @@ const scalingMetrics = {
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

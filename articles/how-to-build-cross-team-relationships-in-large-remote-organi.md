@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build Cross-Team Relationships in Large Remote."
+title: "How to Build Cross-Team Relationships in Large Remote"
 description: "Practical strategies for building meaningful cross-team relationships in large remote organizations. Learn communication patterns, tooling, and processes."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -162,3 +162,4 @@ Review these dependencies weekly in cross-team sync meetings. Discuss timelines,
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

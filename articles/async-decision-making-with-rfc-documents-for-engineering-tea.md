@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Decision Making with RFC Documents for Engineering."
+title: "Async Decision Making with RFC Documents for Engineering"
 description: "A practical guide to implementing async decision making using RFC documents. Includes templates, workflows, and best practices for distributed."
 date: 2026-03-16
 author: theluckystrike
@@ -35,9 +35,6 @@ A well-structured RFC contains specific sections that guide both the author and 
 
 ```markdown
 # RFC: [Short Title]
-
-## Summary
-One paragraph explaining the proposal.
 
 ## Problem Statement
 Why is this change needed? What pain point does it address?
@@ -116,9 +113,6 @@ Consider a team deciding whether to migrate from PostgreSQL 13 to PostgreSQL 16.
 ```markdown
 # RFC: Upgrade PostgreSQL 13 to 16
 
-## Summary
-Upgrade our production database from PostgreSQL 13 to 16 to leverage improved query optimization and security patches.
-
 ## Problem Statement
 PostgreSQL 13 reaches end-of-life in November 2025. Running unsupported database versions introduces security risks and prevents access to performance improvements.
 
@@ -175,3 +169,4 @@ RFCs fail when they become performative exercises rather than genuine decision-m
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

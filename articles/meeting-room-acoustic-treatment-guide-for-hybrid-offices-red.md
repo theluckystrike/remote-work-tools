@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Meeting Room Acoustic Treatment Guide for Hybrid."
+title: "Meeting Room Acoustic Treatment Guide for Hybrid Offices Red"
 description: "A practical technical guide for developers and power users implementing acoustic treatment in meeting rooms to reduce echo and improve call quality for."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -403,3 +403,4 @@ Meeting rooms benefit from **broadband treatment** (covers all frequencies) but 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

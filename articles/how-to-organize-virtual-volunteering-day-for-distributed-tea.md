@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Organize Virtual Volunteering Day for Distributed."
+title: "How to Organize Virtual Volunteering Day for Distributed"
 description: "A practical guide for developers and power users on organizing virtual volunteering days for distributed teams. Includes scheduling automation."
 date: 2026-03-16
 author: theluckystrike
@@ -179,3 +179,4 @@ A well-organized virtual volunteering day strengthens distributed teams while cr
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

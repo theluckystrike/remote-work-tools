@@ -31,10 +31,6 @@ The key differences for remote postmortem workflows:
 Store this template in your team wiki or as a GitHub Issue template:
 
 ```markdown
-## Summary
-
-[2-3 sentence description of what happened, impact, and key takeaway]
-
 ## Impact
 
 - Duration: [start] to [end]
@@ -79,7 +75,7 @@ The root cause section is where most postmortems fall short. Shallow analysis â€
 2. Why was the pool exhausted? A background job was holding connections open without releasing them.
 3. Why did the job hold connections open? It was making synchronous DB calls inside a loop without proper context management.
 4. Why did this code reach production? The code review did not catch the pattern, and there was no connection pool monitoring alert.
-5. Why was there no monitoring alert? The team had not established connection pool utilization as a tracked metric.
+5. Why was there no monitoring alert? The team had not established connection pool use as a tracked metric.
 
 This analysis produces two real action items: fix the code pattern, and add connection pool monitoring. The shallow version would only produce the first.
 
@@ -396,7 +392,7 @@ Postmortem practices change as teams scale:
 ### Growing Teams (20-50 people)
 - Formalize process: designated postmortem owner, 48-hour deadline, template requirements
 - Add accountability: action items tracked in project management
-- Consider: Rotating postmortem facilitation to spread responsibility
+- Consider: Rotating postmortem help to spread responsibility
 
 ### Large Teams (50+ people)
 - Dedicated incident commander role during incidents

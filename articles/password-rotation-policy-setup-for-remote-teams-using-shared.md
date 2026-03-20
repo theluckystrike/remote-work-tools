@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Password Rotation Policy Setup for Remote Teams Using."
+title: "Password Rotation Policy Setup for Remote Teams Using"
 description: "A practical guide to implementing password rotation policies for remote teams using shared credentials. Learn strategies, tools, and code examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -163,3 +163,4 @@ Review these metrics monthly and adjust your policy based on operational data ra
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

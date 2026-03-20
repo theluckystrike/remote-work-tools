@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Health Insurance as a Digital Nomad."
+title: "How to Handle Health Insurance as a Digital Nomad Working"
 description: "A practical guide for developers and remote workers on managing health insurance while living in Thailand long term. Covers visa options, local vs."
 date: 2026-03-16
 author: theluckystrike
@@ -168,3 +168,4 @@ Even without insurance, these costs are significantly lower than in the US or Eu
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

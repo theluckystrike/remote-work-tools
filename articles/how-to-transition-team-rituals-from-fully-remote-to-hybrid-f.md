@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Transition Team Rituals from Fully Remote to."
+title: "How to Transition Team Rituals from Fully Remote to Hybrid"
 description: "Practical guide for developers and power users transitioning team rituals from fully remote to hybrid work. Includes code snippets and actionable examples."
 date: 2026-03-16
 author: theluckystrike
@@ -202,3 +202,4 @@ If remote participation drops or remote team members report feeling disconnected
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

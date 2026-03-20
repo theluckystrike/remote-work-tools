@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Knowledge Base Contribution Incentive."
+title: "Remote Team Knowledge Base Contribution Incentive Program"
 description: "A practical guide to building and implementing a knowledge base contribution incentive program for remote engineering teams. Includes code examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -195,7 +195,7 @@ Key success factor: Monthly recognition in standups (5 seconds each) created mor
 
 Setup: Articles are legitimate work items in sprint planning (5% of capacity dedicated). Quarterly "documentation review" where stale content is archived. No points, no leaderboards.
 
-Results: 8-12 new articles per month, very high quality. Culture of "if it's not documented, it's not done" took root. Junior devs feel empowered to document their learnings.
+Results: 8-12 new articles per month, very high quality. Culture of "if it's not documented, it's not done" took root. Junior devs feel enabled to document their learnings.
 
 Key success factor: Making documentation legitimate work (not "extra") changed everything. Junior devs stepped up when they saw it was valued as much as shipping features.
 
@@ -223,7 +223,7 @@ Recognition for thoughtful peer reviews of KB articles. This distributes the bur
 
 For different contributor types:
 - **Quick fix path**: Spotted an error? 10-minute fix gets recognition.
-- **Deep dive path**: Spending a day writing a comprehensive guide gets recognition.
+- **Deep dive path**: Spending a day writing a guide gets recognition.
 - **Organizational path**: Managing KB sections, archiving outdated content gets recognition.
 
 This lets people contribute at different intensities.
@@ -370,3 +370,4 @@ A successful program feels like documentation is just "how we do things," not "t
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

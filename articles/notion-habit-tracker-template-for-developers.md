@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Notion Habit Tracker Template for Developers: Build."
+title: "Notion Habit Tracker Template for Developers"
 description: "A practical guide to building a habit tracker in Notion designed specifically for developers. Includes template structures, database configurations."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -153,3 +153,4 @@ Make logging frictionless. Keep your Notion workspace easily accessible on all d
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

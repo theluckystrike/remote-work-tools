@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Async Standup Templates in Slack With."
+title: "How to Create Async Standup Templates in Slack With"
 description: "Learn how to build asynchronous standup templates using Slack Workflow Builder. Set up automated prompts, custom forms, and scheduled reminders for."
 date: 2026-03-16
 author: theluckystrike
@@ -187,3 +187,4 @@ This structure demonstrates the core pattern: scheduled trigger, form collection
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Meeting Room Video Conferencing Equipment Setup for."
+title: "Meeting Room Video Conferencing Equipment Setup for Hybrid"
 description: "A practical guide to building affordable video conferencing setups for hybrid meetings. Covers camera, audio, lighting, and automation scripts for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -250,3 +250,4 @@ if __name__ == "__main__":
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

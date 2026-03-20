@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up a Soundproof Home Office When Working."
+title: "How to Set Up a Soundproof Home Office When Working"
 description: "A practical guide for developers and power users to create a soundproof home office setup that handles the challenges of remote work with young."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -199,3 +199,4 @@ For developers working in shifts or on-call, consider a rapid-deploy setup—a p
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Tracking Remote Team Meeting Effectiveness."
+title: "Best Tool for Tracking Remote Team Meeting Effectiveness"
 description: "A practical guide to measuring and improving remote meeting effectiveness. Learn metrics, automation approaches, and code-based solutions for."
 date: 2026-03-16
 author: theluckystrike
@@ -136,7 +136,7 @@ Once you have baseline metrics, focus on reduction strategies that maintain nece
 
 **Shrink Meetings** — Default to 25 or 50 minutes instead of 30 or 60. Shorter meetings force preparation and reduce rambling.
 
-**Rotate Meeting Ownership** — Having the same person run every meeting creates cargo cult behavior. Rotate facilitation to surface format issues faster.
+**Rotate Meeting Ownership** — Having the same person run every meeting creates cargo cult behavior. Rotate help to surface format issues faster.
 
 **Require Pre-Work** — If a meeting needs preparation, send materials 24 hours in advance. Meetings without pre-work often exist because no one prepared.
 
@@ -191,3 +191,4 @@ These conversations, grounded in data, create buy-in for changes that would othe
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

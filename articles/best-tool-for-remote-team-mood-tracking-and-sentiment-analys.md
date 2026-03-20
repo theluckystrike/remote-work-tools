@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Remote Team Mood Tracking and Sentiment."
+title: "Best Tool for Remote Team Mood Tracking and Sentiment"
 description: "A practical guide to sentiment analysis and mood tracking tools for remote developer teams. Compare approaches, see code examples, and learn how to."
 date: 2026-03-16
 author: theluckystrike
@@ -216,3 +216,4 @@ Sentiment analysis works best as an early warning system, not a replacement for 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

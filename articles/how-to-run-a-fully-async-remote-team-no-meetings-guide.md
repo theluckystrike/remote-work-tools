@@ -224,3 +224,4 @@ New Hire Ramp Time: How long until new team members feel productive
 - [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

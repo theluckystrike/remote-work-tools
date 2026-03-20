@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tools for Async Annotation and Commenting on Design."
+title: "Best Tools for Async Annotation and Commenting on Design"
 description: "A practical guide to the best tools for async annotation and commenting on design mockups, tailored for developers and power users working in."
 date: 2026-03-16
 author: theluckystrike
@@ -163,3 +163,4 @@ This webhook listener scans incoming Figma comments for `[ticket]` tags and auto
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

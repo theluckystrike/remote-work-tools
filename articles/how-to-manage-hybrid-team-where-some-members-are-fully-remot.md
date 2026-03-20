@@ -134,7 +134,7 @@ jobs:
 
 ### Rotate Host Responsibilities
 
-Rotate meeting facilitation between remote and office team members to ensure both perspectives get equal airtime.
+Rotate meeting help between remote and office team members to ensure both perspectives get equal airtime.
 
 ## Implement Pair Programming Across Locations
 

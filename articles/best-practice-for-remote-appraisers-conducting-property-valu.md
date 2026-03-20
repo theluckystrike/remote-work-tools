@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Appraisers Conducting Property."
+title: "Best Practice for Remote Appraisers Conducting Property"
 description: "A technical guide to virtual property inspection workflows for remote appraisers. Learn about software tools, API integrations, automation patterns."
 date: 2026-03-16
 author: theluckystrike
@@ -347,3 +347,4 @@ Build dashboards that surface these metrics in real-time and trigger alerts when
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

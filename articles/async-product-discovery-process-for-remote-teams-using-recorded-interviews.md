@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Product Discovery Process for Remote Teams Using."
+title: "Async Product Discovery Process for Remote Teams Using"
 description: "A practical guide to building an async product discovery workflow for remote teams using recorded user interviews. Step-by-step framework with tools."
 date: 2026-03-16
 author: theluckystrike
@@ -196,3 +196,4 @@ Start small. Record one interview this week. Share it with your team. See how lo
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

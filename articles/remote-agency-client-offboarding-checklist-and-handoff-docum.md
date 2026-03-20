@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Agency Client Offboarding Checklist and Handoff."
+title: "Remote Agency Client Offboarding Checklist and Handoff Docum"
 description: "A practical guide for developers and power users managing client offboarding. Includes checklists, templates, and code snippets for documentation."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -215,3 +215,4 @@ Forgetting Recurring Costs: Remind clients about subscriptions, renewals, and on
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

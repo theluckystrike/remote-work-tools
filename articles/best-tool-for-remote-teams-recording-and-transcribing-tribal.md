@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Tool for Remote Teams Recording and Transcribing."
+title: "Best Tool for Remote Teams Recording and Transcribing"
 description: "A practical guide for developers and power users on capturing, transcribing, and organizing tribal knowledge from remote meetings into searchable wiki."
 date: 2026-03-16
 author: theluckystrike
@@ -281,3 +281,4 @@ Track how often wiki articles get referenced and updated. Tribal knowledge captu
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

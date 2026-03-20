@@ -202,7 +202,7 @@ Here's a realistic timeline from decision to legal residence. This varies by con
 - Buy expat health insurance or international residency insurance specifically
 - Check policy includes Portugal and includes residency coverage
 - Get letter from insurer confirming policy covers your stay
-- Expected cost: €100-200/month for comprehensive international coverage
+- Expected cost: €100-200/month for international coverage
 
 **Recommended providers**:
 - InterGlobal (UK-based, covers digital nomads)
@@ -301,3 +301,4 @@ Once approved, you'll have access to Portugal's relatively low cost of living (�
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

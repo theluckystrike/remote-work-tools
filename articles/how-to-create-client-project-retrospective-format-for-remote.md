@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Client Project Retrospective Format for."
+title: "How to Create Client Project Retrospective Format for"
 description: "A practical guide to building effective client project retrospective formats for remote teams. Learn structured templates, async approaches, and best."
 date: 2026-03-16
 author: theluckystrike
@@ -176,3 +176,4 @@ For clients in significantly different time zones, prioritize asynchronous surve
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

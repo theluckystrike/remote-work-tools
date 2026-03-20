@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Secure Remote Team CI/CD Pipeline From Supply."
+title: "How to Secure Remote Team CI/CD Pipeline From Supply Chain"
 description: "A practical guide for developers and DevOps teams to protect CI/CD pipelines from supply chain attacks. Includes concrete steps, code examples, and."
 date: 2026-03-16
 author: theluckystrike
@@ -271,3 +271,4 @@ Create an incident response plan specifically for pipeline compromises. Know how
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

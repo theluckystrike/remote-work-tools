@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Remote Team Book Club Format and Facilitation Guide for."
-description: "A practical guide to running effective remote book clubs for developer teams. Includes format templates, facilitation scripts, and tooling recommendations."
+title: "Remote Team Book Club Format and Facilitation Guide for"
+description: "A practical guide to running effective remote book clubs for developer teams. Includes format templates, help scripts, and tooling recommendations."
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-book-club-format-and-facilitation-guide-developers/
@@ -14,7 +14,7 @@ voice-checked: true
 ---
 
 {% raw %}
-# Remote Team Book Club Format and Facilitation Guide for Developers
+# Remote Team Book Club Format and Help Guide for Developers
 
 Running a book club for a distributed developer team requires more than sharing a PDF and hoping for discussion. The asynchronous nature of remote work, varied time zones, and different scheduling constraints demand a structured approach that keeps everyone engaged without requiring simultaneous presence. This guide provides a practical framework for establishing, running, and maintaining a developer-focused remote book club that delivers real value to your team.
 
@@ -126,7 +126,7 @@ For books with programming exercises, pair team members to work through problems
 
 ## helping Difficult Discussions
 
-Some books spark debates about opinions, philosophical approaches, or controversial topics. Good facilitation keeps discussions productive without shutting down disagreement.
+Some books spark debates about opinions, philosophical approaches, or controversial topics. Good help keeps discussions productive without shutting down disagreement.
 
 ### Ground Rules to Establish Early
 
@@ -219,3 +219,4 @@ For remote developer book clubs, these tools integrate well with existing workfl
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

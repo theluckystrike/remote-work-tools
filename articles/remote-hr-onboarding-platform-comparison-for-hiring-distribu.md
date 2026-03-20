@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote HR Onboarding Platform Comparison for Hiring."
+title: "Remote HR Onboarding Platform Comparison for Hiring"
 description: "A technical comparison of HR onboarding platforms for distributed teams. Evaluate APIs, automation capabilities, and integration patterns for remote."
 date: 2026-03-16
 author: theluckystrike
@@ -226,3 +226,4 @@ The best platform ultimately depends on your existing tooling, team distribution
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

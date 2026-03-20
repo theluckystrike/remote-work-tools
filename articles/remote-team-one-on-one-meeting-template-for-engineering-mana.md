@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team One on One Meeting Template for Engineering."
+title: "Remote Team One on One Meeting Template for Engineering"
 description: "A practical template and framework for engineering managers running effective one-on-one meetings with remote direct reports. Includes async options."
 date: 2026-03-16
 author: theluckystrike
@@ -273,3 +273,4 @@ A well-executed one-on-one template transforms a simple meeting into your most p
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

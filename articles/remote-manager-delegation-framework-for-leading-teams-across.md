@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Manager Delegation Framework for Leading Teams."
+title: "Remote Manager Delegation Framework for Leading Teams Across"
 description: "A practical framework for delegating effectively in distributed teams spanning multiple time zones. Includes decision matrices, async workflows, and."
 date: 2026-03-16
 author: "theluckystrike"
@@ -204,3 +204,4 @@ Next steps: Audit your current workload. Categorize your tasks using the four ti
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

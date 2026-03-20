@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Client Project Status Dashboard Setup for Remote Agency."
+title: "Client Project Status Dashboard Setup for Remote Agency"
 description: "Learn how to build a client project status dashboard tailored for distributed agency teams with practical implementation examples."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -223,3 +223,4 @@ Iterate based on usage patterns. Remove features nobody uses, and add integratio
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

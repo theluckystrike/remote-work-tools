@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Handle Health Insurance as Digital Nomad Working."
+title: "How to Handle Health Insurance as Digital Nomad Working"
 description: "A practical guide for developers and remote workers on navigating health insurance options while living and working in Thailand long term."
 date: 2026-03-16
 author: theluckystrike
@@ -180,3 +180,4 @@ Without insurance, the same hospitalization could cost $5,000-15,000 at a privat
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

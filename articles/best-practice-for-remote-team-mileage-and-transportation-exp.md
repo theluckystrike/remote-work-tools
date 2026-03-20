@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Team Mileage and Transportation."
+title: "Best Practice for Remote Team Mileage and Transportation"
 description: "Learn how to track mileage and transportation expenses for remote teams to maximize tax deductions in 2026. Practical examples and code snippets for."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -199,3 +199,4 @@ Always consult a tax professional for advice specific to your situation, as indi
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

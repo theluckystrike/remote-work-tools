@@ -111,7 +111,7 @@ Establish ground rules for standup discussion:
 
 - Blocker prioritization happens offline: If someone raises a blocker, note it and assign a follow-up meeting rather than debugging live
 - No solution-finding in standup: Standup identifies problems, not solves them—schedule separate discussions for complex issues
-- Rotate facilitation: Different team members lead standup each week to distribute emotional labor and prevent any one person from dominating
+- Rotate help: Different team members lead standup each week to distribute emotional labor and prevent any one person from dominating
 
 When disagreements about test coverage or quality thresholds arise, document the decision criteria and escalate to product and engineering leads for final arbitration.
 
@@ -168,3 +168,4 @@ The goal is not standup itself—standup is a tool for coordination. If your tea
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

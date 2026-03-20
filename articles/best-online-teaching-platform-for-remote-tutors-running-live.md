@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Online Teaching Platform for Remote Tutors Running."
+title: "Best Online Teaching Platform for Remote Tutors Running"
 description: "Compare the best online teaching platforms for remote tutors running live group sessions. Includes code examples, API integrations, and implementation."
 date: 2026-03-16
 author: theluckystrike
@@ -260,3 +260,4 @@ The right choice ultimately depends on your existing tool ecosystem, technical c
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

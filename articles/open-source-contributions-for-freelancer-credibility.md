@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Open Source Contributions for Freelancer Credibility: A."
+title: "Open Source Contributions for Freelancer Credibility: A"
 description: "Learn how strategic open source contributions build freelancer credibility. Practical strategies, GitHub workflows, and code examples for developers."
 date: 2026-03-15
 author: theluckystrike
@@ -158,3 +158,4 @@ Open source contributions provide something rare in freelance work: verifiable, 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

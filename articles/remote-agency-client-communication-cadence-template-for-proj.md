@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Agency Client Communication Cadence Template for."
+title: "Remote Agency Client Communication Cadence Template for"
 description: "A practical guide to building sustainable client communication workflows for remote agencies. Includes templates, code examples, and automation tips."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -173,3 +173,4 @@ If you find clients consistently asking for more frequent updates, your cadence 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

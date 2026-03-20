@@ -28,7 +28,7 @@ Before looking at market data, determine your personal floor. Your rate must cov
 Annual Income Needed = (Personal Annual Expenses + Business Expenses + Taxes) / Billable Hours
 ```
 
-Most freelance developers bill between 1,000 and 1,500 hours per year. Accounting for prospecting, administrative work, and unpaid holidays, a realistic utilization rate sits around 60-70% of total working hours.
+Most freelance developers bill between 1,000 and 1,500 hours per year. Accounting for prospecting, administrative work, and unpaid holidays, a realistic use rate sits around 60-70% of total working hours.
 
 **Example calculation:**
 
@@ -163,3 +163,4 @@ Higher rates attract better clients. Positioning strategies include:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

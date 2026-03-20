@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wrist Exercises for Programmers: Prevent RSI and Stay."
+title: "Wrist Exercises for Programmers"
 description: "Practical wrist exercises and habits to prevent RSI for programmers and power users. Includes shell scripts and Python code for break reminders and."
 date: 2026-03-15
 author: theluckystrike
@@ -170,3 +170,4 @@ If you experience persistent pain, numbness, or weakness that doesn't improve wi
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

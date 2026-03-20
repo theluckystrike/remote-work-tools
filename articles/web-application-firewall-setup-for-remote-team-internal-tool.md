@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Web Application Firewall Setup for Remote Team Internal."
+title: "Web Application Firewall Setup for Remote Team Internal"
 description: "A practical guide to implementing web application firewall protection for internal tools used by remote teams in 2026."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -194,3 +194,4 @@ Implement alerting for security events. Configure notifications when WAF blocks 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

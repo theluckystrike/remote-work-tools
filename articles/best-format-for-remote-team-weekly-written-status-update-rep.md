@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Format for Remote Team Weekly Written Status Update."
+title: "Best Format for Remote Team Weekly Written Status Update"
 description: "A practical guide to structuring weekly written status updates that replace daily standups for remote development teams. Includes templates, examples."
 date: 2026-03-16
 author: theluckystrike
@@ -192,3 +192,4 @@ The format succeeds when it creates genuine alignment without requiring synchron
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Workload Distribution Tool for Managers."
+title: "Remote Team Workload Distribution Tool for Managers"
 description: "Learn how to implement workload distribution tools for remote teams, with practical examples, capacity planning frameworks, and automation scripts for."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -24,7 +24,7 @@ In co-located teams, you can physically see when someone's desk is buried under 
 Effective workload distribution starts with visibility. You need to know:
 
 - Current task assignments per team member
-- Historical velocity and capacity trends 
+- Historical velocity and capacity trends
 - Upcoming time-off and commitments
 - Skill overlap for redistributing work
 
@@ -146,7 +146,7 @@ This approach surfaces capacity issues without monitoring individual productivit
 
 ## Setting Healthy Thresholds
 
-Avoid the trap of maximizing utilization. Research consistently shows that 60-75% utilization leads to better outcomes than 90%+:
+Avoid the trap of maximizing use. Research consistently shows that 60-75% use leads to better outcomes than 90%+:
 
 - Space for unexpected urgent requests
 - Time for mentorship and knowledge sharing
@@ -208,3 +208,4 @@ Balancing distributed team capacity requires intentional systems rather than hop
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

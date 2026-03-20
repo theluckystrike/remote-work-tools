@@ -316,3 +316,4 @@ Your project management tool should feel like it accelerates your work, not adds
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

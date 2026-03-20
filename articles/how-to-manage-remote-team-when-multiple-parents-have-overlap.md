@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Manage Remote Team When Multiple Parents Have."
+title: "How to Manage Remote Team When Multiple Parents Have"
 description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -215,3 +215,4 @@ Keep these meetings short—15 minutes maximum. The goal is information sharing,
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Virtual Team Trivia Platform for Remote Social."
+title: "Best Virtual Team Trivia Platform for Remote Social Events"
 description: "A practical review of virtual team trivia platforms for remote social events. Compare features, API integrations, and implementation approaches for."
 date: 2026-03-16
 author: theluckystrike
@@ -152,3 +152,4 @@ This script creates a trivia game from a custom configuration and announces it i
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

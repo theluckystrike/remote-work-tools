@@ -33,7 +33,7 @@ The right ATS for remote hiring addresses these pain points directly rather than
 Lever combines applicant tracking with relationship-building features that remote teams particularly benefit from. Its strength lies in maintaining candidate relationships over time, which is crucial when building a global talent pipeline.
 
 **Key features for remote hiring:**
-- Automated interview scheduling that handles timezone conversions 
+- Automated interview scheduling that handles timezone conversions
 - Built-in candidate relationship management for maintaining talent pools across regions
 - DEI analytics that help ensure hiring practices are fair across different geographies
 

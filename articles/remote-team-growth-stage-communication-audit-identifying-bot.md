@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Growth Stage Communication Audit."
+title: "Remote Team Growth Stage Communication Audit"
 description: "A practical guide for developers and power users to audit communication patterns and identify bottlenecks in remote teams growing beyond 30 people in 2026."
 date: 2026-03-16
 author: theluckystrike
@@ -213,3 +213,4 @@ Start with quick wins that have high visibility. Implementing a channel cleanup 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

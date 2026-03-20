@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Self Care Checklist for Avoiding."
+title: "Remote Working Parent Self Care Checklist for Avoiding"
 description: "A practical self care checklist for remote working parents to avoid isolation in distributed teams. Includes automation scripts, communication."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -190,3 +190,4 @@ Print or save this quick reference:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Communication Tools for a Remote Research Team of 12."
+title: "Communication Tools for a Remote Research Team of 12"
 description: "Discover the best communication tools and strategies for a remote research team of 12 scientists. Compare implementations, code examples, and workflows."
 date: 2026-03-16
 author: theluckystrike
@@ -154,3 +154,4 @@ For a 12-person research team, budget approximately $50-100 per month per person
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

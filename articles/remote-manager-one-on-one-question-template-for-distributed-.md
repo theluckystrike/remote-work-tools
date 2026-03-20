@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Manager One on One Question Template for."
+title: "Remote Manager One on One Question Template for Distributed"
 description: "A practical question template and framework for running effective one-on-one meetings with remote distributed teams. Includes async options and."
 date: 2026-03-16
 author: theluckystrike
@@ -203,3 +203,4 @@ Start with the BASE framework, gather feedback from your team on what's helpful,
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

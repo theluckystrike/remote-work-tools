@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Zero Trust Remote Access Setup Guide for Small."
+title: "Zero Trust Remote Access Setup Guide for Small Engineering"
 description: "A practical zero trust remote access setup guide for small engineering teams in 2026. Learn implementation strategies, configuration examples, and."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -263,3 +263,4 @@ Zero trust isn't a product you buy—it's a framework you implement. Small engin
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

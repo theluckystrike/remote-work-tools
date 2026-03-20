@@ -192,9 +192,6 @@ Request for Comments documents help distribute decision-making:
 ```markdown
 # RFC: Adopting GraphQL for Public API
 
-## Summary
-Migrate from REST to GraphQL for our public API.
-
 ## Motivation
 - Reduce over-fetching for mobile clients
 - Enable flexible query patterns
@@ -295,3 +292,4 @@ The specific tools matter less than the principles behind their implementation. 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

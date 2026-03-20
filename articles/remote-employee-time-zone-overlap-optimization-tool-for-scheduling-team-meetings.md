@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Time Zone Overlap Optimization Tool for."
+title: "Remote Employee Time Zone Overlap Optimization Tool for"
 description: "Learn how to build and use a time zone overlap optimization tool for scheduling meetings across distributed remote teams. Includes code examples and."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -192,3 +192,4 @@ Start with your team's current time zone distribution, implement basic overlap d
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

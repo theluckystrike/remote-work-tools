@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Handbook Section Template for Defining."
+title: "Remote Team Handbook Section Template for Defining"
 description: "A practical template for remote teams to define communication channels and establish clear response time expectations. Includes code snippets and."
 date: 2026-03-16
 author: theluckystrike
@@ -237,3 +237,4 @@ The goal is not perfection—it's having a shared reference point that reduces c
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

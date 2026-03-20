@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote HR Benefits Administration Platform for."
+title: "Remote HR Benefits Administration Platform for Distributed"
 description: "A review of HR benefits administration platforms designed for remote and distributed global teams. Compare features, API integrations."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -207,3 +207,4 @@ The right choice depends on your current hiring pattern, technical integration r
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

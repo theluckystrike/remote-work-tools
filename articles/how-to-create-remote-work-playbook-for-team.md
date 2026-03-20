@@ -14,6 +14,7 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
+{% raw %}
 ## Overview
 Brief description of what this document covers.
 
@@ -60,19 +61,19 @@ Rather than manual standup threads, use a simple bot:
 ```javascript
 // standup-bot.js (GitHub Actions workflow)
 module.exports = async ({ context, github }) => {
-  const standupIssue = await github.issues.create({
-    owner: context.repo.owner,
-    repo: context.repo.repo,
-    title: `Daily Standup - ${new Date().toISOString().split('T')[0]}`,
-    body: `## Yesterday\n- \n\n## Today\n- \n\n## Blockers\n- None`
-  });
-  
-  await github.issues.addLabels({
-    owner: context.repo.owner,
-    repo: context.repo.repo,
-    issue_number: standupIssue.data.number,
-    labels: ['standup']
-  });
+ const standupIssue = await github.issues.create({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ title: `Daily Standup - ${new Date().toISOString().split('T')[0]}`,
+ body: `## Yesterday\n- \n\n## Today\n- \n\n## Blockers\n- None`
+ });
+
+ await github.issues.addLabels({
+ owner: context.repo.owner,
+ repo: context.repo.repo,
+ issue_number: standupIssue.data.number,
+ labels: ['standup']
+ });
 };
 ```
 
@@ -88,25 +89,25 @@ name: PR Requirements
 on: [pull_request]
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/github-script@v6
-        with:
-          script: |
-            const pr = context.payload.pull_request;
-            const body = pr.body || '';
-            
-            const hasDescription = body.length > 50;
-            const hasScreenshots = body.includes('screenshots') || body.includes('demo');
-            
-            if (!hasDescription) {
-              github.rest.issues.createComment({
-                issue_number: context.issue.number,
-                body: 'PR description too short. Please add context about changes.'
-              });
-              process.exit(1);
-            }
+ check:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/github-script@v6
+ with:
+ script: |
+ const pr = context.payload.pull_request;
+ const body = pr.body || '';
+
+ const hasDescription = body.length > 50;
+ const hasScreenshots = body.includes('screenshots') || body.includes('demo');
+
+ if (!hasDescription) {
+ github.rest.issues.createComment({
+ issue_number: context.issue.number,
+ body: 'PR description too short. Please add context about changes.'
+ });
+ process.exit(1);
+ }
 ```
 
 ### On-Call Rotation Scheduler
@@ -122,11 +123,11 @@ engineers = ['@alice', '@bob', '@charlie', '@dana']
 rotation = cycle(engineers)
 
 def get_oncall(date: datetime.date) -> str:
-    """Returns engineer handle for given date."""
-    # Calculate weeks since rotation start
-    start_date = datetime.date(2026, 1, 1)
-    weeks = (date - start_date).days // 7
-    return next(rotation)
+ """Returns engineer handle for given date."""
+ # Calculate weeks since rotation start
+ start_date = datetime.date(2026, 1, 1)
+ weeks = (date - start_date).days // 7
+ return next(rotation)
 
 # Example output
 print(f"Oncall for {datetime.date.today()}: {get_oncall(datetime.date.today())}")

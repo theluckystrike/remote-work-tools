@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create a Hybrid Work Equipment Checkout System."
+title: "How to Create Hybrid Work Equipment Checkout System for Shar"
 description: "A practical guide for developers building equipment checkout systems for hybrid workplaces. Includes code examples and architecture patterns."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
@@ -178,3 +178,4 @@ For organizations with multiple office locations, your data model should support
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

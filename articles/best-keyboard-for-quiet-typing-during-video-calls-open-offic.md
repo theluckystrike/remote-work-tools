@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Keyboard for Quiet Typing During Video Calls in."
+title: "Best Keyboard for Quiet Typing During Video Calls in Open"
 description: "Find the quietest keyboard for video calls in open offices. Compare mechanical switches, membrane keyboards, and silent solutions with practical."
 date: 2026-03-16
 author: theluckystrike
@@ -201,3 +201,4 @@ The right keyboard lets you code confidently during calls without worrying about
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

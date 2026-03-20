@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cable Management Under Desk for Home Office With."
+title: "Cable Management Under Desk for Home Office With Standing"
 description: "A practical guide to cable management under desk for home office with standing desk. Learn routing techniques, mounting solutions, and automation tips."
 date: 2026-03-16
 author: theluckystrike
@@ -175,3 +175,4 @@ This totals 3-6 cables depending on wireless adoption, all routed cleanly and hi
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

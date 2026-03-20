@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Asynchronous team retrospectives that drive real."
+title: "Asynchronous Team Retrospective Tools Methods Process"
 description: "Guide to running effective async retrospectives with Miro, Retrium, and Google Docs—proven methods for distributed teams across timezones."
 date: 2026-03-20
 author: theluckystrike
@@ -13,7 +13,7 @@ voice-checked: true
 intent-checked: true
 ---
 
-Retrospectives are where teams identify improvements, celebrate wins, and solve problems. But synchronous retros require everyone present at the same time—impossible for distributed teams. Async retros feel impersonal and get ignored. This guide shows how to run async retrospectives that actually change behavior, using proven formats, tools, and facilitation methods that drive real improvement.
+Retrospectives are where teams identify improvements, celebrate wins, and solve problems. But synchronous retros require everyone present at the same time—impossible for distributed teams. Async retros feel impersonal and get ignored. This guide shows how to run async retrospectives that actually change behavior, using proven formats, tools, and help methods that drive real improvement.
 
 ## Why Traditional Retros Fail for Distributed Teams
 

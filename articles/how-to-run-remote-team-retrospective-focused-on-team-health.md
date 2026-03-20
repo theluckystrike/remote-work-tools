@@ -17,7 +17,7 @@ voice-checked: true
 {% raw %}
 # How to Run Remote Team Retrospective Focused on Team Health
 
-Team health retrospectives prioritize psychological safety, burnout prevention, and interpersonal connection over velocity metrics—directly improving retention and performance. Focused retros address isolation, clarify communication norms, and surface team tensions before they become problems. This guide covers health-focused retro formats, facilitation techniques, and follow-up actions for remote team resilience.
+Team health retrospectives prioritize psychological safety, burnout prevention, and interpersonal connection over velocity metrics—directly improving retention and performance. Focused retros address isolation, clarify communication norms, and surface team tensions before they become problems. This guide covers health-focused retro formats, help techniques, and follow-up actions for remote team resilience.
 
 ## Why Team Health Deserves Its Own Retrospective
 
@@ -76,9 +76,9 @@ End with an individual reflection. Ask each person to write down:
 
 Sharing these reflections is optional—sometimes the act of writing is valuable enough. If time permits, going around and sharing one item creates positive closure.
 
-## Facilitation Techniques That Work Remotely
+## Help Techniques That Work Remotely
 
-helping health discussions remotely requires intentional structure. Without careful facilitation, some voices dominate while others stay silent.
+helping health discussions remotely requires intentional structure. Without careful help, some voices dominate while others stay silent.
 
 **Use written responses first.** Before opening verbal discussion, give everyone 5-10 minutes to write their thoughts individually. This ensures quieter team members have opportunity to contribute, and written responses often surface issues that people hesitate to mention verbally.
 
@@ -198,3 +198,4 @@ A team that regularly examines its health builds resilience against the inevitab
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

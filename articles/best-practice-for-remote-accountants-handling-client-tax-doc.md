@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practice for Remote Accountants Handling Client Tax."
+title: "Best Practice for Remote Accountants Handling Client Tax"
 description: "A guide to securely handling client tax documents as a remote accountant. Learn about encryption, access controls, file transfer."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -226,3 +226,4 @@ Use this checklist to verify your security setup:
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

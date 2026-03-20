@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Webcam Lighting Setup Under $100 for Professional."
+title: "Best Webcam Lighting Setup Under $100 for Professional"
 description: "Build a professional lighting rig for video calls on a budget. Learn the three-point lighting formula, specific product recommendations, and DIY."
 date: 2026-03-20
 author: theluckystrike
@@ -58,33 +58,33 @@ You don't need expensive cinema lights. Budget options work equally well if posi
 **Shopping List:**
 
 1. **Neewer Dimmable LED Video Light Panel Kit** — $28-35
-   - 2-pack of 10x10 LED panels
-   - Adjustable brightness and color temperature
-   - No RGB (which wastes power for video calls)
-   - Each draws ~25W (efficient)
-   - Includes basic stands
+ - 2-pack of 10x10 LED panels
+ - Adjustable brightness and color temperature
+ - No RGB (which wastes power for video calls)
+ - Each draws ~25W (efficient)
+ - Includes basic stands
 
-   Amazon: `B00TSY0KXA` or equivalent
+ Amazon: `B00TSY0KXA` or equivalent
 
 2. **Cheap Ring Light for Back Light** — $15-22
-   - Neewer 10-inch RGB ring light (use on white/warm setting)
-   - 240 LED beads, dimmable
-   - Perfect for separation light behind head
-   - Can be mounted on mic stand or clipped to desk
+ - Neewer 10-inch RGB ring light (use on white/warm setting)
+ - 240 LED beads, dimmable
+ - Perfect for separation light behind head
+ - Can be mounted on mic stand or clipped to desk
 
-   Amazon: `B00F9SDSXE` or equivalent
+ Amazon: `B00F9SDSXE` or equivalent
 
 3. **Photo Tripod Stands (if not included)** — $12-18
-   - Heavy-duty light stands (2-pack)
-   - Adjustable height 2-6 feet
-   - Stable base prevents tipping
+ - Heavy-duty light stands (2-pack)
+ - Adjustable height 2-6 feet
+ - Stable base prevents tipping
 
 4. **DIY Diffusion (Free or $5-8)**
-   - Use white bedsheet, white poster board, or frosted acrylic panel
-   - Place 6-12 inches in front of LED panels to soften light
-   - Softens harsh shadows without buying expensive diffusers
+ - Use white bedsheet, white poster board, or frosted acrylic panel
+ - Place 6-12 inches in front of LED panels to soften light
+ - Softens harsh shadows without buying expensive diffusers
 
-   **DIY Diffuser (Detailed Instructions):**
+ **DIY Diffuser (Detailed Instructions):**
    ```
    Materials needed:
    - Foam board (white) - $3
@@ -225,7 +225,7 @@ Once you nail the basics, upgrade progressively:
 
 **Month 6: Professional ($50-80 more)**
 - Upgrade to Elgato Key Light (if you want brand-name gear)
-- Add dedicated backdrop (seamless paper or fabric)
+- Add dedicated backdrop ( paper or fabric)
 
 **Year 1: Studio ($100+ more)**
 - Add acoustic foam for sound quality

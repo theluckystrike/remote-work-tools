@@ -165,7 +165,7 @@ These policies create predictability while maintaining flexibility for unexpecte
 
 Track collaboration zone usage to validate your design decisions and identify improvement opportunities. Key metrics include:
 
-- Utilization rate: Percentage of booked time slots actually used
+- Use rate: Percentage of booked time slots actually used
 - Average session duration: How long teams typically use collaboration spaces
 - Conflict rate: Frequency of booking conflicts or double-bookings
 - Remote participant ratio: Balance between in-person and remote attendees
@@ -183,3 +183,4 @@ Collect this data through your booking system and combine with periodic team sur
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

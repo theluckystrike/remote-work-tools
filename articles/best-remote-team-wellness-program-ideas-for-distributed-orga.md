@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Remote Team Wellness Program Ideas for Distributed."
+title: "Best Remote Team Wellness Program Ideas for Distributed"
 description: "Discover practical wellness programs for remote teams. Implement mental health initiatives, fitness challenges, and ergonomic setups with code examples."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -205,3 +205,4 @@ The best remote wellness initiatives treat health as infrastructure—built into
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

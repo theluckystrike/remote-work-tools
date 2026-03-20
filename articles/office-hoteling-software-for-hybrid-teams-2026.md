@@ -26,7 +26,7 @@ At its core, office hoteling software manages three things: desk and room availa
 
 The software replaces spreadsheets and sign-up sheets with a centralized system where employees see real-time availability, book workspaces through web or mobile interfaces, and get confirmed reservations with QR codes or NFC tags for check-in.
 
-For hybrid teams, the value comes from data. You can measure actual desk utilization, identify underused spaces, and make informed decisions about office footprint. Most teams discover they're using 30-50% of their desks on any given day, which directly impacts real estate costs.
+For hybrid teams, the value comes from data. You can measure actual desk use, identify underused spaces, and make informed decisions about office footprint. Most teams discover they're using 30-50% of their desks on any given day, which directly impacts real estate costs.
 
 ## Core Technical Capabilities to Evaluate
 
@@ -213,7 +213,7 @@ async function processWaitlist(deskId, date) {
 }
 ```
 
-Analytics and Reporting: Track utilization rates, peak booking times, and no-show rates. This data justifies office investments and identifies patterns:
+Analytics and Reporting: Track use rates, peak booking times, and no-show rates. This data justifies office investments and identifies patterns:
 
 ```sql
 SELECT 

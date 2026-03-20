@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Indonesia Second Home Visa for Remote Workers."
-description: "A practical guide for developers and power users on Indonesia's Second Home Visa for remote workers. Complete application process, requirements, financial criteria, and tech tools for preparation."
+title: "Indonesia Second Home Visa for Remote Workers"
+description: "A practical guide for developers and power users on Indonesia's Second Home Visa for remote workers. Complete application process, requirements, financial..."
 date: 2026-03-16
 author: theluckystrike
 permalink: /indonesia-second-home-visa-for-remote-workers-application-an/
@@ -179,3 +179,4 @@ If the Second Home Visa requirements exceed your current situation, alternatives
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Work Nanny Cam Policy That Respects."
+title: "How to Create Remote Work Nanny Cam Policy That Respects"
 description: "A practical guide for developers and power users on creating remote work nanny cam policies that balance home security with caregiver privacy and consent."
 date: 2026-03-16
 author: theluckystrike
@@ -196,3 +196,4 @@ Remember that policy documents require ongoing attention. Review and update your
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

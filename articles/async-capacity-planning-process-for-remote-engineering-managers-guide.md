@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Capacity Planning Process for Remote Engineering."
+title: "Async Capacity Planning Process for Remote Engineering"
 description: "A practical guide for engineering managers on implementing async capacity planning. Learn how to forecast team capacity, balance workloads, and plan."
 date: 2026-03-18
 author: theluckystrike
@@ -178,7 +178,7 @@ Adjust these based on your onboarding complexity. Some teams find that 50% capac
 
 ### Unexpected Absences
 
-Build a buffer into your commitments—aim for 80-85% capacity utilization rather than 100%. When someone has an emergency, you have slack to absorb it without renegotiating commitments mid-sprint.
+Build a buffer into your commitments—aim for 80-85% capacity use rather than 100%. When someone has an emergency, you have slack to absorb it without renegotiating commitments mid-sprint.
 
 If absences exceed your buffer:
 1. Re-prioritize with the team asynchronously
@@ -251,3 +251,4 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

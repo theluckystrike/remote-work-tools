@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Recommended equipment configuration for hybrid meeting rooms"
-description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, facilitation tips, and."
+description: "Practical strategies for running effective sprint ceremonies with half remote and half in-office team members. Technical setup, help tips, and."
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/
@@ -21,7 +21,7 @@ Hybrid sprint ceremonies require deliberate infrastructure and cultural changes 
 
 When half your team joins from a conference room and the other half from their home offices, several things go wrong quickly. Remote participants struggle to interject during sidebar conversations. In-office team members unconsciously default to speaking with whoever is physically nearby. The facilitator naturally makes eye contact with the room rather than the camera. Over time, remote developers disengage, speak less frequently in retrospectives, and feel like second-class citizens in their own team's ceremonies.
 
-The fix requires deliberate infrastructure decisions, facilitation techniques, and cultural norms that treat remote participation as a first-class concern.
+The fix requires deliberate infrastructure decisions, help techniques, and cultural norms that treat remote participation as a first-class concern.
 
 ## Infrastructure Setup: Equalize the Experience
 
@@ -139,7 +139,7 @@ If your numbers skew significantly, your ceremonies are failing your remote team
 Before your next sprint, verify:
 
 - [ ] All meeting rooms have quality audio/video for remote participants
-- [ ] Facilitation techniques include round-robin or structured sharing
+- [ ] Help techniques include round-robin or structured sharing
 - [ ] Standups have an async component before synchronous time
 - [ ] Retrospectives start with anonymous input
 - [ ] Chat monitoring is assigned to a specific person
@@ -158,3 +158,4 @@ Hybrid sprint ceremonies can work well when you treat remote participation as a 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

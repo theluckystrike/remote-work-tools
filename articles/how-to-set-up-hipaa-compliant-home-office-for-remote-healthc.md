@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up HIPAA Compliant Home Office for Remote."
+title: "How to Set Up HIPAA Compliant Home Office for Remote"
 description: "A technical guide for setting up a HIPAA compliant home office for remote healthcare workers. Covers physical security, network configuration, access."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

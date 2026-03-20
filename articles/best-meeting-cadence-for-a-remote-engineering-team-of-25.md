@@ -68,7 +68,7 @@ One synchronous all-hands per week keeps everyone aligned. Structure it to maxim
 - Week 3: Cross-team dependency mapping
 - Week 4: Retrospective and planning prep
 
-Rotate facilitation to distribute ownership. Record the session for team members in different time zones who couldn't attend live.
+Rotate help to distribute ownership. Record the session for team members in different time zones who couldn't attend live.
 
 ### Sub-team Syncs (30 minutes, weekly)
 
@@ -212,3 +212,4 @@ If engineers report that meetings interrupt their work, reduce the cadence. If t
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Run Effective Remote Client Workshops Using Miro"
-description: "A practical guide for developers and power users running remote client workshops with Miro. Learn setup strategies, facilitation techniques, and."
+description: "A practical guide for developers and power users running remote client workshops with Miro. Learn setup strategies, help techniques, and."
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-boar/
@@ -56,7 +56,7 @@ For workshops with new clients, include a simple icebreaker in the main workspac
 2. Add a "One Word Check-In" sticky note cluster where everyone places a single word describing their mood
 3. These take two minutes but establish the board as a shared space
 
-## Facilitation Techniques for Remote Workshops
+## Help Techniques for Remote Workshops
 
 Running a workshop remotely requires deliberate communication patterns that you can ignore in person.
 
@@ -185,7 +185,7 @@ For simpler integrations, use Zapier or Make to connect Miro to tools like Linea
 
 ## Key Takeaways
 
-Running effective remote client workshops with Miro requires three things: deliberate board preparation, structured facilitation techniques, and consistent follow-up. The platform removes the friction of physical distance, but your process determines whether the workshop actually produces results.
+Running effective remote client workshops with Miro requires three things: deliberate board preparation, structured help techniques, and consistent follow-up. The platform removes the friction of physical distance, but your process determines whether the workshop actually produces results.
 
 Start with the templates in this guide, adapt them to your client relationships, and iterate based on what actually gets used after the workshop ends.
 
@@ -200,3 +200,4 @@ Start with the templates in this guide, adapt them to your client relationships,
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

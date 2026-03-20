@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Practices for Async Pull Request Reviews on."
+title: "Best Practices for Async Pull Request Reviews on"
 description: "Master async pull request reviews on distributed teams with practical strategies, code review templates, and time zone-friendly workflows."
 date: 2026-03-16
 author: theluckystrike
@@ -145,7 +145,7 @@ The author can apply these suggestions with a single click, reducing implementat
 **Review summaries**: End reviews with a summary comment. This clarifies the overall assessment and next steps:
 
 ```markdown
-Overall looks solid. Left two suggestions for readability, but no blockers. 
+Overall looks solid. Left two suggestions for readability, but no blockers.
 - Non-blocking: Consider extracting the helper function
 - Non-blocking: TypeScript annotation would improve type safety
 
@@ -191,11 +191,6 @@ Sustainable async review practices require cultural foundations:
 
 **Celebrate good PRs**: Recognize when PRs are well-documented, thoroughly tested, or elegantly written. This reinforces positive behavior.
 
-## Summary
-
-Effective async pull request reviews on distributed teams require upfront investment in clear communication, consistent processes, and thoughtful feedback. Write detailed PR descriptions, use templates, leverage platform features, and automate where possible. The initial effort pays dividends in reduced review cycles, clearer communication, and stronger team collaboration across time zones.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
@@ -206,3 +201,4 @@ Effective async pull request reviews on distributed teams require upfront invest
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

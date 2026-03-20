@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Make Async Communication Inclusive for Non-Native."
+title: "How to Make Async Communication Inclusive for Non-Native"
 description: "A practical guide to writing async communication that works for global teams with diverse language backgrounds. Includes templates, tools, and concrete."
 date: 2026-03-16
 author: theluckystrike
@@ -169,3 +169,4 @@ The goal isn't to dumb down your communication. It’s to remove unnecessary bar
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

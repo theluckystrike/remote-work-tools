@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Build Remote Team Culture Without Mandatory Fun."
+title: "How to Build Remote Team Culture Without Mandatory Fun"
 description: "A practical guide for developers and power users on building authentic remote team culture through voluntary, meaningful connections instead of forced."
 date: 2026-03-15
 author: "Remote Work Tools Guide"
@@ -91,7 +91,7 @@ Culture isn't just about social activities—it's about how people work together
 - Maintain a living team handbook in Notion or GitHub
 - Document decisions and the reasoning behind them
 - Share meeting notes publicly
-- Make onboarding resources 
+- Make onboarding resources
 
 When people understand how their team works, they feel included in the culture automatically. This is especially powerful for remote workers who can't casually observe office dynamics.
 
@@ -339,3 +339,4 @@ If those signals are there, your culture is working.
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

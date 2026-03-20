@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Bring Your Own Device Policy for Remote."
+title: "How to Create Bring Your Own Device Policy for Remote Teams"
 description: "A practical guide to building a legally compliant BYOD policy for remote developers and distributed teams. Includes templates, code examples, and."
 date: 2026-03-16
 author: theluckystrike
@@ -239,3 +239,4 @@ A solid BYOD policy enables the flexibility remote teams need while maintaining 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

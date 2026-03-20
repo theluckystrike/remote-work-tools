@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Mechanical Keyboard for Remote Developers: A."
+title: "Best Mechanical Keyboard for Remote Developers: A"
 description: "Discover the best mechanical keyboard for remote developers. Learn about switch types, layouts, programming features, and how to choose the right board."
 date: 2026-03-15
 author: "Remote Work Tools Guide"

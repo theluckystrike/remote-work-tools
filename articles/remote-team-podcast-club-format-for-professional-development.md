@@ -51,7 +51,7 @@ Choose episodes that balance technical depth with accessibility. The best podcas
 Build an episode queue with variety:
 
 - **Technical deep dives** (60-90 minutes): Architecture decisions, language comparisons, tooling discussions
-- **Industry trends** (30-45 minutes): Market movements, tool landscape changes, methodology debates 
+- **Industry trends** (30-45 minutes): Market movements, tool landscape changes, methodology debates
 - **Career growth** (20-30 minutes): Leadership lessons, communication skills, productivity systems
 
 For a team of 5-8 developers, aim for one episode per week. This creates consistent learning momentum without overwhelming schedules.
@@ -168,10 +168,11 @@ The best remote teams invest in learning together. A podcast club provides struc
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Book Club Format and Facilitation Guide for.](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Remote Team Book Club Format and Help Guide for.](/remote-work-tools/remote-team-book-club-format-and-help-guide-developers/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

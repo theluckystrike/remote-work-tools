@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Working Parent Burnout Prevention Checklist for."
+title: "Remote Working Parent Burnout Prevention Checklist for"
 description: "A practical checklist for distributed team managers to recognize and prevent remote working parent burnout. Includes warning signs, intervention."
 date: 2026-03-16
 author: theluckystrike
@@ -172,3 +172,4 @@ Prevention beats intervention. Here's how to build systems that protect remote w
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cheapest Video Call Tool for Weekly 50 Person All Hands."
+title: "Cheapest Video Call Tool for Weekly 50 Person All Hands"
 description: "Find the most cost-effective video call tool for weekly 50-person all-hands meetings. Compare pricing, features, and integration options for developer."
 date: 2026-03-16
 author: theluckystrike
@@ -178,3 +178,4 @@ Remote-first company needing reliability: Zoom remains the gold standard for mee
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

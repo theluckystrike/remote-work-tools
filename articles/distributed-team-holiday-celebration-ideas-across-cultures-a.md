@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Distributed Team Holiday Celebration Ideas Across."
+title: "Distributed Team Holiday Celebration Ideas Across Cultures"
 description: "Practical strategies and tools for celebrating holidays with remote teams across different cultures and timezones. Includes code examples for."
 date: 2026-03-16
 author: "Remote Work Tools"
@@ -204,3 +204,4 @@ The most successful distributed celebrations combine careful planning with flexi
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

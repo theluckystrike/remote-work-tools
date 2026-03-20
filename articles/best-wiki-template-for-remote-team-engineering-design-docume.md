@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Wiki Template for Remote Team Engineering Design."
+title: "Best Wiki Template for Remote Team Engineering Design"
 description: "Discover the most effective wiki template for engineering design documents that works with async review workflows for distributed teams. Includes."
 date: 2026-03-16
 author: theluckystrike
@@ -30,9 +30,6 @@ Here is a battle-tested template you can adapt for your team's wiki:
 
 ```markdown
 # [Title: Short, descriptive name]
-
-## Summary
-One-paragraph overview of what this document proposes. Include the core problem and your proposed solution.
 
 ## Problem Statement
 - **Current State**: Describe the existing behavior or gap
@@ -128,9 +125,6 @@ Consider a team implementing a new feature endpoint. Using the template, the aut
 ```markdown
 # User Notification Preferences API
 
-## Summary
-Add a RESTful endpoint for managing user notification preferences, replacing the current configuration UI-only approach.
-
 ## Problem Statement
 - **Current State**: Users can only modify notification settings through the web UI
 - **Impact**: Mobile apps cannot provide notification management, leading to support tickets
@@ -186,3 +180,4 @@ The best design document template is one your team actually uses. Implement this
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
