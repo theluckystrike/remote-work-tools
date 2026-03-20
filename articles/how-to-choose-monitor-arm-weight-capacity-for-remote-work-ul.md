@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-choose-monitor-arm-weight-capacity-for-remote-work-ultrawide-screen-setup/
 categories: [guides]
-tags: [monitor-arm, ultrawide, weight-capacity, workspace-setup, ergonomic]
+tags: [remote-work-tools, monitor-arm, ultrawide, weight-capacity, workspace-setup, ergonomic, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
