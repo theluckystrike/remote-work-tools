@@ -289,6 +289,62 @@ Deliverable accepted when:
 - [ ] Client signs acceptance form
 ```
 
+## Negotiating Contract Terms as a Freelancer
+
+Most clients expect some negotiation on contract terms, but many freelancers accept the first version offered to avoid friction. Understanding which terms are negotiable and which carry real risk changes how you approach contract reviews.
+
+**Payment terms are almost always negotiable.** A client proposing 60-day net payment is testing whether you will accept it. Counter with 30-day net and a 2% early payment discount. Many clients prefer the discount option and will pay faster to capture it.
+
+**Scope definitions benefit both parties.** When you push back on vague scope descriptions, you are protecting the client as much as yourself. A client who does not define what "responsive design" means will be unhappy with the result regardless of how good the implementation is. Specificity in the contract sets shared expectations upfront.
+
+**Revision limits protect your profitability.** Clients rarely intend to exploit unlimited revisions — they simply have not thought through the process. When you explain that three revision rounds is standard, and provide examples of what each round covers, most clients accept the structure readily.
+
+**Limitation of liability clauses are standard, not adversarial.** Some clients react to liability caps as though they indicate bad faith. Frame them as standard industry practice: "Most professional service agreements include this clause to define the scope of our mutual risk. It protects both parties from disputes over indirect or consequential damages that neither of us can reasonably predict."
+
+## Managing Contract Changes Mid-Project
+
+Projects evolve. Clients discover new requirements after work has started. The contract's change management process determines whether these changes are handled professionally or become sources of conflict.
+
+Implement a formal change order process for anything that modifies scope, timeline, or budget:
+
+```markdown
+## Change Order #001
+
+**Date**: 2026-03-20
+**Project**: Client Dashboard v2
+**Requested By**: @client-name
+
+### Change Description
+Add CSV export functionality to the data table component.
+
+### Impact Assessment
+- Additional hours: 8
+- Cost: $1,000 at agreed rate
+- Timeline impact: +3 days
+
+### Approval
+- [ ] Client signature/email approval required before work begins
+- [ ] Change order number added to project tracker
+```
+
+Store all approved change orders in a shared folder with your other project documents. At project close, the sum of the original contract plus approved change orders equals the final billable amount — no ambiguity.
+
+Document verbal requests in email immediately: "As discussed in today's call, I will add the CSV export feature as Change Order #001 for $1,000. Please reply confirming approval and I will begin on Monday." This creates a paper trail without requiring formal signatures for minor changes.
+
+
+## Common Contract Disputes and How to Prevent Them
+
+Most freelance contract disputes fall into one of four categories. Understanding each helps you write tighter contracts from the start.
+
+**Scope creep disputes** arise when deliverables are loosely defined. Prevention: Use the scope definition template in this guide, and explicitly list items that are out of scope. "Out of scope" sections are often more valuable than scope definitions.
+
+**Payment disputes** most often involve milestone definitions — the client believes the milestone was not hit; the developer believes it was. Prevention: Define milestones with acceptance criteria, not just deliverable names. "Backend API complete" is ambiguous. "All API endpoints documented in the attached spec return correct responses as verified by client" is not.
+
+**IP ownership disputes** occur when pre-existing code is used in a client project without explicit licensing terms. Prevention: Include an IP inventory as an exhibit to your contract, listing any libraries, frameworks, or code components you are bringing to the project.
+
+**Timeline disputes** happen when both parties have different expectations about revision time. Prevention: Build review periods into your timeline explicitly. "Phase 2 complete: March 15. Client review period: March 15-19. Revisions complete: March 25" leaves no room for misunderstanding.
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
