@@ -366,6 +366,11 @@ Check prices weekly; webcams frequently sale between $40-60 (C920/C922).
 
 For most remote workers, **Logitech C922** ($60-75) is the pick: autofocus, 1080p, plug-and-play, proven reliable. If you're in a dim office or have frequent group calls, **Brio** ($80-95) is worth the premium for superior low-light and 90° FOV. If budget is tight and $60 is painful, **Anker C200** ($45-55) is underrated and solid. Avoid the C920 unless it's $40 and you're desperate; autofocus is essential for professional calls. Pair any webcam with a $30 external mic, good desk lighting, and eye-level positioning. Your video presence transforms, and colleagues notice.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
