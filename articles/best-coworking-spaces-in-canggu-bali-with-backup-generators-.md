@@ -131,8 +131,221 @@ For developers and technical remote workers in Canggu, infrastructure quality di
 
 The best coworking space for your work depends on your specific requirements: CI/CD pipeline reliability, time zone coordination needs, community preferences, and budget. Start with infrastructure, then optimize for comfort.
 
+## Complete Space Comparison Matrix
 
-## Related Reading
+| Space | Generator | Internet Failover | Dedicated Desk | Private Office | 24/7 Access | Phone Booths | Event Space | Monthly Cost |
+|-------|-----------|---|---|---|---|---|---|---|
+| Dojo Bali | Full facility | Auto | Yes | Yes | Dedicated plans | 2 | Yes | $250-400 |
+| Outpost Canggu | Full facility | Auto | Yes | Yes | Premium tier | 3 | Yes | $300-500 |
+| Tropical Futures | Full facility | Auto | Yes | Yes | Dedicated plans | 2 | Yes | $280-450 |
+| Hubud Ubud | Partial | Manual | Yes | Limited | No | 1 | Limited | $150-250 |
+| Punspace Canggu | Partial | Manual | Yes | Yes | No | 2 | Yes | $200-350 |
+| The Bureau Canggu | Full facility | Auto | Yes | Yes | Premium | 4 | Yes | $350-550 |
+
+## Backup Power Deep Dive
+
+Generators vary significantly in capability. Here's what to ask:
+
+**Fuel Type and Runtime**:
+- Diesel generators: More efficient for continuous use, cheaper fuel in Bali
+- Petrol generators: Quieter but less fuel-efficient
+- Runtime on full tank: Should be 24+ hours for full facility coverage
+- Refueling schedule: Daily vs. weekly vs. automatic
+
+**Load Management**:
+- Automatic transfer switch (ATS): Seamless switchover under 50ms
+- Manual switchover: Requires someone to start generator and switch manually
+- Partial coverage: Only critical areas (cafe, restrooms) vs. full building
+- Load shedding capability: Automatically sheds non-essential loads when grid fails
+
+**Testing and Maintenance**:
+- Weekly, monthly, or quarterly test runs
+- Maintenance contracts in place
+- Carbon buildup issues (generators run continuously fail faster)
+- Fuel quality problems (old fuel gums up carburetors)
+
+Sample verification script:
+
+```bash
+#!/bin/bash
+# Coworking space infrastructure audit
+
+echo "Infrastructure Verification Checklist"
+echo "=================="
+
+# 1. Generator check
+echo "1. GENERATOR INFRASTRUCTURE"
+read -p "Generator type (diesel/petrol/hybrid): " gen_type
+read -p "Fuel capacity (liters): " gen_capacity
+read -p "Estimated runtime hours: " runtime_hours
+read -p "Last maintenance date (YYYY-MM-DD): " last_maintenance
+read -p "Test frequency (weekly/monthly/quarterly): " test_freq
+
+# 2. Internet check
+echo -e "\n2. INTERNET CONNECTIVITY"
+echo "Running speed test..."
+speedtest --simple
+
+echo "Latency to key regions:"
+ping -c 5 -q 8.8.8.8 | tail -1
+ping -c 5 -q google.com | tail -1
+
+# 3. Failover verification
+echo -e "\n3. AUTOMATIC FAILOVER"
+read -p "Primary ISP: " isp_primary
+read -p "Backup ISP (if any): " isp_backup
+read -p "Automatic switch (yes/no): " auto_switch
+
+echo -e "\n4. POWER INFRASTRUCTURE"
+read -p "Dedicated desk outlets: " outlet_count
+read -p "UPS battery backup (yes/no): " ups_available
+```
+
+## Month-to-Month Rental Strategies
+
+Most Canggu spaces offer flexible terms for long-term stays:
+
+**Short-term Commitment (1-4 weeks)**:
+- Hot desk rates: $100-200/month
+- Price premium for flexibility
+- No commitment, easier to test fit
+- Good for evaluating multiple spaces
+
+**Medium-term (2-3 months)**:
+- Dedicated desk rates: $250-350/month
+- Usually requires minimal notice (7-14 days)
+- Good for seasonal workers or multiple-location trips
+- Can combine with accommodation packages
+
+**Long-term (3+ months)**:
+- Dedicated desk with discounts: $200-300/month
+- Some spaces offer 10% discount for 6-month commitment
+- Private office rates drop to $400-600/month
+- Negotiate directly with management
+
+**Virtual office option**:
+- Mail address and meeting room access: $50-100/month
+- Email forwarding and call answering
+- Good for maintaining professional address while working remotely
+
+## Accommodation + Coworking Bundles
+
+Many spaces partner with nearby apartments:
+
+**Dojo Bali partnerships**:
+- Affiliated apartments within 5-minute walk
+- Discounted rates: $400-700/month (vs. $800-1200 market rate)
+- Flat 10% discount for 3+ month bookings
+- WiFi not included in accommodation (separate payment to space)
+
+**Outpost relationships**:
+- Works with multiple property managers
+- Typically $500-800/month for studio apartments
+- Direct billing integration (single invoice)
+- Internet through Outpost available at apartments
+
+**Package deal calculations**:
+```
+Tropical Futures dedicated desk: $350/month
+Nearby accommodation: $600/month
+Single package deal: $850/month
+Separate costs: $950/month
+Savings: $100/month or 10.5%
+```
+
+## Evaluating Actual Uptime Records
+
+Before committing to a space, request their uptime metrics:
+
+**Key Questions**:
+1. What is your documented uptime percentage? (Aim for 99.5%+)
+2. How many outages occurred in the last year?
+3. What was the longest outage and why?
+4. Do you have outage notifications system?
+5. Can you provide references from technical users?
+
+**Red flags**:
+- Spaces unwilling to share uptime data
+- More than 5-6 outages annually
+- Single points of failure (only one internet provider, no generator)
+- Vague answers about infrastructure ("it's pretty reliable")
+
+## Ambient Factors and Productivity
+
+Infrastructure isn't just power and internet:
+
+**Air Quality During Outages**:
+- Generator-backed AC keeps system running
+- Without backup power, AC fails in Bali's heat
+- Humidity rises, keyboards get sticky, focus degrades
+- Test actual conditions: Ask space to demonstrate what happens during outage
+
+**Ambient Noise Levels**:
+- Generator noise: Typically 70-85 decibels
+- Most modern generators: 75-80 dB (similar to heavy traffic)
+- Noise-canceling headphones: Essential accessory, plan for cost
+- Time of day: Generators usually kick on 5-7 PM as grid loads peak
+
+**Water Supply Reliability**:
+- Less critical but affects restroom/coffee availability
+- Some spaces have well pumps that require electricity
+- During extended outages, water becomes unavailable
+- Ask about water backup systems
+
+## Decision Tree for Choosing Your Space
+
+```
+START: Planning Canggu stay
+│
+├─ Need guaranteed 24/7 developer environment?
+│  ├─ YES: Full generator + auto-failover required
+│  │  ├─ Budget $300-400+: Dojo, Outpost, Tropical Futures
+│  │  └─ Budget $250-300: Verify actual infrastructure
+│  └─ NO: Partial backup acceptable
+│     └─ Budget $150-250: Hubud, Punspace, smaller spaces
+│
+├─ Stay duration?
+│  ├─ 1-2 weeks: Hot desk ($100-150) at any space
+│  ├─ 1-3 months: Dedicated desk ($250-350) with stability requirements
+│  └─ 3+ months: Negotiate long-term rates, verify retention satisfaction
+│
+├─ Work type?
+│  ├─ Realtime services/gaming: Latency priority (test ping < 30ms)
+│  ├─ Regular development: Throughput priority (download > 100 Mbps)
+│  └─ Async/writing: Basic internet sufficient
+│
+└─ RECOMMENDATION: Visit space during target hours, test speeds, ask infrastructure questions
+
+```
+
+## Testing Your Space After Commitment
+
+Once you've chosen, run validation:
+
+```bash
+# Week 1 verification
+# Run daily at different times (AM, noon, PM, evening)
+
+echo "Daily Infrastructure Test"
+date >> connectivity_log.txt
+
+# Connectivity
+speedtest-cli --simple >> connectivity_log.txt
+
+# Latency to key regions
+ping -c 3 us-east-1.amazonaws.com >> connectivity_log.txt
+ping -c 3 github.com >> connectivity_log.txt
+
+# Verify CI/CD pipeline (if applicable)
+# Run small test deployment
+
+# Power reliability
+# Note any AC dropouts or power anomalies
+```
+
+After 2 weeks, analyze trends. If you see consistent degradation during peak hours, the space isn't suitable for production work.
+
+---
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Find Coworking Spaces in Medellín Colombia with.](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
