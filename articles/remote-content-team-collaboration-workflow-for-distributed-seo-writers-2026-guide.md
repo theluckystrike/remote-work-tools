@@ -12,6 +12,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
+{% raw %}
 ```
 
 ## Branch-Based Content Workflow
@@ -175,3 +177,4 @@ Pull this data periodically to identify which content performs well and inform f
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

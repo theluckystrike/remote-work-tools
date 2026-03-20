@@ -12,6 +12,8 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
+{% raw %}
 ## Completed This Week
 - What did you ship?
 
@@ -250,4 +252,5 @@ Start with async standups this sprint, add capacity planning in your next planni
 - [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
 {% endraw %}
