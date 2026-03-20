@@ -10,7 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools, security, privileged-access, session-recording]
+tags: [remote-work-tools, security, privileged-access, session-recording, best-of, remote-work]
 ---
 
 {% raw %}
