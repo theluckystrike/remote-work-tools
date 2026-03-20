@@ -8,7 +8,7 @@ permalink: /best-virtual-team-building-activity-platform-for-remote-team/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, virtual-events, collaboration, team-engagement, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

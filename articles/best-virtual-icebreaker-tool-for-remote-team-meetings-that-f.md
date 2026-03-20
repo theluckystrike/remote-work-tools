@@ -8,7 +8,7 @@ permalink: /best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, icebreakers, virtual-meetings, collaboration, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
