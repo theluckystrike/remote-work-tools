@@ -10,6 +10,7 @@ reviewed: true
 score: 8
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 # Best Virtual Offsite Planning Platform for Remote Teams 2026: A Comparison Guide

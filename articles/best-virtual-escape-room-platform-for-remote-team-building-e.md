@@ -8,7 +8,7 @@ permalink: /best-virtual-escape-room-platform-for-remote-team-building-e/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, virtual-events, escape-room, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

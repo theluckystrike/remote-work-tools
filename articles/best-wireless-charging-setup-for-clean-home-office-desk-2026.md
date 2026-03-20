@@ -6,9 +6,9 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-wireless-charging-setup-for-clean-home-office-desk-2026/
 categories: [guides]
-tags: [productivity, home-office, wireless-charging, desk-setup]
+tags: [remote-work-tools, productivity, home-office, wireless-charging, desk-setup, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

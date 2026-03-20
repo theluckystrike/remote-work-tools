@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-wiki-template-for-remote-team-engineering-design-docume/
 categories: [guides]
-tags: [engineering, documentation, wiki, design-document, remote-work, async, review-workflow]
+tags: [remote-work-tools, engineering, documentation, wiki, design-document, remote-work, async, review-workflow]
 reviewed: true
 score: 8
 intent-checked: true

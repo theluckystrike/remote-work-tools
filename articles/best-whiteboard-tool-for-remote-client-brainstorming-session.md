@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-whiteboard-tool-for-remote-client-brainstorming-session/
 categories: [guides]
-tags: [whiteboard, remote-work, collaboration, brainstorming]
+tags: [remote-work-tools, whiteboard, remote-work, collaboration, brainstorming, best-of]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-virtual-whiteboard-for-remote-team-brainstorming-and-id/
 categories: [guides]
-tags: [remote-work, collaboration, brainstorming, whiteboard]
+tags: [remote-work-tools, remote-work, collaboration, brainstorming, whiteboard, best-of]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-vpn-for-remote-development-teams-with-split-tunneling-2/
 categories: [guides]
-tags: [vpn, split-tunneling, remote-work, development-tools, security]
+tags: [remote-work-tools, vpn, split-tunneling, remote-work, development-tools, security, best-of]
 reviewed: true
 score: 8
 intent-checked: true

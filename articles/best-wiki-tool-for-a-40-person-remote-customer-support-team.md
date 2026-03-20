@@ -6,7 +6,7 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-wiki-tool-for-a-40-person-remote-customer-support-team/
 categories: [guides]
-tags: [wiki, documentation, customer-support, remote-work]
+tags: [remote-work-tools, wiki, documentation, customer-support, remote-work, best-of]
 reviewed: true
 score: 8
 intent-checked: true

@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-webcam-for-zoom-calls-in-a-bright-window-behind-you/
 categories: [guides]
-tags: [webcam, zoom, remote-work, video-calling]
+tags: [remote-work-tools, webcam, zoom, remote-work, video-calling, best-of]
 reviewed: true
 score: 8
 intent-checked: true

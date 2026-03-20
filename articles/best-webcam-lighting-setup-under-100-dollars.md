@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /best-webcam-lighting-setup-under-100-dollars/
 categories: [guides]
-tags: [remote-work, video-calls, lighting]
+tags: [remote-work-tools, remote-work, video-calls, lighting, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

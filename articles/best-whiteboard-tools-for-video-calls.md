@@ -6,10 +6,11 @@ date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-whiteboard-tools-for-video-calls/
 reviewed: true
-score: 8
+score: 9
 categories: [best-of]
 intent-checked: true
 voice-checked: true
+tags: [remote-work-tools, best-of]
 ---
 
 {% raw %}

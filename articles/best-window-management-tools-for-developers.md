@@ -6,7 +6,7 @@ date: 2026-03-15
 author: theluckystrike
 permalink: /best-window-management-tools-for-developers/
 categories: [guides]
-tags: [productivity, window-management, developer-tools]
+tags: [remote-work-tools, productivity, window-management, developer-tools, best-of]
 reviewed: true
 score: 8
 intent-checked: true

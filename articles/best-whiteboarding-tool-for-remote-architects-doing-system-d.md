@@ -6,7 +6,7 @@ date: 2026-03-16
 author: theluckystrike
 permalink: /best-whiteboarding-tool-for-remote-architects-doing-system-d/
 categories: [guides]
-tags: [whiteboarding, system-design, remote-work, architecture, collaboration]
+tags: [remote-work-tools, whiteboarding, system-design, remote-work, architecture, collaboration, best-of]
 reviewed: true
 score: 8
 intent-checked: true
