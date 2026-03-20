@@ -12,6 +12,8 @@ score: 7
 intent-checked: true
 voice-checked: true
 ---
+
+{% raw %}
 Platform engineers managing shared infrastructure from a remote or distributed team need collaboration tools that handle both the async communication side and the technical coordination of shared services. The best setup combines an internal developer portal (IDP) for service discovery, structured incident response workflows, and documented runbooks that work across time zones. This guide covers practical tooling and patterns for each layer.
 
 ## Internal Developer Portals for Service Discovery
@@ -218,3 +220,4 @@ This surfaces stale runbooks automatically without manual tracking. Owners get d
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

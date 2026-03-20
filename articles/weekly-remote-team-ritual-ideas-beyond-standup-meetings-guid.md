@@ -13,6 +13,7 @@ intent-checked: true
 voice-checked: true
 ---
 
+{% raw %}
 Remote teams that rely only on the daily standup miss most of what makes a team cohesive — shared wins, genuine connection, collaborative learning, and honest reflection. This guide covers practical weekly rituals that build team culture without adding calendar bloat, with implementation examples you can use immediately.
 
 ## Ritual 1: Async Team Wins Board
@@ -508,3 +509,4 @@ The goal isn't to maximize rituals. It's to have rituals that actually improve h
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

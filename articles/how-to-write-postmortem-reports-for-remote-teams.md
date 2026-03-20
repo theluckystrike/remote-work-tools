@@ -13,6 +13,7 @@ intent-checked: true
 voice-checked: true
 ---
 
+{% raw %}
 Effective postmortem reports for remote teams share three properties: they are written close to the incident while details are fresh, they establish blameless root cause analysis, and they produce specific action items with assigned owners. This guide provides a complete template and workflow for distributed teams working asynchronously across time zones.
 
 ## Why Remote Teams Need a Different Approach
@@ -431,3 +432,4 @@ Post this at the top of every postmortem document. Over time, the team internali
 Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}
