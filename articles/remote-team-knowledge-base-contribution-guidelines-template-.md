@@ -10,7 +10,6 @@ tags: [knowledge-base, documentation, remote-work, collaboration, team-guideline
 reviewed: true
 intent-checked: true
 voice-checked: true
-voice-checked: false
 score: 8
 ---
 

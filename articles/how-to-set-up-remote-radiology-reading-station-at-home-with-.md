@@ -10,7 +10,6 @@ tags: [radiology, healthcare-it, pacs, telemedicine, remote-work, medical-imagin
 reviewed: true
 intent-checked: true
 voice-checked: true
-voice-checked: false
 score: 8
 ---
 

@@ -10,7 +10,6 @@ tags: [async, rfc, decision-making, engineering, remote-work, collaboration]
 reviewed: true
 intent-checked: true
 voice-checked: true
-voice-checked: false
 score: 8
 ---
 
