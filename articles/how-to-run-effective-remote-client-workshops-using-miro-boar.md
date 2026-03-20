@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Run Effective Remote Client Workshops Using Miro."
+title: "Run Effective Remote Client Workshops Using Miro"
 description: "A practical guide for developers and power users running remote client workshops with Miro. Learn setup strategies, facilitation techniques, and."
 date: 2026-03-16
 author: theluckystrike

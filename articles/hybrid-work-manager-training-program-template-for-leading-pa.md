@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hybrid Work Manager Training Program Template for."
+title: "Hybrid Work Manager Training Program Template"
 description: "A practical training program template for managers leading partially distributed teams. Includes curriculum structure, workshop modules, and."
 date: 2026-03-16
 author: theluckystrike

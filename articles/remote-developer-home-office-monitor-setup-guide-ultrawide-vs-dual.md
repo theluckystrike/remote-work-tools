@@ -1,7 +1,6 @@
 ---
-
 layout: default
-title: "Remote Developer Home Office Monitor Setup Guide: Ultrawide vs Dual 2026"
+title: "Remote Developer Home Office Monitor Setup Guide"
 description: "Ultrawide vs dual monitor setup for remote developers. Specific models, desk space, GPU requirements, productivity research, and real-world comparisons."
 date: 2026-03-20
 author: theluckystrike
