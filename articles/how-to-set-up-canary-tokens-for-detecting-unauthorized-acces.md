@@ -8,6 +8,7 @@ permalink: /how-to-set-up-canary-tokens-for-detecting-unauthorized-acces/
 reviewed: true
 score: 8
 categories: [guides]
+tags: [remote-work-tools]
 ---
 
 {% raw %}
