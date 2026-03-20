@@ -8,7 +8,7 @@ permalink: /project-management-for-husband-and-wife-freelance-developmen/
 categories: [guides]
 tags: [remote-work-tools, project-management, freelance, workflows]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
