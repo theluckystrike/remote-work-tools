@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Employee Career Development Plan Template for"
+title: "Remote Employee Career Development Plan Template"
 description: "Managing career growth for remote employees requires deliberate structure. Unlike office environments where managers can observe growth through hallway"
 date: 2026-03-16
 last_modified_at: 2026-03-16

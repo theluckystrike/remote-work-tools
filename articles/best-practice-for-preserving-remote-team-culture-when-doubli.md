@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Practices for Preserving Remote Team Culture When Doubling in Size"
-description: "Proven strategies for maintaining team culture during rapid growth in distributed teams. Covers onboarding systems, communication rituals, and scaling culture intentionally."
+title: "Preserving Remote Team Culture When Doubling in Size"
+description: "Proven strategies for maintaining team culture during rapid growth in distributed teams. Covers onboarding systems, communication rituals, and scaling culture"
 date: 2026-03-21
 author: theluckystrike
 permalink: /best-practice-for-preserving-remote-team-culture-when-doubling-in-size/

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Proposal Software for Remote Web Development Agency — 2026"
+title: "Best Proposal Software for Remote Web Development: 2026"
 description: "Discover the best proposal software for remote web development agencies in 2026. Compare tools with code examples, API integrations, and practical"
 date: 2026-03-16
 last_modified_at: 2026-03-16

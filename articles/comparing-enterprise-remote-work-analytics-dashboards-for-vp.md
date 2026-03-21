@@ -1,8 +1,8 @@
 ---
 
 layout: default
-title: "Comparing Enterprise Remote Work Analytics Dashboards for VP-Level Reporting 2026"
-description: "A technical comparison of enterprise remote work analytics dashboards for VP-level reporting. Includes API integrations, data pipelines, and implementation patterns for power users."
+title: "Comparing Enterprise Remote Work Analytics Dashboards"
+description: "A technical comparison of enterprise remote work analytics dashboards for VP-level reporting. Includes API integrations, data pipelines, and implementation"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /comparing-enterprise-remote-work-analytics-dashboards-for-vp/
@@ -10,7 +10,7 @@ categories: [guides]
 tags: [remote-work-analytics, vp-dashboards, enterprise-analytics, remote-work-metrics, data-visualization, reporting-tools]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 

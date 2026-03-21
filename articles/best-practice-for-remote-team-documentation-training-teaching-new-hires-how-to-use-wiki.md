@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Page Title"
+title: "Best Practice for Remote Team Documentation Training"
 description: "A practical guide to training remote team members on wiki documentation systems, with examples and strategies for developer teams"
 date: 2026-03-16
 author: "Remote Work Tools Guide"

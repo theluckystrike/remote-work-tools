@@ -9,7 +9,7 @@ categories: [guides]
 tags: [remote-work-tools, mdm, mobile-device-management, enterprise-security, remote-teams, device-management, endpoint-security, best-of]
 reviewed: true
 score: 9
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 

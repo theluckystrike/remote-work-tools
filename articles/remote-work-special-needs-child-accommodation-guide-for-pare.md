@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Special Needs Child Accommodation Guide for"
+title: "Remote Work Special Needs Child Accommodation Guide"
 description: "A practical guide for developers and remote workers parenting children with special needs. Learn accommodation strategies, communication frameworks"
 date: 2026-03-16
 last_modified_at: 2026-03-16

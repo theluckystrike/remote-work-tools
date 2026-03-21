@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tax Deduction Tracking Tools for Remote Freelancers"
-description: "Track tax-deductible expenses as a remote freelancer with the right tools and processes. Covers home office, software, equipment, travel deductions, and quarterly estimates."
+description: "Track tax-deductible expenses as a remote freelancer with the right tools and processes. Covers home office, software, equipment, travel deductions, and"
 date: 2026-03-21
 author: theluckystrike
 permalink: /freelancer-tax-deduction-tracking-2026/

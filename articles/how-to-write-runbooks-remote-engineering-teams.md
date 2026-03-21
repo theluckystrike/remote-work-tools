@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Write Runbooks for Remote Engineering Teams"
-description: "Write runbooks that remote engineers can execute alone under pressure. Covers structure, verification steps, decision trees, rollback procedures, and maintenance cadence."
+description: "Write runbooks that remote engineers can execute alone under pressure. Covers structure, verification steps, decision trees, rollback procedures, and"
 date: 2026-03-21
 author: theluckystrike
 permalink: /how-to-write-runbooks-remote-engineering-teams/

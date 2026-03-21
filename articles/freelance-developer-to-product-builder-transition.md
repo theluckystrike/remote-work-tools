@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Freelance Developer to Product Builder Transition: A"
+title: "Freelance Developer to Product Builder Transition"
 description: "To transition from freelance developer to product builder, start by identifying a recurring problem from your client work, validate demand with a landing page"
 date: 2026-03-15
 last_modified_at: 2026-03-15

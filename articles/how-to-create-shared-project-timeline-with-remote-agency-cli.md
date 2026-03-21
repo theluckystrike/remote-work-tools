@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "macOS"
+title: "How to Create Shared Project Timeline With Remote Agency Cli"
 description: "Managing project timelines across distributed teams and external agencies presents unique challenges. When your collaborators span multiple time zones and use"
 date: 2026-03-16
 last_modified_at: 2026-03-16

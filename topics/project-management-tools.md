@@ -1,8 +1,11 @@
 ---
 layout: default
 title: "Project Management Tools — Asana, Linear, Trello & More"
-description: "Compare project management tools for remote teams: Asana, Linear, Trello, ClickUp, Basecamp, and GitHub Projects. Sprint planning, bug tracking, and agile workflows."
+description: "Compare project management tools for remote teams: Asana, Linear, Trello, ClickUp, Basecamp, and GitHub Projects. Sprint planning, bug tracking, and agile"
 permalink: /topics/project-management-tools/
+intent-checked: true
+voice-checked: true
+date: 2026-03-21
 ---
 
 # Project Management Tools — Asana, Linear, Trello & More

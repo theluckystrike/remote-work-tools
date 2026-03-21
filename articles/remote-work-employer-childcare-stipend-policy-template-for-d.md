@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Employer Childcare Stipend Policy Template for"
+title: "Remote Work Employer Childcare Stipend Policy Template"
 description: "Remote work has fundamentally changed how companies approach employee benefits. As distributed teams become the norm, HR leaders and engineering managers face"
 date: 2026-03-16
 last_modified_at: 2026-03-16

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Async Standup Templates in Slack With"
+title: "How to Create Async Standup Templates in Slack"
 description: "Slack Workflow Builder provides a powerful no-code solution for automating asynchronous standups. Rather than relying on live meetings or manual Slack"
 date: 2026-03-16
 last_modified_at: 2026-03-16

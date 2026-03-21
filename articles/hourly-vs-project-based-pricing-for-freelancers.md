@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hourly vs Project-Based Pricing for Freelancers: A"
+title: "Hourly vs Project Based Pricing for Freelancers"
 description: "Choose hourly pricing if your project scope is undefined, you lack estimating experience, or the client needs flexibility. Choose project-based pricing if"
 date: 2026-03-15
 last_modified_at: 2026-03-15

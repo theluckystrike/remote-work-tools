@@ -1,8 +1,11 @@
 ---
 layout: default
-title: "Remote Hiring & Onboarding — Tools, Checklists & Best Practices"
+title: "Remote Hiring & Onboarding"
 description: "Remote hiring and onboarding guides: applicant tracking, interview scheduling, onboarding checklists, diversity sourcing, and new hire 90-day plans."
 permalink: /topics/remote-hiring-onboarding/
+intent-checked: true
+voice-checked: true
+date: 2026-03-21
 ---
 
 # Remote Hiring & Onboarding — Tools, Checklists & Best Practices

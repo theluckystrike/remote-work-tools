@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Virtual Team Building Activities That Developers Actually — Enjoy"
+title: "Virtual Team Building Activities That Developers: Discover"
 description: "Discover virtual team building activities that developers genuinely enjoy. Practical ideas for remote engineering teams that build real connections"
 date: 2026-03-16
 last_modified_at: 2026-03-16

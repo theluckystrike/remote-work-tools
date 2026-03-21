@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Video Conferencing Setup for Hybrid Rooms: A"
+title: "Best Video Conferencing Setup for Hybrid Rooms"
 description: "A practical guide for developers and power users configuring video conferencing in hybrid rooms. Covers camera selection, lighting, and software"
 date: 2026-03-15
 last_modified_at: 2026-03-15

@@ -11,6 +11,7 @@ reviewed: true
 score: 9
 categories: [guides]
 tags: [remote-work-tools, remote-work]
+intent-checked: true
 ---
 
 {% raw %}

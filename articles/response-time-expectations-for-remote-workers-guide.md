@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Response Time Expectations for Remote Workers: A"
+title: "Response Time Expectations for Remote Workers Guide"
 description: "Learn how to set realistic response time expectations for remote work. Includes code snippets for notification scheduling, status indicators, and async"
 date: 2026-03-15
 last_modified_at: 2026-03-15

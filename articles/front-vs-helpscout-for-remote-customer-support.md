@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Front vs HelpScout for Remote Customer Support: A"
+title: "Front vs HelpScout for Remote Customer Support"
 description: "Choose Front if your remote support team needs multi-channel unification (email, chat, social), advanced collision detection, and deep developer tool"
 date: 2026-03-15
 last_modified_at: 2026-03-15

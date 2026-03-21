@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Maker Schedule for Remote Developers: A Practical Guide for"
+title: "Maker Schedule for Remote Developers Guide 2026"
 description: "Learn how to implement the maker schedule methodology specifically designed for remote developers. Optimize your deep work sessions, manage context"
 date: 2026-03-20
 last_modified_at: 2026-03-20

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Scale Remote Team Incident Response Process From"
+title: "How to Scale Remote Team Incident Response Process"
 description: "A practical guide for developers and power users on scaling incident response processes as your remote team grows from a startup to a mid-size"
 date: 2026-03-16
 last_modified_at: 2026-03-16

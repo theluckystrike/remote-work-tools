@@ -95,8 +95,8 @@
 
 
 layout: default
-title: "How to Implement Remote Team macOS FileVault Enforcement Through MDM Policy"
-description: "A step-by-step guide to implementing macOS FileVault encryption enforcement for remote teams using Mobile Device Management (MDM) solutions like Jamf, Kandji, or Microsoft Intune."
+title: "How to Implement Remote Team macOS FileVault Enforcement"
+description: "A step-by-step guide to implementing macOS FileVault encryption enforcement for remote teams using Mobile Device Management (MDM) solutions like Jamf, Kandji"
 date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /a91-how-to-implement-remote-team-macos-filevault-enforcement-through-mdm-policy/

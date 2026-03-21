@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home Lab Setup Guide for Remote Developers"
-description: "Build a home lab for remote development: hardware selection, hypervisor setup, network segmentation, DNS, and services worth running locally for development work."
+description: "Build a home lab for remote development: hardware selection, hypervisor setup, network segmentation, DNS, and services worth running locally for development"
 date: 2026-03-21
 author: theluckystrike
 permalink: /home-lab-setup-guide-remote-developers/

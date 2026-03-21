@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Example: Find pages not modified in the last 180 days using"
+title: "Example: Find pages not modified in the last 180 days"
 description: "To fix your outdated wiki, run a 2-week documentation sprint: audit stale pages using git log --since='180 days ago', categorize them as"
 date: 2026-03-15
 last_modified_at: 2026-03-15
