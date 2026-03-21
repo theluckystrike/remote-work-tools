@@ -3,6 +3,7 @@ layout: default
 title: "Virtual Craft Workshop Ideas for Remote Team Creative"
 description: "Discover practical virtual craft workshop ideas for remote team creative bonding. Learn how to organize creative sessions that strengthen team connections"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /virtual-craft-workshop-ideas-for-remote-team-creative-bondin/
 categories: [guides]

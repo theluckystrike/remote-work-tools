@@ -286,12 +286,14 @@ Track these metrics monthly to catch problems early:
 
 If warning signs appear, don't wait for the next retrospective. Address immediately—hybrid dysfunction compounds quickly.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-- [How to Scale Remote Team Sprint Ceremonies When Splitting Into Multiple Squads: A Practical Guide](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
-- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+## Related Articles
+
+- [How to Scale Remote Team Sprint Ceremonies When Splitting](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [Barco ClickShare API: Starting a presentation session](/remote-work-tools/best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison: A](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

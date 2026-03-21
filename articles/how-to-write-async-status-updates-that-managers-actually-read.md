@@ -3,6 +3,7 @@ layout: default
 title: "How to Write Async Status Updates That Managers Actually"
 description: "Learn practical strategies for writing async status updates that managers actually read and respond to. Includes templates and examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-async-status-updates-that-managers-actually-read/
 categories: [guides]

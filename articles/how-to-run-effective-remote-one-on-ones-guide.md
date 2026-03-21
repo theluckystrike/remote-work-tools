@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Effective Remote One on Ones Guide"
 description: "Guide to running effective remote 1:1 meetings. Covers templates, cadence, tools like Fellow, Lattice, 15Five, and async alternatives for distributed"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-effective-remote-one-on-ones-guide/
 categories: [guides]

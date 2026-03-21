@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Gratitude Practice Ideas for Weekly Team"
 description: "Practical gratitude exercises and digital tools to build connection in your distributed team. Examples include shoutout boards, appreciation scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-gratitude-practice-ideas-for-weekly-team-meeting/
 categories: [guides]

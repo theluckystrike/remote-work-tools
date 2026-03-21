@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Hybrid Team Async Updates When Some Use Office"
 description: "A technical guide to async update tools for hybrid teams where some members work in office spaces with whiteboards. Covers implementation strategies"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-hybrid-team-async-updates-when-some-use-office/
 categories: [guides]

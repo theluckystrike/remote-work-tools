@@ -3,6 +3,7 @@ layout: default
 title: "Remote Employee Belonging and Inclusion Program Ideas for"
 description: "Building genuine connection in distributed teams requires more than happy hours and virtual coffee chats. In 2026, organizations with remote employees need"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/
 categories: [guides]

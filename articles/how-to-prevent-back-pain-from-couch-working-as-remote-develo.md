@@ -3,6 +3,7 @@ layout: default
 title: "How to Prevent Back Pain from Couch Working as a Remote"
 description: "Practical strategies to prevent back pain when working from couch as a remote developer. Learn ergonomic setups, posture fixes, and movement routines"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-back-pain-from-couch-working-as-remote-develo/
 categories: [guides]

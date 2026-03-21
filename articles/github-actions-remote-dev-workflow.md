@@ -3,6 +3,7 @@ layout: default
 title: "GitHub Actions Workflow for Remote Dev Teams"
 description: "Set up GitHub Actions CI/CD workflows for remote engineering teams: PR checks, automated deploys, Slack notifications, and environment-per-branch previews."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /github-actions-remote-dev-workflow/
 categories: [guides]

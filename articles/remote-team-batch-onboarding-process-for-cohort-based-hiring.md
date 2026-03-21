@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Batch Onboarding Process for Cohort-Based Hiring"
 description: "When your distributed company hires multiple new employees at once, treating each hire as an isolated onboarding project wastes resources and creates"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-batch-onboarding-process-for-cohort-based-hiring/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Client Data Security Compliance Checklist for"
 description: "A practical compliance checklist for remote agencies. Includes security requirements, code examples, and proposal templates for protecting client data"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-client-data-security-compliance-checklist-for-proposals/
 categories: [guides]

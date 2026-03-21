@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Technical Assessment Platform for Evaluating"
 description: "A practical guide to building and implementing technical assessment platforms for hiring remote engineering candidates. Learn about automated"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/
 categories: [guides]

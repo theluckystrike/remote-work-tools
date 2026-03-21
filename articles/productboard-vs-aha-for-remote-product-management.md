@@ -3,6 +3,7 @@ layout: default
 title: "Productboard vs Aha for Remote Product Management"
 description: "A technical comparison of Productboard and Aha! for managing product development in distributed teams. Features, API capabilities, and real-world use"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /productboard-vs-aha-for-remote-product-management/
 reviewed: true

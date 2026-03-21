@@ -241,12 +241,14 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 
 **Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Tool for Remote Team Capacity Planning When Scaling.](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Async Capacity Planning Process for Remote Engineering.](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+## Related Articles
+
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -182,11 +182,14 @@ The tool matters less than the consistency of your practice. The best one on one
 
 ---
 
-## Related Reading
 
-- [Async 360 Feedback Process for Remote Teams](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Best Headset for Remote Work Video Calls](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+## Related Articles
+
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Remote Team Walking Meeting Format for One-on-One](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

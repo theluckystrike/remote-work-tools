@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Handbook Section Template for Writing Expense Re"
 description: "Copy this expense reimbursement template directly into your handbook: list eligible expenses (home office equipment, software, internet, travel, professional"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-handbook-section-template-for-writing-expense-re/
 categories: [guides]

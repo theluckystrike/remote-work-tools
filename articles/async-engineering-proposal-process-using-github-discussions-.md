@@ -265,11 +265,13 @@ Track these metrics to improve your async proposal process over time:
 
 Use GitHub's built-in analytics or export Discussion data via the API for analysis. A healthy process typically sees decisions within 7 days and participation from at least half the core team on significant proposals.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-- [Async Decision Making with RFC Documents for Engineering.](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+## Related Articles
+
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

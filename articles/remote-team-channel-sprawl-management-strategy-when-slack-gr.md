@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Channel Sprawl Management Strategy When Slack Gr"
 description: "A practical guide for developers and power users to manage Slack channel sprawl in remote teams with 200+ channels. Includes automation scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-channel-sprawl-management-strategy-when-slack-gr/
 categories: [guides]

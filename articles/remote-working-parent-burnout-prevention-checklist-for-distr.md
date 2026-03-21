@@ -3,6 +3,7 @@ layout: default
 title: "Remote Working Parent Burnout Prevention Checklist for"
 description: "A practical checklist for distributed team managers to recognize and prevent remote working parent burnout. Includes warning signs, intervention"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/
 categories: [guides]

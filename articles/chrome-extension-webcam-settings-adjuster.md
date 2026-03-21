@@ -3,6 +3,7 @@ layout: default
 title: "Chrome Extension Webcam Settings Adjuster Guide"
 description: "Whether you're hopping on a quick Zoom call, recording a tutorial, or streaming on Twitch, your webcam settings can make or break the experience. Most built-in"
 date: 2026-03-17
+last_modified_at: 2026-03-17
 author: theluckystrike
 permalink: /chrome-extension-webcam-settings-adjuster/
 categories: [guides]

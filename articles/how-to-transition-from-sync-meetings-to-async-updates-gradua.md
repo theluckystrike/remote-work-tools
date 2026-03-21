@@ -3,6 +3,7 @@ layout: default
 title: "Example GitHub PR template"
 description: "A practical guide for developers and power users on moving from synchronous meetings to asynchronous communication without disrupting team workflow"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-transition-from-sync-meetings-to-async-updates-gradua/
 categories: [guides]

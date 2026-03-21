@@ -3,6 +3,7 @@ layout: default
 title: "Instead of:"
 description: "Learn how to use Slack emoji reactions to reduce message clutter and improve async communication efficiency in remote teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /best-practice-for-remote-team-slack-emoji-reactions-replacin/
 reviewed: true

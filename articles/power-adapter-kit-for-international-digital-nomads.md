@@ -3,6 +3,7 @@ layout: default
 title: "Power Adapter Kit for International Digital Nomads"
 description: "Every digital nomad has a horror story: laptop dead in a Bangkok cafe, no way to charge during a layover in Frankfurt, or a fried charger because someone"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /power-adapter-kit-for-international-digital-nomads/
 categories: [guides]

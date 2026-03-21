@@ -3,6 +3,7 @@ layout: default
 title: "Barco ClickShare API: Starting a presentation session"
 description: "Wireless presentation systems like Cisco Webex Room Navigator, Crestron AirMedia, and Extron XTP transform BYOD laptops into shared displays without dongles"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/
 categories: [guides]

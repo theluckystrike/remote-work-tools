@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up a Remote Team Wiki from Scratch"
 description: "Step-by-step guide to building a remote team wiki. Compares Notion, Confluence, GitBook, and Outline with structure templates and permission models"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-a-remote-team-wiki-from-scratch/
 categories: [guides]

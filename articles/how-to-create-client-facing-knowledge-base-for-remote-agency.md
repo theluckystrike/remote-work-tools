@@ -3,6 +3,7 @@ layout: default
 title: "How to Create a Client-Facing Knowledge Base for a Remote"
 description: "A practical guide for remote agencies to build and maintain a client-facing knowledge base. Includes platform recommendations, content organization"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-facing-knowledge-base-for-remote-agency/
 categories: [guides]

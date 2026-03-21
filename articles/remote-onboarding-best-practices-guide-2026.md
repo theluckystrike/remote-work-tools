@@ -3,6 +3,7 @@ layout: default
 title: "Remote Onboarding Best Practices Guide 2026"
 description: "Remote onboarding has evolved significantly. The tools, processes, and expectations have shifted dramatically since the early days of distributed work. This"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-onboarding-best-practices-guide-2026/
 categories: [guides]

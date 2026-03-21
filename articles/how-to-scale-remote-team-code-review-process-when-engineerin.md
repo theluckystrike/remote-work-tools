@@ -3,6 +3,7 @@ layout: default
 title: "Code Review Guidelines"
 description: "Practical strategies for scaling your code review process when your remote engineering team grows from 10 to 30 developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-code-review-process-when-engineerin/
 categories: [guides]

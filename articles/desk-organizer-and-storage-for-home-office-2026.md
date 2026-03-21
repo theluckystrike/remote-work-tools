@@ -3,6 +3,7 @@ layout: default
 title: "Desk Organizer and Storage for Home Office 2026"
 description: "Effective desk organization for a developer home office starts with three foundations: an under-desk cable tray to hide power strips and excess cables, drawer"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /desk-organizer-and-storage-for-home-office-2026/
 reviewed: true

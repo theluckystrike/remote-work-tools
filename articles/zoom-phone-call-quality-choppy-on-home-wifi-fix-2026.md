@@ -3,6 +3,7 @@ layout: default
 title: "Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)"
 description: "A practical troubleshooting guide for remote workers experiencing choppy Zoom calls on home WiFi. Step-by-step solutions to fix audio and video quality"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/
 reviewed: true

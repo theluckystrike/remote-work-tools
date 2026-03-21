@@ -174,11 +174,14 @@ The most important action: stop converting at Thai banks directly. The convenien
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Thailand Long-Term Visa Options for Remote Workers](/remote-work-tools/articles/thailand-long-term-visa-for-remote-workers-2026/)
-- [Best VPN for Remote Workers in Thailand](/remote-work-tools/articles/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
+## Related Articles
+
+- [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

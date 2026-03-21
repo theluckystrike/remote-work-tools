@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Book Clubs for a Remote Engineering Team of 40"
 description: "Running a book club for a team of 40 engineers across multiple time zones presents unique challenges that differ significantly from in-person groups. The key"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-book-clubs-for-a-remote-engineering-team-of-40/
 categories: [guides]

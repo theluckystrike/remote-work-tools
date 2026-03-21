@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Security Awareness Training Platform Comparison"
 description: "Compare the best security awareness training platforms for remote teams in 2026. Evaluate features, pricing, automation, and developer-friendly"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-security-awareness-training-platform-comparison-/
 categories: [guides]

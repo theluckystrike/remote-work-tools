@@ -3,6 +3,7 @@ layout: default
 title: "Remote Employee Output-Based Performance Measurement"
 description: "A practical guide to implementing output-based performance measurement for remote teams. Move beyond hours tracking to measurable outcomes, automated"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-output-based-performance-measurement-framewo/
 categories: [guides]

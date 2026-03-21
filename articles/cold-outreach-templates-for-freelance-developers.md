@@ -3,6 +3,7 @@ layout: default
 title: "Cold Outreach Templates for Freelance Developers"
 description: "Practical cold outreach templates for freelance developers to land more clients. Includes email scripts, LinkedIn messages, and follow-up sequences"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /cold-outreach-templates-for-freelance-developers/
 categories: [guides]

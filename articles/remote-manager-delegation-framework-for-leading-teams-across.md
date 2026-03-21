@@ -3,6 +3,7 @@ layout: default
 title: "Remote Manager Delegation Framework for Leading Teams Across"
 description: "Delegation in co-located teams relies on quick feedback loops—walk to someone's desk, ask a question, get an answer. When your team spans San Francisco"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "theluckystrike"
 permalink: /remote-manager-delegation-framework-for-leading-teams-across/
 categories: [guides]

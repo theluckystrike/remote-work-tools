@@ -287,11 +287,13 @@ Track metrics that indicate whether your standup format works:
 
 The best hybrid standup format is one your team actually follows consistently. Start with the round-robin + async buffer approach, refine your room setup, and iterate based on feedback. The goal isn't perfection—it's creating a daily rhythm where every team member, regardless of location, starts their day informed and connected.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
-- [Best Practice for Hybrid Team Social Events Including.](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
-- [How to Manage Hybrid Team Where Some Members Are Fully.](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+## Related Articles
+
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Best Practice for Hybrid Team Knowledge Transfer Between](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

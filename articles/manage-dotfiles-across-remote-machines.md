@@ -3,6 +3,7 @@ layout: default
 title: "Manage Dotfiles Across Remote Machines"
 description: "Set up dotfile management with GNU Stow or Chezmoi to sync shell configs, editor settings, and aliases across remote servers, laptops, and dev containers."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /manage-dotfiles-across-remote-machines/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Google Meet Echo When Using External Speakers Fix (2026)"
 description: "Echo in Google Meet meetings disrupts communication and creates frustrating experiences for everyone on the call. When you use external speakers with your"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /google-meet-echo-when-using-external-speakers-fix-2026/
 categories: [guides]

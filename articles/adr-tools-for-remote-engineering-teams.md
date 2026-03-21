@@ -84,8 +84,6 @@ Create a template for new ADRs that includes the standard sections:
 - Positive: [List positive outcomes]
 - Negative: [List negative outcomes or tradeoffs]
 
-## Related ADRs
-- [Link to related ADRs]
 ```
 
 Notion's strength lies in its relational properties. Link related decisions together, create views that show only "Accepted" ADRs, or filter by tag to see all database-related choices. The downside: ADRs live outside your codebase, making it harder to reference them from code comments or PR descriptions.
@@ -203,7 +201,6 @@ Proposed
 - Positive: 
 - Negative: 
 
-## Related ADRs
 EOF
 echo "Created ADR-${NEXT}: $1"
 ```
@@ -213,11 +210,14 @@ Run this script with `./new-adr.sh "Use Redis for Caching"` to generate a proper
 ---
 
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+## Related Articles
+
+- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
+- [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
+- [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
+- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

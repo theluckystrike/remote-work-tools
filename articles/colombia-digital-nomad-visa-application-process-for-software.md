@@ -3,6 +3,7 @@ layout: default
 title: "Document checklist with recommended file names"
 description: "A complete step-by-step guide to the Colombia digital nomad visa application process for software developers in 2026. Learn requirements, documents"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /colombia-digital-nomad-visa-application-process-for-software/
 reviewed: true

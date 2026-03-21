@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Change Management Communication Plan Template"
 description: "A practical communication plan template for managing team changes in remote and distributed organizations. Includes code examples, Slack integration"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-change-management-communication-plan-template-fo/
 categories: [guides]

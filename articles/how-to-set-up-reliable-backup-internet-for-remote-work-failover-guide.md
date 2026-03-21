@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Reliable Backup Internet for Remote Work"
 description: "Backup internet strategies for remote work: mobile hotspot, secondary ISP, load balancing routers. Includes hardware, failover config, and best practices"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/
 categories: [guides]

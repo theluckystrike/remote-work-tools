@@ -3,6 +3,7 @@ layout: default
 title: "Malaysia Digital Nomad Pass DE Rantau Application for"
 description: "Malaysia Digital Nomad Pass DE Rantau Application for. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /malaysia-digital-nomad-pass-de-rantau-application-for-remote/
 categories: [guides]

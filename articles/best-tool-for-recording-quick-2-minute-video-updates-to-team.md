@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Recording Quick 2-Minute Video Updates to Team"
 description: "Discover the best tool for recording quick 2 minute video updates to team. Compare solutions with code examples, automation tips, and implementation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-recording-quick-2-minute-video-updates-to-team/
 categories: [guides]

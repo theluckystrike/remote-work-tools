@@ -3,6 +3,7 @@ layout: default
 title: "RescueTime vs Toggl Track"
 description: "A practical comparison of RescueTime and Toggl Track for developers. Learn which tool better suits your workflow with code examples and CLI integration"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /rescue-time-vs-toggl-track-productivity-comparison/
 reviewed: true

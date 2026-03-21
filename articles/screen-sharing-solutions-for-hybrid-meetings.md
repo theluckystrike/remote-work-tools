@@ -3,6 +3,7 @@ layout: default
 title: "Screen Sharing Solutions for Hybrid Meetings"
 description: "Building effective screen sharing into your meeting platform requires understanding the technical tradeoffs between different approaches. Whether you're"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /screen-sharing-solutions-for-hybrid-meetings/
 categories: [guides]

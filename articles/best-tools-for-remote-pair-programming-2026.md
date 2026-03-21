@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Pair Programming 2026"
 description: "Compare pair programming tools: VS Code Live Share, Tuple, Pop, CodeTogether, JetBrains Code With Me. Latency, pricing, setup, and when to use each"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-pair-programming-tools-2026/
 categories: [guides]

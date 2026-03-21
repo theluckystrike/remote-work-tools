@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Team Async Daily Check In Format Replacing"
 description: "Learn the most effective async daily check-in format for remote teams. Replace synchronous standups with structured asynchronous updates that boost"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-team-async-daily-check-in-format-replacing-standup-meetings/
 categories: [guides]

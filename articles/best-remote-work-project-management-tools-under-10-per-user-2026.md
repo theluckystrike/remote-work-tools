@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Work Project Management Tools Under 10 Per."
 description: "Compare affordable project management tools for remote teams under $10/user. Reviews Linear, Notion, ClickUp, Asana, and Monday.com with real pricing"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-remote-work-project-management-tools-under-10-per-user-2026/
 categories: [guides]

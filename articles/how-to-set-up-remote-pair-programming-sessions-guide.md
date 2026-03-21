@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Pair Programming Sessions: Complete Guide"
 description: "Tools, workflows, and best practices for remote pair programming. Compare VS Code Live Share, Tuple, Mobius, and SSH solutions with real setup instructions."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-pair-programming-sessions-guide/
 categories: [guides]

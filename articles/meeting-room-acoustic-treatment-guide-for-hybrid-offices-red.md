@@ -3,6 +3,7 @@ layout: default
 title: "Meeting Room Acoustic Treatment Guide for Hybrid Offices Red"
 description: "Installing soft furnishings (acoustic panels, baffles, curtains) on bare walls and carpeting hard floors reduces the echo that makes hybrid calls fatiguing for"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/
 reviewed: true

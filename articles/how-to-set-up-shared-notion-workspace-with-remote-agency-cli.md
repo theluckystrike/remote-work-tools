@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Shared Notion Workspace with Remote Agency"
 description: "A practical guide for developers and power users setting up shared Notion workspaces for remote agency client collaboration. Includes workspace"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-shared-notion-workspace-with-remote-agency-cli/
 categories: [guides]

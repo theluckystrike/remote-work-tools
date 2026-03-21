@@ -216,12 +216,14 @@ HAVING remote_count > 0;
 
 If remote participation (measured by messages sent, questions asked, or action items assigned) drops below 30% of total participation, your meetings are likely excluding remote team members.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
 - [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+- [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)
+- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

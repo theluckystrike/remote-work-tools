@@ -3,6 +3,7 @@ layout: default
 title: "Best Screen Recording Tools for Async Communication"
 description: "Compare Loom, Screen Studio, Cloudflare Stream, and OBS for async team communication. Setup, compression, and sharing workflows for distributed engineering teams."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /best-screen-recording-async-communication/
 categories: [guides]

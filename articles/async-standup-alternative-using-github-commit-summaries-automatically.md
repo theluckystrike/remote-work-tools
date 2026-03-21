@@ -289,12 +289,14 @@ curl -s "https://slack.com/api/search.messages" \
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
 
-## Related Reading
 
-- [Best Remote Work Tools 2026](/remote-work-tools/best-remote-work-tools-2026/)
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Async Decision Making with RFC Documents](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-tea/)
+## Related Articles
+
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
+- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

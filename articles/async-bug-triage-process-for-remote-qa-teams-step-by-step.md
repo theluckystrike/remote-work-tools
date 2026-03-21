@@ -229,12 +229,14 @@ Checklists reduce errors and ensure consistency.
 
 **Skipping async for everything.** Reserve synchronous discussions for genuinely complex issues—triaging everything in meetings defeats the purpose.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async QA Signoff Process for Remote Teams Releasing.](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
-- [Async Design Critique Process for Remote UX Teams.](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+## Related Articles
+
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -200,12 +200,14 @@ An async product discovery process using recorded interviews requires upfront in
 Start small. Record one interview this week. Share it with your team. See how long it takes for insights to surface. Adjust from there. The first iteration won't be perfect—the goal is to learn what your specific team needs in its async review workflow, then refine from there.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Best Tool for Remote Product Managers Running Async.](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-- [Async QA Signoff Process for Remote Teams Releasing.](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
+## Related Articles
+
+- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

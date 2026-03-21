@@ -3,6 +3,7 @@ layout: default
 title: "Set up calendar service"
 description: "A practical guide for developers and power users balancing remote work with elder care responsibilities. Includes automation scripts, scheduling"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-elder-care-responsibilities-while-working-remotely/
 reviewed: true

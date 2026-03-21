@@ -3,6 +3,7 @@ layout: default
 title: "Example: Verify MFA is enabled via API (GitHub Enterprise)"
 description: "A practical guide to building security onboarding checklists for remote teams. Includes code snippets and implementation examples for developers"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-security-onboarding-checklist-for-new-remote-t/
 categories: [guides]

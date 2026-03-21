@@ -3,6 +3,7 @@ layout: default
 title: "How to Cool Home Office Without Air Conditioning During"
 description: "Practical techniques to keep your home office cool without AC. Smart thermostat scripts, DIY cooling solutions, and developer-focused setups for summer"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-cool-home-office-without-air-conditioning-during-summer/
 categories: [guides]

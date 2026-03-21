@@ -3,6 +3,7 @@ layout: default
 title: "Simple Slack webhook for probation check-ins"
 description: "Managing probation periods for remote employees requires deliberate systems and thoughtful processes. Unlike office environments where managers can observe"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-employee-probation-period-management-tools-and-best-practices/
 categories: [guides]

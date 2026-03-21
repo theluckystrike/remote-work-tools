@@ -41,9 +41,6 @@ Brief description of what this document covers.
 1. First step
 2. Second step
 
-## Related Resources
-- [Link to related doc](/link/to/page)
-- [Link to related doc](/link/to/page)
 ```
 
 ## Hands-On Training Session
@@ -215,9 +212,6 @@ Your wiki likely contains multiple document types. Train new hires on each:
 ## Troubleshooting
 **If X happens**: Try Y
 
-## Related Docs
-- [Related guide 1]
-- [Related guide 2]
 ```
 
 **Training for this type**: Show by example, have hire write one
@@ -391,11 +385,13 @@ Month 1:
 ☐ Share metrics with team
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [Best Practice for Remote Team Documentation Scaling When Wiki Becomes Unwieldy](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+## Related Articles
+
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

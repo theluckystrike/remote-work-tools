@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Internal Mobility Program for Grow"
 description: "A guide for building an internal mobility program that helps remote teams grow careers, retain talent, and foster professional development across"
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: theluckystrike
 permalink: /how-to-create-remote-team-internal-mobility-program-for-grow/
 categories: [guides]

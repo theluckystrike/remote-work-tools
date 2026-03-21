@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage a Remote Intern Team of 4 Effectively"
 description: "Managing four remote interns requires a different approach than managing senior developers. Interns need more structure, clearer expectations, and more"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-a-remote-intern-team-of-4-effectively/
 categories: [guides]

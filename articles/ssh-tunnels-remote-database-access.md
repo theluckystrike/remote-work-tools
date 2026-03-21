@@ -3,6 +3,7 @@ layout: default
 title: "SSH Tunnels for Remote Database Access"
 description: "Set up SSH tunnels to securely access remote databases without exposing ports. Covers local forwarding, dynamic SOCKS, autossh, and GUI tool configs."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /ssh-tunnels-remote-database-access/
 categories: [guides]

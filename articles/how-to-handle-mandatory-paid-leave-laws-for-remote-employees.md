@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Mandatory Paid Leave Laws for Remote"
 description: "When you manage a remote team spread across multiple US states, you quickly discover that paid leave laws are anything but uniform. What earns your developer"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-mandatory-paid-leave-laws-for-remote-employees/
 categories: [guides]

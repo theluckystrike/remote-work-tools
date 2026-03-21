@@ -3,6 +3,7 @@ layout: default
 title: "How to Support Neurodivergent Remote Workers"
 description: "Support neurodivergent remote workers by implementing async-first communication with clear response windows, structuring tasks into small steps with explicit"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-support-neurodivergent-remote-workers/
 categories: [guides]

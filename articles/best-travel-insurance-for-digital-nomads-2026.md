@@ -3,6 +3,7 @@ layout: default
 title: "Best Travel Insurance for Digital Nomads 2026: A"
 description: "Find the best travel insurance for digital nomads in 2026. Compare coverage options, understand policy technicalities, and learn how to automate your"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-travel-insurance-for-digital-nomads-2026/
 categories: [guides]

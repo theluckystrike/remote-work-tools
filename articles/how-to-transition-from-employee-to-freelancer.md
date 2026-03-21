@@ -3,6 +3,7 @@ layout: default
 title: "How to Transition From Employee to Freelancer"
 description: "To transition from employee to freelancer, save six months of expenses as a financial buffer, start building your client pipeline while still employed, set up"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-transition-from-employee-to-freelancer/
 categories: [guides]

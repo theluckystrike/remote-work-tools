@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Ventilation Solutions When Room Has No Window"
 description: "Practical ventilation solutions for windowless home offices. Covers air purifiers, mechanical ventilation systems, DIY solutions, and smart monitoring"
 date: 2026-03-17
+last_modified_at: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /home-office-ventilation-solutions-when-room-has-no-window/
 categories: [guides]

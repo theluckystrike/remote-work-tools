@@ -3,6 +3,7 @@ layout: default
 title: "Run Effective Remote Client Workshops Using Miro"
 description: "Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-boar/
 categories: [guides]

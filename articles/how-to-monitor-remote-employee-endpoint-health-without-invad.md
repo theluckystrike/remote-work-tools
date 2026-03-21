@@ -3,6 +3,7 @@ layout: default
 title: "How to Monitor Remote Employee Endpoint Health Without"
 description: "A practical guide for developers and power users to monitor remote employee endpoint health while respecting privacy. Learn agent-based monitoring"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-monitor-remote-employee-endpoint-health-without-invad/
 reviewed: true

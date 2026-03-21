@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Charter Template Guide 2026"
 description: "A practical guide to creating effective remote team charters with templates and code examples for developers and power users"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-charter-template-guide-2026/
 voice-checked: true

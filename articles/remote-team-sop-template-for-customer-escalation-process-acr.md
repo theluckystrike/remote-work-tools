@@ -3,6 +3,7 @@ layout: default
 title: "Auto-assign severity based on rules"
 description: "A practical SOP template for managing customer escalations across distributed support teams. Includes triage levels, handoff protocols, and code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-sop-template-for-customer-escalation-process-acr/
 categories: [guides]

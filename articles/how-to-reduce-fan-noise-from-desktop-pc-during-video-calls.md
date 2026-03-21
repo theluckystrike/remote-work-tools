@@ -3,6 +3,7 @@ layout: default
 title: "How to Reduce Fan Noise from Desktop PC During Video Calls"
 description: "Practical techniques to minimize desktop PC fan noise during video calls. Includes software tweaks, fan curve configurations, and hardware"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/
 categories: [guides]

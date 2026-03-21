@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Work Onboarding Process for New Hires"
 description: "A practical guide for developers and power users to design and implement an effective hybrid work onboarding process for new hires. Includes code"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /hybrid-work-onboarding-process-for-new-hires/
 reviewed: true

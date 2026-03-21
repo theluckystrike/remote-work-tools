@@ -3,6 +3,7 @@ layout: default
 title: "Pin configuration"
 description: "A practical guide for developers and power users on designing dedicated mother and parent rooms in hybrid offices. Includes space planning, technology"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-design-mother-and-parent-room-for-hybrid-office-retur/
 categories: [guides]

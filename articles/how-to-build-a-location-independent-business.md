@@ -3,6 +3,7 @@ layout: default
 title: "How to Build a Location Independent Business"
 description: "A practical guide for developers and power users to build a location independent business. Includes automation scripts, remote infrastructure setup"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-build-a-location-independent-business/
 categories: [guides]

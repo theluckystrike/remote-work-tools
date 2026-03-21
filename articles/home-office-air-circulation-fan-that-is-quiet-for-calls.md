@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Air Circulation Fan That Is Quiet for Calls"
 description: "For a home office fan that stays quiet during calls, target a tower fan rated under 25 dB with 50-150 CFM airflow, positioned to create a cross-breeze without"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-air-circulation-fan-that-is-quiet-for-calls/
 categories: [guides]

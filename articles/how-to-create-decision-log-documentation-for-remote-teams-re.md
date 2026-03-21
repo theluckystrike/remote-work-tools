@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Decision Log Documentation for Remote Teams"
 description: "Learn how to create decision log documentation for remote teams. Practical templates, code examples, and workflows to capture the context behind choices"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-decision-log-documentation-for-remote-teams-re/
 categories: [guides]

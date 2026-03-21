@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Decision Making Framework for"
 description: "A practical guide to building a decision-making framework for remote and distributed teams. Includes templates, decision matrices, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-decision-making-framework-for-dist/
 categories: [guides]

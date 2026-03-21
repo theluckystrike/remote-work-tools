@@ -355,9 +355,14 @@ After 2 weeks, analyze trends. If you see consistent degradation during peak hou
 Built by
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
+- [How to Find Coworking Spaces in Medellín Colombia with](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

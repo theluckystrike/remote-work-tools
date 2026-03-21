@@ -3,6 +3,7 @@ layout: default
 title: "Essential Contract Clauses Every Freelance Developer Should"
 description: "Every freelance developer contract should include these essential clauses: scope of work definition, payment terms with milestones, intellectual property"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /freelance-developer-contract-clauses-to-include/
 categories: [guides]

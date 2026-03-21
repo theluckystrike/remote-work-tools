@@ -3,6 +3,7 @@ layout: default
 title: "Coworking Space Finder Apps for Nomads"
 description: "Finding the right coworking space as a digital nomad requires more than just browsing a list of locations. The best coworking space finder apps for nomads"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /coworking-space-finder-apps-for-nomads/
 categories: [guides]

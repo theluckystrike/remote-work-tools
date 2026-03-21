@@ -3,6 +3,7 @@ layout: default
 title: "Return to Office Mental Health Support Resources for"
 description: "A practical guide to mental health support resources for employees returning to office and adjusting to commuting routines. Includes tools, strategies"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /return-to-office-mental-health-support-resources-for-employe/
 categories: [guides]

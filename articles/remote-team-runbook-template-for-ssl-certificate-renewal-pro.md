@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Runbook Template for SSL Certificate Renewal"
 description: "A runbook template for managing SSL certificate renewals across distributed infrastructure teams working remotely"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-runbook-template-for-ssl-certificate-renewal-pro/
 categories: [guides]

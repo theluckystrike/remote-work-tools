@@ -3,6 +3,7 @@ layout: default
 title: "Remote Employee Performance Tracking Tool Comparison for Dis"
 description: "For distributed teams, compare performance tracking tools by evaluating async feedback mechanisms, goal tracking capabilities, and integration with existing HR"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-employee-performance-tracking-tool-comparison-for-dis/
 reviewed: true

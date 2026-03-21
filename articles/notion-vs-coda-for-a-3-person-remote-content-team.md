@@ -3,6 +3,7 @@ layout: default
 title: "Notion vs Coda for a 3-Person Remote Content Team"
 description: "Choose Notion if your content team values flexible pages, rich media support, and a clean writing experience with minimal setup. Choose Coda if you need"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /notion-vs-coda-for-a-3-person-remote-content-team/
 categories: [comparisons]

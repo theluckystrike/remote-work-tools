@@ -3,6 +3,7 @@ layout: default
 title: "Retirement Planning for Freelance Developers 2026"
 description: "A practical guide to retirement planning for freelance developers. Learn about SEP IRAs, Solo 401(k)s, tax advantages, and concrete strategies to build"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /retirement-planning-for-freelance-developers-2026/
 reviewed: true

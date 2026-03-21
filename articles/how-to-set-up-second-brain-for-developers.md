@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Second Brain for Developers"
 description: "A practical guide for developers to build a second brain system using Obsidian, Notion, or code-based solutions. Includes setup examples and workflows"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-up-second-brain-for-developers/
 categories: [guides]

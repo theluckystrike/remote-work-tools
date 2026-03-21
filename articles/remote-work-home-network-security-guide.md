@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Home Network Security Guide"
 description: "Secure your home network for remote work: router configuration, VLAN setup, DNS filtering, VPN, and guest networks with tool recommendations"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /home-network-security-remote-work/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Register OAuth app on GitHub"
 description: "A practical guide to implementing SSO for distributed teams. Learn SAML 2.0, OAuth 2.0, and OIDC setup with code examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/
 reviewed: true

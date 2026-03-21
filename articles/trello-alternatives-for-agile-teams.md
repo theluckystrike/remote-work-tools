@@ -3,6 +3,7 @@ layout: default
 title: "Trello Alternatives for Agile Teams"
 description: "Explore Trello alternatives for agile teams with API integrations, automation patterns, and implementation examples for developers building modern"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /trello-alternatives-for-agile-teams/
 reviewed: true

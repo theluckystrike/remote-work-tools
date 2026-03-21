@@ -3,6 +3,7 @@ layout: default
 title: "Sprint {{ sprint_number }} Preparation"
 description: "A practical Slack-based communication template for distributed Scrum teams to improve async sprint planning, daily standups, and retrospective"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-sprint-planning-communication-template-for-distr/
 reviewed: true

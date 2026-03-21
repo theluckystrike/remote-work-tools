@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Work Manager Training Program Template"
 description: "Managing a team where some members work remotely while others are in-office requires a distinct skill set that traditional management training rarely"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-manager-training-program-template-for-leading-pa/
 categories: [guides]

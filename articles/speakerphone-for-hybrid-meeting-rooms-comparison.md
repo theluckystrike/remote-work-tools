@@ -3,6 +3,7 @@ layout: default
 title: "Speakerphone for Hybrid Meeting Rooms Comparison: A"
 description: "A practical comparison of speakerphone options for hybrid meeting rooms. Covers USB, Bluetooth, and IP-based solutions with technical specifications"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /speakerphone-for-hybrid-meeting-rooms-comparison/
 categories: [guides]

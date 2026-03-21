@@ -3,6 +3,7 @@ layout: default
 title: "Connect Notion to Slack Automatic Page Update Notifications"
 description: "Connecting Notion to Slack for automatic page update notifications keeps your team informed when important documents change without requiring manual checks"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /connect-notion-to-slack-automatic-page-update-notifications-/
 categories: [guides]

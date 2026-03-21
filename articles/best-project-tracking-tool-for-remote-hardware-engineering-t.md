@@ -3,6 +3,7 @@ layout: default
 title: "Best Project Tracking Tool for Remote Hardware Engineering"
 description: "Discover the best project tracking tools for remote hardware engineering teams in 2026. Compare features, API integrations, and implementation patterns"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-project-tracking-tool-for-remote-hardware-engineering-t/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Client UX Research Sessions with Observers"
 description: "Configure Zoom with breakout rooms or separate observer channels to keep participants comfortable while giving stakeholders visibility into research sessions"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-client-ux-research-sessions-with-observers/
 categories: [guides]

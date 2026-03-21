@@ -3,6 +3,7 @@ layout: default
 title: "How to Celebrate Employee Anniversaries on Fully Remote"
 description: "Practical strategies and code examples for celebrating employee anniversaries in fully remote teams. Automate recognition with Slack bots, custom"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-celebrate-employee-anniversaries-on-fully-remote-team/
 categories: [guides]

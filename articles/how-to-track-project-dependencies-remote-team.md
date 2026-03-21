@@ -3,6 +3,7 @@ layout: default
 title: "How to Track Project Dependencies in a Remote Team: A"
 description: "Track project dependencies in a remote team by maintaining a central YAML dependency registry that maps inter-service relationships and ownership, generating"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-track-project-dependencies-remote-team/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Remote Team Mood Tracking and Sentiment"
 description: "Remote teams face a unique challenge: without the casual hallway conversations and in-person body language, understanding how your team truly feels becomes"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-mood-tracking-and-sentiment-analys/
 categories: [guides]

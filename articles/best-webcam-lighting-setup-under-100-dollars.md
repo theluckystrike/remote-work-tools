@@ -3,6 +3,7 @@ layout: default
 title: "Best Webcam Lighting Setup Under $100 for Professional"
 description: "Build a professional lighting rig for video calls on a budget. Learn the three-point lighting formula, specific product recommendations, and DIY"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /best-webcam-lighting-setup-under-100-dollars/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Generate weekly team activity report from GitHub"
 description: "A practical guide for developers and power users on managing hybrid teams with permanent remote members. Includes automation scripts, workflow"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-hybrid-team-where-some-members-are-fully-remot/
 reviewed: true

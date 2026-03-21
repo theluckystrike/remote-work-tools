@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Retreat Planning Guide Budget and Logistics"
 description: "Planning a retreat for a distributed team requires more coordination than an in-person team meeting. Between flight bookings, accommodation blocks, activity"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-retreat-planning-guide-budget-and-logistics-temp/
 categories: [guides]

@@ -214,12 +214,14 @@ Review these metrics weekly during your release retrospective and iterate on you
 
 Several patterns undermine async QA effectiveness. First, unclear acceptance criteria lead to ambiguous feedback—always define what "done" looks like before requesting review. Second, excessive reviewers create coordination overhead—two reviewers typically suffice for feature PRs. Third, ignoring time zone considerations when assigning reviewers causes delays—distribute review requests across regions. Fourth, bypassing the async process during time pressure defeats the purpose—protect the process even during crunch periods.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Product Discovery Process for Remote Teams Using.](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

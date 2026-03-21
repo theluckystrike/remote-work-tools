@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Interest-Based Slack Channels for Remote"
 description: "Learn how to build interest-based Slack channels that strengthen remote team culture. Practical examples, naming conventions, and automation scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-interest-based-slack-channels-for-remote-cultu/
 categories: [guides]

@@ -244,9 +244,15 @@ for slot in slots:
 
 For most globally distributed teams, there are 0-2 overlap hours. Use async-first communication for everything that doesn't require real-time discussion.
 
-## Related Reading
-
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 {% endraw %}
+
+
+## Related Articles
+
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
+- [Best Expense Management Platform for Remote Teams with Recei](/remote-work-tools/best-expense-management-platform-for-remote-teams-with-recei/)
+- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

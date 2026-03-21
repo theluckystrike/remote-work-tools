@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Humidity Control for Comfortable Coding Sessions"
 description: "A practical guide to home office humidity control for comfortable coding sessions. Learn optimal humidity levels, smart sensors, automation scripts"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-humidity-control-for-comfortable-coding-sessions/
 categories: [guides]

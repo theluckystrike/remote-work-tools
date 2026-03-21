@@ -3,6 +3,7 @@ layout: default
 title: "Nix vs Docker for Reproducible Dev Environments"
 description: "Compare Nix and Docker for reproducible development environments. Learn practical setup, configuration patterns, and when to choose each tool for your"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /nix-vs-docker-for-reproducible-dev-environments/
 categories: [guides]

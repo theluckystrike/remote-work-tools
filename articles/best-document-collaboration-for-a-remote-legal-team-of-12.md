@@ -278,11 +278,14 @@ The best document collaboration system for your remote legal team of 12 is one y
 
 ---
 
-## Related Reading
 
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Notion vs ClickUp for Engineering Teams: A Practical Comparison](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+## Related Articles
+
+- [Best Remote Legal Team Document Collaboration Tool for](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

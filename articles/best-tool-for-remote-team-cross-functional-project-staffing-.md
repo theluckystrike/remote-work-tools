@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Remote Team Cross-Functional Project Staffing"
 description: "Discover the best tools for cross-functional project staffing in remote teams as your organization scales. Compare features, APIs, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/
 categories: [guides]

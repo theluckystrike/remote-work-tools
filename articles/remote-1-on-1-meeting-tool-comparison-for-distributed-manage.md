@@ -3,6 +3,7 @@ layout: default
 title: "Remote 1 on 1 Meeting Tool Comparison for Distributed"
 description: "Effective one-on-one meetings remain the backbone of remote team management. For distributed managers overseeing teams across time zones, selecting the right"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /remote-1-on-1-meeting-tool-comparison-for-distributed-manage/
 categories: [guides]

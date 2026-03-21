@@ -3,6 +3,7 @@ layout: default
 title: "Example: Calculate optimal announcement time for global team"
 description: "A practical guide for leaders and managers on announcing policy updates to remote teams while maintaining trust, reducing uncertainty, and keeping"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-communicate-remote-work-policy-changes-to-distributed/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Accounting Firm with Distributed Staff"
 description: "Running a remote accounting firm with distributed staff across time zones presents unique challenges that go beyond typical remote work setup. The nature of"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-accounting-firm-with-distributed-staff-acr/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Secure Slack and Teams Channels for Remote Team"
 description: "A practical guide for developers and power users on securing Slack and Teams channels for confidential remote team discussions. Learn channel"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-secure-slack-and-teams-channels-for-remote-team-confi/
 categories: [guides]

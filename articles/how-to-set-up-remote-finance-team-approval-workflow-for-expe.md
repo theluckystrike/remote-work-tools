@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Finance Team Approval Workflow for"
 description: "Managing expense report approvals across distributed finance teams presents unique challenges. When your team spans multiple time zones, waiting for"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-finance-team-approval-workflow-for-expe/
 categories: [guides]

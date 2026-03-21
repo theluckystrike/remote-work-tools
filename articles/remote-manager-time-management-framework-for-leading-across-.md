@@ -3,6 +3,7 @@ layout: default
 title: "Remote Manager Time Management Framework for Leading Across"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-manager-time-management-framework-for-leading-across-five-plus-timezones/
 categories: [guides]

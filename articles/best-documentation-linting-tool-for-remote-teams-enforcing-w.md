@@ -270,12 +270,14 @@ Select a documentation linting tool based on your team's specific needs:
 Start with Vale using basic rules, then expand configuration as your team's documentation standards mature. The initial investment in setup pays dividends through consistent, maintainable documentation across your remote team.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Tool for Remote Teams Recording and Transcribing.](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
-- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
-- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+## Related Articles
+
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [List all markdown files in your docs directory](/remote-work-tools/how-to-set-up-documentation-ownership-model-for-remote-teams/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

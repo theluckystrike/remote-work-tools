@@ -3,6 +3,7 @@ layout: default
 title: "Whiteboard vs Glass Board for Home Office: A Practical Guide"
 description: "A comparison of whiteboard vs glass board for home office setups, with practical advice for developers and power users"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /whiteboard-vs-glass-board-for-home-office/
 reviewed: true

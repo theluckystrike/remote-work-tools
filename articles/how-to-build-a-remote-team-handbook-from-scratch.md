@@ -3,6 +3,7 @@ layout: default
 title: "How to Build a Remote Team Handbook from Scratch"
 description: "Step-by-step guide to building a remote team handbook. Covers structure, policies, communication norms, tool documentation, and onboarding sections."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-a-remote-team-handbook-from-scratch/
 categories: [guides]

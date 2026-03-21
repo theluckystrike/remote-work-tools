@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Harvest for Remote Agency Client Time Tracking"
 description: "A practical guide for setting up Harvest time tracking for remote agencies. Configure projects, set up client billing rates, and automate reporting"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-harvest-for-remote-agency-client-time-tracking/
 categories: [guides]

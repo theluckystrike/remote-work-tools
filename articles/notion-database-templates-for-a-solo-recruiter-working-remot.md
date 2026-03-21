@@ -3,6 +3,7 @@ layout: default
 title: "Notion Database Templates for a Solo Recruiter Working Remot"
 description: "Building a personal ATS (Applicant Tracking System) with Notion databases gives solo recruiters working remotely a powerful, customizable tool without"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /notion-database-templates-for-a-solo-recruiter-working-remot/
 categories: [guides]

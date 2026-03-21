@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Remote Teams Recording and Transcribing"
 description: "A practical guide for developers and power users on capturing, transcribing, and organizing tribal knowledge from remote meetings into searchable wiki"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-teams-recording-and-transcribing-tribal/
 categories: [guides]

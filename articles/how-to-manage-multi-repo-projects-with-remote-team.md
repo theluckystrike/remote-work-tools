@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Multi-Repo Projects with Remote Team"
 description: "Start by assigning clear CODEOWNERS per repository, set up a centralized dependency manifest so teams know what breaks when a shared library changes, and"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-multi-repo-projects-with-remote-team/
 reviewed: true

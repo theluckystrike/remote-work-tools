@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Design Sprints: A Practical Guide"
 description: "Remote design sprints require tooling that supports rapid ideation, structured help, and collaboration across distributed teams. The tools below are evaluated"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-tools-for-remote-design-sprints/
 reviewed: true

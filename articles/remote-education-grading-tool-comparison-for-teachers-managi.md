@@ -3,6 +3,7 @@ layout: default
 title: "Remote Education Grading Tool Comparison for Teachers"
 description: "A technical comparison of grading tools for large-scale online education. Learn about API integrations, bulk grading workflows, and automation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-education-grading-tool-comparison-for-teachers-managi/
 categories: [comparisons]

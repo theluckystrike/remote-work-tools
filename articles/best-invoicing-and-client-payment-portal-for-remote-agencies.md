@@ -248,11 +248,14 @@ Consider starting with one tool and expanding as your agency grows. Most platfor
 
 ---
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+## Related Articles
+
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
+- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+- [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

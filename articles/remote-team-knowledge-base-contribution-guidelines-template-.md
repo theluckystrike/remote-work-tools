@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Knowledge Base Contribution Guidelines Template"
 description: "A practical template for establishing knowledge base contribution guidelines that encourage all remote team members to write and share documentation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-knowledge-base-contribution-guidelines-template-/
 categories: [guides]

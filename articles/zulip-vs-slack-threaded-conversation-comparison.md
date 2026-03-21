@@ -3,6 +3,7 @@ layout: default
 title: "Zulip vs Slack: A Deep Dive into Threaded Conversation"
 description: "Choose Zulip if your team needs persistent, organized conversation archives with topic-based threading and unlimited free-tier message history. Choose Slack if"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /zulip-vs-slack-threaded-conversation-comparison/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "Return to Office Tools for Hybrid Teams: A Practical Guide"
 description: "The essential return to office tools for hybrid teams are a desk booking system with calendar integration, occupancy sensors for space use data, hybrid-ready"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /return-to-office-tools-for-hybrid-teams/
 categories: [guides]

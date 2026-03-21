@@ -3,6 +3,7 @@ layout: default
 title: "How to Write Async Technical RFCs That Get Meaningful"
 description: "Learn practical techniques for writing async technical RFCs that generate meaningful feedback from distributed teams. Includes templates and examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-async-technical-rfcs-that-get-meaningful-feedba/
 categories: [guides]

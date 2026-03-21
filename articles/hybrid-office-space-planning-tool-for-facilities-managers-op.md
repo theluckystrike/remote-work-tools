@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Office Space Planning Tool for Facilities Managers"
 description: "Build a hybrid office space planning tool using pressure sensors, infrared motion sensors, or ultrasonic distance sensors deployed across desks, connected via"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-space-planning-tool-for-facilities-managers-op/
 categories: [guides]

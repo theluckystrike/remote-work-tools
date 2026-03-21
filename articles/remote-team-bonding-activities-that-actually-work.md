@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Bonding Activities That Actually Work"
 description: "Remote team bonding often feels forced. Icebreakers that kill conversation, mandatory fun that nobody enjoys, and virtual happy hours where people mute"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /remote-team-bonding-activities-that-actually-work/
 categories: [guides]

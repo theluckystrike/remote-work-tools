@@ -120,7 +120,6 @@ Explain the overall implementation strategy.
 - [ ] Manual testing completed
 - [ ] Edge cases considered
 
-## Related Issues
 Closes #issue-number
 ```
 
@@ -241,12 +240,14 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 4. Ignoring timezones entirely: Check when your reviewer is likely to be online
 5. Perfectionism: Async pair programming is about collaboration, not getting everything perfect on the first try
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+## Related Articles
+
+- [How to Run Async Sprint Demos with Recorded Walkthroughs](/remote-work-tools/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

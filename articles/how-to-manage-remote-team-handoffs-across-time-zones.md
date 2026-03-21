@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Remote Team Handoffs Across Time Zones: A"
 description: "Manage remote team handoffs across time zones by implementing structured handoff documents (covering what was completed, what remains, context for the next"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-handoffs-across-time-zones/
 reviewed: true

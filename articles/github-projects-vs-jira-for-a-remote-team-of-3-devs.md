@@ -3,6 +3,7 @@ layout: default
 title: "GitHub Projects vs Jira for a Remote Team of 3 Devs"
 description: "A practical comparison of GitHub Projects and Jira for small remote development teams. Learn which tool fits your workflow better"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /github-projects-vs-jira-for-a-remote-team-of-3-devs/
 reviewed: true

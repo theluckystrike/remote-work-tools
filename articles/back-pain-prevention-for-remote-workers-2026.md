@@ -198,12 +198,14 @@ Small consistent improvements beat dramatic overhauls that you abandon after a w
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
-- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
-- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+## Related Articles
+
+- [How to Prevent Back Pain from Couch Working as a Remote](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+- [Open Back Headphones for Remote Developers Review](/remote-work-tools/open-back-headphones-for-remote-developers-review/)
+- [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
+- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

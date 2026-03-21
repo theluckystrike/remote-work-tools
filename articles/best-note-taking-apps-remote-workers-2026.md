@@ -180,13 +180,16 @@ Brief description of why this meeting happened.
 [Raw notes during meeting]
 ```
 
-## Related Reading
-
-- [Obsidian vs Logseq for Developer Notes](/obsidian-vs-logseq-for-developer-notes/)
-- [Obsidian vs Notion for Personal Knowledge Management](/obsidian-vs-notion-for-personal-knowledge-management/)
-- [Automate Meeting Notes with AI Tools 2026](/automate-meeting-notes-ai-tools-2026/)
-
 ---
+
+
+## Related Articles
+
+- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
+- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
+- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
+- [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
+- [How to Coordinate Remote Mobile Developers Releasing Apps](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

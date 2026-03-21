@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Meeting Equity Tips for Remote Participants"
 description: "Practical hybrid meeting equity tips for remote participants. Learn technical setups, async workflows, and tools to ensure equal participation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /hybrid-meeting-equity-tips-for-remote-participants/
 categories: [guides]

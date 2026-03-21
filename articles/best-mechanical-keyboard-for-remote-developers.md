@@ -289,11 +289,14 @@ Mechanical keyboards last 5-10 years with basic care:
 - Hot-swap keyboards let you replace individual switches
 - Keycaps may develop shine after 5 years, but remain functional
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [RescueTime vs Toggl Track: Productivity Comparison for.](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+## Related Articles
+
+- [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
+- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

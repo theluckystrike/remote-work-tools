@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Podcast Club Format for Professional Development"
 description: "A practical guide to running a podcast club for remote developer teams. Includes discussion formats, scheduling templates, and tools for professional"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-podcast-club-format-for-professional-development/
 categories: [guides]

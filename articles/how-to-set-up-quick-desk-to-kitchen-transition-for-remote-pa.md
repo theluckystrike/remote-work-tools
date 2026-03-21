@@ -3,6 +3,7 @@ layout: default
 title: "Quick save script for terminal workflows"
 description: "The fastest desk-to-kitchen transitions use three techniques: physical workspace layout that minimizes walking distance, pre-prepared meals that require no"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/
 reviewed: true

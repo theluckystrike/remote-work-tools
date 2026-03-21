@@ -3,6 +3,7 @@ layout: default
 title: "Coda vs Notion for Project Documentation"
 description: "Compare Coda and Notion for managing project documentation. Includes API access, developer features, database relationships, and practical"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /coda-vs-notion-for-project-documentation/
 categories: [comparisons]

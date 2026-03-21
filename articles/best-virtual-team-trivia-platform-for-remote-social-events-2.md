@@ -3,6 +3,7 @@ layout: default
 title: "Best Virtual Team Trivia Platform for Remote Social Events"
 description: "When your distributed team needs a shared experience that does not require video calls or synchronous scheduling, virtual trivia nights deliver high engagement"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-virtual-team-trivia-platform-for-remote-social-events-2/
 categories: [guides]

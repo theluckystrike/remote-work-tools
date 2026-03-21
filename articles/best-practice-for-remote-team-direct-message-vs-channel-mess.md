@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Direct Message vs Channel"
 description: "Effective communication in remote teams requires more than just choosing a tool—it demands understanding when to use each communication channel. This guide"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/
 categories: [guides]

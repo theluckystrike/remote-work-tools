@@ -241,11 +241,14 @@ schedule.every(30).minutes.do(sync_lamp_to_terminal_theme)
 
 **Blue light keeping you awake**: Systematically reduce color temperature after 5 PM. Try 4500K (4-6 PM), 3500K (6-8 PM), and 2700K (8 PM onward).
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [RescueTime vs Toggl Track: Productivity Comparison for.](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+## Related Articles
+
+- [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
+- [BenQ ScreenBar vs Desk Lamp Comparison: A Developer](/remote-work-tools/benq-screenbar-vs-desk-lamp-comparison/)
+- [Home Office Humidity Control for Comfortable Coding Sessions](/remote-work-tools/home-office-humidity-control-for-comfortable-coding-sessions/)
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

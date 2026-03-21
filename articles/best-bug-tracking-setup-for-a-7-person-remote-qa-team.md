@@ -331,11 +331,13 @@ Remote teams face specific challenges:
 - Run regression suite after every major deployment
 - Track regression bugs separately (label: "regression")
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Bug Tracking Tools for Remote QA Teams: A Developer's Guide](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
-- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
+## Related Articles
+
+- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
+- [Project Tracking Tool for Two Person Design Agency 2026](/remote-work-tools/project-tracking-tool-for-two-person-design-agency-2026/)
+- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

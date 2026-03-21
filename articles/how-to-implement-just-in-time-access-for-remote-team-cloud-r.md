@@ -3,6 +3,7 @@ layout: default
 title: "How to Implement Just-in-Time Access for Remote Team."
 description: "A practical guide to implementing just-in-time (JIT) access for remote teams. Learn how to secure cloud resources with temporary credentials, reduce"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-implement-just-in-time-access-for-remote-team-cloud-r/
 categories: [guides]

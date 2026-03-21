@@ -3,6 +3,7 @@ layout: default
 title: "Best Proposal Tool for a Solo Freelance UX Designer Remotely"
 description: "As a solo freelance UX designer working remotely, you juggle research, wireframing, prototyping, and client communication—all without the support"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/
 categories: [guides]

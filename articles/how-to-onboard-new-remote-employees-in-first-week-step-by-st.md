@@ -3,6 +3,7 @@ layout: default
 title: "Developer environment bootstrap script"
 description: "A practical step-by-step guide for onboarding new remote employees during their first week. Includes checklists, meeting templates, and communication"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-onboard-new-remote-employees-in-first-week-step-by-st/
 reviewed: true

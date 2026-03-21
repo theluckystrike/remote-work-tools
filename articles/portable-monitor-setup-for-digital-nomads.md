@@ -3,6 +3,7 @@ layout: default
 title: "Portable Monitor Setup for Digital Nomads"
 description: "Working as a developer on the move transforms your productivity when you add a portable monitor to your setup. A second screen means more space for code"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /portable-monitor-setup-for-digital-nomads/
 categories: [guides]

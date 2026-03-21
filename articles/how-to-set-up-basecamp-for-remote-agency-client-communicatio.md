@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Basecamp for Remote Agency Client"
 description: "A practical guide to configuring Basecamp for client communication in remote agencies. Set up projects, automate updates, and improve feedback"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-basecamp-for-remote-agency-client-communicatio/
 categories: [guides]

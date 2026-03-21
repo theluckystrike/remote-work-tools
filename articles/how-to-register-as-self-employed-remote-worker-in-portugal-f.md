@@ -3,6 +3,7 @@ layout: default
 title: "How to Register as Self-Employed Remote Worker in Portugal"
 description: "Step-by-step guide for developers and power users on registering as self-employed in Portugal. Covers NIF, IRS registration, VAT, and practical tax"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-register-as-self-employed-remote-worker-in-portugal-f/
 categories: [guides]

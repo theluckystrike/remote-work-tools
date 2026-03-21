@@ -210,12 +210,14 @@ Your basement home office can produce professional-quality video calls. The key 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
-- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
-- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+## Related Articles
+
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "How to Record Client Demo Videos Asynchronously for Remote"
 description: "Learn practical techniques for recording client demo videos asynchronously. Includes setup recommendations, recording workflows, and automation scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-record-client-demo-videos-asynchronously-for-remote-a/
 categories: [guides]

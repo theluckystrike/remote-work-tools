@@ -3,6 +3,7 @@ layout: default
 title: "Web Application Firewall Setup for Remote Team Internal"
 description: "A practical guide to implementing web application firewall protection for internal tools used by remote teams in 2026"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /web-application-firewall-setup-for-remote-team-internal-tool/
 categories: [guides]

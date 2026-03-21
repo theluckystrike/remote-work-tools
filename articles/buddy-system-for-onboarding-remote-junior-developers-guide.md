@@ -3,6 +3,7 @@ layout: default
 title: "Buddy System for Onboarding Remote Junior Developers Guide"
 description: "A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face an"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /buddy-system-for-onboarding-remote-junior-developers-guide/
 categories: [guides]

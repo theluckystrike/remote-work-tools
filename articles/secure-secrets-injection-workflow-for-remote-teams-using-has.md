@@ -3,6 +3,7 @@ layout: default
 title: "Secure Secrets Injection Workflow for Remote Teams Using"
 description: "Managing secrets across distributed teams presents unique challenges. When developers work from multiple locations, traditional methods like sharing"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /secure-secrets-injection-workflow-for-remote-teams-using-has/
 categories: [guides]

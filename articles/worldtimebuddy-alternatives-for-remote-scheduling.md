@@ -3,6 +3,7 @@ layout: default
 title: "WorldTimeBuddy Alternatives for Remote Scheduling"
 description: "The best WorldTimeBuddy alternatives for remote scheduling are Every Time Zone for a faster visual reference, Timezone.io for team availability dashboards"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /worldtimebuddy-alternatives-for-remote-scheduling/
 reviewed: true

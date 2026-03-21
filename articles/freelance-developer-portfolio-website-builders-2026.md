@@ -3,6 +3,7 @@ layout: default
 title: "Freelance Developer Portfolio Website Builders 2026"
 description: "A practical guide to portfolio website builders for freelance developers in 2026. Compare platforms, see code examples, and learn implementation patterns"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /freelance-developer-portfolio-website-builders-2026/
 categories: [guides]

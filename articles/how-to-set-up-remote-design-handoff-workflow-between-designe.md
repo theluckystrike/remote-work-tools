@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Design Handoff Workflow Between"
 description: "Remote teams face a unique challenge when it comes to design handoff: the lack of physical proximity means designers cannot simply point at a screen and"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-design-handoff-workflow-between-designe/
 categories: [guides]

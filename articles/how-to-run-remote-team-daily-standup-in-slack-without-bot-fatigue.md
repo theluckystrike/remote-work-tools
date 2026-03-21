@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Team Daily Standup in Slack Without Bot"
 description: "Learn practical strategies to run effective daily standups in Slack for remote teams without relying on bots. Reduce notification overload and keep"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/
 categories: [guides]

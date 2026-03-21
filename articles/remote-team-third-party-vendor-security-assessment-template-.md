@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Third Party Vendor Security Assessment Template"
 description: "A practical security assessment template for evaluating third-party vendors who need access to your remote team's systems and data"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-third-party-vendor-security-assessment-template-/
 categories: [guides]

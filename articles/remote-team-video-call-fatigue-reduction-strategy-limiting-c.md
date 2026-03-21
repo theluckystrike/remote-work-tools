@@ -3,6 +3,7 @@ layout: default
 title: "Meeting Camera Guidelines"
 description: "Camera-on meetings have become the default for remote teams, but the constant visibility creates real cognitive load. Research shows that sustained video"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-video-call-fatigue-reduction-strategy-limiting-c/
 categories: [guides]

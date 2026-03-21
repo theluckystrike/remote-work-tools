@@ -3,6 +3,7 @@ layout: default
 title: "Best SIP Phone Software for Remote Workers: A Technical"
 description: "A practical guide for developers and power users evaluating SIP phone software. Covers open-source clients, VoIP configuration, and deployment"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-sip-phone-software-for-remote-workers/
 reviewed: true

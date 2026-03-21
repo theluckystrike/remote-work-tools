@@ -3,6 +3,7 @@ layout: default
 title: "Download and install cloudflared"
 description: "Learn how to implement zero trust network architecture with Cloudflare Access. Practical setup guide for securing remote team access to internal"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/
 categories: [guides]

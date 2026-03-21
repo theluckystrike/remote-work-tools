@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Ergonomic Assessment Checklist 2026"
 description: "Complete ergonomic setup guide for home offices. Covers desk height, monitor position, chair setup, lighting, keyboard placement, and product recommendations"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-ergonomic-assessment-checklist/
 categories: [guides]

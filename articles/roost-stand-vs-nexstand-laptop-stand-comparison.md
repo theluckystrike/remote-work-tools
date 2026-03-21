@@ -3,6 +3,7 @@ layout: default
 title: "Roost Stand vs Nexstand Laptop Stand Comparison"
 description: "A technical comparison of Roost and Nexstand laptop stands for developers. Analyze height adjustability, build quality, portability, and ergonomic"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /roost-stand-vs-nexstand-laptop-stand-comparison/
 categories: [guides]

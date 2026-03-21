@@ -3,6 +3,7 @@ layout: default
 title: "Remote Accountability Systems Guide 2026"
 description: "Accountability systems for remote teams transform vague promises into visible progress. When your team spans time zones and lacks casual hallway conversations"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /remote-accountability-systems-guide-2026/
 categories: [guides]

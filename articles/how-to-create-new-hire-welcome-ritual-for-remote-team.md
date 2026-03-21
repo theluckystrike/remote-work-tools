@@ -3,6 +3,7 @@ layout: default
 title: "How to Create New Hire Welcome Ritual for Remote Team"
 description: "A practical guide for developers and power users to build effective welcome rituals for remote team newcomers. Includes automation scripts, templates"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-new-hire-welcome-ritual-for-remote-team/
 categories: [guides]

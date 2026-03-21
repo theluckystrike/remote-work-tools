@@ -3,6 +3,7 @@ layout: default
 title: "Example GitHub Actions quality gates"
 description: "Learn practical strategies for coordinating remote frontend developers working on shared component libraries. Includes code examples and workflow"
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: "Remote Work Tools Guide"
 permalink: /how-to-coordinate-remote-frontend-developers-on-shared-compo/
 categories: [guides]

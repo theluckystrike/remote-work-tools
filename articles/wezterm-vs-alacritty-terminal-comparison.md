@@ -3,6 +3,7 @@ layout: default
 title: "Wezterm vs Alacritty Terminal Comparison: A Practical Guide"
 description: "A practical comparison of Wezterm and Alacritty terminal emulators for developers. Explore performance, customization, features, and use cases to find"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /wezterm-vs-alacritty-terminal-comparison/
 categories: [guides]

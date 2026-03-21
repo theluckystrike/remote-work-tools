@@ -3,6 +3,7 @@ layout: default
 title: "Greece Digital Nomad Visa Renewal Process for Remote Workers"
 description: "A practical guide to renewing your Greece digital nomad visa after the initial one-year period. Documents, timelines, and automation tips for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /greece-digital-nomad-visa-renewal-process-for-remote-workers/
 categories: [guides]

@@ -259,13 +259,16 @@ def create_meeting_page(title, summary, action_items, date):
 
 **Review action items the same day.** AI-extracted action items are usually 85–90% accurate. Someone still needs to check them and create actual tasks in your project tracker.
 
-## Related Reading
-
-- [Best Note-Taking Apps for Remote Workers 2026](/best-note-taking-apps-remote-workers-2026/)
-- [How to Run Remote Team Daily Standup in Slack Without Bot Fatigue](/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-
 ---
+
+
+## Related Articles
+
+- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

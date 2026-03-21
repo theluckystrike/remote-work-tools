@@ -3,6 +3,7 @@ layout: default
 title: "Best Webcam for Zoom Calls in a Bright Window Behind You"
 description: "Find the best webcam for Zoom calls with a bright window behind you. Technical specs, HDR solutions, software alternatives, and practical setup guide"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-webcam-for-zoom-calls-in-a-bright-window-behind-you/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Notion API Integration Returning 502 Errors Fix (2026)"
 description: "Troubleshoot and fix 502 Bad Gateway errors when integrating with the Notion API. Practical step-by-step solutions for remote teams"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /notion-api-integration-returning-502-errors-fix-2026/
 categories: [guides]

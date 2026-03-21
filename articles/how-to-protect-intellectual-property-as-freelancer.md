@@ -3,6 +3,7 @@ layout: default
 title: "How to Protect Intellectual Property as a Freelancer"
 description: "A practical guide for developers and freelancers on protecting intellectual property with contracts, licensing, and code ownership strategies"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-protect-intellectual-property-as-freelancer/
 categories: [guides]

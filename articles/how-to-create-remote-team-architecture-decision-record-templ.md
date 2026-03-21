@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Architecture Decision Record"
 description: "A practical guide to building an architecture decision record (ADR) template for remote and distributed engineering teams. Includes YAML templates"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-architecture-decision-record-templ/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Pharmacy Consultation Service with"
 description: "Building a remote pharmacy consultation service requires careful attention to both technical infrastructure and regulatory compliance. Unlike general video"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-pharmacy-consultation-service-with-video-conferencing-tools/
 categories: [guides]

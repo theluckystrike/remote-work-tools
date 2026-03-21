@@ -3,6 +3,7 @@ layout: default
 title: "How to Measure Remote Team Productivity Without"
 description: "A practical guide for developers and power users on measuring remote team productivity through trust-based metrics, output tracking, and healthy workflows"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-measure-remote-team-productivity-without-surveillance/
 categories: [guides]

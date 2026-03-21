@@ -3,6 +3,7 @@ layout: default
 title: "Noise Cancelling Headphones vs Earbuds for Remote Work"
 description: "Compare noise cancelling headphones and earbuds for remote work. Technical analysis, use case recommendations, and tips for developers seeking focus"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /noise-cancelling-headphones-vs-earbuds-remote-work/
 categories: [guides]

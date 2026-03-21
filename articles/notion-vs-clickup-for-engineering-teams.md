@@ -3,6 +3,7 @@ layout: default
 title: "Notion vs ClickUp for Engineering Teams: A Practical"
 description: "A technical comparison of Notion and ClickUp for engineering teams. Learn when each tool excels, real-world use cases, and how to choose based on your"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /notion-vs-clickup-for-engineering-teams/
 reviewed: true

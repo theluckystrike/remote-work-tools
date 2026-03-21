@@ -3,6 +3,7 @@ layout: default
 title: "Virtual Team Events Ideas for Developers in 2026"
 description: "Remote developer teams need intentional connection points that go beyond daily standups and sprint ceremonies. The best virtual events for developers combine"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /virtual-team-events-ideas-for-developers-2026/
 categories: [guides]

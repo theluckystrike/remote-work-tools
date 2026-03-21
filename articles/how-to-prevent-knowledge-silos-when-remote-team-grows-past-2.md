@@ -3,6 +3,7 @@ layout: default
 title: "How to Prevent Knowledge Silos When Remote Team Grows Past"
 description: "A practical guide for developers and engineering leaders on breaking down knowledge silos as your remote team scales beyond 25 engineers. Includes code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/
 categories: [guides]

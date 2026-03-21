@@ -3,6 +3,7 @@ layout: default
 title: "Three-Two Hybrid Work Model Implementation Guide"
 description: "A practical guide for developers and power users implementing the 3-2 hybrid work model with technical setup, tools, and workflows"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /three-two-hybrid-work-model-implementation-guide/
 categories: [guides]

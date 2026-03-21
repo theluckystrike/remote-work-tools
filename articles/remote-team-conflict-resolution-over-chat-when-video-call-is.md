@@ -3,6 +3,7 @@ layout: default
 title: ".github/workflows/conflict-escalation.yaml"
 description: "Learn practical strategies for resolving team conflicts asynchronously via chat. Perfect for developers and remote teams dealing with time zone"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-conflict-resolution-over-chat-when-video-call-is/
 reviewed: true

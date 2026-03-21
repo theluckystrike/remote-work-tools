@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Remote Team Growing Pains When Communication"
 description: "A practical guide for developers and technical teams dealing with communication breakdown as remote teams grow. Includes code examples, workflow"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-remote-team-growing-pains-when-communication-n/
 categories: [guides]

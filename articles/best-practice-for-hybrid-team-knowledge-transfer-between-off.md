@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Hybrid Team Knowledge Transfer Between"
 description: "Master knowledge transfer in hybrid teams with practical patterns, async workflows, and developer-focused tools. Learn to bridge the gap between office"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-knowledge-transfer-between-off/
 categories: [guides]

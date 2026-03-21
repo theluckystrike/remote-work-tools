@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Confidential Client Data on Remote Team"
 description: "Remote teams handling confidential client data need encryption at rest, secure authentication, and device access controls to prevent leaks and comply with"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-confidential-client-data-on-remote-team-device/
 categories: [guides]

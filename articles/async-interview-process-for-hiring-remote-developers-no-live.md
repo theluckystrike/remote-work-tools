@@ -228,12 +228,14 @@ Document how your team handles these situations to maintain consistency.
 
 **Skipping cultural fit assessment.** Async doesn't mean impersonal. Include questions about collaboration style and work preferences.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Employee Exit Interview Process for.](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
-- [How to Set Up Remote Hiring Pipeline with Async.](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+## Related Articles
+
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [How to Create Remote Employee Exit Interview Process for](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

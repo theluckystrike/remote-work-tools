@@ -3,6 +3,7 @@ layout: default
 title: "How to Write Async Project Proposals That Get Approved"
 description: "A practical guide to crafting async project proposals that get approved in remote teams. Learn frameworks, templates, and strategies for winning async"
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: theluckystrike
 permalink: /how-to-write-async-project-proposals-that-get-approved-remotely/
 categories: [guides]

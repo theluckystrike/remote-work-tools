@@ -3,6 +3,7 @@ layout: default
 title: "Soundproofing Home Office for Remote Work Guide"
 description: "A practical guide for developers and power users to soundproof a home office. Covers acoustic treatment, noise-canceling solutions, and budget-friendly"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /soundproofing-home-office-for-remote-work-guide/
 categories: [guides]

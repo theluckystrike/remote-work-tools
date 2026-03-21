@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Bring Your Own Device Policy for Remote Teams"
 description: "Remote work has become the standard for many development teams, and allowing employees to use their personal devices increases flexibility while reducing"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-bring-your-own-device-policy-for-remote-teams-/
 categories: [guides]

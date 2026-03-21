@@ -3,6 +3,7 @@ layout: default
 title: "ADR-003: Use PostgreSQL for Primary Data Store"
 description: "A practical guide for developers and technical teams to establish effective communication protocols when launching new remote projects in 2026"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-create-remote-team-communication-guidelines-for-new-p/
 reviewed: true

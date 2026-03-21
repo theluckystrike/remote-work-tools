@@ -262,12 +262,14 @@ Track whether your weekly recaps actually help your team:
 
 If the answers are yes, your recaps are working. If not, experiment with format, length, or content focus.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+## Related Articles
+
+- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

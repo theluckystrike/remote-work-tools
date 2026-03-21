@@ -3,6 +3,7 @@ layout: default
 title: "Skip Level Meeting Guide for Remote Organizations"
 description: "A practical guide to implementing skip level meetings in remote organizations. Includes meeting templates, async workflows, and code examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /skip-level-meeting-guide-for-remote-organizations/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Effective Project Templates for Remote Work"
 description: "Learn to build reusable project templates that standardize workflows, reduce onboarding time, and improve consistency across distributed remote teams"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-effective-project-templates-remote-work/
 categories: [guides]

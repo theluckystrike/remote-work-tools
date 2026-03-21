@@ -202,12 +202,14 @@ Track a few metrics to ensure your cadence remains healthy:
 
 If engineers report that meetings interrupt their work, reduce the cadence. If teams report misalignment, add more sync points.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+## Related Articles
+
+- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [Best Practice for Remote Team Meeting Structure That.](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Remote Agency Client Communication Cadence Template for](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

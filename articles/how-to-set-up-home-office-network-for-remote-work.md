@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Home Office Network for Remote Work"
 description: "A practical technical guide for developers and power users setting up a reliable home office network. Covers wired vs wireless, subnet configuration"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-home-office-network-for-remote-work/
 reviewed: true

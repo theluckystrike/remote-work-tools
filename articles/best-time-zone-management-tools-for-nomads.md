@@ -3,6 +3,7 @@ layout: default
 title: "Best Time Zone Management Tools for Nomads: A Developer"
 description: "Practical time zone tools and libraries for digital nomads who frequently change locations. Includes code examples, CLI tools, and automation patterns"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-time-zone-management-tools-for-nomads/
 reviewed: true

@@ -332,11 +332,14 @@ Too much to do? Prioritize this way:
 
 After these five steps, your documentation scaling is under control. Everything else is optimization.
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+## Related Articles
+
+- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+- [Best Practice for Remote Team Onboarding Wiki](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

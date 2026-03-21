@@ -3,6 +3,7 @@ layout: default
 title: "Code Review Tools for Solo Freelance Developers"
 description: "Discover the best code review tools for solo freelance developers to improve code quality, catch bugs early, and maintain professional standards"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /code-review-tools-for-solo-freelance-developers/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "Query recent detections via Falcon API"
 description: "A practical comparison of EDR solutions for distributed engineering teams. Features, pricing, API integrations, and deployment considerations"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /endpoint-detection-and-response-tools-comparison-for-remote-/
 reviewed: true

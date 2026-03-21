@@ -3,6 +3,7 @@ layout: default
 title: "How to Present Remote Team Credentials to Prospective Agency"
 description: "Learn practical strategies for showcasing your remote team's credentials, certifications, and expertise to win agency contracts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-present-remote-team-credentials-to-prospective-agency/
 reviewed: true

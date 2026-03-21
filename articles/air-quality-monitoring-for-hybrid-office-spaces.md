@@ -206,12 +206,14 @@ Position sensors away from direct airflow, windows, and doors to avoid skewed re
 
 Document sensor locations and calibration schedules in your facilities management system. Create runbooks for responding to different alert levels so your team knows exactly what actions to take.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Office Air Quality Monitoring for Maintaining.](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
-- [How to Redesign Open Plan Office for Hybrid Work: Adding.](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
-- [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+## Related Articles
+
+- [Hybrid Office Air Quality Monitoring for Maintaining](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

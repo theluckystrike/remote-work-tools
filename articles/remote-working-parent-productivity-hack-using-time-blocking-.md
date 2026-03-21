@@ -3,6 +3,7 @@ layout: default
 title: "Add to crontab for daily school-day reminders"
 description: "The school bus schedule—6-7 hours of uninterrupted time—is the most valuable productivity anchor available to remote parents; using time blocking during these"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-productivity-hack-using-time-blocking-/
 categories: [guides]

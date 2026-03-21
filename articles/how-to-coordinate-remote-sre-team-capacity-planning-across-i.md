@@ -3,6 +3,7 @@ layout: default
 title: "infrastructure-pods.yaml"
 description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-coordinate-remote-sre-team-capacity-planning-across-i/
 categories: [guides]

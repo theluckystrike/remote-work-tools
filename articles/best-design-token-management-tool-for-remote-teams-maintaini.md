@@ -301,12 +301,14 @@ Schedule a lightweight quarterly review:
 The most successful remote design teams treat design tokens as infrastructure, not afterthoughts. Invest in your token management system, and your distributed team will ship consistent products regardless of who wrote the code or when they wrote it.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
-- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [How to Set Up Remote Design Handoff Workflow Between.](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+## Related Articles
+
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
+- [Batch export all artboards to multiple formats](/remote-work-tools/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -231,12 +231,14 @@ The goal is not perfection—it is building a sustainable system that accounts f
 This framework gives remote working parents a practical approach to calendar management that adapts to unpredictable schedules. The combination of asymmetric blocking, automation scripts, and clear team communication creates a system resilient to childcare disruptions.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Working Parent Productivity Hack: Time Blocking.](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
-- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Best Grocery Delivery Service Strategy for Remote.](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
+## Related Articles
+
+- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
+- [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
+- [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
+- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

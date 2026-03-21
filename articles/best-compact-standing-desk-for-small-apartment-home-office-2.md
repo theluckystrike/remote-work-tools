@@ -218,12 +218,14 @@ Switching to a compact standing desk in a small apartment requires adjustment:
 4. Peripheral access: Ensure keyboard and mouse remain comfortable
 5. Neighbor considerations: Electric motors produce sound—avoid late-night adjustments in apartments
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
 - [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
-- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
-- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
+- [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
+- [Cable Management Under Desk for Home Office With Standing](/remote-work-tools/cable-management-under-desk-for-home-office-with-standing-de/)
+- [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

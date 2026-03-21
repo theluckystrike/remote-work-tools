@@ -3,6 +3,7 @@ layout: default
 title: "CodePen vs CodeSandbox for Remote Collaboration"
 description: "A practical comparison of CodePen and CodeSandbox for remote development teams. Explore real-time collaboration, project structure, version control"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /codepen-vs-codesandbox-for-remote-collaboration/
 reviewed: true

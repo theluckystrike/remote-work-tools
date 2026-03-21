@@ -3,6 +3,7 @@ layout: default
 title: "Virtual Meeting Etiquette Best Practices: A Developer Guide"
 description: "Practical virtual meeting etiquette best practices for developers and power users. Includes technical tips, automation examples, and platform-specific"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /virtual-meeting-etiquette-best-practices/
 reviewed: true

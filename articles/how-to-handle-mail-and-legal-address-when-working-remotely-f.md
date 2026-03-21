@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Mail and Legal Address When Working Remotely"
 description: "A practical guide for developers and digital nomads on managing postal mail, legal addresses, and banking correspondence while working remotely from"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-mail-and-legal-address-when-working-remotely-f/
 categories: [guides]

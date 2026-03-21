@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Social Security Contributions When Working"
 description: "Working remotely from an EU country for a few months creates complex social security questions that many developers and power users overlook. The rules around"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/
 categories: [guides]

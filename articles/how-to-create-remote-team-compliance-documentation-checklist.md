@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Compliance Documentation"
 description: "A practical guide for developers and power users building compliance documentation for remote teams. Includes templates, code examples, and audit-ready"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-compliance-documentation-checklist/
 categories: [guides]

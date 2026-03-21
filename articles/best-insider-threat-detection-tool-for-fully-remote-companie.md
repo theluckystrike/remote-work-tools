@@ -262,12 +262,14 @@ After 6-12 months of operating your detection system, measure its effectiveness:
 
 **Team satisfaction:** Do team members feel monitored or enabled? Healthy organizations report that most employees see insider threat detection as protecting them, not spying on them.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
-- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
-- [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
+## Related Articles
+
+- [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)
+- [Remote Education Plagiarism Detection Tool Comparison for](/remote-work-tools/remote-education-plagiarism-detection-tool-comparison-for-online-course-instructors/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [How to Build Psychological Safety on Fully Remote](/remote-work-tools/how-to-build-psychological-safety-on-fully-remote-engineerin/)
+- [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

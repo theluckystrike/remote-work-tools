@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Escalation Communication Template"
 description: "Create incident escalation templates with six required elements: severity indicator, impact summary, current status, required action, time sensitivity, and"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-create-remote-team-escalation-communication-template-/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "Meeting Schedule Template for a 30 Person Remote Product Org"
 description: "A practical meeting schedule template designed for 30-person remote product organizations. Includes code snippets for automation and calendar management"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /meeting-schedule-template-for-a-30-person-remote-product-org/
 categories: [guides]

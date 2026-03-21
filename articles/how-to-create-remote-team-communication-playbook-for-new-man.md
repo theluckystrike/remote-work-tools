@@ -3,6 +3,7 @@ layout: default
 title: "Calculate reasonable response windows based on overlap"
 description: "Joining a distributed organization as a new manager presents unique challenges that rarely appear in traditional office environments. You cannot simply walk"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-communication-playbook-for-new-man/
 categories: [guides]

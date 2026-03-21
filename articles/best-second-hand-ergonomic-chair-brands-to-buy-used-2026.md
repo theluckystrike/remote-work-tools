@@ -3,6 +3,7 @@ layout: default
 title: "Best Second Hand Ergonomic Chair Brands to Buy Used 2026"
 description: "A practical guide to finding quality used ergonomic chairs for developers. Compare top brands, what to inspect, and how to evaluate condition before"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-second-hand-ergonomic-chair-brands-to-buy-used-2026/
 categories: [guides]

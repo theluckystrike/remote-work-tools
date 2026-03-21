@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Client Offboarding Checklist and Handoff Docum"
 description: "A practical guide for developers and power users managing client offboarding. Includes checklists, templates, and code snippets for documentation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-client-offboarding-checklist-and-handoff-docum/
 categories: [guides]

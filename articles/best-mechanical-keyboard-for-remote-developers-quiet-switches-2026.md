@@ -354,10 +354,13 @@ gpg --decrypt message.txt.asc > decrypted.txt
 ```
 
 
-## Related Reading
 
-- How to Optimize Your Home Office Setup for Remote Work
-- Best Video Conferencing Microphones for Remote Developers
-- Mechanical Keyboard Stabilizer Tuning Guide for Quietness
+## Related Articles
+
+- [Best Mechanical Keyboard for Remote Developers: A](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -230,12 +230,14 @@ While bias lighting significantly helps, combine it with these practices for max
 - Blink regularly: Remind yourself to blink to prevent dry eyes
 - Get regular eye exams: Annual checkups can catch and address vision issues
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+## Related Articles
+
 - [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
-- [Screen Brightness Settings for Eye Health: A Developer's Guide](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
+- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
+- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
+- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
+- [Best Power Strip With Surge Protector for Home Office Desk](/remote-work-tools/best-power-strip-with-surge-protector-for-home-office-desk-2/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

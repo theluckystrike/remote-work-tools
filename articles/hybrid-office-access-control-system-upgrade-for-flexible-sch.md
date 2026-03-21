@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Office Access Control System Upgrade for Flexible"
 description: "A technical guide for upgrading hybrid office access control systems to support flexible scheduling and hot desking. Includes API integrations, desk"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-access-control-system-upgrade-for-flexible-sch/
 categories: [guides]

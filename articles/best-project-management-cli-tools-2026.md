@@ -3,6 +3,7 @@ layout: default
 title: "Best Project Management CLI Tools 2026"
 description: "Compare the best CLI tools for project management in 2026: Linear, GitHub Projects, Jira, and TaskWarrior via terminal. Commands, integrations, and setup guides."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /best-project-management-cli-tools-2026/
 categories: [guides]

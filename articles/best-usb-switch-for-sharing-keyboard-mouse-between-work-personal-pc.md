@@ -3,6 +3,7 @@ layout: default
 title: "Best USB Switch for Sharing Keyboard and Mouse Between Work"
 description: "A guide to USB KVM switches for developers sharing peripherals between work and personal computers. Includes comparison, setup"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/
 categories: [guides]

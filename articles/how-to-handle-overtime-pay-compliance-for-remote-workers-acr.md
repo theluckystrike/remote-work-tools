@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Overtime Pay Compliance for Remote Workers"
 description: "Managing overtime pay for remote workers introduces complexity that most HR systems weren't designed to handle. When your team spans California, Texas, New"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-overtime-pay-compliance-for-remote-workers-acr/
 categories: [guides]

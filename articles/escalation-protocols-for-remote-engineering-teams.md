@@ -3,6 +3,7 @@ layout: default
 title: "Escalation Protocols for Remote Engineering Teams"
 description: "Build your escalation protocol around three levels -- on-call engineer (15-minute response), technical lead (30-minute response), and engineering manager"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /escalation-protocols-for-remote-engineering-teams/
 reviewed: true

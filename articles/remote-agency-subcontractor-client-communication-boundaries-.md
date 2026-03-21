@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Subcontractor Client Communication Boundaries"
 description: "A practical guide to establishing clear communication boundaries when working as a subcontractor for remote agencies. Includes templates, workflows"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-subcontractor-client-communication-boundaries-/
 categories: [guides]

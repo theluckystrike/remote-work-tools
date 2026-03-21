@@ -3,6 +3,7 @@ layout: default
 title: "How to Organize Cables in Home Office Setup"
 description: "Developers and power users spend significant time at their desks, and cable clutter affects more than aesthetics. Tangled cables create frustration when"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-organize-cables-in-home-office-setup/
 categories: [guides]

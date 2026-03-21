@@ -3,6 +3,7 @@ layout: default
 title: "Best Smart Lighting for Home Office Developers"
 description: "Discover the best smart lighting solutions for home office developers. Learn about Hue, LIFX, and integration options with code examples for automating"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-smart-lighting-for-home-office-developers/
 categories: [guides]

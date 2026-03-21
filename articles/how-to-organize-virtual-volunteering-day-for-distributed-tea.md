@@ -3,6 +3,7 @@ layout: default
 title: "How to Organize Virtual Volunteering Day for Distributed"
 description: "A practical guide for developers and power users on organizing virtual volunteering days for distributed teams. Includes scheduling automation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-organize-virtual-volunteering-day-for-distributed-team-members/
 categories: [guides]

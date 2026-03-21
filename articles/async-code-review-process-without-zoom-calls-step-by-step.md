@@ -43,7 +43,6 @@ Explain your implementation decisions and why you chose this approach.
 ## Screenshots
 [For UI changes only]
 
-## Related Issues
 Closes #issue-number
 ```
 
@@ -299,8 +298,6 @@ Some discussions are faster synchronously. Escalate when:
 
 Document the outcome in the PR afterward so future readers understand the decision.
 
-## Related Reading
-
 Async reviews fail when teams don't establish clear norms. Avoid these mistakes:
 
 - Vague PR descriptions: Without context, reviewers spend extra time understanding intent
@@ -308,12 +305,14 @@ Async reviews fail when teams don't establish clear norms. Avoid these mistakes:
 - Delayed responses: Set calendar reminders or automations to prevent PRs from stalling
 - No escalation path: When async discussion stalls, have a fallback plan
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+## Related Articles
+
+- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

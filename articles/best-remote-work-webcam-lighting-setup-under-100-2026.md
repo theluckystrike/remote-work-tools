@@ -1,6 +1,7 @@
 ---
 layout: default
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 title: "Best Remote Work Webcam Lighting Setup Under $100 (2026)"
 description: "Compare affordable webcam lighting solutions for home offices. Includes real product names, prices, lux measurements, and color temperature comparisons."

@@ -3,6 +3,7 @@ layout: default
 title: "incident-response.sh - Simple incident escalation script"
 description: "A practical guide for platform engineers working remotely to manage shared infrastructure services. Compare tools, see code examples, and implement"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/
 categories: [guides]

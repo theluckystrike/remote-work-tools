@@ -3,6 +3,7 @@ layout: default
 title: "Incident Management Setup for a Remote DevOps Team of 5"
 description: "When your five-person DevOps team is distributed across time zones, incident response becomes significantly harder. Without clear protocols, a production issue"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /incident-management-setup-for-a-remote-devops-team-of-5/
 categories: [guides]

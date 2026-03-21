@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Zero Trust Network Access for Distributed"
 description: "A practical guide for developers and power users implementing zero trust network access for distributed engineering teams. Includes identity-based"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-zero-trust-network-access-for-distributed-engi/
 reviewed: true

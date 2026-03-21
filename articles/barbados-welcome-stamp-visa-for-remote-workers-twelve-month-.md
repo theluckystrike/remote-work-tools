@@ -256,11 +256,13 @@ time dig google.com @8.8.8.8 +short
 ```
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Indonesia Second Home Visa for Remote Workers.](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
+## Related Articles
+
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
-- [Taiwan Gold Card Visa for Remote Tech Workers: Complete.](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
+- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
+- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
+- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

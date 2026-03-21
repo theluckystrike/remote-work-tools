@@ -3,6 +3,7 @@ layout: default
 title: "How to Implement Least Privilege Access for Remote Team"
 description: "Learn practical strategies for implementing least privilege access for remote team cloud resources with code examples, IAM patterns, and security best"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-implement-least-privilege-access-for-remote-team-clou/
 categories: [guides]

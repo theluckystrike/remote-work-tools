@@ -3,6 +3,7 @@ layout: default
 title: "matching_weights.py"
 description: "Learn practical strategies for matching mentors and mentees in remote teams. Includes weighting algorithms, tooling examples, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-mentorship-program-matching-mentor/
 categories: [guides]

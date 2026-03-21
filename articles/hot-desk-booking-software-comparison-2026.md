@@ -3,6 +3,7 @@ layout: default
 title: "Hot Desk Booking Software Comparison 2026"
 description: "Compare hot desk booking software for developers and power users. Evaluate API capabilities, integration options, and implementation patterns for 2026"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /hot-desk-booking-software-comparison-2026/
 categories: [guides]

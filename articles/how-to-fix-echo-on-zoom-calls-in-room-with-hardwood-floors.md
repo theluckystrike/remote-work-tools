@@ -3,6 +3,7 @@ layout: default
 title: "How to Fix Echo on Zoom Calls in Room with Hardwood Floors"
 description: "A technical guide for developers and power users to eliminate echo on Zoom calls in rooms with hardwood floors. Covers acoustic solutions, microphone"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Secure Web Gateway for Remote Teams Browsing Untrusted"
 description: "A practical guide to secure web gateways for remote teams. Compare solutions with configuration examples, deployment patterns, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-secure-web-gateway-for-remote-teams-browsing-untrusted-networks-2026/
 categories: [guides]

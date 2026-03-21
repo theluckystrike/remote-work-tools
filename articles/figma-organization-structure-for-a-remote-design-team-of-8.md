@@ -3,6 +3,7 @@ layout: default
 title: "Figma Organization Structure for a Remote Design Team of 8"
 description: "Learn how to structure Figma for a remote design team of 8. Covers file organization, team libraries, access control, and workflow automation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /figma-organization-structure-for-a-remote-design-team-of-8/
 categories: [guides]

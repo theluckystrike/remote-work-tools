@@ -212,11 +212,13 @@ time dig google.com @8.8.8.8 +short
 ```
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
-- [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
-- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+## Related Articles
+
+- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
+- [Best Fiber Internet Providers in Lisbon for Remote](/remote-work-tools/best-fiber-internet-providers-in-lisbon-for-remote-developer/)
+- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
+- [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

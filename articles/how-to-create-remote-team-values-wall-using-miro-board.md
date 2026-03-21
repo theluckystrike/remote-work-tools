@@ -3,6 +3,7 @@ layout: default
 title: "How to Create a Remote Team Values Wall Using Miro Board"
 description: "A step-by-step guide to building a collaborative team values wall using Miro. Perfect for remote teams wanting to define and visualize their core"
 date: 2026-03-17
+last_modified_at: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-values-wall-using-miro-board/
 categories: [guides]

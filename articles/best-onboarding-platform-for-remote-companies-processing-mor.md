@@ -233,12 +233,14 @@ For maximum automation, connect your onboarding platform to a central orchestrat
 3. IT automation executes: Provisioning happens via JumpCloud, Okta, or custom scripts
 4. Analytics layer monitors: Track time-to-productivity, completion rates, bottlenecks
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Best Tool for Remote Team Onboarding Checklist.](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+## Related Articles
+
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

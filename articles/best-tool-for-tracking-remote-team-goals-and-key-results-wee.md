@@ -3,6 +3,7 @@ layout: default
 title: "Parse: Accomplished X. Next: Y. Blockers: Z"
 description: "Tracking goals and Key Results weekly across distributed teams requires tools that balance visibility with low overhead. The best solution depends on your"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-tracking-remote-team-goals-and-key-results-weekly/
 categories: [guides]

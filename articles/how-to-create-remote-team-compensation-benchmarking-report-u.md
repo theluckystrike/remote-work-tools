@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Compensation Benchmarking Report"
 description: "A practical guide for developers and power users on building compensation benchmarking reports for remote teams using international salary survey data"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-compensation-benchmarking-report-u/
 categories: [guides]

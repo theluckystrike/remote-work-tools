@@ -3,6 +3,7 @@ layout: default
 title: "Simple office hours scheduler (Python)"
 description: "Learn practical strategies for preserving direct access to leadership as your remote team grows beyond 50 people. Includes code examples and actionable"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-maintain-direct-communication-with-leadership-as-remo/
 categories: [guides]

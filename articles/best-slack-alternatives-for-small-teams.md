@@ -3,6 +3,7 @@ layout: default
 title: "Best Slack Alternatives for Small Teams in 2026"
 description: "Discover the top Slack alternatives for small development teams. Compare features, pricing, and find the perfect communication tool for your workflow"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-slack-alternatives-for-small-teams/
 reviewed: true

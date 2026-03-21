@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Security Incident Response Plan Template for"
 description: "A practical security incident response plan template designed for remote and distributed teams. Includes actionable workflows, communication templates"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/
 categories: [guides]

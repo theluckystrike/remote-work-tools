@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Team Agreements Around Meeting-Free Focus Time"
 description: "Deep work requires uninterrupted time. For remote engineering teams, the absence of physical office boundaries means meetings can creep into every available"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-team-agreements-around-meeting-free-focus-time/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Measuring Remote Team Alignment Using"
 description: "Remote teams face a unique challenge: without daily in-person interactions, how do you know everyone understands and supports the team's direction?"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-measuring-remote-team-alignment-using-asyn/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Stop Dog Barking During Video Calls: A Complete"
 description: "Dog barking during video calls is one of the most frustrating interruptions for remote workers. Whether it's the doorbell, a passing squirrel, or simple"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-stop-dog-barking-during-video-calls-work-from-home/
 categories: [guides]

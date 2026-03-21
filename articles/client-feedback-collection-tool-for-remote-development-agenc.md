@@ -3,6 +3,7 @@ layout: default
 title: "Client Feedback Collection Tool for Remote Development"
 description: "A practical guide to implementing client feedback collection tools for remote development agencies. Learn about API integrations, automation, and best"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /client-feedback-collection-tool-for-remote-development-agenc/
 categories: [guides]

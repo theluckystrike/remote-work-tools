@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Hybrid Work Equipment Checkout System for Shar"
 description: "A practical guide for developers building equipment checkout systems for hybrid workplaces. Includes code examples and architecture patterns"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-hybrid-work-equipment-checkout-system-for-shar/
 reviewed: true

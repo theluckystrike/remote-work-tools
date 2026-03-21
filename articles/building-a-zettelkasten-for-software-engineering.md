@@ -3,6 +3,7 @@ layout: default
 title: "Building a Zettelkasten for Software Engineering"
 description: "Learn how to build a Zettelkasten note-taking system tailored for software engineering. Discover practical methods for capturing ideas, linking"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /building-a-zettelkasten-for-software-engineering/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "How to Build a Remote Team Wiki from Scratch"
 description: "Your team needs to implement OAuth 2.0 for all external API access"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-wiki-from-scratch/
 reviewed: true

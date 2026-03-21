@@ -3,6 +3,7 @@ layout: default
 title: "Productivity Tips for Digital Nomads on the Road"
 description: "The most effective productivity strategy for digital nomads is building a portable command center with version-controlled dotfiles and offline-capable tools"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /productivity-tips-for-digital-nomads-on-the-road/
 categories: [guides]

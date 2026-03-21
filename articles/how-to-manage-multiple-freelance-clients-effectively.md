@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Multiple Freelance Clients Effectively"
 description: "Practical strategies and automation scripts for developers juggling multiple freelance clients. Learn client management systems, time blocking"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-multiple-freelance-clients-effectively/
 categories: [guides]

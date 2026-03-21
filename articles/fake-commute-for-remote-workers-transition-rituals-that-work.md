@@ -3,6 +3,7 @@ layout: default
 title: "Fake Commute for Remote Workers"
 description: "A practical guide on implementing fake commute rituals for remote workers. Learn transition rituals, automation scripts, and routines that help"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /fake-commute-for-remote-workers-transition-rituals-that-work/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Best Project Management Tool for Solo Freelance Developers 2026"
 description: "Compare PM tools for solo devs: Todoist, Linear, Notion, GitHub Projects, ClickUp free. Cover simplicity, invoicing, time tracking, and cost"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /best-project-management-tool-for-solo-freelance-developers-2026/
 categories: [guides]

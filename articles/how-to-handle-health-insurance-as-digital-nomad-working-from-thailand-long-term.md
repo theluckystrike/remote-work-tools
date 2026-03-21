@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Health Insurance as a Digital Nomad Working"
 description: "A practical guide for developers and remote workers on managing health insurance while living in Thailand long term. Covers visa options, local vs"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/
 categories: [guides]

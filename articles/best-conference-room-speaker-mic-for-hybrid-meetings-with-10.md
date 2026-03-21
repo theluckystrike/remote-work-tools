@@ -202,12 +202,14 @@ def create_recurring_meeting(token, topic, start_time, duration_min=60):
 
 Server-to-server OAuth (type `account_credentials`) is the recommended auth method for automation — no user login required and tokens refresh automatically.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
+- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
 - [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [Meeting Room Acoustic Treatment Guide for Hybrid Offices.](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
-- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Install Storybook for your design system package"
 description: "A practical guide for developers and product teams on managing design system documentation as your remote organization expands beyond 20 people"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-design-system-documentation-when-pr/
 categories: [guides]

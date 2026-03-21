@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Conflict Resolution Framework for Managers"
 description: "Resolve remote team conflicts using a structured framework of listening sessions with each party, identifying underlying interests (not just positions), and"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-conflict-resolution-framework-for-managers-handl/
 categories: [guides]

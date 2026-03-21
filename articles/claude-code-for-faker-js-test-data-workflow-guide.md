@@ -3,6 +3,7 @@ layout: default
 title: "Claude Code for Faker.js Test Data Workflow Guide"
 description: "Generating realistic test data is a critical part of software development. Whether you're populating a database, running integration tests, or building demo"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /claude-code-for-faker-js-test-data-workflow-guide/
 categories: [guides, workflows]

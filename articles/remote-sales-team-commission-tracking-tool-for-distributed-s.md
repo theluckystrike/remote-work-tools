@@ -3,6 +3,7 @@ layout: default
 title: "Remote Sales Team Commission Tracking Tool for Distributed"
 description: "Managing commissions across distributed sales teams presents unique challenges that traditional spreadsheet workflows cannot address. When your sales"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-sales-team-commission-tracking-tool-for-distributed-s/
 categories: [guides]

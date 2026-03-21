@@ -175,12 +175,14 @@ sox -n -r 48000 -c 2 test_tone.wav synth 30 sine 1000
 
 This measurement approach helps you identify frequency-specific problems and target treatment precisely.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
-- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
-- [How to Set Up a Soundproof Home Office When Working.](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+## Related Articles
+
+- [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)
+- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
+- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

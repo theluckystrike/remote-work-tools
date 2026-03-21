@@ -3,6 +3,7 @@ layout: default
 title: "Remote Meeting Agenda Template for Engineering Teams"
 description: "A practical remote meeting agenda template for engineering teams with code examples, meeting structures, and async collaboration patterns"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /remote-meeting-agenda-template-for-engineering-teams/
 categories: [guides]

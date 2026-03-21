@@ -3,6 +3,7 @@ layout: default
 title: "Best Whiteboard Tool for a Remote Team of 10 Product"
 description: "Miro is the best whiteboard tool for a remote product management team of 10, offering the strongest template library for roadmapping, native Jira integration"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-whiteboard-tool-for-a-remote-team-of-10-product-manager/
 reviewed: true

@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Dehumidifier for Basement Workspace"
 description: "A technical guide for developers and power users selecting dehumidifiers for basement home offices. Covers humidity metrics, smart home"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /home-office-dehumidifier-for-basement-workspace-recommendation/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Inclusive Meeting Practices Guide"
 description: "Running meetings for a global remote team presents unique challenges that most in-office practices simply don't address. When your team spans San Francisco"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-inclusive-meeting-practices-guide-/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Architecture Decision Record Template for Async"
 description: "A practical ADR template and workflow for distributed teams making technical decisions asynchronously. Includes code examples and implementation guide"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-architecture-decision-record-template-for-async-/
 reviewed: true

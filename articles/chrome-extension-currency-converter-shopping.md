@@ -3,6 +3,7 @@ layout: default
 title: "Chrome Extension Currency Converter for Shopping: A"
 description: "Shopping across international websites has become increasingly common, whether you're purchasing tech gadgets from overseas marketplaces, booking travel"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-currency-converter-shopping/
 reviewed: true

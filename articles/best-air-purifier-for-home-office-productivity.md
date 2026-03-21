@@ -221,12 +221,14 @@ if __name__ == "__main__":
         print(f"✓ Filter OK: {remaining} days remaining")
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
-- [Desk Organizer and Storage for Home Office 2026: A Developer's Guide](/remote-work-tools/desk-organizer-and-storage-for-home-office-2026/)
+## Related Articles
+
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -217,12 +217,14 @@ As remote work continues evolving, tax regulations adapt accordingly. The 2026 t
 
 Always consult a tax professional for advice specific to your situation, as individual circumstances vary significantly.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Offboarding at Scale.](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [Best Practice for Remote Team Slack Do Not Disturb.](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+## Related Articles
+
+- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Practice for Preserving Remote Team Culture When](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubli/)
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

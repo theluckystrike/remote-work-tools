@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Internet Speed Requirements by Task Type: Complete Guide"
 description: "Bandwidth requirements for remote work: video calls, screen sharing, cloud IDE, Docker pulls, git operations. Real Mbps numbers and latency specs"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /remote-work-internet-speed-requirements-by-task-type-guide/
 categories: [guides]

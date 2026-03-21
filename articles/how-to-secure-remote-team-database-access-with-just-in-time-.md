@@ -3,6 +3,7 @@ layout: default
 title: "teleport-db-config.yaml"
 description: "Learn how to implement just-in-time database access for remote teams. Practical examples, code snippets, and implementation guide for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-secure-remote-team-database-access-with-just-in-time-/
 categories: [guides]

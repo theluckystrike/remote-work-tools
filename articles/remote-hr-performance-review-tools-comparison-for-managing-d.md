@@ -3,6 +3,7 @@ layout: default
 title: "Remote HR Performance Review Tools Comparison for Managing"
 description: "A practical comparison of remote HR performance review tools for managing distributed teams. Evaluate features, API integrations, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-hr-performance-review-tools-comparison-for-managing-d/
 categories: [guides]

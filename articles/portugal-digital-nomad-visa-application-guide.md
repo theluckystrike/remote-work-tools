@@ -3,6 +3,7 @@ layout: default
 title: "Portugal Digital Nomad Visa Application Guide"
 description: "Portugal launched its digital nomad visa in 2022, becoming one of the first European countries to formalize residency pathways for remote workers. The visa"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /portugal-digital-nomad-visa-application-guide/
 categories: [guides]

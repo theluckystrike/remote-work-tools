@@ -3,6 +3,7 @@ layout: default
 title: "Mexico City Digital Nomad Guide for Remote Workers"
 description: "A practical guide for developers and power users working remotely in Mexico City. Covers neighborhoods, coworking spaces, internet setup, and essential"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /mexico-city-digital-nomad-guide-remote-workers/
 categories: [guides]

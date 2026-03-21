@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Retainer Management Tool for Recurring Client"
 description: "A practical guide to building and implementing a remote agency retainer management tool for recurring client work. Includes code examples, API"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-retainer-management-tool-for-recurring-client-/
 categories: [guides]

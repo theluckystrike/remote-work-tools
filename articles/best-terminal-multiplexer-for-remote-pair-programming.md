@@ -3,6 +3,7 @@ layout: default
 title: "Best Terminal Multiplexer for Remote Pair Programming"
 description: "Compare tmux, Zellij, and screen for remote pair programming over SSH. Session sharing configs, keybindings, and real setup guides for distributed teams"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /best-terminal-multiplexer-for-remote-pair-programming/
 categories: [guides]

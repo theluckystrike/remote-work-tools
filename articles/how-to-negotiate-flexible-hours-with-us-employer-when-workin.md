@@ -3,6 +3,7 @@ layout: default
 title: "Example on-call schedule that leverages timezone difference"
 description: "A practical guide for developers in Europe working with US companies. Learn negotiation strategies, overlap calculations, and async workflows to secure"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-negotiate-flexible-hours-with-us-employer-when-workin/
 reviewed: true

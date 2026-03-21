@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Async Annotation and Commenting on Design"
 description: "Remote and distributed teams need effective ways to communicate about design work without scheduling synchronous meetings. Async annotation and commenting"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tools-for-async-annotation-and-commenting-on-design-moc/
 categories: [guides]

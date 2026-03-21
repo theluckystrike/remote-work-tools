@@ -195,12 +195,14 @@ When deploying your chosen solution, ensure you:
 The right calendar infrastructure enables executives to focus on strategic work rather than scheduling logistics. Invest time upfront in proper configuration, and the team will reap continuous time savings.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Remote Employee Time Zone Overlap Optimization Tool for.](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
+## Related Articles
+
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
+- [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

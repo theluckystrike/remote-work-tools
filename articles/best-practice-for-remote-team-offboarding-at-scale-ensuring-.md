@@ -226,12 +226,14 @@ GROUP BY DATE(last_day)
 ORDER BY departure_date DESC;
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Scale Remote Team Design System Documentation.](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-- [How to Scale Remote Team Access Management When Onboarding Many Employees Across Tools](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
-- [Best Practice for Remote Team Escalation Paths That Scale With Organizational Complexity](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+## Related Articles
+
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

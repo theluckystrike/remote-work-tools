@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Client Calls Across 8 Hour Time Difference"
 description: "A practical guide for developers and power users managing client communications when working across 8-hour time differences. Learn async strategies"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-client-calls-across-8-hour-time-difference/
 categories: [guides]

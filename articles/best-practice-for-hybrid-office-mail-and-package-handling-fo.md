@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Hybrid Office Mail and Package Handling"
 description: "Learn practical strategies for managing mail and packages in hybrid offices where employees work part time. Includes code examples, automation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-office-mail-and-package-handling-fo/
 categories: [guides]

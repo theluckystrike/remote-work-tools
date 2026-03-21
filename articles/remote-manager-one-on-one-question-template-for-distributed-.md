@@ -3,6 +3,7 @@ layout: default
 title: "Remote Manager One on One Question Template for Distributed"
 description: "Running effective one-on-one meetings with a distributed team requires more than copying your in-office habits into a video call. The asynchronous nature of"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-manager-one-on-one-question-template-for-distributed-team-check-ins/
 categories: [guides]

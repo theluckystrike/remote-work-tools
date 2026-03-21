@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Handbook Section Template for Defining"
 description: "Clear communication channel definitions and response time expectations form the backbone of successful remote team operations. Without explicit agreements"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-handbook-section-template-for-defining-communica/
 categories: [guides]

@@ -1,6 +1,7 @@
 ---
 layout: default
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 title: "How to Manage Remote Team Documentation Debt: Complete Guide (2026)"
 description: "Practical guide to identifying, measuring, and reducing documentation debt. Includes audit frameworks, templates, and tool comparisons for distributed teams."

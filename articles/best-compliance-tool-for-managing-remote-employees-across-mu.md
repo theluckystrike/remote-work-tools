@@ -249,12 +249,14 @@ async function syncEmployee(employeeId, complianceTool) {
 }
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Employment Law Differences for Remote.](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [How to Handle Overtime Pay Compliance for Remote Workers.](/remote-work-tools/how-to-handle-overtime-pay-compliance-for-remote-workers-acr/)
+## Related Articles
+
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+- [How to Handle Overtime Pay Compliance for Remote Workers](/remote-work-tools/how-to-handle-overtime-pay-compliance-for-remote-workers-acr/)
+- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

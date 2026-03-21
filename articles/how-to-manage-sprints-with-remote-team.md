@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Sprints with Remote Team: A Practical"
 description: "- What did you complete?"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-sprints-with-remote-team/
 categories: [guides]

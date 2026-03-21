@@ -3,6 +3,7 @@ layout: default
 title: "How to Maintain Remote Team Culture When Transitioning to"
 description: "Moving from a fully remote setup to a hybrid model introduces unique challenges for team culture. Some team members work from the office several days per week"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-maintain-remote-team-culture-when-transitioning-to-hy/
 categories: [guides]

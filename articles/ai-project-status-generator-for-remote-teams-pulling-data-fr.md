@@ -465,9 +465,14 @@ class ReportDelivery:
 
 Building an AI project status generator eliminates the manual drudgery of synthesizing updates across disparate tools. Your team gets consistent, data-driven status reports without anyone spending hours gathering information.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

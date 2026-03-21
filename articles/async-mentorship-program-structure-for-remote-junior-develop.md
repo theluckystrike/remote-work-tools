@@ -179,12 +179,14 @@ Collect this data through your normal development workflow rather than creating 
 An effective async mentorship program removes the friction of remote work while respecting everyone's time. The structure takes effort to build initially, but once established, it scales naturally and produces developers who can work independently while having access to guidance when needed.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async QA Signoff Process for Remote Teams Releasing.](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
-- [Async Interview Process for Hiring Remote Developers: No.](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+## Related Articles
+
+- [matching_weights.py](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
+- [How to Structure an Async All Hands Update for 100 Employees](/remote-work-tools/how-to-structure-an-async-all-hands-update-for-100-employees/)
+- [Example: Using Slack webhooks for deployment notifications](/remote-work-tools/best-client-communication-tool-comparison-for-remote-develop/)
+- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
+- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

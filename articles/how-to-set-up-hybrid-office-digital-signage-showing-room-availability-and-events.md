@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Hybrid Office Digital Signage Showing Room"
 description: "A technical guide for developers building digital signage systems that display meeting room availability and calendar events in hybrid offices"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/
 categories: [guides]

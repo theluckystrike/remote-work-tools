@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Work Monitor Under 300 Dollars 2026"
 description: "Compare the best monitors under $300 for remote work. Reviews Dell, LG, ASUS, BenQ with real specs, prices, and use case recommendations."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-remote-work-monitor-under-300-dollars-2026/
 categories: [guides]

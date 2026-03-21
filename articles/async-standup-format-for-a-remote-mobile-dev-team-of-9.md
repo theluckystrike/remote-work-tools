@@ -182,12 +182,14 @@ Noise: With nine people posting daily, the channel gets busy. Use threading stri
 
 No Follow-Up: Async standups work only if someone actually reads and acts on the information. Designate a "standup owner" who summarizes blockers and ensures nothing falls through the cracks.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Coordinate Remote Mobile Developers Releasing.](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+## Related Articles
+
+- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
+- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

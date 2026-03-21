@@ -3,6 +3,7 @@ layout: default
 title: "Freelance Proposal Template for Developers in 2026"
 description: "A practical guide to creating winning freelance proposals in 2026. Includes templates, code examples, and tips specifically for developers"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /freelance-proposal-template-for-developers-2026/
 categories: [guides]

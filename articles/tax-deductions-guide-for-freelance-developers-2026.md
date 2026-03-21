@@ -3,6 +3,7 @@ layout: default
 title: "Tax Deductions Guide for Freelance Developers 2026"
 description: "A practical guide to tax deductions for freelance developers. Learn what expenses you can write off, how to track them, and maximize your savings in 2026"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /tax-deductions-guide-for-freelance-developers-2026/
 reviewed: true

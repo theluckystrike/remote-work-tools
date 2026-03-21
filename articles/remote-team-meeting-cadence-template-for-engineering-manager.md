@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Meeting Cadence Template for Engineering"
 description: "Design a meeting cadence that includes daily async standups, weekly team syncs for alignment, and bi-weekly one-on-ones for deeper conversations to balance"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-meeting-cadence-template-for-engineering-manager/
 categories: [guides]

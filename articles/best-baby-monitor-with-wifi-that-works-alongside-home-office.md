@@ -172,12 +172,14 @@ Regardless of your choice, proper network configuration ensures your monitoring 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
-- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
+- [Quick inventory script to scan network for dormant machines](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
+- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Veed API - Upload and process video"
 description: "Asynchronous video updates have become essential for remote teams that want to reduce meeting fatigue while maintaining clear communication. When your team"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-async-video-update-tool-comparison-loom-vs-veed-/
 categories: [comparisons]

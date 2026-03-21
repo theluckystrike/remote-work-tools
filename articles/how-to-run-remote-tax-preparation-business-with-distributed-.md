@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Tax Preparation Business with Distributed"
 description: "Run a remote tax preparation business with seasonal staff by implementing secure infrastructure (VPN, encryption, role-based access), automated workflows"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-tax-preparation-business-with-distributed-/
 categories: [guides]

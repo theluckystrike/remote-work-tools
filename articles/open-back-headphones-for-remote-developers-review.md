@@ -3,6 +3,7 @@ layout: default
 title: "Open Back Headphones for Remote Developers Review"
 description: "A practical review of open back headphones for developers working from home. Compare sound quality, comfort, and workspace integration for remote"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /open-back-headphones-for-remote-developers-review/
 reviewed: true

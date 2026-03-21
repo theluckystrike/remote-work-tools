@@ -3,6 +3,7 @@ layout: default
 title: "Buddy Responsibilities Charter"
 description: "Learn how to build an effective remote developer onboarding buddy system. Practical setup guide with code snippets and implementation examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-developer-onboarding-buddy-system-for-n/
 categories: [guides]

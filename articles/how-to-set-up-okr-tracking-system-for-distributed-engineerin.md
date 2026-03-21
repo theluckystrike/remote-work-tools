@@ -3,6 +3,7 @@ layout: default
 title: "Example Linear API query for OKR progress"
 description: "Setting up an effective OKR (Objectives and Key Results) tracking system for distributed engineering teams requires more than adopting a tool. You need clear"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-okr-tracking-system-for-distributed-engineerin/
 categories: [guides, workflows]

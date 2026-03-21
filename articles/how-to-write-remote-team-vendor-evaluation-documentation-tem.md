@@ -3,6 +3,7 @@ layout: default
 title: "Security Checklist Example"
 description: "A practical guide to creating vendor evaluation documentation for remote teams. Includes templates and best practices for procurement"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-remote-team-vendor-evaluation-documentation-tem/
 reviewed: true

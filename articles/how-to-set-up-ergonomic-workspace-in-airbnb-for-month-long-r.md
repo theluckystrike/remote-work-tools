@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Ergonomic Workspace in Airbnb for Month-Long"
 description: "A practical guide for developers and power users setting up an ergonomic workspace in an Airbnb for extended remote work stays. Includes equipment"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/
 categories: [guides]

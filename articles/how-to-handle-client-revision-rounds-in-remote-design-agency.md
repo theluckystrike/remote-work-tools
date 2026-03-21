@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Client Revision Rounds in Remote Design Agency"
 description: "A practical guide to managing client revision rounds in remote design agencies. Includes async workflows, code templates, and implementation strategies"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-client-revision-rounds-in-remote-design-agency/
 categories: [guides]

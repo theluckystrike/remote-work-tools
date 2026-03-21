@@ -301,10 +301,14 @@ Monitor these metrics to ensure scheduling efficiency:
 
 Track these quarterly and adjust your scheduling tool's settings accordingly.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Best Whiteboard Tools for Video Calls](/remote-work-tools/best-whiteboard-tools-for-video-calls/)
+## Related Articles
+
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Simple office hours scheduler (Python)](/remote-work-tools/how-to-maintain-direct-communication-with-leadership-as-remo/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

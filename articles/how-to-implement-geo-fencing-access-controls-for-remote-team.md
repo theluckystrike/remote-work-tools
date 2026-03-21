@@ -3,6 +3,7 @@ layout: default
 title: "How to Implement Geo-Fencing Access Controls for Remote"
 description: "A practical guide for developers on building location-based access controls to secure remote team applications and protect sensitive resources"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-implement-geo-fencing-access-controls-for-remote-team/
 reviewed: true

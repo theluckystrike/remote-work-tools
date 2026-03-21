@@ -195,11 +195,14 @@ Review board analytics during retrospectives. Identify columns where cards consi
 
 ---
 
-## Related Reading
 
-- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [How to Manage Sprints with Remote Team](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
-- [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
+## Related Articles
+
+- [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

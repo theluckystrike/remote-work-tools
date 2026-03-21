@@ -232,12 +232,14 @@ Regardless of tool choice, implement these security practices:
 
 Digital signature tools provide the infrastructure, but your implementation determines actual security. Treat API credentials as you would production database credentials.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
-- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
-- [Remote Agency Client Satisfaction Survey Template and.](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
+## Related Articles
+
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

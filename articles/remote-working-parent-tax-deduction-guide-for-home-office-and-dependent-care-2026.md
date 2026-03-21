@@ -3,6 +3,7 @@ layout: default
 title: "Remote Working Parent Tax Deduction Guide for Home Office"
 description: "A practical guide for remote working parents on tax deductions for home offices and dependent care expenses. Learn what qualifies, how to document"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/
 categories: [guides]

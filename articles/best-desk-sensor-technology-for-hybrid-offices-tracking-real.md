@@ -254,12 +254,14 @@ Calibration significantly impacts sensor accuracy. PIR sensors need clear sightl
 
 Privacy remains paramount. Clearly communicate sensor placement and data usage to employees. Store occupancy data in aggregate form rather than tracking individuals. Many jurisdictions regulate employee monitoring—consult legal counsel for compliance requirements specific to your location.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Occupancy Analytics Platform for Hybrid Offices.](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
-- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
-- [Best Desk Booking App for Hybrid Offices Using Microsoft.](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+## Related Articles
+
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+- [Best Visitor Management System for Hybrid Offices Tracking W](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
+- [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
+- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
+- [Upload to your analytics backend](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

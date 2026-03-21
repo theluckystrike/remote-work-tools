@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Client Communication Charter for Remote"
 description: "A practical guide to building a client communication charter that scales your remote agency. Includes templates, code examples, and implementation steps"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-communication-charter-for-remote-agency/
 categories: [guides]

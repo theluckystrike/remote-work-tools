@@ -196,16 +196,19 @@ Most developers report that after initial adaptation, an ergonomic mouse becomes
 
 Pair an ergonomic mouse with an ergonomic setup and good work habits, and you can expect to code pain-free for decades. Developers who ignore ergonomics often face forced career changes by their 40s due to chronic RSI. That's preventable with the right equipment and habits.
 
-## Related Reading
-
-- [Occupational Safety and Health Administration (OSHA) Ergonomics Guide](https://www.osha.gov/ergonomics)
-- [Repetitive Strain Injury Prevention](https://www.healthline.com/health/repetitive-strain-injury)
-- [Logitech MX Vertical Specifications](https://www.logitech.com/en-us/products/mice/mx-vertical-ergonomic-mouse.html)
-
 ## Footer
 
 Ergonomic mice are a necessary but not sufficient solution for RSI. Pair mouse selection with proper desk setup, regular breaks (10 minutes per hour), and strengthening exercises. Developers who combine ergonomic hardware with stretching routines and proper posture see the most significant improvement. If wrist pain persists after 6 weeks with an ergonomic mouse and proper setup, consult a physical therapist—some RSI conditions require professional treatment beyond equipment changes.
 
 {% endraw %}
+
+
+## Related Articles
+
+- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
+- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
+- [Wrist Exercises for Programmers](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

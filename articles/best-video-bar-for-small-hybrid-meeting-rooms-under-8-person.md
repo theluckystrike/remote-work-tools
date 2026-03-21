@@ -3,6 +3,7 @@ layout: default
 title: "Best Video Bar for Small Hybrid Meeting Rooms Under 8"
 description: "A technical guide for developers and IT teams selecting video bars for small hybrid meeting rooms. Covers USB audio/video solutions, API integrations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/
 categories: [guides]

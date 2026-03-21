@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Onboarding Tools and Checklist"
 description: "Build a remote team onboarding system with the right tools: access provisioning, documentation, buddy programs, and a 30-60-90 day checklist for new remote engineers."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /remote-team-onboarding-tools-checklist/
 categories: [guides]

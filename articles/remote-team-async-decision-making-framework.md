@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Async Decision-Making Framework"
 description: "Framework for making decisions asynchronously. Tools (Loom, Notion, Slack workflows), templates, escalation criteria, timeboxing strategies"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-team-async-decision-making-framework/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Performance Review Tools Comparison 2026"
 description: "Compare performance review platforms: Lattice, 15Five, Culture Amp, BambooHR, Leapsome. Pricing, 360 feedback, goal tracking, remote-specific features"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-performance-review-tools-comparison-2026/
 categories: [guides]

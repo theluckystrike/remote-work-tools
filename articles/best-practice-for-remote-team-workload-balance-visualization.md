@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Workload Balance"
 description: "Managing workload balance across distributed team members presents unique challenges that traditional office environments never faced. When your team spans"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-workload-balance-visualization/
 categories: [guides]

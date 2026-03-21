@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Team Wellness Program Ideas for Distributed"
 description: "Discover practical wellness programs for remote teams. Implement mental health initiatives, fitness challenges, and ergonomic setups with code examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-remote-team-wellness-program-ideas-for-distributed-orga/
 categories: [guides]

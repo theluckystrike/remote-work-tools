@@ -398,9 +398,14 @@ Tested in: Home office, Zoom calls, outdoor communication.
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
+- [Best Noise Gate Microphone Setting for Remote Parents With](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
+- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

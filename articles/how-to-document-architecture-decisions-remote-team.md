@@ -3,6 +3,7 @@ layout: default
 title: "How to Document Architecture Decisions for Remote Teams"
 description: "Learn practical strategies for documenting architecture decisions in distributed teams. Includes ADR templates, collaborative workflows, and code"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-document-architecture-decisions-remote-team/
 categories: [guides]

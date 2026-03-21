@@ -3,6 +3,7 @@ layout: default
 title: "Simple Slack kudos automation using Slack API"
 description: "Start with Slack #kudos channels for peer-to-peer recognition, add Loom video shoutouts from managers, and implement GitHub-based recognition workflows for"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-remote-employee-recognition-program-ideas-for-distribut/
 reviewed: true

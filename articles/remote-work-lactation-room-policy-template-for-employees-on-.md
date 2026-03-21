@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Lactation Room Policy Template for Employees on"
 description: "Creating effective lactation room policies for remote employees requires addressing the unique challenges of video-based work environments. Unlike traditional"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-lactation-room-policy-template-for-employees-on-/
 categories: [guides]

@@ -3,6 +3,7 @@ layout: default
 title: "How to Optimize Internet Speed for Remote Work"
 description: "Optimize your internet speed for remote work by making two changes that cost nothing and take minutes: switch to a wired Ethernet connection for video calls"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-optimize-internet-speed-for-remote-work/
 categories: [guides]

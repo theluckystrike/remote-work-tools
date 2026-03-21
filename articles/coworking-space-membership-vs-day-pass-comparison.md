@@ -3,6 +3,7 @@ layout: default
 title: "Coworking Space Membership vs Day Pass Comparison"
 description: "Compare coworking space membership vs day pass options with cost calculators, API integrations, and practical examples for developers and power users"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /coworking-space-membership-vs-day-pass-comparison/
 categories: [guides]

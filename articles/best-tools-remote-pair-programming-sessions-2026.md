@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Pair Programming Sessions in 2026"
 description: "Compare VS Code Live Share, Tuple, Slack Huddle, and Gitpod for remote pair programming. Real-world latency benchmarks and workflow recommendations"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /best-tools-remote-pair-programming-sessions-2026/
 categories: [guides]
