@@ -193,6 +193,69 @@ Once you measure velocity, focus on these improvements:
 
 **Implement async assessment stages.** Replace live coding interviews with timed take-home projects evaluated asynchronously. This removes scheduling dependencies entirely.
 
+## Comparing ATS Tools for Distributed Hiring Velocity
+
+Not all applicant tracking systems expose the velocity data you need. Here's how leading tools compare for remote hiring metrics:
+
+| Tool | Timezone Visibility | Custom Stage Timers | API Access | Async Interview Support |
+|------|--------------------|--------------------|------------|------------------------|
+| Greenhouse | Moderate | Yes | Full REST API | Third-party integrations |
+| Lever | Good | Yes | Full REST API | Built-in video |
+| Workable | Limited | Basic | REST API | Limited |
+| Ashby | Excellent | Yes | Full REST API | Native async tools |
+| Notion + Sheets | Custom | Custom | Manual | Any tool |
+
+Ashby stands out for distributed teams because it exposes granular stage timing data via API and supports custom pipeline views segmented by timezone. Teams with engineering resources often prefer a lightweight Notion database + custom API pipeline, giving complete control over the metrics you surface.
+
+## Detecting Timezone Bottlenecks Programmatically
+
+Most pipeline slowdowns in distributed teams occur at timezone seams—when a candidate in APAC waits for a hiring manager in US-EST to wake up. You can detect these patterns by correlating stage entry times with delay lengths:
+
+```sql
+-- Identify timezone-correlated delays
+SELECT
+  pe.actor_timezone AS recruiter_tz,
+  c.timezone_region AS candidate_tz,
+  AVG(EXTRACT(EPOCH FROM (pe2.timestamp - pe1.timestamp)) / 3600) AS avg_delay_hours,
+  COUNT(*) AS occurrences
+FROM pipeline_events pe1
+JOIN pipeline_events pe2
+  ON pe1.candidate_id = pe2.candidate_id
+  AND pe1.stage = pe2.stage
+  AND pe1.event_type = 'entered'
+  AND pe2.event_type = 'first_contact'
+JOIN candidates c ON pe1.candidate_id = c.id
+JOIN pipeline_events pe ON pe1.candidate_id = pe.candidate_id
+GROUP BY pe.actor_timezone, c.timezone_region
+ORDER BY avg_delay_hours DESC;
+```
+
+When this query returns specific timezone pairs with high delay averages—say, US recruiter / APAC candidate averaging 52 hours for first contact—you have an actionable finding. The fix might be adding a recruiter in that region, enabling automated first-contact emails outside business hours, or creating async video introductions that reduce the need for live first contact.
+
+## Building a Pipeline Velocity Scorecard
+
+Track velocity performance weekly using a simple scorecard format. This gives your leadership team a one-page view of hiring health:
+
+```
+Week of 2026-03-17 — Pipeline Velocity Scorecard
+
+Stage             | Actual Avg | Target | Status
+------------------+------------+--------+--------
+Initial Contact   |   31 hrs   | 24 hrs | WARN
+Screening         |   18 hrs   | 24 hrs | OK
+Technical         |   68 hrs   | 48 hrs | FAIL
+Culture Fit       |   22 hrs   | 24 hrs | OK
+Offer             |   41 hrs   | 24 hrs | WARN
+------------------+------------+--------+--------
+End-to-End        |   26 days  | 21 days| WARN
+
+Top Bottleneck: Technical stage (+20 hrs over target)
+Root Cause: UTC-5 / UTC+8 timezone pair — no APAC coverage
+Action: Schedule 2x async take-home assessments this week
+```
+
+This format forces weekly accountability and surfaces bottlenecks before they compound. Assign a recruiting lead to own the scorecard and present findings in your weekly all-hands or team standup.
+
 ## Measuring Success
 
 Set velocity targets based on your data. A reasonable remote hiring pipeline should complete in 21-28 days end-to-end. Break this down:
@@ -203,6 +266,8 @@ Set velocity targets based on your data. A reasonable remote hiring pipeline sho
 - Offer to accept: 3-5 days
 
 Track these weekly. If your actual times exceed targets by more than 20%, investigate the bottleneck stage. For distributed teams, expect slightly longer technical stages due to scheduling complexity.
+
+Once you have four to six weeks of clean velocity data, you can establish team-specific benchmarks. A team hiring primarily in Latin America will have different baseline numbers than one hiring across EU and APAC. Normalizing against your own historical data is more meaningful than industry benchmarks that do not account for your geographic distribution.
 
 
 ## Related Articles
