@@ -49,25 +49,25 @@ def get_team_weekly_steps(sheet_name="Wellness Challenge"):
     gc = gspread.service_account(filename='creds.json')
     sh = gc.open(sheet_name)
     ws = sh.sheet1
-    
+
     # Get all values starting from row 2
     data = ws.get_all_values()[1:]
-    
+
     weekly_summary = {}
     for row in data:
         name, date, steps = row[0], row[1], int(row[2])
         weekly_summary[name] = weekly_summary.get(name, 0) + steps
-    
+
     return weekly_summary
 
 def post_to_slack(summary):
     """Post weekly results to Slack channel"""
     import requests
-    
+
     message = "🏃 *Weekly Step Challenge Results*\n\n"
     for name, steps in sorted(summary.items(), key=lambda x: x[1], reverse=True):
         message += f"• {name}: {steps:,} steps\n"
-    
+
     requests.post(SLACK_WEBHOOK_URL, json={"text": message})
 ```
 
@@ -108,7 +108,7 @@ Here is a minimal HTML form for tracking meditation completion:
   <style>
     body { font-family: system-ui; max-width: 400px; margin: 2rem auto; }
     .check-in { padding: 1rem; border: 1px solid #ddd; border-radius: 8px; }
-    button { background: #4a90d9; color: white; padding: 0.5rem 1rem; 
+    button { background: #4a90d9; color: white; padding: 0.5rem 1rem;
              border: none; border-radius: 4px; cursor: pointer; }
     button:hover { background: #357abd; }
   </style>
@@ -210,8 +210,6 @@ The most effective approach combines all three elements into a cohesive weekly c
 Wellness challenges work best when they become part of your team culture rather than one-off events. Rotate focus areas monthly, introduce new challenges quarterly, and continuously gather feedback from team members about what motivates them.
 
 The goal is not perfection—it is progress. Small, consistent actions compound over time into meaningful health improvements. When your distributed team participates in wellness challenges together, you build connections that transcend spreadsheets and code reviews.
-
-
 
 
 ## Related Articles

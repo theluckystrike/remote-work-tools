@@ -121,7 +121,7 @@ def find_coworking_spaces(city, min_rating=4.0):
     #     "https://api.coworker.com/v1/spaces",
     #     params={"city": city, "min_rating": min_rating}
     # )
-    
+
     # For demonstration, returning structure
     return {
         "spaces": [
@@ -172,8 +172,6 @@ Use this decision framework:
 Many developers find success with a hybrid strategy: maintain a membership at your primary space for consistency, then purchase day passes at other locations when traveling or needing a change of scenery. This maximizes both cost savings and flexibility.
 
 The right choice depends on your specific work patterns, local market, and personal preferences. Run the numbers, test the spaces, and choose what fits your workflow.
-
-
 
 
 ## Related Articles

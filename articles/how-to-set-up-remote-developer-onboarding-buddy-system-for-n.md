@@ -103,12 +103,12 @@ def get_current_buddies():
 def select_buddy(developers, new_hire_start_date):
     """Select the developer with the lightest buddy load."""
     # Filter to developers who have been at the company 6+ months
-    eligible = [d for d in developers 
+    eligible = [d for d in developers
                 if d['join_date'] < (new_hire_start_date - timedelta(days=180))]
-    
+
     # Sort by current buddy count (lowest first)
     eligible.sort(key=lambda x: x['current_buddies'])
-    
+
     return eligible[0] if eligible else None
 
 def assign_buddy(new_hire, developers):
@@ -219,7 +219,6 @@ Use this checklist when launching or auditing your buddy system:
 **Skipping manager involvement.** Buddies should complement, not replace, manager check-ins and feedback.
 
 **Ignoring feedback.** Collecting data without acting on it signals that the program lacks genuine commitment.
-
 
 
 ## Related Articles

@@ -179,9 +179,9 @@ def check_device_compliance(device, user):
         'mfa_enabled': user.mfa_methods.count() > 0,
         'background_check': user.background_check_status == 'clear'
     }
-    
+
     compliance_score = sum(checks.values()) / len(checks)
-    
+
     if compliance_score == 1.0:
         return 'FULL_ACCESS'
     elif compliance_score >= 0.7:
@@ -228,7 +228,6 @@ Track key metrics:
 - Time-to-compliance for new devices
 - Security incident frequency from personal devices
 - User satisfaction scores for BYOD experience
-
 
 
 ## Related Articles

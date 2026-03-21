@@ -140,7 +140,7 @@ last-reviewed: 2025-08-15
 review-status: needs-review
 ---
 
-> ⚠️ **This page was last reviewed in August 2025.** 
+> ⚠️ **This page was last reviewed in August 2025.**
 > Some information may be outdated. Please verify before following any instructions.
 ```
 
@@ -289,7 +289,6 @@ Beyond "pages updated," track quality metrics:
 **Example clarity:** Do examples include explanations of what each line does, or just code dumps?
 
 A quality-focused sprint that updates 15 pages thoroughly beats a quantity-focused sprint that touches 40 pages superficially.
-
 
 
 ## Related Articles

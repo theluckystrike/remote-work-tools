@@ -72,11 +72,11 @@ For remote teams, Splunk's User Behavior Analytics (UBA) helps identify anomalou
 
 ```spl
 # Splunk query for detecting anomalous remote access
-index=authentication action=success 
-| stats earliest(_time) as first_login latest(_time) as last_login 
-  dc(src_ip) as unique_ips values(src_ip) as ip_addresses 
-  by user 
-| where unique_ips > 5 
+index=authentication action=success
+| stats earliest(_time) as first_login latest(_time) as last_login
+  dc(src_ip) as unique_ips values(src_ip) as ip_addresses
+  by user
+| where unique_ips > 5
 | eval risk_score = case(
     unique_ips > 10, "high",
     unique_ips > 5, "medium",
@@ -102,7 +102,7 @@ when
 then
   set_field("event_type", "remote_access");
   set_field("requires_investigation", true);
-  
+
   // Flag access from non-approved countries
   let country = to_string($message.geoip_country_code);
   let approved_countries = ["US", "CA", "UK", "DE", "JP", "AU"];
@@ -126,7 +126,7 @@ SigninLogs
 | where ResultType == 0
 | where IPAddress !in (known_office_ips)
 | where RiskLevelDuringSignIn in ("medium", "high")
-| project UserDisplayName, AppDisplayName, IPAddress, 
+| project UserDisplayName, AppDisplayName, IPAddress,
          Location, RiskLevelDuringSignIn, RiskEventTypes
 | join kind=inner (
     DeviceLogonEvents

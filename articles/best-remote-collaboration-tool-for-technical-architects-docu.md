@@ -89,11 +89,11 @@ graph TD
     Users --> DB[(PostgreSQL)]
     Inventory --> DB
     Orders --> DB
-    
+
     classDef internal fill:#e1f5fe,stroke:#01579b
     classDef external fill:#fff3e0,stroke:#e65100
     classDef database fill:#e8f5e9,stroke:#1b5e20
-    
+
     class API,Auth,Users,Orders,Inventory internal
     class External external
     class Cache,DB database
@@ -120,11 +120,11 @@ def generate_mermaid(services):
                         lines.append(f"    {name} --> {dep_name}")
             else:
                 lines.append(f"    {name} --> {dep}")
-    
+
     lines.append("")
     lines.append("    classDef internal fill:#e1f5fe,stroke:#01579b")
     lines.append("    class " + ",".join(s['name'] for s in services) + " internal")
-    
+
     return "\n".join(lines)
 
 # Example usage
@@ -156,7 +156,7 @@ metadata:
 spec:
   owner: platform-team
   type: service
-  
+
   steps:
     - id: fetch-base
       action: fetch:cookiecutter
@@ -165,7 +165,7 @@ spec:
         values:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
-          
+
     - id: publish
       action: catalog:register
       input:
@@ -196,16 +196,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Build dependency manifest
         run: |
           npm install --package-lock-only
-          
+
       - name: Upload to Dependency Track
         uses: cyclonedx/cyclonedx-npm@v1
         with:
           output-file: bom.xml
-          
+
       - name: Submit BOM
         run: |
           curl -X POST \
@@ -244,7 +244,7 @@ Regardless of tool choice, establish processes that work across time zones:
 # Related ADRs: docs/adr/004-user-service-architecture.md
 class UserService:
     """Handles user management and authentication.
-    
+
     Depends on:
     - auth-service for token validation
     - redis-cluster for session caching

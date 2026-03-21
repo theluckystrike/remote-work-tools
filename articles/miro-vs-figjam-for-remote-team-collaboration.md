@@ -75,7 +75,7 @@ async function createSprintBoard(teamId, sprintName) {
       }
     }
   });
-  
+
   return board.id;
 }
 ```
@@ -268,8 +268,6 @@ FigJam's performance remains solid for typical sessions (4–15 participants) bu
 For teams asking "which tool should we pick," the answer depends on your starting point more than intrinsic tool superiority. If you use Figma: start with FigJam and add Miro for advanced needs. If you're a pure development shop: start with Miro and consider FigJam only if you also adopt design tools. If you need maximum speed and minimal friction: FigJam wins. If you need maximum capability and don't mind the learning curve: Miro wins.
 
 The best approach: use both. The marginal cost of adding FigJam to a Figma subscription is minimal, and Miro's cost is justified by the complex sessions only Miro handles well.
-
-
 
 
 ## Related Articles

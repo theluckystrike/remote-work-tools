@@ -123,7 +123,7 @@ class RoomCapture:
     required_angles: List[str]
     required_details: List[str]
     instructions: str
-    
+
     def to_checklist(self) -> dict:
         return {
             "room": self.room_name,
@@ -302,7 +302,7 @@ security:
     at_rest: aes-256-gcm
     in_transit: tls-1.3
     key_rotation: 90-days
-    
+
   access_control:
     default_role: no-access
     roles:
@@ -317,7 +317,7 @@ security:
       compliance:
         - read: all
         - audit: true
-        
+
   audit:
     log_all_access: true
     retention_years: 7

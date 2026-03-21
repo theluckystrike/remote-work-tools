@@ -87,7 +87,7 @@ const calculateMonitorLayout = (deskWidth, monitorWidth, monitorCount) => {
   const totalMonitorWidth = (monitorWidth * monitorCount) + (padding * (monitorCount - 1));
   const remainingSpace = deskWidth - totalMonitorWidth;
   const sidePadding = remainingSpace / 2;
-  
+
   return {
     totalWidth: totalMonitorWidth,
     sidePadding: sidePadding,
@@ -371,8 +371,6 @@ within 2 weeks of proper monitor positioning.
 ```
 
 ---
-
-
 
 
 ## Related Articles

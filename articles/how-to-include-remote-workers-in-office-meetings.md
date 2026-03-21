@@ -63,7 +63,7 @@ def set_meeting_layout(meeting_id, layout_type="grid"):
     Configure Zoom meeting layout to ensure equal visibility
     """
     url = f"https://api.zoom.us/v2/meetings/{meeting_id}"
-    
+
     payload = {
         "settings": {
             "video_panel": {
@@ -74,7 +74,7 @@ def set_meeting_layout(meeting_id, layout_type="grid"):
             "auto_generated": False
         }
     }
-    
+
     response = requests.patch(url, json=payload)
     return response.json()
 ```
@@ -198,8 +198,6 @@ When remote workers contribute valuable insights, highlight those contributions 
 The goal is creating meetings where location becomes irrelevant—where every participant has equal ability to contribute, listen, and collaborate toward team objectives.
 
 ---
-
-
 
 
 ## Related Articles

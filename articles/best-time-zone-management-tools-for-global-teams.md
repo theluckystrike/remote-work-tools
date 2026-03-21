@@ -112,7 +112,7 @@ def find_overlapping_slots(participants, duration_minutes=60):
         end=datetime.now() + timedelta(days=7),
         duration=duration_minutes * 60
     )
-    
+
     return availability.get("available_ranges", [])
 ```
 
@@ -202,7 +202,7 @@ import pytz
 def get_oncall_for_hour():
     """Determine which timezone handles on-call for current hour."""
     utc_hour = datetime.now(pytz.UTC).hour
-    
+
     # Map UTC hours to primary timezone coverage
     if 0 <= utc_hour < 8:
         return "Asia/Tokyo"

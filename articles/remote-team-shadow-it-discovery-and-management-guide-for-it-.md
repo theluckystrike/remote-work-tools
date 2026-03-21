@@ -44,13 +44,13 @@ def detect_shadow_services(dns_logs_path, approved_domains):
     """
     with open(dns_logs_path, 'r') as f:
         queries = [line.split()[1] for line in f if line.strip()]
-    
+
     domain_counts = Counter(queries)
     shadow_domains = {
         domain: count for domain, count in domain_counts.items()
         if not any(approved in domain for approved in approved_domains)
     }
-    
+
     return sorted(shadow_domains.items(), key=lambda x: x[1], reverse=True)
 
 # Usage
@@ -98,7 +98,7 @@ Review SaaS authentication logs (SSO logs, cloud provider logs) for signs of una
 def find_unauthorized_oauth(access_logs):
     unauthorized = []
     approved_apps = {'google-workspace', 'microsoft-365', 'slack', 'github'}
-    
+
     for log in access_logs:
         if log['event_type'] == 'oauth_grant':
             app_name = log['application'].lower()
@@ -108,7 +108,7 @@ def find_unauthorized_oauth(access_logs):
                     'app': log['application'],
                     'timestamp': log['timestamp']
                 })
-    
+
     return unauthorized
 ```
 
@@ -212,11 +212,11 @@ conditions:
     - managed: true
     - encryption: enabled
     - os_version: "14.0+"
-  
+
 access_controls:
   - application: "corporate-dashboard"
     require: device_compliance
-  
+
   - application: "developer-tools"
     require: mdm_enrolled
 ```
@@ -239,7 +239,6 @@ Shadow IT is never "solved" once—it's an ongoing challenge. Set up recurring s
 - Monthly endpoint software inventory
 - Quarterly OAuth permission audit
 - Annual tool catalog review
-
 
 
 ## Related Articles

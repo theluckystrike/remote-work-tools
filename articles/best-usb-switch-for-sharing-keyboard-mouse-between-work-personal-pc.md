@@ -60,7 +60,7 @@ Physical setup requires connecting your peripherals to the switch's output ports
 ```
 Personal Desktop → USB Cable → [USB Switch] → Keyboard
                                                      → Mouse
-Work Laptop    → USB Cable →                     
+Work Laptop    → USB Cable →
 ```
 
 Most switches include short cables (3-6 feet). Plan cable routing accordingly, especially if your computers sit in different locations relative to your desk.
@@ -87,19 +87,19 @@ USBDetect:
         ; Check if USB device (keyboard/mouse) is active
         ; This monitors the HID device presence
         DeviceChanged := DllCall("winmm.dll\midiInGetNumDevs")
-        
+
         ; Alternative: Check specific USB hub status
         ; Use WMI to query USB devices
         ObjWMIService := ComObjGet("winmgmts:\\.\root\cimv2")
         ColUSBDevices := ObjWMIService.ExecQuery("SELECT * FROM Win32_USBHub")
-        
+
         For objDevice in ColUSBDevices {
             If (InStr(objDevice.Name, "USB Switch")) {
                 ; Device found - log or trigger action
                 FileAppend, % "USB Switch detected at " A_Now "`n", "switch_log.txt"
             }
         }
-        
+
         Sleep, 5000  ; Check every 5 seconds
     }
 return
@@ -132,7 +132,7 @@ def get_usb_devices():
             return result.stdout.strip().split('\n')
         else:
             result = subprocess.run(
-                ['powershell', '-Command', 
+                ['powershell', '-Command',
                  'Get-PnpDevice -Class USB -Status OK | Select-Object -ExpandProperty FriendlyName'],
                 capture_output=True,
                 text=True
@@ -145,22 +145,22 @@ def get_usb_devices():
 def main():
     """Monitor for USB switch connections."""
     known_devices = set(get_usb_devices())
-    
+
     while True:
         time.sleep(5)
         current_devices = set(get_usb_devices())
-        
+
         added = current_devices - known_devices
         removed = known_devices - current_devices
-        
+
         if added:
             for device in added:
                 logging.info(f"USB device connected: {device}")
-        
+
         if removed:
             for device in removed:
                 logging.info(f"USB device disconnected: {device}")
-        
+
         known_devices = current_devices
 
 if __name__ == '__main__':
@@ -184,7 +184,6 @@ For developers who want the best of both hardware and software switching, combin
 **Hardware USB switch** handles your keyboard and mouse, providing instant response and OS-independent operation. When you need to move files or text between machines, **Synergy** handles that at the software level, letting your mouse pointer cross between screens.
 
 The workflow becomes: use the USB switch button to select which computer controls your physical peripherals, then use Synergy to move your mouse across to the other screen for file transfers. This hybrid approach eliminates the latency sometimes present in pure software solutions while adding cross-machine file sharing capability.
-
 
 
 ## Related Articles

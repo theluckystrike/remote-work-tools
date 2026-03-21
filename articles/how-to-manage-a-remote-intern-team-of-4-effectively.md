@@ -75,7 +75,7 @@ Interns often struggle with large, vague tasks. For remote intern work, break as
 
 **Expected outcome**: Users can sign up, log in, and reset passwords
 **Time estimate**: 3-4 hours
-**Prerequisites**: 
+**Prerequisites**:
 - Completed onboarding setup
 - Reviewed authentication documentation
 **Definition of done**:
@@ -182,8 +182,6 @@ Review these metrics in your weekly intern team sync. If someone is consistently
 A well-managed remote intern team benefits your organization beyond the summer. Former interns become strong hires who already understand your codebase, culture, and expectations. They also become ambassadors who recommend your program to other talented developers.
 
 The systems you build—check-ins, task templates, code review practices—scale to larger teams. Start with four interns, refine your processes, and you'll have a repeatable program that produces real value.
-
-
 
 
 ## Related Articles

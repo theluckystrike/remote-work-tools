@@ -110,22 +110,22 @@ Use Slack's incident management integration or build your own:
 # Simple incident channel creator
 def create_incident_channel(incident_name: str, severity: str):
     channel_name = f"incident-{incident_name.lower().replace(' ', '-')}"
-    
+
     # Create private channel with on-call team
     channel = slack.conversations.create(
         name=channel_name,
         is_private=True,
         topic=f"Severity: {severity} | Incident Commander: TBD"
     )
-    
+
     # Invite on-call responders
     oncall = oncall_api.get_current_oncall()
     for user in oncall:
         slack.channels.invite(channel.id, user.id)
-    
+
     # Pin critical contacts
     slack.pins.add(channel.id, message_id=incident commander pin)
-    
+
     return channel
 ```
 
@@ -212,7 +212,7 @@ def notify_status_page(incident: Incident):
              f"Customers may experience degraded performance.",
         incident_id=incident.id
     )
-    
+
     # Schedule follow-up reminders
     schedule_job(
         delay=15 * 60,  # 15 minutes

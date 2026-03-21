@@ -97,7 +97,7 @@ import os
 def send_canary_alert(token_data):
     """Send canary token alert to Slack."""
     webhook_url = os.environ.get('SLACK_WEBHOOK_URL')
-    
+
     message = {
         "text": "🚨 Unauthorized Access Detected",
         "blocks": [
@@ -112,7 +112,7 @@ def send_canary_alert(token_data):
             }
         ]
     }
-    
+
     requests.post(webhook_url, json=message)
 ```
 
@@ -284,7 +284,6 @@ Track metrics that demonstrate canary tokens' value:
 - **Response efficiency**: How long did it take to respond and remediate after a genuine alert?
 
 Teams with mature canary token programs typically detect breaches 50-70% faster than without them, providing invaluable time for containment.
-
 
 
 ## Related Articles

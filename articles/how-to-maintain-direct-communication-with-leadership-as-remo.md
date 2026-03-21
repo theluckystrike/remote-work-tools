@@ -66,10 +66,10 @@ class OfficeHours:
         self.leader = leader_name
         self.slots = self._generate_slots(slots_per_week)
         self.bookings = {}
-    
+
     def _generate_slots(self, count):
         return [f"Week {w}: Slot {i+1}" for w in range(1, 53) for i in range(count)]
-    
+
     def book(self, employee, slot):
         if slot in self.bookings:
             return "Slot unavailable"
@@ -302,7 +302,6 @@ After implementing these strategies, measure whether direct access actually impr
 - Reduced political navigation in decision-making
 
 Adjust your approach based on data. If office hours are underutilized, meetings might work better. If leadership time is oversaturated, add more delegation. The mechanisms matter less than the outcome: team members feel they can reach leadership when it matters.
-
 
 
 ## Related Articles

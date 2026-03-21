@@ -93,7 +93,7 @@ def movement_reminder(interval_minutes=30):
         time.sleep(interval_minutes * 60)
         # Cross-platform notification
         subprocess.run([
-            "osascript", "-e", 
+            "osascript", "-e",
             'display notification "Stand up and move!" with title "Movement Break"'
         ])
 
@@ -294,7 +294,6 @@ The couch works fine if combined with:
 Treating couch work as temporary (not permanent workstation) reduces pain risk significantly. If you're back-to-back meetings, a permanent desk makes sense. If you're doing focused coding with occasional calls, a well-optimized couch setup works fine.
 
 ---
-
 
 
 ## Related Articles

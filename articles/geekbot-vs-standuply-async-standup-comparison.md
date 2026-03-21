@@ -175,8 +175,6 @@ For most developer teams, the decision comes down to team size and workflow comp
 Both tools solve the fundamental problem of keeping remote teams aligned without daily synchronous meetings. The right choice depends on your specific workflow requirements and how much infrastructure you want around your standup process.
 
 
-
-
 ## Related Articles
 
 - [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)

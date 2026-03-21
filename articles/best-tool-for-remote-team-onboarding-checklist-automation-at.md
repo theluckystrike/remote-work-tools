@@ -39,7 +39,7 @@ When evaluating dedicated platforms, prioritize API accessibility. Programmatic 
 // Example: Creating a role-based onboarding checklist via platform API
 async function createOnboardingChecklist(role, userId, startDate) {
   const template = await getRoleTemplate(role); // Fetch role-specific template
-  
+
   const checklist = await platformClient.checklists.create({
     name: `Onboarding: ${userId} - ${role}`,
     template_id: template.id,
@@ -47,7 +47,7 @@ async function createOnboardingChecklist(role, userId, startDate) {
     start_date: startDate,
     due_date: addDays(startDate, 30)
   });
-  
+
   // Auto-assign tasks based on role template
   for (const task of template.tasks) {
     await platformClient.tasks.create({
@@ -57,7 +57,7 @@ async function createOnboardingChecklist(role, userId, startDate) {
       due_offset_days: task.due_offset_days
     });
   }
-  
+
   return checklist;
 }
 ```
@@ -79,22 +79,22 @@ onboarding_workflow:
       - field: employment_type
         operator: equals
         value: full_time
-  
+
   steps:
     - action: create_checklist
       params:
         template: "{{ role }}_onboarding"
         owner: "{{ employee.id }}"
-    
+
     - action: assign_tasks
       params:
         manager: "{{ employee.manager_id }}"
         due_in_days: 7
-    
+
     - action: provision_accounts
       params:
         apps: "{{ role.required_apps }}"
-    
+
     - action: send_notification
       params:
         to: "{{ employee.manager_id }}"
@@ -141,19 +141,19 @@ const roleTemplates = {
 async function processNewHire(data) {
   const template = roleTemplates[data.role] || roleTemplates.engineer;
   const startDate = new Date(data.start_date);
-  
+
   const tasks = template.map(item => ({
     name: item.task,
     due_date: addBusinessDays(startDate, item.days),
     project: 'Onboarding',
     tags: [data.role, item.category]
   }));
-  
+
   // Create tasks in task management tool
   for (const task of tasks) {
     await createTaskInProject(task);
   }
-  
+
   // Notify the new hire's manager
   await notifyManager(data.manager_email, {
     new_hire: data.name,
@@ -161,7 +161,7 @@ async function processNewHire(data) {
     task_count: tasks.length,
     first_due: tasks[0].due_date
   });
-  
+
   return { created: tasks.length };
 }
 ```
@@ -196,8 +196,6 @@ Select an automation approach based on your organization's constraints:
 - **Custom automation** serves organizations with unique workflows and engineering capacity
 
 Regardless of approach, success depends on treating onboarding as an evolving process. Templates require regular review as tools, teams, and roles change. Automation handles the mechanics, but human judgment shapes the experience.
-
-
 
 
 ## Related Articles

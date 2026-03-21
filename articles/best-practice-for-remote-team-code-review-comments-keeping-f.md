@@ -43,9 +43,9 @@ function processUserData(data) {
 Use SBI:
 
 ```javascript
-// Good: In the user authentication flow (situation), 
-// this nested conditional chain (behavior) makes testing 
-// individual branches difficult and increases the risk 
+// Good: In the user authentication flow (situation),
+// this nested conditional chain (behavior) makes testing
+// individual branches difficult and increases the risk
 // of edge case bugs (impact). Consider extracting validateUser()
 // into a separate function with clear return values.
 ```

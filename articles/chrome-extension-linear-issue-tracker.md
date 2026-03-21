@@ -93,7 +93,7 @@ chrome.action.onClicked.addListener(async (tab) => {
     description: "Source: " + tab.url,
     teamId: "YOUR_TEAM_ID"
   };
-  
+
   // Make API call to Linear
   const response = await fetch("https://api.linear.app/graphql", {
     method: "POST",
@@ -396,7 +396,6 @@ For teams of developers sharing a custom extension, publish to your internal Chr
 | Setup complexity | Medium | None | Low |
 
 Most efficient teams use Chrome extension + VS Code extension together.
-
 
 
 ## Related Articles

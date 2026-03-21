@@ -52,7 +52,7 @@ def grant_jit_access(role_arn: str, duration_minutes: int = 60):
     Grant temporary access to an IAM role.
     """
     sts_client = boto3.client('sts')
-    
+
     # Assume the role with a session policy limiting access
     response = sts_client.assume_role(
         RoleArn=role_arn,
@@ -73,7 +73,7 @@ def grant_jit_access(role_arn: str, duration_minutes: int = 60):
             }]
         }
     )
-    
+
     return {
         'access_key': response['Credentials']['AccessKeyId'],
         'secret_key': response['Credentials']['SecretAccessKey'],
@@ -101,16 +101,16 @@ class JITAccessRequest:
         self.approved_by = None
         self.approved_at = None
         self.expires_at = None
-    
+
     def approve(self, approver: str, duration_minutes: int = 60):
         self.status = "approved"
         self.approved_by = approver
         self.approved_at = datetime.utcnow()
         self.expires_at = self.requested_at + timedelta(minutes=duration_minutes)
-    
+
     def is_expired(self) -> bool:
         return datetime.utcnow() > self.expires_at
-    
+
     def to_dict(self):
         return {
             "id": self.id,
@@ -222,7 +222,6 @@ Remote team members need clear instructions on how to request access, what to in
 - **Overly permissive session policies** – Time-limited access is useless if the session policy grants full admin rights
 - **Bypassing JIT for "emergencies"** – This defeats the purpose; instead, design fast-track approval workflows
 - **Poor visibility into active sessions** – You need real-time awareness of who has access right now
-
 
 
 ## Related Articles

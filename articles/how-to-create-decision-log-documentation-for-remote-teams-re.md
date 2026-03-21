@@ -48,7 +48,7 @@ Structure your decision logs consistently so they're searchable and skimmable. H
 
 ## Problem Statement
 
-What issue or question prompted this decision? Include any relevant context 
+What issue or question prompted this decision? Include any relevant context
 about the team, project, or constraints that existed at the time.
 
 ## Options Considered
@@ -160,9 +160,9 @@ cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
 # Decision Log: ${TITLE}
 
 **Date:** ${DATE}
-**Author:** 
+**Author:**
 **Status:** Proposed
-**Related:** 
+**Related:**
 
 ## Problem Statement
 
@@ -171,12 +171,12 @@ cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
 ## Options Considered
 
 ### Option A: [Name]
-- **Pros:** 
-- **Cons:** 
+- **Pros:**
+- **Cons:**
 
 ### Option B: [Name]
-- **Pros:** 
-- **Cons:** 
+- **Pros:**
+- **Cons:**
 
 ## Decision
 
@@ -185,16 +185,16 @@ cat > "docs/decisions/$(date +%Y%m%d)-${SLUG}.md" << EOF
 ## Consequences
 
 ### Expected Benefits
-- 
+-
 
 ### Potential Risks
-- 
+-
 
 ## Feedback Period
 
 **Open from:** ${DATE}
-**Close on:** 
-**How to comment:** 
+**Close on:**
+**How to comment:**
 
 ---
 
@@ -249,7 +249,6 @@ A decision log only helps if people can find it. Add your decision log to:
 Include a search-friendly summary in each decision so GitHub's search functionality works effectively. Use consistent terminology and key terms that team members would naturally search for.
 
 ---
-
 
 
 ## Related Articles

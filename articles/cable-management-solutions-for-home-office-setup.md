@@ -77,7 +77,7 @@ Developers typically have multiple devices requiring power: monitors, laptop, de
 
 ```bash
 # Recommended power setup for a developer desk:
-# 
+#
 # 1. Mount a 6-8 outlet surge protector under the desk
 # 2. Use short patch cables (6-12") to connect devices
 # 3. Keep one "always-on" outlet for devices that need continuous power
@@ -343,7 +343,6 @@ When cables fail despite proper management:
 - Keep 2–3" spacing between power cables and data cables
 - Use separate cable channels if possible
 - Avoid coiling power cables tightly
-
 
 
 ## Related Articles

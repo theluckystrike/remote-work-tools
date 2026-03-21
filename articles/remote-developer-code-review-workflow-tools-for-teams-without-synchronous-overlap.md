@@ -56,7 +56,7 @@ Explain the implementation strategy and why you chose this approach over alterna
 
 ## Testing Performed
 - [ ] Unit tests pass
-- [ ] Integration tests pass  
+- [ ] Integration tests pass
 - [ ] Manual testing on staging (for user-facing changes)
 
 ## Screenshots (if applicable)
@@ -89,7 +89,7 @@ jobs:
         run: npm test
       - name: Run linter
         run: npm run lint
-      
+
   automated-review:
     needs: test
     runs-on: ubuntu-latest
@@ -144,7 +144,7 @@ Several tools extend GitHub's native capabilities for async teams:
 # CODEOWNERS
 # Backend changes require backend team approval
 /src/backend/ @backend-team
-# Frontend changes require frontend team approval  
+# Frontend changes require frontend team approval
 /src/frontend/ @frontend-team
 # Infrastructure changes require DevOps approval
 /infrastructure/ @devops-team
@@ -193,7 +193,6 @@ Track these metrics to ensure your async review process improves over time:
 - PR size correlation: Larger PRs often see longer review times
 
 GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards.
-
 
 
 ## Related Articles

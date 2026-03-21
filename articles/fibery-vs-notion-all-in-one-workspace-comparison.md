@@ -144,7 +144,7 @@ async function getHighPriorityTasks(databaseId) {
     },
     sorts: [{ property: 'DueDate', direction: 'ascending' }]
   });
-  
+
   return response.results.map(page => ({
     id: page.id,
     title: page.properties.Name.title[0]?.plain_text,
@@ -248,7 +248,6 @@ For most development teams, Notion's ecosystem and familiarity provide quicker a
 Test both platforms with actual work—create a sprint tracker, document a process, build a small database. The platform that fits your mental model matters more than feature comparisons on paper.
 
 ---
-
 
 
 ## Related Articles

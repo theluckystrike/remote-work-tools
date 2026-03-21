@@ -32,37 +32,37 @@ employee_career_plan:
     role: ""
     start_date: ""
     current_level: ""
-  
+
   manager:
     name: ""
     check_in_frequency: bi-weekly
-  
+
   career_direction:
     target_role: ""
     timeline_months: 12
     path_type: [technical | leadership | specialist]
-  
+
   skill_development:
     current_skills:
       - name: ""
         proficiency: 1-5
-    
+
     target_skills:
       - name: ""
         target_proficiency: 1-5
         deadline: ""
         resources: []
-    
+
     learning_format:
       preferred: [async | sync | self-paced]
       time_allocation_hours_per_week: 4
-  
+
   milestones:
     - quarter: Q1
       objectives: []
       success_metrics: []
       review_date: ""
-    
+
     - quarter: Q2
       objectives: []
       success_metrics: []
@@ -94,8 +94,8 @@ Build lightweight check-ins that don't require synchronous meetings. A simple we
 ```markdown
 ## Weekly Progress Update
 
-**Name:** [Employee Name]  
-**Week of:** [Date]  
+**Name:** [Employee Name]
+**Week of:** [Date]
 
 **What I accomplished:**
 - [Task 1 with link to PR/issue]
@@ -178,7 +178,6 @@ Several patterns undermine remote career development:
 - Generic development plans: Copy-pasting templates without customization signals disengagement. Tailor each plan to the individual's goals and role.
 - Ignoring async communication skills: Technical excellence matters, but remote success requires strong written communication. Include this in your evaluation criteria.
 - No visibility to leadership: Ensure your company's leadership sees career development happening across distributed teams. otherwise, promotions may default to more visible office-based employees.
-
 
 
 ## Related Articles

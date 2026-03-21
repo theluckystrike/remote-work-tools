@@ -115,7 +115,7 @@ async function searchDocumentation(query) {
       timestamp: 'last_edited_time'
     }
   });
-  
+
   return response.results;
 }
 ```
@@ -166,16 +166,16 @@ const { Client } = require("@notionhq/client");
 async function syncAPI_docs() {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
   const notion = new Client({ auth: process.env.NOTION_KEY });
-  
+
   // Fetch OpenAPI spec from repository
   const { data } = await octokit.repos.getContent({
     owner: "your-org",
     repo: "api-service",
     path: "openapi.json"
   });
-  
+
   const spec = JSON.parse(Buffer.from(data.content, 'base64'));
-  
+
   // Update Notion database with endpoints
   for (const [path, methods] of Object.entries(spec.paths)) {
     for (const [method, details] of Object.entries(methods)) {
@@ -228,7 +228,6 @@ For developer teams specifically, Notion's flexibility typically provides more l
 The right choice depends on your team's workflow and growth trajectory. Test both platforms with actual documentation work before committing resources.
 
 ---
-
 
 
 ## Related Articles

@@ -126,7 +126,7 @@ Encourage the new developer to ask questions without apology. A simple Slack mes
 
 ```slack
 # Questions channel
-No question is too small. If you're wondering about something, 
+No question is too small. If you're wondering about something,
 ask in #new-dev-questions. Chances are others have the same question.
 ```
 
@@ -271,7 +271,6 @@ Create a virtuous cycle:
 4. Your culture becomes "we invest in helping each other"
 
 This cultural reinforcement sustains remote teams through growth and change better than any individual tool or process.
-
 
 
 ## Related Articles

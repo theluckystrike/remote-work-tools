@@ -199,7 +199,7 @@ jobs:
         run: |
           EMAIL=$(git log -1 --format=%ae)
           echo "contractor_email=$EMAIL" >> $GITHUB_ENV
-      
+
       - name: Call training API
         run: |
           curl -X POST $TRAINING_API/assign \
@@ -210,8 +210,6 @@ jobs:
 Security awareness training for remote teams requires platforms that work as hard as your IT team does. The right choice depends on your existing infrastructure, team size, and how much automation you need to deploy effectively without constant manual oversight.
 
 ---
-
-
 
 
 ## Related Articles

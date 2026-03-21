@@ -167,7 +167,7 @@ notion = Client(auth=NOTION_KEY)
 
 def create_client_workspace(client_name: str, client_email: str):
     """Create a standardized client workspace with required pages."""
-    
+
     # Create parent page (client workspace root)
     workspace = notion.blocks.children.append(
         block_id=create_parent_page(client_name),
@@ -179,14 +179,14 @@ def create_client_workspace(client_name: str, client_email: str):
             create_heading("Feedback"),
         ]
     )
-    
+
     # Invite client as guest
     notion.invites.create(
         workspace_id=workspace["id"],
         user_email=client_email,
         permission="can_read"
     )
-    
+
     return workspace
 
 def create_parent_page(client_name: str):
@@ -236,7 +236,6 @@ When sharing workspace access with external clients, implement these security pr
 5. Use encryption for any stored API keys or access tokens
 
 Notion's enterprise plan offers additional security features like SAML SSO and domain-wide sharing controls that larger agencies may require.
-
 
 
 ## Related Articles

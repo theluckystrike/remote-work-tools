@@ -334,7 +334,6 @@ A quarterly reset also catches habit drift — where the original definition of 
 A healthy habit tracker evolves as you do.
 
 
-
 ## Related Articles
 
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)

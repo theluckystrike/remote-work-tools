@@ -15,9 +15,6 @@ voice-checked: true
 ---
 
 
-
-
-
 {% raw %}
 
 Implement async peer feedback exchanges for remote leadership teams using structured requests with specific questions, deadline-bound responses, explicit acknowledgment of feedback, and committed follow-up actions—creating documentation that builds trust while replacing the informal hallway conversations that don't exist in distributed settings. This process reduces emotional friction while producing clear expectations about behavior change and growth.
@@ -133,7 +130,7 @@ jobs:
         run: |
           echo "Generating peer feedback assignments for this cycle..."
           # Your assignment logic here
-          
+
       - name: Create feedback issues
         uses: actions/github-script@v7
         with:
@@ -143,7 +140,7 @@ jobs:
               { requester: 'mike', reviewer: 'jennifer' },
               { requester: 'jennifer', reviewer: 'sarah' }
             ];
-            
+
             for (const pair of issues) {
               await github.rest.issues.create({
                 owner: context.repo.owner,
@@ -466,7 +463,6 @@ After feedback, structured check-ins keep the commitment alive:
 ```
 
 Monthly accountability prevents great intentions from fading after 3 weeks.
-
 
 
 ## Related Articles

@@ -292,7 +292,6 @@ signal-cli -u +1234567890 listIdentities
 ```
 
 
-
 ## Related Articles
 
 - [Seat Cushion for Long Coding Sessions Review 2026](/remote-work-tools/seat-cushion-for-long-coding-sessions-review-2026/)

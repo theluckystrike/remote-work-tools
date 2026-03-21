@@ -61,7 +61,7 @@ client.on('message', async (message) => {
       .setDescription(message.content)
       .setAuthor(message.author.tag)
       .setTimestamp();
-    
+
     await message.guild.channels.cache
       .find(c => c.name === 'code-reviews')
       .send(reviewEmbed);
@@ -99,7 +99,7 @@ app.initialize().then(() => {
     });
     saveEvent.notifySuccess();
   });
-  
+
   pages.config.setValidityState(true);
 });
 ```

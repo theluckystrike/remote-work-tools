@@ -163,7 +163,7 @@ def sync_taskwarrior_to_linear():
         capture_output=True,
         text=True
     )
-    
+
     for task in result.stdout.strip().split('\n'):
         if not task:
             continue
@@ -187,8 +187,6 @@ Evaluate project management tools based on these criteria:
 For developers who value control and transparency, the combination of Taskwarrior for personal tracking, Linear for client work, and Focalboard for complex projects provides flexibility without vendor lock-in. The initial setup requires more effort than signing up for Asana, but the long-term benefits include predictable costs, complete data ownership, and workflows tailored to your specific needs.
 
 The best project management tool for freelancers in 2026 is the one that fits your existing workflow rather than forcing you to adapt to a platform's assumptions. Start with one tool, master it, and add complexity only when your needs demand it.
-
-
 
 
 ## Related Articles

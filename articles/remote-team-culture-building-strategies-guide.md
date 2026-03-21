@@ -61,15 +61,15 @@ Schedule optional social sessions that have structure but remain fun. Consider t
 function pairTeamMembers(team) {
   const shuffled = [...team].sort(() => Math.random() - 0.5);
   const pairs = [];
-  
+
   for (let i = 0; i < shuffled.length - 1; i += 2) {
-    pairs.push({ 
-      person1: shuffled[i], 
+    pairs.push({
+      person1: shuffled[i],
       person2: shuffled[i + 1],
       topic: getRandomDiscussionTopic()
     });
   }
-  
+
   return pairs;
 }
 
@@ -90,16 +90,16 @@ Transform vague ideals into concrete commitments. Instead of "we value communica
 ```
 EXAMPLE TEAM VALUES:
 
-1. **Default to Async** - Write it down before calling. Document decisions 
+1. **Default to Async** - Write it down before calling. Document decisions
    in permanent channels soabsent teammates can catch up.
 
-2. **Over-Communicate Context** - When sharing decisions, include the 
+2. **Over-Communicate Context** - When sharing decisions, include the
    reasoning behind them. Future team members will thank you.
 
-3. **Respect Time Zones** - Rotate meeting times so no one perpetually 
+3. **Respect Time Zones** - Rotate meeting times so no one perpetually
    takes the 7 AM or 9 PM slot.
 
-4. **Ship and Iterate** - Prefer shipping something imperfect over 
+4. **Ship and Iterate** - Prefer shipping something imperfect over
    perfecting something unshipped.
 ```
 
@@ -135,7 +135,7 @@ Record not just what was decided, but why alternatives were rejected:
 ## Status: Accepted
 
 ## Context
-Our monorepo build times exceeded 10 minutes on CI, causing developer frustration 
+Our monorepo build times exceeded 10 minutes on CI, causing developer frustration
 and blocking deployments.
 
 ## Decision
@@ -200,8 +200,6 @@ The numbers tell part of the story. The rest comes from listening to team feedba
 ## Building Culture Takes Work, But Pays Dividends
 
 Start with one ritual, one documented value, or one process improvement. Culture compounds over time — small consistent efforts create the kind of team environment that makes remote work genuinely rewarding.
-
-
 
 
 ## Related Articles

@@ -64,7 +64,7 @@ A RESTful API enables integration with calendar systems and notification workflo
 // POST /api/visitors - Register a new visitor
 app.post('/api/visitors', async (req, res) => {
   const { email, fullName, company, hostEmployeeId, visitPurpose, expectedArrival, expectedDeparture, accessZones } = req.body;
-  
+
   const visitor = await db.visitors.create({
     email,
     fullName,
@@ -76,35 +76,35 @@ app.post('/api/visitors', async (req, res) => {
     accessZones,
     checkInStatus: 'pending'
   });
-  
+
   // Send confirmation email with QR code for check-in
   await sendCheckInInstructions(visitor);
-  
+
   // Notify host employee
   await notifyHost(hostEmployeeId, visitor);
-  
+
   res.json(visitor);
 });
 
 // POST /api/visitors/:id/checkin - Process visitor check-in
 app.post('/api/visitors/:id/checkin', async (req, res) => {
   const visitor = await db.visitors.findById(req.params.id);
-  
+
   visitor.actualArrival = new Date();
   visitor.checkInStatus = 'checked-in';
-  
+
   // Issue badge if using physical badge system
   if (req.body.badgeId) {
     visitor.badgeId = req.body.badgeId;
     await badgeSystem.issueBadge(visitor.badgeId, visitor.id);
   }
-  
+
   // Update real-time occupancy
   await updateOccupancyCount();
-  
+
   // Notify security team
   await notifySecurity(visitor, 'arrived');
-  
+
   res.json(visitor);
 });
 ```
@@ -117,16 +117,16 @@ For hybrid offices, maintaining an accurate occupancy count requires combining m
 // Real-time occupancy aggregation
 async function getCurrentOccupancy() {
   const [visitors, employees] = await Promise.all([
-    db.visitors.find({ 
+    db.visitors.find({
       checkInStatus: 'checked-in',
-      actualDeparture: null 
+      actualDeparture: null
     }),
-    db.employees.find({ 
+    db.employees.find({
       badgeLastScan: { $gte: getStartOfDay() },
       badgeLastScanOut: { $lte: getLastBadgeScanIn() }
     })
   ]);
-  
+
   return {
     total: visitors.length + employees.length,
     visitors: visitors.length,
@@ -139,7 +139,7 @@ async function getCurrentOccupancy() {
 // WebSocket for live updates
 io.on('connection', (socket) => {
   socket.emit('occupancy-update', getCurrentOccupancy());
-  
+
   setInterval(async () => {
     socket.emit('occupancy-update', await getCurrentOccupancy());
   }, 30000); // Update every 30 seconds
@@ -154,11 +154,11 @@ Most visitor management flows start with calendar invites. Integrating with Goog
 // Google Calendar webhook handler
 app.post('/api/webhooks/calendar', async (req, res) => {
   const event = req.body;
-  
+
   if (event.summary?.includes('Visitor:')) {
     const visitorName = event.summary.replace('Visitor: ', '').trim();
     const visitorEmail = event.attendees?.[0]?.email;
-    
+
     await db.visitors.create({
       email: visitorEmail,
       fullName: visitorName,
@@ -168,7 +168,7 @@ app.post('/api/webhooks/calendar', async (req, res) => {
       visitPurpose: event.description || 'Meeting'
     });
   }
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -209,7 +209,6 @@ Use this checklist when deploying a visitor management system:
 - [ ] Configure automatic checkout triggers (time-based or badge-out)
 - [ ] Test integration with access control system
 - [ ] Establish visitor data retention and purge policies
-
 
 
 ## Related Articles

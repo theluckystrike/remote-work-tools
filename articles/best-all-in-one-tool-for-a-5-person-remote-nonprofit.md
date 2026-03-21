@@ -92,7 +92,7 @@ function notifyTeamOfResponse() {
   const form = FormApp.getActiveForm();
   const responses = form.getResponses();
   const latest = responses[responses.length - 1];
-  
+
   const message = `New response: ${latest.getItemResponses()[0].getResponse()}`;
   MailApp.sendEmail("team@nonprofit.org", "Form Submission", message);
 }
@@ -284,7 +284,6 @@ Don't commit based on features alone. Run this trial:
 This 10-15 hour investment prevents wrong choices that cost months of productivity.
 
 The best all-in-one tool for your 5-person remote nonprofit is the one your team actually uses consistently. A simpler tool that everyone adopts beats a powerful tool that nobody opens.
-
 
 
 ## Related Articles

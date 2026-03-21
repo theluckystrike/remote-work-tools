@@ -83,7 +83,7 @@ const meetingNotesTemplate = `
 In hybrid meetings, natural conversation flow favors in-room participants. Implement an explicit round-robin practice where you directly address remote participants:
 
 ```
-"Before we move to the next topic, let's hear from each remote participant. 
+"Before we move to the next topic, let's hear from each remote participant.
 @alex, what are your thoughts on this approach?"
 ```
 
@@ -130,7 +130,7 @@ from datetime import datetime
 
 def create_meeting_agenda(meeting_title, topics, participants):
     """Generate an inclusive meeting agenda with explicit speaker assignments."""
-    
+
     agenda = {
         "title": meeting_title,
         "created": datetime.now().isoformat(),
@@ -140,7 +140,7 @@ def create_meeting_agenda(meeting_title, topics, participants):
         },
         "structure": []
     }
-    
+
     # Assign remote speakers to each topic
     for i, topic in enumerate(topics):
         agenda["structure"].append({
@@ -149,7 +149,7 @@ def create_meeting_agenda(meeting_title, topics, participants):
             "notes": "",
             "action_items": []
         })
-    
+
     return agenda
 
 def generate_checklist(agenda):
@@ -162,7 +162,7 @@ def generate_checklist(agenda):
         "☐ Chat window is visible on room display",
         "☐ Remote participants listed in agenda with speaking roles"
     ]
-    
+
     for check in checks:
         print(check)
 
@@ -172,10 +172,10 @@ if __name__ == "__main__":
         {"name": "Chen", "location": "remote"},
         {"name": "Jordan", "location": "remote"}
     ]
-    
+
     topics = ["Sprint review", "Blockers discussion", "Planning for Q2"]
     agenda = create_meeting_agenda("Weekly Sync", topics, sample_participants)
-    
+
     print("=== Meeting Agenda ===")
     print(json.dumps(agenda, indent=2))
     print("\n=== Pre-Meeting Checklist ===")
@@ -203,7 +203,7 @@ Track whether your hybrid meetings are truly inclusive:
 
 ```sql
 -- Query to analyze meeting participation
-SELECT 
+SELECT
     meeting_id,
     COUNT(DISTINCT remote_participant_id) as remote_count,
     COUNT(DISTINCT in_room_participant_id) as in_room_count,

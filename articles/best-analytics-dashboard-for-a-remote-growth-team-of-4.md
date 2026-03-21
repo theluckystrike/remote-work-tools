@@ -50,13 +50,13 @@ Connect Metabase to your data warehouse using environment variables or the admin
 Create a basic funnel question using SQL for a typical growth team:
 
 ```sql
-SELECT 
+SELECT
   DATE_TRUNC('day', event_time) AS day,
   COUNT(DISTINCT user_id) FILTER WHERE event_name = 'page_view') AS visitors,
   COUNT(DISTINCT user_id FILTER WHERE event_name = 'sign_up') AS signups,
   COUNT(DISTINCT user_id FILTER WHERE event_name = 'completed_onboarding') AS activated,
   ROUND(
-    COUNT(DISTINCT user_id FILTER WHERE event_name = 'sign_up')::numeric / 
+    COUNT(DISTINCT user_id FILTER WHERE event_name = 'sign_up')::numeric /
     COUNT(DISTINCT user_id FILTER WHERE event_name = 'page_view')::numeric * 100,
     2
   ) AS conversion_rate
@@ -116,7 +116,7 @@ Connect Grafana to your analytics backend using the built-in data source configu
 Create a growth-focused dashboard with Prometheus-style queries or direct SQL. Here's a panel query for daily active users:
 
 ```sql
-SELECT 
+SELECT
   date_trunc('day', occurred_at) AS time,
   COUNT(DISTINCT user_id) AS dau
 FROM user_events
@@ -136,14 +136,14 @@ The real-time dashboard shows active connections, database performance, and stor
 
 ```sql
 CREATE VIEW daily_growth_metrics AS
-SELECT 
+SELECT
   created_date,
   total_signups,
   total_active,
   paid_subscriptions,
   LAG(total_signups) OVER (ORDER BY created_date) AS previous_day_signups
 FROM (
-  SELECT 
+  SELECT
     DATE(created_at) AS created_date,
     COUNT(*) FILTER (WHERE event = 'signup') AS total_signups,
     COUNT(*) FILTER (WHERE event = 'active') AS total_active,
@@ -172,7 +172,6 @@ All three options support the collaborative, asynchronous workflow remote growth
 Tool selection matters less than usage patterns. Establish a weekly dashboard review cadence where each team member shares relevant metric movements in your async standup tool. Document significant observations as annotations directly in your dashboard. Create alert thresholds that notify the right person when metrics require attention, avoiding the trap of alert fatigue that plagues teams with enterprise tools.
 
 The four-person growth team advantage is agility. Your dashboard should amplify that advantage, not become another system that requires maintenance without delivering insight.
-
 
 
 ## Related Articles

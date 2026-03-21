@@ -99,18 +99,18 @@ db.serialize(() => {
 app.post('/api/book', (req, res) => {
   const { user_id, start_time, duration } = req.body;
   const end_time = start_time + (duration * 60 * 60);
-  
+
   // Check for conflicts
   const conflict = db.prepare(`
-    SELECT * FROM bookings 
+    SELECT * FROM bookings
     WHERE start_time < ? AND end_time > ?
   `);
-  
+
   conflict.get(end_time, start_time, (err, row) => {
     if (row) {
       return res.status(409).json({ error: 'Room unavailable' });
     }
-    
+
     db.run(`INSERT INTO bookings (user_id, start_time, end_time) VALUES (?, ?, ?)`,
       [user_id, start_time, end_time]);
     res.json({ success: true });
@@ -233,7 +233,6 @@ Track these metrics to improve the parent room experience:
 - Maintenance requests: Track issues by category
 
 A well-used parent room often sees 3-5 bookings daily in offices with 50+ employees. If usage is lower, survey employees to understand barriers.
-
 
 
 ## Related Articles

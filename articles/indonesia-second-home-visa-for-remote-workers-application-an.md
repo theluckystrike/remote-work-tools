@@ -79,7 +79,7 @@ Upload bank statements demonstrating the required IDR 1.5 billion balance. The s
 def check_indonesia_second_home_visa_eligibility(balance_idr, monthly_income_idr=None):
     REQUIRED_BALANCE = 1_500_000_000  # IDR 1.5 billion
     REQUIRED_MONTHLY_INCOME = 250_000_000  # IDR 250 million
-    
+
     if balance_idr >= REQUIRED_BALANCE:
         return "Eligible via savings path"
     elif monthly_income_idr and monthly_income_idr >= REQUIRED_MONTHLY_INCOME:
@@ -169,7 +169,6 @@ If the Second Home Visa requirements exceed your current situation, alternatives
 - B211A Visa: Tourist/business visa, extendable to 6 months, no financial requirements
 - KITAP (Permanent Residency): Requires 5+ years on dependent visa or investment > $1M
 - Digital Nomad Visa (currently in pilot): Newer option with simpler requirements
-
 
 
 ## Related Articles

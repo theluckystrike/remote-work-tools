@@ -85,12 +85,12 @@ class ProjectTracker:
         self.data_file = Path(f".tracker/{project_name}.json")
         self.data_file.parent.mkdir(exist_ok=True)
         self.data = self._load()
-    
+
     def _load(self):
         if self.data_file.exists():
             return json.loads(self.data_file.read_text())
         return {"sessions": [], "scope_items": []}
-    
+
     def start_session(self, task_name):
         self.current_session = {
             "task": task_name,
@@ -98,14 +98,14 @@ class ProjectTracker:
             "scope_item": self._classify_task(task_name)
         }
         print(f"Started: {task_name}")
-    
+
     def end_session(self):
         if hasattr(self, 'current_session'):
             self.current_session["end"] = datetime.now().isoformat()
             self.data["sessions"].append(self.current_session)
             self._save()
             print(f"Ended session after tracking {self.current_session['task']}")
-    
+
     def _classify_task(self, task_name):
         """Classify if task was in original scope"""
         scope_keywords = ["original", "agreed", "specified"]
@@ -113,14 +113,14 @@ class ProjectTracker:
             if keyword in task_name.lower():
                 return "in_scope"
         return "out_of_scope"
-    
+
     def _save(self):
         self.data_file.write_text(json.dumps(self.data, indent=2))
-    
+
     def report(self):
-        in_scope = sum(1 for s in self.data["sessions"] 
+        in_scope = sum(1 for s in self.data["sessions"]
                       if s.get("scope_item") == "in_scope")
-        out_scope = sum(1 for s in self.data["sessions"] 
+        out_scope = sum(1 for s in self.data["sessions"]
                        if s.get("scope_item") == "out_of_scope")
         return f"Scope breakdown: {in_scope} in-scope, {out_scope} out-of-scope"
 
@@ -250,7 +250,6 @@ Track your scope creep incidents over time. Note which types of projects, client
 The freelancers who succeed long-term are those who treat their work as a business—with clear processes, professional boundaries, and systems that protect their time and income.
 
 ---
-
 
 
 ## Related Articles

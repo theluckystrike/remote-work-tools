@@ -63,7 +63,7 @@ open -a "Slack"
 open -a "Code" ~/Projects/work
 
 # Display today's priorities (configure via tailwind or similar)
-echo "Today's Priorities:" 
+echo "Today's Priorities:"
 cat ~/Documents/daily-priorities.md
 
 # Set a Do Not Disturb focus mode
@@ -144,14 +144,14 @@ For technically inclined developers, consider using tools like Hammerspoon or Ke
 hs.hotkey.bind({"cmd", "shift"}, "6", function()
     -- Close Slack
     hs.application.find("Slack"):quit()
-    
+
     -- Show shutdown notification
     hs.notify.new({
         title="Work Day Ended",
         subtitle="Fake commute ritual time",
         informativeText="Take your evening walk"
     }):show()
-    
+
     -- Play wind-down playlist
     hs.itunes.play()
 end)
@@ -363,7 +363,6 @@ Create a personal toolkit of ritual components to mix-and-match:
 Mix-and-match across morning and evening. Morning might be: 10-min walk + "Morning Focus" playlist + coffee + read Hacker News (5 min). Evening might be: 5-min walk + different playlist + tea + brief journal. The combination of multiple components creates stronger neural association than single-component rituals.
 
 The key is consistency and combination. Ritual stacks are more powerful than individual rituals because multiple cues reinforce the state change. Your brain learns: "combination of these signals = work time is over."
-
 
 
 ## Related Articles

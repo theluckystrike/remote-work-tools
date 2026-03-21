@@ -218,7 +218,6 @@ Here's a condensed template you can copy and customize:
 ```
 
 
-
 ## Related Articles
 
 - [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)

@@ -437,4 +437,6 @@ Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 - [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

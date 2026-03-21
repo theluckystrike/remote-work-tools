@@ -26,7 +26,7 @@ With a team of six developers working remotely, you need structured guidelines f
 function get_reviewer(author, pr_title, code_owners) {
   const primary = code_owners.get_primary(pr_title);
   const secondary = code_owners.get_secondary(pr_title);
-  
+
   // Never review your own PR
   if (primary !== author) return primary;
   return secondary;
@@ -110,7 +110,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm test
       - run: npm run lint
-      
+
   security:
     runs-on: ubuntu-latest
     steps:
@@ -406,8 +406,6 @@ Week 11-12: Celebrate wins, plan next iteration
 ```
 
 Most teams report 30-40% improvement in code review throughput within 8 weeks of implementing structured review practices.
-
-
 
 
 ## Related Articles

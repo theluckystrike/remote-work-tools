@@ -93,16 +93,16 @@ const viewports = [
 async function testResponsivePages() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  
+
   for (const viewport of viewports) {
     await page.setViewport(viewport);
     await page.goto('https://yoursite.com/page');
-    await page.screenshot({ 
+    await page.screenshot({
       path: `screenshots/${viewport.name}.png`,
-      fullPage: true 
+      fullPage: true
     });
   }
-  
+
   await browser.close();
 }
 
@@ -260,7 +260,6 @@ The ultimate goal of responsive testing is ensuring your site works across any d
 5. **Actual device testing** for critical user flows (purchase, signup, key conversions)
 
 Window resizer extensions handle #1 effectively. Combine them with automation and occasional real device testing for coverage.
-
 
 
 ## Related Articles

@@ -92,21 +92,21 @@ STATE_RULES = {
 def calculate_overtime(hours_worked: float, hourly_rate: float, state: State) -> dict:
     """Calculate overtime pay based on state-specific rules."""
     rules = STATE_RULES.get(state, STATE_RULES[State.DEFAULT])
-    
+
     regular_hours = min(hours_worked, rules.weekly_threshold)
     overtime_hours = max(0, hours_worked - rules.weekly_threshold)
     double_time_hours = 0
-    
+
     # California daily overtime calculation
     if rules.daily_threshold > 0:
         # This is a simplified calculation
         # Real implementation would track daily hours
         pass
-    
+
     regular_pay = regular_hours * hourly_rate
     overtime_pay = overtime_hours * (hourly_rate * 1.5)
     double_time_pay = double_time_hours * (hourly_rate * 2)
-    
+
     return {
         "regular_hours": regular_hours,
         "overtime_hours": overtime_hours,
@@ -190,8 +190,6 @@ For power users managing remote teams without custom software:
 4. Consider consulting with an employment attorney for complex situations
 
 Compliance with overtime laws across states requires attention to detail and proactive system design. Whether you're building tools or managing teams directly, understanding these differences prevents costly mistakes and ensures your remote workers receive correct compensation.
-
-
 
 
 ## Related Articles

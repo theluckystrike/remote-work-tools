@@ -231,7 +231,6 @@ For developers who can work remotely and want a high quality of life with reliab
 ---
 
 
-
 ### Test WiFi Quality Before You Start Working
 
 ```bash
@@ -254,7 +253,6 @@ traceroute vpn.yourcompany.com | tail -5
 # Quick DNS resolution test (slow DNS = slow browsing even on fast WiFi)
 time dig google.com @8.8.8.8 +short
 ```
-
 
 
 ## Related Articles

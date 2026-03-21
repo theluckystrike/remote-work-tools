@@ -236,8 +236,6 @@ Day 5:
 ---
 
 
-
-
 ## Related Articles
 
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)

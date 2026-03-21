@@ -41,7 +41,7 @@ const aliceKeyHelper = new KeyHelper();
 async function generateIdentityKeys() {
   const identityKeyPair = await aliceKeyHelper.generateIdentityKeyPair();
   const registrationId = await aliceKeyHelper.generateRegistrationId();
-  
+
   return {
     identityKey: identityKeyPair,
     registrationId: registrationId
@@ -113,7 +113,7 @@ For teams requiring complete infrastructure control, Mattermost offers the flexi
 service_settings:
   - enable_https: true
   - letsencrypt_certificate_cache_file: "/etc/mattermost/cert.cache"
-  
+
 plugin_settings:
   - enable: true
   - plugins:

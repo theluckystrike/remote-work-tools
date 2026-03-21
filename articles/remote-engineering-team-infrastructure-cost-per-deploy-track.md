@@ -56,7 +56,7 @@ Tagging is the foundation of cost attribution. Every infrastructure resource sho
 resource "aws_instance" "app_server" {
   ami           = "ami-12345678"
   instance_type = "t3.medium"
-  
+
   tags = {
     Name        = "app-server-${var.environment}"
     deploy-id   = var.deploy_id
@@ -84,7 +84,7 @@ async function recordDeployEvent(deployId, service, commitSha, environment) {
     timestamp: new Date().toISOString(),
     triggeredBy: process.env.DEPLOY_USER || 'automated'
   };
-  
+
   await fetch('https://your-cost-api/tracking/deploy', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -116,7 +116,7 @@ from datetime import datetime, timedelta
 
 def get_deploy_cost(deploy_id, service_name, start_time, end_time):
     client = boto3.client('ce')
-    
+
     response = client.get_cost_and_usage(
         TimePeriod={
             'Start': start_time,
@@ -135,13 +135,13 @@ def get_deploy_cost(deploy_id, service_name, start_time, end_time):
             ]
         }
     )
-    
+
     total_cost = sum(
         float(group['Metrics']['UnblendedCost']['Amount'])
         for result in response['ResultsByTime']
         for group in result['Groups']
     )
-    
+
     return total_cost
 ```
 
@@ -180,7 +180,6 @@ Implementing cost tracking across remote engineering teams requires coordination
 **Create cost budgets per service.** Set spending limits for each service and alert the team when approaching thresholds. This prevents surprises at month-end.
 
 **Review cost trends monthly.** Schedule a recurring async review where team leads examine the previous month's deploy costs. Identify patterns, celebrate improvements, and plan optimizations.
-
 
 
 ## Related Articles

@@ -68,7 +68,7 @@ Meeting leader reads 3-5 highlights aloud
 // Slack app: gratitude-collector.js
 app.message('gratitude', async ({ message, client }) => {
   const thanks = message.text.replace('gratitude', '').trim();
-  
+
   // Store in a gratitude log channel
   await client.chat.postMessage({
     channel: 'C gratitude-log',
@@ -111,14 +111,14 @@ class KudosStore:
     def __init__(self, storage_file='kudos.json'):
         self.storage_file = storage_file
         self.data = self.load()
-    
+
     def load(self):
         try:
             with open(self.storage_file, 'r') as f:
                 return json.load(f)
         except FileNotFoundError:
             return {'kudos': [], 'leaderboard': {}}
-    
+
     def add_kudo(self, from_user, to_user, message):
         kudo = {
             'from': from_user,
@@ -127,19 +127,19 @@ class KudosStore:
             'timestamp': datetime.now().isoformat()
         }
         self.data['kudos'].append(kudo)
-        
+
         # Update leaderboard
         if to_user not in self.data['leaderboard']:
             self.data['leaderboard'][to_user] = 0
         self.data['leaderboard'][to_user] += 1
-        
+
         self.save()
         return kudo
-    
+
     def save(self):
         with open(self.storage_file, 'w') as f:
             json.dump(self.data, f, indent=2)
-    
+
     def get_leaderboard(self, limit=5):
         sorted_users = sorted(
             self.data['leaderboard'].items(),
@@ -229,7 +229,6 @@ Start slowly. Try written-only appreciation boards for a month before adding liv
 
 **"We already have too many meetings"**
 Integrate gratitude into existing meetings rather than creating new ones. Replace 5 minutes of status updates with appreciation instead.
-
 
 
 ## Related Articles

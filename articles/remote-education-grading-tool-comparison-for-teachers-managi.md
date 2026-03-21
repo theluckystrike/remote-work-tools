@@ -46,24 +46,24 @@ def get_pending_submissions(course_id, assignment_id):
     """Fetch all pending submissions for an assignment."""
     url = f"{CANVAS_API_URL}/courses/{course_id}/assignments/{assignment_id}/submissions"
     params = {"per_page": 100, "state": "submitted"}
-    
+
     all_submissions = []
     while url:
         response = requests.get(url, headers=headers, params=params)
         all_submissions.extend(response.json())
         url = response.links.get("next", {}).get("url")
-    
+
     return all_submissions
 
 def bulk_grade_submissions(course_id, assignment_id, grades_dict):
     """Post grades for multiple students at once."""
     url = f"{CANVAS_API_URL}/courses/{course_id}/assignments/{assignment_id}/submissions/update_grades"
-    
+
     submissions = [
         {"posted_grade": grade, "student_id": student_id}
         for student_id, grade in grades_dict.items()
     ]
-    
+
     response = requests.post(url, headers=headers, json={"grade_entries": submissions})
     return response.json()
 ```
@@ -90,17 +90,17 @@ def process_assignment_submissions(course_id, assignment_id, grading_logic):
     # Get all submissions
     submissions_url = f"{GRADESCOPE_API_URL}/courses/{course_id}/assignments/{assignment_id}/submissions"
     response = requests.get(submissions_url, headers=headers)
-    
+
     if response.status_code != 200:
         raise Exception(f"API error: {response.text}")
-    
+
     submissions = response.json()["submissions"]
     results = []
-    
+
     for submission in submissions:
         # Apply custom grading function
         score, feedback = grading_logic(submission)
-        
+
         # Submit grade via API
         grade_url = f"{GRADESCOPE_API_URL}/submissions/{submission['id']}"
         grade_data = {
@@ -108,24 +108,24 @@ def process_assignment_submissions(course_id, assignment_id, grading_logic):
             "feedback": feedback,
             "published": True
         }
-        
+
         post_response = requests.put(grade_url, headers=headers, json=grade_data)
         results.append({"student": submission["student"]["email"], "status": post_response.status_code})
         time.sleep(0.5)  # Rate limiting
-    
+
     return results
 
 def auto_grade_code_submission(submission):
     """Example grading logic for code submissions."""
     # Extract submission content
     code_files = submission.get("attachments", [])
-    
+
     # Run automated tests (pseudocode)
     test_results = run_test_suite(code_files)
-    
+
     score = test_results["passed_count"] / test_results["total_count"] * 100
     feedback = f"Tests passed: {test_results['passed_count']}/{test_results['total_count']}"
-    
+
     return score, feedback
 ```
 
@@ -145,14 +145,14 @@ def clone_student_submission(org_name, repo_name, student_email):
     g = github.Github("your_github_token")
     org = g.get_organization(org_name)
     repo = org.get_repo(repo_name)
-    
+
     # Get the latest commit hash
     commits = repo.get_commits()
     latest_commit = commits[0].sha
-    
+
     # Clone URL for automated processing
     clone_url = f"https://{student_email}@github.com/{org_name}/{repo_name}.git"
-    
+
     return {
         "repo_url": clone_url,
         "commit_sha": latest_commit,
@@ -170,7 +170,7 @@ def automated_code_grading(repo_path, test_command, max_score=100):
             capture_output=True,
             timeout=300
         )
-        
+
         # Parse test output (example for pytest)
         if "pytest" in test_command:
             # Extract score from test results
@@ -179,13 +179,13 @@ def automated_code_grading(repo_path, test_command, max_score=100):
             score = parse_pytest_output(output, max_score)
         else:
             score = max_score if result.returncode == 0 else 0
-        
+
         return {
             "score": score,
             "passed": result.returncode == 0,
             "output": result.stdout.decode("utf-8")[:1000]
         }
-        
+
     except subprocess.TimeoutExpired:
         return {"score": 0, "passed": False, "output": "Timeout exceeded"}
     except Exception as e:
@@ -209,7 +209,7 @@ const peerReviewConfig = {
   assignmentId: "assignment_123",
   reviewersPerSubmission: 3,
   reviewRounds: 2,
-  
+
   rubric: [
     {
       criterion: "Code Quality",
@@ -230,13 +230,13 @@ const peerReviewConfig = {
       ]
     }
   ],
-  
+
   feedback: {
     minLength: 100,  // Minimum characters
     requireImprovement: true,  // Must suggest at least one improvement
     anonymizeReviewer: true
   },
-  
+
   deadlines: {
     submission: "2026-04-01T23:59:00Z",
     review: "2026-04-07T23:59:00Z"
@@ -266,8 +266,6 @@ For developers building grading infrastructure:
 4. **Plan for edge cases** — Late submissions, extensions, and academic integrity issues require manual review capabilities
 
 The most effective large-class grading strategies combine multiple approaches: automated scoring for objective questions, structured peer review for subjective assessment, and API-driven bulk operations for efficiency. Your specific implementation depends on class size, subject matter, and available development resources.
-
-
 
 
 ## Related Articles

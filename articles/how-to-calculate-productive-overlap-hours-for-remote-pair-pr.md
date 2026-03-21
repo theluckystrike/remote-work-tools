@@ -52,7 +52,7 @@ function getUtcBounds(developer) {
   // Get UTC offset for the timezone
   const now = new Date();
   const tzOffset = getTimezoneOffset(developer.timezone, now);
-  
+
   return {
     utcStart: developer.workStart - tzOffset,
     utcEnd: developer.workEnd - tzOffset
@@ -62,14 +62,14 @@ function getUtcBounds(developer) {
 function findOverlap(devA, devB) {
   const boundsA = getUtcBounds(devA);
   const boundsB = getUtcBounds(devB);
-  
+
   const overlapStart = Math.max(boundsA.utcStart, boundsB.utcStart);
   const overlapEnd = Math.min(boundsA.utcEnd, boundsB.utcEnd);
-  
+
   if (overlapStart >= overlapEnd) {
     return null; // No overlap exists
   }
-  
+
   return {
     start: overlapStart,
     end: overlapEnd,
@@ -112,16 +112,16 @@ def calculate_overlap_with_boundary(team_a, team_b):
     """
     a_start, a_end, a_offset = team_a
     b_start, b_end, b_offset = team_b
-    
+
     # Convert to UTC-based hours
     a_start_utc = (a_start - a_offset) % 24
     a_end_utc = (a_end - a_offset) % 24
     b_start_utc = (b_start - b_offset) % 24
     b_end_utc = (b_end - b_offset) % 24
-    
+
     # Find overlap
     overlaps = []
-    
+
     if a_start_utc <= a_end_utc and b_start_utc <= b_end_utc:
         # Normal case: both within same day
         overlap_start = max(a_start_utc, b_start_utc)
@@ -129,7 +129,7 @@ def calculate_overlap_with_boundary(team_a, team_b):
         if overlap_start < overlap_end:
             overlaps.append((overlap_start, overlap_end))
     # ... handle boundary cases
-    
+
     return overlaps
 ```
 
@@ -172,7 +172,6 @@ Several tools simplify timezone overlap calculations:
 - **Slack's Built-in Timezone Support**: Schedule messages for colleague's working hours
 
 For teams using calendar apps, Clockwise and Reclaim.ai automatically find optimal meeting slots across timezones.
-
 
 
 ## Related Articles

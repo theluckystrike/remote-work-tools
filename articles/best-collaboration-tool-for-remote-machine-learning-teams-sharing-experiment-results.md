@@ -48,14 +48,14 @@ with mlflow.start_run(run_name="experiment-042"):
     mlflow.log_param("learning_rate", 2e-5)
     mlflow.log_param("epoch", 3)
     mlflow.log_param("model", "bert-base-uncased")
-    
+
     # Train your model
     trainer = Trainer(model=model, args=training_args)
     results = trainer.train()
-    
+
     mlflow.log_metric("eval_f1", results.metrics["eval_f1"])
     mlflow.log_metric("eval_loss", results.metrics["eval_loss"])
-    
+
     # Log the model
     mlflow.transformers.log_model(
         transformers_model=model,
@@ -111,11 +111,11 @@ jobs:
     runs-on: gpu-runner
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Run experiment
         run: |
           python train.py --config '${{ github.event.inputs.config }}'
-          
+
       - name: Commit results
         run: |
           git config user.name "Experiment Bot"
@@ -212,7 +212,6 @@ Start with one experiment and expand gradually:
 The goal is not perfection — it's building a habit of making experiment results discoverable by default. Once your team experiences the productivity gain of instant experiment visibility, the practice becomes self-sustaining.
 
 Remote ML collaboration improves dramatically when experiment results are as accessible as code. Whether you choose a dedicated platform or a Git-based workflow, the key is consistency: log experiments, share results by default, and build the muscle memory of treating your experimental history as team knowledge.
-
 
 
 ## Related Articles

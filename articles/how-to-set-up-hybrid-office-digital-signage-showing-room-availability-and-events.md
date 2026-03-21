@@ -54,7 +54,7 @@ def fetch_room_status(calendar_service, room_email, hours_ahead=2):
     """Fetch upcoming events for a specific room."""
     now = datetime.utcnow()
     end_time = now + timedelta(hours=hours_ahead)
-    
+
     events_result = calendar_service.events().list(
         calendarId=room_email,
         timeMin=now.isoformat() + 'Z',
@@ -62,19 +62,19 @@ def fetch_room_status(calendar_service, room_email, hours_ahead=2):
         singleEvents=True,
         orderBy='startTime'
     ).execute()
-    
+
     events = events_result.get('items', [])
-    
+
     # Determine current status
     current_event = None
     for event in events:
         start = datetime.fromisoformat(event['start']['dateTime'].replace('Z', '+00:00'))
         end = datetime.fromisoformat(event['end']['dateTime'].replace('Z', '+00:00'))
-        
+
         if start <= now <= end:
             current_event = event
             break
-    
+
     return {
         'room_email': room_email,
         'current_status': 'occupied' if current_event else 'available',
@@ -95,24 +95,24 @@ import requests
 def fetch_rooms_from_graph(access_token, room_list_id):
     """Fetch all rooms in a room list via Microsoft Graph."""
     endpoint = f"https://graph.microsoft.com/v1.0/places/microsoft.graph.roomList/{room_list_id}/rooms"
-    
+
     headers = {
         'Authorization': f'Bearer {access_token}',
         'Content-Type': 'application/json'
     }
-    
+
     response = requests.get(endpoint, headers=headers)
     return response.json().get('value', [])
 
 def get_room_free_busy(graph_token, room_id):
     """Get free/busy status for a specific room."""
     endpoint = "https://graph.microsoft.com/v1.0/me/calendar/getSchedule"
-    
+
     headers = {
         'Authorization': f'Bearer {graph_token}',
         'Content-Type': 'application/json'
     }
-    
+
     payload = {
         "schedules": [room_id],
         "startTime": {
@@ -124,7 +124,7 @@ def get_room_free_busy(graph_token, room_id):
             "timeZone": "UTC"
         }
     }
-    
+
     response = requests.post(endpoint, headers=headers, json=payload)
     return response.json()
 ```
@@ -140,7 +140,7 @@ def generate_room_display_html(room_data):
     """Generate HTML for a single room display."""
     status_color = '#22c55e' if room_data['current_status'] == 'available' else '#ef4444'
     status_text = 'AVAILABLE' if room_data['current_status'] == 'available' else 'IN USE'
-    
+
     html = f"""
     <div class="room-display">
         <div class="status-banner" style="background-color: {status_color}">
@@ -148,27 +148,27 @@ def generate_room_display_html(room_data):
         </div>
         <h2>{room_data.get('room_name', 'Meeting Room')}</h2>
     """
-    
+
     if room_data.get('current_event'):
         event = room_data['current_event']
         start = datetime.fromisoformat(event['start']['dateTime'].replace('Z', '+00:00'))
         end = datetime.fromisoformat(event['end']['dateTime'].replace('Z', '+00:00'))
         duration = (end - start).total_seconds() / 60
-        
+
         html += f"""
         <div class="current-meeting">
             <h3>Now: {event.get('summary', 'Meeting')}</h3>
             <p>Ends in {int(duration)} minutes</p>
         </div>
         """
-    
+
     if room_data.get('upcoming_events'):
         html += '<div class="upcoming"><h3>Coming Up:</h3><ul>'
         for event in room_data['upcoming_events'][:3]:
             start = datetime.fromisoformat(event['start']['dateTime'].replace('Z', '+00:00'))
             html += f"<li>{start.strftime('%H:%M')} - {event.get('summary', 'Busy')}</li>"
         html += '</ul></div>'
-    
+
     html += '</div>'
     return html
 ```
@@ -183,11 +183,11 @@ Beyond individual room status, many offices want a dashboard showing company-wid
 def aggregate_office_events(calendar_services, config):
     """Aggregate events from multiple calendars into a unified feed."""
     events = []
-    
+
     # Pull from team calendars
     for calendar_id in config['team_calendars']:
         events.extend(fetch_calendar_events(calendar_services['primary'], calendar_id))
-    
+
     # Pull from room calendars for booking patterns
     for room_email in config['room_emails']:
         room_status = fetch_room_status(calendar_services['primary'], room_email)
@@ -198,7 +198,7 @@ def aggregate_office_events(calendar_services, config):
                 'room': room_email,
                 'source': 'calendar'
             })
-    
+
     # Sort by start time and return
     events.sort(key=lambda x: x.get('start_time', ''))
     return events[:20]  # Return top 20 events
@@ -222,10 +222,10 @@ A simple Chromium-based client works for most scenarios:
 <head>
     <meta http-equiv="refresh" content="60">
     <style>
-        body { 
-            font-family: system-ui, sans-serif; 
-            margin: 0; 
-            background: #111; 
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 0;
+            background: #111;
             color: #fff;
         }
         .room-grid {
@@ -273,7 +273,6 @@ Update frequency: Fetch calendar data every 1-5 minutes. Calendar systems rate-l
 Fallback content: Always have a default view showing static information (building map, company values, or a clock) when the API is unreachable. Displays showing "loading" or blank screens look broken.
 
 Timezone handling: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
-
 
 
 ## Related Articles

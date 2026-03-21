@@ -172,13 +172,13 @@ app = Flask(__name__)
 @app.route('/api/feedback', methods=['POST'])
 def submit_feedback():
     data = request.json
-    
+
     conn = sqlite3.connect('feedback.db')
     cursor = conn.cursor()
-    
+
     cursor.execute('''
-        INSERT INTO policy_feedback 
-        (policy_area, user_id, department, productivity_rating, 
+        INSERT INTO policy_feedback
+        (policy_area, user_id, department, productivity_rating,
          biggest_challenge, preferred_model, specific_change, submitted_at)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?)
     ''', (
@@ -191,10 +191,10 @@ def submit_feedback():
         data['specificChange'],
         datetime.utcnow().isoformat()
     ))
-    
+
     conn.commit()
     conn.close()
-    
+
     return jsonify({'status': 'success'}), 201
 
 @app.route('/api/feedback/summary/<policy_area>', methods=['GET'])
@@ -202,9 +202,9 @@ def get_summary(policy_area):
     conn = sqlite3.connect('feedback.db')
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
-    
+
     cursor.execute('''
-        SELECT 
+        SELECT
             AVG(productivity_rating) as avg_rating,
             COUNT(*) as total_responses,
             preferred_model,
@@ -213,10 +213,10 @@ def get_summary(policy_area):
         WHERE policy_area = ?
         GROUP BY preferred_model
     ''', (policy_area,))
-    
+
     results = [dict(row) for row in cursor.fetchall()]
     conn.close()
-    
+
     return jsonify(results)
 ```
 
@@ -244,8 +244,6 @@ The technical system is only part of the solution. You need to create cultural n
 - Show responsiveness by implementing changes quickly after feedback
 
 A feedback loop that runs continuously becomes part of how your organization operates, not a special event that people ignore.
-
-
 
 
 ## Related Articles

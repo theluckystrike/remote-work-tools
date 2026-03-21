@@ -133,7 +133,7 @@ from slack_sdk.errors import SlackApiError
 
 def create_project_channel(client, channel_name, owner_id, member_ids):
     """Create a project channel with standard configuration."""
-    
+
     try:
         # Create the channel
         response = client.conversations_create(
@@ -141,21 +141,21 @@ def create_project_channel(client, channel_name, owner_id, member_ids):
             is_private=False
         )
         channel_id = response['channel']['id']
-        
+
         # Set channel purpose
         client.conversations_setTopic(
             channel=channel_id,
             topic=f"Project channel - Owner: <@{owner_id}>"
         )
-        
+
         # Invite members
         client.conversations_invite(
             channel=channel_id,
             users=member_ids
         )
-        
+
         return channel_id
-        
+
     except SlackApiError as e:
         print(f"Error creating channel: {e}")
         return None
@@ -256,8 +256,6 @@ Before launching your new structure:
 A well-organized Slack workspace at 75 employees requires intentional design upfront but pays dividends in reduced noise, faster information access, and better team coordination. The structure above provides a foundation—adapt it to your company culture and refine as you grow.
 
 ---
-
-
 
 
 ## Related Articles

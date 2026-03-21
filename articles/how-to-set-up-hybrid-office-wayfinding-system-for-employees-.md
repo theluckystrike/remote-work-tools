@@ -47,7 +47,7 @@ class WayfindingService {
 
   async findNearestRoom(userPosition, requirements) {
     const allRooms = await this.rooms.getAvailableRooms();
-    
+
     return allRooms
       .map(room => ({
         room,
@@ -86,7 +86,7 @@ For a 5,000 square meter office floor, you'll need approximately 25-35 beacons. 
       "location": "Main Lobby Entrance"
     },
     {
-      "id": "beacon-lobby-02", 
+      "id": "beacon-lobby-02",
       "uuid": "f7826da6-4fa2-4e98-8024-bc5b71e0893e",
       "major": 1,
       "minor": 2,
@@ -108,7 +108,7 @@ import { RNBeaconPackage } from 'react-native-beacons';
 class BeaconScanner {
   async startScanning(region: BeaconRegion) {
     await RNBeaconPackage.startRangingBeaconsInRegion(region);
-    
+
     RNBeaconPackage.BeaconsEventEmitter.addListener(
       'beaconsDidRange',
       (data) => {
@@ -127,7 +127,7 @@ class BeaconScanner {
     // Simplified trilateration
     // In production, use a proper least-squares solver
     const distances = strongest.map(b => this.proximityToDistance(b.proximity));
-    
+
     return this.solvePosition(strongest, distances);
   }
 
@@ -163,23 +163,23 @@ class Room:
 class RoomIntegration:
     def __init__(self, api_key: str, base_url: str):
         self.client = OfficeAPI(api_key, base_url)
-    
+
     async def get_nearest_available_rooms(
-        self, 
-        user_position: dict, 
+        self,
+        user_position: dict,
         required_capacity: int,
         time_slot: str
     ) -> List[Room]:
         all_rooms = await self.client.fetch_rooms()
         bookings = await self.client.fetch_bookings(time_slot)
-        
+
         available = [r for r in all_rooms if r.id not in bookings]
-        
+
         return sorted(
             available,
             key=lambda r: self.distance(user_position, r.position)
         )[:5]
-    
+
     def distance(self, pos1: dict, pos2: dict) -> float:
         return ((pos1['x'] - pos2['x'])**2 + (pos1['y'] - pos2['y'])**2)**0.5
 ```
@@ -191,7 +191,6 @@ When deploying your wayfinding system, start small. Choose one floor or building
 Battery consumption matters for mobile apps. Continuous beacon scanning drains phone batteries quickly. Implement adaptive scanning—scan every 2-3 seconds when the user opens the app, then every 10-15 seconds once they've started navigation. Reduce to once per minute when the app runs in the background.
 
 Consider privacy implications. Store location data ephemerally and provide clear opt-in controls. Most employees appreciate wayfinding convenience but resist persistent tracking. Implement data retention policies that delete location history after 24-48 hours.
-
 
 
 ## Related Articles

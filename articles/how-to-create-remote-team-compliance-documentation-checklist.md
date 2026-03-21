@@ -111,7 +111,7 @@ from datetime import datetime
 class ComplianceLogger:
     def __init__(self, log_file="approvals.jsonl"):
         self.log_file = log_file
-    
+
     def log_approval(self, change_id, approver, change_summary, timestamp=None):
         record = {
             "change_id": change_id,
@@ -180,18 +180,18 @@ if __name__ == "__main__":
     # Load data (in production, fetch from your CMDB)
     with open('team-data.json') as f:
         data = json.load(f)
-    
+
     issues = []
-    
+
     devices = check_device_encryption(data.get('devices', []))
     if devices: issues.append(f"Non-encrypted devices: {devices}")
-    
+
     mfa = check_mfa_compliance(data.get('team_members', []))
     if mfa: issues.append(f"MFA not enabled for: {mfa}")
-    
+
     training = check_training_recent(data.get('team_members', []))
     if training: issues.append(f"Outdated training for: {training}")
-    
+
     if issues:
         print("COMPLIANCE ISSUES FOUND:")
         for issue in issues:
@@ -221,8 +221,6 @@ Keep your compliance documentation maintainable by storing it in version control
 Document everything with timestamps and responsible parties. When auditors ask "how do you know this control is working?", your automated logs and version history should provide immediate answers.
 
 The effort you invest in building proper compliance documentation protects your organization from financial penalties, reputational damage, and the operational disruption of audit findings. Start with the foundational elements—access controls, device management, and approval workflows—and expand your documentation as your remote team grows.
-
-
 
 
 ## Related Articles

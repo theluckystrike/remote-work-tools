@@ -52,10 +52,10 @@ jobs:
         run: |
           curl -X POST ${{ secrets.SLACK_API }}/users.admin.invite \
             -d "email=${{ github.event.inputs.email }}"
-      
+
       - name: Create GitHub org membership
         run: gh api orgs/${{ github.repository_owner }}/membership/${{ github.event.inputs.email }}
-      
+
       - name: Add to appropriate teams
         run: |
           gh api teams/developers/members/${{ github.event.inputs.email }}
@@ -233,8 +233,6 @@ Ask specific questions about the hybrid experience:
 Use this feedback to evolve your process and ensure every new hire, regardless of where they work, has an equitable path to success.
 
 ---
-
-
 
 
 ## Related Articles

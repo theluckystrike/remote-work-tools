@@ -48,7 +48,7 @@ AdminSDK: {
     domainWhitelist: ["yourfirm.com"],
     sharingCategories: ["drive_docs", "drive_anyone"]
   },
-  
+
   # Enable audit logging
   audit: {
     driveLog: true,
@@ -102,19 +102,19 @@ meeting_security:
   # Require authentication to join
   require_authentication: true
   authenticated_domains: ["yourfirm.com"]
-  
+
   # Enable waiting room for client meetings
   waiting_room: true
-  
+
   # Record meetings locally, not cloud
   recording:
     local_recording: true
     cloud_recording: false  # Avoids third-party storage
-  
+
   # Prevent screen capture by attendees
   screen_sharing:
     host_only: true
-    
+
   # Enable end-to-end encryption for sensitive meetings
   encryption: e2e
 ```
@@ -133,9 +133,9 @@ import requests
 
 def create_client_matter(firm_id, client_data, case_details):
     """Create a new client matter in Clio"""
-    
+
     endpoint = f"https://app.clio.com/api/v4/firms/{firm_id}/matters.json"
-    
+
     payload = {
         "data": {
             "client": {
@@ -158,12 +158,12 @@ def create_client_matter(firm_id, client_data, case_details):
             ]
         }
     }
-    
+
     headers = {
         "Authorization": f"Bearer {os.environ['CLIO_ACCESS_TOKEN']}",
         "Content-Type": "application/json"
     }
-    
+
     return requests.post(endpoint, json=payload, headers=headers)
 ```
 
@@ -219,7 +219,7 @@ const notifySlack = (matter) => {
       }
     ]
   };
-  
+
   return slack.post("/chat.postMessage", message);
 };
 ```

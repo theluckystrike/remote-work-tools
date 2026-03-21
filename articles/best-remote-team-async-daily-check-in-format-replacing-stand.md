@@ -152,7 +152,7 @@ def post_daily_reminder():
               "2. Yesterday I completed:\n" \
               "3. Blockers:\n" \
               "4. Notes:"
-    
+
     client.chat_postMessage(channel=CHANNEL_ID, text=message)
 
 if __name__ == "__main__":

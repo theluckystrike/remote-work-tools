@@ -45,8 +45,8 @@ Developer retains no rights to reuse, resell, or distribute the Deliverables.
 
 **Option B: Licensed Use (You Retain Ownership)**
 ```text
-Developer retains all intellectual property rights to pre-existing materials and 
-general-purpose code components. Developer grants Client a non-exclusive, perpetual 
+Developer retains all intellectual property rights to pre-existing materials and
+general-purpose code components. Developer grants Client a non-exclusive, perpetual
 license to use the custom Deliverables for their internal business purposes.
 ```
 
@@ -56,9 +56,9 @@ For most freelance work, Option B protects you better while still giving clients
 
 Add a specific clause about source code:
 ```text
-Source code remains the intellectual property of Developer. Upon full payment, 
-Client receives compiled binaries and a non-exclusive license to use them. 
-Source code shall be released to Client only upon explicit written agreement 
+Source code remains the intellectual property of Developer. Upon full payment,
+Client receives compiled binaries and a non-exclusive license to use them.
+Source code shall be released to Client only upon explicit written agreement
 and additional compensation.
 ```
 
@@ -68,8 +68,8 @@ This prevents clients from getting your raw code and handing it to another devel
 
 Always retain the right to showcase your work:
 ```text
-Developer retains the right to display the Deliverables in their portfolio, 
-on their website, and in marketing materials, provided no confidential 
+Developer retains the right to display the Deliverables in their portfolio,
+on their website, and in marketing materials, provided no confidential
 information of Client is disclosed.
 ```
 
@@ -361,7 +361,6 @@ Make IP protection routine, not reactive:
 3. **Get it signed before starting** — Never start work without a signed agreement
 4. **Archive everything** — Keep signed contracts in cloud storage with version control
 5. **Document creation dates** — Use Git commits and file timestamps as evidence
-
 
 
 ## Related Articles

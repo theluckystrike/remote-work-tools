@@ -105,8 +105,8 @@ Start every proposal by demonstrating you understand the client's problem. UX de
 ```markdown
 ## Understanding Your Challenge
 
-Based on our conversation, you're facing [specific problem]. 
-The current user flow involves [describe current state]. 
+Based on our conversation, you're facing [specific problem].
+The current user flow involves [describe current state].
 This creates friction by [explain the impact].
 
 My approach addresses this through [your solution strategy].
@@ -134,7 +134,7 @@ Ambiguity kills proposals. Clients appreciate clear scope definitions:
 ## Project Scope
 
 - Discovery and research: 8 hours
-- Wireframes and prototyping: 24 hours  
+- Wireframes and prototyping: 24 hours
 - Usability testing: 8 hours
 - Final design delivery: 16 hours
 

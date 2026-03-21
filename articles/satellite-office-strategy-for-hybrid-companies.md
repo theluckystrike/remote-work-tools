@@ -112,7 +112,7 @@ module "satellite_office" {
 resource "aws_vpc_endpoint" "satellite_s3" {
   vpc_id       = module.satellite_office.vpc_id
   service_name = "com.amazonaws.us-east-1.s3"
-  
+
   policy = jsonencode({
     Version = "2012-10-17"
     Statement = [{
@@ -216,8 +216,6 @@ Begin with a pilot program:
 A satellite office strategy for hybrid companies requires upfront investment in infrastructure and process design, but the flexibility it provides for hiring, employee satisfaction, and geographic expansion makes it worthwhile for growing organizations.
 
 ---
-
-
 
 
 ## Related Articles

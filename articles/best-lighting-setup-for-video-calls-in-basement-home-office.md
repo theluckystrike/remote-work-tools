@@ -125,7 +125,7 @@ def check_zoom_active():
 while True:
     if check_zoom_active():
         # Trigger "call mode" scene
-        subprocess.run(["curl", "-X", "POST", 
+        subprocess.run(["curl", "-X", "POST",
             "http://homeassistant.local:8123/api/services/scene/turn_on",
             "-H", "Authorization: Bearer YOUR_TOKEN",
             "-d", '{"entity_id": "scene.video_call"}'])
@@ -208,7 +208,6 @@ The best lighting setup is one you actually use. Complex automation is worthless
 Your basement home office can produce professional-quality video calls. The key is treating lighting as a technical problem with measurable solutions—color temperature, direction, and intensity—that you can control and replicate consistently.
 
 ---
-
 
 
 ## Related Articles

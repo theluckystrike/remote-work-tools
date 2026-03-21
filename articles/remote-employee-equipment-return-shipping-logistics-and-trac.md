@@ -80,9 +80,9 @@ SHIPSTATION_API_SECRET = os.environ.get('SHIPSTATION_API_SECRET')
 
 def create_return_label(employee_email, equipment_details, origin_address):
     """Generate a return shipping label for employee equipment."""
-    
+
     auth = (SHIPSTATION_API_KEY, SHIPSTATION_API_SECRET)
-    
+
     # Create shipment payload
     payload = {
         "shipment": {
@@ -109,13 +109,13 @@ def create_return_label(employee_email, equipment_details, origin_address):
             "reference2": equipment_details['asset_tags'][0]
         }
     }
-    
+
     response = requests.post(
         "https://ssapi.shipstation.com/shipments/createlabel",
         auth=auth,
         json=payload
     )
-    
+
     if response.status_code == 200:
         label_data = response.json()
         return {
@@ -143,41 +143,41 @@ from datetime import datetime
 
 async def poll_tracking_updates(returns_collection, carrier_api_keys):
     """Poll carrier APIs for tracking updates on pending returns."""
-    
+
     pending_returns = await returns_collection.find({
         "shipping.shipmentStatus": {"$in": ["label_created", "in_transit"]}
     }).to_list()
-    
+
     async with aiohttp.ClientSession() as session:
         tasks = []
         for return_doc in pending_returns:
             task = fetch_carrier_update(session, return_doc, carrier_api_keys)
             tasks.append(task)
-        
+
         results = await asyncio.gather(*tasks, return_exceptions=True)
-        
+
     # Process updates
     for result in results:
         if isinstance(result, Exception):
             continue
         if result["has_update"]:
             await update_return_status(returns_collection, result)
-    
+
     return len([r for r in results if isinstance(r, dict) and r.get("has_update")])
 
 async def fetch_carrier_update(session, return_doc, api_keys):
     """Fetch latest tracking events from carrier."""
-    
+
     carrier = return_doc["shipping"]["carrier"]
     tracking_number = return_doc["shipping"]["trackingNumber"]
-    
+
     if carrier == "ups":
         return await fetch_ups_tracking(session, tracking_number, api_keys)
     elif carrier == "fedex":
         return await fetch_fedex_tracking(session, tracking_number, api_keys)
     elif carrier == "usps":
         return await fetch_usps_tracking(session, tracking_number, api_keys)
-    
+
     return {"return_id": return_doc["returnId"], "has_update": False}
 ```
 
@@ -202,7 +202,7 @@ Your return shipping label is ready. Here's what to do:
 
 Questions? Reply to this email.`
   },
-  
+
   in_transit: {
     subject: "Your Equipment is On Its Way",
     body: `Tracking: {{trackingNumber}}
@@ -210,12 +210,12 @@ Carrier: {{carrier}}
 
 Track your shipment: {{trackingUrl}}`
   },
-  
+
   delivered: {
     subject: "Equipment Received at Return Center",
     body: `Your equipment has been received. We'll verify the items within 2-3 business days and send a confirmation once complete.`
   },
-  
+
   verified: {
     subject: "Equipment Return Complete",
     body: `Return verified on {{verificationDate}}.
@@ -230,7 +230,7 @@ Your final paycheck will reflect any applicable deductions for missing or damage
 function send_notification(employee_email, template_name, variables) {
   const template = notificationTemplates[template_name];
   const message = fill_template(template, variables);
-  
+
   return emailService.send({
     to: employee_email,
     subject: template.subject,
@@ -249,14 +249,14 @@ When packages arrive at your return center, implement a verification step that c
 # verify_return.py
 async def verify_received_equipment(return_id, received_items, db):
     """Verify received equipment matches expected return."""
-    
+
     return_doc = await db.returns.find_one({"returnId": return_id})
     expected = {item["assetTag"]: item for item in return_doc["equipment"]}
     received = {item["assetTag"]: item for item in received_items}
-    
+
     discrepancies = []
     verified_items = []
-    
+
     # Check each expected item
     for asset_tag, expected_item in expected.items():
         if asset_tag not in received:
@@ -278,7 +278,7 @@ async def verify_received_equipment(return_id, received_items, db):
                 "verifiedAt": datetime.utcnow().isoformat(),
                 "verifiedCondition": received[asset_tag]["condition"]
             })
-    
+
     # Update database
     await db.returns.update_one(
         {"returnId": return_id},
@@ -293,7 +293,7 @@ async def verify_received_equipment(return_id, received_items, db):
             }
         }
     )
-    
+
     return {"verified": verified_items, "discrepancies": discrepancies}
 ```
 
@@ -313,8 +313,6 @@ The specific implementation depends on your existing tooling. Most modern system
 ## Practical Considerations
 
 When implementing equipment return logistics, prioritize three areas: clear communication with employees about expected timelines and conditions, automated tracking that reduces manual follow-ups, and systematic verification that creates audit trails. Document your return policy explicitly and ensure employees acknowledge it before initial equipment shipment.
-
-
 
 
 ## Related Articles

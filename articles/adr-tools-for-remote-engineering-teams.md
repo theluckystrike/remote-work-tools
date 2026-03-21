@@ -198,8 +198,8 @@ Proposed
 [State what should be done]
 
 ## Consequences
-- Positive: 
-- Negative: 
+- Positive:
+- Negative:
 
 EOF
 echo "Created ADR-${NEXT}: $1"
@@ -208,7 +208,6 @@ echo "Created ADR-${NEXT}: $1"
 Run this script with `./new-adr.sh "Use Redis for Caching"` to generate a properly numbered, formatted ADR ready for editing.
 
 ---
-
 
 
 ## Related Articles

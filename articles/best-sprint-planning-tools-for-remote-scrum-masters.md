@@ -28,13 +28,13 @@ The cycles feature maps directly to sprint-based workflows:
 
 ```javascript
 // Query Linear cycles via API
-const linearClient = new LinearClient({ 
-  apiKey: process.env.LINEAR_API_KEY 
+const linearClient = new LinearClient({
+  apiKey: process.env.LINEAR_API_KEY
 });
 
 async function getCurrentCycle(teamId) {
   const { cycles } = await linearClient.cycles({
-    filter: { 
+    filter: {
       team: { id: { eq: teamId } },
       state: { eq: 'active' }
     }
@@ -73,8 +73,8 @@ For estimation sessions, Jira supports Planning Poker through marketplace apps. 
 ```javascript
 // Jira Automation API - escalate unresolved sprint items
 await jira.execJql(`
-  sprint IN openSprints() 
-  AND status NOT IN (Done, Closed) 
+  sprint IN openSprints()
+  AND status NOT IN (Done, Closed)
   AND assignee IS EMPTY
 `).then(issues => {
   issues.forEach(issue => {
@@ -108,7 +108,7 @@ For capacity visualization, Trello's calendar power-up shows sprint scope over t
 const fetchSprintCards = async (boardId, listName) => {
   const lists = await trello.getListsOnBoard(boardId);
   const sprintList = lists.find(l => l.name === listName);
-  
+
   const cards = await trello.getCardsOnList(sprintList.id);
   return cards.map(card => ({
     name: card.name,
@@ -171,7 +171,7 @@ async function createSprintTasks(listId, stories) {
     priority: story.priority,
     assignees: story.assignees
   }));
-  
+
   return Promise.all(
     tasks.map(task => clickup.createTask(listId, task))
   );

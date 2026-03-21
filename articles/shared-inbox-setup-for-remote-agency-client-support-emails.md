@@ -118,16 +118,16 @@ def fetch_tickets(host, user, password, mailbox='INBOX'):
     mail = imaplib.IMAP4_SSL(host)
     mail.login(user, password)
     mail.select(mailbox)
-    
+
     result, data = mail.search(None, 'ALL')
     ticket_ids = data[0].split()
-    
+
     tickets = []
     for tid in ticket_ids[-50:]:  # Last 50 emails
         result, msg_data = mail.fetch(tid, '(RFC822)')
         raw_email = msg_data[0][1]
         msg = email.message_from_bytes(raw_email, policy=default)
-        
+
         ticket = {
             'id': tid.decode(),
             'subject': msg['subject'],
@@ -137,7 +137,7 @@ def fetch_tickets(host, user, password, mailbox='INBOX'):
             'headers': dict(msg.items())
         }
         tickets.append(ticket)
-    
+
     mail.logout()
     return tickets
 
@@ -152,13 +152,13 @@ def get_body(msg):
 if __name__ == '__main__':
     with open('config.json') as f:
         config = json.load(f)
-    
+
     tickets = fetch_tickets(
         config['imap_host'],
         config['imap_user'],
         config['imap_password']
     )
-    
+
     for ticket in tickets:
         print(f"{ticket['id']}: {ticket['subject']}")
 ```
@@ -190,7 +190,7 @@ async function fetchConversations() {
       }
     }
   );
-  
+
   return response.data.conversations;
 }
 
@@ -275,10 +275,10 @@ SLA_HOURS = {
 def check_sla(ticket):
     priority = ticket.get('priority', 'normal')
     deadline = ticket['created_at'] + timedelta(hours=SLA_HOURS[priority])
-    
+
     if datetime.now() > deadline:
         return {'status': 'breached', 'remaining': 0}
-    
+
     remaining = (deadline - datetime.now()).total_seconds() / 3600
     return {'status': 'ok', 'remaining': round(remaining, 1)}
 ```
@@ -298,8 +298,6 @@ Consider these factors when selecting your approach:
 For most remote agencies, starting with Google Groups and upgrading to a dedicated platform as volume grows provides the best balance of simplicity and capability.
 
 ---
-
-
 
 
 ## Related Articles

@@ -44,7 +44,7 @@ class DataPipeline:
             backoff_factor=2,
             exceptions=(ConnectionError, TimeoutError)
         )
-    
+
     def process(self, data_source: DataSource) -> None:
         """Process data with proper error handling and logging"""
         try:
@@ -293,7 +293,6 @@ Track these metrics to identify which relationships are most sustainable:
 - **Growth potential:** Is this client likely to increase spending over time?
 
 Clients that score well on these metrics deserve your best attention and proactive engagement. Clients that score poorly may not be worth retaining despite current revenue.
-
 
 
 ## Related Articles

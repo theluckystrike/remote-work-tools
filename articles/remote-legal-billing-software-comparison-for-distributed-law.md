@@ -71,7 +71,7 @@ async function createInvoice(pantherDomain, matterId, timeEntries, headers) {
     quantity: entry.hours,
     rate: entry.rate
   }));
-  
+
   const response = await fetch(
     `https://${pantherDomain}.practicepanther.com/api/v2/invoices`,
     {
@@ -312,8 +312,6 @@ New billing software requires team adjustment:
 - [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 
 Built by
-
-
 
 
 ## Related Articles

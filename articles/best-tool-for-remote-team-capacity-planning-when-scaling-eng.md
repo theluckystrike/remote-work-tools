@@ -65,14 +65,14 @@ async function getTeamCapacity(teamId, quarterStart, quarterEnd) {
       state: { name: { eq: 'Done' } }
     }
   });
-  
+
   // Calculate story points completed per developer
   const capacityByAssignee = issues.nodes.reduce((acc, issue) => {
     const assignee = issue.assignee?.name || 'Unassigned';
     acc[assignee] = (acc[assignee] || 0) + (issue.estimate || 0);
     return acc;
   }, {});
-  
+
   return capacityByAssignee;
 }
 ```
@@ -99,7 +99,7 @@ def calculate_quarterly_capacity(
     - Async communication overhead
     """
     monthly_capacity = []
-    
+
     for month_idx, headcount in enumerate(headcount_by_month):
         # Apply ramp-up factor for new hires
         effective_headcount = 0
@@ -107,15 +107,15 @@ def calculate_quarterly_capacity(
             months_exp = min(month_idx - i, 3)
             ramp_factor = onboarding_rampup[months_exp]
             effective_headcount += (headcount // (month_idx + 1)) * ramp_factor
-        
+
         # Adjust for timezone overlap (typical 4 hour overlap)
         sync_factor = timezone_overlap_hours / 8
-        
+
         # Account for async communication overhead
         net_capacity = effective_headcount * avg_velocity_per_dev * sync_factor * (1 - communication_overhead)
-        
+
         monthly_capacity.append(int(net_capacity))
-    
+
     return {
         'monthly': monthly_capacity,
         'quarterly_total': sum(monthly_capacity),
@@ -153,7 +153,7 @@ const historicalAnalysis = {
   q1_actual_velocity: 342,
   q1_planned_velocity: 380,
   variance: -10.0, // percentage
-  
+
   adjustments: [
     { type: 'new_hires', impact: -15, description: "3 new engineers ramping" },
     { type: 'timezone_gap', impact: -8, description: "Reduced overlap hours" },

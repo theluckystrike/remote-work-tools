@@ -185,7 +185,7 @@ Create a workflow that triggers when a message is posted to `#sprint-planning` w
 # Workflow: Sprint Kickoff Notification
 trigger:
   type: emoji_reaction (🏃) on sprint planning message
-  
+
 actions:
   1. Send form to team members requesting:
      - Capacity for upcoming sprint
@@ -202,7 +202,7 @@ actions:
 # Workflow: Daily Async Standup Reminder
 trigger:
   type: scheduled (weekdays at team start time)
-  
+
 actions:
   1. Post template to #daily-standups
   2. Close thread after 24h
@@ -218,8 +218,6 @@ Adjust timezone references to match your team's distribution. For teams spanning
 The key to success with these templates is consistency. Use the same channel names, emoji conventions, and response formats across every sprint. This predictability reduces cognitive load and helps team members quickly parse relevant information.
 
 ---
-
-
 
 
 ## Related Articles

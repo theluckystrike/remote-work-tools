@@ -101,12 +101,12 @@ Share your screen with a countdown timer visible to all participants. Many tools
 function startTimer(minutes) {
   const seconds = minutes * 60;
   const display = document.getElementById('timer');
-  
+
   const interval = setInterval(() => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
     display.textContent = `${mins}:${secs < 10 ? '0' : ''}${secs}`;
-    
+
     if (--seconds < 0) {
       clearInterval(interval);
       display.classList.add('overtime');
@@ -176,7 +176,6 @@ Lightning talks succeed when they become routine. Here's how to encourage partic
 5. **Make it optional but visible**—don't require attendance, but make the recordings easily accessible
 
 Some teams maintain a "lightning talk queue" where volunteers add their names and topics ahead of time. This creates momentum and helps presenters prepare.
-
 
 
 ## Related Articles

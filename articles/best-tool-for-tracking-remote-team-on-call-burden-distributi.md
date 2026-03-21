@@ -273,8 +273,6 @@ Yes. Being available and on standby carries a psychological cost even when no in
 Some organizations pay an on-call stipend per shift. Others offer compensatory time off after high-burden periods. Document the policy explicitly and apply it consistently—ambiguous policies create more resentment than the burden itself.
 
 
-
-
 ## Related Articles
 
 - [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)

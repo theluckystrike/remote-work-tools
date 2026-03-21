@@ -124,15 +124,15 @@ communication_channels:
   code_review:
     tool: "GitHub/GitLab PRs"
     when: "Use for all code review, never for ad-hoc code discussion"
-  
+
   bugs:
     report: "#bugs channel with template"
     severity_critical: "Page on-call via DM + #incidents channel"
     severity_normal: "Create ticket, post link in #bugs"
-  
+
   feature_requests:
     process: "RFC in #product-discuss, then formal issue"
-    
+
   urgent_blockers:
     definition: "Cannot make progress, no workaround known"
     action: "DM to directly responsible person + #team channel for visibility"

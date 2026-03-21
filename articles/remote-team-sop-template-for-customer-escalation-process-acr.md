@@ -52,7 +52,7 @@ def triage_escalation(ticket):
     severity = ticket.get('severity', 'low')
     account_tier = ticket.customer.account_tier
     impact_count = ticket.get('affected_users', 1)
-    
+
     # Auto-assign severity based on rules
     if severity == 'critical' or account_tier == 'enterprise':
         return Escalation(level=3, response_time=30)
@@ -91,8 +91,8 @@ Every escalation requires a structured handoff document. Use a template like thi
 - [ ] Waiting on customer confirmation
 
 ### Next Actions
-- [ ] 
-- [ ] 
+- [ ]
+- [ ]
 
 ### Handoff Notes
 [Any context the next shift needs to know]
@@ -200,8 +200,6 @@ Implementing this SOP template requires upfront investment, but the payoff is im
 
 Start with the basics: define your severity levels, create your handoff template, and document your escalation workflow. Add automation and refine metrics as your team grows comfortable with the process.
 {% endraw %}
-
-
 
 
 ## Related Articles

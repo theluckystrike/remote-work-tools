@@ -124,9 +124,9 @@ import requests
 # RandomCoffee API - Creating a custom matching session
 def create_coffee_session(team_id, topic=None):
     """Create a randomized coffee chat pairing."""
-    
+
     url = "https://api.randomcoffee.io/v2/sessions"
-    
+
     payload = {
         "team_id": team_id,
         "session_type": "coffee",
@@ -140,16 +140,16 @@ def create_coffee_session(team_id, topic=None):
             "flexibility_hours": 24
         }
     }
-    
+
     if topic:
         payload["topic"] = topic
-    
+
     response = requests.post(
         url,
         json=payload,
         headers={"Authorization": f"Bearer {API_KEY}"}
     )
-    
+
     return response.json()
 
 # Create a session with a tech talk theme
@@ -186,7 +186,7 @@ const calendar = google.calendar('v3');
 
 async function findMutualAvailability(userA, userB) {
     const auth = await getAuth();
-    
+
     // Get free/busy for both users
     const freeBusy = await calendar.freebusy.query({
         auth,
@@ -196,17 +196,17 @@ async function findMutualAvailability(userA, userB) {
             items: [{ id: userA }, { id: userB }]
         }
     });
-    
+
     // Find overlapping free time slots
     // Implementation depends on your specific requirements
-    
+
     return overlappingSlots;
 }
 
 // Slack webhook for notifications
 async function notifyPairing(userA, userB, slot) {
     const webhookUrl = process.env.SLACK_WEBHOOK_URL;
-    
+
     await fetch(webhookUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -289,7 +289,6 @@ Track these metrics to understand if your virtual coffee program is working:
 - Repeat participation: How often the same members join multiple sessions
 - Cross-team connections: Number of unique department pairs formed
 - Qualitative feedback: Post-session surveys about connection quality
-
 
 
 ## Related Articles

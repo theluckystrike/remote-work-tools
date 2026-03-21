@@ -43,22 +43,22 @@ A practical JavaScript implementation helps visualize this:
 function calculateOverlap(teamA, teamB) {
   // team structure: { startHour: number, endHour: number, offset: number }
   // offset is UTC offset in hours
-  
+
   const getLocalHour = (hour, offset, referenceOffset) => {
     let localHour = hour - (offset - referenceOffset);
     if (localHour < 0) localHour += 24;
     if (localHour >= 24) localHour -= 24;
     return localHour;
   };
-  
+
   const aStartLocal = getLocalHour(teamA.startHour, teamA.offset, 0);
   const aEndLocal = getLocalHour(teamA.endHour, teamA.offset, 0);
   const bStartLocal = getLocalHour(teamB.startHour, teamB.offset, 0);
   const bEndLocal = getLocalHour(teamB.endHour, teamB.offset, 0);
-  
+
   const overlapStart = Math.max(aStartLocal, bStartLocal);
   const overlapEnd = Math.min(aEndLocal, bEndLocal);
-  
+
   return {
     start: overlapStart,
     end: overlapEnd,
@@ -98,11 +98,11 @@ def calculate_overlap(start_a, end_a, offset_a, start_b, end_b, offset_b):
     utc_end_a = end_a - timedelta(hours=offset_a)
     utc_start_b = start_b - timedelta(hours=offset_b)
     utc_end_b = end_b - timedelta(hours=offset_b)
-    
+
     # Find UTC overlap
     utc_overlap_start = max(utc_start_a, utc_start_b)
     utc_overlap_end = min(utc_end_a, utc_end_b)
-    
+
     overlap_hours = (utc_overlap_end - utc_overlap_start).total_seconds() / 3600
     return max(0, overlap_hours), utc_overlap_start, utc_overlap_end
 
@@ -144,26 +144,26 @@ const { format, tz } = require('date-fns-tz');
 
 function findBestMeetingSlot(locations, durationHours = 1) {
   const slots = [];
-  
+
   // Check each hour over a 24-hour period
   for (let hour = 0; hour < 24; hour++) {
     let allInWorkHours = true;
-    
+
     for (const loc of locations) {
       const localTime = tz(new Date().setHours(hour, 0, 0, 0), loc.timezone);
       const localHour = localTime.getHours();
-      
+
       if (localHour < loc.workStart || localHour >= loc.workEnd) {
         allInWorkHours = false;
         break;
       }
     }
-    
+
     if (allInWorkHours) {
       slots.push(hour);
     }
   }
-  
+
   return slots;
 }
 ```
@@ -175,7 +175,6 @@ When calculating timezone overlaps, watch for these frequent mistakes:
 - Ignoring Daylight Saving Time: Always use IANA timezone identifiers (like "Asia/Tokyo" or "America/Los_Angeles") rather than fixed UTC offsets, as DST changes affect offsets throughout the year.
 - Assuming Same Working Hours: Not all teams work 9-to-5. Confirm actual working hours with team members, as flexibility varies by culture and role.
 - Forgetting Weekends: Some team members might work weekends occasionally. Factor in weekend preferences when scheduling recurring meetings.
-
 
 
 ## Related Articles

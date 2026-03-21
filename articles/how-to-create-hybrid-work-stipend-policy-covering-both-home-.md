@@ -60,14 +60,14 @@ class HybridStipendCalculator:
     def __init__(self, base_home_office=100, per_diem_commute=50):
         self.base_home_office = base_home_office
         self.per_diem_commute = per_diem_commute
-    
+
     def calculate_monthly_stipend(self, office_days_per_month):
         # Everyone gets home office base
         home_office = self.base_home_office
-        
+
         # Commute allowance scales with office attendance
         commute = office_days_per_month * self.per_diem_commute
-        
+
         return {
             'home_office': home_office,
             'commute': commute,
@@ -213,7 +213,6 @@ Track these metrics to evaluate your policy:
 - Average reimbursement amount: Are you over or under budget?
 - Employee satisfaction: Include questions in your quarterly engagement survey
 - Equity indicators: Analyze usage patterns across different employee demographics
-
 
 
 ## Related Articles

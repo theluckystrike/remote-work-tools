@@ -113,7 +113,7 @@ const deskZones = {
     items: ["notebook", "reference materials"]
   },
   peripherals: {
-    position: "right", 
+    position: "right",
     items: ["webcam", "microphone", "headphones"]
   },
   charging: {
@@ -177,8 +177,6 @@ Each month, tidy cable routing and wipe surfaces. Each quarter, reassess storage
 ## Keeping the System Working
 
 Start with cable management — it has the highest immediate impact. Add drawer dividers and vertical storage where your specific gear demands it. Review the setup quarterly before clutter accumulates into inertia.
-
-
 
 
 ## Related Articles

@@ -131,7 +131,7 @@ WEEKLY_PROMPTS = [
 def post_weekly_discussion(week_data):
     """Post weekly discussion prompt to Slack"""
     client = WebClient(token=SLACK_TOKEN)
-    
+
     blocks = [
         {
             "type": "header",
@@ -144,7 +144,7 @@ def post_weekly_discussion(week_data):
             "type": "section",
             "text": {
                 "type": "mrkdwn",
-                "text": f"*Discussion Questions for {BOOK_TITLE}*\n\n" + 
+                "text": f"*Discussion Questions for {BOOK_TITLE}*\n\n" +
                         "\n".join([f"• {q}" for q in week_data['questions']])
             }
         },
@@ -161,7 +161,7 @@ def post_weekly_discussion(week_data):
             ]
         }
     ]
-    
+
     try:
         response = client.chat_postMessage(
             channel=CHANNEL_ID,
@@ -177,7 +177,7 @@ def post_weekly_discussion(week_data):
 def schedule_book_club(weeks=TOTAL_WEEKS):
     """Schedule the entire book club cadence"""
     start_date = datetime.now()
-    
+
     for i, week_data in enumerate(WEEKLY_PROMPTS[:weeks]):
         week_start = start_date + timedelta(weeks=i)
         print(f"Week {week_data['week']}: {week_start.strftime('%Y-%m-%d')}")
@@ -224,21 +224,21 @@ def categorize_responses(messages):
         'questions_raised': [],
         'controversial_points': []
     }
-    
+
     keywords = {
         'key_takeaways': ['takeaway', 'important', 'key insight', 'realized'],
         'implementation_ideas': ['implement', 'try', 'could', 'should'],
         'questions_raised': ['?', 'wonder', 'how do we', 'what if'],
         'controversial_points': ['disagree', 'concern', 'problem', 'challenge']
     }
-    
+
     for msg in messages:
         text_lower = msg['text'].lower()
         for category, terms in keywords.items():
             if any(term in text_lower for term in terms):
                 categories[category].append(msg)
                 break
-    
+
     return categories
 
 def generate_summary(categorized_responses, output_file):
@@ -246,7 +246,7 @@ def generate_summary(categorized_responses, output_file):
     with open(output_file, 'w') as f:
         f.write(f"# Book Club Discussion Summary\n")
         f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d')}\n\n")
-        
+
         for category, messages in categorized_responses.items():
             f.write(f"## {category.replace('_', ' ').title()}\n\n")
             for msg in messages:

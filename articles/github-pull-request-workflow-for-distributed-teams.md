@@ -201,7 +201,7 @@ jobs:
           script: |
             const labels = ['needs-review'];
             const reviewers = ['team-member-1', 'team-member-2'];
-            
+
             github.rest.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -259,8 +259,6 @@ git merge --no-ff feature-branch
 Squash merging keeps main history linear and makes rollback simpler. For distributed teams, the reduced complexity outweighs preserving every commit.
 
 A well-designed pull request workflow compensates for the lack of face-to-face interaction. Clear conventions, explicit expectations, and thoughtful automation transform pull requests from bottlenecks into efficient collaboration channels. Start with these patterns and adapt them to your team's specific time zones and working styles.
-
-
 
 
 ## Related Articles

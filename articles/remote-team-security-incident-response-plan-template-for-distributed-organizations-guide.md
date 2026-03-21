@@ -49,7 +49,7 @@ severity_levels:
       - "Customer data exfiltration detected"
       - "Production database fully encrypted by ransomware"
       - "Complete AWS account compromise"
-  
+
   P2_high:
     description: "Significant security event requiring urgent attention"
     response_time: "Within 1 hour"
@@ -58,7 +58,7 @@ severity_levels:
       - "Suspicious API key usage pattern detected"
       - "Unauthorized access to internal systems"
       - "Potential credential stuffing attack"
-  
+
   P3_medium:
     description: "Security anomaly requiring investigation"
     response_time: "Within 4 hours"
@@ -67,7 +67,7 @@ severity_levels:
       - "Failed login attempts from unusual locations"
       - "Unfamiliar OAuth tokens in application logs"
       - "Unusual data access patterns"
-  
+
   P4_low:
     description: "Security observation, informational only"
     response_time: "Within 24 hours"
@@ -88,7 +88,7 @@ When an alert fires, the first responder follows this process:
 # incident_triage.py - Automated initial triage
 def handle_security_alert(alert):
     severity = classify_severity(alert)
-    
+
     # Create incident record immediately
     incident = create_incident_record(
         title=alert.title,
@@ -97,20 +97,20 @@ def handle_security_alert(alert):
         detector=alert.source,
         affected_systems=alert.impacted_resources
     )
-    
+
     # Notify based on severity
     if severity in ["P1_critical", "P2_high"]:
         page_on_call(severity)
         post_to_security_incident_channel(incident)
         notify_stakeholders_async(incident)
-    
+
     # Assign initial responder
     responder = get_qualified_responder(severity)
     assign_incident(incident, responder)
-    
+
     # Create timeline channel for async updates
     create_incident_channel(incident)
-    
+
     return incident
 ```
 
@@ -207,13 +207,13 @@ After containment and investigation, document the resolution and conduct a post-
 ## Post-Incident Review Template
 
 ### Incident Overview
-**What happened?**  
+**What happened?**
 [Concise description of the security event]
 
-**Root Cause**  
+**Root Cause**
 [Technical explanation of why it occurred]
 
-**Impact**  
+**Impact**
 - Data exposed: [Yes/No] - If yes, what type?
 - Systems affected: [List]
 - Duration: [Start time to resolution time]
@@ -287,7 +287,6 @@ A plan that isn't tested is just a document. For distributed teams, test your in
 - Tabletop exercises: Run through scenarios async in your incident channel, with team members responding as they would during an actual incident
 - On-call rotations: Actually page people at odd hours to test your escalation paths
 - Automation drills: Verify that your automated workflows actually trigger correctly
-
 
 
 ## Related Articles

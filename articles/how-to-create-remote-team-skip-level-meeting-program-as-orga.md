@@ -55,7 +55,7 @@ from collections import defaultdict
 def generate_skip_level_pairs(employees, skip_layers=1):
     """
     Generate skip-level meeting pairs.
-    
+
     Args:
         employees: List of dicts with 'id', 'name', 'manager_id'
         skip_layers: Number of layers to skip (1 = direct skip, 2 = skip two levels)
@@ -63,22 +63,22 @@ def generate_skip_level_pairs(employees, skip_layers=1):
     # Build manager lookup
     reports = defaultdict(list)
     employee_map = {}
-    
+
     for emp in employees:
         employee_map[emp['id']] = emp
         if emp.get('manager_id'):
             reports[emp['manager_id']].append(emp['id'])
-    
+
     pairs = []
     for emp in employees:
         if not emp.get('manager_id'):
             continue
-            
+
         # Find the skip-level manager
         current_manager = employee_map.get(emp['manager_id'])
         if not current_manager:
             continue
-            
+
         # Walk up the hierarchy
         skip_target = current_manager
         for _ in range(skip_layers):
@@ -87,14 +87,14 @@ def generate_skip_level_pairs(employees, skip_layers=1):
             else:
                 skip_target = None
                 break
-        
+
         if skip_target:
             pairs.append({
                 'ic': emp['name'],
                 'skip_level': skip_target['name'],
                 'layers_skipped': skip_layers
             })
-    
+
     return pairs
 
 # Example usage
@@ -147,7 +147,7 @@ Remote teams spread across time zones need thoughtful scheduling. A skip-level m
 def find_optimal_meeting_time(participant_timezones, preferred_window=(9, 17)):
     """
     Find optimal meeting time across time zones.
-    
+
     Returns hours in UTC that work for all participants.
     """
     # Simplified logic - in production use pytz or zoneinfo
@@ -157,11 +157,11 @@ def find_optimal_meeting_time(participant_timezones, preferred_window=(9, 17)):
         for tz_offset in participant_timezones:
             local_hour = (hour_utc + tz_offset) % 24
             local_times.append(local_hour)
-        
+
         # Check if all times fall within preferred window
         if all(preferred_window[0] <= h < preferred_window[1] for h in local_times):
             results.append(hour_utc)
-    
+
     return results if results else "No perfect overlap - rotate schedules"
 ```
 
@@ -200,8 +200,6 @@ For ongoing skip-level communication, consider async supplements. A private Slac
 ```
 
 This keeps the relationship alive without requiring synchronous meetings.
-
-
 
 
 ## Related Articles

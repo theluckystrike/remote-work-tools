@@ -114,7 +114,7 @@ function calculateBillableHours(startTime, endTime, breaks = 0) {
   const end = new Date(endTime);
   const totalMinutes = (end - start) / 1000 / 60;
   const billableMinutes = totalMinutes - breaks;
-  
+
   return {
     total: Math.round(totalMinutes / 60 * 100) / 100,
     billable: Math.round(billableMinutes / 60 * 100) / 100,
@@ -273,7 +273,6 @@ Track these metrics over 12 months:
 - **Indirect revenue**: Rate increases attributable to credibility built
 
 Most freelancers break even on time investment after month 6-8, see positive ROI by month 12. If a community shows no progress after 6 months, exit and try a different one. Your time is your scarcest resource.
-
 
 
 ## Related Articles

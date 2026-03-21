@@ -94,14 +94,14 @@ Every endpoint documentation should contain:
 ```
 /**
  * Get user profile information
- * 
+ *
  * @param {number} userId - The unique identifier for the user
  * @returns {Promise<UserProfile>} The user's profile data
- * 
+ *
  * @example
  * const profile = await getUserProfile(42);
  * console.log(profile.name); // "Jane Developer"
- * 
+ *
  * @throws {NotFoundError} When userId does not exist
  * @throws {UnauthorizedError} When API key is invalid
  */

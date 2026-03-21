@@ -147,7 +147,7 @@ def discover_saas_from_oauth_logs(logs):
     for entry in logs:
         if entry.get('event_type') == 'oauth_grant':
             apps.append(entry.get('client_name'))
-    
+
     app_counts = Counter(apps)
     return app_counts.most_common()
 
@@ -168,7 +168,7 @@ data_classification:
       context: ["credential", "secret", "key"]
     - pattern: "\\d{3}-\\d{2}-\\d{4}"
       context: ["ssn", "social security"]
-  
+
   sensitive:
     - pattern: "\\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b"
       context: ["email"]
@@ -237,7 +237,6 @@ For most remote engineering teams managing multiple SaaS applications:
 The best CASB is one your team will actually use. Start with visibility, then layer on protection capabilities as you understand your data flows.
 
 ---
-
 
 
 ## Related Articles

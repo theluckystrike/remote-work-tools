@@ -168,7 +168,7 @@ import subprocess
 import threading
 
 def on_power_loss():
-    subprocess.run(["rclone", "copy", "/home/dev/projects", 
+    subprocess.run(["rclone", "copy", "/home/dev/projects",
                     "gdrive:backups", "--fast-list"])
 
 def on_power_restore():
@@ -190,8 +190,6 @@ Before moving into your Bali rental:
 - [ ] Obtain necessary plug adapters
 - [ ] Set up automated backup systems
 - [ ] Configure network failover
-
-
 
 
 ## Related Articles

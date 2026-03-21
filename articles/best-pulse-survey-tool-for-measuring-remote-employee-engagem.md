@@ -40,13 +40,13 @@ def schedule_pulse_survey(api_key, survey_id, employee_ids):
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
     }
-    
+
     payload = {
         "employee_ids": employee_ids,
         "send_on": (datetime.now() + timedelta(days=1)).isoformat(),
         "expiry_days": 7
     }
-    
+
     response = requests.post(url, json=payload, headers=headers)
     return response.json()
 
@@ -59,7 +59,7 @@ def get_engagement_trends(api_key, survey_id, date_range):
         "end_date": date_range["end"],
         "breakdown": "question"
     }
-    
+
     response = requests.get(url, headers=headers, params=params)
     return response.json()
 ```
@@ -101,7 +101,7 @@ async function createWeeklyPulse() {
     },
     participant_ids: ['team_member_1', 'team_member_2']
   });
-  
+
   return survey;
 }
 ```
@@ -155,14 +155,14 @@ import qualtrics
 def analyze_engagement_by_segment(survey_id, segments):
     """Compare engagement scores across team segments"""
     results = {}
-    
+
     for segment_name, filter_criteria in segments.items():
         response = qualtrics.responses.list(
             survey_id=survey_id,
             filters=filter_criteria,
             metrics=["mean", "std_dev", "completion_rate"]
         )
-        
+
         results[segment_name] = {
             "avg_engagement": response.metrics["mean"],
             "sentiment_trend": calculate_trend(response.time_series),
@@ -172,7 +172,7 @@ def analyze_engagement_by_segment(survey_id, segments):
                 previous=get_previous_period(survey_id, segment_name)
             )
         }
-    
+
     return results
 
 # Generate automated weekly report
@@ -183,7 +183,7 @@ def generate_engagement_report(survey_id, recipients):
         sections=["executive_summary", "trend_analysis", "action_items"],
         filters={"department": "all"}
     )
-    
+
     email_client.send(
         to=recipients,
         subject=f"Weekly Engagement Report - {datetime.now().strftime('%Y-%m-%d')}",
@@ -223,11 +223,11 @@ import time
 def weekly_pulse_reminder():
     """Run every Monday morning"""
     teams_to_survey = get_active_teams()
-    
+
     for team in teams_to_survey:
         survey_url = get_survey_link(team)
         slack_channel = get_team_channel(team)
-        
+
         slack_client.chat_postMessage(
             channel=slack_channel,
             text=f"📊 Weekly Pulse Check! Your feedback helps us improve. [Take the survey]({survey_url})"

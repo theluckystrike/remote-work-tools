@@ -34,11 +34,11 @@ const wellnessCheckIn = async (userId, mood, energy, stress) => {
     // No PII stored - only aggregate metrics
     week: getWeekNumber(new Date()),
     mood_score: mood,      // 1-5 scale
-    energy_level: energy,  // 1-5 scale  
+    energy_level: energy,  // 1-5 scale
     stress_level: stress,  // 1-5 scale
     timestamp: Date.now()
   };
-  
+
   await fetch(process.env.WELLNESS_WEBHOOK_URL, {
     method: 'POST',
     body: JSON.stringify(payload)
@@ -70,7 +70,7 @@ Allocate a recurring stipend (suggested $50-150 quarterly) for ergonomic improve
 recommended_ergonomic_setup:
   chair:
     - Herman Miller Aeron
-    - Steelcase Leap  
+    - Steelcase Leap
     - Budget: Fully or Kai ami chair
   desk:
     - Motorized standing desk (FlexiSpot, Uplift)
@@ -117,11 +117,11 @@ class FocusSession:
     def __init__(self, duration_minutes=25):
         self.duration = timedelta(minutes=duration_minutes)
         self.participants = []
-        
+
     async def start_session(self, channel):
         start = datetime.now()
         end = start + self.duration
-        
+
         await channel.send(f"🍅 Focus session started! Ends at {end.strftime('%H:%M')}")
         await asyncio.sleep(self.duration.total_seconds())
         await channel.send("🍅 Focus session complete! Take a 5-minute break.")

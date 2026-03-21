@@ -39,10 +39,10 @@ def generate_schedule(chapters, weeks=6):
     """Generate a balanced reading schedule."""
     chapters_per_week = len(chapters) // weeks
     remainder = len(chapters) % weeks
-    
+
     schedule = []
     chapter_idx = 0
-    
+
     for week in range(1, weeks + 1):
         current_week_chapters = chapters_per_week + (1 if week <= remainder else 0)
         week_chapters = chapters[chapter_idx:chapter_idx + current_week_chapters]
@@ -52,7 +52,7 @@ def generate_schedule(chapters, weeks=6):
             'total_pages': sum(ch['pages'] for ch in week_chapters)
         })
         chapter_idx += current_week_chapters
-    
+
     return schedule
 
 # Example usage
@@ -124,7 +124,7 @@ A practical example from a team's Slack channel:
 We just experienced the deployment bottleneck from Chapter 10.
 Let's discuss how the three ways apply to our release process.
 
-💡 Discussion thread: What single change from these chapters 
+💡 Discussion thread: What single change from these chapters
 could we implement in the next sprint?
 ```
 
@@ -166,8 +166,6 @@ Async book clubs require experimentation to find the right fit. Start with a sho
 The key is consistency over intensity. A book club that meets every week for a year produces more value than an intensive program that burns out in two months. Build sustainable habits first, then refine the details based on what your team actually does.
 
 Running async book clubs across distributed engineering teams takes deliberate setup, but the payoff includes stronger team communication, shared technical vocabulary, and continuous learning that doesn't compete with delivery deadlines.
-
-
 
 
 ## Related Articles

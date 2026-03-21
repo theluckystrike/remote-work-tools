@@ -334,8 +334,6 @@ The goal isn't eliminating all communication friction. Some is natural at scale.
 ---
 
 
-
-
 ## Related Articles
 
 - [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)

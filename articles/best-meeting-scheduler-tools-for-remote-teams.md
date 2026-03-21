@@ -82,10 +82,10 @@ What sets Savvycal apart: the "no-show" detection that automatically detects whe
 
 ```html
 <!-- Embed Savvycal booking widget -->
-<iframe 
-  src="https://calendly.com/your-username/30min?embed_type=inline" 
-  width="100%" 
-  height="650" 
+<iframe
+  src="https://calendly.com/your-username/30min?embed_type=inline"
+  width="100%"
+  height="650"
   frameborder="0">
 </iframe>
 ```

@@ -42,13 +42,13 @@ def optimal_meeting_format(project_phase, client_preference, milestone_importanc
     # High-stakes moments warrant in-person regardless of preference
     if milestone_importance == "critical":
         return "in_person"
-    
+
     # Project phases that benefit from physical presence
     in_person_phases = ["kickoff", "phase_completion", "relationship_recovery"]
-    
+
     if project_phase in in_person_phases:
         return "in_person" if client_preference == "in_person" else "video"
-    
+
     # Default to remote for regular sync meetings
     return "video"
 
@@ -137,24 +137,24 @@ class ClientRelationshipManager:
         self.preferred_contact_style = preferred_contact_style
         self.relationship_milestones = []
         self.personal_notes = []
-    
+
     def schedule_check_in(self, check_in_type):
         """Schedule appropriate check-in based on client preferences"""
         if self.preferred_contact_style == "in_person":
             return self._plan_in_person_visit(check_in_type)
         else:
             return self._plan_remote_check_in(check_in_type)
-    
+
     def add_personal_note(self, note):
         """Remember personal details for relationship building"""
         self.personal_notes.append({
             "date": "2026-03-16",
             "note": note
         })
-    
+
     def _plan_in_person_visit(self, check_in_type):
         return f"Plan flight for {self.client_name} - {check_in_type} meeting"
-    
+
     def _plan_remote_check_in(self, check_in_type):
         return f"Schedule video call for {self.client_name} - {check_in_type}"
 ```
@@ -168,8 +168,6 @@ Start by having an honest conversation with your client about their preferences.
 Remember: the goal isn't to convince clients that remote work is superior. It's to build enough trust that they feel comfortable with your chosen work style. When clients see you're genuinely invested in their success and willing to meet them partway, their preference for in-person meetings becomes a manageable challenge rather than an insurmountable barrier.
 
 ---
-
-
 
 
 ## Related Articles

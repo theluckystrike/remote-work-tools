@@ -39,10 +39,10 @@ function calculateFirstResponseTime(ticketCreated, firstResponse, timezoneOffset
   // Convert everything to UTC milliseconds for comparison
   const createdUTC = new Date(ticketCreated).getTime();
   const responseUTC = new Date(firstResponse).getTime();
-  
+
   // Calculate the difference in minutes
   const responseTimeMinutes = (responseUTC - createdUTC) / (1000 * 60);
-  
+
   return {
     minutes: responseTimeMinutes,
     hours: responseTimeMinutes / 60,
@@ -77,7 +77,7 @@ class BusinessHoursCalculator:
         self.work_start = work_start
         self.work_end = work_end
         self.excluded_days = excluded_days  # 0=Monday, 6=Sunday
-    
+
     def is_business_hour(self, dt):
         """Check if datetime falls within business hours"""
         if dt.weekday() in self.excluded_days:
@@ -85,26 +85,26 @@ class BusinessHoursCalculator:
         if dt.hour < self.work_start or dt.hour >= self.work_end:
             return False
         return True
-    
+
     def next_business_hour(self, dt):
         """Advance to the next business hour"""
         while not self.is_business_hour(dt):
             dt += timedelta(hours=1)
         return dt
-    
+
     def calculate_business_hours_frt(self, created_str, responded_str, timezone='UTC'):
         """Calculate FRT excluding non-business hours"""
         created = datetime.fromisoformat(created_str.replace('Z', '+00:00'))
         responded = datetime.fromisoformat(responded_str.replace('Z', '+00:00'))
-        
+
         current = created
         business_hours = timedelta(0)
-        
+
         while current < responded:
             if self.is_business_hour(current):
                 business_hours += timedelta(hours=1)
             current += timedelta(hours=1)
-        
+
         return business_hours.total_seconds() / 3600  # Return hours
 
 # Usage example
@@ -127,7 +127,7 @@ Most helpdesk platforms support custom queries you can use to surface FRT issues
 ```javascript
 // Calculate average FRT by agent for the last 7 days
 const queryFRTByAgent = `
-  SELECT 
+  SELECT
     agent.name as agent_name,
     COUNT(tickets.id) as ticket_count,
     AVG(TIMESTAMPDIFF(SECOND, tickets.created_at, tickets.first_response_at)) / 60 as avg_frt_minutes
@@ -143,7 +143,7 @@ const queryFRTByAgent = `
 
 ```sql
 -- Find tickets that exceeded 4-hour FRT threshold
-SELECT 
+SELECT
     t.ticket_id,
     t.subject,
     c.name as customer_name,
@@ -151,8 +151,8 @@ SELECT
     t.created_at as ticket_created,
     t.first_response_at,
     EXTRACT(EPOCH FROM (t.first_response_at - t.created_at)) / 60 as frt_minutes,
-    CASE 
-        WHEN EXTRACT(EPOCH FROM (t.first_response_at - t.created_at)) / 60 > 240 
+    CASE
+        WHEN EXTRACT(EPOCH FROM (t.first_response_at - t.created_at)) / 60 > 240
         THEN 'SLA_BREACHED'
         ELSE 'WITHIN_SLA'
     END as sla_status
@@ -173,12 +173,12 @@ Proactive notification prevents SLA breaches rather than just reporting them aft
 async function checkFRTThresholds(tickets) {
   const WARNING_THRESHOLD_MINUTES = 120;  // 2 hours
   const CRITICAL_THRESHOLD_MINUTES = 240; // 4 hours
-  
+
   for (const ticket of tickets) {
     const frtMinutes = (Date.now() - new Date(ticket.created_at).getTime()) / 60000;
-    
+
     if (ticket.first_response_at) continue;  // Already responded
-    
+
     if (frtMinutes >= CRITICAL_THRESHOLD_MINUTES) {
       await sendAlert({
         channel: '#support-critical',
@@ -229,7 +229,6 @@ Track these secondary metrics alongside raw FRT to understand the full picture:
 - **FRT by ticket channel** — Email, chat, and social media may have different response patterns
 - **FRT by agent tenure** — New agents may need additional support during onboarding
 - **Customer satisfaction correlation** — Verify that FRT improvements actually translate to better CSAT scores
-
 
 
 ## Related Articles

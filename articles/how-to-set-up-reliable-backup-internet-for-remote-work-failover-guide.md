@@ -310,7 +310,6 @@ For business-critical setups, implement automatic monitoring:
 Most dual-WAN routers log failover events. Check logs quarterly to confirm failover is working as expected (if no failovers in 3 months, test manually to ensure functionality).
 
 
-
 ## Related Articles
 
 - [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)

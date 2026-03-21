@@ -59,21 +59,21 @@ import time
 def check_connection():
     """Evaluate cafe Wi-Fi quality before committing to work."""
     print("Testing cafe network...")
-    
+
     # Check basic connectivity
-    result = subprocess.run(['ping', '-c', '3', '8.8.8.8'], 
+    result = subprocess.run(['ping', '-c', '3', '8.8.8.8'],
                          capture_output=True, timeout=10)
     if result.returncode != 0:
         print("❌ No internet connection")
         return False
-    
+
     # Run speed test
     st = speedtest.Speedtest()
     download = st.download() / 1_000_000  # Mbps
     upload = st.upload() / 1_000_000
-    
+
     print(f"Speed: ↓{download:.1f} Mbps  ↑{upload:.1f} Mbps")
-    
+
     # Minimum thresholds for productive work
     if download < 5:
         print("⚠️  Slow connection - avoid large downloads")
@@ -81,7 +81,7 @@ def check_connection():
     if download < 2:
         print("❌ Unusable for productive work")
         return False
-    
+
     print("✓ Connection suitable for remote work")
     return True
 

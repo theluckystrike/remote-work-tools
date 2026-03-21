@@ -132,12 +132,12 @@ pre_anchor_day:
       ### In-Office Participants
       - @alice (Frontend)
       - @bob (Backend)
-      
+
       ### Discussion Topics
       1. Sprint retrospective findings
       2. API versioning decision
       3. Infrastructure budget review
-      
+
       ### Remote Team Members to Sync With
       - @carol: Discuss API approach
       - @dave: Review infrastructure costs
@@ -205,7 +205,6 @@ Ignoring commute variation: A 90-minute commute for occasional in-office days is
 Making anchor days purely social: If the only value of being in-office is "water cooler moments," teams will question why they can't work remotely. Anchor days should enable work that genuinely benefits from physical co-location: whiteboarding sessions, complex debugging, hiring interviews.
 
 Neglecting async documentation: Without explicit async handoffs, anchor days create information silos that harm remote team members.
-
 
 
 ## Related Articles

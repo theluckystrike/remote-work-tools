@@ -93,15 +93,15 @@ const readline = require('readline');
 function startFocusSession(minutes, task) {
   console.log(`🎯 Starting ${minutes}-minute focus session: ${task}`);
   console.log('Press Ctrl+C to stop early\n');
-  
+
   let remaining = minutes * 60;
-  
+
   const interval = setInterval(() => {
     remaining--;
     const mins = Math.floor(remaining / 60);
     const secs = remaining % 60;
     process.stdout.write(`\r${mins}:${secs.toString().padStart(2, '0')} `);
-    
+
     if (remaining <= 0) {
       clearInterval(interval);
       console.log('\n🔔 Focus session complete!');
@@ -181,9 +181,9 @@ function startTimer() {
     seconds--;
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
-    document.getElementById('timer-display').textContent = 
+    document.getElementById('timer-display').textContent =
       `${mins}:${secs.toString().padStart(2, '0')}`;
-    
+
     if (seconds <= 0) {
       clearInterval(interval);
       document.getElementById('timer-display').textContent = "Time!";
@@ -244,8 +244,6 @@ Remote working parents who succeed don't have better willpower—they have bette
 Start with one change this week. Perhaps it's the visual timer. Perhaps it's blocking off 8:30-11:30 on your calendar. Small improvements compound into sustainable routines that let you thrive as both a developer and a parent.
 
 ---
-
-
 
 
 ## Related Articles

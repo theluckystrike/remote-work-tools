@@ -57,7 +57,7 @@ Quizizz distinguishes itself with asynchronous quiz capability, allowing partici
 ```javascript
 // Quizizz embed integration for Slack
 const quizizzEmbed = `
-<div data-quizizz-embed="true" 
+<div data-quizizz-embed="true"
      data-quiz-id="YOUR_QUIZ_ID"
      data-width="100%"
      data-height="600px">
@@ -132,12 +132,12 @@ trivia = TriviaNerdClient(api_key=os.environ["TRIVIANERD_KEY"])
 
 def schedule_trivia_event(channel_id, game_config):
     game = trivia.create_game(config=game_config)
-    
+
     slack.chat_postMessage(
         channel=channel_id,
         text=f"🏆 Team Trivia Night! Join at: {game.join_url}"
     )
-    
+
     return game
 ```
 
@@ -370,7 +370,6 @@ volumes:
 ```
 
 Self-hosting costs ~$20-50/month in hosting (VPS) and requires some DevOps knowledge, but gives you complete control over data and customization.
-
 
 
 ## Related Articles

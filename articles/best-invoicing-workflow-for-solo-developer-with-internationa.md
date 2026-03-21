@@ -100,9 +100,9 @@ import json
 
 def generate_invoice(client_data, items, invoice_num):
     date = datetime.date.today()
-    
+
     invoice = f"""# INVOICE
-    
+
 **Invoice Number:** {invoice_num}
 **Date:** {date}
 **Due Date:** {date + datetime.timedelta(days=30)}
@@ -118,10 +118,10 @@ def generate_invoice(client_data, items, invoice_num):
 | Description | Quantity | Rate | Amount |
 |-------------|-----------|------|--------|
 """
-    
+
     for item in items:
         invoice += f"| {item['desc']} | {item['qty']} | ${item['rate']} | ${item['qty'] * item['rate']} |\n"
-    
+
     total = sum(item['qty'] * item['rate'] for item in items)
     invoice += f"""
 ---
@@ -129,7 +129,7 @@ def generate_invoice(client_data, items, invoice_num):
 
 Payment due within 30 days.
 """
-    
+
     return invoice
 
 # Example usage
@@ -181,7 +181,6 @@ Keep communications professional but firm. Consistent follow-up on overdue invoi
 ## Final Recommendations
 
 Consistent invoice numbering, organized client records, and a centralized payment tracker are the foundation. Clarify payment terms before starting work, and consult a tax professional about your specific situation—tax rules vary significantly based on your home country, client locations, and the nature of your services.
-
 
 
 ## Related Articles

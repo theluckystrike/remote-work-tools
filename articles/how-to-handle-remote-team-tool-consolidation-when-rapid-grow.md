@@ -125,7 +125,7 @@ For data migration concerns, invest in proper export and import processes. Most 
 // Example: Script to export Trello cards to Notion
 async function migrateCards(trelloBoardId, notionDatabaseId) {
   const trelloCards = await fetchTrelloCards(trelloBoardId);
-  
+
   for (const card of trelloCards) {
     await notionClient.pages.create({
       parent: { database_id: notionDatabaseId },
@@ -183,8 +183,6 @@ Track consolidation results over time. Three months after migration, review:
 - Number of new tool requests versus previous quarter
 
 These metrics justify the effort and identify areas for further optimization.
-
-
 
 
 ## Related Articles

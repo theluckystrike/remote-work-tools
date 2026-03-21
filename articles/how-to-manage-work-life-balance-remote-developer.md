@@ -139,12 +139,12 @@ function setSlackStatus() {
   const calendar = CalendarApp.getDefaultCalendar();
   const now = new Date();
   const events = calendar.getEventsForDay(now);
-  
-  const hasMeeting = events.some(e => 
-    e.getTitle().includes('1:1') || 
+
+  const hasMeeting = events.some(e =>
+    e.getTitle().includes('1:1') ||
     e.getTitle().includes('Standup')
   );
-  
+
   if (hasMeeting) {
     // Set status via Slack API
   }
@@ -207,8 +207,6 @@ Start with one change. Implement time blocking for a week. Add the end-of-day sc
 Work-life balance isn't about perfect equilibrium every day. It's about systems that prevent chronic imbalance while allowing flexibility when projects demand extra effort.
 
 ---
-
-
 
 
 ## Related Articles

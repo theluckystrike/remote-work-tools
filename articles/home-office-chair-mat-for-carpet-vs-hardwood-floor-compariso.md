@@ -120,19 +120,19 @@ MATS = {
 def score_mat(floor_type, priorities):
     """Score mats based on floor type and priorities."""
     scores = {}
-    
+
     for name, mat in MATS.items():
         score = 0
         if mat["type"] == floor_type:
             score += 50  # Base match bonus
         score += mat["durability_years"] * 10
         score += min(mat["weight_capacity_lbs"] / 10, 30)
-        
+
         if priorities.get("budget") and mat["price_tier"] == "budget":
             score += 20
-            
+
         scores[name] = score
-    
+
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
 # Example: Choosing for hardwood with budget priority
@@ -171,8 +171,6 @@ For most home office setups:
 - Mixed flooring: Universal mat with moderate thickness, or two mats for different zones
 
 The right chair mat is an investment in both your comfort and your flooring. Take time to measure your carpet depth or verify your floor type, check your chair's caster type, and choose materials appropriate to your specific situation. Your joints—and your floor—will thank you after years of daily use.
-
-
 
 
 ## Related Articles

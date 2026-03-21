@@ -37,12 +37,12 @@ import requests
 def submit_to_turnitin(file_path, api_key, assignment_id):
     """Submit document to Turnitin for plagiarism checking."""
     url = "https://api.turnitin.com/api/v1/submissions"
-    
+
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
     }
-    
+
     with open(file_path, 'rb') as file:
         files = {'file': file}
         data = {
@@ -50,7 +50,7 @@ def submit_to_turnitin(file_path, api_key, assignment_id):
             'assignment_id': assignment_id,
             'title': 'Student Submission'
         }
-        
+
         response = requests.post(url, files=files, data=data, headers=headers)
         return response.json()
 
@@ -73,9 +73,9 @@ import copyscape
 def check_plagiarism(text, api_username, api_key):
     """Check text against Copyscape's web database."""
     client = copyscape.BothCopyscape(api_username, api_key)
-    
+
     result = client.check_text(text)
-    
+
     return {
         'matches': result.count,
         'sources': [
@@ -137,12 +137,12 @@ import time
 def scan_document(file_path, api_key):
     """Submit document to Copyleaks for AI-powered analysis."""
     url = "https://api.copyleaks.com/v3/scans/submit/file"
-    
+
     headers = {
         "Authorization": api_key,
         "Content-Type": "application/json"
     }
-    
+
     with open(file_path, 'rb') as file:
         files = {'file': file}
         data = {
@@ -150,21 +150,21 @@ def scan_document(file_path, api_key):
             'sandbox': False,
             'HttpTimeout': 60
         }
-        
+
         response = requests.post(url, files=files, data=data, headers=headers)
         return response.json()
 
 def get_results(scan_id, api_key):
     """Retrieve plagiarism scan results."""
     url = f"https://api.copyleaks.com/v3/scans/{scan_id}/results"
-    
+
     while True:
         response = requests.get(url, headers={"Authorization": api_key})
         status = response.json()['status']
-        
+
         if status == 'finished':
             return response.json()['results']
-        
+
         time.sleep(5)  # Wait before checking again
 ```
 
@@ -182,18 +182,18 @@ import requests
 def check_quetext(text, api_key):
     """Submit text for plagiarism checking via Quetext API."""
     url = "https://api.quetext.com/v1/check"
-    
+
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
     }
-    
+
     payload = {
         "text": text,
         "searchDepth": "deep",
         "includeCitations": True
     }
-    
+
     response = requests.post(url, json=payload, headers=headers)
     return response.json()
 
@@ -216,10 +216,10 @@ class PlagiarismChecker:
             'copyleaks': CopyleaksClient(config['copyleaks_key']),
             'copyscape': CopyscapeClient(config['copyscape_user'], config['copyscape_key']),
         }
-    
+
     def check(self, text, source='student_submission'):
         results = []
-        
+
         # Run checks in parallel
         for tool_name, client in self.tools.items():
             try:
@@ -231,15 +231,15 @@ class PlagiarismChecker:
                 })
             except Exception as e:
                 print(f"{tool_name} check failed: {e}")
-        
+
         # Aggregate results
         return self.aggregate_results(results)
-    
+
     def aggregate_results(self, results):
         """Combine results from multiple sources."""
         total_matches = sum(r['matches'] for r in results)
         avg_score = sum(r['score'] for r in results) / len(results) if results else 0
-        
+
         return {
             'total_matches': total_matches,
             'average_similarity': avg_score,
@@ -271,8 +271,6 @@ Budget: Copyscape and Quetext offer pay-per-use models ideal for smaller operati
 Real-Time Feedback: Grammarly provides the best writing-time feedback. For post-submission analysis, Turnitin and Copyleaks offer more detailed reporting.
 
 The right tool depends on your specific requirements. Many platforms use multiple tools for coverage—Copyscape for web content, Turnitin for academic papers, and Copyleaks for AI-detected paraphrasing.
-
-
 
 
 ## Related Articles

@@ -70,7 +70,7 @@ on:
   issues:
     types: [opened]
     labels: [onboarding]
-  
+
 jobs:
   setup-checklist:
     runs-on: ubuntu-latest
@@ -130,7 +130,7 @@ def get_onboarding_progress(employee_id):
 def complete_task(employee_id):
     data = request.json
     task = OnboardingTask.query.filter_by(
-        employee_id=employee_id, 
+        employee_id=employee_id,
         task_name=data['task_name']
     ).first()
     if task:
@@ -168,7 +168,7 @@ async function notifyOnboardingComplete(employeeName, completedTasks) {
       }
     ]
   };
-  
+
   await fetch(webhookUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

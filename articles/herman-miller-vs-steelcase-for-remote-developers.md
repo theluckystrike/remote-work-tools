@@ -46,16 +46,16 @@ def calculate_chair_roi(hours_per_day, years=5):
     """
     daily_hours = hours_per_day
     annual_cost = daily_hours * 260  # working days
-    
+
     # Productivity assumption: 5% improvement from better ergonomics
     hourly_rate = 75  # median developer rate
     productivity_gain = 0.05
-    
+
     annual_benefit = annual_cost * hourly_rate * productivity_gain
-    
+
     # Premium chair costs ~$1,500
     chair_cost = 1500
-    
+
     roi = ((annual_benefit * years) - chair_cost) / chair_cost * 100
     return roi
 
@@ -305,8 +305,6 @@ Consider the full lifecycle:
 **Takeaway**: Herman Miller chairs hold value better, making long-term ownership cheaper. If you plan to keep the chair 5+ years, the premium upfront cost is recouped through resale value.
 
 ---
-
-
 
 
 ## Related Articles

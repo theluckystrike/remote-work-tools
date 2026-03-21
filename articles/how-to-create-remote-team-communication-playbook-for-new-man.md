@@ -76,14 +76,14 @@ Define realistic response windows based on your team's time zone distribution:
 # Calculate reasonable response windows based on overlap
 def response_time_calculator(team_timezones, message_priority):
     overlap_hours = calculate_overlap(team_timezones)
-    
+
     if message_priority == "urgent":
         return "30 minutes during overlap, else acknowledge within 2 hours"
     elif message_priority == "normal":
         return f"{min(overlap_hours * 2, 8)} hours"
     elif message_priority == "low":
         return "24 hours"
-    
+
     return "24 hours"
 ```
 
@@ -133,19 +133,19 @@ Your playbook should specify:
 
 1. **Always share an agenda 24 hours in advance**
    - Include the purpose, expected outcomes, and required participants
-   
+
 2. **Record meetings when possible**
    - Use tools that generate automatic transcripts
    - Store recordings in a shared location with timestamps
-   
+
 3. **Respect time zones**
    - Rotate meeting times to share the burden of inconvenient hours
    - Use a tool like WorldTimeBuddy to find overlapping times
-   
+
 4. **Default to video optional**
    - Camera-on is encouraged but not required
    - Use collaborative documents for real-time note-taking
-   
+
 5. **End with clear action items**
    - Assign owners and deadlines
    - Send summary within 2 hours of meeting end
@@ -192,7 +192,6 @@ Gather feedback through simple async surveys:
 3. What's one change that would improve our async communication?
 4. How can our meetings be more effective?
 ```
-
 
 
 ## Related Articles

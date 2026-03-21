@@ -118,17 +118,17 @@ def complete_onboarding_step(user_id: str, step: str) -> dict:
     """
     user = get_user(user_id)
     required_steps = ["profile", "email_verified", "team_join", "first_task"]
-    
+
     if step not in required_steps:
         raise ValueError(f"Invalid step: {step}")
-    
+
     user.onboarding_steps.append(step)
-    
+
     # This condition has a logic error
     if len(user.onboarding_steps) == len(required_steps):
         user.status = "onboarded"
         send_welcome_notification(user)
-    
+
     save_user(user)
     return user.onboarding_status
 ```
@@ -213,13 +213,13 @@ For teams with regular hiring cadence, programmatic onboarding assignment saves 
 function assignOnboarding(employee) {
   const role = employee.metadata.role;
   const team = employee.metadata.team;
-  
+
   const path = learningPaths[role];
   if (!path) {
     console.error(`No learning path for role: ${role}`);
     return;
   }
-  
+
   const assignments = path.modules.map(module => ({
     employeeId: employee.id,
     moduleId: module.id,
@@ -227,7 +227,7 @@ function assignOnboarding(employee) {
     dueDate: calculateDueDate(module.duration, employee.startDate),
     prerequisites: module.prerequisites
   }));
-  
+
   db.onboardingAssignments.insertMany(assignments);
   notification.send(employee, "Your onboarding modules are ready");
 }

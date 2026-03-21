@@ -83,19 +83,19 @@ import requests
 # Example: Trigger BambooHR onboarding workflow via API
 def trigger_onboarding(employee_id, start_date, department):
     url = "https://api.bamboohr.com/api/gateway.php/{subdomain}/v1/employees/{employee_id}/onboarding"
-    
+
     payload = {
         "startDate": start_date,
         "department": department,
         "workflowId": "remote-engineer-onboarding"
     }
-    
+
     response = requests.post(
-        url, 
+        url,
         json=payload,
         auth=("api_key", "x")
     )
-    
+
     return response.status_code == 201
 ```
 
@@ -200,7 +200,7 @@ triggers:
   - type: scheduled
     cron: "0 9 1,15 * *"  # 1st and 15th of each month
     batch_size: 5-15
-    
+
 tasks:
   - stage: pre-boarding (T-14)
     parallel: true
@@ -209,14 +209,14 @@ tasks:
       - order equipment
       - create accounts
       - assign buddy
-      
+
   - stage: day-1 (T=0)
     sequential: true
     items:
       - send first-day checklist
       - schedule orientation session
       - verify document completion
-      
+
   - stage: first-week (T+1 to T+5)
     items:
       - complete compliance training

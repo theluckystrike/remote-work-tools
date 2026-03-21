@@ -182,10 +182,10 @@ You can automate much of the expectation-setting using tools like Slack's schedu
 
 app.message(async ({ message, say }) => {
   if (message.channel_type !== 'im') return;
-  
+
   const now = new Date();
   const hour = now.getUTCHours();
-  
+
   // Outside core hours (10-16 UTC)
   if (hour < 10 || hour >= 16) {
     await say({
@@ -201,7 +201,6 @@ app.message(async ({ message, say }) => {
 The most effective response time strategy is reliability. When you commit to responding within a timeframe, meet that commitment consistently. Your reputation as a remote worker builds on predictable behavior more than rapid responses.
 
 If circumstances change—travel, illness, heavy workload—communicate proactively. A quick message like "Swamped today, may take 24 hours for PR reviews" is far better than leaving teammates guessing.
-
 
 
 ## Related Articles

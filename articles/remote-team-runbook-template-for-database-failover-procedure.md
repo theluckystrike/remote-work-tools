@@ -166,7 +166,7 @@ patronictl -c /etc/patroni.yml promote "$REPLICA_HOST"
 # Verify promotion succeeded
 if pg_isready -h "$NEW_PRIMARY" -p 5432; then
     echo "✅ Failover completed successfully"
-    
+
     # Notify the team
     curl -X POST "$SLACK_WEBHOOK" \
       -H 'Content-type: application/json' \
@@ -299,7 +299,6 @@ Create an incident report within 24 hours of the failover:
 **Practice the runbook regularly.** Schedule quarterly failover drills. Test the process with a non-production database to identify gaps before real incidents expose them.
 
 **Establish clear ownership rotation.** Ensure that failover authority is not limited to a single person. Train multiple team members and rotate on-call schedules to provide coverage across time zones.
-
 
 
 ## Related Articles

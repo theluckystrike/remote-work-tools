@@ -46,11 +46,11 @@ const testAudioLatency = async () => {
   const audioContext = new AudioContext();
   const oscillator = audioContext.createOscillator();
   const startTime = audioContext.currentTime;
-  
+
   oscillator.connect(audioContext.destination);
   oscillator.start(startTime);
   oscillator.stop(startTime + 0.1);
-  
+
   console.log(`Audio context state: ${audioContext.state}`);
   console.log('For accurate measurements, use specialized tools like RTLAM');
 };
@@ -360,7 +360,6 @@ Year 3: Noticeable issues
 - [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
 
 Built by
-
 
 
 ## Related Articles

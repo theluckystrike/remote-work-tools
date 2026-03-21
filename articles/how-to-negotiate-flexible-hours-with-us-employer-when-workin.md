@@ -30,10 +30,10 @@ function calculateOverlap(europeOffset, usOffset, europeStartHour = 9, europeEnd
   const europeWorkEnd = europeEndHour - europeOffset;
   const usWorkStart = 9 - usOffset;  // US 9 AM
   const usWorkEnd = 17 - usOffset;   // US 5 PM
-  
+
   const overlapStart = Math.max(europeWorkStart, usWorkStart);
   const overlapEnd = Math.min(europeWorkEnd, usWorkEnd);
-  
+
   return {
     hours: Math.max(0, overlapEnd - overlapStart),
     start: overlapStart,
@@ -118,7 +118,7 @@ on_call_coverage:
     hours: "16:00 - 24:00 UTC"
     covers: "US evening / after hours"
   us_team:
-    timezone: PST  
+    timezone: PST
     hours: "16:00 - 24:00 UTC"
     covers: "EU evening / after hours"
 ```
@@ -277,7 +277,6 @@ Before negotiating flexible hours, understand the legal landscape:
 **Tax implications**: Flexible hours might affect how your income is taxed or claimed. Unusual hour patterns shouldn't affect tax treatment, but document the arrangement in case of audit.
 
 When in doubt, have your employer's HR department (not just your manager) acknowledge the flexible arrangement in writing.
-
 
 
 ## Related Articles

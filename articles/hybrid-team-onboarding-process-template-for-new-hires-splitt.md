@@ -203,8 +203,8 @@ This first contribution builds confidence and demonstrates the deployment pipeli
 ```markdown
 ## First Task: Add User Preference Toggle
 
-**Estimated time:** 2-3 days  
-**Difficulty:** Beginner  
+**Estimated time:** 2-3 days
+**Difficulty:** Beginner
 **Prerequisites:** None (good first issue!)
 
 ### Background
@@ -263,8 +263,6 @@ Every hybrid team has different dynamics. Adjust this template based on:
 The key principle remains constant: new hires need equal opportunity to succeed whether they work from home or the office. Your onboarding process should reflect that value from day one.
 
 ---
-
-
 
 
 ## Related Articles

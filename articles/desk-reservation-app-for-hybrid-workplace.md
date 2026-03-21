@@ -112,18 +112,18 @@ function DeskGrid({ desks, reservations, selectedDate, onSelectDesk }) {
     const deskReservations = reservations.filter(
       r => r.deskId === desk.id && r.date === selectedDate
     );
-    
+
     if (deskReservations.length === 0) return 'available';
-    
+
     const now = new Date();
     const currentMinutes = now.getHours() * 60 + now.getMinutes();
-    
+
     const isCurrentlyOccupied = deskReservations.some(r => {
       const start = timeToMinutes(r.startTime);
       const end = timeToMinutes(r.endTime);
       return currentMinutes >= start && currentMinutes < end;
     });
-    
+
     return isCurrentlyOccupied ? 'occupied' : 'reserved';
   };
 
@@ -203,7 +203,7 @@ app.get('/api/analytics/utilization', async (req, res) => {
 
   const totalWorkDays = getWorkDaysBetween(startDate, endDate);
   const totalDesks = await db.desks.countDocuments({ floor });
-  
+
   const utilizationRate = (reservations.length / (totalDesks * totalWorkDays)) * 100;
 
   res.json({
@@ -248,8 +248,6 @@ Rate limiting prevents automated booking scripts from flooding your system. Set 
 Start with the core functionality: viewing desk availability and creating reservations. Add calendar integration and analytics as secondary features. The API-first approach lets you build multiple frontends—web, mobile, or Slack bot—using the same backend.
 
 A desk reservation app for hybrid workplace solves a genuine operational problem. The patterns in this guide scale from small teams to enterprise deployments. Focus on conflict resolution, user experience, and integration with existing tools to drive adoption across your organization.
-
-
 
 
 ## Related Articles

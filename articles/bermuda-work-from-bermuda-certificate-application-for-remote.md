@@ -103,7 +103,7 @@ class BermudaTaxConsiderations:
     def __init__(self, home_country, income_type):
         self.home_country = home_country
         self.income_type = income_type
-        
+
     def check_tax_obligations(self):
         tax_rules = {
             "US": "Citizen-based taxation - owe US tax on global income",
@@ -112,7 +112,7 @@ class BermudaTaxConsiderations:
             "EU_countries": "Varies by country - check bilateral treaties"
         }
         return tax_rules.get(self.home_country, "Consult tax professional")
-    
+
     def bermuda_benefits(self):
         return [
             "No local income tax in Bermuda",

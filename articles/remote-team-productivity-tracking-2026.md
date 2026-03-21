@@ -248,7 +248,6 @@ gcalcli --calendar "Work" agenda \
 **Alert threshold:** If anyone on your team is in meetings more than 15 hours per week, that's a problem worth addressing before tracking anything else.
 
 
-
 ## Related Articles
 
 - [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)

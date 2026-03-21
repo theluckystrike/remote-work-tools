@@ -114,7 +114,7 @@ jobs:
           gh api orgs/${{ github.organization }}/membership/${{ inputs.username }} \
             --method PUT \
             -F role='member'
-      
+
       - name: Add user to teams
         run: |
           for team in $(echo "${{ inputs.teams }}" | tr ',' '\n'); do
@@ -145,7 +145,7 @@ def create_welcome_channels(username):
         "#engineering-general",
         "#ops-support"
     ]
-    
+
     for channel in channels:
         try:
             response = client.conversations_create(name=channel)
@@ -171,7 +171,7 @@ def schedule_welcome_message(channel_id, new_hire_name):
                 "Check your DM for your first week's checklist.",
         "post_at": (datetime.now() + timedelta(hours=1)).isoformat()
     }
-    
+
     response = client.chat_scheduleMessage(**message)
     return response['scheduled_message_id']
 ```
@@ -223,21 +223,21 @@ A single Python script can orchestrate the entire first-day provisioning:
 ```python
 def onboard_employee(name, email, github_username, slack_id):
     """Full onboarding orchestration for day one."""
-    
+
     # 1. Create Notion page
     notion_page = create_onboarding_page(name, email)
-    
+
     # 2. Provision GitHub access
     github_teams = ['engineering', 'backend', 'oncall-rotation']
     provision_github_access(github_username, github_teams)
-    
+
     # 3. Set up Slack
     slack_channels = create_welcome_channels(slack_id)
     schedule_introduction(slack_id)
-    
+
     # 4. Create Linear tasks
     create_onboarding_issues(github_username)
-    
+
     return {
         'notion': notion_page['id'],
         'github': github_username,
@@ -260,7 +260,6 @@ When selecting onboarding tools, prioritize these factors for teams hiring at sc
 The right combination depends on your existing tool investments. Teams already using Notion, GitHub, Slack, and Linear gain the most from the integrations described above. Custom solutions work well if your stack differs significantly.
 
 For teams scaling to three monthly hires, the automation ROI becomes clear within the first quarter. New team members onboard faster, mentors spend less time on repetitive questions, and the process remains consistent regardless of which team member handles coordination.
-
 
 
 ## Related Articles

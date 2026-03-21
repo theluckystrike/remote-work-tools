@@ -160,14 +160,14 @@ class ActionTracker:
     def __init__(self, filename="retro_actions.json"):
         self.filename = filename
         self.actions = self.load_actions()
-    
+
     def load_actions(self):
         try:
             with open(self.filename) as f:
                 return json.load(f)
         except FileNotFoundError:
             return {"actions": []}
-    
+
     def add_action(self, description, owner, due_date, retro_id):
         action = {
             "id": len(self.actions["actions"]) + 1,
@@ -181,17 +181,17 @@ class ActionTracker:
         self.actions["actions"].append(action)
         self.save()
         return action
-    
+
     def complete_action(self, action_id):
         for action in self.actions["actions"]:
             if action["id"] == action_id:
                 action["status"] = "completed"
                 action["completed_at"] = datetime.now().isoformat()
         self.save()
-    
+
     def get_open_actions(self):
         return [a for a in self.actions["actions"] if a["status"] == "open"]
-    
+
     def save(self):
         with open(self.filename, "w") as f:
             json.dump(self.actions, f, indent=2)
@@ -228,7 +228,6 @@ Track these metrics to understand if your async retrospectives are working:
 - **Team satisfaction** — Do team members find the process valuable?
 
 Iterate on your format based on feedback. Every team evolves their retrospective practice—yours should too.
-
 
 
 ## Related Articles

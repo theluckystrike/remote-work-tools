@@ -61,7 +61,7 @@ name: Referral Submission Handler
 on:
   issues:
     types: [labeled]
-    
+
 jobs:
   process-referral:
     if: github.event.label.name == 'referral'
@@ -75,7 +75,7 @@ jobs:
           ROLE=$(echo "$BODY" | grep -i "role:" | cut -d: -f2)
           echo "candidate=$CANDIDATE" >> $GITHUB_OUTPUT
           echo "role=$ROLE" >> $GITHUB_OUTPUT
-      
+
       - name: Create referral record
         run: |
           echo "Recording referral: ${{ steps.parse.outputs.candidate }}"
@@ -121,7 +121,7 @@ Our employee referral program now includes tiered bonuses based on role level an
 - Engineers (Senior): $5,000-$8,000
 - Engineering Leaders: $8,000-$12,000
 
-Bonuses pay out 50% at offer acceptance and 50% at 90-day retention. 
+Bonuses pay out 50% at offer acceptance and 50% at 90-day retention.
 
 Submit referrals through our HR portal: [link]
 Questions? Reply here or reach out to [email]
@@ -185,8 +185,6 @@ Use this checklist when launching or updating your referral program:
 - [ ] Announce program to all employees with clear next steps
 - [ ] Set up metrics tracking in your ATS or HR dashboard
 - [ ] Review and adjust tiers annually
-
-
 
 
 ## Related Articles

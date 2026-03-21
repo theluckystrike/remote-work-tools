@@ -14,7 +14,6 @@ voice-checked: true
 ---
 
 
-
 {% raw %}
 
 The asymmetric blocking framework—creating multiple 90-minute protected blocks with 15-minute buffers instead of hoping for a single 4-hour block—accommodates childcare interruptions without losing your entire deep work window. Combined with a secondary "Gaps" calendar that signals to colleagues your availability may shift, plus a Python script that auto-creates focus blocks in any calendar gap, this strategy protects your productivity against the unpredictable reality of parenting while working remotely.
@@ -73,20 +72,20 @@ In Google Calendar, you can create "out of office" style blocks that show as "Ch
 function addChildcareBuffers() {
   const calendar = CalendarApp.getDefaultCalendar();
   const today = new Date();
-  
+
   // Check each day this week
   for (let i = 0; i < 5; i++) {
     const day = new Date(today);
     day.setDate(today.getDate() + i);
-    
+
     // Add morning buffer if no meetings
     const morningEvents = calendar.getEventsForDay(day, {
       startTime: new Date(day.setHours(7, 0, 0, 0)),
       endTime: new Date(day.setHours(9, 0, 0, 0))
     });
-    
+
     if (morningEvents.length === 0) {
-      calendar.createEvent('🧒 Flexible - may have childcare gaps', 
+      calendar.createEvent('🧒 Flexible - may have childcare gaps',
         new Date(day.setHours(7, 0, 0, 0)),
         new Date(day.setHours(9, 0, 0, 0)),
         { description: 'Schedule flexibility needed for childcare' }
@@ -133,16 +132,16 @@ from googleapiclient.discovery import build
 class ChildcareCalendarManager:
     def __init__(self, credentials):
         self.service = build('calendar', 'v3', credentials=credentials)
-    
+
     def create_protected_blocks(self, days_ahead=7):
         """Create recurring protected blocks around fixed commitments."""
         for day_offset in range(days_ahead):
             date = datetime.now() + timedelta(days=day_offset)
-            
+
             # Skip weekends
             if date.weekday() >= 5:
                 continue
-                
+
             # Check existing events before creating blocks
             events = self.service.events().list(
                 calendarId='primary',
@@ -150,23 +149,23 @@ class ChildcareCalendarManager:
                 timeMax=date.replace(hour=17, minute=0).isoformat() + 'Z',
                 singleEvents=True
             ).execute()
-            
+
             free_slots = self._find_free_slots(events.get('items', []))
-            
+
             for slot in free_slots:
                 if self._is_viable_block(slot):
                     self._create_focus_block(date, slot)
-    
+
     def _find_free_slots(self, events):
         """Identify gaps between existing meetings."""
         # Implementation details for finding calendar gaps
         pass
-    
+
     def _is_viable_block(self, slot):
         """Check if slot is at least 90 minutes."""
         duration = slot['end'] - slot['start']
         return duration >= timedelta(minutes=90)
-    
+
     def _create_focus_block(self, date, slot):
         """Create a focus block with childcare-aware title."""
         self.service.events().insert(
@@ -229,7 +228,6 @@ The goal is not perfection—it is building a sustainable system that accounts f
 ---
 
 This framework gives remote working parents a practical approach to calendar management that adapts to unpredictable schedules. The combination of asymmetric blocking, automation scripts, and clear team communication creates a system resilient to childcare disruptions.
-
 
 
 ## Related Articles

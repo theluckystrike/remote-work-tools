@@ -175,8 +175,6 @@ Establish these norms explicitly in the first month. Don't assume team members u
 Monitor new managers closely during their first quarter. Watch for the pitfalls above and address them as soon as they emerge. Early intervention prevents patterns from solidifying.
 
 
-
-
 ## Related Articles
 
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)

@@ -49,7 +49,7 @@ function getMeetingAttendance() {
     maxResults: 10
   });
 
-  const meetings = events.items.filter(event => 
+  const meetings = events.items.filter(event =>
     event.conferenceData?.entryPoints?.[0]?.entryPointType === 'video'
   );
 
@@ -68,10 +68,10 @@ Schedule meetings programmatically and automatically send calendar invites with 
 function createMeeting(title, startTime, durationMinutes) {
   const calendar = CalendarApp.getDefaultCalendar();
   const event = calendar.createEvent(title, startTime, new Date(startTime.getTime() + durationMinutes * 60000));
-  
+
   event.addVideoConference();
   event.setDescription('Join: ' + event.getVideoConferenceData().getMeetingUri());
-  
+
   return event;
 }
 ```
@@ -103,7 +103,7 @@ The content script can add custom controls to the Meet interface:
 // content.js - Add custom meeting controls
 document.addEventListener('DOMContentLoaded', () => {
   const controlBar = document.querySelector('.ghpqAe');
-  
+
   if (controlBar) {
     const customButton = document.createElement('button');
     customButton.innerHTML = '⚡ Quick Notes';
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Open a side panel with meeting notes
       chrome.runtime.sendMessage({ action: 'openNotesPanel' });
     };
-    
+
     controlBar.appendChild(customButton);
   }
 });
@@ -178,12 +178,12 @@ Meeting recordings auto-save to the organizer's Google Drive. Automate post-meet
 function processMeetingRecording() {
   const folder = DriveApp.getFolderById('YOUR_RECORDINGS_FOLDER_ID');
   const files = folder.getFiles();
-  
+
   while (files.hasNext()) {
     const file = files.next();
-    if (file.getMimeType() === 'video/google-drive' && 
+    if (file.getMimeType() === 'video/google-drive' &&
         file.getName().includes('Meet')) {
-      
+
       // Rename and organize recordings
       const date = new Date(file.getDateCreated());
       const newName = `Meeting_${date.toISOString().split('T')[0]}_${file.getId()}.mp4`;
@@ -224,7 +224,6 @@ const dashboard = meetings
 ```
 
 This approach lets you see all meetings with one-click joining without navigating through calendar apps.
-
 
 
 ## Related Articles

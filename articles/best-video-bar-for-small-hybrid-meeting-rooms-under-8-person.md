@@ -56,7 +56,7 @@ def configure_video_bar(host, settings):
     Most modern video bars support HTTP-based configuration.
     """
     endpoint = f"http://{host}:8080/api/config"
-    
+
     payload = {
         "camera": {
             "brightness": settings.get("brightness", 50),
@@ -70,7 +70,7 @@ def configure_video_bar(host, settings):
             "gain": settings.get("mic_gain", 0)
         }
     }
-    
+
     response = requests.post(endpoint, json=payload)
     return response.status_code == 200
 
@@ -139,14 +139,14 @@ def check_video_bar_health(host):
         "audio_online": False,
         "firmware_current": False
     }
-    
+
     # Ping to check basic connectivity
     ping_result = subprocess.run(
         ["ping", "-c", "1", "-W", "2", host],
         capture_output=True
     )
     checks["network_reachable"] = ping_result.returncode == 0
-    
+
     # Check USB connection via manufacturer API or local agent
     # This varies by manufacturer - simplified example
     try:
@@ -157,7 +157,7 @@ def check_video_bar_health(host):
             checks["audio_online"] = data.get("mic_status") == "active"
     except:
         pass
-    
+
     return all(checks.values()), checks
 
 # Run periodic health checks on all room devices
@@ -174,7 +174,6 @@ Small meeting rooms benefit from consistent power to video bars, as many devices
 Consider connecting video bars to the same UPS that powers the room display and host computer. This ensures meetings can complete or participants can wrap up gracefully during brief power interruptions.
 
 Some video bars support PoE (Power over Ethernet) when used with network cables, simplifying power management in rooms with Ethernet infrastructure. This approach eliminates separate power cables and enables centralized power control through network switches.
-
 
 
 ## Related Articles

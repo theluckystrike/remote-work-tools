@@ -103,7 +103,7 @@ graph TB
     API2 --> DB
     API1 --> Queue[Message Queue]
     Queue --> Worker[Background Worker]
-    
+
     style LB fill:#f9f,stroke:#333
     style DB fill:#ff9,stroke:#333
 ```
@@ -120,7 +120,7 @@ sequenceDiagram
     participant A as API Gateway
     participant S as Auth Service
     participant D as Data Service
-    
+
     C->>A: POST /api/orders
     A->>S: Validate token
     S-->>A: Token valid, returns user_id
@@ -181,7 +181,6 @@ Regardless of tool choice, establish a session structure:
 Document decisions alongside diagrams. Connect architecture choices to ADRs (Architecture Decision Records) so future team members understand the reasoning behind each design element.
 
 ---
-
 
 
 ## Related Articles

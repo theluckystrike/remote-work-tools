@@ -36,13 +36,13 @@ def calculate_fibonacci(n):
     """Calculate the nth Fibonacci number using dynamic programming"""
     if n <= 1:
         return n
-    
+
     fib = [0] * (n + 1)
     fib[1] = 1
-    
+
     for i in range(2, n + 1):
         fib[i] = fib[i-1] + fib[i-2]
-    
+
     return fib[n]
 ```
 
@@ -111,11 +111,11 @@ import json
 def lambda_handler(event, context):
     """AWS Lambda handler with CodeWhisperer suggestions"""
     s3 = boto3.client('s3')
-    
+
     # CodeWhisperer suggests bucket name from event
     bucket = event.get('bucket_name')
     key = event.get('object_key')
-    
+
     try:
         response = s3.get_object(Bucket=bucket, Key=key)
         return {

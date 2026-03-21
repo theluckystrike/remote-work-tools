@@ -36,7 +36,7 @@ try:
     import board
     import adafruit_dht
     dht = adafruit_dht.DHT22(board.D18)
-    
+
     while True:
         temp = dht.temperature
         humidity = dht.humidity
@@ -82,7 +82,7 @@ async def check_temperature(threshold=28):
     # Connect to your sensor
     # Example: DHT22 on GPIO 14
     sensor_data = read_sensor()  # Your sensor reading function
-    
+
     if sensor_data['temperature'] > threshold:
         await send_alert(
             subject="Office temperature warning",
@@ -95,7 +95,7 @@ async def send_alert(subject, body):
     msg['Subject'] = subject
     msg['From'] = 'your-alert@domain.com'
     msg['To'] = 'your-email@domain.com'
-    
+
     with smtplib.SMTP('smtp.example.com', 587) as server:
         server.starttls()
         server.login('user', 'password')
@@ -172,7 +172,6 @@ Track your productivity alongside temperature readings:
 | 25-27°C | Slight decrease |
 | 28-30°C | Noticeable decline |
 | 31°C+ | Significant impact |
-
 
 
 ## Related Articles

@@ -64,22 +64,22 @@ const idempotencyStore = new Map();
 // Middleware to check for duplicate requests
 async function idempotencyMiddleware(req, res, next) {
   const key = req.headers['idempotency-key'];
-  
+
   if (!key) {
     return res.status(400).json({ error: 'Idempotency-Key header required' });
   }
-  
+
   // Check if we've seen this key before
   const existing = idempotencyStore.get(key);
-  
+
   if (existing) {
     // Return cached response for duplicate request
     return res.status(existing.status).json(existing.body);
   }
-  
+
   // Store pending status
   idempotencyStore.set(key, { status: 202, body: { status: 'processing' } });
-  
+
   // Attach key to request for controller use
   req.idempotencyKey = key;
   next();
@@ -89,19 +89,19 @@ async function idempotencyMiddleware(req, res, next) {
 async function createOrder(req, res) {
   const { amount, productId } = req.body;
   const key = req.idempotencyKey;
-  
+
   try {
     // Process the order
     const order = await processOrder({ amount, productId });
-    
+
     // Store successful response
     idempotencyStore.set(key, {
       status: 201,
       body: { orderId: order.id, status: 'completed' }
     });
-    
+
     return res.status(201).json({ orderId: order.id, status: 'completed' });
-    
+
   } catch (error) {
     // Clear the key on failure so client can retry
     idempotencyStore.delete(key);
@@ -118,34 +118,34 @@ For operations that modify database state, use transactions combined with idempo
 async function createIdempotentOrder(db, idempotencyKey, orderData) {
   // Start transaction
   const client = await db.connect();
-  
+
   try {
     await client.query('BEGIN');
-    
+
     // Check if this idempotency key was already processed
     const existing = await client.query(
       'SELECT * FROM idempotent_requests WHERE key = $1',
       [idempotencyKey]
     );
-    
+
     if (existing.rows.length > 0) {
       // Return cached result
       await client.query('COMMIT');
       return existing.rows[0].response;
     }
-    
+
     // Create the order
     const order = await createOrder(client, orderData);
-    
+
     // Store the idempotency key with response
     await client.query(
       'INSERT INTO idempotent_requests (key, request_hash, response) VALUES ($1, $2, $3)',
       [idempotencyKey, hash(orderData), order]
     );
-    
+
     await client.query('COMMIT');
     return order;
-    
+
   } catch (error) {
     await client.query('ROLLBACK');
     throw error;
@@ -166,14 +166,14 @@ class PaymentIdempotencyService {
     this.redis = redis;
     this.TTL = 24 * 60 * 60; // 24 hours
   }
-  
+
   async processPayment(idempotencyKey, customerId, amount, currency) {
     // Check Redis cache first
     const cached = await this.redis.get(`idempotent:${idempotencyKey}`);
     if (cached) {
       return JSON.parse(cached);
     }
-    
+
     try {
       // Attempt the payment
       const payment = await this.stripe.paymentIntents.create({
@@ -182,16 +182,16 @@ class PaymentIdempotencyService {
         customer: customerId,
         idempotency_key: idempotencyKey
       });
-      
+
       // Cache successful response
       await this.redis.setex(
         `idempotent:${idempotencyKey}`,
         this.TTL,
         JSON.stringify(payment)
       );
-      
+
       return payment;
-      
+
     } catch (error) {
       // Check if it's a duplicate (Stripe returns 409)
       if (error.type === 'IdempotencyError') {
@@ -222,16 +222,16 @@ function createRequestHash(method, path, body) {
 async function validateIdempotencyKey(req, res, next) {
   const key = req.headers['idempotency-key'];
   const hash = createRequestHash(req.method, req.originalUrl, req.body);
-  
+
   const existing = idempotencyStore.get(key);
-  
+
   if (existing && existing.hash !== hash) {
     // Same key but different request - potential attack
     return res.status(409).json({
       error: 'Idempotency key already used with different request'
     });
   }
-  
+
   next();
 }
 ```
@@ -257,42 +257,40 @@ describe('Idempotent Order Creation', () => {
   it('should return same order for duplicate requests', async () => {
     const idempotencyKey = 'test-key-' + Date.now();
     const orderData = { amount: 50, productId: 'test-123' };
-    
+
     // First request
     const response1 = await request(app)
       .post('/api/orders')
       .set('Idempotency-Key', idempotencyKey)
       .send(orderData);
-    
+
     // Duplicate request
     const response2 = await request(app)
       .post('/api/orders')
       .set('Idempotency-Key', idempotencyKey)
       .send(orderData);
-    
+
     expect(response1.status).toEqual(response2.status);
     expect(response1.body.orderId).toEqual(response2.body.orderId);
   });
-  
+
   it('should create separate orders for different idempotency keys', async () => {
     const orderData = { amount: 50, productId: 'test-123' };
-    
+
     const response1 = await request(app)
       .post('/api/orders')
       .set('Idempotency-Key', 'key-1')
       .send(orderData);
-    
+
     const response2 = await request(app)
       .post('/api/orders')
       .set('Idempotency-Key', 'key-2')
       .send(orderData);
-    
+
     expect(response1.body.orderId).not.toEqual(response2.body.orderId);
   });
 });
 ```
-
-
 
 
 ## Idempotency in Distributed Systems and Microservices

@@ -60,9 +60,9 @@ def get_time_to_first_commit(repo_name, username, start_date):
     """Calculate days from start date to first commit."""
     g = Github(os.getenv("GITHUB_TOKEN"))
     repo = g.get_repo(repo_name)
-    
+
     commits = repo.get_commits(author=username, since=start_date)
-    
+
     try:
         first_commit = commits[0]
         commit_date = first_commit.commit.author.date
@@ -76,19 +76,19 @@ def generate_onboarding_report(team_members, repo_name):
     report = []
     report.append("| Developer | Start Date | First Commit | Days to First Commit |")
     report.append("|-----------|------------|--------------|---------------------|")
-    
+
     for member in team_members:
         ttfc, commit_date = get_time_to_first_commit(
-            repo_name, 
+            repo_name,
             member['github_username'],
             member['start_date']
         )
-        
+
         if ttfc is not None:
             report.append(f"| {member['name']} | {member['start_date'].strftime('%Y-%m-%d')} | {commit_date.strftime('%Y-%m-%d')} | {ttfc} |")
         else:
             report.append(f"| {member['name']} | {member['start_date'].strftime('%Y-%m-%d')} | Not yet | In progress |")
-    
+
     return "\n".join(report)
 ```
 
@@ -120,16 +120,16 @@ def analyze_first_month_prs(repo_name, username, start_date):
     """Analyze pull request activity in first 30 days."""
     g = Github(os.getenv("GITHUB_TOKEN"))
     repo = g.get_repo(repo_name)
-    
+
     end_date = start_date + timedelta(days=30)
     pulls = repo.get_pulls(state='all', sort='created', direction='desc')
-    
+
     first_month_pulls = [
-        pr for pr in pulls 
-        if pr.user.login == username 
+        pr for pr in pulls
+        if pr.user.login == username
         and start_date <= pr.created_at <= end_date
     ]
-    
+
     return {
         'total_prs': len(first_month_pulls),
         'merged_prs': sum(1 for pr in first_month_pulls if pr.merged),
@@ -206,7 +206,6 @@ To get started measuring remote onboarding effectiveness:
 6. **Close the loop** — Document changes and measure their impact
 
 Time to first commit gives you a clear, objective signal about whether your remote onboarding process works. Combined with complementary metrics and a commitment to continuous improvement, TTFC helps you build an onboarding experience that helps developers contribute faster and with more confidence.
-
 
 
 ## Related Articles

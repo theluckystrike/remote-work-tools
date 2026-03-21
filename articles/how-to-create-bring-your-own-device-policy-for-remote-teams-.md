@@ -66,21 +66,21 @@ security_requirements:
     - macOS 12 (Monterey) or later
     - iOS 15 or later
     - Android 12 or later
-  
+
   encryption:
     - Full disk encryption (BitLocker/FileVault)
     - Encrypted storage for work data
-  
+
   authentication:
     - Biometric login or 6+ character PIN
     - Auto-lock after 5 minutes of inactivity
     - No shared accounts or passwords
-  
+
   software:
     - Current antivirus/anti-malware
     - Company-approved VPN client
     - MDM agent installed and active
-  
+
   network:
     - No connections to unsecured public Wi-Fi without VPN
     - Home network must use WPA2/WPA3 encryption
@@ -228,8 +228,6 @@ Review these documents with legal counsel before deployment. The specific requir
 A solid BYOD policy enables the flexibility remote teams need while maintaining the security and legal compliance your organization requires. Start with clear consent, enforce technical requirements through MDM, and maintain documented procedures for incidents and offboarding.
 
 ---
-
-
 
 
 ## Related Articles

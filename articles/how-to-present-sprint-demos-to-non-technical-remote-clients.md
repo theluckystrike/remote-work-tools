@@ -295,7 +295,6 @@ Thanks for your feedback on the checkout flow redesign!
 This follow-up keeps clients engaged and ensures alignment on next steps.
 
 
-
 ## Related Articles
 
 - [How to Run Async Sprint Demos with Recorded Walkthroughs](/remote-work-tools/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)

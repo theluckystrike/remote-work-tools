@@ -78,13 +78,13 @@ BACKUP_DIR="$HOME/repos-backup"
 find "$REPOS_DIR" -type d -name ".git" -exec dirname {} \; | while read repo; do
     echo "Syncing: $repo"
     cd "$repo"
-    
+
     # Fetch latest changes
     git fetch --all
-    
+
     # Push all branches to origin
     git push --all origin 2>/dev/null || true
-    
+
     # Push all tags
     git push --tags origin 2>/dev/null || true
 done

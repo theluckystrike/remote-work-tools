@@ -212,7 +212,6 @@ time dig google.com @8.8.8.8 +short
 ```
 
 
-
 ## Related Articles
 
 - [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)

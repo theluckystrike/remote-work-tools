@@ -85,13 +85,13 @@ jobs:
         run: |
           # Send survey 3 weeks after project close
           echo "send_date=$(date -d '+21 days' +%Y-%m-%d)" >> $GITHUB_OUTPUT
-      
+
       - name: Create scheduled survey task
         uses: actions/github-script@v7
         with:
           script: |
             const sendDate = '${{ steps.timing.outputs.send_date }}';
-            
+
             // Create a reminder issue for your team
             await github.rest.issues.create({
               owner: context.repo.owner,
@@ -100,7 +100,7 @@ jobs:
               body: `Time to send satisfaction survey to the client for this completed project.`,
               labels: ['admin', 'client-feedback']
             });
-            
+
             console.log(`Survey reminder created for ${sendDate}`);
 ```
 
@@ -122,12 +122,12 @@ const DAYS_AFTER_COMPLETION = 21;
 
 async function checkCompletedProjects() {
   const projects = await fetchNotionDatabase();
-  
+
   for (const project of projects) {
     const completedDate = new Date(project.completed_date);
     const surveyDueDate = new Date(completedDate);
     surveyDueDate.setDate(completedDate.getDate() + DAYS_AFTER_COMPLETION);
-    
+
     if (shouldSendSurvey(project, surveyDueDate)) {
       await sendSurvey(project);
       await logSurveySent(project);
@@ -140,17 +140,17 @@ function shouldSendSurvey(project, surveyDueDate) {
   const today = new Date();
   const alreadySent = project.survey_sent === true;
   const isDue = today >= surveyDueDate;
-  
+
   return !alreadySent && isDue;
 }
 
 async function sendSurvey(project) {
   // Use your preferred form service (Typeform, Google Forms, etc.)
   const surveyUrl = `https://your-form-service.com/survey?project=${project.id}&client=${encodeURIComponent(project.client_email)}`;
-  
+
   // Send via your email service or directly to the form
   console.log(`Sending survey to ${project.client_email}: ${surveyUrl}`);
-  
+
   return surveyUrl;
 }
 
@@ -158,7 +158,7 @@ async function notifySlack(project) {
   const message = {
     text: `Survey sent to ${project.client_name} for project "${project.project_name}"`
   };
-  
+
   // Post to your team's Slack channel
 }
 
@@ -189,20 +189,20 @@ Collecting feedback only matters if you act on it. Set up a simple analysis pipe
 // survey-analysis.js - Simple NPS calculation
 function analyzeSurveyResponses(responses) {
   const npsResponses = responses.filter(r => r.nps_score !== null);
-  
+
   const promoters = npsResponses.filter(r => r.nps_score >= 9).length;
   const detractors = npsResponses.filter(r => r.nps_score <= 6).length;
   const total = npsResponses.length;
-  
+
   const nps = ((promoters - detractors) / total) * 100;
-  
+
   console.log(`NPS Score: ${nps.toFixed(1)}`);
   console.log(`Promoters: ${promoters} | Detractors: ${detractors}`);
-  
+
   // Extract common themes from open-ended responses
   const themes = extractThemes(responses.map(r => r.open_response));
   console.log('Common themes:', themes);
-  
+
   return { nps, promoters, detractors, themes };
 }
 ```
@@ -229,8 +229,6 @@ function analyzeSurveyResponses(responses) {
 - [ ] Schedule a monthly review of recent survey results with your team
 
 With this system in place, you continuously gather client intelligence without adding manual busywork. The automation handles the timing and distribution, while you focus on analyzing feedback and improving your services.
-
-
 
 
 ## Related Articles

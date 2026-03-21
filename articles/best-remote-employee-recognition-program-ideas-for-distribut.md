@@ -103,16 +103,16 @@ Use a simple rotation system:
 function generatePairs(teamMembers) {
   const shuffled = [...teamMembers].sort(() => 0.5 - Math.random());
   const pairs = [];
-  
+
   for (let i = 0; i < shuffled.length - 1; i += 2) {
     pairs.push([shuffled[i], shuffled[i + 1]]);
   }
-  
+
   // Handle odd number of members
   if (shuffled.length % 2 === 1) {
     pairs.push([shuffled[shuffled.length - 1]]);
   }
-  
+
   return pairs;
 }
 ```
@@ -140,7 +140,7 @@ const milestones = [
 function checkMilestones(hireDate) {
   const today = new Date();
   const daysWorked = Math.floor((today - hireDate) / (1000 * 60 * 60 * 24));
-  
+
   return milestones.filter(m => daysWorked >= m.days && daysWorked < m.days + 7);
 }
 ```
@@ -159,14 +159,14 @@ class RecognitionBudget:
     def __init__(self, monthly_limit=15):
         self.monthly_limit = monthly_limit
         self.spent = 0
-        
+
     def award_gift(self, recipient, amount, description):
         if self.spent + amount <= self.monthly_limit:
             self.spent += amount
             print(f"Awarded {description} to {recipient}: ${amount}")
             return True
         return False
-        
+
     def remaining(self):
         return self.monthly_limit - self.spent
 ```

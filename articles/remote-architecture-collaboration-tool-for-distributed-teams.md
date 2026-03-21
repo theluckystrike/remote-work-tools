@@ -446,8 +446,6 @@ Maintain records for legal/regulatory purposes:
 Built by
 
 
-
-
 ## Related Articles
 
 - [Remote Architecture BIM Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)

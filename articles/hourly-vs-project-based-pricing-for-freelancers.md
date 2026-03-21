@@ -57,16 +57,16 @@ def calculate_hourly_rate(
     downtime_buffer: float = 0.2
 ) -> float:
     """Calculate minimum hourly rate to meet income goals."""
-    
+
     weeks_per_year = 52
     billable_weeks = weeks_per_year - vacation_weeks
     hours_per_week = 40
-    
+
     # Apply downtime buffer (non-billable time for admin, marketing, etc.)
     effective_hours = billable_weeks * hours_per_week * (1 - downtime_buffer)
-    
+
     total_annual_cost = target_annual_income + business_expenses_annual
-    
+
     return total_annual_cost / effective_hours
 
 # Example: Target $120K income, $20K annual expenses
@@ -98,7 +98,7 @@ def calculate_project_price(
 ) -> int:
     """
     Calculate project price with risk adjustment.
-    
+
     Args:
         estimated_hours: Your best guess at hours needed
         minimum_acceptable_rate: Your floor hourly rate
@@ -166,7 +166,7 @@ projects.forEach(p => {
   console.log(`${p.name}: $${effectiveRate}/hour (${p.hours}h @ $${p.price})`);
 });
 
-const totalRate = projects.reduce((sum, p) => sum + p.price, 0) / 
+const totalRate = projects.reduce((sum, p) => sum + p.price, 0) /
                   projects.reduce((sum, p) => sum + p.hours, 0);
 console.log(`\nAverage effective rate: $${totalRate.toFixed(2)}/hour`);
 ```
@@ -192,8 +192,6 @@ The most successful freelancers aren't dogmatic about either model. They analyze
 Start with hourly if you're uncertain. Build your estimating skills over time. Then gradually shift to project-based pricing where it makes sense. Your rates will increase as your portfolio demonstrates capability, and your effective hourly rate will reflect that growth.
 
 ---
-
-
 
 
 ## Related Articles

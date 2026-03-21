@@ -113,12 +113,12 @@ rituals:
     platform: slack
     time: "09:00 UTC"
     format: "wins | blockers | plans"
-  
+
   sync_demo:
     frequency: biweekly
     duration: 60 minutes
     rotation: alphabetical
-  
+
   coffee_chat:
     frequency: weekly
     pairs: random
@@ -186,7 +186,6 @@ const scalingMetrics = {
   }
 };
 ```
-
 
 
 ## Related Articles

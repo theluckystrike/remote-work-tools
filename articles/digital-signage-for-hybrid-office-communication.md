@@ -102,7 +102,7 @@ def fetch_room_availability(calendar_api, room_email, start_time, end_time):
         timeMax=end_time.isoformat(),
         singleEvents=True
     ).execute()
-    
+
     availability = []
     for event in events.get('items', []):
         availability.append({
@@ -110,7 +110,7 @@ def fetch_room_availability(calendar_api, room_email, start_time, end_time):
             'start': event['start'].get('dateTime'),
             'end': event['end'].get('dateTime')
         })
-    
+
     return availability
 ```
 
@@ -129,7 +129,7 @@ def update_incident_display(signage_client, incident_data):
             "background_color": "#FF4444" if incident_data['severity'] == 'critical' else "#FFAA00"
         }
     ]
-    
+
     return signage_client.create_playlist(
         f"Incident-{incident_data['id']}",
         slides
@@ -144,11 +144,11 @@ For offices using hot desking, display real-time desk availability:
 def sync_desk_availability(signage_client, desk_api, floor_id):
     """Sync desk booking status to signage."""
     desks = desk_api.get_floor_desks(floor_id)
-    
+
     # Group desks by availability
     available = sum(1 for d in desks if d['status'] == 'available')
     total = len(desks)
-    
+
     # Create a floor map slide
     slide = {
         "type": "floor_plan",
@@ -164,7 +164,7 @@ def sync_desk_availability(signage_client, desk_api, floor_id):
             {"color": "#888888", "label": "Unavailable"}
         ]
     }
-    
+
     return signage_client.create_playlist(f"floor-{floor_id}-availability", [slide])
 ```
 
@@ -205,8 +205,6 @@ For a production deployment, consider this architecture:
 The content server acts as the central hub, pulling data from source systems and pushing formatted content to display endpoints. This separation allows you to update integrations without touching the display configuration.
 
 Treat signage as another API-driven output channel: the same data flowing through your dashboards and Slack notifications can drive your office displays. Wire up the integrations once and content stays current without manual updates.
-
-
 
 
 ## Related Articles

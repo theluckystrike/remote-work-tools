@@ -364,7 +364,6 @@ Check prices weekly; webcams frequently sale between $40-60 (C920/C922).
 ---
 
 
-
 ## Related Articles
 
 - [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)

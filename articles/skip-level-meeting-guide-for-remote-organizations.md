@@ -40,7 +40,7 @@ const skipLevelSchedule = {
   meetingDuration: 30, // minutes
   frequency: 'monthly',
   participantsPerSession: 2,
-  
+
   rotateSchedule: function(icList, managerId) {
     return icList.map((ic, index) => ({
       ic: ic,
@@ -183,8 +183,6 @@ Start small. Pick one team to pilot the program, gather feedback, refine your ap
 The best remote organizations build multiple redundant paths for feedback. Skip level meetings should complement, not replace, regular 1:1s, team retrospectives, and all-hands meetings.
 
 ---
-
-
 
 
 ## Related Articles

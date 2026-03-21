@@ -53,7 +53,7 @@ CHANNEL_ID = os.environ.get("CHECKIN_CHANNEL_ID")
 def post_async_checkin(user_id, video_url, prompt):
     """Post an async video check-in to a dedicated channel."""
     client = WebClient(token=SLACK_TOKEN)
-    
+
     try:
         response = client.chat_postMessage(
             channel=CHANNEL_ID,
@@ -129,12 +129,12 @@ title: "Monthly Fix-It Session - Open to All"
 description: |
   Join us for 90 minutes of collaborative problem-solving.
   This month's topic: [TBD - suggest in #engineering]
-  
+
   - Bring your own problem or help solve others'
   - All skill levels welcome
   - No preparation needed
   - Recording will be shared for those who can't attend
-  
+
 timezone: UTC
 duration: 90m
 frequency: monthly
@@ -286,7 +286,6 @@ Formal or informal pairing where a senior and junior developer spend 1 hour week
 Paid time to work on open source projects of your choice. Teams often collaborate on projects related to work, building connections through shared contribution.
 
 The common thread: all involve optional participation in something genuine and valuable. Success isn't about forcing connection—it's about creating conditions where connection can form naturally.
-
 
 
 ## Related Articles

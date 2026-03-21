@@ -83,27 +83,27 @@ Once responses come in, compile them into a summary view. Your goal is to calcul
 ```python
 def calculate_sprint_capacity(team_data, sprint_days=10):
     """Calculate available team capacity for sprint planning"""
-    
+
     total_capacity = 0
     warnings = []
-    
+
     for member in team_data:
         # Calculate available hours
         working_hours = sprint_days * 8
         available = working_hours - member['time_off'] - member['holidays']
-        
+
         # Subtract context-switching overhead
         # Engineering teams typically spend 20-30% on reviews/meetings
         net_capacity = available * (1 - member['overhead_rate'])
-        
+
         # Apply uncertainty factor based on work type
         net_capacity *= (1 - member['uncertainty_factor'])
-        
+
         if net_capacity < working_hours * 0.5:
             warnings.append(f"{member['name']}: Low capacity ({net_capacity:.1f}h)")
-        
+
         total_capacity += net_capacity
-    
+
     return {
         'total_hours': total_capacity,
         'velocity_history': team_data['avg_velocity'],
@@ -203,7 +203,7 @@ name: Sprint Capacity Calculator
 on:
   schedule:
     - cron: '0 9 * * 1'  # Every Monday
-  
+
 jobs:
   calculate:
     runs-on: ubuntu-latest

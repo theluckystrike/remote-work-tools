@@ -89,15 +89,15 @@ def get_power_reading():
     """Fetch current power consumption in watts."""
     d = tinytuya.Device(DEVICE_ID, DEVICE_IP, DEVICE_KEY)
     d.set_version(3.3)
-    
+
     # Get status from all outlets
     status = d.status()
-    
+
     total_power = 0
     for outlet in status.get('dps', {}).values():
         if isinstance(outlet, dict) and 'pk' in outlet:
             total_power += outlet.get('w', 0)
-    
+
     return total_power
 
 # Monitor power usage
@@ -130,9 +130,9 @@ def get_apc_power_status(host, community, oid):
         ContextData(),
         ObjectType(ObjectIdentity(oid))
     )
-    
+
     errorIndication, errorStatus, errorIndex, varBinds = next(iterator)
-    
+
     if errorIndication:
         print(errorIndication)
     else:

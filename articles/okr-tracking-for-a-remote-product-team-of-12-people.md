@@ -120,7 +120,7 @@ jobs:
             --state closed \
             --json number,title \
             --jq '. | length'
-        
+
       - name: Update NotionKR
         run: |
           # Update current value in Notion database
@@ -179,7 +179,6 @@ The connection between daily tasks and quarterly objectives often breaks in remo
 - Celebrating KR progress in team channels
 
 A 12-person team has an advantage here: small enough that direct communication can fill gaps, but large enough to need structure. Use weekly async updates as your primary coordination mechanism, and reserve synchronous meetings for quarterly planning and retro.
-
 
 
 ## Related Articles

@@ -680,5 +680,6 @@ The real cost of pair programming isn't the tool—it's the time spent debugging
 - [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

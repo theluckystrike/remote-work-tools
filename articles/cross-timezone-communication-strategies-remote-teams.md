@@ -85,7 +85,7 @@ Team: San Francisco (PST, UTC-8), Berlin (CET, UTC+1), Tokyo (JST, UTC+9)
 
 Real overlap calculation:
 - SF 9am-5pm = 17:00-01:00 UTC
-- Berlin 9am-5pm = 08:00-16:00 UTC  
+- Berlin 9am-5pm = 08:00-16:00 UTC
 - Tokyo 9am-5pm = 00:00-08:00 UTC
 
 Actual overlap: 08:00-08:00 UTC = 0 hours
@@ -109,7 +109,7 @@ rotation:
         time: "10:00 CET"
       - region: "APAC"
         time: "18:00 JST"
-  
+
   - week: "Week 2"
     hosts:
       - region: "EMEA"
@@ -164,7 +164,7 @@ jobs:
           elif [ "$TZ" = "CET" ]; then
             echo "message=🇩🇪 Daily standup in 30 minutes!" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Send reminder
         uses: slackapi/slack-github-action@v1.25.0
         with:
@@ -191,26 +191,26 @@ def next_safe_deploy_window():
         'EU_CET': pytz.timezone('Europe/Berlin'),
         'JP_JST': pytz.timezone('Asia/Tokyo'),
     }
-    
+
     now = datetime.now(pytz.UTC)
-    
+
     for hours_ahead in range(1, 49):
         candidate = now + timedelta(hours=hours_ahead)
-        
+
         # Check if this is a safe time in ALL regions
         all_safe = True
         for region_name, tz in regions.items():
             local_time = candidate.astimezone(tz)
             hour = local_time.hour
-            
+
             # Avoid: outside 6am-10pm local, weekends
             if hour < 6 or hour > 22 or local_time.weekday() >= 5:
                 all_safe = False
                 break
-        
+
         if all_safe:
             return candidate
-    
+
     return now + timedelta(hours=24)  # Default to tomorrow
 
 if __name__ == "__main__":
@@ -234,19 +234,19 @@ When teams work in sequence across time zones, clear handoff documentation preve
 [One sentence: what's done, what's pending]
 
 ### What I Completed Today
-- 
+-
 
 ### What Needs Continuation
-- 
+-
 
 ### Known Issues / Blockers
-- 
+-
 
 ### Context for Continuity
 [Any tribal knowledge, gotchas, or decisions that aren't documented elsewhere]
 
 ### Questions for Next Team
-- 
+-
 ```
 
 This template fits naturally into a GitHub issue or pull request comment, making handoffs part of your existing workflow.
@@ -261,8 +261,6 @@ Apply these strategies with minimal disruption:
 4. **Week 4:** Standardize handoff documentation across the team
 
 Cross timezone communication works when you design for it explicitly. The strategies above scale from small teams to organizations with dozens of distributed engineers.
-
-
 
 
 ## Related Articles

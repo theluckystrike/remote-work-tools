@@ -36,9 +36,9 @@ For dual-remote households, implement a tag-team rotation system. This requires 
 ```text
 6:00 AM - 9:00 AM    Parent A: Deep work    | Parent B: Morning routine + kids breakfast
 9:00 AM - 12:00 PM   Parent A: Meetings     | Parent B: Childcare + light tasks
-12:00 PM - 1:00 PM   Both: Lunch together   | 
+12:00 PM - 1:00 PM   Both: Lunch together   |
 1:00 PM - 4:00 PM    Parent B: Deep work    | Parent A: Childcare + light tasks
-4:00 PM - 6:00 PM    Both: Family time       | 
+4:00 PM - 6:00 PM    Both: Family time       |
 ```
 
 This rotation ensures both parents get dedicated focus time while children receive supervised attention. The key is communicating this schedule to teammates and setting appropriate expectations about availability during your "on duty" periods.
@@ -110,7 +110,7 @@ def snow_day_work_hours(child_age_years, meeting_count):
     Estimate realistic work hours based on childcare demands
     """
     base_hours = 4  # Minimum sustainable work during snow day
-    
+
     # Younger children require more supervision
     if child_age_years < 6:
         supervision_multiplier = 0.5
@@ -118,11 +118,11 @@ def snow_day_work_hours(child_age_years, meeting_count):
         supervision_multiplier = 0.7
     else:
         supervision_multiplier = 0.85
-    
+
     # Subtract meeting time from available focus hours
     meeting_hours = meeting_count * 0.5  # Assume 30 min per meeting
     available = (base_hours * supervision_multiplier) - meeting_hours
-    
+
     return max(available, 2)  # Never promise less than 2 hours
 ```
 
@@ -182,8 +182,6 @@ const adjustedVelocity = baseVelocity * (1 - (snowDayProbability * 0.3));
 If your region experiences 5-10 snow days annually, planning for this reduction prevents end-of-sprint crunches.
 
 ---
-
-
 
 
 ## Related Articles

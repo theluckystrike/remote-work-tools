@@ -80,7 +80,7 @@ slack = WebClient(token=SLACK_TOKEN)
 def get_recent_updates():
     """Fetch pages modified in the last 5 minutes."""
     five_minutes_ago = datetime.now() - timedelta(minutes=5)
-    
+
     response = notion.databases.query(
         database_id=DATABASE_ID,
         filter={
@@ -98,9 +98,9 @@ def send_slack_notification(page):
     title = page["properties"].get("Name", {}).get("title", [{}])[0].get("plain_text", "Untitled")
     last_edited = page["last_edited_time"]
     page_url = f"https://notion.so/{page_id.replace('-', '')}"
-    
+
     message = f":page_facing_up: *Notion Page Updated*\n*{title}*\nLast edited: {last_edited}\n<{page_url}|View in Notion>"
-    
+
     try:
         slack.chat_postMessage(channel=CHANNEL_ID, text=message, mrkdwn=True)
     except SlackApiError as e:
@@ -115,7 +115,7 @@ def main():
                 send_slack_notification(page)
         except Exception as e:
             print(f"Error polling Notion: {e}")
-        
+
         time.sleep(POLL_INTERVAL)
 
 if __name__ == "__main__":
@@ -182,8 +182,6 @@ Consider these factors when choosing:
 Regardless of which method you choose, structure your notifications to avoid alert fatigue. Instead of notifying on every single edit, configure triggers for meaningful changes—major content updates, status changes, or new comments from specific people. Use Slack threads to keep channels organized when multiple updates occur in quick succession.
 
 Testing your setup thoroughly before rolling it out team-wide prevents notification spam. Start with a test channel, refine your filters, then expand to production channels once the setup stabilizes.
-
-
 
 
 ## Related Articles

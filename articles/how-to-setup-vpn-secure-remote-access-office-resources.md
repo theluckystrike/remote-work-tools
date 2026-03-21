@@ -466,4 +466,3 @@ For teams >100: Self-hosted with load balancing or enterprise solution
 - [Secure File Transfer Protocol Setup for Remote Teams](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-

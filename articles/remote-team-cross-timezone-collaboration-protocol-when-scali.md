@@ -137,7 +137,7 @@ Cross-timezone teams succeed or fail based on how well they communicate in writi
 - @sarah: Completed auth refactor, blocked by API rate limits
 - @mike: Started payment integration
 
-### Tokyo Team  
+### Tokyo Team
 - @kenji: Code review on #423, will complete by EOD JST
 - @yuki: Investigating memory leak in worker service
 
@@ -188,7 +188,6 @@ Don't make these mistakes that undermine cross-timezone collaboration:
 **Using async channels for urgent matters.** If something genuinely needs immediate attention, use synchronous channels—phone, video call, or urgent Slack messages. Async is not for emergencies.
 
 **Skipping documentation because "it's faster to just talk."** That conversation happens, nobody records it, and the next person recreates the work. Write it down.
-
 
 
 ## Related Articles

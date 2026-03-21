@@ -111,7 +111,7 @@ The final phase produces the canonical quarterly plan. This document becomes the
 - Success metric: 99.9% payment success rate
 - Timeline: Weeks 1-6
 
-### Platform Team  
+### Platform Team
 - Objective: API rate limiting
 - Success metric: <100ms p99 latency
 - Timeline: Weeks 1-4
@@ -183,7 +183,6 @@ A quarterly plan isn't set-and-forget. Build in a mid-quarter sync (around week 
 **Pitfall 4: Treating Planning as a Top-Down Exercise**
 
 The most effective quarterly planning processes combine bottom-up input (what teams believe they can accomplish) with top-down direction (strategic priorities from leadership). Teams that feel ownership over their commitments perform better than teams that receive mandates.
-
 
 
 ## Related Articles

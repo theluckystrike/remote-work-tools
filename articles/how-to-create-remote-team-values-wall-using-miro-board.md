@@ -202,8 +202,6 @@ post_async_standup(
 ```
 
 
-
-
 ## Related Articles
 
 - [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)

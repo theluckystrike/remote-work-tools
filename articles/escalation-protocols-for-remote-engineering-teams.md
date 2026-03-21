@@ -43,12 +43,12 @@ levels:
   - name: on-call-engineer
     response_time: 15 minutes
     contact_methods: [pagerduty, slack-direct-message, phone]
-    
+
   - name: technical-lead
     response_time: 30 minutes
     contact_methods: [slack-channel, phone]
     escalate_after: 15 minutes of no resolution
-    
+
   - name: engineering-manager
     response_time: 60 minutes
     contact_methods: [phone, slack-direct-message]
@@ -145,7 +145,7 @@ import pdpyras
 def escalate_if_unacknowledged(incident_id, timeout_minutes=15):
     """Check if incident needs escalation after timeout."""
     incident = pdpyrals.get_incident(incident_id)
-    
+
     if not incident.get('acknowledged_at'):
         elapsed = (datetime.now() - incident['created_at']).minutes
         if elapsed >= timeout_minutes:
@@ -168,7 +168,6 @@ Ask these questions:
 - What information was missing when the incident started?
 
 Update your escalation criteria, runbooks, and contact rotation based on these findings. Your protocol is a living document, not an one-time writeup.
-
 
 
 ## Related Articles

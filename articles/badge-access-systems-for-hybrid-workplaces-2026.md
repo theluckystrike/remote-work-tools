@@ -36,7 +36,7 @@ class BadgeAccessClient:
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
         }
-    
+
     def get_access_events(self, start_date, end_date, zone_id=None):
         """Fetch access events within a date range."""
         params = {
@@ -45,14 +45,14 @@ class BadgeAccessClient:
         }
         if zone_id:
             params["zone"] = zone_id
-        
+
         response = requests.get(
             f"{self.base_url}/events",
             headers=self.headers,
             params=params
         )
         return response.json()
-    
+
     def grant_temporary_access(self, user_id, zone_ids, valid_until):
         """Grant time-limited badge access."""
         payload = {
@@ -93,24 +93,24 @@ A common requirement for hybrid workplaces is mapping badge access to scheduled 
 async function validateScheduledAccess(userId, badgeRead) {
   const today = new Date();
   const schedule = await getUserSchedule(userId, today);
-  
+
   if (!schedule.isInOffice) {
     return { allowed: false, reason: 'Not scheduled for in-office work' };
   }
-  
+
   const scheduledZone = schedule.assignedZone;
   const requestedZone = badgeRead.zoneId;
-  
+
   if (scheduledZone !== requestedZone) {
     return { allowed: false, reason: 'Zone access not assigned for today' };
   }
-  
+
   // Check time window (e.g., 6 AM to 9 PM)
   const hour = today.getHours();
   if (hour < 6 || hour >= 21) {
     return { allowed: false, reason: 'Outside permitted hours' };
   }
-  
+
   return { allowed: true };
 }
 ```
@@ -142,25 +142,25 @@ def handle_badge_webhook():
     signature = request.headers.get("X-Signature", "")
     if not verify_webhook_signature(request.data.decode(), signature):
         return jsonify({"error": "Invalid signature"}), 401
-    
+
     event = request.json
     event_type = event.get("event_type")
-    
+
     if event_type == "access_granted":
         user = event.get("user")
         zone = event.get("zone")
         timestamp = event.get("timestamp")
-        
+
         # Log arrival for workplace analytics
         log_arrival(user, zone, timestamp)
-        
+
         # Trigger workspace personalization
         notify_workspace_service(user, zone)
-        
+
     elif event_type == "access_denied":
         # Security alerting
         alert_security_team(event)
-    
+
     return jsonify({"status": "processed"}), 200
 ```
 
@@ -176,7 +176,7 @@ Slack/Microsoft Teams Notifications: Send alerts when unusual access patterns de
 def notify_security_slack(user_name, zone, timestamp, is_unusual=False):
     webhook_url = "https://hooks.slack.com/services/YOUR/WEBHOOK"
     color = "danger" if is_unusual else "good"
-    
+
     payload = {
         "attachments": [{
             "color": color,
@@ -187,10 +187,10 @@ def notify_security_slack(user_name, zone, timestamp, is_unusual=False):
             ]
         }]
     }
-    
+
     if is_unusual:
         payload["text"] = "⚠️ Unusual access pattern detected"
-    
+
     requests.post(webhook_url, json=payload)
 ```
 
@@ -215,7 +215,6 @@ Badge access systems continue evolving toward passwordless authentication, with 
 For developers building hybrid workplace tools, understanding badge access APIs opens significant automation opportunities. From simple attendance tracking to complex security orchestration, programmatic access control forms a foundation for modern workplace infrastructure.
 
 ---
-
 
 
 ## Related Articles

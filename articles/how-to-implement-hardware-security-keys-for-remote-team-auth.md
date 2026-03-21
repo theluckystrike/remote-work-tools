@@ -49,10 +49,10 @@ async function startRegistration(user) {
     attestationType: 'direct',
     supportedAlgorithmIDs: [-7, -257],
   });
-  
+
   // Store the challenge temporarily
   await storeChallenge(user.id, options.challenge);
-  
+
   return options;
 }
 ```
@@ -72,19 +72,19 @@ import { verifyRegistrationResponse } from '@simplewebauthn/server';
 
 async function completeRegistration(user, response) {
   const expectedChallenge = await getStoredChallenge(user.id);
-  
+
   const verification = await verifyRegistrationResponse({
     response,
     expectedChallenge,
     expectedOrigin: 'https://yourdomain.com',
     expectedRPID: 'yourdomain.com',
   });
-  
+
   if (verification.verified) {
     // Store the credential for future authentication
     await saveCredential(user.id, verification.registrationInfo);
   }
-  
+
   return verification;
 }
 ```
@@ -94,12 +94,12 @@ async function completeRegistration(user, response) {
 Authentication follows a similar pattern but uses the stored credential:
 
 ```javascript
-import { generateAuthenticationOptions, 
+import { generateAuthenticationOptions,
          verifyAuthenticationResponse } from '@simplewebauthn/server';
 
 async function startAuthentication(user) {
   const credentials = await getCredentials(user.id);
-  
+
   const options = generateAuthenticationOptions({
     allowCredentials: credentials.map(cred => ({
       id: cred.credentialID,
@@ -107,7 +107,7 @@ async function startAuthentication(user) {
     })),
     userVerification: 'preferred',
   });
-  
+
   await storeChallenge(user.id, options.challenge);
   return options;
 }
@@ -119,7 +119,7 @@ Handle the authentication response:
 async function completeAuthentication(user, response) {
   const credential = await getCredential(response.credential.id);
   const expectedChallenge = await getStoredChallenge(user.id);
-  
+
   const verification = await verifyAuthenticationResponse({
     response,
     expectedChallenge,
@@ -127,15 +127,15 @@ async function completeAuthentication(user, response) {
     expectedRPID: 'yourdomain.com',
     credential,
   });
-  
+
   if (verification.verified) {
     // Update counter to detect key cloning attempts
     await updateCredentialCounter(
-      credential.id, 
+      credential.id,
       verification.authenticationInfo.newCounter
     );
   }
-  
+
   return verification;
 }
 ```
@@ -149,18 +149,18 @@ async function registerKey() {
   const options = await fetch('/auth/webauthn/register/start', {
     method: 'POST'
   }).then(r => r.json());
-  
+
   try {
     const credential = await navigator.credentials.create({
       publicKey: options
     });
-    
+
     await fetch('/auth/webauthn/register/complete', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(credential)
     });
-    
+
     console.log('Hardware key registered successfully');
   } catch (error) {
     console.error('Registration failed:', error);
@@ -171,18 +171,18 @@ async function authenticateWithKey() {
   const options = await fetch('/auth/webauthn/login/start', {
     method: 'POST'
   }).then(r => r.json());
-  
+
   try {
     const credential = await navigator.credentials.get({
       publicKey: options
     });
-    
+
     const result = await fetch('/auth/webauthn/login/complete', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(credential)
     });
-    
+
     if (result.ok) {
       console.log('Authenticated with hardware key');
     }
@@ -236,14 +236,14 @@ const ENROLLMENT_GRACE_PERIOD_DAYS = 14;
 
 async function canUsePasswordAuth(user) {
   if (!user.hardwareKeyRequired) return true;
-  
+
   const enrolled = await hasRegisteredCredentials(user.id);
   if (enrolled) return false;
-  
+
   const enrollmentDeadline = new Date(
     user.hardwareKeyAssignedAt + ENROLLMENT_GRACE_PERIOD_DAYS * 24 * 60 * 60 * 1000
   );
-  
+
   return new Date() < enrollmentDeadline;
 }
 ```
@@ -263,8 +263,6 @@ Hardware keys provide strong protection but work best as part of a defense-in-de
 For remote teams specifically, hardware keys eliminate the risk of SMS interception, man-in-the-middle phishing sites, and credential replay attacks that plague traditional authentication methods.
 
 ---
-
-
 
 
 ## Related Articles

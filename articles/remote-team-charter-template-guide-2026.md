@@ -36,7 +36,7 @@ Start with clarity on why the team exists and what it aims to achieve. This sect
 ```markdown
 ## Team Purpose
 
-The Platform Team ensures reliable deployment pipelines and maintains infrastructure 
+The Platform Team ensures reliable deployment pipelines and maintains infrastructure
 supporting 99.9% uptime for customer-facing services.
 
 ## 2026 Objectives
@@ -328,3 +328,5 @@ Run the quarterly review as a 60-minute async session: post specific questions a
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 - [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

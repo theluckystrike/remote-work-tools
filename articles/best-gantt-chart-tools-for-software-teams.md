@@ -97,7 +97,7 @@ from datetime import datetime, timedelta
 def create_jira_epic_with_timeline(epic_name, sprint_start, sprint_count):
     base_url = "https://your-domain.atlassian.net/rest/api/3"
     headers = {"Authorization": f"Bearer {JIRA_TOKEN}"}
-    
+
     # Create epic
     epic_response = requests.post(
         f"{base_url}/epic",
@@ -105,7 +105,7 @@ def create_jira_epic_with_timeline(epic_name, sprint_start, sprint_count):
         headers=headers
     )
     epic_id = epic_response.json()["id"]
-    
+
     # Create child stories with timeline
     for i in range(sprint_count):
         story_data = {
@@ -118,7 +118,7 @@ def create_jira_epic_with_timeline(epic_name, sprint_start, sprint_count):
             }
         }
         requests.post(f"{base_url}/issue", json=story_data, headers=headers)
-    
+
     return epic_id
 ```
 
@@ -143,7 +143,7 @@ def schedule_release_milestones(project_id, release_date):
         ("Release Prep", -3),
         ("Production Deploy", 0)
     ]
-    
+
     for name, days_offset in milestones:
         due_date = release_date + timedelta(days=days_offset)
         task = client.tasks.create_task({

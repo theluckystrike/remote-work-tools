@@ -204,7 +204,7 @@ describe('API Contract: /auth/validate', () => {
     const response = await request(app)
       .post('/auth/validate')
       .send({ token: 'valid-token' });
-    
+
     expect(response.status).toBe(200);
     expect(response.body).toHaveProperty('id');
     expect(response.body).toHaveProperty('email');
@@ -225,8 +225,6 @@ Contract tests catch breaking changes before they reach production. Run these te
 ## Practical Takeaways
 
 Start with clear ownership, automate dependency management, and maintain transparent communication about changes that affect multiple repositories. Pick the workflow that fits your team's size and distribution, document it, and revisit it periodically as your project evolves.
-
-
 
 
 ## Related Articles

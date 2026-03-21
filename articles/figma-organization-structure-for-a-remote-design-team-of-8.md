@@ -210,15 +210,15 @@ const TEAM_ID = 'your-team-id';
 
 async function checkFileHealth() {
   const files = await getTeamFiles(TEAM_ID);
-  
+
   for (const file of files) {
     const lastEdited = new Date(file.last_modified);
     const daysSinceEdit = (Date.now() - lastEdited) / (1000 * 60 * 60 * 24);
-    
+
     if (daysSinceEdit > 90) {
       console.log(`⚠️ ${file.name} hasn't been edited in ${Math.floor(daysSinceEdit)} days`);
     }
-    
+
     if (file.version_count > 50) {
       console.log(`📊 ${file.name} has ${file.version_count} versions`);
     }
@@ -246,7 +246,6 @@ Establish your Figma structure before scaling beyond eight people. The habits yo
 The key insight: structure enables autonomy. When everyone knows where files live, how to name them, and what permissions they need, designers can work independently without constantly asking "where is that component?" or "who has edit access?"
 
 ---
-
 
 
 ## Related Articles

@@ -132,14 +132,14 @@ def evaluate_announcement(message_text, channel_id, user_id):
             "action": "reject",
             "reason": "Missing required prefix. Use [ANNOUNCEMENT], [URGENT], or [INFO]"
         }
-    
+
     # Check for action items
     if "**Action" not in message_text and "**Action Required" not in message_text:
         return {
             "action": "warn",
             "reason": "Consider adding an Action section for clarity"
         }
-    
+
     # Check for excessive emojis (noise indicator)
     emoji_count = len(re.findall(r':\w+:', message_text))
     if emoji_count > 5:
@@ -147,16 +147,16 @@ def evaluate_announcement(message_text, channel_id, user_id):
             "action": "warn",
             "reason": "High emoji count may reduce readability"
         }
-    
+
     return {"action": "approve"}
 
 def process_new_message(event, client):
     message_text = event.get('text', '')
     channel_id = event['channel']
     user_id = event['user']
-    
+
     result = evaluate_announcement(message_text, channel_id, user_id)
-    
+
     if result['action'] == 'reject':
         client.chat_postMessage(
             channel=user_id,
@@ -185,7 +185,7 @@ digest_schedule:
     - eng-updates
     - product-news
     - hr-announcements
-  
+
 message_ttl:
   urgent: immediate  # Still post immediately
   normal: 24h       # Queue for digest if not urgent
@@ -219,9 +219,9 @@ def generate_channel_health_report(channel_history):
     total_messages = len(channel_history)
     valuable_messages = sum(1 for m in channel_history if m['has_action_item'])
     noise_messages = sum(1 for m in channel_history if m['moved_to_other_channel'])
-    
+
     snr = valuable_messages / total_messages if total_messages > 0 else 0
-    
+
     return {
         "total_messages": total_messages,
         "valuable_messages": valuable_messages,

@@ -125,13 +125,13 @@ Enable the OWASP Core Rule Set in your Nginx configuration:
 server {
     listen 443 ssl http2;
     server_name internal.yourcompany.com;
-    
+
     modsecurity on;
     modsecurity_rules_file /etc/modsecurity/crs/crs-setup.conf;
-    
+
     # Load OWASP rules
     include /etc/modsecurity/crs/rules/*.conf;
-    
+
     location / {
         proxy_pass http://localhost:8080;
         proxy_set_header Host $host;
@@ -184,7 +184,6 @@ SecAuditLog /var/log/modsec_audit.log
 Review blocked requests weekly during initial deployment. Identify patterns where legitimate team workflows trigger rules, then create exceptions using rule IDs. Document these exceptions and revisit them quarterly to ensure they remain necessary.
 
 Implement alerting for security events. Configure notifications when WAF blocks suspicious activity, but avoid alert fatigue by focusing on high-severity blocks and unusual patterns rather than routine attacks that the WAF handles automatically.
-
 
 
 ## Related Articles

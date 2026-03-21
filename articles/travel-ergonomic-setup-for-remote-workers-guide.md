@@ -42,7 +42,7 @@ Your travel ergonomic kit should fit in a carry-on or laptop bag. Focus on these
 ```bash
 # Travel ergonomic kit weight estimate
 # Laptop stand (aluminum): ~350g
-# Compact keyboard: ~300g  
+# Compact keyboard: ~300g
 # Lumbar cushion (inflatable): ~100g
 # Cable clips + misc: ~100g
 # Total additions: ~850g (under 2lbs)
@@ -132,7 +132,7 @@ const { execSync } = require('child_process');
 
 function detectEnvironment() {
   const displays = getConnectedDisplays();
-  
+
   if (displays.length === 1) {
     console.log('Single display detected - likely traveling');
     applyTravelSettings();
@@ -164,7 +164,7 @@ function ergonomic-reminder() {
     elif is_traveling; then
         interval=1200  # 20 minutes - more frequent during travel
     fi
-    
+
     while true; do
         sleep $interval
         notify-send "🧘 Ergonomic break" "Stand, stretch, reset posture"
@@ -212,13 +212,12 @@ A simple evening routine:
 
 echo "=== Evening Recovery ==="
 echo "1. Standing back bend: 10 reps"
-echo "2. Neck rotations: 5 each direction"  
+echo "2. Neck rotations: 5 each direction"
 echo "3. Shoulder rolls: 10 forward, 10 backward"
 echo "4. Walk: 10 minutes minimum"
 echo ""
 echo "Tomorrow's productivity starts tonight"
 ```
-
 
 
 ## Related Articles

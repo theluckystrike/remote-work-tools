@@ -37,7 +37,7 @@ Here's a quick comparison framework you can use when evaluating options:
 def evaluate_fan_specs(db_rating, cfm, blade_count):
     """Evaluate fan suitability for office calls."""
     score = 0
-    
+
     # Noise penalty - critical for calls
     if db_rating <= 25:
         score += 30
@@ -45,17 +45,17 @@ def evaluate_fan_specs(db_rating, cfm, blade_count):
         score += 15
     else:
         score -= 10
-    
+
     # Airflow bonus
     if 50 <= cfm <= 150:
         score += 25
     elif cfm > 150:
         score += 10  # More is not always better
-    
+
     # Blade efficiency consideration
     if blade_count in [3, 5, 7]:  # Common quiet configs
         score += 15
-    
+
     return score
 ```
 
@@ -101,21 +101,21 @@ from dataclasses import dataclass
 class RoomConditions:
     temperature: float
     humidity: float
-    
+
 def adjust_fan_for_conditions(conditions: RoomConditions) -> int:
     """Calculate optimal fan speed based on room conditions."""
     base_speed = 30
-    
+
     # Temperature adjustment
     if conditions.temperature > 28:
         base_speed += 40
     elif conditions.temperature > 25:
         base_speed += 20
-    
+
     # Humidity penalty - humid air feels warmer
     if conditions.humidity > 70:
         base_speed += 10
-    
+
     return min(base_speed, 100)
 ```
 
@@ -167,8 +167,6 @@ The right quiet fan depends on your specific situation. Consider these factors:
 For most developers in moderate climates, a quality tower fan in the 25-35 dB range, positioned to create cross-breeze without pointing at your mic, provides the best balance of cooling and quiet operation during calls.
 
 The investment in a quiet air circulation solution pays off immediately—you'll sound more professional on calls, stay comfortable during focused work sessions, and avoid the distraction of dealing with heat during important meetings.
-
-
 
 
 ## Related Articles

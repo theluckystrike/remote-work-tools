@@ -32,9 +32,9 @@ The core problem: most laptops position the screen at eye level only when you're
 The Roost stand uses a minimalist, V-shaped design that folds down to an extremely compact form factor. It weighs around 250 grams and collapses to roughly the size of a large smartphone. The stand uses a tension-based system—the legs flex to accommodate different laptop widths (typically 11-15 inches).
 
 ```text
-Roost Stand Dimensions (expanded): 
+Roost Stand Dimensions (expanded):
 - Height: 12.5 inches
-- Width: 8.5 inches  
+- Width: 8.5 inches
 - Depth: 8 inches
 
 Roost Stand Dimensions (folded):
@@ -84,7 +84,7 @@ function calculateOptimalLaptopHeight(chairHeight, userHeight) {
   // Eye level should be 20-30 degrees below horizontal
   const optimalEyeHeight = userHeight * 0.46; // ~46% of total height
   const idealScreenTop = optimalEyeHeight - (chairHeight * 0.1);
-  
+
   return Math.round(idealScreenTop);
 }
 
@@ -170,7 +170,6 @@ Choose the **Nexstand** if:
 - Your desk height varies (standing desk)
 - You work directly on the laptop screen frequently
 - You prefer a more substantial, desk-based setup
-
 
 
 ## Related Articles

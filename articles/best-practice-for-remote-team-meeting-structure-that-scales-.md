@@ -120,7 +120,7 @@ Track rotation in your project management tool:
 ```
 Team Rotation Schedule:
 - Week 1: Frontend (rep: @developer1)
-- Week 2: Backend (rep: @developer2)  
+- Week 2: Backend (rep: @developer2)
 - Week 3: Platform (rep: @developer3)
 - Week 4: Data (rep: @developer4)
 ```
@@ -195,7 +195,6 @@ Building a scalable meeting structure requires deliberate design:
 6. Review and prune quarterly
 
 The goal is not zero meetings—that is unrealistic for most teams. The goal is meetings that serve clear purposes, respect everyone's time, and scale alongside your team without becoming unmanageable.
-
 
 
 ## Related Articles

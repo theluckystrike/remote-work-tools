@@ -104,7 +104,7 @@ Notion integrates through SAML. Required attributes include email and name:
 # Notion SAML Attribute Mapping
 NOTION_ATTRIBUTES = {
     'email': 'user.email',
-    'firstName': 'user.first_name', 
+    'firstName': 'user.first_name',
     'lastName': 'user.last_name',
     'groups': 'user.groups'
 }
@@ -157,7 +157,7 @@ SSO strengthens security but requires proper implementation to be effective.
 // Example: Session configuration
 const sessionConfig = {
   accessTokenLifetime: 3600,      // 1 hour
-  refreshTokenLifetime: 604800,  // 7 days  
+  refreshTokenLifetime: 604800,  // 7 days
   idTokenLifetime: 3600,
   requireRefreshToken: true,
   slidingSession: false
@@ -174,14 +174,14 @@ scim:
   enabled: true
   base_url: https://api.your-idp.com/scim/v2
   secret: your-scim-token
-  
+
   # Auto-provisioning rules
   mappings:
     - source: user.email
       target: userName
     - source: user.department
       target: department
-    - source: user.title  
+    - source: user.title
       target: title
 ```
 
@@ -210,8 +210,6 @@ Implement fallback authentication methods. When SSO experiences outages, maintai
 ---
 
 Building SSO for remote teams requires thoughtful protocol selection, careful configuration, and ongoing maintenance. The initial investment pays dividends through reduced password management burden, improved security posture, and improved user provisioning. Start with your most critical tools, establish consistent patterns, and expand methodically across your SaaS stack.
-
-
 
 
 ## Related Articles

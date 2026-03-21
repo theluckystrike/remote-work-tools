@@ -180,7 +180,7 @@ camera:
   mode: "auto-tracking"  # Follows active speaker
   resolution: "4K"
   frame_rate: "30fps"
-  
+
 audio:
   mic_array: "Jabra PanaCast"
   noise_cancellation: "enabled"
@@ -204,7 +204,6 @@ Start with one meeting per week. Propose the round-robin speaking structure or t
 The goal isn't to replicate in-person meetings remotely. It's to design meetings where location becomes irrelevant and contribution quality determines participation, not proximity.
 
 ---
-
 
 
 ## Related Articles

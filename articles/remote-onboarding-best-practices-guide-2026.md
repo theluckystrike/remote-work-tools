@@ -242,5 +242,6 @@ Analyze data quarterly. Identify bottlenecks and iterate on the process.
 - [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
 - [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

@@ -79,7 +79,7 @@ channels:
   urgent_issues: "Slack DM or phone call"
   normal_questions: "Slack channel message"
   non_urgent: "Email or Slack thread"
-  
+
 response_times:
   during_work_hours: "Within 2 hours"
   outside_hours: "Next business day"
@@ -244,7 +244,6 @@ While avoiding product recommendations, these tool categories help:
 - Task management: Linear, Jira, or similar tracking systems
 - Real-time chat: Slack, Microsoft Teams, or Discord
 - Calendar management: Shared calendars with timezone support
-
 
 
 ## Related Articles

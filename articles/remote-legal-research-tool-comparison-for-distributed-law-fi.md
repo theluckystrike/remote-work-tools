@@ -109,33 +109,33 @@ class LegalResearchAggregator:
             'westlaw': WestlawClient(api_keys['westlaw']),
             'lexis': LexisClient(api_keys['lexis'])
         }
-    
+
     async def search_all(self, research_query: ResearchQuery) -> Dict[str, List[Dict]]:
         """Execute parallel searches across providers"""
         tasks = [
             provider.search(research_query.query, research_query.jurisdictions)
             for provider in self.providers.values()
         ]
-        
+
         results = await asyncio.gather(*tasks, return_exceptions=True)
-        
+
         return {
-            provider: result 
+            provider: result
             for provider, result in zip(self.providers.keys(), results)
         }
-    
+
     def deduplicate_results(self, results: Dict[str, List[Dict]]) -> List[Dict]:
         """Remove duplicate cases across providers using citation matching"""
         seen_citations = set()
         unique_results = []
-        
+
         for provider, cases in results.items():
             for case in cases:
                 citation = case.get('citation', '')
                 if citation and citation not in seen_citations:
                     seen_citations.add(citation)
                     unique_results.append({**case, 'source': provider})
-        
+
         return sorted(unique_results, key=lambda x: x.get('relevance_score', 0), reverse=True)
 ```
 
@@ -161,16 +161,16 @@ async def verify_attorney(token: str = Depends(oauth2_scheme)):
         payload = jwt.decode(token, "FIRM_SECRET_KEY", algorithms=["HS256"])
         attorney_id = payload.get("sub")
         firm_id = payload.get("firm_id")
-        
+
         if not attorney_id or not firm_id:
             raise HTTPException(status_code=401, detail="Invalid credentials")
-        
+
         # Check firm subscription status
         if not await check_firm_subscription(firm_id):
             raise HTTPException(status_code=403, detail="Subscription expired")
-        
+
         return {"attorney_id": attorney_id, "firm_id": firm_id}
-    
+
     except jwt.PyJWTError:
         raise HTTPException(status_code=401, detail="Authentication failed")
 
@@ -196,7 +196,6 @@ For firms with strict data sovereignty requirements, some vendors now offer on-p
 ### Multi-Jurisdictional Research
 
 Distributed firms handling international matters should evaluate cross-border research capabilities. Tools like Global Legal Information Network and specialized international databases may supplement primary US-focused platforms.
-
 
 
 ## Related Articles

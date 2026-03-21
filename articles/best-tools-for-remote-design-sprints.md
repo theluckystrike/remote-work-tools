@@ -48,16 +48,16 @@ async function exportSprintBoard(boardId) {
       'Content-Type': 'application/json'
     }
   });
-  
+
   const items = await response.json();
-  
+
   // Extract sticky notes and organize by column
   const sprintData = {
     problems: items.data.filter(i => i.type === 'sticky_note' && i.column === 'problems'),
     howMightWe: items.data.filter(i => i.type === 'sticky_note' && i.column === 'how-might-we'),
     solutions: items.data.filter(i => i.type === 'sticky_note' && i.column === 'solutions')
   };
-  
+
   return sprintData;
 }
 ```
@@ -197,7 +197,6 @@ Invest in automation early. Set up webhook integrations that automatically expor
 For developers, build prototype components in your actual codebase when possible. This creates working references that outlast any sprint board and integrates naturally with your CI/CD pipeline.
 
 Start simple, measure what works, and evolve your tooling as your sprint practice matures.
-
 
 
 ## Related Articles

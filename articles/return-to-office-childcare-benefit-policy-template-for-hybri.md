@@ -96,7 +96,7 @@ class ChildcareBenefitRequest:
         self.dependents = dependents  # List of dependent info
         self.status = 'pending'
         self.documents_verified = False
-    
+
     def submit(self):
         """Submit benefit request with required documentation"""
         required_docs = ['birth_certificate', 'guardianship_proof']
@@ -104,7 +104,7 @@ class ChildcareBenefitRequest:
             self.status = 'submitted'
             return True
         return False
-    
+
     def approve(self):
         """HR approval workflow"""
         if self.status == 'submitted' and self.documents_verified:
@@ -150,11 +150,11 @@ policy_communication:
   new_employee:
     - "Benefits overview during onboarding"
     - "Policy handbook inclusion"
-  
+
   annual:
     - "Open enrollment reminder (November)"
     - "Benefit utilization summary (December)"
-  
+
   quarterly:
     - "Eligibility verification check"
     - "Provider network updates"
@@ -306,7 +306,6 @@ Questions? Contact benefits@company.com or your HR Business Partner.
 ```
 
 Clear transition instructions prevent the most common complaint about benefit changes: employees who lost out on an improvement because they didn't realize they needed to re-enroll.
-
 
 
 ## Related Articles

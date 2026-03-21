@@ -78,11 +78,11 @@ const pkg = require('./package.json');
 function verifyChecksum(packageName, expectedHash) {
   const packagePath = `./node_modules/${packageName}`;
   const fileHash = crypto.createHash('sha256');
-  
+
   fs.createReadStream(packagePath)
     .pipe(fileHash)
     .digest('hex');
-    
+
   return fileHash === expectedHash;
 }
 
@@ -120,17 +120,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       # Always pin action versions
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run tests
         run: npm test
 ```
@@ -174,16 +174,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Run npm audit
         run: npm audit --audit-level=high
         continue-on-error: true
-      
+
       - name: Run dependency check
         uses: snyk/actions/node@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-      
+
       - name: Scan container images
         uses: aquasecurity/trivy-action@master
         with:
@@ -246,13 +246,13 @@ function checkPipelineModifications() {
   const output = execSync('git log --oneline -10 -- .github/workflows/', {
     encoding: 'utf8'
   });
-  
-  const suspicious = output.filter(line => 
-    line.includes('dependabot') === false && 
+
+  const suspicious = output.filter(line =>
+    line.includes('dependabot') === false &&
     line.includes(' renovate') === false &&
     line.includes('workflow update') === true
   );
-  
+
   if (suspicious.length > 0) {
     console.log('WARNING: Manual review needed for workflow changes');
     // Send notification to security team
@@ -261,7 +261,6 @@ function checkPipelineModifications() {
 ```
 
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
-
 
 
 ## Related Articles

@@ -128,13 +128,13 @@ def calculate_review_deadline(pr_created_at: datetime, reviewers_timezones: list
     Calculate review deadline based on team timezone distribution.
     """
     base_sla_hours = 24
-    
+
     # Add buffer for each timezone with minimal overlap
     non_overlapping_zones = count_non_overlapping_zones(reviewers_timezones)
-    
+
     # More timezones = more buffer needed
     sla_hours = base_sla_hours + (non_overlapping_zones * 8)
-    
+
     return pr_created_at + timedelta(hours=sla_hours)
 
 def count_non_overlapping_zones(timezones: list) -> int:
@@ -143,7 +143,7 @@ def count_non_overlapping_zones(timezones: list) -> int:
     """
     # Define overlap window
     overlap_window_hours = 4
-    
+
     # Simplified: return count of zones beyond first
     # In production, calculate actual overlap windows
     return max(0, len(timezones) - 1)
@@ -166,13 +166,13 @@ const timeZones = {
 function assignReviewer(pr_author_tz, reviewers) {
   // Find reviewer in adjacent timezone for better overlap
   const author_offset = timeZones[pr_author_tz].offset;
-  
+
   const sorted_reviewers = reviewers.sort((a, b) => {
     const a_diff = Math.abs(timeZones[a.tz].offset - author_offset);
     const b_diff = Math.abs(timeZones[b.tz].offset - author_offset);
     return a_diff - b_diff;
   });
-  
+
   return sorted_reviewers[0];
 }
 ```
@@ -207,7 +207,7 @@ Track metrics to identify calibration issues early:
 
 ```sql
 -- Query to find review score variance by reviewer
-SELECT 
+SELECT
     reviewer,
     AVG(score) as avg_score,
     STDDEV(score) as score_variance,
@@ -218,7 +218,7 @@ GROUP BY reviewer
 ORDER BY score_variance DESC;
 
 -- Query to find review time by timezone pair
-SELECT 
+SELECT
     author_tz,
     reviewer_tz,
     AVG(hours_to_review) as avg_hours,

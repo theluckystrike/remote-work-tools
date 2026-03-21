@@ -48,12 +48,12 @@ def measure_distance():
     GPIO.output(TRIG_PIN, True)
     time.sleep(0.00001)
     GPIO.output(TRIG_PIN, False)
-    
+
     while GPIO.input(ECHO_PIN) == 0:
         pulse_start = time.time()
     while GPIO.input(ECHO_PIN) == 1:
         pulse_end = time.time()
-    
+
     pulse_duration = pulse_end - pulse_start
     distance = pulse_duration * 17150
     return distance
@@ -90,7 +90,7 @@ client.on('connect', () => {
 client.on('message', (topic, message) => {
   const [, , floor, zone, deskId] = topic.split('/');
   const payload = JSON.parse(message.toString());
-  
+
   const deskEvent = {
     floor,
     zone,
@@ -99,11 +99,11 @@ client.on('message', (topic, message) => {
     timestamp: new Date().toISOString(),
     sensorType: payload.sensor
   };
-  
+
   // Store in time-series database
   influxClient.writePoint({
     measurement: 'desk_occupancy',
-    tags: { 
+    tags: {
       floor: deskEvent.floor,
       zone: deskEvent.zone,
       deskId: deskEvent.deskId
@@ -113,7 +113,7 @@ client.on('message', (topic, message) => {
     },
     timestamp: deskEvent.timestamp
   });
-  
+
   // Update Redis cache for real-time queries
   redisClient.hSet(
     `desk:${floor}:${zone}:${deskId}`,
@@ -136,39 +136,39 @@ const app = express();
 app.get('/api/floors/:floorId/desks', async (req, res) => {
   const { floorId } = req.params;
   const { zone } = req.query;
-  
+
   const filter = { floor: floorId };
   if (zone) filter.zone = zone;
-  
+
   const desks = await redisClient.hGetAll(`floor:${floorId}:desks`);
   const deskList = Object.entries(desks).map(([deskId, status]) => ({
     deskId,
     status,
     floor: floorId
   }));
-  
+
   res.json({ floor: floorId, desks: deskList });
 });
 
 // Get utilization metrics for a time range
 app.get('/api/analytics/utilization', async (req, res) => {
   const { floorId, startDate, endDate, interval = 'hour' } = req.query;
-  
+
   const query = `
     SELECT mean(occupied) as utilization
     FROM desk_occupancy
     WHERE floor = $1 AND time >= $2 AND time <= $3
     GROUP BY time(${interval}), deskId
   `;
-  
+
   const results = await influxClient.query(query, [floorId, startDate, endDate]);
-  
+
   const utilizationByHour = results.reduce((acc, row) => {
     const hour = new Date(row.time).getHours();
     acc[hour] = (acc[hour] || 0) + row.utilization;
     return acc;
   }, {});
-  
+
   res.json({ floorId, period: { start: startDate, end: endDate }, utilization: utilizationByHour });
 });
 
@@ -189,30 +189,30 @@ from collections import defaultdict
 def calculate_utilization_metrics(occupancy_data, total_desks):
     """
     Calculate utilization metrics from raw occupancy records.
-    
+
     Args:
         occupancy_data: List of dicts with 'desk_id', 'occupied', 'timestamp'
         total_desks: Total number of desks in the analyzed area
-    
+
     Returns:
         Dictionary with utilization metrics
     """
     occupied_records = [r for r in occupancy_data if r['occupied']]
-    
+
     # Peak utilization: maximum concurrent desks in use
     occupancy_by_minute = defaultdict(int)
     for record in occupied_records:
         minute = record['timestamp'].replace(second=0)
         occupancy_by_minute[minute] += 1
-    
+
     peak_utilization = max(occupancy_by_minute.values()) if occupancy_by_minute else 0
-    
+
     # Average utilization rate
     avg_utilization = (len(occupied_records) / len(occupancy_data)) * 100 if occupancy_data else 0
-    
+
     # Utilization efficiency: how well desk capacity matches demand
     efficiency = (peak_utilization / total_desks) * 100
-    
+
     return {
         'peak_utilization': peak_utilization,
         'peak_percentage': (peak_utilization / total_desks) * 100,
@@ -242,26 +242,26 @@ Visualizing occupancy patterns reveals spatial trends that raw numbers miss. Gen
 function generateHeatmapData(occupancyRecords, floorPlan) {
   const gridSize = 20; // pixels per grid cell
   const heatmapData = [];
-  
+
   // Group occupancy by hour and grid position
   const hourBuckets = {};
-  
+
   occupancyRecords.forEach(record => {
     const hour = new Date(record.timestamp).getHours();
     const gridX = Math.floor(record.x_position / gridSize);
     const gridY = Math.floor(record.y_position / gridSize);
-    
+
     if (!hourBuckets[hour]) hourBuckets[hour] = {};
     const key = `${gridX},${gridY}`;
-    
+
     hourBuckets[hour][key] = (hourBuckets[hour][key] || 0) + (record.occupied ? 1 : 0);
   });
-  
+
   // Normalize and prepare for rendering
   Object.keys(hourBuckets).forEach(hour => {
     const gridData = hourBuckets[hour];
     const maxCount = Math.max(...Object.values(gridData));
-    
+
     Object.entries(gridData).forEach(([key, count]) => {
       const [x, y] = key.split(',').map(Number);
       heatmapData.push({
@@ -271,7 +271,7 @@ function generateHeatmapData(occupancyRecords, floorPlan) {
       });
     });
   });
-  
+
   return heatmapData;
 }
 ```
@@ -300,7 +300,7 @@ function exportToCOBie(utilizationData, floorInfo) {
       NominalFloorArea: floorInfo.deskAreaSqFt
     }))
   };
-  
+
   return cobieExport;
 }
 
@@ -308,10 +308,10 @@ function exportToCOBie(utilizationData, floorInfo) {
 function generateUtilizationReport(utilizationMetrics) {
   const headers = ['Floor', 'Zone', 'Total Desks', 'Peak Utilization', 'Avg Utilization %', 'Efficiency Score', 'Recommendation'];
   const rows = utilizationMetrics.map(m => [
-    m.floorId, m.zone, m.totalDesks, m.peakUtilization, 
+    m.floorId, m.zone, m.totalDesks, m.peakUtilization,
     m.averageUtilization, m.efficiencyScore, m.recommendation
   ]);
-  
+
   return [headers, ...rows].map(row => row.join(',')).join('\n');
 }
 ```
@@ -329,7 +329,6 @@ Desk occupancy tracking involves employee privacy considerations. Anonymize data
 ### Scaling Strategy
 
 Start with a pilot floor covering 20-50 desks. Validate your sensor reliability, data pipeline stability, and analytics accuracy before expanding. Plan for horizontal scaling by designing your MQTT topic structure and database schema to accommodate additional floors without refactoring.
-
 
 
 ## Related Articles

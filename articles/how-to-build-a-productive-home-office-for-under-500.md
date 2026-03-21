@@ -240,4 +240,6 @@ Building a productive office on $500 requires one non-negotiable: your comfort. 
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
 - [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

@@ -36,7 +36,7 @@ Team members post their standup updates in a shared channel or bot before the sc
 - Fixed authentication bug in PR #342
 - Code review for team's payment refactor
 
-## Today  
+## Today
 - Implement user dashboard caching
 - Investigate memory leak in worker process
 

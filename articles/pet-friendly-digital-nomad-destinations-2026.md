@@ -242,7 +242,6 @@ Factor these into your cost-of-living calculations. Some destinations, like Mexi
 5. **Build vet relationships early**: Establishing relationships with local vets in your first month often grants discounts on routine care. First visit to vet, ask about membership plans or multi-visit discounts.
 
 
-
 ## Related Articles
 
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)

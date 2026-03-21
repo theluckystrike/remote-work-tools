@@ -98,9 +98,9 @@ curl -s https://speed.cloudflare.com/ | jq '.'
 echo -e "\n=== Jitter Measurement ==="
 ping -c 50 apt更新.googleusercontent.com 2>/dev/null | \
   awk -F'time=' '/time=/ {print $2}' | \
-  awk '{sum+=$1; sum2+=$1*$1; count++} END { 
-    mean=sum/count; 
-    printf "Average: %.2f ms\n", mean; 
+  awk '{sum+=$1; sum2+=$1*$1; count++} END {
+    mean=sum/count;
+    printf "Average: %.2f ms\n", mean;
     printf "StdDev: %.2f ms\n", sqrt(sum2/count - mean*mean)
   }'
 ```
@@ -362,7 +362,6 @@ Neighborhood?
 - [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 
 Built by
-
 
 
 ## Related Articles

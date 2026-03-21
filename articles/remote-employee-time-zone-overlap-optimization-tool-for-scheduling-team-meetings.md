@@ -98,16 +98,16 @@ Several existing tools solve this problem without building from scratch:
 def calculate_overlap():
     user_ids = request.form['text'].split()
     team = get_team_from_slack(user_ids)
-    
+
     overlaps = find_time_overlaps(
         participants=[get_user_tz(uid) for uid in user_ids],
         meeting_duration=60
     )
-    
+
     response = "Available meeting slots:\n"
     for slot in overlaps[:5]:
         response += f"• {slot['utc']} UTC - works for all\n"
-    
+
     return Response(response, mimetype='text/plain')
 ```
 
@@ -118,21 +118,21 @@ Not all team members have equal scheduling priority. Senior engineers in critica
 ```javascript
 function findWeightedOverlaps(participants, weights) {
   const slotScores = {};
-  
+
   for (let hour = 0; hour < 24; hour++) {
     let score = 0;
     for (const p of participants) {
       const localHour = convertToLocal(hour, 0, p.timezone);
       const ideal = localHour >= 10 && localHour <= 16; // Core hours
       const acceptable = localHour >= 9 && localHour < 18;
-      
+
       if (ideal) score += weights[p.name] * 2;
       else if (acceptable) score += weights[p.name];
       else score -= weights[p.name] * 2; // Penalize outside hours
     }
     slotScores[hour] = score;
   }
-  
+
   return Object.entries(slotScores)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 5);
@@ -150,12 +150,12 @@ For recurring meetings, automate the selection process entirely. Create a schedu
 async function proposeWeeklyMeeting() {
   const team = await getTeamData();
   const overlaps = findWeightedOverlaps(team.members, team.weights);
-  
-  const proposal = overlaps.map(([hour, score], index) => 
+
+  const proposal = overlaps.map(([hour, score], index) =>
     `${index + 1}. ${hour}:00 UTC (score: ${score})`
   ).join('\n');
-  
-  await postToSlack('#meetings', 
+
+  await postToSlack('#meetings',
     `📅 Weekly sync proposals for next week:\n${proposal}\nReact with ✅ to confirm`);
 }
 ```
@@ -173,7 +173,6 @@ Flexible Hours: Some team members work non-standard schedules. Allow participant
 One-Time vs Recurring: A tool should distinguish between finding a single slot (more flexibility) and establishing a recurring meeting (needs long-term stability).
 
 Public Holidays: For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
-
 
 
 ## Related Articles

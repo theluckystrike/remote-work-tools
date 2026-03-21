@@ -130,7 +130,7 @@ async function processExpenseApproval(expense, approver) {
       }
     ]
   });
-  
+
   return notification;
 }
 ```

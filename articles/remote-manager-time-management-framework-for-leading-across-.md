@@ -15,9 +15,6 @@ voice-checked: true
 ---
 
 
-
-
-
 {% raw %}
 # Remote Manager Time Management Framework for Leading Across Five Plus Timezones
 
@@ -37,7 +34,7 @@ For example, with a team spanning US West Coast, US East Coast, UK, and India:
 
 ```
 Stack 1: US West Coast + US East Coast (overlap: 6 hours)
-Stack 2: UK + India (overlap: 5-6 hours)  
+Stack 2: UK + India (overlap: 5-6 hours)
 Stack 3: All-hands (rotate meeting times bi-weekly)
 ```
 
@@ -126,7 +123,7 @@ emergency_contacts:
     - name: "EMEA On-Call"
       timezone: "Europe/London"
       slack: "@emea-oncall"
-    - name: "APAC On-Call" 
+    - name: "APAC On-Call"
       timezone: "Asia/Kolkata"
       slack: "@apac-oncall"
   SEV2_major:
@@ -353,7 +350,6 @@ If you have concerns, reply in thread by [date+24 hours]
 ```
 
 This structure prevents decisions made in AMER morning from creating confusion when Europe wakes up. Everyone has context upfront.
-
 
 
 ## Related Articles

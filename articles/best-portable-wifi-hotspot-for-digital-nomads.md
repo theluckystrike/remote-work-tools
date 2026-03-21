@@ -178,12 +178,12 @@ def check_usage_threshold(limit_mb=5000):
     usage = get_data_usage()
     total = usage['download_mb'] + usage['upload_mb']
     percent = (total / limit_mb) * 100
-    
+
     if percent > 80:
         print(f"⚠️  Warning: {percent:.1f}% of data limit used ({total:.0f}MB / {limit_mb}MB)")
     else:
         print(f"✓ Data usage: {percent:.1f}% ({total:.0f}MB / {limit_mb}MB)")
-    
+
     return percent
 
 if __name__ == "__main__":

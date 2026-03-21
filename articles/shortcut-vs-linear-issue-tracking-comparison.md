@@ -71,12 +71,12 @@ Here's how you might structure a project in Linear:
 Project: Mobile App
   Team: iOS
   Team: Android
-  
+
   Issues:
     - IMP-123: Fix login crash (P1)
     - IMP-124: Add dark mode (P2)
     - IMP-125: Optimize image loading (P3)
-  
+
   Cycles:
     - Sprint 12: 2026-03-10 to 2026-03-24
 ```
@@ -93,7 +93,7 @@ Epic: User Authentication
     Task: Add session management
   Story: As a user, I can reset my password
     Task: Password reset flow
-    
+
 Epic: Dark Mode
   Story: As a user, I can toggle dark mode
     Task: Add theme context
@@ -192,7 +192,6 @@ Choose **Shortcut** if:
 If you're moving from one platform to another, both offer import tools. Linear can import from Jira, Asana, and other tools. Shortcut supports imports from Trello, Asana, and Jira as well.
 
 The migration effort depends on your data complexity. Custom fields, attachments, and historical comments all require careful mapping.
-
 
 
 ## Related Articles

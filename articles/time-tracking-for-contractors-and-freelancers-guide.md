@@ -47,14 +47,14 @@ from datetime import datetime
 def parse_time_log(filename):
     with open(filename) as f:
         lines = f.readlines()
-    
+
     sessions = []
     for i in range(0, len(lines) - 1, 2):
         start = datetime.strptime(lines[i].split(' - ')[0], '%Y-%m-%d %H:%M')
         end = datetime.strptime(lines[i+1].split(' - ')[0], '%Y-%m-%d %H:%M')
         duration = (end - start).total_seconds() / 3600
         sessions.append(duration)
-    
+
     return sum(sessions)
 
 print(f"Total hours: {parse_time_log('time.log'):.2f}")
@@ -188,11 +188,11 @@ from datetime import datetime, timedelta
 def reconcile_time_logs(automatic_log, timetrap_export, git_metrics):
     """Compare time from multiple sources and flag discrepancies."""
     discrepancies = []
-    
+
     # Check if automatic tracking shows significantly more time
     auto_total = sum(s['hours'] for s in automatic_log)
     manual_total = sum(s['hours'] for s in timetrap_export)
-    
+
     if auto_total > manual_total * 1.2:
         discrepancies.append({
             'type': 'untracked_time',
@@ -200,7 +200,7 @@ def reconcile_time_logs(automatic_log, timetrap_export, git_metrics):
             'manual_hours': manual_total,
             'message': '20%+ untracked time detected'
         })
-    
+
     return discrepancies
 
 # Example usage
@@ -228,7 +228,7 @@ from datetime import datetime
 def generate_invoice(time_entries, hourly_rate, client_name):
     total_hours = sum(entry['hours'] for entry in time_entries)
     total_amount = total_hours * hourly_rate
-    
+
     invoice = f"""INVOICE
 Client: {client_name}
 Date: {datetime.now().strftime('%Y-%m-%d')}
@@ -238,7 +238,7 @@ Time Entries:
 """
     for entry in time_entries:
         invoice += f"  {entry['date']}: {entry['hours']:.2f}h - {entry['description']}\n"
-    
+
     invoice += f"""
 Total Hours: {total_hours:.2f}
 Total Due: ${total_amount:.2f}
@@ -260,8 +260,6 @@ This outputs a clean invoice ready to send to clients.
 Start with the simplest method that fits your workflow. If you already use Git for development, add GTM and get time tracking with minimal behavior change. If you work across many applications, automatic tracking with ActivityWatch provides coverage. For pure simplicity, a CLI timer or even a text file works perfectly.
 
 The best time tracking system is the one you actually use consistently. Experiment with different approaches until you find the rhythm that works for your specific situation.
-
-
 
 
 ## Related Articles

@@ -190,7 +190,7 @@ Create a CONTRIBUTING guide that explains the ownership model:
 <!-- CONTRIBUTING.md -->
 ## Documentation Ownership
 
-We use a [shared ownership model](docs/ownership.yaml) where each page has 
+We use a [shared ownership model](docs/ownership.yaml) where each page has
 designated maintainers. When contributing documentation:
 
 1. Check `docs/ownership.yaml` to find the relevant owner
@@ -223,8 +223,6 @@ WHERE last_reviewed < DATE_SUB(CURDATE(), INTERVAL 90 DAY);
 - Forgotten registry: Keep the ownership file in sync with actual content
 
 A well-implemented ownership model transforms documentation from a chaotic afterthought into a reliable team resource. The initial setup effort pays dividends in reduced confusion, faster onboarding, and content that actually stays current.
-
-
 
 
 ## Related Articles

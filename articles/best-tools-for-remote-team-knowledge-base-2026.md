@@ -260,4 +260,6 @@ Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 - [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
 - [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

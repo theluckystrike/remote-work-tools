@@ -71,7 +71,7 @@ const calculateDeskNeeds = (monitorSize, hasLaptop) => {
   const baseWidth = 36; // inches
   const laptopSpace = hasLaptop ? 12 : 0;
   const monitorDepth = 8;
-  
+
   return {
     minWidth: baseWidth + laptopSpace,
     minDepth: monitorDepth + 18, // for keyboard + mouse
@@ -152,19 +152,19 @@ class DeskSessionTracker:
         self.standing_height = standing_height
         self.sessions = []
         self.current_position = "sitting"
-        
+
     def log_position(self, position):
         self.sessions.append({
             "position": position,
             "timestamp": datetime.now().isoformat()
         })
         self.current_position = position
-        
+
     def get_balance_report(self):
         sitting = sum(1 for s in self.sessions if s["position"] == "sitting")
         standing = sum(1 for s in self.sessions if s["position"] == "standing")
         total = sitting + standing
-        
+
         return {
             "sitting_sessions": sitting,
             "standing_sessions": standing,
@@ -194,11 +194,11 @@ function scheduleBreakReminders(currentState, workDuration = 25) {
     [DESK_STATES.SITTING]: workDuration,  // 25 min sitting
     [DESK_STATES.STANDING]: workDuration / 2  // 12.5 min standing
   };
-  
+
   return {
     interval: reminders[currentState] * 60 * 1000, // convert to ms
-    message: currentState === DESK_STATES.SITTING 
-      ? "Time to stand and stretch!" 
+    message: currentState === DESK_STATES.SITTING
+      ? "Time to stand and stretch!"
       : "Consider sitting for a bit"
   };
 }

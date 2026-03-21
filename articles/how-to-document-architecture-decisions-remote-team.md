@@ -32,8 +32,8 @@ A basic ADR structure looks like this:
 Accepted
 
 ## Context
-Our application requires a relational database with ACID compliance, JSON support, 
-and strong consistency guarantees. We evaluated MongoDB, MySQL, and PostgreSQL 
+Our application requires a relational database with ACID compliance, JSON support,
+and strong consistency guarantees. We evaluated MongoDB, MySQL, and PostgreSQL
 against our requirements.
 
 ## Decision
@@ -145,7 +145,7 @@ Request for Comments documents capture proposals before they become decisions. R
 # RFC-015: Introduce Message Queue for Async Processing
 
 ## Problem Statement
-Currently, all background jobs run synchronously within request handlers, 
+Currently, all background jobs run synchronously within request handlers,
 causing timeout issues for long-running operations.
 
 ## Proposed Solution
@@ -170,12 +170,12 @@ When architectural decisions lead to problems, document the failure:
 # Post-Mortem: Database Connection Pool Exhaustion (2026-02-15)
 
 ## What Happened
-Application became unresponsive during peak traffic. Root cause: database 
-connection pool configured with max 10 connections, insufficient for 
+Application became unresponsive during peak traffic. Root cause: database
+connection pool configured with max 10 connections, insufficient for
 concurrent request load.
 
 ## Why
-ADR-015 specified conservative connection limits based on initial traffic 
+ADR-015 specified conservative connection limits based on initial traffic
 projections. Traffic exceeded projections without revisiting the decision.
 
 ## Corrective Actions
@@ -223,8 +223,6 @@ Over time, the habits compound. New team members can understand why the system w
 Remote work doesn't have to mean architectural amnesia. With structured documentation and async collaboration patterns, distributed teams can make decisions that endure.
 
 ---
-
-
 
 
 ## Related Articles

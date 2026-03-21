@@ -362,7 +362,6 @@ But also measure qualitatively:
 A successful program feels like documentation is just "how we do things," not "the incentive program we're running."
 
 
-
 ## Related Articles
 
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)

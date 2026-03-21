@@ -119,17 +119,17 @@ async function syncPadToGit(padId, targetPath) {
   const response = await axios.get(`${ETHERPAD_API}/1/getText`, {
     params: { padID: padId, apikey: API_KEY }
   });
-  
+
   const content = response.data.text;
-  
+
   // Write to file
   fs.writeFileSync(targetPath, content);
-  
+
   // Commit to Git with timestamp
   const timestamp = new Date().toISOString();
   execSync(`git add ${targetPath}`);
   execSync(`git commit -m "Sync from Etherpad: ${timestamp}"`);
-  
+
   console.log(`Synced ${padId} to ${targetPath}`);
 }
 
@@ -189,7 +189,7 @@ from pathlib import Path
 class LegalDocumentAudit:
     def __init__(self, audit_path="/var/log/legal/audit"):
         self.audit_path = Path(audit_path)
-    
+
     def log_action(self, user_id, action, document_path, metadata=None):
         entry = {
             "timestamp": datetime.utcnow().isoformat(),
@@ -199,11 +199,11 @@ class LegalDocumentAudit:
             "metadata": metadata or {},
             "ip_address": self._get_client_ip()
         }
-        
+
         daily_log = self.audit_path / f"audit-{datetime.now().strftime('%Y-%m-%d')}.jsonl"
         with open(daily_log, 'a') as f:
             f.write(json.dumps(entry) + '\n')
-    
+
     def generate_compliance_report(self, start_date, end_date, matter_id=None):
         # Aggregate audit entries for reporting
         pass
@@ -229,18 +229,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Generate Exhibit List
         run: |
           ls -1 contracts/ > exhibits.txt
-          
+
       - name: Create Execution Copy
         run: |
           cat contracts/master-agreement.md
           echo "---"
           cat exhibits.txt
           >> execution-copy-$(date +%Y%m%d).md
-      
+
       - name: Notify Matter Team
         if: github.event_name == 'push'
         run: |

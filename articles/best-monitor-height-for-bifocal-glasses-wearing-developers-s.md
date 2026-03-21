@@ -48,41 +48,41 @@ Calculate optimal monitor height for bifocal glasses wearers.
 Adjust values based on your specific measurements.
 """
 
-def calculate_monitor_height(eye_height_cm, bifocal_segment_height_cm, 
+def calculate_monitor_height(eye_height_cm, bifocal_segment_height_cm,
                              viewing_distance_cm, monitor_height_cm):
     """
     Calculate the vertical offset needed for bifocal-friendly viewing.
-    
+
     Args:
         eye_height_cm: Your eye height when seated (cm)
         bifocal_segment_height_cm: Height of your bifocal near segment from bottom of lens
         viewing_distance_cm: Distance from eyes to monitor (typically 50-70cm)
         monitor_height_cm: Height of your monitor screen (not including stand)
-    
+
     Returns:
         Recommended monitor center height from floor and offset from standard ergo
     """
     # Bifocal near segment typically sits 12-20mm below optical center
     near_segment_offset = bifocal_segment_height_cm
-    
-    # Neutral gaze passes through intermediate zone, approximately 4-8mm 
+
+    # Neutral gaze passes through intermediate zone, approximately 4-8mm
     # above the top of the near segment
     intermediate_zone_from_bottom = near_segment_offset + 0.6
-    
+
     # Calculate how much lower the monitor should be than eye level
     # Using small angle approximation
     import math
     angle_radians = math.atan(intermediate_zone_from_bottom / viewing_distance_cm)
     vertical_offset = viewing_distance_cm * math.tan(angle_radians)
-    
+
     recommended_height = eye_height_cm - vertical_offset
-    
+
     # Standard ergo recommends monitor top at or slightly below eye level
     standard_ergo_top = eye_height_cm - 5  # cm
     standard_ergo_center = standard_ergo_top - (monitor_height_cm / 2)
-    
+
     adjustment_needed = recommended_height - standard_ergo_center
-    
+
     return {
         "recommended_center_cm": round(recommended_height, 1),
         "recommended_center_inches": round(recommended_height / 2.54, 1),
@@ -176,7 +176,6 @@ Many developers find that upgrading from a basic monitor stand to an adjustable 
 Finding the best monitor height for bifocal glasses wearing developers requires moving beyond standard ergo guidelines. Calculate your personal offset based on your specific bifocal configuration, verify the position through trial use, and adjust incrementally until comfortable. The investment in proper setup pays dividends in reduced neck strain, fewer headaches, and improved focus during long coding sessions.
 
 The exact height varies by individual, but most bifocal-wearing developers need their monitor center 3-6 inches lower than generic recommendations. Use the measurement process and calculation script provided to establish your baseline, then fine-tune based on actual comfort over time.
-
 
 
 ## Related Articles

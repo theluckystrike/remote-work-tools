@@ -145,7 +145,7 @@ Example:
 ```
 Hey Alex, wanted to share some thoughts on the deployment process.
 
-In yesterday's deploy, the rollback took 45 minutes because we had to trace through logs manually. 
+In yesterday's deploy, the rollback took 45 minutes because we had to trace through logs manually.
 
 I think we could reduce this significantly by adding the health-check endpoints we discussed last sprint. What do you think about prioritizing that in the next sprint planning?
 
@@ -329,7 +329,6 @@ Individual feedback matters less than systemic feedback culture. To build this:
    - Normalize the awkwardness
 
 Teams that master feedback compound their velocity because ideas flow freely and corrections happen fast. This is worth investing in.
-
 
 
 ## Related Articles

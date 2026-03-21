@@ -857,4 +857,6 @@ Scenario: 30-person remote team, needs both internal docs and versioned API refe
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

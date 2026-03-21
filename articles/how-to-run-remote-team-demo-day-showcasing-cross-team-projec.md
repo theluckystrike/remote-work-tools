@@ -127,7 +127,7 @@ services:
     depends_on:
       - db
       - redis
-  
+
   db:
     image: postgres:15
     environment:
@@ -136,7 +136,7 @@ services:
       - POSTGRES_PASSWORD=demo
     volumes:
       - ./demo-data.sql:/docker-entrypoint-initdb.d/01-demo-data.sql
-  
+
   redis:
     image: redis:7-alpine
 ```
@@ -236,7 +236,6 @@ Set up a recurring schedule:
 Block prep time for presenters the week before. Make the schedule visible and hold people accountable to it.
 
 ---
-
 
 
 ## Related Articles

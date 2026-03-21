@@ -180,7 +180,7 @@ ideas:
     status: "prototyping"
     owner: "@alice"
     next_review: "2026-03-22"
-    
+
   - title: "Video tutorial series"
     status: "research"
     owner: "@bob"
@@ -196,8 +196,6 @@ Avoid these mistakes that reduce ideation session effectiveness:
 - **Too many participants** — Keep sessions to 6-8 people maximum
 - **Missing follow-through** — Ideas without owners and deadlines die immediately
 - **Infinite sessions** — Cap ideation at 45-60 minutes; extended sessions produce diminishing returns
-
-
 
 
 ## Related Articles

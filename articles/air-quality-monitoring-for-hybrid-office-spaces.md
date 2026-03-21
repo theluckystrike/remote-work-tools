@@ -79,7 +79,7 @@ client.on('connect', () => {
 
 client.on('message', (topic, message) => {
   const sensorData = JSON.parse(message.toString());
-  
+
   // Store in time-series database
   influxClient.writePoint({
     measurement: 'air_quality',
@@ -114,7 +114,7 @@ export function useAirQualitySensor(sensorId) {
 
   useEffect(() => {
     const client = mqtt.connect('wss://your-broker.local');
-    
+
     client.on('connect', () => {
       setStatus('connected');
       client.subscribe(`office/sensors/${sensorId}`);
@@ -144,28 +144,28 @@ Configure alerts that trigger when air quality exceeds safe thresholds. Integrat
 # Python alert logic
 def check_air_quality(sensor_id, co2, pm25, temperature, humidity):
     alerts = []
-    
+
     if co2 > 1000:
         alerts.append({
             'level': 'warning',
             'message': f'CO2 elevated in {sensor_id}: {co2} ppm',
             'action': 'Increase ventilation'
         })
-    
+
     if co2 > 2000:
         alerts.append({
             'level': 'critical',
             'message': f'CO2 dangerous in {sensor_id}: {co2} ppm',
             'action': 'Evacuate and ventilate immediately'
         })
-    
+
     if pm25 > 35:
         alerts.append({
             'level': 'warning',
             'message': f'PM2.5 elevated in {sensor_id}: {pm25} µg/m³',
             'action': 'Check HVAC filters'
         })
-    
+
     return alerts
 ```
 

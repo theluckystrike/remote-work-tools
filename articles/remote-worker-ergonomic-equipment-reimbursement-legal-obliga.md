@@ -64,7 +64,7 @@ def check_reimbursement_requirement(employee_state: str) -> dict:
             "note": "Follow OSHA general duty clause"
         }
     }
-    
+
     return requirements.get(employee_state, {
         "obligation": "none",
         "statute": "None",
@@ -101,7 +101,7 @@ Your ergonomic equipment reimbursement policy should include:
 ergonomic_reimbursement_policy:
   effective_date: "2026-01-01"
   annual_budget_per_employee: 1500
-  
+
   covered_equipment:
     - name: "Ergonomic chair"
       max_reimbursement: 800
@@ -118,12 +118,12 @@ ergonomic_reimbursement_policy:
     - name: "Ergonomic assessment"
       max_reimbursement: 300
       requires_medical_note: true
-  
+
   eligibility:
     - "Full-time remote employees"
     - "Hybrid employees working remotely 3+ days/week"
     - "New hires within 30 days of remote start date"
-  
+
   submission_process:
     - "Purchase from approved vendors OR submit receipt for reimbursement"
     - "Submit within 60 days of purchase"
@@ -185,7 +185,7 @@ def calculate_non_compliance_cost(
         "turnover_cost": employee_count * 0.15 * avg_salary * 0.5,  # 15% turnover, 50% of salary
         "productivity_loss": employee_count * avg_salary * 0.15 * 0.2  # 15% affected, 20% productivity dip
     }
-    
+
     return {
         "total_potential_cost": sum(base_costs.values()),
         "breakdown": base_costs,
@@ -244,8 +244,6 @@ The smart approach: implement a compliant policy now, even if not legally requir
 Start by auditing your current remote work policies, identifying gaps in equipment reimbursement, and developing a phased implementation plan. Your developers and power users will thank you—and your legal team will appreciate the proactive approach.
 
 ---
-
-
 
 
 ## Related Articles

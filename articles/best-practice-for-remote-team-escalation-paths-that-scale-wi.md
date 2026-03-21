@@ -160,7 +160,7 @@ const getAvailability = (members, currentTime) => {
   return members.map(member => {
     const localHour = getLocalHour(member.timezone, currentTime);
     const isWorking = localHour >= 9 && localHour <= 18;
-    
+
     return {
       name: member.name,
       status: isWorking ? 'available' : 'off-hours',
@@ -219,7 +219,6 @@ Escalation should feel like using a safety net, not admitting failure. Frame esc
 When designing your escalation paths, involve the people who will use them. The best escalation framework is one that actually matches how your team naturally works—and grows with them.
 
 ---
-
 
 
 ## Related Articles

@@ -43,12 +43,12 @@ signoff_categories:
     required_approvers: 1
     timeout_hours: 4
     slack_channel: "#qa-hotfix"
-    
+
   feature:
     required_approvers: 2
     timeout_hours: 24
     slack_channel: "#qa-features"
-    
+
   routine:
     required_approvers: 1
     timeout_hours: 48
@@ -91,7 +91,7 @@ Use a structured comment format to make async feedback actionable. Here's a temp
 ```markdown
 ### QA Review: [Feature Name]
 
-**Reviewer**: @username  
+**Reviewer**: @username
 **Date**: YYYY-MM-DD
 
 #### Findings
@@ -124,14 +124,14 @@ from github import Github
 def check_pending_signoffs():
     g = Github(os.environ['GITHUB_TOKEN'])
     repo = g.get_repo("your-org/your-repo")
-    
+
     open_prs = repo.get_pulls(state='open')
-    
+
     for pr in open_prs:
         # Check if PR needs QA review
         if "needs-qa" in [l.name for l in pr.get_labels()]:
             age = datetime.datetime.now() - pr.created_at
-            
+
             if age.hours > 24:
                 # Send reminder after 24 hours
                 print(f"Reminder: {pr.title} pending QA for {age.days} days")
@@ -155,7 +155,7 @@ Document disagreements and their resolution in the PR for future reference:
 **Issue**: Button color contrast does not meet WCAG AA standards
 
 - @reviewer1 (2026-03-14): The current #4A90D9 fails contrast ratio. Need #2E6DA4 or higher.
-- @developer (2026-03-14): The darker shade looks too similar to secondary buttons. 
+- @developer (2026-03-14): The darker shade looks too similar to secondary buttons.
 - @reviewer1 (2026-03-14): What about #1E5F8C? Passes AA and distinguishable from #3A7BC8.
 - @developer (2026-03-15): Tested #1E5F8C - works well. Updating now.
 

@@ -117,7 +117,7 @@ With team members across multiple time zones, establish explicit overlap hours a
 // Calculate team overlap for scheduling
 const teamTimezones = [
   { name: 'Engineering Lead', offset: -8 },  // PST
-  { name: 'Senior Developer', offset: 0 },    // UTC  
+  { name: 'Senior Developer', offset: 0 },    // UTC
   { name: 'Backend Developer', offset: 5.5 }, // IST
   { name: 'QA Engineer', offset: -5 }        // EST
 ];
@@ -199,13 +199,13 @@ communication:
     production_alerts: pagerduty
     design_assets: figma
     technical_specs: confluence
-    
+
   response_times:
     critical: 15 minutes
     high: 4 hours
     normal: 24 hours
     low: 72 hours
-    
+
   required_pr_info:
     - description
     - testing steps
@@ -220,7 +220,6 @@ Communication guidelines for new projects should include a built-in review caden
 Week 1: Confirm guidelines work, make quick adjustments
 End of Month 1: Full review, incorporate lessons learned
 Quarterly: Compare with other projects, share what works
-
 
 
 ## Related Articles

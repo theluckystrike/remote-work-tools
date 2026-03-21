@@ -53,17 +53,17 @@ priority_levels:
     description: "Security incident, production outage, blocker"
     response_time: "15 minutes"
     channel_override: "Call or urgent Slack ping"
-    
+
   high:
     description: "Blocked from continuing work"
     response_time: "1 hour during work hours"
     channel_override: "Direct message with @mention"
-    
+
   normal:
     description: "Questions, requests, non-blocking issues"
     response_time: "4 hours during work hours"
     channel_override: "Channel message or email"
-    
+
   low:
     description: "FYI messages, optional discussions"
     response_time: "24 hours"
@@ -102,17 +102,17 @@ status_indicators:
   active:
     emoji: ":green-circle:"
     meaning: "Available for quick questions"
-    
+
   deep_work:
     emoji: ":headphones:"
     meaning: "Do not disturb - async only"
     do_not: "Expect immediate response"
-    
+
   in_meeting:
     emoji: ":calendar:"
     meaning: "In a meeting until [time]"
     do_not: "Unless urgent, DM or leave a message"
-    
+
   away:
     emoji: ":wave:"
     meaning: "Not working"
@@ -128,18 +128,18 @@ escalation_process:
   step_1:
     action: "Wait for defined response time"
     duration: "As specified above (1hr, 4hr, etc.)"
-    
+
   step_2:
     action: "Send follow-up in same channel with @mention"
     note: "Tag the person directly"
-    
+
   step_3:
     action: "If still no response after 2x initial time, escalate"
     channels:
       - "Tag their manager in thread"
       - "Post in #team-help channel"
       - "For critical issues: call their phone"
-      
+
   critical_escalation:
     action: "Security, safety, or production issues"
     process:
@@ -226,8 +226,6 @@ Every team has different needs. Adjust this template based on:
 The goal is not perfection—it's having a shared reference point that reduces confusion and builds trust through clear expectations.
 
 ---
-
-
 
 
 ## Related Articles

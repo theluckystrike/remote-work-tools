@@ -50,14 +50,14 @@ roles:
     slack: member
     jira: developer
     database: readonly
-    
+
   senior_engineer:
     github: admin
     aws: admin
     slack: member
     jira: admin
     database: write
-    
+
   product_manager:
     github: readonly
     aws: none
@@ -83,18 +83,18 @@ app = Flask(__name__)
 @app.route('/scim/webhook', methods=['POST'])
 def handle_scim_event():
     event = request.json
-    
+
     if event['type'] == 'user.created':
         user = event['user']
         # Provision access across tools
         provision_github_access(user['email'], user['role'])
         provision_slack_access(user['email'], user['department'])
         provision_cloud_access(user['email'], user['team'])
-        
+
     elif event['type'] == 'user.terminated':
         # Revoke all access
         revoke_all_access(event['user']['email'])
-    
+
     return jsonify({'status': 'processed'})
 
 def provision_github_access(email, role):
@@ -131,13 +131,13 @@ groups:
       - aws:developers
       - jira:engineering
       - slack:#engineering
-      
+
   product_team:
     tools:
       - linear:product
       - figma:product
       - slack:#product
-      
+
   new_hires_2026:
     tools:
       - github:onboarding
@@ -177,7 +177,7 @@ Cloud infrastructure (AWS, GCP, Azure) requires special attention because miscon
 # Terraform: AWS IAM role for engineer
 resource "aws_iam_role" "engineer" {
   name = "engineer-role"
-  
+
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
     Statement = [{
@@ -212,16 +212,16 @@ def revoke_all_access(email):
     """Revoke all tool access for terminated employee"""
     # Disable Google Workspace account
     deactivate_google_user(email)
-    
+
     # Remove from all GitHub teams
     remove_github_user(email)
-    
+
     # Revoke AWS credentials
     revoke_aws_credentials(email)
-    
+
     # Remove from Slack
     deactivate_slack_user(email)
-    
+
     # Log revocation for audit
     log_access_revocation(email)
 ```
@@ -244,8 +244,6 @@ Start with your identity provider as the single source of truth. Implement SCIM 
 This approach transforms access management from a manual, error-prone process into a scalable, auditable system. New hires get productive faster, security improves through consistent access controls, and your operations team avoids becoming a bottleneck as your remote team grows.
 
 ---
-
-
 
 
 ## Related Articles

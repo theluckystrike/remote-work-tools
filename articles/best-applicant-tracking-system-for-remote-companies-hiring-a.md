@@ -120,10 +120,10 @@ def schedule_interview(candidate_tz, interviewer_tz, meeting_duration=60):
     # Find overlapping working hours
     candidate_hours = get_working_hours(candidate_tz)  # e.g., 9am-6pm local
     interviewer_hours = get_working_hours(interviewer_tz)
-    
+
     # Find overlap
     overlap = find_time_overlap(candidate_hours, interviewer_hours)
-    
+
     # Return converted times for both parties
     return {
         "candidate_time": convert_to_tz(overlap.start, candidate_tz),
@@ -171,7 +171,6 @@ The best applicant tracking system for your remote company depends on your speci
 Consider starting with a free trial before committing. Most platforms offer 14-30 day evaluation periods that let you test their international hiring features with real candidates.
 
 The right ATS transforms remote hiring from a logistical nightmare into a scalable, repeatable process. Invest the time to configure it properly, and you'll build a global team more efficiently than competitors still struggling with spreadsheets and email threads.
-
 
 
 ## Related Articles

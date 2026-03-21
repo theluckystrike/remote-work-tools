@@ -29,20 +29,20 @@ For developers who want full control, here's a JavaScript implementation that ca
 ```javascript
 function findOptimalMeetingSlots(employees, meetingDuration = 60) {
   const slots = [];
-  
+
   // Check each hour of the week (0-167 for 7 days × 24 hours)
   for (let weekHour = 0; weekHour < 168; weekHour++) {
     let availableCount = 0;
     const day = Math.floor(weekHour / 24);
     const hour = weekHour % 24;
-    
+
     for (const employee of employees) {
       const localHour = (hour + employee.timezoneOffset) % 24;
       if (localHour >= employee.workStart && localHour < employee.workEnd) {
         availableCount++;
       }
     }
-    
+
     if (availableCount === employees.length) {
       slots.push({
         day,
@@ -59,7 +59,7 @@ function findOptimalMeetingSlots(employees, meetingDuration = 60) {
       });
     }
   }
-  
+
   return slots;
 }
 
@@ -88,22 +88,22 @@ import pytz
 def get_overlap_windows(employees, target_date):
     """Find overlapping work hours for a list of employees."""
     overlaps = []
-    
+
     for hour in range(24):
         attendees = 0
         for emp in employees:
-            local_dt = emp.tz.localize(datetime(target_date.year, 
-                                                target_date.month, 
-                                                target_date.day, 
+            local_dt = emp.tz.localize(datetime(target_date.year,
+                                                target_date.month,
+                                                target_date.day,
                                                 hour))
             if emp.work_start <= local_dt.hour < emp.work_end:
                 attendees += 1
-        
+
         if attendees == len(employees):
             overlaps.append(f"{hour:02d}:00 - {hour+1:02d}:00 (All)")
         elif attendees >= len(employees) * 0.5:
             overlaps.append(f"{hour:02d}:00 - {hour+1:02d}:00 ({attendees}/{len(employees)})")
-    
+
     return overlaps
 ```
 
@@ -127,11 +127,11 @@ For production use, connect your overlap calculator to calendar APIs:
 async function findAvailableSlots(employees, duration, calendarApi) {
   const busySlots = await calendarApi.getBusyTimes(employees.map(e => e.calendarId));
   const workingHours = calculateOverlaps(employees);
-  
+
   return workingHours.filter(slot => {
     const slotStart = slot.toDate();
     const slotEnd = new Date(slotStart.getTime() + duration * 60000);
-    return !busySlots.some(busy => 
+    return !busySlots.some(busy =>
       slotStart < busy.end && slotEnd > busy.start
     );
   });
@@ -383,7 +383,6 @@ for slot in slots:
 ```
 
 This tool can be run weekly to identify upcoming meeting windows without manual calculation.
-
 
 
 ## Related Articles

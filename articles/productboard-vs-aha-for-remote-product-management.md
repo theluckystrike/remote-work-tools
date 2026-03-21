@@ -65,7 +65,7 @@ async function createFeature(productboardToken, featureData) {
       }
     })
   });
-  
+
   return response.json();
 }
 
@@ -108,7 +108,7 @@ async function createAhaFeature(ahaSubdomain, apiToken, featureData) {
       })
     }
   );
-  
+
   return response.json();
 }
 ```
@@ -340,7 +340,6 @@ Track these metrics to verify your tool choice is working:
 | Monthly features shipped per commitment | 85%+ | < 70% |
 
 If you're seeing healthy metrics within 3 months of adoption, your choice is working. If metrics are poor, diagnose whether it's the tool or your process.
-
 
 
 ## Related Articles

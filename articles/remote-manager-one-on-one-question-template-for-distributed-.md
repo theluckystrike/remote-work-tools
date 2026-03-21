@@ -55,16 +55,16 @@ What, if anything, is blocking your progress this week?
 
 ### 2. Accomplishments
 What did you complete that you're proud of?
-- 
-- 
+-
+-
 
 ### 3. Support Needs
 What would help you move faster or more effectively?
-- 
-- 
+-
+-
 
 ### 4. Energy & Wellbeing
-How would you rate your energy level (1-10)? 
+How would you rate your energy level (1-10)?
 What's draining you? What's energizing you?
 
 ### 5. Anything else
@@ -192,8 +192,6 @@ Consistency beats intensity. Better to have 15-minute weekly one-on-ones that ac
 The question template is a starting point, not a rigid script. The best managers adapt their approach based on what they learn about each team member. Some people need more structure, others need more space. Some weeks call for deep blocker discussion, others call for pure relationship building.
 
 Start with the BASE framework, gather feedback from your team on what's helpful, and iterate. The goal isn't perfect—it's consistent attention to your team members as humans, not just as productivity units.
-
-
 
 
 ## Related Articles

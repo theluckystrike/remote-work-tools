@@ -117,7 +117,7 @@ Policy rules:
       - Approved Email Domain: yourcompany.com
     Exclude:
       - External Contractors
-  
+
   - Rule name: Emergency Access
     Include:
       - Email: security@yourcompany.com
@@ -233,7 +233,6 @@ Always maintain a fallback access method for critical situations. Configure brea
 **Ignoring logging.** Access logs reveal both security incidents and legitimate access patterns. Review them regularly.
 
 **Skipping user communication.** Announce changes ahead of time and provide clear instructions. Surprise authentication prompts create friction and resistance.
-
 
 
 ## Related Articles

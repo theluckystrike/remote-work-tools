@@ -113,7 +113,7 @@ Guests streaming video or running large downloads can degrade performance for ev
 tc qdisc add dev eth1 root handle 1: htb default 10
 tc class add dev eth1 parent 1: classid 1:10 htb rate 5mbit burst 15k
 
-# Limit guest download to 20Mbps  
+# Limit guest download to 20Mbps
 tc qdisc add dev eth2 root handle 1: htb default 10
 tc class add dev eth2 parent 1: classid 1:10 htb rate 20mbit burst 15k
 ```
@@ -201,8 +201,6 @@ Start with network segmentation as your foundation. From there, layer on captive
 The key is assuming guests will connect untrusted devices and designing your network to contain that risk. Your internal team shouldn't even notice the guest network exists—it should be completely invisible to corporate systems.
 
 When contractors finish their engagements, revoke their credentials immediately. When events conclude, rotate passwords. These operational practices matter as much as the technical configuration.
-
-
 
 
 ## Related Articles

@@ -59,8 +59,8 @@ function calculateInconvenienceScore(slot, teamZones) {
 function getNextOptimalSlot(history, teamZones) {
   const usedRecently = history.slice(-4);
   const available = timeSlots.filter(s => !usedRecently.includes(s.label));
-  return available.sort((a, b) => 
-    calculateInconvenienceScore(a, teamZones) - 
+  return available.sort((a, b) =>
+    calculateInconvenienceScore(a, teamZones) -
     calculateInconvenienceScore(b, teamZones)
   )[0];
 }

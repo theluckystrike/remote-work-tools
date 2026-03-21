@@ -45,12 +45,12 @@ async function getDeveloperComments() {
       headers: { 'X-Figma-Token': figmaApiKey }
     }
   );
-  
+
   const comments = await response.json();
   const developerComments = comments.comments.filter(
     c => c.message.includes('[dev]') || c.message.includes('@developer')
   );
-  
+
   return developerComments.map(c => ({
     id: c.id,
     message: c.message,
@@ -136,10 +136,10 @@ The real power of async annotation emerges when you connect feedback to developm
 // Example: Create GitHub issue from Figma comment
 app.post('/figma-webhook', async (req, res) => {
   const { comment, file_key, comment_id } = req.body;
-  
+
   if (comment.message.includes('[ticket]')) {
     const issueTitle = comment.message.replace('[ticket]', '').trim();
-    
+
     await github.issues.create({
       owner: 'your-org',
       repo: 'design-reviews',
@@ -147,7 +147,7 @@ app.post('/figma-webhook', async (req, res) => {
       body: `From Figma comment: ${comment.message}\n\nView in Figma: https://figma.com/file/${file_key}?comment=${comment_id}`
     });
   }
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -274,7 +274,6 @@ app.post('/figma-comment-webhook', async (req, res) => {
 ```
 
 This automation surfaces critical feedback to your team's attention system while keeping the design feedback loop intact.
-
 
 
 ## Related Articles

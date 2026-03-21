@@ -89,7 +89,7 @@ export function formatRelativeTime(date) {
   const now = new Date();
   const diff = now - date;
   const seconds = Math.floor(diff / 1000);
-  
+
   if (seconds < 60) return 'just now';
   if (seconds < 3600) return `${Math.floor(seconds / 60)} minutes ago`;
   if (seconds < 86400) return `${Math.floor(seconds / 3600)} hours ago`;
@@ -331,8 +331,6 @@ Open source contributions provide something rare in freelance work: verifiable, 
 - [ ] Update portfolio page with contribution
 - [ ] Schedule contribution time weekly (3-5 hours)
 - [ ] Set 12-month goal for meaningful contributions
-
-
 
 
 ## Related Articles

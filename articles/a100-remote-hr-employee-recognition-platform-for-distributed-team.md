@@ -46,7 +46,7 @@ async function giveRecognition(fromUserId, toUserId, reason, points = 100) {
       'Content-Type': 'application/json'
     }
   });
-  
+
   return response.data;
 }
 
@@ -75,7 +75,7 @@ class KudosClient:
         self.api_key = api_key
         self.subdomain = subdomain
         self.base_url = f"https://{subdomain}.kudosplatform.com/api/v1"
-    
+
     def send_recognition(self, sender_id, recipient_id, message, badge_id=None):
         url = f"{self.base_url}/recognitions"
         payload = {
@@ -85,9 +85,9 @@ class KudosClient:
             "badge_id": badge_id,
             "timestamp": datetime.utcnow().isoformat()
         }
-        
+
         response = requests.post(
-            url, 
+            url,
             json=payload,
             headers={
                 "Authorization": f"Bearer {self.api_key}",
@@ -126,13 +126,13 @@ plugin:
       - ":raised_hands:"
     points_enabled: true
     points_per_reaction: 5
-    
+
   automation:
     work_anniversary:
       enabled: true
       channel: "#people-ops"
       message_template: "Happy work anniversary, {name}! 🎉 {years} years of amazing contributions!"
-    
+
     birthday:
       enabled: true
       channel: "#people-ops"
@@ -152,7 +152,7 @@ const nectar = require('@nectar/sdk');
 async function syncEmployeeData(hrisProvider) {
   // Fetch employees from HRIS (Workday, BambooHR, etc.)
   const employees = await hrisProvider.getEmployees();
-  
+
   // Sync to Nectar
   for (const employee of employees) {
     await nectar.employees.upsert({
@@ -165,7 +165,7 @@ async function syncEmployeeData(hrisProvider) {
       timezone: employee.timezone
     });
   }
-  
+
   // Set up automatic recognition triggers
   await nectar.automations.create({
     trigger: 'work_anniversary',
@@ -190,7 +190,7 @@ Communication Platforms: Post recognition to Slack, Microsoft Teams, or other co
 // Slack integration for real-time recognition notifications
 async function postRecognitionToSlack(recognition, webhookUrl) {
   const { recipient, sender, message, points, badge } = recognition;
-  
+
   const slackMessage = {
     channel: "#recognition",
     username: "Kudos Bot",
@@ -221,7 +221,7 @@ async function postRecognitionToSlack(recognition, webhookUrl) {
       }
     ]
   };
-  
+
   await fetch(webhookUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -239,7 +239,6 @@ Choosing the best employee recognition platform for your distributed team depend
 Consider starting with a platform that integrates with tools your team already uses. The best platform is one that makes recognition so easy that it becomes a daily habit rather than an occasional HR initiative.
 
 Track metrics like recognition frequency, participation rates, and employee satisfaction scores to measure the impact of your recognition program and iterate on your approach over time.
-
 
 
 ## Related Articles

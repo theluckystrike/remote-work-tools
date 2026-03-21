@@ -58,14 +58,14 @@ Remote teams need visibility into work progress without scheduling constant meet
 def handle_emoji_reaction(event):
     """Track PR review status based on emoji reactions"""
     pr = get_pr(event['channel'], event['ts'])
-    
+
     reactions = {
         '⏳': 'in_progress',
         '✅': 'approved',
         '❌': 'changes_requested',
         '🚧': 'blocked'
     }
-    
+
     for emoji in event['reaction']:
         if emoji in reactions:
             update_pr_status(pr, reactions[emoji])
@@ -85,7 +85,7 @@ When a team needs to make decisions, emoji reactions serve as instant polls:
 // Slack app: Reaction-based voting
 app.event('reaction_added', async ({ event, client }) => {
   if (!event.reaction.startsWith('emoji_vote_')) return;
-  
+
   const voteType = event.reaction.replace('emoji_vote_', '');
   const message = await client.conversations.history({
     channel: event.item.channel,
@@ -93,7 +93,7 @@ app.event('reaction_added', async ({ event, client }) => {
     inclusive: true,
     limit: 1
   });
-  
+
   // Track vote and update message with count
   await track_vote(message.messages[0].text, event.user, voteType);
 });
@@ -157,11 +157,11 @@ def update_project_board(channel, emoji_status):
     """Update project board based on reaction emoji"""
     status_map = {
         '⏳': 'In Progress',
-        '✅': 'Complete', 
+        '✅': 'Complete',
         '🚧': 'Blocked',
         '❌': 'Cancelled'
     }
-    
+
     # Post update to project board channel
     client.chat_postMessage(
         channel=PROJECT_BOARD_CHANNEL,

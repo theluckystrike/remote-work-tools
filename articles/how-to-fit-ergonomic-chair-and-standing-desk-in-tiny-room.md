@@ -67,7 +67,7 @@ Developers can use a simple Python script to visualize and plan their room layou
 #!/usr/bin/env python3
 """Plan your small room workstation layout."""
 
-def calculate_minimum_space(chair_depth=30, chair_width=28, 
+def calculate_minimum_space(chair_depth=30, chair_width=28,
                              desk_depth=30, desk_width=60,
                              clearance_behind=36):
     """
@@ -76,10 +76,10 @@ def calculate_minimum_space(chair_depth=30, chair_width=28,
     """
     # Total depth needed = chair depth + desk depth + clearance
     total_depth = chair_depth + desk_depth + clearance_behind
-    
+
     # Total width needed = max(chair width, desk width)
     total_width = max(chair_width, desk_width)
-    
+
     return {
         'minimum_width_inches': total_width,
         'minimum_depth_inches': total_depth,
@@ -92,30 +92,30 @@ def suggest_layout(room_width, room_depth, door_position='left'):
     Suggest desk placement based on room dimensions.
     """
     suggestions = []
-    
+
     # Check if room can accommodate standard setup
     min_needed = calculate_minimum_space()
-    
+
     if room_width * 12 >= min_needed['minimum_width_inches']:
         suggestions.append("Standard desk orientation works")
         suggestions.append(f"Desk depth {min_needed['minimum_depth_inches']} inches")
     else:
         suggestions.append("Consider corner desk or wall-mounted option")
         suggestions.append("May need compact chair or narrower desk")
-    
+
     # Door position affects optimal desk location
     if door_position == 'left':
         suggestions.append("Place desk on right wall to avoid door traffic")
     else:
         suggestions.append("Place desk on left wall to avoid door traffic")
-    
+
     return suggestions
 
 # Example usage for a tiny room
 if __name__ == "__main__":
     room_width = 8  # feet
     room_depth = 10  # feet
-    
+
     print(f"Room: {room_width}x{room_depth} feet")
     print(f"Minimum space needed: {calculate_minimum_space()}")
     print(f"\nLayout suggestions:")
@@ -328,8 +328,6 @@ If you're starting with zero ergonomic setup, upgrade strategically:
 - Effectiveness: 98%
 
 Rather than buying everything at once, upgrade incrementally. This spreads cost, lets you test configurations before investing big, and prevents buyer's remorse.
-
-
 
 
 ## Related Articles

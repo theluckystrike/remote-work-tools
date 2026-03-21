@@ -171,7 +171,7 @@ const trackSource = () => {
   const params = new URLSearchParams(window.location.search);
   const source = params.get('utm_source') || 'direct';
   const medium = params.get('utm_medium') || 'none';
-  
+
   analytics.track('career_page_view', {
     source,
     medium,
@@ -260,7 +260,6 @@ Building employer brand takes time. Prioritize actions by impact:
 - Set up developer community presence
 - Build 12-month content calendar
 - Track cNPS and iterate on interview process
-
 
 
 ## Related Articles

@@ -171,8 +171,6 @@ Your wiki platform may require adjustments. Confluence users might convert the m
 The best design document template is one your team actually uses. Implement this template, gather feedback from your reviewers, and iterate. Over time, you'll develop conventions that match your team's communication style and technical culture.
 
 
-
-
 ## Related Articles
 
 - [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)

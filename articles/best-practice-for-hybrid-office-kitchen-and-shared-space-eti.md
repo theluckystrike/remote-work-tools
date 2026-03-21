@@ -75,13 +75,13 @@ const rooms = {
 app.get('/api/rooms/:roomId/availability', async (req, res) => {
   const { roomId } = req.params;
   const { date, startTime, duration } = req.query;
-  
+
   const calendarEvents = await calendarAPI.getEvents({
     resourceId: rooms[roomId].calendarId,
     timeMin: `${date}T${startTime}:00`,
     timeMax: `${date}T${parseInt(startTime) + duration}:00`
   });
-  
+
   res.json({ available: events.length === 0 });
 });
 ```
@@ -108,7 +108,7 @@ def get_space_occupancy():
         'break-room': sensor_api.get('/sensors/break-room/motion/count'),
         'meeting-floor': booking_api.get('/rooms/occupied-count')
     }
-    
+
     return {
         'timestamp': datetime.utcnow().isoformat(),
         'spaces': {
@@ -162,7 +162,7 @@ jobs:
       - name: Fetch booking data
         run: |
           curl -s $API_URL/analytics/week > report.json
-      
+
       - name: Post to Slack
         uses: 8398a7/action-slack@v3
         with:
@@ -206,12 +206,12 @@ bot.on('message', async (message) => {
     // Check fridge photos from camera
     const fridgeStatus = await iotCamera.getLatestImage();
     const unlabeledItems = await visionAPI.detectUnlabeled(fridgeStatus);
-    
+
     if (unlabeledItems.length > 0) {
       bot.postMessage({
         channel: KITCHEN_CHANNEL,
-        text: `👀 Looks like ${unlabeledItems.length} items may be unlabeled. 
-               Please check and add your name! Unlabeled items will be 
+        text: `👀 Looks like ${unlabeledItems.length} items may be unlabeled.
+               Please check and add your name! Unlabeled items will be
                discarded tomorrow at 10am.`
       });
     }

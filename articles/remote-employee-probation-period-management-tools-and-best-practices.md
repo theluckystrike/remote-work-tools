@@ -47,7 +47,7 @@ interface ProbationMilestone {
 }
 
 async function createProbationCycle(
-  employeeId: string, 
+  employeeId: string,
   startDate: string
 ): Promise<ProbationMilestone> {
   return {
@@ -219,7 +219,6 @@ jobs:
           echo "Checking for probation milestones due this week..."
           # Integration with Slack, email, or project management tools
 ```
-
 
 
 ## Related Articles

@@ -72,7 +72,7 @@ const response = await fetch('https://api.float.com/v3/people', {
 });
 
 const team = await response.json();
-// Returns: [{ id, name, email, weekly_hours, 
+// Returns: [{ id, name, email, weekly_hours,
 //            scheduled_hours, capacity_percentage }]
 ```
 
@@ -136,7 +136,7 @@ const notion = new Client({ auth: process.env.NOTION_KEY });
 
 async function findMatchingStaff(projectRequirements) {
   const databaseId = process.env.STAFFING_DB_ID;
-  
+
   // Query all team members
   const response = await notion.databases.query({
     database_id: databaseId,
@@ -150,7 +150,7 @@ async function findMatchingStaff(projectRequirements) {
   const scored = response.results.map(person => {
     const skills = person.properties.Skills.multi_select.map(s => s.name);
     const timezone = person.properties.Timezone.select?.name;
-    
+
     let score = 0;
     projectRequirements.requiredSkills.forEach(required => {
       if (skills.includes(required)) score += 10;
@@ -158,12 +158,12 @@ async function findMatchingStaff(projectRequirements) {
     projectRequirements.preferredSkills.forEach(preferred => {
       if (skills.includes(preferred)) score += 5;
     });
-    
+
     // Bonus for timezone overlap
     if (projectRequirements.preferredTimezones.includes(timezone)) {
       score += 3;
     }
-    
+
     return { person, score, skills, timezone };
   });
 
@@ -211,20 +211,20 @@ const { findMatchingStaff } = require('./staffing-api');
 
 app.command('/staff-project', async ({ command, ack, say }) => {
   await ack();
-  
+
   const requirements = {
     requiredSkills: command.text.split(' ')[0].split(','),
     preferredSkills: command.text.split(' ')[1]?.split(',') || [],
     preferredTimezones: ['PST', 'EST']
   };
-  
+
   const matches = await findMatchingStaff(requirements);
-  
-  const response = matches.slice(0, 5).map(m => 
+
+  const response = matches.slice(0, 5).map(m =>
     `• ${m.person.properties.Name.title[0].plain_text} ` +
     `(Score: ${m.score}, Skills: ${m.skills.join(', ')})`
   ).join('\n');
-  
+
   say(`Top matches for your project:\n${response}`);
 });
 ```

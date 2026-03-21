@@ -65,7 +65,7 @@ class SupportAutomation:
     def __init__(self, api_key):
         self.api_key = api_key
         self.base_url = "https://api.helpscout.net/v2"
-    
+
     def get_unassigned_conversations(self, mailbox_id):
         response = requests.get(
             f"{self.base_url}/mailboxes/{mailbox_id}/conversations",
@@ -76,16 +76,16 @@ class SupportAutomation:
             auth=(self.api_key, 'X')
         )
         return response.json()['Conversations']
-    
+
     def categorize_by_keywords(self, conversation_id, subject, body):
         keywords = {
             'billing': ['invoice', 'charge', 'payment', 'refund'],
             'technical': ['error', 'bug', 'crash', 'api', 'sdk'],
             'feature': ['request', 'suggestion', 'would be nice', 'add']
         }
-        
+
         content = f"{subject} {body}".lower()
-        
+
         for category, terms in keywords.items():
             if any(term in content for term in terms):
                 return category
@@ -113,13 +113,13 @@ const client = zendesk.createClient({
 async function routeTicketByPriority(ticketId, subject, requesterId) {
   // Determine priority based on keywords in subject
   const urgentKeywords = ['critical', 'down', 'production', 'outage'];
-  const isUrgent = urgentKeywords.some(kw => 
+  const isUrgent = urgentKeywords.some(kw =>
     subject.toLowerCase().includes(kw)
   );
-  
+
   const priority = isUrgent ? 'urgent' : 'normal';
   const groupId = isUrgent ? process.env.URGENT_SUPPORT_GROUP : process.env.GENERAL_SUPPORT_GROUP;
-  
+
   await client.tickets.update(ticketId, {
     ticket: {
       priority: priority,
@@ -127,7 +127,7 @@ async function routeTicketByPriority(ticketId, subject, requesterId) {
       tags: isUrgent ? ['urgent', 'auto-routed'] : ['auto-routed']
     }
   });
-  
+
   return { priority, groupId };
 }
 ```

@@ -169,10 +169,10 @@ def acknowledge_policy(employee_id, policy_version):
         "ip_address": "logged_at_acknowledgment",
         "agreement": "I have read and agree to comply with this policy"
     }
-    
+
     with open(f"acknowledgments/{employee_id}.json", "w") as f:
         json.dump(acknowledgment, f)
-    
+
     return acknowledgment
 ```
 
@@ -210,7 +210,6 @@ DON'T:
 - Store customer data locally
 - Ignore security warnings
 ```
-
 
 
 ## Related Articles

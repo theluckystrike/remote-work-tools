@@ -56,17 +56,17 @@ Executives need protected deep-work time. You can use Google Apps Script to auto
 function protectFocusTime() {
   const calendar = CalendarApp.getDefaultCalendar();
   const today = new Date();
-  
+
   // Block 6-8 AM and 6-8 PM for focus work
   const focusBlocks = [
     { start: '06:00', end: '08:00' },
     { start: '18:00', end: '20:00' }
   ];
-  
+
   focusBlocks.forEach(block => {
     const startTime = new Date(today.toDateString() + ' ' + block.start);
     const endTime = new Date(today.toDateString() + ' ' + block.end);
-    
+
     // Check if slot is free before blocking
     const events = calendar.getEvents(startTime, endTime);
     if (events.length === 0) {
@@ -122,7 +122,7 @@ $freeBusy = Get-MailboxCalendarConfiguration -Identity $rooms[0]
 $queryStart = Get-Date "2026-03-16 14:00:00"
 $queryEnd = Get-Date "2026-03-16 15:00:00"
 
-Get-MailboxCalendarFolder -Identity $rooms[0] | 
+Get-MailboxCalendarFolder -Identity $rooms[0] |
   Get-MailboxCalendarItems -StartDate $queryStart -EndDate $queryEnd
 ```
 
@@ -141,11 +141,11 @@ def get_team_availability(calendars: list, date: datetime) -> dict:
     """Aggregate availability across executive calendars."""
     credentials = Credentials.from_authorized_user_info(INFO)
     service = CalendarService(credentials)
-    
+
     availability = {}
     start_of_day = date.replace(hour=0, minute=0, second=0)
     end_of_day = date.replace(hour=23, minute=59, second=59)
-    
+
     for cal_id in calendars:
         events = service.events().list(
             calendarId=cal_id,
@@ -154,14 +154,14 @@ def get_team_availability(calendars: list, date: datetime) -> dict:
             singleEvents=True,
             orderBy='startTime'
         ).execute()
-        
+
         # Extract busy slots
         busy_times = [
-            (e['start']['dateTime'], e['end']['dateTime']) 
+            (e['start']['dateTime'], e['end']['dateTime'])
             for e in events.get('items', [])
         ]
         availability[cal_id] = busy_times
-    
+
     return availability
 
 # Find common free time slots
@@ -193,7 +193,6 @@ When deploying your chosen solution, ensure you:
 - Test API access and automation scripts in a non-production environment first
 
 The right calendar infrastructure enables executives to focus on strategic work rather than scheduling logistics. Invest time upfront in proper configuration, and the team will reap continuous time savings.
-
 
 
 ## Related Articles

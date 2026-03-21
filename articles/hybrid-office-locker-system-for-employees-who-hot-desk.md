@@ -48,16 +48,16 @@ class LockerController:
         self.ip_address = ip_address
         self.locker_count = locker_count
         self.status = [None] * locker_count  # None=available, str=user_id=assigned
-    
+
     def get_status(self):
         """Poll controller for current locker states."""
         # Returns list of dicts with locker_id, status, last_access, battery_level
         pass
-    
+
     def open_locker(self, locker_id, user_id, duration_seconds=3600):
         """Unlock specific locker for timed access."""
         pass
-    
+
     def assign_locker(self, locker_id, user_id, reservation_id):
         """Permanently assign locker for reservation duration."""
         pass
@@ -105,7 +105,7 @@ def list_lockers():
     """List all lockers with availability status."""
     location = request.args.get('location')
     size = request.args.get('size')
-    
+
     available_lockers = [
         {
             'id': locker.id,
@@ -117,7 +117,7 @@ def list_lockers():
         if (not location or locker.location == location)
         and (not size or locker.size == size)
     ]
-    
+
     return jsonify({'lockers': available_lockers})
 
 @app.route('/api/lockers/assign', methods=['POST'])
@@ -128,22 +128,22 @@ def assign_locker():
     user_id = data.get('user_id')
     desk_booking_id = data.get('desk_booking_id')
     desired_location = data.get('preferred_location')
-    
+
     # Find available locker in preferred location
     available = [
         locker for locker in lockers.values()
         if locker.status == 'available'
         and (not desired_location or locker.location == desired_location)
     ]
-    
+
     if not available:
         return jsonify({'error': 'No lockers available'}), 409
-    
+
     locker = available[0]
     locker.status = 'assigned'
     locker.current_user = user_id
     locker.current_reservation = desk_booking_id
-    
+
     reservation = {
         'id': desk_booking_id,
         'locker_id': locker.id,
@@ -152,7 +152,7 @@ def assign_locker():
         'expires_at': (datetime.utcnow() + timedelta(hours=10)).isoformat()
     }
     reservations[desk_booking_id] = reservation
-    
+
     return jsonify({
         'locker_id': locker.id,
         'location': locker.location,
@@ -165,20 +165,20 @@ def access_locker(locker_id):
     """Record locker access event and trigger hardware unlock."""
     if locker_id not in lockers:
         return jsonify({'error': 'Locker not found'}), 404
-    
+
     locker = lockers[locker_id]
     user_id = request.json.get('user_id')
-    
+
     # Verify user has active reservation for this locker
     active_reservation = None
     for res in reservations.values():
         if res['locker_id'] == locker_id and res['user_id'] == user_id:
             active_reservation = res
             break
-    
+
     if not active_reservation:
         return jsonify({'error': 'No active reservation'}), 403
-    
+
     # Log access event
     access_log = {
         'timestamp': datetime.utcnow().isoformat(),
@@ -187,10 +187,10 @@ def access_locker(locker_id):
         'action': 'unlock'
     }
     access_logs.append(access_log)
-    
+
     # Trigger hardware unlock (communicate with controller)
     # controller.open_locker(locker_id, user_id)
-    
+
     return jsonify({'status': 'unlocked', 'log': access_log})
 
 @app.route('/api/lockers/<locker_id>/release', methods=['POST'])
@@ -199,12 +199,12 @@ def release_locker(locker_id):
     """Release locker when desk booking ends."""
     if locker_id not in lockers:
         return jsonify({'error': 'Locker not found'}), 404
-    
+
     locker = lockers[locker_id]
-    
+
     if locker.status == 'available':
         return jsonify({'error': 'Locker already released'}), 400
-    
+
     # Log release event
     access_logs.append({
         'timestamp': datetime.utcnow().isoformat(),
@@ -212,15 +212,15 @@ def release_locker(locker_id):
         'user_id': locker.current_user,
         'action': 'release'
     })
-    
+
     # Clear reservation and make available
     if locker.current_reservation in reservations:
         del reservations[locker.current_reservation]
-    
+
     locker.status = 'available'
     locker.current_user = None
     locker.current_reservation = None
-    
+
     return jsonify({'status': 'released'})
 ```
 
@@ -240,16 +240,16 @@ class DeskBookingIntegration:
         self.locker_api = locker_api_url
         self.api_key = api_key
         self.headers = {'Authorization': f'Bearer {api_key}'}
-    
+
     def on_desk_booked(self, booking_event):
         """Handle desk booking creation event."""
         user_id = booking_event['user_id']
         booking_id = booking_event['booking_id']
         floor = booking_event['floor']
-        
+
         # Find locker on same floor as booked desk
         location = f'floor-{floor}'
-        
+
         # Request locker assignment
         response = requests.post(
             f'{self.locker_api}/lockers/assign',
@@ -260,7 +260,7 @@ class DeskBookingIntegration:
             },
             headers=self.headers
         )
-        
+
         if response.status_code == 200:
             locker = response.json()
             print(f"Assigned locker {locker['locker_id']} to user {user_id}")
@@ -269,21 +269,21 @@ class DeskBookingIntegration:
         else:
             print(f"No lockers available for booking {booking_id}")
             return None
-    
+
     def on_desk_released(self, booking_event):
         """Handle desk booking cancellation or end event."""
         booking_id = booking_event['booking_id']
-        
+
         # Find associated locker
         response = requests.get(
             f'{self.locker_api}/reservations/{booking_id}',
             headers=self.headers
         )
-        
+
         if response.status_code == 200:
             reservation = response.json()
             locker_id = reservation['locker_id']
-            
+
             # Release the locker
             requests.post(
                 f'{self.locker_api}/lockers/{locker_id}/release',
@@ -306,19 +306,19 @@ class BadgeAccessIntegration:
             'assa': 'https://api.assaabloy.com/v2',
             'bosch': 'https://api.bosch-security.com/v1'
         }
-    
+
     def sync_user_credentials(self, user_id, badge_id):
         """Sync user badge to locker system for access control."""
         # This ensures the user's badge can open their assigned locker
         # Implementation varies by locker hardware vendor
         pass
-    
+
     def check_access_permission(self, user_id, locker_id):
         """Verify user has permission to access specific locker."""
         # Query access control system for user permissions
         # Return True if user has access, False otherwise
         pass
-    
+
     def log_access_event(self, badge_id, locker_id, timestamp, action):
         """Send access event to central security system."""
         event_data = {
@@ -343,7 +343,7 @@ def get_fleet_status(lockers):
     available = sum(1 for l in lockers if l.status == 'available')
     assigned = sum(1 for l in lockers if l.status == 'assigned')
     maintenance = sum(1 for l in lockers if l.status == 'maintenance')
-    
+
     # Group by location
     by_location = {}
     for locker in lockers:
@@ -352,7 +352,7 @@ def get_fleet_status(lockers):
         by_location[locker.location]['total'] += 1
         if locker.status == 'available':
             by_location[locker.location]['available'] += 1
-    
+
     return {
         'summary': {
             'total': total,
@@ -379,8 +379,6 @@ Maintenance Access: Build in maintenance modes for battery replacement, hardware
 User Communication: Set clear expectations about what can and cannot be stored. Most systems prohibit valuables, perishables, and prohibited items. Display policies on locker doors and include in employee onboarding.
 
 A well-integrated locker system removes one of the friction points in hot-desking, making it effortless for employees to store belongings securely while they work from any desk in the office.
-
-
 
 
 ## Related Articles

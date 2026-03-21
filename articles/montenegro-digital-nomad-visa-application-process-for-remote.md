@@ -327,8 +327,6 @@ Podgorica neighborhoods for remote workers:
 Built by
 
 
-
-
 ## Related Articles
 
 - [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)

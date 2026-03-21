@@ -129,7 +129,7 @@ Document your setup in a text file stored in your home office notes:
 
 ## Connections at Desk Level
 - Monitor 1: HDMI from GPU
-- Monitor 2: DisplayPort from GPU  
+- Monitor 2: DisplayPort from GPU
 - Keyboard: USB-A to hub
 - Mouse: Wireless (Logitech Unifying)
 
@@ -263,7 +263,6 @@ A typical developer standing desk setup with solid cable management includes:
 | Ethernet | 1 (optional) | Cable sleeve |
 
 This totals 3-6 cables depending on wireless adoption, all routed cleanly and hidden from view.
-
 
 
 ## Related Articles

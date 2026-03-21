@@ -15,9 +15,6 @@ intent-checked: true
 ---
 
 
-
-
-
 {% raw %}
 
 Implement remote all-hands question collection tools using GitHub Issues, custom APIs, or Slack Block Kit that enable anonymous submissions, community upvoting, and duplicate question merging. Open collection 48 hours before meetings to accommodate all time zones, and allow at least 24 hours for leaders to prepare answers. Measure success through submission rates (20-40% participation), answer quality surveys, and time-to-answer metrics. Anonymous submission removes barriers for sensitive questions while upvoting surfaces genuine concerns rather than leadership assumptions.
@@ -44,7 +41,7 @@ const { Octokit } = require('@octokit/rest');
 
 async function createQuestionIssue(org, repo, questionData) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-  
+
   const body = `
 ## Question Category
 ${questionData.category}
@@ -189,20 +186,20 @@ Not all submitted questions are well-formed or appropriate for the meeting forma
 function moderateQuestions(questions) {
   return questions.map(q => {
     // Merge similar questions
-    const duplicates = questions.filter(other => 
-      other.id !== q.id && 
+    const duplicates = questions.filter(other =>
+      other.id !== q.id &&
       levenshteinDistance(q.text, other.text) < 10
     );
-    
+
     if (duplicates.length > 0) {
       q.text += `\n\n(Similar questions merged: ${duplicates.map(d => d.id).join(', ')})`;
     }
-    
+
     // Mark for clarification if too vague
     if (q.text.split(' ').length < 5) {
       q.needs_clarification = true;
     }
-    
+
     return q;
   });
 }
@@ -219,7 +216,6 @@ Participation rate measures what percentage of eligible team members submitted q
 Answer quality can be measured through post-meeting surveys. Ask attendees whether their questions were answered satisfactorily.
 
 Time-to-answer tracks how quickly questions get responses. Long gaps between submission and answer often indicate organizational bottlenecks.
-
 
 
 ## Related Articles

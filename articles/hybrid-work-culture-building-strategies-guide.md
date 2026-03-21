@@ -62,16 +62,16 @@ Meetings are where hybrid teams either thrive or fracture. The key principle: ev
 meeting_guidelines:
   # Everyone joins via video link, even in the office
   location_agnostic: true
-  
+
   # Use visual aids so remote participants see what's discussed
   require_screenshare_for_discussions: true
-  
+
   # Rotate facilitation to prevent in-office dominance
   facilitation_rotation: "round_robin"
-  
+
   # Always use the "pass the mic" technique
   verbal_round_enabled: true
-  
+
   # Record sessions with automatic transcription
   record_and_transcribe: true
 ```
@@ -185,8 +185,6 @@ Collect this data quarterly and discuss openly in team retrospectives. Culture p
 Start with communication channels that treat all locations equally, design meetings that work for everyone, use in-person time strategically, document decisions transparently, and maintain a living handbook of team norms.
 
 Your first action this week: audit one recurring meeting for location equity. Identify one specific improvement you can implement by next sprint.
-
-
 
 
 ## Related Articles

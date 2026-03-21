@@ -74,7 +74,7 @@ def categorize_business_expenses(transactions, categories):
     for txn in transactions:
         merchant = txn.get('merchant_name', '').lower()
         amount = txn.get('amount', 0)
-        
+
         for category, keywords in categories.items():
             if any(keyword in merchant for keyword in keywords):
                 categorized.setdefault(category, []).append({
@@ -83,7 +83,7 @@ def categorize_business_expenses(transactions, categories):
                     'date': txn.get('date')
                 })
                 break
-    
+
     return categorized
 ```
 
@@ -169,7 +169,6 @@ Evaluate business bank accounts based on your specific situation:
 The best business bank account for freelance developers in 2026 balances low costs, strong digital tools, and features matching your workflow. Start with one account, establish solid financial habits, and adjust as your freelance practice evolves.
 
 ---
-
 
 
 ## Related Articles

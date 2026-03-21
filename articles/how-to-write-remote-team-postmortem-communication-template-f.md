@@ -318,7 +318,6 @@ Postmortem quality degrades when teams use blame-focused language. This happens 
 The shift from person to system is deliberate: action items that fix systems prevent the same class of error regardless of who's on the keyboard next time. Action items that blame individuals don't generalize.
 
 
-
 ## Related Articles
 
 - [How to Write Postmortem Reports for Remote Teams](/remote-work-tools/how-to-write-postmortem-reports-for-remote-teams/)

@@ -113,10 +113,10 @@ from datetime import datetime, timedelta
 def create_all_hands_meeting(topic, duration_minutes=60):
     """Create a Zoom meeting for all-hands."""
     url = "https://api.zoom.us/v2/users/me/meetings"
-    
+
     start_time = datetime.now() + timedelta(days=7)
     start_time = start_time.replace(hour=10, minute=0, second=0)
-    
+
     payload = {
         "topic": topic,
         "type": 2,  # Scheduled meeting
@@ -132,12 +132,12 @@ def create_all_hands_meeting(topic, duration_minutes=60):
             "registration_type": 1
         }
     }
-    
+
     response = requests.post(url, json=payload, headers={
         "Authorization": f"Bearer {get_access_token()}",
         "Content-Type": "application/json"
     })
-    
+
     return response.json()
 
 # Usage

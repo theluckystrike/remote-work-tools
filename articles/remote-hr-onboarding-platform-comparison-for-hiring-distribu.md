@@ -73,14 +73,14 @@ def create_onboarding_checklist(employee_id, start_date):
     """Create standard onboarding tasks for new distributed hire"""
     base_url = "https://api.bamboohr.com/api/gateway.php/{subdomain}"
     auth = ("YOUR_API_KEY", "x")
-    
+
     tasks = [
         {"name": "Complete I-9 verification", "dueInDays": 3},
         {"name": "Set up direct deposit", "dueInDays": 5},
         {"name": "Enroll in benefits", "dueInDays": 14},
         {"name": "Complete security training", "dueInDays": 7},
     ]
-    
+
     for task in tasks:
         requests.post(
             f"{base_url}/v1/employees/{employee_id}/onboarding/tasks",
@@ -106,16 +106,16 @@ Onboarding workflows in Personio allow for conditional logic based on location, 
 app.on('employee.created', async (event) => {
   const employee = event.employee;
   const location = employee.customAttributes.location;
-  
+
   const onboardingWorkflows = {
     'DE': 'german-onboarding-template',
-    'ES': 'spanish-onboarding-template', 
+    'ES': 'spanish-onboarding-template',
     'US': 'us-onboarding-template',
     'default': 'standard-onboarding-template'
   };
-  
+
   const workflow = onboardingWorkflows[location] || onboardingWorkflows['default'];
-  
+
   await personio.onboarding.start(workflow, {
     employeeId: employee.id,
     startDate: employee.hireDate
@@ -146,14 +146,14 @@ interface NewHire {
 async function assignOnboardingBuddy(hire: NewHire): Promise<void> {
   // Find buddy in overlapping time zone (+/- 3 hours)
   const teamMembers = await zavvy.getTeamMembers(hire.team);
-  
+
   const suitableBuddies = teamMembers.filter(member => {
     const timeDiff = Math.abs(
       getTimezoneOffset(member.timezone) - getTimezoneOffset(hire.timezone)
     );
     return timeDiff <= 3; // hours
   });
-  
+
   if (suitableBuddies.length > 0) {
     await zavvy.assignBuddy(hire.id, suitableBuddies[0].id);
   }
@@ -192,14 +192,14 @@ actions:
       profile.lastName: "{{employee.lastName}}"
       profile.email: "{{employee.email}}"
       profile.title: "{{employee.role}}"
-      
+
   - service: "Slack"
     operation: "invite_to_channel"
     channels: ["#onboarding-2026", "#team-{{employee.team}}"]
-    
+
   - service: "BambooHR"
     operation: "create_employee"
-    
+
   - service: "Zavvy"
     operation: "start_onboarding"
     template: "{{employee.department}}-onboarding"
@@ -215,8 +215,6 @@ Choose your onboarding platform based on your team's specific constraints:
 - API-heavy engineering organizations: Workable provides the most developer-friendly integration options
 
 The best platform ultimately depends on your existing tooling, team distribution, and how much customization you need. Prioritize platforms that expose clear APIs over those with more built-in features but limited programmatic access—your future self will thank you when you need to modify onboarding flows as your team evolves.
-
-
 
 
 ## Related Articles

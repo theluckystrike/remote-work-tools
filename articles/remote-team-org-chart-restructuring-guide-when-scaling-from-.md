@@ -121,12 +121,12 @@ cross_team:
   - channel: "#engineering-all"
     frequency: "weekly"
     purpose: "company-wide updates"
-  
+
 team_level:
   - channel: "#backend-team"
     frequency: "daily standup"
     purpose: "coordination"
-  
+
 manager_level:
   - channel: "#eng-leads"
     frequency: "twice weekly"
@@ -180,8 +180,6 @@ The goal is finding the structure that matches your team's current needs—not c
 ---
 
 Building the right org structure for a growing remote team takes experimentation. Start with the minimum viable hierarchy, measure results, and adjust. Your team will tell you what works.
-
-
 
 
 ## Related Articles

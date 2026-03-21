@@ -85,7 +85,7 @@ The booking widget integrates easily into existing intranets:
 ```html
 <!-- OfficeSpace embedded widget -->
 <script src="https://cdn.officespace.com/widget.js"></script>
-<div id="os-booking-widget" 
+<div id="os-booking-widget"
      data-location="hq-building"
      data-height="600px">
 </div>
@@ -116,7 +116,7 @@ const teemAvailability = async (startTime, endTime, buildingId) => {
     building_id: buildingId,
     capacity_min: 4
   });
-  
+
   const response = await fetch(
     `https://api.teem.io/v1/rooms/available?${query}`,
     {
@@ -126,7 +126,7 @@ const teemAvailability = async (startTime, endTime, buildingId) => {
       }
     }
   );
-  
+
   return response.json();
 };
 ```
@@ -316,7 +316,6 @@ If your hybrid office is successful and you're expanding:
 **Integrating visitor management:** Robin includes visitor tracking. OfficeSpace has visitor management. Envoy integrates desk and visitor management. If visitors are frequent, choose a platform with visitor features.
 
 **Real estate portfolio management:** Robin's analytics support complex real estate decisions. If you're using the system to inform office expansion or consolidation decisions, Robin's reporting becomes more valuable.
-
 
 
 ## Related Articles

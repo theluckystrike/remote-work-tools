@@ -32,7 +32,7 @@ One of the most successful approaches pairs staggered in-office days with overla
 # Example: Generating a staggered schedule for a 6-person team
 def generate_staggered_schedule(team_size, days_in_office=2):
     all_days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
-    
+
     # Assign each person a unique primary day
     schedule = {}
     for i in range(team_size):
@@ -60,12 +60,12 @@ cohorts:
     in_office_days: ["Tuesday", "Thursday"]
     core_hours: "10:00 - 15:00"
     max_capacity: 8
-  
+
   backend_team:
     in_office_days: ["Monday", "Wednesday"]
     core_hours: "10:00 - 15:00"
     max_capacity: 6
-  
+
   devops_team:
     in_office_days: ["Wednesday", "Friday"]
     core_hours: "09:00 - 14:00"

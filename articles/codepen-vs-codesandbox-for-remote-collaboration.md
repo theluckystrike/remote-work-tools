@@ -90,7 +90,7 @@ CodePen organizes work around **Pens**, **Projects**, and **Collections**. Each 
   <div class="container">
     <h1>Hello World</h1>
   </div>
-  
+
   <!-- JS section -->
   <script>
     console.log('Running in CodePen');
@@ -237,7 +237,6 @@ CodeSandbox is better for:
 - Dependency execution: Packages run in sandboxed containers
 - API keys: Store sensitive values in environment variables
 - Network access: Configurable per sandbox
-
 
 
 ## Related Articles

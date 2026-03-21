@@ -145,15 +145,15 @@ def ping_test(host='8.8.8.8', count=10):
 with open('bali_connection_log.csv', 'a', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(['timestamp', 'speedtest_result', 'ping_result'])
-    
+
     while True:
         timestamp = datetime.now().isoformat()
         speed_result = run_speedtest()
         ping_result = ping_test()
-        
+
         writer.writerow([timestamp, speed_result, ping_result])
         f.flush()
-        
+
         time.sleep(3600)  # Test every hour
 ```
 
@@ -179,8 +179,6 @@ After collecting data, evaluate whether the tested location meets your specific 
 Document your findings. Share test results with your team to validate your remote work setup. This data also helps future remote workers planning Bali relocations.
 
 ---
-
-
 
 
 ## Related Articles

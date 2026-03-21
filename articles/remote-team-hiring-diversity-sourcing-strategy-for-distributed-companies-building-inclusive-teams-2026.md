@@ -79,18 +79,18 @@ class TalentSource:
 class DiversityPipeline:
     def __init__(self):
         self.sources: List[TalentSource] = []
-    
+
     def add_source(self, source: TalentSource):
         self.sources.append(source)
-    
+
     def get_stale_contacts(self, days: int = 30) -> List[TalentSource]:
         """Find sources that haven't been contacted recently"""
         cutoff = datetime.now() - timedelta(days=days)
         return [
-            s for s in self.sources 
+            s for s in self.sources
             if s.last_contact is None or s.last_contact < cutoff
         ]
-    
+
     def report_by_channel(self) -> dict:
         """Generate diversity sourcing report by channel type"""
         report = {}
@@ -136,7 +136,7 @@ technical_skills:
   code_quality:
     -评分标准: 1-5
     -描述: "代码可读性、模块化、错误处理"
-    
+
 communication:
   clarity:
     -评分标准: 1-5
@@ -188,7 +188,6 @@ Track these metrics to understand if your sourcing strategy works:
 2. **Pipeline excuses** — "We can't find diverse candidates" often reflects insufficient effort, not absence of talent
 3. **culture fit as bias** — "Culture fit" can become code for "people like us"—evaluate values alignment instead
 4. **Set and forget** — Diversity sourcing requires ongoing investment, not one-time campaigns
-
 
 
 ## Related Articles

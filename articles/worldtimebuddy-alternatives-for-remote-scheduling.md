@@ -42,7 +42,7 @@ const moment = require('moment-timezone');
 
 const teamZones = [
   'America/Los_Angeles',
-  'America/New_York', 
+  'America/New_York',
   'Europe/London',
   'Asia/Tokyo'
 ];
@@ -104,7 +104,7 @@ client = cronofy.Client(access_token=CRONOFY_ACCESS_TOKEN)
 
 def find_optimal_meeting_time(participants, duration_minutes=60):
     """Find time slots where all participants are available."""
-    
+
     availability = client.availability(
         participants=[
             {
@@ -118,12 +118,12 @@ def find_optimal_meeting_time(participants, duration_minutes=60):
         duration=duration_minutes * 60,
         timezone="UTC"
     )
-    
+
     return availability.get("available_ranges", [])
 
 def create_meeting(organizer, participants, start_time, duration):
     """Create a calendar event with automatic timezone handling."""
-    
+
     event = {
         "summary": "Team Sync",
         "description": "Cross-timezone team meeting",
@@ -134,7 +134,7 @@ def create_meeting(organizer, participants, start_time, duration):
             {"email": p["email"]} for p in participants
         ]
     }
-    
+
     return client.create_event(organizer["calendar_id"], event)
 ```
 
@@ -167,17 +167,17 @@ const moment = require('moment-timezone');
 
 async function suggestBestContactTime(targetUserId, teamTimezones) {
   const client = new WebClient(process.env.SLACK_TOKEN);
-  
+
   // Get target user's profile
   const profile = await client.users.profile.get({ user: targetUserId });
   const userTz = profile.profile.tz || 'UTC';
-  
+
   // Find overlapping hours
   const localHour = moment().tz(userTz).hour();
-  const status = localHour >= 9 && localHour < 17 
-    ? '🟢 Currently working' 
+  const status = localHour >= 9 && localHour < 17
+    ? '🟢 Currently working'
     : '🔴 Outside working hours';
-    
+
   return `${profile.profile.real_name} - ${status} (${userTz})`;
 }
 ```
@@ -192,7 +192,7 @@ For developers building custom scheduling tools, the World Clock API provides st
 # Get current UTC time
 curl "http://worldclockapi.org/api/json/utc/now"
 
-# Get time in specific timezone  
+# Get time in specific timezone
 curl "http://worldclockapi.org/api/json/America/Los_Angeles/now"
 
 # Response example
@@ -217,12 +217,12 @@ def get_regional_times():
     """Fetch current times across regions for dashboard display."""
     regions = [
         'America/Los_Angeles',
-        'America/New_York', 
+        'America/New_York',
         'Europe/London',
         'Asia/Tokyo',
         'Australia/Sydney'
     ]
-    
+
     times = []
     for region in regions:
         response = requests.get(
@@ -234,7 +234,7 @@ def get_regional_times():
             'time': data['currentDateTime'],
             'offset': data['utcOffset']
         })
-    
+
     return times
 ```
 
@@ -259,7 +259,7 @@ function displayMeetingTimes(utcTime) {
   return teamMeetings.map(member => {
     const local = DateTime.fromISO(utcTime, { zone: 'utc' })
       .setZone(member.zone);
-    
+
     return `${member.name}: ${local.toFormat('h:mm a')} (${local.toFormat('ZZZZ')})`;
   });
 }
@@ -267,7 +267,7 @@ function displayMeetingTimes(utcTime) {
 // Find overlapping working hours
 const findOverlap = (zones, workStart = 9, workEnd = 17) => {
   const now = DateTime.now();
-  
+
   // Check each hour for overlap
   for (let hour = 0; hour < 24; hour++) {
     const utc = DateTime.now().setZone('utc').set({ hour });
@@ -275,12 +275,12 @@ const findOverlap = (zones, workStart = 9, workEnd = 17) => {
       const local = utc.setZone(zone);
       return local.hour >= workStart && local.hour < workEnd;
     });
-    
+
     if (allWorking) {
       return utc.toISO();
     }
   }
-  
+
   return null; // No overlap exists
 };
 ```
@@ -303,8 +303,6 @@ The right tool depends on your team's specific needs:
 Start with Every Time Zone or Timezone.io if your team is new to global coordination. Move to Cronofy or the World Clock API once scheduling complexity justifies deeper integration.
 
 ---
-
-
 
 
 ## Related Articles

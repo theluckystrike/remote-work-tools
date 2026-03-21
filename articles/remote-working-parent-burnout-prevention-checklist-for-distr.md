@@ -98,7 +98,7 @@ class FlexibleOKR:
         self.key_results = key_results
         self.schedule_pattern = schedule_pattern
         self.milestones = []
-        
+
     def update_progress(self, completed_milestone):
         """Track progress without time-boxing milestones"""
         self.milestones.append({
@@ -107,7 +107,7 @@ class FlexibleOKR:
             "status": "done"
         })
         return self.calculate_completion_percentage()
-    
+
     def calculate_completion_percentage(self):
         return (len(self.milestones) / len(self.key_results)) * 100
 ```
@@ -135,7 +135,7 @@ Build dashboards that spot trends without invasive tracking:
 
 ```sql
 -- Example: Query to identify potential burnout indicators
-SELECT 
+SELECT
     team_member,
     AVG(commit_time_hour) as avg_commit_hour,
     COUNT(DISTINCT date) as active_days,
@@ -144,8 +144,8 @@ SELECT
 FROM team_activity
 WHERE last_30_days
 GROUP BY team_member
-HAVING 
-    avg_commit_hour > 21 
+HAVING
+    avg_commit_hour > 21
     OR active_days > 28
     OR pr_count < previous_month * 0.6
 ORDER BY avg_commit_hour DESC;
@@ -342,7 +342,6 @@ Many remote parents feel guilty taking time off for childcare. Address this cult
 ```
 
 When you make parental responsibilities normal rather than exceptional, parents stop hiding them and burnout prevention becomes easier.
-
 
 
 ## Related Articles

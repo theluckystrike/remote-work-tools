@@ -67,42 +67,42 @@ def generate_rotation_slots(num_members: int) -> List[Dict]:
     """
     all_combinations = list(combinations(DAYS, 3))
     schedules = []
-    
+
     for combo in all_combinations:
         day_counts = {day: 0 for day in DAYS}
-        
+
         for member_idx in range(num_members):
             # Simple assignment: rotate through combinations
             combo_idx = member_idx % len(all_combinations)
             assigned_days = all_combinations[combo_idx]
-            
+
             for day in assigned_days:
                 day_counts[day] += 1
-        
+
         # Check constraints
         max_coverage = max(day_counts.values())
         min_overlap = min(day_counts.values())
-        
+
         if max_coverage <= int(num_members * 0.6) and min_overlap >= 2:
             schedules.append({
                 "combination": combo,
                 "day_counts": day_counts
             })
-    
+
     return schedules
 
 def create_weekly_rotation(team: List[TeamMember], weeks: int = 4) -> Dict:
     """Create a multi-week rotation schedule."""
     rotation = {}
     base_combinations = generate_rotation_slots(len(team))
-    
+
     for week in range(1, weeks + 1):
         week_schedule = {}
         for idx, member in enumerate(team):
             combo_idx = (idx + week - 1) % len(base_combinations)
             week_schedule[member.name] = list(base_combinations[combo_idx]["combination"])
         rotation[f"Week {week}"] = week_schedule
-    
+
     return rotation
 
 # Example usage
@@ -113,7 +113,7 @@ if __name__ == "__main__":
         TeamMember("Carol"),
         TeamMember("David"),
     ]
-    
+
     schedule = create_weekly_rotation(team, weeks=4)
     print(json.dumps(schedule, indent=2))
 ```
@@ -128,7 +128,7 @@ Store your schedule in a format that's easy to update and integrates with existi
 # schedule.yaml
 team_schedule:
   rotation_period: bi-weekly
-  
+
   week_a:
     Monday:
       in_office: ["Alice", "Bob", "Carol"]
@@ -176,17 +176,17 @@ async function syncScheduleToCalendar(credentialsPath, scheduleFile) {
     JSON.parse(fs.readFileSync(credentialsPath)),
     SCOPES
   );
-  
+
   const calendar = google.calendar({ version: 'v3', auth });
   const schedule = yaml.load(fs.readFileSync(scheduleFile, 'utf8'));
-  
+
   // Create all-day events for office days
   for (const [week, days] of Object.entries(schedule.team_schedule)) {
     if (week === 'anchor_days') continue;
-    
+
     for (const [day, attendees] of Object.entries(days)) {
       const inOfficeList = attendees.in_office || [];
-      
+
       for (const person of inOfficeList) {
         // Check if this event already exists
         const event = {
@@ -195,7 +195,7 @@ async function syncScheduleToCalendar(credentialsPath, scheduleFile) {
           start: { date: getNextDateForDay(day) },
           end: { date: getNextDateForDay(day) }
         };
-        
+
         await calendar.events.insert({
           calendarId: 'primary',
           resource: event
@@ -210,10 +210,10 @@ function getNextDateForDay(dayName) {
   const targetDay = days.indexOf(dayName);
   const today = new Date();
   const currentDay = today.getDay();
-  
+
   const diff = targetDay - currentDay;
   const nextDate = new Date(today.setDate(today.getDate() + diff));
-  
+
   return nextDate.toISOString().split('T')[0];
 }
 
@@ -263,29 +263,29 @@ interface Booking {
 class DeskBookingSystem {
   private bookings: Map<string, Booking[]> = new Map();
   private deskCapacity: number;
-  
+
   constructor(deskCapacity: number = 20) {
     this.deskCapacity = deskCapacity;
   }
-  
+
   async bookDesk(userId: string, date: string, morning: boolean, afternoon: boolean): Promise<boolean> {
     const dayBookings = this.bookings.get(date) || [];
     const morningCount = dayBookings.filter(b => b.morning).length;
     const afternoonCount = dayBookings.filter(b => b.afternoon).length;
-    
+
     if (morning && morningCount >= this.deskCapacity) {
       throw new Error("Desk capacity reached for morning");
     }
     if (afternoon && afternoonCount >= this.deskCapacity) {
       throw new Error("Desk capacity reached for afternoon");
     }
-    
+
     dayBookings.push({ userId, deskId: `desk-${dayBookings.length + 1}`, date, morning, afternoon });
     this.bookings.set(date, dayBookings);
-    
+
     return true;
   }
-  
+
   getAvailableDesks(date: string): number {
     const dayBookings = this.bookings.get(date) || [];
     const maxDesksUsed = Math.max(
@@ -309,8 +309,6 @@ Your first schedule won't be perfect. Plan a monthly review where the team discu
 Adjust the template based on feedback. The schedule should serve your team's actual work patterns, not the other way around.
 
 Building a three-office-day hybrid schedule doesn't require expensive tools or complex systems. Start with a simple rotation, use existing calendar and communication tools, and iterate based on what actually works for your team.
-
-
 
 
 ## Related Articles

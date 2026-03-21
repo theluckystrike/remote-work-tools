@@ -38,7 +38,7 @@ def get_recent_detections(hours=24):
         client_id="your-client-id",
         client_secret="your-client-secret"
     )
-    
+
     # Filter for high-severity detections
     detections = falcon.cmd(
         "QueryDetects",
@@ -79,7 +79,7 @@ async function getUnprotectedEndpoints() {
     isActive: true,
     hasActiveThreats: true
   });
-  
+
   return agents.filter(a => !a.isProtected);
 }
 ```
@@ -346,7 +346,6 @@ Use this framework to select the best option for your specific situation:
 - Result: Detection occurs but incident response is chaotic
 - Fix: Create response runbooks before deployment, test during trials
 {% endraw %}
-
 
 
 ## Related Articles

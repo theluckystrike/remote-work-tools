@@ -58,12 +58,12 @@ from scipy.signal import butter, lfilter
 class NoiseGenerator:
     def __init__(self, sample_rate=44100):
         self.sample_rate = sample_rate
-        
+
     def white_noise(self, duration=1.0, volume=0.3):
         """Generate white noise"""
         samples = np.random.uniform(-1, 1, int(self.sample_rate * duration))
         return samples * volume
-    
+
     def pink_noise(self, duration=1.0, volume=0.3):
         """Generate pink noise using Paul Kellet's algorithm"""
         samples = np.random.uniform(-1, 1, int(self.sample_rate * duration))
@@ -72,7 +72,7 @@ class NoiseGenerator:
         a = [1, -2.4244, 2.7563, -1.8806, 0.6683, -0.1294, 0.0132]
         filtered = lfilter(b, a, samples)
         return filtered * volume
-    
+
     def brown_noise(self, duration=1.0, volume=0.4):
         """Generate brown noise (random walk)"""
         samples = np.cumsum(np.random.uniform(-1, 1, int(self.sample_rate * duration)))
@@ -118,7 +118,7 @@ class NoiseAwareNotifier:
     def __init__(self, noise_threshold=70):
         self.noise_threshold = noise_threshold
         self.client = discord.Client()
-        
+
     async def set_presence(self, status_type="online"):
         """Adjust visibility based on noise conditions"""
         if status_type == "do_not_disturb":
@@ -153,7 +153,7 @@ class AdaptiveNoiseController:
     def __init__(self, target_db=-30):
         self.target_db = target_db
         self.p = pyaudio.PyAudio()
-        
+
     def get_ambient_level(self):
         """Read current ambient noise level"""
         stream = self.p.open(
@@ -167,7 +167,7 @@ class AdaptiveNoiseController:
         rms = np.sqrt(np.mean(data**2))
         db = 20 * np.log10(rms)
         return db
-    
+
     def adjust_noise_level(self, current_volume):
         """Auto-adjust white noise based on ambient levels"""
         ambient = self.get_ambient_level()
@@ -185,8 +185,6 @@ The best solution depends on your specific constraints. If you're primarily in v
 Whatever approach you choose, test it during your highest-noise times before important meetings. The goal is consistent, professional audio quality that lets you focus on the meeting—not on what's happening in the next room.
 
 ---
-
-
 
 
 ## Related Articles

@@ -61,7 +61,7 @@ Look for tools that support:
 A well-designed approval workflow implements a clear state machine. Here's a practical example of what the states might look like:
 
 ```typescript
-type ApprovalState = 
+type ApprovalState =
   | 'draft'           // Initial creation phase
   | 'internal_review' // Team lead quality check
   | 'client_review'   // Submitted to client
@@ -95,12 +95,12 @@ workflows:
         assignees: ["senior_designer"]
         timeout: "24h"
         auto_escalate: true
-        
+
       - name: "Client Window"
         assignees: ["client_stakeholder"]
         timeout: "72h"
         reminder_after: "48h"
-        
+
       - name: "Final Approval"
         assignees: ["project_manager"]
         requires_all_approvals: true
@@ -130,7 +130,7 @@ function routeForReview(designAsset, context) {
       sla_hours: 24
     }
   ];
-  
+
   return routingRules.find(rule => rule.condition(designAsset));
 }
 ```
@@ -197,7 +197,6 @@ This approach requires more setup but offers flexibility. Here's a minimal Notio
 The best client approval workflow tool for your remote design team depends on your specific constraints: team size, client sophistication, budget, and integration requirements. Prioritize tools that provide clear audit trails, support asynchronous collaboration, and offer programmatic access for automation.
 
 Start by mapping your current approval process, identify bottlenecks, and select tools that address your specific pain points. Most importantly, establish clear expectations with clients about response times and feedback formats to prevent approval delays from derailing project timelines.
-
 
 
 ## Related Articles

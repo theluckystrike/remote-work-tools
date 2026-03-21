@@ -43,12 +43,12 @@ async function startScreenShare() {
       },
       audio: false
     });
-    
+
     // Handle user stopping share via browser UI
     stream.getVideoTracks()[0].addEventListener('ended', () => {
       console.log('Screen share ended by user');
     });
-    
+
     return stream;
   } catch (err) {
     console.error('Screen share failed:', err);
@@ -67,18 +67,18 @@ Integrating screen sharing with an existing WebRTC setup involves adding a secon
 ```javascript
 async function addScreenShareToPeerConnection(pc, stream) {
   const videoTrack = stream.getVideoTracks()[0];
-  
+
   // Replace existing video track or add new one
-  const sender = pc.getSenders().find(s => 
+  const sender = pc.getSenders().find(s =>
     s.track && s.track.kind === 'video'
   );
-  
+
   if (sender) {
     await sender.replaceTrack(videoTrack);
   } else {
     pc.addTrack(videoTrack);
   }
-  
+
   // Handle resolution changes during share
   videoTrack.onended = () => {
     // Restore camera video
@@ -203,17 +203,17 @@ class ScreenShareManager {
     this.pc = peerConnection;
     this.encoder = new VideoEncoder();
   }
-  
+
   async startCapture() {
     const stream = await navigator.mediaDevices.getDisplayMedia({
       video: { width: 1920, height: 1080 },
       audio: false
     });
-    
+
     const track = stream.getVideoTracks()[0];
     const processor = new MediaStreamTrackProcessor({ track });
     const generator = new MediaStreamTrackGenerator({ kind: 'video' });
-    
+
     // Process and encode frames
     const transformer = new TransformStream({
       transform(videoFrame, controller) {
@@ -222,9 +222,9 @@ class ScreenShareManager {
         controller.enqueue(videoFrame);
       }
     });
-    
+
     processor.readable.pipeThrough(transformer).pipeTo(generator.writable);
-    
+
     return new MediaStream([generator]);
   }
 }
@@ -239,8 +239,6 @@ For most developer teams, integrating an established service like Daily.co or Li
 The key factors in your decision are: team size (affects SFU requirements), latency sensitivity (real-time collaboration needs WebRTC), custom processing needs (recording, transcription, content moderation), and browser compatibility requirements.
 
 Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
-
-
 
 
 ## Related Articles

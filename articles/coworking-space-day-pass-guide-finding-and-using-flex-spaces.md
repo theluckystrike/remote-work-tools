@@ -59,7 +59,7 @@ async function findDayPasses(city, maxPrice) {
       amenities: ['standing-desk', 'monitor', 'fast-wifi']
     })
   });
-  
+
   const spaces = await response.json();
   return spaces.filter(s => s.availability > 0);
 }
@@ -400,7 +400,6 @@ Coworking demand varies seasonally:
 **Spring (Mar-May)**: Moderate demand, Q2 budget spending by startups
 
 Book summer day passes in bulk if you're planning that season. Avoid December 20-January 5 when spaces have reduced hours.
-
 
 
 ## Related Articles

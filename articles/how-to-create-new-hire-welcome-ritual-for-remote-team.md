@@ -235,7 +235,7 @@ const onboardingCommands = {
         { task: 'Complete security training', status: 'pending' },
         { task: 'Meet your onboarding buddy', status: 'pending' }
       ];
-      
+
       return {
         text: 'Your onboarding checklist:',
         attachments: steps.map(step => ({
@@ -259,7 +259,6 @@ Track these metrics to evaluate your welcome rituals:
 - Manager time investment: Hours spent on manual onboarding tasks
 
 Review these metrics quarterly and adjust your rituals based on data rather than assumptions.
-
 
 
 ## Related Articles

@@ -78,7 +78,7 @@ const response = await fetch('https://api.helpscout.net/v2/conversations', {
 });
 
 const conversations = await response.json();
-// Each conversation includes assignee, customer info, 
+// Each conversation includes assignee, customer info,
 // and threaded messages
 ```
 
@@ -142,18 +142,18 @@ function routeTicket(customer, subject, message) {
   if (customer.tier === 'enterprise') {
     return { assignee: 'senior-cs-lead', priority: 'high' };
   }
-  
+
   // Billing questions go to the finance specialist
-  if (subject.toLowerCase().includes('invoice') || 
+  if (subject.toLowerCase().includes('invoice') ||
       subject.toLowerCase().includes('refund')) {
     return { assignee: 'billing-specialist', priority: 'normal' };
   }
-  
+
   // New customers get onboarding specialist
   if (customer.tenure_days < 30) {
     return { assignee: 'onboarding-specialist', priority: 'normal' };
   }
-  
+
   // Default: round-robin among available agents
   return { assignee: getNextAvailable(), priority: 'normal' };
 }
@@ -184,8 +184,6 @@ Also resist the temptation to use personal inboxes "just this once." Every custo
 Start with the simplest solution that meets your needs. If your team already uses Gmail productively, add shared labels and canned responses before buying new software. If you need better visibility and reporting, a helpdesk tool pays for itself quickly. If you have specific integration requirements or development capacity, a custom solution provides maximum flexibility.
 
 The right shared inbox transforms reactive customer success into proactive relationship management. Your team spends less time on coordination and more time helping customers succeed.
-
-
 
 
 ## Related Articles

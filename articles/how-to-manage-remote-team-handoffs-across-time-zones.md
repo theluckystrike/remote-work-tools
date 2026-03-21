@@ -63,7 +63,7 @@ For a team spanning UTC+9 (Tokyo), UTC+1 (London), and UTC-8 (San Francisco):
 
 ```
 Tokyo (JST):  9:00 - 18:00 (UTC+9)
-London (GMT): 9:00 - 18:00 (UTC+1)  
+London (GMT): 9:00 - 18:00 (UTC+1)
 SF (PST):     9:00 - 18:00 (UTC-8)
 
 Overlap windows:
@@ -173,8 +173,6 @@ Start with structured documents and time zone awareness. Add automation incremen
 The goal isn't perfect handoffs. It's reducing context loss enough that your team moves faster than the accumulated friction of distributed work.
 
 The patterns here work because they treat handoffs as a system problem rather than an individual discipline problem. When the right information is captured automatically at the right time, your team doesn't need to remember everything. The system remembers.
-
-
 
 
 ## Related Articles

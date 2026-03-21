@@ -149,7 +149,7 @@ labels:
   - name: P1
     color: ff0000
   - name: P2
-    color:ffa500  
+    color:ffa500
   - name: incident
     color: ff0000
   - name: project
@@ -212,7 +212,6 @@ A three-person team may eventually become four or five. Your Kanban setup should
 The principles remain the same: visualize work, limit WIP, manage flow. The specifics adjust to your new reality.
 
 ---
-
 
 
 ## Related Articles

@@ -89,7 +89,7 @@ class AirPurifier:
         self.base_url = "https://api.airpurifier.local"
         self.api_key = api_key
         self.device_id = device_id
-    
+
     def get_air_quality(self):
         # Returns PM2.5, VOC, and CO2 levels
         response = requests.get(
@@ -97,7 +97,7 @@ class AirPurifier:
             headers={"Authorization": f"Bearer {self.api_key}"}
         )
         return response.json()
-    
+
     def set_auto_mode(self, target_aqi=50):
         # Set purifier to maintain target AQI
         payload = {
@@ -178,8 +178,6 @@ If your windowless office shows signs of mold, persistent musty odors, or if you
 For most remote workers, however, the solutions outlined above provide excellent air quality without major renovations. Start with air purification, add simple ventilation where possible, and layer in smart monitoring to optimize your setup over time.
 
 ---
-
-
 
 
 ## Related Articles

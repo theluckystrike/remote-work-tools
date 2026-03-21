@@ -52,11 +52,11 @@ def get_current_occupancy(building_id, api_key):
         headers={"Authorization": f"Bearer {api_key}"}
     )
     data = response.json()
-    
+
     # Calculate currently checked-in occupants
-    current = sum(1 for person in data["active_users"] 
+    current = sum(1 for person in data["active_users"]
                   if person["status"] == "checked_in")
-    
+
     return {
         "count": current,
         "max_capacity": data["max_capacity"],
@@ -78,14 +78,14 @@ async function getZoneOccupancy(bookingApiUrl, date) {
     `${bookingApiUrl}/bookings?date=${date}&status=confirmed`
   );
   const bookings = await response.json();
-  
+
   // Group by floor/zone
   const zoneCounts = bookings.reduce((acc, booking) => {
     const zone = booking.zone; // e.g., "floor-2-west"
     acc[zone] = (acc[zone] || 0) + 1;
     return acc;
   }, {});
-  
+
   return zoneCounts;
 }
 ```
@@ -101,13 +101,13 @@ For real-time occupancy without badge systems, infrared or camera-based people c
 class FloorOccupancyTracker:
     def __init__(self):
         self.sensors = {}  # sensor_id -> count
-    
+
     def update_from_sensor(self, sensor_id, count):
         self.sensors[sensor_id] = count
-    
+
     def get_total_occupancy(self):
         return sum(self.sensors.values())
-    
+
     def get_floor_counts(self, floor_mapping):
         """floor_mapping: {sensor_id: floor_number}"""
         floor_totals = {}
@@ -135,19 +135,19 @@ def select_evacuation_routes(occupancy, exits, building_layout):
     building_layout: floor plan data
     """
     routes = []
-    
+
     # Calculate total building occupancy
     total_people = sum(occupancy.values())
-    
+
     # Determine if we're in high-occupancy scenario (>40% capacity)
     is_high_occupancy = total_people > (building_layout["max_capacity"] * 0.4)
-    
+
     for floor, count in occupancy.items():
         if count == 0:
             continue
-            
+
         available_exits = building_layout["floors"][floor]["exits"]
-        
+
         if is_high_occupancy:
             # Distribute across all available exits
             route = distribute_people_to_exits(count, available_exits)
@@ -155,26 +155,26 @@ def select_evacuation_routes(occupancy, exits, building_layout):
             # Direct to nearest exit
             nearest = find_nearest_exit(floor, available_exits)
             route = {nearest: count}
-        
+
         routes.append({"floor": floor, "assignments": route})
-    
+
     return routes
 
 def distribute_people_to_exits(people_count, exits):
     """Distribute people evenly across exits based on capacity."""
     # Sort exits by capacity
     sorted_exits = sorted(exits, key=lambda e: e["capacity"], reverse=True)
-    
+
     assignments = {exit["id"]: 0 for exit in sorted_exits}
     remaining = people_count
-    
+
     for exit in sorted_exits:
         if remaining <= 0:
             break
         allocation = min(remaining, exit["capacity"])
         assignments[exit["id"]] = allocation
         remaining -= allocation
-    
+
     return assignments
 ```
 
@@ -186,20 +186,20 @@ Your primary assembly point might work for 10 people but become chaotic with 60.
 def get_active_assembly_points(occupancy, config):
     """Determine which assembly points to activate."""
     total = sum(occupancy.values())
-    
+
     active = []
-    
+
     # Primary point for any occupancy
     active.append(config["assembly_points"]["primary"])
-    
+
     # Secondary point when above 30% capacity
     if total > config["max_capacity"] * 0.3:
         active.append(config["assembly_points"]["secondary"])
-    
+
     # Tertiary point when above 60% capacity
     if total > config["max_capacity"] * 0.6:
         active.append(config["assembly_points"]["tertiary"])
-    
+
     return active
 ```
 
@@ -219,19 +219,19 @@ import aiohttp
 async def send_emergency_alert(message, channels):
     """Send alert across multiple communication channels."""
     tasks = []
-    
+
     if "slack" in channels:
         tasks.append(send_slack_alert(channels["slack"], message))
-    
+
     if "sms" in channels:
         tasks.append(send_sms_batch(channels["sms"], message))
-    
+
     if "speakers" in channels:
         tasks.append(trigger_pa_system(channels["speakers"], message))
-    
+
     if "digital_signage" in channels:
         tasks.append(update_signage(channels["digital_signage"], message))
-    
+
     await asyncio.gather(*tasks)
 
 async def send_slack_alert(config, message):
@@ -254,21 +254,21 @@ Your alerts should include relevant context for the current situation:
 def generate_evacuation_message(occupancy, affected_areas, active_routes):
     """Generate contextual evacuation message."""
     total = sum(occupancy.values())
-    
+
     message = f"FIRE ALARM ACTIVATED. {total} people in building.\n\n"
-    
+
     if affected_areas:
         message += f"Affected area(s): {', '.join(affected_areas)}\n"
-    
+
     message += "\nEVACUATION ROUTES:\n"
     for route in active_routes:
         floor = route["floor"]
         exits = ", ".join(route["assignments"].keys())
         message += f"  Floor {floor}: Use {exits}\n"
-    
+
     message += f"\nASSEMBLY: Proceed to designated assembly point.\n"
     message += f"Headcount will be taken at assembly area."
-    
+
     return message
 ```
 
@@ -308,7 +308,6 @@ Fire safety requires regular testing:
 - Verify notification systems reach everyone
 - Measure actual vs. predicted evacuation times
 - Update procedures based on findings
-
 
 
 ## Related Articles

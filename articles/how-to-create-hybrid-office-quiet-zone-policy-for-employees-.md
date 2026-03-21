@@ -79,10 +79,10 @@ Use shared calendars to publish quiet hours and block them from meeting creation
 function createQuietHourBlock(calendarId, date) {
   const startTime = new Date(date);
   startTime.setHours(9, 0, 0, 0);
-  
+
   const endTime = new Date(date);
   endTime.setHours(12, 0, 0, 0);
-  
+
   const event = {
     summary: 'Quiet Focus Time',
     start: { dateTime: startTime.toISOString() },
@@ -90,7 +90,7 @@ function createQuietHourBlock(calendarId, date) {
     transparency: 'transparent',
     visibility: 'public'
   };
-  
+
   return calendar.events.insert({
     calendarId: calendarId,
     resource: event
@@ -174,7 +174,6 @@ Track whether the quiet zone policy actually improves outcomes:
 - Gather feedback on whether the policy feels sustainable
 
 Adjust the policy based on data. If morning quiet hours aren't working, try afternoon blocks instead. If certain teams need different arrangements, allow team-level customization within organizational guidelines.
-
 
 
 ## Related Articles

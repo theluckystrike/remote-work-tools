@@ -83,36 +83,36 @@ Here's a practical decision tree you can share with your team:
 def select_channel(urgency, complexity, documentation_needed, team_availability):
     """
     Select the appropriate communication channel based on message characteristics.
-    
+
     Args:
         urgency: "critical", "high", "medium", "low"
         complexity: "simple", "moderate", "complex"
         documentation_needed: bool
         team_availability: "async", "available_now", "unknown"
     """
-    
+
     # Critical issues always warrant immediate attention
     if urgency == "critical":
         return "video_call"  # or urgent Slack with @channel
-    
+
     # Complex topics needing documentation
     if complexity == "complex" and documentation_needed:
         return "email"
-    
+
     # Simple questions with quick turnaround expected
     if complexity == "simple" and urgency in ["high", "medium"]:
         if team_availability == "available_now":
             return "slack"
         else:
             return "email"  # Leave async for when they're online
-    
+
     # Moderate complexity with good async practices
     if complexity == "moderate":
         if team_availability == "available_now":
             return "slack"
         else:
             return "email"
-    
+
     # Default to async for uncertain situations
     return "email"
 ```
@@ -142,17 +142,17 @@ routing_rules:
     channel: slack
     urgency: high
     mention: "@oncall"
-    
+
   - trigger: "security vulnerability reported"
     channel: slack
     urgency: critical
     mention: "@security-team"
-    
+
   - trigger: "quarterly planning proposal"
     channel: email
     urgency: low
     required_read: true
-    
+
   - trigger: "performance review discussion"
     channel: video_call
     urgency: medium
@@ -181,7 +181,6 @@ Track these metrics to evaluate if your channel selection is working:
 - Meeting hours per week: Trending up or down?
 - Decision documentation rate: Are decisions captured in searchable formats?
 - Team satisfaction: Quarterly survey on communication effectiveness
-
 
 
 ## Related Articles

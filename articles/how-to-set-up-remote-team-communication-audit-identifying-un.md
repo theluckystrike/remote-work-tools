@@ -50,7 +50,7 @@ client = WebClient(token=os.environ["SLACK_API_TOKEN"])
 def get_channel_stats():
     channels = []
     result = client.conversations_list(types="public_channel,private_channel")
-    
+
     for channel in result["channels"]:
         # Get conversation history stats
         history = client.conversations_history(
@@ -58,14 +58,14 @@ def get_channel_stats():
             limit=1,
             oldest=str(int((pd.Timestamp.now() - pd.Timedelta(days=30)).timestamp()))
         )
-        
+
         channels.append({
             "name": channel["name"],
             "member_count": len(channel.get("members", [])),
             "message_count": len(history["messages"]),
             "is_archived": channel.get("is_archived", False)
         })
-    
+
     return channels
 ```
 
@@ -81,25 +81,25 @@ import csv
 
 def analyze_meetings(calendar_export):
     meetings = []
-    
+
     with open(calendar_export, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             start = datetime.fromisoformat(row['Start Time'])
             end = datetime.fromisoformat(row['End Time'])
             duration = (end - start).total_seconds() / 60
-            
+
             meetings.append({
                 "title": row['Subject'],
                 "duration": duration,
                 "attendees": row['Attendees'].count('@') + 1,
                 "recurring": "recurring" in row.get('Recurrence', '').lower()
             })
-    
+
     # Group by title to find recurring meetings
     from collections import Counter
     meeting_titles = Counter([m['title'] for m in meetings])
-    
+
     return meetings, meeting_titles
 ```
 
@@ -139,11 +139,11 @@ Now comes the uncomfortable part—translating time into money.
 def calculate_meeting_cost(meetings, hourly_rate=100):
     """Estimate annual cost of meetings"""
     total_minutes = sum(m['duration'] for m in meetings)
-    
+
     # Extrapolate to annual
     weeks_per_year = 48  # Account for PTO
     annual_minutes = (total_minutes / 13) * weeks_per_year  # 13 weeks = quarter
-    
+
     return (annual_minutes / 60) * hourly_rate
 ```
 
@@ -186,7 +186,7 @@ for CHANNEL in $CHANNELS; do
   LAST_MSG=$(curl -s -H "Authorization: Bearer $SLACK_TOKEN" \
     "https://slack.com/api/conversations.history?channel=$CHANNEL&limit=1" | \
     jq -r '.messages[0].ts')
-  
+
   # If no messages or last message > 30 days ago
   if [ "$LAST_MSG" == "null" ] || [ $(echo "$(date +%s) - $LAST_MSG > 2592000" | bc) -eq 1 ]; then
     echo "Archiving channel: $CHANNEL"
@@ -238,8 +238,6 @@ These tools don't require purchasing new software—most teams already have acce
 A communication audit isn't an one-time exercise. Set a quarterly reminder to re-evaluate your communication patterns. Teams evolve, projects end, and new needs emerge. What served your team six months ago may now be technical debt.
 
 The goal isn't to eliminate all meetings or channels—some synchronous communication is essential for collaboration. The goal is intentionality: every meeting should have a purpose, every channel should have active participants, and your team should have protected time for actual work.
-
-
 
 
 ## Related Articles

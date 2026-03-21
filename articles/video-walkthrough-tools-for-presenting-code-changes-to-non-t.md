@@ -175,8 +175,6 @@ This practice creates a searchable knowledge base of explanations your entire te
 Video walkthroughs transform how you communicate code changes to non-technical clients. By combining visual demonstration with verbal explanation, you build trust and clarity without requiring your clients to understand code syntax. Start with simple screen recordings using tools like Loom or CleanShot X, add clear narration, and always explain the business impact alongside technical changes.
 
 
-
-
 ## Related Articles
 
 - [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)

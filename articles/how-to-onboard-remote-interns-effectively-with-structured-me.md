@@ -94,19 +94,19 @@ Regular check-ins prevent problems from compounding. Here's a recommended weekly
 ## Week X Update
 
 ### Accomplished
-- 
-- 
+-
+-
 
 ### Challenges
-- 
-- 
+-
+-
 
 ### Next Week's Goals
-- 
-- 
+-
+-
 
 ### Resources Needed
-- 
+-
 ```
 
 ### 3. Project Milestones with Measurable Outcomes
@@ -303,7 +303,6 @@ metrics = {
 ```
 
 Use this data to iterate on your program annually. Successful internship programs improve every cycle because you address feedback systematically.
-
 
 
 ## Related Articles

@@ -199,7 +199,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Authenticate to Vault
         uses: hashicorp/vault-action@v3
         with:
@@ -209,7 +209,7 @@ jobs:
           secrets: |
             secret/data/deploy AWS_ACCESS_KEY_ID | AWS_ACCESS_KEY_ID ;
             secret/data/deploy AWS_SECRET_ACCESS_KEY | AWS_SECRET_ACCESS_KEY
-      
+
       - name: Deploy
         run: ./deploy.sh
         env:
@@ -228,7 +228,6 @@ Implement these patterns to maintain security with distributed teams:
 3. **Use short TTLs** - Prefer shorter token lifetimes to limit exposure from compromised credentials
 4. **Separate environments** - Maintain distinct secret paths for development, staging, and production
 5. **Implement namespace isolation** - For larger organizations, use Vault namespaces to separate team secrets
-
 
 
 ## Related Articles

@@ -110,7 +110,7 @@ async function getCallInsights(callId) {
       }
     }
   );
-  
+
   return {
     duration: response.data.call.duration,
     talkRatio: response.data.call.parties.map(p => ({
@@ -145,7 +145,7 @@ async function optimizeEmailDraft(emailContent, recipientContext) {
     industry: recipientContext.industry,
     companySize: recipientContext.companySize
   });
-  
+
   return {
     score: analysis.overallScore,
     suggestions: analysis.improvements.map(i => ({
@@ -174,9 +174,9 @@ const chorus = require('@chorusai/sdk');
 
 async function assessDealHealth(dealId) {
   const dealAnalysis = await chorus.deals.analyze(dealId);
-  
+
   const riskFactors = [];
-  
+
   if (dealAnalysis.stakeholderCount < 2) {
     riskFactors.push({
       factor: 'low_stakeholder_engagement',
@@ -184,7 +184,7 @@ async function assessDealHealth(dealId) {
       message: 'Only one stakeholder identified in calls'
     });
   }
-  
+
   if (dealAnalysis.competitorMentions.length > 0) {
     riskFactors.push({
       factor: 'competitive_situation',
@@ -192,7 +192,7 @@ async function assessDealHealth(dealId) {
       competitors: dealAnalysis.competitorMentions
     });
   }
-  
+
   if (dealAnalysis.decisionTimelineUnclear) {
     riskFactors.push({
       factor: 'unclear_timeline',
@@ -200,7 +200,7 @@ async function assessDealHealth(dealId) {
       message: 'No clear decision date established'
     });
   }
-  
+
   return {
     dealId,
     healthScore: calculateHealthScore(dealAnalysis),
@@ -226,7 +226,7 @@ async function getRepDashboard(repId) {
     gong.getRepAggregates(repId),
     salesforce.getTrainingCompletion(repId)
   ]);
-  
+
   return {
     repId,
     email: {

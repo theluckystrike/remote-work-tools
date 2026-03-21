@@ -67,16 +67,16 @@ demo_environment:
   identity_provider: "demo-auth.internal"
   token_expiry: "4h"
   mfa_required: false
-  
+
   roles:
     demo_admin:
       permissions: ["read", "write", "reset"]
       auto_approve: true
-      
+
     demo_viewer:
       permissions: ["read"]
       auto_approve: true
-      
+
   session_config:
     idle_timeout: "30m"
     max_concurrent_sessions: 3
@@ -172,7 +172,7 @@ module.exports = {
       }
     ]
   },
-  
+
   fallback: {
     enabled: true,
     localPath: './offline-assets',
@@ -228,27 +228,27 @@ jobs:
     steps:
       - name: Checkout demo configs
         uses: actions/checkout@v4
-      
+
       - name: Generate demo credentials
         run: |
           DEMO_USER="demo-$(date +%s)"
           DEMO_PASS=$(openssl rand -base64 16)
           echo "DEMO_USER=$DEMO_USER" >> $GITHUB_ENV
           echo "DEMO_PASS=$DEMO_PASS" >> $GITHUB_ENV
-      
+
       - name: Provision infrastructure
         run: |
           terraform init -backend-config="bucket=your-terraform-state"
           terraform apply -var="customer_tier=${{ inputs.customer_tier }}" \
                          -var="demo_user=$DEMO_USER" \
                          -var="demo_duration=${{ inputs.duration }}"
-      
+
       - name: Load demo data
         run: |
           kubectl exec -n demo deploy/demo-db -- \
             pg_restore -U $DEMO_USER -d demo_db \
             /snapshots/${{ inputs.customer_tier }}-demo.dump
-      
+
       - name: Notify team
         uses: slackapi/slack-github-action@v1.25.0
         with:
@@ -281,7 +281,7 @@ prometheus:
       scrape_interval: 30s
       static_configs:
         - targets: ['demo-app:9090', 'demo-proxy:9090']
-    
+
     - job_name: 'demo-db'
       metrics_path: '/postgres/metrics'
       static_configs:
@@ -293,7 +293,7 @@ prometheus:
       for: 2m
       annotations:
         summary: "Demo environment is down"
-        
+
     - alert: DemoHighLatency
       expr: http_request_duration_seconds{quantile="0.95"} > 2
       for: 5m
@@ -333,8 +333,6 @@ aws s3 mv s3://demo-logs/ s3://demo-logs-archive/ --recursive --exclude "*" --in
 Start with containerized demos using Docker Compose for single-machine deployments, then evolve toward orchestrated environments with Kubernetes as your team scales. The key principle remains the same: treat your demo infrastructure with the same rigor as production, just with smaller blast radii and automatic cleanup.
 
 Invest in automation from day one. Every manual step in your demo provisioning process is a potential failure point that will surface at the worst possible moment—during a critical customer demo.
-
-
 
 
 ## Related Articles

@@ -140,14 +140,14 @@ def apply_noise_gate(audio_signal, threshold_db=-40, attack_ms=10, release_ms=10
     Apply noise gate to reduce background noise.
     """
     threshold_linear = db_to_linear(threshold_db)
-    
+
     for sample in audio_signal:
         if sample < threshold_linear:
             gain = smooth_gain(sample, attack_ms)
         else:
             gain = smooth_gain(sample, release_ms)
         sample *= gain
-    
+
     return audio_signal
 ```
 

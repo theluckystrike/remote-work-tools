@@ -364,7 +364,6 @@ docs/
 Assign every new hire a "documentation mentor" for their first month — an existing team member responsible for identifying gaps in the documentation that the new hire encounters. New hires find gaps that existing members have become blind to.
 
 
-
 ## Basic Information
 - **Owner**: Jane Smith (@jane)
 - **Created**: 2026-01-15

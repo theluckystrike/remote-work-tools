@@ -339,4 +339,6 @@ Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 - [Remote Team Technical Assessment Platform for Evaluating](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
 - [Remote Team Third Party Vendor Security Assessment Template](/remote-work-tools/remote-team-third-party-vendor-security-assessment-template-/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

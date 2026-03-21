@@ -47,22 +47,22 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run tests
         run: npm test
-      
+
       - name: Run linting
         run: npm run lint
 ```
@@ -76,10 +76,10 @@ For deployment, add a job that runs after tests pass:
     needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Deploy to production
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
@@ -299,7 +299,6 @@ resource "aws_codebuild_project" "backend_ci" {
   }
 }
 ```
-
 
 
 ## Related Articles

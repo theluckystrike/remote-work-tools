@@ -118,13 +118,13 @@ from collections import Counter
 
 def summarize_feedback_by_area(feedback_entries):
     area_counts = Counter(
-        f["product_area"] for f in feedback_entries 
+        f["product_area"] for f in feedback_entries
         if f["product_area"]
     )
-    
+
     for area, count in area_counts.most_common(10):
         negative = sum(
-            1 for f in feedback_entries 
+            1 for f in feedback_entries
             if f["product_area"] == area and f["sentiment"] == "negative"
         )
         print(f"{area}: {count} mentions, {negative} negative")
@@ -139,10 +139,10 @@ Another useful script identifies emerging themes:
 def detect_emerging_themes(current_week, previous_weeks):
     current_words = extract_keywords(current_week)
     baseline = average_keyword_frequency(previous_weeks)
-    
+
     emerging = {
-        word: count 
-        for word, count in current_words.items() 
+        word: count
+        for word, count in current_words.items()
         if count > baseline.get(word, 0) * 1.5
     }
     return emerging

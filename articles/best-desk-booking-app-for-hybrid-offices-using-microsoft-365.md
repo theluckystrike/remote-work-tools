@@ -59,10 +59,10 @@ async function getUserContext(graphClient, userId) {
   const user = await graphClient.api(`/users/${userId}`)
     .select('id,displayName,department,jobTitle,manager')
     .get();
-  
+
   const manager = await graphClient.api(`/users/${userId}/manager`)
     .get();
-  
+
   return {
     user,
     manager,
@@ -84,15 +84,15 @@ from microsoftgraph import GraphServiceClient
 async def check_desk_availability(graph_client, desk_id, date):
     """Check if desk is available given user's calendar events"""
     user_calendar = graph_client.me.calendar.events
-    
+
     start_of_day = datetime.combine(date, datetime.min.time())
     end_of_day = datetime.combine(date, datetime.max.time())
-    
+
     events = await user_calendar.get(
         filter=f"start/dateTime ge '{start_of_day.isoformat()}' "
                f"and end/dateTime le '{end_of_day.isoformat()}'"
     )
-    
+
     return len(events.value) == 0  # Desk available if no calendar conflicts
 ```
 
@@ -156,7 +156,7 @@ async function exportBookingMetrics(graphClient, startDate, endDate) {
     .expand('appointments')
     .filter(`startDateTime ge ${startDate} and endDateTime le ${endDate}`)
     .get();
-  
+
   return bookings.map(booking => ({
     date: booking.startDateTime,
     userId: booking.customerId,

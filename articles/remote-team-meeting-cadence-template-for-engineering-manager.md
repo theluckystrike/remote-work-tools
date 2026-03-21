@@ -34,27 +34,27 @@ meetings:
     duration: "15 minutes"
     type: "synchronous"
     timezone_rotation: true
-    
+
   - name: "Team Retro"
     frequency: "Weekly (Thursday)"
     duration: "45 minutes"
     type: "synchronous"
-    
+
   - name: "Engineering All-Hands"
     frequency: "Bi-weekly"
     duration: "60 minutes"
     type: "synchronous"
-    
+
   - name: "1-on-1s"
     frequency: "Weekly"
     duration: "30 minutes"
     type: "synchronous"
-    
+
   - name: "Design Review"
     frequency: "Weekly (optional)"
     duration: "45 minutes"
     type: "synchronous"
-    
+
   - name: "Tech Talk / Knowledge Share"
     frequency: "Bi-weekly"
     duration: "30 minutes"
@@ -84,12 +84,12 @@ const teamMembers = [
 
 function getRotatedMeetingHour(baseHour, weekNumber) {
   // Rotate by one hour each week, max 2 hour shift either direction
-  const rotation = (weekNumber % 5) - 2; 
+  const rotation = (weekNumber % 5) - 2;
   return baseHour + rotation;
 }
 
 // Example: Base 10am PST, week 3
-const meetingHour = getRotatedMeetingHour(10, 3); 
+const meetingHour = getRotatedMeetingHour(10, 3);
 console.log(`Meeting time: ${meetingHour}:00 PST`);
 ```
 
@@ -194,11 +194,11 @@ layers:
   - level: "Squad"
     meetings: ["Standup 3x", "Retro weekly"]
     size: "4-6 engineers"
-    
+
   - level: "Platform/Department"
     meetings: ["Tech sync weekly", "Planning bi-weekly"]
     size: "8-15 engineers"
-    
+
   - level: "Engineering All"
     meetings: ["All-hands bi-weekly"]
     size: "All engineers"
@@ -221,8 +221,6 @@ A meeting cadence only works if the team respects it. Announce the cadence in yo
 The most successful distributed teams treat their meeting cadence as an evolving contract. Review it quarterly. Remove meetings that aren't providing value. Add structure where coordination breaks down.
 
 Start with the template above, observe what works for your specific time zone distribution and team dynamics, then refine from there.
-
-
 
 
 ## Related Articles

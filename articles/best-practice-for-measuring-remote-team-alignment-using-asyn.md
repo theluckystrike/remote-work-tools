@@ -132,12 +132,12 @@ Apply simple sentiment analysis to open-ended responses. You do not need complex
 def analyze_sentiment(response_text):
     positive_keywords = ["agree", "clear", "makes sense", "support", "understood"]
     negative_keywords = ["confused", "unclear", "disagree", "concerned", "need more"]
-    
+
     text_lower = response_text.lower()
-    
+
     positive_count = sum(1 for kw in positive_keywords if kw in text_lower)
     negative_count = sum(1 for kw in negative_keywords if kw in text_lower)
-    
+
     if positive_count > negative_count:
         return "positive"
     elif negative_count > positive_count:

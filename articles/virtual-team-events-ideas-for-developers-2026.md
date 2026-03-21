@@ -41,7 +41,7 @@ class CodeReviewOlympics:
             'security_catch': 50,
             'helpful_explanation': 15
         }
-    
+
     def record_review(self, reviewer, author, points_earned, review_type):
         self.reviews[reviewer].append({
             'author': author,
@@ -49,9 +49,9 @@ class CodeReviewOlympics:
             'type': review_type,
             'timestamp': datetime.now().isoformat()
         })
-    
+
     def leaderboard(self):
-        scores = {reviewer: sum(r['points'] for r in reviews) 
+        scores = {reviewer: sum(r['points'] for r in reviews)
                   for reviewer, reviews in self.reviews.items()}
         return sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
@@ -73,14 +73,14 @@ Use this template to match pairs randomly:
 function generatePairs(developers) {
   const shuffled = [...developers].sort(() => Math.random() - 0.5);
   const pairs = [];
-  
+
   for (let i = 0; i < shuffled.length - 1; i += 2) {
     pairs.push({
       pair: [shuffled[i], shuffled[i + 1]],
       challenge: getRandomChallenge()
     });
   }
-  
+
   return pairs;
 }
 
@@ -96,7 +96,7 @@ const team = ['Alice', 'Bob', 'Charlie', 'Diana', 'Eve', 'Frank'];
 const thisWeekPairs = generatePairs(team);
 
 console.log('This week\'s pairs:');
-thisWeekPairs.forEach((p, i) => 
+thisWeekPairs.forEach((p, i) =>
   console.log(`Pair ${i + 1}: ${p.pair.join(' & ')} - ${p.challenge}`)
 );
 ```
@@ -189,13 +189,13 @@ class HackathonManager:
     def __init__(self, name):
         self.name = name
         self.projects = []
-    
+
     def register_project(self, project):
         print(f"Registering: {project.name}")
         print(f"Team: {', '.join(project.team_members)}")
         print(f"Theme: {project.theme}")
         self.projects.append(project)
-    
+
     def print_schedule(self):
         print(f"\n=== {self.name} Projects ===")
         for p in self.projects:
@@ -265,7 +265,6 @@ Consistency matters more than creativity. Establish a predictable rhythm:
 | Ongoing | Structured coffee chats |
 
 Start with one event type, get participation, then add more. The best virtual team events become traditions because they serve genuine connection needs—not because they're novel.
-
 
 
 ## Related Articles

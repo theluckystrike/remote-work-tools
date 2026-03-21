@@ -128,7 +128,7 @@ Costs to market your services are fully deductible:
 // Track your marketing spend with a simple object
 const marketingExpenses = {
   domainNames: 120,        // Annual
-  hosting: 240,            // Annual  
+  hosting: 240,            // Annual
   businessCards: 50,       // One-time
   LinkedInPremium: 324,   // Annual
   portfolio: 0             // Often free on GitHub Pages
@@ -212,7 +212,6 @@ quarterly = calculate_quarterly_tax(150000, 30000)
 print(f"Estimated quarterly payment: ${quarterly:.2f}")
 # Output: Estimated quarterly payment: $7500.00
 ```
-
 
 
 ## Related Articles

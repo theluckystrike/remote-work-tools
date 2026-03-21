@@ -87,10 +87,10 @@ const { bucket } = require('./storage-client');
 
 stripe.webhooks.on('checkout.session.completed', async (session) => {
   const { customer_email, metadata } = session;
-  
+
   // Fetch the digital product from your template storage
   const productTemplate = await bucket.file(`products/${metadata.product_id}/bundle.zip`).download();
-  
+
   // Generate unique download link with 24-hour expiry
   const signedUrl = await bucket.file(`products/${metadata.product_id}/bundle.zip`)
     .getSignedUrl({
@@ -98,14 +98,14 @@ stripe.webhooks.on('checkout.session.completed', async (session) => {
       action: 'read',
       expires: Date.now() + 24 * 60 * 60 * 1000
     });
-  
+
   // Send delivery email
   await sendEmail({
     to: customer_email,
     subject: 'Your download is ready',
     body: `Download your product here: ${signedUrl}`
   });
-  
+
   console.log(`Product delivered to ${customer_email}`);
 });
 ```
@@ -144,10 +144,10 @@ const notion = new Client({ auth: process.env.NOTION_KEY });
 
 async function updateStatus(currentAvailability) {
   const statusEmoji = currentAvailability ? '🟢' : '🔴';
-  const statusText = currentAvailability 
-    ? 'Responding within 24 hours' 
+  const statusText = currentAvailability
+    ? 'Responding within 24 hours'
     : 'On extended break - responses delayed';
-  
+
   await notion.pages.update({
     page_id: process.env.STATUS_PAGE_ID,
     properties: {
@@ -221,7 +221,6 @@ The sequence matters. Build your location independence in stages:
 5. Stage 5 - Scale deliberately: Add customers, products, or team members only after systems are proven
 
 Most failed location independent businesses skip stages 3 and 4. They automate delivery but never document their processes or test whether the business actually runs without them.
-
 
 
 ## Related Articles

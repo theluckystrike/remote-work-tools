@@ -83,13 +83,13 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: meeting_status.py [available|busy|presentation]")
         sys.exit(1)
-    
+
     status_map = {
         "available": (":green-circle:", "Available"),
         "busy": (":no_entry_sign:", "In a meeting"),
         "presentation": (":speaking_head_in_silhouette:", "Presenting")
     }
-    
+
     status = sys.argv[1]
     if status in status_map:
         set_status(*status_map[status])
@@ -186,8 +186,6 @@ Add this to your dotfiles and run it with a single command before standup or cli
 The reality of parenting while working remotely means interruptions will happen. The goal isn't elimination but reduction and recovery speed. Physical barriers prevent most incidents, technical solutions handle the rest, and practiced protocols ensure when (not if) your toddler appears mid-sprint review, you recover professionally.
 
 Start with the simplest changes: cable management, door latches, and meeting status automation. Add complexity only as needed. Your time as a developer is valuable—spend it solving engineering problems, not constantly retrieving a curious toddler from your keyboard.
-
-
 
 
 ## Related Articles

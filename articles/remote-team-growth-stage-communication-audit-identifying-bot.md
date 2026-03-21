@@ -47,14 +47,14 @@ def audit_channels(slack_client):
     """Pull all channels and their activity metrics"""
     channels = slack_client.conversations_list(types="public,private")
     channel_data = []
-    
+
     for channel in channels["channels"]:
         # Get message count for past 30 days
         history = slack_client.conversations_history(
             channel["id"],
             oldest=(datetime.now() - timedelta(days=30)).timestamp()
         )
-        
+
         channel_data.append({
             "name": channel["name"],
             "member_count": len(channel["members"]),
@@ -63,7 +63,7 @@ def audit_channels(slack_client):
             "topic": channel.get("topic", {}).get("value", ""),
             "purpose": channel.get("purpose", {}).get("value", "")
         })
-    
+
     return channel_data
 
 # Run the audit
@@ -113,17 +113,17 @@ def calculate_response_times(slack_client, channel_id, days=14):
         channel=channel_id,
         oldest=(datetime.now() - timedelta(days=days)).timestamp()
     )
-    
+
     response_times = []
     thread_responses = 0
-    
+
     for msg in messages["messages"]:
         # Check if message has replies (is parent of thread)
         replies = slack_client.conversations_replies(
             channel=channel_id,
             ts=msg["ts"]
         )
-        
+
         if len(replies["messages"]) > 1:
             parent_time = datetime.fromtimestamp(float(msg["ts"]))
             first_reply_time = datetime.fromtimestamp(
@@ -132,7 +132,7 @@ def calculate_response_times(slack_client, channel_id, days=14):
             response_times.append(
                 (first_reply_time - parent_time).total_seconds() / 3600
             )
-    
+
     return {
         "avg_response_hours": sum(response_times) / len(response_times) if response_times else 0,
         "thread_count": len(response_times)
@@ -171,20 +171,20 @@ When teams exceed 30 people, boundaries form between sub-teams. Map dependencies
 def map_team_dependencies(messages, team_channels):
     """Map which teams communicate with each other"""
     dependency_matrix = {}
-    
+
     for team_a, channels_a in team_channels.items():
         dependency_matrix[team_a] = {}
         for team_b, channels_b in team_channels.items():
             if team_a == team_b:
                 continue
-            
+
             # Count mentions of team_b in team_a's channels
             cross_mentions = sum(
-                1 for msg in channels_a 
+                1 for msg in channels_a
                 if f"@{team_b}" in msg.get("text", "")
             )
             dependency_matrix[team_a][team_b] = cross_mentions
-    
+
     return dependency_matrix
 ```
 
@@ -203,7 +203,6 @@ Once you've identified bottlenecks, prioritize based on impact. Common effective
 | Cross-team silos | Establish guilds or communities of practice |
 
 Start with quick wins that have high visibility. Implementing a channel cleanup typically takes a few hours but immediately reduces noise for everyone.
-
 
 
 ## Related Articles

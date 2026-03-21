@@ -112,19 +112,19 @@ If conducting a synchronous session, use this structure:
 ```
 00:00-00:05  | Welcome and Purpose (5 min)
             | "Today we're reviewing our collaboration on [Project]"
-            
+
 00:05-00:15 | What Worked Well (10 min)
             | Client shares successes and positives
-            
+
 00:15-00:25 | What Could Improve (10 min)
             | Client shares areas for improvement
-            
+
 00:25-00:35 | Discussion and Context (10 min)
             | Team asks clarifying questions
-            
+
 00:35-00:45 | Action Items (10 min)
             | Document commitments for future
-            
+
 00:45-00:50 | Close (5 min)
             | Thank client, confirm next steps
 ```
@@ -325,7 +325,6 @@ By year-end, review all retrospectives:
 - What improvements haven't been implemented yet?
 
 This drives your process improvements year over year.
-
 
 
 ## Related Articles

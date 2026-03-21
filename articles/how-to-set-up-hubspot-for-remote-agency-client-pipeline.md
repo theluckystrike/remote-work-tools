@@ -120,7 +120,7 @@ HubSpot's value increases significantly when connected to your other systems. Fo
 // This would run in your project management integration layer
 app.post('/webhooks/hubspot-deal-created', (req, res) => {
   const { dealId, dealName, ownerEmail } = req.body;
-  
+
   // Create corresponding project in your PM tool
   createProject({
     name: dealName,
@@ -128,7 +128,7 @@ app.post('/webhooks/hubspot-deal-created', (req, res) => {
     source: 'hubspot',
     externalId: dealId
   });
-  
+
   res.status(200).send('Project created');
 });
 ```
@@ -321,7 +321,6 @@ Create HubSpot dashboards that show pipeline health at a glance:
 - Win/loss ratio by industry or deal source (shows which markets work)
 
 These dashboards replace status update meetings—anyone can check pipeline health without asking questions.
-
 
 
 ## Related Articles

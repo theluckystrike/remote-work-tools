@@ -325,7 +325,6 @@ If your ISP connection is limited (< 25 Mbps), optimize:
 - Avoid large file operations in cloud IDE; use local git instead
 
 
-
 ## Related Articles
 
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)

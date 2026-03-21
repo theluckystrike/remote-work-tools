@@ -197,19 +197,18 @@ For IT teams managing multiple rooms, here's an example Ansible playbook for Owl
   vars:
     owl_firmware_version: "4.2.1"
     owl_ip: "{{ inventory_hostname }}"
-  
+
   tasks:
     - name: Check current firmware
       command: ssh admin@{{ owl_ip }} "owl-cli get firmware"
       register: firmware_check
-    
+
     - name: Update firmware if needed
       command: ssh admin@{{ owl_ip }} "owl-cli update --version {{ owl_firmware_version }}"
       when: firmware_check.stdout != owl_firmware_version
 ```
 
 This approach enables consistent configuration across all conference rooms and simplifies long-term maintenance.
-
 
 
 ## Related Articles

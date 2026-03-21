@@ -87,7 +87,7 @@ managers:
     direct_reports: 6
     1:1_frequency: bi-weekly
     duration_minutes: 30
-    
+
 tech_leads:
   - name: "Frontend Lead"
     direct_reports: 5

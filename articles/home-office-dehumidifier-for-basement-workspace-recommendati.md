@@ -84,23 +84,23 @@ def check_and_control_humidity():
         f"http://homeassistant.local/api/states/{HUMIDITY_SENSOR}",
         headers={"Authorization": "Bearer YOUR_TOKEN"}
     ).json()
-    
+
     current_humidity = float(sensor_data['state'])
-    
+
     # Get dehumidifier status
     dehumid_status = requests.get(DEHUMIDIFIER_URL).json()
-    
+
     # Control logic
     if current_humidity > 55 and not dehumid_status['power']:
         # High humidity - turn on
         requests.post(f"{DEHUMIDIFIER_URL}/power", json={"state": "on"})
         print(f"Humidity {current_humidity}% - Dehumidifier activated")
-    
+
     elif current_humidity < 40 and dehumid_status['power']:
         # Low humidity - turn off
         requests.post(f"{DEHUMIDIFIER_URL}/power", json={"state": "off"})
         print(f"Humidity {current_humidity}% - Dehumidifier deactivated")
-    
+
     # Adjust fan speed based on humidity level
     if dehumid_status['power']:
         target_speed = "high" if current_humidity > 60 else "auto"
@@ -122,22 +122,22 @@ import { LineChart, YAxis, Tooltip } from 'recharts';
 
 function HumidityDashboard({ sensorData, dehumidifierStatus }) {
   const currentHumidity = sensorData[sensorData.length - 1]?.humidity || 0;
-  const statusColor = currentHumidity < 40 ? '#3b82f6' : 
-                      currentHumidity < 50 ? '#22c55e' : 
+  const statusColor = currentHumidity < 40 ? '#3b82f6' :
+                      currentHumidity < 50 ? '#22c55e' :
                       currentHumidity < 60 ? '#eab308' : '#ef4444';
-  
+
   return (
     <div className="dashboard">
       <div className="current-reading" style={{ borderColor: statusColor }}>
         <h3>Current Humidity</h3>
         <div className="humidity-value">{currentHumidity}%</div>
         <div className="status-indicator" style={{ background: statusColor }}>
-          {currentHumidity < 40 ? 'Dry' : 
-           currentHumidity < 50 ? 'Optimal' : 
+          {currentHumidity < 40 ? 'Dry' :
+           currentHumidity < 50 ? 'Optimal' :
            currentHumidity < 60 ? 'Elevated' : 'High'}
         </div>
       </div>
-      
+
       <LineChart data={sensorData} width={600} height={300}>
         <YAxis domain={[0, 100]} />
         <Tooltip />
@@ -203,7 +203,6 @@ automation:
         data:
           message: "Dehumidifier activated - Humidity at {{ states('sensor.basement_humidity') }}%"
 ```
-
 
 
 ## Related Articles

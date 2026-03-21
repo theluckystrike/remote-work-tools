@@ -177,8 +177,8 @@ Some nomads use Slack's API to automatically update their status based on their 
 ```javascript
 // Example: Update Slack status based on current zone
 const currentHour = new Date().getHours();
-const status = (currentHour >= 9 && currentHour < 18) 
-  ? '🌞 Working - available' 
+const status = (currentHour >= 9 && currentHour < 18)
+  ? '🌞 Working - available'
   : '🌙 Outside work hours';
 
 webClient.users.profile.set({

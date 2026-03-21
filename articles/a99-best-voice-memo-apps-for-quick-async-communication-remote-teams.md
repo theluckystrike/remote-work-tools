@@ -3,7 +3,7 @@ title: "Best Voice Memo Apps for Quick Async Communication Remote"
 description: "Discover the top voice memo applications that enable asynchronous communication for distributed teams, replacing endless Slack threads with quick audio"
 author: "theluckystrike"
 categories: [guides]
-tags: 
+tags:
 permalink: /a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/
 score: 8
 voice-checked: true
@@ -225,7 +225,6 @@ videos = get_recent_loom_videos()
 if videos:
     post_to_slack(videos[0])
 ```
-
 
 
 ## Related Articles

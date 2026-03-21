@@ -109,11 +109,11 @@ Before the hackathon begins, seed a shared document with potential project ideas
 ```markdown
 ## Project Proposal Template
 
-**Project Name:** 
-**Problem Addressed:** 
-**Technical Approach:** 
+**Project Name:**
+**Problem Addressed:**
+**Technical Approach:**
 **Required Skills:** [frontend, backend, devops, etc.]
-**Minimum Viable Goal:** 
+**Minimum Viable Goal:**
 **Stretch Goal:**
 ```
 
@@ -253,8 +253,6 @@ Several mistakes consistently undermine remote hackathons:
 Addressing these proactively significantly improves outcomes.
 
 Running a successful remote developer hackathon for distributed engineering teams takes effort, but the payoff—accelerated prototyping, team bonding, and innovation—makes it worthwhile. Focus on clear infrastructure, structured timelines, active help, and fair evaluation, and your hackathon will deliver value regardless of where your team members are located.
-
-
 
 
 ## Related Articles

@@ -98,12 +98,12 @@ work_boundaries:
     work_hours: "9 AM - 5 PM local"
     after_hours: "Do Not Disturb except emergencies"
     weekend: "Off unless on-call"
-  
+
   workspace:
     designated_office: true
     visual_cue_when_working: "Headphones on = do not interrupt"
     physical_separation: "Work stays in office room"
-  
+
   communication_preferences:
     urgent: "Phone call"
     important: "Direct message with @mention"
@@ -180,7 +180,6 @@ Print or save this quick reference:
 - [ ] Contribution to team documentation or knowledge base
 - [ ] Active participation in at least one non-work community channel
 - [ ] Regular check-ins with manager about workload and well-being
-
 
 
 ## Related Articles

@@ -46,18 +46,18 @@ def generate_pairings(team_members, week_offset):
     # Sort to ensure deterministic ordering
     sorted_team = sorted(team_members)
     n = len(sorted_team)
-    
+
     # Create rotation based on week number
     offset = week_offset % (n - 1)
     pairs = []
-    
+
     for i in range(n):
         person_a = sorted_team[i]
         person_b = sorted_team[(i + offset + 1) % n]
         # Only add each pair once
         if i < (n - 1) // 2 + 1:
             pairs.append((person_a, person_b))
-    
+
     return pairs
 
 # Example usage
@@ -101,7 +101,7 @@ const winTemplate = `
 ### Personal Win
 [Your accomplishment this week - any size counts]
 
-### Team Win  
+### Team Win
 [Something your team accomplished]
 
 ### Appreciation
@@ -188,7 +188,7 @@ exchanges:
     skill_b: "css-animations"
     duration: "4 weeks"
     cadence: "bi-weekly 30min async exchange"
-    
+
   - participant_a: "senior-dev"
     participant_b: "junior-dev"
     skill_a: "system-design"
@@ -213,7 +213,6 @@ Start with one activity and prove it works before adding more:
 The goal isn't to fill every moment with structured interaction. Rather, create touchpoints that help team members see each other as complete humans. Even one or two consistent async activities can meaningfully improve team cohesion across time zones.
 
 ---
-
 
 
 ## Related Articles

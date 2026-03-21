@@ -59,7 +59,7 @@ async function collectStandupUpdates(channelId, userIds) {
       return parseStandupResponse(history.messages[0]);
     })
   );
-  
+
   // Post consolidated summary to squad channel
   const summary = formatStandupSummary(updates);
   await slack.chat.postMessage({
@@ -104,7 +104,7 @@ interface CrossSquadDependency {
 
 function syncDependencyBoard(linearTeams: Team[]): CrossSquadDependency[] {
   const dependencies: CrossSquadDependency[] = [];
-  
+
   linearTeams.forEach(team => {
     team.issues.forEach(issue => {
       if (issue.labels.includes('cross-team-dependency')) {
@@ -120,7 +120,7 @@ function syncDependencyBoard(linearTeams: Team[]): CrossSquadDependency[] {
       }
     });
   });
-  
+
   return dependencies;
 }
 ```
@@ -137,7 +137,7 @@ name: Weekly Cross-Squad Sync
 on:
   schedule:
     - cron: '0 14 * * 3'  # Wednesday 2PM UTC
-  
+
 jobs:
   generate-dependency-report:
     runs-on: ubuntu-latest
@@ -155,7 +155,7 @@ jobs:
               }
             }
           ' --jq '.data.issues.nodes'
-      
+
       - name: Post to coordination channel
         uses: slackapi/slack-github-action@v1.25.0
         with:
@@ -199,7 +199,7 @@ For async retros, use a structured document template:
 |      |       |     |
 
 ## Cross-Squad Blockers to Escalate
-- 
+-
 ```
 
 Each squad fills this out asynchronously. The Scrum Master or Engineering Manager consolidates cross-squad blockers and raises them in the next coordination touchpoint.
@@ -216,17 +216,17 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
     """
     from datetime import datetime, timedelta
     import itertools
-    
+
     # Business hours definition
     business_start = 9
     business_end = 18
-    
+
     # Generate all possible hour slots
     slots = []
     for hour in range(business_start, business_end):
         for tz in timezones:
             slots.append({'hour': hour, 'timezone': tz})
-    
+
     # Score each slot by burden distribution
     scores = []
     for slot in slots:
@@ -242,12 +242,11 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
             'burden_score': sum(burden),
             'rotates_away': True  # Track who gets the "bad" slot
         })
-    
+
     return scores  # Sort by burden_score for fair rotation
 ```
 
 This script helps you generate a rotation schedule where no single time zone consistently takes inconvenient meeting times.
-
 
 
 ## Related Articles

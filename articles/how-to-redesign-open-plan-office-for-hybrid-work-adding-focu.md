@@ -52,14 +52,14 @@ def calculate_pod_requirements(square_footage, team_size, occupancy_rate=0.5):
     """
     # Assume 30 sq ft per person in open plan
     person_capacity = square_footage / 30
-    
+
     # Hybrid occupancy varies—use 50% as baseline
     active_people = person_capacity * occupancy_rate
-    
+
     # Industry rule: 1 focus pod per 4-5 active people
     min_pods = int(active_people / 4)
     max_pods = int(active_people / 3)
-    
+
     return {
         'estimated_people': int(person_capacity),
         'active_on_given_day': int(active_people),
@@ -71,7 +71,7 @@ def calculate_pod_requirements(square_footage, team_size, occupancy_rate=0.5):
 # Example: 5000 sq ft office with 50-person team
 result = calculate_pod_requirements(5000, 50)
 print(result)
-# Output: {'estimated_people': 166, 'active_on_given_day': 83, 
+# Output: {'estimated_people': 166, 'active_on_given_day': 83,
 #          'recommended_pods': '20 to 27', 'min_pods': 20, 'max_pods': 27}
 ```
 
@@ -100,7 +100,7 @@ app.get('/api/pods/available', (req, res) => {
   const { start, end } = req.query;
   const requestedStart = new Date(start);
   const requestedEnd = new Date(end);
-  
+
   const occupiedIds = bookings
     .filter(b => {
       const bookedStart = new Date(b.start);
@@ -108,7 +108,7 @@ app.get('/api/pods/available', (req, res) => {
       return requestedStart < bookedEnd && requestedEnd > bookedStart;
     })
     .map(b => b.podId);
-  
+
   const available = pods.filter(p => !occupiedIds.includes(p.id));
   res.json(available);
 });
@@ -116,18 +116,18 @@ app.get('/api/pods/available', (req, res) => {
 // Book a pod
 app.post('/api/bookings', (req, res) => {
   const { podId, userId, start, end } = req.body;
-  
+
   // Check for conflicts (simplified)
-  const conflict = bookings.find(b => 
-    b.podId === podId && 
-    new Date(start) < new Date(b.end) && 
+  const conflict = bookings.find(b =>
+    b.podId === podId &&
+    new Date(start) < new Date(b.end) &&
     new Date(end) > new Date(b.start)
   );
-  
+
   if (conflict) {
     return res.status(409).json({ error: 'Time slot already booked' });
   }
-  
+
   const booking = { id: Date.now(), podId, userId, start, end };
   bookings.push(booking);
   res.status(201).json(booking);
@@ -179,8 +179,6 @@ For teams starting their open plan to hybrid redesign:
 7. Gather feedback after one month and adjust placement or quantity as needed
 
 Focus pods represent infrastructure investment that signals your organization values deep work. When employees know they can book guaranteed quiet time at the office, the hybrid model becomes more attractive and productive.
-
-
 
 
 ## Related Articles

@@ -91,7 +91,7 @@ Use a dependency matrix in your project management tool:
 class DependencyTracker:
     def __init__(self):
         self.dependencies = {}
-    
+
     def add_dependency(self, task_id, depends_on, blocking=True):
         """Track a dependency between tasks"""
         if depends_on not in self.dependencies:
@@ -100,7 +100,7 @@ class DependencyTracker:
             'task': task_id,
             'blocking': blocking
         })
-    
+
     def get_blockers(self, task_id):
         """Find what's blocking a given task"""
         blockers = []
@@ -177,7 +177,6 @@ Track metrics that indicate cross-functional health:
 Track cycle time (task start to completion), blocked time (days waiting on dependencies), rework rate (tasks returning to in-progress after review), and meeting load (synchronous vs. async hours).
 
 Review these metrics monthly with your team. Identify patterns and experiment with changes.
-
 
 
 ## Related Articles

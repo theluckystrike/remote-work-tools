@@ -114,7 +114,7 @@ For a PowerShell-centric approach, query UPS status programmatically:
 
 ```powershell
 # Check UPS battery status on Windows
-Get-CimInstance -Namespace root/wmi -ClassName BatteryStatus | 
+Get-CimInstance -Namespace root/wmi -ClassName BatteryStatus |
     Select-Object RemainingCapacity, DischargeRate, Charging
 ```
 
@@ -400,7 +400,6 @@ services:
 ```
 
 When UPS battery is low, containers have 30 seconds to commit in-flight transactions before being shut down.
-
 
 
 ## Related Articles

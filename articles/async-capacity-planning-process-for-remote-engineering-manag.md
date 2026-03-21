@@ -194,7 +194,7 @@ When team members work across time zones, capacity planning must account for ove
 | Charlie     | GMT       | 8 hours          |
 | Diana       | JST       | 0 hours          |
 
-Recommendation: Assign async-heavy work to Diana; 
+Recommendation: Assign async-heavy work to Diana;
 synchronous coordination for Alice/Bob/Charlie during overlap
 ```
 
@@ -209,7 +209,7 @@ Single project focus: 1.0x productivity
 Two projects (equal priority): 0.85x productivity
 Three+ projects: 0.70x productivity
 
-Apply appropriate multiplier when calculating capacity 
+Apply appropriate multiplier when calculating capacity
 for multi-project team members
 ```
 

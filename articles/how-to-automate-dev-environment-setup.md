@@ -233,7 +233,7 @@ DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 link_file() {
   local source="$DOTFILES_DIR/$1"
   local target="$HOME/$1"
-  
+
   if [ -e "$target" ]; then
     if [ -L "$target" ]; then
       echo "Skipping $1 (already linked)"
@@ -242,7 +242,7 @@ link_file() {
       mv "$target" "$target.backup"
     fi
   fi
-  
+
   mkdir -p "$(dirname "$target")"
   ln -sf "$source" "$target"
   echo "Linked $1"
@@ -263,8 +263,6 @@ Team environments benefit most from automation because they multiply the effort 
 Documentation matters as much as the scripts themselves. Include README files explaining how to run setup scripts, what assumptions the automation makes about the base system, and how to troubleshoot common issues. Even the best automation fails when users don't understand how to use it or what went wrong when something breaks.
 
 Start with shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
-
-
 
 
 ## Related Articles

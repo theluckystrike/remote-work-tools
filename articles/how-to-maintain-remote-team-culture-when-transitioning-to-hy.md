@@ -68,13 +68,13 @@ jobs:
           mkdir -p docs/meetings/$(date +%Y-%m)
           cat > docs/meetings/$(date +%Y-%m)/week-$(date +%V).md << EOF
           # Weekly Sync - Week $(date +%V)
-          
+
           ## Attendees
-          
+
           ## Agenda
-          
+
           ## Notes
-          
+
           ## Action Items
           EOF
 ```
@@ -402,8 +402,6 @@ The teams that succeed with hybrid work treat remote participants not as a speci
 Most teams report that their first month of hybrid is chaotic, the second month improves significantly, and by month three they have a stable rhythm that actually works better than pure remote for some activities (in-person collaboration) while preserving remote benefits (flexibility, focus time).
 
 ---
-
-
 
 
 ## Related Articles

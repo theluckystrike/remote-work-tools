@@ -84,7 +84,7 @@ Reviewers examine the code and leave comments using your platform's review tools
 
 **For blocking issues:**
 ```
-❌ **Blocking**: This query is vulnerable to SQL injection. 
+❌ **Blocking**: This query is vulnerable to SQL injection.
 Use parameterized queries instead:
 
 ❌ `db.query("SELECT * FROM users WHERE id = " + userId)`
@@ -93,13 +93,13 @@ Use parameterized queries instead:
 
 **For suggestions:**
 ```
-💡 **Suggestion**: Consider extracting this validation logic 
+💡 **Suggestion**: Consider extracting this validation logic
 into a separate function for reusability.
 ```
 
 **For questions:**
 ```
-❓ What happens if this API call fails? Should we add 
+❓ What happens if this API call fails? Should we add
 retry logic here?
 ```
 

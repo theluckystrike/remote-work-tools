@@ -168,12 +168,12 @@ Connect your workshop outputs to your project management system:
 miro.board.ui.on('icon:click', async () => {
   const selection = await miro.board.getSelection();
   const stickyNotes = selection.filter(item => item.type === 'sticky_note');
-  
+
   const actionItems = stickyNotes.map(note => ({
     text: note.content,
     position: note.position
   }));
-  
+
   // Send to your project management tool
   await fetch('https://your-pm-tool.com/webhook', {
     method: 'POST',
@@ -183,7 +183,6 @@ miro.board.ui.on('icon:click', async () => {
 ```
 
 For simpler integrations, use Zapier or Make to connect Miro to tools like Linear, Asana, or Notion based on specific board updates.
-
 
 
 ## Related Articles

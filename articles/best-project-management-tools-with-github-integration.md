@@ -32,18 +32,18 @@ Setting up the integration involves granting OAuth access in Linear settings, th
 
 ```javascript
 // Linear API - Fetch issues with GitHub PR links
-const linearClient = new LinearClient({ 
-  apiKey: process.env.LINEAR_API_KEY 
+const linearClient = new LinearClient({
+  apiKey: process.env.LINEAR_API_KEY
 });
 
 async function getIssuesWithPRs(teamId) {
   const { data } = await linearClient.issues({
-    filter: { 
+    filter: {
       team: { id: { eq: teamId } },
       state: { name: { in: ['In Progress', 'In Review'] } }
     }
   });
-  
+
   return data.issues.nodes.map(issue => ({
     title: issue.title,
     identifier: issue.identifier,
@@ -85,7 +85,7 @@ const createClickUpTask = async (listId, issueData) => {
       ]
     })
   });
-  
+
   return response.json();
 };
 ```
@@ -170,7 +170,7 @@ on:
     types: [opened, closed, labeled]
   pull_request:
     types: [opened, closed, synchronize]
-    
+
 projects:
   - name: Sprint Board
     runs_on: project

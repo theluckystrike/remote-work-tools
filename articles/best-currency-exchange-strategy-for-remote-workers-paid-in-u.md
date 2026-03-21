@@ -53,12 +53,12 @@ def get_current_rate():
 def check_and_alert():
     rate = get_current_rate()
     thb_per_usd = 1 / rate  # Convert to THB per USD for readability
-    
+
     print(f"Current rate: {thb_per_usd:.4f} THB per USD")
-    
+
     if thb_per_usd < THB_EXCHANGE_ALERT_THRESHOLD * (1/0.029):
         send_alert(f"Rate is favorable: {thb_per_usd:.4f}")
-    
+
     return rate
 
 # Run this on a schedule to monitor rates
@@ -111,12 +111,12 @@ def monthly_conversion():
     # Check if today is the 1st
     if datetime.now().day != 1:
         return
-    
+
     # Get current rate
     current_rate = get_current_rate()
     usd_amount = 2000  # Your monthly budget in USD
     thb_amount = usd_amount / current_rate
-    
+
     # Only convert if rate is above threshold
     if current_rate > 0.028:  # About 35 THB per USD
         wise.transfer(

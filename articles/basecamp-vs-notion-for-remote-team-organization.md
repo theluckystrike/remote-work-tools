@@ -60,19 +60,19 @@ class RateLimiter:
         self.max_requests = max_requests
         self.window = timedelta(seconds=window_seconds)
         self.requests: dict[str, list[datetime]] = defaultdict(list)
-    
+
     def allow_request(self, client_id: str) -> bool:
         now = datetime.now()
         window_start = now - self.window
-        
+
         self.requests[client_id] = [
             ts for ts in self.requests[client_id]
             if ts > window_start
         ]
-        
+
         if len(self.requests[client_id]) >= self.max_requests:
             return False
-        
+
         self.requests[client_id].append(now)
         return True
 ```
@@ -102,7 +102,7 @@ async function getSprintTasks(sprintDatabaseId) {
     },
     sorts: [{ property: 'Priority', direction: 'ascending' }]
   });
-  
+
   return response.results.map(page => ({
     id: page.id,
     title: page.properties.Name.title[0]?.plain_text,

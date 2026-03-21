@@ -153,10 +153,10 @@ Imagine you're building a Zettelkasten around API design. Over months, you accum
 ```
 [[rest-api-best-practices]]
   → links to: [[json-api-conventions]], [[http-status-codes]]
-  
+
 [[graphql-schema-design]]
   → links to: [[n+1-query-problem]], [[resolver-pattern]]
-  
+
 [[webhook-security]]
   → links to: [[hmac-signature-verification]], [[retry-strategies]]
 ```
@@ -168,7 +168,6 @@ When you need to design a new API, querying your Zettelkasten surfaces all relev
 Choose a tool (Obsidian, Logseq, or plain markdown with git), commit to capturing one atomic note per day, and resist the urge to organize prematurely. The connections matter more than the structure. Over months and years, you'll have a knowledge graph that accelerates problem-solving and preserves hard-won technical insights.
 
 ---
-
 
 
 ## Related Articles

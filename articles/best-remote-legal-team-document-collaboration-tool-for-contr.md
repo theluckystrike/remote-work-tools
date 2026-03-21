@@ -165,15 +165,15 @@ Build integrations between these systems using their respective APIs:
 // Example: Sync signed contracts back to tracking database
 app.post('/webhook/dropbox-sign', async (req, res) => {
   const { signature_request_id, event_type } = req.body;
-  
+
   if (event_type === 'signature_request_completed') {
     const contract = await getContractByRequestId(signature_request_id);
-    
+
     await updateContractStatus(contract.id, 'Executed');
     await moveToExecutedFolder(contract.document_id);
     await notifyContractOwner(contract.owner, 'Contract executed');
   }
-  
+
   res.status(200).send('OK');
 });
 ```

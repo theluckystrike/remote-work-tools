@@ -111,7 +111,7 @@ async function updateSlackStatus() {
     timeMin: new Date().toISOString(),
     maxResults: 1
   });
-  
+
   const inMeeting = events.data.items[0]?.summary?.includes('Meeting');
   // Update Slack status via API based on calendar
 }
@@ -162,7 +162,7 @@ class WorkSession:
         self.task_name = task_name
         self.start = datetime.datetime.now()
         self.end = None
-    
+
     def end_session(self):
         self.end = datetime.datetime.now()
         duration = (self.end - self.start).total_seconds() / 3600
@@ -173,8 +173,6 @@ class WorkSession:
 ```
 
 The flexibility that makes remote work valuable only works when you protect your boundaries. Your career is a marathon—pacing yourself matters more than short-term sprinting.
-
-
 
 
 ## Related Articles

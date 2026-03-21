@@ -40,19 +40,19 @@ TEAM_ID = os.getenv("CLICKUP_TEAM_ID")
 def create_client_guest(email, name, accessible_list_ids):
     """Create a guest user with access to specific lists."""
     url = f"https://api.clickup.com/api/v2/team/{TEAM_ID}/guest"
-    
+
     payload = {
         "email": email,
         "name": name,
         "can_see_time": True,
         "list_ids": accessible_list_ids
     }
-    
+
     headers = {
         "Authorization": CLICKUP_API_KEY,
         "Content-Type": "application/json"
     }
-    
+
     response = requests.post(url, json=payload, headers=headers)
     return response.json()
 
@@ -228,8 +228,6 @@ Run this monthly to ensure former clients no longer have access and current clie
 - **Document the setup**: Keep internal docs explaining which spaces are client-accessible so new team members don't accidentally share wrong content
 
 The client portal setup is not a one-time configuration—treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
-
-
 
 
 ## Related Articles

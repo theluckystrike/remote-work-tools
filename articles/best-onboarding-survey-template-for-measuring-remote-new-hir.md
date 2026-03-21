@@ -44,7 +44,7 @@ The 30-day check-in focuses on orientation and initial barriers. New hires shoul
 ### Tools and Access
 1. I have access to all tools I need to do my job effectively.
    - Strongly Disagree (1) to Strongly Agree (5)
-   
+
 2. List any tools or systems you still cannot access: [Open text]
 
 ### Role Clarity
@@ -148,7 +148,7 @@ name: Onboarding Survey Automation
 on:
   schedule:
     - cron: '0 9 * * 1'  # Every Monday at 9 AM
-    
+
 jobs:
   check-surveys:
     runs-on: ubuntu-latest
@@ -156,14 +156,14 @@ jobs:
       - name: Check new hire milestones
         run: |
           # Load new hire data
-          jq -r '.[] | select(.start_date) | 
-            . as $hire | 
+          jq -r '.[] | select(.start_date) |
+            . as $hire |
             [(now | strftime("%Y-%m-%d") | strptime("%Y-%m-%d") | mktime) -
-             ($hire.start_date | strptime("%Y-%m-%d") | mktime)] / 86400 | 
+             ($hire.start_date | strptime("%Y-%m-%d") | mktime)] / 86400 |
             tostring | . + " " + $hire.email' new_hires.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Send survey reminder
         if: days_elapsed == 30 || days_elapsed == 60 || days_elapsed == 90
         run: |
@@ -196,7 +196,6 @@ Survey data without action creates cynicism. Close the loop by:
 3. **Following up individually** on concerning responses
 
 One of our engineering teams reduced time-to-productivity by 40% after discovering that new hires spent two weeks waiting for repository access. The 30-day survey surfaced this systematically—previously, individual complaints were dismissed as normal adjustment.
-
 
 
 ## Related Articles

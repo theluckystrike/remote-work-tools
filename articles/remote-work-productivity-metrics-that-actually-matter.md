@@ -383,5 +383,6 @@ These metrics corrupt behavior and reveal nothing about actual productivity.
 - [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
 - [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

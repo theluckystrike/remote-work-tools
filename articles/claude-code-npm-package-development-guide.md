@@ -15,8 +15,6 @@ tags: [remote-work-tools, claude-ai]
 ---
 
 
-
-
 {% raw %}
 Use Claude Code to automate npm package boilerplate generation, enforce TypeScript/linting configurations, and manage the entire publish workflow from testing to npm registry. Claude Code integrates with your development environment to generate package scaffolds, run tests, and handle versioning automatically. This guide shows you how to use these capabilities for faster, higher-quality package development.
 
@@ -111,7 +109,7 @@ export interface PackageResult {
   error?: Error;
 }
 
-export type PackageEvent = 
+export type PackageEvent =
   | { type: 'init'; timestamp: number }
   | { type: 'execute'; input: string; output: string }
   | { type: 'error'; error: Error };
@@ -147,9 +145,9 @@ describe('MyPackage', () => {
     });
 
     it('should accept custom options', () => {
-      const customPkg = new MyPackage({ 
-        debug: true, 
-        timeout: 10000 
+      const customPkg = new MyPackage({
+        debug: true,
+        timeout: 10000
       });
       expect(customPkg).toBeDefined();
     });
@@ -191,7 +189,7 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x, 20.x, 22.x]
-    
+
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
@@ -199,7 +197,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      
+
       - run: npm ci
       - run: npm run lint
       - run: npm test
@@ -225,7 +223,7 @@ jobs:
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
-      
+
       - run: npm ci
       - run: npm test
       - run: npm run build
@@ -410,7 +408,6 @@ Ask Claude Code to suggest size optimizations when the bundle exceeds your targe
 ```bash
 claude "The bundle size for this npm package exceeds our 10KB limit. Review the imports in src/index.ts and suggest which dependencies could be made optional or replaced with lighter alternatives."
 ```
-
 
 
 ## Related Articles

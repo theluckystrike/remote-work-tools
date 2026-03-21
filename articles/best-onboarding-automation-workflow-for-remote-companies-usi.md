@@ -185,7 +185,7 @@ Organize your Notion onboarding template with these key sections:
 // Notion API: Duplicate template for new employee
 async function createEmployeeNotionPage(employee) {
   const templateId = getTemplateForRole(employee.role);
-  
+
   const response = await notion.pages.create({
     parent: { page_id: process.env.NOTION_ONBOARDING_ROOT },
     properties: {
@@ -222,10 +222,10 @@ The glue connecting Slack and Notion is a simple automation layer that listens f
 // Main automation: Sync Notion task completion to Slack
 app.action('complete_task', async ({ body, ack, client }) => {
   await ack();
-  
+
   const taskId = body.actions[0].value;
   const task = await getNotionTask(taskId);
-  
+
   // Update Slack message to reflect completion
   await client.chat.update({
     channel: task.slackChannelId,
@@ -259,7 +259,6 @@ Track key metrics to continuously improve your workflow:
 - New Hire Satisfaction: Weekly pulse survey scores during onboarding
 
 Store these metrics in Notion alongside employee records, creating a data-driven approach to onboarding optimization.
-
 
 
 ## Related Articles

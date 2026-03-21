@@ -58,7 +58,7 @@ def get_completed_prs(days=7):
     """Fetch merged PRs from the past week."""
     since = datetime.now() - timedelta(days=days)
     closed_prs = repo.get_pulls(state="closed", sort="updated", direction="desc")
-    
+
     completed = []
     for pr in closed_prs:
         if pr.merged_at and pr.merged_at >= since:
@@ -73,7 +73,7 @@ def get_completed_prs(days=7):
 def get_open_issues():
     """Fetch open issues excluding pull requests."""
     issues = repo.get_issues(state="open", sort="updated", direction="desc")
-    return [{"title": i.title, "number": i.number, "labels": [l.name for l in i.labels]} 
+    return [{"title": i.title, "number": i.number, "labels": [l.name for l in i.labels]}
             for i in issues if not i.pull_request][:10]
 ```
 
@@ -89,14 +89,14 @@ def generate_report(completed_prs, open_issues, milestone_info):
     report = []
     report.append("# Project Progress Report")
     report.append(f"**Report Date:** {datetime.now().strftime('%Y-%m-%d')}\n")
-    
+
     report.append("## Completed This Week")
     if completed_prs:
         for pr in completed_prs:
             report.append(f"- #{pr['number']}: {pr['title']} (merged {pr['merged_at']})")
     else:
         report.append("- No pull requests merged this week.")
-    
+
     report.append("\n## Active Issues")
     if open_issues:
         for issue in open_issues:
@@ -104,12 +104,12 @@ def generate_report(completed_prs, open_issues, milestone_info):
             report.append(f"- #{issue['number']}: {issue['title']} {labels}")
     else:
         report.append("- No open issues.")
-    
+
     report.append("\n## Milestones")
     if milestone_info:
         for m in milestone_info:
             report.append(f"- **{m['title']}**: {m['progress']}% complete (due {m['due_date']})")
-    
+
     return "\n".join(report)
 ```
 
@@ -130,9 +130,9 @@ def send_email_report(report_content, recipients):
     msg["Subject"] = f"Project Progress Report - {datetime.now().strftime('%Y-%m-%d')}"
     msg["From"] = "project-reports@yourcompany.com"
     msg["To"] = ", ".join(recipients)
-    
+
     msg.attach(MIMEText(report_content, "plain"))
-    
+
     with smtplib.SMTP("smtp.yourprovider.com", 587) as server:
         server.starttls()
         server.login(os.environ.get("SMTP_USER"), os.environ.get("SMTP_PASS"))
@@ -158,8 +158,8 @@ def send_slack_report(report_content, webhook_url):
             }
         ]
     }
-    
-    requests.post(webhook_url, data=json.dumps(payload), 
+
+    requests.post(webhook_url, data=json.dumps(payload),
                   headers={"Content-Type": "application/json"})
 ```
 
@@ -225,8 +225,6 @@ Adjust your template and delivery frequency based on feedback. The goal is consi
 ---
 
 Building an automated client progress reporting system requires upfront development time but pays dividends through consistent stakeholder communication. Start with simple metrics and expand as you identify what matters most to your clients.
-
-
 
 
 ## Related Articles

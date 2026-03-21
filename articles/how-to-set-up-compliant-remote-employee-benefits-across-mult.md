@@ -54,7 +54,7 @@ class EmployeeJurisdiction:
     effective_date: datetime.date
     county: Optional[str] = None  # Some benefits vary by county
     city: Optional[str] = None   # Some localities have additional requirements
-    
+
     def is_active(self, check_date: datetime.date) -> bool:
         return self.effective_date <= check_date
 ```
@@ -70,7 +70,7 @@ class BenefitsRule(ABC):
     @abstractmethod
     def applies_to(self, state: USState) -> bool:
         pass
-    
+
     @abstractmethod
     def calculate_requirement(self, employee: EmployeeProfile) -> dict:
         pass
@@ -79,10 +79,10 @@ class HealthInsuranceRule(BenefitsRule):
     def __init__(self, states: list[USState], min_eligible_hours: int = 30):
         self.states = states
         self.min_eligible_hours = min_eligible_hours
-    
+
     def applies_to(self, state: USState) -> bool:
         return state in self.states
-    
+
     def calculate_requirement(self, employee: EmployeeProfile) -> dict:
         if employee.weekly_hours >= self.min_eligible_hours:
             return {
@@ -146,7 +146,7 @@ class StateTaxConfig:
             "type": "none",  # No state income tax
         },
     }
-    
+
     @classmethod
     def requires_withholding(cls, state: USState) -> bool:
         config = cls.STATE_TAX_RATES.get(state, {})
@@ -177,7 +177,7 @@ class WorkersCompConfig:
             "project_manager": 0.0142,
         },
     }
-    
+
     @classmethod
     def get_rate(cls, state: USState, job_classification: str) -> float:
         state_rates = cls.CLASS_CODES.get(state, {})
@@ -194,7 +194,7 @@ Build a system that records where employees actually work:
 class EmployeeLocationService:
     def __init__(self, database):
         self.db = database
-    
+
     def update_work_location(self, employee_id: str, state: USState, effective_date: datetime.date):
         """Record a jurisdiction change for an employee."""
         self.db.execute("""
@@ -204,10 +204,10 @@ class EmployeeLocationService:
                 state = excluded.state,
                 effective_date = excluded.effective_date
         """, (employee_id, state.value, effective_date))
-        
+
         # Trigger compliance recalculation
         self.trigger_benefits_recalculation(employee_id)
-    
+
     def get_active_jurisdiction(self, employee_id: str) -> Optional[EmployeeJurisdiction]:
         """Get the current work jurisdiction for an employee."""
         return self.db.query("""
@@ -228,22 +228,22 @@ class ComplianceMonitor:
     def __init__(self, rules_engine, notification_service):
         self.rules = rules_engine
         self.notifier = notification_service
-    
+
     def check_employee_compliance(self, employee: EmployeeProfile) -> list[dict]:
         violations = []
         jurisdiction = employee.current_jurisdiction
-        
+
         # Check health insurance eligibility
         health_rule = self.rules.get_health_rule(jurisdiction.state)
         health_req = health_rule.calculate_requirement(employee)
-        
+
         if health_req.get("required") and not employee.has_health_insurance:
             violations.append({
                 "type": "health_insurance",
                 "severity": "high",
                 "message": f"Employee in {jurisdiction.state.value} requires coverage"
             })
-        
+
         # Check state tax withholding
         if StateTaxConfig.requires_withholding(jurisdiction.state):
             if not employee.state_tax_withholding_configured:
@@ -252,7 +252,7 @@ class ComplianceMonitor:
                     "severity": "high",
                     "message": "State tax withholding not configured"
                 })
-        
+
         return violations
 ```
 
@@ -264,7 +264,7 @@ Track which states where you have employees and ensure proper registration:
 class StateRegistrationTracker:
     def __init__(self):
         self.registrations = {}  # state -> registration_info
-    
+
     def requires_registration(self, state: USState, employee_count: int) -> bool:
         """Most states require registration once you have employees working there."""
         # Threshold varies by state
@@ -276,7 +276,7 @@ class StateRegistrationTracker:
         }
         threshold = thresholds.get(state, 1)
         return employee_count >= threshold
-    
+
     def get_required_filings(self, state: USState) -> list[dict]:
         """Return required filings for a state."""
         filings = {
@@ -390,7 +390,6 @@ Keep this data updated annually. Sick leave requirements are one of the most fre
 Building a compliant multi-state benefits system requires tracking employee locations accurately, implementing state-specific rules, and monitoring for regulatory changes. The data models and code examples above provide a starting point for architecting this capability into your HR systems.
 
 ---
-
 
 
 ## Related Articles

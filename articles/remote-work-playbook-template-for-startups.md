@@ -302,8 +302,6 @@ A playbook that doesn't evolve becomes outdated. Schedule these reviews:
 Assign playbook ownership to someone—usually a tech lead or people lead. This role owns quarterly reviews, merges suggestions, and trains new hires on key sections. Without ownership, playbooks become documents that sit untouched.
 
 
-
-
 ## Related Articles
 
 - [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)

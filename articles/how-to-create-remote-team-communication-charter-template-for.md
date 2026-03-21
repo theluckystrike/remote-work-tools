@@ -57,15 +57,15 @@ response_expectations:
   code_review_requests:
     normal: "8 hours"
     urgent: "2 hours"
-  
+
   technical_questions:
     in_threads: "24 hours"
     in_dedicated_channel: "4 hours"
-  
+
   decision_needed:
     with_deadline: "Must respond before stated deadline"
     without_deadline: "48 hours, assume agreement if no objection"
-  
+
   meeting_requests:
     minimum_notice: "24 hours"
     urgent: "Can request with 2-hour notice, opt-in only"
@@ -215,7 +215,6 @@ By joining this team, I commit to following this charter and proposing updates w
 **Ignoring time zones.** Explicitly list each team member's timezone and core hours. This prevents accidental message timing that wakes people up or guarantees delayed responses.
 
 **Not enforcing it.** The charter means nothing if nobody references it. During disputes, point to the document. Update it when it proves wrong. Make it alive.
-
 
 
 ## Related Articles

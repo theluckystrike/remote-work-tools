@@ -124,11 +124,11 @@ def estimate_brazil_tax(brl_income):
         (55976.16, 0.225),
         (float('inf'), 0.275)
     ]
-    
+
     tax = 0
     remaining = brl_income
     previous_limit = 0
-    
+
     for limit, rate in tax_brackets:
         if remaining <= 0:
             break
@@ -136,7 +136,7 @@ def estimate_brazil_tax(brl_income):
         tax += taxable_in_bracket * rate
         remaining -= taxable_in_bracket
         previous_limit = limit
-    
+
     return tax
 
 # Example: 100,000 BRL annual income
@@ -172,8 +172,6 @@ The visa process is straightforward when you have the required documentation in 
 For remote developers who want to experience South America while continuing to work for international clients or employers, Brazil's digital nomad visa provides a solid legal framework to do so in 2026.
 
 ---
-
-
 
 
 ## Related Articles

@@ -85,10 +85,10 @@ from pipedrive import Pipedrive
 def sync_deals_to_timelog():
     pd = Pipedrive('YOUR_API_TOKEN')
     deals = pd.deals.get_all({'status': 'open'})
-    
+
     for deal in deals:
         # Create corresponding project in time tracker
-        requests.post('https://api.timelog.example/v1/projects', 
+        requests.post('https://api.timelog.example/v1/projects',
             json={
                 'name': deal['title'],
                 'client_id': deal['person_id'],
@@ -190,7 +190,7 @@ Sync meetings automatically. When you book a call, it appears in your CRM. When 
 // Google Calendar webhook processing
 app.post('/webhook/calendar', async (req, res) => {
   const event = req.body;
-  
+
   if (event.summary.includes('Client:')) {
     const clientName = event.summary.replace('Client: ', '');
     await crmClient.updateContact({

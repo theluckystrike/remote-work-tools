@@ -66,7 +66,7 @@ const createNotarizationSession = async (signers, documents) => {
       expiration_hours: 72
     })
   });
-  
+
   return response.json();
 };
 ```
@@ -87,24 +87,24 @@ class ClosingDocument:
     name: str
     requires_notarization: bool
     signers: List[str]
-    
+
 @dataclass
 class ClosingSession:
     property_address: str
     documents: List[ClosingDocument]
     status: str = "pending"
-    
+
 def prepare_closing_workflow(closing: ClosingSession):
     """Sequence documents based on notarization requirements."""
-    
+
     # Separate documents requiring notarization from those that don't
     notarized = [d for d in closing.documents if d.requires_notarization]
     simple_signatures = [d for d in closing.documents if not d.requires_notarization]
-    
+
     # Generate document hashes for verification
     for doc in closing.documents:
         doc.content_hash = hashlib.sha256(doc.content).hexdigest()
-    
+
     return {
         'sequence': simple_signatures + notarized,
         'notarization_required': len(notarized) > 0,
@@ -137,7 +137,7 @@ const initiateIdentityVerification = async (signerId, signerInfo) => {
     // Biometric liveness check for additional security
     liveness_enabled: true
   });
-  
+
   return verification;
 };
 ```
@@ -156,14 +156,14 @@ jurisdiction_configs:
     require_dual_verification: false
     video_retention_days: 365
     allowed_id_types: [driver_license, passport, state_id]
-    
+
   NY:
     notarization_type: RON
     require_dual_verification: true
     video_retention_days: 730
     allowed_id_types: [driver_license, passport]
     require_witness: true
-    
+
   FL:
     notarization_type: RON
     require_dual_verification: false
@@ -181,13 +181,13 @@ After the closing session completes, proper document handling ensures accessibil
 const finalizeClosing = async (sessionId) => {
   // Retrieve completed documents with notarization stamps
   const documents = await notarizationApi.getCompletedDocuments(sessionId);
-  
+
   // Each document includes:
   // - Original content
   // - Notarized PDF with certificate
   // - Audit trail with timestamps
   // - Video recording reference
-  
+
   // Store with appropriate retention policy
   for (const doc of documents) {
     await documentStorage.store({
@@ -202,7 +202,7 @@ const finalizeClosing = async (sessionId) => {
       immutability: true
     });
   }
-  
+
   return { status: 'closed', documentCount: documents.length };
 };
 ```
@@ -227,7 +227,6 @@ Protecting sensitive real estate data requires attention to several areas:
 - Access Control: Implement role-based permissions limiting document access to necessary parties
 - Audit Logging: Maintain logs of all document access and actions
 - Data Retention: Follow jurisdiction-specific retention requirements, typically 5-10 years for real estate documents
-
 
 
 ## Related Articles

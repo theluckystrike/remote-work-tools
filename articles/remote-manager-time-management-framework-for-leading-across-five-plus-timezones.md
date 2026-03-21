@@ -25,7 +25,7 @@ When teams span five or more timezones, direct overlap—the hours when everyone
 ```
 Team Distribution (UTC offsets):
 - San Francisco: UTC-8 / UTC-7 (PDT)
-- New York: UTC-5 / UTC-4 (EDT)  
+- New York: UTC-5 / UTC-4 (EDT)
 - London: UTC+0 / UTC+1 (GMT/BST)
 - Tokyo: UTC+9 (JST)
 - Sydney: UTC+10 / UTC+11 (AEST/AEDT)
@@ -72,17 +72,17 @@ Instead of searching for universal overlap, identify "golden hours" for each tim
 def find_golden_hours(team_timezones, workday_start=9, workday_end=17):
     """
     Find overlapping work hours between timezone clusters.
-    
+
     Args:
         team_timezones: List of timezone offsets (e.g., [-8, -5, 0, 9, 10])
         workday_start: Local start hour (default 9 AM)
         workday_end: Local end hour (default 5 PM)
-    
+
     Returns:
         List of tuples representing golden hour windows in UTC
     """
     golden_hours = []
-    
+
     for i, tz1 in enumerate(team_timezones):
         for tz2 in team_timezones[i+1:]:
             # Convert to UTC range
@@ -90,14 +90,14 @@ def find_golden_hours(team_timezones, workday_start=9, workday_end=17):
             tz1_end_utc = workday_end - tz1
             tz2_start_utc = workday_start - tz2
             tz2_end_utc = workday_end - tz2
-            
+
             # Find overlap
             overlap_start = max(tz1_start_utc, tz2_start_utc)
             overlap_end = min(tz1_end_utc, tz2_end_utc)
-            
+
             if overlap_start < overlap_end:
                 golden_hours.append((overlap_start, overlap_end))
-    
+
     return sorted(golden_hours)
 
 # Example: San Francisco (-8), London (0), Tokyo (+9)
@@ -198,8 +198,6 @@ Start with one component: implement async status updates this week. Next month, 
 The teams that thrive across five-plus timezones aren't those that find better meeting times—they're those that build systems where asynchronous work is the default and synchronous work is the intentional exception.
 
 ---
-
-
 
 
 ## Related Articles

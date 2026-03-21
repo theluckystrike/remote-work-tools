@@ -330,4 +330,3 @@ Budget LED panels last 50,000-100,000 hours (5-10 years of heavy use):
 - [Best Virtual Background for Professional Video Calls 2026](/remote-work-tools/best-virtual-background-for-professional-video-calls-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-

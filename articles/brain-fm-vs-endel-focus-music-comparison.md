@@ -58,10 +58,10 @@ const soundParameters = {
 function generateSoundscape(params) {
   const baseOscillators = generateAtmosphericPads(params.timeOfDay);
   const naturalSounds = layerFieldRecordings(params.weather);
-  const rhythmElement = params.activity === 'focus' 
-    ? createSubtlePulse() 
+  const rhythmElement = params.activity === 'focus'
+    ? createSubtlePulse()
     : null;
-  
+
   return mix([baseOscillators, naturalSounds, rhythmElement]);
 }
 ```
@@ -85,7 +85,7 @@ class BrainFMClient:
     def __init__(self, api_key):
         self.api_key = api_key
         self.base_url = "https://api.brain.fm/v1"
-    
+
     def get_focus_session(self, duration_minutes=25, mood="focus"):
         """Start a focus session with specified duration and mood."""
         response = requests.post(
@@ -98,7 +98,7 @@ class BrainFMClient:
             }
         )
         return response.json()
-    
+
     def get_track_stream(self, session_id):
         """Get streaming URL for a focus session."""
         response = requests.get(
@@ -180,8 +180,6 @@ Choose **Brain.fm** if you prefer structured, music-like audio with consistent p
 Choose **Endel** if you value atmospheric soundscapes that evolve throughout your workday. The personalization features and wearable integration suit developers who want adaptive audio environments.
 
 For the best experience, consider trying both services during their free periods. Many developers find one naturally fits their workflow better than the other. The key is finding audio that enhances your concentration without becoming a distraction itself—test both and observe your productivity metrics over a typical workweek.
-
-
 
 
 ## Related Articles

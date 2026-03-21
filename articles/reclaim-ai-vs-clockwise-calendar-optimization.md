@@ -148,8 +148,8 @@ async function getOptimizedSchedule(tool) {
     singleEvents: true,
     orderBy: 'startTime'
   });
-  
-  return events.data.items.filter(e => 
+
+  return events.data.items.filter(e =>
     e.auto_scheduled || e.optimization_status
   );
 }
@@ -318,7 +318,6 @@ Week 4: Decision
 ```
 
 Given that both tools cost similar amounts ($10/month), the decision often comes down to philosophy: do you prioritize personal task management (Reclaim AI) or team meeting optimization (Clockwise)?
-
 
 
 ## Related Articles

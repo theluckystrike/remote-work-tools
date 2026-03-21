@@ -122,11 +122,11 @@ jobs:
           days-before-stale: 3
           days-before-close: 7
           stale-message: |
-            This PR review has been inactive for 3 days. 
-            @reviewer-1 @reviewer-2 please provide resolution 
+            This PR review has been inactive for 3 days.
+            @reviewer-1 @reviewer-2 please provide resolution
             or escalate to tech-lead if consensus isn't reached.
           escalate-message: |
-            @tech-lead unresolved review comment requires 
+            @tech-lead unresolved review comment requires
             mediation. Please review thread and provide guidance.
 ```
 
@@ -191,8 +191,6 @@ Like any technical skill, conflict resolution improves with practice. After each
 Regular reflection transforms conflict from a source of friction into an opportunity for team growth.
 
 ---
-
-
 
 
 ## Related Articles

@@ -64,10 +64,10 @@ from datetime import datetime, timedelta
 
 def create_quarterly_meeting(topic, start_time, duration=90):
     """Create a configured large meeting for quarterly all-hands."""
-    
+
     # Update these with your Zoom OAuth credentials
     base_url = "https://api.zoom.us/v2"
-    
+
     meeting_payload = {
         "topic": topic,
         "type": 2,  # Scheduled meeting
@@ -87,14 +87,14 @@ def create_quarterly_meeting(topic, start_time, duration=90):
             "private_chat": False
         }
     }
-    
+
     # Requires Zoom API token with meeting:write scope
     response = requests.post(
         f"{base_url}/users/me/meetings",
         json=meeting_payload,
         headers={"Authorization": f"Bearer {access_token}"}
     )
-    
+
     return response.json()
 
 # Create Q1 2026 meeting
@@ -195,14 +195,14 @@ After your quarterly meeting, distribute materials within 24 hours:
 # Extract action items from meeting chat
 def parse_action_items(chat_messages):
     """Parse chat for action item patterns."""
-    
+
     action_patterns = [
         r"action:",
         r"todo:",
         r"@[\w]+ please",
         r"will follow up"
     ]
-    
+
     import re
     actions = []
     for msg in chat_messages:
@@ -212,10 +212,9 @@ def parse_action_items(chat_messages):
                 "author": msg.sender,
                 "timestamp": msg.timestamp
             })
-    
+
     return actions
 ```
-
 
 
 ## Related Articles

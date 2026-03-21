@@ -58,7 +58,7 @@ from datetime import datetime, timedelta
 def block_focus_day(calendar_id, focus_date):
     """Block a full day for focus time"""
     service = build('calendar', 'v3', credentials=credentials)
-    
+
     body = {
         'summary': 'Focus Time - No Meetings',
         'description': 'Meeting-free day for deep work',
@@ -66,7 +66,7 @@ def block_focus_day(calendar_id, focus_date):
         'end': {'date': (focus_date + timedelta(days=1)).isoformat()},
         'transparency': 'opaque'
     }
-    
+
     service.events().insert(
         calendarId=calendar_id,
         body=body
@@ -99,9 +99,9 @@ function declineNonUrgentFridayMeetings() {
   const today = new Date();
   const friday = new Date(today);
   friday.setDate(today.getDate() + (5 - today.getDay() + 7) % 7);
-  
+
   const events = calendar.getEventsForDay(friday);
-  
+
   events.forEach(event => {
     if (!event.getTitle().includes('[URGENT]')) {
       event.delete();
@@ -335,8 +335,6 @@ For a quick start:
 4. Gather feedback in Friday sync
 
 Measure results after week 2. By week 4, the practice becomes self-sustaining as team members experience the benefits directly.
-
-
 
 
 ## Related Articles

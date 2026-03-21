@@ -118,14 +118,14 @@ rules:
       - group: ""
         resources: ["pods"]
         verbs: ["create", "delete", "patch", "update"]
-  
+
   # Log secret access (sensitive)
   - level: RequestResponse
     resources:
       - group: ""
         resources: ["secrets"]
         verbs: ["get", "list", "watch"]
-  
+
   # Log all write operations to namespaces
   - level: Request
     namespaces: ["production", "staging"]

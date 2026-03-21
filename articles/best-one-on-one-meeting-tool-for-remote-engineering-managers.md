@@ -120,8 +120,8 @@ A practical template structure:
 [Document here]
 
 ### Feedback
-- Positive: 
-- Constructive: 
+- Positive:
+- Constructive:
 
 ### Career Development
 - Goals progress:

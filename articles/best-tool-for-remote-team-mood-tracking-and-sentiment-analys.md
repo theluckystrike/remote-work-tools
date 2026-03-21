@@ -61,13 +61,13 @@ client = WebClient(token=slack_token)
 def fetch_channel_messages(channel_id, days_back=7):
     messages = []
     oldest = (datetime.now() - timedelta(days=days_back)).timestamp()
-    
+
     result = client.conversations_history(
         channel=channel_id,
         oldest=oldest,
         limit=1000
     )
-    
+
     for msg in result['messages']:
         if 'text' in msg:
             messages.append({
@@ -75,7 +75,7 @@ def fetch_channel_messages(channel_id, days_back=7):
                 'timestamp': msg['ts'],
                 'user': msg.get('user', 'unknown')
             })
-    
+
     return messages
 
 def analyze_sentiment(messages):
@@ -85,8 +85,8 @@ def analyze_sentiment(messages):
         results.append({
             'user': msg['user'],
             'compound': scores['compound'],
-            'sentiment': 'positive' if scores['compound'] > 0.05 
-                        else 'negative' if scores['compound'] < -0.05 
+            'sentiment': 'positive' if scores['compound'] > 0.05
+                        else 'negative' if scores['compound'] < -0.05
                         else 'neutral'
         })
     return pd.DataFrame(results)
@@ -117,14 +117,14 @@ from collections import defaultdict
 
 # Load a fine-tuned sentiment model
 sentiment_analyzer = pipeline(
-    "sentiment-analysis", 
+    "sentiment-analysis",
     model="distilbert-base-uncased-finetuned-sst-2-english"
 )
 
 def analyze_survey_responses(responses):
     """Analyze open-ended survey responses."""
     results = defaultdict(list)
-    
+
     for response in responses:
         analysis = sentiment_analyzer(response['text'])[0]
         results[response['category']].append({
@@ -132,13 +132,13 @@ def analyze_survey_responses(responses):
             'score': analysis['score'],
             'text': response['text']
         })
-    
+
     return results
 
 def generate_team_mood_report(results):
     """Generate summary statistics from sentiment analysis."""
     report = {}
-    
+
     for category, items in results.items():
         positive = sum(1 for i in items if i['label'] == 'POSITIVE')
         total = len(items)
@@ -147,7 +147,7 @@ def generate_team_mood_report(results):
             'total_responses': total,
             'avg_confidence': sum(i['score'] for i in items) / total
         }
-    
+
     return report
 ```
 
@@ -163,20 +163,20 @@ def extract_commit_sentiment(commits):
     """Analyze commit message patterns for sentiment indicators."""
     enthusiasm_words = ['awesome', 'great', 'nice', 'finally', 'fixed', 'clean']
     frustration_words = ['hack', 'workaround', 'temporary', 'fix', 'again', 'ugh']
-    
+
     scores = []
     for commit in commits:
         msg = commit['message'].lower()
         enthusiasm = sum(1 for w in enthusiasm_words if w in msg)
         frustration = sum(1 for w in frustration_words if w in msg)
-        
+
         score = enthusiasm - frustration
         scores.append({
             'date': commit['date'],
             'message': commit['message'][:50],
             'score': score
         })
-    
+
     return scores
 ```
 
@@ -205,8 +205,6 @@ The key is consistency—track sentiment over weeks and months, not just single 
 6. Act on insights: Use data to guide team interventions—not as a replacement for human judgment
 
 Sentiment analysis works best as an early warning system, not a replacement for direct communication. Use these tools to know when to check in, then have real conversations.
-
-
 
 
 ## Related Articles

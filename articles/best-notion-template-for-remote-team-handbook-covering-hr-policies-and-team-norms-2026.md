@@ -60,7 +60,7 @@ Define core hours carefully. Many remote teams operate across multiple time zone
 **Requirement**: 4 hours of daily overlap with your reporting manager's timezone
 
 - **Americas Team**: 9am-2pm Pacific
-- **EMEA Team**: 9am-2pm UTC  
+- **EMEA Team**: 9am-2pm UTC
 - **APAC Team**: 9am-2pm Singapore Time
 
 **Flexible Hours**: Outside core hours, employees can structure their workday as needed
@@ -147,8 +147,8 @@ Each handbook section should follow a consistent template for easy maintenance:
 ```markdown
 ## [Section Title]
 
-**Last Updated**: [Date]  
-**Owner**: [Team/Person]  
+**Last Updated**: [Date]
+**Owner**: [Team/Person]
 **Review Cycle**: [Monthly/Quarterly/Annual]
 
 ### Overview

@@ -232,7 +232,6 @@ Remember that your external display is an investment in your daily comfort and p
 ---
 
 
-
 ### Check and Configure Your Display Settings
 
 ```bash
@@ -251,7 +250,6 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 # Check if DisplayPort cable supports the target refresh rate
 # DP 1.4 = up to 4K@120Hz; DP 1.2 = up to 4K@60Hz or 1440p@165Hz
 ```
-
 
 
 ## Related Articles

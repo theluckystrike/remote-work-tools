@@ -46,11 +46,11 @@ async function createConsultationRoom(patientId, pharmacistId) {
     statusCallback: 'https://your-webhook-endpoint.com/room-events',
     statusCallbackMethod: 'POST'
   });
-  
+
   // Generate tokens for participants
   const patientToken = await createAccessToken(patientId, room.sid);
   const pharmacistToken = await createAccessToken(pharmacistId, room.sid);
-  
+
   return { room, patientToken, pharmacistToken };
 }
 ```
@@ -99,7 +99,7 @@ from datetime import datetime
 class ConsultationAuditLogger:
     def __init__(self, consultation_id):
         self.consultation_id = consultation_id
-        
+
     def log_event(self, event_type, user_id, metadata=None):
         log_entry = {
             'timestamp': datetime.utcnow().isoformat(),
@@ -110,10 +110,10 @@ class ConsultationAuditLogger:
         }
         # Write to immutable audit store
         audit_store.insert(log_entry)
-        
+
     def log_session_start(self, user_id, user_role):
         self.log_event('session_start', user_id, {'role': user_role})
-        
+
     def log_screen_share(self, user_id, started=True):
         self.log_event('screen_share_started' if started else 'screen_share_ended', user_id)
 ```
@@ -300,7 +300,6 @@ Track these KPIs to assess program health:
 If repeat consultation rate is below 20%, investigate whether patient experience issues exist.
 
 ---
-
 
 
 ## Related Articles

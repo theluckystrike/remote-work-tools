@@ -37,7 +37,7 @@ async function getStyles() {
     { headers: { 'X-Figma-Token': FIGMA_TOKEN } }
   );
   const data = await response.json();
-  
+
   // Extract color styles as design tokens
   const colors = Object.entries(data.meta.styles)
     .filter(([_, style]) => style.style_type === 'FILL')
@@ -45,7 +45,7 @@ async function getStyles() {
       acc[key] = { type: 'color', value: style.description };
       return acc;
     }, {});
-  
+
   return colors;
 }
 ```

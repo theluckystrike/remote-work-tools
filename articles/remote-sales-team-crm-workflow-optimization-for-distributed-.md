@@ -34,26 +34,26 @@ Rather than relying on manual assignment, implement automated assignment using a
 def calculate_account_score(account, rep):
     """Calculate rep-account fit score for assignment."""
     score = 0
-    
+
     # Industry match (40% weight)
     if account.industry in rep.industries:
         score += 40
-    
+
     # Region proximity (30% weight)
     if account.region == rep.region:
         score += 30
-    
+
     # Company size alignment (20% weight)
     if account.employee_count_range == rep.target_company_size:
         score += 20
-    
+
     # Previous relationship (10% weight)
     if account.id in rep.previously_worked_accounts:
         score += 10
-    
+
     # Workload balancing (-10% per 10 active accounts)
     score -= (rep.active_account_count // 10) * 10
-    
+
     return score
 ```
 
@@ -71,10 +71,10 @@ Connect your CRM to communication tools to automatically log interactions:
 // Example: Webhook handler for meeting completion
 app.post('/webhooks/meeting-complete', async (req, res) => {
   const { meeting_id, attendees, duration, outcome } = req.body;
-  
+
   // Find associated opportunity
   const opportunity = await crm.findOpportunityByMeetingId(meeting_id);
-  
+
   if (opportunity) {
     // Log the activity
     await crm.createActivity({
@@ -85,7 +85,7 @@ app.post('/webhooks/meeting-complete', async (req, res) => {
       outcome: outcome,
       timestamp: new Date()
     });
-    
+
     // Update next step based on outcome
     if (outcome === 'positive') {
       await crm.updateOpportunity(opportunity.id, {
@@ -95,7 +95,7 @@ app.post('/webhooks/meeting-complete', async (req, res) => {
       });
     }
   }
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -115,14 +115,14 @@ def get_available_rep(account, reps):
     """Find the best rep to handle an account based on time zones."""
     account_time = datetime.now(account.timezone)
     account_hour = account_time.hour
-    
+
     # Filter reps who are in working hours (9am-6pm local)
     available_reps = []
-    
+
     for rep in reps:
         rep_time = datetime.now(rep.timezone)
         rep_hour = rep_time.hour
-        
+
         if 9 <= rep_hour <= 18:
             # Check for overlapping hours with account's business hours
             overlap = calculate_overlap(
@@ -134,7 +134,7 @@ def get_available_rep(account, reps):
                 'overlap_hours': overlap,
                 'current_load': rep.active_opportunities
             })
-    
+
     # Return rep with best overlap and lowest load
     available_reps.sort(key=lambda x: (-x['overlap_hours'], x['current_load']))
     return available_reps[0]['rep'] if available_reps else None
@@ -158,7 +158,7 @@ Track these metrics to understand team health:
 
 ```sql
 -- Query: Pipeline coverage by rep
-SELECT 
+SELECT
     rep.name,
     rep.quota,
     SUM(op.amount) as pipeline_value,
@@ -187,11 +187,11 @@ def resolve_account_conflict(account_id, conflicting_reps):
     """Resolve ownership disputes automatically."""
     # Get all activity logs for this account
     activities = crm.get_account_activities(account_id)
-    
+
     if not activities:
         # No activity - assign to territory owner
         return get_territory_owner(account_id)
-    
+
     # Find first touch
     first_activity = min(activities, key=lambda a: a.created_at)
     return first_activity.owner_id
@@ -212,7 +212,7 @@ Connect your CRM with tools your remote team already uses:
 // Slack notification for high-priority opportunities
 async function notifySlack(opportunity) {
   const channel = getChannelForRep(opportunity.owner_id);
-  
+
   const message = {
     channel: channel,
     text: `🔔 High-value opportunity updated`,
@@ -235,7 +235,7 @@ async function notifySlack(opportunity) {
       }
     ]
   };
-  
+
   await slack.chat.postMessage(message);
 }
 ```
@@ -269,8 +269,6 @@ Use this checklist when optimizing your remote sales CRM:
 - [ ] Review and optimize monthly
 
 Optimizing CRM workflows for distributed account management requires ongoing attention. Start with the fundamentals—clear ownership and automated data capture—then layer in complexity as your team matures.
-
-
 
 
 ## Related Articles

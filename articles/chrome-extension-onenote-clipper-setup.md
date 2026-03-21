@@ -195,7 +195,6 @@ The OneNote Web Clipper excels at its core function but has boundaries:
 For edge cases, consider capturing content as PDF through Chrome's built-in print function, then attach the PDF to OneNote manually.
 
 
-
 ## Related Articles
 
 - [Chrome Extension Window Resizer Testing: Complete Guide for](/remote-work-tools/chrome-extension-window-resizer-testing/)

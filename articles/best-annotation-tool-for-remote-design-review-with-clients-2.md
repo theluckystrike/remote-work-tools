@@ -158,7 +158,7 @@ function categorizeAnnotation(comment) {
     'spacing': ['padding', 'margin', 'gap', 'align'],
     'content': ['text', 'copy', 'word', 'heading']
   };
-  
+
   for (const [category, terms] of Object.entries(keywords)) {
     if (terms.some(term => comment.toLowerCase().includes(term))) {
       return category;

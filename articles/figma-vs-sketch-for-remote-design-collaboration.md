@@ -47,7 +47,7 @@ const extractColors = (styles) => {
   return styles
     .filter(s => s.style_type === 'FILL')
     .reduce((acc, style) => {
-      acc[`--color-${style.name.toLowerCase().replace(/\s+/g, '-')}`] = 
+      acc[`--color-${style.name.toLowerCase().replace(/\s+/g, '-')}`] =
         style.fills[0].color;
       return acc;
     }, {});
@@ -224,8 +224,6 @@ If moving from Sketch to Figma:
 **Week 5-6:** Retire Sketch files after validation period
 
 Most teams report 3-4 week transition time with zero productivity loss. The upfront investment pays off immediately through faster collaboration and fewer versioning headaches.
-
-
 
 
 ## Related Articles

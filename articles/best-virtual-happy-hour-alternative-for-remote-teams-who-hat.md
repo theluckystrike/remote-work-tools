@@ -94,7 +94,7 @@ Create a Slack bot that sends optional daily or weekly prompts. Team members res
 def daily_prompt():
     prompt = get_random_prompt()  # "What's your win of the week?"
     channel = "#team-connection"
-    
+
     message = slack_client.post(
         channel=channel,
         text=prompt,
@@ -471,8 +471,6 @@ Ongoing (Quarterly):
 ```
 
 ---
-
-
 
 
 ## Related Articles

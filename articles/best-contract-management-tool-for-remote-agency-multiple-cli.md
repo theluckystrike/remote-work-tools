@@ -148,13 +148,13 @@ def check_expiring(days: int = 30):
 def main():
     parser = argparse.ArgumentParser(description="Contract management CLI")
     subparsers = parser.add_subparsers(dest="command")
-    
+
     subparsers.add_parser("list", help="List all contracts")
     subparsers.add_parser("expiring", help="Check expiring contracts")
     subparsers.add_parser("git", help="Open git interface")
-    
+
     args = parser.parse_args()
-    
+
     if args.command == "list":
         list_contracts()
     elif args.command == "expiring":
@@ -202,7 +202,7 @@ async function updateContractStatus(contractId, status) {
     'signed': 'Active Contracts',
     'expired': 'Archive'
   }[status];
-  
+
   // API call to update project
 }
 ```
@@ -221,7 +221,6 @@ Start with your current pain points. If you're constantly searching email thread
 The right tool is the one your team will actually use consistently. A simple system used daily beats a feature-laden platform that collects dust.
 
 ---
-
 
 
 ## Related Articles

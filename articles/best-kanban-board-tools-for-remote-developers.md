@@ -101,7 +101,7 @@ Jira remains the standard when teams need sophisticated workflow automation, aud
 JQL (Jira Query Language) provides precise filtering capabilities:
 
 ```
-project = "Backend API" AND issuetype = Story AND status = "In Progress" 
+project = "Backend API" AND issuetype = Story AND status = "In Progress"
 AND assignee in (currentUser()) ORDER BY updated DESC
 ```
 

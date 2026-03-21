@@ -47,13 +47,13 @@ leadership_signals:
     - Mentors junior developers in code reviews
     - Proposes architectural improvements
     - Documents decision rationale
-  
+
   operational_leadership:
     - Identifies process bottlenecks
     - Suggests workflow improvements
     - Volunteers for cross-functional projects
     - Coordinates hand-offs between teams
-  
+
   communication_leadership:
     - Writes clear technical documentation
     - Facilitates async discussions productively
@@ -159,7 +159,7 @@ sprint_lead_rotation:
     - "Escalate blockers to product management"
     - "Summarize sprint outcomes for stakeholders"
   team_size: 8
-  rotation_order: 
+  rotation_order:
     - engineer_1
     - engineer_2
     - engineer_3
@@ -261,7 +261,6 @@ To start building your pipeline:
 The best remote leadership pipelines feel invisible—they create natural opportunities for growth without requiring constant manager intervention. Build systems that scale beyond your direct observation, and your distributed organization will develop leaders who thrive in asynchronous environments.
 
 ---
-
 
 
 ## Related Articles

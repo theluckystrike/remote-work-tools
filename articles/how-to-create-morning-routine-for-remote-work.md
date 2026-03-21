@@ -108,21 +108,21 @@ def select_priority_task():
     # Load your task file (supports various formats)
     with open('tasks.json', 'r') as f:
         tasks = json.load(f)
-    
+
     # Filter for high-priority items tagged for today
     today = datetime.now().strftime('%Y-%m-%d')
     candidates = [
-        t for t in tasks 
-        if t.get('priority') == 'high' 
+        t for t in tasks
+        if t.get('priority') == 'high'
         and t.get('status') == 'pending'
     ]
-    
+
     if candidates:
         selected = candidates[0]
         print(f"Today's focus: {selected['title']}")
         print(f"Context: {selected.get('context', 'N/A')}")
         return selected
-    
+
     print("No high-priority tasks. Select from available items.")
 
 if __name__ == '__main__':
@@ -176,7 +176,6 @@ Here's one effective configuration for a developer:
 | 8:10 AM | Begin first deep work block |
 
 This totals 90 minutes from wake to work start. Adjust timing based on your work schedule and energy patterns.
-
 
 
 ## Related Articles

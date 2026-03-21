@@ -60,7 +60,7 @@ class WorkloadVisualizer {
       (sum, task) => sum + task.estimate, 0
     );
     const capacity = this.calculateCapacity(
-      member, 
+      member,
       member.sprintVelocity
     );
     return (totalEstimated / capacity) * 100;
@@ -86,7 +86,7 @@ class WorkloadVisualizer {
         taskCount: memberTasks.length
       };
     });
-    
+
     const avgUtilization = utilizations.reduce(
       (sum, u) => sum + u.utilization, 0
     ) / utilizations.length;
@@ -94,8 +94,8 @@ class WorkloadVisualizer {
     return utilizations.map(u => ({
       ...u,
       deviation: u.utilization - avgUtilization,
-      status: Math.abs(u.utilization - avgUtilization) > 15 
-        ? 'needs-rebalance' 
+      status: Math.abs(u.utilization - avgUtilization) > 15
+        ? 'needs-rebalance'
         : 'balanced'
     }));
   }

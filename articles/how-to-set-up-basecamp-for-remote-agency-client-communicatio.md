@@ -229,8 +229,6 @@ If clients still rely on email for primary communication, that's a sign the Base
 ---
 
 
-
-
 ## Related Articles
 
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)

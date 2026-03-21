@@ -50,14 +50,14 @@ For developer-centric teams, using GitHub Issues directly provides maximum flexi
 ## Daily Update - [DATE]
 
 ### What I worked on yesterday
-- 
+-
 
 ### What I'm working on today
-- 
+-
 
 ### Blockers
 - [ ] None
-- [ ] Blocked by: 
+- [ ] Blocked by:
 
 ### Links to PRs/Commits
 ```
@@ -140,7 +140,7 @@ def post_daily_checkin(channel_id, user_id):
                 "label": {"type": "plain_text", "text": DAILY_QUESTIONS[0]}
             },
             {
-                "type": "input", 
+                "type": "input",
                 "element": {"type": "plain_text_input", "action_id": "today"},
                 "label": {"type": "plain_text", "text": DAILY_QUESTIONS[1]}
             },
@@ -150,7 +150,7 @@ def post_daily_checkin(channel_id, user_id):
                 "label": {"type": "plain_text", "text": DAILY_QUESTIONS[2]}
             }
         ]
-        
+
         client.chat_postMessage(
             channel=channel_id,
             text="Daily team check-in",
@@ -211,7 +211,7 @@ def generate_weekly_summary(standup_data):
         "in_progress": [],
         "blockers": []
     }
-    
+
     for entry in standup_data:
         if entry.get("blockers"):
             summary["blockers"].append({
@@ -220,7 +220,7 @@ def generate_weekly_summary(standup_data):
             })
         summary["in_progress"].extend(entry.get("today", []))
         summary["completed"].extend(entry.get("yesterday", []))
-    
+
     return summary
 ```
 
@@ -233,7 +233,6 @@ Start with what you already use. If your team lives in Slack, try threaded updat
 The best daily check-in tool is one your team actually uses consistently. A simple approach used daily beats a powerful tool abandoned after a week.
 
 ---
-
 
 
 ## Related Articles

@@ -72,7 +72,7 @@ async function scheduleOneOnOne(hostEmail, attendeeEmail, topic, startTime) {
       }
     }
   );
-  
+
   return response.data.join_url;
 }
 ```
@@ -101,7 +101,7 @@ import pytz
 
 def schedule_1on1_utc(service, host_email, attendee_email, start_utc, duration_minutes=30):
     """Schedule a 1-on-1 meeting converting attendee's local time to UTC"""
-    
+
     event = {
         'summary': '1-on-1 Meeting',
         'description': 'Weekly sync - use Google Meet link below',
@@ -118,14 +118,14 @@ def schedule_1on1_utc(service, host_email, attendee_email, start_utc, duration_m
             'createRequest': {'requestId': f"1on1-{start_utc.timestamp()}"}
         }
     }
-    
+
     event = service.events().insert(
         calendarId=host_email,
         body=event,
         conferenceDataVersion=1,
         sendUpdates='all'
     ).execute()
-    
+
     return event['hangoutLink']
 ```
 
@@ -193,14 +193,14 @@ const { LoomClient } = require('@loomhq/loom');
 
 async function createAsyncCheckIn(creatorId, message, recipientId) {
   const loom = new LoomClient({ apiKey: process.env.LOOM_API_KEY });
-  
+
   const video = await loom.videos.create({
     title: `Async 1-on-1 Update - ${new Date().toISOString().split('T')[0]}`,
     message: message,
     privacy: 'private',
     sharedTo: [recipientId]
   });
-  
+
   return video.embedUrl;
 }
 ```
@@ -225,7 +225,6 @@ When rolling out a 1 on 1 tool across distributed teams:
 3. **Establish note sharing**: Ensure notes are accessible to both parties
 4. **Set action item expectations**: Define how follow-ups are tracked
 5. **Test time zone tooling**: Verify calendar integrations handle daylight saving correctly
-
 
 
 ## Related Articles

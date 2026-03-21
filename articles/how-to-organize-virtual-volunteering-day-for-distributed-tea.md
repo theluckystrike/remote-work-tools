@@ -104,12 +104,12 @@ workflow:
       channel: "#volunteering-day"
       message: |
         🌍 Volunteering Day starts in 1 hour!
-        
+
         Today's activities:
         • Open Source: github.com/org/foss-project
         • Mentoring: mentor.example.com/session/123
         • Accessibility: bit.ly/audit-checklist
-        
+
         Reply with your chosen activity to get started.
 ```
 
@@ -168,8 +168,6 @@ Collect feedback after each event using a brief survey. Iterate on logistics, ac
 ---
 
 A well-organized virtual volunteering day strengthens distributed teams while creating genuine positive impact. The key lies in asynchronous-friendly design, clear coordination infrastructure, and meaningful activity selection. Start with one event, measure participation and satisfaction, then refine your approach for future iterations.
-
-
 
 
 ## Related Articles

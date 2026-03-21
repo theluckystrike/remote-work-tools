@@ -80,13 +80,13 @@ Create a living document or a dedicated Figma library that defines:
   --color-surface-elevated: #f8fafc;
   --color-text-primary: #0f172a;
   --color-text-secondary: #64748b;
-  
+
   --spacing-unit: 4px;
   --spacing-xs: calc(var(--spacing-unit) * 1);
   --spacing-sm: calc(var(--spacing-unit) * 2);
   --spacing-md: calc(var(--spacing-unit) * 4);
   --spacing-lg: calc(var(--spacing-unit) * 6);
-  
+
   --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-size-sm: 14px;
   --font-size-md: 16px;
@@ -205,7 +205,7 @@ Use Figma's native export settings or plugins like:
 // Example: Figma API script for batch export
 async function exportAssets(nodeIds, outputDir) {
   const client = new FigmaApi({ personalAccessToken: process.env.FIGMA_TOKEN });
-  
+
   for (const nodeId of nodeIds) {
     const image = await client.getImages({
       file_key: FILE_KEY,
@@ -213,7 +213,7 @@ async function exportAssets(nodeIds, outputDir) {
       format: 'svg',
       scale: 2
     });
-    
+
     await downloadImage(image.images[nodeId], `${outputDir}/${nodeId}.svg`);
   }
 }
@@ -259,7 +259,6 @@ Track these metrics to continuously improve your process:
 - Implementation rework rate: How often developers build something incorrectly due to unclear specs
 - Handoff to development start time: How long between design completion and developer starting
 - Meeting time for design questions: Track this approaching zero with good async documentation
-
 
 
 ## Related Articles

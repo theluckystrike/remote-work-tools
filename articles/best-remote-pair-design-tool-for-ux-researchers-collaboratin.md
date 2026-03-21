@@ -47,14 +47,14 @@ async function createAffinityBoard(boardName) {
       }
     }
   });
-  
+
   // Add affinity mapping template
   await board.experimentalApi().paste({
     templateId: 'affinity-diagram-v2',
     x: 0,
     y: 0
   });
-  
+
   return board.id;
 }
 ```
@@ -90,7 +90,7 @@ async function createAffinityNote(fileKey, nodeId, noteText, color) {
   const client = figma.Client({
     personalAccessToken: process.env.FIGMA_TOKEN
   });
-  
+
   // Create sticky note with specific color
   const response = await client.post(`/v1/files/${fileKey}/nodes`.concat({
     nodes: [{
@@ -104,7 +104,7 @@ async function createAffinityNote(fileKey, nodeId, noteText, color) {
       parentId: nodeId
     }]
   }));
-  
+
   return response.data;
 }
 ```
@@ -139,10 +139,10 @@ async function setupAsyncSession(boardId) {
   const client = figma.Client({
     personalAccessToken: process.env.FIGMA_TOKEN
   });
-  
+
   // Create contribution widgets for each team member
   const widgets = await client.get(`/v1/boards/${boardId}/widgets`);
-  
+
   // Add sticky note pad widget
   const stickyPad = await client.post(`/v1/boards/${boardId}/widgets`, {
     widget: {
@@ -152,7 +152,7 @@ async function setupAsyncSession(boardId) {
       y: 100
     }
   });
-  
+
   return stickyPad;
 }
 ```
@@ -183,13 +183,13 @@ const mural = require('@muralhq/mural-api');
 
 async function createSynthesisWorkshop(workspaceId) {
   const client = mural.client(process.env.MURAL_API_KEY);
-  
+
   const room = await client.rooms.create({
     workspaceId: workspaceId,
     name: 'User Interview Synthesis - Q1 Research',
     description: 'Affinity mapping session for interview synthesis'
   });
-  
+
   // Add timed activity for individual note generation
   await client.activities.create(room.id, {
     type: 'timer',
@@ -197,7 +197,7 @@ async function createSynthesisWorkshop(workspaceId) {
     title: 'Individual Note Writing',
     instruction: 'Write 3-5 insights from your interview notes'
   });
-  
+
   return room;
 }
 ```

@@ -99,7 +99,7 @@ def create_zoom_meeting(topic, duration_minutes=60, api_key=None, api_secret=Non
     """
     # API endpoint for Zoom OAuth or JWT authentication
     url = "https://api.zoom.us/v2/users/me/meetings"
-    
+
     meeting_config = {
         "topic": topic,
         "type": 2,  # Scheduled meeting
@@ -114,10 +114,10 @@ def create_zoom_meeting(topic, duration_minutes=60, api_key=None, api_secret=Non
             "audio": "voip"
         }
     }
-    
+
     # Add authentication headers in production
     headers = {"Authorization": f"Bearer {api_key}"}
-    
+
     response = requests.post(url, json=meeting_config, headers=headers)
     return response.json() if response.status_code == 201 else None
 ```
@@ -137,7 +137,7 @@ function createMeetingWithMeet() {
     new Date(Date.now() + 60 * 60 * 1000), // 1 hour
     { location: 'Video call' }
   );
-  
+
   // Add conference data to create Meet link
   event.addVideoConference();
   Logger.log(event.getVideoConferenceData());
@@ -191,7 +191,6 @@ For a new three-person cofounder team, follow this implementation sequence:
 4. Network optimization: Ensure each location has stable connectivity with appropriate QoS
 5. Automation implementation: Add meeting creation shortcuts and recording workflows
 6. Testing and refinement: Conduct test calls with screen sharing and recording to verify quality
-
 
 
 ## Related Articles

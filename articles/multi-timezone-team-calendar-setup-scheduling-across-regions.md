@@ -397,7 +397,6 @@ Core sync hours: None (not enough overlap for all 7)
 5. **No timezone cost visibility**: Don't surprise people. Say "4 AM call" explicitly, don't hide it.
 
 
-
 ## Related Articles
 
 - [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)

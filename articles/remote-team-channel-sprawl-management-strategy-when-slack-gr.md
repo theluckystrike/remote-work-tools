@@ -75,12 +75,12 @@ Manual cleanup doesn't scale. Build automation to handle routine governance task
 // Check for inactive channels (no messages in 60 days)
 async function findInactiveChannels(client, workspaceId) {
   const sixtyDaysAgo = Date.now() / 1000 - (60 * 24 * 60 * 60);
-  
+
   const result = await client.conversations.list({
     types: "public_channel,private_channel",
     limit: 200
   });
-  
+
   return result.channels.filter(async (channel) => {
     const history = await client.conversations.history({
       channel: channel.id,
@@ -177,8 +177,6 @@ After initial cleanup, prevent regression with these habits:
 If Slack becomes unmanageable despite these strategies, evaluate alternatives. Some teams split into multiple workspaces by department. Others move persistent documentation to wikis and use Slack only for real-time communication. The goal is effective communication, not Slack perfection.
 
 ---
-
-
 
 
 ## Related Articles

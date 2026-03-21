@@ -155,10 +155,10 @@ function createClickUpTaskFromNotion(pageData) {
     status: { status: "to do" },
     assignees: [pageData.properties.Owner.people[0]?.id]
   };
-  
+
   return fetch('https://api.clickup.com/api/v2/list/{list_id}/task', {
     method: 'POST',
-    headers: { 
+    headers: {
       'Authorization': process.env.CLICKUP_KEY,
       'Content-Type': 'application/json'
     },
@@ -176,8 +176,6 @@ Start by auditing your team's actual workflow. If you spend more time searching 
 Run a two-week pilot with real projects before committing. Include your actual use cases — documentation, task tracking, and team communication. The tool that fits your workflow today matters more than features you might use later.
 
 Both platforms serve small remote startups well. The right choice aligns with where your team experiences the most friction and grows with your team's evolving needs.
-
-
 
 
 ## Related Articles

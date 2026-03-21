@@ -47,7 +47,7 @@ pods:
       - cisco
       - bgp
       - terraform
-    
+
   - name: data-pod
     services: [postgresql, redis, elasticsearch]
     tier: 1
@@ -57,7 +57,7 @@ pods:
       - databases
       - replication
       - backup-strategies
-    
+
   - name: compute-pod
     services: [kubernetes, vmware, serverless]
     tier: 1
@@ -93,7 +93,7 @@ Use a lightweight tracking approach:
 | engineer1 | 40 | 8 | 24 | 8 |
 | engineer2 | 32 | 8 | 20 | 4 |
 
-## Pod: data-pod  
+## Pod: data-pod
 | Engineer | Total Hours | On-Call | Projects | Buffer |
 |----------|-------------|---------|----------|--------|
 | engineer3 | 40 | 12 | 20 | 8 |
@@ -121,13 +121,13 @@ coverage_policies:
     secondary: engineer2
     escalation: sre-lead
     max_oncall_hours_per_week: 16
-    
+
   - pod: data-pod
     primary: engineer3
     secondary: engineer4  # cross-pod backup
     escalation: sre-lead
     max_oncall_hours_per_week: 12
-    
+
   - pod: compute-pod
     primary: engineer4
     secondary: engineer5
@@ -264,7 +264,6 @@ Capacity problems rarely resolve themselves. When engineers feel overworked, the
 **Planning once and forgetting**. Infrastructure changes constantly. Your capacity plan needs regular updates, not annual reviews.
 
 **Skipping async coordination**. Relying entirely on synchronous meetings wastes available time and excludes remote team members in different zones.
-
 
 
 ## Related Articles

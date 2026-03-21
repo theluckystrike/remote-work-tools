@@ -132,7 +132,7 @@ Many teams overlook Slack's native Huddles feature for lightweight team building
 - Launch from any Slack message or thread
 - Automatic transcription and recording
 - Screen sharing without needing Zoom
-- Works on mobile 
+- Works on mobile
 - Persistent huddle history that's searchable
 
 **Pricing:** Included with Slack Standard+ ($12.50/user/month)
@@ -308,8 +308,6 @@ for f in glob.glob('google-data/**/MyActivity.json', recursive=True):
 print(f'Total activity entries: {len(entries)}')
 "
 ```
-
-
 
 
 ## Related Articles

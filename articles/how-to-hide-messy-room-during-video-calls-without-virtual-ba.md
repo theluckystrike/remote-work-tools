@@ -127,13 +127,13 @@ calculate_camera_distance() {
     local subject_width=18  # inches (typical head+shoulders width)
     local focal_length=4.5  # mm (typical webcam focal length)
     local sensor_width=4.8  # mm (typical 1/2.7" sensor)
-    
+
     # Calculate field of view
     local fov=$(echo "scale=2; 2 * 57.3 * atan($sensor_width/(2*$focal_length))" | bc)
-    
+
     # Calculate distance
     local distance=$(echo "scale=2; ($subject_width/2) / tan(($fov/2) * 3.14159/57.3)" | bc)
-    
+
     echo "At ${fov}° FOV: Position camera ${distance} inches from subject"
 }
 
@@ -277,7 +277,6 @@ Before relying on your background for important calls, validate that it works:
 5. **Check for distractions**: Watch for shadows from plants, reflections from windows, or unintended items in frame
 
 This validation prevents the surprise of discovering on a client call that your "clean" background has problems you didn't notice during setup.
-
 
 
 ## Related Articles

@@ -169,7 +169,7 @@ def setup_visa_reminders(entry_date):
         (entry_date + timedelta(days=730 - 90), "3 months until renewal"),
         (entry_date + timedelta(days=730 - 30), "1 month until renewal - start paperwork")
     ]
-    
+
     for date, message in renewal_dates:
         print(f"Reminder: {date.strftime('%Y-%m-%d')} - {message}")
 
@@ -222,7 +222,6 @@ The digital nomad visa isn't ideal for everyone. Consider:
 - Freelancer visa: If you have significant Colombian clients
 - Business visa: If planning to start a Colombian company
 - Student visa: If enrolling in Spanish courses or degree programs
-
 
 
 ## Related Articles

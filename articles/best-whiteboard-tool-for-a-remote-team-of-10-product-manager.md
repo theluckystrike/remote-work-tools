@@ -106,10 +106,10 @@ The integration ecosystem is thinner than Miro. API access exists but requires t
 
 ```html
 <!-- Embed Excalidraw in internal documentation -->
-<iframe 
-  src="https://excalidraw.com/#json=YOUR-BOARD-ID" 
-  width="100%" 
-  height="600" 
+<iframe
+  src="https://excalidraw.com/#json=YOUR-BOARD-ID"
+  width="100%"
+  height="600"
   frameborder="0">
 </iframe>
 ```
@@ -320,8 +320,6 @@ Before rolling out your whiteboard solution:
 The right tool is the one your team actually uses. Evaluate based on your team's workflow, not feature matrices. A simpler tool used consistently outperforms a powerful tool abandoned due to complexity.
 
 ---
-
-
 
 
 ## Related Articles

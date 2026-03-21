@@ -88,10 +88,10 @@ def calculate_dnd_duration(schedule):
     """Calculate snooze duration based on schedule."""
     now = datetime.now(pytz.timezone(schedule["tz"]))
     current_time = now.time()
-    
+
     start = schedule["dnd_start"]
     end = schedule["dnd_end"]
-    
+
     if start <= current_time or current_time < end:
         # Currently in DND window - calculate remaining minutes
         if current_time < end:
@@ -99,7 +99,7 @@ def calculate_dnd_duration(schedule):
         else:
             from datetime import timedelta
             end_dt = now.replace(hour=end.hour, minute=end.minute, second=0) + timedelta(days=1)
-        
+
         duration = int((end_dt - now).total_seconds() / 60)
         return min(duration, 480)  # Cap at 8 hours
     return 0

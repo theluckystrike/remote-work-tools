@@ -54,7 +54,7 @@ breathe --duration 120 --pattern box
 
 # Output:
 # Inhale... 4 seconds
-# Hold... 4 seconds  
+# Hold... 4 seconds
 # Exhale... 4 seconds
 # Hold... 4 seconds
 # Cycle complete. Return to your code.
@@ -124,7 +124,7 @@ async function sendWeeklyCheckIn(channel) {
       ]
     }
   ];
-  
+
   await slack.chat.postMessage({ channel, blocks, thread_ts: null });
 }
 ```
@@ -184,7 +184,7 @@ def enforce_commute_boundaries():
     client = caldav.DAVClient()
     principal = client.principal()
     work_calendar = principal.calendar(name='Work')
-    
+
     # Example: Block 8-9am and 6-7pm for commute
     commute_morning = {
         'dtstart': datetime.now().replace(hour=8, minute=0),
@@ -192,14 +192,14 @@ def enforce_commute_boundaries():
         'summary': 'Commute / Transition',
         'transparency': 'transparent'
     }
-    
+
     commute_evening = {
         'dtstart': datetime.now().replace(hour=18, minute=0),
         'dtend': datetime.now().replace(hour=19, minute=0),
-        'summary': 'Commute / Transition', 
+        'summary': 'Commute / Transition',
         'transparency': 'transparent'
     }
-    
+
     return [commute_morning, commute_evening]
 ```
 
@@ -216,13 +216,13 @@ Create a simple dashboard:
 
 ```sql
 -- Query to track EAP utilization trends
-SELECT 
+SELECT
     month,
     total_employees,
     eap_sessions_scheduled,
     ROUND(eap_sessions_scheduled::numeric / total_employees, 3) as utilization_rate
 FROM (
-    SELECT 
+    SELECT
         DATE_TRUNC('month', session_date) as month,
         COUNT(DISTINCT employee_id) as eap_sessions_scheduled,
         (SELECT COUNT(*) FROM employees WHERE status = 'active') as total_employees
@@ -242,8 +242,6 @@ Mental health support for returning to office shouldn't be a temporary initiativ
 - Budget protection: Mental health stipends shouldn't be first cut in budget reviews
 
 The goal is creating an environment where returning to office is a choice that employees make with genuine buy-in, not a mandate that feels punitive. When organizations invest in genuine support structures, the transition becomes manageable and even beneficial for team cohesion.
-
-
 
 
 ## Related Articles

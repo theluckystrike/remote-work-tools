@@ -15,9 +15,6 @@ voice-checked: true
 ---
 
 
-
-
-
 {% raw %}
 # Remote Work Caregiver Leave Policy Template for Distributed Companies Supporting Sandwich Generation
 
@@ -43,19 +40,19 @@ caregiver_leave:
     duration_weeks: 12
     paid: true
     eligibility: "12 months employment"
-    
+
   elder_care_support:
     # Caring for aging parent or relative
     duration_annual_days: 15
     paid: true
     requires: "Documentation of care relationship"
-    
+
   sandwich_generation_bonus:
     # Concurrent child and elder care
     additional_days_annual: 10
     paid: true
     stacking: true  # Can combine with elder care support
-    
+
   emergency_caregiver_days:
     # Unplanned urgent caregiving needs
     duration_annual: 5
@@ -74,17 +71,17 @@ def check_caregiver_leave_eligibility(employee, leave_type):
     Determine employee eligibility for caregiver leave benefits.
     """
     MINIMUM_TENURE_MONTHS = 6
-    
+
     if employee.tenure_months < MINIMUM_TENURE_MONTHS:
         return {"eligible": False, "reason": "Minimum tenure not met"}
-    
+
     if leave_type == "sandwich_generation_bonus":
         has_dependent_child = employee.has_dependent_child(under_age=18)
         has_elder_care_responsibility = employee.has_elder_care_role()
-        
+
         if not (has_dependent_child and has_elder_care_responsibility):
             return {"eligible": False, "reason": "Must have both child and elder care responsibilities"}
-    
+
     return {"eligible": True, "leave_balance": employee.caregiver_leave_balance}
 ```
 
@@ -132,7 +129,7 @@ async function notifyTeamOfCaregiverLeave(leaveRequest, teamMembers) {
     const affectedTeam = teamMembers.filter(
         member => member.time_zone_overlap(leaveRequest.employee.time_zone) >= 4
     );
-    
+
     const message = {
         type: "caregiver_leave_notification",
         employee: leaveRequest.employee.name,
@@ -141,7 +138,7 @@ async function notifyTeamOfCaregiverLeave(leaveRequest, teamMembers) {
         coverage_needed: leaveRequest.coverage_required,
         async_handoffs: "Please coordinate handoffs in #caregiver-coverage channel"
     };
-    
+
     return await notifyChannels(affectedTeam, message);
 }
 ```
@@ -186,7 +183,6 @@ Track these metrics to ensure your caregiver policy serves its purpose:
 | Return-to-work retention | >90% within 6 months | Annual |
 | Team coverage satisfaction | >4/5 rating | Quarterly |
 | Time-to-approval | <48 hours | Monthly |
-
 
 
 ## Related Articles

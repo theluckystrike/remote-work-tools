@@ -42,7 +42,7 @@ async function createTeamWhiteboard(sessionTitle, participants) {
     name: sessionTitle,
     description: `Collaborative session - ${new Date().toDateString()}`
   });
-  
+
   // Add standard templates for common meeting types
   await board.addWidget('shape', {
     x: 0,
@@ -51,12 +51,12 @@ async function createTeamWhiteboard(sessionTitle, participants) {
     height: 200,
     content: 'Agenda items will go here'
   });
-  
+
   // Share with participants
   for (const email of participants) {
     await board.invite(email, 'editor');
   }
-  
+
   return board.viewLink;
 }
 ```
@@ -175,7 +175,6 @@ Teams often struggle with hybrid whiteboard sessions because they:
 - Forget remote perspective: What seems obvious in the room is often invisible remotely
 - Mix modalities without protocol: Trying to use both physical and digital whiteboards without clear rules creates chaos
 - Skip documentation: Whiteboard content disappears within days without intentional capture
-
 
 
 ## Related Articles

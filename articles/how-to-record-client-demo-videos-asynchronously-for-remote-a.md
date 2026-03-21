@@ -90,24 +90,24 @@ from pathlib import Path
 
 def upload_demo_recording(video_path, client_name, project_name):
     """Upload recording to cloud storage and send notification."""
-    
+
     timestamp = datetime.now().strftime("%Y%m%d")
     destination = f"demos/{client_name}/{project_name}/{timestamp}/"
-    
+
     # Upload to your preferred storage (S3, GCS, etc.)
     subprocess.run([
-        "aws", "s3", "sync", 
-        str(video_path), 
+        "aws", "s3", "sync",
+        str(video_path),
         f"s3://your-bucket/{destination}",
         "--acl", "authenticated-read"
     ])
-    
+
     # Generate shareable link
     share_url = f"https://your-bucket.s3.amazonaws.com/{destination}demo.mp4"
-    
+
     # Send notification (Slack, email, etc.)
     notify_client(client_name, project_name, share_url)
-    
+
     return share_url
 
 def notify_client(client_name, project_name, video_url):
@@ -137,7 +137,7 @@ for file in demos/*.mp4; do
         -map 0:v -map "[a]" \
         -c:v copy -c:a aac -b:a 192k \
         "processed/$(basename $file)"
-    
+
     # Generate thumbnail
     ffmpeg -i "processed/$(basename $file)" -ss 00:00:05 -vframes 1 \
         "processed/$(basename $file .mp4).jpg"
@@ -178,7 +178,6 @@ This prevents demos from floating in limbo while clients assume you'll wait inde
 **Clients forget to watch.** Send a brief Slack or email notification with the specific timestamp they should review. A 30-second message outperforms a 5-minute video with no notification.
 
 **Feedback gets lost in email threads.** Use a dedicated feedback tool or at minimum, a shared document where all video feedback lives in one place.
-
 
 
 ## Related Articles

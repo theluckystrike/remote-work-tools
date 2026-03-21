@@ -53,13 +53,13 @@ def find_coworking_medellin():
     """Search for coworking spaces in Medellín"""
     # This is a conceptual example - actual implementation
     # requires checking each platform's terms of service
-    
+
     search_urls = [
         "https://www.coworker.com/colombia/medellin",
         "https://www.desks Near.com/medellin",
         "https://www.flexofficesearch.com/colombia"
     ]
-    
+
     results = []
     for url in search_urls:
         # Add rate limiting and proper headers
@@ -70,7 +70,7 @@ def find_coworking_medellin():
         # Parse results for video booth amenities
         # ... implementation here
         pass
-    
+
     return results
 ```
 
@@ -273,7 +273,6 @@ Beyond video calls, coworking spaces offer networking opportunities:
 Attending one community event per month can lead to unexpected professional opportunities or friendships that extend your stay enjoyable.
 
 ---
-
 
 
 ## Related Articles

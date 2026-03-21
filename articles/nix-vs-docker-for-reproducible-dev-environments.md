@@ -153,7 +153,7 @@ Consider a practical scenario: your project requires Python 3.11 with Django 4.2
 # Project A
 nix develop .#python311
 
-# Project B  
+# Project B
 nix develop .#python310
 ```
 
@@ -216,7 +216,6 @@ Choose Nix if you need precise control over build tooling, work on projects with
 Both tools solve the reproducibility problem. Docker approaches it from the containerization angle, making environments portable. Nix approaches it from the package management angle, making builds reproducible. Your specific constraints—team size, project complexity, deployment target—determine which approach fits better.
 
 ---
-
 
 
 ## Related Articles

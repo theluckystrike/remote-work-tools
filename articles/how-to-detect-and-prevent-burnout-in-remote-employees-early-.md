@@ -76,18 +76,18 @@ def collect_pulse_survey():
         "What's one thing that would help your productivity?",
         "Are you able to disconnect outside work hours? (Yes/No)"
     ]
-    
+
     responses = {}
     for q in questions:
         response = input(f"{q}\n> ")
         responses[q] = response
-    
+
     return responses
 
 def analyze_burnout_risk(responses):
     workload_scores = [int(r.split()[0]) for r in responses if r.split()[0].isdigit() and 1 <= int(r.split()[0]) <= 10]
     disconnect_rate = responses.count("No") / len(responses)
-    
+
     if sum(workload_scores) / len(workload_scores) > 7 and disconnect_rate > 0.5:
         return "HIGH RISK"
     elif sum(workload_scores) / len(workload_scores) > 5:
@@ -108,15 +108,15 @@ const getBurnoutIndicators = (commitHistory) => {
     avgCommitsPerDay: 0,
     lastBreak: null
   };
-  
+
   commitHistory.forEach(commit => {
     const hour = new Date(commit.timestamp).getHours();
     const day = new Date(commit.timestamp).getDay();
-    
+
     if (hour >= 22 || hour <= 5) indicators.lateNightCommits++;
     if (day === 0 || day === 6) indicators.weekendCommits++;
   });
-  
+
   return indicators;
 };
 ```
@@ -325,7 +325,6 @@ Recovery_Plan:
     - Document burnout factors to prevent repetition
     - Extend recovery support to 8-12 weeks if severe
 ```
-
 
 
 ## Related Articles

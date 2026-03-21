@@ -175,11 +175,11 @@ Related: [[Authentication]], [[Error Codes]]
 
 ```markdown
 - API Endpoints :: POST /users/create
-  - Request Body :: 
+  - Request Body ::
     - email :: string
     - name :: string
     - role :: enum (admin, user)
-  - Response Codes :: 
+  - Response Codes ::
     - 201 = User created
     - 400 = Validation error
   - Related :: [[Authentication]], [[Error Codes]]

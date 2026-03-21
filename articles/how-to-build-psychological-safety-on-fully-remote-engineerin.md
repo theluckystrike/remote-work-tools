@@ -74,7 +74,7 @@ Consider starting team meetings or writing async updates with a brief "fails of 
 ```markdown
 ## This Week's Learning
 
-I spent 3 hours debugging only to discover I was looking at the wrong environment. 
+I spent 3 hours debugging only to discover I was looking at the wrong environment.
 Reminder: always verify your `KUBECONTEXT` before debugging production issues.
 
 What I learned: I need better visual differentiation between my local and staging configs.
@@ -324,7 +324,6 @@ Psychologically safe engineering teams outperform unsafe teams on every metric:
 - 2-3x more innovation (people suggest ideas without fear)
 
 These aren't soft metrics—they're business results. Frame psychological safety to leadership as infrastructure investment, not feel-good initiative.
-
 
 
 ## Related Articles

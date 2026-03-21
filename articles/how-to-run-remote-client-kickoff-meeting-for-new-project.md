@@ -114,7 +114,7 @@ integrations:
     auth: oauth2
     rate_limit: 1000/hour
     retry_policy: exponential_backoff
-    
+
   webhooks:
     events: [order.created, order.updated, customer.created]
     endpoint: "{{ site.url }}/webhooks/client"
@@ -228,7 +228,6 @@ A strong post-kickoff communication cadence for the first two weeks:
 - **Day 10**: Confirm all access credentials and environment details have been received; flag any blockers
 
 This rhythm demonstrates professionalism and gives the client confidence that the project is moving without requiring them to chase updates. Remote projects that lose momentum in the first two weeks often never recover the velocity that a well-executed kickoff can establish.
-
 
 
 ## Related Articles

@@ -137,7 +137,7 @@ changelog: {
       perf: [],
       other: []
     };
-    
+
     changes.commits.forEach(commit => {
       const type = commit.message.split(':')[0].split('(')[0].trim();
       if (grouped[type]) {
@@ -146,7 +146,7 @@ changelog: {
         grouped.other.push(commit);
       }
     });
-    
+
     return Object.entries(grouped)
       .map(([type, msgs]) => `### ${type}\n${msgs.map(m => `- ${m.message}`).join('\n')}`)
       .join('\n\n');
@@ -191,7 +191,6 @@ Remote teams benefit most from automation that reduces coordination overhead. Th
 The tools above each represent a different point on the flexibility-versus-simplicity spectrum. Start with the simplest option that meets your needs, then add complexity as your team's requirements evolve.
 
 ---
-
 
 
 ## Related Articles

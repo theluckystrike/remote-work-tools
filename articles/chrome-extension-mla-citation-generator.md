@@ -32,9 +32,9 @@ Many extensions extract citation data directly from the current webpage's DOM. T
 // Basic content extraction pattern
 function extractCitationData() {
   const data = {
-    author: document.querySelector('[rel="author"]')?.textContent 
+    author: document.querySelector('[rel="author"]')?.textContent
       || document.querySelector('.author-name')?.textContent,
-    title: document.querySelector('h1')?.textContent 
+    title: document.querySelector('h1')?.textContent
       || document.querySelector('[itemprop="headline"]')?.textContent,
     siteName: document.querySelector('[itemprop="publisher"]')?.textContent,
     published: document.querySelector('[itemprop="datePublished"]')?.content,
@@ -99,13 +99,13 @@ For proper MLA citations, extensions must format data according to MLA 9th editi
 function formatMLA(data) {
   const author = data.author ? `${data.author}. ` : '';
   const title = data.title ? `"${data.title}." ` : '';
-  const container = data.siteName || data.publisher 
+  const container = data.siteName || data.publisher
     ? `*${data.siteName || data.publisher}*, ` : '';
-  const date = data.published 
+  const date = data.published
     ? `${new Date(data.published).toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'})}, ` : '';
   const url = data.url || '';
   const accessDate = `Accessed ${new Date().toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'})}.`;
-  
+
   return `${author}${title}${container}${date}${url}. ${accessDate}`;
 }
 ```
@@ -174,8 +174,6 @@ When selecting an MLA citation generator extension, prioritize:
 Extensions that combine multiple data sources (parsing + metadata + APIs) typically deliver the most reliable results across diverse source types.
 
 MLA citation generator Chrome extensions eliminate repetitive formatting work, letting researchers focus on content rather than citation mechanics. Whether you use existing tools or build custom solutions, automating citation generation represents a practical productivity enhancement for any research-intensive workflow.
-
-
 
 
 ## Related Articles

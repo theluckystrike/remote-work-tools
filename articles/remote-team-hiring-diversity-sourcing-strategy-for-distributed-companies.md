@@ -227,8 +227,6 @@ Set baseline measurements before implementing changes, then track quarterly. Sma
 Share these metrics internally with the full team, not just leadership. Transparency about progress creates shared accountability and signals that diversity sourcing is a business priority rather than a compliance exercise.
 
 
-
-
 ## Related Articles
 
 - [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)

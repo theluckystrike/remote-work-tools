@@ -503,5 +503,6 @@ Before buying tools, ask: Does leadership respect work-life boundaries? If no, t
 - [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 - [Scope Creep Prevention Strategies for Freelancers](/remote-work-tools/scope-creep-prevention-strategies-for-freelancers/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

@@ -135,7 +135,7 @@ from datetime import datetime
 
 def notify_introduction(new_hire_data: dict, webhook_url: str):
     """Send new hire introduction to Slack."""
-    
+
     blocks = [
         {
             "type": "header",
@@ -165,7 +165,7 @@ def notify_introduction(new_hire_data: dict, webhook_url: str):
             ]
         }
     ]
-    
+
     requests.post(webhook_url, json={"blocks": blocks})
 ```
 

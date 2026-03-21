@@ -42,11 +42,11 @@ def calculate_stand_height(chair_height_cm, torso_length_cm, laptop_screen_heigh
     # Eye level should be at top third of screen
     eye_level_from_seat = torso_length_cm * 0.9  # Approximate eye position
     screen_top_position = eye_level_from_seat - (laptop_screen_height_cm / 6)
-    
+
     # Stand height = seated eye height - desired screen top position
     # This gives you the height your laptop base needs to be at
     stand_height = chair_height_cm + screen_top_position
-    
+
     return round(stand_height, 1)
 
 # Example calculation for average adult
@@ -127,7 +127,7 @@ function logComfort(date, neckPain, backPain, focusLevel) {
     backPain: backPain, // 1-10 scale
     focusLevel // 1-10 scale
   });
-  
+
   // After 7 days, calculate averages
   if (dailyLog.length >= 7) {
     const avgNeck = dailyLog.reduce((a, b) => a + b.neckPain, 0) / 7;
@@ -269,7 +269,6 @@ Beyond equipment, incorporate movement into your workday. Developers often spend
 - Every 4 hours: 5-minute activity (climb stairs, do pushups, walk)
 
 This movement practice combined with proper positioning creates the foundation for career-long productivity without chronic pain issues.
-
 
 
 ## Related Articles

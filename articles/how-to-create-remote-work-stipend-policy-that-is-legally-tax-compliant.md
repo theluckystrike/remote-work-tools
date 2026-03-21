@@ -50,7 +50,7 @@ Your policy must be documented in writing. Here's a template structure:
 # Remote Work Stipend Policy
 
 ## Purpose
-This policy establishes guidelines for remote work expense reimbursement 
+This policy establishes guidelines for remote work expense reimbursement
 under an accountable plan as defined by IRS regulations.
 
 ## Eligible Expenses
@@ -65,7 +65,7 @@ Employees must submit receipts for all expenses exceeding $25.
 Monthly expense reports are due by the 5th of the following month.
 
 ## Excess Advance Returns
-Any stipend amounts not expended must be returned to the company 
+Any stipend amounts not expended must be returned to the company
 within 30 days of the expense period.
 ```
 
@@ -101,7 +101,7 @@ class EquipmentStipendRequest:
         self.items = items  # List of purchased items
         self.receipts = receipts  # Required for items > $25
         self.status = "pending"
-    
+
     def validate(self):
         # Check all items are business-purpose
         allowed_categories = [
@@ -192,8 +192,6 @@ The implementation effort is minimal: write the policy once, train managers, and
 Start with equipment stipends—they're the easiest to document and defend. As you build comfort with the process, expand to include internet, software, and other legitimate business expenses your remote team incurs.
 
 ---
-
-
 
 
 ## Related Articles

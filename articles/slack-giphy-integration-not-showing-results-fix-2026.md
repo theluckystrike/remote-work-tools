@@ -314,7 +314,6 @@ In your Giphy app configuration, you can control:
 ---
 
 
-
 ## Related Articles
 
 - [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)

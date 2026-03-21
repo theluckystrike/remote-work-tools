@@ -529,5 +529,6 @@ For 50 hires/year: **Rippling saves 100+ hours of IT + HR time annually**. At $5
 - [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
 - [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

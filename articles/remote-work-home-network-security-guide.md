@@ -632,5 +632,6 @@ Start with Layer 1 and 3 (free, immediate protection), upgrade to Layer 2 (VLANs
 - [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
 - [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

@@ -56,12 +56,12 @@ def calculate_solo_401k_limit(net_self_employment_income):
     """
     employee_deferral = 23500
     max_total = 69000
-    
+
     # Employer contribution: 25% of net income minus half SE tax
     # Simplified calculation for illustration
-    employer_contribution = min(net_self_employment_income * 0.25, 
+    employer_contribution = min(net_self_employment_income * 0.25,
                                 max_total - employee_deferral)
-    
+
     return employee_deferral + employer_contribution
 
 # Example with $150,000 net income
@@ -381,8 +381,6 @@ and prevents scrambling at tax time.
 ```
 
 ---
-
-
 
 
 ## Related Articles

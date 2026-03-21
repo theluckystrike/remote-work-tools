@@ -126,23 +126,23 @@ Create a phishing verification exercise:
 def check_email_safety(sender, subject, links):
     """Evaluate email for phishing indicators."""
     warnings = []
-    
+
     # Check for suspicious sender
     if sender.endswith(('@gmail.com', '@yahoo.com', '@hotmail.com')):
         warnings.append("External sender - verify identity")
-    
+
     # Check for urgent language
     urgent_words = ['immediate', 'urgent', 'action required', 'suspend']
     if any(word in subject.lower() for word in urgent_words):
         warnings.append("Urgent language - common phishing tactic")
-    
+
     # Check links
     for link in links:
         if not link.startswith('https://'):
             warnings.append(f"Insecure link: {link}")
         if 'bit.ly' in link or 'tinyurl' in link:
             warnings.append(f"Shortened URL - verify before clicking: {link}")
-    
+
     return warnings
 
 # Example usage
@@ -253,7 +253,6 @@ Schedule brief check-ins during onboarding. Use these to answer questions and ve
 **Skipping practical exercises.** Reading about phishing does not build skills. Include hands-on components where possible.
 
 **Treating security as an one-time event.** Security onboarding starts the process. Plan ongoing training and refreshers throughout the year.
-
 
 
 ## Related Articles

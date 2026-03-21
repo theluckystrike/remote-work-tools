@@ -62,7 +62,7 @@ def configure_focus_hours():
         {"start": "12:00", "end": "14:00"},
         {"start": "16:00", "end": "18:00"}
     ]
-    
+
     for block in focus_blocks:
         # Set up DND profile during focus blocks
         print(f"Focus time: {block['start']} - {block['end']}")
@@ -103,12 +103,12 @@ standup:
   schedule:
     timezone: "UTC"
     time: "09:00"  # Everyone reads at their convenience
-  
+
   questions:
     - "What did you accomplish yesterday?"
     - "What will you work on today?"
     - "Any blockers?"
-  
+
   reminder:
     - type: "slack"
       time: "08:30"
@@ -181,7 +181,6 @@ Track metrics that indicate whether your async culture is thriving or degrading:
 - Remote participation: Are remote team members included in discussions?
 
 Review these metrics monthly and adjust your practices accordingly.
-
 
 
 ## Related Articles

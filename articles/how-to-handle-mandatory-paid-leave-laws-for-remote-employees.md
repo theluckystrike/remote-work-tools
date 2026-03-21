@@ -107,13 +107,13 @@ def calculate_accrued_leave(
 ) -> float:
     """Calculate accrued paid leave based on state rules."""
     rule = LEAVE_RULES.get(employee_state)
-    
+
     if not rule or rule.annual_accrual_hours == 0:
         return 0.0
-    
+
     # Calculate accrual based on hours worked
     accrued = hours_worked * rule.accrual_rate_per_hour
-    
+
     # Cap at annual maximum
     return min(accrued, rule.annual_accrual_hours)
 ```
@@ -159,14 +159,14 @@ Notice workflows: Implement a simple request system that captures advance notice
 trigger:
   type: form_submission
   platform: slack
-  
+
 questions:
   - "Leave type: [Sick / Family / Other]"
   - "Start date: [Date picker]"
   - "Duration (days): [Number]"
   - "Is this foreseeable?: [Yes / No]"
   - "If yes, advance notice given (hours): [Number]"
-  
+
 actions:
   - notify_manager
   - log_to_leave_system
@@ -192,7 +192,6 @@ For technical implementation, payroll platforms like Gusto, ADP, or Rippling off
 Building proper leave tracking from the start saves significant headaches later. The time invested in a compliant system pays off when you expand to your tenth state and need to demonstrate proper accrual calculations during an audit.
 
 ---
-
 
 
 ## Related Articles

@@ -291,8 +291,6 @@ Calls to other continents encounter additional latency from undersea cable routi
 ---
 
 
-
-
 ## Related Articles
 
 - [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)

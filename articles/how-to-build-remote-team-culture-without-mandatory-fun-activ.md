@@ -331,7 +331,6 @@ You won't measure culture success in months. Measure it in years. After 18-24 mo
 If those signals are there, your culture is working.
 
 
-
 ## Related Articles
 
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)

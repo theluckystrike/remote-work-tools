@@ -44,7 +44,7 @@ Use this template for async technical discussions in distributed teams:
 [YYYY-MM-DD]
 
 ## Context
-[Describe the problem or situation that prompted this decision. What constraints 
+[Describe the problem or situation that prompted this decision. What constraints
 or requirements are we working with? What alternatives were considered?]
 
 ## Decision
@@ -97,13 +97,13 @@ Proposed
 2026-03-10
 
 ## Context
-Our API response times have increased as user traffic grew 300% this quarter. 
-The database is under heavy load during peak hours, and we're seeing timeout 
-errors affecting user experience. We need to reduce database load while 
+Our API response times have increased as user traffic grew 300% this quarter.
+The database is under heavy load during peak hours, and we're seeing timeout
+errors affecting user experience. We need to reduce database load while
 maintaining sub-200ms response times.
 
 ## Decision
-Implement Redis as a caching layer for frequently accessed data, with a 
+Implement Redis as a caching layer for frequently accessed data, with a
 TTL of 15 minutes for user profiles and 5 minutes for configuration data.
 
 ## Consequences
@@ -129,14 +129,14 @@ Leave the ADR open for 48-72 hours to accommodate team members across time zones
 ```markdown
 ## Feedback from @sarah-engineer
 
-**Question on cache invalidation:** How will we handle the race condition 
+**Question on cache invalidation:** How will we handle the race condition
 when a user updates their profile while the cached version is being served?
 
 **Suggestion:** Consider using write-through caching to ensure consistency.
 
 ## Response from @proposal-author
 
-Good point. I'll add a write-through mechanism for profile updates. This 
+Good point. I'll add a write-through mechanism for profile updates. This
 adds some latency on writes but ensures users never see stale data.
 ```
 
@@ -204,7 +204,6 @@ Schedule a quarterly review of active ADRs to identify:
 **Missing alternatives:** A decision without considered alternatives lacks rigor. Even if you ultimately choose the obvious option, document what else was evaluated and why it was rejected.
 
 **Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
-
 
 
 ## Related Articles

@@ -193,11 +193,11 @@ class USBCPowerManager:
             'port2': {'device': 'phone', 'max_watts': 20},
             'port3': {'device': 'tablet', 'max_watts': 45},
         }
-    
+
     def allocate_power(self, device_priority):
         """Allocate power based on device priority."""
         total_budget = 200  # watts
-        
+
         for device in device_priority:
             if total_budget >= self.ports[device]['max_watts']:
                 self.set_power(device, self.ports[device]['max_watts'])
@@ -226,7 +226,6 @@ spares:
   - Ethernet cable Cat6 3m (2x)
   - Power adapter 65W USB-C (1x)
 ```
-
 
 
 ## Related Articles

@@ -133,16 +133,16 @@ Your CI pipeline should include:
 # Example GitHub Actions quality gates
 - name: Type Check
   run: npm run typecheck
-  
+
 - name: Lint
   run: npm run lint -- --max-warnings 0
-  
+
 - name: Unit Tests
   run: npm run test -- --coverage
-  
+
 - name: Visual Regression
   run: npm run chromatic
-  
+
 - name: Bundle Size Check
   run: npm run build-size
 ```
@@ -170,8 +170,6 @@ Coordinating remote frontend developers on shared component libraries requires i
 Start with ownership and workflow, then layer in the other practices as your library matures. The investment pays dividends in reduced conflicts, faster development, and healthier team relationships.
 
 ---
-
-
 
 
 ## Related Articles

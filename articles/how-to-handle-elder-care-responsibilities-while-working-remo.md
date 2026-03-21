@@ -37,18 +37,18 @@ from datetime import datetime, timedelta
 def sync_elder_care_calendar():
     """Sync elder care appointments from a shared calendar"""
     SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
-    
+
     # Set up calendar service
     creds = Credentials.from_authorized_user_info(info)
     service = GoogleCalendar('credentials.json')
-    
+
     # Fetch upcoming events for the next 7 days
     events = service.get_events(
         time_min=datetime.now(),
         time_max=datetime.now() + timedelta(days=7),
         calendar_id='elder-care@group.calendar.google.com'
     )
-    
+
     # Create reminders for work calendar
     for event in events:
         if event['summary'].startswith('[CARE]'):
@@ -127,7 +127,7 @@ Despite best planning, interruptions will happen. Develop a protocol for handlin
 update_status() {
     STATUS="$1"
     COLOR="$2"
-    
+
     # Update Slack status via API
     curl -X POST https://slack.com/api/users.profile.set \
         -H "Authorization: Bearer $SLACK_TOKEN" \
@@ -332,7 +332,6 @@ Have these conversations:
 - Who's the backup caregiver if you can't continue?
 
 Having these conversations difficult but prevents crisis decisions later.
-
 
 
 ## Related Articles

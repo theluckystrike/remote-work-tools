@@ -58,23 +58,23 @@ When comparing policies, use this evaluation structure:
 # Example: Policy comparison scoring for digital nomads
 def evaluate_policy(policy):
     score = 0
-    
+
     # Medical coverage (40% weight)
     medical_score = min(policy['medical_coverage'] / 250000, 1.0) * 40
     score += medical_score
-    
+
     # Electronics coverage (30% weight)
     electronics_score = min(policy['electronics_coverage'] / 3000, 1.0) * 30
     score += electronics_score
-    
+
     # Evacuation quality (20% weight)
     evacuation_score = min(policy['evacuation_coverage'] / 100000, 1.0) * 20
     score += evacuation_score
-    
+
     # Duration flexibility (10% weight)
     duration_score = 10 if policy['max_duration_days'] >= 365 else 5
     score += duration_score
-    
+
     return score
 
 # Sample policies (2026 rates, approximate)
@@ -400,8 +400,6 @@ Prioritize policies with explicit electronics coverage rather than generic perso
 - SafetyWing only ($45/month)
 - Risk: Electronics loss = total loss, medical gap above $250k
 - Requires backup plan for electronics replacement
-
-
 
 
 ## Related Articles

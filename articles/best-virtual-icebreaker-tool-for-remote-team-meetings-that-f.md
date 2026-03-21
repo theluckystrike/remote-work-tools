@@ -72,7 +72,7 @@ If your team uses Slite, Notion, or similar collaboration tools, create a quick 
 // Example: Simple poll structure in your team wiki
 ## Quick Team Poll
 - **Question:** What's your coding environment setup?
-- **Options:** 
+- **Options:**
   - Dual monitor
   - Single ultrawide
   - Laptop + external
@@ -340,8 +340,6 @@ Start with something simple this week:
 Most teams find their sweet spot within 2-3 weeks of experimentation.
 
 ---
-
-
 
 
 ## Related Articles

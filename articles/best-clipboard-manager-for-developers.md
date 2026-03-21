@@ -61,7 +61,7 @@ After installing Clipy, you can create reusable code snippets. For instance, a c
 [feat] - Brief description
 
 - Added: What was added
-- Changed: What was modified  
+- Changed: What was modified
 - Fixed: What was resolved
 ```
 
@@ -107,7 +107,7 @@ CopyQ supports custom commands that process clipboard content. Add this to your 
 ```ini
 [Commands]
 1.command="
-    copyq: 
+    copyq:
     var txt = clipboardText();
     try {
         var obj = JSON.parse(txt);
@@ -205,7 +205,6 @@ Selecting the best clipboard manager depends on your operating system and workfl
 Whichever tool you choose, integrating a clipboard manager into your daily workflow will eliminate the frustration of lost copies and significantly speed up your development process.
 
 ---
-
 
 
 ## Related Articles

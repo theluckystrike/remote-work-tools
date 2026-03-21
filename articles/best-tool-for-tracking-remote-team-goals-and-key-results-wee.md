@@ -87,7 +87,7 @@ Objectives Database
 ├── Owner: @sarah
 └── Key Results: [linked KR database]
 
-Key Results Database  
+Key Results Database
 ├── Title: Reduce churn to under 5%
 ├── Target: 5
 ├── Current: 7.2
@@ -267,17 +267,15 @@ def weekly_update(ack, respond, command):
     ack()
     user = command["user_name"]
     text = command["text"]
-    
+
     # Parse: "Accomplished X. Next: Y. Blockers: Z"
     # Store in database
     store_update(user, text)
-    
+
     respond(f"Updated! View all updates at your-dashboard.com/{user}")
 ```
 
 The best tool for tracking remote team goals weekly is the one your team actually uses consistently. Start with low friction, iterate based on what information actually helps coordination, and invest in deeper tooling only when the basics prove insufficient.
-
-
 
 
 ## Related Articles

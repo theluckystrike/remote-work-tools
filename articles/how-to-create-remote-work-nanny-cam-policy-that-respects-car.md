@@ -41,8 +41,8 @@ Active Hours: [ ] During Work Hours  [ ] 24/7  [ ] Custom: ____________
 Audio Recording: [ ] Yes  [ ] No
 Remote Access: [ ] Yes  [ ] No
 
-I acknowledge that surveillance cameras are present in the listed locations 
-during the specified hours. I understand that I may request a copy of the 
+I acknowledge that surveillance cameras are present in the listed locations
+during the specified hours. I understand that I may request a copy of the
 recorded footage upon request.
 
 Signature: _______________  Date: ___________
@@ -61,7 +61,7 @@ camera_access:
   viewer:
     - user_nanny (restricted hours: 8am-6pm)
     - user_grandparent (notifications only)
-  
+
 restricted_zones:
   - camera_bedroom_nanny  # No access during daytime
   - camera_bathroom       # Fully restricted except emergency
@@ -112,7 +112,7 @@ RETENTION_DAYS = 7
 
 def cleanup_old_footage():
     cutoff = time.time() - (RETENTION_DAYS * 86400)
-    
+
     for root, dirs, files in os.walk(CAMERA_DIR):
         for filename in files:
             filepath = os.path.join(root, filename)
@@ -185,8 +185,6 @@ A well-crafted nanny cam policy balances legitimate security interests with care
 Remember that policy documents require ongoing attention. Review and update your approach annually, particularly as technology evolves or legal requirements shift in your jurisdiction.
 
 ---
-
-
 
 
 ## Related Articles

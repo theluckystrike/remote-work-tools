@@ -94,16 +94,16 @@ async def calculate_commission(
     exchange_rate: Decimal
 ) -> Decimal:
     """Calculate commission with regional and tier adjustments."""
-    
+
     # Apply base rate and regional multiplier
     base_commission = deal_amount * config.base_rate * config.region_multiplier
-    
+
     # Add tier bonus
     total_commission = base_commission + config.tier_bonus
-    
+
     # Convert to target currency
     converted = total_commission * exchange_rate
-    
+
     return converted.quantize(Decimal('0.01'))
 
 async def process_deal_commission(
@@ -112,14 +112,14 @@ async def process_deal_commission(
     config: CommissionConfig
 ) -> dict:
     """Process a single deal and record commission."""
-    
+
     # Fetch deal and current exchange rate
     deal = await fetch_deal(deal_id)
     exchange_rate = await get_exchange_rate(
-        deal['currency'], 
+        deal['currency'],
         config.currency
     )
-    
+
     # Calculate commission
     commission_amount = await calculate_commission(
         Decimal(str(deal['amount'])),
@@ -127,7 +127,7 @@ async def process_deal_commission(
         config.currency,
         exchange_rate
     )
-    
+
     # Record commission
     commission_id = await insert_commission(
         deal_id=deal_id,
@@ -137,7 +137,7 @@ async def process_deal_commission(
         currency=config.currency,
         exchange_rate=exchange_rate
     )
-    
+
     return {'commission_id': commission_id, 'amount': commission_amount}
 ```
 
@@ -150,14 +150,14 @@ For distributed teams, currency handling requires careful attention. Store excha
 ```python
 async def get_exchange_rate(from_currency: str, to_currency: str) -> Decimal:
     """Fetch exchange rate with caching."""
-    
+
     cache_key = f"{from_currency}_{to_currency}"
-    
+
     if cache_key in rate_cache:
         cached_rate, cached_time = rate_cache[cache_key]
         if (datetime.utcnow() - cached_time).seconds < 3600:
             return cached_rate
-    
+
     # Fetch from API (example structure)
     async with aiohttp.ClientSession() as session:
         async with session.get(
@@ -166,7 +166,7 @@ async def get_exchange_rate(from_currency: str, to_currency: str) -> Decimal:
         ) as response:
             data = await response.json()
             rate = Decimal(str(data['rates'][to_currency]))
-    
+
     rate_cache[cache_key] = (rate, datetime.utcnow())
     return rate
 ```
@@ -189,19 +189,19 @@ async def get_rep_commissions(
     end_date: Optional[str] = None
 ):
     """Fetch commission history for a sales rep."""
-    
+
     query = "SELECT * FROM commissions WHERE rep_id = $1"
     params = [rep_id]
-    
+
     if start_date:
         query += " AND calculated_at >= $2"
         params.append(start_date)
     if end_date:
         query += " AND calculated_at <= $3"
         params.append(end_date)
-    
+
     query += " ORDER BY calculated_at DESC"
-    
+
     return await db.fetch_all(query, *params)
 
 @app.get("/commissions/summary")
@@ -210,16 +210,16 @@ async def get_commission_summary(
     period: str = 'month'
 ):
     """Generate commission summary for reporting."""
-    
+
     date_trunc = {
         'day': 'day',
-        'week': 'week', 
+        'week': 'week',
         'month': 'month',
         'quarter': 'quarter'
     }[period]
-    
+
     query = """
-        SELECT 
+        SELECT
             sr.region,
             DATE_TRUNC(%s, c.calculated_at) as period,
             COUNT(*) as deal_count,
@@ -230,7 +230,7 @@ async def get_commission_summary(
         GROUP BY sr.region, DATE_TRUNC(%s, c.calculated_at)
         ORDER BY period DESC, sr.region
     """
-    
+
     return await db.fetch_all(query, date_trunc, date_trunc)
 ```
 
@@ -246,26 +246,26 @@ import hashlib
 @app.post("/webhooks/crm")
 async def handle_crm_webhook(request: Request):
     """Process deal closed events from CRM."""
-    
+
     # Verify webhook signature
     signature = request.headers.get('X-Webhook-Signature')
     payload = await request.body()
-    
+
     if not verify_signature(signature, payload):
         raise HTTPException(status_code=401, detail="Invalid signature")
-    
+
     event = await request.json()
-    
+
     if event['type'] == 'deal_closed':
         rep = await get_rep_by_email(event['rep_email'])
         config = await get_commission_config(rep['region'])
-        
+
         await process_deal_commission(
             deal_id=event['deal_id'],
             rep_id=rep['id'],
             config=config
         )
-        
+
     return {"status": "processed"}
 
 def verify_signature(signature: str, payload: bytes) -> bool:
@@ -288,7 +288,7 @@ import asyncpg
 
 async def process_pending_payouts():
     """Process commissions ready for payout."""
-    
+
     # Find commissions pending for more than 7 days
     query = """
         SELECT c.*, sr.email, sr.name, sr.currency
@@ -297,14 +297,14 @@ async def process_pending_payouts():
         WHERE c.status = 'pending'
         AND c.calculated_at < NOW() - INTERVAL '7 days'
     """
-    
+
     pending = await db.fetch_all(query)
-    
+
     for commission in pending:
         # Generate payout file or call payment API
         await create_payout_record(commission)
         await update_commission_status(commission['id'], 'processing')
-    
+
     return {'processed': len(pending)}
 ```
 
@@ -315,7 +315,6 @@ When building commission tracking for distributed teams, prioritize transparency
 Timezone handling requires careful consideration. Store all timestamps in UTC but display them in the rep's local timezone. When generating reports for specific regions, filter by business hours in that timezone to avoid confusion about which day a deal closed.
 
 Security is critical given the financial sensitivity. Implement role-based access control so reps only see their own commissions while finance and admin roles access organizational data. Log all changes to commission records for compliance purposes.
-
 
 
 ## Related Articles

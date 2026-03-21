@@ -51,7 +51,7 @@ async function exportFormResponses(spreadsheetId, sheetName) {
 
   const rows = response.data.values;
   const headers = rows[0];
-  const data = rows.slice(1).map(row => 
+  const data = rows.slice(1).map(row =>
     Object.fromEntries(headers.map((h, i) => [h, row[i]]))
   );
 
@@ -139,7 +139,7 @@ async function createSurveyLink(formId, teamEmail) {
   // Create personalized URL
   const form = await client.forms.retrieve(formId);
   const baseUrl = form._links.display;
-  
+
   const params = new URLSearchParams(hiddenFields).toString();
   return `${baseUrl}?${params}`;
 }
@@ -153,7 +153,7 @@ Typeform webhooks deliver responses immediately to your systems:
 // Express.js webhook handler
 app.post('/webhooks/typeform', express.json(), async (req, res) => {
   const { form_response } = req.body;
-  
+
   const answers = form_response.answers.map(answer => {
     const question = form_response.definition.fields.find(
       f => f.id === answer.field.id
@@ -167,7 +167,7 @@ app.post('/webhooks/typeform', express.json(), async (req, res) => {
 
   // Route to your team dashboard, Slack, or database
   await notifyTeamChannel(form_response.hidden.team_member, answers);
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -198,13 +198,13 @@ Maintain Google Sheets as your historical archive while routing new responses to
 ```javascript
 app.post('/webhooks/typeform', express.json(), async (req, res) => {
   // Send to Typeform's storage (automatic)
-  
+
   // Also write to Google Sheets for historical continuity
   await appendToGoogleSheet({
     spreadsheetId: process.env.HISTORICAL_SHEET_ID,
     values: extractResponseValues(req.body)
   });
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -222,7 +222,6 @@ After migration, optimize your surveys for distributed teams:
 4. **Schedule distribution strategically**: Time surveys for when your distributed team is most likely responsive—typically early morning in their respective timezones.
 
 5. **Automate follow-ups**: Set up Typeform's email notifications or connect to Slack channels for immediate visibility into response patterns.
-
 
 
 ## Related Articles

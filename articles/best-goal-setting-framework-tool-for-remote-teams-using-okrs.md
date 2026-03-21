@@ -79,7 +79,7 @@ async function createOKRIssue() {
     priority: 2,
     labels: ['okr-q1-2026', 'security']
   });
-  
+
   return issue;
 }
 ```
@@ -180,7 +180,6 @@ Start simple. Use whatever tool integrates with your existing workflow. The fram
 Focus on consistency over perfection. Review progress regularly, adjust key results when circumstances change, and build the habit of goal-oriented work. The tool enables the process; the process creates the results.
 
 ---
-
 
 
 ## Related Articles

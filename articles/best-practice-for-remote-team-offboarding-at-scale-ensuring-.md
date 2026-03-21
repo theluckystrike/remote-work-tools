@@ -54,17 +54,17 @@ from slack_sdk import WebClient
 def export_engineer_contributions(user_id, channel_ids):
     client = WebClient(token=os.environ['SLACK_TOKEN'])
     contributions = []
-    
+
     for channel in channel_ids:
         result = client.conversations_history(
             channel=channel,
             limit=1000
         )
         contributions.extend([
-            msg for msg in result['messages'] 
+            msg for msg in result['messages']
             if msg.get('user') == user_id
         ])
-    
+
     return contributions
 ```
 
@@ -107,7 +107,7 @@ on:
     inputs:
       username:
         required: true
-        
+
 jobs:
   remove-access:
     runs-on: ubuntu-latest
@@ -115,11 +115,11 @@ jobs:
       - name: Remove from organization
         run: |
           gh org remove-member ${{ github.repository_owner }} ${{ github.event.inputs.username }}
-      
+
       - name: Revoke personal access tokens
         run: |
           gh api -X DELETE /users/${{ github.event.inputs.username }}/tokens
-      
+
       - name: Archive their repositories
         run: |
           # Script to transfer ownership to team accounts
@@ -171,11 +171,11 @@ def process_offboarding_queue(hris_client, it_client):
     """Process departures scheduled within 7 days"""
     departing = hris_client.get_departures(
         date_range=[
-            datetime.now(), 
+            datetime.now(),
             datetime.now() + timedelta(days=7)
         ]
     )
-    
+
     for employee in departing:
         # Trigger access revocation workflow
         it_client.trigger_offboarding(
@@ -217,7 +217,7 @@ Track these metrics to improve your process over time:
 Build a simple dashboard:
 
 ```sql
-SELECT 
+SELECT
   DATE(last_day) as departure_date,
   AVG(TIMESTAMPDIFF(HOUR, last_day, access_removed_at)) as hours_to_revocation,
   COUNT(*) as departures

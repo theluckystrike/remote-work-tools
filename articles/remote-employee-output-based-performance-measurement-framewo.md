@@ -58,7 +58,7 @@ class OutputTracker:
         self.base_url = f"https://{jira_domain}.atlassian.net/rest/api/3"
         self.auth = (email, api_token)
         self.project_key = project_key
-    
+
     def get_completed_issues(self, sprint_id):
         """Fetch completed issues for a sprint."""
         jql = f"project = {self.project_key} AND sprint = {sprint_id} AND status = Done"
@@ -68,7 +68,7 @@ class OutputTracker:
             auth=self.auth
         )
         return response.json().get("issues", [])
-    
+
     def calculate_velocity(self, sprint_id):
         """Calculate story points completed."""
         issues = self.get_completed_issues(sprint_id)
@@ -76,7 +76,7 @@ class OutputTracker:
             int(issue["fields"].get("customfield_10016", 0))
             for issue in issues
         )
-    
+
     def get_cycle_time(self, issue_key):
         """Measure time from first commit to deployment."""
         # Query development API for commit timestamps
@@ -108,32 +108,32 @@ Raw numbers lack context. Establish baseline expectations and track deviation:
 ```javascript
 // JavaScript: Calculate performance index from multiple metrics
 function calculatePerformanceIndex(developerMetrics) {
-    const { 
-        storyPointsCompleted, 
-        codeReviewsDone, 
-        bugsResolved, 
+    const {
+        storyPointsCompleted,
+        codeReviewsDone,
+        bugsResolved,
         prsOpened,
         targetStoryPoints,
         targetReviews,
-        targetBugs 
+        targetBugs
     } = developerMetrics;
-    
+
     // Normalize each metric to 0-1 range against target
     const storyScore = Math.min(storyPointsCompleted / targetStoryPoints, 1.5) / 1.5;
     const reviewScore = Math.min(codeReviewsDone / targetReviews, 1.5) / 1.5;
     const bugScore = Math.min(bugsResolved / targetBugs, 1.5) / 1.5;
-    
+
     // Weighted composite (adjust weights for your team)
     const weights = { stories: 0.5, reviews: 0.25, bugs: 0.25 };
-    
-    const performanceIndex = 
+
+    const performanceIndex =
         (storyScore * weights.stories) +
         (reviewScore * weights.reviews) +
         (bugScore * weights.bugs);
-    
+
     return {
         index: Math.round(performanceIndex * 100) / 100,
-        rating: performanceIndex >= 0.8 ? 'Exceeds' : 
+        rating: performanceIndex >= 0.8 ? 'Exceeds' :
                 performanceIndex >= 0.6 ? 'Meets' : 'Needs Improvement'
     };
 }
@@ -203,7 +203,6 @@ Context-free comparisons: Senior engineers handling complex architecture differ 
 Ignoring non-code contributions: Documentation, mentoring, and incident response deserve recognition. Build these into your framework.
 
 Setting static targets: Teams evolve. Review and adjust thresholds quarterly based on historical performance and organizational priorities.
-
 
 
 ## Related Articles

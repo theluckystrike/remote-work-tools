@@ -204,7 +204,6 @@ A simple Google Sheets template works well for tracking observations:
 ```
 
 
-
 ## Related Articles
 
 - [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)

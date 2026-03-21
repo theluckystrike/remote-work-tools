@@ -72,11 +72,11 @@ resource "cloudflare_access_policy" "engineers" {
   application_id = cloudflare_access_application.internal_tool.id
   name          = "Engineering Team"
   decision      = "allow"
-  
+
   include {
     email = ["*.yourcompany.com"]
   }
-  
+
   require {
     device_posture {
       integration = "tanium"
@@ -194,11 +194,11 @@ Zero trust requires visibility. Log every access decision:
 
 ```sql
 -- Example query for access anomalies
-SELECT 
+SELECT
     user_email,
     resource_accessed,
     timestamp,
-    CASE 
+    CASE
         WHEN device_posture = 'failed' THEN 'review'
         WHEN hour(timestamp) NOT BETWEEN 6 AND 22 THEN 'after_hours'
         ELSE 'normal'
@@ -220,7 +220,6 @@ Transitioning from VPN to zero trust works best incrementally:
 4. Phase 4: Add device posture checks and continuous validation
 
 Start with tools your team uses most frequently, then expand to cover remaining resources.
-
 
 
 ## Related Articles

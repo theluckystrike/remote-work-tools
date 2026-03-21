@@ -71,8 +71,8 @@ Configure a sprint-ready backlog view in Jira:
 
 ```javascript
 // Jira JQL for sprint-ready backlog
-project = "Product Engineering" AND sprint = empty AND 
-status IN ("Ready for Development", "Backlog") AND 
+project = "Product Engineering" AND sprint = empty AND
+status IN ("Ready for Development", "Backlog") AND
 priority IN ("Highest", "High", "Medium") ORDER BY rank ASC
 ```
 
@@ -212,14 +212,13 @@ Record decisions in a shared document accessible to all time zones:
 
 ## Team Commitments
 - Team A: 34 story points
-- Team B: 42 story points  
+- Team B: 42 story points
 - Team C: 38 story points
 ```
 
 This approach scales to 20+ person organizations while maintaining alignment. Tools help coordination, but the process remains human-driven.
 
 ---
-
 
 
 ## Related Articles

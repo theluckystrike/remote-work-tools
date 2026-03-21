@@ -50,7 +50,7 @@ policy:
   name: "Hybrid Worker Commute Benefit Program"
   effective_date: "2026-01-01"
   review_frequency: "annual"
-  
+
 eligibility:
   minimum_onsite_days_per_month: 8
   eligible_employment_types:
@@ -61,7 +61,7 @@ eligibility:
     - "HQ - Downtown"
     - "Regional Office - West"
     - "Regional Office - East"
-    
+
 benefits:
   parking:
     enabled: true
@@ -72,7 +72,7 @@ benefits:
       - "daily parking"
       - "monthly parking pass"
       - "parking validation"
-      
+
   transit:
     enabled: true
     monthly_cap: 150.00
@@ -83,7 +83,7 @@ benefits:
       - "vanpool"
     pre_tax_eligible: true
     require_transit_receipt: true
-    
+
   bicycle:
     enabled: true
     annual_cap: 500.00
@@ -91,17 +91,17 @@ benefits:
       - "bike purchase (one-time)"
       - "bike maintenance"
       - "bike storage"
-      
+
   mileage:
     enabled: true
     rate_per_mile: 0.67  # 2026 IRS rate
     require_trip_documentation: true
-    
+
 remote_work_compensation:
   enabled: true
   # Some organizations pay a flat rate for days not commuting
   remote_work_stipend_monthly: 50.00
-  
+
 administration:
   submission_deadline_days: 30
   reimbursement_cycle: "monthly"
@@ -128,7 +128,7 @@ class Employee:
     office_location: str
     employment_type: str
     hire_date: datetime
-    
+
 @dataclass
 class CommuteExpense:
     expense_type: str  # parking, transit, bicycle, mileage
@@ -142,7 +142,7 @@ class CommuteBenefitCalculator:
         self.policy = policy_config
         self.eligibility = policy_config['eligibility']
         self.benefits = policy_config['benefits']
-        
+
     def check_eligibility(self, employee: Employee, work_days_onsite: int) -> dict:
         """Determine if employee qualifies for benefits."""
         # Check minimum onsite days
@@ -151,14 +151,14 @@ class CommuteBenefitCalculator:
                 'eligible': False,
                 'reason': f"Insufficient onsite days: {work_days_onsite} < {self.eligibility['minimum_onsite_days_per_month']}"
             }
-            
+
         # Check employment type
         if employee.employment_type not in self.eligibility['eligible_employment_types']:
             return {
                 'eligible': False,
                 'reason': f"Employment type '{employee.employment_type}' not eligible"
             }
-            
+
         # Check waiting period
         days_employed = (datetime.now() - employee.hire_date).days
         if days_employed < self.eligibility['waiting_period_days']:
@@ -166,26 +166,26 @@ class CommuteBenefitCalculator:
                 'eligible': False,
                 'reason': f"Within waiting period: {days_employed} days employed"
             }
-            
+
         return {'eligible': True, 'reason': 'All eligibility criteria met'}
-    
+
     def calculate_monthly_benefit(self, expenses: List[CommuteExpense], month: int, year: int) -> dict:
         """Calculate total benefit for a given month."""
         working_days = calendar.monthrange(year, month)[1]
-        business_days = sum(1 for d in range(1, working_days + 1) 
+        business_days = sum(1 for d in range(1, working_days + 1)
                           if datetime(year, month, d).weekday() < 5)
-        
+
         totals = {
             'parking': 0.0,
             'transit': 0.0,
             'bicycle': 0.0,
             'mileage': 0.0
         }
-        
+
         for expense in expenses:
             if expense.expense_type in totals:
                 totals[expense.expense_type] += expense.amount
-        
+
         # Apply caps
         capped_totals = {}
         for benefit_type, amount in totals.items():
@@ -195,7 +195,7 @@ class CommuteBenefitCalculator:
                 capped_totals[benefit_type] = min(amount, cap)
             else:
                 capped_totals[benefit_type] = amount
-        
+
         return {
             'total_benefit': sum(capped_totals.values()),
             'breakdown': capped_totals,
@@ -254,7 +254,6 @@ When deploying this policy in your organization, consider these practical factor
 **Equity Concerns** — Different office locations may have vastly different parking costs. Consider location-specific caps or allow managers to approve exceptions for high-cost locations.
 
 **Communication** — Provide clear guidelines to employees about what expenses qualify, how to submit receipts, and when reimbursements will be processed.
-
 
 
 ## Related Articles

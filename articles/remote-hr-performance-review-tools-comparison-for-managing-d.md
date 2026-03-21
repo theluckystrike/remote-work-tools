@@ -97,17 +97,17 @@ A practical custom implementation combines existing tools into a review workflow
 review_cycle:
   name: "Q1 2026 Performance Review"
   duration_weeks: 3
-  
+
   phases:
     - name: "Self-assessment"
       duration_days: 7
       template: "self-review-template.md"
-      
+
     - name: "Peer feedback"
       duration_days: 7
       reviewers: 3
       anonymity: false
-      
+
     - name: "Manager review"
       duration_days: 7
       includes_compensation: true
@@ -127,7 +127,7 @@ TEAM_MEMBERS=("user1@company.com" "user2@company.com" "user3@company.com")
 for member in "${TEAM_MEMBERS[@]}"; do
   # Check review completion status
   status=$(curl -s "https://your-review-api.com/status?user=$member")
-  
+
   if [[ "$status" == "pending" ]]; then
     # Send reminder via Slack
     curl -X POST "$SLACK_WEBHOOK" \
@@ -150,10 +150,10 @@ def export_review_data(api_endpoint, output_file):
         "Authorization": f"Bearer {API_TOKEN}",
         "Content-Type": "application/json"
     }
-    
+
     response = requests.get(f"{api_endpoint}/reviews", headers=headers)
     reviews = response.json()
-    
+
     # Transform for analysis
     transformed = []
     for review in reviews:
@@ -164,10 +164,10 @@ def export_review_data(api_endpoint, output_file):
             "scores": review["ratings"],
             "feedback_word_count": len(review["comments"])
         })
-    
+
     with open(output_file, "w") as f:
         json.dump(transformed, f, indent=2)
-    
+
     return len(transformed)
 ```
 
@@ -192,7 +192,6 @@ Regardless of which tool you choose, implement these practices:
 3. **Schedule reviews in advance** — Give team members time to prepare thoughtful responses
 4. **Automate reminders** — Reduce administrative burden and improve completion rates
 5. **Store data securely** — Review data is sensitive; follow your security team's guidelines
-
 
 
 ## Related Articles

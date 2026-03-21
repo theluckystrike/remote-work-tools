@@ -48,7 +48,7 @@ def create_multicurrency_invoice(client, amount, currency, due_date):
         params={"base": currency, "symbols": "EUR,USD"}
     )
     rates = rate_response.json()["rates"]
-    
+
     invoice_data = {
         "customer": client["id"],
         "line_items": [{
@@ -63,7 +63,7 @@ def create_multicurrency_invoice(client, amount, currency, due_date):
             "rates": rates
         }
     }
-    
+
     return accounting_api.create_invoice(invoice_data)
 ```
 

@@ -100,10 +100,10 @@ def categorize_comments(comments):
     """Sort comments by action needed."""
     categories = {
         "quick_fix": [],      # Typos, broken links
-        "needs_research": [], # Technical inaccuracies  
+        "needs_research": [], # Technical inaccuracies
         "feature_request": [] # Missing documentation
     }
-    
+
     for comment in comments:
         if "typo" in comment["text"].lower() or "link" in comment["text"].lower():
             categories["quick_fix"].append(comment)
@@ -111,7 +111,7 @@ def categorize_comments(comments):
             categories["needs_research"].append(comment)
         else:
             categories["feature_request"].append(comment)
-    
+
     return categories
 
 # Run weekly and post results to your team Slack channel
@@ -140,8 +140,8 @@ const contributions = [
   { name: "Elena Rodriguez", PRs: 7, issues: 4, reviews: 18 },
 ];
 
-const sorted = contributions.sort((a, b) => 
-  (b.PRs * 3 + b.issues * 2 + b.reviews) - 
+const sorted = contributions.sort((a, b) =>
+  (b.PRs * 3 + b.issues * 2 + b.reviews) -
   (a.PRs * 3 + a.issues * 2 + a.reviews)
 );
 

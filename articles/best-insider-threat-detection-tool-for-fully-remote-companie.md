@@ -48,7 +48,7 @@ Start with logging from your cloud providers. AWS CloudTrail, Google Cloud Audit
 # Example: CloudTrail event pattern for detecting unusual IAM changes
 def detect_privileged_iam_changes(event):
     """
-    Flag IAM policy modifications that could indicate 
+    Flag IAM policy modifications that could indicate
     privilege escalation by a malicious insider
     """
     if event['eventSource'] == 'iam.amazonaws.com':
@@ -73,29 +73,29 @@ const { Octokit } = require("@octokit/rest");
 
 async function detectUnusualRepoAccess(org, days = 7) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-  
+
   // Get recent repository access events
   const { data: events } = await octokit.request('GET /orgs/{org}/events', {
     org,
     per_page: 100
   });
-  
+
   // Analyze access patterns per user
   const userActivity = {};
   events.forEach(event => {
     const actor = event.actor.login;
     userActivity[actor] = (userActivity[actor] || 0) + 1;
   });
-  
+
   // Calculate statistical threshold
   const avgActivity = Object.values(userActivity).reduce((a, b) => a + b, 0) / Object.keys(userActivity).length;
   const threshold = avgActivity * 3;
-  
+
   // Flag users exceeding threshold
   const anomalies = Object.entries(userActivity)
     .filter(([_, count]) => count > threshold)
     .map(([user, count]) => ({ user, count, threshold }));
-  
+
   return anomalies;
 }
 ```
@@ -114,14 +114,14 @@ detection_rules:
       - google_workspace
       - microsoft_365
       - dropbox
-    
+
   - name: external_file_sharing
     condition: file.shared_with_domain == "external"
     severity: medium
     exclude_domains:
       - trusted-partner.com
       - vendor.com
-    
+
   - name: data_export_spike
     condition: user.exports > avg_user_exports * 4
     severity: high

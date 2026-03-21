@@ -39,7 +39,7 @@ def classify_worker(relationship_type, schedule_control, equipment_use, exclusiv
     Basic classification heuristic - consult legal for final determination
     """
     score = 0
-    
+
     if relationship_type == "exclusive":
         score += 2
     if schedule_control == "company_defined":
@@ -48,7 +48,7 @@ def classify_worker(relationship_type, schedule_control, equipment_use, exclusiv
         score += 1
     if exclusivity == "full_time":
         score += 2
-    
+
     # Score > 4 suggests employment
     return "employee" if score > 4 else "contractor"
 ```
@@ -213,7 +213,6 @@ _______________________ ____________
 _______________________ ____________
 [Company Representative] [Date]
 ```
-
 
 
 ## Related Articles

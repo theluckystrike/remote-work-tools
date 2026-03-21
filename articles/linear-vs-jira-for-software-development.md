@@ -113,7 +113,7 @@ const linearClient = new LinearClient({ apiKey: process.env.LINEAR_API_KEY });
 
 app.post('/webhooks/linear', async (req, res) => {
   const { action, type, data } = req.body;
-  
+
   if (type === 'Issue' && action === 'create') {
     // Create corresponding GitHub issue
     await githubClient.issues.create({
@@ -123,7 +123,7 @@ app.post('/webhooks/linear', async (req, res) => {
       body: `Linear: ${data.url}\n\n${data.description}`
     });
   }
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -389,7 +389,6 @@ Total: 60 seconds
 ```
 
 Linear is 50% faster for this core developer workflow.
-
 
 
 ## Related Articles

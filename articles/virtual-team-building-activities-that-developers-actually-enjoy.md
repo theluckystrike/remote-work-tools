@@ -51,10 +51,10 @@ class ReviewPoint:
 class CodeReviewGame:
     def __init__(self):
         self.reviews: List[ReviewPoint] = []
-    
+
     def add_review(self, reviewer: str, author: str, points: int, category: str):
         self.reviews.append(ReviewPoint(reviewer, author, points, category, datetime.now()))
-    
+
     def leaderboard(self):
         scores = {}
         for review in self.reviews:
@@ -94,17 +94,17 @@ function suggestPairs(developers) {
   // Match by shared interests, different levels for mentorship
   const pairs = [];
   const used = new Set();
-  
+
   for (let i = 0; i < developers.length; i++) {
     if (used.has(developers[i].name)) continue;
-    
+
     for (let j = i + 1; j < developers.length; j++) {
       if (used.has(developers[j].name)) continue;
-      
+
       const shared = developers[i].interests.filter(
         interest => developers[j].interests.includes(interest)
       );
-      
+
       if (shared.length > 0) {
         pairs.push({
           pair: [developers[i].name, developers[j].name],
@@ -248,7 +248,6 @@ Try one activity for a month before evaluating. Small consistent efforts beat el
 ---
 
 The best virtual team building for developers happens when activities respect technical minds, allow for different energy levels, and create genuine connection without forced participation. Pick one idea that fits your team culture, start small, and iterate based on what people actually enjoy.
-
 
 
 ## Related Articles

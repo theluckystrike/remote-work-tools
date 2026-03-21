@@ -221,7 +221,7 @@ Implement a search strategy:
 ```javascript
 // Example: Documentation link component for your UI library
 export const DocLink = ({ to, children }) => (
-  <a 
+  <a
     href={`https://your-org.docs.site/${to}`}
     target="_blank"
     rel="noopener noreferrer"
@@ -232,7 +232,7 @@ export const DocLink = ({ to, children }) => (
 );
 
 // Usage in component code
-<Button 
+<Button
   variant="primary"
   onClick={handleSubmit}
 /*{/* Learn about variant options: <DocLink to="components/button#variants">Button variants</DocLink> */}
@@ -259,8 +259,6 @@ Start with what causes the most pain today. If your Slack channels are flooded w
 The goal is not perfect documentation—it's documentation that enables your team to move faster, not slower.
 
 ---
-
-
 
 
 ## Related Articles

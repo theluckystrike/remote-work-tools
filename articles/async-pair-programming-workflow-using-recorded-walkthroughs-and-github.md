@@ -147,7 +147,7 @@ As the navigator, your job is to watch the recording carefully and provide const
 ### Concerns
 1. **Line 45 - Potential race condition**: I noticed...
    - Suggestion: Consider adding a lock here...
-   
+
 2. **Design consideration**: The current approach...
 
 ### Questions
@@ -171,17 +171,17 @@ When you receive feedback, address it systematically:
 ```
 Thanks for the review! I've addressed your feedback:
 
-1. **Race condition (line 45)**: Added a mutex lock as suggested. 
+1. **Race condition (line 45)**: Added a mutex lock as suggested.
    See commit `abc123`.
 
-2. **Design consideration**: I considered a separate class but decided 
-   to keep it in the service for now to minimize code churn. Happy to 
+2. **Design consideration**: I considered a separate class but decided
+   to keep it in the service for now to minimize code churn. Happy to
    revisit in a follow-up if needed.
 
-3. **Error handling**: Added proper error propagation in the updated 
+3. **Error handling**: Added proper error propagation in the updated
    recording: [new link]
 
-Requesting re-review. Let me know if the new recording answers your 
+Requesting re-review. Let me know if the new recording answers your
 questions!
 ```
 

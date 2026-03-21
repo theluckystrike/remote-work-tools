@@ -469,5 +469,6 @@ The era of traditional corporate VPN is over. Modern team VPN is zero-trust, dev
 - [Best VPN Alternative for Remote Developers Needing Secure](/remote-work-tools/best-vpn-alternative-for-remote-developers-needing-secure-cl/)
 - [Best VPN for Remote Workers in Thailand Avoiding Geo](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

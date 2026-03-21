@@ -122,7 +122,7 @@ RATE = 44100
 RECORD_SECONDS = 5
 
 p = pyaudio.PyAudio()
-stream = p.open(format=FORMAT, channels=CHANNELS, rate=RATE, 
+stream = p.open(format=FORMAT, channels=CHANNELS, rate=RATE,
                 input=True, frames_per_buffer=CHUNK)
 frames = []
 for _ in range(0, int(RATE / CHUNK * RECORD_SECONDS)):

@@ -49,7 +49,7 @@ For developers who want programmatic control, the MediaDevices API provides fine
 async function getCameraInfo() {
   const devices = await navigator.mediaDevices.enumerateDevices();
   const videoDevices = devices.filter(d => d.kind === 'videoinput');
-  
+
   return videoDevices.map(device => ({
     deviceId: device.deviceId,
     label: device.label,
@@ -69,7 +69,7 @@ async function setOptimalCamera() {
     },
     audio: true
   });
-  
+
   return stream;
 }
 ```
@@ -285,7 +285,6 @@ If your team currently requires cameras on and you want to make it optional, imp
 - Treat camera status as a normal choice, not a moral statement
 
 Many teams report that making cameras optional actually increases engagement because people feel less self-conscious. When you can choose camera off, many people choose camera on more frequently—because they feel less obligated and more in control.
-
 
 
 ## Related Articles

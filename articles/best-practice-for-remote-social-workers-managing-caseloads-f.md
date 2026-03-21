@@ -51,7 +51,7 @@ SESSION TYPE: ${sessionType}
 DURATION: ${duration} minutes
 
 SUBJECTIVE:
-Client reported 
+Client reported
 
 OBJECTIVE:
 Observations during session:

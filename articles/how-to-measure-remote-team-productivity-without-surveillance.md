@@ -46,7 +46,7 @@ def calculate_cycle_time(tickets):
             start = ticket['created_at']
             end = ticket['completed_at']
             cycle_times.append((end - start).days)
-    
+
     if cycle_times:
         return sum(cycle_times) / len(cycle_times)
     return 0
@@ -101,16 +101,16 @@ Track async communication health without reading message content:
 function analyzeCommunicationHealth(messages, teamSize) {
   const threads = new Map();
   const responseTimes = [];
-  
+
   messages.forEach(msg => {
     if (msg.thread_ts && !threads.has(msg.thread_ts)) {
       threads.set(msg.thread_ts, msg.ts);
     }
   });
-  
+
   // Calculate response time within threads
   // Lower response times often indicate healthy async communication
-  
+
   return {
     threadCount: threads.size,
     messagesPerPerson: messages.length / teamSize,
@@ -161,7 +161,7 @@ dashboard:
       type: "timeseries"
       datasource: "prometheus"
       query: "avg(cycle_time_days) by (sprint)"
-    
+
     - title: "PR Review Health"
       type: "stat"
       datasource: "github"
@@ -191,7 +191,6 @@ Start implementing trust-based productivity measurement:
 3. Define team outcomes: Collaboratively establish measurable objectives
 4. Build dashboards: Create shared visibility into team performance
 5. Iterate and refine: Adjust metrics based on what actually improves outcomes
-
 
 
 ## Related Articles

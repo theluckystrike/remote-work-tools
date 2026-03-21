@@ -90,7 +90,7 @@ def create_invoice_with_tax(client_details, items, currency='USD'):
         country=client_details['country'],
         vat_number=client_details.get('vat_number')
     )
-    
+
     invoice = quaderno.Invoice.create(
         contact=contact.id,
         currency=currency,
@@ -105,7 +105,7 @@ def create_invoice_with_tax(client_details, items, currency='USD'):
         ],
         payment_gateway='stripe'
     )
-    
+
     return invoice
 ```
 
@@ -179,7 +179,7 @@ async function setupRetainer(customer, planId, billingCycle = 'month') {
     billing_period_unit: billing_cycle,
     start_date: Math.floor(Date.now() / 1000)
   });
-  
+
   return subscription;
 }
 ```
@@ -212,7 +212,7 @@ def log_time_and_invoice(project_id, hours, description, billable=True):
         description=description,
         billable=billable
     )
-    
+
     # Generate invoice from tracked time
     invoice = freshbooks_client.invoices.create(
         project_id=project_id,
@@ -224,7 +224,7 @@ def log_time_and_invoice(project_id, hours, description, billable=True):
             'unit_cost': get_hourly_rate(project_id)
         }]
     )
-    
+
     return invoice
 ```
 

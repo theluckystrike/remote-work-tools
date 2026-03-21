@@ -205,7 +205,7 @@ Create a simple feedback mechanism at the bottom of each wiki page:
 ```markdown
 ## Feedback
 
-Was this page helpful? [Yes/No]  
+Was this page helpful? [Yes/No]
 Suggestions for improvement: ___________
 
 *Last updated: March 2026*
@@ -214,7 +214,6 @@ Suggestions for improvement: ___________
 This approach transforms onboarding from a chaotic introduction into a structured, supportive experience that respects both the new hire's time and the team's resources.
 
 ---
-
 
 
 ## Related Articles

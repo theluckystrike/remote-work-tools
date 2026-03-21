@@ -209,7 +209,6 @@ upscmd -u admin upsname shutdown.return
 Perform load tests quarterly—simulate an outage by pulling the power cord (safest with line-interactive units) and verify expected runtime.
 
 
-
 ## Related Articles
 
 - [UPS Battery Backup for Home Office Setup 2026](/remote-work-tools/ups-battery-backup-for-home-office-setup-2026/)

@@ -199,8 +199,6 @@ Successful remote work in Mexico City depends on three things: reliable internet
 ---
 
 
-
-
 ## Related Articles
 
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)

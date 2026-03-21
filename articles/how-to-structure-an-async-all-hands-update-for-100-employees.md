@@ -104,15 +104,15 @@ SECTIONS = [
 def compile_update(source_dir: str, output_file: str):
     source = Path(source_dir)
     output = Path(output_file)
-    
+
     content = ["# Company Update\n"]
-    
+
     for section_file in SECTIONS:
         section_path = source / section_file
         if section_path.exists():
             content.append(f"\n## {section_file.replace('.md', '').replace('_', ' ').title()}\n")
             content.append(section_path.read_text())
-    
+
     output.write_text('\n'.join(content))
     print(f"Update compiled: {output}")
 
@@ -176,8 +176,6 @@ Choose tools your team already uses. Introducing new platforms for all-hands cre
 ---
 
 An async all-hands for 100 employees succeeds through structure, not magic. Define clear sections, automate collection, time distribution consistently, and close the loop with real Q&A. Your team gets information they can actually absorb, and you get a scalable communication system that works regardless of team size or time zone distribution.
-
-
 
 
 ## Related Articles

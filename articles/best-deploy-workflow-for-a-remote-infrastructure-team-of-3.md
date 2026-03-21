@@ -67,7 +67,7 @@ jobs:
       - run: terraform init
       - run: terraform validate
       - run: terraform plan -no-color
-      
+
   ansible:
     runs-on: ubuntu-latest
     steps:

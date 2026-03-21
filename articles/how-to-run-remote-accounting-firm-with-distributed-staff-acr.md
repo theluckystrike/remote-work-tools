@@ -101,28 +101,28 @@ def find_optimal_meeting_slots(team_zones, work_hours=(9, 17)):
     """Find time slots where all team members are in working hours."""
     results = []
     base_date = datetime.now()
-    
+
     for day_offset in range(7):
         date = base_date + timedelta(days=day_offset)
-        
+
         for hour in range(24):
             all_in_hours = True
             hours_per_zone = {}
-            
+
             for tz in team_zones:
                 local_hour = date.replace(hour=hour, minute=0)
                 local_hour = local_hour.astimezone(zoneinfo.ZoneInfo(tz))
                 hours_per_zone[tz] = local_hour.hour
-                
+
                 if not (work_hours[0] <= local_hour.hour < work_hours[1]):
                     all_in_hours = False
-            
+
             if all_in_hours:
                 results.append({
                     'utc': date.replace(hour=hour),
                     'local_times': hours_per_zone
                 })
-    
+
     return results
 
 # Example: New York, London, and Manila team
@@ -151,7 +151,7 @@ A shared client communication dashboard helps:
 - Coverage: Monday - Friday
 - Response SLA: 4 hours during business hours
 
-## EMEA Team (GMT/BST)  
+## EMEA Team (GMT/BST)
 - Available: 9 AM - 5 PM London
 - Coverage: Monday - Friday
 - Response SLA: 4 hours during business hours
@@ -187,7 +187,6 @@ Track these metrics to ensure your distributed model serves clients effectively:
 - Coverage overlap: Hours when multiple time zones have team members available
 
 Review metrics monthly and adjust workflows accordingly. The goal is continuous improvement, not rigid adherence to initial designs.
-
 
 
 ## Related Articles

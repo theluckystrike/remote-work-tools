@@ -36,13 +36,13 @@ The key to a successful async standup is consistency. Everyone should know exact
 ## [Date] Update
 
 ### What I worked on yesterday
-- 
+-
 
 ### What I'm working on today
-- 
+-
 
 ### Blockers or needs help
-- 
+-
 
 ### Interesting finds / learnings
 - (optional)
@@ -109,7 +109,7 @@ Device Testing: Mobile testing often requires specific devices. Include a note a
 
 ```
 ### Device needs this week
-- 
+-
 ```
 
 Build/CI Status: Mobile CI builds can be slow and flaky. A quick note about current build health helps team members prioritize accordingly:

@@ -42,7 +42,7 @@ Store your interview questions as structured data rather than in a GUI. This app
       "expected_duration_seconds": 120
     },
     {
-      "id": "q2", 
+      "id": "q2",
       "text": "On a scale of 1-10, how frustrating is the current solution?",
       "type": "rating",
       "follow_up": "What would make it a 10?"
@@ -73,7 +73,7 @@ async function createInterviewSession(templateId, participantEmail) {
       questions: await loadQuestions(templateId)
     })
   });
-  
+
   return response.json();
 }
 ```

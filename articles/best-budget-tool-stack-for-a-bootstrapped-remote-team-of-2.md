@@ -250,7 +250,7 @@ class TimeTracker:
         self.api_token = api_token
         self.workspace_id = workspace_id
         self.base_url = "https://api.track.toggl.com/api/v9"
-    
+
     def start_timer(self, description, project_id=None):
         """Start a new time entry."""
         url = f"{self.base_url}/workspaces/{self.workspace_id}/time_entries"
@@ -261,10 +261,10 @@ class TimeTracker:
             "duration": -1,  # Running timer
             "created_with": "budget-tool-stack"
         }
-        response = requests.post(url, json=data, 
+        response = requests.post(url, json=data,
                                   auth=(api_token, 'api_token'))
         return response.json()
-    
+
     def get_week_summary(self):
         """Get time summary for current week."""
         url = f"{self.base_url}/workspaces/{self.workspace_id}/summary/time_entries"
@@ -273,7 +273,7 @@ class TimeTracker:
             "start_date": week_start.strftime("%Y-%m-%d"),
             "end_date": datetime.utcnow().strftime("%Y-%m-%d")
         }
-        response = requests.get(url, params=params, 
+        response = requests.get(url, params=params,
                                 auth=(api_token, 'api_token'))
         return response.json()
 ```

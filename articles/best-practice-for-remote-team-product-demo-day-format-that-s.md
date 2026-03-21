@@ -87,20 +87,20 @@ Rather than interrupting live demos with questions, use async feedback channels.
 def announce_demo(demo_data):
     message = f"""
     📦 *New Product Demo: {demo_data['title']}*
-    
+
     *Engineer*: {demo_data['engineer']}
     *Team*: {demo_data['team']}
     *Duration*: {demo_data['duration_seconds']} seconds
-    
+
     🎯 Key Points:
     {chr(10).join(f"• {point}" for point in demo_data['key_points'])}
-    
+
     📺 Watch: {demo_data['recording_url']}
     🔗 PR: {demo_data['pr_link']}
-    
+
     💬 Questions? Reply in this thread!
     """
-    
+
     slack_client.chat_postMessage(
         channel=demo_data['slack_channel'],
         text=message

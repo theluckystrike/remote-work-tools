@@ -93,10 +93,10 @@ def predictability_score(commitment_accuracy, avg_cycle_time, target_cycle_time)
     # Weight factors: 40% commitment accuracy, 30% cycle time consistency, 30% lead time
     ca_weight = 0.40
     ct_weight = 0.30
-    
+
     # Cycle time factor: penalize when exceeding target
     ct_factor = min(1.0, target_cycle_time / max(avg_cycle_time, 1))
-    
+
     score = (commitment_accuracy * ca_weight) + (ct_factor * ct_weight * 100)
     return min(100, max(0, score))
 
@@ -118,20 +118,20 @@ from datetime import datetime, timedelta
 def get_github_cycle_time(owner, repo, token):
     headers = {"Authorization": f"token {token}"}
     url = f"https://api.github.com/repos/{owner}/{repo}/issues"
-    
+
     issues = requests.get(url, headers=headers, params={
         "state": "closed",
         "labels": "feature",
         "since": (datetime.now() - timedelta(days=30)).isoformat()
     }).json()
-    
+
     cycle_times = []
     for issue in issues:
         if "created_at" in issue and "closed_at" in issue:
             created = datetime.fromisoformat(issue["created_at"].replace("Z", "+00:00"))
             closed = datetime.fromisoformat(issue["closed_at"].replace("Z", "+00:00"))
             cycle_times.append((closed - created).days)
-    
+
     return {
         "avg_cycle_time": sum(cycle_times) / len(cycle_times) if cycle_times else 0,
         "features_delivered": len(cycle_times)
@@ -159,7 +159,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Calculate Metrics
         run: |
           python3 -c "
@@ -168,11 +168,11 @@ jobs:
           completed = 34
           committed = 40
           accuracy = (completed / committed) * 100
-          
+
           print(f'Commitment Accuracy: {accuracy:.1f}%')
           print(f'::set-output name=accuracy::{accuracy}')
           "
-      
+
       - name: Post to Slack
         if: always()
         run: |
@@ -217,8 +217,6 @@ Predictability improves through iteration:
 The goal is not to maximize velocity but to create reliable expectations that enable the broader organization to plan effectively.
 
 ---
-
-
 
 
 ## Related Articles

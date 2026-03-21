@@ -243,7 +243,6 @@ Route HDMI/DisplayPort and power cables along the back of the monitor and down t
 | Wall damage during installation | Overtightening or hole too large | Patch holes with spackle; use larger toggle bolts |
 
 
-
 ## Related Articles
 
 - [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)

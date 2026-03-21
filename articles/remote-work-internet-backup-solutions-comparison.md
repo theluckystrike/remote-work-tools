@@ -236,4 +236,6 @@ Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
 - [Remote Work Internet Speed Requirements by Task Type: Complete Guide](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}

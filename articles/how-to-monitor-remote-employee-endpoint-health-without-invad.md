@@ -89,7 +89,7 @@ from datetime import datetime
 
 def collect_health_metrics():
     hostname = socket.gethostname()
-    
+
     metrics = {
         "hostname": hostname,
         "timestamp": datetime.utcnow().isoformat(),
@@ -100,7 +100,7 @@ def collect_health_metrics():
         "disk_percent": psutil.disk_usage('/').percent,
         "network_connected": psutil.net_if_stats().get('eth0') is not None,
     }
-    
+
     return metrics
 
 def report_metrics(metrics, api_endpoint, api_key):
@@ -110,8 +110,8 @@ def report_metrics(metrics, api_endpoint, api_key):
     }
     try:
         response = requests.post(
-            api_endpoint, 
-            json=metrics, 
+            api_endpoint,
+            json=metrics,
             headers=headers,
             timeout=10
         )
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     import os
     metrics = collect_health_metrics()
     report_metrics(
-        metrics, 
+        metrics,
         os.getenv("HEALTH_API_ENDPOINT"),
         os.getenv("HEALTH_API_KEY")
     )
@@ -220,7 +220,7 @@ Collect only what you need. If disk space monitoring solves your support questio
 # Example: Collect only essential metrics
 ESSENTIAL_METRICS = {
     "cpu_percent": "System load",
-    "memory_percent": "Memory availability", 
+    "memory_percent": "Memory availability",
     "disk_percent": "Storage capacity",
     "last_update": "Patch currency",
     "encryption_enabled": "Security status",
@@ -247,8 +247,6 @@ Endpoint monitoring for remote teams requires trust to function effectively. Emp
 When employees understand that endpoint monitoring helps IT respond quickly to technical problems, they become partners in maintaining device health rather than targets of surveillance.
 
 ---
-
-
 
 
 ## Related Articles

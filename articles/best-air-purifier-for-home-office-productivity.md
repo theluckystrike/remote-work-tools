@@ -93,18 +93,18 @@ def check_air_quality():
     """Check office air quality and log to console."""
     api_key = os.getenv('AIR_QUALITY_API_KEY')
     location = os.getenv('OFFICE_LOCATION')
-    
+
     response = requests.get(
         f"https://api.airquality.com/v2/current",
         params={"key": api_key, "location": location}
     )
-    
+
     data = response.json()
     pm25 = data['data']['pm25']
     aqi = data['data']['aqi']
-    
+
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+
     if aqi > 50:
         print(f"[{timestamp}] ⚠️  Air quality degraded: AQI={aqi}, PM2.5={pm25}µg/m³")
     else:
@@ -126,7 +126,7 @@ const client = mqtt.connect('mqtt://localhost:1883')
 setInterval(() => {
   const pm25 = readPM25Sensor() // Your sensor reading function
   const aqi = calculateAQI(pm25)
-  
+
   client.publish('office/air/quality', JSON.stringify({
     pm25: pm25,
     aqi: aqi,

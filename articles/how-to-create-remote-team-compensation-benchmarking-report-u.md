@@ -49,14 +49,14 @@ import json
 def load_survey_data():
     stackoverflow = pd.read_csv('stackoverflow_2026_salaries.csv')
     github = pd.read_csv('github_octoverse_compensation.csv')
-    
+
     # Normalize column names
     stackoverflow = stackoverflow.rename(columns={
         'YearsExperience': 'years_experience',
         'AnnualSalary': 'annual_salary',
         'Country': 'country'
     })
-    
+
     return stackoverflow, github
 
 # Apply purchasing power parity adjustment
@@ -89,11 +89,11 @@ For each bucket, calculate percentiles (25th, 50th, 75th, 90th) from your survey
 def calculate_compensation_bands(df, role, experience_years):
     """Calculate percentile bands for a specific role"""
     filtered = df[
-        (df['role'] == role) & 
+        (df['role'] == role) &
         (df['years_experience'] >= experience_years - 2) &
         (df['years_experience'] <= experience_years + 2)
     ]
-    
+
     return {
         'p25': filtered['salary_ppp'].quantile(0.25),
         'p50': filtered['salary_ppp'].quantile(0.50),
@@ -134,7 +134,7 @@ import matplotlib.pyplot as plt
 def create_benchmark_chart(internal_data, market_data):
     """Visualize internal vs market compensation"""
     fig, ax = plt.subplots(figsize=(12, 6))
-    
+
     # Plot market ranges
     ax.fill_between(
         market_data['experience'],
@@ -143,7 +143,7 @@ def create_benchmark_chart(internal_data, market_data):
         alpha=0.3,
         label='Market Range (25th-75th)'
     )
-    
+
     # Plot internal salaries
     ax.scatter(
         internal_data['experience'],
@@ -151,12 +151,12 @@ def create_benchmark_chart(internal_data, market_data):
         color='red',
         label='Your Team'
     )
-    
+
     ax.set_xlabel('Years of Experience')
     ax.set_ylabel('Annual Salary (PPP-adjusted)')
     ax.set_title('Compensation Benchmark: Your Team vs Market')
     ax.legend()
-    
+
     return fig
 ```
 
@@ -192,7 +192,6 @@ Second, apply PPP: Argentina's PPP factor is approximately 0.4, meaning $1 in th
 Third, apply remote adjustment: If remote work carries a 10% premium in your industry, adjust accordingly.
 
 The final recommendation: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment. This reflects global market rates while accounting for remote work value.
-
 
 
 ## Related Articles

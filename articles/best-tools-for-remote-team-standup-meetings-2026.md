@@ -358,5 +358,6 @@ Async standups are a core building block of remote team health. The right tool +
 - [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 - [Best Virtual Icebreaker Tool for Remote Team Meetings That](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

@@ -166,10 +166,10 @@ def generate_review_tasks(team_members, peers):
     for member in team_members:
         print(f"=== Review Cycle for {member['name']} ===")
         print(f"Self-assessment due: {datetime.now().strftime('%Y-%m-%d')}")
-        
+
         deadline = datetime.now() + timedelta(days=FEEDBACK_DEADLINE_DAYS)
         member_peers = [p for p in peers if p != member['email']]
-        
+
         print(f"Peer feedback request for: {', '.join(member_peers[:4])}")
         print(f"Peer feedback deadline: {deadline.strftime('%Y-%m-%d')}")
         print()
@@ -213,7 +213,6 @@ Track these signals to evaluate your async review process:
 - Goal achievement (do employees complete their stated goals?)
 - Engagement (do people find the process valuable?)
 - Retention (are high performers staying after reviews?)
-
 
 
 ## Related Articles

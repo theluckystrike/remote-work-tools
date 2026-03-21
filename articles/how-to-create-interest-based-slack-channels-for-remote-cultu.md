@@ -85,7 +85,7 @@ def add_new_user_to_interests(user_id, client):
         "interest-fitness",
         "interest-cooking"
     ]
-    
+
     for channel in interest_channels:
         try:
             client.conversations.invite(
@@ -199,8 +199,6 @@ Interest-based channels succeed when they become genuine communities rather than
 Start small, measure results, and iterate. The specific interests matter less than the principle of creating connection outside work tasks. Your team will be more cohesive, your retention will improve, and people will actually enjoy their remote work experience more.
 
 The best time to create interest channels was when your team formed. The second best time is today.
-
-
 
 
 ## Related Articles

@@ -107,7 +107,7 @@ Set up webhooks or native integrations to notify the right team member immediate
 
 app.post('/webhook/intake-form', async (req, res) => {
   const { projectType, budget, clientEmail } = req.body;
-  
+
   // Route based on project complexity
   if (projectType === 'enterprise' || budget > 50000) {
     await notifySlackChannel('#enterprise-leads', req.body);
@@ -116,10 +116,10 @@ app.post('/webhook/intake-form', async (req, res) => {
     await notifySlackChannel('#smb-leads', req.body);
     await createNotionTask('SMB Pipeline', req.body);
   }
-  
+
   // Trigger follow-up sequence
   await sendFollowUpEmail(clientEmail, projectType);
-  
+
   res.status(200).send('Processed');
 });
 ```

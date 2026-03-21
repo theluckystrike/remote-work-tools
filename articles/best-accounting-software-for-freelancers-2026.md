@@ -169,11 +169,11 @@ Link your project tracking to invoicing:
 def create_invoice_from_timelog(timelog_file):
     unbilled = parse_timelog(timelog_file, unbilled_only=True)
     total = sum(entry.hours * entry.rate for entry in unbilled)
-    
+
     invoice = {
         'client': unbilled[0].client,
         'items': [
-            {'description': f"{e.date}: {e.task}", 
+            {'description': f"{e.date}: {e.task}",
              'amount': e.hours * e.rate}
             for e in unbilled
         ]
@@ -198,7 +198,6 @@ For developers who value data ownership and don't mind investing time upfront, L
 Whatever you choose, ensure your financial data remains portable. Regular exports to CSV or JSON mean you're never locked into a single platform.
 
 ---
-
 
 
 ## Related Articles

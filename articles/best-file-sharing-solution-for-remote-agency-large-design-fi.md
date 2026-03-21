@@ -37,7 +37,7 @@ def upload_large_file(file_path, destination):
     with open(file_path, 'rb') as f:
         file_size = os.path.getsize(file_path)
         CHUNK_SIZE = 8 * 1024 * 1024  # 8MB chunks
-        
+
         if file_size <= CHUNK_SIZE:
             dbx.files_upload(f.read(), destination)
         else:
@@ -49,13 +49,13 @@ def upload_large_file(file_path, destination):
                 session_id=upload_session.session_id,
                 offset=f.tell()
             )
-            
+
             while f.tell() < file_size:
                 dbx.files_upload_session_append_v2(
                     cursor, f.read(CHUNK_SIZE)
                 )
                 cursor.offset = f.tell()
-            
+
             dbx.files_upload_session_finish(
                 cursor, f.read(), dropbox.files.CommitInfo(destination)
             )
@@ -124,27 +124,27 @@ client = Client(auth)
 # Create folder with specific collaboration settings
 def create_project_folder(parent_folder_id, project_name):
     folder = client.folder(parent_folder_id).create_subfolder(project_name)
-    
+
     # Set folder metadata for project tracking
     folder.metadata().create({
         '/project_name': project_name,
         '/client_confidential': True,
         '/retention_period_days': 365
     })
-    
+
     # Invite specific team members with custom role
     collaboration = folder.add_collaborator(
         'designer@agency.com',
         role='editor'
     )
-    
+
     return folder
 
 # Get download links for assets expiring in 24 hours
 def generate_expiring_links(folder_id, expiry_hours=24):
     folder = client.folder(folder_id)
     items = folder.get_items()
-    
+
     links = []
     for item in items:
         if item.type == 'file':
@@ -153,7 +153,7 @@ def generate_expiring_links(folder_id, expiry_hours=24):
                 expires=(datetime.now() + timedelta(hours=expiry_hours))
             )
             links.append({'name': item.name, 'url': link})
-    
+
     return links
 ```
 
@@ -192,7 +192,6 @@ The mount feature lets creative applications access cloud storage directly, thou
 Choose **Dropbox** if your team prioritizes simplicity and cross-platform sync with selective folder control. Select **Google Drive** if you're already embedded in Google's ecosystem and need real-time document collaboration alongside design assets. Pick **Box** when compliance requirements demand enterprise-grade security and audit trails. Opt for **rclone** when you need to bridge multiple storage providers or want CLI-driven automation.
 
 For most remote design agencies, a hybrid approach works best: Dropbox or Google Drive for active projects requiring collaboration, with rclone scripts handling archival to cheaper cold storage. The key is ensuring your file sharing solution supports selective sync, maintains reliable version history, and integrates with your existing creative tooling without forcing workflow changes.
-
 
 
 ## Related Articles

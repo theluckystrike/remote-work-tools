@@ -79,7 +79,7 @@ def get_plug_power_status(plug_ip: str) -> float:
     # Using tp-link smarthome protocol
     # Returns watts when desk is in use
     import socket
-    
+
     command = '{"system":{"get_sysinfo":{}}}'
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.sendto(command.encode(), (plug_ip, 9999))
@@ -101,10 +101,10 @@ def log_standing_time(power_threshold: float = 5.0):
     """Log standing desk usage periods."""
     usage_log = []
     current_session = None
-    
+
     while True:
         power = get_plug_power_status("192.168.1.100")  # Your plug IP
-        
+
         if power > power_threshold:
             if current_session is None:
                 current_session = {"start": datetime.now(), "type": "standing"}
@@ -116,7 +116,7 @@ def log_standing_time(power_threshold: float = 5.0):
                 ).total_seconds() / 60
                 usage_log.append(current_session)
                 current_session = None
-        
+
         time.sleep(60)  # Check every minute
 
 if __name__ == "__main__":
@@ -149,7 +149,7 @@ automation:
           data:
             push:
               sound: "default"
-    
+
   - alias: "Stand Up Notification"
     action:
       - service: tts.google_translate_tts

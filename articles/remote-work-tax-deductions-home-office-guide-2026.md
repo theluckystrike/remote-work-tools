@@ -595,4 +595,6 @@ Examples:
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 - [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
+
 {% endraw %}
