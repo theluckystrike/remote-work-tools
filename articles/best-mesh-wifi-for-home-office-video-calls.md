@@ -155,6 +155,168 @@ Mesh WiFi requires ongoing attention:
 - Node health monitoring: Most apps provide connection quality metrics. Review these when call quality degrades.
 - Reboot schedules: Monthly reboots clear memory leaks and restore optimal performance.
 
+## Specific Product Recommendations for 2026
+
+### ASUS AXE7350 (WiFi 6E)
+
+**Best for**: Power users needing 6GHz band access
+
+The ASUS AXE7350 brings WiFi 6E to the home office with native 6GHz support, providing an entirely uncongested band for video calls. Tri-band design dedicates 5GHz-2 for backhaul, isolating that traffic from your primary network. QoS implementation exceeds most competitors, with granular application-level prioritization.
+
+```
+ASUS AXE7350 Specifications:
+- WiFi 6E with 6GHz band
+- Total throughput: 7.35 Gbps
+- 4K QAM and 160MHz channels
+- Wired backhaul support
+- Advanced QoS with app-level controls
+Price: $350-400
+```
+
+The trade-off: higher cost and more complex configuration. Best for developers comfortable optimizing networking details.
+
+### Netgear Orbi 970 (Premium)
+
+**Best for**: Large homes requiring 3+ nodes
+
+The Orbi 970 delivers enterprise-grade mesh with dedicated 5GHz backhaul, comprehensive management features, and excellent coverage in large spaces. Strong QoS implementation and the ability to create guest networks with separate bandwidth limits make it ideal for shared housing.
+
+```
+Netgear Orbi 970 Specifications:
+- WiFi 6E capable with 6GHz support
+- Tri-band design with dedicated backhaul
+- 42 connected devices per router
+- Mobile app and web dashboard
+- Professional management console
+Price: $400-500 (3-pack)
+```
+
+The trade-off: premium pricing and overkill for apartments. Best for homes over 3,500 square feet or heavy multi-user environments.
+
+### Eero Pro 6E
+
+**Best for**: Balanced performance and ease of use
+
+Eero Pro 6E delivers strong performance with minimal configuration complexity. The Eero app guides setup with visual placement recommendations, making it accessible to non-technical users while offering adequate QoS for video calls.
+
+```
+Eero Pro 6E Specifications:
+- WiFi 6E with 6GHz support
+- 2.4GHz + 5GHz-1 + 5GHz-2 + 6GHz
+- Dedicated backhaul band
+- Thread border router integration
+- Automatic updates and channel optimization
+Price: $300-350 per node
+```
+
+The trade-off: less granular QoS controls than enterprise systems. Best for users prioritizing simplicity and reliability over fine-tuned optimization.
+
+### TP-Link Deco XE200 (Budget Option)
+
+**Best for**: Remote workers on limited budgets
+
+The Deco XE200 delivers solid WiFi 6 performance at $120 per node, making whole-home coverage achievable without premium pricing. While it lacks 6GHz, the dual 5GHz bands and capable QoS handle video calls smoothly.
+
+```
+TP-Link Deco XE200 Specifications:
+- WiFi 6 (802.11ax)
+- 3200 Mbps total throughput
+- Dual 5GHz bands for flexible backhaul
+- Sufficient QoS for home office use
+- Mobile app control
+Price: $120-140 per node ($300+ for 3-pack)
+```
+
+The trade-off: lower throughput than premium options and simpler processor. Best for users whose primary need is stable video calls rather than maximum performance.
+
+## Installation and Optimization Workflows
+
+### Pre-Installation Assessment
+
+Before purchasing a mesh system, verify your current situation:
+
+```bash
+#!/bin/bash
+# Pre-mesh assessment script
+
+echo "=== Home Network Assessment ==="
+
+# Check current router model
+echo "Current router model:"
+arp -a | grep default
+
+# Check available space
+echo "Square footage estimate needed for coverage"
+echo "(Typical: 150-200 sq ft per node with obstacles)"
+
+# Identify interference sources
+echo "2.4GHz interference sources (microwave, cordless phone, baby monitor)"
+echo "5GHz interference from neighboring networks:"
+# Use airport utility on macOS
+/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -s | wc -l
+
+# Check for wired backhaul feasibility
+echo "Can you run Ethernet between nodes? (Recommended for stable backhaul)"
+```
+
+### Node Placement Validation
+
+After installing nodes, validate placement with measurements:
+
+```bash
+#!/bin/bash
+# Node placement validation script
+
+# Test latency from each node location
+for node in "node1_ip" "node2_ip" "node3_ip"; do
+    echo "Testing $node..."
+    ping -c 50 $node | grep "min/avg/max/stddev"
+    # Latency should be <10ms within the home
+done
+
+# Test throughput from each location
+# Using iperf3: iperf3 -c server_ip -R
+iperf3 -c 192.168.1.1 -R
+
+# Run speed tests from near each node
+# Using speedtest-cli: pip install speedtest-cli
+speedtest-cli
+```
+
+Latency spikes or throughput drops indicate suboptimal node placement warranting repositioning.
+
+## Troubleshooting Common Mesh Issues
+
+### Devices Preferring Weak Nodes
+
+Sometimes devices connect to distant nodes instead of nearby ones:
+
+```bash
+# Force roaming to better node
+# Disable band steering temporarily to observe which node devices prefer
+# Re-enable band steering in router admin panel
+
+# Test signal strength from each node
+# Expected RSSI at 30 feet: -45 to -55 dBm (acceptable), -70+ dBm (marginal)
+airport -I  # Shows current connection info on macOS
+```
+
+### High Latency Between Nodes
+
+If backhaul latency exceeds 50ms:
+
+```bash
+# Ping between nodes to check backhaul health
+ping -c 20 second_node_ip
+
+# High latency suggests:
+# - Wireless backhaul interference (switch to wired if possible)
+# - Node placed too far apart
+# - Obstructions blocking line of sight
+
+# Solution: Reposition nodes closer or enable wired backhaul
+```
+
 For developers and power users, prioritize systems with wired backhaul options, strong QoS controls, and WiFi 6 support. Place nodes thoughtfully, optimize your channel selection, and hardwire critical devices when possible.
 
 ---

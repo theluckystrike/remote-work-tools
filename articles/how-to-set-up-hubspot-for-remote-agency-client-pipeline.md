@@ -145,6 +145,139 @@ Build a dashboard with these key metrics:
 
 Schedule a weekly pipeline review where team members update deal stages during their local business hours. With proper automation and clear property usage, this weekly sync becomes a strategic conversation rather than a status update scavenger hunt.
 
+## Advanced: Predictive Deal Scoring
+
+Move beyond manual tracking with predictive scoring that flags which deals are likely to close.
+
+### Building a Simple Scoring Model
+
+Create a HubSpot custom property that scores deal likelihood based on behavioral signals:
+
+```python
+# HubSpot Deal Scoring Logic
+def calculate_deal_score(deal):
+    """
+    Calculate probability of deal closing.
+    Scores deals 1-10 based on signals.
+    """
+    score = 0
+    signals = {}
+
+    # Stage weight (0-3 points)
+    stage_scores = {
+        "New Inquiry": 0,
+        "Discovery Call Scheduled": 1,
+        "Proposal Sent": 2,
+        "Proposal Review": 2,
+        "Contract Negotiation": 3
+    }
+    score += stage_scores.get(deal['stage'], 0)
+    signals['stage_score'] = stage_scores.get(deal['stage'], 0)
+
+    # Engagement signal (0-3 points)
+    # Count recent interactions
+    if deal['days_since_last_activity'] < 3:
+        score += 3
+        signals['engagement'] = 'High (activity <3 days ago)'
+    elif deal['days_since_last_activity'] < 7:
+        score += 2
+        signals['engagement'] = 'Medium (activity <7 days)'
+    else:
+        signals['engagement'] = 'Low (activity >7 days)'
+
+    # Deal size (0-2 points)
+    if deal['amount'] > 50000:
+        score += 2
+        signals['size'] = 'Large (>$50k)'
+    elif deal['amount'] > 10000:
+        score += 1
+        signals['size'] = 'Medium ($10-50k)'
+
+    # Contact engagement (0-2 points)
+    if deal['contact_email_opens'] > 5:
+        score += 2
+        signals['contact_engagement'] = 'High (5+ opens)'
+    elif deal['contact_email_opens'] > 0:
+        score += 1
+        signals['contact_engagement'] = 'Some opens'
+
+    return {
+        'total_score': min(score, 10),  # Cap at 10
+        'signals': signals,
+        'recommendation': (
+            'Follow up urgently' if score >= 8 else
+            'Follow up soon' if score >= 5 else
+            'Monitor'
+        )
+    }
+```
+
+Store this score in a HubSpot custom property and update it automatically via workflow.
+
+### Prioritizing Follow-ups by Score
+
+Use scoring to focus effort on high-probability deals:
+
+```
+Score 8-10: Follow up same day
+- Personal email or Slack message
+- Schedule call within 48 hours
+- Prioritize for senior team member
+
+Score 5-7: Follow up within 3 days
+- Standard email or async message
+- Check-in call if no response
+- Can be handled by junior team member
+
+Score 0-4: Monitor
+- Monthly check-in
+- Move to "nurture" track if engagement drops
+- Revisit if new signals emerge
+```
+
+This approach ensures your limited follow-up time targets deals most likely to close.
+
+## Remote Agency-Specific Workflows
+
+### Proposal Review Automation
+
+When proposals sit unsigned for extended periods, deals stall. Automate reminders:
+
+1. **Create workflow trigger**: "Deal moved to Proposal Review stage"
+2. **Wait 3 business days**
+3. **Check condition**: Deal still in Proposal Review
+4. **Send email**: "Checking in on the proposal—happy to answer questions or schedule a discussion"
+5. **Wait 5 more days**
+6. **Create task**: "Call [contact name] to discuss proposal"
+
+This automation prevents proposals from being forgotten.
+
+### Multi-Contact Tracking
+
+Remote deals often involve multiple stakeholders. Track all contacts on a deal:
+
+1. Create deal associations to multiple contacts
+2. Add property: "Primary decision maker" and "Technical stakeholder" and "Finance approval"
+3. Track interactions with each contact separately
+4. Note in deal activity when you've engaged each stakeholder
+
+This prevents the surprise of "oh, we need finance approval from a different person" derailing deals late in the process.
+
+### Timezone-Aware Scheduling
+
+When working across time zones, scheduling is critical. Add a "Optimal call time" property:
+
+```
+Contact properties:
+- contact_timezone: [Select field with major timezones]
+- contact_working_hours: Free text (e.g., "9 AM - 5 PM JST")
+- best_communication_method: Email / Slack / Phone call
+
+When scheduling calls, reference these properties to find mutually convenient times.
+```
+
+Use a tool like Calendly with timezone support to let clients book calls without back-and-forth.
+
 ## Maintaining Pipeline Hygiene
 
 A pipeline only works when data stays current. For remote agencies, this requires intentional habits:
@@ -154,6 +287,39 @@ Assign deal ownership clearly — every active deal needs an owner who bears res
 Require stage change notes — when moving a deal forward, mandate a brief note explaining why. This context becomes invaluable when reviewing deals during weekly syncs or when ownership transfers between team members in different time zones.
 
 Review stale deals monthly — build a workflow that flags deals unchanged for 14+ days. Remote agencies cannot rely on hallway conversations to surface neglected relationships.
+
+### Weekly Pipeline Review Cadence
+
+Schedule 30-minute weekly pipeline reviews during a time when both US and Europe team members can attend:
+
+```
+Weekly Pipeline Review (30 minutes)
+
+00:00-05:00 min: Review new deals (any new inquiries?)
+05:00-15:00 min: Discuss deals in "Proposal Review" or "Contract Negotiation"
+15:00-25:00 min: Identify at-risk deals (unchanged >10 days)
+25:00-30:00 min: Assign follow-ups and next steps
+
+Async follow-up: Post notes in Slack channel so team members in other zones stay informed
+```
+
+This rhythm keeps the pipeline visible and prevents deals from being forgotten.
+
+### Dashboard Metrics for Remote Leadership
+
+Create HubSpot dashboards that show pipeline health at a glance:
+
+**Deal velocity dashboard:**
+- Average days in each stage (identifies bottlenecks)
+- Deals closing per week (trend line showing if pipeline is accelerating)
+- Deal size distribution (are you closing bigger deals over time?)
+
+**Team performance dashboard:**
+- Deals by owner (ensures even distribution)
+- Close rate by team member (identifies top performers)
+- Win/loss ratio by industry or deal source (shows which markets work)
+
+These dashboards replace status update meetings—anyone can check pipeline health without asking questions.
 
 ## Related Reading
 

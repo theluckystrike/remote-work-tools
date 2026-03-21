@@ -142,13 +142,155 @@ Document your response procedures:
 
 Canary tokens work best as part of a layered security strategy. They excel at detecting post-breach activity but should complement preventive controls like multi-factor authentication, endpoint protection, and access logging.
 
+## Incident Response Workflows
+
+When a canary token triggers, your response should be immediate and systematic.
+
+### Immediate Actions (0-5 minutes)
+
+1. **Verify the alert is genuine**: Confirm the triggered token wasn't accessed during authorized security testing. Check your internal calendar for penetration tests or security audits that might explain the access.
+
+2. **Isolate the source**: Determine if the IP address is internal, external, or from a known cloud provider. External IPs suggest external compromise. Internal IPs suggest insider threats or compromised internal systems.
+
+3. **Notify incident response team**: Immediately inform your security team or designated incident coordinator. With a canary token trigger, you have a narrow window to act.
+
+4. **Begin investigation**: Document the exact timestamp, source IP, and any user agent information. Begin examining logs around that time for related suspicious activity.
+
+### Short-Term Actions (minutes to hours)
+
+- **Check for related compromise indicators**: If the source IP accessed a canary credential token, search your authentication logs for any successful logins from that IP around the same timeframe.
+
+- **Assess the scope**: Determine what other systems the attacker may have accessed. If they found your canary token, they were searching for credentials or sensitive data. Look for evidence of data exfiltration.
+
+- **Preserve evidence**: Archive logs, network captures, and system images from the affected period. This evidence supports forensic analysis and potential legal action.
+
+- **Communicate with affected parties**: If the breach involved customer data or intellectual property, notify relevant stakeholders through your incident response plan.
+
+### Long-Term Actions (hours to days)
+
+- **Conduct root cause analysis**: How did the attacker gain initial access? Understanding the attack chain prevents recurrence.
+
+- **Patch identified vulnerabilities**: If the attacker exploited a specific vulnerability, patch it immediately and verify the fix prevents reexploit.
+
+- **Review and rotate credentials**: Even tokens aren't real, review all legitimate credentials in systems the attacker accessed. Rotate any that might have been compromised.
+
+- **Implement preventive controls**: If the breach revealed gaps in your security, implement additional controls. Perhaps you need better network segmentation, better endpoint protection, or stronger access controls.
+
+## Advanced Token Deployment Strategies
+
+Beyond basic document tokens, sophisticated deployments use multiple token types across your infrastructure.
+
+### Database Canary Records
+
+Create fake database records that alert when accessed:
+
+```sql
+-- Create a fake customer record with a canary identifier
+INSERT INTO customers (email, name, created_at)
+VALUES (
+    'canary-token-2026@example.com',
+    'Canary Token Alert System',
+    NOW()
+);
+
+-- Create an audit trigger that logs access
+CREATE TRIGGER customer_access_log
+AFTER SELECT ON customers
+FOR EACH ROW
+BEGIN
+    IF NEW.email LIKE 'canary-token%' THEN
+        INSERT INTO security_alerts (alert_type, details, timestamp)
+        VALUES ('DATABASE_CANARY', 'Canary record accessed', NOW());
+
+        -- Send webhook to monitoring system
+        CALL send_webhook('https://your-webhook/db-canary', 'triggered');
+    END IF;
+END;
+```
+
+This catches attackers searching databases for valuable records.
+
+### File System Canary Tokens
+
+Create trap files in strategic locations that trigger alerts when opened:
+
+```bash
+#!/bin/bash
+# Create canary files in common attack targets
+
+# AWS credentials directory
+echo "AKIAIOSFODNN7EXAMPLE:wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY" \
+    > ~/.aws/canary_credentials
+
+# SSH directory
+echo "-----BEGIN OPENSSH PRIVATE KEY-----" > ~/.ssh/canary_key
+
+# Common data locations
+touch ~/Documents/salary_data_2026.xlsx
+touch ~/sensitive/database_backup.sql
+
+# Set file watchers to detect access
+# On macOS with fswatch
+fswatch ~/.aws/canary_credentials | while read f; do
+    curl -X POST https://your-alert-system/webhook \
+        -d "{\"event\": \"file_accessed\", \"file\": \"$f\"}"
+done
+```
+
+Configure file-level monitoring through your security tool to alert when these files are accessed.
+
+## Integrating Canary Tokens with SIEM Systems
+
+For enterprise environments, integrate canary token alerts into your Security Information and Event Management (SIEM) system:
+
+```python
+# Example: Splunk-compatible canary alert forwarding
+import requests
+import json
+
+class CanaryTokenSIEMBridge:
+    def __init__(self, splunk_hec_url, hec_token):
+        self.splunk_url = splunk_hec_url
+        self.hec_token = hec_token
+
+    def forward_canary_alert(self, canary_data):
+        """Forward canary token alert to Splunk HEC."""
+        event = {
+            "event": {
+                "source": "canary_tokens",
+                "sourcetype": "_json",
+                "host": "security_monitoring",
+                "data": canary_data
+            }
+        }
+
+        headers = {
+            "Authorization": f"Splunk {self.hec_token}",
+            "Content-Type": "application/json"
+        }
+
+        requests.post(self.splunk_url, json=event, headers=headers)
+```
+
+This integration provides visibility into canary alerts alongside other security events, enabling correlation analysis.
+
+## Measuring Canary Token Effectiveness
+
+Track metrics that demonstrate canary tokens' value:
+
+- **Detection time**: How quickly did you know about the breach? Measure from trigger to incident notification.
+- **Alert accuracy**: What percentage of alerts are true positives vs. false alarms (from authorized testing or legitimate access)?
+- **Response efficiency**: How long did it take to respond and remediate after a genuine alert?
+
+Teams with mature canary token programs typically detect breaches 50-70% faster than without them, providing invaluable time for containment.
+
 ## Summary
 
 Canary tokens provide valuable early warning in remote work environments where traditional network monitoring falls short. By strategically placing these tripwires across your infrastructure, you can detect intruders within minutes rather than weeks.
 
 Start with a few tokens in high-value locations—your most sensitive repositories, shared drives, and credential storage locations. Integrate alerts into your team's communication channels. Over time, expand coverage and refine your response procedures based on what you learn from false positives and genuine alerts.
 
-The key is making tokens look irresistible to attackers while ensuring your legitimate team members never need to interact with them. With proper placement and monitoring, canary tokens become a powerful detection layer that works regardless of where your team connects from.
+The key is making tokens look irresistible to attackers while ensuring your legitimate team members never need to interact with them. With proper placement, monitoring, and response procedures, canary tokens become a powerful detection layer that works regardless of where your team connects from.
 
 
 ## Related Reading

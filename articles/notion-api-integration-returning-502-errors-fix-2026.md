@@ -141,9 +141,173 @@ If you've exhausted these troubleshooting steps and still encounter 502 errors:
 - Consider reaching out to Notion support with detailed logs and error information
 - Evaluate whether your integration architecture needs fundamental changes
 
+## Monitoring and Alerting for 502 Errors
+
+Prevention beats firefighting. Implement monitoring that catches 502 errors before they impact your team.
+
+### Setting Up Application-Level Monitoring
+
+Create dashboards that track API performance in real-time:
+
+```python
+import logging
+import time
+from datetime import datetime
+
+class NotionAPIMonitor:
+    def __init__(self, slack_webhook_url):
+        self.webhook_url = slack_webhook_url
+        self.error_threshold = 5  # Alert after 5 consecutive errors
+        self.consecutive_errors = 0
+
+    def make_monitored_request(self, url, headers, max_retries=3):
+        """Make a Notion API request with monitoring."""
+        for attempt in range(max_retries):
+            try:
+                response = requests.get(url, headers=headers, timeout=10)
+
+                if response.status_code == 200:
+                    self.consecutive_errors = 0
+                    return response.json()
+                elif response.status_code >= 500:
+                    self.consecutive_errors += 1
+                    self.log_error(response, attempt)
+
+                    if self.consecutive_errors >= self.error_threshold:
+                        self.send_alert(url, response)
+
+                    wait_time = 2 ** attempt
+                    time.sleep(wait_time)
+                else:
+                    response.raise_for_status()
+
+            except requests.exceptions.Timeout:
+                self.consecutive_errors += 1
+                logging.error(f"Timeout on attempt {attempt + 1}")
+
+    def send_alert(self, url, response):
+        """Send Slack alert when errors persist."""
+        payload = {
+            "text": f"🚨 Notion API Error Alert",
+            "blocks": [
+                {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": f"*Notion API Error*\nStatus: {response.status_code}\nURL: {url}\nTime: {datetime.now()}"
+                    }
+                }
+            ]
+        }
+        requests.post(self.webhook_url, json=payload)
+```
+
+This monitoring catches error patterns before they cascade through your application.
+
+### Health Check Integration
+
+Implement regular health checks to your Notion integration:
+
+```python
+def notion_health_check():
+    """Verify Notion API is accessible and performant."""
+    start_time = time.time()
+
+    try:
+        response = requests.get(
+            "https://api.notion.com/v1/databases",
+            headers={
+                "Authorization": f"Bearer {NOTION_TOKEN}",
+                "Notion-Version": "2022-06-28"
+            },
+            timeout=5
+        )
+
+        elapsed = time.time() - start_time
+
+        if response.status_code == 200 and elapsed < 2:
+            return {"status": "healthy", "latency_ms": elapsed * 1000}
+        elif response.status_code >= 500:
+            return {"status": "degraded", "reason": "Notion API returning 5xx"}
+        else:
+            return {"status": "unhealthy", "reason": f"HTTP {response.status_code}"}
+
+    except requests.exceptions.Timeout:
+        return {"status": "unhealthy", "reason": "Notion API timeout"}
+```
+
+Run this health check every 5 minutes. Alert when health transitions from healthy to degraded, preventing surprises during important automations.
+
+## Advanced Debugging Techniques
+
+When standard troubleshooting doesn't reveal the cause, advanced techniques dig deeper.
+
+### Logging Request/Response Details
+
+Comprehensive logging captures the information needed to diagnose complex issues:
+
+```python
+import json
+from datetime import datetime
+
+def log_notion_request(method, url, headers, body=None, response=None):
+    """Log Notion API interactions with full details."""
+    log_entry = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "method": method,
+        "url": url,
+        "request_size_bytes": len(json.dumps(body)) if body else 0,
+        "response_status": response.status_code if response else None,
+        "response_time_ms": (response.elapsed.total_seconds() * 1000) if response else None,
+        "request_id": response.headers.get("X-Request-ID") if response else None
+    }
+
+    # Log to file for analysis
+    with open("notion_api.log", "a") as f:
+        f.write(json.dumps(log_entry) + "\n")
+
+    # Alert on 502 errors
+    if response and response.status_code == 502:
+        logging.error(f"502 Error: {log_entry}")
+```
+
+When 502 errors occur, this log provides the context needed for diagnosis: was the error after a rate limit spike? During high network latency? With specific request sizes?
+
+### Analyzing Error Patterns
+
+502 errors often follow patterns that reveal root causes:
+
+```python
+def analyze_notion_errors(log_file):
+    """Find patterns in Notion API errors."""
+    errors = []
+    with open(log_file) as f:
+        for line in f:
+            entry = json.loads(line)
+            if entry["response_status"] >= 500:
+                errors.append(entry)
+
+    # Pattern analysis
+    by_hour = {}
+    for error in errors:
+        hour = error["timestamp"][:13]  # Group by hour
+        by_hour[hour] = by_hour.get(hour, 0) + 1
+
+    # Find correlation with request size
+    large_request_errors = [e for e in errors if e["request_size_bytes"] > 1000000]
+
+    print(f"Total 502 errors: {len(errors)}")
+    print(f"Errors with large requests: {len(large_request_errors)}")
+    print(f"Peak error hour: {max(by_hour, key=by_hour.get)}")
+```
+
+This analysis often reveals that 502 errors spike at specific times (when other automations run) or with specific request types (large bulk operations).
+
 ## Conclusion
 
 502 errors in Notion API integrations are solvable with systematic debugging. Remote teams should establish clear troubleshooting procedures and implement proper rate limiting to minimize disruption. Regular maintenance of your integration, including updates and monitoring, prevents most issues before they impact team productivity.
+
+The combination of defensive programming (exponential backoff), comprehensive monitoring, and architectural simplification handles the vast majority of 502 error scenarios. When errors do occur, detailed logging enables rapid diagnosis and remediation.
 
 
 ## Related Reading

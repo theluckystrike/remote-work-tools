@@ -148,12 +148,167 @@ If you have zero time for preparation, keep these emergency options:
 - Apple: One piece of whole fruit beats any processed snack
 - Hard-boiled eggs: Keep a dozen in your refrigerator at all times
 
+## Advanced Batch Preparation Workflows
+
+Move beyond simple prep and create systematic snack production pipelines.
+
+### Sunday 2-Hour Prep Session
+
+Structure your weekly prep to maximize efficiency:
+
+**Hour 1: Proteins (35 minutes)**
+- Boil 18 eggs in batches (20 min, do this first)
+- Roast chickpeas (20 min in oven during egg cooking)
+- Cook chicken breast strips if adding meat protein (optional, 15 min)
+
+**Hour 2: Vegetables and Assembly (55 minutes)**
+- Wash and prep vegetables (20 min)
+- Portion proteins into containers (10 min)
+- Mix component snacks (cheese + nuts, yogurt + granola) (10 min)
+- Make overnight oats jars (15 min)
+
+```python
+#!/usr/bin/env python3
+# Sunday snack prep timer
+
+import time
+from datetime import datetime
+
+def prep_timeline():
+    tasks = [
+        ("Start water for eggs", 0, 1),
+        ("Put eggs in water", 1, 20),
+        ("Add chickpeas to oven", 5, 25),
+        ("Wash vegetables", 20, 40),
+        ("Remove eggs and ice", 20, 23),
+        ("Remove chickpeas from oven", 25, 28),
+        ("Portion proteins", 35, 50),
+        ("Assemble snack containers", 50, 65),
+        ("Make overnight oats", 60, 75)
+    ]
+
+    for task, start, end in tasks:
+        print(f"{start:02d}-{end:02d} min: {task}")
+```
+
+This structured approach fits prep into a single two-hour window without rushing.
+
+### Ingredient Shopping Optimization
+
+Efficient snacking starts with smart shopping. Create a standardized shopping list:
+
+```
+Weekly Snack Shopping List:
+
+PROTEINS:
+- 18 eggs ($2-3)
+- 2 cans chickpeas ($1)
+- Greek yogurt (5lb tub) ($4-5)
+- Cheese block (choose 1 type) ($3-4)
+- Optional: nuts mix (bulk) ($5-6)
+
+VEGETABLES:
+- 2 lb baby carrots ($2)
+- 3 cucumbers ($1.50)
+- 1 lb snap peas ($3)
+- 1 head celery ($1)
+- 1 container cherry tomatoes ($2)
+
+PANTRY:
+- Granola (bulk or store brand) ($3-4)
+- Honey or maple syrup ($4-5)
+- Chia seeds ($4-5)
+- Rolled oats (bulk) ($2-3)
+- Whole grain crackers ($3)
+
+Total: $35-45 for week of snacking
+```
+
+Shopping the same list weekly saves decision fatigue and enables meal planning precision.
+
+## Nutritional Science Behind Snack Choices
+
+Understanding why certain combinations work prevents you from falling back to sugar-based "quick energy."
+
+### The Protein-Fat-Fiber Trinity
+
+The most sustained energy comes from combinations including:
+- **Protein**: Slows digestion and prevents blood sugar spikes (eggs, yogurt, cheese, nuts)
+- **Healthy fats**: Provides satiety that lasts 2-3 hours (nuts, seeds, cheese, avocado)
+- **Fiber**: Further slows digestion and feeds beneficial gut bacteria (vegetables, whole grains)
+
+This combination keeps blood glucose stable for 2-3 hours:
+
+```
+Energy lasting 30 minutes: Sugar/fruit only
+Energy lasting 45 minutes: Carbs + protein (crackers + cheese)
+Energy lasting 2+ hours: Protein + fat + fiber (nuts + yogurt + berries)
+```
+
+A snack of just berries causes a 30-minute energy peak followed by a crash. The same berries with Greek yogurt and granola sustains energy for hours.
+
+### Glycemic Load Calculations
+
+The glycemic index alone doesn't determine blood sugar impact. Portion size matters significantly:
+
+```
+Low glycemic load snacks for remote workers:
+- 1 apple + 1 oz almonds (GL: 10)
+- 1/2 cup hummus + veggies (GL: 8)
+- 1 oz cheese + whole grain crackers (GL: 9)
+- 1/2 cup Greek yogurt + berries (GL: 6)
+
+High glycemic load to avoid:
+- Rice cakes (GL: 28)
+- Regular granola bar (GL: 16-20)
+- Fruit juice (GL: 20+)
+- Candy or chocolate (GL: 20+)
+```
+
+Snacks with GL under 12 won't cause the energy crash that disrupts afternoon calls.
+
+## Handling Kids' Snack Demands
+
+Remote working parents often face constant snack requests from children. Build this into your snacking system:
+
+### Separating Parent and Child Snack Strategies
+
+Create distinct snack sets:
+
+**Parent snacks (protein-heavy for sustained energy):**
+- Hard-boiled eggs, cheese, nuts, yogurt
+
+**Kid snacks (still healthy but child-approved):**
+- Apple slices with almond butter, cheese cubes, whole grain pretzels
+
+**Shared snacks:**
+- Hummus with vegetables, granola clusters, berries
+
+Keep kid snacks in one drawer, adult snacks separate. This prevents your careful nutrition prep from being consumed by random children's snacking.
+
+### The "Snack Tray" Approach
+
+Prepare a tray of vegetables, cheese, nuts, and dip each morning. Kids can self-serve throughout the day without asking repeatedly:
+
+```
+Daily snack tray (15-min assembly):
+- 1 cup cucumber slices
+- 1 cup cherry tomatoes
+- 1 cup cheese cubes
+- 1/2 cup nuts
+- 1/2 cup hummus
+- Set on low shelf where kids can access
+
+Result: Reduces snack requests by 70% and ensures kids eat well
+```
+
 ## Making It Work Long-Term
 
 The most sustainable approach combines batch preparation with strategic reminders and smart placement. Start with one protein prep and two vegetable preparations on Sunday. Add notification reminders incrementally. Adjust based on what you actually eat during the week.
 
 Remote working parents who maintain consistent snack routines report better afternoon energy levels, improved meeting concentration, and fewer instances of "hangry" decision-making. Your snack strategy isn't just about nutrition—it's about protecting your cognitive performance during the hours that matter most.
 
+The goal isn't perfection but consistency. Even imperfect snacking beats skipping meals between meetings. Start this week with one batch preparation and one assembly snack. Build from there.
 
 ## Related Reading
 
