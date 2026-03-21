@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices
 
-Remote teams face an unique challenge: knowledge that would naturally transfer in office settings evaporates across time zones and chat channels. Someone makes a critical choice in a late-night PR review, and six months later, the reasoning disappears into Slack archives. Decision logs solve this by creating a searchable, version-controlled record of why choices were made.
+Remote teams face a unique challenge: knowledge that would naturally transfer in office settings evaporates across time zones and chat channels. Someone makes a critical choice in a late-night PR review, and six months later, the reasoning disappears into Slack archives. Decision logs solve this by creating a searchable, version-controlled record of why choices were made.
 
 This guide covers practical approaches to building decision log documentation that works for distributed teams. You'll find templates, tooling recommendations, and workflows designed for async collaboration.
 

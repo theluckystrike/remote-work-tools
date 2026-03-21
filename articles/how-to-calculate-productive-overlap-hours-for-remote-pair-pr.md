@@ -172,15 +172,6 @@ Several tools simplify timezone overlap calculations:
 
 For teams using calendar apps, Clockwise and Reclaim.ai automatically find optimal meeting slots across timezones.
 
-## Summary
-
-Calculating productive overlap hours for remote pair programming requires converting each developer's schedule to UTC, finding the intersection, then translating back to local times. The real challenge is recognizing which overlaps actually work for meaningful collaboration—not just any shared hours.
-
-With the formulas and approaches in this guide, you can systematically identify when your distributed team can pair effectively. The key is being explicit about working hours, rotating inconvenient slots fairly, and reserving overlap time for work that truly requires real-time collaboration.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

@@ -71,7 +71,7 @@ This matrix becomes your source of truth for automated provisioning.
 
 The foundation of scalable access management is centralizing your user directory. Connect your identity provider (Google Workspace, Microsoft Entra ID, or Okta) to all your SaaS tools using SCIM (System for Cross-domain Identity Management).
 
-SCIM automates user provisioning across connected applications. When you add an user in your identity provider, SCIM automatically creates accounts in all connected tools. When someone leaves, SCIM deactivates accounts across the board.
+SCIM automates user provisioning across connected applications. When you add a user in your identity provider, SCIM automatically creates accounts in all connected tools. When someone leaves, SCIM deactivates accounts across the board.
 
 ```python
 # Example: SCIM user provisioning webhook handler

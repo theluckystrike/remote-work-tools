@@ -229,6 +229,4 @@ The digital nomad visa isn't ideal for everyone. Consider:
 - [Brazil Digital Nomad Visa Process and Tax Implications.](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -309,6 +309,4 @@ Test two options with actual sprints before committing. Run one retro with your 
 - [Remote Team Scaling Retrospective Template for.](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
 - [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

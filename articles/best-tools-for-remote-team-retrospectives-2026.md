@@ -15,7 +15,7 @@ intent-checked: true
 
 {% raw %}
 
-Remote team retrospectives require tools that facilitate asynchronous input, reduce meeting friction, and preserve action items across sprints. Unlike in-person retros where you can use physical whiteboards, distributed teams need platforms that support real-time collaboration, voting on action items, and persistent documentation. This guide compares the leading retro tools with practical comparisons for teams of 5-50 people.
+Remote team retrospectives require tools that help asynchronous input, reduce meeting friction, and preserve action items across sprints. Unlike in-person retros where you can use physical whiteboards, distributed teams need platforms that support real-time collaboration, voting on action items, and persistent documentation. This guide compares the leading retro tools with practical comparisons for teams of 5-50 people.
 
 ## Why Dedicated Retro Tools Matter
 
@@ -338,7 +338,7 @@ Some teams cannot synchronize real-time retros due to time zones or schedules. M
 
 **Async Workflow (48-hour window):**
 
-Day 1, 9 AM: Facilitate creates retro session
+Day 1, 9 AM: help creates retro session
 - "Add ideas about what worked and what didn't in Sprint 12"
 - Deadline: Day 2, 5 PM
 

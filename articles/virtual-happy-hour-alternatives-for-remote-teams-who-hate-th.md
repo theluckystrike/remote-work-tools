@@ -293,6 +293,4 @@ The common thread: all involve optional participation in something genuine and v
 - [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
 - [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

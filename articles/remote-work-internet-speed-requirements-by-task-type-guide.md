@@ -212,19 +212,6 @@ If you stream your development work (coding tutorials, pair programming):
 
 **Observation:** Most home ISPs have terrible upload speeds. If you stream, test upload with `speedtest.net`. If upload is < 5 Mbps, streaming at 720p will be choppy.
 
-## Bandwidth by Task: Summary Table
-
-| Task | Minimum Bandwidth | Recommended | Latency Requirement | Jitter Tolerance |
-|------|-------------------|-------------|-------------------|------------------|
-| **Audio Call** | 0.5 Mbps up/down | 1.5 Mbps | < 100ms | < 30ms |
-| **720p Video Call** | 4 Mbps up/down | 8-10 Mbps | < 50ms | < 20ms |
-| **1080p Video Call** | 6 Mbps up/down | 12-15 Mbps | < 50ms | < 20ms |
-| **Screen Sharing (1080p)** | 3-5 Mbps | 8-12 Mbps | < 50ms | < 20ms |
-| **Cloud IDE Editing** | 0.5-1 Mbps | 5 Mbps | < 30ms | < 15ms |
-| **Docker Pulls** | 10+ Mbps | 25-50 Mbps | N/A | N/A |
-| **Git Clone (large repo)** | 10 Mbps | 25-50 Mbps | < 100ms | N/A |
-| **Full Day Remote Work** | 25 Mbps down / 5 Mbps up | 50 Mbps / 10 Mbps | < 50ms | < 25ms |
-
 ## Real-World Scenarios
 
 **Scenario 1: Typical Knowledge Worker**
@@ -335,12 +322,6 @@ If your ISP connection is limited (< 25 Mbps), optimize:
 **For cloud IDEs:**
 - Use local VS Code with remote SSH if latency is high (better responsiveness)
 - Avoid large file operations in cloud IDE; use local git instead
-
-## Conclusion
-
-Most remote work requires 25-50 Mbps download and 5-10 Mbps upload with latency < 50ms. If your ISP meets these specs, you have sufficient bandwidth. If bandwidth is lower, optimize by using shallow clones, compressed video, and audio-only meetings. Latency matters more than bandwidth for real-time tasks like coding; if your latency exceeds 100ms, switch to local tools and only use cloud when necessary.
-
-Test your actual connection using the tools above. Don't assume ISP advertised speeds are real; measure actual throughput during use.
 
 ## Related Reading
 

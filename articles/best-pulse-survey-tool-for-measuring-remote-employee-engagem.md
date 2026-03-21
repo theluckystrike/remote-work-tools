@@ -249,7 +249,5 @@ Regular engagement measurement through pulse surveys transforms remote team mana
 - [Best Practice for Measuring Remote Team Alignment Using.](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 - [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -187,7 +187,7 @@ For a 12-person research team in 2026, typical monthly costs:
 - Zotero Group: Free with basic features, $120/year ($10/month) for premium
 - Loom: Free with basic recordings, $10-15/month for business features
 
-**Total budget:** $500-1000+ per month covers robust communication infrastructure for a 12-person team. This breaks down to $40-85 per person monthly—expensive relative to typical office expenses but essential for remote research collaboration.
+**Total budget:** $500-1000+ per month covers strong communication infrastructure for a 12-person team. This breaks down to $40-85 per person monthly—expensive relative to typical office expenses but essential for remote research collaboration.
 
 If budget is constrained, prioritize in this order:
 1. Slack or Teams (essential for group communication)
@@ -293,8 +293,6 @@ If your research team has shared equipment (mass spectrometers, microscopes, com
 - [Remote Sales Team Forecasting Tool Comparison for.](/remote-work-tools/remote-sales-team-forecasting-tool-comparison-for-distribute/)
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
 - [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

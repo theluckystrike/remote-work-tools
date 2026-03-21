@@ -158,7 +158,7 @@ We tested both Moonlander and Kinesis side-by-side with the carpal tunnel user. 
 
 **Switch options:** Because it's hotswap + QMK, you can use any MX-compatible switch. We swapped between Gateron Browns and Kailh Box Reds mid-test; takes 60 seconds per switch.
 
-**Wireless caveat:** Marketing says "wireless," but it's actually wireless USB dongle (2.4GHz) + wired cable. No battery; power comes from USB cable when docked or dongle when portable. The "wireless" is asymmetrical: each half still needs a USB cable connection (to a hub or the dongle) for power. Not truly wireless like Keychron or HHKB.
+**Wireless caveat:** Marketing says "wireless," but it's actually wireless USB dongle (2.4GHz) + wired cable. No battery; power comes from USB cable when docked or dongle when portable. The "wireless" is asymmetrical: each half still needs an USB cable connection (to a hub or the dongle) for power. Not truly wireless like Keychron or HHKB.
 
 **Durability:** Less track record than Kinesis or HHKB (ZSA is newer, founded 2010s). But customer reviews over 3–4 years show solid reliability. Switches are standard (MX-compatible), so replacement is cheap.
 
@@ -226,7 +226,7 @@ We tested both Moonlander and Kinesis side-by-side with the carpal tunnel user. 
 
 ## The Wrist Pain Question
 
-This deserves its own section because it's the highest-leverage decision.
+This deserves its own section because it's the highest-use decision.
 
 **If you have no RSI now:** Keychron Q1 Pro is sufficient. Good ergonomics are built into any well-designed keyboard. Standard layout, mechanical switches, and proper desk height matter more than split/contoured layout.
 

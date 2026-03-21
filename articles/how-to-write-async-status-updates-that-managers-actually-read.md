@@ -152,23 +152,12 @@ Consider using these tools to structure your updates:
 - Linear/Asana: Link tasks to status updates for context
 - Google Docs: For longer-form weekly reports with embedded visuals
 
-## Key Takeaways
-
-The best async status updates are specific, structured, and scarce. Give managers exactly what they need to make decisions, remove your blockers, and understand project health—without requiring a meeting.
-
-Remember: your goal isn't to show you're busy. It's to show you're making progress, surface what you need, and build trust through clear communication.
-
----
-
-*
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
 - [How to Write Async Technical RFCs That Get Meaningful Feedback](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 - [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

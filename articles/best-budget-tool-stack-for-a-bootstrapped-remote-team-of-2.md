@@ -400,7 +400,5 @@ To maximize your budget tool stack:
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend.](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 - [Remote Team Retreat Planning Guide Budget and Logistics.](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

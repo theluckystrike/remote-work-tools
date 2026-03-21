@@ -173,7 +173,5 @@ Review these metrics quarterly. If repeat client percentage drops, examine your 
 - [Freelance Developer Networking Strategies Online: A.](/remote-work-tools/freelance-developer-networking-strategies-online/)
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

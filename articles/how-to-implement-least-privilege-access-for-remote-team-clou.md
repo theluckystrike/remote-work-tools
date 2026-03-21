@@ -294,7 +294,5 @@ Schedule this audit to run weekly and generate reports for security review.
 - [Identity and Access Management Platform Comparison for.](/remote-work-tools/identity-and-access-management-platform-comparison-for-remot/)
 - [Best Security Information and Event Management Tool for.](/remote-work-tools/best-security-information-event-management-tool-for-remote-first-companies-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

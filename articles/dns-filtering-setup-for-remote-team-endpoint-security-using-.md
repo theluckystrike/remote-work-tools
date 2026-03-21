@@ -253,6 +253,4 @@ Your remote team's security posture improves immediately upon deploying DNS filt
 - [How to Audit Remote Employee Device Security Compliance.](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 - [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

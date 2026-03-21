@@ -204,6 +204,4 @@ Encourage senior engineers to model good review behavior: thorough but kind feed
 - [How to Scale Remote Team Design System Documentation.](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
 - [Remote Team Interviewer Calibration Process for Ensuring.](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

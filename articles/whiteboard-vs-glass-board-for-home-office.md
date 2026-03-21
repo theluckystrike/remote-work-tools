@@ -156,59 +156,12 @@ Choose a **glass board** if aesthetics and workspace appearance matter most, you
 
 For most developers and power users, the glass board represents the better long-term choice given the typical home office context— a dedicated workspace where you spend significant time, care about aesthetics, and want minimal maintenance overhead. However, the magnetic functionality point is legitimate; consider whether you need that capability before committing.
 
-## Summary: Which Board for Your Home Office?
-
-The right choice ultimately depends on your specific workspace constraints, usage patterns, and aesthetic preferences. Either option serves the fundamental purpose of providing a visual thinking surface for your technical work.
-
-Test your actual usage patterns before committing. If you already own a basic whiteboard, use it daily for two weeks. Does ghosting bother you? Is the maintenance annoying? If the answers are yes, the glass board upgrade is justified. If you're barely using the whiteboard, neither option represents a priority investment.
-
-Start with whichever fits your budget and workspace. You can always upgrade later.
-
----
-
-
-
-### Seed a Miro Values Wall via API
-
-```python
-import os, requests
-
-# Miro REST API — create a sticky note on a board programmatically
-BOARD_ID = os.environ["MIRO_BOARD_ID"]
-TOKEN    = os.environ["MIRO_ACCESS_TOKEN"]
-
-def add_sticky(text: str, color: str = "yellow", x: int = 0, y: int = 0) -> dict:
-    resp = requests.post(
-        f"https://api.miro.com/v2/boards/{BOARD_ID}/sticky_notes",
-        headers={
-            "Authorization": f"Bearer {TOKEN}",
-            "Content-Type": "application/json",
-        },
-        json={
-            "data": {"content": text, "shape": "square"},
-            "style": {"fillColor": color},
-            "position": {"x": x, "y": y},
-        },
-    )
-    resp.raise_for_status()
-    return resp.json()
-
-# Seed a team values wall with initial stickies
-values = ["Move fast, repair trust", "Default to async", "Disagree and commit"]
-for i, value in enumerate(values):
-    add_sticky(value, color="light_yellow", x=i * 300, y=0)
-    print(f"Added: {value}")
-```
-
-
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
 - [Herman Miller vs Steelcase for Home Office: A Developer's Guide](/remote-work-tools/herman-miller-vs-steelcase-for-home-office/)
 - [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
 - [Best Acoustic Foam Placement for Home Office Zoom Call.](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

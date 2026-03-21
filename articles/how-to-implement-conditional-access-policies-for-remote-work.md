@@ -18,7 +18,7 @@ Implement Conditional Access policies in Azure Entra ID to require multi-factor 
 
 ## Understanding Conditional Access Fundamentals
 
-Conditional Access works on a simple principle: evaluate signals about an user's identity and environment, then decide whether to grant access, block access, or require additional verification. The core components include:
+Conditional Access works on a simple principle: evaluate signals about a user's identity and environment, then decide whether to grant access, block access, or require additional verification. The core components include:
 
 - **Assignments** define who the policy applies to and what conditions must be met
 - **Access controls** specify what happens when conditions are satisfied
@@ -185,7 +185,7 @@ Beyond blocking or granting access, Conditional Access supports session policies
 }
 ```
 
-The continuous access evaluation feature provides real-time token revocation—when an user's account is disabled or their risk level changes, active sessions are terminated immediately rather than waiting for token expiration.
+The continuous access evaluation feature provides real-time token revocation—when a user's account is disabled or their risk level changes, active sessions are terminated immediately rather than waiting for token expiration.
 
 ## Combining Policies for Layered Security
 
@@ -229,8 +229,6 @@ For remote teams specifically, ensure your policies account for legitimate use c
 - [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
 - [How to Implement Geo-Fencing Access Controls for Remote.](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
 - [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

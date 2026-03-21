@@ -213,29 +213,12 @@ def count_themes(responses):
 
 Review this data quarterly with leadership. Look for patterns: are multiple employees citing the same management issues? Is compensation a consistent theme? Are there tool-related frustrations that could be easily addressed?
 
-## Best Practices Summary
-
-- Start early: Send the exit interview during the notice period, not on the last day
-- Keep it async: Allow respondents to complete at their own pace
-- Guarantee anonymity: Be clear about what gets shared and with whom
-- Ask specific questions: Generic questions produce generic answers
-- Follow up: Share how feedback led to changes
-- Automate wisely: Use scripts to reduce manual tracking work
-- Respect time zones: Send and set deadlines during working hours
-
-Building an effective remote exit interview process requires the same async-first thinking you apply to other distributed team workflows. The result: richer feedback, happier departing employees, and practical recommendations for organizational improvement.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

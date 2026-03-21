@@ -158,7 +158,7 @@ The hidden costs of Jira—context-switching, setup friction, ongoing configurat
 
 ## Integration Reality
 
-GitHub Projects works natively with GitHub Actions, Issues, Pull Requests, and Codespaces. Automation feels :
+GitHub Projects works natively with GitHub Actions, Issues, Pull Requests, and Codespaces. Automation feels:
 
 ```yaml
 # Example: Auto-move issue to In Progress when assigned
@@ -239,7 +239,5 @@ Test both tools with a two-week sprint. Track how often your team updates each b
 - [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
 - [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
 - [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

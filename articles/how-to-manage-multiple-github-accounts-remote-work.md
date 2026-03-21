@@ -22,7 +22,7 @@ The core solution involves generating separate SSH keys for each account and con
 
 ## Generating SSH Keys for Each Account
 
-First, generate an unique SSH key for each GitHub account. Avoid using the default key for everything—separate keys give you granular control over which account accesses which repository.
+First, generate a unique SSH key for each GitHub account. Avoid using the default key for everything—separate keys give you granular control over which account accesses which repository.
 
 Generate a key for your personal account:
 

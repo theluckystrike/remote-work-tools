@@ -40,7 +40,7 @@ This structure prevents the common pitfall of treating every message as urgent. 
 
 ### The Real Cost of Channel Proliferation
 
-Teams growing from 5 to 15 people often create channels reactively, ending up with 40+ channels where people don't know what belongs where. A useful rule: create new channels only when you have at least 3 distinct conversations that don't fit any existing tier. Archive channels that haven't seen meaningful posts in 60 days. A leaner channel structure means faster information retrieval and fewer places for important context to get buried.
+Teams growing from 5 to 15 people often create channels reactively, ending up with 40+ channels where people don't know what belongs where. an useful rule: create new channels only when you have at least 3 distinct conversations that don't fit any existing tier. Archive channels that haven't seen meaningful posts in 60 days. A leaner channel structure means faster information retrieval and fewer places for important context to get buried.
 
 For technical teams, you'll also want automation-specific channels — #ci-cd-alerts, #deploys, #monitoring — that pipe machine-generated noise away from human conversation. The discipline of separating automated alerts from human discussion is underrated and prevents alert fatigue from eroding your team's ability to notice genuinely critical signals.
 
@@ -239,8 +239,6 @@ The goal isn't constant connectivity — it's ensuring the right information rea
 - [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [How to Create Remote Team Communication Guidelines for.](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
 - [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

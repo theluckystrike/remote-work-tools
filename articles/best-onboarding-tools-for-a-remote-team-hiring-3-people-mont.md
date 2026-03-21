@@ -208,7 +208,7 @@ curl -X POST https://api.linear.app/graphql \
 
 This creates a trackable onboarding roadmap that persists in your existing project management tool.
 
-## Combining Tools: A Unified Approach
+## Combining Tools: an Unified Approach
 
 The most effective onboarding system combines these tools into a cohesive workflow. Here's how the pieces fit together:
 
@@ -268,8 +268,6 @@ For teams scaling to three monthly hires, the automation ROI becomes clear withi
 - [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 - [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 - [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

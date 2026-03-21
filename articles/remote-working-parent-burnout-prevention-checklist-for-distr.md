@@ -169,7 +169,5 @@ Prevention beats intervention. Here's how to build systems that protect remote w
 - [How to Detect and Prevent Burnout in Remote Employees.](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
 - [Remote Working Parent Tax Deduction Guide for Home.](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

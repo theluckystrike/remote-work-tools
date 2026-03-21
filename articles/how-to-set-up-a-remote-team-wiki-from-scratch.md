@@ -21,7 +21,7 @@ A team wiki is the difference between asking "who knows how we do X?" and having
 
 Synchronous communication (Slack, calls) handles urgent problems. A wiki handles everything else: how to deploy, approval workflows, company policies, project templates, lessons learned, on-call procedures, and design decisions.
 
-Without a wiki, knowledge lives in people's heads. When someone leaves, you lose context. When a new person joins, they ask the same questions repeatedly. Your team essentially re-onboards itself constantly.
+Without a wiki, knowledge lives in people's heads. When someone leaves, you lose context. When a new person joins, they ask the same questions repeatedly. Your team re-onboards itself constantly.
 
 A wiki solves this by making knowledge persistent, searchable, and decoupled from individuals.
 
@@ -315,20 +315,20 @@ The Decision Log explains why we do it this way. The Process page explains how.
 ### Week 1: Foundation (2-3 hours)
 
 1. **Choose platform**
-   - Team preferences → Notion (easiest), Confluence (best for large teams), Outline (privacy)
+ - Team preferences → Notion (easiest), Confluence (best for large teams), Outline (privacy)
 
 2. **Create structure**
-   - Copy the recommended structure above
-   - Create main sections but don't fill them yet
+ - Copy the recommended structure above
+ - Create main sections but don't fill them yet
 
 3. **Set permissions**
-   - Who can read? (entire team)
-   - Who can write? (team leads, engineers for technical docs)
-   - Who can delete? (wiki owner/admin only)
+ - Who can read? (entire team)
+ - Who can write? (team leads, engineers for technical docs)
+ - Who can delete? (wiki owner/admin only)
 
 4. **Configure search**
-   - Test that search works across all pages
-   - Configure search to be discoverable on home page
+ - Test that search works across all pages
+ - Configure search to be discoverable on home page
 
 ### Week 2: Critical Documentation (4-5 hours)
 
@@ -347,53 +347,53 @@ Focus on documentation people need immediately:
    ```
 
 2. **How to Get Help**
-   - Where to ask technical questions (Slack channel vs email)
-   - Who to ask for what (HR policy → ops, code review → senior engineer)
-   - How quickly to expect response
+ - Where to ask technical questions (Slack channel vs email)
+ - Who to ask for what (HR policy → ops, code review → senior engineer)
+ - How quickly to expect response
 
 3. **Your Team's Core Process**
-   - How we deploy (critical)
-   - How we review code (critical)
-   - How we plan sprints/work (important)
+ - How we deploy (critical)
+ - How we review code (critical)
+ - How we plan sprints/work (important)
 
 4. **Development Setup**
-   - Clone repo
-   - Install dependencies
-   - Run tests
-   - Common setup problems + solutions
+ - Clone repo
+ - Install dependencies
+ - Run tests
+ - Common setup problems + solutions
 
 ### Week 3: Filling Gaps (3-4 hours)
 
 1. **Capture decisions that are already made**
-   - Ask: "Why do we use X tool?" → Document the decision
-   - Ask: "How did we decide our code style?" → Document it
-   - These decisions already exist in people's heads; write them down
+ - Ask: "Why do we use X tool?" → Document the decision
+ - Ask: "How did we decide our code style?" → Document it
+ - These decisions already exist in people's heads; write them down
 
 2. **Add to Getting Started section**
-   - Tools we use (link to each tool's setup guide)
-   - Common questions from onboarding (check Slack history)
-   - Your first commit process
+ - Tools we use (link to each tool's setup guide)
+ - Common questions from onboarding (check Slack history)
+ - Your first commit process
 
 3. **Operations docs**
-   - On-call procedures
-   - Incident response (who to call, what to do)
-   - Monitoring and alerts
+ - On-call procedures
+ - Incident response (who to call, what to do)
+ - Monitoring and alerts
 
 ### Week 4: Quality and Maintenance (2-3 hours)
 
 1. **Assign owners**
-   - Each major section should have an owner
-   - Owners responsible for keeping docs current
-   - Document what "current" means for each section
+ - Each major section should have an owner
+ - Owners responsible for keeping docs current
+ - Document what "current" means for each section
 
 2. **Add a last-updated date**
-   - Every page should show when it was last reviewed
-   - Stale documentation is worse than no documentation
+ - Every page should show when it was last reviewed
+ - Stale documentation is worse than no documentation
 
 3. **Set up reminders**
-   - Quarter review: ops team reviews on-call docs
-   - Monthly review: engineering team reviews dev setup
-   - Add calendar reminders for owners
+ - Quarter review: ops team reviews on-call docs
+ - Monthly review: engineering team reviews dev setup
+ - Add calendar reminders for owners
 
 ## Real Example: Deployment Documentation
 
@@ -510,24 +510,24 @@ A wiki degrades over time. Stale docs create more confusion than no docs.
 ### Prevent Degradation
 
 1. **Assign owners**
-   - Page owner name + contact
-   - Owner's responsibility: keep it current
-   - Owner reviews quarterly, updates "last updated" date
+ - Page owner name + contact
+ - Owner's responsibility: keep it current
+ - Owner reviews quarterly, updates "last updated" date
 
 2. **Surface staleness**
-   - Track "last updated" prominently
-   - Flag pages not updated in 6+ months
-   - Quarterly: send owners list of pages needing review
+ - Track "last updated" prominently
+ - Flag pages not updated in 6+ months
+ - Quarterly: send owners list of pages needing review
 
 3. **Make updates easy**
-   - Use templates (easier to fill in than write from scratch)
-   - Link from process docs to decision docs (prevent duplication)
-   - Regular office hours: "Documentation Tuesday" where team can ask questions and fill gaps
+ - Use templates (easier to fill in than write from scratch)
+ - Link from process docs to decision docs (prevent duplication)
+ - Regular office hours: "Documentation Tuesday" where team can ask questions and fill gaps
 
 4. **Archive decisions**
-   - Old decisions that are no longer relevant go to archive
-   - Keep decision log clean, but searchable history remains
-   - Mark decisions with "revisit date" (decision made in Q1, revisit Q3)
+ - Old decisions that are no longer relevant go to archive
+ - Keep decision log clean, but searchable history remains
+ - Mark decisions with "revisit date" (decision made in Q1, revisit Q3)
 
 ### Real Example: Quarterly Maintenance
 
@@ -577,15 +577,6 @@ A wiki works better when connected to other tools.
 - Link tickets to wiki docs
 - "See also" links from tickets to related processes
 - Deployment tickets link to deployment guide
-
-## Conclusion
-
-A wiki transforms your team's knowledge from scattered (in people's heads, old Slack threads, forgotten Google Docs) into organized, searchable, and maintainable.
-
-Success requires: clear structure, assigned owners, realistic maintenance, and regular use. Build it once, then invest 2-3 hours quarterly keeping it current.
-
-Start small: onboarding guide + your team's core process. Expand from there. Better to have excellent documentation for 5 topics than mediocre documentation for 20.
-
 
 ## Related Reading
 

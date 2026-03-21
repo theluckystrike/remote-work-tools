@@ -236,7 +236,5 @@ Track these secondary metrics alongside raw FRT to understand the full picture:
 - [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 - [Best Tool for Tracking Remote Team On-Call Burden.](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

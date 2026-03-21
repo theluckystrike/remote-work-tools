@@ -257,7 +257,7 @@ At 12 locations with 50 consultations monthly, you're generating meaningful reve
 
 ## Integration with Pharmacy Management Systems
 
-The real value emerges when video consultations integrate seamlessly with existing pharmacy workflows. Rather than creating separate systems, embed consultation capabilities into the PMS:
+The real value emerges when video consultations integrate with existing pharmacy workflows. Rather than creating separate systems, embed consultation capabilities into the PMS:
 
 **PMS integration benefits:**
 - Pharmacists see consultation history while on the video call
@@ -306,8 +306,6 @@ If repeat consultation rate is below 20%, investigate whether patient experience
 - [How to Set Up Compliant Remote Employee Benefits Across.](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
 - [How to Set Up Remote Radiology Reading Station at Home.](/remote-work-tools/how-to-set-up-remote-radiology-reading-station-at-home-with-/)
 - [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

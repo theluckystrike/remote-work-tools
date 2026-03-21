@@ -196,7 +196,5 @@ For developers working in shifts or on-call, consider a rapid-deploy setup—a p
 - [How to Childproof Home Office When Toddler Interrupts.](/remote-work-tools/how-to-childproof-home-office-when-toddler-interrupts-meetin/)
 - [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

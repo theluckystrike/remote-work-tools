@@ -253,7 +253,7 @@ Using standard USB webcam microphone (positioned 30cm away):
 **Microphone gain optimization:**
 Reducing microphone gain by -6dB (halving amplitude) makes 52dB keyboard sound like 49dB baseline. Most USB mics allow this in Zoom settings. If you're using a budget microphone, gain adjustment is more impactful than keyboard choice.
 
-**Best practice:** Use headset microphone (positioned at mouth, not keyboard) rather than built-in webcam microphone. A $40 headset microphone captures your voice clearly while suppressing keyboard noise better than positioning a USB mic optimally.
+**Best practice:** Use headset microphone (positioned at mouth, not keyboard) rather than built-in webcam microphone. A $40 headset microphone captures your voice clearly while suppressing keyboard noise better than positioning an USB mic optimally.
 
 ## Real-World Remote Work Scenarios
 

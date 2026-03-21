@@ -177,7 +177,5 @@ Without insurance, the same hospitalization could cost $5,000-15,000 at a privat
 - [How to Set Up Thai Bank Account as Digital Nomad Working.](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
 - [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

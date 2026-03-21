@@ -330,7 +330,5 @@ Start with what's free, add complexity only when needed, and always prioritize c
 - [Client Document Sharing Portal Comparison for Remote.](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
 - [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

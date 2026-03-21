@@ -26,7 +26,7 @@ Before implementing any tracking system, distinguish between activity and use. A
 
 Instead of monitoring keystrokes or capturing screenshots, focus on outputs and outcomes. Developers produce code, documentation, code reviews, and communication. These artifacts represent genuine work without requiring surveillance.
 
-## GitHub Activity as an Use Signal
+## GitHub Activity as a Use Signal
 
 If your team uses GitHub, you already have a rich data source for understanding use patterns. The GitHub API provides commit history, pull request metrics, issue activity, and review patterns. This data reflects actual work without monitoring personal behavior.
 
@@ -172,7 +172,7 @@ def get_async_contribution_score(channel_id, days=7):
     }
 ```
 
-## Building an Use Dashboard
+## Building a Use Dashboard
 
 Combine these data sources into a single view. Use a simple approach with Google Sheets or a custom dashboard:
 
@@ -226,8 +226,6 @@ The goal is understanding whether the team is productive, not proving individual
 - [How to Measure Remote Team Productivity Without.](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 - [Best Tool for Remote Team Mood Tracking and Sentiment.](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

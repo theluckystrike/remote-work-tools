@@ -212,7 +212,5 @@ Running async sprint demos requires upfront investment in recording habits and w
 - [How to Record Client Demo Videos Asynchronously for Remote Agency](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
 - [Best Async Voice Message Tools for Remote Teams 2026.](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -294,7 +294,5 @@ This psychological aspect often justifies the setup more than the technical bene
 - [How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
 - [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

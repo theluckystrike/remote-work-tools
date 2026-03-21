@@ -227,6 +227,4 @@ Quarterly: Compare with other projects, share what works
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

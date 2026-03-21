@@ -197,27 +197,12 @@ Track whether your hybrid meeting practices actually work:
 
 If you see disparities, iterate on your meeting formats. The goal is equitable outcomes, not performative inclusion.
 
-## Summary: Key Principles
-
-- **Rotate meeting times** across timezones rather than always accommodating one group
-- Digital-first for all: Everyone joins video calls, even when in-office
-- **Structured participation** prevents dominant voices from monopolizing discussion
-- **Default to async** when real-time isn't required
-- **Track equity metrics** and adjust based on data
-
-Building meeting systems that respect both remote and office preferences isn't about finding a perfect balance—it's about creating processes that continuously check for imbalances and correct them. Small structural changes compound into significant improvements in team equity and productivity.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 - [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 - [How to Create Remote Team Inclusive Meeting Practices.](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -5,16 +5,16 @@ description: "Learn how to conduct effective async code pairing sessions using r
 date: 2026-03-18
 author: "Remote Work Tools Guide"
 categories: 
-  - remote-work
-  - collaboration
-  - development
+ - remote-work
+ - collaboration
+ - development
 tags: 
-  - async code pairing
-  - remote pair programming
-  - screen recording
-  - async collaboration
-  - code review
-  - developer productivity
+ - async code pairing
+ - remote pair programming
+ - screen recording
+ - async collaboration
+ - code review
+ - developer productivity
 permalink: /how-to-do-async-code-pairing-with-recorded-screen-share-sessions/
 reviewed: true
 score: 8
@@ -270,8 +270,6 @@ Before your first async code pairing session:
 - [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 - [How to Do Async User Research Interviews with Recorded.](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 - [Best Tool for Remote Product Managers Running Async.](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

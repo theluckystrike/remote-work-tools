@@ -193,7 +193,5 @@ Remember that policy documents require ongoing attention. Review and update your
 - [How to Create Remote Work Stipend Policy That Is Legally.](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
 - [Remote Work Lactation Room Policy Template for Employees.](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -290,7 +290,7 @@ This is where calculators shine—humans make mistakes. During DST transitions:
 - Critical: Update recurring meetings that cross DST boundaries
 - Check 2 weeks before to identify conflicts
 
-**Best practice:** Schedule recurring meetings at a UTC time rather than local time. This prevents DST confusion:
+**Best practice:** Schedule recurring meetings at an UTC time rather than local time. This prevents DST confusion:
 - Instead of "10 AM PST every Monday"
 - Use "18:00 UTC every Monday" (which is 10 AM PST in winter, 11 AM PDT in summer)
 
@@ -389,7 +389,5 @@ This tool can be run weekly to identify upcoming meeting windows without manual 
 - [Remote Employee Time Zone Overlap Optimization Tool for.](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
 - [How to Calculate Timezone Overlap Hours When Remote Team Spans Asia and Americas](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

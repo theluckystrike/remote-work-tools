@@ -199,7 +199,5 @@ Virtual craft workshops represent one of the most effective approaches to remote
 - [Best Virtual Team Trivia Platform for Remote Social.](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 - [How to Run Remote Team Cooking Class as Bonding Activity](/remote-work-tools/how-to-run-remote-team-cooking-class-as-bonding-activity/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

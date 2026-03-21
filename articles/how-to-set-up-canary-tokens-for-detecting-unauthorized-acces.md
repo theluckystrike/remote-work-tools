@@ -20,7 +20,7 @@ This guide walks through setting up canary tokens specifically for remote work e
 
 ## What Are Canary Tokens
 
-A canary token is a uniquely generated asset—often a URL, file, or credential—that appears valuable but actually serves as a tripwire. When someone accesses this token, it triggers an alert with details about the access attempt, including the source IP, timestamp, and context.
+A canary token is an uniquely generated asset—often an URL, file, or credential—that appears valuable but actually serves as a tripwire. When someone accesses this token, it triggers an alert with details about the access attempt, including the source IP, timestamp, and context.
 
 Remote environments present unique challenges because your attack surface spans multiple locations, devices, and networks. Developers often work from home networks, coffee shops, and co-working spaces where you cannot rely on corporate firewall logs. Canary tokens fill this gap by providing detection capabilities that work anywhere.
 
@@ -283,15 +283,6 @@ Track metrics that demonstrate canary tokens' value:
 - **Response efficiency**: How long did it take to respond and remediate after a genuine alert?
 
 Teams with mature canary token programs typically detect breaches 50-70% faster than without them, providing invaluable time for containment.
-
-## Summary
-
-Canary tokens provide valuable early warning in remote work environments where traditional network monitoring falls short. By strategically placing these tripwires across your infrastructure, you can detect intruders within minutes rather than weeks.
-
-Start with a few tokens in high-value locations—your most sensitive repositories, shared drives, and credential storage locations. Integrate alerts into your team's communication channels. Over time, expand coverage and refine your response procedures based on what you learn from false positives and genuine alerts.
-
-The key is making tokens look irresistible to attackers while ensuring your legitimate team members never need to interact with them. With proper placement, monitoring, and response procedures, canary tokens become a powerful detection layer that works regardless of where your team connects from.
-
 
 ## Related Reading
 

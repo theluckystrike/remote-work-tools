@@ -168,7 +168,7 @@ For individual developers exploring time habits, the Free tier provides real val
 - **Premium**: $19/month — team reports, billable rates, advanced analytics
 - **Team**: Custom for organizations
 
-Toggl's free tier is genuinely robust—unlimited tracking with no feature restrictions. You only need paid tiers if you want calendar integration or advanced team reporting.
+Toggl's free tier is genuinely strong—unlimited tracking with no feature restrictions. You only need paid tiers if you want calendar integration or advanced team reporting.
 
 ### Cost-Benefit Analysis
 

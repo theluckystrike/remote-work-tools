@@ -283,7 +283,5 @@ alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000
 - [How to Hide Messy Room During Video Calls Without.](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
 - [Best Laptop Cooling Solutions for Remote Workers in Tropical Climates](/remote-work-tools/best-laptop-cooling-solution-for-remote-workers-in-tropical-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

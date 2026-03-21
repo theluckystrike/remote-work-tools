@@ -228,7 +228,5 @@ Review access patterns regularly. Even with JIT, some users may accumulate exces
 - [How to Secure Remote Team Kubernetes Clusters with.](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 - [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

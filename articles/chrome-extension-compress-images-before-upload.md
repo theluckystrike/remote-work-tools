@@ -181,7 +181,7 @@ class ImageCompressor {
 new ImageCompressor();
 ```
 
-This content script automatically attaches to file input elements that accept images. When an user selects files, it compresses each image using the Canvas API and replaces the original file with the compressed version.
+This content script automatically attaches to file input elements that accept images. When a user selects files, it compresses each image using the Canvas API and replaces the original file with the compressed version.
 
 ## Adding User Controls
 
@@ -309,8 +309,6 @@ Some web applications use custom file upload components that don't use standard 
 - [Chrome Extension Window Resizer Testing: Complete Guide for 2026](/remote-work-tools/chrome-extension-window-resizer-testing/)
 - [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide.](/remote-work-tools/chrome-extension-linear-issue-tracker/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -170,7 +170,5 @@ Leading across five or more time zones requires fundamentally rethinking how wor
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
 - [Remote 1 on 1 Meeting Tool Comparison for Distributed Managers 2026](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

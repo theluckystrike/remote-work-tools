@@ -20,7 +20,7 @@ Choosing the correct monitor arm weight capacity for your ultrawide setup preven
 
 ## Why Weight Capacity Matters More for Ultrawide Monitors
 
-Ultrawide monitors present unique mounting challenges compared to standard 16:9 displays. A 34-inch ultrawide typically weighs between 15 and 22 pounds, while 49-inch super ultrawide models can reach 25-35 pounds. The increased width creates greater leverage on the mount point, meaning an arm rated for a 27-inch monitor may fail even if the weight falls within its stated range.
+Ultrawide monitors present unique mounting challenges compared to standard 16:9 displays. A 34-inch ultrawide typically weighs between 15 and 22 pounds, while 49-inch super ultrawide models can reach 25-35 pounds. The increased width creates greater use on the mount point, meaning an arm rated for a 27-inch monitor may fail even if the weight falls within its stated range.
 
 The physics works against wider displays: torque increases with the distance from the pivot point. A 34-inch ultrawide extending 20 inches from the base exerts significantly more stress on the mounting mechanism than a 24-inch monitor at the same extension. Manufacturers account for this in their ratings, but real-world usage—frequent height adjustments, accidental bumps, and monitor tilt—adds dynamic stress that static weight ratings do not fully capture.
 
@@ -263,11 +263,6 @@ Monitor arms have environmental impact through manufacturing and eventually disp
 - Recycling programs exist for some manufacturers; check before discarding
 
 For environmentally conscious remote workers, choosing a durable arm initially reduces e-waste. A $250 arm lasting 10 years has lower environmental impact than three $80 arms lasting 3 years each.
-
-## Final Thoughts on Ultrawide Monitor Arms
-
-Choosing the right monitor arm weight capacity for your ultrawide setup requires calculating actual weight requirements, understanding manufacturer specifications, and selecting an arm with adequate safety margins. For most 34-inch ultrawide configurations, an arm rated for 25-30 pounds suffices. Heavier 49-inch super ultrawide monitors need arms rated at 45 pounds or higher. Investing in an arm with capacity exceeding your current needs accommodates future upgrades while ensuring stable, wobble-free performance throughout your workday.
-
 
 ## Related Reading
 

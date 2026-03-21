@@ -194,7 +194,5 @@ Review metrics monthly and adjust workflows accordingly. The goal is continuous 
 - [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [How to Manage Remote Journalism Team Across.](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -211,7 +211,7 @@ Pick a day and time that works across your team's time zones. Many leads prefer 
 
 ### Keep It Short, But Not Too Short
 
-A one-line email "had a good week, lots of stuff done" provides no value. But a five-paragraph essay gets TL;DR'd. The sweet spot is 150-300 words with clear sections.
+an one-line email "had a good week, lots of stuff done" provides no value. But a five-paragraph essay gets TL;DR'd. The sweet spot is 150-300 words with clear sections.
 
 ### Encourage Responses
 
@@ -268,8 +268,6 @@ If the answers are yes, your recaps are working. If not, experiment with format,
 - [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 - [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 - [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

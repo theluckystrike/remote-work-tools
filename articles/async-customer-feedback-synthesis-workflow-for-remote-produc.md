@@ -210,7 +210,5 @@ Measure your cycle time from feedback receipt to resolution. This reveals whethe
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Remote Team Manager Peer Feedback Exchange Template for.](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

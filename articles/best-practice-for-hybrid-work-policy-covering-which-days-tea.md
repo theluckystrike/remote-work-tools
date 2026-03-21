@@ -101,7 +101,7 @@ Regardless of which pattern you choose, apply these principles when structuring 
 
 ### 1. Minimum Viable Overlap
 
-Your policy should guarantee at least two days where most team members are in office together. This enables impromptu collaboration, team meetings, and social bonding that remote-only interactions cannot replicate. Wednesdays typically work well as an universal overlap day due to mid-week energy and minimal proximity to weekend travel.
+Your policy should guarantee at least two days where most team members are in office together. This enables impromptu collaboration, team meetings, and social bonding that remote-only interactions cannot replicate. Wednesdays typically work well as a universal overlap day due to mid-week energy and minimal proximity to weekend travel.
 
 ### 2. Flexibility Within Boundaries
 
@@ -191,8 +191,6 @@ Collect feedback monthly during the first quarter, then quarterly. Track actual 
 - [How to Create a Hybrid Work Stipend Policy Covering Both.](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
 - [How to Create Hybrid Work Schedule Template for Teams.](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

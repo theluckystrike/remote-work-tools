@@ -24,78 +24,6 @@ The procurement process for remote work tools often involves multiple stakeholde
 
 ## Components of Effective Vendor Evaluation Documentation
 
-### Executive Summary
-
-Start with a concise summary that captures the key findings. This section should answer three questions: What problem are you solving? Which vendors were evaluated? What is the recommended action? Keep this to 150-200 words, as stakeholders often only read this section before diving deeper.
-
-### Requirements Matrix
-
-Create a structured table that maps vendor capabilities against your must-have and nice-to-have requirements. Use a scoring system that weights requirements by importance:
-
-```markdown
-| Requirement | Weight | Vendor A | Vendor B | Vendor C |
-|-------------|--------|----------|----------|----------|
-| End-to-end encryption | 10 | ✓ | ✓ | ✓ |
-| API access | 8 | ✓ | ✓ | ✗ |
-| Mobile app | 5 | ✓ | ✓ | ✓ |
-| SSO integration | 7 | ✓ | ✗ | ✓ |
-```
-
-When evaluating remote work tools, prioritize security requirements heavily. Data sovereignty laws vary by jurisdiction, so document where vendor data centers are located and what compliance certifications they hold.
-
-### Security Assessment
-
-Remote teams handle sensitive data across borders, making security evaluation critical. Create a dedicated section that addresses:
-
-- Data encryption: At rest and in transit
-- Access controls: Role-based permissions, MFA support
-- Audit logging: What events are tracked and for how long
-- Compliance certifications: SOC 2, ISO 27001, GDPR, HIPAA
-- Vendor breach history: Document any security incidents in the past three years
-
-```yaml
-# Security Checklist Example
-security_requirements:
-  encryption:
-    at_rest: required
-    in_transit: required
-    customer_keys: preferred
-  
-  access:
-    sso_required: true
-    mfa_available: true
-    role_permissions: granular
-  
-  compliance:
-    soc2: required
-    gdpr: required
-    hipaa: conditional
-```
-
-### Total Cost of Ownership
-
-Remote team tools often have complex pricing structures. Document the full cost picture:
-
-- Per-user monthly or annual pricing
-- Implementation and onboarding fees
-- Training costs (especially important for tools with steep learning curves)
-- Integration development time
-- Ongoing maintenance and support costs
-- Potential costs at scale
-
-Calculate a three-year TCO comparison to account for price escalation as your team grows.
-
-### Integration and Workflow Considerations
-
-Evaluate how each vendor fits into your existing toolchain. Document:
-
-- Available integrations (Slack, Microsoft Teams, Zapier, etc.)
-- API quality and documentation depth
-- Webhook support for custom workflows
-- Data export capabilities (vendor lock-in risk)
-
-For remote teams, consider how well the tool supports async workflows. Can teams collaborate without real-time presence? Does the tool have threading and search capabilities?
-
 ## Evaluation Process Framework
 
 ### Phase 1: Initial Screening
@@ -327,7 +255,5 @@ Any of these warrants serious caution. Multiple red flags means exploring altern
 - [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
 - [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
 - [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

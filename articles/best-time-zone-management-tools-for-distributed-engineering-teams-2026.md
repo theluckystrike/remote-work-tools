@@ -158,7 +158,7 @@ Instantly you see: This time works for US + Europe. It's brutal for India and Ja
 
 ## Timezone.io: API-Driven and Lightweight
 
-Timezone.io ($5-50/month) is built for developers and teams that need to check timezones programmatically. It's not a UI-first tool—it's an API with optional dashboard.
+Timezone.io ($5-50/month) is built for developers and teams that need to check timezones programmatically. It's not an UI-first tool—it's an API with optional dashboard.
 
 **Pricing:**
 - Free: 100 API calls/month

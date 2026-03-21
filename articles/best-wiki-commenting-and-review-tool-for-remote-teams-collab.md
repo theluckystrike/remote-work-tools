@@ -254,7 +254,7 @@ OpenAPI spec written → ReadMe or GitBook import
 These tools understand APIs deeply and generate request/response examples automatically. ReadMe costs $50-300+/month depending on API size.
 
 ### Confluence for Organizational Wikis
-Larger teams using Confluence can leverage:
+Larger teams using Confluence can use:
 - Page templates for documentation consistency
 - Approval workflows (draft → review → published)
 - Space permissions matching team structure
@@ -277,8 +277,6 @@ Don't overthink tool selection. Pick something, run it for 3 months, collect fee
 - [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
 - [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

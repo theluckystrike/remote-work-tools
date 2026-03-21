@@ -159,7 +159,7 @@ Reduce manual overhead with automation:
 **Auto-assignment**: Configure rules to assign reviewers based on files changed or code ownership:
 
 ```yaml
-# .github/CODEOWNERS
+#.github/CODEOWNERS
 /src/auth/ @auth-team
 /src/api/ @api-team
 /src/ui/ @frontend-team
@@ -168,7 +168,7 @@ Reduce manual overhead with automation:
 **CI integration**: Require passing checks before human review. This prevents reviewer time waste on broken code:
 
 ```yaml
-# .github/workflows/ci.yml
+#.github/workflows/ci.yml
 name: CI
 on: [pull_request]
 jobs:
@@ -197,8 +197,6 @@ Sustainable async review practices require cultural foundations:
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

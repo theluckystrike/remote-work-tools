@@ -217,7 +217,5 @@ This surfaces stale runbooks automatically without manual tracking. Owners get d
 - [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
 - [Remote Developer Documentation Collaboration Tools for.](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

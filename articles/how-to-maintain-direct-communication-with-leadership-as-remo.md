@@ -309,6 +309,4 @@ Adjust your approach based on data. If office hours are underutilized, meetings 
 - [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 - [How to Create Remote Team Values Documentation That.](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

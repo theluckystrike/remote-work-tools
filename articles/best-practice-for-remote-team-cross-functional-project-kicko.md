@@ -172,7 +172,5 @@ Use retrospective data to refine your agenda template for the next project.
 - [Best Tool for Remote Team Cross-Functional Project Staffing as Organization Grows Larger 2026](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -306,26 +306,6 @@ Good 1:1s show up in downstream metrics:
 - Career conversations feel forced or brief
 - Engineer quits and says "I never knew how I was doing"
 
-## Best Practices Summary
-
-**Do:**
-- Prepare every 1:1 (10 minutes, use template)
-- Let the engineer set agenda (ask what's blocking them)
-- Give specific, behavioral feedback (use SBI framework)
-- Invest in career development (quarterly deep dives)
-- Share notes (email summary within 30 minutes)
-- Schedule consistently (same time, every week)
-- Create psychological safety (share your challenges too)
-
-**Don't:**
-- Wing the meeting (prep is non-negotiable)
-- Default to status updates (that's what standups are for)
-- Delay feedback (it becomes stale, loses impact)
-- Assume they know the career path (spell it out)
-- Disappear between 1:1s (be accessible via Slack)
-- Make it only about negatives (ratio should be 3:1 positive)
-- Interrupt (let them finish thoughts)
-
 ## Remote 1:1 Cadence by Tenure
 
 **New engineer (0-3 months):**

@@ -144,7 +144,7 @@ If pain increases after week 3, return to your previous mouse and consult a phys
 
 ## When to Add Supplementary Ergonomic Equipment
 
-An ergonomic mouse works best as part of a ergonomic setup. Consider pairing with:
+An ergonomic mouse works best as part of an ergonomic setup. Consider pairing with:
 
 **Wrist rest pads:** Gel or memory foam pads supporting the heel of your hand eliminate upward wrist extension. Brands like 3M and Fellowes provide quality options ($15-30).
 
@@ -194,7 +194,7 @@ If you don't yet have wrist pain, prevention is far easier than recovery. Implem
 
 Most developers report that after initial adaptation, an ergonomic mouse becomes invisible—they stop thinking about it because wrist pain is gone. That's the goal. You want a tool that solves a problem so completely that you forget the problem ever existed.
 
-Pair an ergonomic mouse with a ergonomic setup and good work habits, and you can expect to code pain-free for decades. Developers who ignore ergonomics often face forced career changes by their 40s due to chronic RSI. That's preventable with the right equipment and habits.
+Pair an ergonomic mouse with an ergonomic setup and good work habits, and you can expect to code pain-free for decades. Developers who ignore ergonomics often face forced career changes by their 40s due to chronic RSI. That's preventable with the right equipment and habits.
 
 ## Related Reading
 

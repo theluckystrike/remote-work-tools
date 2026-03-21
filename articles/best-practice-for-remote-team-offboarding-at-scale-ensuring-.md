@@ -233,7 +233,5 @@ ORDER BY departure_date DESC;
 - [How to Scale Remote Team Access Management When Onboarding Many Employees Across Tools](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
 - [Best Practice for Remote Team Escalation Paths That Scale With Organizational Complexity](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

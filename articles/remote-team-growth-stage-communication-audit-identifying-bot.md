@@ -103,7 +103,7 @@ Key indicators that suggest meeting overload:
 
 For distributed teams, async communication quality directly impacts productivity. Evaluate these specific failure modes:
 
-Response time degradation: Track how long messages wait for responses in different channels. A useful query:
+Response time degradation: Track how long messages wait for responses in different channels. an useful query:
 
 ```python
 def calculate_response_times(slack_client, channel_id, days=14):
@@ -209,8 +209,6 @@ Start with quick wins that have high visibility. Implementing a channel cleanup 
 - [How to Handle Remote Team Growing Pains When Communication Norms Break Down](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
 - [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
 - [Remote Team Communication Breakdown: Warning Signs When.](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

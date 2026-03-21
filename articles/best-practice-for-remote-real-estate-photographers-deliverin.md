@@ -499,7 +499,5 @@ Scale workers up during peak season and down during slow periods. This approach 
 - [Best Practice for Remote Team Offboarding at Scale.](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
 - [How to Run Remote Real Estate Closings with Digital.](/remote-work-tools/how-to-run-remote-real-estate-closings-with-digital-notariza/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -250,7 +250,5 @@ The goal is creating an environment where returning to office is a choice that e
 - [Return to Office Parking and Commute Benefit Policy.](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
 - [Return to Office IT Checklist for Reactivating Dormant.](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

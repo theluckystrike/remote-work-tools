@@ -145,34 +145,34 @@ const PeerConnection = require('peerconnection');
 const VideoSync = require('videosync-sdk');
 
 class MovieNightOrchestrator {
-  constructor(roomId, participantLimit = 100) {
-    this.roomId = roomId;
-    this.peers = new Map();
-    this.syncServer = new VideoSync.Server({
-      precision: 50 // milliseconds
-    });
-  }
+ constructor(roomId, participantLimit = 100) {
+ this.roomId = roomId;
+ this.peers = new Map();
+ this.syncServer = new VideoSync.Server({
+ precision: 50 // milliseconds
+ });
+ }
 
-  async addParticipant(participantId, videoStream) {
-    const connection = new PeerConnection({
-      iceServers: [
-        { urls: ['stun:stun.l.google.com:19302'] }
-      ]
-    });
+ async addParticipant(participantId, videoStream) {
+ const connection = new PeerConnection({
+ iceServers: [
+ { urls: ['stun:stun.l.google.com:19302'] }
+ ]
+ });
 
-    connection.addTrack(videoStream);
-    this.peers.set(participantId, connection);
+ connection.addTrack(videoStream);
+ this.peers.set(participantId, connection);
 
-    // Synchronize this participant with existing playback
-    await this.syncServer.synchronizePlayback(
-      participantId,
-      this.getCurrentTimestamp()
-    );
-  }
+ // Synchronize this participant with existing playback
+ await this.syncServer.synchronizePlayback(
+ participantId,
+ this.getCurrentTimestamp()
+ );
+ }
 
-  getCurrentTimestamp() {
-    return this.syncServer.getMasterTime();
-  }
+ getCurrentTimestamp() {
+ return this.syncServer.getMasterTime();
+ }
 }
 ```
 
@@ -214,7 +214,5 @@ For teams prioritizing cost over features, Teleparty and Watch2Gether remain unb
 - [Best Virtual Team Trivia Platform for Remote Social.](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 - [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
 - [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

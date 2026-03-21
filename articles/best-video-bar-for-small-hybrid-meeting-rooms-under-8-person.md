@@ -37,7 +37,7 @@ When evaluating video bars for deployment in small hybrid rooms, prioritize thes
 | Camera Resolution | 1080p minimum, 4K preferred | Clarity for facial expressions and screen sharing |
 | Field of View | 100-120 degrees | Captures 6-8 people at a rectangular table |
 | Microphone Range | 8-15 feet | Covers full room from mounting position |
-| Connection Type | USB-C with USB-A adapter | Universal compatibility with conferencing hosts |
+| Connection Type | USB-C with USB-an adapter | Universal compatibility with conferencing hosts |
 | Audio Processing | Echo cancellation, noise suppression | Prevents feedback and handles background noise |
 
 ## Deployment Architecture for Small Rooms
@@ -180,8 +180,6 @@ Some video bars support PoE (Power over Ethernet) when used with network cables,
 - [Best Video Conferencing Setup for Hybrid Rooms: A.](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 - [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
 - [Speakerphone for Hybrid Meeting Rooms Comparison: A.](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

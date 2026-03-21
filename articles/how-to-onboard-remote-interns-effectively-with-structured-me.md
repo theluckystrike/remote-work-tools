@@ -310,7 +310,5 @@ Use this data to iterate on your program annually. Successful internship program
 - [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
 - [How to Create Remote Onboarding Buddy Program Template.](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

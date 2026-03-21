@@ -190,7 +190,5 @@ If your region experiences 5-10 snow days annually, planning for this reduction 
 - [Remote Work Special Needs Child Accommodation Guide for.](/remote-work-tools/remote-work-special-needs-child-accommodation-guide-for-parents/)
 - [Best After School Activity Scheduling App for Remote.](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

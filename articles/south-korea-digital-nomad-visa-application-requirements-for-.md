@@ -304,28 +304,28 @@ medical emergencies, travel, or quality-of-life expenses.
 
 ### First 30 Days
 1. Register at district office within 90 days (don't wait)
-   - Bring: Passport, visa, return ticket, proof of accommodation
-   - Get: Alien Registration Card (takes 1-2 hours)
+ - Bring: Passport, visa, return ticket, proof of accommodation
+ - Get: Alien Registration Card (takes 1-2 hours)
 2. Open bank account
-   - Required: ARC, passport, proof of address
-   - Recommended: KEB Hana Bank (English-friendly, international services)
+ - Required: ARC, passport, proof of address
+ - Recommended: KEB Hana Bank (English-friendly, international services)
 3. Get Korean phone number
-   - Buy at any convenience store or phone shop
-   - Cost: $20-40 for basic plan
+ - Buy at any convenience store or phone shop
+ - Cost: $20-40 for basic plan
 4. Register with employer
-   - Confirm your time zone differences are manageable
-   - Test VPN and connectivity if needed for corporate access
+ - Confirm your time zone differences are manageable
+ - Test VPN and connectivity if needed for corporate access
 
 ### First 3 Months
 1. Familiarize with public transportation
-   - Download Naver Map or Kakao Map apps
-   - Use T-money card for seamless transit payment
+ - Download Naver Map or Kakao Map apps
+ - Use T-money card for seamless transit payment
 2. Set up healthcare access
-   - Many private clinics offer English-speaking services
-   - Health insurance activates after registration
+ - Many private clinics offer English-speaking services
+ - Health insurance activates after registration
 3. Establish routine and workspace
-   - Find co-working space if home office inadequate
-   - Common spaces: WeWork, The School, various campus-style buildings ($50-200/month)
+ - Find co-working space if home office inadequate
+ - Common spaces: WeWork, The School, various campus-style buildings ($50-200/month)
 
 ### Banking and Financial Management
 - Wise (formerly TransferWise) transfers from US to Korean account
@@ -393,7 +393,5 @@ After 2 years, you'd need to apply for a different visa type (work visa with Kor
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Japan Digital Nomad Visa Requirements for Remote.](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 - [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

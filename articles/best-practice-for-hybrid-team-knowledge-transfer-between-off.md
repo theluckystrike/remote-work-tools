@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Best Practice for Hybrid Team Knowledge Transfer Between Office and Remote Days Guide
 
-Hybrid work models create an unique challenge: ensuring team members working different schedules stay aligned and informed. When some teammates are in the office while others work remotely, knowledge can easily fragment across these two contexts. This guide provides practical patterns for maintaining continuous knowledge flow in hybrid teams, focusing on developer and power user workflows.
+Hybrid work models create a unique challenge: ensuring team members working different schedules stay aligned and informed. When some teammates are in the office while others work remotely, knowledge can easily fragment across these two contexts. This guide provides practical patterns for maintaining continuous knowledge flow in hybrid teams, focusing on developer and power user workflows.
 
 ## The Hybrid Knowledge Gap Problem
 
@@ -203,8 +203,6 @@ Track these indicators to assess whether your knowledge transfer systems are wor
 - [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
 - [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

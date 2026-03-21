@@ -190,7 +190,5 @@ Consistent invoice numbering, organized client records, and a centralized paymen
 - [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
 - [Notion Setup for Solo Freelancer Managing 5 Clients: A Practical Guide](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

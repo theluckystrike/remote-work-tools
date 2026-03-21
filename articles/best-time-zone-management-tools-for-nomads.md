@@ -200,6 +200,4 @@ The key is layering tools appropriately: reference tools for quick lookups, deve
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

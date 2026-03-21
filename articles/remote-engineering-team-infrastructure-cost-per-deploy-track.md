@@ -187,7 +187,5 @@ Implementing cost tracking across remote engineering teams requires coordination
 - [Best Remote Collaboration Tool for Platform Engineers Managing Shared Infrastructure Services](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
 - [Remote Team Runbook Template for SSL Certificate Renewal.](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

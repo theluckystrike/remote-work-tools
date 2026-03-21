@@ -188,7 +188,5 @@ Review these metrics monthly and adjust your practices accordingly.
 - [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 - [How to Maintain Remote Team Culture When Transitioning.](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

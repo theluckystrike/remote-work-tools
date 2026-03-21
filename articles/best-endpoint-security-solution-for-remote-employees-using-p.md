@@ -211,7 +211,5 @@ The best endpoint security solution for remote employees using personal devices 
 - [How to Audit Remote Employee Device Security Compliance.](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 - [Best Backup Solution for Remote Employee Laptops.](/remote-work-tools/best-backup-solution-for-remote-employee-laptops-automatic-a/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

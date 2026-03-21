@@ -195,7 +195,5 @@ A team that regularly examines its health builds resilience against the inevitab
 - [Remote Team Retrospective Silent Brainstorming Technique.](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
 - [How to Help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

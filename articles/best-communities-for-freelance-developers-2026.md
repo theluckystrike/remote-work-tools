@@ -171,7 +171,5 @@ Finding the right communities transforms freelance development from solitary wor
 - [Tax Deductions Guide for Freelance Developers 2026](/remote-work-tools/tax-deductions-guide-for-freelance-developers-2026/)
 - [Retirement Planning for Freelance Developers 2026](/remote-work-tools/retirement-planning-for-freelance-developers-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

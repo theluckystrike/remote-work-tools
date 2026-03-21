@@ -347,7 +347,7 @@ For distributed teams, Slack Scheduled Send + Reclaim.ai + Loom covers 80% of ti
 
 ### Rotating Convenors, Not Victims
 
-Rather than always asking the same timezone to take inconvenient times, rotate who facilitates:
+Rather than always asking the same timezone to take inconvenient times, rotate who helps:
 
 ```
 Week 1-2: PST-friendly times

@@ -213,7 +213,5 @@ Document sensor locations and calibration schedules in your facilities managemen
 - [How to Redesign Open Plan Office for Hybrid Work: Adding.](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
 - [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

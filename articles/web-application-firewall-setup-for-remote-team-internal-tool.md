@@ -191,7 +191,5 @@ Implement alerting for security events. Configure notifications when WAF blocks 
 - [Certificate Based Authentication Setup for Remote Team.](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
 - [Password Rotation Policy Setup for Remote Teams Using.](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -158,9 +158,9 @@ Here's a complete runbook template optimized for distributed teams:
 - **On-Call**: [Name] (until [timezone]/time)
 - **Escalation**: [Manager name] if owner unreachable
 - **Critical Links**:
-  - Logs: [Grafana/Datadog link]
-  - Metrics: [Link]
-  - Deployment history: [Link]
+ - Logs: [Grafana/Datadog link]
+ - Metrics: [Link]
+ - Deployment history: [Link]
 
 ## Detection Symptoms
 - Error rate above X% for more than 2 minutes
@@ -238,22 +238,22 @@ Git-based runbook structure:
 
 runbooks/
 ├── services/
-│   ├── api/
-│   │   ├── incidents.md (this file)
-│   │   ├── troubleshooting.md
-│   │   └── metrics.md
-│   ├── database/
-│   │   └── incidents.md
-│   └── cache/
-│       └── incidents.md
+│ ├── api/
+│ │ ├── incidents.md (this file)
+│ │ ├── troubleshooting.md
+│ │ └── metrics.md
+│ ├── database/
+│ │ └── incidents.md
+│ └── cache/
+│ └── incidents.md
 ├── infrastructure/
-│   ├── networking.md
-│   ├── kubernetes.md
-│   └── scaling.md
+│ ├── networking.md
+│ ├── kubernetes.md
+│ └── scaling.md
 └── procedures/
-    ├── deployment.md
-    ├── database-migration.md
-    └── security-incident.md
+ ├── deployment.md
+ ├── database-migration.md
+ └── security-incident.md
 
 # Runbooks live in your code repo
 # Every engineer reviews them during code review
@@ -308,19 +308,19 @@ Data loss is critical—always check database consistency before restart.
 
 ## Symptoms → Actions
 1. "Payment declined" errors increasing
-   → Check Stripe API status (external issue likely)
-   → Check our service health dashboard
-   → If our service: database or API timeout
+ → Check Stripe API status (external issue likely)
+ → Check our service health dashboard
+ → If our service: database or API timeout
 
 2. Timeouts in payment processing
-   → Check database connection pool (maxed = timeout)
-   → Check Stripe API latency (external slowness)
-   → Review recent deploys or config changes
+ → Check database connection pool (maxed = timeout)
+ → Check Stripe API latency (external slowness)
+ → Review recent deploys or config changes
 
 3. Database replication lag > 5 seconds
-   → Check network between primary and replica
-   → Restart replica sync if lag doesn't clear
-   → If persists, escalate to database team
+ → Check network between primary and replica
+ → Restart replica sync if lag doesn't clear
+ → If persists, escalate to database team
 
 ## Critical Checks
 Before ANY restart or config change, verify:
@@ -355,9 +355,9 @@ Post-Incident Review (40 minutes):
 
 1. Incident owner (20 min): Timeline and root cause
 2. On-call engineer (10 min): Was runbook helpful?
-   - What steps worked?
-   - What was missing?
-   - How could we improve?
+ - What steps worked?
+ - What was missing?
+ - How could we improve?
 3. Team lead (10 min): Long-term fixes needed?
 
 Action items from review:
@@ -378,7 +378,5 @@ Update runbook same week while incident is fresh.
 - [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 - [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 - [How to Scale Remote Team Incident Response Process From Startup to Mid-Size Company](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -331,7 +331,5 @@ If satisfaction drops below 3.5/5 or participation below 60%, review recording a
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
 - [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

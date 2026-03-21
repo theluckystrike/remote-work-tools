@@ -269,7 +269,5 @@ Implement these metrics in your dashboard to identify bottlenecks and continuous
 - [Collaboration Zones in Hybrid Office Layout](/remote-work-tools/collaboration-zones-in-hybrid-office-layout/)
 - [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

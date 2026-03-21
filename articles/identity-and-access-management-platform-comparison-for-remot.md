@@ -228,7 +228,5 @@ Regardless of your platform choice, implement these patterns for remote-first se
 - [Best Security Information and Event Management Tool for.](/remote-work-tools/best-security-information-event-management-tool-for-remote-first-companies-2026/)
 - [Endpoint Encryption Enforcement for Remote Team Laptops.](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

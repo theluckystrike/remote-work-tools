@@ -204,7 +204,5 @@ Start small, stay consistent, and watch your documentation culture develop natur
 - [How to Create Remote Team Leadership Development Pipeline for Growing Distributed Organizations](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -191,7 +191,5 @@ Managing multiple freelance clients effectively comes down to systems that reduc
 - [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
 - [Project Management for a Solo Developer with 8 Client.](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

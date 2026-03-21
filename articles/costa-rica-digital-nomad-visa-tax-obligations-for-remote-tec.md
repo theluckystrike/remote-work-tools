@@ -125,23 +125,11 @@ If you contract directly with companies rather than working as an employee, your
 
 For developers working as contractors, structuring your business as an LLC or S-corporation can reduce self-employment tax liability and provide additional flexibility.
 
-## Key Takeaways
-
-Costa Rica's Digital Nomad Visa offers remote workers a compelling lifestyle option with relatively straightforward tax implications. The key principles are:
-
-- Foreign income from sources outside Costa Rica is generally not subject to Costa Rican tax
-- Most digital nomads maintain tax residence in their home country
-- Physical presence tests and tax treaty provisions significantly impact your actual tax burden
-- Bank account reporting requirements apply regardless of tax residence
-- Professional tax advice is essential for complex situations
-
-By understanding these fundamentals, you can enjoy Costa Rica's beaches and communities while maintaining compliance with both local and international tax authorities.
-
 ## Practical Tax Planning Examples
 
 ### Example 1: US Developer on Digital Nomad Visa
 
-**Scenario**: Sarah is a US citizen working as a contractor for a Silicon Valley tech company. Annual income: $150,000.
+**Scenario**: Sarah is an US citizen working as a contractor for a Silicon Valley tech company. Annual income: $150,000.
 
 **Tax Analysis**:
 - US tax liability: Full $150,000 is taxable
@@ -155,7 +143,7 @@ Key optimization: Form 2555 (Foreign Earned Income Exclusion) is essential for r
 
 ### Example 2: UK Developer on Visa
 
-**Scenario**: James is a UK citizen working remotely for a London agency. Annual income: £100,000 (~$125,000 USD).
+**Scenario**: James is an UK citizen working remotely for a London agency. Annual income: £100,000 (~$125,000 USD).
 
 **Tax Analysis**:
 - UK tax liability: Depends on remaining UK ties; non-residents with no UK property typically pay 0% on foreign employment income
@@ -218,7 +206,7 @@ Costa Rica's digital nomad visa requires health insurance. Maintaining separate 
 - Disability income insurance: $50-150/month
 - Life insurance: $20-50/month (age-dependent)
 
-**Total monthly**: $300-700 for comprehensive coverage
+**Total monthly**: $300-700 for coverage
 
 Many remote workers maintain their home country insurance and add supplemental Costa Rican coverage for local medical needs. This approach costs more but ensures continuity when returning to your home country.
 
@@ -266,8 +254,6 @@ The most tax-efficient path for most nomads: maintain home country tax residence
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

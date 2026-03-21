@@ -140,19 +140,6 @@ Perhaps the most important factor in supporting neurodivergent remote workers is
 
 Leaders should openly discuss their own needs and accommodations — this models the behavior and makes it safe for others to do the same. Discuss neurodiversity in team contexts regularly to reduce stigma. Recognize diverse cognitive styles as assets rather than requiring normalization. Make accommodation requests simple and remove any justification requirements.
 
-## Practical Implementation Summary
-
-Supporting neurodivergent remote workers requires systematic changes that benefit entire teams:
-
-1. Implement async-first communication with clear response expectations
-2. Structure tasks with small steps and clear completion criteria
-3. Provide environmental customization resources and equipment stipends
-4. Design accessible meetings with agendas, recordings, and structured participation
-5. Use outcome-based performance evaluation
-6. Build psychological safety for accommodation requests
-
-These practices create conditions where neurodivergent team members can contribute their strongest work while reducing the exhaustion that often accompanies neurotypical workplace norms.
-
 ## Real-World Accommodations: What Actually Works
 
 ### ADHD-Focused Adjustments
@@ -257,7 +244,7 @@ Track these metrics to ensure your neurodiversity initiatives are working:
 
 - **"Neurodivergent Teams" by Sarah Hendrickx**: Best overview of accommodating various neurodivergent types in workplace settings
 - **Neurodiversity @ Work certification programs**: Formal training for managers
-- **Project Include resources**: Comprehensive guides on inclusive hiring and retention
+- **Project Include resources**: guides on inclusive hiring and retention
 - **Direct employee input**: Ask your neurodivergent team members what works and what doesn't
 
 Building a truly inclusive workplace requires ongoing adjustment and willingness to listen. Neurodivergent employees are experts in their own needs—involve them in designing accommodations rather than imposing solutions.
@@ -306,7 +293,7 @@ If data shows accommodations aren't working, investigate why. Maybe the implemen
 
 Managers need training to support neurodivergent team members effectively. Key training topics:
 
-**Recognizing neurodivergent strengths:** Hyperfocus, pattern recognition, attention to detail, special interest expertise—these are assets to leverage, not deficiencies to manage around.
+**Recognizing neurodivergent strengths:** Hyperfocus, pattern recognition, attention to detail, special interest expertise—these are assets to use, not deficiencies to manage around.
 
 **Understanding executive function differently:** Not a lack of effort or capability, but different cognitive wiring. Provide external structure (checklists, reminders, task breakdown) without judgment.
 

@@ -363,6 +363,4 @@ Review monthly. If search quality is declining, contribution is dropping, or cer
 - [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
 - [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -268,7 +268,5 @@ This framing shows you are confident in your value, not apologizing for cost.
 - [Freelance Developer Portfolio Website Builders 2026](/remote-work-tools/freelance-developer-portfolio-website-builders-2026/)
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

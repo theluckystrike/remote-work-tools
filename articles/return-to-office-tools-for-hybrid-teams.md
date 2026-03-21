@@ -167,7 +167,5 @@ If your team has development capacity, investing in custom tooling can pay divid
 - [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 - [Hybrid Office Air Quality Monitoring for Maintaining.](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -276,7 +276,7 @@ Mexico's advantage is the highest visa duration (4 years) with clear extension p
 
 ## Advanced: Tax Planning for US Citizens and Expats
 
-If you're a US citizen, you have additional considerations:
+If you're an US citizen, you have additional considerations:
 
 - **FEIE (Foreign Earned Income Exclusion)** — Excludes first ~$120,000 of foreign-earned income from US taxes (2024 limits)
 - **PFIC Issues** — Some Mexican investment accounts trigger complex tax reporting

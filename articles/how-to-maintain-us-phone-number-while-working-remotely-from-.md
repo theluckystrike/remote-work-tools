@@ -20,7 +20,7 @@ Maintaining an US phone number while living in Portugal or Spain is essential fo
 
 When you relocate to Europe, your US phone number serves critical functions beyond personal communication. Most US banks require a valid US phone number for account verification. Two-factor authentication from services like Google, GitHub, and AWS often sends SMS codes to your registered number. Client communications and job interviews often expect an US contact number.
 
-Portuguese and Spanish SIM cards give you local numbers, but they do not replace your US number for these purposes. Switching everything to an European number creates friction with services tied to your American identity.
+Portuguese and Spanish SIM cards give you local numbers, but they do not replace your US number for these purposes. Switching everything to a European number creates friction with services tied to your American identity.
 
 ## Option 1: VoIP Services with SMS Support
 
@@ -101,7 +101,7 @@ app.listen(3000, () => console.log('Twilio webhook listening on :3000'));
 
 **Setup process**:
 1. Create Twilio account ($0, gets free $30 trial credit)
-2. Purchase a US phone number ($1.25/month)
+2. Purchase an US phone number ($1.25/month)
 3. Deploy webhook endpoint (use Heroku free tier, ngrok tunnel, or own server)
 4. Configure Twilio console to point to your webhook
 5. Update environment variables with your European phone number
@@ -124,7 +124,7 @@ Services like NumberProxy specialize in maintaining US numbers for international
 
 ## Option 2: eSIM Solutions ($50-200 initial + ongoing plan)
 
-eSIM technology allows you to maintain a US cellular number alongside your European SIM. This approach keeps your US number active on cellular networks without carrying a second physical phone.
+eSIM technology allows you to maintain an US cellular number alongside your European SIM. This approach keeps your US number active on cellular networks without carrying a second physical phone.
 
 | Provider | US Number | SMS | Reliability | Setup | Monthly Cost |
 |----------|-----------|-----|-------------|-------|--------------|
@@ -138,7 +138,7 @@ Several eSIM providers offer US phone numbers with data and SMS capabilities. Ai
 
 1. Confirm your phone supports eSIM (iPhone 13+, Samsung Galaxy S20+, Google Pixel 3+)
 2. Install Airalo app
-3. Purchase a US eSIM profile
+3. Purchase an US eSIM profile
 4. Install the profile on your phone (takes 30 seconds in Settings)
 5. Configure Airalo as secondary line while keeping your European number primary
 
@@ -158,7 +158,7 @@ If you maintain a relationship with an US carrier, some offer international roam
 | AT&T | International Monthly Pass | $60-100 | $0.50 each | $2-3/min | $10/day |
 | Verizon | TravelPass | $10/day + plan | Included | Included | Included |
 
-T-Mobile's ONE plan is the most affordable option for maintaining a US number while living abroad. When traveling in Portugal/Spain, SMS and voice work normally (though at varying speeds/reliability). International data is included at no extra cost, though speeds throttle after 50GB.
+T-Mobile's ONE plan is the most affordable option for maintaining an US number while living abroad. When traveling in Portugal/Spain, SMS and voice work normally (though at varying speeds/reliability). International data is included at no extra cost, though speeds throttle after 50GB.
 
 **Best for**: People who want zero setup complexity; those maintaining active US employment; people wanting cellular service.
 
@@ -223,7 +223,7 @@ Choose your solution based on your primary need:
 1. **Preemptively notify your bank**: Call them before moving and explain your remote work situation. Ask them to note your account.
 2. **Use a VoIP service that routes through US servers**: Twilio and Google Fi both route calls through US infrastructure, appearing more "local" to your bank.
 3. **Maintain backup verification method**: Set up secondary email authentication or security questions on critical accounts.
-4. **Have a US-based contact**: Ask a trusted friend/family member to receive verification codes on your behalf if needed.
+4. **Have an US-based contact**: Ask a trusted friend/family member to receive verification codes on your behalf if needed.
 
 **Backup communication methods** matter critically. Never rely entirely on a single phone number—it creates vulnerability if the service fails or your account locks. Implementation strategy:
 

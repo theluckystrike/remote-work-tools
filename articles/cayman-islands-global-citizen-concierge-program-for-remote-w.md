@@ -223,7 +223,7 @@ Plan your calendar to achieve 183+ days in-territory to establish clear tax resi
 
 ### US Tax Implications (FATCA)
 
-If you're a US citizen or permanent resident:
+If you're an US citizen or permanent resident:
 - The Cayman Islands is a FATCA-participating jurisdiction (requires US banks to report accounts)
 - Form 8840 (Closer Connection Exception) may exempt you from US taxation if you establish foreign tax residency
 - FBAR (Foreign Bank Account Report) is required for all foreign accounts over $10,000
@@ -301,8 +301,6 @@ The key decision: Does the zero-tax environment outweigh the higher cost of livi
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
 - [Malaysia Digital Nomad Pass DE Rantau Application for.](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

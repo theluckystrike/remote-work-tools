@@ -299,7 +299,5 @@ signal-cli -u +1234567890 listIdentities
 - [Wrist Exercises for Programmers: Prevent RSI and Stay Pain-Free](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
 - [Seat Cushion for Long Coding Sessions Review 2026](/remote-work-tools/seat-cushion-for-long-coding-sessions-review-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

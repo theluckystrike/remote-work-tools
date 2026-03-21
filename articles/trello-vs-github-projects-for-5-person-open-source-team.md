@@ -463,25 +463,12 @@ Weekly tracking:
 
 Use these metrics to understand whether your tool choice is working.
 
-## Summary Decision Matrix
-
-| Situation | Best Tool | Reason |
-|-----------|-----------|--------|
-| Small CLI project, active maintainer | GitHub Projects | Zero setup, native integration |
-| Complex project, 15+ contributors | GitHub Projects | Scales well, no cost |
-| Project with design/content teams | Trello | Non-code work emphasis |
-| Distributed team, async-heavy | Trello | Simpler communication |
-| Very small hobby project | GitHub Projects | Free, native |
-| Project spanning companies | Trello | More neutral, external-friendly |
-
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
 - [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

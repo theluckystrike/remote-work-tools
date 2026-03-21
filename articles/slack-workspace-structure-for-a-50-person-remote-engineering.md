@@ -103,7 +103,7 @@ private_channels:
 
 At 50 people, you'll have cross-functional work. Engineers from backend might assist mobile, or platform might pair with frontend on infrastructure. Enable this by encouraging engineers to join channels outside their primary team.
 
-A useful Slack admin practice: quarterly channel audits to archive stale channels and adjust permissions.
+an useful Slack admin practice: quarterly channel audits to archive stale channels and adjust permissions.
 
 ## Channel Naming Conventions That Scale
 
@@ -304,8 +304,6 @@ Phase 3: Norms and Governance
 - [Slack Channel Strategy for a Remote Company with 75.](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
 - [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 - [Shared Inbox Tool for a 4 Person Remote Customer Success.](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -171,7 +171,5 @@ Monitor your async critique process over time. Are deadlines being met? Is feedb
 - [Async Product Discovery Process for Remote Teams Using.](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

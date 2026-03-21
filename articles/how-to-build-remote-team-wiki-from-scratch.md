@@ -221,48 +221,48 @@ Assign ownership during the wiki's creation, not after it's built. Retroactive o
 Automate stale content detection rather than relying on manual quarterly audits:
 
 ```yaml
-# .github/workflows/stale-docs.yml
+#.github/workflows/stale-docs.yml
 name: Flag Stale Documentation
 
 on:
-  schedule:
-    - cron: '0 9 * * Monday'  # Every Monday morning
+ schedule:
+ - cron: '0 9 * * Monday' # Every Monday morning
 
 jobs:
-  check-stale:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+ check-stale:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v4
+ with:
+ fetch-depth: 0
 
-      - name: Find stale pages
-        run: |
-          STALE_THRESHOLD=90  # days
-          CUTOFF=$(date -d "$STALE_THRESHOLD days ago" +%Y-%m-%d)
-          echo "Pages not modified since $CUTOFF:"
-          git log \
-            --since="$STALE_THRESHOLD days ago" \
-            --pretty=format: \
-            --name-only docs/ | sort -u > recent_files.txt
+ - name: Find stale pages
+ run: |
+ STALE_THRESHOLD=90 # days
+ CUTOFF=$(date -d "$STALE_THRESHOLD days ago" +%Y-%m-%d)
+ echo "Pages not modified since $CUTOFF:"
+ git log \
+ --since="$STALE_THRESHOLD days ago" \
+ --pretty=format: \
+ --name-only docs/ | sort -u > recent_files.txt
 
-          find docs/ -name "*.md" | while read file; do
-            if ! grep -q "$file" recent_files.txt; then
-              echo "$file"
-            fi
-          done | tee stale_pages.txt
+ find docs/ -name "*.md" | while read file; do
+ if! grep -q "$file" recent_files.txt; then
+ echo "$file"
+ fi
+ done | tee stale_pages.txt
 
-      - name: Post to Slack
-        if: always()
-        run: |
-          COUNT=$(wc -l < stale_pages.txt)
-          if [ "$COUNT" -gt 0 ]; then
-            curl -X POST "$SLACK_WEBHOOK" \
-              -H 'Content-type: application/json' \
-              -d "{\"text\": \"$COUNT wiki pages haven't been updated in 90+ days. Review: $(cat stale_pages.txt | head -5 | tr '\n' ', ')\"}"
-          fi
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+ - name: Post to Slack
+ if: always()
+ run: |
+ COUNT=$(wc -l < stale_pages.txt)
+ if [ "$COUNT" -gt 0 ]; then
+ curl -X POST "$SLACK_WEBHOOK" \
+ -H 'Content-type: application/json' \
+ -d "{\"text\": \"$COUNT wiki pages haven't been updated in 90+ days. Review: $(cat stale_pages.txt | head -5 | tr '\n' ', ')\"}"
+ fi
+ env:
+ SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
 ```
 
 A well-built wiki becomes the institutional memory of your team. It survives personnel changes, scales with organization growth, and directly impacts productivity.
@@ -274,5 +274,4 @@ A well-built wiki becomes the institutional memory of your team. It survives per
 - [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
 {% endraw %}

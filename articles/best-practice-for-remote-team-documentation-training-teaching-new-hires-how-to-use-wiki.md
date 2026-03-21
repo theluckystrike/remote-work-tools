@@ -178,22 +178,22 @@ Your training approach depends on which platform you choose. Here's comparison:
 
 ### For New Hire Training
 - **Time investment per person**: 2-3 hours total
-  - Initial walkthrough: 60 minutes
-  - Hands-on practice: 45 minutes
-  - Documentation task: 30-45 minutes
+ - Initial walkthrough: 60 minutes
+ - Hands-on practice: 45 minutes
+ - Documentation task: 30-45 minutes
 
 - **Team time investment per hire**: 1-2 hours
-  - Recording walkthrough once per quarter: 60 minutes
-  - Reviewing submissions: 15-30 minutes per hire
-  - Answering questions: 10-20 minutes
+ - Recording walkthrough once per quarter: 60 minutes
+ - Reviewing submissions: 15-30 minutes per hire
+ - Answering questions: 10-20 minutes
 
 **Monthly cost**: If onboarding 1 hire/month, team investment is ~2-3 hours
 
 ### For Existing Team Maintenance
 - **Weekly time**: 30-60 minutes total (distributed)
-  - Review and update during sprint: 20 minutes
-  - Respond to wiki-related questions: 20-40 minutes
-  - Archive/deprecate outdated docs: 20 minutes (monthly)
+ - Review and update during sprint: 20 minutes
+ - Respond to wiki-related questions: 20-40 minutes
+ - Archive/deprecate outdated docs: 20 minutes (monthly)
 
 ## Content Strategy for Different Document Types
 

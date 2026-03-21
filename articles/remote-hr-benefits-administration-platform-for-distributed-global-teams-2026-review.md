@@ -205,7 +205,5 @@ The right choice depends on your current hiring pattern, technical integration r
 - [How to Set Up Compliant Remote Employee Benefits Across.](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
 - [Remote Team Security Awareness Training Platform.](/remote-work-tools/remote-team-security-awareness-training-platform-comparison-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

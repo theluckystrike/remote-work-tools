@@ -168,7 +168,5 @@ The goal is not performative praise but genuine acknowledgment that helps remote
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
 - [How to Set Up Remote Team Mentorship Program Matching.](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

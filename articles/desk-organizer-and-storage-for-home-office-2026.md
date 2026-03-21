@@ -185,7 +185,5 @@ Start with cable management — it has the highest immediate impact. Add drawer 
 - [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
 - [Best Standing Desk for Home Office Coding: A Developer's Guide](/remote-work-tools/best-standing-desk-for-home-office-coding/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -397,6 +397,4 @@ Building a compliant multi-state benefits system requires tracking employee loca
 - [How to Set Up Remote Pharmacy Consultation Service with.](/remote-work-tools/how-to-set-up-remote-pharmacy-consultation-service-with-video-conferencing-tools/)
 - [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

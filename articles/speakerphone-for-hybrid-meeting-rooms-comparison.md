@@ -230,7 +230,5 @@ The best speakerphone for your situation depends on room characteristics, partic
 - [Best Video Bar for Small Hybrid Meeting Rooms Under 8.](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
 - [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

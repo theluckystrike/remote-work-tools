@@ -193,6 +193,4 @@ For most developers, a stand with 14-24 inch height range, 10+ pound capacity, a
 - [Best Compact Standing Desk for Small Apartment Home.](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
 - [Roost Stand vs Nexstand Laptop Stand Comparison: A Developer's Guide](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

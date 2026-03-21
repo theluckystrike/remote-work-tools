@@ -169,11 +169,11 @@ However, if you stay more than 183 days in a calendar year, you become a Taiwan 
 - Maintain documentation of remote work for overseas clients
 - Consider consulting a Taiwan tax accountant ($300-500 consultation) to optimize your structure
 
-For a developer earning USD $50,000-80,000 remotely, the foreign-sourced income exemption can save significant tax burden compared to being a US or EU tax resident.
+For a developer earning USD $50,000-80,000 remotely, the foreign-sourced income exemption can save significant tax burden compared to being an US or EU tax resident.
 
 ## Healthcare and Insurance on Gold Card
 
-Taiwan's National Health Insurance (NHI) is one of the world's most comprehensive systems at exceptionally low cost. After enrolling:
+Taiwan's National Health Insurance (NHI) is one of the world's most systems at exceptionally low cost. After enrolling:
 
 - Monthly premiums: NT$1,200-2,500 (USD $40-80) depending on declared income
 - Coverage: Hospitals, clinics, dental, prescription drugs
@@ -194,7 +194,7 @@ No waiting period. You can see doctors immediately after enrollment.
 
 ## Building Your Taiwan Professional Network
 
-Taiwan has a thriving tech community. Leverage Gold Card status to build connections:
+Taiwan has a thriving tech community. use Gold Card status to build connections:
 
 - **Taipei Tech Meetups**: TWTC TechCrunch Disrupt events, local Python/JavaScript meetups
 - **Coworking spaces with community**: WeWork, The Hive, Workspace have regular networking events
@@ -309,8 +309,6 @@ This documentation protects you if immigration authorities audit your Gold Card 
 - [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
 - [Indonesia Second Home Visa for Remote Workers.](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -230,7 +230,7 @@ The 3-2 model isn't one-size-fits-all. Consider these variations:
 
 **2-3 model (two remote, three office):** Works for teams where collaboration heavily outweighs deep work needs. Common in design, product management, and open-office environments. Less suitable for developers.
 
-**1-4 model (one remote day, four office):** Essentially office-first with flexibility. Use if your culture is already office-heavy and team cohesion matters more than individual focus.
+**1-4 model (one remote day, four office):** office-first with flexibility. Use if your culture is already office-heavy and team cohesion matters more than individual focus.
 
 **4-1 model (four remote, one office):** Works for highly distributed teams where office days serve as periodic sync checkpoints. Good for asynchronous teams that occasionally need face-to-face alignment.
 
@@ -268,7 +268,5 @@ Give the model at least 6 weeks before deciding it's not working. People need ti
 - [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
 - [How to Create Hybrid Office Quiet Zone Policy for.](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

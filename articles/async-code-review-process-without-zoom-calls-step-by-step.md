@@ -167,13 +167,13 @@ This language invites discussion rather than commanding compliance.
 The praise sandwich (positive-negative-positive feedback) feels patronizing to smart engineers. Instead:
 
 1. **Lead with specific positive feedback:**
-   "The error handling in this function is really solid—good thinking to differentiate between connection errors and validation errors."
+ "The error handling in this function is really solid—good thinking to differentiate between connection errors and validation errors."
 
 2. **Transition to improvement area:**
-   "One area I'd suggest reconsidering is the hardcoded timeout value. I wonder if we should make that configurable since different clients have different latency characteristics."
+ "One area I'd suggest reconsidering is the hardcoded timeout value. I wonder if we should make that configurable since different clients have different latency characteristics."
 
 3. **End with clear action:**
-   "Could you either make it configurable or add a comment explaining the timeout choice?"
+ "Could you either make it configurable or add a comment explaining the timeout choice?"
 
 This approach respects reviewer and author intelligence.
 
@@ -286,16 +286,16 @@ Track metrics beyond just time to merge:
 Some discussions are faster synchronously. Escalate when:
 
 1. **Architectural disagreement:** 5+ comments debating approach
-   → Schedule 15-minute design discussion
+ → Schedule 15-minute design discussion
 
 2. **Performance concerns:** Complex tradeoff discussion
-   → Quick call to align on priorities
+ → Quick call to align on priorities
 
 3. **Security vulnerability:** Potential breach discussion
-   → Immediate sync (don't let it sit in PR comments)
+ → Immediate sync (don't let it sit in PR comments)
 
 4. **Interpersonal tension:** Multiple exchanges feeling heated
-   → Personal call to rebuild relationship
+ → Personal call to rebuild relationship
 
 Document the outcome in the PR afterward so future readers understand the decision.
 
@@ -314,8 +314,6 @@ Async reviews fail when teams don't establish clear norms. Avoid these mistakes:
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

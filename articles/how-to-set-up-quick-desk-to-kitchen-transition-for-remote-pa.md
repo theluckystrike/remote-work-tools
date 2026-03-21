@@ -333,14 +333,6 @@ If you're not seeing improvement by week 3, diagnose the problem. Common issues:
 
 Fix the specific bottleneck rather than trying to optimize everything simultaneously.
 
-## Implementation Summary
-
-Building an efficient desk-to-kitchen transition requires attention to physical setup, automation, and preparation systems. Start with one improvement—perhaps the status update script or the tmux session saver—and add more as each becomes habitual.
-
-The cumulative effect matters more than perfection. Saving even three minutes per lunch adds up to over 20 hours per year that you can redirect toward family time or personal restoration.
-
-{% endraw %}
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
@@ -348,6 +340,5 @@ The cumulative effect matters more than perfection. Saving even three minutes pe
 - [How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
 - [How to Set Up Home Office in Bali Rental Apartment with Reliable Power](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

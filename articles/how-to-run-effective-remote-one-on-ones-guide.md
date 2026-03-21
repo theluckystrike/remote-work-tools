@@ -165,7 +165,7 @@ Fellow is a web app specifically designed for recurring 1:1 management. It enfor
 [Auto-scheduled]
 ```
 
-### Lattice: Comprehensive People Management
+### Lattice: People Management
 
 Lattice is an enterprise people platform (performance, engagement, development) that includes 1:1 management.
 

@@ -208,7 +208,5 @@ Start with the basics and upgrade over time. A functional workspace doesn't requ
 - [How to Set Up a Soundproof Home Office When Working.](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 - [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

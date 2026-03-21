@@ -16,7 +16,7 @@ score: 8
 {% raw %}
 # Remote Team One on One Meeting Template for Engineering Managers with Direct Reports
 
-Engineering managers overseeing remote teams face an unique challenge: building genuine connection and providing meaningful guidance without the benefit of in-person interactions. A well-structured one-on-one meeting template becomes your primary tool for maintaining engagement, catching issues early, and helping your direct reports grow professionally.
+Engineering managers overseeing remote teams face a unique challenge: building genuine connection and providing meaningful guidance without the benefit of in-person interactions. A well-structured one-on-one meeting template becomes your primary tool for maintaining engagement, catching issues early, and helping your direct reports grow professionally.
 
 This guide provides a template you can implement immediately, along with the reasoning behind each section and practical code snippets for automating meeting prep.
 
@@ -269,8 +269,6 @@ A well-executed one-on-one template transforms a simple meeting into your most p
 - [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
 - [Remote Team Walking Meeting Format for One-on-One.](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

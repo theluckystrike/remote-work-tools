@@ -170,6 +170,4 @@ Many developers have secured flexible hours by proving their value first and neg
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 - [Remote Team Conflict Resolution Over Chat When Video.](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

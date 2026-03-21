@@ -174,7 +174,5 @@ Moving between tools requires planning:
 - [Best Remote Pair Design Tool for UX Researchers.](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
 - [Figma vs Sketch for Remote Design Collaboration: A Developer's Guide](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

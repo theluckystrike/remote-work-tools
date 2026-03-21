@@ -180,6 +180,4 @@ Remote social work demands disciplined systems and intentional practices. By imp
 - [Best Practice for Remote Real Estate Photographers.](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
 - [How to Help Remote Team Workshops Using Miro with.](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

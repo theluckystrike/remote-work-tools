@@ -326,6 +326,4 @@ For sensitive discussions, ensure your backdrop is clean and no confidential inf
 - [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
 - [Best Virtual Escape Room Platform for Remote Team.](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

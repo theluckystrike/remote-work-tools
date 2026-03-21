@@ -196,21 +196,6 @@ Both platforms offer APIs, but Jitsi's open-source nature provides more flexibil
 - Jitsi: Full source code access, custom modding, iframe embedding, webhook support
 - Zoom: REST API, SDKs, but limited visibility into core functionality
 
-## Summary: When to Choose Each
-
-Choose **Jitsi Meet** when:
-- You need complete data sovereignty
-- Self-hosting aligns with your infrastructure
-- Open-source transparency is a requirement
-- You want to avoid vendor lock-in
-- Privacy is the primary concern over feature richness
-
-Choose **Zoom** when:
-- You need advanced features (breakout rooms, webinars, transcription)
-- Enterprise support is a requirement
-- Cross-platform compatibility is priority
-- You need integration with existing business tools
-
 ## Security Hardening Tips
 
 Regardless of your choice, implement these practices:

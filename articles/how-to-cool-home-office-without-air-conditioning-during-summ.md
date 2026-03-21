@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Cool Home Office Without Air Conditioning During Summer
 
-Working from home during summer months presents an unique challenge: maintaining productivity in temperatures that can fry both hardware and focus. Whether you're dealing with a rented space where installing AC isn't permitted, working in a historic building without modern cooling, or simply trying to reduce your energy footprint, this guide covers practical solutions for keeping your home office comfortable without air conditioning.
+Working from home during summer months presents a unique challenge: maintaining productivity in temperatures that can fry both hardware and focus. Whether you're dealing with a rented space where installing AC isn't permitted, working in a historic building without modern cooling, or simply trying to reduce your energy footprint, this guide covers practical solutions for keeping your home office comfortable without air conditioning.
 
 This article targets developers and power users who want actionable, technical approaches rather than generic advice.
 
@@ -178,8 +178,6 @@ Track your productivity alongside temperature readings:
 - [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
 - [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
 - [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

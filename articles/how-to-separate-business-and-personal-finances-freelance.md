@@ -224,21 +224,6 @@ Set up a recurring calendar block for financial review. A 30-minute monthly sess
 
 This rhythm prevents end-of-year panic and keeps your books always ready for quarterly tax estimates.
 
-## Key Takeaways
-
-Separating business and personal finances as a freelancer requires intentional systems, not complex software:
-
-- Open dedicated business checking and savings accounts
-- Establish a regular "payroll" transfer schedule
-- Use plain-text accounting (Ledger or Beancount) for full control
-- Automate categorization with simple rule engines
-- Track mixed-use expenses with proportional allocation
-- Maintain a monthly review rhythm
-
-The initial setup takes a few hours. The ongoing maintenance is 30 minutes monthly. The payoff is complete visibility into your business health and stress-free tax preparation.
-
----
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

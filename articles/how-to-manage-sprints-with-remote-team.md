@@ -31,7 +31,7 @@ voice-checked: true
 Automate standup collection with a GitHub Action that aggregates updates:
 
 ```yaml
-# .github/workflows/standup-collector.yml
+#.github/workflows/standup-collector.yml
 name: Weekly Standup Summary
 on:
  schedule:
@@ -185,8 +185,8 @@ class VelocityTracker {
  );
 
  const projectedVelocity = percentComplete > 0
- ? completedSoFar / percentComplete
- : 0;
+? completedSoFar / percentComplete
+: 0;
 
  return {
  completed: completedSoFar,
@@ -213,7 +213,7 @@ Blockers in remote teams require explicit escalation paths. A "blocker" that wou
 ### Blocker Escalation Workflow
 
 ```yaml
-# .github/workflows/blocker-escalation.yml
+#.github/workflows/blocker-escalation.yml
 name: Blocker Escalation
 
 on:
@@ -301,5 +301,4 @@ Start with async standups this week, add capacity planning next sprint, and iter
 - [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
 {% endraw %}

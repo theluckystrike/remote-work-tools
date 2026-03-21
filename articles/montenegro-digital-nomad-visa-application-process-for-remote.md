@@ -220,7 +220,7 @@ The Balkans position offers unique advantages for remote workers:
 
 ### Visa-Free/Easy Travel Within Region
 
-With Montenegrin residency, accessing neighboring countries becomes :
+With Montenegrin residency, accessing neighboring countries becomes:
 
 - **Schengen Area (soon)** — Montenegro is negotiating Schengen accession; temporary resident visa may help future EU area travel
 - **EU Candidate** — Montenegro's EU trajectory adds long-term stability to your residence

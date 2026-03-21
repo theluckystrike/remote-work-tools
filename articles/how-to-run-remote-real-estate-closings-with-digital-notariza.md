@@ -234,7 +234,5 @@ Protecting sensitive real estate data requires attention to several areas:
 - [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
 - [Digital Signage for Hybrid Office Communication: A.](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -186,7 +186,5 @@ An effective async mentorship program removes the friction of remote work while 
 - [Async Interview Process for Hiring Remote Developers: No.](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -228,7 +228,5 @@ if __name__ == "__main__":
 - [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
 - [Desk Organizer and Storage for Home Office 2026: A Developer's Guide](/remote-work-tools/desk-organizer-and-storage-for-home-office-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

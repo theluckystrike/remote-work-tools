@@ -293,7 +293,5 @@ If warning signs appear, don't wait for the next retrospective. Address immediat
 - [How to Scale Remote Team Sprint Ceremonies When Splitting Into Multiple Squads: A Practical Guide](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
 - [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

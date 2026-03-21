@@ -248,7 +248,5 @@ Track metrics like recognition frequency, participation rates, and employee sati
 - [Best Remote Employee Onboarding Checklist Tool for HR.](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
 - [Remote Legal Research Tool Comparison for Distributed.](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

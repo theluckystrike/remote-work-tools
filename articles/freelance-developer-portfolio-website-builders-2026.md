@@ -296,7 +296,7 @@ Your portfolio's performance is itself a demonstration of your skills. A site th
 Astro achieves these benchmarks with minimal configuration. Add this build step to test before deploying:
 
 ```bash
-npx lighthouse https://yourportfolio.dev --output json --output-path ./lh-report.json
+npx lighthouse https://yourportfolio.dev --output json --output-path./lh-report.json
 ```
 
 Review Lighthouse output after every significant change. A portfolio that scores 98 on performance signals professionalism before a client reads a single word.
@@ -353,8 +353,6 @@ Your name as a `.dev` or `.com` domain remains the clearest choice for freelance
 - [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
 - [How to Set Freelance Developer Rates in 2026](/remote-work-tools/how-to-set-freelance-developer-rates-2026/)
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

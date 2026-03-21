@@ -305,6 +305,4 @@ This prevents the endless revision cycle where feedback creates more questions i
 - [Screen Sharing Solutions for Hybrid Meetings](/remote-work-tools/screen-sharing-solutions-for-hybrid-meetings/)
 - [How to Record Client Demo Videos Asynchronously for Remote Agency](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

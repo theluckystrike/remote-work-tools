@@ -134,7 +134,7 @@ Certificates can be set to expire within hours, giving each team member personal
 
 Many applications load configuration from environment variables. Protecting these variables prevents credential leakage in remote workflows.
 
-### dotenv with .gitignore
+### dotenv with.gitignore
 
 Never commit `.env` files containing credentials:
 
@@ -237,8 +237,6 @@ Each of these approaches has a place for low-risk scenarios, but production syst
 - [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
 - [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
 - [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

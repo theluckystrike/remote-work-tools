@@ -264,7 +264,7 @@ Freelancing is a business, which means you need business systems:
 
 **Invoicing and bookkeeping:**
 - Wave (free): Handles invoicing and basic expense tracking
-- QuickBooks Self-Employed ($180/year): Comprehensive bookkeeping, tax tracking
+- QuickBooks Self-Employed ($180/year): bookkeeping, tax tracking
 - Freshbooks ($15-30/month): Client management + invoicing combined
 - Stripe Invoicing (free): Minimal but sufficient for small operations
 
@@ -361,8 +361,6 @@ The technical skills that made you employable transfer directly to freelance wor
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
 - [How to Ask for Referrals as a Freelance Developer](/remote-work-tools/how-to-ask-for-referrals-as-freelance-developer/)
 - [Freelance Developer to Product Builder Transition: A.](/remote-work-tools/freelance-developer-to-product-builder-transition/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

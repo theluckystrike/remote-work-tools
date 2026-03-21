@@ -176,7 +176,5 @@ A well-chosen desk becomes your primary work surface for years. Investing time i
 - [Home Office Chair Mat for Carpet vs Hardwood Floor.](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)
 - [Best Standing Desk for Home Office Coding: A Developer's Guide](/remote-work-tools/best-standing-desk-for-home-office-coding/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -311,7 +311,5 @@ Most teams should start with Loom Free and upgrade to Loom Pro ($12/person/month
 - [How to Replace Daily Standups with Async Text Updates.](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
 - [Async Standup Alternative Using GitHub Commit Summaries Automatically](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

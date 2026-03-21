@@ -246,7 +246,5 @@ The best CASB is one your team will actually use. Start with visibility, then la
 - [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 - [Best Translation Tool for Remote Teams Multilingual.](/remote-work-tools/best-translation-tool-for-remote-teams-multilingual-communic/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

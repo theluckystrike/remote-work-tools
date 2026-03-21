@@ -248,7 +248,5 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 - [Async Capacity Planning Process for Remote Engineering.](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
 - [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

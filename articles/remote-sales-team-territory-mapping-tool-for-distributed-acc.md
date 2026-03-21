@@ -304,7 +304,5 @@ The tools and patterns in this guide provide a foundation for territory mapping 
 - [Best Remote Sales Enablement Platform for Distributed BDRs and Account Executives 2026](/remote-work-tools/best-remote-sales-enablement-platform-for-distributed-bdrs-a/)
 - [Remote Sales Team Demo Environment Setup for Distributed.](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

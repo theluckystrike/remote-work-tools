@@ -257,7 +257,5 @@ The right choice ultimately depends on your existing tool ecosystem, technical c
 - [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
 - [Virtual Escape Room Platforms for Remote Engineering Team Events](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

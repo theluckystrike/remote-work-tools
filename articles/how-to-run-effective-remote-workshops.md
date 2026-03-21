@@ -189,12 +189,6 @@ This directly creates the artifact your team needs to move forward.
 
 The work doesn't end when the video call closes. Without proper follow-through, workshops become expensive meetings that produce no results.
 
-### Send Summary Within Hours
-
-Capture while memory is fresh. Your summary should include:
-
-```markdown
-# Workshop Summary: [Title]
 ## Date: [Date]
 ## Participants: [List]
 
@@ -222,9 +216,9 @@ Action items without accountability become forgotten items. Use your existing pr
 ```bash
 # Example: Creating action items from CLI
 gh issue create \
-  --title "API Rate Limiting Implementation" \
-  --body "From Database Migration Workshop - owner: @alex, due: 2026-03-20" \
-  --label "workshop-followup"
+ --title "API Rate Limiting Implementation" \
+ --body "From Database Migration Workshop - owner: @alex, due: 2026-03-20" \
+ --label "workshop-followup"
 ```
 
 Include a link back to the workshop summary in each ticket's description.
@@ -244,8 +238,6 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 - [How to Help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
 - [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
 - [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

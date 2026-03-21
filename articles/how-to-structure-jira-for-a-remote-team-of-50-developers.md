@@ -204,27 +204,12 @@ Beyond configuration, establish conventions that make Jira work for distributed 
 3. **Link PRs immediately** — Automated transitions keep boards current without manual updates
 4. **Review board standing** — Spend 5 minutes each morning reviewing your team's board view
 
-## Summary: Key Principles
-
-Structuring Jira for 50 remote developers requires balancing visibility with focus:
-
-- **Group by product domain** — One project per major area keeps things navigable
-- **Automate transitions** — Reduce manual status updates with automation rules
-- **Use components** — Create accountability without project proliferation
-- **Track dependencies explicitly** — Epics and linking make cross-team work visible
-- **Configure permissions by group** — Avoid individual permissions; use consistent groups
-
-The goal is a Jira instance where developers can find what they need, understand what others are working on, and communicate blockers without scheduling meetings. When configured correctly, Jira becomes infrastructure for async coordination rather than another tool requiring constant management.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

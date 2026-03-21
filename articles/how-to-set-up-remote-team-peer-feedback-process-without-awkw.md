@@ -215,7 +215,5 @@ Over time, you'll notice team members giving unsolicited feedback because they'v
 - [Remote Team Manager Peer Feedback Exchange Template for.](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 - [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -4,7 +4,7 @@ title: "Example: Export Miro board via API"
 description: "Learn practical techniques for running effective remote workshops in Miro with structured communication exercises that keep teams engaged and productive"
 date: 2026-03-16
 author: "Remote Work Tools"
-permalink: /how-to-facilitate-remote-team-workshops-using-miro-with-stru/
+permalink: /how-to-help-remote-team-workshops-using-miro-with-stru/
 reviewed: true
 score: 9
 intent-checked: true
@@ -135,14 +135,6 @@ curl -X POST "https://api.miro.com/v2/boards/{board_id}/export" \
   -H "Content-Type: application/json" \
   -d '{"format": "pdf", "quality": "high"}'
 ```
-
-## Key Takeaways
-
-Successful remote workshop help in Miro requires more than sharing a board link. Structure your sessions with clear time boundaries, equal participation mechanisms, and organized visual layouts. The techniques outlined here work for teams of any size, though you'll want to adjust timing based on group dynamics.
-
-Start with the round-robin protocol for your next meeting. Add the parking lot for tangent management. Implement dot voting for decisions. These small structural additions compound into significantly more productive sessions.
-
-The remote work ecosystem continues evolving, but the fundamentals of good help remain constant: clear goals, inclusive participation, and actionable outcomes. Miro provides the canvas—structured communication exercises provide the framework.
 
 ## Alternative Tools and Comparison
 
@@ -275,8 +267,6 @@ This creates a searchable archive that new team members can review to understand
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
 - [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
 - [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

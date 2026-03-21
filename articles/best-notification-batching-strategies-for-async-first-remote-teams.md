@@ -234,7 +234,7 @@ Implement by creating Slack channels by urgency level or configuring project man
 
 ## Handling Interruptions: The Exception Process
 
-Even robust batching needs exception handling. Define when messages break through:
+Even strong batching needs exception handling. Define when messages break through:
 
 ```markdown
 ## When to Interrupt Someone's Focus Time

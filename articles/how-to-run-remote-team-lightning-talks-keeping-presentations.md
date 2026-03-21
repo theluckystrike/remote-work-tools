@@ -57,7 +57,7 @@ If your team is new to lightning talks, start with bi-weekly sessions and increa
 
 The best lightning talk topics are specific and immediately applicable:
 
-- A utility script that solved a specific problem
+- an utility script that solved a specific problem
 - A debugging technique discovered during incident response
 - A tool or workflow improvement
 - A summary of something learned from a conference talk or article
@@ -182,8 +182,6 @@ Some teams maintain a "lightning talk queue" where volunteers add their names an
 - [How to Run Remote Team Daily Standup in Slack Without.](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 - [How to Run Sprints with a Remote Team of 4 Engineers: A Practical Guide](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
 - [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

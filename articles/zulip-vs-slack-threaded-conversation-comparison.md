@@ -183,6 +183,4 @@ Both platforms offer desktop applications built on Electron (Slack) and Qt (Zuli
 - [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
 - [Figma vs Sketch for Remote Design Collaboration: A Developer's Guide](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

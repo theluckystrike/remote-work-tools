@@ -290,6 +290,4 @@ Proper maintenance extends unit lifespan from 5-7 years (typical) to 10+ years.
 - [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
 - [Home Office Humidity Control for Comfortable Coding Sessions](/remote-work-tools/home-office-humidity-control-for-comfortable-coding-sessions/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

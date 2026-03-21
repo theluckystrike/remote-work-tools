@@ -413,7 +413,5 @@ Element security best practices:
 - [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
 - [Best Encrypted Messaging App for Remote Team Sensitive.](/remote-work-tools/best-encrypted-messaging-app-for-remote-team-sensitive-commu/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

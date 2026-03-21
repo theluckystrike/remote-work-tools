@@ -64,8 +64,8 @@ Outdated or corrupted cache files often cause rendering issues with embedded con
 **For Desktop App:**
 1. Quit Slack completely (right-click the icon in the system tray, select Quit)
 2. Open your file browser and navigate to the Slack cache directory
-   - On Mac: `~/Library/Application Support/Slack/Cache`
-   - On Windows: `%APPDATA%\Slack\Cache`
+ - On Mac: `~/Library/Application Support/Slack/Cache`
+ - On Windows: `%APPDATA%\Slack\Cache`
 3. Delete all files in the Cache folder
 4. Restart Slack
 

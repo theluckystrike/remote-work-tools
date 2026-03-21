@@ -221,7 +221,5 @@ Several patterns undermine async QA effectiveness. First, unclear acceptance cri
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Async Product Discovery Process for Remote Teams Using.](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

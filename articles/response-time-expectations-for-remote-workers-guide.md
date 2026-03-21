@@ -208,7 +208,5 @@ If circumstances change—travel, illness, heavy workload—communicate proactiv
 - [How to Support Neurodivergent Remote Workers](/remote-work-tools/how-to-support-neurodivergent-remote-workers/)
 - [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

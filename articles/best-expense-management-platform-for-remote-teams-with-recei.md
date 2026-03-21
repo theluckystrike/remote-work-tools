@@ -385,6 +385,4 @@ Expense management is not just a system—it's a team practice requiring regular
 - [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

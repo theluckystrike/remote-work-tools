@@ -177,7 +177,5 @@ Start with one activity that fits your team size and culture. Try it for a month
 - [Best Virtual Icebreaker Tool for Remote Team Meetings.](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
 - [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -158,8 +158,8 @@ The critical action is ensuring your invoice automation includes exchange rate c
 For a practical step-by-step setup, assume you're a 5-person remote agency based in Germany billing both German clients in EUR and US clients in USD:
 
 **Step 1: Bank account structure**
-- Open a EUR business account (with your German bank)
-- Open a USD business account (with Wise, Revolut Business, or US banking service)
+- Open an EUR business account (with your German bank)
+- Open an USD business account (with Wise, Revolut Business, or US banking service)
 - In your accounting system, configure these as separate bank accounts with different currencies
 
 **Step 2: Invoice configuration**
@@ -168,7 +168,7 @@ For a practical step-by-step setup, assume you're a 5-person remote agency based
 - Build automation that captures exchange rates from your API at invoice creation time
 
 **Step 3: Payment processing**
-- When a US client pays in dollars, direct them to your USD bank account
+- When an US client pays in dollars, direct them to your USD bank account
 - When a German client pays in euros, direct them to your EUR account
 - Configure your accounting software to automatically categorize payments by account
 
@@ -273,8 +273,6 @@ For a 5-person agency crossing six figures in revenue, this is a worthwhile inve
 - [Remote Legal Billing Software Comparison for Distributed.](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
 - [Best Accounting Software for Freelancers 2026: A.](/remote-work-tools/best-accounting-software-for-freelancers-2026/)
 - [Best Proposal Software for Remote Web Development Agency.](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -192,7 +192,5 @@ Track metrics like time-to-productivity, task completion rates, and new hire sat
 - [Best Tool for Remote Team Async Onboarding With Self-Paced Learning Modules 2026](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
 - [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

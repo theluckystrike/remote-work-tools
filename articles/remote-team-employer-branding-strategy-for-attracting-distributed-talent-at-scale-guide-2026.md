@@ -14,7 +14,7 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-Attracting top distributed talent requires more than posting jobs on LinkedIn. Your employer brand—the story you tell about working at your company—determines whether engineers even apply. Remote teams face an unique challenge: competing for talent against companies worldwide, without the advantage of physical presence.
+Attracting top distributed talent requires more than posting jobs on LinkedIn. Your employer brand—the story you tell about working at your company—determines whether engineers even apply. Remote teams face a unique challenge: competing for talent against companies worldwide, without the advantage of physical presence.
 
 This guide provides concrete strategies to build employer branding that attracts developers at scale. You'll find actionable frameworks, code examples for measuring brand equity, and systems you can implement immediately.
 

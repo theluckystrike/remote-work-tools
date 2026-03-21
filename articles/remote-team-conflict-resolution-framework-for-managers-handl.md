@@ -185,7 +185,7 @@ These patterns matter more than individual conflicts because they indicate where
 
 ## Tool Recommendations for Remote Conflict Management
 
-Several tools facilitate structured conflict resolution in remote teams:
+Several tools help structured conflict resolution in remote teams:
 
 **Slack for initial documentation**: Create private channels for sensitive discussions. The message history provides clear records that teams can reference later. Use threading to keep conversations organized.
 
@@ -280,8 +280,6 @@ Pattern recognition in conflicts helps prevent repeating them. If you resolve th
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [Remote Team Conflict Resolution Over Chat When Video.](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
 - [How to Run Remote Team Quarterly Business Review for.](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

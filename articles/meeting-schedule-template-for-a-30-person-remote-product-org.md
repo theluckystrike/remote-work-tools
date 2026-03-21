@@ -167,49 +167,12 @@ Track two metrics:
 
 If either metric drifts unfavorably, audit your meeting list and eliminate the least valuable meetings first.
 
-## Final Template Summary
-
-```yaml
-meeting_schedule:
-  company_all_hands:
-    day: Monday
-    time: "10:00 UTC"
-    duration: 45
-    attendees: all
-    
-  product_sync:
-    days: [Tuesday, Thursday]
-    time: "15:00 UTC"
-    duration: 30
-    attendees: leads
-    
-  team_meetings:
-    engineering:
-      daily_standup: "09:00 UTC"
-      weekly_planning: "14:00 UTC Friday"
-    design:
-      weekly_critique: "16:00 UTC Wednesday"
-    product:
-      roadmap_review: "14:00 UTC Monday"
-      
-  focus_time:
-    - day: Wednesday
-      block: morning
-    - day: Friday
-      block: afternoon
-```
-
-This framework scales to 30 people because it concentrates communication into structured tiers while protecting the time people need to actually build product. Adjust timing and frequency based on your organization's specific time zones and workflow patterns.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

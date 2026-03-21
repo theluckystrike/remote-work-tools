@@ -174,7 +174,5 @@ Here's a practical rollout schedule:
 - [How to Create Remote Team Leadership Development Pipeline for Growing Distributed Organizations](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)
 - [Remote Team Documentation Culture Building Guide for.](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

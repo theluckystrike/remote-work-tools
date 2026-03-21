@@ -143,7 +143,7 @@ Twingate is a zero-trust platform built on WireGuard. It focuses on device postu
 - Audit trail (SIEM integration available)
 
 **Strengths:**
-- Most comprehensive zero-trust model (device posture enforcement)
+- Most zero-trust model (device posture enforcement)
 - Enterprise-ready (SOC 2, HIPAA, PCI compliance)
 - Transparent proxy (no app changes needed)
 - Excellent audit logs (SOC team dreams)

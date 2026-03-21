@@ -293,7 +293,5 @@ The best all-in-one tool for your 5-person remote nonprofit is the one your team
 - [Shared Inbox Tool for a 4 Person Remote Customer Success.](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
 - [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

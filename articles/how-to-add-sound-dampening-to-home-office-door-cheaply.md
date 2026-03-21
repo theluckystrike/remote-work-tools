@@ -259,7 +259,7 @@ print(f"- Every 10 dB = roughly half the perceived loudness")
 print(f"- Your improvement: {(baseline - final) / 10:.1f}x quieter")
 ```
 
-Use a calibrated phone microphone app or purchase a USB microphone ($20-30) for more accurate measurements. Test at different times of day to capture variation.
+Use a calibrated phone microphone app or purchase an USB microphone ($20-30) for more accurate measurements. Test at different times of day to capture variation.
 
 ## Integration with Office Workflow
 
@@ -278,8 +278,6 @@ The combination of physical soundproofing + active noise cancellation + white no
 - [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
 - [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
 - [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -214,7 +214,5 @@ Remote agency work thrives on trust. By being clear about how you work, you actu
 - [Best Proposal Software for Remote Web Development Agency.](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
 - [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
