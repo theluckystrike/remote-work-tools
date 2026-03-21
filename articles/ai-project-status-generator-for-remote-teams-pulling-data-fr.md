@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "AI Project Status Generator for Remote Teams Pulling."
+title: "AI Project Status Generator for Remote Teams Pulling"
 description: "Learn how to build an AI-powered project status generator that aggregates data from multiple remote work tools. Complete implementation guide with code"
 date: 2026-03-16
 author: theluckystrike
@@ -11,6 +11,7 @@ reviewed: true
 score: 9
 intent-checked: true
 voice-checked: true
+
 ---
 
 {% raw %}

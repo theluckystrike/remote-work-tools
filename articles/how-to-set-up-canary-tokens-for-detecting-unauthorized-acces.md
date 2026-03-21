@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Canary Tokens for Detecting Unauthorized."
+title: "How to Set Up Canary Tokens for Detecting Unauthorized"
 description: "Learn how to deploy canary tokens to detect unauthorized access to your remote systems, credentials, and sensitive files"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -11,6 +11,8 @@ score: 9
 voice-checked: true
 categories: [guides]
 tags: [remote-work-tools]
+intent-checked: true
+
 ---
 
 {% raw %}
