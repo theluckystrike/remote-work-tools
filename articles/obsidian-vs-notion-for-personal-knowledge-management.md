@@ -262,7 +262,7 @@ SORT file.mtime DESC
 
 **Scenario 4: Team wiki with embedded media**
 
-Notion wins. Rich embedding (YouTube, Figma, PDFs) works seamlessly. Shared Notion pages with comment threads are easier for distributed teams than managing a Git-based Obsidian vault.
+Notion wins. Rich embedding (YouTube, Figma, PDFs) works . Shared Notion pages with comment threads are easier for distributed teams than managing a Git-based Obsidian vault.
 
 ## Sync Strategies for Cross-Device Use
 

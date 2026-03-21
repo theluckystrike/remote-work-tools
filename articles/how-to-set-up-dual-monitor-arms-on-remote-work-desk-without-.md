@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Set Up Dual Monitor Arms on Remote Work Desk."
+title: "How to Set Up Dual Monitor Arms on Remote Work Desk"
 description: "A practical guide for developers and power users to install dual monitor arms using clamp-based, adhesive, and weighted solutions that won't damage your desk"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -10,8 +10,9 @@ categories: [guides]
 tags: [remote-work-tools, dual-monitors, desk-setup, monitor-arms, ergonomic-workstation, home-office, remote-work]
 reviewed: true
 score: 9
-intent-checked: false
+intent-checked: true
 voice-checked: false
+
 ---
 
 {% raw %}

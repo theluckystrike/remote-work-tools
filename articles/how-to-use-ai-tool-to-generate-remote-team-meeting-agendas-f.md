@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Use AI Tools to Generate Remote Team Meeting."
+title: "How to Use AI Tools to Generate Remote Team Meeting"
 description: "Learn how to use AI to automatically generate meeting agendas by analyzing your previous meeting notes, Slack discussions, and project documentation"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -11,6 +11,8 @@ tags: [remote-work-tools, productivity, ai-tools, meeting-efficiency, asynchrono
 reviewed: true
 score: 8
 voice-checked: true
+intent-checked: true
+
 ---
 
 {% raw %}

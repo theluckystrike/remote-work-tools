@@ -325,7 +325,7 @@ Monitor your team's health:
 1. **Async-first processes** for daily work
 2. **One weekly sync** for alignment
 3. **Clear decision frameworks** for async decision-making
-4. **Comprehensive documentation** so decisions stick
+4. ** documentation** so decisions stick
 5. **Timezone respect** in scheduling and compensation
 
 If you do these, your distributed team will actually outpace co-located teams. Async communication forces clarity. Written decisions prevent misunderstandings. No meeting culture means more time for actual work.
