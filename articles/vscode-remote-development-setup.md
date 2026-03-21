@@ -316,13 +316,70 @@ Launch configurations work the same whether local or remote. The debug adapter r
 }
 ```
 
+## Remote IDE Comparison
+
+VS Code is not the only option for remote development. Understanding the trade-offs helps teams make the right call:
+
+| Tool | Remote protocol | Language support | Container support | Cost |
+|------|----------------|-----------------|------------------|------|
+| **VS Code Remote SSH** | SSH + VS Code server | Universal (extension-based) | Dev Containers spec | Free |
+| **JetBrains Gateway** | SSH + JetBrains backend | Excellent for Java, Kotlin, Python | Yes (via JetBrains Space) | Paid (IDE license required) |
+| **GitHub Codespaces** | Browser or VS Code | Universal | Dev Containers spec | Usage-based (~$0.18/hr for 2-core) |
+| **Gitpod** | Browser or VS Code/JetBrains | Universal | Workspace images | Free tier, paid from $9/mo |
+| **Cursor** | SSH + Cursor server | Universal + AI pair programming | Limited | $20/mo with AI features |
+
+VS Code Remote SSH wins on cost and control for teams with existing infrastructure. GitHub Codespaces or Gitpod make sense when you want zero-config onboarding for contributors who shouldn't need a local dev environment at all.
+
+## Step-by-Step: First-Time Remote SSH Setup
+
+**Step 1 — Generate an SSH key pair on your local machine.** Run `ssh-keygen -t ed25519 -C "your.email@example.com"`. Ed25519 keys are smaller and faster than RSA.
+
+**Step 2 — Copy your public key to the remote server.** Run `ssh-copy-id -i ~/.ssh/id_ed25519.pub ubuntu@dev.example.com`. Alternatively, append the contents of `~/.ssh/id_ed25519.pub` to `~/.ssh/authorized_keys` on the remote machine.
+
+**Step 3 — Add the host to `~/.ssh/config`.** Use the format shown in the SSH Config section above. Include `ServerAliveInterval 30` to prevent idle disconnects.
+
+**Step 4 — Test the connection without VS Code first.** Run `ssh devserver` from your terminal. If it connects without a password prompt, VS Code will work.
+
+**Step 5 — Open VS Code and connect.** Press `Ctrl+Shift+P`, type `Remote-SSH: Connect to Host`, select your host. VS Code will install its server component on the remote machine — this takes about 30 seconds the first time.
+
+**Step 6 — Open your project folder.** Use `File → Open Folder` and navigate to your project directory on the remote machine. The path is on the remote filesystem, not local.
+
+**Step 7 — Install project-recommended extensions.** VS Code will prompt you to install the extensions listed in `.vscode/extensions.json`. Accept the prompt. Extensions install on the remote server and run there.
+
+**Step 8 — Commit your `.vscode/` config files.** Committing `settings.json`, `extensions.json`, `launch.json`, and `tasks.json` means every teammate who opens the repo gets a consistent environment automatically.
+
+## Performance Tips for Remote Development
+
+Remote development introduces network latency between your keyboard and the language server. These settings reduce perceived lag:
+
+Disable file watchers for large directories. The `files.watcherExclude` setting prevents VS Code from watching `node_modules` and `dist` directories on the remote machine, which can consume significant CPU on large projects.
+
+Use `remote.SSH.remoteServerListenOnSocket: true` instead of the default TCP port for the VS Code server connection. Unix sockets are faster than TCP localhost connections on the same machine.
+
+Enable persistent terminal sessions. With `terminal.integrated.enablePersistentSessions: true`, your terminal state survives network blips. Long-running processes like `npm run dev` keep going even if your SSH connection briefly drops.
+
+Set a 90-second connection timeout for slow networks. Add `"remote.SSH.connectTimeout": 90` if you regularly connect from high-latency networks or VPNs.
+
+## FAQ
+
+**Why do my locally installed extensions not work on the remote server?**
+Most extensions need to run where the code is — on the remote server. UI extensions like themes run locally, but language servers, linters, and debuggers install and run on the remote. Open the Extensions panel while connected and install them explicitly for the remote host.
+
+**Can I use VS Code Remote SSH through a corporate VPN?**
+Yes. Add the remote host to your `~/.ssh/config` with the VPN-accessible hostname. If the server is behind a bastion host, use `ProxyJump bastion.corp.example.com` in your SSH config. VS Code passes all traffic through the SSH tunnel.
+
+**How do dev containers differ from Remote SSH?**
+Remote SSH connects to an existing server and uses whatever is installed there. Dev containers spin up a fresh Docker container with a precisely defined environment every time. Dev containers are better for reproducibility across teammates; Remote SSH is better when you need access to a specific persistent server with specific data or resources.
+
+**What happens to my terminal if my internet drops?**
+With `terminal.integrated.enablePersistentSessions: true`, VS Code reconnects and your terminal session resumes. For long-running processes you cannot afford to lose, use `tmux` or `screen` on the remote server — these survive SSH disconnections regardless of VS Code settings.
 
 ## Related Articles
 
-- [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
+- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
 - [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
-- [Code Review Guidelines](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
+- [Code Review Workflow for a Remote Backend Team](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [How to Scale Remote Team Code Review Process](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
