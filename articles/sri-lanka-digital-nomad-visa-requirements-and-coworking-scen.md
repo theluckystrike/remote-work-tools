@@ -174,6 +174,150 @@ Many developers use:
 - Cloud IDEs: VS Code in browser via code-server or GitHub Codespaces for work machines
 - Backup solutions: Sync code to GitHub frequently given potential connectivity issues in some areas
 
+## Accommodation and Living Options
+
+Finding suitable accommodation is one of your first practical concerns. Sri Lanka has several well-established digital nomad neighborhoods offering furnished apartments with reliable internet.
+
+**Colombo**: The capital offers the most options for remote workers. Neighborhoods like Colombo 4, 5, and 7 have numerous furnished apartments with reliable WiFi.
+
+- **Studio apartment**: $350-600/month
+- **1-bedroom apartment**: $500-900/month
+- **Serviced apartment**: $800-1,500/month (includes cleaning, maintenance)
+
+Popular websites for finding accommodation:
+
+- Airbnb: Best for short-term rentals; prices 20-30% higher than annual leases
+- Booking.com: Good for furnished apartments with flexibility
+- Local Facebook groups: "Digital Nomads Sri Lanka" and "Expats in Colombo" have direct landlord listings at better rates
+- Colombo Rent: Local property site with extensive listings
+
+**Kandy**: The cultural heart of Sri Lanka offers a slower pace and lower costs:
+
+- **Studio apartment**: $250-400/month
+- **1-bedroom apartment**: $350-600/month
+
+Better suited for developers wanting a quieter pace who can tolerate less infrastructure diversity.
+
+**Galle and Beach Areas**: Popular with nomads seeking work-life balance:
+
+- **Studio apartment**: $300-500/month
+- **Galle Fort apartments**: Premium pricing ($600-1,000+) for location
+
+Negotiate annual leases aggressively. Most landlords accept 10-20% discounts for 6-12 month commitments. Payment is typically monthly in advance via bank transfer.
+
+## Daily Expenses Breakdown
+
+Understanding total cost of living helps with visa and financial planning:
+
+| Category | Monthly Cost (LKR) | USD Equivalent |
+|----------|-------------------|-----------------|
+| Accommodation (1BR, Colombo) | 65,000-90,000 | $200-280 |
+| Groceries/Cooking | 35,000-60,000 | $110-190 |
+| Eating out (2x daily) | 40,000-70,000 | $125-220 |
+| Coworking | 22,000-35,000 | $70-110 |
+| Transportation (tuk-tuk, Uber) | 10,000-20,000 | $30-65 |
+| Utilities (water, electricity) | 5,000-12,000 | $15-40 |
+| Gym/activities | 5,000-10,000 | $15-30 |
+| Miscellaneous | 10,000-20,000 | $30-65 |
+| **Total** | **192,000-317,000** | **$600-1,000** |
+
+This assumes you cook some meals and eat local food. Western restaurants and imported goods cost 2-3x more.
+
+## Visa Extension Process in Detail
+
+The ETA extension at the Department of Immigration requires several steps:
+
+1. **Prepare documentation** (2-3 days before visiting):
+   - Completed STR form 1 (extension application)
+   - Passport and ETA page photocopy
+   - 2x4cm passport photographs (get these locally, $5 for 10 copies)
+   - Accommodation lease or hotel booking confirmation
+
+2. **Visit the immigration office**:
+   - Located at 41 Nuwara Road, Colombo 5
+   - Open Monday-Friday, 9 AM - 4 PM
+   - Arrive early—long queues are normal
+   - Processing takes 30-45 minutes if all documents are present
+
+3. **Payment and receipt**:
+   - Extension cost: approximately LKR 10,000-15,000 ($30-45)
+   - You receive a receipt and new endorsement in your passport
+   - The extension is valid immediately
+
+**Pro tip**: Hire a local visa agent ($50-100) if you're unfamiliar with the process. They handle everything—forms, photography, submission. Time saved often justifies the cost.
+
+## Medical and Insurance Considerations
+
+Healthcare in Sri Lanka is excellent but varies by facility:
+
+**Private Hospitals** (recommended for expats):
+- Apollo Hospitals Colombo: International standard care, English-speaking doctors
+- Nawaloka Hospitals: Comprehensive services at reasonable cost
+- Asiri Hospital: Quality private facility with modern equipment
+
+**Costs**:
+- Doctor consultation: $30-60
+- General medical tests: $40-100
+- Dental cleaning: $20-40
+- Pharmacy medications: 30-50% cheaper than Western prices
+
+**Insurance**: International travel insurance (World Nomads, Allianz, SafetyWing) is highly recommended—$30-60/month for coverage. Some policies specifically exclude high-risk countries; verify Sri Lanka is covered.
+
+Travel insurance typically covers accidents and emergency medical treatment but not routine care. Consider supplemental local insurance if staying beyond 6 months.
+
+## Social Scene and Remote Worker Community
+
+Sri Lanka has a growing digital nomad community, particularly in Colombo. Coworking spaces often host weekly meetups and networking events.
+
+**Regular Meetups**:
+- "Digital Nomads Sri Lanka" on Meetup.com—monthly in Colombo
+- Coworking space events—most hold weekly networking sessions
+- Dev meetups—local software developers gather in Colombo for tech talks
+
+**Online Communities**:
+- Facebook group "Digital Nomads Sri Lanka": Active with 2,000+ members
+- Reddit r/srilanka: Good for practical questions about living there
+- Slack channels dedicated to nomads in South Asia
+
+The community is small but genuine. Most long-term nomads maintain friendships from their shared remote work experience.
+
+## Practical Tips for Your First Month
+
+**Week 1**:
+- Arrive, settle accommodation, get local SIM card
+- Visit Colombo's lakeside area and get oriented
+- Register with your embassy if you're staying over 3 months
+- Activate Wise and get local bank account started
+
+**Week 2**:
+- Establish coworking routine
+- Join a local gym or yoga studio
+- Make first visits to regular restaurants
+- Explore a weekend trip (Kandy or Galle are 3-4 hours by train)
+
+**Week 3-4**:
+- Adjust to time zone and work rhythm
+- Build friendships with other remote workers
+- Establish whether Sri Lanka feels like the right fit for your work/life balance
+
+## When to Consider Extending vs. Moving
+
+After 2-3 months in Sri Lanka, assess whether it's meeting your needs:
+
+**Signs you should extend**:
+- You've built meaningful friendships in the community
+- Work-life balance feels sustainable
+- Cost of living aligns with your budget
+- Climate and pace suit your preferences
+
+**Signs you should move**:
+- Weather becomes oppressive (monsoon seasons can be intense)
+- Visa/immigration feels stressful despite good systems
+- Community wasn't what you expected
+- You miss proximity to home or specific people
+
+The beauty of digital nomad visas is flexibility. Sri Lanka works well as a 3-6 month destination while deciding longer-term location strategies.
+
 
 ## Related Articles
 

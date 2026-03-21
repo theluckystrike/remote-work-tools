@@ -174,6 +174,355 @@ One-Time vs Recurring: A tool should distinguish between finding a single slot (
 
 Public Holidays: For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
 
+## Tool Comparison Table
+
+| Tool | Best For | Price | Integrations | Setup Time |
+|------|----------|-------|---|---|
+| World Time Buddy | One-off scheduling | Free tier, $29/yr | Calendar APIs | 2 min |
+| When2meet | Group availability | Free | Email invites | 5 min |
+| Calendly | Recurring meetings | $10-16/mo | Slack, Teams, Zapier | 10 min |
+| Slack Workflow | In-channel scheduling | Built-in | Slack only | 15 min |
+| Custom Node.js | Maximum control | Free | Any webhook | 1-2 hours |
+| Google Calendar | Built-in timezone | Free | Gmail, Meet | Already set up |
+| Outlook Calendar | Enterprise deployments | Included | Teams, Exchange | Already set up |
+
+## Production Implementation with Timezone Holidays
+
+For distributed teams spanning multiple countries, integrate a holiday calendar API:
+
+```javascript
+// Production-ready timezone overlap with holiday awareness
+const axios = require('axios');
+const { zonedTimeToUtc, utcToZonedTime } = require('date-fns-tz');
+
+async function findAvailableSlots(team, targetDate, excludeHolidays = true) {
+  const availableSlots = [];
+
+  // Fetch holiday data for all team timezones
+  const holidays = excludeHolidays ?
+    await fetchHolidaysForTeam(team, targetDate) : {};
+
+  // Check each hour in the target date
+  for (let utcHour = 0; utcHour < 24; utcHour++) {
+    const slotTime = new Date(targetDate);
+    slotTime.setUTCHours(utcHour, 0, 0, 0);
+
+    // Check if any team member has a holiday on this date
+    const isHoliday = team.some(member =>
+      holidays[member.timezone]?.includes(formatDate(slotTime))
+    );
+
+    if (isHoliday) continue;
+
+    const localTimes = team.map(member => {
+      const zoned = utcToZonedTime(slotTime, member.timezone);
+      return {
+        name: member.name,
+        localHour: zoned.getHours(),
+        timezone: member.timezone
+      };
+    });
+
+    const allInWorkHours = localTimes.every(t =>
+      t.localHour >= 9 && t.localHour < 18
+    );
+
+    if (allInWorkHours) {
+      availableSlots.push({
+        utcTime: slotTime,
+        localTimes: localTimes,
+        quality: calculateSlotQuality(localTimes)
+      });
+    }
+  }
+
+  return availableSlots.sort((a, b) => b.quality - a.quality);
+}
+
+async function fetchHolidaysForTeam(team, targetDate) {
+  // Use Calendarific API (paid) or holiday-jp, node-holiday, etc.
+  const holidays = {};
+
+  for (const member of team) {
+    const countryCode = getCountryFromTimezone(member.timezone);
+    const response = await axios.get(
+      `https://calendarific.com/api/v2/holidays?api_key=${process.env.CALENDARIFIC_KEY}&country=${countryCode}&year=${targetDate.getFullYear()}`
+    );
+    holidays[member.timezone] = response.data.response.holidays.map(h => h.date);
+  }
+
+  return holidays;
+}
+
+function calculateSlotQuality(localTimes) {
+  // Prefer slots where everyone is in core hours (10 AM - 4 PM)
+  const coreHourBonus = localTimes.filter(t =>
+    t.localHour >= 10 && t.localHour <= 16
+  ).length;
+
+  // Penalize very early or very late slots
+  const offPeakPenalty = localTimes.filter(t =>
+    t.localHour < 8 || t.localHour > 19
+  ).length * 0.5;
+
+  return coreHourBonus - offPeakPenalty;
+}
+```
+
+## Integration with Existing Tools
+
+### Slack Bot Implementation
+
+Use a Slack bot to propose meeting times directly in your team channel:
+
+```javascript
+const { App } = require('@slack/bolt');
+
+const app = new App({
+  token: process.env.SLACK_BOT_TOKEN,
+  signingSecret: process.env.SLACK_SIGNING_SECRET
+});
+
+app.command('/suggest-meeting', async ({ ack, body, client }) => {
+  ack();
+
+  const userIds = body.text.split(' ');
+  const team = await Promise.all(
+    userIds.map(id => getUserTimezone(client, id))
+  );
+
+  const slots = await findAvailableSlots(team, new Date());
+
+  const blocks = [
+    {
+      type: 'section',
+      text: {
+        type: 'mrkdwn',
+        text: `*Meeting Time Suggestions for ${team.map(t => t.name).join(', ')}*`
+      }
+    }
+  ];
+
+  slots.slice(0, 5).forEach((slot, idx) => {
+    blocks.push({
+      type: 'section',
+      text: {
+        type: 'mrkdwn',
+        text: `*Option ${idx + 1}:* ${slot.utcTime.toISOString()}\n${slot.localTimes.map(t =>
+          `${t.name}: ${formatHour(t.localHour)}`
+        ).join(' | ')}`
+      },
+      accessory: {
+        type: 'button',
+        text: { type: 'plain_text', text: 'Confirm' },
+        value: slot.utcTime.toISOString()
+      }
+    });
+  });
+
+  await client.chat.postMessage({
+    channel: body.channel_id,
+    blocks: blocks
+  });
+});
+
+async function getUserTimezone(client, userId) {
+  const user = await client.users.info({ user: userId });
+  return {
+    name: user.user.real_name,
+    timezone: user.user.tz || 'UTC',
+    userId: userId
+  };
+}
+```
+
+### Google Calendar Event Creation
+
+After confirming a meeting time, automatically create calendar events for all participants:
+
+```javascript
+const google = require('googleapis').google;
+
+async function createCalendarEvent(team, slotTime) {
+  const calendar = google.calendar('v3');
+  const events = [];
+
+  for (const member of team) {
+    const auth = getAuthForUser(member.userId);
+    const zoned = utcToZonedTime(slotTime, member.timezone);
+    const endTime = new Date(zoned);
+    endTime.setHours(endTime.getHours() + 1);
+
+    const event = {
+      summary: 'Team Meeting - Timezone Optimized',
+      description: `Meeting scheduled using timezone overlap optimization tool.\nYour local time: ${formatTime(zoned)}`,
+      start: {
+        dateTime: zoned.toISOString(),
+        timeZone: member.timezone
+      },
+      end: {
+        dateTime: endTime.toISOString(),
+        timeZone: member.timezone
+      },
+      attendees: team.map(t => ({ email: t.email })),
+      reminders: {
+        useDefault: false,
+        overrides: [
+          { method: 'notification', minutes: 24 * 60 },
+          { method: 'notification', minutes: 15 }
+        ]
+      }
+    };
+
+    const response = await calendar.events.insert({
+      auth: auth,
+      calendarId: 'primary',
+      resource: event
+    });
+
+    events.push(response.data);
+  }
+
+  return events;
+}
+```
+
+## Handling Recurring Meetings Across DST Changes
+
+Daylight Saving Time transitions create scheduling chaos. This function finds recurring slots that remain stable year-round:
+
+```javascript
+function findStableRecurringSlot(team, idealDayOfWeek = 2) {
+  // Monday = 0, Sunday = 6
+  const targetDay = new Date();
+  targetDay.setDate(targetDay.getDate() + (idealDayOfWeek - targetDay.getDay()));
+
+  const slotCandidates = [];
+
+  // Test every hour for the next 12 months
+  for (let hour = 0; hour < 24; hour++) {
+    let isStable = true;
+    const testDates = [];
+
+    // Sample across DST boundaries
+    for (let month of [0, 2, 5, 10]) {
+      const testDate = new Date(targetDay.getFullYear(), month, targetDay.getDate());
+      testDate.setUTCHours(hour, 0, 0, 0);
+      testDates.push(testDate);
+    }
+
+    // Check if this hour works for everyone in all DST scenarios
+    for (const testDate of testDates) {
+      const localTimes = team.map(member => {
+        const zoned = utcToZonedTime(testDate, member.timezone);
+        return zoned.getHours();
+      });
+
+      const allInWorkHours = localTimes.every(h => h >= 9 && h < 18);
+      if (!allInWorkHours) {
+        isStable = false;
+        break;
+      }
+    }
+
+    if (isStable) {
+      slotCandidates.push({
+        utcHour: hour,
+        stability: 'year_round',
+        dstSafe: true
+      });
+    }
+  }
+
+  return slotCandidates;
+}
+```
+
+## Monitoring and Adjustment
+
+Track how well your meeting schedule works and auto-adjust quarterly:
+
+```python
+# Python version for analytics tracking
+import json
+from datetime import datetime, timedelta
+from dataclasses import dataclass
+
+@dataclass
+class MeetingFeedback:
+    meeting_id: str
+    timestamp: datetime
+    participants: list
+    feedback_scores: dict  # 'early': -2, 'late': -2, 'perfect': 1
+    notes: str
+
+class SchedulingAnalytics:
+    def __init__(self):
+        self.feedback = []
+
+    def log_feedback(self, meeting_id, participants, scores, notes=""):
+        feedback = MeetingFeedback(
+            meeting_id=meeting_id,
+            timestamp=datetime.now(),
+            participants=participants,
+            feedback_scores=scores,
+            notes=notes
+        )
+        self.feedback.append(feedback)
+        self.save()
+
+    def calculate_optimal_time(self, quarters=4):
+        # Analyze last N quarters of meetings
+        recent_feedback = self.feedback[-quarters*12:]  # Last ~12 months
+
+        hour_scores = {}
+        for entry in recent_feedback:
+            for hour in range(24):
+                if hour not in hour_scores:
+                    hour_scores[hour] = {'score': 0, 'count': 0}
+
+                # Extract average feedback for meetings at this hour
+                avg_score = sum(entry.feedback_scores.values()) / len(entry.feedback_scores)
+                hour_scores[hour]['score'] += avg_score
+                hour_scores[hour]['count'] += 1
+
+        # Find the hour with the best average feedback
+        best_hour = max(
+            hour_scores.items(),
+            key=lambda x: x[1]['score'] / x[1]['count'] if x[1]['count'] > 0 else 0
+        )
+
+        return {
+            'optimal_utc_hour': best_hour[0],
+            'average_satisfaction': best_hour[1]['score'] / best_hour[1]['count'],
+            'sample_size': best_hour[1]['count']
+        }
+
+    def save(self):
+        with open('meeting_analytics.json', 'w') as f:
+            json.dump([
+                {
+                    'meeting_id': fb.meeting_id,
+                    'timestamp': fb.timestamp.isoformat(),
+                    'participants': fb.participants,
+                    'feedback_scores': fb.feedback_scores,
+                    'notes': fb.notes
+                }
+                for fb in self.feedback
+            ], f, indent=2)
+
+# Usage
+analytics = SchedulingAnalytics()
+analytics.log_feedback(
+    meeting_id='team-standup-2026-03-21',
+    participants=['alice@example.com', 'bob@example.com', 'charlie@example.com'],
+    scores={'alice': 1, 'bob': 0, 'charlie': -1},
+    notes='Early for Tokyo, late for Los Angeles'
+)
+
+optimal = analytics.calculate_optimal_time(quarters=2)
+print(f"Move meeting to UTC {optimal['optimal_utc_hour']} ({optimal['average_satisfaction']:.1f}/1.0 satisfaction)")
+```
 
 ## Related Articles
 

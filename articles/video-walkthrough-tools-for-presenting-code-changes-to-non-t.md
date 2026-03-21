@@ -174,6 +174,380 @@ This practice creates a searchable knowledge base of explanations your entire te
 
 Video walkthroughs transform how you communicate code changes to non-technical clients. By combining visual demonstration with verbal explanation, you build trust and clarity without requiring your clients to understand code syntax. Start with simple screen recordings using tools like Loom or CleanShot X, add clear narration, and always explain the business impact alongside technical changes.
 
+## Advanced Recording Tools Comparison
+
+| Tool | Recording Quality | Editing | Async Sharing | Price | Best Use |
+|------|---|---|---|---|---|
+| Loom | 1080p | Built-in editor, templates | Yes, shareable links | Free - $10/mo | Quick client updates |
+| Screen Studio | 4K with AI zoom | Advanced timeline editor | Yes, local export | $99/yr | Polished demo videos |
+| OBS Studio | Custom quality | External editor needed | Stream + record | Free | Live demos, complex setups |
+| CleanShot X | 1080p+ | Minimal, quick trim | Screenshot/upload required | $29 one-time | macOS workflows |
+| Camtasia | 4K | Full timeline editing | Yes, multiple formats | $179/yr | Professional documentation |
+| FFmpeg (CLI) | Lossless quality | Scripting automation | Post-processing | Free | High-volume batch processing |
+
+## Setting Up Your Recording Environment
+
+Before hitting record, optimize for clarity and professionalism:
+
+```bash
+#!/bin/bash
+# macOS: Prepare screen for code recording
+
+# 1. Set resolution for readability
+# System Preferences → Displays → More Space
+# Select highest resolution while keeping text readable
+
+# 2. Increase font size in IDE
+# VS Code: Editor: Font Size → 16-18pt recommended
+# IntelliJ: Preferences → Appearance & Behavior → Font → Size 16+
+# Vim: set guifont=Monaco:h18
+
+# 3. Hide distracting UI elements
+# VS Code: Toggle sidebar with Cmd+B
+# Terminal: Hide menu bar (defaults write com.apple.universalaccess NSRequiresAquaSystemAppearance -bool no)
+
+# 4. Enable focus mode if available
+# macOS: Focus → Do Not Disturb (enable)
+# Disable notifications: System Preferences → Notifications → Do Not Disturb
+
+# 5. Test audio levels
+# Use built-in mic test or external USB microphone
+# Record 10 seconds and check levels before full recording
+ffmpeg -f avfoundation -i ":0" -t 10 test_audio.wav
+
+# 6. Set color profile for syntax highlighting
+# Use a theme optimized for video contrast
+# Solarized Dark or Dracula work well for screen recording
+```
+
+## Scripting and Automation for Video Walkthroughs
+
+Create a script to automate preparing for video recording:
+
+```python
+#!/usr/bin/env python3
+# Generate video walkthrough script from git diff
+
+import subprocess
+import sys
+from typing import List, Dict
+
+class VideoWalkthroughScriptGenerator:
+    def __init__(self, repo_path: str, start_sha: str, end_sha: str):
+        self.repo_path = repo_path
+        self.start_sha = start_sha
+        self.end_sha = end_sha
+
+    def get_changed_files(self) -> List[str]:
+        """Retrieve list of files changed between commits"""
+        result = subprocess.run(
+            ['git', 'diff', '--name-only', f'{self.start_sha}..{self.end_sha}'],
+            cwd=self.repo_path,
+            capture_output=True,
+            text=True
+        )
+        return result.stdout.strip().split('\n')
+
+    def get_commit_message(self) -> str:
+        """Extract commit message for intro"""
+        result = subprocess.run(
+            ['git', 'log', '-1', '--pretty=%B', self.end_sha],
+            cwd=self.repo_path,
+            capture_output=True,
+            text=True
+        )
+        return result.stdout.strip()
+
+    def get_diff_summary(self) -> Dict[str, int]:
+        """Calculate insertions, deletions, files changed"""
+        result = subprocess.run(
+            ['git', 'diff', '--stat', f'{self.start_sha}..{self.end_sha}'],
+            cwd=self.repo_path,
+            capture_output=True,
+            text=True
+        )
+        # Parse format: " file.js | 45 +++++++-----"
+        lines = result.stdout.strip().split('\n')
+        return {
+            'files_changed': len([l for l in lines if '|' in l]),
+            'raw_output': result.stdout
+        }
+
+    def generate_script(self) -> str:
+        """Generate a walkthrough script template"""
+        commit_msg = self.get_commit_message()
+        summary = self.get_diff_summary()
+        files = self.get_changed_files()
+
+        script = f"""
+# VIDEO WALKTHROUGH SCRIPT
+# Generated from {self.start_sha}..{self.end_sha}
+
+## INTRO (30 seconds)
+Start with: "This video explains the changes we made to {', '.join(files[:2])}"
+
+**Point to make:**
+- What was the original issue?
+- Why did we need to change this?
+- What's the business impact?
+
+**Opening statement:**
+"{commit_msg}"
+
+## TECHNICAL WALKTHROUGH (2-3 minutes)
+Show these files in order (git is showing {summary['files_changed']} changed):
+"""
+        for i, file in enumerate(files[:5], 1):
+            script += f"\n{i}. {file}"
+            script += f"\n   - Open the file: Cmd+P (VS Code) and type filename"
+            script += f"\n   - Highlight the key changes"
+            script += f"\n   - Explain what each change does"
+
+        script += f"""
+
+## CLIENT-FACING SUMMARY (30 seconds)
+Translate to business impact:
+- "This means [X] for your users"
+- "Testing confirmed [Y]"
+- "The fix is live and monitoring shows [Z]"
+
+## CLOSING
+Offer follow-up: "Let me know if you have any questions about these changes"
+"""
+        return script
+
+    def show_files_to_record(self):
+        """Print file list with git diff for easy reference while recording"""
+        result = subprocess.run(
+            ['git', 'diff', f'{self.start_sha}..{self.end_sha}', '--'],
+            cwd=self.repo_path,
+            capture_output=True,
+            text=True
+        )
+        return result.stdout
+
+# Usage
+if __name__ == '__main__':
+    generator = VideoWalkthroughScriptGenerator(
+        repo_path='.',
+        start_sha='HEAD~5',
+        end_sha='HEAD'
+    )
+
+    print(generator.generate_script())
+    print("\n\n# GIT DIFF for reference:")
+    print(generator.show_files_to_record())
+```
+
+## Recording with Automation
+
+Use ffmpeg to record with custom settings and automatic file naming:
+
+```bash
+#!/bin/bash
+# Automated screen recording with quality settings
+
+RECORDING_DIR="~/Videos/code_walkthroughs"
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+OUTPUT_FILE="$RECORDING_DIR/walkthrough_$TIMESTAMP.mov"
+
+# Create directory if it doesn't exist
+mkdir -p "$RECORDING_DIR"
+
+# macOS: Use AVFoundation for screen + audio recording
+# framerate: 30 fps (smooth, not too large)
+# preset: medium (balance between quality and file size)
+ffmpeg \
+  -f avfoundation \
+  -framerate 30 \
+  -i "1:0" \
+  -preset medium \
+  -c:v libx264 \
+  -crf 23 \
+  -c:a aac \
+  "$OUTPUT_FILE"
+
+echo "Recording saved to: $OUTPUT_FILE"
+echo "File size: $(du -h $OUTPUT_FILE | cut -f1)"
+
+# Automatically open in Loom or your editing tool
+open -a "Loom" "$OUTPUT_FILE" &
+```
+
+## Interactive HTML Presentation Alternative
+
+For teams that prefer interactive documentation over video, embed runnable code examples:
+
+```html
+<!-- Interactive code walkthrough -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Fix Walkthrough</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+    <style>
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; margin: 2rem; }
+        .step { margin: 2rem 0; padding: 1.5rem; background: #f5f5f5; border-left: 4px solid #007bff; }
+        .step h3 { margin-top: 0; color: #007bff; }
+        code { display: block; padding: 1rem; background: #1e1e1e; color: #d4d4d4; overflow-x: auto; }
+        .client-impact { background: #e8f5e9; padding: 1rem; border-radius: 4px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Login Timeout Fix - Code Walkthrough</h1>
+
+    <div class="step">
+        <h3>Step 1: The Problem</h3>
+        <p>Users were experiencing timeouts after 30 seconds when resetting passwords.</p>
+        <div class="client-impact">
+            Impact: 15% of password reset attempts failed, frustrating users.
+        </div>
+    </div>
+
+    <div class="step">
+        <h3>Step 2: Find the Timeout Setting</h3>
+        <p>The timeout was hardcoded in our authentication config:</p>
+        <code>
+// config/auth.php - BEFORE
+'password_reset' => [
+    'timeout' => 30,  // 30 seconds
+    'attempts' => 3
+],
+        </code>
+    </div>
+
+    <div class="step">
+        <h3>Step 3: Increase the Timeout</h3>
+        <p>We increased the timeout to 2 minutes to give users adequate time:</p>
+        <code>
+// config/auth.php - AFTER
+'password_reset' => [
+    'timeout' => 120,  // 2 minutes
+    'attempts' => 3,
+    'log_failures' => true  // Monitor going forward
+],
+        </code>
+    </div>
+
+    <div class="step">
+        <h3>Step 4: Added Monitoring</h3>
+        <p>We also added logging to catch any future timeout issues:</p>
+        <code>
+// app/Http/Controllers/PasswordResetController.php
+if (time() - $session['initiated_at'] > config('auth.password_reset.timeout')) {
+    Log::warning('Password reset timeout', [
+        'user_id' => $user->id,
+        'elapsed_seconds' => time() - $session['initiated_at']
+    ]);
+    throw new PasswordResetTimeoutException();
+}
+        </code>
+    </div>
+
+    <div class="step">
+        <h3>Summary</h3>
+        <div class="client-impact">
+            Result: Password resets now have 2 minutes to complete. Timeout failures dropped to 0.2%. Users have more time to check their email and reset their password without rushing.
+        </div>
+    </div>
+</body>
+</html>
+```
+
+## Video Storage and Organization
+
+Implement a system to catalog and retrieve code walkthrough videos:
+
+```python
+# Video catalog management
+import os
+import json
+from pathlib import Path
+from datetime import datetime
+
+class VideoWalkthroughLibrary:
+    def __init__(self, library_path: str):
+        self.library_path = Path(library_path)
+        self.catalog_file = self.library_path / "catalog.json"
+        self.catalog = self.load_catalog()
+
+    def catalog_video(self, video_path: str, metadata: dict):
+        """Register a video with searchable metadata"""
+        video_file = Path(video_path)
+        file_size_mb = video_file.stat().st_size / (1024 * 1024)
+
+        entry = {
+            'filename': video_file.name,
+            'path': str(video_path),
+            'uploaded_date': datetime.now().isoformat(),
+            'file_size_mb': round(file_size_mb, 2),
+            'duration_seconds': self.get_video_duration(video_path),
+            'tags': metadata.get('tags', []),
+            'title': metadata.get('title', ''),
+            'commit_sha': metadata.get('commit_sha', ''),
+            'related_files': metadata.get('files', []),
+            'ticket_id': metadata.get('ticket_id', '')
+        }
+
+        self.catalog.append(entry)
+        self.save_catalog()
+        return entry
+
+    def search_videos(self, query: str = '', tag: str = '', ticket_id: str = ''):
+        """Find videos by search terms, tags, or ticket ID"""
+        results = []
+        for entry in self.catalog:
+            if query and query.lower() in entry['title'].lower():
+                results.append(entry)
+            elif tag and tag in entry['tags']:
+                results.append(entry)
+            elif ticket_id and ticket_id == entry['ticket_id']:
+                results.append(entry)
+
+        return results
+
+    def get_video_duration(self, video_path: str) -> int:
+        """Get video duration in seconds using ffprobe"""
+        import subprocess
+        result = subprocess.run(
+            ['ffprobe', '-v', 'error', '-show_entries',
+             'format=duration', '-of',
+             'default=noprint_wrappers=1:nokey=1:noprint_filename=1',
+             video_path],
+            capture_output=True,
+            text=True
+        )
+        return int(float(result.stdout.strip()))
+
+    def load_catalog(self):
+        if self.catalog_file.exists():
+            with open(self.catalog_file, 'r') as f:
+                return json.load(f)
+        return []
+
+    def save_catalog(self):
+        with open(self.catalog_file, 'w') as f:
+            json.dump(self.catalog, f, indent=2)
+
+# Usage
+library = VideoWalkthroughLibrary('~/Videos/code_walkthroughs')
+library.catalog_video(
+    '~/Videos/code_walkthroughs/walkthrough_20260321_143022.mov',
+    {
+        'title': 'Login Timeout Fix',
+        'tags': ['authentication', 'bug-fix', 'client-communication'],
+        'commit_sha': 'a3f5d9e2c1b4',
+        'files': ['config/auth.php', 'app/Http/Controllers/PasswordResetController.php'],
+        'ticket_id': 'PROJ-1247'
+    }
+)
+
+# Later: Find the video by ticket
+results = library.search_videos(ticket_id='PROJ-1247')
+for result in results:
+    print(f"{result['title']} ({result['duration_seconds']}s)")
+```
 
 ## Related Articles
 
