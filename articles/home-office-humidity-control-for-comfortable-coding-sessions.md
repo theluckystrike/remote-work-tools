@@ -9,7 +9,7 @@ permalink: /home-office-humidity-control-for-comfortable-coding-sessions/
 categories: [guides]
 tags: [remote-work-tools, home-office, humidity, comfort, productivity, smart-home]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
