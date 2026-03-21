@@ -9,7 +9,7 @@ permalink: /sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/
 categories: [guides]
 tags: [remote-work-tools, sri-lanka, digital-nomad-visa, remote-work-visa, coworking, south-asia, visa-guide]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

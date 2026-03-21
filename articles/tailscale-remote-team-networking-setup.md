@@ -8,10 +8,10 @@ author: theluckystrike
 permalink: /tailscale-remote-team-networking-setup/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
-tags: [remote-work-tools]
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

@@ -9,7 +9,7 @@ permalink: /transit-benefits-for-hybrid-employees-guide/
 categories: [guides]
 tags: [remote-work-tools, transit, commuting, hybrid work, benefits, savings]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
