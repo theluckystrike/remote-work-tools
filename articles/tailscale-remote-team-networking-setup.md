@@ -261,6 +261,82 @@ sudo tailscale up --authkey tskey-auth-XXXXXX --advertise-tags tag:dev-server
 sudo tailscale up --authkey tskey-auth-XXXXXX --ephemeral
 ```
 
+## Tailscale vs. Traditional VPN for Remote Teams
+
+Many teams migrate from OpenVPN or WireGuard to Tailscale for good reasons, but understanding the tradeoffs before committing helps you avoid surprises.
+
+Traditional VPNs like OpenVPN require a central gateway server that becomes a single point of failure and a bandwidth bottleneck. Every packet between two remote employees travels through the central server even if both are on fast connections. WireGuard solves some of that but still requires manual key exchange and configuration management at scale.
+
+Tailscale wraps WireGuard in a coordination layer that handles key distribution automatically. When two devices connect, Tailscale negotiates a direct WireGuard tunnel between them whenever network topology allows. If direct connection is blocked by symmetric NAT, traffic relays through Tailscale's DERP servers (Designated Encrypted Relay for Packets), which are deployed globally across major cloud regions.
+
+For a remote team of 10–50 people, Tailscale's Teams plan (around $6/user/month) is cost-competitive with running your own VPN infrastructure once you account for EC2 or DigitalOcean instance costs, certificate management, and engineering time for ongoing maintenance. At 10 engineers, that's $720/year — well below the cost of a single on-call incident caused by a down VPN gateway.
+
+One area where traditional VPNs still win: regulatory environments that require traffic inspection. Tailscale encrypts end-to-end with WireGuard, so a middlebox cannot inspect payloads. If your compliance posture requires deep packet inspection of internal traffic, complement Tailscale with application-layer logging rather than relying on network-layer inspection.
+
+## Integrating Tailscale with CI/CD Pipelines
+
+One underused pattern is adding Tailscale to CI runners so they can reach private staging infrastructure without opening firewall ports to the internet.
+
+```yaml
+# GitHub Actions example
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
+          tags: tag:ci
+
+      - name: Deploy to staging
+        run: |
+          # staging-server is now reachable via Tailscale
+          ssh deploy@staging-server.tail1234.ts.net 'cd /app && ./deploy.sh'
+```
+
+Generate a reusable auth key in the admin console under Settings → Keys. Use ephemeral keys for CI so runners automatically deregister after the job completes. Apply the `tag:ci` tag so ACLs grant CI runners access only to what they need — staging servers but not production.
+
+The same pattern applies to GitLab CI, CircleCI, and Buildkite. Each runner authenticates with an ephemeral auth key, runs within the tailnet for the job duration, then disappears from the device list automatically.
+
+## Troubleshooting Common Issues
+
+**Device shows as offline in admin console but is running**
+
+Run `tailscale status` on the device. If it shows connected locally, check whether the machine's clock is synchronized. Tailscale's control plane relies on accurate time for key validation. Run `sudo systemctl restart systemd-timesyncd` or `sudo ntpdate -u pool.ntp.org` to force a sync.
+
+**Subnet routes not working after approval**
+
+Client devices need to have route acceptance enabled:
+
+```bash
+# Check whether the client accepts subnet routes
+tailscale status
+# Look for "subnet" in the output
+
+# Force route acceptance
+sudo tailscale up --accept-routes
+```
+
+Some Linux distributions also need the `--accept-routes` flag persisted in a systemd unit override. Edit `/etc/default/tailscaled` and add `TS_EXTRA_ARGS=--accept-routes` if the flag does not persist across reboots.
+
+**DNS resolution fails for MagicDNS names**
+
+MagicDNS injects `100.100.100.100` as a DNS resolver. Some Linux distributions override this with their own resolver. Check `/etc/resolv.conf` and verify `100.100.100.100` is listed. If systemd-resolved is active, run `resolvectl status` and confirm Tailscale's interface has the correct DNS configuration.
+
+**High latency between two nodes**
+
+Run `tailscale ping --until-direct <hostname>` to check whether the connection is direct or relayed through DERP. If relayed, the most common causes are symmetric NAT on both endpoints (common on mobile carriers and some corporate firewalls) or mismatched UDP port availability. Check that UDP port 41641 is allowed outbound on both firewalls.
+
+## Pro Tips for Team Administration
+
+Keep auth keys short-lived. Generate separate auth keys for each device class (workstations, servers, CI) with expirations of 30–90 days. This limits blast radius if a key leaks and forces periodic re-authentication, which is good hygiene regardless of security incidents.
+
+Use device posture checks. Tailscale's posture checks (available on the Business plan) let you enforce that devices have up-to-date OS versions before ACLs grant access. This is useful for contractor devices you do not manage — you can require a minimum macOS or Windows version before they reach internal resources.
+
+Name devices descriptively before joining the tailnet. The default device name comes from the OS hostname. Set descriptive hostnames like `alice-macbook-pro` before authenticating — they are much easier to audit in access logs than `Alices-MacBook-Pro-2.local` or auto-generated cloud instance IDs.
+
+Review the logs regularly. The admin console's Logs section shows every SSH session and every network flow that Tailscale ACLs evaluated. Run a periodic review — monthly for small teams, weekly for larger ones — to spot unusual access patterns from contractors and service accounts.
 
 ## Related Articles
 
