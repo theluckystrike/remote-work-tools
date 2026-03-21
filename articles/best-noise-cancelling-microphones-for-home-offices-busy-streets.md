@@ -310,7 +310,7 @@ Professional setup       Shure KSM8 + interface $500+
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)

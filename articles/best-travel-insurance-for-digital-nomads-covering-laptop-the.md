@@ -402,7 +402,7 @@ Prioritize policies with explicit electronics coverage rather than generic perso
 - Requires backup plan for electronics replacement
 
 
-## Related Articles
+## Related Reading
 
 - [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)

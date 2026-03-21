@@ -305,7 +305,7 @@ The best practice: dedicated short-form tool (Loom) for standups + separate tool
 Most teams should start with Loom Free and upgrade to Loom Pro ($12/person/month) only when hitting the 5-minute recording limit consistently.
 
 
-## Related Articles
+## Related Reading
 
 - [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)

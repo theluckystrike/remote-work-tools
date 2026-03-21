@@ -373,7 +373,7 @@ Update runbook same week while incident is fresh.
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
 - [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)

@@ -211,7 +211,7 @@ While trust is fundamentally about behavior rather than tools, certain tools hel
 The tool choice matters less than consistent usage. Pick tools your team will actually use and commit to them.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Build Trust with Clients Who Prefer In-Person](/remote-work-tools/how-to-build-trust-with-clients-who-prefer-in-person-meeting/)
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)

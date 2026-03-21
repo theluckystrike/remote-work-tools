@@ -241,7 +241,7 @@ Shadow IT is never "solved" once—it's an ongoing challenge. Set up recurring s
 - Annual tool catalog review
 
 
-## Related Articles
+## Related Reading
 
 - [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 - [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)

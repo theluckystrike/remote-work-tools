@@ -187,7 +187,7 @@ Sometimes you need to bring someone on quickly. For urgent hires:
 Document this constraint so new hires understand why initial meetings are sparse.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)

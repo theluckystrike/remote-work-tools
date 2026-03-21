@@ -203,7 +203,7 @@ A good contract builds trust. When both parties understand expectations clearly,
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Cold Outreach Templates for Freelance Developers](/remote-work-tools/cold-outreach-templates-for-freelance-developers/)
 - [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)

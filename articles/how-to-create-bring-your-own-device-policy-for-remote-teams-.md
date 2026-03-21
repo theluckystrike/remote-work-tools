@@ -230,7 +230,7 @@ A solid BYOD policy enables the flexibility remote teams need while maintaining 
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
 - [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)

@@ -301,7 +301,7 @@ resource "aws_codebuild_project" "backend_ci" {
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
 - [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)

@@ -241,7 +241,7 @@ Consider starting with a platform that integrates with tools your team already u
 Track metrics like recognition frequency, participation rates, and employee satisfaction scores to measure the impact of your recognition program and iterate on your approach over time.
 
 
-## Related Articles
+## Related Reading
 
 - [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
 - [Remote HR Benefits Administration Platform for Distributed](/remote-work-tools/remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/)

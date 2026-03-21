@@ -263,7 +263,7 @@ The best remote leadership pipelines feel invisible—they create natural opport
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)

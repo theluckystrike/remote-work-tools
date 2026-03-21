@@ -404,7 +404,7 @@ Voice processing:
 - [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
 
 
-## Related Articles
+## Related Reading
 
 - [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 - [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)

@@ -170,7 +170,7 @@ Choose a tool (Obsidian, Logseq, or plain markdown with git), commit to capturin
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)

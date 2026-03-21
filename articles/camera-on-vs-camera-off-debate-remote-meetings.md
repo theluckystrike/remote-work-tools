@@ -287,7 +287,7 @@ If your team currently requires cameras on and you want to make it optional, imp
 Many teams report that making cameras optional actually increases engagement because people feel less self-conscious. When you can choose camera off, many people choose camera on more frequently—because they feel less obligated and more in control.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
 - [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)

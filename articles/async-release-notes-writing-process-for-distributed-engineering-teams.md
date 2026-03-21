@@ -218,7 +218,7 @@ Track these metrics to continuously improve your async release notes process:
 5. Time to produce: Total hours spent on release notes creation
 
 
-## Related Articles
+## Related Reading
 
 - [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)

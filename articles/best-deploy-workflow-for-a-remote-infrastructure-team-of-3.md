@@ -232,7 +232,7 @@ A three-person team can iterate quickly on workflow improvements. When something
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 - [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)

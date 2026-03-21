@@ -221,7 +221,7 @@ Track whether your actions actually improve things:
 If you're seeing progress, your retrospective process is working. If not, adjust the format, prompts, or help until it drives real change.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)

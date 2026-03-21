@@ -231,7 +231,7 @@ Track these secondary metrics alongside raw FRT to understand the full picture:
 - **Customer satisfaction correlation** — Verify that FRT improvements actually translate to better CSAT scores
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 - [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)

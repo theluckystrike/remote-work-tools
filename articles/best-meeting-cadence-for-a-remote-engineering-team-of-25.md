@@ -203,7 +203,7 @@ Track a few metrics to ensure your cadence remains healthy:
 If engineers report that meetings interrupt their work, reduce the cadence. If teams report misalignment, add more sync points.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)

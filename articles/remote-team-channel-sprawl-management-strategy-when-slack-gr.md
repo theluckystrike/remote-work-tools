@@ -179,7 +179,7 @@ If Slack becomes unmanageable despite these strategies, evaluate alternatives. S
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
 - [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)

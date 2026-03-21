@@ -256,7 +256,7 @@ The technical tools matter less than consistent participation. A team that plays
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 - [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)

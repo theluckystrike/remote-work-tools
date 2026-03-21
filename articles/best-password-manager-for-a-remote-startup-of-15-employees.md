@@ -283,7 +283,7 @@ If a credential is exposed, follow this process:
  - Review password manager logs for suspicious access patterns
 
 
-## Related Articles
+## Related Reading
 
 - [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)
 - [Password Manager Comparison for Remote Teams](/remote-work-tools/password-manager-comparison-for-remote-teams-bitwarden-vs-1p/)

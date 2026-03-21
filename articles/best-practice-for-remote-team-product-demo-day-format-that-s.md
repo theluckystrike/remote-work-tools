@@ -191,7 +191,7 @@ Even with the right format, teams run into problems:
 - Live session overload: The temptation to make everything live defeats the entire purpose. Keep synchronous time minimal and optional.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)

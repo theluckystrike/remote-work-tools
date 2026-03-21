@@ -170,7 +170,7 @@ Collect feedback after each event using a brief survey. Iterate on logistics, ac
 A well-organized virtual volunteering day strengthens distributed teams while creating genuine positive impact. The key lies in asynchronous-friendly design, clear coordination infrastructure, and meaningful activity selection. Start with one event, measure participation and satisfaction, then refine your approach for future iterations.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
 - [How to Organize Multiple Chargers and Cables on Home Desk](/remote-work-tools/how-to-organize-multiple-chargers-and-cables-on-home-desk/)

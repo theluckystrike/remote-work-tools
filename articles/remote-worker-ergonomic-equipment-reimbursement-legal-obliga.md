@@ -246,7 +246,7 @@ Start by auditing your current remote work policies, identifying gaps in equipme
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
 - [Best Tool for Tracking Remote Worker Tax Obligations Across](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)

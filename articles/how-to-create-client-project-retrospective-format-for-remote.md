@@ -327,7 +327,7 @@ By year-end, review all retrospectives:
 This drives your process improvements year over year.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
 - [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)

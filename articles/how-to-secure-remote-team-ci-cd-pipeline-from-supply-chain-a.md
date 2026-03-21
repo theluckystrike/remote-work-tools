@@ -263,7 +263,7 @@ function checkPipelineModifications() {
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
 
 
-## Related Articles
+## Related Reading
 
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 - [How to Create Remote Team Leadership Development Pipeline Fo](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)

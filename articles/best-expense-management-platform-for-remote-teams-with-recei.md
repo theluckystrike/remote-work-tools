@@ -379,7 +379,7 @@ Without cultural alignment, even the best platform fails:
 Expense management is not just a system—it's a team practice requiring regular attention.
 
 
-## Related Articles
+## Related Reading
 
 - [Identity and Access Management Platform Comparison for](/remote-work-tools/identity-and-access-management-platform-comparison-for-remot/)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)

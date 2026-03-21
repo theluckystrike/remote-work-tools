@@ -280,7 +280,7 @@ with pysftp.Connection('sftp.example.com', username='deploy',
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
 - [Best Secure Web Gateway for Remote Teams Browsing Untrusted](/remote-work-tools/best-secure-web-gateway-for-remote-teams-browsing-untrusted-networks-2026/)

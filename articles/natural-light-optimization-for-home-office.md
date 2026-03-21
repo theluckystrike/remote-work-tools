@@ -170,7 +170,7 @@ If you're not ready for full automation, start with these simple changes:
 - **Take light breaks**—step outside for 10 minutes during peak daylight hours.
 
 
-## Related Articles
+## Related Reading
 
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
 - [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)

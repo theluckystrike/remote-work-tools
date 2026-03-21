@@ -383,7 +383,7 @@ Help needed: [Yes/No, if yes link to issue]
 This takes 2 minutes per person, provides same visibility, saves 2+ hours per week per team member.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
 - [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)

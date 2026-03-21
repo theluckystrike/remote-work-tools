@@ -225,7 +225,7 @@ When individual team members consistently score their own health significantly b
 A team that regularly examines its health builds resilience against the inevitable challenges of remote work. The practices outlined here create space for honest conversation, concrete improvements, and stronger interpersonal bonds. Start small—add one health question to your next retro and see what emerges. The insights might surprise you.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 - [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)

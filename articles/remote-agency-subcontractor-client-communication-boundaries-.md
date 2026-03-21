@@ -208,7 +208,7 @@ Remote agency work thrives on trust. By being clear about how you work, you actu
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)

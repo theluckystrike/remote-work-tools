@@ -198,7 +198,7 @@ The initial investment pays continuous dividends. Engineers spend less time answ
 Start small, stay consistent, and watch your documentation culture develop naturally over time.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)

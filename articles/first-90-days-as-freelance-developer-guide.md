@@ -198,7 +198,7 @@ The overwhelm of freelance independence catches many developers off guard. Focus
 5. Positioning Refinement: Adjust based on what clients actually value
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
 - [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)

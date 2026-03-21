@@ -240,7 +240,7 @@ Document these sessions. Future team members will thank you.
 Make dependency visibility part of the daily workflow rather than a periodic exercise. When any developer can answer "what does this service depend on?" in under a minute, the team ships faster and breaks less.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
 - [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)

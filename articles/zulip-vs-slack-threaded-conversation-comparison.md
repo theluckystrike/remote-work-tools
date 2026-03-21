@@ -242,7 +242,7 @@ Not natively. Third-party tools like Zapier can mirror messages between platform
 Yes. The topic requirement is the main learning curve. Non-technical teams adapt within a week or two. The unlimited free tier makes it particularly attractive for nonprofits and small businesses.
 
 
-## Related Articles
+## Related Reading
 
 - [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
 - [How to Handle Remote Employee Underperformance](/remote-work-tools/how-to-handle-remote-employee-underperformance-conversation-/)

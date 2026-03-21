@@ -261,7 +261,7 @@ Squash merging keeps main history linear and makes rollback simpler. For distrib
 A well-designed pull request workflow compensates for the lack of face-to-face interaction. Clear conventions, explicit expectations, and thoughtful automation transform pull requests from bottlenecks into efficient collaboration channels. Start with these patterns and adapt them to your team's specific time zones and working styles.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)

@@ -173,7 +173,7 @@ For most home office setups:
 The right chair mat is an investment in both your comfort and your flooring. Take time to measure your carpet depth or verify your floor type, check your chair's caster type, and choose materials appropriate to your specific situation. Your joints—and your floor—will thank you after years of daily use.
 
 
-## Related Articles
+## Related Reading
 
 - [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)

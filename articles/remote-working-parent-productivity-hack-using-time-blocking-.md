@@ -189,7 +189,7 @@ Build your time blocks around the bus. Protect them fiercely. Watch your output 
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 - [How to Handle School Snow Day When Both Parents Work](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)

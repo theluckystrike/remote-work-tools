@@ -272,7 +272,7 @@ Start with a single meeting type—perhaps sprint retrospectives or design discu
 Track how often wiki articles get referenced and updated. Tribal knowledge capture only succeeds when the resulting documentation actually gets used.
 
 
-## Related Articles
+## Related Reading
 
 - [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
 - [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)

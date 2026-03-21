@@ -241,7 +241,7 @@ The key factors in your decision are: team size (affects SFU requirements), late
 Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
 - [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)

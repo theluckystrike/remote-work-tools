@@ -175,7 +175,7 @@ Establish these norms explicitly in the first month. Don't assume team members u
 Monitor new managers closely during their first quarter. Watch for the pitfalls above and address them as soon as they emerge. Early intervention prevents patterns from solidifying.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 - [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)

@@ -173,7 +173,7 @@ Consider starting with a free trial before committing. Most platforms offer 14-3
 The right ATS transforms remote hiring from a logistical nightmare into a scalable, repeatable process. Invest the time to configure it properly, and you'll build a global team more efficiently than competitors still struggling with spreadsheets and email threads.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)

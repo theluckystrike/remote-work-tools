@@ -236,7 +236,7 @@ Document ownership transfer is a formal step in offboarding. The departing AE ad
 Yes, with caution. Share a view-only folder or a curated subset of documents—typically the proposal, mutual action plan, and security questionnaire responses. Keep internal coaching notes, pricing concession history, and competitor analysis private.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 - [Best Wiki Template for Remote Team Engineering Design](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)

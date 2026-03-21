@@ -231,7 +231,7 @@ Start slowly. Try written-only appreciation boards for a month before adding liv
 Integrate gratitude into existing meetings rather than creating new ones. Replace 5 minutes of status updates with appreciation instead.
 
 
-## Related Articles
+## Related Reading
 
 - [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)

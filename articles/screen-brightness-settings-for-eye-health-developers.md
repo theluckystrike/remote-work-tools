@@ -228,7 +228,7 @@ You can also create your own automation using cron jobs or launch agents:
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Base brightness decreases with more monitors](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
 - [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)

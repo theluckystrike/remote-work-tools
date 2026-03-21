@@ -180,7 +180,7 @@ For most remote workers, however, the solutions outlined above provide excellent
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 - [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)

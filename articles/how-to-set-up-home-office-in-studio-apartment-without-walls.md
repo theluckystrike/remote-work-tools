@@ -203,7 +203,7 @@ Here's a realistic budget for a studio home office setup:
 Start with the basics and upgrade over time. A functional workspace doesn't require spending thousands.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
 - [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)

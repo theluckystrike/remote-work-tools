@@ -206,7 +206,7 @@ Beyond configuration, establish conventions that make Jira work for distributed 
 4. **Review board standing** — Spend 5 minutes each morning reviewing your team's board view
 
 
-## Related Articles
+## Related Reading
 
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)

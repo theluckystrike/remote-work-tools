@@ -348,7 +348,7 @@ Use this framework to select the best option for your specific situation:
 {% endraw %}
 
 
-## Related Articles
+## Related Reading
 
 - [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
 - [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)

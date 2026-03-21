@@ -222,7 +222,7 @@ if __name__ == "__main__":
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
 - [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)

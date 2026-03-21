@@ -194,7 +194,7 @@ Gather feedback through simple async surveys:
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
 - [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)

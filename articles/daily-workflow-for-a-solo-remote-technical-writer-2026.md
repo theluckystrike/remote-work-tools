@@ -264,7 +264,7 @@ Start with an inventory before writing. List every user action related to the fe
 A shutdown ritual matters more than a shutdown time. Your end-of-day notes serve this function: writing tomorrow's priority 1 is a deliberate signal to your brain that today's work is complete. Pair this with a physical transition—closing the laptop, changing out of work clothes, or a short walk—to reinforce the boundary that a commute used to create automatically.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Invoicing Workflow for Solo Developer with](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)

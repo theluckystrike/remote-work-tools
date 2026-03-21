@@ -295,7 +295,7 @@ Track these metrics to identify which relationships are most sustainable:
 Clients that score well on these metrics deserve your best attention and proactive engagement. Clients that score poorly may not be worth retaining despite current revenue.
 
 
-## Related Articles
+## Related Reading
 
 - [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
 - [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)

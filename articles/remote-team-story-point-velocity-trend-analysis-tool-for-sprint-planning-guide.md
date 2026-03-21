@@ -359,7 +359,7 @@ As you implement velocity tracking, keep these considerations in mind:
 **Review and adjust regularly.** Reassess your velocity calculation method quarterly. What worked for a new team may not suit a mature team, and vice versa.
 
 
-## Related Articles
+## Related Reading
 
 - [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)

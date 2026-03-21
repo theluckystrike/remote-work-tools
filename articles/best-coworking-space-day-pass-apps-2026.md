@@ -342,7 +342,7 @@ time dig google.com @8.8.8.8 +short
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
 - [Coworking Space Membership vs Day Pass Comparison](/remote-work-tools/coworking-space-membership-vs-day-pass-comparison/)

@@ -306,7 +306,7 @@ Portugal's D7 and Croatia's nomad visa are the strongest starting points for mos
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)

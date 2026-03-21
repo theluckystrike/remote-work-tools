@@ -358,7 +358,7 @@ If real-time pairing isn't possible (time zones, schedules), record sessions for
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)

@@ -205,7 +205,7 @@ Over time, your second brain becomes more valuable. That archive of debugging no
 Start with one system, build the capture habit, and expand as you learn what works for your workflow.
 
 
-## Related Articles
+## Related Reading
 
 - [Brain.fm vs Endel: Focus Music Comparison for Developers](/remote-work-tools/brain-fm-vs-endel-focus-music-comparison/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)

@@ -208,7 +208,7 @@ Here's a minimal path to launching an anniversary program:
 Remote teams that celebrate together stay together. Anniversaries provide a predictable, meaningful touchpoint for building those connections.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 - [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)

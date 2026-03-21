@@ -172,7 +172,7 @@ Choose the **Nexstand** if:
 - You prefer a more substantial, desk-based setup
 
 
-## Related Articles
+## Related Reading
 
 - [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
 - [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)

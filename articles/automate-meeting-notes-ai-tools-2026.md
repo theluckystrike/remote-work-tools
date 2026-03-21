@@ -262,7 +262,7 @@ def create_meeting_page(title, summary, action_items, date):
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
 - [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)

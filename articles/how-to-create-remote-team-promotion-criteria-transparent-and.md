@@ -275,7 +275,7 @@ As your remote team scales from 5 to 50+ people, your promotion framework must e
 Track when to transition between stages based on growth, not just headcount. A high-velocity team might need Stage 2 practices at 10 people; a stable team might stay in Stage 1 at 30.
 
 
-## Related Articles
+## Related Reading
 
 - [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
 - [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)

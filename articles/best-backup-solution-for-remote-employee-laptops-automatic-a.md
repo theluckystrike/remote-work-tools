@@ -230,7 +230,7 @@ The best backup solution is one that runs automatically without requiring user i
 {% endraw %}
 
 
-## Related Articles
+## Related Reading
 
 - [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
 - [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)

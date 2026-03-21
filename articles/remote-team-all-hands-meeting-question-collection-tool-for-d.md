@@ -218,7 +218,7 @@ Answer quality can be measured through post-meeting surveys. Ask attendees wheth
 Time-to-answer tracks how quickly questions get responses. Long gaps between submission and answer often indicate organizational bottlenecks.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
 - [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)

@@ -311,7 +311,7 @@ Output Metrics:
 After implementing maker schedule, you should see improved deep work minutes, reduced context switches, and higher quality output. If not, your blocks may be too short, too fragmented, or the team culture may need adjustment.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
 - [GDPR Compliance Tools for Developers 2026: A Practical Guide](/remote-work-tools/gdpr-compliance-tools-for-developers-2026/)

@@ -225,7 +225,7 @@ Policy changes don't have to cause anxiety. With careful communication, they can
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 - [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)

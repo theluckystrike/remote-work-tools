@@ -194,7 +194,7 @@ Use this checklist when deploying your vendor security assessment template:
 - [ ] Train team members on vendor access request procedures
 
 
-## Related Articles
+## Related Reading
 
 - [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
 - [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)

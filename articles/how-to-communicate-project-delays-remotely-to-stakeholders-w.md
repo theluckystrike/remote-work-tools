@@ -229,7 +229,7 @@ For teams that handle multiple projects, create a standardized workflow for dela
 This workflow scales whether you are managing one project or dozens. The key is acting deliberately rather than reacting after the fact.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
 - [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)

@@ -313,7 +313,7 @@ The investment in proper gate configuration and testing dramatically reduces mee
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
 - [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)

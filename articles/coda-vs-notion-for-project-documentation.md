@@ -212,7 +212,7 @@ Teams switching between these platforms—or evaluating whether to migrate exist
 The best choice depends on your team's workflow maturity. Teams early in their documentation journey often prefer Notion's simplicity. Teams with established practices who need dynamic, interconnected docs find Coda's flexibility advantageous.
 
 
-## Related Articles
+## Related Reading
 
 - [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
 - [Best Tools for Remote Team Documentation 2026: Notion vs.](/remote-work-tools/best-remote-team-documentation-tools-2026/)

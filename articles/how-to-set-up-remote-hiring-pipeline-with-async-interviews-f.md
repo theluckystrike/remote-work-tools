@@ -230,7 +230,7 @@ Review these metrics quarterly and iterate on your pipeline stages.
 **No cultural assessment:** Technical skills matter, but collaboration style predicts team success. Include non-technical evaluation.
 
 
-## Related Articles
+## Related Reading
 
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
 - [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)

@@ -291,7 +291,7 @@ Beyond "pages updated," track quality metrics:
 A quality-focused sprint that updates 15 pages thoroughly beats a quantity-focused sprint that touches 40 pages superficially.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 - [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)

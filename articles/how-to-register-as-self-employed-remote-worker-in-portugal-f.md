@@ -308,7 +308,7 @@ Many developers handle Portuguese taxes themselves using accounting software. Ho
 For your first year, hiring a contabilista helps you understand the process. After year one, you can decide whether to continue or move to DIY accounting if comfortable.
 
 
-## Related Articles
+## Related Reading
 
 - [Register OAuth app on GitHub](/remote-work-tools/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
 - [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)

@@ -255,7 +255,7 @@ time dig google.com @8.8.8.8 +short
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
 - [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)

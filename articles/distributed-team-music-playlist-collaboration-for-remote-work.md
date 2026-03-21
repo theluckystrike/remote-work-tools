@@ -173,7 +173,7 @@ Starting a team playlist takes minimal effort but can significantly impact team 
 Start with a simple focus playlist for everyday deep work, then expand to themed playlists for different occasions. Within a few weeks, you'll likely notice increased informal conversation and a stronger sense of shared team identity—all from something as simple as sharing songs together.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
 - [Remote Content Team Collaboration Workflow for Distributed](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)

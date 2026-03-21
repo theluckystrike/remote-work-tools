@@ -254,7 +254,7 @@ Build by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Support Ticket First Response Time Tracking for](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
 - [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)

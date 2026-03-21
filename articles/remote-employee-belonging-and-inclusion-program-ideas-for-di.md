@@ -180,7 +180,7 @@ Start with the buddy system and async show-and-tell—they require minimal budge
 The best belonging programs treat inclusion as infrastructure, not an event. Consistent execution beats flashy initiatives every time.
 
 
-## Related Articles
+## Related Reading
 
 - [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
 - [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)

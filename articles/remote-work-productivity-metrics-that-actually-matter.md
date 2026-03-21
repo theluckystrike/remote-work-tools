@@ -375,7 +375,7 @@ These metrics corrupt behavior and reveal nothing about actual productivity.
 - Use insights to inform hiring, process changes, tooling decisions
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
 - [Hybrid Work Productivity Comparison Study](/remote-work-tools/hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/)

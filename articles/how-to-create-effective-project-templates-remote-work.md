@@ -199,7 +199,7 @@ console.log('Project structure validated successfully.');
 Run this validation as part of your CI pipeline to catch misconfigured projects early.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)

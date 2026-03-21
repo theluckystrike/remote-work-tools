@@ -227,7 +227,7 @@ ORDER BY departure_date DESC;
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
 - [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)

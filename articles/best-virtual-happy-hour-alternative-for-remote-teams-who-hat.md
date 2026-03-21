@@ -473,7 +473,7 @@ Ongoing (Quarterly):
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
 - [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)

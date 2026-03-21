@@ -203,7 +203,7 @@ def create_recurring_meeting(token, topic, start_time, duration_min=60):
 Server-to-server OAuth (type `account_credentials`) is the recommended auth method for automation — no user login required and tokens refresh automatically.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
 - [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)

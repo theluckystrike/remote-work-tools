@@ -200,7 +200,7 @@ An async product discovery process using recorded interviews requires upfront in
 Start small. Record one interview this week. Share it with your team. See how long it takes for insights to surface. Adjust from there. The first iteration won't be perfect—the goal is to learn what your specific team needs in its async review workflow, then refine from there.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)

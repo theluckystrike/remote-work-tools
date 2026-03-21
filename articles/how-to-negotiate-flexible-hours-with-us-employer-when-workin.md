@@ -279,7 +279,7 @@ Before negotiating flexible hours, understand the legal landscape:
 When in doubt, have your employer's HR department (not just your manager) acknowledge the flexible arrangement in writing.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
 - [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)

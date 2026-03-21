@@ -263,7 +263,7 @@ check_contributions()
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 - [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)

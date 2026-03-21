@@ -331,7 +331,7 @@ Individual feedback matters less than systemic feedback culture. To build this:
 Teams that master feedback compound their velocity because ideas flow freely and corrections happen fast. This is worth investing in.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Give Constructive Feedback Asynchronously Without](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)

@@ -176,7 +176,7 @@ The right corner desk transforms awkward room angles into your most productive w
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/remote-work-tools/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)
 - [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)

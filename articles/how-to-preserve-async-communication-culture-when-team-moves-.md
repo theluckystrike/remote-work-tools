@@ -183,7 +183,7 @@ Track metrics that indicate whether your async culture is thriving or degrading:
 Review these metrics monthly and adjust your practices accordingly.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 - [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)

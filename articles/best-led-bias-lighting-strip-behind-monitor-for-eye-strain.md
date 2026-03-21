@@ -231,7 +231,7 @@ While bias lighting significantly helps, combine it with these practices for max
 - Get regular eye exams: Annual checkups can catch and address vision issues
 
 
-## Related Articles
+## Related Reading
 
 - [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
 - [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)

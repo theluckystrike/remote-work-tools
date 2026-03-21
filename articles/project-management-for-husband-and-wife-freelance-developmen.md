@@ -271,7 +271,7 @@ Most successful husband-wife teams that scale either:
 3. Deliberately stay small (2-3 person team with contractors for specific projects)
 
 
-## Related Articles
+## Related Reading
 
 - [Best Project Management Tool for Solo Freelance Developers 2026](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
 - [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)

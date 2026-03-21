@@ -190,7 +190,7 @@ Set up these automations in the Settings > Notifications section. Tailor thresho
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
 - [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)

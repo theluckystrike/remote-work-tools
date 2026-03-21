@@ -172,7 +172,7 @@ Start with ownership and workflow, then layer in the other practices as your lib
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)

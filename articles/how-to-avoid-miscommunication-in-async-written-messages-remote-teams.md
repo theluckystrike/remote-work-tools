@@ -237,7 +237,7 @@ The teams that master async written communication unlock the full potential of r
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Avoid Miscommunication in Async Written Messages for Remote](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)

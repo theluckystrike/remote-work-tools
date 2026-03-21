@@ -263,7 +263,7 @@ This creates a searchable archive that new team members can review to understand
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
 - [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)

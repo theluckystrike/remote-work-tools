@@ -224,7 +224,7 @@ fi
 Provide clear evidence of remote work, down to individual contracts and invoices. Avoid large fluctuations in bank statements in the six months before you apply. Consider hiring an immigration lawyer—the document requirements are specific and a single missing item delays everything. Apply early, since processing times range from 20 to 60 days. Keep organized files from the start, because you will need the same documents again at renewal.
 
 
-## Related Articles
+## Related Reading
 
 - [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 - [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)

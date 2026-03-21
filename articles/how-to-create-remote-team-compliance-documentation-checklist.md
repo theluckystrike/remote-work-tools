@@ -223,7 +223,7 @@ Document everything with timestamps and responsible parties. When auditors ask "
 The effort you invest in building proper compliance documentation protects your organization from financial penalties, reputational damage, and the operational disruption of audit findings. Start with the foundational elements—access controls, device management, and approval workflows—and expand your documentation as your remote team grows.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 - [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)

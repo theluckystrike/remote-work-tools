@@ -195,7 +195,7 @@ When deploying your chosen solution, ensure you:
 The right calendar infrastructure enables executives to focus on strategic work rather than scheduling logistics. Invest time upfront in proper configuration, and the team will reap continuous time savings.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
 - [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)

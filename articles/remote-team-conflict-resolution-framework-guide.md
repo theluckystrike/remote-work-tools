@@ -513,7 +513,7 @@ Skip Layers 2-4 if:
 4. **Someone refuses to engage.** If they ignore Layer 1 outreach, escalate to their manager (Layer 4).
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
 - [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)

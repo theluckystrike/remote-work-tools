@@ -299,7 +299,7 @@ tail -10 ~/standing-log.txt
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)

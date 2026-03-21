@@ -169,7 +169,7 @@ Track two metrics:
 If either metric drifts unfavorably, audit your meeting list and eliminate the least valuable meetings first.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 - [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)

@@ -205,7 +205,7 @@ Once you've identified bottlenecks, prioritize based on impact. Common effective
 Start with quick wins that have high visibility. Implementing a channel cleanup typically takes a few hours but immediately reduces noise for everyone.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
 - [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)

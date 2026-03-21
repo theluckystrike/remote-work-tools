@@ -277,7 +277,7 @@ Upgrading access control infrastructure requires careful planning:
 5. Train Facility Teams: Ensure operations staff understand the integrated system
 
 
-## Related Articles
+## Related Reading
 
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 - [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)

@@ -314,7 +314,7 @@ Think of wrist health like code quality: preventative maintenance is 10x cheaper
 The developers most successful at preventing RSI treat it like a long-term investment, not a short-term fix.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
 - [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)

@@ -218,7 +218,7 @@ gh issue create \
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
 - [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)

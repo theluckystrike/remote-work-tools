@@ -357,7 +357,7 @@ As a manager or senior engineer, you set the tone:
 Your behavior creates psychological safety around communication. When you ask for clarification without judgment, the whole team does.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
 - [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)

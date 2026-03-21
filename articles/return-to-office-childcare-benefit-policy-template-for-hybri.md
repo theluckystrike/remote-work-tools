@@ -308,7 +308,7 @@ Questions? Contact benefits@company.com or your HR Business Partner.
 Clear transition instructions prevent the most common complaint about benefit changes: employees who lost out on an improvement because they didn't realize they needed to re-enroll.
 
 
-## Related Articles
+## Related Reading
 
 - [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
 - [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)

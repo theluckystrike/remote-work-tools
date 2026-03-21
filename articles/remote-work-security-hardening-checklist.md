@@ -317,7 +317,7 @@ echo "=== Audit complete ==="
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 - [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)

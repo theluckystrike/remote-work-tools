@@ -254,7 +254,7 @@ A working agreement only provides value if everyone follows it. Start by introdu
 The goal isn't perfection—it's creating a shared understanding that lets your team collaborate effectively despite physical distance. Start with the basics, learn from experience, and evolve your agreement as your team grows.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)

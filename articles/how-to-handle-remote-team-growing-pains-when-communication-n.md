@@ -232,7 +232,7 @@ The shift from organic to intentional communication feels uncomfortable at first
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 - [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)

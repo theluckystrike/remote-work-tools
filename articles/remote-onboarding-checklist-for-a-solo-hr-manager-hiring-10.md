@@ -219,7 +219,7 @@ Update this weekly and share with leadership for visibility.
 - **Silence after week one** — Consistent check-ins prevent small issues from becoming resignations
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)

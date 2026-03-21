@@ -285,7 +285,7 @@ This seasonal approach reduces annual electricity cost by 30-40% compared to yea
 Proper maintenance extends unit lifespan from 5-7 years (typical) to 10+ years.
 
 
-## Related Articles
+## Related Reading
 
 - [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)

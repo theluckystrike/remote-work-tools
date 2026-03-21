@@ -183,7 +183,7 @@ Brief description of why this meeting happened.
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
 - [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)

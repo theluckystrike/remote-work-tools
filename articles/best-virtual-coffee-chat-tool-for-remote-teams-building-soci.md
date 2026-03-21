@@ -291,7 +291,7 @@ Track these metrics to understand if your virtual coffee program is working:
 - Qualitative feedback: Post-session surveys about connection quality
 
 
-## Related Articles
+## Related Reading
 
 - [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
 - [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)

@@ -206,7 +206,7 @@ Organize your handbook using Notion databases for maximum flexibility:
 Link related content using Notion's relation properties. When you update a policy in one place, team members can find all related documentation through linked databases.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)

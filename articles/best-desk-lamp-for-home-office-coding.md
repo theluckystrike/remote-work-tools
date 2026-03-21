@@ -242,7 +242,7 @@ schedule.every(30).minutes.do(sync_lamp_to_terminal_theme)
 **Blue light keeping you awake**: Systematically reduce color temperature after 5 PM. Try 4500K (4-6 PM), 3500K (6-8 PM), and 2700K (8 PM onward).
 
 
-## Related Articles
+## Related Reading
 
 - [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
 - [BenQ ScreenBar vs Desk Lamp Comparison: A Developer](/remote-work-tools/benq-screenbar-vs-desk-lamp-comparison/)

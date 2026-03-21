@@ -394,7 +394,7 @@ To maximize your budget tool stack:
 4. Regular reviews: Weekly check-ins on tool effectiveness
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)

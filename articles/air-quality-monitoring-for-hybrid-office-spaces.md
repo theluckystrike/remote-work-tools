@@ -207,7 +207,7 @@ Position sensors away from direct airflow, windows, and doors to avoid skewed re
 Document sensor locations and calibration schedules in your facilities management system. Create runbooks for responding to different alert levels so your team knows exactly what actions to take.
 
 
-## Related Articles
+## Related Reading
 
 - [Hybrid Office Air Quality Monitoring for Maintaining](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)

@@ -179,7 +179,7 @@ Track wiki effectiveness through support metrics:
 A well-implemented wiki reduces agent onboarding time by 40% and improves first-response consistency. The investment pays dividends through reduced ticket volume and improved customer satisfaction scores.
 
 
-## Related Articles
+## Related Reading
 
 - [Front vs HelpScout for Remote Customer Support: A](/remote-work-tools/front-vs-helpscout-for-remote-customer-support/)
 - [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)

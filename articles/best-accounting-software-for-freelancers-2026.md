@@ -200,7 +200,7 @@ Whatever you choose, ensure your financial data remains portable. Regular export
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)
 - [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)

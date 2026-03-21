@@ -221,7 +221,7 @@ This approach scales to 20+ person organizations while maintaining alignment. To
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
 - [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)

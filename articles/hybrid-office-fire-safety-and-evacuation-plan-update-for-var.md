@@ -310,7 +310,7 @@ Fire safety requires regular testing:
 - Update procedures based on findings
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
 - [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)

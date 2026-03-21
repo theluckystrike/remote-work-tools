@@ -175,7 +175,7 @@ Many developers use:
 - Backup solutions: Sync code to GitHub frequently given potential connectivity issues in some areas
 
 
-## Related Articles
+## Related Reading
 
 - [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 - [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)

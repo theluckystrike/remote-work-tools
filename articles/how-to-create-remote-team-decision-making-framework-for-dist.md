@@ -218,7 +218,7 @@ Regular review ensures the framework serves the team rather than becoming bureau
 Building a decision-making framework for distributed teams takes deliberate effort, but the payoff is significant: faster decisions, clearer accountability, and team members who trust the process because they understand it. Start simple, iterate based on experience, and remember that the goal is better outcomes, not more documentation.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 - [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)

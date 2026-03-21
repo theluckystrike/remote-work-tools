@@ -408,7 +408,7 @@ Week 11-12: Celebrate wins, plan next iteration
 Most teams report 30-40% improvement in code review throughput within 8 weeks of implementing structured review practices.
 
 
-## Related Articles
+## Related Reading
 
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)

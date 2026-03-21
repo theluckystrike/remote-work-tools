@@ -205,7 +205,7 @@ automation:
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)

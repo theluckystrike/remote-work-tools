@@ -229,7 +229,7 @@ The best CRM for solo consultant managing 30 active clients remotely is whicheve
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
 - [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)

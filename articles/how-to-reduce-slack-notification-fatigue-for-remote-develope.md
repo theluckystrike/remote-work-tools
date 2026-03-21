@@ -211,7 +211,7 @@ Track whether these changes improve your productivity:
 Adjust your approach based on what works for your specific role and team.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 - [Best Notification Batching Strategies for Async-First](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)

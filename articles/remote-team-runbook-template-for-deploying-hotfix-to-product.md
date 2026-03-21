@@ -232,7 +232,7 @@ After the hotfix is verified stable, document the incident:
 **Practice your runbook.** Run hotfix simulations during team retrospectives. Identify gaps in your process before real incidents expose them.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
 - [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)

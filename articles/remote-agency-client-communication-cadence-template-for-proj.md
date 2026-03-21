@@ -366,7 +366,7 @@ If you see any of these, call a cadence reset conversation: "I want to make sure
 {% endraw %}
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 - [Remote Agency Subcontractor Client Communication Boundaries](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)

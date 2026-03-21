@@ -283,7 +283,7 @@ Your handbook should feel like a living document, not a static rulebook. Build i
 This allows one source of truth while displaying information multiple ways for different use cases.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)

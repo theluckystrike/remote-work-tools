@@ -185,7 +185,7 @@ Start with TOTP if you need something quick and don't have hardware keys. Move t
 The best two-factor authentication setup for your remote team is one that balances security with accessibility. Evaluate your highest-risk shared accounts first, implement the appropriate 2FA method, and gradually improve coverage across your entire tool stack.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Handle Two Factor Authentication Apps When Changing](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
 - [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)

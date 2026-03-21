@@ -412,7 +412,7 @@ This removes the manual burden of chasing forms, reminding respondents, and orga
 **Anonymous when team is small**: In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
 - [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)

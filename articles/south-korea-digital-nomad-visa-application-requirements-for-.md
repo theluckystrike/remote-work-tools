@@ -385,7 +385,7 @@ After 2 years, you'd need to apply for a different visa type (work visa with Kor
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 - [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)

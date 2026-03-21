@@ -271,7 +271,7 @@ Track these indicators to know if your async feedback practices are working:
 If these trends are declining, revisit training. If they're improving, reinforce what's working.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Give Constructive Feedback Remotely Over Text](/remote-work-tools/how-to-give-constructive-feedback-remotely-over-text-without/)
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)

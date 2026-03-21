@@ -314,7 +314,7 @@ Annual refresher training required for all team members.
 Communicate this policy during onboarding, and reference it in your team wiki.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
 - [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)

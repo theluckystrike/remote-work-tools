@@ -356,7 +356,7 @@ gh secret set DATABASE_URL --env production --body "postgresql://..."
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)

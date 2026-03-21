@@ -183,7 +183,7 @@ A distraction-free workspace requires maintenance. Weekly tasks include:
 Monthly, evaluate whether your setup still serves your work style. Remote work evolves; your space should adapt.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
 - [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)

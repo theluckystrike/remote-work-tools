@@ -617,7 +617,7 @@ Structure onboarding docs to accelerate productivity:
 - [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
 
 
-## Related Articles
+## Related Reading
 
 - [AI Project Status Generator for Remote Teams Pulling.](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
 - [Best SIM Card and Mobile Data Plan for Remote Workers in](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)

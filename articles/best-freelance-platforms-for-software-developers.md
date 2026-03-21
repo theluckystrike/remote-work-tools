@@ -291,7 +291,7 @@ Effective hourly rate needs to account for these costs. A developer charging $60
 This reality drives experienced freelancers toward higher rates and fewer billable hours rather than chasing maximum utilization at lower rates.
 
 
-## Related Articles
+## Related Reading
 
 - [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)

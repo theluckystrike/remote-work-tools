@@ -200,7 +200,7 @@ The teams that thrive across five-plus timezones aren't those that find better m
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 - [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)

@@ -187,7 +187,7 @@ Start with communication channels that treat all locations equally, design meeti
 Your first action this week: audit one recurring meeting for location equity. Identify one specific improvement you can implement by next sprint.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
 - [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)

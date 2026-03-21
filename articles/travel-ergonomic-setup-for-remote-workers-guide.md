@@ -220,7 +220,7 @@ echo "Tomorrow's productivity starts tonight"
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Ergonomic Laptop Stand for Remote Workers](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
 - [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)

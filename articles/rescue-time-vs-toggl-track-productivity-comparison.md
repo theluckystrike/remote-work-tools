@@ -397,7 +397,7 @@ Use either tool for a 2-week audit to establish baseline:
 | Team capacity planning | Toggl Track Team | Shows allocation across projects |
 
 
-## Related Articles
+## Related Reading
 
 - [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
 - [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)

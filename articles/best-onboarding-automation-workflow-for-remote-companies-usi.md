@@ -261,7 +261,7 @@ Track key metrics to continuously improve your workflow:
 Store these metrics in Notion alongside employee records, creating a data-driven approach to onboarding optimization.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)

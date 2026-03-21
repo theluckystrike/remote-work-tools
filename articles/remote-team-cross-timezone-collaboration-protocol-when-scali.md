@@ -190,7 +190,7 @@ Don't make these mistakes that undermine cross-timezone collaboration:
 **Skipping documentation because "it's faster to just talk."** That conversation happens, nobody records it, and the next person recreates the work. Write it down.
 
 
-## Related Articles
+## Related Reading
 
 - [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
 - [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)

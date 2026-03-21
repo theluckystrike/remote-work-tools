@@ -260,7 +260,7 @@ Onboarding remote employees requires extra structure:
 Document the entire onboarding process so remote hires can reference it later.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 - [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)

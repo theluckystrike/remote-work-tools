@@ -198,7 +198,7 @@ Select an automation approach based on your organization's constraints:
 Regardless of approach, success depends on treating onboarding as an evolving process. Templates require regular review as tools, teams, and roles change. Automation handles the mechanics, but human judgment shapes the experience.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
 - [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)

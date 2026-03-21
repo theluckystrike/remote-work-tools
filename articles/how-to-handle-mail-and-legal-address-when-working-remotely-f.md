@@ -226,7 +226,7 @@ mail_rules:
 The right setup for your situation depends on your home country, destination, income type, and how long you plan to stay abroad. Start with a mail forwarding solution, establish banking communication preferences, and build from there.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Handle Social Security Contributions When Working](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
 - [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)

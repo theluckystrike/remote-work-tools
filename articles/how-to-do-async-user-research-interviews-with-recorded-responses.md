@@ -252,7 +252,7 @@ Async user research interviews work best when integrated into your regular produ
 - Make findings visible in team workspace
 
 
-## Related Articles
+## Related Reading
 
 - [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
 - [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)

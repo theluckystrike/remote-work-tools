@@ -193,7 +193,7 @@ Choose a three-monitor setup if:
 Regardless of which option you choose, invest in monitor arms or stands for proper ergonomics, calibrate your displays for consistent color and brightness across all screens, and test your workflow with different configurations before committing to a final setup.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
 - [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)

@@ -305,7 +305,7 @@ def analyze_notion_errors(log_file):
 This analysis often reveals that 502 errors spike at specific times (when other automations run) or with specific request types (large bulk operations).
 
 
-## Related Articles
+## Related Reading
 
 - [Slack Giphy Integration Not Showing Results Fix 2026](/remote-work-tools/slack-giphy-integration-not-showing-results-fix-2026/)
 - [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)

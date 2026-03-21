@@ -218,7 +218,7 @@ Both tools solve the reproducibility problem. Docker approaches it from the cont
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
 - [Install OpenConnect (common in enterprise environments)](/remote-work-tools/remote-employee-digital-workspace-setup-guide-for-first-day-/)

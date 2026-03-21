@@ -185,7 +185,7 @@ miro.board.ui.on('icon:click', async () => {
 For simpler integrations, use Zapier or Make to connect Miro to tools like Linear, Asana, or Notion based on specific board updates.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)

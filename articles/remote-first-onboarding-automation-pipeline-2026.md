@@ -469,7 +469,7 @@ Track these after each new hire:
 A well-designed onboarding system is the fastest way to improve new employee productivity and retention. Invest time upfront to save hours per hire.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)

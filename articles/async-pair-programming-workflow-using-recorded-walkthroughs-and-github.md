@@ -241,7 +241,7 @@ For complex decisions that go beyond code comments, create a GitHub Discussion l
 5. Perfectionism: Async pair programming is about collaboration, not getting everything perfect on the first try
 
 
-## Related Articles
+## Related Reading
 
 - [How to Run Async Sprint Demos with Recorded Walkthroughs](/remote-work-tools/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)

@@ -190,7 +190,7 @@ The key is consistency. Engineers quickly learn whether skip level meetings lead
 Done right, skip level meetings transform how your remote engineering team communicates upward and how leadership understands what's actually happening in the code.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 - [How to Create Remote Team Skip Level Meeting Program As](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)

@@ -278,7 +278,7 @@ alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Cheapest Video Call Tool for Weekly 50 Person All Hands](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)

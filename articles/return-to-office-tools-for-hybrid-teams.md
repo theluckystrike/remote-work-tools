@@ -343,7 +343,7 @@ Track these metrics to understand if your return-to-office program works:
 Monitor these monthly and adjust policies based on trends. High utilization might mean you need more desks. Low utilization might mean your core hours policy is too strict.
 
 
-## Related Articles
+## Related Reading
 
 - [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
 - [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)

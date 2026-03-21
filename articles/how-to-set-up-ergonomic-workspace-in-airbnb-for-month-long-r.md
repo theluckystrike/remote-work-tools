@@ -185,7 +185,7 @@ Work from the floor with a lap desk and pillow arrangement. Not ideal for long s
 - [ ] Break reminder system active
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
 - [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)

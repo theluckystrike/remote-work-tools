@@ -352,7 +352,7 @@ If you have concerns, reply in thread by [date+24 hours]
 This structure prevents decisions made in AMER morning from creating confusion when Europe wakes up. Everyone has context upfront.
 
 
-## Related Articles
+## Related Reading
 
 - [Convert to UTC range](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 - [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)

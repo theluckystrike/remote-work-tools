@@ -288,7 +288,7 @@ Track metrics that indicate whether your standup format works:
 The best hybrid standup format is one your team actually follows consistently. Start with the round-robin + async buffer approach, refine your room setup, and iterate based on feedback. The goal isn't perfection—it's creating a daily rhythm where every team member, regardless of location, starts their day informed and connected.
 
 
-## Related Articles
+## Related Reading
 
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)

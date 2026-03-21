@@ -252,7 +252,7 @@ Many teams use two tools: Notion for internal workspace and project management, 
 Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
 - [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)

@@ -270,7 +270,7 @@ Before migrating from traditional VPN:
 - [ ] Document lessons learned from migration
 
 
-## Related Articles
+## Related Reading
 
 - [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
 - [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)

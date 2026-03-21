@@ -349,7 +349,7 @@ jobs:
 This keeps your repository clean and storage usage minimal without manual intervention.
 
 
-## Related Articles
+## Related Reading
 
 - [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
 - [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)

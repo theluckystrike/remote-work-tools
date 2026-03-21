@@ -369,7 +369,7 @@ Before deploying either service:
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
 - [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)

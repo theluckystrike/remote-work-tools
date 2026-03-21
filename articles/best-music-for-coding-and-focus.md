@@ -346,7 +346,7 @@ Start with these immediate actions:
 The most common mistake is treating music selection as unimportant. Given that developers spend 8-10 hours a day in front of code, even a 5-10% improvement in sustained focus from better audio choices compounds into real output differences over months.
 
 
-## Related Articles
+## Related Reading
 
 - [Brain.fm vs Endel: Focus Music Comparison for Developers](/remote-work-tools/brain-fm-vs-endel-focus-music-comparison/)
 - [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)

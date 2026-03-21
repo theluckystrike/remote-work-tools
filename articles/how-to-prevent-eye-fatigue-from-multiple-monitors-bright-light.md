@@ -218,7 +218,7 @@ Use this checklist to ensure your multi-monitor setup is eye-friendly:
 **Does dark mode actually help?** Dark mode reduces the total light emitted by your display when viewing text-heavy content, which can reduce eyestrain in low-ambient-light environments. In bright rooms, dark mode's lower contrast may cause the eye to work harder, not less. Use dark mode when your room is dim; switch to light mode during the day.
 
 
-## Related Articles
+## Related Reading
 
 - [Screen Brightness Settings for Eye Health](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
 - [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)

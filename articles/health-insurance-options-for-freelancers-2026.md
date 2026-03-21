@@ -200,7 +200,7 @@ Keep these records for insurance purposes:
 The right health insurance for freelancers depends on your specific situation. Use the tools and calculations above to make an informed decision that protects your health without breaking your budget.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
 - [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)

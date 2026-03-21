@@ -264,7 +264,7 @@ If these metrics decline, your one-on-ones need adjustment.
 A well-executed one-on-one template transforms a simple meeting into your most powerful management tool. The consistency builds trust over time, and the structure ensures nothing important falls through the cracks.
 
 
-## Related Articles
+## Related Reading
 
 - [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
 - [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)

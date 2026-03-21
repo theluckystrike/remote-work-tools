@@ -324,7 +324,7 @@ Not everyone experiences calendar bloat as a problem. Senior engineers, managers
 The hardest part of meeting hygiene at scale isn't the tooling — it's building team norms that make it feel normal to cancel a meeting, decline an invite, or default to a written update instead of a call.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
 - [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)

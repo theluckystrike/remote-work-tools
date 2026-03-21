@@ -204,7 +204,7 @@ Relocate to a quieter corner or outdoor seating, or put on noise-canceling headp
 Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find another spot." Your response affects how cafes view all remote workers.
 
 
-## Related Articles
+## Related Reading
 
 - [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
 - [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)

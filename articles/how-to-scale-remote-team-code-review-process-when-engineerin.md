@@ -199,7 +199,7 @@ Scaling code review isn't just about processes—it's about building a culture w
 Encourage senior engineers to model good review behavior: thorough but kind feedback, quick turnaround times, and helpful explanations rather than just corrections.
 
 
-## Related Articles
+## Related Reading
 
 - [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
 - [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)

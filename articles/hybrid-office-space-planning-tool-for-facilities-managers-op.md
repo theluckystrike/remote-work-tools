@@ -331,7 +331,7 @@ Desk occupancy tracking involves employee privacy considerations. Anonymize data
 Start with a pilot floor covering 20-50 desks. Validate your sensor reliability, data pipeline stability, and analytics accuracy before expanding. Plan for horizontal scaling by designing your MQTT topic structure and database schema to accommodate additional floors without refactoring.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 - [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)

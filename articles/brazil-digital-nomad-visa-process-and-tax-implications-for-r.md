@@ -174,7 +174,7 @@ For remote developers who want to experience South America while continuing to w
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
 - [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)

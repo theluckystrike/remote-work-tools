@@ -255,7 +255,7 @@ Start with your highest-sensitivity resources: production databases, CI/CD pipel
 Zero trust isn't a product you buy—it's a framework you implement. Small engineering teams can deploy practical zero trust using open-source tools like Pomerium, Teleport, and Tailscale. The key is starting with your most sensitive resources and iterating systematically.
 
 
-## Related Articles
+## Related Reading
 
 - [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
 - [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)

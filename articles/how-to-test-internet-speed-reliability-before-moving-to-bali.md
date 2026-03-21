@@ -181,7 +181,7 @@ Document your findings. Share test results with your team to validate your remot
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)

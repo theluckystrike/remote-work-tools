@@ -178,7 +178,7 @@ Here's one effective configuration for a developer:
 This totals 90 minutes from wake to work start. Adjust timing based on your work schedule and energy patterns.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
 - [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)

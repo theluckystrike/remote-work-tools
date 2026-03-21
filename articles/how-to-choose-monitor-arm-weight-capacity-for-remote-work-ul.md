@@ -266,7 +266,7 @@ Monitor arms have environmental impact through manufacturing and eventually disp
 For environmentally conscious remote workers, choosing a durable arm initially reduces e-waste. A $250 arm lasting 10 years has lower environmental impact than three $80 arms lasting 3 years each.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Remote Work Monitor Under 300 Dollars 2026](/remote-work-tools/best-remote-work-monitor-under-300-dollars-2026/)
 - [Example: Checking monitor USB-C capabilities](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)

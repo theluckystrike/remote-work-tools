@@ -367,7 +367,7 @@ If possible, test before committing:
 Most developers find that testing for 1-2 weeks reveals whether a cushion genuinely improves their experience.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
 - [Home Office Humidity Control for Comfortable Coding Sessions](/remote-work-tools/home-office-humidity-control-for-comfortable-coding-sessions/)

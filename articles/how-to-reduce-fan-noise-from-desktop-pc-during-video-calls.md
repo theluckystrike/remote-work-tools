@@ -327,7 +327,7 @@ The cost-benefit math: A $30 fan upgrade preventing even one "can you mute your 
 {% endraw %}
 
 
-## Related Articles
+## Related Reading
 
 - [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
 - [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)

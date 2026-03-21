@@ -224,7 +224,7 @@ For remote teams specifically, ensure your policies account for legitimate use c
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
 - [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)

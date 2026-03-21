@@ -197,7 +197,7 @@ Run through this checklist when upgrading your hybrid office network:
 - [ ] Schedule quarterly network assessments
 
 
-## Related Articles
+## Related Reading
 
 - [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
 - [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)

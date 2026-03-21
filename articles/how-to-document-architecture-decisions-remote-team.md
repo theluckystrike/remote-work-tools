@@ -225,7 +225,7 @@ Remote work doesn't have to mean architectural amnesia. With structured document
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 - [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)

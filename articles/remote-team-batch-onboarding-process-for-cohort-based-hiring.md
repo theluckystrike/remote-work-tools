@@ -231,7 +231,7 @@ Start with a single cohort and iterate. Document every friction point, then auto
 The upfront investment in building this system pays dividends immediately. Each subsequent cohort benefits from accumulated learnings, refined templates, and improving infrastructure. Your future hires will thank you—and so will your managers.
 
 
-## Related Articles
+## Related Reading
 
 - [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
 - [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)

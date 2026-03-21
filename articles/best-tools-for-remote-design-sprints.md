@@ -199,7 +199,7 @@ For developers, build prototype components in your actual codebase when possible
 Start simple, measure what works, and evolve your tooling as your sprint practice matures.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Manage Sprints with Remote Team: A Practical](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
 - [How to Run Sprints with a Remote Team of 4 Engineers: A](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)

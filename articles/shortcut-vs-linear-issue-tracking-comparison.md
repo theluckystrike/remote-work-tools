@@ -194,7 +194,7 @@ If you're moving from one platform to another, both offer import tools. Linear c
 The migration effort depends on your data complexity. Custom fields, attachments, and historical comments all require careful mapping.
 
 
-## Related Articles
+## Related Reading
 
 - [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)

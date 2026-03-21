@@ -212,7 +212,7 @@ Create separation between work and living spaces. Even a small desk in a corner 
 Set clear start and end times for work. Physical cues help: change clothes for work, step outside at lunch, create a shutdown ritual. Communicate these boundaries to teammates so they know when you're available.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 - [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)

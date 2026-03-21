@@ -374,7 +374,7 @@ For contractors or remote employees, consider:
 - Async-first culture (minimize forced sync meetings regardless of timezone)
 
 
-## Related Articles
+## Related Reading
 
 - [Example on-call schedule that leverages timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
 - [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)

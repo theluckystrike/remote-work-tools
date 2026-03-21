@@ -192,7 +192,7 @@ Before moving into your Bali rental:
 - [ ] Configure network failover
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 - [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)

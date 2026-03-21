@@ -327,7 +327,7 @@ Recovery_Plan:
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 - [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)

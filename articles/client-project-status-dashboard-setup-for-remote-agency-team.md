@@ -253,7 +253,7 @@ Treat this as a scoping conversation, not a technical problem. Define in your co
 Accuracy depends almost entirely on automation rather than manual effort. If your team has to remember to update the dashboard, it will go stale within days of a busy sprint. Audit your workflow to identify status changes that happen in your tools (merged PRs, closed tickets, completed deployments) and automate those changes into dashboard updates. The dashboard should be accurate because it reflects tool state, not because someone updated it manually.
 
 
-## Related Articles
+## Related Reading
 
 - [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
 - [AI Project Status Generator for Remote Teams Pulling.](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)

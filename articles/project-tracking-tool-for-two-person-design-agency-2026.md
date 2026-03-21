@@ -255,7 +255,7 @@ The tools scale, but your processes need adjustment at each growth stage.
 **Scope creep invisibility**: The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
 
 
-## Related Articles
+## Related Reading
 
 - [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)

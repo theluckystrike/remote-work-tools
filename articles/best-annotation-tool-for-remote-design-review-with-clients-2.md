@@ -185,7 +185,7 @@ Clients sometimes expect immediate responses to annotations. Set clear SLAs for 
 Annotations can inadvertently expand project scope. When clients add feedback that falls outside original requirements, track these as separate items. Use annotation status fields to flag items requiring scope discussion before implementation.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
 - [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)

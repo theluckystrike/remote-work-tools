@@ -348,7 +348,7 @@ Archive standup responses in Notion for historical reference and team knowledge:
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
 - [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)

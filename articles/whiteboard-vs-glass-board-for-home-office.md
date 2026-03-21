@@ -212,7 +212,7 @@ def create_recurring_meeting(token, topic, start_time, duration_min=60):
 Server-to-server OAuth (type `account_credentials`) is the recommended auth method for automation — no user login required and tokens refresh automatically.
 
 
-## Related Articles
+## Related Reading
 
 - [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
 - [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)

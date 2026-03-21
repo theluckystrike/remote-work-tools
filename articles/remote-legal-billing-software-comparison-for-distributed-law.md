@@ -314,7 +314,7 @@ New billing software requires team adjustment:
 Built by
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
 - [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)

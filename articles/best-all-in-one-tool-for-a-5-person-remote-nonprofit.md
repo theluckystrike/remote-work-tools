@@ -286,7 +286,7 @@ This 10-15 hour investment prevents wrong choices that cost months of productivi
 The best all-in-one tool for your 5-person remote nonprofit is the one your team actually uses consistently. A simpler tool that everyone adopts beats a powerful tool that nobody opens.
 
 
-## Related Articles
+## Related Reading
 
 - [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
 - [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)

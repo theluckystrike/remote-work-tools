@@ -182,7 +182,7 @@ The best handoff is one that's unnecessary because knowledge was captured increm
 Remote teams must be intentional about knowledge sharing. Without hallway conversations, explicit documentation becomes the primary knowledge transfer mechanism.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
 - [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)

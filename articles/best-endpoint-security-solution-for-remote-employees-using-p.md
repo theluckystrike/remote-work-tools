@@ -204,7 +204,7 @@ The best endpoint security solution for remote employees using personal devices 
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [DNS Filtering Setup for Remote Team Endpoint Security Using](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
 - [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)

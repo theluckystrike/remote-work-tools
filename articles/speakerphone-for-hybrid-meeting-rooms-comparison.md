@@ -224,7 +224,7 @@ For most developers and power users setting up hybrid meeting spaces:
 The best speakerphone for your situation depends on room characteristics, participant count, existing infrastructure, and integration requirements. Start with an USB solution sized for your typical meeting, validate audio quality with actual users, and iterate based on feedback.
 
 
-## Related Articles
+## Related Reading
 
 - [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 - [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)

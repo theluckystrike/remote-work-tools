@@ -175,7 +175,7 @@ The goal isn't perfect handoffs. It's reducing context loss enough that your tea
 The patterns here work because they treat handoffs as a system problem rather than an individual discipline problem. When the right information is captured automatically at the right time, your team doesn't need to remember everything. The system remembers.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 - [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)

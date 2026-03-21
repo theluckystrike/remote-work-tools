@@ -267,7 +267,7 @@ jobs:
 A well-built wiki becomes the institutional memory of your team. It survives personnel changes, scales with organization growth, and directly impacts productivity.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
 - [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)

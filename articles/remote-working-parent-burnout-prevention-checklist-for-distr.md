@@ -344,7 +344,7 @@ Many remote parents feel guilty taking time off for childcare. Address this cult
 When you make parental responsibilities normal rather than exceptional, parents stop hiding them and burnout prevention becomes easier.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 - [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)

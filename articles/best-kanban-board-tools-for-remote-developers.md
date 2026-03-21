@@ -196,7 +196,7 @@ Review board analytics during retrospectives. Identify columns where cards consi
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)

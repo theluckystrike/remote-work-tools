@@ -215,7 +215,7 @@ Migration complexity varies. Linear and Jira both offer import tools for Trello 
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
 - [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)

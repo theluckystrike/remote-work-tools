@@ -248,7 +248,7 @@ The key insight: structure enables autonomy. When everyone knows where files liv
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
 - [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)

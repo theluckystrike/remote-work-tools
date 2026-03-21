@@ -355,7 +355,7 @@ After 2 weeks, analyze trends. If you see consistent degradation during peak hou
 Built by
 
 
-## Related Articles
+## Related Reading
 
 - [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
 - [How to Find Coworking Spaces in Medellín Colombia with](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)

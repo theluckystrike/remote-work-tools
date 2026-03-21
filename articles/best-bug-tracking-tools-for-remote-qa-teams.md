@@ -188,7 +188,7 @@ Selecting the right bug tracking tool depends on your team's scale, workflow com
 Consider starting with a two-week trial of your top two candidates. Have your QA team actually use each tool for real bug reporting. The tool that fits naturally into your existing workflow will outperform the one with more features on paper.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)

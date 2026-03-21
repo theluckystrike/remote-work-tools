@@ -60,7 +60,7 @@ A concrete example that shows the concept in action.
 ### Common Mistakes
 What errors do people make? What shouldn't they do?
 
-### Related Articles
+### Related Reading
 Links to prerequisite knowledge or next steps.
 
 ## Style Guidelines
@@ -329,7 +329,7 @@ Push your code and run the script. Make sure to test first.
 ### Real Example
 [Walk through specific deployment]
 
-### Related Articles
+### Related Reading
 - [Troubleshooting Production Errors](link)
 - [Database Migration Guide](link)
 ```
@@ -358,7 +358,7 @@ Set up a simple monthly tracking:
 Review monthly. If search quality is declining, contribution is dropping, or certain people dominate contributions, investigate and adjust.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
 - [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)

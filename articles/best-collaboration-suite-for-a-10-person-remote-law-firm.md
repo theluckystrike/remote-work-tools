@@ -235,7 +235,7 @@ The key is matching tools to actual workflow needs rather than accumulating plat
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
 
 
-## Related Articles
+## Related Reading
 
 - [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 - [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)

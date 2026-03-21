@@ -333,7 +333,7 @@ Open source contributions provide something rare in freelance work: verifiable, 
 - [ ] Set 12-month goal for meaningful contributions
 
 
-## Related Articles
+## Related Reading
 
 - [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
 - [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)

@@ -495,7 +495,7 @@ The key is assigning a responsive buddy, choosing a well-scoped first task, and 
 Document your process, measure what matters, and iterate quarterly based on contractor feedback. Over time, onboarding becomes a competitive advantage that attracts top contractor talent.
 
 
-## Related Articles
+## Related Reading
 
 - [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
 - [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)

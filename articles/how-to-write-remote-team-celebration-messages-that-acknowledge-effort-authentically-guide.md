@@ -374,7 +374,7 @@ By month 2, you'll have established a visible pattern. Team members will start r
 The best recognition systems feel effortless because they're habitual. But they require intentional practice to build.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
 - [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)

@@ -187,7 +187,7 @@ Use this checklist when launching or updating your referral program:
 - [ ] Review and adjust tiers annually
 
 
-## Related Articles
+## Related Reading
 
 - [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
 - [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)

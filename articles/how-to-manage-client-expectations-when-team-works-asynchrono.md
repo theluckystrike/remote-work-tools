@@ -209,7 +209,7 @@ Several tools support async client communication:
 These aren't required, but each reduces a specific friction point in async client relationships. Start with the one that addresses your most common problem. If clients frequently ping you outside hours, start with a status page. If they complain that text updates feel impersonal, start with Loom.
 
 
-## Related Articles
+## Related Reading
 
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)

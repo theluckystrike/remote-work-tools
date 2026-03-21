@@ -334,7 +334,7 @@ Question: Do you need to see each other's faces?
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 - [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)

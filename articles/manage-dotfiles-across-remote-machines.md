@@ -283,7 +283,7 @@ cd $(chezmoi source-path) && git add -A && git commit -m "tmux: add popup keybin
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
 - [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)

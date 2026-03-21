@@ -261,7 +261,7 @@ Track these metrics to evaluate your welcome rituals:
 Review these metrics quarterly and adjust your rituals based on data rather than assumptions.
 
 
-## Related Articles
+## Related Reading
 
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
 - [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)

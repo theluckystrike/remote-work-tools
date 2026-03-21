@@ -284,7 +284,7 @@ Working across massive timezone gaps means being strategic about personal time. 
 This rhythm trades some evening time for uninterrupted deep work mornings—a tradeoff many Southeast Asian remote developers appreciate.
 
 
-## Related Articles
+## Related Reading
 
 - [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
 - [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)

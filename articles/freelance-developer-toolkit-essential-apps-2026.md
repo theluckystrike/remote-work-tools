@@ -246,7 +246,7 @@ Build your toolkit deliberately, maintain your systems consistently, and your pr
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
 - [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)

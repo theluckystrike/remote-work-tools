@@ -303,7 +303,7 @@ Include "review daily logs from your first sprint" in your onboarding checklist.
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 - [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)

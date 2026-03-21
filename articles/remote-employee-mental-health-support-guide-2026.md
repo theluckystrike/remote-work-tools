@@ -194,7 +194,7 @@ By implementing these practical solutions, developers and power users can create
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Return to Office Mental Health Support Resources for](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
 - [How to Monitor Remote Employee Endpoint Health Without](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)

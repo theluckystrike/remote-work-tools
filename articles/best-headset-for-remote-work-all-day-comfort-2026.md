@@ -362,7 +362,7 @@ Year 3: Noticeable issues
 Built by
 
 
-## Related Articles
+## Related Reading
 
 - [Best Headset for Wearing with Glasses All Day Remote Work](/remote-work-tools/best-headset-for-wearing-with-glasses-all-day-remote-work/)
 - [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)

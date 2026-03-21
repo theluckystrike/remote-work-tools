@@ -204,7 +204,7 @@ Document your synthesis workflow in a living document. New team members should u
 Measure your cycle time from feedback receipt to resolution. This reveals whether your async process actually accelerates decision-making.
 
 
-## Related Articles
+## Related Reading
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)

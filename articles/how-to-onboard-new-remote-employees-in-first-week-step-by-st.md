@@ -236,7 +236,7 @@ Day 5:
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
 - [How to Onboard Remote Contractors in 48 Hours: Complete Guide](/remote-work-tools/how-to-onboard-remote-contractors-in-48-hours-guide/)

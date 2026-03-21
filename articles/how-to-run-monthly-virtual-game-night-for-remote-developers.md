@@ -229,7 +229,7 @@ The best game nights are ones that become traditions — things your team mentio
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
 - [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)

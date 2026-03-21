@@ -191,7 +191,7 @@ Track these metrics to gauge reorg communication effectiveness:
 5. Failing to follow up: A reorg announcement without follow-up creates vacuum for rumors
 
 
-## Related Articles
+## Related Reading
 
 - [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
 - [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)

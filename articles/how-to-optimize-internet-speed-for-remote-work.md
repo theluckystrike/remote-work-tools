@@ -213,7 +213,7 @@ Sometimes hardware and software optimization hit their limits. Consider upgradin
 Before upgrading, contact your ISP to test the actual line quality. Often, technicians can identify and fix external issues affecting your connection.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Work Internet Speed Requirements by Task Type: Complete Guide](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
 - [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)

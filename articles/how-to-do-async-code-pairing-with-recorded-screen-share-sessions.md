@@ -265,7 +265,7 @@ Before your first async code pairing session:
 - [ ] Schedule your first async code pairing session
 
 
-## Related Articles
+## Related Reading
 
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 - [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)

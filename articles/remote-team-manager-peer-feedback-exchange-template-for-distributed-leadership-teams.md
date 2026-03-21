@@ -465,7 +465,7 @@ After feedback, structured check-ins keep the commitment alive:
 Monthly accountability prevents great intentions from fading after 3 weeks.
 
 
-## Related Articles
+## Related Reading
 
 - [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
 - [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)

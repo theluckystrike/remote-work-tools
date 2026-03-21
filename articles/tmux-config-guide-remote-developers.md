@@ -286,7 +286,7 @@ setw -g monitor-activity off
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Zellij Terminal Config for Remote Developers](/remote-work-tools/zellij-terminal-config-remote-developers/)
 - [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)

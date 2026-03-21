@@ -195,7 +195,7 @@ Track these metrics to ensure your async review process improves over time:
 GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards.
 
 
-## Related Articles
+## Related Reading
 
 - [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)

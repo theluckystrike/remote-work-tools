@@ -230,7 +230,7 @@ Checklists reduce errors and ensure consistency.
 **Skipping async for everything.** Reserve synchronous discussions for genuinely complex issues—triaging everything in meetings defeats the purpose.
 
 
-## Related Articles
+## Related Reading
 
 - [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)

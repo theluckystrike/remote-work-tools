@@ -304,7 +304,7 @@ Completing these tasks ensures you're legally established and can work comfortab
 Built by
 
 
-## Related Articles
+## Related Reading
 
 - [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 - [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)

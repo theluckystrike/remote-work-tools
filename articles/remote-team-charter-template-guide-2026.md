@@ -321,7 +321,7 @@ Not all charter sections age at the same rate. Focus quarterly reviews on sectio
 Run the quarterly review as a 60-minute async session: post specific questions about each high-priority section in Notion or Confluence, let team members comment asynchronously over two days, then hold a 30-minute synchronous call to resolve disagreements and merge the updated version.
 
 
-## Related Articles
+## Related Reading
 
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)

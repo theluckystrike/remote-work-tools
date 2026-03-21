@@ -182,7 +182,7 @@ Print or save this quick reference:
 - [ ] Regular check-ins with manager about workload and well-being
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
 - [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)

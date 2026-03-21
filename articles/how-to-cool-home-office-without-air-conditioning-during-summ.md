@@ -174,7 +174,7 @@ Track your productivity alongside temperature readings:
 | 31°C+ | Significant impact |
 
 
-## Related Articles
+## Related Reading
 
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
 - [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)

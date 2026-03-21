@@ -390,7 +390,7 @@ If improvements are not demonstrated by [end date]:
 A good PIP shows the employee exactly what success looks like and gives them reasonable time and resources to achieve it.
 
 
-## Related Articles
+## Related Reading
 
 - [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
 - [Zulip vs Slack: A Deep Dive into Threaded Conversation](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)

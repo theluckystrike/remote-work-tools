@@ -228,7 +228,7 @@ spares:
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
 - [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)

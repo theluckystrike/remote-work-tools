@@ -300,7 +300,7 @@ For most remote agencies, starting with Google Groups and upgrading to a dedicat
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
 - [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)

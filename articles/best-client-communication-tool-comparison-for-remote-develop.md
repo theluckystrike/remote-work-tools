@@ -323,7 +323,7 @@ Start with what's free, add complexity only when needed, and always prioritize c
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Connect Notion to Slack Automatic Page Update Notifications](/remote-work-tools/connect-notion-to-slack-automatic-page-update-notifications-/)
 - [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)

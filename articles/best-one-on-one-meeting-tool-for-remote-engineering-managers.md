@@ -183,7 +183,7 @@ The tool matters less than the consistency of your practice. The best one on one
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)

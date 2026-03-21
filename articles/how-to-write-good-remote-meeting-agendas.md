@@ -424,7 +424,7 @@ If you check "no" on "meeting is necessary" — cancel and send the info async i
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [How to Use AI Tools to Generate Remote Team Meeting.](/remote-work-tools/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
 - [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)

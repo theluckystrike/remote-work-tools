@@ -322,7 +322,7 @@ The accuracy improvements matter most for code—fewer typos means fewer debuggi
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
 - [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)

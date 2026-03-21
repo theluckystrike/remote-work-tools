@@ -247,7 +247,7 @@ DNS filtering forms a foundational security layer, but works best combined with 
 Your remote team's security posture improves immediately upon deploying DNS filtering. The protection travels with employees wherever they work, eliminating the gap between office and remote network security.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
 - [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)

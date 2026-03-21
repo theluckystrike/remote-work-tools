@@ -410,7 +410,7 @@ A: After every deployment. Monthly automated audits catch drift. Whenever adding
 A: X-XSS-Protection is legacy (for old browsers). CSP is modern. Use CSP for new applications.
 
 
-## Related Articles
+## Related Reading
 
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
 - [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)

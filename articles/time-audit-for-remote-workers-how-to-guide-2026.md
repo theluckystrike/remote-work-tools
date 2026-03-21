@@ -273,7 +273,7 @@ an one-time audit provides a snapshot. Building sustainable productivity require
 The best time audit isn't the initial data collection—it's the sustained practice of reviewing how you spend time and iterating toward better allocation.
 
 
-## Related Articles
+## Related Reading
 
 - [Response Time Expectations for Remote Workers: A](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
 - [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)

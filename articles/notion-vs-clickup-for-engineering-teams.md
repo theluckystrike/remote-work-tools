@@ -489,7 +489,7 @@ The right choice depends on where your team experiences the most friction. Neith
 - [ ] Run sprint planning template on first sprint
 
 
-## Related Articles
+## Related Reading
 
 - [Notion vs ClickUp for a Remote Startup Under 10 Employees](/remote-work-tools/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
 - [ClickUp Automations for Developer Workflows: A Practical](/remote-work-tools/clickup-automations-for-developer-workflows/)

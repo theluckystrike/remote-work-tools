@@ -215,7 +215,7 @@ _______________________ ____________
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
 - [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)

@@ -190,7 +190,7 @@ Track these metrics to understand if your sourcing strategy works:
 4. **Set and forget** — Diversity sourcing requires ongoing investment, not one-time campaigns
 
 
-## Related Articles
+## Related Reading
 
 - [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
 - [Async Team Building Activities for Distributed Teams Across](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)

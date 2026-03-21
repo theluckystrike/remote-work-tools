@@ -262,7 +262,7 @@ Building employer brand takes time. Prioritize actions by impact:
 - Track cNPS and iterate on interview process
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
 - [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)

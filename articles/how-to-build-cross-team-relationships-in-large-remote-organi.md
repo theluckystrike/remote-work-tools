@@ -319,7 +319,7 @@ Sometimes teams develop adversarial relationships—especially over shared syste
 Often the issue is structural rather than interpersonal. Teams competing for on-call burden or infrastructure resources naturally develop friction. Reorganize the system so teams share the burden fairly.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
 - [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)

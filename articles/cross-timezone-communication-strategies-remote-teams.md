@@ -263,7 +263,7 @@ Apply these strategies with minimal disruption:
 Cross timezone communication works when you design for it explicitly. The strategies above scale from small teams to organizations with dozens of distributed engineers.
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
 - [Best Notification Batching Strategies for Async-First](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)

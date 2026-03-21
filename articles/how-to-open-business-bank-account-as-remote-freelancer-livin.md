@@ -338,7 +338,7 @@ Don't over-complicate this initially. Sole trader is correct for 95% of freelanc
 Having all these prepared means your appointment takes 20 minutes instead of being rescheduled for missing documents.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Set Up Thai Bank Account as Digital Nomad Working](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
 - [Best Business Bank Accounts for Freelancers 2026: A](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)

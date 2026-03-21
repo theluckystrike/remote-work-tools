@@ -351,7 +351,7 @@ Most developers find that 2-3 targeted changes eliminate 70-80% of eye strain. C
 Track what works for you and iterate.
 
 
-## Related Articles
+## Related Reading
 
 - [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
 - [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)

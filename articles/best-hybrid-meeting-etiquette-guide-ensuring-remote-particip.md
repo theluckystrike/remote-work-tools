@@ -217,7 +217,7 @@ HAVING remote_count > 0;
 If remote participation (measured by messages sent, questions asked, or action items assigned) drops below 30% of total participation, your meetings are likely excluding remote team members.
 
 
-## Related Articles
+## Related Reading
 
 - [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
 - [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)

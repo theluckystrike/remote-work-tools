@@ -314,7 +314,7 @@ Start preparing at least 3-4 months before your audit date:
 4. Final month: Address findings, prepare evidence room
 
 
-## Related Articles
+## Related Reading
 
 - [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 - [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)

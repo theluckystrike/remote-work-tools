@@ -254,7 +254,7 @@ Your intake system should support multilingual rendering of consent text. Store 
 Encrypt intake data locally before queueing it for transmission, using the clinic's provisioned encryption key. When connectivity restores, transmit over TLS with mutual certificate authentication. Never store unencrypted PHI in the device's local storage, even temporarily. If the device is lost or stolen before sync completes, the encrypted queue is unreadable without the server-side decryption key.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
 - [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)

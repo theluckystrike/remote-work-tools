@@ -265,7 +265,7 @@ For remote teams specifically, hardware keys eliminate the risk of SMS intercept
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 - [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)

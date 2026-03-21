@@ -387,7 +387,7 @@ A stale handbook is worse than no handbook. Assign ownership:
 A good handbook takes 4 weeks and pays dividends for years.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Remote Team Operations Handbook From Scratch](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
 - [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)

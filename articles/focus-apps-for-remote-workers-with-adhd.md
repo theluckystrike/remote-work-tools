@@ -201,7 +201,7 @@ The best focus app configuration is the one you'll actually use. For ADHD minds,
 Start with one tool that addresses your biggest pain point. Master it before adding more. Focus apps work best when they become invisible infrastructure, not another thing to manage.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
 - [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)

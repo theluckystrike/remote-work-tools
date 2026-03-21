@@ -208,7 +208,7 @@ Several factors require extra attention when joining remote teams:
 Following this framework helps you transition from newcomer to effective contributor more quickly than ad-hoc approaches. The structured approach to relationship building, context gathering, and progressive contribution sets you up for long-term success in distributed teams.
 
 
-## Related Articles
+## Related Reading
 
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
 - [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)

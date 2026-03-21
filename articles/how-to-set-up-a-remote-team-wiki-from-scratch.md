@@ -580,7 +580,7 @@ A wiki works better when connected to other tools.
 - Deployment tickets link to deployment guide
 
 
-## Related Articles
+## Related Reading
 
 - [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
 - [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)

@@ -557,7 +557,7 @@ PagerDuty Integration:
 This closes the loop between detection, response, and continuous improvement.
 
 
-## Related Articles
+## Related Reading
 
 - [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
 - [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)

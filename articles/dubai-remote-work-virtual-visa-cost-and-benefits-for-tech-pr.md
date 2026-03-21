@@ -373,7 +373,7 @@ Remote work in Dubai has unique rhythm:
 - [Remote Work Tools Hub](/guides-hub/)
 
 
-## Related Articles
+## Related Reading
 
 - [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
 - [How to Negotiate Remote Work Salary When Relocating Lower](/remote-work-tools/how-to-negotiate-remote-work-salary-when-relocating-lower-cost-area/)

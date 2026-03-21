@@ -249,7 +249,7 @@ Consider starting with one tool and expanding as your agency grows. Most platfor
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 - [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)

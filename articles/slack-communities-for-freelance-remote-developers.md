@@ -195,7 +195,7 @@ New community members often undermine their own experience:
 - Ignoring channel purposes: Post in appropriate channels. Job questions belong in #jobs, not #random.
 
 
-## Related Articles
+## Related Reading
 
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 - [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)

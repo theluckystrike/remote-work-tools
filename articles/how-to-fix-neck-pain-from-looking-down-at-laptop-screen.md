@@ -299,7 +299,7 @@ A physical therapist will:
 Most insurance covers physical therapy ($20-50 copay per session). Often 6-8 sessions is sufficient.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
 - [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)

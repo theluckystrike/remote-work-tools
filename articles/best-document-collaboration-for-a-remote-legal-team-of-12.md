@@ -279,7 +279,7 @@ The best document collaboration system for your remote legal team of 12 is one y
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Remote Legal Team Document Collaboration Tool for](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 - [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)

@@ -184,7 +184,7 @@ Have backup locations identified: your accommodation, a quieter coworking space,
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)

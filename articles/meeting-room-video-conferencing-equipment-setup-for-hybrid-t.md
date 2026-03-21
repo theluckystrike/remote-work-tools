@@ -243,7 +243,7 @@ if __name__ == "__main__":
 ```
 
 
-## Related Articles
+## Related Reading
 
 - [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 - [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)

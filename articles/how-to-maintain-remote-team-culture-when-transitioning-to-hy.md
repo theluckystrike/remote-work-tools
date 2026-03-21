@@ -404,7 +404,7 @@ Most teams report that their first month of hybrid is chaotic, the second month 
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [Best Practice for Preserving Remote Team Culture When](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubli/)
 - [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)

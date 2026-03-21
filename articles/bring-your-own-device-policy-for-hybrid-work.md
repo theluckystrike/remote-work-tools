@@ -230,7 +230,7 @@ Track key metrics:
 - User satisfaction scores for BYOD experience
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)

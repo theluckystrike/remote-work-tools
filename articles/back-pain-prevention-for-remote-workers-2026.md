@@ -198,7 +198,7 @@ Small consistent improvements beat dramatic overhauls that you abandon after a w
 ---
 
 
-## Related Articles
+## Related Reading
 
 - [How to Prevent Back Pain from Couch Working as a Remote](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
 - [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)

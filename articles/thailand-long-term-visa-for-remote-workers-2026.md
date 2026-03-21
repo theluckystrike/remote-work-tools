@@ -173,7 +173,7 @@ While Thailand remains excellent for remote workers, consider these factors befo
 - Climate: Hot and humid year-round—most comfortable November-February
 
 
-## Related Articles
+## Related Reading
 
 - [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
 - [Best VPN for Remote Workers in Thailand Avoiding Geo](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)

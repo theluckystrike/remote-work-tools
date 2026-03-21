@@ -286,7 +286,7 @@ Documentation is worthless if engineers don't know it exists. Establish clear co
 Engineers should be able to reference the career ladder without asking managers for details. Transparency around progression criteria builds trust and reduces perceived favoritism.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 - [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)

@@ -234,7 +234,7 @@ For maximum automation, connect your onboarding platform to a central orchestrat
 4. Analytics layer monitors: Track time-to-productivity, completion rates, bottlenecks
 
 
-## Related Articles
+## Related Reading
 
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 - [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
