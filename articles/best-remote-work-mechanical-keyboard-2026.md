@@ -7,7 +7,7 @@ last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-remote-work-mechanical-keyboard-2026/
 categories: [guides]
-tags: [remote-work-tools, hardware, keyboards, best-of]
+tags: [remote-work-tools, hardware, keyboards, best-of, remote-work]
 reviewed: true
 score: 8
 voice-checked: true

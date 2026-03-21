@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /best-screen-recording-tool-for-remote-client-bug-report-walkthrough/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]

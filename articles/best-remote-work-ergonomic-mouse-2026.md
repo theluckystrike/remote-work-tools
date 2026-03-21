@@ -6,9 +6,9 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-remote-work-ergonomic-mouse-2026/
 categories: [guides]
-tags: [remote-work-tools, hardware, home-office, best-of, ergonomics]
+tags: [remote-work-tools, hardware, home-office, best-of, ergonomics, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

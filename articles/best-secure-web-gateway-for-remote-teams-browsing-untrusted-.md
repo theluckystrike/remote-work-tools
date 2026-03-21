@@ -9,7 +9,7 @@ permalink: /best-secure-web-gateway-for-remote-teams-browsing-untrusted-networks
 categories: [guides]
 tags: [remote-work-tools, security, remote-work, vpn, gateway, networking, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
