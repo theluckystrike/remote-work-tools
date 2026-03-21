@@ -1,9 +1,10 @@
 ---
+
 layout: default
 title: "Remote Team Password Sharing Best Practices Without Using Shared Spreadsheets"
 description: "Learn secure password sharing methods for remote teams. Explore team password managers, secret management tools, and developer-focused approaches that replace spreadsheets with proper encryption and access controls."
 date: 2026-03-20
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-team-password-sharing-best-practices-without-using-sh/
 categories: [guides]
 tags: [remote-work-tools, password-security, team-passwords, secret-management, developer-tools, remote-teams, best-of, remote-work]
@@ -12,6 +13,7 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
+
 
 {% raw %}
 # Remote Team Password Sharing Best Practices Without Using Shared Spreadsheets
