@@ -7,7 +7,7 @@ date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /switching-from-zoom-to-around-for-lightweight-remote-team-vi/
 categories: [guides]
-tags: [remote-work-tools, video-conferencing, zoom, around, team-collaboration, developer-tools, lightweight-meetings]
+tags: [remote-work-tools, video-conferencing, zoom, around, team-collaboration, developer-tools, lightweight-meetings, remote-work]
 reviewed: true
 score: 8
 intent-checked: false

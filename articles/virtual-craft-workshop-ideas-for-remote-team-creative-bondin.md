@@ -9,7 +9,7 @@ permalink: /virtual-craft-workshop-ideas-for-remote-team-creative-bondin/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, virtual-events, creative-bonding]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

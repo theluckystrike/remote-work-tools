@@ -9,7 +9,7 @@ permalink: /video-conferencing-setup-for-a-remote-team-of-3-cofounders/
 categories: [guides]
 tags: [remote-work-tools, tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
