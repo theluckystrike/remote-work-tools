@@ -23,6 +23,8 @@ Command-line tools offer several advantages for remote agency work. They version
 
 The primary benefit is reproducibility. When a timeline lives as code, you can regenerate it, branch it for different scenarios, and track changes through standard version control. This transparency builds trust with agency clients who want visibility into project milestones without accessing your internal tools.
 
+A secondary benefit is automation. A timeline defined as structured data — CSV, YAML, or Markdown — can feed into automated status reports, Slack notifications, or email digests without manual reformatting. The timeline becomes a single source of truth that drives communication rather than a document that needs to stay in sync with other documents.
+
 ## Method 1: Using Taskwarrior with Export
 
 Taskwarrior is a mature command-line task manager that supports detailed task attributes including due dates, dependencies, and tags. You can create a project timeline by defining tasks with appropriate start and due dates, then export them for client-facing reports.
@@ -59,6 +61,14 @@ task project:"Website Redesign" export --format ical > timeline.ics
 ```
 
 The ICS file imports directly into Google Calendar, Outlook, or Apple Calendar, giving clients a viewable timeline without requiring access to your task management system.
+
+For a text-based summary you can paste into an email or Slack message, use the built-in report command:
+
+```bash
+task project:"Website Redesign" +client-facing list
+```
+
+This outputs a clean table of tasks with due dates that reads naturally in any plain-text context.
 
 ## Method 2: Markdown + Mermaid Diagrams
 
@@ -98,6 +108,8 @@ gantt
 ```
 
 The `crit` keyword marks critical path items, while `milestone` highlights key deliverables. Clients see a visual representation that updates automatically when you modify the underlying text.
+
+Mermaid diagrams render natively in GitHub, GitLab, and Notion. If your client has access to a shared GitHub repository or Notion space, this approach requires zero additional tooling on their end — they just open the document and see the chart.
 
 ## Method 3: CSV Export from Spreadsheets
 
@@ -152,6 +164,60 @@ if __name__ == '__main__':
 
 This produces a clean HTML table you can embed in client portals or send as an attachment.
 
+## Handling Scope Changes and Timeline Updates
+
+Timelines are living documents. When scope changes, you need to update the timeline, communicate the change clearly, and preserve the history of what changed and why. CLI-based timelines make this straightforward.
+
+For CSV or Markdown timelines, commit every change to Git with a descriptive message:
+
+```bash
+git commit -m "Update timeline: extend design phase by 5 days for additional feedback round"
+```
+
+This creates a searchable audit trail. Clients can see exactly when the timeline changed and why, which builds trust and prevents disputes about when scope was extended.
+
+For significant changes, generate a diff summary that makes the impact immediately clear:
+
+```bash
+git diff HEAD~1 timeline.csv | grep '^[+-]' | grep -v '^---\|^+++'
+```
+
+This output shows exactly which rows changed. Paste it into a client Slack message or email alongside a brief explanation of the business reason for the change.
+
+## Automating Weekly Status Reports
+
+The real productivity gain from CLI-based timelines is automation. Instead of manually compiling a weekly status update, generate it from your timeline data.
+
+A simple shell script can produce a weekly report ready to send:
+
+```bash
+#!/bin/bash
+# weekly-report.sh
+
+echo "# Weekly Project Status - $(date +%Y-%m-%d)"
+echo ""
+echo "## Completed This Week"
+task project:"Website Redesign" status:completed end.after:1week ago list
+
+echo ""
+echo "## Due Next Week"
+task project:"Website Redesign" due.before:+7days list
+
+echo ""
+echo "## Upcoming Milestones"
+task project:"Website Redesign" +milestone list
+```
+
+Schedule this to run Friday afternoons and pipe the output to a Markdown file, then commit it to the shared repository. Clients receive consistent, formatted updates without anyone spending time on manual compilation.
+
+## Choosing the Right Method for Your Client
+
+Different clients need different formats. A technical client who works in GitHub daily will appreciate Mermaid diagrams in a shared repository. A non-technical business stakeholder needs a calendar invite or a clean HTML table they can view in a browser.
+
+Assess client preferences during project kickoff by asking: "What format would make it easiest for you to track our progress?" Most clients fall into one of three categories: calendar-based (use ICS export), document-based (use Markdown or HTML), or spreadsheet-based (use CSV).
+
+For agencies managing multiple clients simultaneously, maintain one canonical timeline format internally (CSV or Taskwarrior) and automate exports to client-specific formats. This single-source-of-truth approach prevents the common problem of timelines drifting out of sync across formats.
+
 ## Best Practices for Shared Timelines
 
 Keep timelines current by updating them during weekly sync meetings. Link your timeline files in your project management tool so changes propagate to team awareness. For agency clients, provide read-only access to a shared document rather than sending static files that quickly become outdated.
@@ -163,6 +229,10 @@ git commit -m "Update timeline: extend design phase for client feedback"
 ```
 
 This creates an audit trail of project evolution that helps both parties understand scope changes.
+
+Set a calendar reminder to review the timeline every Monday. A timeline that hasn't been touched in two weeks is probably stale. Stale timelines erode client trust faster than delayed milestones — the delay is understandable, but discovering it without notice is not.
+
+{% endraw %}
 
 ## Related Reading
 
