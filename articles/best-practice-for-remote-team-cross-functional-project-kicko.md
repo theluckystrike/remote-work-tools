@@ -9,7 +9,7 @@ permalink: /best-practice-for-remote-team-cross-functional-project-kicko/
 categories: [guides]
 tags: [remote-work-tools, remote-work, project-management, kickoff-meeting, cross-functional-teams, meeting-agenda, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

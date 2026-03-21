@@ -9,7 +9,7 @@ permalink: /best-practice-for-remote-team-decision-making-framework-that/
 categories: [guides]
 tags: [remote-work-tools, remote-work, decision-making, async-communication, team-processes, scaling-teams, engineering-management, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
