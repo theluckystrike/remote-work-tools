@@ -9,7 +9,7 @@ permalink: /wrist-exercises-for-programmers-prevent-rsi/
 categories: [guides]
 tags: [remote-work-tools, health, productivity, developer tools, ergonomics, rsi prevention]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

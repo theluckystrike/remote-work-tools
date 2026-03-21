@@ -9,7 +9,7 @@ permalink: /video-walkthrough-tools-for-presenting-code-changes-to-non-t/
 categories: [guides]
 tags: [remote-work-tools, video-tools, client-communication, code-presentation, developer-tools, screen-recording]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

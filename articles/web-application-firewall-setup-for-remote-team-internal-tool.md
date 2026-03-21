@@ -9,7 +9,7 @@ permalink: /web-application-firewall-setup-for-remote-team-internal-tool/
 categories: [guides]
 tags: [remote-work-tools, waf, security, remote-work, internal-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

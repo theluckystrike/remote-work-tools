@@ -9,7 +9,7 @@ permalink: /virtual-escape-room-platforms-for-remote-engineering-team-ev/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, virtual-events]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
