@@ -65,6 +65,10 @@ ledger bal Income -p "2026"
 ledger reg Expenses -p "2026" --monthly
 ```
 
+One of Ledger's underappreciated strengths is its scriptability. You can pipe output into other Unix tools, write shell scripts that alert you when a client invoice is overdue, or generate custom reports as part of a cron job. For a freelancer earning from multiple clients in different currencies, that kind of composability matters.
+
+**Pro tip:** Keep your ledger file in a private Git repository. This gives you a full audit trail of every financial change, which is invaluable if you ever face a tax audit or dispute with a client.
+
 ### 2. Plain Text Accounting with Fava + Beancount
 
 Beancount provides double-entry bookkeeping with Python under the hood, while Fava offers a web-based interface for viewing your finances.
@@ -81,6 +85,8 @@ Beancount provides double-entry bookkeeping with Python under the hood, while Fa
 ```
 
 The text-based approach means your financial data lives in version control, and you can write scripts to analyze anything about your finances.
+
+Beancount's Python API makes it especially attractive for developers. You can write plugins that enforce accounting rules, generate custom tax summaries, or sync transactions from a bank CSV export automatically. Fava's web dashboard makes the data accessible to non-technical partners or accountants who need read-only access.
 
 ## Full-Featured Solutions with Developer Focus
 
@@ -113,6 +119,10 @@ def create_invoice(client_email, items):
     return response.json()
 ```
 
+**Real-world scenario:** A freelance developer billing 15+ clients per month can script invoice generation from a time-tracking CSV, eliminating 2-3 hours of monthly manual work. Freshbooks's API is well-documented and stable, making this kind of automation straightforward to maintain.
+
+**Common mistake:** Many freelancers use Freshbooks's built-in time tracker without connecting it to their project management tool. Sync Freshbooks with your task manager (Linear, Jira, or Todoist) via Zapier or a custom webhook so billable hours are captured automatically without double-entry.
+
 ### 4. QuickBooks Online
 
 QuickBooks Online provides accounting with excellent tax preparation features. The platform offers extensive API coverage and integrates with most payment processors.
@@ -125,6 +135,10 @@ QuickBooks Online provides accounting with excellent tax preparation features. T
 
 The downside is complexity—QuickBooks can feel overkill for solo freelancers, and the desktop-like interface feels dated compared to newer tools.
 
+**When QuickBooks makes sense:** If you work with a US-based accountant who prepares your taxes, QuickBooks is often their preferred platform. Having your books already in QuickBooks Online can save you hundreds of dollars in accountant time each year because they won't need to reformat your data.
+
+**Cost consideration:** QuickBooks Self-Employed ($15/month) is designed for freelancers and handles quarterly estimated taxes well. The full QuickBooks Online Simple Start ($30/month) is overkill for most solo developers but worth considering if you invoice in multiple currencies or need detailed project profitability reports.
+
 ### 5. Wave
 
 Wave offers a genuinely free tier for freelancers, making it attractive for those just starting. It includes invoicing, accounting, and receipt scanning without charging for basic features.
@@ -135,6 +149,8 @@ Wave offers a genuinely free tier for freelancers, making it attractive for thos
 - Basic expense tracking
 
 The limitations appear as your business grows—advanced features require paid plans, and API access is more limited than competitors.
+
+**Practical tip:** Wave is an excellent starting point for freelancers earning under $50,000 annually. Once your income grows or your client list expands beyond 10-15 active clients, migrate to Freshbooks or a plain-text solution before Wave's limitations cause pain. Migrating financial data mid-year is significantly harder than migrating at year-end.
 
 ## Automation Approaches for Power Users
 
@@ -160,6 +176,8 @@ def categorize_transaction(description):
     return 'Expenses:Miscellaneous'
 ```
 
+This approach works well for recurring SaaS subscriptions, but edge cases accumulate. Schedule 15 minutes at the end of each month to review uncategorized transactions—catching them monthly is far easier than reconciling a year's worth at tax time.
+
 ### Invoice Automation from Project Management
 
 Link your project tracking to invoicing:
@@ -181,6 +199,25 @@ def create_invoice_from_timelog(timelog_file):
     return post_to_accounting(invoice)
 ```
 
+### Quarterly Tax Estimation
+
+One of the biggest financial mistakes freelancers make is underestimating quarterly taxes. Automate a simple savings calculation:
+
+```python
+# Rough quarterly tax estimator for US freelancers
+def estimate_quarterly_tax(gross_income_ytd, prior_year_tax):
+    # Self-employment tax is 15.3% on net earnings
+    se_tax = gross_income_ytd * 0.9235 * 0.153
+    # Add estimated income tax (rough 22% federal bracket example)
+    income_tax = gross_income_ytd * 0.22
+    total_estimated = se_tax + income_tax
+    # Quarterly payment
+    quarterly = total_estimated / 4
+    return round(quarterly, 2)
+```
+
+Set a rule in your accounting tool to automatically move 30-35% of every incoming payment to a dedicated tax savings account. This single habit prevents the year-end tax panic that derails many freelance careers.
+
 ## Making Your Choice
 
 Consider these factors when selecting accounting software:
@@ -196,6 +233,14 @@ Consider these factors when selecting accounting software:
 For developers who value data ownership and don't mind investing time upfront, Ledger or Beancount provide the most flexibility. For those preferring faster setup and built-in tax features, Freshbooks or QuickBooks deliver immediate value without requiring accounting expertise.
 
 Whatever you choose, ensure your financial data remains portable. Regular exports to CSV or JSON mean you're never locked into a single platform.
+
+## Common Mistakes to Avoid
+
+**Mixing personal and business finances.** Open a dedicated business checking account before you land your first client. Commingling funds makes expense tracking unreliable and raises red flags if you're ever audited.
+
+**Skipping the monthly reconciliation.** Every accounting tool supports bank reconciliation. Running it monthly catches data entry errors, duplicate expenses, and unauthorized charges before they compound.
+
+**Ignoring accounts receivable aging.** Most freelancers focus on sending invoices but ignore following up on unpaid ones. Configure automatic payment reminders at 7, 14, and 30 days past due. Freshbooks and QuickBooks both support this natively; for Ledger users, a simple cron script checking invoice dates handles it equally well.
 
 ---
 
