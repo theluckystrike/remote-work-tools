@@ -180,6 +180,4 @@ Many developers use:
 - [Japan Digital Nomad Visa Requirements for Remote.](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
 - [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

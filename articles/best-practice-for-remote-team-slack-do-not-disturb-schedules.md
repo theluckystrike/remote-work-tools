@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Team Slack Do Not Disturb"
-description: "Remote teams spanning multiple time zones face an unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND)"
+description: "Remote teams spanning multiple time zones face a unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND)"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-slack-do-not-disturb-schedules/
@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Best Practice for Remote Team Slack Do Not Disturb Schedules Respecting Time Zones
 
-Remote teams spanning multiple time zones face an unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND) feature, when configured thoughtfully, becomes a powerful tool for respecting personal boundaries while maintaining asynchronous collaboration. This guide covers practical strategies for implementing DND schedules that work across time zones.
+Remote teams spanning multiple time zones face a unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND) feature, when configured thoughtfully, becomes a powerful tool for respecting personal boundaries while maintaining asynchronous collaboration. This guide covers practical strategies for implementing DND schedules that work across time zones.
 
 ## Understanding Slack DND for Remote Teams
 
@@ -304,8 +304,6 @@ Share results quarterly with the team. If people report not respecting DND, revi
 - [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
 - [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -209,7 +209,5 @@ If engineers report that meetings interrupt their work, reduce the cadence. If t
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
 - [Best Practice for Remote Team Meeting Structure That.](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

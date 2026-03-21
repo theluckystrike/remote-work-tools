@@ -229,7 +229,5 @@ Challenge: Family member internet usage impacting performance
 - [How to Set Up Remote Pharmacy Consultation Service with.](/remote-work-tools/how-to-set-up-remote-pharmacy-consultation-service-with-video-conferencing-tools/)
 - [How to Set Up Home Office in Bali Rental Apartment with Reliable Power](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

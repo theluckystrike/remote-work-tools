@@ -220,7 +220,5 @@ Customize the template above for your specific needs and have it signed before b
 - [Essential Contract Clauses Every Freelance Developer.](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
 - [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

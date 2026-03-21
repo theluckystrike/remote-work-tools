@@ -163,9 +163,9 @@ Message thread: Replies are threaded, keeping channel organized
 
 - **Free**: Up to 5 team members, unlimited standups
 - **Pro**: $5 per active team member per month
-  - 10 people: $50/month
-  - 25 people: $125/month
-  - 50 people: $250/month
+ - 10 people: $50/month
+ - 25 people: $125/month
+ - 50 people: $250/month
 
 ---
 
@@ -296,10 +296,10 @@ For teams without budget for third-party tools, Slack's native Workflow Builder 
 1. Go to Workspace Settings → Workflow Builder
 2. Create new workflow triggered by time (daily at 9 AM)
 3. Add steps:
-   - Post message to channel (reminder text)
-   - Send DM to @channel (standup questions)
-   - Collect responses using forms
-   - Post summary to #daily-standup channel
+ - Post message to channel (reminder text)
+ - Send DM to @channel (standup questions)
+ - Collect responses using forms
+ - Post summary to #daily-standup channel
 
 #### Example Workflow
 
@@ -519,19 +519,19 @@ Switch to fixed time (e.g., 8 AM UTC) and document why.
 **Solutions**:
 
 1. **Per-user local time** (Geekbot, Standuply) — Each person submits at their 9 AM
-   - Pros: Everyone happy, no early mornings
-   - Cons: Standup doesn't consolidate immediately
+ - Pros: Everyone happy, no early mornings
+ - Cons: Standup doesn't consolidate immediately
 
 2. **Fixed UTC time** — Everyone submits at agreed time (e.g., 8 AM UTC)
-   - Pros: All responses in one thread, immediate context
-   - Cons: Early morning or evening for someone
+ - Pros: All responses in one thread, immediate context
+ - Cons: Early morning or evening for someone
 
 3. **Hybrid approach** — Two standup windows
-   - Asia window (morning): 8 AM SGT
-   - Americas window (morning): 8 AM PT
-   - Both post to same #daily-standup channel
-   - Everyone reads both channels
-   - Slightly more overhead but fairest
+ - Asia window (morning): 8 AM SGT
+ - Americas window (morning): 8 AM PT
+ - Both post to same #daily-standup channel
+ - Everyone reads both channels
+ - Slightly more overhead but fairest
 
 **Recommendation:** Start with per-user local time (Geekbot default). If team size grows, transition to fixed UTC time when critical mass is in 2–3 regions.
 
@@ -585,7 +585,7 @@ Standup Guidelines (post in #daily-standup channel):
 ✓ Everyone's work is valued regardless of task count
 ```
 
-Make it explicit: standups are for coordination, not management leverage.
+Make it explicit: standups are for coordination, not management use.
 
 ---
 
@@ -614,30 +614,9 @@ This creates accountability link: standup items map to closed issues and merged 
 
 ---
 
-## Conclusion: When to Use Async Standups
-
-**Use async standups if:**
-- Team spans 2+ time zones
-- Team size is 5–100+ people
-- You want written records for retrospectives/reviews
-- You want to reduce meeting fatigue
-- You care about blocker visibility
-
-**When sync standups still make sense:**
-- Team is colocated (office-based)
-- Synchronous relationship-building is priority
-- Team size <5 people (super informal)
-- Daily face-to-face is cultural requirement
-
-For **distributed teams**, async standups are strictly better—they save time, create records, and surface blockers earlier. The key is choosing the right tool (Geekbot for <20 people, Standuply for analytics, Range for advanced team dynamics) and sticking to a tight template that forces conciseness.
-
-Start with Geekbot's free tier this week. You'll recoup 2+ hours per week within a month, and get written records you'll reference for months.
-
-{% endraw %}
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

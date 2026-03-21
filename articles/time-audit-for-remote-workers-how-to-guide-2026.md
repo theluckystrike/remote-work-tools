@@ -66,7 +66,7 @@ rat report --today
 
 Before collecting data, clarify what you're measuring. Time spent in VS Code isn't equivalent to productive coding time—you might be reading documentation, waiting for builds, or reviewing code. Same with Slack: some conversations drive decisions; others are pure noise.
 
-A useful time audit measures outcome categories, not just application usage:
+an useful time audit measures outcome categories, not just application usage:
 
 - **Deep work producing output**: Code shipped, features completed, design work finished
 - **Necessary communication**: Discussions that move projects forward, decisions made, information shared
@@ -255,7 +255,7 @@ This format helps you track whether changes actually stick and produce results.
 
 ## From Audit to System: Building Sustainable Time Management
 
-A one-time audit provides a snapshot. Building sustainable productivity requires systems:
+an one-time audit provides a snapshot. Building sustainable productivity requires systems:
 
 **Protect deep work time ruthlessly**: Calendar blocking for focus time is essential, not optional. Treat these blocks as unmovable commitments. Use "do not disturb" signals in your communication tools.
 

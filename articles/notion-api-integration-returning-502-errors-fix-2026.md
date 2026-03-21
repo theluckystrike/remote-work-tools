@@ -126,7 +126,7 @@ Automated workflows that sync data between Notion and other tools can overwhelm 
 
 To minimize future 502 errors:
 
-- Implement comprehensive logging that captures request details, response codes, and timing
+- Implement logging that captures request details, response codes, and timing
 - Set up monitoring alerts for API error rates
 - Create a runbook that team members can follow when errors occur
 - Maintain a test environment to validate integration changes before production deployment
@@ -244,7 +244,7 @@ When standard troubleshooting doesn't reveal the cause, advanced techniques dig 
 
 ### Logging Request/Response Details
 
-Comprehensive logging captures the information needed to diagnose complex issues:
+ logging captures the information needed to diagnose complex issues:
 
 ```python
 import json
@@ -302,13 +302,6 @@ def analyze_notion_errors(log_file):
 ```
 
 This analysis often reveals that 502 errors spike at specific times (when other automations run) or with specific request types (large bulk operations).
-
-## Conclusion
-
-502 errors in Notion API integrations are solvable with systematic debugging. Remote teams should establish clear troubleshooting procedures and implement proper rate limiting to minimize disruption. Regular maintenance of your integration, including updates and monitoring, prevents most issues before they impact team productivity.
-
-The combination of defensive programming (exponential backoff), comprehensive monitoring, and architectural simplification handles the vast majority of 502 error scenarios. When errors do occur, detailed logging enables rapid diagnosis and remediation.
-
 
 ## Related Reading
 

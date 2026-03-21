@@ -191,7 +191,5 @@ The best remote organizations build multiple redundant paths for feedback. Skip 
 - [How to Run Effective Skip Level Meetings with Remote.](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
 - [Remote Team Conflict Resolution Framework for Managers.](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

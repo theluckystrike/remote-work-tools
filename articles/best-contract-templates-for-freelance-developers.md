@@ -210,7 +210,5 @@ A good contract builds trust. When both parties understand expectations clearly,
 - [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
 - [Essential Contract Clauses Every Freelance Developer.](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

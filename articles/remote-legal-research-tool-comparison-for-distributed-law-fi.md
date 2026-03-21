@@ -196,24 +196,12 @@ For firms with strict data sovereignty requirements, some vendors now offer on-p
 
 Distributed firms handling international matters should evaluate cross-border research capabilities. Tools like Global Legal Information Network and specialized international databases may supplement primary US-focused platforms.
 
-## Selection Criteria Summary
-
-| Criteria | Casetext | Westlaw Edge | LexisNexis |
-|----------|----------|--------------|------------|
-| API Quality | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
-| Database Size | ★★★☆☆ | ★★★★★ | ★★★★★ |
-| AI Features | ★★★★☆ | ★★★★☆ | ★★★★☆ |
-| Pricing | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ |
-| Developer Docs | ★★★★★ | ★★★☆☆ | ★★☆☆☆ |
-
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
 - [Remote Legal Billing Software Comparison for Distributed.](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
 - [Remote Team Penetration Testing Coordination Guide for.](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
 - [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

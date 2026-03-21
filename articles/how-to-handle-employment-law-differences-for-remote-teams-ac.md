@@ -236,7 +236,5 @@ Set a calendar reminder for quarterly compliance checks:
 - [How to Handle Overtime Pay Compliance for Remote Workers.](/remote-work-tools/how-to-handle-overtime-pay-compliance-for-remote-workers-acr/)
 - [Best Compliance Tool for Managing Remote Employees.](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

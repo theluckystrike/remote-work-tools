@@ -223,6 +223,4 @@ The goal is creating reliable independent play infrastructure that supports your
 - [Best Quick Exercise Routine for Remote Parents With Only.](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
 - [Best Quick Healthy Snack Prep Ideas for Remote Working.](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

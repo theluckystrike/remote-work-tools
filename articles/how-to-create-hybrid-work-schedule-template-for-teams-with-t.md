@@ -317,6 +317,4 @@ Building a three-office-day hybrid schedule doesn't require expensive tools or c
 - [Best Practice for Hybrid Work Policy: Covering Which.](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 - [Hybrid Team Onboarding Process Template for New Hires.](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

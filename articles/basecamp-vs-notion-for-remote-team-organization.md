@@ -172,7 +172,7 @@ Basecamp integrations rely on webhooks and third-party services. You can't direc
 Notion supports embedded GitHub gists, Figma designs, Google Sheets, Loom videos, and hundreds of other services. For technical teams, this embedding capability is powerful.
 
 **Search and Discovery**
-Notion's full-text search across databases, pages, and blocks is faster and more comprehensive. Basecamp's search works but feels secondary to the primary navigation model.
+Notion's full-text search across databases, pages, and blocks is faster and more. Basecamp's search works but feels secondary to the primary navigation model.
 
 For teams accumulating thousands of documents, search becomes critical. Notion's search approach scales better.
 
@@ -264,7 +264,7 @@ The tradeoff is tool complexity. Teams need to maintain discipline about which i
 
 **Notion:** Venture-backed, rapidly growing, ambitious feature roadmap. Could be acquired or pivot business model.
 
-For conservative teams valuing stability and predictability, Basecamp's independence is reassuring. For teams wanting cutting-edge features and willing to adapt to changes, Notion's venture-backed growth provides innovation.
+For conservative teams valuing stability and predictability, Basecamp's independence is reassuring. For teams wanting modern features and willing to adapt to changes, Notion's venture-backed growth provides innovation.
 
 ## Trial Period Strategy
 

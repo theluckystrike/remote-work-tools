@@ -294,19 +294,6 @@ claude "Add a new method to the package that implements caching with TTL support
 claude "Generate API documentation from TypeScript types using TypeDoc. Include examples for each exported function and class."
 ```
 
-## Best Practices Summary
-
-- Use TypeScript: Provides type safety and better developer experience
-- Write Tests First: Claude Code can generate tests from specifications
-- Automate CI/CD: GitHub Actions catches issues early
-- Version Semantically: Follow semantic versioning for clear releases
-- Document Everything: Generated docs help users understand your API
-- Use ESM and CommonJS: Support both module systems for compatibility
-- Set Up Dependabot: Automated dependency updates keep your package secure
-{% endraw %}
-
-
-
 ## Handling Backward Compatibility as Your Package Evolves
 
 The hardest part of maintaining a public npm package is not building new features — it is removing or changing existing ones without breaking dependent projects. Claude Code helps you think through compatibility implications before making changes.
@@ -431,3 +418,4 @@ claude "The bundle size for this npm package exceeds our 10KB limit. Review the 
 - [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

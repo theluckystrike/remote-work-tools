@@ -16,7 +16,7 @@ score: 8
 {% raw %}
 # How to Create Remote Team Architecture Decision Record Template for Tracking Technical Choices
 
-Remote engineering teams face an unique challenge: capturing the reasoning behind technical decisions when team members span multiple time zones and communicate asynchronously. Without a structured approach, technical choices become tribal knowledge—understood by the person who made them but lost on everyone else. Architecture Decision Records (ADRs) solve this problem by providing a standardized format for documenting why decisions were made, what alternatives were considered, and what tradeoffs were accepted.
+Remote engineering teams face a unique challenge: capturing the reasoning behind technical decisions when team members span multiple time zones and communicate asynchronously. Without a structured approach, technical choices become tribal knowledge—understood by the person who made them but lost on everyone else. Architecture Decision Records (ADRs) solve this problem by providing a standardized format for documenting why decisions were made, what alternatives were considered, and what tradeoffs were accepted.
 
 This guide shows you how to create an effective ADR template specifically designed for remote team workflows, with practical examples you can adapt to your organization's needs.
 
@@ -156,7 +156,7 @@ Here is how an ADR moves through a typical async workflow:
 1. **Proposal** (Day 1): Developer identifies need for a caching layer, posts draft ADR to Slack channel with `[ADR Draft]` prefix
 2. **Initial feedback** (Days 2-3): Team members review during their local morning, leave initial questions in thread
 3. **Revision** (Day 4): Author updates ADR based on feedback, pings specific reviewers
-4. **Final review** (Days 5-6): Two reviewers approve with :shipit: reactions
+4. **Final review** (Days 5-6): Two reviewers approve with:shipit: reactions
 5. **Merge** (Day 7): Author merges ADR to main, updates project tracking
 
 This cadence assumes minimal async lag. For teams across more time zones, extend the comment period but keep the rhythm predictable.
@@ -186,8 +186,6 @@ Start with the template above, adapt it to your team's workflow, and commit to w
 - [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 - [Remote Team Architecture Decision Record Template for Async Decision-Making](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

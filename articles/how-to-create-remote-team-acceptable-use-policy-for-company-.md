@@ -217,7 +217,5 @@ DON'T:
 - [How to Implement Device Management Policy for Fully.](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 - [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

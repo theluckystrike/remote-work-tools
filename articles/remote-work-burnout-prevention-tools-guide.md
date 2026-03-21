@@ -464,7 +464,7 @@ Team working 40 hours effectively instead of 50 hours chaotically.
 
 Outcome: 2-3 hours focus time/day, fewer meeting conflicts.
 
-### Comprehensive Option
+### Option
 
 - Reclaim.ai: $15 × 10 = $150/month
 - DeskTime: $9 × 10 = $90/month

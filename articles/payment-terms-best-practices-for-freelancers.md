@@ -188,7 +188,5 @@ Always document everything. Keep records of all communication, especially if you
 - [Best Practice for Remote Team Vendor Payment Terms.](/remote-work-tools/best-practice-for-remote-team-vendor-payment-terms-negotiati/)
 - [Milestone Based Payment Structure for Dev Projects: A Practical Guide](/remote-work-tools/milestone-based-payment-structure-for-dev-projects/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

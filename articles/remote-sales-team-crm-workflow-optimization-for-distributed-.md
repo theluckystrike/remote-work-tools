@@ -277,7 +277,5 @@ Optimizing CRM workflows for distributed account management requires ongoing att
 - [Remote Sales Team Territory Mapping Tool for Distributed.](/remote-work-tools/remote-sales-team-territory-mapping-tool-for-distributed-acc/)
 - [Remote Sales Team Demo Environment Setup for Distributed.](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

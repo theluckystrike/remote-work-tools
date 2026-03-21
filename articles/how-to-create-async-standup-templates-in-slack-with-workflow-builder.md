@@ -110,18 +110,6 @@ Then: Send a message to #engineering-alerts
 
 This ensures blockers get immediate attention rather than sitting in a channel that everyone scans later.
 
-### Weekly Summary Compilation
-
-Aggregate daily responses into a weekly digest using a separate workflow. This runs on Friday afternoons and pulls from the standup channel using Slack's search functionality.
-
-Create a workflow with a **Link to Slack message** step that searches for responses from the past week:
-
-```
-in:#async-standups after:yesterday
-```
-
-Then format these into a summary message that highlights completed projects, ongoing work, and outstanding blockers.
-
 ## Example: Complete Standup Workflow YAML
 
 While Workflow Builder uses a visual interface, understanding the structure helps when planning complex templates. Here's what a basic configuration looks like conceptually:
@@ -183,8 +171,6 @@ This structure demonstrates the core pattern: scheduled trigger, form collection
 - [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

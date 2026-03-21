@@ -238,7 +238,5 @@ This framework gives remote working parents a practical approach to calendar man
 - [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 - [Best Grocery Delivery Service Strategy for Remote.](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

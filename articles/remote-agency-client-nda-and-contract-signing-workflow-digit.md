@@ -250,7 +250,5 @@ Configure lifecycle policies to move older contracts to cheaper storage tiers, b
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
 - [Best Contract Management Tool for Remote Agency Multiple.](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -200,7 +200,7 @@ Action 4: Schedule calendar invites for first-week meetings
 
 Create a simple dashboard to monitor all 10 onboardings simultaneously:
 
-| Milestone | Hire 1 | Hire 2 | Hire 3 | ... | Hire 10 |
+| Milestone | Hire 1 | Hire 2 | Hire 3 |... | Hire 10 |
 |-----------|--------|--------|--------|-----|---------|
 | Email sent | ✓ | ✓ | ✓ | | ✓ |
 | Equipment shipped | ✓ | ✓ | ✓ | | ✓ |
@@ -223,8 +223,6 @@ Update this weekly and share with leadership for visibility.
 - [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 - [Best Onboarding Tools for a Remote Team Hiring 3 People.](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
 - [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

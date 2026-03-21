@@ -108,7 +108,7 @@ Croissant is a European-focused coworking marketplace with 3,000+ locations. It'
 
 ## Deskpass
 
-Deskpass is a US-focused day pass subscription with 1,000+ partner locations. It emphasizes unlimited passes for frequent office goers.
+Deskpass is an US-focused day pass subscription with 1,000+ partner locations. It emphasizes unlimited passes for frequent office goers.
 
 **Pricing:**
 - Pay-as-you-go: $25-$40 per day pass

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "How to Facilitate Engaging Remote Retrospectives"
+title: "How to help Engaging Remote Retrospectives"
 description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes help scripts, digital tools, and actionable"
 date: 2026-03-15
 author: theluckystrike
-permalink: /how-to-facilitate-engaging-remote-retrospectives/
+permalink: /how-to-help-engaging-remote-retrospectives/
 categories: [guides]
 tags: [remote-work-tools, remote-work, retrospectives, agile, team-building]
 reviewed: true
@@ -283,8 +283,6 @@ This cultural shift doesn't happen through mandate—it happens through consiste
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
 - [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 - [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

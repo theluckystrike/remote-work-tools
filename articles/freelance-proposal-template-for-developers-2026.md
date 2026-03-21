@@ -24,22 +24,6 @@ Clients receiving multiple proposals spend an average of 90 seconds scanning eac
 
 ## The Essential Proposal Sections
 
-### 1. Executive Summary
-
-Keep this to two or three sentences. State the problem you're solving and the outcome the client can expect.
-
-Example:
-> "I understand you need to migrate your legacy monolith to microservices within three months while maintaining zero downtime. I've delivered four similar migrations in the past year, completing each ahead of schedule."
-
-### 2. Understanding Their Challenge
-
-Demonstrate that you've done your research. Reference specific details from their project description, website, or any conversations you've had. This section proves you're not sending a generic template—you've actually paid attention to their situation.
-
-### 3. Proposed Solution
-
-Break down your approach into clear phases. Clients appreciate knowing exactly what they're getting and when.
-
-```markdown
 ## Proposed Approach
 
 ### Phase 1: Discovery and Planning (Week 1-2)
@@ -50,7 +34,7 @@ Break down your approach into clear phases. Clients appreciate knowing exactly w
 ### Phase 2: Implementation (Week 3-10)
 - Set up CI/CD pipelines
 - Extract services incrementally
-- Implement comprehensive test coverage
+- Implement test coverage
 
 ### Phase 3: Deployment and Handover (Week 11-12)
 - Zero-downtime production deployment
@@ -167,8 +151,6 @@ Track which proposals win and which don't. Over time, you'll learn what resonate
 - [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
 - [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
 - [Retirement Planning for Freelance Developers 2026](/remote-work-tools/retirement-planning-for-freelance-developers-2026/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

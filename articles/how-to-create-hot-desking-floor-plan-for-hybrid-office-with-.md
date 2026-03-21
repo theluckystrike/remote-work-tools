@@ -193,7 +193,5 @@ Another common mistake is neglecting to account for meeting room proximity. Team
 - [How to Create Hybrid Work Schedule Template for Teams.](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
 - [Collaboration Zones in Hybrid Office Layout](/remote-work-tools/collaboration-zones-in-hybrid-office-layout/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

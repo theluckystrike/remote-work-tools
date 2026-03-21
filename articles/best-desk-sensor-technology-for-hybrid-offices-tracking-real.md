@@ -261,7 +261,5 @@ Privacy remains paramount. Clearly communicate sensor placement and data usage t
 - [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
 - [Best Desk Booking App for Hybrid Offices Using Microsoft.](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

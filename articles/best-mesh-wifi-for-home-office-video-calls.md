@@ -179,7 +179,7 @@ The trade-off: higher cost and more complex configuration. Best for developers c
 
 **Best for**: Large homes requiring 3+ nodes
 
-The Orbi 970 delivers enterprise-grade mesh with dedicated 5GHz backhaul, comprehensive management features, and excellent coverage in large spaces. Strong QoS implementation and the ability to create guest networks with separate bandwidth limits make it ideal for shared housing.
+The Orbi 970 delivers enterprise-grade mesh with dedicated 5GHz backhaul, management features, and excellent coverage in large spaces. Strong QoS implementation and the ability to create guest networks with separate bandwidth limits make it ideal for shared housing.
 
 ```
 Netgear Orbi 970 Specifications:

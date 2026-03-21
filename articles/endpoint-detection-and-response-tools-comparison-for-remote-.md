@@ -93,7 +93,7 @@ The API story remains weaker than competitors—SOAP interfaces persist in certa
 
 ### Elastic Security
 
-Elastic Security offers an unique positioning: the agent is open-source (Elastic Agent), and the entire stack can run self-hosted. If your team already operates Elasticsearch for application logging, extending to endpoint security adds minimal infrastructure overhead.
+Elastic Security offers a unique positioning: the agent is open-source (Elastic Agent), and the entire stack can run self-hosted. If your team already operates Elasticsearch for application logging, extending to endpoint security adds minimal infrastructure overhead.
 
 ```yaml
 # elastic-agent.yml - endpoint configuration
@@ -297,24 +297,24 @@ resource "aws_autoscaling_group" "web" {
 Use this framework to select the best option for your specific situation:
 
 1. **Are you already using Microsoft 365?**
-   - Yes → Strong case for Microsoft Defender (zero incremental cost)
-   - No → Continue to #2
+ - Yes → Strong case for Microsoft Defender (zero incremental cost)
+ - No → Continue to #2
 
 2. **Is API/scripting access critical to your workflow?**
-   - Yes → Prioritize CrowdStrike or Elastic
-   - No → Continue to #3
+ - Yes → Prioritize CrowdStrike or Elastic
+ - No → Continue to #3
 
 3. **Do you have infrastructure/DevOps expertise?**
-   - Yes → Elastic Security is viable (requires management)
-   - No → Continue to #4
+ - Yes → Elastic Security is viable (requires management)
+ - No → Continue to #4
 
 4. **Is budget your primary constraint?**
-   - Yes → Compare Elastic (self-hosted) vs SentinelOne startup discounts
-   - No → Continue to #5
+ - Yes → Compare Elastic (self-hosted) vs SentinelOne startup discounts
+ - No → Continue to #5
 
 5. **Do you need autonomous remediation?**
-   - Yes → SentinelOne is unique advantage
-   - No → CrowdStrike or Defender both suitable
+ - Yes → SentinelOne is unique advantage
+ - No → CrowdStrike or Defender both suitable
 
 **Decision outcomes:**
 - Microsoft shop + budget conscious → Defender for Endpoint
@@ -352,7 +352,5 @@ Use this framework to select the best option for your specific situation:
 - [Best Insider Threat Detection Tool for Fully Remote.](/remote-work-tools/best-insider-threat-detection-tool-for-fully-remote-companie/)
 - [How to Monitor Remote Employee Endpoint Health Without.](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
 - [Best Endpoint Security Solution for Remote Employees.](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

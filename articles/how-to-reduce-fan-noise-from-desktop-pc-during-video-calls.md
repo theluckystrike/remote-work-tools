@@ -171,7 +171,5 @@ Remember: your setup doesn't need to be silent—your colleagues simply shouldn'
 - [How to Hide Messy Room During Video Calls Without.](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
 - [Best Keyboard for Quiet Typing During Video Calls in.](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

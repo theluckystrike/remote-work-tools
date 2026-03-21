@@ -184,7 +184,5 @@ Choose tools that integrate with each other and don't require excessive maintena
 - [Project Management for Husband and Wife Freelance.](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
 - [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

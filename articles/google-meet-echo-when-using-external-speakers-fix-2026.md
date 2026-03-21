@@ -40,7 +40,7 @@ The simplest fix often works best. Reduce your external speaker volume to approx
 
 ### Step 2: Increase Distance Between Speakers and Microphone
 
-Physical separation prevents audio from reaching your microphone. Move your external speakers at least three feet away from your microphone or webcam. If you use a USB microphone or headset, ensure the speakers face away from the microphone. Some remote workers position speakers on the opposite side of their desk or use speaker stands that direct sound upward and away from the microphone pickup zone.
+Physical separation prevents audio from reaching your microphone. Move your external speakers at least three feet away from your microphone or webcam. If you use an USB microphone or headset, ensure the speakers face away from the microphone. Some remote workers position speakers on the opposite side of their desk or use speaker stands that direct sound upward and away from the microphone pickup zone.
 
 ### Step 3: Use Headphones Instead of External Speakers
 

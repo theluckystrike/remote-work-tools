@@ -221,7 +221,5 @@ Finding the right headset for glasses-wearing developers comes down to understan
 - [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 - [Best Monitor Height for Bifocal Glasses Wearing.](/remote-work-tools/best-monitor-height-for-bifocal-glasses-wearing-developers-setup/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

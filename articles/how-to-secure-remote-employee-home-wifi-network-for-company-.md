@@ -228,11 +228,11 @@ Run this script and save the output as a baseline. You'll rerun it monthly.
 - Run the network audit script again
 - Compare results to baseline
 - Create a password-protected document listing:
-  - WiFi network name (SSID)
-  - WiFi password
-  - Router admin panel address
-  - Router admin password
-  - Any security features enabled
+ - WiFi network name (SSID)
+ - WiFi password
+ - Router admin panel address
+ - Router admin password
+ - Any security features enabled
 
 ### Week 2: Advanced Configuration
 
@@ -353,8 +353,6 @@ Most remote workers don't need to run these advanced tests, but security-conscio
 - [How to Secure Remote Team Kubernetes Clusters with.](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 - [Best Portable WiFi Hotspot Device for Remote Workers.](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
 - [How to Create a Remote Team Acceptable Use Policy for.](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

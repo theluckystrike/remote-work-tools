@@ -186,7 +186,5 @@ The best belonging programs treat inclusion as infrastructure, not an event. Con
 - [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
 - [Remote Employee Intellectual Property Assignment Clause.](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

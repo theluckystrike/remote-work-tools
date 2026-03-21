@@ -183,6 +183,4 @@ Start small, stay consistent, and iterate based on feedback. Your remote teams w
 - [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
 - [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

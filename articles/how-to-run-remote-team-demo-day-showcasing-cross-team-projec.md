@@ -243,7 +243,5 @@ Block prep time for presenters the week before. Make the schedule visible and ho
 - [Best Practice for Remote Team Product Demo Day Format That Scales to 50 Engineers](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
 - [Best Practice for Remote Team Cross Functional Project.](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

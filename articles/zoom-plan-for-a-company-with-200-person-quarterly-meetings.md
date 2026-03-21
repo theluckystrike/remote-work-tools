@@ -215,29 +215,12 @@ def parse_action_items(chat_messages):
     return actions
 ```
 
-## Key Takeaways
-
-Running 200-person quarterly meetings on Zoom requires preparation beyond basic video calls. The critical elements are:
-
-1. **Configure room settings** for large meetings with waiting rooms and participant controls
-2. **Automate meeting creation** using the Zoom API for consistent setup
-3. **Structure engagement** with distinct phases and interaction mechanisms
-4. **Plan for failures** with backup procedures and contingencies
-5. **Follow up systematically** with recordings, transcripts, and action tracking
-
-With proper planning and the right technical setup, quarterly all-hands meetings become valuable alignment opportunities rather than necessary inconveniences.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
 - [Cheapest Video Call Tool for Weekly 50 Person All Hands.](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
 - [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

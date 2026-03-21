@@ -199,7 +199,5 @@ Consider starting with PandaDoc or Qwilr—both offer free trials long enough to
 - [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
 - [Best CRM for Solo Consultant Managing 30 Active Clients Remotely](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

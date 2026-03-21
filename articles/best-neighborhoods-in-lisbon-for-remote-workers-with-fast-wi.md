@@ -25,7 +25,7 @@ The cost of living remains competitive compared to other Western European capita
 
 ## Alfama: Historic Charm with Reliable Connections
 
-Alfama, Lisbon's oldest neighborhood, offers an unique blend of historic architecture and modern remote work infrastructure. While the narrow streets evoke centuries of history, fiber internet now reaches most cafes and coworking spaces here. Alfama attracts remote workers who prioritize atmosphere and cultural immersion over proximity to the startup scene.
+Alfama, Lisbon's oldest neighborhood, offers a unique blend of historic architecture and modern remote work infrastructure. While the narrow streets evoke centuries of history, fiber internet now reaches most cafes and coworking spaces here. Alfama attracts remote workers who prioritize atmosphere and cultural immersion over proximity to the startup scene.
 
 **Best cafes with fast WiFi in Alfama:**
 
@@ -218,7 +218,5 @@ time dig google.com @8.8.8.8 +short
 - [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
 - [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
 - [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

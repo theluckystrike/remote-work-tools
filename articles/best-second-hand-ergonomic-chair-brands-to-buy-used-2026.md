@@ -17,7 +17,7 @@ voice-checked: true
 {% raw %}
 # Best Second Hand Ergonomic Chair Brands to Buy Used 2026
 
-Buy an used Herman Miller Aeron Gen2 ($400-700) for the best combination of durability and ergonomic support -- its Pellicle mesh does not compress over time, so even 3-5 year old units retain their supportive properties. For a lower budget, the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened. Haworth Zody ($250-450) is the value pick with replaceable cushions that extend its usable life. All three brands build chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
+Buy a used Herman Miller Aeron Gen2 ($400-700) for the best combination of durability and ergonomic support -- its Pellicle mesh does not compress over time, so even 3-5 year old units retain their supportive properties. For a lower budget, the Steelcase Leap V2 ($300-550) offers excellent adjustability, though check that the foam seat cushion has not flattened. Haworth Zody ($250-450) is the value pick with replaceable cushions that extend its usable life. All three brands build chairs rated for 10-15 years, so buying used at 40-60% off retail saves hundreds while delivering the same ergonomic benefits developers need for 8+ hour coding sessions.
 
 ## Why Buy Second-Hand Ergonomic Chairs
 
@@ -44,7 +44,7 @@ Herman Miller chairs, particularly the Aeron and Embody, dominate the ergonomic 
 - Aeron Remapped: $600-900
 - Embody: $500-800
 
-The Aeron uses an unique Pellicle mesh that distributes weight across the seat and back. Unlike foam, this material doesn't compress permanently, so even used chairs often retain their supportive properties.
+The Aeron uses a unique Pellicle mesh that distributes weight across the seat and back. Unlike foam, this material doesn't compress permanently, so even used chairs often retain their supportive properties.
 
 ### Steelcase
 
@@ -201,8 +201,6 @@ Pair your ergonomic chair with:
 - [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/remote-work-tools/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
 - [How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
 - [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

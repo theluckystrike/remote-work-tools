@@ -220,7 +220,5 @@ Track these signals to evaluate your async review process:
 - [How to Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 - [Remote HR Performance Review Tools Comparison for.](/remote-work-tools/remote-hr-performance-review-tools-comparison-for-managing-d/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

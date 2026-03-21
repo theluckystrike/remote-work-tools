@@ -213,29 +213,12 @@ _______________________ ____________
 [Company Representative] [Date]
 ```
 
-## Key Takeaways
-
-Creating compliant international offer letters requires research and attention to detail. The most important points:
-
-1. **Verify employment classification** before drafting—employee vs. contractor has massive implications
-2. **Research local requirements** for each country where you hire
-3. **Include mandatory clauses** specific to that jurisdiction
-4. **Consider using an EOR** if you lack local entity infrastructure
-5. **Document everything** in writing, as verbal agreements rarely hold up
-
-Building a compliant hiring process protects your company and ensures your new hires start on solid legal ground. Take time to get this right—retrospective fixes are expensive and contentious.
-
----
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
 - [How to Handle Mandatory Paid Leave Laws for Remote Employees in Different States](/remote-work-tools/how-to-handle-mandatory-paid-leave-laws-for-remote-employees/)
 - [How to Handle Employment Law Differences for Remote.](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -395,19 +395,19 @@ Retrieve a specific user by ID.
 
 ```bash
 curl -X GET https://api.company.com/api/v2/users/usr_abc123 \
-  -H "Authorization: Bearer YOUR_API_KEY"
+ -H "Authorization: Bearer YOUR_API_KEY"
 ```
 
 **Response:**
 
 ```json
 {
-  "id": "usr_abc123",
-  "email": "user@example.com",
-  "name": "Alice Smith",
-  "status": "active",
-  "created_at": "2025-08-15T10:30:00Z",
-  "updated_at": "2026-03-20T14:22:00Z"
+ "id": "usr_abc123",
+ "email": "user@example.com",
+ "name": "Alice Smith",
+ "status": "active",
+ "created_at": "2025-08-15T10:30:00Z",
+ "updated_at": "2026-03-20T14:22:00Z"
 }
 ```
 
@@ -847,23 +847,7 @@ Scenario: 30-person remote team, needs both internal docs and versioned API refe
 
 ---
 
-## Conclusion
-
-**For smallest teams (1-10 people):** Notion. It's free, flexible, and grows with you.
-
-**For growing teams (10-50 people):** Slite or Slab. Simple, search-focused, async-friendly.
-
-**For mature teams (50+ people):** Confluence. Best permissions, integrations, and compliance features.
-
-**For public API products:** GitBook. Beautiful, SEO-optimized, versioned.
-
-**For teams using both internal + public docs:** Notion (internal) + GitBook (public). Best separation of concerns.
-
-Start with whichever feels most natural to your team's workflow. You can always migrate later (though it's painful). The best documentation platform is the one your team will actually use.
-
-{% endraw %}
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
+{% endraw %}

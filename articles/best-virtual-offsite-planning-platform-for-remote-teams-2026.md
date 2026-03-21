@@ -179,6 +179,4 @@ Several mistakes undermine virtual offsites:
 - [Best Whiteboard Tool for Remote Client Brainstorming.](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
 - [Best Virtual Escape Room Platform for Remote Team.](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

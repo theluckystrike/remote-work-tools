@@ -194,7 +194,5 @@ Build these into your scoping workflow. They create accountability and documenta
 - [Project Management for Husband and Wife Freelance.](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
 - [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

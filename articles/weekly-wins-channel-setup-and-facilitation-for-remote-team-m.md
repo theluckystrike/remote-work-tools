@@ -139,55 +139,6 @@ Use a Slack form or Google Form to collect wins throughout the week, then post a
 }
 ```
 
-### Weekly Summary Bot
-
-For teams using GitHub, integrate with your workflow to automatically surface deployment notifications, merged PRs, or closed issues:
-
-```yaml
-# Example: GitHub Actions workflow to post wins
-name: Weekly Wins Summary
-on:
-  schedule:
-    - cron: '0 18 * * Friday'
-jobs:
-  post-wins:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Get this week's activity
-        run: |
-          # Query merged PRs, closed issues
-          gh api repos/{owner}/{repo}/pulls?state=merged \
-            --jq '.[] | select(.created_at | contains("2026")) | "- \(.title) by @\(.user.login)"'
-      - name: Post to Slack
-        uses: 8398a7/action-slack@v3
-        with:
-          status: custom
-          fields: repo,message
-          custom_payload: |
-            {
-              text: "🎉 This Week's Wins:",
-              blocks: [
-                {
-                  type: "section",
-                  text: { type: "mrkdwn", text: "*🎉 This Week's Wins:*\n${{ steps.wins.outputs.list }}" }
-                }
-              ]
-            }
-```
-
-### Anonymous Wins Option
-
-Some teams add an anonymous form for wins that might feel uncomfortable posting publicly. A manager can read these aloud or post them with permission:
-
-```html
-<!-- Simple anonymous win collection -->
-<form action="/api/anonymous-wins" method="POST">
-  <input type="hidden" name="team_id" value="team-123">
-  <textarea name="win" placeholder="Share a win (anonymous)"></textarea>
-  <button type="submit">Submit Anonymously</button>
-</form>
-```
-
 ## What to Share
 
 Provide examples so contributors understand the scope. Effective wins include:
@@ -236,8 +187,6 @@ The best weekly wins channels become a team ritual that people genuinely look fo
 - [Best Practice for Remote Team Announcement Channel.](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 - [Remote Team Gratitude Practice Ideas for Weekly Team.](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
 - [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

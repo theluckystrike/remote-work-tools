@@ -317,6 +317,4 @@ If you're doing something mission-critical (important deadline, big presentation
 - [Best Bug Tracking Tools for Remote QA Teams: A Developer's Guide](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
 - [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

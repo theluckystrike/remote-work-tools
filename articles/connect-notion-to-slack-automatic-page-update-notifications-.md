@@ -190,7 +190,5 @@ Testing your setup thoroughly before rolling it out team-wide prevents notificat
 - [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
 - [Notion Habit Tracker Template for Developers: Build Consistent Routines](/remote-work-tools/notion-habit-tracker-template-for-developers/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

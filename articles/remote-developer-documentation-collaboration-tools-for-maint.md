@@ -248,7 +248,7 @@ Commit this file to your repository and run a weekly CI check that alerts the ow
 
 ### Search Strategy
 
-Remote teams need search that spans all documentation sources. Consider implementing a unified search layer that queries GitHub, Notion, and Confluence simultaneously:
+Remote teams need search that spans all documentation sources. Consider implementing an unified search layer that queries GitHub, Notion, and Confluence simultaneously:
 
 ```typescript
 interface SearchResult {
@@ -301,8 +301,6 @@ The best choice depends on your team's technical sophistication, existing tool i
 - [Best GitBook Alternative for Remote Engineering Teams.](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
 - [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
 - [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

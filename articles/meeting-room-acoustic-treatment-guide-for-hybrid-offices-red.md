@@ -401,7 +401,5 @@ Meeting rooms benefit from **broadband treatment** (covers all frequencies) but 
 - [How to Handle Hybrid Meeting Whiteboard Challenge with.](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
 - [Best Conference Room Speaker Mic for Hybrid Meetings.](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

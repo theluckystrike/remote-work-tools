@@ -306,7 +306,5 @@ For most remote agencies, starting with Google Groups and upgrading to a dedicat
 - [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 - [Shared Inbox Tool for a 4 Person Remote Customer Success.](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

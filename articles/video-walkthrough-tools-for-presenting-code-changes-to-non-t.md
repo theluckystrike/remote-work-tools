@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # Video Walkthrough Tools for Presenting Code Changes to Non-Technical Clients
 
-Showing code changes to non-technical clients presents an unique communication challenge. Your client needs to understand what changed, why it matters, and how it affects their project—without getting lost in syntax, file structures, or developer jargon. Video walkthroughs bridge this gap by combining visual demonstration with verbal explanation, letting you control the narrative and pace.
+Showing code changes to non-technical clients presents a unique communication challenge. Your client needs to understand what changed, why it matters, and how it affects their project—without getting lost in syntax, file structures, or developer jargon. Video walkthroughs bridge this gap by combining visual demonstration with verbal explanation, letting you control the narrative and pace.
 
 This guide covers the tools and techniques you need to create effective video explanations of code changes for non-technical stakeholders.
 
@@ -180,8 +180,6 @@ Video walkthroughs transform how you communicate code changes to non-technical c
 - [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 - [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

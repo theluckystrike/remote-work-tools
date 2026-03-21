@@ -244,7 +244,7 @@ Plug modem and primary router into UPS. Leave WiFi router on backup power only i
 
 **Phase 4 (Month 2-3):** Purchase a dual-WAN router. Configure automatic failover. Test by unplugging your primary modem and verifying failover to secondary connection.
 
-**Phase 5 (Month 3+):** Add a UPS to keep modem and router running during power failures.
+**Phase 5 (Month 3+):** Add an UPS to keep modem and router running during power failures.
 
 ## Testing Your Backup Setup
 

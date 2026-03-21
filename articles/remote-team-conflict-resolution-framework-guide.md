@@ -511,19 +511,9 @@ Skip Layers 2-4 if:
 3. **Legal risk.** Notify legal; don't mediate.
 4. **Someone refuses to engage.** If they ignore Layer 1 outreach, escalate to their manager (Layer 4).
 
-## Final Thoughts
-
-Remote conflict resolution requires documentation + patience, not meetings + charisma. The framework feels heavy at first, but it prevents the worst outcome: a team that quietly fragments because people can't resolve tensions async.
-
-The best teams don't have fewer conflicts. They have faster, cleaner conflict resolution. Documentation is how you do that at scale.
-
----
-
-{% endraw %}
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+{% endraw %}

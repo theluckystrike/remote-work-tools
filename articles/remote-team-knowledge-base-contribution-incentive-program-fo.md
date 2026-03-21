@@ -367,7 +367,5 @@ A successful program feels like documentation is just "how we do things," not "t
 - [How to Create a Client-Facing Knowledge Base for a.](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
 - [How to Handle Knowledge Base Handoff When Remote.](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

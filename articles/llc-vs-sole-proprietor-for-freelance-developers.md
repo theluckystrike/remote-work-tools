@@ -277,24 +277,24 @@ The LLC burden is real but not dramatic. The main friction point is S-corp quart
 Use this decision tree:
 
 1. **Is your income above $80,000 consistently?**
-   - No → Stay sole proprietor, revisit at $80K+
-   - Yes → Continue
+ - No → Stay sole proprietor, revisit at $80K+
+ - Yes → Continue
 
 2. **Do you have significant personal assets to protect?**
-   - No → Sole proprietor is fine
-   - Yes → Continue
+ - No → Sole proprietor is fine
+ - Yes → Continue
 
 3. **Do you plan to hire or scale significantly?**
-   - No → Sole proprietor remains adequate
-   - Yes → Form LLC
+ - No → Sole proprietor remains adequate
+ - Yes → Form LLC
 
 4. **Are enterprise clients part of your target market?**
-   - No → Sole proprietor serves well
-   - Yes → Form LLC for credibility
+ - No → Sole proprietor serves well
+ - Yes → Form LLC for credibility
 
 5. **Can you stomach $1,500+/year in extra accounting overhead?**
-   - No → Stay sole proprietor
-   - Yes → Form LLC with S-corp election above $100K income
+ - No → Stay sole proprietor
+ - Yes → Form LLC with S-corp election above $100K income
 
 Following this framework:
 - Early-stage freelancers (income <$50K): Sole proprietor
@@ -313,8 +313,6 @@ One advantage of starting as a sole proprietor: you can always form an LLC later
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 - [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
 - [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -192,7 +192,5 @@ The right shared inbox transforms reactive customer success into proactive relat
 - [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

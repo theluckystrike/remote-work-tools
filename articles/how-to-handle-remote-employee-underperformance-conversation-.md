@@ -165,7 +165,5 @@ Provide time for the employee to compose their thoughts. Async communication fav
 - [Remote Employee Belonging and Inclusion Program Ideas.](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

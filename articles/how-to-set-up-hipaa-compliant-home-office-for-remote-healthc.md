@@ -277,7 +277,7 @@ This isn't theoretical—healthcare organizations have pursued employees for neg
 - Check if your homeowner's insurance covers home office liability
 - Ask about cyber insurance coverage for work activities
 - Some organizations provide coverage; others require you to carry your own
-- Cost: $500-2,000 annually for comprehensive cyber policy
+- Cost: $500-2,000 annually for cyber policy
 
 **Documentation for Your Protection**
 Maintain records proving you took reasonable precautions:
@@ -300,7 +300,5 @@ Your IT department should provide specific guidance for your organization's envi
 - [How to Set Up Remote Radiology Reading Station at Home.](/remote-work-tools/how-to-set-up-remote-radiology-reading-station-at-home-with-/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 - [How to Set Up Compliant Remote Employee Benefits Across.](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

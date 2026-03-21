@@ -25,7 +25,7 @@ This guide provides a complete ADR template designed specifically for remote tea
 
 ## Why ADRs Matter for Distributed Teams
 
-Remote engineering teams face an unique challenge: significant technical decisions often get lost in Slack threads, lost Zoom recordings, or individual memory. When team members in Tokyo, London, and San Francisco need to understand why a particular database was chosen or why a microservices architecture was rejected, they need more than a final decision—they need the reasoning that led to it.
+Remote engineering teams face a unique challenge: significant technical decisions often get lost in Slack threads, lost Zoom recordings, or individual memory. When team members in Tokyo, London, and San Francisco need to understand why a particular database was chosen or why a microservices architecture was rejected, they need more than a final decision—they need the reasoning that led to it.
 
 ADRs solve this problem by creating a persistent, searchable record of each significant technical decision. Unlike meeting notes that capture discussion, ADRs capture outcomes and their context.
 
@@ -210,8 +210,6 @@ Schedule a quarterly review of active ADRs to identify:
 - [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 - [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

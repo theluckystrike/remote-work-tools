@@ -191,7 +191,5 @@ The best two-factor authentication setup for your remote team is one that balanc
 - [How to Handle Two Factor Authentication Apps When.](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
 - [Remote Team Password Sharing Best Practices for Shared.](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

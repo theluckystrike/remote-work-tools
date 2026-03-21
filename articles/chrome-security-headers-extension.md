@@ -415,6 +415,4 @@ A: X-XSS-Protection is legacy (for old browsers). CSP is modern. Use CSP for new
 - [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
 - [Chrome Extension Window Resizer Testing: Complete Guide for 2026](/remote-work-tools/chrome-extension-window-resizer-testing/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

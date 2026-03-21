@@ -135,7 +135,7 @@ ffplay -f avfoundation -i "0"
 
 Look for these quality indicators in your test: your face should be properly exposed with visible details, the window should show some cloud or building detail rather than pure white, and transitions between light and dark areas should show smooth gradients.
 
-## Comprehensive Webcam Comparison with Real Pricing
+## Webcam Comparison with Real Pricing
 
 | Webcam | Sensor | HDR | Manual Exposure | Price | Best For |
 |--------|--------|-----|-----------------|-------|----------|
@@ -306,8 +306,6 @@ If you're spending hours optimizing backlit video quality, reconsider whether re
 - [Chrome Extension Webcam Settings Adjuster Guide](/remote-work-tools/chrome-extension-webcam-settings-adjuster/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

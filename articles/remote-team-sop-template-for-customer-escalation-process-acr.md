@@ -208,6 +208,4 @@ Start with the basics: define your severity levels, create your handoff template
 - [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 - [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

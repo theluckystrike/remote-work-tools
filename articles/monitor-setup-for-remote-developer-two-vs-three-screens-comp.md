@@ -199,7 +199,5 @@ Regardless of which option you choose, invest in monitor arms or stands for prop
 - [How to Prevent Burnout as Remote Developer: Practical.](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 - [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

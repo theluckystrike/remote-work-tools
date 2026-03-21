@@ -268,7 +268,7 @@ Yes, but you need to verify the CNI plugin supports network policies. EKS requir
 
 **Can network policies block traffic from cluster administrators?**
 
-No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API server access. A user with kubectl access and the right RBAC permissions can still interact with any pod regardless of network policies. Network policies and RBAC are complementary controls — you need both.
+No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API server access. a user with kubectl access and the right RBAC permissions can still interact with any pod regardless of network policies. Network policies and RBAC are complementary controls — you need both.
 
 **What happens when two conflicting policies apply to the same pod?**
 
@@ -280,8 +280,6 @@ Kubernetes applies a union of all matching policies. If any policy permits the t
 - [How to Secure Remote Team Database Access with.](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 - [How to Secure Remote Team CI/CD Pipeline From Supply.](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

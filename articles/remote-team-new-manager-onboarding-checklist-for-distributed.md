@@ -181,6 +181,4 @@ Monitor new managers closely during their first quarter. Watch for the pitfalls 
 - [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
 - [Remote Team Onboarding Communication Checklist for First.](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

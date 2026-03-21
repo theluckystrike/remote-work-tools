@@ -265,6 +265,4 @@ Document the entire onboarding process so remote hires can reference it later.
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 - [Best Tool for Hybrid Team Async Updates When Some Use.](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

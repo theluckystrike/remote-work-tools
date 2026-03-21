@@ -260,7 +260,5 @@ Automated policies catch mistakes that human vigilance misses.
 - [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
 - [Best Secure Web Gateway for Remote Teams Browsing.](/remote-work-tools/best-secure-web-gateway-for-remote-teams-browsing-untrusted-networks-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -17,41 +17,13 @@ Structure client updates with Status Summary, Progress This Week, Blockers, Next
 
 ## Understanding the Core Problem
 
-Remote projects face an unique challenge: not everyone is available at the same time. When a stakeholder in New York sends an update at 9 AM, their colleague in Tokyo might not see it for another 12 hours. Traditional synchronous communication patterns break down in this environment. You need formats that convey context, action items, and status without requiring immediate responses.
+Remote projects face a unique challenge: not everyone is available at the same time. When a stakeholder in New York sends an update at 9 AM, their colleague in Tokyo might not see it for another 12 hours. Traditional synchronous communication patterns break down in this environment. You need formats that convey context, action items, and status without requiring immediate responses.
 
 An effective asynchronous client update format must accomplish three things: provide sufficient context for someone to understand the current state, clearly identify what decisions or actions are needed, and establish clear ownership for next steps.
 
 ## Designing Your Update Structure
 
 The most practical approach separates updates into distinct sections. Each section serves a specific purpose and helps different team members quickly find the information they need.
-
-### Section 1: Status Summary
-
-Begin with a brief status statement. This should be one to two sentences that capture the overall project health. Use consistent phrasing across updates so stakeholders can scan through history quickly.
-
-```
-Status: On Track / At Risk / Blocked
-```
-
-When status deviates from "On Track," include a single sentence explaining why. This brevity forces you to identify the most critical factor and prevents update bloat.
-
-### Section 2: Progress Highlights
-
-List the three to five most significant accomplishments since the last update. Focus on outcomes rather than activities. Instead of "worked on the API integration," write "completed payment gateway integration and verified transaction processing."
-
-For technical updates, include relevant identifiers like ticket numbers or branch names. This allows stakeholders to find additional context if needed.
-
-### Section 3: Upcoming Priorities
-
-Describe what the team expects to accomplish in the next update cycle. Prioritize items by business impact rather than technical complexity. Stakeholders need to understand how their priorities are being addressed, not just what technical work is scheduled.
-
-### Section 4: Blockers and Risks
-
-This section requires honest assessment. List any blockers preventing progress and any identified risks that could impact timelines. For each item, include:
-
-- A brief description
-- Who is affected
-- Proposed resolution or mitigation strategy
 
 ## Implementing Versioned JSON Updates
 
@@ -192,7 +164,5 @@ Choose the complexity level that matches your team's needs. The goal is clear co
 - [How to Create Client Project Retrospective Format for.](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 - [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

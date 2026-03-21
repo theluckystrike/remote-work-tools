@@ -200,23 +200,12 @@ Survey engineers after each cycle:
 4. Any friction points in the async process?
 ```
 
-## Best Practices Summary
-
-- Start early: Give two weeks minimum for each cycle
-- Be specific: Questions about concrete achievements beat generic "how are you doing"
-- Require examples: Feedback without specifics isn't actionable
-- Automate wisely: Use reminders but preserve human connection
-- Follow up: Async works for initial reviews; sync for complex discussions
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [How to Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
 - [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
 - [Best Practices for Async Pull Request Reviews on.](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

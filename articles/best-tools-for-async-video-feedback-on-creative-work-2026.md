@@ -225,6 +225,4 @@ if __name__ == "__main__":
 - [Best Tool for Remote Product Managers Running Async.](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
 - [Best Tool for Async Performance Feedback Collection for.](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

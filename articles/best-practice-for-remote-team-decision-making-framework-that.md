@@ -29,7 +29,7 @@ The solution is a tiered decision framework that documents what kinds of decisio
 
 A practical starting point is a four-tier structure based on reversibility and organizational impact:
 
-**Tier 1 — Individual decisions**: Reversible decisions with limited scope. A developer choosing which library to use for a utility function, or a designer picking an icon style. These need no approval; document them in commit messages or design notes if relevant.
+**Tier 1 — Individual decisions**: Reversible decisions with limited scope. A developer choosing which library to use for an utility function, or a designer picking an icon style. These need no approval; document them in commit messages or design notes if relevant.
 
 **Tier 2 — Team decisions**: Reversible decisions affecting the whole team. Changing a code review process, adopting a new linting rule, scheduling a recurring team meeting. Team lead decides or team consensus within 24–48 hours.
 
@@ -265,8 +265,6 @@ When this works, founders can focus on tier 3-4 decisions where their experience
 - [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 - [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
 - [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -275,7 +275,5 @@ Before migrating from traditional VPN:
 - [Best VPN for Remote Workers in Thailand Avoiding Geo Restrictions on Tools](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
 - [Best VPN for Remote Development Teams with Split.](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

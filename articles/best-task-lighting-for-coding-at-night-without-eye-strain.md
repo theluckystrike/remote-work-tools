@@ -201,6 +201,4 @@ tail -10 ~/standing-log.txt
 - [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
 - [How to Prevent Eye Fatigue from Multiple Monitors with.](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

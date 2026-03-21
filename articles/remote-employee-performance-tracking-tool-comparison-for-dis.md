@@ -192,6 +192,4 @@ This approach lets distributed managers track meaningful engineering metrics rat
 - [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
 - [Remote Employee Output-Based Performance Measurement.](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

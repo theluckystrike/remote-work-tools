@@ -14,17 +14,11 @@ tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}
-## Shift Summary
-
-**Time Zone:**
-**Shift Start:**
-**Shift End:**
-
 ## Incidents Handled
 
 | # | Time | Severity | Title | Resolution Time |
 |---|------|----------|-------|------------------|
-| 1 |      |          |       |                  |
+| 1 | | | | |
 
 ## Notes
 
@@ -196,8 +190,6 @@ Fair on-call distribution is a solved problem at the tracking level—the challe
 - [Remote Team Penetration Testing Coordination Guide for.](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
 - [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 - [Remote Team Financial Dashboard Tool for CFO: Tracking.](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -133,7 +133,7 @@ This progression gives participants time to build confidence while keeping exper
 
 ### Team Recipe Collection
 
-Create a shared document or wiki page where you compile successful recipes from your sessions. Over time, this becomes an unique team artifact—your collective cooking knowledge. Some teams have turned this into an annual team cookbook, printing copies for everyone.
+Create a shared document or wiki page where you compile successful recipes from your sessions. Over time, this becomes a unique team artifact—your collective cooking knowledge. Some teams have turned this into an annual team cookbook, printing copies for everyone.
 
 ## Platforms and Tools for Hosted Cooking Classes
 
@@ -275,8 +275,6 @@ The best indicator is when participants start suggesting recipes for future sess
 - [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
 - [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
 - [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

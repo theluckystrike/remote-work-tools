@@ -259,6 +259,4 @@ Start with your highest-volume demo type, build the recording and processing inf
 - [Async Customer Feedback Synthesis Workflow for Remote.](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 - [Remote Sales Team Demo Environment Setup for Distributed.](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

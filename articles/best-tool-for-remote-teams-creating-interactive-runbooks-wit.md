@@ -172,7 +172,5 @@ Regular review sessions where team members walk through runbooks together catch 
 - [Best VPN for Remote Development Teams with Split.](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
 - [Best Cloud Access Security Broker for Remote Teams Using.](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

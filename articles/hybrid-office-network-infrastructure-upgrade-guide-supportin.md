@@ -202,7 +202,5 @@ Run through this checklist when upgrading your hybrid office network:
 - [How to Set Up Hybrid Office Guest WiFi for Visitors and.](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
 - [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

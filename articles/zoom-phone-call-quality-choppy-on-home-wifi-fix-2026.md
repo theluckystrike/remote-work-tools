@@ -226,7 +226,7 @@ For home offices specifically, WiFi 6 routers under $150 provide excellent perfo
 
 ### Mesh Network Systems
 
-Single-router setups fail in larger homes or when obstacles block signals. Mesh networks solve this by creating a unified network across multiple nodes:
+Single-router setups fail in larger homes or when obstacles block signals. Mesh networks solve this by creating an unified network across multiple nodes:
 
 - **Eero Pro**: Tri-band system with dedicated backhaul channel. Works excellently for video calls ($250 for 3-pack).
 - **Netgear Orbi**: Enterprise-grade mesh with extensive management features ($300-400 for 3-pack).

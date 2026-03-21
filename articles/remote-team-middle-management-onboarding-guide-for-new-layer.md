@@ -199,7 +199,5 @@ Establish clear success criteria with your director during onboarding:
 - [Remote Team New Manager Onboarding Checklist for.](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
 - [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

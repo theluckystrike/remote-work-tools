@@ -222,11 +222,6 @@ Remote team members need clear instructions on how to request access, what to in
 - **Bypassing JIT for "emergencies"** – This defeats the purpose; instead, design fast-track approval workflows
 - **Poor visibility into active sessions** – You need real-time awareness of who has access right now
 
-## Conclusion
-
-Just-in-time access significantly reduces the security risk of standing privileges while maintaining team productivity. Start with your most sensitive resources, implement proper approval workflows, and continuously refine based on team feedback. The initial investment pays dividends in reduced attack surface and improved compliance posture.
-
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

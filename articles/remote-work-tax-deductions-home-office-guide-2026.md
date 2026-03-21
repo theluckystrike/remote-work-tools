@@ -17,18 +17,6 @@ intent-checked: true
 
 The average remote worker can deduct $1,200-3,600 annually in home office expenses. Yet 82% of remote workers don't claim any deductions. This guide covers what qualifies, how much you can deduct, calculation methods for each country, and tools to track expenses.
 
-## Quick Summary
-
-| Country | Deduction Type | Max Deduction | Audit Risk | Complexity |
-|---------|---|---|---|---|
-| USA | Simplified or Actual | $1,700/yr (simplified) | Low | Medium |
-| UK | Flat rate or Actual | £26/week (~$1,350/yr) | Very Low | Low |
-| EU (Germany) | Partial or Full | €1,000/yr | Low | Medium |
-| EU (France) | 10% of rent or Actual | €3,000/yr | Medium | High |
-| Canada | Home office expense | ~C$2,000/yr | Medium | Medium |
-
----
-
 ## USA: Two Deduction Methods
 
 The IRS allows two methods: **Simplified** and **Actual Expense**. Choose whichever gives the larger deduction.
@@ -143,27 +131,27 @@ GRAND TOTAL: $4,603/yr in home office deductions
 **Tools for USA Tax Deduction Tracking:**
 
 1. **QuickBooks Self-Employed** ($15/month)
-   - Receipt scanning
-   - Automatic categorization (AI-powered)
-   - Mileage tracking
-   - Estimated tax calculator
+ - Receipt scanning
+ - Automatic categorization (AI-powered)
+ - Mileage tracking
+ - Estimated tax calculator
 
 2. **Wave Accounting** (Free)
-   - Receipt uploading
-   - Expense categorization
-   - Automated P&L
-   - No subscription needed
+ - Receipt uploading
+ - Expense categorization
+ - Automated P&L
+ - No subscription needed
 
 3. **FreshBooks** ($8-30/month)
-   - Expense tracking
-   - Receipt digitization
-   - Tax summary reports
-   - Invoice creation (if client billing)
+ - Expense tracking
+ - Receipt digitization
+ - Tax summary reports
+ - Invoice creation (if client billing)
 
 4. **Stride Health Tax Tool** (Free, web-based)
-   - Home office calculator
-   - Itemized deduction worksheet
-   - Exports to tax software
+ - Home office calculator
+ - Itemized deduction worksheet
+ - Exports to tax software
 
 ---
 
@@ -226,19 +214,19 @@ If < £1,350/yr, stick with flat rate (easier).
 **UK Tax Deduction Tools:**
 
 1. **HMRC Home Office Tool** (Free, gov.uk)
-   - Official calculator
-   - Generates form entry
-   - No sign-up required
+ - Official calculator
+ - Generates form entry
+ - No sign-up required
 
 2. **Xero** (Free or £13/month paid tier)
-   - Expense tracking
-   - UK tax report generation
-   - Integrates with accounting software
+ - Expense tracking
+ - UK tax report generation
+ - Integrates with accounting software
 
 3. **FreeAgent** (Free tier, then £9.50/month)
-   - UK-specific deductions
-   - Tax return auto-population
-   - Mileage tracking
+ - UK-specific deductions
+ - Tax return auto-population
+ - Mileage tracking
 
 ---
 
@@ -380,9 +368,9 @@ Deductible Expenses:
 **Canadian Tools:**
 
 - **Wealthsimple Tax** (Free)
-  - Home office calculator
-  - Expense tracking
-  - Direct to CRA filing
+ - Home office calculator
+ - Expense tracking
+ - Direct to CRA filing
 
 ---
 
@@ -567,57 +555,6 @@ Examples:
 
 ---
 
-## Annual Tax Deduction Summary Worksheet
-
-**For Your Tax Return:**
-
-```
-HOME OFFICE TAX DEDUCTION WORKSHEET - 2026
-
-STEP 1: Determine Method
-Method chosen (select one):
-□ Simplified method ($5/sq ft in US, flat rate in UK, etc)
-□ Actual expense method
-
-STEP 2: Calculate Square Footage (US/Canada) or Percentage (EU)
-Total home size: _____ sq ft
-Home office size: _____ sq ft
-Percentage used for office: _____%
-
-STEP 3: Direct Expenses (US/Canada/EU)
-Furniture & equipment depreciation: $______
-Software & subscriptions: $______
-Office supplies: $______
-Total Direct: $______
-
-STEP 4: Indirect Expenses (Allocate by percentage)
-Mortgage interest or rent: $______ × ____% = $______
-Property tax: $______ × ____% = $______
-Utilities (electric, gas, water): $______ × ____% = $______
-Internet (work portion): $______ × ____% = $______
-Home insurance: $______ × ____% = $______
-Maintenance & repairs: $______ × ____% = $______
-Total Indirect: $______
-
-STEP 5: Total Deduction
-Simplified method result: $______
-OR
-Actual method result (Direct + Indirect): $______
-
-SELECTED DEDUCTION (whichever is larger): $______
-
-STEP 6: Tax Savings Calculation
-Deduction × Your tax bracket (%) = Tax savings
-$______ × ___% = $______
-
-Examples:
-- USA: 24% bracket = $1,500 deduction × 24% = $360 tax savings
-- UK: 20% bracket = £1,350 × 20% = £270 tax savings
-- Canada: 30% bracket = CAD$2,000 × 30% = CAD$600 tax savings
-```
-
----
-
 ## Common Mistakes to Avoid
 
 ```
@@ -648,44 +585,7 @@ Examples:
 
 ---
 
-## Conclusion & Action Items
-
-**For USA Filers:**
-1. Measure your home office
-2. Calculate simplified method ($5/sq ft)
-3. List actual expenses for comparison
-4. Claim whichever is larger
-5. Projected savings: $100-500/year in tax
-
-**For UK Filers:**
-1. Count weeks worked from home
-2. Claim £26/week (flat rate, easiest)
-3. Keep record of dates worked from home
-4. Projected savings: £100-300/year in tax relief
-
-**For EU Filers (Germany/France):**
-1. Measure dedicated office space
-2. Calculate simplified daily rate (€5/day in Germany, 10% rent in France)
-3. Compare to actual expenses
-4. Projected savings: €200-1,000/year in tax
-
-**For Canadian Filers:**
-1. Calculate office percentage of home
-2. List all eligible household expenses
-3. Apply percentage allocation
-4. Projected savings: CAD$300-900/year in tax
-
-**Timeline:**
-- Month 1: Set up digital receipt tracking system
-- Months 2-11: Collect all receipts and bills
-- Month 12: Calculate deduction using worksheet above
-- Tax filing: Enter deduction on return with documentation ready
-
-The time investment is 2-3 hours. The tax savings: $300-1,500 per year. ROI: Priceless.
-
-{% endraw %}
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
+{% endraw %}

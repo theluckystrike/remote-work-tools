@@ -201,7 +201,7 @@ Score each platform honestly. A platform scoring 4.5/5 on technical but 2/5 on u
 For globally distributed teams, true synchronous events are impossible. Consider these alternatives:
 
 **Relay-Style Escape Room**:
-- Team A in Asia solves Puzzle 1, records solution
+- Team an in Asia solves Puzzle 1, records solution
 - Team B in Europe solves Puzzle 2 using Team A's output
 - Team C in Americas solves Puzzle 3 using Teams A+B output
 - Creates interdependence and asynchronous collaboration
@@ -272,8 +272,6 @@ Test any platform with a small group before committing to a full-team event. Mos
 - [Virtual Escape Room Platforms for Remote Engineering Team Events](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
 - [Best Virtual Team Trivia Platform for Remote Social.](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 - [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

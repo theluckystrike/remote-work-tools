@@ -222,7 +222,5 @@ Start with the simplest tracking that provides adequate visibility, then add aut
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
 - [Best Tool for Tracking Remote Team Goals and Key Results.](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

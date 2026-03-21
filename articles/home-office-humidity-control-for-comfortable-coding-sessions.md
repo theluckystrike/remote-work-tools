@@ -247,7 +247,5 @@ Room-level humidity can be within range while the micro-environment near your mo
 - [How to Childproof Home Office When Toddler Interrupts.](/remote-work-tools/how-to-childproof-home-office-when-toddler-interrupts-meetin/)
 - [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

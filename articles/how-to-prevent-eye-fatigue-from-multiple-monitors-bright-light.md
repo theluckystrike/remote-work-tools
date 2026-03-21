@@ -184,7 +184,5 @@ Use this checklist to ensure your multi-monitor setup is eye-friendly:
 - [Screen Brightness Settings for Eye Health: A Developer's Guide](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
 - [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

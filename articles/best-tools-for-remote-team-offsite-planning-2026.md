@@ -148,7 +148,7 @@ Dashboard alerts:
 
 ### Strengths
 
-- Comprehensive coverage (flights, hotels, ground transport)
+- coverage (flights, hotels, ground transport)
 - Real-time budget visibility
 - Policy enforcement prevents overspending
 - Automatic expense management

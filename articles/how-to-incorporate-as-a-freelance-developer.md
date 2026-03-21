@@ -162,7 +162,7 @@ While many developers incorporate themselves, certain situations warrant profess
 - Contractual requirements from enterprise clients
 - Previous legal or tax issues
 
-A one-time consultation with a small business attorney or CPA ($200-500) can prevent costly mistakes and ensure your structure aligns with your goals.
+an one-time consultation with a small business attorney or CPA ($200-500) can prevent costly mistakes and ensure your structure aligns with your goals.
 
 ## Related Reading
 
@@ -170,8 +170,6 @@ A one-time consultation with a small business attorney or CPA ($200-500) can pre
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
 - [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 - [How to Ask for Referrals as a Freelance Developer](/remote-work-tools/how-to-ask-for-referrals-as-freelance-developer/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -231,7 +231,5 @@ Start with encryption enforcement as your baseline security control, then layer 
 - [DNS Filtering Setup for Remote Team Endpoint Security.](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
 - [How to Audit Remote Employee Device Security Compliance.](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

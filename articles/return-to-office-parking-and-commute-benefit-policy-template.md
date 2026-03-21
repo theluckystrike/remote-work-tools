@@ -254,39 +254,12 @@ When deploying this policy in your organization, consider these practical factor
 
 **Communication** — Provide clear guidelines to employees about what expenses qualify, how to submit receipts, and when reimbursements will be processed.
 
-## Sample Policy Summary Document
-
-For employee-facing documentation, simplify the policy into accessible language:
-
-```
-HYBRID COMMUTER BENEFITS QUICK GUIDE (2026)
-
-Who's Eligible?
-- Full-time and part-time employees working onsite 8+ days monthly
-- Benefits start after your first 30 days of employment
-
-What We Cover:
-- Parking: Up to $200/month for validated parking
-- Transit: Up to $150/month for bus, train, or ferry passes
-- Bike: Up to $500/year for purchase or maintenance
-- Mileage: $0.67/mile for business travel
-
-How to Submit:
-1. Collect receipts for all expenses
-2. Submit within 30 days through the employee portal
-3. Reimbursements process within one pay cycle
-
-Questions? Contact hr@yourcompany.com
-```
-
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 - [Return to Office Childcare Benefit Policy Template for.](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
 - [Return to Office Employee Survey Template: Measuring.](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
 - [Return to Office Mental Health Support Resources for.](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

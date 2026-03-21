@@ -32,57 +32,6 @@ The other challenge is attention. Your reviewer is likely reading your proposal 
 
 Every successful async project proposal contains several key sections. Skipping any of these reduces your chances of approval.
 
-### Executive Summary
-
-Start with a clear, concise summary that can be understood in under 30 seconds. This section should answer: What are you proposing? Why does it matter? What's the ask? Keep it to 2-3 paragraphs maximum. Many reviewers decide whether to continue reading based entirely on this section.
-
-**Example structure:**
-- The problem or opportunity you're addressing (1-2 sentences)
-- Your proposed solution (1-2 sentences)
-- Expected outcomes and timeline (1 sentence)
-- What you need from the reviewer (decision, feedback, resources)
-
-### Problem Statement
-
-Define the problem clearly before proposing a solution. Your reviewer needs to agree that a problem exists before they can support solving it. Use data wherever possible—metrics, customer feedback, incident reports, or competitive analysis. If you're relying on anecdotal evidence, be transparent about that.
-
-Avoid exaggerating problems to make your solution seem more urgent. Experienced managers see through this, and it damages your credibility for future proposals.
-
-### Proposed Solution
-
-This is the heart of your proposal. Describe what you're planning to do in enough detail that the reviewer can evaluate feasibility and fit. Include:
-
-**Scope:** What's included and explicitly excluded? Boundary-setting prevents scope creep later and shows you've thought through the full picture.
-
-**Approach:** What methodology or process will you use? Why is this approach better than alternatives? Address why you're not proposing other solutions.
-
-**Resources:** What do you need—budget, people, time, access? Be specific. "Some engineering time" is less compelling than "2 senior engineers for 3 sprints."
-
-**Timeline:** Provide a realistic schedule with key milestones. Include dependencies on other teams or projects.
-
-### Risk Assessment
-
-Proactively address risks and how you'll mitigate them. This demonstrates maturity and builds trust. Common risks to address:
-
-- Technical risks (new technology, untested approaches)
-- Resource risks (availability of team members, competing priorities)
-- Timeline risks (dependencies, external factors)
-- Adoption risks (will people actually use what you're building?)
-
-For each risk, explain your mitigation strategy. This shows you've thought through the challenges and aren't naive about what could go wrong.
-
-### Success Metrics
-
-Define how you'll measure success before starting. Pick metrics that matter to the business, not just activity metrics. Avoid vanity metrics that look good but don't indicate real value.
-
-**Example:**
-- Instead of "number of users" → "daily active users who complete the core workflow"
-- Instead of "features shipped" → "customer satisfaction score improvement"
-
-### Request and Timeline
-
-End with a clear ask and deadline. What do you need from the reviewer? A simple yes/no? Feedback to iterate? Budget approval? Set a realistic deadline for their response—typically 3-5 business days for non-urgent proposals.
-
 ## Frameworks for Different Types of Proposals
 
 Not all proposals are the same. Adjust your approach based on what you're asking for.

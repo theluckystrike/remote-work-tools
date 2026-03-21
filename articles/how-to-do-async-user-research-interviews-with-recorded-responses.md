@@ -5,16 +5,16 @@ description: "Learn how to conduct effective async user research interviews usin
 date: 2026-03-18
 author: "Remote Work Tools Guide"
 categories: 
-  - remote-work
-  - product
-  - ux-research
+ - remote-work
+ - product
+ - ux-research
 tags: 
-  - async user research
-  - recorded interviews
-  - user research methodology
-  - remote research
-  - product discovery
-  - ux research tools
+ - async user research
+ - recorded interviews
+ - user research methodology
+ - remote research
+ - product discovery
+ - ux research tools
 permalink: /how-to-do-async-user-research-interviews-with-recorded-responses/
 reviewed: true
 score: 8
@@ -337,16 +337,6 @@ Async user research interviews work best when integrated into your regular produ
 - Create highlight reels for slack sharing
 - Assign individual analysis tasks
 - Make findings visible in team workspace
-
-## Best Practices Summary
-
-1. **Start with clear research questions** - Know what you want to learn before designing the interview
-2. **Limit question count** - 5-7 questions maximum to maintain completion rates
-3. **Test with internal team first** - Validate questions before sending to external participants
-4. **Provide detailed instructions** - Help participants succeed in recording quality responses
-5. **Build analysis time into timeline** - Plan 2-3 hours per participant for thorough analysis
-6. **Share findings broadly** - Make research accessible to inform product decisions across the team
-7. **Iterate on your process** - Refine questions and setup based on what works
 
 ## Related Reading
 

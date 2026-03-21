@@ -165,7 +165,7 @@ Video Documentation: Loom and similar tools enable quick video walkthroughs. A 1
 After a developer leaves, verify your knowledge base actually works. Assign someone to:
 
 - Attempt to deploy each system they owned
-- Answer questions an user might ask about their features
+- Answer questions a user might ask about their features
 - Handle common issues that would have gone to the departed developer
 
 This validation catches gaps while they're fixable. Create a feedback loop where the person covering these responsibilities documents what was missing.
@@ -187,8 +187,6 @@ Remote teams must be intentional about knowledge sharing. Without hallway conver
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
 - [How to Prevent Knowledge Silos When Remote Team Grows.](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
 - [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

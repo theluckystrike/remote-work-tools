@@ -79,7 +79,7 @@ jobs:
  - name: Check keyword presence
  run: |
  TITLE=$(head -20 ${{ github.event.pull_request.title }})
- if ! echo "$TITLE" | grep -q "remote content team collaboration"; then
+ if! echo "$TITLE" | grep -q "remote content team collaboration"; then
  echo "Error: Target keyword not in title"
  exit 1
  fi
@@ -195,7 +195,7 @@ gh label create "approved" --color "green"
 **At 13+ writers**: Assign dedicated reviewers per content vertical. Route PRs automatically using CODEOWNERS:
 
 ```
-# .github/CODEOWNERS
+#.github/CODEOWNERS
 content/seo/ @seo-lead
 content/product/ @product-editor
 content/tech/ @tech-editor
@@ -249,7 +249,7 @@ Add this script to your CI pipeline so every PR gets quality feedback automatica
 Distributed content teams face review bottlenecks when a reviewer in UTC+9 cannot respond to a writer in UTC-5 until the next morning. Set explicit SLAs for each review stage and automate deadline reminders:
 
 ```yaml
-# .github/workflows/review-deadline-reminder.yml
+#.github/workflows/review-deadline-reminder.yml
 name: Editorial Review Deadline
 
 on:
@@ -291,8 +291,6 @@ This automation pings reviewers automatically without requiring a project manage
 - [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 - [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 - [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

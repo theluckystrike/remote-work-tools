@@ -208,7 +208,5 @@ Start with one ritual, one documented value, or one process improvement. Culture
 - [Remote Team Documentation Culture: Building Guide for.](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [How to Create Remote Team Values Documentation That.](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

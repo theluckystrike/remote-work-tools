@@ -194,7 +194,5 @@ Another failure mode is the feedback black hole where comments disappear into si
 - [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 - [How to Maintain Remote Team Culture When Transitioning.](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

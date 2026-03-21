@@ -365,7 +365,5 @@ The right combination of tools transforms GDPR compliance from a legal burden in
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Virtual Team Events Ideas for Developers in 2026](/remote-work-tools/virtual-team-events-ideas-for-developers-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

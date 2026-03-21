@@ -247,21 +247,6 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
 
 This script helps you generate a rotation schedule where no single time zone consistently takes inconvenient meeting times.
 
-## Summary: Key Patterns for Scaling Sprint Ceremonies
-
-Scaling sprint ceremonies when splitting into squads requires three structural changes:
-
-1. Move individual preparation async: Story selection, status updates, and initial feedback happen asynchronously before synchronous sessions.
-
-2. Embed coordination into tools: Dependency tracking lives in your project management system, not in additional meetings.
-
-3. Rotate burden fairly: Ceremony scheduling should rotate across time zones so no group consistently attends meetings at inconvenient hours.
-
-The goal is maintaining sprint rhythm and team alignment without creating meeting overhead that negates the productivity benefits of squad-based organization.
-
----
-
-
 ## Related Reading
 
 - [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)

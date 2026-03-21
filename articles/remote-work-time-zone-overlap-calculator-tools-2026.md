@@ -185,16 +185,16 @@ Suggested times:
 **Setup**:
 
 1. Create separate Google Calendar for each zone:
-   - "Team NYC"
-   - "Team London"
-   - "Team SG"
-   - "Team Sydney"
+ - "Team NYC"
+ - "Team London"
+ - "Team SG"
+ - "Team Sydney"
 
 2. Set each calendar's time zone:
-   - Team NYC → Eastern Time
-   - Team London → GMT
-   - Team SG → Singapore Time
-   - Team Sydney → AEDT
+ - Team NYC → Eastern Time
+ - Team London → GMT
+ - Team SG → Singapore Time
+ - Team Sydney → AEDT
 
 3. View all four calendars side-by-side
 4. See free/busy blocks for all zones simultaneously
@@ -396,9 +396,9 @@ Cost: $10-50/month (hosting, services)
 - [ ] Calculate overlapping working hours (e.g., 2pm UTC covers all?)
 - [ ] Choose primary meeting time(s)
 - [ ] Set up tool:
-  - [ ] World Time Buddy: Create team preset
-  - [ ] Slack: Build workflow
-  - [ ] Custom bot: Deploy and test
+ - [ ] World Time Buddy: Create team preset
+ - [ ] Slack: Build workflow
+ - [ ] Custom bot: Deploy and test
 - [ ] Document in: CONTRIBUTING.md, Slack topic, wiki
 - [ ] Test: Schedule one meeting, confirm all zones see correct time
 - [ ] Automate: Add standup/sync times to recurring calendar invites
@@ -436,11 +436,6 @@ Document in Slack:
 Asynchronous participation via Slack threads + Loom videos ensures no one is chronically disadvantaged.
 
 ---
-
-## Conclusion
-
-For small distributed teams, Every Time Zone and a shared calendar note solve 80% of the problem. For structured organizations, World Time Buddy saves time on recurring scheduling. For Slack-native teams, automation workflows eliminate the overhead entirely. Build your tool stack around your communication style: if you live in Slack, automate there; if you use calendar, sync zones visually; if you have developers, customize with a bot. Time zone friction vanishes when it's automated.
-
 
 ## Related Reading
 

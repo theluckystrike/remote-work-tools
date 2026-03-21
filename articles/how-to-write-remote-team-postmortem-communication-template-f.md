@@ -16,7 +16,7 @@ voice-checked: true
 {% raw %}
 # How to Write Remote Team Postmortem Communication Template for Incident Announcements
 
-When an incident hits your production system, the hours and days following require clear, structured communication. Remote teams face an unique challenge: the lack of spontaneous hallway conversations means every message must stand on its own. A well-crafted postmortem communication template ensures stakeholders receive consistent, actionable information without requiring follow-up questions.
+When an incident hits your production system, the hours and days following require clear, structured communication. Remote teams face a unique challenge: the lack of spontaneous hallway conversations means every message must stand on its own. A well-crafted postmortem communication template ensures stakeholders receive consistent, actionable information without requiring follow-up questions.
 
 This guide provides a framework and ready-to-use templates for announcing incidents and publishing postmortems to your remote team.
 
@@ -322,8 +322,6 @@ The shift from person to system is deliberate: action items that fix systems pre
 - [How to Write Postmortem Reports for Remote Teams](/remote-work-tools/how-to-write-postmortem-reports-for-remote-teams/)
 - [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
 - [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

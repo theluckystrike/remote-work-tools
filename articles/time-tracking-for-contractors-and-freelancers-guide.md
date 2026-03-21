@@ -268,7 +268,5 @@ The best time tracking system is the one you actually use consistently. Experime
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [Remote Engineering Team Build Time Tracking as Developer.](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

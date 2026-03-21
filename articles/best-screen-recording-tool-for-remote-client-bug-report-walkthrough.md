@@ -170,7 +170,5 @@ The goal remains consistent regardless of tool choice: capture clear, contextual
 - [Best Tool for Remote Teams Recording and Transcribing.](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
 - [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -241,7 +241,5 @@ Separate environments: Never use production API keys in development or staging. 
 - [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
 - [Best Secrets Management Tool for Remote Development.](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

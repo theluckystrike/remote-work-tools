@@ -122,7 +122,7 @@ When a fintech company migrated from JIRA to Linear, their change communication 
 
 A fully async startup changed their core working hours policy from "overlap 2 hours" to "overlap 4 hours" to improve synchronous collaboration. The announcement explicitly addressed the rationale (customer support response times were suffering), provided a transition period of two weeks, and included a calendar invite for an optional live discussion. The founder sent a short Loom video explaining the reasoning. The follow-up phase included a pulse check after two weeks to gauge satisfaction and adjust if needed.
 
-**Example 3: Team Restructuring at an European-US Distributed Team**
+**Example 3: Team Restructuring at a European-US Distributed Team**
 
 A team undergoing restructuring communicated through a dedicated Notion page that served as the single source of truth. The page included org charts (before and after), FAQ addressing role changes, and a timeline of when conversations would happen. Each manager held 1:1s with direct reports within 48 hours of the announcement. A weekly update email kept everyone informed of progress through the transition period.
 
@@ -188,8 +188,6 @@ Iterate your process: After each change cycle, note what worked and what did not
 - [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 - [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
 - [Remote Team Growth Stage Communication Audit.](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -173,7 +173,5 @@ Evaluate your team's specific needs, try both tools with a small project, and ch
 - [Shortcut vs Linear: Issue Tracking Comparison for.](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
 - [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

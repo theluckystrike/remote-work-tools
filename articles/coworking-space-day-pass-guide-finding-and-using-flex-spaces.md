@@ -407,7 +407,5 @@ Book summer day passes in bulk if you're planning that season. Avoid December 20
 - [How to Find Coworking Spaces in Medellín Colombia with.](/remote-work-tools/how-to-find-coworking-spaces-in-medellin-colombia-with-video/)
 - [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

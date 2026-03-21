@@ -226,6 +226,4 @@ Deploy endpoint detection and response (EDR) solutions across all devices, regar
 - [Satellite Office Strategy for Hybrid Companies](/remote-work-tools/satellite-office-strategy-for-hybrid-companies/)
 - [How to Design Mother and Parent Room for Hybrid Office.](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

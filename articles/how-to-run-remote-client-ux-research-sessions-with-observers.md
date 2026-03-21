@@ -209,7 +209,5 @@ A simple Google Sheets template works well for tracking observations:
 - [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
 - [Best Online Teaching Platform for Remote Tutors Running.](/remote-work-tools/best-online-teaching-platform-for-remote-tutors-running-live/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

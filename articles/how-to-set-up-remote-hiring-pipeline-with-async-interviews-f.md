@@ -235,7 +235,5 @@ Review these metrics quarterly and iterate on your pipeline stages.
 - [Async Interview Process for Hiring Remote Developers: No.](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
 - [How to Coordinate Remote Mobile Developers Releasing.](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

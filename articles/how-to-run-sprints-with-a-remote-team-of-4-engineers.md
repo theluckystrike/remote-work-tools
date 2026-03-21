@@ -31,7 +31,7 @@ voice-checked: true
 Create these issues automatically with a GitHub Action:
 
 ```yaml
-# .github/workflows/weekly-standup.yml
+#.github/workflows/weekly-standup.yml
 name: Weekly Standup
 on:
  schedule:
@@ -176,7 +176,7 @@ Use GitHub Projects to visualize dependencies:
 In async environments, blockers can go unnoticed for days. Implement automated escalation:
 
 ```yaml
-# .github/workflows/blocker-escalation.yml
+#.github/workflows/blocker-escalation.yml
 name: Blocker Escalation
 on:
  issues:
@@ -253,5 +253,4 @@ Start with async standups this sprint, add capacity planning in your next planni
 - [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
 {% endraw %}

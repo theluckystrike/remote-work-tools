@@ -188,10 +188,10 @@ Before committing to a coworking space, verify internet quality:
 1. **During a day pass**, conduct a real speed test while sitting in the booth
 2. **Run the test at different times**: morning, midday, late afternoon
 3. **Minimum requirements for video calls**:
-   - Upload: 5+ Mbps (critical for video quality)
-   - Download: 10+ Mbps
-   - Latency: <50ms
-   - Jitter: <10ms
+ - Upload: 5+ Mbps (critical for video quality)
+ - Download: 10+ Mbps
+ - Latency: <50ms
+ - Jitter: <10ms
 
 Many coworking spaces display impressive speeds during quiet hours but degrade during peak usage. Test during the times you'll actually work.
 
@@ -219,7 +219,7 @@ When scouting spaces, consider proximity to your workspace for early morning cal
 
 ## Building Your Coworking Network
 
-Beyond finding a space, leverage coworking community for professional growth:
+Beyond finding a space, use coworking community for professional growth:
 
 - **Attend community events**: Most spaces host monthly meetups or skill-shares
 - **Connect on LinkedIn**: Add coworking community members who work in your field
@@ -279,8 +279,6 @@ Attending one community event per month can lead to unexpected professional oppo
 - [Coworking Space Day Pass Guide: Finding and Using Flex.](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
 - [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 - [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

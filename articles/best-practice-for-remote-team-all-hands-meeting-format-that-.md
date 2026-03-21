@@ -147,7 +147,7 @@ Build the habit. Measure results. Adjust as your team continues to grow.
 |----------|-------|----------|--------------|
 | Zoom | $15.99/month Pro | Video platform | Breakout rooms, live transcripts, recording |
 | Google Meet | $12/user/month | Video platform | Simplicity, Google Workspace integration |
-| Slido | $26-99/month | Q&A and polling | Interactive polls, leaderboards, live Q&A |
+| Slido | $26-99/month | Q&an and polling | Interactive polls, leaderboards, live Q&A |
 | Airtable | Free-$20/user/month | Async updates | Database for sharing team updates |
 | Notion | Free-$25/user/month | Async content hub | Central repository, collaborative docs |
 | Descript | $24/month | Recording transcription | Auto-transcripts, highlight clips |
@@ -179,7 +179,7 @@ For teams implementing this format for the first time:
 
 **Week 3: Full Company Launch**
 - Run updated format with full team
-- Gather comprehensive feedback
+- Gather feedback
 - Document what worked and what needs fixing
 - Estimated time investment: 3 hours for organizers
 
@@ -262,7 +262,7 @@ After all-hands, create mechanism for response and follow-up:
 - Ask: "What topic would you like covered next month?"
 - Publish aggregate feedback and adjustments made
 
-This creates an asynchronous dialogue rather than a one-way broadcast.
+This creates an asynchronous dialogue rather than an one-way broadcast.
 
 ## Scaling Beyond 100 People
 

@@ -167,7 +167,5 @@ The specific hardware matters less than ensuring each component serves both audi
 - [Best Video Bar for Small Hybrid Meeting Rooms Under 8.](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
 - [Meeting Room Video Conferencing Equipment Setup for.](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

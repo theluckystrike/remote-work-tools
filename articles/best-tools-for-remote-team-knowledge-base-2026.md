@@ -15,7 +15,7 @@ intent-checked: true
 
 {% raw %}
 
-Notion dominates for comprehensive workspace flexibility but sacrifices search speed. Guru excels at keeping knowledge accessible directly in Slack, critical for distributed teams. Tettra provides the best specialized knowledge base experience with natural search. Slite balances collaboration and searchability with reasonable pricing. Almanac targets explicitly for engineering runbooks and incident response. Choosing a knowledge base tool depends on whether your team prioritizes discoverability, editing experience, or integration depth.
+Notion dominates for workspace flexibility but sacrifices search speed. Guru excels at keeping knowledge accessible directly in Slack, critical for distributed teams. Tettra provides the best specialized knowledge base experience with natural search. Slite balances collaboration and searchability with reasonable pricing. Almanac targets explicitly for engineering runbooks and incident response. Choosing a knowledge base tool depends on whether your team prioritizes discoverability, editing experience, or integration depth.
 
 ## Knowledge Base Priorities for Remote Teams
 
@@ -233,7 +233,7 @@ Almanac:
 
 ## Decision Framework
 
-**Choose Notion** if your team needs a unified workspace combining documentation, project management, and databases. Accept slower search in exchange for unlimited customization.
+**Choose Notion** if your team needs an unified workspace combining documentation, project management, and databases. Accept slower search in exchange for unlimited customization.
 
 **Choose Guru** if your team lives in Slack and wants knowledge surfaced passively without explicit searching. Accept card-based format limitations.
 

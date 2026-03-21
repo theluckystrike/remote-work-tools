@@ -171,7 +171,5 @@ Start with these steps:
 - [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
 - [VPN vs Zero Trust Architecture Comparison for Remote Teams: 2026 Guide](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

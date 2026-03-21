@@ -186,7 +186,5 @@ The shift to async-first communication transforms how remote teams operate. Mess
 - [How to Write Clear Async Project Briefs for Remote Teams.](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
 - [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

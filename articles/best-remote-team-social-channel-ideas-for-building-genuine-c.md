@@ -202,7 +202,5 @@ Building genuine connections in remote teams requires intentional design. The ch
 - [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
 - [How to Create Interest-Based Slack Channels for Remote.](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

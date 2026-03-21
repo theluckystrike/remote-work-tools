@@ -256,7 +256,7 @@ Not everyone can attend at the same time. Build async options:
 
 **Async-first activities** for global teams: Monthly "build something cool" challenge posted to a shared folder, 1-week submission window, 1-week voting/feedback window. Works across any timezone because there's no synchronous requirement. People participate when they have energy, not when the clock dictates.
 
-Example: Week 1 (post challenge Tuesday): "Build a useful shell script in your favorite language, max 50 lines." Week 2 (voting window): Everyone votes on favorites, leaves comments, shares ideas. Live showcase Thursday with creators explaining their tools. This format accommodates full global distribution while maintaining culture.
+Example: Week 1 (post challenge Tuesday): "Build an useful shell script in your favorite language, max 50 lines." Week 2 (voting window): Everyone votes on favorites, leaves comments, shares ideas. Live showcase Thursday with creators explaining their tools. This format accommodates full global distribution while maintaining culture.
 
 ## The Quiet Inclusion Metric
 
@@ -315,8 +315,6 @@ The goal is not to replicate office proximity but to create new forms of connect
 - [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
 - [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 - [Best Practice for Hybrid Team Standup Format.](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -276,7 +276,5 @@ Most successful husband-wife teams that scale either:
 - [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
 - [Best Project Tracking Tool for Remote Hardware.](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

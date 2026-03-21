@@ -313,7 +313,5 @@ Your project management tool should feel like it accelerates your work, not adds
 - [Project Tracking Tool for Two Person Design Agency 2026](/remote-work-tools/project-tracking-tool-for-two-person-design-agency-2026/)
 - [Best Tool for Remote Team Cross-Functional Project Staffing as Organization Grows Larger 2026](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

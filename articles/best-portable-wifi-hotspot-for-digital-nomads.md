@@ -250,7 +250,5 @@ fi
 - [Portable Monitor Setup for Digital Nomads: A Developer's Guide](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
 - [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -213,7 +213,5 @@ Forgetting Recurring Costs: Remind clients about subscriptions, renewals, and on
 - [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
 - [Client Project Status Dashboard Setup for Remote Agency.](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

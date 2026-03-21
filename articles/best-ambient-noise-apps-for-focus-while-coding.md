@@ -34,7 +34,7 @@ The science behind this relates to selective attention. Your brain naturally fil
 
 ### Noisli
 
-Noisli offers an unique mixing capability that lets you combine multiple sound sources. You can layer rain with coffee shop ambiance, or mix forest sounds with white noise. This customization is particularly useful because different tasks may require different soundscapes.
+Noisli offers a unique mixing capability that lets you combine multiple sound sources. You can layer rain with coffee shop ambiance, or mix forest sounds with white noise. This customization is particularly useful because different tasks may require different soundscapes.
 
 **Key features:**
 - Sound mixing with multiple simultaneous sources

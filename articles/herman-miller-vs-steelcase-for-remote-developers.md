@@ -198,9 +198,9 @@ Both brands offer 12-year warranties, but what they cover differs:
 
 ## Size Matters: The Critical Detail Everyone Misses
 
-Chair sizing is vastly underestimated in importance. An Aeron Size A on someone 6'2" will never feel right, no matter how good the mechanism. Conversely, a Size C on someone 5'4" creates unnecessary pressure.
+Chair sizing is vastly underestimated in importance. An Aeron Size an on someone 6'2" will never feel right, no matter how good the mechanism. Conversely, a Size C on someone 5'4" creates unnecessary pressure.
 
-**For Developers Under 5'5"**: Aeron Size A is essential. Herman Miller Embody comes in one size but works better for average heights. Steelcase Leap and Gesture work across sizes but may feel large.
+**For Developers Under 5'5"**: Aeron Size an is essential. Herman Miller Embody comes in one size but works better for average heights. Steelcase Leap and Gesture work across sizes but may feel large.
 
 **For Developers 5'5" to 5'10"**: Most chairs work well. Aeron Size B is the sweet spot. Embody fits well throughout this range.
 
@@ -312,8 +312,6 @@ Consider the full lifecycle:
 - [Herman Miller vs Steelcase for Home Office: A Developer's Guide](/remote-work-tools/herman-miller-vs-steelcase-for-home-office/)
 - [Best Home Office Setup for Software Developers: A.](/remote-work-tools/best-home-office-setup-for-software-developers/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

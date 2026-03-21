@@ -213,7 +213,5 @@ Keep these meetings short—15 minutes maximum. The goal is information sharing,
 - [How to Scale Remote Team Sprint Ceremonies When Splitting Into Multiple Squads: A Practical Guide](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)
 - [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

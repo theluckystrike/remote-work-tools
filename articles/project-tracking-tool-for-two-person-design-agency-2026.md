@@ -151,9 +151,9 @@ Plane provides Linear-like speed with self-hosting options. For a two-person age
 ```bash
 # Deploy Plane locally
 docker run -d --name plane \
-  -p 80:80 \
-  -e NEXT_PUBLIC_API_BASE_URL=http://localhost \
-  plane/plane
+ -p 80:80 \
+ -e NEXT_PUBLIC_API_BASE_URL=http://localhost \
+ plane/plane
 ```
 
 Plane suits design agencies that already run their own infrastructure.
@@ -259,8 +259,6 @@ The tools scale, but your processes need adjustment at each growth stage.
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [Project Management Tools for Freelancers 2026: A.](/remote-work-tools/project-management-tools-for-freelancers-2026/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -214,7 +214,5 @@ Remote work accommodations for special needs children aren't about working lessâ
 - [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 - [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
 
-Built by
-
 Built by theluckystrike â€” More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -192,7 +192,5 @@ Document this constraint so new hires understand why initial meetings are sparse
 - [How to Run Remote User Research Sessions for UX.](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
 - [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

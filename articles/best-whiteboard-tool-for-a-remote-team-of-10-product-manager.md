@@ -216,7 +216,7 @@ This workflow requires templates, real-time multi-user support, and integrations
 | **Slack** | Native notifications | Via Figma | Third-party | Native |
 | **Google Drive** | Export to Drive | Native | Manual upload | N/A |
 | **Zapier** | Full support | Limited | None | Limited |
-| **Custom API** | Comprehensive REST API | Limited | Read-only | Available |
+| **Custom API** | REST API | Limited | Read-only | Available |
 
 ### Miro API Example for Automation
 
@@ -327,8 +327,6 @@ The right tool is the one your team actually uses. Evaluate based on your team's
 - [Best Whiteboard Tool for Remote Client Brainstorming.](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
 - [Productboard vs Aha for Remote Product Management](/remote-work-tools/productboard-vs-aha-for-remote-product-management/)
 - [Best Virtual Whiteboard for Remote Team Brainstorming and Ideation Sessions 2026](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

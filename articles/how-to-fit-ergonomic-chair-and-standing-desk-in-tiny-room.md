@@ -165,7 +165,5 @@ The key to fitting ergonomic furniture in a tiny room is measuring twice and buy
 - [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 - [Best Compact Standing Desk for Small Apartment Home.](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

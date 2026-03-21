@@ -149,7 +149,7 @@ Gusto's flow:
 
 ## Rippling for Remote Onboarding
 
-Rippling is a unified workforce platform: payroll, HR, IT, and device management in one system. It's the most comprehensive for remote onboarding.
+Rippling is an unified workforce platform: payroll, HR, IT, and device management in one system. It's the most for remote onboarding.
 
 ### Setup and Pricing
 
@@ -229,7 +229,7 @@ Via Zapier:
 
 ### Strengths
 
-- **Most comprehensive**: HR + payroll + IT in one platform
+- **Most **: HR + payroll + IT in one platform
 - **Device provisioning**: Only major platform with built-in device management
 - **Identity integration**: Seamless Okta/Azure AD sync
 - **Offboarding**: Complete access revocation automation
@@ -507,14 +507,6 @@ Scenario: Adding onboarding automation to existing setup.
 | Gusto (if using payroll) | $0 | $600-1,500 | $7,200-18,000 | Low |
 | Rippling | $2,000-4,000 | $800-1,800 | $11,600-25,800 | High |
 | Trainual (alone) | $0 | $800-1,500 | $9,600-18,000 | Low |
-
-## Recommendation Summary
-
-- **Startup (<50)**: Process Street. Flexible, cheap, easy to set up.
-- **Mid-market (100-500)**: BambooHR. Best balance of automation + cost + ease.
-- **Enterprise (500+)**: Rippling. Unified platform saves IT team massive time on device/account provisioning.
-- **Training-heavy culture**: Add Trainual to any platform for content delivery.
-- **Payroll is priority**: Gusto if already using; otherwise BambooHR.
 
 ## Onboarding Time Reduction
 

@@ -188,7 +188,5 @@ Building the right org structure for a growing remote team takes experimentation
 - [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 - [Remote Team Channel Sprawl Management Strategy When.](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

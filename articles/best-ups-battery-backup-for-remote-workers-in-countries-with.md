@@ -214,7 +214,5 @@ Perform load tests quarterly—simulate an outage by pulling the power cord (saf
 - [Ergonomic Laptop Stand for Remote Workers: A Developer's Guide](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
 - [Best Backup Internet Solution for Remote Workers in.](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

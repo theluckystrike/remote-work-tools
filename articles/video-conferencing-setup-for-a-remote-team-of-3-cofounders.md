@@ -198,7 +198,5 @@ For a new three-person cofounder team, follow this implementation sequence:
 - [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
 - [Meeting Room Video Conferencing Equipment Setup for.](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -32,41 +32,6 @@ Instead, your RFC should frame every claim with evidence, every decision with co
 
 An effective technical RFC follows a consistent structure that reviewers can quickly navigate. Use these sections in order:
 
-### 1. Summary (2-3 sentences)
-
-Start with a concise executive summary that tells readers exactly what you're proposing and why it matters. This is what busy engineers will read first—if it doesn't capture their attention, they won't dive deeper.
-
-### 2. Motivation and Problem Statement
-
-Define the problem you're solving with concrete examples. Avoid vague statements like "we need better performance." Instead, specify:
-
-- What specifically is slow or broken?
-- How does it affect users or developers?
-- What's the cost of the status quo?
-
-### 3. Proposed Solution
-
-This is the meat of your RFC. Walk through your proposed approach step by step, including:
-
-- Technical implementation details
-- API contracts or data structures (with code examples)
-- Edge cases you're handling
-- How this integrates with existing systems
-
-### 4. Alternatives Considered
-
-This section demonstrates you've thought broadly about the problem. List 2-3 alternative approaches and explicitly explain why you rejected each one. This pre-emptively answers the "why not just do X?" questions that otherwise derail RFC discussions.
-
-### 5. Open Questions
-
-Explicitly call out decisions you're unsure about. This gives reviewers specific areas where their expertise can add value. A good open question might be:
-
-> "Should we implement the cache invalidation strategy at the application layer or database level? I'm leaning toward application layer for flexibility, but I'm open to arguments for database-level enforcement."
-
-### 6. Timeline and Milestones
-
-If your RFC is approved, what's the implementation plan? Reviewers want to understand the scope and commitment involved.
-
 ## Writing Techniques That Generate Better Feedback
 
 ### Use Concrete Examples
@@ -192,8 +157,6 @@ Here's a practical template you can adapt:
 - [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
 - [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Async Decision Making with RFC Documents for Engineering.](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

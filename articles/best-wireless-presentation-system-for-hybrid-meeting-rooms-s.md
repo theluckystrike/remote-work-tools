@@ -193,7 +193,5 @@ The best wireless presentation system for your organization depends on existing 
 - [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
 - [Screen Sharing Solutions for Hybrid Meetings](/remote-work-tools/screen-sharing-solutions-for-hybrid-meetings/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

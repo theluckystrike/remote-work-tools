@@ -262,7 +262,7 @@ Your ideal platform changes as your freelance career develops:
 
 **Mid-career (6 months - 2 years):**
 - Toptal/Gun.io: If you qualify, apply for better-paying work
-- GitHub Jobs: Leverage growing reputation
+- GitHub Jobs: use growing reputation
 - Arc.dev: Remote positions with higher stability
 - Focus: Increase rates, be selective about clients
 
@@ -296,8 +296,6 @@ This reality drives experienced freelancers toward higher rates and fewer billab
 - [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
 - [LLC vs Sole Proprietor for Freelance Developers: A Practical Guide](/remote-work-tools/llc-vs-sole-proprietor-for-freelance-developers/)
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

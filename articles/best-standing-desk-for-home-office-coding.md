@@ -162,7 +162,7 @@ Dual motors with memory presets. Weight capacity up to 355 lbs. Sturdy enough fo
 Budget-friendly dual-motor option with good reviews from the developer community. Supports dual monitors reliably. Slightly slower ascent/descent compared to premium options but adequate for most workflows.
 
 **Herman Miller Ratio ($1,500-2,500)**
-Premium option favored by companies investing in employee health. Quieter motors, excellent stability, and a comprehensive warranty. Desktop surfaces start at 60 inches wide, making it ideal for wide developer setups with side-by-side monitors.
+Premium option favored by companies investing in employee health. Quieter motors, excellent stability, and a warranty. Desktop surfaces start at 60 inches wide, making it ideal for wide developer setups with side-by-side monitors.
 
 **IKEA IDASEN ($569-700)**
 The most affordable certified option from a major furniture manufacturer. Works well for single-monitor setups and tight spaces. Adequate motor performance for developers on budget constraints.
@@ -280,18 +280,18 @@ Proper monitor positioning varies when you switch between sitting and standing. 
 Solutions:
 
 1. **Monitor arm**: Allows vertical adjustment per position
-   - Fully Jarvis Arm ($60-80): Smooth adjustment, supports dual monitors
-   - Ergotron LX ($100-150): Premium option, excellent support for heavy monitors
+ - Fully Jarvis Arm ($60-80): Smooth adjustment, supports dual monitors
+ - Ergotron LX ($100-150): Premium option, excellent support for heavy monitors
 
 2. **Monitor riser**: Passive elevation
-   - Simple approach ($20-40)
-   - No moving parts but doesn't support full height range
-   - Works for standing-focused developers
+ - Simple approach ($20-40)
+ - No moving parts but doesn't support full height range
+ - Works for standing-focused developers
 
 3. **Accept imperfection**: Find compromise height
-   - Sit at slightly-too-high monitor height
-   - Stand at slightly-too-low monitor height
-   - Tolerable for many developers but suboptimal for long sessions
+ - Sit at slightly-too-high monitor height
+ - Stand at slightly-too-low monitor height
+ - Tolerable for many developers but suboptimal for long sessions
 
 For developers concerned about posture precision, monitor arms are worth the investment. They ensure your eyes remain at the correct angle whether sitting or standing.
 

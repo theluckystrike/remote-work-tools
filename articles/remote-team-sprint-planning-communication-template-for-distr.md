@@ -172,36 +172,6 @@ Please share your feedback in this thread by Thursday EOD:
 - Cycle time: {{ avg_days }} days
 ```
 
-### Sprint Handoff Summary
-
-For teams working in shifts or across time zones, a clear handoff template ensures continuity.
-
-```markdown
-📦 **Sprint {{ sprint_number }} Handoff Summary**
-
-**Completed Work:**
-| Issue | Title | PR | Deployed |
-|-------|-------|-----|----------|
-| #123 | Rate limiting | #234, #235 | ✅ to staging |
-| #456 | Dashboard fix | #289 | ✅ to staging |
-
-**In Progress (carrying to next sprint):**
-| Issue | Title | % Complete | Notes |
-|-------|-------|-----------|-------|
-| #567 | Login refactor | 60% | Blocked by API changes |
-
-**Knowledge Transfer:**
-- @alice owns the rate limiting implementation
-- @bob is primary reviewer for auth-related PRs
-
-**Next Sprint Priorities:**
-1. Complete #567
-2. Address technical debt from #789
-
-**Ready for Review:**
-- @reviewer please review: [links to PRs needing attention]
-```
-
 ## Slack Workflow Automation Tips
 
 For teams using Slack Workflow Builder, consider automating repetitive sprint communications.
@@ -255,8 +225,6 @@ The key to success with these templates is consistency. Use the same channel nam
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
 - [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

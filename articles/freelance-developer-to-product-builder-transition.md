@@ -329,7 +329,5 @@ This timeline is aggressive but realistic with discipline.
 - [Freelance Developer Portfolio Website Builders 2026](/remote-work-tools/freelance-developer-portfolio-website-builders-2026/)
 - [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

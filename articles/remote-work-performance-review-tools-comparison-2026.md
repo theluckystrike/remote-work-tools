@@ -194,7 +194,7 @@ resignations. With 15Five: Caught and addressed within 2 weeks.
 
 ### Limitations
 
-- Less robust goal tracking than Lattice
+- Less strong goal tracking than Lattice
 - 360 reviews are less sophisticated
 - Doesn't integrate with career ladders/succession planning
 - Better for small-to-medium companies

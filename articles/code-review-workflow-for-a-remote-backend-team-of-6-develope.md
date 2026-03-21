@@ -335,8 +335,8 @@ Use GitHub CODEOWNERS file:
 **Solution**:
 1. Enforce detailed PR descriptions upfront
 2. Request changes vs. comment distinction:
-   - Request changes: Breaking architectural issue
-   - Comment: Nice-to-have improvement
+ - Request changes: Breaking architectural issue
+ - Comment: Nice-to-have improvement
 3. Approve with minor suggestions rather than blocking
 
 ### Problem: PRs Merging with Known Issues
@@ -413,7 +413,5 @@ Most teams report 30-40% improvement in code review throughput within 8 weeks of
 - [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 - [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

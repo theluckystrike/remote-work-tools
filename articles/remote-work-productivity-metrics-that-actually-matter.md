@@ -243,7 +243,7 @@ Warning: Debt ratio declining. Will cause slowdown in 2-3 sprints.
 **Integrations:** GitHub, GitLab, Jira, Slack
 
 **Strengths:**
-- Comprehensive DORA metric tracking
+- DORA metric tracking
 - Industry benchmarks (compare against peers)
 - Team health indicators
 - Predictive insights (forecasts when velocity will slow)

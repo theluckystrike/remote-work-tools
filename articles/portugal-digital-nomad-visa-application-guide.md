@@ -82,7 +82,7 @@ Portugal offers the NHR (Non-Habitual Resident) tax regime, which provides signi
 - NHR benefits: Certain foreign-source income may be exempt
 - Recommended action: Consult a Portuguese accountant ($300-500 consultation fee)
 
-**If you're employed by a US company**:
+**If you're employed by an US company**:
 - Your employment income may qualify for NHR exemption
 - You'll still file Portuguese taxes
 - Social security contributions: 11% (automatic deduction)
@@ -297,8 +297,6 @@ Once approved, you'll have access to Portugal's relatively low cost of living (â
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 - [Malaysia Digital Nomad Pass DE Rantau Application for.](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
-
-Built by
 
 Built by theluckystrike â€” More at [zovo.one](https://zovo.one)
 {% endraw %}

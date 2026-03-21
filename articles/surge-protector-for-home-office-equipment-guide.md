@@ -182,7 +182,5 @@ After major event: Always replace point-of-use units
 - [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
 - [Best White Noise Machine for Home Office Blocking.](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

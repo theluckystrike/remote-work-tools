@@ -137,16 +137,6 @@ After the maximum five-year period, you cannot renew as a digital nomad. However
 
 If you plan to stay in Greece long-term, research these options at least one year before your digital nomad visa expires.
 
-## Key Takeaways
-
-- Start your renewal 60 days before visa expiration
-- Maintain income above €3,500 monthly with documented proof
-- Keep records of remote work activities
-- Use automation tools to track deadlines
-- Plan for long-term residency options before the five-year limit
-
-Staying in Greece as a digital nomad requires proactive management of your visa status. By organizing your documents early and using automation to track deadlines, you can ensure a smooth renewal process and continue enjoying the country's favorable climate and infrastructure for remote work.
-
 ## Regional Variations and Local Immigration Office Differences
 
 Greece's immigration process varies by region. Where you renew matters significantly for processing time and difficulty.
@@ -339,8 +329,6 @@ Research these options 18 months before your five-year limit. Immigration law ch
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

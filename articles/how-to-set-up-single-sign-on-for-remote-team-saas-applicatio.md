@@ -218,6 +218,4 @@ Building SSO for remote teams requires thoughtful protocol selection, careful co
 - [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
 - [How to Set Up Remote Hiring Pipeline with Async.](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

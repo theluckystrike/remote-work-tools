@@ -289,7 +289,5 @@ If a credential is exposed, follow this process:
 - [Remote Team Password Sharing Best Practices for Shared.](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
 - [Password Manager Comparison for Remote Teams: Bitwarden.](/remote-work-tools/password-manager-comparison-for-remote-teams-bitwarden-vs-1p/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

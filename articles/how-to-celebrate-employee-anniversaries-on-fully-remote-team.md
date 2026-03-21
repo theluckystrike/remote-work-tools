@@ -214,7 +214,5 @@ Remote teams that celebrate together stay together. Anniversaries provide a pred
 - [Best Pulse Survey Tool for Measuring Remote Employee.](/remote-work-tools/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
 - [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
