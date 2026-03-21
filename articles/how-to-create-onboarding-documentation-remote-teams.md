@@ -38,6 +38,8 @@ Create a checklist of every account and system access a new developer needs. Thi
 
 For each item, include the request procedure, expected response time, and who to contact if access is delayed. Remote developers often need these credentials before their first day—coordinate with IT to provision accounts in advance.
 
+Organize this checklist with two columns: who is responsible (the new hire vs. their manager vs. IT) and whether the item should be done before day one or can wait until week one. New hires without laptop access on day one is a completely avoidable failure that creates a terrible first impression and signals organizational dysfunction.
+
 ### Development Environment Setup
 
 Provide step-by-step instructions for setting up a local development environment. This is where many teams lose time with repeated questions. Include:
@@ -79,6 +81,8 @@ REDIS_URL=redis://localhost:6379
 
 Create a `.env.example` file in your repository—this becomes the reference developers check when configuring their local environment.
 
+The setup documentation should be runnable from top to bottom without prior knowledge. Test this assumption periodically: have someone new follow the docs from scratch, and update any step they get stuck on. If your devex team uses a shell script or Makefile to automate setup, include that too—getting someone from zero to a working `npm run dev` in under 30 minutes is achievable and worth optimizing for.
+
 ## Team Processes and Workflows
 
 Remote teams rely heavily on documented processes because colleagues cannot simply walk over and ask questions. Document your core workflows clearly and reference them in your onboarding materials.
@@ -114,6 +118,8 @@ Brief description of changes
 Closes #
 ```
 
+Beyond the template, explain the review culture explicitly. Does your team leave nitpick comments expecting a fix, or just FYI? Is a single approval sufficient, or do you require two? Does "approved with minor comments" mean merge or iterate first? These norms are obvious to existing team members and completely invisible to new hires. Writing them down prevents days of uncertainty and awkward review interactions.
+
 ### Meeting Cadence and Communication Norms
 
 Define your team's synchronous and asynchronous communication patterns:
@@ -125,6 +131,10 @@ Define your team's synchronous and asynchronous communication patterns:
 - Documentation-first approach for decisions
 
 Include timezone coverage information so new developers understand when teammates are available for live collaboration.
+
+Be explicit about response time expectations by channel. A reasonable baseline: Slack DMs get a response within 4 hours during working hours; channel messages within 8 hours; email within 24 hours. Making this explicit removes the anxiety new remote developers feel when they don't know if silence means the person is busy or hasn't seen their message.
+
+Also document what happens when someone is unavailable — how does the team handle urgent issues when the on-call developer is in a different timezone? If you use PagerDuty or a rotation, explain it. If the team has an informal "ping secondary" rule, write that down too.
 
 ## Project-Specific Knowledge
 
@@ -145,6 +155,8 @@ graph TD
 ```
 
 Explain the data flow, key services, and dependencies. Link to more detailed architecture documents.
+
+The architecture overview should answer three questions: what does this system do, how does data flow through it, and what breaks when service X goes down. New developers need enough context to understand what they're changing and how their changes fit into the larger picture. A 500-word explanation with a diagram is more valuable than a 5000-word deep dive — save the deep dives for dedicated architecture documentation pages linked from the overview.
 
 ### Key Endpoints and APIs
 
@@ -172,6 +184,8 @@ Content-Type: application/json
 }
 ```
 
+If you have a Postman collection or Bruno collection for your API, include it in the repo and link it from the onboarding docs. New developers can import it and have a working request environment in minutes. Pair it with a seed script that creates realistic test data so they have something meaningful to work with immediately.
+
 ### Common Pitfalls and Gotchas
 
 Document the lessons your team has learned. Include:
@@ -183,6 +197,8 @@ Document the lessons your team has learned. Include:
 - Security-related constraints
 
 This section alone can save new developers hours of frustration.
+
+Write this section in the voice of someone who's already made the mistake. "If you see error X, it means Y — the fix is Z" is far more useful than "Note that X may occur in certain conditions." Every engineer on your team has lost hours to something that turned out to be obvious in hindsight — that's exactly what belongs in gotchas.
 
 ## Implementation Strategy
 
@@ -200,9 +216,19 @@ docs/
 │   └── README.md
 ```
 
+The numbered prefix matters — it communicates read order without requiring the reader to guess. README.md at the top level should be a 5-minute overview that links to each document. New hires read onboarding docs linearly; make the path obvious.
+
+### Assign a Documentation Buddy
+
+Pair each new hire with a documentation buddy — a team member whose explicit responsibility for the first two weeks is to keep the documentation current based on questions the new hire asks. If the new hire asks a question not answered in the docs, the buddy helps answer it and opens a PR to add the answer. This creates a self-improving documentation system where every onboarding cycle makes the docs better.
+
+The buddy role rotates rather than falling to the same person. This distributes the work and ensures different team members review the docs regularly.
+
 ### Keep Documentation Current
 
 Assign documentation owners who review and update materials quarterly. Include documentation accuracy as part of team retrospectives—when someone encounters outdated information, add a task to fix it.
+
+Add a "last verified" date to the development environment setup and access checklist sections. These change most frequently and become dangerous when stale. A setup guide pointing to a deprecated tool or a revoked access URL creates a poor onboarding experience and erodes trust in your documentation system overall.
 
 ### Gather Feedback
 
@@ -220,7 +246,7 @@ Rate your onboarding experience (1-5):
 What was missing? What could be improved?
 ```
 
-Use this feedback to continuously improve your materials.
+Use this feedback to continuously improve your materials. Send this at the end of week one and again at the end of month one — the month-one feedback captures gaps that only become visible once someone starts working on real tasks.
 
 ## Tools and Platforms
 
@@ -233,9 +259,11 @@ Several tools work well for remote team onboarding documentation:
 
 Choose tools that integrate with your existing workflow and support the collaborative editing your team needs.
 
+Avoid platforms that require separate logins to access — developers who have to request access to a documentation tool before they can read their onboarding docs have already encountered their first friction point. If your code lives in GitHub, consider keeping onboarding docs in a GitHub wiki or a repo-level `/docs` directory so the same credentials that give someone repo access also give them documentation access.
+
 ---
 
-Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating, well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
+Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
 
 
 ## Related Articles
