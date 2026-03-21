@@ -173,6 +173,20 @@ def get_async_contribution_score(channel_id, days=7):
     }
 ```
 
+## Tool Comparisons for Remote Utilization Tracking
+
+Several purpose-built platforms address this challenge with varying approaches:
+
+**LinearB** focuses on engineering metrics derived from Git and issue tracker data. It calculates cycle time, PR throughput, and deployment frequency without capturing personal data. Teams using LinearB typically see their cycle time data within a week of integration, making it easy to identify bottlenecks. Pricing starts around $18 per user per month.
+
+**Waydev** integrates with GitHub, GitLab, Jira, and Confluence to produce automated engineering reports. It scores code quality alongside volume, which prevents gaming the commit count metric. The tool surfaces team-level trends rather than individual scorecards, which makes it more useful for managers who want to spot systemic problems. Waydev works well for teams of 10-200 engineers.
+
+**Jellyfish** provides the most sophisticated engineering analytics, correlating Git activity with business outcomes. It connects sprint completion rates to product delivery milestones, giving leadership a clear line from developer output to customer impact. The platform costs more—expect $25 to $40 per seat—but provides insights that justify the investment for scaling teams.
+
+**Pluralsight Flow** (formerly GitPrime) remains popular at larger enterprises. It emphasizes coaching conversations rather than monitoring, providing each developer their own view of their metrics. This transparency reduces concerns about surveillance and encourages self-directed improvement.
+
+For teams not ready to invest in a dedicated tool, GitHub Insights (available on GitHub Enterprise) provides a reasonable free alternative covering commits, PRs, and review activity.
+
 ## Building a Use Dashboard
 
 Combine these data sources into a single view. Use a simple approach with Google Sheets or a custom dashboard:
@@ -209,6 +223,32 @@ Good benchmarks to track:
 
 When use drops significantly below baseline, investigate root causes rather than assuming laziness. Often the issue is blocked resources, unclear requirements, or process problems.
 
+## Pro Tips from Engineering Managers Who Got This Right
+
+The managers who succeed with non-invasive utilization tracking share a few common practices.
+
+They share the dashboard with the team. Transparency about what is measured and why transforms the perception from surveillance to shared accountability. When developers can see the same data their manager sees, the metrics become a tool for self-improvement rather than a gotcha.
+
+They set a 4-week baseline before drawing conclusions. One week of low commit activity might mean a developer was deep in architecture planning, not slacking. Four weeks of data reveals actual patterns.
+
+They combine metrics with regular one-on-ones. Quantitative signals complement qualitative conversation. If the dashboard shows low PR activity from a developer, a one-on-one might reveal they are blocked by an unclear spec or waiting for a code review from a senior engineer.
+
+They retire metrics that create perverse incentives. If measuring commit count causes developers to split work into dozens of tiny commits, that metric is now measuring the wrong thing. Review your metrics quarterly and cut any that no longer reflect genuine output.
+
+## Frequently Asked Questions
+
+**Is any monitoring of remote workers considered invasive?**
+
+Monitoring output—code commits, tickets completed, documentation updates—is generally considered acceptable when employees know what is being tracked. Monitoring activity—keystrokes, screenshots, mouse movement—is broadly considered invasive and often damages trust more than any productivity gains justify.
+
+**What if a developer objects to any utilization tracking?**
+
+Address concerns transparently. Share the specific metrics being tracked and what decisions they inform. If the concern is about misuse, establish explicit policies: metrics inform coaching conversations, they are never the sole basis for performance evaluations, and individual data is shared with that developer directly.
+
+**How do you track utilization for non-engineering roles?**
+
+The same output-over-activity principle applies. For product managers, track PRDs completed and user interviews conducted. For designers, track design iterations shipped to staging. For customer success, track tickets resolved and customer health scores. Every role produces artifacts; measure those.
+
 ## Respectful Implementation Principles
 
 Follow these principles to keep use tracking ethical:
@@ -222,7 +262,7 @@ Follow these principles to keep use tracking ethical:
 The goal is understanding whether the team is productive, not proving individuals are working every moment.
 
 
-## Related Articles
+## Related Reading
 
 - [How to Track Project Dependencies in a Remote Team: A](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
 - [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
