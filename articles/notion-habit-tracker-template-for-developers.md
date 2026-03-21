@@ -26,6 +26,8 @@ Developers operate in complex environments requiring sustained focus across mult
 
 A Notion-based habit tracker offers several advantages over mobile apps. You gain full control over data structure, visual customization, and integration with your existing workflow. The same workspace where you track project notes and meeting notes can house your personal development habits, keeping everything accessible in one location.
 
+The hidden value of Notion for habit tracking is data ownership and queryability. Mobile habit apps give you streaks and charts, but Notion gives you a database you can filter, sort, and export. Want to know whether your commit frequency correlates with days you skipped exercise? You can build that view. Want to surface habits that consistently fall off on Fridays? That's a filter. This flexibility is why engineers who try purpose-built habit apps often drift back to Notion — the query power matches how developers naturally think about data.
+
 ## Core Database Structure
 
 The foundation of any Notion habit tracker consists of two connected databases: one for habits themselves and another for daily tracking entries.
@@ -94,6 +96,12 @@ For streak counting across all related entries, use a Rollup property with the f
 length(filter(current.items, current.completed == true))
 ```
 
+### Calendar View for Pattern Recognition
+
+Beyond the board view, add a Calendar view to your Daily Log database filtered to show only completed entries. The visual density of a calendar month reveals patterns that row-based views hide: you'll immediately see whether your habits cluster in the first half of the week and fade by Thursday, or whether specific weeks show complete drop-off that correlates with sprint deadlines. These patterns are nearly invisible in streak numbers but obvious in a calendar.
+
+Set the calendar's date grouping to "Date" (not "Created time") and add a conditional color using the Quality field: green for Excellent, yellow for Good, red for Fair. The result is a month-at-a-glance heatmap of both consistency and quality.
+
 ## Advanced Configuration for Developer Workflows
 
 ### Tracking Code Metrics
@@ -126,6 +134,8 @@ Create a separate page for weekly reviews using Notion's template functionality.
 - Habits requiring adjustment
 - Goals for next week
 
+A rigorous weekly review template should also include a "friction log" — a field where you note what made a habit harder this week. If "code review" slipped, was it because PR volume dropped, you were heads-down on a deadline, or the habit definition is too vague? The answer determines whether you need to adjust the habit itself or just ride out the circumstance. Without this reflection field, the tracker gives you data but not insight.
+
 ## Automating with Notion Automations
 
 Notion's native automation features reduce manual entry burden. Set up simple rules:
@@ -135,6 +145,19 @@ Notion's native automation features reduce manual entry burden. Set up simple ru
 3. Streak Alerts: Trigger notifications when streaks reach milestone numbers (7, 30, 100 days)
 
 For more sophisticated automation, integrate with Make (formerly Integromat) or Zapier to connect GitHub commit data directly to your habit tracker.
+
+### Make.com Automation for GitHub Habit Sync
+
+A practical Make.com scenario for developers: trigger daily at 11 PM, query the GitHub API for commits since midnight, and update a "Code Commit" habit entry in Notion automatically. This eliminates one of the highest-friction habits to track manually — the one you're most likely to forget because you were heads-down in code all day.
+
+The scenario structure:
+1. Schedule trigger: Daily at 23:00 local time
+2. GitHub module: List commits for authenticated user since 00:00 today
+3. Filter: If commit count > 0
+4. Notion module: Search Daily Log database for today's date + "Code Commit" habit
+5. Notion module: Update the Completed checkbox to True and set Notes to "Auto-synced: N commits"
+
+This setup turns your actual commit behavior into automatic habit completion — you only need to manually log the habits that require subjective judgment (learning quality, communication depth).
 
 ## Integration with Other Tools
 
@@ -186,6 +209,36 @@ def sync_github_commits_to_notion(github_token, notion_token, notion_db_id):
 
 This automation eliminates manual logging for code-based habits, focusing your effort on habits that require intentional tracking.
 
+### Linear and Jira Integration
+
+Developers using Linear or Jira for project management can extend habit tracking to work output metrics. A habit like "closed 3+ tickets today" can be auto-verified by querying the Linear API for tickets with status changes to Done that day:
+
+```python
+# Example: Linear ticket completion check
+import requests
+
+def check_linear_completions(linear_api_key, date):
+    headers = {"Authorization": linear_api_key}
+    query = """
+    query {
+      issues(filter: {
+        completedAt: { gte: "%sT00:00:00Z", lte: "%sT23:59:59Z" }
+        assignee: { isMe: { eq: true } }
+      }) {
+        nodes { id title completedAt }
+      }
+    }
+    """ % (date, date)
+    response = requests.post(
+        "https://api.linear.app/graphql",
+        json={"query": query},
+        headers=headers
+    )
+    return len(response.json()["data"]["issues"]["nodes"])
+```
+
+Use this count to auto-complete a "Ship work" habit in Notion whenever you close 2 or more tickets in a day.
+
 ### Slack Reminders
 
 Set up daily Slack reminders to log habits:
@@ -214,11 +267,13 @@ Review your tracker every Sunday evening. This 15-minute habit review helps you 
 
 Make logging frictionless. Keep your Notion workspace easily accessible on all devices. The less effort required to mark completion, the more likely you maintain the habit during busy periods. Ideally, logging should take under 10 seconds per habit.
 
+**The mobile shortcut trick:** On iOS, add your Notion Daily Log database as a widget using Notion's widget support. On Android, use third-party launchers that support Notion widgets, or create a shortcut URL to your specific Notion database view. Reducing the tap count from "log habit" thought to "habit logged" from 8 taps to 2 measurably improves daily consistency.
+
 ## Measuring Habit Success
 
 Track these metrics over time:
 
-**Consistency Rate:** Percentage of days you complete each habit. Aim for 70%+ consistency—perfection leads to burnout.
+**Consistency Rate:** Percentage of days you complete each habit. Aim for 70%+ consistency — perfection leads to burnout.
 
 **Streak Length:** How many consecutive days have you maintained a habit? Celebrate milestones: 7 days, 30 days, 100 days.
 
@@ -263,13 +318,17 @@ If motivation wavers, add social accountability:
 
 These external structures prevent the habit tracker from becoming a solitary endeavor that's easy to abandon.
 
+One concrete implementation: create a shared Notion page visible to your accountability partner that shows only your habit consistency rates for the past 30 days — not the daily log details, just the summary. This gives your partner enough to ask meaningful questions ("Your code review habit dropped to 40% this month — what happened?") without requiring them to read your daily notes.
+
 ## When to Restart Your Tracker
 
 Habit trackers aren't forever. Revisit and reset quarterly:
 
-- Has the habit become so automatic it no longer needs tracking? (Success—move on)
+- Has the habit become so automatic it no longer needs tracking? (Success — move on)
 - Has the habit become irrelevant to your goals? (Replace it)
 - Are you consistently hitting targets? (Increase difficulty or add new habits)
+
+A quarterly reset also catches habit drift — where the original definition of a habit has silently changed in practice. If "30 minutes of learning" has drifted from "reading technical books" to "watching YouTube," decide consciously whether that change was intentional. The quarterly review surfaces this kind of drift before it undermines the habit's value.
 
 A healthy habit tracker evolves as you do.
 
