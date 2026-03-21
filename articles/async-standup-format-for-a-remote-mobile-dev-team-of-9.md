@@ -8,7 +8,7 @@ permalink: /async-standup-format-for-a-remote-mobile-dev-team-of-9/
 categories: [guides]
 tags: [remote-work-tools, async-standup, remote-work, mobile-development, team-communication, agile]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
