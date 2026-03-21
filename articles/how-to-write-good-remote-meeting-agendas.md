@@ -163,8 +163,264 @@ Remote teams that adopt structured agendas typically see fewer meetings, shorter
 
 Write the agenda before sending the invite, then evaluate whether the meeting is still necessary. Sometimes a well-written agenda reveals the meeting itself isn't needed.
 
----
+## Agenda Management Tools
 
+**Option 1: Google Docs (Free)**
+- Shared document, everyone can comment/edit
+- Easy to share, no new tool to learn
+- Version history built-in
+- Drawback: Not structured; often becomes messy
+
+Best practice: Use template (keep consistent format)
+
+**Option 2: Notion (Free to $10/month)**
+- Database of meetings with agenda as property
+- Search past agendas easily
+- Templates for recurring meetings
+- Integrates with Slack for reminders
+- Best for: Teams already using Notion
+
+Template properties:
+- Meeting title
+- Date & time
+- Facilitator
+- Agenda items (text block)
+- Status (Draft, Final, Completed)
+- Meeting notes (link)
+- Recording (link)
+- Action items (database link)
+
+**Option 3: Otter.ai (Note + Transcription)**
+- Cost: Free basic, $10-30/month paid
+- Automatically transcribes meeting
+- Creates notes automatically
+- Extracts action items (beta)
+- Records and stores recording
+- Best for: Teams that want auto-generated notes
+
+**Option 4: Fellow (Purpose-Built)**
+- Cost: $8-15/user/month
+- Agenda + notes + action tracking
+- Integration: Slack, Jira, Linear
+- Recurring meeting templates
+- 1-on-1 focused features
+- Best for: Engineering leaders managing multiple meetings
+
+**Option 5: HubSpot Meetings (Free)**
+- Meeting scheduling + lightweight agenda
+- Sync to HubSpot CRM
+- Simple agenda format
+- Best for: Sales teams, CRM-integrated workflows
+
+For most teams, **Google Docs + template** (free) or **Notion** (if already using) is best choice.
+
+## Agenda Templates by Meeting Type
+
+**Daily Standup (15 minutes)**
+```
+# Daily Standup — [Date]
+
+Attendees: [Team list]
+Facilitator: [Name]
+Timekeeper: [Name]
+
+## Format
+- Each person: 1 minute (what shipped, blocked, focus)
+- Team blockers: 2-3 minutes (escalations)
+- Announcement: 1 minute (if any)
+
+No prep needed — just be ready to speak.
+```
+
+**Weekly Sprint Planning (60 minutes)**
+```
+# Sprint Planning — Week of [Date]
+
+Facilitator: Product Manager
+Attendees: Engineering team, design, product
+
+## Agenda
+
+| Item | Owner | Time | Outcome |
+|------|-------|------|---------|
+| Sprint goals review | PM | 5 min | Align on priorities |
+| Capacity check | Engineering | 5 min | Confirm team bandwidth |
+| Backlog refinement | Team | 30 min | Select stories for sprint |
+| Story point voting | Team | 15 min | Estimate capacity |
+| Sprint start confirmation | PM | 5 min | Commit to sprint |
+
+## Prep
+- Review top 10 backlog items before meeting
+- Have story point reference (previous sprints)
+```
+
+**Weekly Team Sync (30 minutes)**
+```
+# Weekly Team Sync — [Team], [Day]
+
+Facilitator: [Manager]
+Attendees: [Team list]
+
+## Agenda (Timekeeper keeps pace)
+
+1. **Wins** (3 min) — What shipped/accomplished
+2. **Blockers** (5 min) — What's stuck, needs unblocking
+3. **Priorities** (7 min) — Focus for next week
+4. **People/Culture** (5 min) — Team health check, announcements
+5. **Open discussion** (5 min) — Q&A, misc topics
+
+## Prep
+- Come ready to share 1 win from your area
+- Flag blockers in advance if possible
+```
+
+**Engineering Design Review (45 minutes)**
+```
+# Design Review — [Feature/Project]
+
+Facilitator: Tech Lead
+Context: [Link to design doc/RFC]
+
+## Agenda
+
+| Item | Owner | Time | Outcome |
+|------|-------|------|---------|
+| Problem recap | Designer | 5 min | Confirm understanding |
+| Proposed solution | Designer | 10 min | Present design |
+| Technical feasibility | Engineers | 10 min | Flag concerns |
+| Team discussion | All | 10 min | Open feedback |
+| Next steps | Tech lead | 5 min | Document decisions |
+
+## Prep Required
+- Read design doc (5 min)
+- Review related code/architecture (5 min)
+- Prepare questions or concerns
+```
+
+**Monthly 1-on-1 (30 minutes)**
+```
+# 1-on-1 — [Employee], [Date]
+
+Facilitator: Manager
+
+## Agenda (Flexible; employee leads)
+
+1. **How are you feeling?** (5 min) — General mood check
+2. **Work topics** (15 min) — Projects, goals, progress
+3. **Career/development** (5 min) — Growth, learning
+4. **Manager feedback** (3 min) — Manager perspective
+5. **Next month focus** (2 min) — 1-3 priorities for next month
+
+## Prep
+- Employee: Prepare update on ongoing projects
+- Manager: Review previous month's notes
+```
+
+**Client Kickoff (60 minutes)**
+```
+# Project Kickoff — [Client], [Project]
+
+Facilitator: Project Manager
+Attendees: Client stakeholders, project team
+
+## Agenda
+
+1. **Introductions** (5 min)
+   - Team members + roles
+   - Client stakeholders
+
+2. **Project overview** (10 min)
+   - Scope recap
+   - Timeline visualization
+   - Key deliverables
+
+3. **Process & workflow** (15 min)
+   - Communication channels
+   - Decision-making process
+   - Status update frequency
+   - Feedback mechanism
+
+4. **Success criteria** (10 min)
+   - Define "done"
+   - Metrics for success
+   - Quality standards
+
+5. **Timeline walkthrough** (10 min)
+   - Major phases
+   - Milestones & dates
+   - Dependency review
+
+6. **Q&A** (10 min)
+   - Client questions
+   - Team clarifications
+
+## Prep
+- Client: Read project brief
+- Team: Have project plan, timeline visible
+```
+
+## Automating Agenda Generation from Data
+
+For recurring meetings, automate agenda creation:
+
+```python
+#!/usr/bin/env python3
+"""Auto-generate sprint planning agenda from GitHub issues."""
+
+from github import Github
+from datetime import datetime
+
+def generate_sprint_agenda(repo_name, sprint_label, output_file='agenda.md'):
+    """Create agenda from current sprint issues."""
+
+    g = Github(os.environ['GITHUB_TOKEN'])
+    repo = g.get_repo(repo_name)
+
+    # Get issues in this sprint
+    issues = repo.get_issues(
+        labels=[sprint_label],
+        state='open',
+        sort='updated',
+        direction='desc'
+    )
+
+    with open(output_file, 'w') as f:
+        f.write(f"# Sprint Planning — {datetime.now().strftime('%Y-%m-%d')}\n\n")
+        f.write(f"**Sprint**: {sprint_label}\n")
+        f.write(f"**Total Issues**: {issues.totalCount}\n")
+        f.write(f"**Total Points**: {sum([issue.labels[0].name for issue in issues])}\n\n")
+
+        f.write("## Issues for Review\n\n")
+        for issue in issues:
+            f.write(f"- [{issue.number}]({issue.html_url}): {issue.title}\n")
+            f.write(f"  Labels: {', '.join([l.name for l in issue.labels])}\n\n")
+
+    print(f"Generated {output_file}")
+
+if __name__ == '__main__':
+    generate_sprint_agenda('my-org/my-repo', 'sprint-24')
+```
+
+This auto-generates the agenda 1 hour before the meeting, ensuring it's always current.
+
+## Agenda Review Before Meeting
+
+Implement a pre-meeting QA check:
+
+```markdown
+# Agenda Checklist (before sending invite)
+
+- [ ] Purpose statement is clear (what decision/outcome?)
+- [ ] Timing is realistic (can we do this in allocated time?)
+- [ ] Attendees are right people (not too many, not too few?)
+- [ ] Prep materials are linked (not in email body)
+- [ ] Owner is assigned for each topic
+- [ ] Decisions needed are explicit (not implicit)
+- [ ] Meeting is actually necessary (not email-able?)
+- [ ] Recording/notes plan is clear
+
+If you check "no" on "meeting is necessary" — cancel and send the info async instead.
+```
 
 ## Related Reading
 

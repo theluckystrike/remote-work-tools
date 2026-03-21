@@ -166,6 +166,165 @@ Enterprise clients often prefer structured formats with written documentation th
 
 For clients in significantly different time zones, prioritize asynchronous surveys and written documentation. Use synchronous time sparingly for high-value discussion rather than information gathering that could happen asynchronously.
 
+## Retrospective Tools and Software
+
+**Option 1: Google Forms + Sheets (Free)**
+- Create 8-10 question survey (5 min to complete)
+- Responses auto-populate spreadsheet
+- Add formulas to calculate NPS, satisfaction averages
+- Share results link with client
+- Best for: Budget-conscious, straightforward feedback
+
+Free template: Create a copy of any Google Form template, customize questions.
+
+**Option 2: Typeform ($29-99/month)**
+- Beautiful survey interface (higher completion rates)
+- Logic branching (show different questions based on answers)
+- Responses sync to spreadsheet/CRM automatically
+- Conditional follow-ups (if NPS <7, ask why)
+- Best for: Professional appearance, improved UX
+
+**Option 3: SurveySparrow ($99-299/month)**
+- Email-based surveys with branding
+- Mobile-optimized for client responses
+- CSAT/NPS tracking built-in
+- Integrations: Slack, HubSpot, Asana
+- Best for: Larger agencies, multiple projects/clients
+
+**Option 4: Retool (Custom)**
+- Build your own retrospective form (code-based)
+- Cost: Free tier available, $10-50/month
+- Advantage: Fully customized, integrates with your stack
+- Best for: Technical teams with unique needs
+
+**Option 5: Notion Form (Free)**
+- Create form inside Notion database
+- Responses become database entries
+- Can track over time, filter by client
+- Integrates with Zapier for automation
+- Best for: Teams already in Notion ecosystem
+
+## Retrospective Timing Strategy
+
+**Optimal Timing Schedule**
+```
+Day 1 (Project end): Final deliverable, no retro yet (let dust settle)
+Day 3: Send survey (client memory still fresh)
+Day 7-10: Compile results, schedule sync call if needed
+Day 14: Deliver written retrospective summary + archive in project folder
+Day 21: Implement 1-2 quick improvements from feedback
+```
+
+This spacing prevents recency bias while capturing detailed feedback.
+
+## Categorizing Feedback for Action
+
+Not all feedback is equal. Create a triage system:
+
+**Critical Issues** (Fix immediately)
+- Deliverable quality problems
+- Missed requirements
+- Communication breakdown
+- Project outcome below target
+
+Action: Schedule immediate call, create fix plan, implement within 1 week.
+
+**Substantial Improvements** (Plan for next project)
+- Process improvements
+- Timeline adjustments
+- Team composition changes
+- Workflow optimizations
+
+Action: Document in lessons-learned file, apply to similar future projects.
+
+**Nice-to-Have Feedback** (Consider, don't prioritize)
+- Feature requests
+- Minor quality improvements
+- Preference feedback
+- One-off suggestions
+
+Action: Track in backlog, implement only if it improves multiple projects.
+
+```python
+def categorize_feedback(feedback_item):
+    """Classify retrospective feedback for action priority."""
+
+    critical_keywords = ['quality', 'missed', 'failed', 'broken', 'deadline']
+    substantial_keywords = ['slow', 'tedious', 'unclear', 'could improve', 'better if']
+    nice_keywords = ['nice to have', 'would like', 'consider', 'optional']
+
+    text = feedback_item.lower()
+
+    if any(word in text for word in critical_keywords):
+        return 'CRITICAL'
+    elif any(word in text for word in substantial_keywords):
+        return 'SUBSTANTIAL'
+    else:
+        return 'NICE_TO_HAVE'
+
+    # Route each category to different action paths
+```
+
+## NPS and Satisfaction Measurement
+
+Use standard metrics to track client satisfaction trends:
+
+**Net Promoter Score (NPS)**
+```
+Single question: "On a scale 0-10, how likely are you to recommend us?"
+- 9-10: Promoters (likely to refer)
+- 7-8: Passives (satisfied but may leave for alternatives)
+- 0-6: Detractors (unsatisfied, may leave negative reviews)
+
+NPS = (% Promoters - % Detractors) × 100
+
+Target: 50+ is excellent, 30-50 is good, <30 needs improvement
+```
+
+**CSAT (Customer Satisfaction)**
+```
+Question: "How satisfied are you with this project?" (1-5 scale)
+- 5: Very satisfied (likely repeat client)
+- 4: Satisfied (will continue work)
+- 3: Neutral (no strong opinion)
+- 2: Dissatisfied (may not return)
+- 1: Very dissatisfied (likely to leave)
+
+Target: 80%+ respondents give 4-5 rating
+```
+
+**CES (Customer Effort Score)**
+```
+Question: "How easy was it to work with us?" (1-5 scale)
+- Focus: Effort matters more than satisfaction for retention
+- Low effort = high retention
+- High effort = high churn
+```
+
+Track these metrics quarterly. A declining trend signals process problems before they cause client churn.
+
+## Documentation Archive for Lessons Learned
+
+Create a system that captures knowledge from each project:
+
+```
+/projects/[client_name]/[project_name]/
+  /retrospective/
+    - survey_responses.csv
+    - feedback_summary.md
+    - nps_score.txt
+    - action_items.md
+    - lessons_learned_internal.md (not shared with client)
+    - screenshots_of_final_work/
+```
+
+By year-end, review all retrospectives:
+- What patterns emerge?
+- What feedback appears in 50%+ of projects?
+- What improvements haven't been implemented yet?
+
+This drives your process improvements year over year.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

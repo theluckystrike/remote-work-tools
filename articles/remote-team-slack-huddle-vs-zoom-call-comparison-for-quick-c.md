@@ -164,6 +164,173 @@ For development teams looking to optimize communication:
 
 The goal is not to use one tool exclusively, but to match tool capabilities to conversation patterns. Most teams find that the majority of their quick technical conversations work well as Huddles, with Zoom reserved for meetings that genuinely need structure and persistence.
 
+## Complete Tool Comparison Matrix
+
+**Slack Huddles vs Zoom: Complete Breakdown**
+
+| Feature | Slack Huddle | Zoom | Google Meet | Microsoft Teams |
+|---------|--------------|------|-------------|-----------------|
+| Cost | Free (Slack paid) | Free (40 min limit), $16/mo | Free, $20/user/mo paid | $6-12/user/mo |
+| Max participants | 15-59 | 100-1000 | 150 | 300 |
+| Recording | No | Yes (cloud + local) | Yes | Yes |
+| Transcription | No (in beta) | Yes (auto/manual) | Yes (auto) | Yes |
+| Screen share | Yes (channel/DM) | Yes (multiple sources) | Yes | Yes |
+| Virtual bg | No | Yes | Yes | Yes |
+| Mobile experience | Good | Excellent | Good | Good |
+| Integration: GitHub | Slack notifications | Zoom for GitHub | Limited | Limited |
+| Integration: Calendar | Native Slack | Outlook, Google Cal | Google Cal native | Outlook native |
+| Response time | <1 sec start | 5-10 sec setup | 3-5 sec | 3-5 sec |
+| Audio latency | 100-150ms | 150-200ms | 150-200ms | 100-150ms |
+| Bandwidth (1080p) | 2.5-4 Mbps | 3.8-4 Mbps | 2.5-4 Mbps | 2.5-4 Mbps |
+| Bandwidth on weak connection | Better (graceful degrade) | Fair (quality drops) | Fair | Fair |
+
+**Pro Tip**: Check your actual connection bandwidth with:
+
+```bash
+# Simple bandwidth test
+speedtest-cli --simple
+
+# More detailed: test to Slack media servers
+iperf3 -c speedtest.example.com -t 10 -R
+```
+
+If you're below 5 Mbps upload and frequently on calls, Slack Huddles handle degradation better.
+
+## Cost Analysis for Teams
+
+**Monthly Cost Comparison (10-person team)**
+
+Slack Huddles (audio only):
+- Slack Pro subscription: $8 × 10 = $80/month
+- Total: $80/month
+- Per-person: $8/month
+
+Zoom for all video meetings:
+- Zoom Pro: $16 × 10 = $160/month (assuming 50% of team needs)
+- Total: $160/month
+- Per-person: $16/month
+
+Hybrid approach (Huddles + Zoom):
+- Slack Pro: $80/month
+- Zoom Pro (5 hosts): $80/month
+- Total: $160/month
+- But covers more use cases
+
+**Time Cost: Context Switching**
+Research shows it takes 23 minutes to refocus after an interruption. Reducing startup time saves time cost:
+
+- Huddle start time: 15 seconds (keyboard shortcut)
+- Zoom start time: 45 seconds (app load + join)
+- Meet start time: 30 seconds (web link)
+- Difference: 30 seconds × 50 quick calls/month = 25 minutes saved/month
+
+For a team of 10, that's 250 person-minutes saved monthly just on startup friction.
+
+## Network and Audio Codec Details
+
+**Slack Huddle Audio Codec**
+- Codec: Opus (modern, efficient)
+- Bitrate: 16-32 kbps adaptive
+- Sample rate: 48 kHz
+- Advantage: Excellent on constrained bandwidth
+- Latency: Optimized for real-time conversation
+
+Performs well on:
+- 1.5 Mbps upload connection (poor quality otherwise)
+- WiFi 5GHz with weak signal
+- 4G LTE connections
+
+**Zoom Audio Codec**
+- Codec: Proprietary (not Opus)
+- Bitrate: 32-62 kbps
+- Sample rate: 48 kHz
+- Advantage: Consistent quality across all bandwidth
+- Latency: 150-250ms (acceptable but noticeable on weak connections)
+
+Performs better on:
+- Wired ethernet connections
+- Stable 10+ Mbps connections
+- High-end audio setups
+
+**Practical Test**
+If your team frequently experiences:
+- Audio cutting out → Upgrade to Huddles
+- Latency/echo issues → Likely Zoom at fault
+- Notification fatigue from tool switches → Use Huddles for ad-hoc
+
+## Implementation: Team Policies
+
+**Example Team Communication Policy**
+
+```yaml
+Communication_Guidelines:
+
+Slack_Huddles:
+  Use_for:
+    - "Quick questions under 5 minutes"
+    - "Code review discussions"
+    - "Pairing sessions"
+    - "Timezone-friendly standup follow-ups"
+  Expectations:
+    - "Accept within 5 minutes or decline (no ghosting)"
+    - "Join with audio on (video optional)"
+    - "No more than 3-4 Huddles in a row without break"
+
+Zoom_Meetings:
+  Use_for:
+    - "Scheduled meetings over 30 minutes"
+    - "Interviews and hiring"
+    - "Client/external meetings"
+    - "All-hands that need recording"
+  Expectations:
+    - "Join on time; send regrets in Slack if running late"
+    - "Decline if not essential; can watch recording later"
+    - "Recording available within 2 hours"
+
+Email/Async:
+  Use_for:
+    - "Information sharing (not time-bound)"
+    - "Decisions that don't need real-time input"
+    - "Anything that becomes reference material"
+  Expectations:
+    - "Response within 24 business hours"
+    - "Archive important decisions in wiki/docs"
+
+Overrides:
+  "True emergency (production down): escalate via phone call"
+  "Critical decision needed: use Zoom, record, send Slack summary"
+```
+
+## Troubleshooting Common Issues
+
+**Huddle Audio Problems**
+- Echo/feedback: "Check for multiple instances of Slack running"
+- Dropouts: "Switch to mobile app temporarily (often more stable)"
+- No audio: "Verify Slack has microphone permission (Settings > Privacy)"
+
+**Zoom Audio Problems**
+- Echo: "Turn off speaker view for the echoing person"
+- Latency: "Ask that person to restart their Zoom client"
+- Background noise: "Use Zoom's noise suppression (Settings > Audio)"
+
+**Which Tool When**
+```
+Question: Does this conversation need to be searched/referenced later?
+→ YES: Use Zoom (recorded + transcribed)
+→ NO: Use Huddle (ephemeral, focus on now)
+
+Question: Are external people (clients/vendors) involved?
+→ YES: Use Zoom (professional, recordable)
+→ NO: Use Huddle (internal only)
+
+Question: Will this take longer than 10 minutes?
+→ YES: Use Zoom (structured agenda, time-boxed)
+→ NO: Use Huddle (quick and lightweight)
+
+Question: Do you need to see each other's faces?
+→ YES: Use Zoom (better video, lighting, virtual bg)
+→ NO: Use Huddle (audio only, lower bandwidth)
+```
 
 ## Related Reading
 
