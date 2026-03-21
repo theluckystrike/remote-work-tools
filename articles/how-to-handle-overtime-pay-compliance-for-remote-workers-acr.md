@@ -181,16 +181,73 @@ For developers building time-tracking or payroll integrations:
 3. Generate reports showing overtime by state for payroll
 4. Build alerts for approaching overtime thresholds
 5. Include audit trails showing how calculations were made
+6. Test with sample data covering edge cases (12-hour day in CA, 50-hour week in TX)
 
 For power users managing remote teams without custom software:
 
 1. Document which state laws apply to each employee
 2. Create separate time-tracking spreadsheets per state if needed
 3. Review California employee hours daily, not just weekly
-4. Consider consulting with an employment attorney for complex situations
+4. Build a simple spreadsheet calculator for quick reference
+5. Consider consulting with an employment attorney for complex situations
+
+## Advanced Compliance Considerations
+
+As your distributed team grows, additional layers of complexity emerge:
+
+**Independent contractor vs. employee status:** Contractors typically aren't subject to overtime rules, but misclassification is a common audit trigger. Document why each worker is classified as they are.
+
+**International remote workers:** If you hire outside the US, overtime rules may differ significantly. Canada, UK, Australia all have different thresholds. Know the rules before you hire.
+
+**Fluctuating workweek calculations:** Some companies negotiate fluctuating workweek arrangements with employees, changing how overtime is calculated. Document these explicitly and ensure they comply with state law.
+
+**On-call and standby time:** Time spent on-call may or may not count as "hours worked" depending on state and circumstances. Get clarity in writing from legal counsel.
+
+## Audit Preparation
+
+Even with good intentions, audits happen. Prepare by maintaining:
+
+- **Clear documentation of employee work state:** Where was each person hired? Where do they work?
+- **Time records:** Detailed daily/hourly time records for all non-exempt employees
+- **Calculation methodology:** Document exactly how you calculate overtime—show the math
+- **Communication records:** Any discussions with employees about overtime expectations or changes
+- **State law references:** Print copies of relevant state overtime regulations and your interpretation
+
+An auditor is more likely to give you leniency if you've clearly documented your good-faith effort to comply.
+
+## Common Audit Findings
+
+Audits often uncover these issues:
+
+- **Misclassification:** Employee classified as exempt when they should be non-exempt
+- **Incomplete timekeeping:** Missing time records or incomplete daily records
+- **Calculation errors:** Overtime calculated on net pay instead of gross pay, or failing to include shift differentials in overtime calculations
+- **Failure to provide premium pay:** Not paying appropriate overtime rates when legally required
+
+Most audits result in back pay owed plus penalties. Proactive compliance is far cheaper than remediation.
+
+## Payroll Integration Tools
+
+Modern payroll systems handle multi-state compliance better than manual approaches:
+
+- **ADP Workforce Now:** Enterprise solution with built-in state-specific rule sets
+- **Gusto:** Mid-market option, strong on compliance automation
+- **Rippling:** HR + payroll integration, good for distributed teams
+- **Wave (free option):** Limited but handles basic multi-state scenarios
+
+Even if you use manual spreadsheets, consider a tool that at least validates your calculations against state law rules.
+
+## Building Team Culture Around Fair Compensation
+
+Transparency about overtime policy builds trust:
+
+**Make the policy explicit:** Document your overtime policy in a place every employee can access. "California employees receive 1.5x pay for hours over 8 per day and 40 per week" removes ambiguity.
+
+**Discuss with employees before they accrue hours:** An employee in California shouldn't discover they're entitled to overtime only at the end of a sprint. Discuss expectations upfront.
+
+**Avoid encouraging overtime:** If your engineering culture celebrates working long hours, you're building a compliance liability. Instead, celebrate shipping efficient work and protecting team health.
 
 Compliance with overtime laws across states requires attention to detail and proactive system design. Whether you're building tools or managing teams directly, understanding these differences prevents costly mistakes and ensures your remote workers receive correct compensation.
-
 
 ## Related Articles
 

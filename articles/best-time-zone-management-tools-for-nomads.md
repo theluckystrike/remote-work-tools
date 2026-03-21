@@ -140,6 +140,16 @@ For constant at-a-glance reference, desktop widgets provide immediate time aware
 
 **Linux** users can use `tty-clock` with timezone flags or desktop widgets depending on your desktop environment.
 
+## Mobile Apps for On-the-Go Time Zone Management
+
+Since nomads work from various locations, mobile apps provide quick access to time zone information without opening a laptop.
+
+**Time Zone Pro** (iOS/Android) offers offline databases and lets you save custom city lists. You can add your team members and their time zones, getting instant visibility into who's currently working.
+
+**Timezone Buddy** (mobile companion to Web version) syncs your desktop setup to your phone, maintaining the same team configurations across devices.
+
+**Google Calendar** handles time zone conversions automatically when you create events. If you add an event at 2 PM Bangkok time, attendees in other zones see the correct local time automatically. Many teams rely on this for distributed scheduling.
+
 ## Automation Patterns for Nomads
 
 Beyond reference tools, automation handles repetitive time zone tasks.
@@ -149,14 +159,36 @@ Beyond reference tools, automation handles repetitive time zone tasks.
 Configure Git to use consistent timestamps regardless of your physical location:
 
 ```bash
-# Set Git to use UTC for all commits
+# Set Git to use UTC for all commits (recommended for distributed teams)
 git config user.timezone UTC
 
 # Or use your team's primary zone
 git config user.timezone America/New_York
 ```
 
-This ensures commit history remains meaningful to collaborators.
+This ensures commit history remains meaningful to collaborators. UTC timestamps prevent confusion when reviewing logs from different time zones.
+
+### Database-Level Time Zone Handling
+
+When working with databases from different zones:
+
+```sql
+-- Store all timestamps in UTC
+CREATE TABLE events (
+  id SERIAL PRIMARY KEY,
+  created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+  user_timezone VARCHAR(50)
+);
+
+-- Query converts to user's zone
+SELECT
+  id,
+  created_at AT TIME ZONE user_timezone AS local_time,
+  created_at AT TIME ZONE 'UTC' AS utc_time
+FROM events;
+```
+
+This pattern prevents confusion—timestamps in the database are always UTC, but queries respect user time zones.
 
 ### Cron Jobs Across Zones
 
@@ -187,12 +219,59 @@ webClient.users.profile.set({
 });
 ```
 
+## Dealing with Daylight Saving Time as a Nomad
+
+DST transitions create chaos for nomads. When traveling between regions on different DST schedules, meetings that worked last week suddenly shift.
+
+```javascript
+// Problem: Static time calculation breaks around DST transitions
+const meetingUTC = '2026-03-15T14:00:00Z';
+
+// This might be 9am in New York before DST
+// But 8am after DST starts (second Sunday in March)
+
+// Solution: Use library that handles DST automatically
+const moment = require('moment-timezone');
+const ny_time = moment.tz(meetingUTC, 'America/New_York');
+// Always correct, accounting for DST automatically
+```
+
+When traveling, check if your destination observes DST and when transitions occur. Some countries (like most of Asia) don't observe DST, making them simpler to work with.
+
+## Handling Meeting Coordination Across Multiple Zones
+
+When coordinating meetings across 3+ time zones, simple overlap calculations become insufficient. You need structured approaches:
+
+Create a master scheduling document showing your team's working hours in each member's current zone:
+
+```markdown
+# Team Schedule - Updated 2026-03-21
+
+## Core Team Hours (overlap period)
+9:00 AM - 11:00 AM San Francisco time
+12:00 PM - 2:00 PM New York time
+5:00 PM - 7:00 PM London time
+12:30 AM - 2:30 AM Tokyo time (next day)
+
+## Individual Availability
+- Alice (San Francisco): 9 AM - 6 PM PST
+- Bob (London): 9 AM - 6 PM GMT
+- Charlie (Tokyo): 9 AM - 6 PM JST (offset by 16-17 hours)
+
+## Recommended Meeting Time Slots
+- Synchronous standup: 12 PM PT / 3 PM ET / 8 PM GMT (excludes Tokyo)
+- All-hands (if needed): Rotate timing monthly
+```
+
+Reference this document when scheduling anything beyond spontaneous chat. It prevents timezone math errors that lead to missed meetings.
+
 ## Choosing Your Toolkit
 
 Start with World Time Buddy for visual scheduling and Timezone.io for team visibility. Add CLI tools (tz) for quick terminal checks, and integrate moment-timezone or date-fns-tz into your projects for programmatic time handling.
 
-The key is layering tools appropriately: reference tools for quick lookups, developer libraries for application code, and automation for repetitive tasks.
+The key is layering tools appropriately: reference tools for quick lookups, developer libraries for application code, and automation for repetitive tasks. For nomads specifically, maintain a note with your team's working hours in your current zone—update it whenever you move to a new location. This prevents accidentally scheduling meetings at 2 AM.
 
+Build muscle memory around mental conversion math. After a few weeks in a new timezone, you'll intuitively know when East Coast morning calls happen for you. This beats constantly checking tools for obvious conversions.
 
 ## Related Articles
 

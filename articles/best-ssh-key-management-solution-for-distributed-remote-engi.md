@@ -164,33 +164,121 @@ Configure servers to trust your CA:
 TrustedUserCAKeys /etc/ssh/trusted_ca.pub
 ```
 
+## SSH Key Rotation Strategies
+
+Manual key rotation is error-prone and slow at scale. Implement automated rotation that removes stale keys and issues new ones on a regular cadence.
+
+A rotation script might follow this pattern:
+
+```bash
+#!/bin/bash
+# Rotate SSH keys every 90 days
+
+ROTATION_INTERVAL_DAYS=90
+KEY_DIR="/opt/ssh-keys/users"
+ARCHIVE_DIR="/opt/ssh-keys/archive"
+
+for pubkey in "$KEY_DIR"/*.pub; do
+  modified_days=$(( ($(date +%s) - $(stat -f%m "$pubkey" 2>/dev/null || stat -c%Y "$pubkey")) / 86400 ))
+
+  if [ "$modified_days" -gt "$ROTATION_INTERVAL_DAYS" ]; then
+    key_user=$(basename "$pubkey" .pub)
+    echo "Rotating key for $key_user"
+
+    # Archive old key
+    mkdir -p "$ARCHIVE_DIR/$(date +%Y-%m)"
+    mv "$pubkey" "$ARCHIVE_DIR/$(date +%Y-%m)/"
+
+    # Notify user to provide new key
+    echo "Key rotation needed for $key_user" | mail -s "SSH Key Rotation Required" "$key_user@company.com"
+  fi
+done
+```
+
+Schedule this script to run weekly, creating a regular rotation cadence that keeps keys fresh.
+
 ## Managed SSH Key Solutions
 
 Several commercial and open-source tools provide full-featured SSH key management without building custom infrastructure.
 
-**Teleport** offers zero-trust access with SSH certificate-based authentication. It integrates with identity providers and provides session recording.
+**Teleport** offers zero-trust access with SSH certificate-based authentication. It integrates with identity providers (Okta, GitHub Enterprise, others) and provides complete session recording. Every SSH connection is logged and can be audited later. For teams needing regulatory compliance, Teleport's audit trail is invaluable.
 
-**Smallstep** focuses on certificate-based SSH access with automated rotation and fine-grained access policies.
+**Smallstep** focuses on certificate-based SSH access with automated rotation and fine-grained access policies. It integrates with existing identity providers and automates much of the certificate lifecycle management.
 
-**HashiCorp Vault** can manage SSH keys and provide dynamic SSH credentials, useful for teams already using Vault for secrets management.
+**HashiCorp Vault** can manage SSH keys and provide dynamic SSH credentials, useful for teams already using Vault for secrets management. It supports one-time passwords for SSH access, eliminating persistent keys entirely.
 
 For most distributed remote engineering teams, starting with a structured file-based approach using Ansible or similar tools provides good balance of complexity and capability. As teams grow and security requirements increase, migrating to certificate-based solutions becomes worthwhile.
+
+## Monitoring and Auditing SSH Access
+
+Visibility into who accessed what and when is critical. Implement centralized logging for all SSH activity.
+
+```bash
+# Configure sshd to send logs to syslog
+# /etc/ssh/sshd_config
+
+LogLevel VERBOSE
+SyslogFacility AUTH
+
+# Log to CloudWatch or ELK stack
+# Use rsyslog to forward SSH logs to central server
+# /etc/rsyslog.d/30-ssh.conf
+
+:programname, isequal, "sshd" @logs.company.com:514
+& stop
+```
+
+Parse these logs to track:
+- Failed authentication attempts (potential intrusions)
+- New public keys added to systems
+- Privilege escalation through `sudo su`
+- Anomalous access patterns (logins from unusual times/locations)
+
+For teams using Teleport, access logging is built-in and queryable. For DIY approaches, ELK stack or CloudWatch provide log aggregation and alerting.
 
 ## Practical Recommendations
 
 Start with these steps regardless of which solution you choose:
 
-1. Audit existing keys: Identify all current SSH keys and their access levels. Remove unused keys.
+1. Audit existing keys: Identify all current SSH keys and their access levels. Search authorized_keys files across all servers and document findings in a spreadsheet.
 
-2. Establish a key policy: Define requirements for key types (Ed25519 preferred over RSA), key rotation frequency, and access review cadence.
+2. Establish a key policy: Define requirements for key types (Ed25519preferred over RSA), key rotation frequency (90 days recommended), and access review cadence (quarterly).
 
-3. Implement access groups: Organize access by team and environment rather than individual keys.
+3. Implement access groups: Organize access by team and environment rather than individual keys. Group permissions map to infrastructure layers naturally.
 
-4. Automate provisioning: Every new developer should receive access through automation, not manual server configuration.
+4. Automate provisioning: Every new developer should receive access through automation, not manual server configuration. No SSH keys added by hand.
 
-5. Plan for offboarding: Ensure clear processes for removing access when team members transition.
+5. Plan for offboarding: Ensure clear processes for removing access when team members transition. Immediate access revocation prevents data exfiltration risks.
 
-The right solution depends on your team size, infrastructure maturity, and security requirements. Small teams benefit from simple Ansible-based approaches, while larger organizations should invest in certificate-based systems or managed solutions that provide audit trails and automatic rotation.
+6. Enable session recording: At minimum, log all SSH commands. Ideally, record full terminal sessions for audit purposes.
+
+## Migrating from Password to Key-Based Authentication
+
+If your team currently uses password authentication, plan a careful migration to SSH keys:
+
+1. **Audit current access**: Document all accounts, passwords, and access levels
+2. **Generate keys for all users**: Provide instructions or automate key generation
+3. **Deploy public keys to servers**: Use configuration management during a maintenance window
+4. **Test access**: Verify users can authenticate with keys before disabling passwords
+5. **Disable password authentication**: Set `PasswordAuthentication no` in sshd_config
+6. **Monitor for issues**: Track login failures and support requests for a week post-migration
+
+This phased approach prevents lockouts while improving security. Run both methods in parallel during transition.
+
+## Incident Response for Compromised Keys
+
+When you suspect a key has been compromised:
+
+1. **Immediately revoke access**: Remove the compromised key from all authorized_keys files
+2. **Rotate other keys**: Generate new keys for affected users
+3. **Audit access logs**: Check what was accessed with the compromised key
+4. **Review server activity**: Look for suspicious commands or file access
+5. **Notify affected parties**: Alert users about the incident and remediation steps
+6. **Post-mortem**: Determine how compromise occurred and prevent recurrence
+
+Having automated revocation mechanisms makes this response much faster. With centralized management like Ansible or Vault, you can revoke keys across all servers in minutes rather than hours.
+
+The right solution depends on your team size, infrastructure maturity, and security requirements. Small teams benefit from simple Ansible-based approaches, while larger organizations should invest in certificate-based systems or managed solutions that provide audit trails and automatic rotation. Regardless of the solution, implement it with clear documentation so every team member understands the process and can respond correctly when incidents occur.
 
 
 ## Related Articles

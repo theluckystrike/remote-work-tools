@@ -179,17 +179,75 @@ Structure makes pairing more effective:
 # [ ] Share relevant context: ticket link, PR, logs
 # [ ] Start voice first, then screen share (avoids "can you see my screen?" dead time)
 # [ ] Both have the repo cloned locally (don't debug "why won't it clone" during session)
+# [ ] Have a clear exit criteria (what does "done" look like?)
 
 # During session
-# [ ] Driver: narrate what you're thinking
+# [ ] Driver: narrate what you're thinking (helps navigator follow)
 # [ ] Navigator: ask questions, don't grab control without asking
 # [ ] Use a timer for switching (Pomodoro: 25 min on / 5 min off)
+# [ ] Log blockers separately (don't spend 15 min debugging in a pairing session)
 
 # After session
-# [ ] Commit any WIP (even messy branches)
+# [ ] Commit any WIP (even messy branches, comment with WIP status)
 # [ ] Summarize decisions in the PR description or ticket comment
+# [ ] Note any follow-up items discovered
 ```
 
+## Pair Programming at Different Scales
+
+Pairing effectiveness varies with team size and context:
+
+**Small teams (2-4 people):** Can pair daily on complex problems. Use VS Code Live Share or Tuple for zero friction.
+
+**Medium teams (5-10 people):** Pair 2-3 times per week. Reserve for architectural decisions, complex refactoring, or onboarding.
+
+**Large teams (15+ people):** Pair weekly or less, but target high-impact sessions. Pair programming is expensive at scale, so focus on situations where it provides the most value.
+
+## Async Pair Programming Alternatives
+
+Not every situation requires synchronous pairing. For asynchronous collaboration:
+
+**Recorded walkthroughs:** Driver records themselves working through a problem (Loom or Screen Studio), navigator watches and leaves comments.
+
+**Async PR reviews with suggestions:** Reviewer leaves detailed comments with code suggestions, author commits changes and explains their reasoning in replies.
+
+**Mob programming recordings:** Record a full session with multiple developers, share as reference material.
+
+These approaches scale better for large teams but lose the real-time problem-solving benefits of live pairing.
+
+## Performance Tips for Each Tool
+
+**VS Code Live Share:** Disable extensions on the guest (Extensions: Disable All) if experiencing latency. Reduces network overhead significantly. For slow networks, share terminal but not the whole editor.
+
+**Tuple:** Run on ethernet if possible. Ensure both machines have sufficient CPU available. Close background apps—Tuple prioritizes screen refresh over other applications.
+
+**Pop:** For cross-platform teams, the browser-based version is fastest because it doesn't require installation. Desktop app is better if you have stable network.
+
+**tmux SSH:** Ensure low-latency SSH connection (use mosh for better mobile connectivity). Consider a dedicated server in geographic middle of both participants for lowest latency.
+
+## Handling Difficult Pairing Situations
+
+**Knowledge imbalance:** When one person knows vastly more, they feel limited as driver, but navigator struggles to navigate. Solution: Driver creates scaffolding (empty functions, test structure), then switches so the junior developer drives with senior navigator.
+
+**Personality clash:** Some developers pair well; others don't. Rotating pairs and allowing people to opt out of pairing with certain teammates reduces friction.
+
+**Time zone spread:** If pair programmers span significant timezones, async pairing (recorded walkthroughs) often works better than forcing a synchronous session at an awkward time.
+
+**Onboarding a new engineer:** Pairing is valuable here, but be mindful of cognitive overload. Short pairing sessions (45 min) on specific problems work better than all-day pairing during first weeks.
+
+## Pair Programming Health Checks
+
+If pairing isn't working well, diagnose the issue:
+
+**Are people actually pairing?** Track whether scheduled pairing sessions happen. If canceled frequently, pairing may not be culturally valued.
+
+**Is it senior-junior imbalance?** If experienced engineers are always drivers and junior engineers always navigators, learning is limited. Rotate roles more frequently.
+
+**Is pairing solving the right problems?** Pairing works for knowledge transfer and architectural decisions. It works poorly for routine coding. If you're pairing on everything, adjust the practice.
+
+**Are sessions too long?** Pair programming is cognitively expensive. Sessions over 90 minutes become ineffective. Shorter, focused sessions work better.
+
+Healthy pair programming happens 20-40% of the time for most teams, not constantly.
 
 ## Related Articles
 
