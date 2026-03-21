@@ -123,6 +123,8 @@ jobs:
           head: HEAD
 ```
 
+The `concurrency` block is worth highlighting — without it, a developer who pushes three commits in quick succession triggers three parallel CI runs consuming minutes of runner time. With it, only the latest push runs; the earlier ones are cancelled. This is especially valuable for remote teams where developers in different timezones can pile up commits overnight.
+
 ## Automated Deploy Workflow
 
 Deploy to staging on every push to `main`, and to production on release tags:
@@ -207,6 +209,8 @@ jobs:
       # ... same steps as staging but targeting production cluster
 ```
 
+Using GitHub Environments (`environment: staging` and `environment: production`) unlocks environment-specific secrets and required reviewers. For production deploys, add a required reviewer to the production environment in GitHub settings — this creates a mandatory human approval gate before any code reaches production, which is essential for teams where multiple developers push to main throughout the day across different timezones.
+
 ## Branch Preview Environments
 
 Preview environments let reviewers test changes before merge without needing a local setup:
@@ -278,6 +282,8 @@ jobs:
             }
 ```
 
+Preview environments are a force multiplier for async code review. Without them, a reviewer in Tokyo reviewing a PR from London either has to check out the branch locally or skip visual review entirely. With a preview URL in the PR comment, the reviewer can test the change in their browser immediately — no setup required. This is especially valuable for frontend changes, where "looks right in the code" and "looks right visually" are very different things.
+
 ## Slack Notification for Failed Builds
 
 Get notified in Slack when CI fails on main:
@@ -317,6 +323,8 @@ jobs:
             }
 ```
 
+Post failure notifications to a dedicated `#ci-alerts` channel rather than your general engineering channel. This keeps signal separate from noise — developers can opt in to watching `#ci-alerts` closely without the alert getting buried in general discussion. Route deployment failures separately from test failures if your team's on-call rotation covers production issues — the priority and response process is different.
+
 ## Secrets Management in GitHub Actions
 
 ```bash
@@ -332,6 +340,19 @@ gh secret list
 gh secret set DATABASE_URL --env staging --body "postgresql://..."
 gh secret set DATABASE_URL --env production --body "postgresql://..."
 ```
+
+For teams that rotate credentials frequently, consider using OIDC-based authentication instead of long-lived secrets. With OIDC, AWS generates short-lived credentials for each workflow run — there are no static keys to rotate or accidentally expose.
+
+```yaml
+# OIDC-based AWS authentication (preferred over static keys)
+- name: Configure AWS credentials via OIDC
+  uses: aws-actions/configure-aws-credentials@v4
+  with:
+    role-to-assume: arn:aws:iam::123456789012:role/github-actions-role
+    aws-region: us-east-1
+```
+
+This requires a one-time IAM role setup with a trust policy scoped to your specific GitHub organization and repository. The tradeoff in setup complexity pays off immediately in reduced secret management overhead.
 
 ## Caching Dependencies for Speed
 
@@ -355,6 +376,59 @@ gh secret set DATABASE_URL --env production --body "postgresql://..."
       ${{ runner.os }}-pip-
 ```
 
+Cache hit rates above 80% typically cut install time from 2-3 minutes to 15-20 seconds. The cache key uses a hash of your lockfile — the cache invalidates only when dependencies change, not on every commit. The `restore-keys` fallback allows a partial cache hit when the exact key misses, which is useful when a developer adds a single package.
+
+For monorepos, scope caches per workspace:
+
+```yaml
+- name: Cache workspace dependencies
+  uses: actions/cache@v4
+  with:
+    path: |
+      ~/.npm
+      node_modules
+      packages/*/node_modules
+    key: ${{ runner.os }}-mono-${{ hashFiles('**/package-lock.json') }}
+```
+
+## Workflow Reuse with Composite Actions
+
+As your workflow count grows, extract repeated steps into reusable composite actions to avoid duplication:
+
+```yaml
+# .github/actions/setup-node/action.yml
+name: Setup Node with Cache
+description: Install Node.js and restore npm cache
+
+inputs:
+  node-version:
+    description: Node.js version to use
+    default: '20'
+
+runs:
+  using: composite
+  steps:
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ inputs.node-version }}
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+      shell: bash
+```
+
+Then reference the action from multiple workflows:
+
+```yaml
+- name: Setup Node
+  uses: ./.github/actions/setup-node
+  with:
+    node-version: '20'
+```
+
+This pays off when you have 5+ workflows that all install the same dependencies — a dependency version change requires updating one composite action rather than five workflow files. For remote teams where different developers own different parts of the CI pipeline, composite actions also create clear ownership boundaries.
 
 ## Related Articles
 
