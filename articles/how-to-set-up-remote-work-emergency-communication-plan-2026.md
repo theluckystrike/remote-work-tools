@@ -5,9 +5,10 @@ author: Remote Work Tools Guide
 date: 2026-03-21
 permalink: /remote-work-tools/how-to-set-up-remote-work-emergency-communication-plan-2026/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}

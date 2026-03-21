@@ -9,7 +9,7 @@ permalink: /how-to-set-up-soundproof-home-office-when-working-remotely-w/
 categories: [guides]
 tags: [remote-work-tools, remote-work, home-office, acoustic-treatment, soundproofing, work-from-home]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---
