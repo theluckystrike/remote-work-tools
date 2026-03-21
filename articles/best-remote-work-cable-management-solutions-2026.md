@@ -165,7 +165,7 @@ Weakness: requires drilling. Can't be undone (hole remains). Not suitable for re
 
 **Installation:** No drilling. Sits on floor or desktop.
 
-Herman Miller makes freestanding cable hubs—essentially a structured box that organizes cables. Over-engineered but eliminates the need to drill.
+Herman Miller makes freestanding cable hubs— a structured box that organizes cables. Over-engineered but eliminates the need to drill.
 
 Real-world: holds 15-20 cables. Aesthetically matches high-end desks. Modular add-ons available.
 
