@@ -225,6 +225,41 @@ const dashboard = meetings
 
 This approach lets you see all meetings with one-click joining without navigating through calendar apps.
 
+## Managing Meeting Load for Distributed Teams
+
+Google Meet works best when meetings are intentional. Developers in distributed teams often accumulate meetings that could be async, which compounds the friction of timezone overlap. Use these strategies to protect deep work time while keeping collaboration effective.
+
+**Audit recurring meetings quarterly.** Pull your recurring Meet events from the Calendar API and calculate total weekly meeting hours per person. A simple query across your team's calendars reveals meeting debt that accumulates invisibly over months. Teams regularly discover 5-8 hours per week of recurring meetings where most attendees contribute nothing.
+
+**Default to 25-minute meetings.** Google Calendar's "Speedy meetings" setting automatically shortens 30-minute blocks to 25 minutes and 60-minute blocks to 50 minutes. This creates buffer time between calls, reduces back-to-back fatigue, and forces tighter agendas. Enable it in Calendar settings under "Event settings."
+
+**Use Meet's companion mode for hybrid setups.** When some participants are in-office and others are remote, companion mode lets in-room participants join Meet on their personal devices for reactions, chat, and hand raises — without causing audio feedback. This significantly improves equity between in-person and remote participants.
+
+## Google Meet vs. Competing Tools for Developer Teams
+
+Understanding where Meet excels helps you route the right meetings to the right tool:
+
+| Scenario | Google Meet | Zoom | Slack Huddles |
+|----------|-------------|------|---------------|
+| Formal all-hands | Excellent | Excellent | Poor |
+| Quick code question | Good | Good | Excellent |
+| Client presentation | Good | Excellent | Poor |
+| Interview | Excellent | Good | Poor |
+| Pair programming | Good | Good | Good |
+| Large webinar (500+) | Good (with Workspace) | Excellent | Not supported |
+
+Meet's native integration with Google Workspace — Docs, Sheets, Calendar, and Drive — makes it the lowest-friction choice for teams already in that ecosystem. The ability to open a shared Doc in a side panel during a meeting without switching windows is a genuine productivity advantage for collaborative editing sessions.
+
+## Reducing Meeting Fatigue with Meet Settings
+
+Video fatigue is real. Google Meet has several settings that reduce cognitive load during long meeting days:
+
+**Use tiled view only for introductions.** Switch to spotlight mode (pin the speaker) once a meeting is underway. Watching a 4x4 grid of faces for 45 minutes is exhausting; focusing on one face plus your content is not.
+
+**Enable captions by default.** Live captions (press N) reduce cognitive load by letting participants read rather than listen exclusively, which helps in noisy environments and for participants whose first language differs from the meeting language. Transcripts are available post-meeting for Workspace Business and Enterprise plans.
+
+**Lower your video quality intentionally.** Under the three-dot menu, Meet lets you set video to "standard definition." For audio-heavy discussions — standups, retrospectives, status updates — dropping to SD reduces bandwidth consumption and CPU usage, which matters on older machines running multiple containers or builds in parallel.
+
 
 ## Related Articles
 
