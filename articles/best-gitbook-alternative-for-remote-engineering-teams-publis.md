@@ -8,7 +8,7 @@ permalink: /best-gitbook-alternative-for-remote-engineering-teams-publis/
 categories: [guides]
 tags: [remote-work-tools, documentation, gitbook, remote-work, internal-docs, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

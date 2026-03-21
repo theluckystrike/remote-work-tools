@@ -8,7 +8,7 @@ permalink: /best-hot-desking-software-for-hybrid-offices-with-under-100-employee
 categories: [guides]
 tags: [remote-work-tools, hot-desking, hybrid-work, desk-booking, workspace-management, small-team, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
