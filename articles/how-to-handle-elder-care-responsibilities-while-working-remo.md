@@ -7,7 +7,7 @@ last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-elder-care-responsibilities-while-working-remotely/
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]

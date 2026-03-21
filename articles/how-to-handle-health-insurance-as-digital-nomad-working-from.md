@@ -9,7 +9,7 @@ permalink: /how-to-handle-health-insurance-as-digital-nomad-working-from/
 categories: [guides]
 tags: [remote-work-tools, thailand, digital-nomad, health-insurance, remote-work, expat-living]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

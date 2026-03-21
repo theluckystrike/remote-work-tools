@@ -9,7 +9,7 @@ permalink: /how-to-handle-client-revision-rounds-in-remote-design-agency/
 categories: [guides]
 tags: [remote-work-tools, client-revisions, remote-work, design-agency, async-communication, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-p
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, meetings, collaboration, remote-work, whiteboard, video-conferencing]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
