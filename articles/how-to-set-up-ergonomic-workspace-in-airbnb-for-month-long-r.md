@@ -9,7 +9,7 @@ permalink: /how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/
 categories: [guides]
 tags: [remote-work-tools, remote-work, ergonomics, airbnb, workspace, productivity, health]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

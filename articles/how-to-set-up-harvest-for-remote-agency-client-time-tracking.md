@@ -9,7 +9,7 @@ permalink: /how-to-set-up-harvest-for-remote-agency-client-time-tracking/
 categories: [guides]
 tags: [remote-work-tools, harvest, time-tracking, remote-work, agency-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
