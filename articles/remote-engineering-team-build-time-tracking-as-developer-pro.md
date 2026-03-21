@@ -238,6 +238,89 @@ def calculate_cost_of_slow_builds(avg_build_time_minutes, builds_per_day, develo
 
 If your team runs 50 builds per day averaging 10 minutes each, that's over 8 hours daily—translating to roughly $100,000 annually in lost developer time.
 
+## Comparing CI Platforms for Remote Teams
+
+Not all CI platforms perform equally across geographies. For distributed teams, runner location and concurrency limits matter as much as raw build speed. Here is how the major platforms compare on dimensions relevant to remote engineering:
+
+| Platform | Runner Regions | Concurrent Jobs (free) | Build Minutes (free/mo) | Self-hosted Option |
+|---|---|---|---|---|
+| GitHub Actions | 10+ regions | 20 (free tier) | 2,000 | Yes |
+| GitLab CI | Multi-region | Varies by tier | 400 | Yes |
+| CircleCI | US/EU/AP | 1 (free tier) | 6,000 | Yes |
+| Buildkite | Self-hosted | Unlimited | N/A | Required |
+| Depot | US/EU | 2 (free tier) | 500 | No |
+
+For a remote team spread across Americas and Asia-Pacific, GitHub Actions or CircleCI with multiple runner pools reduces the latency that developers in distant time zones experience when waiting on pipeline results. Buildkite with self-hosted runners in each region is the most aggressive option when build speed is a first-class engineering priority.
+
+## Visualizing Build Time Data Over Time
+
+Raw numbers in a terminal are hard to act on. Push build metrics into a dashboard that your whole team can monitor. Grafana with a Prometheus data source works well for self-hosted solutions:
+
+```yaml
+# prometheus.yml scrape config for a custom build metrics exporter
+scrape_configs:
+  - job_name: 'build-times'
+    static_configs:
+      - targets: ['localhost:9100']
+    metrics_path: '/metrics'
+    scrape_interval: 5m
+```
+
+Expose metrics from your collection script:
+
+```python
+from prometheus_client import Gauge, start_http_server
+
+build_duration_gauge = Gauge(
+    'ci_build_duration_seconds',
+    'CI build duration in seconds',
+    ['workflow', 'branch', 'status']
+)
+
+def update_metrics(builds):
+    for build in builds:
+        build_duration_gauge.labels(
+            workflow=build['workflow'],
+            branch=build['branch'],
+            status=build['status']
+        ).set(build['duration'])
+
+start_http_server(9100)
+```
+
+Even a simple shared Google Sheet updated weekly with average build times by service creates accountability and makes regressions visible before they compound. The key is making the data visible to the whole engineering organization, not just the team that owns the CI configuration.
+
+## Establishing Build Time SLOs
+
+Service Level Objectives work for build times just as they do for production APIs. Setting a formal SLO—say, 95% of builds complete within 8 minutes—creates a shared standard the team owns together.
+
+Define your SLO in a simple document accessible to all engineers:
+
+- **Target**: P95 build time under 8 minutes for the main pipeline
+- **Measurement window**: Rolling 7 days
+- **Alert threshold**: P95 exceeds 10 minutes for 2 consecutive days
+- **Review cadence**: Monthly engineering sync, 5-minute agenda item
+
+When a new dependency, test, or Docker layer causes a regression, the SLO makes it immediately clear that action is required. Without a formal target, slow build creep goes unnoticed until developers start complaining informally—a much harder signal to act on from a remote management position.
+
+## Sharing Build Time Reports with Non-Technical Stakeholders
+
+Engineering managers at remote companies often need to communicate build time improvements to product or executive leadership who do not read dashboards. A simple weekly digest in Slack keeps the conversation grounded in data rather than anecdote.
+
+Template for a weekly build health message:
+
+```
+*Build Health Report — Week of [DATE]*
+• Avg CI time (main pipeline): 7m 42s (down from 9m 15s last week)
+• Slowest workflow: integration-tests (avg 14m 30s)
+• Total build minutes consumed: 12,400 (budget: 15,000)
+• P95 within SLO (8m): YES
+
+Action items: Investigate integration-test parallelization before next sprint.
+```
+
+Sending this in a dedicated #engineering-metrics channel every Monday takes five minutes and prevents the common pattern where build time regressions go unnoticed for weeks because no one thought to check.
+
 ## Actionable Recommendations
 
 Start with quick wins:
@@ -247,14 +330,14 @@ Start with quick wins:
 3. **Audit dependencies**—remove unused packages, upgrade to latest versions
 4. **Consider build agents** closer to your developer locations for remote teams
 
-Track build times weekly and set a team目标 of keeping average CI time under 10 minutes. Anything longer actively harms productivity and should be prioritized for optimization.
+Track build times weekly and set a team target of keeping average CI time under 10 minutes. Anything longer actively harms productivity and should be prioritized for optimization.
 
 Build by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
 
 
-## Related Articles
+## Related Reading
 
 - [Remote Team Support Ticket First Response Time Tracking for](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
 - [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
