@@ -4,7 +4,7 @@ title: "Best Practice for Remote Team Emoji and Gif Culture Keeping"
 description: "Learn how to build and maintain a healthy emoji and GIF culture in remote teams while keeping communication channels professional and inclusive"
 author: theluckystrike
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 date: 2026-03-16
