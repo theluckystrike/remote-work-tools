@@ -181,12 +181,53 @@ sleep 300 && say "Meeting starting in 5 minutes"
 
 Add this to your dotfiles and run it with a single command before standup or client calls.
 
+## Soundproofing Strategies for Toddler-Adjacent Offices
+
+Noise cancellation software handles steady ambient noise well — fan hum, keyboard clicks, HVAC — but sudden loud sounds like a toddler screaming or banging toys pass through before the algorithm adapts. Acoustic treatment at the room level handles what software cannot.
+
+The most effective affordable option is mass-loaded vinyl (MLV) on the shared wall between your office and the play area. A 4-by-8-foot panel of 1-pound MLV reduces sound transmission by roughly 25–30 dB at mid frequencies. You do not need to cover every surface — the wall adjacent to the play area matters most.
+
+For the door, the gap at the bottom is typically the largest acoustic leak. A door sweep costs under $20 and eliminates most noise that travels under the door. Combined with a solid-core door (versus hollow-core), this creates a meaningful barrier without major construction.
+
+If full soundproofing is not feasible, position your desk so your back faces the door rather than the side. Toddlers approach from a predictable direction, and facing away gives you a fraction more time to mute before they reach the microphone.
+
+## Choosing the Right Noise Cancellation Tool
+
+Not all noise cancellation software is equivalent when it comes to toddler sounds specifically. Here is how the main options compare based on the type of noise:
+
+**NVIDIA RTX Voice / NVIDIA Broadcast**: Excellent at removing sustained noise, including crying. Works as a virtual microphone that feeds into any video conferencing app. Requires an NVIDIA GPU (RTX series for best results, some GTX cards work). The AI model updates regularly and handles variable-pitch toddler sounds better than many competitors.
+
+**Krisp**: Works on any hardware and integrates as a virtual microphone. Strong performance on voice-frequency noise (crying, yelling) and good cross-platform support including Linux. The free tier limits usage to 60 minutes per day, which may be insufficient for heavy meeting schedules. The Pro plan at around $8/month is reasonable for daily use.
+
+**Built-in conferencing noise cancellation** (Zoom, Teams, Google Meet): Adequate for keyboard and HVAC noise but inconsistent on sudden loud sounds. Use as a baseline layer, not a primary defense.
+
+**Combination approach**: Run Krisp or NVIDIA Broadcast as your virtual microphone input, then enable the conferencing app's noise cancellation on top. The double-processing adds a few milliseconds of latency but substantially reduces breakthrough noise from sudden loud sounds.
+
+## Establishing a Co-Parent Communication Protocol
+
+For dual-income remote households where both parents work from home, unplanned interruptions often happen because of unclear handoffs rather than negligence. A simple protocol eliminates most of the friction.
+
+Maintain a shared calendar that shows each person's focus blocks and video call times. Fifteen minutes before any call over 30 minutes, send a quick message to your co-parent via a dedicated channel or app (not Slack or email, which they may have muted). Something simple: "Call from 2-3pm, please take over."
+
+For unplanned urgent situations during your call, agree on a signal — a specific emoji sent to the shared channel means "I need a swap in the next 5 minutes." Practice this enough that it becomes automatic. Two or three dry runs during non-critical meetings builds the muscle memory before you need it during a client presentation.
+
+If your co-parent is unavailable during certain windows, identify two or three activities that reliably hold your toddler's attention for 20–30 minutes: a show they only watch during calls, a water play bin, or playdough. Reserve these for actual calls rather than general entertainment — novelty is what buys you time.
+
+## Ergonomics and Desk Layout for Parents
+
+One underappreciated aspect of childproofing is desk positioning relative to the room entrance. Most people set up their desk for natural light or screen visibility without considering toddler traffic patterns.
+
+Position your chair and desk so you have a clear sightline to the door. This gives you visual warning when the door opens, letting you hit mute before your child reaches the microphone range. A door with a window panel or a small mirror positioned to show the doorway achieves the same effect from any desk position.
+
+Keep your mute button accessible from multiple positions. If you use a hardware mute button (Elgato Wave XLR, RØDE PodMic USB, or similar), mount it within arm's reach of wherever you typically sit during calls — not just at your keyboard. A wireless headset with a hardware mute button on the earcup is the most reliable option for immediate muting regardless of what application has focus.
+
 ## Building Sustainable Systems
 
-The reality of parenting while working remotely means interruptions will happen. The goal isn't elimination but reduction and recovery speed. Physical barriers prevent most incidents, technical solutions handle the rest, and practiced protocols ensure when (not if) your toddler appears mid-sprint review, you recover professionally.
+The reality of parenting while working remotely means interruptions will happen. The goal is not elimination but reduction and recovery speed. Physical barriers prevent most incidents, technical solutions handle the rest, and practiced protocols ensure that when your toddler appears mid-sprint review, you recover professionally in under 30 seconds.
 
-Start with the simplest changes: cable management, door latches, and meeting status automation. Add complexity only as needed. Your time as a developer is valuable—spend it solving engineering problems, not constantly retrieving a curious toddler from your keyboard.
+Start with the simplest changes: cable management, door latches, and meeting status automation. Add soundproofing and noise cancellation tooling as your meeting load increases. Your time as a developer is valuable — spend it solving engineering problems, not constantly retrieving a curious toddler from your keyboard.
 
+The best childproofing system is one you actually maintain. A $5 door latch you install today beats an elaborate system you plan to set up next weekend. Do the easy things first, and build from there.
 
 ## Related Articles
 
