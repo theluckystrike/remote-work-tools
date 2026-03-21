@@ -9,7 +9,7 @@ permalink: /best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, meetings, remote-work, team-collaboration, all-hands, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

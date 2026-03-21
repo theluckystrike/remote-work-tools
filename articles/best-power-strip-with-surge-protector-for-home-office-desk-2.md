@@ -9,7 +9,7 @@ permalink: /best-power-strip-with-surge-protector-for-home-office-desk-2/
 categories: [guides]
 tags: [remote-work-tools, power-strip, surge-protector, home-office, hardware, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

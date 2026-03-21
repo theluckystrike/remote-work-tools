@@ -7,7 +7,7 @@ last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-social-workers-managing-caseloads-f/
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 categories: [guides]
