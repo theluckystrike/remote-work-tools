@@ -178,6 +178,26 @@ def acknowledge_policy(employee_id, policy_version):
 
 Require re-acknowledgment whenever the policy updates.
 
+## MDM Tools for Enforcing Your AUP
+
+Writing policy language is only half the job. You need tooling that enforces the rules automatically. Three platforms dominate enterprise remote device management:
+
+**Jamf Pro** is the gold standard for macOS-heavy teams. It allows you to push configuration profiles, enforce disk encryption, lock down the App Store to approved apps, and trigger remote wipes. Pricing starts at roughly $4/device/month for Jamf Now (SMB) and scales to custom enterprise contracts for Jamf Pro.
+
+**Microsoft Intune** integrates deeply into the Microsoft 365 ecosystem. If your team runs Windows devices and uses Azure AD for identity, Intune is the natural choice. It enforces compliance policies, manages software deployment, and produces audit reports that satisfy SOC 2 auditors. Intune is included in Microsoft 365 Business Premium and E3/E5 plans.
+
+**Kandji** has emerged as a strong macOS-focused MDM with an excellent blueprint system that lets you template device configurations. It supports automated remediation—if a device falls out of compliance, Kandji can push corrections automatically rather than waiting for an IT ticket.
+
+Regardless of which MDM you choose, configure at minimum: mandatory screen lock after 5 minutes of inactivity, full disk encryption enforcement, and automatic OS update installation within 30 days of release.
+
+## Handling Personal Device Exceptions (BYOD)
+
+Some roles or budget situations make BYOD unavoidable. When employees use personal devices, the AUP must address the privacy tension directly. You cannot demand full MDM enrollment on a personal device without creating legal and morale problems.
+
+A practical BYOD section addresses three things: what data may be accessed on personal hardware, what apps are mandatory (VPN, approved communication tools, endpoint security if acceptable to the employee), and what happens at offboarding. Many teams use containerization solutions like Microsoft Intune's app protection policies or VMware Workspace ONE to create a managed "work container" on personal phones without touching personal data.
+
+State clearly in your policy that the company will not monitor personal device usage outside of work applications. Employees are more likely to comply fully when they trust the policy is not designed to surveil them.
+
 ## Practical Policy Review Checklist
 
 Before finalizing your acceptable use policy, verify it addresses these points:
@@ -190,6 +210,14 @@ Before finalizing your acceptable use policy, verify it addresses these points:
 - [ ] Incident reporting procedures
 - [ ] Physical security expectations
 - [ ] Consequences for policy violations
+- [ ] MDM enrollment requirements and scope
+- [ ] BYOD handling and privacy boundaries
+
+## Policy Review Cadence
+
+A policy that is never updated becomes a liability. Schedule a formal review every 12 months at minimum, and trigger an unscheduled review whenever any of the following occur: a security incident involving a remote device, a significant change to the technology stack, new compliance requirements in your jurisdiction, or a shift in team structure (merger, acquisition, rapid headcount growth).
+
+Document every revision with a version number and changelog entry. Store historical versions so you can demonstrate to auditors that you maintained a reasonable standard of care over time.
 
 ## Making Policy Accessible
 
@@ -210,6 +238,16 @@ DON'T:
 - Store customer data locally
 - Ignore security warnings
 ```
+
+Post this reference in your team wiki, pin it in your main Slack channel, and include it in new-hire onboarding. The more visible the quick-reference version, the less likely employees are to claim they were unaware of a rule.
+
+## Common Mistakes When Writing Remote AUPs
+
+The most common mistake is copying a template written for office environments without adapting it to the realities of distributed work. Generic language like "do not misuse company equipment" fails to address home network sharing, personal browser profiles, or the fact that a spouse might use the same WiFi router for streaming video.
+
+A second mistake is making the policy so restrictive that engineers work around it. If your AUP prohibits all software installation without a ticket, developers will find ways to bypass it rather than wait a week for approval. Build a fast-track approval path for common developer tools, and maintain a pre-approved software list that employees can install without going through IT.
+
+Finally, many organizations fail to address what happens to data when an employee leaves. Your AUP should explicitly state the offboarding process: device return timelines, remote wipe procedures, and access revocation steps. Document this in the policy itself rather than leaving it to an undocumented offboarding checklist that may not be consistently applied.
 
 
 ## Related Articles
