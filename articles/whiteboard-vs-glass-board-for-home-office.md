@@ -167,6 +167,40 @@ Start with whichever fits your budget and workspace. You can always upgrade late
 ---
 
 
+
+### Seed a Miro Values Wall via API
+
+```python
+import os, requests
+
+# Miro REST API — create a sticky note on a board programmatically
+BOARD_ID = os.environ["MIRO_BOARD_ID"]
+TOKEN    = os.environ["MIRO_ACCESS_TOKEN"]
+
+def add_sticky(text: str, color: str = "yellow", x: int = 0, y: int = 0) -> dict:
+    resp = requests.post(
+        f"https://api.miro.com/v2/boards/{BOARD_ID}/sticky_notes",
+        headers={
+            "Authorization": f"Bearer {TOKEN}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "data": {"content": text, "shape": "square"},
+            "style": {"fillColor": color},
+            "position": {"x": x, "y": y},
+        },
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+# Seed a team values wall with initial stickies
+values = ["Move fast, repair trust", "Default to async", "Disagree and commit"]
+for i, value in enumerate(values):
+    add_sticky(value, color="light_yellow", x=i * 300, y=0)
+    print(f"Added: {value}")
+```
+
+
 ## Related Reading
 
 - [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)

@@ -216,6 +216,38 @@ Project Delivery: Delivery timelines compared to historical baselines
 
 New Hire Ramp Time: How long until new team members feel productive
 
+
+### Automate Async Standups via Slack Bot
+
+```python
+import os
+from slack_sdk import WebClient
+
+client = WebClient(token=os.environ["SLACK_BOT_TOKEN"])
+
+def post_async_standup(channel: str, update: dict) -> None:
+    """Post a structured async standup to Slack — no live meeting needed."""
+    text = (
+        f"*Yesterday:* {update['yesterday']}\n"
+        f"*Today:* {update['today']}\n"
+        f"*Blockers:* {update.get('blockers', 'None')}\n"
+        f"*Timezone:* {update.get('tz', 'UTC')}"
+    )
+    client.chat_postMessage(channel=channel, text=text, mrkdwn=True)
+
+# Each team member calls this from their own bot script or slash command
+post_async_standup(
+    "#standup-eng",
+    {
+        "yesterday": "Shipped auth service migration",
+        "today": "Write integration tests",
+        "blockers": "Waiting on @alice to review ADR-042",
+        "tz": "UTC+8 / Singapore",
+    },
+)
+```
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

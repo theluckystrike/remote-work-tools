@@ -231,6 +231,31 @@ For developers who can work remotely and want a high quality of life with reliab
 ---
 
 
+
+### Test WiFi Quality Before You Start Working
+
+```bash
+# Test WiFi speed from the terminal before settling in to work
+# Install: brew install speedtest-cli  or  pip install speedtest-cli
+
+speedtest-cli --simple
+# Expected output:
+# Ping: 12.34 ms
+# Download: 85.42 Mbit/s
+# Upload: 42.18 Mbit/s
+
+# Check latency to common dev services (should be < 50ms for smooth work)
+ping -c 5 github.com
+ping -c 5 8.8.8.8
+
+# Measure latency to your company's VPN endpoint
+traceroute vpn.yourcompany.com | tail -5
+
+# Quick DNS resolution test (slow DNS = slow browsing even on fast WiFi)
+time dig google.com @8.8.8.8 +short
+```
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

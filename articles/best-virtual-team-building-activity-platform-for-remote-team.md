@@ -284,6 +284,31 @@ Not every team needs a dedicated platform. Consider alternatives:
 
 **Mentoring Programs:** Formal cross-team mentoring creates sustained connection. Pairs people for monthly conversations focused on career growth and skill development. More intentional than random matching platforms.
 
+
+### Download and Audit Your Google Data
+
+```bash
+# Download your Google data before deleting (Google Takeout)
+# 1. Visit https://takeout.google.com — request an export
+# 2. Once downloaded, verify the archive integrity
+sha256sum takeout-*.zip
+
+# Extract and audit what Google stored
+unzip -q takeout-20260101.zip -d google-data/
+find google-data/ -name "*.json" | xargs wc -l | sort -rn | head -20
+
+# Count search history entries
+python3 -c "
+import json, glob
+entries = []
+for f in glob.glob('google-data/**/MyActivity.json', recursive=True):
+    with open(f) as fh:
+        entries.extend(json.load(fh))
+print(f'Total activity entries: {len(entries)}')
+"
+```
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

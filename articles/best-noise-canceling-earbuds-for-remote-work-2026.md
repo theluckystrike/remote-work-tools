@@ -436,6 +436,29 @@ Test all earbuds with your colleagues on a real video call before committing. Au
 {% endraw %}
 
 
+
+### AI Noise Suppression and Audio Cleanup
+
+```bash
+# Use Krisp or NVIDIA RTX Voice for AI noise suppression
+# For a free alternative, configure PulseAudio noise cancellation (Linux):
+
+# Load the noise cancellation module
+pactl load-module module-echo-cancel use_master_sink=1               use_master_source=1 aec_method=webrtc source_name=noisy_mic_denoised
+
+# Set the denoised source as default microphone
+pactl set-default-source noisy_mic_denoised
+
+# macOS: use SoX to reduce background noise in recordings
+# Install: brew install sox
+# Record a noise profile sample (2 seconds of silence/ambient noise)
+sox ambient.wav -n noiseprof noise.prof
+
+# Apply noise reduction to a recording
+sox call-recording.wav cleaned.wav noisered noise.prof 0.25
+```
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

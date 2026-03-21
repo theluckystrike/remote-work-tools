@@ -264,6 +264,27 @@ With dual monitors, position them in a shallow V-shape (10-15 degrees apart) rat
 - Your desk is wide (over 50 inches)
 - You plan to keep this setup for 5+ years
 
+
+### Check and Configure Your Display Settings
+
+```bash
+# macOS: check what resolution and refresh rate your display is running
+system_profiler SPDisplaysDataType | grep -E "Resolution|Refresh"
+
+# List connected displays and their capabilities
+system_profiler SPDisplaysDataType
+
+# Enable HiDPI / Retina scaling on external monitors (macOS)
+# Use the free BetterDisplay app, or enable via SwitchResX
+
+# Linux: set refresh rate with xrandr
+xrandr --output HDMI-1 --mode 2560x1440 --rate 144
+
+# Check if DisplayPort cable supports the target refresh rate
+# DP 1.4 = up to 4K@120Hz; DP 1.2 = up to 4K@60Hz or 1440p@165Hz
+```
+
+
 ## Related Reading
 
 - [Best Ergonomic Office Setup for Remote Developers](/remote-work-tools/best-ergonomic-office-setup-for-remote-developers/)

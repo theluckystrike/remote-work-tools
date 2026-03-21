@@ -277,6 +277,27 @@ Choose a **universal/thin mat** if:
 
 Surprisingly, premium mats often have similar annual costs but provide better protection and require less replacement hassle. For permanent home offices, premium makes sense. For temporary setups, budget option wins.
 
+
+### Automate Ergonomic Break Reminders
+
+```bash
+# Set a reminder to take ergonomic breaks — run this in your shell profile
+# Fires a macOS notification every 45 minutes
+
+while true; do
+  sleep 2700   # 45 minutes
+  osascript -e 'display notification "Time for a posture check and eye break." with title "Ergonomics Reminder"'
+done &
+
+# On Linux, use notify-send:
+# while true; do sleep 2700; notify-send "Ergonomics" "Stand up and stretch."; done &
+
+# Track your daily standing time with a simple log
+echo "$(date '+%Y-%m-%d %H:%M') — stood up" >> ~/standing-log.txt
+tail -10 ~/standing-log.txt
+```
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

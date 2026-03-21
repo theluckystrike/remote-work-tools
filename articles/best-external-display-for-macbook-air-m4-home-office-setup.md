@@ -232,6 +232,27 @@ Remember that your external display is an investment in your daily comfort and p
 ---
 
 
+
+### Check and Configure Your Display Settings
+
+```bash
+# macOS: check what resolution and refresh rate your display is running
+system_profiler SPDisplaysDataType | grep -E "Resolution|Refresh"
+
+# List connected displays and their capabilities
+system_profiler SPDisplaysDataType
+
+# Enable HiDPI / Retina scaling on external monitors (macOS)
+# Use the free BetterDisplay app, or enable via SwitchResX
+
+# Linux: set refresh rate with xrandr
+xrandr --output HDMI-1 --mode 2560x1440 --rate 144
+
+# Check if DisplayPort cable supports the target refresh rate
+# DP 1.4 = up to 4K@120Hz; DP 1.2 = up to 4K@60Hz or 1440p@165Hz
+```
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

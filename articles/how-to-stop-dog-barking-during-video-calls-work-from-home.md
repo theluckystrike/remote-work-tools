@@ -203,6 +203,30 @@ When barking persists despite preparations:
 - Consider a neighbor or dog walker for important meetings
 - Have a pre-prepared excuse ready: "I'm having some technical difficulties"
 
+
+### Diagnose Video Call Quality Issues
+
+```bash
+# Diagnose poor video call quality — run before your next call
+
+# 1. Check available bandwidth
+speedtest-cli --simple
+
+# 2. Measure packet loss to a reliable host (>1% causes choppy calls)
+ping -c 20 8.8.8.8 | tail -3
+
+# 3. Check which process is consuming bandwidth right now (macOS)
+nettop -P -n -l 1 | sort -k3 -rn | head -10
+
+# 4. Flush DNS cache (can help with connection drops)
+sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder
+
+# 5. Force 5GHz WiFi band (avoid 2.4GHz congestion)
+# In macOS: System Settings > Network > WiFi > Preferred Networks
+# Move your 5GHz SSID to the top of the list
+```
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

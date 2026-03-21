@@ -330,6 +330,30 @@ Invest in silence. Your team will thank you.
 
 ---
 
+
+### Essential GPG Commands
+
+```bash
+# Generate a new GPG key pair
+gpg --full-generate-key
+
+# List your keys with long key IDs
+gpg --list-secret-keys --keyid-format=long
+
+# Export your public key (safe to share)
+gpg --armor --export your@email.com > public-key.asc
+
+# Create a revocation certificate — store this OFFLINE immediately
+gpg --output revoke.asc --gen-revoke your@email.com
+
+# Encrypt a file for a recipient
+gpg --encrypt --recipient recipient@email.com --armor message.txt
+
+# Decrypt
+gpg --decrypt message.txt.asc > decrypted.txt
+```
+
+
 ## Related Reading
 
 - How to Optimize Your Home Office Setup for Remote Work
