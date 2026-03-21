@@ -182,6 +182,112 @@ A remote team conducting a smart contract audit typically follows this sequence:
 
 This workflow keeps all team members aligned regardless of location.
 
+## Setting Up Your Audit Tool Workflow
+
+A complete audit workflow integrates multiple tools. Here's a practical setup for a remote team conducting a smart contract security audit:
+
+```bash
+#!/bin/bash
+# audit-setup.sh - Initialize audit environment
+
+# 1. Create project structure
+mkdir -p contracts tests analysis
+
+# 2. Initialize Foundry
+forge init --no-git
+
+# 3. Configure Slither for CI
+cat > .github/workflows/security-scan.yml << 'EOF'
+name: Security Scan
+on: [push, pull_request]
+jobs:
+  slither:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Slither
+        uses: crytic/slither-action@v0.1.1
+        with:
+          node-version: 16
+          fail-on: medium
+          solc-version: 0.8.20
+EOF
+
+# 4. Set up Foundry gas analysis
+forge test --gas-report > gas-report.txt
+```
+
+## Communication and Collaboration Patterns
+
+For remote Solidity teams, establish clear communication patterns:
+
+**Synchronous time blocks:** Reserve 30-minute sync windows for urgent findings and complex discussions. Keep these to 2-3 per week maximum to preserve async work.
+
+**Async code review process:**
+- Each reviewer leaves detailed comments on GitHub
+- Comments reference specific lines and potential impacts
+- Author responds within 24 hours (respect time zones)
+- Updates code and requests re-review when ready
+
+**Finding escalation path:**
+- Critical severity: Immediate Slack ping + documented follow-up
+- High severity: Discord thread with 24-hour response SLA
+- Medium/Low: GitHub issue with weekly batch review
+
+## Price Comparison of Audit Tools
+
+| Tool | Purpose | Free Tier | Paid | Notes |
+|------|---------|-----------|------|-------|
+| Foundry | Testing | Yes | N/A | Fastest Solidity testing |
+| Slither | Static analysis | Yes | No | Trail of Bits tool |
+| Mythril | Symbolic execution | Yes | No | Ethereum Foundation |
+| Tenderly | Debugging | Free tier | $99+/mo | Full transaction replay |
+| Miro/FigJam | Diagrams | Free tier | $12+/mo | For architecture visualization |
+| Linear | Issue tracking | Free tier | $7+/user/mo | GitHub integration essential |
+| Notion | Documentation | Free tier | $10/mo | Team collaboration |
+| Discord | Communication | Free | Optional | Team chat standard |
+
+## Building Your Audit Checklist
+
+Create a comprehensive audit checklist that teams use for every smart contract review:
+
+```markdown
+# Smart Contract Audit Checklist
+
+## Code Quality Review
+- [ ] All functions have visible access specifiers
+- [ ] State variables are properly scoped (public/private)
+- [ ] Constants defined for magic numbers
+- [ ] Functions under 100 lines
+- [ ] Comments explain non-obvious logic
+
+## Security Review
+- [ ] Input validation on all external calls
+- [ ] Reentrancy patterns identified and mitigated
+- [ ] Integer overflow/underflow checked (use SafeMath if Solidity < 0.8)
+- [ ] Access control verified for sensitive functions
+- [ ] External call order respects checks-effects-interactions
+
+## Testing Coverage
+- [ ] Unit tests for all major functions
+- [ ] Edge case tests for boundary conditions
+- [ ] Fuzz tests for integer operations
+- [ ] Integration tests for complex flows
+- [ ] Minimum 85% code coverage
+
+## Documentation
+- [ ] natspec comments for all public functions
+- [ ] Architecture documentation updated
+- [ ] Known limitations documented
+- [ ] Emergency procedures documented
+
+## Deployment Readiness
+- [ ] Staging environment tested
+- [ ] Gas optimization completed
+- [ ] Deployment scripts tested on testnet
+- [ ] Upgrade path documented if upgradeable
+```
+
 ## Tool Selection Considerations
 
 When selecting tools for remote Solidity audit teams, prioritize:
@@ -190,8 +296,21 @@ When selecting tools for remote Solidity audit teams, prioritize:
 - **Integration**: GitHub/Linear/Discord integrations reduce context switching
 - **Automation**: CI pipeline integration for Slither, Forge tests
 - **Security**: Two-factor authentication, access controls for sensitive findings
+- **Performance**: Tools that complete quickly (Foundry is 100x faster than hardhat)
 
-Most teams end up using 5-7 core tools rather than every available option. Start with essential tools and add more as team size grows.
+Most teams end up using 5-7 core tools rather than every available option. Start with essential tools (GitHub, Discord, Foundry, Slither) and add more as team size grows and specialization increases.
+
+## Training and Onboarding
+
+For new team members joining the audit practice:
+
+1. **Day 1:** Complete Slither and Mythril training with one known-vulnerable contract
+2. **Day 2:** Shadow a live code review and understand GitHub workflow
+3. **Day 3:** Conduct independent static analysis on existing contracts
+4. **Day 4:** Pair with senior auditor on medium-severity findings
+5. **Day 5:** Own one contract review end-to-end with mentorship
+
+Document each step so team members can onboard themselves asynchronously.
 
 ---
 

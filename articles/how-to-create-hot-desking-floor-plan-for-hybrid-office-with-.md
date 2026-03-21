@@ -181,12 +181,144 @@ This visualization helps facilities teams understand space use and plan zone adj
 
 **Communicate changes clearly.** When zone boundaries shift, provide clear notifications to employees about what changed and why. Transparency builds trust in the hot desking system.
 
+## Advanced: Predicting Zone Utilization
+
+Once you have basic zone data, predict demand using historical booking patterns:
+
+```javascript
+function predictZoneOccupancy(zone, historicalData) {
+  const avgOccupancy = historicalData.reduce((sum, week) =>
+    sum + week.zoneOccupancy[zone.id], 0) / historicalData.length;
+
+  const variance = calculateVariance(historicalData, zone.id);
+  const predictedCapacity = avgOccupancy + (variance * 1.5);
+
+  return {
+    zone: zone.id,
+    historicalAverage: avgOccupancy,
+    predictedPeak: Math.ceil(predictedCapacity),
+    recommendation: predictedCapacity > zone.capacity ? 'expand' : 'maintain'
+  };
+}
+```
+
+This analysis helps you identify which zones are consistently overcrowded and need expansion versus which have excess capacity that could be repurposed.
+
+## Desk Assignment Algorithms
+
+For teams using desk booking systems, implement smart assignment that balances preferences with optimal space use:
+
+```javascript
+class DeskAssignmentEngine {
+  constructor(availableDesks, zones) {
+    this.desks = availableDesks;
+    this.zones = zones;
+  }
+
+  assignDesk(employee, preferences = {}) {
+    const { teamName, noiseLevel = 'moderate', proximity } = preferences;
+
+    // Score available desks
+    const scored = this.desks
+      .filter(desk => !desk.booked)
+      .map(desk => ({
+        desk,
+        score: this.calculateScore(desk, employee, preferences)
+      }))
+      .sort((a, b) => b.score - a.score);
+
+    return scored[0]?.desk || this.assignFallback(employee);
+  }
+
+  calculateScore(desk, employee, preferences) {
+    let score = 100;
+
+    // Team zone preference: +30 points
+    if (desk.zone.includes(preferences.teamName)) {
+      score += 30;
+    }
+
+    // Noise level match: +20 points
+    if (desk.noiseLevel === preferences.noiseLevel) {
+      score += 20;
+    }
+
+    // Window proximity: +10 points (optional)
+    if (desk.nearWindow && preferences.nearWindow) {
+      score += 10;
+    }
+
+    // Monitor availability: +15 points
+    if (desk.hasMonitor && preferences.needsMonitor) {
+      score += 15;
+    }
+
+    return score;
+  }
+
+  assignFallback(employee) {
+    // Return least-crowded available desk
+    return this.desks
+      .filter(d => !d.booked)
+      .sort((a, b) => a.occupancyNeighborhood - b.occupancyNeighborhood)[0];
+  }
+}
+```
+
+## Measurement and Optimization
+
+Track these metrics to continuously improve your hot desking operation:
+
+**Weekly Reports:**
+- Zone utilization rates (goal: 70-85% occupancy)
+- Peak hour occupancy by zone
+- Overflow incidents (how often teams couldn't find preferred desk)
+- Desk attribute requests (most-wanted features)
+
+**Monthly Analysis:**
+- Team collaboration patterns (which teams interact most)
+- Amenity usage (which desks with monitors/whiteboard used most)
+- Zone satisfaction (surveys asking "did you find appropriate workspace")
+
+**Quarterly Reviews:**
+- Growth trends in team sizes
+- Emerging collaboration patterns
+- Technology changes affecting space needs (hybrid work trends)
+- Cost-per-desk utilization
+
+```markdown
+# Hybrid Office Utilization Dashboard
+
+| Metric | Target | Current | Trend |
+|--------|--------|---------|-------|
+| Overall occupancy | 75% | 72% | ↓ |
+| Engineering zone | 85% | 88% | ↑ |
+| Collaboration hub | 70% | 65% | ↓ |
+| Focus zone | 60% | 58% | ↔ |
+| Available desks (avg) | 15-20 | 18 | ↔ |
+| Overflow incidents | <2/week | 1 | ✓ |
+| Amenity satisfaction | >4/5 | 4.2 | ✓ |
+```
+
+## Team Engagement with Zone System
+
+For successful adoption, involve employees in the zone design:
+
+1. **Conduct surveys** asking about collaboration patterns and work preferences
+2. **Hold zone design workshops** where teams sketch their ideal spaces
+3. **Create visual guides** showing which zone serves which purpose
+4. **Gather feedback** 30 days after launch and make adjustments
+5. **Celebrate successful zones** with team highlights (shoutouts about productive collaboration)
+
+When employees feel heard in the design process, they're more likely to respect zone boundaries and make the hot desking system work.
+
 ## Common Pitfalls to Avoid
 
 Avoid creating zones that are too small to be useful—a six-desk team neighborhood barely justifies the designation. Similarly, don't create overly complex naming systems that confuse users about which zone serves their needs.
 
 Another common mistake is neglecting to account for meeting room proximity. Teams that collaborate frequently benefit from being near meeting spaces, so factor this into your zone assignments.
 
+Don't design zones based on current state alone—include 20% capacity buffer for growth. A team neighborhood that fits today's team will feel cramped in six months.
 
 ## Related Articles
 

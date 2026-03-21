@@ -177,16 +177,104 @@ If testing reveals poor performance, try different outlet pairs before abandonin
 
 **Security concerns**: Apartment or condo residents should use the pairing button to establish encrypted connection, preventing neighbors from accessing your network through shared electrical circuits.
 
+## Installation Checklist and Best Practices
+
+Before purchasing powerline adapters, walk through this checklist to ensure success:
+
+```markdown
+# Powerline Adapter Installation Checklist
+
+## Pre-Purchase Assessment
+- [ ] Distance between router and office: ____ feet
+- [ ] Path crosses multiple rooms: Yes / No
+- [ ] Multiple electrical panels in home: Yes / No
+- [ ] Office on same circuit as router outlet: Yes / No
+- [ ] Can I avoid surge protectors: Yes / No
+
+## Installation Verification
+- [ ] Both adapters powered on and paired (lights steady)
+- [ ] Ethernet cable properly connected to both adapters
+- [ ] No extension cords or power strips used
+- [ ] Adapters directly in wall outlets
+- [ ] Outlets at least 3 feet from major appliances
+- [ ] Encryption enabled with secure pairing
+
+## Performance Baseline
+- [ ] Speed test run at setup: ____ Mbps
+- [ ] Latency baseline: ____ ms
+- [ ] Consistency check (5 tests): Min ____ Max ____ Avg ____
+- [ ] Best outlet pair identified (if multiple options tested)
+```
+
+## Advanced Troubleshooting Techniques
+
+If your initial setup underperforms, systematic testing helps diagnose the issue:
+
+**Circuit identification:** To confirm adapters are on the same circuit:
+```bash
+# Locate electrical panel and note breaker positions
+# Both outlets should be protected by breakers on same panel
+# If different panels, you need coupling filters or alternative solution
+```
+
+**Outlet quality assessment:** Some outlets provide better signal transmission:
+```bash
+#!/bin/bash
+# Test multiple outlets sequentially
+for outlet in {1..6}; do
+  echo "Testing outlet $outlet"
+  ping -c 5 [adapter-ip] | grep "avg"
+  sleep 30
+done
+```
+
+**Noise source mapping:** Create a spreadsheet correlating connection problems with appliance use:
+
+| Time | Appliance Turned On | Speed Drop | Latency Spike |
+|------|-------------------|------------|----------------|
+| 2:15 PM | Microwave | 45% | Yes |
+| 3:30 PM | Washing machine | 60% | Yes |
+| 4:00 PM | Refrigerator compressor | 20% | No |
+
+This data helps identify which appliances interfere most so you can plan around them.
+
 ## When Powerline Is Not the Right Solution
 
 Powerline networking solves specific problems, but alternatives may serve better in certain scenarios.
 
-If your home has modern ethernet cabling to the office location, installing ethernet drops provides superior performance with lower latency. This is the preferred solution for permanent installations where running cable is feasible.
+**Consider ethernet drops instead if:**
+- Permanent installation (not renting)
+- Home supports running cable through walls
+- Performance needs exceed 500 Mbps consistently
+- You want minimal latency (under 5ms)
 
-Mesh WiFi systems have improved dramatically and may outperform powerline in homes with open floor plans. However, concrete walls, metal framing, or multi-story constructions often cause mesh systems to struggle.
+Ethernet installation costs $200-500 for a single run but provides superior long-term reliability.
 
-For temporary setups or locations where neither WiFi nor powerline works adequately, cellular hotspots provide reliable connectivity with minimal installation complexity.
+**Consider mesh WiFi instead if:**
+- Open floor plan with minimal walls
+- Multiple devices need wireless throughout home
+- You anticipate needing wireless coverage beyond office
+- Budget allows $200-400 for quality mesh system
 
+Modern WiFi 6 mesh systems like Eero Pro deliver 500+ Mbps over distances that used to require ethernet. Test mesh performance before committing to powerline.
+
+**Consider 4G/5G cellular instead if:**
+- Temporary setup (less than 6 months)
+- Other solutions completely fail
+- Budget allows $50-100/month
+- You need backup connectivity regardless
+
+Cellular hotspots provide reliable fallback when both powerline and WiFi fail. Some developers maintain cellular backup specifically for this reason.
+
+## Comparing Powerline to Other Extended Connectivity Solutions
+
+| Solution | Speed | Latency | Cost | Installation | Best For |
+|----------|-------|---------|------|--------------|----------|
+| Powerline (1200 Mbps) | 300-600 Mbps | 10-20ms | $100 | 5 min | Existing homes, permanent rooms |
+| Mesh WiFi | 400-800 Mbps | 20-40ms | $250-400 | 15 min | Flexibility, multi-room |
+| Ethernet drops | 1000 Mbps | 1-5ms | $300-500 | Hours | Best performance |
+| 4G/5G hotspot | 50-300 Mbps | 30-100ms | $60+/mo | Immediate | Backup, temporary |
+| WiFi extender | 100-300 Mbps | 40-80ms | $40-80 | 5 min | Budget option only |
 
 ## Related Articles
 

@@ -176,18 +176,189 @@ For each deliverable, list specific testable criteria.
 
 **Estimating in your head.** Write everything down. The act of documenting reveals gaps in your understanding.
 
+## Pricing Strategies for Different Project Types
+
+Your rate structure should vary by project complexity and risk:
+
+**Fixed-price projects (scoped):**
+- Technical complexity: Low
+- Requirements: Clear and stable
+- Risk: Client can write acceptance tests
+- Rate: Standard rate × 1.3 (buffer for unknowns)
+- Example: Building a landing page at $60/hr with clear design = 20 hours × $60 × 1.3 = $1,560
+
+**Time-and-materials (for exploration):**
+- Technical complexity: Moderate to high
+- Requirements: Some uncertainty
+- Risk: Client understands ongoing discovery
+- Rate: Standard rate × 1.5 (exploration overhead)
+- Example: Integrating third-party API with unclear documentation = $60/hr × 1.5 = $90/hr
+
+**Hybrid (fixed phases with T&M overages):**
+- Technical complexity: High
+- Requirements: Known phases, but some unknowns
+- Risk: Split with client
+- Example: "Phase 1 (authentication): Fixed $3,000. Phase 2 (API): Time-and-materials at $75/hr with 40-hour estimate"
+
+## Estimation Techniques You Can Use
+
+**Three-point estimation** (reduces overconfidence):
+```
+Optimistic estimate:    5 hours (everything goes perfectly)
+Most likely estimate:   8 hours (realistic scenario)
+Pessimistic estimate:   15 hours (everything goes wrong)
+
+Calculated estimate = (optimistic + 4×likely + pessimistic) / 6
+= (5 + 32 + 15) / 6 = 8.7 hours
+```
+
+This mathematical approach accounts for your bias toward underestimation.
+
+**Analogy-based estimation** (use past projects):
+```
+Past project: Landing page similar to this one took 18 hours
+Current project: More complex backend, simpler design
+Adjustment: +4 hours for backend = 22 hours estimated
+```
+
+**Complexity-rated tasks:**
+```
+Easy task (add simple field):       1 hour
+Normal task (build feature):        3-5 hours
+Complex task (architecture work):   8-12 hours
+Very complex (integration work):    20+ hours
+
+Total project: Sum complexity ratings, then add 25% buffer
+```
+
+## Red Flags That Indicate Scope Creep Risk
+
+Learn to identify projects likely to exceed scope:
+
+**Client behaviors:**
+- Vague about success criteria ("we'll know it when we see it")
+- Changes requirements frequently during initial discussion
+- No written specification, only verbal explanation
+- Doesn't acknowledge costs of requested changes
+- Asks for "just one more thing" repeatedly
+
+**Project characteristics:**
+- "We're not sure exactly what we need, but we have a budget"
+- Tight deadline with unclear requirements
+- Client wants to "figure it out as we go"
+- Multiple stakeholders with different opinions
+- "Can we see something and iterate?"
+
+**Your response:**
+For projects showing 3+ red flags, increase estimates by 40-50% or propose time-and-materials instead. Your instinct is usually right.
+
+## Building Your Scoping Muscle
+
+Create a database of past estimates vs. actual hours to calibrate your skills:
+
+```markdown
+# Estimation Accuracy Log
+
+| Project | Type | Estimated | Actual | Variance | Notes |
+|---------|------|-----------|--------|----------|-------|
+| Landing page | Fixed | 16 | 14 | -2 | Underestimated image optimization |
+| API integration | Fixed | 20 | 28 | +8 | Third-party service had bad docs |
+| Dashboard | T&M | 30 | 32 | +2 | Client added one extra metric |
+| Mobile app | Hybrid | 80 | 85 | +5 | Acceptable within phase budget |
+
+**Accuracy Analysis:**
+- Projects under 20 hours: ±10% variance (good)
+- Projects 20-50 hours: ±20% variance (acceptable)
+- Projects over 50 hours: ±30% variance (normal)
+
+**Calibration:** If fixed projects consistently over by 15%+, adjust multiplier from 1.3x to 1.5x
+```
+
 ## Tools for Scoping
 
 Several tools help manage project scope:
 
-- Trello or Notion: Track deliverables as cards or database items
-- Google Docs: Collaborative scoping documents with comment threads
-- Loom: Record short videos explaining technical decisions
-- Miro or Figma: Visual diagrams for complex workflows
-- Time tracking history: Review past projects to improve future estimates
+- **Trello or Notion:** Track deliverables as cards or database items (free tier works)
+- **Google Docs:** Collaborative scoping documents with comment threads (free)
+- **Loom:** Record short videos explaining technical decisions ($5-25/mo)
+- **Miro or Figma:** Visual diagrams for complex workflows (free tier available)
+- **Time tracking:** Use Toggl or Clockify to record actual hours vs estimates ($5-29/mo)
+- **Project templates:** Create reusable scoping templates in your system
 
 Build these into your scoping workflow. They create accountability and documentation that protects everyone involved.
 
+## Sample Scoping Project Template
+
+Create this template and reuse it for every project:
+
+```markdown
+# Project Scope Document: [Project Name]
+
+**Client:** [Name]
+**Prepared by:** [Your name]
+**Date:** [Date]
+**Quote valid until:** [Date, typically 30 days]
+
+## Problem Summary
+[1 paragraph describing what client is trying to achieve]
+
+## Proposed Solution
+[Overview of your approach]
+
+## Deliverables
+1. [Deliverable 1: Exact description]
+2. [Deliverable 2: Exact description]
+3. [Deliverable 3: Exact description]
+
+## Out of Scope (Explicitly Not Included)
+- [Item 1]
+- [Item 2]
+- [Item 3]
+
+## Technical Approach
+[How you plan to build this. Include architecture decisions and technology choices]
+
+## Timeline
+- Phase 1: [Deliverables] - [Duration]
+- Phase 2: [Deliverables] - [Duration]
+- Phase 3: [Deliverables] - [Duration]
+
+**Total project duration:** [X weeks]
+**Estimated start:** [Date]
+**Estimated completion:** [Date]
+
+## Investment
+- [Phase 1]: [Hours] hours at $[rate]/hour = $[cost]
+- [Phase 2]: [Hours] hours at $[rate]/hour = $[cost]
+- [Phase 3]: [Hours] hours at $[rate]/hour = $[cost]
+
+**Total investment:** $[amount]
+**Payment terms:** [Your terms - e.g., 50% on signing, 50% on delivery]
+
+## Success Criteria
+The project is considered successful when:
+- [Criterion 1]
+- [Criterion 2]
+- [Criterion 3]
+
+## Change Request Process
+Additional work beyond this scope will be quoted separately using this format:
+- Change description
+- Estimated hours
+- Cost: [Hours] × $[rate] = $[total]
+- Timeline impact
+- Approval required before proceeding
+
+## Assumptions
+- Client provides [assets/access/content] by [date]
+- Client reviews deliverables within [timeframe]
+- Client decisions don't change [technical foundation/scope]
+- [Your assumption about client involvement]
+
+## Approval
+- Client representative: _________________ Date: _______
+- Developer: _________________ Date: _______
+```
 
 ## Related Articles
 

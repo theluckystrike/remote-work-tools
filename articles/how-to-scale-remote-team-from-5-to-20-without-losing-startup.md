@@ -154,14 +154,90 @@ Use PostgreSQL 15 with Citus extension for future sharding capability.
 
 This ADR format creates institutional memory that preserves the reasoning behind technical choices, allowing new team members to understand context without interrogating everyone.
 
+## Maintaining Code Quality During Growth
+
+As teams grow, code quality often suffers unless you intentionally maintain standards. Implement these practices:
+
+**Automated code quality gates:** Configure CI/CD to block merges that violate standards:
+
+```yaml
+# .github/workflows/quality-gate.yml
+name: Code Quality Gate
+on: [pull_request]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run linter
+        run: npm run lint
+      - name: Test coverage minimum
+        run: npm run test:coverage -- --minCoveragePercentage=75
+      - name: Check code complexity
+        run: npm run complexity -- --threshold=10
+```
+
+**Code review standards that scale:**
+- For files changed: Always require 1+ approvals
+- For critical files (auth, billing): Require 2 approvals
+- For documentation/tests: Can self-approve after review
+- Maximum PR age: 24 hours before escalation
+
+**Refactoring time allocation:** Reserve 20% of sprint capacity for technical debt paydown. Growing teams accumulate technical debt; without dedicated refactoring time, it compounds exponentially.
+
+## Communication Patterns That Scale
+
+As your team grows from 5 to 20, communication patterns must evolve:
+
+**5-person team (everyone knows everything):**
+- Daily standups: 5 minutes
+- Communication: Mostly Slack, spontaneous
+- Decisions: Verbal handshakes work fine
+
+**10-person team (knowledge silos emerging):**
+- Async standups: Written updates
+- Dedicated Slack channels: #frontend, #backend, #infra
+- Weekly team sync: 30 minutes
+- Decision documentation: RFC format for major choices
+
+**20-person team (specialized knowledge required):**
+- Async standups with written format
+- Department standups: 15 min each, twice weekly
+- Company all-hands: 30 min, once weekly
+- Department syncs: 30 min, once weekly
+- Architecture review board: Weekly RFC review
+- Officer sync: Department heads, twice weekly
+
+## Building Leaders Without Losing Culture
+
+At 5 people, one strong leader can maintain culture. At 20, you need distributed leadership. Identify potential leads early:
+
+**Early signs of leadership readiness:**
+- Mentors other developers without being asked
+- Writes comprehensive PRs and code reviews
+- Proposes process improvements with solutions, not just complaints
+- Remains calm during outages and helps others stay focused
+
+**Transition path to team leads:**
+1. **Month 1:** Give official tech lead title (no direct report changes)
+2. **Month 2:** Lead weekly tech discussions on their domain
+3. **Month 3:** Conduct code reviews for their team
+4. **Month 4:** Lead on-call rotation for their service
+5. **Month 5:** Take ownership of one junior developer's onboarding
+6. **Month 6:** Formal title change with appropriate compensation
+
+This gradual transition develops leaders while maintaining continuity.
+
 ## Trust But Verify Your Scaling
 
 The final principle is measurement. You need feedback loops that tell you whether your scaling efforts are working:
 
-- Onboarding time: How long until new hires are productive? Track this across cohorts.
-- Code review turnaround: Are PRs blocking? Measure time from request to approval.
-- Meeting load: How many hours per week in synchronous meetings? This should decrease or stay flat, not increase.
-- Documentation coverage: Can new hires find answers without asking? Survey them at 30/60/90 days.
+- **Onboarding time:** How long until new hires are productive? Track this across cohorts. Target: 5-7 days to first PR.
+- **Code review turnaround:** Are PRs blocking? Measure time from request to approval. Target: <24 hours.
+- **Meeting load:** How many hours per week in synchronous meetings? Track weekly. Target: <8 hours/week.
+- **Documentation coverage:** Can new hires find answers without asking? Survey at 30/60/90 days.
+- **Employee satisfaction:** Monthly pulse surveys on culture, autonomy, clarity. Target: >4/5 on all dimensions.
 
 ```javascript
 // Example: Simple metrics tracking
@@ -183,10 +259,47 @@ const scalingMetrics = {
     target: 50,
     current: 47,
     trend: 'growing'
+  },
+  meetingLoad: {
+    metric: 'hours_sync_per_week',
+    target: 8,
+    current: 10.5,
+    trend: 'declining'
+  },
+  cultureSatisfaction: {
+    metric: 'nps_culture_domain',
+    target: 4.0,
+    current: 3.8,
+    trend: 'stable'
   }
 };
+
+// Dashboard: Review monthly to catch scaling issues early
+function generateScalingReport(metrics) {
+  const alerts = Object.entries(metrics)
+    .filter(([key, metric]) => metric.current > metric.target * 1.2)
+    .map(([key, metric]) => `ALERT: ${key} exceeding target (${metric.current} vs ${metric.target})`);
+
+  return alerts.length > 0 ? alerts : ['All metrics within targets'];
+}
 ```
 
+## Preventing Manager Bottlenecks
+
+A common failure mode when scaling: the founding team becomes a bottleneck because all decisions flow through them. Prevent this:
+
+**Empower team decisions:**
+- Developers can merge their own PRs after one review (except critical systems)
+- Teams select their own tools (within approved categories)
+- Deploy their own services (with automated rollback capabilities)
+
+**Reserve leadership for true decisions:**
+- Strategic direction (quarterly)
+- Hiring and compensation
+- Architectural decisions affecting multiple teams
+- Conflict resolution
+
+This maintains cultural alignment while distributing operational decisions.
 
 ## Related Articles
 
