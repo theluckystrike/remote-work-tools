@@ -6,9 +6,9 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /digital-nomad-mastermind-groups-guide-2026/
 categories: [guides]
-tags: [digital-nomad, mastermind-groups, remote-work, productivity, networking, developer-tools]
+tags: [remote-work-tools, digital-nomad, mastermind-groups, remote-work, productivity, networking, developer-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

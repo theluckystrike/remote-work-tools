@@ -7,7 +7,7 @@ date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /comparing-enterprise-remote-work-analytics-dashboards-for-vp/
 categories: [guides]
-tags: [remote-work-analytics, vp-dashboards, enterprise-analytics, remote-work-metrics, data-visualization, reporting-tools]
+tags: [remote-work-tools, remote-work-analytics, vp-dashboards, enterprise-analytics, remote-work-metrics, data-visualization, reporting-tools, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
