@@ -158,6 +158,71 @@ Start with one category—decision records work well—and prove the pattern bef
 The remote work environment makes documentation culture more important than ever. The tools and approaches in this guide provide a foundation your team can adapt to your specific context. The key is starting, iterating, and maintaining momentum over time.
 
 
+
+## Slack Automation with Workflows and Webhooks
+
+Automating Slack notifications reduces manual status updates and keeps teams synchronized without extra meetings.
+
+```python
+import requests
+import json
+from datetime import datetime
+
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/T.../B.../..."
+
+def post_slack_message(channel, text, blocks=None):
+    payload = {"channel": channel, "text": text}
+    if blocks:
+        payload["blocks"] = blocks
+    response = requests.post(
+        SLACK_WEBHOOK_URL,
+        data=json.dumps(payload),
+        headers={"Content-Type": "application/json"},
+    )
+    return response.status_code == 200
+
+# Rich block message for daily standup digest:
+def post_standup_digest(updates):
+    blocks = [
+        {"type": "header", "text": {"type": "plain_text",
+         "text": f"Standup Digest — {datetime.now().strftime('%A %b %d')}"}},
+        {"type": "divider"},
+    ]
+    for person, update in updates.items():
+        blocks.append({
+            "type": "section",
+            "text": {"type": "mrkdwn",
+                     "text": f"*{person}*
+{update}"}
+        })
+    return post_slack_message("#standups", "Daily standup digest", blocks)
+
+# Schedule via cron:
+# 0 9 * * 1-5 python3 /home/user/standup_digest.py
+```
+
+Webhooks are simpler than bot tokens for one-way notifications. Use Slack's Block Kit Builder (api.slack.com/block-kit/building) to design rich message layouts.
+
+## Slack Search Operators for Remote Teams
+
+Advanced search operators cut through Slack noise to find decisions, files, and context quickly.
+
+Useful search operator combinations:
+- `from:@username in:#channel after:2026-01-01` — find all messages from a person in a specific channel
+- `has:link from:@boss before:2026-03-01` — find links shared by your manager recently
+- `"deployment" in:#engineering has:pin` — find pinned deployment-related messages
+- `is:thread from:me` — your threaded replies (useful for finding context you added)
+
+```bash
+# Slack CLI for programmatic search (requires Slack CLI installed):
+slack search messages --query "from:@alice deployment" --channel engineering
+
+# Export search results via API:
+curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp-YOUR-TOKEN"   --data-urlencode "query=deployment hotfix in:#engineering"   --data-urlencode "count=20" | python3 -m json.tool | grep -A3 '"text"'
+```
+
+Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

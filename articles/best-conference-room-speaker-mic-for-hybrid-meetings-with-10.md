@@ -148,6 +148,60 @@ pactl list sources short | grep -i conference
 
 For development teams building custom meeting tools, most conference systems expose standard USB Audio Class drivers, meaning they work with WebRTC, Zoom SDK, and custom audio pipelines without special drivers.
 
+
+## Zoom Meeting Automation via API
+
+Automating meeting creation and reporting eliminates scheduling overhead for recurring remote team events.
+
+```python
+import requests
+import base64
+import json
+
+def get_zoom_token(client_id, client_secret, account_id):
+    credentials = base64.b64encode(f"{client_id}:{client_secret}".encode()).decode()
+    response = requests.post(
+        "https://zoom.us/oauth/token",
+        params={"grant_type": "account_credentials", "account_id": account_id},
+        headers={"Authorization": f"Basic {credentials}"},
+    )
+    return response.json()["access_token"]
+
+def create_recurring_meeting(token, topic, start_time, duration_min=60):
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json",
+    }
+    meeting_config = {
+        "topic": topic,
+        "type": 8,  # Recurring with fixed time
+        "start_time": start_time,  # ISO 8601: "2026-03-25T09:00:00"
+        "duration": duration_min,
+        "timezone": "UTC",
+        "recurrence": {
+            "type": 2,    # Weekly
+            "repeat_interval": 1,
+            "weekly_days": "2",  # Tuesday (1=Sun, 2=Mon... 7=Sat)
+            "end_times": 52,
+        },
+        "settings": {
+            "host_video": False,
+            "participant_video": False,
+            "mute_upon_entry": True,
+            "waiting_room": True,
+            "auto_recording": "cloud",
+        },
+    }
+    r = requests.post(
+        "https://api.zoom.us/v2/users/me/meetings",
+        headers=headers,
+        json=meeting_config,
+    )
+    return r.json()
+```
+
+Server-to-server OAuth (type `account_credentials`) is the recommended auth method for automation — no user login required and tokens refresh automatically.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
