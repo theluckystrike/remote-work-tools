@@ -9,7 +9,7 @@ permalink: /best-whiteboarding-tool-for-remote-architects-doing-system-d/
 categories: [guides]
 tags: [remote-work-tools, whiteboarding, system-design, remote-work, architecture, collaboration, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
