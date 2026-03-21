@@ -19,13 +19,23 @@ tags: [remote-work-tools, comparison, privacy]
 
 Choose Jitsi Meet if you need full data sovereignty, self-hosting capability, and open-source transparency for your video calls. Choose Zoom if you need advanced features like breakout rooms, webinars, and enterprise integrations where privacy trade-offs are acceptable. This comparison breaks down the specific differences in encryption standards, data collection practices, self-hosting capabilities, and practical implementation details to help you decide.
 
+## Who This Decision Actually Affects
+
+Before diving into technical specs, consider which category describes your situation. Privacy concerns are not uniform across remote teams.
+
+**High-stakes privacy users** — legal firms, healthcare providers, security researchers, government contractors, and startups working on proprietary technology — need the strongest possible privacy guarantees. For these teams, any scenario where meeting content could be accessed by a third party is unacceptable. Jitsi self-hosted is the only defensible choice.
+
+**Standard remote teams** — product companies, agencies, and distributed engineering teams — need reasonable privacy without significant operational overhead. Zoom with E2EE enabled and careful settings management is typically sufficient, though teams handling sensitive client data should review Zoom's data processing agreements carefully.
+
+**Developer teams evaluating for integration** — if you're embedding video into your own product, Jitsi's open-source architecture and iframe API make it substantially more flexible than Zoom, which restricts embedding capabilities and charges SDK licensing fees.
+
 ## Encryption Standards
 
 Both platforms offer encryption, but their approaches differ significantly.
 
 ### Jitsi Meet Encryption
 
-Jitsi Meet implements **end-to-end encryption (E2EE)** as a core feature. By default, all Jitsi meetings use TLS encryption for data in transit. For enhanced privacy, you can enable E2EE using the盾牌图标 in the meeting interface.
+Jitsi Meet implements **end-to-end encryption (E2EE)** as a core feature. By default, all Jitsi meetings use TLS encryption for data in transit. For enhanced privacy, you can enable E2EE using the shield icon in the meeting interface.
 
 From a developer perspective, Jitsi uses:
 - **DTLS-SRTP** for media encryption
@@ -114,7 +124,7 @@ Zoom collects more extensive user data:
 - Device information: OS, browser, IP addresses
 - User profiles: names, email addresses, organization data
 
-Zoom's data retention policies mean your meeting data may persist on their servers even after meetings end, depending on your account settings and plan.
+Zoom's data retention policies mean your meeting data may persist on their servers even after meetings end, depending on your account settings and plan. Enterprise customers can negotiate data processing agreements that specify retention limits and prohibit certain uses of metadata, but this requires active engagement with Zoom's sales team and is not available on standard or pro plans.
 
 ## Self-Hosting and Control
 
@@ -151,9 +161,19 @@ const config = {
 };
 ```
 
+A self-hosted Jitsi instance on a single t3.medium AWS instance handles around 15-20 concurrent participants reliably. For larger meetings, you scale by adding Jitsi Videobridge (JVB) instances horizontally. This architecture is well-documented and the community support on GitHub and the Jitsi community forums is strong.
+
 ### Zoom: Limited Control
 
 Zoom operates as a SaaS platform, meaning you cannot self-host. All meetings route through Zoom's infrastructure. While Zoom offers admin controls for data retention and privacy settings, you ultimately rely on their policies and cannot audit the full system.
+
+## Real-World Team Scenarios
+
+**A healthcare startup** conducting telemedicine consultations chose self-hosted Jitsi after evaluating BAA (Business Associate Agreement) requirements under HIPAA. Zoom does offer a HIPAA-compliant plan, but it requires a specific Business Associate Agreement that many small startups found administratively burdensome. Jitsi self-hosted with disabled logging and no recordings achieved compliance without vendor paperwork.
+
+**A security research firm** uses self-hosted Jitsi for all internal team calls. Their threat model includes the possibility that any third-party service could be compelled to disclose meeting metadata through legal process. Self-hosting on infrastructure they control eliminates that vector entirely.
+
+**A mid-size product agency** standardized on Zoom for client-facing calls because their clients already had Zoom installed and were comfortable with it. They enabled E2EE for any calls involving sensitive roadmap discussions and accepted the remaining metadata risk as within tolerance for their use case.
 
 ## Technical Implementation Considerations
 
@@ -196,6 +216,8 @@ Both platforms offer APIs, but Jitsi's open-source nature provides more flexibil
 - Jitsi: Full source code access, custom modding, iframe embedding, webhook support
 - Zoom: REST API, SDKs, but limited visibility into core functionality
 
+For product teams embedding video into their own applications, Jitsi's iframe API and lib-jitsi-meet SDK are genuinely usable without licensing fees or approval processes. Zoom's SDK is more polished but requires agreement to Zoom's terms, costs for higher-volume usage, and restricts certain customizations.
+
 ## Security Hardening Tips
 
 Regardless of your choice, implement these practices:
@@ -219,6 +241,22 @@ const securityBestPractices = {
     ]
 };
 ```
+
+## Frequently Asked Questions
+
+**Does Jitsi's public instance (meet.jit.si) offer the same privacy as self-hosted?** No. meet.jit.si is operated by 8x8, the company that acquired Jitsi. It collects basic usage analytics and is subject to 8x8's privacy policy. For genuine data sovereignty, self-hosting is required.
+
+**Can Zoom's E2EE be audited by third parties?** Zoom has commissioned third-party security audits, but the underlying code is not open-source. You rely on audit reports rather than direct code inspection. Jitsi's open-source codebase allows any developer to audit the encryption implementation directly.
+
+**Which performs better on poor internet connections?** Zoom's media processing pipeline is more polished and degrades more gracefully on poor connections. Jitsi's performance on poor connections has improved significantly but still lags behind Zoom in experience quality at very low bandwidths (under 500 kbps).
+
+**Is there a free tier for both?** Jitsi's public instance is free with no time limits. Self-hosting costs only infrastructure. Zoom's free tier limits group meetings to 40 minutes. For remote teams using video heavily, Zoom's free tier becomes impractical quickly, whereas Jitsi has no such restriction.
+
+**What about regulatory compliance (GDPR, HIPAA, SOC 2)?** Zoom offers compliance documentation and enterprise agreements covering GDPR and HIPAA. Jitsi self-hosted can be configured to meet these requirements, but you are responsible for the implementation. Teams without dedicated security staff typically find Zoom's pre-packaged compliance documentation easier to work with for enterprise audits.
+
+## Making the Right Call for Your Team
+
+The decision between Jitsi and Zoom ultimately comes down to your threat model and operational capacity. If your team has an engineer willing to maintain a self-hosted instance, Jitsi offers a level of privacy control that no SaaS product can match. If your team is non-technical or needs maximum compatibility with external participants, Zoom with E2EE enabled is a defensible choice for most remote work use cases. Whichever platform you choose, review your encryption settings, data retention policies, and recording configurations quarterly—both platforms update their settings defaults, and what was configured correctly six months ago may have drifted.
 
 ## Related Reading
 
