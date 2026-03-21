@@ -43,6 +43,8 @@ Use a simple markdown-based task file instead of a full project management tool 
 
 This approach keeps you in your text editor and avoids context switching to a separate app. Update it as priorities shift throughout the day.
 
+The morning planning session has an additional benefit: it forces you to acknowledge what's actually in motion. Solo writers often carry invisible mental overhead—half-finished sections, pending stakeholder questions, version inconsistencies—that creates a low-level cognitive drain all day. Externalizing that overhead into a task file each morning clears the mental RAM for actual writing.
+
 ## Mid-Morning: Deep Documentation Work
 
 Block 2-3 hours for your most cognitively demanding documentation work. This is when you write new content, restructure existing docs, or tackle complex API references. Protect this window ruthlessly—no meetings, no Slack, no email.
@@ -62,6 +64,12 @@ done
 ```
 
 This catches syntax errors in bash examples. Extend it to validate other languages using their respective linters.
+
+### Structuring Complex Technical Topics
+
+Solo writers face a particular challenge with complex topics: no colleague to review your explanation structure before you write. A useful technique is to write the summary sentence for each section before writing the section itself. If you can't summarize a section in one clear sentence, you don't understand it well enough yet—or it covers too many concepts and needs splitting.
+
+For API documentation specifically, follow this sequence: what the endpoint does, when you'd use it, what it requires, what it returns, what can go wrong, and a complete working example. This structure means engineers can scan to the "what can go wrong" section directly when they hit an error, rather than reading from the top each time.
 
 ## Midday: Review and Collaboration Windows
 
@@ -84,6 +92,18 @@ Good point. I'm logging this as a follow-up item for the v2.1 release cycle.
 
 Copy-pasting from a template file saves time on routine responses.
 
+### Coordinating with Engineering Teams Across Time Zones
+
+A recurring friction point for solo remote technical writers is the engineering review loop. You complete a draft and send it for review. Engineers in a different time zone respond with questions. You answer. They have follow-up questions. Three days pass before the content is reviewed once.
+
+Break this cycle by front-loading context. Before sending a draft for engineering review, include a brief annotation at the top:
+
+- What decisions I made in this draft and why
+- What I'm uncertain about and want specific feedback on
+- What I explicitly chose not to document and why
+
+This annotation typically takes 10 minutes to write and cuts review round trips in half because engineers know where to focus rather than reviewing the entire document equally.
+
 ## Afternoon: Maintenance and Quick Tasks
 
 Reserve the afternoon for lower-energy work: updating screenshots, fixing broken links, polishing existing pages, and handling small fixes that don't require deep focus. This rhythm works because your mental energy naturally dips after lunch.
@@ -101,17 +121,17 @@ from pathlib import Path
 def check_links():
     docs_dir = Path(".")
     broken = []
-    
+
     for md_file in docs_dir.rglob("*.md"):
         content = md_file.read_text()
         # Match relative links like [text](./other-page/)
         links = re.findall(r'\[.*?\]\(\./([^)]+)\)', content)
-        
+
         for link in links:
             target = md_file.parent / link
             if not target.exists() and not target.with_suffix('.md').exists():
                 broken.append(f"{md_file}: {link}")
-    
+
     if broken:
         print("Broken links found:")
         for b in broken:
@@ -124,6 +144,28 @@ if __name__ == "__main__":
 ```
 
 Run this script weekly or integrate it into your CI pipeline.
+
+### Maintaining Documentation Debt Inventory
+
+Solo writers accumulate documentation debt the same way engineering teams accumulate technical debt. A feature ships, you write a quick stub, and that stub sits incomplete for months. Without a team to create accountability, stubs stay stubs.
+
+Maintain a dedicated file called `debt.md` alongside your documentation:
+
+```markdown
+# Documentation Debt
+
+## High Priority
+- Authentication flow diagram: needs update for OAuth 2.0 changes (blocking 3 tutorials)
+- Rate limiting section: outdated, references old limits
+
+## Medium Priority
+- Error code reference: missing 12 new error codes added in v3.2
+
+## Low Priority
+- Getting started guide: screenshots from old UI design
+```
+
+Review this file every Friday. Each week, resolve at least one high-priority item before starting new content. This prevents your docs from becoming systematically outdated over time, which is the most common failure mode for solo writer documentation sets.
 
 ## End of Day: Wrap-Up and Tomorrow's Setup
 
@@ -192,6 +234,33 @@ docs/
 ```
 
 This separation prevents version confusion and makes it easy to archive old releases without losing historical reference material.
+
+### Tool Stack Recommendations for 2026
+
+Solo remote technical writers benefit from a lean, integrated tool stack. Over-engineering your tooling is a real risk—configuration becomes a procrastination mechanism.
+
+A practical stack for most solo writers:
+
+- **Writing:** VS Code with the Markdown All in One extension handles most documentation formats without leaving the editor
+- **Version control:** Git with a documentation-only repository, separate from the codebase repositories you document
+- **Review coordination:** Linear or GitHub Issues for tracking review status and open questions per document
+- **Reference management:** A local Obsidian vault for research notes, meeting notes, and draft snippets—kept separate from the publishable documentation
+
+The key discipline is keeping your tooling stable. Switching documentation tools mid-project introduces migration overhead and breaks established automation scripts. Evaluate new tools only between major project cycles, not during active delivery.
+
+## Frequently Asked Questions
+
+**How do you handle stakeholder unavailability when you're the only writer?**
+
+Build explicit response SLAs into your working agreements at the start of each project. State in writing that documentation review requests receive responses within 48 business hours. If reviews go overdue, escalate directly rather than waiting. Solo writers who don't establish these expectations become perpetual bottleneck absorbers, waiting weeks for reviews that never arrive.
+
+**What's the right way to scope documentation work for a new product feature?**
+
+Start with an inventory before writing. List every user action related to the feature, every error state, and every integration point. Then classify each item as must-document (blocks user success), should-document (reduces support burden), or nice-to-document (completeness). Write the must-document items first and ship them with the feature. Backfill the rest.
+
+**How do you maintain work-life separation as a solo remote writer?**
+
+A shutdown ritual matters more than a shutdown time. Your end-of-day notes serve this function: writing tomorrow's priority 1 is a deliberate signal to your brain that today's work is complete. Pair this with a physical transition—closing the laptop, changing out of work clothes, or a short walk—to reinforce the boundary that a commute used to create automatically.
 
 ## Related Reading
 
