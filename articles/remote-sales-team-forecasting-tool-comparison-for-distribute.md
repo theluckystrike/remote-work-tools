@@ -174,6 +174,37 @@ WHERE d.is_closed = false;
 
 This approach unifies data from CRM, conversation intelligence tools, marketing automation, and support systems into a single forecast model.
 
+## Platform Comparison: Head-to-Head
+
+Before committing to a platform, understanding where each tool wins helps you match it to your team's actual workflow. The table below covers the platforms most frequently adopted by distributed sales teams in 2026:
+
+| Platform | Forecasting Model | CRM Integrations | AI/ML Features | Remote Team Features | Starting Price |
+|----------|-------------------|------------------|----------------|----------------------|----------------|
+| Clari | AI + rep override | Salesforce, HubSpot, Dynamics | Anomaly detection, deal risk scoring | Timezone-aware rollups | $60/user/mo |
+| Gong | Conversation-signal driven | Salesforce, HubSpot | NLP call analysis, buyer sentiment | Async call review | $100/user/mo |
+| Salesforce Forecasting | Stage-weighted + Einstein AI | Native | Einstein opportunity scoring | Territory management | Included in Enterprise |
+| HubSpot Forecasting | Stage-weighted | Native | Deal score | Basic reporting | Included in Sales Hub Pro |
+| Avoma | Conversation + deal intelligence | Salesforce, HubSpot, Pipedrive | Meeting AI, deal health scoring | Async meeting notes | $59/user/mo |
+| Spreadsheet + API | Manual / custom | Any via API | None (build your own) | Fully custom | Near zero |
+
+For teams under 25 people, HubSpot's built-in forecasting combined with a custom Google Sheets dashboard frequently outperforms expensive dedicated platforms. The accuracy gap between Clari's AI and a well-maintained weighted model narrows significantly when your historical dataset is under two years of closed deals.
+
+## Handling Asynchronous Pipeline Reviews
+
+The most disruptive forecasting problem for remote teams is not tool selection—it is the pipeline review itself. When your sales leader in Sydney wraps up deal reviews at 5 PM, the AE in Chicago is not yet in the office. Traditional weekly pipeline calls assume real-time participation that remote teams cannot provide.
+
+Replace synchronous pipeline calls with an async review workflow:
+
+1. **Automated deal digest** — Schedule a Monday morning CRM report that surfaces deals with stale activity (no update in 7+ days), deals close to close date with low probability, and deals that moved backward in stage.
+
+2. **Async video updates** — Require AEs to record a 2–3 minute Loom or Notion clip for each deal over a defined threshold (e.g., above $25K) at the start of each week. Leadership reviews these recordings asynchronously.
+
+3. **Structured CRM updates** — Standardize the fields AEs must update before Friday EOD. Next steps, close date confidence, and blockers are the minimum. This data feeds your automated forecast model directly.
+
+4. **Forecast commit via form** — Replace the verbal "what's your commit this quarter?" with a short structured form (Google Forms or Typeform) submitted weekly. Automate aggregation into your forecast dashboard.
+
+This workflow compresses the time cost of pipeline reviews from a 90-minute synchronous call to roughly 20 minutes of async effort per participant, and it produces a written record that can be referenced across time zones.
+
 ## Choosing Your Forecasting Approach
 
 The right tool depends on your team size, technical resources, and forecast accuracy requirements:
