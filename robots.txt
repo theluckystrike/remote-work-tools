@@ -3,6 +3,7 @@ Allow: /
 
 # Sitemaps
 Sitemap: https://theluckystrike.github.io/remote-work-tools/sitemap.xml
+Sitemap: https://theluckystrike.github.io/remote-work-tools/sitemap-topics.xml
 
 # Crawl-delay (be polite)
 Crawl-delay: 1
