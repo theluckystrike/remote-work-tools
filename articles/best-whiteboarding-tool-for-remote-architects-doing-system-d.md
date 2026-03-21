@@ -180,6 +180,136 @@ Regardless of tool choice, establish a session structure:
 
 Document decisions alongside diagrams. Connect architecture choices to ADRs (Architecture Decision Records) so future team members understand the reasoning behind each design element.
 
+## Workflow Integration: From Sketch to Production
+
+Most teams work with multiple tools in their design workflow. A practical integration:
+
+**Design phase**: Excalidraw for rapid ideation (team sketches together, iterates)
+**Documentation phase**: Mermaid.js for formal documentation (diagram code lives in markdown)
+**Presentation phase**: Figma export for polished stakeholder presentations
+**Reference phase**: GitHub wiki or Notion with embedded diagrams for ongoing reference
+
+Example workflow:
+
+```markdown
+## Caching Architecture Design
+
+**Status**: In Review (Decision pending)
+**Team**: Platform Architecture
+**Created**: 2026-03-16
+
+### Problem
+API response times at p99 are 800ms without caching strategy.
+
+### Solution Overview
+[Excalidraw diagram embedded or linked]
+
+### Sequence: Cache Hit vs Miss
+\`\`\`mermaid
+sequenceDiagram
+    participant Client
+    participant Cache
+    participant API
+
+    Client->>Cache: GET /users/123
+    alt Cache Hit
+        Cache-->>Client: Return cached data (10ms)
+    else Cache Miss
+        Cache->>API: Query database
+        API-->>Cache: Return data (200ms)
+        Cache-->>Client: Return data + update cache
+    end
+\`\`\`
+
+### Implementation Details
+[Link to RFC or implementation plan]
+
+### ADR Reference
+[Link to ADR-0015: When to use Redis vs Local Cache]
+```
+
+This integrates whiteboarding into your broader documentation practice.
+
+## Keyboard Shortcuts That Save Time
+
+Power users should master tool-specific shortcuts:
+
+**Excalidraw**:
+- `Ctrl/Cmd + D`: Duplicate selected element
+- `Ctrl/Cmd + Shift + C`: Copy as PNG
+- `V`: Switch to selection tool
+- `R`: Rectangle tool
+- Arrow keys: Fine-position selected element
+
+**Mermaid**: Use a VS Code extension with live preview. Type diagram code in VS Code, see rendered diagram in split pane instantly. Much faster than GUI for complex diagrams.
+
+**Figma**:
+- `Ctrl/Cmd + /`: Search components and actions
+- `Shift + 2`: Frame tool
+- `Ctrl/Cmd + G`: Group selected elements
+- `Option/Alt`: Measure distance between elements
+
+## Handling Large Architecture Diagrams
+
+System design sometimes requires truly complex diagrams (20+ components). Single-view diagrams become unreadable.
+
+**Strategy: Layered documentation**
+
+Layer 1 - **Overview**: High-level boxes showing main components and data flow
+```
+[Client] -> [Load Balancer] -> [API Servers]
+[API Servers] -> [Cache]
+[API Servers] -> [Database]
+```
+
+Layer 2 - **Service details**: Zoom into each service with internal architecture
+```
+API Service breakdown:
+[Router] -> [Auth Middleware] -> [Request Handler] -> [Database Client]
+```
+
+Layer 3 - **Data flow**: Sequence diagrams showing specific operations (login, data retrieval, etc.)
+
+This approach keeps any single diagram readable while documenting full complexity.
+
+## Collaborating Across Time Zones
+
+For distributed architecture teams:
+
+1. **Schedule the sync session** for time that works for at least 80% of architects
+2. **Record the session** with audio (if tool allows) or video screen share
+3. **Export diagrams** and post in a shared location immediately after
+4. **Schedule async feedback window**: 24-48 hours for team members in other zones to comment
+5. **Document decisions** based on both sync and async feedback
+
+Use threaded comments in your tool of choice:
+
+- Excalidraw: Export to GitHub issue, use GitHub comments
+- Miro: Built-in comment system, works well asynchronously
+- Notion: Inline comments on embedded diagram
+
+## Versioning Architecture Diagrams
+
+Treat diagrams as living documents:
+
+For GitHub-based workflows, commit diagram files to your repo:
+
+```bash
+# Good practice: Store diagram as JSON or code
+diagrams/
+├── auth-system-v1.excalidraw
+├── auth-system-v2.excalidraw (current)
+├── caching-architecture.mermaid
+└── deployment-pipeline.mermaid
+
+# Git allows diffing text-based formats (Mermaid, JSON)
+# Excalidraw JSON diffs show what changed between versions
+```
+
+This enables you to reference specific versions in ADRs: "See caching-architecture.mermaid@sha d3f8a92 for the design as of Q1 2026."
+
+For teams using Miro, use version control through Miro's built-in "version history" feature. Restore previous versions if needed for historical reference.
+
 ---
 
 

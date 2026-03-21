@@ -182,6 +182,126 @@ Metrics alone won't fix meeting culture. Use data to start conversations:
 
 These conversations, grounded in data, create buy-in for changes that would otherwise face resistance.
 
+## Tool Comparison for Meeting Tracking
+
+| Tool | Price | Best For | Setup Complexity |
+|------|-------|----------|-----------------|
+| **Fellow** | $15/user/mo | Note-taking + action tracking | Medium - requires everyone to use |
+| **Hugo** | $10/user/mo | Meeting summaries + integration | Medium - integrates with Slack |
+| **Notion** | Free/$10/mo | Custom database tracking | Low - flexible but manual |
+| **Google Forms** | Free | Simple surveys + spreadsheet analysis | Low - quick to set up |
+| **Custom Python script** | Free | Calendar API data + custom metrics | High - requires some coding |
+| **Calendly** | Free/$12-15/user/mo | Meeting scheduling + analytics | Low - analytics built-in |
+
+For most teams, start with **Calendly's free tier** if you schedule many meetings. It tracks meeting frequency automatically. Pair with **Google Forms** for post-meeting effectiveness surveys. Total cost: $0. Setup time: 30 minutes.
+
+## Implementing Meeting Bankruptcy
+
+"Meeting bankruptcy" is when a team cancels all recurring meetings and requires explicit re-approval to reinstate them. Sounds drastic, but it's effective.
+
+**Process**:
+
+1. **Cancel everything**: Announce that all recurring meetings are cancelled effective [date]. Make exceptions only for all-hands and executive standup if truly essential.
+
+2. **Re-proposal phase (1 week)**: Owners of cancelled meetings submit a one-page proposal:
+   - Purpose (one sentence)
+   - Target attendees
+   - Frequency and duration
+   - What happens if we don't have this meeting
+   - Alternative if we replace it with async
+
+3. **Approval** (1 week): Leadership approves only meetings meeting the criteria:
+   - Clear purpose that requires synchronous time
+   - Attendees who all need to be there
+   - Decisions or discussions that genuinely need real-time interaction
+
+4. **Reinstate** (1 week): Only approved meetings come back. Measure the difference in calendar load.
+
+Teams typically cut meeting load 30-50% through this exercise. The psychological reset helps people default to async thinking afterward.
+
+## Quarterly Meeting Audits
+
+Even without bankruptcy, conduct a quarterly review:
+
+```markdown
+## Q2 2026 Meeting Audit
+
+### Meetings Ending (Too Much Overhead)
+- [ ] Weekly status update - CANCELLED (replaced with async doc)
+- [ ] Bi-weekly design review - REDUCED to monthly (need to cover less ground)
+
+### Meetings Improved
+- [ ] Engineering standup - Reduced from 30 to 15 minutes, replaced daily with async
+- [ ] All-hands - Moved to 60 min template format (was 90 min rambling)
+
+### New Meetings Approved
+- [ ] Quarterly planning session - 2 hours (replaces multiple async planning docs)
+- [ ] Monthly mentoring circle - 45 min (open to anyone, optional)
+
+### Metrics Before Audit
+- Average meetings/dev: 8.5 per week
+- Meeting hours/dev: 4.2 per week
+
+### Metrics After Audit
+- Average meetings/dev: 5.2 per week (39% reduction)
+- Meeting hours/dev: 2.7 per week (36% reduction)
+```
+
+## Using Meeting Data to Improve Specific Meetings
+
+Beyond the raw metrics, analyze particular meetings:
+
+**For standup meetings**: If standup takes 15 minutes but involves 8 people, that's 2 hours total cost. If you could move to async in 3 minutes per person, you save 20 minutes of synchronized time. Move it async.
+
+**For planning meetings**: Track planning meeting frequency vs. project launch velocity. Do you plan more than you execute? Too many planning meetings indicate unclear requirements before planning begins.
+
+**For 1:1s**: These should rarely be group meetings. If you have recurring 1:1 meetings as a team, convert them to async check-ins (Loom video) or written updates.
+
+**For retros**: Do you actually implement feedback from retros? Track action items and completion rate. If completion is low, retros are waste—simplify to async feedback instead.
+
+## Presenting Findings to Leadership
+
+When you have meeting effectiveness data, present it persuasively:
+
+**Bad presentation**: "We have too many meetings."
+
+**Good presentation**:
+```
+Meeting Effectiveness Report - Q1 2026
+
+Findings:
+- Engineering team averages 8.2 meetings/person/week
+- Total meeting hours: 156 hours in Q1 for 10-person team
+- 47% of meeting action items not completed within 1 week
+- Estimated cost: $12,480 in direct labor (team cost $80/hour avg)
+
+Recommendations:
+1. Convert weekly standup to async + Friday 15-min optional sync
+2. Cancel monthly architecture review (hasn't made a decision in 6 weeks)
+3. Implement 25-min hard stop on planning meetings
+
+Expected impact: 3 hours/person/week saved = $3,900 Q2 impact
+```
+
+Data-driven recommendations beat complaints every time.
+
+## Monitoring for Meeting Creep
+
+After implementing improvements, watch for regression:
+
+**Warning signs**:
+- Meeting count increasing month-over-month
+- New "urgent" meetings being added without removing others
+- Team complaining about calendar again
+- Async communication declining (people prefer meetings)
+
+**Prevention**:
+- Review new meeting requests quarterly
+- Require meeting proposals (1 page) before scheduling anything recurring
+- Monitor calendar load in team pulse surveys
+
+Meeting culture naturally drifts back toward synchronous defaults. Vigilant leadership maintains async health.
+
 
 ## Related Articles
 
