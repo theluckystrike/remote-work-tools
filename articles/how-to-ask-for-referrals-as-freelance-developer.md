@@ -9,7 +9,7 @@ permalink: /how-to-ask-for-referrals-as-freelance-developer/
 categories: [guides]
 tags: [remote-work-tools, freelance, career, business-development]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

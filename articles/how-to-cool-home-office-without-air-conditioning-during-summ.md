@@ -9,7 +9,7 @@ permalink: /how-to-cool-home-office-without-air-conditioning-during-summer/
 categories: [guides]
 tags: [remote-work-tools, remote-work, home-office, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

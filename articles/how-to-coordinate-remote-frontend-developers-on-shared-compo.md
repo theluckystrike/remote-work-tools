@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-coordinate-remote-frontend-developers-on-shared-compo/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]

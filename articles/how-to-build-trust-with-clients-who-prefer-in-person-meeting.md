@@ -9,7 +9,7 @@ permalink: /how-to-build-trust-with-clients-who-prefer-in-person-meeting/
 categories: [guides]
 tags: [remote-work-tools, client-relations, trust-building, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

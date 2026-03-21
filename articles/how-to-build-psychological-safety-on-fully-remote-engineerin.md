@@ -9,7 +9,7 @@ permalink: /how-to-build-psychological-safety-on-fully-remote-engineerin/
 categories: [guides]
 tags: [remote-work-tools, remote-work, psychological-safety, engineering-teams, team-culture, communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

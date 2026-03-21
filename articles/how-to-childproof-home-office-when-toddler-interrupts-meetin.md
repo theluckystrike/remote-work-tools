@@ -9,7 +9,7 @@ permalink: /how-to-childproof-home-office-when-toddler-interrupts-meetin/
 categories: [guides]
 tags: [remote-work-tools, remote-work, productivity, home-office]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
