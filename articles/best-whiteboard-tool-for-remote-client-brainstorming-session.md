@@ -164,6 +164,396 @@ The best whiteboard tool for remote client brainstorming sessions ultimately dep
 
 Evaluate based on actual usage: run trial sessions with each tool, measure latency during realistic participant counts, and test API workflows that mirror your production needs. The tool that fits your workflow gets used—feature richness means nothing if the team defaults to video calls instead.
 
+## Comprehensive Pricing and Scaling Analysis
+
+When selecting a whiteboard tool for client engagements, total cost of ownership extends beyond per-user pricing.
+
+### Price Comparison for 10-Person Team Running Monthly Client Sessions
+
+**Miro**
+- Starter Plan: $0 (limited to 3 editable boards)
+- Team Plan: $10/user/month × 10 = $100/month
+- Business Plan: $20/user/month × 10 = $200/month (recommended for client work)
+- Annual cost (Business): $2,400
+- Additional: $2-5 per export/integration beyond basic limits
+
+**FigJam (within Figma)**
+- Figma Individual: $12/month × 10 users = $120/month
+- Figma Organization: $12/month × minimum 5 seats + $50/month = $110/month for 5+
+- Annual cost: $1,320-$1,440
+- FigJam included at no additional cost
+
+**Excalidraw**
+- Free: $0/month (hosting and user management required)
+- Excalidraw+: $10/month (optional, adds unlimited boards)
+- Self-hosted: Infrastructure cost only (typically $20-50/month on standard cloud)
+- Annual cost: $0-$120
+
+**Mural**
+- Freelancer: $12.99/month
+- Team Workspace: $17.99/user/month × 10 = $179.90/month
+- Enterprise: Custom pricing
+- Annual cost (Team): $2,158.80
+
+### Cost-Benefit Analysis for Client Agencies
+
+For agencies running 40+ client sessions annually:
+
+**Miro at $200/month**: $2,400/year ÷ 40 sessions = $60 per session
+**FigJam at $110/month**: $1,320/year ÷ 40 sessions = $33 per session
+**Excalidraw at $50/month infrastructure**: $600/year ÷ 40 sessions = $15 per session
+
+At scale, tool selection becomes financially significant. Excalidraw's low cost makes it attractive for high-volume brainstorming agencies, while Miro and FigJam provide better user experience justifying the cost for fewer, higher-stakes sessions.
+
+## Whiteboard Template Library for Client Brainstorming
+
+Create reusable templates to speed up session setup and ensure consistent structure across clients.
+
+### Product Strategy Session Template
+
+```yaml
+Miro Board Template: Product Strategy Brainstorm
+---
+Layout:
+  Section 1: Problem Definition (left)
+    - Current state sticky notes
+    - User pain points
+    - Market gaps
+
+  Section 2: Solution Ideation (center-left)
+    - Feature ideas (color-coded by category)
+    - Technical approach options
+    - User experience flows
+
+  Section 3: Competitive Analysis (center-right)
+    - Competitor comparison table
+    - Differentiation points
+    - Market positioning
+
+  Section 4: Implementation Roadmap (right)
+    - Phase 1, 2, 3 swimlanes
+    - Dependency arrows
+    - Success metrics per phase
+
+Collaboration Patterns:
+  - 20-minute silent brainstorm (each person adds 5-10 stickies)
+  - 30-minute grouping and discussion
+  - 10-minute voting on top priorities
+  - 10-minute roadmap assignment
+
+Expected Output:
+  - 50-100 sticky notes across sections
+  - 5-7 top-priority features identified
+  - 3-phase roadmap with estimated effort
+```
+
+### Technical Architecture Brainstorm Template
+
+```yaml
+Miro Board: System Design Session
+---
+Sections:
+  1. Current System
+    - Existing architecture diagram
+    - Known bottlenecks (in red)
+    - Integration points
+
+  2. Proposed Changes
+    - New components
+    - Removed components
+    - Modified interactions
+
+  3. Data Flow
+    - Request paths through system
+    - Expected latency per step
+    - Failure scenarios
+
+  4. Implementation Concerns
+    - Team skill gaps
+    - Infrastructure requirements
+    - Timeline risks
+
+Sticky Note Color Coding:
+  - Blue: Technical questions
+  - Green: Solutions proposed
+  - Yellow: Assumptions
+  - Red: Risks or concerns
+  - Pink: Dependencies on other work
+
+Session Flow (90 minutes):
+  - 15 min: Whiteboard tour of current system
+  - 30 min: Collaborative sketching of proposed changes
+  - 20 min: Data flow walkthrough
+  - 15 min: Risk identification
+  - 10 min: Action items and next steps
+```
+
+### Customer Journey Mapping Template
+
+```yaml
+Miro Board: Customer Journey Brainstorm
+---
+Horizontal swimlanes (top to bottom):
+  - Touchpoints (How customer interacts)
+  - User Actions (What they do)
+  - Emotions (Satisfaction at each point)
+  - Opportunities (Where we can improve)
+  - Owned by (Which team handles each phase)
+
+Vertical sections (left to right):
+  - Awareness (Discovery phase)
+  - Consideration (Evaluation phase)
+  - Purchase (Decision phase)
+  - Onboarding (Activation phase)
+  - Usage (Retention phase)
+  - Support (Expansion phase)
+
+Activity Structure (2-hour session):
+  - 15 min: Define target persona
+  - 45 min: Map current journey with customer stories
+  - 30 min: Identify pain points and emotions
+  - 20 min: Brainstorm improvements
+  - 10 min: Prioritize opportunity initiatives
+```
+
+## Export and Automation Workflows
+
+### Real-Time Export to Documentation
+
+After the brainstorming session concludes, automate capture of outputs into your documentation system:
+
+```javascript
+// Miro API integration - Export board and generate documentation
+const miroExportWorkflow = async (boardId, clientName) => {
+  const miro = new MiroClient({
+    accessToken: process.env.MIRO_ACCESS_TOKEN
+  });
+
+  // Export board as PDF
+  const pdfExport = await miro.board(boardId).exportImage({
+    format: 'pdf',
+    resolution: 300,
+    scale: 1.5
+  });
+
+  // Extract all sticky notes from board
+  const items = await miro.board(boardId).getItems();
+  const stickies = items.filter(item => item.type === 'sticky_note');
+
+  // Generate structured output
+  const sessionSummary = {
+    client: clientName,
+    date: new Date().toISOString(),
+    boardUrl: `https://miro.com/app/board/${boardId}`,
+    outputs: {
+      totalIdeas: stickies.length,
+      ideasByCategory: groupByCategory(stickies),
+      topPriorities: stickies
+        .filter(note => note.tags?.includes('priority'))
+        .sort((a, b) => b.votes - a.votes)
+        .slice(0, 5),
+      nextSteps: stickies.filter(note => note.tags?.includes('action-item'))
+    },
+    exports: {
+      pdfUrl: await uploadToCloudStorage(pdfExport),
+      markdownUrl: await generateMarkdownSummary(stickies)
+    }
+  };
+
+  // Distribute summary to stakeholders
+  await sendToSlack(`#${clientName}-brainstorm`, sessionSummary);
+  await updateNotion(sessionSummary);
+
+  return sessionSummary;
+};
+```
+
+### Automatic Ticket Creation from Brainstorm Outputs
+
+Convert whiteboard ideas directly into project management tickets:
+
+```python
+# Convert whiteboard sticky notes to Jira tickets
+def create_tickets_from_brainstorm(board_id, project_key, priority_threshold=3):
+    """
+    Export ideas from Miro board and create Jira tickets for high-voted ideas
+
+    Args:
+        board_id: Miro board ID
+        project_key: Jira project key (e.g., 'PROD')
+        priority_threshold: Minimum votes to create ticket
+    """
+    # Fetch items from Miro API
+    miro_items = fetch_miro_board(board_id)
+    stickies = [item for item in miro_items if item['type'] == 'sticky_note']
+
+    # Filter by vote count
+    prioritized = [s for s in stickies if s.get('votes', 0) >= priority_threshold]
+
+    # Create Jira tickets
+    for sticky in prioritized:
+        issue_key = jira_client.create_issue(
+            project=project_key,
+            summary=sticky['content'],
+            description=f"From client brainstorm session\n\nVotes: {sticky['votes']}\n\nBoard: {board_id}",
+            issuetype='Story',
+            priority='High' if sticky['votes'] >= 5 else 'Medium',
+            labels=['brainstorm', 'client-input'],
+            customfield_miro_url=sticky['url']
+        )
+        print(f"Created {issue_key.key}")
+
+    return len(prioritized)
+```
+
+### Session Follow-up Automation
+
+Schedule post-session workflows that consolidate outputs and drive action:
+
+```yaml
+Zapier Workflow: Whiteboard Session Post-Processing
+---
+Triggers:
+  - Miro board shared with email notification
+  - Calendar event "Client Brainstorm" marked complete
+
+Actions (Sequential):
+  1. Download board export (PDF)
+    - Store in Google Drive: /Client Brainstorms/{Client Name}/{Date}/
+    - Rename: {ClientName}_Brainstorm_{YYYY-MM-DD}.pdf
+
+  2. Extract sticky note transcript
+    - Use Miro API to fetch all items
+    - Format as markdown list
+    - Store in shared Google Doc
+
+  3. Create summary email
+    - Template: "Thanks for brainstorming with us!"
+    - Attach PDF export
+    - Link to Google Doc with detailed notes
+    - List action items with owners
+    - Send to client and internal team
+
+  4. Create Slack notification
+    - Post to #client-updates channel
+    - Include summary statistics (ideas generated, top priorities)
+    - Link to stored artifacts
+    - Tag relevant team members
+
+  5. Create calendar reminder
+    - 1-week follow-up meeting
+    - Share attendees: [client team, product manager, engineering lead]
+    - Pre-populate with action items from session
+```
+
+This automation ensures brainstorm outputs convert into concrete next steps rather than forgotten artifacts.
+
+## Platform-Specific Client Workflows
+
+### Miro Enterprise Workflow for Agency Teams
+
+```yaml
+Miro Team Setup:
+  Organization:
+    - Create team per major client account
+    - Set team admin as account manager
+    - Enable SAML for client single sign-on (if available)
+
+  Board Permissions:
+    - Private boards for internal planning
+    - Shared boards with view-only for client stakeholders
+    - Editor boards only for core brainstorm participants
+
+  Template Library:
+    - Create team-wide template folder
+    - Store 10+ pre-built templates (strategy, architecture, UX mapping)
+    - Version templates as they evolve
+    - Document which template to use for common session types
+
+  Automated Board Generation:
+    - API: Create new board from template when project kicks off
+    - Populate with client name, date, attendees
+    - Share with team and client
+    - Set 90-day auto-archive for old boards
+```
+
+### FigJam for Design-Focused Teams
+
+```yaml
+FigJam Integration with Figma Workflow:
+  File Organization:
+    - Project files in Figma
+    - Brainstorm FigJam files in same project
+    - Link FigJam outputs to final design files
+
+  Collaboration:
+    - Design team sketches in FigJam
+    - Export shapes and flows to Figma design file
+    - Maintain single source of truth for design system
+
+  Export Pattern:
+    - FigJam board → PNG/SVG export
+    - Import high-fidelity frames into Figma
+    - Lock FigJam exports to prevent accidental modification
+```
+
+### Excalidraw for Budget-Conscious Teams
+
+```yaml
+Self-Hosted Excalidraw Workflow:
+  Deployment:
+    - Deploy Excalidraw to Docker on internal infrastructure
+    - URL: https://whiteboard.internal.company.com
+    - LDAP/SAML authentication to company directory
+
+  Session Management:
+    - Share board URLs with clients
+    - Set expiration: 30 days after session completion
+    - Export boards as JSON and store in Git
+
+  Version Control:
+    - Store exported boards in project repository
+    - Track changes via Git history
+    - Enable rollback to previous brainstorm versions
+    - Include in incident postmortems and decision records
+
+  Template Library:
+    - Store template JSON files in repository
+    - Load templates via Excalidraw's "Open" feature
+    - Git-track all updates to templates
+```
+
+## Measuring Brainstorm Session Effectiveness
+
+Track outcomes from client brainstorming to demonstrate ROI and improve future sessions:
+
+```yaml
+Key Metrics:
+  Quantity:
+    - Ideas generated per session
+    - Sticky notes grouped into categories
+    - Implementation priority distribution
+
+  Quality:
+    - Ideas marked as "implement immediately" (post-session voting)
+    - Features that shipped from brainstorm output
+    - Client satisfaction score (1-10)
+
+  Business Impact:
+    - Revenue from features brainstormed
+    - Time saved by collaborative ideation vs. separate reviews
+    - Customer satisfaction improvement
+
+  Process:
+    - Session duration vs. ideas generated (efficiency ratio)
+    - Time from brainstorm to implementation
+    - Stakeholder participation rate
+
+Sample Tracking Dashboard:
+  Metrics tracked quarterly per client
+  Goal: 70%+ of brainstormed ideas result in concrete features
+  Alert: If satisfaction < 7/10, run post-session survey to understand issues
+```
 
 ## Related Reading
 

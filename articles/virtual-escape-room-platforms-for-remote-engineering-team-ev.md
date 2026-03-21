@@ -165,6 +165,152 @@ Thanks for joining our virtual escape room! Quick feedback:
 - Group sizes too large: Keep under 6 people per room
 - No backup plan: Have an alternative activity ready if the platform fails
 
+## Platform Pricing and Feature Comparison
+
+Choosing the right escape room platform depends on team size, budget, and whether you want hosted facilitation:
+
+| Platform | Cost per session | Team size | Facilitation | Best for |
+|---|---|---|---|---|
+| Room Escape Detective | $30-50 | 4-8 | Self-facilitated | Budget-conscious, technical teams |
+| Escape Hunt | $200-400 | 4-8 | Hosted facilitator | Full experience; facilitator manages flow |
+| Puzzle Break | $300-500 | 6-12 | Hosted facilitator | Premium experience, custom scenarios |
+| The Logic Escapes Me | $20/month platform | Unlimited | Self-built puzzles | Teams building custom experiences |
+| Breakout.com | $40-80 | 4-8 | Self-facilitated | Simple setup, browser-based |
+| Evermaze | $50-100 | 6-10 | Optional paid facilitator | Flexible; can go self-guided or hosted |
+
+**For a 12-person engineering team:** Two parallel sessions of 6 people each using Room Escape Detective = $100-150 total cost. Compare to: $400-600 for a single hosted session with Escape Hunt. Most engineering teams go with Room Escape Detective.
+
+## Real Team Event Timeline
+
+Here's exactly how to run a successful 90-minute escape room event:
+
+**Two weeks before:**
+- Send calendar invite with UTC time (e.g., "Saturday 15:00 UTC")
+- Include: date, time in each person's timezone, platform link, join instructions
+- Ask for dietary preferences if doing post-event social (food/drinks)
+
+**One week before:**
+- Remind team; confirm final headcount
+- Split into teams of 4-5 (staggered so seniority is mixed)
+- Assign game masters for each team (experienced person on the team)
+
+**90 min before event:**
+- Send Zoom link + escape room link to everyone
+- Ask people to test audio/video if possible
+- Set up shared document for real-time hints (if platform doesn't provide)
+
+**Event timing (90 min total):**
+
+```
+00:00-05 min: Welcome + rules
+"This isn't competitive—it's collaborative. Everyone should participate."
+
+05-60 min: Escape room gameplay
+- Assign one person to share screen showing the room interface
+- Others call out ideas: "Check the cabinet", "Click the painting"
+- Game master watches for stuck moments; hints appear at 10, 20, 30 min marks
+
+60-70 min: Debrief (whether they escaped or not)
+"What surprised you? Which puzzle was hardest? Who had the key insight?"
+
+70-90 min: Social hangout (optional)
+Share drinks/snacks; casual conversation
+```
+
+Actual teams report the 10-minute debrief is where the team bonding happens. The escape room is the activity; the debrief is the relationship building.
+
+## Puzzle Design for Engineering Teams
+
+If building a custom escape room (using Puzzle Break or your own platform), incorporate technical puzzles your team will actually enjoy:
+
+```javascript
+// Example: Code-based puzzle for escape room
+class ApiKeyPuzzle {
+  constructor() {
+    this.correct_key = 'JRMY-7492-KSLO-WWXP';
+    this.clues = [
+      'API keys have four segments',
+      'First segment starts with J',
+      'Solution is hidden in git history',
+      'Commit message contains hint'
+    ];
+  }
+
+  checkAnswer(provided_key) {
+    return provided_key.toUpperCase() === this.correct_key;
+  }
+
+  // Hint system
+  getHint(hint_number) {
+    return this.clues[hint_number - 1];
+  }
+}
+
+// Example: System design puzzle
+const SystemDesignPuzzle = {
+  problem: "Design a system to handle 1M requests/sec. What bottleneck do you solve first?",
+  correct_answer: "Database (not network, not cache)",
+  explanation: "Most teams naturally think network first. The trick is identifying the real bottleneck."
+};
+```
+
+Technical puzzles that reference your company's codebase or inside jokes create memorable moments. "Remember when we had that database timeout in production? This puzzle is about that."
+
+## Measuring Team Engagement Post-Event
+
+Send a brief survey within 24 hours:
+
+```markdown
+# Escape Room Feedback
+
+1. Rate your experience (1-5): ___
+2. Did you feel included and able to contribute? ___
+3. What was the hardest puzzle? ___
+4. What was most fun? ___
+5. Would you do this again? ___
+
+6. One thing the facilitator could improve: ___
+7. Next team event type you'd prefer: ___
+   - Another escape room
+   - Trivia competition
+   - Problem-solving challenge
+   - Social hangout only
+```
+
+Patterns to watch:
+- **Low scores on "included":** Groups too large or leadership dominated puzzle-solving
+- **Consistent "too easy" feedback:** Level up difficulty for next event
+- **People prefer other event types:** Escape rooms aren't for everyone; rotate event types
+
+## Alternative Team Events for Engineering Teams
+
+Escape rooms work well but aren't universally loved. Consider rotating:
+
+- **Code golf challenges:** Quick coding competition; winner writes the shortest code to solve problem
+- **Trivia tournament:** Mix technical and non-technical questions; team-based scoring
+- **CTF (Capture the Flag):** Hacking competition; ranges from beginner to advanced
+- **Hackathon:** Build something cool in 2-3 hours; present at end
+- **Pair programming kata:** 3 people rotate navigator/driver roles through problems
+- **Whiteboard design challenge:** Design a system together; present to group
+
+Most high-performing engineering teams report that **problem-solving challenges** (escape rooms, CTF, hackathons) build more team cohesion than social-only events (happy hours, game nights). The collaborative thinking activates the same part of the brain that makes teams effective in work.
+
+## When to Skip Escape Rooms
+
+Escape rooms don't work for everyone. Skip them if:
+
+- **Remote asynchronous team:** High-friction to schedule across time zones
+- **Team just went through stressful event:** Escape room pressure may feel like more stress
+- **Low psychological safety:** If team doesn't share ideas freely, escape room will be awkward
+- **Under 4 people:** Too small to effectively do escape rooms; pair programming katas better
+- **All introverts:** Some team members may find 60 min of collaborative thinking draining
+
+In these cases, try: async challenges (CTF they work on in their own time), individual skill contests (code golf), or social-only events (virtual happy hour) instead.
+
+The goal of team events is connection and morale. Escape rooms are one tool that works well for many teams. If your team doesn't vibe with them, move on to something that does.
+
+{% endraw %}
+
 ## Related Reading
 
 - [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)

@@ -164,6 +164,131 @@ Monitor your async critique process over time. Are deadlines being met? Is feedb
 
 **Ignoring non-designers.** Developers and product managers often spot issues that designers miss. Include them selectively based on the design area under review.
 
+## Design Critique Tool Comparison
+
+Different platforms serve different team workflows. Here's what real teams use:
+
+| Platform | Cost | Best For | Drawback |
+|----------|------|----------|---------|
+| Figma | $12-45/month per editor | Real-time + async comments | File can become slow with 100+ comments |
+| GitHub Issues | Free | Teams already in GitHub | Requires design images uploaded; poor for annotation |
+| Notion | Free-$8/person | Long-form feedback; templates | Clunky for marking up visuals |
+| Slack threads | Free | Quick feedback loops | Easy to lose in channel history |
+| Figma + Linear integration | $12 + variable | Linking design feedback to dev work | Extra complexity; fewer teams need it |
+
+Most experienced design teams land on Figma for complex projects, GitHub Issues for lightweight feedback on simpler changes. The best tool is the one your team actually opens and uses consistently.
+
+## Real-World Critique Template
+
+This markdown template, saved as a reusable document, structures critique requests so reviewers know exactly what to focus on:
+
+```markdown
+# Design Critique: [Feature Name]
+
+## Context
+User problem: [One sentence]
+Timeline: Launch [Date]
+Scope: This critique covers [specific screens/flows]
+
+## Specific Questions
+1. Is the [interaction type] clear without explanation?
+2. Does the error state for [field] feel obvious?
+3. Does the button placement feel natural on mobile (show mobile spec)?
+
+## What's NOT up for critique this round
+- Visual polish (colors/typography locked in design system)
+- Copy/microcopy (handled separately)
+- Mobile responsiveness (desktop-only this week)
+
+## Review deadline
+Please respond by [Specific Time, UTC]—I'll consolidate Friday morning.
+
+## Provide feedback in format:
+**[Reviewer name]**
+- 👍 [What's working well]
+- ⚠️ [Concern or question]
+- 💡 [Suggestion if applicable]
+```
+
+Store this as a GitHub issue template if using Issues, or as a reusable Notion template. Consistency in format saves reviewers cognitive load—they know exactly where to look for your actual question.
+
+## Automation: Keeping Critique On Schedule
+
+Real teams automate critique reminders to prevent deadline drift. A simple Slack reminder helps:
+
+```python
+import slack
+import os
+from datetime import datetime, timedelta
+
+client = slack.WebClient(token=os.environ['SLACK_BOT_TOKEN'])
+
+def remind_pending_critiques():
+    # Check Linear or GitHub for open design review requests
+    # Send Slack reminder to reviewers
+    client.chat_postMessage(
+        channel='#design-feedback',
+        text='Design critiques due in 12 hours',
+        blocks=[{
+            'type': 'section',
+            'text': {
+                'type': 'mrkdwn',
+                'text': 'The following design critiques close tomorrow at 5pm PT:\n• Login flow redesign (Sarah assigned)\n• Dashboard layout update (Alex assigned)'
+            }
+        }]
+    )
+
+# Schedule via GitHub Actions cron job or your task scheduler
+```
+
+Set this to run 12 hours before your critique deadline. Most teams see 85%+ on-time participation when reminders go out. Without them, deadlines slip 20-30% of the time.
+
+## Feedback Synthesis Workflow
+
+The hardest part happens after reviews close: synthesizing conflicting input. This structure prevents decision paralysis:
+
+```markdown
+## Critique Summary - [Feature Name]
+
+### Strong Consensus (3+ reviewers agree)
+- Password field needs stronger visual feedback on error
+- → Action: Increase red color brightness in error state
+
+### Minority View (1-2 reviewers)
+- Consider checkbox instead of toggle for [feature]
+- → Decision: Keeps toggle—better for mobile
+
+### Clarification Needed
+- Hover state behavior for [element] unclear to reviewers
+- → Action: Add annotation to design clarifying expected behavior
+
+### Deferred
+- Accessibility audit for [component]
+- → Timeline: Sprint 3 (separate accessibility review process)
+```
+
+Send this synthesis back to reviewers. They see that their feedback mattered and understand why you made specific decisions. This encourages participation in future rounds.
+
+## Measuring Critique Quality Over Time
+
+Track these metrics to understand if your async critique process actually improves design:
+
+- Time from critique closure to design revision completion (target: 2-3 days)
+- Designer confidence in feedback quality (quarterly survey: 1-5 scale)
+- Issues caught in critique that would've made it to dev (track via bug tickets)
+- Reviewer participation rate (target: 80%+ on-time responses)
+
+If participation drops below 60%, your timeline is too aggressive or reviewers lack clarity on what you're asking for. Adjust scope or question specificity.
+
+## Scaling Async Critique in Growing Teams
+
+At 3 designers: full critique on major features, lightweight on minor changes.
+
+At 6+ designers: introduce critique tiers. Tier 1 (core flows): full team review, 24-48 hour deadline. Tier 2 (refinements): 2-3 designated reviewers, 24 hours. Tier 3 (polish passes): designer + 1 peer review only.
+
+This prevents critique from becoming a bottleneck while maintaining quality gates on important work.
+
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

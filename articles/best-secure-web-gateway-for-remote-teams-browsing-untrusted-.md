@@ -198,6 +198,149 @@ Start with these steps:
 5. Monitor continuously: Track blocked requests and adjust policies proactively
 
 On the monitoring side, set up alerts for spikes in blocked requests. A sudden increase in blocks from a specific user or department often indicates either a new legitimate use case that needs policy adjustment, or unusual browsing behavior worth investigating. Either way, the alert is more useful than discovering the situation during an incident review.
+## Platform Comparison and Pricing
+
+Choosing a secure web gateway for your remote team comes down to deployment model, policy granularity, and budget. Here's what you're actually paying for:
+
+| Solution | Pricing | Deployment | Best For | Hidden Costs |
+|----------|---------|-----------|----------|--------------|
+| Cloudflare Gateway | $20/month + seat costs | Cloud/agent | Startups; fast to deploy | HTTPS inspection certificate management |
+| Zscaler | $4-8 per user/month | Cloud/agent | Mid-market; excellent logging | Requires dedicated IT person to manage policies |
+| Cisco Umbrella | $6-10 per user/month | Cloud; DNS | Simple DNS-based filtering | Limited advanced policy controls |
+| Palo Alto Networks | $8-15+ per user/month | On-prem or cloud | Enterprise; advanced DLP | Complex onboarding; 3-month implementation typical |
+| pfSense (open source) | Free | On-prem only | Developer/technical teams | Your time as IT person; no vendor support |
+
+For a 50-person remote team, annual costs range from $2,400 (simple DNS) to $7,200 (enterprise-grade). Most SMBs land at $5,000-6,000 annually for mid-tier solutions like Cloudflare or Zscaler.
+
+## Real Configuration Examples
+
+### Cloudflare Gateway Configuration
+
+For teams using Cloudflare WARP for endpoints:
+
+```yaml
+# Cloudflare WARP configuration for Windows/Mac
+version: 1
+account_id: "your-account-id"
+device: {
+  key_data: "base64-encoded-key"
+}
+policies: [
+  {
+    name: "Block malware and phishing",
+    enabled: true,
+    threat_categories: ["malware", "phishing", "command-and-control"]
+  },
+  {
+    name: "Allow business essential",
+    enabled: true,
+    allow_patterns: [
+      "github.com",
+      "stackoverflow.com",
+      "docs.python.org"
+    ]
+  }
+]
+```
+
+Deploy via MDM (Mobile Device Management) or manual distribution. Teams report 5-10 minute installation, immediate traffic filtering.
+
+### Zscaler Policy Examples
+
+Zscaler uses a hierarchical policy structure. Typical configuration for development team:
+
+```python
+# Zscaler policy configuration (pseudo-code)
+{
+  "developers": {
+    "security_level": "medium",
+    "allowed_categories": [
+      "productivity",
+      "software development",
+      "package managers"
+    ],
+    "blocked_categories": [
+      "streaming media",
+      "social media",
+      "gambling"
+    ],
+    "ssl_inspection": True,
+    "threat_protection": True,
+    "data_loss_prevention": {
+      "enforce_watermarking": False,
+      "block_unencrypted_uploads": True
+    }
+  },
+  "sales_team": {
+    "security_level": "standard",
+    "blocked_categories": [
+      "torrenting",
+      "adult content",
+      "encrypted proxies"
+    ],
+    "ssl_inspection": True,
+    "data_loss_prevention": {
+      "block_sensitive_file_types": ["financial reports"]
+    }
+  }
+}
+```
+
+Application-specific policies can go even deeper. For instance, allow GitHub.com for code but block GitHub Gist to prevent data exfiltration.
+
+### DNS-Based Filtering for Budget Teams
+
+If you can't afford agent-based solutions, DNS filtering provides 60-70% of the security benefit at 20% of the cost:
+
+```bash
+# Configure Team DNS in your router or MDM solution
+# Primary DNS: 1.1.1.2 (Cloudflare - Malware protection)
+# Secondary DNS: 1.0.0.2 (Cloudflare - Family-friendly + malware)
+
+# Or use your corporate DNS with filtering enabled
+# Primary DNS: 10.0.0.1 (your corporate DNS)
+# Secondary DNS: 8.8.8.8 (Google fallback)
+
+# Test configuration
+nslookup suspicious-domain.com 1.1.1.2
+# Should return NXDOMAIN (blocked) or safe IP
+```
+
+DNS filtering is not foolproof—sophisticated users can bypass it—but it blocks 95% of incidental malicious domains and all of accidental phishing clicks.
+
+## Rollout Checklist
+
+Week 1: Enable logging-only mode on all clients. Track blocked requests without enforcing blocks.
+
+Week 2: Analyze logs. Identify top 10 blocked domain categories. Create allowlist for business-critical categories (documentation, package managers, video conferencing).
+
+Week 3: Enable blocking mode with allowlist. Expect 5-10% of team to hit blocks. Respond within 2 hours with either unblock or workaround.
+
+Week 4: Review blocked requests again. Fine-tune policies based on real usage.
+
+This gradual rollout prevents the common scenario where IT locks down too tight and everyone resents the tool.
+
+## Monitoring and Adjustment
+
+Most teams adjust policies monthly for the first 3-6 months. Key metrics to track:
+
+- **Blocked requests per user per day** (should stabilize around 5-20)
+- **Appeal/unblock requests** (should decrease over time as policies stabilize)
+- **Malware/phishing blocks** (quantify actual threats prevented)
+- **User satisfaction** (quarterly survey: is the gateway too restrictive?)
+
+Tools like Zscaler and Cloudflare provide built-in dashboards showing these metrics. Review monthly in IT governance meetings. If blocked request volume stays high, policies are too aggressive. If malware blocks jump significantly, someone is visiting risky sites—opportunity for security training.
+
+## Common Deployment Mistakes to Avoid
+
+**Starting too restrictive.** Teams that block most social media on day one face immediate backlash. Start permissive, gradually tighten based on actual threats observed.
+
+**Deploying without user communication.** Email security policy 2 weeks before deployment. Explain rationale (compliance, threat protection). Answer questions. Buy-in matters.
+
+**Ignoring technical debt.** Old applications might break with HTTPS inspection. Test thoroughly before rollout. Maintain a list of known incompatibilities and workarounds.
+
+**Setting and forgetting.** Policies become stale. Quarterly reviews prevent drift. New threats emerge constantly—your 2024 policy may not cover 2026 threats.
+
 
 ## Related Reading
 
