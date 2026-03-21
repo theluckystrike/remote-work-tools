@@ -178,6 +178,203 @@ Confluence's free tier is genuinely usable for teams under 10. Notion's free tie
 
 Neither migration is clean. Plan for manual restructuring time: roughly 2-3 hours per 100 pages.
 
+## Content Lifecycle: How Notion and Confluence Handle Documentation Decay
+
+Documentation rots. Both tools struggle with stale content, but in different ways:
+
+**Notion's Decay Problem**
+- No built-in staleness detection
+- Pages can be "archived" but remain visible in searches
+- When team member leaves, their personal databases often become orphaned
+- Solution: Implement external staleness checker using Notion API
+
+```python
+# Check for stale pages in Notion
+from notion_client import Client
+from datetime import datetime, timedelta
+
+client = Client(auth=NOTION_TOKEN)
+
+def find_stale_pages(database_id, days_since_update=90):
+    """Find pages not updated in N days."""
+    stale_cutoff = datetime.now() - timedelta(days=days_since_update)
+
+    results = client.databases.query(
+        database_id=database_id,
+        filter={
+            "property": "Last edited time",
+            "date": {
+                "before": stale_cutoff.isoformat()
+            }
+        }
+    )
+
+    return [
+        {
+            'title': page['properties']['Title']['title'][0]['plain_text'],
+            'last_edited': page['last_edited_time'],
+            'owner': page['properties'].get('Owner', {}).get('people', [])
+        }
+        for page in results['results']
+    ]
+
+stale = find_stale_pages('your_database_id', days_since_update=180)
+print(f"Found {len(stale)} pages not updated in 6 months")
+```
+
+**Confluence's Decay Problem**
+- Built-in review reminders (can require page owners to attest to accuracy)
+- Versions show when content was last updated
+- Space archival actually removes pages from search, preventing zombie content
+- Decay detection is simpler: CQL query finds old pages easily
+
+Confluence is better for preventing stale documentation, but requires discipline to use review features.
+
+## Permission Model Complexity: When Simple Doesn't Work
+
+For teams larger than ~15 people, both tools' default permission models break down:
+
+**Notion's Limitations**
+- Can't restrict comment access separate from view access
+- Can't prevent people from viewing specific blocks within a shared page
+- Guest access is limited to 1 per workspace on free plan
+- Example problem: You share a runbook with the team but want only admins to modify it—Notion can't prevent team members from editing
+
+**Confluence's Strength**
+- Page restrictions allow granular control: viewer, commenter, editor per person/group
+- Spaces provide containment: you can make spaces viewable only to specific groups
+- Better for compliance: you can create a "Finance" space that only Finance team can access, while sharing architectural docs company-wide
+
+If your documentation has sensitive information (financial, HR, legal), Confluence wins by a large margin. If everything is public or team-wide open, Notion is fine.
+
+## The Search Problem at Scale
+
+Most teams underestimate how important search is until they have 500+ pages:
+
+**Notion Search Weakness**: Doesn't search inside linked databases
+Example: You create a "Runbooks" database linked from a "Systems" page. Notion searches the Systems page but not the linked Runbooks content.
+
+**Confluence Search Strength**: Full-text search everywhere, including macro content
+Example: You can search for "database migration" and find it in runbooks, decision records, and comments all at once.
+
+If your documentation is procedural (runbooks, checklists, how-tos), Confluence search is worth the price. If your documentation is organizational (roadmaps, goals, brainstorming), Notion's search is adequate.
+
+**Pro tip for Notion**: Create a "search aid" database with manual tags:
+```
+Tag: database-migration
+Links to pages: [Runbook 1, ADR 2, Incident Report 3]
+```
+This creates a searchable index of related content.
+
+## Expense Approval Documentation: Use Case Example
+
+To illustrate the difference, imagine documenting your expense approval process:
+
+**In Notion:**
+```
+Expenses Database (table view)
+├── Employee reimbursement policy (doc)
+├── Approved vendors (inline database)
+├── Request template (doc)
+└── Recent requests (filtered database view)
+```
+
+Flexibility: Anyone can modify the structure. Danger: Structure decays without governance.
+
+**In Confluence:**
+```
+Finance Space
+├── Expense Policy page
+├── Vendor List page
+├── Request Template page
+├── Approval Process page
+├── Archive space for old policies
+```
+
+Structure: Enforced. Danger: Can't easily branch for experimentation.
+
+For a finance team of 3, Notion is faster. For a company-wide policy, Confluence's structure prevents chaos.
+
+## Integration Ecosystem: Choosing Based on Your Tech Stack
+
+Modern teams use dozens of tools. Documentation tools should integrate with them:
+
+**Slack Unfurls** (Both tools support well)
+- Paste a link in Slack, a preview appears
+- Both Notion and Confluence do this equally well
+
+**Jira Integration** (Confluence wins significantly)
+- Link Confluence pages directly from Jira issues
+- Embed Jira boards in Confluence pages
+- Confluence custom fields for "related documentation"
+- Notion requires third-party integrations (Zapier, Make)
+
+**GitHub Integration**
+- Both tools support linking to repos/PRs
+- Confluence has slightly better formatting for code examples
+- Notion's code blocks are simpler but less powerful
+
+**Figma Embedding**
+- Both support embedding Figma designs
+- Equally functional
+
+**Datadog/monitoring tools**
+- Confluence has better integration with ops tools
+- Notion requires workarounds (screenshot + paste)
+
+If your core tool stack is Jira, GitHub, Slack: Confluence wins for integration depth. If you're using modern tools (Linear, Notion, Figma), Notion integrations are more natural.
+
+## Total Cost of Ownership (TCO) Over 3 Years
+
+Initial price doesn't tell the full story:
+
+**Notion TCO Estimate (50-person team)**
+- Workspace: 50 members × $10/mo × 36 months = $18,000
+- Time learning tool + maintaining structure: ~10 hours/person × $75/hr × 20% of org = $15,000
+- Migration costs if switching later: ~$5,000
+- **3-year total: ~$38,000**
+
+**Confluence TCO Estimate (50-person team)**
+- Cloud license (up to 50 users): $10/mo + per-user add-ons
+- Standard: $5/user/mo × 50 × 36 = $9,000
+- Time learning + governance: ~5 hours/person × $75/hr × 20% of org = $7,500
+- Lower switching costs (cleaner exports): $2,000
+- **3-year total: ~$18,500**
+
+For large teams, Confluence is cheaper over time. For small teams, Notion's lower per-user cost wins.
+
+## Training and Onboarding Time
+
+New hires spending time figuring out your documentation tool is expensive:
+
+**Notion onboarding**: "Here's a Notion workspace, figure it out"
+- Self-directed learning time: 2-4 hours
+- Result: Some employees miss important docs, ask redundant questions
+- Upside: People familiar with Notion personal productivity
+
+**Confluence onboarding**: "Here are the spaces and here's how we organize docs"
+- Guided tour: 15-30 minutes
+- Result: Consistent navigation, people find info quickly
+- Downside: People think Confluence is just for work (no personal use case)
+
+Confluence wins on onboarding friction and consistency. Notion requires more explicit training.
+
+## Making the Final Decision: Decision Matrix
+
+| Factor | Weight | Notion Score | Confluence Score |
+|--------|--------|--------------|------------------|
+| Under 20 people | 10% | 9 | 7 |
+| Engineering-heavy team | 10% | 8 | 8 |
+| Non-technical contributors | 15% | 9 | 6 |
+| Already use Jira | 15% | 5 | 9 |
+| Need search reliability | 15% | 6 | 9 |
+| Compliance/permissions matter | 15% | 5 | 9 |
+| Flexibility over structure | 10% | 9 | 5 |
+| **Weighted Total** | 100% | 7.3 | 7.6 |
+
+If scores are close (within 0.5 points), choose the one your team is most familiar with. Switching costs are high; familiarity advantage is real.
+
+
 ## Related Reading
 
 - [Best Tools for Remote Team Documentation 2026](/remote-work-tools/best-tools-for-remote-team-documentation-2026/)

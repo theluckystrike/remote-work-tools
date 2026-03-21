@@ -173,7 +173,173 @@ Measure your space twice, consider your actual device layout, and choose a desk 
 
 The right corner desk transforms awkward room angles into your most productive workspace. Take time to find the fit that matches your work style and budget.
 
----
+## Desk Height Transition: Standing vs. Sitting Ergonomics
+
+If upgrading to a height-adjustable corner desk, understanding the transition phase matters. Your body needs 2-4 weeks to adapt to standing work without discomfort. Start with a 50/50 sitting-standing split—30 minutes standing, 30 minutes sitting—and gradually increase standing time to 2-3 hours per day over the adjustment period.
+
+Many developers start too aggressively with standing desks, experience calf soreness and back fatigue within the first week, and revert to sitting only. The gradual transition works far better. Use an adjustable anti-fatigue mat (around $50-100) under your standing position to reduce foot fatigue.
+
+For corner desks specifically, position your chair so you can easily swivel between sitting and standing. This reduces the friction of transitions and encourages the alternating pattern. High-quality corner desks support smooth transitions with dual-motor systems that move at adjustable speeds—slower speeds (6-8 seconds for full range) reduce strain during transitions versus rapid movement.
+
+## Monitor Arm Strategy for Corner Desks
+
+Corner desks with standard legs don't work well with wall-mounted monitor arms—you lose the structural mounting points. Instead, use monitor stands or desk-mounted monitor arms for corner configurations.
+
+For dual monitors on a corner desk:
+- Primary monitor: Mount on a desk-mounted monitor arm on the main work section (1 arm, ~$60-120)
+- Secondary monitor: Use a passive stand to the side (~$20-40) or add a second monitor arm if budget allows
+
+This approach maximizes usable desk surface while maintaining flexibility for standing/sitting transitions. Monitor arms that clamp to the desk surface work better than pole-mounted arms which can obstruct leg room in corner configurations.
+
+Recommended corner desk monitor arm combinations:
+- **Budget**: Passive stands for both monitors ($40-80 total) — no adjustability but stable
+- **Mid-range**: One motorized arm + one passive stand ($100-150 total) — good flexibility
+- **Premium**: Two motorized arms ($250-400 total) — full adjustability but requires solid desk structure
+
+## Cable Management Specifics for Corner Desks
+
+Corner desks require thoughtful cable management because you have two distinct work zones plus a corner junction where cable congestion worsens. Use a combination approach:
+
+1. **Under-desk cable trays** — Route cables along the underside of both desk wings using separate trays for each section
+2. **Desktop cable raceway** — For cables that need regular access (headphones, external drives), use vertical cable organizers at the corner junction
+3. **Adhesive clips** — Manage individual cables with small adhesive clips rather than large bundling that blocks air circulation
+
+For corner desk corners specifically, leave a 2-3" gap for air circulation to prevent cable heat buildup. If you have many peripheral devices, consider a powered USB hub mounted vertically at the corner intersection—this reduces cable strain and gives you organized access to power and data.
+
+Power routing: Bring a single surge protector outlet to the corner junction area so both desk wings can access power without running cables across visible surfaces. Use in-wall power conduit if permanently installing the desk and you have electrical access.
+
+## Preventive Maintenance for Corner Desks
+
+Corner desks experience more stress than standard rectangular desks due to the lever-arm effect created by the L-shape. Prevent problems with these maintenance steps:
+
+- **Tighten bolts monthly** — The corner connection between desk wings looses with normal use. Check all bolts, particularly at the corner junction, and tighten gently.
+- **Check for wobble** — Monthly testing: push firmly on each corner. Any movement indicates loose fasteners or degrading support.
+- **Monitor cable strain** — Cables pulling on corner-mounted devices cause structural stress. Ensure cables have slack and use cable clips to distribute weight.
+- **Re-stabilize after equipment changes** — When adding or removing large monitors or equipment, re-tighten the desk structure afterward.
+
+For motorized standing desks, run the height adjustment mechanism monthly without load to keep motors healthy. Track the maximum height capability—if your desk can't reach its specified maximum height anymore, the motor needs servicing.
+
+## When to Upgrade from Your Corner Desk
+
+Plan for desk replacement when:
+- The desk wobbles persistently despite tightening all fasteners
+- Height adjustment motors move slowly or struggle (motorized models)
+- The work surface shows permanent damage (deep scratches, cracks, water damage)
+- Your equipment needs exceed current surface area—you find yourself regularly blocking viewing angles or working across multiple cluttered zones
+
+Most quality corner desks last 5-7 years with regular use before showing signs of degradation. Budget for replacement in the 5-7 year window rather than being surprised when your desk fails.
+
+## Corner Desk Accessories That Actually Matter
+
+Smart accessory choices amplify a corner desk's effectiveness:
+
+**Monitor Arms ($60-250)**
+Critical for corner desks. Rather than using desk space for monitor stands, mount arms to clamp to desktop.
+
+Recommended arms for corner setups:
+- **Budget**: AmazonBasics 2-Monitor Mount ($50-60) — works fine, limited adjustment
+- **Mid-range**: Huanuo Dual Monitor Arm ($80-120) — gas spring, smooth movement, durable
+- **Premium**: Ergotron LX Monitor Arm ($300-400) — professional-grade, fluid adjustment, lifetime warranty
+
+**Monitor arm positioning strategy**: On a corner desk, position one arm on the main section for your primary monitor, keep secondary monitor on passive stand or separate arm. This leaves maximum flexibility for the main work zone.
+
+**Under-Desk Cable Management ($30-60)**
+Corner desks accumulate cables quickly. Invest in organized routing:
+- Cable trays: $20-40, route under each wing separately
+- Velcro cable ties: $10-15, keep cables organized without bulk
+- Adhesive cable clips: $8-12, manage individual cables discreetly
+- Power strip mounting: $15-25, secure power strips to desk leg
+
+**Keyboard Tray or Adjustable Keyboard Shelf ($50-150)**
+For sitting-only desks, a keyboard tray preserves desk space and improves wrist posture:
+- Attach under main work wing
+- Should adjust 10-15 degrees tilt
+- Must support wrist in neutral position (not angled up or down)
+
+For height-adjustable desks, keyboard tray is optional (you can adjust desk height instead).
+
+**Desk Pad or Mouse Pad ($30-80)**
+Large desk pads unify the aesthetic and protect desk surface:
+- Sizes: 24"×36" or larger
+- Material: Leatherette (durable) vs. fabric (more comfortable)
+- Purpose: Defines work zone, protects surface, improves mouse tracking
+- Recommendation: Get one large pad covering both desk wings if possible
+
+**Shelving or Overhead Storage ($60-200)**
+Corner desks limit wall space above. Wall-mounted shelves or floating shelves help:
+- Install above main desk wing for monitor arms or reference materials
+- 12-24 inches deep shelves work best (won't obstruct sitting/standing position)
+- Weight-rated shelves essential if storing multiple monitors or equipment
+
+## Ergonomic Details: Preventing Pain in Corner Desk Setups
+
+Corner desks can cause unique ergonomic problems if not set up correctly:
+
+**Problem: Wrist strain from reaching into corner**
+- Cause: Keyboard positioned in the deep corner junction
+- Fix: Move keyboard 12-18 inches away from actual corner, position at thigh height when sitting
+- Prevent: Don't use the deep corner zone for frequently-accessed items
+
+**Problem: Neck pain from monitor angle**
+- Cause: Primary monitor positioned too high or too low relative to seated eye position
+- Fix: Top of monitor should be at or slightly below eye level; distance should be arm's length (20-26 inches)
+- Prevent: Use monitor arm to adjust height as you transition between sitting and standing
+
+**Problem: Lower back pain from asymmetrical sitting**
+- Cause: Sitting at an angle to face one monitor, creating spinal rotation stress
+- Fix: Position chair directly in front of primary monitor, secondary monitor at 30-40 degree angle from center
+- Prevent: Don't force your body into twisted position; rearrange monitor placement if needed
+
+**Problem: Shoulder/arm fatigue from reaching across desk**
+- Cause: Keyboard too far away, mouse out of reach
+- Fix: Keep keyboard within 18-24 inches of seated position; mouse right beside keyboard
+- Prevent: Measure your reach before purchasing desk width
+
+Test your ergonomic setup after 1-2 weeks. If you're developing pain, adjust immediately—corner desks can amplify postural problems because people often accept awkward angles.
+
+## Real-World Corner Desk Setups: Visual Examples
+
+Rather than generic advice, here are specific configurations that developers report working well:
+
+**Config A: Dual Monitor + Coding Focus (Minimal Clutter)**
+```
+    [Primary Monitor - 27" 4K]
+              ↓
+    [Keyboard] [Mouse] [Water bottle]
+              ↓
+    [Corner junction - empty for movement]
+              ↓
+    [Secondary Monitor on stand - reference docs]
+```
+Works great for: Focused development, code reading, refactoring
+Desk size: 60" × 30" L-shaped minimum
+Equipment: 1 large primary + 1 secondary, mechanical keyboard, trackpad
+
+**Config B: Wide Multi-Monitor Grid (Research/Reference)**
+```
+    [Monitor 1] [Monitor 2] [Monitor 3]
+        ↓
+    [Keyboard] [Mouse]
+        ↓
+    [Reference materials, notebooks, pen holder]
+```
+Works great for: System design, architecture work, trading/analysis
+Desk size: 72" × 36" L-shaped, potentially with return
+Equipment: 3-4 monitors, trackpad + mouse, document/reference space
+
+**Config C: Single Monitor + Heavy Peripheral Use (Video/Audio)**
+```
+    [Mic stand] [Monitor - Center]
+              ↓
+    [Keyboard] [Streamdeck] [Mouse] [Desk light]
+              ↓
+    [Audio interface] [Cable management]
+```
+Works great for: Content creation, podcasting, video work
+Desk size: 60" × 30" L-shaped
+Equipment: Quality mic on boom arm, audio interface, monitor, peripheral device dock
+
+Pick the configuration that matches your actual workflow, not what you think you *should* use.
 
 
 ## Related Articles
