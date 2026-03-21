@@ -142,6 +142,27 @@ EU countries require extensive mandatory content:
 - Superannuation (retirement) contributions mandatory
 - Fair Work Act protections
 
+### India
+
+India is one of the most common destinations for remote technical hiring, and it has distinct requirements. India does not have a single national employment law — each state has its own Shops and Establishment Act, which governs hours, overtime, and termination. Key considerations include:
+
+- Notice periods: Typically 30-90 days depending on seniority; specify clearly
+- Gratuity: Employees who complete 5 years of service are entitled to gratuity under the Payment of Gratuity Act
+- Professional Tax: Varies by state; employer must often deduct this
+- Non-compete clauses: Largely unenforceable in Indian courts post-employment; focus on confidentiality instead
+- Tax residency: Indian residents are taxed on worldwide income; clarify whether your company withholds TDS or whether the contractor handles their own advance tax
+
+### Brazil
+
+Brazil's CLT (Consolidation of Labor Laws) is one of the most comprehensive labor frameworks in the world and applies broadly. For direct employment:
+
+- 13th salary (décimo terceiro salário): Mandatory year-end bonus equal to one month's pay
+- FGTS: Employers contribute 8% of gross salary to a severance fund
+- 30 days minimum vacation per year
+- Notice periods: 30 days plus 3 days per year of service (capped at 90 days)
+
+Many foreign companies choose to engage Brazilian workers through an EOR specifically to avoid navigating CLT complexity without a local entity.
+
 ## Using an Employer of Record (EOR)
 
 For companies without local entities, an EOR service often simplifies compliance. The EOR becomes the legal employer, handling:
@@ -151,7 +172,16 @@ For companies without local entities, an EOR service often simplifies compliance
 - Compliance with local labor laws
 - Employment contract drafting
 
-Popular EOR services include Deel, Remote, and Oyster. If using an EOR, the offer letter structure differs slightly—you'll receive documentation from the EOR rather than issuing your own.
+### EOR Service Comparison
+
+| Service | Best For | Notable Feature |
+|---------|----------|-----------------|
+| Deel | Startups, fast hiring | Built-in contractor and EOR in one platform |
+| Remote | Teams that need benefits management | In-house legal entities in 80+ countries |
+| Oyster | Companies prioritizing equity | Focus on worker experience and equity grants |
+| Rippling | Companies with existing US payroll | Unified platform across HR, IT, and payroll |
+
+If using an EOR, the offer letter structure differs slightly — you'll receive documentation from the EOR rather than issuing your own. The EOR's contract must be compliant with local law, but you should still review the document for alignment with your agreed compensation terms and role description.
 
 ## Practical Template Structure
 
@@ -213,6 +243,27 @@ _______________________ ____________
 _______________________ ____________
 [Company Representative] [Date]
 ```
+
+## Common Mistakes to Avoid
+
+**Omitting governing law.** Without a governing law clause, disputes may be resolved in an unexpected jurisdiction. Specify clearly whether the contract is governed by your home country's laws or the employee's local laws — and understand which courts have jurisdiction.
+
+**Using a US-style at-will termination clause internationally.** At-will employment is largely a US concept. In most countries, termination requires cause, notice, and often severance. Including an at-will clause in an offer letter for a German or Brazilian employee may be unenforceable and signals a lack of compliance awareness.
+
+**Ignoring mandatory benefits.** Many countries have statutory benefits that must be included regardless of what your offer letter says. In France, for example, the mutual health insurance (mutuelle) contribution is mandatory for employers. In Brazil, meal vouchers (vale refeição) are effectively mandatory in many sectors. Failing to mention these does not eliminate your obligation to provide them.
+
+**Denominating everything in USD for a non-US hire.** While USD can work as a payment currency, it creates ambiguity about what happens if exchange rates move significantly. Spell out the currency, how payments are made, and who bears the exchange rate risk.
+
+## Frequently Asked Questions
+
+**Do I need a separate employment contract in addition to the offer letter?**
+In many countries, yes. The offer letter signals intent; the employment contract (or statement of particulars) is the binding legal document. Some jurisdictions require specific form and content for employment contracts. Always have local counsel review before signing.
+
+**Can I use one standard offer letter template for all countries?**
+No. A single template cannot accommodate the variation in mandatory terms across jurisdictions. Maintain country-specific addenda or work with an EOR that handles localization.
+
+**What currency should I pay international remote employees in?**
+There's no universal answer. Paying in local currency protects the employee from exchange rate risk and is generally preferred by workers. Paying in USD or EUR is simpler for your finance team. Many companies pay a base in home currency with a local supplement through the EOR for mandatory benefits.
 
 
 ## Related Articles

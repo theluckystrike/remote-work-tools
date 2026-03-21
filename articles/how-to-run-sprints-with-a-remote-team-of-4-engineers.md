@@ -15,6 +15,21 @@ voice-checked: true
 ---
 
 {% raw %}
+Running sprints with a remote team of 4 engineers requires different defaults than what most Agile frameworks assume. The ceremonies and artifacts designed for co-located teams of 8-12 add friction without delivering proportional value at smaller scales. This guide covers async-first sprint patterns, capacity planning for small teams, dependency management, and tooling choices that actually work when your four engineers are spread across time zones.
+
+## Why Small Remote Teams Need a Different Sprint Model
+
+Most Scrum guides were written with co-located teams of 7 (plus or minus 2) in mind. Daily standups, synchronous planning sessions, and real-time retros made sense when everyone was in the same room. With 4 remote engineers, these patterns create bottlenecks and meeting fatigue rather than alignment.
+
+The key insight is that a team of 4 has much lower coordination overhead than a larger team — but the async penalty is higher per person. Every hour spent in a poorly run ceremony affects 100% of your engineering capacity. Design your sprint process to minimize synchronous time while preserving the feedback loops that make sprints useful.
+
+## Async-First Sprint Ceremonies
+
+### Weekly Written Standups
+
+Replace daily video standups with weekly written updates posted in a dedicated GitHub Discussion or Slack thread. Each engineer posts their update using a consistent template:
+
+```markdown
 ## Completed This Week
 - What did you ship?
 
@@ -34,30 +49,32 @@ Create these issues automatically with a GitHub Action:
 #.github/workflows/weekly-standup.yml
 name: Weekly Standup
 on:
- schedule:
- - cron: '0 15 * * FRIday'
- workflow_dispatch:
+  schedule:
+    - cron: '0 15 * * FRI'
+  workflow_dispatch:
 
 jobs:
- create-issue:
- runs-on: ubuntu-latest
- steps:
- - name: Create standup issue
- uses: actions/github-script@v7
- with:
- script: |
- const issue = await github.rest.issues.create({
- owner: context.repo.owner,
- repo: context.repo.repo,
- title: `Sprint Update: Week ${new Date().getWeek()}`,
- labels: ['standup'],
- body: `## Completed This Week\n\n## Next Week\n\n## Blockers\n\n## Notes`
- })
+  create-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create standup issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Sprint Update: ${new Date().toISOString().slice(0,10)}`,
+              labels: ['standup'],
+              body: `## Completed This Week\n\n## Next Week\n\n## Blockers\n\n## Notes`
+            })
 ```
+
+Weekly written updates work better than daily for small remote teams because they give engineers time to synthesize their progress rather than reporting on whatever happened that morning. The written format also creates a searchable record of what each engineer shipped each week.
 
 ### Sprint Planning Session
 
-For sprint planning, synchronous time is worth the investment—but keep it focused. With 4 engineers, a 90-minute session covers everything:
+For sprint planning, synchronous time is worth the investment — but keep it focused. With 4 engineers, a 90-minute session covers everything:
 
 1. **Review backlog priority** (15 min) — Product owner shares screen, discuss ordering
 2. **Estimate together** (30 min) — Use Planning Poker or t-shirt sizes directly in the call
@@ -87,6 +104,20 @@ Combine these into a single 60-minute session to reduce meeting fatigue:
 - Three columns: Went well, To improve, Action items
 - Rotate facilitation between sprints
 
+## Tooling Choices for Small Remote Teams
+
+### Linear vs Jira for a Team of 4
+
+Jira is powerful but adds significant overhead for a 4-person team. The configuration burden, the complexity of workflows, and the learning curve are all calibrated for larger organizations. Linear is the better default for small remote engineering teams: it's fast, opinionated, and has GitHub integration that keeps issues linked to PRs automatically.
+
+Linear's cycle (sprint) feature lets you assign issues to 2-week cycles with minimal setup. The keyboard-first interface means engineers spend less time clicking through menus. The main limitation is that Linear lacks the reporting depth Jira offers — if your stakeholders need burn-down charts and velocity reports, you may need Jira or a reporting add-on.
+
+**Shortcut** is a middle ground: more flexibility than Linear, less overhead than Jira. It has native sprint support, good GitHub integration, and a UI that most engineers find less frustrating than Jira.
+
+### GitHub Projects as a Lightweight Alternative
+
+For teams that want to minimize tool sprawl, GitHub Projects v2 handles sprint management well. Create a project board with a sprint iteration field, use labels for priority, and link issues directly to the PRs that close them. The main advantage is that everything lives in GitHub — your planning board, code, and CI/CD are all in one place.
+
 ## Capacity Planning for 4-Person Teams
 
 Capacity planning for small remote teams requires accounting for context-switching overhead and async communication delays.
@@ -98,30 +129,30 @@ Use this formula for a 2-week sprint:
 ```python
 # capacity_calculator.py
 def calculate_sprint_capacity(team_size=4, sprint_days=10, hours_per_day=6):
- """
- Calculate available engineering hours for a sprint.
+    """
+    Calculate available engineering hours for a sprint.
 
- Args:
- team_size: Number of engineers
- sprint_days: Working days in sprint
- hours_per_day: Productive hours per engineer (account for meetings, admin)
- """
- # Base capacity
- base_capacity = team_size * sprint_days * hours_per_day
+    Args:
+        team_size: Number of engineers
+        sprint_days: Working days in sprint
+        hours_per_day: Productive hours per engineer (account for meetings, admin)
+    """
+    # Base capacity
+    base_capacity = team_size * sprint_days * hours_per_day
 
- # Async communication overhead (15% for small teams)
- communication_overhead = base_capacity * 0.15
+    # Async communication overhead (15% for small teams)
+    communication_overhead = base_capacity * 0.15
 
- # Time zone coordination buffer (10% for distributed teams)
- timezone_buffer = base_capacity * 0.10
+    # Time zone coordination buffer (10% for distributed teams)
+    timezone_buffer = base_capacity * 0.10
 
- available = base_capacity - communication_overhead - timezone_buffer
+    available = base_capacity - communication_overhead - timezone_buffer
 
- return {
- 'base_hours': base_capacity,
- 'available_hours': available,
- 'overhead_hours': communication_overhead + timezone_buffer
- }
+    return {
+        'base_hours': base_capacity,
+        'available_hours': available,
+        'overhead_hours': communication_overhead + timezone_buffer
+    }
 
 # Example output for 4-person team
 # {'base_hours': 240, 'available_hours': 180, 'overhead_hours': 60}
@@ -136,19 +167,21 @@ With only 4 engineers, your velocity will fluctuate more than larger teams. Trac
 ```javascript
 // velocity-tracker.js
 function calculateVelocity(completedPoints, lookbackSprints = 3) {
- const recentSprints = completedPoints.slice(-lookbackSprints);
- const average = recentSprints.reduce((a, b) => a + b, 0) / recentSprints.length;
+    const recentSprints = completedPoints.slice(-lookbackSprints);
+    const average = recentSprints.reduce((a, b) => a + b, 0) / recentSprints.length;
 
- // Small teams: use conservative estimate
- const conservativeVelocity = average * 0.85;
+    // Small teams: use conservative estimate
+    const conservativeVelocity = average * 0.85;
 
- return {
- average: Math.round(average),
- conservative: Math.round(conservativeVelocity),
- range: [Math.min(...recentSprints), Math.max(...recentSprints)]
- };
+    return {
+        average: Math.round(average),
+        conservative: Math.round(conservativeVelocity),
+        range: [Math.min(...recentSprints), Math.max(...recentSprints)]
+    };
 }
 ```
+
+Use the conservative estimate when committing to a sprint goal. With 4 engineers, one person going on leave, dealing with a production incident, or getting pulled into an interview loop can shift your velocity by 25%. Building in that buffer prevents sprint failure from external factors.
 
 ## Managing Dependencies in a Small Team
 
@@ -171,6 +204,8 @@ Use GitHub Projects to visualize dependencies:
 2. Filter by: `is:issue label:dependency`
 3. Add "blocks" and "blocked by" relations using GitHub issue relationships
 
+For a 4-person team, the most common dependency problem is a single engineer holding a blocking piece of work. Make this visible during planning: if more than 2 issues in a sprint depend on one engineer's output, the sprint plan has a fragile critical path. Rebalance before committing.
+
 ## Handling Blockers and Escalation
 
 In async environments, blockers can go unnoticed for days. Implement automated escalation:
@@ -179,31 +214,31 @@ In async environments, blockers can go unnoticed for days. Implement automated e
 #.github/workflows/blocker-escalation.yml
 name: Blocker Escalation
 on:
- issues:
- types: [labeled, edited]
- schedule:
- - cron: '0 10 * * *' # Daily at 10am UTC
+  issues:
+    types: [labeled, edited]
+  schedule:
+    - cron: '0 10 * * *' # Daily at 10am UTC
 
 jobs:
- check-blockers:
- runs-on: ubuntu-latest
- steps:
- - name: Find blocker issues
- uses: actions/github-script@v7
- with:
- script: |
- const issues = await github.rest.issues.listForRepo({
- owner: context.repo.owner,
- repo: context.repo.repo,
- labels: 'blocker',
- state: 'open'
- });
+  check-blockers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Find blocker issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'blocker',
+              state: 'open'
+            });
 
- // Notify team if blockers exist for > 24 hours
- if (issues.data.length > 0) {
- // Send Slack notification or create team alert
- console.log(`Found ${issues.data.length} active blockers`);
- }
+            // Notify team if blockers exist for > 24 hours
+            if (issues.data.length > 0) {
+              // Send Slack notification or create team alert
+              console.log(`Found ${issues.data.length} active blockers`);
+            }
 ```
 
 ## Sprint Retrospectives That Actually Work
@@ -227,6 +262,8 @@ For a 4-person team, retrospectives should focus on process improvement, not bla
 
 Rotate the facilitator role each sprint. This prevents one person from dominating the conversation and ensures fresh perspectives.
 
+One common failure mode for small team retros is ending with action items that never get implemented. To prevent this, limit retro action items to one per sprint, assign a specific owner, and include it as a tracked issue in the next sprint's board. If the previous sprint's retro action wasn't completed, discuss why before adding a new one.
+
 ## Key Takeaways
 
 Running sprints with a remote team of 4 engineers works best when you:
@@ -240,6 +277,8 @@ Running sprints with a remote team of 4 engineers works best when you:
 4. **Combine review and retro** — A single 60-minute session reduces meeting fatigue while maintaining feedback loops.
 
 5. **Rotate facilitation** — Ensure every engineer leads a ceremony over time.
+
+6. **Limit retro action items** — One action item per sprint, tracked as a real issue, prevents retros from becoming theater.
 
 Start with async standups this sprint, add capacity planning in your next planning session, and refine from there.
 
@@ -255,5 +294,4 @@ Start with async standups this sprint, add capacity planning in your next planni
 - [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-```
 {% endraw %}
