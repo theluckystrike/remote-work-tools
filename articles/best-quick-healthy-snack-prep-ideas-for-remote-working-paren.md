@@ -9,7 +9,7 @@ permalink: /best-quick-healthy-snack-prep-ideas-for-remote-working-parents/
 categories: [guides]
 tags: [remote-work-tools, remote-work, productivity, health, work-from-home, parents, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

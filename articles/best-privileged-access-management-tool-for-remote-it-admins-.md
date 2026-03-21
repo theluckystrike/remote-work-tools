@@ -8,7 +8,7 @@ author: "Remote Work Tools"
 permalink: /best-privileged-access-management-tool-for-remote-it-admins-/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]
