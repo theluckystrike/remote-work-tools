@@ -179,12 +179,15 @@ When you write clear, actionable async messages, you reduce meeting load, respec
 The shift to async-first communication transforms how remote teams operate. Messages become more thoughtful, decisions become more documented, and team members gain freedom to work when they're most productive.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Avoid Miscommunication in Async Written Messages.](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
-- [How to Write Clear Async Project Briefs for Remote Teams.](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+
+## Related Articles
+
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
+- [Avoid Miscommunication in Async Written Messages for Remote](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
+- [How to Avoid Miscommunication in Async Written Messages for](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
+- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

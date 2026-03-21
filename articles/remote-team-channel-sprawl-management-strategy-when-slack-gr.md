@@ -178,11 +178,14 @@ If Slack becomes unmanageable despite these strategies, evaluate alternatives. S
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
-- [Best Contract Management Tool for Remote Agency Multiple.](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
+
+## Related Articles
+
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

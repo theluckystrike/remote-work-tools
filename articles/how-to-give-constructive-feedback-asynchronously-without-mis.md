@@ -269,12 +269,15 @@ Track these indicators to know if your async feedback practices are working:
 
 If these trends are declining, revisit training. If they're improving, reinforce what's working.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Give Constructive Feedback Remotely Over Text.](/remote-work-tools/how-to-give-constructive-feedback-remotely-over-text-without/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [How to Set Up Remote Team Peer Feedback Process Without.](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+
+## Related Articles
+
+- [How to Give Constructive Feedback Remotely Over Text](/remote-work-tools/how-to-give-constructive-feedback-remotely-over-text-without/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [How to Record Client Demo Videos Asynchronously for Remote](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

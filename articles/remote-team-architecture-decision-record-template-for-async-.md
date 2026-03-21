@@ -204,12 +204,15 @@ Schedule a quarterly review of active ADRs to identify:
 
 **Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+
+## Related Articles
+
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
+- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

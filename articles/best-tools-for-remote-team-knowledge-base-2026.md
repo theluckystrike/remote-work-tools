@@ -247,12 +247,16 @@ Almanac:
 
 Many teams use two tools: Notion for internal workspace and project management, Tettra or Slite for searchable knowledge base. This splits responsibilities (Notion = working docs, Tettra = published KB) and ensures knowledge base search remains fast.
 
-## Related Reading
-
-- [Remote Work Tools Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Asana vs Linear for a 10-Person Dev Team](/remote-work-tools/asana-vs-linear-for-a-10-person-dev-team-comparison/)
-- [Best Communication Tools for Remote Teams](/remote-work-tools/best-communication-tools-for-remote-teams/)
 
 Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
+
+
+## Related Articles
+
+- [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
+- [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
 {% endraw %}

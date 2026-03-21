@@ -201,12 +201,15 @@ post_async_standup(
 ```
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Run Remote Team Cooking Class as Bonding Activity](/remote-work-tools/how-to-run-remote-team-cooking-class-as-bonding-activity/)
+
+## Related Articles
+
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Create Remote Team Values Documentation That Stays](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
+- [Miro vs FigJam for Remote Team Collaboration](/remote-work-tools/miro-vs-figjam-for-remote-team-collaboration/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

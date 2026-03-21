@@ -180,12 +180,15 @@ Print or save this quick reference:
 - [ ] Active participation in at least one non-work community channel
 - [ ] Regular check-ins with manager about workload and well-being
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
-- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Remote Working Parent Burnout Prevention Checklist for.](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+
+## Related Articles
+
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
+- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

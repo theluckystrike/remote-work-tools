@@ -284,11 +284,15 @@ Documentation is worthless if engineers don't know it exists. Establish clear co
 
 Engineers should be able to reference the career ladder without asking managers for details. Transparency around progression criteria builds trust and reduces perceived favoritism.
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+
+## Related Articles
+
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Create Remote Team Values Documentation That Stays](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

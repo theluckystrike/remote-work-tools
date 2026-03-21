@@ -269,12 +269,15 @@ How do you know if your cooking class actually worked? Look beyond attendance nu
 
 The best indicator is when participants start suggesting recipes for future sessions. That ownership signal means the activity has genuinely connected with your team.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
-- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
-- [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+
+## Related Articles
+
+- [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
+- [Usage](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

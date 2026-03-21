@@ -555,12 +555,15 @@ PagerDuty Integration:
 
 This closes the loop between detection, response, and continuous improvement.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Secure File Transfer Protocol Setup for Remote Teams.](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
-- [Best VPN for Remote Development Teams with Split.](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
-- [Best Cloud Access Security Broker for Remote Teams Using.](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
+
+## Related Articles
+
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

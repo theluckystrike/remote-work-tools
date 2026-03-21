@@ -212,12 +212,15 @@ An IP assignment framework protects your organization while providing clear guid
 Review your current IP assignment practices and identify gaps. Implement the checklist for new hires and audit existing agreements for compliance with local requirements.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Belonging and Inclusion Program Ideas.](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
-- [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+
+## Related Articles
+
+- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
+- [Best Practice for Remote Appraisers Conducting Property](/remote-work-tools/best-practice-for-remote-appraisers-conducting-property-valu/)
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

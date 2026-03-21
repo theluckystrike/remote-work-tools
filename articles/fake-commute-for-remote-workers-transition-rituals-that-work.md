@@ -363,12 +363,15 @@ Mix-and-match across morning and evening. Morning might be: 10-min walk + "Morni
 
 The key is consistency and combination. Ritual stacks are more powerful than individual rituals because multiple cues reinforce the state change. Your brain learns: "combination of these signals = work time is over."
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
-- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-- [How to Prevent Burnout as Remote Developer: Practical.](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
+
+## Related Articles
+
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)
+- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
+- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
+- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

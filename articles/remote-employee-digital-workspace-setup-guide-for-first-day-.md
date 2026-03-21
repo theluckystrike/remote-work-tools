@@ -318,11 +318,14 @@ Communication:
 
 Having this checklist complete by end of day three gives you a clean operational baseline and surfaces any access provisioning gaps while your manager is still in active onboarding mode rather than six weeks later during a Friday afternoon incident.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
-- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
-- [Monitor Setup for Remote Developer: Two vs Three Screens.](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+
+## Related Articles
+
+- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
+- [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
+- [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

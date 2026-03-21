@@ -240,12 +240,15 @@ Sustained humidity above 70% can corrode PCB traces and switch contacts over mon
 
 Room-level humidity can be within range while the micro-environment near your monitors remains drier. Monitors and computers generate heat that creates a warmer, drier zone immediately around your seated position. Try placing a small USB humidifier directly on your desk, targeted toward your face, in addition to any room-level humidification. An eye drops habit during long sessions also helps independently of ambient humidity.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
-- [How to Childproof Home Office When Toddler Interrupts.](/remote-work-tools/how-to-childproof-home-office-when-toddler-interrupts-meetin/)
-- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+
+## Related Articles
+
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+- [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
+- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
+- [Seat Cushion for Long Coding Sessions Review 2026](/remote-work-tools/seat-cushion-for-long-coding-sessions-review-2026/)
+- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

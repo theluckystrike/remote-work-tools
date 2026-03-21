@@ -312,12 +312,15 @@ Annual refresher training required for all team members.
 
 Communicate this policy during onboarding, and reference it in your team wiki.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
-- [Remote Team Password Sharing Best Practices for Shared.](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
-- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+
+## Related Articles
+
+- [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+- [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)
+- [Password Manager Comparison for Remote Teams](/remote-work-tools/password-manager-comparison-for-remote-teams-bitwarden-vs-1p/)
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

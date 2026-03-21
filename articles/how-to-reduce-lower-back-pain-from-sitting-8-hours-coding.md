@@ -354,12 +354,15 @@ Start with one change today. Then another next week. Your future self will thank
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
-- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
-- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [How to Prevent Back Pain from Couch Working as a Remote](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
+- [How to Negotiate Remote Work Salary When Relocating Lower](/remote-work-tools/how-to-negotiate-remote-work-salary-when-relocating-lower-cost-area/)
+- [Open Back Headphones for Remote Developers Review](/remote-work-tools/open-back-headphones-for-remote-developers-review/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

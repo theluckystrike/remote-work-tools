@@ -306,12 +306,15 @@ Questions? Contact benefits@company.com or your HR Business Partner.
 
 Clear transition instructions prevent the most common complaint about benefit changes: employees who lost out on an improvement because they didn't realize they needed to re-enroll.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Return to Office Parking and Commute Benefit Policy.](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Remote Work Lactation Room Policy Template for Employees.](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
-- [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+
+## Related Articles
+
+- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
+- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
+- [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)
+- [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

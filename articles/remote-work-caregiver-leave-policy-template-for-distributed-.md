@@ -186,12 +186,15 @@ Track these metrics to ensure your caregiver policy serves its purpose:
 | Team coverage satisfaction | >4/5 rating | Quarterly |
 | Time-to-approval | <48 hours | Monthly |
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Work Lactation Room Policy Template for Employees.](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
-- [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
-- [Remote Work Special Needs Child Accommodation Guide for.](/remote-work-tools/remote-work-special-needs-child-accommodation-guide-for-parents/)
+
+## Related Articles
+
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
+- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [Remote Team Vulnerability Disclosure Policy Template for](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

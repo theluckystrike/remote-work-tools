@@ -202,12 +202,15 @@ A simple Google Sheets template works well for tracking observations:
 | 14:31     | Mike     | Successfully completed task | — | User succeeded | Low      |
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Remote User Research Sessions for UX.](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
-- [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
-- [Best Online Teaching Platform for Remote Tutors Running.](/remote-work-tools/best-online-teaching-platform-for-remote-tutors-running-live/)
+
+## Related Articles
+
+- [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

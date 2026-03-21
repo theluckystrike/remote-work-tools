@@ -170,12 +170,15 @@ Your wiki platform may require adjustments. Confluence users might convert the m
 The best design document template is one your team actually uses. Implement this template, gather feedback from your reviewers, and iterate. Over time, you'll develop conventions that match your team's communication style and technical culture.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
+
+## Related Articles
+
+- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Deal Brief: [Company Name]](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

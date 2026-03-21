@@ -196,12 +196,15 @@ For firms with strict data sovereignty requirements, some vendors now offer on-p
 
 Distributed firms handling international matters should evaluate cross-border research capabilities. Tools like Global Legal Information Network and specialized international databases may supplement primary US-focused platforms.
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Remote Legal Billing Software Comparison for Distributed.](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
-- [Remote Team Penetration Testing Coordination Guide for.](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+
+## Related Articles
+
+- [Remote Legal Billing Software Comparison for Distributed](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
+- [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
+- [Best Collaboration Suite for a 10 Person Remote Law Firm](/remote-work-tools/best-collaboration-suite-for-a-10-person-remote-law-firm/)
+- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [How to Handle Employment Law Differences for Remote Teams](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

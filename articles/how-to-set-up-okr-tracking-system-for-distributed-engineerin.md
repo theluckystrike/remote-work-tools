@@ -215,12 +215,15 @@ Start with the simplest tracking that provides adequate visibility, then add aut
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+
+## Related Articles
+
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
-- [Best Tool for Tracking Remote Team Goals and Key Results.](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

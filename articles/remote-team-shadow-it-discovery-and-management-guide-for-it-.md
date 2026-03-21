@@ -239,12 +239,15 @@ Shadow IT is never "solved" once—it's an ongoing challenge. Set up recurring s
 - Quarterly OAuth permission audit
 - Annual tool catalog review
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Remote Team Change Management Communication Plan.](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
-- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
+
+## Related Articles
+
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

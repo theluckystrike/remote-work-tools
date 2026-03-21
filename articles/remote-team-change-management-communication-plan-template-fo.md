@@ -182,12 +182,15 @@ Document decisions: Record why the change is happening. Future team members (and
 Iterate your process: After each change cycle, note what worked and what did not. Refine your template accordingly.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Remote Team Growth Stage Communication Audit.](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+
+## Related Articles
+
+- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

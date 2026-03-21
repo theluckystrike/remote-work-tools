@@ -301,11 +301,15 @@ Include "review daily logs from your first sprint" in your onboarding checklist.
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Write Async Status Updates That Managers Actually Read](/how-to-write-async-status-updates-that-managers-actually-read/)
-- [Async Communication Norms for Remote Teams](/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+
+## Related Articles
+
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
+- [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

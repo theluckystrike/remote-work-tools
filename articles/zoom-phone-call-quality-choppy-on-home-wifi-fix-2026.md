@@ -290,8 +290,14 @@ Calls to other continents encounter additional latency from undersea cable routi
 ---
 
 
-## Related Reading
 
-- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+
+## Related Articles
+
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
+- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
+- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

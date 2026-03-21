@@ -192,12 +192,15 @@ Third, apply remote adjustment: If remote work carries a 10% premium in your ind
 
 The final recommendation: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment. This reflects global market rates while accounting for remote work value.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+
+## Related Articles
+
+- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

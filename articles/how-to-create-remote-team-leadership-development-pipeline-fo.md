@@ -261,10 +261,15 @@ The best remote leadership pipelines feel invisible—they create natural opport
 
 ---
 
-## Related Reading
 
-- [Remote Team Communication Best Practices](/remote-work-tools/async-communication/)
-- [Scaling Engineering Teams](/remote-work-tools/scaling-engineering/)
+
+## Related Articles
+
+- [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

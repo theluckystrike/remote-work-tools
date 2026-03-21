@@ -242,12 +242,15 @@ The goal isn't rigid enforcement but creating a culture where deep work is value
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
+
+## Related Articles
+
 - [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
-- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
+- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
+- [How to Create Remote Team Skip Level Meeting Program As](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

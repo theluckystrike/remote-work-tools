@@ -239,10 +239,14 @@ Document these sessions. Future team members will thank you.
 Make dependency visibility part of the daily workflow rather than a periodic exercise. When any developer can answer "what does this service depend on?" in under a minute, the team ships faster and breaks less.
 
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
+- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

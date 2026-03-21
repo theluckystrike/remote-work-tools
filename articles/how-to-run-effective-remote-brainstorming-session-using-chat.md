@@ -183,12 +183,15 @@ Reserve video for when you need real-time prototyping, heated discussions requir
 Chat-based brainstorming transforms how remote teams generate ideas. By embracing text-first collaboration, you build a more inclusive, documented, and ultimately more creative process. The best ideas don't always come from the loudest voices—they come from those given the time and space to think deeply.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+
+## Related Articles
+
+- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

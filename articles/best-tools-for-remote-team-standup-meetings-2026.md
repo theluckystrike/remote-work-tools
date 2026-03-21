@@ -348,9 +348,14 @@ Lower response rates (50–60%) indicate:
 
 Async standups are a core building block of remote team health. The right tool + right question design removes synchronous meeting drag while keeping the team aligned.
 
+
+## Related Articles
+
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
+- [Best Virtual Icebreaker Tool for Remote Team Meetings That](/remote-work-tools/best-virtual-icebreaker-tool-for-remote-team-meetings-that-f/)
+
 {% endraw %}
-
-## Related Reading
-
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 

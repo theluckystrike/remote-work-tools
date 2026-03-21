@@ -226,12 +226,15 @@ Adjust your template and delivery frequency based on feedback. The goal is consi
 Building an automated client progress reporting system requires upfront development time but pays dividends through consistent stakeholder communication. Start with simple metrics and expand as you identify what matters most to your clients.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Client-Facing Knowledge Base for a.](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+
+## Related Articles
+
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [How to Create Remote Team Compensation Benchmarking Report](/remote-work-tools/how-to-create-remote-team-compensation-benchmarking-report-u/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

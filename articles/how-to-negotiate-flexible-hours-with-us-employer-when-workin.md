@@ -277,11 +277,14 @@ Before negotiating flexible hours, understand the legal landscape:
 
 When in doubt, have your employer's HR department (not just your manager) acknowledge the flexible arrangement in writing.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-- [Remote Team Conflict Resolution Over Chat When Video.](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+
+## Related Articles
+
+- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

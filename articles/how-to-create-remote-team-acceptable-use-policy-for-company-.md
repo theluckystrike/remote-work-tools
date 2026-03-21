@@ -210,12 +210,15 @@ DON'T:
 - Ignore security warnings
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [How to Implement Device Management Policy for Fully.](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
-- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
+
+## Related Articles
+
+- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
+- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

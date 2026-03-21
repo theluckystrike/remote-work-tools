@@ -400,12 +400,15 @@ services:
 
 When UPS battery is low, containers have 30 seconds to commit in-flight transactions before being shut down.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
+
+## Related Articles
+
+- [Best UPS Battery Backup for Remote Workers in Countries](/remote-work-tools/best-ups-battery-backup-for-remote-workers-in-countries-with/)
 - [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
-- [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

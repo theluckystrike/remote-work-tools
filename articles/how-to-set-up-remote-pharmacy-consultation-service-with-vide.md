@@ -300,12 +300,15 @@ If repeat consultation rate is below 20%, investigate whether patient experience
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Compliant Remote Employee Benefits Across.](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
-- [How to Set Up Remote Radiology Reading Station at Home.](/remote-work-tools/how-to-set-up-remote-radiology-reading-station-at-home-with-/)
-- [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+
+## Related Articles
+
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
+- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
+- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
+- [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

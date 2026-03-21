@@ -265,11 +265,15 @@ jobs:
 
 A well-built wiki becomes the institutional memory of your team. It survives personnel changes, scales with organization growth, and directly impacts productivity.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Create Remote Team Operations Handbook From Scratch](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

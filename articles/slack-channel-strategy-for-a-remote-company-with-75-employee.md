@@ -257,12 +257,15 @@ A well-organized Slack workspace at 75 employees requires intentional design upf
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Slack Workspace Structure for a 50 Person Remote Engineering Org](/remote-work-tools/slack-workspace-structure-for-a-50-person-remote-engineering/)
-- [Best Practice for Remote Team Announcement Channel.](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+
+## Related Articles
+
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

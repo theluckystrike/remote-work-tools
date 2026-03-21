@@ -326,12 +326,16 @@ An occupational therapist can perform detailed ergonomic assessment and recommen
 
 **Month 3+:** Re-assess quarterly. Update setup as needs change.
 
-## Related Reading
-
-- [Best Headset for Remote Work Video Calls](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Whiteboard vs Glass Board for Home Office](/remote-work-tools/whiteboard-vs-glass-board-for-home-office/)
-- [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 
 Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
+
+
+## Related Articles
+
+- [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
+- [Remote Team Technical Assessment Platform for Evaluating](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
+- [Remote Team Third Party Vendor Security Assessment Template](/remote-work-tools/remote-team-third-party-vendor-security-assessment-template-/)
 
 {% endraw %}

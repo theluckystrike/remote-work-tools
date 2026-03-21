@@ -197,12 +197,15 @@ Avoid these mistakes that reduce ideation session effectiveness:
 - **Infinite sessions** — Cap ideation at 45-60 minutes; extended sessions produce diminishing returns
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [Remote Team Book Club Format and Help Guide for.](/remote-work-tools/remote-team-book-club-format-and-help-guide-developers/)
-- [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+
+## Related Articles
+
+- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
+- [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

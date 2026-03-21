@@ -310,11 +310,14 @@ Adjust the template based on feedback. The schedule should serve your team's act
 Building a three-office-day hybrid schedule doesn't require expensive tools or complex systems. Start with a simple rotation, use existing calendar and communication tools, and iterate based on what actually works for your team.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [Best Practice for Hybrid Work Policy: Covering Which.](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Hybrid Team Onboarding Process Template for New Hires.](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+
+## Related Articles
+
+- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
+- [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
+- [How to Create Hybrid Work Feedback Loop Collecting Employee](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

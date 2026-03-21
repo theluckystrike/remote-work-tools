@@ -309,9 +309,15 @@ Output Metrics:
 
 After implementing maker schedule, you should see improved deep work minutes, reduced context switches, and higher quality output. If not, your blocks may be too short, too fragmented, or the team culture may need adjustment.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
+- [GDPR Compliance Tools for Developers 2026: A Practical Guide](/remote-work-tools/gdpr-compliance-tools-for-developers-2026/)
+- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

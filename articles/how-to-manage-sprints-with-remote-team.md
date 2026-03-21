@@ -292,11 +292,15 @@ Start with async standups this week, add capacity planning next sprint, and iter
 ---
 
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
+- [How to Run Sprints with a Remote Team of 4 Engineers: A](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
+- [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

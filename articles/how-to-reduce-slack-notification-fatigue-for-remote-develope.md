@@ -209,12 +209,15 @@ Track whether these changes improve your productivity:
 
 Adjust your approach based on what works for your specific role and team.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Slack Do Not Disturb.](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+
+## Related Articles
+
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Best Notification Batching Strategies for Async-First](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

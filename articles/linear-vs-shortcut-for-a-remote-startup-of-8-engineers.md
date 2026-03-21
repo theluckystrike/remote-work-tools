@@ -284,12 +284,15 @@ By now you should have clear guidance:
 **When in doubt:**
 Trial both for 1 week with real work. Most teams have clear preference after a week of actual use. Trust your engineers' intuition—they'll be using this tool 40+ hours weekly.
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Shortcut vs Linear: Issue Tracking Comparison for.](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
-- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
-- [Linear vs Jira for Software Development: A Practical.](/remote-work-tools/linear-vs-jira-for-software-development/)
+
+## Related Articles
+
+- [Shortcut vs Linear: Issue Tracking Comparison for](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
+- [How to Run Sprints with a Remote Team of 4 Engineers: A](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
+- [Best Password Manager for a Remote Startup of 15 Employees](/remote-work-tools/best-password-manager-for-a-remote-startup-of-15-employees/)
+- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

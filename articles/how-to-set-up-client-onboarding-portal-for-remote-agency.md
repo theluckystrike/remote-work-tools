@@ -313,12 +313,15 @@ Before launching, verify your portal handles real-world scenarios: test form sub
 
 Track completion rate, time to kickoff, support tickets, and client feedback. Iterate based on data—small improvements compound into significant time savings.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 - [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

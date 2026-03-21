@@ -169,12 +169,15 @@ Remember: the goal isn't to convince clients that remote work is superior. It's 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Build Cross-Team Relationships in Large Remote.](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
-- [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
+
+## Related Articles
+
 - [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
+- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

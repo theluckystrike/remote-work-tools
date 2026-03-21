@@ -312,9 +312,15 @@ In your Giphy app configuration, you can control:
 
 ---
 
-## Related Reading
 
-- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+
+## Related Articles
+
+- [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
+- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

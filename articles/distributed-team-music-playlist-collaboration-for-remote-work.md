@@ -172,12 +172,15 @@ Starting a team playlist takes minimal effort but can significantly impact team 
 Start with a simple focus playlist for everyday deep work, then expand to themed playlists for different occasions. Within a few weeks, you'll likely notice increased informal conversation and a stronger sense of shared team identity—all from something as simple as sharing songs together.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
-- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [Remote Architecture Collaboration Tool for Distributed.](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+
+## Related Articles
+
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [Remote Content Team Collaboration Workflow for Distributed](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
+- [Remote Architecture BIM Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -219,12 +219,15 @@ The key to success with these templates is consistency. Use the same channel nam
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
-- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -269,12 +269,15 @@ For teams asking "which tool should we pick," the answer depends on your startin
 The best approach: use both. The marginal cost of adding FigJam to a Figma subscription is minimal, and Miro's cost is justified by the complex sessions only Miro handles well.
 
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
-- [Best Whiteboard Tool for a Remote Team of 10 Product.](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
+
+## Related Articles
+
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -346,11 +346,14 @@ Use this framework to select the best option for your specific situation:
 - Fix: Create response runbooks before deployment, test during trials
 {% endraw %}
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Insider Threat Detection Tool for Fully Remote.](/remote-work-tools/best-insider-threat-detection-tool-for-fully-remote-companie/)
-- [How to Monitor Remote Employee Endpoint Health Without.](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
-- [Best Endpoint Security Solution for Remote Employees.](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
+
+## Related Articles
+
+- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

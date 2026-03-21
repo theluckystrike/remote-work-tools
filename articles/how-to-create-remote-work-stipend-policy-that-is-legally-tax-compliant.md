@@ -193,12 +193,15 @@ Start with equipment stipends—they're the easiest to document and defend. As y
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-- [How to Create a Hybrid Work Stipend Policy Covering Both.](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+
+## Related Articles
+
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
+- [How to Create Compliant Offer Letter for International](/remote-work-tools/how-to-create-compliant-offer-letter-for-international-remot/)
+- [Remote Work Tax Deductions: Home Office Guide 2026 (US.](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

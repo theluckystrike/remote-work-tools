@@ -299,12 +299,15 @@ resource "aws_codebuild_project" "backend_ci" {
 }
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-- [How to Secure Remote Team CI/CD Pipeline From Supply.](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
-- [Best DevSecOps Toolchain for Remote Teams Integrating.](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
+
+## Related Articles
+
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [How to Create Remote Team Leadership Development Pipeline Fo](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)
+- [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

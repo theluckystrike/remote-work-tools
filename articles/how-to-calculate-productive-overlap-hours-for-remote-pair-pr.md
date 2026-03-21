@@ -172,9 +172,15 @@ Several tools simplify timezone overlap calculations:
 
 For teams using calendar apps, Clockwise and Reclaim.ai automatically find optimal meeting slots across timezones.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [How to Build a Productive Home Office for Under $500](/remote-work-tools/how-to-build-a-productive-home-office-for-under-500/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [Best Remote Pair Design Tool for UX Researchers](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

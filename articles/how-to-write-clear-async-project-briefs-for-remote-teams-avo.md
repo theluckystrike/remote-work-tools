@@ -232,12 +232,15 @@ The best async project briefs anticipate questions before they appear. They give
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [How to Write Postmortem Reports for Remote Teams](/remote-work-tools/how-to-write-postmortem-reports-for-remote-teams/)
+- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

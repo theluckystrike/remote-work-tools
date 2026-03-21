@@ -488,11 +488,15 @@ The right choice depends on where your team experiences the most friction. Neith
 - [ ] Run sprint planning template on first sprint
 
 
-## Related Reading
 
-- [Zulip vs Slack: A Deep Dive into Threaded Conversation.](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-- [CodePen vs CodeSandbox for Remote Collaboration](/remote-work-tools/codepen-vs-codesandbox-for-remote-collaboration/)
+
+## Related Articles
+
+- [Notion vs ClickUp for a Remote Startup Under 10 Employees](/remote-work-tools/notion-vs-clickup-for-a-remote-startup-under-10-employees/)
+- [ClickUp Automations for Developer Workflows: A Practical](/remote-work-tools/clickup-automations-for-developer-workflows/)
+- [Best Gantt Chart Tools for Software Teams: A Practical Guide](/remote-work-tools/best-gantt-chart-tools-for-software-teams/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -183,11 +183,14 @@ Set a calendar reminder to review your policy every 12 months. Technology costs 
 A clear expense reimbursement policy reduces administrative burden, prevents frustration, and helps your remote team focus on work instead of paperwork.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Remote Team Handbook Template: Writing Remote Interview.](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [How to Structure Remote Team Handbook Table of Contents.](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+
+## Related Articles
+
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

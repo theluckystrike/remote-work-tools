@@ -209,12 +209,15 @@ For IT teams managing multiple rooms, here's an example Ansible playbook for Owl
 
 This approach enables consistent configuration across all conference rooms and simplifies long-term maintenance.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [Best Conference Room Speaker Mic for Hybrid Meetings.](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
-- [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+
+## Related Articles
+
+- [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+- [Camera On vs Camera Off Debate in Remote Meetings: A](/remote-work-tools/camera-on-vs-camera-off-debate-remote-meetings/)
+- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Deal Brief: [Company Name]](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

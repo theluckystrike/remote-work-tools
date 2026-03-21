@@ -273,12 +273,15 @@ Attending one community event per month can lead to unexpected professional oppo
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Coworking Space Day Pass Guide: Finding and Using Flex.](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
-- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
-- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
+
+## Related Articles
+
+- [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
+- [Coworking Space Day Pass Guide](/remote-work-tools/coworking-space-day-pass-guide-finding-and-using-flex-spaces/)
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+- [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

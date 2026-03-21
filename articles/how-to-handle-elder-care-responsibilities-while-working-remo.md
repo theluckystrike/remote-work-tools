@@ -332,11 +332,14 @@ Have these conversations:
 
 Having these conversations difficult but prevents crisis decisions later.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
-- [How to Handle Mail and Legal Address When Working.](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
-- [Remote Working Parent Self Care Checklist for Avoiding.](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+
+## Related Articles
+
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
+- [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
+- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

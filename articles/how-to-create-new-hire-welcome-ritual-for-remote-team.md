@@ -259,12 +259,15 @@ Track these metrics to evaluate your welcome rituals:
 
 Review these metrics quarterly and adjust your rituals based on data rather than assumptions.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Communication Playbook for New.](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
-- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+
+## Related Articles
+
+- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [How to Create Remote Team Working Agreement Template for](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid](/remote-work-tools/weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

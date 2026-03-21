@@ -293,12 +293,15 @@ Thanks for your feedback on the checkout flow redesign!
 
 This follow-up keeps clients engaged and ensures alignment on next steps.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
-- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+
+## Related Articles
+
+- [How to Run Async Sprint Demos with Recorded Walkthroughs](/remote-work-tools/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)
+- [How to Present Remote Team Credentials to Prospective Agency](/remote-work-tools/how-to-present-remote-team-credentials-to-prospective-agency/)
+- [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
+- [Video Walkthrough Tools for Presenting Code Changes to](/remote-work-tools/video-walkthrough-tools-for-presenting-code-changes-to-non-t/)
+- [Best Annotation Tool for Remote Design Review with Clients](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -204,12 +204,15 @@ The best security stack for a remote company under 20 employees evolves as your 
 Your threat model differs from enterprises. Your budget differs from enterprises. Your administrative capacity differs from enterprises. Choose tools that fit your actual constraints rather than inheriting an enterprise blueprint.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Insider Threat Detection Tool for Fully Remote.](/remote-work-tools/best-insider-threat-detection-tool-for-fully-remote-companie/)
-- [Best Endpoint Security Solution for Remote Employees.](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-- [Endpoint Encryption Enforcement for Remote Team Laptops.](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+
+## Related Articles
+
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [Deal Brief: [Company Name]](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

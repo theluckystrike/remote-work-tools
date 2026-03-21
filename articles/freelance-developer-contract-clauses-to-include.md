@@ -345,12 +345,15 @@ Most freelance contract disputes fall into one of four categories. Understanding
 **Timeline disputes** happen when both parties have different expectations about revision time. Prevention: Build review periods into your timeline explicitly. "Phase 2 complete: March 15. Client review period: March 15-19. Revisions complete: March 25" leaves no room for misunderstanding.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
-- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
+
+## Related Articles
+
 - [Freelance Developer Toolkit: Essential Apps 2026](/remote-work-tools/freelance-developer-toolkit-essential-apps-2026/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
+- [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

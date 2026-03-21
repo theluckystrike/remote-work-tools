@@ -281,13 +281,15 @@ cd $(chezmoi source-path) && git add -A && git commit -m "tmux: add popup keybin
 # chezmoi: chezmoi update
 ```
 
-## Related Reading
 
-- [Best Dotfiles Manager for Remote Developer Setup](/best-dotfiles-manager-for-remote-developer-setup/)
-- [tmux Config Guide for Remote Developers](/tmux-config-guide-remote-developers/)
-- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
 
----
+## Related Articles
+
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
+- [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
+- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -209,12 +209,15 @@ echo "Created proposal for ${CLIENT_NAME}"
 
 This saves time on formatting so you can focus on customizing the content.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
-- [Best Proposal Software for Remote Web Development Agency.](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
+
+## Related Articles
+
+- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
+- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
+- [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

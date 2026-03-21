@@ -184,12 +184,15 @@ For developers who want the best of both hardware and software switching, combin
 
 The workflow becomes: use the USB switch button to select which computer controls your physical peripherals, then use Synergy to move your mouse across to the other screen for file transfers. This hybrid approach eliminates the latency sometimes present in pure software solutions while adding cross-machine file sharing capability.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
-- [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
-- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
+- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
+- [Example: Checking monitor USB-C capabilities](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
+- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
+- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

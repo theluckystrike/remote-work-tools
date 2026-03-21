@@ -323,12 +323,15 @@ If your ISP connection is limited (< 25 Mbps), optimize:
 - Use local VS Code with remote SSH if latency is high (better responsiveness)
 - Avoid large file operations in cloud IDE; use local git instead
 
-## Related Reading
 
-- [Remote Work Setup for Optimal Productivity](/remote-work-setup-guide/)
-- [WiFi Optimization for Remote Teams](/wifi-optimization-guide/)
-- [VPN and Network Security for Remote Work](/remote-work-vpn-guide/)
-- [Home Office Network Troubleshooting](/home-office-network-guide/)
+
+## Related Articles
+
+- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
+- [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

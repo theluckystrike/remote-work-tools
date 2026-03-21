@@ -177,11 +177,15 @@ Track cycle time (task start to completion), blocked time (days waiting on depen
 
 Review these metrics monthly with your team. Identify patterns and experiment with changes.
 
-## Related Reading
 
-- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
-- [How to Document Architecture Decisions for a Remote Team](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
-- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
+
+## Related Articles
+
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

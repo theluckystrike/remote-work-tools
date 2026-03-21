@@ -192,12 +192,15 @@ Regular reflection transforms conflict from a source of friction into an opportu
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Conflict Resolution Framework for Managers.](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
-- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+
+## Related Articles
+
+- [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
+- [Remote Team Conflict Resolution Framework Guide](/remote-work-tools/remote-team-conflict-resolution-framework-guide/)
+- [.github/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

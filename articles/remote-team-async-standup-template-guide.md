@@ -614,9 +614,15 @@ This creates accountability link: standup items map to closed issues and merged 
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
+- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

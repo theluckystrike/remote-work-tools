@@ -239,12 +239,15 @@ Create an internal reference document that answers these questions for each tool
 
 This documentation prevents knowledge silos and ensures consistent security practices regardless of who performs onboarding.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
-- [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+
+## Related Articles
+
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
+- [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
+- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

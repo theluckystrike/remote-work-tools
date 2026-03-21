@@ -253,12 +253,15 @@ The tools scale, but your processes need adjustment at each growth stage.
 
 **Scope creep invisibility**: The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
 - [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [Project Management Tools for Freelancers 2026: A.](/remote-work-tools/project-management-tools-for-freelancers-2026/)
+- [Upload large file with chunked upload](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
+- [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
+- [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

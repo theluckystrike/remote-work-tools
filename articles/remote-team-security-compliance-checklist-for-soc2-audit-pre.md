@@ -312,12 +312,15 @@ Start preparing at least 3-4 months before your audit date:
 3. Month 3-4: Internal audit or readiness assessment
 4. Final month: Address findings, prepare evidence room
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Compliance Documentation.](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [Remote Agency Client Data Security Compliance Checklist.](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
-- [How to Audit Remote Employee Device Security Compliance.](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+
+## Related Articles
+
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -249,12 +249,15 @@ Start with the core functionality: viewing desk availability and creating reserv
 A desk reservation app for hybrid workplace solves a genuine operational problem. The patterns in this guide scale from small teams to enterprise deployments. Focus on conflict resolution, user experience, and integration with existing tools to drive adoption across your organization.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+- [Badge Access Systems for Hybrid Workplace 2026: A](/remote-work-tools/badge-access-systems-for-hybrid-workplaces-2026/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 - [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
-- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
+- [Usage](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -286,12 +286,15 @@ Health insurance renewal in Thailand differs from the US. Plan your renewal care
 
 Join groups like Bangkok Nomads or Thailand Digital Nomads on Facebook to hear about other people's real experiences with insurance claims and renewals.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
-- [How to Set Up Thai Bank Account as Digital Nomad Working.](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
-- [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
+
+## Related Articles
+
+- [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [How to Set Up Thai Bank Account as Digital Nomad Working](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
+- [Health Insurance Options for Freelancers 2026: A](/remote-work-tools/health-insurance-options-for-freelancers-2026/)
+- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

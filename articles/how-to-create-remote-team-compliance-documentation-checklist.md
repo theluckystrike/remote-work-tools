@@ -222,12 +222,15 @@ Document everything with timestamps and responsible parties. When auditors ask "
 The effort you invest in building proper compliance documentation protects your organization from financial penalties, reputational damage, and the operational disruption of audit findings. Start with the foundational elements—access controls, device management, and approval workflows—and expand your documentation as your remote team grows.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-- [Remote Team Documentation Culture: Building Guide for.](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+
+## Related Articles
+
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -355,12 +355,15 @@ As a manager or senior engineer, you set the tone:
 
 Your behavior creates psychological safety around communication. When you ask for clarification without judgment, the whole team does.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Avoid Miscommunication in Async Written Messages.](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
-- [Best Async Voice Message Tools for Remote Teams 2026.](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
-- [Remote Team Growth Stage Communication Audit.](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+
+## Related Articles
+
+- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
+- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
+- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

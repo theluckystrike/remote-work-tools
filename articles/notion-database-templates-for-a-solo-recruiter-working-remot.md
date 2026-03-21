@@ -188,12 +188,15 @@ Don't over-engineer your system on day one. Start with basic candidate and job t
 
 Avoid storing sensitive data like salary negotiations or internal feedback in databases shared with hiring managers. Use separate private databases for confidential information.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Notion Setup for Solo Freelancer Managing 5 Clients: A Practical Guide](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
-- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+
+## Related Articles
+
+- [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

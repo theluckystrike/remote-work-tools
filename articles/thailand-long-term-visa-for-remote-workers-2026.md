@@ -171,11 +171,15 @@ While Thailand remains excellent for remote workers, consider these factors befo
 - Language barrier: English is common in tourist areas but limited elsewhere
 - Climate: Hot and humid year-round—most comfortable November-February
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [How to Set Up a Mobile Office as a Digital Nomad](/remote-work-tools/how-to-set-up-mobile-office-as-digital-nomad/)
-- [Best Time Zone Management Tools for Digital Nomads](/remote-work-tools/best-time-zone-management-tools-for-nomads/)
+
+## Related Articles
+
+- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+- [Best VPN for Remote Workers in Thailand Avoiding Geo](/remote-work-tools/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
+- [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
+- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -192,10 +192,15 @@ Building proper leave tracking from the start saves significant headaches later.
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Employment Law Differences for Remote Teams](/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+
+## Related Articles
+
+- [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [Example: Tracking exchange rates for optimal conversion](/remote-work-tools/best-currency-exchange-strategy-for-remote-workers-paid-in-u/)
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+- [Best Compliance Tool for Managing Remote Employees Across](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

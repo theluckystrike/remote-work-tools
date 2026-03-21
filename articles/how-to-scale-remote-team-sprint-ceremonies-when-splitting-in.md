@@ -247,11 +247,15 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
 
 This script helps you generate a rotation schedule where no single time zone consistently takes inconvenient meeting times.
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+
+## Related Articles
+
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

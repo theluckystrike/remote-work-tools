@@ -332,12 +332,15 @@ A quarterly reset also catches habit drift — where the original definition of 
 
 A healthy habit tracker evolves as you do.
 
-## Related Reading
 
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+
+## Related Articles
+
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 - [Freelance Proposal Template for Developers in 2026](/remote-work-tools/freelance-proposal-template-for-developers-2026/)
-- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -244,12 +244,15 @@ While avoiding product recommendations, these tool categories help:
 - Real-time chat: Slack, Microsoft Teams, or Discord
 - Calendar management: Shared calendars with timezone support
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [Best Tool for Remote Team Onboarding Checklist.](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+
+## Related Articles
+
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

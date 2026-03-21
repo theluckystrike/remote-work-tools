@@ -268,11 +268,15 @@ Create aliases for quick access:
 alias top='bpytop'
 ```
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Linux: Check audio input levels](/remote-work-tools/best-headset-for-remote-work-all-day-comfort-2026/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk.](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
+- [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

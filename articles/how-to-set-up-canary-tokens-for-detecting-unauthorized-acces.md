@@ -284,8 +284,14 @@ Track metrics that demonstrate canary tokens' value:
 
 Teams with mature canary token programs typically detect breaches 50-70% faster than without them, providing invaluable time for containment.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
+- [How to Set Freelance Developer Rates in 2026](/remote-work-tools/how-to-set-freelance-developer-rates-2026/)
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -277,12 +277,15 @@ def weekly_update(ack, respond, command):
 The best tool for tracking remote team goals weekly is the one your team actually uses consistently. Start with low friction, iterate based on what information actually helps coordination, and invest in deeper tooling only when the basics prove insufficient.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
-- [Remote Team Financial Dashboard Tool for CFO: Tracking.](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+
+## Related Articles
+
+- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
+- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [Slack Giphy Integration Not Showing Results Fix 2026](/remote-work-tools/slack-giphy-integration-not-showing-results-fix-2026/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

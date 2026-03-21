@@ -311,11 +311,15 @@ The goal of team events is connection and morale. Escape rooms are one tool that
 
 {% endraw %}
 
-## Related Reading
 
-- [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
-- [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+
+## Related Articles
+
+- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
+- [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
+- [Teleparty supports these streaming platforms:](/remote-work-tools/virtual-movie-watch-party-tools-for-remote-team-friday-event/)
+- [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -269,12 +269,15 @@ Beyond equipment, incorporate movement into your workday. Developers often spend
 
 This movement practice combined with proper positioning creates the foundation for career-long productivity without chronic pain issues.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
-- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-- [Roost Stand vs Nexstand Laptop Stand Comparison: A Developer's Guide](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
+
+## Related Articles
+
+- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
+- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
+- [Roost Stand vs Nexstand Laptop Stand Comparison](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
+- [Travel Ergonomic Setup for Remote Workers Guide](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

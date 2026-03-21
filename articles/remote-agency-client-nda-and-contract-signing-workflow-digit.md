@@ -243,12 +243,15 @@ def store_signed_contract(contract_id, pdf_content, client_name):
 
 Configure lifecycle policies to move older contracts to cheaper storage tiers, but retain them for the duration required by your jurisdiction's statute of limitations.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Digital Signature Tool for Remote Agency Client.](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
-- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
-- [Best Contract Management Tool for Remote Agency Multiple.](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
+
+## Related Articles
+
+- [Remote Agency Scope Change Request Workflow for Client](/remote-work-tools/remote-agency-scope-change-request-workflow-for-client-projects/)
+- [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

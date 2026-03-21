@@ -293,12 +293,15 @@ Track these metrics to identify which relationships are most sustainable:
 
 Clients that score well on these metrics deserve your best attention and proactive engagement. Clients that score poorly may not be worth retaining despite current revenue.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Ask for Referrals as a Freelance Developer](/remote-work-tools/how-to-ask-for-referrals-as-freelance-developer/)
+
+## Related Articles
+
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
+- [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
+- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

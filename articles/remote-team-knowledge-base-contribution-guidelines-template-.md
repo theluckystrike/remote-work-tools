@@ -356,11 +356,14 @@ Set up a simple monthly tracking:
 
 Review monthly. If search quality is declining, contribution is dropping, or certain people dominate contributions, investigate and adjust.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
-- [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
-- [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
+
+## Related Articles
+
+- [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

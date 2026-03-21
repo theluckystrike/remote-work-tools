@@ -226,12 +226,15 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
-- [How to Combat Loneliness as a Digital Nomad](/remote-work-tools/how-to-combat-loneliness-as-a-digital-nomad/)
-- [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
+
+## Related Articles
+
+- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
+- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -254,12 +254,15 @@ Addressing these proactively significantly improves outcomes.
 Running a successful remote developer hackathon for distributed engineering teams takes effort, but the payoff—accelerated prototyping, team bonding, and innovation—makes it worthwhile. Focus on clear infrastructure, structured timelines, active help, and fair evaluation, and your hackathon will deliver value regardless of where your team members are located.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Organize Virtual Volunteering Day for Distributed.](/remote-work-tools/how-to-organize-virtual-volunteering-day-for-distributed-team-members/)
-- [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+
+## Related Articles
+
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [How to Run Remote Tax Preparation Business with Distributed](/remote-work-tools/how-to-run-remote-tax-preparation-business-with-distributed-/)
+- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

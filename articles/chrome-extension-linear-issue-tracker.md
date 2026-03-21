@@ -396,11 +396,14 @@ For teams of developers sharing a custom extension, publish to your internal Chr
 
 Most efficient teams use Chrome extension + VS Code extension together.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Chrome Security Headers Extension: A Practical Guide for.](/remote-work-tools/chrome-security-headers-extension/)
-- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
-- [Linear vs Jira for Software Development: A Practical.](/remote-work-tools/linear-vs-jira-for-software-development/)
+
+## Related Articles
+
+- [Chrome Security Headers Extension: A Practical Guide for](/remote-work-tools/chrome-security-headers-extension/)
+- [Shortcut vs Linear: Issue Tracking Comparison for](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
+- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
+- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

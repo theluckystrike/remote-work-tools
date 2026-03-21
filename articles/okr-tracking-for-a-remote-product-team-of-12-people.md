@@ -179,12 +179,15 @@ The connection between daily tasks and quarterly objectives often breaks in remo
 
 A 12-person team has an advantage here: small enough that direct communication can fill gaps, but large enough to need structure. Use weekly async updates as your primary coordination mechanism, and reserve synchronous meetings for quarterly planning and retro.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Communication Tools for a Remote Research Team of 12.](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [Best Tool for Remote Team Mood Tracking and Sentiment.](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
+
+## Related Articles
+
+- [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
+- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -334,11 +334,15 @@ Regardless of team size, apply these foundational practices:
 **Document everything.** If it's not written down, it doesn't exist. Create artifacts that help future responders.
 
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+
+## Related Articles
+
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

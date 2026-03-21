@@ -215,12 +215,15 @@ def parse_action_items(chat_messages):
     return actions
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
-- [Cheapest Video Call Tool for Weekly 50 Person All Hands.](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
-- [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+
+## Related Articles
+
+- [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
+- [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)
+- [Best Practice for Remote Team Quarterly Planning Process](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
+- [How to Run Remote Team Quarterly Business Review for](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

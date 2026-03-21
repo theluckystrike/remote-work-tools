@@ -329,12 +329,15 @@ Individual feedback matters less than systemic feedback culture. To build this:
 
 Teams that master feedback compound their velocity because ideas flow freely and corrections happen fast. This is worth investing in.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Give Constructive Feedback Asynchronously Without.](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
-- [How to Set Up Remote Team Peer Feedback Process Without.](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-- [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+
+## Related Articles
+
+- [How to Give Constructive Feedback Asynchronously Without](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

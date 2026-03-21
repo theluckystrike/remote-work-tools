@@ -206,11 +206,14 @@ The key is consistency—track sentiment over weeks and months, not just single 
 Sentiment analysis works best as an early warning system, not a replacement for direct communication. Use these tools to know when to check in, then have real conversations.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
-- [Remote Team One on One Meeting Template for Engineering.](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+
+## Related Articles
+
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+- [.github/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

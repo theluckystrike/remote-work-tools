@@ -360,12 +360,15 @@ But also measure qualitatively:
 
 A successful program feels like documentation is just "how we do things," not "the incentive program we're running."
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
-- [How to Create a Client-Facing Knowledge Base for a.](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
-- [How to Handle Knowledge Base Handoff When Remote.](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

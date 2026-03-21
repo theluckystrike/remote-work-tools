@@ -299,12 +299,15 @@ Create an incident report within 24 hours of the failover:
 
 **Establish clear ownership rotation.** Ensure that failover authority is not limited to a single person. Train multiple team members and rotate on-call schedules to provide coverage across time zones.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Remote Team Runbook Template for SSL Certificate Renewal.](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+
+## Related Articles
+
+- [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -170,12 +170,15 @@ Use dedicated channels for different incident stages. A common pattern:
 
 Direct message your escalation contact first, then post to the appropriate channel. This prevents channel noise while ensuring the right person sees the message immediately.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [How to Create Remote Team Communication Guidelines for.](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
+
+## Related Articles
+
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
+- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
+- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

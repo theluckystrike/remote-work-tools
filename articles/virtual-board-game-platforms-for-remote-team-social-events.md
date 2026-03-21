@@ -255,12 +255,15 @@ The technical tools matter less than consistent participation. A team that plays
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Virtual Escape Room Platforms for Remote Engineering Team Events](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
-- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+
+## Related Articles
+
+- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
+- [Teleparty supports these streaming platforms:](/remote-work-tools/virtual-movie-watch-party-tools-for-remote-team-friday-event/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

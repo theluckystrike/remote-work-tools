@@ -231,10 +231,14 @@ Meeting etiquette extends beyond the call itself:
 - Share relevant recordings with timestamps for absent team members
 - Clean up shared resources—close shared documents, end shared cursor sessions
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Best Whiteboard Tools for Video Calls](/remote-work-tools/best-whiteboard-tools-for-video-calls/)
-- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
+
+## Related Articles
+
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
+- [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)
+- [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

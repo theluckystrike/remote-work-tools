@@ -261,12 +261,15 @@ function checkPipelineModifications() {
 
 Create an incident response plan specifically for pipeline compromises. Know how to revoke tokens, rebuild from known-good commits, and notify affected users.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [CI/CD Pipeline Tools for a Remote Team of 2 Backend.](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
-- [Best DevSecOps Toolchain for Remote Teams Integrating.](/remote-work-tools/best-devsecops-toolchain-for-remote-teams-integrating-securi/)
+
+## Related Articles
+
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [How to Create Remote Team Leadership Development Pipeline Fo](/remote-work-tools/how-to-create-remote-team-leadership-development-pipeline-fo/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [How to Secure Remote Team Kubernetes Clusters with Network P](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

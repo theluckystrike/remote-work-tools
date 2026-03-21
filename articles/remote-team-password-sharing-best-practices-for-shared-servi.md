@@ -231,12 +231,15 @@ Several approaches seem convenient but create more problems than they solve:
 
 Each of these approaches has a place for low-risk scenarios, but production systems and sensitive data warrant proper secret management infrastructure.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
-- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+
+## Related Articles
+
+- [Password Rotation Policy Setup for Remote Teams Using](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
+- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [Deal Brief: [Company Name]](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

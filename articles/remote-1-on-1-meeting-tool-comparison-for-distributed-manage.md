@@ -225,11 +225,15 @@ When rolling out a 1 on 1 tool across distributed teams:
 4. **Set action item expectations**: Define how follow-ups are tracked
 5. **Test time zone tooling**: Verify calendar integrations handle daylight saving correctly
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+
+## Related Articles
+
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Manage Cross-Functional Remote Projects](/remote-work-tools/how-to-manage-cross-functional-remote-projects/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -354,13 +354,15 @@ gh secret set DATABASE_URL --env production --body "postgresql://..."
       ${{ runner.os }}-pip-
 ```
 
-## Related Reading
 
-- [Async Code Review Process Without Zoom Calls Step by Step](/async-code-review-process-without-zoom-calls-step-by-step/)
-- [ADR Tools for Remote Engineering Teams](/adr-tools-for-remote-engineering-teams/)
-- [Async Engineering Proposal Process Using GitHub Discussions](/async-engineering-proposal-process-using-github-discussions-/)
 
----
+## Related Articles
+
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
+- [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

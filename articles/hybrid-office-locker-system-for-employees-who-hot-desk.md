@@ -380,12 +380,15 @@ User Communication: Set clear expectations about what can and cannot be stored. 
 A well-integrated locker system removes one of the friction points in hot-desking, making it effortless for employees to store belongings securely while they work from any desk in the office.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Hybrid Office Wayfinding System for.](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
-- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
-- [Best Visitor Management System for Hybrid Offices.](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
+
+## Related Articles
+
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
+- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

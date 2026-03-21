@@ -276,12 +276,15 @@ Real-world projects have predictable disruptions. Build these into your charter 
 
 Addressing these predictable events prevents clients from being surprised and frustrated when they occur.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Emergency Client Communication for Remote.](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [Remote Agency Subcontractor Client Communication.](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
+
+## Related Articles
+
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [Remote Agency Client Communication Cadence Template for](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)
+- [Remote Agency Subcontractor Client Communication Boundaries](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

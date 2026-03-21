@@ -222,9 +222,15 @@ Remote team members need clear instructions on how to request access, what to in
 - **Bypassing JIT for "emergencies"** – This defeats the purpose; instead, design fast-track approval workflows
 - **Poor visibility into active sessions** – You need real-time awareness of who has access right now
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)
+- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
+- [Using Microsoft Graph API to create named locations](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

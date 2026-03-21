@@ -260,12 +260,15 @@ The goal is not perfect documentation—it's documentation that enables your tea
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Values Documentation That.](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
-- [Best Practice for Remote Team Offboarding at Scale.](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+
+## Related Articles
+
+- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Code Review Guidelines](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
+- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -323,12 +323,15 @@ After your fifth-year maximum digital nomad visa expires, explore these pathways
 
 Research these options 18 months before your five-year limit. Immigration law changes frequently, and earlier planning prevents rushed decisions.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
+
+## Related Articles
+
+- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

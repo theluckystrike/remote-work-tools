@@ -338,12 +338,15 @@ Async user research interviews work best when integrated into your regular produ
 - Assign individual analysis tasks
 - Make findings visible in team workspace
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Tool for Remote Product Managers Running Async.](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-- [How to Do Async Code Pairing with Recorded Screen Share Sessions](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
-- [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+
+## Related Articles
+
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

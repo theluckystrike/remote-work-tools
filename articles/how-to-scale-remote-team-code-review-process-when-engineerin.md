@@ -197,11 +197,14 @@ Scaling code review isn't just about processes—it's about building a culture w
 
 Encourage senior engineers to model good review behavior: thorough but kind feedback, quick turnaround times, and helpful explanations rather than just corrections.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [How to Scale Remote Team Design System Documentation.](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-- [Remote Team Interviewer Calibration Process for Ensuring.](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
+
+## Related Articles
+
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

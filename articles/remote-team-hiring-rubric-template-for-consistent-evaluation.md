@@ -206,12 +206,15 @@ This rubric provides a foundation—customize it based on your organizational pr
 Document your rubric in your team wiki or hiring handbook. New interviewers should review it before their first candidate. Over time, refine scores based on hire success. Your rubric improves alongside your hiring maturity.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Handbook Template: Writing Remote Interview.](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
-- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+
+## Related Articles
+
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

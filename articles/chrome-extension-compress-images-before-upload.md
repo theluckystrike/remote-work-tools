@@ -303,12 +303,15 @@ Very large images might cause memory issues on lower-end devices. The extension 
 
 Some web applications use custom file upload components that don't use standard `<input type="file">` elements. In these cases, you'll need to extend the content script to handle their specific upload mechanisms.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Chrome Extension Window Resizer Testing: Complete Guide for 2026](/remote-work-tools/chrome-extension-window-resizer-testing/)
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
-- [Chrome Extension Linear Issue Tracker: Practical Guide.](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+
+## Related Articles
+
+- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
+- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
+- [Chrome Extension OneNote Clipper Setup: Complete Guide](/remote-work-tools/chrome-extension-onenote-clipper-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -246,11 +246,15 @@ The key insight: structure enables autonomy. When everyone knows where files liv
 
 ---
 
-## Related Reading
 
-- [Design Systems for Remote Teams: A Practical Guide](/remote-work-tools/design-systems-for-remote-teams/)
-- [Async Design Reviews: Workflows That Work](/remote-work-tools/async-design-reviews-workflows/)
-- [Figma vs Sketch for Distributed Teams](/remote-work-tools/figma-vs-sketch-distributed-teams/)
+
+## Related Articles
+
+- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
+- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

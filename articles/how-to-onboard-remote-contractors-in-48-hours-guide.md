@@ -493,13 +493,15 @@ The key is assigning a responsive buddy, choosing a well-scoped first task, and 
 
 Document your process, measure what matters, and iterate quarterly based on contractor feedback. Over time, onboarding becomes a competitive advantage that attracts top contractor talent.
 
-## Related Reading
 
-- [Remote Work Tools Guide Hub](/guides-hub/)
-- [Best Project Management Tools for Remote Teams](/best-project-management-tools-remote-teams/)
-- [Building Distributed Engineering Teams](/building-distributed-engineering-teams-guide/)
 
----
+## Related Articles
+
+- [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
+- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [Time Tracking for Contractors and Freelancers Guide](/remote-work-tools/time-tracking-for-contractors-and-freelancers-guide/)
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
+- [How to Calculate Productive Overlap Hours for Remote.](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

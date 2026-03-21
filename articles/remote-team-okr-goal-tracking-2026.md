@@ -347,9 +347,15 @@ Run a quick survey mid-year: "Rate 1-5 how clear company priorities are to you."
 
 OKRs done well make remote teams feel connected, aligned, and enabled. They're the clearest signal that distributed work can be just as effective as office work.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [Best Goal Setting Framework Tool for Remote Teams Using OKRs](/remote-work-tools/best-goal-setting-framework-tool-for-remote-teams-using-okrs/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

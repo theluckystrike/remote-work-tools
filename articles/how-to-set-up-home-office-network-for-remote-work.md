@@ -308,10 +308,14 @@ Budget $200-400 total for a solid setup: good router ($100-150), managed switch 
 
 A well-configured network fades into the background—you forget it exists until something breaks.
 
-## Related Reading
 
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
-- [How to Manage Sprints with a Remote Team](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+
+## Related Articles
+
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

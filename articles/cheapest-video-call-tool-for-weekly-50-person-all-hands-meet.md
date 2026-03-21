@@ -168,12 +168,15 @@ Budget-conscious team with DevOps skills: Self-hosted Jitsi costs roughly $30/mo
 
 Remote-first company needing reliability: Zoom remains the gold standard for meeting quality. Pay the premium if video reliability impacts your daily operations.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
-- [Best Practice for Remote Team All Hands Meeting Format.](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+
+## Related Articles
+
+- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

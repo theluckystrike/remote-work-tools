@@ -221,11 +221,15 @@ New team members should read the playbook in their first week. Include a "gettin
 
 Avoid writing prescriptive policies without team buy-in. If engineers feel the playbook was handed down rather than built collaboratively, they won't update it when reality changes.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [Remote Work Playbook Template for Startups](/remote-work-tools/remote-work-playbook-template-for-startups/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
+- [How to Create a Morning Routine for Remote Work](/remote-work-tools/how-to-create-morning-routine-for-remote-work/)
+- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -261,12 +261,15 @@ This creates a searchable archive that new team members can review to understand
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
-- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -174,12 +174,15 @@ Consider connecting video bars to the same UPS that powers the room display and 
 
 Some video bars support PoE (Power over Ethernet) when used with network cables, simplifying power management in rooms with Ethernet infrastructure. This approach eliminates separate power cables and enables centralized power control through network switches.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Video Conferencing Setup for Hybrid Rooms: A.](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [Speakerphone for Hybrid Meeting Rooms Comparison: A.](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
+
+## Related Articles
+
+- [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Barco ClickShare API: Starting a presentation session](/remote-work-tools/best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/)
+- [Speakerphone for Hybrid Meeting Rooms Comparison: A](/remote-work-tools/speakerphone-for-hybrid-meeting-rooms-comparison/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

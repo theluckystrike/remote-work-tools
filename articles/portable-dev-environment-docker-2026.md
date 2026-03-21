@@ -336,13 +336,15 @@ Port convention example for preventing conflicts across projects:
 # Project C: ports in 3200-3299 range
 ```
 
-## Related Reading
 
-- [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
-- [VS Code Remote Development Setup Guide](/vscode-remote-development-setup/)
-- [tmux Config Guide for Remote Developers](/tmux-config-guide-remote-developers/)
 
----
+## Related Articles
+
+- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
+- [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
+- [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
+- [Asana vs Linear for a 10-Person Dev Team Comparison](/remote-work-tools/asana-vs-linear-for-a-10-person-dev-team-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

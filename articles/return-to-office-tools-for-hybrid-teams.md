@@ -341,12 +341,15 @@ Track these metrics to understand if your return-to-office program works:
 
 Monitor these monthly and adjust policies based on trends. High utilization might mean you need more desks. Low utilization might mean your core hours policy is too strict.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
-- [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
-- [Hybrid Office Air Quality Monitoring for Maintaining.](/remote-work-tools/hybrid-office-air-quality-monitoring-for-maintaining-healthy/)
+
+## Related Articles
+
+- [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
+- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
+- [Quick inventory script to scan network for dormant machines](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
+- [Return to Office Mental Health Support Resources for](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

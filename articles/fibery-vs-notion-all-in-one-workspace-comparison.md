@@ -248,11 +248,15 @@ Test both platforms with actual work—create a sprint tracker, document a proce
 
 ---
 
-## Related Reading
 
-- [Best Product Management Tools for Remote Teams](/remote-work-tools/best-product-management-tools-for-remote-teams/)
-- [API-First Tools for Developer Productivity](/remote-work-tools/api-first-tools-for-developer-productivity/)
-- [Managing Technical Debt in Remote Teams](/remote-work-tools/managing-technical-debt-in-remote-teams/)
+
+## Related Articles
+
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
+- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -395,11 +395,14 @@ Core sync hours: None (not enough overlap for all 7)
 4. **Forgetting cultural calendar differences**: India's holidays ≠ US holidays. Add to team calendar.
 5. **No timezone cost visibility**: Don't surprise people. Say "4 AM call" explicitly, don't hide it.
 
-## Related Reading
-- [Best Calendar Tool for a Remote Executive Team of 5](/remote-work-tools/guides-hub/)
-- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Meeting Hygiene](/remote-work-tools/guides-hub/)
 
----
+
+## Related Articles
+
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [Best Calendar Tool for a Remote Executive Team of 5](/remote-work-tools/best-calendar-tool-for-a-remote-executive-team-of-5/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

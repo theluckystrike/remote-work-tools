@@ -206,12 +206,14 @@ If your employer:
 - [ ] Get any agreed salary structure in writing before moving
 - [ ] Don't accept "we'll review in 6 months"—get certainty upfront
 
-## Related Reading
 
-- [Best tools for managing client contracts and invoices as a freelance developer](/remote-work-tools/guides-hub/)
-- [Remote work setup for distributed teams](/remote-work-tools/guides-hub/)
-- [How to set up a professional home office](/remote-work-tools/guides-hub/)
 
----
+## Related Articles
+
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Example on-call schedule that leverages timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

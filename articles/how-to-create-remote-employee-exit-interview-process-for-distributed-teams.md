@@ -213,12 +213,15 @@ def count_themes(responses):
 
 Review this data quarterly with leadership. Look for patterns: are multiple employees citing the same management issues? Is compensation a consistent theme? Are there tool-related frustrations that could be easily addressed?
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
+
+## Related Articles
+
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
+- [How to Create Hybrid Work Feedback Loop Collecting Employee](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

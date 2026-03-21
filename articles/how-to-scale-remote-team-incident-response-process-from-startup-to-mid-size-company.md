@@ -268,12 +268,15 @@ Regardless of team size, these principles remain constant:
 Scaling incident response isn't about adding bureaucracy—it's about creating structure that lets your team respond faster and more effectively as the system complexity grows. Start with foundations at ten engineers, mature the process at twenty, and formalize at fifty. Your on-call team will thank you.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
-- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
-- [How to Scale Remote Team Incident Response Process From Startup to Mid-Size Company](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+
+## Related Articles
+
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

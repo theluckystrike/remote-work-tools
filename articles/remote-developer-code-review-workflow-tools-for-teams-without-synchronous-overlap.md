@@ -193,12 +193,15 @@ Track these metrics to ensure your async review process improves over time:
 
 GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-- [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+- [Claude Code for Faker.js Test Data Workflow Guide](/remote-work-tools/claude-code-for-faker-js-test-data-workflow-guide/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

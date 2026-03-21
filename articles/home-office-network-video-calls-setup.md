@@ -237,13 +237,15 @@ top -o cpu | head -20
 htop
 ```
 
-## Related Reading
 
-- [How to Set Up Home Office Network for Remote Work](/how-to-set-up-home-office-network-for-remote-work/)
-- [Best Portable WiFi Hotspot for Digital Nomads](/best-portable-wifi-hotspot-for-digital-nomads/)
-- [Tailscale for Remote Team Networking Setup](/tailscale-remote-team-networking-setup/)
 
----
+## Related Articles
+
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -248,12 +248,15 @@ post_async_standup(
 ```
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Employee Exit Interview Process for.](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
-- [How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+
+## Related Articles
+
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -248,12 +248,15 @@ When employees understand that endpoint monitoring helps IT respond quickly to t
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Measure Remote Team Productivity Without.](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
-- [Best Endpoint Security Solution for Remote Employees.](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+
+## Related Articles
+
+- [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk.](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [DNS Filtering Setup for Remote Team Endpoint Security Using](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
+- [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

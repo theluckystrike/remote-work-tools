@@ -246,12 +246,15 @@ When assessing remote BIM tools for your team, prioritize solutions that minimiz
 The remote architecture BIM collaboration ecosystem continues to evolve rapidly. Teams that establish solid technical foundations now will be better positioned to adopt emerging tools and workflows as the industry progresses.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Architecture Collaboration Tool for Distributed.](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
-- [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+
+## Related Articles
+
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
+- [Remote Content Team Collaboration Workflow for Distributed](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -168,12 +168,15 @@ For most developers in moderate climates, a quality tower fan in the 25-35 dB ra
 The investment in a quiet air circulation solution pays off immediately—you'll sound more professional on calls, stay comfortable during focused work sessions, and avoid the distraction of dealing with heat during important meetings.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Share Home Office with Partner Both on Calls](/remote-work-tools/how-to-share-home-office-with-partner-both-on-calls/)
-- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
-- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
+
+## Related Articles
+
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
+- [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

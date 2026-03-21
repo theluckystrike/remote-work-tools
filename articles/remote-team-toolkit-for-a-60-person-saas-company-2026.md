@@ -282,12 +282,15 @@ The specific tools matter less than the principles behind their implementation. 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
-- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
-- [Best Tool for Remote Team Async Onboarding With Self-Paced Learning Modules 2026](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
+
+## Related Articles
+
+- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
+- [Register OAuth app on GitHub](/remote-work-tools/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Deal Brief: [Company Name]](/remote-work-tools/how-to-set-up-remote-sales-team-deal-room-with-shared-docume/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

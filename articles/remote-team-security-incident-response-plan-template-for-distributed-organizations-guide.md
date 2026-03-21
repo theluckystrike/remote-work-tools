@@ -287,12 +287,15 @@ A plan that isn't tested is just a document. For distributed teams, test your in
 - On-call rotations: Actually page people at odd hours to test your escalation paths
 - Automation drills: Verify that your automated workflows actually trigger correctly
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+
+## Related Articles
+
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
+- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

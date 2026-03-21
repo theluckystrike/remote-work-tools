@@ -181,12 +181,15 @@ Successfully integrating a weekly wins channel requires patience. Expect low eng
 The best weekly wins channels become a team ritual that people genuinely look forward to — a moment to pause, reflect on progress, and feel connected across the distance.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Announcement Channel.](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team.](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+
+## Related Articles
+
+- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

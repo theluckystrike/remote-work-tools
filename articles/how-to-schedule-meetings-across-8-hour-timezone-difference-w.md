@@ -372,11 +372,15 @@ For contractors or remote employees, consider:
 - Flexible scheduling (if you attend 6am meeting, end day 2 hours earlier)
 - Async-first culture (minimize forced sync meetings regardless of timezone)
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Build Async Feedback Culture](/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Time Zone Management Tools for Global Teams](/best-time-zone-management-tools-for-global-teams/)
+
+## Related Articles
+
+- [Example on-call schedule that leverages timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
+- [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
+- [Best Virtual Happy Hour Alternative for Remote Teams Who](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

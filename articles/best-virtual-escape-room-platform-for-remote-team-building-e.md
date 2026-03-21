@@ -266,12 +266,15 @@ Test any platform with a small group before committing to a full-team event. Mos
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Virtual Escape Room Platforms for Remote Engineering Team Events](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
-- [Best Virtual Team Trivia Platform for Remote Social.](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
-- [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+
+## Related Articles
+
+- [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
+- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
+- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

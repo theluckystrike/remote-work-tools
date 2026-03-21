@@ -314,12 +314,15 @@ The specific implementation depends on your existing tooling. Most modern system
 When implementing equipment return logistics, prioritize three areas: clear communication with employees about expected timelines and conditions, automated tracking that reduces manual follow-ups, and systematic verification that creates audit trails. Document your return policy explicitly and ensure employees acknowledge it before initial equipment shipment.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Remote Employee Onboarding Checklist Tool for HR.](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
-- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
-- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+
+## Related Articles
+
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
+- [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
+- [Remote Worker Ergonomic Equipment Reimbursement](/remote-work-tools/remote-worker-ergonomic-equipment-reimbursement-legal-obliga/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

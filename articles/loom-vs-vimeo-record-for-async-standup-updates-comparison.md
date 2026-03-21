@@ -304,12 +304,15 @@ The best practice: dedicated short-form tool (Loom) for standups + separate tool
 Most teams should start with Loom Free and upgrade to Loom Pro ($12/person/month) only when hitting the 5-minute recording limit consistently.
 
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Remote Team Async Video Update Tool Comparison: Loom vs.](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
-- [How to Replace Daily Standups with Async Text Updates.](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-- [Async Standup Alternative Using GitHub Commit Summaries Automatically](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
+
+## Related Articles
+
+- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

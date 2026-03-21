@@ -239,12 +239,15 @@ Track these metrics to evaluate your program:
 - Employee satisfaction: Include childcare benefits in quarterly surveys
 - Cost per employee: Calculate actual spend versus budgeted amounts
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [Remote Work Caregiver Leave Policy Template for.](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
-- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+
+## Related Articles
+
+- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

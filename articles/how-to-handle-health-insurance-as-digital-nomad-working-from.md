@@ -170,12 +170,15 @@ Typical out-of-pocket costs:
 Without insurance, the same hospitalization could cost $5,000-15,000 at a private Thai hospital.
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Health Insurance as a Digital Nomad.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
-- [How to Set Up Thai Bank Account as Digital Nomad Working.](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
-- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
+
+## Related Articles
+
+- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+- [How to Set Up Thai Bank Account as Digital Nomad Working](/remote-work-tools/how-to-set-up-thai-bank-account-as-digital-nomad-working-rem/)
+- [Health Insurance Options for Freelancers 2026: A](/remote-work-tools/health-insurance-options-for-freelancers-2026/)
+- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

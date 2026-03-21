@@ -319,11 +319,14 @@ For sensitive discussions, ensure your backdrop is clean and no confidential inf
 **Problem: Meeting room feels impersonal or awkward**
 - Solution: Start with 2 minutes casual conversation (weather, weekend plans) before jumping into agenda. Human connection matters.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Virtual Escape Room Platforms for Remote Engineering Team Events](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
-- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
-- [Best Virtual Escape Room Platform for Remote Team.](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
+
+## Related Articles
+
+- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Remote Agency Retainer Management Tool for Recurring Client](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
+- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
+- [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

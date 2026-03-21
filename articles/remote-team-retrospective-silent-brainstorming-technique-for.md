@@ -312,12 +312,15 @@ Track these metrics to improve your process:
 
 **Team sentiment trend:** Ask a simple question at the end of each retro: "On a scale of 1-5, how are you feeling about the team and our work?" Track this trend. Retros should increase this score over time if they're working.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [How to Create Remote Team Inclusive Meeting Practices.](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+
+## Related Articles
+
+- [Best Virtual Whiteboard for Remote Team Brainstorming and](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+- [Remote Team Scaling Retrospective Template for Reflecting](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
+- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

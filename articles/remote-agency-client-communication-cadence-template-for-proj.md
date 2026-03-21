@@ -364,12 +364,15 @@ If you see any of these, call a cadence reset conversation: "I want to make sure
 
 {% endraw %}
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [Remote Agency Subcontractor Client Communication.](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
+
+## Related Articles
+
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+- [Remote Agency Subcontractor Client Communication Boundaries](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
+- [Remote Agency Client Satisfaction Survey Template and](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
+- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

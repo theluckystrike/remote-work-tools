@@ -179,12 +179,15 @@ Most teams see improvements within four to six weeks. The initial adjustment per
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
-- [How to Replace Daily Standups with Async Text Updates.](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
-- [Best Tool for Hybrid Team Async Updates When Some Use.](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+
+## Related Articles
+
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

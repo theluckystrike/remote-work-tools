@@ -182,9 +182,15 @@ The system should serve your workflow, not constrain it. If a view feels unneces
 
 Start with the three-database structure, add your five clients, and build views as you need them. This foundation scales beyond five clients when your business grows.
 
-## Related Reading
 
-- More guides coming soon.
+
+## Related Articles
+
+- [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
+- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
+- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
+- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

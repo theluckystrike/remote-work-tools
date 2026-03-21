@@ -188,12 +188,15 @@ Build your time blocks around the bus. Protect them fiercely. Watch your output 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Best Calendar Blocking Strategy for Remote Working.](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
-- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+
+## Related Articles
+
+- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [How to Handle School Snow Day When Both Parents Work](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

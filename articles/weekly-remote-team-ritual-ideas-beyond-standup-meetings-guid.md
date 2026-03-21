@@ -499,12 +499,15 @@ For a team of 6-8, you're looking at 6-8 hours per week for all rituals combined
 
 The goal isn't to maximize rituals. It's to have rituals that actually improve how your team works and connects. Quality over quantity.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Gratitude Practice Ideas for Weekly Team.](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
-- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+
+## Related Articles
+
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [Best Tools for Remote Team Standup Meetings 2026.](/remote-work-tools/best-tools-for-remote-team-standup-meetings-2026/)
+- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

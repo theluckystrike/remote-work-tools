@@ -325,12 +325,15 @@ By year-end, review all retrospectives:
 
 This drives your process improvements year over year.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Asynchronous Client Update Format for.](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+
+## Related Articles
+
+- [How to Create Asynchronous Client Update Format for Remote P](/remote-work-tools/how-to-create-asynchronous-client-update-format-for-remote-p/)
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

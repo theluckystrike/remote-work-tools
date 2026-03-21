@@ -222,11 +222,14 @@ The digital nomad visa isn't ideal for everyone. Consider:
 - Business visa: If planning to start a Colombian company
 - Student visa: If enrolling in Spanish courses or degree programs
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Czech Republic Digital Nomad Visa (Zivno) Application.](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
-- [Brazil Digital Nomad Visa Process and Tax Implications.](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+
+## Related Articles
+
+- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
+- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
+- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -304,11 +304,15 @@ Portugal's D7 and Croatia's nomad visa are the strongest starting points for mos
 
 ---
 
-## Related Reading
 
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [Best Time Zone Management Tools for Digital Nomads](/remote-work-tools/best-time-zone-management-tools-for-nomads/)
-- [How to Handle Client Calls Across Time Zones](/remote-work-tools/how-to-handle-client-calls-across-time-zones-nomad/)
+
+## Related Articles
+
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
+- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -177,12 +177,15 @@ Run a two-week pilot with real projects before committing. Include your actual u
 Both platforms serve small remote startups well. The right choice aligns with where your team experiences the most friction and grows with your team's evolving needs.
 
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
-- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
-- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
+
+## Related Articles
+
+- [Best Password Manager for a Remote Startup of 15 Employees](/remote-work-tools/best-password-manager-for-a-remote-startup-of-15-employees/)
+- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
+- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -189,12 +189,15 @@ def generate_deployment_diagram(services):
 
 Automated generation keeps documentation synchronized with deployed services. Run generation as part of your CI pipeline to ensure diagrams always reflect current state.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-- [Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+
+## Related Articles
+
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

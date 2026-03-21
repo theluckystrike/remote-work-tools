@@ -360,12 +360,15 @@ Fewer reviewers = faster decisions. More cooks spoil the approval.
 - Day 6: (If still no response) Offer to sync 15-min call vs. more questions needed
 - Day 7: Escalate if critical path item blocked
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Write Async Technical RFCs That Get Meaningful Feedback](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
-- [How to Write Clear Async Project Briefs for Remote Teams.](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
+
+## Related Articles
+
+- [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
+- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
 - [How to Write Freelance Proposals That Win](/remote-work-tools/how-to-write-freelance-proposals-that-win/)
+- [How to Communicate Project Delays Remotely to Stakeholders](/remote-work-tools/how-to-communicate-project-delays-remotely-to-stakeholders-w/)
+- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

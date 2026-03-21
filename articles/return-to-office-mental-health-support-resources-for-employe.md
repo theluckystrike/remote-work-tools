@@ -243,12 +243,15 @@ Mental health support for returning to office shouldn't be a temporary initiativ
 The goal is creating an environment where returning to office is a choice that employees make with genuine buy-in, not a mandate that feels punitive. When organizations invest in genuine support structures, the transition becomes manageable and even beneficial for team cohesion.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Return to Office Employee Survey Template: Measuring.](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [Return to Office Parking and Commute Benefit Policy.](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Return to Office IT Checklist for Reactivating Dormant.](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
+
+## Related Articles
+
+- [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
+- [Quick inventory script to scan network for dormant machines](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

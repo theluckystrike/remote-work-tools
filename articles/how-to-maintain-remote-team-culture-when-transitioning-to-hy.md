@@ -403,12 +403,15 @@ Most teams report that their first month of hybrid is chaotic, the second month 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Transition Team Rituals from Fully Remote to.](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+
+## Related Articles
+
+- [Best Practice for Preserving Remote Team Culture When](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubli/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

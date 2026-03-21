@@ -204,12 +204,15 @@ Beyond configuration, establish conventions that make Jira work for distributed 
 3. **Link PRs immediately** — Automated transitions keep boards current without manual updates
 4. **Review board standing** — Spend 5 minutes each morning reviewing your team's board view
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
+
+## Related Articles
+
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
+- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
+- [Remote Team Handbook](/remote-work-tools/how-to-structure-remote-team-handbook-table-of-contents-cove/)
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

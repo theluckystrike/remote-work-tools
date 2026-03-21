@@ -174,11 +174,15 @@ For most developer teams, the decision comes down to team size and workflow comp
 Both tools solve the fundamental problem of keeping remote teams aligned without daily synchronous meetings. The right choice depends on your specific workflow requirements and how much infrastructure you want around your standup process.
 
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

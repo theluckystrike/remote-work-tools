@@ -228,12 +228,15 @@ Review these metrics quarterly and iterate on your pipeline stages.
 
 **No cultural assessment:** Technical skills matter, but collaboration style predicts team success. Include non-technical evaluation.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [Async Interview Process for Hiring Remote Developers: No.](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
-- [How to Coordinate Remote Mobile Developers Releasing.](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
+
+## Related Articles
+
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

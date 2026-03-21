@@ -287,12 +287,15 @@ If your research team has shared equipment (mass spectrometers, microscopes, com
 
 **Data from equipment:** Establish protocols for data management. Where do raw instrument outputs get stored? Who has access? Who backs them up? These questions matter more for remote teams where you can't just walk over to the lab.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Sales Team Forecasting Tool Comparison for.](/remote-work-tools/remote-sales-team-forecasting-tool-comparison-for-distribute/)
-- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+
+## Related Articles
+
+- [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
+- [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -303,12 +303,15 @@ Maintain organized documentation throughout your Gold Card tenure:
 
 This documentation protects you if immigration authorities audit your Gold Card status. Most remote workers never need these records, but organized filing prevents panic if questions arise.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
-- [Indonesia Second Home Visa for Remote Workers.](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+
+## Related Articles
+
+- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
+- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
+- [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

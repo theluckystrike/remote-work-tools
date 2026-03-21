@@ -181,12 +181,15 @@ The best handoff is one that's unnecessary because knowledge was captured increm
 Remote teams must be intentional about knowledge sharing. Without hallway conversations, explicit documentation becomes the primary knowledge transfer mechanism.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
-- [How to Prevent Knowledge Silos When Remote Team Grows.](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
-- [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+- [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

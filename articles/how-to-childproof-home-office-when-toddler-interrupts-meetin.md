@@ -187,12 +187,15 @@ The reality of parenting while working remotely means interruptions will happen.
 Start with the simplest changes: cable management, door latches, and meeting status automation. Add complexity only as needed. Your time as a developer is valuable—spend it solving engineering problems, not constantly retrieving a curious toddler from your keyboard.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up a Soundproof Home Office When Working.](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
-- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
-- [How to Cool Home Office Without Air Conditioning During.](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+
+## Related Articles
+
+- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

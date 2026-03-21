@@ -191,11 +191,15 @@ Before moving into your Bali rental:
 - [ ] Configure network failover
 
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+
+## Related Articles
+
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

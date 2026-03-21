@@ -210,12 +210,15 @@ def create_recurring_meeting(token, topic, start_time, duration_min=60):
 
 Server-to-server OAuth (type `account_credentials`) is the recommended auth method for automation — no user login required and tokens refresh automatically.
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Herman Miller vs Steelcase for Home Office: A Developer's Guide](/remote-work-tools/herman-miller-vs-steelcase-for-home-office/)
-- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
-- [Best Acoustic Foam Placement for Home Office Zoom Call.](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+
+## Related Articles
+
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -240,12 +240,15 @@ Remote town halls work best when they're consistent and bounded. Don't try to ad
 The combination of live engagement and async follow-up creates a communication loop that respects different work styles and time zones while maintaining the transparency that distributed teams need to function effectively. Consistency matters more than production quality—a simple, reliable 50-minute town hall every four weeks builds more cohesion than an elaborate quarterly event that feels disconnected from daily work.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [Remote 1 on 1 Meeting Tool Comparison for Distributed Managers 2026](/remote-work-tools/remote-1-on-1-meeting-tool-comparison-for-distributed-manage/)
+
+## Related Articles
+
+- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

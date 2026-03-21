@@ -186,12 +186,15 @@ Avoid creating zones that are too small to be useful—a six-desk team neighborh
 
 Another common mistake is neglecting to account for meeting room proximity. Teams that collaborate frequently benefit from being near meeting spaces, so factor this into your zone assignments.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Hot Desking Software for Hybrid Offices with Under.](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
-- [How to Create Hybrid Work Schedule Template for Teams.](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-- [Collaboration Zones in Hybrid Office Layout](/remote-work-tools/collaboration-zones-in-hybrid-office-layout/)
+
+## Related Articles
+
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
+- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
+- [Hybrid Office Fire Safety and Evacuation Plan Update for](/remote-work-tools/hybrid-office-fire-safety-and-evacuation-plan-update-for-var/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

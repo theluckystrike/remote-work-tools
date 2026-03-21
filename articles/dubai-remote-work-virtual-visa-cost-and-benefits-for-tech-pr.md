@@ -372,9 +372,15 @@ Remote work in Dubai has unique rhythm:
 - [Remote Work Tools Hub](/guides-hub/)
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
+- [How to Negotiate Remote Work Salary When Relocating Lower](/remote-work-tools/how-to-negotiate-remote-work-salary-when-relocating-lower-cost-area/)
+- [Best Tool for Tracking Remote Employee Work Permits and](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [How to Set Up Compliant Remote Employee Benefits Across](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -394,12 +394,15 @@ Meeting rooms benefit from **broadband treatment** (covers all frequencies) but 
 - Make fine adjustments
 - Document specifications for future reference
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Design Hybrid Meeting Room with Equal Experience.](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
-- [How to Handle Hybrid Meeting Whiteboard Challenge with.](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
-- [Best Conference Room Speaker Mic for Hybrid Meetings.](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
+
+## Related Articles
+
+- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

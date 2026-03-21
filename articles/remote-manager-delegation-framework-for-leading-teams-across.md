@@ -195,12 +195,15 @@ The framework scales: with three people, you know everything they do. With thirt
 Next steps: Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+
+## Related Articles
+
+- [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Convert to UTC range](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

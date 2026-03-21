@@ -342,12 +342,15 @@ Many remote parents feel guilty taking time off for childcare. Address this cult
 
 When you make parental responsibilities normal rather than exceptional, parents stop hiding them and burnout prevention becomes easier.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Working Parent Support Group Template for.](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
-- [How to Detect and Prevent Burnout in Remote Employees.](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
-- [Remote Working Parent Tax Deduction Guide for Home.](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
+
+## Related Articles
+
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [Remote Work Burnout Prevention Tools Guide](/remote-work-tools/remote-work-burnout-prevention-tools/)
+- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
+- [Remote Working Parent Support Group Template for](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

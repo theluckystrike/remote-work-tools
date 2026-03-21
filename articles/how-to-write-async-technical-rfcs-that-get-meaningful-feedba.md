@@ -216,12 +216,15 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Decision Making with RFC Documents for Engineering.](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+
+## Related Articles
+
+- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
+- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
+- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
+- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

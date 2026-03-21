@@ -346,12 +346,15 @@ Archive standup responses in Notion for historical reference and team knowledge:
 # → Automatically tagged by team member
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
+
+## Related Articles
+
+- [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [How to Create Effective Project Templates for Remote Work](/remote-work-tools/how-to-create-effective-project-templates-remote-work/)
+- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
+- [Async Standup Alternative Using GitHub Commit Summaries](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -303,9 +303,15 @@ def analyze_notion_errors(log_file):
 
 This analysis often reveals that 502 errors spike at specific times (when other automations run) or with specific request types (large bulk operations).
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Slack Giphy Integration Not Showing Results Fix 2026](/remote-work-tools/slack-giphy-integration-not-showing-results-fix-2026/)
+- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
+- [Best Project Management Tools with GitHub Integration](/remote-work-tools/best-project-management-tools-with-github-integration/)
+- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

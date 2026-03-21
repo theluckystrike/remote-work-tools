@@ -213,12 +213,15 @@ _______________________ ____________
 [Company Representative] [Date]
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [How to Handle Mandatory Paid Leave Laws for Remote Employees in Different States](/remote-work-tools/how-to-handle-mandatory-paid-leave-laws-for-remote-employees/)
-- [How to Handle Employment Law Differences for Remote.](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+
+## Related Articles
+
+- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
+- [Power Adapter Kit for International Digital Nomads](/remote-work-tools/power-adapter-kit-for-international-digital-nomads/)
+- [Best Phishing Simulation Tool for Training Distributed](/remote-work-tools/best-phishing-simulation-tool-for-training-distributed-remot/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

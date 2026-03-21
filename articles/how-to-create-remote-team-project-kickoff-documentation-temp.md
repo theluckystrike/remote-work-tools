@@ -216,12 +216,15 @@ Here's a condensed template you can copy and customize:
 - Risk 2: [Mitigation]
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
-- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [How to Create Shared Project Timeline with Remote Agency.](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+
+## Related Articles
+
+- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

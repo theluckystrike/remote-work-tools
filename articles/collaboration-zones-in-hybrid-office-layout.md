@@ -173,12 +173,15 @@ Track collaboration zone usage to validate your design decisions and identify im
 
 Collect this data through your booking system and combine with periodic team surveys to understand qualitative satisfaction. Adjust zone configurations, equipment, and policies based on this evidence.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Office Mail and Package Handling for Part Time Occupants](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [Best Practice for Hybrid Office Kitchen and Shared Space.](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+
+## Related Articles
+
+- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
+- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

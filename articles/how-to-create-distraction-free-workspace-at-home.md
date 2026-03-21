@@ -181,11 +181,15 @@ A distraction-free workspace requires maintenance. Weekly tasks include:
 
 Monthly, evaluate whether your setup still serves your work style. Remote work evolves; your space should adapt.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [RescueTime vs Toggl Track: Productivity Comparison for.](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+
+## Related Articles
+
+- [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
+- [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

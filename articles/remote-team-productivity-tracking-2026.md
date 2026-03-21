@@ -246,13 +246,15 @@ gcalcli --calendar "Work" agenda \
 
 **Alert threshold:** If anyone on your team is in meetings more than 15 hours per week, that's a problem worth addressing before tracking anything else.
 
-## Related Reading
 
-- [RescueTime vs Toggl Track Productivity Comparison](/rescue-time-vs-toggl-track-productivity-comparison/)
-- [Best Time Tracking Tools for Remote Freelancers](/best-time-tracking-tools-for-remote-freelancers/)
-- [Remote Engineering Team Build Time Tracking as Developer Productivity](/remote-engineering-team-build-time-tracking-as-developer-pro/)
 
----
+## Related Articles
+
+- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
+- [How to Measure Remote Team Productivity Without](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
+- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

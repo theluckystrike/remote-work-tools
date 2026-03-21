@@ -180,12 +180,15 @@ Architecture Decision Records transform technical decision-making from implicit 
 Start with the template above, adapt it to your team's workflow, and commit to writing ADRs for significant decisions. Your future self, and your future teammates, will thank you.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [Remote Team Architecture Decision Record Template for Async Decision-Making](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+
+## Related Articles
+
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

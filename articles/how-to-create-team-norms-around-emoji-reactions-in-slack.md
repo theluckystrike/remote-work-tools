@@ -326,11 +326,14 @@ The goal isn't emoji reactions. The goal is efficient communication. If emoji do
 
 {% endraw %}
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team: Slack Emoji Reactions.](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
-- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
-- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+
+## Related Articles
+
+- [Instead of:](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
+- [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
+- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

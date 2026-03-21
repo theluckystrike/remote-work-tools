@@ -229,12 +229,15 @@ Set a calendar reminder for quarterly compliance checks:
 - **Over-communicating after hours:** France specifically requires policies limiting after-hours contact
 - **Inadequate leave tracking:** Document usage meticulously; undergranting leave = automatic liability
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Mandatory Paid Leave Laws for Remote Employees in Different States](/remote-work-tools/how-to-handle-mandatory-paid-leave-laws-for-remote-employees/)
-- [How to Handle Overtime Pay Compliance for Remote Workers.](/remote-work-tools/how-to-handle-overtime-pay-compliance-for-remote-workers-acr/)
-- [Best Compliance Tool for Managing Remote Employees.](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
+
+## Related Articles
+
+- [Best Collaboration Suite for a 10 Person Remote Law Firm](/remote-work-tools/best-collaboration-suite-for-a-10-person-remote-law-firm/)
+- [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Remote Legal Billing Software Comparison for Distributed](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
+- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

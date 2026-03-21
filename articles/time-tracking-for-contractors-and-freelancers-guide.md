@@ -261,12 +261,15 @@ Start with the simplest method that fits your workflow. If you already use Git f
 The best time tracking system is the one you actually use consistently. Experiment with different approaches until you find the rhythm that works for your specific situation.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Time Tracking Tools for Remote Freelancers: A.](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
+
+## Related Articles
+
+- [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
+- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [Remote Engineering Team Build Time Tracking as Developer.](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [Remote Team Support Ticket First Response Time Tracking for](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

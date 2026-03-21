@@ -199,12 +199,15 @@ The teams that thrive across five-plus timezones aren't those that find better m
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
-- [Remote Manager Delegation Framework for Leading Teams.](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
-- [Best Timezone Management Tool for Distributed Teams.](/remote-work-tools/best-timezone-management-tool-for-distributed-teams-spanning-four-or-more-continents-2026/)
+
+## Related Articles
+
+- [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
+- [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

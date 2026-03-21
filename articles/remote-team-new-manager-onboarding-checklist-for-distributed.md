@@ -174,11 +174,14 @@ Establish these norms explicitly in the first month. Don't assume team members u
 Monitor new managers closely during their first quarter. Watch for the pitfalls above and address them as soon as they emerge. Early intervention prevents patterns from solidifying.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Middle Management Onboarding Guide for New Managers in Distributed Organizations](/remote-work-tools/remote-team-middle-management-onboarding-guide-for-new-layer/)
-- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [Remote Team Onboarding Communication Checklist for First.](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
+
+## Related Articles
+
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Remote Team Middle Management Onboarding Guide for New](/remote-work-tools/remote-team-middle-management-onboarding-guide-for-new-layer/)
+- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

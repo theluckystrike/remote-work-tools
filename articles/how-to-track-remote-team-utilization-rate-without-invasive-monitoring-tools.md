@@ -220,12 +220,15 @@ Follow these principles to keep use tracking ethical:
 
 The goal is understanding whether the team is productive, not proving individuals are working every moment.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Measure Remote Team Productivity Without.](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Best Tool for Remote Team Mood Tracking and Sentiment.](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
+
+## Related Articles
+
+- [How to Track Project Dependencies in a Remote Team: A](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

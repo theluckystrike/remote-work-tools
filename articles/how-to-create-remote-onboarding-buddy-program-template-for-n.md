@@ -235,11 +235,14 @@ The best buddy programs feel organic rather than scripted. Your templates provid
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+
+## Related Articles
+
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
+- [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
+- [Remote Team Referral Program Template for Distributed](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+- [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

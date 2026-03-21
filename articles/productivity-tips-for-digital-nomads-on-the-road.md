@@ -202,12 +202,15 @@ Reduce decision fatigue by establishing non-negotiable defaults:
 - Standard work locations: Return to the same cafés and co-working spaces rather than constantly exploring new options
 - Automated workflows: Use scripts for routine tasks rather than manually performing them each time
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best eSIM Data Plans for Digital Nomads Working Across.](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
-- [eSIM vs Local SIM Card for Digital Nomads](/remote-work-tools/esim-vs-local-sim-card-for-digital-nomads/)
-- [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
+
+## Related Articles
+
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [Best Portable WiFi Hotspot for Digital Nomads: A](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
+- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

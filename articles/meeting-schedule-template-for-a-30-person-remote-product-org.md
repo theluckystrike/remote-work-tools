@@ -167,12 +167,15 @@ Track two metrics:
 
 If either metric drifts unfavorably, audit your meeting list and eliminate the least valuable meetings first.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+
+## Related Articles
+
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [How to Build Trust with Clients Who Prefer In-Person](/remote-work-tools/how-to-build-trust-with-clients-who-prefer-in-person-meeting/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

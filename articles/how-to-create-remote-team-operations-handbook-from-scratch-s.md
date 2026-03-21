@@ -218,12 +218,15 @@ git push origin handbook/update-onboarding-process
 
 This makes documentation a team responsibility rather than a solo burden.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Inclusive Meeting Practices.](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+
+## Related Articles
+
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
+- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

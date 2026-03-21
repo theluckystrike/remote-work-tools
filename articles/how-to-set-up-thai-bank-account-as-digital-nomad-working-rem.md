@@ -216,12 +216,15 @@ Thailand uses a calendar year (Jan 1-Dec 31) tax year. For digital nomads, under
 
 Most remote developers remain non-residents by maintaining absences from Thailand during the year. Those planning 12+ month stays should consult with Thai tax professionals (available through expatriate accountants, $500-1,000 for full year planning).
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
-- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
-- [How to Handle Health Insurance as a Digital Nomad.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+
+## Related Articles
+
+- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+- [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
+- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

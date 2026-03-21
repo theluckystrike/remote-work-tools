@@ -266,12 +266,15 @@ Consider offering small incentives. Gift cards or charitable donations in employ
 Building an effective RTO sentiment survey requires thoughtful question design, secure data collection, and rigorous analysis. The template and code examples above provide a starting point for developers building internal tooling. The key is gathering authentic feedback before making policy changes that affect your team's daily work life.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Return to Office Parking and Commute Benefit Policy.](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
-- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Return to Office Mental Health Support Resources for.](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
+
+## Related Articles
+
+- [Best Pulse Survey Tool for Measuring Remote Employee](/remote-work-tools/best-pulse-survey-tool-for-measuring-remote-employee-engagem/)
+- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
+- [Remote Employee Equipment Return](/remote-work-tools/remote-employee-equipment-return-shipping-logistics-and-trac/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

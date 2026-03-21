@@ -230,11 +230,14 @@ Start with a single cohort and iterate. Document every friction point, then auto
 The upfront investment in building this system pays dividends immediately. Each subsequent cohort benefits from accumulated learnings, refined templates, and improving infrastructure. Your future hires will thank you—and so will your managers.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Onboarding Tools for a Remote Team Hiring 3 People.](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+
+## Related Articles
+
+- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
+- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 - [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

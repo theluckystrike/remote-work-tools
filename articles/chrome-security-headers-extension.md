@@ -408,11 +408,14 @@ A: After every deployment. Monthly automated audits catch drift. Whenever adding
 **Q: What's the difference between X-XSS-Protection and CSP?**
 A: X-XSS-Protection is legacy (for old browsers). CSP is modern. Use CSP for new applications.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Chrome Extension Linear Issue Tracker: Practical Guide.](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+
+## Related Articles
+
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
+- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
 - [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
-- [Chrome Extension Window Resizer Testing: Complete Guide for 2026](/remote-work-tools/chrome-extension-window-resizer-testing/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

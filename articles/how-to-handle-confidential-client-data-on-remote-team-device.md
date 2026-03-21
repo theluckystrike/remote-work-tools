@@ -273,12 +273,15 @@ Technical controls work best combined with clear team policies:
 - Establish incident response: Document what team members should do if a device is lost or suspicious activity is detected.
 - Regular audits: Periodically verify that security controls remain active and policies are followed.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
-- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
-- [Remote Agency Client Data Security Compliance Checklist.](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+
+## Related Articles
+
+- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
+- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
+- [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

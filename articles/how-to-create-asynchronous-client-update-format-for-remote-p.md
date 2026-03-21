@@ -383,11 +383,14 @@ Example:
 
 This structure gives the client what they need to make a decision without creating panic.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Client Project Retrospective Format for.](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
-- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+
+## Related Articles
+
+- [How to Create Client Project Retrospective Format for](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

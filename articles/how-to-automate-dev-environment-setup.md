@@ -264,9 +264,15 @@ Documentation matters as much as the scripts themselves. Include README files ex
 Start with shell scripts, add Docker for project reproducibility, and layer Ansible for team-wide infrastructure management as your needs grow.
 
 
-## Related Reading
 
-- More guides coming soon.
+
+## Related Articles
+
+- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
+- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
+- [Automate Meeting Notes with AI Tools 2026](/remote-work-tools/automate-meeting-notes-ai-tools-2026/)
+- [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

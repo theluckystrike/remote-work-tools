@@ -182,11 +182,15 @@ The best choice depends on where you fall on the control-versus-convenience spec
 ---
 
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
+- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
+- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
+- [How to Separate Business and Personal Finances as a](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
+- [Best Practice for Hybrid Team Knowledge Transfer Between](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

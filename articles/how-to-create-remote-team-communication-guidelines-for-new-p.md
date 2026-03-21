@@ -220,11 +220,14 @@ Week 1: Confirm guidelines work, make quick adjustments
 End of Month 1: Full review, incorporate lessons learned
 Quarterly: Compare with other projects, share what works
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Communication Charter Template.](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+
+## Related Articles
+
+- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
+- [How to Create Remote Team Working Agreement Template for](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

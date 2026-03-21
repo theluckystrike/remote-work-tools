@@ -308,12 +308,15 @@ Fire safety requires regular testing:
 - Measure actual vs. predicted evacuation times
 - Update procedures based on findings
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [How to Redesign Open Plan Office for Hybrid Work: Adding.](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+
+## Related Articles
+
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [How to Build Psychological Safety on Fully Remote](/remote-work-tools/how-to-build-psychological-safety-on-fully-remote-engineerin/)
+- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

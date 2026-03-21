@@ -276,12 +276,15 @@ For developers with regular long calls, create a shell alias for quick setup:
 alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000; echo "Call mode activated"'
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
-- [How to Hide Messy Room During Video Calls Without.](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-ba/)
-- [Best Laptop Cooling Solutions for Remote Workers in Tropical Climates](/remote-work-tools/best-laptop-cooling-solution-for-remote-workers-in-tropical-/)
+
+## Related Articles
+
+- [Cheapest Video Call Tool for Weekly 50 Person All Hands](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

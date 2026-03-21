@@ -241,12 +241,15 @@ Establish metrics that matter. Client feedback collection tools should ultimatel
 
 A healthy feedback system produces a response rate above 60%, an average rating trend that improves quarter over quarter, and a feedback-to-action time under 48 hours for critical issues. If your response rate is below 30%, examine the length and timing of your surveys—shorter surveys sent immediately after deliverables consistently outperform longer surveys sent at arbitrary intervals.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
-- [Best Digital Signature Tool for Remote Agency Client.](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
-- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
+
+## Related Articles
+
+- [Best Tool for Async Performance Feedback Collection for](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
+- [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

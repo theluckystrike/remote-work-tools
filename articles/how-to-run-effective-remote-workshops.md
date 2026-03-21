@@ -232,12 +232,15 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 - Missing time buffers: Technical discussions rarely fit perfectly into planned time—build in 10-15% buffer
 - No decision criteria: Without agreed-upon decision-making frameworks, discussions circle endlessly
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
-- [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
-- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
+
+## Related Articles
+
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Remote One on Ones Guide](/remote-work-tools/how-to-run-effective-remote-one-on-ones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

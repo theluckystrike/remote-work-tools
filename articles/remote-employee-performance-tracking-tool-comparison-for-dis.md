@@ -222,11 +222,14 @@ Collecting data is the easy part. The harder work is creating a review cadence t
 
 When a metric trends in the wrong direction, start with a diagnostic conversation rather than a corrective action. High PR review time might indicate the team is understaffed during a busy sprint, not that individuals are underperforming. Distributed teams face coordination costs that co-located teams do not, and good performance data should help you see those costs clearly enough to address them.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Remote Employee Performance Improvement.](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
-- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
-- [Remote Employee Output-Based Performance Measurement.](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+
+## Related Articles
+
+- [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Best Tool for Tracking Remote Employee Work Permits and](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+- [Remote Team Vulnerability Disclosure Policy Template for](/remote-work-tools/remote-team-vulnerability-disclosure-policy-template-for-dis/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

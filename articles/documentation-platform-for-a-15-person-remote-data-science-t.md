@@ -363,15 +363,6 @@ docs/
 Assign every new hire a "documentation mentor" for their first month — an existing team member responsible for identifying gaps in the documentation that the new hire encounters. New hires find gaps that existing members have become blind to.
 
 
-## Related Reading
-## Data Science-Specific Documentation Templates
-
-### Model Card Template
-
-Every production model should have a model card documenting its behavior:
-
-```markdown
-# Model: Customer Churn Predictor v2.3
 
 ## Basic Information
 - **Owner**: Jane Smith (@jane)
@@ -624,6 +615,15 @@ Structure onboarding docs to accelerate productivity:
 - [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
 - [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 - [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+
+
+## Related Articles
+
+- [AI Project Status Generator for Remote Teams Pulling.](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
+- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

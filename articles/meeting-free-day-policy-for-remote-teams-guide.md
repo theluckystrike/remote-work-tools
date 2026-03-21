@@ -336,12 +336,15 @@ For a quick start:
 Measure results after week 2. By week 4, the practice becomes self-sustaining as team members experience the benefits directly.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Password Rotation Policy Setup for Remote Teams Using](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
+- [Best Meeting Scheduler Tools for Remote Teams](/remote-work-tools/best-meeting-scheduler-tools-for-remote-teams/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

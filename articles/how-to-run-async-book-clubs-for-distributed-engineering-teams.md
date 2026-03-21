@@ -308,12 +308,15 @@ Here's your quick-start checklist:
 ---
 
 **
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

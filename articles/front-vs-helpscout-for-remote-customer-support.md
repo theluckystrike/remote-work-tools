@@ -208,11 +208,15 @@ Regardless of choice, consider these implementation practices:
 Both Front and HelpScout offer free trials—test your actual workflow with sample conversations before committing. The right choice depends on your team's specific needs, technical capabilities, and growth trajectory.
 
 
-## Related Reading
 
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
-- [Zulip vs Slack: A Deep Dive into Threaded Conversation.](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+
+## Related Articles
+
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
+- [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -181,12 +181,15 @@ Track these metrics to evaluate if your channel selection is working:
 - Decision documentation rate: Are decisions captured in searchable formats?
 - Team satisfaction: Quarterly survey on communication effectiveness
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Announcement Channel.](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [How to Run Remote Team Daily Standup in Slack Without.](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+
+## Related Articles
+
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
+- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

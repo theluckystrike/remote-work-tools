@@ -372,12 +372,15 @@ Update runbook same week while incident is fresh.
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [How to Scale Remote Team Incident Response Process From Startup to Mid-Size Company](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+
+## Related Articles
+
+- [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

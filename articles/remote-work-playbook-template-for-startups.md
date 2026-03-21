@@ -301,12 +301,15 @@ A playbook that doesn't evolve becomes outdated. Schedule these reviews:
 Assign playbook ownership to someone—usually a tech lead or people lead. This role owns quarterly reviews, merges suggestions, and trains new hires on key sections. Without ownership, playbooks become documents that sit untouched.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+
+## Related Articles
+
+- [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

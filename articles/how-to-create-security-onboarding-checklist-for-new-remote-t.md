@@ -253,12 +253,15 @@ Schedule brief check-ins during onboarding. Use these to answer questions and ve
 
 **Treating security as an one-time event.** Security onboarding starts the process. Plan ongoing training and refreshers throughout the year.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [Remote Team New Manager Onboarding Checklist for.](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
-- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+
+## Related Articles
+
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

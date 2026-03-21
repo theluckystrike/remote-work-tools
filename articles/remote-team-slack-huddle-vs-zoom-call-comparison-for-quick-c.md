@@ -332,12 +332,15 @@ Question: Do you need to see each other's faces?
 → NO: Use Huddle (audio only, lower bandwidth)
 ```
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Remote Team Email vs Slack vs Video Call Decision.](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
-- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [Remote Team Video Call Fatigue Reduction Strategy.](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
+
+## Related Articles
+
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)
+- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

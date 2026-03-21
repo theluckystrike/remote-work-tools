@@ -231,12 +231,15 @@ The shift from organic to intentional communication feels uncomfortable at first
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
-- [Remote Team Growth Stage Communication Audit.](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-- [Remote Team Communication Breakdown: Warning Signs When.](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
+
+## Related Articles
+
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
+- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
+- [How to Handle Remote Team Tool Consolidation When Rapid](/remote-work-tools/how-to-handle-remote-team-tool-consolidation-when-rapid-grow/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

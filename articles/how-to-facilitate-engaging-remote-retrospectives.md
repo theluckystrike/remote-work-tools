@@ -277,12 +277,15 @@ The most effective teams don't see retrospectives as compliance checkboxes or fe
 
 This cultural shift doesn't happen through mandate—it happens through consistent follow-through. When the team sees that a retro action actually gets implemented, they trust that the next retro will be worth their time.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [Remote Team Bonding Activities That Actually Work](/remote-work-tools/remote-team-bonding-activities-that-actually-work/)
+
+## Related Articles
+
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

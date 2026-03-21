@@ -238,12 +238,15 @@ Choose tools that integrate with your existing workflow and support the collabor
 Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating, well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Career Ladder Documentation for Growing Engineering Organization 2026](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
-- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+
+## Related Articles
+
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

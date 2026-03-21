@@ -370,12 +370,15 @@ volumes:
 
 Self-hosting costs ~$20-50/month in hosting (VPS) and requires some DevOps knowledge, but gives you complete control over data and customization.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
-- [Best Virtual Escape Room Platform for Remote Team.](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
-- [Virtual Craft Workshop Ideas for Remote Team Creative.](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
+
+## Related Articles
+
+- [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
+- [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
+- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [Virtual Team Events Ideas for Developers in 2026](/remote-work-tools/virtual-team-events-ideas-for-developers-2026/)
+- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -245,12 +245,15 @@ Start with one change this week. Perhaps it's the visual timer. Perhaps it's blo
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Working Parent Productivity Hack: Time Blocking.](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
-- [Remote Working Parent Support Group Template for.](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
-- [How to Handle School Snow Day When Both Parents Work.](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
+
+## Related Articles
+
+- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
+- [Remote Working Parent Support Group Template for](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

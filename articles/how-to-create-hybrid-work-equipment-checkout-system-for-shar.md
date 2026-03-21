@@ -233,12 +233,15 @@ For organizations with multiple office locations, your data model should support
 
 Finally, think carefully about your reporting layer before launch. Facilities teams need utilization by category (are we under-stocked on monitors? over-stocked on webcams?) and trending data by quarter. HR may need aggregate checkout activity by team for asset planning. Building these reports into the initial scope—even as simple CSV exports—prevents a long backlog of reporting requests six months post-launch.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Visitor Management System for Hybrid Offices.](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
-- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
-- [How to Create Hybrid Work Feedback Loop Collecting.](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
+
+## Related Articles
+
+- [How to Create Hybrid Work Feedback Loop Collecting Employee](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
+- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

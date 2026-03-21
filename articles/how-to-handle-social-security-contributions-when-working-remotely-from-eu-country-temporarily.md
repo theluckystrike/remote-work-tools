@@ -179,12 +179,15 @@ Complex situations benefit from professional guidance:
 
 A social security consultant or international tax advisor can review your specific situation and ensure you're compliant. The cost of professional advice typically far outweighs the potential penalties and stress of non-compliance.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Mail and Legal Address When Working.](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
-- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
-- [How to Handle Two Factor Authentication Apps When.](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
+
+## Related Articles
+
+- [How to Handle Mail and Legal Address When Working Remotely](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
+- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
+- [How to Manage Timezone Overlap When Working Remotely from](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

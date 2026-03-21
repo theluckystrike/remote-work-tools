@@ -486,9 +486,14 @@ Train managers to enforce timeboxing. If decision drags past deadline, escalate 
 
 Review decision quality quarterly. If 80%+ of implemented decisions have positive outcomes, async is working. If reversals exceed 20%, tighten escalation criteria.
 
+
+## Related Articles
+
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
+
 {% endraw %}
-
-## Related Reading
-
-- [Remote Work Guides Hub](/remote-work-tools/Remote Work Guides Hub/)
 

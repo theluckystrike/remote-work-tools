@@ -228,12 +228,15 @@ A strong post-kickoff communication cadence for the first two weeks:
 
 This rhythm demonstrates professionalism and gives the client confidence that the project is moving without requiring them to chase updates. Remote projects that lose momentum in the first two weeks often never recover the velocity that a well-executed kickoff can establish.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Cross Functional Project.](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
-- [How to Run Remote Team Quarterly Business Review for.](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
-- [How to Create Client Project Retrospective Format for.](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+
+## Related Articles
+
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [How to Create Client Project Retrospective Format for](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

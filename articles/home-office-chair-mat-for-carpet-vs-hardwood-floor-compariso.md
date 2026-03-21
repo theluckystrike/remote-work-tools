@@ -172,12 +172,15 @@ For most home office setups:
 The right chair mat is an investment in both your comfort and your flooring. Take time to measure your carpet depth or verify your floor type, check your chair's caster type, and choose materials appropriate to your specific situation. Your joints—and your floor—will thank you after years of daily use.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Chair Mat for Carpet vs Hardwood Floor Comparison](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
-- [UPS Battery Backup for Home Office Setup 2026](/remote-work-tools/ups-battery-backup-for-home-office-setup-2026/)
-- [L-Shaped Desk vs Straight Desk for Home Office: A.](/remote-work-tools/l-shaped-desk-vs-straight-desk-for-home-office/)
+
+## Related Articles
+
+- [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
+- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

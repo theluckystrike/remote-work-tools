@@ -184,12 +184,15 @@ Start with TOTP if you need something quick and don't have hardware keys. Move t
 The best two-factor authentication setup for your remote team is one that balances security with accessibility. Evaluate your highest-risk shared accounts first, implement the appropriate 2FA method, and gradually improve coverage across your entire tool stack.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Certificate Based Authentication Setup for Remote Team.](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
-- [How to Handle Two Factor Authentication Apps When.](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
-- [Remote Team Password Sharing Best Practices for Shared.](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+
+## Related Articles
+
+- [How to Handle Two Factor Authentication Apps When Changing](/remote-work-tools/how-to-handle-two-factor-authentication-apps-when-changing-s/)
+- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Password Rotation Policy Setup for Remote Teams Using](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
+- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -429,10 +429,14 @@ For developers with visual accessibility needs, Wezterm's more deliberate access
 
 If you prefer rapid iteration and new features, Wezterm wins. If you prefer stability and minimal surprises, Alacritty wins.
 
-## Related Reading
 
-- [Best Zsh Configuration for Remote Workers](/remote-work-tools/best-zsh-configuration-for-remote-workers/)
-- [How to Configure Neovim for Remote Development](/remote-work-tools/how-to-configure-neovim-for-remote-development/)
-- [Tmux Window Management Guide for Remote Engineers](/remote-work-tools/tmux-window-management-guide-for-remote-engineers/)
+
+## Related Articles
+
+- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
+- [Zellij Terminal Config for Remote Developers](/remote-work-tools/zellij-terminal-config-remote-developers/)
+- [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
+- [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

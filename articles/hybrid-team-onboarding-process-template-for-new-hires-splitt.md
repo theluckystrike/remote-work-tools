@@ -264,12 +264,15 @@ The key principle remains constant: new hires need equal opportunity to succeed 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+
+## Related Articles
+
 - [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
+- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [.github/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

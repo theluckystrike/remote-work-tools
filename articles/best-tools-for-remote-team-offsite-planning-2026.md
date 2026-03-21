@@ -339,9 +339,15 @@ Before choosing a tool:
 
 Most teams start with Airbnb for Work or TravelPerk, then graduate to Navan or TroopTravel as offsites grow more complex.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Virtual Offsite Planning Platform for Remote Teams 2026](/remote-work-tools/best-virtual-offsite-planning-platform-for-remote-teams-2026/)
+- [Best Practice for Remote Team Quarterly Planning Process](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

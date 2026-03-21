@@ -206,12 +206,15 @@ The content server acts as the central hub, pulling data from source systems and
 Treat signage as another API-driven output channel: the same data flowing through your dashboards and Slack notifications can drive your office displays. Wire up the integrations once and content stays current without manual updates.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
-- [How to Set Up Hybrid Office Wayfinding System for.](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+
+## Related Articles
+
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+- [Simple office hours scheduler (Python)](/remote-work-tools/how-to-maintain-direct-communication-with-leadership-as-remo/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

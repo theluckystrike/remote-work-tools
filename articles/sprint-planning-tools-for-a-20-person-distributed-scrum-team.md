@@ -219,11 +219,15 @@ This approach scales to 20+ person organizations while maintaining alignment. To
 
 ---
 
-## Related Reading
 
-- [Async Capacity Planning for Remote Engineering Teams](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
+
+## Related Articles
+
+- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -175,12 +175,15 @@ Teams often struggle with hybrid whiteboard sessions because they:
 - Mix modalities without protocol: Trying to use both physical and digital whiteboards without clear rules creates chaos
 - Skip documentation: Whiteboard content disappears within days without intentional capture
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Meeting Equity Tips for Remote Participants](/remote-work-tools/hybrid-meeting-equity-tips-for-remote-participants/)
-- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+
+## Related Articles
+
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

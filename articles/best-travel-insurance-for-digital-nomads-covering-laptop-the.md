@@ -401,12 +401,15 @@ Prioritize policies with explicit electronics coverage rather than generic perso
 - Requires backup plan for electronics replacement
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Travel Insurance for Digital Nomads 2026: A.](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
-- [Power Adapter Kit for International Digital Nomads](/remote-work-tools/power-adapter-kit-for-international-digital-nomads/)
-- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
+
+## Related Articles
+
+- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+- [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

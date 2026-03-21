@@ -168,12 +168,15 @@ Ask these questions:
 
 Update your escalation criteria, runbooks, and contact rotation based on these findings. Your protocol is a living document, not an one-time writeup.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team SOP Template for Customer Escalation Process.](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
-- [How to Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
-- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
+
+## Related Articles
+
+- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+- [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
+- [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

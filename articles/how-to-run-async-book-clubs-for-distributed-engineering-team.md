@@ -167,12 +167,15 @@ The key is consistency over intensity. A book club that meets every week for a y
 Running async book clubs across distributed engineering teams takes deliberate setup, but the payoff includes stronger team communication, shared technical vocabulary, and continuous learning that doesn't compete with delivery deadlines.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+
+## Related Articles
+
+- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [How to Run Async Architecture Reviews for Distributed.](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -220,11 +220,14 @@ Transitioning from VPN to zero trust works best incrementally:
 
 Start with tools your team uses most frequently, then expand to cover remaining resources.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Zero Trust Network Setup Using Cloudflare Access for.](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
-- [Zero Trust Remote Access Setup Guide for Small.](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
-- [How to Set Up OKR Tracking System for Distributed.](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+
+## Related Articles
+
+- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -210,14 +210,6 @@ Run it with `./new-decision.sh "Adopt Vue.js for frontend"` to generate a proper
 Decision logs gain value when connected. Link related decisions, superseded entries, and implementation details:
 
 ```markdown
-## Related
-
-- Superseded by: [Decision XXX](docs/decisions/xxx.md)
-- Implementation PR: [#123](https://github.com/org/repo/pull/123)
-- Related RFC: [RFC-456](https://github.com/org/rfcs/456)
-```
-
-This network of connections helps future readers understand how decisions evolved and why changes were made.
 
 ## Establishing Team Conventions
 
@@ -257,11 +249,15 @@ Include a search-friendly summary in each decision so GitHub's search functional
 
 ---
 
-## Related Reading
 
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Notion vs ClickUp for Engineering Teams: A Practical Guide](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

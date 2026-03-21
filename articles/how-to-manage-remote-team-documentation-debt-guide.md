@@ -654,14 +654,15 @@ Start with Step 1 (audit) and Step 2 (measurement). Understanding your starting 
 
 For remote teams, documentation quality directly impacts productivity, onboarding success, and team morale. Investing in documentation infrastructure pays dividends quickly.
 
-## Related Reading
 
-- [Building Effective Remote Team Processes](https://guides-hub.dev/remote-team-processes/)
-- [Asynchronous Communication Best Practices](https://guides-hub.dev/async-communication/)
-- [Knowledge Management Systems for Distributed Teams](https://guides-hub.dev/knowledge-management/)
-- [Onboarding Guide Template and Best Practices](https://guides-hub.dev/remote-onboarding/)
 
----
+## Related Articles
+
+- [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
+- [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

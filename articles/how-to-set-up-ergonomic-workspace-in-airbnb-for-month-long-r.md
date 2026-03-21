@@ -183,12 +183,15 @@ Work from the floor with a lap desk and pillow arrangement. Not ideal for long s
 - [ ] Keyboard and mouse at comfortable reach
 - [ ] Break reminder system active
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
-- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+
+## Related Articles
+
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
+- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
+- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+- [How to Prevent Laptop Overheating During Long Video Call](/remote-work-tools/how-to-prevent-laptop-overheating-during-long-video-call-ses/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -212,11 +212,15 @@ The principles remain the same: visualize work, limit WIP, manage flow. The spec
 
 ---
 
-## Related Reading
 
-- [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Notion vs ClickUp for Engineering Teams](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
+- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

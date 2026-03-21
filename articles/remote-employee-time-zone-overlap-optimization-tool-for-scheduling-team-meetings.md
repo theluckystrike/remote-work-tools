@@ -173,12 +173,15 @@ One-Time vs Recurring: A tool should distinguish between finding a single slot (
 
 Public Holidays: For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Time Zone Overlap Optimization Tool for.](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
-- [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
-- [Best Practice for Remote Team Slack Do Not Disturb.](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+
+## Related Articles
+
+- [Remote Employee Time Zone Overlap Optimization Tool](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-sche/)
+- [Remote Work Time Zone Overlap Calculator Tools 2026](/remote-work-tools/remote-work-time-zone-overlap-calculator-tools-2026/)
+- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Best Time Zone Management Tools for Distributed Engineering](/remote-work-tools/best-time-zone-management-tools-for-distributed-engineering-teams-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

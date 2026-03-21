@@ -466,12 +466,15 @@ After feedback, structured check-ins keep the commitment alive:
 
 Monthly accountability prevents great intentions from fading after 3 weeks.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Remote Team Peer Feedback Process Without.](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-- [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)
+
+## Related Articles
+
+- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [Remote Manager One on One Question Template for Distributed](/remote-work-tools/remote-manager-one-on-one-question-template-for-distributed-team-check-ins/)
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

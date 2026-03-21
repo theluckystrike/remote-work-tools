@@ -258,11 +258,14 @@ Onboarding remote employees requires extra structure:
 
 Document the entire onboarding process so remote hires can reference it later.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Manage Sprints with Remote Team: A Practical.](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-- [Best Tool for Hybrid Team Async Updates When Some Use.](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+
+## Related Articles
+
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
+- [How to Use AI Tools to Generate Remote Team Meeting.](/remote-work-tools/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

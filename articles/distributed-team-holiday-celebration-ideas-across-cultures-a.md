@@ -179,12 +179,15 @@ Memory Wall: Create a shared digital space (Miro board, Notion page, or shared f
 
 Dedicated Chat Channel: Create a temporary Slack or Discord channel specifically for holiday sharing—photos, videos, wishes in multiple languages.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Distributed Team Wellness Challenge Ideas: Steps.](/remote-work-tools/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)
-- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [How to Write Remote Team Celebration Messages That.](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
+
+## Related Articles
+
+- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Distributed Team Wellness Challenge Ideas](/remote-work-tools/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)
+- [Async Team Building Activities for Distributed Teams Across](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

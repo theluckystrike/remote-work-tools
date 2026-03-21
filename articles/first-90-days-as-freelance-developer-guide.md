@@ -196,12 +196,15 @@ The overwhelm of freelance independence catches many developers off guard. Focus
 4. Systems Documentation: Capture processes while they're fresh
 5. Positioning Refinement: Adjust based on what clients actually value
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Ask for Referrals as a Freelance Developer](/remote-work-tools/how-to-ask-for-referrals-as-freelance-developer/)
-- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
-- [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
+
+## Related Articles
+
+- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
+- [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
+- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
+- [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -189,12 +189,15 @@ The key is consistency. Engineers quickly learn whether skip level meetings lead
 Done right, skip level meetings transform how your remote engineering team communicates upward and how leadership understands what's actually happening in the code.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Create Remote Team Skip Level Meeting Program As](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
 - [Skip Level Meeting Guide for Remote Organizations](/remote-work-tools/skip-level-meeting-guide-for-remote-organizations/)
-- [How to Create Remote Team Skip Level Meeting Program As.](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
-- [How to Run Effective Remote Brainstorming Session Using.](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
+- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

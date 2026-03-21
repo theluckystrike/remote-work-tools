@@ -227,12 +227,15 @@ The goal is not perfection—it's having a shared reference point that reduces c
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+
+## Related Articles
+
+- [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -236,12 +236,15 @@ Train your team. Everyone who communicates with clients should understand the wo
 ---
 
 
-## Related Reading
 
-- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
-- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+
+## Related Articles
+
+- [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
+- [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -186,12 +186,15 @@ Remember that policy documents require ongoing attention. Review and update your
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [How to Create Remote Work Stipend Policy That Is Legally.](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
-- [Remote Work Lactation Room Policy Template for Employees.](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
+
+## Related Articles
+
+- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

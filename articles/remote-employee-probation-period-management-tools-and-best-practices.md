@@ -219,12 +219,15 @@ jobs:
           # Integration with Slack, email, or project management tools
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [Best Remote Employee Recognition Program Ideas for.](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
-- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
+
+## Related Articles
+
+- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
+- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

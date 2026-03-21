@@ -188,12 +188,15 @@ Don't make these mistakes that undermine cross-timezone collaboration:
 
 **Skipping documentation because "it's faster to just talk."** That conversation happens, nobody records it, and the next person recreates the work. Write it down.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Calculate Timezone Overlap Hours When Remote Team Spans Asia and Americas](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Best Practice for Remote Team Cross Functional Project.](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+
+## Related Articles
+
+- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [How to Build Cross-Team Relationships in Large Remote](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
+- [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

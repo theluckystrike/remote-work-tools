@@ -264,12 +264,15 @@ Capacity problems rarely resolve themselves. When engineers feel overworked, the
 
 **Skipping async coordination**. Relying entirely on synchronous meetings wastes available time and excludes remote team members in different zones.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [How to Coordinate Remote Mobile Developers Releasing.](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
-- [Best Tool for Remote Team Capacity Planning When Scaling.](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+
+## Related Articles
+
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

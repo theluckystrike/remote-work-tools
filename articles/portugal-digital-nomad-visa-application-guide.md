@@ -291,12 +291,15 @@ The Portugal digital nomad visa provides a clear pathway to European residency f
 Once approved, you'll have access to Portugal's relatively low cost of living (€1,200-1,800/month for comfortable living outside Lisbon), excellent climate (average 15°C winter, 28°C summer), and position within the Schengen area for visa-free travel throughout Europe. The investment of 4-6 months in the application process opens decades of visa-free European residency.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Malaysia Digital Nomad Pass DE Rantau Application for.](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+
+## Related Articles
+
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
+- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

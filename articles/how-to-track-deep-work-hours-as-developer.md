@@ -187,10 +187,14 @@ Focus on a few core measurements rather than overwhelming yourself with data:
 
 Aim for a realistic weekly deep work target — typically 20-30 hours for knowledge workers. Track session length: most people can sustain deep focus for 60-90 minutes before needing a break. Monitor context-switching frequency to see how often you interrupt yourself. Log project time allocation so you know how much focused time each project actually requires.
 
-## Related Reading
 
-- [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
-- [Geekbot vs Standuply: Async Standup Comparison for.](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
-- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+
+## Related Articles
+
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
+- [ClickUp Automations for Developer Workflows: A Practical](/remote-work-tools/clickup-automations-for-developer-workflows/)
+- [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

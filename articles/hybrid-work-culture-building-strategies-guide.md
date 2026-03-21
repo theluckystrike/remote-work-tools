@@ -186,12 +186,15 @@ Start with communication channels that treat all locations equally, design meeti
 Your first action this week: audit one recurring meeting for location equity. Identify one specific improvement you can implement by next sprint.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+
+## Related Articles
+
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
-- [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)
+- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

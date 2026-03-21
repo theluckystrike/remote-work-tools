@@ -252,12 +252,15 @@ Track these metrics to gauge knowledge silo reduction:
 - **Cross-team collaboration frequency** (track PRs involving multiple teams)
 - **Incident resolution time** (knowledgeable people should be findable quickly)
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Knowledge Base Handoff When Remote.](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
-- [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+
+## Related Articles
+
+- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
+- [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+- [Best Practice for Hybrid Team Knowledge Transfer Between](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

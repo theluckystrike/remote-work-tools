@@ -271,8 +271,14 @@ an one-time audit provides a snapshot. Building sustainable productivity require
 
 The best time audit isn't the initial data collection—it's the sustained practice of reviewing how you spend time and iterating toward better allocation.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Response Time Expectations for Remote Workers: A](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

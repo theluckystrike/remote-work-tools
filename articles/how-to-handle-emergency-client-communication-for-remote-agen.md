@@ -213,12 +213,15 @@ Conduct blameless post-mortems that focus on:
 
 Share relevant findings with clients when appropriate—they appreciate transparency and seeing your commitment to improvement.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [Remote Agency Subcontractor Client Communication.](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+
+## Related Articles
+
+- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
+- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [How to Handle Client Calls Across 8 Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

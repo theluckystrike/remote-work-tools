@@ -173,12 +173,15 @@ A physical therapist can teach you specific exercises tailored to your situation
 Reducing wrist pain requires consistency. Start with one or two changes—perhaps adding a keyboard shortcut or setting up a Pomodoro timer—and build from there. Your wrists will thank you after years of coding ahead.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
-- [How to Prevent Back Pain from Couch Working as a Remote.](/remote-work-tools/how-to-prevent-back-pain-from-couch-working-as-remote-develo/)
-- [Roost Stand vs Nexstand Laptop Stand Comparison: A Developer's Guide](/remote-work-tools/roost-stand-vs-nexstand-laptop-stand-comparison/)
+
+## Related Articles
+
+- [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
+- [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)
+- [How to Fix Neck Pain from Looking Down at Laptop Screen](/remote-work-tools/how-to-fix-neck-pain-from-looking-down-at-laptop-screen/)
+- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

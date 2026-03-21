@@ -289,12 +289,15 @@ Beyond "pages updated," track quality metrics:
 
 A quality-focused sprint that updates 15 pages thoroughly beats a quantity-focused sprint that touches 40 pages superficially.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Compliance Documentation.](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
-- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+
+## Related Articles
+
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

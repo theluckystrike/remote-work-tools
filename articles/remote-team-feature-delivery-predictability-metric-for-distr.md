@@ -218,12 +218,15 @@ The goal is not to maximize velocity but to create reliable expectations that en
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-- [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+
+## Related Articles
+
+- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Best Grocery Delivery Service Strategy for Remote Working](/remote-work-tools/best-grocery-delivery-service-strategy-for-remote-working-pa/)
+- [Best Meal Delivery Service Comparison for Remote Working](/remote-work-tools/best-meal-delivery-service-comparison-for-remote-working-fam/)
+- [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

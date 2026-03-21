@@ -275,12 +275,15 @@ Upgrading access control infrastructure requires careful planning:
 4. Implement Gradually: Add booking integration floor-by-floor, maintaining fallback procedures
 5. Train Facility Teams: Ensure operations staff understand the integrated system
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Visitor Management System for Hybrid Offices.](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
+
+## Related Articles
+
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
 - [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
-- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Hybrid Office Badge Access Tracking Tool for Understanding](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

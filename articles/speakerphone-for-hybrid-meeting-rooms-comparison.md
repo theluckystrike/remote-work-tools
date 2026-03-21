@@ -223,12 +223,15 @@ For most developers and power users setting up hybrid meeting spaces:
 The best speakerphone for your situation depends on room characteristics, participant count, existing infrastructure, and integration requirements. Start with an USB solution sized for your typical meeting, validate audio quality with actual users, and iterate based on feedback.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8.](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+
+## Related Articles
+
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
+- [Barco ClickShare API: Starting a presentation session](/remote-work-tools/best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/)
 - [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
+- [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

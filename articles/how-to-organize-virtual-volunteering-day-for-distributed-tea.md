@@ -169,12 +169,15 @@ Collect feedback after each event using a brief survey. Iterate on logistics, ac
 A well-organized virtual volunteering day strengthens distributed teams while creating genuine positive impact. The key lies in asynchronous-friendly design, clear coordination infrastructure, and meaningful activity selection. Start with one event, measure participation and satisfaction, then refine your approach for future iterations.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
-- [How to Run Remote Developer Hackathon for Distributed.](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
+
+## Related Articles
+
+- [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
+- [How to Organize Multiple Chargers and Cables on Home Desk](/remote-work-tools/how-to-organize-multiple-chargers-and-cables-on-home-desk/)
+- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

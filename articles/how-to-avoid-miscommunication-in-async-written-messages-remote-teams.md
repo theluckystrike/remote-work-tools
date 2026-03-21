@@ -236,12 +236,15 @@ The teams that master async written communication unlock the full potential of r
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Avoid Miscommunication in Async Written Messages.](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
-- [How to Make Async Communication Inclusive for Non-Native.](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+
+## Related Articles
+
+- [Avoid Miscommunication in Async Written Messages for Remote](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
+- [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
+- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

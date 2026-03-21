@@ -285,12 +285,15 @@ jobs:
 This automation pings reviewers automatically without requiring a project manager to track every open PR manually. Pair it with a written SLA document specifying response time expectations per review stage.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
+
+## Related Articles
+
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
+- [Industry match (40% weight)](/remote-work-tools/remote-sales-team-crm-workflow-optimization-for-distributed-/)
+- [Notion vs Coda for a 3-Person Remote Content Team](/remote-work-tools/notion-vs-coda-for-a-3-person-remote-content-team/)
+- [Remote Architecture BIM Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

@@ -51,12 +51,6 @@ function debounce(fn, delay) {
 }
 ```
 
-## Related
-- [[throttle-function]] - similar but different execution pattern
-- [[react-use-debounce]] - hook implementation for React
-```
-
-Notice how this note has a unique identifier, clear tags, and explicit links to related concepts. The implementation lives directly in the note, making it immediately usable.
 
 ## The Three Note Types
 
@@ -174,11 +168,15 @@ Choose a tool (Obsidian, Logseq, or plain markdown with git), commit to capturin
 
 ---
 
-## Related Reading
 
-- [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)
-- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
-- [Notion vs ClickUp for Engineering Teams: A Practical Guide](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
+- [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
+- [Async Team Building Activities for Distributed Teams Across](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

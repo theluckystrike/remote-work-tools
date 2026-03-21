@@ -181,12 +181,15 @@ Metrics alone won't fix meeting culture. Use data to start conversations:
 
 These conversations, grounded in data, create buy-in for changes that would otherwise face resistance.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+
+## Related Articles
+
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+- [Best Tool for Remote Team Mood Tracking and Sentiment](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
+- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [.github/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

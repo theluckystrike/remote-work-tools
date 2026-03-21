@@ -264,12 +264,15 @@ Before your first async code pairing session:
 - [ ] Share the workflow with your team
 - [ ] Schedule your first async code pairing session
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-- [How to Do Async User Research Interviews with Recorded.](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
-- [Best Tool for Remote Product Managers Running Async.](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+
+## Related Articles
+
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
+- [How to Run Async Sprint Demos with Recorded Walkthroughs](/remote-work-tools/how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

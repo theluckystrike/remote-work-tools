@@ -280,12 +280,15 @@ Zivno-based residency permits are typically granted for 1-2 years. Renewal requi
 
 Renewal processing takes 30-60 days. Start your renewal 60-90 days before expiration.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+
+## Related Articles
+
+- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
 - [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

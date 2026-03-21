@@ -344,12 +344,15 @@ def log_access_decision(
 
 Route these logs to your SIEM or log aggregation platform rather than application log files. Geo-fencing decisions are security events that warrant the same retention and alerting treatment as authentication events.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Implement Conditional Access Policies for Remote.](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
-- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
-- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+
+## Related Articles
+
+- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+- [Using Microsoft Graph API to create named locations](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [How to Implement Hardware Security Keys for Remote Team](/remote-work-tools/how-to-implement-hardware-security-keys-for-remote-team-auth/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

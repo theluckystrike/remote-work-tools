@@ -241,11 +241,14 @@ Not natively. Third-party tools like Zapier can mirror messages between platform
 Yes. The topic requirement is the main learning curve. Non-technical teams adapt within a week or two. The unlimited free tier makes it particularly attractive for nonprofits and small businesses.
 
 
-## Related Reading
 
-- [Jitsi Meet vs Zoom: Privacy Comparison for Developers](/remote-work-tools/jitsi-meet-vs-zoom-privacy-comparison/)
-- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
-- [GeekBot vs Standuply: Async Standup Tools Compared](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
-- [Figma vs Sketch for Remote Design Collaboration: A Developer's Guide](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+
+## Related Articles
+
+- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [How to Handle Remote Employee Underperformance](/remote-work-tools/how-to-handle-remote-employee-underperformance-conversation-/)
+- [How to Track Deep Work Hours as a Developer: A Practical](/remote-work-tools/how-to-track-deep-work-hours-as-developer/)
+- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Example: Using Slack webhooks for deployment notifications](/remote-work-tools/best-client-communication-tool-comparison-for-remote-develop/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

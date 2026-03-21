@@ -326,12 +326,15 @@ This is normal—eSIM profile switching takes 30-90 seconds before data reconnec
 
 For most digital nomads, annual connectivity costs range $80-$200 depending on movement patterns. The hybrid dual-SIM approach averages $120-150/year.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
-- [Best eSIM Data Plans for Digital Nomads Working Across.](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+
+## Related Articles
+
+- [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)
+- [Best SIM Card and Mobile Data Plan for Remote Workers in](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
+- [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)
+- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Best Portable WiFi Hotspot for Digital Nomads: A](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

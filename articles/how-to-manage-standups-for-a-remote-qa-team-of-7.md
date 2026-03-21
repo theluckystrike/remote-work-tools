@@ -381,12 +381,15 @@ Help needed: [Yes/No, if yes link to issue]
 
 This takes 2 minutes per person, provides same visibility, saves 2+ hours per week per team member.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [How to Manage Remote Team When Multiple Parents Have Overlapping School Holidays](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
-- [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
+
+## Related Articles
+
+- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

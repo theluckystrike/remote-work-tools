@@ -289,11 +289,15 @@ Track these metrics to understand if your virtual coffee program is working:
 - Cross-team connections: Number of unique department pairs formed
 - Qualitative feedback: Post-session surveys about connection quality
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Standup Alternatives](/remote-work-tools/async-standup-alternative-using-github-commit-summaries-automatically/)
-- [Team Retrospective Processes](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded-video/)
+
+## Related Articles
+
+- [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
+- [Best Virtual Team Building Activity Platform for Remote](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)
+- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
+- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

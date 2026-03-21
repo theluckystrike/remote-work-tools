@@ -181,11 +181,15 @@ Document decisions alongside diagrams. Connect architecture choices to ADRs (Arc
 
 ---
 
-## Related Reading
 
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Async Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Notion vs ClickUp for Engineering Teams: A Practical Comparison](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Best Remote Collaboration Tool for Technical Architects](/remote-work-tools/best-remote-collaboration-tool-for-technical-architects-docu/)
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Buddy System for Onboarding Remote Junior Developers Guide](/remote-work-tools/buddy-system-for-onboarding-remote-junior-developers-guide/)
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

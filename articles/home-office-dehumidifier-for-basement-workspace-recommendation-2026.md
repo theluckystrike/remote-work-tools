@@ -283,11 +283,14 @@ This seasonal approach reduces annual electricity cost by 30-40% compared to yea
 
 Proper maintenance extends unit lifespan from 5-7 years (typical) to 10+ years.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Dehumidifier for Basement Workspace: 2026.](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
-- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
-- [Home Office Humidity Control for Comfortable Coding Sessions](/remote-work-tools/home-office-humidity-control-for-comfortable-coding-sessions/)
+
+## Related Articles
+
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
+- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

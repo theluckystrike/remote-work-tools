@@ -217,11 +217,14 @@ Update this weekly and share with leadership for visibility.
 - **One-size-fits-all** — Adjust timelines and focus areas by role
 - **Silence after week one** — Consistent check-ins prevent small issues from becoming resignations
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [Best Onboarding Tools for a Remote Team Hiring 3 People.](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+
+## Related Articles
+
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
+- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 - [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

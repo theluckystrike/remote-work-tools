@@ -230,7 +230,13 @@ When you modify your data model, your existing seed data might become incompatib
 
 While Faker.js can generate highly realistic data, extremely large datasets can slow down your tests. Find the balance between realistic data and test execution speed. Often, a smaller set of well-designed data is more valuable than a massive dataset of generic values.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
+- [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+
 {% endraw %}

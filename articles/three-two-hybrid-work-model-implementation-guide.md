@@ -262,11 +262,14 @@ Give the model at least 6 weeks before deciding it's not working. People need ti
 
 {% endraw %}
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
-- [How to Create Hybrid Office Quiet Zone Policy for.](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
-- [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
+
+## Related Articles
+
+- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [API Idempotency Implementation Guide for Distributed Systems](/remote-work-tools/a11-api-idempotency-implementation/)
+- [List all markdown files in your docs directory](/remote-work-tools/how-to-set-up-documentation-ownership-model-for-remote-teams/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

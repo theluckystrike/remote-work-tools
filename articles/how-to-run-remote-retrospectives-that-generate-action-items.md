@@ -650,13 +650,14 @@ Next retro: April 12 (same time)
 Great effort this sprint!
 {% endraw %}
 
-## Related Reading
 
-- [guides-hub: Agile Retrospectives Best Practices](https://zovo.one/guides-hub)
-- [guides-hub: Remote Team Building Activities](https://zovo.one/guides-hub)
-- [guides-hub: Sprint Planning Frameworks](https://zovo.one/guides-hub)
-- [guides-hub: Team Feedback & Psychological Safety](https://zovo.one/guides-hub)
 
----
+## Related Articles
+
+- [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
+- [How to help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
+- [How to Use AI Tools to Generate Remote Team Meeting.](/remote-work-tools/how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

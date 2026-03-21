@@ -217,12 +217,15 @@ Regular review ensures the framework serves the team rather than becoming bureau
 Building a decision-making framework for distributed teams takes deliberate effort, but the payoff is significant: faster decisions, clearer accountability, and team members who trust the process because they understand it. Start simple, iterate based on experience, and remember that the goal is better outcomes, not more documentation.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Decision Making Framework.](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+
+## Related Articles
+
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
+- [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

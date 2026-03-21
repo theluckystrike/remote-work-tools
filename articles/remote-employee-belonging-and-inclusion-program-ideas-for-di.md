@@ -179,12 +179,15 @@ Start with the buddy system and async show-and-tell—they require minimal budge
 The best belonging programs treat inclusion as infrastructure, not an event. Consistent execution beats flashy initiatives every time.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
-- [Remote Employee Intellectual Property Assignment Clause.](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
+
+## Related Articles
+
+- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Best Quick Healthy Snack Prep Ideas for Remote Working](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

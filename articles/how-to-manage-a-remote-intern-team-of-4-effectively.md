@@ -183,12 +183,15 @@ A well-managed remote intern team benefits your organization beyond the summer. 
 The systems you build—check-ins, task templates, code review practices—scale to larger teams. Start with four interns, refine your processes, and you'll have a repeatable program that produces real value.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Manage Remote Journalism Team Across.](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
-- [How to Run Sprints with a Remote Team of 4 Engineers: A Practical Guide](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
-- [Communication Norms for a Remote Team of 20 Across 4.](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+
+## Related Articles
+
+- [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
+- [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Manage Multi-Repo Projects with Remote Team](/remote-work-tools/how-to-manage-multi-repo-projects-with-remote-team/)
+- [How to Manage Remote Journalism Team Across International](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -410,12 +410,15 @@ Ask Claude Code to suggest size optimizations when the bundle exceeds your targe
 claude "The bundle size for this npm package exceeds our 10KB limit. Review the imports in src/index.ts and suggest which dependencies could be made optional or replaced with lighter alternatives."
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
-- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
-- [How to Optimize macOS for Remote Development](/remote-work-tools/how-to-optimize-macos-for-remote-development/)
+
+## Related Articles
+
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [Claude Code for Faker.js Test Data Workflow Guide](/remote-work-tools/claude-code-for-faker-js-test-data-workflow-guide/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
+- [Best Practice for Hybrid Office Mail and Package Handling](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
+- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

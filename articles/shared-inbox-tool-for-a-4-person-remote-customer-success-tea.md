@@ -185,12 +185,15 @@ Start with the simplest solution that meets your needs. If your team already use
 The right shared inbox transforms reactive customer success into proactive relationship management. Your team spends less time on coordination and more time helping customers succeed.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
-- [Best Analytics Dashboard for a Remote Growth Team of 4](/remote-work-tools/best-analytics-dashboard-for-a-remote-growth-team-of-4/)
+
+## Related Articles
+
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)
+- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
+- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

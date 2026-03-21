@@ -337,12 +337,15 @@ Hybrid rooms require regular care to stay functional:
 
 A maintained hybrid room consistently outperforms a well-equipped but neglected one.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Video Conferencing Setup for a Remote Team of 3 Cofounders](/remote-work-tools/video-conferencing-setup-for-a-remote-team-of-3-cofounders/)
+- [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
 - [Audio Setup for Hybrid Conference Rooms: A Technical Guide](/remote-work-tools/audio-setup-for-hybrid-conference-rooms-guide/)
-- [Best Video Bar for Small Hybrid Meeting Rooms Under 8.](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)
-- [Meeting Room Video Conferencing Equipment Setup for.](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

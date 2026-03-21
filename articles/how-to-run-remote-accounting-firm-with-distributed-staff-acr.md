@@ -187,12 +187,15 @@ Track these metrics to ensure your distributed model serves clients effectively:
 
 Review metrics monthly and adjust workflows accordingly. The goal is continuous improvement, not rigid adherence to initial designs.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [How to Manage Remote Journalism Team Across.](/remote-work-tools/how-to-manage-remote-journalism-team-across-international-bu/)
+
+## Related Articles
+
+- [How to Run Remote Developer Hackathon for Distributed](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
+- [How to Run Remote Tax Preparation Business with Distributed](/remote-work-tools/how-to-run-remote-tax-preparation-business-with-distributed-/)
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

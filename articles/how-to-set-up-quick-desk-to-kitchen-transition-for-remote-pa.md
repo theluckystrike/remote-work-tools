@@ -333,12 +333,15 @@ If you're not seeing improvement by week 3, diagnose the problem. Common issues:
 
 Fix the specific bottleneck rather than trying to optimize everything simultaneously.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Quick Healthy Snack Prep Ideas for Remote Working.](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
-- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
-- [How to Set Up Home Office in Bali Rental Apartment with Reliable Power](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+
+## Related Articles
+
+- [Quick inventory script to scan network for dormant machines](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk.](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

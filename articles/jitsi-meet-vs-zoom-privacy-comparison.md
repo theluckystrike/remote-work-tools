@@ -258,10 +258,15 @@ const securityBestPractices = {
 
 The decision between Jitsi and Zoom ultimately comes down to your threat model and operational capacity. If your team has an engineer willing to maintain a self-hosted instance, Jitsi offers a level of privacy control that no SaaS product can match. If your team is non-technical or needs maximum compatibility with external participants, Zoom with E2EE enabled is a defensible choice for most remote work use cases. Whichever platform you choose, review your encryption settings, data retention policies, and recording configurations quarterly—both platforms update their settings defaults, and what was configured correctly six months ago may have drifted.
 
-## Related Reading
 
-- [Privacy Tools Guide](/privacy-tools-guide/){:.cross-repo-linked}
-- [Zulip vs Slack: A Deep Dive into Threaded Conversation.](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)
+
+## Related Articles
+
+- [Cheapest Video Call Tool for Weekly 50 Person All Hands](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)
+- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
+- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

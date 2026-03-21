@@ -200,12 +200,15 @@ Start small, measure results, and iterate. The specific interests matter less th
 The best time to create interest channels was when your team formed. The second best time is today.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Remote Team Social Channel Ideas for Building.](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+
+## Related Articles
+
+- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
+- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

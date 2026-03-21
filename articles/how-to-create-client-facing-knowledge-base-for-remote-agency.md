@@ -267,11 +267,14 @@ A knowledge base that stagnates loses value quickly—clients stop checking when
 
 **Integrate with client workflows.** Don't force clients to visit a separate site for your knowledge base. Embed relevant articles in project management tools, reference them in regular updates, and link from invoices or proposals. The more integrated the knowledge base feels with your overall service, the more clients use it.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
-- [Remote Team Knowledge Base Contribution Incentive.](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
+
+## Related Articles
+
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+- [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

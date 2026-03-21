@@ -232,9 +232,14 @@ Track metrics to improve the onboarding process continuously.
 - **Retention Rate**: Percentage of new hires remaining after one year
 
 Analyze data quarterly. Identify bottlenecks and iterate on the process.
+
+## Related Articles
+
+- [Best Practices for Remote Incident Communication](/remote-work-tools/best-practices-for-remote-incident-communication/)
+- [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
+- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
+- [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
+- [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
+
 {% endraw %}
-
-## Related Reading
-
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 

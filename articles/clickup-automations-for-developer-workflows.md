@@ -324,11 +324,15 @@ As teams grow, automation management becomes complex. Here's a structure that sc
 
 Teams with 30+ automations often find they stop working effectively because the rules conflict. Regular audits prevent this.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+- [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
+- [How to Track Deep Work Hours as a Developer: A Practical](/remote-work-tools/how-to-track-deep-work-hours-as-developer/)
+- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

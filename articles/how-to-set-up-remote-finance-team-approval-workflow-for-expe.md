@@ -258,12 +258,15 @@ function generateWeeklyReport() {
 
 Review these metrics weekly. If approval times spike, investigate whether team capacity or policy confusion is causing delays.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
+
+## Related Articles
+
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [How to Set Up Remote Design Handoff Workflow Between](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

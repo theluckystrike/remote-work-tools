@@ -276,12 +276,15 @@ Track metrics to continuously improve your multilingual communication:
 
 Review these monthly and adjust your processes accordingly.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [How to Handle Emergency Client Communication for Remote.](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
-- [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+
+## Related Articles
+
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [Example: Using Slack webhooks for deployment notifications](/remote-work-tools/best-client-communication-tool-comparison-for-remote-develop/)
+- [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

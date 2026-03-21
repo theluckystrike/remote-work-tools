@@ -236,12 +236,15 @@ When sharing workspace access with external clients, implement these security pr
 
 Notion's enterprise plan offers additional security features like SAML SSO and domain-wide sharing controls that larger agencies may require.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+
+## Related Articles
+
+- [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+- [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
+- [Fibery vs Notion: All-in-One Workspace Comparison](/remote-work-tools/fibery-vs-notion-all-in-one-workspace-comparison/)
+- [Shared Inbox Setup for Remote Agency Client Support Emails](/remote-work-tools/shared-inbox-setup-for-remote-agency-client-support-emails/)
+- [Install Twilio CLI](/remote-work-tools/how-to-set-up-local-phone-number-for-business-calls-while-wo/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

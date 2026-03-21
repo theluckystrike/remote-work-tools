@@ -191,12 +191,15 @@ For power users managing remote teams without custom software:
 Compliance with overtime laws across states requires attention to detail and proactive system design. Whether you're building tools or managing teams directly, understanding these differences prevents costly mistakes and ensures your remote workers receive correct compensation.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Mandatory Paid Leave Laws for Remote Employees in Different States](/remote-work-tools/how-to-handle-mandatory-paid-leave-laws-for-remote-employees/)
-- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
-- [How to Handle Employment Law Differences for Remote.](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+
+## Related Articles
+
+- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
+- [Best Compliance Tool for Managing Remote Employees Across](/remote-work-tools/best-compliance-tool-for-managing-remote-employees-across-mu/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

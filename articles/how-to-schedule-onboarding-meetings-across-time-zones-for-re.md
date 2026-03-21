@@ -185,12 +185,15 @@ Sometimes you need to bring someone on quickly. For urgent hires:
 
 Document this constraint so new hires understand why initial meetings are sparse.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [How to Run Remote User Research Sessions for UX.](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
-- [Remote Manager Time Management Framework for Leading.](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+
+## Related Articles
+
+- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [Example on-call schedule that leverages timezone difference](/remote-work-tools/how-to-negotiate-flexible-hours-with-us-employer-when-workin/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

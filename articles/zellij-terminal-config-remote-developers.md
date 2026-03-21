@@ -287,13 +287,15 @@ Use **tmux** if:
 
 Both handle SSH session persistence equally well. The day-to-day experience with either is comparable once you learn the keybindings.
 
-## Related Reading
 
-- [tmux Config Guide for Remote Developers](/tmux-config-guide-remote-developers/)
-- [Best Terminal Multiplexer for Remote Pair Programming](/best-terminal-multiplexer-for-remote-pair-programming/)
-- [WezTerm vs Alacritty Terminal Comparison](/wezterm-vs-alacritty-terminal-comparison/)
 
----
+## Related Articles
+
+- [tmux Config Guide for Remote Developers](/remote-work-tools/tmux-config-guide-remote-developers/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
+- [Wezterm vs Alacritty Terminal Comparison: A Practical Guide](/remote-work-tools/wezterm-vs-alacritty-terminal-comparison/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

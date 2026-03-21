@@ -266,12 +266,15 @@ Successful certificate renewal in distributed teams depends on four practices. F
 When your team spans multiple time zones, async-friendly processes prevent single points of failure. Every piece of knowledge should exist in documentation, not just in someone's head.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+
+## Related Articles
+
+- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

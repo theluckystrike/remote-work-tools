@@ -246,16 +246,6 @@ Cause: HDMI/DisplayPort cable too long or kinked during desk movement. Solution:
 - Ensure cables route with minimum 3" bend radius
 - Replace after 5+ years; cable shielding degrades over time
 
-## Related Reading
-
-Schedule quarterly inspections of your cable setup:
-
-1. Check for wear: Examine cable insulation at bend points for cracks or fraying
-2. Test connections: Ensure all devices still connect properly after desk movement
-3. Adjust slack: Over time, cables settle and may need re-routing to maintain proper tension
-4. Clean debris: Dust accumulates in cable management trays and can cause overheating
-
-Replace any cables showing signs of wear immediately. Damaged cables present fire hazards, especially when bundled together in cable sleeves where heat cannot dissipate.
 
 ## Complete Setup Example
 
@@ -273,12 +263,15 @@ A typical developer standing desk setup with solid cable management includes:
 
 This totals 3-6 cables depending on wireless adoption, all routed cleanly and hidden from view.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 - [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/remote-work-tools/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)
-- [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
 - [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
+- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

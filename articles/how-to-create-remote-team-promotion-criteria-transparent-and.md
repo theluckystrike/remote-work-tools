@@ -273,12 +273,15 @@ As your remote team scales from 5 to 50+ people, your promotion framework must e
 
 Track when to transition between stages based on growth, not just headcount. A high-velocity team might need Stage 2 practices at 10 people; a stable team might stay in Stage 1 at 30.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
-- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
-- [How to Measure Remote Team Productivity Without.](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
+
+## Related Articles
+
+- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
+- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

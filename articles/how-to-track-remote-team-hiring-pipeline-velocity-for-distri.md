@@ -203,12 +203,15 @@ Set velocity targets based on your data. A reasonable remote hiring pipeline sho
 
 Track these weekly. If your actual times exceed targets by more than 20%, investigate the bottleneck stage. For distributed teams, expect slightly longer technical stages due to scheduling complexity.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [How to Set Up Remote Hiring Pipeline with Async.](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
-- [Remote Engineering Team Build Time Tracking as Developer.](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Remote Team Financial Dashboard Tool for CFO](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
+- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

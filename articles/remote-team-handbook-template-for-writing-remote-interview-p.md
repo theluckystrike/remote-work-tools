@@ -171,12 +171,15 @@ Before publishing your documentation, verify:
 - [ ] Documentation lives in a centralized, searchable location
 - [ ] There's a process for updating questions quarterly
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Remote Team Handbook Section Template for Writing.](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
-- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+
+## Related Articles
+
+- [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -229,12 +229,15 @@ A solid BYOD policy enables the flexibility remote teams need while maintaining 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [Bring Your Own Device Policy for Hybrid Work](/remote-work-tools/bring-your-own-device-policy-for-hybrid-work/)
-- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
-- [How to Create a Remote Team Acceptable Use Policy for.](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

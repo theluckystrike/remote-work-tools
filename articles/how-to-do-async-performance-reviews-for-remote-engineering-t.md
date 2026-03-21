@@ -200,12 +200,15 @@ Survey engineers after each cycle:
 4. Any friction points in the async process?
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-- [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
-- [Best Practices for Async Pull Request Reviews on.](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
+
+## Related Articles
+
+- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)
+- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

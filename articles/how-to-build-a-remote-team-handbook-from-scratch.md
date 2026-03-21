@@ -386,9 +386,15 @@ A stale handbook is worse than no handbook. Assign ownership:
 A good handbook takes 4 weeks and pays dividends for years.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Create Remote Team Operations Handbook From Scratch](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
+- [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
+- [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

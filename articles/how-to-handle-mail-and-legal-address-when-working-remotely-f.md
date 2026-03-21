@@ -225,12 +225,15 @@ mail_rules:
 The right setup for your situation depends on your home country, destination, income type, and how long you plan to stay abroad. Start with a mail forwarding solution, establish banking communication preferences, and build from there.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Social Security Contributions When Working.](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
-- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
-- [How to Handle Health Insurance as a Digital Nomad.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+
+## Related Articles
+
+- [How to Handle Social Security Contributions When Working](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
+- [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
+- [How to Manage Timezone Overlap When Working Remotely from](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

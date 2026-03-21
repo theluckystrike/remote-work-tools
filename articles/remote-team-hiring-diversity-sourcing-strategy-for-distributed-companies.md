@@ -226,11 +226,15 @@ Set baseline measurements before implementing changes, then track quarterly. Sma
 Share these metrics internally with the full team, not just leadership. Transparency about progress creates shared accountability and signals that diversity sourcing is a business priority rather than a compliance exercise.
 
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+
+## Related Articles
+
+- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Satellite Office Strategy for Hybrid Companies](/remote-work-tools/satellite-office-strategy-for-hybrid-companies/)
+- [Remote Team Employer Branding Strategy for Attracting](/remote-work-tools/remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

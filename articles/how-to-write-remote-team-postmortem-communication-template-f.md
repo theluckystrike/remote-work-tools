@@ -316,12 +316,15 @@ Postmortem quality degrades when teams use blame-focused language. This happens 
 
 The shift from person to system is deliberate: action items that fix systems prevent the same class of error regardless of who's on the keyboard next time. Action items that blame individuals don't generalize.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [How to Write Postmortem Reports for Remote Teams](/remote-work-tools/how-to-write-postmortem-reports-for-remote-teams/)
-- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
-- [Remote Team Runbook Template for Deploying Hotfix to.](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
+- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

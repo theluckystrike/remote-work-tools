@@ -197,12 +197,15 @@ Select an automation approach based on your organization's constraints:
 Regardless of approach, success depends on treating onboarding as an evolving process. Templates require regular review as tools, teams, and roles change. Automation handles the mechanics, but human judgment shapes the experience.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Remote Employee Onboarding Checklist Tool for HR.](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
-- [Best Onboarding Tools for a Remote Team Hiring 3 People.](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+
+## Related Articles
+
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
+- [Remote Team Onboarding Tools and Checklist](/remote-work-tools/remote-team-onboarding-tools-checklist/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

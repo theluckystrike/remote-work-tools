@@ -178,12 +178,15 @@ This prevents demos from floating in limbo while clients assume you'll wait inde
 
 **Feedback gets lost in email threads.** Use a dedicated feedback tool or at minimum, a shared document where all video feedback lives in one place.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
-- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+
+## Related Articles
+
+- [How to Give Constructive Feedback Asynchronously Without](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
+- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
+- [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)
+- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+- [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

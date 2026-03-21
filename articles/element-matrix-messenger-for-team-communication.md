@@ -406,12 +406,15 @@ Element security best practices:
 ---
 
 
-## Related Reading
 
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
-- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
-- [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
-- [Best Encrypted Messaging App for Remote Team Sensitive.](/remote-work-tools/best-encrypted-messaging-app-for-remote-team-sensitive-commu/)
+
+## Related Articles
+
+- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

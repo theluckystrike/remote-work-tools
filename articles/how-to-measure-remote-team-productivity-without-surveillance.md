@@ -191,12 +191,15 @@ Start implementing trust-based productivity measurement:
 4. Build dashboards: Create shared visibility into team performance
 5. Iterate and refine: Adjust metrics based on what actually improves outcomes
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Track Remote Team Use Rate Without.](/remote-work-tools/how-to-track-remote-team-use-rate-without-invasive-monitoring-tools/)
-- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+
+## Related Articles
+
+- [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)
+- [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [How to Scale Remote Team From 5 to 20 Without Losing](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
+- [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

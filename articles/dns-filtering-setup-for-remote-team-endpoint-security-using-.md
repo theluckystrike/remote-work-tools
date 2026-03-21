@@ -246,11 +246,14 @@ DNS filtering forms a foundational security layer, but works best combined with 
 Your remote team's security posture improves immediately upon deploying DNS filtering. The protection travels with employees wherever they work, eliminating the gap between office and remote network security.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Endpoint Encryption Enforcement for Remote Team Laptops.](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
-- [How to Audit Remote Employee Device Security Compliance.](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
-- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
+
+## Related Articles
+
+- [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
+- [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+- [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [How to Implement Hardware Security Keys for Remote Team](/remote-work-tools/how-to-implement-hardware-security-keys-for-remote-team-auth/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

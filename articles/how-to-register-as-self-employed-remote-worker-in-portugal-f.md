@@ -306,12 +306,15 @@ Many developers handle Portuguese taxes themselves using accounting software. Ho
 
 For your first year, hiring a contabilista helps you understand the process. After year one, you can decide whether to continue or move to DIY accounting if comfortable.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Portugal Digital Nomad Visa Application Guide](/remote-work-tools/portugal-digital-nomad-visa-application-guide/)
-- [How to Open a Business Bank Account as a Remote.](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
-- [How to Test Internet Speed and Reliability Before Moving to Bali as a Remote Worker](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+
+## Related Articles
+
+- [Register OAuth app on GitHub](/remote-work-tools/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
+- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
+- [Best Tool for Remote Team Async Onboarding with Self Paced L](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
+- [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

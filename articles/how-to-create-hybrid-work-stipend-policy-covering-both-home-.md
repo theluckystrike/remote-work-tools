@@ -213,12 +213,15 @@ Track these metrics to evaluate your policy:
 - Employee satisfaction: Include questions in your quarterly engagement survey
 - Equity indicators: Analyze usage patterns across different employee demographics
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Work Policy: Covering Which.](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [How to Create Remote Work Stipend Policy That Is Legally.](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
-- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
+
+## Related Articles
+
+- [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
+- [How to Create Remote Work Nanny Cam Policy That Respects](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

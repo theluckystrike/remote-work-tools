@@ -209,12 +209,15 @@ While trust is fundamentally about behavior rather than tools, certain tools hel
 
 The tool choice matters less than consistent usage. Pick tools your team will actually use and commit to them.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Build Psychological Safety on Fully Remote.](/remote-work-tools/how-to-build-psychological-safety-on-fully-remote-engineerin/)
+
+## Related Articles
+
+- [How to Build Trust with Clients Who Prefer In-Person](/remote-work-tools/how-to-build-trust-with-clients-who-prefer-in-person-meeting/)
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
+- [How to Build Psychological Safety on Fully Remote](/remote-work-tools/how-to-build-psychological-safety-on-fully-remote-engineerin/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

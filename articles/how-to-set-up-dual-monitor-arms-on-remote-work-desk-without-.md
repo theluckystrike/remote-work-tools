@@ -372,9 +372,15 @@ within 2 weeks of proper monitor positioning.
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
+- [List available color profiles](/remote-work-tools/external-monitor-color-matching-for-macbook-dual-display-setup/)
+- [How to Monitor Remote Employee Endpoint Health Without](/remote-work-tools/how-to-monitor-remote-employee-endpoint-health-without-invad/)
+- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

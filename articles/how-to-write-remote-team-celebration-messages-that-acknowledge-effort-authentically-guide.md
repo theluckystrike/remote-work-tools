@@ -372,12 +372,15 @@ By month 2, you'll have established a visible pattern. Team members will start r
 
 The best recognition systems feel effortless because they're habitual. But they require intentional practice to build.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Distributed Team Holiday Celebration Ideas Across.](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
+
+## Related Articles
+
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [How to Set Up Remote Team Mentorship Program Matching.](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Distributed Team Holiday Celebration Ideas Across Cultures](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
+- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

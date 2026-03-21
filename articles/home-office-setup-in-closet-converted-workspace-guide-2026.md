@@ -235,11 +235,14 @@ For apartment dwellers without extra bedrooms, closet offices are the superior o
 A closet office works best for developers who need a dedicated space without dedicated square footage. The key is matching your equipment to the space constraints rather than forcing standard furniture into an atypical environment. Start minimal, test stability over two weeks, then upgrade specific components based on actual pain points.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
+
+## Related Articles
+
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation/)
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
 - [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
-- [UPS Battery Backup for Home Office Setup 2026](/remote-work-tools/ups-battery-backup-for-home-office-setup-2026/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

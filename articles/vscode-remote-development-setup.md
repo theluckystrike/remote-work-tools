@@ -315,13 +315,15 @@ Launch configurations work the same whether local or remote. The debug adapter r
 }
 ```
 
-## Related Reading
 
-- [Nix vs Docker for Reproducible Dev Environments](/nix-vs-docker-for-reproducible-dev-environments/)
-- [Best Dotfiles Manager for Remote Developer Setup](/best-dotfiles-manager-for-remote-developer-setup/)
-- [CodePen vs CodeSandbox for Remote Collaboration](/codepen-vs-codesandbox-for-remote-collaboration/)
 
----
+## Related Articles
+
+- [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
+- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [Code Review Guidelines](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

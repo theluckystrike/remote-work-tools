@@ -192,12 +192,15 @@ Use this checklist when deploying your vendor security assessment template:
 - [ ] Set calendar reminders for reassessment dates
 - [ ] Train team members on vendor access request procedures
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Remote Team Security Compliance Checklist for SOC 2.](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+
+## Related Articles
+
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Teleparty supports these streaming platforms:](/remote-work-tools/virtual-movie-watch-party-tools-for-remote-team-friday-event/)
+- [Best Practice for Remote Team Vendor Payment Terms](/remote-work-tools/best-practice-for-remote-team-vendor-payment-terms-negotiati/)
+- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

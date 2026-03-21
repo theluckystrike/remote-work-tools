@@ -225,14 +225,18 @@ This approach works well if you need a simple, sturdy desk. Weakness: Difficult 
 **Acoustic panel (DIY):** Hang blanket/towel for echo reduction - $0
 - Creates professional video call appearance
 
-## Related Reading
-
-- [IKEA Office Furniture Catalog](https://www.ikea.com/us/en/)
-- [Ergonomic Desk Setup Guide by OSHA](https://www.osha.gov/ergonomics)
-- [Second-Hand Office Furniture Buying Tips](https://www.consumerreports.org/home-garden/best-office-furniture/)
 
 ## Footer
 
 Building a productive office on $500 requires one non-negotiable: your comfort. Invest in a decent chair (you spend more time sitting than anywhere else) and a monitor that reduces eye strain. Everything else is negotiable and can be upgraded over time. Your productivity is directly correlated with physical comfort—a $100 chair that causes back pain costs you far more in lost productivity than the price difference to a $200 quality chair. Plan your budget accordingly, prioritize ruthlessly, and upgrade components one at a time as your budget improves.
+
+
+## Related Articles
+
+- [Best Standing Desk Under $500 for Remote Developers 2026](/remote-work-tools/best-standing-desk-under-500-for-remote-developers-2026/)
+- [How to Calculate Productive Overlap Hours for Remote.](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
 
 {% endraw %}

@@ -192,12 +192,15 @@ Establish clear success criteria with your director during onboarding:
 | Day 31-60 | Ownership, trust | First responsibility handoff complete, upward update cadence established |
 | Day 61-90 | Impact, independence | Team velocity stable or improved, relationship trust scores positive |
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
-- [Remote Team New Manager Onboarding Checklist for.](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
-- [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+
+## Related Articles
+
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
+- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

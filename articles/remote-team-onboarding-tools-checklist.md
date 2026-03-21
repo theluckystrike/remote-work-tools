@@ -261,13 +261,15 @@ def check_contributions():
 check_contributions()
 ```
 
-## Related Reading
 
-- [Remote Onboarding Best Practices Guide 2026](/remote-onboarding-best-practices-guide-2026/)
-- [How to Onboard New Remote Employees in First Week Step by Step](/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
-- [Buddy System for Onboarding Remote Junior Developers Guide](/buddy-system-for-onboarding-remote-junior-developers-guide/)
 
----
+## Related Articles
+
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
+- [Best Remote Employee Onboarding Checklist Tool for HR Teams](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -273,12 +273,15 @@ Fallback content: Always have a default view showing static information (buildin
 
 Timezone handling: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Digital Signage for Hybrid Office Communication: A.](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
-- [How to Set Up Hybrid Office Wayfinding System for.](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+
+## Related Articles
+
+- [Digital Signage for Hybrid Office Communication: A](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
+- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
+- [Pin configuration](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
 - [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

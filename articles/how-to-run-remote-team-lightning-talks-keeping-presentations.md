@@ -176,12 +176,15 @@ Lightning talks succeed when they become routine. Here's how to encourage partic
 
 Some teams maintain a "lightning talk queue" where volunteers add their names and topics ahead of time. This creates momentum and helps presenters prepare.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Remote Team Daily Standup in Slack Without.](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
-- [How to Run Sprints with a Remote Team of 4 Engineers: A Practical Guide](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
-- [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+
+## Related Articles
+
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

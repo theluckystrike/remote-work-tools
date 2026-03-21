@@ -272,12 +272,15 @@ Yes. Being available and on standby carries a psychological cost even when no in
 Some organizations pay an on-call stipend per shift. Others offer compensatory time off after high-burden periods. Document the policy explicitly and apply it consistently—ambiguous policies create more resentment than the burden itself.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Penetration Testing Coordination Guide for.](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-- [Remote Team Financial Dashboard Tool for CFO: Tracking.](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
+
+## Related Articles
+
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [Shortcut vs Linear: Issue Tracking Comparison for](/remote-work-tools/shortcut-vs-linear-issue-tracking-comparison/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

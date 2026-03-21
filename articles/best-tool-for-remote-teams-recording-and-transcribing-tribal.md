@@ -271,12 +271,15 @@ Start with a single meeting type—perhaps sprint retrospectives or design discu
 Track how often wiki articles get referenced and updated. Tribal knowledge capture only succeeds when the resulting documentation actually gets used.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Documentation Linting Tool for Remote Teams.](/remote-work-tools/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
-- [How to Create Decision Log Documentation for Remote Teams: Recording Context Behind Choices](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+
+## Related Articles
+
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
+- [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
+- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

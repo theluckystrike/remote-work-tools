@@ -199,12 +199,15 @@ Keep these records for insurance purposes:
 The right health insurance for freelancers depends on your specific situation. Use the tools and calculations above to make an informed decision that protects your health without breaking your budget.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)
+- [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
 - [Digital Nomad Legal Residency Options 2026: Complete Guide](/remote-work-tools/digital-nomad-legal-residency-options-2026/)
-- [How to Handle Health Insurance as Digital Nomad Working.](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)
-- [Thailand Long Term Visa for Remote Workers 2026: Complete Guide](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [Best Travel Insurance for Digital Nomads 2026: A](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

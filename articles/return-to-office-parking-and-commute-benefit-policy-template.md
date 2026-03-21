@@ -254,12 +254,15 @@ When deploying this policy in your organization, consider these practical factor
 
 **Communication** — Provide clear guidelines to employees about what expenses qualify, how to submit receipts, and when reimbursements will be processed.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Return to Office Childcare Benefit Policy Template for.](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
-- [Return to Office Employee Survey Template: Measuring.](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [Return to Office Mental Health Support Resources for.](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
+
+## Related Articles
+
+- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
+- [Quick inventory script to scan network for dormant machines](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
+- [Return to Office Mental Health Support Resources for](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

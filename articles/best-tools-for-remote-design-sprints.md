@@ -197,11 +197,15 @@ For developers, build prototype components in your actual codebase when possible
 
 Start simple, measure what works, and evolve your tooling as your sprint practice matures.
 
-## Related Reading
 
-- [Best Whiteboard Tools for Video Calls](/remote-work-tools/best-whiteboard-tools-for-video-calls/)
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
-- [How to Manage Sprints with a Remote Team](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+
+## Related Articles
+
+- [How to Manage Sprints with Remote Team: A Practical](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+- [How to Run Sprints with a Remote Team of 4 Engineers: A](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)
+- [Maker Schedule for Remote Developers: A Practical Guide for](/remote-work-tools/maker-schedule-for-remote-developers-guide-2026/)
+- [Time Audit for Remote Workers: A Practical How-To Guide](/remote-work-tools/time-audit-for-remote-workers-how-to-guide-2026/)
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

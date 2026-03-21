@@ -224,12 +224,15 @@ Policy changes don't have to cause anxiety. With careful communication, they can
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Work Employer Childcare Stipend Policy Template.](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+
+## Related Articles
+
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
+- [Example: Tracking exchange rates for optimal conversion](/remote-work-tools/best-currency-exchange-strategy-for-remote-workers-paid-in-u/)
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

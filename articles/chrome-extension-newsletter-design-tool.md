@@ -347,11 +347,15 @@ Track these metrics to optimize designs:
 
 Monitor these via your email provider's analytics dashboard and adjust design elements accordingly.
 
-## Related Reading
 
-- [How to Set Up a Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
-- [How to Prevent Burnout as a Remote Developer: A.](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
-- [Geekbot vs Standuply: Async Standup Comparison for.](/remote-work-tools/geekbot-vs-standuply-async-standup-comparison/)
+
+## Related Articles
+
+- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
+- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
+- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [Chrome Extension OneNote Clipper Setup: Complete Guide](/remote-work-tools/chrome-extension-onenote-clipper-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

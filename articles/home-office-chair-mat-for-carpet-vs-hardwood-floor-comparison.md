@@ -298,12 +298,15 @@ tail -10 ~/standing-log.txt
 ```
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Chair Mat for Carpet vs Hardwood Floor.](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)
+
+## Related Articles
+
+- [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
-- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

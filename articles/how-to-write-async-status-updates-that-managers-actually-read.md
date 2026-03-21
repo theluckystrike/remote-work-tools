@@ -340,12 +340,15 @@ The developers who advance most consistently are those whose status updates pain
 
 Conversely, vague status updates make managers underestimate your contributions. Your work matters, but it only counts if your manager sees it.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [How to Write Async Technical RFCs That Get Meaningful Feedback](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)
-- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
+
+## Related Articles
+
+- [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
+- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

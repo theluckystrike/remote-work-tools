@@ -209,12 +209,15 @@ The best lighting setup is one you'll actually use consistently. Incremental imp
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
-- [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
-- [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
+
+## Related Articles
+
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

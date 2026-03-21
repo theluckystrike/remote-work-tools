@@ -205,12 +205,15 @@ Making anchor days purely social: If the only value of being in-office is "water
 
 Neglecting async documentation: Without explicit async handoffs, anchor days create information silos that harm remote team members.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [Best Practice for Hybrid Team Sprint Ceremonies When.](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+
+## Related Articles
+
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

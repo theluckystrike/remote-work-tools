@@ -259,12 +259,15 @@ Track these metrics to continuously improve your process:
 - Handoff to development start time: How long between design completion and developer starting
 - Meeting time for design questions: Track this approaching zero with good async documentation
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [Best Design Token Management Tool for Remote Teams.](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
+
+## Related Articles
+
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [How to Set Up Remote Finance Team Approval Workflow for](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+- [Remote Agency Client Offboarding Checklist and Handoff Docum](/remote-work-tools/remote-agency-client-offboarding-checklist-and-handoff-docum/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

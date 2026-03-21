@@ -222,12 +222,15 @@ Challenge: Family member internet usage impacting performance
 
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
-- [How to Set Up Remote Pharmacy Consultation Service with.](/remote-work-tools/how-to-set-up-remote-pharmacy-consultation-service-with-video-conferencing-tools/)
-- [How to Set Up Home Office in Bali Rental Apartment with Reliable Power](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+
+## Related Articles
+
+- [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+- [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
+- [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
+- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

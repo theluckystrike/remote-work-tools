@@ -229,12 +229,15 @@ Track these secondary metrics alongside raw FRT to understand the full picture:
 - **FRT by agent tenure** — New agents may need additional support during onboarding
 - **Customer satisfaction correlation** — Verify that FRT improvements actually translate to better CSAT scores
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [Best Tool for Tracking Remote Team On-Call Burden.](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
+
+## Related Articles
+
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [Response Time Expectations for Remote Workers: A](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
+- [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)
+- [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

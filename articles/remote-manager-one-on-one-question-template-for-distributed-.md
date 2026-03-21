@@ -193,12 +193,15 @@ The question template is a starting point, not a rigid script. The best managers
 Start with the BASE framework, gather feedback from your team on what's helpful, and iterate. The goal isn't perfect—it's consistent attention to your team members as humans, not just as productivity units.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [Remote Team One on One Meeting Template for Engineering.](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
+
+## Related Articles
+
+- [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

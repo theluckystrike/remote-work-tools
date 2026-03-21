@@ -240,12 +240,15 @@ The key factors in your decision are: team size (affects SFU requirements), late
 Start with browser-based capture for the simplest implementation, migrate to WebRTC-based solutions when you need better latency, and consider third-party APIs when building meeting platforms. Each approach has a place depending on your specific requirements and engineering resources.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
-- [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
-- [How to Set Up Hybrid Office Wayfinding System for.](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+
+## Related Articles
+
+- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
+- [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
+- [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)
+- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
+- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

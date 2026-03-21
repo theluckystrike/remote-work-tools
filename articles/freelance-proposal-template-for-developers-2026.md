@@ -231,12 +231,15 @@ for slot in slots:
 
 For most globally distributed teams, there are 0-2 overlap hours. Use async-first communication for everything that doesn't require real-time discussion.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [NDA Template for Freelance Software Developers](/remote-work-tools/nda-template-for-freelance-software-developers/)
 - [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
-- [Retirement Planning for Freelance Developers 2026](/remote-work-tools/retirement-planning-for-freelance-developers-2026/)
+- [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
+- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
+- [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

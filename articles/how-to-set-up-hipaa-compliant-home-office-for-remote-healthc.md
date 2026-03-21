@@ -294,11 +294,14 @@ Creating a HIPAA-compliant home office requires combining physical security, net
 
 Your IT department should provide specific guidance for your organization's environment. Use this guide to understand the underlying principles and verify that your setup addresses each HIPAA requirement. Compliance isn't an one-time configuration—it's an ongoing commitment to protecting patient information in your remote work environment.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Remote Radiology Reading Station at Home.](/remote-work-tools/how-to-set-up-remote-radiology-reading-station-at-home-with-/)
+
+## Related Articles
+
+- [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
-- [How to Set Up Compliant Remote Employee Benefits Across.](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
+- [How to Set Up Compliant Remote Employee Benefits Across](/remote-work-tools/how-to-set-up-compliant-remote-employee-benefits-across-mult/)
+- [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

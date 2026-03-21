@@ -221,11 +221,15 @@ For most remote teams, a minimal setup includes:
 
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
+- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+- [How to Track Project Dependencies in a Remote Team: A](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
+- [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

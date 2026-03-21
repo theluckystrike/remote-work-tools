@@ -262,12 +262,15 @@ Start with an inventory before writing. List every user action related to the fe
 
 A shutdown ritual matters more than a shutdown time. Your end-of-day notes serve this function: writing tomorrow's priority 1 is a deliberate signal to your brain that today's work is complete. Pair this with a physical transition—closing the laptop, changing out of work clothes, or a short walk—to reinforce the boundary that a commute used to create automatically.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Best Invoicing Workflow for Solo Developer with](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
+- [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 - [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
-- [Best Practice for Remote Team Slack Do Not Disturb.](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

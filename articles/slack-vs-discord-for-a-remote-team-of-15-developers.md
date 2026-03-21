@@ -227,12 +227,15 @@ Try this: Have your team use both platforms for one week each. Test the actual w
 The best choice is the one your team actually uses consistently. Both Slack and Discord work well for remote developer teams. The difference is in how each platform shapes communication culture over time.
 
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Best Practice for Remote Team: Slack Emoji Reactions.](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
-- [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
-- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+
+## Related Articles
+
+- [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Instead of:](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

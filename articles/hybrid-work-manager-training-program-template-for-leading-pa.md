@@ -242,12 +242,15 @@ Before launching this training program:
 4. **Plan follow-up** - Schedule monthly coaching sessions for graduates
 5. **Measure impact** - Track team engagement scores and manager confidence ratings
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
-- [Remote Team Hiring Manager Training Program for First-Time Managers in Distributed Companies](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
-- [Remote Team Manager Peer Feedback Exchange Template for.](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+
+## Related Articles
+
+- [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
+- [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Convert to UTC range](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

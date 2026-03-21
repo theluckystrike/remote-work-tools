@@ -410,12 +410,14 @@ Tools that auto-organize this:
 **"I'm already using Stripe and don't want another tool"**
 → Stripe invoicing (free) + Google Docs contracts
 
-## Related Reading
 
-- [How to negotiate remote work salary when relocating](/remote-work-tools/guides-hub/)
-- [Best tools for automating freelance business operations](/remote-work-tools/guides-hub/)
-- [Best accounting software for freelancers 2026](/remote-work-tools/guides-hub/)
 
----
+## Related Articles
+
+- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
+- [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
+- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
+- [Essential Contract Clauses Every Freelance Developer Should](/remote-work-tools/freelance-developer-contract-clauses-to-include/)
+- [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

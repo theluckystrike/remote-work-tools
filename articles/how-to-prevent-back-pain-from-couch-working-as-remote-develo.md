@@ -294,12 +294,15 @@ Treating couch work as temporary (not permanent workstation) reduces pain risk s
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
-- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
-- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+
+## Related Articles
+
+- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+- [Open Back Headphones for Remote Developers Review](/remote-work-tools/open-back-headphones-for-remote-developers-review/)
+- [How to Detect and Prevent Burnout in Remote Employees](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
+- [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

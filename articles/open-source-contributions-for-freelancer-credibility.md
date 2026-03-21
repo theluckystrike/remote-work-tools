@@ -332,12 +332,15 @@ Open source contributions provide something rare in freelance work: verifiable, 
 - [ ] Set 12-month goal for meaningful contributions
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
-- [Best Digital Signature Tool for Remote Agency Client.](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
-- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
+
+## Related Articles
+
+- [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
+- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Handle Social Security Contributions When Working](/remote-work-tools/how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/)
+- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
+- [How to Transition From Employee to Freelancer](/remote-work-tools/how-to-transition-from-employee-to-freelancer/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

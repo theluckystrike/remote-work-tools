@@ -249,11 +249,14 @@ Stop further evaluation if you see these warning signs:
 
 Any of these warrants serious caution. Multiple red flags means exploring alternatives is warranted.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Project Kickoff Documentation.](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
-- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
-- [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+
+## Related Articles
+
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Remote Team Third Party Vendor Security Assessment Template](/remote-work-tools/remote-team-third-party-vendor-security-assessment-template-/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

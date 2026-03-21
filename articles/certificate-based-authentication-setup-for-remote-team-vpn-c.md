@@ -253,12 +253,15 @@ Rotate keys regularly but automate the process to avoid service disruptions. Con
 
 Document your PKI structure and revocation procedures. When security incidents occur, clear documentation enables rapid response.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Two-Factor Authentication Setup for Remote Team.](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
-- [Remote Team Runbook Template for SSL Certificate Renewal.](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
-- [How to Implement Hardware Security Keys for Remote Team.](/remote-work-tools/how-to-implement-hardware-security-keys-for-remote-team-auth/)
+
+## Related Articles
+
+- [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

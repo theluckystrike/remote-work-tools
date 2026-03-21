@@ -219,12 +219,15 @@ Success in distributed penetration testing boils down to three practices. First,
 Remote penetration testing coordination requires more deliberate structure than collocated testing, but the distributed model offers advantages: broader testing hour coverage, diverse security perspectives, and resilience against single points of failure. With proper workflows in place, your distributed team can execute assessments as effectively as any in-person red team.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-- [Best Tool for Tracking Remote Team On-Call Burden.](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
+
+## Related Articles
+
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Remote Team Feature Delivery Predictability Metric for](/remote-work-tools/remote-team-feature-delivery-predictability-metric-for-distr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

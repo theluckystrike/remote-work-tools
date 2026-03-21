@@ -209,12 +209,15 @@ Use this checklist when deploying a visitor management system:
 - [ ] Test integration with access control system
 - [ ] Establish visitor data retention and purge policies
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Occupancy Analytics Platform for Hybrid Offices.](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
-- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
-- [How to Create a Hybrid Work Equipment Checkout System.](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
+
+## Related Articles
+
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

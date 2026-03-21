@@ -171,12 +171,15 @@ Start with ownership and workflow, then layer in the other practices as your lib
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Coordinate Remote Mobile Developers Releasing.](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
-- [Remote Team Penetration Testing Coordination Guide for.](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
-- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
+
+## Related Articles
+
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [How to Coordinate Remote Mobile Developers Releasing Apps](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

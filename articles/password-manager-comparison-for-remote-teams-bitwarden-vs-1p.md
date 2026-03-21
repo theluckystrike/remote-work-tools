@@ -234,12 +234,15 @@ Both Bitwarden and 1Password serve remote developer teams well. The choice ultim
 ---
 
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+
+## Related Articles
+
 - [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)
-- [Password Rotation Policy Setup for Remote Teams Using.](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
 - [Best Password Manager for a Remote Startup of 15 Employees](/remote-work-tools/best-password-manager-for-a-remote-startup-of-15-employees/)
+- [Password Rotation Policy Setup for Remote Teams Using](/remote-work-tools/password-rotation-policy-setup-for-remote-teams-using-shared/)
+- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
+- [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

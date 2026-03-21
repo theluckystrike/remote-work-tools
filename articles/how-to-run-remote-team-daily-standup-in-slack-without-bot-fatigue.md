@@ -419,12 +419,15 @@ Address these immediately. Standup only works if it's genuinely useful to the te
 
 Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [Remote Team Email vs Slack vs Video Call Decision.](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+
+## Related Articles
+
+- [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
+- [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
+- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

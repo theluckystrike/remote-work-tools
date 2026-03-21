@@ -284,12 +284,15 @@ Combat this by:
 
 Visible progress, even if not immediately reviewable, maintains client confidence and shows you're actively working.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [How to Handle Emergency Client Communication for Remote.](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
-- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+
+## Related Articles
+
+- [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
+- [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
+- [Convert to UTC range](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

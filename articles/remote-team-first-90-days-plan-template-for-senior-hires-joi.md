@@ -207,11 +207,15 @@ Several factors require extra attention when joining remote teams:
 Following this framework helps you transition from newcomer to effective contributor more quickly than ad-hoc approaches. The structured approach to relationship building, context gathering, and progressive contribution sets you up for long-term success in distributed teams.
 
 
-## Related Reading
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+
+## Related Articles
+
+- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Remote Employee Career Development Plan Template for](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

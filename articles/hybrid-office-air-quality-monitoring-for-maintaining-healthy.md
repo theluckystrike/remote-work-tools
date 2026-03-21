@@ -266,12 +266,15 @@ Adjust your per-person allowance values based on actual observations. Buildings 
 
 After validation, expand sensors to all significant areas. Meeting rooms typically need dedicated sensors since they experience rapid occupancy changes when filled or emptied.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
-- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+
+## Related Articles
+
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

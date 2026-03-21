@@ -271,12 +271,15 @@ Create a virtuous cycle:
 
 This cultural reinforcement sustains remote teams through growth and change better than any individual tool or process.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Buddy System Program for Onboarding New Hires at Scale](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
-- [How to Set Up Remote Developer Onboarding Buddy System.](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
-- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+
+## Related Articles
+
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
+- [How to Create Remote Onboarding Buddy Program Template for](/remote-work-tools/how-to-create-remote-onboarding-buddy-program-template-for-n/)
+- [Async Mentorship Program Structure for Remote Junior Develop](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
+- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

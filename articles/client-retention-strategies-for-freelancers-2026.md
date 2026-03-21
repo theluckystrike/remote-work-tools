@@ -353,12 +353,15 @@ Go beyond regular updates with genuine value:
 
 Track these touchpoints in your CRM. Over time, these become your "unfair advantage" over competitors who only reach out when needing work.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
-- [Freelance Developer Networking Strategies Online: A.](/remote-work-tools/freelance-developer-networking-strategies-online/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
+
+## Related Articles
+
+- [Scope Creep Prevention Strategies for Freelancers](/remote-work-tools/scope-creep-prevention-strategies-for-freelancers/)
+- [Best Notification Batching Strategies for Async-First](/remote-work-tools/best-notification-batching-strategies-for-async-first-remote-teams/)
+- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
+- [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)
+- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -329,12 +329,15 @@ Desk occupancy tracking involves employee privacy considerations. Anonymize data
 
 Start with a pilot floor covering 20-50 desks. Validate your sensor reliability, data pipeline stability, and analytics accuracy before expanding. Plan for horizontal scaling by designing your MQTT topic structure and database schema to accommodate additional floors without refactoring.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
-- [Best Desk Sensor Technology for Hybrid Offices: Tracking.](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+
+## Related Articles
+
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Useful Thai search terms](/remote-work-tools/how-to-find-apartments-with-dedicated-office-space-in-chiang-mai-for-remote-work/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

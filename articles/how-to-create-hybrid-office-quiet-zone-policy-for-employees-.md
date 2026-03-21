@@ -174,12 +174,15 @@ Track whether the quiet zone policy actually improves outcomes:
 
 Adjust the policy based on data. If morning quiet hours aren't working, try afternoon blocks instead. If certain teams need different arrangements, allow team-level customization within organizational guidelines.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [How to Create a Hybrid Work Stipend Policy Covering Both.](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
+
+## Related Articles
+
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
+- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
+- [Remote Work Lactation Room Policy Template for Employees on](/remote-work-tools/remote-work-lactation-room-policy-template-for-employees-on-/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

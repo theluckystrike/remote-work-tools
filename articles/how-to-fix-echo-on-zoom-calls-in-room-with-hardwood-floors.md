@@ -183,11 +183,14 @@ Room modes cause certain frequencies to resonate, exacerbating echo in specific 
 - Apply narrow notches (Q factor > 5) to reduce resonance without affecting speech intelligibility
 - Typical problem frequencies in small rooms fall between 80-300 Hz
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Acoustic Foam Placement for Home Office Zoom Call.](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
-- [Meeting Room Acoustic Treatment Guide for Hybrid Offices.](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+
+## Related Articles
+
+- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
+- [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
+- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

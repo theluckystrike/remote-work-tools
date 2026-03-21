@@ -221,12 +221,15 @@ Balance security with velocity. If developers cannot access databases quickly du
 
 Review access patterns regularly. Even with JIT, some users may accumulate excessive access over time. Periodic audits ensure the system continues to align with actual needs.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-resources/)
-- [How to Secure Remote Team Kubernetes Clusters with.](/remote-work-tools/how-to-secure-remote-team-kubernetes-clusters-with-network-p/)
-- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+
+## Related Articles
+
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
+- [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

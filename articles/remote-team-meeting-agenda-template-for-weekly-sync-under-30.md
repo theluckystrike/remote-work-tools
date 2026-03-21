@@ -351,12 +351,15 @@ If participation drops below 80% or blocker resolution stalls, something's wrong
 
 {% endraw %}
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
+- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

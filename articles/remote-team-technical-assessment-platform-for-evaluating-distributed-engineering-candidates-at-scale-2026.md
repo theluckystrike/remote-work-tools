@@ -270,12 +270,15 @@ Track key metrics to continuously improve your assessment process:
 Remote technical assessment platforms have become essential infrastructure for distributed engineering teams. By implementing secure execution environments, thoughtful proctoring, and automated scoring, you can evaluate candidates at scale while maintaining fairness and candidate experience.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Interview Scheduling Tool for Coordinating.](/remote-work-tools/remote-team-interview-scheduling-tool-for-coordinating-acros/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
+
+## Related Articles
+
+- [Remote Team Employer Branding Strategy for Attracting](/remote-work-tools/remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Best Remote Sales Enablement Platform for Distributed BDRs](/remote-work-tools/best-remote-sales-enablement-platform-for-distributed-bdrs-a/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

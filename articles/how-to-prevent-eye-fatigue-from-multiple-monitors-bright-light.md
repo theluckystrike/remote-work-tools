@@ -216,12 +216,15 @@ Use this checklist to ensure your multi-monitor setup is eye-friendly:
 
 **Does dark mode actually help?** Dark mode reduces the total light emitted by your display when viewing text-heavy content, which can reduce eyestrain in low-ambient-light environments. In bright rooms, dark mode's lower contrast may cause the eye to work harder, not less. Use dark mode when your room is dim; switch to light mode during the day.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
-- [Screen Brightness Settings for Eye Health: A Developer's Guide](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
+
+## Related Articles
+
+- [Screen Brightness Settings for Eye Health](/remote-work-tools/screen-brightness-settings-for-eye-health-developers/)
+- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
+- [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Meeting Camera Guidelines](/remote-work-tools/remote-team-video-call-fatigue-reduction-strategy-limiting-c/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

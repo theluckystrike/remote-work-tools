@@ -382,11 +382,14 @@ Most remote workers find suitable apartments within 2-3 weeks of active searchin
 Chiang Mai offers exceptional value for remote workers willing to invest time in finding the right fit. The city's infrastructure continues improving, and the community of remote workers provides valuable network support during your search. Once settled, most remote workers report cost of living 50-70% lower than major Western cities while maintaining excellent work conditions.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Coworking Space Finder Apps for Nomads](/remote-work-tools/coworking-space-finder-apps-for-nomads/)
-- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
-- [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
+
+## Related Articles
+
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Best Practice for Remote Team Vendor Payment Terms](/remote-work-tools/best-practice-for-remote-team-vendor-payment-terms-negotiati/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

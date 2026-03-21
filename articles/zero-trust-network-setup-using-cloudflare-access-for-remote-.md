@@ -233,12 +233,15 @@ Always maintain a fallback access method for critical situations. Configure brea
 
 **Skipping user communication.** Announce changes ahead of time and provide clear instructions. Surprise authentication prompts create friction and resistance.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Zero Trust Network Access for Distributed.](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
-- [Zero Trust Remote Access Setup Guide for Small.](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
-- [VPN vs Zero Trust Architecture Comparison for Remote Teams: 2026 Guide](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+
+## Related Articles
+
+- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Install OpenConnect (common in enterprise environments)](/remote-work-tools/remote-employee-digital-workspace-setup-guide-for-first-day-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

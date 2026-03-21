@@ -230,12 +230,15 @@ After the hotfix is verified stable, document the incident:
 
 **Practice your runbook.** Run hotfix simulations during team retrospectives. Identify gaps in your process before real incidents expose them.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Runbook Template for Database Failover Procedure with Distributed DevOps Staff](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
-- [Remote Team Runbook Template for SSL Certificate Renewal.](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+
+## Related Articles
+
+- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

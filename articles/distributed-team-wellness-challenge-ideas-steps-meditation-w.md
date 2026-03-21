@@ -211,12 +211,15 @@ Wellness challenges work best when they become part of your team culture rather 
 The goal is not perfection—it is progress. Small, consistent actions compound over time into meaningful health improvements. When your distributed team participates in wellness challenges together, you build connections that transcend spreadsheets and code reviews.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
-- [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
-- [Best Remote Team Async Daily Check In Format Replacing.](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
+
+## Related Articles
+
+- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Distributed Team Holiday Celebration Ideas Across Cultures](/remote-work-tools/distributed-team-holiday-celebration-ideas-across-cultures-a/)
+- [How to Handle Hybrid Meeting Whiteboard Challenge with](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

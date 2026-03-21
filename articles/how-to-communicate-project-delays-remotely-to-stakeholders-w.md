@@ -227,12 +227,15 @@ For teams that handle multiple projects, create a standardized workflow for dela
 
 This workflow scales whether you are managing one project or dozens. The key is acting deliberately rather than reacting after the fact.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Write Async Project Proposals That Get Approved Remotely](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
-- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
-- [Best Practice for Remote Team Cross Functional Project.](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+
+## Related Articles
+
+- [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [Best Proposal Tool for a Solo Freelance UX Designer Remotely](/remote-work-tools/best-proposal-tool-for-a-solo-freelance-ux-designer-remotely/)
+- [How to Give Constructive Feedback Remotely Over Text](/remote-work-tools/how-to-give-constructive-feedback-remotely-over-text-without/)
+- [How to Handle Mail and Legal Address When Working Remotely](/remote-work-tools/how-to-handle-mail-and-legal-address-when-working-remotely-f/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

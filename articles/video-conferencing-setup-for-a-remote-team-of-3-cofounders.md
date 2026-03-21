@@ -191,12 +191,15 @@ For a new three-person cofounder team, follow this implementation sequence:
 5. Automation implementation: Add meeting creation shortcuts and recording workflows
 6. Testing and refinement: Conduct test calls with screen sharing and recording to verify quality
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Video Conferencing Setup for Hybrid Rooms: A.](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
-- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
-- [Meeting Room Video Conferencing Equipment Setup for.](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+
+## Related Articles
+
+- [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [Veed API - Upload and process video](/remote-work-tools/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

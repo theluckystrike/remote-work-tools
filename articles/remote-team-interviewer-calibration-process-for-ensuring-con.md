@@ -179,12 +179,15 @@ Avoid these mistakes that undermine calibration efforts:
 4. No accountability: Track individual interviewer patterns and address outliers
 5. Static rubrics: Update competency matrices as role requirements evolve
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Scale Remote Team Code Review Process When.](/remote-work-tools/how-to-scale-remote-team-code-review-process-when-engineerin/)
-- [Best Practice for Remote Team Offboarding at Scale.](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+
+## Related Articles
+
+- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
+- [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
+- [Best Practice for Remote Employee Peer Review Calibration](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

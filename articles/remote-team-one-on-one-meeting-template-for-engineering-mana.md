@@ -263,12 +263,15 @@ If these metrics decline, your one-on-ones need adjustment.
 A well-executed one-on-one template transforms a simple meeting into your most powerful management tool. The consistency builds trust over time, and the structure ensures nothing important falls through the cracks.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
+
+## Related Articles
+
+- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
+- [Remote Team Meeting Cadence Template for Engineering](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
-- [Remote Team Walking Meeting Format for One-on-One.](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
+- [Remote Team Walking Meeting Format for One-on-One](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

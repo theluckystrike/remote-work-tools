@@ -173,11 +173,14 @@ Many developers use:
 - Cloud IDEs: VS Code in browser via code-server or GitHub Codespaces for work machines
 - Backup solutions: Sync code to GitHub frequently given potential connectivity issues in some areas
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [South Korea Digital Nomad Visa Application Requirements for Remote Workers 2026](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-- [Japan Digital Nomad Visa Requirements for Remote.](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
-- [Barbados Welcome Stamp Visa for Remote Workers: 12-Month.](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)
+
+## Related Articles
+
+- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
+- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

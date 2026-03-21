@@ -254,12 +254,15 @@ For urgent releases, use abbreviated async processes:
 4. Build and test
 5. Expedited submission with notes to reviewers
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
+- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
-- [How to Coordinate Remote SRE Team Capacity Planning.](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

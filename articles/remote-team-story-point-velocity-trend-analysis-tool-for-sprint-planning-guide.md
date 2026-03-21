@@ -357,12 +357,15 @@ As you implement velocity tracking, keep these considerations in mind:
 
 **Review and adjust regularly.** Reassess your velocity calculation method quarterly. What worked for a new team may not suit a mature team, and vice versa.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
+
+## Related Articles
+
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
 - [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

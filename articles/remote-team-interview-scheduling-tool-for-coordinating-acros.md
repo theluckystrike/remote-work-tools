@@ -243,12 +243,15 @@ async function autoScheduleInterview(candidates, interviewers, position) {
 }
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Technical Assessment Platform for Evaluating.](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
-- [Remote Team Referral Program Template for Distributed Companies - Incentivizing Employee Referral Hiring 2026](/remote-work-tools/remote-team-referral-program-template-for-distributed-compan/)
-- [How to Create Remote Employee Exit Interview Process for.](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
+
+## Related Articles
+
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)
+- [Remote Employee Time Zone Overlap Optimization Tool for](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
+- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

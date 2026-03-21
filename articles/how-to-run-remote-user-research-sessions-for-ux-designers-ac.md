@@ -173,12 +173,15 @@ After completing all sessions, schedule a synthesis session using your overlap w
 
 Several mistakes undermine remote user research effectiveness. First, avoid conducting sessions alone when your team is distributed. Always have at least one observer from each major time zone represented. Second, do not skip transcription. Manually reviewing hours of recordings wastes time that could go toward insight synthesis. Third, resist the temptation to only schedule sessions during your local work hours. This defeats the purpose of distributed research and excludes team member participation.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
-- [How to Run Remote Accounting Firm with Distributed Staff.](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
+- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+- [Best Remote Work Project Management Tools Under 10 Per.](/remote-work-tools/best-remote-work-project-management-tools-under-10-per-user-2026/)
+- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

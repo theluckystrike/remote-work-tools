@@ -226,11 +226,15 @@ Contract tests catch breaking changes before they reach production. Run these te
 Start with clear ownership, automate dependency management, and maintain transparent communication about changes that affect multiple repositories. Pick the workflow that fits your team's size and distribution, document it, and revisit it periodically as your project evolves.
 
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+
+## Related Articles
+
+- [How to Manage Cross-Functional Remote Projects](/remote-work-tools/how-to-manage-cross-functional-remote-projects/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

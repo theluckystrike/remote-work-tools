@@ -274,12 +274,15 @@ After resolving conflicts, capture what you learned for future reference:
 
 Pattern recognition in conflicts helps prevent repeating them. If you resolve the same conflict type three times, you have a systemic problem worth addressing at the team level.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Remote Team Conflict Resolution Over Chat When Video.](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
-- [How to Run Remote Team Quarterly Business Review for.](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
+
+## Related Articles
+
+- [Remote Team Conflict Resolution Framework Guide](/remote-work-tools/remote-team-conflict-resolution-framework-guide/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -223,11 +223,14 @@ fi
 
 Provide clear evidence of remote work, down to individual contracts and invoices. Avoid large fluctuations in bank statements in the six months before you apply. Consider hiring an immigration lawyer—the document requirements are specific and a single missing item delays everything. Apply early, since processing times range from 20 to 60 days. Keep organized files from the start, because you will need the same documents again at renewal.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [South Korea Digital Nomad Visa Application Requirements for Remote Workers 2026](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
-- [Thailand Long Term Visa for Remote Workers 2026: Complete Guide](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
-- [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
+
+## Related Articles
+
+- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
+- [South Korea Digital Nomad Visa Application Requirements for](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
+- [Sri Lanka Digital Nomad Visa Requirements and Coworking](/remote-work-tools/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
+- [Digital Nomad Legal Residency Options 2026: Complete Guide](/remote-work-tools/digital-nomad-legal-residency-options-2026/)
+- [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

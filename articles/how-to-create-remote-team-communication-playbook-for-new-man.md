@@ -192,12 +192,15 @@ Gather feedback through simple async surveys:
 4. How can our meetings be more effective?
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Remote Team Communication Charter That New Hires Adopt During Onboarding](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
-- [How to Create Remote Team Inclusive Meeting Practices.](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)
-- [How to Create New Hire Welcome Ritual for Remote Team](/remote-work-tools/how-to-create-new-hire-welcome-ritual-for-remote-team/)
+
+## Related Articles
+
+- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
+- [Team hours (as datetime.time objects converted to hours)](/remote-work-tools/how-to-calculate-timezone-overlap-hours-when-remote-team-spa/)
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [How to Calculate Productive Overlap Hours for Remote.](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

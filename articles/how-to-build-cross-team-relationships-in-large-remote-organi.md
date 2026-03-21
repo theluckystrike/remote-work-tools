@@ -317,12 +317,15 @@ Sometimes teams develop adversarial relationships—especially over shared syste
 
 Often the issue is structural rather than interpersonal. Teams competing for on-call burden or infrastructure resources naturally develop friction. Reorganize the system so teams share the burden fairly.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run a Remote Team Demo Day Showcasing Cross-Team Project Work](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
-- [How to Build Remote Team Culture Without Mandatory Fun Activities Guide](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
-- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+
+## Related Articles
+
+- [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
+- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
+- [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
+- [Upload large file with chunked upload](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

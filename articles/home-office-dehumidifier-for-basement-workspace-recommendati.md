@@ -203,12 +203,15 @@ automation:
           message: "Dehumidifier activated - Humidity at {{ states('sensor.basement_humidity') }}%"
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Dehumidifier for Basement Workspace.](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
+
+## Related Articles
+
+- [Home Office Dehumidifier for Basement Workspace](/remote-work-tools/home-office-dehumidifier-for-basement-workspace-recommendation-2026/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
 - [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)
-- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
+- [How to Create Distraction Free Workspace at Home](/remote-work-tools/how-to-create-distraction-free-workspace-at-home/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -224,12 +224,15 @@ Endpoint encryption forms a critical foundation for remote team security, but it
 Start with encryption enforcement as your baseline security control, then layer additional protections based on your organization's risk tolerance and regulatory requirements.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Implement Least Privilege Access for Remote Team.](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [DNS Filtering Setup for Remote Team Endpoint Security.](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
-- [How to Audit Remote Employee Device Security Compliance.](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+
+## Related Articles
+
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [DNS Filtering Setup for Remote Team Endpoint Security Using](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
+- [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
+- [Best Backup Solution for Remote Employee Laptops](/remote-work-tools/best-backup-solution-for-remote-employee-laptops-automatic-a/)
+- [Best Endpoint Security Solution for Remote Employees Using](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

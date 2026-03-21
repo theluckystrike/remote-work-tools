@@ -275,12 +275,15 @@ Year 3+: Customize to your team's maturity. Mix challenging technical books with
 
 Your book club is a living program that evolves with your team's interests and needs.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Remote Team Book Club Format and Help Guide for.](/remote-work-tools/remote-team-book-club-format-and-help-guide-developers/)
-- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+
+## Related Articles
+
+- [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
+- [How to Run Effective Skip Level Meetings with Remote](/remote-work-tools/how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

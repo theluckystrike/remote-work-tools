@@ -180,12 +180,15 @@ For teams starting their open plan to hybrid redesign:
 Focus pods represent infrastructure investment that signals your organization values deep work. When employees know they can book guaranteed quiet time at the office, the hybrid model becomes more attractive and productive.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
-- [Air Quality Monitoring for Hybrid Office Spaces: A.](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
-- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+
+## Related Articles
+
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [Useful Thai search terms](/remote-work-tools/how-to-find-apartments-with-dedicated-office-space-in-chiang-mai-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

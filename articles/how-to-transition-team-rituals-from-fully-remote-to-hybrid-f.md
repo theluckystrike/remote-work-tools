@@ -192,12 +192,15 @@ Track whether your hybrid rituals work through simple metrics:
 
 If remote participation drops or remote team members report feeling disconnected, revisit your hybrid meeting design immediately.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Maintain Remote Team Culture When Transitioning.](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+
+## Related Articles
+
+- [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
+- [How to Celebrate Employee Anniversaries on Fully Remote](/remote-work-tools/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

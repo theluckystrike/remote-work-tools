@@ -235,12 +235,15 @@ Document ownership transfer is a formal step in offboarding. The departing AE ad
 Yes, with caution. Share a view-only folder or a curated subset of documents—typically the proposal, mutual action plan, and security questionnaire responses. Keep internal coaching notes, pricing concession history, and competitor analysis private.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Sales Team Forecasting Tool Comparison for.](/remote-work-tools/remote-sales-team-forecasting-tool-comparison-for-distribute/)
-- [How to Set Up Remote Team Peer Feedback Process Without.](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
-- [Remote Sales Team Demo Environment Setup for Distributed.](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
+
+## Related Articles
+
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [Best Wiki Template for Remote Team Engineering Design](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

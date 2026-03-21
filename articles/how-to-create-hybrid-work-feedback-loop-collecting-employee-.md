@@ -245,12 +245,15 @@ The technical system is only part of the solution. You need to create cultural n
 A feedback loop that runs continuously becomes part of how your organization operates, not a special event that people ignore.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-- [How to Create Remote Work Nanny Cam Policy That Respects.](/remote-work-tools/how-to-create-remote-work-nanny-cam-policy-that-respects-car/)
+
+## Related Articles
+
+- [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
+- [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)
+- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Best Tools for Async Video Feedback on Creative Work in 2026](/remote-work-tools/best-tools-for-async-video-feedback-on-creative-work-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

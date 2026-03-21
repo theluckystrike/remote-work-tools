@@ -316,11 +316,15 @@ If your hybrid office is successful and you're expanding:
 
 **Real estate portfolio management:** Robin's analytics support complex real estate decisions. If you're using the system to inform office expansion or consolidation decisions, Robin's reporting becomes more valuable.
 
-## Related Reading
 
-- [Best Hybrid Work Schedule Templates 2026](/remote-work-tools/best-hybrid-work-schedule-templates-2026/)
-- [Hybrid Meeting Room Setup Guide 2026](/remote-work-tools/hybrid-meeting-room-setup-guide-2026/)
-- [Hot Desk Booking Software Comparison 2026](/remote-work-tools/hot-desk-booking-software-comparison-2026/)
+
+## Related Articles
+
+- [Barco ClickShare API: Starting a presentation session](/remote-work-tools/best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/)
+- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Meeting Room Acoustic Treatment Guide for Hybrid Offices Red](/remote-work-tools/meeting-room-acoustic-treatment-guide-for-hybrid-offices-red/)
+- [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)
+- [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

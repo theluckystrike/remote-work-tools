@@ -205,12 +205,15 @@ Iterate on your approach based on these metrics.
 Running async sprint demos requires upfront investment in recording habits and workflows, but pays dividends in team flexibility and stakeholder engagement. Start with simple recordings, gather feedback, and refine your process over time.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs and GitHub](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-- [How to Record Client Demo Videos Asynchronously for Remote Agency](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
-- [Best Async Voice Message Tools for Remote Teams 2026.](/remote-work-tools/best-async-voice-message-tools-for-remote-teams-2026-comparison/)
+
+## Related Articles
+
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

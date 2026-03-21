@@ -174,12 +174,15 @@ This practice creates a searchable knowledge base of explanations your entire te
 Video walkthroughs transform how you communicate code changes to non-technical clients. By combining visual demonstration with verbal explanation, you build trust and clarity without requiring your clients to understand code syntax. Start with simple screen recordings using tools like Loom or CleanShot X, add clear narration, and always explain the business impact alongside technical changes.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
+- [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
 - [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

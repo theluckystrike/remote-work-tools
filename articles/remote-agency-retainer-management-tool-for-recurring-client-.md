@@ -217,11 +217,15 @@ If building your own system feels like overkill, several platforms handle retain
 
 Key features to prioritize include visual budget dashboards, customizable alert thresholds, and the ability to distinguish retainer work from project or change order work on invoices. Multi-currency support matters if you work with international clients.
 
-## Related Reading
 
-- [Best Contract Management Tool for Remote Agency with Multiple Clients](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-clients/)
-- [How to Handle Client Calls Across 8-Hour Time Difference](/remote-work-tools/how-to-handle-client-calls-across-8-hour-time-difference/)
-- [Best Client Scheduling Tool for Remote Agency Across Time Zones](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-zones/)
+
+## Related Articles
+
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
+- [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
+- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

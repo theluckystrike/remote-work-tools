@@ -226,12 +226,15 @@ spares:
   - Power adapter 65W USB-C (1x)
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [How to Organize Cables in Home Office Setup](/remote-work-tools/how-to-organize-cables-in-home-office-setup/)
-- [Desk Organizer and Storage for Home Office 2026: A Developer's Guide](/remote-work-tools/desk-organizer-and-storage-for-home-office-2026/)
-- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
+- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
+- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

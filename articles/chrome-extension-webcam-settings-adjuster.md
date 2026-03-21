@@ -196,12 +196,15 @@ Most extensions apply settings per-tab. If your settings reset when opening a ne
 
 Ensure no other application is currently using your camera. Close other video apps, browser tabs with camera access, and system utilities that might claim the device.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Webcam for Zoom Calls in a Bright Window Behind You](/remote-work-tools/best-webcam-for-zoom-calls-in-a-bright-window-behind-you/)
-- [Chrome Extension Window Resizer Testing: Complete Guide for 2026](/remote-work-tools/chrome-extension-window-resizer-testing/)
-- [Chrome Security Headers Extension: A Practical Guide for.](/remote-work-tools/chrome-security-headers-extension/)
+
+## Related Articles
+
+- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
+- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
+- [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

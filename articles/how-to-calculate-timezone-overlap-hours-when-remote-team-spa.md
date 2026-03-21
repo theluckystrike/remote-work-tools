@@ -175,11 +175,14 @@ When calculating timezone overlaps, watch for these frequent mistakes:
 - Assuming Same Working Hours: Not all teams work 9-to-5. Confirm actual working hours with team members, as flexibility varies by culture and role.
 - Forgetting Weekends: Some team members might work weekends occasionally. Factor in weekend preferences when scheduling recurring meetings.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Cross Timezone Collaboration Protocol When.](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
-- [How to Schedule Meetings Across 8 Hour Timezone Difference Without Burning Out Team](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
-- [How to Manage Client Expectations When Team Works Asynchronous Hours](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+
+## Related Articles
+
+- [How to Calculate Productive Overlap Hours for Remote.](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
+- [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [Remote Employee Time Zone Overlap Optimization Tool for](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
+- [How to Manage Timezone Overlap When Working Remotely from](/remote-work-tools/how-to-manage-timezone-overlap-when-working-remotely-from-so/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

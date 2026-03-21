@@ -191,12 +191,15 @@ Battery consumption matters for mobile apps. Continuous beacon scanning drains p
 
 Consider privacy implications. Store location data ephemerally and provide clear opt-in controls. Most employees appreciate wayfinding convenience but resist persistent tracking. Implement data retention policies that delete location history after 24-48 hours.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
-- [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
-- [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
+- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+- [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

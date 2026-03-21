@@ -192,11 +192,15 @@ If you're moving from one platform to another, both offer import tools. Linear c
 
 The migration effort depends on your data complexity. Custom fields, attachments, and historical comments all require careful mapping.
 
-## Related Reading
 
-- [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
-- [Zulip vs Slack: A Deep Dive into Threaded Conversation.](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)
-- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+
+## Related Articles
+
+- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [.github/ISSUE_TEMPLATE/oncall-shift.md](/remote-work-tools/best-tool-for-tracking-remote-team-on-call-burden-distributi/)
+- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

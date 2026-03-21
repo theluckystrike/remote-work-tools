@@ -234,12 +234,15 @@ Use this feedback to evolve your process and ensure every new hire, regardless o
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Team Onboarding Process Template for New Hires.](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
-- [Remote Team First 90 Days Plan Template for Senior Hires Joining Distributed Company](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
-- [Hybrid Work Manager Training Program Template for.](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
+
+## Related Articles
+
+- [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
+- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

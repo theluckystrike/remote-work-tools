@@ -224,11 +224,14 @@ WHERE last_reviewed < DATE_SUB(CURDATE(), INTERVAL 90 DAY);
 A well-implemented ownership model transforms documentation from a chaotic afterthought into a reliable team resource. The initial setup effort pays dividends in reduced confusion, faster onboarding, and content that actually stays current.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
-- [Documentation Platform for a 15 Person Remote Data.](/remote-work-tools/documentation-platform-for-a-15-person-remote-data-science-t/)
-- [How to Set Up Remote Hiring Pipeline with Async.](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+
+## Related Articles
+
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
+- [Best Documentation Linting Tool for Remote Teams](/remote-work-tools/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
+- [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
+- [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

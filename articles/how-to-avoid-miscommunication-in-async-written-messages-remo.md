@@ -216,12 +216,15 @@ Before sending any async message, verify:
 Applying these patterns consistently will dramatically reduce miscommunication in your remote team. The initial investment in writing clearer messages pays dividends in saved time and improved collaboration.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Avoid Miscommunication in Async Written Messages.](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
+
+## Related Articles
+
+- [How to Avoid Miscommunication in Async Written Messages for](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remote-teams/)
 - [How to Write Effective Async Messages for Remote Work](/remote-work-tools/how-to-write-effective-async-messages-remote-work/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
+- [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

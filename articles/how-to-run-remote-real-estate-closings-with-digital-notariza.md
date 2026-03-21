@@ -227,12 +227,15 @@ Protecting sensitive real estate data requires attention to several areas:
 - Audit Logging: Maintain logs of all document access and actions
 - Data Retention: Follow jurisdiction-specific retention requirements, typically 5-10 years for real estate documents
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Real Estate Photographers.](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
-- [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
-- [Digital Signage for Hybrid Office Communication: A.](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
+
+## Related Articles
+
+- [Best Practice for Remote Real Estate Photographers](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

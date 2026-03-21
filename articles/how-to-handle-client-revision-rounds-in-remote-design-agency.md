@@ -423,12 +423,15 @@ After completing each project, take time to document what worked and what didn't
 
 This data helps you refine your scoping process and identify areas where client education might reduce revision friction. Over time, you'll develop increasingly accurate estimates and more effective communication patterns.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [How to Record Client Demo Videos Asynchronously for Remote Agency](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
-- [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
+
+## Related Articles
+
+- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [Upload large file with chunked upload](/remote-work-tools/best-file-sharing-solution-for-remote-agency-large-design-fi/)
+- [Project Tracking Tool for Two Person Design Agency 2026](/remote-work-tools/project-tracking-tool-for-two-person-design-agency-2026/)
+- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+- [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

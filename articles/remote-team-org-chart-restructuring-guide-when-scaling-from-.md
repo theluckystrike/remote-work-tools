@@ -181,12 +181,15 @@ The goal is finding the structure that matches your team's current needs—not c
 Building the right org structure for a growing remote team takes experimentation. Start with the minimum viable hierarchy, measure results, and adjust. Your team will tell you what works.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Values Documentation That.](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
-- [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
-- [Remote Team Channel Sprawl Management Strategy When.](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+
+## Related Articles
+
+- [Best Tool for Remote Team Org Directory with Timezone and](/remote-work-tools/best-tool-for-remote-team-org-directory-with-timezone-and-av/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+- [Remote Team Scaling Retrospective Template for Reflecting](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

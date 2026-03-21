@@ -274,12 +274,15 @@ No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API s
 
 Kubernetes applies a union of all matching policies. If any policy permits the traffic, it is allowed. There is no deny priority — only explicit allows. This means your deny-all policy blocks traffic by default, and any subsequent policy that permits specific traffic takes effect additively. You cannot write a policy that overrides a more permissive one.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Secure Remote Team Database Access with.](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
-- [How to Secure Slack and Teams Channels for Remote Team.](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
-- [How to Secure Remote Team CI/CD Pipeline From Supply.](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+
+## Related Articles
+
+- [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
+- [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

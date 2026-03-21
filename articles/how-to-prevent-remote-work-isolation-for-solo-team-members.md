@@ -210,12 +210,15 @@ Create separation between work and living spaces. Even a small desk in a corner 
 
 Set clear start and end times for work. Physical cues help: change clothes for work, step outside at lunch, create a shutdown ritual. Communicate these boundaries to teammates so they know when you're available.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Working Parent Self Care Checklist for Avoiding.](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [Best Tool for Remote Team Mood Tracking and Sentiment.](/remote-work-tools/best-tool-for-remote-team-mood-tracking-and-sentiment-analys/)
-- [How to Measure Remote Team Productivity Without.](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)
+
+## Related Articles
+
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
+- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
+- [How to Prevent Knowledge Silos When Remote Team Grows Past](/remote-work-tools/how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/)
+- [How to Detect and Prevent Burnout in Remote Employees](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

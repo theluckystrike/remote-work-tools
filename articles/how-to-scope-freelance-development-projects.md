@@ -187,12 +187,15 @@ Several tools help manage project scope:
 
 Build these into your scoping workflow. They create accountability and documentation that protects everyone involved.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Milestone Based Payment Structure for Dev Projects: A Practical Guide](/remote-work-tools/milestone-based-payment-structure-for-dev-projects/)
-- [Project Management for Husband and Wife Freelance.](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
-- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
+
+## Related Articles
+
+- [Remote Agency Scope Change Request Workflow for Client](/remote-work-tools/remote-agency-scope-change-request-workflow-for-client-projects/)
+- [Scope Creep Prevention Strategies for Freelancers](/remote-work-tools/scope-creep-prevention-strategies-for-freelancers/)
+- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
+- [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
+- [How to Manage Cross-Functional Remote Projects](/remote-work-tools/how-to-manage-cross-functional-remote-projects/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

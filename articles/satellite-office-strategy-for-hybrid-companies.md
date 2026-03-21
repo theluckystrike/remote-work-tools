@@ -217,12 +217,15 @@ A satellite office strategy for hybrid companies requires upfront investment in 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
-- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
-- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+
+## Related Articles
+
+- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
+- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

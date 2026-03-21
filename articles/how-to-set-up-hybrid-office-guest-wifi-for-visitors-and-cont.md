@@ -202,12 +202,15 @@ The key is assuming guests will connect untrusted devices and designing your net
 When contractors finish their engagements, revoke their credentials immediately. When events conclude, rotate passwords. These operational practices matter as much as the technical configuration.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Hybrid Office Wayfinding System for.](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)
-- [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
-- [How to Set Up Hybrid Office Digital Signage Showing Room.](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
+
+## Related Articles
+
+- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)
+- [Pin configuration](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -178,12 +178,15 @@ Track wiki effectiveness through support metrics:
 A well-implemented wiki reduces agent onboarding time by 40% and improves first-response consistency. The investment pays dividends through reduced ticket volume and improved customer satisfaction scores.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Wiki Template for Remote Team Engineering Design Documents](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
-- [Documentation Platform for a 15 Person Remote Data.](/remote-work-tools/documentation-platform-for-a-15-person-remote-data-science-t/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
+
+## Related Articles
+
+- [Front vs HelpScout for Remote Customer Support: A](/remote-work-tools/front-vs-helpscout-for-remote-customer-support/)
+- [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
+- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

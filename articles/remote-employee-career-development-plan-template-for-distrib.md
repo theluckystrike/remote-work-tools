@@ -178,12 +178,15 @@ Several patterns undermine remote career development:
 - Ignoring async communication skills: Technical excellence matters, but remote success requires strong written communication. Include this in your evaluation criteria.
 - No visibility to leadership: Ensure your company's leadership sees career development happening across distributed teams. otherwise, promotions may default to more visible office-based employees.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Security Incident Response Plan Template for.](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Remote Employee Probation Period Management Tools and.](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
+
+## Related Articles
+
+- [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
+- [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
+- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

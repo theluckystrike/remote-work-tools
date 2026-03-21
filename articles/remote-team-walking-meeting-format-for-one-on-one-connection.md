@@ -225,12 +225,15 @@ Before your first walking meeting:
 Walking meetings require more setup than sitting in front of a camera, but the payoff in conversation quality and relationship depth justifies the effort. Start with one walking meeting per week and evaluate after a month. Most teams that adopt this format find it becomes their preferred one-on-one structure.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team One on One Meeting Template for Engineering.](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [Remote Team Meeting Cadence Template for Engineering.](/remote-work-tools/remote-team-meeting-cadence-template-for-engineering-manager/)
-- [Best Tool for Tracking Remote Team Meeting Effectiveness and Reducing Waste](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
+
+## Related Articles
+
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

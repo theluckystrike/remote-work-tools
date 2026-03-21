@@ -211,12 +211,15 @@ This template scales to different team sizes and budgets. A bootstrapped startup
 The specific numbers and venues matter less than the discipline of planning. Use this framework as a starting point, adjust based on your team's specific needs, and iterate on future retreats based on post-event feedback.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Book Club Format and Help Guide for.](/remote-work-tools/remote-team-book-club-format-and-help-guide-developers/)
-- [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+
+## Related Articles
+
+- [Best Budget Tool Stack for a Bootstrapped Remote Team of 2](/remote-work-tools/best-budget-tool-stack-for-a-bootstrapped-remote-team-of-2/)
+- [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
+- [Remote Employee Equipment Return](/remote-work-tools/remote-employee-equipment-return-shipping-logistics-and-trac/)
+- [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
+- [Best Practice for Remote Team Quarterly Planning Process](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

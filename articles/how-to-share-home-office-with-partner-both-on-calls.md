@@ -365,12 +365,15 @@ Couples who implement this protocol report zero lingering frustration. The signa
 
 {% endraw %}
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
-- [Soundproofing Home Office for Remote Work Guide](/remote-work-tools/soundproofing-home-office-for-remote-work-guide/)
+
+## Related Articles
+
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
 - [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [How to Stop Dog Barking During Video Calls: A Complete](/remote-work-tools/how-to-stop-dog-barking-during-video-calls-work-from-home/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

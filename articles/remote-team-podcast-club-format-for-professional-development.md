@@ -345,12 +345,15 @@ Learning:
 
 Track action items in Linear/Jira. By end of quarter, review completion. Teams that convert podcast learnings to action items report highest engagement and sustained participation.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Book Club Format and Help Guide for.](/remote-work-tools/remote-team-book-club-format-and-help-guide-developers/)
+
+## Related Articles
+
+- [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
-- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

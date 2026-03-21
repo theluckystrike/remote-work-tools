@@ -180,11 +180,14 @@ If after the defined period (typically 30-60 days) the employee has not met succ
 The goal of any PIP is genuine improvement. When executed thoughtfully with clear metrics and consistent follow-up, remote performance improvement plans can turn struggling team members into reliable contributors. The structure you build now will scale as your distributed team grows.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Performance Tracking Tool Comparison for.](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
-- [How to Create Remote Team Working Agreement Template for.](/remote-work-tools/how-to-create-remote-team-working-agreement-template-for-new/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+
+## Related Articles
+
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
+- [Remote Employee Career Development Plan Template for](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [How to Create Remote Employee Exit Interview Process for](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

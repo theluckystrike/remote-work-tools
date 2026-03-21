@@ -198,12 +198,15 @@ Successful remote work in Mexico City depends on three things: reliable internet
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Neighborhoods in Lisbon for Remote Workers with.](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
+
+## Related Articles
+
 - [Greece Digital Nomad Visa Renewal Process for Remote Workers](/remote-work-tools/greece-digital-nomad-visa-renewal-process-for-remote-workers/)
-- [Costa Rica Digital Nomad Visa Tax Obligations for Remote.](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
+- [Mexico Temporary Resident Visa for Remote Workers Earning](/remote-work-tools/mexico-temporary-resident-visa-for-remote-workers-earning-fo/)
+- [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
+- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

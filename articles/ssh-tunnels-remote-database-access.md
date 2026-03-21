@@ -255,13 +255,15 @@ lsof -ti:5433 | xargs kill  # kill whatever is using port 5433
 # Test on the remote server: telnet localhost 5432
 ```
 
-## Related Reading
 
-- [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
-- [Best SSH Key Management Solution for Distributed Remote Engineering Teams](/best-ssh-key-management-solution-for-distributed-remote-engi/)
-- [tmux Config Guide for Remote Developers](/tmux-config-guide-remote-developers/)
 
----
+## Related Articles
+
+- [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
+- [Notion Database Templates for a Solo Recruiter Working Remot](/remote-work-tools/notion-database-templates-for-a-solo-recruiter-working-remot/)
+- [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -297,11 +297,14 @@ A physical therapist will:
 
 Most insurance covers physical therapy ($20-50 copay per session). Often 6-8 sessions is sufficient.
 
-## Related Reading
 
-- [Remote Work Troubleshooting Hub](/remote-work-tools/troubleshooting-hub/)
+
+## Related Articles
+
 - [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
-- [Ergonomic Laptop Stand for Remote Workers: A Developer's Guide](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
-- [How to Reduce Lower Back Pain from Sitting 8 Hours.](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)
+- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
+- [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
+- [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

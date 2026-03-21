@@ -168,12 +168,15 @@ If you're not ready for full automation, start with these simple changes:
 - **Use a daylight lamp** on gray days or during winter months when natural light is insufficient.
 - **Take light breaks**—step outside for 10 minutes during peak daylight hours.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
-- [Best Air Purifier for Home Office Productivity: A Developer's Guide](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+
+## Related Articles
+
+- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

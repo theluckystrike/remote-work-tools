@@ -315,13 +315,15 @@ echo ""
 echo "=== Audit complete ==="
 ```
 
-## Related Reading
 
-- [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
-- [Tailscale for Remote Team Networking Setup](/tailscale-remote-team-networking-setup/)
-- [Best SSH Key Management Solution for Distributed Remote Engineering Teams](/best-ssh-key-management-solution-for-distributed-remote-engi/)
 
----
+## Related Articles
+
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)
+- [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
+- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [Remote Work Ergonomic Assessment Checklist 2026](/remote-work-tools/remote-work-ergonomic-assessment-checklist/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

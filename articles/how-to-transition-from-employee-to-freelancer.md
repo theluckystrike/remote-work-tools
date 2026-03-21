@@ -355,12 +355,15 @@ Start by building financial runway, testing the freelance lifestyle with side pr
 The technical skills that made you employable transfer directly to freelance work. What you need to add are business fundamentals: client communication, financial management, and self-discipline. These are learnable.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [How to Ask for Referrals as a Freelance Developer](/remote-work-tools/how-to-ask-for-referrals-as-freelance-developer/)
-- [Freelance Developer to Product Builder Transition: A.](/remote-work-tools/freelance-developer-to-product-builder-transition/)
+
+## Related Articles
+
+- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
+- [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Open Source Contributions for Freelancer Credibility: A](/remote-work-tools/open-source-contributions-for-freelancer-credibility/)
+- [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

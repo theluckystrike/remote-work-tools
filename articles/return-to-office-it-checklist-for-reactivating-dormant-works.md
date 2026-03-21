@@ -215,12 +215,15 @@ For organizations with many dormant machines to reactivate, consider automation:
 This systematic approach ensures all dormant workstations and access badges are safely reactivated while maintaining security posture. The investment in thorough reactivation prevents security incidents and productivity losses from unexpected failures.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
-- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
-- [Return to Office Mental Health Support Resources for.](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
+
+## Related Articles
+
+- [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
+- [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
+- [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
+- [Return to Office Mental Health Support Resources for](/remote-work-tools/return-to-office-mental-health-support-resources-for-employe/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

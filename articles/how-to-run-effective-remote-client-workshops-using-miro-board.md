@@ -324,12 +324,15 @@ Track metrics across multiple workshops:
 
 If satisfaction drops below 3.5/5 or participation below 60%, review recording and ask for specific feedback on which elements didn't work.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+
+## Related Articles
+
+- [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
+- [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
+- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -201,12 +201,15 @@ The most effective response time strategy is reliability. When you commit to res
 
 If circumstances change—travel, illness, heavy workload—communicate proactively. A quick message like "Swamped today, may take 24 hours for PR reviews" is far better than leaving teammates guessing.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [How to Support Neurodivergent Remote Workers](/remote-work-tools/how-to-support-neurodivergent-remote-workers/)
-- [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
+
+## Related Articles
+
+- [Remote Team Support Ticket First Response Time Tracking for](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
+- [Time Audit for Remote Workers: A Practical How-To Guide](/remote-work-tools/time-audit-for-remote-workers-how-to-guide-2026/)
+- [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
+- [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

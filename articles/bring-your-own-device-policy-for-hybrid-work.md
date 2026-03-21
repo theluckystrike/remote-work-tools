@@ -228,12 +228,15 @@ Track key metrics:
 - Security incident frequency from personal devices
 - User satisfaction scores for BYOD experience
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Bring Your Own Device Policy for Remote.](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
-- [Best Endpoint Security Solution for Remote Employees.](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-- [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+
+## Related Articles
+
+- [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)
+- [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
+- [How to Create Hybrid Office Quiet Zone Policy for Employees](/remote-work-tools/how-to-create-hybrid-office-quiet-zone-policy-for-employees-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

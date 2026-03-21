@@ -209,12 +209,15 @@ For remote developer book clubs, these tools integrate well with existing workfl
 - **VS Code Live Share** — Collaborative code exploration
 - **Excalidraw** — Visual diagrams for system design discussions
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
+
+## Related Articles
+
 - [Remote Team Podcast Club Format for Professional Development](/remote-work-tools/remote-team-podcast-club-format-for-professional-development/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
+- [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

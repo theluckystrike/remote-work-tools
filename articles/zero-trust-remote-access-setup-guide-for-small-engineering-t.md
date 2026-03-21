@@ -254,12 +254,15 @@ Start with your highest-sensitivity resources: production databases, CI/CD pipel
 Zero trust isn't a product you buy—it's a framework you implement. Small engineering teams can deploy practical zero trust using open-source tools like Pomerium, Teleport, and Tailscale. The key is starting with your most sensitive resources and iterating systematically.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Zero Trust Network Setup Using Cloudflare Access for.](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
-- [How to Set Up Zero Trust Network Access for Distributed.](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
-- [Best Privileged Access Management Tool for Remote IT.](/remote-work-tools/best-privileged-access-management-tool-for-remote-it-admins-/)
+
+## Related Articles
+
+- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
+- [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)
+- [VPN vs Zero Trust Architecture Comparison for Remote Teams](/remote-work-tools/vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/)
+- [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)
+- [Ubuntu and Debian](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

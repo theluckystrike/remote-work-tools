@@ -288,12 +288,15 @@ Values documentation won't generate immediate visibility or revenue. The payoff 
 
 The technical teams that execute this best treat values documentation with the same seriousness they apply to architecture documentation. They version it, measure its effectiveness, and iterate based on feedback.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Values and Principles Document.](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+
+## Related Articles
+
+- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
-- [How to Scale Remote Team Design System Documentation.](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
+- [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
+- [How to Create Remote Team Career Ladder Documentation for](/remote-work-tools/how-to-create-remote-team-career-ladder-documentation-for-gr/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

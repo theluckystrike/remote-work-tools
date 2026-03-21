@@ -234,12 +234,15 @@ Use a reference photo with diverse skin tones. Adjust until skin tones appear si
 **Problem: HDR content breaks color matching**
 - Solution: Disable HDR for desktop use. Go to **System Settings** → **Displays** → **Advanced** and disable HDR.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
 - [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
-- [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
+- [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk.](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
+- [How to Mount Monitor on Wall Behind Standing Desk Setup](/remote-work-tools/how-to-mount-monitor-on-wall-behind-standing-desk-setup/)
+- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

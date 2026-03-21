@@ -226,11 +226,14 @@ You can also create your own automation using cron jobs or launch agents:
 0 * * * * /path/to/brightness_script.py
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [How to Prevent Eye Fatigue from Multiple Monitors with.](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
-- [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
+
+## Related Articles
+
+- [Base brightness decreases with more monitors](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
+- [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
+- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
+- [Zoom CLI example for updating PMI settings](/remote-work-tools/best-virtual-meeting-room-for-recurring-remote-client-check-/)
+- [Chrome Extension Webcam Settings Adjuster Guide](/remote-work-tools/chrome-extension-webcam-settings-adjuster/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

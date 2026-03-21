@@ -192,12 +192,15 @@ Regardless of which tool you choose, implement these practices:
 4. **Automate reminders** — Reduce administrative burden and improve completion rates
 5. **Store data securely** — Review data is sensitive; follow your security team's guidelines
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
-- [Remote Employee Career Development Plan Template for.](/remote-work-tools/remote-employee-career-development-plan-template-for-distrib/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+
+## Related Articles
+
+- [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)
+- [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

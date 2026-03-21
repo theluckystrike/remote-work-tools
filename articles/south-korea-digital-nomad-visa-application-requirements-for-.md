@@ -387,11 +387,14 @@ After 2 years, you'd need to apply for a different visa type (work visa with Kor
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Japan Digital Nomad Visa Requirements for Remote.](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+
+## Related Articles
+
+- [Japan Digital Nomad Visa Requirements for Remote Software](/remote-work-tools/japan-digital-nomad-visa-requirements-for-remote-software-en/)
+- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
+- [Sri Lanka Digital Nomad Visa Requirements and Coworking](/remote-work-tools/sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/)
+- [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

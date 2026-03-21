@@ -286,11 +286,14 @@ Paid time to work on open source projects of your choice. Teams often collaborat
 
 The common thread: all involve optional participation in something genuine and valuable. Success isn't about forcing connection—it's about creating conditions where connection can form naturally.
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Best Virtual Happy Hour Alternative for Remote Teams Who.](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
-- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
+
+## Related Articles
+
+- [Best Virtual Happy Hour Alternative for Remote Teams Who](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
+- [Best Slack Alternatives for Small Teams in 2026](/remote-work-tools/best-slack-alternatives-for-small-teams/)
+- [How to Create Async Standup Templates in Slack With](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
+- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
+- [Trello Alternatives for Agile Teams](/remote-work-tools/trello-alternatives-for-agile-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

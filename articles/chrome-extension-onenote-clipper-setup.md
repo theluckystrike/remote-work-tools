@@ -193,11 +193,15 @@ The OneNote Web Clipper excels at its core function but has boundaries:
 
 For edge cases, consider capturing content as PDF through Chrome's built-in print function, then attach the PDF to OneNote manually.
 
-## Related Reading
 
-- [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developers/)
-- [Building a Zettelkasten for Software Engineering](/remote-work/building-a-zettelkasten-for-software-engineering/)
-- [Obsidian vs Notion for Personal Knowledge Management](/remote-work/obsidian-vs-notion-for-personal-knowledge-management/)
+
+## Related Articles
+
+- [Chrome Extension Window Resizer Testing: Complete Guide for](/remote-work-tools/chrome-extension-window-resizer-testing/)
+- [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
+- [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)
+- [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
+- [Chrome Extension MLA Citation Generator: A Developer Guide](/remote-work-tools/chrome-extension-mla-citation-generator/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

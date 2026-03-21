@@ -183,12 +183,15 @@ miro.board.ui.on('icon:click', async () => {
 
 For simpler integrations, use Zapier or Make to connect Miro to tools like Linear, Asana, or Notion based on specific board updates.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Effective Remote Client Workshops Using Miro.](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
+
+## Related Articles
+
+- [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)
 - [How to Run Effective Remote Workshops](/remote-work-tools/how-to-run-effective-remote-workshops/)
-- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
+- [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -246,11 +246,15 @@ Start with async standups this sprint, add capacity planning in your next planni
 ---
 
 
-## Related Reading
 
-- [How to Manage Sprints with Remote Team: A Practical Guide](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
-- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
-- [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)
+
+## Related Articles
+
+- [How to Manage Sprints with Remote Team: A Practical](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
+- [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
+- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
+- [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

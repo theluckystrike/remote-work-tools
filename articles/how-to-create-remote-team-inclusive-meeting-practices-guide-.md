@@ -250,12 +250,15 @@ Watch out for these patterns that undermine inclusive meetings:
 - Recording as an afterthought: Start recordings from the beginning so synchronous attendees don't have advantages over async viewers.
 - Same-host timezone dominance: Rotate not just meeting times but meeting hosts, giving each time zone ownership.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [How to Create Remote Team Operations Handbook From Scratch Step by Step](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
+
+## Related Articles
+
+- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
+- [How to Create Remote Team Skip Level Meeting Program As](/remote-work-tools/how-to-create-remote-team-skip-level-meeting-program-as-orga/)
+- [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)
+- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
+- [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

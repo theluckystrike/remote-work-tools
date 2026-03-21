@@ -407,11 +407,14 @@ Week 11-12: Celebrate wins, plan next iteration
 Most teams report 30-40% improvement in code review throughput within 8 weeks of implementing structured review practices.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Remote Finance Team Approval Workflow for Expense Reports](/remote-work-tools/how-to-set-up-remote-finance-team-approval-workflow-for-expe/)
-- [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+
+## Related Articles
+
+- [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Claude Code for Faker.js Test Data Workflow Guide](/remote-work-tools/claude-code-for-faker-js-test-data-workflow-guide/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

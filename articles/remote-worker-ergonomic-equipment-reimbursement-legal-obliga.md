@@ -245,12 +245,15 @@ Start by auditing your current remote work policies, identifying gaps in equipme
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
-- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
-- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
+
+## Related Articles
+
+- [Best Journaling Apps for Remote Worker Reflection](/remote-work-tools/best-journaling-apps-for-remote-worker-reflection/)
+- [Best Tool for Tracking Remote Worker Tax Obligations Across](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [How to Register as Self-Employed Remote Worker in Portugal](/remote-work-tools/how-to-register-as-self-employed-remote-worker-in-portugal-f/)
+- [Remote Employee Equipment Return](/remote-work-tools/remote-employee-equipment-return-shipping-logistics-and-trac/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

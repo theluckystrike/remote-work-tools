@@ -333,12 +333,15 @@ The goal isn't eliminating all communication friction. Some is natural at scale.
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Remote Team Growing Pains When Communication Norms Break Down](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
-- [Remote Team Growth Stage Communication Audit.](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
-- [How to Handle Remote Team Reorg Communication When Restructuring Growing Distributed Organization](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+
+## Related Articles
+
+- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
+- [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
+- [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
+- [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

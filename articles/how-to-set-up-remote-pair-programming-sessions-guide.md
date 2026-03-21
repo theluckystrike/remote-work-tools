@@ -356,13 +356,15 @@ If real-time pairing isn't possible (time zones, schedules), record sessions for
 # 5. Share link to async reviewer
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Tools for Distributed Team Communication](/remote-work-tools/distributed-team-communication/)
-- [Async Code Review Best Practices for Remote Teams](/remote-work-tools/async-code-review-practices/)
-- [Setting Up a Home Office for Video Calls](/remote-work-tools/home-office-video-call-setup/)
-- [Top Development Tools for Remote Engineers](/remote-work-tools/development-tools-remote-engineers/)
+
+## Related Articles
+
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
+- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

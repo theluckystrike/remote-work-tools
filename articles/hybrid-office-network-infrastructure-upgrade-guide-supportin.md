@@ -195,12 +195,15 @@ Run through this checklist when upgrading your hybrid office network:
 - [ ] Document network topology and configuration for future reference
 - [ ] Schedule quarterly network assessments
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hybrid Office Access Control System Upgrade for Flexible.](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
-- [How to Set Up Hybrid Office Guest WiFi for Visitors and.](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
-- [Best Practice for Hybrid Office IT Setup Supporting Both.](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+
+## Related Articles
+
+- [Test UDP latency to Slack's media servers](/remote-work-tools/remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/)
+- [Hybrid Office Access Control System Upgrade for Flexible](/remote-work-tools/hybrid-office-access-control-system-upgrade-for-flexible-sch/)
+- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
+- [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
+- [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

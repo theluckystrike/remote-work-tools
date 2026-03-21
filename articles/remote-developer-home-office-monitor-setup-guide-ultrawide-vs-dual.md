@@ -285,11 +285,14 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 ```
 
 
-## Related Reading
 
-- [Best Ergonomic Office Setup for Remote Developers](/remote-work-tools/best-ergonomic-office-setup-for-remote-developers/)
-- [Standing Desks vs Sitting Desks Productivity Research](/remote-work-tools/standing-desks-vs-sitting-desks-productivity-research/)
-- [Best Mechanical Keyboards for Developers 2026](/remote-work-tools/best-mechanical-keyboards-for-developers-2026/)
-- [Remote Work Tools Guides Hub](/remote-work-tools/guides-hub/)
+
+## Related Articles
+
+- [List available color profiles](/remote-work-tools/external-monitor-color-matching-for-macbook-dual-display-setup/)
+- [Best Speakers for Home Office Setup 2026: A Developer Guide](/remote-work-tools/best-speakers-for-home-office-setup-2026/)
+- [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
+- [Example: Checking monitor USB-C capabilities](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
+- [How to Set Up Dual Monitor Arms on Remote Work Desk.](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

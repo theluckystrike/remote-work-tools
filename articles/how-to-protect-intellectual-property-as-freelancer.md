@@ -361,12 +361,15 @@ Make IP protection routine, not reactive:
 4. **Archive everything** — Keep signed contracts in cloud storage with version control
 5. **Document creation dates** — Use Git commits and file timestamps as evidence
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Intellectual Property Assignment Clause.](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
-- [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
-- [How to Separate Business and Personal Finances as a Freelancer](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
+
+## Related Articles
+
+- [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
+- [Best Practice for Remote Appraisers Conducting Property](/remote-work-tools/best-practice-for-remote-appraisers-conducting-property-valu/)
+- [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
+- [How to Transition From Employee to Freelancer](/remote-work-tools/how-to-transition-from-employee-to-freelancer/)
+- [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
