@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /notion-vs-coda-for-a-3-person-remote-content-team/
 categories: [comparisons]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, comparison, remote-work]

@@ -7,7 +7,7 @@ last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /notion-vs-clickup-for-a-remote-startup-under-10-employees/
 reviewed: true
-score: 8
+score: 9
 categories: [comparisons]
 intent-checked: true
 voice-checked: true
