@@ -179,6 +179,20 @@ public class TeamsTranslator
 }
 ```
 
+## Side-by-Side Tool Comparison
+
+Choosing between these platforms comes down to your team's language mix, data sensitivity requirements, and existing tooling. The table below summarizes the key differentiators:
+
+| Tool | Free Tier | Best Languages | Self-Hosted | Glossary Support | Slack Integration | Cost (paid) |
+|------|-----------|----------------|-------------|-----------------|-------------------|-------------|
+| DeepL | 500K chars/mo | European (EN, DE, FR, ES, JA) | No | Yes (Pro) | Via API | $6.99/mo |
+| Google Cloud | $10 credit/mo | 135+ languages | No | AutoML | Via API | $20/M chars |
+| LibreTranslate | Unlimited | ~30 languages | Yes | No | Via API | Free / hosting |
+| Azure Translator | 2M chars/mo | 100+ languages | No | Custom Glossary | Native Teams | $10/M chars |
+| Argos Translate | Unlimited | ~30 pairs | Yes (offline) | No | No | Free |
+
+For European-heavy teams, DeepL's accuracy advantage over Google is measurable—particularly for German, French, Polish, and Portuguese. For Asia-Pacific teams covering Thai, Vietnamese, or Indonesian, Google Cloud Translation generally provides better coverage and accuracy.
+
 ## Building a Custom Translation Pipeline
 
 For teams with specific requirements, building a custom translation pipeline using multiple services provides flexibility.
@@ -233,6 +247,73 @@ class TranslationPipeline:
 
 This pipeline pattern ensures your team communication never stalls due to a single service outage.
 
+## Handling Glossaries and Domain-Specific Terminology
+
+Generic machine translation fails when your team uses product names, internal jargon, or domain-specific terms that should never be translated. DeepL Pro glossaries and Google Custom Translation models both address this, but through different mechanisms.
+
+With DeepL, you create a glossary via the API and attach it to every translation request:
+
+```python
+import deepl
+
+auth_key = "your-deepl-auth-key"
+translator = deepl.Translator(auth_key)
+
+# Create a glossary for your product's terminology
+entries = {
+    "sprint": "sprint",          # Keep "sprint" untranslated in all target languages
+    "pull request": "pull request",
+    "backlog": "backlog",
+    "API gateway": "API gateway"
+}
+
+glossary = translator.create_glossary(
+    "Engineering Terms",
+    source_lang="EN",
+    target_lang="DE",
+    entries=entries
+)
+
+# Use the glossary in translations
+result = translator.translate_text(
+    "Please review the pull request for the API gateway feature",
+    target_lang="DE",
+    glossary=glossary
+)
+```
+
+Google Cloud's approach uses a custom model trained on your parallel corpus—pairs of source and translated text that reflect your specific vocabulary. This produces higher quality results for high-volume use cases but requires a minimum dataset of 10,000 sentence pairs to train effectively.
+
+## Integrating Translation into Slack Workflows
+
+Most remote teams spend the majority of their async communication time in Slack. Adding automatic message translation reduces friction without requiring team members to switch contexts.
+
+A lightweight Slack bot that translates messages on demand using a slash command:
+
+```python
+from slack_bolt import App
+import requests
+
+app = App(token="xoxb-your-slack-bot-token")
+
+@app.command("/translate")
+def handle_translate(ack, body, respond):
+    ack()
+    text = body.get("text", "")
+    if not text:
+        respond("Usage: /translate [target_lang] [message]  e.g. /translate DE Hello team")
+        return
+
+    parts = text.split(" ", 1)
+    target_lang = parts[0].upper()
+    message = parts[1] if len(parts) > 1 else ""
+
+    translated = translate_with_deepl(message, target_lang)
+    respond(f"*{target_lang}*: {translated}")
+```
+
+For fully automated translation where every message in a channel is translated to English (useful for leadership channels monitoring multilingual teams), use Slack's Events API to listen to `message` events and post translations as threaded replies.
+
 ## Practical Implementation Recommendations
 
 For most remote teams, a pragmatic approach combines DeepL for accuracy-sensitive communications with a self-hosted option for sensitive data. Consider these implementation patterns:
@@ -241,6 +322,10 @@ For most remote teams, a pragmatic approach combines DeepL for accuracy-sensitiv
 - **Real-time chat**: Implement streaming translation with a primary provider and fallback
 - **Documentation**: Use human translation for customer-facing content, machine translation for internal docs
 - **Glossaries**: Maintain team-specific terminology lists in your translation tool
+- **Compliance and privacy**: For regulated industries, route sensitive content through self-hosted LibreTranslate or Argos Translate to ensure no data leaves your infrastructure
+- **Budget tracking**: Set per-team usage quotas using API key scoping to prevent runaway translation costs
+
+Start with DeepL's free tier for European languages and Google Cloud for broader coverage. As usage grows past 1M characters per month, evaluate whether a negotiated enterprise contract or a self-hosted deployment produces better economics for your team's language mix.
 
 
 ## Related Articles
