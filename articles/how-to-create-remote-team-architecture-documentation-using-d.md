@@ -26,11 +26,22 @@ Traditional diagramming tools create binary files that don't merge well in versi
 
 The benefits extend beyond version control. Your diagrams become refactorable, testable, and reproducible. Teams can review diagram changes through pull requests, adding the same rigor to architecture decisions as code reviews.
 
+For remote teams specifically, diagrams as code solves the asynchronous communication problem. Instead of scheduling a screen-share to walk colleagues through a whiteboard sketch, you commit a diagram file. Team members in different time zones can review it on their own schedule, leave comments inline, and suggest changes through standard pull request tooling.
+
 ## Popular Diagrams as Code Tools
 
 Several tools fit well for remote team documentation. Mermaid.js offers the lowest barrier to entry—it renders diagrams from text directly in Markdown files. PlantUML provides more advanced diagramming capabilities with enterprise features. Structurizr combines architecture diagrams with C4 model compliance.
 
 For most remote teams, starting with Mermaid provides immediate value without additional tooling. You can embed diagrams directly in GitHub README files, Notion pages, or any Markdown-supporting platform.
+
+Here is a quick comparison to help you choose:
+
+| Tool | Hosting Required | Best For | Learning Curve |
+|------|-----------------|----------|----------------|
+| Mermaid.js | No (GitHub native) | Flowcharts, sequences, ERDs | Low |
+| PlantUML | Yes (Java) | UML, complex enterprise diagrams | Medium |
+| Structurizr | Yes (Docker/SaaS) | C4 model, architecture portfolios | High |
+| D2 | No (CLI) | Modern syntax, auto-layout | Low |
 
 ## Getting Started with Mermaid
 
@@ -147,6 +158,8 @@ Treat diagram files like source code in your workflow:
 
 This workflow ensures architecture changes receive proper scrutiny. Teams often require diagram updates alongside code changes for new features.
 
+A practical way to enforce this is adding a PR template checklist item: "Architecture diagram updated if this PR changes service boundaries or data flows." That single line prevents documentation drift across a distributed team.
+
 ## Embedding Diagrams in Documentation
 
 Jekyll sites support Mermaid through plugins or CDN includes. Add this to your layout:
@@ -159,6 +172,8 @@ Jekyll sites support Mermaid through plugins or CDN includes. Add this to your l
 ```
 
 Your Markdown files then render diagrams automatically. This approach works with GitHub Pages, Netlify, or any static hosting.
+
+For internal documentation wikis, Confluence has a Mermaid plugin. Notion renders Mermaid in code blocks natively. GitLab renders Mermaid inline. This broad platform support means your diagrams travel with your documentation regardless of where your team prefers to work.
 
 ## Best Practices for Remote Teams
 
@@ -173,6 +188,8 @@ Maintain diagram quality across distributed teams by following these practices:
 **Write diagram descriptions.** Add context explaining what the diagram shows and any assumptions. Future readers—including future you—will appreciate the clarity.
 
 **Review diagrams in PRs.** Treat diagram changes as code reviews. Check for accuracy, clarity, and consistency with existing documentation.
+
+**Assign diagram ownership.** For each major system area, designate a team member responsible for keeping diagrams current. Ownership prevents the tragedy of the commons where everyone assumes someone else will update the docs.
 
 ## Automating Diagram Generation
 
@@ -190,6 +207,38 @@ def generate_deployment_diagram(services):
 
 Automated generation keeps documentation synchronized with deployed services. Run generation as part of your CI pipeline to ensure diagrams always reflect current state.
 
+You can extend this approach to generate diagrams from your infrastructure-as-code definitions. Parse Terraform output or Kubernetes manifests to produce topology diagrams automatically. When the infrastructure changes, the diagram updates on the next CI run without any manual intervention.
+
+## CI/CD Integration for Diagram Validation
+
+Add a CI step to validate diagram syntax before merging:
+
+```yaml
+# .github/workflows/validate-diagrams.yml
+name: Validate Diagrams
+on: [pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install mmdc
+        run: npm install -g @mermaid-js/mermaid-cli
+      - name: Validate all Mermaid diagrams
+        run: |
+          find docs -name "*.md" -exec grep -l "```mermaid" {} \; | while read f; do
+            mmdc -i "$f" -o /tmp/test.svg && echo "OK: $f" || echo "FAIL: $f"
+          done
+```
+
+This CI step catches syntax errors before they reach main. For remote teams where async review is the norm, automated validation reduces round-trip time on pull requests—reviewers don't need to manually check that diagram syntax is valid.
+
+## Onboarding New Team Members with Diagrams
+
+Architecture documentation built on diagrams as code becomes a self-service onboarding resource. New engineers can clone the repository and immediately see system topology without scheduling calls. A well-structured `docs/architecture/` directory with a README explaining the C4 levels gives any new hire a path from high-level context to component detail.
+
+Create an architecture tour document that links diagrams in sequence: start with the system context, move to containers, then highlight the two or three sequence diagrams that describe the most critical user flows. New team members across time zones can complete this tour independently in their first week.
 
 ## Related Articles
 
