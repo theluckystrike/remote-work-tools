@@ -159,6 +159,176 @@ RFCs fail when they become performative exercises rather than genuine decision-m
 - No clear owner: Every RFC needs a single author responsible for driving it forward
 - Bypassing the process for "urgent" decisions: Reserve exceptions for true emergencies
 
+## RFC Tools and Workflow Integration
+
+Successful RFC processes use tools that make submission and review frictionless:
+
+**Tool Options for Different Team Sizes**
+
+Small teams (5-15):
+- GitHub Issues + GitHub Discussions ($0-21/month depending on plan)
+- Google Docs with shared folder ($50-140/year for business account)
+- Notion with shared workspace ($8-10/user/month)
+
+Mid-size (15-50):
+- Dedicated GitHub repo for RFCs ($0 if GitHub-native workflow)
+- Slite ($12-15/user/month) with RFC channel
+- Confluence (self-hosted free, or $5-8/user/month cloud)
+
+Large teams (50+):
+- GitBook ($99-499/month for enterprise)
+- Confluence self-hosted (free to download, internal hosting costs)
+- Custom internal system (for companies with thousands of RFCs)
+
+**GitHub-based RFC Workflow (Recommended for Technical Teams)**
+
+Use a dedicated `rfcs` repository with this structure:
+
+```
+rfcs/
+├── text/
+│   ├── 0001-new-database-migration.md
+│   ├── 0002-microservice-architecture.md
+│   └── 0003-auth-system-redesign.md
+├── README.md (process overview)
+└── decisions/ (merged/accepted RFCs)
+    ├── 0001-new-database-migration.md
+    └── 0002-microservice-architecture.md
+```
+
+Create a pull request for the RFC. GitHub labels and review process handle:
+- `rfc-draft` → `rfc-under-review` → `rfc-approved` → `rfc-closed`
+- Automated notifications for team members
+- Searchable history of all decisions
+- Built-in commenting and discussion
+
+## Real RFC Examples
+
+**Example 1: Microservices Migration (Complex, Cross-Team Impact)**
+
+```markdown
+# RFC: Migrate from Monolith to Microservices
+
+## Problem Statement
+Our monolithic Rails app has reached 200K LOC. Deployments take 45 minutes.
+Feature work in one domain blocks unrelated features. Database queries are
+slow due to N+1 problems across modules.
+
+## Proposed Solution
+Migrate to microservices:
+1. Extract payment domain into separate service (3 month timeline)
+2. Extract user management domain (2 months)
+3. Extract notification domain (1 month)
+4. Keep core app for remaining features
+
+## Alternatives Considered
+1. Modular monolith with better code organization: Solves structure but
+   doesn't improve deployment speed or database query issues
+2. Full microservices immediately: Too risky, requires 12-month rewrite
+3. Do nothing: Team velocity continues declining 15%/quarter
+
+## Timeline
+- Month 1: Design payment service API, set up infrastructure
+- Month 2: Extract payment logic, parallel test with existing app
+- Month 3: Cutover to payment microservice
+- Month 4-6: Extract user management
+- Month 7: Extract notifications
+- Month 8: Evaluate results, decide next steps
+
+## Risks & Mitigation
+- Risk: Distributed systems complexity increases debugging difficulty
+  Mitigation: Implement structured logging (ELK stack, $500/month) and
+  distributed tracing (Jaeger)
+
+- Risk: Network latency between services impacts performance
+  Mitigation: Benchmark in staging, accept <100ms additional latency
+
+## Success Metrics
+- Deployment time reduced from 45 to 15 minutes
+- New feature time to ship reduced by 30%
+- Database query p99 latency reduced by 50%
+- Measure at end of each service extraction
+```
+
+**Example 2: Engineering Process Change (Moderate Impact, Cross-Team)**
+
+```markdown
+# RFC: Implement Code Review SLA
+
+## Problem Statement
+Code reviews currently take 24-72 hours. This blocks feature development
+and creates context switching when developers return to their code days
+later. Team members report frustration waiting for reviews.
+
+## Proposed Solution
+Implement 4-hour maximum code review SLA:
+- PRs opened during work hours: reviewed within 4 hours
+- PRs opened outside work hours: reviewed by 11 AM next business day
+- Reviewers add self to PR queue via rotation schedule
+- Small PRs (<200 lines) prioritized for faster turnaround
+
+## Implementation Details
+1. Create GitHub label: `waiting-review`
+2. Implement bot (GitHub Actions, free) that escalates PRs waiting >4h
+3. Assign reviewers via rotation (Alice week 1, Bob week 2, etc)
+4. Track SLA compliance in weekly metrics
+
+## Risks & Mitigation
+- Risk: Forcing fast reviews reduces quality
+  Mitigation: "Fast review" doesn't mean "thorough review." Use draft PRs
+  and request feedback earlier. Measurement shows quality unchanged.
+
+- Risk: Reviewers get overwhelmed with queue
+  Mitigation: Implement PR size guidelines (max 400 lines) first. Large PRs
+  get assigned earlier in week.
+
+## Success Metrics
+- 90% of PRs reviewed within 4 hours
+- Average review time under 8 hours
+- Quality metrics (bugs found, regression rate) unchanged
+- Team satisfaction survey shows improvement
+
+## Timeline
+- Week 1: Communicate change, explain rationale
+- Week 2: Deploy bot, establish rotation
+- Week 3: Monitor and adjust expectations
+- Week 4: Review first weekly metrics
+```
+
+## Running Efficient RFC Review Periods
+
+Standard 72-hour review period works well for most teams. However, optimize for:
+
+**Timing considerations:**
+- Post RFCs Monday or Tuesday (gives team full week to review)
+- Avoid posting Friday afternoon (sits unreviewed over weekend)
+- Consider time zones (post 8-9 AM most accessible time zone)
+
+**Participation targets:**
+- Minimum 3 reviewers from different teams (ensures diverse perspective)
+- Target 1 comment per reviewer (questions, suggestions, concerns)
+- Decision-maker provides summary within 24 hours of review period end
+
+**Review efficiency checklist:**
+- [ ] Is the problem clearly stated? (Can someone unfamiliar understand?)
+- [ ] Are alternatives documented? (Shows author considered options)
+- [ ] Is implementation plan realistic? (Can team actually do this?)
+- [ ] Are success metrics measurable? (Can you verify it worked?)
+- [ ] Are risks identified? (What could go wrong?)
+
+If an RFC is missing any of these, request revisions before starting review period.
+
+## Learning from Decisions
+
+Every approved RFC is a learning opportunity. Monthly, pick one approved RFC and:
+
+1. Review: Was implementation aligned with the RFC?
+2. Measure: Did we achieve success metrics?
+3. Reflect: What worked? What surprised us? What would we do differently?
+4. Document: Add a "Results" section to the RFC with learnings
+
+This practice creates organizational learning that compounds over time. New team members can read old RFCs and understand not just decisions, but the outcomes of those decisions.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

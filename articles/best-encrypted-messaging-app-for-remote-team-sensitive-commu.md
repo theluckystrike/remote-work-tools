@@ -158,6 +158,165 @@ Your team's choice depends on threat model and operational requirements:
 
 The right choice balances your actual threat model against the operational complexity your team can manage. For most remote engineering teams handling client data and proprietary information, a combination works: Signal for high-sensitivity communications, Mattermost for day-to-day team collaboration with self-hosted deployment.
 
+## Implementation Guides by Use Case
+
+**Case 1: Early-Stage Startup (5-15 people, moderate risk)**
+
+Recommended stack:
+- Signal for sensitive discussions (zero cost)
+- Slack for daily coordination (standard plan $7/user/month)
+- Encrypted password manager (1Password Teams: $3.99/user/month)
+
+Why this works:
+- Minimal operational overhead (no infrastructure)
+- Signal is free and audited
+- Slack integration with team already present
+- Total cost: ~$12/user/month
+
+Setup time: 30 minutes (download Signal, share phone numbers with team)
+
+**Case 2: Mid-Size Company (20-100 people, high sensitivity)**
+
+Recommended stack:
+- Wickr Teams ($5-8 per user/month) for sensitive communications
+- Mattermost self-hosted ($0, or dedicated servers ~$300/month) for day-to-day
+- HashiCorp Vault ($500/month) for secrets management
+
+Why this works:
+- Wickr provides compliance and admin controls needed at scale
+- Mattermost integration with existing infrastructure (LDAP/SAML)
+- Vault handles encryption key management
+- Provides audit logs for compliance
+
+Infrastructure cost: ~$800-1000/month for 50 users
+
+**Case 3: Regulated Industry (Healthcare, Finance)**
+
+Recommended stack:
+- Wickr Enterprise for all communications (custom pricing, typically $10-15/user/month)
+- Cloudflare Zero Trust ($20/user/month) for network security
+- DLP (Data Loss Prevention) tools integrated with Wickr API
+
+Why this works:
+- Wickr meets HIPAA, SOC 2, FedRAMP requirements
+- Message destruction and screenshot detection prevents data leakage
+- Audit trails demonstrate compliance to regulators
+- DLP catches accidentally shared PII
+
+Compliance certification: Plan 6-month certification timeline
+
+## Adoption Strategies
+
+Choosing a platform means nothing if the team doesn't use it. Use these strategies:
+
+**Phase 1: Announcement (Day 1)**
+- Send company-wide message explaining what platform you chose and why
+- Be specific about threat model: "We're using Signal because we want government-level encryption strength"
+- Not "We're using this because I read an article"
+
+**Phase 2: Pilot (Week 1)**
+- Leaders (C-suite, engineering managers) start using platform immediately
+- Create a small group chat to test features, workflows
+- Document what works and what's awkward
+
+**Phase 3: Rollout (Week 2-3)**
+- Require all sensitive discussions move to new platform
+- Provide simple guide: "How to report a security incident using Wickr" (link to guide)
+- Disable old communication channels for sensitive data
+
+**Phase 4: Enforcement (Month 1)**
+- Code reviews: Security team scans Slack for credential patterns, routes sensitive data to Wickr
+- Onboarding: Every new hire receives guide as part of security training
+- Metrics: Measure adoption (% of sensitive data moved to platform)
+
+Most teams reach 70%+ adoption by month 2 if leadership models the behavior.
+
+## Pricing and Cost Analysis
+
+Don't just look at per-user cost—calculate total cost of ownership:
+
+**Wickr Teams vs Mattermost**
+
+Wickr cost for 30 people:
+- Wickr license: $8/user/month × 30 = $240/month
+- Admin time (10 hours/year): ~$500
+- Training (4 hours/year): ~$200
+- Annual total: $4,940
+
+Mattermost cost for 30 people (self-hosted):
+- Dedicated server: $300/month = $3,600/year
+- Admin time (80 hours/year): ~$4,000
+- Training (4 hours/year): ~$200
+- Annual total: $7,800
+
+Wickr is actually cheaper for small-to-mid teams when you factor in admin overhead.
+
+**Signal vs Slack for Organizations**
+
+Signal cost for 50 people:
+- Licensing: Free ($0)
+- Admin time (5 hours/year): ~$250
+- Training (1 hour/year): ~$50
+- Annual total: ~$300
+
+Slack cost for 50 people:
+- Slack Pro: $7/user/month × 50 = $3,500/month = $42,000/year
+- Admin time (40 hours/year): ~$2,000
+- Training (10 hours/year): ~$500
+- Annual total: $45,000
+
+Slack isn't your encryption solution—it's your collaboration platform. Signal supplements Slack.
+
+## Security Configuration Hardening
+
+Platform choice matters less than configuration. Use these hardening practices:
+
+**For Signal:**
+```bash
+# iOS/Android settings
+Settings → Privacy → Screen Security: ON
+Settings → Privacy → Show Notifications: OFF (requires Signal open)
+Settings → Privacy → Incognito Keyboard: ON
+Settings → Disappearing Messages: Default 1 day for group chats
+```
+
+**For Wickr:**
+```
+Settings → General → Auto Destruction: 1 hour
+Settings → Security → Screenshot Detection: ON
+Settings → Security → Screenshot Notification: ON
+Settings → Security → Two-Factor: Biometric
+```
+
+**For Mattermost self-hosted:**
+```yaml
+ServiceSettings:
+  SiteURL: "https://mattermost.company.com" # HTTPS only
+  EnableOAuthServiceProvider: false
+
+SecuritySettings:
+  EnableSecurityFixAlert: true
+  # Require HTTPS for all connections
+  ConnectionSecurity: TLS
+
+NotificationSettings:
+  # Disable notifications that might leak content
+  PushNotificationContents: generic_no_user_info
+```
+
+## Incident Response Workflows
+
+Define how sensitive incidents flow through your messaging platform:
+
+**Example: Potential Data Breach**
+
+1. Discoverer: Posts in #incidents Slack channel "Potential breach - check Signal"
+2. Team lead: Opens Signal group chat "Incident-2026-03-15"
+3. Discussion: Team assesses whether data actually leaked (not in Slack, sensitive data only in Signal)
+4. Resolution: Post public summary in Slack once severity determined
+5. Retention: Signal messages auto-delete in 24 hours, Slack archive kept for compliance
+
+This pattern keeps sensitive conversation private while keeping team coordination visible.
 
 ## Related Reading
 

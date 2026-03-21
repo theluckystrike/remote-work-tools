@@ -157,6 +157,177 @@ A programmable standing desk makes transitions smooth. Set memory positions for 
 
 The key to fitting ergonomic furniture in a tiny room is measuring twice and buying once. Use the code provided to plan your layout, verify your room dimensions against furniture specifications, and prioritize adjustability in your equipment choices. A well-planned small workspace can be just as ergonomic as a large office.
 
+## Recommended Compact Equipment for Tiny Rooms
+
+When space is limited, equipment choice becomes critical. These options work well in rooms under 100 square feet:
+
+**Standing Desks (48-60 inches)**
+- Autonomous SmartDesk Core: $299-349, motorized, fully programmable height memory, reliable for small spaces
+- FlexiSpot E7: $349-399, dual-motor for stability, includes memory presets
+- Ikea Bekant + Autonomous DIY Motor Kit: ~$200, budget option using motorized conversion
+
+**Compact Ergonomic Chairs**
+- Herman Miller Aeron (refurbished): $600-800, 5-year warranty, adjustable seat depth crucial for tiny rooms
+- Secretlab Omega 2022: $379-449, compact footprint with 4D armrests that tuck away completely
+- Steelcase Leap: $500-700, similar to Aeron with better back support for extended sitting
+- Budget alternative: ikea Markus + lumbar support pillow: ~$150
+
+**Monitor Solutions**
+- Single 27-inch 4K monitor: 1440p or higher reduces eye strain while taking less desk space than dual monitors
+- Monitor arm (Ergotron LX): $200-250, frees surface area and enables precise positioning
+- Monitor riser with storage: allows keyboard/mouse to slide underneath
+
+**Cable Management**
+- Under-desk cable tray: $30-50, keeps floor clear for chair rolling
+- Adhesive cable clips: $10-15, keeps cables off the floor
+- Magnetic cable organizer: $15-25, reduces cable mess
+
+## Cost-Benefit Analysis for Small Spaces
+
+Investing in proper ergonomic furniture now prevents medical costs later. A single incident of serious back or neck pain can cost $5,000-15,000 in physical therapy or medical treatment. Quality ergonomic equipment ($1,200-2,000 initial investment) pays for itself within 12 months if it prevents one significant injury.
+
+Consider this ROI calculation for a developer earning $100,000/year:
+- Cost of one month lost productivity from back pain: ~$8,000
+- Cost of ergonomic setup: $1,500
+- Payback period: ~2 months of preventing injury
+
+This math justifies even premium equipment choices for developers who spend 8+ hours daily at their desk.
+
+## Troubleshooting Common Small-Room Setup Problems
+
+**Problem: Monitor arm blocks chair movement**
+Solution: Position monitor arm to the side of the desk rather than center, or use a fully extending arm (Ergotron LX extends 20+ inches) that tucks against the wall when not in use.
+
+**Problem: Standing desk is too deep for the room**
+Solution: Use a desk converter (sit-on-top standing solution) instead of a full standing desk. Converters like Autonomous SmartDesk Lite Mini (30 inches deep) fit in tighter spaces than full desks.
+
+**Problem: Keyboard tray takes up too much space**
+Solution: Use a mechanical keyboard with built-in wrist rest (Kinesis Advantage) or a compact wireless keyboard that stores away when not in use (Keychron K2).
+
+**Problem: Cable clutter makes the space feel smaller**
+Solution: Use a cable management box ($15-30) that hides power strips and cable adapters entirely.
+
+## Small Room Setup Checklist
+
+Before purchasing any equipment, work through this checklist:
+
+- [ ] Measure floor-to-ceiling height (does a monitor arm physically fit?)
+- [ ] Measure wall space available (at least 60 inches of continuous wall)
+- [ ] Check electrical outlet placement (avoid extension cords that create tripping hazards)
+- [ ] Confirm door swing clearance (36 inches behind chair minimum)
+- [ ] Test chair rolling radius (is there space to actually move?)
+- [ ] Verify standing desk height range fits your body (42-48 inches is standard)
+- [ ] Check monitor viewing angle (top third of screen at eye level when seated)
+- [ ] Simulate typing position (elbows at 90 degrees, wrists neutral)
+
+Complete this checklist before ordering anything—it prevents expensive mistakes like buying a desk that won't fit or a chair that can't roll.
+
+## Desk Configuration Tips for Maximum Space Efficiency
+
+Once you have your furniture, configuration choices matter as much as equipment choices.
+
+**Monitor Placement Strategy**
+Rather than centering your monitor on the desk, offset it to one side. This saves 8-10 inches of depth. Position it 20-24 inches from your face, about 15-20 degrees to one side. Your eyes naturally work better with slightly off-center positioning, and it frees desk depth for other uses.
+
+**Keyboard and Mouse Positioning**
+Compact mechanical keyboards (60-65% size) take 12-14 inches of width versus 18+ for full-size keyboards. Pair with a vertical mouse (trackball) which takes minimal space. Position these at elbow height with the monitor arm doing all the vertical adjustment.
+
+**Cable Management That Saves Space**
+Under-desk cable trays ($30-50) keep cables completely off the floor, making the space feel larger and preventing cable visibility. Use velcro cable ties (not tape—they're reusable) bundled into a single thick bundle rather than scattered cables.
+
+**Vertical Storage**
+Use wall-mounted shelves above the desk to store peripherals, documentation, or books. A single 24-inch floating shelf above your desk adds storage without consuming floor space. Position it 18-24 inches above your monitor so it doesn't interfere with your sight line.
+
+## The Standing Desk Height Dilemma
+
+Standing desks solve the chair depth problem but create a new one: what height works for both sitting and standing?
+
+**Sitting height needs:** Elbows at 90 degrees, typically 28-30 inches off the ground
+**Standing height needs:** Elbows at 90 degrees, typically 40-46 inches off the ground
+
+A motorized sit-stand desk solves this by adjusting between heights. Program preset buttons:
+- Sitting position: Your calculated sitting height (usually 28-29 inches)
+- Standing position: Your calculated standing height (usually 43-45 inches)
+
+Most motorized desks cost $300-500 and adjust through 24+ inches of range—sufficient for most body types.
+
+If a motorized desk is too expensive, consider:
+- **Desktop converter:** Sits on top of existing desk, raises keyboard/monitor to standing height (~$100-200)
+- **Two separate desks:** One for sitting, one for standing (more space required, but lowest total cost)
+- **Keyboard tray system:** Adjustable under-desk tray lets you shift keyboard height without moving the entire desk
+
+## Potential Problems and Solutions
+
+**Problem: Monitor arm won't extend far enough**
+Some monitor arms have limited reach. Before purchasing, verify extension length. Ergotron LX extends 20 inches—good for small spaces. Cheaper arms extend only 10-12 inches.
+
+Solution: Mount the monitor arm at the furthest back corner of the desk, angling it forward. This effectively adds 6-8 inches of reach.
+
+**Problem: Chair wheel movement is restricted by walls**
+If your chair is against a wall and can't roll backward, use a hard floor protector mat that extends 4 feet from the desk. This creates space for chair movement without requiring extra floor space.
+
+**Problem: Desk surface too small for keyboard, mouse, and monitor**
+Solution: Mount monitor on arm, store keyboard in drawer, and use only keyboard and mouse when working. Return keyboard to drawer when not in use. This takes discipline but works.
+
+## Small-Room Workspace in Action
+
+Real example: 8x9 foot bedroom
+
+```
+[Wall]
+[Closet 3'w] [Standing desk 4'w] [3' open space]
+        |
+     Monitor arm reaches 20" into room
+        |
+    Compact chair (2.5' depth)
+        |
+Door → [Open space 2.5' to wall]
+```
+
+Measurements:
+- Desk against wall: 4 feet width × 30 inches depth
+- Monitor arm extends 20 inches forward
+- Chair positioned 15 inches from desk
+- Total footprint from wall: 45 inches deep (3.75 feet)
+- Floor space available for walking: 4.25 feet × 9 feet = 38 square feet (rest of room)
+
+This configuration provides full ergonomic functionality in a room where it might seem impossible.
+
+## Budget Progression: Upgrade Path for Tiny Rooms
+
+If you're starting with zero ergonomic setup, upgrade strategically:
+
+**Phase 1 - Immediate ($50, takes 10 min)**
+- Stack books under laptop (lift screen to eye level)
+- USB keyboard from home office ($20)
+- Total investment: $50
+- Effectiveness: 70%
+
+**Phase 2 - First Paycheck ($150, takes 30 min)**
+- Laptop stand ($40)
+- Wired keyboard ($20)
+- Basic mouse ($15)
+- Chair pad for better sitting ($20)
+- Cable management clips ($15)
+- Total investment: $110
+- Effectiveness: 85%
+
+**Phase 3 - Quarterly ($300, takes 1 hour)**
+- Monitor arm ($150)
+- Compact mechanical keyboard ($100)
+- Footrest ($30)
+- Total investment: $280
+- Effectiveness: 95%
+
+**Phase 4 - Annual Review ($1,500)**
+- Motorized sit-stand desk ($500)
+- Ergonomic chair ($800)
+- Secondary monitor if needed ($200)
+- Total investment: $1,500
+- Effectiveness: 98%
+
+Rather than buying everything at once, upgrade incrementally. This spreads cost, lets you test configurations before investing big, and prevents buyer's remorse.
+
 
 ## Related Reading
 

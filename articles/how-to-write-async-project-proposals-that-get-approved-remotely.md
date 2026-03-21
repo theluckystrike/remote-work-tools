@@ -115,6 +115,57 @@ Your approval rate improves over time as you build credibility. Deliver on your 
 
 Proposals from someone with a track record of successful projects get more trust and faster approvals than proposals from someone unknown. Think of each proposal as an investment in your future influence.
 
+
+## Jira Automation Scripts for Remote Teams
+
+Automating Jira ticket creation and status updates reduces administrative overhead in distributed teams.
+
+```python
+import requests
+from requests.auth import HTTPBasicAuth
+import json
+from datetime import datetime, timedelta
+
+JIRA_URL = "https://your-org.atlassian.net"
+AUTH = HTTPBasicAuth("email@example.com", "YOUR_API_TOKEN")
+HEADERS = {"Accept": "application/json", "Content-Type": "application/json"}
+
+def create_ticket(project_key, summary, description, issue_type="Task", assignee=None):
+    payload = {
+        "fields": {
+            "project": {"key": project_key},
+            "summary": summary,
+            "description": {
+                "type": "doc", "version": 1,
+                "content": [{"type": "paragraph", "content":
+                    [{"type": "text", "text": description}]}]
+            },
+            "issuetype": {"name": issue_type},
+        }
+    }
+    if assignee:
+        payload["fields"]["assignee"] = {"accountId": assignee}
+    r = requests.post(
+        f"{JIRA_URL}/rest/api/3/issue",
+        auth=AUTH, headers=HEADERS,
+        data=json.dumps(payload)
+    )
+    return r.json()
+
+def get_overdue_tickets(project_key, days_overdue=3):
+    cutoff = (datetime.now() - timedelta(days=days_overdue)).strftime("%Y-%m-%d")
+    jql = (f"project = {project_key} AND status != Done "
+           f"AND due <= '{cutoff}' ORDER BY due ASC")
+    r = requests.get(
+        f"{JIRA_URL}/rest/api/3/search",
+        auth=AUTH, headers=HEADERS,
+        params={"jql": jql, "fields": "summary,assignee,due,status", "maxResults": 50}
+    )
+    return r.json()["issues"]
+```
+
+Generate API tokens at id.atlassian.net/manage-profile/security/api-tokens. Tokens are scoped to the user's permissions — use a service account for shared automation.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

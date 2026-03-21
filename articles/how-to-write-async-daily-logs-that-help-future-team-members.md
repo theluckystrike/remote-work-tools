@@ -159,6 +159,146 @@ Once a month, read through your logs. Are they helpful? Would a new team member 
 
 Don't keep logs purely private. Share relevant entries in team channels when they contain useful information for others.
 
+## Detailed Tool Comparison for Daily Logs
+
+Choosing the right platform matters because adoption requires minimal friction. Here's what actually works in practice:
+
+### Notion (Pricing: Free - $12/month per user)
+
+Notion's database features make it ideal for teams wanting searchable logs with rich filtering. Create a database where each entry is a page with properties like:
+
+- Date (date field)
+- Category (decision, bug, feature, learning)
+- Related PRs (relation field linking to a PRs database)
+- Assignees (if documenting decisions others need to know)
+
+**Advantage:** Powerful search, database relations let you cross-reference decisions with their implementation PRs, great for future onboarding.
+
+**Disadvantage:** Notion can feel slow when updating frequently, and the learning curve is steeper for less technical team members.
+
+**Best for:** Teams already invested in Notion; engineering teams wanting to correlate decisions with code changes.
+
+### GitHub Discussions (Pricing: Free)
+
+For engineering teams already on GitHub, using Discussions as a daily log platform keeps documentation close to the code it describes. Create a team discussion per sprint, then reply with daily entries.
+
+```
+Title: "Q1 Sprint 3 Daily Logs - Arch Team"
+
+Each day, reply with:
+## March 18, 2026
+
+**Decision:** API caching strategy changed from Redis to in-process LRU cache
+
+**Reasoning:**
+- Measured Redis latency at p99 = 45ms
+- In-process cache with TTL achieves <1ms
+- Trade-off: Can't share cache across service replicas
+- Acceptable because each API instance has independent hot path
+
+**PR:** https://github.com/team/repo/pull/4521
+```
+
+**Advantage:** Integrated with code review workflow, no additional tool to learn, search works well within GitHub.
+
+**Disadvantage:** Less structured than a database, not ideal if you need to query across multiple sprints easily.
+
+**Best for:** Engineering teams, especially those using GitHub for issue tracking.
+
+### Obsidian + Shared Git Repo (Pricing: Free)
+
+Obsidian is a local-first markdown editor with linking, which creates a personal knowledge graph. For teams, commit daily logs to a shared Git repo, making them version-controlled and searchable.
+
+Structure your repo:
+
+```
+daily-logs/
+  2026/
+    03/
+      18.md
+      19.md
+    04/
+      01.md
+```
+
+Each file contains the day's entry. Git history shows the evolution of your thinking, and `git log --grep="Decision"` surfaces all past decisions.
+
+**Advantage:** Offline-first, supports linking between entries naturally, version control gives you full history, zero cost.
+
+**Disadvantage:** Requires team discipline to commit regularly, search across entries is manual, no web UI.
+
+**Best for:** Distributed teams comfortable with Git, or teams wanting maximum control.
+
+### Linear (Pricing: $10-$100/month depending on users)
+
+Linear is an issue tracker built for speed. Create a "Daily Log" project and use the comment/update feature to build logs over time. Each day's entry becomes a searchable issue update.
+
+**Advantage:** Issues sync with your existing Linear workflow, search integrates with your project data, clean UI.
+
+**Disadvantage:** Overkill if you're not using Linear for project management.
+
+**Best for:** Teams already standardized on Linear.
+
+### Slack Threads (Pricing: Included with Slack)
+
+Create a dedicated channel `#daily-logs-engineering` and post daily summaries as threaded messages. Slack's search works across threads, making logs discoverable.
+
+```
+Main message (3/18/2026):
+
+Thread:
+- Decision: Chose PostgreSQL...
+- Reasoning: ACID compliance needed...
+- PR: https://...
+```
+
+**Advantage:** Quick to write, visible to team without switching apps, integrates with existing Slack culture.
+
+**Disadvantage:** Slack search can be slow, harder to preserve logs long-term, not ideal for permanent reference.
+
+**Best for:** Small, fast-moving teams; good as a starting point before migrating to formal documentation.
+
+## Real-World Onboarding Example
+
+Here's how daily logs accelerate onboarding. A new backend engineer joining the team can search "database decisions 2026" and find:
+
+1. Why the team uses PostgreSQL (with reasoning about schema validation)
+2. What migration patterns work best (with links to past PRs)
+3. Known performance footguns (with actual metrics)
+4. Questions the team grappled with (with context about what was tried)
+
+Compare this to traditional onboarding: asking three people separately the same questions, getting inconsistent answers, and taking weeks to build this knowledge. Daily logs compress that to days.
+
+## Integration Strategies with Existing Workflows
+
+### CI/CD Integration
+
+Pair daily logs with automated PR summaries. When a PR merges, add a note to your log:
+
+```
+## March 18, 2026
+
+### Merged: Stripe webhook signature verification
+
+PR: #452
+Problem: Webhooks were being accepted without signature verification
+Solution: Implemented Stripe's recommended HMAC validation
+Deployment: Rollout complete by 11 AM UTC
+Impact: Closes security gap identified in March 8 audit
+```
+
+This gives future engineers the full context without them having to reconstruct it from commit messages.
+
+### Documentation Sync
+
+Link daily logs to your team's running documentation (Confluence, wiki, etc.). Monthly, scan your logs for patterns that warrant formal documentation.
+
+Example: If three daily log entries mention "confusion around acceptance criteria format," create a formal guide, then link back to the logs that prompted it. This creates a visible trail of documentation evolution.
+
+### Onboarding Checklist Integration
+
+Include "review daily logs from your first sprint" in your onboarding checklist. Point new team members to logs from the past 3 months as their first learning resource. Many teams find this replaces 50% of their formal onboarding docs.
+
 ---
 
 ## Related Reading
