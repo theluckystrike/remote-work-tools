@@ -9,7 +9,7 @@ permalink: /remote-employee-career-development-plan-template-for-distrib/
 categories: [guides]
 tags: [remote-work-tools, career-development, remote-work, distributed-teams, management, hr]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

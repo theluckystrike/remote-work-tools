@@ -9,7 +9,7 @@ permalink: /remote-hr-performance-review-tools-comparison-for-managing-d/
 categories: [guides]
 tags: [remote-work-tools, remote-work, hr-tools, performance-review, distributed-teams, async]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
