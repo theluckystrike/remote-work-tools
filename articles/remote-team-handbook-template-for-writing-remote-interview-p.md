@@ -9,7 +9,7 @@ permalink: /remote-team-handbook-template-for-writing-remote-interview-p/
 categories: [guides]
 tags: [remote-work-tools, remote-hiring, hiring-managers, interview-process, remote-onboarding, team-handbook, documentation, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

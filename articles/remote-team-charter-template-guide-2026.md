@@ -8,7 +8,7 @@ author: "Remote Work Tools"
 permalink: /remote-team-charter-template-guide-2026/
 voice-checked: true
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 ---

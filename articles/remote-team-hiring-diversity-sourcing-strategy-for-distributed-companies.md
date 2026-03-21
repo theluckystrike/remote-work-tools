@@ -65,7 +65,7 @@ author: "Remote Work Tools Guide"
 permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/
 categories: [guides]
 tags: [remote-work-tools, remote-hiring, diversity, diversity-sourcing, inclusive-hiring, distributed-teams, talent-acquisition, remote-work]
-score: 8
+score: 9
 voice-checked: true
 reviewed: true
 intent-checked: true

@@ -9,7 +9,7 @@ permalink: /remote-team-documentation-culture-building-guide-for-engineering-man
 categories: [guides]
 tags: [remote-work-tools, documentation, remote-work, engineering-management, team-culture, knowledge-sharing]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
