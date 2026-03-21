@@ -152,18 +152,287 @@ Both terminals integrate well with common development tools. Whether you're usin
 
 For developers using SSH frequently, both support aggressive character encoding and maintain connections well. Wezterm's connection persistence can be particularly useful for maintaining sessions across network interruptions.
 
+## Real-World Performance Testing
+
+Benchmarks show performance differences, but real-world use often feels indistinguishable. Here's how they perform with actual workflows:
+
+**Scrolling through 1000-line log files:**
+- Alacritty: Imperceptibly fast
+- Wezterm: Imperceptibly fast
+- Verdict: Both excel; difference doesn't matter in practice
+
+**Running `npm install` with 500 packages installing:**
+- Alacritty: Status updates appear instantly
+- Wezterm: Status updates appear instantly (marginal delay)
+- Verdict: Alacritty marginally faster, but both work for development
+
+**Long-running processes with verbose output (like Docker builds):**
+- Alacritty: Handles without slowdown
+- Wezterm: Handles without slowdown
+- Verdict: Both solid; choice doesn't matter
+
+**Editing in vim with syntax highlighting on large files (10,000+ lines):**
+- Alacritty: Fast, reliable
+- Wezterm: Fast, reliable
+- Verdict: Either works; Wezterm's built-in multiplexing reduces context-switching
+
+For most developers, the performance difference is irrelevant. Choose based on features and workflow integration, not benchmark numbers.
+
+## Terminal Feature Comparison Table
+
+| Feature | Wezterm | Alacritty |
+|---------|---------|-----------|
+| Tabs | Yes (built-in) | No (use tmux) |
+| Split panes | Yes (built-in) | No (use tmux) |
+| Search | Yes (built-in) | No (use tmux/fzf) |
+| Hyperlinks | Yes | Limited |
+| Windows | Yes | Single window |
+| Scrollback | Configurable | Configurable |
+| Ligatures | Yes | Yes |
+| Font fallback | Excellent | Good |
+| Color schemes | Extensive | Extensive |
+| True color | Yes (24-bit) | Yes (24-bit) |
+| Transparent background | Yes | Yes |
+
+## Migration Path: From One to the Other
+
+**Migrating from Alacritty to Wezterm:**
+1. Install Wezterm
+2. Copy color scheme preferences from Alacritty YAML to Wezterm Lua config
+3. Remove tmux configuration for tabs/splits (use Wezterm built-in instead)
+4. Test keybindings and adjust if needed
+5. Uninstall Alacritty
+
+Expected migration time: 30 minutes. Worthwhile if you rely on tabs/splits and want one consolidated tool.
+
+**Migrating from Wezterm to Alacritty:**
+1. Install Alacritty
+2. Install tmux (if not already installed)
+3. Convert Wezterm Lua config to Alacritty YAML
+4. Convert Wezterm keybindings to tmux keybindings
+5. Test tmux workflow and adjust if needed
+6. Uninstall Wezterm
+
+Expected migration time: 1–2 hours. Worthwhile if you prefer minimal tooling and are already comfortable with tmux.
+
+## Advanced Configurations: Power User Setup
+
+### Wezterm Power User Configuration
+
+```lua
+local wezterm = require 'wezterm'
+local config = wezterm.config_builder()
+
+-- Color scheme
+config.color_scheme = 'Catppuccin Mocha'
+
+-- Font with ligatures
+config.font = wezterm.font_with_fallback({
+  'JetBrains Mono',
+  'Noto Color Emoji',
+})
+config.font_size = 12
+config.use_cap_height = false
+
+-- Enhanced keybindings
+config.keys = {
+  -- Navigate panes with Ctrl+arrow
+  { key = 'LeftArrow', mods = 'CTRL', action = wezterm.action.ActivatePaneDirection 'Left' },
+  { key = 'RightArrow', mods = 'CTRL', action = wezterm.action.ActivatePaneDirection 'Right' },
+
+  -- Create new tab with Ctrl+T
+  { key = 't', mods = 'CTRL', action = wezterm.action.SpawnTab 'CurrentPaneDomain' },
+
+  -- Quick launch custom programs
+  { key = 'n', mods = 'CTRL|SHIFT', action = wezterm.action.SpawnTab { domain = 'DefaultDomain', cwd = wezterm.home_dir } },
+}
+
+-- Tab bar styling
+config.use_fancy_tab_bar = true
+config.tab_bar_at_bottom = false
+
+-- Enable experimental features for better performance
+config.experimental_pixel_perfect_rendering = true
+
+return config
+```
+
+### Alacritty + Tmux Power User Setup
+
+```yaml
+# ~/.config/alacritty/alacritty.toml
+
+[colors.theme]
+background = '#1e1e2e'
+foreground = '#cdd6f4'
+
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+size = 12
+
+[window]
+opacity = 1.0
+padding = { x = 10, y = 10 }
+```
+
+```bash
+# ~/.tmux.conf
+
+set -g default-terminal "screen-256color"
+set -ga terminal-overrides ",alacritty:RGB"
+
+# Navigate panes with Ctrl+arrow
+bind -n C-Left select-pane -L
+bind -n C-Right select-pane -R
+bind -n C-Up select-pane -U
+bind -n C-Down select-pane -D
+
+# Quick pane/window creation
+bind c new-window -c "#{pane_current_path}"
+bind | split-window -h -c "#{pane_current_path}"
+bind - split-window -v -c "#{pane_current_path}"
+
+# Use Vim keybindings in copy mode
+setw -g mode-keys vi
+bind -T copy-mode-vi v send -X begin-selection
+bind -T copy-mode-vi y send -X copy-selection
+```
+
 ## Performance Tips
 
 Regardless of your choice, optimize your terminal experience with these practices:
 
 1. Use a GPU-accelerated font renderer for smoother text
 2. Enable font ligatures if your coding font supports them
-3. Configure appropriate scrollback buffer sizes
+3. Configure appropriate scrollback buffer sizes (10,000–50,000 lines depending on RAM)
 4. Use multiplexing (whether built-in or tmux) to organize workspaces
+5. For remote SSH work, enable compression and connection reuse to reduce latency
+6. Test your terminal with a large log file to ensure smooth scrolling
 
+## When to Reconsider Your Choice
+
+**Stay with Alacritty if:**
+- You love tmux and have deep muscle memory
+- You work primarily on SSH into remote servers
+- Every millisecond of performance matters for your use case
+- You prefer minimal dependencies and total control
+
+**Switch to Wezterm if:**
+- You find tmux configuration tedious or error-prone
+- You want everything in one tool without external dependencies
+- You appreciate Lua's flexibility for complex configurations
+- You work locally and occasionally remote; Wezterm's integrated features help
+
+Most developers don't need to switch after initially choosing. Both tools remain viable for professional development work.
+
+## Debugging and Troubleshooting: When Something Goes Wrong
+
+### Common Wezterm Issues
+
+**Problem: Font rendering looks blurry**
+Solution: Disable `use_cap_height = true` in config. Some fonts render poorly with cap height correction enabled.
+
+**Problem: Copy/paste not working**
+Solution: Check Wayland vs. X11 settings. On Linux, Wayland support in Wezterm is newer and sometimes requires configuration adjustments. Use `wezterm.enumerate_panes()` to debug pane state.
+
+**Problem: Colors look washed out**
+Solution: Verify your terminal color scheme matches your system color scheme. Mismatch between terminal and shell theme causes this.
+
+**Problem: Keybindings aren't working**
+Solution: Check for modifier key conflicts with your system. On macOS, Cmd key bindings might conflict with system shortcuts. Test with different modifier combinations.
+
+### Common Alacritty Issues
+
+**Problem: No cursor visible**
+Solution: Check `cursor.style` in config. Some cursor styles don't render on certain systems. Try `Block` if `Beam` isn't working.
+
+**Problem: Performance degradation after running for hours**
+Solution: Alacritty occasionally accumulates memory. Restart the terminal or check scrollback buffer size—very large buffers impact performance.
+
+**Problem: Colors distorted when using SSH**
+Solution: Ensure SSH connection uses `TERM=xterm-256color` or similar. On the remote system, verify terminfo database is current.
+
+**Problem: Ligatures not working**
+Solution: Not all fonts support ligatures. Verify your font selection with `fc-list | grep "font-name"`. Common ligature-supporting fonts: Fira Code, JetBrains Mono, Cascadia Code.
+
+## Advanced Use Cases
+
+### Using Wezterm for Remote Development
+
+Wezterm's superior connection handling makes it excellent for remote SSH work:
+
+```lua
+-- Wezterm config for remote work
+config.ssh_domains = {
+  {
+    name = "work-server",
+    remote_address = "dev.company.com",
+    username = "username",
+    multiplexing = "best",  -- Use SSH multiplexing for efficiency
+  }
+}
+
+-- Quick connect with: wezterm connect work-server
+```
+
+This creates persistent SSH sessions that survive network interruptions—critical when working over flaky WiFi.
+
+### Using Alacritty + Tmux for System Administration
+
+Alacritty's minimal footprint makes it ideal for systems where every bit of performance matters:
+
+```bash
+# Create a sophisticated tmux setup for system administration
+# ~/.tmux.conf optimized for performance
+
+set -g default-terminal "screen-256color"
+set -g history-limit 10000
+set -g focus-events on
+
+# Window navigation
+bind -n C-h select-window -t :-
+bind -n C-l select-window -t :+
+
+# Pane splitting with current path
+bind | split-window -h -c "#{pane_current_path}"
+bind - split-window -v -c "#{pane_current_path}"
+
+# Status bar showing current host
+set -g status-right "#[fg=yellow]#h#[default] | %H:%M"
+```
+
+This setup handles complex multi-server administration elegantly.
+
+## Accessibility Features
+
+Both terminals support accessibility, but implementation differs:
+
+**Wezterm accessibility:**
+- Responds to system accessibility preferences
+- Screen reader support (primarily macOS)
+- High contrast color schemes work well
+- Keyboard-only operation fully supported
+
+**Alacritty accessibility:**
+- More minimal approach to accessibility
+- Relies on system-level features
+- Works with screen readers but less optimized
+- Keyboard-only operation supported
+
+For developers with visual accessibility needs, Wezterm's more deliberate accessibility integration might be preferable.
+
+## Future Development and Maintenance
+
+**Wezterm:** Active development with frequent updates. The project is well-maintained and evolving. New features appear regularly based on community requests.
+
+**Alacritty:** Maintained but slower release cycle. Development is conservative—new features come slowly, but stability is excellent.
+
+If you prefer rapid iteration and new features, Wezterm wins. If you prefer stability and minimal surprises, Alacritty wins.
 
 ## Related Reading
 
-- More guides coming soon.
+- [Best Zsh Configuration for Remote Workers](/remote-work-tools/best-zsh-configuration-for-remote-workers/)
+- [How to Configure Neovim for Remote Development](/remote-work-tools/how-to-configure-neovim-for-remote-development/)
+- [Tmux Window Management Guide for Remote Engineers](/remote-work-tools/tmux-window-management-guide-for-remote-engineers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

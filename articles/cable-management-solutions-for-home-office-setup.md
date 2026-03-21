@@ -157,6 +157,192 @@ Quarterly Cable Audit Checklist:
 [ ] Clean dust from cable bundles and cable trays
 ```
 
+## Cable Management by Setup Type
+
+### Single Monitor Setup (Minimal Cable Load)
+
+For developers using a laptop with one external monitor, the cable load is manageable but organization still matters:
+
+```text
+Typical cables needed:
+- 1x USB-C or Thunderbolt dock cable (power + data)
+- 1x HDMI or DisplayPort monitor cable
+- 1x USB-A cable to monitor (adds USB hub)
+- Optional: 3.5mm audio cable if using external speakers
+
+Management approach:
+- Route dock cable behind monitor stand
+- Use monitor's built-in cable routing if available
+- Keep audio cable under desk or tucked along monitor arm
+- Label the dock cable end "Laptop" for quick identification
+```
+
+Implementation cost: $15–30 (label maker, cable ties, small adhesive clips).
+
+### Dual Monitor + Docking Station (Complex Setup)
+
+For developers with two monitors, a docking station, and multiple peripherals:
+
+```text
+Typical cables:
+- 1x USB-C dock cable (to laptop)
+- 2x DisplayPort or HDMI (to monitors)
+- 1x Ethernet (to dock or wall)
+- 1x Power to dock
+- 1x Power to each monitor
+- 2x USB-A extensions (for peripherals)
+- 1x Audio cable or Bluetooth receiver
+- Optional: Extra USB-C for charging external devices
+
+Management approach:
+1. Use monitor arms with integrated cable channels
+2. Route all cables through one centralized tray under the desk
+3. Use velcro ties to bundle cables in groups:
+   - "Video" bundle (HDMI cables together)
+   - "Power" bundle (power cables separately for heat dissipation)
+   - "Data" bundle (USB cables together)
+4. Label each bundle's ends
+5. Mount a power strip vertically on desk leg for easy access
+6. Use cable covers for exposed runs across desk surface
+```
+
+Implementation cost: $80–150 (monitor arms with cable routing, cable tray, power strips, labels, ties).
+
+### Full Workstation Setup (8+ Devices)
+
+For developers with multiple monitors, desktop PC, external storage, audio equipment, and smart devices:
+
+```text
+Typical cables:
+- Desktop PC power and USB connections
+- 2–4 monitor power and video cables
+- NAS or external drive (power + USB/Thunderbolt)
+- Audio interface or external speakers
+- Microphone USB or XLR
+- Webcam USB
+- Lighting control cables
+- Smart home hub connections
+- Backup power supply or surge protector connections
+
+Management approach:
+1. Implement a vertical cable management system:
+   - Cable tray under desk (4–6" wide minimum)
+   - Vertical cable channels at desk legs (12–18" tall)
+   - Overhead cable channels (using Ikea Ivar or similar framing)
+2. Use a patch panel to centralize all connections:
+   - One cable runs from patch panel to desktop PC
+   - One cable runs from patch panel to monitor dock
+   - Peripherals connect to patch panel, not directly to PC
+3. Implement a power distribution backbone:
+   - Surge-protected power strip under desk
+   - Secondary surge protectors for audio equipment and Smart devices
+   - UPS for critical systems
+4. Use color-coded management:
+   - Red labels: Power cables
+   - Blue labels: Data cables
+   - Green labels: Audio/Video
+   - Yellow labels: Specialized (USB, Thunderbolt, etc.)
+5. Document everything:
+   - Photo of cable organization
+   - Spreadsheet mapping cable functions
+   - Labels on both ends of every cable
+```
+
+Implementation cost: $200–400 (professional tray systems, patch panel, organized power strips, comprehensive labeling).
+
+Example vertical cable management build:
+
+```bash
+# Materials needed:
+# - Aluminum cable tray (48" length): $40
+# - Vertical cable channels (6"): $20 each × 4 = $80
+# - L-brackets for wall mounting: $30
+# - Patch panel with 24 ports: $60
+# - Velcro cable ties (bulk pack): $15
+# - Label maker and labels: $30
+# - High-quality surge protectors: $60
+
+# Total: ~$315 for professional-grade setup
+
+# Installation steps:
+# 1. Mount cable tray under desk (keep 12" clearance for legs)
+# 2. Attach vertical channels at desk legs
+# 3. Route all cables into channels
+# 4. Mount patch panel at eye level on wall
+# 5. Connect all devices to patch panel
+# 6. Document connections and create cable map
+```
+
+## Ergonomic Benefits of Cable Management
+
+Beyond aesthetics, proper cable management reduces physical strain:
+
+**Reduced repetitive motion strain:** Quick access to cables means less reaching and twisting when adjusting equipment.
+
+**Improved desk posture:** An uncluttered desk allows better monitor and keyboard positioning without cables getting in the way.
+
+**Better airflow:** Organized cables don't obstruct cooling vents on equipment or surge protectors.
+
+**Reduced eye strain:** A clean, organized workspace reduces cognitive load, helping you focus on work rather than visual clutter.
+
+## Cable Management for Hot Desking Environments
+
+If you frequently change locations (co-working spaces, coffee shops, different home offices), you need portable cable management:
+
+```text
+Portable cable management kit:
+- Small cable organizer bag ($15)
+  - Holds 4–6 cables neatly
+  - Prevents tangling during transport
+- USB-C multiport hub ($30–60)
+  - Consolidates connections at one port
+  - Reduces number of individual cables needed
+- Portable cable ties (reusable, magnetic) ($10)
+- Small label maker (portable model) ($20)
+- Portable power strip (3–4 outlets) ($20)
+- Cable sleeve or wrap ($10)
+
+Total portable setup: $100–130
+
+Benefits:
+- Set up in any location in under 5 minutes
+- Consistent cable organization across locations
+- Reduces connection anxiety in new environments
+- All cables organized and labeled the same way
+```
+
+## Troubleshooting Cable Issues
+
+When cables fail despite proper management:
+
+**Fraying or exposed wire:**
+- Don't use; replace immediately
+- The cable is damaged internally; repair isn't safe
+- Buy replacement and label new cable with same information
+
+**Loose connections despite properly labeled cables:**
+- Check connector ends for debris or damage
+- Clean connectors with isopropyl alcohol and lint-free cloth
+- If issue persists, the port may be failing
+- Ensure cable is fully inserted; some connectors need firm pressure
+
+**Intermittent video on HDMI/DisplayPort:**
+- Most common cause: cable damage from bending
+- Replace with fresh cable
+- Use cable management to prevent sharp bends (radius >1" minimum)
+- Avoid pinching cables under desk edges
+
+**USB devices disconnecting randomly:**
+- Check for loose connections at hub or PC
+- Ensure hub has adequate power (powered USB hubs more reliable than unpowered)
+- Replace cable if issue continues
+
+**Heat issues with power cables:**
+- Ensure power cables aren't bundled tightly with other cables
+- Keep 2–3" spacing between power cables and data cables
+- Use separate cable channels if possible
+- Avoid coiling power cables tightly
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

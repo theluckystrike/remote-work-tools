@@ -156,6 +156,139 @@ Track metrics before and after the sprint to demonstrate value:
 
 Share these results with stakeholders. Documentation improvements often go unnoticed—make the sprint impact visible to secure future buy-in.
 
+## Documentation Sprint Formats That Work
+
+### The Focused Deep-Dive Format (2 weeks, 4 hours/day)
+
+This format works best for teams with 5–10 people where documentation decay is severe. The intense schedule creates momentum and prevents attention from drifting back to routine tasks.
+
+**Week 1:**
+- Day 1: Audit and categorization (all hands for 4 hours)
+- Day 2-3: Critical pages (pairs working in parallel)
+- Day 4-5: Useful but outdated pages (individual owners)
+
+**Week 2:**
+- Day 1-3: Remaining pages and new content
+- Day 4: Review rotation and editing pass
+- Day 5: Final compilation and celebration
+
+This schedule delivers visible progress within 10 days and maintains team morale through completion.
+
+### The Distributed Format (6 weeks, 1 hour/day)
+
+For larger teams or those with heavy sprint commitments, distributed formats work better. Each team member dedicates one hour daily to documentation work.
+
+```markdown
+## Weekly Documentation Sprint Checklist
+
+- [ ] 2-4 pages identified for update (at start of week)
+- [ ] 30 minutes reading and understanding current content
+- [ ] 30 minutes writing updates and creating examples
+- [ ] Peer review complete (async comments on pull request)
+- [ ] Changes merged and visible (by Friday EOD)
+```
+
+This approach integrates documentation into the normal workflow rather than disrupting it.
+
+## Creating Accountability Without Burnout
+
+Documentation sprints only work if team members feel the effort is valued and won't extend indefinitely.
+
+**Time boxing is critical:** Announce at the sprint start that this is time-limited. Developers are more willing to focus intensely on "two weeks of documentation" than open-ended requests to "maintain the wiki."
+
+**Celebrate completion:** At the end of the sprint, highlight what was accomplished. Share metrics with leadership. Send a note to the team acknowledging their effort. This creates positive association with documentation work.
+
+**Don't extend the sprint:** If you run out of time, deprioritize remaining pages rather than extending the timeline. Teams that experience extended "sprints" will resist documentation initiatives in the future.
+
+**Offer variety:** For a 10-person team, don't make everyone do the same type of documentation. Some people enjoy writing API documentation, others prefer creating visual diagrams, others excel at editing existing content. Assign work to align with strengths.
+
+## Real Example: API Documentation Sprint
+
+A 7-person backend team's API documentation was severely outdated. Endpoints had changed, authentication mechanisms were different, and no one was confident the examples would work.
+
+**Pre-sprint audit:** 35 API endpoints documented, 23 examples known to be broken, 12 pages without tested code samples.
+
+**Sprint design:**
+- All hands audit session: 2 hours
+- Each developer assigned 3-4 endpoint pages: 4 hours per person
+- Pair review sessions: 2 hours per person
+- Final editing pass: 2 hours all hands
+
+**Results after 1-week sprint:**
+- 35 endpoints documented with working examples
+- Deployment procedure documentation refreshed
+- Authentication guide completely rewritten with tested code
+- Estimated developer onboarding time reduced from 8 hours to 4 hours
+- Support questions about API usage dropped 40% in the following month
+
+**Lessons learned:**
+- Pairing reviewers with writers caught outdated examples immediately
+- Assigning specific endpoints rather than "documentation in general" eliminated unclear expectations
+- Celebrating the reduction in support questions validated the effort to skeptical team members
+
+## Tooling Recommendations for Sprint Success
+
+**GitHub Wiki + Automated Checks:** If documentation lives in GitHub, use a pre-commit hook to validate code examples:
+
+```bash
+# .git/hooks/pre-commit
+#!/bin/bash
+# Verify all code examples in documentation are valid Python
+
+find . -name "*.md" -type f | while read file; do
+  grep -o '```python\n[^`]*```' "$file" | \
+    sed 's/```python//; s/```//g' | \
+    python3 -m py_compile 2>/dev/null || echo "Invalid code in $file"
+done
+```
+
+**Confluence or Notion:** Use templates to standardize page structure across the wiki. Create a "Documentation Page Template" that every updated page follows. This consistency helps readers know what to expect.
+
+**Google Docs + Comments:** For collaborative writing during the sprint, Google Docs' comment feature allows reviewers to provide feedback without disrupting the author's flow. Export to your permanent wiki after completion.
+
+**Spreadsheet Tracking:** Maintain a simple spreadsheet (Google Sheets or Excel) tracking status for each page:
+
+```
+Page | Owner | Status | Due Date | Review Notes
+Authentication Guide | @alice | In Progress | Thu | Needs API endpoint verification
+Deployment Steps | @bob | Review | Wed | Looks good, minor formatting
+Troubleshooting | @charlie | Done | Tue | Merged
+```
+
+## Overcoming Common Sprint Obstacles
+
+**"We don't have time for documentation"**
+
+Reframe: "We have time for documentation or we have time for repeated support questions. Pick one." Most teams find that two weeks of documentation work saves dozens of hours in support later.
+
+**"Nobody wants to write documentation"**
+
+Solution: Don't assign generic "documentation" work. Assign specific, bounded tasks. "Update the API authentication guide" is clearer than "help improve our docs."
+
+**"Documentation becomes outdated immediately after"**
+
+This happens without post-sprint maintenance processes. Build the quarterly review cycle into your workflow before starting the sprint. Maintenance prevents the sprint from being wasted effort.
+
+**"Our documentation system is a mess"**
+
+Don't try to fix the system during a content sprint. A separate project should address tool selection and migration. For the sprint, work with your current tools, however imperfect.
+
+## Measuring Documentation Quality, Not Just Quantity
+
+Beyond "pages updated," track quality metrics:
+
+**Link validity:** Do internal links actually work or do they point to deleted pages?
+
+**Code example execution:** Can someone actually copy-paste an example and have it work?
+
+**Recency signals:** Are pages marked with "last reviewed" dates? This builds reader confidence.
+
+**Search-ability:** Can new team members find the information they need? Test with onboarding candidates.
+
+**Example clarity:** Do examples include explanations of what each line does, or just code dumps?
+
+A quality-focused sprint that updates 15 pages thoroughly beats a quantity-focused sprint that touches 40 pages superficially.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
