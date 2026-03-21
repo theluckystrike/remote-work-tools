@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Automate Invoice Generation for Freelancers"
-description: "Automate invoice creation, numbering, and delivery using scripts and free tools. Covers CLI invoice generation, PDF output, email delivery, and payment tracking."
+description: "Automate invoice creation, numbering, and delivery using scripts and free tools. Covers CLI invoice generation, PDF output, email delivery, and payment"
 date: 2026-03-21
 author: theluckystrike
 permalink: /automate-invoice-generation-freelancers/
@@ -213,6 +213,99 @@ docker run -d \
 ```
 
 Invoice Ninja adds recurring invoice automation, Stripe/PayPal payment links, and client portal access — all without a monthly SaaS fee.
+
+## Adding Tax Calculation
+
+Different clients may require different tax rates depending on jurisdiction. Extend the invoice system:
+
+```javascript
+// tax-config.js
+const TAX_RATES = {
+  US: { CA: 0.0725, NY: 0.08, TX: 0.0625, OR: 0 },
+  EU: { DE: 0.19, FR: 0.20, NL: 0.21 },
+  DEFAULT: 0
+};
+
+function calculateTax(subtotal, country, state) {
+  if (country === 'US') return subtotal * (TAX_RATES.US[state] || 0);
+  if (country === 'EU') return subtotal * (TAX_RATES.EU[state] || 0);
+  return subtotal * TAX_RATES.DEFAULT;
+}
+
+module.exports = { calculateTax, TAX_RATES };
+```
+
+## Late Payment Follow-Up Automation
+
+Unpaid invoices require follow-up. Automate reminders based on due date:
+
+```javascript
+// check-overdue.js
+const fs = require("fs");
+
+function getOverdueInvoices() {
+  const ledger = fs.readFileSync("ledger.csv", "utf8")
+    .split("\n").filter(Boolean);
+  const today = new Date();
+  const overdue = [];
+  for (const line of ledger) {
+    const [id, client, issued, due, amount, status] = line.split(",");
+    if (status === "pending" && new Date(due) < today) {
+      const daysOverdue = Math.floor((today - new Date(due)) / (1000*60*60*24));
+      overdue.push({ id, client, due, amount, daysOverdue });
+    }
+  }
+  return overdue;
+}
+
+const overdue = getOverdueInvoices();
+for (const inv of overdue) {
+  console.log(`${inv.id}: ${inv.client} - $${inv.amount} - ${inv.daysOverdue} days overdue`);
+  if ([7, 14, 30].includes(inv.daysOverdue)) {
+    console.log(`  -> Sending ${inv.daysOverdue}-day reminder`);
+  }
+}
+```
+
+Run this daily via cron:
+
+```bash
+0 9 * * * cd ~/invoices && node check-overdue.js >> logs/overdue.log 2>&1
+```
+
+## Generating Annual Revenue Reports
+
+At tax time, generate a summary report from your ledger:
+
+```bash
+#!/bin/bash
+# annual-report.sh
+YEAR=${1:-$(date +%Y)}
+echo "=== Revenue Report for $YEAR ==="
+echo "Total Revenue:"
+grep ",$YEAR-" ledger.csv | grep ",paid" | \
+  awk -F',' '{sum += $5} END {printf "$%.2f\n", sum}'
+echo ""
+echo "Outstanding Invoices:"
+grep ",$YEAR-" ledger.csv | grep ",pending" | \
+  awk -F',' '{sum += $5; count++} END {printf "%d invoices, $%.2f total\n", count, sum}'
+echo ""
+echo "Revenue by Client:"
+grep ",$YEAR-" ledger.csv | grep ",paid" | \
+  awk -F',' '{clients[$2] += $5} END {for (c in clients) printf "  %-20s $%.2f\n", c, clients[c]}'
+```
+
+## Comparison of Invoice Automation Approaches
+
+| Approach | Setup Time | Monthly Cost | Customization | Payment Links |
+|----------|-----------|-------------|---------------|---------------|
+| CLI Scripts (this guide) | 2-3 hours | $0 | Full control | Manual |
+| Invoice Ninja (self-hosted) | 1 hour | $5-10 (hosting) | High | Stripe/PayPal |
+| FreshBooks | 15 minutes | $17/month | Limited | Built-in |
+| Wave | 15 minutes | Free | Limited | Built-in |
+| Xero | 30 minutes | $15/month | Moderate | Built-in |
+
+The CLI approach works best for developers who want full control and already have a command-line workflow.
 
 ## Related Reading
 

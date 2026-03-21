@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Separate Business and Personal Finances as a"
+title: "How to Separate Business and Personal Finances"
 description: "Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between 'buying a new laptop for"
 date: 2026-03-15
 last_modified_at: 2026-03-15
@@ -225,6 +225,55 @@ Set up a recurring calendar block for financial review. A 30-minute monthly sess
 
 This rhythm prevents end-of-year panic and keeps your books always ready for quarterly tax estimates.
 
+## Quarterly Tax Estimation Script
+
+Freelancers in the US pay estimated taxes quarterly. Automate the calculation:
+
+```python
+#!/usr/bin/env python3
+import subprocess
+import re
+
+def get_quarterly_income(quarter, year):
+    quarter_ranges = {
+        1: (f"{year}/01", f"{year}/03"),
+        2: (f"{year}/04", f"{year}/06"),
+        3: (f"{year}/07", f"{year}/09"),
+        4: (f"{year}/10", f"{year}/12"),
+    }
+    start, end = quarter_ranges[quarter]
+    cmd = f'ledger bal Income -p "{start} to {end}" --format "%(total)\n"'
+    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    match = re.search(r'\$([\d,.]+)', result.stdout)
+    return float(match.group(1).replace(',', '')) if match else 0
+
+def estimate_quarterly_tax(income, se_rate=0.153, income_rate=0.22):
+    se_tax = income * se_rate
+    federal_tax = income * income_rate
+    return {
+        "gross_income": income,
+        "self_employment_tax": round(se_tax, 2),
+        "estimated_income_tax": round(federal_tax, 2),
+        "total_quarterly_payment": round(se_tax + federal_tax, 2),
+    }
+
+income = get_quarterly_income(1, 2026)
+est = estimate_quarterly_tax(income)
+print(f"Q1 Income: ${income:,.2f}")
+print(f"Estimated payment: ${est['total_quarterly_payment']:,.2f}")
+```
+
+Run this before IRS deadlines (April 15, June 15, September 15, January 15).
+
+## Tools Comparison
+
+| Tool | Type | Cost | Best For |
+|------|------|------|----------|
+| Ledger CLI | Plain text | Free | Developers who love the terminal |
+| Beancount + Fava | Plain text + web | Free | Python-oriented developers |
+| Wave | SaaS | Free | Non-technical freelancers |
+| FreshBooks | SaaS | $17+/month | Invoicing-heavy businesses |
+| QuickBooks | SaaS | $15/month | Tax categorization |
 
 ## Related Articles
 

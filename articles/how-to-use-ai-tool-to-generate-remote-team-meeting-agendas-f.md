@@ -207,6 +207,54 @@ The real power comes from combining multiple data sources. A complete agenda pip
 
 Each source adds context. The AI serves as the aggregator, transforming noise into signal.
 
+## Scheduling the Agenda Generator
+
+Automate agenda generation before each recurring meeting:
+
+```bash
+#!/bin/bash
+# pre-meeting-agenda.sh
+NOTES_DIR="./meeting-notes"
+SLACK_CHANNEL="C0123456789"
+
+python3 slack_export.py --channel $SLACK_CHANNEL --days 7 > /tmp/slack_notes.md
+cp /tmp/slack_notes.md "$NOTES_DIR/slack-$(date +%Y%m%d).md"
+python3 generate_agenda.py
+
+curl -X POST "https://slack.com/api/chat.postMessage" \
+  -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d "{\"channel\": \"$SLACK_CHANNEL\", \"text\": \"Meeting agenda ready for $(date +%Y-%m-%d)\"}"
+```
+
+Schedule with cron:
+
+```bash
+# Run at 8am on Monday, Wednesday, Friday
+0 8 * * 1,3,5 /home/user/scripts/pre-meeting-agenda.sh >> /var/log/agenda.log 2>&1
+```
+
+## Comparing AI Models for Agenda Generation
+
+| Model | Strength | Weakness | Cost per Agenda |
+|-------|----------|----------|----------------|
+| Claude Sonnet | Best at extracting nuanced action items | Can be verbose | ~$0.02 |
+| GPT-4o | Good at structured formatting | Sometimes misses context | ~$0.02 |
+| Claude Haiku | Fast, good for simple agendas | Misses subtle connections | ~$0.002 |
+| Gemini Pro | Good at summarization | Less precise action items | ~$0.01 |
+
+For weekly team meetings, Claude Sonnet produces the most actionable agendas. For daily standups, Claude Haiku provides sufficient quality at a fraction of the cost.
+
+## Measuring Agenda Effectiveness
+
+Track whether AI-generated agendas improve meeting quality:
+
+- Did the agenda cover the right topics? (1-5 rating)
+- Were action items from last meeting properly tracked? (1-5)
+- Was anything missing that should have been included? (free text)
+- Meeting duration vs planned: shorter / on-time / longer
+
+Teams typically report 20-30% improvement in perceived meeting effectiveness within the first month, primarily because agendas surface forgotten action items and reduce time spent recapping previous discussions.
 
 ## Related Articles
 

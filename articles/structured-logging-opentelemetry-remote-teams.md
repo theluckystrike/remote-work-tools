@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Structured Logging and OpenTelemetry for Remote Teams"
-description: "Set up structured logging and distributed tracing with OpenTelemetry for remote engineering teams. Covers log formats, trace propagation, exporters, and Grafana Tempo."
+description: "Set up structured logging and distributed tracing with OpenTelemetry for remote engineering teams. Covers log formats, trace propagation, exporters, and"
 date: 2026-03-21
 author: theluckystrike
 permalink: /structured-logging-opentelemetry-remote-teams/
@@ -319,6 +319,46 @@ URL: /explore?orgId=1&left=...&right={"datasource":"Tempo","queries":[{"query":"
 ```
 
 Clicking a `trace_id` in a log line opens the full distributed trace in Grafana Tempo — no copying and pasting.
+
+## Alerting on Trace Anomalies
+
+Set up alerts based on trace data to catch performance regressions:
+
+```yaml
+# Grafana alert rule
+groups:
+  - name: trace-alerts
+    rules:
+      - alert: SlowPaymentProcessing
+        expr: histogram_quantile(0.95, rate(payment_duration_seconds_bucket[5m])) > 5
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "P95 payment processing latency exceeds 5 seconds"
+```
+
+### Async Debugging Workflow for Remote Teams
+
+When an incident occurs, remote teams benefit from a structured async process:
+
+1. **First responder** captures the trace ID from error logs and posts it in the incident channel
+2. **Anyone on the team** can open the trace in Grafana Tempo and investigate without waiting for a sync meeting
+3. **Root cause** is documented in the incident thread with a link to the relevant trace
+4. **Follow-up** actions are tracked as tickets, not Slack messages
+
+This workflow works across time zones because all context is embedded in the trace.
+
+## Cost Considerations for Self-Hosted Observability
+
+| Component | Storage Cost | Retention | Monthly Estimate (50 services) |
+|-----------|-------------|-----------|-------------------------------|
+| Tempo (traces) | ~2GB/day | 7 days | ~$5 (disk only) |
+| Loki (logs) | ~5GB/day | 30 days | ~$15 (disk only) |
+| Grafana | Negligible | N/A | $0 |
+| OTel Collector | CPU/RAM | N/A | ~1 vCPU, 512MB RAM |
+
+Self-hosting the full stack costs a fraction of hosted alternatives like Datadog or New Relic. For a team running 50 services, the difference can be thousands of dollars per month. The trade-off is maintenance burden -- someone needs to own the observability infrastructure.
 
 ## Related Reading
 
