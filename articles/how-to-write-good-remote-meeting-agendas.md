@@ -9,7 +9,7 @@ permalink: /how-to-write-good-remote-meeting-agendas/
 categories: [guides]
 tags: [remote-work-tools, remote-work, productivity, meetings]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

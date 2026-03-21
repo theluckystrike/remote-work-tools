@@ -9,7 +9,7 @@ permalink: /how-to-write-effective-async-messages-remote-work/
 categories: [guides]
 tags: [remote-work-tools, remote-work, async-communication, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
