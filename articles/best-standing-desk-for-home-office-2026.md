@@ -176,11 +176,191 @@ Start with short standing periods—15-20 minutes at a time. Gradually increase 
 
 Standing on hard floors causes fatigue. A quality anti-fatigue mat provides cushioning. Some users prefer standing on carpet with a thick mat. Consider a footrest for added comfort during longer standing sessions.
 
+## Specific Desk Models for 2026
+
+### Budget Category ($200-400)
+
+**Manual Crank Desks**: VIVO Electric Standing Desk Base (V003, $250-350)
+- Height range: 28-48 inches
+- Weight capacity: 140 lbs
+- Motor type: Dual motor with slow-motion release
+- Memory presets: 2 positions
+- Stability: Good for single monitor or light dual-monitor setup
+- Estimated lifespan: 4-6 years
+
+Setup for developers: Pair with a 48" or 60" solid wood top ($150-250). Total investment: $400-600 for a complete standing desk. Sufficient for laptop + 1 external monitor.
+
+### Mid-Range Category ($400-800)
+
+**Flexispot E7 Pro (2026 version)**
+- Height range: 23.6-49.2 inches (fits users 4'10" to 7'0")
+- Weight capacity: 355 lbs (dual motor advantage)
+- Motorized dual motors (independent left/right control)
+- Memory presets: 4 positions
+- Stability rating: 9/10 (minimal wobble at max height with full load)
+- Controller: LED display with USB charging
+- Price: $599-799 depending on desktop size
+
+**Autonomous SmartDesk Pro (2026 version)**
+- Height range: 23-51 inches
+- Weight capacity: 350 lbs
+- Motors: Dual brushless motors
+- Memory presets: 4 positions with app control
+- Smart features: Bluetooth app, sit-stand reminders via phone
+- Height adjustment speed: 0.3-0.5 inches per second
+- Price: $549-749
+
+For multi-monitor developer setups (3+ monitors + peripherals), both handle 200+ lbs comfortably.
+
+### Premium Category ($800-1500+)
+
+**Fully Jarvis Pro (2026 version)**
+- Height range: 22.6-48.3 inches
+- Weight capacity: 350 lbs
+- Motors: Dual motor with Anti-Collision detection
+- Memory presets: 4 independent position save
+- Advanced features: Programmatic control via Node.js/Python libraries (major dev advantage)
+- Noise level: Quiet operation (<55dB)
+- Price: $899-1299
+
+Developers favor Jarvis Pro specifically because third-party libraries exist to control it programmatically:
+
+```python
+# jarvis-desk Python library (third-party)
+from jarvis_desk import DeskController
+
+desk = DeskController(ip_address="192.168.1.150")
+
+# Programmatic control
+desk.set_height(30)  # Set sitting height
+desk.set_height(42)  # Set standing height
+
+# Integrate with calendar or health tracking
+if calendar.is_focus_block():
+    desk.set_height(42)  # Stand during focus work
+```
+
+**Herman Miller Motia (Premium Alternative)**
+- Height range: 22-48 inches
+- Weight capacity: 300 lbs
+- Motors: Dual, ultra-smooth motion
+- Memory presets: 4 with manual adjustment fine-tuning
+- Build quality: Commercial-grade (10+ year lifespan)
+- Aesthetic: Premium industrial design
+- Price: $1200-1800
+
+Worth the premium if you spend 40+ hours per week at the desk and value durability and reduced noise.
+
+## Detailed Feature Comparison Matrix
+
+| Feature | Budget | Mid-Range | Premium |
+|---------|--------|-----------|---------|
+| Dual motor | No | Yes | Yes |
+| Height range | 28-48" | 23.6-49.2" | 22-48" |
+| Weight capacity | 140-200 | 300-355 | 300-350 |
+| Memory presets | 1-2 | 4 | 4 |
+| Noise level | Moderate | Quiet (50-60dB) | Very quiet (<50dB) |
+| Adjustment speed | 1-3"/sec | 0.3-0.5"/sec | 0.3-0.5"/sec |
+| Anti-collision | No | Limited | Full |
+| Smart/API control | No | Basic app | Advanced |
+| Typical lifespan | 4-6 years | 6-10 years | 10+ years |
+| Cost per year | $50-100 | $40-100 | $120-180 |
+
+The cost-per-year metric reveals that premium desks, while expensive upfront, spread their cost across a longer usable lifespan.
+
+## Real Developer Workflows
+
+### Workflow 1: Software Engineer (4 Monitors)
+
+Setup: Autonomous SmartDesk Pro + 60" bamboo top + monitor arms
+
+Weight breakdown:
+- 4x 24" monitors: 80 lbs
+- Dual monitor arms: 20 lbs
+- Laptop dock + keyboard + mouse + peripherals: 30 lbs
+- Desk surface: 50 lbs (60" bamboo)
+**Total: 180 lbs** ✓ Well within capacity
+
+**Optimal heights**:
+- Sitting: 28 inches (measured from floor to keyboard surface)
+- Standing: 40 inches
+- Memory preset 3: 32 inches (quick standing stretch position)
+
+### Workflow 2: Designer (1 Large Monitor + Tablet)
+
+Setup: Flexispot E7 Pro + 48" walnut top + single monitor arm + tablet stand
+
+Weight: ~100 lbs total
+
+**Advantage**: Lighter weight allows faster motor operation and better stability at standing height. Can comfortably work at any height between 25-47 inches.
+
+### Workflow 3: Home Office Manager (3 Monitors + Phone Station)
+
+Setup: Autonomous SmartDesk Pro + 72" top (widest option)
+
+Considerations:
+- Center of gravity shifts with 72" width
+- Requires sturdy cable management underneath
+- Dual motors handle 200+ lbs at 47" height without shimmy
+
+## Assembly and Installation Considerations
+
+Budget desks typically require 45-60 minutes self-assembly. Mid-range and premium models include:
+- Motor pre-installation (saves 30 minutes)
+- Desktop pre-drilled for leg attachment
+- White-glove delivery for desks over $800 (most premium models)
+
+**For developers who value time**: Pay the $100-150 delivery/assembly fee. A 2-hour desk assembly is worth $100-200 in opportunity cost for knowledge workers.
+
+## Integration with Existing Setups
+
+### Adding to a Standing Desk
+
+If you already have a standing desk but lack automation:
+
+1. **Smart Plug Method** (cheapest):
+```python
+# Monitor desk power draw via TP-Link Kasa smart plug
+import asyncio
+from kasa import SmartDevice
+
+async def track_standing():
+    plug = await SmartDevice.connect("192.168.1.100")
+    power = await plug.get_emeter_realtime()
+    if power.power > 10:  # Desk motor is running
+        print("Standing desk in use")
+```
+
+2. **Height Sensor Method** (accurate):
+- Ultrasonic sensor measuring desk height
+- MQTT broadcast to Home Assistant
+- Creates automation rules based on desk position
+
+### Cable Management Under Desks
+
+For standing desks with frequent height changes, cable management is critical:
+
+- Use cable sleeves that expand/contract with height changes
+- Route cables along the underside of desktop (avoid tangling with legs)
+- Use Velcro straps (not permanent ties) to allow adjustments
+- Keep power strips mounted on the desk frame, not floor-adjacent
+
 ## Making Your Decision
 
-The best standing desk for home office use depends on your specific needs, budget, and workspace constraints. For developers, prioritize stability for multiple monitors, sufficient desktop depth for reference materials, and reliable motorized height adjustment. Consider whether smart features like usage tracking or home automation integration align with your workflow.
+The best standing desk for home office use depends on your specific needs, budget, and workspace constraints. For developers, prioritize stability for multiple monitors, sufficient desktop depth for reference materials, and reliable motorized height adjustment.
+
+**Decision framework**:
+1. Calculate your total desk load (monitors + peripherals)
+2. Choose minimum weight capacity of load × 1.5
+3. Ensure motor type (dual) if load > 150 lbs
+4. Prioritize memory presets over fancy features (you'll use presets daily)
+5. Consider smart features only if you can automate them
 
 The most important factor is consistent use. A premium desk that stays in one position provides no benefit over a basic model that's actually used. Start with what fits your budget, focus on build quality and ergonomics, and add smart features as needed.
+
+Most developers find their ideal balance is 30-50% standing time, which takes 4-6 weeks of habit formation. Use calendar reminders initially—genuine habit adoption means you won't need reminders long-term.
+
+**Cost-benefit calculation for 2026**: A $600 standing desk used for 3 years at full utilization costs $200/year or $0.25/hour. For knowledge workers earning $25+/hour, even modest back pain reduction justifies the investment.
 
 ---
 

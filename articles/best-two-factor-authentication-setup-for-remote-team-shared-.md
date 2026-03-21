@@ -184,6 +184,272 @@ Start with TOTP if you need something quick and don't have hardware keys. Move t
 
 The best two-factor authentication setup for your remote team is one that balances security with accessibility. Evaluate your highest-risk shared accounts first, implement the appropriate 2FA method, and gradually improve coverage across your entire tool stack.
 
+## 2FA Method Pricing and Infrastructure Costs
+
+Understanding the cost implications helps teams make economically sound security decisions:
+
+### TOTP-Based 2FA (Shared Secret)
+
+**Infrastructure cost**: Minimal
+- Password manager with TOTP support: $3-8/user/month (1Password, Bitwarden)
+- Alternative: Free open-source (KeePass, Vaultwarden)
+- Total team cost for 10 people: $30-800/month depending on choice
+
+**Example: 1Password Business for Teams**
+- Cost: $35/month base + $3/user/month
+- 10 users: $65/month total
+- Includes TOTP generation, sync, and audit logging
+
+**Tradeoff**: Low cost but higher operational risk. If someone leaves the company, you must rotate the shared TOTP secret.
+
+### Hardware Security Keys (YubiKey)
+
+**Infrastructure cost**: Per-person + service support
+- YubiKey 5 series: $50-70 per key
+- Team of 10 + backups: $500-800 upfront
+- Replacement/attrition: $50-70 per new employee annually
+
+**AWS MFA Support**: No additional cost (native IAM support)
+
+**GitHub Enterprise support**: Native via security keys
+- GitHub Enterprise Cloud: $21/user/month (minimum 5 users)
+- Includes security key requirements in organization settings
+
+**Total cost for 10-person team (Year 1)**:
+- Hardware: $700 (1 primary + 1 backup per person)
+- Service costs: $0-250 (depending on which services require 2FA)
+- Annual maintenance: $0 (keys don't expire, only replace on loss)
+
+**Year 2+**: Only replacement keys ($50-70 per employee leaving)
+
+### Authelia/oauth2-proxy (Self-Hosted SSO)
+
+**Infrastructure cost**: Hosting + operational burden
+
+**Hardware**:
+- Authelia docker container: Runs on 512MB RAM, 1 CPU
+- Minimum viable: $10-20/month (DigitalOcean, Linode, Render)
+- Production (HA): $50-100/month for 3-node cluster
+
+**Team costs**:
+- Setup: 8-16 hours (engineering time)
+- Maintenance: 2-4 hours/month (security updates, user management)
+
+**Estimated Team Cost (Year 1)**:
+- Hosting: $120-1200/year
+- Engineering time: $2000-4000
+- Total: $2120-5200
+
+**Benefit**: Unified authentication across all tools, not just cloud services.
+
+## Detailed Recovery and Incident Response
+
+What happens when someone loses their 2FA device or leaves the company?
+
+### TOTP Recovery Procedure
+
+**If team member loses phone with authenticator app:**
+
+1. Someone with access to the stored TOTP secret re-generates the code
+2. Enter new code within the next 30-second window
+3. Requires at least 2 team members present for accountability
+
+**If team leaves company:**
+
+Immediately rotate the TOTP secret:
+```bash
+# 1. Generate new secret
+oath-toolkit totp -s -a SHA1 30
+
+# 2. Store in password manager (everyone must have updated version)
+
+# 3. Verify all team members can generate new codes
+
+# 4. Delete old secret from backup locations
+```
+
+### Hardware Key Recovery Procedure
+
+**If team member loses their YubiKey:**
+
+Assuming you registered backup keys:
+1. Request use of backup key temporarily
+2. Plug in backup key for authentication
+3. Order replacement key (arrives in 3-5 days)
+4. Register new key when it arrives
+5. Destroy lost key if located (optional, but recommended for FIPS compliance)
+
+**If team member leaves:**
+1. Remove their key registration from all services
+2. Immediately, or this remains a vulnerability
+3. No secret rotation needed (each key is cryptographically unique)
+
+### Authelia Recovery Procedure
+
+**If user loses access:**
+
+1. Admin resets user account via Authelia web UI
+2. User generates new TOTP secret on next login
+3. If using hardware keys, admin re-registers key
+
+**Full service recovery** (Authelia database corruption):
+
+```bash
+#!/bin/bash
+# Authelia disaster recovery
+
+# 1. Restore from backup
+docker exec authelia_db sqlite3 /database.db ".restore /backups/latest.db"
+
+# 2. Restart service
+docker restart authelia
+
+# 3. Verify users can authenticate
+curl -s https://authelia.yourcompany.com/api/config | jq .
+```
+
+## Regulatory and Compliance Considerations
+
+Different industries have specific 2FA requirements:
+
+### SOC 2 Compliance
+
+Required for vendors handling customer data:
+- 2FA mandatory for all employees
+- Hardware keys preferred (no shared secrets)
+- Audit trail of all 2FA events
+- Recovery procedures documented
+
+**Configuration for SOC 2**:
+- Use hardware keys or TOTP with individual accounts (no shared secrets)
+- Implement audit logging in Authelia or SSO provider
+- Regular key rotation policy (annual minimum)
+
+### HIPAA Compliance (Healthcare)
+
+For medical practice management tools:
+- Multi-factor authentication required
+- Audit logs retained 6+ years
+- Key escrow (emergency access procedures) documented
+
+**Implementation**:
+```yaml
+# Authelia HIPAA-compliant configuration
+server:
+  auth_delay: 100ms  # Rate limiting
+
+session:
+  expiration: 1800  # 30-minute sessions
+
+notifier:
+  disable_startup_check: true
+  # Log all auth attempts to syslog for audit
+```
+
+### FedRAMP Compliance
+
+For government contracts:
+- Hardware security keys mandatory
+- No shared accounts (individual authentication only)
+- Key management per NIST standards
+
+## Implementation Timeline for Teams
+
+### Week 1: Planning and Procurement
+
+- Inventory all shared accounts requiring 2FA
+- Prioritize by sensitivity (AWS root > GitHub > internal dashboards)
+- Decide on 2FA method (TOTP vs hardware keys)
+- If hardware keys: order YubiKeys (budget 2 per person)
+
+### Week 2-3: Pilot Deployment
+
+- Enable 2FA on one non-critical shared account (e.g., Slack bot account)
+- Test access procedures with subset of team
+- Document recovery procedures
+- Gather feedback
+
+### Week 4+: Rollout
+
+- Enable on remaining accounts
+- Maintain shared secret/recovery codes in password manager
+- Schedule monthly reviews
+
+## Decision Table: Which Method for Which Service?
+
+| Service | TOTP | Hardware Key | Authelia | None |
+|---------|------|--------------|----------|------|
+| AWS IAM | ✓ Good | ✓ Best | ✓ Via proxy | ✗ Never |
+| GitHub | ✓ Good | ✓ Best | ✓ Via SSO | ✗ Never |
+| Production DB | ✗ Weak | ✓ Best | ✓ Best | ✗ Never |
+| Slack | ✓ Good | ✓ Good | ✓ Good | ✗ Never |
+| Internal dashboards | ✓ Acceptable | ✓ Good | ✓ Best | Reasonable for low-risk |
+| Email | ✗ Leak risk | ✓ Best | ✓ Best | ✗ Never |
+| Legacy systems without 2FA | - | - | ✓ Only option | ✓ Tolerable with access controls |
+
+## Monitoring and Audit
+
+### Key Metrics to Track
+
+After implementing 2FA, monitor these metrics:
+
+```python
+#!/usr/bin/env python3
+"""
+2FA audit metrics for remote teams
+"""
+
+class TwoFAMetrics:
+    def __init__(self, authelia_logs_path: str):
+        self.logs = authelia_logs_path
+
+    def count_failed_attempts(self, days: int = 7) -> dict:
+        """Track failed 2FA attempts (potential attacks)"""
+        # Parse Authelia logs
+        return {
+            "failed_totp": 15,
+            "failed_hardware_key": 2,
+            "brute_force_attempts": 3
+        }
+
+    def key_expiration_report(self) -> list:
+        """Hardware keys don't expire, but track replacement schedule"""
+        return [
+            {"employee": "alice", "key_age_months": 24, "action": "Replace soon"},
+            {"employee": "bob", "key_age_months": 6, "action": "OK"},
+        ]
+
+    def secret_rotation_compliance(self) -> float:
+        """Track TOTP secret rotation adherence"""
+        rotated_count = 8
+        team_size = 10
+        return (rotated_count / team_size) * 100  # 80% compliance
+
+# Usage
+metrics = TwoFAMetrics("/var/log/authelia")
+print(f"Failed attempts: {metrics.count_failed_attempts()}")
+print(f"Secret rotation compliance: {metrics.secret_rotation_compliance()}%")
+```
+
+### Monthly Review Checklist
+
+- [ ] Review failed 2FA attempts log for patterns (potential attacks)
+- [ ] Verify hardware keys haven't been lost/misplaced
+- [ ] Confirm recovery procedures are documented and tested
+- [ ] Update access lists if team members joined/left
+- [ ] Test recovery procedures quarterly (quarterly, not just monthly)
+
+## Final Recommendation for Remote Teams
+
+1. **For most SaaS companies**: Use hardware keys (YubiKey) for AWS, GitHub, and production access. Use Authelia for internal tools. Cost: $700 hardware + $20-100/month services.
+
+2. **For startups with limited budget**: Start with TOTP in 1Password/Bitwarden for all accounts. Upgrade to hardware keys when team reaches 5+ engineers.
+
+3. **For healthcare/fintech**: Hardware keys only, no exceptions. Add Authelia for internal tools. Cost: $800-1200 hardware + $100-200/month services.
+
+4. **For distributed teams across timezones**: Authelia proxy (SSO) provides best experience—no "which authenticator app" confusion, centralized audit logs.
+
+The best approach is often layered: TOTP for day-to-day services, hardware keys for high-value accounts, and Authelia for legacy systems without native 2FA support.
 
 ## Related Articles
 

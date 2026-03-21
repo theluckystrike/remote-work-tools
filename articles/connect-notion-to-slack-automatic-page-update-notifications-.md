@@ -183,6 +183,171 @@ Regardless of which method you choose, structure your notifications to avoid ale
 
 Testing your setup thoroughly before rolling it out team-wide prevents notification spam. Start with a test channel, refine your filters, then expand to production channels once the setup stabilizes.
 
+## Advanced Filtering for Notification Precision
+
+When you need to notify only on specific Notion changes, use this custom filtering approach:
+
+```python
+# Enhanced notification filter
+def should_notify(page_update):
+    """
+    Only send notification if:
+    1. Status changed to 'Approved'
+    2. OR content changed in title field
+    3. But NOT just metadata changes
+    """
+
+    ignored_fields = ['Last Edited By', 'Last Edited Time', 'Created By']
+
+    changed_fields = set(page_update['modified_fields']) - set(ignored_fields)
+
+    # Only notify on substantive changes
+    if not changed_fields:
+        return False
+
+    # Always notify if status is 'Approved'
+    if page_update.get('status') == 'Approved':
+        return True
+
+    # Notify on title changes or content updates
+    substantive_fields = ['Name', 'Description', 'Content', 'Status']
+    for field in changed_fields:
+        if field in substantive_fields:
+            return True
+
+    return False
+```
+
+This prevents notification fatigue from trivial metadata updates while capturing meaningful changes.
+
+## Slack Message Formatting for Better Notifications
+
+Make notifications more useful by including actionable context:
+
+```python
+def format_notification(page_update):
+    """Create rich Slack notification with context"""
+    return {
+        "blocks": [
+            {
+                "type": "header",
+                "text": {
+                    "type": "plain_text",
+                    "text": "📄 Notion Page Updated"
+                }
+            },
+            {
+                "type": "section",
+                "fields": [
+                    {
+                        "type": "mrkdwn",
+                        "text": f"*Page:*\n{page_update['title']}"
+                    },
+                    {
+                        "type": "mrkdwn",
+                        "text": f"*Updated By:*\n{page_update['editor']}"
+                    },
+                    {
+                        "type": "mrkdwn",
+                        "text": f"*Change Type:*\n{page_update['change_type']}"
+                    },
+                    {
+                        "type": "mrkdwn",
+                        "text": f"*Status:*\n{page_update.get('status', 'N/A')}"
+                    }
+                ]
+            },
+            {
+                "type": "actions",
+                "elements": [
+                    {
+                        "type": "button",
+                        "text": {"type": "plain_text", "text": "View in Notion"},
+                        "url": page_update['page_url'],
+                        "style": "primary"
+                    }
+                ]
+            }
+        ]
+    }
+```
+
+This provides team members with immediate context without requiring them to click through.
+
+## Deployment Architecture for Production
+
+For a production system monitoring multiple Notion databases:
+
+```yaml
+# Docker Compose setup for production deployment
+version: '3.8'
+
+services:
+  notifier:
+    image: notion-slack-notifier:latest
+    environment:
+      NOTION_API_KEY: ${NOTION_API_KEY}
+      SLACK_TOKEN: ${SLACK_TOKEN}
+      LOG_LEVEL: info
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+
+  redis:
+    image: redis:7-alpine
+    volumes:
+      - redis-data:/data
+    restart: always
+
+volumes:
+  redis-data:
+```
+
+Use Redis to track which updates you've already notified on, preventing duplicate messages during restarts.
+
+## Cost Comparison: Which Method Makes Sense?
+
+| Method | Setup Time | Monthly Cost | Best For | Scalability |
+|--------|-----------|----------|----------|-------------|
+| Native Notion | 15 mins | $0 | Simple use cases | 1-5 pages only |
+| Custom API | 2-3 hours | $5-20 (server) | Complex filtering | Any scale |
+| Zapier | 30 mins | $15-20 | Non-technical teams | 5-20 pages |
+| Make | 45 mins | $10-20 | Medium complexity | 10-50 pages |
+
+For a team with 20+ pages needing monitoring, the custom API approach ($10/month for a small server) beats Zapier ($15 per zap).
+
+## Troubleshooting Common Issues
+
+**Problem: Duplicate notifications appearing**
+```python
+# Add deduplication logic
+def deduplicate_updates(updates):
+    seen = {}
+    for update in updates:
+        key = (update['page_id'], update['timestamp'])
+        if key not in seen:
+            seen[key] = update
+    return list(seen.values())
+```
+
+**Problem: Notifications arriving 5-10 minutes late**
+- Increase polling frequency (but watch API rate limits)
+- Use webhooks instead of polling (Notion doesn't support yet, but check for new features)
+- Deploy multiple instances of your notifier script for redundancy
+
+**Problem: Slack token expiring and stopping notifications**
+- Use long-lived bot tokens from Slack workspace settings
+- Implement token refresh logic if using OAuth
+- Monitor for 401 errors and alert operators
+
+---
+
 
 ## Related Articles
 

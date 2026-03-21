@@ -181,6 +181,150 @@ const adjustedVelocity = baseVelocity * (1 - (snowDayProbability * 0.3));
 
 If your region experiences 5-10 snow days annually, planning for this reduction prevents end-of-sprint crunches.
 
+## Snow Day Budget Worksheet
+
+Calculate your realistic capacity before the snow hits:
+
+| Time Block | Parent A Activity | Parent B Activity | Notes |
+|-----------|-------------------|-------------------|-------|
+| 6:00-9:00 AM | Deep work hours | Breakfast + kids routine | 3 hours focus |
+| 9:00-12:00 PM | Kid supervision | Meetings + documentation | 3 hours focus |
+| 12:00-1:00 PM | Lunch together | Both present | Family time |
+| 1:00-4:00 PM | Meetings + calls | Kid supervision | 3 hours focus |
+| 4:00-6:00 PM | Family time | Family time | Recharge period |
+| **Daily Total** | **6 hours focused** | **6 hours focused** | **12 combined focused hours** |
+
+This assumes your normal 8-hour workday becomes 6 hours on snow days per parent—more realistic than pretending you'll work full hours.
+
+## Activity Kit Preparation Checklist
+
+Build your snow day activity bin BEFORE winter arrives:
+
+**Outdoor Activities (weather permitting)**
+- Sleds or cardboard boxes for sledding
+- Snow shovels (kid-sized if possible)
+- Thermoses for hot cocoa
+- Snow toys (snow molds, stacking tools)
+
+**Indoor Quiet Activities** (30-60 min each)
+- 3 puzzle books at their level
+- Building sets (different types: LEGO, K'NEX, Magnatiles)
+- Art supply box: blank paper, colored pencils, markers, glue, stickers
+- Origami paper + instruction books
+- Dot-to-dot books and coloring books
+
+**Moderate Engagement Activities** (45-90 min)
+- 3 age-appropriate board games
+- Construction sets (architectural models, robot kits)
+- Science experiment kit with pre-measured ingredients
+- DIY craft projects with detailed instructions
+
+**Screen Time** (backup for 2+ hour focus block)
+- Downloaded episodes of educational series (YouTube Kids, PBS)
+- Khan Academy Kids app (offline mode)
+- Duolingo or Codecombat for educational fun
+- Movie picked in advance (save for late afternoon)
+
+Cost estimate: $80-120 to stock completely. Spread purchases over fall months.
+
+## Communication Templates for Your Team
+
+### Template 1: "Snow Day Announced" Message
+
+```
+Hey team,
+
+[School name] announced a snow day tomorrow. I'll be managing childcare
+but staying available for critical issues.
+
+Tomorrow's availability:
+9:00-11:00 AM — Available for meetings
+11:00 AM-1:00 PM — Focusing on [specific project] (async only)
+1:00-3:00 PM — Available for meetings
+3:00+ PM — Childcare + light work only
+
+Critical issues: Slack mention @me, I'll respond within 30 minutes
+Non-urgent: I'll respond by EOD tomorrow
+
+Expected deliverables:
+✓ Code reviews for PRs in queue
+✓ Daily standup update
+? Full feature implementation — pushing to tomorrow EOD
+
+Thanks for being flexible!
+```
+
+### Template 2: "More Flexibility Needed" Message
+
+```
+Hi [Manager],
+
+The snow day is more intensive than expected (three kids home,
+power fluctuations affecting internet). I can deliver:
+
+✓ One critical feature (reduced scope version)
+✗ Full feature implementation
+✗ New code review round
+
+I can catch up on the secondary items tomorrow.
+Is that prioritization okay with you?
+```
+
+## Acoustic Setup for Video Calls During Snow Days
+
+When you absolutely must take video calls with kids home:
+
+**Noise Isolation Technique:**
+```
+1. Use high-quality noise-canceling headphones (Sony WH-1000XM5 or Bose QC)
+2. Enable "noise suppression" in Zoom/Teams settings
+3. Speak closer to your microphone (reduces ambient pickup)
+4. Set microphone sensitivity to 40% (prevents picking up kid sounds)
+5. Use a dynamic microphone (handheld) instead of laptop built-in
+```
+
+**If calls sound choppy with background noise:**
+- Lower video quality (reduces bandwidth for audio codec)
+- Ask participants to mute except when speaking
+- Use phone audio instead of computer audio (often more reliable)
+
+**Pre-call checklist:**
+- Kids bathroom break completed
+- Snack is served
+- Quiet activity started
+- Door closed (even if it won't eliminate sound)
+- "Do not interrupt unless bleeding" rule explained
+
+## Historical Snow Day Data
+
+Use your local weather patterns to plan:
+
+```
+Northeast US: 5-10 snow days annually
+Midwest: 8-15 snow days annually
+Mid-Atlantic: 2-5 snow days annually
+West Coast (Seattle/Portland): 2-3 snow days annually
+Mountain states: 10-20 snow days annually
+South: 0-2 snow days annually (but extreme when they happen)
+```
+
+If your region averages 8 snow days, budget for 2-3 per quarter. Build this into sprint planning.
+
+## Real Talk: When Snow Days Don't Work
+
+Sometimes dual-remote parenting plus snow days is unsustainable. If you find yourself constantly:
+- Missing critical deadlines
+- Sacrificing child supervision quality for work
+- Feeling perpetually guilty about both responsibilities
+
+Consider alternatives:
+- One parent takes PTO while other works normally
+- Negotiate with your employer for "weather day" flexibility
+- Use childcare backup if in budget (e.g., emergency babysitter on speed dial)
+- Shift your work schedule to evening hours (if partner can supervise until school opening)
+
+Protecting both your professional reputation AND your children's safety matters more than proving you can do both simultaneously.
+
 ---
 
 
