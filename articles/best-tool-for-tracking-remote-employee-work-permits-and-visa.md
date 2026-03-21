@@ -9,7 +9,7 @@ permalink: /best-tool-for-tracking-remote-employee-work-permits-and-visa/
 categories: [guides]
 tags: [remote-work-tools, remote-work, compliance, visa, permits, hr-tech, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
