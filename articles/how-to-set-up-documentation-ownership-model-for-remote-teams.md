@@ -24,6 +24,8 @@ Remote work eliminates the informal hallway conversations where knowledge transf
 2. Quality control: Page maintainers can enforce standards and catch errors before publication
 3. Reduced friction: Contributors know who to approach with questions or proposed changes
 
+Without ownership, documentation rots. Engineers update the code but skip the docs. Architecture decisions get made in Slack and never written down. Onboarding guides reflect a product that shipped two years ago. These are the symptoms of a docs culture without accountability, and adding ownership is the structural fix.
+
 ## Step 1: Audit Your Current Documentation ecosystem
 
 Before assigning ownership, understand what you're working with. Create an inventory of your documentation:
@@ -43,7 +45,7 @@ Categorize your content into logical domains:
 - Team-specific processes
 - Troubleshooting guides
 
-This audit reveals natural ownership boundaries based on subject matter.
+This audit reveals natural ownership boundaries based on subject matter. Aim for ownership groups of 5-15 documents per person — small enough to stay on top of, large enough that ownership feels meaningful rather than bureaucratic.
 
 ## Step 2: Define Ownership Roles
 
@@ -55,7 +57,7 @@ Clear roles prevent the "too many cooks" problem while avoiding single points of
 | **Secondary Owner** | Covers during absences, shares review load |
 | **Contributor** | Proposes changes, flags issues, assists with updates |
 
-For smaller teams, one person can hold both primary and secondary roles for related domains.
+For smaller teams, one person can hold both primary and secondary roles for related domains. The important distinction is that the primary owner has decision authority — they can merge or reject changes without consensus, which is what makes the model work.
 
 ## Step 3: Create an Ownership Registry
 
@@ -176,6 +178,8 @@ jobs:
           # Notify owners via Slack/Email for stale content
 ```
 
+A 90-day review cycle works well for most teams. API reference may need monthly attention during active development; architecture decision records can be reviewed annually. Adjust thresholds per ownership group rather than applying a single blanket policy.
+
 ## Step 5: Onboard Contributors to the Model
 
 Documentation ownership only succeeds when everyone participates. Train your team with these onboarding steps:
@@ -200,6 +204,8 @@ designated maintainers. When contributing documentation:
 Owners should respond to review requests within 48 hours.
 ```
 
+The 48-hour SLA matters. Without a response expectation, ownership becomes a rubber stamp and contributors stop requesting reviews. If an owner consistently misses the SLA, it is a signal to redistribute their ownership load.
+
 ## Measuring Success
 
 Track these metrics to validate your ownership model:
@@ -215,12 +221,55 @@ FROM documentation_ownership
 WHERE last_reviewed < DATE_SUB(CURDATE(), INTERVAL 90 DAY);
 ```
 
+Aim for a stale content ratio below 15% for active documentation. For archival or rarely-accessed content, extend the threshold to 180 days rather than artificially inflating review activity.
+
+## Tooling That Supports Ownership Models
+
+Several tools make ownership enforcement easier:
+
+**GitHub CODEOWNERS:** GitHub's built-in ownership file (`.github/CODEOWNERS`) automatically assigns reviewers based on file paths. It works at the file level rather than document section level, which aligns well with documentation ownership:
+
+```
+# .github/CODEOWNERS
+docs/api-reference/  @sarah-chen @marcus-johnson
+docs/getting-started/ @alex-rivera
+docs/architecture/    @david-kim
+```
+
+**Notion Database:** If your team uses Notion, a documentation database with an Owner property and a Last Reviewed date provides built-in filtering for stale content. Notion's reminder automations can ping owners when pages go 90 days without review.
+
+**Confluence Page Properties:** Confluence supports custom page properties through macros. Combined with Confluence Automations, you can trigger review reminders without external scripts.
+
+## Handling Ownership During Team Changes
+
+One of the most common failure modes is ownership orphaning — an engineer leaves and their documentation sections go unmaintained. Build a handoff process into your offboarding checklist:
+
+1. Identify all sections the departing engineer owns by querying the registry
+2. Reassign primary ownership to the team member with the most domain context
+3. Schedule a review of each section within 30 days of the handoff
+4. Update `last_reviewed` in the registry to reflect the new owner's familiarity check
+
+For fast-growing teams, do quarterly ownership audits alongside performance reviews. Use the same SQL query that surfaces stale content to surface orphaned sections — any section whose primary owner no longer appears in your HR system is a documentation liability.
+
+When a team reorganizes around new product areas, treat it as a documentation ownership migration event. Bulk reassignments are fine as long as new owners do a 15-minute pass on each section they inherit before acknowledging ownership.
+
+## FAQ: Documentation Ownership for Remote Teams
+
+**How do we handle documentation owned by contractors?** Assign secondary ownership to a full-time employee for any section primarily owned by a contractor. This ensures continuity when the contract ends and gives contractors a review partner for quality checks.
+
+**What if nobody wants to own the legacy docs?** Make ownership explicit in the onboarding process for new hires. Assigning legacy documentation to the engineer joining the relevant team is reasonable — they will need to learn it anyway, and reviewing it from an outsider perspective often surfaces the most valuable improvements.
+
+**Should ownership follow the same lines as code ownership?** Often yes, but not always. The engineer who wrote the API may not be the best person to own the getting-started guide for it. Ownership should follow subject matter expertise, not authorship.
+
+**How do we prevent ownership from becoming a gatekeeping problem?** Set a maximum review SLA and a fallback policy. If an owner does not respond within 48 hours, the team lead can merge after a secondary owner approves. Ownership is about accountability, not control.
+
 ## Common Pitfalls to Avoid
 
-- Over-fragmentation: Assigning one owner per page creates bottlenecks
-- No backup plan: Always have secondary owners for absences
+- Over-fragmentation: Assigning one owner per page creates bottlenecks; group related pages under one owner
+- No backup plan: Always have secondary owners for planned absences and departures
 - Ownership without authority: Owners need decision power, not just responsibility
-- Forgotten registry: Keep the ownership file in sync with actual content
+- Forgotten registry: Keep the ownership file in sync with actual content — run the validation script on every PR
+- No handoff process: Engineer departures should trigger immediate ownership reassignment, not gradual neglect
 
 A well-implemented ownership model transforms documentation from a chaotic afterthought into a reliable team resource. The initial setup effort pays dividends in reduced confusion, faster onboarding, and content that actually stays current.
 
