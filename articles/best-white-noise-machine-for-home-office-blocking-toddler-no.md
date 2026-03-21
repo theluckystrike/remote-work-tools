@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /best-white-noise-machine-for-home-office-blocking-toddler-no/
 categories: [guides, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
