@@ -5,9 +5,10 @@ author: Remote Work Tools Guide
 date: 2026-03-21
 permalink: /remote-work-tools/best-remote-work-project-handoff-documentation-template-2026/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
+tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}
