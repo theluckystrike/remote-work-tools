@@ -185,7 +185,6 @@ A quarterly plan isn't set-and-forget. Build in a mid-quarter sync (around week 
 The most effective quarterly planning processes combine bottom-up input (what teams believe they can accomplish) with top-down direction (strategic priorities from leadership). Teams that feel ownership over their commitments perform better than teams that receive mandates.
 
 
-
 ## Related Articles
 
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)

@@ -374,7 +374,6 @@ Teams that execute async-first well across 8+ timezones move faster than single-
 The tradeoff is that building async-first culture requires discipline. It's easier to default to synchronous, easier to skip documentation, easier to call a meeting than write it up. Teams that can sustain the discipline move at remarkable speed despite (or because of) the timezone spread.
 
 
-
 ## Related Articles
 
 - [Convert to UTC range](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)

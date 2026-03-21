@@ -236,7 +236,6 @@ Use a reference photo with diverse skin tones. Adjust until skin tones appear si
 - Solution: Disable HDR for desktop use. Go to **System Settings** → **Displays** → **Advanced** and disable HDR.
 
 
-
 ## Related Articles
 
 - [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)

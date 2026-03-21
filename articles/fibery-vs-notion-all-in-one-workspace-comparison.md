@@ -250,7 +250,6 @@ Test both platforms with actual work—create a sprint tracker, document a proce
 ---
 
 
-
 ## Related Articles
 
 - [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)

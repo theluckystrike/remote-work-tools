@@ -175,7 +175,6 @@ class WorkSession:
 The flexibility that makes remote work valuable only works when you protect your boundaries. Your career is a marathon—pacing yourself matters more than short-term sprinting.
 
 
-
 ## Related Articles
 
 - [How to Detect and Prevent Burnout in Remote Employees](/remote-work-tools/how-to-detect-and-prevent-burnout-in-remote-employees-early-warning-signs/)

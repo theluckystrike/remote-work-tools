@@ -250,7 +250,6 @@ async function syncEmployee(employeeId, complianceTool) {
 ```
 
 
-
 ## Related Articles
 
 - [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)

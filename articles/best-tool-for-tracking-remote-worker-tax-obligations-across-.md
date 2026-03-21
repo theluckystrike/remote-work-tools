@@ -193,7 +193,6 @@ For most development teams, a hybrid approach works best: use commercial APIs fo
 Maintain detailed logs of all tax calculations and Nexus determinations. When audits occur—and they will for organizations with remote workers across many states—having clear audit trails prevents costly penalties.
 
 
-
 ## Related Articles
 
 - [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)

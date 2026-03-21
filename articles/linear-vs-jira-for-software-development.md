@@ -391,7 +391,6 @@ Total: 60 seconds
 Linear is 50% faster for this core developer workflow.
 
 
-
 ## Related Articles
 
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)

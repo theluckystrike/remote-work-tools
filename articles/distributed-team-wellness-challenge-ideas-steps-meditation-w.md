@@ -212,7 +212,6 @@ Wellness challenges work best when they become part of your team culture rather 
 The goal is not perfection—it is progress. Small, consistent actions compound over time into meaningful health improvements. When your distributed team participates in wellness challenges together, you build connections that transcend spreadsheets and code reviews.
 
 
-
 ## Related Articles
 
 - [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)

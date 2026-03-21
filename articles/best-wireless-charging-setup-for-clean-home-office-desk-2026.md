@@ -222,7 +222,6 @@ Position the 65W charger near your laptop work zone, and keep the Qi pads in you
 **Forgetting about cases:** Thick metal cases or cases with battery packs often block wireless charging. Remove cases before placing phones on chargers, or verify your specific case works with Qi charging.
 
 
-
 ## Related Articles
 
 - [Best Under Desk Cable Tray for Clean Home Office Setup 2026](/remote-work-tools/best-under-desk-cable-tray-for-clean-home-office-setup-2026/)

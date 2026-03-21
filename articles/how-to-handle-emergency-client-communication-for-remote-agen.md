@@ -215,7 +215,6 @@ Conduct blameless post-mortems that focus on:
 Share relevant findings with clients when appropriate—they appreciate transparency and seeing your commitment to improvement.
 
 
-
 ## Related Articles
 
 - [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)

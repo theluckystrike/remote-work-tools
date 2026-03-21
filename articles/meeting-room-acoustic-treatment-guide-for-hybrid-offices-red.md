@@ -396,7 +396,6 @@ Meeting rooms benefit from **broadband treatment** (covers all frequencies) but 
 - Document specifications for future reference
 
 
-
 ## Related Articles
 
 - [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)

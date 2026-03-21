@@ -305,7 +305,6 @@ metrics = {
 Use this data to iterate on your program annually. Successful internship programs improve every cycle because you address feedback systematically.
 
 
-
 ## Related Articles
 
 - [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)

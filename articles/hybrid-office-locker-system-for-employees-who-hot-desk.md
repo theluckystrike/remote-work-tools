@@ -381,7 +381,6 @@ User Communication: Set clear expectations about what can and cannot be stored. 
 A well-integrated locker system removes one of the friction points in hot-desking, making it effortless for employees to store belongings securely while they work from any desk in the office.
 
 
-
 ## Related Articles
 
 - [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)

@@ -222,7 +222,6 @@ Follow these principles to keep use tracking ethical:
 The goal is understanding whether the team is productive, not proving individuals are working every moment.
 
 
-
 ## Related Articles
 
 - [How to Track Project Dependencies in a Remote Team: A](/remote-work-tools/how-to-track-project-dependencies-remote-team/)

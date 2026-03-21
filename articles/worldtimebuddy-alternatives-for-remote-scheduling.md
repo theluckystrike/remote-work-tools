@@ -305,7 +305,6 @@ Start with Every Time Zone or Timezone.io if your team is new to global coordina
 ---
 
 
-
 ## Related Articles
 
 - [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)

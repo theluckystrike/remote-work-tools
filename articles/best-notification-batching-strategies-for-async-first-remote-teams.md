@@ -329,7 +329,6 @@ If your team is currently checking messages continuously, introduce batching gra
 This gradual rollout prevents the jarring transition that can cause resistance.
 
 
-
 ## Related Articles
 
 - [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)

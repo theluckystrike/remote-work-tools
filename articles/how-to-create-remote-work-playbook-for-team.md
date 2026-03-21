@@ -223,7 +223,6 @@ New team members should read the playbook in their first week. Include a "gettin
 Avoid writing prescriptive policies without team buy-in. If engineers feel the playbook was handed down rather than built collaboratively, they won't update it when reality changes.
 
 
-
 ## Related Articles
 
 - [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)

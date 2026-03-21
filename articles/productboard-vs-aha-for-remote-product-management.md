@@ -342,7 +342,6 @@ Track these metrics to verify your tool choice is working:
 If you're seeing healthy metrics within 3 months of adoption, your choice is working. If metrics are poor, diagnose whether it's the tool or your process.
 
 
-
 ## Related Articles
 
 - [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)

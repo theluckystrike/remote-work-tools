@@ -283,7 +283,6 @@ The specific tools matter less than the principles behind their implementation. 
 ---
 
 
-
 ## Related Articles
 
 - [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)

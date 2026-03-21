@@ -193,7 +193,6 @@ Start implementing trust-based productivity measurement:
 5. Iterate and refine: Adjust metrics based on what actually improves outcomes
 
 
-
 ## Related Articles
 
 - [Productivity Tracking Tools for Remote Teams 2026](/remote-work-tools/remote-team-productivity-tracking-2026/)

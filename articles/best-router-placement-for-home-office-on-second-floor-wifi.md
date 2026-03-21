@@ -306,7 +306,6 @@ For remote developers whose livelihood depends on stable connections, mesh syste
 ---
 
 
-
 ## Related Articles
 
 - [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)

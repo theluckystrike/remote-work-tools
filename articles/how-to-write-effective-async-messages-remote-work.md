@@ -180,7 +180,6 @@ When you write clear, actionable async messages, you reduce meeting load, respec
 The shift to async-first communication transforms how remote teams operate. Messages become more thoughtful, decisions become more documented, and team members gain freedom to work when they're most productive.
 
 
-
 ## Related Articles
 
 - [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)

@@ -557,7 +557,6 @@ PagerDuty Integration:
 This closes the loop between detection, response, and continuous improvement.
 
 
-
 ## Related Articles
 
 - [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)

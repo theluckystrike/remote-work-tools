@@ -255,7 +255,6 @@ Schedule brief check-ins during onboarding. Use these to answer questions and ve
 **Treating security as an one-time event.** Security onboarding starts the process. Plan ongoing training and refreshers throughout the year.
 
 
-
 ## Related Articles
 
 - [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)

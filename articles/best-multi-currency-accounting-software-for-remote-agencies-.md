@@ -268,7 +268,6 @@ For a 5-person agency crossing six figures in revenue, this is a worthwhile inve
 ---
 
 
-
 ## Related Articles
 
 - [Example: Tracking exchange rates for optimal conversion](/remote-work-tools/best-currency-exchange-strategy-for-remote-workers-paid-in-u/)

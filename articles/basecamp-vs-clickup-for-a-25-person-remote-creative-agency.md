@@ -205,7 +205,6 @@ Consider a pilot test: create two real client projects, assign three team member
 The right tool is the one your team actually uses consistently. A simpler tool used well outperforms a powerful tool configured poorly.
 
 
-
 ## Related Articles
 
 - [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)

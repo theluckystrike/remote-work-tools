@@ -262,7 +262,6 @@ sudo tailscale up --authkey tskey-auth-XXXXXX --ephemeral
 ```
 
 
-
 ## Related Articles
 
 - [Remote Work VPN for Teams Comparison 2026: Tailscale vs.](/remote-work-tools/remote-work-vpn-for-teams-comparison-2026/)

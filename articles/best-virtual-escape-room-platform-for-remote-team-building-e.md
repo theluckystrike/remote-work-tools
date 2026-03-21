@@ -267,7 +267,6 @@ Test any platform with a small group before committing to a full-team event. Mos
 ---
 
 
-
 ## Related Articles
 
 - [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)

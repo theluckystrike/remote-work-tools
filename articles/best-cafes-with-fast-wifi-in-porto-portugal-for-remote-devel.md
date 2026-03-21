@@ -311,7 +311,6 @@ If you're doing something mission-critical (important deadline, big presentation
 4. **Library**: Biblioteca Almeida Garrett (historic public library) offers free WiFi and is very quiet. Good fallback option.
 
 
-
 ## Related Articles
 
 - [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)

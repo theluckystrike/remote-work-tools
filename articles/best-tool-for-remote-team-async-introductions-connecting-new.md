@@ -186,7 +186,6 @@ The best tool for your team depends on where your people already work and how mu
 ---
 
 
-
 ## Related Articles
 
 - [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)

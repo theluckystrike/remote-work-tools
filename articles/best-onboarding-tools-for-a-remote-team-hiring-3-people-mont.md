@@ -262,7 +262,6 @@ The right combination depends on your existing tool investments. Teams already u
 For teams scaling to three monthly hires, the automation ROI becomes clear within the first quarter. New team members onboard faster, mentors spend less time on repetitive questions, and the process remains consistent regardless of which team member handles coordination.
 
 
-
 ## Related Articles
 
 - [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)

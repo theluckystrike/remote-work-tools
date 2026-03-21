@@ -301,7 +301,6 @@ Schedule a lightweight quarterly review:
 The most successful remote design teams treat design tokens as infrastructure, not afterthoughts. Invest in your token management system, and your distributed team will ship consistent products regardless of who wrote the code or when they wrote it.
 
 
-
 ## Related Articles
 
 - [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)

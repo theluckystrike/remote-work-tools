@@ -230,7 +230,6 @@ A strong post-kickoff communication cadence for the first two weeks:
 This rhythm demonstrates professionalism and gives the client confidence that the project is moving without requiring them to chase updates. Remote projects that lose momentum in the first two weeks often never recover the velocity that a well-executed kickoff can establish.
 
 
-
 ## Related Articles
 
 - [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)

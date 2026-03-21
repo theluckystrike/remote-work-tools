@@ -322,7 +322,6 @@ The right tool is the one your team actually uses. Evaluate based on your team's
 ---
 
 
-
 ## Related Articles
 
 - [Best Virtual Whiteboard for Remote Team Brainstorming and](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)

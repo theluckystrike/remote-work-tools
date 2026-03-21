@@ -202,7 +202,6 @@ Schedule a quarterly review of active ADRs to identify:
 **Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
 
 
-
 ## Related Articles
 
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)

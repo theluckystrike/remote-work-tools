@@ -262,7 +262,6 @@ def create_meeting_page(title, summary, action_items, date):
 ---
 
 
-
 ## Related Articles
 
 - [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)

@@ -412,7 +412,6 @@ Tools that auto-organize this:
 → Stripe invoicing (free) + Google Docs contracts
 
 
-
 ## Related Articles
 
 - [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)

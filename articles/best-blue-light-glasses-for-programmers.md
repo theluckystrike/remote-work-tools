@@ -177,7 +177,6 @@ Set filters to activate 2-3 hours before typical sleep time. Start at warm tempe
 The combination of blue light glasses + screen filtering + software tools + deliberate breaks reduces eye strain by 60-70% compared to glasses alone.
 
 
-
 ## Related Articles
 
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)

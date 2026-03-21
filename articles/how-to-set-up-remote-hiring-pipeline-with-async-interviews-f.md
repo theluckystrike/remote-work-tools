@@ -230,7 +230,6 @@ Review these metrics quarterly and iterate on your pipeline stages.
 **No cultural assessment:** Technical skills matter, but collaboration style predicts team success. Include non-technical evaluation.
 
 
-
 ## Related Articles
 
 - [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)

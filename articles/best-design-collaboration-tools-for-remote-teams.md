@@ -350,7 +350,6 @@ Prevention:
 Large files slow down designers, increase sync times, and make version control harder. Manage file size as a team responsibility.
 
 
-
 ## Related Articles
 
 - [Batch export all artboards to multiple formats](/remote-work-tools/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)

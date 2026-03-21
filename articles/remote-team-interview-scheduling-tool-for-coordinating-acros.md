@@ -245,7 +245,6 @@ async function autoScheduleInterview(candidates, interviewers, position) {
 ```
 
 
-
 ## Related Articles
 
 - [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)

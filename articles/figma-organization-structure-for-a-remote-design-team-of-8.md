@@ -248,7 +248,6 @@ The key insight: structure enables autonomy. When everyone knows where files liv
 ---
 
 
-
 ## Related Articles
 
 - [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)

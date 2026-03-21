@@ -194,7 +194,6 @@ Regardless of which tool you choose, implement these practices:
 5. **Store data securely** — Review data is sensitive; follow your security team's guidelines
 
 
-
 ## Related Articles
 
 - [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)

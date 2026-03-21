@@ -213,7 +213,6 @@ Regardless of tool choice, establish clear naming conventions and folder structu
 Document your workflow and train team members consistently. The best tool failing to follow consistent processes provides little value.
 
 
-
 ## Related Articles
 
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)

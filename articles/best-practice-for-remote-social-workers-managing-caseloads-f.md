@@ -174,7 +174,6 @@ These metrics help demonstrate impact to supervisors while identifying bottlenec
 Remote social work demands disciplined systems and intentional practices. By implementing structured case management, automating routine tasks, maintaining secure communications, and prioritizing self-care, social workers can deliver effective services from their home offices while preserving professional boundaries and preventing burnout.
 
 
-
 ## Related Articles
 
 - [Remote Agency Subcontractor Client Communication Boundaries](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)

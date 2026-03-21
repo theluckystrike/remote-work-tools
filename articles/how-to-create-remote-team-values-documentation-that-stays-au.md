@@ -290,7 +290,6 @@ Values documentation won't generate immediate visibility or revenue. The payoff 
 The technical teams that execute this best treat values documentation with the same seriousness they apply to architecture documentation. They version it, measure its effectiveness, and iterate based on feedback.
 
 
-
 ## Related Articles
 
 - [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)

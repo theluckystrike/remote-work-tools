@@ -194,7 +194,6 @@ Track whether your hybrid rituals work through simple metrics:
 If remote participation drops or remote team members report feeling disconnected, revisit your hybrid meeting design immediately.
 
 
-
 ## Related Articles
 
 - [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)

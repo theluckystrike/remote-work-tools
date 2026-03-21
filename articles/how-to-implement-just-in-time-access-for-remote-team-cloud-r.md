@@ -224,7 +224,6 @@ Remote team members need clear instructions on how to request access, what to in
 - **Poor visibility into active sessions** – You need real-time awareness of who has access right now
 
 
-
 ## Related Articles
 
 - [How to Implement Geo-Fencing Access Controls for Remote](/remote-work-tools/how-to-implement-geo-fencing-access-controls-for-remote-team/)

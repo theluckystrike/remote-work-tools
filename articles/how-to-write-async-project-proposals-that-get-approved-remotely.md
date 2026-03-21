@@ -362,7 +362,6 @@ Fewer reviewers = faster decisions. More cooks spoil the approval.
 - Day 7: Escalate if critical path item blocked
 
 
-
 ## Related Articles
 
 - [How to Write Async Technical RFCs That Get Meaningful](/remote-work-tools/how-to-write-async-technical-rfcs-that-get-meaningful-feedba/)

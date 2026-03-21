@@ -227,7 +227,6 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
 
 
-
 ## Related Articles
 
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)

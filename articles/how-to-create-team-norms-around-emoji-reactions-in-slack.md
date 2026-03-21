@@ -328,7 +328,6 @@ The goal isn't emoji reactions. The goal is efficient communication. If emoji do
 {% endraw %}
 
 
-
 ## Related Articles
 
 - [Instead of:](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)

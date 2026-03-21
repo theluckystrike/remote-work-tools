@@ -231,7 +231,6 @@ After implementing your charter, measure whether it's actually working:
 ---
 
 
-
 ## Related Articles
 
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)

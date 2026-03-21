@@ -307,7 +307,6 @@ Consider the full lifecycle:
 ---
 
 
-
 ## Related Articles
 
 - [Herman Miller vs Steelcase for Home Office](/remote-work-tools/herman-miller-vs-steelcase-for-home-office/)

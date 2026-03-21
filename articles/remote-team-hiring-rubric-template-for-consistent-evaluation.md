@@ -207,7 +207,6 @@ This rubric provides a foundation—customize it based on your organizational pr
 Document your rubric in your team wiki or hiring handbook. New interviewers should review it before their first candidate. Over time, refine scores based on hire success. Your rubric improves alongside your hiring maturity.
 
 
-
 ## Related Articles
 
 - [Security Checklist Example](/remote-work-tools/how-to-write-remote-team-vendor-evaluation-documentation-tem/)

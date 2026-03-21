@@ -310,7 +310,6 @@ print(f'Total activity entries: {len(entries)}')
 ```
 
 
-
 ## Related Articles
 
 - [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)

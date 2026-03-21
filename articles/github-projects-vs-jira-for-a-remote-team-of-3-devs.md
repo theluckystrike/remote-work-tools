@@ -234,7 +234,6 @@ The right choice depends on your team's priorities. GitHub Projects gives you sp
 Test both tools with a two-week sprint. Track how often your team updates each board, how quickly everyone sees changes, and how much time you spend on project management versus writing code. These metrics reveal the real winner for your specific situation.
 
 
-
 ## Related Articles
 
 - [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)

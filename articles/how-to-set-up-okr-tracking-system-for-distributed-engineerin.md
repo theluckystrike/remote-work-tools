@@ -216,7 +216,6 @@ Start with the simplest tracking that provides adequate visibility, then add aut
 ---
 
 
-
 ## Related Articles
 
 - [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)

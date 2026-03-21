@@ -187,7 +187,6 @@ Whatever approach you choose, test it during your highest-noise times before imp
 ---
 
 
-
 ## Related Articles
 
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)

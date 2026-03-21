@@ -227,7 +227,6 @@ For invoices exceeding $5,000 that go significantly overdue, a formal demand let
 The most effective protection happens before a project starts: require a deposit. Clients who have skin in the game — who have already transferred money to you — have a fundamentally different dynamic than clients whose relationship with you costs them nothing until the project ends. A deposit filters out bad-faith clients, and the ones it doesn't filter out are on record as having made a financial commitment.
 
 
-
 ## Related Articles
 
 - [Best Practice for Remote Team Vendor Payment Terms](/remote-work-tools/best-practice-for-remote-team-vendor-payment-terms-negotiati/)

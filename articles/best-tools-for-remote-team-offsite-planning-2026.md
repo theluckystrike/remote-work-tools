@@ -341,7 +341,6 @@ Before choosing a tool:
 Most teams start with Airbnb for Work or TravelPerk, then graduate to Navan or TroopTravel as offsites grow more complex.
 
 
-
 ## Related Articles
 
 - [Best Virtual Offsite Planning Platform for Remote Teams 2026](/remote-work-tools/best-virtual-offsite-planning-platform-for-remote-teams-2026/)

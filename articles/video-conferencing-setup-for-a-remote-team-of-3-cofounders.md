@@ -193,7 +193,6 @@ For a new three-person cofounder team, follow this implementation sequence:
 6. Testing and refinement: Conduct test calls with screen sharing and recording to verify quality
 
 
-
 ## Related Articles
 
 - [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)

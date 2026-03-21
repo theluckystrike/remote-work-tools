@@ -200,7 +200,6 @@ This ensures you're not assigning work to someone who can't collaborate with the
 Balancing distributed team capacity requires intentional systems rather than hoping for organic balance. Start with visibility, automate checks, and maintain transparent communication about workload expectations.
 
 
-
 ## Related Articles
 
 - [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)

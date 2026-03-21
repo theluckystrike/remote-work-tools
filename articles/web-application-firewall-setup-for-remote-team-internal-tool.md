@@ -186,7 +186,6 @@ Review blocked requests weekly during initial deployment. Identify patterns wher
 Implement alerting for security events. Configure notifications when WAF blocks suspicious activity, but avoid alert fatigue by focusing on high-severity blocks and unusual patterns rather than routine attacks that the WAF handles automatically.
 
 
-
 ## Related Articles
 
 - [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)

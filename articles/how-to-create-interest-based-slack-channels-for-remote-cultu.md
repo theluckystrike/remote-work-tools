@@ -201,7 +201,6 @@ Start small, measure results, and iterate. The specific interests matter less th
 The best time to create interest channels was when your team formed. The second best time is today.
 
 
-
 ## Related Articles
 
 - [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)

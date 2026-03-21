@@ -266,7 +266,6 @@ Capacity problems rarely resolve themselves. When engineers feel overworked, the
 **Skipping async coordination**. Relying entirely on synchronous meetings wastes available time and excludes remote team members in different zones.
 
 
-
 ## Related Articles
 
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)

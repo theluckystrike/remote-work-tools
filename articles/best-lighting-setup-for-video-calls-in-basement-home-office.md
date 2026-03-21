@@ -210,7 +210,6 @@ Your basement home office can produce professional-quality video calls. The key 
 ---
 
 
-
 ## Related Articles
 
 - [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)

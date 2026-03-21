@@ -176,7 +176,6 @@ sox -n -r 48000 -c 2 test_tone.wav synth 30 sine 1000
 This measurement approach helps you identify frequency-specific problems and target treatment precisely.
 
 
-
 ## Related Articles
 
 - [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)

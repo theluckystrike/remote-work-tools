@@ -210,7 +210,6 @@ For developer notes specifically, both tools excel at connecting code snippets, 
 *
 
 
-
 ## Related Articles
 
 - [Obsidian vs Notion for Personal Knowledge Management](/remote-work-tools/obsidian-vs-notion-for-personal-knowledge-management/)

@@ -231,7 +231,6 @@ function analyzeSurveyResponses(responses) {
 With this system in place, you continuously gather client intelligence without adding manual busywork. The automation handles the timing and distribution, while you focus on analyzing feedback and improving your services.
 
 
-
 ## Related Articles
 
 - [Remote Agency Client Communication Cadence Template for](/remote-work-tools/remote-agency-client-communication-cadence-template-for-proj/)

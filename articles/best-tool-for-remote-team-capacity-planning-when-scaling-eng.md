@@ -220,7 +220,6 @@ Whatever approach you choose, the key is consistency: track your projections aga
 ---
 
 
-
 ## Related Articles
 
 - [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)

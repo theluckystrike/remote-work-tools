@@ -182,7 +182,6 @@ Successfully integrating a weekly wins channel requires patience. Expect low eng
 The best weekly wins channels become a team ritual that people genuinely look forward to — a moment to pause, reflect on progress, and feel connected across the distance.
 
 
-
 ## Related Articles
 
 - [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)

@@ -258,7 +258,6 @@ Even well-designed hybrid rooms fail when teams overlook these issues:
 - No dedicated operator: For important meetings, assign someone to manage the hybrid experience in real-time
 
 
-
 ## Related Articles
 
 - [Pin configuration](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)

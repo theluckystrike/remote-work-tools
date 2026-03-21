@@ -171,7 +171,6 @@ If the Second Home Visa requirements exceed your current situation, alternatives
 - Digital Nomad Visa (currently in pilot): Newer option with simpler requirements
 
 
-
 ## Related Articles
 
 - [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)

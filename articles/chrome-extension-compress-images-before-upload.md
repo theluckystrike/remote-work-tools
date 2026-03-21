@@ -305,7 +305,6 @@ Very large images might cause memory issues on lower-end devices. The extension 
 Some web applications use custom file upload components that don't use standard `<input type="file">` elements. In these cases, you'll need to extend the content script to handle their specific upload mechanisms.
 
 
-
 ## Related Articles
 
 - [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)

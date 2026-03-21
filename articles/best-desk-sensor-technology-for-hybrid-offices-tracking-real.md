@@ -255,7 +255,6 @@ Calibration significantly impacts sensor accuracy. PIR sensors need clear sightl
 Privacy remains paramount. Clearly communicate sensor placement and data usage to employees. Store occupancy data in aggregate form rather than tracking individuals. Many jurisdictions regulate employee monitoring—consult legal counsel for compliance requirements specific to your location.
 
 
-
 ## Related Articles
 
 - [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)

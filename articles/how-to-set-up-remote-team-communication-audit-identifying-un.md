@@ -240,7 +240,6 @@ A communication audit isn't an one-time exercise. Set a quarterly reminder to re
 The goal isn't to eliminate all meetings or channels—some synchronous communication is essential for collaboration. The goal is intentionality: every meeting should have a purpose, every channel should have active participants, and your team should have protected time for actual work.
 
 
-
 ## Related Articles
 
 - [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)

@@ -228,7 +228,6 @@ You can also create your own automation using cron jobs or launch agents:
 ```
 
 
-
 ## Related Articles
 
 - [Base brightness decreases with more monitors](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)

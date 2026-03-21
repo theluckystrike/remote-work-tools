@@ -184,7 +184,6 @@ The system should serve your workflow, not constrain it. If a view feels unneces
 Start with the three-database structure, add your five clients, and build views as you need them. This foundation scales beyond five clients when your business grows.
 
 
-
 ## Related Articles
 
 - [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)

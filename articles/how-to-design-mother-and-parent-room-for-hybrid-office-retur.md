@@ -235,7 +235,6 @@ Track these metrics to improve the parent room experience:
 A well-used parent room often sees 3-5 bookings daily in offices with 50+ employees. If usage is lower, survey employees to understand barriers.
 
 
-
 ## Related Articles
 
 - [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)

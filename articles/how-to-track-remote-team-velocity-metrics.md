@@ -223,7 +223,6 @@ For most remote teams, a minimal setup includes:
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
 
 
-
 ## Related Articles
 
 - [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)

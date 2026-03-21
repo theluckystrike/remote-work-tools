@@ -300,7 +300,6 @@ This prevents hard shadows and reduces glare from window while maintaining outdo
 If you're spending hours optimizing backlit video quality, reconsider whether repositioning your desk solves the problem more efficiently. Moving your desk 90 degrees so the window is to your side rather than behind you eliminates the backlight problem entirely. Some optimization challenges have better solutions outside the technical stack.
 
 
-
 ## Related Articles
 
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)

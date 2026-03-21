@@ -339,7 +339,6 @@ Hybrid rooms require regular care to stay functional:
 A maintained hybrid room consistently outperforms a well-equipped but neglected one.
 
 
-
 ## Related Articles
 
 - [Meeting Room Video Conferencing Equipment Setup for Hybrid](/remote-work-tools/meeting-room-video-conferencing-equipment-setup-for-hybrid-t/)

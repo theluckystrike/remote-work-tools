@@ -398,7 +398,6 @@ For teams of developers sharing a custom extension, publish to your internal Chr
 Most efficient teams use Chrome extension + VS Code extension together.
 
 
-
 ## Related Articles
 
 - [Chrome Security Headers Extension: A Practical Guide for](/remote-work-tools/chrome-security-headers-extension/)

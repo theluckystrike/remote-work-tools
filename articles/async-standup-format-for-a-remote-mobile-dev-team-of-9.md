@@ -183,7 +183,6 @@ Noise: With nine people posting daily, the channel gets busy. Use threading stri
 No Follow-Up: Async standups work only if someone actually reads and acts on the information. Designate a "standup owner" who summarizes blockers and ensures nothing falls through the cracks.
 
 
-
 ## Related Articles
 
 - [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)

@@ -451,7 +451,6 @@ Setup time amortized: Notion 30 hours over 5 years = 6 hours/year
 {% endraw %}
 
 
-
 ## Related Articles
 
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)

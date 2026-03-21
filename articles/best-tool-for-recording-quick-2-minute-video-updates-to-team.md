@@ -229,7 +229,6 @@ Record yourself walking through this template. The structure becomes automatic a
 ---
 
 
-
 ## Related Articles
 
 - [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)

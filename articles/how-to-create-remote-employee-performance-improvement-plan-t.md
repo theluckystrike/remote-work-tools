@@ -181,7 +181,6 @@ If after the defined period (typically 30-60 days) the employee has not met succ
 The goal of any PIP is genuine improvement. When executed thoughtfully with clear metrics and consistent follow-up, remote performance improvement plans can turn struggling team members into reliable contributors. The structure you build now will scale as your distributed team grows.
 
 
-
 ## Related Articles
 
 - [Remote Employee Output-Based Performance Measurement](/remote-work-tools/remote-employee-output-based-performance-measurement-framewo/)

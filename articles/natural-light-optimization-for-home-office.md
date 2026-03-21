@@ -170,7 +170,6 @@ If you're not ready for full automation, start with these simple changes:
 - **Take light breaks**—step outside for 10 minutes during peak daylight hours.
 
 
-
 ## Related Articles
 
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)

@@ -217,7 +217,6 @@ def parse_action_items(chat_messages):
 ```
 
 
-
 ## Related Articles
 
 - [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)

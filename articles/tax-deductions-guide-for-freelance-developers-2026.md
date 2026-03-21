@@ -214,7 +214,6 @@ print(f"Estimated quarterly payment: ${quarterly:.2f}")
 ```
 
 
-
 ## Related Articles
 
 - [Remote Work Tax Deductions: Home Office Guide 2026 (US.](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)

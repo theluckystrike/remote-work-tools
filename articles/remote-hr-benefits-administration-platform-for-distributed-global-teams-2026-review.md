@@ -199,7 +199,6 @@ Select your benefits administration platform based on your specific distribution
 The right choice depends on your current hiring pattern, technical integration requirements, and budget. Consider running a pilot with a small group of employees in one country before committing to a platform-wide rollout.
 
 
-
 ## Related Articles
 
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)

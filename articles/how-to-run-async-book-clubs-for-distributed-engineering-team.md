@@ -168,7 +168,6 @@ The key is consistency over intensity. A book club that meets every week for a y
 Running async book clubs across distributed engineering teams takes deliberate setup, but the payoff includes stronger team communication, shared technical vocabulary, and continuous learning that doesn't compete with delivery deadlines.
 
 
-
 ## Related Articles
 
 - [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)

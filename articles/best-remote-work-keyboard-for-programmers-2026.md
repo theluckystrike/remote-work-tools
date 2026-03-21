@@ -251,7 +251,6 @@ If your job depends on your hands (and whose doesn't, as a programmer?), invest 
 {% endraw %}
 
 
-
 ## Related Articles
 
 - [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)

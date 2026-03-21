@@ -190,7 +190,6 @@ Set up these automations in the Settings > Notifications section. Tailor thresho
 ---
 
 
-
 ## Related Articles
 
 - [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
