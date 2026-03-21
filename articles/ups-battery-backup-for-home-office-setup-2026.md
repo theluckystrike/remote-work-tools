@@ -166,6 +166,240 @@ services:
 
 **Skipping the user manual** — Each UPS model has specific load limits, runtime curves, and compatibility requirements. The manual takes 10 minutes to read and prevents costly mistakes.
 
+## UPS Product Recommendations and Pricing (2026)
+
+**Best Budget Option: CyberPower CP1500PFCLCD ($70-90)**
+- Capacity: 1500VA (865W)
+- Type: Line-interactive with AVR
+- Runtime at 50% load: 15-18 minutes
+- Runtime at 100% load: 5-7 minutes
+- Features: USB management, LCD display, battery self-test
+- Best for: Basic setups (monitor + laptop + router)
+- Pro: Affordable, reliable, good for travel/hoteling
+- Con: No pure sine wave (may affect sensitive equipment)
+
+**Sweet Spot: APC Back-UPS Pro 1500VA ($120-150)**
+- Capacity: 1500VA (865W)
+- Type: Line-interactive
+- Runtime at 50% load: 20-25 minutes
+- Runtime at 100% load: 7-10 minutes
+- Features: USB/Ethernet management card, LCD display, power conditioning
+- Best for: Developer workstations with dual monitors
+- Pro: Pure sine wave, widely compatible, excellent software support
+- Con: Slightly heavier than CyberPower
+
+**Premium Option: APC Smart-UPS C 1500VA ($200-250)**
+- Capacity: 1500VA
+- Type: Online (double-conversion)
+- Runtime at 50% load: 25-30 minutes
+- Runtime at 100% load: 10-15 minutes
+- Features: Network card, advanced battery management, hot-swappable batteries
+- Best for: Mission-critical setups, sensitive equipment
+- Pro: Constant power conditioning, zero transfer time, longest battery life
+- Con: More expensive, requires more space
+
+**High-Load Setup: CyberPower 2200VA Smart Card ($200-250)**
+- Capacity: 2200VA (1320W)
+- Type: Line-interactive
+- Runtime at 50% load: 30+ minutes
+- Runtime at 100% load: 12-18 minutes
+- Features: 10 outlets (split circuits), Ethernet card, advanced management
+- Best for: Large workstations + external storage + networking
+- Pro: Handles standing desk movement + gaming PC simultaneously
+- Con: Heavier, larger footprint
+
+**Compact/Travel: Belkin Portable Power Bank 20K+ ($60-100)**
+- Alternative for light travel
+- Charges laptop 1-1.5x, phone 5-6x
+- Not a replacement for desk UPS, but good backup
+- Best for: Freelancers, frequent travelers
+
+**Recommended Configuration for 2026**
+
+Most developers should buy: **APC Back-UPS Pro 1500VA ($120-150)**
+- Handles typical dev workstation (monitor + laptop + networking)
+- Pure sine wave output (safe for all equipment)
+- Excellent software support across all OSes
+- Proven reliability (lowest failure rate in reviews)
+
+Add-on: **Extra battery pack** ($80-120) if you need 40+ minutes runtime
+- Doubles runtime to 40-50 minutes
+- Useful if you run services you need to cleanly shut down
+
+## Installation and Testing Procedure
+
+**Step 1: Physical Setup (15 minutes)**
+1. Unpack UPS, remove shipping bolts/brackets
+2. Place on floor beside desk (not under desk where air can't circulate)
+3. Connect cables in order:
+   - Power strip (with surge protection) into UPS
+   - Monitor into power strip
+   - Desktop/laptop charger into power strip
+   - Modem/router into UPS (directly, not via power strip)
+   - USB management cable to laptop
+
+4. Plug UPS into wall outlet
+5. Power on UPS; LED indicators should light up
+6. Wait 3 minutes for battery charge recognition
+
+**Step 2: Software Installation (10 minutes)**
+
+Linux (example for Ubuntu):
+```bash
+sudo apt-get install nut nut-client
+
+# Edit /etc/nut/ups.conf
+sudo nano /etc/nut/ups.conf
+
+# Add:
+[myups]
+    driver = usbhid-ups
+    port = auto
+    desc = "APC Back-UPS"
+
+# Edit /etc/nut/upsmon.conf
+sudo nano /etc/nut/upsmon.conf
+
+# Add:
+MONITOR myups@localhost 1 monuser secretpass master
+SHUTDOWNCMD "/sbin/shutdown -h +1"
+POWERDOWNFLAG /etc/killpower
+
+# Start monitoring
+sudo systemctl start nut-server
+sudo systemctl start nut-client
+```
+
+macOS (example):
+```bash
+brew install nut
+
+# Follow similar config steps as Linux
+# Or use GUI application like "UPSmon"
+```
+
+Windows:
+```
+1. Download manufacturer software (PowerChute for APC, PowerPanel for CyberPower)
+2. Install software
+3. Configure shutdown trigger (Settings > Power Options)
+4. Test with battery drain
+```
+
+**Step 3: Battery Runtime Test (30 minutes)**
+1. Fully charge UPS (wait 8-12 hours first use)
+2. Unplug from wall outlet during work session
+3. Note the time
+4. Work normally, observe when low-battery warnings appear
+5. Document actual runtime vs. manufacturer specs
+6. Plug back in and let fully recharge
+
+Example test log:
+```
+Time: 2:00 PM — Unplugged
+2:15 PM — 5% battery drained
+2:20 PM — Warning: 10 minutes remain (software estimate)
+2:25 PM — Power loss occurred
+Actual runtime: 25 minutes at 60% load
+Manufacturer spec: 22 minutes at this load
+Result: ✓ Within expected range
+```
+
+**Step 4: Shutdown Script Testing (10 minutes)**
+1. Trigger low-battery condition (drain until 10% remains)
+2. Verify your shutdown script executes
+3. Check logs for:
+   - Time of battery low event
+   - Git commits made (if you have pre-shutdown hook)
+   - Graceful shutdown executed
+4. Reconnect, verify nothing was corrupted
+
+## Monitoring and Maintenance
+
+**Monthly Check**
+- Verify UPS powers on (LED lights, beep)
+- Check battery health indicator (if available)
+- Review monitoring software logs for errors
+
+**Quarterly Self-Test**
+Most UPS units have a self-test button. Press it:
+- Battery discharges 10-15%
+- UPS verifies inverter works
+- Battery status validated
+- Takes 10-15 minutes
+
+Run quarterly: `sudo upssched-cmd -c fsd` (Linux)
+
+**Annual Battery Health Assessment**
+```bash
+#!/bin/bash
+# Check if UPS battery needs replacement
+
+REMAINING_CAPACITY=$(upsc myups | grep battery.charge | awk '{print $NF}')
+
+if [ "$REMAINING_CAPACITY" -lt 80 ]; then
+    echo "⚠️  Battery health: ${REMAINING_CAPACITY}% (below 80% threshold)"
+    echo "Recommendation: Schedule battery replacement within 6 months"
+fi
+
+# Also check age
+BATTERY_AGE=$(($(date +%s) - $(stat -c %Y /var/log/nut.log)))
+YEARS=$((BATTERY_AGE / 31536000))
+
+if [ $YEARS -ge 3 ]; then
+    echo "⚠️  Battery age: ${YEARS} years"
+    echo "Recommendation: Replace battery (typical lifespan 3-5 years)"
+fi
+```
+
+**Replacement Indicators**
+Replace battery when:
+- Runtime drops below 50% of original specs
+- UPS reports "battery failure" indicator
+- Battery age >4 years (lead-acid) or >7 years (lithium)
+- Cost: $40-150 depending on UPS model
+
+## Advanced Configurations
+
+**Synced Multi-UPS Setup** (for teams sharing infrastructure)
+```
+UPS #1: Workstation (computer, monitor, keyboard)
+UPS #2: Networking (router, modem, switch)
+UPS #3: External storage (NAS, backup drives)
+
+Configuration: All three UPS units sync shutdown via:
+- Primary (workstation) detects low battery
+- Sends signal via Ethernet to secondary UPS units
+- All three units coordinate graceful shutdown
+```
+
+**Graceful Container Shutdown**
+```yaml
+# docker-compose.yml with UPS awareness
+version: '3'
+services:
+  postgres:
+    image: postgres:15
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: secret
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+    # Wait this long for graceful shutdown before killing
+    stop_grace_period: 30s
+
+  app:
+    build: .
+    depends_on:
+      - postgres
+    stop_grace_period: 30s
+```
+
+When UPS battery is low, containers have 30 seconds to commit in-flight transactions before being shut down.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

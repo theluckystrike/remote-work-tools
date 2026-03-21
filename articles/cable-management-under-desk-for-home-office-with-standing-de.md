@@ -138,7 +138,115 @@ Cable slack loops at desk grommet must maintain 4" minimum radius to prevent str
 
 This documentation helps when relocating your desk or troubleshooting connection issues.
 
-## Maintenance and Inspection
+## Product Recommendations and Pricing
+
+Investing in quality cable management tools saves frustration over time. Here are the best options tested in home office setups:
+
+**Cable Raceways & Sleeves**
+- Betaduct Cable Sleeve (15-25mm): $15-30, flexible neoprene, fits most cable diameters, lasts 5+ years
+- D-Line Cable Raceway: $10-20, PVC material, rigid but professional appearance, easy installation with adhesive backing
+- Monoprice Flexible Tubing: $8-15, silicone-based, superior flex for standing desk travel, withstands 50,000+ cycles
+
+**Under-Desk Trays**
+- Humanscale Cable Tray: $80-120, universal mounting, steel construction, integrates with most standing desk frames
+- Uplift Desk Cable Management Tray: $65-95, aluminum, shallow profile prevents leg interference, comes with velcro strips
+- FlexiSpot Organize Box: $40-60, storage capacity for extra cables/adapters, easier accessibility than trays
+
+**Power Strips & Voltage Regulation**
+- Surge-Protector Multi-Outlet: Belkin 6-outlet ($25-35), APC 8-outlet ($35-50), both 1200+ joules protection
+- Vertical Power Strip with USB: $30-45, mounts directly to desk leg, includes 2-3 USB-C ports for device charging
+- Intelligent PDU: $60-100, network-controlled, individual outlet switching via smartphone, critical for complex setups
+
+**Cable Organization Accessories**
+- Velcro Cable Ties: $5-12, reusable, sized packs (30-50 pieces), cleanest aesthetic
+- Cable Labels & Label Maker: Brother label maker ($25), 12mm label tape ($5/roll), professional labeling system
+- Desk Grommets with Rubber Liner: $15-30, hidden cable entry points, various diameter options
+
+**Wireless Conversion Kit** (to eliminate cables)
+- Logitech MX Keys + MX Master 3S (keyboard + mouse): $180-220, single 2.4GHz receiver, 70-day battery life
+- Keychron K3 Pro (wireless mechanical): $90-120, hotswappable switches, dual Bluetooth + USB-C
+- Ultimate Hacking Keyboard (premium): $200+, ergonomic, fully programmable, USB-C charging
+
+## Standing Desk Cable Strain Prevention
+
+Standing desk motion puts physical stress on cables that fixed desks never experience. Implement these strain-relief techniques:
+
+**Cable Length Calculations for Desk Travel**
+Most standing desks range from 28" (sitting height) to 48" (standing height), a 20" vertical travel. Account for this by:
+
+- Adding 25-30% extra cable length above the minimum distance from device to power source
+- Creating slack loops (minimum 4" diameter radius) at connection points to absorb desk movement
+- Using spiral cable wraps only on the upper stationary portion (monitor arm, power strip), not along the travel path
+
+**Measuring Cable Strain Points**
+Examine these high-stress areas quarterly:
+
+```bash
+# Identify cable strain patterns in your setup
+# Cables stressed by flexing develop visible creases after 6-12 months
+
+# At desk lowest position: measure cable slack at connector
+# At desk highest position: measure again
+# Slack should remain consistent throughout travel range
+
+# If cables tighten during movement, add 6-12 inches of total length
+```
+
+**Isolating Power from Movement**
+The single most effective anti-strain technique: keep your power connection completely static while cables to individual devices travel with the desk.
+
+- Route one central power cable from wall outlet to fixed power tray (not moving)
+- Use only this one cable for desk movement, not eight individual power adapters
+- Run individual device cables (monitors, USB, peripherals) separately, with adequate slack
+- This reduces mechanical stress by 70-80% compared to moving everything together
+
+## Environmental Considerations
+
+Cable management affects temperature and longevity of your equipment. Poor airflow around bundled cables causes heat buildup, shortening component lifespan.
+
+**Heat Dissipation Principles**
+- Avoid cable sleeves that completely seal cables; leave openings for air circulation
+- Never bundle power cables with data cables; heat from power cords degrades signal quality
+- Maintain 1-2" minimum clearance around tray-mounted power strips for ventilation
+- Monitor ambient temperature under desk if your room runs warm; consider small desk fan if surface temp exceeds 85°F
+
+**Cable Insulation Degradation**
+PVC cable insulation breaks down under sustained heat. A power cable running at 120V carrying 10A generates 1200W of power through the cord. If bundled tightly in a sleeve, ambient temperature inside can exceed 140°F.
+
+Monitor cable condition annually:
+- Slight discoloration and slight stiffness is normal
+- Cracks, major discoloration, or strong plastisol smell indicates replacement needed
+- Test with a multimeter to verify insulation integrity (>2 megohms resistance to ground)
+
+## Troubleshooting Common Cable Problems
+
+**Connection Dropout Pattern**
+Symptom: Monitor or USB connection intermittently drops, especially when moving desk.
+
+Cause: Usually excessive cable tension at connector. Solution:
+- Add 6-12" slack cable loops at both desk and monitor ends
+- Verify cable isn't being crimped by raceway or tie too tightly
+- Test with a different cable to isolate hardware vs. routing issue
+
+**Audio Interference/Noise**
+Symptom: Crackling, hum, or noise in headset or speakers, worse when desk moves.
+
+Cause: Power cable carrying AC current too close to audio/USB cables. Solution:
+- Physically separate power cables from data cables
+- Route through different sleeves or raceways if possible
+- Use shielded cables for audio connections (XLR > 3.5mm)
+- Consider ferrite clamps on cable connectors to suppress electromagnetic interference
+
+**Video Signal Degradation**
+Symptom: Pixel artifacts, intermittent loss of picture, color shifts.
+
+Cause: HDMI/DisplayPort cable too long or kinked during desk movement. Solution:
+- Verify cable length matches rated specification (HDMI certified to 50' but quality drops after 25')
+- Use active cables or repeaters for longer runs
+- Ensure cables route with minimum 3" bend radius
+- Replace after 5+ years; cable shielding degrades over time
+
+## Related Reading
 
 Schedule quarterly inspections of your cable setup:
 

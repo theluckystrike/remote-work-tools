@@ -165,6 +165,229 @@ For most software development teams building modern applications, Linear's impro
 
 Evaluate your team's specific needs, try both tools with a small project, and choose based on how well each fits your actual workflow rather than feature lists.
 
+## Complete Pricing Comparison (2026)
+
+**Jira Cloud Pricing (Per User Per Month)**
+- Free: Up to 10 users (1 project)
+- Standard: $8.50/user/month (billed monthly) or $7.65/user/month (annual)
+- Premium: $15/user/month (5 user minimum)
+- Enterprise: Contact sales
+
+For a 10-person team:
+- Standard: 10 × $7.65 × 12 = $918/year
+- Premium: 10 × $15 × 12 = $1,800/year
+
+**Linear Pricing (Per User Per Month)**
+- Free: Up to 5 users, 1 team
+- Pro: $10/user/month (paid tier)
+- Scale: Custom (contact sales)
+
+For a 10-person team:
+- Free tier: $0 (if 5 people)
+- Pro: 10 × $10 × 12 = $1,200/year
+
+**Real Cost Comparison**
+| Team Size | Jira Cost | Linear Cost | Winner |
+|-----------|-----------|------------|--------|
+| 5 people | $459/yr | Free | Linear |
+| 10 people | $918/yr | $1,200/yr | Jira |
+| 20 people | $1,836/yr | $2,400/yr | Jira |
+| 50 people | $4,590/yr | $6,000/yr | Jira |
+
+Jira becomes cheaper at scale. Linear wins for small teams.
+
+## Implementation Effort Comparison
+
+**Jira Implementation Timeline**
+- Day 1: Set up workspace, create project
+- Day 2-3: Configure workflows, permissions
+- Week 1: Team training on issue creation
+- Week 2-3: Tuning based on team feedback
+- Week 4: Full adoption
+
+Learning curve: 2-4 weeks to productive. Some advanced features take months.
+
+**Linear Implementation Timeline**
+- Day 1: Set up team, create project, invite users
+- Day 2: Everyone creates first issues
+- Day 3: Establish board workflow conventions
+- Week 1: Full adoption
+
+Learning curve: 1-3 days. Minimal configuration needed.
+
+## Workflow Complexity Examples
+
+**Simple Scrum-style Workflow**
+
+Jira required setup:
+```
+Issue Types: Story, Bug, Task
+Workflow states: Backlog → Todo → In Progress → Review → Done
+Custom fields: Story points, Sprint, Priority
+Permissions: Dev can update own issues, PM can manage backlog
+```
+
+Linear setup:
+```
+Create project
+Set assignee, priority, dates
+Done automatically; no configuration
+```
+
+Linear wins: Setup time 5 minutes vs. 30+ minutes.
+
+**Complex Enterprise Workflow**
+
+Jira excels:
+```
+Issue Types: 8+ (Story, Bug, Task, Epic, Sub-task, Support, etc.)
+Workflow states: 12+ (Backlog, Ready, Sprint Backlog, In Dev, In QA, In Review, Testing, Blocked, Reopened, In Release, Done, Archived)
+Custom fields: 20+ (Story points, Epic link, T-shirt size, customer impact, revenue impact, component, team, cycle, etc.)
+Permissions: 15+ role combinations with field-level permissions
+Automation: Complex rules triggering on custom fields, time-based transitions, etc.
+```
+
+Linear would be awkward with this complexity. Jira is designed for this.
+
+## Integration Ecosystem
+
+**Jira Integrations (100+ apps)**
+Popular integrations:
+- Confluence (native; seamless docs linking)
+- Bitbucket (native; PR auto-link)
+- Slack (2-way sync, issue updates)
+- Tempo (time tracking)
+- GitHub (via Atlassian integration)
+- Datadog (deployments linked to Jira)
+- Jenkins (CI/CD automation)
+
+Example: Jira automation rule
+```
+Trigger: PR merged in GitHub
+Action: Move Jira issue to "In Release"
+Then: Create release notes ticket
+```
+
+**Linear Integrations (40+ apps)**
+Popular integrations:
+- GitHub (native; issues ↔ PRs)
+- GitLab (native)
+- Slack (2-way)
+- Figma (designs linked to issues)
+- Sentry (errors create issues)
+- Vercel (deployments)
+- Notion (read-only integration)
+
+Example: Linear API webhook
+```javascript
+// Linear webhook: issue created
+POST https://your-server.com/api/linear
+{
+  "type": "Issue",
+  "action": "create",
+  "data": {
+    "id": "LIN-123",
+    "title": "Fix auth bug",
+    "teamId": "engineering"
+  }
+}
+
+// Your server creates GitHub issue automatically
+await github.issues.create({
+  repo: 'myapp',
+  title: data.title,
+  body: `Linear: ${data.id}`
+})
+```
+
+## Team Size Recommendations
+
+**Choose Linear if:**
+- Team: <15 developers
+- Workflow: Simple (3-5 status columns)
+- Tech stack: GitHub/GitLab native
+- Budget: Under $1,500/year
+- Speed priority: High
+- Learning curve concern: Yes
+
+Team example: Startup with 8 engineers, fast-moving, using GitHub.
+
+**Choose Jira if:**
+- Team: 15+ people across multiple teams
+- Workflow: Complex (7+ statuses, multiple issue types)
+- Org: Needs extensive customization
+- Budget: $2,000+/year available
+- Speed less important than: Reporting, customization, enterprise features
+- Existing: Already using Atlassian ecosystem (Confluence, Bitbucket)
+
+Team example: Mid-size SaaS company with product, engineering, QA, support teams.
+
+## Migration Path
+
+**From Jira to Linear**
+- Use Linear's import tool (paid plan required)
+- Migrates issues, custom fields mapping, project structure
+- Effort: 2-4 hours setup + team training
+- Risk: Custom workflows don't migrate perfectly; expect manual adjustment
+- Timeline: Weekend migration to avoid business disruption
+
+**From Linear to Jira**
+- No automated migration tool
+- Manual CSV export from Linear, import to Jira
+- Effort: 1-2 days configuration
+- Risk: Higher; complex workflows need rebuilding
+- Timeline: Plan for 1-2 weeks transition
+
+Easier to move from Jira → Linear than vice versa.
+
+## Keyboard Shortcut Comparison
+
+Power users rely on keyboard shortcuts. Here's the difference:
+
+**Linear Keyboard Navigation** (faster)
+- `C` — Create new issue
+- `[Number]` — Jump to issue
+- `Cmd+K` — Command palette (search anything)
+- Arrow keys — Navigate board
+- `P` — Assign to me
+- `L` — Add label
+
+**Jira Keyboard Navigation** (more options)
+- `N` — Create new issue
+- `J` → Next issue, `K` → Prev issue
+- `/` — Open command palette
+- `Shift+D` — Dashboard
+- `[` and `]` — Cycle through filters
+
+Linear's shortcuts are more intuitive; Jira's are more extensive.
+
+## Real-World Workflow Comparison
+
+**Scenario: Daily workflow for developer**
+
+Linear workflow:
+```
+1. Cmd+K (search)
+2. Type "my issues" (find assigned)
+3. Click first issue
+4. Read description + linked PR
+5. Click "In Progress"
+6. Switch to code editor
+Total: 30 seconds
+```
+
+Jira workflow:
+```
+1. Click Jira in sidebar
+2. Click "Assigned to me" filter
+3. Click first issue
+4. Click "In Progress" button
+5. Confirm status change
+6. Navigate back to code
+Total: 60 seconds
+```
+
+Linear is 50% faster for this core developer workflow.
 
 ## Related Reading
 

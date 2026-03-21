@@ -163,7 +163,188 @@ This structure demonstrates the core pattern: scheduled trigger, form collection
 
 **Make responses visible but not noisy.** A dedicated channel prevents standup responses from cluttering team channels while keeping them accessible. Enable notifications for this channel only for direct mentions.
 
-**Rotate prompt times occasionally.** Same-time daily prompts can become automatic and ignored.，偶尔 changing the trigger time refreshes attention.
+**Rotate prompt times occasionally.** Same-time daily prompts can become automatic and ignored. Occasionally changing the trigger time refreshes attention.
+
+## Async Standup Tools Comparison
+
+Several tools offer standup automation. Here's how they compare for remote teams:
+
+**Slack Workflow Builder (Native)**
+- Cost: Free (included with Slack)
+- Setup time: 15-20 minutes
+- Learning curve: Minimal (visual interface)
+- Customization: Limited to Slack's built-in options
+- Best for: Teams already in Slack, fast implementation, no budget for extra tools
+
+Example response form with 3-5 questions takes 10 minutes to set up. No coding required.
+
+**Geekbot (Slack Integration)**
+- Cost: Free tier (up to 5 users), paid plans $3-8 per user per month
+- Setup time: 10-15 minutes
+- Standups delivered as DMs or channel threads
+- Supports custom questions, emoji reactions, historical reporting
+- Dashboard shows team velocity, completion rates, trends
+
+Configuration example:
+```
+Daily standup at 9:00 AM
+Question 1: Yesterday accomplishment (text)
+Question 2: Today plans (text)
+Question 3: Blockers (dropdown: none, minor, blocking)
+Responses: Private to manager + team channel summary
+```
+
+**Standup Bot (Slack App)**
+- Cost: Free (basic), $5-20/month (advanced)
+- Thread-based responses (keeps standups organized)
+- Automatic reminders if team member doesn't respond
+- Integrates with GitHub (shows commit activity alongside standup)
+- Slack App Directory: "Standup Bot"
+
+**Dialup (Engineering-focused)**
+- Cost: $8-15 per user per month
+- Combines standups with 1-on-1 meeting scheduling
+- Reports generated automatically (manager-friendly)
+- Webhooks for custom automation
+- Better for larger engineering teams (10+ developers)
+
+**Half (Lightweight Alternative)**
+- Cost: Free tier available, $2-5 per user for paid
+- Focuses on simplicity: 3 questions per standup
+- Works in Slack threads (organized, searchable)
+- Daily/weekly frequency options
+- Minimal overhead, fast adoption
+
+## Standup Response Analysis and Reporting
+
+Once your async standups are running, analyze the data to identify patterns and team health.
+
+**Parsing Standup Data for Metrics**
+A Python script to extract standup intelligence:
+
+```python
+import json
+from datetime import datetime, timedelta
+
+def analyze_standup_responses(responses, team_size):
+    """Analyze standup participation and identify trends."""
+
+    metrics = {
+        'completion_rate': len([r for r in responses if r['text']]) / team_size * 100,
+        'avg_response_length': sum(len(r['text'].split()) for r in responses) / len(responses),
+        'blocker_frequency': len([r for r in responses if 'blocker' in r['text'].lower()]) / len(responses),
+        'last_30_days_trend': calculate_trend(responses[-30:])
+    }
+
+    # Red flags for manager attention
+    red_flags = []
+    if metrics['completion_rate'] < 70:
+        red_flags.append("Completion dropping — check team engagement")
+    if metrics['blocker_frequency'] > 0.4:
+        red_flags.append("High blocker rate — team may be stuck")
+    if metrics['avg_response_length'] < 20:
+        red_flags.append("Responses getting shorter — possible disengagement")
+
+    return {
+        'metrics': metrics,
+        'alerts': red_flags,
+        'timestamp': datetime.now()
+    }
+
+def calculate_trend(recent_responses):
+    """Determine if metrics are improving or declining."""
+    if len(recent_responses) < 2:
+        return "insufficient_data"
+
+    recent_completion = len([r for r in recent_responses[-7:] if r]) / 7
+    previous_completion = len([r for r in recent_responses[-14:-7] if r]) / 7
+
+    if recent_completion > previous_completion:
+        return "improving"
+    elif recent_completion < previous_completion:
+        return "declining"
+    else:
+        return "stable"
+```
+
+This script identifies teams with declining participation before they drop below 50%.
+
+## Standup Response Templates for Different Roles
+
+Customize standup questions by role for more meaningful data:
+
+**For Engineers**
+```
+1. What feature/bug did you complete?
+2. What are you focused on today?
+3. Any blockers with external dependencies?
+4. Code review status (approved, pending, none)
+```
+
+**For Product Managers**
+```
+1. What customer/research activity did you complete?
+2. What decisions do you need to make today?
+3. Any blockers to product roadmap execution?
+4. Stakeholder communication completed?
+```
+
+**For Designers**
+```
+1. What designs/iterations did you finalize?
+2. What design work is in progress?
+3. Any unresolved feedback or design questions?
+4. Are you blocked waiting for engineering/product?
+```
+
+**For Managers/Leads**
+```
+1. Team updates: what shipped/progressed?
+2. Blockers affecting the team?
+3. Any people-related items to address?
+4. Risk/concern for next 48 hours?
+```
+
+## Integration with Other Tools
+
+Extend your async standup with automated workflows:
+
+**Slack → Linear Issue Creation**
+Automatically create Linear issues from standup blockers:
+
+```javascript
+// Slack Workflow Builder App Script
+app.message('blocker', async ({ message, say }) => {
+  const linearUrl = 'https://api.linear.app/graphql';
+  const mutation = `
+    mutation {
+      issueCreate(input: {
+        teamId: "TEAM_ID"
+        title: "${message.text}"
+        priority: 1
+      }) {
+        issue { id }
+      }
+    }
+  `;
+
+  await fetch(linearUrl, {
+    method: 'POST',
+    headers: { 'Authorization': `Bearer ${LINEAR_API_KEY}` },
+    body: JSON.stringify({ query: mutation })
+  });
+});
+```
+
+**Slack → Notion Database**
+Archive standup responses in Notion for historical reference and team knowledge:
+
+```bash
+# Slack Workflow: When standup form submitted
+# → Send HTTP POST to Notion API
+# → Creates database entry with timestamp + responses
+# → Automatically tagged by team member
+```
 
 ## Related Reading
 

@@ -166,6 +166,193 @@ Track these numbers to understand your retention health:
 
 Review these metrics quarterly. If repeat client percentage drops, examine your client relationship processes.
 
+## Client Management Tools for Freelancers
+
+**Option 1: Spreadsheet (Free, Minimal)**
+- Google Sheets + Zapier automation
+- Track: client name, last contact date, project history, next follow-up
+- Cost: Free (Zapier free tier includes basic automations)
+- Drawback: Manual discipline required
+
+Simple template:
+```
+| Client | Email | Last Contact | Last Project | Next Followup | Value/yr | Status |
+|--------|-------|--------------|--------------|--------------|----------|--------|
+| ABC Co | x@y | 2026-01-15   | Logo redesign | 2026-02-15  | $8K      | Active |
+```
+
+Set up calendar reminder: "Follow up with clients where (Today - Last Contact) > 60 days"
+
+**Option 2: HubSpot CRM (Free to $50/month)**
+- Contact database with interaction history
+- Email integration (track opens, clicks)
+- Task automation (reminders to follow up)
+- Free tier: Up to 1M contacts, basic automation
+- Paid: Advanced workflows, email templates, reporting
+
+Pipeline setup:
+```
+Stage 1: Lead (prospect)
+Stage 2: Proposal sent
+Stage 3: Contract signed
+Stage 4: Active client
+Stage 5: Project complete
+Stage 6: Follow-up cadence
+```
+
+Automation rule: "If last contact > 90 days, create task: 'Check-in with [Client]'"
+
+**Option 3: Pipedrive ($14-99/month)**
+- Deal-centric CRM (great for recurring projects)
+- Visual pipeline (drag-drop status updates)
+- Customizable fields by project type
+- Small business focused
+
+**Option 4: Notion (Free to $10/user/month)**
+- Database-driven client tracking
+- Integration with calendar reminders (via Zapier)
+- Relationship timeline (all projects, notes, decisions)
+- Best for: Indie freelancers who like document-based workflows
+
+Notion template properties:
+- Client name
+- Service area
+- Total revenue from client
+- Project history (linked database)
+- Last contact date
+- Next scheduled follow-up
+- Satisfaction rating
+- Referral potential
+
+**Option 5: Dubsado (Proposals + Client Portal)**
+- Cost: $25-75/month
+- Strengths: Proposal generation, contract management, project tracking
+- Client portal: Share files, collect feedback, process payments
+- Best for: Agencies, freelancers with multiple ongoing projects
+
+For most solo freelancers, **Notion + Google Calendar** (free) or **HubSpot free tier** wins on simplicity and cost.
+
+## Retainer Pricing Strategies
+
+**Model 1: Fixed Monthly Hours**
+- $X/month for Y hours
+- Example: $2,000/month for 40 hours ($50/hour)
+- Unused hours: Roll over (max 20 hours) or expire monthly
+- Advantage: Predictable income, clear client expectations
+- Best for: Development retainers, ongoing support
+
+**Model 2: Value-Based Retainer**
+- $X/month for "strategic partnership"
+- No hour tracking, but defined scope (2-3 projects/month, or availability guarantee)
+- Example: $3,000/month for "on-call availability + 20 hours planning/strategy"
+- Advantage: Higher margins, aligns with client outcomes
+- Best for: Design, strategy, consulting
+
+**Model 3: Success-Based Retainer**
+- Base $X + percentage of outcome
+- Example: $1,000/month + 5% of new revenue generated
+- Advantage: Incentives align with client success
+- Risk: Requires months to prove value
+- Best for: Marketing, growth-focused services
+
+**Model 4: Tiered Retainer**
+- Tier 1: $500/mo (emergency support + 4 hours)
+- Tier 2: $1,500/mo (priority support + 16 hours + strategy)
+- Tier 3: $3,000/mo (dedicated resource + unlimited hours + leadership)
+- Advantage: Clients choose package matching their needs
+- Best for: Agencies, growing freelancers
+
+**Retainer Agreement Template**
+```markdown
+# Retainer Agreement
+
+**Service:** [Description]
+**Monthly Fee:** $[Amount]
+**Billing Date:** [1st/15th of month]
+
+## Included Hours
+- [X] hours per month
+- Applies to: [services included]
+- Does not apply to: [services excluded]
+
+## Unused Hours
+- Rollover: Maximum [Z] hours/month
+- Expiration: Unused hours expire 90 days after billing period
+- No refunds for unused hours
+
+## Response Times
+- General requests: 24 business hours
+- Urgent issues: 4 business hours
+- Emergency escalation: Call [phone number]
+
+## Additional Work
+- Hours beyond included package billed at $[rate]/hour
+- Advance notice if overages expected (email within 24 hours)
+
+## Minimum Commitment
+- [3/6/12] month commitment
+- Month-to-month thereafter with 30-day notice to cancel
+
+## Deliverables
+[List specific things included each month or quarter]
+
+Signed: ________________     Date: __________
+```
+
+## Automated Client Touchpoint System
+
+Set up scheduled reminders to keep relationships active without manual effort:
+
+```python
+import calendar
+from datetime import datetime, timedelta
+
+def generate_client_touchpoints(client_data):
+    """Schedule proactive client touchpoints automatically."""
+
+    touchpoints = {
+        7: {"action": "check-in", "message": "How is [project] progressing?"},
+        30: {"action": "resource", "message": "Thought of you reading [article/news]"},
+        60: {"action": "offer", "message": "Let's do a check-in call"},
+        90: {"action": "proposal", "message": "Ideas for next phase"},
+        180: {"action": "review", "message": "Year review + testimonial request"}
+    }
+
+    next_touchpoint_date = client_data['last_contact'] + timedelta(days=7)
+    return {
+        'client': client_data['name'],
+        'next_action': touchpoints[7]['action'],
+        'next_date': next_touchpoint_date,
+        'message_template': touchpoints[7]['message']
+    }
+```
+
+Integrate with:
+- Calendar reminder (Google Cal, Outlook)
+- Email sequence (ConvertKit, Mailchimp)
+- Slack bot (custom or IFTTT)
+
+## Value-Add Touchpoint Ideas
+
+Go beyond regular updates with genuine value:
+
+**Monthly (5 min effort)**
+- Share 1 relevant article/tool update
+- Congratulate on company milestone (birthday, funding, award)
+- Ask one substantive question about their business
+
+**Quarterly (15-30 min)**
+- Conduct mini-audit of their current setup
+- Document lessons from recent work that apply to their business
+- Suggest 1 improvement they could make
+
+**Annually (1-2 hours)**
+- Comprehensive year review (projects completed, impact, metrics)
+- Strategy session for next 12 months
+- Request testimonial/referral (make it easy: provide template)
+
+Track these touchpoints in your CRM. Over time, these become your "unfair advantage" over competitors who only reach out when needing work.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

@@ -166,6 +166,200 @@ def get_overdue_tickets(project_key, days_overdue=3):
 
 Generate API tokens at id.atlassian.net/manage-profile/security/api-tokens. Tokens are scoped to the user's permissions — use a service account for shared automation.
 
+## Proposal Management Tools Comparison
+
+Several platforms automate proposal workflow and increase approval rates:
+
+**Google Docs (Free)**
+- Best for: Small teams, simple proposals
+- Approval flow: Comments + edit suggestions, manual sign-off
+- Versioning: Auto-saves, simple revision history
+- Collaboration: Real-time co-editing, comment threads
+- Drawbacks: No formal approval workflow, relies on email follow-up
+
+Set up template with standard sections (Problem, Solution, Impact, Ask) — reuse across projects.
+
+**PandaDoc (Proposal + Signature)**
+- Cost: $30-100/month
+- Features: Beautiful templates, e-signature, approval workflows, tracking
+- Integrates: Slack, Salesforce, HubSpot
+- Approval visibility: Dashboard shows who opened/reviewed/signed
+- Great for client-facing proposals that need signatures
+
+Template example:
+```
+1. Executive Summary (1 paragraph)
+2. Current State Analysis (data-backed)
+3. Proposed Solution (detailed, visual)
+4. Timeline & Phases (Gantt chart)
+5. Resource Allocation (team assignments)
+6. Budget & ROI (transparent pricing)
+7. Success Metrics (measurable KPIs)
+8. Risk & Mitigation
+9. Approval Sign-off (e-signature)
+```
+
+**Notion (Internal Proposals)**
+- Cost: Free (Notion Teams plan $10/user/month)
+- Database approach: Each proposal is trackable entity
+- Status workflow: Draft → Review → Approved → In Progress
+- Comments: Thread-based discussion directly on proposal
+- Templates: Reusable across all project types
+
+Database properties track:
+- Status (Draft, Under Review, Approved, Rejected, In Progress)
+- Reviewer assigned (manager, stakeholder)
+- Estimated cost
+- Expected ROI %
+- Decision date
+- Comments/feedback
+
+**Craft (Apple Ecosystem)**
+- Cost: $12/month for Teams
+- Best for: Teams already in Apple ecosystem
+- Formatting: Excellent design templates
+- Collaboration: Invite reviewers with comment access
+- Mobile: Works great on iPad for on-the-go review
+
+**Linear Proposal Tracking (For Technical Projects)**
+- Native in Linear issue tracking
+- Link proposals to GitHub PRs, architectural decisions
+- Discussion threads within Linear
+- Approval state tracked with stakeholder sign-off
+- Integrates directly with sprint planning
+
+## Proposal Templates by Project Type
+
+### Small Feature/Experiment (Under $5K, 2 weeks)
+```markdown
+# [Feature Name] Proposal
+
+## Problem
+[1-2 sentences describing user pain or business gap]
+Data: [one metric showing impact]
+
+## Solution
+[3-5 sentences of approach]
+
+## Implementation
+- Timeline: X days
+- Team: [who]
+- Dependencies: [list any blockers]
+
+## Metrics for Success
+- Launch date: [date]
+- Success criteria: [measurable outcome]
+
+## Ask
+[Explicit approval request: budget, timeline, resources]
+```
+
+Keep this under 1 page. Decision should take <5 minutes.
+
+### Medium Initiative (2-8 weeks, $5-50K)
+```markdown
+# [Initiative] Proposal
+
+## Executive Summary
+[2-3 sentence overview of what, why, expected impact]
+
+## Current Problem Analysis
+- Quantified pain point (metrics)
+- Root cause analysis
+- Cost of inaction (financial impact)
+
+## Proposed Solution
+- High-level approach (diagram if helpful)
+- Phase breakdown with deliverables
+- Technical approach (brief)
+- Team composition and skills needed
+
+## Business Impact
+- Revenue impact (if applicable)
+- Cost savings
+- Risk reduction
+- User satisfaction improvement
+
+## Timeline
+| Phase | Deliverable | Duration | Owner |
+|-------|-------------|----------|-------|
+| 1 | [spec] | 2w | [name] |
+| 2 | [build] | 3w | [name] |
+| 3 | [launch] | 1w | [name] |
+
+## Resource Requirements
+- Engineering: X FTE for Y weeks
+- Product: Z days for planning
+- Design: A days
+- Budget: $$$
+
+## Risks & Mitigation
+- Risk 1: [scenario], Mitigation: [action]
+- Risk 2: [scenario], Mitigation: [action]
+
+## Success Metrics
+- Launch goal: [date]
+- Adoption target: [%]
+- Quality gates: [criteria]
+
+## Decision Needed
+Approve budget + timeline by [date]
+```
+
+### Major Strategic Initiative (>8 weeks, >$50K)
+Add to the medium template:
+- Competitive analysis (why now?)
+- Alternative approaches considered + why rejected
+- Executive stakeholder buy-in evidence
+- Financial modeling (3-year projection)
+- Risk analysis with contingency budget
+- Quarterly milestone reviews built in
+
+## Approval Optimization Techniques
+
+**Pre-Submit Review Checklist**
+Before sending to decision-makers, validate:
+
+```bash
+# Proposal quality checklist
+- [ ] Problem quantified with data (not opinions)
+- [ ] Solution specific (not vague; could implement from this)
+- [ ] Timeline realistic (not optimistic; add 20% buffer)
+- [ ] Budget fully costed (no hidden expenses)
+- [ ] ROI justified (revenue or cost savings > cost)
+- [ ] Risks acknowledged (not hidden)
+- [ ] One-page executive summary included
+- [ ] Visual diagram of solution included
+- [ ] Prereq links provided (designs, specs, relevant PRs)
+- [ ] Approval mechanism clear (reply LGTM, sign here, etc.)
+- [ ] Reviewer background documented (why ask them?)
+```
+
+**Reviewer Selection Strategy**
+Don't submit to "everyone." Identify the single decision-maker:
+
+```
+For engineering proposals:
+→ Go to CTO or engineering lead first
+→ Only CC executive after tech approval
+
+For product proposals:
+→ Go to product lead first
+→ Then loop in business stakeholder
+
+For business/ops proposals:
+→ Go to CFO or operations lead
+→ Only executive approval if budget >$50K
+```
+
+Fewer reviewers = faster decisions. More cooks spoil the approval.
+
+**Response Follow-Up Timing**
+- Day 1: Send proposal (include review deadline, suggest 3-5 days)
+- Day 4: (If no response) Ping with "checking in on timeline"
+- Day 6: (If still no response) Offer to sync 15-min call vs. more questions needed
+- Day 7: Escalate if critical path item blocked
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

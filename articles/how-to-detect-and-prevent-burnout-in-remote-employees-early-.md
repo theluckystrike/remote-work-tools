@@ -164,6 +164,166 @@ The goal is not to eliminate all stress—some pressure drives growth and innova
 
 Prevention costs far less than recovery. A burned-out employee may require months to recover fully, and some never return to their previous productivity levels. Investing in detection and prevention protects both your team members and your project's success.
 
+## Burnout Detection Tools and Services
+
+Several software solutions help automate burnout detection. Here's what's available:
+
+**Officevibe (Employee Engagement Platform)**
+- Cost: $8-15 per employee per month
+- Anonymous pulse surveys measuring burnout factors
+- Trends dashboard showing team health over time
+- Integration with Slack for non-invasive check-ins
+- Reports flag individuals at risk before crisis
+
+Sample survey automation:
+```
+Weekly 2-minute pulse: 5 questions on workload, disconnection, morale
+Alerts manager if score drops 15+ points in a week
+Provides suggested interventions based on response patterns
+```
+
+**Culture Amp (Enterprise)**
+- Cost: $10,000-50,000 per year depending on org size
+- Quarterly engagement surveys with burnout-specific questions
+- 360-degree feedback visibility
+- Benchmark against industry standards
+- Professional data analysis and recommendation engine
+
+**Peakon (Lightweight)**
+- Cost: $3-8 per employee per month
+- Daily 1-2 question pulse surveys
+- Less survey fatigue than traditional quarterly instruments
+- Tracks specific engagement metrics correlating to burnout
+- Mobile-first design, higher completion rates
+
+**Lattice (Performance Management)**
+- Cost: $5-15 per employee per month
+- Integrated 1-on-1 meeting tracking
+- Documents workload discussions over time
+- Identifies patterns in manager feedback about stress
+- Connects to goal/OKR management for workload visibility
+
+**Open Source Alternative: Workhuman Insights**
+For budget-conscious teams, build a simple pulse system:
+
+```bash
+#!/bin/bash
+# Simple weekly burnout pulse via curl + spreadsheet
+
+SLACK_WEBHOOK="https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+
+# Ask team members 4 quick questions
+# 1-10 scale on workload, disconnection, satisfaction, energy
+
+# Collect responses via Google Form
+# Parse responses weekly into CSV
+# Alert if team average > 7 on workload + >6 on disconnection
+
+curl -X POST $SLACK_WEBHOOK \
+  -H 'Content-type: application/json' \
+  --data '{"text":"Team pulse check: Burnout risk HIGH. Review metrics."}'
+```
+
+## Creating a Sustainable Work Culture
+
+Beyond detection, systematic changes prevent burnout at the source:
+
+**Implement "No Meeting" Days**
+- Designate Tuesday or Wednesday as focus day (no meetings, no calls)
+- Communicate company-wide; block all calendars
+- Protects deep work time, reduces context-switching
+- Teams report 20-30% improvement in feature delivery during focus weeks
+
+**Workload Balancing Strategy**
+Track individual task allocation across team:
+
+```python
+def check_workload_balance(team_assignments):
+    """Ensure work is distributed fairly."""
+
+    assignments_by_person = {}
+    for task in team_assignments:
+        assignee = task['assignee']
+        complexity = task['story_points']  # or hours
+        assignments_by_person.setdefault(assignee, 0)
+        assignments_by_person[assignee] += complexity
+
+    avg_load = sum(assignments_by_person.values()) / len(assignments_by_person)
+    outliers = [
+        (name, load) for name, load in assignments_by_person.items()
+        if load > avg_load * 1.3  # More than 30% above average
+    ]
+
+    for person, load in outliers:
+        print(f"⚠️  {person} is overloaded: {load} points vs {avg_load:.0f} avg")
+
+    return outliers
+```
+
+**Mandatory Break Enforcement**
+- Require minimum 10 working days PTO per year
+- Discourage working while "on call"
+- Automated reminders to people who haven't taken time off in 60 days
+- Manager review of PTO patterns quarterly
+
+**Clear Role Boundaries**
+Document and enforce what's actually in scope:
+
+```markdown
+# [Employee Name] Role Definition
+
+## Core Responsibilities
+- Feature development (60%)
+- Code review (15%)
+- Mentoring junior devs (10%)
+- Admin/meetings (15%)
+
+## Out of Scope (escalate if requested)
+- On-call rotations beyond agreed schedule
+- Fixing production issues outside business hours
+- Training/documentation beyond annual 40 hours
+- Cross-team project work not approved in advance
+
+## Response Time Expectations
+- Slack messages: Same business day (not evening)
+- Urgent: Escalate via phone, not Slack
+- After-hours: For true emergencies only
+```
+
+**Asynchronous Communication Culture**
+Train teams to communicate async-first, reducing pressure to be always-on:
+
+- Email/docs for information sharing (not Slack)
+- Slack for time-bound questions only
+- Set "do not expect response" hours (after 6pm, weekends)
+- Use scheduled sends to avoid late-night messages
+- Document decisions in searchable wiki, not Slack threads
+
+**Recovery Protocol for Burnout Cases**
+When someone shows burnout signs, activate a recovery plan:
+
+```yaml
+Recovery_Plan:
+  Step_1_Assessment:
+    - 1-on-1 conversation (1-2 hours deep dive)
+    - Manager + employee identify overload sources
+    - Assess whether it's temporary (project) or chronic (role mismatch)
+
+  Step_2_Immediate_Relief:
+    - Remove 1-2 major tasks for 2-4 weeks
+    - Reduce meeting attendance by 30%
+    - Assign buddy for code review/support
+
+  Step_3_Monitoring:
+    - Weekly check-ins for 4 weeks
+    - Track completion, energy, engagement metrics
+    - Adjust load as person stabilizes
+
+  Step_4_Long_Term:
+    - Reevaluate role fit; consider team/project reassignment
+    - Document burnout factors to prevent repetition
+    - Extend recovery support to 8-12 weeks if severe
+```
 
 ## Related Reading
 
