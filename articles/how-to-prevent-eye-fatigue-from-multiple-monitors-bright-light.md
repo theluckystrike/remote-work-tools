@@ -3,6 +3,7 @@ layout: default
 title: "Base brightness decreases with more monitors"
 description: "A practical guide to setting up multiple monitors while preventing eye strain and fatigue from bright light exposure"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/
 reviewed: true
@@ -215,7 +216,6 @@ Use this checklist to ensure your multi-monitor setup is eye-friendly:
 **Is OLED better than LCD for eye health?** OLED displays emit less blue light at equivalent brightness settings than LCD panels and eliminate backlight flicker, which is a significant fatigue factor in cheaper LCD panels. However, high-quality IPS LCD monitors with hardware-level flicker elimination (marketed as "flicker-free") are comparable for eye health at a lower cost.
 
 **Does dark mode actually help?** Dark mode reduces the total light emitted by your display when viewing text-heavy content, which can reduce eyestrain in low-ambient-light environments. In bright rooms, dark mode's lower contrast may cause the eye to work harder, not less. Use dark mode when your room is dim; switch to light mode during the day.
-
 
 
 ## Related Articles

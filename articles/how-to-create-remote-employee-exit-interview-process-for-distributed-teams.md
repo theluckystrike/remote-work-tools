@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Employee Exit Interview Process for"
 description: "Exit interviews provide invaluable insights into employee experience, team dynamics, and organizational improvements. Yet for distributed teams spanning"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-employee-exit-interview-process-for-distributed-teams/
 categories: [guides]
@@ -96,20 +97,20 @@ def load_config():
 def send_exit_interview(departing_employee, config):
     """Send exit interview link to departing employee"""
     subject = f"Your Exit Interview - {datetime.now().strftime('%B %Y')}"
-    
+
     body = f"""Hi {departing_employee['name']},
 
-As you approach your last day on {departing_employee['last_day']}, we'd 
+As you approach your last day on {departing_employee['last_day']}, we'd
 appreciate your feedback through our async exit interview process.
 
-The survey takes approximately 25 minutes and covers your experience 
+The survey takes approximately 25 minutes and covers your experience
 working with the team, tools, and organization.
 
 Access your exit interview here:
 {config['survey_url']}?token={departing_employee['token']}
 
-Your responses will be anonymized in aggregate reports. Individual 
-responses are only shared with senior leadership when explicitly 
+Your responses will be anonymized in aggregate reports. Individual
+responses are only shared with senior leadership when explicitly
 helpful for organizational improvement.
 
 Please complete by: {departing_employee['last_day']}
@@ -117,12 +118,12 @@ Please complete by: {departing_employee['last_day']}
 Best regards,
 People Operations
 """
-    
+
     msg = MIMEText(body, 'plain')
     msg['Subject'] = subject
     msg['From'] = config['sender_email']
     msg['To'] = departing_employee['email']
-    
+
     with smtplib.SMTP(config['smtp_host'], config['smtp_port']) as server:
         server.starttls()
         server.login(config['smtp_user'], config['smtp_password'])
@@ -137,7 +138,7 @@ if __name__ == "__main__":
     config = load_config()
     # Load departing employees from HR system
     departing_employees = load_departing_employees()
-    
+
     for emp in departing_employees:
         send_exit_interview(emp, config)
 ```
@@ -188,7 +189,7 @@ def generate_exit_report(responses, config):
         "theme_counts": count_themes(responses),
         "quotations": extract_key_quotations(responses)
     }
-    
+
     return report
 
 def count_themes(responses):
@@ -201,18 +202,17 @@ def count_themes(responses):
         "tools": 0,
         "communication": 0
     }
-    
+
     for response in responses:
         text = response['full_text'].lower()
         for theme in themes:
             if theme in text:
                 themes[theme] += 1
-    
+
     return themes
 ```
 
 Review this data quarterly with leadership. Look for patterns: are multiple employees citing the same management issues? Is compensation a consistent theme? Are there tool-related frustrations that could be easily addressed?
-
 
 
 ## Related Articles

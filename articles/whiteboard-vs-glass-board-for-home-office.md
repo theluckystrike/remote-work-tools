@@ -3,6 +3,7 @@ layout: default
 title: "Whiteboard vs Glass Board for Home Office: A Practical Guide"
 description: "A comparison of whiteboard vs glass board for home office setups, with practical advice for developers and power users"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /whiteboard-vs-glass-board-for-home-office/
 reviewed: true
@@ -209,7 +210,6 @@ def create_recurring_meeting(token, topic, start_time, duration_min=60):
 ```
 
 Server-to-server OAuth (type `account_credentials`) is the recommended auth method for automation — no user login required and tokens refresh automatically.
-
 
 
 ## Related Articles

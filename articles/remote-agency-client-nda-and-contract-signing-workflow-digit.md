@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Client NDA and Contract Signing Workflow"
 description: "When you run a remote agency, getting contracts signed between you and your clients often turns into a multi-day email thread that kills momentum before work"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-client-nda-and-contract-signing-workflow-digit/
 categories: [guides]
@@ -66,36 +67,36 @@ def create_envelope(access_token, account_id, document, signer_email, signer_nam
     api_client = docusign_esign.ApiClient()
     api_client.host = "https://demo.docusign.net/restapi"
     api_client.set_default_header("Authorization", f"Bearer {access_token}")
-    
+
     envelopes_api = docusign_esign.EnvelopesApi(api_client)
-    
+
     document_envelope = docusign_esign.Document(
         document_base64=document,
         name="NDA",
         file_extension="pdf",
         document_id="1"
     )
-    
+
     signer = docusign_esign.Signer(
         email=signer_email,
         name=signer_name,
         recipient_id="1",
         routing_order="1"
     )
-    
+
     sign_here = docusign_esign.SignHere(
         anchor_string="/sig1/",
         anchor_units="pixels",
         anchor_y_offset="10",
         anchor_x_offset="20"
     )
-    
+
     envelope_definition = docusign_esign.EnvelopeDefinition(
         documents=[document_envelope],
         recipients=docusign_esign.Recipients(signers=[signer]),
         status="sent"
     )
-    
+
     return envelopes_api.create_envelope(account_id, envelope_definition=envelope_definition)
 ```
 
@@ -156,20 +157,20 @@ Store these statuses in your database alongside the envelope ID and client refer
 ```javascript
 app.post('/webhooks/docusign', (req, res) => {
   const event = req.body;
-  
+
   if (event.event === 'envelope-completed') {
     const envelopeId = event.data.envelopeId;
-    
+
     // Update contract status in database
     db.contracts.update(
       { envelopeId },
       { $set: { status: CONTRACT_STATUS.COMPLETED } }
     );
-    
+
     // Trigger next workflow step
     onboardingService.startClientOnboarding(envelopeId);
   }
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -191,13 +192,13 @@ def check_unsigned_contracts():
         'status': 'sent',
         'sent_at': {'$lt': cutoff}
     })
-    
+
     for contract in unsigned:
         reminder_service.send_reminder(
             contract['client_email'],
             contract['contract_id']
         )
-        
+
         db.contracts.update(
             {'_id': contract['_id']},
             {'$inc': {'reminder_count': 1}}
@@ -224,7 +225,7 @@ s3 = boto3.client('s3', config=Config(signature_version='s3v4'))
 
 def store_signed_contract(contract_id, pdf_content, client_name):
     key = f"contracts/{client_name}/{contract_id}_signed.pdf"
-    
+
     s3.put_object(
         Bucket='your-contracts-bucket',
         Key=key,
@@ -237,12 +238,11 @@ def store_signed_contract(contract_id, pdf_content, client_name):
             'signed-at': datetime.now().isoformat()
         }
     )
-    
+
     return f"s3://your-contracts-bucket/{key}"
 ```
 
 Configure lifecycle policies to move older contracts to cheaper storage tiers, but retain them for the duration required by your jurisdiction's statute of limitations.
-
 
 
 ## Related Articles

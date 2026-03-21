@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Playbook Template for Startups"
 description: "A practical remote work playbook template for startups with implementation examples, code snippets, and actionable workflows for engineering teams"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /remote-work-playbook-template-for-startups/
 categories: [guides]
@@ -299,8 +300,6 @@ A playbook that doesn't evolve becomes outdated. Schedule these reviews:
 - **At inflection points:** Moving from 10 to 20 people? 20 to 50? Playbook needs overhaul
 
 Assign playbook ownership to someone—usually a tech lead or people lead. This role owns quarterly reviews, merges suggestions, and trains new hires on key sections. Without ownership, playbooks become documents that sit untouched.
-
-
 
 
 ## Related Articles

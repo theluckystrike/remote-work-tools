@@ -3,6 +3,7 @@ layout: default
 title: "Best Whiteboard Tools for Video Calls"
 description: "A practical guide to the best whiteboard tools for video calls, tailored for developers and power users who need real-time collaboration"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-whiteboard-tools-for-video-calls/
 reviewed: true
@@ -61,8 +62,8 @@ import { Excalidraw } from "@excalidraw/excalidraw";
 function Whiteboard() {
   return (
     <div style={{ height: "500px", width: "100%" }}>
-      <Excalidraw 
-        UIOptions={{ 
+      <Excalidraw
+        UIOptions={{
           canvasActions: { export: true, loadImage: false }
         }}
       />
@@ -217,7 +218,6 @@ These practices prevent whiteboard knowledge loss that commonly occurs when diag
 - Setup time: 5 minutes
 
 For remote teams, integrations matter less than consistent adoption. A team that uses Excalidraw daily is more effective than one attempting to coordinate across four tools. Choose based on team size and existing tool ecosystem, then commit to that choice for 3-6 months before reconsidering.
-
 
 
 ## Related Articles

@@ -232,7 +232,6 @@ Remember that your external display is an investment in your daily comfort and p
 ---
 
 
-
 ### Check and Configure Your Display Settings
 
 ```bash
@@ -253,12 +252,13 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 ```
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
-- [Cable Management Solutions for Home Office Setup](/remote-work-tools/cable-management-solutions-for-home-office-setup/)
-- [UPS Battery Backup for Home Office Setup 2026](/remote-work-tools/ups-battery-backup-for-home-office-setup-2026/)
+- [List available color profiles](/remote-work-tools/external-monitor-color-matching-for-macbook-dual-display-setup/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

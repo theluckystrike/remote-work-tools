@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Onboarding Documentation for Remote Teams"
 description: "A practical guide for developers and power users to create effective onboarding documentation for remote teams. Includes templates, tools, code examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-create-onboarding-documentation-remote-teams/
 reviewed: true
@@ -110,7 +111,6 @@ Brief description of changes
 
 ## Screenshots (if applicable)
 
-## Related Issues
 Closes #
 ```
 
@@ -236,8 +236,6 @@ Choose tools that integrate with your existing workflow and support the collabor
 ---
 
 Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating, well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
-
-
 
 
 ## Related Articles

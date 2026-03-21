@@ -3,6 +3,7 @@ layout: default
 title: "Zoom CLI example for updating PMI settings"
 description: "Use Zoom with persistent meeting room links (same URL every week), Google Meet for simplicity with automatic reminders, or specialized platforms like Whereby"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-virtual-meeting-room-for-recurring-remote-client-check-/
 reviewed: true
@@ -85,7 +86,7 @@ from cal import CalDAVClient
 def schedule_client_checkin(client_email, client_name, day_of_week=1, time_str="14:00"):
     """Schedule a recurring weekly check-in with a client."""
     calendar = CalDAVClient()
-    
+
     # Create a recurring meeting
     meeting = {
         "summary": f"Check-in: {client_name}",
@@ -96,10 +97,10 @@ def schedule_client_checkin(client_email, client_name, day_of_week=1, time_str="
             "byday": ["TU"][day_of_week]  # 0=Mon, 1=Tue
         }
     }
-    
+
     event_id = calendar.create_event(meeting)
     room_link = f"https://meet.yourdomain.com/{client_name.lower().replace(' ', '-')}"
-    
+
     return {"event_id": event_id, "room_link": room_link}
 ```
 
@@ -318,7 +319,6 @@ For sensitive discussions, ensure your backdrop is clean and no confidential inf
 
 **Problem: Meeting room feels impersonal or awkward**
 - Solution: Start with 2 minutes casual conversation (weather, weekend plans) before jumping into agenda. Human connection matters.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Sprints with a Remote Team of 4 Engineers: A"
 description: "Learn practical strategies for running effective sprints with a remote team of 4 engineers. Includes async ceremonies, GitHub templates, capacity"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-sprints-with-a-remote-team-of-4-engineers/
 categories: [guides]
@@ -243,8 +244,6 @@ Running sprints with a remote team of 4 engineers works best when you:
 Start with async standups this sprint, add capacity planning in your next planning session, and refine from there.
 
 ---
-
-
 
 
 ## Related Articles

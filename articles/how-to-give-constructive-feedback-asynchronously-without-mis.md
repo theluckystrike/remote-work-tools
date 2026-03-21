@@ -3,6 +3,7 @@ layout: default
 title: "How to Give Constructive Feedback Asynchronously Without"
 description: "Master asynchronous feedback techniques for remote teams. Learn structured frameworks, tone indicators, and code examples that prevent tone"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-give-constructive-feedback-asynchronously-without-mis/
 categories: [guides]
@@ -268,7 +269,6 @@ Track these indicators to know if your async feedback practices are working:
 - Callback-free discussions (discussions where people avoid the topic suggest fear)
 
 If these trends are declining, revisit training. If they're improving, reinforce what's working.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Nix vs Docker for Reproducible Dev Environments"
 description: "Compare Nix and Docker for reproducible development environments. Learn practical setup, configuration patterns, and when to choose each tool for your"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /nix-vs-docker-for-reproducible-dev-environments/
 categories: [guides]
@@ -152,7 +153,7 @@ Consider a practical scenario: your project requires Python 3.11 with Django 4.2
 # Project A
 nix develop .#python311
 
-# Project B  
+# Project B
 nix develop .#python310
 ```
 
@@ -215,7 +216,6 @@ Choose Nix if you need precise control over build tooling, work on projects with
 Both tools solve the reproducibility problem. Docker approaches it from the containerization angle, making environments portable. Nix approaches it from the package management angle, making builds reproducible. Your specific constraints—team size, project complexity, deployment target—determine which approach fits better.
 
 ---
-
 
 
 ## Related Articles

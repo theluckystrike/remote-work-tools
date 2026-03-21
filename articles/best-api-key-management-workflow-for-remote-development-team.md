@@ -179,7 +179,7 @@ jobs:
             development/api-keys/stripe API_KEY | STRIPE_API_KEY
             production/api-keys/aws AWS_ACCESS_KEY_ID | AWS_ACCESS_KEY_ID
             production/api-keys/aws AWS_SECRET_ACCESS_KEY | AWS_SECRET_ACCESS_KEY
-      
+
       - run: npm run deploy
         env:
           STRIPE_API_KEY: ${{ env.STRIPE_API_KEY }}
@@ -234,12 +234,14 @@ Audit monitoring: Set up alerts for unusual access patterns—multiple failed au
 
 Separate environments: Never use production API keys in development or staging. Create separate credentials for each environment and restrict production access to only those who need it.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best SSH Key Management Solution for Distributed Remote.](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
-- [Secure Secrets Injection Workflow for Remote Teams Using.](/remote-work-tools/secure-secrets-injection-workflow-for-remote-teams-using-has/)
-- [Best Secrets Management Tool for Remote Development.](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+## Related Articles
+
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
+- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

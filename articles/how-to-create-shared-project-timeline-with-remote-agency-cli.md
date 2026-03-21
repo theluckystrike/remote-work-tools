@@ -3,6 +3,7 @@ layout: default
 title: "macOS"
 description: "Managing project timelines across distributed teams and external agencies presents unique challenges. When your collaborators span multiple time zones and use"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-shared-project-timeline-with-remote-agency-cli/
 categories: [guides, workflows]
@@ -12,7 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
-
 
 
 Managing project timelines across distributed teams and external agencies presents unique challenges. When your collaborators span multiple time zones and use different tools, keeping everyone aligned requires a systematic approach. This guide covers practical methods for creating and sharing project timelines using command-line tools that integrate with your existing workflow.
@@ -231,9 +231,6 @@ git commit -m "Update timeline: extend design phase for client feedback"
 This creates an audit trail of project evolution that helps both parties understand scope changes.
 
 Set a calendar reminder to review the timeline every Monday. A timeline that hasn't been touched in two weeks is probably stale. Stale timelines erode client trust faster than delayed milestones — the delay is understandable, but discovering it without notice is not.
-
-
-
 
 
 ## Related Articles

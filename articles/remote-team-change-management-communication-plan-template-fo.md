@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Change Management Communication Plan Template"
 description: "A practical communication plan template for managing team changes in remote and distributed organizations. Includes code examples, Slack integration"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-change-management-communication-plan-template-fo/
 categories: [guides]
@@ -85,7 +86,7 @@ def send_change_announcement(channel, announcement):
             }
         ]
     )
-    
+
     # Schedule reminder for action deadline
     schedule_reminder(
         channel=channel,
@@ -148,7 +149,7 @@ jobs:
         run: |
           # Parse change metadata from YAML
           echo "CHANGED_FILES=${{ github.event.pull_request.changed_files }}" >> $GITHUB_ENV
-      
+
       - name: Send Slack notification
         uses: 8398a7/action-slack@v3
         with:
@@ -180,8 +181,6 @@ Name owners: Every action item needs an owner. Ambiguous accountability in remot
 Document decisions: Record why the change is happening. Future team members (and your future self) will thank you.
 
 Iterate your process: After each change cycle, note what worked and what did not. Refine your template accordingly.
-
-
 
 
 ## Related Articles

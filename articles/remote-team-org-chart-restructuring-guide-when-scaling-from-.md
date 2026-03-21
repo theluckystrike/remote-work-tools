@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Org Chart Restructuring Guide"
 description: "A practical guide for developers and engineering leaders on restructuring remote team org charts when scaling from flat hierarchies to layered"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-org-chart-restructuring-guide-when-scaling-from-/
 categories: [guides]
@@ -120,12 +121,12 @@ cross_team:
   - channel: "#engineering-all"
     frequency: "weekly"
     purpose: "company-wide updates"
-  
+
 team_level:
   - channel: "#backend-team"
     frequency: "daily standup"
     purpose: "coordination"
-  
+
 manager_level:
   - channel: "#eng-leads"
     frequency: "twice weekly"
@@ -179,8 +180,6 @@ The goal is finding the structure that matches your team's current needs—not c
 ---
 
 Building the right org structure for a growing remote team takes experimentation. Start with the minimum viable hierarchy, measure results, and adjust. Your team will tell you what works.
-
-
 
 
 ## Related Articles

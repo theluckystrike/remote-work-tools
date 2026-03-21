@@ -3,6 +3,7 @@ layout: default
 title: "Remote Pair Programming Tools Compared 2026"
 description: "Compare remote pair programming tools in 2026: VS Code Live Share, Tuple, Pop, and tmux sharing. Latency, features, and which setup fits your team's workflow."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /remote-pair-programming-tools-compared/
 categories: [guides]
@@ -190,13 +191,12 @@ Structure makes pairing more effective:
 ```
 
 
-
 ## Related Articles
 
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
 - [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
 - [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
-- [How to Set Up Remote Pair Programming Sessions: Complete Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

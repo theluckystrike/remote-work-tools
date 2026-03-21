@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team One on One Meeting Template for Engineering"
 description: "A practical template and framework for engineering managers running effective one-on-one meetings with remote direct reports. Includes async options"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-one-on-one-meeting-template-for-engineering-mana/
 categories: [guides]
@@ -116,15 +117,15 @@ def prepare_one_on_one(direct_report_github_handle):
     """
     g = Github(os.getenv("GITHUB_TOKEN"))
     user = g.get_user(direct_report_github_handle)
-    
+
     # Get recent pull requests
-    prs = list(user.getPullRequests(state='all', 
-                                     sort='updated', 
+    prs = list(user.getPullRequests(state='all',
+                                     sort='updated',
                                      direction='desc')[:10])
-    
+
     # Get recent commits
     commits = list(user.getCommits()[:5])
-    
+
     # Build the async check-in template
     template = f"""## Pre-1:1 Async Check-in for {datetime.now().date()}
 
@@ -147,8 +148,8 @@ _Your answer here_
 
 ### Discussion Topics
 1. _Add your topics here_
-2. 
-3. 
+2.
+3.
 
 ### Anything you want me to prepare?
 """
@@ -200,10 +201,10 @@ When time zones make synchronous meetings difficult, implement an async one-on-o
 ## This Period's Review
 
 **Accomplishments:**
-- 
+-
 
 **Challenges:**
-- 
+-
 
 **Growth Focus:**
 - What's working?
@@ -212,13 +213,13 @@ When time zones make synchronous meetings difficult, implement an async one-on-o
 ## Manager Feedback
 
 **What I'm noticing:**
-- 
+-
 
 **What's going well:**
-- 
+-
 
 **Areas for development:**
-- 
+-
 
 ## Discussion Items
 
@@ -261,8 +262,6 @@ If these metrics decline, your one-on-ones need adjustment.
 6. Iterate quarterly: Review and adjust your approach based on feedback
 
 A well-executed one-on-one template transforms a simple meeting into your most powerful management tool. The consistency builds trust over time, and the structure ensures nothing important falls through the cracks.
-
-
 
 
 ## Related Articles

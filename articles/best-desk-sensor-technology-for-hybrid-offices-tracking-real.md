@@ -59,13 +59,13 @@ fsr_pin = Pin(15, Pin.IN)      # Force-sensitive resistor
 def read_occupancy():
     """Read combined sensor data for occupancy state"""
     motion_detected = pir_sensor.value() == 1
-    
+
     # Simple pressure threshold
     pressure = fsr_pin.value()
-    
+
     # Occupancy logic: either motion OR pressure indicates use
     occupied = motion_detected or pressure
-    
+
     return {
         'desk_id': DESK_ID,
         'occupied': occupied,
@@ -86,7 +86,7 @@ def main():
     wlan = connect_wifi()
     client = mqtt.MQTTClient('desk_sensor_' + DESK_ID, MQTT_BROKER)
     client.connect()
-    
+
     while True:
         data = read_occupancy()
         client.publish(f'office/desks/{DESK_ID}', json.dumps(data))
@@ -132,14 +132,14 @@ client.on('connect', () => {
 client.on('message', async (topic, message) => {
   const deskId = topic.split('/').pop();
   const data = JSON.parse(message.toString());
-  
+
   const point = new Point('desk_occupancy')
     .tag('desk_id', deskId)
     .booleanField('occupied', data.occupied)
     .booleanField('motion', data.motion)
     .booleanField('pressure', data.pressure)
     .timestamp(new Date(data.timestamp * 1000));
-  
+
   try {
     await influx.writePoint(point);
   } catch (error) {
@@ -175,15 +175,15 @@ def get_desk_utilization(desk_id: str, start: datetime, end: datetime):
       |> filter(fn: (r) => r._field == "occupied")
       |> aggregateWindow(every: 1h, fn: mean)
     '''
-    
+
     result = client.query_api().query(query)
-    
+
     # Calculate utilization from hourly averages
     readings = []
     for table in result:
         for record in table.records:
             readings.append(record.get_value())
-    
+
     if readings:
         utilization = sum(readings) / len(readings) * 100
         return round(utilization, 1)
@@ -210,7 +210,7 @@ const influx = new InfluxDB({ host: 'localhost', database: 'office_sensors' });
 
 app.get('/api/desks/availability', async (req, res) => {
   const { floor, zone } = req.query;
-  
+
   // Get latest occupancy for all desks
   const query = `
     from(bucket: "office_sensors")
@@ -219,9 +219,9 @@ app.get('/api/desks/availability', async (req, res) => {
       |> filter(fn: (r) => r._field == "occupied")
       |> last()
   `;
-  
+
   const result = await influx.query(query);
-  
+
   // Transform to availability response
   const desks = {};
   for (const table of result) {
@@ -234,7 +234,7 @@ app.get('/api/desks/availability', async (req, res) => {
       };
     }
   }
-  
+
   res.json({
     timestamp: new Date().toISOString(),
     floors: [{ floor, zones: [{ zone, desks }] }]
@@ -254,12 +254,14 @@ Calibration significantly impacts sensor accuracy. PIR sensors need clear sightl
 
 Privacy remains paramount. Clearly communicate sensor placement and data usage to employees. Store occupancy data in aggregate form rather than tracking individuals. Many jurisdictions regulate employee monitoring—consult legal counsel for compliance requirements specific to your location.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Occupancy Analytics Platform for Hybrid Offices.](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
-- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
-- [Best Desk Booking App for Hybrid Offices Using Microsoft.](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+## Related Articles
+
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+- [Best Visitor Management System for Hybrid Offices Tracking W](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
+- [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
+- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
+- [Upload to your analytics backend](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

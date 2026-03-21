@@ -3,6 +3,7 @@ layout: default
 title: "#eng-announcements Channel Guidelines"
 description: "Remote team announcement channels maintain high signal-to-noise ratio through clear governance rules, designated channel guardians who enforce standards, and"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /best-practice-for-remote-team-announcement-channel-keeping-s/
 categories: [guides]
@@ -131,14 +132,14 @@ def evaluate_announcement(message_text, channel_id, user_id):
             "action": "reject",
             "reason": "Missing required prefix. Use [ANNOUNCEMENT], [URGENT], or [INFO]"
         }
-    
+
     # Check for action items
     if "**Action" not in message_text and "**Action Required" not in message_text:
         return {
             "action": "warn",
             "reason": "Consider adding an Action section for clarity"
         }
-    
+
     # Check for excessive emojis (noise indicator)
     emoji_count = len(re.findall(r':\w+:', message_text))
     if emoji_count > 5:
@@ -146,16 +147,16 @@ def evaluate_announcement(message_text, channel_id, user_id):
             "action": "warn",
             "reason": "High emoji count may reduce readability"
         }
-    
+
     return {"action": "approve"}
 
 def process_new_message(event, client):
     message_text = event.get('text', '')
     channel_id = event['channel']
     user_id = event['user']
-    
+
     result = evaluate_announcement(message_text, channel_id, user_id)
-    
+
     if result['action'] == 'reject':
         client.chat_postMessage(
             channel=user_id,
@@ -184,7 +185,7 @@ digest_schedule:
     - eng-updates
     - product-news
     - hr-announcements
-  
+
 message_ttl:
   urgent: immediate  # Still post immediately
   normal: 24h       # Queue for digest if not urgent
@@ -218,9 +219,9 @@ def generate_channel_health_report(channel_history):
     total_messages = len(channel_history)
     valuable_messages = sum(1 for m in channel_history if m['has_action_item'])
     noise_messages = sum(1 for m in channel_history if m['moved_to_other_channel'])
-    
+
     snr = valuable_messages / total_messages if total_messages > 0 else 0
-    
+
     return {
         "total_messages": total_messages,
         "valuable_messages": valuable_messages,
@@ -248,12 +249,14 @@ Start implementing these practices with this actionable checklist:
 - [ ] Run a weekly SNR check for the first month
 - [ ] Gather team feedback after 30 days and adjust
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
-- [How to Set Up Remote Team Communication Audit.](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Email vs Slack vs Video Call Decision.](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
+## Related Articles
+
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

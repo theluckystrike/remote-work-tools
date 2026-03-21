@@ -3,6 +3,7 @@ layout: default
 title: "How to Network as a Digital Nomad Developer"
 description: "Learn practical strategies for networking as a digital nomad developer. Discover communities, events, tools, and code-based approaches to build"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-network-as-a-digital-nomad-developer/
 categories: [guides]
@@ -161,7 +162,6 @@ Start with one community this week. Join their Discord, introduce yourself in th
 Remember: networking as a digital nomad requires more intentionality than traditional office-based networking. Your efforts compound over time. The connections you build today become the collaborators, mentors, and friends who enrich your career and travels for years to come.
 
 
-
 ## Slack Automation with Workflows and Webhooks
 
 Automating Slack notifications reduces manual status updates and keeps teams synchronized without extra meetings.
@@ -225,7 +225,6 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 ```
 
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
-
 
 
 ## Related Articles

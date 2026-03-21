@@ -3,6 +3,7 @@ layout: default
 title: "How to Fix Echo on Zoom Calls in Room with Hardwood Floors"
 description: "A technical guide for developers and power users to eliminate echo on Zoom calls in rooms with hardwood floors. Covers acoustic solutions, microphone"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/
 categories: [guides]
@@ -182,7 +183,6 @@ Room modes cause certain frequencies to resonate, exacerbating echo in specific 
 - Use a measurement microphone and software like Room EQ Wizard (REW) to identify problem frequencies
 - Apply narrow notches (Q factor > 5) to reduce resonance without affecting speech intelligibility
 - Typical problem frequencies in small rooms fall between 80-300 Hz
-
 
 
 ## Related Articles

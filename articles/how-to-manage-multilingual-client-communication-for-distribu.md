@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Multilingual Client Communication for"
 description: "A practical guide for managing client communication across multiple languages in distributed agency teams. Learn workflows, tools, and automation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-manage-multilingual-client-communication-for-distributed-agency-team/
 categories: [guides]
@@ -111,12 +112,12 @@ languages:
     owner: maria
     timezone: "America/Mexico_City"
     fallback: juan
-  
+
   de:
     owner: klaus
     timezone: "Europe/Berlin"
     fallback: anna
-  
+
   pt:
     owner: carlos
     timezone: "America/Sao_Paulo"
@@ -126,7 +127,7 @@ routing_rules:
   - condition: "client_language == 'es'"
     assign_to: "{{languages.es.owner}}"
     escalation_hours: 24
-  
+
   - condition: "client_language == 'de'"
     assign_to: "{{languages.de.owner}}"
     escalation_hours: 24
@@ -158,7 +159,7 @@ const clientTimeZones = {
 function scheduleEmail(clientId, subject, body, sendHour = 9) {
   const clientZone = clientTimeZones[clientId];
   const sendTime = getNextBusinessHour(clientZone, sendHour);
-  
+
   emailScheduler.queue({
     to: getClientEmail(clientId),
     subject: subject,
@@ -185,7 +186,7 @@ import json
 
 def generate_status_report(project_data, locale):
     translations = load_translation_memory(locale)
-    
+
     report = {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "status": translate(project_data['status'], translations),
@@ -193,7 +194,7 @@ def generate_status_report(project_data, locale):
         "upcoming": translate_list(project_data['upcoming'], translations),
         "metrics": project_data['metrics']
     }
-    
+
     return format_report(report, locale)
 ```
 
@@ -205,7 +206,7 @@ Client-facing notifications—project milestones, delivery confirmations, invoic
 // notification-localizer.js
 function localizeNotification(notification, clientLocale) {
   const template = notificationTemplates[notification.type];
-  
+
   return {
     subject: translate(template.subject, clientLocale),
     body: renderTemplate(template.body, {
@@ -275,7 +276,6 @@ Track metrics to continuously improve your multilingual communication:
 - Escalation frequency: How often do issues require intervention?
 
 Review these monthly and adjust your processes accordingly.
-
 
 
 ## Related Articles

@@ -205,12 +205,13 @@ Consider a pilot test: create two real client projects, assign three team member
 The right tool is the one your team actually uses consistently. A simpler tool used well outperforms a powerful tool configured poorly.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Monday vs Asana for a Nonprofit Remote Team of 30](/remote-work-tools/monday-vs-asana-for-a-nonprofit-remote-team-of-30/)
-- [Linear vs Shortcut for a Remote Startup of 8 Engineers](/remote-work-tools/linear-vs-shortcut-for-a-remote-startup-of-8-engineers/)
-- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [Project Tracking Tool for Two Person Design Agency 2026](/remote-work-tools/project-tracking-tool-for-two-person-design-agency-2026/)
+- [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
+- [Virtual Craft Workshop Ideas for Remote Team Creative](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

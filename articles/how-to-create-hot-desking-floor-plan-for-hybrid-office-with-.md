@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Hot Desking Floor Plan for Hybrid Office with"
 description: "Learn how to create a hot desking floor plan for hybrid office spaces with neighborhood zones. Practical examples, data structures, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/
 categories: [guides]
@@ -63,7 +64,7 @@ const floorPlan = {
       amenities: ["whiteboard", "monitor-share-station"]
     },
     {
-      id: "zone-b", 
+      id: "zone-b",
       name: "Focus Zone",
       type: "focus",
       bounds: { x1: 20, y1: 0, x2: 40, y2: 30 },
@@ -116,11 +117,11 @@ When employees book desks, your system should match them to appropriate zones ba
 ```javascript
 function suggestDesk(employee, availableDesks, zones) {
   const preferredZone = zones.find(z => z.name.includes(employee.team));
-  const matchingDesks = availableDesks.filter(desk => 
-    desk.zone === preferredZone?.id && 
+  const matchingDesks = availableDesks.filter(desk =>
+    desk.zone === preferredZone?.id &&
     desk.attributes.noiseLevel === employee.noisePreference
   );
-  
+
   return matchingDesks.length > 0 ? matchingDesks : availableDesks.slice(0, 3);
 }
 ```
@@ -135,7 +136,7 @@ A successful hot desking implementation balances occupancy across zones. Calcula
 function calculateZoneCapacity(zone, hybridDaysPerWeek, totalEmployees) {
   const expectedDailyAttendance = totalEmployees * (hybridDaysPerWeek / 5);
   const bufferRate = 0.85; // 85% utilization target
-  
+
   return {
     zoneId: zone.id,
     totalDesks: zone.capacity,
@@ -154,16 +155,16 @@ For a developer-friendly approach, generate an SVG or HTML-based floor plan visu
 ```javascript
 function generateFloorPlanSVG(floorPlan) {
   const scale = 10; // 1 unit = 10 pixels
-  let svg = `<svg width="${floorPlan.dimensions.width * scale}" 
+  let svg = `<svg width="${floorPlan.dimensions.width * scale}"
              height="${floorPlan.dimensions.length * scale}">`;
-  
+
   floorPlan.zones.forEach(zone => {
     svg += `<rect x="${zone.bounds.x1 * scale}" y="${zone.bounds.y1 * scale}"
             width="${(zone.bounds.x2 - zone.bounds.x1) * scale}"
             height="${(zone.bounds.y2 - zone.bounds.y1) * scale}"
             fill="${getZoneColor(zone.type)}" opacity="0.3"/>`;
   });
-  
+
   return svg + '</svg>';
 }
 ```
@@ -185,7 +186,6 @@ This visualization helps facilities teams understand space use and plan zone adj
 Avoid creating zones that are too small to be useful—a six-desk team neighborhood barely justifies the designation. Similarly, don't create overly complex naming systems that confuse users about which zone serves their needs.
 
 Another common mistake is neglecting to account for meeting room proximity. Teams that collaborate frequently benefit from being near meeting spaces, so factor this into your zone assignments.
-
 
 
 ## Related Articles

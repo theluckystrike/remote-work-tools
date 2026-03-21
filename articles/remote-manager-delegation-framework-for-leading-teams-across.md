@@ -3,6 +3,7 @@ layout: default
 title: "Remote Manager Delegation Framework for Leading Teams Across"
 description: "Delegation in co-located teams relies on quick feedback loops—walk to someone's desk, ask a question, get an answer. When your team spans San Francisco"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "theluckystrike"
 permalink: /remote-manager-delegation-framework-for-leading-teams-across/
 categories: [guides]
@@ -71,7 +72,7 @@ Use a lightweight template for Tier 2 and Tier 3 decisions:
 
 **Options Considered**:
 1. Option A: brief description
-2. Option B: brief description  
+2. Option B: brief description
 3. Option C: brief description
 
 **Chosen Approach**: [Option X]
@@ -97,7 +98,7 @@ Here's a real example from a distributed team:
 
 **Chosen Approach**: Option 2 - Server-side sessions
 
-**Reasoning**: 
+**Reasoning**:
 - Mobile native apps handle cookies well (iOS 13+)
 - Reduces client complexity vs refresh token rotation
 - Aligns with web app implementation
@@ -193,8 +194,6 @@ The framework scales: with three people, you know everything they do. With thirt
 ---
 
 Next steps: Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
-
-
 
 
 ## Related Articles

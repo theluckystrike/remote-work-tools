@@ -3,6 +3,7 @@ layout: default
 title: "How to Structure an Async All Hands Update for 100 Employees"
 description: "A practical guide to running asynchronous all hands meetings at scale. Templates, tools, and code examples for 100-person teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-structure-an-async-all-hands-update-for-100-employees/
 categories: [guides]
@@ -103,15 +104,15 @@ SECTIONS = [
 def compile_update(source_dir: str, output_file: str):
     source = Path(source_dir)
     output = Path(output_file)
-    
+
     content = ["# Company Update\n"]
-    
+
     for section_file in SECTIONS:
         section_path = source / section_file
         if section_path.exists():
             content.append(f"\n## {section_file.replace('.md', '').replace('_', ' ').title()}\n")
             content.append(section_path.read_text())
-    
+
     output.write_text('\n'.join(content))
     print(f"Update compiled: {output}")
 
@@ -175,8 +176,6 @@ Choose tools your team already uses. Introducing new platforms for all-hands cre
 ---
 
 An async all-hands for 100 employees succeeds through structure, not magic. Define clear sections, automate collection, time distribution consistently, and close the loop with real Q&A. Your team gets information they can actually absorb, and you get a scalable communication system that works regardless of team size or time zone distribution.
-
-
 
 
 ## Related Articles

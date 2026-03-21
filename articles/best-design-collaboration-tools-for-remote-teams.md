@@ -37,7 +37,7 @@ async function getStyles() {
     { headers: { 'X-Figma-Token': FIGMA_TOKEN } }
   );
   const data = await response.json();
-  
+
   // Extract color styles as design tokens
   const colors = Object.entries(data.meta.styles)
     .filter(([_, style]) => style.style_type === 'FILL')
@@ -45,7 +45,7 @@ async function getStyles() {
       acc[key] = { type: 'color', value: style.description };
       return acc;
     }, {});
-  
+
   return colors;
 }
 ```
@@ -349,11 +349,14 @@ Prevention:
 
 Large files slow down designers, increase sync times, and make version control harder. Manage file size as a team responsibility.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
-- [Best Whiteboard Tools for Video Calls](/remote-work-tools/best-whiteboard-tools-for-video-calls/)
+## Related Articles
+
+- [Batch export all artboards to multiple formats](/remote-work-tools/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)
+- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

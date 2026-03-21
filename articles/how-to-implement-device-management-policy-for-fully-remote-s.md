@@ -3,6 +3,7 @@ layout: default
 title: "Example: Minimum device requirements for team members"
 description: "A practical guide to building device management policies for distributed startup teams. Learn frameworks, code examples, and tools for securing remote"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-implement-device-management-policy-for-fully-remote-s/
 reviewed: true
@@ -162,13 +163,13 @@ network:
     client: WireGuard or OpenVPN
     always_on: true
     split_tunnel: false (full tunnel recommended)
-  
+
   wifi:
     requirements:
       - WPA3 personal minimum
       - No open networks for work
       - VPN required on public networks
-  
+
   dns:
     company_dns: required for internal resources
     recommended: Cloudflare (1.1.1.1) or Quad9 (9.9.9.9)
@@ -193,7 +194,7 @@ tools:
     - Bitwarden (password management)
     - Cloudflare Zero Trust (access control)
     - Uptime Kuma (device monitoring)
-  
+
   paid_tier:
     - Kandji or Jamf (MDM)
     - 1Password Teams (password management)
@@ -244,23 +245,22 @@ Example Ansible playbook for Linux security hardening:
       ufw:
         state: enabled
         policy: deny
-        
+
     - name: Configure automatic security updates
       apt:
         name: unattended-upgrades
         state: present
-        
+
     - name: Require encrypted home directory
       community.general.modprobe:
         name: ecryptfs
         state: present
-        
+
     - name: Install and configure fail2ban
       ansible.builtin.package:
         name: fail2ban
         state: present
 ```
-
 
 
 ## Related Articles

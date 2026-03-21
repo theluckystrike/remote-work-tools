@@ -3,6 +3,7 @@ layout: default
 title: "How to Build Psychological Safety on Fully Remote"
 description: "Practical strategies for building psychological safety in fully remote engineering teams. Learn communication patterns, feedback systems, and cultural"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-build-psychological-safety-on-fully-remote-engineerin/
 categories: [guides]
@@ -73,7 +74,7 @@ Consider starting team meetings or writing async updates with a brief "fails of 
 ```markdown
 ## This Week's Learning
 
-I spent 3 hours debugging only to discover I was looking at the wrong environment. 
+I spent 3 hours debugging only to discover I was looking at the wrong environment.
 Reminder: always verify your `KUBECONTEXT` before debugging production issues.
 
 What I learned: I need better visual differentiation between my local and staging configs.
@@ -323,7 +324,6 @@ Psychologically safe engineering teams outperform unsafe teams on every metric:
 - 2-3x more innovation (people suggest ideas without fear)
 
 These aren't soft metrics—they're business results. Frame psychological safety to leadership as infrastructure investment, not feel-good initiative.
-
 
 
 ## Related Articles

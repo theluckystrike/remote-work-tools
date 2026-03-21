@@ -3,6 +3,7 @@ layout: default
 title: "Node.js and npm"
 description: "A guide for developers on using Claude Code to develop, test, and publish NPM packages. Includes workflows, code examples, and best"
 date: 2026-03-17
+last_modified_at: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /claude-code-npm-package-development-guide/
 categories: [guides]
@@ -12,8 +13,6 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, claude-ai]
 ---
-
-
 
 
 {% raw %}
@@ -110,7 +109,7 @@ export interface PackageResult {
   error?: Error;
 }
 
-export type PackageEvent = 
+export type PackageEvent =
   | { type: 'init'; timestamp: number }
   | { type: 'execute'; input: string; output: string }
   | { type: 'error'; error: Error };
@@ -146,9 +145,9 @@ describe('MyPackage', () => {
     });
 
     it('should accept custom options', () => {
-      const customPkg = new MyPackage({ 
-        debug: true, 
-        timeout: 10000 
+      const customPkg = new MyPackage({
+        debug: true,
+        timeout: 10000
       });
       expect(customPkg).toBeDefined();
     });
@@ -190,7 +189,7 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x, 20.x, 22.x]
-    
+
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
@@ -198,7 +197,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
-      
+
       - run: npm ci
       - run: npm run lint
       - run: npm test
@@ -224,7 +223,7 @@ jobs:
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
-      
+
       - run: npm ci
       - run: npm test
       - run: npm run build
@@ -409,7 +408,6 @@ Ask Claude Code to suggest size optimizations when the bundle exceeds your targe
 ```bash
 claude "The bundle size for this npm package exceeds our 10KB limit. Review the imports in src/index.ts and suggest which dependencies could be made optional or replaced with lighter alternatives."
 ```
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Structure Jira for a Remote Team of 50 Developers"
 description: "A practical guide to organizing Jira for large remote development teams. Includes project hierarchy, workflow automation, and team-specific configurations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-structure-jira-for-a-remote-team-of-50-developers/
 categories: [guides]
@@ -203,7 +204,6 @@ Beyond configuration, establish conventions that make Jira work for distributed 
 2. **Use @mentions in comments** — Explicitly notify team members rather than relying on default notifications
 3. **Link PRs immediately** — Automated transitions keep boards current without manual updates
 4. **Review board standing** — Spend 5 minutes each morning reviewing your team's board view
-
 
 
 ## Related Articles

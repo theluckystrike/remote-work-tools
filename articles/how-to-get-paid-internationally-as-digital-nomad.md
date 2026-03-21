@@ -3,6 +3,7 @@ layout: default
 title: "How to Get Paid Internationally as Digital Nomad"
 description: "A practical guide for developers and power users on receiving international payments while working remotely. Covers payment platforms, currency"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-paid-internationally-as-digital-nomad/
 categories: [guides]
@@ -86,7 +87,7 @@ async function createConnectedAccount(country = 'US', email) {
       transfers: { requested: true },
     },
   });
-  
+
   return account.id;
   // Use this ID to create payment links or onboard users
   // Funds settle directly to your connected account
@@ -123,16 +124,16 @@ import ccxt
 
 def convert_crypto_to_fiat(crypto_amount, target_currency='THB'):
     exchange = ccxt.kraken()  # Or binance, coinbase
-    
+
     # Get current price
     price = exchange.fetch_ticker('USDC/USD')['close']
-    
+
     # Sell USDC for USD
     order = exchange.create_market_sell_order('USDC/USD', crypto_amount)
-    
+
     # Withdraw USD to your bank (requires verification)
     # Or convert to target currency directly if supported
-    
+
     return order
 ```
 
@@ -148,15 +149,15 @@ payment_flow:
   - name: "Client payments (USD)"
     source: "US clients via Wise"
     conversion: "Convert to EUR when EUR > 1.10 USD"
-    
+
   - name: "European expenses"
     source: "EUR balance in Wise"
     usage: "Direct spending via Wise debit card"
-    
+
   - name: "Thai living costs"
     source: "Convert EUR to THB via TransferWise"
     timing: "Monthly batch conversion for best rate"
-    
+
   - name: "Emergency fund"
     source: "USDC holdings"
     purpose: "Quick access, low volatility store"
@@ -196,7 +197,6 @@ Based on common digital nomad workflows, here's a recommended setup:
 3. Crypto Allocation: 10-20% of income in stablecoins for emergencies and international flexibility
 4. Local Banking: Open a local bank account in your most frequent country for ATM withdrawals and local expenses
 5. Documentation: Keep detailed records of income sources, locations, and visa status for tax purposes
-
 
 
 ## Related Articles

@@ -126,15 +126,15 @@ log_time() {
     local duration="$2"  # in minutes
     local note="$3"
     local timestamp=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-    
+
     # Create JSON entry
     local entry="{\"project\": \"$project\", \"duration\": $duration, \"note\": \"$note\", \"timestamp\": \"$timestamp\"}"
-    
+
     # Append to file (create if doesn't exist)
     if [ ! -f "$TRACK_FILE" ]; then
         echo "[]" > "$TRACK_FILE"
     fi
-    
+
     # Use python for proper JSON manipulation
     python3 -c "
 import json
@@ -188,9 +188,9 @@ def generate_invoice(client_name, hours, rate, billing_period):
     subtotal = hours * rate
     tax = subtotal * 0.0  # Adjust tax rate as needed
     total = subtotal + tax
-    
+
     invoice_number = datetime.now().strftime("%Y%m%d")
-    
+
     invoice = f"""
 INVOICE #{invoice_number}
 ====================
@@ -220,7 +220,7 @@ if __name__ == "__main__":
         billing_period="March 1-15, 2026"
     )
     print(invoice)
-    
+
     # Save to file
     with open(f"./clients/{client_name}/invoices/invoice_{invoice_number}.txt", "w") as f:
         f.write(invoice)
@@ -292,9 +292,14 @@ The most powerful automation comes from connecting separate tools through APIs a
 
 Start with one自动化 area, build reliable scripts, then expand to other operations. Each automation saves time and reduces cognitive load.
 
-## Related Reading
 
-- More guides coming soon.
+## Related Articles
+
+- [How to Separate Business and Personal Finances as a](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
+- [How to Create Remote Team Operations Handbook From Scratch](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Async Decision-Making Framework"
 description: "Framework for making decisions asynchronously. Tools (Loom, Notion, Slack workflows), templates, escalation criteria, timeboxing strategies"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-team-async-decision-making-framework/
 categories: [guides]
@@ -495,5 +496,6 @@ Review decision quality quarterly. If 80%+ of implemented decisions have positiv
 - [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)
 - [Remote Team Architecture Decision Record Template for Async](/remote-work-tools/remote-team-architecture-decision-record-template-for-async-/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

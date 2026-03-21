@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Escalation Communication Template"
 description: "Create incident escalation templates with six required elements: severity indicator, impact summary, current status, required action, time sensitivity, and"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-create-remote-team-escalation-communication-template-/
 reviewed: true
@@ -139,7 +140,7 @@ Consider integrating your template with incident management tools. Here is a sim
 def generate_escalation_message(incident):
     severity = incident.get('urgency', 'high').upper()
     service = incident.get('service', {}).get('summary', 'Unknown')
-    
+
     return f"""🚨 INCIDENT ESCALATION - SEV{2 if severity == 'HIGH' else 3}
 
 **Affected Service:** {service}
@@ -169,7 +170,6 @@ Use dedicated channels for different incident stages. A common pattern:
 - `#incidents-review` - Post-incident discussions
 
 Direct message your escalation contact first, then post to the appropriate channel. This prevents channel noise while ensuring the right person sees the message immediately.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Kanban Board Setup for a Remote DevOps Team of 3"
 description: "Learn how to configure an effective Kanban board for a remote DevOps team of 3. Includes board structure, WIP limits, automation rules, and practical"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /kanban-board-setup-for-a-remote-devops-team-of-3/
 categories: [guides]
@@ -148,7 +149,7 @@ labels:
   - name: P1
     color: ff0000
   - name: P2
-    color:ffa500  
+    color:ffa500
   - name: incident
     color: ff0000
   - name: project
@@ -211,7 +212,6 @@ A three-person team may eventually become four or five. Your Kanban setup should
 The principles remain the same: visualize work, limit WIP, manage flow. The specifics adjust to your new reality.
 
 ---
-
 
 
 ## Related Articles

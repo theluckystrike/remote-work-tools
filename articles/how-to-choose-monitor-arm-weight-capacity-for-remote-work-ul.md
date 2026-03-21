@@ -3,6 +3,7 @@ layout: default
 title: "How to Choose Monitor Arm Weight Capacity for Remote."
 description: "A practical guide for developers on selecting the right monitor arm weight capacity for ultrawide setups. Learn how to calculate requirements, avoid"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-choose-monitor-arm-weight-capacity-for-remote-work-ultrawide-screen-setup/
 categories: [guides]
@@ -263,7 +264,6 @@ Monitor arms have environmental impact through manufacturing and eventually disp
 - Recycling programs exist for some manufacturers; check before discarding
 
 For environmentally conscious remote workers, choosing a durable arm initially reduces e-waste. A $250 arm lasting 10 years has lower environmental impact than three $80 arms lasting 3 years each.
-
 
 
 ## Related Articles

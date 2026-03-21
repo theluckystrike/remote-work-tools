@@ -3,6 +3,7 @@ layout: default
 title: "incident-response.sh - Simple incident escalation script"
 description: "A practical guide for platform engineers working remotely to manage shared infrastructure services. Compare tools, see code examples, and implement"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/
 categories: [guides]
@@ -210,12 +211,14 @@ jobs:
 
 This surfaces stale runbooks automatically without manual tracking. Owners get direct notifications rather than having the platform team act as intermediary.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Engineering Team Infrastructure Cost Per Deploy.](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
-- [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
-- [Remote Developer Documentation Collaboration Tools for.](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
+## Related Articles
+
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Remote Team Security Incident Response Plan Template for](/remote-work-tools/remote-team-security-incident-response-plan-template-for-distributed-organizations-guide/)
+- [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

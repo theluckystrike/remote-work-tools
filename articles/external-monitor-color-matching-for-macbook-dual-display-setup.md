@@ -3,6 +3,7 @@ layout: default
 title: "List available color profiles"
 description: "Learn how to match colors across your MacBook and external monitor for consistent visual experience. Practical calibration steps and automation scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "theluckystrike"
 permalink: /external-monitor-color-matching-for-macbook-dual-display-setup/
 categories: [guides]
@@ -233,7 +234,6 @@ Use a reference photo with diverse skin tones. Adjust until skin tones appear si
 
 **Problem: HDR content breaks color matching**
 - Solution: Disable HDR for desktop use. Go to **System Settings** → **Displays** → **Advanced** and disable HDR.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Team Quarterly Business Review for"
 description: "Remote team QBRs use async documentation, recorded updates, and focused sync discussions to align distributed leadership on metrics, wins, and next-quarter"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-quarterly-business-review-for-distrib/
 categories: [guides]
@@ -360,7 +361,6 @@ Three-tier structure: Team QBRs → Functional QBRs (engineering, product, sales
 
 ### Post Series C (150+ people)
 Four-tier structure: Team → Department → Business Unit → Company Executive QBR. Can span 3-4 weeks. Use automation to aggregate data between levels.
-
 
 
 ## Related Articles

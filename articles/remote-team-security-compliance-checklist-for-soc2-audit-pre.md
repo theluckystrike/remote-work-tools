@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Security Compliance Checklist for SOC 2 Audit"
 description: "Preparing for a SOC 2 audit while managing a remote team requires systematic attention to security controls, access management, and documentation. Unlike"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-security-compliance-checklist-for-soc2-audit-pre/
 categories: [guides]
@@ -187,14 +188,14 @@ Ensure all data transmission uses TLS 1.2 or higher:
 # Example: Nginx TLS configuration for production
 server {
     listen 443 ssl http2;
-    
+
     ssl_certificate /etc/ssl/certs/server.crt;
     ssl_certificate_key /etc/ssl/private/server.key;
-    
+
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_ciphers ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256;
     ssl_prefer_server_ciphers off;
-    
+
     # HSTS header
     add_header Strict-Transport-Security "max-age=63072000" always;
 }
@@ -311,7 +312,6 @@ Start preparing at least 3-4 months before your audit date:
 2. Month 2-3: Gather evidence, document procedures
 3. Month 3-4: Internal audit or readiness assessment
 4. Final month: Address findings, prepare evidence room
-
 
 
 ## Related Articles

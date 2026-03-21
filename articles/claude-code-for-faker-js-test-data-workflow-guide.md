@@ -3,6 +3,7 @@ layout: default
 title: "Claude Code for Faker.js Test Data Workflow Guide"
 description: "Generating realistic test data is a critical part of software development. Whether you're populating a database, running integration tests, or building demo"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /claude-code-for-faker-js-test-data-workflow-guide/
 categories: [guides, workflows]
@@ -107,7 +108,7 @@ const customers = faker.helpers.multiple(() => ({
 const orders = faker.helpers.multiple(() => {
   const customer = faker.helpers.arrayElement(customers);
   const orderProducts = faker.helpers.arrayElements(products, { min: 1, max: 5 });
-  
+
   return {
     id: faker.string.uuid(),
     customerId: customer.id,
@@ -159,20 +160,20 @@ import { db } from '../lib/database';
 
 async function seed() {
   console.log('Starting database seed...');
-  
+
   // Clear existing data
   await db.users.deleteMany();
   await db.products.deleteMany();
   await db.orders.deleteMany();
-  
+
   // Generate and insert users
   const users = faker.helpers.multiple(generateUser, { count: 100 });
   await db.users.insertMany(users);
-  
+
   // Generate and insert products
   const products = faker.helpers.multiple(generateProduct, { count: 200 });
   await db.products.insertMany(products);
-  
+
   console.log(`Seeded ${users.length} users and ${products.length} products`);
 }
 
@@ -238,5 +239,7 @@ While Faker.js can generate highly realistic data, extremely large datasets can 
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 - [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
 - [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

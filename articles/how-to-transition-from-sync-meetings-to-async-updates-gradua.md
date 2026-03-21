@@ -3,6 +3,7 @@ layout: default
 title: "Example GitHub PR template"
 description: "A practical guide for developers and power users on moving from synchronous meetings to asynchronous communication without disrupting team workflow"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-transition-from-sync-meetings-to-async-updates-gradua/
 categories: [guides]
@@ -63,7 +64,7 @@ Create a simple template for daily updates:
 ```markdown
 ### [Date] Update - [Name]
 
-**Yesterday:** 
+**Yesterday:**
 - Completed user authentication refactor
 - Reviewed PR #234
 
@@ -96,7 +97,7 @@ Create a decisions log in your project:
 
 **Decision:** Zustand for new features, existing Redux code remains.
 
-**Rationale:** 
+**Rationale:**
 - Smaller bundle size important for mobile users
 - Team prefers simpler API for new developers
 - Can migrate incrementally if needed
@@ -177,8 +178,6 @@ Track these metrics during transition:
 Most teams see improvements within four to six weeks. The initial adjustment period requires patience, but the payoff in focused work time typically exceeds expectations.
 
 ---
-
-
 
 
 ## Related Articles

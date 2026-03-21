@@ -3,6 +3,7 @@ layout: default
 title: "How to help Engaging Remote Retrospectives"
 description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes help scripts, digital tools, and actionable"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-help-engaging-remote-retrospectives/
 categories: [guides]
@@ -276,7 +277,6 @@ Consider a split: have team members do their own retro first, then leadership jo
 The most effective teams don't see retrospectives as compliance checkboxes or feedback opportunities. They see them as core to continuous improvement. When retros consistently drive visible changes, team members invest more energy in honest reflection.
 
 This cultural shift doesn't happen through mandate—it happens through consistent follow-through. When the team sees that a retro action actually gets implemented, they trust that the next retro will be worth their time.
-
 
 
 ## Related Articles

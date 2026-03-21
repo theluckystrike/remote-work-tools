@@ -3,6 +3,7 @@ layout: default
 title: "How to Audit Remote Employee Device Security Compliance"
 description: "A practical guide for developers and IT teams to audit remote employee device security compliance using automated tools, remote queries, and endpoint"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-audit-remote-employee-device-security-compliance-without-physical-access/
 categories: [guides]
@@ -44,12 +45,12 @@ Modern operating systems include built-in remote management capabilities that se
 Invoke-Command -ComputerName $hostname -ScriptBlock {
     # Check Windows Defender status
     Get-MpComputerStatus | Select-Object AntivirusEnabled, AntivirusSignatureLastUpdated
-    
+
     # Check BitLocker encryption status
     Get-BitLockerVolume -MountPoint "C:" | Select-Object VolumeStatus, ProtectionStatus
-    
+
     # List installed software
-    Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | 
+    Get-ItemProperty HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* |
         Select-Object DisplayName, DisplayVersion
 }
 ```
@@ -107,13 +108,13 @@ def get_device_compliance_status(api_key, device_id):
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json"
     }
-    
+
     # Query device details including compliance state
     response = requests.get(
         f"{base_url}/devices/entities/devices/v1?ids={device_id}",
         headers=headers
     )
-    
+
     device_data = response.json()
     return {
         "os_version": device_data.get("os_version"),
@@ -177,25 +178,25 @@ def collect_device_info():
         "os": platform.system() + " " + platform.release(),
         "checks": {}
     }
-    
+
     # Check disk encryption
     if platform.system() == "Windows":
         result = subprocess.run(
-            ["powershell", "-Command", 
+            ["powershell", "-Command",
              "(Get-BitLockerVolume -MountPoint 'C:').ProtectionStatus"],
             capture_output=True, text=True
         )
         compliance_data["checks"]["disk_encryption"] = "On" in result.stdout
-    
+
     elif platform.system() == "Darwin":
         result = subprocess.run(
             ["fdesetup", "status"],
             capture_output=True, text=True
         )
         compliance_data["checks"]["disk_encryption"] = "FileVault is On" in result.stdout
-    
+
     # Check firewall status (similar approach for other checks)
-    
+
     return compliance_data
 
 if __name__ == "__main__":
@@ -219,7 +220,7 @@ groups:
       severity: critical
     annotations:
       summary: "Disk encryption disabled on {{ $labels.hostname }}"
-      
+
   - alert: OutdatedSecurityPatches
     expr: days_since_last_update > 30
     for: 1h
@@ -259,10 +260,10 @@ function renderDashboard(data) {
   const compliant = data.devices.filter(d => d.score >= 80).length;
   const total = data.devices.length;
   const complianceRate = Math.round((compliant / total) * 100);
-  
+
   console.log(`Overall Compliance: ${complianceRate}%`);
   console.log(`Compliant: ${compliant}/${total} devices`);
-  
+
   data.devices.forEach(device => {
     if (device.issues.length > 0) {
       console.log(`${device.hostname}: ${device.issues.join(", ")}`);
@@ -280,7 +281,6 @@ renderDashboard(complianceData);
 3. **Secure your audit data** - Protect collected compliance information with encryption
 4. **Provide remediation paths** - Give employees clear instructions for fixing compliance issues
 5. **Document exceptions** - Maintain records when devices cannot meet baseline requirements
-
 
 
 ## Related Articles

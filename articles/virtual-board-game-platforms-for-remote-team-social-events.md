@@ -3,6 +3,7 @@ layout: default
 title: "Virtual Board Game Platforms for Remote Team Social Events"
 description: "Explore virtual board game platforms for remote team social events. Compare tools, setup requirements, and implementation strategies for distributed teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /virtual-board-game-platforms-for-remote-team-social-events/
 categories: [guides]
@@ -79,9 +80,9 @@ async function createGameSession(calendarId, gameDetails) {
   const auth = new google.auth.GoogleAuth({
     scopes: ['https://www.googleapis.com/auth/calendar']
   });
-  
+
   const calendar = google.calendar({ version: 'v3', auth });
-  
+
   const event = {
     summary: `Game Night: ${gameDetails.title}`,
     description: `
@@ -102,7 +103,7 @@ async function createGameSession(calendarId, gameDetails) {
       createRequest: { requestId: `game-${Date.now()}` }
     }
   };
-  
+
   return calendar.events.insert({
     calendarId,
     resource: event,
@@ -126,25 +127,25 @@ def generate_pairings(players, previous_pairings=None):
     pairings = []
     available = players.copy()
     previous = previous_pairings or []
-    
+
     while len(available) >= 2:
         player1 = random.choice(available)
         available.remove(player1)
-        
+
         # Find opponent who hasn't played recently
-        opponents = [p for p in available 
-                     if [player1, p] not in previous 
+        opponents = [p for p in available
+                     if [player1, p] not in previous
                      and [p, player1] not in previous]
-        
+
         if not opponents:
             opponents = available
-        
+
         player2 = random.choice(opponents)
         available.remove(player2)
-        
+
         pairings.append((player1, player2))
         previous.append([player1, player2])
-    
+
     return pairings, previous
 
 # Example usage
@@ -253,8 +254,6 @@ Pick one platform, schedule one session, and iterate based on feedback. Most suc
 The technical tools matter less than consistent participation. A team that plays simple games regularly builds stronger connections than one that occasionally attempts complex tabletop sessions.
 
 ---
-
-
 
 
 ## Related Articles

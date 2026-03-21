@@ -3,6 +3,7 @@ layout: default
 title: "Best VPN for Remote Development Teams with Split Tunneling"
 description: "Remote development teams have specific networking requirements that differ from typical office workers. You need fast access to GitHub, npm registries, Docker"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-vpn-for-remote-development-teams-with-split-tunneling-2/
 categories: [guides]
@@ -177,7 +178,6 @@ For remote development teams, start with these steps:
 3. Start with deny-all: Configure the VPN to block everything, then explicitly allow what you need
 4. Test thoroughly: Verify each developer's workflow works correctly before rolling out team-wide
 5. Monitor and iterate: Watch for access issues and refine rules as needed
-
 
 
 ## Related Articles

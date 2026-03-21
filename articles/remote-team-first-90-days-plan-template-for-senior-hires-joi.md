@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team First 90 Days Plan Template for Senior Hires"
 description: "A 90-day onboarding plan template for senior hires joining remote teams. Practical frameworks, weekly milestones, and async communication strategies"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-first-90-days-plan-template-for-senior-hires-joi/
 categories: [guides]
@@ -205,8 +206,6 @@ Several factors require extra attention when joining remote teams:
 ---
 
 Following this framework helps you transition from newcomer to effective contributor more quickly than ad-hoc approaches. The structured approach to relationship building, context gathering, and progressive contribution sets you up for long-term success in distributed teams.
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Veed API - Upload and process video"
 description: "Asynchronous video updates have become essential for remote teams that want to reduce meeting fatigue while maintaining clear communication. When your team"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-async-video-update-tool-comparison-loom-vs-veed-/
 categories: [comparisons]
@@ -87,14 +88,14 @@ Veed integrates through Zapier and Make (formerly Integromat), covering most aut
 // Veed webhook handler for processed videos
 app.post('/webhooks/veed', (req, res) => {
   const { video_id, status, download_url } = req.body;
-  
+
   if (status === 'completed') {
     // Archive to team drive
     driveClient.files.copy({
       fileId: download_url,
       parents: ['team_video_archive']
     });
-    
+
     // Post to team Slack
     slackClient.chat.postMessage({
       channel: '#engineering-updates',
@@ -176,8 +177,6 @@ Choose Veed when your team needs to build video into automated processes—auto-
 ScreenPal serves specific use cases around educational content and scheduled recordings better than general-purpose async communication. Evaluate whether those specific features align with your primary use case.
 
 Test all three with actual team workflows before committing. Record a code review in each tool, share it with your team, and collect feedback on playback quality, notification timing, and integration with your existing tools. Your team's actual usage patterns will reveal which tool fits your async communication style.
-
-
 
 
 ## Related Articles

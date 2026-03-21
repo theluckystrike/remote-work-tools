@@ -3,6 +3,7 @@ layout: default
 title: "Example GitHub Actions quality gates"
 description: "Learn practical strategies for coordinating remote frontend developers working on shared component libraries. Includes code examples and workflow"
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: "Remote Work Tools Guide"
 permalink: /how-to-coordinate-remote-frontend-developers-on-shared-compo/
 categories: [guides]
@@ -132,16 +133,16 @@ Your CI pipeline should include:
 # Example GitHub Actions quality gates
 - name: Type Check
   run: npm run typecheck
-  
+
 - name: Lint
   run: npm run lint -- --max-warnings 0
-  
+
 - name: Unit Tests
   run: npm run test -- --coverage
-  
+
 - name: Visual Regression
   run: npm run chromatic
-  
+
 - name: Bundle Size Check
   run: npm run build-size
 ```
@@ -171,15 +172,13 @@ Start with ownership and workflow, then layer in the other practices as your lib
 ---
 
 
-
-
 ## Related Articles
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
 - [How to Coordinate Remote Mobile Developers Releasing Apps](/remote-work-tools/how-to-coordinate-remote-mobile-developers-releasing-apps-ac/)
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
-- [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

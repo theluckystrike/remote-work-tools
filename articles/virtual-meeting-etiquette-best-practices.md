@@ -3,6 +3,7 @@ layout: default
 title: "Virtual Meeting Etiquette Best Practices: A Developer Guide"
 description: "Practical virtual meeting etiquette best practices for developers and power users. Includes technical tips, automation examples, and platform-specific"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /virtual-meeting-etiquette-best-practices/
 reviewed: true
@@ -134,21 +135,21 @@ def generate_prep_checklist(meeting_title, has_code_review=False, has_demo=False
         "Check audio/video setup",
         "Close unnecessary applications",
     ]
-    
+
     if has_code_review:
         checklist.extend([
             "Pull latest changes",
             "Run tests locally",
             "Note specific feedback points"
         ])
-    
+
     if has_demo:
         checklist.extend([
             "Test demo environment",
             "Prepare backup slides",
             "Verify screen share permissions"
         ])
-    
+
     return checklist
 ```
 
@@ -230,7 +231,6 @@ Meeting etiquette extends beyond the call itself:
 - Update action items in your project management tool immediately
 - Share relevant recordings with timestamps for absent team members
 - Clean up shared resources—close shared documents, end shared cursor sessions
-
 
 
 ## Related Articles

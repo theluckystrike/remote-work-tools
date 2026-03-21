@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Team Peer Feedback Process Without"
 description: "A practical guide to implementing peer feedback for remote teams. Learn structured frameworks, async templates, and automation to make feedback feel"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-team-peer-feedback-process-without-awkw/
 categories: [guides]
@@ -59,15 +60,15 @@ Here's a template you can adapt:
 ```markdown
 ## Peer Feedback for [Name]
 
-For each category, provide one specific example of something they did well 
-and one area where they could improve. Be specific—replace general 
+For each category, provide one specific example of something they did well
+and one area where they could improve. Be specific—replace general
 impressions with concrete incidents.
 
 ### Technical Quality
 - **Strong**: [specific example]
 - **Improve**: [specific example with suggestion]
 
-### Collaboration  
+### Collaboration
 - **Strong**: [specific example]
 - **Improve**: [specific example with suggestion]
 
@@ -93,14 +94,14 @@ def generate_feedback_pairs(team_members, feedback_cycle_length=3):
     """Generate feedback pairs ensuring no repeats within cycle."""
     n = len(team_members)
     pairs = []
-    
+
     for cycle in range(feedback_cycle_length):
         cycle_pairs = []
         for i in range(n):
             partner_idx = (i + cycle + 1) % n
             cycle_pairs.append((team_members[i], team_members[partner_idx]))
         pairs.append(cycle_pairs)
-    
+
     return pairs
 
 # Example usage
@@ -142,17 +143,17 @@ A simple approach uses scheduled Slack messages or calendar reminders:
 # feedback_schedule.yaml
 schedule:
   feedback_cycle_weeks: 4
-  
+
 timing:
   collection_start: Monday Week 1
   collection_deadline: Friday Week 2
   delivery_to_recipient: Monday Week 3
-  
+
 notifications:
   - type: reminder
     when: 3 days before deadline
     channel: #team-feedback
-    
+
   - type: completion
     when: after deadline
     channel: #team-feedback
@@ -206,8 +207,6 @@ Track a few key metrics to know if your process is working:
 The ultimate goal is not a perfect process but a team where feedback becomes normal. Start small—maybe just two teammates trading feedback initially. Expand gradually as comfort grows.
 
 Over time, you'll notice team members giving unsolicited feedback because they've internalized that it helps everyone improve. That's when you know your peer feedback process has succeeded.
-
-
 
 
 ## Related Articles

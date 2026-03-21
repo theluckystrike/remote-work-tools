@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Tracking Remote Employee Work Permits and"
 description: "A practical guide for developers and power users building systems to track remote employee work permits and visa expirations. Includes code examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-tracking-remote-employee-work-permits-and-visa/
 categories: [guides]
@@ -44,7 +45,7 @@ def get_expiring_visas(days_ahead=30):
     """Fetch visas expiring within the specified window."""
     today = datetime.now().date()
     cutoff = today + timedelta(days=days_ahead)
-    
+
     filter_params = {
         "and": [
             {
@@ -61,23 +62,23 @@ def get_expiring_visas(days_ahead=30):
             }
         ]
     }
-    
+
     response = notion.databases.query(
         database_id=DATABASE_ID,
         filter=filter_params
     )
-    
+
     return response["results"]
 
 def send_expiration_alerts():
     """Send notifications for upcoming expirations."""
     expiring = get_expiring_visas(days_ahead=30)
-    
+
     for record in expiring:
         employee = record["properties"]["Employee"]["title"][0]["plain_text"]
         expiration = record["properties"]["Expiration Date"]["date"]["start"]
         visa_type = record["properties"]["Visa Type"]["select"]["name"]
-        
+
         message = f"⚠️ {employee}'s {visa_type} expires on {expiration}"
         # Integrate with Slack, email, or your notification system
         print(message)
@@ -105,7 +106,7 @@ thirtyDaysFromNow.setDate(today.getDate() + 30);
 
 for (let record of records.records) {
     let expiration = new Date(record.getCellValue("Expiration Date"));
-    
+
     if (expiration <= thirtyDaysFromNow && expiration >= today) {
         console.log(`Reminder: ${record.getCellValue("Employee Name")} - ${record.getCellValue("Visa Type")} expires ${expiration.toDateString()}`);
     }
@@ -174,8 +175,6 @@ Enterprises with global workforces and complex compliance needs should evaluate 
 The best tool ultimately depends on your team's size, technical capacity, and existing infrastructure. Start simple, measure what breaks, and scale to more complex solutions only when necessary.
 
 ---
-
-
 
 
 ## Related Articles

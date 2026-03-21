@@ -3,6 +3,7 @@ layout: default
 title: "Soundproofing Home Office for Remote Work Guide"
 description: "A practical guide for developers and power users to soundproof a home office. Covers acoustic treatment, noise-canceling solutions, and budget-friendly"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /soundproofing-home-office-for-remote-work-guide/
 categories: [guides]
@@ -268,7 +269,6 @@ Suggest your team adopt a "camera-off option" for some meetings to reduce bandwi
 Consider finding alternative work space occasionally (coffee shop with WiFi, library, coworking space) when you have important calls. Some remote workers maintain coworking memberships specifically for this.
 
 The goal is solving the acoustic problem without feeling you must achieve perfect silence at home. Often simple adjustments to microphone position, noise suppression settings, or call formats resolve issues faster than extensive physical soundproofing.
-
 
 
 ## Related Articles

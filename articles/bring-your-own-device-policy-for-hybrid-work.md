@@ -3,6 +3,7 @@ layout: default
 title: "Bring Your Own Device Policy for Hybrid Work"
 description: "A bring your own device policy for hybrid work requires three non-negotiable controls: full-disk encryption on every personal device, MDM enrollment before"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /bring-your-own-device-policy-for-hybrid-work/
 categories: [guides]
@@ -178,9 +179,9 @@ def check_device_compliance(device, user):
         'mfa_enabled': user.mfa_methods.count() > 0,
         'background_check': user.background_check_status == 'clear'
     }
-    
+
     compliance_score = sum(checks.values()) / len(checks)
-    
+
     if compliance_score == 1.0:
         return 'FULL_ACCESS'
     elif compliance_score >= 0.7:
@@ -227,7 +228,6 @@ Track key metrics:
 - Time-to-compliance for new devices
 - Security incident frequency from personal devices
 - User satisfaction scores for BYOD experience
-
 
 
 ## Related Articles

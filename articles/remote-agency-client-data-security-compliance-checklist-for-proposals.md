@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Client Data Security Compliance Checklist for"
 description: "A practical compliance checklist for remote agencies. Includes security requirements, code examples, and proposal templates for protecting client data"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-client-data-security-compliance-checklist-for-proposals/
 categories: [guides]
@@ -206,8 +207,6 @@ Include a data security appendix in every proposal, even if the client doesn't e
 Review and update your checklist quarterly—security standards evolve, and your proposals should reflect current best practices. Keep your SOC 2 reports current, maintain your DPA templates, and document every security measure you implement.
 
 The goal isn't to overwhelm clients with jargon—it's to demonstrate that you take their data protection seriously. A clear, specific compliance checklist shows you've thought through the details and have systems in place to protect what matters to them.
-
-
 
 
 ## Related Articles

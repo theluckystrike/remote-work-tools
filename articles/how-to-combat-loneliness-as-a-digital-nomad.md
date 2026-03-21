@@ -3,6 +3,7 @@ layout: default
 title: "How to Combat Loneliness as a Digital Nomad"
 description: "Practical strategies and developer tools for fighting isolation while working remotely as a digital nomad. Includes code examples and automation scripts"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-combat-loneliness-as-a-digital-nomad/
 categories: [guides]
@@ -276,7 +277,6 @@ Consider using a simple spreadsheet or Notion database to monitor your social co
 Monthly, review the data. Look for patterns: Did increasing co-working sessions reduce loneliness? Did video calls with close friends help more than local meetups? Use this data to refine your approach for your next location.
 
 What works in Bangkok might not work in Lisbon. The systems that work work best are those tailored to your personality and preferences, not generic advice.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Secure Slack and Teams Channels for Remote Team"
 description: "A practical guide for developers and power users on securing Slack and Teams channels for confidential remote team discussions. Learn channel"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-secure-slack-and-teams-channels-for-remote-team-confi/
 categories: [guides]
@@ -190,13 +191,13 @@ from datetime import datetime, timedelta
 def audit_channel_access(channel_id, days=7):
     client = WebClient(token=os.environ['SLACK_TOKEN'])
     cutoff = datetime.now() - timedelta(days=days)
-    
+
     # Get channel history
     result = client.conversations.history(
         channel=channel_id,
         oldest=cutoff.timestamp()
     )
-    
+
     # Analyze for policy violations
     violations = []
     for msg in result['messages']:
@@ -206,7 +207,7 @@ def audit_channel_access(channel_id, days=7):
                 'user': msg['user'],
                 'timestamp': datetime.fromtimestamp(float(msg['ts']))
             })
-    
+
     return violations
 ```
 
@@ -252,7 +253,6 @@ Several frequent errors undermine channel security:
 - **Relying on honor system** without technical enforcement
 
 Automated policies catch mistakes that human vigilance misses.
-
 
 
 ## Related Articles

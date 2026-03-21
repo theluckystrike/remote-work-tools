@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Humidity Control for Comfortable Coding Sessions"
 description: "A practical guide to home office humidity control for comfortable coding sessions. Learn optimal humidity levels, smart sensors, automation scripts"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-humidity-control-for-comfortable-coding-sessions/
 categories: [guides]
@@ -239,7 +240,6 @@ Sustained humidity above 70% can corrode PCB traces and switch contacts over mon
 **My office humidity reads fine but I still have dry eyes. What is happening?**
 
 Room-level humidity can be within range while the micro-environment near your monitors remains drier. Monitors and computers generate heat that creates a warmer, drier zone immediately around your seated position. Try placing a small USB humidifier directly on your desk, targeted toward your face, in addition to any room-level humidification. An eye drops habit during long sessions also helps independently of ambient humidity.
-
 
 
 ## Related Articles

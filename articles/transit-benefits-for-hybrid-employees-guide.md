@@ -3,6 +3,7 @@ layout: default
 title: "Transit Benefits for Hybrid Employees Guide"
 description: "Transit benefits for hybrid employees let you pay for commuting costs with pre-tax dollars through Section 132(f), saving a typical developer around $75 per"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /transit-benefits-for-hybrid-employees-guide/
 categories: [guides]
@@ -231,7 +232,6 @@ Before your next open enrollment period:
 - [ ] Set up mobile apps for your transit system
 - [ ] Create expense tracking system for documentation
 - [ ] Check for rollover limits and year-end balance rules in your specific program
-
 
 
 ## Related Articles

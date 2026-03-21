@@ -3,6 +3,7 @@ layout: default
 title: "Remote Developer Code Review Workflow Tools for Teams"
 description: "A practical guide to code review tools and workflows for distributed developer teams working across different time zones without real-time overlap"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/
 categories: [guides]
@@ -55,13 +56,12 @@ Explain the implementation strategy and why you chose this approach over alterna
 
 ## Testing Performed
 - [ ] Unit tests pass
-- [ ] Integration tests pass  
+- [ ] Integration tests pass
 - [ ] Manual testing on staging (for user-facing changes)
 
 ## Screenshots (if applicable)
 [Add screenshots for UI changes]
 
-## Related PRs or Issues
 Links to any dependent PRs or related issues
 ```
 
@@ -88,7 +88,7 @@ jobs:
         run: npm test
       - name: Run linter
         run: npm run lint
-      
+
   automated-review:
     needs: test
     runs-on: ubuntu-latest
@@ -143,7 +143,7 @@ Several tools extend GitHub's native capabilities for async teams:
 # CODEOWNERS
 # Backend changes require backend team approval
 /src/backend/ @backend-team
-# Frontend changes require frontend team approval  
+# Frontend changes require frontend team approval
 /src/frontend/ @frontend-team
 # Infrastructure changes require DevOps approval
 /infrastructure/ @devops-team
@@ -192,7 +192,6 @@ Track these metrics to ensure your async review process improves over time:
 - PR size correlation: Larger PRs often see longer review times
 
 GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards.
-
 
 
 ## Related Articles

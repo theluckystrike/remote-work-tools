@@ -3,6 +3,7 @@ layout: default
 title: "Best Project Management Tools with GitHub Integration"
 description: "Linear is the best project management tool with GitHub integration for speed-focused engineering teams, while ClickUp leads on automation, Shortcut excels for"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-project-management-tools-with-github-integration/
 categories: [best-of]
@@ -31,18 +32,18 @@ Setting up the integration involves granting OAuth access in Linear settings, th
 
 ```javascript
 // Linear API - Fetch issues with GitHub PR links
-const linearClient = new LinearClient({ 
-  apiKey: process.env.LINEAR_API_KEY 
+const linearClient = new LinearClient({
+  apiKey: process.env.LINEAR_API_KEY
 });
 
 async function getIssuesWithPRs(teamId) {
   const { data } = await linearClient.issues({
-    filter: { 
+    filter: {
       team: { id: { eq: teamId } },
       state: { name: { in: ['In Progress', 'In Review'] } }
     }
   });
-  
+
   return data.issues.nodes.map(issue => ({
     title: issue.title,
     identifier: issue.identifier,
@@ -84,7 +85,7 @@ const createClickUpTask = async (listId, issueData) => {
       ]
     })
   });
-  
+
   return response.json();
 };
 ```
@@ -169,7 +170,7 @@ on:
     types: [opened, closed, labeled]
   pull_request:
     types: [opened, closed, synchronize]
-    
+
 projects:
   - name: Sprint Board
     runs_on: project
@@ -197,11 +198,14 @@ Each tool integrates differently with GitHub, and the right choice depends on yo
 
 ---
 
-## Related Reading
 
-- [Linear vs Jira for Software Development](/remote-work-tools/linear-vs-jira-for-software-development/)
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-- [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
+## Related Articles
+
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
+- [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Best Remote Work Project Management Tools Under 10 Per.](/remote-work-tools/best-remote-work-project-management-tools-under-10-per-user-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "How to Separate Business and Personal Finances as a"
 description: "Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between 'buying a new laptop for"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-separate-business-and-personal-finances-freelance/
 categories: [guides]
@@ -223,7 +224,6 @@ Set up a recurring calendar block for financial review. A 30-minute monthly sess
 5. **Verify tax buffer** is at 25-30% of quarter income
 
 This rhythm prevents end-of-year panic and keeps your books always ready for quarterly tax estimates.
-
 
 
 ## Related Articles

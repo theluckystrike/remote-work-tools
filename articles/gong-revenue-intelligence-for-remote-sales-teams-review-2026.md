@@ -3,6 +3,7 @@ layout: default
 title: "Gong Revenue Intelligence for Remote Sales Teams Review 2026"
 description: "A review of Gong and revenue intelligence platforms for remote sales teams. Learn how AI-powered conversation analytics transform distributed sales"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /gong-revenue-intelligence-for-remote-sales-teams-review-2026/
 categories: [guides]
@@ -96,9 +97,9 @@ async function getCallInsights(platformApiKey, callId) {
       'Content-Type': 'application/json'
     }
   });
-  
+
   const data = await response.json();
-  
+
   return {
     transcript: data.transcript.segments,
     summary: data.ai_summary.topics,
@@ -110,11 +111,11 @@ async function getCallInsights(platformApiKey, callId) {
 // Processing deal health scores
 function calculateDealHealth(callData, engagementData) {
   const signals = [];
-  
+
   if (callData.sentiment.overall > 0.7) signals.push('positive_engagement');
   if (engagementData.proposal_views > 3) signals.push('high_intent');
   if (callData.metrics.questions.qualification > 5) signals.push('well_qualified');
-  
+
   return {
     score: signals.length * 25,
     signals,
@@ -131,21 +132,21 @@ Set up webhooks to trigger workflows when specific events occur:
 // Example webhook handler for deal risk alerts
 app.post('/webhooks/revenue-intelligence', async (req, res) => {
   const { event, call_id, risk_level, deal_id } = req.body;
-  
+
   if (event === 'deal_risk_detected' && risk_level === 'high') {
     // Notify sales manager via Slack
     await slackClient.chat.postMessage({
       channel: '#sales-manager-alerts',
       text: `🚨 High risk detected on deal ${deal_id}. Call ${call_id} shows negative sentiment trend.`
     });
-    
+
     // Update CRM with risk flag
-    await crmClient.updateDeal(deal_id, { 
-      risk_flag: true, 
-      last_risk_assessment: new Date() 
+    await crmClient.updateDeal(deal_id, {
+      risk_flag: true,
+      last_risk_assessment: new Date()
     });
   }
-  
+
   res.status(200).json({ received: true });
 });
 ```
@@ -169,7 +170,7 @@ data_retention:
   transcriptions: 365
   analytics_data: 730
   personally_identifiable: encrypted
-  
+
 access_control:
   default_role: manager
   elevated_access:
@@ -211,7 +212,7 @@ class ConversationAnalyzer:
     def __init__(self):
         self.sentiment = pipeline("sentiment-analysis")
         self.summarizer = pipeline("summarization")
-        
+
     def analyze_call(self, transcript_segments):
         sentiments = []
         for segment in transcript_segments:
@@ -221,19 +222,19 @@ class ConversationAnalyzer:
                 'sentiment': result['label'],
                 'score': result['score']
             })
-        
+
         # Aggregate sentiment by speaker
         speaker_sentiments = {}
         for s in sentiments:
             if s['speaker'] not in speaker_sentiments:
                 speaker_sentiments[s['speaker']] = []
             speaker_sentiments[s['speaker']].append(s['sentiment'])
-            
+
         return {
             'by_speaker': speaker_sentiments,
             'overall_health': self._calculate_health(speaker_sentiments)
         }
-    
+
     def _calculate_health(self, sentiments):
         positive_count = sum(1 for s in sentiments.values() if 'POSITIVE' in s)
         total = sum(len(v) for v in sentiments.values())
@@ -241,7 +242,6 @@ class ConversationAnalyzer:
 ```
 
 This approach provides basic sentiment analysis without requiring external platform subscriptions, though production implementations benefit from domain-specific training data.
-
 
 
 ## Related Articles

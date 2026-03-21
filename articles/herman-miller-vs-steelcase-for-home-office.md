@@ -3,6 +3,7 @@ layout: default
 title: "Herman Miller vs Steelcase for Home Office"
 description: "Practical comparison of Herman Miller and Steelcase ergonomic chairs for home office setups. Features, ergonomics, and recommendations for developers"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /herman-miller-vs-steelcase-for-home-office/
 reviewed: true
@@ -40,7 +41,7 @@ For developers, the Aern's cooling properties matter significantly. When you're 
 // Example: Time spent seated per day for developers
 const developerSchedule = {
   morningCoding: 2.5,    // hours
-  meetings: 1.5,         // hours  
+  meetings: 1.5,         // hours
   afternoonCoding: 3,    // hours
   codeReview: 1,         // hours
   totalSeatedHours: 8    // hours
@@ -49,7 +50,7 @@ const developerSchedule = {
 // Aeron comfort rating by duration (anecdotal developer feedback)
 const comfortByHour = {
   0: 'excellent',
-  2: 'excellent', 
+  2: 'excellent',
   4: 'good',
   6: 'good',
   8: 'acceptable'
@@ -191,8 +192,6 @@ However, if you have specific back issues, the Embody's targeted support may ser
 The key insight: any of these four chairs will dramatically improve your home office experience compared to a basic office chair. Pick the one that fits your body, your budget, and your specific pain points—and then get back to coding.
 
 ---
-
-
 
 
 ## Related Articles

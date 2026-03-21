@@ -3,6 +3,7 @@ layout: default
 title: "Standup Bot Comparison for Remote Engineering Teams"
 description: "Compare the best standup bots for remote engineering teams. Evaluate GeekBot, Standuply, Cyclops, and more with features, pricing, and implementation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /standup-bot-comparison-for-remote-engineering-teams/
 categories: [guides]
@@ -244,8 +245,6 @@ For distributed teams, daily standups work, but **biweekly deep standups** provi
 - **Biweekly planning**: Synchronous 30-minute meeting discussing week 3-4, using standups as input
 
 This hybrid approach reduces standup fatigue while maintaining visibility across time zones.
-
-
 
 
 ## Related Articles

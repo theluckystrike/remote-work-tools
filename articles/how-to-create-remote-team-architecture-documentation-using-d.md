@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Architecture Documentation Using"
 description: "The best approach for remote teams is using Mermaid or PlantUML to store diagrams as text files in your repository, enabling Git-based collaboration and"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-architecture-documentation-using-d/
 categories: [guides]
@@ -58,7 +59,7 @@ sequenceDiagram
     participant Auth as Auth Service
     participant Order as Order Service
     participant DB as Database
-    
+
     User->>API: POST /orders
     API->>Auth: Validate Token
     Auth->>API: Token Valid
@@ -89,7 +90,7 @@ graph TB
             end
         end
     end
-    
+
     LB --> EC1
     LB --> EC2
     EC1 --> RDS
@@ -107,23 +108,23 @@ workspace {
     model {
         person = person "User" "Uses the system"
         softwareSystem = softwareSystem "E-Commerce Platform" "Online store"
-        
+
         container = container "Web App" "React SPA" "Serves pages"
         containerAPI = container "API" "Node.js API" "Business logic"
         containerDB = container "Database" "PostgreSQL" "Stores data"
-        
+
         person -> softwareSystem "Visits"
         softwareSystem -> container "Delivers"
         container -> containerAPI "API Calls"
         containerAPI -> containerDB "Reads/Writes"
     }
-    
+
     views {
         systemContext softwareSystem "SystemContext" {
             include *
             autoLayout
         }
-        
+
         container softwareSystem "Container" {
             include *
             autoLayout
@@ -188,7 +189,6 @@ def generate_deployment_diagram(services):
 ```
 
 Automated generation keeps documentation synchronized with deployed services. Run generation as part of your CI pipeline to ensure diagrams always reflect current state.
-
 
 
 ## Related Articles

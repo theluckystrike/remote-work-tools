@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Book Club Format and Facilitation Guide for"
 description: "A practical guide to running effective remote book clubs for developer teams. Includes format templates, help scripts, and tooling recommendations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-book-club-format-and-facilitation-guide-developers/
 categories: [guides]
@@ -106,12 +107,12 @@ class DataPipeline:
     def __init__(self, buffer_size=1000):
         self.buffer = []
         self.buffer_size = buffer_size
-    
+
     def add(self, item):
         self.buffer.append(item)
         if len(self.buffer) >= self.buffer_size:
             self.flush()
-    
+
     def flush(self):
         # Process batch
         print(f"Processing {len(self.buffer)} items")
@@ -147,11 +148,11 @@ When discussion becomes heated, the facilitator should:
 ```markdown
 # Facilitator intervention script
 
-"I hear strong opinions on both sides. Let's ground this in specific 
-scenarios. [Name], can you describe a situation where approach A 
+"I hear strong opinions on both sides. Let's ground this in specific
+scenarios. [Name], can you describe a situation where approach A
 actually failed? [Name], what's a case where approach B succeeded?"
 
-"This is a nuanced topic. Let's break it into smaller pieces. 
+"This is a nuanced topic. Let's break it into smaller pieces.
 What do we all agree on about [specific aspect]?"
 ```
 
@@ -208,7 +209,6 @@ For remote developer book clubs, these tools integrate well with existing workfl
 - **Zoom/Meet** — Live discussion sessions
 - **VS Code Live Share** — Collaborative code exploration
 - **Excalidraw** — Visual diagrams for system design discussions
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Knowledge Base Contribution Guidelines Template"
 description: "A practical template for establishing knowledge base contribution guidelines that encourage all remote team members to write and share documentation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-knowledge-base-contribution-guidelines-template-/
 categories: [guides]
@@ -59,7 +60,7 @@ A concrete example that shows the concept in action.
 ### Common Mistakes
 What errors do people make? What shouldn't they do?
 
-### Related Articles
+### Related Reading
 Links to prerequisite knowledge or next steps.
 
 ## Style Guidelines
@@ -328,7 +329,7 @@ Push your code and run the script. Make sure to test first.
 ### Real Example
 [Walk through specific deployment]
 
-### Related Articles
+### Related Reading
 - [Troubleshooting Production Errors](link)
 - [Database Migration Guide](link)
 ```
@@ -355,7 +356,6 @@ Set up a simple monthly tracking:
 - Most-viewed articles
 
 Review monthly. If search quality is declining, contribution is dropping, or certain people dominate contributions, investigate and adjust.
-
 
 
 ## Related Articles

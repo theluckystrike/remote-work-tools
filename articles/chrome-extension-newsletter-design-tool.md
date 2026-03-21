@@ -3,6 +3,7 @@ layout: default
 title: "Chrome Extension Newsletter Design Tool: A Developer's Guide"
 description: "Discover Chrome extensions that help developers and power users design, test, and automate newsletter creation workflows directly in the browser"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /chrome-extension-newsletter-design-tool/
 reviewed: true
@@ -346,7 +347,6 @@ Track these metrics to optimize designs:
 - **List growth**: Track unsubscribes vs new signups
 
 Monitor these via your email provider's analytics dashboard and adjust design elements accordingly.
-
 
 
 ## Related Articles

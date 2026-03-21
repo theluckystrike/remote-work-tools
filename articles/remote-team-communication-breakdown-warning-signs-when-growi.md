@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Communication Breakdown"
 description: "Learn to identify the critical warning signs of communication breakdown in remote teams as they scale beyond 15 people. Includes practical detection"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-communication-breakdown-warning-signs-when-growi/
 categories: [guides]
@@ -333,15 +334,13 @@ The goal isn't eliminating all communication friction. Some is natural at scale.
 ---
 
 
-
-
 ## Related Articles
 
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 - [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 - [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
+- [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

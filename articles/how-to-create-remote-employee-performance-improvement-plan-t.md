@@ -3,6 +3,7 @@ layout: default
 title: "Usage: python pip_tracker.py employee-pip.json"
 description: "Learn how to create effective performance improvement plans for remote teams with practical templates and code examples for tracking"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-employee-performance-improvement-plan-t/
 reviewed: true
@@ -46,7 +47,7 @@ Here's a template you can adapt for your remote team. Save this as a JSON file t
   "start_date": "2026-03-16",
   "review_period": "30 days",
   "manager": "Manager Name",
-  
+
   "performance_gaps": [
     {
       "area": "Response Time",
@@ -61,7 +62,7 @@ Here's a template you can adapt for your remote team. Save this as a JSON file t
       "expected": "Weekly updates every Friday"
     }
   ],
-  
+
   "improvement_goals": [
     {
       "goal": "Reduce PR review time",
@@ -76,21 +77,21 @@ Here's a template you can adapt for your remote team. Save this as a JSON file t
       "deadline": "2026-04-15"
     }
   ],
-  
+
   "support_resources": [
     "Weekly 1:1s with manager (30 min)",
     "Access to async communication training",
     "Pair programming sessions with senior engineer",
     "Documented team norms and response time expectations"
   ],
-  
+
   "checkin_schedule": [
     {"date": "2026-03-23", "type": "week1"},
     {"date": "2026-03-30", "type": "week2"},
     {"date": "2026-04-06", "type": "week3"},
     {"date": "2026-04-13", "type": "final"}
   ],
-  
+
   "success_criteria": {
     "pr_review_time": "≤24 hours for 90% of reviews",
     "async_updates": "6/6 Friday updates completed",
@@ -113,11 +114,11 @@ def check_pip_progress(pip_data):
     """Check current progress against success criteria."""
     goals = pip_data['improvement_goals']
     criteria = pip_data['success_criteria']
-    
+
     print(f"PIP Review for: {pip_data['employee']['name']}")
     print(f"Period: {pip_data['start_date']} - {pip_data['review_period']}")
     print("-" * 40)
-    
+
     for goal in goals:
         print(f"Goal: {goal['goal']}")
         print(f"Target: {goal['metric']}")
@@ -139,9 +140,9 @@ For teams using tools like Linear, Jira, or Asana, create a structured task brea
 ```markdown
 ## Weekly Check-in Template
 
-**Employee**: 
-**Date**: 
-**Week**: 
+**Employee**:
+**Date**:
+**Week**:
 
 ### Progress on Goals
 1. [Goal 1]: ___% complete
@@ -178,8 +179,6 @@ For teams using tools like Linear, Jira, or Asana, create a structured task brea
 If after the defined period (typically 30-60 days) the employee has not met success criteria, escalate to HR or leadership with your documented evidence. Your JSON tracking and weekly check-in notes provide the paper trail needed for fair termination or further action.
 
 The goal of any PIP is genuine improvement. When executed thoughtfully with clear metrics and consistent follow-up, remote performance improvement plans can turn struggling team members into reliable contributors. The structure you build now will scale as your distributed team grows.
-
-
 
 
 ## Related Articles

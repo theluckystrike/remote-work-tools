@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Security Awareness Training Platform Comparison"
 description: "Compare the best security awareness training platforms for remote teams in 2026. Evaluate features, pricing, automation, and developer-friendly"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-security-awareness-training-platform-comparison-/
 categories: [guides]
@@ -198,7 +199,7 @@ jobs:
         run: |
           EMAIL=$(git log -1 --format=%ae)
           echo "contractor_email=$EMAIL" >> $GITHUB_ENV
-      
+
       - name: Call training API
         run: |
           curl -X POST $TRAINING_API/assign \
@@ -209,8 +210,6 @@ jobs:
 Security awareness training for remote teams requires platforms that work as hard as your IT team does. The right choice depends on your existing infrastructure, team size, and how much automation you need to deploy effectively without constant manual oversight.
 
 ---
-
-
 
 
 ## Related Articles

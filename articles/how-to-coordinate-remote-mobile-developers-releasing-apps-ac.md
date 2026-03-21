@@ -3,6 +3,7 @@ layout: default
 title: "How to Coordinate Remote Mobile Developers Releasing Apps"
 description: "A practical guide to coordinating remote mobile developers for releasing apps across iOS and Android platforms. Includes CI/CD pipelines, version"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-coordinate-remote-mobile-developers-releasing-apps-ac/
 categories: [guides]
@@ -253,7 +254,6 @@ For urgent releases, use abbreviated async processes:
 3. One sentence approval from tech lead (documented in thread)
 4. Build and test
 5. Expedited submission with notes to reviewers
-
 
 
 ## Related Articles

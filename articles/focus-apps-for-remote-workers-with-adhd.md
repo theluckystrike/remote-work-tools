@@ -3,6 +3,7 @@ layout: default
 title: "Focus Apps for Remote Workers with ADHD"
 description: "Discover the best focus apps for remote workers with ADHD. Learn about specialized tools, browser extensions, and automation techniques to improve"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /focus-apps-for-remote-workers-with-adhd/
 categories: [guides]
@@ -168,7 +169,7 @@ local function enableFocusMode()
   -- Close Slack, Discord, email
   hs.application.find("Slack"):kill()
   hs.application.find("Discord"):kill()
-  
+
   -- Mute notifications
   hs.alert.show("Focus Mode: ON")
 end
@@ -198,8 +199,6 @@ The best focus app configuration is the one you'll actually use. For ADHD minds,
 4. **Friction for distractions** — Make unwanted behaviors slightly harder than desired ones
 
 Start with one tool that addresses your biggest pain point. Master it before adding more. Focus apps work best when they become invisible infrastructure, not another thing to manage.
-
-
 
 
 ## Related Articles

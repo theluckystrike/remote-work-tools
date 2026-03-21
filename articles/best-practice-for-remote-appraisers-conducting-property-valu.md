@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Appraisers Conducting Property"
 description: "A technical guide to virtual property inspection workflows for remote appraisers. Learn about software tools, API integrations, automation patterns"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-appraisers-conducting-property-valu/
 categories: [guides]
@@ -122,7 +123,7 @@ class RoomCapture:
     required_angles: List[str]
     required_details: List[str]
     instructions: str
-    
+
     def to_checklist(self) -> dict:
         return {
             "room": self.room_name,
@@ -301,7 +302,7 @@ security:
     at_rest: aes-256-gcm
     in_transit: tls-1.3
     key_rotation: 90-days
-    
+
   access_control:
     default_role: no-access
     roles:
@@ -316,7 +317,7 @@ security:
       compliance:
         - read: all
         - audit: true
-        
+
   audit:
     log_all_access: true
     retention_years: 7
@@ -453,12 +454,14 @@ Date: {inspection['completed_at'][:10]}
 
 Retain this certification in your appraisal workfile alongside the inspection media. Some lenders require it as an attachment to the appraisal report when desktop or hybrid appraisal products are used.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Real Estate Photographers.](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)
-- [Best Digital Signature Tool for Remote Agency Client.](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
-- [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
+## Related Articles
+
+- [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)
+- [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Practice for Remote Accountants Handling Client Tax](/remote-work-tools/best-practice-for-remote-accountants-handling-client-tax-doc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

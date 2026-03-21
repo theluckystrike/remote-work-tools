@@ -3,6 +3,7 @@ layout: default
 title: "Endpoint Encryption Enforcement for Remote Team Laptops"
 description: "A practical guide to implementing endpoint encryption enforcement for remote team laptops on Windows and Mac. Learn configuration methods, policy"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /endpoint-encryption-enforcement-for-remote-team-laptops-wind/
 categories: [guides]
@@ -222,8 +223,6 @@ Endpoint encryption forms a critical foundation for remote team security, but it
 - Device inventory tracking with location capabilities
 
 Start with encryption enforcement as your baseline security control, then layer additional protections based on your organization's risk tolerance and regulatory requirements.
-
-
 
 
 ## Related Articles

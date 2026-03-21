@@ -3,6 +3,7 @@ layout: default
 title: "How to Incorporate as a Freelance Developer"
 description: "Incorporating as a freelance developer transforms your side hustle or solo practice into a legitimate business entity. Beyond the psychological shift of"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-incorporate-as-a-freelance-developer/
 categories: [guides]
@@ -274,7 +275,6 @@ Hire a professional if:
 - You want to minimize audit risk with perfect documentation
 
 Cost of professional help ($300-800 annually for bookkeeping + tax prep) pays for itself once you're optimizing taxes via S-corp structure.
-
 
 
 ## Related Articles

@@ -54,7 +54,7 @@ def create_zoom_meeting(topic, start_time, duration, breakout_rooms=True):
     Create a Zoom meeting with breakout room support
     """
     url = "https://api.zoom.us/v2/users/me/meetings"
-    
+
     payload = {
         "topic": topic,
         "type": 2,  # Scheduled meeting
@@ -70,12 +70,12 @@ def create_zoom_meeting(topic, start_time, duration, breakout_rooms=True):
             "mute_upon_entry": True
         }
     }
-    
+
     headers = {
         "Authorization": f"Bearer {get_access_token()}",
         "Content-Type": "application/json"
     }
-    
+
     response = requests.post(url, json=payload, headers=headers)
     return response.json()
 ```
@@ -130,9 +130,9 @@ def create_teams_meeting(topic, start_time, attendees):
         client_id="your-client-id",
         client_secret="your-client-secret"
     )
-    
+
     client = GraphServiceClient(credential)
-    
+
     meeting = {
         "subject": topic,
         "startDateTime": start_time,
@@ -143,7 +143,7 @@ def create_teams_meeting(topic, start_time, attendees):
         },
         "allowedPresenters": "organization"
     }
-    
+
     result = client.meeting.post(meeting)
     return result
 ```
@@ -214,7 +214,7 @@ BigBlueButton stands out as the only platform specifically designed for online l
 function create_bbb_room($course_id, $meeting_name) {
     $bbb_url = get_config('mod_bigbluebuttonbn', 'server_url');
     $salt = get_config('mod_bigbluebuttonbn', 'salt');
-    
+
     $params = [
         'meetingID' => uniqid(),
         'name' => $meeting_name,
@@ -223,10 +223,10 @@ function create_bbb_room($course_id, $meeting_name) {
         'voiceBridge' => rand(70000, 79999),
         'webVoice' => substr(md5($meeting_name), 0, 8),
     ];
-    
-    $api_call = $bbb_url . 'api/create?' . http_build_query($params) . '&checksum=' . 
+
+    $api_call = $bbb_url . 'api/create?' . http_build_query($params) . '&checksum=' .
                 sha1('create' . http_build_query($params) . $salt);
-    
+
     return simplexml_load_file($api_call);
 }
 ```
@@ -250,12 +250,13 @@ For most remote tutors running live group sessions, **Zoom** provides the best b
 The right choice ultimately depends on your existing tool ecosystem, technical capacity for integration work, and whether you need purpose-built education features like gradebook sync or assignment management.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
-- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
-- [Virtual Escape Room Platforms for Remote Engineering Team Events](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
+- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+- [Remote Education Plagiarism Detection Tool Comparison for](/remote-work-tools/remote-education-plagiarism-detection-tool-comparison-for-online-course-instructors/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

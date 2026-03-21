@@ -3,6 +3,7 @@ layout: default
 title: "How to Build Trust on Fully Remote Teams"
 description: "Trust is the currency of remote work. Without the ability to walk to someone's desk, tap them on the shoulder, or read body language in a meeting, remote teams"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-build-trust-on-fully-remote-teams/
 categories: [guides]
@@ -208,7 +209,6 @@ While trust is fundamentally about behavior rather than tools, certain tools hel
 - **Status pages (GitHub Status, Atlassian Statuspage):** Demonstrates operational honesty
 
 The tool choice matters less than consistent usage. Pick tools your team will actually use and commit to them.
-
 
 
 ## Related Articles

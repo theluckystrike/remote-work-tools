@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Office Badge Access Tracking Tool for Understanding"
 description: "Learn how to build a hybrid office badge access tracking system to analyze real desk use data. Practical implementation guide for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-badge-access-tracking-tool-for-understanding-a/
 categories: [guides]
@@ -59,7 +60,7 @@ class BadgeAccessClient:
     def __init__(self, api_key, base_url):
         self.api_key = api_key
         self.base_url = base_url
-    
+
     def get_events(self, start_date, end_date):
         """Fetch badge events within a date range."""
         headers = {"Authorization": f"Bearer {self.api_key}"}
@@ -74,7 +75,7 @@ class BadgeAccessClient:
             params=params
         )
         return response.json()["events"]
-    
+
     def get_unique_visitors(self, events):
         """Count unique employees who badged in."""
         return len(set(e["employee_id"] for e in events))
@@ -89,13 +90,13 @@ Once you have badge events, derive meaningful use metrics:
 ```python
 def calculate_daily_occupancy(badge_events, total_desks, date):
     """Calculate occupancy as percentage of total desks."""
-    day_events = [e for e in badge_events 
-                  if e["timestamp"].date() == date 
+    day_events = [e for e in badge_events
+                  if e["timestamp"].date() == date
                   and e["direction"] == "in"]
-    
+
     unique_visitors = len(set(e["employee_id"] for e in day_events))
     occupancy_rate = (unique_visitors / total_desks) * 100
-    
+
     return {
         "date": date,
         "unique_visitors": unique_visitors,
@@ -116,14 +117,14 @@ from collections import Counter
 def peak_hour_analysis(badge_events):
     """Find the hour with maximum arrivals."""
     arrival_hours = [
-        datetime.fromisoformat(e["timestamp"]).hour 
-        for e in badge_events 
+        datetime.fromisoformat(e["timestamp"]).hour
+        for e in badge_events
         if e["direction"] == "in"
     ]
-    
+
     hour_counts = Counter(arrival_hours)
     peak_hour, count = hour_counts.most_common(1)[0]
-    
+
     return {
         "peak_hour": peak_hour,
         "arrivals": count,
@@ -139,15 +140,15 @@ Typical patterns show peaks between 8-10 AM, but your specific data may reveal d
 def weekly_pattern(badge_events):
     """Analyze occupancy by day of week."""
     from datetime import datetime
-    
+
     days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
     day_counts = {day: 0 for day in days}
-    
+
     for event in badge_events:
         dt = datetime.fromisoformat(event["timestamp"])
         if dt.weekday() < 5:  # Weekdays only
             day_counts[days[dt.weekday()]] += 1
-    
+
     return day_counts
 ```
 
@@ -158,14 +159,14 @@ The most valuable insight comes from comparing badge swipes against desk reserva
 ```python
 def calculate_no_show_rate(badge_events, booking_events, date):
     """Calculate percentage of booked desks that went unused."""
-    booked_employees = set(b.employee_id for b in booking_events 
+    booked_employees = set(b.employee_id for b in booking_events
                            if b.date == date)
-    badge_employees = set(e.employee_id for e in badge_events 
+    badge_employees = set(e.employee_id for e in badge_events
                           if e.timestamp.date() == date)
-    
+
     no_shows = booked_employees - badge_employees
     no_show_rate = (len(no_shows) / len(booked_employees)) * 100 if booked_employees else 0
-    
+
     return {
         "date": date,
         "total_booked": len(booked_employees),
@@ -191,26 +192,26 @@ class OccupancyAnalytics:
         self.badge = badge_client
         self.booking = booking_client
         self.floor = floor_client
-    
+
     def generate_utilization_report(self, start_date, end_date):
         """Produce comprehensive occupancy report."""
         badge_events = self.badge.get_events(start_date, end_date)
-        
+
         report = {
             "period": f"{start_date} to {end_date}",
             "daily_occupancy": [],
             "peak_hours": peak_hour_analysis(badge_events),
             "weekly_pattern": weekly_pattern(badge_events)
         }
-        
+
         for date in date_range(start_date, end_date):
             daily = calculate_daily_occupancy(
-                badge_events, 
-                self.floor.total_desks, 
+                badge_events,
+                self.floor.total_desks,
                 date
             )
             report["daily_occupancy"].append(daily)
-        
+
         return report
 ```
 
@@ -239,8 +240,6 @@ Once you have the data, translate it into workplace decisions:
 Badge access tracking provides the factual foundation for hybrid workplace optimization. Rather than guessing how employees use office space, you build decisions on observed behavior.
 
 ---
-
-
 
 
 ## Related Articles

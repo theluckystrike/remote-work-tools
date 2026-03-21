@@ -3,6 +3,7 @@ layout: default
 title: "Google Scholar Chrome Extension Development Guide"
 description: "A practical guide to building and using Chrome extensions for Google Scholar. Covers Manifest V3, content scripts, and real-world implementation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /google-scholar-chrome-extension/
 reviewed: true
@@ -106,9 +107,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  observer.observe(document.body, { 
-    childList: true, 
-    subtree: true 
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
   });
 });
 ```
@@ -253,7 +254,7 @@ async function fetchCitationData(paperTitle) {
 // Usage within content script
 async function enhanceWithCitations() {
   const papers = extractPaperMetadata();
-  
+
   for (const paper of papers.slice(0, 5)) { // Limit API calls
     const citationData = await fetchCitationData(paper.title);
     if (citationData) {
@@ -311,8 +312,6 @@ When ready to publish, create a zip file of your extension and submit it to the 
 For updates, increment the version number in manifest.json and upload a new zip. Chrome automatically pushes updates to existing users.
 
 ---
-
-
 
 
 ## Related Articles

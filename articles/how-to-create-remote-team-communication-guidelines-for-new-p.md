@@ -3,6 +3,7 @@ layout: default
 title: "ADR-003: Use PostgreSQL for Primary Data Store"
 description: "A practical guide for developers and technical teams to establish effective communication protocols when launching new remote projects in 2026"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-create-remote-team-communication-guidelines-for-new-p/
 reviewed: true
@@ -116,7 +117,7 @@ With team members across multiple time zones, establish explicit overlap hours a
 // Calculate team overlap for scheduling
 const teamTimezones = [
   { name: 'Engineering Lead', offset: -8 },  // PST
-  { name: 'Senior Developer', offset: 0 },    // UTC  
+  { name: 'Senior Developer', offset: 0 },    // UTC
   { name: 'Backend Developer', offset: 5.5 }, // IST
   { name: 'QA Engineer', offset: -5 }        // EST
 ];
@@ -198,13 +199,13 @@ communication:
     production_alerts: pagerduty
     design_assets: figma
     technical_specs: confluence
-    
+
   response_times:
     critical: 15 minutes
     high: 4 hours
     normal: 24 hours
     low: 72 hours
-    
+
   required_pr_info:
     - description
     - testing steps
@@ -219,7 +220,6 @@ Communication guidelines for new projects should include a built-in review caden
 Week 1: Confirm guidelines work, make quick adjustments
 End of Month 1: Full review, incorporate lessons learned
 Quarterly: Compare with other projects, share what works
-
 
 
 ## Related Articles

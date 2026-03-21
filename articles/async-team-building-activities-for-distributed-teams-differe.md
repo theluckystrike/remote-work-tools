@@ -46,18 +46,18 @@ def generate_pairings(team_members, week_offset):
     # Sort to ensure deterministic ordering
     sorted_team = sorted(team_members)
     n = len(sorted_team)
-    
+
     # Create rotation based on week number
     offset = week_offset % (n - 1)
     pairs = []
-    
+
     for i in range(n):
         person_a = sorted_team[i]
         person_b = sorted_team[(i + offset + 1) % n]
         # Only add each pair once
         if i < (n - 1) // 2 + 1:
             pairs.append((person_a, person_b))
-    
+
     return pairs
 
 # Example usage
@@ -101,7 +101,7 @@ const winTemplate = `
 ### Personal Win
 [Your accomplishment this week - any size counts]
 
-### Team Win  
+### Team Win
 [Something your team accomplished]
 
 ### Appreciation
@@ -188,7 +188,7 @@ exchanges:
     skill_b: "css-animations"
     duration: "4 weeks"
     cadence: "bi-weekly 30min async exchange"
-    
+
   - participant_a: "senior-dev"
     participant_b: "junior-dev"
     skill_a: "system-design"
@@ -215,12 +215,13 @@ The goal isn't to fill every moment with structured interaction. Rather, create 
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
-- [How to Run Async Book Clubs for Distributed Engineering.](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
+- [Virtual Team Building Activities That Developers Actually — Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
+- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

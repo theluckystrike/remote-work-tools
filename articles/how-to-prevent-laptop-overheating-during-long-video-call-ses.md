@@ -3,6 +3,7 @@ layout: default
 title: "How to Prevent Laptop Overheating During Long Video Call"
 description: "Practical techniques and developer tools to prevent laptop overheating during extended video calls. Monitor temps, optimize resources, and stay cool"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-laptop-overheating-during-long-video-call-ses/
 categories: [guides]
@@ -108,11 +109,11 @@ while true; do
     else
         sensors | grep -A1 "CPU" | head -3
     fi
-    
+
     echo ""
     echo "=== Top CPU Users ==="
     ps -eo pcpu,pid,comm --sort=-pcpu | head -6
-    
+
     sleep 5
 done
 ```
@@ -275,7 +276,6 @@ For developers with regular long calls, create a shell alias for quick setup:
 # Add to .zshrc or .bashrc
 alias call-mode='osascript -e "set volume output volume 40"; istats fan min 3000; echo "Call mode activated"'
 ```
-
 
 
 ## Related Articles

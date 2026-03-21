@@ -3,6 +3,7 @@ layout: default
 title: "How to Support Neurodivergent Remote Workers"
 description: "Support neurodivergent remote workers by implementing async-first communication with clear response windows, structuring tasks into small steps with explicit"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-support-neurodivergent-remote-workers/
 categories: [guides]
@@ -302,7 +303,6 @@ Managers need training to support neurodivergent team members effectively. Key t
 **Avoiding burnout triggers:** Neurodivergent employees often burnout from cumulative small stressors rather than single major crises. Identify and reduce: excessive context-switching, open-office noise, unclear priorities, constant schedule changes.
 
 **Ongoing learning:** Neurodiversity isn't simple. Managers should read recent research, take certification courses, and continuously educate themselves rather than assuming outdated stereotypes.
-
 
 
 ## Related Articles

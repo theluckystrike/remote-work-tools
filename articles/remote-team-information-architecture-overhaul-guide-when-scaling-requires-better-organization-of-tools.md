@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Information Architecture Overhaul Guide When"
 description: "A practical guide for developers and power users on reorganizing remote team tool ecosystems as teams grow. Includes implementation patterns, code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/
 categories: [guides]
@@ -121,24 +122,24 @@ VALID_VALUES = {
 def validate_front_matter(file_path):
     with open(file_path, 'r') as f:
         content = f.read()
-    
+
     if '---' not in content:
         return True  # Skip files without front matter
-    
+
     parts = content.split('---')
     if len(parts) < 3:
         return True
-    
+
     try:
         metadata = yaml.safe_load(parts[1])
     except:
         return True
-    
+
     for field in REQUIRED_FIELDS:
         if field not in metadata:
             print(f"Missing required field '{field}' in {file_path}")
             return False
-    
+
     return True
 
 if __name__ == '__main__':
@@ -164,7 +165,7 @@ import { WebClient } from '@slack/web-api';
 async function updateTeamIndex() {
   const notion = new Client(process.env.NOTION_KEY);
   const slack = new WebClient(process.env.SLACK_TOKEN);
-  
+
   // Fetch recently updated engineering docs
   const docs = await notion.databases.query({
     database_id: process.env.DOCS_DATABASE_ID,
@@ -175,12 +176,12 @@ async function updateTeamIndex() {
     sorts: [{ property: 'last_edited_time', direction: 'descending' }],
     page_size: 10
   });
-  
+
   // Generate index update message
-  const indexMessage = docs.results.map(doc => 
+  const indexMessage = docs.results.map(doc =>
     `- ${doc.properties.name.title[0].plain_text}: ${doc.url}`
   ).join('\n');
-  
+
   // Post to team channel
   await slack.chat.postMessage({
     channel: '#eng-documentation',
@@ -204,8 +205,6 @@ This architecture documentation should live in a dedicated location and include 
 After implementing these changes, track specific metrics to confirm improvement. Measure time-to-find for common information types through periodic surveys. Track documentation contribution rates. Monitor channel creation rates and channel cleanup activity. New team member onboarding time should decrease measurably when information architecture works correctly.
 
 An information architecture overhaul is not an one-time project but an ongoing practice. As your team continues scaling, revisit these structures quarterly and adjust based on usage patterns and emerging needs.
-
-
 
 
 ## Related Articles

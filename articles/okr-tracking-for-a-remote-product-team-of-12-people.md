@@ -3,6 +3,7 @@ layout: default
 title: "OKR Tracking for a Remote Product Team of 12 People"
 description: "A practical guide to implementing and tracking OKRs for a distributed product team of 12. Includes tooling suggestions, automation examples, and real"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /okr-tracking-for-a-remote-product-team-of-12-people/
 categories: [guides]
@@ -119,7 +120,7 @@ jobs:
             --state closed \
             --json number,title \
             --jq '. | length'
-        
+
       - name: Update NotionKR
         run: |
           # Update current value in Notion database
@@ -178,7 +179,6 @@ The connection between daily tasks and quarterly objectives often breaks in remo
 - Celebrating KR progress in team channels
 
 A 12-person team has an advantage here: small enough that direct communication can fill gaps, but large enough to need structure. Use weekly async updates as your primary coordination mechanism, and reserve synchronous meetings for quarterly planning and retro.
-
 
 
 ## Related Articles

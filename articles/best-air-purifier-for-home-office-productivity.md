@@ -93,18 +93,18 @@ def check_air_quality():
     """Check office air quality and log to console."""
     api_key = os.getenv('AIR_QUALITY_API_KEY')
     location = os.getenv('OFFICE_LOCATION')
-    
+
     response = requests.get(
         f"https://api.airquality.com/v2/current",
         params={"key": api_key, "location": location}
     )
-    
+
     data = response.json()
     pm25 = data['data']['pm25']
     aqi = data['data']['aqi']
-    
+
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
+
     if aqi > 50:
         print(f"[{timestamp}] ⚠️  Air quality degraded: AQI={aqi}, PM2.5={pm25}µg/m³")
     else:
@@ -126,7 +126,7 @@ const client = mqtt.connect('mqtt://localhost:1883')
 setInterval(() => {
   const pm25 = readPM25Sensor() // Your sensor reading function
   const aqi = calculateAQI(pm25)
-  
+
   client.publish('office/air/quality', JSON.stringify({
     pm25: pm25,
     aqi: aqi,
@@ -221,12 +221,14 @@ if __name__ == "__main__":
         print(f"✓ Filter OK: {remaining} days remaining")
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Home Office Lighting Setup for Productivity: A Developer's Guide](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
-- [Natural Light Optimization for Home Office: A Developer's Guide](/remote-work-tools/natural-light-optimization-for-home-office/)
-- [Desk Organizer and Storage for Home Office 2026: A Developer's Guide](/remote-work-tools/desk-organizer-and-storage-for-home-office-2026/)
+## Related Articles
+
+- [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)
+- [Home Office Air Circulation Fan That Is Quiet for Calls](/remote-work-tools/home-office-air-circulation-fan-that-is-quiet-for-calls/)
+- [How to Cool Home Office Without Air Conditioning During](/remote-work-tools/how-to-cool-home-office-without-air-conditioning-during-summer/)
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

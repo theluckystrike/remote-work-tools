@@ -3,6 +3,7 @@ layout: default
 title: "How to Scale Remote Team From 5 to 20 Without Losing"
 description: "A practical guide for developers and technical leads on scaling remote teams from 5 to 20 people while preserving startup culture, communication speed"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-from-5-to-20-without-losing-startup/
 categories: [guides]
@@ -112,12 +113,12 @@ rituals:
     platform: slack
     time: "09:00 UTC"
     format: "wins | blockers | plans"
-  
+
   sync_demo:
     frequency: biweekly
     duration: 60 minutes
     rotation: alphabetical
-  
+
   coffee_chat:
     frequency: weekly
     pairs: random
@@ -185,7 +186,6 @@ const scalingMetrics = {
   }
 };
 ```
-
 
 
 ## Related Articles

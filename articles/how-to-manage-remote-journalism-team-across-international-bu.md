@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Remote Journalism Team Across International"
 description: "A practical technical guide for managing distributed journalism teams across global bureaus with async workflows, shared tools, and time zone optimization"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-manage-remote-journalism-team-across-international-bu/
 categories: [guides]
@@ -327,7 +328,6 @@ Track these metrics to understand if your async workflows are actually working:
 - **Editor satisfaction:** Quarterly survey on how smoothly stories flow through bureaus
 
 If cycle times increase or blocking incidents spike, your async infrastructure isn't working. Tighten your handoff checklist, add more specific story templates, or increase overlap sync calls.
-
 
 
 ## Related Articles

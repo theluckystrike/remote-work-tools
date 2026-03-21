@@ -3,6 +3,7 @@ layout: default
 title: "GitHub Actions Workflow for Remote Dev Teams"
 description: "Set up GitHub Actions CI/CD workflows for remote engineering teams: PR checks, automated deploys, Slack notifications, and environment-per-branch previews."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /github-actions-remote-dev-workflow/
 categories: [guides]
@@ -355,14 +356,13 @@ gh secret set DATABASE_URL --env production --body "postgresql://..."
 ```
 
 
-
 ## Related Articles
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [GitHub Pull Request Workflow for Distributed Teams](/remote-work-tools/github-pull-request-workflow-for-distributed-teams/)
 - [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

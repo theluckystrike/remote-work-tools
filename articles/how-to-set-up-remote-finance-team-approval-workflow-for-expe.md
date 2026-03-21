@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Finance Team Approval Workflow for"
 description: "Managing expense report approvals across distributed finance teams presents unique challenges. When your team spans multiple time zones, waiting for"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-finance-team-approval-workflow-for-expe/
 categories: [guides]
@@ -47,7 +48,7 @@ interface ExpenseReport {
   approvalHistory: ApprovalRecord[];
 }
 
-type ExpenseStatus = 
+type ExpenseStatus =
   | 'draft'
   | 'pending_manager'
   | 'manager_approved'
@@ -67,7 +68,7 @@ The key to keeping async workflows moving is timely notifications. Set up trigge
 // Example: Notification trigger on status change
 function notifyApprover(expenseReport) {
   const approver = getApproverForStage(expenseReport.status);
-  
+
   const message = {
     channel: approver.slackId,
     text: `Expense report #${expenseReport.id} needs your review`,
@@ -103,7 +104,7 @@ function notifyApprover(expenseReport) {
       }
     ]
   };
-  
+
   slackClient.chat.postMessage(message);
 }
 ```
@@ -127,11 +128,11 @@ function checkApprovalTimeouts() {
   const pendingExpenses = db.expenses.find({
     status: { $in: ['pending_manager', 'pending_finance'] }
   });
-  
+
   for (const expense of pendingExpenses) {
     const hoursWaiting = (Date.now() - expense.lastNotificationAt) / 3600000;
     const slaHours = expense.status === 'pending_manager' ? 24 : 48;
-    
+
     if (hoursWaiting > slaHours) {
       escalateExpense(expense);
     }
@@ -155,22 +156,22 @@ const expensePolicy = {
 
 function validateExpense(expense) {
   const violations = [];
-  
+
   // Check receipt requirement
   if (expense.amount >= expensePolicy.requiresReceipt && !expense.receiptUrl) {
     violations.push('Receipt required for expenses over $50');
   }
-  
+
   // Check category limits
   if (expense.category === 'meals' && expense.amount > expensePolicy.dailyMealLimit) {
     violations.push(`Meal expense exceeds $${expensePolicy.dailyMealLimit} daily limit`);
   }
-  
+
   // Check preapproval requirement
   if (expensePolicy.requiresPreapproval.includes(expense.category) && !expense.preapproved) {
     violations.push(`${expense.category} expenses require preapproval`);
   }
-  
+
   return violations;
 }
 ```
@@ -210,7 +211,7 @@ Rejections frustrate employees, especially when feedback is vague. Structure rej
 ```javascript
 function rejectExpense(expense, approver, reason) {
   const policyReference = getPolicySection(reason.category);
-  
+
   expense.status = 'rejected';
   expense.rejection = {
     by: approver.id,
@@ -219,7 +220,7 @@ function rejectExpense(expense, approver, reason) {
     policyReference: policyReference.url,
     correctedAt: null
   };
-  
+
   notifyEmployee(expense, {
     subject: `Expense Report #${expense.id} Needs Revision`,
     body: `Your expense report was not approved. ${reason.details}\n\n` +
@@ -251,13 +252,12 @@ function generateWeeklyReport() {
       rejectionCount: 0
     }) / db.expenses.count({ submittedAt: { $gte: weekAgo } })
   };
-  
+
   sendToFinanceLead(stats);
 }
 ```
 
 Review these metrics weekly. If approval times spike, investigate whether team capacity or policy confusion is causing delays.
-
 
 
 ## Related Articles

@@ -54,17 +54,17 @@ from slack_sdk import WebClient
 def export_engineer_contributions(user_id, channel_ids):
     client = WebClient(token=os.environ['SLACK_TOKEN'])
     contributions = []
-    
+
     for channel in channel_ids:
         result = client.conversations_history(
             channel=channel,
             limit=1000
         )
         contributions.extend([
-            msg for msg in result['messages'] 
+            msg for msg in result['messages']
             if msg.get('user') == user_id
         ])
-    
+
     return contributions
 ```
 
@@ -107,7 +107,7 @@ on:
     inputs:
       username:
         required: true
-        
+
 jobs:
   remove-access:
     runs-on: ubuntu-latest
@@ -115,11 +115,11 @@ jobs:
       - name: Remove from organization
         run: |
           gh org remove-member ${{ github.repository_owner }} ${{ github.event.inputs.username }}
-      
+
       - name: Revoke personal access tokens
         run: |
           gh api -X DELETE /users/${{ github.event.inputs.username }}/tokens
-      
+
       - name: Archive their repositories
         run: |
           # Script to transfer ownership to team accounts
@@ -171,11 +171,11 @@ def process_offboarding_queue(hris_client, it_client):
     """Process departures scheduled within 7 days"""
     departing = hris_client.get_departures(
         date_range=[
-            datetime.now(), 
+            datetime.now(),
             datetime.now() + timedelta(days=7)
         ]
     )
-    
+
     for employee in departing:
         # Trigger access revocation workflow
         it_client.trigger_offboarding(
@@ -217,7 +217,7 @@ Track these metrics to improve your process over time:
 Build a simple dashboard:
 
 ```sql
-SELECT 
+SELECT
   DATE(last_day) as departure_date,
   AVG(TIMESTAMPDIFF(HOUR, last_day, access_removed_at)) as hours_to_revocation,
   COUNT(*) as departures
@@ -226,12 +226,14 @@ GROUP BY DATE(last_day)
 ORDER BY departure_date DESC;
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Scale Remote Team Design System Documentation.](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-- [How to Scale Remote Team Access Management When Onboarding Many Employees Across Tools](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
-- [Best Practice for Remote Team Escalation Paths That Scale With Organizational Complexity](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+## Related Articles
+
+- [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
+- [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

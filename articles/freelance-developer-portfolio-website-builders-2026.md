@@ -3,6 +3,7 @@ layout: default
 title: "Freelance Developer Portfolio Website Builders 2026"
 description: "A practical guide to portfolio website builders for freelance developers in 2026. Compare platforms, see code examples, and learn implementation patterns"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /freelance-developer-portfolio-website-builders-2026/
 categories: [guides]
@@ -345,8 +346,6 @@ A blog helps with search visibility and demonstrates expertise, but it is not re
 Your name as a `.dev` or `.com` domain remains the clearest choice for freelancers. Avoid clever wordplay that clients will misspell. If your name is common, add your specialty: `janesmith.dev` or `janesmith-rails.dev`.
 
 ---
-
-
 
 
 ## Related Articles

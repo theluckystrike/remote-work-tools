@@ -3,6 +3,7 @@ layout: default
 title: "UPS Battery Backup for Home Office Setup 2026"
 description: "Power outages disrupt more than just your workflow—they can corrupt unfinished code, destroy hours of design work, and interrupt critical deployments. For"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /ups-battery-backup-for-home-office-setup-2026/
 categories: [guides]
@@ -113,7 +114,7 @@ For a PowerShell-centric approach, query UPS status programmatically:
 
 ```powershell
 # Check UPS battery status on Windows
-Get-CimInstance -Namespace root/wmi -ClassName BatteryStatus | 
+Get-CimInstance -Namespace root/wmi -ClassName BatteryStatus |
     Select-Object RemainingCapacity, DischargeRate, Charging
 ```
 
@@ -399,7 +400,6 @@ services:
 ```
 
 When UPS battery is low, containers have 30 seconds to commit in-flight transactions before being shut down.
-
 
 
 ## Related Articles

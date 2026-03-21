@@ -3,6 +3,7 @@ layout: default
 title: "Best Virtual Whiteboard for Remote Team Brainstorming and"
 description: "Discover the best virtual whiteboard tools for remote team brainstorming and ideation in 2026. Compare features, API integrations, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-virtual-whiteboard-for-remote-team-brainstorming-and-id/
 categories: [guides]
@@ -43,7 +44,7 @@ async function createBrainstormBoard(teamId, projectName) {
     teamId: teamId,
     description: 'Remote ideation session board'
   });
-  
+
   // Add sticky note template
   await client.boardItems.create(board.id, {
     type: 'sticky_note',
@@ -53,7 +54,7 @@ async function createBrainstormBoard(teamId, projectName) {
     height: 200,
     content: 'Add your ideas here'
   });
-  
+
   return board.id;
 }
 ```
@@ -105,7 +106,7 @@ from mural import MuralClient
 def sync_board_to_jira(board_id, jira_project):
     mural = MuralClient(api_token=process.env.MURAL_TOKEN)
     board_content = mural.boards.get_items(board_id)
-    
+
     for item in board_content['sticky_notes']:
         if item.get('status') == 'approved':
             # Create Jira issue from approved idea
@@ -304,7 +305,6 @@ For globally distributed teams, pure synchronous brainstorming disadvantages tim
 - Hours 24-32: Facilitator synthesizes top ideas for final discussion
 
 This approach ensures every geographic region contributes during their work hours.
-
 
 
 ## Related Articles

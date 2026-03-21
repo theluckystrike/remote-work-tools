@@ -3,6 +3,7 @@ layout: default
 title: "How to Run a Remote Team Demo Day Showcasing Cross-Team"
 description: "Demo days transform isolated project work into shared organizational knowledge. For remote teams, these sessions serve a dual purpose: they keep everyone"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-team-demo-day-showcasing-cross-team-projec/
 categories: [guides]
@@ -126,7 +127,7 @@ services:
     depends_on:
       - db
       - redis
-  
+
   db:
     image: postgres:15
     environment:
@@ -135,7 +136,7 @@ services:
       - POSTGRES_PASSWORD=demo
     volumes:
       - ./demo-data.sql:/docker-entrypoint-initdb.d/01-demo-data.sql
-  
+
   redis:
     image: redis:7-alpine
 ```
@@ -235,7 +236,6 @@ Set up a recurring schedule:
 Block prep time for presenters the week before. Make the schedule visible and hold people accountable to it.
 
 ---
-
 
 
 ## Related Articles

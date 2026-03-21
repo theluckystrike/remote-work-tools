@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Employment Law Differences for Remote Teams"
 description: "A practical guide to navigating employment law variations when managing remote teams across multiple EU countries. Learn compliance requirements"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-employment-law-differences-for-remote-teams-ac/
 categories: [guides]
@@ -228,7 +229,6 @@ Set a calendar reminder for quarterly compliance checks:
 - **Ignoring local holidays:** Failing to grant legally required days off creates breach liability
 - **Over-communicating after hours:** France specifically requires policies limiting after-hours contact
 - **Inadequate leave tracking:** Document usage meticulously; undergranting leave = automatic liability
-
 
 
 ## Related Articles

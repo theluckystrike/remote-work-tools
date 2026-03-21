@@ -59,10 +59,10 @@ async function getUserContext(graphClient, userId) {
   const user = await graphClient.api(`/users/${userId}`)
     .select('id,displayName,department,jobTitle,manager')
     .get();
-  
+
   const manager = await graphClient.api(`/users/${userId}/manager`)
     .get();
-  
+
   return {
     user,
     manager,
@@ -84,15 +84,15 @@ from microsoftgraph import GraphServiceClient
 async def check_desk_availability(graph_client, desk_id, date):
     """Check if desk is available given user's calendar events"""
     user_calendar = graph_client.me.calendar.events
-    
+
     start_of_day = datetime.combine(date, datetime.min.time())
     end_of_day = datetime.combine(date, datetime.max.time())
-    
+
     events = await user_calendar.get(
         filter=f"start/dateTime ge '{start_of_day.isoformat()}' "
                f"and end/dateTime le '{end_of_day.isoformat()}'"
     )
-    
+
     return len(events.value) == 0  # Desk available if no calendar conflicts
 ```
 
@@ -156,7 +156,7 @@ async function exportBookingMetrics(graphClient, startDate, endDate) {
     .expand('appointments')
     .filter(`startDateTime ge ${startDate} and endDateTime le ${endDate}`)
     .get();
-  
+
   return bookings.map(booking => ({
     date: booking.startDateTime,
     userId: booking.customerId,
@@ -217,12 +217,14 @@ Organizations with existing on-premises infrastructure often deploy hybrid desk 
 
 This pattern keeps sensitive booking data on-premises while using Microsoft 365 for identity and calendar integration.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Desk Reservation App for Hybrid Workplace](/remote-work-tools/desk-reservation-app-for-hybrid-workplace/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [Hot Desk Booking Software Comparison 2026](/remote-work-tools/hot-desk-booking-software-comparison-2026/)
 - [Meeting Room Booking System for Hybrid Office 2026](/remote-work-tools/meeting-room-booking-system-for-hybrid-office-2026/)
-- [Best Desk Sensor Technology for Hybrid Offices: Tracking.](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
-- [Best Hot Desking Software for Hybrid Offices with Under.](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
+- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

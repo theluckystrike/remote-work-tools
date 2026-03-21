@@ -87,20 +87,20 @@ Rather than interrupting live demos with questions, use async feedback channels.
 def announce_demo(demo_data):
     message = f"""
     📦 *New Product Demo: {demo_data['title']}*
-    
+
     *Engineer*: {demo_data['engineer']}
     *Team*: {demo_data['team']}
     *Duration*: {demo_data['duration_seconds']} seconds
-    
+
     🎯 Key Points:
     {chr(10).join(f"• {point}" for point in demo_data['key_points'])}
-    
+
     📺 Watch: {demo_data['recording_url']}
     🔗 PR: {demo_data['pr_link']}
-    
+
     💬 Questions? Reply in this thread!
     """
-    
+
     slack_client.chat_postMessage(
         channel=demo_data['slack_channel'],
         text=message
@@ -190,12 +190,14 @@ Even with the right format, teams run into problems:
 - Feedback silence: If no one asks questions, your demos might be too obscure or your feedback channels aren't visible enough.
 - Live session overload: The temptation to make everything live defeats the entire purpose. Keep synchronous time minimal and optional.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
-- [Best Practice for Remote Team All Hands Meeting Format.](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
-- [How to Scale Remote Team Incident Response Process From.](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+## Related Articles
+
+- [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
+- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
+- [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

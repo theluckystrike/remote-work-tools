@@ -3,6 +3,7 @@ layout: default
 title: "Return to Office Tools for Hybrid Teams: A Practical Guide"
 description: "The essential return to office tools for hybrid teams are a desk booking system with calendar integration, occupancy sensors for space use data, hybrid-ready"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /return-to-office-tools-for-hybrid-teams/
 categories: [guides]
@@ -44,7 +45,7 @@ def update_slack_status(desk_booking):
     """Update Slack status based on desk booking."""
     slack_token = os.environ.get("SLACK_TOKEN")
     emoji = ":office:" if desk_booking.location == "office" else ":house:"
-    
+
     requests.post(
         "https://slack.com/api/users.profile.set",
         headers={"Authorization": f"Bearer {slack_token}"},
@@ -107,7 +108,7 @@ async function grantOfficeAccess(booking: DeskBooking): Promise<OfficeAccess> {
     validUntil: new Date(booking.date.getTime() + 8 * 60 * 60 * 1000),
     accessLevel: "full"
   });
-  
+
   return access;
 }
 ```
@@ -340,7 +341,6 @@ Track these metrics to understand if your return-to-office program works:
 - Meeting room efficiency
 
 Monitor these monthly and adjust policies based on trends. High utilization might mean you need more desks. Low utilization might mean your core hours policy is too strict.
-
 
 
 ## Related Articles

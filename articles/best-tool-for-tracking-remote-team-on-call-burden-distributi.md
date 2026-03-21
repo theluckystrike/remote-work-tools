@@ -3,6 +3,7 @@ layout: default
 title: ".github/ISSUE_TEMPLATE/oncall-shift.md"
 description: "A practical guide for developers and power users comparing tools and methods to track and balance on-call burden across distributed remote teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-tracking-remote-team-on-call-burden-distributi/
 categories: [guides]
@@ -270,8 +271,6 @@ Yes. Being available and on standby carries a psychological cost even when no in
 
 **How do you handle on-call compensation fairly for distributed teams?**
 Some organizations pay an on-call stipend per shift. Others offer compensatory time off after high-burden periods. Document the policy explicitly and apply it consistently—ambiguous policies create more resentment than the burden itself.
-
-
 
 
 ## Related Articles

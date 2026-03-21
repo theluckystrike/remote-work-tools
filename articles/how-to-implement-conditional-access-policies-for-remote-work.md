@@ -3,6 +3,7 @@ layout: default
 title: "Using Microsoft Graph API to create named locations"
 description: "A practical guide for developers and IT professionals on implementing Azure Conditional Access policies to secure remote work environments. Includes"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-implement-conditional-access-policies-for-remote-work/
 reviewed: true
@@ -221,8 +222,6 @@ Follow these principles when rolling out Conditional Access:
 For remote teams specifically, ensure your policies account for legitimate use cases: developers traveling to conferences, employees working from coffee shops, and contractors accessing resources from various locations.
 
 ---
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Communicate Project Delays Remotely to Stakeholders"
 description: "Communicate project delays remotely to stakeholders by providing clear, structured notifications that include what changed, why it happened, your resolution"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-communicate-project-delays-remotely-to-stakeholders-w/
 categories: [guides]
@@ -153,7 +154,7 @@ from datetime import timedelta
 def generate_status_update(project_name, milestones, blockers, next_steps):
     today = datetime.date.today()
     week_ago = today - timedelta(days=7)
-    
+
     update = f"""## {project_name} - Status Update
 **Week of:** {today.strftime('%B %d, %Y')}
 
@@ -161,13 +162,13 @@ def generate_status_update(project_name, milestones, blockers, next_steps):
 """
     for milestone in milestones.get('completed', []):
         update += f"- {milestone}\n"
-    
+
     update += """
 ### In Progress
 """
     for milestone in milestones.get('in_progress', []):
         update += f"- {milestone}\n"
-    
+
     update += """
 ### Blockers
 """
@@ -177,13 +178,13 @@ def generate_status_update(project_name, milestones, blockers, next_steps):
             update += f"[Jira: {blocker['ticket']}]\n"
     else:
         update += "- No active blockers\n"
-    
+
     update += """
 ### Next Steps
 """
     for step in next_steps:
         update += f"- {step}\n"
-    
+
     return update
 
 # Example usage
@@ -226,7 +227,6 @@ For teams that handle multiple projects, create a standardized workflow for dela
 5. Regular updates: Provide status updates on at least a weekly basis until the project returns to its original timeline or a new one is agreed upon.
 
 This workflow scales whether you are managing one project or dozens. The key is acting deliberately rather than reacting after the fact.
-
 
 
 ## Related Articles

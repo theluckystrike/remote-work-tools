@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Team Async Daily Check In Format Replacing"
 description: "Learn the most effective async daily check-in format for remote teams. Replace synchronous standups with structured asynchronous updates that boost"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-team-async-daily-check-in-format-replacing-standup-meetings/
 categories: [guides]
@@ -151,7 +152,7 @@ def post_daily_reminder():
               "2. Yesterday I completed:\n" \
               "3. Blockers:\n" \
               "4. Notes:"
-    
+
     client.chat_postMessage(channel=CHANNEL_ID, text=message)
 
 if __name__ == "__main__":
@@ -190,12 +191,14 @@ Move to async check-ins gradually. Start by making standups async for one day pe
 
 Expect an adjustment period of two to three weeks. Team members need time to develop the habit of writing updates and reading others' updates.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Replace Daily Standups with Async Text Updates.](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+## Related Articles
+
 - [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [Best Format for Remote Team Weekly Written Status Update.](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
+- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Social Security Contributions When Working"
 description: "Working remotely from an EU country for a few months creates complex social security questions that many developers and power users overlook. The rules around"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-social-security-contributions-when-working-remotely-from-eu-country-temporarily/
 categories: [guides]
@@ -54,27 +55,27 @@ import json
 class EUDayTracker:
     def __init__(self):
         self.work_days = defaultdict(list)
-    
+
     def add_day(self, country_code: str, date: datetime = None):
         """Record a day worked in a specific country."""
         if date is None:
             date = datetime.now().date()
         self.work_days[country_code].append(date.isoformat())
-    
+
     def days_in_country(self, country_code: str) -> int:
         """Return total days worked in a specific country."""
         return len(self.work_days[country_code])
-    
+
     def days_in_last_90(self, country_code: str) -> int:
         """Return days worked in the last 90 days for a country."""
         cutoff = (datetime.now() - timedelta(days=90)).date()
         recent_days = [
-            datetime.fromisoformat(d).date() 
+            datetime.fromisoformat(d).date()
             for d in self.work_days[country_code]
             if datetime.fromisoformat(d).date() >= cutoff
         ]
         return len(recent_days)
-    
+
     def status(self, country_code: str) -> dict:
         """Check social security status for a country."""
         days = self.days_in_last_90(country_code)
@@ -90,12 +91,12 @@ class EUDayTracker:
 # Example usage
 if __name__ == "__main__":
     tracker = EUDayTracker()
-    
+
     # Simulate adding work days
     tracker.add_day("PT", datetime(2026, 1, 15))
     tracker.add_day("PT", datetime(2026, 1, 16))
     tracker.add_day("PT", datetime(2026, 1, 17))
-    
+
     status = tracker.status("PT")
     print(f"Portugal: {status['days_last_90']}/90 days used")
     print(f"Action required: {status['requires_action']}")
@@ -178,7 +179,6 @@ Complex situations benefit from professional guidance:
 - You have residency applications pending in any EU country
 
 A social security consultant or international tax advisor can review your specific situation and ensure you're compliant. The cost of professional advice typically far outweighs the potential penalties and stress of non-compliance.
-
 
 
 ## Related Articles

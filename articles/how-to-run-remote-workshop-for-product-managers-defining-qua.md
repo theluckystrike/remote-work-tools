@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Workshop for Product Managers Defining"
 description: "A practical guide for product managers running remote workshops to define quarterly OKRs. Includes templates, help scripts, and actionable steps"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-workshop-for-product-managers-defining-qua/
 categories: [guides]
@@ -188,14 +189,13 @@ The workshop ends, but the work continues. Within 24 hours:
 **Missing check-in cadence.** OKRs fail when teams only look at them during quarterly planning. Build regular review moments into your workflow.
 
 
-
 ## Related Articles
 
 - [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
 - [How to Run Effective Remote One-on-One Meetings](/remote-work-tools/how-to-run-effective-remote-one-on-one-meetings-engineering-managers/)
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
 - [Virtual Craft Workshop Ideas for Remote Team Creative](/remote-work-tools/virtual-craft-workshop-ideas-for-remote-team-creative-bondin/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

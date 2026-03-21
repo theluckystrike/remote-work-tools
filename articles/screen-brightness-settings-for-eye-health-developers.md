@@ -3,6 +3,7 @@ layout: default
 title: "Screen Brightness Settings for Eye Health"
 description: "Learn how to configure screen brightness settings for eye health as a developer. Practical tips, code examples, and tools to reduce eye strain during"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /screen-brightness-settings-for-eye-health-developers/
 reviewed: true
@@ -93,19 +94,19 @@ import sys
 def get_recommended_brightness():
     """Return brightness level based on time of day"""
     hour = datetime.datetime.now().hour
-    
+
     # Early morning (6-8): Slightly dim
     if 6 <= hour < 8:
         return 0.4
-    
+
     # Daytime (8-18): Full brightness
     elif 8 <= hour < 18:
         return 1.0
-    
+
     # Evening (18-21): Reduced brightness
     elif 18 <= hour < 21:
         return 0.6
-    
+
     # Night (21-6): Lowest brightness
     else:
         return 0.3
@@ -225,7 +226,6 @@ You can also create your own automation using cron jobs or launch agents:
 # crontab entry to adjust brightness every hour
 0 * * * * /path/to/brightness_script.py
 ```
-
 
 
 ## Related Articles

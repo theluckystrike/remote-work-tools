@@ -43,12 +43,12 @@ signoff_categories:
     required_approvers: 1
     timeout_hours: 4
     slack_channel: "#qa-hotfix"
-    
+
   feature:
     required_approvers: 2
     timeout_hours: 24
     slack_channel: "#qa-features"
-    
+
   routine:
     required_approvers: 1
     timeout_hours: 48
@@ -91,7 +91,7 @@ Use a structured comment format to make async feedback actionable. Here's a temp
 ```markdown
 ### QA Review: [Feature Name]
 
-**Reviewer**: @username  
+**Reviewer**: @username
 **Date**: YYYY-MM-DD
 
 #### Findings
@@ -124,14 +124,14 @@ from github import Github
 def check_pending_signoffs():
     g = Github(os.environ['GITHUB_TOKEN'])
     repo = g.get_repo("your-org/your-repo")
-    
+
     open_prs = repo.get_pulls(state='open')
-    
+
     for pr in open_prs:
         # Check if PR needs QA review
         if "needs-qa" in [l.name for l in pr.get_labels()]:
             age = datetime.datetime.now() - pr.created_at
-            
+
             if age.hours > 24:
                 # Send reminder after 24 hours
                 print(f"Reminder: {pr.title} pending QA for {age.days} days")
@@ -155,7 +155,7 @@ Document disagreements and their resolution in the PR for future reference:
 **Issue**: Button color contrast does not meet WCAG AA standards
 
 - @reviewer1 (2026-03-14): The current #4A90D9 fails contrast ratio. Need #2E6DA4 or higher.
-- @developer (2026-03-14): The darker shade looks too similar to secondary buttons. 
+- @developer (2026-03-14): The darker shade looks too similar to secondary buttons.
 - @reviewer1 (2026-03-14): What about #1E5F8C? Passes AA and distinguishable from #3A7BC8.
 - @developer (2026-03-15): Tested #1E5F8C - works well. Updating now.
 
@@ -214,12 +214,14 @@ Review these metrics weekly during your release retrospective and iterate on you
 
 Several patterns undermine async QA effectiveness. First, unclear acceptance criteria lead to ambiguous feedback—always define what "done" looks like before requesting review. Second, excessive reviewers create coordination overhead—two reviewers typically suffice for feature PRs. Third, ignoring time zone considerations when assigning reviewers causes delays—distribute review requests across regions. Fourth, bypassing the async process during time pressure defeats the purpose—protect the process even during crunch periods.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Product Discovery Process for Remote Teams Using.](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

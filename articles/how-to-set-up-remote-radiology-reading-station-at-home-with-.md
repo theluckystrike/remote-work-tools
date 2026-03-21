@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Radiology Reading Station at Home with"
 description: "A technical guide for radiologists and healthcare IT professionals setting up home PACS workstations. Covers hardware requirements, network"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-radiology-reading-station-at-home-with-/
 categories: [guides]
@@ -66,17 +67,17 @@ Workstation Specifications:
     minimum: Intel i7-12700K or AMD Ryzen 7 5800X
     recommended: Intel i9-13900K or AMD Ryzen 9 7950X
     reasoning: Multi-core performance for simultaneous hanging protocols
-    
+
   GPU:
     minimum: NVIDIA RTX 3070 with 8GB VRAM
     recommended: NVIDIA RTX 4090 with 24GB VRAM
     reasoning: GPU acceleration for 3D reconstructions
-    
+
   RAM:
     minimum: 32GB DDR4/DDR5
     recommended: 64GB DDR5
     reasoning: Large dataset loading and hanging protocol management
-    
+
   Storage:
     primary: NVMe SSD 1TB (operating system, applications)
     secondary: NVMe SSD 2TB+ (local image cache)
@@ -108,12 +109,12 @@ def calculate_recommended_speed(study_types):
         "MRI": 3.0,
         "mammo": 2.5
     }
-    
+
     base_speed = sum(
-        weights.get(study, 1.0) * 50 
+        weights.get(study, 1.0) * 50
         for study in study_types
     )
-    
+
     # Add 50% margin for headroom
     return base_speed * 1.5
 ```
@@ -151,19 +152,19 @@ Required Security Controls:
     - Dedicated VPN with MFA
     - Firewall enabled (hardware or software)
     - No port forwarding to workstation
-    
+
   Endpoint Security:
     - Full-disk encryption (BitLocker/FileVault)
     - Current antivirus/anti-malware
     - Automatic security updates
     - Screen lock timeout (5 minutes max)
-    
+
   Physical Security:
     - Locked office/room
     - Privacy screen on display
     - Secure cable locks for equipment
     - No shared family computers
-    
+
   Access Control:
     - Unique user account (not shared)
     - Strong password policy
@@ -221,7 +222,6 @@ Challenge: Display calibration drift
 Challenge: Family member internet usage impacting performance
 
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
-
 
 
 ## Related Articles

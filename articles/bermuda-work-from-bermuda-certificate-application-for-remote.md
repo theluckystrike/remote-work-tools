@@ -103,7 +103,7 @@ class BermudaTaxConsiderations:
     def __init__(self, home_country, income_type):
         self.home_country = home_country
         self.income_type = income_type
-        
+
     def check_tax_obligations(self):
         tax_rules = {
             "US": "Citizen-based taxation - owe US tax on global income",
@@ -112,7 +112,7 @@ class BermudaTaxConsiderations:
             "EU_countries": "Varies by country - check bilateral treaties"
         }
         return tax_rules.get(self.home_country, "Consult tax professional")
-    
+
     def bermuda_benefits(self):
         return [
             "No local income tax in Bermuda",
@@ -201,12 +201,14 @@ Your Work From Bermuda certificate is valid for one year. Renewal requires:
 
 After five years of continuous residence, you may apply for Bermudian status, though this involves additional requirements and a separate application process.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
-- [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
-- [Malaysia Digital Nomad Pass DE Rantau Application for.](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+## Related Articles
+
+- [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)
+- [Remote Team Runbook Template for SSL Certificate Renewal](/remote-work-tools/remote-team-runbook-template-for-ssl-certificate-renewal-pro/)
+- [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
+- [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
+- [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

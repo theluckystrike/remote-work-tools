@@ -3,6 +3,7 @@ layout: default
 title: "Format: INV-2026-0001"
 description: "Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-open-business-bank-account-as-remote-freelancer-livin/
 categories: [guides]
@@ -335,7 +336,6 @@ Don't over-complicate this initially. Sole trader is correct for 95% of freelanc
 - [ ] List of expected monthly transactions prepared (helps bank understand your profile)
 
 Having all these prepared means your appointment takes 20 minutes instead of being rescheduled for missing documents.
-
 
 
 ## Related Articles

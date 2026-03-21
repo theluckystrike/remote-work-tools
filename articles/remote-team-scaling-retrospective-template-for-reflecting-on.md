@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Scaling Retrospective Template for Reflecting"
 description: "A practical quarterly retrospective template designed for remote teams navigating scaling challenges. Includes actionable categories, help"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-scaling-retrospective-template-for-reflecting-on/
 categories: [guides]
@@ -218,8 +219,6 @@ Track whether your actions actually improve things:
 - Has team sentiment improved since implementing changes?
 
 If you're seeing progress, your retrospective process is working. If not, adjust the format, prompts, or help until it drives real change.
-
-
 
 
 ## Related Articles

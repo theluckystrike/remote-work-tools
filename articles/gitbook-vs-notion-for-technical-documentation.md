@@ -3,6 +3,7 @@ layout: default
 title: "GitBook vs Notion for Technical Documentation"
 description: "Choose GitBook if you want Git-based version control, explicit release versioning, and structured API reference documentation generated from OpenAPI specs"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /gitbook-vs-notion-for-technical-documentation/
 reviewed: true
@@ -464,8 +465,6 @@ Notion performance characteristics:
 For documentation serving thousands of daily users, GitBook's static generation is superior. For internal documentation serving 20-30 team members, Notion's speed is perfectly acceptable.
 
 ---
-
-
 
 
 ## Related Articles

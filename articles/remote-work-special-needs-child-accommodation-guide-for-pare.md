@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Special Needs Child Accommodation Guide for"
 description: "A practical guide for developers and remote workers parenting children with special needs. Learn accommodation strategies, communication frameworks"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-special-needs-child-accommodation-guide-for-parents/
 categories: [guides]
@@ -104,14 +105,14 @@ SENSORY_BREAK=10
 while true; do
   echo "Focus session: $WORK_DURATION minutes"
   sleep $((WORK_DURATION * 60))
-  
+
   # Check-in sound (gentle, not startling)
   play-sound "gentle-chime.mp3"
-  
+
   # Child checks in if available
   echo "Focus session complete. Check in needed?"
   read -t 60 response || response="continue"
-  
+
   if [ "$response" = "break" ]; then
     echo "Sensory break: $SENSORY_BREAK minutes"
     sleep $((SENSORY_BREAK * 60))
@@ -172,7 +173,7 @@ When estimating delivery timelines, explicitly account for potential disruptions
 ```markdown
 **Feature Estimate:**
 - Technical implementation: 3 days
-- Code review buffer: 1 day  
+- Code review buffer: 1 day
 - Contingency for interruptions: 1.5 days
 - **Total commitment: 5.5 days** (vs. 4 days ideal case)
 ```
@@ -205,8 +206,6 @@ This work requires sustainable systems, not just crisis management. Schedule rec
 Remote work accommodations for special needs children aren't about working less—they're about working differently. The flexibility of distributed teams makes this possible when you build the right systems and communicate transparently.
 
 ---
-
-
 
 
 ## Related Articles

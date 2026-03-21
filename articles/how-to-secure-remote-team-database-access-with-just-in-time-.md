@@ -3,6 +3,7 @@ layout: default
 title: "teleport-db-config.yaml"
 description: "Learn how to implement just-in-time database access for remote teams. Practical examples, code snippets, and implementation guide for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-secure-remote-team-database-access-with-just-in-time-/
 categories: [guides]
@@ -126,14 +127,14 @@ import boto3
 def get_temp_db_credentials(db_resource_id, duration_minutes=60):
     """Generate temporary database credentials via IAM"""
     client = boto3.client('rds')
-    
+
     response = client.generate_db_auth_token(
         DBHostname=f"{db_resource_id}.xyz.rds.amazonaws.com",
         Port=5432,
         DBUsername='db_user',
         DurationSeconds=duration_minutes * 60
     )
-    
+
     return {
         'token': response,
         'expires_in': duration_minutes * 60
@@ -199,7 +200,7 @@ These logs support compliance requirements for SOC 2, HIPAA, and GDPR. Export lo
 
 ```sql
 -- Example audit query: identify after-hours database access
-SELECT 
+SELECT
     user_name,
     database_name,
     request_time,
@@ -220,7 +221,6 @@ Document the request process clearly. Remote teams span time zones—ensure deve
 Balance security with velocity. If developers cannot access databases quickly during incidents, they'll find workarounds. Set reasonable TTLs and ensure approvers understand on-call scenarios.
 
 Review access patterns regularly. Even with JIT, some users may accumulate excessive access over time. Periodic audits ensure the system continues to align with actual needs.
-
 
 
 ## Related Articles

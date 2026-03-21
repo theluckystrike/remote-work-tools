@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Meeting Agenda Template for Weekly Sync Under"
 description: "A practical guide and ready-to-use template for running efficient 30-minute weekly sync meetings with remote development teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-meeting-agenda-template-for-weekly-sync-under-30/
 categories: [guides]
@@ -348,7 +349,6 @@ Track these metrics to identify when your meeting format needs adjustment:
 | Team satisfaction | 4/5 or higher | Monthly 2-question survey |
 
 If participation drops below 80% or blocker resolution stalls, something's wrong with your format. Usually: meeting is too long (fatigue), agenda isn't clear (people unprepared), or blockers aren't real (people stopped bringing genuine issues).
-
 
 
 ## Related Articles

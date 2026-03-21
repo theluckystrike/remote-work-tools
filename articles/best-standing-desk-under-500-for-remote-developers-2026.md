@@ -3,6 +3,7 @@ layout: default
 title: "Best Standing Desk Under $500 for Remote Developers 2026"
 description: "Compare standing desks under $500: Flexispot E7, UPLIFT V2, Fully Jarvis, IKEA Bekant. Motor specs, weight capacity, warranty, and real measurements"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /best-standing-desk-under-500-for-remote-developers-2026/
 categories: [guides]
@@ -303,8 +304,12 @@ tail -10 ~/standing-log.txt
 ```
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Standing Desk Converters Under $300 for Developers](/remote-work-tools/best-standing-desk-converters-under-300-for-developers/)
+- [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)
+- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
+- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

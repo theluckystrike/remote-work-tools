@@ -3,6 +3,7 @@ layout: default
 title: "Example room configuration"
 description: "A technical guide to building hybrid meeting rooms where remote participants get the same experience as in-room attendees. Covers AV setup, software"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/
 categories: [guides]
@@ -44,7 +45,7 @@ room:
     length: 6m
     width: 5m
     height: 3m
-  
+
   audio:
     microphones:
       - type: ceiling_array
@@ -52,12 +53,12 @@ room:
         coverage_pattern: cardioid
         quantity: 2
         placement: "diagonal corners, 2.5m apart"
-    
+
     speakers:
       - type: directional
         placement: "front wall, aimed at seating area"
         quantity: 2
-    
+
     processing:
       - echo_cancellation: true
       - noise_suppression: "AI-powered"
@@ -131,7 +132,7 @@ Dedicate a separate network segment for meeting room equipment:
 # Create VLAN for meeting room devices
 vlan 100
   name "Meeting_Room_AV_Equipment"
-  
+
 # QoS configuration for video traffic
 qos-map video
   dscp 46 (EF - Expedited Forwarding)
@@ -189,19 +190,19 @@ def check_room_availability(room_id, start_time, duration):
         f"https://room-api.example.com/rooms/{room_id}/capabilities"
     )
     room = response.json()
-    
+
     required_capabilities = [
         "video_conf",
-        "screen_share", 
+        "screen_share",
         "whiteboard_camera",
         "dedicated_mic"
     ]
-    
+
     available = all(
-        cap in room["capabilities"] 
+        cap in room["capabilities"]
         for cap in required_capabilities
     )
-    
+
     return available and room["bookings"][start_time] is None
 ```
 
@@ -255,7 +256,6 @@ Even well-designed hybrid rooms fail when teams overlook these issues:
 - Insufficient lighting: Remote participants cannot see faces in dark rooms. Ensure even lighting on all participants
 - Single point of failure: Have backup options for critical components like the primary camera or network connection
 - No dedicated operator: For important meetings, assign someone to manage the hybrid experience in real-time
-
 
 
 ## Related Articles

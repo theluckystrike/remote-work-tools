@@ -3,6 +3,7 @@ layout: default
 title: "Pet Friendly Digital Nomad Destinations 2026"
 description: "A practical guide to the best pet friendly destinations for digital nomads in 2026. Find pet-welcoming co-working spaces, accommodations, and visa"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /pet-friendly-digital-nomad-destinations-2026/
 reviewed: true
@@ -239,7 +240,6 @@ Factor these into your cost-of-living calculations. Some destinations, like Mexi
 4. **Choose pet-friendly coworking over co-living**: Pet-friendly coworking spaces often have fewer restrictions than co-living facilities. Compare: Private apartment ($1,500 + €150 pet) vs Coliving ($1,200 + $200 "pet fee" + communal animal stress).
 
 5. **Build vet relationships early**: Establishing relationships with local vets in your first month often grants discounts on routine care. First visit to vet, ask about membership plans or multi-visit discounts.
-
 
 
 ## Related Articles

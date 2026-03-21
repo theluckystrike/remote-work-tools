@@ -1,6 +1,7 @@
 ---
 layout: default
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 title: "Best Remote Work Webcam Lighting Setup Under $100 (2026)"
 description: "Compare affordable webcam lighting solutions for home offices. Includes real product names, prices, lux measurements, and color temperature comparisons."
@@ -387,14 +388,16 @@ For remote workers, a $40-75 lighting investment yields immediate professional i
 
 Test any lighting setup by recording a 30-second video call before and after. The difference in perceived professionalism is immediately obvious and makes the investment worthwhile.
 
-## Related Reading
-
-- [Best Home Office Equipment Setup Guide](https://guides-hub.dev/home-office-setup/)
-- [Video Call Background Guide and Tips](https://guides-hub.dev/video-call-backgrounds/)
-- [Monitor Setup for Remote Work Health](https://guides-hub.dev/remote-monitor-setup/)
-- [Ergonomic Desk Lighting for Eye Strain Prevention](https://guides-hub.dev/desk-lighting-ergonomics/)
-
 ---
+
+
+## Related Articles
+
+- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Webcam for Remote Work Under 100 Dollars 2026](/remote-work-tools/best-webcam-for-remote-work-under-100-dollars-2026/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

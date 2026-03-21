@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Compliant Offer Letter for International"
 description: "A practical guide to creating legally compliant offer letters for international remote workers. Includes templates, key clauses, and country-specific"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-compliant-offer-letter-for-international-remot/
 categories: [guides]
@@ -38,7 +39,7 @@ def classify_worker(relationship_type, schedule_control, equipment_use, exclusiv
     Basic classification heuristic - consult legal for final determination
     """
     score = 0
-    
+
     if relationship_type == "exclusive":
         score += 2
     if schedule_control == "company_defined":
@@ -47,7 +48,7 @@ def classify_worker(relationship_type, schedule_control, equipment_use, exclusiv
         score += 1
     if exclusivity == "full_time":
         score += 2
-    
+
     # Score > 4 suggests employment
     return "employee" if score > 4 else "contractor"
 ```
@@ -212,7 +213,6 @@ _______________________ ____________
 _______________________ ____________
 [Company Representative] [Date]
 ```
-
 
 
 ## Related Articles

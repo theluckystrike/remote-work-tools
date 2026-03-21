@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up HIPAA Compliant Home Office for Remote"
 description: "A technical guide for setting up a HIPAA compliant home office for remote healthcare workers. Covers physical security, network configuration, access"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/
 categories: [guides]
@@ -293,7 +294,6 @@ This documentation protects you if there's ever an incident investigation—you 
 Creating a HIPAA-compliant home office requires combining physical security, network hardening, endpoint management, and secure practices into a coherent workflow. Start with the fundamentals: encrypted devices, MFA-protected access, and a secure network connection. Layer additional controls based on your specific role and the types of ePHI you access.
 
 Your IT department should provide specific guidance for your organization's environment. Use this guide to understand the underlying principles and verify that your setup addresses each HIPAA requirement. Compliance isn't an one-time configuration—it's an ongoing commitment to protecting patient information in your remote work environment.
-
 
 
 ## Related Articles

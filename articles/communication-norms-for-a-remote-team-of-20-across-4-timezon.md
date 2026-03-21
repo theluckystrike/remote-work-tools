@@ -3,6 +3,7 @@ layout: default
 title: "Communication Norms for a Remote Team of 20 Across 4"
 description: "A practical guide to establishing communication norms for a 20-person remote team spread across 4 time zones. Includes async-first workflows, tool"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /communication-norms-for-a-remote-team-of-20-across-4-timezon/
 categories: [guides]
@@ -77,9 +78,9 @@ Instead of daily standups, use a shared async format:
 ```markdown
 ## Daily Async Standup Template
 
-**Name**: 
-**Date**: 
-**Timezone**: 
+**Name**:
+**Date**:
+**Timezone**:
 
 ### What I completed yesterday
 -
@@ -88,12 +89,12 @@ Instead of daily standups, use a shared async format:
 -
 
 ### Blockers
-- 
+-
 
 ### FYI / Share with team
 -
 
-### Response by 10 AM UTC: 
+### Response by 10 AM UTC:
 - Acknowledged ✅ / Need to discuss 💬
 ```
 
@@ -110,10 +111,10 @@ For ideation sessions, use collaborative documents with structured prompts:
 **Goal**: Generate 5+ viable approaches for team review
 
 ### Approach 1: [Your Name]
-**Description**: 
-**Pros**: 
-**Cons**: 
-**Effort estimate**: 
+**Description**:
+**Pros**:
+**Cons**:
+**Effort estimate**:
 
 ### Approach 2: [Another Name]
 ...
@@ -243,7 +244,6 @@ Survey your team quarterly:
 4. How often do you feel required to be online outside work hours?
 5. What's one change that would improve our team communication?
 ```
-
 
 
 ## Related Articles

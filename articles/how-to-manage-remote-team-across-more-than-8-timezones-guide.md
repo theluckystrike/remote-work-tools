@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Remote Team Across More Than 8 Timezones Guide"
 description: "Practical guide for managing globally distributed teams spanning 8+ timezones. Covers async-first culture, overlap windows, documentation, tooling strategies"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /how-to-manage-remote-team-across-more-than-8-timezones-guide/
 categories: [guides]
@@ -371,7 +372,6 @@ Teams that execute async-first well across 8+ timezones move faster than single-
 4. **Less meeting overhead:** Team spends 5 hours/week in meetings vs. 15+ hours in traditional models
 
 The tradeoff is that building async-first culture requires discipline. It's easier to default to synchronous, easier to skip documentation, easier to call a meeting than write it up. Teams that can sustain the discipline move at remarkable speed despite (or because of) the timezone spread.
-
 
 
 ## Related Articles

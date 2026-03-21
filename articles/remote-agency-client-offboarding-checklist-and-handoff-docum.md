@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Client Offboarding Checklist and Handoff Docum"
 description: "A practical guide for developers and power users managing client offboarding. Includes checklists, templates, and code snippets for documentation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-client-offboarding-checklist-and-handoff-docum/
 categories: [guides]
@@ -205,7 +206,6 @@ Rushing the Process: Compress timelines to accommodate client requests create ga
 No Rollback Plan: If the client makes changes and systems break, they need a path to recover. Always provide rollback procedures.
 
 Forgetting Recurring Costs: Remind clients about subscriptions, renewals, and ongoing costs they may not have been aware were being managed by your team.
-
 
 
 ## Related Articles

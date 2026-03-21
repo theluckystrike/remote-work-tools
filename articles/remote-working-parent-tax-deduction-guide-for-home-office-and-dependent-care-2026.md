@@ -3,6 +3,7 @@ layout: default
 title: "Remote Working Parent Tax Deduction Guide for Home Office"
 description: "A practical guide for remote working parents on tax deductions for home offices and dependent care expenses. Learn what qualifies, how to document"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/
 categories: [guides]
@@ -76,7 +77,7 @@ For 2026, the credit covers 20% to 35% of dependent care expenses, depending on 
 def calculate_dependent_care_credit(agi, care_expenses, num_dependents):
     max_expense = 3000 if num_dependents == 1 else 6000
     eligible_expenses = min(care_expenses, max_expense)
-    
+
     # Credit percentage phases down as AGI increases
     if agi <= 15000:
         credit_percentage = 0.35
@@ -84,7 +85,7 @@ def calculate_dependent_care_credit(agi, care_expenses, num_dependents):
         credit_percentage = 0.34 - (0.01 * ((agi - 15000) / 28000))
     else:
         credit_percentage = max(0.20, 0.35 - (0.01 * ((agi - 15000) / 100000)))
-    
+
     return eligible_expenses * credit_percentage
 
 # Example calculation
@@ -120,7 +121,7 @@ touch tax-docs/2026/dependent-care/expenses.csv
 # Date,Category,Description,Amount,Receipt_File
 # 2026-01-15,Equipment,Standing desk,450.00,desk_receipt.pdf
 
-# CSV structure for dependent care  
+# CSV structure for dependent care
 # Date,Provider,Children_Covered,Amount,Receipt_File
 # 2026-01-31,Sunshine Daycare,"Emma,Liam",1200.00,january_invoice.pdf
 ```
@@ -307,7 +308,6 @@ One month before filing your return:
 4. **Check all receipts have business purpose noted** if not obvious from the expense description
 5. **Confirm your dependent care provider** has your correct taxpayer ID (for FSA reimbursement claims)
 6. **Review last year's filing** to ensure consistent claims and add explanatory notes for any changes
-
 
 
 ## Related Articles

@@ -158,7 +158,7 @@ function categorizeAnnotation(comment) {
     'spacing': ['padding', 'margin', 'gap', 'align'],
     'content': ['text', 'copy', 'word', 'heading']
   };
-  
+
   for (const [category, terms] of Object.entries(keywords)) {
     if (terms.some(term => comment.toLowerCase().includes(term))) {
       return category;
@@ -184,12 +184,14 @@ Clients sometimes expect immediate responses to annotations. Set clear SLAs for 
 
 Annotations can inadvertently expand project scope. When clients add feedback that falls outside original requirements, track these as separate items. Use annotation status fields to flag items requiring scope discussion before implementation.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
-- [Best Tools for Async Annotation and Commenting on Design.](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
-- [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
+## Related Articles
+
+- [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)
+- [Best Email Clients for Remote Productivity 2026](/remote-work-tools/best-email-clients-remote-productivity-2026/)
+- [How to Present Sprint Demos to Non-Technical Remote Clients](/remote-work-tools/how-to-present-sprint-demos-to-non-technical-remote-clients/)
+- [Best Screen Sharing Tools for Presenting Designs to Clients](/remote-work-tools/screen-sharing-tool-for-presenting-designs-to-clients-remote/)
+- [Best CRM for Solo Consultant Managing 30 Active Clients](/remote-work-tools/best-crm-for-solo-consultant-managing-30-active-clients-remo/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

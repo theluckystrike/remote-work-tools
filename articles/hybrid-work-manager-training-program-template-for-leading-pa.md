@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Work Manager Training Program Template"
 description: "Managing a team where some members work remotely while others are in-office requires a distinct skill set that traditional management training rarely"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-manager-training-program-template-for-leading-pa/
 categories: [guides]
@@ -58,14 +59,14 @@ function analyzeHybridBalance(team) {
   const inOffice = team.filter(m => m.location === 'office');
   const remote = team.filter(m => m.location === 'remote');
   const flexible = team.filter(m => m.location === 'flexible');
-  
+
   const balance = {
     inOffice: inOffice.length,
     remote: remote.length,
     flexible: flexible.length,
     distributionScore: calculateDistributionScore(team)
   };
-  
+
   return balance;
 }
 
@@ -102,17 +103,17 @@ communication_norms:
     - daily standup (15 min, video on)
     - weekly team sync (30 min)
     - 1:1s (bi-weekly, 30 min)
-  
+
   asynchronous_channels:
     - project updates: Slack thread or Notion
     - decisions: GitHub issue or project board
     - questions: Slack channel (expect response within 4 hours)
-  
+
   time_boundaries:
     core_hours: "10:00 - 15:00 UTC"
     no_meeting_fridays: true
     async_only_periods: "lunch hours per timezone"
-  
+
   response_expectations:
     urgent: "phone or immediate Slack DM"
     normal: "within 4 business hours"
@@ -175,7 +176,7 @@ def run_round_robin(participants, topic, speaking_time=60):
             'topic': topic,
             'completed': True
         })
-    
+
     return results
 ```
 
@@ -206,7 +207,7 @@ const hybridPerformanceMetrics = {
       'projects on time'
     ]
   },
-  
+
   collaboration: {
     weight: 25,
     measures: [
@@ -216,7 +217,7 @@ const hybridPerformanceMetrics = {
       'response time to teammates'
     ]
   },
-  
+
   growth: {
     weight: 25,
     measures: [
@@ -241,7 +242,6 @@ Before launching this training program:
 3. **Prepare materials** - Create team-specific exercises using actual team data
 4. **Plan follow-up** - Schedule monthly coaching sessions for graduates
 5. **Measure impact** - Track team engagement scores and manager confidence ratings
-
 
 
 ## Related Articles

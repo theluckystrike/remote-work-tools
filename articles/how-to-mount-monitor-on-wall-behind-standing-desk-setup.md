@@ -3,6 +3,7 @@ layout: default
 title: "How to Mount Monitor on Wall Behind Standing Desk Setup"
 description: "A practical guide for developers and power users on mounting monitors on the wall behind standing desk setups. Includes VESA standards, cable"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-mount-monitor-on-wall-behind-standing-desk-setup/
 categories: [guides]
@@ -240,7 +241,6 @@ Route HDMI/DisplayPort and power cables along the back of the monitor and down t
 | Electrical outlet out of reach | Cable too short | Install new outlet or use in-wall power distribution |
 | Monitor height wrong for sitting | Miscalculation | Measure again; adjust tilt to compensate |
 | Wall damage during installation | Overtightening or hole too large | Patch holes with spackle; use larger toggle bolts |
-
 
 
 ## Related Articles

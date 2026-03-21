@@ -3,6 +3,7 @@ layout: default
 title: "Remote Legal Billing Software Comparison for Distributed"
 description: "A technical comparison of remote legal billing software for distributed law firms. Evaluate time tracking, invoicing, trust accounting, and API"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-legal-billing-software-comparison-for-distributed-law/
 categories: [comparisons]
@@ -70,7 +71,7 @@ async function createInvoice(pantherDomain, matterId, timeEntries, headers) {
     quantity: entry.hours,
     rate: entry.rate
   }));
-  
+
   const response = await fetch(
     `https://${pantherDomain}.practicepanther.com/api/v2/invoices`,
     {
@@ -311,8 +312,6 @@ New billing software requires team adjustment:
 - [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 
 Built by
-
-
 
 
 ## Related Articles

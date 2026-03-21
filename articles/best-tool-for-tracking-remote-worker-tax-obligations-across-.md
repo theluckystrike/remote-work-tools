@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Tracking Remote Worker Tax Obligations Across"
 description: "Remote workers across multiple US states create tax Nexus obligations that trigger withholding requirements, unemployment tax, and quarterly filing—varying by"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-tracking-remote-worker-tax-obligations-across-/
 categories: [guides]
@@ -68,22 +69,22 @@ const stateTaxData = require('state-tax-rates');
 
 function getWithholdingRequirements(state, annualIncome) {
   const stateInfo = stateTaxData[state];
-  
+
   if (!stateInfo) {
     throw new Error(`Unknown state: ${state}`);
   }
-  
+
   const brackets = stateInfo.income_tax_brackets;
   let tax = 0;
   let remaining = annualIncome;
-  
+
   for (const bracket of brackets) {
     const taxableInBracket = Math.min(remaining, bracket.max - bracket.min);
     if (taxableInBracket <= 0) break;
     tax += taxableInBracket * bracket.rate;
     remaining -= taxableInBracket;
   }
-  
+
   return {
     rate: stateInfo.flat_rate || (tax / annualIncome),
     has_income_tax: stateInfo.has_income_tax,
@@ -125,19 +126,19 @@ class StateTaxRule:
 class NexusTracker:
     def __init__(self, state_rules: Dict[str, StateTaxRule]):
         self.state_rules = state_rules
-    
+
     def check_nexus(self, employee: Employee, start_date: datetime, end_date: datetime) -> Dict:
         """Determine which states have Nexus based on employee locations."""
         nexus_states = []
-        
+
         for location in employee.work_locations:
             state = location['state']
             days_worked = location.get('days_worked', 0)
-            
+
             rule = self.state_rules.get(state)
             if not rule:
                 continue
-                
+
             if days_worked >= rule.nexus_threshold_days:
                 nexus_states.append({
                     'state': state,
@@ -145,7 +146,7 @@ class NexusTracker:
                     'withholding_required': rule.withholding_required,
                     'days_worked': days_worked
                 })
-        
+
         return {
             'employee_id': employee.employee_id,
             'period': f"{start_date.date()} - {end_date.date()}",
@@ -190,7 +191,6 @@ For most development teams, a hybrid approach works best: use commercial APIs fo
 ### Documentation and Audit Trails
 
 Maintain detailed logs of all tax calculations and Nexus determinations. When audits occur—and they will for organizations with remote workers across many states—having clear audit trails prevents costly penalties.
-
 
 
 ## Related Articles

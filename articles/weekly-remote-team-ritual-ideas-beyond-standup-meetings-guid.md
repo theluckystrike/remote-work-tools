@@ -3,6 +3,7 @@ layout: default
 title: "Weekly Remote Team Ritual Ideas Beyond Standup Meetings Guid"
 description: "Discover practical weekly remote team ritual ideas beyond standup meetings. This guide provides actionable examples and code snippets for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /weekly-remote-team-ritual-ideas-beyond-standup-meetings-guid/
 categories: [guides]
@@ -498,7 +499,6 @@ For a team of 6-8, you're looking at 6-8 hours per week for all rituals combined
 - Review quarterly to kill low-value ones
 
 The goal isn't to maximize rituals. It's to have rituals that actually improve how your team works and connects. Quality over quantity.
-
 
 
 ## Related Articles

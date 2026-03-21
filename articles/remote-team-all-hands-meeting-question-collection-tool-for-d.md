@@ -3,6 +3,7 @@ layout: default
 title: "FastAPI-based question collection endpoint"
 description: "A guide to building and implementing question collection tools for remote all hands meetings in distributed organizations. Includes"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-all-hands-meeting-question-collection-tool-for-d/
 categories: [guides]
@@ -12,9 +13,6 @@ score: 8
 voice-checked: true
 intent-checked: true
 ---
-
-
-
 
 
 {% raw %}
@@ -43,7 +41,7 @@ const { Octokit } = require('@octokit/rest');
 
 async function createQuestionIssue(org, repo, questionData) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-  
+
   const body = `
 ## Question Category
 ${questionData.category}
@@ -188,20 +186,20 @@ Not all submitted questions are well-formed or appropriate for the meeting forma
 function moderateQuestions(questions) {
   return questions.map(q => {
     // Merge similar questions
-    const duplicates = questions.filter(other => 
-      other.id !== q.id && 
+    const duplicates = questions.filter(other =>
+      other.id !== q.id &&
       levenshteinDistance(q.text, other.text) < 10
     );
-    
+
     if (duplicates.length > 0) {
       q.text += `\n\n(Similar questions merged: ${duplicates.map(d => d.id).join(', ')})`;
     }
-    
+
     // Mark for clarification if too vague
     if (q.text.split(' ').length < 5) {
       q.needs_clarification = true;
     }
-    
+
     return q;
   });
 }
@@ -218,7 +216,6 @@ Participation rate measures what percentage of eligible team members submitted q
 Answer quality can be measured through post-meeting surveys. Ask attendees whether their questions were answered satisfactorily.
 
 Time-to-answer tracks how quickly questions get responses. Long gaps between submission and answer often indicate organizational bottlenecks.
-
 
 
 ## Related Articles

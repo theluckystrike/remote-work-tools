@@ -120,10 +120,10 @@ def schedule_interview(candidate_tz, interviewer_tz, meeting_duration=60):
     # Find overlapping working hours
     candidate_hours = get_working_hours(candidate_tz)  # e.g., 9am-6pm local
     interviewer_hours = get_working_hours(interviewer_tz)
-    
+
     # Find overlap
     overlap = find_time_overlap(candidate_hours, interviewer_hours)
-    
+
     # Return converted times for both parties
     return {
         "candidate_time": convert_to_tz(overlap.start, candidate_tz),
@@ -173,11 +173,12 @@ Consider starting with a free trial before committing. Most platforms offer 14-3
 The right ATS transforms remote hiring from a logistical nightmare into a scalable, repeatable process. Invest the time to configure it properly, and you'll build a global team more efficiently than competitors still struggling with spreadsheets and email threads.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-- [Best Tool for Tracking Remote Employee Work Permits and.](/remote-work-tools/best-tool-for-tracking-remote-employee-work-permits-and-visa/)
-- [Best Project Tracking Tool for Remote Hardware.](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
+- [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
+- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
+- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -3,6 +3,7 @@ layout: default
 title: "Obsidian vs Notion for Personal Knowledge Management"
 description: "Compare Obsidian and Notion for personal knowledge management from a developer perspective. Includes local-first architecture, markdown workflows"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /obsidian-vs-notion-for-personal-knowledge-management/
 reviewed: true
@@ -180,8 +181,6 @@ Both tools serve personal knowledge management well. Obsidian appeals to develop
 The best choice depends on where you fall on the control-versus-convenience spectrum. Test both with actual work for a week. Your notes should amplify your thinking, not compete for attention.
 
 ---
-
-
 
 
 ## Related Articles

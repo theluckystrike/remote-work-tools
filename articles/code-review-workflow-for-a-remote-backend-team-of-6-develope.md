@@ -3,6 +3,7 @@ layout: default
 title: "Review assignment logic (example)"
 description: "A practical guide to implementing efficient code review processes for distributed backend teams of 6 developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /code-review-workflow-for-a-remote-backend-team-of-6-develope/
 reviewed: true
@@ -25,7 +26,7 @@ With a team of six developers working remotely, you need structured guidelines f
 function get_reviewer(author, pr_title, code_owners) {
   const primary = code_owners.get_primary(pr_title);
   const secondary = code_owners.get_secondary(pr_title);
-  
+
   // Never review your own PR
   if (primary !== author) return primary;
   return secondary;
@@ -63,7 +64,6 @@ Business value or technical reason for the change.
 ## Screenshots/Logs
 Include relevant output for backend changes (query performance, error logs, etc.)
 
-## Related Issues
 Links to tickets or tracking items.
 ```
 
@@ -109,7 +109,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm test
       - run: npm run lint
-      
+
   security:
     runs-on: ubuntu-latest
     steps:
@@ -405,8 +405,6 @@ Week 11-12: Celebrate wins, plan next iteration
 ```
 
 Most teams report 30-40% improvement in code review throughput within 8 weeks of implementing structured review practices.
-
-
 
 
 ## Related Articles

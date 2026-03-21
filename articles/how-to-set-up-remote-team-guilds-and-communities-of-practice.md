@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Remote Team Guilds and Communities of Practice"
 description: "A practical guide to building and scaling remote team guilds and communities of practice that drive knowledge sharing and skill development across"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-guilds-and-communities-of-practice/
 categories: [guides]
@@ -176,14 +177,12 @@ A well-run guild transforms how your organization shares knowledge. Instead of e
 Start small, stay consistent, and iterate based on feedback. Your remote teams will develop stronger technical bonds and your organization will build lasting knowledge infrastructure.
 
 
-
-
 ## Related Articles
 
 - [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 - [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
-- [Best Practice for Preserving Remote Team Culture When](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubli/)
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

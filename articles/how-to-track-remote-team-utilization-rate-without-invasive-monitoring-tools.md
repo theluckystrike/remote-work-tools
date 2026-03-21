@@ -3,6 +3,7 @@ layout: default
 title: "How to Track Remote Team Use Rate Without Invasive"
 description: "Tracking team use in remote environments presents a genuine challenge for engineering managers and team leads. You need visibility into whether work is"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/
 categories: [guides]
@@ -46,19 +47,19 @@ def get_team_activity(team_members, days=7):
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json"
     }
-    
+
     since = (datetime.now() - timedelta(days=days)).isoformat()
     activity = defaultdict(lambda: {"commits": 0, "prs": 0, "reviews": 0})
-    
+
     for member in team_members:
         # Get user's commits
         commits_url = f"https://api.github.com/commits"
         params = {"author": member, "since": since, "per_page": 100}
         response = requests.get(commits_url, headers=headers, params=params)
-        
+
         if response.ok:
             activity[member]["commits"] = len(response.json())
-        
+
         # Get user's PRs
         prs_url = f"https://api.github.com/search/issues"
         params = {
@@ -66,10 +67,10 @@ def get_team_activity(team_members, days=7):
             "per_page": 100
         }
         response = requests.get(prs_url, headers=headers, params=params)
-        
+
         if response.ok:
             activity[member]["prs"] = response.json().get("total_count", 0)
-    
+
     return activity
 
 # Usage
@@ -100,9 +101,9 @@ def get_team_velocity(team_id, weeks=4):
         "Authorization": LINEAR_API_KEY,
         "Content-Type": "application/json"
     }
-    
+
     since = datetime.now() - timedelta(weeks=weeks)
-    
+
     query = """
     query($teamId: String!, $since: DateTime!) {
         issues(
@@ -118,7 +119,7 @@ def get_team_velocity(team_id, weeks=4):
         }
     }
     """
-    
+
     response = requests.post(
         "https://api.linear.app/graphql",
         headers=headers,
@@ -127,12 +128,12 @@ def get_team_velocity(team_id, weeks=4):
             "variables": {"team_id": team_id, "since": since.isoformat()}
         }
     )
-    
+
     if response.ok:
         issues = response.json()["data"]["issues"]["nodes"]
         total_estimate = sum(i.get("estimate", 0) for i in issues)
         return total_estimate
-    
+
     return 0
 ```
 
@@ -153,18 +154,18 @@ Build this with a Slack API integration:
 def get_async_contribution_score(channel_id, days=7):
     """Measure team engagement from Slack activity."""
     from slack_sdk import WebClient
-    
+
     client = WebClient(token="xoxb-your-token")
     since = datetime.now() - timedelta(days=days)
-    
+
     response = client.conversations_history(
         channel=channel_id,
         oldest=since.timestamp()
     )
-    
+
     messages = response["messages"]
     unique_users = len(set(m["user"] for m in messages if "user" in m))
-    
+
     return {
         "total_messages": len(messages),
         "active_contributors": unique_users,
@@ -182,14 +183,14 @@ def generate_utilization_report():
     github_activity = get_team_activity(team_members)
     velocity = get_team_velocity(team_id)
     slack_engagement = get_async_contribution_score(channel_id)
-    
+
     report = {
         "code_production": github_activity,
         "project_velocity": velocity,
         "communication_engagement": slack_engagement,
         "generated_at": datetime.now().isoformat()
     }
-    
+
     return report
 ```
 
@@ -219,7 +220,6 @@ Follow these principles to keep use tracking ethical:
 5. Opt-in where possible: Give team members ownership of their metrics
 
 The goal is understanding whether the team is productive, not proving individuals are working every moment.
-
 
 
 ## Related Articles

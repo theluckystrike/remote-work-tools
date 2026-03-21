@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Async Standup Template Guide"
 description: "Guide to running effective async standups for remote teams. Covers Geekbot, Standuply, Range, Slack workflows, and custom bot implementations"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-team-async-standup-template-guide/
 categories: [guides]
@@ -613,7 +614,6 @@ Links to merged commits with standup context
 This creates accountability link: standup items map to closed issues and merged code.
 
 ---
-
 
 
 ## Related Articles

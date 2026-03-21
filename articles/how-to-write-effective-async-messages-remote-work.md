@@ -3,6 +3,7 @@ layout: default
 title: "How to Write Effective Async Messages for Remote Work"
 description: "Master async communication in remote work. Learn practical patterns for writing clear, actionable messages that reduce meetings and improve team"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-write-effective-async-messages-remote-work/
 categories: [guides]
@@ -74,7 +75,7 @@ For code review requests, include the context of what changed and why:
 - Updated route handlers to require valid tokens
 - Added 401 responses for unauthorized requests
 
-**Testing:** 
+**Testing:**
 - Unit tests pass (95% coverage)
 - Manually tested against staging API
 
@@ -177,8 +178,6 @@ Transitioning to async-first communication requires deliberate practice. Start b
 When you write clear, actionable async messages, you reduce meeting load, respect time zone boundaries, and build a searchable knowledge base. Your team can reference past decisions, understand context, and move forward without waiting for synchronous discussions.
 
 The shift to async-first communication transforms how remote teams operate. Messages become more thoughtful, decisions become more documented, and team members gain freedom to work when they're most productive.
-
-
 
 
 ## Related Articles

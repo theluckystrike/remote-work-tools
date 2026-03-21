@@ -56,17 +56,17 @@ Executives need protected deep-work time. You can use Google Apps Script to auto
 function protectFocusTime() {
   const calendar = CalendarApp.getDefaultCalendar();
   const today = new Date();
-  
+
   // Block 6-8 AM and 6-8 PM for focus work
   const focusBlocks = [
     { start: '06:00', end: '08:00' },
     { start: '18:00', end: '20:00' }
   ];
-  
+
   focusBlocks.forEach(block => {
     const startTime = new Date(today.toDateString() + ' ' + block.start);
     const endTime = new Date(today.toDateString() + ' ' + block.end);
-    
+
     // Check if slot is free before blocking
     const events = calendar.getEvents(startTime, endTime);
     if (events.length === 0) {
@@ -122,7 +122,7 @@ $freeBusy = Get-MailboxCalendarConfiguration -Identity $rooms[0]
 $queryStart = Get-Date "2026-03-16 14:00:00"
 $queryEnd = Get-Date "2026-03-16 15:00:00"
 
-Get-MailboxCalendarFolder -Identity $rooms[0] | 
+Get-MailboxCalendarFolder -Identity $rooms[0] |
   Get-MailboxCalendarItems -StartDate $queryStart -EndDate $queryEnd
 ```
 
@@ -141,11 +141,11 @@ def get_team_availability(calendars: list, date: datetime) -> dict:
     """Aggregate availability across executive calendars."""
     credentials = Credentials.from_authorized_user_info(INFO)
     service = CalendarService(credentials)
-    
+
     availability = {}
     start_of_day = date.replace(hour=0, minute=0, second=0)
     end_of_day = date.replace(hour=23, minute=59, second=59)
-    
+
     for cal_id in calendars:
         events = service.events().list(
             calendarId=cal_id,
@@ -154,14 +154,14 @@ def get_team_availability(calendars: list, date: datetime) -> dict:
             singleEvents=True,
             orderBy='startTime'
         ).execute()
-        
+
         # Extract busy slots
         busy_times = [
-            (e['start']['dateTime'], e['end']['dateTime']) 
+            (e['start']['dateTime'], e['end']['dateTime'])
             for e in events.get('items', [])
         ]
         availability[cal_id] = busy_times
-    
+
     return availability
 
 # Find common free time slots
@@ -195,12 +195,13 @@ When deploying your chosen solution, ensure you:
 The right calendar infrastructure enables executives to focus on strategic work rather than scheduling logistics. Invest time upfront in proper configuration, and the team will reap continuous time savings.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Remote Employee Time Zone Overlap Optimization Tool for.](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
-- [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Multi Timezone Team Calendar Setup Scheduling Across Regions](/remote-work-tools/multi-timezone-team-calendar-setup-scheduling-across-regions/)
+- [Example: Simple calendar reminder script for kit deployment](/remote-work-tools/best-activity-kit-subscription-for-kids-of-remote-working-pa/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Best Practices for Remote Incident Communication"
 description: "Learn practical strategies for communicating during incidents when working remotely. Includes status page templates, Slack workflows, escalation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practices-for-remote-incident-communication/
 reviewed: true
@@ -109,22 +110,22 @@ Use Slack's incident management integration or build your own:
 # Simple incident channel creator
 def create_incident_channel(incident_name: str, severity: str):
     channel_name = f"incident-{incident_name.lower().replace(' ', '-')}"
-    
+
     # Create private channel with on-call team
     channel = slack.conversations.create(
         name=channel_name,
         is_private=True,
         topic=f"Severity: {severity} | Incident Commander: TBD"
     )
-    
+
     # Invite on-call responders
     oncall = oncall_api.get_current_oncall()
     for user in oncall:
         slack.channels.invite(channel.id, user.id)
-    
+
     # Pin critical contacts
     slack.pins.add(channel.id, message_id=incident commander pin)
-    
+
     return channel
 ```
 
@@ -211,7 +212,7 @@ def notify_status_page(incident: Incident):
              f"Customers may experience degraded performance.",
         incident_id=incident.id
     )
-    
+
     # Schedule follow-up reminders
     schedule_job(
         delay=15 * 60,  # 15 minutes
@@ -222,12 +223,14 @@ def notify_status_page(incident: Incident):
 
 The goal isn't to eliminate human communication—it's to eliminate the communication tasks that can be automated so humans focus on what matters: fixing the problem.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Sprint Planning Communication Template for.](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
-- [Remote Team Onboarding Communication Checklist for First.](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
-- [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
+## Related Articles
+
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
+- [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)
+- [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
+- [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

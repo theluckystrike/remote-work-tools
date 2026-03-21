@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Grant and Funding Tracking Tool for Distributed"
 description: "A guide to grant and funding tracking tools for distributed nonprofit organizations. Compare solutions, implementation patterns, and code"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-grant-and-funding-tracking-tool-for-distributed-/
 categories: [guides]
@@ -12,7 +13,6 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
-
 
 
 {% raw %}
@@ -53,7 +53,7 @@ async function createGrantAllocation(grantId, allocationData) {
       }
     }
   ]);
-  
+
   return record[0].id;
 }
 
@@ -130,7 +130,7 @@ async function createGrantPage(grantData, parentDatabaseId) {
       }
     ]
   });
-  
+
   return page.id;
 }
 ```
@@ -167,13 +167,13 @@ class Fund(db.Model):
     start_date = db.Column(db.Date)
     end_date = db.Column(db.Date)
     team_id = db.Column(db.Integer, db.ForeignKey('team.id'))
-    
+
     allocations = db.relationship('Allocation', backref='fund', lazy=True)
-    
+
     @property
     def remaining(self):
         return self.total_amount - self.spent_amount
-    
+
     @property
     def utilization_rate(self):
         if self.total_amount == 0:
@@ -206,23 +206,23 @@ class Expense(db.Model):
 def submit_expense(fund_id):
     """Submit expense for approval against a specific fund"""
     data = request.json
-    
+
     # Verify fund exists and has sufficient remaining balance
     fund = Fund.query.get(fund_id)
     if not fund:
         return jsonify({'error': 'Fund not found'}), 404
-    
+
     if fund.remaining < data['amount']:
         return jsonify({
             'error': 'Insufficient funds',
             'remaining': fund.remaining,
             'requested': data['amount']
         }), 400
-    
+
     # Check restrictions
     if fund.restricted and not check_restriction_compliance(fund, data):
         return jsonify({'error': 'Expense does not comply with fund restrictions'}), 400
-    
+
     expense = Expense(
         allocation_id=data.get('allocation_id'),
         amount=data['amount'],
@@ -231,10 +231,10 @@ def submit_expense(fund_id):
         submitted_by=current_identity.id,
         status='pending'
     )
-    
+
     db.session.add(expense)
     db.session.commit()
-    
+
     return jsonify({
         'id': expense.id,
         'status': expense.status,
@@ -246,10 +246,10 @@ def submit_expense(fund_id):
 def get_spending_alerts(fund_id):
     """Generate spending alerts for a fund"""
     fund = Fund.query.get(fund_id)
-    
+
     alerts = []
     utilization = fund.utilization_rate
-    
+
     # Alert: 75% utilization
     if utilization >= 75 and utilization < 90:
         alerts.append({
@@ -257,7 +257,7 @@ def get_spending_alerts(fund_id):
             'message': f'Fund is {utilization:.1f}% spent',
             'remaining': fund.remaining
         })
-    
+
     # Alert: 90% utilization
     if utilization >= 90:
         alerts.append({
@@ -265,7 +265,7 @@ def get_spending_alerts(fund_id):
             'message': f'Fund is {utilization:.1f}% spent - immediate attention required',
             'remaining': fund.remaining
         })
-    
+
     # Alert: Approaching end date
     if fund.end_date:
         days_remaining = (fund.end_date - datetime.now().date()).days
@@ -275,24 +275,24 @@ def get_spending_alerts(fund_id):
                 'message': f'Fund expires in {days_remaining} days',
                 'end_date': fund.end_date.isoformat()
             })
-    
+
     return jsonify({'fund_id': fund_id, 'alerts': alerts})
 
 def check_restriction_compliance(fund, expense_data):
     """Verify expense matches fund restrictions"""
     if not fund.restrictions:
         return True
-    
+
     # Parse restrictions and validate
     restriction_keywords = fund.restrictions.lower().split(',')
     expense_description = expense_data.get('description', '').lower()
     expense_category = expense_data.get('category', '').lower()
-    
+
     for keyword in restriction_keywords:
         keyword = keyword.strip()
         if keyword in expense_description or keyword in expense_category:
             return True
-    
+
     return False
 ```
 
@@ -343,7 +343,7 @@ async function sendBudgetAlert(channel, alert) {
       }
     ]
   };
-  
+
   await axios.post(process.env.SLACK_WEBHOOK_URL, slackMessage);
 }
 ```
@@ -364,15 +364,15 @@ def export_fund_report(fund_id, format='standard'):
         allocation_id=fund.allocations[0].id,
         status='approved'
     ).all()
-    
+
     output = StringIO()
-    
+
     if format == 'standard':
         writer = csv.DictWriter(output, fieldnames=[
             'Date', 'Description', 'Category', 'Amount', 'Approved By'
         ])
         writer.writeheader()
-        
+
         for expense in expenses:
             writer.writerow({
                 'Date': expense.submitted_at.strftime('%Y-%m-%d'),
@@ -381,15 +381,15 @@ def export_fund_report(fund_id, format='standard'):
                 'Amount': expense.amount,
                 'Approved By': expense.approver.name if expense.approver else 'N/A'
             })
-    
+
     elif format == 'foundation_portal':
         # Format specific to common foundation portals
         writer = csv.DictWriter(output, fieldnames=[
-            'Expense ID', 'Transaction Date', 'Payee', 'Amount', 
+            'Expense ID', 'Transaction Date', 'Payee', 'Amount',
             'Purpose', 'Grant Period', 'Code'
         ])
         writer.writeheader()
-        
+
         for expense in expenses:
             writer.writerow({
                 'Expense ID': f'EXP-{expense.id:06d}',
@@ -400,7 +400,7 @@ def export_fund_report(fund_id, format='standard'):
                 'Grant Period': f'{fund.start_date} - {fund.end_date}',
                 'Code': fund.funder[:10].upper().replace(' ', '')
             })
-    
+
     output.seek(0)
     return output.getvalue()
 ```
@@ -422,9 +422,6 @@ When selecting or building a grant tracking system for distributed nonprofit tea
 For smaller organizations, purpose-built platforms like Airtable or Notion offer quick deployment with reasonable cost. Larger organizations or those with specific compliance requirements benefit from custom implementations using open-source foundations.
 
 Regardless of the tool chosen, establishing clear processes around budget approval, expense categorization, and reporting deadlines before implementing any system ensures successful adoption across distributed teams.
-
-
-
 
 
 ## Related Articles

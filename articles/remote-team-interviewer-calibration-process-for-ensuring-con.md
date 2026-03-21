@@ -3,6 +3,7 @@ layout: default
 title: "Example: Junior Engineer Competency Matrix"
 description: "Learn how to implement interviewer calibration sessions to maintain consistent hiring standards across distributed remote teams in 2026"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-interviewer-calibration-process-for-ensuring-con/
 categories: [guides]
@@ -63,7 +64,7 @@ Here's a practical structure for a two-hour calibration session:
 def run_calibration_session(interviewers, practice_candidates):
     """
     Run a calibration session with practice candidates.
-    
+
     Args:
         interviewers: List of interviewer objects
         practice_candidates: List of candidate recordings/transcripts
@@ -76,19 +77,19 @@ def run_calibration_session(interviewers, practice_candidates):
             {"activity": "Repeat for next candidate"}
         ]
     }
-    
+
     for candidate in practice_candidates:
         # Each interviewer scores independently first
         scores = {}
         for interviewer in interviewers:
             scores[interviewer.id] = interviewer.score(
-                candidate, 
+                candidate,
                 competency_matrix
             )
-        
+
         # Then discuss as a group
         discuss_scores(scores, candidate)
-        
+
     return analyze_interviewer_variance(scores)
 ```
 
@@ -118,7 +119,7 @@ Implement periodic audits of actual interview scorecards. Look for:
 
 ```sql
 -- Example audit query for score variance
-SELECT 
+SELECT
     interviewer_id,
     AVG(score) as avg_score,
     STDDEV(score) as score_variance,
@@ -178,7 +179,6 @@ Avoid these mistakes that undermine calibration efforts:
 3. Ignoring soft skills: Technical calibration gets attention, but communication and culture fit need equal weight
 4. No accountability: Track individual interviewer patterns and address outliers
 5. Static rubrics: Update competency matrices as role requirements evolve
-
 
 
 ## Related Articles

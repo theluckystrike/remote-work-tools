@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Onboarding Buddy Program Template for"
 description: "A practical guide to building a remote onboarding buddy program template that helps new hires integrate faster and feel supported from day one"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-onboarding-buddy-program-template-for-n/
 categories: [guides]
@@ -42,9 +43,9 @@ Consider creating a buddy nomination form:
 ```markdown
 ## Buddy Nomination Form
 
-**Name:** 
-**Team:** 
-**Tenure (months):** 
+**Name:**
+**Team:**
+**Tenure (months):**
 
 **Why do you want to be a buddy?**
 [Free text response]
@@ -191,17 +192,17 @@ For teams using ticketing systems or automation, consider a simple assignment wo
 
 def assign_buddy(new_hire, available_buddies):
     """Assign the best-matched buddy to a new hire."""
-    
+
     # Filter buddies by team or related domain
     qualified = [
         b for b in available_buddies
         if b.tenure_months >= 6
         and b.current_assignments < b.max_assignments
     ]
-    
+
     if not qualified:
         return None
-    
+
     # Select buddy with fewest current assignments
     return min(qualified, key=lambda b: b.current_assignments)
 
@@ -233,8 +234,6 @@ Start small. Pilot your buddy program with one team, gather feedback, refine you
 The best buddy programs feel organic rather than scripted. Your templates provide structure and ensure consistency, but the real value comes from authentic relationships between team members. Focus on matching compatible personalities, setting clear expectations, and giving buddies the freedom to connect naturally.
 
 ---
-
-
 
 
 ## Related Articles

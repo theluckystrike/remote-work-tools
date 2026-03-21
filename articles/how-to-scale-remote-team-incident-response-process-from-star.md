@@ -3,6 +3,7 @@ layout: default
 title: "Scale Remote Team Incident Response From Startup to Mid-Size"
 description: "A practical guide to evolving your incident response process as your remote team grows. Includes runbook templates, escalation workflows, and code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-incident-response-process-from-star/
 categories: [guides]
@@ -125,16 +126,16 @@ oncall_schedule:
   rotation: weekly
   handoff_day: monday
   handoff_time: 10:00 UTC
-  
+
   primary:
     - engineer-1
     - engineer-2
     - engineer-3
-    
+
   secondary:
     - engineer-4
     - engineer-5
-    
+
   escalation:
     - level: 1
       timeout: 15 minutes
@@ -224,14 +225,14 @@ Automate customer communication with a status page:
 // Example: Automated status page update
 async function updateStatusPage(incident) {
   const statusPage = await getStatusPageClient();
-  
+
   await statusPage.incident.create({
     name: incident.title,
     status: incident.severity === 'SEV1' ? 'major_outage' : 'degraded_performance',
     components: incident.affectedComponents,
     body: `
       We are investigating reports of ${incident.description}
-      
+
       Current status: ${incident.currentStatus}
       Next update in: 15 minutes
     `,
@@ -259,21 +260,21 @@ CPU=$(ssh $SERVER "top -bn1 | grep 'Cpu(s)' | awk '{print \$2}'" | cut -d'%' -f1
 if (( $(echo "$CPU > $THRESHOLD" | bc -l) )); then
   # Find highest CPU process
   PID=$(ssh $SERVER "ps aux --sort=-%cpu | head -2 | tail -1 | awk '{print \$2}'")
-  
+
   # Graceful restart
   ssh $SERVER "kill -15 $PID"
-  
+
   # Wait and check
   sleep 30
-  
+
   # Verify resolution
   NEW_CPU=$(ssh $SERVER "top -bn1 | grep 'Cpu(s)' | awk '{print \$2}'" | cut -d'%' -f1)
-  
+
   if (( $(echo "$NEW_CPU > $THRESHOLD" | bc -l) ]]; then
     echo "CRITICAL: CPU still high after graceful restart"
     exit 1
   fi
-  
+
   echo "Resolved: CPU reduced from ${CPU}% to ${NEW_CPU}%"
 else
   echo "CPU within threshold: ${CPU}%"
@@ -332,8 +333,6 @@ Regardless of team size, apply these foundational practices:
 **Automate wisely.** Automate repetitive tasks but keep humans in the loop for complex decisions.
 
 **Document everything.** If it's not written down, it doesn't exist. Create artifacts that help future responders.
-
-
 
 
 ## Related Articles

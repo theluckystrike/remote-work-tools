@@ -3,6 +3,7 @@ layout: default
 title: "Remote Developer Home Office Monitor Setup Guide"
 description: "Ultrawide vs dual monitor setup for remote developers. Specific models, desk space, GPU requirements, productivity research, and real-world comparisons"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/
 categories: [guides]
@@ -283,8 +284,6 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 # Check if DisplayPort cable supports the target refresh rate
 # DP 1.4 = up to 4K@120Hz; DP 1.2 = up to 4K@60Hz or 1440p@165Hz
 ```
-
-
 
 
 ## Related Articles

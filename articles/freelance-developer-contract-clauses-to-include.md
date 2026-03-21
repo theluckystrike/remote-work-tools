@@ -3,6 +3,7 @@ layout: default
 title: "Essential Contract Clauses Every Freelance Developer Should"
 description: "Every freelance developer contract should include these essential clauses: scope of work definition, payment terms with milestones, intellectual property"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /freelance-developer-contract-clauses-to-include/
 categories: [guides]
@@ -343,8 +344,6 @@ Most freelance contract disputes fall into one of four categories. Understanding
 **IP ownership disputes** occur when pre-existing code is used in a client project without explicit licensing terms. Prevention: Include an IP inventory as an exhibit to your contract, listing any libraries, frameworks, or code components you are bringing to the project.
 
 **Timeline disputes** happen when both parties have different expectations about revision time. Prevention: Build review periods into your timeline explicitly. "Phase 2 complete: March 15. Client review period: March 15-19. Revisions complete: March 25" leaves no room for misunderstanding.
-
-
 
 
 ## Related Articles

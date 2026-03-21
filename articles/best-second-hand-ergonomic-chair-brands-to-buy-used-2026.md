@@ -3,6 +3,7 @@ layout: default
 title: "Best Second Hand Ergonomic Chair Brands to Buy Used 2026"
 description: "A practical guide to finding quality used ergonomic chairs for developers. Compare top brands, what to inspect, and how to evaluate condition before"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-second-hand-ergonomic-chair-brands-to-buy-used-2026/
 categories: [guides]
@@ -195,12 +196,14 @@ Pair your ergonomic chair with:
 - A monitor at eye level (top of screen at or slightly below eye level)
 - Keyboard and mouse positioned to keep wrists neutral
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
 - [How to Fit Ergonomic Chair and Standing Desk in Tiny Room](/remote-work-tools/how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/)
-- [How to Set Up Ergonomic Workspace in Airbnb for Month-Long Remote Work Stay](/remote-work-tools/how-to-set-up-ergonomic-workspace-in-airbnb-for-month-long-r/)
-- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
+- [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
+- [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)
+- [Home Office Chair Mat for Carpet vs Hardwood Floor — Comparison](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
+- [How to Set Up Second Brain for Developers](/remote-work-tools/how-to-set-up-second-brain-for-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

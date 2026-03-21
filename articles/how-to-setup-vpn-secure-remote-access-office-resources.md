@@ -3,6 +3,7 @@ layout: default
 title: "How to Setup Vpn Secure Remote Access Office Resources"
 description: "Step-by-step guide to VPN setup for secure remote work. Learn WireGuard vs OpenVPN, firewall configuration, and troubleshooting for teams of any size"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /how-to-setup-vpn-secure-remote-access-office-resources/
 categories: [guides]
@@ -465,4 +466,3 @@ For teams >100: Self-hosted with load balancing or enterprise solution
 - [Secure File Transfer Protocol Setup for Remote Teams](/remote-work-tools/secure-file-transfer-protocol-setup-for-remote-teams-exchang/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-

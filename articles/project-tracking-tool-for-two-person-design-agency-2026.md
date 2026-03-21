@@ -3,6 +3,7 @@ layout: default
 title: "Project Tracking Tool for Two Person Design Agency 2026"
 description: "A practical guide to selecting and implementing a project tracking tool for a two-person design agency. Includes tool comparisons, API integrations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /project-tracking-tool-for-two-person-design-agency-2026/
 categories: [guides]
@@ -252,7 +253,6 @@ The tools scale, but your processes need adjustment at each growth stage.
 **Client sync friction**: If explaining your tracking system to clients becomes tedious, simplify by creating client-facing views separate from your internal system.
 
 **Scope creep invisibility**: The biggest mistake is not logging scope changes. Every additional feature request becomes a new task, even if small.
-
 
 
 ## Related Articles

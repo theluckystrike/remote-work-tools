@@ -3,6 +3,7 @@ layout: default
 title: "Sprint Planning Tools for a 20 Person Distributed Scrum Team"
 description: "Running sprint planning for 20 developers across multiple time zones presents distinct challenges. The coordination overhead multiplies, async preparation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /sprint-planning-tools-for-a-20-person-distributed-scrum-team/
 categories: [guides]
@@ -70,8 +71,8 @@ Configure a sprint-ready backlog view in Jira:
 
 ```javascript
 // Jira JQL for sprint-ready backlog
-project = "Product Engineering" AND sprint = empty AND 
-status IN ("Ready for Development", "Backlog") AND 
+project = "Product Engineering" AND sprint = empty AND
+status IN ("Ready for Development", "Backlog") AND
 priority IN ("Highest", "High", "Medium") ORDER BY rank ASC
 ```
 
@@ -211,14 +212,13 @@ Record decisions in a shared document accessible to all time zones:
 
 ## Team Commitments
 - Team A: 34 story points
-- Team B: 42 story points  
+- Team B: 42 story points
 - Team C: 38 story points
 ```
 
 This approach scales to 20+ person organizations while maintaining alignment. Tools help coordination, but the process remains human-driven.
 
 ---
-
 
 
 ## Related Articles

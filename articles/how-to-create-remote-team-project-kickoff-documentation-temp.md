@@ -3,6 +3,7 @@ layout: default
 title: "Project Kickoff: [Project Name]"
 description: "A practical guide for developers and power users building remote project kickoff documentation. Includes templates, stakeholder mapping, and timeline"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-project-kickoff-documentation-temp/
 categories: [guides]
@@ -215,7 +216,6 @@ Here's a condensed template you can copy and customize:
 - Risk 1: [Mitigation]
 - Risk 2: [Mitigation]
 ```
-
 
 
 ## Related Articles

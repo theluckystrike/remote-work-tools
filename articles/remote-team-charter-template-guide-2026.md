@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Charter Template Guide 2026"
 description: "A practical guide to creating effective remote team charters with templates and code examples for developers and power users"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-charter-template-guide-2026/
 voice-checked: true
@@ -35,7 +36,7 @@ Start with clarity on why the team exists and what it aims to achieve. This sect
 ```markdown
 ## Team Purpose
 
-The Platform Team ensures reliable deployment pipelines and maintains infrastructure 
+The Platform Team ensures reliable deployment pipelines and maintains infrastructure
 supporting 99.9% uptime for customer-facing services.
 
 ## 2026 Objectives
@@ -327,3 +328,5 @@ Run the quarterly review as a 60-minute async session: post specific questions a
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 - [Buddy Responsibilities Charter](/remote-work-tools/how-to-set-up-remote-developer-onboarding-buddy-system-for-n/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

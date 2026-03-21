@@ -3,6 +3,7 @@ layout: default
 title: "How to Test Internet Speed and Reliability Before Moving to"
 description: "A practical guide for developers and remote workers on testing internet speed and reliability before relocating to Bali. Includes CLI tools, scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-test-internet-speed-reliability-before-moving-to-bali/
 categories: [guides]
@@ -144,15 +145,15 @@ def ping_test(host='8.8.8.8', count=10):
 with open('bali_connection_log.csv', 'a', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(['timestamp', 'speedtest_result', 'ping_result'])
-    
+
     while True:
         timestamp = datetime.now().isoformat()
         speed_result = run_speedtest()
         ping_result = ping_test()
-        
+
         writer.writerow([timestamp, speed_result, ping_result])
         f.flush()
-        
+
         time.sleep(3600)  # Test every hour
 ```
 
@@ -180,14 +181,12 @@ Document your findings. Share test results with your team to validate your remot
 ---
 
 
-
-
 ## Related Articles
 
 - [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Remote Work Internet Speed Requirements by Task Type: Complete Guide](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
 - [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

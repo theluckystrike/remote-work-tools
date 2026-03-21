@@ -3,6 +3,7 @@ layout: default
 title: "Simple Slack kudos automation using Slack API"
 description: "Start with Slack #kudos channels for peer-to-peer recognition, add Loom video shoutouts from managers, and implement GitHub-based recognition workflows for"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-remote-employee-recognition-program-ideas-for-distribut/
 reviewed: true
@@ -102,16 +103,16 @@ Use a simple rotation system:
 function generatePairs(teamMembers) {
   const shuffled = [...teamMembers].sort(() => 0.5 - Math.random());
   const pairs = [];
-  
+
   for (let i = 0; i < shuffled.length - 1; i += 2) {
     pairs.push([shuffled[i], shuffled[i + 1]]);
   }
-  
+
   // Handle odd number of members
   if (shuffled.length % 2 === 1) {
     pairs.push([shuffled[shuffled.length - 1]]);
   }
-  
+
   return pairs;
 }
 ```
@@ -139,7 +140,7 @@ const milestones = [
 function checkMilestones(hireDate) {
   const today = new Date();
   const daysWorked = Math.floor((today - hireDate) / (1000 * 60 * 60 * 24));
-  
+
   return milestones.filter(m => daysWorked >= m.days && daysWorked < m.days + 7);
 }
 ```
@@ -158,14 +159,14 @@ class RecognitionBudget:
     def __init__(self, monthly_limit=15):
         self.monthly_limit = monthly_limit
         self.spent = 0
-        
+
     def award_gift(self, recipient, amount, description):
         if self.spent + amount <= self.monthly_limit:
             self.spent += amount
             print(f"Awarded {description} to {recipient}: ${amount}")
             return True
         return False
-        
+
     def remaining(self):
         return self.monthly_limit - self.spent
 ```
@@ -183,12 +184,13 @@ Recognition frequency matters more than grandeur. Small, regular acknowledgments
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Belonging and Inclusion Program Ideas.](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
-- [Remote Employee Probation Period Management Tools and.](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
-- [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Remote Employee Belonging and Inclusion Program Ideas for](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

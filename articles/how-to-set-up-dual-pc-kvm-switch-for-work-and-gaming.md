@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Dual PC KVM Switch for Work and Gaming"
 description: "A practical guide for developers and power users setting up a dual PC KVM switch. Covers hardware selection, cable management, software configuration"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/
 categories: [guides]
@@ -285,8 +286,6 @@ Many developers find that a dual PC setup improves work quality because the phys
 This psychological aspect often justifies the setup more than the technical benefits alone.
 
 ---
-
-
 
 
 ## Related Articles

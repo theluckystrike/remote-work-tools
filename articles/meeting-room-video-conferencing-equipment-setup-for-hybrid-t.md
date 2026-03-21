@@ -3,6 +3,7 @@ layout: default
 title: "Meeting Room Video Conferencing Equipment Setup for Hybrid"
 description: "Build a hybrid meeting room for $180-500 by prioritizing audio quality, choosing reliable cameras like the Logitech C920, adding proper lighting, and"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /meeting-room-video-conferencing-equipment-setup-for-hybrid-t/
 categories: [guides]
@@ -75,14 +76,14 @@ CHANNELS = 1
 RATE = 16000
 
 p = pyaudio.Streamer()
-stream = p.open(format=FORMAT, channels=CHANNELS, rate=RATE, 
+stream = p.open(format=FORMAT, channels=CHANNELS, rate=RATE,
                 input=True, frames_per_buffer=CHUNK)
 
 def monitor_audio_levels():
     data = stream.read(CHUNK)
     audio_level = np.frombuffer(data, dtype=np.int16)
     rms = np.sqrt(np.mean(audio_level**2))
-    
+
     # Alert if audio is too quiet or clipping
     if rms < 500:
         return "too_quiet"
@@ -150,11 +151,11 @@ ROOM_CONFIGS = {
 def get_connected_devices():
     """List video and audio devices connected to the system."""
     video_devices = subprocess.run(
-        ["v4l2-ctl", "--list-devices"], 
+        ["v4l2-ctl", "--list-devices"],
         capture_output=True, text=True
     ).stdout
     audio_devices = subprocess.run(
-        ["arecord", "-l"], 
+        ["arecord", "-l"],
         capture_output=True, text=True
     ).stdout
     return video_devices, audio_devices
@@ -164,18 +165,18 @@ def configure_room(room_name):
     if not config:
         print(f"No config found for {room_name}")
         return
-    
+
     # Set default video device
     subprocess.run([
-        "v4l2-ctl", 
+        "v4l2-ctl",
         f"--device={config['video']}",
         "--set-fmt-video=width=1920,height=1080,pixelformat=YUYV"
     ])
-    
+
     # Set default audio device via PulseAudio
     os.system(f"pacmd set-default-source {config['audio']}")
     os.system(f"pacmd set-default-sink {config['audio']}")
-    
+
     print(f"Configured {room_name} with {config}")
 
 if __name__ == "__main__":
@@ -212,35 +213,34 @@ from email.mime.text import MIMEText
 
 def check_devices_healthy():
     issues = []
-    
+
     # Check camera
-    result = subprocess.run(["v4l2-ctl", "--list-devices"], 
+    result = subprocess.run(["v4l2-ctl", "--list-devices"],
                           capture_output=True)
     if "Logitech" not in result.stdout:
         issues.append("Camera not detected")
-    
+
     # Check microphone
     result = subprocess.run(["arecord", "-l"], capture_output=True)
     if result.returncode != 0:
         issues.append("Audio device issue")
-    
+
     # Check network latency
     result = subprocess.run(["ping", "-c", "1", "-W", "2", "8.8.8.8"],
                           capture_output=True)
     if result.returncode != 0:
         issues.append("Network connectivity problem")
-    
+
     return issues
 
 if __name__ == "__main__":
     issues = check_devices_healthy()
     if issues:
-        msg = MIMEText(f"Meeting room issues detected:\n" + 
+        msg = MIMEText(f"Meeting room issues detected:\n" +
                       "\n".join(issues))
         msg["Subject"] = "Meeting Room Alert"
         # Send notification to IT team
 ```
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Query recent detections via Falcon API"
 description: "A practical comparison of EDR solutions for distributed engineering teams. Features, pricing, API integrations, and deployment considerations"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /endpoint-detection-and-response-tools-comparison-for-remote-/
 reviewed: true
@@ -37,7 +38,7 @@ def get_recent_detections(hours=24):
         client_id="your-client-id",
         client_secret="your-client-secret"
     )
-    
+
     # Filter for high-severity detections
     detections = falcon.cmd(
         "QueryDetects",
@@ -78,7 +79,7 @@ async function getUnprotectedEndpoints() {
     isActive: true,
     hasActiveThreats: true
   });
-  
+
   return agents.filter(a => !a.isProtected);
 }
 ```
@@ -345,7 +346,6 @@ Use this framework to select the best option for your specific situation:
 - Result: Detection occurs but incident response is chaotic
 - Fix: Create response runbooks before deployment, test during trials
 {% endraw %}
-
 
 
 ## Related Articles

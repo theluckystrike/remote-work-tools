@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Home Office Dehumidifier for Basement Workspace"
+title: "Home Office Dehumidifier for Basement Workspace — Recommendation"
 description: "Find the best dehumidifier for your basement home office in 2026. Learn about pint capacity, energy efficiency, smart features, and top recommendations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "theluckystrike"
 permalink: /home-office-dehumidifier-for-basement-workspace-recommendation-2026/
 categories: [guides]
@@ -282,7 +283,6 @@ This seasonal approach reduces annual electricity cost by 30-40% compared to yea
 - Full filter replacement if washable filters don't fully clean
 
 Proper maintenance extends unit lifespan from 5-7 years (typical) to 10+ years.
-
 
 
 ## Related Articles

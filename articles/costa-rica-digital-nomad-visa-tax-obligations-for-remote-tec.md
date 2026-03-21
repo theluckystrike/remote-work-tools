@@ -3,6 +3,7 @@ layout: default
 title: "Costa Rica Digital Nomad Visa Tax Obligations for Remote"
 description: "Costa Rica Digital Nomad Visa Tax Obligations for Remote. — practical guide for remote teams and distributed workers with tools, tips, and workflows"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/
 categories: [guides]
@@ -246,8 +247,6 @@ Digital nomad visas are designed as temporary arrangements. Plan your next move:
 - **Remote employee status**: Becoming a full-time employee of a Costa Rican company changes tax rules significantly (and usually unfavorably)
 
 The most tax-efficient path for most nomads: maintain home country tax residence, use digital nomad visas temporarily, and repatriate when home country situation improves.
-
-
 
 
 ## Related Articles

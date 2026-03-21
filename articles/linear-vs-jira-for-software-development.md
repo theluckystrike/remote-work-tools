@@ -3,6 +3,7 @@ layout: default
 title: "Linear vs Jira for Software Development: A Practical"
 description: "A detailed comparison of Linear vs Jira for software development teams. Learn the key differences, when to choose each, and practical implementation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /linear-vs-jira-for-software-development/
 categories: [guides]
@@ -112,7 +113,7 @@ const linearClient = new LinearClient({ apiKey: process.env.LINEAR_API_KEY });
 
 app.post('/webhooks/linear', async (req, res) => {
   const { action, type, data } = req.body;
-  
+
   if (type === 'Issue' && action === 'create') {
     // Create corresponding GitHub issue
     await githubClient.issues.create({
@@ -122,7 +123,7 @@ app.post('/webhooks/linear', async (req, res) => {
       body: `Linear: ${data.url}\n\n${data.description}`
     });
   }
-  
+
   res.status(200).send('OK');
 });
 ```
@@ -390,12 +391,11 @@ Total: 60 seconds
 Linear is 50% faster for this core developer workflow.
 
 
-
 ## Related Articles
 
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
 - [Best Proposal Software for Remote Web Development Agency](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
-- [Best Proposal Software for Remote Web Development Agency](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-2026/)
+- [Best Proposal Software for Remote Web Development Agency — 2026](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-2026/)
 - [Best Gantt Chart Tools for Software Teams: A Practical Guide](/remote-work-tools/best-gantt-chart-tools-for-software-teams/)
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 

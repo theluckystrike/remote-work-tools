@@ -3,6 +3,7 @@ layout: default
 title: "How to Include Remote Workers in Office Meetings"
 description: "A practical guide for developers and power users on making office meetings inclusive for remote workers. Includes code snippets, automation examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-include-remote-workers-in-office-meetings/
 categories: [guides]
@@ -62,7 +63,7 @@ def set_meeting_layout(meeting_id, layout_type="grid"):
     Configure Zoom meeting layout to ensure equal visibility
     """
     url = f"https://api.zoom.us/v2/meetings/{meeting_id}"
-    
+
     payload = {
         "settings": {
             "video_panel": {
@@ -73,7 +74,7 @@ def set_meeting_layout(meeting_id, layout_type="grid"):
             "auto_generated": False
         }
     }
-    
+
     response = requests.patch(url, json=payload)
     return response.json()
 ```
@@ -197,8 +198,6 @@ When remote workers contribute valuable insights, highlight those contributions 
 The goal is creating meetings where location becomes irrelevant—where every participant has equal ability to contribute, listen, and collaborate toward team objectives.
 
 ---
-
-
 
 
 ## Related Articles

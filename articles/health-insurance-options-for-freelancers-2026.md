@@ -3,6 +3,7 @@ layout: default
 title: "Health Insurance Options for Freelancers 2026: A"
 description: "Explore health insurance options available to freelancers in 2026. CompareACA plans, HSAs, cost-sharing programs, and strategies to minimize premiums"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /health-insurance-options-for-freelancers-2026/
 reviewed: true
@@ -67,7 +68,7 @@ def estimate_subsidy(income, state="average"):
     Simplified calculation for 2026.
     """
     fpl_percentage = (income / FPL_2026) * 100
-    
+
     # Determine income cap percentage
     if fpl_percentage <= 133:
         cap_pct = 0.0207
@@ -81,12 +82,12 @@ def estimate_subsidy(income, state="average"):
         cap_pct = 0.0754
     else:
         cap_pct = 0.0836
-    
+
     max_premium = income * cap_pct / 12
-    
+
     # Benchmark plan estimates (varies by location)
     benchmark_plan = 450  # Average benchmark premium estimate
-    
+
     if max_premium < benchmark_plan:
         subsidy = benchmark_plan - max_premium
         return {
@@ -197,8 +198,6 @@ Keep these records for insurance purposes:
 5. Enroll during open enrollment (typically November-January) or qualifying life events
 
 The right health insurance for freelancers depends on your specific situation. Use the tools and calculations above to make an informed decision that protects your health without breaking your budget.
-
-
 
 
 ## Related Articles

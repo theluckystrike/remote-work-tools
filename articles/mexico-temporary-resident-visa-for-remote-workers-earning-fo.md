@@ -3,6 +3,7 @@ layout: default
 title: "Mexico Temporary Resident Visa for Remote Workers Earning"
 description: "Mexico Temporary Resident Visa for Remote Workers. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /mexico-temporary-resident-visa-for-remote-workers-earning-fo/
 categories: [guides]
@@ -293,8 +294,6 @@ Consult a tax professional specializing in US expat taxation before establishing
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 
 Built by
-
-
 
 
 ## Related Articles

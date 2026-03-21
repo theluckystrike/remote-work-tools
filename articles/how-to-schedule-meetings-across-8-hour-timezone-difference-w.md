@@ -3,6 +3,7 @@ layout: default
 title: "How to Schedule Meetings Across 8 Hour Timezone Difference"
 description: "A practical guide for developers and power users managing team meetings across 8-hour timezone differences. Learn async strategies, overlapping hours"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-schedule-meetings-across-8-hour-timezone-difference-w/
 categories: [guides]
@@ -371,7 +372,6 @@ For contractors or remote employees, consider:
 - Additional comp time (1 hour extra PTO per early/late meeting)
 - Flexible scheduling (if you attend 6am meeting, end day 2 hours earlier)
 - Async-first culture (minimize forced sync meetings regardless of timezone)
-
 
 
 ## Related Articles

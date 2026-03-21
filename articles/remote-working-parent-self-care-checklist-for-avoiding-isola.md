@@ -3,6 +3,7 @@ layout: default
 title: "Remote Working Parent Self Care Checklist for Avoiding"
 description: "A practical self care checklist for remote working parents to avoid isolation in distributed teams. Includes automation scripts, communication"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/
 categories: [guides]
@@ -97,12 +98,12 @@ work_boundaries:
     work_hours: "9 AM - 5 PM local"
     after_hours: "Do Not Disturb except emergencies"
     weekend: "Off unless on-call"
-  
+
   workspace:
     designated_office: true
     visual_cue_when_working: "Headphones on = do not interrupt"
     physical_separation: "Work stays in office room"
-  
+
   communication_preferences:
     urgent: "Phone call"
     important: "Direct message with @mention"
@@ -179,7 +180,6 @@ Print or save this quick reference:
 - [ ] Contribution to team documentation or knowledge base
 - [ ] Active participation in at least one non-work community channel
 - [ ] Regular check-ins with manager about workload and well-being
-
 
 
 ## Related Articles

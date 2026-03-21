@@ -3,6 +3,7 @@ layout: default
 title: "Hot Desk Booking Software Comparison 2026"
 description: "Compare hot desk booking software for developers and power users. Evaluate API capabilities, integration options, and implementation patterns for 2026"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /hot-desk-booking-software-comparison-2026/
 categories: [guides]
@@ -175,7 +176,7 @@ Build a Slack-based booking workflow using incoming webhooks:
 // Slack booking notification handler
 app.post('/webhooks/booking-created', async (req, res) => {
   const { desk_name, user_email, start_time, end_time } = req.body;
-  
+
   const slackMessage = {
     channel: '#desk-bookings',
     text: `New booking: ${user_email} reserved ${desk_name}`,
@@ -189,7 +190,7 @@ app.post('/webhooks/booking-created', async (req, res) => {
       }
     ]
   };
-  
+
   await slackClient.chat.postMessage(slackMessage);
   res.status(200).send('OK');
 });
@@ -206,7 +207,6 @@ For teams with development capacity and specific requirements, a custom implemen
 The right choice depends on where your team spends most of their time and which systems already manage your workplace data. Evaluate APIs directly, test webhook reliability with your actual integration patterns, and verify rate limits match your expected usage before committing.
 
 ---
-
 
 
 ## Related Articles

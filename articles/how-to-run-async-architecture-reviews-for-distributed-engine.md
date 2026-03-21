@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Async Architecture Reviews for Distributed"
 description: "Learn practical strategies for conducting async architecture reviews in distributed engineering teams. Includes templates, workflows, and code examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-async-architecture-reviews-for-distributed-engine/
 categories: [guides]
@@ -332,7 +333,6 @@ Anti-Patterns to Prevent:
 ```
 
 Async processes work well when boundaries are clear and decision authority is explicit.
-
 
 
 ## Related Articles

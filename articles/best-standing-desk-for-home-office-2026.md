@@ -3,6 +3,7 @@ layout: default
 title: "Best Standing Desk for Home Office 2026"
 description: "A practical guide to the best standing desks for home office in 2026. Features, considerations, and smart integrations for developers and power users"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-standing-desk-for-home-office-2026/
 categories: [guides]
@@ -78,7 +79,7 @@ def get_plug_power_status(plug_ip: str) -> float:
     # Using tp-link smarthome protocol
     # Returns watts when desk is in use
     import socket
-    
+
     command = '{"system":{"get_sysinfo":{}}}'
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.sendto(command.encode(), (plug_ip, 9999))
@@ -100,10 +101,10 @@ def log_standing_time(power_threshold: float = 5.0):
     """Log standing desk usage periods."""
     usage_log = []
     current_session = None
-    
+
     while True:
         power = get_plug_power_status("192.168.1.100")  # Your plug IP
-        
+
         if power > power_threshold:
             if current_session is None:
                 current_session = {"start": datetime.now(), "type": "standing"}
@@ -115,7 +116,7 @@ def log_standing_time(power_threshold: float = 5.0):
                 ).total_seconds() / 60
                 usage_log.append(current_session)
                 current_session = None
-        
+
         time.sleep(60)  # Check every minute
 
 if __name__ == "__main__":
@@ -148,7 +149,7 @@ automation:
           data:
             push:
               sound: "default"
-    
+
   - alias: "Stand Up Notification"
     action:
       - service: tts.google_translate_tts
@@ -184,11 +185,12 @@ The most important factor is consistent use. A premium desk that stays in one po
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Compact Standing Desk for Small Apartment Home.](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
-- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
+- [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
+- [Cable Management Under Desk for Home Office With Standing](/remote-work-tools/cable-management-under-desk-for-home-office-with-standing-de/)
+- [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 - [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

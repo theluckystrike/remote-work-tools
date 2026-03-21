@@ -3,6 +3,7 @@ layout: default
 title: "Best Portable White Noise Speaker for Remote Parents Taking"
 description: "Discover the best portable white noise speaker for remote parents taking calls in shared spaces. Find practical solutions for maintaining"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/
 categories: [guides]
@@ -139,14 +140,14 @@ def apply_noise_gate(audio_signal, threshold_db=-40, attack_ms=10, release_ms=10
     Apply noise gate to reduce background noise.
     """
     threshold_linear = db_to_linear(threshold_db)
-    
+
     for sample in audio_signal:
         if sample < threshold_linear:
             gain = smooth_gain(sample, attack_ms)
         else:
             gain = smooth_gain(sample, release_ms)
         sample *= gain
-    
+
     return audio_signal
 ```
 
@@ -312,12 +313,14 @@ Solution: Direct speaker output toward your workspace only. Use headphone-based 
 **Problem: White noise in background of my calls bothers callers**
 Solution: Position speaker away from microphone (6+ feet), use noise gate in audio software to suppress sounds below certain threshold, or rely more on noise-canceling headphones than room-level white noise.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Noise Gate Microphone Setting for Remote Parents.](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
-- [Best Noise Cancelling Setup for Remote Work from Busy.](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
-- [Best Ambient Noise Apps for Focus While Coding](/remote-work-tools/best-ambient-noise-apps-for-focus-while-coding/)
+## Related Articles
+
+- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
+- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
+- [Best Noise Gate Microphone Setting for Remote Parents With](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [How to Reduce Fan Noise from Desktop PC During Video Calls](/remote-work-tools/how-to-reduce-fan-noise-from-desktop-pc-during-video-calls/)
+- [Best Note-Taking Apps for Remote Workers 2026](/remote-work-tools/best-note-taking-apps-remote-workers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

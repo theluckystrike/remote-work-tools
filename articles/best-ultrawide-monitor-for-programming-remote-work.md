@@ -3,6 +3,7 @@ layout: default
 title: "Example: Checking monitor USB-C capabilities"
 description: "A guide to choosing the best ultrawide monitor for programming and remote work. Learn what specs matter most for developers who need"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-ultrawide-monitor-for-programming-remote-work/
 reviewed: true
@@ -128,7 +129,7 @@ function calculateMonitorHeight(viewingDistance, screenSize) {
   // Rule of thumb: top of monitor at or slightly below eye level
   const eyeLevelOffset = viewingDistance * 0.1; // 10% of viewing distance
   const screenCenterHeight = (screenSize * 0.55); // approximate
-  
+
   return {
     topOfScreen: screenCenterHeight + (eyeLevelOffset * 0.5),
     screenCenter: screenCenterHeight
@@ -220,7 +221,6 @@ for_window [class=".*"] split horizontal 3; layout splith
 Configure your IDE for ultrawide use:
 - VS Code: Use the Explorer on the far left, editor in center, terminal on right
 - JetBrains: Enable wide layout in Settings > Appearance > Wide screen support
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Deal Brief: [Company Name]"
 description: "A practical guide for developers and power users building deal rooms for remote sales teams using shared documents and collaborative tools"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-sales-team-deal-room-with-shared-docume/
 reviewed: true
@@ -233,8 +234,6 @@ Document ownership transfer is a formal step in offboarding. The departing AE ad
 
 **Can external prospects access the deal room?**
 Yes, with caution. Share a view-only folder or a curated subset of documents—typically the proposal, mutual action plan, and security questionnaire responses. Keep internal coaching notes, pricing concession history, and competitor analysis private.
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Transition Team Rituals from Fully Remote to Hybrid"
 description: "Practical guide for developers and power users transitioning team rituals from fully remote to hybrid work. Includes code snippets and actionable examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/
 categories: [guides]
@@ -51,11 +52,11 @@ Reply in thread with your update.
 
 def schedule_standup(channel, standup_time="09:00"):
     """
-    Hybrid standup uses async written updates 
+    Hybrid standup uses async written updates
     + optional synchronous follow-up for those in office.
     """
     post_standup_prompt(channel, STANDUP_PROMPT)
-    
+
     # Office members can do quick 10-min sync after
     if is_office_day():
         schedule_optional_sync(channel, standup_time + "30min")
@@ -108,7 +109,7 @@ sprint_planning:
     - name: "Estimation"
       duration: "Before meeting"
       tool: "Planning Poker"
-  
+
   sync_phase:
     - name: "Commitment Discussion"
       duration: "60 minutes"
@@ -191,7 +192,6 @@ Track whether your hybrid rituals work through simple metrics:
 - Team sentiment in regular check-ins
 
 If remote participation drops or remote team members report feeling disconnected, revisit your hybrid meeting design immediately.
-
 
 
 ## Related Articles

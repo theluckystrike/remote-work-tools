@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Collaboration Tool for Technical Architects"
 description: "A practical guide for technical architects working remotely to document system dependencies. Compare tools, see code examples, and implement dependency"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-remote-collaboration-tool-for-technical-architects-docu/
 categories: [guides]
@@ -88,11 +89,11 @@ graph TD
     Users --> DB[(PostgreSQL)]
     Inventory --> DB
     Orders --> DB
-    
+
     classDef internal fill:#e1f5fe,stroke:#01579b
     classDef external fill:#fff3e0,stroke:#e65100
     classDef database fill:#e8f5e9,stroke:#1b5e20
-    
+
     class API,Auth,Users,Orders,Inventory internal
     class External external
     class Cache,DB database
@@ -119,11 +120,11 @@ def generate_mermaid(services):
                         lines.append(f"    {name} --> {dep_name}")
             else:
                 lines.append(f"    {name} --> {dep}")
-    
+
     lines.append("")
     lines.append("    classDef internal fill:#e1f5fe,stroke:#01579b")
     lines.append("    class " + ",".join(s['name'] for s in services) + " internal")
-    
+
     return "\n".join(lines)
 
 # Example usage
@@ -155,7 +156,7 @@ metadata:
 spec:
   owner: platform-team
   type: service
-  
+
   steps:
     - id: fetch-base
       action: fetch:cookiecutter
@@ -164,7 +165,7 @@ spec:
         values:
           name: ${{ parameters.name }}
           description: ${{ parameters.description }}
-          
+
     - id: publish
       action: catalog:register
       input:
@@ -195,16 +196,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Build dependency manifest
         run: |
           npm install --package-lock-only
-          
+
       - name: Upload to Dependency Track
         uses: cyclonedx/cyclonedx-npm@v1
         with:
           output-file: bom.xml
-          
+
       - name: Submit BOM
         run: |
           curl -X POST \
@@ -243,7 +244,7 @@ Regardless of tool choice, establish processes that work across time zones:
 # Related ADRs: docs/adr/004-user-service-architecture.md
 class UserService:
     """Handles user management and authentication.
-    
+
     Depends on:
     - auth-service for token validation
     - redis-cluster for session caching
@@ -266,12 +267,14 @@ for service in services/*/; do
 done
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Build Cross-Team Relationships in Large Remote.](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
-- [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+## Related Articles
+
+- [Best Whiteboarding Tool for Remote Architects Doing System](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Best SIP Phone Software for Remote Workers: A Technical](/remote-work-tools/best-sip-phone-software-for-remote-workers/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Best Webcam for Remote Meetings 2026: A Technical Guide](/remote-work-tools/best-webcam-for-remote-meetings-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

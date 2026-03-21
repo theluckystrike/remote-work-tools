@@ -3,6 +3,7 @@ layout: default
 title: "Ring Light vs Panel Light for Video Calls: A Developer Guide"
 description: "Technical comparison of ring lights and panel lights for video calls. Learn which lighting solution works best for developers and remote professionals"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /ring-light-vs-panel-light-for-video-calls/
 reviewed: true
@@ -57,13 +58,13 @@ function calculatePanelPosition(panelWidth, cameraDistance, subjectWidth) {
   // Key principle: light source should be 45-60 degrees from camera axis
   const angle = 45; // degrees from center
   const angleRad = angle * (Math.PI / 180);
-  
+
   // Calculate horizontal offset
   const horizontalOffset = cameraDistance * Math.tan(angleRad);
-  
+
   // Calculate vertical height (slightly above eye level)
   const verticalHeight = cameraDistance * 0.3;
-  
+
   return {
     horizontalOffset: horizontalOffset.toFixed(2) + 'm',
     verticalHeight: verticalHeight.toFixed(2) + 'm',
@@ -311,7 +312,6 @@ Light positioning is useless if camera is too low. Adjust monitor height so came
 4. Plug into wall outlet (AC powered models)
 5. Cost: Panel ($60-150) + stand ($25-40) + diffuser ($10-15) = $95-205
 6. Setup time: 10-15 minutes, more careful positioning required
-
 
 
 ## Related Articles

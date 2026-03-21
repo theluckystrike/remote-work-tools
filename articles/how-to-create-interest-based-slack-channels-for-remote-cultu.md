@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Interest-Based Slack Channels for Remote"
 description: "Learn how to build interest-based Slack channels that strengthen remote team culture. Practical examples, naming conventions, and automation scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-interest-based-slack-channels-for-remote-cultu/
 categories: [guides]
@@ -84,7 +85,7 @@ def add_new_user_to_interests(user_id, client):
         "interest-fitness",
         "interest-cooking"
     ]
-    
+
     for channel in interest_channels:
         try:
             client.conversations.invite(
@@ -198,8 +199,6 @@ Interest-based channels succeed when they become genuine communities rather than
 Start small, measure results, and iterate. The specific interests matter less than the principle of creating connection outside work tasks. Your team will be more cohesive, your retention will improve, and people will actually enjoy their remote work experience more.
 
 The best time to create interest channels was when your team formed. The second best time is today.
-
-
 
 
 ## Related Articles

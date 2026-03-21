@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Home Office in Bali Rental Apartment with"
 description: "A practical guide for developers and digital nomads setting up a productive home office in Bali rental apartments. Covers power infrastructure"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-home-office-in-bali-rental-apartment-with-reli/
 categories: [guides]
@@ -167,7 +168,7 @@ import subprocess
 import threading
 
 def on_power_loss():
-    subprocess.run(["rclone", "copy", "/home/dev/projects", 
+    subprocess.run(["rclone", "copy", "/home/dev/projects",
                     "gdrive:backups", "--fast-list"])
 
 def on_power_restore():
@@ -189,8 +190,6 @@ Before moving into your Bali rental:
 - [ ] Obtain necessary plug adapters
 - [ ] Set up automated backup systems
 - [ ] Configure network failover
-
-
 
 
 ## Related Articles

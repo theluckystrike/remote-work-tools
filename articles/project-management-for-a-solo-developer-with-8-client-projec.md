@@ -3,6 +3,7 @@ layout: default
 title: "Project Management for a Solo Developer with 8 Client"
 description: "Practical strategies and tools for managing 8 client projects simultaneously. Learn time-blocking, task isolation, and workflow automation techniques"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /project-management-for-a-solo-developer-with-8-client-projec/
 categories: [guides]
@@ -178,14 +179,13 @@ For managing multiple client projects, these tools prove invaluable:
 Choose tools that integrate with each other and don't require excessive maintenance. The best tool is one you'll actually use.
 
 
-
 ## Related Articles
 
-- [Best Project Management Tool for Solo Freelance Developers 2026](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
 - [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
 - [Best Invoicing Workflow for Solo Developer with](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

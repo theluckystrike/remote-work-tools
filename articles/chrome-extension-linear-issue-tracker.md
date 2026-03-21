@@ -3,6 +3,7 @@ layout: default
 title: "Chrome Extension Linear Issue Tracker: Practical Guide"
 description: "Discover Chrome extensions that integrate with Linear for issue tracking. Learn how to improve your workflow with browser-based Linear access, quick"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /chrome-extension-linear-issue-tracker/
 reviewed: true
@@ -92,7 +93,7 @@ chrome.action.onClicked.addListener(async (tab) => {
     description: "Source: " + tab.url,
     teamId: "YOUR_TEAM_ID"
   };
-  
+
   // Make API call to Linear
   const response = await fetch("https://api.linear.app/graphql", {
     method: "POST",
@@ -395,7 +396,6 @@ For teams of developers sharing a custom extension, publish to your internal Chr
 | Setup complexity | Medium | None | Low |
 
 Most efficient teams use Chrome extension + VS Code extension together.
-
 
 
 ## Related Articles

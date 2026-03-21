@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Client Communication Charter for Remote"
 description: "A practical guide to building a client communication charter that scales your remote agency. Includes templates, code examples, and implementation steps"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-communication-charter-for-remote-agency/
 categories: [guides]
@@ -275,7 +276,6 @@ Real-world projects have predictable disruptions. Build these into your charter 
 - **Team member absences**: Specify that PTO doesn't mean you abandon the client, but does mean someone covers with potentially longer response times
 
 Addressing these predictable events prevents clients from being surprised and frustrated when they occur.
-
 
 
 ## Related Articles

@@ -111,7 +111,7 @@ The final phase produces the canonical quarterly plan. This document becomes the
 - Success metric: 99.9% payment success rate
 - Timeline: Weeks 1-6
 
-### Platform Team  
+### Platform Team
 - Objective: API rate limiting
 - Success metric: <100ms p99 latency
 - Timeline: Weeks 1-4
@@ -185,11 +185,13 @@ A quarterly plan isn't set-and-forget. Build in a mid-quarter sync (around week 
 The most effective quarterly planning processes combine bottom-up input (what teams believe they can accomplish) with top-down direction (strategic priorities from leadership). Teams that feel ownership over their commitments perform better than teams that receive mandates.
 
 
-## Related Reading
+## Related Articles
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [How to Run Remote Team Quarterly Business Review for](/remote-work-tools/how-to-run-remote-team-quarterly-business-review-for-distrib/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [Best Tools for Remote Team Offsite Planning 2026](/remote-work-tools/best-tools-for-remote-team-offsite-planning-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

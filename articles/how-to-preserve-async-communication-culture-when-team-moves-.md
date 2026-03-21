@@ -3,6 +3,7 @@ layout: default
 title: "How to Preserve Async Communication Culture When Team Moves"
 description: "A practical guide for developers and power users on maintaining asynchronous communication patterns when transitioning from fully remote to hybrid work"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-preserve-async-communication-culture-when-team-moves-/
 categories: [guides]
@@ -61,7 +62,7 @@ def configure_focus_hours():
         {"start": "12:00", "end": "14:00"},
         {"start": "16:00", "end": "18:00"}
     ]
-    
+
     for block in focus_blocks:
         # Set up DND profile during focus blocks
         print(f"Focus time: {block['start']} - {block['end']}")
@@ -102,12 +103,12 @@ standup:
   schedule:
     timezone: "UTC"
     time: "09:00"  # Everyone reads at their convenience
-  
+
   questions:
     - "What did you accomplish yesterday?"
     - "What will you work on today?"
     - "Any blockers?"
-  
+
   reminder:
     - type: "slack"
       time: "08:30"
@@ -182,14 +183,13 @@ Track metrics that indicate whether your async culture is thriving or degrading:
 Review these metrics monthly and adjust your practices accordingly.
 
 
-
 ## Related Articles
 
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 - [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
 - [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
 - [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
-- [Best Practice for Preserving Remote Team Culture When](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubli/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

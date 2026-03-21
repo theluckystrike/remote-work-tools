@@ -1,8 +1,9 @@
 ---
 layout: default
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
-title: "How to Manage Remote Team Documentation Debt: Complete Guide (2026)"
+title: "How to Manage Remote Team Documentation Debt: Complete Guide"
 description: "Practical guide to identifying, measuring, and reducing documentation debt. Includes audit frameworks, templates, and tool comparisons for distributed teams."
 permalink: /remote-work-tools/manage-documentation-debt/
 categories: [guides]
@@ -561,10 +562,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Generate API docs
         run: npm run docs:generate
-      
+
       - name: Update wiki
         run: |
           cp docs/api.md wiki/api.md
@@ -653,7 +654,6 @@ Documentation debt doesn't disappear without systematic effort. The framework pr
 Start with Step 1 (audit) and Step 2 (measurement). Understanding your starting point enables realistic timelines and shows ROI when you improve. Even 3-4 hours of monthly documentation maintenance prevents debt from accumulating.
 
 For remote teams, documentation quality directly impacts productivity, onboarding success, and team morale. Investing in documentation infrastructure pays dividends quickly.
-
 
 
 ## Related Articles

@@ -3,12 +3,13 @@ layout: article
 title: "How to Do Async Code Pairing with Recorded Screen Share"
 description: "Learn how to conduct effective async code pairing sessions using recorded screen shares. Complete 2026 guide for remote development teams"
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: "Remote Work Tools Guide"
-categories: 
+categories:
  - remote-work
  - collaboration
  - development
-tags: 
+tags:
  - async code pairing
  - remote pair programming
  - screen recording
@@ -22,7 +23,6 @@ intent-checked: true
 voice-checked: true
 ---
 categories: [guides]
-
 
 
 {% raw %}
@@ -188,7 +188,7 @@ const asyncCodePairingWorkflow = {
 
 **Timestamps:**
 - 0:00 - Introduction and goal
-- 1:30 - Current code overview  
+- 1:30 - Current code overview
 - 3:45 - Starting implementation
 - 8:20 - Handling edge cases
 - 12:00 - Testing the solution
@@ -263,7 +263,6 @@ Before your first async code pairing session:
 - [ ] Set up a channel or folder for sharing recordings
 - [ ] Share the workflow with your team
 - [ ] Schedule your first async code pairing session
-
 
 
 ## Related Articles

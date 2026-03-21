@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Client Revision Rounds in Remote Design Agency"
 description: "A practical guide to managing client revision rounds in remote design agencies. Includes async workflows, code templates, and implementation strategies"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-client-revision-rounds-in-remote-design-agency/
 categories: [guides]
@@ -422,7 +423,6 @@ After completing each project, take time to document what worked and what didn't
 - Scope creep instances and their cost impact
 
 This data helps you refine your scoping process and identify areas where client education might reduce revision friction. Over time, you'll develop increasingly accurate estimates and more effective communication patterns.
-
 
 
 ## Related Articles

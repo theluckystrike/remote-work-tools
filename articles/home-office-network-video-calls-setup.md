@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Network Setup for Video Calls"
 description: "Optimize your home office network for video calls: wired vs Wi-Fi, router QoS settings, VLAN separation, bandwidth testing, and ISP upgrade decision framework."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /home-office-network-video-calls-setup/
 categories: [guides]
@@ -236,7 +237,6 @@ top -o cpu | head -20
 # Linux
 htop
 ```
-
 
 
 ## Related Articles

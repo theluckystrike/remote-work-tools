@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Real Estate Photographers"
 description: "Technical guide for remote real estate photographers delivering virtual tours efficiently. Includes automation scripts, workflow optimization, and API"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-real-estate-photographers-deliverin/
 categories: [guides]
@@ -44,12 +45,12 @@ class VirtualTourProcessor:
         self.output_dir = Path(output_dir)
         self.quality = 85
         self.max_workers = 4
-    
+
     def optimize_image(self, image_path):
         """Optimize single image using ImageMagick"""
         output_name = f"opt_{image_path.name}"
         output_path = self.output_dir / output_name
-        
+
         cmd = [
             'convert', str(image_path),
             '-quality', str(self.quality),
@@ -57,21 +58,21 @@ class VirtualTourProcessor:
             '-auto-orient',
             str(output_path)
         ]
-        
+
         subprocess.run(cmd, check=True, capture_output=True)
         return output_path
-    
+
     def process_property(self, property_dir):
         """Process single property directory"""
         property_name = property_dir.name
         property_output = self.output_dir / property_name
         property_output.mkdir(parents=True, exist_ok=True)
-        
+
         images = list(property_dir.glob('*.jpg')) + list(property_dir.glob('*.png'))
-        
+
         with ProcessPoolExecutor(max_workers=self.max_workers) as executor:
             futures = {executor.submit(self.optimize_image, img): img for img in images}
-            
+
             results = []
             for future in as_completed(futures):
                 img = futures[future]
@@ -81,18 +82,18 @@ class VirtualTourProcessor:
                     print(f"Processed: {img.name}")
                 except Exception as e:
                     print(f"Error processing {img.name}: {e}")
-        
+
         return property_name, len(results)
-    
+
     def batch_process(self):
         """Process all property directories"""
         property_dirs = [d for d in self.base_path.iterdir() if d.is_dir()]
         results = []
-        
+
         for prop_dir in property_dirs:
             name, count = self.process_property(prop_dir)
             results.append(f"{name}: {count} images")
-        
+
         return results
 
 # Usage
@@ -133,7 +134,7 @@ class TourGenerator {
 
   async createScene(sceneConfig) {
     const { id, title, image, hotSpots, initialView } = sceneConfig;
-    
+
     return {
       type: 'equirectangular',
       panorama: `${this.baseUrl}/${image}`,
@@ -147,7 +148,7 @@ class TourGenerator {
 
   async generateTour(propertyData) {
     const scenes = [];
-    
+
     for (const room of propertyData.rooms) {
       const scene = await this.createScene({
         id: room.id,
@@ -156,27 +157,27 @@ class TourGenerator {
         hotSpots: this.generateHotspots(room),
         initialView: room.initialView
       });
-      
+
       this.tourConfig.scenes[room.id] = scene;
     }
-    
+
     this.tourConfig.default.firstScene = propertyData.rooms[0].id;
-    
+
     const outputFile = path.join(
-      this.outputDir, 
-      propertyData.id, 
+      this.outputDir,
+      propertyData.id,
       'tour-config.json'
     );
-    
+
     await fs.mkdir(path.dirname(outputFile), { recursive: true });
     await fs.writeFile(outputFile, JSON.stringify(this.tourConfig, null, 2));
-    
+
     return outputFile;
   }
 
   generateHotspots(room) {
     const hotspots = [];
-    
+
     for (const connection of room.connections || []) {
       hotspots.push({
         pitch: connection.pitch || 0,
@@ -187,7 +188,7 @@ class TourGenerator {
         cssClass: 'custom-hotspot'
       });
     }
-    
+
     return hotspots;
   }
 }
@@ -238,17 +239,17 @@ class TourDeliveryService:
         self.s3 = boto3.client('s3', region_name=aws_region)
         self.bucket = bucket_name
         self.url_expiry = 7 * 24 * 60 * 60  # 7 days
-    
+
     def upload_tour(self, local_path, property_id):
         """Upload tour files to S3 with proper structure"""
         s3_prefix = f"tours/{property_id}"
-        
+
         for root, dirs, files in os.walk(local_path):
             for file in files:
                 local_file = os.path.join(root, file)
                 relative_path = os.path.relpath(local_file, local_path)
                 s3_key = f"{s3_prefix}/{relative_path}"
-                
+
                 self.s3.upload_file(
                     local_file,
                     self.bucket,
@@ -258,9 +259,9 @@ class TourDeliveryService:
                         'CacheControl': 'max-age=31536000'
                     }
                 )
-        
+
         return s3_prefix
-    
+
     def generate_delivery_link(self, s3_prefix, client_email):
         """Generate time-limited delivery link"""
         url = self.s3.generate_presigned_url(
@@ -271,7 +272,7 @@ class TourDeliveryService:
             },
             ExpiresIn=self.url_expiry
         )
-        
+
         # Store delivery record
         delivery_record = {
             'property_id': s3_prefix.split('/')[-1],
@@ -279,9 +280,9 @@ class TourDeliveryService:
             'generated_at': datetime.utcnow().isoformat(),
             'expires_at': (datetime.utcnow() + timedelta(seconds=self.url_expiry)).isoformat()
         }
-        
+
         return url, delivery_record
-    
+
     @staticmethod
     def get_content_type(filename):
         ext = filename.split('.')[-1].lower()
@@ -316,7 +317,7 @@ for img in "$TOUR_DIR"/*.jpg; do
         RES=$(identify -format "%w %h" "$img")
         WIDTH=$(echo $RES | cut -d' ' -f1)
         HEIGHT=$(echo $RES | cut -d' ' -f2)
-        
+
         if [ "$WIDTH" -lt 1920 ] || [ "$HEIGHT" -lt 1080 ]; then
             echo "ERROR: Low resolution image: $img (${WIDTH}x${HEIGHT})"
             ERRORS=$((ERRORS + 1))
@@ -492,12 +493,14 @@ rq worker tour_processing &
 
 Scale workers up during peak season and down during slow periods. This approach handles demand spikes without over-provisioning infrastructure year-round.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
-- [Best Practice for Remote Team Offboarding at Scale.](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [How to Run Remote Real Estate Closings with Digital.](/remote-work-tools/how-to-run-remote-real-estate-closings-with-digital-notariza/)
+## Related Articles
+
+- [How to Run Remote Real Estate Closings with Digital](/remote-work-tools/how-to-run-remote-real-estate-closings-with-digital-notariza/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Practice for Remote Accountants Handling Client Tax](/remote-work-tools/best-practice-for-remote-accountants-handling-client-tax-doc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

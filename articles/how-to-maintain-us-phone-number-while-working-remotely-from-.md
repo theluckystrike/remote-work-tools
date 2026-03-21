@@ -3,6 +3,7 @@ layout: default
 title: "Track all critical accounts requiring phone verification"
 description: "A practical guide for developers and power users on keeping your US phone number while working remotely from Portugal or Spain. Includes code examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-maintain-us-phone-number-while-working-remotely-from-/
 categories: [guides]
@@ -272,8 +273,6 @@ Update your email and secondary phone numbers with all critical accounts before 
 | Google Voice + Twilio backup | $8 | 99% | 2 hours |
 
 **Recommended hybrid approach for developers**: Use Google Voice for personal contacts (free) and Twilio ($5-15/month) for critical services like banking. This provides redundancy—if Google Voice fails, Twilio continues working. Total cost: $5-15/month with 99%+ reliability.
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Japan Digital Nomad Visa Requirements for Remote Software"
 description: "Complete guide to Japan digital nomad visa requirements for remote software engineers applying in 2026. Eligibility criteria, application process"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /japan-digital-nomad-visa-requirements-for-remote-software-en/
 categories: [guides]
@@ -97,7 +98,7 @@ def calculate_monthly_income(annual_salary_jpy):
     """Check if you meet the monthly threshold"""
     monthly = annual_salary_jpy / 12
     required_monthly = 10_000_000 / 12
-    
+
     return {
         "monthly_income": monthly,
         "required": required_monthly,
@@ -301,8 +302,6 @@ Completing these tasks ensures you're legally established and can work comfortab
 - [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 
 Built by
-
-
 
 
 ## Related Articles

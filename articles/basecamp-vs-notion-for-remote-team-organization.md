@@ -60,19 +60,19 @@ class RateLimiter:
         self.max_requests = max_requests
         self.window = timedelta(seconds=window_seconds)
         self.requests: dict[str, list[datetime]] = defaultdict(list)
-    
+
     def allow_request(self, client_id: str) -> bool:
         now = datetime.now()
         window_start = now - self.window
-        
+
         self.requests[client_id] = [
             ts for ts in self.requests[client_id]
             if ts > window_start
         ]
-        
+
         if len(self.requests[client_id]) >= self.max_requests:
             return False
-        
+
         self.requests[client_id].append(now)
         return True
 ```
@@ -102,7 +102,7 @@ async function getSprintTasks(sprintDatabaseId) {
     },
     sorts: [{ property: 'Priority', direction: 'ascending' }]
   });
-  
+
   return response.results.map(page => ({
     id: page.id,
     title: page.properties.Name.title[0]?.plain_text,
@@ -290,11 +290,14 @@ After 3 weeks of real usage, the right tool becomes obvious. Most teams have cle
 
 ---
 
-## Related Reading
 
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [How to Manage Sprints with Remote Team](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+## Related Articles
+
+- [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)
+- [Remote Team Information Architecture Overhaul Guide When](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+- [Basecamp vs ClickUp for a 25-Person Remote Creative Agency](/remote-work-tools/basecamp-vs-clickup-for-a-25-person-remote-creative-agency/)
+- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Productivity Tips for Digital Nomads on the Road"
 description: "The most effective productivity strategy for digital nomads is building a portable command center with version-controlled dotfiles and offline-capable tools"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /productivity-tips-for-digital-nomads-on-the-road/
 categories: [guides]
@@ -79,7 +80,7 @@ check_connection() {
   local host=$1
   local count=3
   local loss=$(ping -c $count "$host" 2>/dev/null | grep -o '[0-9]*%' | tr -d '%')
-  
+
   if [ -z "$loss" ]; then
     echo "✗ Cannot reach $host"
     return 1
@@ -115,12 +116,12 @@ Use timezone conversion tools integrated into your workflow rather than manual c
 // Simple Node.js script for timezone-aware meeting scheduling
 const meetingScheduler = (teamMembers) => {
   const workingHours = { start: 9, end: 18 };
-  
+
   teamMembers.forEach(member => {
     const offset = member.timezoneOffset; // hours from UTC
     const localStart = workingHours.start - offset;
     const localEnd = workingHours.end - offset;
-    
+
     console.log(`${member.name}: ${localStart}:00 - ${localEnd}:00 local`);
   });
 };
@@ -201,7 +202,6 @@ Reduce decision fatigue by establishing non-negotiable defaults:
 - Same breakfast order everywhere: Eliminates one daily decision
 - Standard work locations: Return to the same cafés and co-working spaces rather than constantly exploring new options
 - Automated workflows: Use scripts for routine tasks rather than manually performing them each time
-
 
 
 ## Related Articles

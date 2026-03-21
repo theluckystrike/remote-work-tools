@@ -3,6 +3,7 @@ layout: default
 title: "Distributed Team Holiday Celebration Ideas Across Cultures"
 description: "Use rotating meeting slots instead of forcing one global time, combine async-first celebrations (music playlists, recipe sharing) with optional real-time"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /distributed-team-holiday-celebration-ideas-across-cultures-a/
 reviewed: true
@@ -40,24 +41,24 @@ def generate_rotating_slots(start_date, num_weeks, team_timezones):
     """
     slots = []
     base_date = start_date
-    
+
     for week in range(num_weeks):
         # Each week, shift the meeting time to favor a different region
         timezone = team_timezones[week % len(team_timezones)]
         tz = pytz.timezone(timezone)
-        
+
         # Schedule for Thursday 3pm in the current timezone
         meeting_time = tz.localize(
             base_date + timedelta(weeks=week, days=3, hours=15)
         )
-        
+
         slots.append({
             'week': week + 1,
             'timezone': timezone,
             'utc': meeting_time.astimezone(pytz.UTC),
             'local_time': meeting_time.strftime('%A %I:%M %p')
         })
-    
+
     return slots
 
 # Example usage
@@ -153,7 +154,7 @@ def find_optimal_meeting_slots(team_members, duration_minutes=60):
     Use Cronofy API to find slots where all team members are available.
     """
     client = cronofy.Client(access_token='your_access_token')
-    
+
     # Get available slots that work for everyone
     available = client.available_smart_invite(
         calendar_ids=team_members,
@@ -161,7 +162,7 @@ def find_optimal_meeting_slots(team_members, duration_minutes=60):
         end=datetime(2026, 12, 31),
         duration=duration_minutes * 60
     )
-    
+
     return available['available_slots']
 ```
 
@@ -178,7 +179,6 @@ Virtual Background Competition: Invite team members to create and share holiday-
 Memory Wall: Create a shared digital space (Miro board, Notion page, or shared folder) where team members post photos and videos from their local celebrations.
 
 Dedicated Chat Channel: Create a temporary Slack or Discord channel specifically for holiday sharing—photos, videos, wishes in multiple languages.
-
 
 
 ## Related Articles

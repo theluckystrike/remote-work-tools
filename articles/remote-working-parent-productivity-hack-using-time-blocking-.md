@@ -3,6 +3,7 @@ layout: default
 title: "Add to crontab for daily school-day reminders"
 description: "The school bus schedule—6-7 hours of uninterrupted time—is the most valuable productivity anchor available to remote parents; using time blocking during these"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-productivity-hack-using-time-blocking-/
 categories: [guides]
@@ -70,22 +71,22 @@ function createSchoolYearBlocks() {
   const calendar = CalendarApp.getDefaultCalendar();
   const startDate = new Date('2026-09-01');
   const endDate = new Date('2027-06-15');
-  
+
   const busDeparture = '07:45';
   const busArrival = '15:15';
-  
+
   let currentDate = new Date(startDate);
-  
+
   while (currentDate <= endDate) {
     // Skip weekends
     if (currentDate.getDay() !== 0 && currentDate.getDay() !== 6) {
       // Create morning deep work block
-      calendar.createEvent('Deep Work - Morning', 
+      calendar.createEvent('Deep Work - Morning',
         new Date(currentDate.toDateString() + ' ' + busDeparture),
         new Date(currentDate.toDateString() + ' 09:30'),
         { description: 'Protected focus time', visibility: 'private' }
       );
-      
+
       // Create afternoon deep work block
       calendar.createEvent('Deep Work - Afternoon',
         new Date(currentDate.toDateString() + ' 10:00'),
@@ -151,9 +152,9 @@ The school bus schedule isn't perfectly predictable. Snow days, early release, a
 Create a standard message for schedule disruptions:
 
 ```javascript
-const absenceMessage = (hoursAffected) => 
-  `Quick heads up: ${hoursAffected} hours of my day shifted to childcare. 
-   May have delayed responses. Prioritizing critical production issues. 
+const absenceMessage = (hoursAffected) =>
+  `Quick heads up: ${hoursAffected} hours of my day shifted to childcare.
+   May have delayed responses. Prioritizing critical production issues.
    Back to full availability tomorrow.`;
 ```
 
@@ -186,8 +187,6 @@ The school bus waits for no one—but it also grants you a gift. Those yellow wh
 Build your time blocks around the bus. Protect them fiercely. Watch your output transform.
 
 ---
-
-
 
 
 ## Related Articles

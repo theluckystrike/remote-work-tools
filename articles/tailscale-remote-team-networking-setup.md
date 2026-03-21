@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Tailscale for Remote Team Networking Setup"
-description: "Set up Tailscale for remote team networking: install on all devices, configure ACLs, set up subnet routes and exit nodes, and replace your VPN with a mesh network."
+description: "Set up Tailscale for remote team networking: install on all devices, configure ACLs, set up subnet routes and exit nodes, and replace your VPN with a mesh"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /tailscale-remote-team-networking-setup/
 categories: [guides]
@@ -259,7 +260,6 @@ sudo tailscale up --authkey tskey-auth-XXXXXX --advertise-tags tag:dev-server
 # For ephemeral nodes (e.g., CI runners) that deregister when stopped
 sudo tailscale up --authkey tskey-auth-XXXXXX --ephemeral
 ```
-
 
 
 ## Related Articles

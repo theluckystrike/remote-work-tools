@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Sprints with Remote Team: A Practical"
 description: "- What did you complete?"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-sprints-with-remote-team/
 categories: [guides]
@@ -290,8 +291,6 @@ Managing sprints with remote teams succeeds when you:
 Start with async standups this week, add capacity planning next sprint, and iterate from there.
 
 ---
-
-
 
 
 ## Related Articles

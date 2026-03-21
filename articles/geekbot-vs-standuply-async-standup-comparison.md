@@ -3,6 +3,7 @@ layout: default
 title: "GeekBot vs Standuply: Async Standup Tools Compared"
 description: "A practical comparison of GeekBot and Standuply for asynchronous standups. Learn how each tool handles scheduled surveys, Slack integration, and team"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /geekbot-vs-standuply-async-standup-comparison/
 reviewed: true
@@ -172,8 +173,6 @@ For most developer teams, the decision comes down to team size and workflow comp
 5. Quarterly reviews of standup data—remove questions that consistently get low engagement or don't inform decisions
 
 Both tools solve the fundamental problem of keeping remote teams aligned without daily synchronous meetings. The right choice depends on your specific workflow requirements and how much infrastructure you want around your standup process.
-
-
 
 
 ## Related Articles

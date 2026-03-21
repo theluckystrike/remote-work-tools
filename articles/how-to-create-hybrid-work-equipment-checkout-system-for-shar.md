@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Hybrid Work Equipment Checkout System for Shar"
 description: "A practical guide for developers building equipment checkout systems for hybrid workplaces. Includes code examples and architecture patterns"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-hybrid-work-equipment-checkout-system-for-shar/
 reviewed: true
@@ -232,7 +233,6 @@ As your deployment grows, several patterns help maintain performance. First, imp
 For organizations with multiple office locations, your data model should support location-aware queries. Employees should see equipment available at their primary office first, with optional filters for nearby locations. If your offices are in the same metro area, consider supporting cross-location reservations where an employee can reserve at a secondary location for pickup—but require manager approval before enabling this capability to prevent inadvertent equipment migration across sites.
 
 Finally, think carefully about your reporting layer before launch. Facilities teams need utilization by category (are we under-stocked on monitors? over-stocked on webcams?) and trending data by quarter. HR may need aggregate checkout activity by team for asset planning. Building these reports into the initial scope—even as simple CSV exports—prevents a long backlog of reporting requests six months post-launch.
-
 
 
 ## Related Articles

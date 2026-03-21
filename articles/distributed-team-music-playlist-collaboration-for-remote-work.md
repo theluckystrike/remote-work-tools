@@ -3,6 +3,7 @@ layout: default
 title: "Post new team playlist additions to Slack every 4 hours"
 description: "Discover the best tools and strategies for creating shared music playlists that remote teams can enjoy together, boosting morale and connection across"
 date: 2026-03-17
+last_modified_at: 2026-03-17
 author: "Remote Work Tools Guide"
 permalink: /distributed-team-music-playlist-collaboration-for-remote-work/
 reviewed: true
@@ -170,8 +171,6 @@ Over-automation: While automation reduces manual work, completely automating pla
 Starting a team playlist takes minimal effort but can significantly impact team culture. Pick one platform where most team members already have accounts, create your first collaborative playlist, share the link in your team chat, and invite contributions.
 
 Start with a simple focus playlist for everyday deep work, then expand to themed playlists for different occasions. Within a few weeks, you'll likely notice increased informal conversation and a stronger sense of shared team identity—all from something as simple as sharing songs together.
-
-
 
 
 ## Related Articles

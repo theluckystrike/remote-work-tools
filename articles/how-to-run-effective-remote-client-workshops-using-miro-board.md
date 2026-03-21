@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Effective Remote Client Workshops Using Miro"
 description: "Remote client workshops require careful planning and the right digital tools to maintain engagement and collaboration. Miro Board provides a powerful platform"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-board/
 categories: [guides]
@@ -323,7 +324,6 @@ Track metrics across multiple workshops:
 | Time accuracy | Workshop ended on time | Yes/No |
 
 If satisfaction drops below 3.5/5 or participation below 60%, review recording and ask for specific feedback on which elements didn't work.
-
 
 
 ## Related Articles

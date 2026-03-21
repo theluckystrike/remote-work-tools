@@ -3,6 +3,7 @@ layout: default
 title: "How to Share Home Office with Partner Both on Calls"
 description: "Practical strategies and technical solutions for couples working from home who both need to take video calls. Acoustic treatment, scheduling systems"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-share-home-office-with-partner-both-on-calls/
 categories: [guides]
@@ -94,7 +95,7 @@ def find_overlaps(events):
     overlaps = []
     # Sort by start time
     events.sort(key=lambda x: x['start'])
-    
+
     for i, event in enumerate(events):
         for other_event in events[i+1:]:
             # Check if times overlap on same day
@@ -114,7 +115,7 @@ if __name__ == "__main__":
     calendars = ['partner1.ics', 'partner2.ics']
     all_events = parse_ics_files(calendars)
     overlaps = find_overlaps(all_events)
-    
+
     if overlaps:
         print("⚠️  Call overlaps detected:")
         for overlap in overlaps:
@@ -362,7 +363,6 @@ Clear signals prevent most tensions:
 ```
 
 Couples who implement this protocol report zero lingering frustration. The signal system prevents surprise interruptions (largest source of tension).
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Return to Office Employee Survey Template"
 description: "A practical guide to building a return to office employee survey with code examples. Measure sentiment, analyze results, and make data-driven decisions"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /return-to-office-employee-survey-template-measuring-sentimen/
 categories: [guides]
@@ -92,7 +93,7 @@ For developers building internal tools, here's a practical implementation using 
 <body>
     <h1>Return to Office Employee Survey</h1>
     <p>Your feedback helps shape workplace policy for 2026. All responses are anonymous.</p>
-    
+
     <form id="surveyForm">
         <div class="question">
             <label>1. Current Work Arrangement</label>
@@ -155,7 +156,7 @@ For developers building internal tools, here's a practical implementation using 
     <script>
         document.getElementById('surveyForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            
+
             const formData = new FormData(e.target);
             const data = {
                 timestamp: new Date().toISOString(),
@@ -172,10 +173,10 @@ For developers building internal tools, here's a practical implementation using 
             }
 
             console.log(JSON.stringify(data, null, 2));
-            
+
             // In production, send to your API:
             // fetch('/api/survey', { method: 'POST', body: JSON.stringify(data) });
-            
+
             alert('Survey submitted! (Check console for JSON output)');
         });
     </script>
@@ -215,7 +216,7 @@ function analyzeSurveyResults(responses) {
 
         // Current arrangement
         const arrangement = response.responses.current_arrangement;
-        analysis.currentArrangement[arrangement] = 
+        analysis.currentArrangement[arrangement] =
             (analysis.currentArrangement[arrangement] || 0) + 1;
     });
 
@@ -264,8 +265,6 @@ Consider offering small incentives. Gift cards or charitable donations in employ
 ---
 
 Building an effective RTO sentiment survey requires thoughtful question design, secure data collection, and rigorous analysis. The template and code examples above provide a starting point for developers building internal tooling. The key is gathering authentic feedback before making policy changes that affect your team's daily work life.
-
-
 
 
 ## Related Articles

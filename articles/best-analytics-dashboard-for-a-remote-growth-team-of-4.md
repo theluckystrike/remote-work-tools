@@ -50,13 +50,13 @@ Connect Metabase to your data warehouse using environment variables or the admin
 Create a basic funnel question using SQL for a typical growth team:
 
 ```sql
-SELECT 
+SELECT
   DATE_TRUNC('day', event_time) AS day,
   COUNT(DISTINCT user_id) FILTER WHERE event_name = 'page_view') AS visitors,
   COUNT(DISTINCT user_id FILTER WHERE event_name = 'sign_up') AS signups,
   COUNT(DISTINCT user_id FILTER WHERE event_name = 'completed_onboarding') AS activated,
   ROUND(
-    COUNT(DISTINCT user_id FILTER WHERE event_name = 'sign_up')::numeric / 
+    COUNT(DISTINCT user_id FILTER WHERE event_name = 'sign_up')::numeric /
     COUNT(DISTINCT user_id FILTER WHERE event_name = 'page_view')::numeric * 100,
     2
   ) AS conversion_rate
@@ -116,7 +116,7 @@ Connect Grafana to your analytics backend using the built-in data source configu
 Create a growth-focused dashboard with Prometheus-style queries or direct SQL. Here's a panel query for daily active users:
 
 ```sql
-SELECT 
+SELECT
   date_trunc('day', occurred_at) AS time,
   COUNT(DISTINCT user_id) AS dau
 FROM user_events
@@ -136,14 +136,14 @@ The real-time dashboard shows active connections, database performance, and stor
 
 ```sql
 CREATE VIEW daily_growth_metrics AS
-SELECT 
+SELECT
   created_date,
   total_signups,
   total_active,
   paid_subscriptions,
   LAG(total_signups) OVER (ORDER BY created_date) AS previous_day_signups
 FROM (
-  SELECT 
+  SELECT
     DATE(created_at) AS created_date,
     COUNT(*) FILTER (WHERE event = 'signup') AS total_signups,
     COUNT(*) FILTER (WHERE event = 'active') AS total_active,
@@ -174,12 +174,13 @@ Tool selection matters less than usage patterns. Establish a weekly dashboard re
 The four-person growth team advantage is agility. Your dashboard should amplify that advantage, not become another system that requires maintenance without delivering insight.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Financial Dashboard Tool for CFO: Tracking.](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
-- [Shared Inbox Tool for a 4 Person Remote Customer Success.](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
+- [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [Remote Team Financial Dashboard Tool for CFO](/remote-work-tools/remote-team-financial-dashboard-tool-for-cfo-tracking-distri/)
+- [Upload to your analytics backend](/remote-work-tools/best-occupancy-analytics-platform-for-hybrid-offices-trackin/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

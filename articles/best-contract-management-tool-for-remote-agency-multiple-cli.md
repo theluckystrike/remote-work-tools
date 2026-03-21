@@ -148,13 +148,13 @@ def check_expiring(days: int = 30):
 def main():
     parser = argparse.ArgumentParser(description="Contract management CLI")
     subparsers = parser.add_subparsers(dest="command")
-    
+
     subparsers.add_parser("list", help="List all contracts")
     subparsers.add_parser("expiring", help="Check expiring contracts")
     subparsers.add_parser("git", help="Open git interface")
-    
+
     args = parser.parse_args()
-    
+
     if args.command == "list":
         list_contracts()
     elif args.command == "expiring":
@@ -202,7 +202,7 @@ async function updateContractStatus(contractId, status) {
     'signed': 'Active Contracts',
     'expired': 'Archive'
   }[status];
-  
+
   // API call to update project
 }
 ```
@@ -223,12 +223,13 @@ The right tool is the one your team will actually use consistently. A simple sys
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Agency Client NDA and Contract Signing Workflow.](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
-- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
-- [Remote Agency Subcontractor Client Communication.](/remote-work-tools/remote-agency-subcontractor-client-communication-boundaries-/)
+- [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
+- [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
+- [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

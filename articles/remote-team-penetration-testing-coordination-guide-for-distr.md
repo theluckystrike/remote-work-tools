@@ -3,6 +3,7 @@ layout: default
 title: "Deploy a secure Element (Matrix) server for pen test"
 description: "A practical guide for coordinating penetration testing activities across distributed security teams. Includes code examples and coordination workflows"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-penetration-testing-coordination-guide-for-distr/
 categories: [guides]
@@ -217,8 +218,6 @@ pandoc finding.md -o finding.pdf \
 Success in distributed penetration testing boils down to three practices. First, over-communicate status—assume others don't know what you're working on unless you've explicitly told them. Second, document everything—oral handoffs and Slack messages disappear; written documentation remains. Third, respect boundaries—testing windows exist to protect team wellbeing; honor them.
 
 Remote penetration testing coordination requires more deliberate structure than collocated testing, but the distributed model offers advantages: broader testing hour coverage, diverse security perspectives, and resilience against single points of failure. With proper workflows in place, your distributed team can execute assessments as effectively as any in-person red team.
-
-
 
 
 ## Related Articles

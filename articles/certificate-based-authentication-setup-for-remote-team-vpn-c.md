@@ -3,6 +3,7 @@ layout: default
 title: "Certificate Based Authentication Setup for Remote Team VPN"
 description: "A practical guide to implementing certificate based authentication for remote team VPN connections. Includes OpenVPN, WireGuard configurations and PKI"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /certificate-based-authentication-setup-for-remote-team-vpn-c/
 categories: [guides]
@@ -172,7 +173,7 @@ def validate_certificate(cert_path, ca_path):
             '-crl_check', 'crl.pem',
             cert_path
         ], capture_output=True, text=True)
-        
+
         return result.returncode == 0
     except Exception as e:
         print(f"Validation error: {e}")
@@ -181,7 +182,7 @@ def validate_certificate(cert_path, ca_path):
 if __name__ == '__main__':
     client_cert = sys.argv[1]
     ca_cert = 'ca.crt'
-    
+
     if validate_certificate(client_cert, ca_cert):
         sys.exit(0)
     else:
@@ -236,7 +237,7 @@ openssl x509 -in employee.crt -noout -dates
 for cert in client-certs/*.crt; do
   expiry=$(openssl x509 -in "$cert" -noout -enddate | cut -d= -f2)
   days_until=$(($(date -d "$expiry" +%s) - $(date +%s)) / 86400))
-  
+
   if [ "$days_until" -lt 30 ]; then
     echo "Warning: $cert expires in $days_until days"
   fi
@@ -252,7 +253,6 @@ Implement certificate pinning on mobile devices. Both iOS and Android support ce
 Rotate keys regularly but automate the process to avoid service disruptions. Consider using short-lived certificates (30-90 days) for clients with automated renewal.
 
 Document your PKI structure and revocation procedures. When security incidents occur, clear documentation enables rapid response.
-
 
 
 ## Related Articles

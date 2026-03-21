@@ -3,6 +3,7 @@ layout: default
 title: "Payment Terms Best Practices for Freelancers: A"
 description: "Master payment terms as a freelancer. Learn contract templates, automation scripts, and workflows that protect your cash flow and client relationships"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /payment-terms-best-practices-for-freelancers/
 categories: [guides]
@@ -57,7 +58,7 @@ A well-drafted contract protects both parties. Here's a minimal template structu
 **Late Fee:** 1.5% per month on overdue balances
 **Accepted Methods:** Bank transfer, PayPal, [other methods]
 
-Work pauses if payment exceeds [15] days overdue. 
+Work pauses if payment exceeds [15] days overdue.
 Resume work within [5] business days of payment clearance.
 ```
 
@@ -86,11 +87,11 @@ REMINDER_DAYS=15
 for invoice in "$INVOICES_DIR"/*.json; do
   due_date=$(jq -r '.due_date' "$invoice")
   status=$(jq -r '.status' "$invoice")
-  
+
   if [[ "$status" == "sent" ]]; then
     due_epoch=$(date -j -f "%Y-%m-%d" "$due_date" +%s)
     days_overdue=$(( (TODAY - due_epoch) / 86400 ))
-    
+
     if [[ $days_overdue -ge $REMINDER_DAYS ]]; then
       client_email=$(jq -r '.client_email' "$invoice")
       invoice_num=$(jq -r '.number' "$invoice")
@@ -224,7 +225,6 @@ Most late payment situations resolve through professional persistence rather tha
 For invoices exceeding $5,000 that go significantly overdue, a formal demand letter sent via certified mail changes the dynamic. It signals you're serious without immediately involving lawyers. If you do reach collections, remember that collection agencies typically take 25-40% of what they recover — factor that into your decision about when to escalate.
 
 The most effective protection happens before a project starts: require a deposit. Clients who have skin in the game — who have already transferred money to you — have a fundamentally different dynamic than clients whose relationship with you costs them nothing until the project ends. A deposit filters out bad-faith clients, and the ones it doesn't filter out are on record as having made a financial commitment.
-
 
 
 ## Related Articles

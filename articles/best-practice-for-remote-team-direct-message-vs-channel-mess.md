@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Direct Message vs Channel"
 description: "Effective communication in remote teams requires more than just choosing a tool—it demands understanding when to use each communication channel. This guide"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/
 categories: [guides]
@@ -123,15 +124,15 @@ communication_channels:
   code_review:
     tool: "GitHub/GitLab PRs"
     when: "Use for all code review, never for ad-hoc code discussion"
-  
+
   bugs:
     report: "#bugs channel with template"
     severity_critical: "Page on-call via DM + #incidents channel"
     severity_normal: "Create ticket, post link in #bugs"
-  
+
   feature_requests:
     process: "RFC in #product-discuss, then formal issue"
-    
+
   urgent_blockers:
     definition: "Cannot make progress, no workaround known"
     action: "DM to directly responsible person + #team channel for visibility"
@@ -203,12 +204,14 @@ When using DMs across time zones:
 | Conflict resolution | | ✅ |
 | Quick question (1 answer) | | ✅ |
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Announcement Channel.](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
-- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [Best Practice for Remote Team Meeting Hygiene When Calendar Bloat Increases During Scaling](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+## Related Articles
+
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
+- [Best Remote Team Social Channel Ideas for Building Genuine](/remote-work-tools/best-remote-team-social-channel-ideas-for-building-genuine-c/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

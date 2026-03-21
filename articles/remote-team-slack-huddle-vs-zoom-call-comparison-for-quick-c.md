@@ -3,6 +3,7 @@ layout: default
 title: "Test UDP latency to Slack's media servers"
 description: "A practical comparison of Slack Huddles and Zoom calls for remote development teams. When to use each, performance considerations, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-slack-huddle-vs-zoom-call-comparison-for-quick-c/
 categories: [comparisons]
@@ -331,7 +332,6 @@ Question: Do you need to see each other's faces?
 → YES: Use Zoom (better video, lighting, virtual bg)
 → NO: Use Huddle (audio only, lower bandwidth)
 ```
-
 
 
 ## Related Articles

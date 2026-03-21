@@ -3,6 +3,7 @@ layout: default
 title: ".github/ISSUE_TEMPLATE/onboarding.yml"
 description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/
 categories: [guides]
@@ -202,8 +203,8 @@ This first contribution builds confidence and demonstrates the deployment pipeli
 ```markdown
 ## First Task: Add User Preference Toggle
 
-**Estimated time:** 2-3 days  
-**Difficulty:** Beginner  
+**Estimated time:** 2-3 days
+**Difficulty:** Beginner
 **Prerequisites:** None (good first issue!)
 
 ### Background
@@ -262,8 +263,6 @@ Every hybrid team has different dynamics. Adjust this template based on:
 The key principle remains constant: new hires need equal opportunity to succeed whether they work from home or the office. Your onboarding process should reflect that value from day one.
 
 ---
-
-
 
 
 ## Related Articles

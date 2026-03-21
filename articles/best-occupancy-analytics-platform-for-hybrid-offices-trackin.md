@@ -301,12 +301,13 @@ When selecting an occupancy analytics platform, evaluate these technical factors
 The top enterprise platforms in this space—Density, VergeSense, Spacewell, and Crestron's Sightline—each have distinct strengths. Density leads on API quality and developer experience, making it the natural choice for teams that need custom integrations. VergeSense excels at computer vision-based people counting with strong privacy-preserving edge processing. Spacewell integrates deeply with CAFM systems like Archibus and Planon, which matters if your real estate team already lives in those platforms. Crestron Sightline is the natural fit if you are already standardized on Crestron AV infrastructure. Evaluate each against your sensor protocol requirements, integration surface, and total-cost-of-ownership model before committing to hardware that is expensive to replace.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Desk Sensor Technology for Hybrid Offices: Tracking.](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
-- [Best Visitor Management System for Hybrid Offices.](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
-- [Hybrid Office Badge Access Tracking Tool for.](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [Best Hot Desking Software for Hybrid Offices with Under 100](/remote-work-tools/best-hot-desking-software-for-hybrid-offices-with-under-100-employees-2026/)
+- [Best Visitor Management System for Hybrid Offices Tracking W](/remote-work-tools/best-visitor-management-system-for-hybrid-offices-tracking-w/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

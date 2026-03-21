@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Walking Meeting Format for One-on-One"
 description: "A practical guide to running walking meetings with remote team members. Includes format templates, scheduling scripts, and audio configuration tips"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-walking-meeting-format-for-one-on-one-connection/
 categories: [guides]
@@ -74,11 +75,11 @@ Walking meetings often move between locations with varying WiFi strength. Consid
 // Simple connection quality monitor script
 function monitorConnection() {
   const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-  
+
   if (connection) {
     const effectiveType = connection.effectiveType;
     console.log(`Connection type: ${effectiveType}`);
-    
+
     if (effectiveType === '2g' || effectiveType === '3g') {
       console.log('Consider switching to phone audio');
     }
@@ -223,8 +224,6 @@ Before your first walking meeting:
 - [ ] Clear the calendar immediately after to allow transition time
 
 Walking meetings require more setup than sitting in front of a camera, but the payoff in conversation quality and relationship depth justifies the effort. Start with one walking meeting per week and evaluate after a month. Most teams that adopt this format find it becomes their preferred one-on-one structure.
-
-
 
 
 ## Related Articles

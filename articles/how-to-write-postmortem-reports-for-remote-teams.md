@@ -3,6 +3,7 @@ layout: default
 title: "How to Write Postmortem Reports for Remote Teams"
 description: "Learn how to write effective postmortem reports for remote teams. Practical templates, code examples, and strategies for async collaboration"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-write-postmortem-reports-for-remote-teams/
 categories: [guides]
@@ -416,8 +417,6 @@ Engineers make good decisions with the information available at the time.
 ```
 
 Post this at the top of every postmortem document. Over time, the team internalizes that the purpose of the exercise is shared learning, not accountability theater.
-
-
 
 
 ## Related Articles

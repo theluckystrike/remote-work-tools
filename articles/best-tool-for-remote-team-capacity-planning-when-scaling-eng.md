@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Remote Team Capacity Planning When Scaling"
 description: "Discover the best tools and strategies for remote team capacity planning when scaling engineering headcount quarterly in 2026. Practical examples, code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-capacity-planning-when-scaling-eng/
 categories: [guides]
@@ -64,14 +65,14 @@ async function getTeamCapacity(teamId, quarterStart, quarterEnd) {
       state: { name: { eq: 'Done' } }
     }
   });
-  
+
   // Calculate story points completed per developer
   const capacityByAssignee = issues.nodes.reduce((acc, issue) => {
     const assignee = issue.assignee?.name || 'Unassigned';
     acc[assignee] = (acc[assignee] || 0) + (issue.estimate || 0);
     return acc;
   }, {});
-  
+
   return capacityByAssignee;
 }
 ```
@@ -98,7 +99,7 @@ def calculate_quarterly_capacity(
     - Async communication overhead
     """
     monthly_capacity = []
-    
+
     for month_idx, headcount in enumerate(headcount_by_month):
         # Apply ramp-up factor for new hires
         effective_headcount = 0
@@ -106,15 +107,15 @@ def calculate_quarterly_capacity(
             months_exp = min(month_idx - i, 3)
             ramp_factor = onboarding_rampup[months_exp]
             effective_headcount += (headcount // (month_idx + 1)) * ramp_factor
-        
+
         # Adjust for timezone overlap (typical 4 hour overlap)
         sync_factor = timezone_overlap_hours / 8
-        
+
         # Account for async communication overhead
         net_capacity = effective_headcount * avg_velocity_per_dev * sync_factor * (1 - communication_overhead)
-        
+
         monthly_capacity.append(int(net_capacity))
-    
+
     return {
         'monthly': monthly_capacity,
         'quarterly_total': sum(monthly_capacity),
@@ -152,7 +153,7 @@ const historicalAnalysis = {
   q1_actual_velocity: 342,
   q1_planned_velocity: 380,
   variance: -10.0, // percentage
-  
+
   adjustments: [
     { type: 'new_hires', impact: -15, description: "3 new engineers ramping" },
     { type: 'timezone_gap', impact: -8, description: "Reduced overlap hours" },
@@ -219,12 +220,13 @@ Whatever approach you choose, the key is consistency: track your projections aga
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Remote Sales Team Commission Tracking Tool for.](/remote-work-tools/remote-sales-team-commission-tracking-tool-for-distributed-s/)
-- [Remote Team Information Architecture Overhaul Guide When Scaling Requires Better Organization of Tools](/remote-work-tools/remote-team-information-architecture-overhaul-guide-when-scaling-requires-better-organization-of-tools/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

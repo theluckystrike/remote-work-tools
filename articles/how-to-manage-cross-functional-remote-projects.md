@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Cross-Functional Remote Projects"
 description: "A practical guide for developers and power users managing cross-functional remote projects. Covers coordination, communication patterns, and workflow"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-cross-functional-remote-projects/
 reviewed: true
@@ -90,7 +91,7 @@ Use a dependency matrix in your project management tool:
 class DependencyTracker:
     def __init__(self):
         self.dependencies = {}
-    
+
     def add_dependency(self, task_id, depends_on, blocking=True):
         """Track a dependency between tasks"""
         if depends_on not in self.dependencies:
@@ -99,7 +100,7 @@ class DependencyTracker:
             'task': task_id,
             'blocking': blocking
         })
-    
+
     def get_blockers(self, task_id):
         """Find what's blocking a given task"""
         blockers = []
@@ -176,7 +177,6 @@ Track metrics that indicate cross-functional health:
 Track cycle time (task start to completion), blocked time (days waiting on dependencies), rework rate (tasks returning to in-progress after review), and meeting load (synchronous vs. async hours).
 
 Review these metrics monthly with your team. Identify patterns and experiment with changes.
-
 
 
 ## Related Articles

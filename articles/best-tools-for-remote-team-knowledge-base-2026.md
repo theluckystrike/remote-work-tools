@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Knowledge Base 2026"
 description: "Compare knowledge base tools: Notion, Guru, Tettra, Slite, Almanac. Pricing, search quality, permissions, Slack integration tested for remote teams"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-tools-for-remote-team-knowledge-base-2026/
 categories: [guides]
@@ -258,5 +259,7 @@ Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 - [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
 - [How to Create a Client-Facing Knowledge Base for a Remote](/remote-work-tools/how-to-create-client-facing-knowledge-base-for-remote-agency/)
 - [How to Handle Knowledge Base Handoff When Remote Developer](/remote-work-tools/how-to-handle-knowledge-base-handoff-when-remote-developer-l/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

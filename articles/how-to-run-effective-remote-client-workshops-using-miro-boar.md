@@ -3,6 +3,7 @@ layout: default
 title: "Run Effective Remote Client Workshops Using Miro"
 description: "Remote client workshops present unique challenges that in-person sessions never address. You cannot lean over a whiteboard together, cannot point at a sticky"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-client-workshops-using-miro-boar/
 categories: [guides]
@@ -167,12 +168,12 @@ Connect your workshop outputs to your project management system:
 miro.board.ui.on('icon:click', async () => {
   const selection = await miro.board.getSelection();
   const stickyNotes = selection.filter(item => item.type === 'sticky_note');
-  
+
   const actionItems = stickyNotes.map(note => ({
     text: note.content,
     position: note.position
   }));
-  
+
   // Send to your project management tool
   await fetch('https://your-pm-tool.com/webhook', {
     method: 'POST',
@@ -182,7 +183,6 @@ miro.board.ui.on('icon:click', async () => {
 ```
 
 For simpler integrations, use Zapier or Make to connect Miro to tools like Linear, Asana, or Notion based on specific board updates.
-
 
 
 ## Related Articles

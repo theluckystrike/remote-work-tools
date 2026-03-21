@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Conflict Resolution Framework for Managers"
 description: "Resolve remote team conflicts using a structured framework of listening sessions with each party, identifying underlying interests (not just positions), and"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-conflict-resolution-framework-for-managers-handl/
 categories: [guides]
@@ -273,7 +274,6 @@ After resolving conflicts, capture what you learned for future reference:
 ```
 
 Pattern recognition in conflicts helps prevent repeating them. If you resolve the same conflict type three times, you have a systemic problem worth addressing at the team level.
-
 
 
 ## Related Articles

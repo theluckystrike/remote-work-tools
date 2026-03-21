@@ -3,6 +3,7 @@ layout: default
 title: "Required security configurations for company laptops"
 description: "A practical guide for developers and power users on crafting an effective acceptable use policy for remote team company devices"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-acceptable-use-policy-for-company-/
 reviewed: true
@@ -168,10 +169,10 @@ def acknowledge_policy(employee_id, policy_version):
         "ip_address": "logged_at_acknowledgment",
         "agreement": "I have read and agree to comply with this policy"
     }
-    
+
     with open(f"acknowledgments/{employee_id}.json", "w") as f:
         json.dump(acknowledgment, f)
-    
+
     return acknowledgment
 ```
 
@@ -209,7 +210,6 @@ DON'T:
 - Store customer data locally
 - Ignore security warnings
 ```
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Meeting Schedule Template for a 30 Person Remote Product Org"
 description: "A practical meeting schedule template designed for 30-person remote product organizations. Includes code snippets for automation and calendar management"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /meeting-schedule-template-for-a-30-person-remote-product-org/
 categories: [guides]
@@ -158,15 +159,145 @@ Several common patterns undermine meeting schedules:
 - **Recurring without purpose:** Review every recurring meeting quarterly—kill ones that have outlived their usefulness
 - **Multi-hour planning sessions:** Break into smaller focused sessions or async workflows
 
+## Calendar Management Tools Comparison
+
+Different organizations use different tools to manage meeting schedules at scale. Here's what works:
+
+**Google Calendar with Admin Console:** Free or $6-18/user/month via Google Workspace. Admin can enforce meeting-free times and create shared calendars. Works well for teams already in Google Workspace. Limitation: building complex meeting rotations requires scripting.
+
+**Calendly:** $10-25/user/month. Excellent for scheduling around availability. Creates meeting links automatically and integrates with Slack. Best for teams with distributed scheduling needs and external meeting coordination. Overkill if you already use Google Calendar.
+
+**Outlook (Microsoft 365):** $6-12.50/user/month. Graph API enables powerful scheduling automation. Teams integration makes setting up meeting links simple. Best for enterprises already using Microsoft 365.
+
+**Notion Calendar + Coda:** $10-20/month for Notion Team plan. Build sophisticated scheduling databases linked to team planning. More manual but highly flexible.
+
+**Slack Workflow + Google Calendar API:** Free. Build custom reminders and meeting blocking. Requires development time but offers most control.
+
+**Cost for 30-person org:**
+- Google Workspace: $180-540/month
+- Calendly: $300-750/month
+- Microsoft 365: $180-375/month
+- Notion + Coda: $20-40/month (team plan)
+- Slack Workflow: $0 (staff time only)
+
+## Template: Core Meetings for a 30-Person Product Org
+
+Use this as a starting point, then customize based on your org structure:
+
+**Monday**
+- 8:00-9:00 AM (UTC): Leadership standup (15 min) + planning review (45 min) — Attendees: Exec team, eng lead, product leads
+- 10:00-10:45 AM: Company all-hands (move to Tuesday if better timezone coverage)
+
+**Tuesday/Thursday**
+- 10:00-10:30 AM: Product sync (cross-functional leads)
+- 1:00-1:30 PM (alternate day): Engineering sync
+
+**Wednesday**
+- 9:00 AM-12:00 PM: Meeting-free block for engineers
+- 3:00-4:00 PM: Design critique (design team only)
+
+**Friday**
+- 2:00-2:30 PM: Weekly retro (team-by-team, rotating facilitator)
+- 3:30-4:00 PM: Wins celebration (optional, company-wide)
+
+**Ad-hoc as needed:**
+- Customer calls (scheduled around customer's timezone, usually 30 min)
+- Architecture reviews (as needed, usually 60 min)
+- Sprint planning (weekly or bi-weekly, 60 min per team)
+
+This structure totals roughly 5.5 hours of recurring meetings per week across the org.
+
+## Automation: Meeting Reminder and Blocking Script
+
+Save this as a cron job to enforce meeting boundaries and send reminders:
+
+```python
+#!/usr/bin/env python3
+# meeting_enforcer.py - Prevent back-to-back meetings
+
+import requests
+from datetime import datetime, timedelta
+from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request
+from google_auth_oauthlib.flow import InstalledAppFlow
+from google.calendar import google_calendar_v3 as gcal
+
+# Detect overlapping or back-to-back meetings
+def find_meeting_conflicts(events):
+    """Identify meetings with insufficient buffer time"""
+    conflicts = []
+    buffer_minutes = 5
+
+    for i, event in enumerate(events):
+        if i + 1 >= len(events):
+            continue
+
+        current_end = parse_time(event['end'])
+        next_start = parse_time(events[i+1]['start'])
+
+        gap = (next_start - current_end).total_seconds() / 60
+
+        if gap < buffer_minutes:
+            conflicts.append({
+                'from': event['summary'],
+                'to': events[i+1]['summary'],
+                'gap_minutes': gap
+            })
+
+    return conflicts
+
+# Block calendar during focus times
+def block_focus_time(calendar_service, user_email):
+    """Create meeting-free blocks automatically"""
+    focus_blocks = [
+        {'day': 'Wednesday', 'start': '09:00', 'end': '13:00'},
+        {'day': 'Friday', 'start': '13:00', 'end': '17:00'}
+    ]
+
+    for block in focus_blocks:
+        event = {
+            'summary': '🔒 Focus Time - No Meetings',
+            'start': {'dateTime': f'2026-03-17T{block["start"]}:00'},
+            'end': {'dateTime': f'2026-03-17T{block["end"]}:00'},
+            'transparency': 'transparent'
+        }
+        calendar_service.events().insert(
+            calendarId='primary',
+            body=event
+        ).execute()
+
+def parse_time(time_dict):
+    """Parse ISO datetime from Google Calendar"""
+    return datetime.fromisoformat(time_dict['dateTime'])
+```
+
 ## Monitoring Effectiveness
 
 Track two metrics:
 
 1. **Meeting hours per person per week:** Target under 5 hours for individual contributors, under 8 for leads
 2. **Meeting-free days:** Aim for at least 2 half-days of no meetings per week
+3. **Meeting sentiment:** Monthly quick poll: "Do you feel over-meeting?" Aim for 80%+ saying "no"
 
-If either metric drifts unfavorably, audit your meeting list and eliminate the least valuable meetings first.
+Create a simple dashboard that your team can view:
 
+```markdown
+## Current Meeting Load (Week of March 18)
+- Average hours/person: 4.2 hours (target: <5)
+- Meeting-free half-days: 2.1 (target: 2+)
+- Sentiment: 82% comfortable (target: 80%+)
+
+Top meeting-heavy roles:
+- Product leads: 7.5 hours (review for consolidation)
+- Engineering leads: 6.8 hours (consider async alternatives)
+```
+
+If either metric drifts unfavorably, audit your meeting list and eliminate the least valuable meetings first. Start by questioning:
+- Which meetings had fewer than 3 attendees last week?
+- Which meetings could become async updates?
+- Which meetings have no clear decision or output?
+
+Those are candidates for cancellation or conversion to async formats.
 
 
 ## Related Articles

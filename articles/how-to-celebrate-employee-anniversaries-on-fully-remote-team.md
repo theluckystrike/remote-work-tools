@@ -3,6 +3,7 @@ layout: default
 title: "How to Celebrate Employee Anniversaries on Fully Remote"
 description: "Practical strategies and code examples for celebrating employee anniversaries in fully remote teams. Automate recognition with Slack bots, custom"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-celebrate-employee-anniversaries-on-fully-remote-team/
 categories: [guides]
@@ -75,11 +76,11 @@ def load_employees(filepath="employees.json"):
 def get_anniversaries(employees, days_ahead=7):
     today = datetime.now().date()
     upcoming = []
-    
+
     for emp in employees:
         start = datetime.strptime(emp["start_date"], "%Y-%m-%d").date()
         years = today.year - start.year
-        
+
         if years > 0:
             anniversary = start.replace(year=today.year)
             if 0 <= (anniversary - today).days <= days_ahead:
@@ -88,22 +89,22 @@ def get_anniversaries(employees, days_ahead=7):
                     "years": years,
                     "anniversary": anniversary
                 })
-    
+
     return upcoming
 
 def post_anniversary_message(slack_token, channel, employee):
     client = WebClient(token=slack_token)
-    
+
     message = f"🎉 *{employee['name']}* has been with us for *{employee['years']} year(s)*! "
     message += "Drop a congratulatory message below. 🥳"
-    
+
     client.chat_postMessage(channel=channel, text=message)
 
 # Usage in scheduled job
 def check_and_notify():
     employees = load_employees()
     anniversaries = get_anniversaries(employees)
-    
+
     for emp in anniversaries:
         post_anniversary_message(
             slack_token=os.environ["SLACK_BOT_TOKEN"],
@@ -205,8 +206,6 @@ Here's a minimal path to launching an anniversary program:
 5. Iterate: Gather feedback and adjust the approach
 
 Remote teams that celebrate together stay together. Anniversaries provide a predictable, meaningful touchpoint for building those connections.
-
-
 
 
 ## Related Articles

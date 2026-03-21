@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Employer Branding Strategy for Attracting"
 description: "A practical guide to building employer branding that attracts distributed talent. Concrete strategies, code examples, and frameworks for remote-first"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-employer-branding-strategy-for-attracting-distributed-talent-at-scale-guide-2026/
 categories: [guides]
@@ -170,7 +171,7 @@ const trackSource = () => {
   const params = new URLSearchParams(window.location.search);
   const source = params.get('utm_source') || 'direct';
   const medium = params.get('utm_medium') || 'none';
-  
+
   analytics.track('career_page_view', {
     source,
     medium,
@@ -259,7 +260,6 @@ Building employer brand takes time. Prioritize actions by impact:
 - Set up developer community presence
 - Build 12-month content calendar
 - Track cNPS and iterate on interview process
-
 
 
 ## Related Articles

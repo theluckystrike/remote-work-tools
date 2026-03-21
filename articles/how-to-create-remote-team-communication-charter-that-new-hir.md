@@ -3,6 +3,7 @@ layout: default
 title: ".github/communication.yml"
 description: "A practical guide for developers and technical teams to build communication charters that actually get adopted by new hires during onboarding"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-communication-charter-that-new-hir/
 categories: [guides]
@@ -73,13 +74,13 @@ response_expectations:
     channels: ["pagerduty", "slack #incidents"]
     response_time: "15 minutes"
     availability: "on-call rotation"
-  
+
   standard:
     description: "Code reviews, questions, task updates"
     channels: ["github", "slack channels", "slack dms"]
     response_time: "24 hours (1 business day)"
     availability: "working hours in your timezone"
-  
+
   async:
     description: "RFCs, design docs, announcements"
     channels: ["notion", "github discussions", "email"]
@@ -107,7 +108,6 @@ Brief description of the change and its purpose
 ## Screenshots (if applicable)
 Before/after or UI changes
 
-## Related issues
 Closes #123
 ```
 
@@ -160,22 +160,22 @@ Add meeting decision logic to your team workflow:
 function needsMeeting(topic, urgency, participants) {
   // High urgency production issues: meet immediately
   if (urgency === 'critical') return { type: 'sync', immediately: true };
-  
+
   // Decisions affecting multiple time zones: async first
   if (participants.length > 2 && hasTimezoneOverlap(participants) < 4) {
     return { type: 'async', method: 'rfc', commentPeriod: '72h' };
   }
-  
+
   // Complex technical discussions: recorded async video
   if (topic.includes('design') || topic.includes('architecture')) {
     return { type: 'async', method: 'loom', responseWindow: '48h' };
   }
-  
+
   // Quick clarifications: never meet
   if (topic.length < 2) {
     return { type: 'async', method: 'slack' };
   }
-  
+
   // Default to async with optional sync for discussion
   return { type: 'async', method: 'document', syncOptional: true };
 }
@@ -229,8 +229,6 @@ After implementing your charter, measure whether it's actually working:
 - Track response times to see if expectations are realistic
 
 ---
-
-
 
 
 ## Related Articles

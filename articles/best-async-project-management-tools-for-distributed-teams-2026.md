@@ -442,12 +442,15 @@ Company case study (from Height data, 2026):
 - **Cost**: $7/person/month × 6 people = $252/year
 - **ROI**: 2.5 hours × $150/hour × 50 weeks = $18,750 value / $252 cost = 7400% ROI
 
-## Related Reading
-
-- [How to Schedule Meetings Across 8-Hour Timezone Difference Without Losing Your Mind](/remote-work-tools/guides-hub/)
-- [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/guides-hub/)
-- [Cross-Timezone Communication Strategies for Remote Teams](/remote-work-tools/guides-hub/)
-
 ---
+
+
+## Related Articles
+
+- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
+- [Best Time Zone Management Tools for Distributed Engineering](/remote-work-tools/best-time-zone-management-tools-for-distributed-engineering-teams-2026/)
+- [Best Timezone Management Tool for Distributed Teams](/remote-work-tools/best-timezone-management-tool-for-distributed-teams-spanning-four-or-more-continents-2026/)
+- [Time Zone Management Tools for Distributed Teams](/remote-work-tools/time-zone-management-tools-distributed-teams/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

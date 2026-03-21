@@ -3,6 +3,7 @@ layout: default
 title: "matching_weights.py"
 description: "Learn practical strategies for matching mentors and mentees in remote teams. Includes weighting algorithms, tooling examples, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-mentorship-program-matching-mentor/
 categories: [guides]
@@ -98,16 +99,16 @@ Assign weights to different matching criteria:
 WEIGHTS = {
     # Technical alignment (40% of total score)
     "technical_overlap": 0.40,
-    
+
     # Time zone compatibility (25% of total score)
     "timezone_overlap": 0.25,
-    
+
     # Communication preference match (15% of total score)
     "communication_compatibility": 0.15,
-    
+
     # Goal alignment (15% of total score)
     "goal_alignment": 0.15,
-    
+
     # Mentor capacity vs. mentee demand (5% of total score)
     "capacity_fit": 0.05
 }
@@ -116,24 +117,24 @@ def calculate_technical_score(mentor, mentee):
     """Calculate technical overlap between mentor expertise and mentee growth areas."""
     mentor_skills = set(mentor["expertise"])
     mentee_skills = set(mentee["growth_areas"])
-    
+
     overlap = mentor_skills.intersection(mentee_skills)
     score = len(overlap) / len(mentee_skills) if mentee_skills else 0
-    
+
     return min(score, 1.0)  # Cap at 1.0
 
 def calculate_timezone_score(mentor, mentee):
     """Calculate usable overlap in working hours."""
     mentor_hours = parse_hours(mentor["working_hours"])
     mentee_hours = parse_hours(mentee["availability"])
-    
+
     overlap_hours = mentor_hours.intersection(mentee_hours)
     overlap_count = len(overlap_hours)
-    
+
     # Minimum 2 hours overlap for effective sync time
     if overlap_count < 2:
         return 0.0
-    
+
     return min(overlap_count / 4, 1.0)  # 4+ hours = full score
 
 def calculate_match_score(mentor, mentee):
@@ -143,7 +144,7 @@ def calculate_match_score(mentor, mentee):
     comm_score = communication_compatibility(mentor, mentee)
     goal_score = goal_alignment(mentor, mentee)
     capacity_score = capacity_fit(mentor, mentee)
-    
+
     total = (
         tech_score * WEIGHTS["technical_overlap"] +
         tz_score * WEIGHTS["timezone_overlap"] +
@@ -151,7 +152,7 @@ def calculate_match_score(mentor, mentee):
         goal_score * WEIGHTS["goal_alignment"] +
         capacity_score * WEIGHTS["capacity_fit"]
     )
-    
+
     return total
 ```
 
@@ -248,8 +249,6 @@ The key insight: invest upfront in the matching process. Strong matches create m
 Build your matching system once, refine it after each cohort, and watch your mentorship program deliver consistent value.
 
 ---
-
-
 
 
 ## Related Articles

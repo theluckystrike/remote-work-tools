@@ -114,7 +114,7 @@ jobs:
           gh api orgs/${{ github.organization }}/membership/${{ inputs.username }} \
             --method PUT \
             -F role='member'
-      
+
       - name: Add user to teams
         run: |
           for team in $(echo "${{ inputs.teams }}" | tr ',' '\n'); do
@@ -145,7 +145,7 @@ def create_welcome_channels(username):
         "#engineering-general",
         "#ops-support"
     ]
-    
+
     for channel in channels:
         try:
             response = client.conversations_create(name=channel)
@@ -171,7 +171,7 @@ def schedule_welcome_message(channel_id, new_hire_name):
                 "Check your DM for your first week's checklist.",
         "post_at": (datetime.now() + timedelta(hours=1)).isoformat()
     }
-    
+
     response = client.chat_scheduleMessage(**message)
     return response['scheduled_message_id']
 ```
@@ -223,21 +223,21 @@ A single Python script can orchestrate the entire first-day provisioning:
 ```python
 def onboard_employee(name, email, github_username, slack_id):
     """Full onboarding orchestration for day one."""
-    
+
     # 1. Create Notion page
     notion_page = create_onboarding_page(name, email)
-    
+
     # 2. Provision GitHub access
     github_teams = ['engineering', 'backend', 'oncall-rotation']
     provision_github_access(github_username, github_teams)
-    
+
     # 3. Set up Slack
     slack_channels = create_welcome_channels(slack_id)
     schedule_introduction(slack_id)
-    
+
     # 4. Create Linear tasks
     create_onboarding_issues(github_username)
-    
+
     return {
         'notion': notion_page['id'],
         'github': github_username,
@@ -262,12 +262,13 @@ The right combination depends on your existing tool investments. Teams already u
 For teams scaling to three monthly hires, the automation ROI becomes clear within the first quarter. New team members onboard faster, mentors spend less time on repetitive questions, and the process remains consistent regardless of which team member handles coordination.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+- [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
+- [Remote HR Onboarding Platform Comparison for Hiring](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
 - [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)
+- [How to Track Remote Team Hiring Pipeline Velocity](/remote-work-tools/how-to-track-remote-team-hiring-pipeline-velocity-for-distri/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

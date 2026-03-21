@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Retreat Planning Guide Budget and Logistics"
 description: "Planning a retreat for a distributed team requires more coordination than an in-person team meeting. Between flight bookings, accommodation blocks, activity"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-retreat-planning-guide-budget-and-logistics-temp/
 categories: [guides]
@@ -209,8 +210,6 @@ The retreat doesn't end when everyone flies home. Successful teams follow up sys
 This template scales to different team sizes and budgets. A bootstrapped startup might choose a "workcation" model with Airbnb rentals and co-working space day passes. A larger team might need dedicated event coordinators. The key principles remain constant: document your budget line items, track logistics systematically, and build in contingency time and funds.
 
 The specific numbers and venues matter less than the discipline of planning. Use this framework as a starting point, adjust based on your team's specific needs, and iterate on future retreats based on post-event feedback.
-
-
 
 
 ## Related Articles

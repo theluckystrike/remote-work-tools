@@ -160,7 +160,7 @@ const getAvailability = (members, currentTime) => {
   return members.map(member => {
     const localHour = getLocalHour(member.timezone, currentTime);
     const isWorking = localHour >= 9 && localHour <= 18;
-    
+
     return {
       name: member.name,
       status: isWorking ? 'available' : 'off-hours',
@@ -221,11 +221,13 @@ When designing your escalation paths, involve the people who will use them. The 
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
+- [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)
+- [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
+- [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

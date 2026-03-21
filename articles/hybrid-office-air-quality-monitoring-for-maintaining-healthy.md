@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Office Air Quality Monitoring for Maintaining"
 description: "Learn how to implement air quality monitoring systems for hybrid offices with variable occupancy. Includes sensor integration, occupancy-aware"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /hybrid-office-air-quality-monitoring-for-maintaining-healthy/
 reviewed: true
@@ -39,7 +40,7 @@ class OccupancyTracker:
         self.current = 0
         self.capacity = capacity
         self.history = []
-    
+
     def enter(self, count=1):
         self.current = min(self.current + count, self.capacity)
         self.history.append({
@@ -48,7 +49,7 @@ class OccupancyTracker:
             'count': count,
             'occupancy': self.current
         })
-    
+
     def exit(self, count=1):
         self.current = max(self.current - count, 0)
         self.history.append({
@@ -57,7 +58,7 @@ class OccupancyTracker:
             'count': count,
             'occupancy': self.current
         })
-    
+
     def get_occupancy_ratio(self):
         return self.current / self.capacity
 ```
@@ -92,10 +93,10 @@ A practical formula uses per-person CO2 contribution:
 def calculate_co2_threshold(occupancy, base_threshold=600, per_person_allowance=15):
     """
     Calculate adaptive CO2 threshold based on occupancy.
-    
+
     At 0 people: base_threshold (600 ppm)
     At 50 people: 600 + (50 * 15) = 1350 ppm
-    
+
     This accounts for the fact that more people naturally
     produce more CO2 regardless of ventilation quality.
     """
@@ -104,7 +105,7 @@ def calculate_co2_threshold(occupancy, base_threshold=600, per_person_allowance=
 def get_air_quality_status(occupancy, co2_reading):
     threshold = calculate_co2_threshold(occupancy)
     ratio = co2_reading / threshold
-    
+
     if ratio < 0.7:
         return 'optimal', 'green'
     elif ratio < 1.0:
@@ -141,7 +142,7 @@ const occupancyData = { current: 0, lastUpdate: null };
 client.on('message', (topic, message) => {
     const data = JSON.parse(message.toString());
     const [prefix, location] = topic.split('/');
-    
+
     if (prefix === 'occupancy') {
         occupancyData.current = data.checked_in;
         occupancyData.lastUpdate = new Date();
@@ -149,17 +150,17 @@ client.on('message', (topic, message) => {
         if (!sensorData.has(location)) {
             sensorData.set(location, []);
         }
-        
+
         const readings = sensorData.get(location);
         readings.push({
             ...data,
             timestamp: new Date()
         });
-        
+
         // Keep last 10 minutes of readings
         const cutoff = Date.now() - 10 * 60 * 1000;
         sensorData.set(location, readings.filter(r => r.timestamp.getTime() > cutoff));
-        
+
         // Evaluate air quality with occupancy context
         evaluateAirQuality(location, data, occupancyData.current);
     }
@@ -167,7 +168,7 @@ client.on('message', (topic, message) => {
 
 function evaluateAirQuality(location, data, occupancy) {
     const threshold = calculateCO2Threshold(occupancy);
-    
+
     if (data.co2 > threshold) {
         publishAlert(location, {
             type: 'co2_exceeded',
@@ -200,7 +201,7 @@ automation:
           base_threshold: 700
           per_person: 12
           threshold: "{{ base_threshold + (occupancy * per_person) }}"
-      
+
       - choose:
           - conditions:
               - "{{ states('sensor.office_co2')|int > threshold|int }}"
@@ -224,12 +225,12 @@ Effective dashboards show not just current readings but context about whether th
 function AirQualityCard({ location, sensorData, occupancy }) {
     const threshold = calculateCO2Threshold(occupancy);
     const ratio = sensorData.co2 / threshold;
-    
-    const statusColor = ratio < 0.8 ? '#22c55e' 
+
+    const statusColor = ratio < 0.8 ? '#22c55e'
                       : ratio < 1.0 ? '#eab308'
                       : ratio < 1.2 ? '#f97316'
                       : '#ef4444';
-    
+
     return (
         <div className="card" style={{ borderLeft: `4px solid ${statusColor}` }}>
             <h3>{location}</h3>
@@ -265,7 +266,6 @@ During this pilot phase, track these metrics:
 Adjust your per-person allowance values based on actual observations. Buildings with excellent ventilation require lower per-person allowances than those with older HVAC systems.
 
 After validation, expand sensors to all significant areas. Meeting rooms typically need dedicated sensors since they experience rapid occupancy changes when filled or emptied.
-
 
 
 ## Related Articles

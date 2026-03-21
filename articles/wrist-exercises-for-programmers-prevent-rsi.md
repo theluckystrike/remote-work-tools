@@ -3,6 +3,7 @@ layout: default
 title: "Wrist Exercises for Programmers"
 description: "Repetitive Strain Injury (RSI) is one of the most common occupational hazards for developers. Hours of typing, mouse navigation, and repetitive motions take a"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /wrist-exercises-for-programmers-prevent-rsi/
 categories: [guides]
@@ -311,7 +312,6 @@ Think of wrist health like code quality: preventative maintenance is 10x cheaper
 - Track your wrist health patterns across career changes
 
 The developers most successful at preventing RSI treat it like a long-term investment, not a short-term fix.
-
 
 
 ## Related Articles

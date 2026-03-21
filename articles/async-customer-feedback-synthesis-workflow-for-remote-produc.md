@@ -118,13 +118,13 @@ from collections import Counter
 
 def summarize_feedback_by_area(feedback_entries):
     area_counts = Counter(
-        f["product_area"] for f in feedback_entries 
+        f["product_area"] for f in feedback_entries
         if f["product_area"]
     )
-    
+
     for area, count in area_counts.most_common(10):
         negative = sum(
-            1 for f in feedback_entries 
+            1 for f in feedback_entries
             if f["product_area"] == area and f["sentiment"] == "negative"
         )
         print(f"{area}: {count} mentions, {negative} negative")
@@ -139,10 +139,10 @@ Another useful script identifies emerging themes:
 def detect_emerging_themes(current_week, previous_weeks):
     current_words = extract_keywords(current_week)
     baseline = average_keyword_frequency(previous_weeks)
-    
+
     emerging = {
-        word: count 
-        for word, count in current_words.items() 
+        word: count
+        for word, count in current_words.items()
         if count > baseline.get(word, 0) * 1.5
     }
     return emerging
@@ -203,12 +203,14 @@ Document your synthesis workflow in a living document. New team members should u
 
 Measure your cycle time from feedback receipt to resolution. This reveals whether your async process actually accelerates decision-making.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Tool for Remote Product Managers Running Async.](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Remote Team Manager Peer Feedback Exchange Template for.](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+## Related Articles
+
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

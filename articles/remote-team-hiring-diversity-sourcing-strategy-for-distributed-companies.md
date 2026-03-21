@@ -3,6 +3,7 @@ layout: default
 title: "Diversity Sourcing Strategy for Remote Teams"
 description: "Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/
 categories: [guides]
@@ -224,8 +225,6 @@ Diversity sourcing requires ongoing measurement to identify what's working:
 Set baseline measurements before implementing changes, then track quarterly. Small improvements compound—moving from 15% to 20% diverse hires over two years represents significant organizational change.
 
 Share these metrics internally with the full team, not just leadership. Transparency about progress creates shared accountability and signals that diversity sourcing is a business priority rather than a compliance exercise.
-
-
 
 
 ## Related Articles

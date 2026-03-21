@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Client Onboarding Portal for Remote Agency"
 description: "A practical guide to building a client onboarding portal for remote agencies. Learn the essential components, tools, and implementation steps"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-client-onboarding-portal-for-remote-agency/
 categories: [guides]
@@ -97,7 +98,7 @@ export default NextAuth({
           .eq("email", credentials.email)
           .eq("password_hash", credentials.password)
           .single()
-        
+
         if (error || !data) return null
         return { id: data.id, email: data.email, name: data.company_name }
       }
@@ -123,7 +124,7 @@ import Link from "next/link"
 
 export default function ClientDashboard() {
   const { data: session } = useSession()
-  
+
   const onboardingSteps = [
     { label: "Sign Contract", status: "completed", href: "/documents/contract" },
     { label: "Complete Brief", status: "in_progress", href: "/brief" },
@@ -139,10 +140,10 @@ export default function ClientDashboard() {
       <p className="text-gray-600 mb-8">
         Your project is in the onboarding phase
       </p>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {onboardingSteps.map((step) => (
-          <div 
+          <div
             key={step.label}
             className={`p-4 border rounded-lg ${
               step.status === "completed" ? "border-green-500 bg-green-50" :
@@ -154,7 +155,7 @@ export default function ClientDashboard() {
               <span className="font-medium">{step.label}</span>
               <span className="text-sm capitalize">{step.status.replace("_", " ")}</span>
             </div>
-            <Link 
+            <Link
               href={step.href}
               className="mt-2 inline-block text-blue-600 hover:underline"
             >
@@ -201,7 +202,7 @@ export default function ProjectBriefForm() {
           formData.append(key, value)
         }
       })
-      
+
       await fetch("/api/brief/submit", {
         method: "POST",
         body: formData
@@ -219,7 +220,7 @@ export default function ProjectBriefForm() {
 
       <div className="mb-6">
         <label className="block font-medium mb-2">Project Name</label>
-        <input 
+        <input
           {...register("projectName", { required: true })}
           className="w-full p-2 border rounded"
           placeholder="Q1 2026 Website Redesign"
@@ -228,7 +229,7 @@ export default function ProjectBriefForm() {
 
       <div className="mb-6">
         <label className="block font-medium mb-2">Target Audience</label>
-        <textarea 
+        <textarea
           {...register("targetAudience")}
           className="w-full p-2 border rounded h-32"
           placeholder="Describe your ideal customer..."
@@ -240,7 +241,7 @@ export default function ProjectBriefForm() {
           <h3 className="font-medium mb-3">Website-Specific Details</h3>
           <div className="mb-4">
             <label className="block text-sm mb-2">Current Website URL</label>
-            <input 
+            <input
               {...register("competitors")}
               className="w-full p-2 border rounded"
               placeholder="https://current-site.com"
@@ -249,7 +250,7 @@ export default function ProjectBriefForm() {
         </div>
       )}
 
-      <button 
+      <button
         type="submit"
         className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
       >
@@ -273,7 +274,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   if (req.method !== "POST") return res.status(405).end()
 
   const brief = req.body
-  
+
   // Notify account manager
   await sendEmail({
     to: "project-manager@youragency.com",
@@ -312,7 +313,6 @@ Before launching, verify your portal handles real-world scenarios: test form sub
 ## Measuring Portal Effectiveness
 
 Track completion rate, time to kickoff, support tickets, and client feedback. Iterate based on data—small improvements compound into significant time savings.
-
 
 
 ## Related Articles

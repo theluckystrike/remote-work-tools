@@ -3,6 +3,7 @@ layout: default
 title: "Example: Find pages not modified in the last 180 days using"
 description: "To fix your outdated wiki, run a 2-week documentation sprint: audit stale pages using git log --since='180 days ago', categorize them as"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-documentation-sprint-dedicating-ti/
 categories: [guides]
@@ -139,7 +140,7 @@ last-reviewed: 2025-08-15
 review-status: needs-review
 ---
 
-> ⚠️ **This page was last reviewed in August 2025.** 
+> ⚠️ **This page was last reviewed in August 2025.**
 > Some information may be outdated. Please verify before following any instructions.
 ```
 
@@ -288,7 +289,6 @@ Beyond "pages updated," track quality metrics:
 **Example clarity:** Do examples include explanations of what each line does, or just code dumps?
 
 A quality-focused sprint that updates 15 pages thoroughly beats a quantity-focused sprint that touches 40 pages superficially.
-
 
 
 ## Related Articles

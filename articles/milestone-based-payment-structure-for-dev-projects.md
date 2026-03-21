@@ -3,6 +3,7 @@ layout: default
 title: "Milestone Based Payment Structure for Dev Projects: A"
 description: "Learn how to implement milestone-based payment structures for development projects. Includes contract templates, code examples, and real-world"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /milestone-based-payment-structure-for-dev-projects/
 categories: [guides]
@@ -111,24 +112,24 @@ class Project:
         self.name = name
         self.total_budget = total_budget
         self.milestones: list[Milestone] = []
-    
+
     def add_milestone(self, milestone: Milestone):
         self.milestones.append(milestone)
-    
+
     def get_paid_amount(self) -> float:
-        return sum(m.amount for m in self.milestones 
+        return sum(m.amount for m in self.milestones
                    if m.status == MilestoneStatus.PAID)
-    
+
     def get_completed_unpaid(self) -> float:
-        return sum(m.amount for m in self.milestones 
+        return sum(m.amount for m in self.milestones
                    if m.status == MilestoneStatus.COMPLETED)
-    
+
     def complete_milestone(self, milestone_name: str):
         for m in self.milestones:
             if m.name == milestone_name:
                 m.status = MilestoneStatus.COMPLETED
                 m.completed_at = datetime.now()
-    
+
     def mark_paid(self, milestone_name: str):
         for m in self.milestones:
             if m.name == milestone_name:
@@ -137,7 +138,7 @@ class Project:
 # Example usage
 project = Project("Client Portal Redesign", 12000)
 project.add_milestone(Milestone(
-    "Discovery", "Requirements document", 
+    "Discovery", "Requirements document",
     ["Signed-off requirements", "User personas defined"], 1800
 ))
 project.add_milestone(Milestone(
@@ -204,7 +205,6 @@ Milestone payments change client dynamics. Regular payment triggers create ongoi
 Schedule milestone reviews before payment requests. Walk through what you delivered, confirm it meets acceptance criteria, then send the invoice. This conversation prevents misunderstandings and keeps the relationship collaborative.
 
 If a milestone takes longer than estimated, communicate early. Clients appreciate advance notice rather than surprises at deadline time. Discuss whether to adjust subsequent milestones or accept the delay.
-
 
 
 ## Related Articles

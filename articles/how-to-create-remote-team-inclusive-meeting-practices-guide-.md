@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Inclusive Meeting Practices Guide"
 description: "Running meetings for a global remote team presents unique challenges that most in-office practices simply don't address. When your team spans San Francisco"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-inclusive-meeting-practices-guide-/
 categories: [guides]
@@ -144,18 +145,18 @@ For meetings requiring discussion, implement explicit round-robin speaking order
 const meetingRotation = {
   currentIndex: 0,
   participants: [],
-  
+
   init(participants) {
     this.participants = participants;
     this.currentIndex = 0;
   },
-  
+
   getNextSpeaker() {
     const speaker = this.participants[this.currentIndex];
     this.currentIndex = (this.currentIndex + 1) % this.participants.length;
     return speaker;
   },
-  
+
   rotate() {
     // Move to next person after each meeting
     this.currentIndex = (this.currentIndex + 1) % this.participants.length;
@@ -186,14 +187,14 @@ meeting_platform:
       auto_record: true
       # Disable chat for large meetings to reduce noise
       chat_disabled_large_meeting: false
-      
+
   teams:
     settings:
       live_captions: enabled
       transcription: automatic
       # Queue raised hands
       raise_hand_feature: enabled
-      
+
   google_meet:
     settings:
       captions: enabled
@@ -249,7 +250,6 @@ Watch out for these patterns that undermine inclusive meetings:
 - Defaulting to "core hours": If your team spans 12+ hours, no single hour works for everyone. Accept that some meetings will require early or late times for everyone.
 - Recording as an afterthought: Start recordings from the beginning so synchronous attendees don't have advantages over async viewers.
 - Same-host timezone dominance: Rotate not just meeting times but meeting hosts, giving each time zone ownership.
-
 
 
 ## Related Articles

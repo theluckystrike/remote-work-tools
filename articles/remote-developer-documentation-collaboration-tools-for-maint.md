@@ -3,6 +3,7 @@ layout: default
 title: "Remote Developer Documentation Collaboration Tools for"
 description: "A practical guide to documentation collaboration tools for remote engineering teams. Learn how to maintain internal wikis with code examples, workflow"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-developer-documentation-collaboration-tools-for-maint/
 categories: [guides]
@@ -293,8 +294,6 @@ Select documentation tools based on your team's specific needs and existing work
 The best choice depends on your team's technical sophistication, existing tool investments, and documentation volume. A 12-person startup engineering team should start with GitHub-based docs in the same repository as their code. A 300-person engineering organization with multiple product lines probably needs Confluence's permission model. Start with the simplest solution your team will actually use and migrate when the friction of outgrowing it becomes concrete rather than theoretical.
 
 ---
-
-
 
 
 ## Related Articles

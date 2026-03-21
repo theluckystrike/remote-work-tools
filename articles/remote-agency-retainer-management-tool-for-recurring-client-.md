@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Retainer Management Tool for Recurring Client"
 description: "A practical guide to building and implementing a remote agency retainer management tool for recurring client work. Includes code examples, API"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-retainer-management-tool-for-recurring-client-/
 categories: [guides]
@@ -64,14 +65,14 @@ This schema supports tracking hours against retainer limits, generating invoices
 The most critical feature is real-time visibility into how much of the retainer you've consumed. Build a query that calculates current consumption:
 
 ```sql
-SELECT 
+SELECT
   c.name,
   c.retainer_hours,
   COALESCE(SUM(t.hours), 0) as hours_used,
   c.retainer_hours - COALESCE(SUM(t.hours), 0) as hours_remaining,
   (c.retainer_hours - COALESCE(SUM(t.hours), 0)) * c.hourly_rate as value_remaining
 FROM clients c
-LEFT JOIN time_entries t ON c.id = t.client_id 
+LEFT JOIN time_entries t ON c.id = t.client_id
   AND t.date >= DATE_TRUNC('month', CURRENT_DATE)
   AND t.billable = true
 WHERE c.id = $1
@@ -90,10 +91,10 @@ async function checkRetainerThresholds(clientId) {
     `SELECT * FROM clients WHERE id = $1`,
     [clientId]
   );
-  
+
   const consumption = await getRetainerConsumption(clientId);
   const percentageUsed = (consumption.hoursUsed / client.retainerHours) * 100;
-  
+
   if (percentageUsed >= 90 && !client.alert90Sent) {
     await sendSlackAlert({
       channel: '#account-alerts',
@@ -113,7 +114,7 @@ async function checkRetainerThresholds(clientId) {
       [clientId]
     );
   }
-  
+
   // Reset alerts at start of new billing cycle
   const now = new Date();
   if (now.getDate() === 1) {
@@ -139,7 +140,7 @@ async function createChangeOrder(clientId, description, hours, approvedBy) {
      RETURNING id`,
     [clientId, description, hours, approvedBy]
   );
-  
+
   await notifyClientOfChangeOrder(clientId, result.id);
   return result.id;
 }
@@ -156,25 +157,25 @@ async function generateMonthlyInvoices() {
   const clients = await db.query(
     `SELECT * FROM clients WHERE billing_cycle = 'monthly' AND auto_invoice = true`
   );
-  
+
   for (const client of clients) {
     const periodStart = getFirstDayOfPreviousMonth();
     const periodEnd = getLastDayOfPreviousMonth();
-    
+
     const hoursWorked = await getHoursInPeriod(client.id, periodStart, periodEnd);
     const changeOrders = await getChangeOrdersInPeriod(client.id, periodStart, periodEnd);
-    
+
     const retainerAmount = client.retainerHours * client.hourlyRate;
-    const additionalAmount = changeOrders.reduce((sum, co) => 
+    const additionalAmount = changeOrders.reduce((sum, co) =>
       sum + (co.hours * client.hourlyRate), 0
     );
-    
+
     await db.query(
       `INSERT INTO invoices (client_id, amount, status, period_start, period_end, created_at)
        VALUES ($1, $2, 'draft', $3, $4, CURRENT_TIMESTAMP)`,
       [client.id, retainerAmount + additionalAmount, periodStart, periodEnd]
     );
-    
+
     await sendInvoiceNotification(client.id, retainerAmount + additionalAmount);
   }
 }
@@ -198,7 +199,7 @@ async function syncTimeEntries(fromTool, clientId) {
       to: periodEnd,
       client_id: getHarvestClientId(clientId)
     });
-    
+
     for (const entry of entries) {
       await db.query(
         `INSERT INTO time_entries (client_id, description, hours, date, billable)
@@ -216,7 +217,6 @@ async function syncTimeEntries(fromTool, clientId) {
 If building your own system feels like overkill, several platforms handle retainer management out of the box. Look for tools that support per-client hourly rates, automatic carryover handling, and transparent reporting. The best options integrate with your existing time tracking and accounting software so you avoid double-entry work.
 
 Key features to prioritize include visual budget dashboards, customizable alert thresholds, and the ability to distinguish retainer work from project or change order work on invoices. Multi-currency support matters if you work with international clients.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Remote Employee Underperformance"
 description: "Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-remote-employee-underperformance-conversation-/
 categories: [guides]
@@ -387,7 +388,6 @@ If improvements are not demonstrated by [end date]:
 ```
 
 A good PIP shows the employee exactly what success looks like and gives them reasonable time and resources to achieve it.
-
 
 
 ## Related Articles

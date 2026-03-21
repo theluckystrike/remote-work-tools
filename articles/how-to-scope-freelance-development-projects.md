@@ -3,6 +3,7 @@ layout: default
 title: "How to Scope Freelance Development Projects"
 description: "Learn how to scope freelance development projects with practical examples, estimation techniques, and code-based deliverables"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-scope-freelance-development-projects/
 categories: [guides]
@@ -186,7 +187,6 @@ Several tools help manage project scope:
 - Time tracking history: Review past projects to improve future estimates
 
 Build these into your scoping workflow. They create accountability and documentation that protects everyone involved.
-
 
 
 ## Related Articles

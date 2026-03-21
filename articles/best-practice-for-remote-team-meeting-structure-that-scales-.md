@@ -120,7 +120,7 @@ Track rotation in your project management tool:
 ```
 Team Rotation Schedule:
 - Week 1: Frontend (rep: @developer1)
-- Week 2: Backend (rep: @developer2)  
+- Week 2: Backend (rep: @developer2)
 - Week 3: Platform (rep: @developer3)
 - Week 4: Data (rep: @developer4)
 ```
@@ -197,12 +197,13 @@ Building a scalable meeting structure requires deliberate design:
 The goal is not zero meetings—that is unrealistic for most teams. The goal is meetings that serve clear purposes, respect everyone's time, and scale alongside your team without becoming unmanageable.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-- [How to Scale Remote Team From 5 to 20 Without Losing Startup Culture](/remote-work-tools/how-to-scale-remote-team-from-5-to-20-without-losing-startup/)
-- [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
+- [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

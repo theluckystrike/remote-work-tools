@@ -3,6 +3,7 @@ layout: default
 title: "Do Async Performance Reviews for Remote Engineering Teams"
 description: "A practical guide with code snippets and templates for implementing async performance reviews in distributed engineering teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-do-async-performance-reviews-for-remote-engineering-t/
 reviewed: true
@@ -47,20 +48,20 @@ Reduce administrative overhead by automating review phase transitions:
 // Example: Notion API automation for review reminders
 const REVIEW_PHASES = {
   SELF_REFLECTION: 'self-reflection',
-  PEER_FEEDBACK: 'peer-feedback', 
+  PEER_FEEDBACK: 'peer-feedback',
   MANAGER_REVIEW: 'manager-review',
   EMPLOYEE_RESPONSE: 'employee-response'
 };
 
 async function sendReviewReminder(engineer, phase) {
   const messages = {
-    [REVIEW_PHASES.SELF_REFLECTION]: 
+    [REVIEW_PHASES.SELF_REFLECTION]:
       `Hi ${engineer.name}, your self-review is due in 2 days. ` +
       `Focus on: completed tickets, code reviews, and team contributions.`,
     [REVIEW_PHASES.PEER_FEEDBACK]:
       `Reminder: Please complete peer feedback for ${engineer.name} by Friday.`
   };
-  
+
   await slackClient.chat.postMessage({
     channel: engineer.slackId,
     text: messages[phase]
@@ -83,7 +84,7 @@ Generic performance review forms often miss what matters for engineers. Your tem
 - Note any technical debt reduction or refactoring
 
 ### 2. Code Review Activity
-- Number of PRs reviewed: 
+- Number of PRs reviewed:
 - Number of PRs author:
 - Patterns or knowledge you shared with the team:
 
@@ -135,11 +136,11 @@ Days 1-2: Manager posts review templates and announces timeline in team channel
 
 **Timeline:**
 - Jan 15-17: Complete self-reviews
-- Jan 18-21: Peer feedback collection  
+- Jan 18-21: Peer feedback collection
 - Jan 22-25: Manager reviews
 - Jan 26-28: Employee read and respond
 
-**Instructions:** 
+**Instructions:**
 Copy the template from [link], fill it out, and tag me when complete.
 ```
 
@@ -199,7 +200,6 @@ Survey engineers after each cycle:
 3. What would you change about the template?
 4. Any friction points in the async process?
 ```
-
 
 
 ## Related Articles

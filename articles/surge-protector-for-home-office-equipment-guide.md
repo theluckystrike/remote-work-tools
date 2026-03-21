@@ -3,6 +3,7 @@ layout: default
 title: "Surge Protector for Home Office Equipment Guide"
 description: "Learn how to protect your expensive development equipment from power surges. This guide covers surge protector specs, joule ratings, and smart setups"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /surge-protector-for-home-office-equipment-guide/
 categories: [guides]
@@ -120,19 +121,19 @@ When selecting an UPS for development work, consider the runtime you need for gr
 const smartSurgeProtector = {
     host: '192.168.1.100',
     apiKey: 'your-api-key',
-    
+
     async getStatus() {
         const response = await fetch(`http://${this.host}/api/status`, {
             headers: { 'Authorization': `Bearer ${this.apiKey}` }
         });
         return response.json();
     },
-    
+
     async getSurgeEvents() {
         const status = await this.getStatus();
         return status.surgeEvents || [];
     },
-    
+
     async monitor() {
         setInterval(async () => {
             const events = await this.getSurgeEvents();
@@ -174,7 +175,6 @@ Standard environment: Replace every 3-5 years
 High-surge area: Replace every 1-2 years
 After major event: Always replace point-of-use units
 ```
-
 
 
 ## Related Articles

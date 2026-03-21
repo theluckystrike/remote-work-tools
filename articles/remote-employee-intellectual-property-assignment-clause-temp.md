@@ -3,6 +3,7 @@ layout: default
 title: "Remote Employee Intellectual Property Assignment Clause"
 description: "IP assignment clauses for remote teams must cover work-created IP across multiple jurisdictions while accounting for local legal variations in Germany, Brazil"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-employee-intellectual-property-assignment-clause-temp/
 categories: [guides]
@@ -96,7 +97,7 @@ class RemoteEmployeeContract {
   async sendForSignature() {
     const contract = this.generateContract();
     const provider = this.getSignatureProvider(); // DocuSign, HelloSign, etc.
-    
+
     const envelope = await provider.createEnvelope({
       documents: [contract],
       signers: [{
@@ -210,8 +211,6 @@ For developer-focused teams, consider these additional measures:
 An IP assignment framework protects your organization while providing clear guidance to remote employees. The templates and patterns in this guide give you a foundation to build jurisdiction-appropriate agreements that work for distributed teams.
 
 Review your current IP assignment practices and identify gaps. Implement the checklist for new hires and audit existing agreements for compliance with local requirements.
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Code Review Guidelines"
 description: "Practical strategies for scaling your code review process when your remote engineering team grows from 10 to 30 developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-code-review-process-when-engineerin/
 categories: [guides]
@@ -59,12 +60,12 @@ review_requirements:
     patterns: ["**/docs/**", "**/styles/**", "**/tests/**"]
     reviewers_required: 1
     approvers: any_team_member
-    
+
   medium_risk:
     patterns: ["**/src/**", "**/lib/**"]
     reviewers_required: 2
     approvers: different_team_members
-    
+
   high_risk:
     patterns: ["**/auth/**", "**/payment/**", "**/migration/**"]
     reviewers_required: 3
@@ -151,7 +152,7 @@ function validatePRSize(files) {
   const totalChanges = files.reduce((sum, file) => {
     return sum + file.additions + file.deletions;
   }, 0);
-  
+
   if (totalChanges > MAX_LINES) {
     console.error(`PR exceeds ${MAX_LINES} lines. Split into smaller PRs.`);
     process.exit(1);
@@ -172,7 +173,7 @@ Track these metrics to know if your scaling efforts work:
 
 ```sql
 -- Query to check reviewer distribution
-SELECT 
+SELECT
   reviewer,
   COUNT(*) as review_count,
   ROUND(100.0 * COUNT(*) / SUM(COUNT(*)) OVER(), 1) as percentage
@@ -196,7 +197,6 @@ Don't make these mistakes when scaling your review process:
 Scaling code review isn't just about processes—it's about building a culture where review is seen as a critical part of development, not an interruption. When developers understand that good reviews make the whole team better, they invest the time to do them well.
 
 Encourage senior engineers to model good review behavior: thorough but kind feedback, quick turnaround times, and helpful explanations rather than just corrections.
-
 
 
 ## Related Articles

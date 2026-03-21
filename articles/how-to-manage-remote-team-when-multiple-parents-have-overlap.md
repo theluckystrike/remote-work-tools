@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Remote Team When Multiple Parents Have"
 description: "Practical strategies for managing remote teams when team members have children in different schools with overlapping holiday schedules. Includes"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-when-multiple-parents-have-overlap/
 reviewed: true
@@ -41,25 +42,25 @@ function getParentAvailability() {
   const calendar = CalendarApp.getCalendarById('team-calendar-id');
   const today = new Date();
   const twoWeeksOut = new Date(today.getTime() + (14 * 24 * 60 * 60 * 1000));
-  
+
   const events = calendar.getEvents(today, twoWeeksOut, {
     search: 'School Break'
   });
-  
+
   const availability = {};
   events.forEach(event => {
     const title = event.getTitle();
     const dates = `${event.getStartTime().toDateString()} - ${event.getEndTime().toDateString()}`;
-    
+
     // Extract parent name from event title format: "Parent Name - School Break"
     const parentName = title.split(' - ')[0];
-    
+
     if (!availability[parentName]) {
       availability[parentName] = [];
     }
     availability[parentName].push(dates);
   });
-  
+
   return availability;
 }
 ```
@@ -84,23 +85,23 @@ def calculate_sprint_capacity(team_members, school_breaks, sprint_days=10):
         sprint_days: Number of working days in sprint
     """
     capacity_by_member = {}
-    
+
     for member in team_members:
         name = member['name']
         base_capacity = member['daily_capacity'] * sprint_days
-        
+
         # Subtract days affected by school breaks
         break_days = 0
         if name in school_breaks:
             for start, end in school_breaks[name]:
                 break_days += (end - start).days
-        
+
         # Apply coverage factor (50% capacity during break periods)
         effective_break_days = break_days * 0.5
         effective_capacity = base_capacity - (effective_break_days * member['daily_capacity'])
-        
+
         capacity_by_member[name] = max(0, effective_capacity)
-    
+
     total_capacity = sum(capacity_by_member.values())
     return capacity_by_member, total_capacity
 
@@ -205,7 +206,6 @@ At the start of each semester or term, hold a brief planning session where paren
 ```
 
 Keep these meetings short—15 minutes maximum. The goal is information sharing, not extensive discussion.
-
 
 
 ## Related Articles

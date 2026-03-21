@@ -71,7 +71,7 @@ const calculateDeskNeeds = (monitorSize, hasLaptop) => {
   const baseWidth = 36; // inches
   const laptopSpace = hasLaptop ? 12 : 0;
   const monitorDepth = 8;
-  
+
   return {
     minWidth: baseWidth + laptopSpace,
     minDepth: monitorDepth + 18, // for keyboard + mouse
@@ -152,19 +152,19 @@ class DeskSessionTracker:
         self.standing_height = standing_height
         self.sessions = []
         self.current_position = "sitting"
-        
+
     def log_position(self, position):
         self.sessions.append({
             "position": position,
             "timestamp": datetime.now().isoformat()
         })
         self.current_position = position
-        
+
     def get_balance_report(self):
         sitting = sum(1 for s in self.sessions if s["position"] == "sitting")
         standing = sum(1 for s in self.sessions if s["position"] == "standing")
         total = sitting + standing
-        
+
         return {
             "sitting_sessions": sitting,
             "standing_sessions": standing,
@@ -194,11 +194,11 @@ function scheduleBreakReminders(currentState, workDuration = 25) {
     [DESK_STATES.SITTING]: workDuration,  // 25 min sitting
     [DESK_STATES.STANDING]: workDuration / 2  // 12.5 min standing
   };
-  
+
   return {
     interval: reminders[currentState] * 60 * 1000, // convert to ms
-    message: currentState === DESK_STATES.SITTING 
-      ? "Time to stand and stretch!" 
+    message: currentState === DESK_STATES.SITTING
+      ? "Time to stand and stretch!"
       : "Consider sitting for a bit"
   };
 }
@@ -218,12 +218,14 @@ Switching to a compact standing desk in a small apartment requires adjustment:
 4. Peripheral access: Ensure keyboard and mouse remain comfortable
 5. Neighbor considerations: Electric motors produce sound—avoid late-night adjustments in apartments
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
 - [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
-- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
-- [Best Desk for Corner Home Office Room Layout Setup 2026](/remote-work-tools/best-desk-for-corner-home-office-room-layout-setup-2026/)
+- [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)
+- [Cable Management Under Desk for Home Office With Standing](/remote-work-tools/cable-management-under-desk-for-home-office-with-standing-de/)
+- [How to Set Up Home Office in Bali Rental Apartment with](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
+- [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

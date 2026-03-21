@@ -3,6 +3,7 @@ layout: default
 title: "How to Register as Self-Employed Remote Worker in Portugal"
 description: "Step-by-step guide for developers and power users on registering as self-employed in Portugal. Covers NIF, IRS registration, VAT, and practical tax"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-register-as-self-employed-remote-worker-in-portugal-f/
 categories: [guides]
@@ -110,7 +111,7 @@ def create_invoice(
     subtotal = sum(s["price"] * s["quantity"] for s in services)
     vat_rate = 0.23 if vat_registered else 0
     vat_amount = subtotal * vat_rate
-    
+
     return {
         "invoice_number": f"FT {invoice_number:05d}",
         "date": "2026-03-16",
@@ -305,7 +306,6 @@ Many developers handle Portuguese taxes themselves using accounting software. Ho
 - Answer questions when IRS sends inquiries
 
 For your first year, hiring a contabilista helps you understand the process. After year one, you can decide whether to continue or move to DIY accounting if comfortable.
-
 
 
 ## Related Articles

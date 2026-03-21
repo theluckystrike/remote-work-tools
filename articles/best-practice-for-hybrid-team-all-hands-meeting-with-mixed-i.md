@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Hybrid Team All Hands Meeting with Mixed"
 description: "Master hybrid all-hands meetings with mixed in-person and remote attendees. Practical patterns, technical setup, help techniques for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/
 categories: [guides]
@@ -112,10 +113,10 @@ from datetime import datetime, timedelta
 def create_all_hands_meeting(topic, duration_minutes=60):
     """Create a Zoom meeting for all-hands."""
     url = "https://api.zoom.us/v2/users/me/meetings"
-    
+
     start_time = datetime.now() + timedelta(days=7)
     start_time = start_time.replace(hour=10, minute=0, second=0)
-    
+
     payload = {
         "topic": topic,
         "type": 2,  # Scheduled meeting
@@ -131,12 +132,12 @@ def create_all_hands_meeting(topic, duration_minutes=60):
             "registration_type": 1
         }
     }
-    
+
     response = requests.post(url, json=payload, headers={
         "Authorization": f"Bearer {get_access_token()}",
         "Content-Type": "application/json"
     })
-    
+
     return response.json()
 
 # Usage
@@ -172,12 +173,14 @@ Capture every all-hands meeting for those who cannot attend live. Provide:
 
 This respects different work schedules and time zones while maintaining information equity.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-- [Best Practice for Hybrid Team Meeting Scheduling.](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
-- [Best Practice for Remote Team All Hands Meeting Format.](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+## Related Articles
+
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [Best Practice for Hybrid Team Meeting Scheduling Respecting](/remote-work-tools/best-practice-for-hybrid-team-meeting-scheduling-respecting-/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
+- [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

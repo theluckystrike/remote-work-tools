@@ -3,6 +3,7 @@ layout: default
 title: "tmux Config Guide for Remote Developers"
 description: "A practical tmux configuration guide for remote developers: sessions, windows, panes, plugins, and SSH persistence that survives dropped connections"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /tmux-config-guide-remote-developers/
 categories: [guides]
@@ -283,7 +284,6 @@ setw -g monitor-activity off
 # set -g mouse off
 # This reduces the amount of data sent between server and client
 ```
-
 
 
 ## Related Articles

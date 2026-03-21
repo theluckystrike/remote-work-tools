@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Decision Making Framework for"
 description: "A practical guide to building a decision-making framework for remote and distributed teams. Includes templates, decision matrices, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-decision-making-framework-for-dist/
 categories: [guides]
@@ -114,8 +115,6 @@ Clear statement of what was decided. Use active voice: "We will..."
 ## Review Date
 [6 months from decision date for retrospective]
 
-## Related Decisions
-- [Link to related decision records]
 ```
 
 Store these in a searchable location—GitHub issues, a Notion database, or a dedicated decision log. Searchable history prevents重复 decisions and helps new team members understand why things work as they do.
@@ -215,8 +214,6 @@ Track these metrics to gauge whether your framework works:
 Regular review ensures the framework serves the team rather than becoming bureaucratic overhead.
 
 Building a decision-making framework for distributed teams takes deliberate effort, but the payoff is significant: faster decisions, clearer accountability, and team members who trust the process because they understand it. Start simple, iterate based on experience, and remember that the goal is better outcomes, not more documentation.
-
-
 
 
 ## Related Articles

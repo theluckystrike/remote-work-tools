@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Linux Workstation for Remote Work"
 description: "A practical guide for developers and power users setting up a Linux workstation for remote work. Includes desktop environment setup, security"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-up-linux-workstation-for-remote-work/
 categories: [guides]
@@ -267,7 +268,6 @@ Create aliases for quick access:
 # ~/.bashrc
 alias top='bpytop'
 ```
-
 
 
 ## Related Articles

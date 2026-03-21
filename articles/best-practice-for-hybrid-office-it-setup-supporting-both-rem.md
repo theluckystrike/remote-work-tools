@@ -3,6 +3,7 @@ layout: default
 title: "OpenVPN client configuration snippet"
 description: "A practical guide for developers and power users setting up IT infrastructure that supports hybrid work models"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-hybrid-office-it-setup-supporting-both-rem/
 reviewed: true
@@ -219,11 +220,13 @@ Deploy endpoint detection and response (EDR) solutions across all devices, regar
 
 7. Monitor and iterate: Collect feedback from users and adjust policies to improve the hybrid experience.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Office Kitchen and Shared Space.](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
-- [Satellite Office Strategy for Hybrid Companies](/remote-work-tools/satellite-office-strategy-for-hybrid-companies/)
-- [How to Design Mother and Parent Room for Hybrid Office.](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
+## Related Articles
+
+- [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
+- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [Pin configuration](/remote-work-tools/how-to-design-mother-and-parent-room-for-hybrid-office-retur/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Hybrid Office Kitchen and Shared Space](/remote-work-tools/best-practice-for-hybrid-office-kitchen-and-shared-space-eti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

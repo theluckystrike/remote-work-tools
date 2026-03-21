@@ -3,6 +3,7 @@ layout: default
 title: "How to Reduce Slack Notification Fatigue for Remote"
 description: "Practical strategies and tools to help remote developers manage Slack notifications, reclaim focus time, and maintain productivity without missing"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-reduce-slack-notification-fatigue-for-remote-develope/
 categories: [guides]
@@ -208,7 +209,6 @@ Track whether these changes improve your productivity:
 4. Stress levels: Do you feel less overwhelmed by communication?
 
 Adjust your approach based on what works for your specific role and team.
-
 
 
 ## Related Articles

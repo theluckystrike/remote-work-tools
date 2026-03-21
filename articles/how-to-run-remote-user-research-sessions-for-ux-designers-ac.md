@@ -3,6 +3,7 @@ layout: default
 title: "Recommended recording setup for user research"
 description: "A practical guide to conducting remote user research sessions for distributed UX teams跨越时区. Includes scheduling strategies, async workflows, and tool"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-user-research-sessions-for-ux-designers-ac/
 categories: [guides]
@@ -172,7 +173,6 @@ After completing all sessions, schedule a synthesis session using your overlap w
 ## Common Pitfalls to Avoid
 
 Several mistakes undermine remote user research effectiveness. First, avoid conducting sessions alone when your team is distributed. Always have at least one observer from each major time zone represented. Second, do not skip transcription. Manually reviewing hours of recordings wastes time that could go toward insight synthesis. Third, resist the temptation to only schedule sessions during your local work hours. This defeats the purpose of distributed research and excludes team member participation.
-
 
 
 ## Related Articles

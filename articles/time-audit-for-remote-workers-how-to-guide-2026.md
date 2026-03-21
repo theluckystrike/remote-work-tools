@@ -3,6 +3,7 @@ layout: default
 title: "Time Audit for Remote Workers: A Practical How-To Guide"
 description: "Learn how to perform a time audit as a remote worker. Practical examples, CLI tools, and automation scripts for developers and power users"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /time-audit-for-remote-workers-how-to-guide-2026/
 categories: [guides]
@@ -270,7 +271,6 @@ an one-time audit provides a snapshot. Building sustainable productivity require
 **Expect gradual improvement**: Time management isn't something you "fix" once. It's an ongoing practice that requires constant adjustment as priorities change and new tools emerge.
 
 The best time audit isn't the initial data collection—it's the sustained practice of reviewing how you spend time and iterating toward better allocation.
-
 
 
 ## Related Articles

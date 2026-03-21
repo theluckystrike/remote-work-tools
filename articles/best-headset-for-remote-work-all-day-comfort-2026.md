@@ -46,11 +46,11 @@ const testAudioLatency = async () => {
   const audioContext = new AudioContext();
   const oscillator = audioContext.createOscillator();
   const startTime = audioContext.currentTime;
-  
+
   oscillator.connect(audioContext.destination);
   oscillator.start(startTime);
   oscillator.stop(startTime + 0.1);
-  
+
   console.log(`Audio context state: ${audioContext.state}`);
   console.log('For accurate measurements, use specialized tools like RTLAM');
 };
@@ -362,9 +362,13 @@ Year 3: Noticeable issues
 Built by
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Headset for Wearing with Glasses All Day Remote Work](/remote-work-tools/best-headset-for-wearing-with-glasses-all-day-remote-work/)
+- [How to Set Up Linux Workstation for Remote Work](/remote-work-tools/how-to-set-up-linux-workstation-for-remote-work/)
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Best Remote Work Headset with Microphone 2026](/remote-work-tools/best-remote-work-headset-with-microphone-2026/)
+- [How to Handle School Snow Day When Both Parents Work](/remote-work-tools/how-to-handle-school-snow-day-when-both-parents-work-remotel/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

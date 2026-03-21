@@ -67,7 +67,7 @@ jobs:
       - run: terraform init
       - run: terraform validate
       - run: terraform plan -no-color
-      
+
   ansible:
     runs-on: ubuntu-latest
     steps:
@@ -231,11 +231,14 @@ A three-person team can iterate quickly on workflow improvements. When something
 
 ---
 
-## Related Reading
 
-- [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Async Bug Triage Process for Remote QA Teams](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
+## Related Articles
+
+- [Remote Engineering Team Infrastructure Cost Per Deploy](/remote-work-tools/remote-engineering-team-infrastructure-cost-per-deploy-track/)
+- [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

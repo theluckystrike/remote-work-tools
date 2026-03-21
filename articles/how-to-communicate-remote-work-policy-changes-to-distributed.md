@@ -3,6 +3,7 @@ layout: default
 title: "Example: Calculate optimal announcement time for global team"
 description: "A practical guide for leaders and managers on announcing policy updates to remote teams while maintaining trust, reducing uncertainty, and keeping"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-communicate-remote-work-policy-changes-to-distributed/
 reviewed: true
@@ -222,8 +223,6 @@ After implementing your communication plan, watch for these indicators:
 Policy changes don't have to cause anxiety. With careful communication, they can actually strengthen trust by demonstrating that leadership communicates transparently and values team input.
 
 ---
-
-
 
 
 ## Related Articles

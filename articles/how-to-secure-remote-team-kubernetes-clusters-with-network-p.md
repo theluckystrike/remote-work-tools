@@ -3,6 +3,7 @@ layout: default
 title: "How to Secure Remote Team Kubernetes Clusters with Network P"
 description: "A practical guide to implementing Kubernetes network policies to secure your remote team's cluster infrastructure"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-secure-remote-team-kubernetes-clusters-with-network-p/
 reviewed: true
@@ -273,7 +274,6 @@ No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API s
 **What happens when two conflicting policies apply to the same pod?**
 
 Kubernetes applies a union of all matching policies. If any policy permits the traffic, it is allowed. There is no deny priority — only explicit allows. This means your deny-all policy blocks traffic by default, and any subsequent policy that permits specific traffic takes effect additively. You cannot write a policy that overrides a more permissive one.
-
 
 
 ## Related Articles

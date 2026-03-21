@@ -3,6 +3,7 @@ layout: default
 title: "Clio API authentication"
 description: "Distributed law firms need client communication portals with end-to-end encryption, two-factor authentication, and audit logging for HIPAA and attorney-client"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-law-firm-client-communication-portal-comparison-for-d/
 reviewed: true
@@ -140,7 +141,7 @@ def handle_portal_webhook():
     signature = request.headers.get('X-Webhook-Signature')
     if not verify_webhook(request.data, signature, WEBHOOK_SECRET):
         return jsonify({"error": "Invalid signature"}), 401
-    
+
     data = request.json
     # Process incoming client message
     log_communication(
@@ -149,7 +150,7 @@ def handle_portal_webhook():
         message=data['content'],
         timestamp=datetime.utcnow()
     )
-    
+
     return jsonify({"status": "received"}), 200
 ```
 
@@ -212,7 +213,7 @@ For maximum efficiency, integrate your communication portal with your practice m
 def sync_messages_to_practice_management(portal_token, pm_api_url, pm_token):
     # Fetch latest messages from portal
     messages = get_portal_messages(portal_token, since=last_sync_time)
-    
+
     # Transform and push to practice management
     for msg in messages['data']:
         transformed = transform_message_format(msg)
@@ -221,7 +222,7 @@ def sync_messages_to_practice_management(portal_token, pm_api_url, pm_token):
             headers={"Authorization": f"Bearer {pm_token}"},
             json=transformed
         )
-    
+
     update_last_sync_time(messages['latest_timestamp'])
 ```
 
@@ -243,7 +244,6 @@ Factor in additional costs for API overages, data storage, and implementation su
 - [ ] Train attorneys on secure communication protocols
 - [ ] Establish incident response procedures
 - [ ] Test API integrations in staging environment before production deployment
-
 
 
 ## Related Articles

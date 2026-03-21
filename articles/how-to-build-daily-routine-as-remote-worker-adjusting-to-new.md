@@ -3,6 +3,7 @@ layout: default
 title: "How to Build a Daily Routine as a Remote Worker Adjusting"
 description: "Practical strategies for developers and power users to establish a sustainable daily routine when relocating to a new timezone. Includes timezone-aware"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/
 categories: [guides]
@@ -55,15 +56,15 @@ def find_overlap():
     print("Team works: 10:00 - 18:00 Berlin time")
     print("Your natural hours: 07:00 - 23:00 Los Angeles time")
     print("\nOverlapping hours by day of adjustment:\n")
-    
+
     for day in range(0, 14, 3):
         # Calculate shifted hours (roughly 1 hour per day adjustment)
         shift = min(day, 1) * (24 - day/3) if day < 10 else 1
         shifted_wake = natural_wake + shift
         shifted_sleep = natural_sleep + shift
-        
+
         print(f"Day {day}: Wake ~{int(shifted_wake):02d}:00, Sleep ~{int(shifted_sleep):02d}:00")
-        
+
         # Show overlap window
         print(f"  → Best overlap with team: 14:00-18:00 your time")
 
@@ -156,9 +157,9 @@ def batch_notifications():
     # Your overlap hours (adjust based on phase)
     overlap_start = 14  # 2 PM your time
     overlap_end = 18    # 6 PM your time
-    
+
     current_hour = int(datetime.now().strftime("%H"))
-    
+
     if overlap_start <= current_hour <= overlap_end:
         # Enable notifications during overlap
         subprocess.run(["notify-send", "Notifications enabled"])
@@ -188,7 +189,6 @@ After 2-3 weeks, your routine should stabilize. Fine-tune with these developer-s
 **Asynchronous communication buffers:** Establish clear expectations with your team about response times during your adaptation. Set your Slack status to indicate timezone and expected response windows.
 
 **Environmental anchors:** Create consistent environmental cues in your new location—a specific desk setup, background music, or workspace rituals that signal "work time" regardless of timezone confusion.
-
 
 
 ## Related Articles

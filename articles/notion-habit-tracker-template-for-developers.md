@@ -3,6 +3,7 @@ layout: default
 title: "Notion Habit Tracker Template for Developers"
 description: "A practical guide to building a habit tracker in Notion designed specifically for developers. Includes template structures, database configurations"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /notion-habit-tracker-template-for-developers/
 categories: [productivity, guides]
@@ -331,7 +332,6 @@ Habit trackers aren't forever. Revisit and reset quarterly:
 A quarterly reset also catches habit drift — where the original definition of a habit has silently changed in practice. If "30 minutes of learning" has drifted from "reading technical books" to "watching YouTube," decide consciously whether that change was intentional. The quarterly review surfaces this kind of drift before it undermines the habit's value.
 
 A healthy habit tracker evolves as you do.
-
 
 
 ## Related Articles

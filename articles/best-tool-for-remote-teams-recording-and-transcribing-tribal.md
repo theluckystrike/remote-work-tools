@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Remote Teams Recording and Transcribing"
 description: "A practical guide for developers and power users on capturing, transcribing, and organizing tribal knowledge from remote meetings into searchable wiki"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-teams-recording-and-transcribing-tribal/
 categories: [guides]
@@ -48,7 +49,7 @@ class ZoomRecordingManager:
         self.client_id = client_id
         self.client_secret = client_secret
         self.access_token = None
-    
+
     def get_access_token(self):
         # Server-to-server OAuth flow
         response = requests.post(
@@ -58,11 +59,11 @@ class ZoomRecordingManager:
         )
         self.access_token = response.json()['access_token']
         return self.access_token
-    
+
     def list_recordings(self, from_date, to_date):
         if not self.access_token:
             self.get_access_token()
-        
+
         response = requests.get(
             'https://api.zoom.us/v2/users/me/recordings',
             params={
@@ -110,7 +111,7 @@ import json
 def transcribe_audio(audio_path, model_size='medium'):
     model = whisper.load_model(model_size)
     result = model.transcribe(audio_path, language='en')
-    
+
     return {
         'text': result['text'],
         'segments': result['segments'],
@@ -144,9 +145,9 @@ async function transcribeWithSpeakerDiarization(audioUrl) {
       }
     }
   );
-  
+
   const transcriptId = transcriptRequest.data.id;
-  
+
   // Poll for completion
   let result;
   while (true) {
@@ -156,13 +157,13 @@ async function transcribeWithSpeakerDiarization(audioUrl) {
         headers: { 'Authorization': process.env.ASSEMBLYAI_API_KEY }
       }
     );
-    
+
     if (result.data.status === 'completed') break;
     if (result.data.status === 'error') throw new Error('Transcription failed');
-    
+
     await new Promise(resolve => setTimeout(resolve, 5000));
   }
-  
+
   return result.data;
 }
 ```
@@ -181,7 +182,7 @@ const { Octokit } = require('octokit');
 
 async function createWikiPage(transcription, meetingTitle, date) {
   const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
-  
+
   // Format content with speaker attribution
   let content = `# ${meetingTitle}\n\n`;
   content += `**Date:** ${date.toISOString().split('T')[0]}\n\n`;
@@ -189,14 +190,14 @@ async function createWikiPage(transcription, meetingTitle, date) {
   content += `**Participants:** ${transcription.speakers.join(', ')}\n\n`;
   content += `---\n\n## Summary\n\n${transcription.summary}\n\n`;
   content += `## Transcript\n\n`;
-  
+
   for (const utterance of transcription.utterances) {
     content += `**${utterance.speaker}:** ${utterance.text}\n\n`;
   }
-  
+
   // Create or update wiki page repository
   const slug = meetingTitle.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-  
+
   await octokit.request('PUT /repos/{owner}/{repo}/contents/wiki/{path}', {
     owner: 'your-org',
     repo: 'team-wiki',
@@ -222,24 +223,24 @@ def daily_pipeline():
         datetime.now() - timedelta(days=1),
         datetime.now()
     )
-    
+
     for recording in recordings:
         # Step 2: Download audio file
         audio_path = download_recording(recording['download_url'])
-        
+
         # Step 3: Transcribe using local Whisper
         transcription = transcribe_audio(audio_path)
-        
+
         # Step 4: Generate summary using LLM
         summary = generate_summary(transcription['text'])
-        
+
         # Step 5: Create wiki article
         create_wiki_page(
             transcription=transcription,
             meeting_title=recording['topic'],
             date=datetime.fromisoformat(recording['start_time'])
         )
-        
+
         print(f"Processed: {recording['topic']}")
 
 # Run daily at 6 PM
@@ -269,8 +270,6 @@ The best tool combination depends on your existing infrastructure. Teams already
 Start with a single meeting type—perhaps sprint retrospectives or design discussions—and refine your workflow before expanding to all meetings. The goal is sustainable knowledge capture, not perfect automation from day one.
 
 Track how often wiki articles get referenced and updated. Tribal knowledge capture only succeeds when the resulting documentation actually gets used.
-
-
 
 
 ## Related Articles

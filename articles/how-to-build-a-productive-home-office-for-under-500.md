@@ -3,6 +3,7 @@ layout: default
 title: "How to Build a Productive Home Office for Under $500"
 description: "Build a high-productivity home office setup on a budget. Detailed breakdown of essential equipment, smart shopping strategies, and DIY alternatives"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /how-to-build-a-productive-home-office-for-under-500/
 categories: [guides]
@@ -238,5 +239,7 @@ Building a productive office on $500 requires one non-negotiable: your comfort. 
 - [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
 - [Best Baby Monitor with WiFi That Works Alongside Home](/remote-work-tools/best-baby-monitor-with-wifi-that-works-alongside-home-office/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

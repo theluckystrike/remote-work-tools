@@ -3,6 +3,7 @@ layout: default
 title: "How to Build Cross-Team Relationships in Large Remote"
 description: "Practical strategies for building meaningful cross-team relationships in large remote organizations. Learn communication patterns, tooling, and processes"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-build-cross-team-relationships-in-large-remote-organi/
 categories: [guides]
@@ -316,7 +317,6 @@ Sometimes teams develop adversarial relationships—especially over shared syste
 4. **Rebuild through project collaboration**: Assign a small project where teams must work together
 
 Often the issue is structural rather than interpersonal. Teams competing for on-call burden or infrastructure resources naturally develop friction. Reorganize the system so teams share the burden fairly.
-
 
 
 ## Related Articles

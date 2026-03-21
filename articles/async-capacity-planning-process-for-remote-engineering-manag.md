@@ -194,7 +194,7 @@ When team members work across time zones, capacity planning must account for ove
 | Charlie     | GMT       | 8 hours          |
 | Diana       | JST       | 0 hours          |
 
-Recommendation: Assign async-heavy work to Diana; 
+Recommendation: Assign async-heavy work to Diana;
 synchronous coordination for Alice/Bob/Charlie during overlap
 ```
 
@@ -209,7 +209,7 @@ Single project focus: 1.0x productivity
 Two projects (equal priority): 0.85x productivity
 Three+ projects: 0.70x productivity
 
-Apply appropriate multiplier when calculating capacity 
+Apply appropriate multiplier when calculating capacity
 for multi-project team members
 ```
 
@@ -249,12 +249,14 @@ Less Buffer (10%): -197 hours
 
 This async calculation completed without any meetings, using shared documents and written communication.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Capacity Planning Process for Remote Engineering Managers Guide](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
-- [Best Tool for Remote Team Capacity Planning When Scaling.](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+## Related Articles
+
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Chair Mat for Carpet vs Hardwood Floor"
 description: "A practical guide comparing chair mats for carpet and hardwood floors. Learn about material differences, thickness considerations, and how to choose"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/
 categories: [guides]
@@ -119,19 +120,19 @@ MATS = {
 def score_mat(floor_type, priorities):
     """Score mats based on floor type and priorities."""
     scores = {}
-    
+
     for name, mat in MATS.items():
         score = 0
         if mat["type"] == floor_type:
             score += 50  # Base match bonus
         score += mat["durability_years"] * 10
         score += min(mat["weight_capacity_lbs"] / 10, 30)
-        
+
         if priorities.get("budget") and mat["price_tier"] == "budget":
             score += 20
-            
+
         scores[name] = score
-    
+
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
 # Example: Choosing for hardwood with budget priority
@@ -172,11 +173,9 @@ For most home office setups:
 The right chair mat is an investment in both your comfort and your flooring. Take time to measure your carpet depth or verify your floor type, check your chair's caster type, and choose materials appropriate to your specific situation. Your joints—and your floor—will thank you after years of daily use.
 
 
-
-
 ## Related Articles
 
-- [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
+- [Home Office Chair Mat for Carpet vs Hardwood Floor — Comparison](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-comparison/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)
 - [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
 - [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)

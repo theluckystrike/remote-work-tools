@@ -68,13 +68,13 @@ def get_review_stats(repo_path):
     )
     reviewers = result.stdout.strip().split('\n')
     review_counts = Counter(reviewers)
-    
+
     # Calculate Gini coefficient for distribution
     values = sorted(review_counts.values())
     n = len(values)
     cumsum = sum((i+1) * v for i, v in enumerate(values))
     gini = (2 * cumsum) / (n * sum(values)) - (n + 1) / n
-    
+
     return {
         "total_reviews": sum(values),
         "unique_reviewers": n,
@@ -101,14 +101,14 @@ The best remote teams optimize for async work while maintaining alignment. Measu
 async function getThreadVelocity(channel, timeRange) {
   const messages = await channel.messages.fetch({ limit: 100 });
   const threads = messages.filter(m => m.thread);
-  
+
   const velocities = threads.map(thread => {
     const started = thread.messages.first().createdAt;
     const resolved = thread.messages.last().createdAt;
     const hoursToResolve = (resolved - started) / (1000 * 60 * 60);
     return hoursToResolve;
   });
-  
+
   return {
     averageResolutionTime: velocities.reduce((a,b) => a+b) / velocities.length,
     threadsAnalyzed: velocities.length,
@@ -169,7 +169,7 @@ function calculateHealthScore(metrics) {
     dependencyCoordination: 0.15,
     psychologicalSafety: 0.20
   };
-  
+
   const scores = {
     decisionTraceability: Math.min(metrics.decisionsPerSprint / 10, 1) * 100,
     knowledgeDistribution: (1 - metrics.giniCoefficient) * 100,
@@ -177,12 +177,12 @@ function calculateHealthScore(metrics) {
     dependencyCoordination: Math.max(0, 100 - (metrics.blockedPRs * 5)),
     psychologicalSafety: (metrics.surveyScore / 5) * 100
   };
-  
+
   let totalScore = 0;
   for (const [dimension, weight] of Object.entries(weights)) {
     totalScore += scores[dimension] * weight;
   }
-  
+
   return Math.round(totalScore);
 }
 ```
@@ -211,11 +211,12 @@ Don't try to measure everything at once. Start with one dimension, establish a b
 The goal isn't surveillance—it's understanding where your team struggles and where they excel. Use this framework to create genuine improvements in how your remote team works together.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
-- [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
-- [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [Remote Team Technical Assessment Platform for Evaluating](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
+- [Remote Team Workload Distribution Tool for Managers](/remote-work-tools/remote-team-workload-distribution-tool-for-managers-balancin/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+- [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+- [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

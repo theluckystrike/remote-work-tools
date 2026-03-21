@@ -3,6 +3,7 @@ layout: default
 title: "Collaboration Zones in Hybrid Office Layout"
 description: "Design effective collaboration zones in hybrid office layouts with practical implementation patterns, zoning strategies, and code-based scheduling"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /collaboration-zones-in-hybrid-office-layout/
 categories: [guides]
@@ -172,7 +173,6 @@ Track collaboration zone usage to validate your design decisions and identify im
 - Equipment reliability: Frequency of technical issues affecting collaboration
 
 Collect this data through your booking system and combine with periodic team surveys to understand qualitative satisfaction. Adjust zone configurations, equipment, and policies based on this evidence.
-
 
 
 ## Related Articles

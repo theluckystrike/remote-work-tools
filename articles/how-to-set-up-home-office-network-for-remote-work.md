@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Home Office Network for Remote Work"
 description: "A practical technical guide for developers and power users setting up a reliable home office network. Covers wired vs wireless, subnet configuration"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-home-office-network-for-remote-work/
 reviewed: true
@@ -307,7 +308,6 @@ Building a reliable home office network requires balancing cost, complexity, and
 Budget $200-400 total for a solid setup: good router ($100-150), managed switch ($50-80), cable infrastructure ($50-100), and monitoring tools (free). This investment pays for itself in productivity within weeks.
 
 A well-configured network fades into the background—you forget it exists until something breaks.
-
 
 
 ## Related Articles

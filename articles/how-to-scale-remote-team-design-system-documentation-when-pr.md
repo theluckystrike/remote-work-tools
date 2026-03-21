@@ -3,6 +3,7 @@ layout: default
 title: "Install Storybook for your design system package"
 description: "A practical guide for developers and product teams on managing design system documentation as your remote organization expands beyond 20 people"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-design-system-documentation-when-pr/
 categories: [guides]
@@ -220,7 +221,7 @@ Implement a search strategy:
 ```javascript
 // Example: Documentation link component for your UI library
 export const DocLink = ({ to, children }) => (
-  <a 
+  <a
     href={`https://your-org.docs.site/${to}`}
     target="_blank"
     rel="noopener noreferrer"
@@ -231,7 +232,7 @@ export const DocLink = ({ to, children }) => (
 );
 
 // Usage in component code
-<Button 
+<Button
   variant="primary"
   onClick={handleSubmit}
 /*{/* Learn about variant options: <DocLink to="components/button#variants">Button variants</DocLink> */}
@@ -258,8 +259,6 @@ Start with what causes the most pain today. If your Slack channels are flooded w
 The goal is not perfect documentation—it's documentation that enables your team to move faster, not slower.
 
 ---
-
-
 
 
 ## Related Articles

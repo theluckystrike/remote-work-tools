@@ -59,21 +59,21 @@ import time
 def check_connection():
     """Evaluate cafe Wi-Fi quality before committing to work."""
     print("Testing cafe network...")
-    
+
     # Check basic connectivity
-    result = subprocess.run(['ping', '-c', '3', '8.8.8.8'], 
+    result = subprocess.run(['ping', '-c', '3', '8.8.8.8'],
                          capture_output=True, timeout=10)
     if result.returncode != 0:
         print("❌ No internet connection")
         return False
-    
+
     # Run speed test
     st = speedtest.Speedtest()
     download = st.download() / 1_000_000  # Mbps
     upload = st.upload() / 1_000_000
-    
+
     print(f"Speed: ↓{download:.1f} Mbps  ↑{upload:.1f} Mbps")
-    
+
     # Minimum thresholds for productive work
     if download < 5:
         print("⚠️  Slow connection - avoid large downloads")
@@ -81,7 +81,7 @@ def check_connection():
     if download < 2:
         print("❌ Unusable for productive work")
         return False
-    
+
     print("✓ Connection suitable for remote work")
     return True
 
@@ -203,12 +203,14 @@ Relocate to a quieter corner or outdoor seating, or put on noise-canceling headp
 
 Stay positive. Say "Absolutely, let me order more" or "No problem, I'll find another spot." Your response affects how cafes view all remote workers.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
-- [Ergonomic Laptop Stand for Remote Workers: A Developer's Guide](/remote-work-tools/ergonomic-laptop-stand-for-remote-workers/)
-- [Back Pain Prevention for Remote Workers 2026: A Developer's Guide](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
+## Related Articles
+
+- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
+- [Fake Commute for Remote Workers](/remote-work-tools/fake-commute-for-remote-workers-transition-rituals-that-work/)
+- [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
+- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
+- [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

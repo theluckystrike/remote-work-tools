@@ -3,6 +3,7 @@ layout: default
 title: "Brazil Digital Nomad Visa Process and Tax Implications for"
 description: "Brazil's Vitem XIV visa requires $1,500 monthly income proof, valid health insurance, and passport validity of 6+ months, processed through a straightforward"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /brazil-digital-nomad-visa-process-and-tax-implications-for-r/
 categories: [guides]
@@ -123,11 +124,11 @@ def estimate_brazil_tax(brl_income):
         (55976.16, 0.225),
         (float('inf'), 0.275)
     ]
-    
+
     tax = 0
     remaining = brl_income
     previous_limit = 0
-    
+
     for limit, rate in tax_brackets:
         if remaining <= 0:
             break
@@ -135,7 +136,7 @@ def estimate_brazil_tax(brl_income):
         tax += taxable_in_bracket * rate
         remaining -= taxable_in_bracket
         previous_limit = limit
-    
+
     return tax
 
 # Example: 100,000 BRL annual income
@@ -171,8 +172,6 @@ The visa process is straightforward when you have the required documentation in 
 For remote developers who want to experience South America while continuing to work for international clients or employers, Brazil's digital nomad visa provides a solid legal framework to do so in 2026.
 
 ---
-
-
 
 
 ## Related Articles

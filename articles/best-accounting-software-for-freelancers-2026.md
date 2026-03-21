@@ -169,11 +169,11 @@ Link your project tracking to invoicing:
 def create_invoice_from_timelog(timelog_file):
     unbilled = parse_timelog(timelog_file, unbilled_only=True)
     total = sum(entry.hours * entry.rate for entry in unbilled)
-    
+
     invoice = {
         'client': unbilled[0].client,
         'items': [
-            {'description': f"{e.date}: {e.task}", 
+            {'description': f"{e.date}: {e.task}",
              'amount': e.hours * e.rate}
             for e in unbilled
         ]
@@ -200,12 +200,13 @@ Whatever you choose, ensure your financial data remains portable. Regular export
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Business Bank Accounts for Freelancers 2026: A.](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
-- [Project Management Tools for Freelancers 2026: A.](/remote-work-tools/project-management-tools-for-freelancers-2026/)
-- [Best Invoicing Tools for Freelancers 2026: A Developer's Guide](/remote-work-tools/best-invoicing-tools-for-freelancers-2026/)
+- [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)
+- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [Best Business Bank Accounts for Freelancers 2026: A](/remote-work-tools/best-business-bank-accounts-for-freelancers-2026/)
+- [Best Invoicing Tools for Freelancers 2026](/remote-work-tools/best-invoicing-tools-for-freelancers-2026/)
+- [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

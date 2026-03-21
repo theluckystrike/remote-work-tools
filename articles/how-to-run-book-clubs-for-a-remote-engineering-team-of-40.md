@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Book Clubs for a Remote Engineering Team of 40"
 description: "Running a book club for a team of 40 engineers across multiple time zones presents unique challenges that differ significantly from in-person groups. The key"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-book-clubs-for-a-remote-engineering-team-of-40/
 categories: [guides]
@@ -274,7 +275,6 @@ Year 2: Experiment. Try different formats. Include non-technical books. Test aut
 Year 3+: Customize to your team's maturity. Mix challenging technical books with culture-building reads. Support self-selected sub-team clubs. Measure and refine based on team feedback.
 
 Your book club is a living program that evolves with your team's interests and needs.
-
 
 
 ## Related Articles

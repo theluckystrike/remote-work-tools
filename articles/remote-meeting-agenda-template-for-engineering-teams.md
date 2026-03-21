@@ -3,6 +3,7 @@ layout: default
 title: "Remote Meeting Agenda Template for Engineering Teams"
 description: "A practical remote meeting agenda template for engineering teams with code examples, meeting structures, and async collaboration patterns"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /remote-meeting-agenda-template-for-engineering-teams/
 categories: [guides]
@@ -200,8 +201,6 @@ Use the parking lot technique. When topics arise that deserve deeper discussion 
 ---
 
 Effective remote meeting agenda templates transform chaotic video calls into productive sessions that respect everyone's time. Start with these templates, adapt them to your team's specific needs, and iterate based on what works for your timezone distribution and communication style. The goal isn't perfect agendas—it's consistent, focused meetings that move work forward.
-
-
 
 
 ## Related Articles

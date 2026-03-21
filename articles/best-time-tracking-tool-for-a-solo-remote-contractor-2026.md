@@ -3,6 +3,7 @@ layout: default
 title: "Best Time Tracking Tool for a Solo Remote Contractor 2026"
 description: "A practical guide to time tracking tools for solo developers and remote contractors. Compare CLI-based timers, desktop apps, and automated solutions"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-time-tracking-tool-for-a-solo-remote-contractor-2026/
 categories: [guides]
@@ -407,9 +408,13 @@ Export format for accountant:
 Built by
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
+- [Remote Team Support Ticket First Response Time Tracking for](/remote-work-tools/remote-team-support-ticket-first-response-time-tracking-for-/)
+- [Time Tracking for Contractors and Freelancers Guide](/remote-work-tools/time-tracking-for-contractors-and-freelancers-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

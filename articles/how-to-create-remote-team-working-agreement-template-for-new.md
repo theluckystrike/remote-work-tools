@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Working Agreement Template for"
 description: "A practical guide to building a remote team working agreement template. Includes code snippets and examples for developers and power users setting up"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-working-agreement-template-for-new/
 categories: [guides]
@@ -41,12 +42,12 @@ channels:
     purpose: "Quick questions, updates, informal communication"
     response_time: "Within 4 hours during work hours"
     urgency_level: "Medium"
-    
+
   email:
     purpose: "Formal requests, external communication, documentation"
     response_time: "Within 24 hours"
     urgency_level: "Low"
-    
+
   urgent:
     purpose: "Production issues, blocker situations"
     response_time: "Within 30 minutes"
@@ -106,13 +107,13 @@ Define how decisions, processes, and knowledge get recorded.
 
 1. **Decision Records**: All significant decisions require a brief RFC or decision log entry
    - Template: [Context] → [Decision] → [Rationale] → [Alternatives Considered]
-   
+
 2. **Process Docs**: Any repeated workflow needs written documentation
    - Update within 48 hours of process changes
-   
+
 3. **Code Documentation**: Public APIs and complex logic require inline comments
    - README files for all repositories
-   
+
 4. **Meeting Notes**: Decisions and action items must be posted within 24 hours
 ```
 
@@ -128,11 +129,11 @@ review_requirements:
     - "CI pipeline passes"
     - "At least one approval from team member"
     - "All comments resolved"
-    
+
 response_expectations:
   initial_review: "Within 24 hours"
   follow-up_response: "Within 4 hours"
-  
+
 merge_strategy: "Squash and merge"
 branch_lifetime: "Maximum 7 days for active PRs"
 ```
@@ -251,8 +252,6 @@ Here's a condensed template combining the essential elements:
 A working agreement only provides value if everyone follows it. Start by introducing it during onboarding for new team members. Reference it when conflicts arise rather than addressing issues ad-hoc. Review it regularly to keep it relevant.
 
 The goal isn't perfection—it's creating a shared understanding that lets your team collaborate effectively despite physical distance. Start with the basics, learn from experience, and evolve your agreement as your team grows.
-
-
 
 
 ## Related Articles

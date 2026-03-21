@@ -3,6 +3,7 @@ layout: default
 title: "Best Virtual Offsite Planning Platform for Remote Teams 2026"
 description: "A practical guide for developers and power users comparing virtual offsite planning platforms. Covers Miro, MURAL, Google Jamboard, Figma, and custom"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-virtual-offsite-planning-platform-for-remote-teams-2026/
 categories: [guides]
@@ -171,7 +172,6 @@ Several mistakes undermine virtual offsites:
 3. **No documentation plan** — Assign a note-taker upfront. Export board state immediately after—some platforms limit history on free tiers.
 
 4. **Ignoring time zones** — For globally distributed teams, split sessions across time zones or use async pre-work to maximize live collaboration time.
-
 
 
 ## Related Articles

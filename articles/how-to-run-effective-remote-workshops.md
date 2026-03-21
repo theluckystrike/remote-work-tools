@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Effective Remote Workshops"
 description: "Learn practical techniques to run effective remote workshops for distributed teams. Includes help scripts, automation examples, and actionable"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-run-effective-remote-workshops/
 categories: [guides]
@@ -231,7 +232,6 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 - Oversized groups: Keep workshops to 8 or fewer participants for active discussion; larger groups need different formats
 - Missing time buffers: Technical discussions rarely fit perfectly into planned time—build in 10-15% buffer
 - No decision criteria: Without agreed-upon decision-making frameworks, discussions circle endlessly
-
 
 
 ## Related Articles

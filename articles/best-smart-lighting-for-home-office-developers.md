@@ -3,6 +3,7 @@ layout: default
 title: "Best Smart Lighting for Home Office Developers"
 description: "Discover the best smart lighting solutions for home office developers. Learn about Hue, LIFX, and integration options with code examples for automating"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-smart-lighting-for-home-office-developers/
 categories: [guides]
@@ -220,12 +221,14 @@ The return on investment manifests through reduced eye strain, improved video ca
 - Circadian rhythm: Better sleep after 2-3 weeks of proper automation
 - Energy consumption: 20-30% lower than traditional incandescent bulbs
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
-- [UPS Battery Backup for Home Office Setup 2026](/remote-work-tools/ups-battery-backup-for-home-office-setup-2026/)
-- [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
+- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)
+- [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

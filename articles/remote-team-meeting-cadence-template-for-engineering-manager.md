@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Meeting Cadence Template for Engineering"
 description: "Design a meeting cadence that includes daily async standups, weekly team syncs for alignment, and bi-weekly one-on-ones for deeper conversations to balance"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-meeting-cadence-template-for-engineering-manager/
 categories: [guides]
@@ -33,27 +34,27 @@ meetings:
     duration: "15 minutes"
     type: "synchronous"
     timezone_rotation: true
-    
+
   - name: "Team Retro"
     frequency: "Weekly (Thursday)"
     duration: "45 minutes"
     type: "synchronous"
-    
+
   - name: "Engineering All-Hands"
     frequency: "Bi-weekly"
     duration: "60 minutes"
     type: "synchronous"
-    
+
   - name: "1-on-1s"
     frequency: "Weekly"
     duration: "30 minutes"
     type: "synchronous"
-    
+
   - name: "Design Review"
     frequency: "Weekly (optional)"
     duration: "45 minutes"
     type: "synchronous"
-    
+
   - name: "Tech Talk / Knowledge Share"
     frequency: "Bi-weekly"
     duration: "30 minutes"
@@ -83,12 +84,12 @@ const teamMembers = [
 
 function getRotatedMeetingHour(baseHour, weekNumber) {
   // Rotate by one hour each week, max 2 hour shift either direction
-  const rotation = (weekNumber % 5) - 2; 
+  const rotation = (weekNumber % 5) - 2;
   return baseHour + rotation;
 }
 
 // Example: Base 10am PST, week 3
-const meetingHour = getRotatedMeetingHour(10, 3); 
+const meetingHour = getRotatedMeetingHour(10, 3);
 console.log(`Meeting time: ${meetingHour}:00 PST`);
 ```
 
@@ -193,11 +194,11 @@ layers:
   - level: "Squad"
     meetings: ["Standup 3x", "Retro weekly"]
     size: "4-6 engineers"
-    
+
   - level: "Platform/Department"
     meetings: ["Tech sync weekly", "Planning bi-weekly"]
     size: "8-15 engineers"
-    
+
   - level: "Engineering All"
     meetings: ["All-hands bi-weekly"]
     size: "All engineers"
@@ -220,8 +221,6 @@ A meeting cadence only works if the team respects it. Announce the cadence in yo
 The most successful distributed teams treat their meeting cadence as an evolving contract. Review it quarterly. Remove meetings that aren't providing value. Add structure where coordination breaks down.
 
 Start with the template above, observe what works for your specific time zone distribution and team dynamics, then refine from there.
-
-
 
 
 ## Related Articles

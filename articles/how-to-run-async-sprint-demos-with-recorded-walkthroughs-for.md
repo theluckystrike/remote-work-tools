@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Async Sprint Demos with Recorded Walkthroughs"
 description: "Learn practical methods for recording sprint demos asynchronously. This guide covers tools, workflows, and code snippets for effective async presentations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-async-sprint-demos-with-recorded-walkthroughs-for/
 categories: [guides]
@@ -203,8 +204,6 @@ Iterate on your approach based on these metrics.
 ---
 
 Running async sprint demos requires upfront investment in recording habits and workflows, but pays dividends in team flexibility and stakeholder engagement. Start with simple recordings, gather feedback, and refine your process over time.
-
-
 
 
 ## Related Articles

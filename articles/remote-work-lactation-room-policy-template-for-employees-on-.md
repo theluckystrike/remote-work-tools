@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Lactation Room Policy Template for Employees on"
 description: "Creating effective lactation room policies for remote employees requires addressing the unique challenges of video-based work environments. Unlike traditional"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-work-lactation-room-policy-template-for-employees-on-/
 categories: [guides]
@@ -49,12 +50,12 @@ const meetingScheduler = {
     videoRequired: false,
     preferredMeetingWindows: ['09:00-10:00', '11:00-12:00', '15:00-16:00']
   },
-  
+
   checkAvailability: function(proposedTime) {
     const timeSlot = proposedTime;
     const hasConflict = this.userPreferences.lactationBreakSlots
       .some(slot => this.timeOverlaps(timeSlot, slot));
-    
+
     if (hasConflict) {
       return {
         available: false,
@@ -63,7 +64,7 @@ const meetingScheduler = {
     }
     return { available: true };
   },
-  
+
   timeOverlaps: function(meetingTime, breakSlot) {
     // Simplified overlap check - production code would handle time zones
     return meetingTime.includes(breakSlot.split('-')[0]);
@@ -91,11 +92,11 @@ class LactationBreakScheduler:
         self.work_end = datetime.strptime(work_end, "%H:%M")
         self.break_duration = 30  # minutes
         self.break_interval = 150  # minutes (2.5 hours)
-    
+
     def generate_break_windows(self, date):
         breaks = []
         current = self.work_start
-        
+
         while current + timedelta(minutes=self.break_duration) <= self.work_end:
             breaks.append({
                 'start': current.strftime("%H:%M"),
@@ -103,14 +104,14 @@ class LactationBreakScheduler:
                 'type': 'lactation-break'
             })
             current += timedelta(minutes=self.break_interval)
-        
+
         return breaks
 
 # Generate typical break windows
 scheduler = LactationBreakScheduler()
 print(scheduler.generate_break_windows("2026-03-16"))
-# Output: [{'start': '09:00', 'end': '09:30', 'type': 'lactation-break'}, 
-#          {'start': '11:30', 'end': '12:00', 'type': 'lactation-break'}, 
+# Output: [{'start': '09:00', 'end': '09:30', 'type': 'lactation-break'},
+#          {'start': '11:30', 'end': '12:00', 'type': 'lactation-break'},
 #          {'start': '14:00', 'end': '14:30', 'type': 'lactation-break'}]
 ```
 
@@ -137,7 +138,7 @@ const { google } = require('googleapis');
 
 async function createLactationBreakCalendar(auth, breakTime) {
   const calendar = google.calendar({ version: 'v3', auth });
-  
+
   const event = {
     summary: 'Lactation Break',
     description: 'Protected time for expressing milk. Status: Do not disturb.',
@@ -157,7 +158,7 @@ async function createLactationBreakCalendar(auth, breakTime) {
       ],
     },
   };
-  
+
   return calendar.events.insert({
     calendarId: 'primary',
     resource: event,
@@ -193,7 +194,6 @@ Track policy success through metrics that matter:
 - Retention rates for employees who use lactation accommodations
 - Meeting attendance patterns before and after policy implementation
 - Manager feedback on policy clarity and ease of implementation
-
 
 
 ## Related Articles

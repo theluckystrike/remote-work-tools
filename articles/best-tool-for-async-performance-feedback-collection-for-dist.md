@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Async Performance Feedback Collection for"
 description: "Discover the best tools for async performance feedback collection in distributed teams. Compare features, API capabilities, and implementation patterns"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-async-performance-feedback-collection-for-dist/
 categories: [guides]
@@ -91,7 +92,7 @@ async function submitFeedback(lattice, employeeId, reviewCycleId, feedbackData) 
       }
     }
   );
-  
+
   return response.data;
 }
 
@@ -130,7 +131,7 @@ class FifteenFiveClient:
             "Authorization": f"ApiKey {api_key}",
             "Content-Type": "application/json"
         }
-    
+
     def create_pulse_survey(self, question_text, department_id=None):
         """Create a quick pulse survey for weekly feedback"""
         payload = {
@@ -139,17 +140,17 @@ class FifteenFiveClient:
             "is_anonymous": False,
             "expires_at": (datetime.utcnow() + timedelta(days=7)).isoformat()
         }
-        
+
         if department_id:
             payload["department_ids"] = [department_id]
-        
+
         response = requests.post(
             f"{self.base_url}/pulse/survey/",
             json=payload,
             headers=self.headers
         )
         return response.json()
-    
+
     def submit_pulse_response(self, survey_id, user_id, response_text):
         """Submit response to a pulse survey"""
         payload = {
@@ -157,7 +158,7 @@ class FifteenFiveClient:
             "user_id": user_id,
             "response_text": response_text
         }
-        
+
         response = requests.post(
             f"{self.base_url}/pulse/response/",
             json=payload,
@@ -198,7 +199,7 @@ feedback_cycle:
               scale: 1-5
             - type: "text"
               prompt: "What skills did you develop?"
-    
+
     - phase: "Peer feedback"
       duration_days: 7
       anonymous: true
@@ -209,12 +210,12 @@ feedback_cycle:
             - type: "rating"
               prompt: "How effectively did this person collaborate async?"
               scale: 1-5
-    
+
     - phase: "Manager review"
       duration_days: 14
       templates:
         - name: "Quarterly Performance Summary"
-    
+
   reminders:
     - trigger: "day_before_phase_end"
       channels: ["email", "slack"]
@@ -249,11 +250,11 @@ const FeedbackSchema = new mongoose.Schema({
 // API endpoint for submitting feedback
 app.post('/api/feedback', async (req, res) => {
   const { cycleId, fromUserId, toUserId, type, responses, isAnonymous } = req.body;
-  
+
   // Calculate deadline based on user's timezone
   const user = await User.findById(fromUserId);
   const deadline = calculateDeadline(user.timezone, 7); // 7 days
-  
+
   const feedback = new Feedback({
     cycleId,
     fromUserId: isAnonymous ? null : fromUserId,
@@ -263,7 +264,7 @@ app.post('/api/feedback', async (req, res) => {
     deadline,
     isAnonymous
   });
-  
+
   await feedback.save();
   res.json({ success: true, feedbackId: feedback._id });
 });
@@ -297,12 +298,13 @@ Start by auditing your current feedback processes. Identify pain points—maybe 
 Track participation rates and completion times to measure success. The best async feedback tool is one your team actually uses consistently.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Remote Employee Exit Interview Process for.](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
-- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
+- [Client Feedback Collection Tool for Remote Development](/remote-work-tools/client-feedback-collection-tool-for-remote-development-agenc/)
+- [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)
+- [How to Do Async Performance Reviews for Remote Engineering](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-teams/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

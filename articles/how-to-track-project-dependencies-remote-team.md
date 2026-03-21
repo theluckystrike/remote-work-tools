@@ -3,6 +3,7 @@ layout: default
 title: "How to Track Project Dependencies in a Remote Team: A"
 description: "Track project dependencies in a remote team by maintaining a central YAML dependency registry that maps inter-service relationships and ownership, generating"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-track-project-dependencies-remote-team/
 reviewed: true
@@ -180,7 +181,7 @@ const webhookUrl = process.env.SLACK_WEBHOOK_URL;
 
 async function notifyDependents(serviceName, changes) {
   const affectedTeams = findAffectedTeams(serviceName);
-  
+
   for (const team of affectedTeams) {
     await fetch(webhookUrl, {
       method: 'POST',
@@ -210,13 +211,13 @@ const dependencyMetrics = {
   trackExternalDependency: (name, status, latency) => {
     metrics.increment(`dependency.${name}.calls`);
     metrics.gauge(`dependency.${name}.latency`, latency);
-    
+
     if (status >= 500) {
       metrics.increment(`dependency.${name}.errors`);
       alert.onCall.notify(`External dependency ${name} is failing`);
     }
   },
-  
+
   // Track internal service dependencies
   trackInternalDependency: (service, endpoint, status) => {
     metrics.increment(`internal_dep.${service}.${endpoint}.${status}`);
@@ -237,8 +238,6 @@ Document these sessions. Future team members will thank you.
 ## Putting It Together
 
 Make dependency visibility part of the daily workflow rather than a periodic exercise. When any developer can answer "what does this service depend on?" in under a minute, the team ships faster and breaks less.
-
-
 
 
 ## Related Articles

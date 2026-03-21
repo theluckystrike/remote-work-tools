@@ -78,13 +78,13 @@ BACKUP_DIR="$HOME/repos-backup"
 find "$REPOS_DIR" -type d -name ".git" -exec dirname {} \; | while read repo; do
     echo "Syncing: $repo"
     cd "$repo"
-    
+
     # Fetch latest changes
     git fetch --all
-    
+
     # Push all branches to origin
     git push --all origin 2>/dev/null || true
-    
+
     # Push all tags
     git push --tags origin 2>/dev/null || true
 done
@@ -284,11 +284,14 @@ Start with the configuration backup approach—it's immediate, requires minimal 
 
 ---
 
-## Related Reading
 
-- [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developer-productivity/)
-- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
-- [Best Collaborative Coding Tools for Remote Teams](/remote-work-tools/best-collaborative-coding-tools-for-remote-teams/)
+## Related Articles
+
+- [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [Manage Dotfiles Across Remote Machines](/remote-work-tools/manage-dotfiles-across-remote-machines/)
+- [Quick inventory script to scan network for dormant machines](/remote-work-tools/return-to-office-it-checklist-for-reactivating-dormant-works/)
+- [Best Laptop Cooling Solutions for Remote Workers in](/remote-work-tools/best-laptop-cooling-solution-for-remote-workers-in-tropical-/)
+- [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

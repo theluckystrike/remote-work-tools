@@ -33,32 +33,32 @@ For developers who prefer building over buying, creating a custom scheduling int
 const findOptimalMeetingTimes = (participants, duration = 60) => {
   const timeZones = participants.map(p => p.timeZone);
   const workingHours = { start: 9, end: 17 }; // Local time
-  
+
   // Convert all time zones to UTC for comparison
   const now = new Date();
   const suggestions = [];
-  
+
   for (let day = 0; day < 7; day++) {
     for (let hour = workingHours.start; hour < workingHours.end; hour++) {
       const meetingTime = new Date(now);
       meetingTime.setDate(now.getDate() + day);
       meetingTime.setHours(hour, 0, 0, 0);
-      
+
       // Check if time works for all participants
       const allAvailable = participants.every(p => {
-        const localTime = meetingTime.toLocaleString('en-US', { 
-          timeZone: p.timeZone 
+        const localTime = meetingTime.toLocaleString('en-US', {
+          timeZone: p.timeZone
         });
         const localHour = new Date(localTime).getHours();
         return localHour >= workingHours.start && localHour < workingHours.end;
       });
-      
+
       if (allAvailable) {
         suggestions.push({
           utc: meetingTime.toISOString(),
           participants: participants.map(p => ({
             name: p.name,
-            localTime: meetingTime.toLocaleString('en-US', { 
+            localTime: meetingTime.toLocaleString('en-US', {
               timeZone: p.timeZone,
               timeStyle: 'short'
             })
@@ -143,7 +143,7 @@ const scheduleFollowUp = async (meetingDetails) => {
     time: followUpDate,
     timezone: detectTeamTimezone(meetingDetails.participants)
   });
-  
+
   // Create GitHub issue for action items
   await github.createIssue({
     repo: 'agency/projects',
@@ -175,11 +175,12 @@ Regardless of your choice, implement these practices immediately:
 The right scheduling tool eliminates friction in multi-time zone coordination, letting your team focus on delivering exceptional work.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Agency Retainer Management Tool for Recurring Client Work](/remote-work-tools/remote-agency-retainer-management-tool-for-recurring-client-/)
-- [How to Set Up Basecamp for Remote Agency Client.](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
+- [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

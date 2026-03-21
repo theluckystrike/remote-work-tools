@@ -3,6 +3,7 @@ layout: default
 title: "Trello Alternatives for Agile Teams"
 description: "Explore Trello alternatives for agile teams with API integrations, automation patterns, and implementation examples for developers building modern"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /trello-alternatives-for-agile-teams/
 reviewed: true
@@ -33,8 +34,8 @@ The real strength for agile teams lies in the GitHub integration and API-first a
 
 ```javascript
 // Linear API: Auto-link GitHub PR to issue
-const linearClient = new LinearClient({ 
-  apiKey: process.env.LINEAR_API_KEY 
+const linearClient = new LinearClient({
+  apiKey: process.env.LINEAR_API_KEY
 });
 
 async function linkPRToIssue(issueIdentifier, prUrl) {
@@ -83,7 +84,7 @@ const jira = new jiraClient({
 
 async function moveToSprint(issueKey, sprintId) {
   await jira.addIssueToSprint(issueKey, sprintId);
-  
+
   // Transition to sprint column
   await jira.transitionIssue(issueKey, {
     transition: { id: '121' } // Your sprint column transition ID
@@ -191,7 +192,7 @@ async function getSprintBacklog(databaseId, sprintName) {
     },
     sorts: [{ property: 'Priority', direction: 'ascending' }]
   });
-  
+
   return response.results;
 }
 ```
@@ -212,7 +213,6 @@ Consider starting with your worst pain point. If sprint planning feels broken, L
 Migration complexity varies. Linear and Jira both offer import tools for Trello boards. Test the import before committing—some custom fields and automations require manual recreation.
 
 ---
-
 
 
 ## Related Articles

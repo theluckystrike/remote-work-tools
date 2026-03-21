@@ -185,7 +185,7 @@ Organize your Notion onboarding template with these key sections:
 // Notion API: Duplicate template for new employee
 async function createEmployeeNotionPage(employee) {
   const templateId = getTemplateForRole(employee.role);
-  
+
   const response = await notion.pages.create({
     parent: { page_id: process.env.NOTION_ONBOARDING_ROOT },
     properties: {
@@ -222,10 +222,10 @@ The glue connecting Slack and Notion is a simple automation layer that listens f
 // Main automation: Sync Notion task completion to Slack
 app.action('complete_task', async ({ body, ack, client }) => {
   await ack();
-  
+
   const taskId = body.actions[0].value;
   const task = await getNotionTask(taskId);
-  
+
   // Update Slack message to reflect completion
   await client.chat.update({
     channel: task.slackChannelId,
@@ -261,11 +261,13 @@ Track key metrics to continuously improve your workflow:
 Store these metrics in Notion alongside employee records, creating a data-driven approach to onboarding optimization.
 
 
-## Related Reading
+## Related Articles
 
-- [Best Remote Work Tools in 2026](/best-remote-work-tools-2026/)
-- [Remote Work Productivity Guide](/remote-work-productivity-guide/)
-- [Remote Work Tools Hub](/guides-hub/)
+- [Example: Trigger BambooHR onboarding workflow via API](/remote-work-tools/best-onboarding-platform-for-remote-companies-processing-mor/)
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Best Tools for Remote Team Onboarding Automation 2026](/remote-work-tools/remote-team-onboarding-automation-2026/)
+- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
+- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

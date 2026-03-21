@@ -3,6 +3,7 @@ layout: default
 title: "How to Organize Cables in Home Office Setup"
 description: "Developers and power users spend significant time at their desks, and cable clutter affects more than aesthetics. Tangled cables create frustration when"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-organize-cables-in-home-office-setup/
 categories: [guides]
@@ -116,12 +117,12 @@ cables:
     description: "Laptop power adapter"
     location: "Left side, under desk"
     wattage: "96W"
-    
+
   - label: "DEV-MONITOR-HDMI"
     description: "Primary monitor video"
     location: "Behind monitor, right"
     length: "2m"
-    
+
   - label: "DEV-USB-HUB"
     description: "USB hub connection"
     location: "Cable sleeve, center"
@@ -141,23 +142,23 @@ import time
 def check_connections():
     """Verify active USB and display connections"""
     devices = []
-    
+
     # List USB devices
     try:
-        result = subprocess.run(['system_profiler', 'SPUSBDataType'], 
+        result = subprocess.run(['system_profiler', 'SPUSBDataType'],
                               capture_output=True, text=True)
         devices.append(f"USB devices: {result.stdout.count('USB')}")
     except:
         pass
-    
+
     # Check display connections (macOS)
     try:
-        result = subprocess.run(['system_profiler', 'SPDisplaysDataType'], 
+        result = subprocess.run(['system_profiler', 'SPDisplaysDataType'],
                               capture_output=True, text=True)
         devices.append(f"Displays: {result.stdout.count('Display')}")
     except:
         pass
-    
+
     return devices
 
 if __name__ == "__main__":
@@ -217,7 +218,6 @@ Start with inventory, add routing, apply labels, and automate maintenance. Each 
 The goal isn't perfection—it's creating a setup where you can swap devices, troubleshoot issues, and modify your configuration without wrestling with cable spaghetti. A well-organized desk supports focus and productivity, letting you concentrate on code rather than untangling connections.
 
 ---
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team README Files in Repositories"
 description: "A practical guide to creating and maintaining effective README files for remote development teams. Includes templates, code examples, and GitHub"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-readme-files-in-repositories-s/
 categories: [guides]
@@ -229,12 +230,14 @@ Track whether your README standards are working. Watch for:
 
 If these metrics don't improve, your READMEs need work. Survey developers periodically: "What information is missing from our READMEs that would help you?"
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Documentation Feedback.](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
-- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
-- [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+## Related Articles
+
+- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+- [List all markdown files in your docs directory](/remote-work-tools/how-to-set-up-documentation-ownership-model-for-remote-teams/)
+- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

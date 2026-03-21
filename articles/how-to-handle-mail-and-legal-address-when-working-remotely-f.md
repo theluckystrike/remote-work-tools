@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Mail and Legal Address When Working Remotely"
 description: "A practical guide for developers and digital nomads on managing postal mail, legal addresses, and banking correspondence while working remotely from"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-mail-and-legal-address-when-working-remotely-f/
 categories: [guides]
@@ -81,9 +82,9 @@ async function getUrgentMail() {
     limit: 10,
     sort: 'date_desc'
   });
-  
-  return items.filter(item => 
-    item.sender.category === 'bank' || 
+
+  return items.filter(item =>
+    item.sender.category === 'bank' ||
     item.sender.category === 'tax'
   );
 }
@@ -106,7 +107,7 @@ If you have a trusted family member or friend in your home country, designating 
 To: [Bank Name]
 Date: [Current Date]
 
-I, [Your Full Legal Name], hereby authorize [Proxy Name] 
+I, [Your Full Legal Name], hereby authorize [Proxy Name]
 to receive and handle correspondence on my behalf.
 
 This authorization is valid from [Start Date] until [End Date].
@@ -166,7 +167,7 @@ If you're an US citizen working remotely, establishing which state claims your r
 
 def estimate_state_tax(income, state, filing_status="single"):
     """Estimate annual state tax based on income and state"""
-    
+
     state_tax_rates = {
         "CA": lambda inc: min(inc * 0.093, 1259141),  # CA has high rates
         "TX": lambda inc: 0,  # No income tax
@@ -174,7 +175,7 @@ def estimate_state_tax(income, state, filing_status="single"):
         "FL": lambda inc: 0,  # No income tax
         "NY": lambda inc: min(inc * 0.0685, 107755),  # NYC adds more
     }
-    
+
     return state_tax_rates.get(state, lambda inc: inc * 0.05)(income)
 ```
 
@@ -198,15 +199,15 @@ mail_rules:
   - sender_pattern: "*@bank*.com"
     action: scan_and_notify
     priority: high
-    
+
   - sender_pattern: "*@irs.gov"
     action: scan_and_notify
     priority: critical
-    
+
   - sender_pattern: "*@dmv.*"
     action: forward_physical
     forward_to: "trusted_person"
-    
+
   - sender_pattern: "*"
     action: scan_and_store
     retention_days: 90
@@ -223,8 +224,6 @@ mail_rules:
 **Failing to update voter registration** can result in losing voting rights. Most states allow overseas voters to participate in federal elections.
 
 The right setup for your situation depends on your home country, destination, income type, and how long you plan to stay abroad. Start with a mail forwarding solution, establish banking communication preferences, and build from there.
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Remote Team Tool Consolidation When Rapid"
 description: "A practical guide for developers and power users on consolidating duplicate tool subscriptions when your remote team scales rapidly"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-remote-team-tool-consolidation-when-rapid-grow/
 categories: [guides]
@@ -124,7 +125,7 @@ For data migration concerns, invest in proper export and import processes. Most 
 // Example: Script to export Trello cards to Notion
 async function migrateCards(trelloBoardId, notionDatabaseId) {
   const trelloCards = await fetchTrelloCards(trelloBoardId);
-  
+
   for (const card of trelloCards) {
     await notionClient.pages.create({
       parent: { database_id: notionDatabaseId },
@@ -182,8 +183,6 @@ Track consolidation results over time. Three months after migration, review:
 - Number of new tool requests versus previous quarter
 
 These metrics justify the effort and identify areas for further optimization.
-
-
 
 
 ## Related Articles

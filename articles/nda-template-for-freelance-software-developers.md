@@ -3,6 +3,7 @@ layout: default
 title: "NDA Template for Freelance Software Developers"
 description: "A practical NDA template and guide for freelance software developers. Includes customizable clauses, code examples, and tips for protecting your"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /nda-template-for-freelance-software-developers/
 categories: [guides]
@@ -115,15 +116,15 @@ One of the most critical sections for developers addresses who owns the work pro
 ```markdown
 ## Work Product and IP Ownership
 
-All code, documentation, and deliverables created during this engagement 
-shall be considered "work made for hire" and shall be the exclusive property 
+All code, documentation, and deliverables created during this engagement
+shall be considered "work made for hire" and shall be the exclusive property
 of [Client Name], subject to the following:
 
-- Pre-existing intellectual property owned by [Developer Name] prior to 
+- Pre-existing intellectual property owned by [Developer Name] prior to
   this engagement remains the property of [Developer Name]
-- Developer grants Client a perpetual, non-exclusive license to use any 
+- Developer grants Client a perpetual, non-exclusive license to use any
   pre-existing tools, libraries, or methodologies incorporated into the work
-- Upon full payment, Developer retains the right to use general knowledge 
+- Upon full payment, Developer retains the right to use general knowledge
   and experience gained during the project
 ```
 
@@ -134,8 +135,8 @@ Protect yourself from clients who might try to hire you away directly:
 ```markdown
 ## Non-Solicitation
 
-During the term of this Agreement and for [12 months] thereafter, neither 
-party shall directly or indirectly solicit, hire, or engage any employee 
+During the term of this Agreement and for [12 months] thereafter, neither
+party shall directly or indirectly solicit, hire, or engage any employee
 or contractor of the other party who was involved in the project.
 ```
 
@@ -211,8 +212,6 @@ Clarify whether your general skills and knowledge can be applied to future proje
 Customize the template above for your specific needs and have it signed before beginning work. The best contracts are ones both parties understand and accept — keep your NDAs clear, specific, and fair.
 
 ---
-
-
 
 
 ## Related Articles

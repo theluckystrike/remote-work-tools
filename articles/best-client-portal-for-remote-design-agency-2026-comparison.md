@@ -204,12 +204,14 @@ Most agencies benefit from combining tools — using a dedicated client portal f
 
 ---
 
-## Related Reading
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
-- [Client Document Sharing Portal Comparison for Remote.](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
-- [Project Tracking Tool for Two Person Design Agency 2026](/remote-work-tools/project-tracking-tool-for-two-person-design-agency-2026/)
-- [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
+## Related Articles
+
+- [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
+- [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)
+- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
+- [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
+- [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

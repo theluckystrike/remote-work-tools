@@ -3,6 +3,7 @@ layout: default
 title: "How to Scale Remote Team Social Events From Informal Chats"
 description: "A practical guide for developers and technical teams to evolve remote social events from spontaneous conversations into scalable, structured programs"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-social-events-from-informal-chats-t/
 categories: [guides]
@@ -42,13 +43,13 @@ channels:
   - name: "random"
     description: "Open social chat, always active"
     timezone-aware: false
-  
-  - name: "eu-random" 
+
+  - name: "eu-random"
     description: "For European timezone team members"
     active_hours: "08:00-18:00 CET"
-    
+
   - name: "apac-random"
-    description: "For Asia-Pacific timezone team members"  
+    description: "For Asia-Pacific timezone team members"
     active_hours: "09:00-19:00 SGT"
 ```
 
@@ -63,7 +64,7 @@ Random coffee chats sound oxymoronic, but structured randomness works. Implement
 function generatePairs(teamMembers, previousPairs = []) {
   const shuffled = [...teamMembers].sort(() => Math.random() - 0.5);
   const pairs = [];
-  
+
   for (let i = 0; i < shuffled.length - 1; i += 2) {
     // Avoid repeating recent pairings
     const pair = [shuffled[i], shuffled[i + 1]];
@@ -140,7 +141,7 @@ Create a shared calendar with all social events:
       "format": "themed"
     },
     {
-      "name": "Weekly Coffee Roulette", 
+      "name": "Weekly Coffee Roulette",
       "frequency": "weekly",
       "duration": "30 minutes",
       "required": false,
@@ -193,8 +194,6 @@ The transition from informal to structured social programs isn't a sign that you
 Start where you are. If your team is small, add one structured element to your existing informal culture. If you're already scaling, invest in the programs and infrastructure that will carry your culture forward.
 
 The goal isn't to replicate an office water cooler. It's to create something better—intentional spaces where people can connect as humans, regardless of when they work or where they live.
-
-
 
 
 ## Related Articles

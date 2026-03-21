@@ -3,6 +3,7 @@ layout: default
 title: "Example: Finding interview slots across time zones"
 description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-manager-training-program-for-first-time-m/
 categories: [guides]
@@ -85,7 +86,7 @@ def find_overlap_slots(candidate_tz, interviewer_tz, meeting_duration=60):
     candidate_end = 18
     interviewer_start = 9
     interviewer_end = 18
-    
+
     # Convert to UTC and find overlap
     # Return available 2-hour windows
     pass
@@ -327,7 +328,6 @@ Schedule a formal conversation: "How are you settling in? What's working? What c
 - Opportunities for mentorship or leadership (helping engineers grow within your team)
 
 The best hiring managers view their job as 70% retention. Building a hiring pipeline fills short-term gaps; building a team people want to stay in solves long-term growth.
-
 
 
 ## Related Articles

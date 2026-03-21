@@ -3,6 +3,7 @@ layout: default
 title: "CI/CD Pipeline Tools for a Remote Team of 2 Backend"
 description: "Practical guide to CI/CD pipeline tools for small remote backend teams. Compare GitHub Actions, GitLab CI, CircleCI, and build automation strategies"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/
 categories: [guides]
@@ -46,22 +47,22 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run tests
         run: npm test
-      
+
       - name: Run linting
         run: npm run lint
 ```
@@ -75,10 +76,10 @@ For deployment, add a job that runs after tests pass:
     needs: test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Deploy to production
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
@@ -298,7 +299,6 @@ resource "aws_codebuild_project" "backend_ci" {
   }
 }
 ```
-
 
 
 ## Related Articles

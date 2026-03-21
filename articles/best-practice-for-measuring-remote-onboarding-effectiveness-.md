@@ -60,9 +60,9 @@ def get_time_to_first_commit(repo_name, username, start_date):
     """Calculate days from start date to first commit."""
     g = Github(os.getenv("GITHUB_TOKEN"))
     repo = g.get_repo(repo_name)
-    
+
     commits = repo.get_commits(author=username, since=start_date)
-    
+
     try:
         first_commit = commits[0]
         commit_date = first_commit.commit.author.date
@@ -76,19 +76,19 @@ def generate_onboarding_report(team_members, repo_name):
     report = []
     report.append("| Developer | Start Date | First Commit | Days to First Commit |")
     report.append("|-----------|------------|--------------|---------------------|")
-    
+
     for member in team_members:
         ttfc, commit_date = get_time_to_first_commit(
-            repo_name, 
+            repo_name,
             member['github_username'],
             member['start_date']
         )
-        
+
         if ttfc is not None:
             report.append(f"| {member['name']} | {member['start_date'].strftime('%Y-%m-%d')} | {commit_date.strftime('%Y-%m-%d')} | {ttfc} |")
         else:
             report.append(f"| {member['name']} | {member['start_date'].strftime('%Y-%m-%d')} | Not yet | In progress |")
-    
+
     return "\n".join(report)
 ```
 
@@ -120,16 +120,16 @@ def analyze_first_month_prs(repo_name, username, start_date):
     """Analyze pull request activity in first 30 days."""
     g = Github(os.getenv("GITHUB_TOKEN"))
     repo = g.get_repo(repo_name)
-    
+
     end_date = start_date + timedelta(days=30)
     pulls = repo.get_pulls(state='all', sort='created', direction='desc')
-    
+
     first_month_pulls = [
-        pr for pr in pulls 
-        if pr.user.login == username 
+        pr for pr in pulls
+        if pr.user.login == username
         and start_date <= pr.created_at <= end_date
     ]
-    
+
     return {
         'total_prs': len(first_month_pulls),
         'merged_prs': sum(1 for pr in first_month_pulls if pr.merged),
@@ -208,12 +208,13 @@ To get started measuring remote onboarding effectiveness:
 Time to first commit gives you a clear, objective signal about whether your remote onboarding process works. Combined with complementary metrics and a commitment to continuous improvement, TTFC helps you build an onboarding experience that helps developers contribute faster and with more confidence.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Onboarding Wiki.](/remote-work-tools/best-practice-for-remote-team-onboarding-wiki-organizing-fir/)
-- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
-- [Best Practice for Measuring Remote Team Alignment Using.](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
+- [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)
+- [Remote-First Onboarding Automation Pipeline 2026](/remote-work-tools/remote-first-onboarding-automation-pipeline-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

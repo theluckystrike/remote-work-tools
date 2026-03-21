@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Handbook Template"
 description: "A practical template and guide for writing remote interview process documentation. Learn how to create clear, consistent interview playbooks for hiring"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-handbook-template-for-writing-remote-interview-p/
 categories: [guides]
@@ -170,7 +171,6 @@ Before publishing your documentation, verify:
 - [ ] Questions are approved by legal/HR for compliance
 - [ ] Documentation lives in a centralized, searchable location
 - [ ] There's a process for updating questions quarterly
-
 
 
 ## Related Articles

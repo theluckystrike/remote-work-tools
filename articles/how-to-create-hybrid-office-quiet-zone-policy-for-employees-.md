@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Hybrid Office Quiet Zone Policy for Employees"
 description: "Create a hybrid office quiet zone policy by establishing consistent scheduled quiet hours (typically 9 AM-noon), designating specific focus rooms, blocking"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-create-hybrid-office-quiet-zone-policy-for-employees-/
 categories: [guides]
@@ -78,10 +79,10 @@ Use shared calendars to publish quiet hours and block them from meeting creation
 function createQuietHourBlock(calendarId, date) {
   const startTime = new Date(date);
   startTime.setHours(9, 0, 0, 0);
-  
+
   const endTime = new Date(date);
   endTime.setHours(12, 0, 0, 0);
-  
+
   const event = {
     summary: 'Quiet Focus Time',
     start: { dateTime: startTime.toISOString() },
@@ -89,7 +90,7 @@ function createQuietHourBlock(calendarId, date) {
     transparency: 'transparent',
     visibility: 'public'
   };
-  
+
   return calendar.events.insert({
     calendarId: calendarId,
     resource: event
@@ -173,7 +174,6 @@ Track whether the quiet zone policy actually improves outcomes:
 - Gather feedback on whether the policy feels sustainable
 
 Adjust the policy based on data. If morning quiet hours aren't working, try afternoon blocks instead. If certain teams need different arrangements, allow team-level customization within organizational guidelines.
-
 
 
 ## Related Articles

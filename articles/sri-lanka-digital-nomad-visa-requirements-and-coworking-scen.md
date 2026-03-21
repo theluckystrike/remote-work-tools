@@ -3,6 +3,7 @@ layout: default
 title: "Sri Lanka Digital Nomad Visa Requirements and Coworking"
 description: "Sri Lanka's ETA (electronic travel authorization) costs just $35 for 30 days and extends up to 6 months total, letting you stay legally without a dedicated"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/
 categories: [guides]
@@ -172,7 +173,6 @@ Many developers use:
 - VPN services: ExpressVPN, NordVPN, or self-hosted WireGuard for secure connections
 - Cloud IDEs: VS Code in browser via code-server or GitHub Codespaces for work machines
 - Backup solutions: Sync code to GitHub frequently given potential connectivity issues in some areas
-
 
 
 ## Related Articles

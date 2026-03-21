@@ -160,14 +160,14 @@ class ActionTracker:
     def __init__(self, filename="retro_actions.json"):
         self.filename = filename
         self.actions = self.load_actions()
-    
+
     def load_actions(self):
         try:
             with open(self.filename) as f:
                 return json.load(f)
         except FileNotFoundError:
             return {"actions": []}
-    
+
     def add_action(self, description, owner, due_date, retro_id):
         action = {
             "id": len(self.actions["actions"]) + 1,
@@ -181,17 +181,17 @@ class ActionTracker:
         self.actions["actions"].append(action)
         self.save()
         return action
-    
+
     def complete_action(self, action_id):
         for action in self.actions["actions"]:
             if action["id"] == action_id:
                 action["status"] = "completed"
                 action["completed_at"] = datetime.now().isoformat()
         self.save()
-    
+
     def get_open_actions(self):
         return [a for a in self.actions["actions"] if a["status"] == "open"]
-    
+
     def save(self):
         with open(self.filename, "w") as f:
             json.dump(self.actions, f, indent=2)
@@ -230,12 +230,13 @@ Track these metrics to understand if your async retrospectives are working:
 Iterate on your format based on feedback. Every team evolves their retrospective practice—yours should too.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Team Retrospective Silent Brainstorming Technique.](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
-- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
+- [Async Decision Making with RFC Documents for Engineering](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
+- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

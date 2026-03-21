@@ -3,6 +3,7 @@ layout: default
 title: "Quick save script for terminal workflows"
 description: "The fastest desk-to-kitchen transitions use three techniques: physical workspace layout that minimizes walking distance, pre-prepared meals that require no"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/
 reviewed: true
@@ -117,11 +118,11 @@ def calculate_weekly_prep(family_size, days=5):
     protein_per_meal = 0.3  # lbs per person
     veg_per_meal = 0.25     # lbs per person
     carbs_per_meal = 0.2    # lbs per person
-    
+
     total_protein = protein_per_meal * family_size * days
     total_veg = veg_per_meal * family_size * days
     total_carbs = carbs_per_meal * family_size * days
-    
+
     return {
         "protein_lbs": total_protein,
         "vegetables_lbs": total_veg,
@@ -332,7 +333,6 @@ If you're not seeing improvement by week 3, diagnose the problem. Common issues:
 - Calendar blocking isn't actually protected
 
 Fix the specific bottleneck rather than trying to optimize everything simultaneously.
-
 
 
 ## Related Articles

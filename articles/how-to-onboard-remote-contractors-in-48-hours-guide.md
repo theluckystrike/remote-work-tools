@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "How to Onboard Remote Contractors in 48 Hours: Complete Guide"
+title: "How to Onboard Remote Contractors in 48 Hours"
 description: "Fast-track contractor onboarding with checklist, tools, and templates. From offer to productive in two days."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 categories: [guides]
 tags: [remote-work-tools, contractors, operations, best-of]
@@ -492,7 +493,6 @@ ROI: For a 12-week contractor ($15K cost), shaving 2 weeks off ramp-up is a 17% 
 The key is assigning a responsive buddy, choosing a well-scoped first task, and setting explicit expectations. Teams that nail this process see 40% improvement in contractor velocity and 35% improvement in retention (contractors feel valued from Day 1).
 
 Document your process, measure what matters, and iterate quarterly based on contractor feedback. Over time, onboarding becomes a competitive advantage that attracts top contractor talent.
-
 
 
 ## Related Articles

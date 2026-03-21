@@ -3,6 +3,7 @@ layout: default
 title: "Generate weekly team activity report from GitHub"
 description: "A practical guide for developers and power users on managing hybrid teams with permanent remote members. Includes automation scripts, workflow"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-hybrid-team-where-some-members-are-fully-remot/
 reviewed: true
@@ -33,25 +34,25 @@ interface TeamCommunicationNorm {
 }
 
 const communicationNorms: TeamCommunicationNorm[] = [
-  { 
-    channel: 'slack', 
-    responseTimeHours: 4, 
-    examples: ['quick questions', 'status updates', 'non-blocking issues'] 
+  {
+    channel: 'slack',
+    responseTimeHours: 4,
+    examples: ['quick questions', 'status updates', 'non-blocking issues']
   },
-  { 
-    channel: 'email', 
-    responseTimeHours: 24, 
-    examples: ['formal requests', 'documentation', 'external communication'] 
+  {
+    channel: 'email',
+    responseTimeHours: 24,
+    examples: ['formal requests', 'documentation', 'external communication']
   },
-  { 
-    channel: 'github', 
-    responseTimeHours: 8, 
-    examples: ['code reviews', 'PR feedback', 'issue triage'] 
+  {
+    channel: 'github',
+    responseTimeHours: 8,
+    examples: ['code reviews', 'PR feedback', 'issue triage']
   },
-  { 
-    channel: 'emergency', 
-    responseTimeHours: 0.5, 
-    examples: ['production outages', 'security incidents', 'critical bugs'] 
+  {
+    channel: 'emergency',
+    responseTimeHours: 0.5,
+    examples: ['production outages', 'security incidents', 'critical bugs']
   }
 ];
 ```
@@ -74,31 +75,31 @@ from datetime import datetime, timedelta
 def generate_team_activity_report(github_token, org, team_slug):
     headers = {"Authorization": f"token {github_token}"}
     base_url = "https://api.github.com"
-    
+
     # Get team members
     members_url = f"{base_url}/orgs/{org}/teams/{team_slug}/members"
     members = requests.get(members_url, headers=headers).json()
-    
+
     report = []
     week_ago = (datetime.now() - timedelta(days=7)).isoformat()
-    
+
     for member in members:
         username = member["login"]
-        
+
         # Get PRs created
         prs_url = f"{base_url}/search/issues?q=author:{username}+is:pr+created:>{week_ago}"
         prs = requests.get(prs_url, headers=headers).json()
-        
+
         # Get reviews done
         reviews_url = f"{base_url}/search/issues?q=reviewer:{username}+is:pr+updated:>{week_ago}"
         reviews = requests.get(reviews_url, headers=headers).json()
-        
+
         report.append({
             "username": username,
             "prs_created": prs.get("total_count", 0),
             "reviews_done": reviews.get("total_count", 0)
         })
-    
+
     return report
 ```
 
@@ -148,7 +149,7 @@ const pairSessionConfig = {
   frequency: 'weekly',
   rotation: 'random', // or 'round-robin'
   tools: ['LiveShare', 'Tuple', 'Screen sharing'],
-  
+
   // Time slots that work across time zones
   preferredSlots: [
     { utcStart: 14, utcEnd: 15.5 },  // 9am PST / 6pm CET
@@ -160,7 +161,7 @@ function findOptimalPairingSlots(members) {
   // Find overlapping hours across all member timezones
   const memberTimezones = members.map(m => m.timezone);
   // Return slots where everyone has at least 2 hours of overlap
-  return pairSessionConfig.preferredSlots.filter(slot => 
+  return pairSessionConfig.preferredSlots.filter(slot =>
     memberTimezones.every(tz => isWithinWorkingHours(slot, tz))
   );
 }
@@ -219,18 +220,18 @@ Monitor team health through automated surveys that don't create busywork:
 ```javascript
 // Weekly pulse check automation
 const pulseQuestions = [
-  { 
-    id: 'communication', 
+  {
+    id: 'communication',
     text: 'Did you get the information you needed this week?',
-    scale: 1-5 
+    scale: 1-5
   },
-  { 
-    id: 'collaboration', 
+  {
+    id: 'collaboration',
     text: 'Were you able to collaborate effectively with your team?',
-    scale: 1-5 
+    scale: 1-5
   },
-  { 
-    id: 'blockers', 
+  {
+    id: 'blockers',
     text: 'Do you have any blockers preventing you from doing your best work?',
     scale: 'free-text'
   }
@@ -257,7 +258,6 @@ Onboarding remote employees requires extra structure:
 4. Monthly: Check-in with manager on integration, tools, and process effectiveness
 
 Document the entire onboarding process so remote hires can reference it later.
-
 
 
 ## Related Articles

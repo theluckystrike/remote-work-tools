@@ -3,6 +3,7 @@ layout: default
 title: "Example: Export Miro board via API"
 description: "Learn practical techniques for running effective remote workshops in Miro with structured communication exercises that keep teams engaged and productive"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-help-remote-team-workshops-using-miro-with-stru/
 reviewed: true
@@ -260,7 +261,6 @@ A workshop's value extends far beyond the 90 minutes if properly documented:
 This creates a searchable archive that new team members can review to understand how decisions were made and why current practices exist.
 
 ---
-
 
 
 ## Related Articles

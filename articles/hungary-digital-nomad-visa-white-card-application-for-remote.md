@@ -3,6 +3,7 @@ layout: default
 title: "Hungary Digital Nomad Visa White Card Application for"
 description: "Complete guide to Hungary digital nomad visa (White Card) application process. Requirements, documents, income thresholds, and step-by-step"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /hungary-digital-nomad-visa-white-card-application-for-remote/
 categories: [guides]
@@ -317,9 +318,6 @@ Before finalizing your move:
 - [ ] Verify internet quality at your accommodation before committing long-term
 
 Once approved, you'll have access to Hungary's affordable cost of living, excellent infrastructure, and strategic position for exploring Central and Eastern Europe.
-
-
-
 
 
 ## Related Articles

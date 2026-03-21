@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Scope Change Request Workflow for Client"
 description: "Build a scope change workflow that requires written change requests documenting what's being added, estimating impact on timeline and budget, and requiring"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-scope-change-request-workflow-for-client-projects/
 categories: [troubleshooting]
@@ -86,12 +87,12 @@ def calculate_scope_change_impact(estimated_hours, team_rates):
     """
     total_cost = 0
     breakdown = []
-    
+
     for role, hours in estimated_hours.items():
         cost = hours * team_rates[role]
         total_cost += cost
         breakdown.append(f"{role}: {hours}h × ${team_rates[role]}/h = ${cost}")
-    
+
     return {
         "total_hours": sum(estimated_hours.values()),
         "total_cost": total_cost,
@@ -141,7 +142,7 @@ A technical workaround or different approach that solves the underlying problem 
 
 **Option A - Full Implementation**
 - Development: 8 hours
-- QA: 2 hours  
+- QA: 2 hours
 - Timeline impact: +1 week
 - Cost: $1,150
 
@@ -212,7 +213,7 @@ jobs:
         with:
           project-url: https://github.com/org/repo/projects/1
           github-token: ${{ secrets.GH_TOKEN }}
-      
+
       - name: Notify team
         run: |
           echo "New scope change request requires triage review"
@@ -234,8 +235,6 @@ Charge consistently. Apply your pricing framework uniformly across clients to av
 Train your team. Everyone who communicates with clients should understand the workflow and know how to redirect scope change discussions to the proper process.
 
 ---
-
-
 
 
 ## Related Articles

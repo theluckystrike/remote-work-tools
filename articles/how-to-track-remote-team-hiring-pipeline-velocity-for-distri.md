@@ -3,6 +3,7 @@ layout: default
 title: "How to Track Remote Team Hiring Pipeline Velocity"
 description: "Learn practical methods and code examples for measuring and optimizing your remote hiring pipeline velocity across distributed teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-track-remote-team-hiring-pipeline-velocity-for-distri/
 reviewed: true
@@ -91,11 +92,11 @@ CREATE TABLE pipeline_events (
 );
 
 -- Calculate average time per stage
-SELECT 
+SELECT
   stage,
   AVG(EXTRACT(EPOCH FROM (exited - entered)) / 3600) as hours_in_stage
 FROM (
-  SELECT 
+  SELECT
     candidate_id,
     stage,
     MAX(CASE WHEN event_type = 'entered' THEN timestamp END) as entered,
@@ -117,9 +118,9 @@ Set up automated monitoring to catch slowdowns early:
 #!/bin/bash
 # Check for candidates stuck in current stage > 5 days
 
-QUERY="SELECT candidate_id, stage, entered_stage 
-       FROM pipeline 
-       WHERE entered_stage < NOW() - INTERVAL '5 days' 
+QUERY="SELECT candidate_id, stage, entered_stage
+       FROM pipeline
+       WHERE entered_stage < NOW() - INTERVAL '5 days'
        AND stage != 'offer_sent'"
 
 STUCK_CANDIDATES=$(psql -t -c "$QUERY" remote_hiring)
@@ -202,7 +203,6 @@ Set velocity targets based on your data. A reasonable remote hiring pipeline sho
 - Offer to accept: 3-5 days
 
 Track these weekly. If your actual times exceed targets by more than 20%, investigate the bottleneck stage. For distributed teams, expect slightly longer technical stages due to scheduling complexity.
-
 
 
 ## Related Articles

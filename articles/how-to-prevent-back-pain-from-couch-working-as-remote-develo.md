@@ -3,6 +3,7 @@ layout: default
 title: "How to Prevent Back Pain from Couch Working as a Remote"
 description: "Practical strategies to prevent back pain when working from couch as a remote developer. Learn ergonomic setups, posture fixes, and movement routines"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-back-pain-from-couch-working-as-remote-develo/
 categories: [guides]
@@ -92,7 +93,7 @@ def movement_reminder(interval_minutes=30):
         time.sleep(interval_minutes * 60)
         # Cross-platform notification
         subprocess.run([
-            "osascript", "-e", 
+            "osascript", "-e",
             'display notification "Stand up and move!" with title "Movement Break"'
         ])
 
@@ -293,7 +294,6 @@ The couch works fine if combined with:
 Treating couch work as temporary (not permanent workstation) reduces pain risk significantly. If you're back-to-back meetings, a permanent desk makes sense. If you're doing focused coding with occasional calls, a well-optimized couch setup works fine.
 
 ---
-
 
 
 ## Related Articles

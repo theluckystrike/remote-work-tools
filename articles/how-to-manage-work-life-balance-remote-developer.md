@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Work-Life Balance as a Remote Developer"
 description: "Practical strategies and tools for developers working remotely. Learn time management techniques, automation scripts, and boundary-setting methods"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-work-life-balance-remote-developer/
 categories: [guides]
@@ -138,12 +139,12 @@ function setSlackStatus() {
   const calendar = CalendarApp.getDefaultCalendar();
   const now = new Date();
   const events = calendar.getEventsForDay(now);
-  
-  const hasMeeting = events.some(e => 
-    e.getTitle().includes('1:1') || 
+
+  const hasMeeting = events.some(e =>
+    e.getTitle().includes('1:1') ||
     e.getTitle().includes('Standup')
   );
-  
+
   if (hasMeeting) {
     // Set status via Slack API
   }
@@ -206,8 +207,6 @@ Start with one change. Implement time blocking for a week. Add the end-of-day sc
 Work-life balance isn't about perfect equilibrium every day. It's about systems that prevent chronic imbalance while allowing flexibility when projects demand extra effort.
 
 ---
-
-
 
 
 ## Related Articles

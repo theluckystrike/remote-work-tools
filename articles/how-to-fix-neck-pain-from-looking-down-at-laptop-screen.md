@@ -3,6 +3,7 @@ layout: default
 title: "How to Fix Neck Pain from Looking Down at Laptop Screen"
 description: "Practical solutions for developers experiencing neck pain from laptop use. Learn desk setup adjustments, exercises, and habits to eliminate tech neck"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-fix-neck-pain-from-looking-down-at-laptop-screen/
 reviewed: true
@@ -296,7 +297,6 @@ A physical therapist will:
 - Verify nothing more serious is happening
 
 Most insurance covers physical therapy ($20-50 copay per session). Often 6-8 sessions is sufficient.
-
 
 
 ## Related Articles

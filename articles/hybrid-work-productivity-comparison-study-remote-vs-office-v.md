@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Work Productivity Comparison Study"
 description: "Data-driven analysis comparing productivity across remote, office, and hybrid work models in 2026. Practical benchmarks and code examples for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/
 categories: [guides]
@@ -39,7 +40,7 @@ A 2026 survey of 2,400 software engineers found:
 ```
 Deep Work Hours per Day (Average):
 - Remote: 5.2 hours
-- Hybrid (remote days): 4.8 hours  
+- Hybrid (remote days): 4.8 hours
 - Office: 3.6 hours
 ```
 
@@ -128,11 +129,11 @@ class FocusTracker {
     if (this.currentSession) {
       this.currentSession.end = new Date();
       const duration = (this.currentSession.end - this.currentSession.start) / 1000 / 60;
-      
+
       if (duration > 15) { // Only track sessions > 15 minutes
         this.focusSessions.push(this.currentSession);
       }
-      
+
       this.currentSession = null;
     }
   }
@@ -140,7 +141,7 @@ class FocusTracker {
   getWeeklyStats() {
     const now = new Date();
     const weekAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
-    
+
     return this.focusSessions
       .filter(s => s.start > weekAgo)
       .reduce((acc, s) => {
@@ -188,7 +189,6 @@ echo "Evening responses (after 5pm):"
 # Track which days have highest code review velocity
 git log --since='30 days ago' --format='%ad' --date=format:'%A' | sort | uniq -c
 ```
-
 
 
 ## Related Articles

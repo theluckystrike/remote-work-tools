@@ -3,6 +3,7 @@ layout: default
 title: "Best Tools for Remote Team Retrospectives 2026"
 description: "Compare retro tools: Retrium, EasyRetro, Parabol, Metro Retro, FunRetro. Includes pricing, formats supported, integrations, and async retro capabilities"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-tools-for-remote-team-retrospectives-2026/
 categories: [guides]
@@ -435,5 +436,7 @@ Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 - [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

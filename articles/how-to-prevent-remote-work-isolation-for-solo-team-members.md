@@ -3,6 +3,7 @@ layout: default
 title: "How to Prevent Remote Work Isolation for Solo Team Members"
 description: "Practical strategies to prevent remote work isolation for solo team members. Discover automation tools, communication patterns, and mental health"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-remote-work-isolation-for-solo-team-members/
 categories: [guides]
@@ -35,8 +36,8 @@ Replace generic status updates with meaningful check-ins. Use a simple format th
 ```markdown
 ## Daily Check-in
 
-**Energy level (1-5):** 
-**Blockers:** 
+**Energy level (1-5):**
+**Blockers:**
 **Something interesting I learned:**
 **Non-work highlight:**
 ```
@@ -209,7 +210,6 @@ Create separation between work and living spaces. Even a small desk in a corner 
 ### Boundary Management
 
 Set clear start and end times for work. Physical cues help: change clothes for work, step outside at lunch, create a shutdown ritual. Communicate these boundaries to teammates so they know when you're available.
-
 
 
 ## Related Articles

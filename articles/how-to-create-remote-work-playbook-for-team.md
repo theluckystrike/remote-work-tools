@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Work Playbook for Team"
 description: "A practical guide for developers and power users building remote work playbooks. Includes templates, automation examples, and implementation strategies"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-work-playbook-for-team/
 reviewed: true
@@ -220,7 +221,6 @@ The playbook is a living document, not an one-time project. Assign owners to eac
 New team members should read the playbook in their first week. Include a "getting started" section with the most critical paths—account setup, first-week milestones, and key contacts.
 
 Avoid writing prescriptive policies without team buy-in. If engineers feel the playbook was handed down rather than built collaboratively, they won't update it when reality changes.
-
 
 
 ## Related Articles

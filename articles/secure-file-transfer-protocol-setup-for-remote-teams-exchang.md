@@ -3,6 +3,7 @@ layout: default
 title: "Secure File Transfer Protocol Setup for Remote Teams"
 description: "When your remote engineering team needs to exchange large files—database dumps, build artifacts, video assets, or ML model weights—cloud storage services often"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /secure-file-transfer-protocol-setup-for-remote-teams-exchang/
 categories: [guides]
@@ -277,7 +278,6 @@ with pysftp.Connection('sftp.example.com', username='deploy',
     sftp.put('/local/build/app.tar.gz', '/remote/builds/app.tar.gz')
     sftp.get('/remote/logs/transfer.log', '/local/logs/transfer.log')
 ```
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Retirement Planning for Freelance Developers 2026"
 description: "A practical guide to retirement planning for freelance developers. Learn about SEP IRAs, Solo 401(k)s, tax advantages, and concrete strategies to build"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /retirement-planning-for-freelance-developers-2026/
 reviewed: true
@@ -55,12 +56,12 @@ def calculate_solo_401k_limit(net_self_employment_income):
     """
     employee_deferral = 23500
     max_total = 69000
-    
+
     # Employer contribution: 25% of net income minus half SE tax
     # Simplified calculation for illustration
-    employer_contribution = min(net_self_employment_income * 0.25, 
+    employer_contribution = min(net_self_employment_income * 0.25,
                                 max_total - employee_deferral)
-    
+
     return employee_deferral + employer_contribution
 
 # Example with $150,000 net income
@@ -382,14 +383,12 @@ and prevents scrambling at tax time.
 ---
 
 
-
-
 ## Related Articles
 
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 - [Best Contract Templates for Freelance Developers](/remote-work-tools/best-contract-templates-for-freelance-developers/)
 - [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
-- [Best Project Management Tool for Solo Freelance Developers 2026](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
 - [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

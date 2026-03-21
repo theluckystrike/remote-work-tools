@@ -79,7 +79,7 @@ async function createOKRIssue() {
     priority: 2,
     labels: ['okr-q1-2026', 'security']
   });
-  
+
   return issue;
 }
 ```
@@ -182,12 +182,13 @@ Focus on consistency over perfection. Review progress regularly, adjust key resu
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Best Wiki Tool for a 40-Person Remote Customer Support Team](/remote-work-tools/best-wiki-tool-for-a-40-person-remote-customer-support-team/)
+- [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
+- [Best Noise Gate Microphone Setting for Remote Parents With](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)
+- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

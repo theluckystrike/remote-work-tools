@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Middle Management Onboarding Guide for New"
 description: "As remote organizations grow, many discover that the direct IC-to-director reporting structure no longer scales. A new middle management layer"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-middle-management-onboarding-guide-for-new-layer/
 categories: [guides]
@@ -191,7 +192,6 @@ Establish clear success criteria with your director during onboarding:
 | Day 1-30 | Context, relationships | All 1:1s scheduled, documentation reviewed, first team meeting attended |
 | Day 31-60 | Ownership, trust | First responsibility handoff complete, upward update cadence established |
 | Day 61-90 | Impact, independence | Team velocity stable or improved, relationship trust scores positive |
-
 
 
 ## Related Articles

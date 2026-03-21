@@ -3,6 +3,7 @@ layout: default
 title: "Office Hoteling Software for Hybrid Teams 2026"
 description: "A technical guide to office hoteling software for hybrid teams in 2026. Learn about API integrations, implementation patterns, and building custom"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /office-hoteling-software-for-hybrid-teams-2026/
 categories: [guides]
@@ -80,7 +81,7 @@ async function createReservation(userId, deskId, date, startTime, endTime) {
   // Check for conflicts
   const conflict = await db.query(`
     SELECT id FROM reservations
-    WHERE desk_id = $1 
+    WHERE desk_id = $1
     AND date = $2
     AND status IN ('confirmed', 'checked-in')
     AND (
@@ -129,8 +130,8 @@ function DeskBooking({ date, onSelectDesk }) {
   return (
     <div className="desk-grid">
       {desks.map(desk => (
-        <DeskCard 
-          key={desk.id} 
+        <DeskCard
+          key={desk.id}
           desk={desk}
           onSelect={() => handleDeskSelect(desk.id)}
         />
@@ -155,7 +156,7 @@ Slack/Teams Notifications: Send booking confirmations and reminders through your
 ```javascript
 async function sendSlackNotification(user, reservation) {
   const webhookUrl = process.env.SLACK_WEBHOOK_URL;
-  
+
   await fetch(webhookUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -199,7 +200,7 @@ Waitlist Functionality: When desks are full, users should join a waitlist. A bac
 // Cron job runs every 5 minutes
 async function processWaitlist(deskId, date) {
   const waitlist = await db.query(`
-    SELECT * FROM waitlist 
+    SELECT * FROM waitlist
     WHERE desk_id = $1 AND date = $2
     ORDER BY position ASC
   `, [deskId, date]);
@@ -216,7 +217,7 @@ async function processWaitlist(deskId, date) {
 Analytics and Reporting: Track use rates, peak booking times, and no-show rates. This data justifies office investments and identifies patterns:
 
 ```sql
-SELECT 
+SELECT
   date,
   COUNT(DISTINCT desk_id) as total_desks,
   COUNT(reservation_id) as reservations,
@@ -235,7 +236,6 @@ The decision depends on your team's capacity and requirements. Off-the-shelf sol
 For most teams, starting with an established platform and extending through APIs makes sense. Build only when you hit hard limits or have specific technical requirements that justify the investment.
 
 ---
-
 
 
 ## Related Articles

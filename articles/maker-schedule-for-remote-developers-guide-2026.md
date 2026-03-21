@@ -3,6 +3,7 @@ layout: default
 title: "Maker Schedule for Remote Developers: A Practical Guide for"
 description: "Learn how to implement the maker schedule methodology specifically designed for remote developers. Optimize your deep work sessions, manage context"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /maker-schedule-for-remote-developers-guide-2026/
 categories: [guides]
@@ -308,7 +309,6 @@ Output Metrics:
 ```
 
 After implementing maker schedule, you should see improved deep work minutes, reduced context switches, and higher quality output. If not, your blocks may be too short, too fragmented, or the team culture may need adjustment.
-
 
 
 ## Related Articles

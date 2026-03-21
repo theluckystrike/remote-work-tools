@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Standups for a Remote QA Team of 7"
 description: "Practical strategies for running effective daily standups with a remote QA team of 7. Includes schedule templates, async alternatives, and automation tips"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-standups-for-a-remote-qa-team-of-7/
 categories: [guides]
@@ -33,7 +34,7 @@ Example standup agenda for a 15-minute meeting:
 
 ```
 1. Blockers requiring discussion (5 min)
-2. Cross-team dependencies needing alignment (5 min)  
+2. Cross-team dependencies needing alignment (5 min)
 3. Priority shifts or scope changes (5 min)
 ```
 
@@ -135,7 +136,7 @@ Here's a practical template you can adapt for your team:
 
 ## Current Rotation
 - Week 12 (Mar 16-22): Alice hosts
-- Week 13 (Mar 23-29): Bob hosts  
+- Week 13 (Mar 23-29): Bob hosts
 - Week 14 (Mar 30-Apr 5): Charlie hosts
 - Week 15 (Apr 6-12): Diana hosts
 
@@ -380,7 +381,6 @@ Help needed: [Yes/No, if yes link to issue]
 ```
 
 This takes 2 minutes per person, provides same visibility, saves 2+ hours per week per team member.
-
 
 
 ## Related Articles

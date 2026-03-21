@@ -3,6 +3,7 @@ layout: default
 title: "Loom vs Vimeo Record for Async Standup Updates Comparison"
 description: "Async standups have become essential for distributed engineering teams. Instead of synchronous morning meetings, team members record short video updates that"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /loom-vs-vimeo-record-for-async-standup-updates-comparison/
 categories: [comparisons]
@@ -302,8 +303,6 @@ The best practice: dedicated short-form tool (Loom) for standups + separate tool
 | 20+ people | Vimeo Enterprise or OBS + Mux | $300+/month or custom |
 
 Most teams should start with Loom Free and upgrade to Loom Pro ($12/person/month) only when hitting the 5-minute recording limit consistently.
-
-
 
 
 ## Related Articles

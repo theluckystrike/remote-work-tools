@@ -3,6 +3,7 @@ layout: default
 title: "Portable Dev Environment with Docker 2026"
 description: "Build a portable development environment with Docker that works identically on any machine. Covers Dockerfile, Compose, volume mounts, and dev container setup."
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /portable-dev-environment-docker-2026/
 categories: [guides]
@@ -335,7 +336,6 @@ Port convention example for preventing conflicts across projects:
 # Project B: ports in 3100-3199 range
 # Project C: ports in 3200-3299 range
 ```
-
 
 
 ## Related Articles

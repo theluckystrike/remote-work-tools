@@ -3,6 +3,7 @@ layout: default
 title: "How to Implement Least Privilege Access for Remote Team"
 description: "Learn practical strategies for implementing least privilege access for remote team cloud resources with code examples, IAM patterns, and security best"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-implement-least-privilege-access-for-remote-team-clou/
 categories: [guides]
@@ -101,13 +102,13 @@ from datetime import datetime, timedelta
 def get_temp_credentials(role_arn, duration_seconds=3600):
     """Get temporary credentials for a specific role."""
     sts = boto3.client('sts')
-    
+
     response = sts.assume_role(
         RoleArn=role_arn,
         RoleSessionName=f"remote-session-{datetime.now().isoformat()}",
         DurationSeconds=duration_seconds
     )
-    
+
     return response['Credentials']
 ```
 
@@ -150,14 +151,14 @@ def grant_elevated_access(user_email, role_name, duration_minutes=60):
     """Grant temporary elevated access to a user."""
     iam = boto3.client('iam')
     sts = boto3.client('sts')
-    
+
     # Create a unique role name for this session
     session_id = datetime.now().strftime("%Y%m%d%H%M%S")
     temp_role_name = f"{role_name}-temp-{session_id}"
-    
+
     # Get the ARN for the base role to assume
     base_role_arn = f"arn:aws:iam::123456789012:role/{role_name}"
-    
+
     # Create a temporary role that the user can assume
     iam.create_role(
         RoleName=temp_role_name,
@@ -177,7 +178,7 @@ def grant_elevated_access(user_email, role_name, duration_minutes=60):
         MaxSessionDuration=duration_minutes * 60,
         Description=f"Temporary elevated access for {user_email}"
     )
-    
+
     # Copy policies from base role (simplified - in production, use tags or policy references)
     return f"arn:aws:iam::123456789012:role/{temp_role_name}"
 ```
@@ -197,7 +198,7 @@ Configure security groups to restrict access to known IP ranges:
 resource "aws_security_group" "engineer_access" {
   name        = "engineer-access-sg"
   description = "Restrict access to engineering team IP ranges"
-  
+
   ingress {
     description = "Engineering team office"
     from_port   = 443
@@ -205,7 +206,7 @@ resource "aws_security_group" "engineer_access" {
     protocol    = "tcp"
     cidr_blocks = ["203.0.113.0/24"]  # Replace with actual team IP ranges
   }
-  
+
   ingress {
     description = "Developer VPN or bastion"
     from_port   = 22
@@ -228,10 +229,10 @@ resource "aws_vpc_endpoint" "s3_private" {
   vpc_id       = aws_vpc.main.id
   service_name = "com.amazonaws.us-east-1.s3"
   vpc_endpoint_type = "Interface"
-  
+
   security_group_ids = [aws_security_group.private_services.id]
   subnet_ids         = aws_subnet.private[*].id
-  
+
   tags = {
     Name = "private-s3-endpoint"
   }
@@ -257,22 +258,22 @@ def find_unused_roles(days_threshold=90):
     """Find IAM roles not used within the threshold period."""
     iam = boto3.client('iam')
     cloudtrail = boto3.client('cloudtrail')
-    
+
     # Get all IAM roles
     roles = iam.list_roles()['Roles']
-    
+
     # Get CloudTrail events for the past N days
     events = cloudtrail.lookup_events(
         LookupAttributes=[{"AttributeKey": "EventSource", "AttributeValue": "iam.amazonaws.com"}],
         StartTime=datetime.now() - timedelta(days=days_threshold)
     )
-    
+
     # Track which roles were assumed
     assumed_roles = set()
     for event in events['Events']:
         if 'AssumedRoleUser' in event['CloudTrailEvent']:
             assumed_roles.add(event['CloudTrailEvent']['AssumedRoleUser']['Arn'])
-    
+
     # Find roles never used
     unused = []
     for role in roles:
@@ -281,12 +282,11 @@ def find_unused_roles(days_threshold=90):
             # Check if it's a system role (exclude by naming convention)
             if not role['RoleName'].startswith(('AWSServiceRole', 'aws-reserved')):
                 unused.append(role)
-    
+
     return unused
 ```
 
 Schedule this audit to run weekly and generate reports for security review.
-
 
 
 ## Related Articles

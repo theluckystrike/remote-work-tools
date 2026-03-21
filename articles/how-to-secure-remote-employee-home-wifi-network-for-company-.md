@@ -3,6 +3,7 @@ layout: default
 title: "Check your router's current firmware version"
 description: "When developers and power users work remotely, they frequently access sensitive company infrastructure from home networks. Unlike corporate environments with"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-secure-remote-employee-home-wifi-network-for-company-data/
 categories: [guides, security]
@@ -346,7 +347,6 @@ Periodically test your security measures:
 **DNS test:** Verify DNS requests are actually using your configured DNS provider, not defaulting elsewhere.
 
 Most remote workers don't need to run these advanced tests, but security-conscious individuals or those handling particularly sensitive data should verify these periodically.
-
 
 
 ## Related Articles

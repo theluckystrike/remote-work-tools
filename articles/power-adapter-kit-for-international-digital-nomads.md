@@ -3,6 +3,7 @@ layout: default
 title: "Power Adapter Kit for International Digital Nomads"
 description: "Every digital nomad has a horror story: laptop dead in a Bangkok cafe, no way to charge during a layover in Frankfurt, or a fried charger because someone"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /power-adapter-kit-for-international-digital-nomads/
 categories: [guides]
@@ -104,7 +105,7 @@ def estimate_runtime(device_watts, powerbank_wh):
     # ThinkPad X1 Carbon: 65W charging
     # iPhone 15 Pro: 20W charging
     # iPad Pro 12.9": 35W charging
-    
+
     efficiency = 0.85  # USB PD conversion loss
     usable_wh = powerbank_wh * efficiency
     hours = usable_wh / device_watts
@@ -332,8 +333,6 @@ Expected lifespan: 2-3 years (300+ travel days)
 Cost per travel day: $0.50-0.83
 
 This is among the highest ROI investments you can make. The peace of mind alone—never being without charging capability—justifies modest upfront costs.
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Content Team Collaboration Workflow for Distributed"
 description: "Master async content workflows for distributed SEO writers. Includes Git-based versioning, content pipelines, and real-world code examples for 2026"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/
 categories: [guides]
@@ -283,8 +284,6 @@ jobs:
 ```
 
 This automation pings reviewers automatically without requiring a project manager to track every open PR manually. Pair it with a written SLA document specifying response time expectations per review stage.
-
-
 
 
 ## Related Articles

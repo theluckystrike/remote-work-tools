@@ -3,6 +3,7 @@ layout: default
 title: "Portable Monitor Setup for Digital Nomads"
 description: "Working as a developer on the move transforms your productivity when you add a portable monitor to your setup. A second screen means more space for code"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /portable-monitor-setup-for-digital-nomads/
 categories: [guides]
@@ -183,7 +184,6 @@ Some developers use a portable monitor arm that clamps to desks, providing more 
 Portable monitors work in surprising locations with some adaptation. Hotel desks often lack proper cable management, making a power strip with surge protection valuable. The monitor's flexibility means you can position it on a luggage rack or TV stand when desk space is limited.
 
 Airbnb accommodations vary widely in desk quality. Your portable monitor ensures you always have a functional workspace regardless of what the host provides.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "GitHub Pull Request Workflow for Distributed Teams"
 description: "Master GitHub pull request workflows designed for distributed teams. Includes branch strategies, code review patterns, automation examples, and time"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /github-pull-request-workflow-for-distributed-teams/
 reviewed: true
@@ -71,7 +72,6 @@ Include this structure in every PR description:
 ## Screenshots (if UI changes)
 Add screenshots or GIFs for visual changes.
 
-## Related Issues
 Closes #123
 References #456
 ```
@@ -200,7 +200,7 @@ jobs:
           script: |
             const labels = ['needs-review'];
             const reviewers = ['team-member-1', 'team-member-2'];
-            
+
             github.rest.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -258,8 +258,6 @@ git merge --no-ff feature-branch
 Squash merging keeps main history linear and makes rollback simpler. For distributed teams, the reduced complexity outweighs preserving every commit.
 
 A well-designed pull request workflow compensates for the lack of face-to-face interaction. Clear conventions, explicit expectations, and thoughtful automation transform pull requests from bottlenecks into efficient collaboration channels. Start with these patterns and adapt them to your team's specific time zones and working styles.
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Accountability Systems Guide 2026"
 description: "Accountability systems for remote teams transform vague promises into visible progress. When your team spans time zones and lacks casual hallway conversations"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /remote-accountability-systems-guide-2026/
 categories: [guides]
@@ -87,7 +88,7 @@ class AsyncStandup:
     def __init__(self, slack_webhook: str, channel: str):
         self.webhook = slack_webhook
         self.channel = channel
-    
+
     def submit_checkin(self, checkin: CheckIn) -> dict:
         blocks = [
             {
@@ -102,13 +103,13 @@ class AsyncStandup:
                 ]
             }
         ]
-        
+
         if checkin.blockers:
             blocks.append({
                 "type": "section",
                 "text": {"type": "mrkdwn", "text": f"*Blockers:*\n{checkin.blockers}"}
             })
-        
+
         response = requests.post(self.webhook, json={
             "channel": self.channel,
             "blocks": blocks
@@ -144,7 +145,7 @@ name: Async Standup Reminder
 on:
   schedule:
     - cron: '0 14 * * 1-5'  # Weekdays at 2 PM UTC
-  
+
 jobs:
   remind-standup:
     runs-on: ubuntu-latest
@@ -178,11 +179,11 @@ async function generateWeeklyProgressReport(teamId, db) {
     owner: { $in: await getTeamMembers(teamId) },
     dueDate: { $gte: getWeekStart(), $lte: getWeekEnd() }
   }).toArray();
-  
+
   const completed = commitments.filter(c => c.status === 'completed').length;
   const inProgress = commitments.filter(c => c.status === 'in-progress').length;
   const blocked = commitments.filter(c => c.status === 'blocked').length;
-  
+
   return {
     total: commitments.length,
     completed,
@@ -211,7 +212,6 @@ Track these metrics to evaluate your accountability system:
 - **Team sentiment**: Do team members feel the system supports rather than监视 them?
 
 Adjust your approach based on these signals. The best accountability system feels like a helpful framework rather than a bureaucratic burden.
-
 
 
 ## Related Articles

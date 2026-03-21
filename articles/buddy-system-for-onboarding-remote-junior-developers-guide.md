@@ -3,6 +3,7 @@ layout: default
 title: "Buddy System for Onboarding Remote Junior Developers Guide"
 description: "A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face an"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /buddy-system-for-onboarding-remote-junior-developers-guide/
 categories: [guides]
@@ -125,7 +126,7 @@ Encourage the new developer to ask questions without apology. A simple Slack mes
 
 ```slack
 # Questions channel
-No question is too small. If you're wondering about something, 
+No question is too small. If you're wondering about something,
 ask in #new-dev-questions. Chances are others have the same question.
 ```
 
@@ -270,7 +271,6 @@ Create a virtuous cycle:
 4. Your culture becomes "we invest in helping each other"
 
 This cultural reinforcement sustains remote teams through growth and change better than any individual tool or process.
-
 
 
 ## Related Articles

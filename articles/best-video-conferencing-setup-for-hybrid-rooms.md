@@ -3,6 +3,7 @@ layout: default
 title: "Best Video Conferencing Setup for Hybrid Rooms: A"
 description: "A practical guide for developers and power users configuring video conferencing in hybrid rooms. Covers camera selection, lighting, and software"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-video-conferencing-setup-for-hybrid-rooms/
 categories: [guides]
@@ -52,18 +53,18 @@ def configure_conference_camera(device_index=0, target_resolution=(1920, 1080), 
     Configure USB camera for conference room use.
     """
     cap = cv2.VideoCapture(device_index)
-    
+
     # Verify camera supports desired resolution
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, target_resolution[0])
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, target_resolution[1])
     cap.set(cv2.CAP_PROP_FPS, fps)
-    
+
     actual_width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
     actual_height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
     actual_fps = cap.get(cv2.CAP_PROP_FPS)
-    
+
     print(f"Configured: {actual_width}x{actual_height} @ {actual_fps}fps")
-    
+
     return cap
 
 # Auto-exposure often works better than manual for varying room conditions
@@ -129,12 +130,12 @@ def get_zoom_room_status(room_id, api_key, api_secret):
     """
     # In production, use OAuth or JWT for authentication
     url = f"https://api.zoom.us/v2/rooms/{room_id}/status"
-    
+
     response = requests.get(
         url,
         auth=HTTPBasicAuth(api_key, api_secret)
     )
-    
+
     if response.status_code == 200:
         return response.json()
     return None
@@ -336,7 +337,6 @@ Hybrid rooms require regular care to stay functional:
 - Review utilization data and adjust setup if needed
 
 A maintained hybrid room consistently outperforms a well-equipped but neglected one.
-
 
 
 ## Related Articles

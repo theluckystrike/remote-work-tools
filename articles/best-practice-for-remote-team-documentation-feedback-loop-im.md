@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Documentation Feedback Loop"
 description: "The best documentation feedback loop for remote teams combines last-updated timestamps, quarterly review rotations, and embedded comment sections that surface"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/
 categories: [guides]
@@ -99,10 +100,10 @@ def categorize_comments(comments):
     """Sort comments by action needed."""
     categories = {
         "quick_fix": [],      # Typos, broken links
-        "needs_research": [], # Technical inaccuracies  
+        "needs_research": [], # Technical inaccuracies
         "feature_request": [] # Missing documentation
     }
-    
+
     for comment in comments:
         if "typo" in comment["text"].lower() or "link" in comment["text"].lower():
             categories["quick_fix"].append(comment)
@@ -110,7 +111,7 @@ def categorize_comments(comments):
             categories["needs_research"].append(comment)
         else:
             categories["feature_request"].append(comment)
-    
+
     return categories
 
 # Run weekly and post results to your team Slack channel
@@ -139,8 +140,8 @@ const contributions = [
   { name: "Elena Rodriguez", PRs: 7, issues: 4, reviews: 18 },
 ];
 
-const sorted = contributions.sort((a, b) => 
-  (b.PRs * 3 + b.issues * 2 + b.reviews) - 
+const sorted = contributions.sort((a, b) =>
+  (b.PRs * 3 + b.issues * 2 + b.reviews) -
   (a.PRs * 3 + a.issues * 2 + a.reviews)
 );
 
@@ -216,12 +217,13 @@ The remote work advantage here is asynchronous participation. Team members acros
 Remember: perfect documentation doesn't exist. The goal is continuous improvement, not completion. Every piece of feedback, no matter how small, moves your wiki toward greater value for every team member who needs it.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team README Files in Repositories: Standardizing Developer Documentation](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
-- [Best Practice for Remote Team Code Review Comments.](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [How to Create a Remote Team Documentation Sprint: Fixing.](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
+- [How to Create Hybrid Work Feedback Loop Collecting Employee](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
+- [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
+- [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

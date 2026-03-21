@@ -3,6 +3,7 @@ layout: default
 title: "eSIM vs Local SIM Card for Digital Nomads"
 description: "A practical comparison of eSIM and local SIM cards for digital nomads. Technical analysis, setup examples, and recommendations for developers working"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /esim-vs-local-sim-card-for-digital-nomads/
 categories: [guides]
@@ -325,7 +326,6 @@ This is normal—eSIM profile switching takes 30-90 seconds before data reconnec
 - **Total annual**: $175
 
 For most digital nomads, annual connectivity costs range $80-$200 depending on movement patterns. The hybrid dual-SIM approach averages $120-150/year.
-
 
 
 ## Related Articles

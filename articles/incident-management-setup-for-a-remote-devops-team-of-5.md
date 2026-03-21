@@ -3,6 +3,7 @@ layout: default
 title: "Incident Management Setup for a Remote DevOps Team of 5"
 description: "When your five-person DevOps team is distributed across time zones, incident response becomes significantly harder. Without clear protocols, a production issue"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /incident-management-setup-for-a-remote-devops-team-of-5/
 categories: [guides]
@@ -202,8 +203,6 @@ Start by defining your severity levels and documenting them. Build runbooks for 
 With five team members, you have enough scale to provide good coverage without the complexity of larger on-call rotations. The key is consistency: follow your defined processes, update your runbooks after each incident, and continuously improve.
 
 The goal is not eliminating incidents—they will happen. The goal is responding to them calmly, efficiently, and learning from each one.
-
-
 
 
 ## Related Articles

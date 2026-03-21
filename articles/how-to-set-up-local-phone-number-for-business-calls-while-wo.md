@@ -3,6 +3,7 @@ layout: default
 title: "Install Twilio CLI"
 description: "A practical guide for developers and remote workers on setting up local business phone numbers while working internationally, including VoIP solutions"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-local-phone-number-for-business-calls-while-wo/
 reviewed: true
@@ -61,10 +62,10 @@ Once you find a number, purchase it through the dashboard or CLI, then configure
 // TwiML webhook response example (Express.js)
 app.post('/voice', (req, res) => {
   const twiml = new VoiceResponse();
-  
+
   twiml.say({ voice: 'alice' }, 'Thank you for calling. Please hold while we connect you.');
   twiml.dial().number('+1234567890'); // Forward to your actual number
-  
+
   res.type('text/xml');
   res.send(twiml.toString());
 });
@@ -124,14 +125,14 @@ app = Flask(__name__)
 @app.route('/forward-call', methods=['POST'])
 def forward_call():
     target_number = os.environ.get('FORWARD_TO')
-    
+
     twiml = f'''<?xml version="1.0" encoding="UTF-8"?>
     <Response>
         <Dial callerId="{request.form.get('Caller')}">
             {target_number}
         </Dial>
     </Response>'''
-    
+
     return Response(twiml, mimetype='text/xml')
 ```
 
@@ -145,13 +146,13 @@ When your business operates in a different time zone than your physical location
 app.post('/business-hours', (req, res) => {
   const now = new Date();
   // Assume US Eastern Time
-  const easternTime = now.toLocaleString('en-US', { 
-    timeZone: 'America/New_York' 
+  const easternTime = now.toLocaleString('en-US', {
+    timeZone: 'America/New_York'
   });
   const hour = new Date(easternTime).getHours();
-  
+
   const twiml = new VoiceResponse();
-  
+
   if (hour >= 9 && hour < 17) {
     // Business hours - ring normally
     twiml.dial().number('+12025551234');
@@ -160,7 +161,7 @@ app.post('/business-hours', (req, res) => {
     twiml.say('Our business hours have ended. Please leave a message.');
     twiml.record({ action: '/voicemail' });
   }
-  
+
   res.type('text/xml');
   res.send(twiml.toString());
 });
@@ -210,7 +211,6 @@ def handle_voice():
     # Your call routing logic
     pass
 ```
-
 
 
 ## Related Articles

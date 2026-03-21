@@ -3,6 +3,7 @@ layout: default
 title: "Example Linear API query for OKR progress"
 description: "Setting up an effective OKR (Objectives and Key Results) tracking system for distributed engineering teams requires more than adopting a tool. You need clear"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-okr-tracking-system-for-distributed-engineerin/
 categories: [guides, workflows]
@@ -96,7 +97,7 @@ const postOKRUpdate = async (channel, progress) => {
       ]
     }
   ];
-  
+
   await slackClient.chat.postMessage({ channel, blocks });
 };
 ```
@@ -178,7 +179,7 @@ jobs:
         run: |
           LABELS=${{ github.event.pull_request.labels }}
           echo "okr_labels=$(echo $LABELS | grep -o 'OKR-[A-Z0-9]*' | tr '\n' ',')" >> $GITHUB_OUTPUT
-      
+
       - name: Update OKR dashboard
         if: steps.extract.outputs.okr_labels
         run: |
@@ -213,8 +214,6 @@ If your teams are spending hours weekly on OKR administration, your system needs
 Start with the simplest tracking that provides adequate visibility, then add automation as you identify friction points. The best OKR system for distributed engineering teams is the one that fades into the background while keeping everyone aligned.
 
 ---
-
-
 
 
 ## Related Articles

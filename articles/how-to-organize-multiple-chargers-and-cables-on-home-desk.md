@@ -3,6 +3,7 @@ layout: default
 title: "How to Organize Multiple Chargers and Cables on Home Desk"
 description: "Every developer knows the struggle: a desk cluttered with charging bricks, tangled USB-C cables, power strips hidden behind monitors, and that one cable that"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-organize-multiple-chargers-and-cables-on-home-desk/
 categories: [guides]
@@ -192,11 +193,11 @@ class USBCPowerManager:
             'port2': {'device': 'phone', 'max_watts': 20},
             'port3': {'device': 'tablet', 'max_watts': 45},
         }
-    
+
     def allocate_power(self, device_priority):
         """Allocate power based on device priority."""
         total_budget = 200  # watts
-        
+
         for device in device_priority:
             if total_budget >= self.ports[device]['max_watts']:
                 self.set_power(device, self.ports[device]['max_watts'])
@@ -225,7 +226,6 @@ spares:
   - Ethernet cable Cat6 3m (2x)
   - Power adapter 65W USB-C (1x)
 ```
-
 
 
 ## Related Articles

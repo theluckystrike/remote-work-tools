@@ -3,6 +3,7 @@ layout: default
 title: "infrastructure-pods.yaml"
 description: "A practical guide to coordinating capacity planning for remote SRE teams working across infrastructure pods. Includes code examples and actionable"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-coordinate-remote-sre-team-capacity-planning-across-i/
 categories: [guides]
@@ -46,7 +47,7 @@ pods:
       - cisco
       - bgp
       - terraform
-    
+
   - name: data-pod
     services: [postgresql, redis, elasticsearch]
     tier: 1
@@ -56,7 +57,7 @@ pods:
       - databases
       - replication
       - backup-strategies
-    
+
   - name: compute-pod
     services: [kubernetes, vmware, serverless]
     tier: 1
@@ -92,7 +93,7 @@ Use a lightweight tracking approach:
 | engineer1 | 40 | 8 | 24 | 8 |
 | engineer2 | 32 | 8 | 20 | 4 |
 
-## Pod: data-pod  
+## Pod: data-pod
 | Engineer | Total Hours | On-Call | Projects | Buffer |
 |----------|-------------|---------|----------|--------|
 | engineer3 | 40 | 12 | 20 | 8 |
@@ -120,13 +121,13 @@ coverage_policies:
     secondary: engineer2
     escalation: sre-lead
     max_oncall_hours_per_week: 16
-    
+
   - pod: data-pod
     primary: engineer3
     secondary: engineer4  # cross-pod backup
     escalation: sre-lead
     max_oncall_hours_per_week: 12
-    
+
   - pod: compute-pod
     primary: engineer4
     secondary: engineer5
@@ -265,13 +266,12 @@ Capacity problems rarely resolve themselves. When engineers feel overworked, the
 **Skipping async coordination**. Relying entirely on synchronous meetings wastes available time and excludes remote team members in different zones.
 
 
-
 ## Related Articles
 
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 - [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -100,9 +100,9 @@ import json
 
 def generate_invoice(client_data, items, invoice_num):
     date = datetime.date.today()
-    
+
     invoice = f"""# INVOICE
-    
+
 **Invoice Number:** {invoice_num}
 **Date:** {date}
 **Due Date:** {date + datetime.timedelta(days=30)}
@@ -118,10 +118,10 @@ def generate_invoice(client_data, items, invoice_num):
 | Description | Quantity | Rate | Amount |
 |-------------|-----------|------|--------|
 """
-    
+
     for item in items:
         invoice += f"| {item['desc']} | {item['qty']} | ${item['rate']} | ${item['qty'] * item['rate']} |\n"
-    
+
     total = sum(item['qty'] * item['rate'] for item in items)
     invoice += f"""
 ---
@@ -129,7 +129,7 @@ def generate_invoice(client_data, items, invoice_num):
 
 Payment due within 30 days.
 """
-    
+
     return invoice
 
 # Example usage
@@ -183,12 +183,13 @@ Keep communications professional but firm. Consistent follow-up on overdue invoi
 Consistent invoice numbering, organized client records, and a centralized payment tracker are the foundation. Clarify payment terms before starting work, and consult a tax professional about your specific situation—tax rules vary significantly based on your home country, client locations, and the nature of your services.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
-- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
-- [Notion Setup for Solo Freelancer Managing 5 Clients: A Practical Guide](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
+- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
+- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
+- [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

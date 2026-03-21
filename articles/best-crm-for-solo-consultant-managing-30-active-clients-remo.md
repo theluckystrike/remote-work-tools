@@ -85,10 +85,10 @@ from pipedrive import Pipedrive
 def sync_deals_to_timelog():
     pd = Pipedrive('YOUR_API_TOKEN')
     deals = pd.deals.get_all({'status': 'open'})
-    
+
     for deal in deals:
         # Create corresponding project in time tracker
-        requests.post('https://api.timelog.example/v1/projects', 
+        requests.post('https://api.timelog.example/v1/projects',
             json={
                 'name': deal['title'],
                 'client_id': deal['person_id'],
@@ -190,7 +190,7 @@ Sync meetings automatically. When you book a call, it appears in your CRM. When 
 // Google Calendar webhook processing
 app.post('/webhook/calendar', async (req, res) => {
   const event = req.body;
-  
+
   if (event.summary.includes('Client:')) {
     const clientName = event.summary.replace('Client: ', '');
     await crmClient.updateContact({
@@ -228,11 +228,14 @@ The best CRM for solo consultant managing 30 active clients remotely is whicheve
 
 ---
 
-## Related Reading
 
-- [Notion Setup for Solo Freelancer Managing 5 Clients](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
-- [Best Time Tracking Tool for Solo Remote Contractor](/remote-work-tools/best-time-tracking-tool-for-solo-remote-contractor/)
-- [Best Invoicing Workflow for Solo Developer](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
+## Related Articles
+
+- [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)
+- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
+- [Industry match (40% weight)](/remote-work-tools/remote-sales-team-crm-workflow-optimization-for-distributed-/)
+- [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
+- [Avoid Miscommunication in Async Written Messages for Remote](/remote-work-tools/how-to-avoid-miscommunication-in-async-written-messages-remo/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

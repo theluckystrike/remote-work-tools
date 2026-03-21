@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up a Remote Team Wiki from Scratch"
 description: "Step-by-step guide to building a remote team wiki. Compares Notion, Confluence, GitBook, and Outline with structure templates and permission models"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-a-remote-team-wiki-from-scratch/
 categories: [guides]
@@ -453,7 +454,6 @@ A: The service is starting but hasn't become healthy yet. Wait 30 seconds and re
 **Q: How do I know if it's safe to deploy?**
 A: Check the deployment checklist dashboard (link) showing latest test results and deployment history.
 
-## Related: Why We Use Blue-Green Deployments
 See decision #47 for the reasoning behind this approach.
 ```
 
@@ -577,7 +577,6 @@ A wiki works better when connected to other tools.
 - Link tickets to wiki docs
 - "See also" links from tickets to related processes
 - Deployment tickets link to deployment guide
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Channel Sprawl Management Strategy When Slack Gr"
 description: "A practical guide for developers and power users to manage Slack channel sprawl in remote teams with 200+ channels. Includes automation scripts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-channel-sprawl-management-strategy-when-slack-gr/
 categories: [guides]
@@ -74,12 +75,12 @@ Manual cleanup doesn't scale. Build automation to handle routine governance task
 // Check for inactive channels (no messages in 60 days)
 async function findInactiveChannels(client, workspaceId) {
   const sixtyDaysAgo = Date.now() / 1000 - (60 * 24 * 60 * 60);
-  
+
   const result = await client.conversations.list({
     types: "public_channel,private_channel",
     limit: 200
   });
-  
+
   return result.channels.filter(async (channel) => {
     const history = await client.conversations.history({
       channel: channel.id,
@@ -176,8 +177,6 @@ After initial cleanup, prevent regression with these habits:
 If Slack becomes unmanageable despite these strategies, evaluate alternatives. Some teams split into multiple workspaces by department. Others move persistent documentation to wikis and use Slack only for real-time communication. The goal is effective communication, not Slack perfection.
 
 ---
-
-
 
 
 ## Related Articles

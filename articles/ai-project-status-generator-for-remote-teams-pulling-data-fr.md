@@ -66,17 +66,17 @@ class SlackConnector:
     def __init__(self, token: str):
         self.token = token
         self.base_url = "https://slack.com/api"
-    
+
     def get_channel_messages(self, channel_id: str, days: int = 7) -> ProjectData:
         headers = {"Authorization": f"Bearer {self.token}"}
         oldest = (datetime.now() - timedelta(days=days)).timestamp()
-        
+
         response = requests.get(
             f"{self.base_url}/conversations.history",
             headers=headers,
             params={"channel": channel_id, "oldest": oldest}
         )
-        
+
         messages = response.json().get("messages", [])
         return ProjectData(source="slack", items=messages, timestamp=datetime.now())
 
@@ -84,20 +84,20 @@ class JiraConnector:
     def __init__(self, domain: str, email: str, api_token: str):
         self.domain = domain
         self.auth = (email, api_token)
-    
+
     def get_sprint_issues(self, board_id: str) -> ProjectData:
         response = requests.get(
             f"https://{self.domain}/rest/agile/1.0/board/{board_id}/sprint",
             auth=self.auth
         )
         sprint = response.json()["values"][-1]  # Current sprint
-        
+
         issues_response = requests.get(
             f"https://{self.domain}/rest/agile/1.0/sprint/{sprint['id']}/issue",
             auth=self.auth,
             params={"maxResults": 50}
         )
-        
+
         issues = issues_response.json().get("issues", [])
         return ProjectData(source="jira", items=issues, timestamp=datetime.now())
 
@@ -105,16 +105,16 @@ class GitHubConnector:
     def __init__(self, token: str):
         self.token = token
         self.headers = {"Authorization": f"token {token}"}
-    
+
     def get_recent_prs(self, owner: str, repo: str, days: int = 7) -> ProjectData:
         since = (datetime.now() - timedelta(days=days)).isoformat()
-        
+
         response = requests.get(
             f"https://api.github.com/repos/{owner}/{repo}/pulls",
             headers=self.headers,
             params={"state": "all", "sort": "updated", "direction": "desc"}
         )
-        
+
         prs = [pr for pr in response.json() if pr["updated_at"] >= since]
         return ProjectData(source="github", items=prs, timestamp=datetime.now())
 ```
@@ -147,14 +147,14 @@ class JiraNormalizer:
         for issue in data.items:
             status = issue["fields"]["status"]["name"]
             status_counts[status] = status_counts.get(status, 0) + 1
-        
+
         return {
             "type": "project_tracking",
             "summary": f"{len(data.items)} issues in current sprint",
             "status_breakdown": status_counts,
             "completion_percentage": self._calculate_completion(status_counts)
         }
-    
+
     def _calculate_completion(self, counts: Dict[str, int]) -> float:
         total = sum(counts.values())
         done = counts.get("Done", 0) + counts.get("Closed", 0)
@@ -164,7 +164,7 @@ class GitHubNormalizer:
     def normalize(self, data: ProjectData) -> Dict[str, Any]:
         open_prs = [pr for pr in data.items if pr["state"] == "open"]
         merged_prs = [pr for pr in data.items if pr.get("merged_at")]
-        
+
         return {
             "type": "code_development",
             "summary": f"{len(data.items)} PRs updated, {len(merged_prs)} merged",
@@ -187,19 +187,19 @@ import openai
 class StatusReportGenerator:
     def __init__(self, api_key: str):
         self.client = openai.OpenAI(api_key=api_key)
-    
-    def generate_report(self, normalized_data: List[Dict[str, Any]], 
+
+    def generate_report(self, normalized_data: List[Dict[str, Any]],
                        team_name: str, project_name: str) -> str:
         context = self._build_context(normalized_data, team_name, project_name)
-        
+
         response = self.client.chat.completions.create(
             model="gpt-4",
             messages=[
                 {
                     "role": "system",
-                    "content": """You are a project manager generating a weekly 
-                    status update. Summarize the team's progress in a concise, 
-                    actionable format. Highlight blockers, completed work, 
+                    "content": """You are a project manager generating a weekly
+                    status update. Summarize the team's progress in a concise,
+                    actionable format. Highlight blockers, completed work,
                     and upcoming priorities. Use a professional but friendly tone."""
                 },
                 {
@@ -210,27 +210,27 @@ class StatusReportGenerator:
             temperature=0.7,
             max_tokens=800
         )
-        
+
         return response.choices[0].message.content
-    
-    def _build_context(self, data: List[Dict[str, Any]], 
+
+    def _build_context(self, data: List[Dict[str, Any]],
                       team: str, project: str) -> str:
         sections = [f"## {project} Status Report - {team}\n"]
-        
+
         for item in data:
             sections.append(f"\n### {item['type'].replace('_', ' ').title()}")
             sections.append(item["summary"])
-            
+
             if "status_breakdown" in item:
                 sections.append("Status breakdown:")
                 for status, count in item["status_breakdown"].items():
                     sections.append(f"  - {status}: {count}")
-            
+
             if "key_prs" in item:
                 sections.append("Recent PRs:")
                 for pr in item["key_prs"]:
                     sections.append(f"  - {pr['title']}")
-        
+
         return "\n".join(sections)
 ```
 
@@ -248,21 +248,21 @@ def generate_weekly_status():
         os.environ["JIRA_TOKEN"]
     )
     github = GitHubConnector(os.environ["GITHUB_TOKEN"])
-    
+
     # Fetch data from all sources
     data_sources = [
         slack.get_channel_messages(os.environ["SLACK_CHANNEL"]),
         jira.get_sprint_issues(os.environ["JIRA_BOARD"]),
         github.get_recent_prs(os.environ["REPO_OWNER"], os.environ["REPO_NAME"])
     ]
-    
+
     # Normalize data
     normalizers = [SlackNormalizer(), JiraNormalizer(), GitHubNormalizer()]
     normalized = [
-        normalizers[i].normalize(data_sources[i]) 
+        normalizers[i].normalize(data_sources[i])
         for i in range(len(data_sources))
     ]
-    
+
     # Generate report
     generator = StatusReportGenerator(os.environ["OPENAI_API_KEY"])
     report = generator.generate_report(
@@ -270,7 +270,7 @@ def generate_weekly_status():
         team_name="Engineering Team",
         project_name="Platform Redesign"
     )
-    
+
     # Output the report
     print(report)
     return report
@@ -465,9 +465,14 @@ class ReportDelivery:
 
 Building an AI project status generator eliminates the manual drudgery of synthesizing updates across disparate tools. Your team gets consistent, data-driven status reports without anyone spending hours gathering information.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)
+- [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Best Format for Remote Team Weekly Written Status Update](/remote-work-tools/best-format-for-remote-team-weekly-written-status-update-rep/)
+- [Example celebration message generator (Python)](/remote-work-tools/how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -272,8 +272,6 @@ Desk booking software works best when embedded in broader hybrid work policy:
 
 Policy clarity prevents the confusion that kills adoption.
 
-## Related Reading
-
 ## Implementation Timeline and Resource Planning
 
 Rolling out hot desking software typically follows this 8-week timeline:
@@ -358,12 +356,13 @@ Robin, Envoy, and OfficeSpace all scale smoothly. Skedda and Teem become less id
 Consider multi-location planning early. If your company might open a second office, ensure your platform can manage desk booking across locations with an unified interface.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create Hot Desking Floor Plan for Hybrid Office.](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
+- [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
 - [Hot Desk Booking Software Comparison 2026](/remote-work-tools/hot-desk-booking-software-comparison-2026/)
-- [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
+- [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Notion Database Templates for a Solo Recruiter Working Remot"
 description: "Building a personal ATS (Applicant Tracking System) with Notion databases gives solo recruiters working remotely a powerful, customizable tool without"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /notion-database-templates-for-a-solo-recruiter-working-remot/
 categories: [guides]
@@ -187,7 +188,6 @@ As your candidate volume grows, these patterns help maintain efficiency:
 Don't over-engineer your system on day one. Start with basic candidate and job tracking, then add complexity as your workflow reveals gaps. Many solo recruiters build elaborate templates they never use.
 
 Avoid storing sensitive data like salary negotiations or internal feedback in databases shared with hiring managers. Use separate private databases for confidential information.
-
 
 
 ## Related Articles

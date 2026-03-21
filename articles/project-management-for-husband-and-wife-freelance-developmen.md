@@ -3,6 +3,7 @@ layout: default
 title: "Project Management for Husband and Wife Freelance"
 description: "Practical project management strategies for husband and wife freelance development teams. Learn workflow optimization, communication patterns, and tool"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /project-management-for-husband-and-wife-freelance-developmen/
 categories: [guides]
@@ -270,10 +271,9 @@ Most successful husband-wife teams that scale either:
 3. Deliberately stay small (2-3 person team with contractors for specific projects)
 
 
-
 ## Related Articles
 
-- [Best Project Management Tool for Solo Freelance Developers 2026](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
+- [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
 - [SaaS Side Project Guide for Freelance Developers](/remote-work-tools/saas-side-project-guide-for-freelance-developers/)
 - [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
 - [Best Project Management CLI Tools 2026](/remote-work-tools/best-project-management-cli-tools-2026/)

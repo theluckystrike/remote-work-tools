@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Remote Team Org Directory with Timezone and"
 description: "A practical guide to team org directory tools with timezone and availability tracking for distributed software teams. Includes implementation patterns"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-org-directory-with-timezone-and-av/
 categories: [guides]
@@ -157,7 +158,7 @@ const slack = new WebClient(process.env.SLACK_TOKEN);
 async function buildTeamAvailabilityMap() {
   // Get all team members
   const users = await slack.users.list();
-  
+
   // Get custom profile fields for timezone
   const teamInfo = await slack.team.info();
   const profileFields = teamInfo.team.customizableProfiles[0].fields;
@@ -171,7 +172,7 @@ async function buildTeamAvailabilityMap() {
       .map(async (member) => {
         const profile = member.profile;
         const customFields = profile.customProperties || {};
-        
+
         return {
           id: member.id,
           name: profile.real_name,
@@ -195,19 +196,19 @@ Once you have timezone data, you can calculate meeting windows where all partici
 ```javascript
 function findOverlappingHours(timezones, workingHours = { start: 9, end: 17 }) {
   const results = [];
-  
+
   // Check each hour of the day in UTC
   for (let utcHour = 0; utcHour < 24; utcHour++) {
     const availableIn = [];
-    
+
     for (const { name, timezone } of timezones) {
       const localHour = utcToLocalHour(utcHour, timezone);
-      
+
       if (localHour >= workingHours.start && localHour < workingHours.end) {
         availableIn.push({ name, localHour });
       }
     }
-    
+
     if (availableIn.length >= 2) {
       results.push({
         utcHour,
@@ -215,7 +216,7 @@ function findOverlappingHours(timezones, workingHours = { start: 9, end: 17 }) {
       });
     }
   }
-  
+
   return results;
 }
 
@@ -226,10 +227,10 @@ function utcToLocalHour(utcHour, timezone) {
     hour: 'numeric',
     hour12: false
   });
-  
+
   // Create a date at the UTC hour
   const utcDate = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), utcHour));
-  
+
   // Get the local hour
   return parseInt(formatter.format(utcDate));
 }
@@ -249,8 +250,6 @@ For most distributed engineering teams, a hybrid approach works best:
 The "best" tool depends on your existing stack. Teams already using Notion should extend it. Teams on Google Workspace can use People API. Teams prioritizing Slack integration should build custom apps.
 
 What matters most is that your directory data is accessible programmatically, stays current, and integrates with where your team actually communicates.
-
-
 
 
 ## Related Articles

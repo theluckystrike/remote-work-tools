@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Tracking Remote Team Meeting Effectiveness"
 description: "Track meeting effectiveness using four core metrics: meeting frequency vs. output ratio, time-to-outcome, participant engagement, and agenda adherence. Use"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-tracking-remote-team-meeting-effectiveness-and/
 categories: [guides]
@@ -71,7 +72,7 @@ def analyze_meeting_patterns(events):
     total_meetings = len(events)
     total_hours = sum(e.get('duration_hours', 0) for e in events)
     recurring_count = sum(1 for e in events if e.get('recurring'))
-    
+
     return {
         'total_meetings': total_meetings,
         'total_hours': total_hours,
@@ -83,10 +84,10 @@ def generate_report(events):
     """Generate effectiveness report"""
     patterns = analyze_meeting_patterns(events)
     total_cost = sum(
-        calculate_meeting_cost(e['duration_hours'], e['attendee_count']) 
+        calculate_meeting_cost(e['duration_hours'], e['attendee_count'])
         for e in events
     )
-    
+
     print(f"Meeting Report - Last {REPORT_DAYS} Days")
     print(f"=" * 40)
     print(f"Total Meetings: {patterns['total_meetings']}")
@@ -180,7 +181,6 @@ Metrics alone won't fix meeting culture. Use data to start conversations:
 - "We have 8 standing meetings. Do we still need all of them?"
 
 These conversations, grounded in data, create buy-in for changes that would otherwise face resistance.
-
 
 
 ## Related Articles

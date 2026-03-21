@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Monthly Virtual Game Night for Remote Developers"
 description: "A practical guide to organizing and running monthly virtual game nights for remote development teams. Includes scheduling tips, game recommendations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-monthly-virtual-game-night-for-remote-developers/
 categories: [guides]
@@ -228,12 +229,11 @@ The best game nights are ones that become traditions — things your team mentio
 ---
 
 
-
 ## Related Articles
 
 - [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)
 - [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
-- [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
+- [Virtual Team Building Activities That Developers Actually — Enjoy](/remote-work-tools/virtual-team-building-activities-that-developers-actually-enjoy/)
 - [Virtual Team Events Ideas for Developers in 2026](/remote-work-tools/virtual-team-events-ideas-for-developers-2026/)
 - [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
 

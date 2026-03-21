@@ -97,7 +97,7 @@ from datetime import datetime, timedelta
 def create_jira_epic_with_timeline(epic_name, sprint_start, sprint_count):
     base_url = "https://your-domain.atlassian.net/rest/api/3"
     headers = {"Authorization": f"Bearer {JIRA_TOKEN}"}
-    
+
     # Create epic
     epic_response = requests.post(
         f"{base_url}/epic",
@@ -105,7 +105,7 @@ def create_jira_epic_with_timeline(epic_name, sprint_start, sprint_count):
         headers=headers
     )
     epic_id = epic_response.json()["id"]
-    
+
     # Create child stories with timeline
     for i in range(sprint_count):
         story_data = {
@@ -118,7 +118,7 @@ def create_jira_epic_with_timeline(epic_name, sprint_start, sprint_count):
             }
         }
         requests.post(f"{base_url}/issue", json=story_data, headers=headers)
-    
+
     return epic_id
 ```
 
@@ -143,7 +143,7 @@ def schedule_release_milestones(project_id, release_date):
         ("Release Prep", -3),
         ("Production Deploy", 0)
     ]
-    
+
     for name, days_offset in milestones:
         due_date = release_date + timedelta(days=days_offset)
         task = client.tasks.create_task({
@@ -198,10 +198,13 @@ The best Gantt tool integrates naturally into your existing workflow while provi
 
 ---
 
-## Related Reading
 
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-- [How to Manage Sprints with Remote Team](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
-- [Notion vs Clickup for Engineering Teams](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+## Related Articles
+
+- [Linear vs Jira for Software Development: A Practical](/remote-work-tools/linear-vs-jira-for-software-development/)
+- [Office Hoteling Software for Hybrid Teams 2026](/remote-work-tools/office-hoteling-software-for-hybrid-teams-2026/)
+- [Notion vs ClickUp for Engineering Teams: A Practical](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+- [Return to Office Tools for Hybrid Teams: A Practical Guide](/remote-work-tools/return-to-office-tools-for-hybrid-teams/)
+- [Remote Team Org Chart Restructuring Guide](/remote-work-tools/remote-team-org-chart-restructuring-guide-when-scaling-from-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

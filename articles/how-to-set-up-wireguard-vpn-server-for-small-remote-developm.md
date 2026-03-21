@@ -3,6 +3,7 @@ layout: default
 title: "Ubuntu and Debian"
 description: "A practical guide to setting up WireGuard VPN for small remote development teams. Includes server configuration, client setup, and production-ready"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-wireguard-vpn-server-for-small-remote-developm/
 categories: [guides]
@@ -200,7 +201,6 @@ Latency matters more than raw throughput for development work. WireGuard maintai
 While WireGuard provides excellent transport security, remember that anyone with a valid configuration file can access your internal network. Treat these files with the same sensitivity as SSH private keys. Store them in a password manager, never commit them to version control, and regenerate keys immediately if a machine is lost or compromised.
 
 For teams with stricter requirements, consider combining WireGuard with additional authentication layers. Running services behind an authentication proxy or requiring VPN users to authenticate to internal applications adds defense in depth without complicating the VPN setup itself.
-
 
 
 ## Related Articles

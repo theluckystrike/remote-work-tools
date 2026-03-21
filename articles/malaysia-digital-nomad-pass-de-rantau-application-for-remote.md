@@ -3,6 +3,7 @@ layout: default
 title: "Malaysia Digital Nomad Pass DE Rantau Application for"
 description: "Malaysia Digital Nomad Pass DE Rantau Application for. — practical guide for remote teams and distributed workers with tools, tips, and workflows for 2026"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /malaysia-digital-nomad-pass-de-rantau-application-for-remote/
 categories: [guides]
@@ -321,7 +322,6 @@ Malaysia offers excellent value for remote workers. A comfortable lifestyle in c
 Coworking spaces in major Malaysian cities typically cost between USD 200 and USD 400 per month. Many spaces offer high-speed internet, meeting rooms, and community events that help with networking.
 
 The DE Rantau pass allows you to open a local bank account once you arrive, which simplifies managing living expenses. However, you should maintain your overseas bank accounts for receiving remote work income.
-
 
 
 ## Related Articles

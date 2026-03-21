@@ -3,6 +3,7 @@ layout: default
 title: "How to Get Recurring Clients as a Freelance Developer"
 description: "A practical guide to building steady client relationships as a freelance developer. Learn retention strategies, communication tactics, and systems that"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-recurring-clients-as-freelance-developer/
 categories: [guides]
@@ -43,7 +44,7 @@ class DataPipeline:
             backoff_factor=2,
             exceptions=(ConnectionError, TimeoutError)
         )
-    
+
     def process(self, data_source: DataSource) -> None:
         """Process data with proper error handling and logging"""
         try:
@@ -292,7 +293,6 @@ Track these metrics to identify which relationships are most sustainable:
 - **Growth potential:** Is this client likely to increase spending over time?
 
 Clients that score well on these metrics deserve your best attention and proactive engagement. Clients that score poorly may not be worth retaining despite current revenue.
-
 
 
 ## Related Articles

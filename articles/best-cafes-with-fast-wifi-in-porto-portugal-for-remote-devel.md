@@ -310,11 +310,13 @@ If you're doing something mission-critical (important deadline, big presentation
 
 4. **Library**: Biblioteca Almeida Garrett (historic public library) offers free WiFi and is very quiet. Good fallback option.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
-- [Best Bug Tracking Tools for Remote QA Teams: A Developer's Guide](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)
+## Related Articles
+
+- [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
+- [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
+- [Best Neighborhoods in Lisbon for Remote Workers with Fast](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
+- [How to Register as Self-Employed Remote Worker in Portugal](/remote-work-tools/how-to-register-as-self-employed-remote-worker-in-portugal-f/)
+- [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

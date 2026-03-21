@@ -48,7 +48,7 @@ AdminSDK: {
     domainWhitelist: ["yourfirm.com"],
     sharingCategories: ["drive_docs", "drive_anyone"]
   },
-  
+
   # Enable audit logging
   audit: {
     driveLog: true,
@@ -102,19 +102,19 @@ meeting_security:
   # Require authentication to join
   require_authentication: true
   authenticated_domains: ["yourfirm.com"]
-  
+
   # Enable waiting room for client meetings
   waiting_room: true
-  
+
   # Record meetings locally, not cloud
   recording:
     local_recording: true
     cloud_recording: false  # Avoids third-party storage
-  
+
   # Prevent screen capture by attendees
   screen_sharing:
     host_only: true
-    
+
   # Enable end-to-end encryption for sensitive meetings
   encryption: e2e
 ```
@@ -133,9 +133,9 @@ import requests
 
 def create_client_matter(firm_id, client_data, case_details):
     """Create a new client matter in Clio"""
-    
+
     endpoint = f"https://app.clio.com/api/v4/firms/{firm_id}/matters.json"
-    
+
     payload = {
         "data": {
             "client": {
@@ -158,12 +158,12 @@ def create_client_matter(firm_id, client_data, case_details):
             ]
         }
     }
-    
+
     headers = {
         "Authorization": f"Bearer {os.environ['CLIO_ACCESS_TOKEN']}",
         "Content-Type": "application/json"
     }
-    
+
     return requests.post(endpoint, json=payload, headers=headers)
 ```
 
@@ -219,7 +219,7 @@ const notifySlack = (matter) => {
       }
     ]
   };
-  
+
   return slack.post("/chat.postMessage", message);
 };
 ```
@@ -229,13 +229,18 @@ A 10-person remote law firm needs a collaboration suite that respects legal conf
 The key is matching tools to actual workflow needs rather than accumulating platforms. Start with core communication and document tools, add practice management to tie everything together, and layer on automation as your team becomes comfortable with the stack.
 
 
-## Related Reading
-
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-
 {% endraw %}
 - [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 - [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
+
+
+## Related Articles
+
+- [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [How to Run Remote Accounting Firm with Distributed Staff](/remote-work-tools/how-to-run-remote-accounting-firm-with-distributed-staff-acr/)
+- [How to Handle Employment Law Differences for Remote Teams](/remote-work-tools/how-to-handle-employment-law-differences-for-remote-teams-ac/)
+- [Remote Legal Billing Software Comparison for Distributed](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
+- [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

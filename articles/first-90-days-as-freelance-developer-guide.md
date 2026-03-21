@@ -3,6 +3,7 @@ layout: default
 title: "First 90 Days as a Freelance Developer: A Complete Guide"
 description: "A practical roadmap for developers transitioning to freelance work. Covers legal setup, client acquisition, pricing strategies, and building"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /first-90-days-as-freelance-developer-guide/
 categories: [guides]
@@ -154,10 +155,10 @@ Create reusable components and documentation that speed up future work:
 # Project starter templates
 /templates
   /nextjs-starter
-  /express-api-scaffold  
+  /express-api-scaffold
   /react-native-basic
   /python-flask-api
-  
+
 # Common utilities
 /utility-scripts
   /logger.js
@@ -195,7 +196,6 @@ The overwhelm of freelance independence catches many developers off guard. Focus
 3. One Repeat Client: A returning client stabilizes income and reduces acquisition costs
 4. Systems Documentation: Capture processes while they're fresh
 5. Positioning Refinement: Adjust based on what clients actually value
-
 
 
 ## Related Articles

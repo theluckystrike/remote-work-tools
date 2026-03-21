@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Internal Mobility Program for Grow"
 description: "A guide for building an internal mobility program that helps remote teams grow careers, retain talent, and foster professional development across"
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: theluckystrike
 permalink: /how-to-create-remote-team-internal-mobility-program-for-grow/
 categories: [guides]
@@ -47,14 +48,14 @@ career_tracks:
       - engineering-manager
       - technical-product-manager
       - developer-advocate
-      
+
   product:
     levels: [associate-pm, pm, senior-pm, group-pm, director]
     lateral_moves:
       - engineering
       - design
       - data-science
-      
+
   operations:
     levels: [coordinator, specialist, senior-specialist, manager, director]
     lateral_moves:
@@ -234,8 +235,6 @@ An internal mobility program is more than a set of processes—it's a statement 
 For remote teams, this cultural element is especially important. The physical distance that characterizes remote work can create feelings of disconnection and invisibility. An internal mobility program counteracts these dynamics by making career development visible, supported, and achievable regardless of where someone works.
 
 Start small if needed—a pilot program in one department can demonstrate value and build momentum for broader adoption. The key is beginning the conversation about career growth and making it a structural priority rather than an afterthought.
-
-
 
 
 ## Related Articles

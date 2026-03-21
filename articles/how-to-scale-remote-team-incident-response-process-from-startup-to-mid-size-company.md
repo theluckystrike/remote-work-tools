@@ -3,6 +3,7 @@ layout: default
 title: "How to Scale Remote Team Incident Response Process From"
 description: "A practical guide for developers and power users on scaling incident response processes as your remote team grows from a startup to a mid-size"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/
 categories: [guides]
@@ -55,13 +56,13 @@ severity:
     response_time: "15 minutes"
     escalation: "All hands, CEO notified"
     examples: ["Database down", "Complete API failure", "Data loss"]
-  
+
   SEV2:
     description: "Major functionality impaired"
     response_time: "30 minutes"
     escalation: "Team lead + on-call"
     examples: ["Payment processing broken", "Search not working"]
-  
+
   SEV3:
     description: "Minor issue, workaround exists"
     response_time: "4 hours"
@@ -228,7 +229,7 @@ def escalate_if_unacknowledged(alert, timeout_minutes=15):
     """Auto-escalate if no one acknowledges the page."""
     if alert.age_minutes > timeout_minutes and not alert.acknowledged:
         alert.escalate_to_secondary()
-        
+
 def escalate_if_no_progress(alert, timeout_minutes=30):
     """Escalate if incident isn't moving toward resolution."""
     if alert.age_minutes > timeout_minutes and not alert.resolved:
@@ -266,8 +267,6 @@ Regardless of team size, these principles remain constant:
 5. Respect time zones: Design rotations that don't burden specific regions permanently
 
 Scaling incident response isn't about adding bureaucracy—it's about creating structure that lets your team respond faster and more effectively as the system complexity grows. Start with foundations at ten engineers, mature the process at twenty, and formalize at fifty. Your on-call team will thank you.
-
-
 
 
 ## Related Articles

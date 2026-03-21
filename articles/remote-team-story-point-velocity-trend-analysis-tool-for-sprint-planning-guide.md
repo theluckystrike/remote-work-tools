@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Story Point Velocity Trend Analysis Tool for"
 description: "A practical guide for remote engineering teams on implementing story point velocity trend analysis. Learn how to track, analyze, and use velocity"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/
 categories: [guides]
@@ -53,13 +54,13 @@ class VelocityCollector:
             "Authorization": f"Bearer {api_token}",
             "Content-Type": "application/json"
         }
-    
+
     def get_sprint_velocity(self, project_id, sprint_id):
         """Fetch completed story points for a specific sprint."""
         url = f"{self.base_url}/projects/{project_id}/sprints/{sprint_id}"
         response = requests.get(url, headers=self.headers)
         data = response.json()
-        
+
         return {
             "sprint_id": sprint_id,
             "completed_points": data.get("completed_points", 0),
@@ -68,16 +69,16 @@ class VelocityCollector:
             "start_date": data.get("start_date"),
             "end_date": data.get("end_date")
         }
-    
+
     def get_velocity_history(self, project_id, num_sprints=10):
         """Collect velocity data across multiple sprints."""
         sprints = self.get_project_sprints(project_id, num_sprints)
         velocity_data = []
-        
+
         for sprint in sprints:
             velocity = self.get_sprint_velocity(project_id, sprint["id"])
             velocity_data.append(velocity)
-        
+
         return velocity_data
 
 # Usage example
@@ -103,7 +104,7 @@ def init_velocity_db(db_path="velocity_data.db"):
     """Initialize local SQLite database for velocity storage."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-    
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS sprints (
             id INTEGER PRIMARY KEY,
@@ -116,7 +117,7 @@ def init_velocity_db(db_path="velocity_data.db"):
             collected_at TEXT
         )
     """)
-    
+
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS velocity_trends (
             id INTEGER PRIMARY KEY,
@@ -127,7 +128,7 @@ def init_velocity_db(db_path="velocity_data.db"):
             num_sprints_analyzed INTEGER
         )
     """)
-    
+
     conn.commit()
     return conn
 
@@ -135,8 +136,8 @@ def store_sprint_data(conn, velocity_data):
     """Store individual sprint velocity data."""
     cursor = conn.cursor()
     cursor.execute("""
-        INSERT OR REPLACE INTO sprints 
-        (sprint_id, sprint_name, completed_points, committed_points, 
+        INSERT OR REPLACE INTO sprints
+        (sprint_id, sprint_name, completed_points, committed_points,
          start_date, end_date, collected_at)
         VALUES (?, ?, ?, ?, ?, ?, ?)
     """, (
@@ -161,36 +162,36 @@ Once you have historical data, analysis becomes possible. The goal is to extract
 def analyze_velocity_trends(velocity_history, window_size=5):
     """
     Analyze velocity data to identify trends.
-    
+
     Args:
         velocity_history: List of sprint velocity dictionaries
         window_size: Number of sprints for rolling average
-    
+
     Returns:
         Dictionary with trend analysis results
     """
     if len(velocity_history) < window_size:
         return {"error": "Insufficient data for analysis"}
-    
+
     # Sort by start date
-    sorted_data = sorted(velocity_history, 
+    sorted_data = sorted(velocity_history,
                         key=lambda x: x.get("start_date", ""))
-    
+
     # Extract completed points
     completed_points = [s["completed_points"] for s in sorted_data]
-    
+
     # Calculate rolling average
     rolling_avgs = []
     for i in range(len(completed_points) - window_size + 1):
         window = completed_points[i:i + window_size]
         rolling_avgs.append(sum(window) / len(window))
-    
+
     # Determine trend direction
     if len(rolling_avgs) >= 2:
         recent_avg = rolling_avgs[-1]
         previous_avg = rolling_avgs[-2]
         change = recent_avg - previous_avg
-        
+
         if change > 2:
             trend = "increasing"
         elif change < -2:
@@ -199,12 +200,12 @@ def analyze_velocity_trends(velocity_history, window_size=5):
             trend = "stable"
     else:
         trend = "insufficient_data"
-    
+
     # Calculate variance (standard deviation)
     import statistics
     recent_window = completed_points[-window_size:]
     variance = statistics.stdev(recent_window) if len(recent_window) > 1 else 0
-    
+
     return {
         "rolling_average_velocity": round(rolling_avgs[-1], 2),
         "velocity_variance": round(variance, 2),
@@ -233,36 +234,36 @@ from datetime import datetime
 
 def plot_velocity_trends(velocity_history, output_path="velocity_chart.png"):
     """Generate velocity trend visualization."""
-    sorted_data = sorted(velocity_history, 
+    sorted_data = sorted(velocity_history,
                         key=lambda x: x.get("start_date", ""))
-    
+
     sprints = [s["sprint_name"] for s in sorted_data]
     completed = [s["completed_points"] for s in sorted_data]
     committed = [s["committed_points"] for s in sorted_data]
-    
+
     x = range(len(sprints))
-    
+
     plt.figure(figsize=(12, 6))
     plt.plot(x, completed, marker='o', label='Completed', linewidth=2)
     plt.plot(x, committed, marker='x', label='Committed', linestyle='--')
-    
+
     # Add trend line
     if len(completed) >= 3:
         z = __import__('numpy').polyfit(x, completed, 1)
         p = __import__('numpy').poly1d(z)
         plt.plot(x, p(x), "r--", alpha=0.5, label='Trend')
-    
+
     plt.xlabel('Sprint')
     plt.ylabel('Story Points')
     plt.title('Team Velocity Trend Analysis')
     plt.legend()
     plt.grid(True, alpha=0.3)
     plt.xticks(x, sprints, rotation=45, ha='right')
-    
+
     plt.tight_layout()
     plt.savefig(output_path)
     plt.close()
-    
+
     return output_path
 ```
 
@@ -278,21 +279,21 @@ Based on your velocity analysis, calculate appropriate sprint capacity:
 def calculate_sprint_capacity(velocity_analysis, confidence_factor=0.85):
     """
     Calculate recommended sprint capacity based on velocity trends.
-    
+
     Args:
         velocity_analysis: Results from analyze_velocity_trends()
         confidence_factor: Adjustment for confidence level (0-1)
-    
+
     Returns:
         Dictionary with capacity recommendations
     """
     rolling_avg = velocity_analysis["rolling_average_velocity"]
     variance = velocity_analysis["velocity_variance"]
     trend = velocity_analysis["trend_direction"]
-    
+
     # Base capacity on rolling average
     base_capacity = rolling_avg * confidence_factor
-    
+
     # Adjust based on trend
     if trend == "increasing":
         adjustment = variance * 0.5  # Slight optimism for improving teams
@@ -300,9 +301,9 @@ def calculate_sprint_capacity(velocity_analysis, confidence_factor=0.85):
         adjustment = -variance * 0.5  # Conservative for struggling teams
     else:
         adjustment = 0
-    
+
     recommended = round(base_capacity + adjustment)
-    
+
     return {
         "conservative_capacity": round(rolling_avg * 0.80),
         "recommended_capacity": recommended,
@@ -324,22 +325,22 @@ def generate_weekly_velocity_report(velocity_history, recipients):
     """Generate and optionally send weekly velocity report."""
     analysis = analyze_velocity_trends(velocity_history)
     capacity = calculate_sprint_capacity(analysis)
-    
+
     report = f"""
     Weekly Velocity Report
     ======================
     Team Velocity Trend: {analysis['trend_direction'].upper()}
     Rolling Average: {analysis['rolling_average_velocity']} points
     Velocity Variance: {analysis['velocity_variance']}
-    
+
     Sprint Capacity Recommendations:
     - Conservative: {capacity['conservative_capacity']} points
     - Recommended: {capacity['recommended_capacity']} points
     - Optimistic: {capacity['optimistic_capacity']} points
-    
+
     Next Sprint Planning: Use {capacity['recommended_capacity']} as baseline
     """
-    
+
     return report
 ```
 
@@ -356,7 +357,6 @@ As you implement velocity tracking, keep these considerations in mind:
 **Use velocity for forecasting, not promises.** Velocity is a planning tool, not a performance metric. Avoid using velocity to pressure team members—it should inform capacity, not evaluate individuals.
 
 **Review and adjust regularly.** Reassess your velocity calculation method quarterly. What worked for a new team may not suit a mature team, and vice versa.
-
 
 
 ## Related Articles

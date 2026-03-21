@@ -3,6 +3,7 @@ layout: default
 title: "Best Quick Exercise Routine for Remote Parents With Only 15"
 description: "Practical 15-minute exercise routines designed for remote working parents who need to squeeze in movement between meetings. No equipment needed"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-quick-exercise-routine-for-remote-parents-with-only-15-/
 categories: [guides]
@@ -421,12 +422,14 @@ Research shows habit formation takes 66-90 days. Follow this progression:
 
 By day 90, the routine becomes automatic—scheduled movement feels as normal as scheduled meetings.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Quick Healthy Snack Prep Ideas for Remote Working.](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
-- [Remote Working Parent Daily Routine Template: Balancing.](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
-- [Remote Work Special Needs Child Accommodation Guide for.](/remote-work-tools/remote-work-special-needs-child-accommodation-guide-for-parents/)
+## Related Articles
+
+- [Quick-deploy stand criteria](/remote-work-tools/best-portable-laptop-stand-for-remote-parents-working-from-k/)
+- [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)
+- [How to Create a Morning Routine for Remote Work](/remote-work-tools/how-to-create-morning-routine-for-remote-work/)
+- [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
+- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

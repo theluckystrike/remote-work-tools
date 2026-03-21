@@ -3,6 +3,7 @@ layout: default
 title: "Greece Digital Nomad Visa Renewal Process for Remote Workers"
 description: "A practical guide to renewing your Greece digital nomad visa after the initial one-year period. Documents, timelines, and automation tips for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /greece-digital-nomad-visa-renewal-process-for-remote-workers/
 categories: [guides]
@@ -42,7 +43,7 @@ def calculate_renewal_window(visa_start_date, visa_duration_days=365):
     expiry = start + timedelta(days=visa_duration_days)
     renewal_start = expiry - timedelta(days=60)
     renewal_end = expiry - timedelta(days=30)  # Submit at least 30 days before expiry
-    
+
     return {
         "expiry_date": expiry.strftime("%Y-%m-%d"),
         "renewal_window_start": renewal_start.strftime("%Y-%m-%d"),
@@ -94,7 +95,7 @@ name: Visa Renewal Reminder
 on:
   schedule:
     - cron: '0 9 1 * *'  # Monthly on the 1st
-  
+
 jobs:
   check-visa:
     runs-on: ubuntu-latest
@@ -103,14 +104,14 @@ jobs:
         run: |
           python3 << 'EOF'
           from datetime import datetime, timedelta
-          
+
           visa_start = datetime(2025, 3, 16)
           expiry = visa_start + timedelta(days=365)
           renewal_start = expiry - timedelta(days=60)
-          
+
           now = datetime.now()
           days_until_renewal = (renewal_start - now).days
-          
+
           if 0 <= days_until_renewal <= 30:
               print(f"::notice::Renewal window opens in {days_until_renewal} days")
               print(f"Submit renewal between {renewal_start.date()} and {expiry.date() - timedelta(days=30)}")
@@ -322,7 +323,6 @@ After your fifth-year maximum digital nomad visa expires, explore these pathways
 4. **EU Visa (if eligible)**: Some countries' citizens can transition to EU mobility programs
 
 Research these options 18 months before your five-year limit. Immigration law changes frequently, and earlier planning prevents rushed decisions.
-
 
 
 ## Related Articles

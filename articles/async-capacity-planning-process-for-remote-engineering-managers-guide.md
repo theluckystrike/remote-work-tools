@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Capacity Planning Process for Remote Engineering"
+title: "Async Capacity Planning Process for Remote Engineering — Managers"
 description: "A practical guide for engineering managers on implementing async capacity planning. Learn how to forecast team capacity, balance workloads, and plan"
 date: 2026-03-18
 author: theluckystrike
@@ -83,27 +83,27 @@ Once responses come in, compile them into a summary view. Your goal is to calcul
 ```python
 def calculate_sprint_capacity(team_data, sprint_days=10):
     """Calculate available team capacity for sprint planning"""
-    
+
     total_capacity = 0
     warnings = []
-    
+
     for member in team_data:
         # Calculate available hours
         working_hours = sprint_days * 8
         available = working_hours - member['time_off'] - member['holidays']
-        
+
         # Subtract context-switching overhead
         # Engineering teams typically spend 20-30% on reviews/meetings
         net_capacity = available * (1 - member['overhead_rate'])
-        
+
         # Apply uncertainty factor based on work type
         net_capacity *= (1 - member['uncertainty_factor'])
-        
+
         if net_capacity < working_hours * 0.5:
             warnings.append(f"{member['name']}: Low capacity ({net_capacity:.1f}h)")
-        
+
         total_capacity += net_capacity
-    
+
     return {
         'total_hours': total_capacity,
         'velocity_history': team_data['avg_velocity'],
@@ -203,7 +203,7 @@ name: Sprint Capacity Calculator
 on:
   schedule:
     - cron: '0 9 * * 1'  # Every Monday
-  
+
 jobs:
   calculate:
     runs-on: ubuntu-latest
@@ -241,12 +241,14 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 
 **Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Tool for Remote Team Capacity Planning When Scaling.](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
-- [Async Capacity Planning Process for Remote Engineering.](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
-- [Async Engineering Proposal Process Using GitHub.](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+## Related Articles
+
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
+- [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
+- [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
+- [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)
+- [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

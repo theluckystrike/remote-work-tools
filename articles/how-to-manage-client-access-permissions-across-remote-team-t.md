@@ -3,6 +3,7 @@ layout: default
 title: "permission-matrix.yaml"
 description: "A practical guide for developers and power users on managing client access permissions across remote team tools. Includes code examples, permission"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-client-access-permissions-across-remote-team-t/
 categories: [guides]
@@ -39,7 +40,7 @@ roles:
       notion: "read"
       github: "read"
       drive: "reader"
-    
+
   client_contributor:
     description: "Can comment and approve deliverables"
     tools:
@@ -48,7 +49,7 @@ roles:
       notion: "can_edit"
       github: "triager"
       drive: "commenter"
-    
+
   client_admin:
     description: "Full project oversight access"
     tools:
@@ -96,7 +97,7 @@ ROLE_PERMISSIONS = {
         "slack_channel_access": "invite"
     },
     "client_contributor": {
-        "linear_team_role": "commenter", 
+        "linear_team_role": "commenter",
         "notion_permission": "edit_content",
         "slack_channel_access": "invite"
     }
@@ -106,7 +107,7 @@ def provision_client(email: str, role: str, client_name: str) -> dict:
     """Provision a new client with the specified role."""
     results = {}
     permissions = ROLE_PERMISSIONS.get(role, {})
-    
+
     # Provision in Linear
     linear_config = TOOL_CONFIGS["linear"]
     headers = {"Authorization": linear_config["api_key"]}
@@ -123,7 +124,7 @@ def provision_client(email: str, role: str, client_name: str) -> dict:
         json={"query": query, "variables": {"email": email, "role": permissions.get("linear_team_role")}},
         headers=headers
     ).json()
-    
+
     # Provision in Slack
     slack_config = TOOL_CONFIGS["slack"]
     headers = {"Authorization": f"Bearer {slack_config['token']}"}
@@ -134,7 +135,7 @@ def provision_client(email: str, role: str, client_name: str) -> dict:
         json={"channel": channel_id, "users": email},
         headers=headers
     ).json()
-    
+
     return results
 
 if __name__ == "__main__":
@@ -176,7 +177,7 @@ const notion = new Client({ auth: process.env.NOTION_TOKEN });
 async function reviewClientAccess() {
   const ninetyDaysAgo = new Date();
   ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
-  
+
   // Query audit logs for client workspace access
   const response = await notion.security.analyze({
     filter: {
@@ -184,12 +185,12 @@ async function reviewClientAccess() {
       actor: { condition: 'ends_with', value: '@client.com' }
     }
   });
-  
-  const inactiveClients = response.data.filter(user => 
-    user.last_activity === null || 
+
+  const inactiveClients = response.data.filter(user =>
+    user.last_activity === null ||
     new Date(user.last_activity) < ninetyDaysAgo
   );
-  
+
   console.log('Inactive clients requiring access review:', inactiveClients);
   return inactiveClients;
 }
@@ -203,7 +204,7 @@ Regular access audits catch permission drift before it becomes a security issue.
 #!/bin/bash
 # Quarterly access audit script
 
-echo "=== Client Access Audit Report ===" 
+echo "=== Client Access Audit Report ==="
 echo "Generated: $(date)"
 echo ""
 
@@ -216,8 +217,8 @@ echo ""
 echo "## Slack Guest Accounts"
 curl -s -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
   "https://slack.com/api/users.list" | jq -r '
-    .members[] | select(.is_workflow_bot == false) | 
-    select(.is_bot == false) | 
+    .members[] | select(.is_workflow_bot == false) |
+    select(.is_bot == false) |
     select(.enterprise_id != null) |
     "\(.name) - ID: \(.id) - Created: \(.created)"
   '
@@ -238,7 +239,6 @@ Create an internal reference document that answers these questions for each tool
 4. What is the offboarding checklist for each tool?
 
 This documentation prevents knowledge silos and ensures consistent security practices regardless of who performs onboarding.
-
 
 
 ## Related Articles

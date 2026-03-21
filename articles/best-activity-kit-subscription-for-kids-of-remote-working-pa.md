@@ -216,11 +216,12 @@ The goal is creating reliable independent play infrastructure that supports your
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best After School Activity Scheduling App for Remote.](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
-- [Best Quick Exercise Routine for Remote Parents With Only.](/remote-work-tools/best-quick-exercise-routine-for-remote-parents-with-only-15-/)
-- [Best Quick Healthy Snack Prep Ideas for Remote Working.](/remote-work-tools/best-quick-healthy-snack-prep-ideas-for-remote-working-parents/)
+- [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
+- [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
+- [Example: Using Slack webhooks for deployment notifications](/remote-work-tools/best-client-communication-tool-comparison-for-remote-develop/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

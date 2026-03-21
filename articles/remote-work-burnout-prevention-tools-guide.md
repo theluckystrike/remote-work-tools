@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Burnout Prevention Tools Guide"
 description: "Tools and strategies for preventing remote burnout: Reclaim.ai, Clockwise, DeskTime, wellness apps. Pricing, calendar blocking, workload monitoring"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-burnout-prevention-tools/
 categories: [guides]
@@ -502,5 +503,6 @@ Before buying tools, ask: Does leadership respect work-life boundaries? If no, t
 - [How to Prevent Burnout as Remote Developer](/remote-work-tools/how-to-prevent-burnout-as-remote-developer/)
 - [Scope Creep Prevention Strategies for Freelancers](/remote-work-tools/scope-creep-prevention-strategies-for-freelancers/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Workload Distribution Tool for Managers"
 description: "Balance workload across remote teams using tools that visualize capacity across projects, track time allocation by individual, and flag burnout risks before"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-workload-distribution-tool-for-managers-balancin/
 reviewed: true
@@ -45,12 +46,12 @@ class TeamMember:
         self.skill_set = skill_set
         self.current_load = 0
         self.assignments = []
-    
+
     def capacity_percentage(self):
         if self.hours_available == 0:
             return 100
         return (self.current_load / self.hours_available) * 100
-    
+
     def is_overloaded(self, threshold=80):
         return self.capacity_percentage() > threshold
 
@@ -134,9 +135,9 @@ jobs:
           # Fetch issues assigned to each team member
           # Calculate story points per person
           # Post to Slack if anyone exceeds 80% capacity
-          
+
           python scripts/capacity_matrix.py >> $GITHUB_STEP_SUMMARY
-          
+
           OVERLOADED=$(python scripts/check_overload.py)
           if [ -n "$OVERLOADED" ]; then
             echo "::warning ::Team overload detected: $OVERLOADED"
@@ -197,8 +198,6 @@ This ensures you're not assigning work to someone who can't collaborate with the
 - [ ] Review and adjust thresholds based on team feedback
 
 Balancing distributed team capacity requires intentional systems rather than hoping for organic balance. Start with visibility, automate checks, and maintain transparent communication about workload expectations.
-
-
 
 
 ## Related Articles

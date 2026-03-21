@@ -3,6 +3,7 @@ layout: default
 title: "How to Build Async Feedback Culture on a Fully Remote Team"
 description: "A practical guide to establishing async feedback culture in fully remote teams. Learn frameworks, tools, and code examples for giving and receiving"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-build-async-feedback-culture-on-a-fully-remote-team/
 categories: [guides]
@@ -48,7 +49,7 @@ Establish clear expectations for response times to prevent bottlenecks:
 # Review Response SLAs
 
 - Minor comments: Response within 24 hours
-- Major feedback: Response within 48 hours  
+- Major feedback: Response within 48 hours
 - Critical/blocking issues: Response within 4 hours (sync if delayed)
 
 All reviews should be completed within 72 hours of assignment.
@@ -140,13 +141,13 @@ Structured feedback loops ensure consistent growth conversations happen without 
 **Week of [Date]**
 
 1. What I accomplished:
-   - 
+   -
 
 2. What I'm working on:
-   - 
+   -
 
 3. Blockers or challenges:
-   - 
+   -
 
 4. Feedback I'd like:
    - [Specific question or area for input]
@@ -186,7 +187,6 @@ Track indicators that reveal whether your async feedback culture functions effec
 Async feedback cultures fail when teams neglect the human element. Purely text-based communication loses nuance—re-read messages with empathy before assuming negative intent. Avoid the trap of feedback overload by respecting category boundaries—don't send deep feedback through daily channels.
 
 Another failure mode is the feedback black hole where comments disappear into silence. Require acknowledgment on all feedback, even if it's simply "noted" or "discussed later." Feedback without response trains people to stop giving it.
-
 
 
 ## Related Articles

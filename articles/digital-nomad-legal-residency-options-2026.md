@@ -3,6 +3,7 @@ layout: default
 title: "Digital Nomad Legal Residency Options 2026: Complete Guide"
 description: "A guide to legal residency options for digital nomads in 2026. Explore visa programs, tax implications, and practical pathways for location-independent"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "theluckystrike"
 permalink: /digital-nomad-legal-residency-options-2026/
 categories: [guides]
@@ -303,7 +304,6 @@ Research current requirements as programs evolve throughout 2026.
 Portugal's D7 and Croatia's nomad visa are the strongest starting points for most remote workers in 2026. If you earn above €3,500/month and want EU access, start the D7 application process — it takes 60-90 days. If your income is closer to €2,230/month or you want two years of tax-free foreign income, Croatia is the more accessible option. Define your income level, tax priorities, and long-term goals, then match them against the programs above.
 
 ---
-
 
 
 ## Related Articles

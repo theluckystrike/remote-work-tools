@@ -3,6 +3,7 @@ layout: default
 title: "Best Task Lighting for Coding at Night Without Eye Strain"
 description: "Discover the best task lighting solutions for late-night coding sessions. Learn about color temperature, desk lamp types, monitor lights, and practical"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "theluckystrike"
 permalink: /best-task-lighting-for-coding-at-night-without-eye-strain/
 categories: [guides]
@@ -194,11 +195,12 @@ tail -10 ~/standing-log.txt
 ```
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
 - [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)
-- [How to Prevent Eye Fatigue from Multiple Monitors with.](/remote-work-tools/how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/)
+- [How to Reduce Eye Strain as a Remote Developer](/remote-work-tools/how-to-reduce-eye-strain-remote-developer/)
+- [How to Run Monthly Virtual Game Night for Remote Developers](/remote-work-tools/how-to-run-monthly-virtual-game-night-for-remote-developers/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
+- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

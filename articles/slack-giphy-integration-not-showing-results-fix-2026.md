@@ -3,6 +3,7 @@ layout: default
 title: "Slack Giphy Integration Not Showing Results Fix 2026"
 description: "Troubleshoot and fix your Slack Giphy integration when it's not showing results. Step-by-step solutions for remote teams"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /slack-giphy-integration-not-showing-results-fix-2026/
 reviewed: true
@@ -311,7 +312,6 @@ In your Giphy app configuration, you can control:
 **Random GIF Source:** The `/giphy` command (without a search term) can return a truly random GIF or a "popular now" GIF. Most teams prefer "popular now" as it reduces awkward results.
 
 ---
-
 
 
 ## Related Articles

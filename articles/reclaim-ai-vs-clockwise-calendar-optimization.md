@@ -3,6 +3,7 @@ layout: default
 title: "Reclaim AI vs Clockwise"
 description: "A technical comparison of Reclaim AI and Clockwise calendar optimization tools for developers and power users"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /reclaim-ai-vs-clockwise-calendar-optimization/
 reviewed: true
@@ -147,8 +148,8 @@ async function getOptimizedSchedule(tool) {
     singleEvents: true,
     orderBy: 'startTime'
   });
-  
-  return events.data.items.filter(e => 
+
+  return events.data.items.filter(e =>
     e.auto_scheduled || e.optimization_status
   );
 }
@@ -317,7 +318,6 @@ Week 4: Decision
 ```
 
 Given that both tools cost similar amounts ($10/month), the decision often comes down to philosophy: do you prioritize personal task management (Reclaim AI) or team meeting optimization (Clockwise)?
-
 
 
 ## Related Articles

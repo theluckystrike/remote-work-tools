@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Work Onboarding Process for New Hires"
 description: "A practical guide for developers and power users to design and implement an effective hybrid work onboarding process for new hires. Includes code"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /hybrid-work-onboarding-process-for-new-hires/
 reviewed: true
@@ -51,10 +52,10 @@ jobs:
         run: |
           curl -X POST ${{ secrets.SLACK_API }}/users.admin.invite \
             -d "email=${{ github.event.inputs.email }}"
-      
+
       - name: Create GitHub org membership
         run: gh api orgs/${{ github.repository_owner }}/membership/${{ github.event.inputs.email }}
-      
+
       - name: Add to appropriate teams
         run: |
           gh api teams/developers/members/${{ github.event.inputs.email }}
@@ -232,8 +233,6 @@ Ask specific questions about the hybrid experience:
 Use this feedback to evolve your process and ensure every new hire, regardless of where they work, has an equitable path to success.
 
 ---
-
-
 
 
 ## Related Articles

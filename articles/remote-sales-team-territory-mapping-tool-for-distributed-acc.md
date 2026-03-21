@@ -3,6 +3,7 @@ layout: default
 title: "Remote Sales Team Territory Mapping Tool for Distributed"
 description: "A practical guide to territory mapping tools for remote sales teams. Learn how to implement territory assignment, balance workloads, and optimize"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-sales-team-territory-mapping-tool-for-distributed-acc/
 categories: [guides]
@@ -84,7 +85,7 @@ Write a function that assigns new accounts to the appropriate territory and rep:
 
 function findMatchingTerritory(account, territories) {
   // Match on region and industry
-  return territories.find(t => 
+  return territories.find(t =>
     t.regions.includes(account.region) &&
     t.industryFocus.includes(account.industry)
   );
@@ -92,10 +93,10 @@ function findMatchingTerritory(account, territories) {
 
 function selectBestRep(territory, accountExecutives) {
   // Filter reps assigned to this territory
-  const eligibleReps = accountExecutives.filter(ae => 
+  const eligibleReps = accountExecutives.filter(ae =>
     ae.territories.includes(territory.id)
   );
-  
+
   // Sort by capacity (ascending) and quota attainment (descending)
   return eligibleReps
     .sort((a, b) => {
@@ -106,21 +107,21 @@ function selectBestRep(territory, accountExecutives) {
 
 function assignAccount(account, territories, accountExecutives) {
   const territory = findMatchingTerritory(account, territories);
-  
+
   if (!territory) {
     return { status: 'unassigned', reason: 'no-matching-territory' };
   }
-  
+
   const rep = selectBestRep(territory, accountExecutives);
-  
+
   if (!rep) {
     return { status: 'unassigned', reason: 'no-available-rep' };
   }
-  
+
   if (rep.capacity >= 40) {
     return { status: 'at-capacity', rep: rep.name };
   }
-  
+
   return {
     status: 'assigned',
     territory: territory.id,
@@ -156,12 +157,12 @@ function generateTerritoryMap(territories, assignments) {
     .append('svg')
     .attr('width', 800)
     .attr('height', 600);
-  
+
   // Color scale for territories
   const colorScale = d3.scaleOrdinal()
     .domain(territories.map(t => t.id))
     .range(['#3498db', '#e74c3c', '#2ecc71', '#9b59b6']);
-  
+
   // Draw territory boundaries
   territories.forEach(territory => {
     svg.append('path')
@@ -170,7 +171,7 @@ function generateTerritoryMap(territories, assignments) {
       .attr('fill', colorScale(territory.id))
       .attr('stroke', '#fff')
       .attr('stroke-width', 2);
-    
+
     // Add territory label
     svg.append('text')
       .attr('x', territory.centroid[0])
@@ -180,7 +181,7 @@ function generateTerritoryMap(territories, assignments) {
       .attr('fill', 'white')
       .attr('font-weight', 'bold');
   });
-  
+
   // Plot account locations
   assignments.forEach(assignment => {
     svg.append('circle')
@@ -206,23 +207,23 @@ function analyzeTerritoryBalance(territories, accountExecutives, assignments) {
     const territoryAssignments = assignments.filter(
       a => a.territoryId === territory.id
     );
-    
+
     const repsInTerritory = accountExecutives.filter(ae =>
       ae.territories.includes(territory.id)
     );
-    
+
     const totalValue = territoryAssignments.reduce(
       (sum, a) => sum + a.estimatedValue, 0
     );
-    
-    const accountsPerRep = repsInTerritory.length > 0 
-      ? territoryAssignments.length / repsInTerritory.length 
+
+    const accountsPerRep = repsInTerritory.length > 0
+      ? territoryAssignments.length / repsInTerritory.length
       : 0;
-    
+
     const valuePerRep = repsInTerritory.length > 0
       ? totalValue / repsInTerritory.length
       : 0;
-    
+
     return {
       territory: territory.name,
       totalAccounts: territoryAssignments.length,
@@ -233,17 +234,17 @@ function analyzeTerritoryBalance(territories, accountExecutives, assignments) {
       balanceScore: calculateBalanceScore(territory, accountsPerRep, valuePerRep)
     };
   });
-  
+
   return analysis.sort((a, b) => a.balanceScore - b.balanceScore);
 }
 
 function calculateBalanceScore(territory, accountsPerRep, valuePerRep) {
   const idealAccountsPerRep = 30;
   const idealValuePerRep = territory.annualQuota / 2;
-  
+
   const accountVariance = Math.abs(accountsPerRep - idealAccountsPerRep) / idealAccountsPerRep;
   const valueVariance = Math.abs(valuePerRep - idealValuePerRep) / idealValuePerRep;
-  
+
   return 1 - ((accountVariance + valueVariance) / 2);
 }
 ```
@@ -277,7 +278,7 @@ async function syncToHubSpot(assignments, hubspotClient) {
       territory: a.territoryId
     }
   }));
-  
+
   await hubspotClient.crm.contacts.batchUpdate({ inputs: batchUpdate });
 }
 ```
@@ -295,8 +296,6 @@ Document territory rationale. Not every account fits neatly into one territory. 
 Build dashboards that show territory health at a glance. Track metrics like coverage percentage, average deal size per territory, pipeline velocity, and rep use. Remote teams benefit from transparent metrics that everyone can access.
 
 The tools and patterns in this guide provide a foundation for territory mapping that scales with your team. Adapt the data models and algorithms to match your specific market focus and sales process.
-
-
 
 
 ## Related Articles

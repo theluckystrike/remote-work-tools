@@ -3,6 +3,7 @@ layout: default
 title: "How to Track Remote Team Velocity Metrics"
 description: "Learn practical methods for tracking remote team velocity metrics. Discover code examples, calculation approaches, and tools for measuring developer"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-track-remote-team-velocity-metrics/
 categories: [guides]
@@ -34,10 +35,10 @@ Sprint velocity measures story points completed per sprint. For remote teams, ca
 def calculate_sprint_velocity(completed_items):
     """
     Calculate velocity from completed sprint items.
-    
+
     Args:
         completed_items: List of dicts with 'story_points' and 'completed_at' keys
-    
+
     Returns:
         Total story points completed in the sprint
     """
@@ -76,7 +77,7 @@ work_items = [
     {'task': 'Frontend component', 'started': '2026-03-06', 'completed': '2026-03-10'},
 ]
 
-cycle_times = [calculate_cycle_time(item['started'], item['completed']) 
+cycle_times = [calculate_cycle_time(item['started'], item['completed'])
                for item in work_items]
 
 avg_cycle_time = sum(cycle_times) / len(cycle_times)
@@ -96,13 +97,13 @@ from datetime import datetime, timedelta
 def calculate_weekly_throughput(completed_items):
     """Group completed items by week and count."""
     weekly = Counter()
-    
+
     for item in completed_items:
         completed_date = datetime.fromisoformat(item['completed_at'])
         # Get Monday of that week
         week_start = completed_date - timedelta(days=completed_date.weekday())
         weekly[week_start.isoformat()] += 1
-    
+
     return dict(weekly)
 
 # Example throughput calculation
@@ -145,7 +146,7 @@ jobs:
           POINTS=$(jq -r '.labels[]' ${{ github.event.issue.body }} | \
                    grep -oP 'points:\s*\K\d+' || echo "0")
           echo "points=$POINTS" >> $GITHUB_OUTPUT
-      
+
       - name: Log to velocity dashboard
         run: |
           curl -X POST ${{ secrets.VELOCITY_WEBHOOK }} \
@@ -220,7 +221,6 @@ For most remote teams, a minimal setup includes:
 4. Hold a monthly review to spot trends and discuss improvements
 
 You don't need expensive tools to track velocity effectively. A spreadsheet with the formulas above works well for teams under 20 people. As you scale, graduate to dedicated analytics tools that integrate with your existing workflow.
-
 
 
 ## Related Articles

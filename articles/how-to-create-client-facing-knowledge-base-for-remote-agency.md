@@ -3,6 +3,7 @@ layout: default
 title: "How to Create a Client-Facing Knowledge Base for a Remote"
 description: "A practical guide for remote agencies to build and maintain a client-facing knowledge base. Includes platform recommendations, content organization"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-client-facing-knowledge-base-for-remote-agency/
 categories: [guides]
@@ -266,7 +267,6 @@ A knowledge base that stagnates loses value quickly—clients stop checking when
 **Enable feedback.** Add ways for clients to indicate articles helped or request clarification. This feedback loop reveals content gaps and helps you understand client mental models. When someone struggles with documentation, improve it rather than simply answering their question again.
 
 **Integrate with client workflows.** Don't force clients to visit a separate site for your knowledge base. Embed relevant articles in project management tools, reference them in regular updates, and link from invoices or proposals. The more integrated the knowledge base feels with your overall service, the more clients use it.
-
 
 
 ## Related Articles

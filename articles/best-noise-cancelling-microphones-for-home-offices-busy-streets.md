@@ -307,11 +307,15 @@ Very heavy (70+ dB)      Rode GO II            $299
 Professional setup       Shure KSM8 + interface $500+
 ```
 
-## Related Reading
-- [Best Noise-Cancelling Setup for Remote Work from Busy Bali Cafes](/remote-work-tools/guides-hub/)
-- [Best Noise Gate Microphone Settings for Blue Yeti Home Office](/remote-work-tools/guides-hub/)
-- [Audio Setup for Hybrid Conference Rooms Guide](/remote-work-tools/guides-hub/)
-
 ---
+
+
+## Related Articles
+
+- [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)
+- [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
+- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
+- [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
+- [Best Desk Booking App for Hybrid Offices Using Microsoft 365](/remote-work-tools/best-desk-booking-app-for-hybrid-offices-using-microsoft-365/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

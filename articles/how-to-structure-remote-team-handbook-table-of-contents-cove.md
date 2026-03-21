@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Handbook"
 description: "Structure your remote handbook with these 10 core sections in order: Welcome & Mission → Communication Norms → Work Schedule & Time Tracking → Performance"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-structure-remote-team-handbook-table-of-contents-cove/
 reviewed: true
@@ -210,7 +211,6 @@ Popular platforms for remote team handbooks include:
 - Slite: Great for async-first teams wanting simple documentation
 
 Choose platforms that support granular permissions, as some sections (compensation, performance reviews) require restricted access.
-
 
 
 ## Related Articles

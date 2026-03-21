@@ -3,6 +3,7 @@ layout: default
 title: "How to Track Deep Work Hours as a Developer: A Practical"
 description: "Learn practical methods to track and maximize your deep work hours as a developer. Includes code snippets, CLI tools, and automation strategies"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-track-deep-work-hours-as-developer/
 reviewed: true
@@ -186,7 +187,6 @@ This review process helps you make incremental improvements. Perhaps you discove
 Focus on a few core measurements rather than overwhelming yourself with data:
 
 Aim for a realistic weekly deep work target — typically 20-30 hours for knowledge workers. Track session length: most people can sustain deep focus for 60-90 minutes before needing a break. Monitor context-switching frequency to see how often you interrupt yourself. Log project time allocation so you know how much focused time each project actually requires.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Web Application Firewall Setup for Remote Team Internal"
 description: "A practical guide to implementing web application firewall protection for internal tools used by remote teams in 2026"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /web-application-firewall-setup-for-remote-team-internal-tool/
 categories: [guides]
@@ -124,13 +125,13 @@ Enable the OWASP Core Rule Set in your Nginx configuration:
 server {
     listen 443 ssl http2;
     server_name internal.yourcompany.com;
-    
+
     modsecurity on;
     modsecurity_rules_file /etc/modsecurity/crs/crs-setup.conf;
-    
+
     # Load OWASP rules
     include /etc/modsecurity/crs/rules/*.conf;
-    
+
     location / {
         proxy_pass http://localhost:8080;
         proxy_set_header Host $host;
@@ -185,12 +186,11 @@ Review blocked requests weekly during initial deployment. Identify patterns wher
 Implement alerting for security events. Configure notifications when WAF blocks suspicious activity, but avoid alert fatigue by focusing on high-severity blocks and unusual patterns rather than routine attacks that the WAF handles automatically.
 
 
-
 ## Related Articles
 
 - [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)
 - [Best Proposal Software for Remote Web Development Agency](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-202/)
-- [Best Proposal Software for Remote Web Development Agency](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-2026/)
+- [Best Proposal Software for Remote Web Development Agency — 2026](/remote-work-tools/best-proposal-software-for-remote-web-development-agency-2026/)
 - [Best Secure Web Gateway for Remote Teams Browsing Untrusted](/remote-work-tools/best-secure-web-gateway-for-remote-teams-browsing-untrusted-networks-2026/)
 - [Bermuda Work From Bermuda Certificate](/remote-work-tools/bermuda-work-from-bermuda-certificate-application-for-remote/)
 

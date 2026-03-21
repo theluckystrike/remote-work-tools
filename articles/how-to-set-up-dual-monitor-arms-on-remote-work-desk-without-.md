@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Dual Monitor Arms on Remote Work Desk."
 description: "A practical guide for developers and power users to install dual monitor arms using clamp-based, adhesive, and weighted solutions that won't damage your desk"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/
 categories: [guides]
@@ -86,7 +87,7 @@ const calculateMonitorLayout = (deskWidth, monitorWidth, monitorCount) => {
   const totalMonitorWidth = (monitorWidth * monitorCount) + (padding * (monitorCount - 1));
   const remainingSpace = deskWidth - totalMonitorWidth;
   const sidePadding = remainingSpace / 2;
-  
+
   return {
     totalWidth: totalMonitorWidth,
     sidePadding: sidePadding,
@@ -370,8 +371,6 @@ within 2 weeks of proper monitor positioning.
 ```
 
 ---
-
-
 
 
 ## Related Articles

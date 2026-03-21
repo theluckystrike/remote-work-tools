@@ -3,6 +3,7 @@ layout: default
 title: "Remote Employee Mental Health Support Guide 2026"
 description: "A practical guide for developers and power users to support mental health in remote work environments. Includes tools, frameworks, and code examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-employee-mental-health-support-guide-2026/
 voice-checked: true
@@ -86,7 +87,7 @@ Protect deep work time by implementing calendar automation that blocks focus ses
 function protectFocusTime() {
   const calendar = CalendarApp.getDefaultCalendar();
   const events = calendar.getEventsForDay(new Date());
-  
+
   events.forEach(event => {
     if (event.getTitle().includes('[FOCUS]') && !event.isAllDayEvent()) {
       event.addGuest('focus-protection@team.example.com');
@@ -136,14 +137,14 @@ class WorkPatternTracker:
     def __init__(self, data_file='work_patterns.json'):
         self.data_file = data_file
         self.load_data()
-    
+
     def load_data(self):
         try:
             with open(self.data_file, 'r') as f:
                 self.data = json.load(f)
         except FileNotFoundError:
             self.data = []
-    
+
     def log_session(self, start_time: datetime, end_time: datetime, task_type: str):
         duration = (end_time - start_time).total_seconds() / 3600
         self.data.append({
@@ -152,7 +153,7 @@ class WorkPatternTracker:
             'task_type': task_type
         })
         self.save_data()
-    
+
     def get_weekly_summary(self):
         week_ago = datetime.now().timestamp() - (7 * 24 * 60 * 60)
         weekly = [s for s in self.data if s.get('timestamp', 0) > week_ago]
@@ -162,7 +163,7 @@ class WorkPatternTracker:
             'sessions': len(weekly),
             'warning': total_hours > 40
         }
-    
+
     def save_data(self):
         with open(self.data_file, 'w') as f:
             json.dump(self.data, f)
@@ -191,8 +192,6 @@ The tools and practices in this guide represent a starting point rather than a c
 By implementing these practical solutions, developers and power users can create remote work environments that support wellbeing while maintaining productivity. The investment in mental health infrastructure pays dividends through reduced burnout, improved retention, and better outcomes.
 
 ---
-
-
 
 
 ## Related Articles

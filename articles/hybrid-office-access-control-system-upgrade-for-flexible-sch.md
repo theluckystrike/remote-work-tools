@@ -3,6 +3,7 @@ layout: default
 title: "Hybrid Office Access Control System Upgrade for Flexible"
 description: "A technical guide for upgrading hybrid office access control systems to support flexible scheduling and hot desking. Includes API integrations, desk"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-access-control-system-upgrade-for-flexible-sch/
 categories: [guides]
@@ -63,12 +64,12 @@ class AccessControlIntegration:
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
         }
-    
+
     def grant_desk_access(self, user_id, desk_id, date):
         """Grant temporary access to a specific desk for a booking."""
         start_time = datetime.fromisoformat(date).replace(hour=6, minute=0)
         end_time = datetime.fromisoformat(date).replace(hour=20, minute=0)
-        
+
         payload = {
             "user_id": user_id,
             "zone_id": desk_id,
@@ -76,28 +77,28 @@ class AccessControlIntegration:
             "valid_from": start_time.isoformat(),
             "valid_until": end_time.isoformat()
         }
-        
+
         response = requests.post(
             f"{self.base_url}/api/v1/access/grant",
             headers=self.headers,
             json=payload
         )
         return response.json()
-    
+
     def revoke_desk_access(self, user_id, desk_id):
         """Revoke access when booking is cancelled."""
         payload = {
             "user_id": user_id,
             "zone_id": desk_id
         }
-        
+
         response = requests.post(
             f"{self.base_url}/api/v1/access/revoke",
             headers=self.headers,
             json=payload
         )
         return response.json()
-    
+
     def get_current_occupancy(self, zone_id):
         """Retrieve real-time occupancy for a zone."""
         response = requests.get(
@@ -115,13 +116,13 @@ The core workflow for hot desking with access control involves several steps: re
 // Node.js workflow for desk booking with access control
 async function handleDeskBooking(bookingData) {
     const { userId, deskId, date, startTime, endTime } = bookingData;
-    
+
     // 1. Verify desk availability
     const availability = await bookingAPI.checkAvailability(deskId, date);
     if (!availability.available) {
         throw new Error('Desk not available');
     }
-    
+
     // 2. Grant access for the booking duration
     const accessGrant = await accessControl.grantAccess({
         userId,
@@ -130,7 +131,7 @@ async function handleDeskBooking(bookingData) {
         validUntil: `${date}T${endTime}:00Z`,
         accessType: 'hot_desk'
     });
-    
+
     // 3. Store booking with access reference
     const booking = await bookingAPI.createBooking({
         userId,
@@ -141,14 +142,14 @@ async function handleDeskBooking(bookingData) {
         accessGrantId: accessGrant.id,
         status: 'confirmed'
     });
-    
+
     // 4. Send confirmation with access details
     await notificationService.sendBookingConfirmation(userId, {
         bookingId: booking.id,
         deskId,
         accessInstructions: `Use your badge at reader ${deskId}-entry`
     });
-    
+
     return booking;
 }
 ```
@@ -161,26 +162,26 @@ Access control systems can verify that the person checking in matches the bookin
 def verify_check_in(user_id, desk_id, timestamp):
     """Verify check-in matches an active booking."""
     booking = get_active_booking(user_id, desk_id, timestamp.date())
-    
+
     if not booking:
         log.warning(f"Unauthorized access attempt: {user_id} at {desk_id}")
         return {"allowed": False, "reason": "no_active_booking"}
-    
+
     if booking.status == 'checked_in':
         return {"allowed": False, "reason": "already_checked_in"}
-    
+
     # Verify time window (15 minute grace period)
-    booking_start = datetime.combine(timestamp.date(), 
+    booking_start = datetime.combine(timestamp.date(),
                                      booking.start_time)
     time_diff = abs((timestamp - booking_start).total_seconds()/60)
-    
+
     if time_diff > 15:
         return {"allowed": False, "reason": "outside_booking_window"}
-    
+
     # Mark as checked in and log access event
     mark_checked_in(booking.id, timestamp)
     log_access_event(user_id, desk_id, 'check_in', timestamp)
-    
+
     return {"allowed": True, "booking": booking}
 ```
 
@@ -192,14 +193,14 @@ Hot desking works best when employees can see real-time desk availability. Integ
 // WebSocket handler for real-time occupancy updates
 function handleAccessEvent(event) {
     const { userId, zoneId, eventType, timestamp } = event;
-    
+
     if (eventType === 'entry') {
         // Increment occupancy for zone
         redis.incr(`occupancy:${zoneId}`);
-        
+
         // Update user's current location
         redis.set(`user:${userId}:location`, zoneId);
-        
+
         // Broadcast to subscribers
         publish('zone-occupancy', {
             zoneId,
@@ -209,7 +210,7 @@ function handleAccessEvent(event) {
     } else if (eventType === 'exit') {
         redis.decr(`occupancy:${zoneId}`);
         redis.del(`user:${userId}:location`);
-        
+
         publish('zone-occupancy', {
             zoneId,
             occupancy: await getZoneOccupancy(zoneId),
@@ -274,7 +275,6 @@ Upgrading access control infrastructure requires careful planning:
 3. Pilot with Single Floor: Test integration with limited scope before organization-wide rollout
 4. Implement Gradually: Add booking integration floor-by-floor, maintaining fallback procedures
 5. Train Facility Teams: Ensure operations staff understand the integrated system
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Find overlapping work hours across three zones"
 description: "Scheduling onboarding meetings across time zones presents unique challenges for remote teams. When your new hires span San Francisco, London, and Tokyo"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-schedule-onboarding-meetings-across-time-zones-for-re/
 reviewed: true
@@ -184,7 +185,6 @@ Sometimes you need to bring someone on quickly. For urgent hires:
 4. Accept that week one may have less synchronous face-time
 
 Document this constraint so new hires understand why initial meetings are sparse.
-
 
 
 ## Related Articles

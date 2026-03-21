@@ -292,12 +292,13 @@ signal-cli -u +1234567890 listIdentities
 ```
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Keyboard Wrist Rest for Split Keyboard Tenting Setup](/remote-work-tools/best-keyboard-wrist-rest-for-split-keyboard-tenting-setup/)
-- [Wrist Exercises for Programmers: Prevent RSI and Stay Pain-Free](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
 - [Seat Cushion for Long Coding Sessions Review 2026](/remote-work-tools/seat-cushion-for-long-coding-sessions-review-2026/)
+- [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)
+- [How to Reduce Wrist Pain from Coding on Laptop All Day](/remote-work-tools/how-to-reduce-wrist-pain-from-coding-on-laptop-all-day/)
+- [Home Office Humidity Control for Comfortable Coding Sessions](/remote-work-tools/home-office-humidity-control-for-comfortable-coding-sessions/)
+- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

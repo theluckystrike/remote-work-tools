@@ -3,6 +3,7 @@ layout: default
 title: "How to Do Async Performance Reviews for Remote Engineering"
 description: "A practical guide to running effective async performance reviews for distributed engineering teams. Learn frameworks, templates, and tools for remote"
 date: 2026-03-17
+last_modified_at: 2026-03-17
 author: theluckystrike
 permalink: /how-to-do-async-performance-reviews-for-remote-engineering-teams/
 categories: [guides]
@@ -165,10 +166,10 @@ def generate_review_tasks(team_members, peers):
     for member in team_members:
         print(f"=== Review Cycle for {member['name']} ===")
         print(f"Self-assessment due: {datetime.now().strftime('%Y-%m-%d')}")
-        
+
         deadline = datetime.now() + timedelta(days=FEEDBACK_DEADLINE_DAYS)
         member_peers = [p for p in peers if p != member['email']]
-        
+
         print(f"Peer feedback request for: {', '.join(member_peers[:4])}")
         print(f"Peer feedback deadline: {deadline.strftime('%Y-%m-%d')}")
         print()
@@ -212,7 +213,6 @@ Track these signals to evaluate your async review process:
 - Goal achievement (do employees complete their stated goals?)
 - Engagement (do people find the process valuable?)
 - Retention (are high performers staying after reviews?)
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Remote Working Parent Support Group Template for"
 description: "A practical guide to building a parent support group for remote workers in distributed companies. Includes templates, Slack channel setups, async"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-working-parent-support-group-template-for-distributed/
 categories: [guides]
@@ -34,15 +35,15 @@ channels:
   - name: "parents-general"
     purpose: "Main discussion space for all working parents"
     is_private: false
-    
+
   - name: "parents-wins"
     purpose: "Share small wins and celebrate milestones"
     is_private: false
-    
+
   - name: "parents-advice"
     purpose: "Specific questions about childcare, productivity, etc."
     is_private: false
-    
+
   - name: "parents-vent"
     purpose: "Safe space to vent without judgment"
     is_private: true  # Private for sensitive discussions
@@ -123,7 +124,7 @@ The rotating topic system gives people prepare in advance and prevents the awkwa
 When team members become parents,主动 reach out with a structured onboarding packet:
 
 ```markdown
-## Welcome to the Parents Channel! 
+## Welcome to the Parents Channel!
 
 Here's what you need to know:
 
@@ -172,13 +173,13 @@ Track engagement without creating pressure:
 const metrics = {
   // Weekly active participants in check-ins
   checkinParticipationRate: "target: 40% of channel members",
-  
+
   // Monthly coffee chat attendance
   coffeeChatAttendance: "target: 50% of interested members",
-  
+
   // Response time to new parent introductions
   welcomeResponseTime: "target: < 24 hours for first reply",
-  
+
   // Sentiment in vent channel (quarterly review)
   sentimentScore: "target: net positive"
 };
@@ -200,8 +201,6 @@ The support group should feel like a gift from the company to parents, not an ex
 ---
 
 Building a parent support group takes initial setup effort but compounds in value over time. Start with the Slack channels, add async check-ins, and layer on synchronous connections as participation grows. The goal isn't a perfectly structured organization—it's creating space for remote working parents to feel seen, supported, and connected across time zones.
-
-
 
 
 ## Related Articles

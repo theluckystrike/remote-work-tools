@@ -3,6 +3,7 @@ layout: default
 title: "Remote Ideation Session Facilitation Guide"
 description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-ideation-session-facilitation-guide/
 reviewed: true
@@ -179,7 +180,7 @@ ideas:
     status: "prototyping"
     owner: "@alice"
     next_review: "2026-03-22"
-    
+
   - title: "Video tutorial series"
     status: "research"
     owner: "@bob"
@@ -195,8 +196,6 @@ Avoid these mistakes that reduce ideation session effectiveness:
 - **Too many participants** — Keep sessions to 6-8 people maximum
 - **Missing follow-through** — Ideas without owners and deadlines die immediately
 - **Infinite sessions** — Cap ideation at 45-60 minutes; extended sessions produce diminishing returns
-
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Productboard vs Aha for Remote Product Management"
 description: "A technical comparison of Productboard and Aha! for managing product development in distributed teams. Features, API capabilities, and real-world use"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /productboard-vs-aha-for-remote-product-management/
 reviewed: true
@@ -64,7 +65,7 @@ async function createFeature(productboardToken, featureData) {
       }
     })
   });
-  
+
   return response.json();
 }
 
@@ -107,7 +108,7 @@ async function createAhaFeature(ahaSubdomain, apiToken, featureData) {
       })
     }
   );
-  
+
   return response.json();
 }
 ```
@@ -339,7 +340,6 @@ Track these metrics to verify your tool choice is working:
 | Monthly features shipped per commitment | 85%+ | < 70% |
 
 If you're seeing healthy metrics within 3 months of adoption, your choice is working. If metrics are poor, diagnose whether it's the tool or your process.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Example NHI enrollment at a local district office"
 description: "A step-by-step guide to the Taiwan Gold Card visa application process for remote tech workers. Covers eligibility, required documents, application"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "theluckystrike"
 permalink: /taiwan-gold-card-visa-for-remote-tech-workers-application-pr/
 categories: [guides]
@@ -302,7 +303,6 @@ Maintain organized documentation throughout your Gold Card tenure:
 - **Income documentation**: Bank statements proving consistent income
 
 This documentation protects you if immigration authorities audit your Gold Card status. Most remote workers never need these records, but organized filing prevents panic if questions arise.
-
 
 
 ## Related Articles

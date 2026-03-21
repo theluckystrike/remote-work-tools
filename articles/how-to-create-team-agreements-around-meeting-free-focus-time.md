@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Team Agreements Around Meeting-Free Focus Time"
 description: "Deep work requires uninterrupted time. For remote engineering teams, the absence of physical office boundaries means meetings can creep into every available"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-team-agreements-around-meeting-free-focus-time/
 categories: [guides]
@@ -82,12 +83,12 @@ focus_time:
     slack: "do_not_disturb"
     email: "silent"
     calls: "blocked"
-  
+
 exceptions:
   production_incidents: true
   customer_critical_issues: true
   pre-scheduled_1:1s: true
-  
+
 response_expectations:
   during_focus_time: "non-urgent - respond after"
   during_core_hours: "within 2 hours"
@@ -129,13 +130,13 @@ Remote teams often use Slack as their primary communication hub. Set up automati
 // Slack app: Focus time status enforcer
 app.event('user_status_changed', async ({ event }) => {
   const user = await app.client.users.info({ user: event.user });
-  
+
   // Check if user is in focus time
   if (isFocusTimeHour(event.user)) {
     // Optionally notify team of availability
     await app.client.chat.postMessage({
       channel: event.user,
-      text: `You're in focus time. Your status is set to: ${user.profile.status_text}. 
+      text: `You're in focus time. Your status is set to: ${user.profile.status_text}.
              Meetings during this time will be auto-declined.`
     });
   }
@@ -213,7 +214,7 @@ class FocusSession:
     developer: str
     start: datetime.datetime
     end: datetime.datetime
-    
+
     @property
     def duration_minutes(self):
         return (self.end - self.start).total_seconds() / 60
@@ -240,8 +241,6 @@ Focus time agreements require ongoing attention:
 The goal isn't rigid enforcement but creating a culture where deep work is valued as much as collaboration. When your team consistently delivers quality code without burnout, you've built something sustainable.
 
 ---
-
-
 
 
 ## Related Articles

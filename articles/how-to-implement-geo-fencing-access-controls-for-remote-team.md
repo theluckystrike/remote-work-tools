@@ -3,6 +3,7 @@ layout: default
 title: "How to Implement Geo-Fencing Access Controls for Remote"
 description: "A practical guide for developers on building location-based access controls to secure remote team applications and protect sensitive resources"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-implement-geo-fencing-access-controls-for-remote-team/
 reviewed: true
@@ -124,24 +125,24 @@ def geo_fence_middleware(policy: GeoPolicy, geolocator: IPGeolocation):
         @wraps(f)
         def decorated_function(*args, **kwargs):
             # Get client IP (handle proxies)
-            client_ip = request.headers.get('X-Forwarded-For', 
+            client_ip = request.headers.get('X-Forwarded-For',
                                              request.remote_addr)
-            
+
             # Look up location
             location = geolocator.lookup(client_ip)
-            
+
             if not location:
                 # Fail securely - deny if we can't determine location
                 return jsonify({"error": "Location verification failed"}), 403
 
             # Evaluate against policy
             decision = evaluate_access(location, policy)
-            
+
             if decision == AccessDecision.DENY:
                 return jsonify({
                     "error": "Access denied from your current location"
                 }), 403
-            
+
             if decision == AccessDecision.CHALLENGE:
                 # Trigger additional verification (MFA, etc.)
                 return jsonify({
@@ -343,7 +344,6 @@ def log_access_decision(
 ```
 
 Route these logs to your SIEM or log aggregation platform rather than application log files. Geo-fencing decisions are security events that warrant the same retention and alerting treatment as authentication events.
-
 
 
 ## Related Articles

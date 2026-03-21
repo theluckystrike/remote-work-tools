@@ -83,19 +83,19 @@ import requests
 # Example: Trigger BambooHR onboarding workflow via API
 def trigger_onboarding(employee_id, start_date, department):
     url = "https://api.bamboohr.com/api/gateway.php/{subdomain}/v1/employees/{employee_id}/onboarding"
-    
+
     payload = {
         "startDate": start_date,
         "department": department,
         "workflowId": "remote-engineer-onboarding"
     }
-    
+
     response = requests.post(
-        url, 
+        url,
         json=payload,
         auth=("api_key", "x")
     )
-    
+
     return response.status_code == 201
 ```
 
@@ -200,7 +200,7 @@ triggers:
   - type: scheduled
     cron: "0 9 1,15 * *"  # 1st and 15th of each month
     batch_size: 5-15
-    
+
 tasks:
   - stage: pre-boarding (T-14)
     parallel: true
@@ -209,14 +209,14 @@ tasks:
       - order equipment
       - create accounts
       - assign buddy
-      
+
   - stage: day-1 (T=0)
     sequential: true
     items:
       - send first-day checklist
       - schedule orientation session
       - verify document completion
-      
+
   - stage: first-week (T+1 to T+5)
     items:
       - complete compliance training
@@ -233,12 +233,14 @@ For maximum automation, connect your onboarding platform to a central orchestrat
 3. IT automation executes: Provisioning happens via JumpCloud, Okta, or custom scripts
 4. Analytics layer monitors: Track time-to-productivity, completion rates, bottlenecks
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
-- [Best Onboarding Automation Workflow for Remote Companies Using Slack Bots and Notion Templates](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
-- [Best Tool for Remote Team Onboarding Checklist.](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+## Related Articles
+
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
+- [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
+- [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
+- [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Remote Team Code Review Comments"
 description: "A practical guide to writing constructive code review comments for remote teams. Learn frameworks and examples for giving feedback that improves code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-code-review-comments-keeping-f/
 categories: [guides]
@@ -42,9 +43,9 @@ function processUserData(data) {
 Use SBI:
 
 ```javascript
-// Good: In the user authentication flow (situation), 
-// this nested conditional chain (behavior) makes testing 
-// individual branches difficult and increases the risk 
+// Good: In the user authentication flow (situation),
+// this nested conditional chain (behavior) makes testing
+// individual branches difficult and increases the risk
 // of edge case bugs (impact). Consider extracting validateUser()
 // into a separate function with clear return values.
 ```
@@ -267,12 +268,14 @@ Track trends monthly rather than weekly—review culture changes develop over qu
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Developer Code Review Workflow Tools for Teams.](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Best Practice for Remote Employee Peer Review.](/remote-work-tools/best-practice-for-remote-employee-peer-review-calibration-ac/)
-- [Best Practice for Remote Team Decision Making Framework.](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
+## Related Articles
+
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
+- [How to Run Remote Team Lightning Talks Keeping](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
+- [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "Chrome Extension Compress Images Before Upload: A"
 description: "Learn how to build a Chrome extension that automatically compresses images before upload. Perfect for developers and power users who need to optimize"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-compress-images-before-upload/
 categories: [guides]
@@ -98,7 +99,7 @@ class ImageCompressor {
       mutations.forEach(mutation => {
         mutation.addedNodes.forEach(node => {
           if (node.nodeType === Node.ELEMENT_NODE) {
-            const inputs = node.querySelectorAll ? 
+            const inputs = node.querySelectorAll ?
               node.querySelectorAll('input[type="file"]') : [];
             inputs.forEach(input => {
               if (input.accept && input.accept.includes('image')) {
@@ -116,7 +117,7 @@ class ImageCompressor {
   async handleFileSelect(event) {
     const input = event.target;
     const files = Array.from(input.files);
-    
+
     for (const file of files) {
       if (file.type.startsWith('image/')) {
         const compressedFile = await this.compressImage(file);
@@ -146,7 +147,7 @@ class ImageCompressor {
 
           canvas.width = width;
           canvas.height = height;
-          
+
           const ctx = canvas.getContext('2d');
           ctx.drawImage(img, 0, 0, width, height);
 
@@ -172,7 +173,7 @@ class ImageCompressor {
     const dataTransfer = new DataTransfer();
     dataTransfer.items.add(newFile);
     input.files = dataTransfer.files;
-    
+
     // Trigger change event for React/Angular form handling
     input.dispatchEvent(new Event('change', { bubbles: true }));
   }
@@ -202,24 +203,24 @@ Users should be able to adjust compression settings. Create a simple popup inter
 </head>
 <body>
   <h3>Image Compression</h3>
-  
+
   <label>
     Quality: <span id="qualityValue" class="value-display">70%</span>
   </label>
   <input type="range" id="quality" min="0.1" max="1" step="0.1" value="0.7">
-  
+
   <label>
     Max Width: <span id="widthValue" class="value-display">1920px</span>
   </label>
   <input type="range" id="maxWidth" min="800" max="4096" step="100" value="1920">
-  
+
   <label>
     Max Height: <span id="heightValue" class="value-display">1920px</span>
   </label>
   <input type="range" id="maxHeight" min="600" max="4096" step="100" value="1920">
-  
+
   <p class="info">Changes apply to next file selection.</p>
-  
+
   <script src="popup.js"></script>
 </body>
 </html>
@@ -234,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
   chrome.storage.sync.get(['quality', 'maxWidth', 'maxHeight'], (settings) => {
     if (settings.quality) {
       document.getElementById('quality').value = settings.quality;
-      document.getElementById('qualityValue').textContent = 
+      document.getElementById('qualityValue').textContent =
         Math.round(settings.quality * 100) + '%';
     }
     if (settings.maxWidth) {
@@ -302,7 +303,6 @@ This approach works well for most use cases but has some constraints. The Canvas
 Very large images might cause memory issues on lower-end devices. The extension includes dimension limits to help prevent this, but you can adjust these based on your typical use case.
 
 Some web applications use custom file upload components that don't use standard `<input type="file">` elements. In these cases, you'll need to extend the content script to handle their specific upload mechanisms.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Get recent workflow run durations"
 description: "A technical guide for measuring and analyzing build times to identify developer productivity bottlenecks in remote engineering teams. Includes CI/CD"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-engineering-team-build-time-tracking-as-developer-pro/
 categories: [guides]
@@ -59,10 +60,10 @@ def get_pipeline_durations(project_id, max_pipelines=20):
     url = f"https://gitlab.com/api/v4/projects/{project_id}/pipelines"
     headers = {"Private-Token": GITLAB_TOKEN}
     params = {"per_page": max_pipelines}
-    
+
     response = requests.get(url, headers=headers, params=params)
     pipelines = response.json()
-    
+
     return [
         {
             "id": p["id"],
@@ -95,31 +96,31 @@ import statistics
 class BuildTimeAnalyzer:
     def __init__(self, build_data):
         self.builds = build_data
-    
+
     def average_by_workflow(self):
         """Group builds by workflow name and calculate averages."""
         workflows = defaultdict(list)
-        
+
         for build in self.builds:
             workflow = build.get("workflow", "unknown")
             duration = build.get("duration", 0)
             if duration > 0:
                 workflows[workflow].append(duration)
-        
+
         return {
             name: {
                 "avg_seconds": statistics.mean(durations),
-                "p95_seconds": sorted(durations)[int(len(durations) * 0.95)] 
+                "p95_seconds": sorted(durations)[int(len(durations) * 0.95)]
                                 if len(durations) > 20 else None,
                 "sample_size": len(durations)
             }
             for name, durations in workflows.items()
         }
-    
+
     def detect_regression(self, threshold_seconds=60):
         """Find builds that exceed threshold, suggesting regression."""
         regressions = []
-        
+
         for build in self.builds:
             if build.get("duration", 0) > threshold_seconds:
                 regressions.append({
@@ -128,7 +129,7 @@ class BuildTimeAnalyzer:
                     "date": build.get("date"),
                     "commit": build.get("commit")
                 })
-        
+
         return sorted(regressions, key=lambda x: x["duration"], reverse=True)
 ```
 
@@ -205,14 +206,14 @@ from datetime import datetime
 def check_build_health():
     """Check if latest builds exceed threshold."""
     builds = get_recent_builds()  # Your API call here
-    
+
     threshold_seconds = 300  # 5 minutes
-    
+
     slow_builds = [
-        b for b in builds 
+        b for b in builds
         if b["duration"] > threshold_seconds
     ]
-    
+
     if slow_builds:
         message = f"⚠️ {len(slow_builds)} builds exceeded {threshold_seconds}s threshold"
         notify_slack(message)  # Your notification function
@@ -226,11 +227,11 @@ Translate build times into developer hours lost:
 def calculate_cost_of_slow_builds(avg_build_time_minutes, builds_per_day, developers):
     daily_build_hours = (avg_build_time_minutes * builds_per_day) / 60
     annual_cost = daily_build_hours * 230 * 50  # 230 work days, $50/hour
-    
+
     return {
         "daily_hours_lost": daily_build_hours,
         "annual_cost_usd": annual_cost,
-        "recommendation": "Investigate build optimization" 
+        "recommendation": "Investigate build optimization"
                          if annual_cost > 5000 else "Acceptable"
     }
 ```
@@ -251,7 +252,6 @@ Track build times weekly and set a team目标 of keeping average CI time under 1
 Build by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
-
 
 
 ## Related Articles

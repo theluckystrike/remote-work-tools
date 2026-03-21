@@ -60,7 +60,7 @@ Define core hours carefully. Many remote teams operate across multiple time zone
 **Requirement**: 4 hours of daily overlap with your reporting manager's timezone
 
 - **Americas Team**: 9am-2pm Pacific
-- **EMEA Team**: 9am-2pm UTC  
+- **EMEA Team**: 9am-2pm UTC
 - **APAC Team**: 9am-2pm Singapore Time
 
 **Flexible Hours**: Outside core hours, employees can structure their workday as needed
@@ -147,8 +147,8 @@ Each handbook section should follow a consistent template for easy maintenance:
 ```markdown
 ## [Section Title]
 
-**Last Updated**: [Date]  
-**Owner**: [Team/Person]  
+**Last Updated**: [Date]
+**Owner**: [Team/Person]
 **Review Cycle**: [Monthly/Quarterly/Annual]
 
 ### Overview
@@ -205,12 +205,14 @@ Organize your handbook using Notion databases for maximum flexibility:
 
 Link related content using Notion's relation properties. When you update a policy in one place, team members can find all related documentation through linked databases.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Notion Template for Remote Team Handbook: Covering.](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [Remote Team Handbook Section Template for Defining.](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
-- [How to Create Remote Team Operations Handbook From Scratch Step by Step](/remote-work-tools/how-to-create-remote-team-operations-handbook-from-scratch-step-by-step/)
+## Related Articles
+
+- [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
+- [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
+- [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

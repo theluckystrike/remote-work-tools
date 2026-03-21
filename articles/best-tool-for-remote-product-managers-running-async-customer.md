@@ -3,6 +3,7 @@ layout: default
 title: "Best Tool for Remote Product Managers Running Async Customer"
 description: "A practical guide to selecting and implementing async customer discovery interview tools for distributed product teams. Code examples and evaluation"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-remote-product-managers-running-async-customer/
 categories: [guides]
@@ -41,7 +42,7 @@ Store your interview questions as structured data rather than in a GUI. This app
       "expected_duration_seconds": 120
     },
     {
-      "id": "q2", 
+      "id": "q2",
       "text": "On a scale of 1-10, how frustrating is the current solution?",
       "type": "rating",
       "follow_up": "What would make it a 10?"
@@ -72,7 +73,7 @@ async function createInterviewSession(templateId, participantEmail) {
       questions: await loadQuestions(templateId)
     })
   });
-  
+
   return response.json();
 }
 ```
@@ -448,12 +449,13 @@ This synthesis-as-code approach scales to hundreds of interviews. You can re-run
 This workflow produces reusable artifacts. Your interview library becomes a referenceable knowledge base that new team members can explore independently.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Product Discovery Process for Remote Teams Using.](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
-- [How to Do Async User Research Interviews with Recorded.](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
-- [Async 360 Feedback Process for Remote Teams Without Live.](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
+- [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

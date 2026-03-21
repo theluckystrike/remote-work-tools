@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Ergonomic Assessment Checklist 2026"
 description: "Complete ergonomic setup guide for home offices. Covers desk height, monitor position, chair setup, lighting, keyboard placement, and product recommendations"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-ergonomic-assessment-checklist/
 categories: [guides]
@@ -337,5 +338,7 @@ Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 - [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
 - [Remote Team Technical Assessment Platform for Evaluating](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
 - [Remote Team Third Party Vendor Security Assessment Template](/remote-work-tools/remote-team-third-party-vendor-security-assessment-template-/)
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "How to Reduce Eye Strain as a Remote Developer"
 description: "Practical strategies and tools to reduce eye strain for remote developers. Learn about display settings, lighting, breaks, and coding environment"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-reduce-eye-strain-remote-developer/
 categories: [guides]
@@ -348,7 +349,6 @@ Most developers find that 2-3 targeted changes eliminate 70-80% of eye strain. C
 - Curved monitor + proper contrast theme + workspace reorganization
 
 Track what works for you and iterate.
-
 
 
 ## Related Articles

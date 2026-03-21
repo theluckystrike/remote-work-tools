@@ -53,12 +53,12 @@ def get_current_rate():
 def check_and_alert():
     rate = get_current_rate()
     thb_per_usd = 1 / rate  # Convert to THB per USD for readability
-    
+
     print(f"Current rate: {thb_per_usd:.4f} THB per USD")
-    
+
     if thb_per_usd < THB_EXCHANGE_ALERT_THRESHOLD * (1/0.029):
         send_alert(f"Rate is favorable: {thb_per_usd:.4f}")
-    
+
     return rate
 
 # Run this on a schedule to monitor rates
@@ -111,12 +111,12 @@ def monthly_conversion():
     # Check if today is the 1st
     if datetime.now().day != 1:
         return
-    
+
     # Get current rate
     current_rate = get_current_rate()
     usd_amount = 2000  # Your monthly budget in USD
     thb_amount = usd_amount / current_rate
-    
+
     # Only convert if rate is above threshold
     if current_rate > 0.028:  # About 35 THB per USD
         wise.transfer(
@@ -174,11 +174,14 @@ The most important action: stop converting at Thai banks directly. The convenien
 
 ---
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Thailand Long-Term Visa Options for Remote Workers](/remote-work-tools/articles/thailand-long-term-visa-for-remote-workers-2026/)
-- [Best VPN for Remote Workers in Thailand](/remote-work-tools/articles/best-vpn-for-remote-workers-in-thailand-avoiding-geo-restric/)
+## Related Articles
+
+- [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

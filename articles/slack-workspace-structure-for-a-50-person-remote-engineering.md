@@ -3,6 +3,7 @@ layout: default
 title: "Slack Workspace Structure for a 50 Person Remote"
 description: "A practical guide to organizing Slack channels, access controls, and integrations for a 50-person distributed engineering team. Includes naming"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /slack-workspace-structure-for-a-50-person-remote-engineering/
 reviewed: true
@@ -92,7 +93,7 @@ public_channels:
   - "#team-*"            # All team channels
   - "#proj-*"            # Project channels
   - "#incidents"         # Incident coordination
-  
+
 private_channels:
   - "#hiring-interviews" # Candidate privacy
   - "#leadership"        # Executive discussions
@@ -145,13 +146,13 @@ github:
   channels:
     - "#team-backend"    # PRs touching backend code
     - "#team-frontend"   # PRs touching frontend code
-  
+
   notifications:
     - pull_requestopened
     - pull_requestclosed
     - pull_requestmerged
     - pull_requestreviewed
-    
+
   # Filter by code owners for targeted notifications
   filters:
     paths:
@@ -167,13 +168,13 @@ Connect PagerDuty, Opsgenie, or your monitoring stack:
 # PagerDuty Slack integration
 pagerduty:
   channel: "#incidents"
-  
+
   # Create dedicated channel per severity
   severity_channels:
     critical: "#inc-critical"
     high: "#inc-high"
     medium: "#incidents"
-    
+
   # Include runbook links in alerts
   incident_triggers:
     - alert_name: "High Error Rate"
@@ -189,7 +190,7 @@ deployments:
     - "#team-backend"       # Backend deployments
     - "#team-frontend"      # Frontend deployments
     - "#releases"           # Release notes summary
-  
+
   include:
     - commit_sha
     - author
@@ -206,12 +207,12 @@ Deploy a standup bot for async daily updates:
 standup:
   schedule: "9:00 AM local time"
   timezone: "per-user"
-  
+
   questions:
     - "What did you accomplish yesterday?"
     - "What will you work on today?"
     - "Any blockers?"
-  
+
   channel: "#team-{team_name}"
   thread: true  # Keep standups in threads
 ```
@@ -252,7 +253,7 @@ Fifty engineers generate significant conversation volume. Without retention poli
 retention:
   # Keep everything for 1 year
   keep_messages_for_days: 365
-  
+
   # Or use custom retention per channel type
   channel_policies:
     "#incidents": 2 years     # Historical incident context valuable
@@ -297,7 +298,6 @@ Phase 3: Norms and Governance
 [ ] Create #readme or #guide channel for Slack onboarding
 [ ] Schedule quarterly channel audits
 ```
-
 
 
 ## Related Articles

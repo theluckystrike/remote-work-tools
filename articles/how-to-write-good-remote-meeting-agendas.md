@@ -3,6 +3,7 @@ layout: default
 title: "How to Write Good Remote Meeting Agendas"
 description: "Learn how to write effective meeting agendas for remote teams. Includes templates, code snippets for automation, and practical examples for developers"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-good-remote-meeting-agendas/
 categories: [guides]
@@ -421,7 +422,6 @@ Implement a pre-meeting QA check:
 
 If you check "no" on "meeting is necessary" — cancel and send the info async instead.
 ```
-
 
 
 ## Related Articles

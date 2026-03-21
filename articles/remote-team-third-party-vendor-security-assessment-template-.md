@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Third Party Vendor Security Assessment Template"
 description: "A practical security assessment template for evaluating third-party vendors who need access to your remote team's systems and data"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-third-party-vendor-security-assessment-template-/
 categories: [guides]
@@ -83,18 +84,18 @@ If you're evaluating a vendor that provides remote access tools, examine their s
 vendor:
   name: "Vendor Name"
   assessment_date: "2026-03-16"
-  
+
 security_controls:
   authentication:
     sso_supported: true
     mfa_enforced: true
     idle_timeout_minutes: 30
-    
+
   encryption:
     in_transit: "TLS 1.3"
     at_rest: "AES-256"
     key_management: "AWS KMS with BYOK option"
-    
+
   compliance:
     certifications: ["SOC 2 Type II", "ISO 27001"]
     penetration_testing: "Annual third-party"
@@ -191,7 +192,6 @@ Use this checklist when deploying your vendor security assessment template:
 - [ ] Track assessment results in a central register
 - [ ] Set calendar reminders for reassessment dates
 - [ ] Train team members on vendor access request procedures
-
 
 
 ## Related Articles

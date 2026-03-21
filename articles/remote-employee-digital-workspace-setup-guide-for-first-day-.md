@@ -3,6 +3,7 @@ layout: default
 title: "Install OpenConnect (common in enterprise environments)"
 description: "A practical setup guide for developers and power users setting up their remote work environment on day one. Includes configuration scripts, security"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-employee-digital-workspace-setup-guide-for-first-day-/
 reviewed: true
@@ -317,7 +318,6 @@ Communication:
 - Bookmark the team's primary documentation and project management tool
 
 Having this checklist complete by end of day three gives you a clean operational baseline and surfaces any access provisioning gaps while your manager is still in active onboarding mode rather than six weeks later during a Friday afternoon incident.
-
 
 
 ## Related Articles

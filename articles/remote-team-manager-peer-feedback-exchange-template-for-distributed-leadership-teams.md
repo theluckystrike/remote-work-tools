@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Manager Peer Feedback Exchange Template for"
 description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/
 categories: [guides]
@@ -12,9 +13,6 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
-
-
-
 
 
 {% raw %}
@@ -132,7 +130,7 @@ jobs:
         run: |
           echo "Generating peer feedback assignments for this cycle..."
           # Your assignment logic here
-          
+
       - name: Create feedback issues
         uses: actions/github-script@v7
         with:
@@ -142,7 +140,7 @@ jobs:
               { requester: 'mike', reviewer: 'jennifer' },
               { requester: 'jennifer', reviewer: 'sarah' }
             ];
-            
+
             for (const pair of issues) {
               await github.rest.issues.create({
                 owner: context.repo.owner,
@@ -465,7 +463,6 @@ After feedback, structured check-ins keep the commitment alive:
 ```
 
 Monthly accountability prevents great intentions from fading after 3 weeks.
-
 
 
 ## Related Articles

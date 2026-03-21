@@ -3,6 +3,7 @@ layout: default
 title: "Cable Management Under Desk for Home Office With Standing"
 description: "A practical guide to cable management under desk for home office with standing desk. Learn routing techniques, mounting solutions, and automation tips"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /cable-management-under-desk-for-home-office-with-standing-de/
 categories: [guides]
@@ -128,7 +129,7 @@ Document your setup in a text file stored in your home office notes:
 
 ## Connections at Desk Level
 - Monitor 1: HDMI from GPU
-- Monitor 2: DisplayPort from GPU  
+- Monitor 2: DisplayPort from GPU
 - Keyboard: USB-A to hub
 - Mouse: Wireless (Logitech Unifying)
 
@@ -262,7 +263,6 @@ A typical developer standing desk setup with solid cable management includes:
 | Ethernet | 1 (optional) | Cable sleeve |
 
 This totals 3-6 cables depending on wireless adoption, all routed cleanly and hidden from view.
-
 
 
 ## Related Articles

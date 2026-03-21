@@ -3,6 +3,7 @@ layout: default
 title: "How to Prevent Knowledge Silos When Remote Team Grows Past"
 description: "A practical guide for developers and engineering leaders on breaking down knowledge silos as your remote team scales beyond 25 engineers. Includes code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-knowledge-silos-when-remote-team-grows-past-25-engineers/
 categories: [guides]
@@ -118,7 +119,7 @@ def suggest_rotation(engineers, teams, current_assignments):
     for engineer in engineers:
         current_team = current_assignments[engineer]
         preferred_teams = get_preferred_teams(engineer)
-        
+
         # Match engineers to teams where they have no recent experience
         for team in preferred_teams:
             if team != current_team and has_mentor_available(team):
@@ -251,7 +252,6 @@ Track these metrics to gauge knowledge silo reduction:
 - **Documentation coverage** of critical systems (target: 80%+)
 - **Cross-team collaboration frequency** (track PRs involving multiple teams)
 - **Incident resolution time** (knowledgeable people should be findable quickly)
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Best Terminal Multiplexer for Remote Pair Programming"
 description: "Compare tmux, Zellij, and screen for remote pair programming over SSH. Session sharing configs, keybindings, and real setup guides for distributed teams"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /best-terminal-multiplexer-for-remote-pair-programming/
 categories: [guides]
@@ -319,9 +320,14 @@ sudo chmod 600 /home/pairuser/.ssh/authorized_keys
 
 The practical decision: use tmux if your team already knows it or if you need read-only observer mode for code reviews. Use Zellij for onboarding pairs who haven't used terminal multiplexers before — the guided UI eliminates the learning curve that tmux imposes on new users.
 
-## Related Reading
 
-- [Remote Work Tools Guide Hub](/remote-work-tools/)
+## Related Articles
+
+- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
+- [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)
+- [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

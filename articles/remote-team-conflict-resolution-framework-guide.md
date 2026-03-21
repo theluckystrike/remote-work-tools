@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Conflict Resolution Framework Guide"
 description: "Framework for resolving conflicts in distributed remote teams. Covers async escalation paths, mediation tools, and documentation patterns for managers"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-team-conflict-resolution-framework-guide/
 categories: [guides]
@@ -510,7 +511,6 @@ Skip Layers 2-4 if:
 2. **Potential safety issue.** Escalate immediately.
 3. **Legal risk.** Notify legal; don't mediate.
 4. **Someone refuses to engage.** If they ignore Layer 1 outreach, escalate to their manager (Layer 4).
-
 
 
 ## Related Articles

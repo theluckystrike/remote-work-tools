@@ -3,6 +3,7 @@ layout: default
 title: "How to Cool Home Office Without Air Conditioning During"
 description: "Practical techniques to keep your home office cool without AC. Smart thermostat scripts, DIY cooling solutions, and developer-focused setups for summer"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-cool-home-office-without-air-conditioning-during-summer/
 categories: [guides]
@@ -35,7 +36,7 @@ try:
     import board
     import adafruit_dht
     dht = adafruit_dht.DHT22(board.D18)
-    
+
     while True:
         temp = dht.temperature
         humidity = dht.humidity
@@ -81,7 +82,7 @@ async def check_temperature(threshold=28):
     # Connect to your sensor
     # Example: DHT22 on GPIO 14
     sensor_data = read_sensor()  # Your sensor reading function
-    
+
     if sensor_data['temperature'] > threshold:
         await send_alert(
             subject="Office temperature warning",
@@ -94,7 +95,7 @@ async def send_alert(subject, body):
     msg['Subject'] = subject
     msg['From'] = 'your-alert@domain.com'
     msg['To'] = 'your-email@domain.com'
-    
+
     with smtplib.SMTP('smtp.example.com', 587) as server:
         server.starttls()
         server.login('user', 'password')
@@ -171,7 +172,6 @@ Track your productivity alongside temperature readings:
 | 25-27°C | Slight decrease |
 | 28-30°C | Noticeable decline |
 | 31°C+ | Significant impact |
-
 
 
 ## Related Articles

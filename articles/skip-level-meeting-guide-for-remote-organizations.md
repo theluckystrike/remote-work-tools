@@ -3,6 +3,7 @@ layout: default
 title: "Skip Level Meeting Guide for Remote Organizations"
 description: "A practical guide to implementing skip level meetings in remote organizations. Includes meeting templates, async workflows, and code examples"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /skip-level-meeting-guide-for-remote-organizations/
 categories: [guides]
@@ -39,7 +40,7 @@ const skipLevelSchedule = {
   meetingDuration: 30, // minutes
   frequency: 'monthly',
   participantsPerSession: 2,
-  
+
   rotateSchedule: function(icList, managerId) {
     return icList.map((ic, index) => ({
       ic: ic,
@@ -182,8 +183,6 @@ Start small. Pick one team to pilot the program, gather feedback, refine your ap
 The best remote organizations build multiple redundant paths for feedback. Skip level meetings should complement, not replace, regular 1:1s, team retrospectives, and all-hands meetings.
 
 ---
-
-
 
 
 ## Related Articles

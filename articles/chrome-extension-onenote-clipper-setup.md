@@ -3,6 +3,7 @@ layout: default
 title: "Chrome Extension OneNote Clipper Setup: Complete Guide"
 description: "Learn how to set up and configure the OneNote Web Clipper Chrome extension for efficient note-taking, research organization, and content archiving"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /chrome-extension-onenote-clipper-setup/
 categories: [guides]
@@ -192,7 +193,6 @@ The OneNote Web Clipper excels at its core function but has boundaries:
 - Offline clipping: You need an internet connection to save clips
 
 For edge cases, consider capturing content as PDF through Chrome's built-in print function, then attach the PDF to OneNote manually.
-
 
 
 ## Related Articles

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Retrospective Tools and Process Guide"
-description: "Run effective async retrospectives for remote teams using EasyRetro, Parabol, and Notion. Templates, facilitation steps, and action item tracking without live calls."
+description: "Run effective async retrospectives for remote teams using EasyRetro, Parabol, and Notion."
 date: 2026-03-21
 author: theluckystrike
 permalink: /async-retrospective-tools-and-process/
@@ -215,13 +215,16 @@ gh issue create \
 
 **Energy Radar:** Rate energy levels across: Focus, Collaboration, Communication, Delivery, Fun. Shows team health trends over time.
 
-## Related Reading
-
-- [Asynchronous Team Retrospective Tools, Methods, Process](/asynchronous-team-retrospective-tools-methods-process/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
-- [Best Tools for Remote Team Retrospectives 2026](/best-tools-for-remote-team-retrospectives-2026/)
-
 ---
+
+
+## Related Articles
+
+- [Asynchronous Team Retrospective Tools Methods Process](/remote-work-tools/asynchronous-team-retrospective-tools-methods-process/)
+- [Async Team Retrospective Using Shared Documents and](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
+- [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
+- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

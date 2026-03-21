@@ -3,6 +3,7 @@ layout: default
 title: "How to Handle Emergency Client Communication for Remote"
 description: "A practical guide to managing emergency client communications in a remote agency. Learn protocols, tools, and workflows for urgent client situations"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-emergency-client-communication-for-remote-agen/
 categories: [guides]
@@ -212,7 +213,6 @@ Conduct blameless post-mortems that focus on:
 - Timeline for implementation
 
 Share relevant findings with clients when appropriate—they appreciate transparency and seeing your commitment to improvement.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "How to Use AI Tools to Generate Remote Team Meeting."
 description: "Learn how to use AI to automatically generate meeting agendas by analyzing your previous meeting notes, Slack discussions, and project documentation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-use-ai-tool-to-generate-remote-team-meeting-agendas-f/
 categories: [guides]
@@ -40,13 +41,13 @@ def gather_recent_notes(days=14):
     """Collect all notes from the past N days."""
     notes = []
     cutoff = datetime.now() - timedelta(days=days)
-    
+
     for filename in os.listdir(NOTES_DIR):
         if not filename.endswith('.md'):
             continue
         filepath = os.path.join(NOTES_DIR, filename)
         mtime = datetime.fromtimestamp(os.path.getmtime(filepath))
-        
+
         if mtime > cutoff:
             with open(filepath, 'r') as f:
                 notes.append({
@@ -54,18 +55,18 @@ def gather_recent_notes(days=14):
                     'content': f.read(),
                     'date': mtime.isoformat()
                 })
-    
+
     return notes
 
 def build_prompt(notes):
     """Create a prompt that instructs the AI to build an agenda."""
     combined_notes = "\n\n---\n\n".join(
-        f"## {n['filename']} ({n['date']})\n{n['content']}" 
+        f"## {n['filename']} ({n['date']})\n{n['content']}"
         for n in notes
     )
-    
+
     return f"""Analyze the following meeting notes and build a structured meeting agenda.
-    
+
 Requirements:
 1. Identify key discussion points and decisions made
 2. List all action items with their owners
@@ -85,7 +86,7 @@ Output a markdown-formatted agenda with these sections:
 # Example usage with OpenAI
 def generate_agenda(notes, api_key=None):
     from openai import OpenAI
-    
+
     client = OpenAI(api_key=api_key or os.getenv("OPENAI_API_KEY"))
     response = client.chat.completions.create(
         model="gpt-4",
@@ -95,17 +96,17 @@ def generate_agenda(notes, api_key=None):
         ],
         temperature=0.3
     )
-    
+
     return response.choices[0].message.content
 
 if __name__ == "__main__":
     notes = gather_recent_notes()
     agenda = generate_agenda(notes)
-    
+
     with open(OUTPUT_FILE, 'w') as f:
         f.write(f"# Meeting Agenda - {datetime.now().strftime('%Y-%m-%d')}\n\n")
         f.write(agenda)
-    
+
     print(f"Agenda generated: {OUTPUT_FILE}")
 ```
 
@@ -120,18 +121,18 @@ For a more integrated solution, consider connecting your AI agenda generator to 
 ```python
 def get_slack_notes(channel_id, days=7):
     from slack_sdk import WebClient
-    
+
     client = WebClient(token=os.getenv("SLACK_BOT_TOKEN"))
     result = client.conversations_history(
         channel=channel_id,
         limit=1000,
         oldest=(datetime.now() - timedelta(days=days)).timestamp()
     )
-    
-    messages = [msg['text'] for msg in result['messages'] 
-                if 'action-item' in msg['text'].lower() 
+
+    messages = [msg['text'] for msg in result['messages']
+                if 'action-item' in msg['text'].lower()
                 or 'decision:' in msg['text'].lower()]
-    
+
     return "\n".join(messages)
 ```
 
@@ -140,20 +141,20 @@ def get_slack_notes(channel_id, days=7):
 ```python
 def get_github_notes(owner, repo, days=7):
     import requests
-    
+
     url = f"https://api.github.com/repos/{owner}/{repo}/issues"
     params = {
         "since": (datetime.now() - timedelta(days=days)).isoformat(),
         "state": "all"
     }
-    
+
     response = requests.get(url, params=params)
     issues = response.json()
-    
+
     # Extract issues with specific labels
-    relevant = [f"#{i['number']}: {i['title']}" for i in issues 
+    relevant = [f"#{i['number']}: {i['title']}" for i in issues
                 if 'meeting-agenda' in [l['name'] for l in i.get('labels', [])]]
-    
+
     return "\n".join(relevant)
 ```
 
@@ -203,7 +204,6 @@ The real power comes from combining multiple data sources. A complete agenda pip
 5. Project management tool updates
 
 Each source adds context. The AI serves as the aggregator, transforming noise into signal.
-
 
 
 ## Related Articles

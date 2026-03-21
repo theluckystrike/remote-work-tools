@@ -3,6 +3,7 @@ layout: default
 title: "How to Measure Remote Team Productivity Without"
 description: "A practical guide for developers and power users on measuring remote team productivity through trust-based metrics, output tracking, and healthy workflows"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-measure-remote-team-productivity-without-surveillance/
 categories: [guides]
@@ -45,7 +46,7 @@ def calculate_cycle_time(tickets):
             start = ticket['created_at']
             end = ticket['completed_at']
             cycle_times.append((end - start).days)
-    
+
     if cycle_times:
         return sum(cycle_times) / len(cycle_times)
     return 0
@@ -100,16 +101,16 @@ Track async communication health without reading message content:
 function analyzeCommunicationHealth(messages, teamSize) {
   const threads = new Map();
   const responseTimes = [];
-  
+
   messages.forEach(msg => {
     if (msg.thread_ts && !threads.has(msg.thread_ts)) {
       threads.set(msg.thread_ts, msg.ts);
     }
   });
-  
+
   // Calculate response time within threads
   // Lower response times often indicate healthy async communication
-  
+
   return {
     threadCount: threads.size,
     messagesPerPerson: messages.length / teamSize,
@@ -160,7 +161,7 @@ dashboard:
       type: "timeseries"
       datasource: "prometheus"
       query: "avg(cycle_time_days) by (sprint)"
-    
+
     - title: "PR Review Health"
       type: "stat"
       datasource: "github"
@@ -190,7 +191,6 @@ Start implementing trust-based productivity measurement:
 3. Define team outcomes: Collaboratively establish measurable objectives
 4. Build dashboards: Create shared visibility into team performance
 5. Iterate and refine: Adjust metrics based on what actually improves outcomes
-
 
 
 ## Related Articles

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: "Time Zone Management Tools for Distributed Teams"
-description: "Set up time zone management for distributed teams: World Time Buddy, Every Time Zone, CLI tools, calendar overlaps, and scheduling automation for remote engineers."
+description: "Set up time zone management for distributed teams: World Time Buddy, Every Time Zone, CLI tools, calendar overlaps, and scheduling automation for remote"
 date: 2026-03-21
+last_modified_at: 2026-03-21
 author: theluckystrike
 permalink: /time-zone-management-tools-distributed-teams/
 categories: [guides]
@@ -259,7 +260,6 @@ MSG="*Team times now ($(date -u "+%Y-%m-%d %H:%M UTC"))*
 curl -X POST -H 'Content-type: application/json' \
   --data "{\"text\": \"$MSG\"}" "$SLACK_WEBHOOK"
 ```
-
 
 
 ## Related Articles

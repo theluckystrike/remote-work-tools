@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Remote Team Promotion Criteria: A"
 description: "A practical guide for creating clear, fair promotion criteria for remote teams. Learn how to build promotion frameworks that developers and technical"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-promotion-criteria-transparent-and/
 categories: [guides]
@@ -46,19 +47,19 @@ levels:
     technical: "Executes on existing systems, code reviews"
     communication: "Updates team on task progress"
     leadership: "None"
-    
+
   mid-level:
     scope: "Independent contributor, ambiguous problems"
     technical: "Designs new features, mentors juniors"
     communication: "Coordinates with adjacent teams"
     leadership: "May mentor junior team members"
-    
+
   senior:
     scope: "Multi-team impact, complex systems"
     technical: "Architects solutions, drives technical decisions"
     communication: "Influences product direction"
     leadership: "Mentors team members formally or informally"
-    
+
   staff:
     scope: "Cross-organization impact"
     technical: "Sets technical vision, eliminates team blockers"
@@ -272,7 +273,6 @@ As your remote team scales from 5 to 50+ people, your promotion framework must e
 - Tool: Dedicated platform or detailed spreadsheet system
 
 Track when to transition between stages based on growth, not just headcount. A high-velocity team might need Stage 2 practices at 10 people; a stable team might stay in Stage 1 at 30.
-
 
 
 ## Related Articles

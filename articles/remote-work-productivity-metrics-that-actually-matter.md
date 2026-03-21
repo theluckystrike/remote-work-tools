@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Productivity Metrics That Actually Matter"
 description: "Guide to meaningful remote work productivity metrics. Output vs activity monitoring, async metrics, tooling (Jellyfish, LinearB, Pluralsight Flow)"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-productivity-metrics-that-actually-matter/
 categories: [guides]
@@ -382,5 +383,6 @@ These metrics corrupt behavior and reveal nothing about actual productivity.
 - [How to Write Async Status Updates That Managers Actually](/remote-work-tools/how-to-write-async-status-updates-that-managers-actually-read/)
 - [Virtual Team Building Activities That Developers Actually](/remote-work-tools/virtual-team-building-activities-that-developers-actually-en/)
 
-{% endraw %}
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
+{% endraw %}

@@ -3,6 +3,7 @@ layout: default
 title: "How to Set Up Second Brain for Developers"
 description: "A practical guide for developers to build a second brain system using Obsidian, Notion, or code-based solutions. Includes setup examples and workflows"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-up-second-brain-for-developers/
 categories: [guides]
@@ -202,8 +203,6 @@ Review your inbox weekly. Move notes from `0_Inbox` to proper folders, add links
 Over time, your second brain becomes more valuable. That archive of debugging notes from three projects ago? It will save you hours. That code snippet you refined across five projects? It becomes a reusable tool you never have to rewrite.
 
 Start with one system, build the capture habit, and expand as you learn what works for your workflow.
-
-
 
 
 ## Related Articles

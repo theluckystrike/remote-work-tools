@@ -3,6 +3,7 @@ layout: default
 title: "Best Sprint Planning Tools for Remote Scrum Masters"
 description: "Discover sprint planning tools that help remote Scrum Masters run effective ceremonies, estimate accurately, and keep distributed teams synchronized"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-sprint-planning-tools-for-remote-scrum-masters/
 categories: [best-of]
@@ -27,13 +28,13 @@ The cycles feature maps directly to sprint-based workflows:
 
 ```javascript
 // Query Linear cycles via API
-const linearClient = new LinearClient({ 
-  apiKey: process.env.LINEAR_API_KEY 
+const linearClient = new LinearClient({
+  apiKey: process.env.LINEAR_API_KEY
 });
 
 async function getCurrentCycle(teamId) {
   const { cycles } = await linearClient.cycles({
-    filter: { 
+    filter: {
       team: { id: { eq: teamId } },
       state: { eq: 'active' }
     }
@@ -72,8 +73,8 @@ For estimation sessions, Jira supports Planning Poker through marketplace apps. 
 ```javascript
 // Jira Automation API - escalate unresolved sprint items
 await jira.execJql(`
-  sprint IN openSprints() 
-  AND status NOT IN (Done, Closed) 
+  sprint IN openSprints()
+  AND status NOT IN (Done, Closed)
   AND assignee IS EMPTY
 `).then(issues => {
   issues.forEach(issue => {
@@ -107,7 +108,7 @@ For capacity visualization, Trello's calendar power-up shows sprint scope over t
 const fetchSprintCards = async (boardId, listName) => {
   const lists = await trello.getListsOnBoard(boardId);
   const sprintList = lists.find(l => l.name === listName);
-  
+
   const cards = await trello.getCardsOnList(sprintList.id);
   return cards.map(card => ({
     name: card.name,
@@ -170,7 +171,7 @@ async function createSprintTasks(listId, stories) {
     priority: story.priority,
     assignees: story.assignees
   }));
-  
+
   return Promise.all(
     tasks.map(task => clickup.createTask(listId, task))
   );
@@ -199,11 +200,14 @@ Beyond features, evaluate adoption friction. A powerful tool that requires three
 
 ---
 
-## Related Reading
 
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-- [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
-- [How to Manage Sprints with Remote Team](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
+## Related Articles
+
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
+- [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)
+- [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Example: Find pages not modified in the last 180 days using](/remote-work-tools/how-to-create-remote-team-documentation-sprint-dedicating-ti/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

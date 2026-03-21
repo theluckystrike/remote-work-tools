@@ -3,6 +3,7 @@ layout: default
 title: "Quick inventory script to scan network for dormant machines"
 description: "Reactivating dormant workstations requires physical inspection, BIOS verification, operating system security updates, certificate/credential renewal, and"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/
 categories: [guides]
@@ -142,7 +143,7 @@ Most modern access control systems store badge data in databases. Verify:
 ```sql
 -- SQL query to find badges needing reactivation
 -- Adjust table/column names for your specific system
-SELECT 
+SELECT
     u.employee_id,
     u.display_name,
     b.badge_number,
@@ -213,8 +214,6 @@ For organizations with many dormant machines to reactivate, consider automation:
 - Monitoring: Set up alerts for machine health metrics immediately after reactivation
 
 This systematic approach ensures all dormant workstations and access badges are safely reactivated while maintaining security posture. The investment in thorough reactivation prevents security incidents and productivity losses from unexpected failures.
-
-
 
 
 ## Related Articles

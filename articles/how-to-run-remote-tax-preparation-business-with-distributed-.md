@@ -3,6 +3,7 @@ layout: default
 title: "How to Run Remote Tax Preparation Business with Distributed"
 description: "Run a remote tax preparation business with seasonal staff by implementing secure infrastructure (VPN, encryption, role-based access), automated workflows"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-tax-preparation-business-with-distributed-/
 categories: [guides]
@@ -44,25 +45,25 @@ You can automate VPN configuration deployment using configuration management too
   vars:
     vpn_server: vpn.yourtaxfirm.com
     vpn_config: "/etc/openvpn/client/{{ vpn_server }}.conf"
-  
+
   tasks:
     - name: Install OpenVPN client
       package:
         name: openvpn
         state: present
-    
+
     - name: Deploy VPN configuration
       copy:
         src: "configs/{{ vpn_server }}.ovpn"
         dest: "{{ vpn_config }}"
         mode: '0600'
-    
+
     - name: Enable and start OpenVPN
       service:
         name: openvpn@{{ vpn_server }}
         state: started
         enabled: yes
-    
+
     - name: Verify VPN connection
       wait_for:
         host: "10.8.0.1"
@@ -111,11 +112,11 @@ Tools like TaxDox, Canopy, or custom solutions using secure form builders (Typef
 // Example: Document routing logic using webhooks
 app.post('/webhook/document-uploaded', async (req, res) => {
   const { clientId, documentType, s3Key } = req.body;
-  
+
   // Fetch client assignment from CRM
   const client = await crm.getClient(clientId);
   const preparer = await crm.getPreparer(client.assignedPreparerId);
-  
+
   // Create task in workflow management
   await workflow.createTask({
     type: 'DOCUMENT_REVIEW',
@@ -125,10 +126,10 @@ app.post('/webhook/document-uploaded', async (req, res) => {
     s3Key: s3Key,
     dueDate: calculateDueDate(client.priority)
   });
-  
+
   // Update CRM status
   await crm.updateClientStatus(clientId, 'DOCUMENTS_RECEIVED');
-  
+
   res.json({ success: true });
 });
 ```
@@ -216,8 +217,6 @@ As your remote tax preparation business grows, invest in systems that scale:
 4. Security audits: Quarterly penetration testing and security reviews protect your reputation
 
 Remote tax preparation with distributed seasonal staff works when you invest in proper infrastructure, clear workflows, and systematic processes. The flexibility to hire talent anywhere translates directly to better service for your clients and a more resilient business model.
-
-
 
 
 ## Related Articles

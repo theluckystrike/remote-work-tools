@@ -3,6 +3,7 @@ layout: default
 title: "How to Present Remote Team Credentials to Prospective Agency"
 description: "Learn practical strategies for showcasing your remote team's credentials, certifications, and expertise to win agency contracts"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-present-remote-team-credentials-to-prospective-agency/
 reviewed: true
@@ -54,7 +55,7 @@ Create a centralized credential dashboard that clients can access. Here's a prac
       },
       {
         "name": "Certified Kubernetes Administrator",
-        "holder": "DevOps Engineer", 
+        "holder": "DevOps Engineer",
         "expires": "2026-11-20",
         "verify_url": "https://www.cncf.io/certification/cka"
       }
@@ -308,7 +309,6 @@ For similar projects (e.g., [Project Name]), we delivered [X] transaction-per-se
 
 **In Pitches:**
 "We're not just experienced with this tech stack. Three of our senior engineers hold [relevant certifications], which means you're getting engineers who stay current with platform updates and best practices."
-
 
 
 ## Related Articles

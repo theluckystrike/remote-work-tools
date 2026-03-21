@@ -46,7 +46,7 @@ async function giveRecognition(fromUserId, toUserId, reason, points = 100) {
       'Content-Type': 'application/json'
     }
   });
-  
+
   return response.data;
 }
 
@@ -75,7 +75,7 @@ class KudosClient:
         self.api_key = api_key
         self.subdomain = subdomain
         self.base_url = f"https://{subdomain}.kudosplatform.com/api/v1"
-    
+
     def send_recognition(self, sender_id, recipient_id, message, badge_id=None):
         url = f"{self.base_url}/recognitions"
         payload = {
@@ -85,9 +85,9 @@ class KudosClient:
             "badge_id": badge_id,
             "timestamp": datetime.utcnow().isoformat()
         }
-        
+
         response = requests.post(
-            url, 
+            url,
             json=payload,
             headers={
                 "Authorization": f"Bearer {self.api_key}",
@@ -126,13 +126,13 @@ plugin:
       - ":raised_hands:"
     points_enabled: true
     points_per_reaction: 5
-    
+
   automation:
     work_anniversary:
       enabled: true
       channel: "#people-ops"
       message_template: "Happy work anniversary, {name}! 🎉 {years} years of amazing contributions!"
-    
+
     birthday:
       enabled: true
       channel: "#people-ops"
@@ -152,7 +152,7 @@ const nectar = require('@nectar/sdk');
 async function syncEmployeeData(hrisProvider) {
   // Fetch employees from HRIS (Workday, BambooHR, etc.)
   const employees = await hrisProvider.getEmployees();
-  
+
   // Sync to Nectar
   for (const employee of employees) {
     await nectar.employees.upsert({
@@ -165,7 +165,7 @@ async function syncEmployeeData(hrisProvider) {
       timezone: employee.timezone
     });
   }
-  
+
   // Set up automatic recognition triggers
   await nectar.automations.create({
     trigger: 'work_anniversary',
@@ -190,7 +190,7 @@ Communication Platforms: Post recognition to Slack, Microsoft Teams, or other co
 // Slack integration for real-time recognition notifications
 async function postRecognitionToSlack(recognition, webhookUrl) {
   const { recipient, sender, message, points, badge } = recognition;
-  
+
   const slackMessage = {
     channel: "#recognition",
     username: "Kudos Bot",
@@ -221,7 +221,7 @@ async function postRecognitionToSlack(recognition, webhookUrl) {
       }
     ]
   };
-  
+
   await fetch(webhookUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -241,12 +241,13 @@ Consider starting with a platform that integrates with tools your team already u
 Track metrics like recognition frequency, participation rates, and employee satisfaction scores to measure the impact of your recognition program and iterate on your approach over time.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Async Team Building Activities for Distributed Teams.](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [Best Remote Employee Onboarding Checklist Tool for HR.](/remote-work-tools/best-remote-employee-onboarding-checklist-tool-for-hr-teams-/)
-- [Remote Legal Research Tool Comparison for Distributed.](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
+- [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
+- [Remote HR Benefits Administration Platform for Distributed](/remote-work-tools/remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/)
+- [How to Create Remote Employee Exit Interview Process for](/remote-work-tools/how-to-create-remote-employee-exit-interview-process-for-distributed-teams/)
+- [Remote Team Technical Assessment Platform for Evaluating](/remote-work-tools/remote-team-technical-assessment-platform-for-evaluating-distributed-engineering-candidates-at-scale-2026/)
+- [Best Remote Sales Enablement Platform for Distributed BDRs](/remote-work-tools/best-remote-sales-enablement-platform-for-distributed-bdrs-a/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

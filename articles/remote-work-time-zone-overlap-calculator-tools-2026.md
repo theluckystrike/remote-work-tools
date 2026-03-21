@@ -3,6 +3,7 @@ layout: default
 title: "Remote Work Time Zone Overlap Calculator Tools 2026"
 description: "Compare time zone overlap tools for remote teams. Reviews World Time Buddy, Every Time Zone, Timezone.io, and Slack integrations for distributed"
 date: 2026-03-20
+last_modified_at: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-time-zone-overlap-calculator-tools-2026/
 categories: [guides]
@@ -436,7 +437,6 @@ Document in Slack:
 Asynchronous participation via Slack threads + Loom videos ensures no one is chronically disadvantaged.
 
 ---
-
 
 
 ## Related Articles

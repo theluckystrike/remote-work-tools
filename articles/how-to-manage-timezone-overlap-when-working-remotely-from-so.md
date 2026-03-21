@@ -3,6 +3,7 @@ layout: default
 title: "How to Manage Timezone Overlap When Working Remotely from"
 description: "A practical guide for developers in Southeast Asia managing timezone differences with US-based remote teams. Learn strategies, tools, and workflows"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-manage-timezone-overlap-when-working-remotely-from-so/
 categories: [guides]
@@ -281,7 +282,6 @@ Working across massive timezone gaps means being strategic about personal time. 
 - Protect personal time after 10 PM fiercely
 
 This rhythm trades some evening time for uninterrupted deep work mornings—a tradeoff many Southeast Asian remote developers appreciate.
-
 
 
 ## Related Articles

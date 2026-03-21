@@ -3,6 +3,7 @@ layout: default
 title: "Best Practice for Hybrid Office Kitchen and Shared Space"
 description: "A practical guide to establishing hybrid office kitchen and shared space etiquette. Includes signage templates, scheduling systems, and automation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-office-kitchen-and-shared-space-eti/
 categories: [guides]
@@ -74,13 +75,13 @@ const rooms = {
 app.get('/api/rooms/:roomId/availability', async (req, res) => {
   const { roomId } = req.params;
   const { date, startTime, duration } = req.query;
-  
+
   const calendarEvents = await calendarAPI.getEvents({
     resourceId: rooms[roomId].calendarId,
     timeMin: `${date}T${startTime}:00`,
     timeMax: `${date}T${parseInt(startTime) + duration}:00`
   });
-  
+
   res.json({ available: events.length === 0 });
 });
 ```
@@ -107,7 +108,7 @@ def get_space_occupancy():
         'break-room': sensor_api.get('/sensors/break-room/motion/count'),
         'meeting-floor': booking_api.get('/rooms/occupied-count')
     }
-    
+
     return {
         'timestamp': datetime.utcnow().isoformat(),
         'spaces': {
@@ -161,7 +162,7 @@ jobs:
       - name: Fetch booking data
         run: |
           curl -s $API_URL/analytics/week > report.json
-      
+
       - name: Post to Slack
         uses: 8398a7/action-slack@v3
         with:
@@ -205,12 +206,12 @@ bot.on('message', async (message) => {
     // Check fridge photos from camera
     const fridgeStatus = await iotCamera.getLatestImage();
     const unlabeledItems = await visionAPI.detectUnlabeled(fridgeStatus);
-    
+
     if (unlabeledItems.length > 0) {
       bot.postMessage({
         channel: KITCHEN_CHANNEL,
-        text: `👀 Looks like ${unlabeledItems.length} items may be unlabeled. 
-               Please check and add your name! Unlabeled items will be 
+        text: `👀 Looks like ${unlabeledItems.length} items may be unlabeled.
+               Please check and add your name! Unlabeled items will be
                discarded tomorrow at 10am.`
       });
     }
@@ -230,12 +231,14 @@ When rolling out new shared space guidelines, follow this sequence:
 6. Announce changes: Explain the rationale, not just the rules
 7. Review and iterate: Check effectiveness after 30 days and adjust
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Office Mail and Package Handling for Part Time Occupants](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-- [Best Practice for Hybrid Team Social Events Including.](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+## Related Articles
+
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [Best Practice for Hybrid Office Mail and Package Handling](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
+- [Useful Thai search terms](/remote-work-tools/how-to-find-apartments-with-dedicated-office-space-in-chiang-mai-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

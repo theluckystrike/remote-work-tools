@@ -3,6 +3,7 @@ layout: default
 title: "How to Add Sound Dampening to Home Office Door Cheaply"
 description: "A practical guide for developers and power users to reduce noise transmission through office doors using affordable materials and smart techniques"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-add-sound-dampening-to-home-office-door-cheaply/
 categories: [guides]
@@ -271,7 +272,6 @@ Sound dampening pairs effectively with other productivity tools:
 - **Communicate door status** to household members (closed door = deep focus)
 
 The combination of physical soundproofing + active noise cancellation + white noise apps creates a multi-layered approach that handles even disruptive environments.
-
 
 
 ## Related Articles

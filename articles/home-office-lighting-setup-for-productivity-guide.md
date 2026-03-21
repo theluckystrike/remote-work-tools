@@ -3,6 +3,7 @@ layout: default
 title: "Home Office Lighting Setup for Productivity"
 description: "Optimize your home office lighting for maximum productivity. Learn about color temperature, brightness levels, smart automation, and practical"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-lighting-setup-for-productivity-guide/
 reviewed: true
@@ -207,8 +208,6 @@ Start simple: one quality task light with adjustable color temperature. Add smar
 The best lighting setup is one you'll actually use consistently. Incremental improvements beat elaborate systems that become complicated to maintain.
 
 ---
-
-
 
 
 ## Related Articles

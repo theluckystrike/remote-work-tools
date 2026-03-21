@@ -3,6 +3,7 @@ layout: default
 title: "Buddy Responsibilities Charter"
 description: "Learn how to build an effective remote developer onboarding buddy system. Practical setup guide with code snippets and implementation examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-developer-onboarding-buddy-system-for-n/
 categories: [guides]
@@ -102,12 +103,12 @@ def get_current_buddies():
 def select_buddy(developers, new_hire_start_date):
     """Select the developer with the lightest buddy load."""
     # Filter to developers who have been at the company 6+ months
-    eligible = [d for d in developers 
+    eligible = [d for d in developers
                 if d['join_date'] < (new_hire_start_date - timedelta(days=180))]
-    
+
     # Sort by current buddy count (lowest first)
     eligible.sort(key=lambda x: x['current_buddies'])
-    
+
     return eligible[0] if eligible else None
 
 def assign_buddy(new_hire, developers):
@@ -218,7 +219,6 @@ Use this checklist when launching or auditing your buddy system:
 **Skipping manager involvement.** Buddies should complement, not replace, manager check-ins and feedback.
 
 **Ignoring feedback.** Collecting data without acting on it signals that the program lacks genuine commitment.
-
 
 
 ## Related Articles

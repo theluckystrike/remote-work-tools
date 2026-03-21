@@ -3,6 +3,7 @@ layout: default
 title: "How to Write Async Daily Logs That Help Future Team Members"
 description: "Learn how to write async daily logs that help future team members understand your work, decisions, and context. Includes templates and best practices"
 date: 2026-03-18
+last_modified_at: 2026-03-18
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-async-daily-logs-that-help-future-team-members/
 categories: [guides]
@@ -300,7 +301,6 @@ Example: If three daily log entries mention "confusion around acceptance criteri
 Include "review daily logs from your first sprint" in your onboarding checklist. Point new team members to logs from the past 3 months as their first learning resource. Many teams find this replaces 50% of their formal onboarding docs.
 
 ---
-
 
 
 ## Related Articles

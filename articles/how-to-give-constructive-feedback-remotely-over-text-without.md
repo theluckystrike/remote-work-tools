@@ -3,6 +3,7 @@ layout: default
 title: "How to Give Constructive Feedback Remotely Over Text"
 description: "Master the art of delivering constructive feedback in remote text-based communication. Practical frameworks, templates, and techniques for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /how-to-give-constructive-feedback-remotely-over-text-without/
 categories: [guides]
@@ -144,7 +145,7 @@ Example:
 ```
 Hey Alex, wanted to share some thoughts on the deployment process.
 
-In yesterday's deploy, the rollback took 45 minutes because we had to trace through logs manually. 
+In yesterday's deploy, the rollback took 45 minutes because we had to trace through logs manually.
 
 I think we could reduce this significantly by adding the health-check endpoints we discussed last sprint. What do you think about prioritizing that in the next sprint planning?
 
@@ -328,7 +329,6 @@ Individual feedback matters less than systemic feedback culture. To build this:
    - Normalize the awkwardness
 
 Teams that master feedback compound their velocity because ideas flow freely and corrections happen fast. This is worth investing in.
-
 
 
 ## Related Articles

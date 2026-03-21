@@ -3,6 +3,7 @@ layout: default
 title: "Best Remote Team Social Channel Ideas for Building Genuine"
 description: "Practical Slack channel strategies for remote teams looking to build authentic relationships. Real examples, automation scripts, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-team-social-channel-ideas-for-building-genuine-c/
 categories: [guides]
@@ -195,12 +196,13 @@ Start with one channel and prove it works before expanding:
 Building genuine connections in remote teams requires intentional design. The channels exist, the tools are available—what matters is committing to social infrastructure as seriously as you take your technical infrastructure.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Virtual Coffee Chat Tool for Remote Teams Building Social Connections](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)
-- [How to Scale Remote Team Social Events From Informal.](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
-- [How to Create Interest-Based Slack Channels for Remote.](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)
+- [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
+- [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
+- [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
+- [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)
+- [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

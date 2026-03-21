@@ -3,6 +3,7 @@ layout: default
 title: "Notion Setup for Solo Freelancer Managing 5 Clients: A"
 description: "Build a practical Notion system to manage multiple clients efficiently. Learn database structures, templates, and workflows designed for solo"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /notion-setup-for-solo-freelancer-managing-5-clients/
 reviewed: true
@@ -181,7 +182,6 @@ Your Notion system requires periodic maintenance. Schedule monthly reviews:
 The system should serve your workflow, not constrain it. If a view feels unnecessary, delete it. If you need a new property, add it.
 
 Start with the three-database structure, add your five clients, and build views as you need them. This foundation scales beyond five clients when your business grows.
-
 
 
 ## Related Articles

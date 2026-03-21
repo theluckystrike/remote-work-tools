@@ -3,6 +3,7 @@ layout: default
 title: "Security Checklist Example"
 description: "A practical guide to creating vendor evaluation documentation for remote teams. Includes templates and best practices for procurement"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-remote-team-vendor-evaluation-documentation-tem/
 reviewed: true
@@ -49,12 +50,12 @@ Conduct thorough evaluations using your documented criteria. Where possible, inv
 **Test Scenario**: [Describe what you tested]
 
 **Pros Identified**:
-1. 
-2. 
+1.
+2.
 
 **Cons Identified**:
-1. 
-2. 
+1.
+2.
 
 **Screenshots Attached**: [Yes/No]
 
@@ -248,7 +249,6 @@ Stop further evaluation if you see these warning signs:
 - **Pricing "upon request"**: Usually signals premium pricing that doesn't scale
 
 Any of these warrants serious caution. Multiple red flags means exploring alternatives is warranted.
-
 
 
 ## Related Articles

@@ -3,6 +3,7 @@ layout: default
 title: "Linear vs Shortcut for a Remote Startup of 8 Engineers"
 description: "A practical comparison of Linear and Shortcut for managing an 8-engineer remote startup. Features, API access, GitHub integration, and implementation"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /linear-vs-shortcut-for-a-remote-startup-of-8-engineers/
 categories: [comparisons]
@@ -283,7 +284,6 @@ By now you should have clear guidance:
 
 **When in doubt:**
 Trial both for 1 week with real work. Most teams have clear preference after a week of actual use. Trust your engineers' intuition—they'll be using this tool 40+ hours weekly.
-
 
 
 ## Related Articles

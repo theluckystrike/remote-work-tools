@@ -3,6 +3,7 @@ layout: default
 title: "Documentation Platform for a 15 Person Remote Data Science T"
 description: "A 15-person remote data science team has documentation needs that differ from software engineering teams. Models have training data, evaluation metrics, and"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /documentation-platform-for-a-15-person-remote-data-science-t/
 categories: [guides]
@@ -363,7 +364,6 @@ docs/
 Assign every new hire a "documentation mentor" for their first month — an existing team member responsible for identifying gaps in the documentation that the new hire encounters. New hires find gaps that existing members have become blind to.
 
 
-
 ## Basic Information
 - **Owner**: Jane Smith (@jane)
 - **Created**: 2026-01-15
@@ -486,9 +486,6 @@ Choose XGBoost for production.
 - Consider XGBoost with GPU acceleration if latency becomes critical
 - Document any accuracy drift vs LightGBM model
 
-## Related Decisions
-- [Decision: Real-time vs Batch Serving](link)
-- [Decision: Python 3.10 as standard](link)
 ```
 
 ## Implementing Search Across Documentation

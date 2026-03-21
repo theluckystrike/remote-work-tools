@@ -3,6 +3,7 @@ layout: default
 title: "Code Review Guide"
 description: "A practical step-by-step guide for engineering managers to build documentation culture in remote teams. Includes templates, workflows, and code examples"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/
 reviewed: true
@@ -197,15 +198,13 @@ The initial investment pays continuous dividends. Engineers spend less time answ
 Start small, stay consistent, and watch your documentation culture develop naturally over time.
 
 
-
-
 ## Related Articles
 
 - [Remote Team Documentation Culture](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers/)
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
 - [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

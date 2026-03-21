@@ -3,6 +3,7 @@ layout: default
 title: "Secure Secrets Injection Workflow for Remote Teams Using"
 description: "Managing secrets across distributed teams presents unique challenges. When developers work from multiple locations, traditional methods like sharing"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /secure-secrets-injection-workflow-for-remote-teams-using-has/
 categories: [guides]
@@ -198,7 +199,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Authenticate to Vault
         uses: hashicorp/vault-action@v3
         with:
@@ -208,7 +209,7 @@ jobs:
           secrets: |
             secret/data/deploy AWS_ACCESS_KEY_ID | AWS_ACCESS_KEY_ID ;
             secret/data/deploy AWS_SECRET_ACCESS_KEY | AWS_SECRET_ACCESS_KEY
-      
+
       - name: Deploy
         run: ./deploy.sh
         env:
@@ -227,7 +228,6 @@ Implement these patterns to maintain security with distributed teams:
 3. **Use short TTLs** - Prefer shorter token lifetimes to limit exposure from compromised credentials
 4. **Separate environments** - Maintain distinct secret paths for development, staging, and production
 5. **Implement namespace isolation** - For larger organizations, use Vault namespaces to separate team secrets
-
 
 
 ## Related Articles

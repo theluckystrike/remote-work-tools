@@ -48,14 +48,14 @@ with mlflow.start_run(run_name="experiment-042"):
     mlflow.log_param("learning_rate", 2e-5)
     mlflow.log_param("epoch", 3)
     mlflow.log_param("model", "bert-base-uncased")
-    
+
     # Train your model
     trainer = Trainer(model=model, args=training_args)
     results = trainer.train()
-    
+
     mlflow.log_metric("eval_f1", results.metrics["eval_f1"])
     mlflow.log_metric("eval_loss", results.metrics["eval_loss"])
-    
+
     # Log the model
     mlflow.transformers.log_model(
         transformers_model=model,
@@ -111,11 +111,11 @@ jobs:
     runs-on: gpu-runner
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Run experiment
         run: |
           python train.py --config '${{ github.event.inputs.config }}'
-          
+
       - name: Commit results
         run: |
           git config user.name "Experiment Bot"
@@ -214,12 +214,13 @@ The goal is not perfection — it's building a habit of making experiment result
 Remote ML collaboration improves dramatically when experiment results are as accessible as code. Whether you choose a dedicated platform or a Git-based workflow, the key is consistency: log experiments, share results by default, and build the muscle memory of treating your experimental history as team knowledge.
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Developer Documentation Collaboration Tools for.](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
-- [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
-- [Best Virtual Team Building Activity Platform for Remote.](/remote-work-tools/best-virtual-team-building-activity-platform-for-remote-team/)
+- [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
+- [Batch export all artboards to multiple formats](/remote-work-tools/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
+- [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
+- [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

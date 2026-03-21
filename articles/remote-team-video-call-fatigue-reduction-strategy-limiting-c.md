@@ -3,6 +3,7 @@ layout: default
 title: "Meeting Camera Guidelines"
 description: "Camera-on meetings have become the default for remote teams, but the constant visibility creates real cognitive load. Research shows that sustained video"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-video-call-fatigue-reduction-strategy-limiting-c/
 categories: [guides]
@@ -224,8 +225,6 @@ Effective camera-on requirements for remote developer teams in 2026 follow these
 The strongest remote teams treat camera usage as a tool, not a test of commitment. Your code quality and collaboration matter more than whether your face appears on a screen.
 
 ---
-
-
 
 
 ## Related Articles

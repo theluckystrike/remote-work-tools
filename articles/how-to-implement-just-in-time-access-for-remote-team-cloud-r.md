@@ -3,6 +3,7 @@ layout: default
 title: "How to Implement Just-in-Time Access for Remote Team."
 description: "A practical guide to implementing just-in-time (JIT) access for remote teams. Learn how to secure cloud resources with temporary credentials, reduce"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-implement-just-in-time-access-for-remote-team-cloud-r/
 categories: [guides]
@@ -51,7 +52,7 @@ def grant_jit_access(role_arn: str, duration_minutes: int = 60):
     Grant temporary access to an IAM role.
     """
     sts_client = boto3.client('sts')
-    
+
     # Assume the role with a session policy limiting access
     response = sts_client.assume_role(
         RoleArn=role_arn,
@@ -72,7 +73,7 @@ def grant_jit_access(role_arn: str, duration_minutes: int = 60):
             }]
         }
     )
-    
+
     return {
         'access_key': response['Credentials']['AccessKeyId'],
         'secret_key': response['Credentials']['SecretAccessKey'],
@@ -100,16 +101,16 @@ class JITAccessRequest:
         self.approved_by = None
         self.approved_at = None
         self.expires_at = None
-    
+
     def approve(self, approver: str, duration_minutes: int = 60):
         self.status = "approved"
         self.approved_by = approver
         self.approved_at = datetime.utcnow()
         self.expires_at = self.requested_at + timedelta(minutes=duration_minutes)
-    
+
     def is_expired(self) -> bool:
         return datetime.utcnow() > self.expires_at
-    
+
     def to_dict(self):
         return {
             "id": self.id,
@@ -221,7 +222,6 @@ Remote team members need clear instructions on how to request access, what to in
 - **Overly permissive session policies** – Time-limited access is useless if the session policy grants full admin rights
 - **Bypassing JIT for "emergencies"** – This defeats the purpose; instead, design fast-track approval workflows
 - **Poor visibility into active sessions** – You need real-time awareness of who has access right now
-
 
 
 ## Related Articles

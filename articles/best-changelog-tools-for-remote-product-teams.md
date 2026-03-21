@@ -137,7 +137,7 @@ changelog: {
       perf: [],
       other: []
     };
-    
+
     changes.commits.forEach(commit => {
       const type = commit.message.split(':')[0].split('(')[0].trim();
       if (grouped[type]) {
@@ -146,7 +146,7 @@ changelog: {
         grouped.other.push(commit);
       }
     });
-    
+
     return Object.entries(grouped)
       .map(([type, msgs]) => `### ${type}\n${msgs.map(m => `- ${m.message}`).join('\n')}`)
       .join('\n\n');
@@ -193,11 +193,13 @@ The tools above each represent a different point on the flexibility-versus-simpl
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Best Gantt Chart Tools for Software Teams: A Technical Comparison](/remote-work-tools/best-gantt-chart-tools-for-software-teams/)
-- [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)
+- [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)
+- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+- [Best Tool for Remote Product Managers Running Async Customer](/remote-work-tools/best-tool-for-remote-product-managers-running-async-customer/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
+- [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

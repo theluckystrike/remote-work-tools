@@ -3,6 +3,7 @@ layout: default
 title: "Digital Nomad Packing List for Developers"
 description: "A practical digital nomad packing list for developers covering tech gear, workflow setup, and portable workstation essentials for remote work"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /digital-nomad-packing-list-for-developers/
 categories: [guides]
@@ -214,8 +215,6 @@ Schedule calls at times when you know you will be in a stable location, such as 
 Every developer's needs differ based on their stack, travel style, and duration. Start with this foundation, then customize based on your specific requirements. Test your setup on a short trip before committing to long-term travel.
 
 The right packing list enables you to maintain productivity while traveling light. Focus on versatile, durable items that serve multiple purposes. Your future self, coding from a beach in Portugal or a café in Tokyo, will appreciate the thoughtful preparation.
-
-
 
 
 ## Related Articles

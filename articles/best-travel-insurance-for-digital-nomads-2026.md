@@ -3,6 +3,7 @@ layout: default
 title: "Best Travel Insurance for Digital Nomads 2026: A"
 description: "Find the best travel insurance for digital nomads in 2026. Compare coverage options, understand policy technicalities, and learn how to automate your"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: theluckystrike
 permalink: /best-travel-insurance-for-digital-nomads-2026/
 categories: [guides]
@@ -67,7 +68,7 @@ class InsurancePolicy:
     def __init__(self, covered_countries, excluded_countries):
         self.covered = set(covered_countries)
         self.excluded = set(excluded_countries)
-    
+
     def is_covered(self, destination):
         if destination in self.excluded:
             return False
@@ -110,7 +111,7 @@ function daysUntilExpiry(policy: InsurancePolicy): number {
 
 function generateAlert(policy: InsurancePolicy): string {
   const days = daysUntilExpiry(policy);
-  
+
   if (days < 0) {
     return `⚠️ EXPIRED: ${policy.policyNumber} - Renew immediately!`;
   } else if (days < 14) {
@@ -222,7 +223,6 @@ Experienced nomads often layer multiple policies for coverage:
 - Evacuation membership: Global rescue services like Global Rescue
 
 This layered approach maximizes coverage while managing costs, ensuring you're protected regardless of where work takes you.
-
 
 
 ## Related Articles

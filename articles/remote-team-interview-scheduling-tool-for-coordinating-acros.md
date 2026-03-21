@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Interview Scheduling Tool for Coordinating"
 description: "A technical guide to building and implementing interview scheduling tools that handle timezone complexity for distributed hiring teams. Includes code"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-interview-scheduling-tool-for-coordinating-acros/
 categories: [guides]
@@ -31,14 +32,14 @@ At the foundation of any scheduling tool lies proper timezone data handling. The
 ```javascript
 // Convert a UTC time to multiple participant timezones
 function getParticipantTimes(utcDate, participants) {
-  const options = { 
+  const options = {
     timeZone: participants.timezone,
-    hour: 'numeric', 
+    hour: 'numeric',
     minute: '2-digit',
     weekday: 'short',
     timeZoneName: 'short'
   };
-  
+
   return {
     utc: utcDate.toISOString(),
     local: new Intl.DateTimeFormat('en-US', options).format(utcDate),
@@ -50,22 +51,22 @@ function getParticipantTimes(utcDate, participants) {
 function findOptimalSlots(candidates, interviewers, workingHours = { start: 9, end: 17 }) {
   const slots = [];
   const baseDate = new Date();
-  
+
   // Check slots over next 14 days
   for (let day = 0; day < 14; day++) {
     const checkDate = new Date(baseDate);
     checkDate.setDate(baseDate.getDate() + day);
-    
+
     for (let hour = workingHours.start; hour < workingHours.end; hour++) {
       const slotTime = new Date(checkDate);
       slotTime.setUTCHours(hour, 0, 0, 0);
-      
-      const allAvailable = candidates.every(c => 
+
+      const allAvailable = candidates.every(c =>
         isWithinWorkingHours(slotTime, c.timezone, workingHours)
-      ) && interviewers.every(i => 
+      ) && interviewers.every(i =>
         isWithinWorkingHours(slotTime, i.timezone, workingHours)
       );
-      
+
       if (allAvailable) {
         slots.push({
           utc: slotTime.toISOString(),
@@ -75,7 +76,7 @@ function findOptimalSlots(candidates, interviewers, workingHours = { start: 9, e
       }
     }
   }
-  
+
   return slots;
 }
 ```
@@ -96,28 +97,28 @@ class AvailabilityMatcher {
     const participantAvail = await Promise.all(
       participants.map(p => this.getParticipantAvailability(p))
     );
-    
+
     // Find overlapping availability
     const commonSlots = [];
     const startDate = new Date();
-    
+
     for (let day = 0; day < 14; day++) {
       const dayStart = new Date(startDate);
       dayStart.setDate(startDate.getDate() + day);
-      
+
       const slots = this.generateDaySlots(dayStart, duration);
-      
+
       for (const slot of slots) {
-        const allAvailable = participantAvail.every(avail => 
+        const allAvailable = participantAvail.every(avail =>
           this.isSlotAvailable(slot, avail)
         );
-        
+
         if (allAvailable) {
           commonSlots.push(this.formatSlot(slot, participants));
         }
       }
     }
-    
+
     return commonSlots;
   }
 
@@ -143,9 +144,9 @@ async function getCalendarAvailability(calendarId, timeMin, timeMax) {
   const auth = new google.auth.GoogleAuth({
     scopes: ['https://www.googleapis.com/auth/calendar.readonly']
   });
-  
+
   const calendar = google.calendar({ version: 'v3', auth });
-  
+
   const response = await calendar.freebusy.query({
     requestBody: {
       timeMin: timeMin.toISOString(),
@@ -153,7 +154,7 @@ async function getCalendarAvailability(calendarId, timeMin, timeMax) {
       items: [{ id: calendarId }]
     }
   });
-  
+
   return response.data.calendars[calendarId].busy;
 }
 
@@ -162,7 +163,7 @@ async function createInterviewEvent(interviewDetails) {
     email: p.email,
     displayName: p.name
   }));
-  
+
   const event = {
     summary: `Interview: ${interviewDetails.candidateName}`,
     description: interviewDetails.description,
@@ -182,7 +183,7 @@ async function createInterviewEvent(interviewDetails) {
       }
     }
   };
-  
+
   return calendar.events.insert({
     calendarId: 'primary',
     resource: event,
@@ -206,14 +207,14 @@ For high-volume hiring, manual scheduling becomes a bottleneck. Implement automa
 
 ```javascript
 async function autoScheduleInterview(candidates, interviewers, position) {
-  const matcher = new AvailabilityMatcher({ 
+  const matcher = new AvailabilityMatcher({
     workingHours: { start: 9, end: 18 },
-    bufferMinutes: 15 
+    bufferMinutes: 15
   });
-  
+
   const allParticipants = [candidates, ...interviewers];
   const slots = await matcher.findCommonSlots(allParticipants, 60);
-  
+
   if (slots.length === 0) {
     // Try expanding hours for participants in difficult time zones
     const expandedSlots = await matcher.findCommonSlots(
@@ -221,14 +222,14 @@ async function autoScheduleInterview(candidates, interviewers, position) {
       60,
       { start: 7, end: 21 }
     );
-    
+
     if (expandedSlots.length > 0) {
       return suggestExpandedHours(allParticipants, expandedSlots);
     }
-    
+
     return { status: 'no-slots', message: 'No common availability found' };
   }
-  
+
   // Select first available slot and create event
   const selectedSlot = slots[0];
   const event = await createInterviewEvent({
@@ -238,11 +239,10 @@ async function autoScheduleInterview(candidates, interviewers, position) {
     interviewers,
     position
   });
-  
+
   return { status: 'scheduled', event, slot: selectedSlot };
 }
 ```
-
 
 
 ## Related Articles

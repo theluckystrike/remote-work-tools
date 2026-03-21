@@ -3,6 +3,7 @@ layout: default
 title: "How to Create Asynchronous Client Update Format for Remote P"
 description: "Learn how to build efficient asynchronous client update formats for remote projects. Practical examples and implementation patterns for developers"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-create-asynchronous-client-update-format-for-remote-p/
 reviewed: true
@@ -382,7 +383,6 @@ Example:
 > I recommend Option 1—it's low-risk, maintains the SLA, and we can evaluate Option 2 post-launch. This will delay the dashboard release by 3 days (new ETA: March 26). Please confirm by EOD Wednesday so I can start implementation.
 
 This structure gives the client what they need to make a decision without creating panic.
-
 
 
 ## Related Articles

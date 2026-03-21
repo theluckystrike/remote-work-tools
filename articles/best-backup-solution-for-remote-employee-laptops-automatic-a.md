@@ -230,11 +230,12 @@ The best backup solution is one that runs automatically without requiring user i
 {% endraw %}
 
 
-## Related Reading
+## Related Articles
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Endpoint Security Solution for Remote Employees.](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
-- [Endpoint Encryption Enforcement for Remote Team Laptops.](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
-- [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
+- [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
+- [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)
+- [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [Connect Notion to Slack Automatic Page Update Notifications](/remote-work-tools/connect-notion-to-slack-automatic-page-update-notifications-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

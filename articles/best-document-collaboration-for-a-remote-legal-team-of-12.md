@@ -119,17 +119,17 @@ async function syncPadToGit(padId, targetPath) {
   const response = await axios.get(`${ETHERPAD_API}/1/getText`, {
     params: { padID: padId, apikey: API_KEY }
   });
-  
+
   const content = response.data.text;
-  
+
   // Write to file
   fs.writeFileSync(targetPath, content);
-  
+
   // Commit to Git with timestamp
   const timestamp = new Date().toISOString();
   execSync(`git add ${targetPath}`);
   execSync(`git commit -m "Sync from Etherpad: ${timestamp}"`);
-  
+
   console.log(`Synced ${padId} to ${targetPath}`);
 }
 
@@ -189,7 +189,7 @@ from pathlib import Path
 class LegalDocumentAudit:
     def __init__(self, audit_path="/var/log/legal/audit"):
         self.audit_path = Path(audit_path)
-    
+
     def log_action(self, user_id, action, document_path, metadata=None):
         entry = {
             "timestamp": datetime.utcnow().isoformat(),
@@ -199,11 +199,11 @@ class LegalDocumentAudit:
             "metadata": metadata or {},
             "ip_address": self._get_client_ip()
         }
-        
+
         daily_log = self.audit_path / f"audit-{datetime.now().strftime('%Y-%m-%d')}.jsonl"
         with open(daily_log, 'a') as f:
             f.write(json.dumps(entry) + '\n')
-    
+
     def generate_compliance_report(self, start_date, end_date, matter_id=None):
         # Aggregate audit entries for reporting
         pass
@@ -229,18 +229,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Generate Exhibit List
         run: |
           ls -1 contracts/ > exhibits.txt
-          
+
       - name: Create Execution Copy
         run: |
           cat contracts/master-agreement.md
           echo "---"
           cat exhibits.txt
           >> execution-copy-$(date +%Y%m%d).md
-      
+
       - name: Notify Matter Team
         if: github.event_name == 'push'
         run: |
@@ -278,11 +278,14 @@ The best document collaboration system for your remote legal team of 12 is one y
 
 ---
 
-## Related Reading
 
-- [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [Notion vs ClickUp for Engineering Teams: A Practical Comparison](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
+## Related Articles
+
+- [Best Remote Legal Team Document Collaboration Tool for](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
+- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

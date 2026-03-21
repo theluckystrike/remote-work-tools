@@ -176,11 +176,14 @@ Set filters to activate 2-3 hours before typical sleep time. Start at warm tempe
 
 The combination of blue light glasses + screen filtering + software tools + deliberate breaks reduces eye strain by 60-70% compared to glasses alone.
 
-## Related Reading
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [RescueTime vs Toggl Track: Productivity Comparison for.](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+## Related Articles
+
+- [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
+- [Best Headset for Wearing with Glasses All Day Remote Work](/remote-work-tools/best-headset-for-wearing-with-glasses-all-day-remote-work/)
+- [Best Monitor Height for Bifocal Glasses Wearing Developers](/remote-work-tools/best-monitor-height-for-bifocal-glasses-wearing-developers-setup/)
+- [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)
+- [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

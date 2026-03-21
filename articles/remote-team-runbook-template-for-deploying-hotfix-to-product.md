@@ -3,6 +3,7 @@ layout: default
 title: "Remote Team Runbook Template for Deploying Hotfix to"
 description: "A practical runbook template for remote engineering teams deploying hotfixes to production with distributed approval workflows across time zones"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-runbook-template-for-deploying-hotfix-to-product/
 categories: [guides]
@@ -229,7 +230,6 @@ After the hotfix is verified stable, document the incident:
 **Document decisions in writing.** Whether through PR comments, Slack threads, or incident logs, create a paper trail. This helps team members in different time zones understand what happened during their night and provides valuable context for future incidents.
 
 **Practice your runbook.** Run hotfix simulations during team retrospectives. Identify gaps in your process before real incidents expose them.
-
 
 
 ## Related Articles

@@ -250,7 +250,7 @@ class TimeTracker:
         self.api_token = api_token
         self.workspace_id = workspace_id
         self.base_url = "https://api.track.toggl.com/api/v9"
-    
+
     def start_timer(self, description, project_id=None):
         """Start a new time entry."""
         url = f"{self.base_url}/workspaces/{self.workspace_id}/time_entries"
@@ -261,10 +261,10 @@ class TimeTracker:
             "duration": -1,  # Running timer
             "created_with": "budget-tool-stack"
         }
-        response = requests.post(url, json=data, 
+        response = requests.post(url, json=data,
                                   auth=(api_token, 'api_token'))
         return response.json()
-    
+
     def get_week_summary(self):
         """Get time summary for current week."""
         url = f"{self.base_url}/workspaces/{self.workspace_id}/summary/time_entries"
@@ -273,7 +273,7 @@ class TimeTracker:
             "start_date": week_start.strftime("%Y-%m-%d"),
             "end_date": datetime.utcnow().strftime("%Y-%m-%d")
         }
-        response = requests.get(url, params=params, 
+        response = requests.get(url, params=params,
                                 auth=(api_token, 'api_token'))
         return response.json()
 ```
@@ -393,12 +393,14 @@ To maximize your budget tool stack:
 3. Document everything: Use Notion to create a team wiki with processes
 4. Regular reviews: Weekly check-ins on tool effectiveness
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
+- [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)
-- [CI/CD Pipeline Tools for a Remote Team of 2 Backend.](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-- [Remote Team Retreat Planning Guide Budget and Logistics.](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

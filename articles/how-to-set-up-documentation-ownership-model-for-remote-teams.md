@@ -3,6 +3,7 @@ layout: default
 title: "List all markdown files in your docs directory"
 description: "Learn how to establish clear documentation ownership in remote teams by assigning page maintainers, creating accountability, and improving content quality"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-documentation-ownership-model-for-remote-teams/
 reviewed: true
@@ -189,7 +190,7 @@ Create a CONTRIBUTING guide that explains the ownership model:
 <!-- CONTRIBUTING.md -->
 ## Documentation Ownership
 
-We use a [shared ownership model](docs/ownership.yaml) where each page has 
+We use a [shared ownership model](docs/ownership.yaml) where each page has
 designated maintainers. When contributing documentation:
 
 1. Check `docs/ownership.yaml` to find the relevant owner
@@ -222,8 +223,6 @@ WHERE last_reviewed < DATE_SUB(CURDATE(), INTERVAL 90 DAY);
 - Forgotten registry: Keep the ownership file in sync with actual content
 
 A well-implemented ownership model transforms documentation from a chaotic afterthought into a reliable team resource. The initial setup effort pays dividends in reduced confusion, faster onboarding, and content that actually stays current.
-
-
 
 
 ## Related Articles

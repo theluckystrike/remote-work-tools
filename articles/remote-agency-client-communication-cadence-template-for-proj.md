@@ -3,6 +3,7 @@ layout: default
 title: "Remote Agency Client Communication Cadence Template for"
 description: "A practical guide to building sustainable client communication workflows for remote agencies. Includes templates, code examples, and automation tips"
 date: 2026-03-16
+last_modified_at: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-client-communication-cadence-template-for-proj/
 reviewed: true
@@ -361,7 +362,6 @@ Watch for these signals that your cadence isn't working:
 - **Stakeholder confusion:** Client's leadership confused on project status (updates aren't reaching all stakeholders)
 
 If you see any of these, call a cadence reset conversation: "I want to make sure communication is working well. Can we talk about what's working and what isn't?" Usually reveals that cadence timing or format needs adjustment, not that more meetings are needed.
-
 
 
 ## Related Articles

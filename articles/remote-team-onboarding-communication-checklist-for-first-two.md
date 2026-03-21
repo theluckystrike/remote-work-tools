@@ -3,6 +3,7 @@ layout: default
 title: "communication-preferences.yaml"
 description: "A practical communication checklist to help new remote hires integrate smoothly during their first two weeks. Includes templates, tools, and best"
 date: 2026-03-15
+last_modified_at: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-onboarding-communication-checklist-for-first-two/
 reviewed: true
@@ -78,7 +79,7 @@ channels:
   urgent_issues: "Slack DM or phone call"
   normal_questions: "Slack channel message"
   non_urgent: "Email or Slack thread"
-  
+
 response_times:
   during_work_hours: "Within 2 hours"
   outside_hours: "Next business day"
@@ -243,7 +244,6 @@ While avoiding product recommendations, these tool categories help:
 - Task management: Linear, Jira, or similar tracking systems
 - Real-time chat: Slack, Microsoft Teams, or Discord
 - Calendar management: Shared calendars with timezone support
-
 
 
 ## Related Articles

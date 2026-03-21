@@ -61,7 +61,7 @@ After installing Clipy, you can create reusable code snippets. For instance, a c
 [feat] - Brief description
 
 - Added: What was added
-- Changed: What was modified  
+- Changed: What was modified
 - Fixed: What was resolved
 ```
 
@@ -107,7 +107,7 @@ CopyQ supports custom commands that process clipboard content. Add this to your 
 ```ini
 [Commands]
 1.command="
-    copyq: 
+    copyq:
     var txt = clipboardText();
     try {
         var obj = JSON.parse(txt);
@@ -207,11 +207,13 @@ Whichever tool you choose, integrating a clipboard manager into your daily workf
 ---
 
 
-## Related Reading
+## Related Articles
 
-- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
-- [RescueTime vs Toggl Track: Productivity Comparison for.](/remote-work-tools/rescue-time-vs-toggl-track-productivity-comparison/)
-- [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
+- [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
+- [Best Dotfiles Manager for Remote Developer Setup](/remote-work-tools/best-dotfiles-manager-for-remote-developer-setup/)
+- [Best Password Manager for a Remote Startup of 15 Employees](/remote-work-tools/best-password-manager-for-a-remote-startup-of-15-employees/)
+- [Best Password Manager for Remote Development Teams](/remote-work-tools/best-password-manager-for-remote-development-teams/)
+- [Best Whiteboard Tool for a Remote Team of 10 Product](/remote-work-tools/best-whiteboard-tool-for-a-remote-team-of-10-product-manager/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
