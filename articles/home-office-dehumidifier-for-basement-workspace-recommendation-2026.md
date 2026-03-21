@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home Office Dehumidifier for Basement Workspace — Recommendation"
+title: "Home Office Dehumidifier for Basement Workspace: 2026"
 description: "Find the best dehumidifier for your basement home office in 2026. Learn about pint capacity, energy efficiency, smart features, and top recommendations"
 date: 2026-03-16
 last_modified_at: 2026-03-16

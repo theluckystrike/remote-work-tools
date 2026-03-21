@@ -3,6 +3,9 @@ layout: default
 title: "Home Office Setup — Desks, Monitors, Ergonomics & Equipment"
 description: "Home office setup guides for remote workers: standing desks, monitors, ergonomic equipment, lighting, soundproofing, and cable management solutions."
 permalink: /topics/home-office-setup/
+intent-checked: true
+voice-checked: true
+date: 2026-03-21
 ---
 
 # Home Office Setup — Desks, Monitors, Ergonomics & Equipment

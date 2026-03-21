@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Career Ladder Documentation for"
+title: "How to Create Remote Team Career Ladder Documentation"
 description: "Career ladder documentation serves as the foundation for talent development in remote engineering organizations. When your team spans multiple time zones and"
 date: 2026-03-16
 last_modified_at: 2026-03-16

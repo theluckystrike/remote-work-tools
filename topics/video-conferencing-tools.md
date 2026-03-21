@@ -1,8 +1,11 @@
 ---
 layout: default
 title: "Video Conferencing Tools — Remote Meeting Solutions Compared"
-description: "Compare video conferencing tools for remote teams: Zoom, Google Meet, Microsoft Teams, and alternatives. Setup guides, pricing, and hybrid meeting room solutions."
+description: "Compare video conferencing tools for remote teams: Zoom, Google Meet, Microsoft Teams, and alternatives. Setup guides, pricing, and hybrid meeting room"
 permalink: /topics/video-conferencing-tools/
+intent-checked: true
+voice-checked: true
+date: 2026-03-21
 ---
 
 # Video Conferencing Tools — Remote Meeting Solutions Compared

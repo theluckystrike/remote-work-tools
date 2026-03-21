@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Montenegro Digital Nomad Visa Application Process for"
+title: "Montenegro Digital Nomad Visa Application Process for Remote"
 description: "Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026 — practical guide for remote teams and distributed workers"
 date: 2026-03-16
 last_modified_at: 2026-03-16

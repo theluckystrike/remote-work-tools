@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Configuration"
+title: "How to Run Async Book Clubs for Distributed Engineering"
 description: "Running a book club in a distributed engineering team presents unique challenges. Without the luxury of spontaneous hallway conversations or easy after-work"
 date: 2026-03-16
 last_modified_at: 2026-03-16

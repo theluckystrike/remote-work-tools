@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hybrid Office Fire Safety and Evacuation Plan Update for"
+title: "Hybrid Office Fire Safety and Evacuation Plan Update"
 description: "Learn how to update fire safety and evacuation plans for hybrid offices with variable occupancy. Covers smart occupancy tracking, dynamic evacuation"
 date: 2026-03-16
 last_modified_at: 2026-03-16

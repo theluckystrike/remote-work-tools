@@ -1,8 +1,11 @@
 ---
 layout: default
-title: "Async Collaboration — Tools & Workflows for Distributed Teams"
+title: "Async Collaboration — Tools & Workflows for Distributed"
 description: "Async collaboration guides: video messaging, code review without calls, RFC processes, design critiques, and standup alternatives for remote teams."
 permalink: /topics/async-collaboration-tools/
+intent-checked: true
+voice-checked: true
+date: 2026-03-21
 ---
 
 # Async Collaboration — Tools & Workflows for Distributed Teams

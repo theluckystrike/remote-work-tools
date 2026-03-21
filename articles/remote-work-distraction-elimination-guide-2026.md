@@ -10,7 +10,7 @@ categories: [guides]
 tags: [remote-work-tools, productivity, focus, remote-work, tools]
 reviewed: true
 score: 9
-intent-checked: false
+intent-checked: true
 voice-checked: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Hiring: Diversity Sourcing Strategy for"
+title: "Remote Team Hiring Diversity Sourcing Strategy"
 description: "Building diverse teams remotely requires intentional sourcing strategies that go beyond traditional job postings. Distributed companies must actively reach"
 date: 2026-03-16
 last_modified_at: 2026-03-16

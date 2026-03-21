@@ -9,6 +9,8 @@ permalink: /nomad-slack-communities-guide-2026/
 reviewed: true
 score: 8
 categories: [guides]
+intent-checked: true
+voice-checked: true
 ---
 
 

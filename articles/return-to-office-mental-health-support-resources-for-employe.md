@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Return to Office Mental Health Support Resources for"
+title: "Return to Office Mental Health Support Resources"
 description: "A practical guide to mental health support resources for employees returning to office and adjusting to commuting routines. Includes tools, strategies"
 date: 2026-03-16
 last_modified_at: 2026-03-16

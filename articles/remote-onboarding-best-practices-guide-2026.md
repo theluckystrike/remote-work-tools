@@ -10,9 +10,8 @@ categories: [guides]
 tags: [remote-work-tools, remote-work, onboarding, developer-tools, best-practices, productivity, 2026, best-of]
 reviewed: true
 score: 8
-intent-checked: false
+intent-checked: true
 voice-checked: true
-voice-checked: false
 ---
 
 {% raw %}

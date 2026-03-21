@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Remote Team Quarterly Business Review for"
+title: "How to Run Remote Team Quarterly Business Review"
 description: "Remote team QBRs use async documentation, recorded updates, and focused sync discussions to align distributed leadership on metrics, wins, and next-quarter"
 date: 2026-03-15
 last_modified_at: 2026-03-15

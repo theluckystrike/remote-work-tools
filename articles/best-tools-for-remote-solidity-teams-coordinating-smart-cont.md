@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Best Tools for Remote Solidity Teams Coordinating Smart Contract Audits 2026"
-description: "A practical guide to tools that help remote Solidity teams coordinate smart contract audits effectively. Covers communication, collaboration, documentation, and security testing utilities."
+title: "Best Tools for Remote Solidity Teams Coordinating Smart"
+description: "A practical guide to tools that help remote Solidity teams coordinate smart contract audits effectively. Covers communication, collaboration, documentation"
 date: 2026-03-20
 author: theluckystrike
 permalink: /best-tools-for-remote-solidity-teams-coordinating-smart-cont/

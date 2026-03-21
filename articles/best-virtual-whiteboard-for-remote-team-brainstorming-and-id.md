@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Virtual Whiteboard for Remote Team Brainstorming and"
+title: "Best Virtual Whiteboard for Remote Team Brainstorming"
 description: "Discover the best virtual whiteboard tools for remote team brainstorming and ideation in 2026. Compare features, API integrations, and implementation"
 date: 2026-03-16
 last_modified_at: 2026-03-16

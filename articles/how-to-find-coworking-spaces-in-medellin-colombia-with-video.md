@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Find Coworking Spaces in Medellín Colombia with"
+title: "How to Find Coworking Spaces in Medellín Colombia"
 description: "Medellín has become a premier destination for digital nomads and remote workers, offering a vibrant ecosystem of coworking spaces. For developers and power"
 date: 2026-03-16
 last_modified_at: 2026-03-16

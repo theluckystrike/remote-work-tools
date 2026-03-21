@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Run Sprints with a Remote Team of 4 Engineers: A"
+title: "How to Run Sprints with a Remote Team of 4 Engineers"
 description: "Learn practical strategies for running effective sprints with a remote team of 4 engineers. Includes async ceremonies, GitHub templates, capacity"
 date: 2026-03-16
 last_modified_at: 2026-03-16

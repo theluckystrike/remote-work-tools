@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Digital Nomad Mastermind Groups Guide 2026"
-description: "A practical guide to finding, joining, and running effective mastermind groups as a digital nomad developer. Tools, structures, and real-world examples for remote professionals."
+description: "A practical guide to finding, joining, and running effective mastermind groups as a digital nomad developer. Tools, structures, and real-world examples for"
 date: 2026-03-20
 author: theluckystrike
 permalink: /digital-nomad-mastermind-groups-guide-2026/

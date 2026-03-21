@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Team Book Club Format and Facilitation Guide for"
+title: "Remote Team Book Club Format and Facilitation Guide"
 description: "A practical guide to running effective remote book clubs for developer teams. Includes format templates, help scripts, and tooling recommendations"
 date: 2026-03-16
 last_modified_at: 2026-03-16

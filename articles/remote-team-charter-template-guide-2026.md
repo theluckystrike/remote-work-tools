@@ -11,6 +11,7 @@ reviewed: true
 score: 9
 categories: [guides]
 tags: [remote-work-tools, remote-work]
+intent-checked: true
 ---
 
 A remote team charter serves as the foundational document for distributed teams, establishing clear expectations, communication protocols, and operational guidelines. This guide provides actionable templates and examples for developers and power users building or managing remote teams in 2026.

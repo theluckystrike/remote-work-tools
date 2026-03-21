@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Onboarding Buddy Program Template for"
+title: "How to Create Remote Onboarding Buddy Program Template"
 description: "A practical guide to building a remote onboarding buddy program template that helps new hires integrate faster and feel supported from day one"
 date: 2026-03-15
 last_modified_at: 2026-03-15

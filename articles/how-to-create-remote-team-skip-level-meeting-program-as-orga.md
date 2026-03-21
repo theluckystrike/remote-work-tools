@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Create Remote Team Skip Level Meeting Program As"
+title: "How to Create Remote Team Skip Level Meeting Program"
 description: "A practical guide to implementing skip-level meetings in remote organizations. Learn how to maintain direct communication channels as your team grows"
 date: 2026-03-16
 last_modified_at: 2026-03-16
