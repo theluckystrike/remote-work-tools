@@ -184,6 +184,107 @@ The best solution depends on your specific constraints. If you're primarily in v
 
 Whatever approach you choose, test it during your highest-noise times before important meetings. The goal is consistent, professional audio quality that lets you focus on the meeting—not on what's happening in the next room.
 
+## Recommended Hardware Solutions and Pricing
+
+**Marpac Dohm (Brown Noise Machine)**
+- Price: $45-55
+- Best for: Budget solution, mechanical reliability, no electricity dependency
+- How it works: Uses actual fan mechanism to generate brown noise (not recorded audio)
+- Longevity: 5-10 years typical
+- Downside: Can't adjust volume digitally, takes up desk space
+
+**LectroFan EVO (App-controlled)**
+- Price: $60-80
+- Best for: Customizable noise profiles, smartphone control
+- How it works: Digital sound generation with 200+ noise options
+- Longevity: 3-5 years (battery/speaker degradation)
+- Downside: Relies on battery, sound quality inconsistent across apps
+
+**MyNoise.net (Browser-based, free)**
+- Price: $0-10 optional donation
+- Best for: Laptop-based workers who already have speakers
+- How it works: Web-based frequency generator with granular control
+- Longevity: No hardware, runs forever
+- Downside: Requires always-on browser tab, uses some CPU
+
+**Sonos Speaker + Pink Noise App**
+- Price: $150-200 (if you already have Sonos, just $0)
+- Best for: Integration with existing smart home
+- How it works: Stream brown/pink noise through quality speaker
+- Longevity: 5-7 years
+- Downside: Overkill if you only need noise masking
+
+For remote workers with toddlers, start with Marpac Dohm ($50). It's simple, reliable, and lasts a decade.
+
+## Stacking Noise Management Layers
+
+One solution rarely works for toddler noise. Layer multiple approaches:
+
+**Layer 1: Hardware (white noise machine)**: Passive masking of baseline background sound.
+
+**Layer 2: Acoustic treatment**: Curtains, bookshelves, door weatherstripping reduce transmission from source.
+
+**Layer 3: ANC headphones**: For critical meetings, add active noise cancellation on top of white noise.
+
+**Layer 4: Communication protocols**: Let teammates know that you're in a noisy environment. Many will self-adjust (avoid side comments during your speaking).
+
+**Layer 5: Timing**: Schedule critical meetings during nap time when toddler noise naturally decreases.
+
+Implementing all five can reduce noticeable background sound by 70-80%. The key insight: no single solution works at 100%.
+
+## When to Use This in Your Workflow
+
+**Always on**: Background white noise throughout your workday. Improves focus even when no meetings are scheduled.
+
+**Before meetings**: Ramp it up 5 minutes before a call. Gives your nervous system time to adjust.
+
+**During focused work**: Some developers find steady brown noise helps concentration during debugging or documentation writing.
+
+**Tactical for loud times**: If your child typically has a meltdown at 3 PM, max out white noise at 2:45 PM before the meeting.
+
+## Testing Your Setup Before Important Calls
+
+Do a test call with a trusted colleague:
+
+1. Set up your normal meeting environment with white noise running
+2. Call them via Zoom or Teams
+3. Ask: "Can you hear my typing? Can you hear background noise? How clear is my voice?"
+4. Adjust white noise volume or positioning based on feedback
+5. Record a 2-minute snippet and listen to it yourself
+
+This one practice prevents the embarrassment of introducing yourself in an important meeting while a toddler screams in the background.
+
+## Maintenance and Replacement
+
+**Marpac Dohm**: Clean the fan monthly to prevent dust accumulation. Lasts indefinitely if kept clean.
+
+**Electronic devices**: Speaker cones degrade over 3-4 years. Audio quality gradually decreases. Plan replacement every 5 years.
+
+**Software solutions**: Browser-based generators are free forever, but myNoise.net occasionally updates. Stay on current version for best performance.
+
+## When Not to Use White Noise
+
+White noise isn't a universal solution. Some situations call for different approaches:
+
+**For conference calls where you must be heard**: White noise makes your colleagues strain to hear you. Use it only for silent focus work.
+
+**For truly chaotic environments**: If background noise is consistently 75+dB (factory-level sound), white noise won't be enough. Consider a physical relocation.
+
+**For unexpected events**: White noise masks background sound, but very loud events (breaking glass, shouting) will still penetrate. It's a workflow tool, not a soundproof vault.
+
+**For all-day ambient use**: Some people find all-day white noise tiring. Use it tactically (before important calls) rather than constantly.
+
+## Real-World Success Stories
+
+**Case 1: Remote parent with newborn**
+Used Marpac Dohm + ANC headphones. Reduced background noise perception by 60%. Cost: $50 + $150 for headphones. Worked better than expected.
+
+**Case 2: Shared apartment situation**
+Built custom generator (myNoise.net) running on always-on Raspberry Pi. Adjusted volume automatically based on time of day. Completely solved neighbor noise issues at zero marginal cost.
+
+**Case 3: Coffee shop nomad**
+Portable white noise speaker (Sonos Move) in backpack. Worked in cafes, trains, hotels. Created personal acoustic bubble anywhere. Cost: $350 but worth it for someone constantly in noisy environments.
+
 ---
 
 

@@ -187,6 +187,97 @@ The ScreenBar's lower total cost of ownership, combined with lower maintenance o
 
 For dedicated developer setups where the monitor serves as the primary work surface, the ScreenBar's asymmetric lighting design addresses real pain points that generic desk lamps cannot match. The automatic features contribute to a more comfortable working environment during long coding sessions, while traditional desk lamps provide flexibility and lower price points at the cost of more deliberate positioning.
 
+## Troubleshooting Common Setup Issues
+
+Even optimal lighting setups encounter problems. Here's how to diagnose and fix common issues:
+
+**Problem: ScreenBar too bright or too dim**
+- Check if the autolight sensor is clean (dust reduces responsiveness)
+- Verify the brightness slider in settings matches your preference
+- Try manual mode if automatic adjustment feels erratic
+- Test in different ambient lighting conditions (evening vs. daylight)
+
+**Problem: Inconsistent brightness across monitors**
+- Single ScreenBar on center monitor won't light outer displays equally
+- Solution: Add a side desk lamp with warm color temperature (3000K) for outer edges
+- Cost-effective hybrid approach: ScreenBar center (~$99) + budget desk lamp side (~$40)
+
+**Problem: Screen glare still visible**
+- Verify the ScreenBar is mounted perpendicular to the desk
+- Adjust monitor tilt angle—even 5 degrees affects glare perception
+- Check for window reflections competing with artificial light
+- Consider an anti-glare monitor protector as supplementary solution
+
+**Problem: USB cable too short**
+- ScreenBar connects via short USB cable (typically 6-8 feet)
+- Solution: Use a monitor with USB hub (ScreenBar plugs into hub instead of PC)
+- Or: Extend with a USB extension cable positioned along monitor stand
+
+## Integration with Standing Desks
+
+If your monitor height changes throughout the day, lighting positioning becomes complicated:
+
+**ScreenBar advantage**: Mounted on the monitor, it moves with monitor height automatically
+**Desk lamp disadvantage**: Fixed height lamp no longer aligns properly when monitor raises/lowers
+
+For standing desk users, the ScreenBar's automatic adjustment to monitor position represents significant practical value. You don't have to reposition lighting when switching between sit and stand modes.
+
+## Comparison with Other Monitor-Mounted Lights
+
+The ScreenBar isn't the only monitor-mounted option. Alternatives include:
+
+- **Xiaomi Mi Computer Light Bar** ($45-60): Simpler, fewer features, reliable performance
+- **NZXT Hue 2 Underglow** ($50-80): RGB gaming-focused, overkill for developers
+- **BenQ e-Reading Lamp** ($120-150): Larger coverage but thicker bezel requirement
+
+The standard ScreenBar remains the best value because it balances cost, features, and compatibility.
+
+## Lighting for Different Work Tasks
+
+Different coding tasks benefit from different lighting approaches:
+
+**Code writing and debugging**
+- Desk-focused illumination (ScreenBar ideal)
+- Slightly warm color temperature (4000-4500K) reduces eye strain during extended focus
+- Glare-free screen essential for rapid visual scanning
+
+**Pair programming on video call**
+- Front-facing illumination (desk lamp angled toward face)
+- Brighter overall light (5000-6000K) appears more alert on camera
+- ScreenBar provides consistency but won't light your face effectively
+
+**Reviewing documentation or printed materials**
+- Flexible positioning critical (desk lamp advantage)
+- Directional light at 45 degrees to paper surface
+- Monitor-mounted light doesn't help with printed docs
+
+Choose based on your primary task 70% of the time. If debugging dominates your schedule, ScreenBar. If varied tasks matter equally, dual lighting wins.
+
+## Certification and Standards
+
+Legitimate lighting products meet safety and performance standards:
+
+- **UL/FCC certified**: Electrical safety and radio interference testing
+- **Flicker-free**: PWM frequency above 3000Hz (invisible to human eyes)
+- **Color rendering index (CRI) 90+**: Accurate color representation
+
+BenQ ScreenBar meets these standards. Budget desk lamps often don't—check product specs before buying.
+
+## Maintenance and Longevity
+
+Unlike software, physical hardware degrades predictably:
+
+**ScreenBar maintenance**:
+- Clean sensor lens quarterly (compressed air or soft cloth)
+- Check USB connection annually for loose connectors
+- Replace if LED stops responding to brightness adjustments
+
+**Desk lamp maintenance**:
+- Replace bulbs every 2-3 years (or when dimming)
+- Clean lampshade/diffuser quarterly (dust accumulation)
+- Check mechanical arm for loosening (tighten as needed)
+
+ScreenBar wins on maintenance simplicity—no bulb changes, no moving parts to wear out.
 
 ## Related Articles
 
