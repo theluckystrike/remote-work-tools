@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Productivity Tracking Tools for Remote Teams 2026"
-description: "Compare productivity tracking tools for remote teams in 2026: Time Doctor, Hubstaff, RescueTime, and activity-based metrics. Avoid surveillance theater; track outcomes."
+description: "Compare productivity tracking tools for remote teams in 2026: Time Doctor, Hubstaff, RescueTime, and activity-based metrics."
 date: 2026-03-21
 last_modified_at: 2026-03-21
 author: theluckystrike

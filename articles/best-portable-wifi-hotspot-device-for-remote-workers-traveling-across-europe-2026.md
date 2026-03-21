@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Best Portable WiFi Hotspot Device for Remote Workers"
+title: "Best Portable WiFi Hotspot Device for Remote Workers — Traveling"
 description: "A technical guide to choosing portable WiFi hotspots for remote workers in Europe. Compare mobile routers, evaluate carrier compatibility, and set up"
 date: 2026-03-16
 last_modified_at: 2026-03-16

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Retrospective Tools and Process Guide"
-description: "Run effective async retrospectives for remote teams using EasyRetro, Parabol, and Notion. Templates, facilitation steps, and action item tracking without live calls."
+description: "Run effective async retrospectives for remote teams using EasyRetro, Parabol, and Notion."
 date: 2026-03-21
 author: theluckystrike
 permalink: /async-retrospective-tools-and-process/
