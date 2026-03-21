@@ -9,7 +9,7 @@ permalink: /best-virtual-whiteboard-for-remote-team-brainstorming-and-id/
 categories: [guides]
 tags: [remote-work-tools, remote-work, collaboration, brainstorming, whiteboard, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /best-vpn-for-remote-development-teams-with-split-tunneling-2/
 categories: [guides]
 tags: [remote-work-tools, vpn, split-tunneling, remote-work, development-tools, security, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
