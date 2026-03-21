@@ -9,7 +9,7 @@ permalink: /how-to-create-distraction-free-workspace-at-home/
 categories: [guides]
 tags: [remote-work-tools, workspace, productivity, remote-work, focus]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

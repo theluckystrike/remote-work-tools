@@ -9,7 +9,7 @@ permalink: /how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighbor
 categories: [guides]
 tags: [remote-work-tools, hot-desking, hybrid-office, floor-plan, neighborhood-zones, office-management, workspace]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

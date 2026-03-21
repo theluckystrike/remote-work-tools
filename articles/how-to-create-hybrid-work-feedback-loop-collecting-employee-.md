@@ -9,7 +9,7 @@ permalink: /how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on
 categories: [guides]
 tags: [remote-work-tools, hybrid-work, feedback, policy, employee-input, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

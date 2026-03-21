@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-compensation-benchmarking-report-u/
 categories: [guides]
 tags: [remote-work-tools, compensation, remote-work, salary, benchmarking, hr-tech, data-analysis]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
