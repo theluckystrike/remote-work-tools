@@ -30,6 +30,20 @@ An automated reporting system consists of three core components:
 
 For a typical remote project, you'll pull data from sources like GitHub issues, Jira tickets, Linear boards, or Trello. The automation layer then compiles this into a human-readable format.
 
+## Choosing the Right Data Sources
+
+Before writing a single line of automation code, decide which data sources will power your reports. The choice depends on your team's toolstack and what your clients actually care about. Here is a comparison of the most common sources:
+
+| Tool | Best For | API Quality | Free Tier |
+|---|---|---|---|
+| GitHub | Engineering teams, open-source | Excellent | Yes |
+| Jira | Large enterprise projects | Good | Limited |
+| Linear | Modern engineering teams | Excellent | Yes |
+| Trello | Simple project boards | Good | Yes |
+| Asana | Cross-functional teams | Good | Yes |
+
+For most remote development agencies, GitHub covers the majority of client-facing metrics: what shipped, what is in progress, and what is blocking progress. If your team also uses a project management layer like Linear, pull from both and merge the data in your template.
+
 ## Building the Data Collection Layer
 
 Start by identifying which metrics matter to your clients. Common choices include:
@@ -78,6 +92,49 @@ def get_open_issues():
 ```
 
 This script fetches merged pull requests from the past week and lists current open issues. You can extend it to include commits, milestones, or any other GitHub API data relevant to your client.
+
+## Pulling Data from Linear
+
+If your team tracks work in Linear alongside GitHub, use the Linear GraphQL API to include issue completion data. Linear's API is particularly clean and well-documented:
+
+```python
+import requests
+
+LINEAR_API_KEY = os.environ.get("LINEAR_API_KEY")
+LINEAR_TEAM_ID = "your-team-id"
+
+def get_linear_completed_issues(days=7):
+    """Fetch completed Linear issues from the past week."""
+    since = (datetime.now() - timedelta(days=days)).isoformat()
+    query = """
+    query CompletedIssues($teamId: String!, $since: DateTime!) {
+      issues(
+        filter: {
+          team: { id: { eq: $teamId } }
+          completedAt: { gte: $since }
+          state: { type: { eq: "completed" } }
+        }
+      ) {
+        nodes {
+          title
+          identifier
+          assignee { name }
+          completedAt
+          estimate
+        }
+      }
+    }
+    """
+    response = requests.post(
+        "https://api.linear.app/graphql",
+        json={"query": query, "variables": {"teamId": LINEAR_TEAM_ID, "since": since}},
+        headers={"Authorization": LINEAR_API_KEY}
+    )
+    data = response.json()
+    return data["data"]["issues"]["nodes"]
+```
+
+Combining Linear issues with GitHub PRs gives clients a complete picture: business-level work items alongside the actual code changes that delivered them.
 
 ## Creating the Report Template
 
@@ -191,6 +248,20 @@ jobs:
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
 ```
 
+## Report Format Options: Choosing What Works for Each Client
+
+Not every client wants a plain-text email. Tailor your delivery format based on the client's preferences and technical comfort level.
+
+| Format | Best For | Tooling Required |
+|---|---|---|
+| Plain-text email | Non-technical executives | SMTP only |
+| HTML email | Most clients | Jinja2 + SMTP |
+| PDF attachment | Compliance-heavy clients | WeasyPrint or ReportLab |
+| Slack message | Technical teams | Slack Webhooks |
+| Notion page update | Teams using Notion | Notion API |
+
+For HTML emails, render your Markdown to HTML using Python's `markdown` library before sending. This produces professional-looking reports without requiring a dedicated email platform.
+
 ## Enhancing Reports with Additional Context
 
 Basic metrics tell part of the story. Consider adding:
@@ -202,6 +273,8 @@ Basic metrics tell part of the story. Consider adding:
 
 You can gather this context through structured conventions like a weekly standup bot that collects status updates, or by pulling from a dedicated "status" label in your issue tracker.
 
+A practical approach is to maintain a `report-notes.md` file in the repository that team members update throughout the week. Your automation script reads this file at report generation time and appends it as the "Highlights" section. This keeps qualitative context attached to quantitative metrics without requiring any additional tooling.
+
 ## Security and Access Considerations
 
 When automating client reports, keep these best practices in mind:
@@ -210,6 +283,8 @@ When automating client reports, keep these best practices in mind:
 - Use Environment Variables: Never hardcode API tokens or credentials
 - Audit Logs: Track report generation and delivery for troubleshooting
 - Opt-Out Mechanism: Allow clients to pause or adjust report frequency
+
+For multi-client setups, use a configuration file per client that specifies their repository, recipients, and preferred format. This prevents accidental data cross-contamination between clients and makes it easy to onboard new accounts without modifying the core script.
 
 ## Measuring Report Effectiveness
 
@@ -220,7 +295,7 @@ Track whether your automated reports achieve their purpose:
 - Client satisfaction with project visibility
 - Time saved compared to manual reporting
 
-Adjust your template and delivery frequency based on feedback. The goal is consistent, valuable communication—not information overload.
+Adjust your template and delivery frequency based on feedback. The goal is consistent, valuable communication—not information overload. If a client starts ignoring reports within a few weeks, that is a signal to shorten the format, increase the signal-to-noise ratio, or shift to a different delivery channel rather than continuing to send reports nobody reads.
 
 ---
 

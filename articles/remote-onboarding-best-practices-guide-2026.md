@@ -47,6 +47,20 @@ resource "aws_iam_user_login_profile" "developer" {
 
 This approach ensures consistent access across all required services. New developers receive credentials through secure channels on their start date.
 
+### Hardware Logistics and Shipping Lead Times
+
+One practical challenge unique to remote onboarding is hardware delivery. In-office teams simply hand a laptop to the new hire. Remote teams must ship equipment, which can take 5-10 business days internationally. Build a 2-week buffer into your pre-arrival timeline for hardware provisioning.
+
+Create a standard hardware kit that ships automatically when HR confirms a start date:
+
+- Laptop (pre-imaged with security software and VPN client)
+- Webcam (if not built into laptop)
+- Headset with noise cancellation
+- Ergonomic keyboard and mouse
+- Monitor (for roles requiring extended screen work)
+
+Track shipment status and confirm delivery 3 days before start date. If hardware is delayed, arrange a temporary setup using the new hire's personal equipment with remote desktop access to a cloud workstation—a stopgap that keeps day one on schedule.
+
 ### Development Environment Standardization
 
 Environment inconsistencies cause frustration and waste time. Containerized development environments solve this problem effectively:
@@ -88,6 +102,12 @@ Assign progressive tasks that increase in complexity. This approach helps new hi
 | 4 | Independent work | Full feature or significant contribution |
 
 Avoid overwhelming new hires with mandatory training sessions. Instead, integrate learning into actual work.
+
+### The "First Commit" Milestone
+
+Treat a new hire's first merged pull request as a meaningful milestone worth celebrating. Post it in your team Slack channel. This accomplishment—however small the actual change—signals that the new hire can navigate the full development workflow: clone repo, create branch, make change, open PR, pass CI, receive review, and merge.
+
+Aim for this milestone to happen by end of day three. If environment issues prevent it, that is diagnostic information: your dev environment setup documentation needs improvement.
 
 ### Documentation Requirements
 
@@ -156,6 +176,17 @@ Screen recordings accelerate knowledge transfer. Teams should record common proc
 
 Store recordings in a centralized location accessible to all team members.
 
+### Async-First Communication Norms
+
+Explicitly document your team's async communication norms and share them during the first week. Cover these points:
+
+- Expected response time for Slack DMs (e.g., within 4 hours during your working day)
+- When to use Slack versus email versus a GitHub comment
+- How to signal you are blocked without requiring a real-time answer (e.g., post a detailed async question with "NRN" tag, meaning No Response Needed before tomorrow)
+- Meeting etiquette: agendas required 24 hours in advance, decisions documented in writing after every call
+
+New hires from office environments sometimes over-rely on real-time messaging to compensate for feeling disconnected. Coaching them into async patterns early prevents them from becoming a bottleneck when time zones diverge.
+
 ## Mentorship Programs
 
 Structured mentorship accelerates integration. Pair new hires with experienced developers who can provide guidance.
@@ -179,6 +210,15 @@ Experienced developers benefit from fresh perspectives. Encourage new hires to s
 - Alternative approaches to problem-solving
 
 This bidirectional knowledge transfer strengthens the entire team.
+
+### "Buddy" vs. Technical Mentor
+
+Consider separating the mentor role into two distinct relationships:
+
+- **Technical mentor**: Senior engineer responsible for code review, technical guidance, and codebase orientation. Formal, scheduled relationship.
+- **Onboarding buddy**: Peer-level team member who answers "silly questions" about how the team actually works—where to find the lunch expense policy, how the team really handles on-call, which Slack channels matter. Informal, available as needed.
+
+The buddy relationship reduces the anxiety of bothering a senior engineer with non-technical questions, which is a common source of new hire isolation in distributed teams.
 
 ## Performance Checkpoints
 
@@ -233,6 +273,16 @@ Track metrics to improve the onboarding process continuously.
 - **Retention Rate**: Percentage of new hires remaining after one year
 
 Analyze data quarterly. Identify bottlenecks and iterate on the process.
+
+### Onboarding Retrospective
+
+After each new hire completes their 90-day period, schedule a 30-minute onboarding retrospective. Ask:
+
+- What was most confusing about the first week?
+- Which documentation was missing or outdated?
+- What would have made your first month faster?
+
+Feed these answers directly into documentation updates. New hires are your best source of signal on where your onboarding has drifted from reality—experienced team members become blind to gaps they've long since internalized.
 
 
 ## Related Articles
