@@ -5,7 +5,6 @@ description: "Reviews, comparisons, and guides for the best remote work tools, a
 permalink: /
 ---
 
-{% raw %}
 # Remote Work Tools
 
 Reviews, comparisons, and guides for the best remote work tools, apps, and productivity software.
@@ -25,11 +24,11 @@ Browse articles by topic:
 
 ---
 
-## All Articles
+## Recent Articles
 
-{% for page in site.pages %}
-{% if page.path contains 'articles/' %}
-- [{{ page.title }}]({{ page.url | relative_url }})
-{% endif %}
+{% assign rwt_articles = site.pages | where_exp: "p", "p.path contains 'articles/'" | sort: "date" | reverse %}
+{% for p in rwt_articles limit:50 %}
+- [{{ p.title }}]({{ p.url | relative_url }})
 {% endfor %}
-{% endraw %}
+
+Browse topic guides above for the full catalog.
