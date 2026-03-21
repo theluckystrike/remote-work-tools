@@ -165,7 +165,7 @@ Track these metrics to evaluate your async feedback process:
 
 ## Detailed Feedback Form Template with Response Anchors
 
-A well-designed form guides responses without constraining genuine feedback. Here's a comprehensive template that works well for distributed teams:
+A well-designed form guides responses without constraining genuine feedback. Here's a template that works well for distributed teams:
 
 ```markdown
 # 360 Feedback Form: [Person Name] | [Quarter]

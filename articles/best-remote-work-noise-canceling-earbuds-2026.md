@@ -75,7 +75,7 @@ Sony's flagship earbuds deliver industry-leading noise cancellation and beat Air
 - Best-in-class noise cancellation—noticeably quieter than AirPods Pro in testing
 - Excellent microphone quality despite being positioned lower in the earbud
 - 8-hour battery life (vs 6 for AirPods Pro)
-- Works seamlessly with both Apple and Android
+- Works with both Apple and Android
 - LDAC codec support for lossless audio
 - Customizable through Sony app with EQ adjustments
 
@@ -292,10 +292,10 @@ Earbud failure modes after 2+ years:
 
 ## Related Articles
 
-- [Best Remote Work Headphones for Long Calls 2026](/remote-work-tools/best-remote-work-headphones-long-calls-2026/)
-- [Home Office Audio Setup Guide for Remote Teams](/remote-work-tools/home-office-audio-setup-guide-remote-teams/)
-- [Best USB Microphones for Professional Video Calls](/remote-work-tools/best-usb-microphones-professional-video-calls/)
-- [How to Improve Zoom and Teams Audio Quality](/remote-work-tools/how-improve-zoom-teams-audio-quality/)
+- [Best Remote Work Headphones for Long Calls 2026](/remote-work-tools/)
+- [Home Office Audio Setup Guide for Remote Teams](/remote-work-tools/)
+- [Best USB Microphones for Professional Video Calls](/remote-work-tools/)
+- [How to Improve Zoom and Teams Audio Quality](/remote-work-tools/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -207,7 +207,7 @@ This pattern ensures workshop decisions translate into tracked work rather than 
 
 ### Real-Time Facilitation Techniques
 
-For live sessions, facilitate engagement actively:
+For live sessions, help engagement actively:
 
 **Use Breakout Rooms for Deep Dives:**
 - Divide into 3-4 person teams for specific topics

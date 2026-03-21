@@ -377,9 +377,9 @@ If scores are close (within 0.5 points), choose the one your team is most famili
 
 ## Related Reading
 
-- [Best Tools for Remote Team Documentation 2026](/remote-work-tools/best-tools-for-remote-team-documentation-2026/)
+- [Best Tools for Remote Team Documentation 2026](/remote-work-tools/best-remote-team-documentation-tools-2026/)
 - [GitBook vs Notion for Technical Documentation](/remote-work-tools/gitbook-vs-notion-for-technical-documentation/)
-- [How to Manage Remote Team Documentation Debt](/remote-work-tools/how-to-manage-remote-team-documentation-debt-guide/)
+- [How to Manage Remote Team Documentation Debt](/remote-work-tools/how-to-build-remote-team-documentation-culture-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

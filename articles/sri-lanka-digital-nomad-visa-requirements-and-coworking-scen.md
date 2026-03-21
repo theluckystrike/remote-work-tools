@@ -252,7 +252,7 @@ Healthcare in Sri Lanka is excellent but varies by facility:
 
 **Private Hospitals** (recommended for expats):
 - Apollo Hospitals Colombo: International standard care, English-speaking doctors
-- Nawaloka Hospitals: Comprehensive services at reasonable cost
+- Nawaloka Hospitals: services at reasonable cost
 - Asiri Hospital: Quality private facility with modern equipment
 
 **Costs**:

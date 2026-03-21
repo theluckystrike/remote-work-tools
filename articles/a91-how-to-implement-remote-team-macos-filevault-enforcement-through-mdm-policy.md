@@ -176,7 +176,7 @@ Before implementing FileVault enforcement, ensure you have:
 
 ### Jamf Pro Configuration
 
-Jamf Pro provides comprehensive FileVault management through its built-in configuration profiles.
+Jamf Pro provides FileVault management through its built-in configuration profiles.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -489,7 +489,6 @@ sudo profiles status -type enrollment
 - [How to Implement Conditional Access Policies for Remote Work](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
 - [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 
-Built by
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

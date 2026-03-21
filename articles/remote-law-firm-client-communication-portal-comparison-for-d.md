@@ -121,7 +121,7 @@ Weaknesses: Steeper learning curve, requires more setup time.
 |---------|-------------|--------|----------|
 | Client portal | Yes | Yes | Yes |
 | 2FA enforcement | Yes | Yes | Yes |
-| Audit logging | Comprehensive | Basic | Comprehensive |
+| Audit logging | | Basic | |
 | API documentation | Excellent | Good | Good |
 | Mobile apps | iOS + Android | iOS + Android | iOS + Android |
 | Payment processing | Via Clio Payments | Built-in | Via integration |

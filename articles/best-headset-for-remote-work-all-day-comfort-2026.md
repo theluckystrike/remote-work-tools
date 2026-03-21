@@ -354,12 +354,11 @@ Year 3: Noticeable issues
 
 ---
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Guides Hub](/remote-work-tools/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work: A Practical Guide](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 - [Best Headset for Wearing with Glasses All Day Remote Work](/remote-work-tools/best-headset-for-wearing-with-glasses-all-day-remote-work/)
 - [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
 
-Built by
 
 
 ## Related Articles

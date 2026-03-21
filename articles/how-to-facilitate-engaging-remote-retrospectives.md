@@ -236,7 +236,7 @@ Track these metrics to measure retro effectiveness:
 **Team Participation Score:** Track the percentage of team members contributing to each retro (comments, action items, reactions).
 - Declining participation signals the format has become stale or team members feel unsafe
 
-## Facilitating Difficult Retrospectives
+## helping Difficult Retrospectives
 
 Some retros surface conflict or difficult truths. Here's how to handle them:
 
@@ -283,7 +283,7 @@ This cultural shift doesn't happen through mandate—it happens through consiste
 
 - [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)
 - [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/how-to-run-remote-retrospectives-that-generate-action-items/)
 - [How to Write Async Daily Logs That Help Future Team Members](/remote-work-tools/how-to-write-async-daily-logs-that-help-future-team-members/)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 

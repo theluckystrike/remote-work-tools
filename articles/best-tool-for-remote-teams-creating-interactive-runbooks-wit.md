@@ -357,7 +357,7 @@ After triggering, provide:
 - Severity level (critical if customer-facing)
 ```
 
-**Strengths**: Free for public repos; integrates seamlessly with GitHub-based workflows; natural audit trail through GitHub Actions logs.
+**Strengths**: Free for public repos; integrates with GitHub-based workflows; natural audit trail through GitHub Actions logs.
 
 **Limitations**: Execution limited to GitHub infrastructure; less suitable for real-time interactive terminals.
 

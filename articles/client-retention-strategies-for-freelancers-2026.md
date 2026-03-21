@@ -348,7 +348,7 @@ Go beyond regular updates with genuine value:
 - Suggest 1 improvement they could make
 
 **Annually (1-2 hours)**
-- Comprehensive year review (projects completed, impact, metrics)
+- year review (projects completed, impact, metrics)
 - Strategy session for next 12 months
 - Request testimonial/referral (make it easy: provide template)
 

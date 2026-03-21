@@ -296,12 +296,11 @@ Completing these tasks ensures you're legally established and can work comfortab
 
 ## Renewal and Extension
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Guides Hub](/remote-work-tools/)
 - [South Korea Digital Nomad Visa Application Requirements for Remote Workers 2026](/remote-work-tools/south-korea-digital-nomad-visa-application-requirements-for-/)
 - [Montenegro Digital Nomad Visa Application Process for Remote Developers and Freelancers 2026](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)
 - [Hungary Digital Nomad Visa White Card Application for.](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 
-Built by
 
 
 ## Related Articles

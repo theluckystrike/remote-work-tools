@@ -249,7 +249,6 @@ Almanac:
 Many teams use two tools: Notion for internal workspace and project management, Tettra or Slite for searchable knowledge base. This splits responsibilities (Notion = working docs, Tettra = published KB) and ensures knowledge base search remains fast.
 
 
-Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 
 
 ## Related Articles

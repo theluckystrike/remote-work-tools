@@ -369,7 +369,7 @@ The key is consistency and combination. Ritual stacks are more powerful than ind
 
 - [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
 - [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)
-- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
+- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/best-remote-work-usb-c-hub-for-laptop-2026/)
 - [Return to Office Parking and Commute Benefit Policy](/remote-work-tools/return-to-office-parking-and-commute-benefit-policy-template/)
 - [Quick save script for terminal workflows](/remote-work-tools/how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/)
 

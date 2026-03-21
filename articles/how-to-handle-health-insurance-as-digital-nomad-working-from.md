@@ -226,7 +226,7 @@ If you have a pre-existing condition like asthma or high blood pressure, declare
 
 If you plan to travel between Thailand and other countries, choose an international plan rather than a Thailand-specific one. Some developers work in Thailand for 6 months, then split time between home countries.
 
-Comprehensive international plans handle this seamlessly. However, verify that your plan covers:
+ international plans handle this . However, verify that your plan covers:
 
 - Medical evacuation (critical if in remote areas)
 - Treatment in multiple countries
@@ -237,7 +237,7 @@ Some insurers require you to register your expected locations in advance. Inform
 
 ## Building a Health Baseline
 
-Before relying on insurance, establish a health baseline in Thailand. Get a comprehensive health screening at an international hospital in Bangkok or Chiang Mai. This establishes baseline measurements and identifies any pre-existing conditions before you need treatment.
+Before relying on insurance, establish a health baseline in Thailand. Get a health screening at an international hospital in Bangkok or Chiang Mai. This establishes baseline measurements and identifies any pre-existing conditions before you need treatment.
 
 A typical screening for a remote worker includes:
 - Full blood work (complete blood count, liver and kidney function)
@@ -246,7 +246,7 @@ A typical screening for a remote worker includes:
 - Fitness assessment
 - Dental check-up
 
-Cost for a comprehensive screening: 5,000-10,000 THB ($140-280 USD). Having this baseline prevents insurance disputes later—you have documentation of your health status at policy start.
+Cost for a screening: 5,000-10,000 THB ($140-280 USD). Having this baseline prevents insurance disputes later—you have documentation of your health status at policy start.
 
 ## Integration with Remote Work Taxes
 

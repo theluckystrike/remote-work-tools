@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Retrospectives That Generate Action Items"
-description: "Complete guide to facilitating effective remote team retrospectives with templates, tools, voting techniques, and action item tracking systems."
+description: "Complete guide to helping effective remote team retrospectives with templates, tools, voting techniques, and action item tracking systems."
 date: 2026-03-21
 last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"

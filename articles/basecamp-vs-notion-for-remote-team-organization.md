@@ -252,7 +252,7 @@ Some remote engineering teams run both platforms:
 - **Basecamp:** Client communication, executive status updates, company-wide announcements
 - **Notion:** Internal documentation, technical specs, engineering standards, knowledge base
 
-This leverages each tool's strengths:
+This uses each tool's strengths:
 - Basecamp's focused interface for external communication
 - Notion's flexibility for internal technical documentation
 

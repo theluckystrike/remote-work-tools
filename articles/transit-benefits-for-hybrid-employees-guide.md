@@ -181,7 +181,7 @@ The practical challenge for hybrid workers is that transit schedules do not care
 
 The best approach is to set your hybrid office days first based on collaboration value—which meetings require in-person presence, which teammates you need to work alongside—and then optimize your departure times around transit schedules rather than the reverse. Most transit apps provide real-time arrivals and forward-looking schedule data that makes it straightforward to identify the latest comfortable departure time from home for a given arrival target at the office.
 
-For teams that use [async communication tools](/remote-work-tools/guides-hub/), commute time becomes a genuinely productive async window rather than dead time. Reading a Slack thread on the train and drafting a reply counts as real work time, and the transit benefit makes this mode of working economically optimal.
+For teams that use [async communication tools](/remote-work-tools/), commute time becomes a genuinely productive async window rather than dead time. Reading a Slack thread on the train and drafting a reply counts as real work time, and the transit benefit makes this mode of working economically optimal.
 
 ### Managing Variable Schedules
 

@@ -264,27 +264,6 @@ Rotate the facilitator role each sprint. This prevents one person from dominatin
 
 One common failure mode for small team retros is ending with action items that never get implemented. To prevent this, limit retro action items to one per sprint, assign a specific owner, and include it as a tracked issue in the next sprint's board. If the previous sprint's retro action wasn't completed, discuss why before adding a new one.
 
-## Key Takeaways
-
-Running sprints with a remote team of 4 engineers works best when you:
-
-1. **Keep ceremonies async-first** — Weekly text updates replace daily video standups. Only meet synchronously when discussion is required.
-
-2. **Account for overhead** — Build 25% buffer into capacity for async communication costs and timezone coordination.
-
-3. **Make blockers visible** — Use labels, automation, and daily checks to prevent blockers from lasting more than 24 hours.
-
-4. **Combine review and retro** — A single 60-minute session reduces meeting fatigue while maintaining feedback loops.
-
-5. **Rotate facilitation** — Ensure every engineer leads a ceremony over time.
-
-6. **Limit retro action items** — One action item per sprint, tracked as a real issue, prevents retros from becoming theater.
-
-Start with async standups this sprint, add capacity planning in your next planning session, and refine from there.
-
----
-
-
 ## Related Articles
 
 - [How to Manage Sprints with Remote Team: A Practical](/remote-work-tools/how-to-manage-sprints-with-remote-team/)

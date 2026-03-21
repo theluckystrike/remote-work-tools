@@ -244,8 +244,4 @@ Increase lighting on your face. Semantic segmentation models struggle in dim lig
 - In Zoom settings, refresh the camera list manually
 - Check that OBS is running and camera source is active
 
-## Conclusion
-
-For maximum convenience, use Zoom or Slack native blur. For maximum flexibility and quality, use OBS with GPU acceleration (free) or BackgroundRemover (paid, simpler setup). For multi-platform calls without GPU, BackgroundRemover is worth the $99/year investment. Test before rolling out to your team; blur quality depends on lighting, camera quality, and background complexity.
-
 {% endraw %}

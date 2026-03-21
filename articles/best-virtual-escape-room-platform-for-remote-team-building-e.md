@@ -119,7 +119,7 @@ Cost matters when budgeting for regular team events:
 
 | Platform | Per-Session (8 people) | Per-Person | Annual (monthly event) | Customization |
 |----------|----------------------|-----------|----------------------|----------------|
-| The Escape Game Remote | $300-400 | $37.50-50 | $3,600-4,800 | Facilitated only |
+| The Escape Game Remote | $300-400 | $37.50-50 | $3,600-4,800 | helped only |
 | Escape Quest | $199-299 | $24.88-37 | $2,388-3,588 | Custom puzzles ($1,000+) |
 | Cipher Escape | $250-350 | $31-44 | $3,000-4,200 | Limited |
 | Miro Template DIY | $0-600 | $0-75 | $0-600 | Full control |

@@ -42,7 +42,7 @@ The K8 Pro is battle-tested in remote work. Brown switches (semi-tactile) are qu
 
 One catch: Keychron ships with stabilizers that need tuning out-of-box. Five-minute bandaid mod solves this (search "stabilizer mod YouTube"). Otherwise, spacebar rattles.
 
-**Real usage**: Typing feels good. Noise is acceptable in video calls (colleagues don't complain). Bluetooth switching between laptop and iPad works seamlessly.
+**Real usage**: Typing feels good. Noise is acceptable in video calls (colleagues don't complain). Bluetooth switching between laptop and iPad works .
 
 ### Logitech MX Mechanical
 **Price**: $199
@@ -109,7 +109,7 @@ This isn't a "best keyboard" in the conventional sense. It's ergonomic. The spli
 **Switch**: SteelSeries mechanical (hybrid)
 **Wireless**: USB wired only
 **Noise Level**: Quiet for mechanical (65dB)
-**Build**: Full-size, robust
+**Build**: Full-size, strong
 **Layout**: ANSI standard, programmable
 
 Best for: Remote workers switching from gaming peripherals.

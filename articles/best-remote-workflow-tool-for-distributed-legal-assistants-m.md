@@ -96,7 +96,7 @@ P1 #legal Subpoena duces tecum - Jackson v. Smith - Due: March 22
 
 Create projects for each attorney or practice area. Use labels for court jurisdictions. Set recurring deadlines for recurring filings like quarterly reports or annual disclosures.
 
-The tradeoff with Todoist is audit trail depth. While you can see when tasks were completed, the historical record of who modified deadline entries and when is less robust than database-oriented solutions. For firms with strict ethical obligations around deadline documentation, a more structured system pays off.
+The tradeoff with Todoist is audit trail depth. While you can see when tasks were completed, the historical record of who modified deadline entries and when is less strong than database-oriented solutions. For firms with strict ethical obligations around deadline documentation, a more structured system pays off.
 
 ## Building a Custom Legal Deadline System
 

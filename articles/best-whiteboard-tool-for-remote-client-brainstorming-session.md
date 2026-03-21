@@ -165,7 +165,7 @@ The best whiteboard tool for remote client brainstorming sessions ultimately dep
 
 Evaluate based on actual usage: run trial sessions with each tool, measure latency during realistic participant counts, and test API workflows that mirror your production needs. The tool that fits your workflow gets used—feature richness means nothing if the team defaults to video calls instead.
 
-## Comprehensive Pricing and Scaling Analysis
+## Pricing and Scaling Analysis
 
 When selecting a whiteboard tool for client engagements, total cost of ownership extends beyond per-user pricing.
 

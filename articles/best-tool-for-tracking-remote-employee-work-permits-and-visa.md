@@ -346,7 +346,7 @@ class VisaExpirationIncident:
         self.actions.append("RETRAIN: HR team on tracking process")
 ```
 
-The cost of missing an expiration (legal liability, operational disruption, employee stress) far exceeds the cost of a robust tracking system. Over-invest in automation and redundancy here.
+The cost of missing an expiration (legal liability, operational disruption, employee stress) far exceeds the cost of a strong tracking system. Over-invest in automation and redundancy here.
 
 
 ## Related Articles

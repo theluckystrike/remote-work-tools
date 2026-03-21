@@ -277,7 +277,7 @@ The index should live in the same location as the runbooks (Obsidian vault, Conf
 
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [Obsidian for Remote Team Knowledge Management](/remote-work-tools/obsidian-remote-team-knowledge-management/)
-- [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-tea/)
+- [Async Decision Making with RFC Documents for Engineering Teams](/remote-work-tools/async-decision-making-with-rfc-documents-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

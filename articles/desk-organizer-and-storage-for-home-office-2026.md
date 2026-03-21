@@ -114,7 +114,7 @@ A pegboard wall panel behind your desk keeps frequently used items visible and a
 - Cable adapters
 - Small monitor stand or phone holder
 
-IKEA SKÅDIS is the most convenient pegboard system for a home office because it attaches with concealed brackets and the accessory ecosystem is extensive. However, the accessories are plastic and can feel flimsy. For a more robust build, a 1/4-inch hardboard pegboard with metal hooks from a hardware store costs the same and holds more weight.
+IKEA SKÅDIS is the most convenient pegboard system for a home office because it attaches with concealed brackets and the accessory ecosystem is extensive. However, the accessories are plastic and can feel flimsy. For a more strong build, a 1/4-inch hardboard pegboard with metal hooks from a hardware store costs the same and holds more weight.
 
 ### Command Center Setup
 

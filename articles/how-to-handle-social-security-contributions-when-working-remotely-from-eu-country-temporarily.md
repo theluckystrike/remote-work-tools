@@ -269,7 +269,7 @@ PRE-DEPARTURE CHECKLIST
     └── Screenshots of key deadlines and regulations
 ```
 
-Keep these organized and accessible. If authorities question your status, comprehensive documentation accelerates resolution.
+Keep these organized and accessible. If authorities question your status, documentation accelerates resolution.
 
 ## Hidden Costs of Non-Compliance
 

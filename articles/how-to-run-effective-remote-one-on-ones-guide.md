@@ -274,7 +274,7 @@ Nothing signals disrespect more than a manager who's habitually late or runs ove
 - "I'm blocked on X from team Y."
 - "I don't understand the project direction."
 - "No one responds to my questions."
-- Action: These are systemic issues. Don't brush past them. Escalate or facilitate resolution.
+- Action: These are systemic issues. Don't brush past them. Escalate or help resolution.
 
 **Career stagnation signals:**
 - "I don't know what I'm working toward."

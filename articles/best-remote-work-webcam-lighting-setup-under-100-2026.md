@@ -5,7 +5,7 @@ last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 title: "Best Remote Work Webcam Lighting Setup Under $100 (2026)"
 description: "Compare affordable webcam lighting solutions for home offices. Includes real product names, prices, lux measurements, and color temperature comparisons."
-permalink: /remote-work-tools/best-webcam-lighting-setup-under-100/
+permalink: /remote-work-tools/best-webcam-lighting-setup-under-100-dollars/
 categories: [guides]
 tags: [remote-work-tools, hardware, home-office, best-of, remote-work]
 reviewed: true
@@ -342,7 +342,7 @@ Measured in Kelvin (K). Lower numbers = warmer (more orange). Higher = cooler (m
 - Month 2: Add fill light ($35)
 - Total: Same $75, but spread across two months
 
-### Strategy 2: Leverage Existing Lights
+### Strategy 2: use Existing Lights
 - Use current desk lamps with daylight bulbs ($10)
 - Add secondary tripod light ($30-40)
 - Total: $40-50 for acceptable setup
@@ -381,15 +381,6 @@ Measured in Kelvin (K). Lower numbers = warmer (more orange). Higher = cooler (m
 
 ### Issue: Budget lights look yellow/orange on camera
 **Solution**: Verify bulbs are 5500K daylight (not 2700K warm white), check color temperature setting on lights
-
-## Conclusion
-
-For remote workers, a $40-75 lighting investment yields immediate professional improvements on video calls. The single ring light offers best value for pure functionality. The two-light setup provides superior professionalism if you have desk space. The Elgato Key Light offers premium color accuracy if budget allows.
-
-Test any lighting setup by recording a 30-second video call before and after. The difference in perceived professionalism is immediately obvious and makes the investment worthwhile.
-
----
-
 
 ## Related Articles
 

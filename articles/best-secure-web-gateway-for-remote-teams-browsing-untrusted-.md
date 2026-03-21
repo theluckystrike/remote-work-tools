@@ -108,7 +108,7 @@ If you already use identity providers like Okta, Azure AD, or Google Workspace, 
 
 **Cloudflare Gateway** is the strongest choice for most remote-first teams. The agent (WARP) has a low footprint, latency impact is minimal compared to competitors, and the free tier includes basic DNS filtering. Paid tiers add TLS inspection and DLP. For developer-heavy teams, the performance advantage and straightforward API access to policy management are significant practical benefits.
 
-**Zscaler Internet Access** is the enterprise standard. It handles massive scale, offers the most comprehensive DLP and compliance tooling, and integrates with virtually every identity provider. The tradeoff is complexity—Zscaler requires dedicated configuration work and is typically overkill for teams under 200 people.
+**Zscaler Internet Access** is the enterprise standard. It handles massive scale, offers the most DLP and compliance tooling, and integrates with nearly every identity provider. The tradeoff is complexity—Zscaler requires dedicated configuration work and is typically overkill for teams under 200 people.
 
 **Cisco Umbrella** sits between the two: more enterprise-capable than Cloudflare but less complex than Zscaler. Umbrella's DNS-layer approach is easy to deploy as a first step, with agent-based enforcement available for stricter policies. Teams already invested in Cisco's networking stack benefit from native integrations.
 

@@ -306,12 +306,11 @@ New billing software requires team adjustment:
 
 ---
 
-- [Remote Work Comparisons Hub](/remote-work-tools/comparisons-hub/)
+- [Remote Work Comparisons Hub](/remote-work-tools/)
 - [Remote Legal Research Tool Comparison for Distributed.](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
 - [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 - [Remote Law Firm Client Communication Portal Comparison.](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 
-Built by
 
 
 ## Related Articles

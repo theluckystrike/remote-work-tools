@@ -154,7 +154,7 @@ India is one of the most common destinations for remote technical hiring, and it
 
 ### Brazil
 
-Brazil's CLT (Consolidation of Labor Laws) is one of the most comprehensive labor frameworks in the world and applies broadly. For direct employment:
+Brazil's CLT (Consolidation of Labor Laws) is one of the most labor frameworks in the world and applies broadly. For direct employment:
 
 - 13th salary (décimo terceiro salário): Mandatory year-end bonus equal to one month's pay
 - FGTS: Employers contribute 8% of gross salary to a severance fund

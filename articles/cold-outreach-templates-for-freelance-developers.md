@@ -213,7 +213,7 @@ Generic emails to "info@company.com" get deleted. Find decision makers:
 - RocketReach ($50/month): Contact database with decision makers
 - LinkedIn Sales Navigator ($65/month): Filter by role and company
 - Apollo.io ($49-199/month): Full sales prospecting platform
-- ZoomInfo: Enterprise option, expensive but comprehensive
+- ZoomInfo: Enterprise option, expensive but 
 
 **Process:**
 1. Identify decision maker title (VP Engineering, CTO, Dev Manager)

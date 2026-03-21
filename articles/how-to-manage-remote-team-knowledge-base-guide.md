@@ -489,7 +489,7 @@ Does this change require documentation updates?
 - [Asynchronous Code Review Process Without Zoom Calls](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
 - [Best All-in-One Tool for Remote Team Collaboration](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
 - [Best Async Project Management Tools for Distributed Teams 2026](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
-- [Remote Work Tools Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Tools Guides Hub](/remote-work-tools/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

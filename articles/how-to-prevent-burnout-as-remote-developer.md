@@ -346,7 +346,7 @@ Hire enough people to handle workload sustainably:
 
 ## Personal Responsibility vs. Systemic Accountability
 
-It's worth noting that while individual strategies matter, burnout often has systemic causes:
+ while individual strategies matter, burnout often has systemic causes:
 
 - Unrealistic project timelines
 - Understaffing

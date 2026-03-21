@@ -311,7 +311,7 @@ For high-traffic applications, consider running a local MaxMind GeoIP2 database 
 
 ## Compliance and Audit Logging
 
-For organizations subject to SOC 2, ISO 27001, or GDPR, geo-fencing implementation must include comprehensive audit logging that satisfies evidence requirements during security reviews.
+For organizations subject to SOC 2, ISO 27001, or GDPR, geo-fencing implementation must include audit logging that satisfies evidence requirements during security reviews.
 
 Log every access decision with the full context needed to reconstruct the evaluation after the fact:
 

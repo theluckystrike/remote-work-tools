@@ -317,12 +317,11 @@ destinations.forEach(dest => {
 
 ---
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Guides Hub](/remote-work-tools/)
 - [Best Portable WiFi Hotspot Device for Remote Workers Traveling Across Europe 2026](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
 - [Best SIM Card and Mobile Data Plan for Remote Workers in Portugal](/remote-work-tools/best-sim-card-and-mobile-data-plan-for-remote-workers-in-portugal/)
 - [Travel Ergonomic Setup for Remote Workers Guide: A Developer's Portable Workspace](/remote-work-tools/travel-ergonomic-setup-for-remote-workers-guide/)
 
-Built by
 
 
 ## Related Articles

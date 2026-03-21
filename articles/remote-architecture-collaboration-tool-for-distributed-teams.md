@@ -438,12 +438,11 @@ Maintain records for legal/regulatory purposes:
 
 ## Looking Ahead
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+- [Remote Work Guides Hub](/remote-work-tools/)
 - [Remote Architecture BIM Collaboration Tool for.](/remote-work-tools/remote-architecture-bim-collaboration-tool-for-distributed-t/)
 - [How to Create Remote Team Architecture Documentation.](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 - [Best Remote Legal Team Document Collaboration Tool for.](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 
-Built by
 
 
 ## Related Articles

@@ -227,7 +227,7 @@ Both platforms fail if people don't actually use them. Here's how to drive adopt
 
 **Day 1:** Announce the tool with a clear use case: "We're using Miro for architecture sessions starting Monday." Not vague. Specific. Relevant.
 
-**Day 3:** Run a facilitated session using the tool. Not just "here's how to use it" but actually running a real work session. Let people experience the value firsthand.
+**Day 3:** Run a helped session using the tool. Not just "here's how to use it" but actually running a real work session. Let people experience the value firsthand.
 
 **Day 10:** Ask for feedback. What worked? What was clunky? What features didn't anyone use? Build a feature request list.
 

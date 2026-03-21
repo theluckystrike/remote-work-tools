@@ -312,7 +312,7 @@ A balanced approach for different room types:
 
 **Reality: Audio quality improves incrementally**
 - Expect 20-30% improvement with basic treatment (4-6 panels)
-- Expect 50-70% improvement with comprehensive treatment (8-12 panels + other strategies)
+- Expect 50-70% improvement with treatment (8-12 panels + other strategies)
 - Expect 80%+ improvement with professional-grade treatment (foam + bass traps + diffusion + isolation)
 
 Most remote workers see sufficient improvement at the 50% level. Going beyond requires significant investment with diminishing returns.

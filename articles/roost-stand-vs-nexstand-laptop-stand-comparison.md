@@ -170,7 +170,7 @@ Both stands fall in the $50-80 USD price range, making them directly comparable 
 
 ### Roost in Practice
 
-Developers who travel frequently report that the Roost integrates so seamlessly into their bag that they forget it's there—the definition of successful portable equipment. The fixed 45-degree angle works well for most laptop sizes (11-15 inches), and the tension-based clamping adapts to different chassis thicknesses without adjustment.
+Developers who travel frequently report that the Roost integrates so into their bag that they forget it's there—the definition of successful portable equipment. The fixed 45-degree angle works well for most laptop sizes (11-15 inches), and the tension-based clamping adapts to different chassis thicknesses without adjustment.
 
 The primary compromise comes when switching between different chair heights or when your desk sits lower than expected. The fixed angle sometimes creates suboptimal positioning if your chair doesn't align well, requiring either pillow adjustments or accepting minor strain.
 

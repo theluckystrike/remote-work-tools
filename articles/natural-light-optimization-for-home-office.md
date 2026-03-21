@@ -230,7 +230,7 @@ log_light_level(300, "desk", "afternoon (west glare)")
 - Daylight supplement lamp (doesn't require installation)
 - Works with any apartment, no permanent changes
 
-## Comprehensive Home Office Lighting Setup
+## Home Office Lighting Setup
 
 Combine multiple light sources for optimal conditions:
 

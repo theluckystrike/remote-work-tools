@@ -98,7 +98,7 @@ Specifications:
 
 The primary compromise is lack of USB-C. This monitor uses traditional DisplayPort and HDMI connections, requiring separate power and video cables. For desktop workers with permanent desk setups, this is acceptable. For laptop users expecting single-cable simplicity, it's frustrating.
 
-Color accuracy is verified through factory calibration, with color error averaging Delta E < 2 (essentially invisible to human eyes). This makes it suitable for photographers who edit photos remotely and designers who match colors precisely.
+Color accuracy is verified through factory calibration, with color error averaging Delta E < 2 ( invisible to human eyes). This makes it suitable for photographers who edit photos remotely and designers who match colors precisely.
 
 The 1920x1200 resolution provides adequate workspace without overwhelming your graphics card. Content creators often appreciate pairing this with a second 1080p monitor for toolbars and timelines.
 

@@ -195,7 +195,7 @@ Understanding the real differences between providers helps you choose correctly.
 - Best option: Cigna Global ($250-400/month) or Allianz ($180-300/month)
 - Both offer pre-existing condition coverage after 12-month waiting period
 - Local Thai insurance ($100-150/month) for routine management
-- Total cost: ~$300-500/month, but provides comprehensive coverage
+- Total cost: ~$300-500/month, but provides coverage
 
 **Scenario 3: Senior engineer planning 3+ year stay**
 - Best option: Combine AXA Thailand ($200-350/month) with evacuation-only international plan ($50-75/month)
@@ -239,7 +239,7 @@ Your insurance should cover these common concerns:
 
 - Dengue fever and tropical diseases: Endemic in Thailand, covered by most international plans
 - Food-related illnesses: 40% of short-term visitors experience mild food-related issues. Local antibiotics cost $5-20
-- Traffic accidents: Thailand has one of the world's highest accident rates. Ensure comprehensive coverage for trauma care
+- Traffic accidents: Thailand has one of the world's highest accident rates. Ensure coverage for trauma care
 - Visa medical exams: Required for some visa categories. Some insurance providers offer wellness visit coverage
 - Air quality events: Northern Thailand (Chiang Mai) experiences smoke season February-April with PM2.5 levels that can trigger respiratory conditions. If you have asthma or respiratory sensitivities, plan your arrival timing accordingly and ensure your plan covers respiratory treatment
 
@@ -265,13 +265,13 @@ Rather than choosing one provider, successful long-term nomads in Thailand layer
 - Keeps relationship with Thai hospitals and doctors
 - Lowest layer of the stack
 
-**Layer 2: Comprehensive Coverage**
+**Layer 2: Coverage**
 - International plan ($150-300/month) covering emergencies, hospitalization, evacuation
 - Provides backup if local care is insufficient
 
 **Layer 3: Critical Illness**
 - Separate critical illness rider ($20-50/month) covering cancer, stroke, heart attack
-- Many comprehensive plans exclude this, making it worth separate coverage
+- Many plans exclude this, making it worth separate coverage
 
 This three-layer approach typically costs $250-400/month but provides genuine peace of mind for multi-year stays.
 

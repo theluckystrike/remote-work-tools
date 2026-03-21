@@ -426,13 +426,12 @@ Day 3, 2 PM: Discussion (synchronous or async chat)
 8. **Evaluate Tool:** After 3 retros, assess if tool is working for your team
 
 
-Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 
 
 ## Related Articles
 
 - [How to help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/how-to-run-remote-retrospectives-that-generate-action-items/)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 - [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)

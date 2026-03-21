@@ -210,7 +210,7 @@ Each source adds context. The AI serves as the aggregator, transforming noise in
 
 - [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
 - [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
-- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
+- [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/how-to-run-remote-retrospectives-that-generate-action-items/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)
 

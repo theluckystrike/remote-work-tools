@@ -306,7 +306,7 @@ Power users favor Ubiquiti for granular control; casual users prefer Eero for si
 
 ## Advanced Home Assistant Integration
 
-For developers running Home Assistant, comprehensive baby monitor integration:
+For developers running Home Assistant, baby monitor integration:
 
 ```yaml
 # Complete Home Assistant configuration

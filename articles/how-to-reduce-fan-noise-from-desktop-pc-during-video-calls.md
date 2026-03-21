@@ -244,7 +244,7 @@ Not all quiet fans are equal. Real-world options for developers:
 # Result: 8-12°C cooler, noticeable reduction in fan noise during calls
 ```
 
-### Comprehensive Setup ($150 investment)
+### Setup ($150 investment)
 
 ```bash
 # Step 1: Thermal paste + cleanup

@@ -403,7 +403,7 @@ Several patterns undermine peer feedback exchanges in distributed teams. First, 
 
 ## Detailed Peer Feedback Form for Leadership Teams
 
-Below is a comprehensive form designed specifically for managers and leaders in distributed settings:
+Below is a form designed specifically for managers and leaders in distributed settings:
 
 ```json
 {

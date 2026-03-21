@@ -279,7 +279,7 @@ Handoffs require async-first discipline. If team members expect instant clarific
 Teams don't track when handoffs go wrong. Without data, they can't improve the system. Solution: Monthly retro includes: "Did any handoffs create rework? What would have prevented that?"
 
 **Pitfall 5: One-Size-Fits-All**
-Critical production systems might need more detailed handoffs than experimental features. Solution: Create lightweight (5-minute) and comprehensive (30-minute) templates. Let engineers choose based on context.
+Critical production systems might need more detailed handoffs than experimental features. Solution: Create lightweight (5-minute) and (30-minute) templates. Let engineers choose based on context.
 
 
 ## Related Articles
