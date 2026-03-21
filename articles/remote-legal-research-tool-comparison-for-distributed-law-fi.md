@@ -30,6 +30,8 @@ Before examining specific tools, establish your baseline requirements. Distribut
 - Citation verification: Automated checking of Bluebook and other citation formats
 - Team collaboration: Shared search histories, annotation systems, and conflict-checking workflows
 
+One factor many firms overlook is **session persistence**. Researchers often build complex search strings over hours of work. Tools that don't save search sessions force researchers to reconstruct their work after a session timeout—a significant productivity loss for teams whose members may hand off mid-research to a colleague in another time zone.
+
 ## Platform Comparison
 
 ### LexisNexis + AI Assistant
@@ -83,6 +85,22 @@ Weaknesses: Smaller database than legacy platforms, less international coverage
 ### ROSS Intelligence (Bankruptcy Protection Status)
 
 ROSS, once a promising AI legal research startup, entered bankruptcy in 2024. While some assets were acquired, the platform's future remains uncertain. This serves as a reminder for firms building on emerging platforms: ensure data portability and have contingency plans.
+
+## Head-to-Head Feature Comparison
+
+| Feature | LexisNexis | Westlaw Edge | Casetext |
+|---------|-----------|--------------|---------|
+| AI natural language search | Yes (Nexis+ AI) | Yes (AI-Assist) | Yes (CoCounsel) |
+| REST API access | Enterprise tier | Enterprise tier | Standard plans |
+| Citation verification | Shepard's | KeyCite | Casetext Check |
+| Offline document access | Limited | Limited | Yes (downloads) |
+| International case law | Extensive | Extensive | US-focused |
+| SSO / SAML support | Yes | Yes | Yes |
+| Per-seat monthly cost (est.) | $150+ | $150+ | $50+ |
+| Developer documentation quality | Fair | Fair | Strong |
+| Webhook support | Yes | Limited | Yes |
+
+For most distributed firms of 5-30 attorneys, Casetext's combination of modern API design, competitive pricing, and strong developer documentation makes it the most practical choice for building custom integrations. Larger firms with Big Law workflows will likely stay with Westlaw or LexisNexis for their deeper secondary source libraries and established citator services.
 
 ## Implementation Patterns for Distributed Teams
 
@@ -183,6 +201,28 @@ async def search_cases(q: str, user: dict = Depends(verify_attorney)):
 
 This ensures that research activities are properly attributed, auditable, and restricted to active subscribers—critical for both billing and compliance.
 
+### Shared Research Libraries for Distributed Teams
+
+One underutilized feature in enterprise legal research platforms is the shared folder or library system. Distributed firms should maintain a structured shared library organized by practice area:
+
+```
+Firm Research Library/
+├── Litigation/
+│   ├── Personal Injury/
+│   ├── Employment/
+│   └── Contract Disputes/
+├── Corporate/
+│   ├── M&A Precedents/
+│   └── Regulatory/
+├── IP/
+│   ├── Patent/
+│   └── Trademark/
+└── Templates/
+    └── Research Memos/
+```
+
+Assign a research librarian role (even if part-time) to maintain this structure. When a junior associate in Manila completes research that a partner in New York needs, the shared library ensures the work is discoverable and reusable rather than siloed in one attorney's account.
+
 ## Emerging Considerations for 2026
 
 ### AI Model Fine-Tuning
@@ -196,6 +236,10 @@ For firms with strict data sovereignty requirements, some vendors now offer on-p
 ### Multi-Jurisdictional Research
 
 Distributed firms handling international matters should evaluate cross-border research capabilities. Tools like Global Legal Information Network and specialized international databases may supplement primary US-focused platforms.
+
+### Generative AI Research Memos
+
+A significant development in 2026 is the ability to generate first-draft research memos directly from case law queries. Both LexisNexis and Casetext have introduced memo-generation features. Treat these outputs as starting points that require attorney review, not finished work products. Document in your firm's policy which AI-generated outputs require what level of attorney review before transmission to clients—malpractice carriers are beginning to ask about this.
 
 
 ## Related Articles
