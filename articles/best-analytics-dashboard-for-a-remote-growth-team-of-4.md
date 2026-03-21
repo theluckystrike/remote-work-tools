@@ -8,7 +8,7 @@ permalink: /best-analytics-dashboard-for-a-remote-growth-team-of-4/
 categories: [guides]
 tags: [remote-work-tools, analytics, dashboards, remote-work, growth, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
