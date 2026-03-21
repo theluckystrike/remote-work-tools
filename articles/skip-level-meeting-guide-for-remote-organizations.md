@@ -174,6 +174,99 @@ A simple tracking spreadsheet:
 | 2026-01-15 | Dev A | Tool access | VP Eng | Done | 2026-01-20 |
 | 2026-02-15 | Dev B | Unclear roadmap | Dir Prod | In Progress | - |
 
+## Technology and Tools for Skip Level Meetings
+
+Remote skip level meetings work best with the right tooling. Select based on your team's infrastructure:
+
+### Calendar and Scheduling Tools
+
+**Calendly**: Free tier allows unlimited one-on-one meetings. Leaders create a rotating availability window, ICs book their own slot. This removes administrative overhead.
+
+```yaml
+# Calendly setup
+Event name: Skip Level Check-in with [Leader Name]
+Duration: 30 minutes
+Availability: 2 slots per week, 4 weeks out
+Timezone: Attendee's timezone
+Reminders: 24 hours before
+```
+
+**Outlook/Google Calendar**: If you're already managing calendars with these tools, use their built-in features. Set up a "Skip Level Window" recurring block and invite ICs individually.
+
+### Recording and Documentation
+
+**Riverside.fm**: Record high-quality remote conversations with automatic transcription. Cost: $9.99-$29.99/month depending on tier. Useful if you need searchable records of discussion topics for pattern analysis.
+
+**Loom**: Screen and voice recording for async feedback. A manager can record a 3-minute response to an IC's written update. Cost: Free tier / $12+/month for features like custom branding.
+
+Transcription reduces the administrative burden of taking notes. Your tool automatically captures discussion points, eliminating the need for manual note-taking during the conversation.
+
+### Real-Time Collaboration
+
+**Figma Figjam**: For visual feedback (whiteboarding roadmaps, sketching system designs). Many ICs find it easier to discuss ideas visually than verbally.
+
+**Google Docs**: Shared document for real-time note-taking and action item tracking. Both parties can see and modify notes simultaneously, creating a shared record.
+
+## Structured Metrics for Skip Level Programs
+
+Track program effectiveness with concrete metrics:
+
+```javascript
+// skip-level-metrics.js - Calculate program health
+const metrics = {
+  totalParticipants: 24,
+  completedMeetings: 22,
+  completionRate: (22/24) * 100, // 92%
+
+  blockersIdentified: [
+    { blocker: "CI/CD pipeline slow", resolved: true, days: 8 },
+    { blocker: "Unclear product roadmap", resolved: true, days: 15 },
+    { blocker: "No career pathing", resolved: false, days: 45 }
+  ],
+
+  resolutionRate: (2/3) * 100, // 67%
+  avgResolutionTime: 23, // days
+
+  retention: {
+    priorYear: 0.85, // 85% retention before skip levels
+    currentYear: 0.92, // 92% retention with skip levels
+    improvement: 0.07 // 7 percentage point improvement
+  }
+};
+```
+
+**Resolution rate target**: Aim for 70%+ of identified blockers being resolved within 30 days. If this drops below 50%, your skip level program is creating frustration rather than value.
+
+**Retention metric**: Track whether participation in skip level meetings correlates with higher retention. Survey departing employees about whether they felt heard by leadership—this direct feedback is more valuable than indirect metrics.
+
+## Handling Sensitive Disclosures
+
+ICs sometimes disclose sensitive information in skip levels: team dysfunction, concerns about management, personal challenges affecting work, or safety issues.
+
+**Clear boundaries**: Start the meeting by clarifying confidentiality limits. "I'll keep our conversation private, but if you disclose something that affects team safety or legal compliance, I may need to escalate appropriately."
+
+**Documentation caution**: Don't create a permanent record of sensitive disclosures. Take minimal notes, don't record without explicit permission, and don't transcribe sensitive portions.
+
+**Follow-up responsibility**: If an IC discloses a genuine issue, commit to follow-up within one week. Silence or inaction after sensitive disclosure damages trust more than any other failure mode.
+
+## Scaling Skip Levels to Large Organizations
+
+For organizations with 100+ ICs, skip level meetings become logistically complex.
+
+**Tier-based approach**: Not every IC needs face time with the CEO. Create a tiered skip level structure:
+
+```
+Tier 1: Team members skip level with their skip-level manager (their manager's manager)
+Tier 2: High performers or leaders in critical areas skip level with VPs
+Tier 3: Director-level or senior ICs skip level with C-level executives
+```
+
+This ensures every IC has a skip level opportunity while keeping senior leadership accessible for the people they most need to hear from.
+
+**Seasonal rotation**: Instead of continuous skip levels, run them quarterly. Q1: Sales and customer-facing teams, Q2: Engineering, Q3: Product/Design, Q4: Operations/Support. This concentrates effort and keeps the program manageable.
+
+**Pulse surveys as supplement**: For years when you can't do individual skip levels, run anonymous pulse surveys asking the same questions you'd ask in a skip level meeting. Follow up with small group conversations rather than 1:1s.
+
 ## Building a Culture of Open Communication
 
 Skip level meetings are just one tool in a larger communication strategy. Encourage open channels at all levels: skip level meetings work best when ICs already feel comfortable sharing feedback with their direct managers.

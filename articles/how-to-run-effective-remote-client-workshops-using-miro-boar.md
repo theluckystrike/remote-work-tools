@@ -184,6 +184,181 @@ miro.board.ui.on('icon:click', async () => {
 
 For simpler integrations, use Zapier or Make to connect Miro to tools like Linear, Asana, or Notion based on specific board updates.
 
+## Advanced Facilitation Techniques for Remote Workshops
+
+Beyond the mechanics of Miro, the facilitation approach determines success:
+
+### The "Think-Pair-Share" Protocol for Brainstorms
+
+When ideating, silence from participants is normal—people are thinking. Force engagement with this structure:
+
+**Think (3 minutes):**
+- Individual sticky notes, silent workspace
+- Everyone adds ideas simultaneously
+- No discussion, no filtering
+
+**Pair (5 minutes):**
+- Randomly assign pairs
+- Each pair discusses the other's ideas
+- Combine best ideas into one shared note
+
+**Share (10 minutes):**
+- Pairs present combined ideas
+- Group votes on top 5
+- Discuss only the top 5 (saves time)
+
+This protocol prevents groupthink and ensures quiet people contribute.
+
+### Energy Management During Workshops
+
+Remote workshops drain energy faster than in-person ones. Maintain engagement:
+
+```markdown
+| Time | Action | Why |
+|------|--------|-----|
+| 0-5 min | Quick icebreaker on board | Warm up the group |
+| 5-15 min | Silent work (sticky notes) | Introverts can contribute |
+| 15-30 min | Whole group discussion | Extroverts engage |
+| 30-40 min | Small group breakouts | Reduce meeting fatigue |
+| 40-50 min | Individual reflection time | Let ideas settle |
+| 50-60 min | Wrap-up and next steps | Provide closure |
+```
+
+Never have continuous talking for more than 10 minutes. Alternate between individual work and group discussion.
+
+### Real-Time Feedback Signals
+
+Monitor participant engagement through Miro:
+
+**Positive signals:**
+- Lots of cursor movement and sticky note placement
+- People adding to each other's ideas (not just adding their own)
+- Emoji reactions on ideas
+- Private comments on notes (thoughtful engagement)
+
+**Warning signals:**
+- Long silences with no new ideas appearing
+- Same few people generating all ideas
+- Participants dropping off (no cursor activity for 5+ minutes)
+- Grumbling in chat
+
+If you see warning signals, pause and ask: "Let's take a breath. What questions do you have about what we've done so far?" This resets attention.
+
+## Pre-Workshop Client Preparation
+
+Send this to clients 48 hours before the workshop:
+
+```markdown
+# Workshop Prep Guide
+
+## Logistics
+- **Time**: [Date/Time with timezone]
+- **Link**: [Miro board link] (Join 5 min early to test video)
+- **Duration**: 60 minutes
+- **Camera**: Please have it on (helps group connection)
+
+## Preparation (10 minutes, optional but helpful)
+- Have your team brainstorm 3-5 biggest challenges before we start
+- Look at the attached "Workshop Agenda" document
+- Prepare 1-2 questions about our goals together
+
+## During the Workshop
+- We'll move between silent work and group discussion
+- There's no bad ideas—we're here to explore possibilities
+- Expect to see a rough board that evolves; we'll refine it after
+
+## After the Workshop
+- You'll get a PDF of the board same-day
+- We'll send a summary document within 24 hours
+- Follow-up call: [Date] to confirm next steps
+```
+
+## Workshop Facilitation Checklist
+
+Use this checklist 30 minutes before each workshop:
+
+- [ ] Miro board opened, tested on your device
+- [ ] Test video and audio working
+- [ ] Open a second tab with timer visible
+- [ ] Backup PDF of template saved to hard drive
+- [ ] Slack/email open to monitor for client connection issues
+- [ ] Share the board link in the video meeting chat when clients join
+- [ ] Start 3 minutes early to greet arrivals and test their audio
+- [ ] Mute your notifications (prevent interruptions)
+- [ ] Have client names displayed on Miro board in intro section
+
+## Post-Workshop Delivery Timeline
+
+**Same day (by 5 PM):**
+- Export board as PDF or image sequence
+- Quickly review for any unclear items
+- Send to client with message: "Here's the board we built together. PDF attached."
+
+**Next day:**
+- Synthesize board into clean document:
+  ```markdown
+  # Workshop Summary: [Date]
+
+  ## Key Decisions Made
+  - [Decision 1]: [Context and agreement]
+  - [Decision 2]: [Context and agreement]
+
+  ## Action Items (with owners and deadlines)
+  - [ ] [Owner]: [Task] - Due [Date]
+  - [ ] [Owner]: [Task] - Due [Date]
+
+  ## Open Questions
+  - [Question 1] - Will revisit in [timeline]
+
+  ## Next Steps
+  1. [Owner] will [action] and report back [date]
+  2. We'll reconvene [date] to review progress
+  ```
+
+**One week later:**
+- Quick 15-minute follow-up call
+- Check: "What's been easy to implement? What's been challenging?"
+- Unblock any stuck items
+
+## Handling Difficult Personalities in Workshops
+
+**The Dominator** (talks 70% of the time):
+- Technique: "Thanks for that perspective. Let's hear from folks who haven't spoken yet."
+- Redirect: Use silent sticky note time to force his/her silence
+- Validate: Make sure their contribution is documented even if you limit their airtime
+
+**The Silent One** (hasn't spoken in 30 min):
+- Direct question: "What's your take on this? [Name]"
+- Safe entry: "No pressure, but would love your perspective since you work with [area]"
+- Alternative: "Let's do a sticky note round—everyone adds one idea silently"
+
+**The Skeptic** (dismisses ideas):
+- Curiosity: "Tell me more about your concern—what specifically worries you?"
+- Reframe: "That's valid caution. How might we design around that risk?"
+- Don't argue; document: "We'll note that and keep it in mind"
+
+**The Distracted One** (checking email, camera off):
+- Gentle call-out: "Can everyone turn cameras on? It helps me see if explanations are landing."
+- Task assignment: "I need someone to track our decisions on the board. Can you do that?"
+- Gives them a role that forces engagement
+
+## Tool Alternatives for Different Workshop Types
+
+| Workshop Type | Ideal Tool | Why |
+|---|---|---|
+| Strategy/roadmap | Miro + Figma | Visual timeline, swimlanes |
+| Requirements gathering | Miro + Notion | Sticky notes, then structure into database |
+| Design critique | Figma + Zoom annotation | Live design review, markup collaboration |
+| Process mapping | Lucidchart + Miro | Flowcharts, then detailed notes |
+| Retrospective | Miro + simple voting | Sticky notes, dot voting, easy |
+
+Most teams start with Miro, then discover Figma for design work, then add Notion for follow-up. Multi-tool workflows are common by year 2.
+
+## Conclusion
+
+Miro-based remote workshops work when you combine solid preparation, thoughtful facilitation, and structured protocols. The board is just a tool—your job as a facilitator is to draw out clarity from the conversation, document decisions in real-time, and keep energy high despite the screen fatigue.
+
+Start with smaller workshops (3-5 people) to develop your facilitation skills. As you get comfortable with pacing and handling group dynamics, you can scale to larger groups. The best workshops feel less like meetings and more like collaborative problem-solving with smart people.
 
 ## Related Articles
 
