@@ -11,7 +11,7 @@ tags: [remote-work-tools, architecture, adr, technical-decisions, remote-work, d
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

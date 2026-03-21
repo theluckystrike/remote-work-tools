@@ -9,7 +9,7 @@ permalink: /how-to-create-morning-routine-for-remote-work/
 categories: [guides]
 tags: [remote-work-tools, remote-work, productivity, morning-routine, developer-habits]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
