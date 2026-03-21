@@ -9,7 +9,7 @@ permalink: /best-standing-desk-for-home-office-2026/
 categories: [guides]
 tags: [remote-work-tools, standing-desk, home-office, ergonomics, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

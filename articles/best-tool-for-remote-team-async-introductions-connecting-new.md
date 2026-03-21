@@ -9,7 +9,7 @@ permalink: /best-tool-for-remote-team-async-introductions-connecting-new/
 categories: [guides]
 tags: [remote-work-tools, async-introductions, remote-onboarding, new-hire-introductions, remote-work, team-building, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
