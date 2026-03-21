@@ -9,7 +9,7 @@ permalink: /how-to-manage-multiple-freelance-clients-effectively/
 categories: [guides]
 tags: [remote-work-tools, freelance, productivity, client-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
