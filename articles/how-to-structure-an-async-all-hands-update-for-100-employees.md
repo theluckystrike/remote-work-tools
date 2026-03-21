@@ -173,6 +173,93 @@ While the process matters more than the tool, certain platforms improve executio
 
 Choose tools your team already uses. Introducing new platforms for all-hands creates adoption friction that undermines the async goal.
 
+## Scaling the System as Your Company Grows
+
+The five-section structure scales beyond 100 employees by adding management layers. At 150+ employees, department-level overviews are replaced with manager-led section owners who consolidate team feedback. Here's how to extend the system:
+
+### Adding Tier-Two Aggregation
+
+Instead of collecting from 7 departments directly, designate a tier-two owner for each major functional area who collects input from their sub-teams:
+
+```yaml
+# Structure for 150-person organization
+Company Overview: CEO (writes directly)
+Engineering:
+  - Platform Team Lead (collects from 5 engineers)
+  - Product Team Lead (collects from 4 engineers)
+  - Infrastructure Team Lead (collects from 3 engineers)
+Product: VP Product (collects from 3 product managers)
+Sales: VP Sales (collects from sales & customer success)
+Operations: COO (collects from finance, legal, HR)
+```
+
+This prevents information bottlenecks while keeping the update focused and readable.
+
+### Handling Time Zone Distribution
+
+For globally distributed 100-person teams, declare one time zone as the "update standard" and accept that some people will read it outside their business hours. The asynchronous nature actually handles this better than synchronous meetings would—team members control when they consume information.
+
+If your company spans 8+ hours across time zones, consider translating the core company overview into 2-3 languages. This increases accessibility and signals that the company values inclusive communication.
+
+### Tracking Acknowledgment at Scale
+
+With 100 people, simple emoji reactions create notification fatigue. Instead, create a Google Form that captures:
+
+1. Name (optional, for anonymity if preferred)
+2. "I've reviewed the all-hands" checkbox
+3. Key question or clarification needed
+4. Department they're in
+
+This provides aggregate metrics—what percentage of each department read the update—while generating a list of questions that automatically feeds into the Q&A section next month.
+
+```python
+# Simple script to process acknowledgment form responses
+import gspread
+from collections import defaultdict
+
+def analyze_update_engagement(form_responses_sheet):
+    """Analyze engagement by department."""
+    responses = form_responses_sheet.get_all_records()
+
+    department_stats = defaultdict(lambda: {"read": 0, "total": 0})
+    unanswered_questions = []
+
+    for response in responses:
+        dept = response['department']
+        department_stats[dept]['total'] += 1
+
+        if response['acknowledged']:
+            department_stats[dept]['read'] += 1
+
+        if response['question']:
+            unanswered_questions.append({
+                'question': response['question'],
+                'department': dept
+            })
+
+    # Generate report
+    print("Read Rates by Department:")
+    for dept, stats in department_stats.items():
+        rate = (stats['read'] / stats['total'] * 100)
+        print(f"{dept}: {rate:.1f}% ({stats['read']}/{stats['total']})")
+
+    return unanswered_questions
+```
+
+## Common Questions About Scaling
+
+**Q: What happens if critical decisions come up mid-month that can't wait?**
+A: Use an emergency all-hands supplement. Keep it brief (under 200 words) and explicitly mark it as urgent. Don't force it into the regular monthly structure—this preserves the monthly rhythm's reliability.
+
+**Q: How do we handle real-time crisis communication (security incident, major outage)?**
+A: Async all-hands replace routine status updates, not crisis communication. Keep a separate incident communication channel and response template. After the crisis resolves, include a retrospective in the next scheduled all-hands.
+
+**Q: Should we do video updates for all 100 employees?**
+A: Optional. A 5-minute video from the CEO introducing the monthly update can add personal touch without disrupting the async format. Keep it optional—not everyone prefers video-first communication, and transcripts help those who are deaf or hard of hearing.
+
+**Q: How do we prevent the all-hands from becoming a broadcast with no real dialogue?**
+A: The Q&A section is non-negotiable. Even if you receive only three questions, answer them thoroughly. This signals that you value employee input. If you notice declining questions, explicitly ask: "What do you want to know about our direction?" in your next all-hands.
+
 ---
 
 An async all-hands for 100 employees succeeds through structure, not magic. Define clear sections, automate collection, time distribution consistently, and close the loop with real Q&A. Your team gets information they can actually absorb, and you get a scalable communication system that works regardless of team size or time zone distribution.

@@ -178,6 +178,95 @@ ScreenPal serves specific use cases around educational content and scheduled rec
 
 Test all three with actual team workflows before committing. Record a code review in each tool, share it with your team, and collect feedback on playback quality, notification timing, and integration with your existing tools. Your team's actual usage patterns will reveal which tool fits your async communication style.
 
+## Implementation Guide for Each Tool
+
+### Getting Started with Loom
+
+1. Download the browser extension or desktop app
+2. Create a team workspace (requires Business plan for multiple users)
+3. Set up integrations: Slack, Jira, Notion (1 hour)
+4. Create team recording guidelines document:
+   - Frame rate: 30 fps
+   - Audio: USB mic, noise gate enabled
+   - Length: Under 7 minutes per recording
+   - Format: Problem → Solution → Next Steps
+
+5. Establish library structure in Loom:
+   - Channel for each team (Engineering, Product, etc.)
+   - Folder per project within each channel
+   - Standard naming: `[YYYYMMDD] - Feature Name - Author`
+
+### Getting Started with Veed
+
+1. Sign up for Business plan (personal plan lacks team features)
+2. Install Zapier integration for workflow automation
+3. Create brand template (colors, logos, intro/outro) - 2 hours
+4. Configure API credentials:
+   ```bash
+   export VEED_API_KEY="your_api_key"
+   export VEED_BRAND_ID="your_brand_id"
+   ```
+
+5. Set up webhook handler for processing notifications
+6. Create batch processing script for multiple videos
+
+### Getting Started with ScreenPal
+
+1. Download desktop app (more reliable than browser version)
+2. Configure recording settings:
+   - Resolution: 1920x1080
+   - Frame rate: 30 fps
+   - Audio input: External USB mic
+   - Screen selection: Automatic (records active window)
+
+3. Enable scheduled recordings if using enterprise plan
+4. Set up Zapier integration for automation
+5. Create library folder structure matching your projects
+
+## Measuring Video ROI
+
+Track whether async videos are actually reducing meeting time:
+
+| Metric | Baseline | Target | Measurement |
+|--------|----------|--------|-------------|
+| Weekly video recordings | 0 | 3-5 per person per week | Count in Loom/Veed |
+| Synchronous meetings | 10 hours/week | 6 hours/week | Calendar audit |
+| Code review cycle time | 2 days average | 1 day average | GitHub/GitLab data |
+| Async clarifications needed | 0 (undefined) | <1 per video | Slack/comment threads |
+| Team satisfaction | 0 (baseline) | 7+/10 | Monthly survey |
+
+Most teams see ROI within 4 weeks of adoption. If after 6 weeks your team isn't using async video regularly, the tool/process doesn't fit your workflow—reassess.
+
+## Video Best Practices by Use Case
+
+### Code Review Videos (Loom preferred)
+
+- Duration: 3-5 minutes
+- Focus: Explain why, not just what
+- Include: Link to PR in description
+- Cadence: For complex PRs only (simple ones don't need video)
+
+Example: "Here's the new payment retry logic. The key insight is exponential backoff with jitter to prevent thundering herd. Watch from 1:30 to see the implementation."
+
+### Feature Demo Videos (Veed preferred)
+
+- Duration: 5-7 minutes
+- Structure: Context → Live demo → Feedback request
+- Include: Timestamp links for specific feedback points
+- Cadence: For every feature reaching staging
+
+Example: "Demo is broken into 3 sections: (0:30) Dashboard overview, (2:45) Report generation, (4:15) Export options. Feedback needed on export format by EOD Thursday."
+
+### Status Update Videos (ScreenPal for scheduled, Loom for ad-hoc)
+
+- Duration: 2-3 minutes
+- Format: Scripted (read from notes)
+- Include: What's done, what's next, blockers
+- Cadence: Weekly or bi-weekly, consistent day/time
+
+Example: "Week 11 update: Shipped search optimization (3s → 800ms). Working on analytics dashboard next. Blocked on database access—waiting on DevOps."
+
+---
 
 ## Related Articles
 

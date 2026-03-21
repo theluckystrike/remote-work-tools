@@ -179,6 +179,101 @@ This prevents demos from floating in limbo while clients assume you'll wait inde
 
 **Feedback gets lost in email threads.** Use a dedicated feedback tool or at minimum, a shared document where all video feedback lives in one place.
 
+## Recording Equipment Recommendations
+
+### Essential Setup (Budget: $150-300)
+
+| Item | Price | Why |
+|------|-------|-----|
+| USB Condenser Mic | $70-100 | Audio quality matters more than video |
+| Pop Filter | $15-25 | Eliminates plosives ("p" and "b" sounds) |
+| Boom Arm (desk-mounted) | $25-40 | Positions mic correctly without reaching |
+| OBS Studio or Loom Free | $0 | Start free, upgrade if needed |
+
+### Professional Setup (Budget: $300-600)
+
+Add to essentials:
+- Larger format mic (AT2020 or Rode Procaster): $100-200
+- External mixer (Behringer U-Phoria): $100-150
+- Acoustic panels (soft furnishings): $80-150
+- Loom Business or Veed Personal plan: $8-18/month
+
+### Studio Setup (Budget: $800+)
+
+Add to professional:
+- Broadcast-quality mic (Shure SM7B): $400+
+- Dedicated audio interface (Focusrite Scarlett 4i4): $200
+- Multiple lighting setups: $300+
+- Veed Business or enterprise plan: $35+/month
+
+Most agencies find the Essential to Professional tier hits the sweet spot—tangible quality improvement without the complexity of a full studio.
+
+## Workflow Example: Weekly Demo Cycle
+
+Here's how a SaaS agency records demos for multiple clients efficiently:
+
+**Monday morning (30 min prep)**
+1. Review what shipped over the weekend
+2. Create shot list: what features to demo, in what order
+3. Set up recording workspace, test audio levels
+
+**Monday-Wednesday (5-10 min per feature)**
+1. Record quick feature walkthrough
+2. Export with timestamp naming: `client-feature-date.mp4`
+3. Upload to shared folder
+
+**Thursday morning (1-2 hours batch processing)**
+```bash
+#!/bin/bash
+# batch_process_demos.sh
+
+for demo in demos/raw/*.mp4; do
+  # Add intro
+  ffmpeg -i intro.mp4 -i "$demo" -i outro.mp4 \
+    -filter_complex "[0][1][2]concat=n=3:v=1:a=1[v][a]" \
+    -map "[v]" -map "[a]" \
+    -c:v libx264 -c:a aac \
+    "demos/processed/$(basename $demo)"
+
+  # Generate thumbnail
+  ffmpeg -i "demos/processed/$(basename $demo)" \
+    -ss 00:00:05 -vframes 1 \
+    "demos/processed/$(basename $demo .mp4)_thumb.jpg"
+
+  # Archive raw file
+  mv "$demo" "demos/archive/"
+done
+
+echo "Processing complete. $(ls demos/processed/*.mp4 | wc -l) demos ready."
+```
+
+**Thursday afternoon (30 min notification)**
+1. Send notification to all clients: "Your week's demos are ready"
+2. Include individual links with timestamps
+3. Remind of feedback deadline (usually Monday)
+
+**Friday morning (30 min analysis)**
+1. Collect feedback from all clients
+2. Prioritize changes
+3. Plan fixes for next week
+
+This cycle produces 4-8 polished demos per week with minimal manual effort.
+
+## Measuring Demo Impact
+
+Track whether async demos are working:
+
+| Metric | Baseline | Target | Frequency |
+|--------|----------|--------|-----------|
+| Time spent in sync demos | 4 hours/week | 1 hour/week | Monthly |
+| Client feedback cycle time | 3-5 days | 1-2 days | Per project |
+| Features sent back for changes | 40% | <20% | Per sprint |
+| Client satisfaction on demos | Unknown | 8+/10 | Monthly survey |
+| Development velocity | Baseline | +15% | Monthly |
+
+If metrics aren't improving after 4 weeks of using async demos, the problem might be your feedback loop (unclear client feedback), not the recording itself. Tighten the feedback process rather than abandon the format.
+
+---
 
 ## Related Articles
 

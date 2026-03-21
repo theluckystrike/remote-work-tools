@@ -180,6 +180,147 @@ If after the defined period (typically 30-60 days) the employee has not met succ
 
 The goal of any PIP is genuine improvement. When executed thoughtfully with clear metrics and consistent follow-up, remote performance improvement plans can turn struggling team members into reliable contributors. The structure you build now will scale as your distributed team grows.
 
+## Sample PIPs Across Roles
+
+### Performance Improvement Plan: Backend Engineer
+
+```json
+{
+  "performance_gaps": [
+    {
+      "area": "Code Review Responsiveness",
+      "issue": "PR reviews take 3-4 days average, blocking other engineers",
+      "evidence": "Last 8 PRs averaged 78 hours to first review",
+      "expected": "First review within 24 hours of PR submission"
+    },
+    {
+      "area": "Communication Clarity",
+      "issue": "Design decisions in PRs lack explanation, requiring clarification",
+      "evidence": "5 of 8 recent PRs had follow-up questions in comments",
+      "expected": "PR description includes rationale for approach"
+    }
+  ],
+
+  "improvement_goals": [
+    {
+      "goal": "Respond to PRs within SLA",
+      "metric": "First review within 24 hours for 100% of assigned PRs",
+      "measurement": "GitHub PR analytics",
+      "deadline": "2026-04-15"
+    },
+    {
+      "goal": "Improve code review quality",
+      "metric": "PR descriptions include design rationale; zero follow-up questions",
+      "measurement": "Code review feedback",
+      "deadline": "2026-04-15"
+    }
+  ]
+}
+```
+
+### Performance Improvement Plan: Product Manager
+
+```json
+{
+  "performance_gaps": [
+    {
+      "area": "Cross-functional Alignment",
+      "issue": "Engineering team reports unclear requirements",
+      "evidence": "Sprint retro feedback: 'Requirements changed mid-sprint twice'",
+      "expected": "Finalized requirements 48 hours before sprint starts"
+    },
+    {
+      "area": "Documentation",
+      "issue": "PRD documents incomplete, missing success metrics",
+      "evidence": "Last 3 features shipped without clear success criteria",
+      "expected": "All PRDs include measurable success metrics"
+    }
+  ],
+
+  "improvement_goals": [
+    {
+      "goal": "Deliver stable requirements",
+      "metric": "Zero mid-sprint requirement changes for 4 weeks",
+      "measurement": "Jira/Linear history audit",
+      "deadline": "2026-04-15"
+    },
+    {
+      "goal": "Write complete product specifications",
+      "metric": "All PRDs include problem statement, success metrics, failure modes",
+      "measurement": "PRD quality checklist",
+      "deadline": "2026-04-15"
+    }
+  ]
+}
+```
+
+### Performance Improvement Plan: Sales Engineer
+
+```json
+{
+  "performance_gaps": [
+    {
+      "area": "Response Time",
+      "issue": "Sales team reports slow turnaround on technical questions",
+      "evidence": "Average response time 48+ hours to sales requests",
+      "expected": "Response within 24 hours; urgent <4 hours"
+    },
+    {
+      "area": "Demo Quality",
+      "issue": "Technical demos lack preparation, sometimes show errors",
+      "evidence": "Two demos last month had technical failures",
+      "expected": "Demos tested and verified 24 hours before delivery"
+    }
+  ],
+
+  "improvement_goals": [
+    {
+      "goal": "Improve response SLA",
+      "metric": "Respond to sales requests within 24 hours for 95% of requests",
+      "measurement": "Slack/email timestamp audit",
+      "deadline": "2026-04-15"
+    },
+    {
+      "goal": "Deliver polished demos",
+      "metric": "Zero technical failures in demos; all tested day before",
+      "measurement": "Demo logs and sales feedback",
+      "deadline": "2026-04-15"
+    }
+  ]
+}
+```
+
+## Handling PIP Conversations Sensitively
+
+A PIP is a difficult conversation. Approach it with:
+
+**Clarity**: "This is a performance improvement plan. It means we've identified specific areas where your performance isn't meeting expectations, and we're committing to help you improve."
+
+**Specificity**: Show data, not opinions. "Your last 10 PRs averaged 62 hours to first review" beats "you're slow at reviewing."
+
+**Support**: Be explicit about what resources you're providing. The employee shouldn't feel like they're being set up to fail.
+
+**Hope**: "The goal is for you to succeed and continue growing here. This plan is how we get there."
+
+**Documentation**: Send a written summary of the conversation to the employee with the JSON template attached.
+
+## Scenarios Where PIPs Fail
+
+PIPs are designed for capability gaps. They fail when:
+
+1. **The issue is cultural fit**: A brilliant engineer who doesn't value async communication won't improve with a PIP focused on response times.
+
+2. **The issue is health/personal**: Someone struggling due to mental health, caregiving, or life circumstances needs accommodations, not a PIP.
+
+3. **The expectations are unrealistic**: PIPs should target achievable goals in 30-60 days. If someone needs 6 months to improve, the expectations are too aggressive.
+
+4. **The feedback is vague**: "Better communication" isn't measurable. "Respond to Slack within 24 hours" is measurable and actionable.
+
+5. **There's no genuine support**: If the manager isn't invested in the employee's success, the PIP is a formality before termination—and everyone knows it.
+
+When any of these apply, pause the PIP process and address the root cause. A good PIP improves performance. A bad PIP is just documentation for firing someone.
+
+---
 
 ## Related Articles
 

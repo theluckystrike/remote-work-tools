@@ -171,11 +171,100 @@ automation:
 
 5. Consider your climate: Humidity management becomes critical in some regions—pair ventilation with a small dehumidifier or humidifier as needed.
 
+## Product Recommendations by Budget
+
+### Budget Setup ($100-200)
+
+- Portable air purifier: $80-120 (LEVOIT Core 300S, Winix 5500-2)
+- CO2 monitor: $40-70 (Aranet4, ThCO2)
+- Smart plug for automation: $10-15
+
+**Setup**: Place purifier at room center, position CO2 monitor at breathing height, schedule fan on timers during work hours.
+
+### Mid-Range Setup ($300-600)
+
+Everything above, plus:
+- Larger HEPA purifier: $150-250 (Coway AP-1512HHS, Winix 5300)
+- Humidity monitor: $30-50 (ThermoPro Digital Hygrometer)
+- Inline duct fan (if you have accessible ducting): $100-150
+
+**Setup**: Upgrade to premium purifier with better coverage, add humidity monitoring, install basic inline fan if ceiling allows.
+
+### Premium Setup ($800-1500)
+
+- Heat Recovery Ventilator (if exterior wall accessible): $500-800
+- Advanced air purifier with app control: $300-500
+- Full smart monitoring suite: $100-200 (CO2, PM2.5, humidity, temperature)
+- Professional installation: $500-1000
+
+**Setup**: Professional HVAC contractor assesses room, installs HRV with ducting, integrates smart controls.
+
+## Maintenance Schedule
+
+| Task | Frequency | Time | Importance |
+|------|-----------|------|-----------|
+| Clean air purifier intake | Weekly | 5 min | High |
+| Replace main HEPA filter | 6-12 months | 10 min | High |
+| Replace activated carbon filter | 3-6 months | 5 min | Medium |
+| Clean fan blades (if mechanical fan) | Monthly | 15 min | Medium |
+| Check ductwork for blockage | Quarterly | 30 min | Medium |
+| Calibrate CO2 sensor | Annually | 5 min | Low |
+
+Consistent maintenance prevents performance degradation and keeps your air quality investment effective.
+
+## Real Results: Air Quality Improvements
+
+A typical home office transformation timeline:
+
+**Before any intervention**
+- CO2: 1200-1500 ppm (elevated, causes fatigue)
+- PM2.5: 15-25 µg/m³ (moderate air quality)
+- Temperature: Stable but room-dependent
+- Symptoms: Afternoon headaches, stale feeling
+
+**After adding air purifier (Day 1)**
+- CO2: No change (purifiers don't add fresh air)
+- PM2.5: Drops to 5-8 µg/m³ (excellent)
+- Symptoms: Afternoon fatigue remains
+
+**After adding ventilation (Week 2)**
+- CO2: Drops to 600-800 ppm (healthy range)
+- PM2.5: Maintained at 5-8 µg/m³
+- Temperature: 1-2°F variance
+- Symptoms: Afternoon alertness improves dramatically
+
+**After smart monitoring/optimization (Month 2)**
+- CO2: Stable 500-800 ppm throughout day
+- PM2.5: Consistently under 10 µg/m³
+- Humidity: 40-60% (optimal for comfort)
+- Symptoms: No afternoon fatigue; afternoon productivity up 20-30%
+
+This progression shows why layering solutions works better than single-solution approaches.
+
+## Common Questions About Windowless Offices
+
+**Q: Will an air purifier alone fix my air quality?**
+A: Partially. Purifiers remove particles and allergens but don't exchange stale air for fresh air. CO2 levels won't improve without ventilation.
+
+**Q: Can I just open the door to bring in fresh air?**
+A: Yes, temporarily. For a windowless room, cracking the door for 30 seconds every hour helps. But it's not sufficient for an 8-hour workday.
+
+**Q: Is CO2 really that important?**
+A: Studies show CO2 above 1000 ppm measurably reduces cognitive function. If your afternoon productivity crashes, high CO2 is likely the culprit.
+
+**Q: Will a ceiling fan help?**
+A: Not with ventilation. Ceiling fans circulate existing air but don't bring fresh air in or stale air out.
+
+**Q: How much does professional installation cost?**
+A: HRV installation runs $1500-3000+ depending on ducting complexity and your local labor rates.
+
 ## When to Call a Professional
 
 If your windowless office shows signs of mold, persistent musty odors, or if you experience unexplained health symptoms that improve when away from the space, consult an HVAC professional. They can assess your specific situation and recommend ducted solutions that meet building codes.
 
 For most remote workers, however, the solutions outlined above provide excellent air quality without major renovations. Start with air purification, add simple ventilation where possible, and layer in smart monitoring to optimize your setup over time.
+
+Your windowless office doesn't need to feel stale. The right combination of tools transforms an interior space into an environment where you can sustain focus for 8+ hours without the afternoon cognitive decline that typically shows up in sealed rooms.
 
 ---
 

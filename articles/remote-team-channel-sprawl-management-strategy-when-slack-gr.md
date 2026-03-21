@@ -223,6 +223,99 @@ When an employee leaves, their owned channels become unowned. Build offboarding 
 This prevents ghost channels accumulating from employee turnover — a common source of sprawl in companies that have been running for several years.
 
 The same logic applies to contractors. Set channel ownership records with an expiration date tied to contract end dates. Your governance bot can alert the team lead two weeks before expiration to reassign ownership or archive.
+## Advanced Cleanup Automation
+
+For mature teams at 200+ channels, build automated governance into your workspace:
+
+### Slack App Workflow for Continuous Cleanup
+
+This Slack app uses the Slack API to run continuous governance without manual intervention:
+
+```javascript
+// Slack App: Continuous channel hygiene
+const { App } = require("@slack/bolt");
+
+const app = new App({
+  token: process.env.SLACK_BOT_TOKEN,
+  signingSecret: process.env.SLACK_SIGNING_SECRET
+});
+
+// Daily scan for inactive channels
+app.event("app_home_opened", async ({ event, client }) => {
+  const channels = await client.conversations.list({
+    types: "public_channel,private_channel"
+  });
+
+  for (const channel of channels.channels) {
+    const history = await client.conversations.history({
+      channel: channel.id,
+      limit: 1
+    });
+
+    const lastMessage = history.messages[0];
+    const daysSinceActivity = (Date.now() - (lastMessage.ts * 1000)) / (1000 * 60 * 60 * 24);
+
+    if (daysSinceActivity > 60) {
+      // Tag for review
+      await client.conversations.setPurpose({
+        channel: channel.id,
+        purpose: `[INACTIVE: ${Math.floor(daysSinceActivity)} days] ${channel.purpose}`
+      });
+
+      // Notify owner
+      const owner = await getChannelOwner(channel.id);
+      if (owner) {
+        await client.chat.postMessage({
+          channel: owner,
+          text: `#${channel.name} has been inactive for ${Math.floor(daysSinceActivity)} days.`
+        });
+      }
+    }
+  }
+});
+
+app.shortcut("archive_channel", async ({ ack, body, client }) => {
+  await ack();
+  const channelId = body.channel.id;
+  await client.conversations.archive({ channel: channelId });
+});
+
+app.start();
+```
+
+Deploy this as a scheduled job (daily or weekly) to continuously surface inactive channels without overwhelming your team.
+
+## Measuring Cleanup Success
+
+After implementing governance, track these metrics:
+
+| Metric | Target | Frequency |
+|--------|--------|-----------|
+| Total active channels | <150 for 200-person org | Monthly |
+| Channels with owners | 95%+ | Monthly |
+| Inactive channels (60+ days) | <10 | Weekly |
+| Time to locate information | <5 minutes | Quarterly survey |
+| New channel approval time | <1 day | Monthly |
+
+These metrics show whether governance is working. If you see channels growing faster than you can review them, time zone coordination or departmental sprawl might require a different approach (multiple workspaces, Discord servers for specific functions, etc.).
+
+## Slack Organization Models for Large Teams
+
+As your organization grows past 200 channels, consider these structural alternatives:
+
+### Model 1: Monolithic Workspace (Recommended to 300 channels)
+
+Keep everything in one Slack workspace with strict governance. Use the automation above to maintain order.
+
+### Model 2: Department-Based Workspaces
+
+Split into separate workspaces per major department (Engineering, Sales, Operations, Product). Each maintains their own channel hygiene. Use Slack Connect (shared channels) for cross-functional work.
+
+Tradeoff: Adds complexity but prevents any single workspace from exceeding 150 channels.
+
+### Model 3: Time-Zone Workspaces
+
+Create separate Slack workspaces per major geographic region (US, Europe, APAC). Company-wide announcements flow through shared channels. This is rarely necessary but works for organizations with deep geographic distribution.
 
 ## When to Consider Alternatives
 

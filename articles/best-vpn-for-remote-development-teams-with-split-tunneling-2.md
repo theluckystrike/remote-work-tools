@@ -179,6 +179,89 @@ For remote development teams, start with these steps:
 4. Test thoroughly: Verify each developer's workflow works correctly before rolling out team-wide
 5. Monitor and iterate: Watch for access issues and refine rules as needed
 
+## VPN Solution Comparison Table
+
+| Solution | Protocol | Split Tunnel | API | Price | Best For |
+|----------|----------|--------------|-----|-------|----------|
+| Tailscale | WireGuard | Yes (ACL) | GraphQL | $6/user/month | Development teams, mesh networks |
+| Cloudflare WARP | WireGuard | Yes (UI) | Limited | $20/month | Single developer, simple setup |
+| OpenVPN | OpenVPN | Yes (Routes) | REST | Self-hosted | Maximum control, on-prem infrastructure |
+| WireGuard | WireGuard | Yes (Config) | None | Free (self-hosted) | Advanced users, minimal overhead |
+| Cisco AnyConnect | IPSec | Yes (Config) | HTTPS | $5-15/user/month | Enterprise, existing Cisco infrastructure |
+
+## Troubleshooting Split Tunneling Issues
+
+### Issue: VPN connects but internal services are unreachable
+
+Check: Is the internal IP range in AllowedIPs?
+```ini
+# Check your config
+[Peer]
+AllowedIPs = 10.0.0.0/8, 192.168.100.0/24
+# If missing your internal range, add it
+```
+
+Solution: Add the missing range and reconnect.
+
+### Issue: DNS resolution broken for internal domains
+
+Check: Is your DNS server specified?
+```ini
+[Interface]
+DNS = 10.0.0.1, 8.8.8.8  # Internal DNS first, fallback to public
+```
+
+Solution: Use your company's internal DNS server first, then a public fallback.
+
+### Issue: Split tunnel not working; all traffic going through VPN
+
+Check: Are you using the correct routing rules?
+
+For WireGuard:
+- ❌ `AllowedIPs = 0.0.0.0/0` routes everything
+- ✅ `AllowedIPs = 10.0.0.0/8` routes only internal
+
+For OpenVPN:
+- ❌ `pull "redirect-gateway"` routes everything
+- ✅ `pull "route 10.0.0.0 255.255.255.0"` routes specific ranges
+
+Solution: Verify your configuration excludes the routes you don't want through the tunnel.
+
+### Issue: Some developers experience different performance than others
+
+Cause: Different internet connections, local network congestion, VPN server selection.
+
+Solution:
+- Profile actual performance on different machines
+- Document expected performance numbers
+- Provide VPN server selection (nearest geographic region)
+- Use speed tests: `speedtest-cli` via VPN vs. direct
+
+```bash
+# Simple speed test script
+# Test public internet
+curl -o /dev/null -s -w "%{time_total}" https://www.example.com
+
+# Test internal service via VPN
+curl -o /dev/null -s -w "%{time_total}" https://internal-api.company.com
+```
+
+## Security Audit Checklist
+
+Before rolling out split tunneling to your team:
+
+- [ ] All internal IP ranges documented and added to config
+- [ ] DNS leaks tested (use dnsleaktest.com)
+- [ ] Kill switch enabled (traffic stops if VPN drops)
+- [ ] Firewall rules tested (can your endpoints reach services correctly)
+- [ ] PKI/certificate rotation scheduled (quarterly minimum)
+- [ ] Traffic logging disabled for privacy
+- [ ] VPN server access logs reviewed for anomalies
+- [ ] Team training completed (what's internal, what's external)
+
+This audit prevents common security misconfigurations that undermine the VPN's benefit.
+
+---
 
 ## Related Articles
 

@@ -178,6 +178,122 @@ Track cycle time (task start to completion), blocked time (days waiting on depen
 
 Review these metrics monthly with your team. Identify patterns and experiment with changes.
 
+## Advanced Dependency Management
+
+For complex projects with 5+ teams involved, use advanced dependency visualization:
+
+### Dependency Matrix Tool Setup
+
+Create a simple spreadsheet or database that tracks all dependencies:
+
+```csv
+Source Task,Source Owner,Dependent Task,Dependent Owner,Dependency Type,Critical,Est. Unblock Date
+DES-142,design-team,DEV-201,backend-team,blocking,yes,2026-03-25
+DEV-201,backend-team,DEV-250,frontend-team,blocking,yes,2026-04-01
+DEV-250,frontend-team,QA-301,qa-team,blocking,yes,2026-04-08
+```
+
+This matrix shows:
+- Critical path (tasks blocking the most other work)
+- High-risk dependencies (tasks many things depend on)
+- Unblock dates (when dependent work can start)
+
+Use this to prioritize the work that unlocks others.
+
+### Slack Integration for Dependency Updates
+
+When a blocker clears, automatically notify dependent teams:
+
+```javascript
+// When a task moves to "Completed" in your project tool
+async function notifyDependentTeams(completedTaskId) {
+  const dependents = database.getDependentTasks(completedTaskId);
+
+  for (const dependent of dependents) {
+    const owner = dependent.assignee;
+    const channel = dependent.team_channel;
+
+    await slack.chat.postMessage({
+      channel: channel,
+      text: `🚀 ${completedTaskId} is complete! Your task ${dependent.id} is now unblocked.`
+    });
+  }
+}
+```
+
+This prevents teams from missing the signal that they can now start.
+
+## Real-World Example: 3-Month Product Launch
+
+Here's how a cross-functional project with design, engineering, and QA manages dependencies:
+
+**Month 1: Design Phase**
+- Design team completes wireframes and specifications
+- Engineering audits for technical feasibility, raises constraints
+- QA begins planning test scenarios based on design
+- Blocker: Design handoff must happen by EOW1 or engineering falls behind
+
+**Month 2: Engineering Phase**
+- Backend and frontend teams work in parallel on API and UI
+- QA writes automated test suites in staging environment
+- Design provides feedback on implementation via code review
+- Blocker: API must be 80% stable by EOW2 for QA integration testing
+
+**Month 3: Integration & Launch**
+- QA runs full test cycle, logs blocking bugs
+- Engineering prioritizes bugs by severity and launch impact
+- Design validates final UI matches specifications
+- Marketing prepares launch materials based on final feature list
+- Blocker: QA sign-off by EOW1 of month 3, launch goes live by EOW3
+
+Each phase has explicit blockers defined at the start. Teams know what unlocks their work and when to escalate.
+
+## Preventing Cross-Functional Drift
+
+As projects span months, teams can drift out of alignment. Prevent this with:
+
+**Aligned Terminology**: Document what "complete" means for each function. For design, complete = approved by design lead. For engineering, complete = merged to main. For QA, complete = zero critical bugs remaining.
+
+**Weekly Sync Format** (async-friendly):
+Each function lead posts (Monday morning):
+- What we completed last week
+- What we're working on this week
+- What we're waiting on / what's blocking us
+- What we need from other teams
+
+Example format for async standups in a shared document:
+
+```markdown
+# Weekly Cross-Functional Sync — Week of March 20
+
+## Design (Jessica)
+- ✅ Completed: User dashboard mockups (revision 3)
+- 🔄 In Progress: Settings page responsive breakpoints
+- 🚫 Blocked: Waiting on engineering constraints for search performance
+- ❓ Need: Backend team input on search latency expectations
+
+## Engineering - Backend (Mike)
+- ✅ Completed: Search API endpoints (basic implementation)
+- 🔄 In Progress: Database query optimization
+- 🚫 Blocked: None
+- ❓ Need: Design team clarification on search result display format
+
+## Engineering - Frontend (Alex)
+- ✅ Completed: Component library setup
+- 🔄 In Progress: Integrating with search API
+- 🚫 Blocked: Waiting on final search API response format from backend
+- ❓ Need: Exact API response format from backend team
+
+## QA (Sarah)
+- ✅ Completed: Test plan outline
+- 🔄 In Progress: Setting up test environment
+- 🚫 Blocked: Need access to staging environment
+- ❓ Need: Staging credentials and deployment schedule
+```
+
+This format is quick to write (5 minutes), easy to parse, and creates visibility without meetings.
+
+---
 
 ## Related Articles
 
