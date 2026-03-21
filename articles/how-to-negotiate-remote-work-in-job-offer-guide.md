@@ -7,9 +7,9 @@ last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-negotiate-remote-work-in-job-offer-guide/
 categories: [guides]
-tags: [remote-work-tools, career, negotiation]
+tags: [remote-work-tools, career, negotiation, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

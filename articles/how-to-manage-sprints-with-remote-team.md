@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Sprints with Remote Team: A Practical"
-description: "- What did you complete?"
+description: "Follow this guide to how to manage sprints with remote team with practical examples, tips, and step-by-step instructions for getting the best results."
 date: 2026-03-15
 last_modified_at: 2026-03-15
 author: theluckystrike

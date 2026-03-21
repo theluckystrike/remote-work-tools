@@ -6,9 +6,9 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-remote-team-knowledge-base-guide/
 categories: [guides]
-tags: [remote-work-tools, knowledge-management, team-collaboration, best-of]
+tags: [remote-work-tools, knowledge-management, team-collaboration, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /how-to-present-sprint-demos-to-non-technical-remote-clients/
 categories: [guides]
 tags: [remote-work-tools, sprint-demo, remote-work, client-communication, presentation-skills, agile]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

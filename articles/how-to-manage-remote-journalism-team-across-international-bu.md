@@ -9,7 +9,7 @@ permalink: /how-to-manage-remote-journalism-team-across-international-bu/
 categories: [guides]
 tags: [remote-work-tools, remote-work, journalism, distributed-teams, time-zones, async-communication, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

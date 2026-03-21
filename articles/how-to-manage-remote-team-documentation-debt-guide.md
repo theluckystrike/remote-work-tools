@@ -7,9 +7,9 @@ title: "How to Manage Remote Team Documentation Debt: Complete Guide"
 description: "Practical guide to identifying, measuring, and reducing documentation debt. Includes audit frameworks, templates, and tool comparisons for distributed teams."
 permalink: /remote-work-tools/manage-documentation-debt/
 categories: [guides]
-tags: [remote-work-tools, documentation, best-of]
+tags: [remote-work-tools, documentation, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---
