@@ -181,6 +181,155 @@ The best handoff is one that's unnecessary because knowledge was captured increm
 
 Remote teams must be intentional about knowledge sharing. Without hallway conversations, explicit documentation becomes the primary knowledge transfer mechanism.
 
+## Knowledge Transfer Tools Comparison
+
+Selecting the right tool stack determines whether knowledge actually gets preserved or sits unused. Here's how established teams compare their options:
+
+| Tool | Cost | Best For | Documentation Style |
+|------|------|----------|---------------------|
+| Notion | Free-$8/person | Central knowledge hub | Structured pages with templates |
+| Confluence | $5-8/person | Enterprise scaling | Wiki with version history |
+| GitBook | Free-$15/seat | Technical documentation | Living markdown docs |
+| Linear Docs | $10-15/month | Engineering teams | Linked to issues; code-first |
+| Slite | $4-5/person | Quick team wikis | Simple, searchable knowledge |
+
+**Notion works best** for cross-functional teams where knowledge includes design specs, architecture diagrams, and process docs. The template system prevents documentation inconsistency. However, Notion's search deteriorates with scale (50,000+ pages).
+
+**Confluence dominates enterprise** because it enforces hierarchy and permissions. If you have compliance requirements or need to restrict who accesses infrastructure knowledge, Confluence's access controls matter. Cost scales with headcount.
+
+**GitBook excels for developer-centric knowledge** where documentation lives alongside code. If your departing developer maintained internal libraries or CLI tools, GitBook's code block support and version control integration keep docs fresh.
+
+## Screen Recording Best Practices for Knowledge Handoff
+
+Video walkthroughs transfer knowledge faster than written documentation in many cases. Recording 5-10 minute screencasts of complex processes creates lasting reference material.
+
+**Tools for recording:**
+- **Loom** ($5-20/month) - frames your video, includes transcription, embeds in docs
+- **OBS Studio** (free) - powerful for technical teams, steep learning curve
+- **ScreenFlow** (macOS, $129) - professional quality, one-time cost
+- **CloudApp** ($8/month) - lightweight, quick sharing
+
+**Recording guidelines:**
+1. **Script the walkthrough** - rambling videos waste viewers' time. Write a 2-minute script beforehand.
+2. **Use your slowest tool interaction speed** - if you normally work fast, slow down 30% on camera.
+3. **Narrate decisions, not actions** - viewers don't care that you clicked Save; they care why you used approach X instead of Y.
+4. **Capture error states** - show what goes wrong and how to recover. Production issues surface when things fail.
+5. **Title by outcome** - "Deploying Production API" not "Sarah's Random Walkthrough." Searchability matters six months later.
+
+Example structure for a 5-minute walkthrough on database migration:
+
+```
+[0-30s] Problem intro: Why we needed to migrate from MongoDB to PostgreSQL
+[30-90s] Architecture diagram showing old vs new system
+[90-180s] Walkthrough of migration script with annotations
+[180-240s] Troubleshooting common issues (replication lag, index creation)
+[240-300s] Monitoring and validation after migration complete
+```
+
+## Advanced Handoff Documentation: Runbooks
+
+A runbook is a script for handling recurring operational tasks. Unlike general documentation, runbooks format tasks as step-by-step procedures that anyone can follow.
+
+Runbooks work best for high-stakes, low-frequency tasks that must be executed correctly. Database failover, security incident response, and production deployments are good candidates.
+
+Example runbook structure for a payment system outage:
+
+```markdown
+# RUNBOOK: Payment Service Outage Response
+
+## Severity: Critical
+
+## Trigger Conditions
+- Payment success rate drops below 95% for 5+ minutes
+- Payment processing latency exceeds 10 seconds
+- Customer complaints arrive faster than 10/minute in Slack
+
+## Pre-Steps (Do these before escalating)
+1. Check Datadog dashboard: /links/payment-system-health
+2. Query last 100 failed transactions: `SELECT * FROM payment_errors LIMIT 100`
+3. Check for recent deployments: `git log --oneline origin/main -10`
+
+## If Database Connection Timeout
+1. SSH to payment-db-primary
+2. Run: `show processlist` to check active connections
+3. If >800 connections, kill idle: `KILL QUERY <process_id>`
+
+## If Service Unavailable
+1. Check deployment status: `kubectl get deployment payment-api`
+2. If pods stuck terminating, force: `kubectl delete pod <pod-name> --grace-period=0 --force`
+
+## Escalation
+Call on-call engineer: ${ONCALL_ENGINEER_PHONE}
+```
+
+Runbooks reduce decision-making during high-stress situations. The departing developer's knowledge, encoded as a procedure, becomes executable by their replacement.
+
+## Knowledge Audit Template
+
+Before the handoff meeting with the departing developer, use this template to ensure nothing gets missed:
+
+```markdown
+# Knowledge Audit: [Developer Name]
+
+## Critical Path Systems (Will cause revenue impact if down)
+- [ ] System: [Name]
+  - Owner: [Developer Name]
+  - Backup: [Assigned to]
+  - Monitoring dashboard: [URL]
+  - Escalation contact: [Name/Phone]
+
+## High Maintenance Systems (Frequent operational overhead)
+- [ ] System: [Name]
+  - Frequency of intervention: [Daily/Weekly/Monthly]
+  - Common issues: [List]
+  - Typical resolution time: [X minutes]
+
+## Knowledge Held by One Person Only
+- [ ] Technical area: [Name]
+  - Why only one person? [Decision context]
+  - Documented where? [URL]
+  - Can be owned by: [Name] (starting date)
+
+## External Dependencies (Vendor relationships, API keys)
+- [ ] Service: [Name]
+  - Account owner: [Developer Name]
+  - Key contact: [Vendor name/email]
+  - Auth method: [OAuth/API key/...]
+  - Renewal date: [Date]
+
+## Recent Decision Making
+- [ ] Major decision: [What changed]
+  - Made by: [Developer Name]
+  - Decision record: [URL to ADR or Slack thread]
+  - Outcome: [Did it work]
+```
+
+Complete this audit collaboratively with the departing developer. Their input on what matters most prevents you from over-documenting low-stakes areas.
+
+## Measuring Handoff Success: 30-60-90 Days
+
+Don't assume the handoff worked just because the developer left. Measure success through a structured follow-up process:
+
+**Day 30**: The replacement developer can answer basic questions about the systems without consulting external resources.
+
+**Day 60**: The replacement has made at least one independent decision in the domain (bug fix, minor feature, infrastructure adjustment) that didn't require approval from other senior engineers.
+
+**Day 90**: The replacement is confident enough to handle that domain solo during on-call shifts.
+
+If you don't hit these milestones, schedule additional mentoring sessions or pair programming. It's far cheaper than having two people context-switching back to the old developer's systems.
+
+## Building Preventive Documentation Practices
+
+The best handoff is one that's unnecessary because knowledge was captured continuously:
+
+1. **Documentation as part of definition of done** - code reviews shouldn't approve features without corresponding doc updates
+2. **"Decision records" on major choices** - commit ADRs to version control, not buried in email
+3. **Public status pages for systems** - everyone can see what each system does, who maintains it, and current health
+4. **Quarterly knowledge audits** - every 90 days, ask "could someone else run this system if I left tomorrow?"
+5. **Pair programming on critical paths** - rotate pairing so knowledge spreads, not concentrates
+
+These practices compound over time. After six months of continuous documentation, handoffs become friction-free because knowledge was never siloed.
+
 
 ## Related Articles
 

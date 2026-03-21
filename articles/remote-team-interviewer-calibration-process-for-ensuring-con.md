@@ -180,6 +180,224 @@ Avoid these mistakes that undermine calibration efforts:
 4. No accountability: Track individual interviewer patterns and address outliers
 5. Static rubrics: Update competency matrices as role requirements evolve
 
+## Calibration Session Formats for Different Scenarios
+
+**Format 1: Recorded Candidate Reviews (Monthly, 60 minutes)**
+
+This is the most accessible format for distributed teams. Use actual recorded interviews (with candidate consent) from your recent hiring:
+
+```
+Agenda:
+- 5 min: Introduce candidate and role context
+- 15 min: Everyone independently scores based on recording
+- 20 min: Group discussion of scores
+- 10 min: Document learnings
+- 10 min: Repeat with second candidate
+```
+
+Request candidates' permission to use recordings for calibration during the interview. Most agree if you explain the quality assurance purpose.
+
+**Format 2: Scenario-Based Calibration (Quarterly, 90 minutes)**
+
+For teams that prefer structured exercises:
+
+```
+Agenda:
+- 20 min: Introduce fictional candidate scenarios
+  "This candidate solved the coding problem quickly but their explanation was unclear"
+  "This person has all technical skills but seemed uninterested in learning"
+- 20 min: Small group discussions (break into 2-3 groups)
+- 30 min: Compare group results and discuss disagreements
+- 20 min: Establish group consensus on how each would score
+```
+
+This format removes the real-candidate discomfort while still training judgment.
+
+**Format 3: Panel Calibration (After Every 10 Interviews)**
+
+After conducting interviews, panel members who conducted them meet to compare scores:
+
+```
+Agenda:
+- Each interviewer independently pulls their recent scorecards
+- Compare scores on same candidates across interviewers
+- Calculate variance
+- Discuss outliers and differences
+```
+
+This format is lowest overhead since interviews already happened. It's reactive calibration rather than proactive.
+
+## Competency Matrices for Different Roles
+
+**Senior Engineer Competency Matrix:**
+
+```yaml
+senior_engineer:
+  technical_depth:
+    required: true
+    description: "Deep expertise in language/framework; can solve complex problems independently"
+    scoring:
+      5: "Recognized expert; sets technical direction"
+      4: "Solves complex problems; mentors on technical details"
+      3: "Solid technical skills; occasionally needs guidance"
+      2: "Competent but knowledge gaps in specialized areas"
+      1: "Struggles with advanced concepts"
+
+  system_design:
+    required: true
+    description: "Can design systems handling scale; considers tradeoffs"
+    scoring:
+      5: "Designs systems for millions of users; understands tradeoffs deeply"
+      4: "Designs for high scale; reasonable tradeoff analysis"
+      3: "Designs moderate complexity systems"
+      2: "Designs simple systems; misses scalability considerations"
+      1: "Cannot effectively design for scale"
+
+  communication:
+    required: true
+    description: "Explains thinking clearly; documents decisions"
+    scoring:
+      5: "Exceptional written and verbal communication; influences through clarity"
+      4: "Clear communication in technical and non-technical contexts"
+      3: "Generally clear; occasionally needs to clarify"
+      2: "Often unclear; requires follow-up questions"
+      1: "Difficulty articulating ideas"
+
+  mentorship:
+    required: true
+    description: "Actively develops others; creates growth opportunities"
+    scoring:
+      5: "Develops multiple engineers; creates mentoring programs"
+      4: "Actively mentors 1-2 engineers; improves their trajectory"
+      3: "Willing to mentor; helpful when asked"
+      2: "Minimal mentoring; prefers to work independently"
+      1: "Not interested in mentoring others"
+
+  culture_fit:
+    required: false
+    description: "Alignment with company values; collaboration style"
+    scoring:
+      5: "Exemplifies company values; actively improves culture"
+      4: "Aligns with values; positive team influence"
+      3: "Generally aligns; works well with others"
+      2: "Some values misalignment; occasional friction"
+      1: "Significant cultural conflicts"
+
+  pass_criteria: "Must score minimum 4 on technical_depth and system_design; minimum 3 on communication and mentorship"
+```
+
+Create similar matrices for each role you hire for (junior engineer, senior engineer, manager, designer, product manager, etc.). Include both required and nice-to-have competencies. The pass criteria at the bottom prevents gaming—you can't score 5 on communication and 2 on technical skills and still pass senior engineer.
+
+**Product Manager Competency Matrix:**
+
+```yaml
+product_manager:
+  product_strategy:
+    required: true
+    min_score: 3
+    criteria:
+      - Can articulate a coherent product vision
+      - Identifies market opportunities proactively
+      - Makes strategic tradeoffs with data
+
+  execution:
+    required: true
+    min_score: 3
+    criteria:
+      - Ships features on schedule
+      - Manages scope effectively
+      - Communicates progress clearly
+
+  stakeholder_management:
+    required: true
+    min_score: 3
+    criteria:
+      - Aligns diverse stakeholders
+      - Handles disagreement professionally
+      - Influences without authority
+
+  customer_empathy:
+    required: true
+    min_score: 3
+    criteria:
+      - Conducts effective user research
+      - Synthesizes customer feedback
+      - Drives features from customer insight
+
+  analytical_skills:
+    required: false
+    min_score: 2
+    criteria:
+      - Analyzes metrics effectively
+      - Supports decisions with data
+      - Identifies trends in data
+```
+
+## Calibration Metrics Dashboard
+
+Track calibration effectiveness with these metrics:
+
+```sql
+-- Interviewer reliability query
+SELECT
+    interviewer_name,
+    COUNT(*) as interviews_conducted,
+    AVG(score) as avg_score,
+    STDDEV(score) as score_std_dev,
+    COUNT(CASE WHEN decision = 'yes' THEN 1 END)::float
+        / COUNT(*) as yes_rate,
+    PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY score) as median_score
+FROM interviews
+WHERE interview_date > NOW() - INTERVAL '90 days'
+GROUP BY interviewer_name
+HAVING COUNT(*) > 5
+ORDER BY score_std_dev DESC;
+```
+
+High standard deviation suggests an interviewer who is inconsistent. Investigate whether they're strict with some candidates and lenient with others.
+
+Track the yes_rate carefully. If one interviewer has a yes_rate of 70% while team average is 40%, they're either exceptionally good at finding candidates or too lenient.
+
+## Handling Interviewer Outliers
+
+When calibration reveals outliers, address them directly:
+
+**The Harsh Interviewer (consistently scores 1-2 points below team average):**
+- Probable cause: Setting unrealistic standards or focusing on weakness
+- Solution: Review their calibration scores alongside actual candidate performance post-hire. If their rejected candidates perform well, they're too harsh. If they perform poorly, their standards are appropriate.
+- Coaching: Discuss what specific behaviors constitute acceptable performance. Show examples of candidates they rejected who turned into strong performers.
+
+**The Lenient Interviewer (consistently scores 1-2 points above team average):**
+- Probable cause: Focusing on potential rather than current capability or being conflict-averse
+- Solution: Compare their passes to team performance. If many of their hires struggle, they're too lenient.
+- Coaching: Ask them to describe specific evidence for high scores. Often they'll realize they rated potential rather than demonstrated skill.
+
+**The Specialist Interviewer (high on technical, low on communication or vice versa):**
+- Probable cause: Prioritizing their domain expertise over balanced evaluation
+- Solution: Partner them with complementary interviewers. Don't let them be the only voice on candidates.
+- Coaching: Discuss how communication and technical skills both matter. Have them interview with someone who prioritizes different competencies.
+
+## Scaling Calibration to Multiple Teams
+
+If you're hiring for multiple teams (engineering, product, design), standardize calibration:
+
+**Option 1: Centralized Calibration**
+- All interviewers participate in monthly cross-team sessions
+- Advantage: High consistency; everyone understands all role requirements
+- Disadvantage: Time-intensive; requires significant meeting overhead
+
+**Option 2: Role-Based Calibration**
+- Engineering interviewers calibrate separately from product interviewers
+- Advantage: More focused; people learn expectations for their specific roles
+- Disadvantage: May miss cross-functional hiring consistency issues
+
+**Option 3: Hybrid Approach (Recommended)**
+- Monthly role-specific sessions (tight focus, lower overhead)
+- Quarterly cross-team calibration (whole-company consistency)
+- New interviewer certification within first 5 interviews
+
+This scales better while maintaining quality.
+
 
 ## Related Articles
 
