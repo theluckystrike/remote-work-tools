@@ -30,7 +30,9 @@ The simplest backup option is using your smartphone as a mobile hotspot. Most mo
 # On iOS, go to Settings > Cellular > Personal Hotspot
 ```
 
-However, mobile hotspots have limitations. Data caps may be restrictive, and network speeds vary significantly depending on location and congestion.
+Mobile hotspots have real limitations. Data caps may be restrictive, and network speeds vary significantly depending on location and congestion. For video-heavy work—team calls, client presentations, live screen sharing—most mobile data plans throttle after 5-15 GB, often at the worst time. Test your carrier's throttled speed before relying on this as a primary backup. If throttled speeds fall below 3 Mbps upload, video calls become unreliable.
+
+A practical improvement: keep a second SIM from a different carrier preloaded with data and slotted in your phone's dual-SIM slot. When your primary carrier experiences congestion during a grid outage, switching to the secondary takes seconds rather than requiring new hardware.
 
 ## Solution 2: Dedicated Mobile Router with Multiple SIM Cards
 
@@ -56,6 +58,10 @@ Key benefits include:
 - External antenna ports: Improve signal in weak coverage areas
 - Ethernet output: Connect multiple devices via wired connection
 
+The GL.iNet GL-X3000 and Peplink MAX BR1 Mini are popular choices among remote workers in connectivity-challenged regions. The GL.iNet line runs OpenWrt, giving technically comfortable users full control over routing, failover thresholds, and firewall rules. Peplink devices cost more but offer enterprise-grade SD-WAN features including load balancing across SIM cards—useful if you conduct many simultaneous video calls.
+
+For data plans, research carrier reliability specifically during outage events in your area. In many regions, the carrier that offers the fastest normal speeds performs worst during grid outages due to tower generator capacity limitations. Ask local remote workers which carrier they trust during outages, not which is fastest day-to-day.
+
 ## Solution 3: Starlink with Battery Backup
 
 Starlink has become a major improvement for remote workers in underserved regions. Unlike traditional terrestrial infrastructure, Starlink's satellite network operates independently of local power grids.
@@ -75,6 +81,12 @@ Starlink has become a major improvement for remote workers in underserved region
 
 The primary advantage is resilience during local infrastructure failures. As long as you have battery power for the dish and router, you maintain internet access regardless of local outages.
 
+Starlink's flat-rate business plan ($250/month) provides priority access and higher speed guarantees compared to the residential plan ($120/month). For remote workers whose income depends on connectivity, the business tier's priority routing during congestion is worth the premium.
+
+Power consumption is the key planning factor. The standard Starlink dish draws 50-75W at peak, settling to 25-35W during normal operation. A 1,000 Wh portable power station (Jackery 1000, EcoFlow Delta, Bluetti AC200P) provides roughly 10-16 hours of operation at average draw. Pair this with a 200W solar panel in sun-rich regions and you can sustain connectivity indefinitely during daytime outages.
+
+Latency on Starlink averages 25-60ms, compared to 5-20ms for terrestrial fiber. For most remote work—video calls, async collaboration, file uploads—this is imperceptible. Real-time applications like remote desktop sessions to latency-sensitive cloud servers may feel slightly sluggish, but typical developer workflows on tools like VS Code Remote or GitHub Codespaces work acceptably.
+
 ## Solution 4: UPS + LTE Modem Combination
 
 A traditional uninterruptible power supply (UPS) combined with an LTE modem provides protection. This setup keeps your primary router running during outages while using cellular as the backup link.
@@ -85,7 +97,7 @@ A traditional uninterruptible power supply (UPS) combined with an LTE modem prov
 # [Primary]
 # ISP Modem → Router → Devices
 
-# [Backup]  
+# [Backup]
 # LTE Modem → Backup Router → Devices
 
 # Both routers connected to the same network with different subnets
@@ -93,6 +105,10 @@ A traditional uninterruptible power supply (UPS) combined with an LTE modem prov
 ```
 
 The UPS keeps everything running during short outages, while the LTE modem handles extended downtime.
+
+When sizing a UPS, calculate the combined wattage of everything it needs to support: modem (10-20W), router (10-30W), network switch (10-30W), and any other critical equipment. A 1500VA UPS provides roughly 45-90 minutes of runtime depending on load—sufficient for most short outages but insufficient for the multi-hour outages common in areas with unreliable infrastructure.
+
+For extended outages, consider a rackmount or external battery expansion kit. APC's Smart-UPS series and CyberPower's OL series support external battery modules, extending runtime to 4-8 hours at moderate loads. This approach costs more than a power bank but provides cleaner power delivery and protects against voltage fluctuations that can damage equipment.
 
 ## Solution 5: Community Mesh Networks
 
@@ -110,6 +126,10 @@ uci set batman-adv.bat0.hop_penalty='30'
 uci commit batman-adv
 ```
 
+Mesh networks shine in dense urban areas where multiple buildings can participate. Each node both receives and rebroadcasts signal, creating redundancy. If one node loses power, traffic routes around it. The Althea network in parts of Sub-Saharan Africa and the NYC Mesh in New York demonstrate the potential at scale.
+
+For individual remote workers, joining an existing mesh network is straightforward if one exists nearby. Building one requires recruiting neighbors and coordinating infrastructure—a meaningful community investment but beyond most individual workers' capacity.
+
 ## Implementation Checklist
 
 To implement your backup internet solution:
@@ -119,6 +139,8 @@ To implement your backup internet solution:
 3. Test your solution regularly: Don't wait for an outage to discover problems
 4. Monitor data usage: Especially important with cellular backup options
 5. Consider cost vs. impact: Balance the cost of backup solutions against potential productivity loss
+6. Document your failover procedure: Write down exactly which buttons to press and cables to switch. Under stress during an actual outage, muscle memory beats improvisation.
+7. Communicate your backup plan to clients: Let clients and team members know your backup contact method (phone, SMS) if internet is fully unavailable.
 
 ## Recommended Configuration for Developers
 
@@ -147,6 +169,8 @@ if ! ping -c 1 -W 2 $PRIMARY > /dev/null 2>&1; then
     # Trigger interface change script here
 fi
 ```
+
+Developers running local development servers or self-hosted services should also plan for the IP address change that occurs when switching to a backup connection. Services that rely on static IP whitelisting (corporate VPNs, database access controls) may require re-authentication. Keep credentials and re-auth procedures documented and accessible offline.
 
 ## Cost Comparison: Backup Internet Solutions
 
@@ -277,7 +301,7 @@ Backup strategy effectiveness varies significantly by geography:
 - Optical fiber expanding in urban areas
 - Recommendation: MiFi with multiple carrier options
 
-Research your specific location's historical outage patterns before selecting a solution. Ask other remote workers in your area about their experiences—they've likely already solved this problem.
+Research your specific location's historical outage patterns before selecting a solution. Ask other remote workers in your area about their experiences—they've likely already solved this problem. Online communities like r/digitalnomad and country-specific expat forums often have detailed carrier reviews from people who have tested multiple options under real outage conditions.
 
 ## Related Reading
 
