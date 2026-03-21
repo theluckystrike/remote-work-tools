@@ -198,6 +198,22 @@ CircleCI's strength lies in parallelism. Split tests across multiple containers 
           command: npm run test -- --split-by=tests
 ```
 
+## Tool Comparison: What to Choose as a Two-Person Team
+
+Choosing a CI/CD platform affects your day-to-day workflow more than most infrastructure decisions. Here is how the main options compare for small remote backend teams:
+
+| Feature | GitHub Actions | GitLab CI | CircleCI |
+|---------|----------------|-----------|----------|
+| Free compute | 2,000 min/mo (public), 500 (private) | 400 min/mo | 6,000 min/mo |
+| Config location | `.github/workflows/` | `.gitlab-ci.yml` | `.circleci/config.yml` |
+| Self-hosted runners | Yes (Actions Runner) | Yes (GitLab Runner) | Yes (Self-hosted) |
+| Docker support | Yes | Yes | Native (setup_remote_docker) |
+| Marketplace integrations | 15,000+ actions | Limited | 2,500+ orbs |
+| Secrets management | Built-in | Built-in | Built-in |
+| Best for | GitHub-hosted repos | GitLab monorepos | Speed-sensitive pipelines |
+
+For most two-person teams starting fresh, GitHub Actions is the lowest-friction choice. If your team already uses GitLab for issue tracking and merge requests, staying in that ecosystem avoids context switching. CircleCI makes sense when build times have become a productivity bottleneck.
+
 ## Specialized Tools for Small Teams
 
 Beyond general-purpose CI/CD platforms, several tools address specific needs for small remote teams.
@@ -263,6 +279,42 @@ pm2 restart all
 echo "Deployment complete"
 ```
 
+## Keeping Pipelines Fast Across Time Zones
+
+For a two-person remote team, slow CI feedback creates a specific collaboration problem: the developer who pushed a change may be offline by the time tests fail, leaving the other developer blocked on a broken main branch. Keeping pipeline times under 5 minutes resolves most of this friction.
+
+Practical strategies for fast pipelines:
+
+**Aggressive dependency caching.** For Node.js projects, cache both `node_modules` and `.npm`. For Python, cache the virtual environment directory. For Go, cache the module download cache at `~/go/pkg/mod`.
+
+**Parallelize test suites.** If your test suite takes more than 2 minutes, split it into logical groups—unit tests, integration tests, database tests—and run them as parallel jobs. GitHub Actions matrix builds handle this cleanly:
+
+```yaml
+jobs:
+  test:
+    strategy:
+      matrix:
+        test-suite: [unit, integration, e2e]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: npm run test:${{ matrix.test-suite }}
+```
+
+**Fail fast.** Run linting and type-checking before tests. These typically complete in seconds and catch many errors that would otherwise require a full test run to surface.
+
+**Skip CI for non-code changes.** Add `[skip ci]` to commit messages for documentation-only updates, or configure path filters so pipeline runs only trigger when source code changes:
+
+```yaml
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'package*.json'
+      - '.github/workflows/**'
+```
+
 ## Recommendations by Use Case
 
 API backend with PostgreSQL: GitHub Actions with `postgres` service container for testing. Use matrix builds to test multiple Node.js versions.
@@ -299,6 +351,8 @@ resource "aws_codebuild_project" "backend_ci" {
   }
 }
 ```
+
+Storing your CI/CD configuration in version control alongside application code ensures both developers can see, review, and modify pipeline behavior through the same pull request workflow used for feature development. This eliminates the "who configured CI?" ambiguity that commonly creates bottlenecks in small teams when one developer is unavailable.
 
 
 ## Related Articles
