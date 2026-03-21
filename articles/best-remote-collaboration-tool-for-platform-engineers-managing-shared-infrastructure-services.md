@@ -39,6 +39,8 @@ spec:
 
 Backstage's documentation feature lets you maintain runbooks, architecture diagrams, and operational procedures in a searchable format. When an on-call engineer in a different time zone needs to troubleshoot the API gateway, they find the documentation directly rather than pinging the platform team.
 
+Two strong alternatives to Backstage are worth knowing: **Port** offers a no-code portal builder with Kubernetes and cloud integrations out of the box, making it faster to set up for smaller teams. **Cortex** focuses on service health scorecards and ownership visibility, which is useful when your platform team needs to hold application teams accountable to infrastructure standards. Backstage wins on extensibility and community plugins; Port wins on time-to-value; Cortex wins on service quality tracking.
+
 ## Incident Response Coordination
 
 When infrastructure incidents occur in remote teams, coordination becomes critical. Use a structured approach that separates detection, response, and communication:
@@ -89,6 +91,8 @@ For incident communication, establish a convention that everyone follows:
 [Estimated time or "unknown"]
 ```
 
+For dedicated incident management tooling, **PagerDuty** and **Incident.io** are the two most used platforms. PagerDuty excels at on-call scheduling with complex rotation rules and deep alerting integrations. Incident.io focuses on the communication and coordination layer — it creates Slack channels automatically, tracks timeline updates, and generates post-mortem templates. For small platform teams (3-6 engineers), Incident.io's structured workflow reduces coordination overhead significantly. PagerDuty makes more sense when you have multiple on-call rotations and need granular escalation policies.
+
 ## Cross-Team Communication Channels
 
 Platform teams need dedicated channels for different types of communication. Structure your communication tools to match the urgency and audience:
@@ -121,6 +125,8 @@ Use Slack's workflow builder to create self-service request forms:
 }
 ```
 
+For teams that find Slack too noisy, **Linear** announcements and **Notion** databases work well for lower-urgency coordination. Linear's update feature lets you push infrastructure change notices to subscribers without requiring everyone to monitor a channel. A Notion change log with status columns gives downstream teams a single source of truth they can check on their own schedule.
+
 ## Documentation That Works Remotely
 
 Effective remote collaboration requires documentation that answers questions before they get asked. Maintain these key documents for every shared service:
@@ -149,6 +155,8 @@ graph TD
     style H fill:#ff9,stroke:#333
 ```
 
+For documentation hosting, **Confluence** remains common in enterprise environments, but many platform teams are moving toward **Notion** or docs-as-code approaches with **MkDocs** deployed alongside their services. Docs-as-code wins when your team already lives in GitHub — engineers update runbooks in the same PR that changes the infrastructure, keeping documentation in sync.
+
 ## Change Management for Shared Services
 
 Shared infrastructure changes carry higher risk than single-team deployments because they affect downstream teams who may not know a change is coming. Remote platform teams need a lightweight change management process that does not create bureaucratic overhead.
@@ -174,6 +182,8 @@ Use a weekly change calendar shared in a dedicated channel:
 Announce changes 24 hours in advance for non-emergency changes. For same-day changes, notify affected service owners in their team channels, not just the infrastructure channel.
 
 Tag your change announcements with affected services. Engineers subscribe to updates for services they depend on and ignore the rest, keeping the signal-to-noise ratio high.
+
+For teams that want structured change management without heavyweight ITSM tooling, **LinearB** and **Cortex** both offer lightweight change tracking integrated with GitHub and deployment pipelines. These tools automatically capture what changed, who approved it, and what the deployment outcome was — reducing the manual overhead of maintaining a change log.
 
 ## Async Runbook Reviews
 
@@ -210,6 +220,23 @@ jobs:
 ```
 
 This surfaces stale runbooks automatically without manual tracking. Owners get direct notifications rather than having the platform team act as intermediary.
+
+## Choosing the Right Tool Stack
+
+For most distributed platform teams, the highest-leverage combination is: Backstage (or Port) for service catalog, Incident.io for incident coordination, Slack with structured channels for async communication, and docs-as-code with MkDocs for runbooks. Add PagerDuty when your on-call rotation complexity demands it.
+
+Start with the service catalog first. When engineers can answer "who owns this?" and "how do I use this?" without pinging anyone, the quality of all downstream coordination improves — fewer interruptions, cleaner incidents, and faster onboarding when someone new joins the team.
+
+## Frequently Asked Questions
+
+**What is the minimum viable toolset for a small platform team going remote?**
+A service catalog (even a simple wiki page), a structured incident communication template shared in Slack, and documented runbooks in GitHub are enough to start. Add dedicated tooling as the team grows past 5-6 engineers.
+
+**How do you handle on-call handoff across time zones?**
+Use a written handoff template posted in your incidents channel at the start of each shift. Include active alerts, any ongoing investigations, and context on what was attempted. Incident.io has built-in handoff workflows; otherwise a Slack form or linear comment thread works.
+
+**Should platform documentation live in Confluence or GitHub?**
+Prefer GitHub when your team already reviews infrastructure changes there. Co-locating runbooks with infrastructure code means documentation updates are reviewable in PRs and stay in sync with actual system state.
 
 
 ## Related Articles
