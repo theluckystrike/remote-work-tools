@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Mount Monitor on Wall Behind Standing Desk Setup"
-description: "A practical guide for developers and power users on mounting monitors on the wall behind standing desk setups. Includes VESA standards, cable."
+description: "A practical guide for developers and power users on mounting monitors on the wall behind standing desk setups. Includes VESA standards, cable"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-mount-monitor-on-wall-behind-standing-desk-setup/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run a Remote Team Demo Day Showcasing Cross-Team"
-description: "A practical guide for running effective remote demo days that highlight cross-team collaboration. Learn frameworks, formats, and tooling for."
+description: "Demo days transform isolated project work into shared organizational knowledge. For remote teams, these sessions serve a dual purpose: they keep everyone"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-team-demo-day-showcasing-cross-team-projec/

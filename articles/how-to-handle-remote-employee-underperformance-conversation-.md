@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Handle Remote Employee Underperformance"
-description: "A practical guide for new managers on handling remote employee underperformance conversations. Includes scripts, frameworks, and actionable tips for."
+description: "Track deliverables, commit history, and communication patterns first—then use a documented conversation framework to address underperformance objectively with"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-handle-remote-employee-underperformance-conversation-/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up HubSpot for Remote Agency Client Pipeline"
-description: "A practical guide to configuring HubSpot pipelines tailored for remote agencies managing client relationships across time zones."
+description: "A practical guide to configuring HubSpot pipelines tailored for remote agencies managing client relationships across time zones"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hubspot-for-remote-agency-client-pipeline/

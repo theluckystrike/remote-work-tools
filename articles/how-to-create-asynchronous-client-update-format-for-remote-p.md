@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Asynchronous Client Update Format for Remote P"
-description: "Learn how to build efficient asynchronous client update formats for remote projects. Practical examples and implementation patterns for developers."
+description: "Learn how to build efficient asynchronous client update formats for remote projects. Practical examples and implementation patterns for developers"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-create-asynchronous-client-update-format-for-remote-p/

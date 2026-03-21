@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Client Retention Strategies for Freelancers 2026"
-description: "Discover practical client retention strategies for freelancers in 2026. Learn systems, automation, and communication patterns that build long-term."
+description: "Discover practical client retention strategies for freelancers in 2026. Learn systems, automation, and communication patterns that build long-term"
 date: 2026-03-15
 author: theluckystrike
 permalink: /client-retention-strategies-for-freelancers-2026/

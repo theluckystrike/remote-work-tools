@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Expense Management Platform for Remote Teams with Recei"
-description: "A practical guide to expense management tools that automate receipt scanning and approval workflows for distributed teams."
+description: "A practical guide to expense management tools that automate receipt scanning and approval workflows for distributed teams"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-expense-management-platform-for-remote-teams-with-recei/

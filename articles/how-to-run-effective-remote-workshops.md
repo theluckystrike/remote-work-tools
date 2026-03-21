@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Effective Remote Workshops"
-description: "Learn practical techniques to run effective remote workshops for distributed teams. Includes help scripts, automation examples, and actionable."
+description: "Learn practical techniques to run effective remote workshops for distributed teams. Includes help scripts, automation examples, and actionable"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-run-effective-remote-workshops/

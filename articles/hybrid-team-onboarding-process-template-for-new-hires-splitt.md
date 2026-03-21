@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ".github/ISSUE_TEMPLATE/onboarding.yml"
-description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between."
+description: "A practical template for onboarding developers in hybrid work environments. Learn how to structure orientation for employees splitting time between"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bring Your Own Device Policy for Hybrid Work"
-description: "A practical guide for developers and power users implementing BYOD policies in hybrid work environments. Covers security, device management, and."
+description: "A bring your own device policy for hybrid work requires three non-negotiable controls: full-disk encryption on every personal device, MDM enrollment before"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /bring-your-own-device-policy-for-hybrid-work/

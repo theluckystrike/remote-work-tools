@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Certificate Based Authentication Setup for Remote Team VPN"
-description: "A practical guide to implementing certificate based authentication for remote team VPN connections. Includes OpenVPN, WireGuard configurations and PKI."
+description: "A practical guide to implementing certificate based authentication for remote team VPN connections. Includes OpenVPN, WireGuard configurations and PKI"
 date: 2026-03-16
 author: theluckystrike
 permalink: /certificate-based-authentication-setup-for-remote-team-vpn-c/

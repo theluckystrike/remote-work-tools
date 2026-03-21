@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Prevent Remote Work Isolation for Solo Team Members"
-description: "Practical strategies to prevent remote work isolation for solo team members. Discover automation tools, communication patterns, and mental health."
+description: "Practical strategies to prevent remote work isolation for solo team members. Discover automation tools, communication patterns, and mental health"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-prevent-remote-work-isolation-for-solo-team-members/

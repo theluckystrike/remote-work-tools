@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Include Remote Workers in Office Meetings"
-description: "A practical guide for developers and power users on making office meetings inclusive for remote workers. Includes code snippets, automation examples."
+description: "A practical guide for developers and power users on making office meetings inclusive for remote workers. Includes code snippets, automation examples"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-include-remote-workers-in-office-meetings/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "communication-preferences.yaml"
-description: "A practical communication checklist to help new remote hires integrate smoothly during their first two weeks. Includes templates, tools, and best."
+description: "A practical communication checklist to help new remote hires integrate smoothly during their first two weeks. Includes templates, tools, and best"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-onboarding-communication-checklist-for-first-two/

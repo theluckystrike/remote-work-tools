@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: GitHub Actions workflow for assessment tracking"
-description: "A practical guide to building a remote hiring pipeline with async interviews. Step-by-step implementation for evaluating distributed candidates across."
+description: "A practical guide to building a remote hiring pipeline with async interviews. Step-by-step implementation for evaluating distributed candidates across"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Home Office Lighting Setup for Productivity"
-description: "Optimize your home office lighting for maximum productivity. Learn about color temperature, brightness levels, smart automation, and practical."
+description: "Optimize your home office lighting for maximum productivity. Learn about color temperature, brightness levels, smart automation, and practical"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /home-office-lighting-setup-for-productivity-guide/

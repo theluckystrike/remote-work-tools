@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Hybrid Office Badge Access Tracking Tool for Understanding"
-description: "Learn how to build a hybrid office badge access tracking system to analyze real desk use data. Practical implementation guide for developers."
+description: "Learn how to build a hybrid office badge access tracking system to analyze real desk use data. Practical implementation guide for developers"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-badge-access-tracking-tool-for-understanding-a/

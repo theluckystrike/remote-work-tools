@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Task Lighting for Coding at Night Without Eye Strain"
-description: "Discover the best task lighting solutions for late-night coding sessions. Learn about color temperature, desk lamp types, monitor lights, and practical."
+description: "Discover the best task lighting solutions for late-night coding sessions. Learn about color temperature, desk lamp types, monitor lights, and practical"
 date: 2026-03-16
 author: "theluckystrike"
 permalink: /best-task-lighting-for-coding-at-night-without-eye-strain/

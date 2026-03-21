@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quick-deploy stand criteria"
-description: "A practical guide to choosing portable laptop stands for remote parents who work at kitchen tables while supervising children. Features."
+description: "A practical guide to choosing portable laptop stands for remote parents who work at kitchen tables while supervising children. Features"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-portable-laptop-stand-for-remote-parents-working-from-k/

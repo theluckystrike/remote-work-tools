@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Agency Client Satisfaction Survey Template and"
-description: "A practical guide for building client satisfaction surveys for remote agencies with automation workflows using JavaScript, GitHub Actions, and no-code."
+description: "A practical guide for building client satisfaction surveys for remote agencies with automation workflows using JavaScript, GitHub Actions, and no-code"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-agency-client-satisfaction-survey-template-and-automa/

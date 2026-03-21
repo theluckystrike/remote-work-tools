@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Hybrid Office Kitchen and Shared Space"
-description: "A practical guide to establishing hybrid office kitchen and shared space etiquette. Includes signage templates, scheduling systems, and automation."
+description: "A practical guide to establishing hybrid office kitchen and shared space etiquette. Includes signage templates, scheduling systems, and automation"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-hybrid-office-kitchen-and-shared-space-eti/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Standups for a Remote QA Team of 7"
-description: "Practical strategies for running effective daily standups with a remote QA team of 7. Includes schedule templates, async alternatives, and automation tips."
+description: "Practical strategies for running effective daily standups with a remote QA team of 7. Includes schedule templates, async alternatives, and automation tips"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-standups-for-a-remote-qa-team-of-7/

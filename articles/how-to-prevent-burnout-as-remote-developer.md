@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Prevent Burnout as Remote Developer"
-description: "Learn proven techniques to prevent burnout as a remote developer. Discover boundaries, routines, and tools that help maintain productivity without."
+description: "Learn proven techniques to prevent burnout as a remote developer. Discover boundaries, routines, and tools that help maintain productivity without"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-prevent-burnout-as-remote-developer/

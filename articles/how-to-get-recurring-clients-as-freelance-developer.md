@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Get Recurring Clients as a Freelance Developer"
-description: "A practical guide to building steady client relationships as a freelance developer. Learn retention strategies, communication tactics, and systems that."
+description: "A practical guide to building steady client relationships as a freelance developer. Learn retention strategies, communication tactics, and systems that"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-recurring-clients-as-freelance-developer/

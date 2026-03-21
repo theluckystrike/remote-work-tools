@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Implement Hardware Security Keys for Remote Team"
-description: "A practical guide for developers and power users on implementing hardware security keys for remote team authentication. Includes setup steps, code."
+description: "A practical guide for developers and power users on implementing hardware security keys for remote team authentication. Includes setup steps, code"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-implement-hardware-security-keys-for-remote-team-auth/

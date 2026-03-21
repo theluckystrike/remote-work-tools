@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Neighborhoods in Lisbon for Remote Workers with Fast"
-description: "Discover the best neighborhoods in Lisbon for remote workers with fast WiFi cafes. Compare internet speeds, coworking options, and cafes with reliable."
+description: "Discover the best neighborhoods in Lisbon for remote workers with fast WiFi cafes. Compare internet speeds, coworking options, and cafes with reliable"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/

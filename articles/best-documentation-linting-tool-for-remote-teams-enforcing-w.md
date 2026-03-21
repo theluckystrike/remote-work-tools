@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Documentation Linting Tool for Remote Teams"
-description: "Discover the best documentation linting tools for remote teams in 2026. Compare Vale, textlint, Markdownlint, and automation strategies to enforce."
+description: "Discover the best documentation linting tools for remote teams in 2026. Compare Vale, textlint, Markdownlint, and automation strategies to enforce"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-documentation-linting-tool-for-remote-teams-enforcing-w/

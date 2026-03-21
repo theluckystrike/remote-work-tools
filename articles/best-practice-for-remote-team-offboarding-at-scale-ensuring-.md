@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Find all GitHub repositories where user is admin"
-description: "A practical guide for engineering managers and developers handling remote team offboarding at scale, with actionable scripts and workflows."
+description: "A practical guide for engineering managers and developers handling remote team offboarding at scale, with actionable scripts and workflows"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-offboarding-at-scale-ensuring-/

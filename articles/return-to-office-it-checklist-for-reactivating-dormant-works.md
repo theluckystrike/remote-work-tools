@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quick inventory script to scan network for dormant machines"
-description: "A practical technical guide for IT teams reactivating dormant workstations and access badges. Includes verification scripts, automation strategies, and."
+description: "Reactivating dormant workstations requires physical inspection, BIOS verification, operating system security updates, certificate/credential renewal, and"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /return-to-office-it-checklist-for-reactivating-dormant-works/

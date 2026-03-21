@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Remote Team Values Documentation That Stays"
-description: "A practical guide for developers and technical leads building team values documentation that maintains authenticity when scaling from 5 to 50+."
+description: "A practical guide for developers and technical leads building team values documentation that maintains authenticity when scaling from 5 to 50+"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-values-documentation-that-stays-au/

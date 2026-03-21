@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Sprint Planning Tools for Remote Scrum Masters"
-description: "Discover sprint planning tools that help remote Scrum Masters run effective ceremonies, estimate accurately, and keep distributed teams synchronized."
+description: "Discover sprint planning tools that help remote Scrum Masters run effective ceremonies, estimate accurately, and keep distributed teams synchronized"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-sprint-planning-tools-for-remote-scrum-masters/

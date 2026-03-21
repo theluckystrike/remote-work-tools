@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Make Async Communication Inclusive for Non-Native"
-description: "A practical guide to writing async communication that works for global teams with diverse language backgrounds. Includes templates, tools, and concrete."
+description: "A practical guide to writing async communication that works for global teams with diverse language backgrounds. Includes templates, tools, and concrete"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-make-async-communication-inclusive-for-non-native-eng/

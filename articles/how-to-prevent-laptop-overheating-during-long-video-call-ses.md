@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Prevent Laptop Overheating During Long Video Call"
-description: "Practical techniques and developer tools to prevent laptop overheating during extended video calls. Monitor temps, optimize resources, and stay cool."
+description: "Practical techniques and developer tools to prevent laptop overheating during extended video calls. Monitor temps, optimize resources, and stay cool"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-laptop-overheating-during-long-video-call-ses/

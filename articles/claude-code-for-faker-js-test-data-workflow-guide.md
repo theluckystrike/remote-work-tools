@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Claude Code for Faker.js Test Data Workflow Guide"
-description: "Learn how to leverage Claude Code to automate and streamline your Faker.js test data generation workflow. Practical examples and code snippets for."
+description: "Generating realistic test data is a critical part of software development. Whether you're populating a database, running integration tests, or building demo"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /claude-code-for-faker-js-test-data-workflow-guide/

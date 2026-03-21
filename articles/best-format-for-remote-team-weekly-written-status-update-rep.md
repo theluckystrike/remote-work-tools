@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Format for Remote Team Weekly Written Status Update"
-description: "A practical guide to structuring weekly written status updates that replace daily standups for remote development teams. Includes templates, examples."
+description: "A practical guide to structuring weekly written status updates that replace daily standups for remote development teams. Includes templates, examples"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-format-for-remote-team-weekly-written-status-update-rep/

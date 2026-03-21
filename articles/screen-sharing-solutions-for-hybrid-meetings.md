@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Screen Sharing Solutions for Hybrid Meetings"
-description: "A practical comparison of screen sharing solutions for hybrid meetings with code examples, API integrations, and implementation recommendations for."
+description: "Building effective screen sharing into your meeting platform requires understanding the technical tradeoffs between different approaches. Whether you're"
 date: 2026-03-15
 author: theluckystrike
 permalink: /screen-sharing-solutions-for-hybrid-meetings/

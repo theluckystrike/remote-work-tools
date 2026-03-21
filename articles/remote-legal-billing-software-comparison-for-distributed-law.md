@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Legal Billing Software Comparison for Distributed"
-description: "A technical comparison of remote legal billing software for distributed law firms. Evaluate time tracking, invoicing, trust accounting, and API."
+description: "A technical comparison of remote legal billing software for distributed law firms. Evaluate time tracking, invoicing, trust accounting, and API"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-legal-billing-software-comparison-for-distributed-law/

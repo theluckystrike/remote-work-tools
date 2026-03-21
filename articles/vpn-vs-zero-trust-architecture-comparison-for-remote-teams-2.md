@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "VPN vs Zero Trust Architecture Comparison for Remote Teams"
-description: "A practical comparison of VPN vs Zero Trust architecture for remote teams in 2026. Learn implementation patterns, code examples, and which approach."
+description: "A practical comparison of VPN vs Zero Trust architecture for remote teams in 2026. Learn implementation patterns, code examples, and which approach"
 date: 2026-03-16
 author: theluckystrike
 permalink: /vpn-vs-zero-trust-architecture-comparison-for-remote-teams-2/

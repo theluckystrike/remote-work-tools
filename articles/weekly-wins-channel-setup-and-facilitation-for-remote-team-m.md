@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Weekly Wins Channel Setup and Facilitation for Remote Team"
-description: "A practical guide to setting up and running a weekly wins channel that boosts morale in remote teams. Includes Slack configuration, automation tips."
+description: "A practical guide to setting up and running a weekly wins channel that boosts morale in remote teams. Includes Slack configuration, automation tips"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /weekly-wins-channel-setup-and-facilitation-for-remote-team-m/

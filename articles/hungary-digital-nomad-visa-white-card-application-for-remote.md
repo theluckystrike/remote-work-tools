@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Hungary Digital Nomad Visa White Card Application for"
-description: "Complete guide to Hungary digital nomad visa (White Card) application process. Requirements, documents, income thresholds, and step-by-step."
+description: "Complete guide to Hungary digital nomad visa (White Card) application process. Requirements, documents, income thresholds, and step-by-step"
 date: 2026-03-16
 author: theluckystrike
 permalink: /hungary-digital-nomad-visa-white-card-application-for-remote/

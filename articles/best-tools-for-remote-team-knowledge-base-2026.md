@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Remote Team Knowledge Base 2026"
-description: "Compare knowledge base tools: Notion, Guru, Tettra, Slite, Almanac. Pricing, search quality, permissions, Slack integration tested for remote teams."
+description: "Compare knowledge base tools: Notion, Guru, Tettra, Slite, Almanac. Pricing, search quality, permissions, Slack integration tested for remote teams"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-tools-for-remote-team-knowledge-base-2026/

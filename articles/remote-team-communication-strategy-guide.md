@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Communication Strategy Guide"
-description: "A practical guide to building effective remote team communication strategies for developers and technical teams."
+description: "A practical guide to building effective remote team communication strategies for developers and technical teams"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-team-communication-strategy-guide/

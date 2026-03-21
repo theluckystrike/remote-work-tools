@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Video Walkthrough Tools for Presenting Code Changes to"
-description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording."
+description: "A practical guide to video walkthrough tools that help developers present code changes clearly to non-technical clients. Learn about screen recording"
 date: 2026-03-16
 author: theluckystrike
 permalink: /video-walkthrough-tools-for-presenting-code-changes-to-non-t/

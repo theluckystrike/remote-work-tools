@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Deploy a secure Element (Matrix) server for pen test"
-description: "A practical guide for coordinating penetration testing activities across distributed security teams. Includes code examples and coordination workflows."
+description: "A practical guide for coordinating penetration testing activities across distributed security teams. Includes code examples and coordination workflows"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-penetration-testing-coordination-guide-for-distr/

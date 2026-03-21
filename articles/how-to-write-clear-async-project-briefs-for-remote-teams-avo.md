@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Write Clear Async Project Briefs for Remote Teams"
-description: "A practical guide for developers and power users on writing unambiguous async project briefs. Learn frameworks, templates, and code examples for clear."
+description: "A practical guide for developers and power users on writing unambiguous async project briefs. Learn frameworks, templates, and code examples for clear"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-write-clear-async-project-briefs-for-remote-teams-avo/

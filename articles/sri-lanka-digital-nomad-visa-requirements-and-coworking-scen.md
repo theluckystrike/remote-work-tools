@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sri Lanka Digital Nomad Visa Requirements and Coworking"
-description: "Sri Lanka Digital Nomad Visa Requirements and Coworking. — practical guide for remote teams and distributed workers with tools, tips, and workflows for."
+description: "Sri Lanka's ETA (electronic travel authorization) costs just $35 for 30 days and extends up to 6 months total, letting you stay legally without a dedicated"
 date: 2026-03-16
 author: theluckystrike
 permalink: /sri-lanka-digital-nomad-visa-requirements-and-coworking-scen/

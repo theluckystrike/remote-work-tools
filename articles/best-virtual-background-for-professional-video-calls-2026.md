@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Virtual Background for Professional Video Calls 2026"
-description: "Compare virtual background solutions: Zoom, Teams, mmhmm, ChromaCam. Covers hardware requirements, lighting setup, green screen alternatives, and performance."
+description: "Compare virtual background solutions: Zoom, Teams, mmhmm, ChromaCam. Covers hardware requirements, lighting setup, green screen alternatives, and performance"
 date: 2026-03-20
 author: theluckystrike
 permalink: /best-virtual-background-for-professional-video-calls-2026/

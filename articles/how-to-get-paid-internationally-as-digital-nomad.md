@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Get Paid Internationally as Digital Nomad"
-description: "A practical guide for developers and power users on receiving international payments while working remotely. Covers payment platforms, currency."
+description: "A practical guide for developers and power users on receiving international payments while working remotely. Covers payment platforms, currency"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-get-paid-internationally-as-digital-nomad/

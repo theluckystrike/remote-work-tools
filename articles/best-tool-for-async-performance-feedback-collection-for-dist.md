@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tool for Async Performance Feedback Collection for"
-description: "Discover the best tools for async performance feedback collection in distributed teams. Compare features, API capabilities, and implementation patterns."
+description: "Discover the best tools for async performance feedback collection in distributed teams. Compare features, API capabilities, and implementation patterns"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-async-performance-feedback-collection-for-dist/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Mentorship Program Structure for Remote Junior Develop"
-description: "Build an effective async mentorship program for remote junior developers. Learn structured approaches, communication frameworks, and practical tools to."
+description: "Structure an async mentorship program for remote junior developers around three communication layers: weekly written check-ins using a shared document"
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-mentorship-program-structure-for-remote-junior-develop/

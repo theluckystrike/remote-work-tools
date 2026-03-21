@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Remote Team Across More Than 8 Timezones Guide"
-description: "Practical guide for managing globally distributed teams spanning 8+ timezones. Covers async-first culture, overlap windows, documentation, tooling strategies."
+description: "Practical guide for managing globally distributed teams spanning 8+ timezones. Covers async-first culture, overlap windows, documentation, tooling strategies"
 date: 2026-03-20
 author: theluckystrike
 permalink: /how-to-manage-remote-team-across-more-than-8-timezones-guide/

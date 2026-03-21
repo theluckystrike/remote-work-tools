@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Portable Monitor Setup for Digital Nomads"
-description: "Learn how to set up a portable monitor for digital nomad work. Practical tips on connectivity, power management, display configuration, and."
+description: "Working as a developer on the move transforms your productivity when you add a portable monitor to your setup. A second screen means more space for code"
 date: 2026-03-15
 author: theluckystrike
 permalink: /portable-monitor-setup-for-digital-nomads/

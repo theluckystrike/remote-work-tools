@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "GitBook vs Notion for Technical Documentation"
-description: "Compare GitBook and Notion for technical documentation. Includes API integrations, version control workflows, and practical implementation examples for."
+description: "Choose GitBook if you want Git-based version control, explicit release versioning, and structured API reference documentation generated from OpenAPI specs"
 date: 2026-03-15
 author: theluckystrike
 permalink: /gitbook-vs-notion-for-technical-documentation/

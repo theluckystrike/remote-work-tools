@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Secure File Transfer Protocol Setup for Remote Teams"
-description: "Learn how to set up secure file transfer protocol for remote teams exchanging large files. Includes OpenSSH configuration, key-based auth, and."
+description: "When your remote engineering team needs to exchange large files—database dumps, build artifacts, video assets, or ML model weights—cloud storage services often"
 date: 2026-03-16
 author: theluckystrike
 permalink: /secure-file-transfer-protocol-setup-for-remote-teams-exchang/

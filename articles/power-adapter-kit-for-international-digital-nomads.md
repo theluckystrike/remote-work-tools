@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Power Adapter Kit for International Digital Nomads"
-description: "Build the ultimate power adapter kit for international digital nomads. Practical guide covering voltage compatibility, plug types, USB charging, and."
+description: "Every digital nomad has a horror story: laptop dead in a Bangkok cafe, no way to charge during a layover in Frankfurt, or a fried charger because someone"
 date: 2026-03-15
 author: theluckystrike
 permalink: /power-adapter-kit-for-international-digital-nomads/

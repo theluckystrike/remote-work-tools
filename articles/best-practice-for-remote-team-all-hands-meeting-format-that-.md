@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Team All Hands Meeting Format That"
-description: "A practical guide to running effective all-hands meetings for remote teams of 100+. Learn formatting strategies, help techniques, and tooling."
+description: "A practical guide to running effective all-hands meetings for remote teams of 100+. Learn formatting strategies, help techniques, and tooling"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/

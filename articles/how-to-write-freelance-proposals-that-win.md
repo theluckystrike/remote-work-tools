@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Write Freelance Proposals That Win"
-description: "Learn how to write freelance proposals that win clients. Practical templates, code examples, and strategies for developers to close more deals."
+description: "Learn how to write freelance proposals that win clients. Practical templates, code examples, and strategies for developers to close more deals"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-write-freelance-proposals-that-win/

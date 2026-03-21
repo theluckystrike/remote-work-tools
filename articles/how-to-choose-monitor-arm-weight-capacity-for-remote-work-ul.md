@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Choose Monitor Arm Weight Capacity for Remote."
-description: "A practical guide for developers on selecting the right monitor arm weight capacity for ultrawide setups. Learn how to calculate requirements, avoid."
+description: "A practical guide for developers on selecting the right monitor arm weight capacity for ultrawide setups. Learn how to calculate requirements, avoid"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-choose-monitor-arm-weight-capacity-for-remote-work-ultrawide-screen-setup/

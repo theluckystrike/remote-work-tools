@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Preserve Async Communication Culture When Team Moves"
-description: "A practical guide for developers and power users on maintaining asynchronous communication patterns when transitioning from fully remote to hybrid work."
+description: "A practical guide for developers and power users on maintaining asynchronous communication patterns when transitioning from fully remote to hybrid work"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-preserve-async-communication-culture-when-team-moves-/

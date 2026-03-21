@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tool for Tracking Remote Employee Work Permits and"
-description: "A practical guide for developers and power users building systems to track remote employee work permits and visa expirations. Includes code examples."
+description: "A practical guide for developers and power users building systems to track remote employee work permits and visa expirations. Includes code examples"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-tracking-remote-employee-work-permits-and-visa/

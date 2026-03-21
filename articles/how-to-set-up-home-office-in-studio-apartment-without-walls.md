@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Home Office in Studio Apartment Without Walls"
-description: "A practical guide to creating a productive home office in a studio apartment where space is limited and walls are nonexistent. Learn zone划分."
+description: "A practical guide to creating a productive home office in a studio apartment where space is limited and walls are nonexistent. Learn zone划分"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-home-office-in-studio-apartment-without-walls/

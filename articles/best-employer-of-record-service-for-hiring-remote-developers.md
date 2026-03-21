@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: EOR Integration Configuration"
-description: "A practical guide to choosing the right employer of record service for hiring and managing remote developers across different countries."
+description: "A practical guide to choosing the right employer of record service for hiring and managing remote developers across different countries"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-employer-of-record-service-for-hiring-remote-developers/

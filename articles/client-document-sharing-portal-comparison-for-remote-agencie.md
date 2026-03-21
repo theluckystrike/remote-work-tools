@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Share with client"
-description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation."
+description: "A technical comparison of client document sharing portals for remote agencies. Features, API access, security, integrations, and implementation"
 date: 2026-03-16
 author: theluckystrike
 permalink: /client-document-sharing-portal-comparison-for-remote-agencie/

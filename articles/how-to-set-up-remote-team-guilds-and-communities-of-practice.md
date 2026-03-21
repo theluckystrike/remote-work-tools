@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Remote Team Guilds and Communities of Practice"
-description: "A practical guide to building and scaling remote team guilds and communities of practice that drive knowledge sharing and skill development across."
+description: "A practical guide to building and scaling remote team guilds and communities of practice that drive knowledge sharing and skill development across"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-remote-team-guilds-and-communities-of-practice/

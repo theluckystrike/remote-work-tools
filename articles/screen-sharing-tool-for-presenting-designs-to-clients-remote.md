@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Screen Sharing Tools for Presenting Designs to Clients"
-description: "A guide to screen sharing tools that help designers present work effectively to remote clients. Compare features, pricing, and use cases."
+description: "A guide to screen sharing tools that help designers present work effectively to remote clients. Compare features, pricing, and use cases"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /screen-sharing-tool-for-presenting-designs-to-clients-remote/

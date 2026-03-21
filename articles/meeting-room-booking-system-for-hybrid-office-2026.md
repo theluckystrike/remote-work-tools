@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Meeting Room Booking System for Hybrid Office 2026"
-description: "A guide to meeting room booking systems for hybrid offices in 2026. Compare top solutions, features, pricing, and implementation tips."
+description: "A guide to meeting room booking systems for hybrid offices in 2026. Compare top solutions, features, pricing, and implementation tips"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /meeting-room-booking-system-for-hybrid-office-2026/

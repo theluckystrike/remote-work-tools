@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Team Escalation Paths That Scale"
-description: "A practical guide to building escalation paths for distributed teams that grow with your organization. Includes code examples, tiered frameworks, and."
+description: "Escalation paths in remote teams function differently than in co-located organizations. When your team spans multiple time zones, the informal hallway"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-escalation-paths-that-scale-wi/

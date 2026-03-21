@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Base brightness decreases with more monitors"
-description: "A practical guide to setting up multiple monitors while preventing eye strain and fatigue from bright light exposure."
+description: "A practical guide to setting up multiple monitors while preventing eye strain and fatigue from bright light exposure"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-prevent-eye-fatigue-from-multiple-monitors-bright-light/

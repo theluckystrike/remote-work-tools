@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Hybrid Work Feedback Loop Collecting Employee"
-description: "A practical guide to building feedback systems that collect employee input on hybrid work policy changes. Includes code examples and implementation."
+description: "A practical guide to building feedback systems that collect employee input on hybrid work policy changes. Includes code examples and implementation"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/

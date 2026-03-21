@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Structure Jira for a Remote Team of 50 Developers"
-description: "A practical guide to organizing Jira for large remote development teams. Includes project hierarchy, workflow automation, and team-specific configurations."
+description: "A practical guide to organizing Jira for large remote development teams. Includes project hierarchy, workflow automation, and team-specific configurations"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-structure-jira-for-a-remote-team-of-50-developers/

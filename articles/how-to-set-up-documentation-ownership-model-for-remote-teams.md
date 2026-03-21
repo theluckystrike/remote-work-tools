@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "List all markdown files in your docs directory"
-description: "Learn how to establish clear documentation ownership in remote teams by assigning page maintainers, creating accountability, and improving content quality."
+description: "Learn how to establish clear documentation ownership in remote teams by assigning page maintainers, creating accountability, and improving content quality"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-documentation-ownership-model-for-remote-teams/

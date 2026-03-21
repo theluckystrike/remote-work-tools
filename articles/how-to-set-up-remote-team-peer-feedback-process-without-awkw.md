@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Remote Team Peer Feedback Process Without"
-description: "A practical guide to implementing peer feedback for remote teams. Learn structured frameworks, async templates, and automation to make feedback feel."
+description: "A practical guide to implementing peer feedback for remote teams. Learn structured frameworks, async templates, and automation to make feedback feel"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-team-peer-feedback-process-without-awkw/

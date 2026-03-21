@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Handle Knowledge Base Handoff When Remote Developer"
-description: "A practical guide for managing knowledge base handoff when a remote developer leaves. Includes templates, tools, and step-by-step processes for developers."
+description: "A practical guide for managing knowledge base handoff when a remote developer leaves. Includes templates, tools, and step-by-step processes for developers"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-knowledge-base-handoff-when-remote-developer-l/

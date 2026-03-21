@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Build Trust with Clients Who Prefer In-Person"
-description: "Learn practical strategies for building trust with clients who prefer in-person meetings while working in remote or hybrid environments."
+description: "Learn practical strategies for building trust with clients who prefer in-person meetings while working in remote or hybrid environments"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-trust-with-clients-who-prefer-in-person-meeting/

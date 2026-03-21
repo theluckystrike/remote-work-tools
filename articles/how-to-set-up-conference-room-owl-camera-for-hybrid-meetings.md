@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Conference Room Owl Camera for Hybrid"
-description: "A technical guide for developers and power users on configuring Owl Labs Meeting Owl cameras for hybrid meetings. Covers network setup, API."
+description: "A technical guide for developers and power users on configuring Owl Labs Meeting Owl cameras for hybrid meetings. Covers network setup, API"
 date: 2026-03-16
 author: "theluckystrike"
 permalink: /how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote HR Benefits Administration Platform for Distributed"
-description: "A review of HR benefits administration platforms designed for remote and distributed global teams. Compare features, API integrations."
+description: "A review of HR benefits administration platforms designed for remote and distributed global teams. Compare features, API integrations"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-hr-benefits-administration-platform-for-distributed-global-teams-2026-review/

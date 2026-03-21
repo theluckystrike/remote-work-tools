@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Brain.fm vs Endel: Focus Music Comparison for Developers"
-description: "Compare Brain.fm and Endel focus music apps for developer productivity. Learn features, pricing, API options, and which suits your coding workflow."
+description: "Compare Brain.fm and Endel focus music apps for developer productivity. Learn features, pricing, API options, and which suits your coding workflow"
 date: 2026-03-15
 author: theluckystrike
 permalink: /brain-fm-vs-endel-focus-music-comparison/

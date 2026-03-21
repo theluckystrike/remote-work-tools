@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "API Idempotency Implementation Guide for Distributed Systems"
-description: "A guide to implementing API idempotency. Learn how to design idempotent endpoints that safely handle retries, prevent duplicate operations, and build."
+description: "A guide to implementing API idempotency. Learn how to design idempotent endpoints that safely handle retries, prevent duplicate operations, and build"
 date: 2026-03-18
 author: theluckystrike
 permalink: /a11-api-idempotency-implementation/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Pet Friendly Digital Nomad Destinations 2026"
-description: "A practical guide to the best pet friendly destinations for digital nomads in 2026. Find pet-welcoming co-working spaces, accommodations, and visa."
+description: "A practical guide to the best pet friendly destinations for digital nomads in 2026. Find pet-welcoming co-working spaces, accommodations, and visa"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /pet-friendly-digital-nomad-destinations-2026/

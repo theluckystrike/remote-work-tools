@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Desk Booking App for Hybrid Offices Using Microsoft 365"
-description: "A technical guide to desk booking systems with Microsoft 365 integration for hybrid offices. Learn about Graph API integration, auto-provisioning, and."
+description: "Microsoft Graph API integration enables desk booking systems to automatically sync with Azure Active Directory user accounts, pulling availability from Outlook"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-desk-booking-app-for-hybrid-offices-using-microsoft-365/

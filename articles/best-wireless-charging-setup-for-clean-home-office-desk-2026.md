@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Wireless Charging Setup for Clean Home Office Desk 2026"
-description: "A practical guide to building the best wireless charging setup for a clean home office desk in 2026. Includes power delivery calculations, cable."
+description: "A practical guide to building the best wireless charging setup for a clean home office desk in 2026. Includes power delivery calculations, cable"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-wireless-charging-setup-for-clean-home-office-desk-2026/

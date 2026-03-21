@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Workload Distribution Tool for Managers"
-description: "Learn how to implement workload distribution tools for remote teams, with practical examples, capacity planning frameworks, and automation scripts for."
+description: "Balance workload across remote teams using tools that visualize capacity across projects, track time allocation by individual, and flag burnout risks before"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /remote-team-workload-distribution-tool-for-managers-balancin/

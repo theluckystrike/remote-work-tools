@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Usage: python pip_tracker.py employee-pip.json"
-description: "Learn how to create effective performance improvement plans for remote teams with practical templates and code examples for tracking."
+description: "Learn how to create effective performance improvement plans for remote teams with practical templates and code examples for tracking"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-employee-performance-improvement-plan-t/

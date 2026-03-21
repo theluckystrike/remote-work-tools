@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Timezone Overlap When Working Remotely from"
-description: "A practical guide for developers in Southeast Asia managing timezone differences with US-based remote teams. Learn strategies, tools, and workflows."
+description: "A practical guide for developers in Southeast Asia managing timezone differences with US-based remote teams. Learn strategies, tools, and workflows"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-manage-timezone-overlap-when-working-remotely-from-so/

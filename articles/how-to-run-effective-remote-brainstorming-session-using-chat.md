@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Effective Remote Brainstorming Session Using"
-description: "A practical guide for developers and power users on running productive remote brainstorming sessions using text-based chat tools."
+description: "A practical guide for developers and power users on running productive remote brainstorming sessions using text-based chat tools"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-brainstorming-session-using-chat/

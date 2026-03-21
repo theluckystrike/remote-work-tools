@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Reading schedule generator for async book clubs"
-description: "Learn practical strategies for running effective asynchronous book clubs with remote engineering teams. Includes tools setup, discussion formats, and."
+description: "Running a book club across distributed engineering teams presents unique challenges. Without the benefit of physical proximity, traditional synchronous"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-async-book-clubs-for-distributed-engineering-teams/

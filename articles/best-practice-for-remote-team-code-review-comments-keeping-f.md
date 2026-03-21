@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Team Code Review Comments"
-description: "A practical guide to writing constructive code review comments for remote teams. Learn frameworks and examples for giving feedback that improves code."
+description: "A practical guide to writing constructive code review comments for remote teams. Learn frameworks and examples for giving feedback that improves code"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-code-review-comments-keeping-f/

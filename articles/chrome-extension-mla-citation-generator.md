@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Chrome Extension MLA Citation Generator: A Developer Guide"
-description: "Learn how MLA citation generator Chrome extensions work, their technical implementation, and how to build one for academic research workflows."
+description: "Learn how MLA citation generator Chrome extensions work, their technical implementation, and how to build one for academic research workflows"
 date: 2026-03-15
 author: theluckystrike
 permalink: /chrome-extension-mla-citation-generator/

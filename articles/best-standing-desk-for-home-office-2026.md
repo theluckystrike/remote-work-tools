@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Standing Desk for Home Office 2026"
-description: "A practical guide to the best standing desks for home office in 2026. Features, considerations, and smart integrations for developers and power users."
+description: "A practical guide to the best standing desks for home office in 2026. Features, considerations, and smart integrations for developers and power users"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-standing-desk-for-home-office-2026/

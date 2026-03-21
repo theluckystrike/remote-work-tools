@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Junior Engineer Competency Matrix"
-description: "Learn how to implement interviewer calibration sessions to maintain consistent hiring standards across distributed remote teams in 2026."
+description: "Learn how to implement interviewer calibration sessions to maintain consistent hiring standards across distributed remote teams in 2026"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-interviewer-calibration-process-for-ensuring-con/

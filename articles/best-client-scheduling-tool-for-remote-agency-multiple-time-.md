@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Create a booking via API"
-description: "Discover the top client scheduling tools designed for remote agencies managing teams and clients across different time zones. Compare features."
+description: "Discover the top client scheduling tools designed for remote agencies managing teams and clients across different time zones. Compare features"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-client-scheduling-tool-for-remote-agency-multiple-time-/

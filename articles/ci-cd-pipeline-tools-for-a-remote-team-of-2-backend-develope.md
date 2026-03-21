@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "CI/CD Pipeline Tools for a Remote Team of 2 Backend"
-description: "Practical guide to CI/CD pipeline tools for small remote backend teams. Compare GitHub Actions, GitLab CI, CircleCI, and build automation strategies."
+description: "Practical guide to CI/CD pipeline tools for small remote backend teams. Compare GitHub Actions, GitLab CI, CircleCI, and build automation strategies"
 date: 2026-03-16
 author: theluckystrike
 permalink: /ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/

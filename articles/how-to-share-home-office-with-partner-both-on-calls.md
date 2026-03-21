@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Share Home Office with Partner Both on Calls"
-description: "Practical strategies and technical solutions for couples working from home who both need to take video calls. Acoustic treatment, scheduling systems."
+description: "Practical strategies and technical solutions for couples working from home who both need to take video calls. Acoustic treatment, scheduling systems"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-share-home-office-with-partner-both-on-calls/

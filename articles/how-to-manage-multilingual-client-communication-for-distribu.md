@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Multilingual Client Communication for"
-description: "A practical guide for managing client communication across multiple languages in distributed agency teams. Learn workflows, tools, and automation."
+description: "A practical guide for managing client communication across multiple languages in distributed agency teams. Learn workflows, tools, and automation"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-manage-multilingual-client-communication-for-distributed-agency-team/

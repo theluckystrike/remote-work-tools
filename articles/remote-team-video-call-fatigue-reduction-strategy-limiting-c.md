@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Meeting Camera Guidelines"
-description: "A practical guide to implementing camera-on policies that reduce video call fatigue for remote development teams. Includes configuration examples and."
+description: "Camera-on meetings have become the default for remote teams, but the constant visibility creates real cognitive load. Research shows that sustained video"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-video-call-fatigue-reduction-strategy-limiting-c/

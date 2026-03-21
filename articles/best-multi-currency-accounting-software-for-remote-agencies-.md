@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Create invoice with automatic currency conversion"
-description: "A technical guide to multi-currency accounting solutions for remote agencies managing EUR and USD billing. Includes API integration examples and."
+description: "The best multi-currency accounting software for remote agencies billing in both EUR and USD is Xero or QuickBooks Online, which offer real-time exchange rate"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-multi-currency-accounting-software-for-remote-agencies-/

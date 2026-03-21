@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Slack Giphy Integration Not Showing Results Fix 2026"
-description: "Troubleshoot and fix your Slack Giphy integration when it's not showing results. Step-by-step solutions for remote teams."
+description: "Troubleshoot and fix your Slack Giphy integration when it's not showing results. Step-by-step solutions for remote teams"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /slack-giphy-integration-not-showing-results-fix-2026/

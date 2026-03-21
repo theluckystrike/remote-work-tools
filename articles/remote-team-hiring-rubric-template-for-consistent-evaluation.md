@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Hiring Rubric Template for Consistent"
-description: "A practical hiring rubric template for remote teams. Build consistent evaluation criteria that work across time zones and multiple interviewers."
+description: "A practical hiring rubric template for remote teams. Build consistent evaluation criteria that work across time zones and multiple interviewers"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-rubric-template-for-consistent-evaluation/

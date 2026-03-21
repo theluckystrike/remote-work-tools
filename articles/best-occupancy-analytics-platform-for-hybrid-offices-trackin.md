@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Upload to your analytics backend"
-description: "A technical guide to occupancy analytics platforms for hybrid offices. Learn how to track desk and room usage with API integrations, sensor data, and."
+description: "Occupancy analytics platforms combine hardware sensors with software dashboards to track desk use, room occupancy, and space density in hybrid offices. These"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-occupancy-analytics-platform-for-hybrid-offices-trackin/

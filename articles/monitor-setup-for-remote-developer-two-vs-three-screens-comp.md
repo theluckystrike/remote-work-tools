@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Monitor Setup for Remote Developer"
-description: "Compare monitor setups for remote developers: two vs three screens. Find the ideal multi-monitor configuration for productivity, desk space, and budget."
+description: "Compare monitor setups for remote developers: two vs three screens. Find the ideal multi-monitor configuration for productivity, desk space, and budget"
 date: 2026-03-16
 author: theluckystrike
 permalink: /monitor-setup-for-remote-developer-two-vs-three-screens-comp/

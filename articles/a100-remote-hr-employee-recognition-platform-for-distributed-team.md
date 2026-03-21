@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Employee Recognition Platform for Distributed Teams"
-description: "Discover the best employee recognition platform for remote and distributed teams in 2026. Compare features, integrations, and implementation patterns."
+description: "Discover the best employee recognition platform for remote and distributed teams in 2026. Compare features, integrations, and implementation patterns"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /a100-remote-hr-employee-recognition-platform-for-distributed-team/

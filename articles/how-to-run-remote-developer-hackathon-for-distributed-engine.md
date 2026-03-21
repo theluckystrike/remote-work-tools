@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Developer Hackathon for Distributed"
-description: "A practical guide to running successful remote developer hackathons for distributed engineering teams. Includes setup steps, tooling recommendations."
+description: "A practical guide to running successful remote developer hackathons for distributed engineering teams. Includes setup steps, tooling recommendations"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-developer-hackathon-for-distributed-engine/

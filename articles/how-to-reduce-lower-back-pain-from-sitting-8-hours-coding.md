@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Reduce Lower Back Pain from Sitting 8 Hours Coding"
-description: "Proven strategies to eliminate lower back pain from prolonged coding sessions. Ergonomic fixes, movement routines, and code-powered solutions for."
+description: "Lower back pain from prolonged coding requires ergonomic desk setup (monitor height, keyboard position), movement breaks every 30-60 minutes, and targeted"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/

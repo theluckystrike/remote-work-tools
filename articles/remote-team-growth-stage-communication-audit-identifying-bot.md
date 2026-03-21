@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Growth Stage Communication Audit"
-description: "A practical guide for developers and power users to audit communication patterns and identify bottlenecks in remote teams growing beyond 30 people in 2026."
+description: "A practical guide for developers and power users to audit communication patterns and identify bottlenecks in remote teams growing beyond 30 people in 2026"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-growth-stage-communication-audit-identifying-bot/

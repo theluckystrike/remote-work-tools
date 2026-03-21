@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Employee Intellectual Property Assignment Clause"
-description: "A practical guide to crafting IP assignment clauses for remote and distributed teams. Includes template examples, legal considerations, and."
+description: "IP assignment clauses for remote teams must cover work-created IP across multiple jurisdictions while accounting for local legal variations in Germany, Brazil"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-employee-intellectual-property-assignment-clause-temp/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example celebration message generator (Python)"
-description: "A practical guide for developers and power users on crafting genuine celebration messages for distributed teams."
+description: "A practical guide for developers and power users on crafting genuine celebration messages for distributed teams"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-remote-team-celebration-messages-that-acknowledge-effort-authentically-guide/

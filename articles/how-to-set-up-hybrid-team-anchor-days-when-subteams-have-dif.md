@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Hybrid Team Anchor Days When Subteams Have"
-description: "A practical guide for developers and power users on coordinating hybrid work schedules when your subteams operate across different time zones and."
+description: "Hybrid work models with anchor days—designated in-office days for team collaboration—work well until your organization scales into subteams with conflicting"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-team-anchor-days-when-subteams-have-dif/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Project Management Tools with GitHub Integration"
-description: "A practical comparison of project management tools with deep GitHub integration for developers. Includes API examples, automation patterns, and."
+description: "Linear is the best project management tool with GitHub integration for speed-focused engineering teams, while ClickUp leads on automation, Shortcut excels for"
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-project-management-tools-with-github-integration/

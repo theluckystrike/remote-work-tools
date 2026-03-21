@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best One on One Meeting Tool for Remote Engineering"
-description: "Discover the best one on one meeting tool for remote engineering managers in 2026. Compare features, integrations, and practical implementation for."
+description: "Use Loom for async-first 1:1s across multiple time zones with automatic transcription and GitHub integration, or combine Slack, Google Meet, and Notion for"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-one-on-one-meeting-tool-for-remote-engineering-managers/

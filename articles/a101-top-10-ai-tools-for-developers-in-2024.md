@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Top 10 AI Tools for Developers in 2024"
-description: "Discover the top 10 AI tools for developers in 2024. Learn how AI-powered solutions are transforming software development with code completion."
+description: "Discover the top 10 AI tools for developers in 2024. Learn how AI-powered solutions are transforming software development with code completion"
 date: 2024-12-01
 author: theluckystrike
 permalink: /top-10-ai-tools-for-developers-in-2024/

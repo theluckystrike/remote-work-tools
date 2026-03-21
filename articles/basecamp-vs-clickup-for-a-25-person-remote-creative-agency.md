@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Basecamp vs ClickUp for a 25-Person Remote Creative Agency"
-description: "A technical comparison of Basecamp and ClickUp for managing a 25-person remote creative agency. Features, API access, automation, and implementation."
+description: "A technical comparison of Basecamp and ClickUp for managing a 25-person remote creative agency. Features, API access, automation, and implementation"
 date: 2026-03-16
 author: theluckystrike
 permalink: /basecamp-vs-clickup-for-a-25-person-remote-creative-agency/

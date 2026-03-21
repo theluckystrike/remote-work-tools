@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tool for Remote Product Managers Running Async Customer"
-description: "A practical guide to selecting and implementing async customer discovery interview tools for distributed product teams. Code examples and evaluation."
+description: "A practical guide to selecting and implementing async customer discovery interview tools for distributed product teams. Code examples and evaluation"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-remote-product-managers-running-async-customer/

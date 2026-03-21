@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Add a client to a specific project list"
-description: "A technical guide to configuring ClickUp client portals for remote project visibility, with API examples, automation scripts, and best practices for."
+description: "To set up a ClickUp client portal, create a dedicated space with guest access configured to specific lists, then use ClickUp's API to automate guest"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-clickup-client-portal-for-remote-project-visib/

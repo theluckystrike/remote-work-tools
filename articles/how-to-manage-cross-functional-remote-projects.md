@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Cross-Functional Remote Projects"
-description: "A practical guide for developers and power users managing cross-functional remote projects. Covers coordination, communication patterns, and workflow."
+description: "A practical guide for developers and power users managing cross-functional remote projects. Covers coordination, communication patterns, and workflow"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-cross-functional-remote-projects/

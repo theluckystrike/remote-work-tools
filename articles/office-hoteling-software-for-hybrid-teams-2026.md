@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Office Hoteling Software for Hybrid Teams 2026"
-description: "A technical guide to office hoteling software for hybrid teams in 2026. Learn about API integrations, implementation patterns, and building custom."
+description: "A technical guide to office hoteling software for hybrid teams in 2026. Learn about API integrations, implementation patterns, and building custom"
 date: 2026-03-15
 author: theluckystrike
 permalink: /office-hoteling-software-for-hybrid-teams-2026/

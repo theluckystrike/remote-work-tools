@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Build a Remote Team Wiki from Scratch"
-description: "A practical guide for developers and power users to build a collaborative team wiki from scratch. Includes architecture, tools, code examples, and."
+description: "Your team needs to implement OAuth 2.0 for all external API access"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-wiki-from-scratch/

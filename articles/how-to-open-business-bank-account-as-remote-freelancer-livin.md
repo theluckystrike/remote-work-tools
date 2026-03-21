@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Format: INV-2026-0001"
-description: "A practical guide for developers and power users on opening a business bank account in Portugal as a remote freelancer. Requirements, process, and."
+description: "Open a Portuguese business bank account as a remote freelancer by registering as a trabalhador independente (sole trader) with your NIF, then presenting your"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-open-business-bank-account-as-remote-freelancer-livin/

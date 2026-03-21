@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Meeting Cadence for a Remote Engineering Team of 25"
-description: "Discover the optimal meeting cadence for a 25-person remote engineering team. Get practical schedules, async alternatives, and code tools for managing."
+description: "Discover the optimal meeting cadence for a 25-person remote engineering team. Get practical schedules, async alternatives, and code tools for managing"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-meeting-cadence-for-a-remote-engineering-team-of-25/

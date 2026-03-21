@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Accounting Software for Freelancers 2026: A"
-description: "Discover the best accounting software for freelancers in 2026. Compare CLI tools, API-driven solutions, and developer-friendly approaches for managing."
+description: "Discover the best accounting software for freelancers in 2026. Compare CLI tools, API-driven solutions, and developer-friendly approaches for managing"
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-accounting-software-for-freelancers-2026/

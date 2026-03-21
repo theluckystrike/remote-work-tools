@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Collaboration Zones in Hybrid Office Layout"
-description: "Design effective collaboration zones in hybrid office layouts with practical implementation patterns, zoning strategies, and code-based scheduling."
+description: "Design effective collaboration zones in hybrid office layouts with practical implementation patterns, zoning strategies, and code-based scheduling"
 date: 2026-03-15
 author: theluckystrike
 permalink: /collaboration-zones-in-hybrid-office-layout/

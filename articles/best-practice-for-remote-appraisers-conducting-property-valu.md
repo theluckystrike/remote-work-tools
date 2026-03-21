@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Appraisers Conducting Property"
-description: "A technical guide to virtual property inspection workflows for remote appraisers. Learn about software tools, API integrations, automation patterns."
+description: "A technical guide to virtual property inspection workflows for remote appraisers. Learn about software tools, API integrations, automation patterns"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-appraisers-conducting-property-valu/

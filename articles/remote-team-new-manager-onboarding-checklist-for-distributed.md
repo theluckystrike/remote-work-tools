@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team New Manager Onboarding Checklist for Distributed"
-description: "A checklist for onboarding new managers in remote teams, specifically designed for companies promoting employees from within their."
+description: "A checklist for onboarding new managers in remote teams, specifically designed for companies promoting employees from within their"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-new-manager-onboarding-checklist-for-distributed/

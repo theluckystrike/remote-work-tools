@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Hybrid Work Productivity Comparison Study"
-description: "Data-driven analysis comparing productivity across remote, office, and hybrid work models in 2026. Practical benchmarks and code examples for developers."
+description: "Data-driven analysis comparing productivity across remote, office, and hybrid work models in 2026. Practical benchmarks and code examples for developers"
 date: 2026-03-16
 author: theluckystrike
 permalink: /hybrid-work-productivity-comparison-study-remote-vs-office-vs-hybrid-days-2026/

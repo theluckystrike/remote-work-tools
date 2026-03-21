@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Diversity Sourcing Strategy for Remote Teams"
-description: "A practical guide to diversity sourcing strategy for remote team hiring. Learn actionable techniques to build inclusive pipelines, reduce bias, and."
+description: "Building diverse remote teams requires more than good intentions—it demands systematic approaches to sourcing, evaluating, and welcoming talent across"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/

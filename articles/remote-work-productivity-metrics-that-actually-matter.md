@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Work Productivity Metrics That Actually Matter"
-description: "Guide to meaningful remote work productivity metrics. Output vs activity monitoring, async metrics, tooling (Jellyfish, LinearB, Pluralsight Flow)."
+description: "Guide to meaningful remote work productivity metrics. Output vs activity monitoring, async metrics, tooling (Jellyfish, LinearB, Pluralsight Flow)"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-productivity-metrics-that-actually-matter/

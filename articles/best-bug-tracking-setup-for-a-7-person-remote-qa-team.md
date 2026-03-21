@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Bug Tracking Setup for a 7-Person Remote QA Team"
-description: "A practical guide to building an effective bug tracking workflow for distributed QA teams of seven testers."
+description: "A practical guide to building an effective bug tracking workflow for distributed QA teams of seven testers"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-bug-tracking-setup-for-a-7-person-remote-qa-team/

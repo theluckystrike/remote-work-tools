@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Freelance Developer Rates in 2026"
-description: "A practical guide to setting freelance developer rates with formulas, market analysis, and pricing strategies for 2026."
+description: "A practical guide to setting freelance developer rates with formulas, market analysis, and pricing strategies for 2026"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-set-freelance-developer-rates-2026/
