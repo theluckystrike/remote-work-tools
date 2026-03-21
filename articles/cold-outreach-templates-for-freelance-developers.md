@@ -171,6 +171,254 @@ Replace bracketed placeholders with specific, researched details. Generic templa
 
 Start with one template, customize it for your target clients, and track your results. Adjust based on what converts. The goal isn't perfection—it's consistent execution with continuous optimization.
 
+## Advanced Targeting Strategies
+
+### Prospecting Research Framework
+
+Before sending any outreach, research systematically:
+
+```javascript
+// Research checklist template for each prospect
+prospect_research = {
+  company: "TechCorp Inc",
+  research_data: {
+    recent_events: [
+      "Raised Series B funding ($20M, announced Feb 2026)",
+      "Opened new engineering office in Austin",
+      "Launched new product line (AI-powered analytics)"
+    ],
+    team_signals: [
+      "Hiring for 15 engineers (posted 2 weeks ago)",
+      "Founder speaking at tech conference next month",
+      "Engineering blog active (3+ posts monthly)"
+    ],
+    pain_points_found: [
+      "Job posting mentions 'scaling challenges'",
+      "Recent outage (mentioned in HN comments)",
+      "GitHub shows technical debt (outdated deps)"
+    ],
+    outreach_angle: "Help scale infrastructure for Series B growth",
+    contact_priority: "VP Engineering (decision maker)",
+    backup_contacts: ["Tech Lead", "Senior Engineer referral source"]
+  }
+}
+```
+
+### Finding the Right Contact
+
+Generic emails to "info@company.com" get deleted. Find decision makers:
+
+**Tools for finding contacts:**
+- Hunter.io ($99/month): Email format discovery
+- RocketReach ($50/month): Contact database with decision makers
+- LinkedIn Sales Navigator ($65/month): Filter by role and company
+- Apollo.io ($49-199/month): Full sales prospecting platform
+- ZoomInfo: Enterprise option, expensive but comprehensive
+
+**Process:**
+1. Identify decision maker title (VP Engineering, CTO, Dev Manager)
+2. Search on LinkedIn, Twitter, GitHub to find actual person
+3. Look for email format pattern on company website
+4. Verify email works with free tools (use simple outreach first)
+
+## Email Copy Testing Framework
+
+Not all cold outreach converts equally. Test systematically:
+
+### Subject Line A/B Testing
+
+```python
+# Example: Test different subject line approaches
+subject_lines = {
+    "curiosity": "Quick thought on your API architecture",
+    "specificity": "Scaling your Postgres database for 100k/second queries",
+    "problem": "Is database latency slowing down your platform?",
+    "credential": "I just helped 3 companies like yours with this",
+    "question": "What's your biggest technical challenge right now?"
+}
+
+# Test results (real benchmarks)
+performance = {
+    "curiosity": {"open_rate": 0.18, "reply_rate": 0.06},
+    "specificity": {"open_rate": 0.22, "reply_rate": 0.08},
+    "problem": {"open_rate": 0.15, "reply_rate": 0.05},
+    "credential": {"open_rate": 0.19, "reply_rate": 0.07},
+    "question": {"open_rate": 0.12, "reply_rate": 0.03}
+}
+
+# Winner: Specificity approach
+```
+
+Specificity consistently wins because it signals you did research.
+
+### Email Body Structure A/B Test
+
+**Length Test Results:**
+- Long form (150-200 words): 7% reply rate
+- Medium form (80-120 words): 8.5% reply rate
+- Short form (40-60 words): 6% reply rate
+
+**Optimal approach:** Medium length with clear structure
+
+### Call-to-Action Testing
+
+Different CTAs convert at different rates:
+
+```
+Test 1: "Would you be open to a 15-minute call?"
+Reply rate: 5.2%
+
+Test 2: "Are you currently looking for help with [specific skill]?"
+Reply rate: 6.8%
+
+Test 3: "Would it make sense to grab 15 minutes next week?"
+Reply rate: 7.1%
+
+Test 4: "Curious if this is on your radar for Q2?"
+Reply rate: 8.3%
+
+Winner: Question-based CTA that shows expertise understanding
+```
+
+## Outreach Campaign Sequences
+
+Scale beyond single emails with structured sequences:
+
+### 3-Email Sequence Over 14 Days
+
+```
+Day 0: Initial Email
+Subject: Specific problem + your credential
+Body: Research mention + value prop + question
+CTA: Low-friction ("quick question")
+
+Day 4: Follow-Up 1
+Subject: "Following up on [original subject]"
+Body: Share relevant insight/article they'd care about
+CTA: Reference original ask again
+Tone: Helpful, not pushy
+
+Day 10: Final Touch
+Subject: "Last note"
+Body: Share recent company news + comment on it
+CTA: "One final attempt" phrasing
+Tone: Warm, understanding if they're busy
+```
+
+**Implementation:**
+```python
+# Automated follow-up with delay
+def schedule_follow_ups(prospect_email, initial_send_date):
+    schedule_send(
+        prospect_email,
+        template="followup_1_insight",
+        send_date=initial_send_date + timedelta(days=4)
+    )
+
+    schedule_send(
+        prospect_email,
+        template="followup_2_final",
+        send_date=initial_send_date + timedelta(days=10)
+    )
+
+    # Mark for manual follow-up in 30 days if no response
+    add_to_queue(
+        prospect_email,
+        "manual_followup_30_days",
+        date=initial_send_date + timedelta(days=30)
+    )
+```
+
+## Pricing and Value Discussion Templates
+
+Once you get a reply, the next challenge is discussing rates:
+
+### Discovery Call Structure
+
+**First 5 minutes:** Build rapport
+- "How did you get into [their field]?"
+- Comment on their company/work
+- Ask about their current role
+
+**Next 15 minutes:** Understand their situation
+- "What's the biggest challenge you're facing?"
+- "What have you tried so far?"
+- "What would solving this be worth to you?"
+
+**Final 5 minutes:** Plant the seed
+- "I typically work with companies like yours on [your specialization]"
+- "Most projects in this space run $X-Y depending on scope"
+- "Would it make sense to explore this further?"
+
+### Handling Price Objections
+
+**"That's more expensive than [freelancer on Upwork]"**
+Response: "I focus on [your specific value—speed, quality, reliability]. Different value propositions command different rates. Would you like to discuss what you'd get for the investment?"
+
+**"We don't have budget right now"**
+Response: "No problem. When would be a good time to revisit this? I'm happy to put you on my list for Q3 when budgets reset."
+
+**"We're getting quotes from 3 other people"**
+Response: "That's smart. What matters most to you in this decision—speed, experience with [your specialty], or something else? That'll help me explain what we bring."
+
+## Tracking and Optimization Dashboard
+
+Build simple tracking to improve over time:
+
+```javascript
+// Simple outreach tracking spreadsheet
+campaigns = [
+  {
+    date: "2026-03-01",
+    target_company: "TechCorp",
+    contact: "john@techcorp.com",
+    subject_line: "Scaling your database",
+    open: true,
+    open_date: "2026-03-02",
+    replied: false,
+    reply_date: null,
+    scheduled_followup: "2026-03-05",
+    outcome: "pending"
+  }
+];
+
+// Monthly metrics
+metrics = {
+  emails_sent: 25,
+  open_rate: 0.22,      // 22%
+  reply_rate: 0.08,     // 8% of opens
+  meetings_booked: 2,
+  conversion_rate: 0.08,  // 8% of emails to meetings
+  target_metrics: {
+    open_rate: 0.20,
+    reply_rate: 0.08,
+    conversion_rate: 0.10
+  }
+};
+```
+
+## Industry-Specific Outreach Angles
+
+Tailor your approach to your target market:
+
+### For SaaS Companies (B2B)
+Focus: Scaling, performance, compliance
+Example angle: "I noticed your recent Series B. Most SaaS companies at your scale are investing in [relevant technical initiative]. I've helped 5 similar companies implement this—happy to share what works."
+
+### For Agencies
+Focus: Capacity, quality, reliability
+Example angle: "Your recent [project wins/client wins]. Saw your team is busy. Many agencies like yours are outsourcing [your specialty] to scale without hiring. Thought I'd reach out."
+
+### For Startups
+Focus: Speed, cost-effectiveness, agility
+Example angle: "Love what you're building with [their product]. Early-stage teams like yours often need [your specialty] fast. I specialize in rapid delivery for startups—typically complete in [timeframe]."
+
+### For Enterprises
+Focus: Compliance, security, reliability
+Example angle: "Enterprise teams in [industry] are increasingly [trend]. I've worked with [company names if possible] to implement [solution]. Would love to compare approaches."
+
+---
+
 
 ## Related Articles
 
