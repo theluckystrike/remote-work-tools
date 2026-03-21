@@ -72,6 +72,18 @@ services:
 
 This single file defines your entire stack, making it straightforward to share complex development setups.
 
+
+## Quick Comparison
+
+| Feature | Nix | Docker |
+|---|---|---|
+| Pricing | See current pricing | See current pricing |
+| Team Size Fit | Flexible | Flexible |
+| Automation | Workflow support | Workflow support |
+| File Sharing | Supported | Supported |
+| Video/Voice | Check features | Check features |
+| Ease of Use | Moderate learning curve | Moderate learning curve |
+
 ## How Nix Handles Reproducibility
 
 Nix takes a fundamentally different approach. Instead of packaging complete environments, Nix manages individual packages with explicit dependency specifications. The Nix package manager ensures that every package build is reproducible by tracking all inputs.

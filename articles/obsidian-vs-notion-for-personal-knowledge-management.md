@@ -43,6 +43,18 @@ my-knowledge-base/
 
 This structure mirrors how you organize code repositories. You apply the same file-naming conventions, the same folder hierarchies, and the same Git workflows you're already comfortable with.
 
+
+## Quick Comparison
+
+| Feature | Obsidian | Notion |
+|---|---|---|
+| Pricing | $10/month | $10/month |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| Mobile App | Available | Available |
+| API Access | Available | Available |
+
 ## Editor Experience and Markdown
 
 Both tools support markdown, but with different philosophies.

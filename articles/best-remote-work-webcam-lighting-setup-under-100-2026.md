@@ -384,7 +384,7 @@ Measured in Kelvin (K). Lower numbers = warmer (more orange). Higher = cooler (m
 
 ## Related Articles
 
-- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Webcam Lighting Setup Under $100 for Professional](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
 - [Best Webcam for Remote Work Under 100 Dollars 2026](/remote-work-tools/best-webcam-for-remote-work-under-100-dollars-2026/)
 - [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)

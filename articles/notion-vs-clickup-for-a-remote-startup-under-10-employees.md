@@ -26,6 +26,18 @@ Notion functions as a flexible workspace where notes, databases, and project tra
 
 For a startup under 10 employees, the question isn't which tool is "better" — it's which tool matches your current workflow gaps. Notion excels when knowledge management and flexible documentation matter more than rigid task tracking. ClickUp dominates when you need structured project management without building custom systems.
 
+
+## Quick Comparison
+
+| Feature | Notion | Clickup |
+|---|---|---|
+| Pricing | Free tier available | $10/month |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Core Features for Small Remote Teams
 
 ### Document Collaboration and Knowledge Sharing

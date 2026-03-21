@@ -51,6 +51,18 @@ server: Acme Engineering
 
 For a 15-person team, Slack's workspace model provides clearer boundaries between public channels and direct messages. Discord's server structure feels more fluid, which works well if your team values open communication over structured separation.
 
+
+## Quick Comparison
+
+| Feature | Slack | Discord |
+|---|---|---|
+| Pricing | $8.75/user | $8.75/user |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Real-Time Communication Features
 
 Both platforms offer threading, reactions, and file sharing, but the implementation differs in ways that affect developer workflows.

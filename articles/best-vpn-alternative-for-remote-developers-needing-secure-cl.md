@@ -33,6 +33,18 @@ Most corporate VPNs route all traffic through a central gateway, which creates s
 
 4. Certificate management nightmares: VPN certificates expire, cause connection issues, and require IT intervention to troubleshoot.
 
+
+## Quick Comparison
+
+| Feature | Tool A | Tool B |
+|---|---|---|
+| Pricing | See current pricing | See current pricing |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Mobile App | Available | Available |
+| API Access | Available | Available |
+| Ease of Use | Moderate learning curve | Moderate learning curve |
+
 ## Zero-Trust Access: The Modern Replacement
 
 The industry has converged on zero-trust network access (ZTNA) as the successor to traditional VPNs. Instead of trusting users because they're inside a network perimeter, ZTNA verifies identity and device posture for every single request.

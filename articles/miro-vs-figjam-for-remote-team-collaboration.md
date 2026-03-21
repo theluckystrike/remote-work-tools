@@ -27,6 +27,18 @@ FigJam emerged from Figma in 2021, designed as a lightweight companion to the de
 
 For developers, this distinction matters. Miro offers more established API access and webhook support. FigJam's API is newer but evolving rapidly. Consider your existing toolchain when evaluating which platform integrates more cleanly.
 
+
+## Quick Comparison
+
+| Feature | Miro | Figjam |
+|---|---|---|
+| Pricing | $10 | $15 |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Ease of Use | Moderate learning curve | Moderate learning curve |
+
 ## Real-Time Collaboration Features
 
 Both platforms support real-time multi-user editing, cursor presence, and instant feedback. The core experience feels similar at first glance, but differences emerge under scrutiny.

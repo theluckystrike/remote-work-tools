@@ -189,7 +189,7 @@ The workflow becomes: use the USB switch button to select which computer control
 ## Related Articles
 
 - [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
-- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/best-remote-work-usb-c-hub-for-laptop-2026/)
+- [Best USB-C Hubs for Remote Workers in 2026](/remote-work-tools/articles/best-remote-work-usb-c-hub-for-laptop-2026/)
 - [Example: Checking monitor USB-C capabilities](/remote-work-tools/best-ultrawide-monitor-for-programming-remote-work/)
 - [Best Remote Work Keyboard for Programmers 2026](/remote-work-tools/best-remote-work-keyboard-for-programmers-2026/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)

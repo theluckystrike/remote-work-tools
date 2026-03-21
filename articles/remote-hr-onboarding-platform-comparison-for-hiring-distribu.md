@@ -33,6 +33,18 @@ Integration Ecosystem: Does the platform connect with your existing tooling stac
 
 Audit and Compliance: For distributed teams operating across multiple jurisdictions, can the platform track which documents have been completed, store them with appropriate retention policies, and generate compliance reports?
 
+
+## Quick Comparison
+
+| Feature | Tool A | Tool B |
+|---|---|---|
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+| Video/Voice | Check features | Check features |
+
 ## Platform Comparison
 
 ### Workable: Structured Onboarding with Strong API

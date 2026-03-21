@@ -27,6 +27,18 @@ Project-based pricing means you quote a fixed price for the entire deliverable. 
 
 Neither model is universally superior. The right choice depends on your specialization, client type, risk tolerance, and business infrastructure.
 
+
+## Quick Comparison
+
+| Feature | Hourly | Project Based Pricing |
+|---|---|---|
+| Pricing | $120 | $80 |
+| Integrations | Multiple available | Multiple available |
+| Mobile App | Available | Available |
+| API Access | Available | Available |
+| Video/Voice | Check features | Check features |
+| Ease of Use | Moderate learning curve | Moderate learning curve |
+
 ## When Hourly Pricing Works Best
 
 Hourly pricing excels in these scenarios:

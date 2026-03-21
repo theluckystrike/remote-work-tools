@@ -27,6 +27,18 @@ Notion treats documentation as one block type among many. Pages contain blocksâ€
 
 For developer teams, the distinction shapes daily experience. Slite feels like a sophisticated Google Docs optimized for team knowledge. Notion feels like a construction kit where you build your ideal knowledge system.
 
+
+## Quick Comparison
+
+| Feature | Slite | Notion |
+|---|---|---|
+| Pricing | $9.99/user | $9.99/user |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Ease of Use | Moderate learning curve | Moderate learning curve |
+
 ## Document Organization and Structure
 
 Slite uses a hierarchical folder system with channels acting as category containers. Documents live inside folders, and you can create nested hierarchies. Tagging provides cross-cutting organization, letting you label documents for topics, projects, or status.

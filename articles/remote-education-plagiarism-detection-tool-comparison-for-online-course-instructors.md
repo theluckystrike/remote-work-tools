@@ -25,6 +25,18 @@ Modern plagiarism detection operates through several mechanisms. String matching
 
 Turnitin remains the industry heavyweight with the largest student paper database, but newer API-first solutions offer better developer experience and flexible pricing. Your choice depends on database size requirements, integration complexity, and budget constraints.
 
+
+## Quick Comparison
+
+| Feature | Tool A | Tool B |
+|---|---|---|
+| Pricing | See current pricing | See current pricing |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Turnitin: The Enterprise Standard
 
 Turnitin dominates academic institutions with over 2 billion archived papers. Their Feedback Studio provides rubric-based grading, peer review workflows, and detailed similarity reports.

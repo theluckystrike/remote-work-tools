@@ -45,6 +45,18 @@ L-Shaped Desk Layout (60" × 60" corner):
 └─────────────────────────┴────────────────────┘
 ```
 
+
+## Quick Comparison
+
+| Feature | L Shaped Desk | Straight |
+|---|---|---|
+| Pricing | $150 | $150 |
+| Integrations | Multiple available | Multiple available |
+| Automation | Workflow support | Workflow support |
+| Video/Voice | Check features | Check features |
+| Ease of Use | Moderate learning curve | Moderate learning curve |
+| Documentation | Available | Available |
+
 ## Monitor Configuration for Development Work
 
 Developers typically run multiple monitors. This is where L-shaped desks show clear advantages. The corner section naturally accommodates a secondary or tertiary display without sacrificing primary workspace.

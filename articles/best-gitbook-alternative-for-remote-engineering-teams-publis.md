@@ -28,6 +28,18 @@ Beyond those baseline requirements, distributed teams have additional pressures 
 
 GitBook's primary pain point for many engineering orgs is the pricing model tied to editors — once a team grows beyond a handful of active contributors, costs escalate quickly. There's also the external-facing bias baked into GitBook's product philosophy, which creates friction when the goal is purely internal knowledge management with strict access controls.
 
+
+## Quick Comparison
+
+| Feature | Tool A | Tool B |
+|---|---|---|
+| Pricing | See current pricing | See current pricing |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## Docusaurus: Markdown-First Documentation with React Flexibility
 
 Docusaurus, originally built for Facebook's open-source projects, offers excellent support for internal documentation with local deployment options. It stores all content in Markdown with MDX support, enabling React components inside documentation pages.

@@ -37,6 +37,18 @@ Consider this basic issue structure in Linear:
 
 The same in Asana would require creating a custom field for priority, setting up a section for your sprint, and potentially configuring a template for bug reports.
 
+
+## Quick Comparison
+
+| Feature | Asana | Linear |
+|---|---|---|
+| Pricing | $8/user | $8/user |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| Mobile App | Available | Available |
+| API Access | Available | Available |
+
 ## GitHub Integration
 
 Both tools integrate with GitHub, but the implementation differs significantly.

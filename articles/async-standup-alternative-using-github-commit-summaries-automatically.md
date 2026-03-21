@@ -31,6 +31,18 @@ Traditional standups suffer from several problems that commit summaries solve:
 
 The key insight is that meaningful work gets committed to version control. By aggregating these commits into a daily digest, you create a truthful picture of team progress.
 
+
+## Quick Comparison
+
+| Feature | Tool A | Tool B |
+|---|---|---|
+| Pricing | See current pricing | See current pricing |
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| Mobile App | Available | Available |
+| API Access | Available | Available |
+
 ## Setting Up the GitHub Actions Workflow
 
 The foundation of this system is a GitHub Actions workflow that runs daily and collects recent commit data. Here is a working starting point:

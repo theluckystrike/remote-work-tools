@@ -26,6 +26,18 @@ Choose Linear if your team values speed, keyboard-first workflows, and a minimal
 
 **Shortcut** (formerly Clubhouse) takes a more flexible, story-centric approach to issue tracking. It emphasizes epics and stories over individual issues, making it particularly attractive to teams working in Agile frameworks where larger feature narratives matter.
 
+
+## Quick Comparison
+
+| Feature | Shortcut | Linear |
+|---|---|---|
+| Team Size Fit | Flexible | Flexible |
+| Integrations | Multiple available | Multiple available |
+| Real-Time Collab | Supported | Supported |
+| Mobile App | Available | Available |
+| API Access | Available | Available |
+| Automation | Workflow support | Workflow support |
+
 ## User Interface and Keyboard Workflows
 
 Linear's interface is intentionally sparse. When you open Linear, you're greeted with a clean list view of issues. The real power emerges when you use keyboard shortcuts extensively.
