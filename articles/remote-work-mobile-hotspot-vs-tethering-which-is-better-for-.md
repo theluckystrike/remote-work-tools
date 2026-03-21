@@ -9,6 +9,7 @@ permalink: /remote-work-mobile-hotspot-vs-tethering-which-is-better-for-/
 reviewed: true
 score: 8
 categories: [comparisons]
+tags: [remote-work-tools, comparison, remote-work]
 ---
 
 
