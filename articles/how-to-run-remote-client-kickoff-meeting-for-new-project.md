@@ -9,7 +9,7 @@ permalink: /how-to-run-remote-client-kickoff-meeting-for-new-project/
 categories: [guides]
 tags: [remote-work-tools, remote-work, client-meetings, project-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

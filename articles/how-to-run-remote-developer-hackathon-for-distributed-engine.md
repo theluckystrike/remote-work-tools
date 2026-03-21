@@ -9,7 +9,7 @@ permalink: /how-to-run-remote-developer-hackathon-for-distributed-engine/
 categories: [guides]
 tags: [remote-work-tools, remote-work, hackathons, distributed-teams, engineering, team-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

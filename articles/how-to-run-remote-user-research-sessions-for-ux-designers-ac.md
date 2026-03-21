@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /how-to-run-remote-user-research-sessions-for-ux-designers-ac/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]

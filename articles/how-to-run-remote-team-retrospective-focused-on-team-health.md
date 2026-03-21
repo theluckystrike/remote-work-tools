@@ -9,7 +9,7 @@ permalink: /how-to-run-remote-team-retrospective-focused-on-team-health/
 categories: [guides]
 tags: [remote-work-tools, retrospective, remote-work, team-health, agile, psychological-safety]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

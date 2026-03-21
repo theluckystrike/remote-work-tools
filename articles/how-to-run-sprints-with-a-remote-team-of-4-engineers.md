@@ -9,7 +9,7 @@ permalink: /how-to-run-sprints-with-a-remote-team-of-4-engineers/
 categories: [guides]
 tags: [remote-work-tools, remote-work, agile, sprints]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /how-to-run-remote-accounting-firm-with-distributed-staff-acr/
 categories: [guides]
 tags: [remote-work-tools, remote-work, accounting, distributed-teams, time-zones, async-workflow, automation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
