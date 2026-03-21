@@ -163,6 +163,176 @@ Consider a tiered approach:
 
 This tiered approach prevents bottlenecks while ensuring significant decisions receive appropriate scrutiny.
 
+## Architecture Review Decision Template
+
+Every architecture review should produce a clear, written decision that answers specific questions. Use this template:
+
+```markdown
+# Architecture Review Decision Record: [Title]
+
+**Status:** [Approved | Rejected | Approved with Conditions | Pending]
+**Date:** [YYYY-MM-DD]
+**Decision Owner:** [Name]
+
+## Summary
+[One paragraph: what was proposed, what was decided, why]
+
+## Proposal Details
+- **Problem Solved:** [The core issue this addresses]
+- **Proposed Solution:** [The recommendation from the review]
+- **Estimated Effort:** [Timeline and resource requirements]
+- **Key Trade-offs:** [What we gain vs. what we give up]
+
+## Decision
+[Approved | Rejected | Approved with Conditions]
+
+**Rationale:**
+[2-3 sentences explaining why this decision was made]
+
+## Conditions (if applicable)
+1. [Specific requirement or follow-up review]
+2. [Timeline for implementation or reassessment]
+3. [Success metrics or gating criteria]
+
+## Alternative Approaches Considered
+1. [Alternative A]: Why it was rejected
+2. [Alternative B]: Why it was rejected
+3. [Alternative C]: Why it was rejected
+
+## Key Discussion Points
+[Consensus areas]
+- [Widely agreed point]
+- [Widely agreed point]
+
+[Areas of Disagreement]
+- [Minority opinion]: [Rationale]
+- [Minority opinion]: [Rationale]
+
+## Implementation Plan
+- **Owner:** [Person responsible]
+- **Start Date:** [Estimated]
+- **Completion Target:** [Estimated]
+- **Rollback Plan:** [What to do if it fails]
+
+## Follow-up Review
+- **Timeline:** [When we'll reassess]
+- **Success Metrics:** [How we'll measure if this works]
+- **Failure Criteria:** [When we'd reconsider]
+
+## Sign-off
+- Decision Owner: _____ Date: _____
+- Technical Lead: _____ Date: _____
+- [Other stakeholders as needed]
+```
+
+This template creates accountability and prevents decisions from being forgotten or misinterpreted later.
+
+## Async Review Communication Checklist
+
+A structured communication process prevents reviews from stalling. Use this checklist:
+
+```
+Week 1: Proposal Phase
+  [ ] Author drafts proposal (3-5 days of solo work)
+  [ ] Posts to review tool/repository
+  [ ] Announces in #architecture Slack channel
+  [ ] Includes deadline (typically 7 days out)
+  [ ] Designates 3-5 specific reviewers by role
+  [ ] Highlights specific questions needing input
+
+Week 2: Review Period
+  [ ] Reviewers read proposal on their schedule
+  [ ] Comments appear incrementally throughout week
+  [ ] Author responds to clarifying questions daily
+  [ ] No formal sync meeting (async only)
+  [ ] Reviewers can @mention each other for disagreements
+
+Week 3: Synthesis and Discussion
+  [ ] Monday: Author synthesizes all feedback
+  [ ] Tuesday-Wednesday: Clarifying discussions in comments
+  [ ] Thursday: Identify remaining disagreements
+  [ ] Friday: Schedule focused sync if needed for disagreements
+  [ ] (Focused sync: only people who disagree, 30 min max)
+
+Week 4: Decision and Closure
+  [ ] Monday: Decision document published
+  [ ] Conditions documented explicitly
+  [ ] Implementation plan assigned to owner
+  [ ] Follow-up review date scheduled
+  [ ] Announcement in Slack confirming decision
+  [ ] Archive decision in easily searchable location
+```
+
+Clear phases prevent reviews from getting stuck in endless discussion.
+
+## Metrics for Tracking Architecture Review Health
+
+Monitor these metrics to ensure your async review process is working:
+
+```
+Review Process Health Metrics:
+
+Cycle Time:
+- Average days from proposal to decision: [Target: 7-10 days]
+- Trend: [Improving / Stable / Degrading]
+
+Participation:
+- Average reviewers per proposal: [Target: 4-5]
+- Participation rate: [Target: 80%+ of invited reviewers engage]
+
+Quality:
+- Proposals rejected on first cycle: [Target: <10%]
+- Conditions added to approval: [Target: 30-40%]
+- Average comments per review: [Target: 5-8 substantive comments]
+
+Decision Quality:
+- Post-implementation changes needed: [Target: <10%]
+- Rollbacks due to flawed decision: [Target: 0%]
+- Team satisfaction with process: [Target: 3.5+/5]
+
+Communication:
+- Response time to clarifying questions: [Target: <24 hours]
+- Documented decisions still searchable: [Target: 100%]
+- New team members can find relevant past decisions: [Usability test]
+```
+
+Review these quarterly to ensure the process stays healthy as your organization grows.
+
+## Avoiding Analysis Paralysis
+
+Async architecture reviews can stall if reviewers over-analyze. Set boundaries:
+
+```
+Anti-Patterns to Prevent:
+
+1. Scope Creep
+   Problem: Review expands to include "what about X?"
+   Prevention: Clearly state what's out-of-scope
+   Ownership: Author defines boundaries in proposal
+
+2. Perfectionism
+   Problem: Searching for the "best" solution forever
+   Prevention: Set decision deadline and stick to it
+   Ownership: Decision owner calls the close at deadline
+
+3. Lack of Trust
+   Problem: Reopening settled decisions because "what if?"
+   Prevention: Establish clear follow-up review cadence
+   Ownership: Schedule post-implementation review, then close
+
+4. Unclear Authority
+   Problem: Everyone has veto power, no one can decide
+   Prevention: Designate clear decision owner upfront
+   Ownership: Decision owner has final say (not consensus)
+
+5. Missing Context
+   Problem: Reviewers debate without understanding problem
+   Prevention: Proposal includes "what problem are we solving?"
+   Ownership: Author clearly states the pain point
+```
+
+Async processes work well when boundaries are clear and decision authority is explicit.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

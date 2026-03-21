@@ -162,6 +162,150 @@ After registration, ongoing obligations include:
 
 Keeping organized records from the start prevents complications during tax season. Many developers use accounting software that syncs with bank accounts and generates required reports automatically.
 
+## Portuguese Accounting Software Comparison
+
+Rather than managing spreadsheets manually, use accounting software designed for Portuguese freelancers. These platforms handle invoicing, tax calculations, and automatic compliance reporting:
+
+| Software | Cost | Best For | Features |
+|----------|------|----------|----------|
+| **Sage** | €25-40/month | Growing freelancers | Cloud-based, automatic tax calc, bank sync |
+| **Conta Azul** | €15-50/month | Small business | Simplified regime support, mobile app |
+| **Simpleinvoice** | €10-25/month | Minimal needs | Focus on invoicing, good for solopreneurs |
+| **Runrest** | Custom | Enterprise level | Multi-user, advanced reporting, payroll |
+
+Most of these integrate directly with Portuguese tax authority (Finanças) portal for automatic reporting, reducing your compliance burden significantly.
+
+## Quarterly Payment Schedule and Planning
+
+Self-employed tax payments happen on a quarterly basis. Mark these dates on your calendar immediately:
+
+```markdown
+# 2026 Portuguese Tax Payment Schedule
+
+## Quarterly Advance Payments (Pagamentos por Conta)
+- **July 20**: First quarterly payment due
+- **September 21**: Second quarterly payment due
+- **November 20**: Third quarterly payment due
+
+## Annual Settlement (Acerto Final)
+- **February 28 (next year)**: Final settlement payment due
+
+## IRS Declaration (Declaração de Rendimentos)
+- **April 15 - June 15**: Filing period for previous year
+```
+
+Each quarterly payment is estimated based on the previous year's income divided by 4. For your first year, the government estimates your payment based on your declared expected income. Plan cash flow carefully—you need to set aside approximately 23-28% of gross revenue to cover taxes and social contributions.
+
+## Step-by-Step First Year Timeline
+
+A practical implementation timeline helps you manage the registration process without panic:
+
+```
+Month 1 (January)
+├── Visit Finanças office or contact accountant for NIF
+├── Complete online registration as Trabalhador Independente
+└── Choose simplified vs. general regime
+
+Month 2 (February)
+├── Open Portuguese bank account
+├── Set up invoicing software
+└── Register for VAT if planning to exceed €12,750
+
+Month 3 (March)
+├── Start invoicing all work with Portuguese invoice numbers
+└── Begin tracking expenses if using general regime
+
+Months 4-6 (April-June)
+└── First quarter ends: June 30
+
+Month 7 (July)
+├── Pay first quarterly IRS advance payment
+├── Reconcile Q1 revenue and expenses
+└── Adjust monthly budget if needed
+
+Months 8-9 (August-September)
+├── Second quarter ends: September 30
+└── Prepare for second quarterly payment (Sept 21)
+
+Months 10-11 (October-November)
+├── Third quarter ends: December 31
+└── Third quarterly payment due November 20
+
+Month 12+ (December-January)
+├── Compile all invoices and expenses for the year
+├── Run final reconciliation in accounting software
+└── Prepare for IRS declaration filing (April 15 deadline)
+```
+
+## Real-World Tax Calculation Examples
+
+Understanding your actual tax liability helps with cash flow planning. Here are three scenarios for developers earning different amounts:
+
+### Scenario 1: Freelancer earning €40,000/year
+
+```
+Gross Income: €40,000
+Deduction (25% simplified regime): €10,000
+Taxable Income: €30,000
+
+IRS Tax (€11,285-€15,992 bracket @ 26.5%): €7,950
+Social Security (21.4%): €8,560
+Total Tax + SS: €16,510
+Effective Rate: 41.3%
+
+Monthly Set-Aside: €1,376
+```
+
+### Scenario 2: Successful freelancer earning €80,000/year
+
+```
+Gross Income: €80,000
+Deduction (25% simplified regime): €20,000
+Taxable Income: €60,000
+
+IRS Tax (€50,484+ bracket @ 45%): €27,000
+Social Security (21.4%): €17,120
+Total Tax + SS: €44,120
+Effective Rate: 55.2%
+
+Monthly Set-Aside: €3,677
+```
+
+### Scenario 3: Part-time remote work earning €20,000/year
+
+```
+Gross Income: €20,000
+Deduction (25% simplified regime): €5,000
+Taxable Income: €15,000
+
+IRS Tax (€11,285-€15,992 bracket @ 26.5%): €3,975
+Social Security (21.4%): €4,280
+Total Tax + SS: €8,255
+Effective Rate: 41.3%
+
+Monthly Set-Aside: €688
+```
+
+Notice the effective rate stays roughly consistent across income levels due to Portugal's progressive tax structure. Budget based on these percentages and you'll avoid surprises at tax time.
+
+## Non-Resident vs. Resident Tax Treatment
+
+If you're not yet a Portuguese resident, special rules apply. Non-residents working remotely for international clients may benefit from the Non-Habitual Resident (NHR) regime, which offers 10 years of tax exemptions on certain foreign income. However, NHR requirements and benefits are complex and require professional tax advice.
+
+For most remote workers, establishing residency (through a residence permit or rental agreement) simplifies your tax situation significantly. Consult a Portuguese tax professional (contabilista) before making residency decisions—the tax implications are substantial.
+
+## Hiring an Accountant vs. DIY
+
+Many developers handle Portuguese taxes themselves using accounting software. However, hiring a professional contabilista costs €50-150/month and provides significant value:
+
+- Ensure compliance with latest tax law changes
+- Handle IRS declarations and quarterly filings automatically
+- Provide tax planning advice to minimize liability
+- Create audit trails that satisfy Finanças inspections
+- Answer questions when IRS sends inquiries
+
+For your first year, hiring a contabilista helps you understand the process. After year one, you can decide whether to continue or move to DIY accounting if comfortable.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
