@@ -176,6 +176,207 @@ High-surge area: Replace every 1-2 years
 After major event: Always replace point-of-use units
 ```
 
+## Specific Surge Protector Product Recommendations (2026)
+
+Based on price and protection level, here are real options developers should consider:
+
+**Premium (Best Protection, $60-100)**
+- **Belkin 12-outlet Pivot Power**: $80-100, 4320 joules, advanced filtering, lifetime equipment protection warranty
+- **Tripp Lite ISOBAR**: $70-90, 3340 joules, dual-outlet groups isolate different devices
+- **APC SurgeArrest**: $60-80, 3150 joules, coax/network protection included
+
+**Mid-Range (Good Value, $30-60)**
+- **Surge Protect 6-outlet Pro**: $40-50, 2500 joules, USB charging ports, compact design
+- **CyberPower CSP604S**: $50-60, 3600 joules, very reliable for the price
+- **Leviton Decora**: $35-45, 2160 joules, built to last, wall-mounted option
+
+**Budget (Adequate Protection, $15-30)**
+- **Amazon Basics Surge Protector**: $20-25, 1500 joules, decent for light workloads
+- **Bestek 6-outlet**: $15-20, 1200 joules, minimalist design, works fine
+- **Monoprice Surge Protector**: $18-25, 1500 joules, good reviews
+
+**Specialized Network Protectors ($30-80)**
+- For Ethernet cable protection (prevents surges traveling through network):
+- **Tripp Lite ISOBAR Network**: $40-60, includes RJ45 coax protection
+- **APC Network Surge Protector**: $50-70, specifically for network equipment
+
+**UPS + Surge Protection Combo ($200-500)**
+- **APC Back-UPS Pro 850VA**: $300-350, includes surge protection + battery backup
+- **CyberPower CP1500AVRLCD**: $250-300, 1500VA capacity, sine wave output
+- **Belkin UPS 1000VA**: $200-250, entry-level UPS with integrated surge protection
+
+**Reality Check**: Don't overthink this. A $40-50 surge protector with 2500-3000 joules protects 95% of home office setups adequately. The $80-100 premium options add marginal benefit unless you have particularly valuable or sensitive equipment.
+
+## Testing Your Surge Protector: How to Know If It's Working
+
+Surge protectors degrade silently. Regular testing helps:
+
+```bash
+#!/bin/bash
+# Simple surge protector health check
+# While you can't directly test surge response at home safely,
+# you can verify basic functionality
+
+echo "Surge Protector Health Check"
+echo "=============================="
+
+# Test 1: Outlet voltage (requires multimeter)
+# Normal US voltage: 115-125V
+echo "Step 1: Using multimeter, test outlet voltage"
+echo "Expected: 115-125V"
+echo ""
+
+# Test 2: Status light check
+echo "Step 2: Check status light on surge protector"
+echo "Green/lit = Protection active"
+echo "Red/off = Protection has failed, replace immediately"
+echo ""
+
+# Test 3: Plug load test
+# Plug in a lamp and verify power
+echo "Step 3: Plug in test lamp"
+echo "Lamp should turn on immediately, no flickering"
+echo ""
+
+# Test 4: Age check
+echo "Step 4: Check purchase date (look on device or receipt)"
+echo "If older than 5 years and heavy use: replacement recommended"
+echo ""
+
+echo "If all tests pass, your surge protector is functional."
+```
+
+## When Power Issues Are NOT Surge Protector Problems
+
+Sometimes equipment fails and people blame surge protection. Understanding when surge protectors can't help:
+
+**Voltage sag** (temporary voltage drop): Surge protectors don't address this; you need voltage regulators or UPS
+- Symptom: Computer monitor dims, lights flicker
+- Solution: Whole-house voltage regulation or UPS
+
+**Harmonic distortion** (electrical noise from certain devices): Surge protectors reduce but don't eliminate; you need dedicated line isolation
+- Symptom: Audio hum, monitor flicker, data corruption
+- Solution: Isolated circuit, dedicated outlet for sensitive equipment
+
+**Lightning strike on building exterior**: Whole-house protector helps, but high-risk surges can bypass protectors
+- Symptom: Everything goes out simultaneously
+- Solution: Whole-house protector + surge protectors in series (defense in depth)
+
+**Power outage** (complete loss of power): Surge protectors provide zero protection; you need UPS
+- Symptom: Equipment turns off, data loss if not saved
+- Solution: UPS with battery backup
+
+## Calculating Actual Power Needs (Watts and Amps)
+
+Many developers under-specify their surge protectors. Calculate your actual needs:
+
+```python
+# Calculate your surge protector needs
+class HomeOfficePowerCalc:
+    def __init__(self):
+        self.devices = []
+
+    def add_device(self, name, wattage, always_on=False):
+        self.devices.append({
+            'name': name,
+            'watts': wattage,
+            'always_on': always_on
+        })
+
+    def calculate_simultaneous_load(self):
+        """Worst case: all devices running simultaneously."""
+        return sum(d['watts'] for d in self.devices)
+
+    def calculate_standby_load(self):
+        """All always-on devices idle."""
+        return sum(d['watts'] for d in self.devices if d['always_on'])
+
+    def calculate_outlet_safety_margin(self):
+        """Standard outlet carries 15A at 120V = 1800W max."""
+        simultaneous = self.calculate_simultaneous_load()
+        safe_limit = 1440  # 80% of 1800W, recommended safe max
+        margin = safe_limit - simultaneous
+
+        return {
+            'simultaneous_watts': simultaneous,
+            'safe_limit_watts': safe_limit,
+            'margin': margin,
+            'status': 'OK' if margin > 0 else 'OVERLOAD'
+        }
+
+# Example: Typical developer setup
+calc = HomeOfficePowerCalc()
+calc.add_device('Laptop', 65, always_on=True)
+calc.add_device('Monitor 1', 50)
+calc.add_device('Monitor 2', 50)
+calc.add_device('Mechanical Keyboard', 2)
+calc.add_device('USB Hub', 10)
+calc.add_device('External SSD', 5)
+calc.add_device('Desk Lamp', 40)
+calc.add_device('Phone Charger', 15)
+
+print(f"Simultaneous load: {calc.calculate_simultaneous_load()}W")
+print(f"Standby load: {calc.calculate_standby_load()}W")
+print(f"Safety margin: {calc.calculate_outlet_safety_margin()}")
+# Output: 237W simultaneous, well under 1440W limit
+# Your setup is safe on a single outlet with surge protection
+```
+
+Most home office setups draw 150-300W simultaneously, well under a single circuit capacity. Multiple surge protectors on the same circuit is more about organization than necessity.
+
+## Documentation: Track Your Surge Protection Setup
+
+Keep a record of what's protected where:
+
+```markdown
+# Home Office Surge Protection Setup
+
+**Installed**: [Date]
+**Last Replaced**: [Date]
+
+## Surge Protector 1
+- Location: Under desk, right side
+- Model: CyberPower CSP604S
+- Joule Rating: 3600
+- Expiration: [Expected replacement date]
+- Devices Protected:
+  - Laptop power supply
+  - Monitor 1 + 2
+  - External SSD
+  - USB hub
+
+## Surge Protector 2
+- Location: Shelf above desk
+- Model: Belkin 12-outlet Pivot Power
+- Joule Rating: 4320
+- Expiration: [Expected replacement date]
+- Devices Protected:
+  - Mechanical keyboard
+  - Desk lamp
+  - Phone charger
+  - Speaker
+  - Microphone
+
+## Network Protection
+- Location: Router area
+- Model: Tripp Lite ISOBAR Network
+- Protected: Ethernet cable to modem
+
+## Whole-House Protection
+- Installed: [Year]
+- Electrician: [Name/Company]
+- Type: [MOV-based or other]
+- Service area: Entire house
+
+## Incident Log
+| Date | Description | Action Taken |
+|------|-------------|--------------|
+| 2026-03-15 | Storm caused brief flicker | No damage detected |
+| 2025-11-20 | Large surge event during power restoration | Replaced point-of-use units, whole-house tested OK |
+```
+
+Maintain this record. It helps with warranty claims, identifies patterns (which circuits are vulnerable?), and ensures replacements happen on schedule.
+
 
 ## Related Articles
 
