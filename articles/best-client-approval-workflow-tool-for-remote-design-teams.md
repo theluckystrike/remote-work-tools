@@ -78,6 +78,25 @@ interface ApprovalTransition {
 }
 ```
 
+## Tool Comparison: Leading Platforms in 2026
+
+Not all approval workflow tools are created equal. Here is how the leading platforms compare on the dimensions that matter most to distributed design teams:
+
+| Tool | Async Commenting | Webhook Support | Client Portal | Version Lock | Starting Price |
+|------|-----------------|-----------------|---------------|--------------|----------------|
+| Zeplin | Yes | Yes | Yes | Yes | $8/seat/mo |
+| InVision | Yes | Yes | Yes | Limited | $15/seat/mo |
+| Pastel | Yes | Limited | Yes | Yes | $19/mo flat |
+| Notion + Figma | Manual | Custom | No native | Manual | Variable |
+| Ziflow | Yes | Yes | Yes | Yes | $20/seat/mo |
+| Frame.io | Yes (video) | Yes | Yes | Yes | $15/seat/mo |
+
+**Ziflow** stands out for teams with complex multi-stage approval requirements. Its configurable workflow stages, SLA timers, and audit trail features make it well-suited for agencies handling regulated industries—healthcare marketing, financial services creative—where documented approval chains matter.
+
+**Pastel** is the pragmatic choice for smaller agencies. Its flat pricing and simple interface reduce friction for clients who aren't technical. The tool works directly on live websites and PDFs, not just design files.
+
+**Figma** with its native commenting and branching has reduced the need for separate approval tools for many teams. For shops that standardized on Figma, adding a lightweight approval layer via Figma plugins or a connected Notion database may suffice without adding another SaaS subscription.
+
 ## Implementation Patterns
 
 ### The Review Board Approach
@@ -134,6 +153,17 @@ function routeForReview(designAsset, context) {
   return routingRules.find(rule => rule.condition(designAsset));
 }
 ```
+
+### Client Onboarding for the Approval Portal
+
+A frequent pain point is getting clients to actually use the tool. Many clients default to emailing feedback as screenshots or Word documents, bypassing the system entirely. Prevent this with a deliberate client onboarding step:
+
+1. Send a 3-minute Loom video demonstrating exactly how to leave a comment in the tool
+2. Include a simple one-page PDF with numbered steps ("Click the pink dot, then type your feedback")
+3. Create a throwaway "practice project" with a dummy design where clients can try the tool before the real review
+4. Set an explicit expectation in the contract: feedback submitted outside the portal is not formally logged and may delay project timelines
+
+Most clients comply once they understand the system. The clients who still email feedback despite training are telling you something important about their technical comfort level—meet them where they are rather than creating friction.
 
 ## Measuring Workflow Efficiency
 
@@ -193,6 +223,27 @@ This approach requires more setup but offers flexibility. Here's a minimal Notio
   }
 }
 ```
+
+## Setting SLAs and Escalation Paths
+
+A workflow without SLAs is just a queue. Define time limits for each stage and automate escalation when they are missed:
+
+- Internal review SLA: 24 hours. If the senior designer has not reviewed by then, auto-assign to the next available lead and send a Slack alert.
+- Client review SLA: 72 hours. Send an automated reminder at 48 hours. If no response by 72 hours, escalate to the account manager for a direct outreach.
+- Revision turnaround SLA: 48 hours after client feedback is logged. This keeps the project cadence predictable for clients who are juggling multiple agency relationships.
+
+Document these SLAs in your contract scope of work. When a client misses their review window and then requests a rush delivery, you have a written record of who caused the delay—which matters for scope creep conversations.
+
+## Integrating Approval Records with Project Management
+
+Approval history lives inside your approval tool by default, but it should also be visible in your project management system. When a design is approved, trigger an automated task creation in Linear or Jira:
+
+- Task: "Design approved — proceed to development handoff"
+- Linked to: the approved Figma version URL
+- Assignee: lead developer
+- Due date: calculated from the sprint plan
+
+This closes the loop between the design approval workflow and the engineering workflow, preventing the common failure mode where an approved design sits idle because no developer was notified to pick it up.
 
 The best client approval workflow tool for your remote design team depends on your specific constraints: team size, client sophistication, budget, and integration requirements. Prioritize tools that provide clear audit trails, support asynchronous collaboration, and offer programmatic access for automation.
 
