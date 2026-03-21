@@ -177,13 +177,174 @@ async function notifyOnboardingComplete(employeeName, completedTasks) {
 }
 ```
 
+## Tool Pricing Comparison
+
+| Tool | Cost (Monthly) | Setup Time | Learning Curve | Best For |
+|------|--------|-----------|--------|----------|
+| Notion | $0 (Free) / $8-10 (Pro) | 4-8 hours | Low | Flexible teams, existing Notion users |
+| GitHub Projects | $0-$21/month | 2-4 hours | Medium (dev teams) | Engineering orgs |
+| Bamboo HR | $199-$499/month | 1-2 weeks | Low | Medium/large orgs with HR specialization |
+| SuccessFactors | $500+/month | 2-4 weeks | High | Enterprise, complex compliance |
+| Custom API | $200-500/month | 2-6 weeks | Medium | Organizations with specific integrations |
+
+For a team of 50 new hires per year, Notion costs $120/year vs. BambooHR at $2,388/year. The trade-off: Notion requires more manual setup and integrations, while BambooHR provides specialized onboarding workflows out of the box.
+
+## Real-World Onboarding Workflows
+
+### Week 1: Foundation
+
+The first week focuses on basics: account access, equipment, org intro, and culture immersion.
+
+```javascript
+// Week 1 tasks
+const week1Tasks = [
+  {
+    day: 1,
+    tasks: [
+      "Complete HR paperwork",
+      "Receive laptop and equipment",
+      "Create email, Slack, GitHub accounts",
+      "Intro call with direct manager",
+      "Join company Slack channel"
+    ]
+  },
+  {
+    day: 2,
+    tasks: [
+      "All-hands meeting attendance",
+      "Org chart review with HR",
+      "Benefits and 401k enrollment",
+      "Complete security training"
+    ]
+  },
+  {
+    day: 3-5,
+    tasks: [
+      "Meet key stakeholders (1:1s)",
+      "Review company handbook",
+      "Setup development environment (if technical)",
+      "Attend team standup",
+      "Review team roadmap"
+    ]
+  }
+];
+```
+
+**Ownership**: HR (paperwork, benefits), IT (equipment and access), Manager (intro and integration).
+
+### Week 2-3: Role-Specific Onboarding
+
+Deep dive into role responsibilities and key systems.
+
+```yaml
+# Engineering-specific onboarding (Week 2-3)
+goals:
+  - Set up development environment
+  - Understand codebase architecture
+  - Run first deployment
+  - Complete code review training
+
+tasks:
+  - Clone and run main repository locally
+  - Complete codebase walkthrough (2-3 hours)
+  - Pair programming session with mentor
+  - Submit first PR for review
+  - Complete security and compliance training
+  - Access key internal documentation (dashboards, runbooks)
+
+success_criteria:
+  - Environment runs locally without errors
+  - First PR merged
+  - Completed all access certifications
+```
+
+### Week 4: Integration and Goals
+
+By week 4, new hires should be contributing independently to their team.
+
+```javascript
+// Week 4 check-in template
+const week4CheckIn = {
+  questions: [
+    "What went well in your first month?",
+    "What was confusing or could be clearer?",
+    "What do you need from your team to succeed?",
+    "Do you feel supported by onboarding materials?",
+    "What would improve the experience for future hires?"
+  ],
+
+  metrics: {
+    environment_setup_successful: true,
+    first_pr_merged_by: "Day 12",
+    dependencies_resolved: 8,
+    unresolved_blockers: 1, // Should be <2
+    confidence_level: 7 // Out of 10
+  }
+};
+```
+
+## Measuring Onboarding Success
+
+Track these metrics to validate your approach:
+
+```javascript
+// onboarding-analytics.js
+const onboardingMetrics = {
+  time_to_productivity: {
+    target: 14, // days to first meaningful contribution
+    current: 18,
+    trend: "improving", // tracking over months
+  },
+
+  task_completion_rate: {
+    week1: 0.95, // 95% completion
+    week2: 0.88,
+    week3: 0.82,
+    week4: 0.91, // Should maintain >80%
+  },
+
+  new_hire_satisfaction: {
+    survey_score: 4.2, // out of 5
+    question_clarity: 4.1,
+    onboarding_completeness: 4.0,
+    readiness: 3.8, // Lowest score suggests gaps
+  },
+
+  retention: {
+    day30_retention: 0.98,
+    day90_retention: 0.96,
+    year1_retention: 0.92,
+  },
+
+  blocker_resolution: {
+    avg_resolution_time: 2.1, // days
+    target: 1.0, // Should be <1 day
+    most_common: "Account access delays"
+  }
+};
+```
+
+**Action on metrics**: If retention drops below 95% by day 30, audit your week 1 and 2 onboarding. If task completion drops below 80%, add reminders and clearer ownership.
+
 ## Making Your Selection
 
 Choosing the best remote employee onboarding checklist tool depends on your team's existing infrastructure and technical comfort level. Notion offers rapid deployment with minimal coding, making it accessible for HR teams without developer support. GitHub Projects suits engineering organizations that already manage work in issues. Custom solutions provide maximum flexibility but require development resources and ongoing maintenance.
 
+For teams under 100 people, Notion provides the best value. For teams 100-500+, BambooHR or SuccessFactors offer automation and compliance tracking that justify the cost.
+
 Consider starting with a lightweight tool and evolving your approach as onboarding needs become clearer. The best tool is one your team actually uses consistently—complex systems that go unused provide no value regardless of their feature sets.
 
-Track metrics like time-to-productivity, task completion rates, and new hire satisfaction to validate your choice and identify improvement opportunities over time.
+### Decision Framework
+
+Ask these questions to narrow your choice:
+
+1. **How many new hires per year?** <10: Notion. 10-50: GitHub/Notion. 50+: BambooHR.
+2. **Do you need HRIS integration?** No: Notion. Yes: BambooHR/SuccessFactors.
+3. **What's your technical comfort level?** Low: Notion. High: Custom API.
+4. **What's your compliance burden?** Light: Notion. Heavy: SuccessFactors.
+5. **How much customization do you need?** Low: Notion. High: Custom API.
+
+Track metrics like time-to-productivity, task completion rates, new hire satisfaction, and retention to validate your choice and identify improvement opportunities over time.
 
 
 ## Related Articles
