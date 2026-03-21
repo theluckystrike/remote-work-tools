@@ -112,6 +112,25 @@ function formatMLA(data) {
 
 This function produces citations that match MLA 9th edition format requirements, including proper italicization of container titles using asterisks (which Jekyll converts to italicized text).
 
+## Best MLA Citation Generator Extensions Compared
+
+Rather than building from scratch, most researchers start with an existing extension. Here are the top options for different workflows:
+
+**EasyBib** is one of the most widely recognized citation tools, with a Chrome extension that handles web pages, books, and journals. It supports MLA, APA, and Chicago formats. The free tier produces MLA citations reliably, but the paid upgrade ($9.95/month) adds grammar checking and bibliography export. EasyBib works best for undergraduate-level research where speed matters more than surgical precision.
+
+**Zotero Connector** is the gold standard for serious academic researchers. The extension saves sources directly to your Zotero library and generates MLA citations on demand. It pulls metadata from library databases, Google Scholar, JSTOR, and most academic publishers with exceptional accuracy. Zotero itself is free and open source, making the Connector free as well. The only cost is time investment in setting up your Zotero library correctly.
+
+**Citation Machine (Chegg)** offers a browser extension that generates MLA citations from the current page with a single click. Coverage is broad, though accuracy varies for sources with non-standard markup. It integrates with the Citation Machine web app for managing full bibliographies.
+
+**Mendeley Web Importer** serves researchers who need deep integration with academic databases. It captures full citation metadata from publisher pages, PubMed, and institutional repositories, then exports to MLA format. Best suited for researchers already using Mendeley as their reference manager.
+
+| Extension | Free | MLA Accuracy | Best For |
+|-----------|------|--------------|----------|
+| EasyBib | Yes (basic) | Good | Students, quick citations |
+| Zotero Connector | Yes | Excellent | Academic researchers |
+| Citation Machine | Yes (with ads) | Good | Casual use |
+| Mendeley Importer | Yes | Excellent | Database-heavy research |
+
 ## Practical Applications for Researchers
 
 Chrome extension MLA citation generators prove valuable across several research scenarios:
@@ -153,6 +172,18 @@ Consider adding features like:
 - Export to reference managers via BibTeX or CSL
 - Citation history storage using chrome.storage
 
+## Verifying MLA Citation Accuracy
+
+No automated tool is 100% reliable. After generating a citation, verify these elements manually against MLA 9th edition guidelines:
+
+- Author name format: Last, First for the first author; subsequent authors listed First Last
+- Title capitalization: Titles of works in quotes, containers (journals, websites) in italics
+- Access date format: Day Month Year (e.g., 21 Mar. 2026)
+- URL formatting: MLA 9 recommends including the full URL without angle brackets
+- Missing fields: If publication date is unavailable, note it as "n.d." rather than leaving it blank
+
+The Purdue OWL (Online Writing Lab) maintains the most current MLA formatting guidelines and is the definitive reference for resolving edge cases. Cross-checking generated citations against their examples takes less than 30 seconds and prevents the most common errors.
+
 ## Limitations and Workarounds
 
 Automated citation generators aren't perfect. They may struggle with:
@@ -172,6 +203,14 @@ When selecting an MLA citation generator extension, prioritize:
 - Regular updates to handle website changes
 
 Extensions that combine multiple data sources (parsing + metadata + APIs) typically deliver the most reliable results across diverse source types.
+
+## Integrating Citations into a Research Workflow
+
+The most effective approach combines a browser extension with a dedicated reference manager. Use the extension to capture citations as you browse, funnel them into Zotero or Mendeley, and export a fully formatted bibliography when your paper is complete. This workflow prevents the common problem of losing track of sources during long research sessions.
+
+For teams doing collaborative research—common in remote academic environments—Zotero Groups allows shared libraries where multiple contributors can add sources. Each team member installs the Zotero Connector, captures sources to the shared group library, and the whole team has access to a centralized bibliography. This eliminates the tedious process of merging citation lists from multiple collaborators at the end of a project.
+
+If your workflow includes writing in Google Docs, the Zotero for Google Docs add-on complements the Connector extension by inserting citations and generating bibliographies directly inside your document. Combined with the Connector, you have an end-to-end MLA citation pipeline from discovery to formatted bibliography without leaving your browser.
 
 MLA citation generator Chrome extensions eliminate repetitive formatting work, letting researchers focus on content rather than citation mechanics. Whether you use existing tools or build custom solutions, automating citation generation represents a practical productivity enhancement for any research-intensive workflow.
 

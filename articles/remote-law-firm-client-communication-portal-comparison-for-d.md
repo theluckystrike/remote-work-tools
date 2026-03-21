@@ -115,6 +115,22 @@ curl -X GET "https://api.filevine.io/v1/projects/{projectId}/notes" \
 Strengths: Highly customizable workflows, powerful reporting, excellent for complex litigation.
 Weaknesses: Steeper learning curve, requires more setup time.
 
+## Head-to-Head Feature Comparison
+
+| Feature | Clio Manage | MyCase | Filevine |
+|---------|-------------|--------|----------|
+| Client portal | Yes | Yes | Yes |
+| 2FA enforcement | Yes | Yes | Yes |
+| Audit logging | Comprehensive | Basic | Comprehensive |
+| API documentation | Excellent | Good | Good |
+| Mobile apps | iOS + Android | iOS + Android | iOS + Android |
+| Payment processing | Via Clio Payments | Built-in | Via integration |
+| HIPAA BAA available | Yes | Yes | Yes |
+| Starting price | $39/user/mo | $39/user/mo | Custom |
+| Best for | Growth firms | Solo/small | Large/complex |
+
+This comparison reflects 2026 pricing tiers; confirm current rates directly with each vendor before signing.
+
 ## Building a Custom Portal Integration
 
 For development teams building custom solutions, consider this architecture pattern:
@@ -204,6 +220,16 @@ Data Residency: Some jurisdictions require client data to remain within specific
 
 Retention Policies: Implement automated message retention that aligns with your jurisdiction's document preservation requirements. Most platforms offer configurable retention periods.
 
+## Client Onboarding Best Practices for Remote Firms
+
+The technical implementation is only half the challenge. Getting clients to actually use the portal requires deliberate onboarding. Many legal clients—particularly in estate planning, real estate, or elder law—are unfamiliar with self-service portals and may default to calling or emailing the firm directly, which defeats the purpose.
+
+Develop a one-page client portal guide in plain language (not legal language) that explains how to log in, upload documents, send secure messages, and make payments. Send this guide with the engagement letter, include a 5-minute video walkthrough hosted on Loom or YouTube, and have a paralegal follow up with first-time portal users to confirm they can access the system.
+
+For high-value clients or those who express hesitation, offer a brief 15-minute onboarding call focused entirely on the portal. The investment pays back immediately by eliminating weeks of email back-and-forth during the matter.
+
+Set automated reminders in your portal when clients have pending tasks—unsigned documents, unpaid invoices, or messages awaiting a response. Clio and Filevine both support automated task reminders; MyCase requires manual follow-up or a Zapier integration to trigger similar workflows.
+
 ## Integration with Practice Management Systems
 
 For maximum efficiency, integrate your communication portal with your practice management software:
@@ -236,6 +262,18 @@ Budget considerations vary significantly across platforms:
 
 Factor in additional costs for API overages, data storage, and implementation support when budgeting for your solution.
 
+## Evaluating Portals for Specific Practice Areas
+
+Not every portal works equally well across all practice areas. Consider these practice-specific factors before committing to a platform:
+
+**Personal injury and mass tort practices** handle high message volumes with clients who are often stressed and unfamiliar with legal processes. These firms benefit most from portals with mobile-optimized interfaces, automated status updates, and document upload capabilities that work reliably on low-end Android devices. Filevine's project-based model fits this type of work well because it can be configured to mirror settlement lifecycle stages.
+
+**Estate planning and transactional practices** typically have lower message volumes but require more document-intensive workflows—drafts, revisions, executed copies, and notarized files. For these firms, the portal's document management features (version control, signature integration, organized folder structures) matter more than raw messaging speed. Clio's integration with Adobe Sign and DocuSign makes it a strong choice here.
+
+**Criminal defense and immigration practices** prioritize confidentiality above all else, given that client communications may be subpoenaed or subject to government scrutiny. These firms should verify that their chosen portal stores messages with end-to-end encryption, that the provider cannot access message contents, and that the BAA or equivalent agreement is in place before going live.
+
+When evaluating portals for a specific practice area, ask the vendor to provide a reference from a firm that does similar work. General testimonials are less useful than a conversation with a peer firm about their actual experience with the workflow.
+
 ## Implementation Checklist
 
 - [ ] Conduct security assessment of chosen platform
@@ -244,6 +282,8 @@ Factor in additional costs for API overages, data storage, and implementation su
 - [ ] Train attorneys on secure communication protocols
 - [ ] Establish incident response procedures
 - [ ] Test API integrations in staging environment before production deployment
+- [ ] Create client onboarding guide in plain language
+- [ ] Verify data residency compliance for your jurisdiction
 
 
 ## Related Articles
