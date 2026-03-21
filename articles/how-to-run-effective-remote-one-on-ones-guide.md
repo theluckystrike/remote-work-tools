@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Effective Remote One on Ones Guide"
-description: "Guide to running effective remote 1:1 meetings. Covers templates, cadence, tools like Fellow, Lattice, 15Five, and async alternatives for distributed teams."
+description: "Guide to running effective remote 1:1 meetings. Covers templates, cadence, tools like Fellow, Lattice, 15Five, and async alternatives for distributed."
 date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-run-effective-remote-one-on-ones-guide/
@@ -489,5 +489,10 @@ Start small: shared Google Doc, recurring calendar invite, 30-minute bi-weekly f
 The single most important factor: **Never cancel except emergencies.**
 
 {% endraw %}
+
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
