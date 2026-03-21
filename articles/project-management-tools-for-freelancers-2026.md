@@ -26,6 +26,8 @@ Most mainstream project management platforms target enterprise teams with hierar
 
 The core problems freelancers encounter include feature bloat, pricing that scales unpredictably with client count, and limited export capabilities that trap data in proprietary formats. When you juggle five active projects across different clients, you need tool flexibility, not corporate workflow enforcement.
 
+Asana charges per member at $10.99-$24.99/month, which is fine for a salaried employee but adds up when you are buying your own tooling. Notion's $16/month team plan is reasonable but its database model requires significant setup to function as real project management. The tools below give you more control over your stack and your costs.
+
 ## Categories of Project Management Tools for Freelancers
 
 ### CLI-First Task Managers
@@ -52,6 +54,12 @@ Taskwarrior supports recurrence, dependencies, and reports. Generate a weekly su
 ```bash
 task timesheet
 task summary
+```
+
+Contexts keep client work separated at the task level, which matters when you switch between clients multiple times per day. You can also tag tasks with billing codes and export them for invoicing:
+
+```bash
+task project:client-a completed export > client-a-completed.json
 ```
 
 **RightNow** provides a modern alternative with better interactive prompts. It stores data locally as JSON, making backup and sync straightforward:
@@ -90,6 +98,8 @@ curl -X POST https://api.linear.app/graphql \
 
 Linear's keyboard-driven interface appeals to developers who avoid mouse interaction. The linear issue import tool handles bulk migrations from other platforms.
 
+Linear pricing for freelancers: the free plan covers one team and unlimited members, which works well when each client gets its own team in your workspace. The Pro plan at $8/user/month adds advanced analytics and priority support, but the free tier handles most freelance workflows.
+
 **PocketBase** provides an open-source backend that you can self-host to build custom project management:
 
 ```bash
@@ -109,7 +119,7 @@ new PB('http://127.0.0.1:8090')
   });
 ```
 
-This approach gives you full data ownership and avoids subscription costs.
+This approach gives you full data ownership and avoids subscription costs. PocketBase is also small enough to run on a $5/month VPS, making it genuinely cheaper than any SaaS alternative for a solo freelancer.
 
 ### Minimalist GUI Options
 
@@ -119,6 +129,8 @@ This approach gives you full data ownership and avoids subscription costs.
 # Generate HTML report from command line
 omniplan --export --format=HTML --output=report.html MyProject.omniplan
 ```
+
+OmniPlan costs $149.99 as a one-time purchase or $9.99/month. For freelancers billing at $75+/hour, the cost pays for itself in the first client report it generates without requiring a Gantt chart conversation.
 
 **Focalboard** is an open-source project management tool that offers both cloud and self-hosted deployment. It uses a board-based interface familiar to users of Trello but with markdown-based content:
 
@@ -133,6 +145,27 @@ Integrate Focalboard with your existing tools using its REST API:
 curl -X POST http://localhost:8080/api/v1/boards \
   -H "Content-Type: application/json" \
   -d '{"name": "New Project Board", "description": "Client project tracking"}'
+```
+
+## Time Tracking Integration
+
+Project management without time tracking is incomplete for freelancers. The tools above work well alongside dedicated time trackers:
+
+- **Toggl Track**: The free tier covers solo freelancers with unlimited projects. The CLI client (`toggl`) pairs well with Taskwarrior — start a timer when you begin a task, stop when it's done.
+- **Kimai**: Open-source, self-hostable, and generates professional invoices. Pairs well with PocketBase for a fully self-hosted stack.
+- **Harvest**: $12/month for solo, integrates with Linear and GitHub. Worth it if clients require detailed time reports.
+
+A minimal Toggl workflow from the terminal:
+
+```bash
+# Install toggl CLI
+npm install -g toggl-cli
+
+# Start tracking
+toggl start "Implement auth endpoint" --project client-a
+
+# Stop and log
+toggl stop
 ```
 
 ## Integrating Multiple Tools
@@ -174,6 +207,39 @@ if __name__ == '__main__':
     sync_taskwarrior_to_linear()
 ```
 
+## Tool Comparison: Freelancer-Focused Criteria
+
+| Tool | Price | Data Ownership | CLI | API | Self-Hostable |
+|------|-------|---------------|-----|-----|---------------|
+| Taskwarrior | Free | Full (local files) | Native | Yes | N/A |
+| Linear | Free / $8/mo | Vendor cloud | Via API | Excellent | No |
+| PocketBase | Free | Full (self-hosted) | Partial | Good | Yes |
+| Focalboard | Free | Full (self-hosted) | Partial | REST | Yes |
+| OmniPlan | $149 one-time | Full (local) | Limited | No | N/A |
+| Asana | $10.99+/mo | Vendor cloud | No | Good | No |
+| Notion | $8-16/mo | Vendor cloud | No | Basic | No |
+
+The self-hostable column is the clearest differentiator for privacy-conscious freelancers. PocketBase and Focalboard give you full control; Linear's API compensates for vendor hosting with excellent automation capabilities.
+
+## Client-Facing Communication and Reporting
+
+Many freelancers separate internal task management from client-visible project status. A useful pattern is to use your internal tool (Taskwarrior, Linear) for actual work tracking, then generate clean status reports for clients from that data.
+
+For weekly status emails, a simple Markdown-to-HTML converter combined with Linear's GraphQL API works well:
+
+```bash
+#!/bin/bash
+# Pull completed issues from this week
+DATE=$(date -d "7 days ago" +%Y-%m-%d)
+curl -X POST https://api.linear.app/graphql \
+  -H "Authorization: $LINEAR_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d "{\"query\": \"{ issues(filter: { completedAt: { gte: \\\"$DATE\\\" }, team: { id: { eq: \\\"$TEAM_ID\\\" } } }) { nodes { title completedAt } } }\"}" \
+  | jq -r '.data.issues.nodes[] | "- " + .title' > weekly-status.md
+```
+
+This generates a plain-text status report from your actual completed work rather than requiring manual weekly updates.
+
 ## Choosing Your Tool Stack
 
 Evaluate project management tools based on these criteria:
@@ -182,7 +248,7 @@ Evaluate project management tools based on these criteria:
 - Pricing transparency: Does the cost scale predictably with usage?
 - API quality: Can you automate repetitive actions?
 - Self-hosting option: Do you own your data or rent access?
-- CLI support: Can you perform core actions without GUI?
+- CLI support: Can you perform core actions without a GUI?
 
 For developers who value control and transparency, the combination of Taskwarrior for personal tracking, Linear for client work, and Focalboard for complex projects provides flexibility without vendor lock-in. The initial setup requires more effort than signing up for Asana, but the long-term benefits include predictable costs, complete data ownership, and workflows tailored to your specific needs.
 
