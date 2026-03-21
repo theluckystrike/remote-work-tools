@@ -9,7 +9,7 @@ permalink: /how-to-set-up-remote-pair-programming-sessions-guide/
 categories: [guides]
 tags: [remote-work-tools, remote-work, development-tools, collaboration]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

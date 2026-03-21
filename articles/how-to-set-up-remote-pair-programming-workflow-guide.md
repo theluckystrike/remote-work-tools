@@ -7,9 +7,9 @@ last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-pair-programming-workflow-guide/
 categories: [guides]
-tags: [remote-work-tools, programming, collaboration]
+tags: [remote-work-tools, programming, collaboration, workflow, remote-work]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---
