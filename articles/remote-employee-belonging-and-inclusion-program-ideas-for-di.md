@@ -9,7 +9,7 @@ permalink: /remote-employee-belonging-and-inclusion-program-ideas-for-distribute
 categories: [guides]
 tags: [remote-work-tools, remote-work, inclusion, belonging, distributed-teams, culture]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

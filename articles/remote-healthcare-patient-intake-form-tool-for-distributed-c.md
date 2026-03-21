@@ -9,7 +9,7 @@ permalink: /remote-healthcare-patient-intake-form-tool-for-distributed-c/
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 categories: [guides]
 tags: [remote-work-tools, remote-work]
 ---

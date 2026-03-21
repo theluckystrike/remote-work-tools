@@ -9,7 +9,7 @@ permalink: /remote-developer-documentation-collaboration-tools-for-maint/
 categories: [guides]
 tags: [remote-work-tools, documentation, wikis, collaboration, remote-work, engineering]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
