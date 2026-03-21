@@ -9,6 +9,7 @@ permalink: /remote-team-wellness-check-app-for-mobile-tracking-team-mora/
 reviewed: true
 score: 8
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 

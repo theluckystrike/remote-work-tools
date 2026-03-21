@@ -9,7 +9,7 @@ permalink: /remote-team-referral-program-template-for-distributed-compan/
 categories: [guides]
 tags: [remote-work-tools, remote-hiring, employee-referrals, distributed-teams, recruitment, referral-bonus, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
