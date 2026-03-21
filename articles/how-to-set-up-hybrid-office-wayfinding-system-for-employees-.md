@@ -25,6 +25,17 @@ Before diving into implementation, identify what your wayfinding system must acc
 
 The technical foundation relies on indoor positioning. You have several options: Bluetooth Low Energy (BLE) beacons, Wi-Fi triangulation, or ultrawideband (UWB) anchors. For most office deployments, BLE beacons offer the best balance of cost, accuracy (2-5 meters), and battery life. UWB provides sub-meter accuracy but requires more expensive hardware.
 
+### Positioning Technology Comparison
+
+| Technology | Accuracy | Hardware Cost (per anchor) | Battery Life | Best For |
+|------------|----------|--------------------------|--------------|---------|
+| BLE Beacons | 2-5 meters | $20-80 | 1-3 years | Most offices, cost-sensitive deployments |
+| Wi-Fi Triangulation | 5-15 meters | Existing APs | N/A (powered) | Offices with dense Wi-Fi coverage |
+| UWB Anchors | 0.1-0.3 meters | $150-400 | 3-5 years | Labs, high-security areas, asset tracking |
+| QR Code Maps | No real-time position | $0 (print) | N/A | Low-budget fallback, static environments |
+
+For a standard hybrid office with infrequent visitors, BLE beacons with a companion mobile app provide the right balance of accuracy, cost, and user experience. Wi-Fi triangulation is a viable no-new-hardware option if your office already has dense access point coverage.
+
 ## System Architecture Overview
 
 A production wayfinding system consists of these components:
@@ -97,6 +108,16 @@ For a 5,000 square meter office floor, you'll need approximately 25-35 beacons. 
 }
 ```
 
+### Beacon Deployment Workflow
+
+Follow this step-by-step process when deploying beacons to a new floor:
+
+1. **Draft a floor plan grid.** Export the floor plan as a PNG or SVG and overlay a 10-meter grid. Mark proposed beacon positions at each grid intersection, adjusting for obstacles like pillars, server rooms, or kitchen appliances.
+2. **Assign UUIDs consistently.** Use a single UUID per building, major values per floor, and minor values per beacon. This hierarchy simplifies filtering in the mobile app.
+3. **Mount and calibrate.** Mount beacons and record actual coordinates in the beacon registry JSON. Walk each beacon with a phone and confirm the ranging distance matches expectations.
+4. **Run a coverage heat map.** Use a free tool like IndoorAtlas or HeatMapper to walk the floor with a beacon scanner app and verify signal coverage. Gaps larger than 15 meters between detectable beacons require an additional beacon.
+5. **Update the backend registry.** Push the finalized JSON to your backend and confirm the mobile app resolves positions correctly for five distinct test locations on the floor.
+
 ## Mobile Application Implementation
 
 The mobile client handles beacon scanning, trilateration for position calculation, and map rendering. Here's a React Native example for beacon ranging:
@@ -143,6 +164,12 @@ class BeaconScanner {
 }
 ```
 
+### Map Rendering for Infrequent Visitors
+
+Infrequent office visitors need simple, landmark-based directions rather than precise coordinate maps. Instead of showing an exact blue dot on a floor plan, show a route expressed in human terms: "Turn left at the kitchen, Room 4B is the third door on your right." This matches how people navigate unfamiliar spaces in practice.
+
+Implement a landmark layer in your floor plan data that annotates key decision points — elevator banks, kitchens, reception desks, and restrooms — and use these as waypoints when generating turn-by-turn directions.
+
 ## Integration with Room and Desk Systems
 
 Wayfinding becomes powerful when connected to your existing workplace tools. Most offices use systems like Robin, Teem, or custom solutions. Create an integration layer that pulls real-time availability:
@@ -184,13 +211,40 @@ class RoomIntegration:
         return ((pos1['x'] - pos2['x'])**2 + (pos1['y'] - pos2['y'])**2)**0.5
 ```
 
+### Calendar Integration for Pre-Arrival Wayfinding
+
+The most impactful wayfinding feature for infrequent visitors is pre-arrival guidance. When an employee accepts a calendar invite for an in-office meeting, automatically send them a wayfinding link — a deep link into the mobile app that pre-loads the destination room and the optimal route from the building entrance. This eliminates the friction of searching once they arrive.
+
+Implement this as a calendar webhook or Google Workspace add-on. When a meeting with a physical room location is accepted, trigger the wayfinding link generation and deliver it via Slack or email.
+
 ## Practical Deployment Considerations
 
 When deploying your wayfinding system, start small. Choose one floor or building section as a pilot. Measure actual accuracy by having test users walk known routes and compare estimated positions against ground truth.
 
-Battery consumption matters for mobile apps. Continuous beacon scanning drains phone batteries quickly. Implement adaptive scanning—scan every 2-3 seconds when the user opens the app, then every 10-15 seconds once they've started navigation. Reduce to once per minute when the app runs in the background.
+Battery consumption matters for mobile apps. Continuous beacon scanning drains phone batteries quickly. Implement adaptive scanning — scan every 2-3 seconds when the user opens the app, then every 10-15 seconds once they've started navigation. Reduce to once per minute when the app runs in the background.
 
 Consider privacy implications. Store location data ephemerally and provide clear opt-in controls. Most employees appreciate wayfinding convenience but resist persistent tracking. Implement data retention policies that delete location history after 24-48 hours.
+
+### Common Deployment Mistakes
+
+- **Skipping the heat map step.** Coverage gaps are invisible until a user gets lost. Always validate with a scanner walk.
+- **Hardcoding beacon UUIDs in the mobile app.** Use a remote configuration service so you can update the beacon registry without a new app release.
+- **Ignoring elevator shafts.** Metal elevator shafts block BLE signals. Place beacons on both sides of elevator banks, not inside lift lobbies.
+- **Over-promising accuracy.** Set user expectations early: the system shows a 3-5 meter radius, not a pinpoint. Combine positioning with landmark-based directions for the last 10 meters.
+
+## Frequently Asked Questions
+
+**Do employees need to download an app?**
+A native mobile app provides the best experience, but a progressive web app (PWA) that works in Safari and Chrome eliminates the install barrier. For infrequent visitors, a PWA with QR code entry points near building entrances often achieves higher adoption than a native app requiring app store installation.
+
+**How do we handle multi-floor navigation?**
+Add a floor identifier to each beacon's position data and detect floor transitions by monitoring for beacons with a new floor value. Display floor change instructions (e.g., "Take the elevator to Floor 3") as explicit waypoints in the route.
+
+**What happens when beacons run out of battery?**
+Monitor beacon health via your beacon management platform, which reports RSSI signal strength degradation. Set alerts for beacons that drop below expected signal strength and schedule quarterly battery checks for the entire deployment.
+
+**Can this system integrate with Slack or Teams for colleague location?**
+Yes, but require explicit opt-in. A Slack slash command like `/whereis @colleague` that returns their current floor (not exact position) is well-received. Exact location sharing should always be voluntary and never the default.
 
 
 ## Related Articles
