@@ -284,7 +284,7 @@ Don't commit based on features alone. Run this trial:
 This 10-15 hour investment prevents wrong choices that cost months of productivity.
 
 The best all-in-one tool for your 5-person remote nonprofit is the one your team actually uses consistently. A simpler tool that everyone adopts beats a powerful tool that nobody opens.
-{% endraw %}
+
 
 ## Related Reading
 

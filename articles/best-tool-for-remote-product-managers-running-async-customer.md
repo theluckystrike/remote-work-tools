@@ -14,7 +14,6 @@ tags: [remote-work-tools, best-of, remote-work]
 ---
 
 {% raw %}
-
 Async customer discovery interviews let product managers collect video responses across time zones without scheduling live calls, scaling customer research faster while creating a searchable archive. Tools like Rile, Loom, and HomeBase support timestamped notes, question templates, and API access for programmatic analysis of qualitative data. This guide covers setup, question design, and integration patterns for distributed product teams.
 
 ## What Makes an Async Interview Tool Effective
@@ -447,7 +446,7 @@ This synthesis-as-code approach scales to hundreds of interviews. You can re-run
 - Mitigation: Offer incentives to boost response from underrepresented groups
 
 This workflow produces reusable artifacts. Your interview library becomes a referenceable knowledge base that new team members can explore independently.
-{% endraw %}
+
 
 ## Related Reading
 
