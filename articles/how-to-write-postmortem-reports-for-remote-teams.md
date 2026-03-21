@@ -419,7 +419,8 @@ Engineers make good decisions with the information available at the time.
 Post this at the top of every postmortem document. Over time, the team internalizes that the purpose of the exercise is shared learning, not accountability theater.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 - [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)

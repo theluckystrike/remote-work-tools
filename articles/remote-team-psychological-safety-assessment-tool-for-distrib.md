@@ -169,7 +169,8 @@ Here's a practical rollout schedule:
 - **Quarterly**: Repeat full assessment cycle
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Build Psychological Safety on Fully Remote](/remote-work-tools/how-to-build-psychological-safety-on-fully-remote-engineerin/)
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)

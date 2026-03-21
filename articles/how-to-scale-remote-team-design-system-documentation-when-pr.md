@@ -261,7 +261,8 @@ The goal is not perfect documentation—it's documentation that enables your tea
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)
 - [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)

@@ -168,7 +168,8 @@ After two weeks, gather feedback and refine your process. There's no perfect tem
 Async text updates transform daily standups from a mandatory meeting into a flexible, asynchronous practice that respects time zones, preserves focus time, and creates useful documentation. Start simple, stay consistent, and adjust based on what your team actually needs.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tool for Hybrid Team Async Updates When Some Use Office](/remote-work-tools/best-tool-for-hybrid-team-async-updates-when-some-use-office/)
 - [Example GitHub PR template](/remote-work-tools/how-to-transition-from-sync-meetings-to-async-updates-gradua/)

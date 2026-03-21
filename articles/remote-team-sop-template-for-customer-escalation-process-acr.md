@@ -202,7 +202,8 @@ Start with the basics: define your severity levels, create your handoff template
 {% endraw %}
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Batch Onboarding Process for Cohort-Based Hiring](/remote-work-tools/remote-team-batch-onboarding-process-for-cohort-based-hiring/)
 - [How to Create Remote Team Escalation Communication Template](/remote-work-tools/how-to-create-remote-team-escalation-communication-template-/)

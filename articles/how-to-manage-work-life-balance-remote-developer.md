@@ -209,7 +209,8 @@ Work-life balance isn't about perfect equilibrium every day. It's about systems 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Manage Multiple GitHub Accounts for Remote Work](/remote-work-tools/how-to-manage-multiple-github-accounts-remote-work/)
 - [Best Practice for Remote Team Workload Balance](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)

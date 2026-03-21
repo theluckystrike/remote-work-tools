@@ -365,7 +365,8 @@ Mix-and-match across morning and evening. Morning might be: 10-min walk + "Morni
 The key is consistency and combination. Ritual stacks are more powerful than individual rituals because multiple cues reinforce the state change. Your brain learns: "combination of these signals = work time is over."
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
 - [Best Cafe Work Etiquette for Remote Workers](/remote-work-tools/best-cafe-work-etiquette-for-remote-workers/)

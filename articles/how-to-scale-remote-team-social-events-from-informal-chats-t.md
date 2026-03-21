@@ -196,7 +196,8 @@ Start where you are. If your team is small, add one structured element to your e
 The goal isn't to replicate an office water cooler. It's to create something better—intentional spaces where people can connect as humans, regardless of when they work or where they live.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Virtual Team Trivia Platform for Remote Social Events](/remote-work-tools/best-virtual-team-trivia-platform-for-remote-social-events-2/)
 - [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)

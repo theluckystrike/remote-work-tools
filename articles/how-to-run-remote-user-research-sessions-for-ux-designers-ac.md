@@ -175,7 +175,8 @@ After completing all sessions, schedule a synthesis session using your overlap w
 Several mistakes undermine remote user research effectiveness. First, avoid conducting sessions alone when your team is distributed. Always have at least one observer from each major time zone represented. Second, do not skip transcription. Manually reviewing hours of recordings wastes time that could go toward insight synthesis. Third, resist the temptation to only schedule sessions during your local work hours. This defeats the purpose of distributed research and excludes team member participation.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
 - [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)

@@ -194,7 +194,8 @@ Building proper leave tracking from the start saves significant headaches later.
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 - [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)

@@ -511,9 +511,10 @@ ping partner-location
 ---
 
 
-## Related Reading
 
-- [How to Set Up Remote Pair Programming Sessions: Complete Guide](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
+## Related Articles
+
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
 - [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
 - [Remote Pair Programming Tools Compared 2026](/remote-work-tools/remote-pair-programming-tools-compared/)

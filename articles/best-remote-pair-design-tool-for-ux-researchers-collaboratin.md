@@ -239,12 +239,14 @@ Regardless of tool choice, establish these practices:
 The right tool transforms affinity mapping from a tedious chore into a powerful synthesis method that drives product decisions. Test each option with a real synthesis session before committing—your team's workflow depends on finding the right fit.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Virtual Offsite Planning Platform for Remote Teams.](/remote-work-tools/best-virtual-offsite-planning-platform-for-remote-teams-2026/)
-- [Best Remote Design Collaboration Tool for UX Teams Using.](/remote-work-tools/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)
-- [Async Design Critique Process for Remote UX Teams.](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)
+## Related Articles
+
+- [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [Best Tools for Remote Pair Programming 2026](/remote-work-tools/remote-pair-programming-tools-2026/)
+- [Best Tools for Remote Pair Programming Sessions in 2026](/remote-work-tools/best-tools-remote-pair-programming-sessions-2026/)
+- [How to Calculate Productive Overlap Hours for Remote.](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
+- [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

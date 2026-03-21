@@ -206,7 +206,8 @@ The real power comes from combining multiple data sources. A complete agenda pip
 Each source adds context. The AI serves as the aggregator, transforming noise into signal.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Write Good Remote Meeting Agendas](/remote-work-tools/how-to-write-good-remote-meeting-agendas/)
 - [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)

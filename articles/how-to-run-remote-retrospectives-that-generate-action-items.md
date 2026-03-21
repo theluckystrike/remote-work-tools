@@ -652,7 +652,8 @@ Great effort this sprint!
 {% endraw %}
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
 - [How to help Engaging Remote Retrospectives](/remote-work-tools/how-to-help-engaging-remote-retrospectives/)

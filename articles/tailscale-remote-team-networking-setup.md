@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tailscale for Remote Team Networking Setup"
-description: "Set up Tailscale for remote team networking: install on all devices, configure ACLs, set up subnet routes and exit nodes, and replace your VPN with a mesh network."
+description: "Set up Tailscale for remote team networking: install on all devices, configure ACLs, set up subnet routes and exit nodes, and replace your VPN with a mesh"
 date: 2026-03-21
 last_modified_at: 2026-03-21
 author: theluckystrike
@@ -262,7 +262,8 @@ sudo tailscale up --authkey tskey-auth-XXXXXX --ephemeral
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Work VPN for Teams Comparison 2026: Tailscale vs.](/remote-work-tools/remote-work-vpn-for-teams-comparison-2026/)
 - [Freelance Developer Networking Strategies Online: A](/remote-work-tools/freelance-developer-networking-strategies-online/)

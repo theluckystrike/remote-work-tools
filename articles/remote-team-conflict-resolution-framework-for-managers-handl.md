@@ -276,7 +276,8 @@ After resolving conflicts, capture what you learned for future reference:
 Pattern recognition in conflicts helps prevent repeating them. If you resolve the same conflict type three times, you have a systemic problem worth addressing at the team level.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Conflict Resolution Framework Guide](/remote-work-tools/remote-team-conflict-resolution-framework-guide/)
 - [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)

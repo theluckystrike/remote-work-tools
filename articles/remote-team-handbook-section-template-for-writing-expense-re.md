@@ -184,7 +184,8 @@ Set a calendar reminder to review your policy every 12 months. Technology costs 
 A clear expense reimbursement policy reduces administrative burden, prevents frustration, and helps your remote team focus on work instead of paperwork.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Handbook Section Template for Defining](/remote-work-tools/remote-team-handbook-section-template-for-defining-communica/)
 - [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)

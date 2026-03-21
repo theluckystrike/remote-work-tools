@@ -849,7 +849,8 @@ Scenario: 30-person remote team, needs both internal docs and versioned API refe
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
 - [GitBook vs Notion for Technical Documentation](/remote-work-tools/gitbook-vs-notion-for-technical-documentation/)

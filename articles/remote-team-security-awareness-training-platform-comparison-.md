@@ -212,7 +212,8 @@ Security awareness training for remote teams requires platforms that work as har
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)

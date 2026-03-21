@@ -306,7 +306,8 @@ Async reviews fail when teams don't establish clear norms. Avoid these mistakes:
 - No escalation path: When async discussion stalls, have a fallback plan
 
 
-## Related Reading
+
+## Related Articles
 
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)
 - [Async Design Critique Process for Remote Ux Teams Step by St](/remote-work-tools/async-design-critique-process-for-remote-ux-teams-step-by-st/)

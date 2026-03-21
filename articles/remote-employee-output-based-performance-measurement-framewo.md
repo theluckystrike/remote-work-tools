@@ -205,7 +205,8 @@ Ignoring non-code contributions: Documentation, mentoring, and incident response
 Setting static targets: Teams evolve. Review and adjust thresholds quarterly based on historical performance and organizational priorities.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
 - [Remote Employee Performance Tracking Tool Comparison for Dis](/remote-work-tools/remote-employee-performance-tracking-tool-comparison-for-dis/)

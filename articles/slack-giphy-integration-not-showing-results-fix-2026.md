@@ -314,7 +314,8 @@ In your Giphy app configuration, you can control:
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Notion API Integration Returning 502 Errors Fix (2026)](/remote-work-tools/notion-api-integration-returning-502-errors-fix-2026/)
 - [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)

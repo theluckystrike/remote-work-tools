@@ -259,7 +259,8 @@ A useful forcing question: where do engineers currently paste documentation when
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Virtual Happy Hour Alternative for Remote Teams Who](/remote-work-tools/best-virtual-happy-hour-alternative-for-remote-teams-who-hat/)
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)

@@ -251,7 +251,8 @@ Build your matching system once, refine it after each cohort, and watch your men
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Async Mentorship Program Structure for Remote Junior Develop](/remote-work-tools/async-mentorship-program-structure-for-remote-junior-develop/)
 - [List available color profiles](/remote-work-tools/external-monitor-color-matching-for-macbook-dual-display-setup/)

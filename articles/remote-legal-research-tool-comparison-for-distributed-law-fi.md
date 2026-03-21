@@ -198,7 +198,8 @@ For firms with strict data sovereignty requirements, some vendors now offer on-p
 Distributed firms handling international matters should evaluate cross-border research capabilities. Tools like Global Legal Information Network and specialized international databases may supplement primary US-focused platforms.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Legal Billing Software Comparison for Distributed](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
 - [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)

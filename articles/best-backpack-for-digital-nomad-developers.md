@@ -202,7 +202,8 @@ time dig google.com @8.8.8.8 +short
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Digital Nomad Packing List for Developers](/remote-work-tools/digital-nomad-packing-list-for-developers/)
 - [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)

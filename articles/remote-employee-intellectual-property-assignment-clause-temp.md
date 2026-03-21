@@ -213,7 +213,8 @@ An IP assignment framework protects your organization while providing clear guid
 Review your current IP assignment practices and identify gaps. Implement the checklist for new hires and audit existing agreements for compliance with local requirements.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)
 - [Best Practice for Remote Appraisers Conducting Property](/remote-work-tools/best-practice-for-remote-appraisers-conducting-property-valu/)

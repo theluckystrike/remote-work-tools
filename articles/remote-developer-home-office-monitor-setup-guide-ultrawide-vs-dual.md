@@ -286,7 +286,8 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [List available color profiles](/remote-work-tools/external-monitor-color-matching-for-macbook-dual-display-setup/)
 - [Best Speakers for Home Office Setup 2026: A Developer Guide](/remote-work-tools/best-speakers-for-home-office-setup-2026/)

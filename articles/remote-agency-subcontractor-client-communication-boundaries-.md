@@ -87,9 +87,6 @@ const prTemplate = `
 ## What This PR Does
 [Description of changes]
 
-## Related Issues
-- Closes #123
-
 ## Testing Notes
 - [ ] Tested locally on feature branch
 - [ ] Unit tests pass
@@ -208,7 +205,8 @@ Remote agency work thrives on trust. By being clear about how you work, you actu
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)

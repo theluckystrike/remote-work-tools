@@ -286,7 +286,8 @@ Combat this by:
 Visible progress, even if not immediately reviewable, maintains client confidence and shows you're actively working.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Schedule Meetings Across 8 Hour Timezone Difference](/remote-work-tools/how-to-schedule-meetings-across-8-hour-timezone-difference-w/)
 - [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)

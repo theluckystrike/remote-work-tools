@@ -108,7 +108,6 @@ Brief description of the change and its purpose
 ## Screenshots (if applicable)
 Before/after or UI changes
 
-## Related issues
 Closes #123
 ```
 
@@ -232,7 +231,8 @@ After implementing your charter, measure whether it's actually working:
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)

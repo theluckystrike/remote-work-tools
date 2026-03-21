@@ -71,10 +71,6 @@ or requirements are we working with? What alternatives were considered?]
 - @[username] - [area of expertise]
 - @[username] - [area of expertise]
 
-## Related Decisions
-- ADR-[XXX] - [related decision title]
-- ADR-[YYY] - [related decision title]
-
 ## Notes
 [Any additional context, links to discussions, or future considerations]
 ```
@@ -206,7 +202,8 @@ Schedule a quarterly review of active ADRs to identify:
 **Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
 - [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)

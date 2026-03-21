@@ -227,7 +227,8 @@ When rolling out a 1 on 1 tool across distributed teams:
 5. **Test time zone tooling**: Verify calendar integrations handle daylight saving correctly
 
 
-## Related Reading
+
+## Related Articles
 
 - [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)
 - [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)

@@ -260,7 +260,8 @@ function generateWeeklyReport() {
 Review these metrics weekly. If approval times spike, investigate whether team capacity or policy confusion is causing delays.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Client Approval Workflow Tool for Remote Design Teams](/remote-work-tools/best-client-approval-workflow-tool-for-remote-design-teams/)
 - [How to Set Up Remote Design Handoff Workflow Between](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)

@@ -277,7 +277,8 @@ Year 3+: Customize to your team's maturity. Mix challenging technical books with
 Your book club is a living program that evolves with your team's interests and needs.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [Configuration](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)

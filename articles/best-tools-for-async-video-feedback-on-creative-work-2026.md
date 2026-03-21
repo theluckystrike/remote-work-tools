@@ -220,7 +220,8 @@ if __name__ == "__main__":
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)
 - [Example: Feedback webhook handler](/remote-work-tools/async-customer-feedback-synthesis-workflow-for-remote-produc/)

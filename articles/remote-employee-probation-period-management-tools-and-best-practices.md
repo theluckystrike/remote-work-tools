@@ -221,7 +221,8 @@ jobs:
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
 - [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)

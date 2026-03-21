@@ -95,9 +95,6 @@ Template System: Provide ready-made templates for common contribution types. Don
 |-------|----------|
 | Error X | Fix Y |
 
-## Related Resources
-- [Internal link 1]
-- [Internal link 2]
 ```
 
 Slack Integration: Let engineers submit knowledge base entries directly from Slack. A simple slash command captures information while it's fresh in their minds.
@@ -362,7 +359,8 @@ But also measure qualitatively:
 A successful program feels like documentation is just "how we do things," not "the incentive program we're running."
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)
 - [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)

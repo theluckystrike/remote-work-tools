@@ -252,7 +252,8 @@ The "best" tool depends on your existing stack. Teams already using Notion shoul
 What matters most is that your directory data is accessible programmatically, stays current, and integrates with where your team actually communicates.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Org Chart Restructuring Guide](/remote-work-tools/remote-team-org-chart-restructuring-guide-when-scaling-from-/)
 - [List all markdown files in your docs directory](/remote-work-tools/how-to-set-up-documentation-ownership-model-for-remote-teams/)

@@ -488,7 +488,8 @@ Train managers to enforce timeboxing. If decision drags past deadline, escalate 
 Review decision quality quarterly. If 80%+ of implemented decisions have positive outcomes, async is working. If reversals exceed 20%, tighten escalation criteria.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
 - [How to Create Remote Team Decision Making Framework for](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)

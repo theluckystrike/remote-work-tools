@@ -216,7 +216,8 @@ The goal is creating reliable independent play infrastructure that supports your
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
 - [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)

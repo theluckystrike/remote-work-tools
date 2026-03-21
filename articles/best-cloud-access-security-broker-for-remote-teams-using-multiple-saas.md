@@ -239,7 +239,8 @@ The best CASB is one your team will actually use. Start with visibility, then la
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Implement Just-in-Time Access for Remote Team.](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
 - [Batch export all artboards to multiple formats](/remote-work-tools/best-remote-design-collaboration-tool-for-ux-teams-using-fig/)

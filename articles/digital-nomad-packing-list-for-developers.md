@@ -217,7 +217,8 @@ Every developer's needs differ based on their stack, travel style, and duration.
 The right packing list enables you to maintain productivity while traveling light. Focus on versatile, durable items that serve multiple purposes. Your future self, coding from a beach in Portugal or a café in Tokyo, will appreciate the thoughtful preparation.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
 - [Brazil Digital Nomad Visa Process and Tax Implications for](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)

@@ -269,7 +269,8 @@ A knowledge base that stagnates loses value quickly—clients stop checking when
 **Integrate with client workflows.** Don't force clients to visit a separate site for your knowledge base. Embed relevant articles in project management tools, reference them in regular updates, and link from invoices or proposals. The more integrated the knowledge base feels with your overall service, the more clients use it.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: Create a booking via API](/remote-work-tools/best-client-scheduling-tool-for-remote-agency-multiple-time-/)
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)

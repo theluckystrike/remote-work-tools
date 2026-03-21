@@ -454,7 +454,6 @@ A: The service is starting but hasn't become healthy yet. Wait 30 seconds and re
 **Q: How do I know if it's safe to deploy?**
 A: Check the deployment checklist dashboard (link) showing latest test results and deployment history.
 
-## Related: Why We Use Blue-Green Deployments
 See decision #47 for the reasoning behind this approach.
 ```
 
@@ -580,7 +579,8 @@ A wiki works better when connected to other tools.
 - Deployment tickets link to deployment guide
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Build a Remote Team Wiki from Scratch](/remote-work-tools/how-to-build-remote-team-wiki-from-scratch/)
 - [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)

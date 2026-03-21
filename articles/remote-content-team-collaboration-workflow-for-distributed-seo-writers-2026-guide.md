@@ -286,7 +286,8 @@ jobs:
 This automation pings reviewers automatically without requiring a project manager to track every open PR manually. Pair it with a written SLA document specifying response time expectations per review stage.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
 - [Industry match (40% weight)](/remote-work-tools/remote-sales-team-crm-workflow-optimization-for-distributed-/)

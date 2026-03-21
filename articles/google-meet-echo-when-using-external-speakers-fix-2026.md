@@ -275,7 +275,8 @@ After exhausting software and configuration solutions, hardware replacement may 
 Quality replacements cost $50-150 for basic USB microphone + speaker sets, a small investment compared to the productivity impact of persistent echo during important calls.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Fix Echo on Zoom Calls in Room with Hardwood Floors](/remote-work-tools/how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/)
 - [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)

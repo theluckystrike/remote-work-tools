@@ -186,12 +186,14 @@ Consider starting with a lightweight tool and evolving your approach as onboardi
 Track metrics like time-to-productivity, task completion rates, and new hire satisfaction to validate your choice and identify improvement opportunities over time.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Tool for Remote Team Onboarding Checklist.](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
-- [Best Tool for Remote Team Async Onboarding With Self-Paced Learning Modules 2026](/remote-work-tools/best-tool-for-remote-team-async-onboarding-with-self-paced-l/)
-- [Remote HR Onboarding Platform Comparison for Hiring.](/remote-work-tools/remote-hr-onboarding-platform-comparison-for-hiring-distribu/)
+## Related Articles
+
+- [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)
+- [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)
+- [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)
+- [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)
+- [communication-preferences.yaml](/remote-work-tools/remote-team-onboarding-communication-checklist-for-first-two/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

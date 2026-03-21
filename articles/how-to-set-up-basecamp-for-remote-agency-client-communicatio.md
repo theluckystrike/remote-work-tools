@@ -229,7 +229,8 @@ If clients still rely on email for primary communication, that's a sign the Base
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)

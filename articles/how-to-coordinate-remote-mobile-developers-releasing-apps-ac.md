@@ -256,7 +256,8 @@ For urgent releases, use abbreviated async processes:
 5. Expedited submission with notes to reviewers
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
 - [Async QA Signoff Process for Remote Teams Releasing Weekly](/remote-work-tools/async-qa-signoff-process-for-remote-teams-releasing-weekly-g/)

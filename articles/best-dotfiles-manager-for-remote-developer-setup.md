@@ -217,7 +217,8 @@ Start with Stow if you're new to dotfiles management—its simplicity lets you u
 The best dotfiles manager ultimately is the one you'll actually use. Whichever tool you choose, version controlling your configurations ensures you never lose your carefully crafted development environment, regardless of where work takes you.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
 - [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)

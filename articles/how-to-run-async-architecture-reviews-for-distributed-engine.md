@@ -335,7 +335,8 @@ Anti-Patterns to Prevent:
 Async processes work well when boundaries are clear and decision authority is explicit.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Run Remote Developer Hackathon for Distributed](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)
 - [Best Practices for Async Pull Request Reviews on](/remote-work-tools/best-practices-for-async-pull-request-reviews-on-distributed/)

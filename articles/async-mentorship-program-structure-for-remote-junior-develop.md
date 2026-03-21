@@ -179,7 +179,8 @@ Collect this data through your normal development workflow rather than creating 
 An effective async mentorship program removes the friction of remote work while respecting everyone's time. The structure takes effort to build initially, but once established, it scales naturally and produces developers who can work independently while having access to guidance when needed.
 
 
-## Related Reading
+
+## Related Articles
 
 - [matching_weights.py](/remote-work-tools/how-to-set-up-remote-team-mentorship-program-matching-mentor/)
 - [How to Structure an Async All Hands Update for 100 Employees](/remote-work-tools/how-to-structure-an-async-all-hands-update-for-100-employees/)

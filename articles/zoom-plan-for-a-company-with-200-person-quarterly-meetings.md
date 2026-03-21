@@ -217,7 +217,8 @@ def parse_action_items(chat_messages):
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Toolkit for a 60-Person SaaS Company 2026](/remote-work-tools/remote-team-toolkit-for-a-60-person-saas-company-2026/)
 - [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)

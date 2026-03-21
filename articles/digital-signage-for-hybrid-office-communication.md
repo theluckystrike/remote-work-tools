@@ -207,7 +207,8 @@ The content server acts as the central hub, pulling data from source systems and
 Treat signage as another API-driven output channel: the same data flowing through your dashboards and Slack notifications can drive your office displays. Wire up the integrations once and content stays current without manual updates.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Set Up Hybrid Office Digital Signage Showing Room](/remote-work-tools/how-to-set-up-hybrid-office-digital-signage-showing-room-availability-and-events/)
 - [Simple office hours scheduler (Python)](/remote-work-tools/how-to-maintain-direct-communication-with-leadership-as-remo/)

@@ -220,7 +220,8 @@ Success in distributed penetration testing boils down to three practices. First,
 Remote penetration testing coordination requires more deliberate structure than collocated testing, but the distributed model offers advantages: broader testing hour coverage, diverse security perspectives, and resilience against single points of failure. With proper workflows in place, your distributed team can execute assessments as effectively as any in-person red team.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Element Matrix Messenger for Team Communication](/remote-work-tools/element-matrix-messenger-for-team-communication/)
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)

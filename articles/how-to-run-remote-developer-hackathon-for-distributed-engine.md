@@ -255,7 +255,8 @@ Addressing these proactively significantly improves outcomes.
 Running a successful remote developer hackathon for distributed engineering teams takes effort, but the payoff—accelerated prototyping, team bonding, and innovation—makes it worthwhile. Focus on clear infrastructure, structured timelines, active help, and fair evaluation, and your hackathon will deliver value regardless of where your team members are located.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
 - [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)

@@ -364,7 +364,8 @@ Neighborhood?
 Built by
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Neighborhoods in Lisbon for Remote Workers with Fast](/remote-work-tools/best-neighborhoods-in-lisbon-for-remote-workers-with-fast-wi/)
 - [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)

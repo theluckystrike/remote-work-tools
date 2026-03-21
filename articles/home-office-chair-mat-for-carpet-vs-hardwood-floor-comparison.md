@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home Office Chair Mat for Carpet vs Hardwood Floor"
+title: "Home Office Chair Mat for Carpet vs Hardwood Floor — Comparison"
 description: "A practical comparison of chair mats for carpet vs hardwood floors in home office setups. Learn which mat type suits your flooring and workspace needs"
 date: 2026-03-16
 last_modified_at: 2026-03-16
@@ -299,7 +299,8 @@ tail -10 ~/standing-log.txt
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)

@@ -173,7 +173,8 @@ Before publishing your documentation, verify:
 - [ ] There's a process for updating questions quarterly
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Handbook Section Template for Writing Expense Re](/remote-work-tools/remote-team-handbook-section-template-for-writing-expense-re/)
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)

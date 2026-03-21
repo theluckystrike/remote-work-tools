@@ -286,7 +286,8 @@ Track metrics that demonstrate canary tokens' value:
 Teams with mature canary token programs typically detect breaches 50-70% faster than without them, providing invaluable time for containment.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Session Recording Tool for Remote Team Privileged.](/remote-work-tools/best-session-recording-tool-for-remote-team-privileged-acces/)
 - [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)

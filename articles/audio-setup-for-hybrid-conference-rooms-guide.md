@@ -333,7 +333,8 @@ Audio quality degrades over time. Schedule regular maintenance:
 Proactive maintenance prevents surprise failures during important meetings.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 - [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)

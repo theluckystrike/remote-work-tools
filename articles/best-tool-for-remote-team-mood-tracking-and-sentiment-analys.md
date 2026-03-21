@@ -207,7 +207,8 @@ The key is consistency—track sentiment over weeks and months, not just single 
 Sentiment analysis works best as an early warning system, not a replacement for direct communication. Use these tools to know when to check in, then have real conversations.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Bug Tracking Setup for a 7-Person Remote QA Team](/remote-work-tools/best-bug-tracking-setup-for-a-7-person-remote-qa-team/)
 - [Parse: Accomplished X. Next: Y. Blockers: Z](/remote-work-tools/best-tool-for-tracking-remote-team-goals-and-key-results-weekly/)

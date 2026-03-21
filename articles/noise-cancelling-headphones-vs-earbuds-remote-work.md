@@ -287,7 +287,8 @@ Plan for failure. When your primary audio dies mid-project call, having a backup
 {% endraw %}
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Noise Canceling Earbuds for Remote Work 2026](/remote-work-tools/best-noise-canceling-earbuds-for-remote-work-2026/)
 - [Best Noise Cancelling Setup for Remote Work from Busy Bali](/remote-work-tools/best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/)

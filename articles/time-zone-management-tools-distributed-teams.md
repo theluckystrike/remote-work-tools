@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Time Zone Management Tools for Distributed Teams"
-description: "Set up time zone management for distributed teams: World Time Buddy, Every Time Zone, CLI tools, calendar overlaps, and scheduling automation for remote engineers."
+description: "Set up time zone management for distributed teams: World Time Buddy, Every Time Zone, CLI tools, calendar overlaps, and scheduling automation for remote"
 date: 2026-03-21
 last_modified_at: 2026-03-21
 author: theluckystrike
@@ -262,7 +262,8 @@ curl -X POST -H 'Content-type: application/json' \
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Time Zone Management Tools for Distributed Engineering](/remote-work-tools/best-time-zone-management-tools-for-distributed-engineering-teams-2026/)
 - [Best Time Zone Management Tools for Global Teams: A](/remote-work-tools/best-time-zone-management-tools-for-global-teams/)

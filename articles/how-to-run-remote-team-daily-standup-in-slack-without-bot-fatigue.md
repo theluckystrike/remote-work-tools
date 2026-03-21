@@ -421,7 +421,8 @@ Address these immediately. Standup only works if it's genuinely useful to the te
 Third, lead by example. If senior team members treat standups as box-checking, others will too. Show genuine interest in colleagues' updates, ask follow-up questions, and engage authentically.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Standup Bot Comparison for Remote Engineering Teams](/remote-work-tools/standup-bot-comparison-for-remote-engineering-teams/)
 - [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)

@@ -330,7 +330,8 @@ Schedule a formal conversation: "How are you settling in? What's working? What c
 The best hiring managers view their job as 70% retention. Building a hiring pipeline fills short-term gaps; building a team people want to stay in solves long-term growth.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Manage Remote Team Handoffs Across Time Zones: A](/remote-work-tools/how-to-manage-remote-team-handoffs-across-time-zones/)
 - [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)

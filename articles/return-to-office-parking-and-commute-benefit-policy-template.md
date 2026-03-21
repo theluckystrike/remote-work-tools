@@ -256,7 +256,8 @@ When deploying this policy in your organization, consider these practical factor
 **Communication** — Provide clear guidelines to employees about what expenses qualify, how to submit receipts, and when reimbursements will be processed.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)
 - [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)

@@ -302,7 +302,8 @@ Monitor these metrics to ensure scheduling efficiency:
 Track these quarterly and adjust your scheduling tool's settings accordingly.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 - [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)

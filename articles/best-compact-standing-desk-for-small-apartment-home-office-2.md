@@ -219,7 +219,8 @@ Switching to a compact standing desk in a small apartment requires adjustment:
 5. Neighbor considerations: Electric motors produce sound—avoid late-night adjustments in apartments
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 - [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)

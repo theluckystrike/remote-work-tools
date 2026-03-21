@@ -264,7 +264,8 @@ Give the model at least 6 weeks before deciding it's not working. People need ti
 {% endraw %}
 
 
-## Related Reading
+
+## Related Articles
 
 - [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)
 - [Find overlapping work hours across three zones](/remote-work-tools/how-to-schedule-onboarding-meetings-across-time-zones-for-re/)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Async Capacity Planning Process for Remote Engineering"
+title: "Async Capacity Planning Process for Remote Engineering — Managers"
 description: "A practical guide for engineering managers on implementing async capacity planning. Learn how to forecast team capacity, balance workloads, and plan"
 date: 2026-03-18
 author: theluckystrike
@@ -242,7 +242,8 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 **Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)

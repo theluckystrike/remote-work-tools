@@ -274,7 +274,8 @@ Sound dampening pairs effectively with other productivity tools:
 The combination of physical soundproofing + active noise cancellation + white noise apps creates a multi-layered approach that handles even disruptive environments.
 
 
-## Related Reading
+
+## Related Articles
 
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)

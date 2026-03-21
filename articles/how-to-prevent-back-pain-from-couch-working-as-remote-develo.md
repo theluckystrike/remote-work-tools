@@ -296,7 +296,8 @@ Treating couch work as temporary (not permanent workstation) reduces pain risk s
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)
 - [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)

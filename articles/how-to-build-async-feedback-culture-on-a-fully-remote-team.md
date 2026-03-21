@@ -189,7 +189,8 @@ Async feedback cultures fail when teams neglect the human element. Purely text-b
 Another failure mode is the feedback black hole where comments disappear into silence. Require acknowledgment on all feedback, even if it's simply "noted" or "discussed later." Feedback without response trains people to stop giving it.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Build Remote Team Culture Without Mandatory Fun](/remote-work-tools/how-to-build-remote-team-culture-without-mandatory-fun-activ/)
 - [How to Build Psychological Safety on Fully Remote](/remote-work-tools/how-to-build-psychological-safety-on-fully-remote-engineerin/)

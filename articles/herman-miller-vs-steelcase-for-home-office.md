@@ -194,7 +194,8 @@ The key insight: any of these four chairs will dramatically improve your home of
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Herman Miller vs Steelcase for Remote Developers: A](/remote-work-tools/herman-miller-vs-steelcase-for-remote-developers/)
 - [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)

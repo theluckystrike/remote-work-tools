@@ -177,7 +177,8 @@ Teams often struggle with hybrid whiteboard sessions because they:
 - Skip documentation: Whiteboard content disappears within days without intentional capture
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
 - [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)

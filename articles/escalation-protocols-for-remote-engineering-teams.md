@@ -170,7 +170,8 @@ Ask these questions:
 Update your escalation criteria, runbooks, and contact rotation based on these findings. Your protocol is a living document, not an one-time writeup.
 
 
-## Related Reading
+
+## Related Articles
 
 - [ADR Tools for Remote Engineering Teams](/remote-work-tools/adr-tools-for-remote-engineering-teams/)
 - [Best Chat Platforms for Remote Engineering Teams](/remote-work-tools/best-chat-platforms-remote-engineering-teams/)

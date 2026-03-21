@@ -262,7 +262,8 @@ Start with the simplest method that fits your workflow. If you already use Git f
 The best time tracking system is the one you actually use consistently. Experiment with different approaches until you find the rhythm that works for your specific situation.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Time Tracking Tools for Remote Freelancers](/remote-work-tools/best-time-tracking-tools-for-remote-freelancers/)
 - [Best Time Tracking Tool for a Solo Remote Contractor 2026](/remote-work-tools/best-time-tracking-tool-for-a-solo-remote-contractor-2026/)

@@ -213,7 +213,8 @@ def handle_voice():
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
 - [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)

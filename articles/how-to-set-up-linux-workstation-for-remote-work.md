@@ -270,7 +270,8 @@ alias top='bpytop'
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Linux: Check audio input levels](/remote-work-tools/best-headset-for-remote-work-all-day-comfort-2026/)
 - [How to Set Up Dual Monitor Arms on Remote Work Desk.](/remote-work-tools/how-to-set-up-dual-monitor-arms-on-remote-work-desk-without-/)

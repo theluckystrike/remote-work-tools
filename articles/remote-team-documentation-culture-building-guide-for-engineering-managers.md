@@ -67,7 +67,6 @@ What are the outcomes, both positive and negative?
 ## Alternatives Considered
 What other options did we evaluate? Why were they rejected?
 
-## Related Documents
 Links to relevant specs, tickets, or prior ADRs
 ```
 
@@ -93,7 +92,6 @@ What do you need before starting?
 ## Troubleshooting
 Common issues and their solutions.
 
-## Related Processes
 Links to related documentation.
 ```
 
@@ -365,12 +363,13 @@ curl -s "https://slack.com/api/search.messages"   -H "Authorization: Bearer xoxp
 Bookmark searches you run repeatedly as saved searches in the Slack sidebar. This is faster than rebuilding the query each time for recurring audit needs.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Code Review Guide](/remote-work-tools/remote-team-documentation-culture-building-guide-for-engineering-managers-step-by-step/)
 - [Remote Team Culture Building Strategies Guide](/remote-work-tools/remote-team-culture-building-strategies-guide/)
 - [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [Best One on One Meeting Tool for Remote Engineering](/remote-work-tools/best-one-on-one-meeting-tool-for-remote-engineering-managers/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

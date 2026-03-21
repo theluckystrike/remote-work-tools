@@ -206,7 +206,8 @@ The goal isn't to replicate in-person meetings remotely. It's to design meetings
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
 - [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)

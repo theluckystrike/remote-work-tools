@@ -223,7 +223,8 @@ The most successful distributed teams treat their meeting cadence as an evolving
 Start with the template above, observe what works for your specific time zone distribution and team dynamics, then refine from there.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)

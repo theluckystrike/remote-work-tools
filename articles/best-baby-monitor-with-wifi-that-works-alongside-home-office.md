@@ -172,7 +172,8 @@ Regardless of your choice, proper network configuration ensures your monitoring 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Mesh WiFi for Home Office Video Calls: A Technical](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
 - [Best Router Placement for Home Office on Second Floor WiFi](/remote-work-tools/best-router-placement-for-home-office-on-second-floor-wifi/)

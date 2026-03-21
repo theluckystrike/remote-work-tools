@@ -212,7 +212,8 @@ This template scales to different team sizes and budgets. A bootstrapped startup
 The specific numbers and venues matter less than the discipline of planning. Use this framework as a starting point, adjust based on your team's specific needs, and iterate on future retreats based on post-event feedback.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Budget Tool Stack for a Bootstrapped Remote Team of 2](/remote-work-tools/best-budget-tool-stack-for-a-bootstrapped-remote-team-of-2/)
 - [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)

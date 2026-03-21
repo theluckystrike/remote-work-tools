@@ -243,7 +243,8 @@ The goal isn't rigid enforcement but creating a culture where deep work is value
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
 - [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)

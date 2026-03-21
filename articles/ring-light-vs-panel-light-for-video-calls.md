@@ -314,7 +314,8 @@ Light positioning is useless if camera is too low. Adjust monitor height so came
 6. Setup time: 10-15 minutes, more careful positioning required
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
 - [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)

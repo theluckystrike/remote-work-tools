@@ -392,7 +392,8 @@ Building a compliant multi-state benefits system requires tracking employee loca
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 - [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)

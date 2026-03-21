@@ -315,7 +315,8 @@ The specific implementation depends on your existing tooling. Most modern system
 When implementing equipment return logistics, prioritize three areas: clear communication with employees about expected timelines and conditions, automated tracking that reduces manual follow-ups, and systematic verification that creates audit trails. Document your return policy explicitly and ensure employees acknowledge it before initial equipment shipment.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
 - [Remote Team Retreat Planning Guide Budget and Logistics](/remote-work-tools/remote-team-retreat-planning-guide-budget-and-logistics-temp/)

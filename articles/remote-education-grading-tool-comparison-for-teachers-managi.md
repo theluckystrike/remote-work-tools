@@ -268,7 +268,8 @@ For developers building grading infrastructure:
 The most effective large-class grading strategies combine multiple approaches: automated scoring for objective questions, structured peer review for subjective assessment, and API-driven bulk operations for efficiency. Your specific implementation depends on class size, subject matter, and available development resources.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Education Plagiarism Detection Tool Comparison for](/remote-work-tools/remote-education-plagiarism-detection-tool-comparison-for-online-course-instructors/)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)

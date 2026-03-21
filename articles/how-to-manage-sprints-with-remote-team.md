@@ -293,7 +293,8 @@ Start with async standups this week, add capacity planning next sprint, and iter
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tools for Remote Design Sprints: A Practical Guide](/remote-work-tools/best-tools-for-remote-design-sprints/)
 - [How to Run Sprints with a Remote Team of 4 Engineers: A](/remote-work-tools/how-to-run-sprints-with-a-remote-team-of-4-engineers/)

@@ -111,7 +111,6 @@ Brief description of changes
 
 ## Screenshots (if applicable)
 
-## Related Issues
 Closes #
 ```
 
@@ -239,7 +238,8 @@ Choose tools that integrate with your existing workflow and support the collabor
 Effective onboarding documentation transforms how new developers integrate into remote teams. Invest time in creating, well-organized materials, and your team will recover that investment through faster velocity and reduced knowledge silos.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)
 - [How to Create Remote Team Architecture Documentation Using](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)

@@ -170,7 +170,8 @@ Remember: the goal isn't to convince clients that remote work is superior. It's 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Build Trust on Fully Remote Teams](/remote-work-tools/how-to-build-trust-on-fully-remote-teams/)
 - [Best Video Bar for Small Hybrid Meeting Rooms Under 8](/remote-work-tools/best-video-bar-for-small-hybrid-meeting-rooms-under-8-person/)

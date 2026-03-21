@@ -215,7 +215,8 @@ def count_themes(responses):
 Review this data quarterly with leadership. Look for patterns: are multiple employees citing the same management issues? Is compensation a consistent theme? Are there tool-related frustrations that could be easily addressed?
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 - [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)

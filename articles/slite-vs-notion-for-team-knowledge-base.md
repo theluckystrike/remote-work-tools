@@ -230,7 +230,8 @@ The right choice depends on your team's workflow and growth trajectory. Test bot
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)
 - [Remote Team Knowledge Base Contribution Guidelines Template](/remote-work-tools/remote-team-knowledge-base-contribution-guidelines-template-/)

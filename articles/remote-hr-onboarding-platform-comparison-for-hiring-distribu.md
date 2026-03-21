@@ -217,7 +217,8 @@ Choose your onboarding platform based on your team's specific constraints:
 The best platform ultimately depends on your existing tooling, team distribution, and how much customization you need. Prioritize platforms that expose clear APIs over those with more built-in features but limited programmatic access—your future self will thank you when you need to modify onboarding flows as your team evolves.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
 - [Remote Onboarding Checklist for a Solo HR Manager Hiring 10](/remote-work-tools/remote-onboarding-checklist-for-a-solo-hr-manager-hiring-10/)

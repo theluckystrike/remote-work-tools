@@ -179,7 +179,8 @@ Each month, tidy cable routing and wipe surfaces. Each quarter, reassess storage
 Start with cable management — it has the highest immediate impact. Add drawer dividers and vertical storage where your specific gear demands it. Review the setup quarterly before clutter accumulates into inertia.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)
 - [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)

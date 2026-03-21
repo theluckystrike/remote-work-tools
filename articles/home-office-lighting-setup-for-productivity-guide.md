@@ -210,7 +210,8 @@ The best lighting setup is one you'll actually use consistently. Incremental imp
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)
 - [Best Smart Lighting for Home Office Developers](/remote-work-tools/best-smart-lighting-for-home-office-developers/)

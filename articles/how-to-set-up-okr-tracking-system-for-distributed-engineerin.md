@@ -216,7 +216,8 @@ Start with the simplest tracking that provides adequate visibility, then add aut
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)
 - [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)

@@ -174,7 +174,8 @@ Several mistakes undermine virtual offsites:
 4. **Ignoring time zones** — For globally distributed teams, split sessions across time zones or use async pre-work to maximize live collaboration time.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tools for Remote Team Offsite Planning 2026](/remote-work-tools/best-tools-for-remote-team-offsite-planning-2026/)
 - [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)

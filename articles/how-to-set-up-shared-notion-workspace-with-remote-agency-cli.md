@@ -238,7 +238,8 @@ When sharing workspace access with external clients, implement these security pr
 Notion's enterprise plan offers additional security features like SAML SSO and domain-wide sharing controls that larger agencies may require.
 
 
-## Related Reading
+
+## Related Articles
 
 - [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
 - [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)

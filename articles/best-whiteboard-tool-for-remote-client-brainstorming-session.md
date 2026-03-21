@@ -557,7 +557,8 @@ Sample Tracking Dashboard:
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Run Effective Remote Brainstorming Session Using](/remote-work-tools/how-to-run-effective-remote-brainstorming-session-using-chat/)
 - [Best Virtual Whiteboard for Remote Team Brainstorming and](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)

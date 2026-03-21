@@ -418,7 +418,8 @@ class PaymentForm {
 This pattern ensures that button-spam and network retries all use the same idempotency key, while explicit user actions (clicking "cancel" and starting over) generate a fresh key.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example Linear API query for OKR progress](/remote-work-tools/how-to-set-up-okr-tracking-system-for-distributed-engineerin/)
 - [Three-Two Hybrid Work Model Implementation Guide](/remote-work-tools/three-two-hybrid-work-model-implementation-guide/)

@@ -247,7 +247,8 @@ When assessing remote BIM tools for your team, prioritize solutions that minimiz
 The remote architecture BIM collaboration ecosystem continues to evolve rapidly. Teams that establish solid technical foundations now will be better positioned to adopt emerging tools and workflows as the industry progresses.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 - [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)

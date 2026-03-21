@@ -217,7 +217,8 @@ By joining this team, I commit to following this charter and proposing updates w
 **Not enforcing it.** The charter means nothing if nobody references it. During disputes, point to the document. Update it when it proves wrong. Make it alive.
 
 
-## Related Reading
+
+## Related Articles
 
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)
 - [How to Create Client Communication Charter for Remote](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)

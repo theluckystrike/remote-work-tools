@@ -283,7 +283,8 @@ renderDashboard(complianceData);
 5. **Document exceptions** - Maintain records when devices cannot meet baseline requirements
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 - [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)

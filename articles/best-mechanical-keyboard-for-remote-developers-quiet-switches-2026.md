@@ -354,7 +354,8 @@ gpg --decrypt message.txt.asc > decrypted.txt
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Mechanical Keyboard for Remote Developers: A](/remote-work-tools/best-mechanical-keyboard-for-remote-developers/)
 - [Best Keyboard for Quiet Typing During Video Calls in Open](/remote-work-tools/best-keyboard-for-quiet-typing-during-video-calls-open-offic/)

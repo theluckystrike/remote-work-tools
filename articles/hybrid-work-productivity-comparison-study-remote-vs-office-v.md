@@ -191,7 +191,8 @@ git log --since='30 days ago' --format='%ad' --date=format:'%A' | sort | uniq -c
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
 - [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)

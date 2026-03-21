@@ -243,7 +243,8 @@ Establish metrics that matter. Client feedback collection tools should ultimatel
 A healthy feedback system produces a response rate above 60%, an average rating trend that improves quarter over quarter, and a feedback-to-action time under 48 hours for critical issues. If your response rate is below 30%, examine the length and timing of your surveys—shorter surveys sent immediately after deliverables consistently outperform longer surveys sent at arbitrary intervals.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tool for Async Performance Feedback Collection for](/remote-work-tools/best-tool-for-async-performance-feedback-collection-for-dist/)
 - [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)

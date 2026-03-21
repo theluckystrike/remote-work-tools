@@ -196,7 +196,8 @@ Track policy success through metrics that matter:
 - Manager feedback on policy clarity and ease of implementation
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Work Caregiver Leave Policy Template for Distributed](/remote-work-tools/remote-work-caregiver-leave-policy-template-for-distributed-/)
 - [Remote Work Employer Childcare Stipend Policy Template for](/remote-work-tools/remote-work-employer-childcare-stipend-policy-template-for-d/)

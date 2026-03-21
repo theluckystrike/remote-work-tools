@@ -310,7 +310,8 @@ One month before filing your return:
 6. **Review last year's filing** to ensure consistent claims and add explanatory notes for any changes
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 - [Remote Work Tax Deductions: Home Office Guide 2026 (US.](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)

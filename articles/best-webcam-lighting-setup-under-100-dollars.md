@@ -321,7 +321,8 @@ Budget LED panels last 50,000-100,000 hours (5-10 years of heavy use):
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/best-webcam-lighting-setup-under-100/)
 - [Best Webcam for Remote Work Under 100 Dollars 2026](/remote-work-tools/best-webcam-for-remote-work-under-100-dollars-2026/)

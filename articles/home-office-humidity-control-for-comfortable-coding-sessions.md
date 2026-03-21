@@ -242,7 +242,8 @@ Sustained humidity above 70% can corrode PCB traces and switch contacts over mon
 Room-level humidity can be within range while the micro-environment near your monitors remains drier. Monitors and computers generate heat that creates a warmer, drier zone immediately around your seated position. Try placing a small USB humidifier directly on your desk, targeted toward your face, in addition to any room-level humidification. An eye drops habit during long sessions also helps independently of ambient humidity.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Desk Lamp for Home Office Coding: A Developer's Guide](/remote-work-tools/best-desk-lamp-for-home-office-coding/)
 - [Best Standing Desk for Home Office Coding](/remote-work-tools/best-standing-desk-for-home-office-coding/)

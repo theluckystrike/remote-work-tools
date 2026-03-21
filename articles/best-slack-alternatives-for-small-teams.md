@@ -179,9 +179,14 @@ Test actual usage patterns before committing. The best tool is one your team act
 ---
 
 
-## Related Reading
 
-- More guides coming soon.
+## Related Articles
+
+- [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)
+- [Trello Alternatives for Agile Teams](/remote-work-tools/trello-alternatives-for-agile-teams/)
+- [How to Secure Slack and Teams Channels for Remote Team](/remote-work-tools/how-to-secure-slack-and-teams-channels-for-remote-team-confi/)
+- [WorldTimeBuddy Alternatives for Remote Scheduling](/remote-work-tools/worldtimebuddy-alternatives-for-remote-scheduling/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

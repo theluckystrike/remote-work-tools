@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Automate Meeting Notes with AI Tools 2026"
-description: "Set up automated AI meeting notes with Otter.ai, Fireflies, Grain, and Fathom. Covers integrations, summary prompts, and async distribution workflows for remote teams."
+description: "Set up automated AI meeting notes with Otter.ai, Fireflies, Grain, and Fathom. Covers integrations, summary prompts, and async distribution workflows for"
 date: 2026-03-21
 author: theluckystrike
 permalink: /automate-meeting-notes-ai-tools-2026/
@@ -262,7 +262,8 @@ def create_meeting_page(title, summary, action_items, date):
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)
 - [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)

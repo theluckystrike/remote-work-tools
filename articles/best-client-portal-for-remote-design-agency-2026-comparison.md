@@ -205,7 +205,8 @@ Most agencies benefit from combining tools — using a dedicated client portal f
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
 - [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)

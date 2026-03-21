@@ -270,7 +270,8 @@ For teams asking "which tool should we pick," the answer depends on your startin
 The best approach: use both. The marginal cost of adding FigJam to a Figma subscription is minimal, and Miro's cost is justified by the complex sessions only Miro handles well.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)
 - [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)

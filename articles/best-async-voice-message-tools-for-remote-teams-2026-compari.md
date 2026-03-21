@@ -395,7 +395,8 @@ If metrics suggest low adoption:
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
 - [Best Practice for Remote Team Direct Message vs Channel](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)

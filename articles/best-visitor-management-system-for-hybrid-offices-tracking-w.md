@@ -211,7 +211,8 @@ Use this checklist when deploying a visitor management system:
 - [ ] Establish visitor data retention and purge policies
 
 
-## Related Reading
+
+## Related Articles
 
 - [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
 - [Example: Timezone-aware scheduling](/remote-work-tools/best-applicant-tracking-system-for-remote-companies-hiring-a/)

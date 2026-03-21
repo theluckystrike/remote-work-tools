@@ -221,12 +221,14 @@ Miro has a larger template library and is better suited for structured facilitat
 **What's the most cost-effective option for a 5-person UX team?**
 Penpot's free cloud tier handles teams up to about 10 people effectively. Lunacy is free with no team size limit but lacks real-time collaboration. Miro's free tier limits boards to 3, which constrains active projects.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
 - [Best Design Collaboration Tools for Remote Teams](/remote-work-tools/best-design-collaboration-tools-for-remote-teams/)
-- [Best Remote Pair Design Tool for UX Researchers.](/remote-work-tools/best-remote-pair-design-tool-for-ux-researchers-collaboratin/)
-- [Figma vs Sketch for Remote Design Collaboration: A Developer's Guide](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+- [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
+- [Best Cloud Access Security Broker for Remote Teams Using](/remote-work-tools/best-cloud-access-security-broker-for-remote-teams-using-multiple-saas/)
+- [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)
+- [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

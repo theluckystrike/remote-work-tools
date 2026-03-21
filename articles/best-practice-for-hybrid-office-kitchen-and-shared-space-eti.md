@@ -231,12 +231,14 @@ When rolling out new shared space guidelines, follow this sequence:
 6. Announce changes: Explain the rationale, not just the rules
 7. Review and iterate: Check effectiveness after 30 days and adjust
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Hybrid Office Mail and Package Handling for Part Time Occupants](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
-- [Best Practice for Hybrid Team Knowledge Transfer Between.](/remote-work-tools/best-practice-for-hybrid-team-knowledge-transfer-between-off/)
-- [Best Practice for Hybrid Team Social Events Including.](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+## Related Articles
+
+- [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)
+- [Hybrid Office Space Planning Tool for Facilities Managers](/remote-work-tools/hybrid-office-space-planning-tool-for-facilities-managers-op/)
+- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [Best Practice for Hybrid Office Mail and Package Handling](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
+- [Useful Thai search terms](/remote-work-tools/how-to-find-apartments-with-dedicated-office-space-in-chiang-mai-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -236,10 +236,11 @@ Day 5:
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
-- [How to Onboard Remote Contractors in 48 Hours: Complete Guide](/remote-work-tools/how-to-onboard-remote-contractors-in-48-hours-guide/)
+- [How to Onboard Remote Contractors in 48 Hours](/remote-work-tools/how-to-onboard-remote-contractors-in-48-hours-guide/)
 - [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)
 - [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)

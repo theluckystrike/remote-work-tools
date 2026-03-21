@@ -226,7 +226,8 @@ const dashboard = meetings
 This approach lets you see all meetings with one-click joining without navigating through calendar apps.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
 - [Productivity Tips for Digital Nomads on the Road](/remote-work-tools/productivity-tips-for-digital-nomads-on-the-road/)

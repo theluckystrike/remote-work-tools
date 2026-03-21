@@ -244,7 +244,8 @@ Before launching this training program:
 5. **Measure impact** - Track team engagement scores and manager confidence ratings
 
 
-## Related Reading
+
+## Related Articles
 
 - [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
 - [Example: Finding interview slots across time zones](/remote-work-tools/remote-team-hiring-manager-training-program-for-first-time-m/)

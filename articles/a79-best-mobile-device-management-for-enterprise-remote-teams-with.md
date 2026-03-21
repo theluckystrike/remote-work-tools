@@ -247,7 +247,8 @@ For most globally distributed teams, there are 0-2 overlap hours. Use async-firs
 {% endraw %}
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: Minimum device requirements for team members](/remote-work-tools/how-to-implement-device-management-policy-for-fully-remote-s/)
 - [How to Create Bring Your Own Device Policy for Remote Teams](/remote-work-tools/how-to-create-bring-your-own-device-policy-for-remote-teams-/)

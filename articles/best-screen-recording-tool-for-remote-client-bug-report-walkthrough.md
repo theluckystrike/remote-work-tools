@@ -366,12 +366,14 @@ Causes and solutions:
 
 Always do a test recording before sending to clients. A failed test is better than a failed bug report.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Record Client Demo Videos Asynchronously for Remote Agency](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
-- [Best Tool for Remote Teams Recording and Transcribing.](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
-- [How to Create Client Communication Charter for Remote Agency Team](/remote-work-tools/how-to-create-client-communication-charter-for-remote-agency/)
+## Related Articles
+
+- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
+- [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
+- [How to Create Automated Client Progress Report for Remote](/remote-work-tools/how-to-create-automated-client-progress-report-for-remote-pr/)
+- [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)
+- [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

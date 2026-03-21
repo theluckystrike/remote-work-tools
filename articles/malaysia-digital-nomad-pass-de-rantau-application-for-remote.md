@@ -324,7 +324,8 @@ Coworking spaces in major Malaysian cities typically cost between USD 200 and US
 The DE Rantau pass allows you to open a local bank account once you arrive, which simplifies managing living expenses. However, you should maintain your overseas bank accounts for receiving remote work income.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)
 - [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)

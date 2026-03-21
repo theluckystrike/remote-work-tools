@@ -224,7 +224,8 @@ For developers in suitable environments, open back headphones improve daily comf
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Simple volume check script for testing headphones](/remote-work-tools/best-kid-safe-headphones-for-children-of-remote-workers-need/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)

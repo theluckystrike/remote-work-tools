@@ -233,7 +233,8 @@ Meeting etiquette extends beyond the call itself:
 - Clean up shared resources—close shared documents, end shared cursor sessions
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
 - [How to Create Remote Team Inclusive Meeting Practices Guide](/remote-work-tools/how-to-create-remote-team-inclusive-meeting-practices-guide-/)

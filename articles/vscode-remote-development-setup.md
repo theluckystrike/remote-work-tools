@@ -317,7 +317,8 @@ Launch configurations work the same whether local or remote. The debug adapter r
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
 - [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)

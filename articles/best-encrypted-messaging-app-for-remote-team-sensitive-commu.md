@@ -319,7 +319,8 @@ Define how sensitive incidents flow through your messaging platform:
 This pattern keeps sensitive conversation private while keeping team coordination visible.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Register OAuth app on GitHub](/remote-work-tools/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
 - [Best Async Video Messaging Tools for Distributed Teams 2026](/remote-work-tools/best-async-video-messaging-tools-for-distributed-teams-2026/)

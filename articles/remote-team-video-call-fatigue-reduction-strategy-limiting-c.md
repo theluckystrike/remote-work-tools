@@ -227,7 +227,8 @@ The strongest remote teams treat camera usage as a tool, not a test of commitmen
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [.github/workflows/conflict-escalation.yaml](/remote-work-tools/remote-team-conflict-resolution-over-chat-when-video-call-is/)
 - [Remote Team Email vs Slack vs Slack vs Video Call Decision](/remote-work-tools/remote-team-email-vs-slack-vs-video-call-decision-framework-/)

@@ -244,7 +244,8 @@ Mental health support for returning to office shouldn't be a temporary initiativ
 The goal is creating an environment where returning to office is a choice that employees make with genuine buy-in, not a mandate that feels punitive. When organizations invest in genuine support structures, the transition becomes manageable and even beneficial for team cohesion.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Employee Mental Health Support Guide 2026](/remote-work-tools/remote-employee-mental-health-support-guide-2026/)
 - [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)

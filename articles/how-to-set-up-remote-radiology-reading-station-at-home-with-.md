@@ -224,7 +224,8 @@ Challenge: Family member internet usage impacting performance
 *Solution*: Create separate network segments. Run a dedicated ethernet cable to your office if possible.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Set Up HIPAA Compliant Home Office for Remote](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)

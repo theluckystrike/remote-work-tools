@@ -495,7 +495,8 @@ Tools are 20% of solution. The other 80% is **management culture**:
 Before buying tools, ask: Does leadership respect work-life boundaries? If no, tools won't matter.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 - [Back Pain Prevention for Remote Workers 2026](/remote-work-tools/back-pain-prevention-for-remote-workers-2026/)

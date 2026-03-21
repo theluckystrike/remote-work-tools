@@ -217,7 +217,8 @@ For developers building hybrid workplace tools, understanding badge access APIs 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Hybrid Office Badge Access Tracking Tool for Understanding](/remote-work-tools/hybrid-office-badge-access-tracking-tool-for-understanding-a/)
 - [Desk Reservation App for Hybrid Workplace](/remote-work-tools/desk-reservation-app-for-hybrid-workplace/)

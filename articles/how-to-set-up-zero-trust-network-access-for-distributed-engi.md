@@ -222,7 +222,8 @@ Transitioning from VPN to zero trust works best incrementally:
 Start with tools your team uses most frequently, then expand to cover remaining resources.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
 - [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)

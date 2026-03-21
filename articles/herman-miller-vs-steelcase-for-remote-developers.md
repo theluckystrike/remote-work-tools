@@ -307,7 +307,8 @@ Consider the full lifecycle:
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Herman Miller vs Steelcase for Home Office](/remote-work-tools/herman-miller-vs-steelcase-for-home-office/)
 - [Async Interview Process for Hiring Remote Developers No Live](/remote-work-tools/async-interview-process-for-hiring-remote-developers-no-live/)

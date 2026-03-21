@@ -187,7 +187,8 @@ Whatever approach you choose, test it during your highest-noise times before imp
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)
 - [How to Childproof Home Office When Toddler Interrupts](/remote-work-tools/how-to-childproof-home-office-when-toddler-interrupts-meetin/)

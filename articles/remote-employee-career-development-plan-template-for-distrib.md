@@ -180,7 +180,8 @@ Several patterns undermine remote career development:
 - No visibility to leadership: Ensure your company's leadership sees career development happening across distributed teams. otherwise, promotions may default to more visible office-based employees.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
 - [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)

@@ -218,7 +218,8 @@ A satellite office strategy for hybrid companies requires upfront investment in 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Hiring: Diversity Sourcing Strategy for](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies-building-inclusive-teams-2026/)
 - [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)

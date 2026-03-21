@@ -373,7 +373,8 @@ within 2 weeks of proper monitor positioning.
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Set Up Dual PC KVM Switch for Work and Gaming](/remote-work-tools/how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/)
 - [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)

@@ -207,7 +207,8 @@ After implementing these changes, track specific metrics to confirm improvement.
 An information architecture overhaul is not an one-time project but an ongoing practice. As your team continues scaling, revisit these structures quarterly and adjust based on usage patterns and emerging needs.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
 - [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)

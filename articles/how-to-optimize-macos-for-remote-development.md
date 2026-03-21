@@ -230,7 +230,8 @@ Optimizing macOS for remote development requires balancing performance, security
 The best configuration evolves with your needs. Revisit these settings quarterly and adjust based on changing project requirements or new tools in your workflow.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
 - [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)

@@ -267,7 +267,8 @@ Successful certificate renewal in distributed teams depends on four practices. F
 When your team spans multiple time zones, async-friendly processes prevent single points of failure. Every piece of knowledge should exist in documentation, not just in someone's head.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Runbook Template for Database Failover](/remote-work-tools/remote-team-runbook-template-for-database-failover-procedure/)
 - [Remote Team Runbook Template for Deploying Hotfix to](/remote-work-tools/remote-team-runbook-template-for-deploying-hotfix-to-product/)

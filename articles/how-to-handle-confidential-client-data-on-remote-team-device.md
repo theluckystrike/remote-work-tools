@@ -275,7 +275,8 @@ Technical controls work best combined with clear team policies:
 - Regular audits: Periodically verify that security controls remain active and policies are followed.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 - [How to Handle Client Revision Rounds in Remote Design Agency](/remote-work-tools/how-to-handle-client-revision-rounds-in-remote-design-agency/)

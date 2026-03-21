@@ -267,12 +267,14 @@ for service in services/*/; do
 done
 ```
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Build Cross-Team Relationships in Large Remote.](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
-- [Best Whiteboarding Tool for Remote Architects Doing System Design Sessions 2026](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
-- [How to Create Remote Team Architecture Decision Record.](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)
+## Related Articles
+
+- [Best Whiteboarding Tool for Remote Architects Doing System](/remote-work-tools/best-whiteboarding-tool-for-remote-architects-doing-system-d/)
+- [Best Headset for Remote Work Video Calls: A Technical Guide](/remote-work-tools/best-headset-for-remote-work-video-calls/)
+- [Best SIP Phone Software for Remote Workers: A Technical](/remote-work-tools/best-sip-phone-software-for-remote-workers/)
+- [Best Webcam for Home Office Remote Work: A Technical Guide](/remote-work-tools/best-webcam-for-home-office-remote-work/)
+- [Best Webcam for Remote Meetings 2026: A Technical Guide](/remote-work-tools/best-webcam-for-remote-meetings-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

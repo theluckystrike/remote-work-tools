@@ -263,7 +263,8 @@ When clients ask "Why $X/hour?", have a 2-minute explanation ready:
 This framing shows you are confident in your value, not apologizing for cost.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)

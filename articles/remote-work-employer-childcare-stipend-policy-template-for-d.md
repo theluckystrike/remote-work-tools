@@ -241,7 +241,8 @@ Track these metrics to evaluate your program:
 - Cost per employee: Calculate actual spend versus budgeted amounts
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)
 - [Example: Benefit request data structure](/remote-work-tools/return-to-office-childcare-benefit-policy-template-for-hybri/)

@@ -314,7 +314,8 @@ For updates, increment the version number in manifest.json and upload a new zip.
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
 - [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)

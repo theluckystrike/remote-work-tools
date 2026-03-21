@@ -184,12 +184,14 @@ Recognition frequency matters more than grandeur. Small, regular acknowledgments
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Remote Employee Belonging and Inclusion Program Ideas.](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
-- [Remote Employee Probation Period Management Tools and.](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
-- [Best Remote Team Wellness Program Ideas for Distributed.](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+## Related Articles
+
+- [Remote Employee Belonging and Inclusion Program Ideas for](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
+- [Simple Slack webhook for probation check-ins](/remote-work-tools/remote-employee-probation-period-management-tools-and-best-practices/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)
+- [Slack Channel Strategy for a Remote Company with 75](/remote-work-tools/slack-channel-strategy-for-a-remote-company-with-75-employee/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

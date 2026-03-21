@@ -182,7 +182,8 @@ Focus on consistency over perfection. Review progress regularly, adjust key resu
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Manager Delegation Framework for Leading Teams Across](/remote-work-tools/remote-manager-delegation-framework-for-leading-teams-across/)
 - [Best Noise Gate Microphone Setting for Remote Parents With](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)

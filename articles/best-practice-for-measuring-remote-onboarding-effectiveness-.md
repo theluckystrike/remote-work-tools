@@ -208,7 +208,8 @@ To get started measuring remote onboarding effectiveness:
 Time to first commit gives you a clear, objective signal about whether your remote onboarding process works. Combined with complementary metrics and a commitment to continuous improvement, TTFC helps you build an onboarding experience that helps developers contribute faster and with more confidence.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
 - [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)

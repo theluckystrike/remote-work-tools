@@ -425,7 +425,8 @@ Before deploying any tool:
 Most companies see ROI within 6 months through reduced turnover and improved alignment.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Usage: python pip_tracker.py employee-pip.json](/remote-work-tools/how-to-create-remote-employee-performance-improvement-plan-t/)
 - [Do Async Performance Reviews for Remote Engineering Teams](/remote-work-tools/how-to-do-async-performance-reviews-for-remote-engineering-t/)

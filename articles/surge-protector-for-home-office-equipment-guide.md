@@ -177,7 +177,8 @@ After major event: Always replace point-of-use units
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Power Strip With Surge Protector for Home Office Desk](/remote-work-tools/best-power-strip-with-surge-protector-for-home-office-desk-2/)
 - [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)

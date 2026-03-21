@@ -329,7 +329,8 @@ If your team is currently checking messages continuously, introduce batching gra
 This gradual rollout prevents the jarring transition that can cause resistance.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
 - [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)

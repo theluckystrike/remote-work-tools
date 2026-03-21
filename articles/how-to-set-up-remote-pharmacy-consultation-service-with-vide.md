@@ -302,7 +302,8 @@ If repeat consultation rate is below 20%, investigate whether patient experience
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Set up calendar service](/remote-work-tools/how-to-handle-elder-care-responsibilities-while-working-remotely/)
 - [Example: EOR Integration Configuration](/remote-work-tools/best-employer-of-record-service-for-hiring-remote-developers/)

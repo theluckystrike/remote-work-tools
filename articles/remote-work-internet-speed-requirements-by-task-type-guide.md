@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Remote Work Internet Speed Requirements by Task Type: Complete Guide"
+title: "Remote Work Internet Speed Requirements by Task Type"
 description: "Bandwidth requirements for remote work: video calls, screen sharing, cloud IDE, Docker pulls, git operations. Real Mbps numbers and latency specs"
 date: 2026-03-20
 last_modified_at: 2026-03-20
@@ -325,13 +325,14 @@ If your ISP connection is limited (< 25 Mbps), optimize:
 - Avoid large file operations in cloud IDE; use local git instead
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
 - [How to Test Internet Speed and Reliability Before Moving to](/remote-work-tools/how-to-test-internet-speed-reliability-before-moving-to-bali/)
-- [Spain Digital Nomad Visa Requirements 2026: Complete](/remote-work-tools/spain-digital-nomad-visa-requirements-2026/)
 - [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
 - [Remote Work Internet Backup Solutions Comparison](/remote-work-tools/remote-work-internet-backup-solutions-comparison/)
+- [Best Task Lighting for Coding at Night Without Eye Strain](/remote-work-tools/best-task-lighting-for-coding-at-night-without-eye-strain/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

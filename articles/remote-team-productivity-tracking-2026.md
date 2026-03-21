@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Productivity Tracking Tools for Remote Teams 2026"
-description: "Compare productivity tracking tools for remote teams in 2026: Time Doctor, Hubstaff, RescueTime, and activity-based metrics. Avoid surveillance theater; track outcomes."
+description: "Compare productivity tracking tools for remote teams in 2026: Time Doctor, Hubstaff, RescueTime, and activity-based metrics."
 date: 2026-03-21
 last_modified_at: 2026-03-21
 author: theluckystrike
@@ -248,7 +248,8 @@ gcalcli --calendar "Work" agenda \
 **Alert threshold:** If anyone on your team is in meetings more than 15 hours per week, that's a problem worth addressing before tracking anything else.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)
 - [How to Measure Remote Team Productivity Without](/remote-work-tools/how-to-measure-remote-team-productivity-without-surveillance/)

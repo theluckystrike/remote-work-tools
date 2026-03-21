@@ -468,7 +468,8 @@ For professional quality, use multiple techniques:
 Combined approach achieves broadcast-quality results.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Noise Gate Microphone Setting for Remote Parents With](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
 - [Redshift - Linux/Unix blue light filter](/remote-work-tools/best-home-office-setup-for-software-developers/)

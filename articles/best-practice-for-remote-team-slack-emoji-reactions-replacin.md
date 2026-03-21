@@ -237,11 +237,13 @@ Within weeks, your team will develop an intuitive understanding of what reaction
 The shift from text replies to emoji reactions represents a fundamental improvement in how remote teams communicate. By treating each message as a potential action item with a visible state, teams gain clarity without sacrificing the asynchronous nature that makes remote work effective.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
 - [How to Create Team Norms Around Emoji Reactions in Slack](/remote-work-tools/how-to-create-team-norms-around-emoji-reactions-in-slack/)
-- [Best Practice for Remote Team Emoji and GIF Culture: Keeping Channels Professional](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
-- [How to Run Remote Team Daily Standup in Slack Without.](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
+- [Best Practice for Remote Team Emoji and Gif Culture Keeping](/remote-work-tools/best-practice-for-remote-team-emoji-and-gif-culture-keeping-/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
+- [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

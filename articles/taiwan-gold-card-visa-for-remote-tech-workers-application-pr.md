@@ -305,7 +305,8 @@ Maintain organized documentation throughout your Gold Card tenure:
 This documentation protects you if immigration authorities audit your Gold Card status. Most remote workers never need these records, but organized filing prevents panic if questions arise.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Hungary Digital Nomad Visa White Card Application for](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 - [Indonesia Second Home Visa for Remote Workers](/remote-work-tools/indonesia-second-home-visa-for-remote-workers-application-an/)

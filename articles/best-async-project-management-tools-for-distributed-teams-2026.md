@@ -445,7 +445,8 @@ Company case study (from Height data, 2026):
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)
 - [Best Time Zone Management Tools for Distributed Engineering](/remote-work-tools/best-time-zone-management-tools-for-distributed-engineering-teams-2026/)

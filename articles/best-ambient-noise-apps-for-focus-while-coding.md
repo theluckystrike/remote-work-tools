@@ -313,7 +313,8 @@ sleep 2
 The advantage: complete control, no subscriptions, works offline, no ads.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
 - [Best Music for Coding and Focus: A Developer's Guide](/remote-work-tools/best-music-for-coding-and-focus/)

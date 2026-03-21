@@ -211,7 +211,8 @@ For remote developer book clubs, these tools integrate well with existing workfl
 - **Excalidraw** — Visual diagrams for system design discussions
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Podcast Club Format for Professional Development](/remote-work-tools/remote-team-podcast-club-format-for-professional-development/)
 - [Weekly Wins Channel Setup and Facilitation for Remote Team](/remote-work-tools/weekly-wins-channel-setup-and-facilitation-for-remote-team-m/)

@@ -245,7 +245,8 @@ def store_signed_contract(contract_id, pdf_content, client_name):
 Configure lifecycle policies to move older contracts to cheaper storage tiers, but retain them for the duration required by your jurisdiction's statute of limitations.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Agency Scope Change Request Workflow for Client](/remote-work-tools/remote-agency-scope-change-request-workflow-for-client-projects/)
 - [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)

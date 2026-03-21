@@ -223,7 +223,8 @@ The right tool is the one your team will actually use consistently. A simple sys
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
 - [macOS](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)

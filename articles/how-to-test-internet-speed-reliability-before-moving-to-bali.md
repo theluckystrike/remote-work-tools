@@ -181,12 +181,13 @@ Document your findings. Share test results with your team to validate your remot
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Test WiFi speed using speedtest-cli](/remote-work-tools/best-cafes-with-fast-wifi-in-porto-portugal-for-remote-devel/)
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)
 - [How to Optimize Internet Speed for Remote Work](/remote-work-tools/how-to-optimize-internet-speed-for-remote-work/)
-- [Remote Work Internet Speed Requirements by Task Type: Complete Guide](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
+- [Remote Work Internet Speed Requirements by Task Type](/remote-work-tools/remote-work-internet-speed-requirements-by-task-type-guide/)
 - [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

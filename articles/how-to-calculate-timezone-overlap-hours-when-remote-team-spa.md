@@ -177,7 +177,8 @@ When calculating timezone overlaps, watch for these frequent mistakes:
 - Forgetting Weekends: Some team members might work weekends occasionally. Factor in weekend preferences when scheduling recurring meetings.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Calculate Productive Overlap Hours for Remote.](/remote-work-tools/how-to-calculate-productive-overlap-hours-for-remote-pair-pr/)
 - [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)

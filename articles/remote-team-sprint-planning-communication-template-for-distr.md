@@ -220,7 +220,8 @@ The key to success with these templates is consistency. Use the same channel nam
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Story Point Velocity Trend Analysis Tool for](/remote-work-tools/remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/)
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)

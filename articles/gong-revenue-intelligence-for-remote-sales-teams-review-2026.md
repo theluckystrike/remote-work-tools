@@ -244,7 +244,8 @@ class ConversationAnalyzer:
 This approach provides basic sentiment analysis without requiring external platform subscriptions, though production implementations benefit from domain-specific training data.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)
 - [Best Remote Sales Enablement Platform for Distributed BDRs](/remote-work-tools/best-remote-sales-enablement-platform-for-distributed-bdrs-a/)

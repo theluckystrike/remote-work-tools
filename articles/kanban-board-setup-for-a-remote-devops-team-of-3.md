@@ -214,7 +214,8 @@ The principles remain the same: visualize work, limit WIP, manage flow. The spec
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
 - [Incident Management Setup for a Remote DevOps Team of 5](/remote-work-tools/incident-management-setup-for-a-remote-devops-team-of-5/)

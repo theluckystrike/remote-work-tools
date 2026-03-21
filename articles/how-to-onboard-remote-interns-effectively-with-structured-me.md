@@ -305,11 +305,12 @@ metrics = {
 Use this data to iterate on your program annually. Successful internship programs improve every cycle because you address feedback systematically.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
 - [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
-- [How to Onboard Remote Contractors in 48 Hours: Complete Guide](/remote-work-tools/how-to-onboard-remote-contractors-in-48-hours-guide/)
+- [How to Onboard Remote Contractors in 48 Hours](/remote-work-tools/how-to-onboard-remote-contractors-in-48-hours-guide/)
 - [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
 - [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
 

@@ -245,7 +245,8 @@ docker compose up -d
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Virtual Escape Room Platforms for Remote Engineering Team](/remote-work-tools/virtual-escape-room-platforms-for-remote-engineering-team-ev/)
 - [Best Virtual Coffee Chat Tool for Remote Teams Building](/remote-work-tools/best-virtual-coffee-chat-tool-for-remote-teams-building-soci/)

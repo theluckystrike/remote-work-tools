@@ -276,7 +276,8 @@ No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API s
 Kubernetes applies a union of all matching policies. If any policy permits the traffic, it is allowed. There is no deny priority — only explicit allows. This means your deny-all policy blocks traffic by default, and any subsequent policy that permits specific traffic takes effect additively. You cannot write a policy that overrides a more permissive one.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)
 - [How to Secure Remote Team CI/CD Pipeline From Supply Chain](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)

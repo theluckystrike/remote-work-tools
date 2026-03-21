@@ -193,7 +193,8 @@ Regular reflection transforms conflict from a source of friction into an opportu
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Conflict Resolution Framework for Managers](/remote-work-tools/remote-team-conflict-resolution-framework-for-managers-handl/)
 - [Remote Team Conflict Resolution Framework Guide](/remote-work-tools/remote-team-conflict-resolution-framework-guide/)

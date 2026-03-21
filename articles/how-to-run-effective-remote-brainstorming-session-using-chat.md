@@ -184,7 +184,8 @@ Reserve video for when you need real-time prototyping, heated discussions requir
 Chat-based brainstorming transforms how remote teams generate ideas. By embracing text-first collaboration, you build a more inclusive, documented, and ultimately more creative process. The best ideas don't always come from the loudest voices—they come from those given the time and space to think deeply.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
 - [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)

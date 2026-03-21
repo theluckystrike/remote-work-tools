@@ -181,7 +181,8 @@ Avoid these mistakes that undermine calibration efforts:
 5. Static rubrics: Update competency matrices as role requirements evolve
 
 
-## Related Reading
+
+## Related Articles
 
 - [Find all GitHub repositories where user is admin](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
 - [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)

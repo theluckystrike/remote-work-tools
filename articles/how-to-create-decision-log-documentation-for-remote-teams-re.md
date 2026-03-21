@@ -251,7 +251,8 @@ Include a search-friendly summary in each decision so GitHub's search functional
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)
 - [How to Create Remote Team Architecture Decision Record](/remote-work-tools/how-to-create-remote-team-architecture-decision-record-templ/)

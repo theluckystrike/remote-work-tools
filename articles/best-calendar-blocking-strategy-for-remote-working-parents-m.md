@@ -230,7 +230,8 @@ The goal is not perfection—it is building a sustainable system that accounts f
 This framework gives remote working parents a practical approach to calendar management that adapts to unpredictable schedules. The combination of asymmetric blocking, automation scripts, and clear team communication creates a system resilient to childcare disruptions.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
 - [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)

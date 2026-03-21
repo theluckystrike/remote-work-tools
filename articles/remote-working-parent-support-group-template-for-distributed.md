@@ -203,7 +203,8 @@ The support group should feel like a gift from the company to parents, not an ex
 Building a parent support group takes initial setup effort but compounds in value over time. Start with the Slack channels, add async check-ins, and layer on synchronous connections as participation grows. The goal isn't a perfectly structured organization—it's creating space for remote working parents to feel seen, supported, and connected across time zones.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Working Parent Daily Routine Template](/remote-work-tools/remote-working-parent-daily-routine-template-balancing-deep-work-and-kid-interruptions/)
 - [Remote Working Parent Burnout Prevention Checklist for](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)

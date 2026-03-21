@@ -227,7 +227,8 @@ Contract tests catch breaking changes before they reach production. Run these te
 Start with clear ownership, automate dependency management, and maintain transparent communication about changes that affect multiple repositories. Pick the workflow that fits your team's size and distribution, document it, and revisit it periodically as your project evolves.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Manage Cross-Functional Remote Projects](/remote-work-tools/how-to-manage-cross-functional-remote-projects/)
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)

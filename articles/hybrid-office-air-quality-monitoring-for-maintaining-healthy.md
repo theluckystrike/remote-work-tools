@@ -268,7 +268,8 @@ Adjust your per-person allowance values based on actual observations. Buildings 
 After validation, expand sensors to all significant areas. Meeting rooms typically need dedicated sensors since they experience rapid occupancy changes when filled or emptied.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Air Quality Monitoring for Hybrid Office Spaces: A](/remote-work-tools/air-quality-monitoring-for-hybrid-office-spaces/)
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)

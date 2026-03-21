@@ -290,7 +290,8 @@ Mechanical keyboards last 5-10 years with basic care:
 - Keycaps may develop shine after 5 years, but remain functional
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
 - [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)

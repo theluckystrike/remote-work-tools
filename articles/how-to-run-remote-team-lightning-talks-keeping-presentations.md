@@ -178,7 +178,8 @@ Lightning talks succeed when they become routine. Here's how to encourage partic
 Some teams maintain a "lightning talk queue" where volunteers add their names and topics ahead of time. This creates momentum and helps presenters prepare.
 
 
-## Related Reading
+
+## Related Articles
 
 - [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 - [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)

@@ -3,7 +3,7 @@ layout: default
 date: 2026-03-21
 last_modified_at: 2026-03-21
 author: "Remote Work Tools Guide"
-title: "How to Manage Remote Team Documentation Debt: Complete Guide (2026)"
+title: "How to Manage Remote Team Documentation Debt: Complete Guide"
 description: "Practical guide to identifying, measuring, and reducing documentation debt. Includes audit frameworks, templates, and tool comparisons for distributed teams."
 permalink: /remote-work-tools/manage-documentation-debt/
 categories: [guides]
@@ -656,7 +656,8 @@ Start with Step 1 (audit) and Step 2 (measurement). Understanding your starting 
 For remote teams, documentation quality directly impacts productivity, onboarding success, and team morale. Investing in documentation infrastructure pays dividends quickly.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Manage a Remote Intern Team of 4 Effectively](/remote-work-tools/how-to-manage-a-remote-intern-team-of-4-effectively/)
 - [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)

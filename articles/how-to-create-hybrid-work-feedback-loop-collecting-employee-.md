@@ -246,7 +246,8 @@ The technical system is only part of the solution. You need to create cultural n
 A feedback loop that runs continuously becomes part of how your organization operates, not a special event that people ignore.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Practice for Remote Team Documentation Feedback Loop](/remote-work-tools/best-practice-for-remote-team-documentation-feedback-loop-improving-wiki-quality-over-time/)
 - [How to Create Hybrid Work Equipment Checkout System for Shar](/remote-work-tools/how-to-create-hybrid-work-equipment-checkout-system-for-shar/)

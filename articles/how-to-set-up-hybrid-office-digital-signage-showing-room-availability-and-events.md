@@ -275,7 +275,8 @@ Fallback content: Always have a default view showing static information (buildin
 Timezone handling: Meeting rooms often display times in the local timezone, but your API server may run in UTC. Explicitly handle timezone conversion so meeting times match what users expect.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Digital Signage for Hybrid Office Communication: A](/remote-work-tools/digital-signage-for-hybrid-office-communication/)
 - [How to Set Up Conference Room Owl Camera for Hybrid](/remote-work-tools/how-to-set-up-conference-room-owl-camera-for-hybrid-meetings/)

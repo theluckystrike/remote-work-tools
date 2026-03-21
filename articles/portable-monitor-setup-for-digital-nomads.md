@@ -186,7 +186,8 @@ Portable monitors work in surprising locations with some adaptation. Hotel desks
 Airbnb accommodations vary widely in desk quality. Your portable monitor ensures you always have a functional workspace regardless of what the host provides.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Portable WiFi Hotspot for Digital Nomads: A](/remote-work-tools/best-portable-wifi-hotspot-for-digital-nomads/)
 - [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)

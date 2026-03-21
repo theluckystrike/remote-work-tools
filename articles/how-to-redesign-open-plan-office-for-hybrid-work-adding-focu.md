@@ -181,7 +181,8 @@ For teams starting their open plan to hybrid redesign:
 Focus pods represent infrastructure investment that signals your organization values deep work. When employees know they can book guaranteed quiet time at the office, the hybrid model becomes more attractive and productive.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create Hot Desking Floor Plan for Hybrid Office with](/remote-work-tools/how-to-create-hot-desking-floor-plan-for-hybrid-office-with-neighborhood-zones/)
 - [Calculate reasonable response windows based on overlap](/remote-work-tools/how-to-create-remote-team-communication-playbook-for-new-man/)

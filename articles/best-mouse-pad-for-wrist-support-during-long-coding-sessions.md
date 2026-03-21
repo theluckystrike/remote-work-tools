@@ -292,7 +292,8 @@ signal-cli -u +1234567890 listIdentities
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Seat Cushion for Long Coding Sessions Review 2026](/remote-work-tools/seat-cushion-for-long-coding-sessions-review-2026/)
 - [Best Ergonomic Mouse for Developers with Wrist Pain 2026](/remote-work-tools/best-ergonomic-mouse-for-developers-with-wrist-pain-2026/)

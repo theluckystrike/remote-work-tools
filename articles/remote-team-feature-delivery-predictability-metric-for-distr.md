@@ -219,7 +219,8 @@ The goal is not to maximize velocity but to create reliable expectations that en
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)
 - [Sprint {{ sprint_number }} Preparation](/remote-work-tools/remote-team-sprint-planning-communication-template-for-distr/)

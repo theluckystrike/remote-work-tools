@@ -616,7 +616,8 @@ This creates accountability link: standup items map to closed issues and merged 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [Async Weekly Recap Email Template for Remote Team Leads 2026](/remote-work-tools/async-weekly-recap-email-template-for-remote-team-leads-2026/)

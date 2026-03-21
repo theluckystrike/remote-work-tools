@@ -176,7 +176,8 @@ Track whether the quiet zone policy actually improves outcomes:
 Adjust the policy based on data. If morning quiet hours aren't working, try afternoon blocks instead. If certain teams need different arrangements, allow team-level customization within organizational guidelines.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
 - [How to Set Up Hybrid Office Wayfinding System for Employees](/remote-work-tools/how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/)

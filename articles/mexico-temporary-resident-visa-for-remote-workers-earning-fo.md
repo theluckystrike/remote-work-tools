@@ -296,7 +296,8 @@ Consult a tax professional specializing in US expat taxation before establishing
 Built by
 
 
-## Related Reading
+
+## Related Articles
 
 - [Mexico City Digital Nomad Guide for Remote Workers](/remote-work-tools/mexico-city-digital-nomad-guide-remote-workers/)
 - [Barbados Welcome Stamp Visa for Remote Workers](/remote-work-tools/barbados-welcome-stamp-visa-for-remote-workers-twelve-month-/)

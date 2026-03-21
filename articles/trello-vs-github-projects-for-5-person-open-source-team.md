@@ -465,7 +465,8 @@ Weekly tracking:
 Use these metrics to understand whether your tool choice is working.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Open Source Contributions for Freelancer Credibility: A](/remote-work-tools/open-source-contributions-for-freelancer-credibility/)
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)

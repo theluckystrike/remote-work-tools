@@ -188,7 +188,8 @@ The reality of parenting while working remotely means interruptions will happen.
 Start with the simplest changes: cable management, door latches, and meeting status automation. Add complexity only as needed. Your time as a developer is valuable—spend it solving engineering problems, not constantly retrieving a curious toddler from your keyboard.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Pink noise filter approximation](/remote-work-tools/best-white-noise-machine-for-home-office-blocking-toddler-no/)
 - [Best Acoustic Foam Placement for Home Office Zoom Call](/remote-work-tools/best-acoustic-foam-placement-for-home-office-zoom-call-quali/)

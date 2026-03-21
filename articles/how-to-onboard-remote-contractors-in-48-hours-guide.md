@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "How to Onboard Remote Contractors in 48 Hours: Complete Guide"
+title: "How to Onboard Remote Contractors in 48 Hours"
 description: "Fast-track contractor onboarding with checklist, tools, and templates. From offer to productive in two days."
 date: 2026-03-21
 last_modified_at: 2026-03-21
@@ -495,7 +495,8 @@ The key is assigning a responsive buddy, choosing a well-scoped first task, and 
 Document your process, measure what matters, and iterate quarterly based on contractor feedback. Over time, onboarding becomes a competitive advantage that attracts top contractor talent.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Developer environment bootstrap script](/remote-work-tools/how-to-onboard-new-remote-employees-in-first-week-step-by-st/)
 - [How to Onboard Remote Interns Effectively With Structured](/remote-work-tools/how-to-onboard-remote-interns-effectively-with-structured-me/)

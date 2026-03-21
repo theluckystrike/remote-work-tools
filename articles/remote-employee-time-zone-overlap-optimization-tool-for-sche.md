@@ -385,7 +385,8 @@ for slot in slots:
 This tool can be run weekly to identify upcoming meeting windows without manual calculation.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Employee Time Zone Overlap Optimization Tool for](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-scheduling-team-meetings/)
 - [Remote Work Time Zone Overlap Calculator Tools 2026](/remote-work-tools/remote-work-time-zone-overlap-calculator-tools-2026/)

@@ -235,7 +235,8 @@ Use this feedback to evolve your process and ensure every new hire, regardless o
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [.github/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 - [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)

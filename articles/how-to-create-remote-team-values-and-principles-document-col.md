@@ -229,7 +229,8 @@ Avoid these mistakes:
 - No accountability: Reference values in feedback and decisions
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Create Remote Team Values Documentation That Stays](/remote-work-tools/how-to-create-remote-team-values-documentation-that-stays-au/)
 - [How to Create a Remote Team Values Wall Using Miro Board](/remote-work-tools/how-to-create-remote-team-values-wall-using-miro-board/)

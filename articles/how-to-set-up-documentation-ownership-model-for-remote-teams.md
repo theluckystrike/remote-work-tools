@@ -225,7 +225,8 @@ WHERE last_reviewed < DATE_SUB(CURDATE(), INTERVAL 90 DAY);
 A well-implemented ownership model transforms documentation from a chaotic afterthought into a reliable team resource. The initial setup effort pays dividends in reduced confusion, faster onboarding, and content that actually stays current.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: Add a client to a specific project list](/remote-work-tools/how-to-set-up-clickup-client-portal-for-remote-project-visib/)
 - [Best Documentation Linting Tool for Remote Teams](/remote-work-tools/best-documentation-linting-tool-for-remote-teams-enforcing-w/)

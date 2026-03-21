@@ -303,12 +303,14 @@ Test two options with actual sprints before committing. Run one retro with your 
 ---
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)
 - [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
-- [Remote Team Scaling Retrospective Template for.](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
-- [Async Team Retrospective Using Shared Documents and.](/remote-work-tools/async-team-retrospective-using-shared-documents-and-recorded/)
+- [Remote Team Retrospective Silent Brainstorming Technique](/remote-work-tools/remote-team-retrospective-silent-brainstorming-technique-for/)
+- [Remote Team Scaling Retrospective Template for Reflecting](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
+- [Best Sprint Planning Tools for Remote Scrum Masters](/remote-work-tools/best-sprint-planning-tools-for-remote-scrum-masters/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 ```

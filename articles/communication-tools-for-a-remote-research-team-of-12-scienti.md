@@ -289,13 +289,14 @@ If your research team has shared equipment (mass spectrometers, microscopes, com
 **Data from equipment:** Establish protocols for data management. Where do raw instrument outputs get stored? Who has access? Who backs them up? These questions matter more for remote teams where you can't just walk over to the lab.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
 - [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
 - [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
 - [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -183,7 +183,8 @@ The best choice depends on where you fall on the control-versus-convenience spec
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
 - [Obsidian vs Logseq for Developer Notes](/remote-work-tools/obsidian-vs-logseq-for-developer-notes/)

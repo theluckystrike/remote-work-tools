@@ -318,7 +318,8 @@ If your hybrid office is successful and you're expanding:
 **Real estate portfolio management:** Robin's analytics support complex real estate decisions. If you're using the system to inform office expansion or consolidation decisions, Robin's reporting becomes more valuable.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Barco ClickShare API: Starting a presentation session](/remote-work-tools/best-wireless-presentation-system-for-hybrid-meeting-rooms-supporting-byod-laptops-2026/)
 - [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)

@@ -338,7 +338,8 @@ Port convention example for preventing conflicts across projects:
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
 - [How to Automate Dev Environment Setup: A Practical Guide](/remote-work-tools/how-to-automate-dev-environment-setup/)

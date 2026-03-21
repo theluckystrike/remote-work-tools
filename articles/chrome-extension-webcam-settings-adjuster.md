@@ -198,7 +198,8 @@ Most extensions apply settings per-tab. If your settings reset when opening a ne
 Ensure no other application is currently using your camera. Close other video apps, browser tabs with camera access, and system utilities that might claim the device.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)
 - [Chrome Extension Currency Converter for Shopping: A](/remote-work-tools/chrome-extension-currency-converter-shopping/)

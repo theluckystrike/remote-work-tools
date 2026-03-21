@@ -313,7 +313,8 @@ The goal of team events is connection and morale. Escape rooms are one tool that
 {% endraw %}
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Virtual Escape Room Platform for Remote Team Building](/remote-work-tools/best-virtual-escape-room-platform-for-remote-team-building-e/)
 - [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)

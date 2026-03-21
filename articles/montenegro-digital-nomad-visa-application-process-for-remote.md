@@ -327,7 +327,8 @@ Podgorica neighborhoods for remote workers:
 Built by
 
 
-## Related Reading
+
+## Related Articles
 
 - [Document checklist with recommended file names](/remote-work-tools/colombia-digital-nomad-visa-application-process-for-software/)
 - [Czech Republic Digital Nomad Visa (Zivno) Application Guide](/remote-work-tools/czech-republic-digital-nomad-visa-zivno-application-for-remote-freelancers-guide-2026/)

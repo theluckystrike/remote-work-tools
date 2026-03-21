@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Note-Taking Apps for Remote Workers 2026"
-description: "Compare the best note-taking apps for remote workers in 2026: Obsidian, Notion, Logseq, Apple Notes, and Bear. Features, sync, and use cases for distributed teams."
+description: "Compare the best note-taking apps for remote workers in 2026: Obsidian, Notion, Logseq, Apple Notes, and Bear."
 date: 2026-03-21
 author: theluckystrike
 permalink: /best-note-taking-apps-remote-workers-2026/
@@ -183,7 +183,8 @@ Brief description of why this meeting happened.
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Focus Apps for Remote Workers with ADHD](/remote-work-tools/focus-apps-for-remote-workers-with-adhd/)
 - [Best Portable White Noise Speaker for Remote Parents Taking](/remote-work-tools/best-portable-white-noise-speaker-for-remote-parents-taking-calls-in-shared-spaces/)

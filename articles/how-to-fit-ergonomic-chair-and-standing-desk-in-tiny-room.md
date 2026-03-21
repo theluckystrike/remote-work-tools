@@ -330,7 +330,8 @@ If you're starting with zero ergonomic setup, upgrade strategically:
 Rather than buying everything at once, upgrade incrementally. This spreads cost, lets you test configurations before investing big, and prevents buyer's remorse.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Second Hand Ergonomic Chair Brands to Buy Used 2026](/remote-work-tools/best-second-hand-ergonomic-chair-brands-to-buy-used-2026/)
 - [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)

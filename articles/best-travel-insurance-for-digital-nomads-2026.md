@@ -225,7 +225,8 @@ Experienced nomads often layer multiple policies for coverage:
 This layered approach maximizes coverage while managing costs, ensuring you're protected regardless of where work takes you.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
 - [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)

@@ -180,7 +180,8 @@ This prevents demos from floating in limbo while clients assume you'll wait inde
 **Feedback gets lost in email threads.** Use a dedicated feedback tool or at minimum, a shared document where all video feedback lives in one place.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Give Constructive Feedback Asynchronously Without](/remote-work-tools/how-to-give-constructive-feedback-asynchronously-without-mis/)
 - [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)

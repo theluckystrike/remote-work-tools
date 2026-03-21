@@ -211,7 +211,8 @@ echo "Created proposal for ${CLIENT_NAME}"
 This saves time on formatting so you can focus on customizing the content.
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Write Async Project Proposals That Get Approved](/remote-work-tools/how-to-write-async-project-proposals-that-get-approved-remotely/)
 - [Remote Agency Client Data Security Compliance Checklist for](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)

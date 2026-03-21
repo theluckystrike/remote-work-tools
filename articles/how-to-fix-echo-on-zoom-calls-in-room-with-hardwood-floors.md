@@ -185,7 +185,8 @@ Room modes cause certain frequencies to resonate, exacerbating echo in specific 
 - Typical problem frequencies in small rooms fall between 80-300 Hz
 
 
-## Related Reading
+
+## Related Articles
 
 - [Google Meet Echo When Using External Speakers Fix (2026)](/remote-work-tools/google-meet-echo-when-using-external-speakers-fix-2026/)
 - [Zoom Phone Call Quality Choppy on Home WiFi Fix (2026)](/remote-work-tools/zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/)

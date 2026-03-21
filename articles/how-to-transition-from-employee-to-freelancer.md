@@ -356,7 +356,8 @@ Start by building financial runway, testing the freelance lifestyle with side pr
 The technical skills that made you employable transfer directly to freelance work. What you need to add are business fundamentals: client communication, financial management, and self-discipline. These are learnable.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)
 - [How to Protect Intellectual Property as a Freelancer](/remote-work-tools/how-to-protect-intellectual-property-as-freelancer/)

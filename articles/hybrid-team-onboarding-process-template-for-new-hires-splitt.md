@@ -265,7 +265,8 @@ The key principle remains constant: new hires need equal opportunity to succeed 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Hybrid Work Onboarding Process for New Hires](/remote-work-tools/hybrid-work-onboarding-process-for-new-hires/)
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)

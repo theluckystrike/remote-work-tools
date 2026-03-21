@@ -172,7 +172,8 @@ Use dedicated channels for different incident stages. A common pattern:
 Direct message your escalation contact first, then post to the appropriate channel. This prevents channel noise while ensuring the right person sees the message immediately.
 
 
-## Related Reading
+
+## Related Articles
 
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)
 - [Auto-assign severity based on rules](/remote-work-tools/remote-team-sop-template-for-customer-escalation-process-acr/)

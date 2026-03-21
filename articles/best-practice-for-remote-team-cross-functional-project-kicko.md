@@ -434,12 +434,14 @@ This pattern prevents any region from permanently losing synchronous participati
 
 Rotate role-based breakouts so each participant gets relevant depth without mandatory 2+ hour commitment.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
-- [Best Tool for Remote Team Cross-Functional Project Staffing as Organization Grows Larger 2026](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
-- [Remote Team Meeting Agenda Template for Weekly Sync Under 30 Minutes](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+## Related Articles
+
+- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [How to Manage Cross-Functional Remote Projects](/remote-work-tools/how-to-manage-cross-functional-remote-projects/)
+- [How to Build Cross-Team Relationships in Large Remote](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
+- [How to Run a Remote Team Demo Day Showcasing Cross-Team](/remote-work-tools/how-to-run-remote-team-demo-day-showcasing-cross-team-projec/)
+- [Remote Team Cross Timezone Collaboration Protocol When Scali](/remote-work-tools/remote-team-cross-timezone-collaboration-protocol-when-scali/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

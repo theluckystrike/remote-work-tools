@@ -204,7 +204,8 @@ Reduce decision fatigue by establishing non-negotiable defaults:
 - Automated workflows: Use scripts for routine tasks rather than manually performing them each time
 
 
-## Related Reading
+
+## Related Articles
 
 - [Google Meet Tips and Tricks for Productivity in 2026](/remote-work-tools/google-meet-tips-and-tricks-for-productivity/)
 - [Best eSIM Data Plans for Digital Nomads Working Across](/remote-work-tools/best-esim-data-plans-for-digital-nomads-working-across-multi/)

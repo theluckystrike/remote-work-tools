@@ -258,7 +258,8 @@ A well-organized Slack workspace at 75 employees requires intentional design upf
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Channel Sprawl Management Strategy When Slack Gr](/remote-work-tools/remote-team-channel-sprawl-management-strategy-when-slack-gr/)
 - [Check your router's current firmware version](/remote-work-tools/how-to-secure-remote-employee-home-wifi-network-for-company-data/)

@@ -176,7 +176,8 @@ Extensions that combine multiple data sources (parsing + metadata + APIs) typica
 MLA citation generator Chrome extensions eliminate repetitive formatting work, letting researchers focus on content rather than citation mechanics. Whether you use existing tools or build custom solutions, automating citation generation represents a practical productivity enhancement for any research-intensive workflow.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
 - [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)

@@ -172,7 +172,8 @@ The remote work lifestyle benefits from intentional reflection. Journaling trans
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Tool for Tracking Remote Worker Tax Obligations Across](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
 - [How to Build a Daily Routine as a Remote Worker Adjusting](/remote-work-tools/how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezone-abroad/)

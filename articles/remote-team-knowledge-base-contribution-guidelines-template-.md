@@ -358,7 +358,8 @@ Set up a simple monthly tracking:
 Review monthly. If search quality is declining, contribution is dropping, or certain people dominate contributions, investigate and adjust.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Remote Team Knowledge Base Contribution Incentive Program](/remote-work-tools/remote-team-knowledge-base-contribution-incentive-program-fo/)
 - [Best Tools for Remote Team Knowledge Base 2026](/remote-work-tools/best-tools-for-remote-team-knowledge-base-2026/)

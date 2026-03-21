@@ -175,7 +175,8 @@ The most important action: stop converting at Thai banks directly. The convenien
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)
 - [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)

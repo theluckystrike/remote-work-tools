@@ -180,7 +180,8 @@ Most teams see improvements within four to six weeks. The initial adjustment per
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)

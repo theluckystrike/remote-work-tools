@@ -207,7 +207,8 @@ The initial setup takes some time, but the peace of mind is worth it. Your authe
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Two-Factor Authentication Setup for Remote Team Shared](/remote-work-tools/best-two-factor-authentication-setup-for-remote-team-shared-/)
 - [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)

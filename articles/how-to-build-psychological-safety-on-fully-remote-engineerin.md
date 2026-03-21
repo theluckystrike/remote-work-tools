@@ -326,7 +326,8 @@ Psychologically safe engineering teams outperform unsafe teams on every metric:
 These aren't soft metrics—they're business results. Frame psychological safety to leadership as infrastructure investment, not feel-good initiative.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Slack Workflow: Weekly Learning Share](/remote-work-tools/remote-team-psychological-safety-assessment-tool-for-distrib/)
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)

@@ -320,7 +320,8 @@ Communication:
 Having this checklist complete by end of day three gives you a clean operational baseline and surfaces any access provisioning gaps while your manager is still in active onboarding mode rather than six weeks later during a Friday afternoon incident.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Download and install cloudflared](/remote-work-tools/zero-trust-network-setup-using-cloudflare-access-for-remote-teams-guide/)
 - [Home Office Setup in Closet: Converted Workspace Guide 2026](/remote-work-tools/home-office-setup-in-closet-converted-workspace-guide-2026/)

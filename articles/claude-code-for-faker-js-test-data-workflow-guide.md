@@ -232,7 +232,8 @@ When you modify your data model, your existing seed data might become incompatib
 While Faker.js can generate highly realistic data, extremely large datasets can slow down your tests. Find the balance between realistic data and test execution speed. Often, a smaller set of well-designed data is more valuable than a massive dataset of generic values.
 
 
-## Related Reading
+
+## Related Articles
 
 - [Node.js and npm](/remote-work-tools/claude-code-npm-package-development-guide/)
 - [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)

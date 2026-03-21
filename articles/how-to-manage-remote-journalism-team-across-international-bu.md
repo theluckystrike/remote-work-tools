@@ -332,7 +332,8 @@ If cycle times increase or blocking incidents spike, your async infrastructure i
 {% endraw %}
 
 
-## Related Reading
+
+## Related Articles
 
 - [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)
 - [How to Manage Remote Team Across More Than 8 Timezones Guide](/remote-work-tools/how-to-manage-remote-team-across-more-than-8-timezones-guide/)

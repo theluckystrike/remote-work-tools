@@ -227,7 +227,8 @@ Adjust your template and delivery frequency based on feedback. The goal is consi
 Building an automated client progress reporting system requires upfront development time but pays dividends through consistent stakeholder communication. Start with simple metrics and expand as you identify what matters most to your clients.
 
 
-## Related Reading
+
+## Related Articles
 
 - [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
 - [How to Create Remote Team Compensation Benchmarking Report](/remote-work-tools/how-to-create-remote-team-compensation-benchmarking-report-u/)

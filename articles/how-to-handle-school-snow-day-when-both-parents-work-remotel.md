@@ -184,7 +184,8 @@ If your region experiences 5-10 snow days annually, planning for this reduction 
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [Usage](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
 - [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)

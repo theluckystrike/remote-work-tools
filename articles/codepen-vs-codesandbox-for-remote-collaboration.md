@@ -239,7 +239,8 @@ CodeSandbox is better for:
 - Network access: Configurable per sandbox
 
 
-## Related Reading
+
+## Related Articles
 
 - [Best Collaboration Suite for a 10 Person Remote Law Firm](/remote-work-tools/best-collaboration-suite-for-a-10-person-remote-law-firm/)
 - [Best Collaboration Tool for Remote Machine Learning Teams](/remote-work-tools/best-collaboration-tool-for-remote-machine-learning-teams-sharing-experiment-results/)

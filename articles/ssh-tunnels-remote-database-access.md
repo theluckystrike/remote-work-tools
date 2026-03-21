@@ -257,7 +257,8 @@ lsof -ti:5433 | xargs kill  # kill whatever is using port 5433
 ```
 
 
-## Related Reading
+
+## Related Articles
 
 - [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 - [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)

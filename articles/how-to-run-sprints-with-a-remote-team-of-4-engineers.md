@@ -247,7 +247,8 @@ Start with async standups this sprint, add capacity planning in your next planni
 ---
 
 
-## Related Reading
+
+## Related Articles
 
 - [How to Manage Sprints with Remote Team: A Practical](/remote-work-tools/how-to-manage-sprints-with-remote-team/)
 - [incident-response.sh - Simple incident escalation script](/remote-work-tools/best-remote-collaboration-tool-for-platform-engineers-managing-shared-infrastructure-services/)
