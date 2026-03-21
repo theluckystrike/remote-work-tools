@@ -32,6 +32,20 @@ Before comparing platforms, identify the requirements that matter most for distr
 - **API-first architecture** for automating user provisioning and access reviews
 - **Audit logging** for compliance and security incident investigation
 
+Remote teams also need seamless onboarding for contractors and short-term contributors. The ability to grant scoped, time-limited access without IT involvement speeds up hiring workflows and reduces the security risk of lingering accounts.
+
+## Platform Comparison Overview
+
+Before diving into each platform, here is a side-by-side summary of how the major options stack up across the dimensions that matter most for distributed teams:
+
+| Platform | Best For | SSO Apps | MFA Options | Self-Hosted | Starting Price |
+|----------|----------|----------|-------------|-------------|----------------|
+| Okta | Large enterprises, max integrations | 7,000+ | TOTP, SMS, hardware keys, push | No | ~$6/user/mo |
+| Azure AD / Entra ID | Microsoft-heavy orgs | 3,000+ | TOTP, SMS, FIDO2, phone | No | Bundled with M365 |
+| Auth0 | Custom app authentication | App-level | TOTP, SMS, passwordless | No | Free tier available |
+| JumpCloud | Cross-platform device + directory | 700+ | TOTP, Duo, hardware keys | No | $11/user/mo |
+| Keycloak | Budget-conscious, self-hosted | Protocol-based | TOTP, WebAuthn, external | Yes | Free (ops cost) |
+
 ## Platform Comparison
 
 ### Okta Identity Cloud
@@ -39,7 +53,7 @@ Before comparing platforms, identify the requirements that matter most for distr
 Okta remains the industry leader for enterprises with mature security requirements. Its extensive integration library covers over 7,000 SaaS applications, making it the default choice for companies with diverse tool stacks.
 
 **Strengths:**
-- broadest SaaS integration catalog
+- Broadest SaaS integration catalog
 - Strong lifecycle management automation
 - Advanced adaptive MFA with behavior-based risk assessment
 
@@ -73,6 +87,8 @@ def create_user_in_okta(user_email, user_name):
     response = requests.post(url, json=payload, headers=headers)
     return response.json()
 ```
+
+Okta's Workflows product lets non-engineers build automated provisioning logic using a no-code interface, which is valuable for remote teams where HR and IT often operate independently across time zones.
 
 ### Azure AD (Microsoft Entra ID)
 
@@ -119,13 +135,13 @@ Auth0, now part of Okta, focuses on application-level authentication rather than
 **Strengths:**
 - Developer-friendly API and documentation
 - Extensive customization of login experiences
-- anomaly detection and threat protection
+- Anomaly detection and threat protection
 
-**Weakights:**
+**Weaknesses:**
 - Not a full directory or SSO solution
 - Requires additional tooling for enterprise use cases
 
-**Code example - Implementing auth0 in a Node.js application:**
+**Code example - Implementing Auth0 in a Node.js application:**
 
 ```javascript
 const express = require('express');
@@ -165,6 +181,8 @@ JumpCloud positions itself as an open directory platform, bridging the gap betwe
 **Weaknesses:**
 - Fewer enterprise integrations compared to Okta
 - Less mature conditional access features
+
+JumpCloud's MDM capabilities make it a good fit for remote teams that also need to manage employee devices. A single platform handling both identity and device management reduces the number of vendors your IT team must coordinate across time zones.
 
 ### Keycloak (Open Source)
 
@@ -212,6 +230,16 @@ Choose your IAM platform based on your team's composition and technical maturity
 | Cross-platform device management | JumpCloud |
 | Budget constraints / self-hosting preference | Keycloak |
 
+For early-stage remote companies with fewer than 50 employees, JumpCloud's pricing model and cross-platform support often provide the best value. Companies scaling past 100 employees with complex compliance requirements tend to migrate to Okta despite the cost, because the integration catalog and support quality reduce operational overhead.
+
+## Zero-Trust Network Access: Beyond Traditional IAM
+
+Modern remote-first security extends IAM into network access control. Pairing your IAM platform with a zero-trust network access (ZTNA) solution replaces traditional VPNs with identity-aware proxies.
+
+Cloudflare Access integrates with any OIDC-compatible IAM platform. Tailscale uses WireGuard with identity binding to your existing IdP. These tools let you apply your IAM policies to infrastructure access, not just SaaS applications—your engineers SSH into production servers using the same SSO credentials they use for Slack.
+
+For remote teams, ZTNA solves a practical problem that VPNs handle poorly: giving contractors or temporary collaborators scoped, time-limited access to specific resources without full network access. You can grant a consultant access to a single staging environment for two weeks, with access automatically expiring. No VPN credentials to revoke, no lingering network access if the offboarding is delayed across time zones.
+
 ## Implementation Best Practices
 
 Regardless of your platform choice, implement these patterns for remote-first security:
@@ -221,6 +249,9 @@ Regardless of your platform choice, implement these patterns for remote-first se
 3. **Automate deprovisioning** - Immediately revoke access when employees leave to prevent orphaned accounts
 4. **Regular access reviews** - Quarterly reviews of permissions ensure least-privilege principles
 5. **Log everything** - Centralize IAM logs for security analysis and compliance
+6. **Document your IAM topology** - Maintain a diagram of which groups have access to which systems; this is critical for incident response across time zones
+
+Deprovisioning deserves special emphasis for remote teams. When an employee in a different country leaves, you may not have immediate visibility into all the accounts they hold. Automated SCIM deprovisioning that cascades through connected applications when HR updates the directory status is the only reliable way to close all access simultaneously.
 
 
 ## Related Articles
