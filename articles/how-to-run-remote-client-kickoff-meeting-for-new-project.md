@@ -155,19 +155,203 @@ For developer-focused teams, these tools improve kickoff processes:
 
 Choose tools your team already uses. Adding new tools just for kickoffs creates friction.
 
+## Pre-Kickoff Communication Template
+
+Send this 48-72 hours before your kickoff meeting:
+
+```email
+Subject: Kickoff Meeting Prep - [Project Name]
+
+Hi [Client Contact],
+
+Looking forward to our kickoff meeting on [Date] at [Time]. To make the best use of our time together, we'd like to ask a few prep questions.
+
+Please send replies by [deadline]:
+
+1. **Team Attendees**: Who from your team should attend? We recommend stakeholders from [relevant departments]. We'll have [your team composition].
+
+2. **Business Context**: What's the primary business problem this project solves? What does success look like at 30 days, 60 days, and 90 days?
+
+3. **Documentation**: Any existing documentation, wireframes, competitive analysis, or reference projects you'd like to share?
+
+4. **Technical Constraints**: Any systems we need to integrate with? API documentation? Hosted on your infrastructure or ours?
+
+5. **Timeline Expectations**: Do you have a hard deadline, or is this flexible based on scope?
+
+6. **Communication Preference**: How often would you like status updates? Any preferred channels (email, Slack, weekly calls)?
+
+These details will let us hit the ground running during our meeting.
+
+See the attached agenda—please let me know if you'd like to adjust anything.
+
+Best,
+[Your Name]
+```
+
+## During-Kickoff Meeting Mechanics
+
+**Run the meeting like an interview, not a presentation.** Your questions should drive 70% of the talking:
+
+```
+QUESTIONS TO ASK (in order):
+
+1. "Can you walk us through the current state and what's broken?"
+   → Lets client vent, you listen and document
+
+2. "How will you measure success here?"
+   → Ensures alignment on outcomes, not just features
+
+3. "What have you tried before? What worked and didn't?"
+   → Gives you context to avoid repeating past mistakes
+
+4. "Who's the person we'll be coordinating with day-to-day?"
+   → Identifies your actual point of contact
+
+5. "Are there any hard constraints? Timing, budget, technical?"
+   → Surfaces the real boundaries
+
+6. "Walk us through your ideal workflow for this project."
+   → Shows how they prefer to work (async vs. sync, communication cadence)
+```
+
+Document answers in a shared Google Doc during the call. Clients see you're capturing their words, which builds confidence.
+
+## Technical Discovery Checklist
+
+For software projects, use this technical question checklist:
+
+```markdown
+## Technical Requirements Discovery
+
+### System Architecture
+- [ ] Current system diagram provided?
+- [ ] Database schema documented?
+- [ ] API endpoints we need to integrate with?
+- [ ] Authentication method (OAuth, API key, SSO)?
+- [ ] Rate limiting and data volume expectations?
+
+### Data & Security
+- [ ] Data residency requirements (on-premise, cloud, region)?
+- [ ] Data sensitivity level (public, confidential, PII, regulatory)?
+- [ ] Encryption requirements (in transit, at rest)?
+- [ ] Compliance requirements (GDPR, HIPAA, SOC 2)?
+
+### Development & Deployment
+- [ ] Environments (dev, staging, production)?
+- [ ] Deployment process and frequency?
+- [ ] Who has deployment access?
+- [ ] Monitoring and logging requirements?
+- [ ] Incident notification procedures?
+
+### Support & Maintenance
+- [ ] Ongoing support expectations (months 1-3 free? 6 months? ongoing)?
+- [ ] SLA for bug fixes and feature requests?
+- [ ] Who owns the code after delivery?
+- [ ] Knowledge transfer expectations?
+```
+
+Assign a team member to own each section and come prepared to discuss.
+
+## Post-Kickoff Documentation Template
+
+Within 4 hours of your meeting, send this summary:
+
+```markdown
+# Project Charter: [Project Name]
+
+## Kickoff Summary
+**Date:** 2026-03-16
+**Attendees:** [List attendees]
+**Duration:** 90 minutes
+
+## What We're Building
+[One paragraph summary of the project]
+
+## Success Criteria (how we'll measure if this worked)
+- 30 days: [Measurable outcome]
+- 60 days: [Measurable outcome]
+- 90 days: [Measurable outcome]
+
+## In Scope (confirmed for this project)
+- Feature 1
+- Integration with system X
+- Support on platforms: iOS, Android, Web
+- Training for 5 power users
+
+## Out of Scope (explicitly NOT included)
+- Maintenance after delivery (if applicable)
+- Mobile app optimization for tablets
+- Integration with legacy system Y
+- Custom reporting dashboard
+
+## Timeline
+| Milestone | Deliverable | Target Date |
+|-----------|-------------|------------|
+| Phase 1 | Functional prototype | March 30 |
+| Phase 2 | Beta release to 10 users | April 15 |
+| Phase 3 | Full production launch | May 1 |
+
+## Communication Cadence
+- **Daily async:** Slack #project-channel
+- **Weekly sync:** Tuesdays 2 PM PT, 30 minutes
+- **Blockers:** Page on-call immediately
+- **Status reports:** Friday EOD email
+
+## Key Contacts
+- Client project lead: [Name, email, timezone]
+- Your project lead: [Name, email, timezone]
+- Escalation contact (both sides): [Names]
+
+## Action Items (due [date])
+| Owner | Action | Due |
+|-------|--------|-----|
+| Client | Provide API documentation | March 17 |
+| You | Send revised timeline | March 18 |
+| Client | Approve timeline | March 20 |
+
+## Next Steps
+1. Client reviews this charter and provides feedback by [date]
+2. We iterate on timeline and scope based on feedback
+3. Kick off development on [date]
+4. Next sync meeting: [date/time]
+```
+
+Send this to the client and have them sign off (electronically, via email reply is fine). This document becomes your reference point when scope questions arise—and they will.
+
+## Tool Choices for Kickoff Execution
+
+**For live documentation during the call:**
+- Google Doc (easiest, real-time collaboration, both can edit)
+- Notion (better for structured data, harder for real-time)
+- Miro whiteboard (best for visual projects, good for architectural discussions)
+
+**For post-kickoff documentation:**
+- Notion page (best for living documents, easy to reference)
+- Markdown on GitHub (best for technical teams, integrates with code)
+- Confluence (best if client is enterprise, already using it)
+
+**For timeline tracking:**
+- Linear (best for developers, lightweight)
+- GitHub Projects (free if using GitHub)
+- Asana or Monday (best if client prefers visual project management)
+
 ## Common Pitfalls to Avoid
 
 ### Talking Too Much
 
-The client should do 70% of the talking during a kickoff meeting. Your job is to ask good questions and document answers, not present your process for 45 minutes.
+The client should do 70% of the talking during a kickoff meeting. Your job is to ask good questions and document answers, not present your process for 45 minutes. If you find yourself talking for more than 5 minutes at a time, stop and ask a question.
 
 ### Skipping Technical Details
 
-Burying technical discussions because "we'll figure it out later" creates expensive rework. Surface integration requirements, data needs, and technical constraints early.
+Burying technical discussions because "we'll figure it out later" creates expensive rework. Surface integration requirements, data needs, and technical constraints early. If something feels unclear, ask it now—confusion compounds over months of development.
 
 ### Not Confirming Next Steps
 
-Every kickoff meeting should end with specific action items: "Client will provide API documentation by Friday. We'll send a revised timeline proposal by Monday." Vague conclusions lead to stalled projects.
+Every kickoff meeting should end with specific action items with owners and dates. "Client will provide API documentation by Friday. We'll send a revised timeline proposal by Monday. We'll meet again Tuesday to confirm." Vague conclusions lead to stalled projects and scope creep.
+
+### Over-Committing on Timeline
+
+Enthusiasm during kickoffs often leads to aggressive timelines. Build in buffer—if you estimate 4 weeks, estimate 5 and plan for Phase 2 after Phase 1. Delivering early builds trust; delivering late damages it.
 
 ## Managing Time Zones in Remote Kickoffs
 

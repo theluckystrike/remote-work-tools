@@ -350,8 +350,6 @@ Track these metrics to identify when your meeting format needs adjustment:
 
 If participation drops below 80% or blocker resolution stalls, something's wrong with your format. Usually: meeting is too long (fatigue), agenda isn't clear (people unprepared), or blockers aren't real (people stopped bringing genuine issues).
 
-{% endraw %}
-
 
 ## Related Articles
 

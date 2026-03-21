@@ -276,8 +276,6 @@ Hire a professional if:
 
 Cost of professional help ($300-800 annually for bookkeeping + tax prep) pays for itself once you're optimizing taxes via S-corp structure.
 
-{% endraw %}
-
 
 ## Related Articles
 

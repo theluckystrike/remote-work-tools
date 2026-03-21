@@ -15,7 +15,6 @@ voice-checked: true
 ---
 
 {% raw %}
-{% raw %}
 ## Completed This Week
 - What did you ship?
 
@@ -256,6 +255,5 @@ Start with async standups this sprint, add capacity planning in your next planni
 - [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
 ```
 {% endraw %}

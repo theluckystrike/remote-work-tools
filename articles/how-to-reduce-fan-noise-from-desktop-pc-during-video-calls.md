@@ -324,8 +324,6 @@ Consider your situation:
 
 The cost-benefit math: A $30 fan upgrade preventing even one "can you mute your fan?" message per month is worth it. A $150 CPU cooler upgrade is worth it only if you're in calls daily for years.
 
-{% endraw %}
-
 
 ## Related Articles
 
