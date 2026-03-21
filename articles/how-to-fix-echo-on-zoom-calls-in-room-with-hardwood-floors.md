@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-fix-echo-on-zoom-calls-in-room-with-hardwood-floors/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, troubleshooting]

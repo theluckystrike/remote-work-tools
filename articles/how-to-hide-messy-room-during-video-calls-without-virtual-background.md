@@ -8,7 +8,7 @@ author: "theluckystrike"
 permalink: /how-to-hide-messy-room-during-video-calls-without-virtual-background/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]

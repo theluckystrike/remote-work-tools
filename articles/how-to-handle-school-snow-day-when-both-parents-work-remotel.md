@@ -9,7 +9,7 @@ permalink: /how-to-handle-school-snow-day-when-both-parents-work-remotel/
 categories: [guides]
 tags: [remote-work-tools, remote-work, work-life-balance, productivity, parenting, snow-day]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
