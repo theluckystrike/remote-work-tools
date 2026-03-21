@@ -31,6 +31,14 @@ For **self-employed remote workers**, you can deduct transportation expenses as 
 
 For **business owners with remote employees**, you can reimburse employees for business travel or provide allowances, which become deductible business expenses when properly documented.
 
+### The Home Office Intersection
+
+Remote workers who qualify for the home office deduction face a different set of transportation rules that often come as a surprise. When your home qualifies as your principal place of business, travel from your home office to a client, vendor, or temporary work location is fully deductible business mileage. This is unlike traditional employees, for whom commuting from home to a fixed office is nondeductible personal travel.
+
+This distinction matters significantly for contractors and consultants who visit clients regularly. A remote developer based in Austin who drives 25 miles each way to a client office three times per week accumulates nearly 7,500 deductible miles per year at the home-office-as-principal-place-of-business standard—worth approximately $5,025 at the 2026 rate.
+
+If you do not yet have a home office deduction established, coordinate with your tax professional before assuming these miles are deductible. The rules require that the home office space be used regularly and exclusively for business and that it be your principal place of business, not just a convenient secondary workspace.
+
 ## Key Documentation Requirements
 
 The IRS requires contemporaneous records—documentation created at or near the time of the expense. For mileage and transportation deductions, maintain:
@@ -42,6 +50,12 @@ The IRS requires contemporaneous records—documentation created at or near the 
 5. **Receipts** - For parking, tolls, and public transit
 
 Without these records, you risk losing your deduction during an audit. The IRS allows a deduction only if you can substantiate your expenses with adequate records.
+
+### What "Contemporaneous" Actually Means
+
+The IRS standard of contemporaneous documentation trips up many remote workers who reconstruct records at year-end. Courts have interpreted contemporaneous to mean records created close in time to the travel, not necessarily the instant you park the car. Weekly summaries created from calendar appointments and parking receipts typically satisfy this standard. Annual reconstructions typically do not.
+
+Practically, this means establishing a weekly habit rather than a monthly one. Set a recurring calendar reminder—Friday afternoons work well for most teams—to review the week's travel and confirm your logging is complete. Apps like MileIQ or TripLog automate most of this by detecting driving patterns from GPS data and surfacing trips for quick classification.
 
 ## Building a Mileage Tracking System
 
@@ -85,7 +99,7 @@ def categorize_transport_expense(expense):
         "transit": ["bus", "train", "subway", "metro", "ferry"],
         "taxi": ["taxi", "uber", "lyft", "rideshare"]
     }
-    
+
     for category, keywords in categories.items():
         if any(kw in expense.description.lower() for kw in keywords):
             return {
@@ -93,7 +107,7 @@ def categorize_transport_expense(expense):
                 "deductible": True,
                 "irs_code": "transportation"
             }
-    
+
     return {"category": "other", "deductible": False}
 ```
 
@@ -123,13 +137,19 @@ Employees may receive reimbursement for business travel using their personal veh
 - **Pre-approval**: Required for trips over 100 miles
 ```
 
+### Accountable Plan Requirements
+
+If you reimburse employees for mileage, structuring your reimbursements as an accountable plan is important for both you and your employees. Under an accountable plan, reimbursements are not included in employees' taxable wages, and your business deducts the full reimbursement amount. The three requirements for an accountable plan are: expenses must have a business connection, employees must substantiate expenses within a reasonable time, and employees must return any excess reimbursements.
+
+Reimbursing at the IRS standard rate (67 cents per mile for 2026) satisfies the accountable plan requirements without requiring employees to track actual vehicle operating costs. Reimbursements above the IRS rate may be treated as taxable income for the excess portion, so most small teams default to the standard rate for simplicity.
+
 ## Best Practices for Maximum Deductions
 
 ### 1. Separate Business and Personal Travel
 
 Maintain clear boundaries between business and personal driving. Consider maintaining a dedicated business vehicle or tracking miles meticulously using the commute rule—if you have a regular workplace, commuting miles are not deductible, but travel from a home office to a client location may be.
 
-### 2. use Technology
+### 2. Use Technology
 
 Use mileage tracking apps that integrate with GPS and calendar systems. Many apps automatically detect business trips by cross-referencing calendar appointments with location data.
 
@@ -137,16 +157,16 @@ Use mileage tracking apps that integrate with GPS and calendar systems. Many app
 // Example: Calculate deductible mileage from trip data
 function calculateDeductibleMiles(trips, taxYear = 2026) {
   const standardMileageRate = taxYear === 2026 ? 0.67 : 0.67;
-  
-  const deductibleTrips = trips.filter(trip => 
-    trip.purpose.startsWith("Client") || 
+
+  const deductibleTrips = trips.filter(trip =>
+    trip.purpose.startsWith("Client") ||
     trip.purpose.startsWith("Meeting") ||
     trip.purpose.includes("Business")
   );
-  
+
   const totalMiles = deductibleTrips.reduce((sum, t) => sum + t.miles, 0);
   const deduction = totalMiles * standardMileageRate;
-  
+
   return {
     totalMiles,
     standardRate: standardMileageRate,
@@ -168,6 +188,14 @@ Transportation deductions extend beyond just mileage. Track:
 ### 4. Keep Records for Seven Years
 
 The IRS recommends keeping records for at least three years, but for expense deductions, seven years provides better protection in case of extended audit windows.
+
+## Managing Multi-State Remote Teams
+
+Distributed teams create state tax complexity that goes beyond federal mileage rules. If you have employees or contractors in multiple states, their local transportation deductions and your reimbursement obligations may vary.
+
+Several states—including California—have specific requirements for expense reimbursement that go beyond federal accountable plan rules. California Labor Code Section 2802 requires employers to reimburse employees for all necessary business expenses, which courts have interpreted broadly to include mileage. Failing to reimburse California employees at the IRS standard rate can create wage claim liability.
+
+For teams with members in multiple high-tax states, consider using a unified reimbursement platform (Expensify, Ramp, or Brex) that applies state-specific rules automatically. These platforms can flag submissions from California employees that fall below the required reimbursement threshold and flag submissions from states with no reimbursement requirements separately for policy purposes.
 
 ## Common Mistakes to Avoid
 
