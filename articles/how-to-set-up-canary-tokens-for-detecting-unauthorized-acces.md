@@ -7,7 +7,7 @@ last_modified_at: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-set-up-canary-tokens-for-detecting-unauthorized-acces/
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 categories: [guides]
 tags: [remote-work-tools]
