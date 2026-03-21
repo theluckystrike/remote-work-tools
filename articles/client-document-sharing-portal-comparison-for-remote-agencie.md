@@ -23,6 +23,8 @@ Before diving into specific tools, identify what matters most for distributed te
 
 **Version control and audit trails** matter because clients often request changes, and you need to track who viewed what and when. **Granular permission controls** let you share specific folders with specific stakeholders without exposing everything. **API access** enables you to automate document generation and delivery—critical for agencies handling multiple clients simultaneously.
 
+When evaluating any portal, also consider the client experience. A technically superior platform that confuses your clients will generate more support tickets and erode confidence in your work. The best portal is one that makes both your team and your clients feel competent.
+
 The tools evaluated below are Google Drive, Dropbox, Box, and Microsoft SharePoint. Each serves the purpose but offers different developer experiences.
 
 ## Google Drive: The Flexible Default
@@ -43,7 +45,7 @@ def create_client_folder(service, client_name, client_email):
         'mimeType': 'application/vnd.google-apps.folder'
     }
     folder = service.files().create(body=folder_metadata).execute()
-    
+
     # Share with client
     permission = {
         'type': 'user',
@@ -54,13 +56,15 @@ def create_client_folder(service, client_name, client_email):
         fileId=folder['id'],
         body=permission
     ).execute()
-    
+
     return folder['id']
 ```
 
 ### Strengths and Limitations
 
 Google Drive excels at real-time collaboration—clients can comment directly on Google Docs without requiring account creation. However, folder permissions can become complex with nested structures, and the sharing UI occasionally confuses non-technical clients.
+
+One common friction point is Drive's "Request access" behavior: if a client accidentally navigates to a parent folder they were not explicitly shared on, they see a wall instead of their files. Structure your folder hierarchy carefully and share at the correct level from the start.
 
 Cost: Free for basic use; Google Workspace starts at $12/user/month.
 
@@ -79,7 +83,7 @@ async function createClientDropbox(clientName, expiryDays) {
   const folder = await dbx.filesCreateFolderV2({
     path: `/clients/${clientName}`
   });
-  
+
   // Generate expiring share link (7 days default)
   const shareLink = await dbx.sharingCreateSharedLinkWithSettings({
     path: folder.result.metadata.path_lower,
@@ -88,7 +92,7 @@ async function createClientDropbox(clientName, expiryDays) {
       expires: calculateExpiry(expiryDays)
     }
   });
-  
+
   return shareLink.result.url;
 }
 ```
@@ -96,6 +100,8 @@ async function createClientDropbox(clientName, expiryDays) {
 ### Strengths and Limitations
 
 Dropbox Paper provides collaborative document editing, though it's less feature-rich than Google Docs. The desktop sync client remains leading for teams that need local file access. API rate limits can be restrictive for heavy automation—careful with batch operations.
+
+Dropbox Business also includes transfer logs and version history by default, which helps when a client claims they never received a deliverable or disputes what version was approved.
 
 Cost: Professional plans start at $15/user/month.
 
@@ -134,6 +140,8 @@ folder = client.folder('0').create_subfolder('client-assets')
 
 Box excels at security and compliance but feels enterprise-heavy. The interface is functional rather than elegant, and smaller agencies may find the pricing disproportionate to their needs. Collaboration features lag behind Google and Dropbox.
 
+The most compelling argument for Box is not the product itself—it's the compliance documentation. When a potential enterprise client asks whether their data is HIPAA-compliant, pointing to a Box BAA closes that question immediately. For agencies targeting regulated industries, this is worth the premium.
+
 Cost: Business plans start at $25/user/month.
 
 ## SharePoint: Microsoft Ecosystem Integration
@@ -160,7 +168,7 @@ async function uploadClientDeliverable(client, filename, content) {
   const driveItem = await client
     .api(`/sites/${client.siteId}/drive/root/children/${filename}/content`)
     .put(content);
-  
+
   // Create sharing link
   const permission = await client
     .api(`/sites/${client.siteId}/drive/items/${driveItem.id}/createLink`)
@@ -168,7 +176,7 @@ async function uploadClientDeliverable(client, filename, content) {
       type: 'view',
       scope: 'organization' // or 'anonymous' for client access
     });
-  
+
   return permission.link.webUrl;
 }
 ```
@@ -177,7 +185,46 @@ async function uploadClientDeliverable(client, filename, content) {
 
 SharePoint works best within the Microsoft ecosystem. Outside it, the experience degrades significantly. Client-facing portals often require guest account setup, adding friction. The admin experience remains complex compared to consumer-focused tools.
 
+If your clients are Microsoft shops themselves, the experience is seamless—they access files through their existing Teams interface with no new account required. If they are not, expect onboarding friction.
+
 Cost: Microsoft 365 Business Basic ($12/user/month) includes SharePoint.
+
+## Structuring Folders for Multi-Client Agencies
+
+The portal you choose matters less than the folder structure you build inside it. Inconsistent naming conventions and ad-hoc folder hierarchies are the most common reason client portals fail in practice—not feature gaps.
+
+A reliable structure for most agencies looks like this:
+
+```
+/clients/
+  /[client-name]/
+    /01-discovery/
+    /02-design/
+    /03-development/
+    /04-delivery/
+    /archive/
+```
+
+Number your top-level phase folders so they sort chronologically in any portal. Within each phase folder, use consistent naming: `[YYYY-MM-DD]-[deliverable-name]-v[N].[ext]`. Date-prefixed filenames sort correctly, eliminate ambiguity about which version is current, and give clients confidence they are looking at the right file.
+
+Create this structure once as a template, then duplicate it for each new client engagement. Most portals support folder templates or allow copying folder structures through their API—automating this during client onboarding removes a manual step that often gets skipped when teams are busy.
+
+## Onboarding Clients to Your Chosen Portal
+
+Regardless of which tool you choose, the onboarding experience you create for clients determines whether the portal actually gets used. A technical evaluation that ends at product selection misses the human dimension entirely.
+
+Create a short onboarding document specific to each client's portal access. Include:
+
+- Direct link to their shared folder or portal
+- How to view comments and revisions
+- What to do if they cannot access a file
+- Who to contact for permission issues
+
+Send this in your project kickoff email alongside any contracts or scope documents. Clients who understand the portal on day one generate far fewer "where is the file?" messages throughout the engagement.
+
+Consider sending a brief test file early in the project—a placeholder document or a copy of the project brief—just to confirm the client can actually access and open materials before a real deliverable depends on it. This simple practice surfaces permission issues before they become emergencies.
+
+Document your portal access setup in your internal runbook. When a team member leaves or a new project manager joins, they should be able to recreate the client's access in under ten minutes from the runbook alone—without asking anyone. This is especially important for agencies that use service accounts or shared API credentials for portal automation, where the configuration is invisible to anyone who did not set it up.
 
 ## Decision Framework
 
