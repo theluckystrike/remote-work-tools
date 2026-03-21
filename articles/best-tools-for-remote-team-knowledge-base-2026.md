@@ -1,7 +1,7 @@
 ---
 title: "Best Tools for Remote Team Knowledge Base 2026"
 slug: best-tools-for-remote-team-knowledge-base-2026
-description: Compare Notion, Confluence, GitBook, Outline, Slite for team wikis. Setup guides, search quality, permissions, pricing.
+description: "Compare Notion, Confluence, GitBook, Outline, Slite for team wikis. Setup guides, search quality, permissions, pricing."
 author: Remote Work Tools Guide
 published: true
 reviewed: true
@@ -10,6 +10,7 @@ voice-checked: true
 intent-checked: true
 date: 2026-03-21
 tags: [remote-work-tools, best-of, remote-work]
+permalink: /best-tools-for-remote-team-knowledge-base-2026/
 ---
 
 {% raw %}

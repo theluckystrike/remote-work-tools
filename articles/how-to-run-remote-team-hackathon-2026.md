@@ -6,6 +6,7 @@ reviewed: true
 score: 8
 voice-checked: true
 intent-checked: true
+permalink: /how-to-run-remote-team-hackathon-2026/
 ---
 
 {% raw %}
