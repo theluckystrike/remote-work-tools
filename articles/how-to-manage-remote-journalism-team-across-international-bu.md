@@ -328,8 +328,6 @@ Track these metrics to understand if your async workflows are actually working:
 
 If cycle times increase or blocking incidents spike, your async infrastructure isn't working. Tighten your handoff checklist, add more specific story templates, or increase overlap sync calls.
 
-{% endraw %}
-
 
 
 ## Related Articles

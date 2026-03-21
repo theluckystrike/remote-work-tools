@@ -309,8 +309,6 @@ In these cases, try: async challenges (CTF they work on in their own time), indi
 
 The goal of team events is connection and morale. Escape rooms are one tool that works well for many teams. If your team doesn't vibe with them, move on to something that does.
 
-{% endraw %}
-
 
 
 ## Related Articles

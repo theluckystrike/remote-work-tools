@@ -363,8 +363,6 @@ Clear signals prevent most tensions:
 
 Couples who implement this protocol report zero lingering frustration. The signal system prevents surprise interruptions (largest source of tension).
 
-{% endraw %}
-
 
 
 ## Related Articles

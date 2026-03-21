@@ -362,8 +362,6 @@ Watch for these signals that your cadence isn't working:
 
 If you see any of these, call a cadence reset conversation: "I want to make sure communication is working well. Can we talk about what's working and what isn't?" Usually reveals that cadence timing or format needs adjustment, not that more meetings are needed.
 
-{% endraw %}
-
 
 
 ## Related Articles
