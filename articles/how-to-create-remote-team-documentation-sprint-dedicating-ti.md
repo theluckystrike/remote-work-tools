@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-documentation-sprint-dedicating-ti/
 categories: [guides]
 tags: [remote-work-tools, documentation, remote-work, wiki, team-collaboration, dev-productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

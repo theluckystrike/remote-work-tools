@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /how-to-create-shared-project-timeline-with-remote-agency-cli/
 categories: [guides, workflows]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]

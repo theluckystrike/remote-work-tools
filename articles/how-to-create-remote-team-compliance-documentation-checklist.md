@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-compliance-documentation-checklist/
 categories: [guides]
 tags: [remote-work-tools, compliance, sox, iso-27001, remote-work, documentation, audit]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

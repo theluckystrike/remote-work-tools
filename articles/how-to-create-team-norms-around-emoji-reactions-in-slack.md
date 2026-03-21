@@ -9,7 +9,7 @@ permalink: /how-to-create-team-norms-around-emoji-reactions-in-slack/
 categories: [guides]
 tags: [remote-work-tools, slack, emoji-reactions, team-culture, communication-norms, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

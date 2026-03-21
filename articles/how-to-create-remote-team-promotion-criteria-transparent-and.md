@@ -9,7 +9,7 @@ permalink: /how-to-create-remote-team-promotion-criteria-transparent-and/
 categories: [guides]
 tags: [remote-work-tools, remote-work, promotions, career-growth, hr, team-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
