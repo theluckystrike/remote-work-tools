@@ -8,7 +8,7 @@ permalink: /best-goal-setting-framework-tool-for-remote-teams-using-okrs/
 categories: [guides]
 tags: [remote-work-tools, okr, goal-setting, remote-work, productivity, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
