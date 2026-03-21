@@ -10,7 +10,7 @@ tags: [remote-work-tools, corner-desk, home-office, room-layout, ergonomics, rem
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 

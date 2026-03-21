@@ -7,7 +7,7 @@ author: "Remote Work Tools Guide"
 permalink: /best-design-collaboration-tools-for-remote-teams/
 categories: [best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work, collaboration]

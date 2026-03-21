@@ -8,7 +8,7 @@ permalink: /best-free-tools-for-solo-developer-managing-side-projects-re/
 categories: [guides]
 tags: [remote-work-tools, tools, solo-developer, side-projects, remote-work, productivity, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
