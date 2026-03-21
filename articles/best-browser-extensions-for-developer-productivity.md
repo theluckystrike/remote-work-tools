@@ -8,7 +8,7 @@ permalink: /best-browser-extensions-for-developer-productivity/
 categories: [guides]
 tags: [remote-work-tools, productivity, browser-extensions, developer-tools, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

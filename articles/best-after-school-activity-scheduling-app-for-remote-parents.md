@@ -8,7 +8,7 @@ permalink: /best-after-school-activity-scheduling-app-for-remote-parents/
 categories: [guides]
 tags: [remote-work-tools, productivity, family-management, remote-work, scheduling, apps, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

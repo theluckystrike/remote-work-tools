@@ -8,7 +8,7 @@ permalink: /best-ambient-noise-apps-for-focus-while-coding/
 categories: [guides]
 tags: [remote-work-tools, coding, focus, productivity, ambient noise, tools, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
