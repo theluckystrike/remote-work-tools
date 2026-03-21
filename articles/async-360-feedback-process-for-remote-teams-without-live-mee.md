@@ -8,7 +8,7 @@ permalink: /async-360-feedback-process-for-remote-teams-without-live-mee/
 categories: [guides]
 tags: [remote-work-tools, feedback, remote-work, 360-feedback, async, team-development]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /async-mentorship-program-structure-for-remote-junior-develop/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
