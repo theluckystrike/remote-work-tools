@@ -159,6 +159,16 @@ routing_rules:
     required_attendees: [manager, employee]
 ```
 
+## Tool Recommendations by Team Type
+
+The right mix of tools depends on your team's size, time zone distribution, and work style. Here are concrete recommendations for three common remote team configurations:
+
+**Small async-first team (under 10 people, multiple time zones):** Default to email for anything that can wait more than four hours. Use Slack for daily standups posted in a channel (not live calls), project check-ins, and quick coordination. Reserve video for weekly team rituals and one-on-ones. Tools that work well here include Linear for project tracking (with Slack integration), Loom for async video updates instead of live calls, and Notion for documentation that would otherwise become buried email threads.
+
+**Mid-size engineering team (10-50 people, mostly overlapping hours):** Slack becomes more valuable here because enough people are online simultaneously to make synchronous chat productive. Create dedicated channels with clear scoping—one channel per active project, one for on-call alerts, one for company-wide announcements. Pair Slack with Confluence or Notion for decisions that need permanence. Use Google Meet or Zoom for planning sessions, architecture reviews, and retros. Avoid scheduling more than two hours of video calls per person per day.
+
+**Distributed enterprise team (50+ people, global):** At this scale, the overhead of communication coordination itself becomes a bottleneck. Invest in a formal communication policy document, enforce it during onboarding, and revisit it quarterly. Consider tools like Guru or Tettra for internal knowledge management so that repetitive questions get answered asynchronously from a knowledge base rather than consuming Slack bandwidth. For leadership communication, recorded video announcements (Loom, Vidyard) scale better than all-hands calls that require hundreds of people across time zones to attend live.
+
 ## Common Pitfalls to Avoid
 
 ### Over-reliance on Synchronous Communication
@@ -173,6 +183,10 @@ When teams mix channels without clear expectations, critical information gets lo
 
 Remote teams spanning multiple time zones must default to async. Even "quick Slack messages" become burdensome when sent at midnight local time. Build explicit "handshake hours" for real-time communication, otherwise default to async.
 
+### Treating All Async Channels Equally
+
+Email and Slack are both asynchronous, but they carry different social expectations. An email sits in an inbox and can be processed in batches. A Slack message in a busy channel gets buried within hours. Understand these differences and use them deliberately: send Slack messages when you want visibility within hours, and email when you want something preserved and searchable for weeks.
+
 ## Measuring Framework Effectiveness
 
 Track these metrics to evaluate if your channel selection is working:
@@ -181,6 +195,18 @@ Track these metrics to evaluate if your channel selection is working:
 - Meeting hours per week: Trending up or down?
 - Decision documentation rate: Are decisions captured in searchable formats?
 - Team satisfaction: Quarterly survey on communication effectiveness
+
+A healthy remote communication environment shows stable or declining meeting hours, fast response times on Slack within business hours, and a searchable knowledge base that answers recurring questions without requiring someone to ask again. If your team regularly complains about information silos, missed messages, or too many meetings, the channel framework needs recalibration.
+
+Review the framework with your team every quarter. Communication norms evolve as teams grow, as projects shift, and as new tools emerge. A framework that worked for a 5-person startup may create bottlenecks at 30 people if it is not revisited.
+
+## Writing a Team Communication Charter
+
+The fastest way to institutionalize your framework is to write a one-page communication charter and get every team member to review it during onboarding. A good charter covers four things: which channels exist and their purpose, expected response times for each channel, how to escalate when a response is overdue, and how to handle sensitive topics that should not go into Slack.
+
+Keep the charter living in your wiki (Notion, Confluence, or equivalent) and link to it from your team's main Slack channel description. When communication problems come up in retrospectives, reference the charter rather than relitigating the same debates. If the charter needs updating, update it formally with a changelog entry and re-share with the team.
+
+Teams that skip this documentation step find themselves having the same "should we use email or Slack for this?" conversation repeatedly. A single written artifact eliminates that overhead and gives new hires a resource they can reference without needing to interrupt a colleague.
 
 
 ## Related Articles
