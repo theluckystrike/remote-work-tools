@@ -8,7 +8,7 @@ permalink: /best-noise-cancelling-setup-for-remote-work-from-busy-bali-c/
 categories: [guides]
 tags: [remote-work-tools, noise cancelling, remote work, bali, digital nomad, focus, productivity, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
