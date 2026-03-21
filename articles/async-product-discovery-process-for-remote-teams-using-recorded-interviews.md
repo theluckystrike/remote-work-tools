@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /async-product-discovery-process-for-remote-teams-using-recorded-interviews/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]

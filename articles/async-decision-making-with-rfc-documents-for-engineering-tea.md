@@ -10,7 +10,7 @@ tags: [remote-work-tools, async, rfc, decision-making, engineering, remote-work,
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

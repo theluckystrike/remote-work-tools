@@ -8,7 +8,7 @@ permalink: /async-standup-alternative-using-github-commit-summaries-automaticall
 categories: [guides]
 tags: [remote-work-tools, async-communication, remote-work, github, standup-alternative, automation, developer-workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

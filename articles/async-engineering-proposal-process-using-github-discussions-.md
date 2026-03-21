@@ -10,7 +10,7 @@ tags: [remote-work-tools, async, github, proposals, engineering, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 7
+score: 8
 ---
 
 Engineering teams working across time zones cannot rely on synchronous meetings to make technical decisions. A proposal left pending until everyone is online means decisions blocked for days. GitHub Discussions solves this by giving engineering proposals a permanent, searchable home where reviewers engage on their own schedules and decisions are documented where the code lives.
