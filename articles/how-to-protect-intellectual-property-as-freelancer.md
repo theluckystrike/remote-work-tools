@@ -158,6 +158,209 @@ If a client violates your agreement:
 
 Most clients genuinely don't understand IP rights. A professional explanation often resolves issues without legal action.
 
+## Sample IP Protection Contract Clauses
+
+Rather than starting from scratch, use these battle-tested clauses in your freelance agreements:
+
+**Clause 1: Ownership Statement (Recommended for Most Work)**
+```text
+All intellectual property rights in custom code, designs, and
+deliverables created specifically for this project shall remain
+the exclusive property of Developer unless explicitly transferred
+in writing with additional compensation.
+
+Developer grants Client a non-exclusive, perpetual, worldwide
+license to use the Deliverables for Client's internal business
+purposes only. Client may not resell, sublicense, or commercialize
+the Deliverables without written permission.
+```
+
+**Clause 2: Work-for-Hire Option (When Client Pays Premium)**
+```text
+Upon receipt of full payment plus a 30% IP transfer premium
+($[amount]), all intellectual property rights in the Deliverables
+shall transfer to Client. Developer retains no rights and may not
+reuse components in future projects.
+
+The IP transfer premium is non-refundable and separate from
+base project compensation.
+```
+
+**Clause 3: Pre-Existing Materials Exclusion**
+```text
+The following pre-existing materials and components are excluded
+from Deliverables and remain Developer's exclusive property:
+
+1. Developer's internal libraries and utilities (listed in Exhibit A)
+2. Third-party libraries with their respective licenses
+3. General methodologies and processes not customized to this project
+4. Code templates and boilerplates not modified for this project
+
+Client receives a license to use these pre-existing materials
+only as embedded in the custom Deliverables.
+```
+
+**Clause 4: Source Code Handling**
+```text
+Only compiled binaries and executable files are delivered to Client.
+Source code shall remain with Developer unless Client purchases
+source code access for an additional $[amount] per month.
+
+If source code is released, Client agrees to:
+- Not disclose source code to third parties
+- Not hire other developers to modify the code
+- Return or destroy all source code upon contract termination
+```
+
+## Real Pricing Examples
+
+Understanding market rates helps you price IP transfers appropriately:
+
+**Web Application Development:**
+- Base project cost: $5,000-15,000
+- Non-exclusive license: Base price
+- Exclusive ownership transfer: Base price + 40-60%
+- Source code access: +20-30% ongoing
+
+**Custom Software Tool:**
+- Base project cost: $10,000-40,000
+- Portfolio rights (non-exclusive): Base price
+- Full ownership transfer: Base price + 50-75%
+- Source code included: Base price + 60-100%
+
+**SaaS Component or Plugin:**
+- Base cost: $3,000-10,000
+- Non-exclusive license: Base price
+- Exclusive ownership (prevents you from selling similar tools): Base price + 100-150%
+- Ongoing source code updates: +15-25% annually
+
+## Portfolio and Reuse Strategies
+
+As a freelancer, your portfolio is your marketing. Negotiate portfolio rights explicitly:
+
+**Tier 1: Full Portfolio Rights (Standard)**
+- Show the work in your portfolio
+- Use screenshots/videos in case studies
+- Mention client name publicly
+- Great for visibility, attracts similar clients
+
+```text
+Developer retains the right to display the Deliverables in
+portfolios, case studies, and marketing materials, provided
+no confidential Client information is disclosed.
+```
+
+**Tier 2: Anonymized Portfolio (Common for B2B)**
+- Use the work in portfolio but don't name the client
+- Show "Healthcare SaaS Application" instead of "Acme Health Inc"
+- Still valuable for demonstrating capabilities
+
+```text
+Developer may display the Deliverables anonymously in portfolio
+and case studies without disclosing Client identity.
+```
+
+**Tier 3: No Public Portfolio (High-Value Clients)**
+- Client pays premium for exclusive showcase rights
+- You get testimonials and referrals instead
+- Appropriate for high-security or competitive work
+
+```text
+Developer may not display or reference the Deliverables publicly.
+Client agrees to provide written testimonial and serve as reference
+for future clients.
+```
+
+Negotiate which tier based on project value and client sensitivity. Never agree to Tier 3 without compensation premium.
+
+## Git and Version Control Best Practices
+
+Version control provides evidence of authorship and creation timeline:
+
+**Protect Your Identity in Git History**
+```bash
+# Ensure commits attributed to you
+git config user.name "Your Name"
+git config user.email "you@example.com"
+
+# Verify commits are attributed correctly
+git log --oneline | head -20
+
+# Never commit code without proper attribution
+# This creates legal evidence of authorship
+```
+
+**Document Project Milestones**
+```bash
+# Tag important milestones with timestamps
+git tag -a v1.0-client-delivery -m "Delivered to client on 2026-03-15"
+git tag -a v1.1-source-access -m "Source code access granted 2026-04-01"
+
+# Creates immutable timestamp record
+git show v1.0-client-delivery
+```
+
+**Maintain Separate Repositories**
+- Keep client code in private repositories during development
+- Create a mirror repository under your account for IP protection
+- Transfer access to client only after full payment
+
+## Dispute Resolution Strategies
+
+If a client violates your IP agreement, follow this escalation:
+
+**Step 1: Friendly Notice (Email)**
+```text
+Subject: Unauthorized Use of Intellectual Property
+
+Hi [Client],
+
+I've noticed you're using [specific code/design] in [specific context]
+that goes beyond the license we agreed to in our contract.
+
+Per Section [X] of our agreement dated [date], you have a
+non-exclusive license for internal use only. The usage I've
+identified (commercial resale / sublicensing to third party)
+violates this agreement.
+
+To resolve this friendly, please:
+1. Immediately cease the unauthorized use
+2. Confirm in writing within 5 business days that use has stopped
+3. Discuss compensation if you'd like to continue the use
+
+Let me know how you'd like to proceed.
+
+Best,
+[Your Name]
+```
+
+**Step 2: Formal Cease and Desist (if no response)**
+- Use a template from Rocket Lawyer ($30-50)
+- Send registered mail with return receipt
+- Document all communication
+- Most clients respond to formal notice
+
+**Step 3: Mediation (faster than court)**
+- Contact JAMS or local mediation services ($500-2,000 total)
+- Often resolves in 1-2 sessions
+- Much cheaper than litigation ($10,000+)
+- Maintains business relationship if possible
+
+**Step 4: Legal Action (last resort)**
+- Small claims court for <$5,000 claims
+- Copyright infringement suits for larger violations
+- Work with attorney (most do IP on contingency for clear violations)
+
+## Building Your IP Protection Process
+
+Make IP protection routine, not reactive:
+
+1. **Use a contract template** — Create your own from sample clauses above or purchase from LawDepot ($30-60 one-time)
+2. **Customize for each client** — Change names, amounts, and scope specifically
+3. **Get it signed before starting** — Never start work without a signed agreement
+4. **Archive everything** — Keep signed contracts in cloud storage with version control
+5. **Document creation dates** — Use Git commits and file timestamps as evidence
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

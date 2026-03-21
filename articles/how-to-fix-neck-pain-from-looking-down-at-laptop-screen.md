@@ -159,6 +159,143 @@ Fixing neck pain from laptop use requires the same systematic approach you apply
 
 The developers who avoid tech neck most successfully share one characteristic: they treat their body as seriously as they treat their code. Your body runs on the same hardware for your entire career — invest in maintaining it.
 
+## Product Recommendations for Fixing Tech Neck
+
+Getting the right tools makes sustainable change possible:
+
+**Monitor Stands and Laptop Stands (Budget: $30-150)**
+- Rain Design mStand: $40, aluminum construction, raises laptop 4.5 inches
+- Twelve South Curve: $50, wooden aesthetic, adjustable angles
+- Amazon Basics Monitor Riser: $25, basic but functional for laptops/screens
+- Fully Jarvis Dual Monitor Arm: $80-120, articulating arm that extends 20+ inches
+
+Use this measurement: When sitting normally, the top third of your screen should be at eye level, not requiring you to look down at all.
+
+**External Keyboards for Proper Wrist Position**
+- Keychron K3 Pro: $100, mechanical, wireless, 75% size (compact), works on multiple devices
+- Apple Magic Keyboard: $99, if you're in Apple ecosystem
+- Logitech MX Keys: $100, quiet mechanical, excellent battery life
+- Budget option: Microsoft Wired Keyboard 600: $30
+
+Key feature: Look for keyboards with built-in wrist rest or at least a flat typing surface.
+
+**Mice That Reduce Strain**
+- Logitech MX Master 3S: $100, ergonomic, reduces repetitive strain
+- Razer Pro Click Mini: $60, smaller hands-friendly, vertical mouse reduces pronation
+- Kinesis Orbit: $80, trackball mouse for people with wrist pain
+
+If you have existing wrist pain, switch to trackball or vertical mouse—traditional mice extend the wrist unnaturally.
+
+**Desk Setup Complete Workflow**
+
+Once you've purchased equipment, arrange it correctly:
+
+1. **Desk height**: Elbows at 90 degrees when arms relaxed
+2. **Keyboard position**: At elbow height, slightly angled down (5-10 degrees)
+3. **Monitor height**: Top of screen at eye level, about 20-24 inches from eyes
+4. **Mouse placement**: At same height as keyboard, close to the body
+
+Measure these precisely before arranging:
+- Have someone measure from floor to your elbow height when sitting normally
+- Place desk surface at elbow height
+- Place monitor 20-24 inches from your eyes (arm's length distance)
+
+## Building Ergonomic Habits
+
+Equipment is only 60% of the solution. The other 40% is habit.
+
+**The 20/20/20 Rule**
+Every 20 minutes:
+- Look at something 20 feet away for 20 seconds
+- This relaxes your eye muscles and breaks the forward head posture trigger
+
+Set a timer: `while true; do sleep 1200 && echo "Look away"; done`
+
+**Neck Pain Emergency Response**
+When your neck starts bothering you:
+
+1. **Stop immediately** (the instinct is to push through—resist it)
+2. **Do a chin tuck** (10 repetitions, 5-second holds)
+3. **Stretch neck** (gentle side-to-side, no bouncing)
+4. **Stand and walk** (2-minute break minimum)
+5. **Adjust posture** (reset screen height, keyboard position)
+6. **Ice if inflammation** (15 minutes with towel barrier)
+
+Most developers wait until pain is severe to address it. Early intervention prevents chronic problems.
+
+**Daily Neck Health Routine (3 minutes)**
+
+Add this to your morning or between work blocks:
+
+```
+Morning routine:
+1. Neck rolls: 5 slow circles each direction (30 seconds)
+2. Shoulder shrugs: 10 repetitions, 2-second holds (20 seconds)
+3. Chin tucks: 10 repetitions, 5-second holds (60 seconds)
+4. Neck stretch (left): 30 seconds
+5. Neck stretch (right): 30 seconds
+6. Upper trap stretch: 30 seconds each side (60 seconds)
+
+Total time: 3-4 minutes
+Best time: Before starting work or after lunch break
+```
+
+## Ergonomic Workstations by Budget
+
+**Minimal Budget ($50-100)**
+- Laptop stand made from books or cardboard
+- External wireless keyboard ($20-30)
+- External mouse ($15-30)
+Total investment: $50-100
+Effectiveness: 70% (gets screen to eye level, biggest impact)
+
+**Moderate Budget ($200-400)**
+- Monitor arm ($100-150)
+- Ergonomic keyboard ($80-100)
+- Trackball mouse ($60-80)
+Total investment: $240-330
+Effectiveness: 90% (precise positioning, proper wrist posture)
+
+**Full Setup ($800-1,500)**
+- Motorized standing desk ($500-800)
+- Dual monitor setup with dual arms ($300-400)
+- Ergonomic chair used ($300-500)
+- Mechanical keyboard ($100-150)
+- Quality mouse ($80-100)
+Total investment: $1,280-1,950
+Effectiveness: 95% (can't improve much beyond this)
+
+Most people see 80% improvement with moderate budget setup. Full setup matters more for people with chronic pain.
+
+## Ergonomic Assessment Checklist
+
+Before investing, verify current setup problems:
+
+- [ ] Can you look at the top of your screen without tilting down?
+- [ ] Are your elbows at 90 degrees when typing?
+- [ ] Is your screen about arm's length away (20-24 inches)?
+- [ ] Are your feet flat on the ground or footrest?
+- [ ] Is your chair height adjusted so your thighs are parallel to ground?
+- [ ] Do you feel tension in your shoulders after 2 hours of work?
+
+For each "no" answer, you've identified a problem to fix.
+
+## When to See a Physical Therapist
+
+If ergonomic adjustments and exercises don't improve neck pain within 2-3 weeks:
+
+- Pain radiates down arms or into hands (nerve compression)
+- Numbness or tingling in fingers (cervical radiculopathy)
+- Severe headaches starting at base of skull (cervical tension)
+- Pain that wakes you at night (inflammation)
+
+A physical therapist will:
+- Assess your specific posture issues
+- Identify muscle weakness or tightness
+- Provide targeted exercises
+- Verify nothing more serious is happening
+
+Most insurance covers physical therapy ($20-50 copay per session). Often 6-8 sessions is sufficient.
 
 ## Related Reading
 
