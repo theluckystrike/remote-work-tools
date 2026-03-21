@@ -241,6 +241,77 @@ For developers who prioritize visual impact over code control, Framer provides a
 
 Webflow offers pixel-perfect control through its visual editor while generating production-ready HTML and CSS. The learning curve pays dividends for portfolios requiring complex layouts. Export clean code or host directly on Webflow's infrastructure.
 
+## Structuring Your Portfolio for Remote Client Acquisition
+
+Remote freelancers face a specific challenge that local developers do not: clients often make hiring decisions entirely based on your online presence without ever meeting you in person. This changes what your portfolio needs to do.
+
+### Lead With Async Communication Proof
+
+Remote clients want evidence that you communicate clearly without real-time hand-holding. Include a "Process" or "How I Work" section that demonstrates your async workflow. Show that you write clear specifications, document decisions, and deliver updates proactively. This reassures clients in different time zones that working with you will not require scheduled calls for every question.
+
+### Case Studies Over Project Lists
+
+A gallery of screenshots tells a client nothing useful. Instead, structure three to five deep case studies that answer: what was the problem, what constraints existed, what trade-offs did you evaluate, and what measurable outcome resulted. Clients evaluating remote freelancers pay close attention to your thinking process because they cannot observe you working directly.
+
+Add a case study section to your Astro content schema:
+
+```typescript
+const caseStudies = defineCollection({
+ type: 'content',
+ schema: z.object({
+ title: z.string(),
+ client: z.string().optional(),
+ duration: z.string(),
+ outcome: z.string(),
+ tech: z.array(z.string()),
+ challenge: z.string(),
+ }),
+});
+```
+
+### Timezone and Availability Transparency
+
+State your working hours, timezone, and preferred communication channels on your contact page. Clients in North America hiring developers in Eastern Europe or Southeast Asia appreciate knowing whether overlap exists during their business day. A simple table showing your overlap windows with major client time zones converts more inquiries than a generic contact form.
+
+## Comparing Builders for Remote Freelance Scenarios
+
+| Builder | Best For | Maintenance | Remote Client Appeal |
+|---------|----------|-------------|----------------------|
+| Astro | Full control, code-heavy portfolios | Low (static) | High — demonstrates modern stack |
+| Hugo | Large project catalogs, fast rebuilds | Low (static) | Medium — less recognized by non-technical clients |
+| Framer | Design-forward, animation-rich | None (hosted) | High — visual impact for design-adjacent work |
+| Webflow | Complex layouts without framework lock-in | Low (hosted) | High — polished presentation |
+| Sanity + Next.js | Dynamic content, blog-heavy portfolios | Medium | High — shows full-stack capability |
+
+For developers targeting enterprise clients with procurement processes, a clean Astro or Next.js portfolio with documented case studies outperforms a flashy Framer site. Design agencies respond better to visual builders. Match your platform to your target client's expectations.
+
+## Performance as a Portfolio Statement
+
+Your portfolio's performance is itself a demonstration of your skills. A site that loads in under one second on a mobile connection makes an implicit argument about your attention to quality. Aim for:
+
+- Largest Contentful Paint under 1.5 seconds
+- Zero layout shift (CLS score of 0)
+- Perfect accessibility score on Lighthouse
+
+Astro achieves these benchmarks with minimal configuration. Add this build step to test before deploying:
+
+```bash
+npx lighthouse https://yourportfolio.dev --output json --output-path ./lh-report.json
+```
+
+Review Lighthouse output after every significant change. A portfolio that scores 98 on performance signals professionalism before a client reads a single word.
+
+## Keeping Your Portfolio Current Without Constant Rewrites
+
+Remote freelancers often neglect portfolio updates because rebuilding pages feels heavy. Set up a content pipeline that makes adding projects frictionless:
+
+1. Write project notes in a markdown file immediately after completing work, while details are fresh
+2. Use a Decap CMS or Sanity dashboard to add the project from any device, including mobile
+3. Configure automated deploys on git push so the site updates without manual intervention
+4. Set a calendar reminder every 90 days to review and archive outdated projects
+
+A portfolio updated recently signals to clients that you are actively taking work and invested in your professional presentation. Stale portfolios — last updated 2022 — suggest a developer who is either too busy to maintain their own site or no longer actively freelancing.
+
 ## Making Your Choice
 
 Select your portfolio builder based on three factors:
@@ -254,6 +325,24 @@ Select your portfolio builder based on three factors:
 For most freelance developers in 2026, Astro with a markdown-based workflow provides the optimal balance. You demonstrate modern web capabilities through your portfolio's implementation while maintaining full control over every byte delivered to visitors.
 
 Build something you're proud to show, keep it fast, and update it regularly. Your portfolio is a living demonstration of your craft.
+
+## Frequently Asked Questions
+
+**Should I build my portfolio from scratch or use a template?**
+
+Start with a template if you need to land clients quickly, then customize over time. A well-chosen template that loads fast and presents your work clearly beats a hand-rolled design that takes three months to finish. Use a template, customize the content thoroughly, and replace the design incrementally as you have bandwidth.
+
+**How many projects should my portfolio include?**
+
+Three to six projects with detailed case studies outperform twenty thumbnail galleries. Quality over quantity. Remote clients read your case studies carefully because they cannot meet you in person — give them enough material to build confidence.
+
+**Do I need a blog?**
+
+A blog helps with search visibility and demonstrates expertise, but it is not required. If you will not maintain it consistently, skip it. An empty or outdated blog signals neglect more than no blog does. If you do write, focus on topics your target clients search for — not developer tutorials aimed at other developers.
+
+**What domain should I use?**
+
+Your name as a `.dev` or `.com` domain remains the clearest choice for freelancers. Avoid clever wordplay that clients will misspell. If your name is common, add your specialty: `janesmith.dev` or `janesmith-rails.dev`.
 
 ---
 
