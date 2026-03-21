@@ -5,7 +5,7 @@ author: "Remote Work Tools Guide"
 categories: [guides]
 tags: [remote-work-tools, decision-making, team-management]
 title: "How to Set Up an Async Decision-Making Framework for Remote Teams"
-description: Guide to implementing async decision-making processes for remote teams. Includes frameworks, tools, templates, and real examples for faster, better decisions without meetings.
+description: "Guide to implementing async decision-making processes for remote teams. Includes frameworks, tools, templates, and real examples for faster, better decisions without meetings."
 permalink: /articles/how-to-set-up-async-decision-making-framework-guide/
 reviewed: true
 score: 9
