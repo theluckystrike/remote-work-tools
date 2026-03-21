@@ -7,7 +7,7 @@ last_modified_at: 2026-03-20
 author: theluckystrike
 permalink: /nomad-friend-finding-tips-guide-2026/
 categories: [guides]
-tags: [digital-nomad, remote-work, nomad, friend-finding, travel, community]
+tags: [remote-work-tools, digital-nomad, remote-work, nomad, friend-finding, travel, community]
 reviewed: true
 score: 9
 voice-checked: true

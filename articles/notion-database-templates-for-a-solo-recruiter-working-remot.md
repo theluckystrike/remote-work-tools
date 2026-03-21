@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /notion-database-templates-for-a-solo-recruiter-working-remot/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]

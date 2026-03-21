@@ -7,7 +7,7 @@ date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /migrating-from-hipchat-legacy-to-slack-for-remote-teams-still-on-old-platform/
 categories: [guides]
-tags: [remote-work-tools, migration, hipchat, slack, communication]
+tags: [remote-work-tools, migration, hipchat, slack, communication, remote-work]
 reviewed: true
 score: 8
 ---

@@ -9,6 +9,7 @@ permalink: /migrating-from-aws-codecommit-to-github-for-remote-team-code/
 reviewed: true
 score: 8
 categories: [guides]
+tags: [remote-work-tools, remote-work]
 ---
 
 
