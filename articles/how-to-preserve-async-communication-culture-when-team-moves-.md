@@ -9,7 +9,7 @@ permalink: /how-to-preserve-async-communication-culture-when-team-moves-/
 categories: [guides]
 tags: [remote-work-tools, async-communication, hybrid-work, remote-work, team-collaboration, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
