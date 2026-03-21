@@ -155,8 +155,95 @@ Choose based on your team's existing tools and technical capacity:
 | API flexibility | High | High | Medium | High |
 | Self-hosted | No | No | No | Yes |
 | Starting cost | $10/user | $10/user | $10/user | $0 (self-hosted) |
+| Zendesk integration | Via Zapier | Limited | Native app | Custom API |
+| Offline access | No | No | No | No |
 
 For most 40-person remote support teams, Notion provides the fastest path to productivity. Teams with strong Git practices benefit from GitBook's review workflows. Organizations already in the Atlassian ecosystem should use Confluence's integration advantages.
+
+## Integrating Your Wiki with Zendesk
+
+The most impactful upgrade for a support team is surfacing wiki articles directly inside the ticket interface. Agents should never need to open a separate browser tab to find a procedure. Zendesk Apps Framework lets you embed search results from your wiki using the Zendesk Apps API:
+
+```javascript
+// Zendesk App: Sidebar search for internal wiki
+const client = ZAFClient.init();
+
+client.on('app.registered', function() {
+  client.get('ticket').then(function(data) {
+    const ticketSubject = data.ticket.subject;
+    searchWiki(ticketSubject).then(results => renderResults(results));
+  });
+});
+
+async function searchWiki(query) {
+  const response = await fetch(
+    `https://your-notion-proxy.com/search?q=${encodeURIComponent(query)}`,
+    { headers: { 'Authorization': `Bearer ${NOTION_TOKEN}` } }
+  );
+  return response.json();
+}
+
+function renderResults(results) {
+  const html = results.slice(0, 5).map(r =>
+    `<li><a href="${r.url}" target="_blank">${r.title}</a></li>`
+  ).join('');
+  document.getElementById('results').innerHTML = `<ul>${html}</ul>`;
+}
+```
+
+This pattern works with any wiki that exposes a search API. Notion, Confluence, and Outline all support it. The proxy server handles authentication so you do not expose API tokens to the browser.
+
+## Structuring Your Knowledge Base for a Support Team
+
+A flat list of articles becomes unusable at scale. A 40-person team will accumulate hundreds of procedures across multiple products, tiers, and channels. Organize your wiki with a consistent hierarchy from day one:
+
+```
+Support Knowledge Base/
+  Product Areas/
+    Billing & Payments/
+    Account Management/
+    Technical Issues/
+  Processes/
+    Tier 1 Response Templates/
+    Escalation Procedures/
+    Refund Authorization Matrix/
+  Onboarding/
+    New Agent Checklist/
+    Tool Access Setup/
+    Shadow Ticket Guidelines/
+  Reference/
+    SLA Definitions/
+    Holiday Coverage Schedule/
+    Vendor Contact List/
+```
+
+Tag each article with the product area, tier (T1/T2/T3), and an "owned by" field so agents know who to contact when a procedure seems outdated. Without ownership, wiki articles drift into inaccuracy and agents stop trusting them.
+
+## Keeping Content Fresh Across Time Zones
+
+A wiki only reduces ticket handle time if agents trust that procedures are current. Stale content is worse than no content—agents who find outdated information stop using the wiki entirely. For a remote team spread across multiple time zones, content maintenance requires a systematic approach.
+
+Assign a quarterly review rotation among senior agents. Each quarter, a different group of five agents owns a defined section of the wiki. They review every article in their section, update procedures that have changed, and flag anything requiring escalation to a team lead. This distributes the maintenance burden and keeps multiple agents familiar with each area.
+
+Set up a Slack reminder using a simple scheduled message or workflow automation:
+
+- Week 1 of each quarter: Tag assigned agents with their review section
+- Week 3: Check-in message asking for articles updated count
+- Final week: Summary post of all changes made
+
+Document review cycles in a dedicated "Meta" section of the wiki itself, so new agents understand how knowledge management works and when to expect content to be verified.
+
+## Handling Multiple Languages in a Global Support Team
+
+Forty agents spread across time zones often means agents whose first language is not English. A wiki that works well in English but becomes difficult for non-native speakers to scan quickly creates inconsistent service quality across shifts.
+
+Three practices help:
+
+- Write procedures in short, declarative sentences. "Click Refund. Enter amount. Select reason code." is faster for any agent to follow under pressure than a paragraph of explanation.
+- Use numbered steps rather than prose paragraphs for any procedure with more than two actions.
+- Add a "quick reference" table at the top of high-traffic articles. One row per scenario, one column for the action to take.
+
+If your team spans regions where support is delivered in multiple languages, maintain a translation workflow from day one. Designate a lead agent per language who reviews translated articles monthly. Notion and Confluence both support duplicate page structures in separate spaces, which is the simplest approach for keeping language variants in sync.
 
 ## Implementation Checklist
 
@@ -179,7 +266,7 @@ Track wiki effectiveness through support metrics:
 A well-implemented wiki reduces agent onboarding time by 40% and improves first-response consistency. The investment pays dividends through reduced ticket volume and improved customer satisfaction scores.
 
 
-## Related Articles
+## Related Reading
 
 - [Front vs HelpScout for Remote Customer Support: A](/remote-work-tools/front-vs-helpscout-for-remote-customer-support/)
 - [Shared Inbox Tool for a 4 Person Remote Customer Success](/remote-work-tools/shared-inbox-tool-for-a-4-person-remote-customer-success-tea/)
