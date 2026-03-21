@@ -323,7 +323,5 @@ Managers need training to support neurodivergent team members effectively. Key t
 - [How to Manage Work-Life Balance as a Remote Developer](/remote-work-tools/how-to-manage-work-life-balance-remote-developer/)
 - [Response Time Expectations for Remote Workers: A.](/remote-work-tools/response-time-expectations-for-remote-workers-guide/)
 
-Built by
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
