@@ -9,7 +9,7 @@ permalink: /how-to-implement-just-in-time-access-for-remote-team-cloud-r/
 categories: [guides]
 tags: [remote-work-tools, cloud-security, just-in-time-access, iam, security, aws, gcp, azure]
 reviewed: true
-score: 8
+score: 9
 intent-checked: false
 voice-checked: false
 ---

@@ -9,7 +9,7 @@ permalink: /how-to-handle-remote-employee-underperformance-conversation-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, management, underperformance, team-leadership]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
