@@ -9,7 +9,7 @@ permalink: /how-to-scale-remote-team-from-5-to-20-without-losing-startup/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-scaling, startup-culture, team-management, async-communication]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

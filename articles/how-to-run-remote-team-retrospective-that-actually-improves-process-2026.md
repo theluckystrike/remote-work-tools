@@ -7,10 +7,10 @@ author: "Remote Work Tools Guide"
 permalink: /how-to-run-remote-team-retrospective-that-actually-improves-process-2026/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
-tags: [remote-work-tools, team-management, process]
+tags: [remote-work-tools, team-management, process, remote-work]
 ---
 
 {% raw %}

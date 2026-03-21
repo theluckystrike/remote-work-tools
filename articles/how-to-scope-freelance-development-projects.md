@@ -9,7 +9,7 @@ permalink: /how-to-scope-freelance-development-projects/
 categories: [guides]
 tags: [remote-work-tools, freelance, project-management, scoping]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
