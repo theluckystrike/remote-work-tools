@@ -9,7 +9,7 @@ permalink: /how-to-build-daily-routine-as-remote-worker-adjusting-to-new-timezon
 categories: [guides]
 tags: [remote-work-tools, remote-work, timezone, productivity, digital-nomad, routine-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
