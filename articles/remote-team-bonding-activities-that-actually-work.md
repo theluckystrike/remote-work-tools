@@ -9,7 +9,7 @@ permalink: /remote-team-bonding-activities-that-actually-work/
 categories: [guides]
 tags: [remote-work-tools, remote-work, team-building, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
