@@ -252,7 +252,6 @@ Watch out for these patterns that undermine inclusive meetings:
 - Same-host timezone dominance: Rotate not just meeting times but meeting hosts, giving each time zone ownership.
 
 
-
 ## Related Articles
 
 - [Virtual Meeting Etiquette Best Practices: A Developer Guide](/remote-work-tools/virtual-meeting-etiquette-best-practices/)

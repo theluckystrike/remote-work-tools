@@ -242,7 +242,6 @@ Automated assignment should pair with automated blocker detection. If a new hire
 Build the blocker notification to be optional and context-aware: suppress it during holidays, account for part-time schedules, and let new hires flag a module as "in progress but slow" to reset the timer. Automation that feels like surveillance drives disengagement. Automation that feels like support earns trust.
 
 
-
 ## Related Articles
 
 - [How to Register as Self-Employed Remote Worker in Portugal](/remote-work-tools/how-to-register-as-self-employed-remote-worker-in-portugal-f/)

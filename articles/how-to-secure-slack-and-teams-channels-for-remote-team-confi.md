@@ -255,7 +255,6 @@ Several frequent errors undermine channel security:
 Automated policies catch mistakes that human vigilance misses.
 
 
-
 ## Related Articles
 
 - [How to Create Interest-Based Slack Channels for Remote](/remote-work-tools/how-to-create-interest-based-slack-channels-for-remote-cultu/)

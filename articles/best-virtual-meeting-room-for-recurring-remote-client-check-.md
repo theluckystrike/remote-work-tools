@@ -321,7 +321,6 @@ For sensitive discussions, ensure your backdrop is clean and no confidential inf
 - Solution: Start with 2 minutes casual conversation (weather, weekend plans) before jumping into agenda. Human connection matters.
 
 
-
 ## Related Articles
 
 - [Example room configuration](/remote-work-tools/how-to-design-hybrid-meeting-room-with-equal-experience-for-remote-attendees/)

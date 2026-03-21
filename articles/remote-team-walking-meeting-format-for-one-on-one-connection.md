@@ -226,7 +226,6 @@ Before your first walking meeting:
 Walking meetings require more setup than sitting in front of a camera, but the payoff in conversation quality and relationship depth justifies the effort. Start with one walking meeting per week and evaluate after a month. Most teams that adopt this format find it becomes their preferred one-on-one structure.
 
 
-
 ## Related Articles
 
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)

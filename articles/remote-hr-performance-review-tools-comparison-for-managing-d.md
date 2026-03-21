@@ -258,9 +258,7 @@ Select your review system based on team size and complexity:
 
 **Tool adoption failure after launch:** If employees are not engaging with the platform, the UX is likely too complex for infrequent use. Performance review tools are used 2-4 times per year; the interface must be self-explanatory without any training for casual users.
 
-**Data export blockers before contract renewal:** Some vendors make data export difficult when contracts approach renewal. Export a full data snapshot at the end of every review cycle regardless of vendor relationship, and store it in your data warehouse or S3.
-
-## FAQ
+## Related Articles
 
 **Can I run a 360 review without a dedicated platform?**
 Yes. A lightweight option is Google Forms for collection, a spreadsheet for aggregation, and a Slack bot for reminders. This works for teams under 20 but breaks down at scale when you need automated routing, anonymity controls, and calibration views.

@@ -410,7 +410,6 @@ claude "The bundle size for this npm package exceeds our 10KB limit. Review the 
 ```
 
 
-
 ## Related Articles
 
 - [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)

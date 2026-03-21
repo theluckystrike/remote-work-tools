@@ -237,7 +237,6 @@ Train your team. Everyone who communicates with clients should understand the wo
 ---
 
 
-
 ## Related Articles
 
 - [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)

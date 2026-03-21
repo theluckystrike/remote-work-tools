@@ -390,7 +390,6 @@ If improvements are not demonstrated by [end date]:
 A good PIP shows the employee exactly what success looks like and gives them reasonable time and resources to achieve it.
 
 
-
 ## Related Articles
 
 - [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)

@@ -208,7 +208,6 @@ If your employer:
 - [ ] Don't accept "we'll review in 6 months"—get certainty upfront
 
 
-
 ## Related Articles
 
 - [Dubai Remote Work Virtual Visa Cost and Benefits for Tech](/remote-work-tools/dubai-remote-work-virtual-visa-cost-and-benefits-for-tech-pr/)

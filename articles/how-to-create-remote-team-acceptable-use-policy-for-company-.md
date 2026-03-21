@@ -212,7 +212,6 @@ DON'T:
 ```
 
 
-
 ## Related Articles
 
 - [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)

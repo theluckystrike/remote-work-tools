@@ -219,7 +219,6 @@ Track these metrics before and after training:
 - Voluntary turnover: particularly for remote employees who might feel disconnected
 
 
-
 ## Related Articles
 
 - [Hybrid Work Manager Training Program Template](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-pa/)

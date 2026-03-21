@@ -225,7 +225,6 @@ Remote work doesn't have to mean architectural amnesia. With structured document
 ---
 
 
-
 ## Related Articles
 
 - [Remote Architecture Collaboration Tool for Distributed](/remote-work-tools/remote-architecture-collaboration-tool-for-distributed-teams/)

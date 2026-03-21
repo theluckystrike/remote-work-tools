@@ -335,7 +335,6 @@ Start with containerized demos using Docker Compose for single-machine deploymen
 Invest in automation from day one. Every manual step in your demo provisioning process is a potential failure point that will surface at the worst possible moment—during a critical customer demo.
 
 
-
 ## Related Articles
 
 - [Output paths](/remote-work-tools/async-sales-demo-recordings-for-remote-enterprise-sales-team/)

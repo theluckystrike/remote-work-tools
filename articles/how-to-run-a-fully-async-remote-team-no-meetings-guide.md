@@ -249,7 +249,6 @@ post_async_standup(
 ```
 
 
-
 ## Related Articles
 
 - [How to Build Async Feedback Culture on a Fully Remote Team](/remote-work-tools/how-to-build-async-feedback-culture-on-a-fully-remote-team/)

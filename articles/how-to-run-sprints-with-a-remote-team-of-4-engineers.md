@@ -247,7 +247,6 @@ Start with async standups this sprint, add capacity planning in your next planni
 ---
 
 
-
 ## Related Articles
 
 - [How to Manage Sprints with Remote Team: A Practical](/remote-work-tools/how-to-manage-sprints-with-remote-team/)

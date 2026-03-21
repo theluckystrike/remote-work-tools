@@ -200,7 +200,6 @@ Whatever you choose, ensure your financial data remains portable. Regular export
 ---
 
 
-
 ## Related Articles
 
 - [Example: Create invoice with automatic currency conversion](/remote-work-tools/best-multi-currency-accounting-software-for-remote-agencies-/)

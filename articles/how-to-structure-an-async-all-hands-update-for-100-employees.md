@@ -178,7 +178,6 @@ Choose tools your team already uses. Introducing new platforms for all-hands cre
 An async all-hands for 100 employees succeeds through structure, not magic. Define clear sections, automate collection, time distribution consistently, and close the loop with real Q&A. Your team gets information they can actually absorb, and you get a scalable communication system that works regardless of team size or time zone distribution.
 
 
-
 ## Related Articles
 
 - [Example: project-update.yml - Scheduled updates structure](/remote-work-tools/how-to-manage-client-expectations-when-team-works-asynchrono/)

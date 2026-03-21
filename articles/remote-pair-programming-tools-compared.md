@@ -191,7 +191,6 @@ Structure makes pairing more effective:
 ```
 
 
-
 ## Related Articles
 
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)

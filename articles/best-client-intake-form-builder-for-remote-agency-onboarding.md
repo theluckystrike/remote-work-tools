@@ -273,7 +273,6 @@ Track these metrics to optimize your intake process:
 - **Team efficiency** — How much time does your team spend on manual intake processing? Should decrease as automation improves.
 
 
-
 ## Related Articles
 
 - [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)

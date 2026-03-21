@@ -407,7 +407,6 @@ Element security best practices:
 ---
 
 
-
 ## Related Articles
 
 - [Deploy a secure Element (Matrix) server for pen test](/remote-work-tools/remote-team-penetration-testing-coordination-guide-for-distr/)

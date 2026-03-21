@@ -300,7 +300,6 @@ Phase 3: Norms and Governance
 ```
 
 
-
 ## Related Articles
 
 - [How to Set Up Shared Notion Workspace with Remote Agency](/remote-work-tools/how-to-set-up-shared-notion-workspace-with-remote-agency-cli/)

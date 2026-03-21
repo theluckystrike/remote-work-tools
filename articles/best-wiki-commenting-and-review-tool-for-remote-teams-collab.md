@@ -273,7 +273,6 @@ If you have:
 Don't overthink tool selection. Pick something, run it for 3 months, collect feedback, adjust. Most organizations change tools 1-2 times before finding what works for their team.
 
 
-
 ## Related Articles
 
 - [Best Tools for Async Annotation and Commenting on Design](/remote-work-tools/best-tools-for-async-annotation-and-commenting-on-design-moc/)

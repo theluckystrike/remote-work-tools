@@ -250,7 +250,6 @@ Less Buffer (10%): -197 hours
 This async calculation completed without any meetings, using shared documents and written communication.
 
 
-
 ## Related Articles
 
 - [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)

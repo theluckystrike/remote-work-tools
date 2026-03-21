@@ -194,7 +194,6 @@ The key insight: any of these four chairs will dramatically improve your home of
 ---
 
 
-
 ## Related Articles
 
 - [Herman Miller vs Steelcase for Remote Developers: A](/remote-work-tools/herman-miller-vs-steelcase-for-remote-developers/)

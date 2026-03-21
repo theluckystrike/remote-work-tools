@@ -399,7 +399,6 @@ Tested in: Home office, Zoom calls, outdoor communication.
 ---
 
 
-
 ## Related Articles
 
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)

@@ -258,7 +258,6 @@ Most freelance developers will benefit from Stripe for its developer experience 
 The best tool is the one that fits into your existing workflow without requiring you to change how you work.
 
 
-
 ## Related Articles
 
 - [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)

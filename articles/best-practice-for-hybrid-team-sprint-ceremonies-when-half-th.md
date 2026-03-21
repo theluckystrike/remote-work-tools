@@ -287,7 +287,6 @@ Track these metrics monthly to catch problems early:
 If warning signs appear, don't wait for the next retrospective. Address immediately—hybrid dysfunction compounds quickly.
 
 
-
 ## Related Articles
 
 - [How to Scale Remote Team Sprint Ceremonies When Splitting](/remote-work-tools/how-to-scale-remote-team-sprint-ceremonies-when-splitting-in/)

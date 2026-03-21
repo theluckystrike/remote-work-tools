@@ -269,7 +269,6 @@ Regardless of team size, these principles remain constant:
 Scaling incident response isn't about adding bureaucracy—it's about creating structure that lets your team respond faster and more effectively as the system complexity grows. Start with foundations at ten engineers, mature the process at twenty, and formalize at fifty. Your on-call team will thank you.
 
 
-
 ## Related Articles
 
 - [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)

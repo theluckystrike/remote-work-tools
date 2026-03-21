@@ -188,7 +188,6 @@ const scalingMetrics = {
 ```
 
 
-
 ## Related Articles
 
 - [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)

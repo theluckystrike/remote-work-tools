@@ -235,7 +235,6 @@ For organizations with multiple office locations, your data model should support
 Finally, think carefully about your reporting layer before launch. Facilities teams need utilization by category (are we under-stocked on monitors? over-stocked on webcams?) and trending data by quarter. HR may need aggregate checkout activity by team for asset planning. Building these reports into the initial scope—even as simple CSV exports—prevents a long backlog of reporting requests six months post-launch.
 
 
-
 ## Related Articles
 
 - [How to Create Hybrid Work Feedback Loop Collecting Employee](/remote-work-tools/how-to-create-hybrid-work-feedback-loop-collecting-employee-input-on-policy-changes/)

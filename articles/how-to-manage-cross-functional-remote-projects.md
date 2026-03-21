@@ -179,7 +179,6 @@ Track cycle time (task start to completion), blocked time (days waiting on depen
 Review these metrics monthly with your team. Identify patterns and experiment with changes.
 
 
-
 ## Related Articles
 
 - [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)

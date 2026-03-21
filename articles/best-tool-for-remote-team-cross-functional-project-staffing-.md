@@ -241,7 +241,6 @@ Start with manual data entry in your Notion staffing database. Run staffing revi
 The custom approach requires more setup than off-the-shelf solutions, but it adapts to your organization's unique staffing patterns. As remote teams continue to grow, having visibility into skills, availability, and project history becomes a competitive advantage in executing cross-functional work effectively.
 
 
-
 ## Related Articles
 
 - [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)

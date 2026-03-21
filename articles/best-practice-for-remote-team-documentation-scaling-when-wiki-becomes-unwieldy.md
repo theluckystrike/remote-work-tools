@@ -333,7 +333,6 @@ Too much to do? Prioritize this way:
 After these five steps, your documentation scaling is under control. Everything else is optimization.
 
 
-
 ## Related Articles
 
 - [Page Title](/remote-work-tools/best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/)

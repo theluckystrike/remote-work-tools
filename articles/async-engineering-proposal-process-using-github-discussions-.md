@@ -266,7 +266,6 @@ Track these metrics to improve your async proposal process over time:
 Use GitHub's built-in analytics or export Discussion data via the API for analysis. A healthy process typically sees decisions within 7 days and participation from at least half the core team on significant proposals.
 
 
-
 ## Related Articles
 
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)

@@ -149,27 +149,155 @@ Collections:
     └── Design
 ```
 
+## Extension Stack Recommendations by Workflow
+
+Different developers benefit from different extension sets. Here are curated stacks based on typical workflows:
+
+**Minimal Stack (React/Frontend Developer):**
+1. React Developer Tools ($0)
+2. JSONView ($0)
+3. uBlock Origin ($0)
+4. Dark Reader ($0)
+
+Total annual cost: $0
+Time savings: ~2 hours/week (context switching, JSON parsing, readability)
+
+**Full Stack (Full-stack engineer + DevOps):**
+1. React Developer Tools ($0)
+2. Vue.js devtools ($0)
+3. EditThisCookie ($0)
+4. SourceGraph ($0)
+5. Postman Interceptor ($0)
+6. uBlock Origin ($0)
+7. Dark Reader ($0)
+8. Raindrop.io ($0 basic, $48/year pro)
+
+Total annual cost: $0-48
+Time savings: ~5 hours/week (documentation lookup, API testing, code navigation)
+
+**Power User Stack (Including productivity & distraction blocking):**
+1. All above
+2. Tab Wrangler ($0)
+3. OneTab ($0)
+4. StayFocusd ($0)
+5. Todoist ($0-56/year)
+6. SourceGraph ($0-200/month for enterprise)
+
+Total annual cost: $0-240
+Time savings: ~8 hours/week (tab management, focus, task capture)
+
+## Performance Monitoring Extension Impact
+
+Use this simple script to measure extension overhead:
+
+```javascript
+// Check extension performance impact
+// Open DevTools > Performance tab > Record > Reload page
+
+// Baseline: Reload with all extensions disabled
+// Measurement 1: Reload with essential extensions only
+// Measurement 2: Reload with full extension stack
+
+// Compare page load times:
+// - Baseline: X ms
+// - Essential: X + 5-10% ms
+// - Full stack: X + 20-40% ms
+
+// If full stack > baseline + 30%, consider trimming least-used extensions
+```
+
+## Advanced: Custom Extension Creation
+
+For power users, simple browser extensions automate repetitive tasks:
+
+```javascript
+// manifest.json - Custom developer utility extension
+{
+  "manifest_version": 3,
+  "name": "Dev Helper",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_scripts": ["popup.js"]
+  }
+}
+
+// popup.js - Example: Auto-format JSON from clipboard
+document.getElementById('formatBtn').addEventListener('click', async () => {
+  const text = await navigator.clipboard.readText();
+  try {
+    const json = JSON.parse(text);
+    const formatted = JSON.stringify(json, null, 2);
+    await navigator.clipboard.writeText(formatted);
+    console.log('JSON formatted and copied');
+  } catch (e) {
+    console.error('Invalid JSON:', e);
+  }
+});
+
+// Save ~30 seconds per JSON formatting task
+// If you format JSON 5+ times daily, this saves 40+ minutes/week
+```
+
+## Extension Audit Checklist
+
+Run this quarterly to keep your extension set lean:
+
+```markdown
+## Q2 Extension Audit (March 2026)
+
+Extension | Installed | Last Used | Weekly Usage | Keep? | Notes |
+-----------|-----------|-----------|-------------|-------|-------|
+React Dev Tools | 6 months | Daily | 15+ times | YES | Core workflow |
+JSONView | 2 years | 3/week | 3-5 times | YES | Essential for APIs |
+Postman Interceptor | 1 year | 2/week | 2-3 times | YES | Testing workflows |
+Edit This Cookie | 8 months | Monthly | <1 time | MAYBE | Replace with DevTools built-in |
+OneTab | 1 year | Never | 0 times | NO | Remove - not using |
+uBlock Origin | 3 years | Daily | Passive | YES | Performance + privacy |
+Dark Reader | 2 years | Daily | Passive | YES | Eye strain reduction |
+SourceGraph | 6 months | 2/week | 3-4 times | YES | Code navigation |
+Raindrop.io | 6 months | Weekly | 2-3 times | MAYBE | Use native bookmarks instead? |
+Tab Wrangler | 9 months | Daily | Passive | YES | Memory management |
+
+### Decision Matrix:
+- Used daily or multiple times/week: KEEP
+- Used monthly or less: REMOVE
+- Passive use (always running): Evaluate if benefit > overhead
+- Haven't used in 3+ months: REMOVE
+
+### Action Items:
+- Remove OneTab (unused)
+- Test native Raindrop.io alternative
+- Monitor Tab Wrangler memory impact
+```
+
 ## Extension Management Best Practices
 
 Managing multiple extensions requires deliberate organization.
 
-Review your extensions quarterly and remove anything you haven't used in the past month. Each extension runs in your browser's background, potentially consuming memory and creating security surface area.
+**Quarterly Review:** Review your extensions quarterly and remove anything you haven't used in the past month. Each extension runs in your browser's background, potentially consuming memory and creating security surface area. The cost-benefit should be obvious for each one.
 
-Create browser profiles for different contexts. Use one profile for development with all your dev tools, another for general browsing with minimal extensions. Browser profile switching keeps your environments clean and focused.
+**Browser Profiles:** Create browser profiles for different contexts. Use one profile for development with all your dev tools, another for general browsing with minimal extensions, and a third for accessing sensitive production systems with zero extensions. Profile switching keeps your environments clean and focused.
 
-Test new extensions in a separate profile first. This prevents problematic extensions from affecting your primary workflow and gives you time to evaluate whether the extension adds genuine value.
+**Testing:** Test new extensions in a separate profile first. This prevents problematic extensions from affecting your primary workflow and gives you time to evaluate whether the extension adds genuine value. Use the 2-week rule: if you haven't used it by day 14, uninstall it.
 
 ## Security Considerations
 
 Browser extensions have significant access to your browsing data. Before installing any extension:
 
-- Check the permissions it requests
+- Check the permissions it requests (be suspicious of "access all sites" permissions)
 - Review the extension's update history and developer reputation
-- Prefer extensions with open-source code
-- Remove unused extensions promptly
+- Prefer extensions with open-source code you can audit
+- Remove unused extensions promptly (fewer extensions = smaller attack surface)
+- Never grant extensions more permissions than necessary
 
-For developers working with sensitive applications, consider using a separate browser instance with minimal extensions for production environments.
+For developers working with sensitive applications, consider using a separate browser instance with minimal extensions for production environments. Production work should only have: authentication tools, monitoring dashboards, and nothing else.
 
+**Extensions with High Permissions (Be Cautious):**
+- Tab Wrangler: Needs tab access (necessary for functionality, review ratings before install)
+- EditThisCookie: Needs cookie access (only for testing, don't use on production accounts)
+- SourceGraph: Needs code access (legitimate for code intelligence, but verify authenticity)
 
 
 ## Related Articles

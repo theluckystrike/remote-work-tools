@@ -208,7 +208,6 @@ At the start of each semester or term, hold a brief planning session where paren
 Keep these meetings short—15 minutes maximum. The goal is information sharing, not extensive discussion.
 
 
-
 ## Related Articles
 
 - [calendar_manager.py - Manage childcare-aware calendar blocks](/remote-work-tools/best-calendar-blocking-strategy-for-remote-working-parents-m/)

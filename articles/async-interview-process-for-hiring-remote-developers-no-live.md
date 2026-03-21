@@ -229,7 +229,6 @@ Document how your team handles these situations to maintain consistency.
 **Skipping cultural fit assessment.** Async doesn't mean impersonal. Include questions about collaboration style and work preferences.
 
 
-
 ## Related Articles
 
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)

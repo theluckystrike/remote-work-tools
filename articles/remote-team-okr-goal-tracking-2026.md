@@ -349,7 +349,6 @@ Run a quick survey mid-year: "Rate 1-5 how clear company priorities are to you."
 OKRs done well make remote teams feel connected, aligned, and enabled. They're the clearest signal that distributed work can be just as effective as office work.
 
 
-
 ## Related Articles
 
 - [OKR Tracking for a Remote Product Team of 12 People](/remote-work-tools/okr-tracking-for-a-remote-product-team-of-12-people/)

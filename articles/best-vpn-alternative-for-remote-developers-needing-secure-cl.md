@@ -270,7 +270,6 @@ Before migrating from traditional VPN:
 - [ ] Document lessons learned from migration
 
 
-
 ## Related Articles
 
 - [How to Setup Vpn Secure Remote Access Office Resources](/remote-work-tools/how-to-setup-vpn-secure-remote-access-office-resources/)

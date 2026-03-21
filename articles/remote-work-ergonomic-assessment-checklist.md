@@ -331,7 +331,6 @@ An occupational therapist can perform detailed ergonomic assessment and recommen
 Built by Remote Work Tools Guide — More at [zovo.one](https://zovo.one)
 
 
-
 ## Related Articles
 
 - [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)

@@ -183,7 +183,6 @@ Keep communications professional but firm. Consistent follow-up on overdue invoi
 Consistent invoice numbering, organized client records, and a centralized payment tracker are the foundation. Clarify payment terms before starting work, and consult a tax professional about your specific situation—tax rules vary significantly based on your home country, client locations, and the nature of your services.
 
 
-
 ## Related Articles
 
 - [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)

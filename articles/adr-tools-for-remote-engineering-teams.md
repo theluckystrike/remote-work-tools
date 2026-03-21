@@ -210,7 +210,6 @@ Run this script with `./new-adr.sh "Use Redis for Caching"` to generate a proper
 ---
 
 
-
 ## Related Articles
 
 - [ADR-003: Use PostgreSQL for Primary Data Store](/remote-work-tools/how-to-create-remote-team-communication-guidelines-for-new-p/)

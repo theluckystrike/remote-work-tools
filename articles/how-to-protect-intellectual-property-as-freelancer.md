@@ -363,7 +363,6 @@ Make IP protection routine, not reactive:
 5. **Document creation dates** — Use Git commits and file timestamps as evidence
 
 
-
 ## Related Articles
 
 - [Remote Employee Intellectual Property Assignment Clause](/remote-work-tools/remote-employee-intellectual-property-assignment-clause-temp/)

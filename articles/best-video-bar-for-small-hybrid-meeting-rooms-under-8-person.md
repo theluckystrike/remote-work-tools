@@ -176,7 +176,6 @@ Consider connecting video bars to the same UPS that powers the room display and 
 Some video bars support PoE (Power over Ethernet) when used with network cables, simplifying power management in rooms with Ethernet infrastructure. This approach eliminates separate power cables and enables centralized power control through network switches.
 
 
-
 ## Related Articles
 
 - [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)

@@ -224,7 +224,6 @@ The digital nomad visa isn't ideal for everyone. Consider:
 - Student visa: If enrolling in Spanish courses or degree programs
 
 
-
 ## Related Articles
 
 - [Montenegro Digital Nomad Visa Application Process for](/remote-work-tools/montenegro-digital-nomad-visa-application-process-for-remote/)

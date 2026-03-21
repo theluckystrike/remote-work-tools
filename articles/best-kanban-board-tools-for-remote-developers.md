@@ -196,7 +196,6 @@ Review board analytics during retrospectives. Identify columns where cards consi
 ---
 
 
-
 ## Related Articles
 
 - [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)

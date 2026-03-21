@@ -226,7 +226,6 @@ If moving from Sketch to Figma:
 Most teams report 3-4 week transition time with zero productivity loss. The upfront investment pays off immediately through faster collaboration and fewer versioning headaches.
 
 
-
 ## Related Articles
 
 - [Figma Organization Structure for a Remote Design Team of 8](/remote-work-tools/figma-organization-structure-for-a-remote-design-team-of-8/)

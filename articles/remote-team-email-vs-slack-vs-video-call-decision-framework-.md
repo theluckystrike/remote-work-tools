@@ -183,7 +183,6 @@ Track these metrics to evaluate if your channel selection is working:
 - Team satisfaction: Quarterly survey on communication effectiveness
 
 
-
 ## Related Articles
 
 - [Best Practice for Remote Team Decision Making Framework That](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)

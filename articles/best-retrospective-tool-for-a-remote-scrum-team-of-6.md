@@ -303,7 +303,6 @@ Test two options with actual sprints before committing. Run one retro with your 
 ---
 
 
-
 ## Related Articles
 
 - [Sprint Planning Tools for a 20 Person Distributed Scrum Team](/remote-work-tools/sprint-planning-tools-for-a-20-person-distributed-scrum-team/)

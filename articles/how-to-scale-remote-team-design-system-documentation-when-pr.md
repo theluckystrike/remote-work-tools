@@ -261,7 +261,6 @@ The goal is not perfect documentation—it's documentation that enables your tea
 ---
 
 
-
 ## Related Articles
 
 - [Best Practice for Remote Team Escalation Paths That Scale](/remote-work-tools/best-practice-for-remote-team-escalation-paths-that-scale-wi/)

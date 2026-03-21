@@ -275,7 +275,6 @@ Track these metrics over 12 months:
 Most freelancers break even on time investment after month 6-8, see positive ROI by month 12. If a community shows no progress after 6 months, exit and try a different one. Your time is your scarcest resource.
 
 
-
 ## Related Articles
 
 - [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)

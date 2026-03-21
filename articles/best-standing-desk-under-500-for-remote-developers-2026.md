@@ -304,7 +304,6 @@ tail -10 ~/standing-log.txt
 ```
 
 
-
 ## Related Articles
 
 - [Best Standing Desk Converters Under $300 for Developers](/remote-work-tools/best-standing-desk-converters-under-300-for-developers/)

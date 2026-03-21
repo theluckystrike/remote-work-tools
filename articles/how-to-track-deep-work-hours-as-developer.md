@@ -189,7 +189,6 @@ Focus on a few core measurements rather than overwhelming yourself with data:
 Aim for a realistic weekly deep work target — typically 20-30 hours for knowledge workers. Track session length: most people can sustain deep focus for 60-90 minutes before needing a break. Monitor context-switching frequency to see how often you interrupt yourself. Log project time allocation so you know how much focused time each project actually requires.
 
 
-
 ## Related Articles
 
 - [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)

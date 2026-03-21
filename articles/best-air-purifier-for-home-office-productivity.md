@@ -222,7 +222,6 @@ if __name__ == "__main__":
 ```
 
 
-
 ## Related Articles
 
 - [Best External Display for MacBook Air M4 Home Office Setup](/remote-work-tools/best-external-display-for-macbook-air-m4-home-office-setup/)

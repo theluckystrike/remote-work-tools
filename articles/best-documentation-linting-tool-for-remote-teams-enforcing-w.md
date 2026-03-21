@@ -270,7 +270,6 @@ Select a documentation linting tool based on your team's specific needs:
 Start with Vale using basic rules, then expand configuration as your team's documentation standards mature. The initial investment in setup pays dividends through consistent, maintainable documentation across your remote team.
 
 
-
 ## Related Articles
 
 - [How to Create Decision Log Documentation for Remote Teams](/remote-work-tools/how-to-create-decision-log-documentation-for-remote-teams-re/)

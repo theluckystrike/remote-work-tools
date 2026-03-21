@@ -185,7 +185,6 @@ Track consolidation results over time. Three months after migration, review:
 These metrics justify the effort and identify areas for further optimization.
 
 
-
 ## Related Articles
 
 - [How to Create Remote Team Internal Mobility Program for Grow](/remote-work-tools/how-to-create-remote-team-internal-mobility-program-for-grow/)

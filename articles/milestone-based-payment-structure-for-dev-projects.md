@@ -207,7 +207,6 @@ Schedule milestone reviews before payment requests. Walk through what you delive
 If a milestone takes longer than estimated, communicate early. Clients appreciate advance notice rather than surprises at deadline time. Discuss whether to adjust subsequent milestones or accept the delay.
 
 
-
 ## Related Articles
 
 - [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)

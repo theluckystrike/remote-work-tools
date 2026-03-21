@@ -449,7 +449,6 @@ This synthesis-as-code approach scales to hundreds of interviews. You can re-run
 This workflow produces reusable artifacts. Your interview library becomes a referenceable knowledge base that new team members can explore independently.
 
 
-
 ## Related Articles
 
 - [How to Run Remote Workshop for Product Managers Defining](/remote-work-tools/how-to-run-remote-workshop-for-product-managers-defining-qua/)

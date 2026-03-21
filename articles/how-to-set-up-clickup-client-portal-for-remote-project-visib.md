@@ -230,7 +230,6 @@ Run this monthly to ensure former clients no longer have access and current clie
 The client portal setup is not a one-time configuration—treat it as part of your client service infrastructure that evolves based on feedback and usage patterns.
 
 
-
 ## Related Articles
 
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)

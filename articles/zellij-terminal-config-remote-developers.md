@@ -289,7 +289,6 @@ Use **tmux** if:
 Both handle SSH session persistence equally well. The day-to-day experience with either is comparable once you learn the keybindings.
 
 
-
 ## Related Articles
 
 - [tmux Config Guide for Remote Developers](/remote-work-tools/tmux-config-guide-remote-developers/)

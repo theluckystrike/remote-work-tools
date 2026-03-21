@@ -205,7 +205,6 @@ Set velocity targets based on your data. A reasonable remote hiring pipeline sho
 Track these weekly. If your actual times exceed targets by more than 20%, investigate the bottleneck stage. For distributed teams, expect slightly longer technical stages due to scheduling complexity.
 
 
-
 ## Related Articles
 
 - [How to Track Remote Team Velocity Metrics](/remote-work-tools/how-to-track-remote-team-velocity-metrics/)

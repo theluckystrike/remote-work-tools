@@ -229,7 +229,6 @@ Protecting sensitive real estate data requires attention to several areas:
 - Data Retention: Follow jurisdiction-specific retention requirements, typically 5-10 years for real estate documents
 
 
-
 ## Related Articles
 
 - [Best Practice for Remote Real Estate Photographers](/remote-work-tools/best-practice-for-remote-real-estate-photographers-deliverin/)

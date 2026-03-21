@@ -311,7 +311,6 @@ Here's your quick-start checklist:
 **
 
 
-
 ## Related Articles
 
 - [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)

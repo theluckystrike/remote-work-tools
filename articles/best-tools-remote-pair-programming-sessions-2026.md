@@ -511,7 +511,6 @@ ping partner-location
 ---
 
 
-
 ## Related Articles
 
 - [How to Set Up Remote Pair Programming Sessions](/remote-work-tools/how-to-set-up-remote-pair-programming-sessions-guide/)

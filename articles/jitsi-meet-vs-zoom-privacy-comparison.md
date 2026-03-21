@@ -260,7 +260,6 @@ const securityBestPractices = {
 The decision between Jitsi and Zoom ultimately comes down to your threat model and operational capacity. If your team has an engineer willing to maintain a self-hosted instance, Jitsi offers a level of privacy control that no SaaS product can match. If your team is non-technical or needs maximum compatibility with external participants, Zoom with E2EE enabled is a defensible choice for most remote work use cases. Whichever platform you choose, review your encryption settings, data retention policies, and recording configurations quarterly—both platforms update their settings defaults, and what was configured correctly six months ago may have drifted.
 
 
-
 ## Related Articles
 
 - [Cheapest Video Call Tool for Weekly 50 Person All Hands](/remote-work-tools/cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/)

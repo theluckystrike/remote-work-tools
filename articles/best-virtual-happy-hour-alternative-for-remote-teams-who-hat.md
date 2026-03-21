@@ -473,7 +473,6 @@ Ongoing (Quarterly):
 ---
 
 
-
 ## Related Articles
 
 - [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)

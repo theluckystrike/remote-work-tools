@@ -243,7 +243,6 @@ if __name__ == "__main__":
 ```
 
 
-
 ## Related Articles
 
 - [Best Video Conferencing Setup for Hybrid Rooms: A](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)

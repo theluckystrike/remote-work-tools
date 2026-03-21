@@ -179,7 +179,6 @@ Test actual usage patterns before committing. The best tool is one your team act
 ---
 
 
-
 ## Related Articles
 
 - [slack_workflow_async_checkin.py](/remote-work-tools/virtual-happy-hour-alternatives-for-remote-teams-who-hate-th/)

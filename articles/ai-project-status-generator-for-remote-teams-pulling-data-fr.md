@@ -466,7 +466,6 @@ class ReportDelivery:
 Building an AI project status generator eliminates the manual drudgery of synthesizing updates across disparate tools. Your team gets consistent, data-driven status reports without anyone spending hours gathering information.
 
 
-
 ## Related Articles
 
 - [Client Project Status Dashboard Setup for Remote Agency](/remote-work-tools/client-project-status-dashboard-setup-for-remote-agency-team/)

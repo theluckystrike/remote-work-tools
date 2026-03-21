@@ -241,7 +241,6 @@ Create an internal reference document that answers these questions for each tool
 This documentation prevents knowledge silos and ensures consistent security practices regardless of who performs onboarding.
 
 
-
 ## Related Articles
 
 - [teleport-db-config.yaml](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)

@@ -195,7 +195,6 @@ tail -10 ~/standing-log.txt
 ```
 
 
-
 ## Related Articles
 
 - [Best LED Bias Lighting Strip Behind Monitor for Eye Strain](/remote-work-tools/best-led-bias-lighting-strip-behind-monitor-for-eye-strain/)

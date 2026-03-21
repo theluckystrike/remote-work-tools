@@ -196,7 +196,6 @@ Start with one channel and prove it works before expanding:
 Building genuine connections in remote teams requires intentional design. The channels exist, the tools are available—what matters is committing to social infrastructure as seriously as you take your technical infrastructure.
 
 
-
 ## Related Articles
 
 - [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)

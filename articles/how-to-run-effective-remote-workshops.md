@@ -234,7 +234,6 @@ Even experienced facilitators run into problems. Here are traps that undermine w
 - No decision criteria: Without agreed-upon decision-making frameworks, discussions circle endlessly
 
 
-
 ## Related Articles
 
 - [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)

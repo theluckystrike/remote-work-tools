@@ -221,7 +221,6 @@ jobs:
 ```
 
 
-
 ## Related Articles
 
 - [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)

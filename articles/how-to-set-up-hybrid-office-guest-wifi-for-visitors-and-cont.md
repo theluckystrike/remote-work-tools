@@ -203,7 +203,6 @@ The key is assuming guests will connect untrusted devices and designing your net
 When contractors finish their engagements, revoke their credentials immediately. When events conclude, rotate passwords. These operational practices matter as much as the technical configuration.
 
 
-
 ## Related Articles
 
 - [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)

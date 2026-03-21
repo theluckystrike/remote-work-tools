@@ -183,7 +183,6 @@ Metrics alone won't fix meeting culture. Use data to start conversations:
 These conversations, grounded in data, create buy-in for changes that would otherwise face resistance.
 
 
-
 ## Related Articles
 
 - [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)

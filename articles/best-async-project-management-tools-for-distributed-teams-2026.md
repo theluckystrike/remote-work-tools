@@ -445,7 +445,6 @@ Company case study (from Height data, 2026):
 ---
 
 
-
 ## Related Articles
 
 - [How to Write Clear Async Project Briefs for Remote Teams](/remote-work-tools/how-to-write-clear-async-project-briefs-for-remote-teams-avo/)

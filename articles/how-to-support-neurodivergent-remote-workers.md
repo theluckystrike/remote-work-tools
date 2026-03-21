@@ -305,7 +305,6 @@ Managers need training to support neurodivergent team members effectively. Key t
 **Ongoing learning:** Neurodiversity isn't simple. Managers should read recent research, take certification courses, and continuously educate themselves rather than assuming outdated stereotypes.
 
 
-
 ## Related Articles
 
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)

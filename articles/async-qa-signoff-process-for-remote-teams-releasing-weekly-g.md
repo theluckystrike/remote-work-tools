@@ -215,7 +215,6 @@ Review these metrics weekly during your release retrospective and iterate on you
 Several patterns undermine async QA effectiveness. First, unclear acceptance criteria lead to ambiguous feedback—always define what "done" looks like before requesting review. Second, excessive reviewers create coordination overhead—two reviewers typically suffice for feature PRs. Third, ignoring time zone considerations when assigning reviewers causes delays—distribute review requests across regions. Fourth, bypassing the async process during time pressure defeats the purpose—protect the process even during crunch periods.
 
 
-
 ## Related Articles
 
 - [Async 360 Feedback Process for Remote Teams Without Live](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)

@@ -329,7 +329,6 @@ A typical well-run team records 5-10 async videos weekly and eliminates 10-15 un
 Async video messaging is the highest-use change teams can make to improve distributed work. One recorded explanation saves your team hours of meeting time while creating permanent knowledge resources.
 
 
-
 ## Related Articles
 
 - [Async Release Notes Writing Process for Distributed](/remote-work-tools/async-release-notes-writing-process-for-distributed-engineering-teams/)

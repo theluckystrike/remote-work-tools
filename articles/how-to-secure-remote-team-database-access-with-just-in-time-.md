@@ -223,7 +223,6 @@ Balance security with velocity. If developers cannot access databases quickly du
 Review access patterns regularly. Even with JIT, some users may accumulate excessive access over time. Periodic audits ensure the system continues to align with actual needs.
 
 
-
 ## Related Articles
 
 - [permission-matrix.yaml](/remote-work-tools/how-to-manage-client-access-permissions-across-remote-team-t/)

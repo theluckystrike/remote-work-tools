@@ -231,7 +231,6 @@ Prioritize TLS encryption and SRTP for security regardless of which client you c
 ---
 
 
-
 ## Related Articles
 
 - [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)

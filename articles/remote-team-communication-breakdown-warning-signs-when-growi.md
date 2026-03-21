@@ -334,7 +334,6 @@ The goal isn't eliminating all communication friction. Some is natural at scale.
 ---
 
 
-
 ## Related Articles
 
 - [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)

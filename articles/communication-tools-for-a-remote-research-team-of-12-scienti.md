@@ -289,7 +289,6 @@ If your research team has shared equipment (mass spectrometers, microscopes, com
 **Data from equipment:** Establish protocols for data management. Where do raw instrument outputs get stored? Who has access? Who backs them up? These questions matter more for remote teams where you can't just walk over to the lab.
 
 
-
 ## Related Articles
 
 - [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)

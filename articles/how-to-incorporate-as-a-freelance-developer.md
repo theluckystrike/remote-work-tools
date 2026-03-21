@@ -279,7 +279,6 @@ Cost of professional help ($300-800 annually for bookkeeping + tax prep) pays fo
 {% endraw %}
 
 
-
 ## Related Articles
 
 - [Best Tools for Managing Client Contracts Invoices Freelance](/remote-work-tools/best-tools-for-managing-client-contracts-invoices-freelance-developer/)

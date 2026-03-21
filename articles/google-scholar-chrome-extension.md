@@ -314,7 +314,6 @@ For updates, increment the version number in manifest.json and upload a new zip.
 ---
 
 
-
 ## Related Articles
 
 - [Chrome Extension Compress Images Before Upload: A](/remote-work-tools/chrome-extension-compress-images-before-upload/)

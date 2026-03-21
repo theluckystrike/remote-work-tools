@@ -185,7 +185,6 @@ Track these metrics to ensure your caregiver policy serves its purpose:
 | Time-to-approval | <48 hours | Monthly |
 
 
-
 ## Related Articles
 
 - [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)

@@ -247,7 +247,6 @@ For distributed teams, daily standups work, but **biweekly deep standups** provi
 This hybrid approach reduces standup fatigue while maintaining visibility across time zones.
 
 
-
 ## Related Articles
 
 - [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)

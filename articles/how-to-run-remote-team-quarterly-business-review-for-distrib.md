@@ -363,7 +363,6 @@ Three-tier structure: Team QBRs → Functional QBRs (engineering, product, sales
 Four-tier structure: Team → Department → Business Unit → Company Executive QBR. Can span 3-4 weeks. Use automation to aggregate data between levels.
 
 
-
 ## Related Articles
 
 - [How to Run Remote Tax Preparation Business with Distributed](/remote-work-tools/how-to-run-remote-tax-preparation-business-with-distributed-/)

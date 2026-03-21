@@ -213,7 +213,6 @@ Popular platforms for remote team handbooks include:
 Choose platforms that support granular permissions, as some sections (compensation, performance reviews) require restricted access.
 
 
-
 ## Related Articles
 
 - [Best Notion Template for Remote Team Handbook Covering HR](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms-2026/)

@@ -327,7 +327,6 @@ Effective distributed teams treat workload balance not as an one-time fix but as
 ---
 
 
-
 ## Related Articles
 
 - [Remote Team Workload Distribution Tool for Managers](/remote-work-tools/remote-team-workload-distribution-tool-for-managers-balancin/)

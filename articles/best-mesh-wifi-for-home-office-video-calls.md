@@ -322,7 +322,6 @@ For developers and power users, prioritize systems with wired backhaul options, 
 ---
 
 
-
 ## Related Articles
 
 - [Best Lighting Setup for Video Calls in Basement Home Office](/remote-work-tools/best-lighting-setup-for-video-calls-in-basement-home-office/)

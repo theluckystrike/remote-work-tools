@@ -252,7 +252,6 @@ Start with your highest-volume demo type, build the recording and processing inf
 {% endraw %}
 
 
-
 ## Related Articles
 
 - [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)

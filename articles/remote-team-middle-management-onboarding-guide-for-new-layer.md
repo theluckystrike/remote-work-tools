@@ -194,7 +194,6 @@ Establish clear success criteria with your director during onboarding:
 | Day 61-90 | Impact, independence | Team velocity stable or improved, relationship trust scores positive |
 
 
-
 ## Related Articles
 
 - [Remote Team New Manager Onboarding Checklist for Distributed](/remote-work-tools/remote-team-new-manager-onboarding-checklist-for-distributed/)

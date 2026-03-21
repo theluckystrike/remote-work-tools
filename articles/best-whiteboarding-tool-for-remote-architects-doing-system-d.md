@@ -183,7 +183,6 @@ Document decisions alongside diagrams. Connect architecture choices to ADRs (Arc
 ---
 
 
-
 ## Related Articles
 
 - [Best Remote Collaboration Tool for Technical Architects](/remote-work-tools/best-remote-collaboration-tool-for-technical-architects-docu/)

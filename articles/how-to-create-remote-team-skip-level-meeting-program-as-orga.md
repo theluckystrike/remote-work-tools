@@ -202,7 +202,6 @@ For ongoing skip-level communication, consider async supplements. A private Slac
 This keeps the relationship alive without requiring synchronous meetings.
 
 
-
 ## Related Articles
 
 - [Skip Level Meeting Guide for Remote Organizations](/remote-work-tools/skip-level-meeting-guide-for-remote-organizations/)

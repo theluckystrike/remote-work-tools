@@ -184,7 +184,6 @@ Recognition frequency matters more than grandeur. Small, regular acknowledgments
 ---
 
 
-
 ## Related Articles
 
 - [Remote Employee Belonging and Inclusion Program Ideas for](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)

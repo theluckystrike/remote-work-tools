@@ -196,7 +196,6 @@ The best remote wellness initiatives treat health as infrastructure—built into
 ---
 
 
-
 ## Related Articles
 
 - [Distributed Team Wellness Challenge Ideas](/remote-work-tools/distributed-team-wellness-challenge-ideas-steps-meditation-water-tracking/)

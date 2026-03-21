@@ -263,7 +263,6 @@ Track whether your weekly recaps actually help your team:
 If the answers are yes, your recaps are working. If not, experiment with format, length, or content focus.
 
 
-
 ## Related Articles
 
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)

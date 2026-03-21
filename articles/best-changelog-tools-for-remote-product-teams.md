@@ -193,7 +193,6 @@ The tools above each represent a different point on the flexibility-versus-simpl
 ---
 
 
-
 ## Related Articles
 
 - [Async Product Discovery Process for Remote Teams Using](/remote-work-tools/async-product-discovery-process-for-remote-teams-using-recorded-interviews/)

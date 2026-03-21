@@ -372,7 +372,6 @@ sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder
 ```
 
 
-
 ## Related Articles
 
 - [How to Hide Messy Room During Video Calls Without Virtual](/remote-work-tools/how-to-hide-messy-room-during-video-calls-without-virtual-background/)

@@ -304,7 +304,6 @@ A well-planned cable tray system should grow with your needs:
 - **Schedule quarterly reviews** to remove unused cables
 
 
-
 ## Related Articles
 
 - [Best Wireless Charging Setup for Clean Home Office Desk 2026](/remote-work-tools/best-wireless-charging-setup-for-clean-home-office-desk-2026/)

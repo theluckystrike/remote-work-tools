@@ -278,7 +278,6 @@ Real-world projects have predictable disruptions. Build these into your charter 
 Addressing these predictable events prevents clients from being surprised and frustrated when they occur.
 
 
-
 ## Related Articles
 
 - [.communication-charter.yml - add to your project repo](/remote-work-tools/how-to-create-remote-team-communication-charter-template-for/)

@@ -263,7 +263,6 @@ check_contributions()
 ```
 
 
-
 ## Related Articles
 
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)

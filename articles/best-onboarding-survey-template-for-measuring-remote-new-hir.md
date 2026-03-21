@@ -198,7 +198,6 @@ Survey data without action creates cynicism. Close the loop by:
 One of our engineering teams reduced time-to-productivity by 40% after discovering that new hires spent two weeks waiting for repository access. The 30-day survey surfaced this systematically—previously, individual complaints were dismissed as normal adjustment.
 
 
-
 ## Related Articles
 
 - [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)

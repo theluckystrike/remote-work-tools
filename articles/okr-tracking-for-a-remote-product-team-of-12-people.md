@@ -181,7 +181,6 @@ The connection between daily tasks and quarterly objectives often breaks in remo
 A 12-person team has an advantage here: small enough that direct communication can fill gaps, but large enough to need structure. Use weekly async updates as your primary coordination mechanism, and reserve synchronous meetings for quarterly planning and retro.
 
 
-
 ## Related Articles
 
 - [Remote Team OKR and Goal Tracking 2026](/remote-work-tools/remote-team-okr-goal-tracking-2026/)

@@ -227,7 +227,6 @@ ORDER BY departure_date DESC;
 ```
 
 
-
 ## Related Articles
 
 - [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)

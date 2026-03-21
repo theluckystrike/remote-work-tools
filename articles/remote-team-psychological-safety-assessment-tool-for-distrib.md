@@ -61,21 +61,57 @@ Here's a Slack workflow you can implement:
 # Slack Workflow: Weekly Learning Share
 Assess and build psychological safety using surveys that measure trust, belongingness, and comfort with risk-taking, then address gaps through team practices like normalizing mistakes, soliciting input openly, and following through on feedback. Psychological safety directly correlates with remote team performance.
 
-### Component 3: Asynchronous Retrospective Format
+## Survey Tools and Implementation
+
+Choose the right tool for your psychological safety assessment:
+
+**Google Forms:** Free, easy to share, anonymous mode supported. Integrates with Sheets for quick analysis. Best for simple pulse surveys.
+
+**Typeform:** $25-99/month. Better UX than Forms, conditional logic for follow-up questions. Best if you want professional appearance.
+
+**Lattice/15Five:** $7-15/user/month. Purpose-built for continuous feedback, includes engagement surveys. Overkill for small teams.
+
+**CultureAmp:** $10,000+/year. Enterprise-grade assessment. Best for large organizations investing heavily in culture.
+
+**Free alternative:** Simple Google Form sent via Slack. Low friction, good enough for most teams.
+
+## Asynchronous Retrospective Format
 
 Traditional synchronous retrospectives often get dominated by vocal team members. Use this async format to ensure everyone has equal opportunity to contribute:
 
 ```markdown
-## Async Retrospective Template
+## Async Retrospective Template - Week Ending March 14
 
-### What went well this sprint?
-[Individual response threads - minimum 48 hours to respond]
+**Time window:** Friday 5 PM - Monday 5 PM to respond
+**Format:** Individual threads, minimum 48 hours to respond
 
-### What could we improve?
-[Anonymous option available via Google Form]
+### 1. What went well this sprint?
+[Individual response threads below]
 
-### One action item for next sprint
-[Team vote on top priority]
+Thread Example:
+> **Posted by @alice:**
+> API performance improvements saved 20% load time on checkout. Great collaborative debugging session between backend and frontend teams.
+>
+> **Reply by @bob:**
+> Agreed. The pairing sessions made it easier to understand the tradeoffs.
+
+### 2. What slowed us down?
+[Can be anonymous via separate Google Form if team prefers]
+
+Anonymous responses:
+- Waiting for security review (3 people mentioned)
+- Database schema changes took longer than estimated
+- Unclear requirements on feature X
+
+### 3. One thing to change next sprint
+[Team votes, top 3 become action items]
+
+Voting:
+- [ ] Implement security pre-reviews (votes: 8)
+- [ ] Schedule requirements clarification earlier (votes: 5)
+- [ ] Pair on high-uncertainty tasks (votes: 6)
+
+**Outcome:** Top 3 voted items become explicit actions with owners
 ```
 
 ## Measuring Specific Remote-Specific Indicators
@@ -86,12 +122,13 @@ Beyond general psychological safety, track these remote-specific signals:
 
 When someone posts a technical question in your team channel, track how quickly responses come in and from whom. Healthy teams show rapid responses from multiple people, not just the most senior engineers.
 
-Create a simple tracking sheet:
+Create a simple tracking sheet in a shared spreadsheet:
 
-| Question | Asked By | First Response | Who Responded | Total Responses |
-|----------|----------|---------------|---------------|-----------------|
-| API auth issue | Junior Dev | 8 min | Senior Dev, Staff Eng | 3 |
-| Architecture question | Mid-level | 2 hours | Tech Lead only | 1 |
+| Date | Question | Asked By | Level | First Response | Time | Who Responded | Total Responses | Sentiment |
+|------|----------|----------|-------|----------------|------|---------------|-----------------|-----------|
+| 3/14 | API auth issue | Junior | 1 | 8 min | Senior Dev, Staff | 3 | Helpful |
+| 3/14 | Architecture | Mid | 2 | 2 hours | Tech Lead only | 1 | Dismissive |
+| 3/15 | Database query | Junior | 1 | 4 min | Mid Dev | 2 | Teaching |
 
 A pattern of only senior engineers responding to junior engineers suggests junior team members may not feel comfortable asking questions.
 
@@ -99,75 +136,151 @@ A pattern of only senior engineers responding to junior engineers suggests junio
 
 Analyze your PR review data for these indicators:
 
-- Do all team members receive code review feedback, or only certain people?
-- What's the tone of comments? Use sentiment analysis on review comments
-- Do junior developers receive reviews that help them learn, or just approval from seniors?
-
 ```python
-# Simple PR feedback analysis script
-import re
+# PR feedback analysis - extract from GitHub API
+import requests
 from collections import defaultdict
+from datetime import datetime, timedelta
 
-def analyze_pr_feedback(comments):
- feedback_by_author = defaultdict(list)
- for comment in comments:
- author = comment['author']
- # Classify comment type
- if '?' in comment['body'] or 'consider' in comment['body'].lower():
- feedback_type = 'suggestion'
- elif 'nit:' in comment['body'].lower():
- feedback_type = 'nitpick'
- elif 'lgtm' in comment['body'].lower() or 'approve' in comment['body'].lower():
- feedback_type = 'approval'
- else:
- feedback_type = 'other'
- feedback_by_author[author].append(feedback_type)
- return feedback_by_author
+def analyze_pr_feedback_patterns(repo_owner, repo_name, days=30):
+    """Analyze code review patterns for psychological safety signals"""
+
+    # Get recent PRs
+    url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/pulls"
+    params = {
+        'state': 'closed',
+        'sort': 'updated',
+        'direction': 'desc'
+    }
+
+    prs = requests.get(url, params=params).json()
+
+    feedback_patterns = {
+        'by_reviewer': defaultdict(list),
+        'by_author': defaultdict(list),
+        'sentiment': defaultdict(int)
+    }
+
+    for pr in prs:
+        # Get reviews for this PR
+        review_url = f"{pr['url']}/reviews"
+        reviews = requests.get(review_url).json()
+
+        for review in reviews:
+            author = pr['user']['login']
+            reviewer = review['user']['login']
+
+            # Classify comment sentiment
+            body = review.get('body', '').lower()
+
+            if any(word in body for word in ['good', 'nice', 'great', 'lgtm']):
+                sentiment = 'positive'
+            elif any(word in body for word in ['fix', 'error', 'wrong', 'must change']):
+                sentiment = 'critical'
+            elif any(word in body for word in ['consider', 'maybe', 'optional', 'nit']):
+                sentiment = 'suggestion'
+            else:
+                sentiment = 'neutral'
+
+            feedback_patterns['by_reviewer'][reviewer].append({
+                'author': author,
+                'sentiment': sentiment
+            })
+
+            feedback_patterns['sentiment'][sentiment] += 1
+
+    return feedback_patterns
+
+# Usage: analyze_pr_feedback_patterns('your-org', 'your-repo')
+# Look for imbalances:
+# - Do seniors only give critical feedback to juniors?
+# - Do certain people never receive teaching-style suggestions?
+# - Is feedback distributed across reviewers or concentrated?
 ```
 
 ### Meeting Participation Metrics
 
 For teams with regular synchronous meetings, track:
 
-- Who speaks first in discussions
-- Whether all time zones get equal speaking time
-- If camera-on culture creates pressure for certain team members
-- Whether decisions made in meetings are challenged or accepted silently
+```python
+# Analyze Zoom/Meet recordings for participation patterns
+# This requires more manual effort but reveals subtle dynamics
+
+participation_checklist = {
+    'who_spoke_first': [],  # Junior members should feel safe speaking early
+    'timezone_balance': {},  # Compare speaking time by timezone
+    'camera_use': {},  # Voluntary vs. pressured
+    'interruption_patterns': {},  # Who gets interrupted, by whom?
+    'decision_challenges': 0  # Did anyone question decisions? (sign of safety)
+}
+
+# Manual review during or after meeting:
+# 1. Note who spoke first (was it the most senior person? or diverse?)
+# 2. Count speaking minutes by timezone (are all zones equally heard?)
+# 3. Note who had cameras on/off (was there pressure?)
+# 4. Did junior members challenge senior opinions? (psychological safety signal)
+```
 
 ## Building Improvement Plans
 
 Once you have baseline measurements, create targeted interventions:
 
-### If Survey Scores Are Low
+### If Survey Scores Are Low (<3.5/5)
 
-1. **Start with leadership modeling** - Managers should explicitly share their own mistakes and learnings first
-2. **Create explicit norms** - Document that asking questions is valued, not penalized
+1. **Start with leadership modeling** - Managers should explicitly share their own mistakes and learnings first in team meetings
+2. **Create explicit norms** - Document that asking questions is valued; reference past times leadership appreciated good questions
 3. **Reduce synchronous pressure** - Move discussions to async channels where people can think before responding
-4. **Pair struggling members** - Connect team members who feel comfortable with those who don't
+4. **Pair struggling members** - Connect team members who feel comfortable with those who don't; assign them one joint project
 
-### If PR Feedback Shows Imbalance
+### If PR Feedback Shows Imbalance (senior-only feedback)
 
-1. **Implement review rotation** - Ensure everyone reviews code, not just senior engineers
-2. **Create feedback templates** - Standardize helpful review language
-3. **Require learning-focused comments** - Ask reviewers to explain why, not just what to change
+1. **Implement review rotation** - Ensure everyone reviews code, not just senior engineers; assign rotating pairs
+2. **Create feedback templates** - Standardize helpful review language with examples
+3. **Require learning-focused comments** - Ask reviewers to include "Why?" explanations in reviews
 
 ### If Meeting Participation Is Unequal
 
-1. **Use async pre-meeting input** - Collect written thoughts before synchronous meetings
-2. **Implement round-robin speaking** - Explicitly invite quieter members to share
-3. **Offer camera-optional meetings** - Reduce social pressure
+1. **Use async pre-meeting input** - Collect written thoughts 24 hours before sync meetings on shared doc
+2. **Implement structured speaking** - "Let's go around the table; 2 minutes each person" ensures everyone contributes
+3. **Offer camera-optional meetings** - Send clear message: cameras are optional, not required
 
 ## Implementation Timeline
 
 Here's a practical rollout schedule:
 
-- **Week 1**: Deploy initial pulse survey to establish baseline
-- **Week 2**: Analyze results and identify top 3 concerns
-- **Weeks 3-4**: Implement first intervention (e.g., async retrospective format)
-- **Month 2**: Run first async vulnerability exercise
+- **Week 1**: Deploy initial pulse survey (5 min) to establish baseline
+- **Week 2**: Analyze results and identify top 3 concerns to address
+- **Weeks 3-4**: Implement first intervention (e.g., async retrospective format, leadership vulnerability share)
+- **Month 2**: Run first async vulnerability exercise (team shares learning from failure)
 - **Month 3**: Deploy follow-up survey and measure improvement
-- **Quarterly**: Repeat full assessment cycle
+- **Monthly:** Quick 2-question pulse on key metric
+- **Quarterly**: Full assessment cycle with deep analysis
 
+## Practical Scoring and Action Thresholds
+
+```yaml
+Survey Average Score Analysis:
+
+4.5-5.0: Exceptional safety
+Action: Maintain current practices, document what works
+Example: Continue leadership vulnerability shares
+
+4.0-4.4: Healthy safety
+Action: Monitor quarterly, make small refinements
+Example: Add optional async check-in format
+
+3.5-3.9: Marginal safety
+Action: Implement 1-2 interventions, retest in 4 weeks
+Example: Add review rotation + leadership models vulnerability
+
+3.0-3.4: Low safety (requires attention)
+Action: Multiple interventions + manager check-ins
+Example: All of above + pair programming + async retros
+
+<3.0: Critical safety issues
+Action: Immediate 1-on-1s to understand root cause
+Example: Determine if specific person is causing concerns, address directly
+```
 
 
 ## Related Articles
