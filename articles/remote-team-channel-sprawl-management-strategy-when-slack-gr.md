@@ -172,9 +172,74 @@ After initial cleanup, prevent regression with these habits:
 - Channel owner accountability in performance goals
 - Annual workspace audits
 
+## Measuring the Health of Your Workspace
+
+Before and after a cleanup effort, you need numbers. Slack's built-in analytics dashboard (available on the Pro plan and above) provides channel-level activity data, but you can also pull this data via the API to build your own reporting.
+
+Key metrics to track monthly:
+
+- Total channel count across public and private channels
+- Channels with zero messages in the past 30 days
+- Channels with fewer than 3 active members
+- Average message volume per channel (high variance indicates uneven information distribution)
+- New channels created per month versus channels archived per month
+
+A healthy workspace shows channel count growing slower than headcount. If channel count doubles while headcount increases by 20%, governance is failing. Target roughly 2–4 channels per employee for a well-organized workspace — 50 people should operate with 100–200 channels maximum.
+
+Export this data monthly and review it in your engineering all-hands or ops review. Making the numbers visible creates accountability without requiring constant manual policing.
+
+## Handling Private Channel Proliferation
+
+Public channel sprawl is visible and manageable. Private channel sprawl is harder because workspace admins have limited visibility into private channels they are not members of.
+
+Private channels tend to grow for two reasons: people create them to discuss sensitive topics (HR, performance, compensation), and people create them out of habit when a public channel would serve equally well.
+
+Establish a policy: private channels are for genuinely confidential topics only. Define the list explicitly in your governance documentation. Common valid reasons include HR discussions, executive strategy, legal matters, and security incident response. Everything else should default to public.
+
+For admins who need to audit private channel count without reading content, Slack's admin API returns channel metadata including member count and creation date for private channels, even if the admin is not a member:
+
+```javascript
+// List all channels including private (requires admin token)
+const result = await client.admin.conversations.list({
+  team_id: workspaceId,
+  channel_types: "private",
+  limit: 200
+});
+
+// Filter for private channels with fewer than 3 members
+const smallPrivate = result.conversations.filter(c => c.num_members < 3);
+```
+
+Small private channels — particularly those with only 1–2 members — are strong candidates for archiving or converting to direct messages.
+
+## Integrating Channel Governance with Offboarding
+
+When an employee leaves, their owned channels become unowned. Build offboarding automation that:
+
+1. Identifies all channels where the departing employee is the sole owner
+2. Sends a message to the channel asking remaining members to nominate a new owner
+3. If no owner is nominated within 7 days, flags the channel for archival review
+
+This prevents ghost channels accumulating from employee turnover — a common source of sprawl in companies that have been running for several years.
+
+The same logic applies to contractors. Set channel ownership records with an expiration date tied to contract end dates. Your governance bot can alert the team lead two weeks before expiration to reassign ownership or archive.
+
 ## When to Consider Alternatives
 
-If Slack becomes unmanageable despite these strategies, evaluate alternatives. Some teams split into multiple workspaces by department. Others move persistent documentation to wikis and use Slack only for real-time communication. The goal is effective communication, not Slack perfection.
+If Slack becomes unmanageable despite these strategies, evaluate alternatives. Some teams split into multiple workspaces by department. Others move persistent documentation to wikis and use Slack only for real-time communication. Microsoft Teams uses a team-and-channel model that enforces a hierarchy by default, which prevents some types of sprawl but creates different organizational challenges.
+
+The goal is effective communication, not Slack perfection. A workspace with 150 well-governed channels beats one with 400 chaotic ones every time, regardless of which platform you use. Spend the governance effort proportional to how much communication overhead is actually costing your team in lost productivity — then stop.
+
+## FAQ
+
+**How often should we audit channels?**
+Quarterly is the right cadence for most teams. Monthly is worth it if you are in a high-growth phase where channel count is increasing rapidly. Annual is too infrequent — you end up with hundreds of stale channels that nobody wants to touch.
+
+**What do we do with channels that have historical value but no ongoing activity?**
+Archive rather than delete. Archived channels are searchable and can be unarchived if needed. Only delete a channel if it contains no information of any future value.
+
+**Should we enforce the naming convention retroactively on existing channels?**
+Not immediately. Rename channels in batches over several months, prioritizing high-traffic channels first. Announce renames in the channel before making the change so members are not confused when the channel disappears from their list under the old name.
 
 ---
 
