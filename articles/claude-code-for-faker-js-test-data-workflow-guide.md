@@ -9,6 +9,7 @@ categories: [guides, workflows]
 tags: [remote-work-tools, claude-code, claude-skills, workflow, claude-ai]
 reviewed: true
 score: 8
+voice-checked: true
 ---
 
 {% raw %}
