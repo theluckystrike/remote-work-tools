@@ -5,7 +5,7 @@ author: "theluckystrike"
 categories: [guides]
 tags:
 permalink: /how-to-move-from-loom-to-claap-for-remote-team-async-video-m/
-score: 8
+score: 9
 voice-checked: true
 reviewed: true
 layout: default

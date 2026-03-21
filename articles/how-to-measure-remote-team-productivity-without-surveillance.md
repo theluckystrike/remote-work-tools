@@ -9,7 +9,7 @@ permalink: /how-to-measure-remote-team-productivity-without-surveillance/
 categories: [guides]
 tags: [remote-work-tools, remote-work, productivity, team-management, developer-tools, privacy]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
