@@ -320,6 +320,85 @@ irate(node_network_receive_bytes_total{device!="lo"}[5m])
 node_load1 / count by(instance) (node_cpu_seconds_total{mode="idle"})
 ```
 
+## Monitoring Stack Comparison
+
+Before committing to Prometheus and Grafana, it helps to understand where the stack sits relative to alternatives. Remote infrastructure teams frequently evaluate these four options:
+
+| Tool | Data model | Retention | Best for | Hosted option |
+|------|------------|-----------|----------|---------------|
+| **Prometheus + Grafana** | Pull-based metrics | Self-managed (90d default) | Full control, on-prem, cost-sensitive | Grafana Cloud free tier |
+| **Datadog** | Push-based, all-in-one | 15 months default | Large orgs wanting APM + logs + metrics unified | Yes (paid, per-host pricing) |
+| **New Relic** | Pull + push hybrid | 8 days default on free | App-level observability, distributed tracing | Yes (100GB/month free) |
+| **Victoria Metrics** | Prometheus-compatible | Self-managed, very efficient | High-cardinality workloads, Prometheus drop-in | VictoriaMetrics Cloud |
+| **Thanos** | Prometheus federation | Long-term object storage | Multi-cluster aggregation, global queries | No (self-hosted only) |
+
+Prometheus wins on cost and flexibility when you control your own infrastructure. Datadog wins on out-of-box integrations when budget is not a constraint. Victoria Metrics is worth evaluating if your Prometheus instance struggles with cardinality (millions of unique label combinations).
+
+## Step-by-Step Implementation Guide for Remote Teams
+
+This sequence gets a production-ready monitoring stack running in under two hours on a fresh Ubuntu 22.04 server.
+
+**Step 1 — Provision the monitoring server.** Use a dedicated instance (2 vCPU, 4 GB RAM handles 50 targets comfortably). Do not run monitoring alongside application workloads — resource contention distorts the metrics you depend on during incidents.
+
+**Step 2 — Clone your config repo and set secrets.** Create `GRAFANA_PASSWORD` in a `.env` file at the repo root. Never commit it. Use `direnv` or your CI system to inject it in automated deployments.
+
+**Step 3 — Run `docker compose up -d`.** Verify all three containers start: `docker compose ps`. Check Prometheus targets at `http://localhost:9090/targets` (via SSH tunnel if the port is firewalled).
+
+**Step 4 — Deploy Node Exporter to each target server.** The systemd service approach above works for bare-metal and VM targets. For Kubernetes, use the `prometheus-node-exporter` DaemonSet from the kube-prometheus-stack Helm chart instead.
+
+**Step 5 — Import the starter dashboards.** Dashboard ID 1860 (Node Exporter Full) and ID 3662 (Prometheus 2.0 Overview) cover 90% of what you need immediately. Add application-specific dashboards as you instrument your code.
+
+**Step 6 — Configure Alertmanager routing.** Route critical alerts to PagerDuty and all others to Slack. Test alert delivery by manually firing a test alert: `curl -X POST http://localhost:9093/api/v1/alerts -d '[{"labels":{"alertname":"TestAlert","severity":"warning"}}]'`.
+
+**Step 7 — Set up a reverse proxy.** Put Nginx or Caddy in front of Grafana with TLS termination. Never expose Grafana or Prometheus directly on a public IP without authentication.
+
+**Step 8 — Schedule retention review.** At 90-day retention and 15-second scrape intervals, a 50-target fleet generates roughly 15–20 GB of TSDB data. Monitor Prometheus disk usage (`node_filesystem_avail_bytes` on the monitoring server itself) and adjust `--storage.tsdb.retention.time` accordingly.
+
+## Additional Exporters for Remote Infrastructure
+
+Node Exporter covers OS-level metrics. These exporters extend coverage to specific services:
+
+**blackbox_exporter** probes HTTP endpoints, TCP ports, ICMP, and DNS from the monitoring server's perspective. Use it for uptime checks — it tells you when a service is unreachable from outside your private network, not just from within.
+
+**postgres_exporter** exposes PostgreSQL query statistics, connection counts, replication lag, and table bloat. Point it at your database host and it auto-discovers metrics.
+
+**redis_exporter** reports memory usage, hit rates, connected clients, and keyspace statistics. Essential if Redis is in your stack as a cache or queue backend.
+
+**cadvisor** (Container Advisor) exposes per-container CPU, memory, and network metrics from Docker. Run it as a container alongside your workloads and scrape it the same way as Node Exporter.
+
+```yaml
+# Add to prometheus.yml scrape_configs
+- job_name: "blackbox"
+  metrics_path: /probe
+  params:
+    module: [http_2xx]
+  static_configs:
+    - targets:
+        - https://api.yourdomain.com/health
+        - https://app.yourdomain.com
+  relabel_configs:
+    - source_labels: [__address__]
+      target_label: __param_target
+    - source_labels: [__param_target]
+      target_label: instance
+    - target_label: __address__
+      replacement: blackbox:9115
+```
+
+## FAQ
+
+**How do I monitor services in private subnets without opening firewall rules?**
+Use Prometheus in push gateway mode for short-lived jobs, or deploy a Prometheus agent in each private subnet that federates metrics up to the central Prometheus. The Prometheus federation endpoint (`/federate`) lets you scrape aggregated metrics from a remote Prometheus instance without exposing individual targets.
+
+**What is a good scrape interval for production?**
+15 seconds is the standard default and works for most workloads. Drop to 30 seconds if your Prometheus instance CPU spikes during scrapes across large fleets. Increase to 5 seconds only for high-frequency trading or real-time alerting requirements — it significantly increases storage costs.
+
+**How do I handle Prometheus high availability?**
+Run two identical Prometheus instances scraping the same targets. Both receive the same alerts independently. Alertmanager clustering (with `--cluster.peer` flags) deduplicates alerts between them. For long-term storage across HA instances, Thanos or Victoria Metrics remote write are the standard approaches.
+
+**Can I use Prometheus for application-level metrics too?**
+Yes — and you should. Use a Prometheus client library (`prometheus-client` for Python, `prom-client` for Node.js, `prometheus` for Go) to instrument your application. Expose a `/metrics` endpoint and add it to your scrape config. This gives you business-level metrics (request rates, error rates, latency percentiles) alongside infrastructure metrics in the same Grafana dashboards.
+
 ## Related Reading
 
 - [How to Secure Your Remote Team CI/CD Pipeline from Supply Chain Attacks](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
