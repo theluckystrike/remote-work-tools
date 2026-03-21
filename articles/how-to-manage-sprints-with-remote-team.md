@@ -12,8 +12,6 @@ score: 8
 intent-checked: true
 voice-checked: true
 ---
-
-{% raw %}
 {% raw %}
 ## Yesterday
 - What did you complete?
@@ -301,4 +299,5 @@ Start with async standups this week, add capacity planning next sprint, and iter
 - [Notion vs ClickUp for Engineering Teams: A Practical.](/remote-work-tools/notion-vs-clickup-for-engineering-teams/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
+```
 {% endraw %}

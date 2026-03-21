@@ -13,7 +13,7 @@ intent-checked: true
 voice-checked: true
 ---
 
-{% raw %}
+
 
 Remote teams that scale successfully share one trait: they stop routing every decision through founders and senior leaders. Building a decision-making framework that works across time zones requires explicit tiers, clear ownership, and documented processes that work asynchronously. This guide covers the structures, tools, and patterns that distributed engineering teams use to move fast without constant synchronous coordination.
 
@@ -256,7 +256,7 @@ The goal is not bureaucratic process for its own sake. The goal is enabling a re
 
 When this works, founders can focus on tier 3-4 decisions where their experience and business context matters most, while teams confidently handle everything below that threshold.
 
-{% endraw %}
+
 
 
 ## Related Reading
@@ -267,4 +267,4 @@ When this works, founders can focus on tier 3-4 decisions where their experience
 - [Best Practice for Remote Team Direct Message vs Channel.](/remote-work-tools/best-practice-for-remote-team-direct-message-vs-channel-message-decision-making-guide/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+
