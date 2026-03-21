@@ -1,13 +1,17 @@
 ---
+
 layout: default
 title: "How to Build a Remote Team Troubleshooting Guide from Past Incident Postmortems"
 description: "Learn how to build a troubleshooting guide for remote teams using past incident postmortems. Practical examples and code snippets for developers and power users."
 date: 2026-03-21
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-build-remote-team-troubleshooting-guide-from-past-inc/
 categories: [guides]
 tags: [remote-work, troubleshooting, postmortems, incident-response, documentation, devops]
+reviewed: true
+score: 8
 ---
+
 
 {% raw %}
 # How to Build a Remote Team Troubleshooting Guide from Past Incident Postmortems
