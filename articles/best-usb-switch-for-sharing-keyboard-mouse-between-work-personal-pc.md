@@ -9,7 +9,7 @@ permalink: /best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/
 categories: [guides]
 tags: [remote-work-tools, usb-switch, kvm, keyboard-mouse, productivity, hardware, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

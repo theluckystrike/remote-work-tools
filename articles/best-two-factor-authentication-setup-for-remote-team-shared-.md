@@ -9,7 +9,7 @@ permalink: /best-two-factor-authentication-setup-for-remote-team-shared-/
 categories: [guides]
 tags: [remote-work-tools, security, 2fa, authentication, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
