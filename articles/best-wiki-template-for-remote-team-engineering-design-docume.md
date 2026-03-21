@@ -168,6 +168,195 @@ Your wiki platform may require adjustments. Confluence users might convert the m
 
 The best design document template is one your team actually uses. Implement this template, gather feedback from your reviewers, and iterate. Over time, you'll develop conventions that match your team's communication style and technical culture.
 
+## Adapting Templates by Platform
+
+Different wiki platforms require format adjustments:
+
+### Confluence-Specific Considerations
+Confluence natively supports decision tracking and voting. Leverage these features:
+
+```
+# Design Document: [Title]
+
+{toc}
+
+## Problem Statement
+- **Current State**: [description]
+- **Impact**: [who/how]
+- **Why Now**: [trigger]
+
+## Goals and Non-Goals
+
+**Goals**
+[Use Confluence checklists—easier to mark as completed]
+
+## Technical Design
+[Confluence tables work better than markdown for comparisons]
+
+## Decision Log
+{expand-include:Decision_History_Template}
+
+{decision:decision-123}
+Chosen Option A for scalability
+Decided by: @architect
+Date: 2026-03-15
+```
+
+**Confluence-specific plugins that enhance templates:**
+- Gliffy for architecture diagrams
+- Scriptrunner for automated workflow transitions
+- Analytics to track document engagement
+
+### Notion-Based Design Document Setup
+Notion excels at multi-view organization. Create a design document database:
+
+```
+Database Properties:
+- Title [text]
+- Status [select: Draft/In Review/Approved/Shipped]
+- Team [select: Backend/Frontend/DevOps]
+- Priority [select: Critical/High/Medium]
+- Review Deadline [date]
+- Assignees [person]
+- Related Documents [relation]
+- Technical Depth [number 1-5]
+
+Views:
+1. Timeline view (by review deadline)
+2. Gallery view (by status)
+3. Kanban view (by approval stage)
+4. Calendar view (milestones)
+```
+
+Notion's relation feature lets you link related documents automatically, creating a knowledge graph of your architecture decisions.
+
+### GitHub-Based Design Documents
+For teams already using GitHub, store design documents as markdown in a dedicated repository:
+
+```bash
+# Directory structure
+architecture/
+├── decisions/
+│   ├── 0001-microservices-architecture.md
+│   ├── 0002-event-driven-apis.md
+│   └── 0003-database-sharding-strategy.md
+├── rfcs/
+│   └── [latest features]
+└── adr/
+    └── [architecture decision records]
+```
+
+Use GitHub's review features naturally—design docs are just code to your team:
+
+```markdown
+---
+adr: 0001
+title: Microservices Architecture Decision
+status: Approved
+date: 2026-03-15
+reviewer: @architect, @devops-lead
+---
+
+# Microservices Architecture
+
+## Problem
+Monolithic codebase has become unwieldy at scale.
+
+## Decision
+Migrate to microservices with async messaging.
+
+## Consequences
+- (+) Scaling independence per service
+- (-) Operational complexity increases
+- (-) Network latency between services
+
+## Alternatives Considered
+...
+```
+
+## Real-World Implementation Examples
+
+### Example 1: Startup Scale-Up Design Doc
+A Series B startup needed to document their move from monolith to microservices:
+
+**Original approach:** Lengthy 50-page document—nobody read it
+**Fixed approach:** Split into 3 focused design docs:
+1. Service decomposition strategy (5 pages)
+2. Event streaming architecture (4 pages)
+3. API gateway and routing layer (3 pages)
+
+Result: Reviewers actually completed feedback in 72 hours instead of 3 weeks.
+
+### Example 2: Enterprise API Standardization
+Enterprise team standardizing 100+ APIs across divisions:
+
+**Challenge:** Previous template required too much detail, killed adoption
+**Solution:** Create tiered templates:
+- **Tier 1** (simple CRUD APIs): 1-page minimal template
+- **Tier 2** (complex integrations): Standard full template
+- **Tier 3** (critical infrastructure): Extended template with security audit
+
+Result: Adoption increased from 20% to 85% within 2 months.
+
+### Example 3: Distributed Team Async Review
+Global team across 4 time zones needed to review designs without blocking:
+
+**Challenge:** Real-time discussions didn't work; async reviews were slow
+**Solution:** Added review phases with explicit time windows:
+
+```
+Phase 1: Author Draft (48 hours)
+→ Submit via wiki
+
+Phase 2: Async Feedback (72 hours)
+→ Reviewer 1 and 2 leave comments
+→ Use comment threads per section
+
+Phase 3: Response (48 hours)
+→ Author responds to each thread
+→ Marks "Addressed," "Deferred," or "Disagree + Discussion"
+
+Phase 4: Resolution (24 hours)
+→ Reviewers confirm resolution or escalate
+→ Decision log updated
+
+Total: 7 days vs. weeks of back-and-forth
+```
+
+## Template Customization Checklist
+
+When implementing the template, ensure you've customized for your team:
+
+- [ ] Replaced placeholder section names with your jargon
+- [ ] Added domain-specific sections (e.g., "Compliance Impact" for fintech)
+- [ ] Set realistic time expectations for reviews
+- [ ] Identified who should review each section (backend, security, etc.)
+- [ ] Created example documents showing good vs. poor format
+- [ ] Documented your decision-log process (how decisions get marked final?)
+- [ ] Trained team on using review comments productively
+- [ ] Set up notifications so reviewers don't miss reviews
+- [ ] Created "decision history" archives after designs ship
+- [ ] Scheduled quarterly template reviews to catch pain points
+
+## Common Pitfalls to Avoid
+
+**Too Many Required Sections**
+Teams skip templates with 15+ sections. Keep mandatory sections under 8; make others optional by role.
+
+**Vague Success Criteria**
+"Good performance" doesn't work. Specify metrics: "Page load time under 500ms," "Support ticket volume under 2/week."
+
+**Review Without Deadlines**
+Design documents need decision dates. If no deadline, they drift indefinitely. Set clear SLAs: "24-hour initial response, 5-day complete review."
+
+**Fire-and-Forget Designs**
+After approval, designs should be stored with easy lookup. Build a searchable archive. Link past decisions to new design docs to prevent repeated work.
+
+**No Cross-Team Visibility**
+Silos emerge when teams don't see other designs. Use a central wiki everyone can search. Design discovery prevents duplication.
+
+---
+
 
 ## Related Articles
 
