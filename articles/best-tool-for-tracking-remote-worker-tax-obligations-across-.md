@@ -9,7 +9,7 @@ permalink: /best-tool-for-tracking-remote-worker-tax-obligations-across-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, tax-compliance, us-states, developer-tools, payroll, automation, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

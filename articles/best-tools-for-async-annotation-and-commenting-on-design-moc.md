@@ -9,7 +9,7 @@ permalink: /best-tools-for-async-annotation-and-commenting-on-design-moc/
 categories: [guides]
 tags: [remote-work-tools, design, collaboration, async, mockups, annotation, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
