@@ -11,7 +11,7 @@ tags: [react-native, mobile-development, remote-work-tools, ios-builds, android-
 reviewed: true
 intent-checked: true
 voice-checked: false
-score: 8
+score: 9
 ---
 
 

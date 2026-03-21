@@ -9,7 +9,7 @@ permalink: /best-tool-for-tracking-remote-team-meeting-effectiveness-and/
 categories: [guides]
 tags: [remote-work-tools, remote-work, meetings, productivity, team-effectiveness, asynchronous, automation, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
