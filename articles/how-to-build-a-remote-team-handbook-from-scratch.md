@@ -385,6 +385,11 @@ A stale handbook is worse than no handbook. Assign ownership:
 
 A good handbook takes 4 weeks and pays dividends for years.
 
+
+## Related Reading
+
+- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}
