@@ -9,7 +9,7 @@ permalink: /cold-outreach-templates-for-freelance-developers/
 categories: [guides]
 tags: [remote-work-tools, freelance, business-development, client-acquisition]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

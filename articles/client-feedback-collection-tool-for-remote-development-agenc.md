@@ -9,7 +9,7 @@ permalink: /client-feedback-collection-tool-for-remote-development-agenc/
 categories: [guides]
 tags: [remote-work-tools, client-feedback, remote-work, development-agency, tools, automation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

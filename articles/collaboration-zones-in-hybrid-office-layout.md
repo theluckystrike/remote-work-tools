@@ -9,7 +9,7 @@ permalink: /collaboration-zones-in-hybrid-office-layout/
 categories: [guides]
 tags: [remote-work-tools, collaboration-zones, hybrid-office, office-layout, workspace-design, team-productivity, collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

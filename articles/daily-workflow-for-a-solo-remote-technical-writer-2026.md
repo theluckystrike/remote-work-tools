@@ -9,7 +9,7 @@ permalink: /daily-workflow-for-a-solo-remote-technical-writer-2026/
 categories: [guides]
 tags: [remote-work-tools, technical-writing, remote-work, productivity, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
