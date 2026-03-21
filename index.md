@@ -25,6 +25,21 @@ Our articles go beyond feature lists. We include step-by-step setup guides, real
 
 <hr style="border: none; border-top: 1px solid #e0e0e0; margin: 1.5rem 0;">
 
+## Topic Guides
+
+Browse articles by topic:
+
+- [Video Conferencing Tools](/remote-work-tools/topics/video-conferencing-tools/) — Zoom, hybrid meetings, screen sharing
+- [Team Communication Tools](/remote-work-tools/topics/team-communication-tools/) — Slack, Discord, Zulip, async messaging
+- [Project Management Tools](/remote-work-tools/topics/project-management-tools/) — Asana, Linear, Trello, ClickUp
+- [Remote Security Tools](/remote-work-tools/topics/remote-security-tools/) — VPN, zero trust, compliance
+- [Home Office Setup](/remote-work-tools/topics/home-office-setup/) — desks, monitors, ergonomics, equipment
+- [Time Management Tools](/remote-work-tools/topics/time-management-tools/) — tracking, productivity, time zones
+- [Async Collaboration](/remote-work-tools/topics/async-collaboration-tools/) — video messaging, RFC, standup alternatives
+- [Remote Hiring & Onboarding](/remote-work-tools/topics/remote-hiring-onboarding/) — ATS, interviews, onboarding checklists
+
+<hr style="border: none; border-top: 1px solid #e0e0e0; margin: 1.5rem 0;">
+
 ## Recently Published
 
 <div style="display: grid; gap: 0.75rem; margin-bottom: 2rem;">
