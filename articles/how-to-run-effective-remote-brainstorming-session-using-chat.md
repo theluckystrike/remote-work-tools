@@ -9,7 +9,7 @@ permalink: /how-to-run-effective-remote-brainstorming-session-using-chat/
 categories: [guides]
 tags: [remote-work-tools, remote-work, brainstorming, async, chat, team-collaboration, developer-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

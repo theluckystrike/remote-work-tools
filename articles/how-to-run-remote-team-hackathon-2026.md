@@ -3,10 +3,12 @@ title: "How to Run a Remote Team Hackathon 2026"
 date: 2026-03-21
 author: "Remote Work Tools Guide"
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 permalink: /how-to-run-remote-team-hackathon-2026/
+description: "Follow this guide to how to run remote team hackathon 2026 with practical examples, tips, and step-by-step instructions for getting the best results."
+tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
