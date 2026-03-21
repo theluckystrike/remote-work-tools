@@ -9,7 +9,7 @@ permalink: /remote-team-change-management-communication-plan-template-fo/
 categories: [guides]
 tags: [remote-work-tools, remote-work, change-management, communication, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
