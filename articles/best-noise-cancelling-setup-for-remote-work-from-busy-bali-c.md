@@ -189,7 +189,7 @@ Have backup locations identified: your accommodation, a quieter coworking space,
 - [Best Noise Cancelling Microphones for Home Offices Busy](/remote-work-tools/best-noise-cancelling-microphones-for-home-offices-busy-streets/)
 - [Noise Cancelling Headphones vs Earbuds for Remote Work](/remote-work-tools/noise-cancelling-headphones-vs-earbuds-remote-work/)
 - [Best Noise Canceling Earbuds for Remote Work 2026](/remote-work-tools/best-noise-canceling-earbuds-for-remote-work-2026/)
-- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
+- [Best Remote Work Webcam Lighting Setup Under $100 (2026)](/remote-work-tools/best-webcam-lighting-setup-under-100-dollars/)
 - [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
