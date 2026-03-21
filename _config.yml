@@ -19,3 +19,4 @@ defaults:
       path: "articles"
     values:
       layout: default
+      image: /remote-work-tools/assets/og-default.svg
