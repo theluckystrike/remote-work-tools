@@ -167,6 +167,148 @@ When you need to design a new API, querying your Zettelkasten surfaces all relev
 
 Choose a tool (Obsidian, Logseq, or plain markdown with git), commit to capturing one atomic note per day, and resist the urge to organize prematurely. The connections matter more than the structure. Over months and years, you'll have a knowledge graph that accelerates problem-solving and preserves hard-won technical insights.
 
+## Tool Comparison for Software Engineers
+
+### Obsidian
+Obsidian stores all notes as local markdown files, giving you complete data ownership. The graph visualization feature helps you spot connection patterns you might miss in a hierarchical folder structure. Obsidian Sync costs $8/month for end-to-end encrypted backup.
+
+**Strengths:** Fast search, plugin ecosystem, no cloud dependence
+**Weaknesses:** Mobile app requires paid subscription ($2.99/month), steep learning curve for advanced features
+**Best for:** Developers comfortable with local file management, preferring tool ownership
+
+### Logseq
+Logseq is a free, open-source alternative that stores markdown or Org-mode files. It emphasizes outlining as a first-class feature, making it natural for hierarchical note structures that later get linked.
+
+**Strengths:** Free, open-source, outline-first workflow, active community
+**Weaknesses:** Slower performance with large databases, fewer integrations than Obsidian
+**Best for:** Teams valuing open-source principles, preferring outline-based note entry
+
+### Plain Markdown + Git
+For developers comfortable with command-line workflows, plain markdown files in a Git repository provide ultimate simplicity and version control built-in.
+
+**Example workflow:**
+```bash
+cd ~/zettelkasten
+# Create new note with timestamp
+vim 20260321-redis-caching-patterns.md
+
+# Link notes in markdown:
+# See also: [[20260315-memoization-pattern]], [[rate-limiting-redis]]
+
+git add 20260321-redis-caching-patterns.md
+git commit -m "Add Redis caching patterns with examples"
+```
+
+**Strengths:** Zero dependencies, perfect version control, works with any editor
+**Weaknesses:** No graph visualization without extra setup, requires discipline for linking
+**Best for:** Engineers already using Git, valuing simplicity over features
+
+### Notion and Roam Research
+Notion and Roam provide cloud-based alternatives but come with subscription costs ($10-15/month) and potential vendor lock-in. Use these if your team requires shared Zettelkastens or collaborative note-taking.
+
+## Advanced Linking Patterns for Complex Codebases
+
+As your Zettelkasten grows, more sophisticated linking patterns emerge:
+
+### Dependency Graphs
+Map technology stacks and their dependencies:
+
+```
+[[PostgreSQL]] ← [[ORM-selection]]
+  ↓
+[[database-migrations]] ← [[flyway-setup]]
+  ↓
+[[schema-versioning]]
+```
+
+### Bug-to-Pattern Links
+When debugging, link the resolution to underlying patterns:
+
+```
+[[bug-memory-leak-in-closure]]
+  → Problem: Circular reference preventing garbage collection
+  → Solution: [[garbage-collection-in-javascript]]
+  → Pattern: [[closure-scope-management]]
+```
+
+### Language-Specific Implementation Clusters
+Group language-specific implementations under language-agnostic concepts:
+
+```
+[[async-programming]] (language-neutral concept)
+  → [[async-await-javascript]]
+  → [[goroutines-golang]]
+  → [[tokio-rust]]
+  → [[asyncio-python]]
+```
+
+## Integration with Development Workflows
+
+Connect your Zettelkasten directly to your development environment:
+
+### Git Hook Integration
+Automatically capture technical decisions in your Zettelkasten during code review:
+
+```bash
+#!/bin/bash
+# .git/hooks/post-commit
+
+# When committing architectural decisions, prompt for a note
+if git log -1 --format=%B | grep -q "arch:"; then
+  echo "Creating architecture note..."
+  DECISION=$(git log -1 --format=%B | sed 's/arch: //')
+  vim ~/zettelkasten/arch-decisions/$(date +%Y%m%d)-$DECISION.md
+fi
+```
+
+### IDE Plugins and LSP Integration
+Many IDEs support markdown preview plugins that let you browse your Zettelkasten without switching windows. VS Code extensions like "Foam" and "Backlinks" make wiki-style note navigation feel native to your editor.
+
+## Common Patterns Engineers Actually Use
+
+**The Error Message Pattern:** When you encounter an error, create a note with the exact message, root cause, and solution:
+
+```markdown
+---
+id: 20260315-postgres-lock-timeout
+tags: [postgres, debugging, concurrency]
+error: "ERROR: canceling statement due to lock timeout"
+---
+
+# PostgreSQL Lock Timeout Error
+
+When a long-running transaction holds a lock, other transactions waiting for that lock eventually timeout.
+
+## Root Cause
+Missing index on frequently queried foreign key in migration scripts.
+
+## Solution
+Create index concurrently to avoid blocking:
+```sql
+CREATE INDEX CONCURRENTLY idx_user_id ON transactions(user_id);
+```
+
+## Prevention
+Add indexes before running data migrations.
+```
+
+**The API Reference Pattern:** Document API patterns alongside real-world implementations:
+
+```markdown
+# REST API Pagination Pattern
+
+## Concept
+Limit response size by returning one page at a time with metadata about total pages.
+
+## Implementation (Python FastAPI)
+[code example here]
+
+## Links
+[[query-parameter-validation]]
+[[database-query-optimization]]
+[[client-side-pagination-handling]]
+```
+
 ---
 
 

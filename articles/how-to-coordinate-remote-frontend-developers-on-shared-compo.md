@@ -171,6 +171,79 @@ Start with ownership and workflow, then layer in the other practices as your lib
 
 ---
 
+## Managing Cross-Team Dependencies
+
+As your component library grows, teams become interdependent in complex ways. A button component change might affect dozens of consuming applications. Without dependency tracking, you create invisible coupling that breaks silently.
+
+Create a dependency map that shows which teams depend on which components. This map becomes your communication roadmap when planning breaking changes:
+
+```json
+{
+  "Button": {
+    "consumers": ["web-app-team", "admin-dashboard", "marketing-site"],
+    "breaking_change_risk": "high"
+  },
+  "FormInput": {
+    "consumers": ["platform-team", "internal-tools"],
+    "breaking_change_risk": "low"
+  }
+}
+```
+
+Before deploying breaking changes, notify all consuming teams with at least two weeks notice. Provide migration paths and code examples they can copy-paste. Offer a migration session where you walk teams through the changes in real-time, answering questions asynchronously across time zones.
+
+## Handling Disagreement on Component Design
+
+Remote teams disagreeing about component API design can escalate quickly without clear escalation paths. Establish a decision framework before conflicts arise.
+
+For design disputes, use this approach:
+
+1. **Document the options** - Each proposing team writes a brief proposal explaining their approach, trade-offs, and rationale
+2. **Async discussion period** - Post proposals in your RFC channel with a 48-hour discussion window
+3. **Design decision** - The component owner makes a final call, documenting the reasoning
+4. **Implementation path** - Document how the winning design evolved and why alternatives were rejected
+
+This prevents endless debates while respecting input from distributed teams. Document decisions in your component library's ADR (Architecture Decision Records) folder for future reference.
+
+## Testing Strategies for Remote Component Development
+
+Coordinating component testing across teams requires more than unit tests. Implement a testing pyramid that scales:
+
+**Unit tests** (fast, run on every commit): Individual component prop combinations, event handlers, accessibility attributes.
+
+**Visual regression tests** (medium, run on PRs): Automated screenshot comparison against baseline to catch unintended style changes. Tools like Chromatic or Percy make this straightforward.
+
+**Integration tests** (slower, run before release): Test components within real application contexts to catch issues that unit and visual tests miss.
+
+**Manual testing checklist** (human review): Create a simple checklist that consuming teams follow:
+- Component renders without console errors
+- Keyboard navigation works (Tab, Enter, Escape)
+- Screen readers announce component purpose
+- Mobile touch targets are adequate
+
+## Version Compatibility Windows
+
+Decide how many versions you'll support simultaneously. A clear policy prevents endless support obligations:
+
+- **Active version**: Receives new features and bug fixes
+- **Maintenance version** (previous major): Bug fixes only for 6 months
+- **Deprecated versions**: Security issues only, or no support
+
+Communicate version retirement dates at least 6 months in advance. Provide automated migration tools if possible—a CLI tool that updates component imports and prop names goes a long way.
+
+## Monitoring Component Library Health
+
+Track metrics that tell you how well your coordination system works:
+
+- **Time to merge** (PRs): Should decrease as workflows improve
+- **Defect escape rate** (bugs found post-release): Indicates test effectiveness
+- **Adoption rate of new components**: Shows whether documentation is clear
+- **Breaking change impact** (teams affected by releases): Indicates dependency coupling
+
+Review these metrics quarterly. If time-to-merge is increasing, your workflow might have too much friction. If defect escape is high, your testing strategy needs strengthening.
+
+---
+
 
 ## Related Articles
 

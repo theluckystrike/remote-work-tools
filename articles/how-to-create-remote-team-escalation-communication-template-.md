@@ -171,6 +171,79 @@ Use dedicated channels for different incident stages. A common pattern:
 
 Direct message your escalation contact first, then post to the appropriate channel. This prevents channel noise while ensuring the right person sees the message immediately.
 
+## Building Escalation Chains
+
+For remote teams spanning multiple time zones, escalation chains ensure someone responds even when primary contacts are offline. Define clear escalation paths for each severity level:
+
+**For SEV1 incidents:**
+1. Page the on-call primary (0 minutes response time target)
+2. If no response in 5 minutes, page the on-call secondary
+3. If no response in 10 minutes, page the team lead
+4. If no response in 15 minutes, declare the incident, start mitigation without primary contact
+
+Document these chains and publish them visibly. Include timezone information for each person in the rotation. Use tools like PagerDuty or Opsgenie to automate escalation rather than relying on manual contact attempts.
+
+## Creating Context Preservation During Escalations
+
+When escalating an incident, the original reporter often hands off to senior engineers. This transition loses context unless you preserve it deliberately. Every escalation template should include a "context preservation" section:
+
+```markdown
+## Context for Escalation Partner
+
+**Reporter:** Sarah (US West time zone)
+**Initial discovery:** 02:15 UTC via monitoring alert
+**Time since start:** 45 minutes
+**Previous attempts:**
+- Restarted service (no change)
+- Checked recent deployments (none in 6 hours)
+- Contacted database team, no response
+**Customer communication:**
+- Support team notified 30 min ago
+- Status page updated to "Investigating"
+- ~500 customers affected
+**Critical dependencies:**
+- Awaiting database team response on connection pool
+- Payment processing is critical path
+```
+
+This handoff section ensures the escalation partner understands not just the current state, but how you arrived there and what's already been tried.
+
+## Escalation Training and Drills
+
+Effective escalation requires practice. Schedule quarterly "escalation drills" where you practice the process without a real incident:
+
+1. **Scenario setup** (5 min): Present a fictional incident scenario
+2. **Escalation execution** (10 min): Team members practice filling out templates and escalating
+3. **Debrief** (10 min): Discuss what went well and what needs improvement
+
+This trains muscle memory so teams execute quickly during real incidents. It also surfaces gaps in your templates or escalation chains before they cause problems.
+
+## Escalation Anti-Patterns to Avoid
+
+Several escalation practices make incidents worse rather than better:
+
+**Escalating too frequently:** Not every issue needs escalation. Train teams to identify what truly requires immediate escalation versus what can wait for normal business hours.
+
+**Escalating without context:** "We have a problem" forces the escalation recipient to investigate before they can help. Always include the six required elements.
+
+**Escalating without trying fixes first:** Document attempted mitigations before escalating. This proves you are serious and gives the escalation recipient information about what works and what does not.
+
+**Escalating without acknowledgment:** Never assume handoff is complete because you posted a message. Wait for explicit acknowledgment—"Got it" or "I'm starting now"—before you step back.
+
+## Metrics for Escalation Effectiveness
+
+Track how well your escalation system works:
+
+- **Time to acknowledgment** (target: <5 min for SEV1, <15 min for SEV2)
+- **First response time** (target: <10 min for SEV1, <30 min for SEV2)
+- **Escalations per week** (trend: should decrease as prevention improves)
+- **Escalation template completion rate** (target: >95%)
+- **Post-incident feedback** (ask: Was escalation clear? Did you have everything you needed?)
+
+Review these metrics monthly. If acknowledgment time is slow, your on-call rotation might have gaps. If template completion is low, your template might be too complex.
+
+---
+
 
 ## Related Articles
 
