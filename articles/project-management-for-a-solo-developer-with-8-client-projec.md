@@ -9,7 +9,7 @@ permalink: /project-management-for-a-solo-developer-with-8-client-projec/
 categories: [guides]
 tags: [remote-work-tools, project-management, solo-developer, productivity, workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

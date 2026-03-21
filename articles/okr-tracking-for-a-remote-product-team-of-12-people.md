@@ -9,7 +9,7 @@ permalink: /okr-tracking-for-a-remote-product-team-of-12-people/
 categories: [guides]
 tags: [remote-work-tools, okr, product-management, remote-work, goal-tracking, team-collaboration]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

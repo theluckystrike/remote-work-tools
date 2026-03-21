@@ -9,7 +9,7 @@ permalink: /podcast-guesting-strategy-for-freelance-developers/
 categories: [guides]
 tags: [remote-work-tools, podcast, guesting, freelance, marketing, personal-brand]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

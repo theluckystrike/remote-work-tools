@@ -9,7 +9,7 @@ permalink: /password-rotation-policy-setup-for-remote-teams-using-shared/
 categories: [guides]
 tags: [remote-work-tools, password-security, remote-work, credentials, security, shared-accounts]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
