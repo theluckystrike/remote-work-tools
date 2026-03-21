@@ -210,6 +210,41 @@ Use this checklist when deploying a visitor management system:
 - [ ] Test integration with access control system
 - [ ] Establish visitor data retention and purge policies
 
+## Comparing Commercial Platforms in Depth
+
+When budget and timeline favor a commercial solution, the choice between Envoy, Proxyclick, and Greet comes down to specific integration needs rather than feature parity — all three cover the basics competently.
+
+**Envoy** is the most widely deployed in US tech companies. It handles iPad-based kiosks well and has a polished badge printing flow. The Envoy API is relatively mature and supports webhook events for arrivals and departures. The limitation is pricing: Envoy bills per location and adds per-feature charges for things like capacity management and deliveries, which can make costs unpredictable as hybrid office needs expand.
+
+**Proxyclick** targets enterprise and regulated industries. It includes built-in watchlist screening against international sanctions lists, NDA digital signature workflows, and ISO 27001 certification. If your organization handles government contracts or financial services clients, the compliance documentation that Proxyclick provides is worth the higher price point. Its Microsoft 365 integration is particularly strong — visitor invites flow directly from Outlook calendar events without custom webhook development.
+
+**Greet** (from iOFFICE, now part of Eptura) positions itself as part of a broader workplace management suite. If you are already using desk booking or space management software from the same vendor, consolidating into Greet avoids duplicate data models for employee and space records. The touchless QR check-in flow is smooth, though the admin dashboard feels less polished than Envoy's for day-to-day operations.
+
+For teams under 50 employees at a single location, Envoy's Starter plan is a practical default. For multi-location enterprises above 500 employees, evaluate Proxyclick if compliance is a priority or Greet if you want to unify workplace software under one vendor.
+
+## Handling Edge Cases in Visitor Flows
+
+Production visitor management systems encounter edge cases that simple demos do not cover. Plan for these before launch rather than patching them under pressure.
+
+**Walk-in visitors with no pre-registration.** Build a separate walk-in registration kiosk flow that captures minimal information quickly. Require name, company, and host employee name. Have the system send an instant Slack or Teams message to the host asking them to approve or deny the visitor. If no response arrives within five minutes, escalate to the front desk.
+
+**Group visits.** Interview panels, office tours, and vendor demos bring multiple visitors at once. Your API should support batch registration with a shared `visitGroupId` field. Issue visitors a QR code tied to the group rather than requiring each person to scan individually at the kiosk.
+
+**Extended stays.** Some contractors or partners visit daily for weeks. Implement a recurring visitor record with a validity window and badge that activates each morning during the window period, rather than requiring re-registration every day.
+
+**Failed checkout detection.** Visitors who leave without scanning out create inaccurate occupancy counts. Set a time-based fallback: if a checked-in visitor's expected departure time has passed by two hours with no checkout event, automatically mark them as checked out and void their badge access. Log the discrepancy for the security audit trail.
+
+## Notification Workflow Design
+
+Automated notifications make or break the visitor experience. Design notification events for each state transition:
+
+- Pre-registration confirmation (sent to visitor 24 hours before, includes QR code and parking instructions)
+- Day-of reminder (sent 1 hour before expected arrival with check-in instructions)
+- Host arrival alert (sent to host when visitor checks in, includes visitor photo if collected)
+- Security alert for unrecognized visitors (sent to security desk for walk-ins pending host approval)
+- Departure confirmation (sent to host when visitor checks out, can trigger follow-up workflows)
+
+Use a notification service like SendGrid for email and Twilio for SMS alongside your Slack or Teams integration. Visitors outside your corporate network should receive SMS or email rather than Slack messages since they will not have workspace access.
 
 ## Related Articles
 
