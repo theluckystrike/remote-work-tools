@@ -9,7 +9,7 @@ permalink: /remote-working-parent-tax-deduction-guide-for-home-office-and-depend
 categories: [guides]
 tags: [remote-work-tools, tax-deductions, remote-work, home-office, dependent-care]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

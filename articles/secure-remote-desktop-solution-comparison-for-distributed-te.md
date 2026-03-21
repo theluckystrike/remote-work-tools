@@ -9,7 +9,7 @@ permalink: /secure-remote-desktop-solution-comparison-for-distributed-te/
 categories: [guides]
 tags: [remote-work-tools, remote-desktop, security, distributed-teams, vpn-alternative, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

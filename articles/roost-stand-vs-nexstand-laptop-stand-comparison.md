@@ -9,7 +9,7 @@ permalink: /roost-stand-vs-nexstand-laptop-stand-comparison/
 categories: [guides]
 tags: [remote-work-tools, remote-work, ergonomics, laptop-stand, developer-tools, workspace, comparison, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
