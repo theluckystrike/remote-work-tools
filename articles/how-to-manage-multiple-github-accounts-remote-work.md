@@ -216,8 +216,113 @@ git config --global url."https://github-work/".insteadOf "git@github-work:"
 
 This approach uses your GitHub personal access token stored in the credential helper, avoiding SSH entirely.
 
+## Managing Three or More Accounts
 
-## Related Articles
+Some remote developers juggle three accounts simultaneously: personal, a full-time employer, and one or more freelance clients. The SSH config approach scales cleanly. Add additional Host blocks for each account:
+
+```
+Host github-freelance-clientA
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github_clientA
+    IdentitiesOnly yes
+
+Host github-freelance-clientB
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github_clientB
+    IdentitiesOnly yes
+```
+
+Keep a simple reference file at `~/.ssh/github-accounts.txt` listing which host alias maps to which GitHub username and email. When you have five SSH aliases, that mental overhead adds up quickly.
+
+## Using a Directory Naming Convention
+
+A practical workflow that scales well for remote developers is organizing repositories by account in top-level directories:
+
+```
+~/code/
+  personal/      # All personal repos
+  acme-corp/     # Full-time employer
+  client-alpha/  # Freelance client 1
+  client-beta/   # Freelance client 2
+```
+
+Combined with `includeIf.gitdir` in your `.gitconfig`, every repo automatically gets the correct email and signing key without any per-repository setup. This is the most frictionless approach for developers managing many repositories across multiple identities.
+
+## Handling GitHub CLI with Multiple Accounts
+
+The GitHub CLI (`gh`) supports multiple accounts through its `auth switch` command. Set up each account:
+
+```bash
+gh auth login --hostname github.com
+# Follow prompts for each account; label them for reference
+```
+
+Switch between active accounts before running commands:
+
+```bash
+gh auth switch --user your-personal-username
+gh pr create --title "Personal project PR"
+
+gh auth switch --user your-work-username
+gh issue list --repo company/internal-tool
+```
+
+This keeps your CLI identity in sync with whichever account you are currently working in, preventing pull requests from appearing under the wrong GitHub profile.
+
+## Signed Commits with GPG Keys
+
+Remote teams increasingly require signed commits as a security practice—especially for open-source contributions and regulated industries. You will need a separate GPG signing key for each GitHub account, similar to how you manage SSH keys.
+
+Generate a GPG key:
+
+```bash
+gpg --full-generate-key
+```
+
+List your keys and copy the key ID:
+
+```bash
+gpg --list-secret-keys --keyid-format=long
+```
+
+Configure Git to use that key for a specific repository:
+
+```bash
+cd path/to/work/repo
+git config user.signingkey YOUR_KEY_ID
+git config commit.gpgsign true
+```
+
+Add the public GPG key to your GitHub account under Settings → SSH and GPG keys → New GPG key. Signed commits appear with a "Verified" badge in GitHub's interface—a trust signal that matters when contributing to security-sensitive projects.
+
+## Quick Reference: Account Switch Checklist
+
+When starting work on a repository for a different account, run through this mental checklist:
+
+1. Is the remote URL using the correct host alias (github-personal vs github-work)?
+2. Does `git config user.email` show the correct email for this repository?
+3. Is the SSH key for this account loaded in the agent (`ssh-add -l`)?
+4. If using GitHub CLI, has `gh auth switch` been run?
+
+A pre-commit hook can catch identity errors before they land in your commit history:
+
+```bash
+#!/bin/bash
+# .git/hooks/pre-commit
+EXPECTED_EMAIL="your-work-email@company.com"
+CURRENT_EMAIL=$(git config user.email)
+
+if [ "$CURRENT_EMAIL" != "$EXPECTED_EMAIL" ]; then
+  echo "Error: Git email is $CURRENT_EMAIL, expected $EXPECTED_EMAIL"
+  exit 1
+fi
+```
+
+Place this in `.git/hooks/pre-commit` and make it executable with `chmod +x .git/hooks/pre-commit`. It blocks commits made with the wrong identity before they happen.
+
+## Related Reading
 
 - [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
 - [How to Manage Multiple Freelance Clients Effectively](/remote-work-tools/how-to-manage-multiple-freelance-clients-effectively/)
