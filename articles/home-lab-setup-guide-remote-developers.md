@@ -34,6 +34,8 @@ The sweet spot for a developer home lab is a small form factor PC or repurposed 
 
 Key specs to prioritize: RAM (you need at least 32GB for running multiple VMs), SSD storage (spinning disk kills VM performance), and CPU virtualization support (check with `grep -E 'vmx|svm' /proc/cpuinfo`).
 
+Power consumption matters for always-on hardware. The Beelink mini PC draws around 15-25W under load — roughly $2-3/month in electricity at average US rates. Compare that to a full tower workstation at 150W+ idle, which runs $15-20/month continuously. For a 24/7 lab, mini PCs and NUCs win on running costs, and the noise level is also significantly lower — important if the lab lives in a home office or bedroom.
+
 ## Hypervisor: Proxmox VE
 
 Proxmox is the standard home lab hypervisor. It runs KVM virtual machines and LXC containers, has a web UI, and is free with optional paid support.
@@ -63,6 +65,13 @@ echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" \
 
 apt update && apt dist-upgrade -y
 ```
+
+**Alternatives to Proxmox:** If you prefer something lighter, consider:
+- **XCP-ng** — another open-source KVM hypervisor, closer to VMware's interface
+- **Incus** — LXC/VM management for those who prefer the LXD lineage without the Canonical dependency
+- **libvirt + virt-manager** — bare metal KVM with a desktop GUI, ideal if you prefer managing VMs from a Linux workstation
+
+For most developers, Proxmox hits the best balance of features and operational simplicity.
 
 ## Create Your First VM
 
@@ -125,6 +134,8 @@ iface vmbr0 inet static
         bridge-vids 2-4094
 ```
 
+VLAN isolation provides two practical benefits for developers: your lab experiments cannot accidentally DDoS your home router, and you can simulate realistic network topologies (frontend subnet, backend subnet, database subnet) without physical hardware.
+
 ## DNS: pi-hole + Unbound
 
 Pi-hole handles ad blocking and local DNS resolution. Unbound adds a recursive resolver so DNS queries go directly to root nameservers — not Google or Cloudflare.
@@ -154,6 +165,8 @@ pct exec 200 -- apt install unbound -y
 
 Set your router's DHCP to push 192.168.1.200 as the DNS server.
 
+Local DNS entries are a quality-of-life improvement that compounds over time. Typing `ssh ubuntu-dev.lab` instead of memorizing IP addresses, and accessing services at `gitea.lab:3000` instead of `192.168.1.101:3000`, makes the lab feel like a real infrastructure environment.
+
 ## Services Worth Running in a Home Lab
 
 ### Gitea (self-hosted Git)
@@ -169,7 +182,7 @@ docker run -d \
   gitea/gitea:1.21
 ```
 
-Use Gitea as a local mirror of your GitHub repos. Push to local first, then to GitHub — useful when GitHub is down or for private experimentation.
+Use Gitea as a local mirror of your GitHub repos. Push to local first, then to GitHub — useful when GitHub is down or for private experimentation. Gitea also supports CI integration via Woodpecker, which is covered below.
 
 ### Registry (Docker image cache)
 
@@ -197,6 +210,35 @@ docker run -d \
 ```
 
 Test S3 code locally without AWS charges. The AWS SDK works against Minio by setting `endpoint_url`.
+
+### Woodpecker CI (self-hosted CI/CD)
+
+A local CI runner eliminates GitHub Actions minute limits during heavy development cycles. Woodpecker CI is a lightweight, Docker-native CI system that uses the same YAML pipeline format as Drone CI:
+
+```bash
+# docker-compose.yml for Woodpecker
+version: '3'
+services:
+  woodpecker-server:
+    image: woodpeckerci/woodpecker-server:latest
+    ports:
+      - 8000:8000
+    environment:
+      - WOODPECKER_OPEN=true
+      - WOODPECKER_GITEA=true
+      - WOODPECKER_GITEA_URL=http://192.168.1.101:3000
+      - WOODPECKER_AGENT_SECRET=supersecret
+
+  woodpecker-agent:
+    image: woodpeckerci/woodpecker-agent:latest
+    environment:
+      - WOODPECKER_SERVER=woodpecker-server:9000
+      - WOODPECKER_AGENT_SECRET=supersecret
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+```
+
+Pair Woodpecker with your Gitea instance for a fully local Git + CI pipeline. This is particularly useful for validating Docker build pipelines and infrastructure-as-code changes before pushing to production.
 
 ## SSH Config for Lab Access
 
@@ -235,7 +277,24 @@ sysctl -p
 # Now your laptop can reach all lab IPs via Tailscale from anywhere
 ```
 
-With the subnet route approved, your work laptop reaches `192.168.1.101` through the Tailscale tunnel from any network — coffee shop, co-working space, hotel.
+With the subnet route approved, your work laptop reaches `192.168.1.101` through the Tailscale tunnel from any network — coffee shop, co-working space, hotel. This is the key feature that makes a home lab useful for remote developers rather than just a home project.
+
+Tailscale's free tier supports up to 3 users and 100 devices, more than enough for a personal lab. The Magic DNS feature (tailscale.net hostnames) adds another layer of naming convenience on top of your Pi-hole local DNS.
+
+## Backups: The Step Most People Skip
+
+A home lab without backups is a lab you will eventually rebuild from scratch. Proxmox Backup Server (PBS) is free and designed for this use case:
+
+```bash
+# Install PBS on a second machine or separate VM
+# Then configure a backup job in Proxmox web UI:
+# Datacenter > Backup > Add
+# Schedule: daily at 02:00
+# Mode: Snapshot (no downtime)
+# Retention: 7 daily, 4 weekly
+```
+
+For offsite backup, Restic against a Backblaze B2 bucket costs roughly $0.006/GB/month. A 500GB backup set costs about $3/month — worth it to protect weeks of configuration work.
 
 ## Related Reading
 
