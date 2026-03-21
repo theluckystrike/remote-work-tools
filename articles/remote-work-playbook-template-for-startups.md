@@ -9,7 +9,7 @@ permalink: /remote-work-playbook-template-for-startups/
 categories: [guides]
 tags: [remote-work-tools, remote-work, templates, startups, workflows]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

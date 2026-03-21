@@ -9,7 +9,7 @@ permalink: /remote-working-parent-burnout-prevention-checklist-for-distributed-t
 categories: [guides]
 tags: [remote-work-tools, remote-work, burnout-prevention, distributed-teams, team-management, parent-wellness]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

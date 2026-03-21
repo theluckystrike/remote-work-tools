@@ -7,9 +7,9 @@ date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-work-distraction-elimination-guide-2026/
 categories: [guides]
-tags: [productivity, focus, remote-work, tools]
+tags: [remote-work-tools, productivity, focus, remote-work, tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: false
 voice-checked: false
 ---
