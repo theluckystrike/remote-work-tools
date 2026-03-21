@@ -9,7 +9,7 @@ permalink: /best-wiki-tool-for-a-40-person-remote-customer-support-team/
 categories: [guides]
 tags: [remote-work-tools, wiki, documentation, customer-support, remote-work, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

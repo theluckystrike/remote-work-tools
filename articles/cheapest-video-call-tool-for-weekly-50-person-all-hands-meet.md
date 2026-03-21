@@ -9,7 +9,7 @@ permalink: /cheapest-video-call-tool-for-weekly-50-person-all-hands-meet/
 categories: [guides]
 tags: [remote-work-tools, video-conferencing, remote-work, collaboration-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

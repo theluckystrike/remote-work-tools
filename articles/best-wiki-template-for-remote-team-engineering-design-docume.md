@@ -9,7 +9,7 @@ permalink: /best-wiki-template-for-remote-team-engineering-design-docume/
 categories: [guides]
 tags: [remote-work-tools, engineering, documentation, wiki, design-document, remote-work, async, review-workflow]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
