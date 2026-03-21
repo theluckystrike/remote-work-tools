@@ -223,6 +223,7 @@ Configure your IDE for ultrawide use:
 - JetBrains: Enable wide layout in Settings > Appearance > Wide screen support
 
 
+
 ## Related Articles
 
 - [Remote Developer Home Office Monitor Setup Guide](/remote-work-tools/remote-developer-home-office-monitor-setup-guide-ultrawide-vs-dual/)

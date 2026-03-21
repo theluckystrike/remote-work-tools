@@ -87,9 +87,6 @@ const prTemplate = `
 ## What This PR Does
 [Description of changes]
 
-## Related Issues
-- Closes #123
-
 ## Testing Notes
 - [ ] Tested locally on feature branch
 - [ ] Unit tests pass
@@ -206,6 +203,7 @@ Adjust your framework as you learn what works. The goal isn't to minimize commun
 Remote agency work thrives on trust. By being clear about how you work, you actually become easier to collaborate with—and you protect the long-term energy needed to deliver great work.
 
 ---
+
 
 
 ## Related Articles

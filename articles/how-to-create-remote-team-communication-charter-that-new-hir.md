@@ -108,7 +108,6 @@ Brief description of the change and its purpose
 ## Screenshots (if applicable)
 Before/after or UI changes
 
-## Related issues
 Closes #123
 ```
 
@@ -230,6 +229,7 @@ After implementing your charter, measure whether it's actually working:
 - Track response times to see if expectations are realistic
 
 ---
+
 
 
 ## Related Articles

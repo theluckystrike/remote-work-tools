@@ -301,6 +301,7 @@ resource "aws_codebuild_project" "backend_ci" {
 ```
 
 
+
 ## Related Articles
 
 - [Review assignment logic (example)](/remote-work-tools/code-review-workflow-for-a-remote-backend-team-of-6-develope/)

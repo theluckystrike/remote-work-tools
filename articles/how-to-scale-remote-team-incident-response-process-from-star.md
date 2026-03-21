@@ -335,6 +335,7 @@ Regardless of team size, apply these foundational practices:
 **Document everything.** If it's not written down, it doesn't exist. Create artifacts that help future responders.
 
 
+
 ## Related Articles
 
 - [How to Scale Remote Team Incident Response Process From](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)

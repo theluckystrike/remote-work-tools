@@ -190,6 +190,7 @@ Don't over-engineer your system on day one. Start with basic candidate and job t
 Avoid storing sensitive data like salary negotiations or internal feedback in databases shared with hiring managers. Use separate private databases for confidential information.
 
 
+
 ## Related Articles
 
 - [Notion Setup for Solo Freelancer Managing 5 Clients: A](/remote-work-tools/notion-setup-for-solo-freelancer-managing-5-clients/)

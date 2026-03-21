@@ -172,6 +172,7 @@ Without insurance, the same hospitalization could cost $5,000-15,000 at a privat
 ```
 
 
+
 ## Related Articles
 
 - [How to Handle Health Insurance as a Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from-thailand-long-term/)

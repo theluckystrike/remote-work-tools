@@ -251,6 +251,7 @@ Include a search-friendly summary in each decision so GitHub's search functional
 ---
 
 
+
 ## Related Articles
 
 - [How to Create Onboarding Documentation for Remote Teams](/remote-work-tools/how-to-create-onboarding-documentation-remote-teams/)

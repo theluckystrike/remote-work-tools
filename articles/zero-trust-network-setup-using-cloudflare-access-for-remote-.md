@@ -235,6 +235,7 @@ Always maintain a fallback access method for critical situations. Configure brea
 **Skipping user communication.** Announce changes ahead of time and provide clear instructions. Surprise authentication prompts create friction and resistance.
 
 
+
 ## Related Articles
 
 - [How to Set Up Zero Trust Network Access for Distributed](/remote-work-tools/how-to-set-up-zero-trust-network-access-for-distributed-engi/)

@@ -206,6 +206,7 @@ Iterate on your approach based on these metrics.
 Running async sprint demos requires upfront investment in recording habits and workflows, but pays dividends in team flexibility and stakeholder engagement. Start with simple recordings, gather feedback, and refine your process over time.
 
 
+
 ## Related Articles
 
 - [Async Pair Programming Workflow Using Recorded Walkthroughs](/remote-work-tools/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)

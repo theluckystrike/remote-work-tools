@@ -250,9 +250,10 @@ Less Buffer (10%): -197 hours
 This async calculation completed without any meetings, using shared documents and written communication.
 
 
+
 ## Related Articles
 
-- [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
+- [Async Capacity Planning Process for Remote Engineering — Managers](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-managers-guide/)
 - [Best Tool for Remote Team Capacity Planning When Scaling](/remote-work-tools/best-tool-for-remote-team-capacity-planning-when-scaling-eng/)
 - [infrastructure-pods.yaml](/remote-work-tools/how-to-coordinate-remote-sre-team-capacity-planning-across-i/)
 - [Async Engineering Proposal Process Using Github Discussions](/remote-work-tools/async-engineering-proposal-process-using-github-discussions-/)

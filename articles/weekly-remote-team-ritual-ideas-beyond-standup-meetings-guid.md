@@ -501,6 +501,7 @@ For a team of 6-8, you're looking at 6-8 hours per week for all rituals combined
 The goal isn't to maximize rituals. It's to have rituals that actually improve how your team works and connects. Quality over quantity.
 
 
+
 ## Related Articles
 
 - [Remote Team Gratitude Practice Ideas for Weekly Team](/remote-work-tools/remote-team-gratitude-practice-ideas-for-weekly-team-meeting/)

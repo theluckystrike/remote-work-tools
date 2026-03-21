@@ -188,6 +188,7 @@ Avoid creating zones that are too small to be useful—a six-desk team neighborh
 Another common mistake is neglecting to account for meeting room proximity. Teams that collaborate frequently benefit from being near meeting spaces, so factor this into your zone assignments.
 
 
+
 ## Related Articles
 
 - [Calculate pod count based on floor space and team size](/remote-work-tools/how-to-redesign-open-plan-office-for-hybrid-work-adding-focu/)

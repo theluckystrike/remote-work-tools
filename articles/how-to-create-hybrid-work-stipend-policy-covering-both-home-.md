@@ -215,6 +215,7 @@ Track these metrics to evaluate your policy:
 - Equity indicators: Analyze usage patterns across different employee demographics
 
 
+
 ## Related Articles
 
 - [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)

@@ -304,8 +304,13 @@ tail -10 ~/standing-log.txt
 ```
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Best Standing Desk Converters Under $300 for Developers](/remote-work-tools/best-standing-desk-converters-under-300-for-developers/)
+- [Best Remote Work Standing Desk Converter Under $200 2026](/remote-work-tools/best-remote-work-standing-desk-converter-under-200-dollars-2026/)
+- [Best Adjustable Laptop Stand for Eye Level on Standing Desk](/remote-work-tools/best-adjustable-laptop-stand-for-eye-level-on-standing-desk/)
+- [Best Compact Standing Desk for Small Apartment Home Office](/remote-work-tools/best-compact-standing-desk-for-small-apartment-home-office-2/)
+- [Best Standing Desk for Home Office 2026](/remote-work-tools/best-standing-desk-for-home-office-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

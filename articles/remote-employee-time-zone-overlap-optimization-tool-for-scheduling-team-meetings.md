@@ -175,6 +175,7 @@ One-Time vs Recurring: A tool should distinguish between finding a single slot (
 Public Holidays: For monthly or quarterly planning, factor in regional holidays that affect availability in specific time zones.
 
 
+
 ## Related Articles
 
 - [Remote Employee Time Zone Overlap Optimization Tool](/remote-work-tools/remote-employee-time-zone-overlap-optimization-tool-for-sche/)

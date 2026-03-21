@@ -95,9 +95,6 @@ Template System: Provide ready-made templates for common contribution types. Don
 |-------|----------|
 | Error X | Fix Y |
 
-## Related Resources
-- [Internal link 1]
-- [Internal link 2]
 ```
 
 Slack Integration: Let engineers submit knowledge base entries directly from Slack. A simple slash command captures information while it's fresh in their minds.
@@ -360,6 +357,7 @@ But also measure qualitatively:
 - "Are fewer questions asked in Slack?" (analyze Slack trends)
 
 A successful program feels like documentation is just "how we do things," not "the incentive program we're running."
+
 
 
 ## Related Articles

@@ -242,6 +242,7 @@ Iterate on your process based on feedback. The first version won't be perfect, a
 **Failing to update** — Capacity isn't static. If someone's situation changes mid-sprint, recalculate and communicate.
 
 
+
 ## Related Articles
 
 - [Async Capacity Planning Process for Remote Engineering](/remote-work-tools/async-capacity-planning-process-for-remote-engineering-manag/)

@@ -261,6 +261,7 @@ Track these metrics to evaluate your welcome rituals:
 Review these metrics quarterly and adjust your rituals based on data rather than assumptions.
 
 
+
 ## Related Articles
 
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)

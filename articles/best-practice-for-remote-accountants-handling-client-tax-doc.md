@@ -217,12 +217,14 @@ Use this checklist to verify your security setup:
 - [ ] Client data organized with proper isolation
 - [ ] Secure deletion procedures for old documents
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Handle Confidential Client Data on Remote Team.](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
-- [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
-- [How to Set Up HIPAA Compliant Home Office for Remote.](/remote-work-tools/how-to-set-up-hipaa-compliant-home-office-for-remote-healthc/)
+## Related Articles
+
+- [Best Practice for Hybrid Office Mail and Package Handling](/remote-work-tools/best-practice-for-hybrid-office-mail-and-package-handling-fo/)
+- [Python script for scheduling client communication boundaries](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
+- [OpenVPN client configuration snippet](/remote-work-tools/best-practice-for-hybrid-office-it-setup-supporting-both-rem/)
+- [Example: HIPAA-compliant data handling](/remote-work-tools/remote-healthcare-patient-intake-form-tool-for-distributed-c/)
+- [Best Tool for Tracking Remote Worker Tax Obligations Across](/remote-work-tools/best-tool-for-tracking-remote-worker-tax-obligations-across-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

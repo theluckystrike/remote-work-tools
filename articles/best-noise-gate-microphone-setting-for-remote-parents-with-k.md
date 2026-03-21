@@ -313,6 +313,7 @@ The investment in proper gate configuration and testing dramatically reduces mee
 ---
 
 
+
 ## Related Articles
 
 - [Best Noise Gate Settings for Blue Yeti Microphone Home](/remote-work-tools/best-noise-gate-settings-for-blue-yeti-microphone-home-offic/)

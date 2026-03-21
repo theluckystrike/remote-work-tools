@@ -207,6 +207,7 @@ Making anchor days purely social: If the only value of being in-office is "water
 Neglecting async documentation: Without explicit async handoffs, anchor days create information silos that harm remote team members.
 
 
+
 ## Related Articles
 
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)

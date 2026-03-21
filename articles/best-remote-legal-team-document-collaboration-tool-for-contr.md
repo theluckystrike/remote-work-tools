@@ -213,12 +213,14 @@ Regardless of tool choice, establish clear naming conventions and folder structu
 Document your workflow and train team members consistently. The best tool failing to follow consistent processes provides little value.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
-- [Remote Content Team Collaboration Workflow for.](/remote-work-tools/remote-content-team-collaboration-workflow-for-distributed-seo-writers-2026-guide/)
-- [Remote Legal Billing Software Comparison for Distributed.](/remote-work-tools/remote-legal-billing-software-comparison-for-distributed-law/)
+- [How to Create Remote Team Values and Principles Document](/remote-work-tools/how-to-create-remote-team-values-and-principles-document-col/)
+- [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
+- [analyze_review_distribution.py](/remote-work-tools/best-framework-for-evaluating-remote-team-collaboration-qual/)
+- [Post new team playlist additions to Slack every 4 hours](/remote-work-tools/distributed-team-music-playlist-collaboration-for-remote-work/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

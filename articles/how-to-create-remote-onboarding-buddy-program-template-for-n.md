@@ -236,6 +236,7 @@ The best buddy programs feel organic rather than scripted. Your templates provid
 ---
 
 
+
 ## Related Articles
 
 - [How to Create Remote Buddy System Program for Onboarding](/remote-work-tools/how-to-create-remote-buddy-system-program-for-onboarding-new/)

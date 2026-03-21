@@ -222,6 +222,7 @@ End of Month 1: Full review, incorporate lessons learned
 Quarterly: Compare with other projects, share what works
 
 
+
 ## Related Articles
 
 - [.github/communication.yml](/remote-work-tools/how-to-create-remote-team-communication-charter-that-new-hir/)

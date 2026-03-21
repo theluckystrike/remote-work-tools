@@ -326,6 +326,7 @@ Track metrics across multiple workshops:
 If satisfaction drops below 3.5/5 or participation below 60%, review recording and ask for specific feedback on which elements didn't work.
 
 
+
 ## Related Articles
 
 - [Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-boar/)

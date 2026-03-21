@@ -240,13 +240,14 @@ A communication audit isn't an one-time exercise. Set a quarterly reminder to re
 The goal isn't to eliminate all meetings or channels—some synchronous communication is essential for collaboration. The goal is intentionality: every meeting should have a purpose, every channel should have active participants, and your team should have protected time for actual work.
 
 
+
 ## Related Articles
 
 - [Remote Team Growth Stage Communication Audit](/remote-work-tools/remote-team-growth-stage-communication-audit-identifying-bot/)
 - [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 - [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 - [Time Audit for Remote Workers: A Practical How-To Guide](/remote-work-tools/time-audit-for-remote-workers-how-to-guide-2026/)
-- [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [Communication Norms for a Remote Team of 20 Across 4](/remote-work-tools/communication-norms-for-a-remote-team-of-20-across-4-timezon/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

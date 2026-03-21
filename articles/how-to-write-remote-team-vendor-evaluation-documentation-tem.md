@@ -251,6 +251,7 @@ Stop further evaluation if you see these warning signs:
 Any of these warrants serious caution. Multiple red flags means exploring alternatives is warranted.
 
 
+
 ## Related Articles
 
 - [Example: Verify MFA is enabled via API (GitHub Enterprise)](/remote-work-tools/how-to-create-security-onboarding-checklist-for-new-remote-t/)

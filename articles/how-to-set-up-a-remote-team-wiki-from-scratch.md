@@ -454,7 +454,6 @@ A: The service is starting but hasn't become healthy yet. Wait 30 seconds and re
 **Q: How do I know if it's safe to deploy?**
 A: Check the deployment checklist dashboard (link) showing latest test results and deployment history.
 
-## Related: Why We Use Blue-Green Deployments
 See decision #47 for the reasoning behind this approach.
 ```
 
@@ -578,6 +577,7 @@ A wiki works better when connected to other tools.
 - Link tickets to wiki docs
 - "See also" links from tickets to related processes
 - Deployment tickets link to deployment guide
+
 
 
 ## Related Articles

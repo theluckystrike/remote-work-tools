@@ -402,6 +402,7 @@ services:
 When UPS battery is low, containers have 30 seconds to commit in-flight transactions before being shut down.
 
 
+
 ## Related Articles
 
 - [Best UPS Battery Backup for Remote Workers in Countries](/remote-work-tools/best-ups-battery-backup-for-remote-workers-in-countries-with/)

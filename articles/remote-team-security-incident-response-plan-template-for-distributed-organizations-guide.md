@@ -289,6 +289,7 @@ A plan that isn't tested is just a document. For distributed teams, test your in
 - Automation drills: Verify that your automated workflows actually trigger correctly
 
 
+
 ## Related Articles
 
 - [Scale Remote Team Incident Response From Startup to Mid-Size](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-star/)

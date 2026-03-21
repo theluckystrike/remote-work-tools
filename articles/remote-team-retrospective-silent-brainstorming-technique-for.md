@@ -314,6 +314,7 @@ Track these metrics to improve your process:
 **Team sentiment trend:** Ask a simple question at the end of each retro: "On a scale of 1-5, how are you feeling about the team and our work?" Track this trend. Retros should increase this score over time if they're working.
 
 
+
 ## Related Articles
 
 - [Best Virtual Whiteboard for Remote Team Brainstorming and](/remote-work-tools/best-virtual-whiteboard-for-remote-team-brainstorming-and-id/)

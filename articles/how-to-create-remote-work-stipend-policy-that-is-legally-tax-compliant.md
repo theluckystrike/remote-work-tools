@@ -194,6 +194,7 @@ Start with equipment stipends—they're the easiest to document and defend. As y
 ---
 
 
+
 ## Related Articles
 
 - [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)

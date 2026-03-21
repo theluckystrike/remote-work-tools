@@ -276,6 +276,7 @@ app.post('/figma-comment-webhook', async (req, res) => {
 This automation surfaces critical feedback to your team's attention system while keeping the design feedback loop intact.
 
 
+
 ## Related Articles
 
 - [Best Annotation Tool for Remote Design Review with Clients](/remote-work-tools/best-annotation-tool-for-remote-design-review-with-clients-2/)

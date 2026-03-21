@@ -193,6 +193,7 @@ Battery consumption matters for mobile apps. Continuous beacon scanning drains p
 Consider privacy implications. Store location data ephemerally and provide clear opt-in controls. Most employees appreciate wayfinding convenience but resist persistent tracking. Implement data retention policies that delete location history after 24-48 hours.
 
 
+
 ## Related Articles
 
 - [Hybrid Office Locker System for Employees Who Hot Desk](/remote-work-tools/hybrid-office-locker-system-for-employees-who-hot-desk/)

@@ -263,6 +263,7 @@ This creates a searchable archive that new team members can review to understand
 ---
 
 
+
 ## Related Articles
 
 - [How to Run Effective Remote Client Workshops Using Miro](/remote-work-tools/how-to-run-effective-remote-client-workshops-using-miro-board/)

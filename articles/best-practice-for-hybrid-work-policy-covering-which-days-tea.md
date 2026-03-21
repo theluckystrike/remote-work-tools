@@ -186,12 +186,14 @@ Collect feedback monthly during the first quarter, then quarterly. Track actual 
 
 **Treating remote days as less important** undermines trust. Ensure promotions, visibility opportunities, and interesting projects flow to remote workers equally.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Create a Hybrid Work Stipend Policy Covering Both.](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
-- [How to Create Hybrid Work Schedule Template for Teams.](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-- [How to Preserve Async Communication Culture When Team Moves to Hybrid Work](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
+## Related Articles
+
+- [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)
+- [Example: Policy comparison scoring for digital nomads](/remote-work-tools/best-travel-insurance-for-digital-nomads-covering-laptop-the/)
+- [Example: Calculate optimal announcement time for global team](/remote-work-tools/how-to-communicate-remote-work-policy-changes-to-distributed/)
+- [conversation-prompts.yaml - Example prompt rotation system](/remote-work-tools/best-practice-for-hybrid-team-social-events-including-both-r/)
+- [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

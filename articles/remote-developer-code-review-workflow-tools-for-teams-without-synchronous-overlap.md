@@ -62,7 +62,6 @@ Explain the implementation strategy and why you chose this approach over alterna
 ## Screenshots (if applicable)
 [Add screenshots for UI changes]
 
-## Related PRs or Issues
 Links to any dependent PRs or related issues
 ```
 
@@ -193,6 +192,7 @@ Track these metrics to ensure your async review process improves over time:
 - PR size correlation: Larger PRs often see longer review times
 
 GitHub's native analytics provide baseline metrics; integrate with tools like Stack Overflow for Teams or Notion for custom dashboards.
+
 
 
 ## Related Articles

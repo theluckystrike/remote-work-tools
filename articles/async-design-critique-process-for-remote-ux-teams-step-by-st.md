@@ -289,6 +289,7 @@ At 6+ designers: introduce critique tiers. Tier 1 (core flows): full team review
 This prevents critique from becoming a bottleneck while maintaining quality gates on important work.
 
 
+
 ## Related Articles
 
 - [Async Bug Triage Process for Remote QA Teams: Step-by-Step](/remote-work-tools/async-bug-triage-process-for-remote-qa-teams-step-by-step/)

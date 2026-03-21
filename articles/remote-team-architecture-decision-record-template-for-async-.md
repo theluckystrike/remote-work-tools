@@ -71,10 +71,6 @@ or requirements are we working with? What alternatives were considered?]
 - @[username] - [area of expertise]
 - @[username] - [area of expertise]
 
-## Related Decisions
-- ADR-[XXX] - [related decision title]
-- ADR-[YYY] - [related decision title]
-
 ## Notes
 [Any additional context, links to discussions, or future considerations]
 ```
@@ -204,6 +200,7 @@ Schedule a quarterly review of active ADRs to identify:
 **Missing alternatives:** A decision without considered alternatives lacks rigor. Even if you ultimately choose the obvious option, document what else was evaluated and why it was rejected.
 
 **Stale status:** An ADR marked "Proposed" from six months ago creates confusion. Update status promptly or archive inactive proposals.
+
 
 
 ## Related Articles

@@ -174,6 +174,7 @@ A physical therapist can teach you specific exercises tailored to your situation
 Reducing wrist pain requires consistency. Start with one or two changes—perhaps adding a keyboard shortcut or setting up a Pomodoro timer—and build from there. Your wrists will thank you after years of coding ahead.
 
 
+
 ## Related Articles
 
 - [How to Reduce Lower Back Pain from Sitting 8 Hours Coding](/remote-work-tools/how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/)

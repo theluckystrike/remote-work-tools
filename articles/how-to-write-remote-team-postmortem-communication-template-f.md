@@ -199,9 +199,6 @@ GOOD: "Add PagerDuty alert for API latency exceeding 2 seconds (Owner: @sre, Due
 If this incident relates to previous ones, create explicit connections:
 
 ```markdown
-## Related Incidents
-- INC-123 (2023-11-15): Similar database pool exhaustion
-- INC-456 (2023-09-22): Related CDN configuration issue
 ```
 
 This pattern helps identify systemic issues that require coordinated remediation.
@@ -316,6 +313,7 @@ Postmortem quality degrades when teams use blame-focused language. This happens 
 | "X made a mistake" | "The system permitted X without a confirmation step" |
 
 The shift from person to system is deliberate: action items that fix systems prevent the same class of error regardless of who's on the keyboard next time. Action items that blame individuals don't generalize.
+
 
 
 ## Related Articles

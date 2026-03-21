@@ -308,12 +308,14 @@ Attendance alone doesn't indicate effectiveness. Track:
 - Psychological safety: "Do you feel safe speaking up in meetings?"
 - Inclusion: "Do you feel represented in company communications?"
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Quarterly Planning Process That Scales Across Multiple Teams Guide](/remote-work-tools/best-practice-for-remote-team-quarterly-planning-process-that-scales-across-multiple-teams-guide/)
-- [Best Practice for Hybrid Team All Hands Meeting with.](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
-- [Best Practice for Remote Team Product Demo Day Format That Scales to 50 Engineers](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+## Related Articles
+
+- [Best Practice for Hybrid Team All Hands Meeting with Mixed](/remote-work-tools/best-practice-for-hybrid-team-all-hands-meeting-with-mixed-i/)
+- [FastAPI-based question collection endpoint](/remote-work-tools/remote-team-all-hands-meeting-question-collection-tool-for-d/)
+- [Remote Team Walking Meeting Format for One-on-One](/remote-work-tools/remote-team-walking-meeting-format-for-one-on-one-connection/)
+- [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
+- [Best Practice for Hybrid Team Standup Format Accommodating M](/remote-work-tools/best-practice-for-hybrid-team-standup-format-accommodating-m/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

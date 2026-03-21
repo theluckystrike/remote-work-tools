@@ -330,6 +330,7 @@ Every approved RFC is a learning opportunity. Monthly, pick one approved RFC and
 This practice creates organizational learning that compounds over time. New team members can read old RFCs and understand not just decisions, but the outcomes of those decisions.
 
 
+
 ## Related Articles
 
 - [Remote Team Async Decision-Making Framework](/remote-work-tools/remote-team-async-decision-making-framework/)

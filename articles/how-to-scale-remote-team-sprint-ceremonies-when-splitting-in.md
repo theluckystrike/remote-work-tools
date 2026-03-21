@@ -249,6 +249,7 @@ def calculate_optimal_meeting_times(timezones: list[str], squads: list[dict]) ->
 This script helps you generate a rotation schedule where no single time zone consistently takes inconvenient meeting times.
 
 
+
 ## Related Articles
 
 - [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)

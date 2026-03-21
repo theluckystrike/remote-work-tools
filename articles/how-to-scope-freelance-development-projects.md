@@ -189,6 +189,7 @@ Several tools help manage project scope:
 Build these into your scoping workflow. They create accountability and documentation that protects everyone involved.
 
 
+
 ## Related Articles
 
 - [Remote Agency Scope Change Request Workflow for Client](/remote-work-tools/remote-agency-scope-change-request-workflow-for-client-projects/)

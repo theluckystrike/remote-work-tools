@@ -263,6 +263,7 @@ Example Ansible playbook for Linux security hardening:
 ```
 
 
+
 ## Related Articles
 
 - [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)

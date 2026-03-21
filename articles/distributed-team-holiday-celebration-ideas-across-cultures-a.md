@@ -181,6 +181,7 @@ Memory Wall: Create a shared digital space (Miro board, Notion page, or shared f
 Dedicated Chat Channel: Create a temporary Slack or Discord channel specifically for holiday sharing—photos, videos, wishes in multiple languages.
 
 
+
 ## Related Articles
 
 - [Best Remote Team Wellness Program Ideas for Distributed](/remote-work-tools/best-remote-team-wellness-program-ideas-for-distributed-orga/)

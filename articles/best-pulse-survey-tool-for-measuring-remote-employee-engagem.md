@@ -243,12 +243,14 @@ while True:
 Regular engagement measurement through pulse surveys transforms remote team management from reactive to proactive. The tools above provide the infrastructure, but the magic lies in consistent execution and genuine follow-through on feedback.
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [How to Celebrate Employee Anniversaries on Fully Remote.](/remote-work-tools/how-to-celebrate-employee-anniversaries-on-fully-remote-team/)
-- [Best Practice for Measuring Remote Team Alignment Using.](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
-- [Best Onboarding Survey Template for Measuring Remote New Hire Experience at 30 60 90 Days](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+## Related Articles
+
+- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
+- [Best Onboarding Survey Template for Measuring Remote New](/remote-work-tools/best-onboarding-survey-template-for-measuring-remote-new-hir/)
+- [Remote Agency Client Satisfaction Survey Template and](/remote-work-tools/remote-agency-client-satisfaction-survey-template-and-automa/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

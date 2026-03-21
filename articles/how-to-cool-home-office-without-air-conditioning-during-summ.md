@@ -174,6 +174,7 @@ Track your productivity alongside temperature readings:
 | 31°C+ | Significant impact |
 
 
+
 ## Related Articles
 
 - [Best Air Purifier for Home Office Productivity](/remote-work-tools/best-air-purifier-for-home-office-productivity/)

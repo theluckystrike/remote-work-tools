@@ -182,6 +182,7 @@ Implementing cost tracking across remote engineering teams requires coordination
 **Review cost trends monthly.** Schedule a recurring async review where team leads examine the previous month's deploy costs. Identify patterns, celebrate improvements, and plan optimizations.
 
 
+
 ## Related Articles
 
 - [Best Deploy Workflow for a Remote Infrastructure Team of 3](/remote-work-tools/best-deploy-workflow-for-a-remote-infrastructure-team-of-3/)

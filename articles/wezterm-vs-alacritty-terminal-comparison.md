@@ -431,6 +431,7 @@ For developers with visual accessibility needs, Wezterm's more deliberate access
 If you prefer rapid iteration and new features, Wezterm wins. If you prefer stability and minimal surprises, Alacritty wins.
 
 
+
 ## Related Articles
 
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)

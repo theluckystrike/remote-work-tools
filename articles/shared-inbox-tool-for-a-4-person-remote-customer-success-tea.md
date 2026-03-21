@@ -186,6 +186,7 @@ Start with the simplest solution that meets your needs. If your team already use
 The right shared inbox transforms reactive customer success into proactive relationship management. Your team spends less time on coordination and more time helping customers succeed.
 
 
+
 ## Related Articles
 
 - [Best Shared Inbox Tools for Remote Support Teams](/remote-work-tools/best-shared-inbox-tools-for-remote-support-teams/)

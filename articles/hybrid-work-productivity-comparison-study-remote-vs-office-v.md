@@ -191,6 +191,7 @@ git log --since='30 days ago' --format='%ad' --date=format:'%A' | sort | uniq -c
 ```
 
 
+
 ## Related Articles
 
 - [Everyone gets home office base](/remote-work-tools/how-to-create-hybrid-work-stipend-policy-covering-both-home-/)

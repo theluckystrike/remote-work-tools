@@ -196,6 +196,7 @@ The framework scales: with three people, you know everything they do. With thirt
 Next steps: Audit your current workload. Categorize your tasks using the four tiers. Move everything you can to Tier 1 or 2. Document your delegation matrix and share it with your team. Then protect your time for the decisions that actually need you.
 
 
+
 ## Related Articles
 
 - [Remote Manager Time Management Framework for Leading Across](/remote-work-tools/remote-manager-time-management-framework-for-leading-across-five-plus-timezones/)

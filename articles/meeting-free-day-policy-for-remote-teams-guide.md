@@ -337,6 +337,7 @@ For a quick start:
 Measure results after week 2. By week 4, the practice becomes self-sustaining as team members experience the benefits directly.
 
 
+
 ## Related Articles
 
 - [How to Create Team Agreements Around Meeting-Free Focus Time](/remote-work-tools/how-to-create-team-agreements-around-meeting-free-focus-time/)

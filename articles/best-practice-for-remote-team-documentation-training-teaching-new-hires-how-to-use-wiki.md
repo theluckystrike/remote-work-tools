@@ -386,6 +386,7 @@ Month 1:
 ```
 
 
+
 ## Related Articles
 
 - [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)

@@ -238,6 +238,7 @@ Block prep time for presenters the week before. Make the schedule visible and ho
 ---
 
 
+
 ## Related Articles
 
 - [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)

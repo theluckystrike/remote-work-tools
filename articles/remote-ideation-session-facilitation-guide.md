@@ -198,6 +198,7 @@ Avoid these mistakes that reduce ideation session effectiveness:
 - **Infinite sessions** — Cap ideation at 45-60 minutes; extended sessions produce diminishing returns
 
 
+
 ## Related Articles
 
 - [Remote Team Book Club Format and Facilitation Guide for](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)

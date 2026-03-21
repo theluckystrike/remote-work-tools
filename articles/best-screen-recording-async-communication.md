@@ -222,13 +222,16 @@ rm "$OUTPUT"
 | Self-hosted, cost-controlled | Cloudflare Stream + ffmpeg |
 | One-off recording, no install | ffmpeg CLI |
 
-## Related Reading
-
-- [Best Screen Recording Tool for Remote Client Bug Report Walkthrough](/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
-- [Loom vs Vimeo Record for Async Standup Updates](/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
-- [Async Pair Programming Workflow Using Recorded Walkthroughs](/async-pair-programming-workflow-using-recorded-walkthroughs-and-github/)
-
 ---
+
+
+## Related Articles
+
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
+- [Best Voice Memo Apps for Quick Async Communication Remote](/remote-work-tools/a99-best-voice-memo-apps-for-quick-async-communication-remote-teams/)
+- [How to Make Async Communication Inclusive for Non-Native](/remote-work-tools/how-to-make-async-communication-inclusive-for-non-native-eng/)
+- [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

@@ -521,6 +521,7 @@ Expected time savings with automation:
 For 50 hires/year: **Rippling saves 100+ hours of IT + HR time annually**. At $50/hr cost per employee, that's $5,000 in labor savings—paying for the platform.
 
 
+
 ## Related Articles
 
 - [Best Tool for Remote Team Onboarding Checklist Automation](/remote-work-tools/best-tool-for-remote-team-onboarding-checklist-automation-at/)

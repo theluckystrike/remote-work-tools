@@ -323,6 +323,7 @@ Create HubSpot dashboards that show pipeline health at a glance:
 These dashboards replace status update meetings—anyone can check pipeline health without asking questions.
 
 
+
 ## Related Articles
 
 - [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)

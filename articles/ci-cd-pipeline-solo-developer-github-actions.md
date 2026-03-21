@@ -313,11 +313,14 @@ Enable in Settings → Branches → Add rule for `main`:
 
 With these rules, `main` is always green. A broken test cannot reach production.
 
-## Related Reading
 
-- [How to Secure Your Remote Team CI/CD Pipeline from Supply Chain Attacks](/remote-work-tools/how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/)
-- [Portable Dev Environment with Docker 2026](/remote-work-tools/portable-dev-environment-docker-2026/)
-- [Nix vs Docker for Reproducible Dev Environments](/remote-work-tools/nix-vs-docker-for-reproducible-dev-environments/)
+## Related Articles
+
+- [Example: GitHub Actions workflow for assessment tracking](/remote-work-tools/how-to-set-up-remote-hiring-pipeline-with-async-interviews-f/)
+- [Example GitHub Actions quality gates](/remote-work-tools/how-to-coordinate-remote-frontend-developers-on-shared-compo/)
+- [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
+- [Best Invoicing Workflow for Solo Developer with](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

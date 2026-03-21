@@ -264,6 +264,7 @@ Give the model at least 6 weeks before deciding it's not working. People need ti
 {% endraw %}
 
 
+
 ## Related Articles
 
 - [Monitor Setup for Remote Developer](/remote-work-tools/monitor-setup-for-remote-developer-two-vs-three-screens-comp/)

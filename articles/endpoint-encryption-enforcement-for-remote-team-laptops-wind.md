@@ -225,6 +225,7 @@ Endpoint encryption forms a critical foundation for remote team security, but it
 Start with encryption enforcement as your baseline security control, then layer additional protections based on your organization's risk tolerance and regulatory requirements.
 
 
+
 ## Related Articles
 
 - [Required security configurations for company laptops](/remote-work-tools/how-to-create-remote-team-acceptable-use-policy-for-company-/)

@@ -335,6 +335,7 @@ Anti-Patterns to Prevent:
 Async processes work well when boundaries are clear and decision authority is explicit.
 
 
+
 ## Related Articles
 
 - [How to Run Remote Developer Hackathon for Distributed](/remote-work-tools/how-to-run-remote-developer-hackathon-for-distributed-engine/)

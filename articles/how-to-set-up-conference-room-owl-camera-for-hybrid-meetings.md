@@ -211,6 +211,7 @@ For IT teams managing multiple rooms, here's an example Ansible playbook for Owl
 This approach enables consistent configuration across all conference rooms and simplifies long-term maintenance.
 
 
+
 ## Related Articles
 
 - [Example: Calculating appropriate microphone gain](/remote-work-tools/best-conference-room-speaker-mic-for-hybrid-meetings-with-10/)

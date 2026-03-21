@@ -171,13 +171,14 @@ The most successful remote teams treat emoji and GIFs as tools for connection ra
 Building a healthy emoji and GIF culture requires intentionality but pays dividends in team connection and communication clarity. The key is establishing clear channel-specific guidelines, respecting cultural differences, and maintaining flexibility as your team evolves. Start with the basics, gather feedback, and iterate toward a culture that feels authentic to your team.
 
 
+
 ## Related Articles
 
 - [Instead of:](/remote-work-tools/best-practice-for-remote-team-slack-emoji-reactions-replacin/)
 - [#eng-announcements Channel Guidelines](/remote-work-tools/best-practice-for-remote-team-announcement-channel-keeping-s/)
 - [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
 - [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
-- [Best Practice for Preserving Remote Team Culture When](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubli/)
+- [How to Run Remote Team Lightning Talks Keeping](/remote-work-tools/how-to-run-remote-team-lightning-talks-keeping-presentations/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

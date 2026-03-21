@@ -64,7 +64,6 @@ Business value or technical reason for the change.
 ## Screenshots/Logs
 Include relevant output for backend changes (query performance, error logs, etc.)
 
-## Related Issues
 Links to tickets or tracking items.
 ```
 
@@ -406,6 +405,7 @@ Week 11-12: Celebrate wins, plan next iteration
 ```
 
 Most teams report 30-40% improvement in code review throughput within 8 weeks of implementing structured review practices.
+
 
 
 ## Related Articles

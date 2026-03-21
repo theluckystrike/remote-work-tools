@@ -183,6 +183,7 @@ Document decisions: Record why the change is happening. Future team members (and
 Iterate your process: After each change cycle, note what worked and what did not. Refine your template accordingly.
 
 
+
 ## Related Articles
 
 - [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)

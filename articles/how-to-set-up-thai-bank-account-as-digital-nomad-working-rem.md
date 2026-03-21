@@ -218,6 +218,7 @@ Thailand uses a calendar year (Jan 1-Dec 31) tax year. For digital nomads, under
 Most remote developers remain non-residents by maintaining absences from Thailand during the year. Those planning 12+ month stays should consult with Thai tax professionals (available through expatriate accountants, $500-1,000 for full year planning).
 
 
+
 ## Related Articles
 
 - [Format: INV-2026-0001](/remote-work-tools/how-to-open-business-bank-account-as-remote-freelancer-livin/)

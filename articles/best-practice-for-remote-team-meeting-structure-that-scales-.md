@@ -197,6 +197,7 @@ Building a scalable meeting structure requires deliberate design:
 The goal is not zero meetings—that is unrealistic for most teams. The goal is meetings that serve clear purposes, respect everyone's time, and scale alongside your team without becoming unmanageable.
 
 
+
 ## Related Articles
 
 - [Best Practice for Remote Team All Hands Meeting Format That](/remote-work-tools/best-practice-for-remote-team-all-hands-meeting-format-that-scales-to-100-people/)

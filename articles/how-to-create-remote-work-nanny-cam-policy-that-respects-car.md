@@ -187,6 +187,7 @@ Remember that policy documents require ongoing attention. Review and update your
 ---
 
 
+
 ## Related Articles
 
 - [How to Create Remote Work Stipend Policy That Is Legally](/remote-work-tools/how-to-create-remote-work-stipend-policy-that-is-legally-tax-compliant/)

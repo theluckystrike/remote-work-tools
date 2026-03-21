@@ -493,12 +493,14 @@ rq worker tour_processing &
 
 Scale workers up during peak season and down during slow periods. This approach handles demand spikes without over-provisioning infrastructure year-round.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Social Workers Managing.](/remote-work-tools/best-practice-for-remote-social-workers-managing-caseloads-f/)
-- [Best Practice for Remote Team Offboarding at Scale.](/remote-work-tools/best-practice-for-remote-team-offboarding-at-scale-ensuring-/)
-- [How to Run Remote Real Estate Closings with Digital.](/remote-work-tools/how-to-run-remote-real-estate-closings-with-digital-notariza/)
+## Related Articles
+
+- [How to Run Remote Real Estate Closings with Digital](/remote-work-tools/how-to-run-remote-real-estate-closings-with-digital-notariza/)
+- [MicroPython code for ESP32 desk sensor node](/remote-work-tools/best-desk-sensor-technology-for-hybrid-offices-tracking-real/)
+- [Find the first commit by a specific author](/remote-work-tools/best-practice-for-measuring-remote-onboarding-effectiveness-with-time-to-first-commit/)
+- [Best Practice for Measuring Remote Team Alignment Using](/remote-work-tools/best-practice-for-measuring-remote-team-alignment-using-asyn/)
+- [Best Practice for Remote Accountants Handling Client Tax](/remote-work-tools/best-practice-for-remote-accountants-handling-client-tax-doc/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

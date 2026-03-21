@@ -299,6 +299,7 @@ tail -10 ~/standing-log.txt
 ```
 
 
+
 ## Related Articles
 
 - [Home Office Chair Mat for Carpet vs Hardwood Floor](/remote-work-tools/home-office-chair-mat-for-carpet-vs-hardwood-floor-compariso/)

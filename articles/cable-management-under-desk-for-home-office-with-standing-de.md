@@ -265,6 +265,7 @@ A typical developer standing desk setup with solid cable management includes:
 This totals 3-6 cables depending on wireless adoption, all routed cleanly and hidden from view.
 
 
+
 ## Related Articles
 
 - [Best Cable Management Solutions for Home Office Desk](/remote-work-tools/best-cable-management-solutions-for-home-office-desk/)

@@ -203,6 +203,7 @@ Ergonomic mice are a necessary but not sufficient solution for RSI. Pair mouse s
 {% endraw %}
 
 
+
 ## Related Articles
 
 - [Best Mouse Pad for Wrist Support During Long Coding Sessions](/remote-work-tools/best-mouse-pad-for-wrist-support-during-long-coding-sessions/)

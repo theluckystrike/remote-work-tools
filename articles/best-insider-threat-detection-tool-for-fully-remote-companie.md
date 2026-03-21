@@ -263,6 +263,7 @@ After 6-12 months of operating your detection system, measure its effectiveness:
 **Team satisfaction:** Do team members feel monitored or enabled? Healthy organizations report that most employees see insider threat detection as protecting them, not spying on them.
 
 
+
 ## Related Articles
 
 - [Query recent detections via Falcon API](/remote-work-tools/endpoint-detection-and-response-tools-comparison-for-remote-/)

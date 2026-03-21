@@ -252,6 +252,7 @@ xrandr --output HDMI-1 --mode 2560x1440 --rate 144
 ```
 
 
+
 ## Related Articles
 
 - [List available color profiles](/remote-work-tools/external-monitor-color-matching-for-macbook-dual-display-setup/)

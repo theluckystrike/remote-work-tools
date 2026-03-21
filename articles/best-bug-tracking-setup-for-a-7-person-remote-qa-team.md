@@ -332,6 +332,7 @@ Remote teams face specific challenges:
 - Track regression bugs separately (label: "regression")
 
 
+
 ## Related Articles
 
 - [Best Bug Tracking Tools for Remote QA Teams](/remote-work-tools/best-bug-tracking-tools-for-remote-qa-teams/)

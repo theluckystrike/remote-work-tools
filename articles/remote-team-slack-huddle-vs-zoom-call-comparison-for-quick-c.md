@@ -334,6 +334,7 @@ Question: Do you need to see each other's faces?
 ```
 
 
+
 ## Related Articles
 
 - [Test upload/download speed to common video call servers](/remote-work-tools/hybrid-office-network-infrastructure-upgrade-guide-supporting-increased-video-call-bandwidth-2026/)

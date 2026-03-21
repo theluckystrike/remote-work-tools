@@ -251,8 +251,13 @@ If your job depends on your hands (and whose doesn't, as a programmer?), invest 
 {% endraw %}
 
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
+## Related Articles
+
+- [Best USB Switch for Sharing Keyboard and Mouse Between Work](/remote-work-tools/best-usb-switch-for-sharing-keyboard-mouse-between-work-personal-pc/)
+- [Best Blue Light Glasses for Programmers: A Practical Guide](/remote-work-tools/best-blue-light-glasses-for-programmers/)
+- [Wrist Exercises for Programmers](/remote-work-tools/wrist-exercises-for-programmers-prevent-rsi/)
+- [Example: A simple keyboard macro concept](/remote-work-tools/best-external-keyboard-for-laptop-remote-workers/)
+- [Best Mechanical Keyboard for Remote Developers](/remote-work-tools/best-mechanical-keyboard-for-remote-developers-quiet-switches-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

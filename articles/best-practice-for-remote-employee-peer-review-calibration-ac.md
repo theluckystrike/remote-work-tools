@@ -240,12 +240,14 @@ Several tools help cross-timezone peer review:
 
 Integrate these tools with your timezone-aware processes rather than relying on them alone.
 
-## Related Reading
 
-- [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
-- [Best Practice for Remote Team Decision Making Framework.](/remote-work-tools/best-practice-for-remote-team-decision-making-framework-that/)
-- [Best Practice for Remote Team Workload Balance.](/remote-work-tools/best-practice-for-remote-team-workload-balance-visualization/)
-- [How to Create Remote Team Decision Making Framework for.](/remote-work-tools/how-to-create-remote-team-decision-making-framework-for-dist/)
+## Related Articles
+
+- [Example: Junior Engineer Competency Matrix](/remote-work-tools/remote-team-interviewer-calibration-process-for-ensuring-con/)
+- [How to Set Up Remote Team Peer Feedback Process Without](/remote-work-tools/how-to-set-up-remote-team-peer-feedback-process-without-awkw/)
+- [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)
+- [Best Employee Recognition Platform for Distributed Teams](/remote-work-tools/a100-remote-hr-employee-recognition-platform-for-distributed-team/)
+- [Best Backup Solution for Remote Employee Laptops](/remote-work-tools/best-backup-solution-for-remote-employee-laptops-automatic-a/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -254,6 +254,7 @@ Track these metrics to gauge knowledge silo reduction:
 - **Incident resolution time** (knowledgeable people should be findable quickly)
 
 
+
 ## Related Articles
 
 - [How to Prevent Remote Work Isolation for Solo Team Members](/remote-work-tools/how-to-prevent-remote-work-isolation-for-solo-team-members/)

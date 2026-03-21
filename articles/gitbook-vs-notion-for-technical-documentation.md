@@ -467,6 +467,7 @@ For documentation serving thousands of daily users, GitBook's static generation 
 ---
 
 
+
 ## Related Articles
 
 - [Best Tools for Remote Team Documentation 2026: Notion vs.](/remote-work-tools/best-remote-team-documentation-tools-2026/)

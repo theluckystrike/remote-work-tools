@@ -217,6 +217,7 @@ git config --global url."https://github-work/".insteadOf "git@github-work:"
 This approach uses your GitHub personal access token stored in the credential helper, avoiding SSH entirely.
 
 
+
 ## Related Articles
 
 - [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)

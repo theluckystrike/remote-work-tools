@@ -199,6 +199,7 @@ Based on common digital nomad workflows, here's a recommended setup:
 5. Documentation: Keep detailed records of income sources, locations, and visa status for tax purposes
 
 
+
 ## Related Articles
 
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)

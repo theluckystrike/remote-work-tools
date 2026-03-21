@@ -194,6 +194,7 @@ The question template is a starting point, not a rigid script. The best managers
 Start with the BASE framework, gather feedback from your team on what's helpful, and iterate. The goal isn't perfect—it's consistent attention to your team members as humans, not just as productivity units.
 
 
+
 ## Related Articles
 
 - [Remote Team Manager Peer Feedback Exchange Template for](/remote-work-tools/remote-team-manager-peer-feedback-exchange-template-for-distributed-leadership-teams/)

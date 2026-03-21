@@ -385,6 +385,7 @@ Example:
 This structure gives the client what they need to make a decision without creating panic.
 
 
+
 ## Related Articles
 
 - [How to Create Client Project Retrospective Format for](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)

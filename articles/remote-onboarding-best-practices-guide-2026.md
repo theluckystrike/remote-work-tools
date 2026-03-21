@@ -234,6 +234,7 @@ Track metrics to improve the onboarding process continuously.
 
 Analyze data quarterly. Identify bottlenecks and iterate on the process.
 
+
 ## Related Articles
 
 - [Best Practices for Remote Incident Communication](/remote-work-tools/best-practices-for-remote-incident-communication/)

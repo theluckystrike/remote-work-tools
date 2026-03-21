@@ -275,6 +275,7 @@ Attending one community event per month can lead to unexpected professional oppo
 ---
 
 
+
 ## Related Articles
 
 - [Infrastructure evaluation script concept](/remote-work-tools/best-coworking-spaces-in-canggu-bali-with-backup-generators-and-fast-internet/)

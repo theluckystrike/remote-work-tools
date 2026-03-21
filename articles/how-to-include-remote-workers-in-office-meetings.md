@@ -200,6 +200,7 @@ The goal is creating meetings where location becomes irrelevant—where every pa
 ---
 
 
+
 ## Related Articles
 
 - [Example NHI enrollment at a local district office](/remote-work-tools/taiwan-gold-card-visa-for-remote-tech-workers-application-pr/)

@@ -183,13 +183,14 @@ Keep communications professional but firm. Consistent follow-up on overdue invoi
 Consistent invoice numbering, organized client records, and a centralized payment tracker are the foundation. Clarify payment terms before starting work, and consult a tax professional about your specific situation—tax rules vary significantly based on your home country, client locations, and the nature of your services.
 
 
+
 ## Related Articles
 
 - [Daily Workflow for a Solo Remote Technical Writer 2026](/remote-work-tools/daily-workflow-for-a-solo-remote-technical-writer-2026/)
 - [Best Free Tools for Solo Developer Managing Side Projects](/remote-work-tools/best-free-tools-for-solo-developer-managing-side-projects-re/)
+- [CI/CD Pipeline for Solo Developers: GitHub Actions](/remote-work-tools/ci-cd-pipeline-solo-developer-github-actions/)
 - [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
-- [Get recent workflow run durations](/remote-work-tools/remote-engineering-team-build-time-tracking-as-developer-pro/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -220,6 +220,7 @@ git push origin handbook/update-onboarding-process
 This makes documentation a team responsibility rather than a solo burden.
 
 
+
 ## Related Articles
 
 - [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)

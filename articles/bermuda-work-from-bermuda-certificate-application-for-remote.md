@@ -202,6 +202,7 @@ Your Work From Bermuda certificate is valid for one year. Renewal requires:
 After five years of continuous residence, you may apply for Bermudian status, though this involves additional requirements and a separate application process.
 
 
+
 ## Related Articles
 
 - [Certificate Based Authentication Setup for Remote Team VPN](/remote-work-tools/certificate-based-authentication-setup-for-remote-team-vpn-c/)

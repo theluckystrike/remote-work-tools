@@ -205,6 +205,7 @@ With five team members, you have enough scale to provide good coverage without t
 The goal is not eliminating incidents—they will happen. The goal is responding to them calmly, efficiently, and learning from each one.
 
 
+
 ## Related Articles
 
 - [Kanban Board Setup for a Remote DevOps Team of 3](/remote-work-tools/kanban-board-setup-for-a-remote-devops-team-of-3/)

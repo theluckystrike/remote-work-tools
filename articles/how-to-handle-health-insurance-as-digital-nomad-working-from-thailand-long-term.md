@@ -288,6 +288,7 @@ Health insurance renewal in Thailand differs from the US. Plan your renewal care
 Join groups like Bangkok Nomads or Thailand Digital Nomads on Facebook to hear about other people's real experiences with insurance claims and renewals.
 
 
+
 ## Related Articles
 
 - [How to Handle Health Insurance as Digital Nomad Working](/remote-work-tools/how-to-handle-health-insurance-as-digital-nomad-working-from/)

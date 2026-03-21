@@ -372,6 +372,7 @@ volumes:
 Self-hosting costs ~$20-50/month in hosting (VPS) and requires some DevOps knowledge, but gives you complete control over data and customization.
 
 
+
 ## Related Articles
 
 - [Virtual Board Game Platforms for Remote Team Social Events](/remote-work-tools/virtual-board-game-platforms-for-remote-team-social-events/)

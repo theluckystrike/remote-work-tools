@@ -218,6 +218,7 @@ Organizations with existing on-premises infrastructure often deploy hybrid desk 
 This pattern keeps sensitive booking data on-premises while using Microsoft 365 for identity and calendar integration.
 
 
+
 ## Related Articles
 
 - [Desk Reservation App for Hybrid Workplace](/remote-work-tools/desk-reservation-app-for-hybrid-workplace/)

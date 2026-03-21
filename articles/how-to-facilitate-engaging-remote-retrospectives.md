@@ -279,6 +279,7 @@ The most effective teams don't see retrospectives as compliance checkboxes or fe
 This cultural shift doesn't happen through mandate—it happens through consistent follow-through. When the team sees that a retro action actually gets implemented, they trust that the next retro will be worth their time.
 
 
+
 ## Related Articles
 
 - [Example: Export Miro board via API](/remote-work-tools/how-to-help-remote-team-workshops-using-miro-with-stru/)

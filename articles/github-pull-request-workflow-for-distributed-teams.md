@@ -72,7 +72,6 @@ Include this structure in every PR description:
 ## Screenshots (if UI changes)
 Add screenshots or GIFs for visual changes.
 
-## Related Issues
 Closes #123
 References #456
 ```
@@ -259,6 +258,7 @@ git merge --no-ff feature-branch
 Squash merging keeps main history linear and makes rollback simpler. For distributed teams, the reduced complexity outweighs preserving every commit.
 
 A well-designed pull request workflow compensates for the lack of face-to-face interaction. Clear conventions, explicit expectations, and thoughtful automation transform pull requests from bottlenecks into efficient collaboration channels. Start with these patterns and adapt them to your team's specific time zones and working styles.
+
 
 
 ## Related Articles

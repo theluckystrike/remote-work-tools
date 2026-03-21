@@ -90,8 +90,6 @@ Authentication requirements, permission changes, data handling.
 - @reviewer2 - Security review
 - @reviewer3 - API stability
 
-## Related Documents
-- Links to ADRs, previous designs, relevant issues
 ```
 
 ## Integrating Async Review Workflow
@@ -169,6 +167,7 @@ Every team has unique needs, but this template provides a solid foundation. Star
 Your wiki platform may require adjustments. Confluence users might convert the markdown sections to numbered headings. Notion teams can create database properties for tracking review status. The fundamental structure remains valuable regardless of platform.
 
 The best design document template is one your team actually uses. Implement this template, gather feedback from your reviewers, and iterate. Over time, you'll develop conventions that match your team's communication style and technical culture.
+
 
 
 ## Related Articles
