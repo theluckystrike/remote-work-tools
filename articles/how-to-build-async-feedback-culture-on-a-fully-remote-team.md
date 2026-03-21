@@ -9,7 +9,7 @@ permalink: /how-to-build-async-feedback-culture-on-a-fully-remote-team/
 categories: [guides]
 tags: [remote-work-tools, remote-work, async-communication, feedback, team-culture]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
