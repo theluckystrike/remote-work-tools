@@ -33,6 +33,8 @@ The core functions include:
 - Data loss prevention: Prevent sensitive data from leaving your organization
 - Application control: Manage access to specific SaaS applications
 
+Understanding what an SWG does—and does not do—helps set realistic expectations. An SWG is not a replacement for endpoint security, identity management, or network segmentation. It is one layer in a defense-in-depth approach. Teams that treat a gateway deployment as their complete security solution will still be vulnerable to threats that bypass web traffic entirely, such as email-delivered payloads or compromised credentials.
+
 ## Deployment Architecture for Remote Teams
 
 ### Agent-Based Deployment
@@ -73,6 +75,8 @@ Set-DnsClientServerAddress -InterfaceAlias "Wi-Fi" -ServerAddresses @("1.2.3.4",
 
 This approach works without installing additional software, though it provides less granular control than agent-based solutions.
 
+DNS filtering also has a significant limitation: it only blocks at the domain level, not the URL level. A site like pastebin.com might host malicious content on specific URLs while being a legitimate tool your developers use. Agent-based solutions can inspect the full URL path; DNS filtering cannot.
+
 ## Evaluating Secure Web Gateway Solutions
 
 When comparing options for your remote team, evaluate these criteria:
@@ -98,6 +102,31 @@ Your team likely has varied access needs. Developers need broad internet access 
 ### Integration with Existing Tools
 
 If you already use identity providers like Okta, Azure AD, or Google Workspace, ensure your gateway integrates for authentication. This enables you to apply policies based on user groups without manual client configuration.
+
+## Comparing Major Providers
+
+**Cloudflare Gateway** is the strongest choice for most remote-first teams. The agent (WARP) has a low footprint, latency impact is minimal compared to competitors, and the free tier includes basic DNS filtering. Paid tiers add TLS inspection and DLP. For developer-heavy teams, the performance advantage and straightforward API access to policy management are significant practical benefits.
+
+**Zscaler Internet Access** is the enterprise standard. It handles massive scale, offers the most comprehensive DLP and compliance tooling, and integrates with virtually every identity provider. The tradeoff is complexity—Zscaler requires dedicated configuration work and is typically overkill for teams under 200 people.
+
+**Cisco Umbrella** sits between the two: more enterprise-capable than Cloudflare but less complex than Zscaler. Umbrella's DNS-layer approach is easy to deploy as a first step, with agent-based enforcement available for stricter policies. Teams already invested in Cisco's networking stack benefit from native integrations.
+
+**Palo Alto Prisma Access** is worth considering for teams with complex security requirements and a preference for Palo Alto's ecosystem. Its CASB features provide visibility into SaaS application usage that pure SWGs lack.
+
+## Handling Exceptions and Override Requests
+
+No matter how carefully you design your policies, users will encounter false positives—legitimate sites blocked by category filters or domain reputation scores. Having a defined override process prevents these blocks from becoming productivity emergencies.
+
+A practical exception workflow:
+
+1. User submits a request via a Slack command, email alias, or internal ticket system
+2. Security team reviews the request within one business day
+3. Approved exceptions are added to a permanent allowlist with a documented justification and a review date (typically 90 days)
+4. Denied requests get a brief explanation so the user understands why the restriction exists
+
+Document every exception decision. When you revisit your policies quarterly, the exception log tells you where your baseline policies are too restrictive—which is often more valuable than the security data itself.
+
+For time-sensitive situations where a blocked site is causing an immediate work stoppage, give a small number of senior team members a break-glass process: a documented way to temporarily allow access for up to 24 hours while the formal exception request is processed. This prevents the workaround behavior that undermines gateway effectiveness.
 
 ## Implementation Pattern: Tiered Access Control
 
@@ -154,6 +183,10 @@ inspection:
 
 Before rolling out to your entire team, test with a pilot group that represents different usage patterns. Measure the impact on their daily workflows, not just synthetic benchmarks.
 
+### Skipping User Communication
+
+A gateway deployment that appears without explanation feels like surveillance to employees who discover it. Brief your team on what the gateway does, what it logs, and who has access to those logs before you enable it. Teams that understand the security rationale are far more likely to comply with policies and report issues rather than work around them.
+
 ## Building Your Implementation Roadmap
 
 Start with these steps:
@@ -163,6 +196,8 @@ Start with these steps:
 3. Pilot with developers: They often need the most access and will quickly identify blocking issues
 4. Iterate based on feedback: Refine policies monthly based on actual user needs
 5. Monitor continuously: Track blocked requests and adjust policies proactively
+
+On the monitoring side, set up alerts for spikes in blocked requests. A sudden increase in blocks from a specific user or department often indicates either a new legitimate use case that needs policy adjustment, or unusual browsing behavior worth investigating. Either way, the alert is more useful than discovering the situation during an incident review.
 
 ## Related Reading
 
