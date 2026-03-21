@@ -174,6 +174,241 @@ For most developer teams, the decision comes down to team size and workflow comp
 
 Both tools solve the fundamental problem of keeping remote teams aligned without daily synchronous meetings. The right choice depends on your specific workflow requirements and how much infrastructure you want around your standup process.
 
+## Deep Dive: Standuply's Advanced Features
+
+Standuply offers capabilities beyond basic standups that justify its higher price for some teams:
+
+**Polling and Surveys**
+
+Beyond standup questions, Standuply lets you run quick polls and surveys:
+
+```
+Morning Team Morale Check (optional):
+How are you feeling about today's work?
+☆ Energized
+☆ Normal
+☆ Tired
+☆ Overwhelmed
+```
+
+Aggregate these daily and track team morale trends. Sudden shifts warn of burnout or team stress.
+
+**Trivia and Team Building**
+
+Built-in trivia functionality adds personality to daily interactions:
+
+```
+Today's Dev Trivia:
+What does REST stand for?
+a) Really Essential Server Tasks
+b) Representational State Transfer
+c) Request-Enhanced State Transfer
+```
+
+Small feature that builds culture when teams are distributed.
+
+**Custom Question Types**
+
+Scale ratings, date pickers, and linked question sets (answers to Q1 determine Q2 options):
+
+```
+Confidence Level (1-5 scale):
+How confident are you about today's deliverables?
+
+Date Picker:
+When do you expect to complete your current task?
+```
+
+More sophisticated questions reveal patterns simpler tools miss.
+
+**Dashboard Analytics**
+
+Standuply's analytics show trends over time:
+
+- Blocker frequency by team member (identifies who gets stuck)
+- Confidence score trends (sudden drops signal problems)
+- Participation rates (who consistently misses standups)
+- Common blockers (which systems cause recurring friction)
+
+Teams can identify that "database migrations" appear as blocker in 30% of standups—revealing systematic problem worth addressing.
+
+## Deep Dive: GeekBot's Strengths
+
+GeekBot excels in specific scenarios despite fewer features:
+
+**Simplicity Enables Adoption**
+
+Minimal configuration means teams start using it immediately. Complex tools often face "decision fatigue"—teams spend weeks configuring but never launch. GeekBot's simplicity gets running fast.
+
+**Cost Advantage at Scale**
+
+For teams of 20+ developers, GeekBot's flat per-user pricing becomes significantly cheaper than Standuply's scaling model.
+
+**Integration with Google Calendar**
+
+GeekBot can link standup responses to specific Google Calendar events:
+
+```
+Standup Response → Linked to "Sprint Planning Q1"
+Automatically tags responses with relevant calendar context
+```
+
+Useful if your team heavily uses Google Calendar for sprint boundaries.
+
+**Fallback Response Handling**
+
+GeekBot can submit default responses for team members who don't answer:
+
+```yaml
+If no response by deadline:
+  response: "Still working on [previous task]"
+  mark_as: "auto-submitted"
+```
+
+Prevents incomplete standups while maintaining visible participation tracking.
+
+## Building Your Own Standup System
+
+Some teams build custom standup bots using Slack Workflow Builder or serverless functions. When to consider this:
+
+**Build your own if you**:
+- Have very specific question patterns not supported by Geekbot/Standuply
+- Need deep integrations with proprietary internal systems
+- Want to avoid recurring SaaS subscription costs
+- Have engineering resources available to maintain the system
+
+**Build your own if you want**:
+- Standup data piped directly into your project management system
+- Automatic ticket updates based on standup responses
+- Custom alerts when specific patterns appear
+- Completely private, on-premise infrastructure
+
+Example: A team using Linear for project management might create a custom integration that:
+
+```javascript
+// Custom standup integration example
+1. Collects standup responses via Slack
+2. Parses blockers from natural language
+3. Creates/updates Linear issues for blocking tasks
+4. Posts daily summary to #standups channel
+5. Tracks velocity metrics in custom dashboard
+```
+
+This requires engineering time (30-40 hours to build, 5 hours/month to maintain) but eliminates SaaS costs and increases customization.
+
+## Choosing Based on Team Evolution
+
+Your standup tool needs change as teams grow:
+
+**Stage 1: Startup (2-5 developers)**
+- GeekBot free tier sufficient
+- Minimal configuration overhead
+- Cost: $0
+- Setup time: 15 minutes
+
+**Stage 2: Early growth (6-15 developers)**
+- GeekBot paid tier ($30-75/month) vs Standuply ($50-80/month)
+- GeekBot still handles needs well
+- Standuply's per-timezone scheduling becomes valuable if distributed
+- Cost: $30-80/month
+
+**Stage 3: Scaling (15-50 developers)**
+- Standuply's analytics and custom questions valuable
+- Multiple team standups need template system
+- Integrations with Jira/GitHub matter more
+- Cost: $100-200/month
+- Consider custom solution if costs exceed $300/month
+
+**Stage 4: Enterprise (50+ developers)**
+- Custom solution or expensive proprietary platforms (15Five, 7Geese)
+- Complex workflows and compliance requirements exceed async standup tool scope
+- Cost: $500-2,000+/month
+
+## Migration Path Between Tools
+
+If you start with GeekBot but outgrow it:
+
+**Export Process**:
+
+1. **Historical data**: Both tools store response history; manually export via their dashboards
+2. **Question configurations**: Screenshot or document your GeekBot questions
+3. **Team composition**: List of team members and their email addresses
+4. **Schedule timing**: Note your current standup times and cadence
+
+**Standuply import**:
+
+1. Create new Standuply workspace
+2. Set up questions (can't auto-import from GeekBot, must manually recreate)
+3. Configure per-user time zones
+4. Set up integrations if desired
+5. Migrate team members and run test standup
+6. Parallel run (GeekBot + Standuply simultaneously) for 1 week to ensure nothing breaks
+
+Migration typically takes 2-3 hours of setup time.
+
+## Advanced Standup Strategies for Distributed Teams
+
+Both tools support these advanced workflows:
+
+**Staggered Standups**
+
+Rather than one standup time, segment by timezone:
+
+```
+06:00 UTC: Tokyo team standup
+09:00 UTC: Berlin team standup
+13:00 UTC: San Francisco team standup
+
+Async digest combines all responses into single report
+```
+
+This eliminates middle-of-the-night notifications while maintaining visibility.
+
+**Optional Deep Dives**
+
+Standup identifies blockers asynchronously. Schedule optional 30-minute synchronous deep dives:
+
+```
+Standup identifies: "Database migration complexity unexpected"
+
+Optional Thursday 2 PM UTC deep dive:
+"Database Migration Debugging Session"
+Async team votes on attendance; leads discussion on technical approach
+```
+
+Combines async efficiency with synchronous problem-solving where needed.
+
+**Confidence Tracking**
+
+Use scale ratings to identify team stress:
+
+```yaml
+Daily Confidence Scores:
+Average confidence: 3.4 / 5
+↓ Down from 4.1 yesterday
+
+Alert: Team confidence declining
+Suggested action: Manager one-on-ones to identify causes
+```
+
+Early signal of emerging problems worth addressing before they become crises.
+
+## Making the Final Decision: Decision Matrix
+
+Evaluate based on your specific situation:
+
+| Factor | Weight | GeekBot | Standuply |
+|--------|--------|---------|-----------|
+| Setup time (lower better) | 1 | 5 | 3 |
+| Cost for 10 people | 1 | 5 | 3 |
+| Time zone support | 2 | 2 | 5 |
+| Analytics | 2 | 1 | 5 |
+| Customization | 1 | 2 | 4 |
+| Integration options | 1 | 3 | 4 |
+| **Total Score** | | **26** | **32** |
+
+GeekBot excels at simplicity and cost. Standuply excels at features and distribution support. Choose the one that scores higher in *your* weighted priorities.
+
 
 ## Related Articles
 

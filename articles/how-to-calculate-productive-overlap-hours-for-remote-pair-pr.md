@@ -173,6 +173,268 @@ Several tools simplify timezone overlap calculations:
 
 For teams using calendar apps, Clockwise and Reclaim.ai automatically find optimal meeting slots across timezones.
 
+## Calculating Overlap for Three or More Timezones
+
+When teams span three or more regions, calculation becomes complex. Here's how to handle multiple zones systematically:
+
+```python
+from datetime import datetime, timedelta
+import pytz
+
+def find_overlap_hours(team_members):
+    """
+    team_members = [
+        {"name": "Alice", "tz": "America/New_York", "work_start": 9, "work_end": 17},
+        {"name": "Bob", "tz": "Europe/London", "work_start": 9, "work_end": 17},
+        {"name": "Carol", "tz": "Asia/Tokyo", "work_start": 9, "work_end": 17}
+    ]
+    """
+
+    # Convert all team members' work hours to UTC
+    utc_bounds = []
+
+    for member in team_members:
+        tz = pytz.timezone(member["tz"])
+        # Create reference time in their timezone
+        ref_time = tz.localize(datetime(2026, 3, 15, member["work_start"], 0))
+        utc_ref = ref_time.astimezone(pytz.UTC)
+
+        # Calculate UTC hours
+        utc_start = utc_ref.hour
+        utc_end = (utc_ref.hour + (member["work_end"] - member["work_start"])) % 24
+
+        utc_bounds.append({
+            "name": member["name"],
+            "utc_start": utc_start,
+            "utc_end": utc_end
+        })
+
+    # Find overlapping window
+    overlap_start = max([b["utc_start"] for b in utc_bounds])
+    overlap_end = min([b["utc_end"] for b in utc_bounds])
+
+    if overlap_start >= overlap_end:
+        return None  # No overlap
+
+    return {
+        "utc_window": f"{overlap_start:02d}:00 - {overlap_end:02d}:00",
+        "overlap_hours": overlap_end - overlap_start,
+        "details": utc_bounds
+    }
+
+# Example
+team = [
+    {"name": "Tokyo", "tz": "Asia/Tokyo", "work_start": 9, "work_end": 18},
+    {"name": "London", "tz": "Europe/London", "work_start": 9, "work_end": 17},
+    {"name": "SF", "tz": "America/Los_Angeles", "work_start": 9, "work_end": 17}
+]
+
+result = find_overlap_hours(team)
+print(f"Overlap: {result['utc_window']} ({result['overlap_hours']} hours)")
+```
+
+## Handling Uneven Timezone Distribution
+
+Real teams rarely have perfectly symmetric timezone gaps. Handle asymmetric distributions strategically:
+
+**Pattern 1: Two-Hub Model**
+
+When you have two clusters with no direct overlap:
+
+```
+Hub A: San Francisco + Vancouver (UTC-8 to UTC-7)
+Hub B: London + Berlin (UTC+0 to UTC+1)
+Gap: 8 hours (SF midnight = London 8 AM)
+
+Solution: Async handoff model
+- Hub A completes work by 5 PM PT
+- Detailed handoff document left for Hub B
+- Hub B reviews and provides feedback asynchronously
+- Real-time discussion happens at overlap edges (SF 8 PM, London 4 AM)
+```
+
+**Pattern 2: Three-Hub Relay Race**
+
+Teams spanning all three continents:
+
+```
+Tokyo morning (6 AM - 10 AM JST) = SF evening (2 PM - 6 PM PST day before)
+- SF starts work, documents progress
+
+London morning (9 AM - 1 PM GMT) = Tokyo evening (6 PM - 10 PM JST)
+- Tokyo reviews SF work, builds on it
+
+SF afternoon (1 PM - 5 PM PST) = London evening (9 PM - 1 AM GMT)
+- SF receives Tokyo work during their afternoon
+```
+
+Each timezone gets one "overlap window" where they can receive async feedback or have brief sync conversations.
+
+**Pattern 3: Embrace Deep Async**
+
+Some teams succeed by accepting minimal overlap and building deep async culture:
+
+```
+Minimal overlap requirements:
+- One 30-minute sync per week (rotating times)
+- Async documentation replaces most real-time communication
+- Video recordings supplement text when explanations need nuance
+```
+
+This requires cultural commitment but works well for experienced distributed teams.
+
+## Calculating Sustainable Schedule Impacts
+
+Beyond pure overlap calculation, consider fatigue from non-standard hours:
+
+```javascript
+function assessScheduleSustainability(tz1, tz2) {
+  const scenarios = [
+    {
+      name: "Overlap at Tokyo morning, SF evening",
+      tokyo_time: "8-10 AM",
+      sf_time: "4-6 PM prev day",
+      tokyo_fatigue: "low",
+      sf_fatigue: "medium",
+      sustainable: "short-term only"
+    },
+    {
+      name: "Overlap at Tokyo evening, SF morning",
+      tokyo_time: "8-10 PM",
+      sf_time: "6-8 AM",
+      tokyo_fatigue: "high",
+      sf_fatigue: "low",
+      sustainable: "not recommended"
+    }
+  ];
+
+  return scenarios;
+}
+```
+
+A 2-3 hour overlap where one team is working "off-hours" can work 1-2 days per week. Making it daily burns people out.
+
+## Practical Scheduling Frameworks
+
+Once you calculate overlap, implement it with clear frameworks:
+
+**Framework 1: Designated "Sync Days"**
+
+Choose 2-3 specific days per week for pair programming. Rotate which timezone gets non-standard hours:
+
+```
+Monday (SF-friendly):
+  SF: 2-5 PM (standard)
+  Tokyo: 6-9 AM next day (early but reasonable)
+
+Wednesday (Tokyo-friendly):
+  Tokyo: 2-5 PM (standard)
+  SF: 10 PM - 1 AM (rough but acceptable 1x/week)
+
+Friday (shared asynchronous):
+  No required sync; comprehensive async handoff
+```
+
+**Framework 2: Flexible Scheduling**
+
+Allow developers to shift hours occasionally for pair sessions:
+
+```
+"Tokyo developer starting 2 hours early on Monday for SF overlap"
+"SF developer staying late Tuesday for Tokyo morning"
+
+Rule: Never more than 2 hours outside standard hours
+Rule: Maximum 2 days/week with adjusted hours
+```
+
+**Framework 3: Recorded Async Sessions**
+
+Eliminate pressure for simultaneous pairing:
+
+```
+Monday: SF developer records 30-min session debugging issue
+Tuesday: Tokyo developer watches recording, makes notes, records 20-min follow-up
+Wednesday: SF watches follow-up, implements suggested changes
+```
+
+Takes 3x longer than live session but eliminates schedule constraints.
+
+## Tools for Overlap Management
+
+Several tools simplify overlap calculation and scheduling:
+
+**Timezone Calculators**
+- World Time Buddy: Visual overlap display for up to 4 zones
+- Every Time Zone: Interactive timeline showing all zones
+- Time Zone Converter: Browser-based quick lookups
+
+**Calendar Integration**
+- Clockwise: Finds meeting slots across distributed team
+- Reclaim.ai: Schedules and protects focus time automatically
+- Calendly: Shows your available times across timezones
+
+**Development-Specific**
+- Tuple (pair programming): Built-in timezone awareness
+- VS Code Live Share: Real-time collaborative coding
+
+## When Overlap Becomes Insufficient
+
+If calculated overlap is under 90 minutes daily, pair programming becomes difficult. Consider alternatives:
+
+**Pair Programming Alternatives**:
+- Mob programming sessions (whole team, async)
+- Detailed code reviews with written feedback
+- Video walkthroughs of complex changes
+- Collaborative debugging using screen recording
+
+These methods work at scale but require discipline and clear handoff protocols.
+
+## Annual Planning: Accounting for Timezone Changes
+
+Daylight Saving Time creates discontinuities in your carefully calculated overlap:
+
+```
+March 2026: US springs forward, Europe springs forward (same week)
+Result: Overlap remains stable
+
+But in years where changes don't align:
+March: US springs forward, Europe hasn't yet
+Result: One-hour shift in overlaps for 2 weeks
+```
+
+Plan for these shifts annually. Brief 1-week meetings shifted by an hour are usually acceptable with notice.
+
+## Documenting Your Overlap Schedule
+
+Create a clear, shared document showing actual overlap windows and approved pairing times:
+
+```markdown
+# Tokyo-San Francisco Overlap Schedule
+
+## Calculated Overlap
+- UTC 14:00-18:00 (Mon-Fri)
+- Tokyo: 11 PM - 3 AM next day
+- SF: 6 AM - 10 AM (previous day, confusing!)
+- **Assessment: Unsustainable for regular pairing**
+
+## Approved Pairing Windows (Opt-in)
+- **Monday 2-5 PM PT** (Monday 6-9 AM+1 JST)
+  - Volunteers only
+  - SF standard hours, Tokyo early but acceptable
+  - Best for: Code reviews, architecture discussions
+
+- **Wednesday async handoff**
+  - Record work progress
+  - Video walkthrough of blockers
+  - Async feedback by Thursday morning
+
+- **Quarterly in-person**
+  - Face-to-face pairing at company office
+  - Builds relationships beyond async work
+```
+
+Share this with team so expectations are clear from hire date.
+
 
 ## Related Articles
 

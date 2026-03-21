@@ -173,6 +173,120 @@ A physical therapist can teach you specific exercises tailored to your situation
 
 Reducing wrist pain requires consistency. Start with one or two changes—perhaps adding a keyboard shortcut or setting up a Pomodoro timer—and build from there. Your wrists will thank you after years of coding ahead.
 
+## Ergonomic Equipment Recommendations
+
+Investing in the right equipment pays long-term dividends. Here are practical options across price ranges:
+
+**External Keyboards**
+
+Mechanical keyboards reduce strain compared to laptop keyboards due to better key spacing and responsive actuation:
+
+- **Budget ($50-80)**: Keychron K2 or Anker Mechanical Keyboard — both offer good build quality and wireless connectivity
+- **Mid-range ($100-150)**: Kinesis Freestyle Edge — true ergonomic split design with tenting options
+- **Premium ($200+)**: Ergodox EZ or Kinesis Advantage — fully programmable with extensive customization
+
+If considering split keyboards, start with a budget option. The learning curve is steep; don't commit significant money until you know the layout works for you.
+
+**Laptop Stands and Risers**
+
+A simple stand transforms your setup. Aim to position your screen at eye level (roughly 20-26 inches away from your face).
+
+- **Budget ($15-30)**: Aluminum riser stands or books stacked under your laptop
+- **Mid-range ($40-80)**: Adjustable laptop stands with multiple height presets
+- **Premium ($100+)**: Standing desk converters that let you alternate between sitting and standing
+
+The height is more important than brand. A $20 stand that gets your screen to eye level beats a fancy $200 stand at the wrong height.
+
+**Wrist Supports and Braces**
+
+Braces reduce median nerve pressure during typing:
+
+- **Wrist Rest Pads**: Gel pads ($15-40) positioned under your wrist while typing — prevents extension strain
+- **Wrist Braces**: Neoprene or fabric ($20-50) worn during work for passive support
+- **Medical-Grade Braces**: Prescribed by physical therapists ($80-200) for carpal tunnel or tendonitis
+
+Braces work best as temporary support during flare-ups, not permanent solutions. Use them while addressing underlying posture issues.
+
+## Professional Interventions
+
+When self-care strategies don't resolve persistent pain, professional help becomes necessary.
+
+**Physical Therapy**
+
+A physical therapist specializing in repetitive strain injuries can:
+- Identify movement patterns creating strain
+- Design exercises strengthening stabilizer muscles
+- Modify your workspace setup based on your specific anatomy
+- Provide modalities like ultrasound or dry needling for acute inflammation
+
+Cost typically ranges $100-300 per session. Insurance often covers this if your physician refers you.
+
+**Occupational Therapy**
+
+Occupational therapists focus on how you interact with your environment and daily tasks:
+- Workplace ergonomic assessments
+- Task modification strategies
+- Adaptive equipment recommendations
+- Training for sustainable work practices
+
+Some companies cover occupational therapy through their health plans. Request an assessment if you're experiencing persistent pain.
+
+**Medical Evaluation**
+
+If conservative measures fail after 4-6 weeks, consult a physician. Red flags warranting immediate attention:
+- Persistent numbness or tingling that doesn't improve with rest
+- Weakness in your grip strength
+- Pain radiating up your arm
+- Symptoms waking you at night
+
+Physicians can order nerve conduction studies to confirm carpal tunnel syndrome or rule out other conditions. Early intervention for actual nerve compression is critical—waiting increases risk of permanent damage.
+
+## Alternative Input Methods
+
+For severe cases where typing causes pain, explore alternatives:
+
+**Voice Dictation**
+
+Modern voice-to-text technology (Dragon NaturallySpeaking, Google Docs voice typing) enables coding without keyboard input. Learning curve is significant but worthwhile for developers with severe RSI:
+
+- Best for: documentation, comments, code with predictable syntax
+- Worst for: complex punctuation, specialized terminology without training
+
+**Eye Tracking**
+
+Tobii and other eye-tracking systems let you control cursors and keyboards with eye movement. Expensive ($2,000+) and requires significant adjustment period, but enables work for developers with severe wrist/hand limitations.
+
+**Foot Pedals**
+
+Programmable foot switches (like Kinesis FootSwitches) let you execute common commands without hands. Useful for triggering mouse clicks or keyboard combinations that would cause pain.
+
+## Monitoring and Prevention Going Forward
+
+Once you've addressed acute pain, monitoring for recurrence matters:
+
+**Monthly Self-Assessment**
+
+Ask yourself:
+- Are you returning to old habits (laptop keyboard without stand)?
+- Have break frequency and duration decreased?
+- Is pain creeping back gradually?
+
+Early signs of recurrence are easier to address than letting pain rebuild.
+
+**Annual Workspace Audit**
+
+Review your setup each year. Equipment degrades, work patterns shift, and what worked last year might need adjustment.
+
+**Community Resources**
+
+Join developer communities discussing RSI prevention. Online forums like the Repetitive Strain Injury Discord or Reddit's r/RSI provide peer support and latest strategies.
+
+## The Long View
+
+Preventing wrist pain is ultimately an investment in your career longevity. Developers unable to code due to severe RSI have seen their careers disrupted. The cumulative cost of preventive measures—a $100 keyboard, ergonomic chair, regular breaks—is trivial compared to years away from development.
+
+Your hands are your primary tool. Treating them as critical infrastructure rather than something to optimize for productivity later ensures you'll code comfortably for decades.
+
 
 ## Related Articles
 
