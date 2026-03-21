@@ -222,6 +222,32 @@ rm "$OUTPUT"
 | Self-hosted, cost-controlled | Cloudflare Stream + ffmpeg |
 | One-off recording, no install | ffmpeg CLI |
 
+## Async Video Norms That Actually Work
+
+Tooling is only half the equation. The way your team uses recordings determines whether async video replaces meetings or just adds noise.
+
+**Keep recordings under 5 minutes.** Recordings longer than 5 minutes rarely get watched in full. If your walkthrough is approaching 8-10 minutes, break it into two focused recordings: one for context, one for the decision or question. Engineers in different timezones are more likely to watch two 4-minute recordings than one 10-minute one.
+
+**Always include a written summary.** Post a 3-5 sentence summary alongside every recording link. Team members can scan the summary to decide if the full video is relevant to them. The summary also makes recordings searchable in Slack or Notion months later.
+
+**State your ask in the first 15 seconds.** Open every recording by saying what you need: "I'm looking for feedback on this API design — specifically whether we should return 404 or 200 with an empty array." This lets viewers know immediately whether they're the right person to respond.
+
+**Create a response protocol.** Decide as a team how to respond to async videos. Options include: timestamp comments in Loom, a threaded Slack reply referencing the recording, or a short response video. Unclear response norms kill async video adoption — people don't know what to do after watching.
+
+## Integrating Recordings into Your Workflow
+
+Screen recordings work best when embedded directly into the places where work happens. A recording floating in a Slack DM gets lost. A recording embedded in a GitHub PR, Notion doc, or Linear issue stays attached to the context.
+
+For GitHub PRs, paste Loom links in the PR description with a one-line summary. For Notion docs, embed Cloudflare Stream or Loom iframes using the `/embed` block. For Linear or Jira tickets, paste the video URL in the issue description along with the written summary.
+
+Teams that maintain a searchable video library in Notion — one row per recording, with tags for topic and date — get long-term value from their async video investment. A recording of an architecture decision made six months ago can answer questions that would otherwise require a synchronous meeting.
+
+## When Not to Use Screen Recording
+
+Async video is powerful but not universal. Avoid it for sensitive feedback (performance issues, interpersonal conflict) where tone and nuance matter more than convenience. Skip it for simple yes/no decisions that are faster to resolve in two Slack messages. And avoid recordings when you are still in an early exploratory phase where the direction may change completely before anyone watches — the recording creates noise without value.
+
+The signal that your team is using async video well: teammates reference recordings in their own messages ("I answered this in the Loom I sent Tuesday") rather than asking the same questions in real-time meetings. When video becomes a first-class artifact in your team's workflow rather than an occasional novelty, you have crossed the threshold into genuine async communication culture.
+
 ---
 
 
