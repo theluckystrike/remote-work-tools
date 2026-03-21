@@ -2,11 +2,13 @@
 layout: default
 title: "Slack List View Sorting Not Saving Preference Fix 2026"
 description: "Fix Slack list view sorting not saving preferences. Step-by-step troubleshooting for remote workers and distributed teams using Slack in 2026."
-date: 2026-03-20
-author: theluckystrike
+date: 2026-03-16
+author: "Remote Work Tools"
 permalink: /slack-list-view-sorting-not-saving-preference-fix-2026/
 categories: [guides]
 tags: [slack, slack-troubleshooting, slack-list-view, slack-preferences, slack-sorting, remote-work-tools, distributed-teams]
+reviewed: true
+score: 8
 ---
 
 {% raw %}
