@@ -163,6 +163,254 @@ Track these metrics to evaluate your async feedback process:
 - Sentiment trends (do feedback scores improve over time?)
 - Team satisfaction (do people find the process valuable?)
 
+## Detailed Feedback Form Template with Response Anchors
+
+A well-designed form guides responses without constraining genuine feedback. Here's a comprehensive template that works well for distributed teams:
+
+```markdown
+# 360 Feedback Form: [Person Name] | [Quarter]
+
+## Instructions
+Thank you for taking the time to provide feedback. Please focus on:
+- **Specific behaviors** you've observed (not personality judgments)
+- **Recent examples** from the last 3 months
+- **Constructive observations** that help growth
+- **Honest assessment** even if critical
+
+---
+
+## TECHNICAL EXCELLENCE
+
+**Rate overall technical capability** (1-5, 5 being exceptional):
+___
+
+Describe a specific technical contribution or decision this person made in the past three months:
+[Open text, 2-3 sentences minimum]
+
+What is one technical skill they excel at?
+[Open text]
+
+What is one technical area where they could grow?
+[Open text with optional suggestion]
+
+---
+
+## COLLABORATION & COMMUNICATION
+
+**Rate collaboration effectiveness** (1-5):
+___
+
+Describe a time when this person communicated something complex clearly:
+[Specific example]
+
+How responsive is this person to requests for help or input?
+- Always responsive and helpful (rare)
+- Usually responds within 24 hours
+- Sometimes takes 2-3 days
+- Often hard to reach (describe pattern)
+
+Describe one way they could improve communication:
+[Open text]
+
+---
+
+## RELIABILITY & ACCOUNTABILITY
+
+**Rate reliability** (1-5):
+___
+
+Describe a project or commitment where they delivered successfully:
+[Specific example]
+
+When things go wrong, how does this person respond?
+- Takes ownership and communicates quickly
+- Acknowledges but slow to update
+- Deflects or avoids
+- Other: [explain]
+
+---
+
+## LEADERSHIP (for people in lead roles)
+
+**Rate leadership capability** (1-5):
+___
+
+Describe a moment when this person showed good judgment or leadership:
+[Specific example]
+
+How do they handle conflict or disagreement?
+[Open text]
+
+---
+
+## GROWTH & DEVELOPMENT
+
+What is the biggest strength this person should lean into more?
+[Open text]
+
+If this person could develop one skill over the next six months, what would have the biggest impact?
+[Open text]
+
+What kind of support would help them grow in that direction?
+[Open text, could include: mentorship, training, project opportunity, etc.]
+
+---
+
+## OVERALL
+
+In one sentence, what is this person's most valuable contribution to the team?
+[One sentence maximum]
+
+Would you want to work with this person again? (Yes/No/Maybe)
+If "No," please explain:
+[Open text, strongly encouraged for constructive feedback]
+
+---
+
+**Submitted by:** [Optional - can be anonymous]
+**Date:** [Auto-filled]
+```
+
+This structure guides responses without being limiting. The "rating" questions give quantitative data while open-ended sections capture nuance.
+
+## Response Compilation and Aggregation Process
+
+Raw feedback needs synthesis to be useful. Here's a process for turning collected responses into actionable summary:
+
+```
+Step 1: De-Identify Responses (if anonymous)
+- Remove names, specific projects, team identifiers
+- Focus on patterns, not individual opinions
+
+Step 2: Identify Patterns
+Look for themes that appear in 3+ responses:
+  - Technical strengths mentioned repeatedly
+  - Communication issues cited by multiple people
+  - Reliability or accountability patterns
+  - Leadership impact observations
+
+Step 3: Categorize Feedback
+- Strengths: Patterns of positive feedback (do this more)
+- Growth areas: Patterns of constructive feedback (improve this)
+- Outliers: One or two contradictory responses (usually noise)
+- Questions: Feedback that suggests clarification or discussion
+
+Step 4: Create Summary Document
+
+## [Person] 360 Feedback Summary
+
+**Overall Sentiment:** [Positive/Mixed/Concerning based on ratings distribution]
+
+### Key Strengths (cited by 4+ reviewers)
+- [Strength 1]: [Example quote pattern]
+- [Strength 2]: [Example quote pattern]
+
+### Growth Opportunities (cited by 3+ reviewers)
+- [Growth area]: [Specific feedback pattern]
+- [Action suggestion from reviewers]
+
+### Areas of Alignment
+[Where multiple reviewers mentioned same strength or opportunity]
+
+### Areas of Disagreement
+[If ratings vary significantly, note: "Ratings varied from 2-5 on X skill"]
+
+### Questions for Discussion
+[Ambiguities to clarify in one-on-one]
+
+Step 5: Prepare Feedback Delivery
+- Schedule one-on-one with recipient
+- Plan to spend 30-45 minutes
+- Have specific examples ready
+- Position feedback as learning opportunity, not judgment
+```
+
+## The Feedback Conversation: Delivery Framework
+
+Delivering 360 feedback well is a skill. Use this structure:
+
+```
+Opening (5 minutes):
+"I want to share feedback from your 360 review. This comes from four
+colleagues who work closely with you. The goal is to highlight your
+strengths and identify one area for growth over the next quarter."
+
+Share Strengths First (5 minutes):
+"Four reviewers mentioned that you consistently [strength].
+Here's a specific example: [quote/description]."
+
+Allow brief reaction, then continue with 2-3 more strengths.
+
+Transition to Growth Area (2 minutes):
+"There's one area that came up from multiple people where
+growth would have a big impact. Are you ready to hear it?"
+
+Deliver Growth Feedback (5 minutes):
+"[Growth area] came up from three reviewers. Specifically, [feedback pattern].
+Here's one example: [specific situation]."
+
+Listen to their reaction. Don't defend the feedback—your job is delivery, not justification.
+
+Discuss Action (15 minutes):
+"What's one thing you could focus on over the next quarter that would address this?
+How can I support you? What would success look like?"
+
+Commit to follow-up (3 minutes):
+"Let's check in after six weeks and see how this is going. I'm here to support."
+```
+
+The key: deliver feedback with specificity, listen to their perspective, and commit to support.
+
+## Feedback Cycle Automation with Reminders
+
+Automate the administrative burden so nothing falls through the cracks:
+
+```bash
+#!/bin/bash
+# feedback-cycle.sh - Automate 360 feedback process
+
+# Week 1: Send requests to reviewers
+echo "Sending feedback requests to reviewers..."
+for reviewer in $(cat reviewers.txt); do
+  send_email \
+    --to "$reviewer" \
+    --subject "360 Feedback Request: [Person Name]" \
+    --body "Please provide feedback by Friday EOD" \
+    --link "https://feedback.company.com/form/[person]"
+done
+
+# Week 2: Send reminder to non-respondents
+echo "Sending reminders to incomplete responses..."
+for incomplete in $(check_incomplete_forms); do
+  send_slack_dm "$incomplete" "Just a reminder: feedback due tomorrow"
+done
+
+# Week 3: Compile and synthesize feedback
+echo "Compiling feedback into summary..."
+python3 aggregate_feedback.py --person "$1" --output summary.md
+
+# Week 4: Schedule delivery meeting
+echo "Scheduling feedback delivery meeting..."
+create_calendar_event \
+  --attendees "$person" \
+  --title "360 Feedback Conversation" \
+  --duration 45min
+```
+
+This removes the manual burden of chasing forms, reminding respondents, and organizing the follow-up.
+
+## Common Pitfalls and How to Avoid Them
+
+**Too many feedback cycles**: Running 360 feedback every quarter causes fatigue. Annual or bi-annual works better for most teams.
+
+**Identical questions every cycle**: Vary questions slightly to target emerging growth areas, not just recycle the same form.
+
+**Feedback that's too soft**: "Great communicator" is useless. Require examples. "You explained the API migration clearly in our design review" is actionable.
+
+**No follow-up**: Collect feedback, deliver it, then never revisit. The value is in the follow-up accountability, not the collection.
+
+**Anonymous when team is small**: In a 5-person team, "anonymity" is obvious. Named feedback builds trust better and allows for follow-up clarification.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

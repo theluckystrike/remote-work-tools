@@ -162,6 +162,196 @@ Quarterly surveys can help you understand how well your async communication is w
 
 Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.
 
+## Real-World Time Zone Stack Examples
+
+Understanding how to group your team creates the foundation for sustainable management. Here are three real configurations:
+
+### Global Tech Company (12 time zones, 8 offices)
+
+```
+APAC Stack (8 AM - 6 PM AEST)
+├── Melbourne, Sydney, Auckland
+├── Bangkok, Singapore, Kuala Lumpur
+├── Tokyo, Seoul
+├── Overlap window: 12-3 PM AEST = 5-8 PM SGT
+└── Primary collaboration: Internal APAC sync
+
+EMEA Stack (8 AM - 6 PM CET)
+├── London, Paris, Amsterdam
+├── Berlin, Prague
+├── Istanbul
+├── Overlap window: 1-4 PM CET = 2-5 PM UTC
+└── Primary collaboration: Weekly EMEA standups
+
+AMER Stack (8 AM - 6 PM PST)
+├── San Francisco, Los Angeles
+├── Austin, Denver
+├── New York, Boston
+├── Overlap window: 9 AM - 12 PM PST = 12-3 PM EST
+└── Primary collaboration: Daily AMER sync
+
+Cross-Stack Collaboration:
+├── APAC-EMEA: 4-8 AM AEST (early morning for Sydney, ideal for London)
+├── EMEA-AMER: 12-2 PM CET (early morning for US East, late afternoon for EU)
+├── APAC-AMER: Limited (evening for Tokyo, early morning for California)
+└── Rotation: Once per quarter, all-hands meeting rotates through time zones
+```
+
+This structure creates three semi-autonomous clusters with clear cross-cluster handoff patterns.
+
+### Distributed Startup (5 time zones, remote-first)
+
+```
+Team Composition:
+├── EU Core (4 people): London, Berlin, Amsterdam
+├── US Core (3 people): San Francisco, New York
+├── Asia (2 people): Tokyo, Bangalore
+└── Total: 9 people
+
+Communication Strategy:
+├── Daily: Async standup in Slack (posted morning local time)
+├── 2x Weekly: 30-min sync meeting (rotated: Mon APAC-friendly, Wed AMER-friendly)
+├── Weekly: 1:1s between manager and directs (scheduled during their morning, manager's evening)
+└── Ad-hoc: Pair programming/deep discussion during overlap windows
+
+Manager's Weekly Time:
+├── Monday: 4 AM wake-up for APAC sync with Asia team
+├── Tuesday-Wednesday: Evening 1:1s with Europe (their afternoon, his early evening)
+├── Thursday: 6 PM evening sync call with US team (their afternoon)
+├── Friday: Async-only, focus on documentation and planning
+└── Total extra early/late hours: ~4 per week (manageable)
+```
+
+This structure scales well for 5-15 person teams and prevents any single region from feeling left out.
+
+### Enterprise with Dedicated Ops (3 primary time zones)
+
+```
+Team Structure:
+├── Primary: San Francisco (HQ, 20 people)
+├── Secondary: London (satellite, 8 people)
+├── Tertiary: Singapore (support focus, 5 people)
+
+Synchronous Windows:
+├── SFOC-London: 8-10 AM PST = 4-6 PM GMT (2 hours)
+├── London-Singapore: 12-2 PM GMT = 8-10 PM SGT (2 hours)
+├── Singapore-SFOC: Minimal overlap; handled async
+
+Manager Coverage:
+├── SF Manager: Leads SF team, 1:1s during 9-10 AM PST slot
+├── London Manager: Leads London team, 1:1s during overlap (own morning, SF early)
+├── Singapore Lead: Async leadership from Singapore, sync with London daily
+└── Director (SF): Covers emergency escalations across all zones
+
+Documentation Burden:
+├── Everything documented in Confluence
+├── Weekly digest published every Friday (SFOC time)
+├── Decisions recorded in decision log within 24 hours
+├── Handoffs between regions happen asynchronously through recorded context
+```
+
+This structure is typical for mid-market companies with 30-50 distributed engineers.
+
+## Manager Daily Time Block Template (Global Team)
+
+Protect specific hours for specific time zones to prevent burnout:
+
+```
+Manager Daily Schedule (Multi-Timezone Team)
+
+TIME: 6:00 AM - 7:00 AM (Your timezone)
+ZONE: APAC focus
+- Read overnight updates from Asia team
+- Respond to blockers asynchronously
+- Prepare questions for sync
+
+TIME: 7:00 AM - 8:30 AM
+ZONE: Personal + planning
+- Breakfast, morning routine
+- Review calendar and priorities
+- Plan day's async communications
+
+TIME: 8:30 AM - 10:30 AM
+ZONE: AMER deep work
+- Strategic work without interruptions
+- Project planning, hiring tasks
+- No meetings this block
+
+TIME: 10:30 AM - 12:00 PM
+ZONE: AMER collaboration
+- Synchronous meetings with US teams
+- 1:1s with AMER direct reports
+- Cross-team collaboration calls
+
+TIME: 12:00 PM - 1:00 PM
+ZONE: Lunch break
+- Away from desk, no work
+- Non-negotiable boundary
+
+TIME: 1:00 PM - 2:30 PM
+ZONE: EMEA + AMER overlap
+- Meetings with European teams
+- Code review feedback
+- Decision-making on proposals
+
+TIME: 2:30 PM - 4:00 PM
+ZONE: Deep work + documentation
+- Writing decisions logs
+- Updating project status
+- Async communication catch-up
+
+TIME: 4:00 PM - 5:30 PM
+ZONE: EMEA evening (their 12-1 AM)
+- Final 1:1s with Europe team
+- Closing conversations that started earlier
+- Tomorrow's priorities briefing
+
+TIME: 5:30 PM - 6:00 PM
+ZONE: Transition
+- Wrap-up, next day prep
+- Evening message: "Off for the day"
+- Explicit "not available" status
+```
+
+The key: cluster same-timezone activities together to minimize context switching, protect deep work time, and maintain explicit boundaries.
+
+## Asynchronous Decision Log Template
+
+When you lead globally, every decision needs to be documented so people in other zones understand your reasoning:
+
+```markdown
+# Decision Log - [Team Name]
+
+## Decision: [Title]
+- **Date:** 2026-03-20
+- **Decision:** [What was decided]
+- **Owner:** [Who made it]
+- **Stakeholders:** [Who needs to know]
+
+## Background
+[Why this decision matters, what context led here]
+
+## Alternatives Considered
+1. [Option A]: Why rejected
+2. [Option B]: Why rejected
+3. [Chosen Option]: Why selected
+
+## Implications
+- **For Team A:** [How this affects them]
+- **For Team B:** [How this affects them]
+- **For Infrastructure:** [Technical implications]
+
+## Timeline
+- **Implementation starts:** [Date]
+- **Rollout complete:** [Date]
+- **Review date:** [When we'll assess if it worked]
+
+## Questions?
+Posted in #engineering-leadership, slack at [timestamp]
+If you have concerns, reply in thread by [date+24 hours]
+```
+
+This structure prevents decisions made in AMER morning from creating confusion when Europe wakes up. Everyone has context upfront.
 
 ## Related Reading
 

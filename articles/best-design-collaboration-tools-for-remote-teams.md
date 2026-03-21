@@ -162,6 +162,192 @@ Figma offers the best overall balance for most remote teams, with Penpot serving
 
 The best tool ultimately enables your team to move faster while maintaining design consistency. Evaluate based on actual workflow requirements rather than feature lists, and prioritize tools that integrate with your existing development pipeline.
 
+## Detailed Tool Comparison Matrix
+
+| Evaluation Criteria | Figma | Penpot | Sketch | Supernova | Abstract |
+|------------------|-------|--------|---------|-----------|----------|
+| **Learning Curve** | Moderate (1-2 days) | Moderate | Steep (3+ days) | Steep (platform-specific) | Moderate |
+| **Multiplayer Editing** | Excellent | Good | Limited | N/A | Version control |
+| **Code Generation** | Excellent | Good | Medium | Excellent | Limited |
+| **API Strength** | Strong REST API | Strong | Plugin-based | Strong | Version control API |
+| **Free Tier** | Generous (unlimited files) | Generous | Limited (single file) | No | No |
+| **Self-Hosting** | No | Yes | No | Limited | Yes |
+| **Design Token Export** | Yes | Yes | Partial | Yes | Limited |
+| **Design System** | Excellent components | Good | Very good | Best in class | Good |
+| **Git Integration** | Third-party plugins | Native | Limited | No | Native |
+| **Pricing Tier** | $12/editor/month | Free | $20/month | $200+/month | $50+/month |
+| **Best Platform** | Cross-platform | Cross-platform | macOS only | All | All |
+
+**For most teams**: Figma is the safest choice with the strongest feature set and lowest switching cost.
+**For design systems**: Supernova excels but at enterprise pricing.
+**For open-source requirements**: Penpot is the only option.
+**For macOS-only teams**: Sketch provides tighter integration but risks platform lock-in.
+**For version control workflows**: Abstract provides Git-like branching but limited design features.
+
+## Implementation Workflow: Design to Developer Handoff
+
+Proper tool selection matters less than proper workflow. Here's a complete design-to-developer pipeline:
+
+### Phase 1: Design Phase (Figma/Penpot)
+
+```
+Designer creates in Figma
+├── Organizes components in design library
+├── Establishes token naming conventions
+├── Exports design tokens (colors, typography)
+└── Shares read-only link with developers
+```
+
+### Phase 2: Token Synchronization
+
+```
+# Design tokens export (Figma API)
+{
+  "colors": {
+    "primary": "#0051cc",
+    "secondary": "#28a745",
+    "warning": "#ffc107"
+  },
+  "typography": {
+    "body-sm": {
+      "font-size": "14px",
+      "font-weight": "400",
+      "line-height": "1.5"
+    }
+  }
+}
+
+# Converted to CSS variables
+:root {
+  --color-primary: #0051cc;
+  --color-secondary: #28a745;
+  --typography-body-sm-size: 14px;
+}
+
+# Synced to codebase via API webhook
+```
+
+### Phase 3: Development Phase
+
+```
+Developer implements in code
+├── Uses exported design tokens
+├── References Figma Dev Mode for specs
+├── Creates pull request with component code
+└── Links to Figma file in PR description
+```
+
+### Phase 4: Design Review
+
+```
+Designer reviews implementation in pull request
+├── Checks against original design
+├── Comments on discrepancies
+├── Approves or requests changes
+└── Merges when design matches
+```
+
+## Pricing Deep Dive: Total Cost of Ownership
+
+Design tools pricing varies significantly by team size. Calculate your actual cost:
+
+### Small Team (1-3 designers, 5-10 developers)
+
+**Option A: Figma Only**
+- 3 designer seats @ $12/month: $36/month
+- Developers: Free (read-only access)
+- **Monthly cost: $36** (annual: $432)
+
+**Option B: Penpot (Self-hosted)**
+- Infrastructure: $30/month (small server)
+- Design library maintenance: ~2 hours/month (included)
+- **Monthly cost: $30** (annual: $360)
+
+**Option C: Sketch + Abstract**
+- 3 Sketch licenses @ $20/month: $60/month
+- Abstract seat @ $50: $50/month
+- **Monthly cost: $110** (annual: $1,320)
+
+**Winner for small teams: Figma** (cheapest, best features)
+
+### Large Team (10+ designers, 50+ developers)
+
+**Option A: Figma Enterprise**
+- 10 designer seats @ $45/month (enterprise rate): $450/month
+- Advanced features (SSO, SOC 2): $100/month
+- **Monthly cost: $550** (annual: $6,600)
+
+**Option B: Supernova + Figma**
+- 10 Figma seats @ $12: $120/month
+- Supernova enterprise: $1,500/month
+- Includes code generation, tokens, documentation
+- **Monthly cost: $1,620** (annual: $19,440)
+
+**Option C: In-House Penpot + Design Token Infrastructure**
+- Self-hosted servers: $300/month
+- Design token management tool: $200/month
+- Maintenance engineer (10% time): $2,000/month
+- **Monthly cost: $2,500** (annual: $30,000)
+
+**Winner for large teams: Figma Enterprise** (unless you need design system automation, then Supernova)
+
+## Integration Checklist: Setting Up Your Tool Properly
+
+Once you choose your design tool, ensure proper integration:
+
+```
+Setup Checklist:
+
+Design Tool Configuration:
+  [ ] Create shared design library with organized components
+  [ ] Establish naming conventions (BEM or similar)
+  [ ] Configure design tokens export
+  [ ] Set up automatic backups
+  [ ] Enable version history with meaningful descriptions
+
+Developer Integration:
+  [ ] Create read-only viewing groups for developers
+  [ ] Document design token location/format
+  [ ] Set up API webhooks for design token updates
+  [ ] Create design specs documentation
+  [ ] Link design file in project README
+
+Documentation:
+  [ ] Design system guidelines document
+  [ ] Token naming reference
+  [ ] Color palette guide
+  [ ] Typography scale
+  [ ] Component specifications (with edge cases)
+
+Workflow:
+  [ ] Design review process documented
+  [ ] Hand-off checklist (what designers provide)
+  [ ] QA checklist (what developers verify against)
+  [ ] Update process for design changes
+  [ ] Archive process for deprecated components
+```
+
+## Performance Considerations for Large Files
+
+Design files grow over time. Manage performance proactively:
+
+```
+File Size Management:
+
+Sweet spot: Files under 500MB, under 5,000 components
+Performance degradation: 500MB-2GB (noticeable slowdowns)
+Unusable: 2GB+ (frequent crashes)
+
+Prevention:
+1. Archive completed projects quarterly
+2. Limit components to active design system only
+3. Use shared libraries rather than embedded copies
+4. Remove unused artboards and layers regularly
+5. Compress images in design files
+6. Consider splitting into multiple focused files
+```
+
+Large files slow down designers, increase sync times, and make version control harder. Manage file size as a team responsibility.
 
 ## Related Reading
 

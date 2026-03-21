@@ -160,8 +160,210 @@ For teams using GitHub or GitLab, tools that integrate directly with issue track
 
 The goal remains consistent regardless of tool choice: capture clear, contextual bug documentation that enables developers to understand and resolve issues efficiently, without requiring synchronous communication.
 
+## Screen Recording Tool Comparison
+
+Different tools serve different needs. Choose based on integration, platform, and specific features your team needs:
+
+| Tool | Price | Best For | Key Features | Drawbacks |
+|------|-------|----------|-------------|-----------|
+| **Loom** | Free/$12/month | Quick client demos | One-click recording, transcript, instant sharing | Can't edit after record |
+| **Screen Studio** | $20/month | High-quality output | Beautiful UI, automatic captions, slow-mo | macOS only |
+| **Snagit** | $60/year | Detailed annotations | Powerful editor, library management, advanced markup | Overkill for simple bugs |
+| **ScreenFlow** | $129 (one-time) | macOS pros | Professional editing, GPU encoding, performance | Expensive upfront |
+| **OBS Studio** | Free | Stream-focused | Fully customizable, multi-source, open-source | Steep learning curve |
+| **Gyroflow Toolbox** | Free | Video stabilization | Stabilizes shaky handheld recordings | Specialized use case |
+| **Camtasia** | $180/year | Training videos | Advanced editing, interactive elements, export options | Complex for simple bugs |
+
+**For remote teams**: Loom wins for simplicity and sharing.
+**For polish**: Screen Studio produces the best-looking recordings.
+**For control**: OBS Studio provides the most flexibility.
+**For annotation**: Snagit excels at detailed markup.
+
+## Bug Recording Standards and Checklist
+
+Create a team standard for bug recordings to ensure consistency:
+
+```
+Bug Recording Standard:
+
+Before Recording:
+  [ ] Close sensitive applications (email, Slack, IDE with secrets)
+  [ ] Set zoom level to 100% for legibility
+  [ ] Clear desktop of clutter
+  [ ] Charge headset/mic if using external audio
+  [ ] Test audio levels
+  [ ] Position camera/window to avoid glare
+
+During Recording:
+  [ ] Start with 5-second silent intro
+  [ ] Speak clearly: "I'm reproducing a payment processing error"
+  [ ] Show full user journey, not just the broken state
+  [ ] Pause for 3 seconds when error appears (let it sink in)
+  [ ] Open browser console BEFORE reproducing bug
+  [ ] Capture full error messages visible on screen
+  [ ] Show network tab if applicable
+  [ ] Keep recording under 3 minutes if possible
+
+After Recording:
+  [ ] Trim silent intro/outro
+  [ ] Add title with bug number and brief description
+  [ ] Include timestamp in issue title: "Bug #456 - Recording: [link]"
+  [ ] Pin recording link in the issue for visibility
+  [ ] Write brief summary text (3-5 sentences) in case recording fails to load
+```
+
+Teams with consistent recording standards reduce back-and-forth questions significantly.
+
+## Workflow Integration: Embedding Videos in Bug Reports
+
+Screen recordings only help if developers can easily find them. Integrate recordings into your tracking system:
+
+### GitHub Issues Integration
+
+```markdown
+## Bug: Checkout Payment Processing Fails with Visa Cards
+
+**Recording:** [Loom link with timestamp]
+**Browser:** Chrome 120, macOS 14.3
+**Date Reported:** 2026-03-20
+
+### Steps to Reproduce
+1. Navigate to /checkout
+2. Add item to cart
+3. Proceed to payment
+4. Enter Visa card: 4111 1111 1111 1111
+5. Click "Process Payment"
+
+### Expected Behavior
+Payment processes, order confirmation displays
+
+### Actual Behavior
+Loading spinner spins indefinitely, payment never completes
+
+### Error Output
+```
+TypeError: Cannot read property 'handleSubmit' of undefined
+    at HTMLButtonElement.onclick (checkout.js:456)
+```
+
+### Notes
+- Happens only with Visa cards
+- Works fine with Mastercard
+- Appears in console immediately
+- See recording above for full walkthrough
+```
+
+### Jira Integration
+
+```
+{
+  "fields": {
+    "summary": "Checkout payment fails with Visa",
+    "description": "Recording: [Loom link]\n\nFull walkthrough shows the issue in ~90 seconds.",
+    "attachment": {
+      "link": "[Loom recording URL]"
+    },
+    "labels": ["bug", "payment", "video-attached"]
+  }
+}
+```
+
+### Linear Integration
+
+```
+Title: Checkout payment fails with Visa
+Priority: High
+Description:
+
+[Watch recording](link)
+
+Browser: Chrome 120
+Steps:
+1. Add item to cart
+2. Navigate to checkout
+3. Enter Visa card (see video)
+4. Observe: payment fails with console error
+```
+
+The key: make recording links prominent and easy to find.
+
+## Creating a Bug Report Template with Video
+
+Make it easy for clients to create effective recordings. Provide a template:
+
+```markdown
+# Client Bug Report Template
+
+**Bug Title:** [One sentence describing the problem]
+
+**Recording:** [Paste video link here]
+
+**When did this happen?**
+- Date/time: [specific time zone]
+- Frequency: Always / Sometimes / Once
+- Reproducible: Yes / No
+
+**What were you trying to do?**
+[Describe the action leading to the bug]
+
+**What happened instead?**
+[Describe the unexpected behavior]
+
+**What browser/device?**
+- Browser: [Chrome/Firefox/Safari/Edge] version X
+- Operating System: [Windows/macOS/Linux] version X
+- Device: [Desktop/Mobile/Tablet]
+
+**Additional context:**
+[Any other details that might help: error messages, account type, etc.]
+
 ---
 
+**For IT Support:** Please record a 1-2 minute video showing:
+1. What you were doing when the error occurred
+2. The exact error message or unusual behavior
+3. Your browser (check Help > About for version)
+
+Upload using [Loom/ScreenStudio] and paste the link above.
+```
+
+Distributing this template to clients results in significantly better bug reports with consistent video documentation.
+
+## Video Troubleshooting: When Recordings Don't Capture the Issue
+
+Sometimes recordings fail to capture the actual problem. Here's a diagnostic approach:
+
+```
+Issue: Recording runs, but error doesn't reproduce
+
+Causes and solutions:
+1. Error is intermittent/environmental
+   - Record longer session (5+ minutes)
+   - Record multiple attempts
+   - Check system logs while recording
+
+2. Error happens too fast to see
+   - Slow down your interactions
+   - Use browser DevTools Performance tab
+   - Ask developers if they need slo-mo recording
+
+3. Recording captures wrong part of screen
+   - For web bugs: zoom browser to 125%
+   - For mobile: use screen mirroring to larger device
+   - Test recording setup before full session
+
+4. Console errors don't appear in video
+   - Enlarge browser console font
+   - Position console window in recording area
+   - Filter console to show only errors
+
+5. Audio levels too low to hear
+   - Test microphone levels in OS settings
+   - Normalize audio after recording in editor
+   - Consider subtitles/captions as backup
+```
+
+Always do a test recording before sending to clients. A failed test is better than a failed bug report.
 
 ## Related Reading
 
