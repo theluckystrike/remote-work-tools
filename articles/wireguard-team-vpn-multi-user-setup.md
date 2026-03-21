@@ -296,6 +296,8 @@ grep -A1 "# " /etc/wireguard/wg0.conf | grep -E "# |PublicKey"
 - [How to Set Up WireGuard VPN Server for Small Remote Development Teams](/remote-work-tools/how-to-set-up-wireguard-vpn-server-for-small-remote-developm/)
 - [Best VPN for Remote Development Teams with Split Tunneling](/remote-work-tools/best-vpn-for-remote-development-teams-with-split-tunneling-2/)
 - [Home Lab Setup Guide for Remote Developers](/remote-work-tools/home-lab-setup-guide-remote-developers/)
+- [How to Set Up WireGuard VPN on iPhone for Always-On Privacy](https://theluckystrike.github.io/privacy-tools-guide/how-to-set-up-wireguard-vpn-on-iphone-for-always-on-privacy-/)
+- [WireGuard vs OpenVPN Speed Difference on Mobile Data](https://theluckystrike.github.io/privacy-tools-guide/wireguard-vs-openvpn-speed-difference-on-mobile-data-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 

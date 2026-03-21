@@ -292,6 +292,8 @@ Yes, for most 10-person teams it is the simplest option. At $99 per device per y
 - [Best Backup Solutions for Remote Developer Machines](/remote-work-tools/best-backup-solutions-for-remote-developer-machines/)
 - [Backblaze vs CrashPlan for Remote Work Backup](/remote-work-tools/backblaze-vs-crashplan-for-remote-work-backup/)
 - [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
+- [Bitwarden Vault Export Backup Guide](https://theluckystrike.github.io/privacy-tools-guide/bitwarden-vault-export-backup-guide/)
+- [VPN Authentication Methods Compared Certificate Vs](https://theluckystrike.github.io/privacy-tools-guide/vpn-authentication-methods-compared-certificate-vs-username-password-security/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

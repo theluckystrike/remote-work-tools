@@ -610,6 +610,7 @@ sudo profiles status -type enrollment
 - [Best Endpoint Security Solution for Remote Employees Using Personal Devices](/remote-work-tools/best-endpoint-security-solution-for-remote-employees-using-p/)
 - [How to Implement Conditional Access Policies for Remote Work](/remote-work-tools/how-to-implement-conditional-access-policies-for-remote-work/)
 - [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
+- [How to Audit Your Password Manager Vault: A Practical Guide](https://theluckystrike.github.io/privacy-tools-guide/how-to-audit-your-password-manager-vault/)
 
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
