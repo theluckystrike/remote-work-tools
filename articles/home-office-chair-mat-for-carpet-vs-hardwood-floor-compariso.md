@@ -161,17 +161,184 @@ Extend your chair mat's life regardless of type:
 - Use chair pads in high-traffic zones for extra protection
 - Replace when you notice cracks, persistent curling, or caster marks
 
+## Advanced Selection Framework
+
+For power users who want data-driven decisions, here's an expanded decision matrix:
+
+```python
+#!/usr/bin/env python3
+"""Chair mat recommendation engine."""
+
+import json
+from typing import Dict, List, Tuple
+
+class ChairMatRecommender:
+    def __init__(self):
+        self.materials = {
+            "polycarbonate": {
+                "durability": 7, "weight_capacity": 300, "cost": 3,
+                "best_for": ["carpet"], "maintenance": 1
+            },
+            "abs_plastic": {
+                "durability": 5, "weight_capacity": 200, "cost": 2,
+                "best_for": ["carpet"], "maintenance": 2
+            },
+            "pvc": {
+                "durability": 4, "weight_capacity": 150, "cost": 1,
+                "best_for": ["hardwood", "universal"], "maintenance": 2
+            },
+            "tpe": {
+                "durability": 6, "weight_capacity": 250, "cost": 2.5,
+                "best_for": ["hardwood"], "maintenance": 1
+            },
+            "natural_rubber": {
+                "durability": 8, "weight_capacity": 280, "cost": 4,
+                "best_for": ["hardwood"], "maintenance": 1
+            }
+        }
+
+    def score_mat(self, floor_type: str, priorities: Dict) -> List[Tuple]:
+        """
+        Score each material based on floor type and priorities.
+        Priorities: durability, budget, maintenance, capacity
+        """
+        scores = {}
+
+        for material, specs in self.materials.items():
+            score = 0
+
+            # Floor type match (50 point bonus)
+            if floor_type in specs["best_for"]:
+                score += 50
+
+            # Durability factor
+            if "durability" in priorities:
+                weight = priorities.get("durability_weight", 1.0)
+                score += specs["durability"] * 10 * weight
+
+            # Budget factor (inverse scoring)
+            if "budget" in priorities:
+                max_cost = 4
+                budget_score = ((max_cost - specs["cost"]) / max_cost) * 20
+                weight = priorities.get("budget_weight", 1.0)
+                score += budget_score * weight
+
+            # Maintenance factor
+            if "low_maintenance" in priorities:
+                weight = priorities.get("maintenance_weight", 0.5)
+                score += (10 - specs["maintenance"] * 2) * weight
+
+            # Weight capacity
+            if "weight_capacity_min" in priorities:
+                min_capacity = priorities["weight_capacity_min"]
+                if specs["weight_capacity"] >= min_capacity:
+                    score += 30
+                else:
+                    score -= 20
+
+            scores[material] = score
+
+        return sorted(scores.items(), key=lambda x: x[1], reverse=True)
+
+    def get_recommendation(self, floor_type: str, **priorities) -> Dict:
+        """Get top 3 recommendations with reasoning."""
+        ranked = self.score_mat(floor_type, priorities)
+        top_3 = ranked[:3]
+
+        recommendations = []
+        for material, score in top_3:
+            specs = self.materials[material]
+            recommendations.append({
+                "material": material,
+                "score": score,
+                "durability_years": specs["durability"],
+                "weight_capacity": specs["weight_capacity"],
+                "relative_cost": specs["cost"],
+                "maintenance_level": specs["maintenance"]
+            })
+
+        return recommendations
+
+# Example usage
+recommender = ChairMatRecommender()
+
+# User scenario: hardwood floor, budget-conscious, 180lb user
+recommendations = recommender.get_recommendation(
+    floor_type="hardwood",
+    budget=True,
+    budget_weight=1.5,
+    weight_capacity_min=180,
+    low_maintenance=True
+)
+
+print("Top recommendations for hardwood floor:")
+for i, rec in enumerate(recommendations, 1):
+    print(f"\n{i}. {rec['material'].replace('_', ' ').title()}")
+    print(f"   Score: {rec['score']:.0f}")
+    print(f"   Durability: {rec['durability_years']} years")
+    print(f"   Weight capacity: {rec['weight_capacity']} lbs")
+    print(f"   Cost level: {'$' * rec['relative_cost']}")
+```
+
+Run this with your specific parameters to get personalized recommendations.
+
+## Measuring Mat Performance Over Time
+
+Track mat performance to inform future replacements:
+
+| Timeframe | Inspection Point |
+|-----------|------------------|
+| Monthly | Check for debris, clean surface |
+| 6 months | Look for edge curling, material degradation |
+| 1 year | Assess caster marks, friction resistance |
+| 2 years | Evaluate permanent discoloration, wear patterns |
+| 3+ years | Consider replacement if daily use is heavy |
+
+Document conditions in photos. Over time, you'll have data on which materials and brands actually deliver their promised lifespan in your specific conditions.
+
+## The Physics of Caster-Surface Interaction
+
+For technically inclined users, understanding the mechanics helps justify material choices:
+
+**Carpet Mats (Polycarbonate with Gripper Backing):**
+- Gripper backs have spike patterns that anchor into carpet fibers
+- Smooth top surface reduces rolling friction
+- Optimal for medium-pile carpet (0.25-0.5 inches)
+- Load distribution: pressure concentrates on gripper contact points
+
+**Hardwood Mats (TPE or Rubber):**
+- Soft backing conforms to floor, distributing weight evenly
+- Smooth or textured top prevents scuffing
+- Non-slip backing prevents mat sliding during use
+- Caster roll resistance depends on surface smoothness and hardness
+
+The key physics principle: match surface hardness to caster hardness. Hard casters on hard floors slide smoothly. Soft casters on soft carpet sinks in and creates friction.
+
+## Budget-Conscious Approach: Two-Zone Strategy
+
+For mixed-flooring spaces, consider a hybrid approach:
+
+1. **Primary zone (3 x 4 feet)** - Premium material for daily use
+   - High-quality polycarbonate for carpet OR TPE for hardwood
+   - Invest 70% of budget here
+
+2. **Secondary zone (2 x 3 feet)** - Budget option for occasional use
+   - Standard PVC mat
+   - Use 30% of budget here
+
+This maximizes longevity where you spend most time while keeping overall cost reasonable.
+
 ## Making Your Decision
 
 For most home office setups:
 
-- Carpet up to 1/2 inch pile: 2-3mm polycarbonate with gripper backing
-- Thick carpet over 1/2 inch: 4-5mm polycarbonate, consider caster extenders
-- Hardwood/Laminate: 2-3mm TPE or natural rubber with non-slip backing
-- Mixed flooring: Universal mat with moderate thickness, or two mats for different zones
+- **Carpet up to 1/2 inch pile**: 2-3mm polycarbonate with gripper backing
+- **Thick carpet over 1/2 inch**: 4-5mm polycarbonate, consider caster extenders
+- **Hardwood/Laminate**: 2-3mm TPE or natural rubber with non-slip backing
+- **Mixed flooring**: Natural rubber base mat (most versatile) or two mats for different zones
+- **Budget priority**: 2mm PVC universal mat on carpet with gripper side up
 
 The right chair mat is an investment in both your comfort and your flooring. Take time to measure your carpet depth or verify your floor type, check your chair's caster type, and choose materials appropriate to your specific situation. Your joints—and your floor—will thank you after years of daily use.
-
 
 ## Related Articles
 

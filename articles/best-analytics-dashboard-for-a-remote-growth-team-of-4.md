@@ -173,6 +173,186 @@ Tool selection matters less than usage patterns. Establish a weekly dashboard re
 
 The four-person growth team advantage is agility. Your dashboard should amplify that advantage, not become another system that requires maintenance without delivering insight.
 
+## Building Your First Growth Dashboard
+
+For teams starting from scratch, here's a practical data model:
+
+```sql
+-- Core tables for growth analytics
+CREATE TABLE daily_metrics (
+    date DATE PRIMARY KEY,
+    new_users INT,
+    active_users INT,
+    signups INT,
+    conversions INT,
+    subscriptions INT,
+    churn INT,
+    revenue DECIMAL(10,2)
+);
+
+-- Cohort tracking for retention analysis
+CREATE TABLE user_cohorts (
+    cohort_month DATE,
+    month_0 INT,  -- users in cohort month
+    month_1 INT,  -- users retained 1 month later
+    month_2 INT,
+    month_3 INT,
+    month_6 INT,
+    month_12 INT
+);
+
+-- Feature adoption tracking
+CREATE TABLE feature_usage (
+    date DATE,
+    feature_name VARCHAR(100),
+    daily_active_users INT,
+    weekly_active_users INT,
+    adoption_rate DECIMAL(5,2)
+);
+
+-- Conversion funnel events
+CREATE TABLE funnel_events (
+    event_date DATE,
+    step_name VARCHAR(50),
+    user_count INT,
+    UNIQUE(event_date, step_name)
+);
+```
+
+From this foundation, build dashboards that answer the core growth questions:
+
+**Dashboard 1: North Star Metrics (Updated Daily)**
+- Total users (with growth trend)
+- Active users (daily, weekly, monthly)
+- Conversion funnel (signup -> activation -> retention)
+- Revenue and ARR with trend lines
+
+**Dashboard 2: Cohort Analysis (Updated Weekly)**
+- Retention curves by cohort
+- LTV by acquisition month
+- Churn rate trends
+- Payback period by acquisition channel
+
+**Dashboard 3: Feature Adoption (Updated Daily)**
+- Feature usage breakdown
+- Adoption rate by user segment
+- Impact on retention metrics
+- Feature health score (adoption + engagement)
+
+## Advanced Metric Definitions for Growth Teams
+
+Ensure everyone uses the same metric definitions:
+
+```markdown
+# Growth Metrics Dictionary
+
+## DAU (Daily Active Users)
+**Definition:** Count of distinct users with at least one tracked event on a given day
+**Includes:** Web, mobile app, and API interactions
+**Excludes:** Test accounts, internal team usage, bot traffic
+**Calculation:** `SELECT COUNT(DISTINCT user_id) FROM events WHERE DATE(event_time) = TODAY()`
+
+## Conversion Rate (Signup to Paid)
+**Definition:** Percentage of users who sign up that eventually pay
+**Numerator:** Distinct users with at least one successful payment
+**Denominator:** Distinct signups in lookback window (default 30 days)
+**Formula:** `(paying_users / total_signups) * 100`
+
+## Churn Rate
+**Definition:** Percentage of paying subscribers who cancel in a given period
+**Measurement:** Monthly cohorts tracked forward
+**Definition:** User has no active subscription on last day of month
+**Edge case:** Trial users who don't convert = 100% churn
+
+## LTV (Lifetime Value)
+**Definition:** Total revenue from a user minus acquisition cost
+**Includes:** All subscription payments, one-time purchases, upgrades
+**Excludes:** Refunds, chargebacks, failed payments
+**Calculation:** `AVERAGE(total_revenue_per_user - acquisition_cost)`
+```
+
+Document these and have team alignment sessions quarterly as you evolve metrics.
+
+## Connecting Dashboards to Decision-Making
+
+Dashboards only matter if they drive decisions. Create decision protocols:
+
+```markdown
+# Growth Dashboard Decision Thresholds
+
+## Weekly Metrics Review
+
+### DAU Growth Alert
+- **Green** (>5% week-over-week): Continue current strategy
+- **Yellow** (0-5% growth): Investigate new channels, increase marketing spend
+- **Red** (<0% growth): Emergency meeting, pivot strategy immediately
+
+### Conversion Rate Alert
+- **Above 8%**: Consider raising prices or restricting features
+- **5-8%**: Optimal range, maintain experiments
+- **Below 5%**: Debug onboarding funnel, conduct user interviews
+
+### Churn Alert
+- **Below 2%**: Healthy, focus on growth
+- **2-5%**: Investigate causes, create retention experiment
+- **Above 5%**: Product emergency, all-hands on retention
+
+## Monthly Business Review
+
+### Metrics to Review
+1. Actual vs. forecast (previous month's projection)
+2. Cohort health (are new users better than old ones?)
+3. Channel effectiveness (CAC and LTV by source)
+4. Upcoming risks (leading indicators of churn)
+
+### Decision Framework
+- If LTV/CAC ratio > 3: Increase marketing spend
+- If LTV/CAC ratio < 2: Reduce spending, improve product
+- If churn accelerating: Pause growth, focus on retention
+```
+
+## Avoiding Common Growth Team Dashboard Mistakes
+
+**Mistake 1: Too Many Metrics**
+A four-person team should track 8-12 metrics maximum. Each additional metric adds cognitive load. Ruthlessly prioritize.
+
+**Mistake 2: Vanity Metrics**
+Avoid metrics that go up when the business is unhealthy:
+- Page views (users scroll more but engage less)
+- Signups (if conversion rate is terrible)
+- Free trial users (if conversion is zero)
+
+**Mistake 3: Lagged Data**
+Growth decisions need current data. If your dashboards update weekly, you miss rapid changes. Commit to daily refreshes minimum, hourly if possible.
+
+**Mistake 4: No Context**
+Raw numbers mean nothing. Every metric needs:
+- Historical trend (how does it compare to last month/quarter?)
+- Context (did we change pricing/marketing/product this week?)
+- Owner (who's responsible for this metric?)
+
+**Mistake 5: Unactionable Alerts**
+If an alert goes off, someone must know what to do. Document the action protocol for every alert.
+
+## Scaling the Dashboard as You Grow
+
+As your team grows from 4 to 8 to 15 people:
+
+**4 people:** One shared dashboard, shared metrics definition, weekly syncs
+**8 people:** Separate dashboards by role (marketing, product, exec), still shared numbers
+**15+ people:** Multiple dashboards by function, but aligned on company North Star
+
+Revisit your tooling decision at each stage. Metabase that worked for 4 people may need Looker-like features at scale.
+
+## Real-World Implementation Timeline
+
+**Week 1:** Set up database tables, connect Metabase, build basic daily metrics dashboard
+**Week 2:** Add conversion funnel, share with team, establish weekly review cadence
+**Week 3:** Build cohort dashboard, create metric definitions document
+**Week 4:** Establish decision protocols, create alerts, optimize dashboard performance
+**Month 2:** Advanced features (segmentation, experiments, forecasting)
+
+Start simple. Add sophistication as your team develops dashboard literacy.
 
 ## Related Articles
 

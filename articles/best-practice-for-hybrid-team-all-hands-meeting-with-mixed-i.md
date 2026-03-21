@@ -238,6 +238,228 @@ At minimum: one dedicated room laptop, one external USB conference microphone (s
 **How do you handle time zone conflicts for global teams?**
 Record every session and provide an async participation window — typically 72 hours — where remote attendees can submit questions and reactions. Rotate meeting times quarterly so no single time zone consistently bears the early morning or late evening burden.
 
+## Advanced Hybrid Meeting Dynamics
+
+### Handling the "Speaker Dominance" Problem
+
+In hybrid settings, in-person participants naturally dominate. Combat this with deliberate facilitation:
+
+```markdown
+# Hybrid Meeting Facilitation Protocol
+
+## Before the Meeting
+- Brief all in-person attendees: "This is a hybrid meeting, treat remote as equals"
+- Set chat expectations: Remote participants asked to use chat for questions
+- Arrange seating: Speakers should face camera, not turn backs
+
+## During the Meeting
+
+### Recognition System
+- **In-person:** Raise hand physically
+- **Remote:** React button or Slack emoji (hand raise) in meeting chat
+- **Moderator:** Call on both equally, alternating turns
+
+### Question Management
+- Direct questions from remote participants read aloud by moderator
+- Wait for remote reaction before moving on (2-3 second pause)
+- "Any remote participants before we move on?"
+
+### Visual Communication
+When presenting:
+- Share your screen rather than pointing at physical whiteboard
+- Narrate what you're pointing at ("clicking on the blue button here")
+- Avoid saying "this one" without explanation
+- Use large fonts (16pt minimum for code, 20pt for diagrams)
+
+### Chat Monitoring
+- Designate someone to monitor chat
+- Surface important questions to the group immediately
+- Mark off-topic comments as "parking lot items" for async discussion
+```
+
+### Technical Setup Validation Scripts
+
+Automate meeting room validation before all-hands:
+
+```bash
+#!/bin/bash
+# Pre-meeting hybrid room checklist
+
+echo "=== HYBRID MEETING ROOM PRE-CHECK ==="
+
+# Camera test
+echo "Testing camera..."
+ffmpeg -f avfoundation -list_devices short 2>&1 | grep -i "camera" || echo "WARNING: Camera not detected"
+
+# Microphone test
+echo "Testing microphone..."
+ffmpeg -f avfoundation -list_devices short 2>&1 | grep -i "audio" || echo "WARNING: Microphone not detected"
+
+# Network test
+echo "Testing network connection..."
+ping -c 1 -t 2 meet.google.com > /dev/null && echo "✓ Network OK" || echo "WARNING: Network issues"
+
+# Display test
+echo "Testing display configuration..."
+xrandr --query | grep "connected" | wc -l | awk '{
+  if ($1 >= 1) print "✓ Display detected"
+  else print "WARNING: No display detected"
+}'
+
+# Audio latency test
+echo "Testing audio latency..."
+sox -n synth 0.5 sine 1000 -p | sox - -t .wav - reverb | sox - -t .wav -d reverb 2>/dev/null && echo "✓ Audio latency acceptable"
+
+echo ""
+echo "=== PRE-CHECK COMPLETE ==="
+echo "If any tests failed, investigate before the meeting starts."
+```
+
+Run this 15 minutes before each all-hands.
+
+## Remote Participant Accessibility Enhancements
+
+Go beyond minimum requirements to truly include remote participants:
+
+| Accessibility Feature | Implementation | Effort |
+|----------------------|-----------------|--------|
+| CART (Real-time captions) | Use Google Meet native captions or hire CART service | Low-High |
+| ASL interpreter | Hire external service, arrange off-screen positioning | High |
+| Breakout room access | Ensure remote participants can lead breakout discussions | Medium |
+| Screen reader compatibility | Test shared slides with accessibility tools | Low |
+| Transcript with timestamps | Run automated transcription, manually correct | Low |
+| Post-meeting summaries | Create detailed written summaries within 24 hours | Medium |
+
+Implement these progressively. Start with captions (most impactful), add others based on team feedback.
+
+## Engagement Metrics for Hybrid Meetings
+
+Track whether hybrid setup is actually working:
+
+```python
+class HybridMeetingMetrics:
+    def calculate_participation_equity(self, meeting_data):
+        """
+        Measure speaking time equity between in-person and remote.
+        Goal: <15% difference in speaking time.
+        """
+        in_person_seconds = sum(
+            speaker['duration'] for speaker in meeting_data
+            if speaker['location'] == 'in_person'
+        )
+        remote_seconds = sum(
+            speaker['duration'] for speaker in meeting_data
+            if speaker['location'] == 'remote'
+        )
+
+        total = in_person_seconds + remote_seconds
+        if total == 0:
+            return 0
+
+        in_person_pct = (in_person_seconds / total) * 100
+        remote_pct = (remote_seconds / total) * 100
+
+        return abs(in_person_pct - remote_pct)
+
+    def calculate_chat_engagement(self, chat_messages):
+        """
+        Measure whether remote participants use chat actively
+        (suggesting they feel safe asking questions).
+        """
+        remote_messages = sum(
+            1 for msg in chat_messages
+            if msg['participant_type'] == 'remote'
+        )
+        total_messages = len(chat_messages)
+
+        return (remote_messages / total_messages * 100) if total_messages > 0 else 0
+
+    def calculate_question_response_time(self, interactions):
+        """
+        Measure time from remote question to answer.
+        Should be <2 minutes for feeling of inclusion.
+        """
+        response_times = []
+        for interaction in interactions:
+            if interaction.get('is_remote_question'):
+                time_to_response = (
+                    interaction['response_timestamp'] - interaction['question_timestamp']
+                )
+                response_times.append(time_to_response.total_seconds())
+
+        avg_response = sum(response_times) / len(response_times) if response_times else 0
+        return avg_response
+
+# After-meeting analysis
+metrics = HybridMeetingMetrics()
+
+# Analyze if participation was truly equitable
+equity = metrics.calculate_participation_equity(meeting_data)
+if equity > 15:
+    print(f"WARNING: Participation imbalanced by {equity:.1f}%")
+    print("Action: Moderator needs to call on remote participants more")
+
+# Check if remote participants felt comfortable asking
+chat_engagement = metrics.calculate_chat_engagement(chat_data)
+if chat_engagement < 20:
+    print(f"Remote chat engagement only {chat_engagement:.1f}%")
+    print("Action: Explicitly invite questions from remote participants")
+
+# Verify response time to remote questions
+avg_response = metrics.calculate_question_response_time(interactions)
+if avg_response > 120:
+    print(f"Remote questions taking {avg_response:.0f} seconds to answer")
+    print("Action: Assign chat monitor to surface remote questions immediately")
+```
+
+Use these metrics to continuously improve your hybrid meeting experience.
+
+## Policy Documentation for Hybrid All-Hands
+
+Codify best practices so they persist:
+
+```markdown
+# Hybrid All-Hands Meeting Standards
+
+## Equipment Standards
+- Minimum: Wide-angle camera (90+ degree FOV), dedicated microphone array
+- Recommended: Multiple cameras for speaker focus + room overview
+- Backup: Mobile phone with stable internet as contingency
+
+## Facilitation Standards
+- All speakers face camera for 30+ seconds when speaking
+- Moderator pauses 3 seconds after each point to allow remote questions
+- Chat monitor surfaces remote questions to speaker immediately
+- Breakout rooms include remote participants as full members
+
+## Accessibility Standards
+- All meetings have real-time captions (Google Meet native or CART)
+- Shared content available to remote participants (screen share, not physical boards)
+- Recordings available within 24 hours with searchable transcripts
+- Monthly ASL interpreter for announcement-heavy all-hands
+
+## Equity Standards
+- Remote speaking time should be 40-60% of total (matching remote headcount percentage)
+- Remote questions should receive same priority as in-person questions
+- Remote participants evaluated equally in follow-up action items
+- Remote attendance never penalized in performance reviews
+```
+
+Post this publicly and train all all-hands facilitators quarterly.
+
+## Troubleshooting Common Hybrid Meeting Failures
+
+When hybrid meetings aren't working, diagnose systematically:
+
+| Problem | Symptom | Solution |
+|---------|---------|----------|
+| Remote isolation | Remote participants muted, no participation | Dedicated chat monitor, cold-call remote participants |
+| Technical issues | Audio delay, video freezing | Pre-test equipment, have backup platform ready |
+| Unclear communication | Remote participants confused by references | Explain context explicitly, avoid inside jokes |
+| Pacing problems | Meeting runs long | Strict timekeeping, eliminate tangents |
+| Information loss | Remote participants miss critical updates | Require written summaries within 24 hours |
+
+After each problem incident, conduct a brief retro and update procedures.
 
 ## Related Articles
 

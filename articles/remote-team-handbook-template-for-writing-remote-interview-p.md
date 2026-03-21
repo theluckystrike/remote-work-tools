@@ -172,6 +172,202 @@ Before publishing your documentation, verify:
 - [ ] Documentation lives in a centralized, searchable location
 - [ ] There's a process for updating questions quarterly
 
+## Advanced Interview Documentation Patterns
+
+### Behavioral Scoring Framework
+
+Move beyond subjective impressions using structured behavioral anchoring:
+
+```markdown
+## STAR Format Scoring Guide
+
+### Situation (Context, background)
+What business context was the candidate working in?
+- Score 0: Skipped or unclear
+- Score 1: Vague context provided
+- Score 2: Clear context with relevant details
+
+### Task (What they owned)
+What specific responsibility or goal did they have?
+- Score 0: No clear responsibility mentioned
+- Score 1: Mentioned responsibility but unclear scope
+- Score 2: Clear ownership of specific measurable goal
+
+### Action (What they did)
+What specific steps did they take?
+- Score 0: Generic or irrelevant actions
+- Score 1: Some specific actions, but reasoning unclear
+- Score 2: Specific, deliberate actions with clear reasoning
+
+### Result (Measurable outcome)
+What happened because of their actions?
+- Score 0: No outcome or negative result
+- Score 1: Minor positive outcome, impact unclear
+- Score 2: Significant measurable impact
+
+### Technical Depth (For engineering roles)
+- Score 0: Can't explain technical decisions
+- Score 1: Explains surface level, unclear on tradeoffs
+- Score 2: Articulates tradeoffs, shows deep understanding
+```
+
+This framework removes interviewer subjectivity while providing structure.
+
+### Remote-Specific Evaluation Criteria
+
+Traditional interview criteria miss remote-specific competencies. Add these:
+
+```markdown
+## Remote Work Competencies
+
+### Self-Direction
+How do candidates manage work without direct supervision?
+- Can they articulate how they stay accountable?
+- Do they ask clarifying questions about expectations?
+- Can they identify when to escalate vs. solve independently?
+
+### Async Communication
+How do they handle delayed communication?
+- Provide an example of a complex idea you had to explain in writing
+- How do you ensure understanding without immediate feedback?
+- How do you feel about recorded updates vs. live discussions?
+
+### Time Zone Flexibility
+How adaptable are they?
+- Can they articulate working across multiple time zones?
+- Are they willing to shift working hours occasionally?
+- How do they handle scheduling complexity?
+
+### Written Documentation
+Writing becomes critical in remote settings.
+- Can they write clear, concise explanations?
+- Do they over-document or under-document?
+- Can they structure written information logically?
+```
+
+### Interview Process Optimization
+
+Reduce hiring time while maintaining quality through sequential elimination:
+
+```markdown
+## Three-Stage Pipeline for Remote Engineering Roles
+
+### Stage 1: Code Review (24 hours, async)
+- Send short coding challenge (not live coding)
+- Provide 48 hours to complete
+- Evaluate on code clarity, not speed
+- **Pass rate target**: 40% proceed to Stage 2
+
+### Stage 2: System Design Brief (30 min, sync)
+- Short design exercise related to actual work
+- Focus on communication over perfect design
+- Assess ability to justify tradeoffs
+- **Pass rate target**: 50% proceed to Stage 3
+
+### Stage 3: Culture + Experience (45 min, sync)
+- Deep dive into past projects
+- Assess async communication samples
+- Team culture fit discussion
+- Final decision stage
+```
+
+This pipeline filters candidates efficiently without wasting advanced stages on those lacking fundamentals.
+
+## Template Management and Versioning
+
+As your organization grows, interview templates evolve. Implement change management:
+
+```python
+#!/usr/bin/env python3
+"""Interview process version control system."""
+
+from datetime import datetime
+from dataclasses import dataclass
+import json
+
+@dataclass
+class InterviewProcessVersion:
+    version: str
+    date: str
+    role: str
+    changes: list
+    approved_by: str
+
+    def to_dict(self):
+        return {
+            "version": self.version,
+            "date": self.date,
+            "role": self.role,
+            "changes": self.changes,
+            "approved_by": self.approved_by
+        }
+
+class InterviewProcessHistory:
+    def __init__(self, role: str):
+        self.role = role
+        self.versions = []
+        self.current_version = None
+
+    def add_version(self, changes: list, approved_by: str):
+        """Record process changes."""
+        version = f"v{len(self.versions) + 1}"
+        new_version = InterviewProcessVersion(
+            version=version,
+            date=datetime.now().isoformat(),
+            role=self.role,
+            changes=changes,
+            approved_by=approved_by
+        )
+        self.versions.append(new_version)
+        self.current_version = new_version
+        return version
+
+    def changelog(self):
+        """Return formatted changelog for team visibility."""
+        changelog = f"# {self.role} Interview Process Changelog\n\n"
+        for v in reversed(self.versions):
+            changelog += f"## {v.version} ({v.date})\n"
+            changelog += f"Approved by: {v.approved_by}\n\n"
+            for change in v.changes:
+                changelog += f"- {change}\n"
+            changelog += "\n"
+        return changelog
+
+# Usage
+engineering_interviews = InterviewProcessHistory("Senior Backend Engineer")
+
+# Version 1.0: Initial process
+engineering_interviews.add_version([
+    "Added async coding challenge as Stage 1",
+    "Reduced interview count from 4 to 3 stages",
+    "Added remote-work competency questions"
+], "hiring@company.com")
+
+# Version 1.1: Refinement after first month
+engineering_interviews.add_version([
+    "Extended time for coding challenge from 24h to 48h",
+    "Added system design specificity based on actual team needs",
+    "Changed Stage 3 from generic culture to async communication focus"
+], "hiring@company.com")
+
+print(engineering_interviews.changelog())
+```
+
+Track these versions in your handbook and rotate out old versions quarterly based on hiring data.
+
+## Measuring Interview Process Effectiveness
+
+Data-driven improvements to your process:
+
+| Metric | Calculation | Target | Action if Missing |
+|--------|-------------|--------|------------------|
+| Time to Hire | Days from application to offer | <21 days | Reduce stages or increase interviewers |
+| Offer Accept Rate | Offers accepted / offers extended | >85% | Improve candidate experience, clarify role |
+| First-Year Retention | New hires still employed after 1 year | >90% | Audit interview accuracy |
+| Interview Consistency | Difference in score between interviewers | <15% | Standardize rubrics, train interviewers |
+| Diversity Metrics | Candidate pool representation | Match community | Audit question bias, expand sourcing |
+
+Review these metrics monthly. When metrics drift, investigate before the problem compounds.
 
 ## Related Articles
 
