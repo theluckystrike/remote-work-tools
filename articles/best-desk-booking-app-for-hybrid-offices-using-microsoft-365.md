@@ -166,6 +166,38 @@ async function exportBookingMetrics(graphClient, startDate, endDate) {
 }
 ```
 
+## Comparing the Top Desk Booking Apps for Microsoft 365
+
+Not all desk booking platforms integrate with Microsoft 365 at the same depth. Here is how the leading solutions compare across the dimensions that matter most for hybrid offices:
+
+| Platform | M365 SSO | Teams Bot | Outlook Sync | Floor Maps | Azure AD Groups | Price (per desk/mo) |
+|----------|----------|-----------|--------------|------------|-----------------|---------------------|
+| Robin | Yes | Yes | Yes | Yes | Yes | $3–5 |
+| iOffice | Yes | Limited | Yes | Yes | Yes | $4–7 |
+| WhereCloud | Yes | Yes | Yes | Yes | Yes | $2–4 |
+| Condeco | Yes | Yes | Yes | Yes | Yes | $5–8 |
+| Skedda | Yes | No | Yes | Yes | No | $1–3 |
+
+Robin stands out for its mature Teams bot, which lets employees book desks directly within a Teams channel or meeting. WhereCloud offers the best price-to-integration ratio for smaller deployments. Condeco is favored by enterprises with complex compliance requirements, particularly in financial services and healthcare.
+
+## Auto-Release and Ghost Desk Prevention
+
+One of the most impactful features available in M365-integrated desk booking systems is automatic desk release. When an employee marks a day as remote work in Outlook or declines a calendar invite for an in-office meeting, the desk booking platform can detect this signal and release the reservation automatically.
+
+Configure this behavior using a Teams presence webhook:
+
+```python
+async def handle_presence_change(user_id: str, presence_status: str):
+    """Release desk booking if user goes remote unexpectedly"""
+    if presence_status in ["Away", "BeRightBack", "Offline"]:
+        active_booking = await get_active_desk_booking(user_id)
+        if active_booking and not active_booking.checked_in:
+            await release_desk(active_booking.desk_id)
+            await notify_user(user_id, "Your desk has been released due to detected remote status.")
+```
+
+Ghost desks—reserved but unused workspaces—cost organizations real money. In a 200-person hybrid office where 30% of daily bookings go unused, that translates to wasted facility costs and employees unable to find available desks. Auto-release logic directly addresses this operational drain.
+
 ## Implementation Considerations
 
 ### Security and Permissions
@@ -217,6 +249,17 @@ Organizations with existing on-premises infrastructure often deploy hybrid desk 
 
 This pattern keeps sensitive booking data on-premises while using Microsoft 365 for identity and calendar integration.
 
+## Rollout Strategy for Hybrid Offices
+
+A phased rollout reduces adoption friction and gives facilities teams time to tune configuration before full deployment.
+
+**Phase 1 — Pilot (weeks 1–2):** Enable the platform for one department or floor. Collect usage data, identify configuration gaps, and refine the desk map before expanding.
+
+**Phase 2 — Soft launch (weeks 3–4):** Expand to all floors but keep bookings optional. Use this period to promote the Teams bot and Outlook add-in through internal communications. Track adoption rates by department.
+
+**Phase 3 — Full deployment (week 5+):** Make desk booking mandatory for in-office days. Enable auto-release, enforce check-in requirements, and begin pulling Power BI occupancy reports to inform space planning decisions.
+
+Training materials should cover three specific workflows: booking a desk from Teams, booking from Outlook, and canceling a reservation when plans change. Teams that skip training see significantly lower adoption and higher ghost desk rates during the first 90 days.
 
 ## Related Articles
 
