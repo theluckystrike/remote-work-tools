@@ -29,6 +29,8 @@ Client expectations in remote engagements differ significantly from traditional 
 
 The goal is not to communicate more—it is to communicate better at consistent intervals.
 
+Without a defined cadence, the pattern almost always defaults to reactive communication: clients ping when they feel uncertain, project managers scramble to provide updates, and the relationship becomes defined by anxiety rather than trust. A cadence inverts that dynamic. You control the rhythm, which means you control the narrative.
+
 ## The Core Cadence Framework
 
 Every client communication cadence should adapt to the project phase. Here is a baseline structure that works for most remote agency engagements:
@@ -41,6 +43,8 @@ During initial project setup, communication should be frequent but brief:
 - Weekly: 30-minute video call for milestone review
 - End of phase: Written summary document with agreed deliverables
 
+This phase sets expectations for the entire engagement. Clients who get a structured, well-documented kickoff experience are significantly less likely to become micromanagers during active development.
+
 ### Phase 2: Active Development (Weeks 3+)
 
 Once work begins in earnest, shift to a sustainable rhythm:
@@ -49,6 +53,8 @@ Once work begins in earnest, shift to a sustainable rhythm:
 - Weekly: Synchronous sync for blockers and decisions
 - Monthly: Executive summary for stakeholders
 
+The bi-weekly async update carries most of the information load. Written updates allow clients to review details at their own pace and respond without scheduling a call. Reserve synchronous time for decisions that genuinely require real-time discussion.
+
 ### Phase 3: Delivery and Handoff
 
 As projects near completion, increase transparency:
@@ -56,6 +62,8 @@ As projects near completion, increase transparency:
 - Weekly: Demo sessions showing working features
 - Daily: Brief status updates during critical periods
 - Post-launch: Retrospective and ongoing maintenance schedule
+
+The delivery phase often gets chaotic. Predefined communication touchpoints during this period prevent the "radio silence then emergency call" pattern that erodes client confidence at exactly the wrong moment.
 
 ## A Practical Template
 
@@ -90,6 +98,8 @@ Below is a markdown template you can adapt for your client updates. Store this a
 
 This template provides consistency while remaining flexible enough to accommodate different project types.
 
+The "Decisions Needed from Client" section is particularly valuable. It converts vague status updates into action items with a clear owner. Clients who receive this section consistently begin to anticipate it and come to calls prepared—which dramatically reduces the time spent on each synchronous touchpoint.
+
 ## Automating Your Cadence
 
 For power users managing multiple clients, automation reduces cognitive load. Here is a simple Node.js script that generates weekly status report reminders:
@@ -106,7 +116,7 @@ const clients = [
 clients.forEach(client => {
   const [hour, minute] = client.time.split(':');
   const cronExpression = `${minute} ${hour} * * ${getDayNumber(client.day)}`;
-  
+
   cron.schedule(cronExpression, async () => {
     await sendSlackReminder({
       channel: client.channel,
@@ -141,17 +151,46 @@ jobs:
             --label "documentation"
 ```
 
+Beyond simple reminders, you can automate parts of the status report itself. If your team tracks work in Linear or Jira, their APIs can pull completed issues automatically and populate a report draft—leaving you to add qualitative notes rather than reconstruct timelines from memory.
+
 ## Adapting Cadence to Client Type
 
 Not all clients require the same communication intensity. Segment your clients and adjust accordingly:
 
-**High-touch clients** (enterprise, long-term): Full cadence with weekly video calls, monthly executive summaries, and dedicated Slack channels.
+**High-touch clients** (enterprise, long-term): Full cadence with weekly video calls, monthly executive summaries, and dedicated Slack channels. These clients typically have internal stakeholders who need visibility into your work, so your updates often get forwarded up the chain. Write them with that audience in mind.
 
-**Standard clients** (mid-size projects): Bi-weekly async updates with weekly sync calls. Reserve video for demo sessions.
+**Standard clients** (mid-size projects): Bi-weekly async updates with weekly sync calls. Reserve video for demo sessions. This is the right default for most agency engagements—it communicates enough to maintain trust without becoming burdensome.
 
-**Low-touch clients** (maintenance, small projects): Monthly written updates only. Use asynchronous communication as the default.
+**Low-touch clients** (maintenance, small projects): Monthly written updates only. Use asynchronous communication as the default. Proactively reaching out to these clients more than monthly often creates anxiety rather than reassurance—they assume something has gone wrong.
 
 The key principle: match communication frequency to client needs and project complexity, not to your own anxiety about being "present."
+
+## Setting Cadence Expectations at Project Start
+
+The most effective time to establish your cadence is before the project begins—during the proposal or contract phase. Include a "Communication Plan" section in every statement of work that outlines:
+
+- Which updates are async and which require live attendance
+- The standard turnaround time for client responses to decision requests
+- What constitutes a blocker and how blockers get escalated
+- What happens to the timeline when client feedback is delayed
+
+When clients sign off on this section, you transform an informal expectation into an explicit agreement. This single change reduces miscommunication during active work more than any other intervention in the communication process.
+
+Hold a brief onboarding call at project kickoff specifically focused on communication logistics—distinct from the project scope kickoff. Walk through your update template, demonstrate where updates will be posted, and confirm the client has access to the correct Slack channels or project management views. Fifteen minutes spent here prevents dozens of "where do I find the status?" messages later.
+
+## Handling Communication Breakdowns
+
+Even with a defined cadence, clients sometimes go silent, miss scheduled calls, or fail to provide required decisions. Have a protocol ready:
+
+1. First missed sync: Send a brief async recap and reschedule
+2. Decision delay beyond 48 hours: Escalate to a named stakeholder via email with a clear deadline
+3. Repeated non-response: Flag the engagement risk explicitly in your next written update
+
+The escalation email for delayed decisions should be factual and non-accusatory:
+
+> "We're waiting on approval for [X] before proceeding with [Y]. Without a decision by [date], the timeline shifts by approximately [N] days. Please confirm by [date] or let us know who can approve this."
+
+Documentation of these escalations protects your team if timeline disputes arise later.
 
 ## Measuring Cadence Effectiveness
 
@@ -162,7 +201,9 @@ Track these metrics to refine your approach:
 - Blocker resolution time: Are issues being identified and addressed between scheduled syncs?
 - Stakeholder satisfaction: Quarterly surveys on communication clarity
 
-If you find clients consistently asking for more frequent updates, your cadence may be too sparse. If team members feel drowned in status meetings, your cadence is too dense.
+If you find clients consistently asking for more frequent updates, your cadence may be too sparse. If team members feel drowned in status meetings, your cadence is too dense. The ideal cadence produces a specific outcome: clients feel informed, and your team feels focused.
+
+Review your cadence at each project phase transition. What works during discovery is often too intense for steady-state development, and the low-frequency rhythm of active development is almost always wrong for a high-pressure delivery sprint.
 
 ## Related Reading
 
