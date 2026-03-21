@@ -229,7 +229,7 @@ policies: [
   {
     name: "Block malware and phishing",
     enabled: true,
-    threat_categories: ["malware", "phishing", "command-and-control"]
+    threat_categories: [guides]
   },
   {
     name: "Allow business essential",

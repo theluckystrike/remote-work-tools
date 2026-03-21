@@ -346,3 +346,4 @@ time dig google.com @8.8.8.8 +short
 
 - [Remote Work Guides Hub](/remote-work-tools/Remote Work Guides Hub/)
 
+Built by theluckystrike — More at [zovo.one](https://zovo.one)

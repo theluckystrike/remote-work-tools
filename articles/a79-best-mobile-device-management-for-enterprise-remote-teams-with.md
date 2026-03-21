@@ -248,3 +248,5 @@ For most globally distributed teams, there are 0-2 overlap hours. Use async-firs
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
 {% endraw %}
+
+Built by theluckystrike — More at [zovo.one](https://zovo.one)
