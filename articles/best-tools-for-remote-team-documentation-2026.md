@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Remote Team Documentation 2026: Notion vs."
-description: "Compare documentation platforms: Notion, Confluence, GitBook, Slite, Slab. Pricing, search quality, permissions, API access, and async-first features."
+description: "Compare documentation platforms: Notion, Confluence, GitBook, Slite, Slab. Pricing, search quality, permissions, API access, and async-first features"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-remote-team-documentation-tools-2026/

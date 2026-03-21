@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Work Internet Backup Solutions Comparison"
-description: "Compare backup internet solutions: mobile hotspot, Starlink, fixed wireless, dual WAN routers. Pricing, reliability, failover setup for remote workers."
+description: "Compare backup internet solutions: mobile hotspot, Starlink, fixed wireless, dual WAN routers. Pricing, reliability, failover setup for remote workers"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-internet-backup-solutions-comparison/

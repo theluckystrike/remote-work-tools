@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Conflict Resolution Framework Guide"
-description: "Framework for resolving conflicts in distributed remote teams. Covers async escalation paths, mediation tools, and documentation patterns for managers."
+description: "Framework for resolving conflicts in distributed remote teams. Covers async escalation paths, mediation tools, and documentation patterns for managers"
 date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /remote-team-conflict-resolution-framework-guide/

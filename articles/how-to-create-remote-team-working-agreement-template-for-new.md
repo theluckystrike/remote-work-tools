@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Remote Team Working Agreement Template for"
-description: "A practical guide to building a remote team working agreement template. Includes code snippets and examples for developers and power users setting up."
+description: "A practical guide to building a remote team working agreement template. Includes code snippets and examples for developers and power users setting up"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-remote-team-working-agreement-template-for-new/

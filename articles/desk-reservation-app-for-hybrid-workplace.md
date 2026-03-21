@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Desk Reservation App for Hybrid Workplace"
-description: "Build a desk reservation app for hybrid workplace with practical code examples, API integrations, and implementation patterns for developers and power."
+description: "Build a desk reservation app for hybrid workplace with practical code examples, API integrations, and implementation patterns for developers and power"
 date: 2026-03-15
 author: theluckystrike
 permalink: /desk-reservation-app-for-hybrid-workplace/

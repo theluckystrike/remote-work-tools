@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Secure Remote Team CI/CD Pipeline From Supply Chain"
-description: "A practical guide for developers and DevOps teams to protect CI/CD pipelines from supply chain attacks. Includes concrete steps, code examples, and."
+description: "Remote teams rely heavily on automated CI/CD pipelines to ship software efficiently. However, these pipelines represent a significant attack surface that"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-secure-remote-team-ci-cd-pipeline-from-supply-chain-a/

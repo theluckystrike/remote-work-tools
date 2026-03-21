@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Collaboration Suite for a 10 Person Remote Law Firm"
-description: "Find the ideal collaboration suite for a distributed 10-person remote law firm. Compare real-time document management, secure messaging, case."
+description: "Find the ideal collaboration suite for a distributed 10-person remote law firm. Compare real-time document management, secure messaging, case"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-collaboration-suite-for-a-10-person-remote-law-firm/

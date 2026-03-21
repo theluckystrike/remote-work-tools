@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Handle Two Factor Authentication Apps When Changing"
-description: "A practical guide for developers and digital nomads on managing 2FA apps when changing SIM cards abroad frequently. Learn backup strategies, recovery."
+description: "A practical guide for developers and digital nomads on managing 2FA apps when changing SIM cards abroad frequently. Learn backup strategies, recovery"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-two-factor-authentication-apps-when-changing-s/

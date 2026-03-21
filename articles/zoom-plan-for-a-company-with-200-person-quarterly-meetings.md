@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Zoom Plan for a Company with 200 Person Quarterly Meetings"
-description: "A practical technical guide for running efficient 200-person quarterly meetings on Zoom. Includes room configuration, automation scripts, and best."
+description: "A practical technical guide for running efficient 200-person quarterly meetings on Zoom. Includes room configuration, automation scripts, and best"
 date: 2026-03-16
 author: theluckystrike
 permalink: /zoom-plan-for-a-company-with-200-person-quarterly-meetings/

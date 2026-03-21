@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quick save script for terminal workflows"
-description: "Learn practical strategies and automation scripts to create a desk-to-kitchen transition that maximizes your lunch break efficiency as a."
+description: "The fastest desk-to-kitchen transitions use three techniques: physical workspace layout that minimizes walking distance, pre-prepared meals that require no"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-quick-desk-to-kitchen-transition-for-remote-pa/

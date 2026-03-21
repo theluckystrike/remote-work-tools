@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Agency Client Communication Cadence Template for"
-description: "A practical guide to building sustainable client communication workflows for remote agencies. Includes templates, code examples, and automation tips."
+description: "A practical guide to building sustainable client communication workflows for remote agencies. Includes templates, code examples, and automation tips"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-agency-client-communication-cadence-template-for-proj/

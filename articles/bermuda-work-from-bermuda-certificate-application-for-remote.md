@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Bermuda Work From Bermuda Certificate"
-description: "Bermuda Work From Bermuda Certificate: Application Guide. — practical guide for remote teams and distributed workers with tools, tips, and workflows."
+description: "Bermuda Work From Bermuda Certificate: Application Guide. — practical guide for remote teams and distributed workers with tools, tips, and workflows"
 date: 2026-03-16
 author: theluckystrike
 permalink: /bermuda-work-from-bermuda-certificate-application-for-remote/

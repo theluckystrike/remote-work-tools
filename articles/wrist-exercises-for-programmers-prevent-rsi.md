@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Wrist Exercises for Programmers"
-description: "Practical wrist exercises and habits to prevent RSI for programmers and power users. Includes shell scripts and Python code for break reminders and."
+description: "Repetitive Strain Injury (RSI) is one of the most common occupational hazards for developers. Hours of typing, mouse navigation, and repetitive motions take a"
 date: 2026-03-15
 author: theluckystrike
 permalink: /wrist-exercises-for-programmers-prevent-rsi/

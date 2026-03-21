@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "SaaS Side Project Guide for Freelance Developers"
-description: "A practical guide for freelance developers looking to build and launch their own SaaS side projects. Learn validation strategies, tech stack choices."
+description: "A practical guide for freelance developers looking to build and launch their own SaaS side projects. Learn validation strategies, tech stack choices"
 date: 2026-03-15
 author: theluckystrike
 permalink: /saas-side-project-guide-for-freelance-developers/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Whiteboard Tool for Remote Client Brainstorming"
-description: "Discover the best whiteboard tool for remote client brainstorming sessions in 2026. Compare features, real-time collaboration, API access, and."
+description: "Use Miro for API-driven integration and extensive templates, FigJam for lightweight collaboration with Figma integration, or Mural if you prefer a simpler"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-whiteboard-tool-for-remote-client-brainstorming-session/

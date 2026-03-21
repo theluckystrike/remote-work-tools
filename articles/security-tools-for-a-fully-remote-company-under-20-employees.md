@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Security Tools for a Fully Remote Company Under 20 Employees"
-description: "A practical guide to security tools for small fully remote companies. Learn about VPN alternatives, password managers, 2FA, endpoint protection, and."
+description: "Running security for a sub-20 person remote company means you cannot afford enterprise-scale solutions with enterprise-scale price tags. You also cannot rely"
 date: 2026-03-16
 author: theluckystrike
 permalink: /security-tools-for-a-fully-remote-company-under-20-employees/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Hybrid Work Culture Building Strategies Guide"
-description: "A practical guide to building and maintaining strong team culture in hybrid work environments. Includes code snippets and actionable strategies for."
+description: "Hybrid work culture breaks down when in-office employees accumulate more information, opportunities, and social capital than remote team members. The fix is"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /hybrid-work-culture-building-strategies-guide/

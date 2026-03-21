@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Code Review Process Without Zoom Calls Step by Step"
-description: "A practical guide to implementing async code reviews for remote teams. Learn how to replace synchronous review meetings with efficient asynchronous."
+description: "A practical guide to implementing async code reviews for remote teams. Learn how to replace synchronous review meetings with efficient asynchronous"
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-code-review-process-without-zoom-calls-step-by-step/

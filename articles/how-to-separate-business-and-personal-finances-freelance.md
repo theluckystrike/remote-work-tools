@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Separate Business and Personal Finances as a"
-description: "A practical guide for developers and power users to cleanly separate business and personal finances. Includes CLI tools, automation scripts, and."
+description: "Running your own business means every financial decision lands on your desk. When you're a freelance developer, the line between 'buying a new laptop for"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-separate-business-and-personal-finances-freelance/

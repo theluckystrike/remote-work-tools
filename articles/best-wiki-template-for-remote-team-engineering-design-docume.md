@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Wiki Template for Remote Team Engineering Design"
-description: "Discover the most effective wiki template for engineering design documents that works with async review workflows for distributed teams. Includes."
+description: "Discover the most effective wiki template for engineering design documents that works with async review workflows for distributed teams. Includes"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-wiki-template-for-remote-team-engineering-design-docume/

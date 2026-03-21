@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create a Morning Routine for Remote Work"
-description: "Build a productive morning routine tailored for remote developers. Practical automation scripts, time-blocking strategies, and habit stacking techniques."
+description: "Build a productive morning routine tailored for remote developers. Practical automation scripts, time-blocking strategies, and habit stacking techniques"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-create-morning-routine-for-remote-work/

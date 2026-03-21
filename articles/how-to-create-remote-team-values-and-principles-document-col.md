@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Remote Team Values and Principles Document"
-description: "A practical guide for developers and power users on building remote team values and principles through collaborative processes. Includes templates."
+description: "A practical guide for developers and power users on building remote team values and principles through collaborative processes. Includes templates"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-remote-team-values-and-principles-document-col/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Build Async Feedback Culture on a Fully Remote Team"
-description: "A practical guide to establishing async feedback culture in fully remote teams. Learn frameworks, tools, and code examples for giving and receiving."
+description: "A practical guide to establishing async feedback culture in fully remote teams. Learn frameworks, tools, and code examples for giving and receiving"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-build-async-feedback-culture-on-a-fully-remote-team/

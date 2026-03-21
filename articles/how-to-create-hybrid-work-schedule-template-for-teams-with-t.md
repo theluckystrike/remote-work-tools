@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Simple assignment: rotate through combinations"
-description: "A practical guide for developers and power users building a hybrid work schedule template with three office days, including rotation patterns."
+description: "A practical guide for developers and power users building a hybrid work schedule template with three office days, including rotation patterns"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-create-hybrid-work-schedule-template-for-teams-with-t/

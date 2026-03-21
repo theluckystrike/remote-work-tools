@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Linear vs Shortcut for a Remote Startup of 8 Engineers"
-description: "A practical comparison of Linear and Shortcut for managing an 8-engineer remote startup. Features, API access, GitHub integration, and implementation."
+description: "A practical comparison of Linear and Shortcut for managing an 8-engineer remote startup. Features, API access, GitHub integration, and implementation"
 date: 2026-03-16
 author: theluckystrike
 permalink: /linear-vs-shortcut-for-a-remote-startup-of-8-engineers/

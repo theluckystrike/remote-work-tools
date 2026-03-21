@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "analyze_review_distribution.py"
-description: "Learn how to measure remote team collaboration effectiveness using actionable metrics, code-based tools, and practical frameworks that go beyond simple."
+description: "Learn how to measure remote team collaboration effectiveness using actionable metrics, code-based tools, and practical frameworks that go beyond simple"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-framework-for-evaluating-remote-team-collaboration-qual/

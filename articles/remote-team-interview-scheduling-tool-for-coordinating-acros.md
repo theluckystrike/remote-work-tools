@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Interview Scheduling Tool for Coordinating"
-description: "A technical guide to building and implementing interview scheduling tools that handle timezone complexity for distributed hiring teams. Includes code."
+description: "A technical guide to building and implementing interview scheduling tools that handle timezone complexity for distributed hiring teams. Includes code"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-interview-scheduling-tool-for-coordinating-acros/

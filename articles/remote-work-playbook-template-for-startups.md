@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Work Playbook Template for Startups"
-description: "A practical remote work playbook template for startups with implementation examples, code snippets, and actionable workflows for engineering teams."
+description: "A practical remote work playbook template for startups with implementation examples, code snippets, and actionable workflows for engineering teams"
 date: 2026-03-15
 author: theluckystrike
 permalink: /remote-work-playbook-template-for-startups/

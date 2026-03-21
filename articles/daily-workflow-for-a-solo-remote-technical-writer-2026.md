@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Daily Workflow for a Solo Remote Technical Writer 2026"
-description: "A practical daily workflow for solo remote technical writers in 2026. Includes time blocking, documentation pipelines, automation scripts, and tools."
+description: "A practical daily workflow for solo remote technical writers in 2026. Includes time blocking, documentation pipelines, automation scripts, and tools"
 date: 2026-03-16
 author: theluckystrike
 permalink: /daily-workflow-for-a-solo-remote-technical-writer-2026/

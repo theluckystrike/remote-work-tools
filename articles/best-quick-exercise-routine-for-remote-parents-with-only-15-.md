@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Quick Exercise Routine for Remote Parents With Only 15"
-description: "Practical 15-minute exercise routines designed for remote working parents who need to squeeze in movement between meetings. No equipment needed."
+description: "Practical 15-minute exercise routines designed for remote working parents who need to squeeze in movement between meetings. No equipment needed"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-quick-exercise-routine-for-remote-parents-with-only-15-/

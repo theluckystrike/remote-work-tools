@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Digital Nomad Packing List for Developers"
-description: "A practical digital nomad packing list for developers covering tech gear, workflow setup, and portable workstation essentials for remote work."
+description: "A practical digital nomad packing list for developers covering tech gear, workflow setup, and portable workstation essentials for remote work"
 date: 2026-03-15
 author: theluckystrike
 permalink: /digital-nomad-packing-list-for-developers/

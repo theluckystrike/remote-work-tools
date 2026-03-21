@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Combat Loneliness as a Digital Nomad"
-description: "Practical strategies and developer tools for fighting isolation while working remotely as a digital nomad. Includes code examples and automation scripts."
+description: "Practical strategies and developer tools for fighting isolation while working remotely as a digital nomad. Includes code examples and automation scripts"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-combat-loneliness-as-a-digital-nomad/

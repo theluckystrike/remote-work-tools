@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "OKR Tracking for a Remote Product Team of 12 People"
-description: "A practical guide to implementing and tracking OKRs for a distributed product team of 12. Includes tooling suggestions, automation examples, and real."
+description: "A practical guide to implementing and tracking OKRs for a distributed product team of 12. Includes tooling suggestions, automation examples, and real"
 date: 2026-03-16
 author: theluckystrike
 permalink: /okr-tracking-for-a-remote-product-team-of-12-people/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Meeting Free Day Policy for Remote Teams Guide"
-description: "A practical guide to implementing meeting free day policies for remote teams. Includes policy templates, scheduling scripts, and developer-focused."
+description: "A practical guide to implementing meeting free day policies for remote teams. Includes policy templates, scheduling scripts, and developer-focused"
 date: 2026-03-15
 author: theluckystrike
 permalink: /meeting-free-day-policy-for-remote-teams-guide/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Cable Management Solutions for Home Office Setup"
-description: "Discover practical cable management solutions for home office setup. Learn techniques, tools, and workflows to organize cables for a cleaner, more."
+description: "Discover practical cable management solutions for home office setup. Learn techniques, tools, and workflows to organize cables for a cleaner, more"
 date: 2026-03-15
 author: theluckystrike
 permalink: /cable-management-solutions-for-home-office-setup/

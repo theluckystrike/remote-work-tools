@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: project-update.yml - Scheduled updates structure"
-description: "Practical strategies for setting clear communication boundaries and managing client expectations when your team works across different time zones."
+description: "Practical strategies for setting clear communication boundaries and managing client expectations when your team works across different time zones"
 date: 2026-03-16
 author: "theluckystrike"
 permalink: /how-to-manage-client-expectations-when-team-works-asynchrono/

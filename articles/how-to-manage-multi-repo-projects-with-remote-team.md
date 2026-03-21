@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Multi-Repo Projects with Remote Team"
-description: "Practical strategies for coordinating codebases across distributed teams. Includes Git workflows, tooling patterns, and automation examples for."
+description: "Start by assigning clear CODEOWNERS per repository, set up a centralized dependency manifest so teams know what breaks when a shared library changes, and"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-multi-repo-projects-with-remote-team/

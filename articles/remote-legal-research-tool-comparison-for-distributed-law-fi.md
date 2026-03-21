@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Legal Research Tool Comparison for Distributed Law"
-description: "A technical comparison of AI-powered legal research tools for distributed law firms. APIs, integrations, pricing, and implementation examples for."
+description: "Distributed law firms face unique challenges when it comes to legal research. Team members work across different time zones, need secure access to sensitive"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-legal-research-tool-comparison-for-distributed-law-fi/

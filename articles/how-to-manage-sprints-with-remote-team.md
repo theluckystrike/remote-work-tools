@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Sprints with Remote Team: A Practical"
-description: "Learn practical strategies and code examples for managing sprints with remote development teams. Includes async standups, sprint planning scripts, and."
+description: "- What did you complete?"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-sprints-with-remote-team/

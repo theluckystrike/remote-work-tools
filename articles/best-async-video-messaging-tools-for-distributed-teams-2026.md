@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Async Video Messaging Tools for Distributed Teams 2026"
-description: "Comparison of async video tools including Loom, Codeshot, and workflow integration strategies for eliminating synchronous meetings."
+description: "Comparison of async video tools including Loom, Codeshot, and workflow integration strategies for eliminating synchronous meetings"
 date: 2026-03-20
 author: theluckystrike
 permalink: /best-async-video-messaging-tools-for-distributed-teams-2026/

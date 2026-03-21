@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "ADR Tools for Remote Engineering Teams"
-description: "Discover practical ADR tools for remote engineering teams. Compare solutions with code examples, API integrations, and implementation patterns for."
+description: "Use Log4brains if you want ADRs stored directly in your codebase with a browsable web interface, Notion if your team already documents there and needs"
 date: 2026-03-15
 author: theluckystrike
 permalink: /adr-tools-for-remote-engineering-teams/

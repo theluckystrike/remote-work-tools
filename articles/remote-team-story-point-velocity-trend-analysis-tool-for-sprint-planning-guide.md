@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Story Point Velocity Trend Analysis Tool for"
-description: "A practical guide for remote engineering teams on implementing story point velocity trend analysis. Learn how to track, analyze, and use velocity."
+description: "A practical guide for remote engineering teams on implementing story point velocity trend analysis. Learn how to track, analyze, and use velocity"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-story-point-velocity-trend-analysis-tool-for-sprint-planning-guide/

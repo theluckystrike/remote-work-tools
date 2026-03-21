@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Write Good Remote Meeting Agendas"
-description: "Learn how to write effective meeting agendas for remote teams. Includes templates, code snippets for automation, and practical examples for developers."
+description: "Learn how to write effective meeting agendas for remote teams. Includes templates, code snippets for automation, and practical examples for developers"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-good-remote-meeting-agendas/

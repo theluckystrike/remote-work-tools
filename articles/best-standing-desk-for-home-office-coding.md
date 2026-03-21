@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Standing Desk for Home Office Coding"
-description: "A practical guide to selecting the best standing desk for home office coding. Learn about desk types, height adjustment mechanisms, and how to."
+description: "The best standing desk for home office coding is a dual-motor electric sit-stand desk with memory presets, a minimum 60-inch desktop, and a weight capacity"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-standing-desk-for-home-office-coding/

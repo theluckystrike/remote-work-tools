@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Contract Templates for Freelance Developers"
-description: "Find practical contract templates for freelance developers with code examples, clauses, and legal frameworks to protect your work."
+description: "Find practical contract templates for freelance developers with code examples, clauses, and legal frameworks to protect your work"
 date: 2026-03-15
 author: theluckystrike
 permalink: /best-contract-templates-for-freelance-developers/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Trigger BambooHR onboarding workflow via API"
-description: "A technical comparison of onboarding platforms designed for high-volume remote hiring. Features, APIs, automation capabilities, and integration."
+description: "A technical comparison of onboarding platforms designed for high-volume remote hiring. Features, APIs, automation capabilities, and integration"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-onboarding-platform-for-remote-companies-processing-mor/

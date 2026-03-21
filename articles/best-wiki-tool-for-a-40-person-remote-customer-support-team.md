@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Wiki Tool for a 40-Person Remote Customer Support Team"
-description: "Find the best wiki tool for a 40-person remote customer support team. Compare solutions with implementation examples, API integrations, and practical."
+description: "Find the best wiki tool for a 40-person remote customer support team. Compare solutions with implementation examples, API integrations, and practical"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-wiki-tool-for-a-40-person-remote-customer-support-team/

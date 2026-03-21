@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tool for Remote Team Capacity Planning When Scaling"
-description: "Discover the best tools and strategies for remote team capacity planning when scaling engineering headcount quarterly in 2026. Practical examples, code."
+description: "Discover the best tools and strategies for remote team capacity planning when scaling engineering headcount quarterly in 2026. Practical examples, code"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-remote-team-capacity-planning-when-scaling-eng/

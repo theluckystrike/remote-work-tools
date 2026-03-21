@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Team Meeting Hygiene When Calendar"
-description: "Learn practical strategies to combat calendar bloat and maintain meeting hygiene as your remote team scales. Includes code snippets and automation."
+description: "Learn practical strategies to combat calendar bloat and maintain meeting hygiene as your remote team scales. Includes code snippets and automation"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-meeting-hygiene-when-calendar-/

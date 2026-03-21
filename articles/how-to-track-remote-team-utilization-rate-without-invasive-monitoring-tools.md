@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Track Remote Team Use Rate Without Invasive"
-description: "Learn practical methods to track remote team use rate without invasive surveillance. Includes code examples, GitHub integration patterns, and."
+description: "Tracking team use in remote environments presents a genuine challenge for engineering managers and team leads. You need visibility into whether work is"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/

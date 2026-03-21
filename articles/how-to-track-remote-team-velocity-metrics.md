@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Track Remote Team Velocity Metrics"
-description: "Learn practical methods for tracking remote team velocity metrics. Discover code examples, calculation approaches, and tools for measuring developer."
+description: "Learn practical methods for tracking remote team velocity metrics. Discover code examples, calculation approaches, and tools for measuring developer"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-track-remote-team-velocity-metrics/

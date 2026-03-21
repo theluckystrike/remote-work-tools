@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Education Plagiarism Detection Tool Comparison for"
-description: "Compare top plagiarism detection tools for online courses in 2026. Includes API integrations, code examples, and implementation patterns for developers."
+description: "Compare top plagiarism detection tools for online courses in 2026. Includes API integrations, code examples, and implementation patterns for developers"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-education-plagiarism-detection-tool-comparison-for-online-course-instructors/

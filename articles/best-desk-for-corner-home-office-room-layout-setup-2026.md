@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Desk for Corner Home Office Room Layout Setup 2026"
-description: "A practical guide to choosing the best desk for corner home office room layouts. Features, space optimization, and setup tips for developers and power."
+description: "A practical guide to choosing the best desk for corner home office room layouts. Features, space optimization, and setup tips for developers and power"
 date: 2026-03-16
 author: "theluckystrike"
 permalink: /best-desk-for-corner-home-office-room-layout-setup-2026/

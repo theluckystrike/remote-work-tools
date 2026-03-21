@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Architecture Collaboration Tool for Distributed"
-description: "A practical guide to remote architecture collaboration tools for distributed teams doing CAD review. Learn about real-time synchronization, version."
+description: "A practical guide to remote architecture collaboration tools for distributed teams doing CAD review. Learn about real-time synchronization, version"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-architecture-collaboration-tool-for-distributed-teams/

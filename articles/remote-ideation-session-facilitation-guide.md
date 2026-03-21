@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Ideation Session Facilitation Guide"
-description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples."
+description: "A practical guide to running effective remote ideation sessions for developers and power users. Learn help techniques, tools, and code examples"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-ideation-session-facilitation-guide/

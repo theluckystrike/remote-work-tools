@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Employee Time Zone Overlap Optimization Tool"
-description: "Learn how to build and use a time zone overlap optimization tool to schedule meetings across distributed remote teams efficiently."
+description: "Learn how to build and use a time zone overlap optimization tool to schedule meetings across distributed remote teams efficiently"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-employee-time-zone-overlap-optimization-tool-for-sche/

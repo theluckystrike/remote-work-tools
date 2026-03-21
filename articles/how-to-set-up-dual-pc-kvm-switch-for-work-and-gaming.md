@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Dual PC KVM Switch for Work and Gaming"
-description: "A practical guide for developers and power users setting up a dual PC KVM switch. Covers hardware selection, cable management, software configuration."
+description: "A practical guide for developers and power users setting up a dual PC KVM switch. Covers hardware selection, cable management, software configuration"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-dual-pc-kvm-switch-for-work-and-gaming/

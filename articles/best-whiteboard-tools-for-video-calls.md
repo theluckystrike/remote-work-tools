@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Whiteboard Tools for Video Calls"
-description: "A practical guide to the best whiteboard tools for video calls, tailored for developers and power users who need real-time collaboration."
+description: "A practical guide to the best whiteboard tools for video calls, tailored for developers and power users who need real-time collaboration"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-whiteboard-tools-for-video-calls/

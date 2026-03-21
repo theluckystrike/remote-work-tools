@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Check your router's current firmware version"
-description: "A practical guide for developers and power users to secure home WiFi networks when accessing company resources. Includes configuration examples and."
+description: "When developers and power users work remotely, they frequently access sensitive company infrastructure from home networks. Unlike corporate environments with"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-secure-remote-employee-home-wifi-network-for-company-data/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Pink noise filter approximation"
-description: "Technical guide to blocking toddler noise during remote work. Compare hardware solutions, build custom white noise generators with code, and optimize."
+description: "Technical guide to blocking toddler noise during remote work. Compare hardware solutions, build custom white noise generators with code, and optimize"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-white-noise-machine-for-home-office-blocking-toddler-no/

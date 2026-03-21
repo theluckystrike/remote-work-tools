@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Remote Team Onboarding Automation 2026"
-description: "Compare BambooHR, Gusto, Rippling, Process Street, and Trainual for remote onboarding. Pricing, automation features, integration, and checklist templates."
+description: "Compare BambooHR, Gusto, Rippling, Process Street, and Trainual for remote onboarding. Pricing, automation features, integration, and checklist templates"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-team-onboarding-automation-2026/

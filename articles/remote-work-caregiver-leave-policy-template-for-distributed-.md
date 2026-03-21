@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Work Caregiver Leave Policy Template for Distributed"
-description: "A caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents."
+description: "A caregiver leave policy template designed for distributed companies supporting employees balancing work, children, and aging parents"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-work-caregiver-leave-policy-template-for-distributed-/

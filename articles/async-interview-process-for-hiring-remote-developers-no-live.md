@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Interview Process for Hiring Remote Developers No Live"
-description: "A practical guide to building a fully asynchronous interview process for hiring remote developers. Step-by-step framework with templates and examples."
+description: "A practical guide to building a fully asynchronous interview process for hiring remote developers. Step-by-step framework with templates and examples"
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-interview-process-for-hiring-remote-developers-no-live/

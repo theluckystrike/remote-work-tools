@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Async Video Feedback on Creative Work in 2026"
-description: "Discover the top async video feedback tools that help creative teams collaborate effectively without scheduling live meetings."
+description: "Discover the top async video feedback tools that help creative teams collaborate effectively without scheduling live meetings"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 category: async-communication

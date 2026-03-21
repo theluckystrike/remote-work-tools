@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Podcast Guesting Strategy for Freelance Developers"
-description: "A practical guide to appearing as a podcast guest to grow your freelance developer business. Learn outreach, preparation, and follow-up strategies with."
+description: "Podcast guesting represents one of the most underutilized marketing channels for freelance developers. While social media and cold emails dominate freelancer"
 date: 2026-03-15
 author: theluckystrike
 permalink: /podcast-guesting-strategy-for-freelance-developers/

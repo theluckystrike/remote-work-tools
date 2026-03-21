@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Project Management for a Solo Developer with 8 Client"
-description: "Practical strategies and tools for managing 8 client projects simultaneously. Learn time-blocking, task isolation, and workflow automation techniques."
+description: "Practical strategies and tools for managing 8 client projects simultaneously. Learn time-blocking, task isolation, and workflow automation techniques"
 date: 2026-03-16
 author: theluckystrike
 permalink: /project-management-for-a-solo-developer-with-8-client-projec/

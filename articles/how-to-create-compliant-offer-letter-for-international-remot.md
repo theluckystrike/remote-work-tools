@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Compliant Offer Letter for International"
-description: "A practical guide to creating legally compliant offer letters for international remote workers. Includes templates, key clauses, and country-specific."
+description: "A practical guide to creating legally compliant offer letters for international remote workers. Includes templates, key clauses, and country-specific"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-create-compliant-offer-letter-for-international-remot/

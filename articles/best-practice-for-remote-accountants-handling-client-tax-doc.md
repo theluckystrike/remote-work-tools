@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Accountants Handling Client Tax"
-description: "A guide to securely handling client tax documents as a remote accountant. Learn about encryption, access controls, file transfer."
+description: "A guide to securely handling client tax documents as a remote accountant. Learn about encryption, access controls, file transfer"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-accountants-handling-client-tax-doc/

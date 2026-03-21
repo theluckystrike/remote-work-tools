@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage a Remote Intern Team of 4 Effectively"
-description: "Practical strategies and tools for leading a distributed intern team. Covers communication protocols, task management, code review processes, and."
+description: "Managing four remote interns requires a different approach than managing senior developers. Interns need more structure, clearer expectations, and more"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-manage-a-remote-intern-team-of-4-effectively/

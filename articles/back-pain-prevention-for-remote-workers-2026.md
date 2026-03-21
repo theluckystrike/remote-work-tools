@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Back Pain Prevention for Remote Workers 2026"
-description: "Practical strategies and code-powered solutions to prevent back pain while working remotely. Learn ergonomic setups, movement routines, and automation."
+description: "Practical strategies and code-powered solutions to prevent back pain while working remotely. Learn ergonomic setups, movement routines, and automation"
 date: 2026-03-15
 author: theluckystrike
 permalink: /back-pain-prevention-for-remote-workers-2026/

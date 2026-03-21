@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ".github/ISSUE_TEMPLATE/oncall-shift.md"
-description: "A practical guide for developers and power users comparing tools and methods to track and balance on-call burden across distributed remote teams."
+description: "A practical guide for developers and power users comparing tools and methods to track and balance on-call burden across distributed remote teams"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-tool-for-tracking-remote-team-on-call-burden-distributi/

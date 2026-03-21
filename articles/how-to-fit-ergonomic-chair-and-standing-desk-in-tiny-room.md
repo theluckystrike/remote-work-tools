@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Fit Ergonomic Chair and Standing Desk in Tiny Room"
-description: "A practical guide for developers on fitting an ergonomic chair and standing desk in a tiny room. Includes measurement strategies, layout patterns, and."
+description: "Use a single motorized sit-stand desk (48 inches wide minimum) with a compact ergonomic chair, placed against the longest wall opposite the door -- this"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-fit-ergonomic-chair-and-standing-desk-in-tiny-room/

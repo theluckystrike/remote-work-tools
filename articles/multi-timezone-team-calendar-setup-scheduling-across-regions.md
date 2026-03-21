@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Multi Timezone Team Calendar Setup Scheduling Across Regions"
-description: "Complete guide to setting up calendars, scheduling tools, and meeting times for distributed teams across 3+ timezones."
+description: "Complete guide to setting up calendars, scheduling tools, and meeting times for distributed teams across 3+ timezones"
 date: 2026-03-20
 author: theluckystrike
 permalink: /multi-timezone-team-calendar-setup-scheduling-across-regions/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Cayman Islands Global Citizen Concierge Program for Remote"
-description: "A practical guide to the Cayman Islands Global Citizen Concierge Program for remote workers. Learn eligibility requirements, application process, tax."
+description: "A practical guide to the Cayman Islands Global Citizen Concierge Program for remote workers. Learn eligibility requirements, application process, tax"
 date: 2026-03-16
 author: theluckystrike
 permalink: /cayman-islands-global-citizen-concierge-program-for-remote-w/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Remote Radiology Reading Station at Home with"
-description: "A technical guide for radiologists and healthcare IT professionals setting up home PACS workstations. Covers hardware requirements, network."
+description: "A technical guide for radiologists and healthcare IT professionals setting up home PACS workstations. Covers hardware requirements, network"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-set-up-remote-radiology-reading-station-at-home-with-/

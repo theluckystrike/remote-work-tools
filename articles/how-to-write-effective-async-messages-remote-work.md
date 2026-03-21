@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Write Effective Async Messages for Remote Work"
-description: "Master async communication in remote work. Learn practical patterns for writing clear, actionable messages that reduce meetings and improve team."
+description: "Master async communication in remote work. Learn practical patterns for writing clear, actionable messages that reduce meetings and improve team"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-write-effective-async-messages-remote-work/

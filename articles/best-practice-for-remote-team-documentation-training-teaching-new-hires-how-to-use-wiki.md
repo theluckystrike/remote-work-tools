@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Page Title"
-description: "A practical guide to training remote team members on wiki documentation systems, with examples and strategies for developer teams."
+description: "A practical guide to training remote team members on wiki documentation systems, with examples and strategies for developer teams"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-documentation-training-teaching-new-hires-how-to-use-wiki/

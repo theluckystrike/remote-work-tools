@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Remote Employee Onboarding Checklist Tool for HR Teams"
-description: "Discover the best remote employee onboarding checklist tool for HR teams in 2026. Compare features, API integrations, and implementation patterns."
+description: "Discover the best remote employee onboarding checklist tool for HR teams in 2026. Compare features, API integrations, and implementation patterns"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-remote-employee-onboarding-checklist-tool-for-hr-teams-/

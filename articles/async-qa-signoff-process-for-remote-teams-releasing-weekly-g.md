@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async QA Signoff Process for Remote Teams Releasing Weekly"
-description: "Learn how to implement an async QA signoff process for remote teams releasing weekly. Practical examples, code snippets, and workflows included."
+description: "Learn how to implement an async QA signoff process for remote teams releasing weekly. Practical examples, code snippets, and workflows included"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /async-qa-signoff-process-for-remote-teams-releasing-weekly-g/

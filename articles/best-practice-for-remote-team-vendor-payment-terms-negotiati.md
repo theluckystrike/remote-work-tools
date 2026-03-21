@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Team Vendor Payment Terms"
-description: "A practical guide to negotiating vendor payment terms for remote teams operating internationally. Learn about currency, contracts, tax compliance, and."
+description: "Negotiate international vendor payment terms by specifying a single invoicing currency (usually USD or EUR), agreeing on who absorbs exchange rate"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-practice-for-remote-team-vendor-payment-terms-negotiati/

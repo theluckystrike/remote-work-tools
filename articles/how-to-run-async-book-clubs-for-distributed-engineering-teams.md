@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Configuration"
-description: "A practical guide for engineering leaders to run effective async book clubs across distributed teams. Learn formats, tools, discussion frameworks, and."
+description: "Running a book club in a distributed engineering team presents unique challenges. Without the luxury of spontaneous hallway conversations or easy after-work"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-async-book-clubs-for-distributed-engineering-teams/

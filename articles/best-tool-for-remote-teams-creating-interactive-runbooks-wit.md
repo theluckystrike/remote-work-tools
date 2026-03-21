@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Migration runbook example structure"
-description: "A practical guide to interactive runbooks with embedded terminal commands for distributed development teams."
+description: "A practical guide to interactive runbooks with embedded terminal commands for distributed development teams"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-tool-for-remote-teams-creating-interactive-runbooks-wit/

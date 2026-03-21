@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Feedback webhook handler"
-description: "Learn how to build an asynchronous customer feedback synthesis workflow that scales across time zones. Practical examples and code snippets for remote."
+description: "Learn how to build an asynchronous customer feedback synthesis workflow that scales across time zones. Practical examples and code snippets for remote"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /async-customer-feedback-synthesis-workflow-for-remote-produc/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Herman Miller vs Steelcase for Home Office"
-description: "Practical comparison of Herman Miller and Steelcase ergonomic chairs for home office setups. Features, ergonomics, and recommendations for developers."
+description: "Practical comparison of Herman Miller and Steelcase ergonomic chairs for home office setups. Features, ergonomics, and recommendations for developers"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /herman-miller-vs-steelcase-for-home-office/

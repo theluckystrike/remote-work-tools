@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "MicroPython code for ESP32 desk sensor node"
-description: "A technical guide to implementing desk sensors for hybrid offices. Covers hardware options, MQTT data pipelines, API integrations, and code examples."
+description: "A technical guide to implementing desk sensors for hybrid offices. Covers hardware options, MQTT data pipelines, API integrations, and code examples"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-desk-sensor-technology-for-hybrid-offices-tracking-real/

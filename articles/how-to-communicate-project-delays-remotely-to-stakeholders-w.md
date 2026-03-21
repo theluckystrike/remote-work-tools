@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Communicate Project Delays Remotely to Stakeholders"
-description: "Learn how to communicate project delays remotely to stakeholders with transparency. Includes templates, code snippets, and best practices for."
+description: "Communicate project delays remotely to stakeholders by providing clear, structured notifications that include what changed, why it happened, your resolution"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /how-to-communicate-project-delays-remotely-to-stakeholders-w/

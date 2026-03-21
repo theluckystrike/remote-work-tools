@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best VPN for Remote Development Teams with Split Tunneling"
-description: "A practical comparison of VPN solutions with split tunneling for remote development teams. Includes configuration examples, performance benchmarks, and."
+description: "Remote development teams have specific networking requirements that differ from typical office workers. You need fast access to GitHub, npm registries, Docker"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-vpn-for-remote-development-teams-with-split-tunneling-2/

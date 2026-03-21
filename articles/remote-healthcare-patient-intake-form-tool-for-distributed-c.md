@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: HIPAA-compliant data handling"
-description: "A technical guide for developers and power users building patient intake solutions for distributed healthcare networks transitioning to paperless."
+description: "A technical guide for developers and power users building patient intake solutions for distributed healthcare networks transitioning to paperless"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /remote-healthcare-patient-intake-form-tool-for-distributed-c/

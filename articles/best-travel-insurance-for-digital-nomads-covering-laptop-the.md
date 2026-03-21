@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Policy comparison scoring for digital nomads"
-description: "A technical guide to travel insurance for digital nomads. Compare coverage for laptop theft, medical emergencies, gear protection, and remote work."
+description: "A technical guide to travel insurance for digital nomads. Compare coverage for laptop theft, medical emergencies, gear protection, and remote work"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-travel-insurance-for-digital-nomads-covering-laptop-the/

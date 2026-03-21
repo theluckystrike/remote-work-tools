@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Reduce Eye Strain as a Remote Developer"
-description: "Practical strategies and tools to reduce eye strain for remote developers. Learn about display settings, lighting, breaks, and coding environment."
+description: "Practical strategies and tools to reduce eye strain for remote developers. Learn about display settings, lighting, breaks, and coding environment"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-reduce-eye-strain-remote-developer/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Decision Making with RFC Documents for Engineering"
-description: "A practical guide to implementing async decision making using RFC documents. Includes templates, workflows, and best practices for distributed."
+description: "A practical guide to implementing async decision making using RFC documents. Includes templates, workflows, and best practices for distributed"
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-decision-making-with-rfc-documents-for-engineering-teams/

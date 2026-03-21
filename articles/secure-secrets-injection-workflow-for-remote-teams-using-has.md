@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Secure Secrets Injection Workflow for Remote Teams Using"
-description: "Learn how to implement secure secrets injection workflows for distributed teams using HashiCorp Vault. Practical examples, code snippets, and."
+description: "Managing secrets across distributed teams presents unique challenges. When developers work from multiple locations, traditional methods like sharing"
 date: 2026-03-16
 author: theluckystrike
 permalink: /secure-secrets-injection-workflow-for-remote-teams-using-has/

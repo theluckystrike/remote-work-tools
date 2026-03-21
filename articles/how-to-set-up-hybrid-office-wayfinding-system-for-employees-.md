@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Set Up Hybrid Office Wayfinding System for Employees"
-description: "A technical guide to building a wayfinding system for hybrid offices that helps infrequent visitors navigate your workplace. Includes code examples."
+description: "A technical guide to building a wayfinding system for hybrid offices that helps infrequent visitors navigate your workplace. Includes code examples"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-wayfinding-system-for-employees-visiting-infrequently-/

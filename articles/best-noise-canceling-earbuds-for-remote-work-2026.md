@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Noise Canceling Earbuds for Remote Work 2026"
-description: "Compare noise-canceling earbuds for remote work calls. Reviews AirPods Pro 2, Sony WF-1000XM5, Bose QC Ultra, Samsung Galaxy Buds3 Pro with real specs."
+description: "Compare noise-canceling earbuds for remote work calls. Reviews AirPods Pro 2, Sony WF-1000XM5, Bose QC Ultra, Samsung Galaxy Buds3 Pro with real specs"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-noise-canceling-earbuds-for-remote-work-2026/

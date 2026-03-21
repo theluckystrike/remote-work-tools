@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Upload large file with chunked upload"
-description: "A practical guide to the best file sharing solutions for remote agencies handling large design files, with API examples and implementation tips for."
+description: "Remote design agencies face an unique challenge: moving massive creative assets across distributed teams without bottlenecks. When your team spans multiple"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-file-sharing-solution-for-remote-agency-large-design-fi/

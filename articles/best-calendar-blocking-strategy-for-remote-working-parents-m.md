@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "calendar_manager.py - Manage childcare-aware calendar blocks"
-description: "A practical calendar blocking strategy for remote working parents dealing with childcare gaps. Learn actionable techniques, automation scripts, and."
+description: "The asymmetric blocking framework—creating multiple 90-minute protected blocks with 15-minute buffers instead of hoping for a single 4-hour block—accommodates"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-calendar-blocking-strategy-for-remote-working-parents-m/

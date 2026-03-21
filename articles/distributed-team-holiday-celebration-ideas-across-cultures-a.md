@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Distributed Team Holiday Celebration Ideas Across Cultures"
-description: "Practical strategies and tools for celebrating holidays with remote teams across different cultures and timezones. Includes code examples for."
+description: "Use rotating meeting slots instead of forcing one global time, combine async-first celebrations (music playlists, recipe sharing) with optional real-time"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /distributed-team-holiday-celebration-ideas-across-cultures-a/

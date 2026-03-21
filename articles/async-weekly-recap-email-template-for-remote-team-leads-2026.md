@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Weekly Recap Email Template for Remote Team Leads 2026"
-description: "A guide to async weekly recap emails for remote team leads. Includes templates, best practices, and automation tips for 2026."
+description: "A guide to async weekly recap emails for remote team leads. Includes templates, best practices, and automation tips for 2026"
 date: 2026-03-18
 author: theluckystrike
 permalink: /async-weekly-recap-email-template-for-remote-team-leads-2026/

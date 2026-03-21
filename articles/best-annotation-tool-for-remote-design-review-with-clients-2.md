@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Annotation Tool for Remote Design Review with Clients"
-description: "A practical guide to choosing the best annotation tool for remote design review with clients in 2026, focused on developer workflows and async."
+description: "A practical guide to choosing the best annotation tool for remote design review with clients in 2026, focused on developer workflows and async"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-annotation-tool-for-remote-design-review-with-clients-2/

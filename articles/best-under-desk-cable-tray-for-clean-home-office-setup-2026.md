@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Under Desk Cable Tray for Clean Home Office Setup 2026"
-description: "A practical guide to under desk cable management for developers and power users. Compare tray types, installation methods, and DIY solutions."
+description: "A practical guide to under desk cable management for developers and power users. Compare tray types, installation methods, and DIY solutions"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-under-desk-cable-tray-for-clean-home-office-setup-2026/

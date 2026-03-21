@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Hybrid Office Space Planning Tool for Facilities Managers"
-description: "A technical guide to building desk use tracking systems for hybrid offices. Covers sensor integration, occupancy analytics, API design, and."
+description: "Build a hybrid office space planning tool using pressure sensors, infrared motion sensors, or ultrasonic distance sensors deployed across desks, connected via"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /hybrid-office-space-planning-tool-for-facilities-managers-op/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Benefit request data structure"
-description: "A practical policy template and implementation guide for hybrid teams offering childcare benefits to employees with families. Includes code examples."
+description: "A practical policy template and implementation guide for hybrid teams offering childcare benefits to employees with families. Includes code examples"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /return-to-office-childcare-benefit-policy-template-for-hybri/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Bonding Activities That Actually Work"
-description: "Discover remote team bonding activities that actually work for developer teams. Practical examples, code snippets, and implementation patterns for."
+description: "Remote team bonding often feels forced. Icebreakers that kill conversation, mandatory fun that nobody enjoys, and virtual happy hours where people mute"
 date: 2026-03-15
 author: theluckystrike
 permalink: /remote-team-bonding-activities-that-actually-work/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Remote Work Keyboard for Programmers 2026"
-description: "Compare mechanical keyboards for remote programmers. Reviews Keychron, HHKB, Kinesis Advantage, ZSA Moonlander with real specs and prices."
+description: "Compare mechanical keyboards for remote programmers. Reviews Keychron, HHKB, Kinesis Advantage, ZSA Moonlander with real specs and prices"
 date: 2026-03-21
 author: "Remote Work Tools Guide"
 permalink: /best-remote-work-keyboard-for-programmers-2026/

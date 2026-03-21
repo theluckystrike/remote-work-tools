@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Write Async Daily Logs That Help Future Team Members"
-description: "Learn how to write async daily logs that help future team members understand your work, decisions, and context. Includes templates and best practices."
+description: "Learn how to write async daily logs that help future team members understand your work, decisions, and context. Includes templates and best practices"
 date: 2026-03-18
 author: "Remote Work Tools Guide"
 permalink: /how-to-write-async-daily-logs-that-help-future-team-members/

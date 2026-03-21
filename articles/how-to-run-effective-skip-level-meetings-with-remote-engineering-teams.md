@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Effective Skip Level Meetings with Remote"
-description: "A practical guide for engineering managers on running skip level meetings with remote teams. Includes async preparation, help scripts, and."
+description: "Skip level meetings are one of the most powerful tools in an engineering leader's arsenal. When done well, they uncover blockers that would otherwise stay"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-skip-level-meetings-with-remote-engineering-teams/

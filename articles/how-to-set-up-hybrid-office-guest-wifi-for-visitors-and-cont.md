@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example ndss configuration snippet"
-description: "A practical technical guide for developers and IT administrators to configure secure guest WiFi networks in hybrid offices. Includes network."
+description: "A practical technical guide for developers and IT administrators to configure secure guest WiFi networks in hybrid offices. Includes network"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/

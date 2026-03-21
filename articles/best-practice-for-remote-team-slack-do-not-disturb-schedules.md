@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Practice for Remote Team Slack Do Not Disturb"
-description: "Learn how to configure Slack Do Not Disturb schedules for distributed teams across time zones. Practical examples, automation scripts, and policies for."
+description: "Remote teams spanning multiple time zones face an unique challenge: staying connected without sacrificing work-life balance. Slack's Do Not Disturb (DND)"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-practice-for-remote-team-slack-do-not-disturb-schedules/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Handbook"
-description: "Learn how to structure a remote team handbook table of contents that covers all essential policies. Includes practical examples, code snippets, and."
+description: "Structure your remote handbook with these 10 core sections in order: Welcome & Mission → Communication Norms → Work Schedule & Time Tracking → Performance"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-structure-remote-team-handbook-table-of-contents-cove/

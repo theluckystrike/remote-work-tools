@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "From your local machine with VPN active"
-description: "A practical guide to building incident response runbooks that work across time zones. Includes templates, automation examples, and handover protocols."
+description: "A practical guide to building incident response runbooks that work across time zones. Includes templates, automation examples, and handover protocols"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /remote-team-runbook-creation-guide-for-incident-response-wit/

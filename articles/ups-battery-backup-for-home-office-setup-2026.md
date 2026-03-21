@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "UPS Battery Backup for Home Office Setup 2026"
-description: "A practical guide to UPS battery backup for home office setups in 2026. Learn how to calculate power needs, choose the right UPS, and integrate with."
+description: "Power outages disrupt more than just your workflow—they can corrupt unfinished code, destroy hours of design work, and interrupt critical deployments. For"
 date: 2026-03-15
 author: theluckystrike
 permalink: /ups-battery-backup-for-home-office-setup-2026/

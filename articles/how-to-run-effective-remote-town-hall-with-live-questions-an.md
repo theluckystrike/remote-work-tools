@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Effective Remote Town Hall with Live Questions"
-description: "Learn practical strategies for running effective remote town halls with live Q&A sessions and async follow-up. Includes code examples, tools, and."
+description: "Remote town halls have become a cornerstone of distributed team communication. When executed well, they create alignment, build culture, and give everyone a"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-effective-remote-town-hall-with-live-questions-and-async-follow-up/

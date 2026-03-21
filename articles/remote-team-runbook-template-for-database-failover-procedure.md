@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Team Runbook Template for Database Failover"
-description: "A practical runbook template for database failover procedures designed for remote DevOps teams working across multiple time zones with async."
+description: "A practical runbook template for database failover procedures designed for remote DevOps teams working across multiple time zones with async"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-runbook-template-for-database-failover-procedure/

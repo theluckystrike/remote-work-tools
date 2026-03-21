@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Workshop for Product Managers Defining"
-description: "A practical guide for product managers running remote workshops to define quarterly OKRs. Includes templates, help scripts, and actionable steps."
+description: "A practical guide for product managers running remote workshops to define quarterly OKRs. Includes templates, help scripts, and actionable steps"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-run-remote-workshop-for-product-managers-defining-qua/

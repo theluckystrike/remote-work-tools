@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best eSIM Data Plans for Digital Nomads Working Across"
-description: "A technical guide to eSIM data plans for digital nomads traveling across multiple countries. Compare global coverage, data limits, activation methods."
+description: "A technical guide to eSIM data plans for digital nomads traveling across multiple countries. Compare global coverage, data limits, activation methods"
 date: 2026-03-16
 author: theluckystrike
 permalink: /best-esim-data-plans-for-digital-nomads-working-across-multi/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Batch export all artboards to multiple formats"
-description: "A practical comparison of Figma alternatives for remote UX teams in 2026. Learn which tools integrate with developer workflows and support async."
+description: "A practical comparison of Figma alternatives for remote UX teams in 2026. Learn which tools integrate with developer workflows and support async"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-remote-design-collaboration-tool-for-ux-teams-using-fig/

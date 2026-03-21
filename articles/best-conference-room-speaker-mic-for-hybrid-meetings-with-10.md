@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Calculating appropriate microphone gain"
-description: "A technical comparison of conference room speaker microphone systems optimized for hybrid meetings with 10 in-room participants. Covers audio quality."
+description: "A technical comparison of conference room speaker microphone systems optimized for hybrid meetings with 10 in-room participants. Covers audio quality"
 date: 2026-03-16
 author: "Remote Work Tools Guide"
 permalink: /best-conference-room-speaker-mic-for-hybrid-meetings-with-10/

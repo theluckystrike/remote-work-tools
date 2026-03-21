@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Slite vs Notion for Team Knowledge Base"
-description: "Compare Slite and Notion for building team knowledge bases. Includes practical examples, API integrations, and implementation guidance for developer teams."
+description: "Compare Slite and Notion for building team knowledge bases. Includes practical examples, API integrations, and implementation guidance for developer teams"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /slite-vs-notion-for-team-knowledge-base/

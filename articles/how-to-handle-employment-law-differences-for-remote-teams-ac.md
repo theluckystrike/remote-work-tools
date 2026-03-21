@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Handle Employment Law Differences for Remote Teams"
-description: "A practical guide to navigating employment law variations when managing remote teams across multiple EU countries. Learn compliance requirements."
+description: "A practical guide to navigating employment law variations when managing remote teams across multiple EU countries. Learn compliance requirements"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-employment-law-differences-for-remote-teams-ac/

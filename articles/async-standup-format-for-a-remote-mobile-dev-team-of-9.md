@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Standup Format for a Remote Mobile Dev Team of 9"
-description: "A practical guide to implementing async standups for a 9-person remote mobile development team. Includes templates, tools, and real workflows."
+description: "A practical guide to implementing async standups for a 9-person remote mobile development team. Includes templates, tools, and real workflows"
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-standup-format-for-a-remote-mobile-dev-team-of-9/

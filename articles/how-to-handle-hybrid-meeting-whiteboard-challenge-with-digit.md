@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Handle Hybrid Meeting Whiteboard Challenge with"
-description: "A practical guide for developers and power users on managing hybrid meetings where some participants are in-person while others join remotely, with a."
+description: "Hybrid meetings present an unique challenge when visual collaboration tools like whiteboards are involved. You have participants in a physical room looking at"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Async Standup Alternative Using GitHub Commit Summaries"
-description: "A practical guide to replacing synchronous standups with automated GitHub commit summaries. Learn how to set up workflows that keep remote teams."
+description: "A practical guide to replacing synchronous standups with automated GitHub commit summaries. Learn how to set up workflows that keep remote teams"
 date: 2026-03-16
 author: theluckystrike
 permalink: /async-standup-alternative-using-github-commit-summaries-automatically/

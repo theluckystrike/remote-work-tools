@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Basecamp vs Notion for Remote Team Organization"
-description: "Compare Basecamp and Notion for organizing remote development teams. Includes API integrations, workflow patterns, and practical implementation."
+description: "Compare Basecamp and Notion for organizing remote development teams. Includes API integrations, workflow patterns, and practical implementation"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /basecamp-vs-notion-for-remote-team-organization/

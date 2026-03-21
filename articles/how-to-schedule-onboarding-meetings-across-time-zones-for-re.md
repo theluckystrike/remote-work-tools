@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Find overlapping work hours across three zones"
-description: "A practical guide for developers and power users to schedule onboarding meetings across time zones. Includes tools, strategies, code snippets, and."
+description: "Scheduling onboarding meetings across time zones presents unique challenges for remote teams. When your new hires span San Francisco, London, and Tokyo"
 date: 2026-03-16
 author: theluckystrike
 permalink: /how-to-schedule-onboarding-meetings-across-time-zones-for-re/

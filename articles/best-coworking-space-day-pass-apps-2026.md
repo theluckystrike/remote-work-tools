@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Coworking Space Day Pass Apps 2026"
-description: "Compare coworking apps: Desana, Croissant, Deskpass, LiquidSpace, WeWork On Demand. Pricing, availability, booking features, enterprise plans."
+description: "Compare coworking apps: Desana, Croissant, Deskpass, LiquidSpace, WeWork On Demand. Pricing, availability, booking features, enterprise plans"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-coworking-space-day-pass-apps-2026/

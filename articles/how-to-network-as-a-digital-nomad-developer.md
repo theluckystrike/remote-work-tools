@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Network as a Digital Nomad Developer"
-description: "Learn practical strategies for networking as a digital nomad developer. Discover communities, events, tools, and code-based approaches to build."
+description: "Learn practical strategies for networking as a digital nomad developer. Discover communities, events, tools, and code-based approaches to build"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-network-as-a-digital-nomad-developer/

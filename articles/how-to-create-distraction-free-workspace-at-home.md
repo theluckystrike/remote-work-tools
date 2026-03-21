@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Create Distraction Free Workspace at Home"
-description: "A practical guide for developers and power users to build a distraction-free workspace at home. Includes environmental setup, digital noise reduction."
+description: "A practical guide for developers and power users to build a distraction-free workspace at home. Includes environmental setup, digital noise reduction"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-create-distraction-free-workspace-at-home/

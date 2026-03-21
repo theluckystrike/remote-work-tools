@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Facilitate Engaging Remote Retrospectives"
-description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes help scripts, digital tools, and actionable."
+description: "Learn practical techniques to run engaging remote retrospectives for distributed teams. Includes help scripts, digital tools, and actionable"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-facilitate-engaging-remote-retrospectives/

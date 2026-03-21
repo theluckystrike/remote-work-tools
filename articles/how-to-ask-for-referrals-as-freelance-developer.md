@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Ask for Referrals as a Freelance Developer"
-description: "A practical guide to asking for referrals as a freelance developer. Learn timing, templates, and strategies to grow your client pipeline through."
+description: "A practical guide to asking for referrals as a freelance developer. Learn timing, templates, and strategies to grow your client pipeline through"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-ask-for-referrals-as-freelance-developer/

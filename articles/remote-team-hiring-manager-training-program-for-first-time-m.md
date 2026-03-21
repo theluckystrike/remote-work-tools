@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Example: Finding interview slots across time zones"
-description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code."
+description: "A practical training framework for first-time managers leading hiring in remote and distributed companies. Includes templates, workflows, and code"
 date: 2026-03-16
 author: theluckystrike
 permalink: /remote-team-hiring-manager-training-program-for-first-time-m/

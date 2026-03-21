@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Loom vs Vimeo Record for Async Standup Updates Comparison"
-description: "A technical comparison of Loom and Vimeo Record for creating async standup updates. Recording quality, integrations, sharing workflows, and."
+description: "Async standups have become essential for distributed engineering teams. Instead of synchronous morning meetings, team members record short video updates that"
 date: 2026-03-16
 author: theluckystrike
 permalink: /loom-vs-vimeo-record-for-async-standup-updates-comparison/

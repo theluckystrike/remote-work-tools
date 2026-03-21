@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Remote Work Burnout Prevention Tools Guide"
-description: "Tools and strategies for preventing remote burnout: Reclaim.ai, Clockwise, DeskTime, wellness apps. Pricing, calendar blocking, workload monitoring."
+description: "Tools and strategies for preventing remote burnout: Reclaim.ai, Clockwise, DeskTime, wellness apps. Pricing, calendar blocking, workload monitoring"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /remote-work-burnout-prevention-tools/

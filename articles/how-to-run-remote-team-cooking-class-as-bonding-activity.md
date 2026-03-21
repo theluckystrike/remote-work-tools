@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Run Remote Team Cooking Class as Bonding Activity"
-description: "A practical guide to organizing virtual cooking classes that strengthen team bonds. Learn setup tips, recipe selection, and help techniques for."
+description: "Choose live synchronous cooking with accessible recipes that use common ingredients to maximize bonding across remote teams. Remote teams struggle to create"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /how-to-run-remote-team-cooking-class-as-bonding-activity/

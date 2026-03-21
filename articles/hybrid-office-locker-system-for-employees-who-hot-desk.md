@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Hybrid Office Locker System for Employees Who Hot Desk"
-description: "Build a hybrid office locker system for employees who hot desk with API integrations, access control patterns, and implementation code for developers."
+description: "Build a hybrid office locker system for employees who hot desk with API integrations, access control patterns, and implementation code for developers"
 date: 2026-03-18
 author: theluckystrike
 permalink: /hybrid-office-locker-system-for-employees-who-hot-desk/

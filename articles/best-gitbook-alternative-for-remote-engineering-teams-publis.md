@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best GitBook Alternative for Remote Engineering Teams"
-description: "Discover the best GitBook alternatives for remote engineering teams. Compare solutions with code examples, API integrations, and implementation."
+description: "Discover the best GitBook alternatives for remote engineering teams. Compare solutions with code examples, API integrations, and implementation"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /best-gitbook-alternative-for-remote-engineering-teams-publis/

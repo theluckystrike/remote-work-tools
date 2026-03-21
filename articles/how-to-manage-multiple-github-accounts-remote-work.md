@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Manage Multiple GitHub Accounts for Remote Work"
-description: "Learn practical methods to manage multiple GitHub accounts on one machine using SSH keys and Git configuration. Perfect for developers handling."
+description: "Learn practical methods to manage multiple GitHub accounts on one machine using SSH keys and Git configuration. Perfect for developers handling"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-manage-multiple-github-accounts-remote-work/

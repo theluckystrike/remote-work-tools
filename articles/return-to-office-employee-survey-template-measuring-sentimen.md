@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Return to Office Employee Survey Template"
-description: "A practical guide to building a return to office employee survey with code examples. Measure sentiment, analyze results, and make data-driven decisions."
+description: "A practical guide to building a return to office employee survey with code examples. Measure sentiment, analyze results, and make data-driven decisions"
 date: 2026-03-16
 author: theluckystrike
 permalink: /return-to-office-employee-survey-template-measuring-sentimen/

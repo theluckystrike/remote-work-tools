@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Automate Dev Environment Setup: A Practical Guide"
-description: "A hands-on guide to automating your development environment setup. Learn to use configuration management tools, shell scripts, and containerization to."
+description: "Automate your dev environment setup by writing shell scripts for package installation, using Docker to containerize your runtime, and layering Ansible"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /how-to-automate-dev-environment-setup/

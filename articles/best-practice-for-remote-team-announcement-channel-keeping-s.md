@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "#eng-announcements Channel Guidelines"
-description: "Practical strategies for maintaining high signal-to-noise ratio in remote team announcement channels. Learn channel governance, message frameworks, and."
+description: "Remote team announcement channels maintain high signal-to-noise ratio through clear governance rules, designated channel guardians who enforce standards, and"
 date: 2026-03-16
 author: "Remote Work Tools"
 permalink: /best-practice-for-remote-team-announcement-channel-keeping-s/

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Obsidian vs Logseq for Developer Notes"
-description: "Compare Obsidian and Logseq for managing developer notes. Explore markdown workflows, backlink systems, graph views, and plugin ecosystems to find the."
+description: "Choose Obsidian if you want explicit folder-and-file organization, a massive plugin ecosystem (1,500+ community plugins including Dataview for advanced"
 date: 2026-03-15
 author: "Remote Work Tools Guide"
 permalink: /obsidian-vs-logseq-for-developer-notes/

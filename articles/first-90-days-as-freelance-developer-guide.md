@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "First 90 Days as a Freelance Developer: A Complete Guide"
-description: "A practical roadmap for developers transitioning to freelance work. Covers legal setup, client acquisition, pricing strategies, and building."
+description: "A practical roadmap for developers transitioning to freelance work. Covers legal setup, client acquisition, pricing strategies, and building"
 date: 2026-03-15
 author: theluckystrike
 permalink: /first-90-days-as-freelance-developer-guide/

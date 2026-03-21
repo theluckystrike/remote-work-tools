@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Focus Apps for Remote Workers with ADHD"
-description: "Discover the best focus apps for remote workers with ADHD. Learn about specialized tools, browser extensions, and automation techniques to improve."
+description: "Discover the best focus apps for remote workers with ADHD. Learn about specialized tools, browser extensions, and automation techniques to improve"
 date: 2026-03-15
 author: theluckystrike
 permalink: /focus-apps-for-remote-workers-with-adhd/

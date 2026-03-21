@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Scope Freelance Development Projects"
-description: "Learn how to scope freelance development projects with practical examples, estimation techniques, and code-based deliverables."
+description: "Learn how to scope freelance development projects with practical examples, estimation techniques, and code-based deliverables"
 date: 2026-03-15
 author: theluckystrike
 permalink: /how-to-scope-freelance-development-projects/

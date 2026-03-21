@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Best Tools for Remote Team Retrospectives 2026"
-description: "Compare retro tools: Retrium, EasyRetro, Parabol, Metro Retro, FunRetro. Includes pricing, formats supported, integrations, and async retro capabilities."
+description: "Compare retro tools: Retrium, EasyRetro, Parabol, Metro Retro, FunRetro. Includes pricing, formats supported, integrations, and async retro capabilities"
 date: 2026-03-20
 author: "Remote Work Tools Guide"
 permalink: /best-tools-for-remote-team-retrospectives-2026/
