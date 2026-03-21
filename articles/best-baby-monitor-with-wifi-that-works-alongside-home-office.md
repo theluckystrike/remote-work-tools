@@ -8,7 +8,7 @@ permalink: /best-baby-monitor-with-wifi-that-works-alongside-home-office/
 categories: [guides]
 tags: [remote-work-tools, baby-monitor, wifi, smart-home, home-office, iot, privacy, best-of]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

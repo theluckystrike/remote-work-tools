@@ -8,7 +8,7 @@ permalink: /best-clipboard-manager-for-developers/
 categories: [guides]
 tags: [remote-work-tools, productivity, clipboard-manager, developer-tools, best-of]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
