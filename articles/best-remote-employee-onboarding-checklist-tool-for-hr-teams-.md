@@ -9,7 +9,7 @@ permalink: /best-remote-employee-onboarding-checklist-tool-for-hr-teams-/
 categories: [guides]
 tags: [remote-work-tools, remote-onboarding, hr-tools, employee-onboarding, checklist, best-of, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
