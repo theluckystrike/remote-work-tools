@@ -199,6 +199,151 @@ When implementing geo-fencing access controls, follow these guidelines:
 - **Layer with other controls** - Geo-fencing complements but shouldn't replace authentication, authorization, and encryption
 - **Keep databases updated** - IP geolocation data changes frequently; update your databases regularly
 
+## Handling VPN and Proxy Traffic
+
+VPNs present a significant challenge for geo-fencing implementations. Remote workers legitimately use VPNs for security, but attackers also use them to obscure location. A naive geo-fence that blocks all VPN traffic will create immediate operational friction for the people you're trying to protect.
+
+A more nuanced approach categorizes VPN traffic rather than rejecting it wholesale. Corporate VPN endpoints are known and trustworthy — requests originating from your company's VPN exit nodes should be treated as high-trust regardless of the underlying IP origin. Consumer VPNs and Tor exit nodes are higher risk and warrant additional verification challenges rather than outright denial.
+
+MaxMind's GeoIP2 Precision Insights service includes VPN detection with classification categories: hosting, tor, vpn, residential_proxy. This granularity lets you write policies that distinguish between these cases:
+
+```python
+from enum import Enum
+
+class VPNType(Enum):
+    CORPORATE = "corporate"
+    CONSUMER = "consumer"
+    TOR = "tor"
+    RESIDENTIAL_PROXY = "residential_proxy"
+    UNKNOWN = "unknown"
+
+def classify_vpn(ip_data: dict) -> VPNType:
+    traits = ip_data.get("traits", {})
+    if traits.get("is_tor_exit_node"):
+        return VPNType.TOR
+    if traits.get("is_residential_proxy"):
+        return VPNType.RESIDENTIAL_PROXY
+    if traits.get("is_anonymous_vpn"):
+        # Check against known corporate exit node list
+        if ip_data.get("ip") in CORPORATE_VPN_EXITS:
+            return VPNType.CORPORATE
+        return VPNType.CONSUMER
+    return VPNType.UNKNOWN
+
+def vpn_policy(vpn_type: VPNType) -> AccessDecision:
+    if vpn_type == VPNType.CORPORATE:
+        return AccessDecision.ALLOW
+    if vpn_type == VPNType.TOR:
+        return AccessDecision.DENY
+    if vpn_type in (VPNType.CONSUMER, VPNType.RESIDENTIAL_PROXY):
+        return AccessDecision.CHALLENGE
+    return AccessDecision.ALLOW  # Unknown VPN: allow with logging
+```
+
+Maintaining the `CORPORATE_VPN_EXITS` list requires coordination with your IT team but dramatically reduces false positives for legitimate remote workers.
+
+## Anomaly Detection: Location Velocity Checks
+
+Static geo-fencing based on allowed country lists misses a common attack pattern: credential theft from within an allowed country. A user's credentials stolen by an attacker located in an allowed region defeats pure country-based controls entirely.
+
+Location velocity checks add a temporal dimension. If a user authenticates from New York at 9 AM and then attempts to authenticate from London at 10 AM, the physical impossibility of that travel pattern is a strong signal of credential compromise regardless of whether both locations are in allowed countries.
+
+```python
+from datetime import datetime, timedelta
+from math import radians, sin, cos, sqrt, atan2
+
+def haversine_distance_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    """Calculate great-circle distance between two coordinates."""
+    R = 6371  # Earth radius in km
+    dlat = radians(lat2 - lat1)
+    dlon = radians(lon2 - lon1)
+    a = sin(dlat/2)**2 + cos(radians(lat1)) * cos(radians(lat2)) * sin(dlon/2)**2
+    return R * 2 * atan2(sqrt(a), sqrt(1-a))
+
+def check_location_velocity(
+    user_id: str,
+    current_location: GeoLocation,
+    current_time: datetime,
+    last_location: GeoLocation,
+    last_time: datetime,
+    max_speed_kmh: float = 900  # Commercial aircraft speed
+) -> bool:
+    """Returns True if the location change is physically plausible."""
+    elapsed_hours = (current_time - last_time).total_seconds() / 3600
+    distance_km = haversine_distance_km(
+        last_location.latitude, last_location.longitude,
+        current_location.latitude, current_location.longitude
+    )
+    if elapsed_hours == 0:
+        return distance_km < 50  # Allow same-region variance
+    required_speed = distance_km / elapsed_hours
+    return required_speed <= max_speed_kmh
+```
+
+Store the last known location and timestamp for each authenticated session in your user store. On each new authentication, run the velocity check and trigger a mandatory MFA challenge if the movement is implausible. Most legitimate users traveling internationally will complete the MFA without friction; it's a one-time step that prevents the compromise from succeeding silently.
+
+## Infrastructure Considerations: Caching and Rate Limits
+
+IP geolocation lookups should not happen synchronously on every request for authenticated sessions. The latency cost is real, and external API rate limits can become a bottleneck under load.
+
+A Redis cache keyed by IP address with a 15-minute TTL provides the right balance — IP geolocation data changes slowly enough that short-term caching doesn't meaningfully reduce security while dramatically cutting API call volume:
+
+```python
+import redis
+import json
+
+redis_client = redis.Redis(host='localhost', port=6379, db=0)
+
+def cached_lookup(ip: str, geolocator: IPGeolocation) -> GeoLocation:
+    cache_key = f"geo:{ip}"
+    cached = redis_client.get(cache_key)
+    if cached:
+        data = json.loads(cached)
+        return GeoLocation(**data)
+    location = geolocator.lookup(ip)
+    if location:
+        redis_client.setex(cache_key, 900, json.dumps(location.__dict__))
+    return location
+```
+
+For high-traffic applications, consider running a local MaxMind GeoIP2 database copy rather than making API calls at all. The local database requires a daily download job but eliminates the network round-trip entirely and removes dependency on an external service's availability.
+
+## Compliance and Audit Logging
+
+For organizations subject to SOC 2, ISO 27001, or GDPR, geo-fencing implementation must include comprehensive audit logging that satisfies evidence requirements during security reviews.
+
+Log every access decision with the full context needed to reconstruct the evaluation after the fact:
+
+```python
+import logging
+from datetime import datetime
+
+security_logger = logging.getLogger("security.geo_fence")
+
+def log_access_decision(
+    user_id: str,
+    ip: str,
+    location: GeoLocation,
+    policy_name: str,
+    decision: AccessDecision,
+    reason: str
+):
+    security_logger.info({
+        "event": "geo_fence_decision",
+        "timestamp": datetime.utcnow().isoformat(),
+        "user_id": user_id,
+        "ip_address": ip,
+        "country": location.country,
+        "region": location.region,
+        "is_vpn": location.is_vpn,
+        "policy": policy_name,
+        "decision": decision.value,
+        "reason": reason,
+    })
+```
+
+Route these logs to your SIEM or log aggregation platform rather than application log files. Geo-fencing decisions are security events that warrant the same retention and alerting treatment as authentication events.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)
