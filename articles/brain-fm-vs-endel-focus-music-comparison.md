@@ -9,7 +9,7 @@ permalink: /brain-fm-vs-endel-focus-music-comparison/
 categories: [guides]
 tags: [remote-work-tools, productivity, focus, music, developer-tools, comparison]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /cable-management-under-desk-for-home-office-with-standing-de/
 categories: [guides]
 tags: [remote-work-tools, cable-management, standing-desk, home-office, setup]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
