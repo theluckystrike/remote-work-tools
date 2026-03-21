@@ -6,7 +6,7 @@ date: 2026-03-20
 author: theluckystrike
 permalink: /remote-team-password-sharing-best-practices-without-using-sh/
 categories: [guides]
-tags: [remote-work-tools, password-security, team-passwords, secret-management, developer-tools, remote-teams]
+tags: [remote-work-tools, password-security, team-passwords, secret-management, developer-tools, remote-teams, best-of, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
