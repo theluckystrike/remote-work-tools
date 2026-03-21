@@ -25,6 +25,8 @@ Modern plagiarism detection operates through several mechanisms. String matching
 
 Turnitin remains the industry heavyweight with the largest student paper database, but newer API-first solutions offer better developer experience and flexible pricing. Your choice depends on database size requirements, integration complexity, and budget constraints.
 
+AI-generated content detection has become a fourth dimension in 2026. Tools now need to flag submissions that were written by language models, not just copied from existing sources. This capability varies significantly between vendors and affects how you should weight your selection criteria.
+
 ## Turnitin: The Enterprise Standard
 
 Turnitin dominates academic institutions with over 2 billion archived papers. Their Feedback Studio provides rubric-based grading, peer review workflows, and detailed similarity reports.
@@ -61,6 +63,12 @@ print(f"Submission ID: {result['id']}")
 
 Turnitin requires institutional partnerships and doesn't offer pay-per-use pricing. Expect setup fees and annual contracts starting around $3,000 for small institutions.
 
+### Turnitin Strengths and Limitations
+
+Turnitin's primary advantage is database depth. Their student paper repository is unmatched, meaning submissions that match previously submitted papers get flagged even if the source never appeared on the public web. This matters most for institutions where students might share or recycle papers between cohorts.
+
+The limitations are integration friction and pricing. Turnitin's API requires LTI (Learning Tools Interoperability) integration, which adds complexity if you're building a custom platform rather than using Canvas or Blackboard. For independent instructors or smaller platforms, the contract structure makes it impractical.
+
 ## Copyscape: Web Content Focus
 
 Copyscape excels at detecting copied web content. Their API returns match percentages and source URLs, making it useful for verifying original submissions.
@@ -95,9 +103,11 @@ print(f"Found {results['matches']} potential matches")
 
 Copyscape offers pay-per-check pricing at $0.03 per 100 words, making it accessible for smaller operations.
 
+Copyscape is best used as a supplementary check rather than a primary academic tool. It catches students who copy blog posts, Wikipedia articles, or other public web content, but it has no student paper database. Pair it with Copyleaks or Turnitin for full coverage.
+
 ## Grammarly: Integrated Writing Assistance
 
-Grammarly's plagiarism checker comes bundled with their writing feedback tools. While not as as Turnitin for academic work, it provides real-time checking during the writing process.
+Grammarly's plagiarism checker comes bundled with their writing feedback tools. While not as comprehensive as Turnitin for academic work, it provides real-time checking during the writing process.
 
 ### API Considerations
 
@@ -123,6 +133,8 @@ Grammarly doesn't offer a direct plagiarism API. Integration typically involves 
 ```
 
 Grammarly's pricing starts at $12/month for individuals, with institutional plans available.
+
+The key use case for Grammarly in an educational context is assignment drafting, not post-submission checking. Instructors who require students to draft within a Grammarly-embedded editor can see the writing process and verify that work was written, not pasted. This is a different detection approach from similarity scoring.
 
 ## Copyleaks: AI-Powered Detection
 
@@ -170,6 +182,8 @@ def get_results(scan_id, api_key):
 
 Copyleaks offers flexible pricing: $9.99/month for 500 pages, or custom enterprise plans with volume discounts.
 
+Copyleaks is particularly strong for multilingual courses. If your platform serves students in multiple languages, Copyleaks can detect cross-language plagiarism — for example, a student who translates a Spanish article and submits it as original English work. This capability is rare and meaningfully differentiates it from English-only tools.
+
 ## Quetext: Developer-Friendly API
 
 Quetext provides a straightforward API with good documentation. Their DeepSearch technology combines fuzzy matching with citation detection.
@@ -203,6 +217,16 @@ print(f"Similarity Index: {result['similarityIndex']}%")
 ```
 
 Quetext pricing starts at $9.99/month for 5,000 words, with higher tiers offering more checks and deeper analysis.
+
+## Tool Comparison Summary
+
+| Tool | Database | AI Detection | API Quality | Pricing Model | Best For |
+|---|---|---|---|---|---|
+| Turnitin | Largest academic | Yes | LTI-based | Annual contract | Universities, LMS integrations |
+| Copyleaks | Large + multilingual | Yes | REST, well-documented | Per-page, flexible | Custom platforms, multilingual courses |
+| Copyscape | Web content | No | Simple REST | Pay-per-check | Supplementary web content checks |
+| Quetext | Medium | Partial | Good, REST | Monthly subscription | Independent instructors, small platforms |
+| Grammarly | Limited | No | SDK embed only | Monthly subscription | In-editor draft monitoring |
 
 ## Building a Custom Integration
 
@@ -257,6 +281,19 @@ checker = PlagiarismChecker({
 result = checker.check(student_submission_text)
 print(f"Recommendation: {result['recommendation']}")
 ```
+
+When building a multi-tool integration, implement a circuit breaker pattern around each API call. If Copyleaks times out or returns a 503, you want the submission workflow to continue with available tools rather than block the student completely. Log failures for manual review rather than silently skipping checks.
+
+## Setting Similarity Thresholds
+
+A common mistake is treating any similarity score above zero as evidence of plagiarism. Similarity scores require interpretation:
+
+- **0-10%**: Normal range for most academic writing; citations and common phrases account for this
+- **10-20%**: Warrants review, especially if matches cluster in connected paragraphs
+- **20-40%**: Strong indicator of potential plagiarism; examine source matches
+- **40%+**: High likelihood of copying; escalate for instructor review
+
+Configure your integration to flag rather than automatically reject. Automatic rejection at 15% similarity will flag properly cited work, generating instructor overhead and student frustration without improving academic integrity.
 
 ## Selecting Your Tool
 
