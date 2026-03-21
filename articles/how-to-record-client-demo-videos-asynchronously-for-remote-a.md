@@ -9,7 +9,7 @@ permalink: /how-to-record-client-demo-videos-asynchronously-for-remote-a/
 categories: [guides]
 tags: [remote-work-tools, async-communication, remote-work, client-demo, video-recording]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

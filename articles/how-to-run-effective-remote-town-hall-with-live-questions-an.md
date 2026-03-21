@@ -9,7 +9,7 @@ permalink: /how-to-run-effective-remote-town-hall-with-live-questions-and-async-
 categories: [guides]
 tags: [remote-work-tools, remote-meetings, town-hall, async-communication, virtual-events, distributed-teams, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

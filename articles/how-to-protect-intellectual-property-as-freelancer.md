@@ -9,7 +9,7 @@ permalink: /how-to-protect-intellectual-property-as-freelancer/
 categories: [guides]
 tags: [remote-work-tools, intellectual-property, freelancing, contracts, licensing, legal]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

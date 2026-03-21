@@ -9,7 +9,7 @@ permalink: /how-to-prevent-burnout-as-remote-developer/
 categories: [guides]
 tags: [remote-work-tools, remote-work, burnout, mental-health, productivity]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

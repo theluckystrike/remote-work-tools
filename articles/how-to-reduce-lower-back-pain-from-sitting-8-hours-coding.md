@@ -9,7 +9,7 @@ permalink: /how-to-reduce-lower-back-pain-from-sitting-8-hours-coding/
 categories: [guides]
 tags: [remote-work-tools, remote-work, ergonomics, health, developer-tools, lower-back-pain, coding]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
