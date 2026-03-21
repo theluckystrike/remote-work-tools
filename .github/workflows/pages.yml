@@ -57,8 +57,7 @@ jobs:
           URL_COUNT=$(wc -l < /tmp/urls.txt)
           if [ "$URL_COUNT" -eq 0 ]; then echo "No URLs found"; exit 0; fi
           jq -R -s --arg host "theluckystrike.github.io" --arg key "$KEY" --arg keyloc "${SITE_URL}/${KEY}.txt" \
-            '{host: $host, key: $key, keyLocation: $keyloc, urlList: (split("
-") | map(select(length > 0)))}' \
+            '{host: $host, key: $key, keyLocation: $keyloc, urlList: (split("\n") | map(select(length > 0)))}' \
             /tmp/urls.txt > /tmp/indexnow-payload.json
           RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json" -d @/tmp/indexnow-payload.json)
