@@ -24,6 +24,12 @@ The key advantage of remote town halls is their ability to scale communication a
 
 For development teams specifically, town halls serve as a strategic touchpoint where engineering leadership can share roadmap direction, celebrate shipping milestones, and address technical debt concerns in a public forum.
 
+### The Trust Problem Town Halls Solve
+
+Distributed teams accumulate a specific kind of trust debt when leadership communication happens in informal channels that not everyone sees. When engineers in San Francisco know things their colleagues in Warsaw do not—not because information is secret, but because it was shared in hallway conversations or slack channels with different membership—you get information asymmetry that breeds anxiety and quiet disengagement.
+
+Regular town halls address this by creating a scheduled, recorded, searchable communication event that everyone can access on equal terms. The engineer who joined last week gets the same context as the founding team member. The parent who needs to take a call during the live event can watch the recording with the same understanding as someone who attended live. This equity in information access is itself a team coordination tool—it reduces the status-checking behavior that consumes time in information-scarce environments.
+
 ## Pre-Event Preparation
 
 ### Setting Up Your Question Collection System
@@ -44,7 +50,7 @@ const app = new App({
 // Modal for submitting questions
 app.shortcut('open_question_modal', async ({ shortcut, client, ack }) => {
   await ack();
-  
+
   await client.views.open({
     trigger_id: shortcut.trigger_id,
     view: {
@@ -78,6 +84,14 @@ app.shortcut('open_question_modal', async ({ shortcut, client, ack }) => {
 });
 ```
 
+### Pre-Reading the Question Queue
+
+Open the question queue at least 48 hours before the event and read everything. This step is the single most impactful thing you can do to improve town hall quality, and it is the most frequently skipped.
+
+Pre-reading allows you to group related questions so you answer them together rather than circling back. It reveals patterns—if eight people asked about the same engineering decision, that signals something needs more explanation than you planned to give. It also identifies questions that require research, giving you time to get the right answers rather than wing it live or punt to async where it may disappear.
+
+Categorize questions into three buckets: easy (answer live in under two minutes), complex (require a setup before the answer makes sense—consider addressing these in the deep-dive segment), and sensitive (involve personnel, compensation, or ongoing negotiations—decide in advance how you will handle them). Having this pre-categorized queue eliminates dead air during live Q&A and makes the moderator's job significantly easier.
+
 ### Structuring Your Agenda
 
 A tight agenda keeps town halls productive. Aim for 45-60 minutes total with these proportions:
@@ -102,6 +116,12 @@ Use a platform that supports both presentation and participation features. Zoom,
 
 Enable live captions if available—this aids accessibility and helps non-native speakers follow along.
 
+### Facilitating Cross-Time-Zone Participation
+
+For teams spanning more than 8 time zones, a single live session will always disadvantage someone. The common approaches are rotating the session time (alternating between APAC-friendly and EMEA-friendly slots), running two sessions (a shorter version of the live Q&A for the secondary time zone), or accepting that the primary value is the recording plus async Q&A rather than live attendance.
+
+The rotating schedule approach works well for teams up to about 50 people. Above that threshold, the overhead of managing two schedules and ensuring consistent content delivery usually makes the two-session model more sustainable. In either case, emphasize during every town hall that the recording is available and that async questions submitted before, during, or after the session will receive written answers—this takes pressure off synchronous attendance without leaving anyone behind.
+
 ### Live Question Handling
 
 When taking questions live, establish clear ground rules. Designate a moderator who manages the queue and reads questions aloud (this prevents audio issues from disrupting the flow and ensures everyone hears the full question).
@@ -116,6 +136,8 @@ Example Slido poll formats:
 - Multiple Choice: "Which topic should we deep-dive next month?"
 - Q&A: Submit questions and upvote others' submissions
 ```
+
+The upvoting feature in Slido and similar tools serves a coordination function: it surfaces questions that resonate with many attendees without requiring the moderator to manually gauge audience reaction. When 40 people upvote a question about on-call rotation policy, that is a signal the topic deserves more than a two-sentence answer.
 
 ## Async Follow-Up Strategies
 
@@ -134,7 +156,7 @@ Automate your recording workflow:
 #!/bin/bash
 # zoom-archive.sh - Run after each town hall
 
-RECORDING_ID=$(ls -t ~/Zoom recordings/*.mp4 | head -1)
+RECORDING_ID=$(ls -t ~/Zoom\ recordings/*.mp4 | head -1)
 gsutil cp "$RECORDING_ID" gs://team-townhalls/$(date +%Y-%m-%d)-town-hall.mp4
 
 # Create timestamp index for key topics
@@ -142,6 +164,8 @@ echo "00:00 - Welcome and announcements" >> index.md
 echo "15:30 - Q1: Project timeline question" >> index.md
 echo "28:45 - Q2: Technical debt prioritization" >> index.md
 ```
+
+Adding a timestamped index to your recording is a high-ROI investment that takes five minutes and pays dividends for months. Team members looking for information about a specific decision can jump directly to the relevant segment instead of watching a 60-minute recording. The index doubles as a searchable artifact when people try to remember when a particular announcement was made.
 
 ### Threaded Follow-Up Documentation
 
@@ -153,7 +177,7 @@ Create a follow-up document that organizes responses by question. This becomes a
 ### Q: Will we be migrating to the new authentication service this quarter?
 **Asked by**: Sarah K. | **Category**: Technical Decisions
 
-**Answer**: Yes, the migration is scheduled for Sprint 23. Engineering leads have 
+**Answer**: Yes, the migration is scheduled for Sprint 23. Engineering leads have
 already begun the spike work. Full documentation will be shared by end of week.
 
 **Action Items**:
@@ -165,8 +189,8 @@ already begun the spike work. Full documentation will be shared by end of week.
 ### Q: Can we get better visibility into on-call rotation schedules?
 **Asked by**: DevOps Team | **Category**: Process
 
-**Answer**: We've heard this feedback repeatedly. OpsGenie dashboard access will 
-be granted to all engineers by March 20. A follow-up session on on-call best 
+**Answer**: We've heard this feedback repeatedly. OpsGenie dashboard access will
+be granted to all engineers by March 20. A follow-up session on on-call best
 practices is being scheduled.
 
 ---
@@ -179,19 +203,29 @@ practices is being scheduled.
 Within 48 hours of the town hall, post a summary to your team channel:
 
 ```
-📋 Town Hall Recap - March 16
+Town Hall Recap - March 16
 
-✅ Topics Covered:
+Topics Covered:
 - Q1 roadmap highlights
 - Authentication migration timeline
 - On-call visibility improvements
 
-📝 Questions Answered: 12 live + 8 async
-🔗 Full follow-up doc: [link]
-🎥 Recording: [link]
+Questions Answered: 12 live + 8 async
+Full follow-up doc: [link]
+Recording: [link]
 
 Next Town Hall: April 20, 2026
 ```
+
+The 48-hour window matters. Posting a recap three days later, when people have mentally moved on, generates far less engagement than posting within the day or the next morning. The recap serves as a courtesy to attendees and as a mechanism to keep action items visible—items that disappear into a follow-up document no one re-reads tend to stay unresolved.
+
+### Tracking Action Items to Completion
+
+Town hall action items fail for a predictable reason: they are captured in the follow-up document and never surfaced again. Building a lightweight accountability loop prevents this.
+
+At the start of the next town hall, spend two minutes reviewing any open action items from the previous session. This accomplishes two things: it demonstrates that the town hall is not just a performative exercise where questions disappear into a document, and it creates social accountability that encourages owners to close items before the next session rather than letting them drift.
+
+For teams using Notion or Confluence, a simple database with town hall action items—tagged by assignee, status, and due date—makes this review take 90 seconds rather than 10 minutes. The database view filtered to "open items from last session" is the only thing you need on screen for this segment.
 
 ## Making It Sustainable
 
@@ -201,8 +235,9 @@ Remote town halls work best when they're consistent and bounded. Don't try to ad
 - Being honest when you don't have an answer ("I'll find out and follow up")
 - Following up on previous action items publicly
 - Rotating presentation duties to keep content fresh
+- Celebrating specific team contributions, not just shipped features
 
-The combination of live engagement and async follow-up creates a communication loop that respects different work styles and time zones while maintaining the transparency that distributed teams need to function effectively.
+The combination of live engagement and async follow-up creates a communication loop that respects different work styles and time zones while maintaining the transparency that distributed teams need to function effectively. Consistency matters more than production quality—a simple, reliable 50-minute town hall every four weeks builds more cohesion than an elaborate quarterly event that feels disconnected from daily work.
 
 
 ## Related Reading
