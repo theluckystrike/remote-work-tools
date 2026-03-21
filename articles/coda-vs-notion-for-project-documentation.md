@@ -23,7 +23,7 @@ Choose Notion if your team prioritizes clean, readable documentation pages with 
 
 The fundamental difference between Coda and Notion lies in how each platform structures data. Notion uses a block-based system where every piece of content is a block that can be rearranged, nested, or transformed. Pages contain blocks, and databases are special page types with structured properties. This hierarchical model feels natural for documentation but becomes complex when you need cross-referencing between documents.
 
-Coda combines documents and databases into an unified structure. Every Coda doc is a database where rows can contain rich text, attachments, or embedded tables. The `Coda` formula language provides spreadsheet-like expressions that reference other rows, making it possible to build interconnected documentation systems that behave like lightweight applications.
+Coda combines documents and databases into a unified structure. Every Coda doc is a database where rows can contain rich text, attachments, or embedded tables. The `Coda` formula language provides spreadsheet-like expressions that reference other rows, making it possible to build interconnected documentation systems that behave like lightweight applications.
 
 For project documentation, this distinction manifests in practical ways. Consider documenting API endpoints across multiple services. In Notion, you might create a database where each endpoint is a page with properties for method, path, and service. Cross-referencing requires manual links or relation properties. In Coda, you can embed a table directly in your documentation page and reference it in formulas, creating live connections between your endpoint list and usage examples.
 
@@ -38,7 +38,7 @@ Coda's formula language enables dynamic queries that respond to user input or ot
 ```javascript
 // Coda: Filter documents by category and status
 Documents.Filter(
-  Category.Contains(currentCategory) AND 
+  Category.Contains(currentCategory) AND
   Status = "published"
 ).Sort(LastUpdated, false)
 ```
@@ -78,6 +78,10 @@ const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/pull
 // Display directly in your documentation doc
 ```
 
+A practical comparison: Notion's API excels at **pushing** external data into documentation—syncing status fields, updating changelogs from CI/CD, creating incident pages from PagerDuty alerts. Coda's packs excel at **surfacing** live external data inside a document—embedding a live GitHub PR list next to your release notes, or showing current Jira ticket status alongside your feature spec.
+
+Neither platform natively supports webhook-triggered documentation updates without middleware. Both integrate cleanly with Zapier and Make, but Coda's packs often eliminate the need for a middleware layer entirely for common developer tools.
+
 ## Real-Time Collaboration
 
 Both platforms handle concurrent editing well, but the experience differs slightly. Notion uses a cursor-based system showing where other users are working. Comments attach to specific blocks, enabling contextual discussions.
@@ -86,11 +90,29 @@ Coda offers similar collaboration with an emphasis on the "doc as app" model. Yo
 
 For team documentation during active development, this interactivity proves valuable. A Coda doc can display current deployment status alongside deployment instructions, or show API health alongside endpoint documentation—all updating without page refreshes.
 
+**Comment threading** works differently between the two. Notion's comments attach to specific blocks and can be resolved, creating a clean audit trail for decisions made during document review. Coda's comments attach to rows or cells, which works better for database-style documentation but can feel disjointed in long-form prose.
+
+For design reviews and PRD sign-offs, Notion's block-level comments tend to feel more natural. For operational runbooks where you want to track which steps have been verified, Coda's row-level comments integrate better with the tabular structure.
+
 ## Template and Structure Flexibility
 
 Notion's template gallery provides starting points for various documentation needs. The block system allows easy copy-pasting between pages. However, applying consistent structure across hundreds of pages requires discipline or external tooling.
 
 Coda's templates often include working logic. A documentation template might automatically track which pages need review, calculate staleness based on edit dates, and notify responsible parties—all built into the template.
+
+For large engineering teams maintaining 100+ documentation pages, Notion benefits from the addition of an automation layer. Tools like Notion Automations (native, launched 2023) or Zapier can flag stale pages, assign review reminders, and archive outdated content. Without this layer, Notion wikis accumulate outdated pages quickly.
+
+Coda handles staleness more natively. A formula like `LastModified < Today() - 90` can power a "needs review" tag that appears automatically on any doc that hasn't been touched in three months. This built-in staleness tracking is one of Coda's most underrated documentation management features.
+
+## Search and Discoverability
+
+In large documentation bases, search quality becomes the decisive factor. Both platforms offer full-text search, but depth differs.
+
+Notion's search indexes page titles and content, including database property values. The search UI is fast and surfaces results across all pages your account has access to. However, Notion's search doesn't index within code blocks—a significant limitation for developer documentation where the most important content often lives inside code snippets.
+
+Coda's search similarly struggles with code content but indexes formula outputs, meaning data surfaced via dynamic queries is searchable. If your documentation uses formulas to display content derived from tables, that computed content is searchable in Coda but wouldn't be if stored in a Notion code block.
+
+For teams where most documentation is prose, the search gap is minimal. For teams where code examples, configuration snippets, and command references are primary content, this limitation matters enough to consider supplementing both platforms with a dedicated search tool like Algolia or Elastic.
 
 ## Pricing and Team Size Comparison
 
@@ -175,6 +197,16 @@ Notion/Coda Central Hub
       ↓ (searched via platform UI)
 Team Search & Navigation
 ```
+
+## Migration Considerations
+
+Teams switching between these platforms—or evaluating whether to migrate existing documentation—face real transition costs.
+
+**Migrating from Notion to Coda:** Notion exports to Markdown, which Coda can import as basic pages. Database structure and relations do not migrate automatically. Expect to rebuild filter logic and relations from scratch. For a 100-page wiki, budget 2-4 weeks of part-time migration work.
+
+**Migrating from Coda to Notion:** Coda exports tables as CSV and documents as PDF or HTML. Neither preserves interactive elements or formula logic. If your Coda docs rely heavily on dynamic content, you're effectively starting over rather than migrating.
+
+**Starting fresh:** If your team has no existing documentation system, both platforms benefit from an upfront information architecture exercise. Define your page hierarchy, naming conventions, and ownership model before creating content. Teams that skip this step—on either platform—end up with documentation sprawl within 6-12 months.
 
 The best choice depends on your team's workflow maturity. Teams early in their documentation journey often prefer Notion's simplicity. Teams with established practices who need dynamic, interconnected docs find Coda's flexibility advantageous.
 
