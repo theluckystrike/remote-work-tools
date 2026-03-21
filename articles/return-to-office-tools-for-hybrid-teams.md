@@ -160,6 +160,187 @@ For developer teams, building custom integrations often provides better results 
 
 If your team has development capacity, investing in custom tooling can pay dividends in user experience and operational efficiency.
 
+## Tool Comparison: Major Platforms
+
+Here's how the dominant platforms compare for teams evaluating options:
+
+| Platform | Best For | Pricing | Integration | Setup |
+|----------|----------|---------|-----------|-------|
+| Serraview | Enterprise real estate | $$$$ | SAP, Workday | Complex |
+| Condeco | Mid-market offices | $$$ | Outlook, Exchange | Moderate |
+| Robin | Tech startups | $$ | Slack, Google, Okta | Simple |
+| Envoy | Small teams | $ | Zapier, Google | Very Simple |
+| Custom API solution | Developer teams | $$ | Full control | Technical |
+
+For most remote-first companies under 100 people, Robin or a custom API solution wins. For enterprise environments with legacy systems, Serraview is worth the investment.
+
+## Real-World Scenario: Implementing Desk Booking
+
+Let's walk through a practical implementation. You're a team of 15 engineers, mostly remote, wanting hybrid flexibility:
+
+**Week 1: Planning**
+- Define policy: Engineers book desks by 9 AM on the day they'll be in office
+- Establish core hours: Tuesday-Thursday in-office
+- Assign hot desks: 8 desks for 15 engineers (53% capacity)
+- Plan space: Kitchen, 2 phone booths, 1 large meeting room
+
+**Week 2: Tool selection**
+- Evaluate Robin (Slack integration) and Envoy (simple web interface)
+- Pilot with 5 engineers
+- Gather feedback on booking workflow
+
+**Week 3: Integration**
+- Set up Slack bot to display available desks
+- Create calendar integration (Google Calendar)
+- Configure access card provisioning
+
+**Week 4: Launch & iterate**
+- Roll out to full team
+- Monitor adoption metrics
+- Adjust policies based on feedback
+
+**Timeline impact:** 4 weeks from decision to full production, assuming existing building infrastructure.
+
+## Building Space Analytics Dashboards
+
+Once you have booking data, extract insights to improve space planning:
+
+```python
+import pandas as pd
+from datetime import datetime, timedelta
+
+class SpaceAnalytics:
+    def __init__(self, booking_data):
+        self.df = pd.DataFrame(booking_data)
+        self.df['date'] = pd.to_datetime(self.df['date'])
+
+    def utilization_by_day(self):
+        """Which days are busiest?"""
+        return self.df.groupby('date').size() / self.df['desk_count'].iloc[0]
+
+    def peak_hours(self):
+        """What hours see most traffic?"""
+        return self.df.groupby('hour').size()
+
+    def desk_popularity(self):
+        """Which desks get booked most?"""
+        return self.df.groupby('desk_id').size().sort_values(ascending=False)
+
+    def underutilized_spaces(self, threshold=0.3):
+        """Identify spaces that could be repurposed or closed."""
+        utilization = self.utilization_by_day()
+        return utilization[utilization < threshold]
+
+    def team_collision_patterns(self):
+        """When do teams overlap in office?"""
+        return self.df.groupby(['date', 'team']).size().unstack(fill_value=0)
+
+    def generate_report(self):
+        """Create actionable insights."""
+        print("=== Space Utilization Report ===\n")
+
+        print("Average Weekly Utilization:")
+        avg_util = self.utilization_by_day().mean()
+        print(f"  {avg_util:.1%} of desks booked on average\n")
+
+        print("Busiest Days (last 4 weeks):")
+        peak_days = self.utilization_by_day().tail(20).nlargest(3)
+        for day, util in peak_days.items():
+            print(f"  {day.strftime('%A, %b %d')}: {util:.1%} utilization")
+
+        print("\nMost Popular Desks:")
+        for desk, count in self.desk_popularity().head(3).items():
+            print(f"  Desk {desk}: {count} bookings")
+
+        print("\nUnderutilized Spaces (< 30% booked):")
+        under = self.underutilized_spaces()
+        if len(under) == 0:
+            print("  None - good utilization overall")
+        else:
+            for date, util in under.items():
+                print(f"  {date.strftime('%A, %b %d')}: {util:.1%}")
+
+        return {
+            "avg_utilization": avg_util,
+            "peak_day": peak_days.idxmax(),
+            "recommendation": self._generate_recommendation(avg_util)
+        }
+
+    def _generate_recommendation(self, utilization):
+        if utilization < 0.3:
+            return "Consider reducing desk count or converting to flex space"
+        elif utilization < 0.6:
+            return "Current capacity appropriate for hybrid model"
+        else:
+            return "At risk of overbooking - may need additional desks"
+
+# Usage
+bookings = [
+    {"date": "2026-03-16", "desk_id": 1, "team": "backend", "hour": 9},
+    {"date": "2026-03-16", "desk_id": 2, "team": "frontend", "hour": 10},
+    # ... hundreds of booking records
+]
+
+analytics = SpaceAnalytics(bookings)
+analytics.generate_report()
+```
+
+Run this monthly to inform space planning decisions.
+
+## Policy Templates for Common Scenarios
+
+**Core Hours Policy:**
+```
+Core hours are Tuesday 10 AM - Thursday 4 PM in your local timezone.
+These hours ensure team collaboration and in-person meeting feasibility.
+Exceptions require manager approval.
+```
+
+**Desk Booking Rules:**
+```
+- Desks booked by 9 AM on the day of use
+- Cancellations must be made by 8 PM previous day
+- No reservations more than 2 weeks in advance
+- Each person assigned 2.5 desks per week maximum
+```
+
+**Meeting Room Scheduling:**
+```
+- Rooms reserved in Outlook
+- Minimum 15-minute buffers between bookings
+- All-hands meetings reserved on Mondays/Fridays
+- Standing meetings capped at 1 per room
+```
+
+**Visitor Access:**
+```
+- Visitors require host escort or building access card
+- Guest passes issued at reception
+- Max 8 guests per day per team
+- Notify facilities team 24 hours in advance for events
+```
+
+## Measuring Hybrid Success Metrics
+
+Track these metrics to understand if your return-to-office program works:
+
+**Utilization metrics:**
+- Desk booking rate (target: 40-60%)
+- Meeting room utilization (target: 60-80%)
+- Peak hour occupancy (measure for fire code compliance)
+
+**Team metrics:**
+- In-office collaboration events per month
+- Cross-team interactions (measured via access logs)
+- Team satisfaction with office experience (quarterly survey)
+
+**Cost metrics:**
+- Cost per desk utilization
+- Real estate optimization ratio
+- Meeting room efficiency
+
+Monitor these monthly and adjust policies based on trends. High utilization might mean you need more desks. Low utilization might mean your core hours policy is too strict.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

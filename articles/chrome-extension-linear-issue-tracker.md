@@ -161,6 +161,241 @@ Chrome extensions work within browser constraints. For deeper integration, consi
 
 Extensions work best for quick actions and context-aware issue creation. Reserve complex issue management for the full Linear interface.
 
+## Building Your Custom Extension: Complete Example
+
+For teams wanting tighter Linear integration, building a simple custom extension beats any off-the-shelf solution:
+
+```json
+{
+  "manifest_version": 3,
+  "name": "Linear Issue Creator",
+  "version": "1.0.0",
+  "description": "Create Linear issues from anywhere in Chrome",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "webRequest"
+  ],
+  "host_permissions": [
+    "https://linear.app/*",
+    "https://api.linear.app/*",
+    "https://*/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/linear-16.png",
+      "48": "images/linear-48.png",
+      "128": "images/linear-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open-creator": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+I",
+        "mac": "Cmd+Shift+I"
+      },
+      "description": "Create a new Linear issue"
+    }
+  }
+}
+```
+
+Create `popup.html`:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: system-ui; width: 400px; padding: 16px; }
+    input, textarea, select { width: 100%; padding: 8px; margin: 8px 0; }
+    button { background: #0066ff; color: white; padding: 10px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h2>Create Issue</h2>
+  <input id="title" type="text" placeholder="Issue title">
+  <textarea id="description" placeholder="Description"></textarea>
+  <select id="team">
+    <option value="">Select team...</option>
+  </select>
+  <select id="priority">
+    <option value="0">No priority</option>
+    <option value="1">Urgent</option>
+    <option value="2">High</option>
+    <option value="3">Medium</option>
+    <option value="4">Low</option>
+  </select>
+  <button id="create">Create Issue</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
+```
+
+Create `popup.js`:
+
+```javascript
+const API_KEY = 'YOUR_LINEAR_API_KEY'; // Store in Chrome storage in production
+
+document.getElementById('create').addEventListener('click', async () => {
+  const title = document.getElementById('title').value;
+  const description = document.getElementById('description').value;
+  const teamId = document.getElementById('team').value;
+  const priority = parseInt(document.getElementById('priority').value);
+
+  if (!title || !teamId) {
+    document.getElementById('status').textContent = 'Please fill in all fields';
+    return;
+  }
+
+  const query = `
+    mutation CreateIssue($input: IssueCreateInput!) {
+      issueCreate(input: $input) {
+        issue {
+          id
+          identifier
+          url
+          title
+        }
+        success
+      }
+    }
+  `;
+
+  try {
+    const response = await fetch('https://api.linear.app/graphql', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${API_KEY}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        query,
+        variables: {
+          input: {
+            title,
+            description,
+            teamId,
+            priority
+          }
+        }
+      })
+    });
+
+    const data = await response.json();
+    if (data.data?.issueCreate?.success) {
+      const issue = data.data.issueCreate.issue;
+      document.getElementById('status').innerHTML =
+        `✓ Created <a href="${issue.url}" target="_blank">${issue.identifier}</a>`;
+      // Clear form
+      document.getElementById('title').value = '';
+      document.getElementById('description').value = '';
+    } else {
+      document.getElementById('status').textContent = 'Error creating issue';
+    }
+  } catch (error) {
+    document.getElementById('status').textContent = `Error: ${error.message}`;
+  }
+});
+
+// Load teams on popup open
+chrome.storage.local.get(['teams'], (result) => {
+  if (result.teams) {
+    const select = document.getElementById('team');
+    result.teams.forEach(team => {
+      const option = document.createElement('option');
+      option.value = team.id;
+      option.textContent = team.name;
+      select.appendChild(option);
+    });
+  }
+});
+```
+
+Store your API key securely:
+
+```bash
+# Never commit the actual key. Instead, create an options page where users provide their key
+# Or use environment variables during build:
+export LINEAR_API_KEY="your_key_here"
+npm run build
+```
+
+## Linear Extension Workflow Optimization
+
+Once you have extensions installed, optimize your daily workflow:
+
+**Suggested keyboard shortcut mapping:**
+- Cmd+Shift+I — Create issue from current page
+- Cmd+Shift+L — Open Linear app in new tab
+- Cmd+Shift+F — Search Linear issues
+
+**Browser bookmark bar organization:**
+```
+Linear |
+├── My Issues
+├── Backlog
+├── Search
+└── Team
+```
+
+Each bookmark links to a filtered Linear view (e.g., `https://linear.app/team/issues?filter=assignee:me`).
+
+**Workflow templates for common activities:**
+
+When researching a bug, create an issue immediately with:
+- Current URL in description (provides context)
+- Reproduction steps if known
+- Error message or logs
+- Label: "bug" + "needs-investigation"
+
+When reviewing documentation, create issues for:
+- Outdated examples
+- Missing sections
+- Confusing explanations
+- Link to the documentation page
+
+When in code review, before commenting on a PR:
+- Is this a blocking issue or a suggestion?
+- If blocking, create a Linear issue and reference in PR comment
+- If suggestion, comment directly
+
+## Performance Tips for Extension Users
+
+Extensions can slow browser startup if not optimized:
+
+- Disable extensions you rarely use
+- Grant Linear extension only permission on linear.app domains
+- Check extension memory usage in chrome://extensions/
+- If using custom extension, minimize background script activity
+
+For teams of developers sharing a custom extension, publish to your internal Chrome Web Store:
+
+```bash
+# Create a .crx file for distribution
+# Upload to your internal store at chrome.google.com/webstore (requires developer account)
+# Or use policies to force install via chrome policies JSON
+```
+
+## Comparison: Extensions vs. Native Apps
+
+| Feature | Extension | Linear App | VS Code Extension |
+|---------|-----------|------------|------------------|
+| Create issue | ✓ Fast | ✓ Full featured | ✓ Context aware |
+| View details | △ Limited | ✓ Full | ✓ Full |
+| Keyboard shortcuts | ✓ Global | ✓ App only | ✓ Global |
+| Notification integration | △ Browser | ✓ System | ✓ IDE integrated |
+| Offline access | ✗ | △ Limited | △ Limited |
+| Setup complexity | Medium | None | Low |
+
+Most efficient teams use Chrome extension + VS Code extension together.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

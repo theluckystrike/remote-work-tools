@@ -160,6 +160,158 @@ The most effective approach combines exercises, ergonomic setup, and consistent 
 
 If you experience persistent pain, numbness, or weakness that doesn't improve with self-care, consult a healthcare professional. Physical therapists specializing in repetitive strain injuries can provide personalized exercises and treatment options. Ignoring symptoms can lead to permanent nerve damage.
 
+## Advanced Prevention: The 20-20-20 Rule and Beyond
+
+The standard recommendation is the 20-20-20 rule: every 20 minutes, take a 20-second break and look at something 20 feet away. But for programmers, this isn't aggressive enough. Here's a more effective regime:
+
+**The Programmer's Break Schedule:**
+
+| Time | Activity | Duration |
+|------|----------|----------|
+| Every 20 min | Eye break + hand shake | 20 seconds |
+| Every 45 min | Full exercise set | 2 minutes |
+| Every 2 hours | Walk or stand stretch | 5 minutes |
+| End of day | Post-work recovery | 10 minutes |
+
+Implement this in your day:
+- 9:00 AM: Start work
+- 9:20 AM: Eye break
+- 9:45 AM: Full exercises
+- 11:00 AM: Walk break
+- 11:20 AM: Eye break
+- 12:00 PM: Lunch (reset everything)
+- Continue pattern through afternoon
+
+The key is consistency. An aggressive schedule followed 70% of the time beats a perfect schedule you abandon after 3 weeks.
+
+## Measuring Your Progress
+
+Track your wrist health with these objective metrics:
+
+```bash
+#!/bin/bash
+# wrist-health-tracker.sh - Weekly assessment
+
+echo "=== Weekly Wrist Health Assessment ==="
+echo "Date: $(date '+%Y-%m-%d')"
+echo ""
+
+echo "Pain Assessment (0=none, 10=severe):"
+echo "  Morning (before work): "
+read morning_pain
+echo "  End of day (after work): "
+read evening_pain
+echo "  Current hour: "
+read current_pain
+
+echo ""
+echo "Symptom Check (Y/N):"
+echo "  Numbness or tingling? "
+read numbness
+echo "  Weakness in grip? "
+read weakness
+echo "  Burning sensation? "
+read burning
+
+echo ""
+echo "Exercise Compliance:"
+echo "  Days exercised this week (0-7): "
+read exercise_days
+echo "  Breaks taken (estimated %): "
+read break_compliance
+
+# Calculate trend
+timestamp=$(date +%s)
+echo "$timestamp,$morning_pain,$evening_pain,$current_pain,$numbness,$weakness,$burning,$exercise_days,$break_compliance" >> ~/.wrist_health_log.csv
+
+echo ""
+echo "Recommendation:"
+if [ "$evening_pain" -gt 5 ]; then
+    echo "⚠️  Pain elevated. Increase break frequency and consider physical therapy."
+elif [ "$exercise_days" -lt 4 ]; then
+    echo "📈 Inconsistent exercise routine. Target 5+ days per week."
+else
+    echo "✓  Good compliance. Continue current routine."
+fi
+```
+
+Run weekly and review monthly. If pain is increasing despite consistent exercise, escalate to a professional.
+
+## Ergonomic Keyboard and Mouse Selection
+
+Hardware choices significantly impact wrist strain:
+
+**Ergonomic Keyboards:**
+- **Standard layout** — Best for touch typists, reduces finger stretching
+- **Split design** — Angled halves reduce wrist pronation by 20-30%
+- **Vertical layout** — More aggressive pronation reduction, requires adaptation period
+- **Mechanical with switches** — Choose lighter actuation (45-60g) to reduce force
+
+**Recommended options:**
+- Split: Microsoft Sculpt, Kinesis
+- Vertical: Logitech Mx Keys, Nuphy
+- Mechanical: Keychron, Corsair
+
+**Mice and pointing devices:**
+- **Vertical mice** — Natural handshake position reduces pronation
+- **Trackballs** — Minimize arm movement, larger learning curve
+- **Trackpads** — Zero wrist extension, can cause finger strain
+- **Thumb cluster** — Specialized designs distribute load across hand
+
+For most programmers, a vertical mouse + standard keyboard combo provides 80% of the ergonomic benefit at 20% of the cost of a full split keyboard setup.
+
+Test with a 2-week trial before committing. Poor ergonomic equipment hurts more than standard equipment used correctly.
+
+## Exercises for Specific Programming Tasks
+
+Different programming activities stress different muscle groups:
+
+**For heavy mouse users (designers, extensive clicking):**
+- Focus on thumb touches and finger spreads
+- Add forearm pronation rotations (rotate forearm palm-up to palm-down)
+- Grip strength exercises with stress ball (3x 10 repetitions daily)
+
+**For keyboard-intensive work (writing, refactoring):**
+- Focus on wrist flexor and extensor stretches
+- Add forearm rotation exercises
+- Prayer stretch 3-4 times daily
+
+**For sustained coding sessions (debugging, review):**
+- Combine both exercise sets
+- Increase break frequency
+- Add shoulder and neck stretches (compound strain from poor posture)
+
+**For remote pair programming:**
+- Take turns sharing the mouse/keyboard (forces breaks)
+- Agree on exercise breaks every 45 minutes
+- Stretch together at the start of sessions
+
+## Long-Term RSI Prevention Strategy
+
+Think of wrist health like code quality: preventative maintenance is 10x cheaper than fixing broken code.
+
+**Short-term (next 2 weeks):**
+- Start break reminder script
+- Perform daily exercise routine
+- Optimize keyboard/mouse placement
+
+**Medium-term (next 3 months):**
+- Identify which activities cause most strain (logging helps)
+- Adjust workflow to reduce high-strain activities
+- Measure improvement with grip strength tests
+
+**Long-term (next 12 months):**
+- Build exercise routine into daily habit (like brushing teeth)
+- Replace equipment as needed
+- Get annual physical therapy checkup if you code 8+ hours daily
+
+**Career-level (5+ years):**
+- Consider roles that involve less typing if pain persists
+- Mentor others on prevention (avoid their mistakes)
+- Track your wrist health patterns across career changes
+
+The developers most successful at preventing RSI treat it like a long-term investment, not a short-term fix.
+
 ## Related Reading
 
 - [Remote Work Guides Hub](/remote-work-tools/guides-hub/)

@@ -160,6 +160,253 @@ The best SIEM tool is one your team actually uses. Start with visibility, tune a
 
 ---
 
+## SIEM Cost Comparison at Scale
+
+Here's realistic pricing for a 50-person remote-first company:
+
+| Platform | Setup Cost | Monthly Cost | Annual Ingestion | Notes |
+|----------|-----------|-------------|-----------------|-------|
+| **Wazuh** | $0 (OSS) | $0 | Unlimited | Requires infrastructure |
+| **Graylog** | $2K-5K | $500-2K | 5-50GB/day | Good value for growth |
+| **Splunk** | $10K+ | $5K-15K | 100GB+/day | Enterprise standard |
+| **Sentinel** | $0 | $2-5K | Flexible pricing | Best if Azure-native |
+| **Datadog** | $5K | $3K-8K | Consumption-based | Excellent UI |
+
+For a 50-person company with 5 developers:
+- Expect 10-20GB of log data daily (authentication, VPN, endpoints, cloud)
+- Budget $500-2K monthly for production-grade SIEM
+- Wazuh self-hosted offers best TCO if you have infrastructure expertise
+
+## Setting Up Alert Fatigue Prevention
+
+The biggest SIEM failure is alert fatigue. Teams ignore thousands of alerts, missing real threats:
+
+```yaml
+# Example: Wazuh alert rule for remote access anomaly detection
+<group name="remote_access_anomaly">
+  <rule id="100001" level="5">
+    <if_matched_sid>5001</if_matched_sid>
+    <description>Normal remote access pattern</description>
+    <options>no_full_log</options>
+  </rule>
+
+  <rule id="100002" level="10">
+    <if_matched_sid>5001</if_matched_sid>
+    <field name="geoip_country_code">!US|CA|UK|DE</field>
+    <description>Remote access from unusual country</description>
+    <group>remote_anomaly</group>
+  </rule>
+
+  <rule id="100003" level="7">
+    <if_matched_sid>5001</if_matched_sid>
+    <field name="src_ip">known_office_ips</field>
+    <field name="dest_port">!443|22|3306|5432</field>
+    <description>Unusual port access from office network</description>
+    <group>remote_anomaly</group>
+  </rule>
+</group>
+```
+
+**Alert tuning best practices:**
+- Level 1-3: Ignore (noise)
+- Level 4-6: Collect for audit, don't alert
+- Level 7-9: Alert via email once per day
+- Level 10+: Immediate Slack/PagerDuty alert
+
+Adjust thresholds based on your threat model. A startup shouldn't alert on everything an enterprise would.
+
+## Building a Remote Work Security Profile
+
+Define what "normal" looks like for your remote team:
+
+```python
+class RemoteSecurityProfile:
+    def __init__(self, team_size=50, timezones=["US/Eastern", "US/Pacific", "Europe/London"]):
+        self.team_size = team_size
+        self.timezones = timezones
+
+    def normal_vpn_connections(self):
+        """Expected VPN usage pattern."""
+        return {
+            "typical_users_online": int(self.team_size * 0.6),  # 60% remote at any time
+            "peak_hours": ["10:00-14:00 UTC"],
+            "low_usage_times": ["00:00-04:00 UTC"],
+            "expected_ips_per_user": 3,  # Home, office, mobile
+        }
+
+    def normal_api_activity(self):
+        """Expected API access pattern."""
+        return {
+            "builds_per_day": 100,
+            "deploys_per_day": 5,
+            "github_api_calls": 50000,
+            "database_queries_per_second": 1000,
+        }
+
+    def anomaly_thresholds(self):
+        """What triggers investigation?"""
+        return {
+            "vpn_users_spike": int(self.team_size * 0.8),  # 80% online is suspicious
+            "failed_logins_threshold": 5,  # Per user per day
+            "geographic_distance_km": 1000,  # Impossible travel
+            "api_rate_change": 3.0,  # 3x normal volume
+            "off_hours_access": "23:00-05:00 UTC",
+        }
+
+    def generate_baseline(self):
+        """Create alerts based on this profile."""
+        baseline = {
+            "vpn": self.normal_vpn_connections(),
+            "api": self.normal_api_activity(),
+            "thresholds": self.anomaly_thresholds(),
+            "next_review": "2026-06-16"
+        }
+        return baseline
+
+# Use this during SIEM setup
+profile = RemoteSecurityProfile(team_size=50)
+baseline = profile.generate_baseline()
+```
+
+Review and update your security profile quarterly. As your team grows and changes, normal behavior evolves.
+
+## Incident Response Playbooks
+
+When an alert fires, what happens next? Define this before incidents occur:
+
+```markdown
+# Incident Response: Unusual Geographic Access
+
+## Detection
+Wazuh alert: "Remote access from unusual country"
+
+## Immediate Actions (< 5 minutes)
+1. Check if user intentionally traveled
+   - Look at Slack status: "Working from [location]"
+   - Check calendar for business travel
+2. If confirmed travel, resolve as "expected activity"
+3. If NOT confirmed, proceed to investigation
+
+## Investigation (5-30 minutes)
+1. Query recent activity from this IP:
+   - What systems accessed?
+   - What data accessed?
+   - When did access start?
+2. Check user's device security:
+   - Is their laptop compromised? (check endpoint detection)
+   - Is password reused on personal accounts?
+3. Check related accounts:
+   - Did this IP access other team members' accounts?
+   - Any privilege escalation attempts?
+
+## Response Options
+**Option A: Confirmed Travel**
+- Close incident
+- Whitelist IP for 24 hours
+- Document in security log
+
+**Option B: Anomalous But Benign**
+- Send user message: "Noticed login from [country]. Expected?"
+- Wait for response
+- If benign, whitelist. If not, escalate.
+
+**Option C: Actual Breach**
+- Force password reset
+- Revoke active sessions
+- Check data access logs
+- Notify user and management
+- File incident report
+
+## Prevention
+- Educate team on password security
+- Use hardware security keys
+- Enable MFA on all accounts
+- Whitelist known VPNs and ISPs
+```
+
+Playbooks prevent panic and ensure consistent response.
+
+## Custom SIEM Script for Small Teams
+
+If you don't want a full SIEM but need basic monitoring:
+
+```python
+#!/usr/bin/env python3
+# simple-siem.py - Lightweight security monitoring
+
+import requests
+import json
+from datetime import datetime, timedelta
+
+class SimpleSIEM:
+    def __init__(self, slack_webhook_url):
+        self.webhook = slack_webhook_url
+        self.alerts = []
+
+    def check_github_activity(self, org, token):
+        """Monitor GitHub suspicious activity."""
+        headers = {"Authorization": f"token {token}"}
+        url = f"https://api.github.com/orgs/{org}/audit-log"
+
+        response = requests.get(url, headers=headers)
+        events = response.json()
+
+        for event in events:
+            if event['action'] in ['user.create', 'org.add_member', 'repo.destroy']:
+                self.alert(f"GitHub: {event['action']} by {event['actor']}")
+
+    def check_aws_cloudtrail(self, region):
+        """Monitor AWS for suspicious calls."""
+        # Requires boto3 setup
+        import boto3
+        client = boto3.client('cloudtrail', region_name=region)
+
+        events = client.lookup_events(MaxResults=50)
+
+        for event in events['Events']:
+            if event['EventName'] in ['DeleteBucket', 'PutBucketPolicy', 'DeleteDBInstance']:
+                self.alert(f"AWS: {event['EventName']} by {event['Username']}")
+
+    def check_login_anomalies(self, auth_logs_path):
+        """Check local auth logs for anomalies."""
+        with open(auth_logs_path) as f:
+            lines = f.readlines()[-1000:]  # Last 1000 lines
+
+        failed_logins = {}
+        for line in lines:
+            if "Failed password" in line:
+                user = line.split()[-1]
+                failed_logins[user] = failed_logins.get(user, 0) + 1
+
+        for user, count in failed_logins.items():
+            if count > 5:
+                self.alert(f"Auth: {count} failed logins for {user}")
+
+    def alert(self, message):
+        """Send alert to Slack."""
+        payload = {
+            "text": f"⚠️ Security Alert",
+            "blocks": [
+                {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": f"*Security Alert*\n{message}\nTime: {datetime.now().isoformat()}"
+                    }
+                }
+            ]
+        }
+        requests.post(self.webhook, json=payload)
+
+# Run this hourly via cron
+if __name__ == "__main__":
+    siem = SimpleSIEM("YOUR_SLACK_WEBHOOK")
+    siem.check_github_activity("your-org", "YOUR_GITHUB_TOKEN")
+    siem.check_login_anomalies("/var/log/auth.log")
+    # siem.check_aws_cloudtrail("us-east-1")  # Requires AWS setup
+```
+
+This catches 80% of real security issues with 10% of a commercial SIEM's complexity.
 
 ## Related Reading
 

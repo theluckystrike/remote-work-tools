@@ -159,6 +159,206 @@ Selecting the best project tracking tool depends on your team's specific context
 
 Consider starting with a 30-day trial of your top two choices, running actual hardware projects through each system. Evaluate based on real workflows rather than feature lists—the tool your team actually uses consistently outperforms the theoretically superior option sitting unused.
 
+## Detailed Pricing and Scaling Analysis
+
+Hardware teams making this decision need realistic cost projections. Here's how tools scale from a three-person prototype team to a ten-person manufacturing-ready group:
+
+**Team of 3 (Research/Design Phase)**
+- Linear: $0 (free tier handles single project)
+- Jira: $25/month (3 × $8.50 per user/month)
+- Notion: $30/month (team shared workspace)
+- ZenHub: $0 (free GitHub integration)
+
+**Team of 6 (Active Development)**
+- Linear: $120/month (Pro plan at $20/seat, or $40 team subscription)
+- Jira: $90/month (6 × $15 standard pricing)
+- Notion: $120/month (team members at $20 each is optional; workspace is $60 + seat add-ons)
+- ZenHub: $144/month (6 × $24 for Plus plan)
+
+**Team of 10 (Manufacturing Phase)**
+- Linear: $200/month (5+ seats at $40/month plus 5 free contributors)
+- Jira: $180-300/month depending on licensing model
+- Notion: $200+/month (workspace + user seats)
+- ZenHub: $240/month (bulk pricing applies)
+
+The hidden costs emerge in integrations. A typical hardware engineering stack requires:
+
+- ERP system (SAP, NetSuite): $5,000-15,000/month
+- Component database (Octopart API): $500-2,000/month
+- Manufacturing execution system (MES): $2,000-5,000/month
+- Project tracking tool: $100-300/month
+
+The project tracking tool is actually your cheapest component. Don't let minor price differences ($20/month) force you into a worse workflow fit—optimize for your team's actual usage patterns.
+
+## Integration Patterns for Hardware Workflows
+
+Beyond the tools themselves, integration architecture determines real-world success. Here's a production-proven pattern:
+
+```javascript
+// Webhook integration: When component becomes available, create dependent task
+// Runs on Octopart availability alert → creates Linear issue
+
+async function handleComponentAvailability(componentEvent) {
+  // Component (ESP32) is back in stock at Mouser
+  const issue = await linearClient.issueCreate({
+    teamId: 'hardware-team',
+    title: `AVAILABLE: ${componentEvent.partNumber} in stock at ${componentEvent.vendor}`,
+    description: `
+## Action Items
+- Update BOM status in manufacturing system
+- Schedule assembly for this week
+- Notify supply chain coordinator
+
+## Stock Details
+- Quantity: ${componentEvent.quantity} units
+- Vendor: ${componentEvent.vendor}
+- Lead Time: ${componentEvent.leadTime} days
+- Price: $${componentEvent.unitPrice}
+
+## Related Issues
+- Links to prototype assembly task
+- Links to PCB layout completion milestone
+    `,
+    priority: 2, // High priority—manufacturing is blocked
+    projectId: 'manufacturing-phase'
+  });
+
+  // Notify Slack with issue link
+  await slack.postMessage({
+    channel: '#manufacturing',
+    text: `Component available: ${componentEvent.partNumber}`,
+    blocks: [{
+      type: 'section',
+      text: {
+        type: 'mrkdwn',
+        text: `<${issue.url}|View task in Linear>`
+      }
+    }]
+  });
+}
+```
+
+This pattern creates an event-driven task creation system where external systems (suppliers, ERP systems, manufacturing equipment) automatically generate tracked work items. No manual data entry.
+
+## Custom Field Setup Across Platforms
+
+Hardware projects benefit from domain-specific metadata:
+
+**Essential Custom Fields:**
+- BOM Reference IDs (linking to component catalogs)
+- Supplier Lead Time (in days)
+- Risk Category (supply chain, technical, timeline)
+- Prototyping Phase (Schematic, PCB, Assembly, Test, Fabrication)
+- Approval Status (Engineering Review, Manufacturing Engineering, Quality)
+- Manufacturing Cost Impact (flagging decisions affecting unit economics)
+
+Linear's custom fields implementation:
+```javascript
+// Linear API: Add hardware-specific custom fields
+await linearClient.teamCreate({
+  name: 'Hardware Team',
+  organizationId: 'org-id',
+  customFields: [
+    {
+      name: 'Lead Time (Weeks)',
+      fieldType: 'NUMBER',
+      description: 'Component availability window'
+    },
+    {
+      name: 'BOM Reference',
+      fieldType: 'TEXT',
+      description: 'Part number in manufacturing database'
+    },
+    {
+      name: 'Risk Category',
+      fieldType: 'SELECT',
+      options: ['Supply Chain', 'Technical', 'Timeline', 'Cost']
+    }
+  ]
+});
+```
+
+Jira provides more complex field types through Service Desk—cascading dropdowns where "Risk Category" selection controls available options for "Mitigation Status."
+
+Notion's database properties offer the most flexibility:
+```
+Database: Hardware Project Tasks
+Properties:
+  - Name (Title)
+  - Phase (Select: Schematic/PCB/Assembly/Test/Fabrication)
+  - Component Reference (Text, linked to Components database)
+  - Lead Time (Number, calculation: Due Date - Today)
+  - Risk Score (Formula: IF(Lead Time < 7, 3, IF(Lead Time < 14, 2, 1)))
+  - Supplier Database Relation (linked to Suppliers database)
+  - Approval Chain (Rollup: MAX(approval_count) across approvers)
+```
+
+The advantage: as your hardware projects mature, you can create rollup properties that aggregate status across dozens of tasks, providing manufacturing-level visibility.
+
+## Workflow Templates for Common Hardware Scenarios
+
+**PCB Design and Layout Review Cycle:**
+```yaml
+Workflow States:
+  1. Schematic Design (4-6 weeks)
+     → Issues for each functional block
+     → Dependency: Component selection complete
+
+  2. Design Review (1 week)
+     → Transitions to "Review" state
+     → Requires approval from lead engineer
+     → Blocks: PCB layout cannot start
+
+  3. PCB Layout (3-4 weeks)
+     → Parallel tracks for routing and layout
+     → Milestone: Design rule check completion
+
+  4. Manufacturing Engineering Review (1 week)
+     → Checks manufacturing feasibility
+     → Feeds back to design if issues found
+
+  5. Released to Manufacturing (completed)
+     → Integrated with MES system
+     → Triggers BOM pull request to suppliers
+```
+
+**Component Procurement Tracking:**
+```yaml
+Workflow States:
+  1. Evaluate (2-3 weeks)
+     → Research alternative parts
+     → Check availability and pricing
+
+  2. Approved (completed)
+     → Can proceed to assembly
+     → Milestone: Added to BOM
+
+  3. On Order (1-8 weeks)
+     → Tracks delivery status
+     → Alerts if delivery slips expected timeline
+
+  4. Received (completed)
+     → Inventory system notified
+     → Can transition to assembly queue
+```
+
+## Real Hardware Team Configuration Examples
+
+A five-person aerospace hardware team implements this Linear setup:
+- Team of 5 engineers (1 mechanical, 2 electrical, 2 manufacturing)
+- Linear Pro for $20/person/month = $100/month
+- GitHub integration handles design file tracking
+- Notion connected for collaborative assembly manuals
+- Slack notifications for critical path items
+
+Their typical issue flow:
+1. Motors specified → Add to BOM (1 day)
+2. Motors ordered → Set phase to "Procurement" (0 days, notification only)
+3. Motors arrive → Verify against spec sheet (1 day lead)
+4. Motors integrated into design → Test results documented (3 days)
+
+The velocity: from order to integration in ~30 days. Linear's dependency visualization shows which mechanical subassemblies can proceed in parallel while waiting for motors.
+
 ---
 
 

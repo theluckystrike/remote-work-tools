@@ -159,6 +159,183 @@ For developers and power users configuring hybrid rooms, follow this implementat
 
 The specific hardware matters less than ensuring each component serves both audiences. A well-configured room with mid-range equipment outperforms an expensive installation with poor lighting or awkward camera angles.
 
+## Hardware Specifications Comparison
+
+Different room types need different approaches. Here's a practical breakdown:
+
+| Room Size | Camera | Lighting | Display | Budget |
+|-----------|--------|----------|---------|--------|
+| 2-4 people | 1x PTZ (4K) | 2x 500W LED panels | 1x 55" + laptop monitor | $3-5K |
+| 5-10 people | 2x PTZ (4K) + wide-angle | 3x 500W + fill lights | 2x 65" displays | $8-12K |
+| 10-20 people | 3x PTZ + wide-angle + operator | 4x 500W + backlighting | 2x 75" + secondary | $15-25K |
+| Large conference | Multi-camera with switcher | Professional lighting rig | 3+ displays + projection | $30K+ |
+
+For developer-run setups (common in startups), aim for the "5-10 people" category even if you have fewer occupants. The extra capacity provides future flexibility.
+
+## Quick Setup Validation Checklist
+
+After installing your hybrid room setup, validate with this checklist:
+
+**Camera:**
+- [ ] In-room person sits centered and clearly visible
+- [ ] Remote participants can read whiteboard text when presenter points at it
+- [ ] Frame includes all likely speaker positions without requiring camera adjustment
+- [ ] No awkward angles (shoot from eye level, never from above or below)
+
+**Audio:**
+- [ ] Remote participants hear crosstalk at conversation volume (not whispers, not shouting)
+- [ ] Test with person speaking from each typical position
+- [ ] Microphone doesn't create feedback when display sound is on
+- [ ] Zoom/Teams registers good audio quality (green bar in audio settings)
+
+**Lighting:**
+- [ ] Faces appear natural color (not washed out or orange)
+- [ ] Minimal shadows on faces (especially under eyes)
+- [ ] No backlighting through windows creating silhouettes
+- [ ] Consistent lighting throughout the room (not some faces bright, others dim)
+
+**Display:**
+- [ ] Remote participants are at least 50% of in-room participant size on screen
+- [ ] Display is at eye level (not down low, not up high)
+- [ ] Glare-free when bright overhead lights are on
+- [ ] Text on screen readable from back of room
+
+**Bandwidth:**
+- [ ] Conduct test call at your typical meeting start time
+- [ ] Verify upload/download speeds match your ISP plan
+- [ ] Test with maximum expected remote participants
+- [ ] Record 10 minutes and check playback quality
+
+Failing any of these signals a configuration problem worth fixing before regular use.
+
+## Budget-Constrained Hybrid Room Setup
+
+If budget is tight, prioritize in this order:
+
+**Tier 1 (Essential - $1500):**
+- 1x PTZ camera (Logitech Group or Huawei TE10)
+- 2x 500W LED panels
+- 1x 55" or 65" display
+- Quality microphone (shure or Audio-Technica condenser)
+
+**Tier 2 (Better Experience - add $1500):**
+- Second display for participant view
+- Second camera for wide room shots
+- Additional lighting fixtures
+
+**Tier 3 (Professional - add $3000+):**
+- Dedicated conference appliance (Zoom Rooms, Google Meet hardware)
+- Professional camera and lighting rigs
+- Document camera for whiteboard sharing
+
+Start at Tier 1 and measure which investment gives best ROI. Often, better lighting gets you 80% of the way there.
+
+## Testing Before Your First Real Meeting
+
+Run these tests before hosting a critical meeting:
+
+```python
+#!/usr/bin/env python3
+# hybrid-room-test.py - Validates all components
+
+import os
+import json
+from datetime import datetime
+
+class HybridRoomTest:
+    def __init__(self):
+        self.results = {
+            "timestamp": datetime.now().isoformat(),
+            "tests": []
+        }
+
+    def test_camera(self):
+        """Verify camera is accessible and configured."""
+        # Using Zoom API to check room status
+        camera_status = self._check_device_status("camera")
+        self.results["tests"].append({
+            "component": "camera",
+            "status": camera_status,
+            "timestamp": datetime.now().isoformat()
+        })
+
+    def test_audio_levels(self):
+        """Check microphone input levels."""
+        # Verify audio is being captured
+        audio_level = self._measure_audio_level()
+        self.results["tests"].append({
+            "component": "audio",
+            "level_db": audio_level,
+            "acceptable": -20 <= audio_level <= -5,
+            "timestamp": datetime.now().isoformat()
+        })
+
+    def test_network(self):
+        """Validate upload/download bandwidth."""
+        # Ensure sufficient bandwidth for 4K video
+        bandwidth = self._measure_bandwidth()
+        self.results["tests"].append({
+            "component": "network",
+            "upload_mbps": bandwidth["up"],
+            "download_mbps": bandwidth["down"],
+            "acceptable": bandwidth["up"] >= 5 and bandwidth["down"] >= 10,
+            "timestamp": datetime.now().isoformat()
+        })
+
+    def test_display(self):
+        """Check display orientation and resolution."""
+        display_info = self._get_display_info()
+        self.results["tests"].append({
+            "component": "display",
+            "resolution": display_info,
+            "acceptable": "2560x1440" in str(display_info) or "3840x2160" in str(display_info),
+            "timestamp": datetime.now().isoformat()
+        })
+
+    def generate_report(self):
+        """Create test report for reference."""
+        with open(f"room_test_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json", "w") as f:
+            json.dump(self.results, f, indent=2)
+
+        print("\n=== Hybrid Room Test Results ===")
+        for test in self.results["tests"]:
+            status = "✓ PASS" if test.get("acceptable", True) else "✗ FAIL"
+            print(f"{status}: {test['component']}")
+
+        return self.results
+
+# Run tests
+if __name__ == "__main__":
+    tester = HybridRoomTest()
+    tester.test_camera()
+    tester.test_audio_levels()
+    tester.test_network()
+    tester.test_display()
+    tester.generate_report()
+```
+
+Run this 30 minutes before your first real meeting using the setup.
+
+## Ongoing Maintenance
+
+Hybrid rooms require regular care to stay functional:
+
+**Monthly:**
+- Clean camera lens with microfiber cloth
+- Check for dust on LED panels
+- Verify network connectivity with speed test
+
+**Quarterly:**
+- Test audio with external call (call a friend)
+- Check for firmware updates on camera
+- Validate lighting consistency (before/after noon)
+
+**Annually:**
+- Professional cleaning of all equipment
+- Replace air filters if applicable
+- Review utilization data and adjust setup if needed
+
+A maintained hybrid room consistently outperforms a well-equipped but neglected one.
 
 ## Related Reading
 
