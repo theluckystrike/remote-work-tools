@@ -195,11 +195,84 @@ kubectl exec -it debug-pod -- wget -qO- http://service-name.namespace.svc.cluste
 
 The connection should fail if no policy permits it. Check the policy status and adjust rules accordingly.
 
+## Remote Team Workflow Considerations
+
+Network policy management requires coordination when your engineering team is distributed. A few patterns that work well for remote teams:
+
+### Policy-as-Code with Git Review
+
+Store all network policy YAML files in a dedicated directory in your infrastructure repository. Require pull request reviews from at least one other engineer before applying any policy change to production. This async review process works naturally for distributed teams and creates a full audit history of every security decision.
+
+Structure your repository like this:
+
+```
+k8s/
+  network-policies/
+    base/
+      default-deny-all.yaml
+      allow-essentials.yaml
+    production/
+      database-access.yaml
+      namespace-isolation.yaml
+    staging/
+      staging-allow-cross-namespace.yaml
+```
+
+Use Kustomize overlays to apply environment-specific policies without duplicating base configurations. This keeps staging and production consistent while allowing different access patterns where needed.
+
+### Coordinating Policy Rollouts Across Timezones
+
+Remote teams spanning multiple timezones face a coordination challenge when rolling out security changes: a policy applied during one engineer's afternoon may break services for colleagues who start their day hours later. Establish two rules:
+
+1. Apply policy changes during an agreed overlap window when multiple team members are online
+2. Use a staging namespace to validate policy behavior before touching production
+
+A staging validation run looks like this:
+
+```bash
+# Apply to staging first
+kubectl apply -f network-policies/ -n staging
+# Run integration tests against staging
+./scripts/smoke-test.sh staging
+# Wait for async approval from team before prod
+```
+
+Configure your CI pipeline to automate staging validation and post results to your team's async communication channel before any production apply is considered.
+
+## Comparing Network Policy Tools
+
+The standard Kubernetes NetworkPolicy resource covers most use cases, but several tools extend what is possible:
+
+| Tool | Strengths | Remote Team Fit |
+|------|-----------|-----------------|
+| Standard NetworkPolicy | Universal, supported everywhere | Good baseline for all teams |
+| Calico | Rich L7 policies, global network sets | Strong for multi-cloud remote teams |
+| Cilium | eBPF-based, service mesh integration | Best observability for distributed debugging |
+| Antrea | VMware integration, flow export | Good for on-prem hybrid teams |
+
+Cilium deserves particular attention for remote teams. Its Hubble observability layer visualizes real-time traffic flows across your cluster, which is invaluable when a distributed team needs to diagnose why a service cannot reach another without physically being in the same room. Engineers can share Hubble dashboard links rather than coordinating live kubectl sessions.
+
 ## Monitoring and Maintenance
 
 Network policies require ongoing attention as your applications evolve. Review policy logs regularly and update rules when adding new services. Document your policy decisions so remote team members understand the security boundaries.
 
 Consider using tools like Calico or Cilium that provide enhanced network policy capabilities beyond the Kubernetes specification, including more sophisticated traffic matching and visualization.
+
+Schedule a monthly async review where engineers post any observed policy gaps or unnecessary restrictions to a shared document. This keeps security posture current without requiring synchronous meetings and gives every team member — regardless of timezone — a voice in how the cluster is protected.
+
+## Frequently Asked Questions
+
+**Do network policies work on managed Kubernetes services like EKS, GKE, or AKS?**
+
+Yes, but you need to verify the CNI plugin supports network policies. EKS requires installing a supported CNI like Calico alongside the default aws-node plugin. GKE and AKS both support network policies natively when enabled during cluster creation. Check your provider's documentation before assuming policies are enforced.
+
+**Can network policies block traffic from cluster administrators?**
+
+No. Network policies apply to pod-to-pod traffic, not to kubectl or direct API server access. A user with kubectl access and the right RBAC permissions can still interact with any pod regardless of network policies. Network policies and RBAC are complementary controls — you need both.
+
+**What happens when two conflicting policies apply to the same pod?**
+
+Kubernetes applies a union of all matching policies. If any policy permits the traffic, it is allowed. There is no deny priority — only explicit allows. This means your deny-all policy blocks traffic by default, and any subsequent policy that permits specific traffic takes effect additively. You cannot write a policy that overrides a more permissive one.
 
 ## Related Reading
 
