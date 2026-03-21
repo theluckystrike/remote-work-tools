@@ -1,17 +1,19 @@
 ---
+
 layout: default
 title: "Remote Work Distraction Elimination Guide 2026"
 description: "A comprehensive guide to eliminating distractions in remote work. Covers digital tools, time management strategies, and async communication patterns for maintaining focus."
 date: 2026-03-21
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /remote-work-distraction-elimination-guide-2026/
 categories: [guides]
 tags: [productivity, focus, remote-work, tools]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
+
 
 {% raw %}
 
