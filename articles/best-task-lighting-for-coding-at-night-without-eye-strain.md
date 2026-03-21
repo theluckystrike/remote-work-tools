@@ -174,6 +174,207 @@ Here's a complete end-to-end setup for late-night coding sessions:
 
 This structured approach combined with proper task lighting dramatically improves next-day alertness and coding quality compared to unlit late-night sessions.
 
+## Preventing and Treating Blue Light Overexposure
+
+Blue light (400-495nm wavelength) suppresses melatonin production, making it harder to sleep after coding sessions. Layered defense works best:
+
+**Layer 1: Reduce source (task lighting)**
+- Use 2700K color temperature for all night coding
+- Avoid 5000K+ cold white lighting entirely after 6pm
+
+**Layer 2: Software filtering**
+- Enable Night Shift (macOS) or Night Light (Windows)
+- Set f.lux custom profile: 3000K at 9pm, 2700K at 11pm
+- Set IDE theme to dark mode with warm accent colors
+
+**Layer 3: Hardware filtering**
+- Blue light blocking glasses ($15-40): Amber-tinted lenses block 70-90% blue light
+- Monitor protectors: Reduce blue light at source (less effective than glasses)
+
+**Layer 4: Behavioral**
+- Stop coding 1-2 hours before sleep
+- Keep phone at arm's length during final work hour
+- Read physical books during wind-down (avoids screens)
+
+Using all four layers reduces blue light impact by 95%+, making sleep easier.
+
+## Seasonal Adjustments to Your Lighting
+
+Seasonal changes affect both natural and artificial lighting:
+
+**Winter (dark by 5pm):**
+- Start warm lighting earlier (4pm instead of 6pm)
+- Increase task light intensity (winter cloudiness reduces visible light)
+- Consider adding vitamin D supplementation (reduced sunlight affects mood and focus)
+
+**Summer (light until 9pm):**
+- Delay warm lighting to 7-8pm (natural daylight extends evening)
+- Reduce task lighting intensity (summer brightness compensates)
+- Watch for afternoon heat affecting monitor visibility
+
+**Transitions (Spring and Fall):**
+- Shift lighting schedule gradually (30 minutes earlier per week)
+- Allows your body to adjust naturally rather than abruptly
+
+## Measuring Lighting Quality in Your Setup
+
+Quantify your lighting to optimize it:
+
+**Using a light meter smartphone app:**
+
+```
+Ideal measurements for night coding:
+- Monitor brightness: 50-100 lux emitted
+- Keyboard illumination: 300-500 lux
+- Room ambient: 50-100 lux
+- Contrast ratio: 3-5:1 (monitor vs. room)
+```
+
+If measurements are off:
+- Monitor too bright (>150 lux): Reduce brightness in display settings
+- Keyboard too dim (<200 lux): Add task lighting
+- Room too bright (>200 lux): Block ambient light sources or move to darker corner
+- Contrast too high (>10:1): Add more ambient fill light
+
+Most developers can optimize their setup using $5 smartphone light meter apps.
+
+## Lighting for Different Coding Tasks
+
+Not all coding requires the same lighting:
+
+**Code review and reading:** Brighter task lighting (400+ lux)
+- Need to distinguish subtle differences between code blocks
+- Higher contrast helps catch syntax errors
+
+**Writing new code:** Moderate task lighting (300 lux)
+- Less visual scrutiny needed than review
+- Warm light reduces eye fatigue during creation
+
+**Debugging:** Bright task lighting (500+ lux) + high contrast
+- Need to read stack traces and logs clearly
+- Monitor the output values in real time
+
+Adjust brightness on dimmable lights based on task. Debugging at minimum brightness creates unnecessary strain.
+
+## Energy Efficiency and Long-Term Costs
+
+LED task lighting costs more upfront but saves money over time:
+
+```
+Lighting cost comparison (5-year analysis):
+
+Incandescent desk lamp (60W):
+- Hardware: $20
+- Energy: 60W × 5 hours/night × 365 days × 5 years × $0.12/kWh = $438
+- Total: $458
+
+LED desk lamp (10W):
+- Hardware: $40
+- Energy: 10W × 5 hours/night × 365 days × 5 years × $0.12/kWh = $73
+- Total: $113
+
+Savings: $345 over 5 years
+Monthly savings: $5.75 from energy alone
+```
+
+LED lights pay for themselves in 2-3 months through energy savings. The upfront cost is easily recovered.
+
+## Troubleshooting Lighting Problems
+
+**Problem: Overhead shadows obscuring code**
+Solution: Reposition task light to angle in front of you rather than behind. Or eliminate overhead lighting entirely.
+
+**Problem: Screen glare despite task lighting**
+Solution: Move light 90 degrees to side instead of directly in front. Position at 45-degree angle from keyboard.
+
+**Problem: Harsh shadows from monitor stand**
+Solution: Add fill light on opposite side (lower intensity) to soften shadows. Or use a monitor arm to reposition the stand.
+
+**Problem: Color temperature appears wrong (too blue or yellow)**
+Solution: Verify color temperature setting in light's app or control panel. Many lights default to 4000K (too cool for night work). Adjust to 2700K-3000K.
+
+## Creating Optimal Night Coding Lighting: The Complete Setup
+
+Bring all elements together for professional-grade setup:
+
+```
+Complete Night Coding Lighting ($180-250):
+
+Primary: BenQ ScreenBar Plus ($129)
+- Auto-dimming based on ambient light
+- Adjustable 2700K-6500K color temperature
+- USB hub integration
+- Eliminates direct light in eyes
+
+Secondary: Xiaomi Mi Computer Light Bar ($59) OR
+           Amazon Basics Desk Lamp ($29)
+- Provides fill light for keyboard and reference materials
+- Prevents the "dark keyboard" problem
+
+Tertiary: Govee LED Strip Lights ($40-60) [optional]
+- Mounts behind monitor
+- Reduces contrast between screen and wall
+- Set to 2700K warm white
+
+Total investment: $188-248
+This setup is maintainable indefinitely (LED lifespan: 25,000+ hours)
+ROI: Paid back through energy savings in 6-12 months
+```
+
+## Advanced: Connecting Lights to Productivity Tools
+
+For developers using Pomodoro or task timers, automate lighting adjustments:
+
+```python
+# Example: Sync lighting to Pomodoro timer via LIFX API
+
+import requests
+from datetime import datetime, timedelta
+
+def sync_lighting_to_pomodoro(work_minutes=25, break_minutes=5):
+    """
+    During work: Full brightness, 2700K
+    During break: Dim to 30%, 2700K (signals transition)
+    """
+
+    lifx_api = "https://api.lifx.com/v1"
+    token = os.environ.get('LIFX_TOKEN')
+    headers = {"Authorization": f"Bearer {token}"}
+
+    # Work phase: Full brightness
+    work_state = {
+        "brightness": 1.0,
+        "color": "kelvin:2700"
+    }
+
+    # Break phase: Dimmed
+    break_state = {
+        "brightness": 0.3,
+        "color": "kelvin:2700"
+    }
+
+    # Set work lighting
+    requests.put(
+        f"{lifx_api}/lights/all/state",
+        json=work_state,
+        headers=headers
+    )
+
+    # Work for 25 minutes
+    time.sleep(work_minutes * 60)
+
+    # Switch to break lighting
+    requests.put(
+        f"{lifx_api}/lights/all/state",
+        json=break_state,
+        headers=headers
+    )
+
+    # Break for 5 minutes
+    time.sleep(break_minutes * 60)
+```
+
+This automation signals productivity phases through light cues, helping your body recognize work vs. break time.
 
 ### Automate Ergonomic Break Reminders
 

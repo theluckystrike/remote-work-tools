@@ -192,6 +192,150 @@ For a new three-person cofounder team, follow this implementation sequence:
 5. Automation implementation: Add meeting creation shortcuts and recording workflows
 6. Testing and refinement: Conduct test calls with screen sharing and recording to verify quality
 
+## Troubleshooting Common Setup Issues
+
+### Audio Echoing During Calls
+
+Echo typically comes from the microphone picking up other participants' audio through your speakers. Solutions:
+
+**Immediate fixes:**
+- Mute your audio when not speaking
+- Use a headset instead of speaker output
+- Reduce speaker volume by 50%
+
+**Structural fixes:**
+- Move microphone closer to your mouth (6 inches from lips)
+- Angle speakers away from microphone
+- Use a USB condenser mic with cardioid pattern (rejects side-angle audio)
+
+### Video Quality Degradation Under Load
+
+If video quality drops when sharing screens or during data transfers:
+
+```bash
+# Reduce video bitrate to free bandwidth for other traffic
+# Zoom: Settings → Video → Advanced
+# Set maximum upload bandwidth: 2.5 Mbps instead of default 4-5 Mbps
+
+# For persistent issues, run bandwidth test
+speedtest-cli --simple
+# If upload < 5 Mbps, reduce Zoom to 1920x1080 resolution
+# If upload < 3 Mbps, use 1280x720 instead
+```
+
+### Ambient Noise Issues
+
+Background noise (HVAC, keyboard clicks, traffic) is more noticeable on budget microphones:
+
+**Temporary solutions:**
+- Mute when not actively speaking
+- Position microphone away from noise sources
+- Use a noise-canceling headset
+
+**Permanent solutions:**
+- Upgrade to a USB condenser mic with cardioid pickup pattern
+- Add acoustic foam to walls around microphone
+- Move meetings to quieter times of day
+
+## Backup Plan for Network Failures
+
+Even with good connectivity, internet issues happen. Establish a backup:
+
+**Backup plan:**
+- Secondary platform: If Zoom fails, auto-escalate to Google Meet (requires both platforms configured)
+- Phone dial-in: Enable phone bridge on your primary platform
+- 4G hotspot: Each cofounder keeps a phone with adequate data plan as emergency fallback
+
+```javascript
+// Simple backup detection script
+setInterval(() => {
+  if (!navigator.onLine || connectionQuality < 'poor') {
+    // Switch to lower-bandwidth platform or suggest phone dial-in
+    showNotification('Network unstable. Use phone dial-in: +1...');
+  }
+}, 10000);
+```
+
+## Video Call Etiquette for Three-Person Teams
+
+With constant communication, establish norms:
+
+**Camera on/off guidelines:**
+- Cameras on for daily standups (15 minutes)
+- Cameras optional for long collaborative sessions (2+ hours)
+- Cameras mandatory for client calls or important decisions
+
+**Screen sharing protocol:**
+- Always share at 1920x1080 minimum resolution
+- Use zoom font size 14+ so remote viewers read code clearly
+- Test screen share 1 minute before presenting
+
+**Recording best practices:**
+- Always notify before recording
+- Store recordings in shared drive immediately after call
+- Delete recordings after 30 days unless marked for archival
+
+## Handling Time Zone Challenges for Three Cofounders
+
+Even three people can span significant time zones. Optimize this:
+
+**Meeting scheduling:**
+- Establish "core hours" when all three are working (often 4-6 hours in practice)
+- Rotate meeting times quarterly to distribute burden fairly
+- Use async updates for topics that don't require real-time discussion
+
+**Example rotation for US West, US Central, Europe:**
+- Q1: Meetings at 8am PT / 10am CT / 5pm CET (18:00 CET)
+- Q2: Meetings at 7am PT / 9am CT / 4pm CET (16:00 CET)
+- Q3: Meetings at 8am PT / 10am CT / 5pm CET (back to Q1)
+- Q4: Meetings at 9am PT / 11am CT / 6pm CET (18:00 CET)
+
+This distributes early mornings and late evenings fairly.
+
+## Equipment Upgrade Path
+
+Don't buy everything at once. Upgrade incrementally:
+
+**Phase 1 ($150-250):** Webcam + headset
+- Logitech C920 or similar 1080p webcam: $80-100
+- Audio-Technica AT2020 headset or Plantronics Poly: $60-120
+
+**Phase 2 ($200-300):** Dedicated microphone + key light
+- Blue Yeti or Audio-Technica AT2020 USB: $100-150
+- Key light (BenQ ScreenBar): $80-120
+
+**Phase 3 ($300-500):** Professional lighting kit
+- Three-point lighting setup: $200-400
+- Ring light + diffuser: $150-200
+
+Most three-person teams find Phase 1 sufficient for good calls. Phase 2 improves audio quality noticeably. Phase 3 is optional for frequent client-facing presentations.
+
+## Monitoring Call Quality Metrics
+
+Track these metrics to ensure your setup is working:
+
+```python
+# Simple call quality monitoring
+call_quality_metrics = {
+    'call_duration_minutes': 45,
+    'video_bitrate_kbps': 2500,
+    'audio_bitrate_kbps': 128,
+    'packet_loss_percent': 0.5,
+    'latency_ms': 45,
+    'jitter_ms': 12
+}
+
+# Green zone (good quality)
+# packet_loss < 1%, latency < 100ms, jitter < 50ms
+
+# Yellow zone (acceptable, may see degradation)
+# packet_loss 1-3%, latency 100-200ms, jitter 50-100ms
+
+# Red zone (poor quality, switch backup plan)
+# packet_loss > 3%, latency > 200ms, jitter > 100ms
+```
+
+Monitor these during calls using built-in platform diagnostics. Most platforms show network stats during active calls.
 
 ## Related Articles
 
