@@ -9,7 +9,7 @@ permalink: /remote-team-podcast-club-format-for-professional-development/
 categories: [guides]
 tags: [remote-work-tools, remote-work, podcast, professional-development, team-learning]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

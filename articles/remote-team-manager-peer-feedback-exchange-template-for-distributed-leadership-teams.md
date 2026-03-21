@@ -68,7 +68,7 @@ permalink: /remote-team-manager-peer-feedback-exchange-template-for-distributed-
 categories: [guides]
 tags: [remote-work-tools, peer-feedback, remote-management, distributed-teams, leadership, async-communication, feedback-templates, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

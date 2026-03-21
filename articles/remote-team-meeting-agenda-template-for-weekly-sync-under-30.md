@@ -9,7 +9,7 @@ permalink: /remote-team-meeting-agenda-template-for-weekly-sync-under-30/
 categories: [guides]
 tags: [remote-work-tools, remote-work, meeting-agenda, team-sync, productivity, developer-tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
