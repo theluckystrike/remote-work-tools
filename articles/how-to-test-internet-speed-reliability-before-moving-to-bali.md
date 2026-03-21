@@ -25,6 +25,14 @@ Speed test results show bandwidth capacity, but reliability determines whether y
 
 Bali's internet infrastructure has improved significantly, with fiber availability expanding in areas like Seminyak, Canggu, and Ubud. However, rural areas and newer coworking spaces may rely on satellite or limited cable infrastructure. Thorough testing before your move prevents productivity disruption.
 
+## Understanding Bali's Internet Landscape
+
+Bali's connectivity varies sharply by neighborhood. Canggu and Seminyak have become digital nomad hubs with multiple ISPs competing for business, resulting in reasonably reliable fiber connections at many coworking spaces. Ubud offers good connectivity in the central area near Monkey Forest Road, with quality dropping as you move toward the rice fields.
+
+The main ISPs operating across Bali include Telkom Indonesia (IndiHome fiber), Biznet, Oxygen, and First Media. Of these, Biznet tends to receive the best reviews from remote workers for consistency, though availability is patchy outside major areas. IndiHome is the most widely available but can experience congestion during peak evening hours.
+
+International routing is a separate concern from raw download speed. Your connection may show 100 Mbps on a local speed test but perform poorly for GitHub pushes or AWS console access because the routing path to US or European data centers adds significant latency. Always test against servers in your actual cloud region.
+
 ## Essential Speed Test Methods
 
 ### Using CLI Speed Test Tools
@@ -64,6 +72,19 @@ traceroute -m 15 8.8.8.8
 ```
 
 Look for consistent latency below 100ms to major global endpoints. Packet loss exceeding 2% indicates unreliable infrastructure. High variance in response times suggests network congestion during peak hours.
+
+For a more thorough jitter measurement, `mtr` (Matt's Traceroute) combines ping and traceroute into a live view:
+
+```bash
+# Install mtr if needed
+brew install mtr  # macOS
+apt install mtr   # Ubuntu
+
+# Run for 60 packets to get a reliable average
+mtr --report --report-cycles 60 github.com
+```
+
+The output shows per-hop latency and packet loss. A hop with high loss that doesn't affect subsequent hops is usually just an ICMP rate-limit. Loss that persists through all downstream hops indicates a real problem.
 
 ### Testing During Different Times
 
@@ -107,6 +128,28 @@ Bali offers numerous coworking spaces with varying internet setups. Before signi
 4. Ask about backup connections: some spaces have redundant fiber or 4G/5G failover
 
 Request the specific bandwidth allocation from space management. A space claiming "100 Mbps" may share that across 50 users, resulting in 2 Mbps per person during peak hours.
+
+The best coworking spaces in Canggu—such as Dojo, Outpost, and Samadi—invest in redundant ISP connections and automatic failover. Ask specifically whether the space has two independent ISPs or a 4G backup. Spaces that can answer this question confidently are usually the ones worth paying a premium for.
+
+## Testing Your Specific Work Tools
+
+Generic speed tests miss tool-specific performance issues. Run tests that mirror your actual workflow before committing to a location.
+
+**For developers using cloud IDEs or remote SSH:**
+```bash
+# Test SSH performance with a timing command
+time ssh user@your-server.com "ls -la /var/log/ | wc -l"
+```
+
+**For video call quality, use Zoom's network test tool** before a live meeting. Google Meet's pre-call diagnostic also shows estimated quality.
+
+**For AWS or GCP users**, test the actual region latency:
+```bash
+# Test latency to AWS ap-southeast-1 (Singapore, closest to Bali)
+ping -c 20 ec2.ap-southeast-1.amazonaws.com
+```
+
+Singapore is typically the lowest-latency AWS region from Bali, usually 30-50ms under good conditions.
 
 ## Long-Term Monitoring Strategies
 
@@ -171,6 +214,14 @@ Evaluate your data against your work requirements:
 | Large file uploads (S3, cloud storage) | N/A | 20+ Mbps | < 2% |
 
 If your test results consistently fall below these thresholds, consider alternative locations or coworking arrangements.
+
+## Backup Connectivity Planning
+
+Even with good primary connectivity, build a backup plan before relying on Bali as your sole remote work base.
+
+A local SIM with a generous data plan is your first line of defense. Telkomsel's Orbit router provides home broadband over 4G, which many remote workers use as a backup or primary connection in areas without fiber. Grab a SIM at the airport and load it with a monthly data package—30-50 GB runs around IDR 100,000-200,000 (roughly $6-12 USD).
+
+A portable 4G router lets you tether from your phone data plan when coworking WiFi fails. Keep your phone charged and your data plan active. This two-connection strategy—primary fiber plus 4G backup—eliminates most connectivity emergencies.
 
 ## Making the Decision
 
