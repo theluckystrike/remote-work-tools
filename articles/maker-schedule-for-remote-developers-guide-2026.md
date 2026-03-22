@@ -33,6 +33,15 @@ The traditional 9-to-5 workday was designed for factory floors, not for software
 
 This guide shows you how to adapt the maker schedule specifically for remote development work in 2026, with practical implementations you can start using today.
 
+## Key Takeaways
+
+- **By consistently keeping these**: hours meeting-free, you enable better collaboration.
+- **That's 14% of your**: time lost before you even start coding.
+- **The maker schedule**: a time-blocking methodology originally popularized by Paul Graham, offers a structured approach to protect your most valuable asset: focused attention.
+- **For most developers**: this means tackling the hardest problem first when mental energy is highest.
+- **Remote work gives you**: control over your environment—use it.
+- **Most remote teams are**: receptive to this once the productivity benefits are explained.
+
 ## What Is the Maker Schedule?
 
 The maker schedule divides your day into dedicated blocks for different types of work. Unlike the manager schedule (which typically uses one-hour meetings), the maker schedule uses larger time blocks—typically half-day or full-day segments—dedicated to either creation or coordination.

@@ -31,6 +31,15 @@ tags: [remote-work-tools]---
 
 Hybrid office network upgrades require symmetric business-class internet (100+ Mbps upload for 50-person offices), Quality of Service (QoS) rules prioritizing video ports (443, 3478-3480, 5000-6000), and gigabit or multi-gig switched infrastructure. WiFi 6E/7 access points with band steering handle concurrent connections better than older standards. Monitor bandwidth continuously using tools like vnstat with Prometheus metrics and Grafana dashboards to catch saturation before video calls degrade. Start by calculating concurrent capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Video calls consume significant bandwidth**: and most platforms recommend 1.5-3 Mbps per participant for HD quality.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **WiFi 6E/7 access points**: with band steering handle concurrent connections better than older standards.
+- **Start by calculating concurrent**: capacity at 40% occupancy × 2 Mbps per participant plus 30% headroom.
+- **Deploy WiFi 6E or**: WiFi 7 access points for better handling of concurrent connections 2.
+
 ## Assessing Your Current Network Capacity
 
 Before upgrading, you need to understand your baseline. Video calls consume significant bandwidth, and most platforms recommend 1.5-3 Mbps per participant for HD quality. With multiple simultaneous calls, bandwidth requirements multiply quickly.

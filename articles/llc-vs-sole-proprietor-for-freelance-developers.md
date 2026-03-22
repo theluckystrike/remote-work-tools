@@ -33,6 +33,15 @@ Choosing the right business structure is one of the first significant decisions 
 
 This guide breaks down the practical differences between LLCs and sole proprietorships specifically for freelance developers, with concrete examples to help you make an informed decision.
 
+## Key Takeaways
+
+- **California's $800 annual minimum**: fee means you need income above $120,000 to break even on S-corp election.
+- **Due to a bug in your code**: the application experiences downtime that causes your client to lose $50,000 in e-commerce revenue.
+- **$300-500 for sole proprietor)**: - Net savings after accounting expenses: approximately $800-1,500 For developers earning $75,000, the S-corp math barely pencils out.
+- **At $100,000+**: the savings become meaningful enough to offset the overhead.
+- **If a $5M judgment**: exceeds your $1M insurance cap, the LLC shield protects assets beyond the insurance payout.
+- **Is your income above**: $80,000 consistently? - No → Stay sole proprietor, revisit at $80K+ - Yes → Continue 2.
+
 ## Understanding the Two Structures
 
 A **sole proprietorship** is the simplest business structure. There's no legal separation between you and your business—when you work as a freelance developer under your own name or a trade name, you're automatically operating as a sole proprietor. This means all business income flows directly to your personal tax return.

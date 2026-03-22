@@ -31,6 +31,15 @@ tags: [remote-work-tools, comparison, remote-work]---
 
 When an eight-engineer remote startup evaluates project management tools, the choice often narrows to Linear vs Shortcut. Both platforms serve development teams well, but they take different approaches to issue tracking, workflow automation, and team coordination. This comparison examines practical considerations for small remote teams building software products.
 
+## Key Takeaways
+
+- **Additional cost consideration**: GitHub Advanced Security ($45/month) integrates well with Linear for dependency scanning and secret detection.
+- **An eight-engineer team pays**: approximately $64/month.
+- **Shortcut's pricing begins at**: $8/user/month for the Standard plan as well.
+- **Growing to 15 engineers:**: Linear starts showing advantages: keyboard workflow scales better when team is larger (less need for heavyweight configuration).
+- **Most teams have clear**: preference after a week of actual use.
+- **The trade-off is more setup time**: but potentially better alignment with unique processes.
+
 ## Core Philosophy Differences
 
 Linear designs itself as a "linear" issue tracking system—the name reflects a belief that work should flow in one direction without bouncing between custom statuses and elaborate workflows. The interface prioritizes keyboard shortcuts, speed, and minimal friction. Each issue has a clear lifecycle: Backlog → Todo → In Progress → Done.
