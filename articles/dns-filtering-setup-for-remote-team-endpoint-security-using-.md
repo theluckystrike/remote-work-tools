@@ -299,5 +299,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Tailscale for Remote Team Networking Setup](/remote-work-tools/tailscale-remote-team-networking-setup/)
 - [How to Run a Remote Team Hackathon 2026](/remote-work-tools/how-to-run-remote-team-hackathon-2026/)
 - [Remote Team Shadow IT Discovery and Management Guide for IT](/remote-work-tools/remote-team-shadow-it-discovery-and-management-guide-for-it-/)
-- [Remote Work VoIP Setup for Home Offices](/remote-work-tools/remote-work-voip-setup-for-home-offices/)
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -351,7 +351,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 - [How to Scale Remote Team Social Events From Informal Chats](/remote-work-tools/how-to-scale-remote-team-social-events-from-informal-chats-t/)
 - [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 - [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
+- [Preserving Remote Team Culture When Doubling in Size](/remote-work-tools/best-practice-for-preserving-remote-team-culture-when-doubling-in-size/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -430,6 +430,6 @@ Only migrate if break-even timeline fits your financial situation.
 - [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
 - [Zulip vs Slack: A Deep Dive into Threaded Conversation](/remote-work-tools/zulip-vs-slack-threaded-conversation-comparison/)
 - [Simple Slack kudos automation using Slack API](/remote-work-tools/best-remote-employee-recognition-program-ideas-for-distribut/)
-- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

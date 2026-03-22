@@ -394,6 +394,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [Best Practice for Remote Team Meeting Structure That Scales](/remote-work-tools/best-practice-for-remote-team-meeting-structure-that-scales-/)
 - [Best Practice for Remote Team Meeting Hygiene When Calendar](/remote-work-tools/best-practice-for-remote-team-meeting-hygiene-when-calendar-/)
-- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
+- [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

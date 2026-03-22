@@ -472,8 +472,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 - [Best Tools for Remote Team Incident Postmortems in 2026](/remote-work-tools/best-tools-for-remote-team-incident-postmortems-2026/)
-- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
 - [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [Best Business Intelligence Tool for Small Remote Teams](/remote-work-tools/best-business-intelligence-tool-for-small-remote-teams-witho/)
+- [How to Run Remote Team Blameless Postmortems 2026](/remote-work-tools/how-to-run-remote-team-blameless-postmortems-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

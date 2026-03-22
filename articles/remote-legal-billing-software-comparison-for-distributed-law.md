@@ -348,7 +348,7 @@ Review each tool's privacy policy and terms of service carefully. Most AI tools 
 
 - [Remote Legal Research Tool Comparison for Distributed Law](/remote-work-tools/remote-legal-research-tool-comparison-for-distributed-law-fi/)
 - [Best Remote Workflow Tool for Distributed Legal Assistants](/remote-work-tools/best-remote-workflow-tool-for-distributed-legal-assistants-m/)
-- [Clio API authentication](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
+- [Remote Law Firm Client Portal Comparison (2026)](/remote-work-tools/remote-law-firm-client-communication-portal-comparison-for-d/)
 - [Best Remote Legal Team Document Collaboration Tool](/remote-work-tools/best-remote-legal-team-document-collaboration-tool-for-contr/)
 - [Best Document Collaboration for a Remote Legal Team of 12](/remote-work-tools/best-document-collaboration-for-a-remote-legal-team-of-12/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

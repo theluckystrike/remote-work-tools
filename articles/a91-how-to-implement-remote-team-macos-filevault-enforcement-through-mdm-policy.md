@@ -384,7 +384,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
 - [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
 - [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
-- [How to Run a Remote Team Hackathon 2026](/remote-work-tools/how-to-run-remote-team-hackathon-2026/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Create Remote Team Compliance Documentation](/remote-work-tools/how-to-create-remote-team-compliance-documentation-checklist/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

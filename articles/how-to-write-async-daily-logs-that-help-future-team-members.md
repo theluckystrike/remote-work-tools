@@ -346,7 +346,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
 - [Best Tools for Remote Team Daily Health Checks](/remote-work-tools/best-tools-remote-team-daily-health-checks/)
-- [How to Replace Daily Standups with Async Text Updates](/remote-work-tools/how-to-replace-daily-standups-with-async-text-updates-effect/)
+- [Daily Check In Tools for Remote Teams 2026](/remote-work-tools/daily-check-in-tools-for-remote-teams-2026/)
 - [How to Run Remote Team Daily Standup in Slack Without Bot](/remote-work-tools/how-to-run-remote-team-daily-standup-in-slack-without-bot-fatigue/)
 - [How to Run a Fully Async Remote Team No Meetings Guide](/remote-work-tools/how-to-run-a-fully-async-remote-team-no-meetings-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

@@ -317,10 +317,9 @@ Digital signature tools provide the infrastructure, but your implementation dete
 
 - [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
 - [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
-- [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
 - [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
-- [Best Client Portal for Remote Design Agency 2026 Comparison](/remote-work-tools/best-client-portal-for-remote-design-agency-2026-comparison/)
-
+- [Best Whiteboard Tool for Remote Client Brainstorming](/remote-work-tools/best-whiteboard-tool-for-remote-client-brainstorming-session/)
+- [Client Document Sharing Portals for Remote Teams](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -318,8 +318,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Best SIP Phone Software for Remote Workers: A Technical](/remote-work-tools/best-sip-phone-software-for-remote-workers/)
-- [Home Office Network Setup for Video Calls](/remote-work-tools/home-office-network-video-calls-setup/)
-- [Install OpenConnect (common in enterprise environments)](/remote-work-tools/remote-employee-digital-workspace-setup-guide-for-first-day-/)
+- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [Track all critical accounts requiring phone verification](/remote-work-tools/how-to-maintain-us-phone-number-while-working-remotely-from-/)
 - [How to Set Up Home Office Network for Remote Work](/remote-work-tools/how-to-set-up-home-office-network-for-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

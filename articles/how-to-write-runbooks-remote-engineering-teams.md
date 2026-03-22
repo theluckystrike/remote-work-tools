@@ -306,12 +306,11 @@ The index should live in the same location as the runbooks (Obsidian vault, Conf
 
 ## Related Articles
 
+- [Remote Incident Response Runbook Guide (2026)](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
 - [Migration runbook example structure](/remote-work-tools/best-tool-for-remote-teams-creating-interactive-runbooks-wit/)
 - [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
-- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/---)
+- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/)
 - [Best GitBook Alternative for Remote Engineering Teams](/remote-work-tools/best-gitbook-alternative-for-remote-engineering-teams-publis/)
-- [Escalation Protocols for Remote Engineering Teams](/remote-work-tools/escalation-protocols-for-remote-engineering-teams/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

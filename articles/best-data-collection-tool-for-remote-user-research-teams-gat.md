@@ -279,7 +279,7 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 - [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
 - [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
+- [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
 A practical startup stack might be: Google Forms (surveys) + Zoom (interviews) + Otter.ai (transcription) + Notion (findings) + organic recruiting. Cost: ~$25/month plus participant incentives.
 
 A growing team stack might be: Typeform (surveys) + Calendly (scheduling) + Otter.ai (transcription) + Respondent.io (selective recruiting) + Notion (analysis). Cost: $100-300/month plus participant incentives.

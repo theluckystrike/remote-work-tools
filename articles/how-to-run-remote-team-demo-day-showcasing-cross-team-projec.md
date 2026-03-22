@@ -278,7 +278,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Practice for Remote Team Product Demo Day Format That](/remote-work-tools/best-practice-for-remote-team-product-demo-day-format-that-s/)
 - [Remote Sales Team Demo Environment Setup for Distributed](/remote-work-tools/remote-sales-team-demo-environment-setup-for-distributed-sol/)
 - [How to Run Effective Remote Team Demos and Showcases 2026](/remote-work-tools/how-to-run-effective-remote-team-demos-and-showcases-2026/)
+- [How to Record Client Demo Videos Asynchronously for Remote](/remote-work-tools/how-to-record-client-demo-videos-asynchronously-for-remote-a/)
 - [How to Build Cross-Team Relationships in Large Remote](/remote-work-tools/how-to-build-cross-team-relationships-in-large-remote-organi/)
-- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

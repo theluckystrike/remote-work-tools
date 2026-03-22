@@ -366,10 +366,10 @@ Before choosing, verify:
 ## Related Articles
 
 - [Best Onboarding Tools for a Remote Team Hiring 3 People](/remote-work-tools/best-onboarding-tools-for-a-remote-team-hiring-3-people-monthly/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 - [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
 - [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
 - [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
+- [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
 1. [Hiring Remote Engineers: Building Technical Teams Across Time Zones](/articles/remote-hiring-technical-teams/)
 2. [Structuring Technical Interviews: Whiteboarding vs. Coding vs. System Design](/articles/technical-interview-formats/)
 3. [Using Take-Home Assignments in Remote Hiring: Pros and Cons](/articles/take-home-coding-assignments/)

@@ -278,6 +278,6 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [How to Scale Remote Team Access Management When Onboarding](/remote-work-tools/how-to-scale-remote-team-access-management-when-onboarding-m/)
 - [How to Implement Just-in-Time Access for Remote Team](/remote-work-tools/how-to-implement-just-in-time-access-for-remote-team-cloud-r/)
 - [How to Implement Least Privilege Access for Remote Team](/remote-work-tools/how-to-implement-least-privilege-access-for-remote-team-clou/)
-- [Zero Trust Remote Access Setup Guide for Small Engineering](/remote-work-tools/zero-trust-remote-access-setup-guide-for-small-engineering-t/)
+- [Just-in-Time Database Access for Remote Teams](/remote-work-tools/how-to-secure-remote-team-database-access-with-just-in-time-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

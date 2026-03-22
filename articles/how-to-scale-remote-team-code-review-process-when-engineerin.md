@@ -387,9 +387,9 @@ async function getReviewMetrics(org, repo, days = 30) {
 
 ## Related Articles
 
-- [Async Code Review Process Without Zoom Calls Step by Step](/remote-work-tools/async-code-review-process-without-zoom-calls-step-by-step/)
-- [Code Review Tools for Solo Freelance Developers](/remote-work-tools/code-review-tools-for-solo-freelance-developers/)
 - [Remote Developer Code Review Workflow Tools for Teams](/remote-work-tools/remote-developer-code-review-workflow-tools-for-teams-without-synchronous-overlap/)
+- [Best Practice for Remote Team Code Review Comments](/remote-work-tools/best-practice-for-remote-team-code-review-comments-keeping-f/)
+- [How to Create Remote Team Architecture Documentation](/remote-work-tools/how-to-create-remote-team-architecture-documentation-using-d/)
 - [How to Set Up Remote Team Code Standards Enforcement (2026)](/remote-work-tools/how-to-set-up-remote-team-code-standards-enforcement-2026/)
-- [How to Do Async Code Pairing with Recorded Screen Share](/remote-work-tools/how-to-do-async-code-pairing-with-recorded-screen-share-sessions/)
+- [Remote Code Review Tools Comparison 2026](/remote-work-tools/remote-code-review-tools-comparison-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

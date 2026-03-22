@@ -419,7 +419,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Mobile Presentation Remote App for Remote Speakers](/remote-work-tools/best-mobile-presentation-remote-app-for-remote-speakers-cont/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [Remote Work Distraction Elimination Guide 2026](/remote-work-tools/remote-work-distraction-elimination-guide-2026/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [Best Remote Work Ergonomic Mouse 2026](/remote-work-tools/best-remote-work-ergonomic-mouse-2026/)
+- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

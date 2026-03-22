@@ -335,7 +335,7 @@ Switching costs are real. Migration typically takes a sprint's worth of engineer
 
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
 - [Trello vs GitHub Projects for a 5-Person Open Source Team](/remote-work-tools/trello-vs-github-projects-for-5-person-open-source-team/)
-- [.GitHub/ISSUE_TEMPLATE/onboarding.yml](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 - [Best Project Management Tool for 3 Person Startup 2026](/remote-work-tools/best-project-management-tool-for-3-person-startup-2026/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
+- [Hybrid Team Onboarding Process Template (2026)](/remote-work-tools/hybrid-team-onboarding-process-template-for-new-hires-splitting-time-office-and-home/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
