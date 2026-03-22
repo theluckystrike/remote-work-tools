@@ -11,24 +11,13 @@ tags: [remote-work-tools, tools, remote-work]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
 Document architecture decisions in your remote team using Architecture Decision Records (ADRs)--structured Markdown files stored in your codebase under `docs/adr/` that capture the context, decision, and consequences of each significant technical choice. Use a three-phase async workflow: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged. This creates a searchable trail of reasoning that survives personnel changes and eliminates reliance on memory or Slack history.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The ADR Standard
+## The ADR Standard
 
 Architecture Decision Records (ADRs) provide a structured format for capturing significant technical choices. An ADR documents the context, the decision, and the consequences. Unlike meeting notes that capture what was discussed, an ADR captures what was decided and why.
 
@@ -37,18 +26,18 @@ A basic ADR structure looks like this:
 ```markdown
 # ADR-001: Use PostgreSQL for Primary Data Store
 
-### Step 2: Status
+## Status
 Accepted
 
-### Step 3: Context
+## Context
 Our application requires a relational database with ACID compliance, JSON support,
 and strong consistency guarantees. We evaluated MongoDB, MySQL, and PostgreSQL
 against our requirements.
 
-### Step 4: Decision
+## Decision
 We will use PostgreSQL as our primary data store.
 
-### Step 5: Consequences
+## Consequences
 - Positive: Excellent JSON support enables flexible schema evolution
 - Positive: Mature ecosystem with excellent tooling
 - Negative: Requires more setup than SQLite for local development
@@ -57,7 +46,7 @@ We will use PostgreSQL as our primary data store.
 
 This format works because it forces you to articulate the tradeoffs. When someone questions the decision six months later, the ADR contains the reasoning, not just the result.
 
-### Step 6: Remote Collaboration Workflow
+## Remote Collaboration Workflow
 
 Documenting decisions in a remote setting requires intentional async workflows. Here's how to make ADRs part of your team's rhythm.
 
@@ -78,7 +67,7 @@ Use a shared location—GitHub, Notion, Confluence—as long as it's searchable 
 For major decisions, allow 48-72 hours for review across time zones. Tag specific reviewers based on expertise:
 
 ```markdown
-### Step 7: Reviewers
+## Reviewers
 - @backend-lead (database considerations)
 - @devops-lead (infrastructure implications)
 - @security-lead (security implications)
@@ -90,7 +79,7 @@ This async review prevents decision paralysis while ensuring relevant expertise 
 
 Once review settles, update the status and merge or publish the ADR. The decision is now recorded. If someone disagrees after the fact, they can reference the documented reasoning rather than relying on memory or assumption.
 
-### Step 8: Practical ADR Management
+## Practical ADR Management
 
 Managing ADRs over time requires consistent tooling and conventions. Here are patterns that scale.
 
@@ -101,13 +90,13 @@ Start with ADRs numbered sequentially. When an ADR gets superseded, create a new
 ```markdown
 # ADR-042: Use Redis for Session Storage
 
-### Step 9: Status
+## Status
 Accepted
 
-### Step 10: Supersedes
+## Supersedes
 ADR-023 (In-Memory Session Storage)
 
-### Step 11: Context
+## Context
 ...
 ```
 
@@ -120,7 +109,7 @@ Add tags to group related decisions:
 ```markdown
 # ADR-067: Adopt GraphQL for API Layer
 
-### Step 12: Tags
+## Tags
 - api-design
 - frontend-backend-contract
 - performance
@@ -142,7 +131,7 @@ docs/
 
 This keeps decisions close to the code they govern. When someone asks "why does this work this way?", they can find the answer in the same repo.
 
-### Step 13: Decision Templates Beyond ADRs
+## Decision Templates Beyond ADRs
 
 ADRs work well for significant architectural choices, but remote teams benefit from additional documentation types.
 
@@ -153,19 +142,19 @@ Request for Comments documents capture proposals before they become decisions. R
 ```markdown
 # RFC-015: Introduce Message Queue for Async Processing
 
-### Step 14: Problem Statement
+## Problem Statement
 Currently, all background jobs run synchronously within request handlers,
 causing timeout issues for long-running operations.
 
-### Step 15: Proposed Solution
+## Proposed Solution
 Introduce RabbitMQ with producer/consumer pattern...
 
-### Step 16: Open Questions
+## Open Questions
 1. How do we handle message ordering guarantees?
 2. What monitoring do we need?
 3. How does this affect local development setup?
 
-### Step 17: Timeline
+## Timeline
 Feedback requested by March 20. Target decision: March 25.
 ```
 
@@ -178,16 +167,16 @@ When architectural decisions lead to problems, document the failure:
 ```markdown
 # Post-Mortem: Database Connection Pool Exhaustion (2026-02-15)
 
-### Step 18: What Happened
+## What Happened
 Application became unresponsive during peak traffic. Root cause: database
 connection pool configured with max 10 connections, insufficient for
 concurrent request load.
 
-### Step 19: Why
+## Why
 ADR-015 specified conservative connection limits based on initial traffic
 projections. Traffic exceeded projections without revisiting the decision.
 
-### Step 20: Corrective Actions
+## Corrective Actions
 - ADR-015 updated to include connection pool auto-scaling
 - Added monitoring for connection pool utilization
 - Established quarterly review of capacity decisions
@@ -195,7 +184,7 @@ projections. Traffic exceeded projections without revisiting the decision.
 
 Post-mortems paired with ADRs create feedback loops that improve future decisions.
 
-### Step 21: Tools That Support Remote Decision Documentation
+## Tools That Support Remote Decision Documentation
 
 Several tools integrate well with remote team workflows:
 
@@ -207,7 +196,7 @@ Several tools integrate well with remote team workflows:
 
 The tool matters less than consistency. Pick one approach and follow it.
 
-### Step 22: Common Pitfalls
+## Common Pitfalls
 
 Remote architecture documentation fails when it becomes performative rather than practical. Avoid these patterns:
 
@@ -219,7 +208,7 @@ Architecture evolves. Mark superseded decisions clearly rather than deleting the
 
 Architecture decisions made by one person without input rarely survive contact with reality. Async review, even if brief, surfaces blind spots.
 
-### Step 23: Build the Habit
+## Building the Habit
 
 The best ADR system is one your team actually uses. Start small:
 
@@ -231,21 +220,6 @@ Over time, the habits compound. New team members can understand why the system w
 
 Remote work doesn't have to mean architectural amnesia. With structured documentation and async collaboration patterns, distributed teams can make decisions that endure.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

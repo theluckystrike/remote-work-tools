@@ -20,17 +20,7 @@ Building a leadership development pipeline for distributed teams requires delibe
 
 This guide provides a practical framework for creating a leadership pipeline that works across time zones and communication gaps.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: The Remote Leadership Challenge
+## The Remote Leadership Challenge
 
 When your team spans multiple regions, traditional leadership development models break down. You cannot rely on:
 
@@ -41,7 +31,7 @@ When your team spans multiple regions, traditional leadership development models
 
 Instead, you need explicit systems that capture the informal development moments that happen naturally in offices but require intentional design for remote environments.
 
-### Step 2: Stage 1: Identify Leadership Potential
+## Stage 1: Identify Leadership Potential
 
 The first step involves recognizing which team members have leadership qualities, even when they're working asynchronously across different schedules.
 
@@ -83,7 +73,7 @@ Create a simple tracking system using your existing tools. A Notion database or 
 
 Review these signals monthly during your leadership sync. This data becomes the foundation for promotion decisions.
 
-### Step 3: Stage 2: Structured Development Tracks
+## Stage 2: Structured Development Tracks
 
 Once you've identified potential leaders, create clear development tracks with specific milestones.
 
@@ -131,7 +121,7 @@ Pair potential leaders with current leaders using structured async communication
 ```markdown
 # Monthly Leadership Mentor Template
 
-### Step 4: Month: [Date Range]
+## Month: [Date Range]
 
 ### Focus Area
 [What leadership skill are you working on this month?]
@@ -151,7 +141,7 @@ Pair potential leaders with current leaders using structured async communication
 
 Schedule these async check-ins bi-weekly, with optional video calls monthly. The written record becomes valuable historical data for promotion discussions.
 
-### Step 5: Stage 3: Practical Leadership Opportunities
+## Stage 3: Practical Leadership Opportunities
 
 Growth requires practice. Create low-stakes leadership opportunities that distributed teams can execute asynchronously.
 
@@ -186,7 +176,7 @@ Assign potential leaders to lead specific initiatives:
 
 Each project type provides different leadership experiences and creates evidence for promotion decisions.
 
-### Step 6: Stage 4: Assessment and Promotion
+## Stage 4: Assessment and Promotion
 
 Remote leadership promotion requires defensible criteria. Document your evaluation process clearly.
 
@@ -197,13 +187,13 @@ When promoting from within, require a promotion packet:
 ```markdown
 # Promotion Packet Template
 
-### Step 7: Nominee Information
+## Nominee Information
 - Name:
 - Current Role:
 - Proposed Role:
 - Time in Current Role:
 
-### Step 8: Leadership Evidence
+## Leadership Evidence
 ### Technical Leadership
 [Links to PRs, architecture docs, technical decisions]
 
@@ -216,7 +206,7 @@ When promoting from within, require a promotion packet:
 ##异步 Communication Examples
 [Samples demonstrating async leadership communication]
 
-### Step 9: Impact Metrics
+## Impact Metrics
 [Quantifiable results of leadership initiatives]
 
 ## 360 Feedback Summary
@@ -237,7 +227,7 @@ Use a structured decision matrix:
 
 Require consensus from at least three senior leaders before promoting. This prevents individual bias and creates institutional memory of promotion decisions.
 
-### Step 10: Common Pitfalls to Avoid
+## Common Pitfalls to Avoid
 
 ### Promoting Only Technical Excellence
 
@@ -255,7 +245,7 @@ Some engineers accelerate through stages; others need more time. Create clear mi
 
 Remote organizations cannot rely on institutional memory through personal relationships. Document everything: decision rationale, promotion criteria, development track expectations. New team members should understand the leadership path clearly.
 
-### Step 11: Implementation Checklist
+## Implementation Checklist
 
 To start building your pipeline:
 
@@ -270,21 +260,6 @@ To start building your pipeline:
 
 The best remote leadership pipelines feel invisible—they create natural opportunities for growth without requiring constant manager intervention. Build systems that scale beyond your direct observation, and your distributed organization will develop leaders who thrive in asynchronous environments.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

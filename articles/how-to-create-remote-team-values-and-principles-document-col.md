@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, team-culture, collaboration]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 
@@ -24,17 +23,7 @@ This guide walks through a practical workflow for creating remote team values us
 
 Values documents fail when leadership drafts them in isolation and presents them as done. Team members who never contributed to the discussion treat them as performative artifacts. Collaborative creation serves two purposes: the final document benefits from diverse perspectives, and the process itself builds shared understanding about what the team stands for.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Phase 1: Gathering Initial Input
+## Phase 1: Gathering Initial Input
 
 Start with a structured async brainstorm rather than a live meeting. This gives everyone equal opportunity to contribute regardless of timezone.
 
@@ -59,20 +48,20 @@ FILENAME="$TEAM_DIR/input-$(date +%s).md"
 cat > "$FILENAME" << EOF
 # Values Brainstorm - $DATE
 
-### Step 2: What behavior do you most appreciate from teammates?
+## What behavior do you most appreciate from teammates?
 
-### Step 3: What frustrates you about remote collaboration?
+## What frustrates you about remote collaboration?
 
-### Step 4: What principles should guide our decisions?
+## What principles should guide our decisions?
 
-### Step 5: What does great teamwork look like?
+## What does great teamwork look like?
 
 EOF
 
 echo "Created brainstorm template: $FILENAME"
 ```
 
-### Step 6: Phase 2: Synthesis and Categorization
+## Phase 2: Synthesis and Categorization
 
 Designate a facilitator to synthesize the responses. They cluster similar themes, identify patterns, and draft an initial framework.
 
@@ -89,28 +78,28 @@ Create a structured document:
 ```markdown
 # Team Values Draft
 
-### Step 7: Communication
+## Communication
 - **Over-communicate context**: Share the why behind decisions
 - **Async by default**: Reserve sync time for complex discussions
 - **Document decisions**: If it wasn't written down, it didn't happen
 
-### Step 8: Ownership
+## Ownership
 - **Raise blockers early**: Better to ask for help than miss deadlines silently
 - **Take initiative**: If you see something broken, fix it
 
-### Step 9: Respect
+## Respect
 - **Assume good intent**: Text lacks tone—give colleagues the benefit
 - **Respect time zones**: Record meetings, use async video
 
-### Step 10: Growth
+## Growth
 - **Learn from mistakes**: Blameless post-mortems make everyone safer
 - **Share knowledge**: Teaching reinforces your own understanding
 
-### Step 11: Results
+## Results
 - **Outcome over output**: Working more hours doesn't equal more value
 ```
 
-### Step 12: Phase 3: Collaborative Refinement
+## Phase 3: Collaborative Refinement
 
 Share the synthesized draft for another async review. Ask specific questions:
 
@@ -125,14 +114,14 @@ name: Values Feedback
 title: "Values Review: [Category]"
 labels: team-values
 
-### Step 13: Your feedback on this value:
-### Step 14: A real example from your experience:
-### Step 15: Suggested change:
+## Your feedback on this value:
+## A real example from your experience:
+## Suggested change:
 ```
 
 Values should emerge with strong consensus. If three or more team members strongly disagree with a value, revise it or remove it.
 
-### Step 16: Phase 4: Finalization and Version Control
+## Phase 4: Finalization and Version Control
 
 Commit the document to version control. Treat it like code:
 
@@ -152,7 +141,7 @@ docs/
 └── onboarding.md # New team member guide
 ```
 
-### Step 17: Phase 5: Living the Document
+## Phase 5: Living the Document
 
 A values document only matters if the team uses it. Build reference points into workflows:
 
@@ -171,14 +160,14 @@ Review quarterly. Teams evolve, and values should reflect current priorities.
 - [ ] Any values feel outdated?
 ```
 
-### Step 18: Example Values Document
+## Example Values Document
 
 ```markdown
 # Our Team Values
 
 **Last updated**: March 2026
 
-### Step 19: Communication
+## Communication
 ### Over-communicate Context
 Include the reasoning behind decisions, not just the what.
 
@@ -188,28 +177,28 @@ Default to async. Use sync time only for complex discussions.
 ### Bad News Travels Fast
 Share problems early. Hiding issues removes options.
 
-### Step 20: Ownership
+## Ownership
 ### Take Initiative
 If you see something broken, fix it or assign it.
 
 ### Raise Blockers Early
 Asking for help is a strength. Blockers unraised become crises.
 
-### Step 21: Respect
+## Respect
 ### Assume Good Intent
 Written communication lacks tone. Give colleagues the benefit.
 
 ### Respect Time Zones
 Record meetings. Don't expect immediate responses outside core hours.
 
-### Step 22: Growth
+## Growth
 ### Learn from Mistakes
 Blameless post-mortems. The goal is systemic improvement.
 
 ### Share Knowledge
 Writing things down helps the team scale.
 
-### Step 23: Results
+## Results
 ### Outcome Over Output
 Focus on what actually moves the needle.
 
@@ -217,7 +206,7 @@ Focus on what actually moves the needle.
 Burnout destroys long-term productivity.
 ```
 
-### Step 24: Tools
+## Tools
 
 Remote teams use various tools:
 
@@ -227,7 +216,7 @@ Remote teams use various tools:
 
 Choose tools your team already uses.
 
-### Step 25: Common Pitfalls
+## Common Pitfalls
 
 Avoid these mistakes:
 
@@ -235,90 +224,6 @@ Avoid these mistakes:
 - Generic language: Be specific about what values look like in practice
 - Written once, never revisited: Treat values as living documents
 - No accountability: Reference values in feedback and decisions
-
-## Making Values Stick Across Timezones
-
-The hardest part of a remote team values document is not writing it — it is keeping it alive once the initial energy fades. Distributed teams face a specific challenge: there is no hallway conversation to reinforce culture, no body language to signal when a value is being violated, and no shared lunch table where norms get informally re-negotiated.
-
-### Embed Values Into Async Workflows
-
-Build values reference points into the tools your team uses every day:
-
-**Pull request templates:**
-
-```markdown
-<!-- .github/pull_request_template.md -->
-## What does this change do?
-
-## Which team value does this reflect?
-<!-- e.g., "Take initiative — I noticed X was broken and fixed it" -->
-<!-- or "Share knowledge — I added comments and updated the runbook" -->
-
-## Checklist
-- [ ] Tested locally
-- [ ] Updated documentation if behavior changed
-- [ ] Added observability (logging, metrics) for significant changes
-```
-
-**Retrospective agenda template:**
-
-```markdown
-# Sprint Retrospective — {{date}}
-
-## Shoutouts (5 min)
-Who demonstrated a team value this sprint? Be specific.
-
-## What worked well?
-(Reference values where relevant)
-
-## What didn't work?
-(Are any values being systematically violated?)
-
-## Action items
-| Action | Owner | Due |
-|--------|-------|-----|
-|        |       |     |
-```
-
-Retrospectives that explicitly reference values over time build a feedback loop: team members start connecting their behavior to documented principles without prompting.
-
-### Values as an Onboarding Tool
-
-New team members in remote environments often struggle with unwritten rules — the informal norms that never made it into documentation. A living values document closes that gap, but only if onboarding treats it as a conversation rather than assigned reading.
-
-Structure the onboarding experience around the document:
-
-1. New team member reads the values doc on day one
-2. On day three, their onboarding buddy asks: "Which two values resonate most with you? Which one surprised you?"
-3. The answers go into a lightweight onboarding notes doc the team reviews quarterly
-4. Patterns in those answers reveal which values need clearer explanation and which are already well-communicated
-
-This creates a feedback mechanism that improves the document over time without requiring a formal review cycle.
-
-### Handling Values Conflicts
-
-Remote teams inevitably face situations where two stated values pull in opposite directions. "Move fast" and "assume good intent" can conflict when a quick unreviewed change breaks someone else's work. Document how the team resolves these tensions explicitly:
-
-```markdown
-## When Values Conflict
-
-### Speed vs. Thoroughness
-Default to involving the affected party. A 10-minute async message
-prevents a 2-hour rollback. Speed wins on reversible decisions;
-thoroughness wins when changes are hard to undo.
-
-### Async First vs. Bad News Travels Fast
-Time-sensitive blockers override async defaults. If something will
-block another team member within 24 hours, use the urgent channel
-or send a direct message — don't wait for async to be noticed.
-
-### Ownership vs. Collaboration
-If you see something broken and can fix it in under 30 minutes, fix
-it. For anything larger, create an issue first and check with the
-relevant owner before making changes.
-```
-
-Documenting these resolution rules prevents the values document from becoming an intellectual exercise and turns it into a practical decision-making tool.
 
 ## Frequently Asked Questions
 
@@ -351,5 +256,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Document Architecture Decisions for Remote Teams](/remote-work-tools/how-to-document-architecture-decisions-remote-team/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-
 {% endraw %}

@@ -13,82 +13,24 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
-{% raw %}
-
-# API Authentication
-
-Your team needs to implement OAuth 2.0 for all external API access...
-```
-
-**Database-backed storage** using SQLite provides search capabilities and concurrent editing support. Tools like mdBook with embedded search or custom solutions using better-sqlite3 give you full-text search out of the box.
-
-For most remote teams, Git-based flat files strike the best balance. You get version control, familiar workflows, and straightforward hosting through GitHub Pages, Netlify, or similar services.
-
-# Find files not modified in the last 90 days
-git log --since="90 days ago" --pretty=format:'%h %s' --name-only | \
- grep -E '\.md$' | sort | uniq -c | sort -n
-```
-
-Review files that haven't received updates. Either they're no longer needed, or they're orphaned and require attention.
-
-Schedule monthly documentation review sessions. Block one hour, go through recent changes, and discuss what should be added. Making documentation visible in team meetings reinforces its importance.
-
-### Step 6: Hosting and Deployment
-
-For a Git-based wiki, deployment is straightforward. GitHub Pages provides free hosting with custom domain support. Netlify or Vercel add CI/CD pipelines and preview deployments for every pull request.
-
-Configure your deployment to run search index generation as part of the build process. This ensures your search always reflects current content:
-
-```yaml
-# netlify.toml
-[build]
- command = "npm run build && npm run index"
- publish = "dist"
-
-[[redirects]]
- from = "/search"
- to = "/search.html"
- status = 200
-```
-
-Preview deployments let teammates review documentation changes before they go live. This is particularly valuable for architectural decisions where precision matters.
-
-### Step 7: Measuring Success
-
-Track wiki health through concrete metrics:
-
-- Search usage: How often do teammates search? What queries return no results?
-- Update frequency: How many pages changed in the last month?
-- Time to find: Can teammates locate information in under 30 seconds?
-- Contributor count: How many different people contribute content?
-
-These metrics reveal whether your wiki solves problems or creates maintenance busywork. Adjust your approach based on what the data tells you.
-
-### Step 8: Writing Standards That Prevent Rot
-
-The biggest cause of wiki decay isn't neglect — it's vague writing that makes content impossible to evaluate later. A page that says "configure the database connection" without specifics becomes useless the moment the database changes. Writing standards prevent this.
-
-Enforce these standards through a simple page template that every new article must follow:
-
-```markdown---
 title: [Action-oriented title: "Configure PostgreSQL Connection Pooling"]
 last_verified: YYYY-MM-DD
 verified_by: @username
 applies_to: [services, environments, or tools this covers]
 ---
 
-### Step 9: Context
+## Context
 [One paragraph: when does someone need this page? What problem does it solve?]
 
 ## Prerequisites
 - [What must already be set up]
 - [What permissions or access are required]
 
-### Step 10: Steps
+## Steps
 1. [Step with specific commands or screenshots]
 2. [Step with expected output]
 
-### Step 11: Verification
+## Verification
 [How to confirm it worked — specific command output or test]
 
 ## Troubleshooting
@@ -97,14 +39,14 @@ applies_to: [services, environments, or tools this covers]
 
 The `last_verified` and `verified_by` fields are the most valuable additions. When a teammate finds a page that hasn't been verified in 8 months, they know to treat it with caution and verify the steps before relying on them.
 
-### Step 12: Preventing the "One Person Writes Everything" Failure Mode
+## Preventing the "One Person Writes Everything" Failure Mode
 
 Most wikis start with one enthusiastic contributor writing the majority of the content. When that person leaves or moves to a different team, the wiki stops getting updated and slowly decays.
 
 Build distributed contribution from the start with a section ownership model:
 
 ```markdown
-### Step 13: Wiki Section Ownership
+## Wiki Section Ownership
 
 | Section | Owner | Backup | Review Cadence |
 |---|---|---|---|
@@ -121,7 +63,7 @@ Owners are responsible for:
 
 Assign ownership during the wiki's creation, not after it's built. Retroactive ownership assignment faces resistance — no one wants to inherit a large section of untested content they didn't write.
 
-### Step 14: Use GitHub Actions to Flag Stale Content
+## Using GitHub Actions to Flag Stale Content
 
 Automate stale content detection rather than relying on manual quarterly audits:
 
@@ -205,5 +147,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-```
-{% endraw %}
+

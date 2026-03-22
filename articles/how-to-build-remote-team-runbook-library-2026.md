@@ -8,8 +8,7 @@ score: 8
 voice-checked: true
 intent-checked: true
 tags: ["runbooks", "incident response", "remote work", "documentation", "on-call"]
-permalink: /how-to-build-remote-team-runbook-library-2026/
----
+permalink: /how-to-build-remote-team-runbook-library-2026/---
 
 {% raw %}
 
@@ -344,12 +343,12 @@ LINKS
 ## Remediation
 ```
 Option A: [Most common cause]
- 1. Step 1
- 2. Step 2
+  1. Step 1
+  2. Step 2
 
 Option B: [Less common cause]
- 1. Step 1
- 2. Step 2
+  1. Step 1
+  2. Step 2
 ```
 
 ## Testing (Practice in staging)

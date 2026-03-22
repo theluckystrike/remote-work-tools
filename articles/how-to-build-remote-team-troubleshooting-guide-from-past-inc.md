@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, troubleshooting, postmortems, incident-re
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

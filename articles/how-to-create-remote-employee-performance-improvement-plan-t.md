@@ -14,7 +14,6 @@ intent-checked: true
 tags: [remote-work-tools, remote-work]
 ---
 
-
 Remote performance improvement plans (PIPs) require different structure than office-based PIPs because you lose real-time observation of work. Build PIPs with weekly check-ins, clearly documented metrics pulled from actual tools (GitHub PR times, Slack activity), and explicit communication expectations. This guide provides JSON templates and tracking scripts to implement fair, measurable PIPs for distributed teams.
 
 ## Why Remote PIPs Need Different Structure
@@ -23,17 +22,7 @@ In a physical office, managers can observe work in real-time—catching issues d
 
 The core challenge: remote performance issues often stem from communication breakdowns rather than capability gaps. Your template needs to address both the what (measurable outcomes) and the how (communication patterns, collaboration quality).
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Core Components of a Remote Performance Improvement Plan
+## Core Components of a Remote Performance Improvement Plan
 
 A solid remote PIP contains these essential elements:
 
@@ -44,7 +33,7 @@ A solid remote PIP contains these essential elements:
 5. Check-in Schedule: Weekly or bi-weekly synchronous meetings
 6. Success Criteria: Quantifiable outcomes that indicate improvement
 
-### Step 2: A Practical Template for Distributed Teams
+## A Practical Template for Distributed Teams
 
 Here's a template you can adapt for your remote team. Save this as a JSON file to track programmatically:
 
@@ -139,7 +128,7 @@ def check_pip_progress(pip_data):
 # Usage: python pip_tracker.py employee-pip.json
 ```
 
-### Step 3: Set Up Tracking in Your Project Management Tool
+## Setting Up Tracking in Your Project Management Tool
 
 For teams using tools like Linear, Jira, or Asana, create a structured task breakdown:
 
@@ -149,7 +138,7 @@ For teams using tools like Linear, Jira, or Asana, create a structured task brea
 - Final Review: Task scheduled for end of PIP period
 
 ```markdown
-### Step 4: Weekly Check-in Template
+## Weekly Check-in Template
 
 **Employee**:
 **Date**:
@@ -191,7 +180,7 @@ If after the defined period (typically 30-60 days) the employee has not met succ
 
 The goal of any PIP is genuine improvement. When executed thoughtfully with clear metrics and consistent follow-up, remote performance improvement plans can turn struggling team members into reliable contributors. The structure you build now will scale as your distributed team grows.
 
-### Step 5: Sample PIPs Across Roles
+## Sample PIPs Across Roles
 
 ### Performance Improvement Plan: Backend Engineer
 
@@ -301,7 +290,7 @@ The goal of any PIP is genuine improvement. When executed thoughtfully with clea
 }
 ```
 
-### Step 6: Handling PIP Conversations Sensitively
+## Handling PIP Conversations Sensitively
 
 A PIP is a difficult conversation. Approach it with:
 
@@ -315,7 +304,7 @@ A PIP is a difficult conversation. Approach it with:
 
 **Documentation**: Send a written summary of the conversation to the employee with the JSON template attached.
 
-### Step 7: Scenarios Where PIPs Fail
+## Scenarios Where PIPs Fail
 
 PIPs are designed for capability gaps. They fail when:
 
@@ -331,21 +320,6 @@ PIPs are designed for capability gaps. They fail when:
 
 When any of these apply, pause the PIP process and address the root cause. A good PIP improves performance. A bad PIP is just documentation for firing someone.
 ---
-
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions
