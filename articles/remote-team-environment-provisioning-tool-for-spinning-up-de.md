@@ -8,7 +8,7 @@ author: "Remote Work Tools Guide"
 permalink: /remote-team-environment-provisioning-tool-for-spinning-up-de/
 tags: [remote-work-tools, remote-work]
 reviewed: true
-score: 8
+score: 9
 categories: [guides]
 intent-checked: true
 voice-checked: true
