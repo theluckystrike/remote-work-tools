@@ -270,6 +270,20 @@ Rollback command if needed:
 ./scripts/rollback.sh production
 ```
 
+## Feature Flags as a Deployment Safety Net
+
+Feature flags decouple deployment from release and are essential for remote teams where post-deploy monitoring may cross time zone boundaries. Tools like LaunchDarkly, Unleash (self-hosted), and Flipt let you ship code in an off state and flip it on once the team confirms baseline metrics look healthy.
+
+A practical pattern for remote teams is a three-stage release using flags:
+
+1. Deploy with flag OFF — code ships, no user impact
+2. Enable for internal users or a 1% canary — gather real traffic data
+3. Ramp to 100% during business hours when your on-call engineer is awake
+
+This eliminates the pressure to deploy and verify everything in a single sitting. If something is wrong at the 10% rollout stage, you toggle the flag off without a rollback. The Kubernetes rollback script above is for infrastructure-level failures; flag-based releases handle application-level problems with less operational friction.
+
+Store flag keys in your deployment checklist so the person approving the deploy knows which flag controls the new behavior.
+
 ## Deploy Metrics to Track
 
 ```python
@@ -306,6 +320,21 @@ def record_deploy_event(version: str, duration_seconds: int, success: bool):
 # - Change failure rate: deploys that caused rollback / total deploys
 # - Mean time to restore: time from incident → resolution
 ```
+
+The four DORA metrics (deployment frequency, lead time, change failure rate, MTTR) are the right frame for evaluating your pipeline health. Remote teams with well-designed async pipelines often deploy more frequently than co-located teams once the tooling is in place — the bottleneck shifts from human coordination overhead to confidence in automation. Tracking these four numbers monthly gives you a concrete, non-opinion-based view of whether your pipeline improvements are actually working.
+
+## Pipeline Tool Comparison
+
+| Concern | GitHub Actions | CircleCI | ArgoCD (GitOps) |
+|---|---|---|---|
+| Approval workflows | GitHub Environments (built-in) | Approval jobs | Manual sync gates |
+| Deployment windows | Custom scripts | Custom orb | Sync windows in config |
+| Rollback | workflow_dispatch trigger | Rerun previous job | Git revert + auto-sync |
+| Secret management | GitHub Secrets | Context secrets | Vault / Sealed Secrets |
+| Cost (small team) | Free tier generous | $30+/mo | Free (self-hosted infra) |
+| Best for | GitHub-native teams | Complex fan-out pipelines | Kubernetes GitOps |
+
+GitHub Actions covers most small-to-mid-size remote teams with less operational overhead than CircleCI or ArgoCD. If you're running Kubernetes and your infrastructure changes live in git, ArgoCD's automatic reconciliation eliminates an entire class of "it's deployed but not applied" confusion that plagues remote handoffs.
 
 ## Related Reading
 
