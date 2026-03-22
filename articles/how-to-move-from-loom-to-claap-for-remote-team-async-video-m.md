@@ -284,7 +284,6 @@ Despite best intentions, sometimes a migration doesn't work. Have a rollback pla
 3. **Archive preservation:** Before fully migrating, keep Loom active in read-only mode for 6 months
 4. **Team communication:** If rolling back, frame it neutrally to the team rather than as a failure
 
-<<<<<<< HEAD
 ## Conclusion
 
 Moving from Loom to Claap for async video messaging requires planning, selective migration, and team training, but the process is straightforward. Focus on preserving valuable content, establishing good organizational patterns early, and giving your team space to adapt. The goal is better async communication—not just a different tool.
@@ -327,6 +326,4 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Async Video Messaging Tools for Remote Teams 2026](/best-async-video-messaging-tools-for-remote-teams-2026/)
 - [Veed API - Upload and process video](/remote-team-async-video-update-tool-comparison-loom-vs-veed-/)
 
-=======
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

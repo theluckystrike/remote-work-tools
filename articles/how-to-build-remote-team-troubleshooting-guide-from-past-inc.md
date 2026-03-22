@@ -257,7 +257,6 @@ find troubleshooting -name "*.md" -not -name "README.md" | \
   done >> troubleshooting/README.md
 ```
 
-<<<<<<< HEAD
 ## Conclusion
 
 Building a troubleshooting guide from past incident postmortems requires upfront investment but pays dividends in reduced incident resolution time and improved team autonomy. Start with a consistent postmortem format, extract patterns systematically, and maintain the guide as a living document.
@@ -302,7 +301,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [How to Build Remote Team Async Culture from Scratch 2026](/how-to-build-remote-team-async-culture-from-scratch-2026/)
 - [How to Build a Remote Team Wiki from Scratch](/how-to-build-remote-team-wiki-from-scratch/)
 
-=======
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

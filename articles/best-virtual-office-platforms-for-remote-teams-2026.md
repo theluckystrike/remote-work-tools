@@ -223,7 +223,6 @@ Best practice: Virtual office during "core hours" (e.g., 10am-3pm everyone's wor
 - **Discord + spatial audio:** Gamers' choice, good for playful teams
 - **Slack canvas:** Collaborative whiteboarding in Slack itself
 
-<<<<<<< HEAD
 ## Conclusion
 
 Virtual office platforms work best for distributed, async-first teams that value spontaneity. Pick the lightest tool that fits your culture: Teamflow for engineers, Gather for creative teams, SpatialChat for product collaboration, Kumospace for large enterprises.
@@ -270,7 +269,4 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
-=======
-Built by theluckystrike — More at [zovo.one](https://zovo.one)
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 {% endraw %}

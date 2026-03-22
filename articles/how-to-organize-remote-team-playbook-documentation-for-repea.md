@@ -164,7 +164,6 @@ Documentation entropy is real. Playbooks become outdated as tools change, proces
 
 Consider adding a "stale" indicator to playbooks that haven't been reviewed in a specified timeframe. This visual cue prompts teams to examine whether the documentation still reflects reality.
 
-<<<<<<< HEAD
 ## Key Takeaways
 
 Building effective remote team playbook documentation requires intentional structure, consistent formatting, and ongoing maintenance. Focus on these fundamentals:
@@ -215,7 +214,5 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Documentation Linting Tool for Remote Teams](/best-documentation-linting-tool-for-remote-teams-enforcing-w/)
 - [Example OpenAPI specification snippet](/best-practice-for-remote-team-api-documentation-keeping-inte/)
 
-=======
->>>>>>> 991eceb8ff0722d141b39cb39b3cb2b5f926f48e
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
