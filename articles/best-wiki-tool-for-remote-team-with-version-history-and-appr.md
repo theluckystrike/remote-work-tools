@@ -232,6 +232,61 @@ const approvalNotification = {
 };
 ```
 
+## Choosing Based on Team Size and Compliance Needs
+
+Tool selection for distributed teams should account for growth trajectory and industry requirements, not just current headcount.
+
+### Small Teams (Under 20 People)
+
+GitBook or Notion typically wins here. Both have low setup overhead and are affordable at small scale. GitBook's Git integration gives engineering-heavy teams the compliance audit trail of unlimited version history without paying for Confluence enterprise plans. Notion's flexibility lets non-technical team members participate in documentation without learning Git.
+
+Start with whichever tool your team already uses for notes. Introducing a dedicated wiki creates friction that smaller teams rarely overcome.
+
+### Mid-Size Teams (20-100 People)
+
+This is where tool choice has the highest impact. Teams in this range often have mixed technical ability and cross-functional documentation needs. Confluence is the standard choice when you're already paying for Jira. For teams without Atlassian products, consider Outline (open-source, self-hostable) or Slab, which was designed specifically for this segment.
+
+Outline provides full version history, team-based permissions, and a clean API for integrations:
+
+```bash
+# Outline self-hosted setup via Docker
+docker run -d \
+  --name outline \
+  -p 3000:3000 \
+  -e SECRET_KEY=$(openssl rand -hex 32) \
+  -e UTILS_SECRET=$(openssl rand -hex 32) \
+  -e DATABASE_URL=postgres://outline:password@db:5432/outline \
+  -e REDIS_URL=redis://redis:6379 \
+  outlinewiki/outline:latest
+```
+
+Outline's approval model uses draft/published states with access controls, making it practical without the complexity of enterprise workflow engines.
+
+### Enterprise Teams (100+ People)
+
+Confluence Cloud Premium is the default for large remote teams when compliance requirements mandate granular audit logs. At this scale, version history governance becomes as important as the tool itself. Define and enforce a retention policy, require approvals for customer-facing content, and set 48-hour escalation deadlines to prevent review bottlenecks. Documenting this policy inside the wiki itself is a useful bootstrap test: if your team cannot follow their own governance process to maintain the governance document, the workflow is too complex.
+
+## Tool Migration Without Losing History
+
+Switching wiki tools is high-risk for remote teams. Without a careful plan, you lose the version history that justifies having a wiki.
+
+Before migrating: export full version history from your current tool, audit active vs. stale content, and map user permissions to the destination platform's permission model.
+
+After migration, validate document counts programmatically before full team cutover:
+
+```bash
+SOURCE_COUNT=$(curl -s https://old-wiki.internal/api/v1/pages | jq '.total')
+DEST_COUNT=$(curl -s https://new-wiki.internal/api/v1/pages | jq '.total')
+
+echo "Source: $SOURCE_COUNT | Destination: $DEST_COUNT"
+if [ "$SOURCE_COUNT" -ne "$DEST_COUNT" ]; then
+  echo "MISMATCH: investigate before proceeding"
+  exit 1
+fi
+```
+
+Verifying counts programmatically catches migration gaps that manual spot checks miss.
+
 ## Frequently Asked Questions
 
 **Are free AI tools good enough for wiki tool for remote team with version history and?**

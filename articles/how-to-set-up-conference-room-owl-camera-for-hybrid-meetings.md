@@ -216,6 +216,102 @@ For IT teams managing multiple rooms, here's an example Ansible playbook for Owl
 
 This approach enables consistent configuration across all conference rooms and simplifies long-term maintenance.
 
+## Multi-Room Deployment Strategies
+
+Organizations with multiple hybrid conference rooms face compounded challenges: device inventory management, consistent firmware versions, and coordinating room availability with remote participants.
+
+### Room Inventory Tracking
+
+Maintain a structured inventory file for all Owl devices. This becomes essential when troubleshooting reports of "the camera in the main boardroom" — you need to know which device that maps to:
+
+```yaml
+# rooms.yml — Owl device inventory
+rooms:
+  - name: "Main Boardroom"
+    owl_serial: "OWL-2024-001"
+    ip_address: "10.0.1.50"
+    firmware: "4.2.1"
+    capacity: 12
+    platform: zoom
+    last_checked: "2026-03-20"
+
+  - name: "Engineering Huddle"
+    owl_serial: "OWL-2024-002"
+    ip_address: "10.0.1.51"
+    firmware: "4.2.1"
+    capacity: 6
+    platform: google_meet
+    last_checked: "2026-03-20"
+```
+
+Reference this file from your Ansible inventory so your automation always knows which physical room it's targeting.
+
+### Scheduled Health Checks
+
+Automate pre-meeting health checks with a cron job that pings each Owl device and alerts your IT team when a room is unreachable:
+
+```bash
+#!/bin/bash
+# owl-health-check.sh — run via cron at 7 AM
+ROOMS=("10.0.1.50" "10.0.1.51" "10.0.1.52")
+WEBHOOK="https://hooks.slack.com/your/webhook"
+
+for IP in "${ROOMS[@]}"; do
+  ping -c 2 -W 3 "$IP" > /dev/null 2>&1 || \
+    curl -s -X POST "$WEBHOOK" \
+      -H 'Content-type: application/json' \
+      --data "{\"text\": \"Owl at $IP is unreachable before meetings.\"}"
+done
+```
+
+Running this at 7:00 AM gives IT 1-2 hours to resolve hardware issues before the morning meeting rush.
+
+## Calendar Integration for Room Awareness
+
+Remote participants benefit from knowing which rooms are equipped for hybrid meetings. Integrating Owl room status with your calendar system reduces confusion about which invitations will have video capability.
+
+### Google Calendar Room Resources
+
+If you use Google Workspace, configure each Owl-equipped room as a Calendar resource. Remote participants who see the room resource in a meeting invitation immediately know video conferencing is available. Set the resource description to include the Owl model and supported platforms:
+
+```
+Resource name: Main Boardroom (Owl Pro)
+Description: 12-person room with Meeting Owl Pro. Supports Zoom, Meet, Teams.
+Building: HQ - Floor 3
+Capacity: 12
+```
+
+### Slack Room Status Bot
+
+A lightweight Slack bot can surface real-time room availability alongside Owl status:
+
+```python
+import slack_sdk
+import requests
+
+def post_room_status(channel: str, rooms: list):
+    client = slack_sdk.WebClient(token="YOUR_BOT_TOKEN")
+    blocks = []
+    for room in rooms:
+        owl_reachable = check_owl_ping(room["ip"])
+        status_emoji = ":white_check_mark:" if owl_reachable else ":x:"
+        blocks.append({
+            "type": "section",
+            "text": {
+                "type": "mrkdwn",
+                "text": f"{status_emoji} *{room['name']}* — Owl {'online' if owl_reachable else 'OFFLINE'}"
+            }
+        })
+    client.chat_postMessage(channel=channel, blocks=blocks)
+
+def check_owl_ping(ip: str) -> bool:
+    import subprocess
+    result = subprocess.run(["ping", "-c", "1", "-W", "2", ip], capture_output=True)
+    return result.returncode == 0
+```
+
+Post this status to a `#hybrid-rooms` channel each morning so remote participants know which rooms are ready before joining a meeting.
+
 ## Frequently Asked Questions
 
 **How long does it take to set up conference room owl camera for hybrid?**
