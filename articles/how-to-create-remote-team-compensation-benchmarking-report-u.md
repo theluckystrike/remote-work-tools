@@ -31,6 +31,15 @@ voice-checked: true---
 
 To create a compensation benchmarking report for remote teams, gather salary data from Stack Overflow Developer Survey, GitHub Octoverse, and Glassdoor, then normalize it by cost-of-living adjustments, currency fluctuations, and your chosen compensation philosophy (location-agnostic, location-adjusted, or market-based). This approach ensures your pay structure remains competitive across international talent markets while reflecting the real compensation costs in each region.
 
+## Key Takeaways
+
+- **The final recommendation**: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment.
+- **A developer earning $80,000**: in San Francisco has different purchasing power than one earning $80,000 in Lisbon.
+- **First, gather data**: Stack Overflow shows $40,000-65,000 for this profile globally.
+- GitHub data suggests $45,000-70,000.
+- Local Argentine surveys show $25,000-40,000.
+- **Second, apply PPP**: Argentina's PPP factor is approximately 0.4, meaning $1 in the US equals roughly 0.4 Argentine pesos in purchasing power.
+
 ## Understanding the Data Sources
 
 International salary survey data comes from several reliable sources. The Stack Overflow Developer Survey provides tech role compensation across 180+ countries. GitHub's Octoverse includes global developer trends. Glassdoor and Payscale offer localized data with remote-specific filters. For government-level accuracy, the OECD and World Bank provide purchasing power parity calculations.

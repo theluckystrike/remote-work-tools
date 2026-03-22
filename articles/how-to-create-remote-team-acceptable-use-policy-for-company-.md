@@ -28,7 +28,17 @@ voice-checked: true
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
+
 Create a remote-specific acceptable use policy covering personal software installation, shared family networks, and approved cloud storage to protect company data while respecting employee privacy. Employees working from home often use the same machines for personal and professional tasks, creating security risks that traditional office policies cannot address. An AUP designed for remote teams establishes clear boundaries, protects sensitive data, and ensures everyone understands their responsibilities. This guide provides a practical template with concrete examples you can adapt for your organization immediately.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Most organizations prefer company-owned**: devices for security compliance.
+- **Pricing starts at roughly**: $4/device/month for Jamf Now (SMB) and scales to custom enterprise contracts for Jamf Pro.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **When employees use personal devices**: the AUP must address the privacy tension directly.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
 
 ## Why Remote Device Policies Differ from Office Policies
 

@@ -31,6 +31,20 @@ score: 8---
 
 Building an effective decision-making framework for distributed teams requires deliberate structure. Without clear processes, remote organizations face analysis paralysis, inconsistent choices, and frustrated team members who feel unheard. This guide provides a practical approach to creating decision-making frameworks that work across time zones and async communication channels.
 
+## Key Takeaways
+
+- **Week 1-2**: Use decision records for Tier 2 and Tier 3 decisions only
+2.
+- **Use active voice**: "We will..."
+
+## Alternatives Considered
+| Option | Pros | Cons | Why Not Chosen |
+|--------|------|------|----------------|
+| A     | ...
+- **Auto-approve**: If no objections after input period, recommendation proceeds.
+- **Start simple**: iterate based on experience, and remember that the goal is better outcomes, not more documentation.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Distributed Teams Need Explicit Decision Frameworks
 
 In co-located settings, decisions happen informally—over lunch, in hallway conversations, or during impromptu meetings. Distributed teams lose these ambient communication channels. An explicit framework replaces informal consensus-building with documented, reproducible processes.

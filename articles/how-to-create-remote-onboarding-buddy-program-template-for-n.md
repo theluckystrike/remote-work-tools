@@ -16,6 +16,15 @@ voice-checked: true---
 
 Remote buddy programs significantly reduce time-to-productivity by pairing new hires with experienced teammates who answer questions, navigate culture, and accelerate onboarding across time zones. Effective buddy programs include structured checklists, daily check-ins in first weeks, and clearly defined expectations. This guide provides ready-to-use templates, assignment criteria, and measurement strategies for remote onboarding success.
 
+## Key Takeaways
+
+- **What was the most**: valuable part of your first month? 5.
+- **Focus on matching compatible personalities**: setting clear expectations, and giving buddies the freedom to connect naturally.
+- **This guide provides ready-to-use templates**: assignment criteria, and measurement strategies for remote onboarding success.
+- **The buddy serves as a cultural translator**: explaining unwritten team norms, communication preferences, and local context that documentation rarely captures.
+- Volunteer-based programs perform significantly better.
+- **The best buddy programs**: feel organic rather than scripted.
+
 ## Why Buddy Programs Work for Remote Teams
 
 Research consistently shows that structured onboarding reduces time-to-productivity and improves retention. When new hires have a dedicated point of contact outside their manager, they feel comfortable asking "silly" questions without fear of judgment. The buddy serves as a cultural translator, explaining unwritten team norms, communication preferences, and local context that documentation rarely captures.

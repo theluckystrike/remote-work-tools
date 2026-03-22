@@ -33,6 +33,16 @@ Promotion criteria in remote teams often suffer from ambiguity. Without the visi
 
 This guide walks through building a promotion framework specifically tailored for remote technical teams—ones that are transparent, equitable, and actually usable.
 
+## Key Takeaways
+
+- **Technical teams respond better**: when they help define the criteria: ``` # Draft promotion criteria session agenda: 1.
+- **If your promotion process**: depends on visibility, you're systematically disadvantaging your most effective remote workers—who often communicate asynchronously and work during focused blocks.
+- **It also reduces bias**: because criteria are documented and applied consistently rather than subjectively.
+- **Free or included in**: existing licenses.
+- **For most remote teams**: a well-structured Google Doc or Notion page outperforms expensive software.
+- Areas needing growth:
+1.
+
 ## Why Remote Teams Need Explicit Promotion Criteria
 
 In traditional offices, promotions often rely on visibility: who the manager sees working late, who speaks up in meetings, who gets noticed. Remote work removes these signals. If your promotion process depends on visibility, you're systematically disadvantaging your most effective remote workers—who often communicate asynchronously and work during focused blocks.

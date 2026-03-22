@@ -19,6 +19,16 @@ Remote engineering teams face a unique challenge: capturing the reasoning behind
 
 This guide shows you how to create an effective ADR template specifically designed for remote team workflows, with practical examples you can adapt to your organization's needs.
 
+## Key Takeaways
+
+- **Session-based authentication - Rejected**: because our SPA architecture benefits from stateless tokens 2.
+- **Month 6**: A better caching library emerges.
+- **Two approvals required from**: non-authors 5.
+- **ADR merged to main**: documentation branch ``` This structure works because everyone knows exactly when to respond.
+- **Many teams use tooling**: like `adr-tools` or custom scripts to generate documentation sites from their ADR collection.
+- **Proposal (Day 1)**: Developer identifies need for a caching layer, posts draft ADR to Slack channel with `[ADR Draft]` prefix
+2.
+
 ## Why Remote Teams Need Structured ADR Templates
 
 In co-located teams, architectural decisions get discussed in real-time. Someone asks a question in the office, three engineers debate it at a whiteboard, and the decision gets implemented. Remote teams lack these spontaneous conversations. When a developer in Tokyo makes a database choice without documenting the reasoning, the developer in Berlin six months later faces the same decision from scratch—or worse, undoes the original decision because the context is missing.

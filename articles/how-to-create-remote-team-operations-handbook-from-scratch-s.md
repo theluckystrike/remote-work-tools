@@ -33,6 +33,15 @@ A well-crafted operations handbook serves as the single source of truth for how 
 
 This guide walks you through creating a practical remote team operations handbook using plain markdown, version control, and automation. You'll end up with a living document that scales with your team.
 
+## Key Takeaways
+
+- **Create a release branch:**: ```bash git checkout -b release/$(date +%Y%m%d) ``` 3.
+- **Store it in the**: same repository as your projects, use branches for updates, and require reviews before merging changes.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **Most remote teams operate on three levels**: communication norms, process definitions, and technical references.
+- **This includes response time expectations**: which channels to use for which purposes, and meeting conventions.
+- **This is where developers**: spend the most time writing and maintaining content.
+
 ## Start With Your Core Operating Documents
 
 Before writing anything, identify the documents that genuinely run your team. Most remote teams operate on three levels: communication norms, process definitions, and technical references. Each requires different treatment.

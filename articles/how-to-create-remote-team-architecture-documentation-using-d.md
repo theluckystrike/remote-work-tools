@@ -31,6 +31,14 @@ voice-checked: true---
 
 The best approach for remote teams is using Mermaid or PlantUML to store diagrams as text files in your repository, enabling Git-based collaboration and eliminating merge conflicts that plague binary diagram tools. This guide shows you how to implement diagrams as code with practical examples, CI/CD integration strategies, and workflows that scale across time zones without requiring real-time synchronization.
 
+## Key Takeaways
+
+- **This broad platform support**: means your diagrams travel with your documentation regardless of where your team prefers to work.
+- **Will this work with**: my existing CI/CD pipeline? The core concepts apply across most CI/CD platforms, though specific syntax and configuration differ.
+- **For most remote teams**: starting with Mermaid provides immediate value without additional tooling.
+- **Use consistent styling. Establish**: naming conventions, color schemes, and layout patterns.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Diagrams as Code for Remote Teams
 
 Traditional diagramming tools create binary files that don't merge well in version control. When team members across different time zones work on the same diagram, you encounter constant merge conflicts and lost changes. Diagrams as code treats your architecture drawings as plain text files that integrate smoothly with Git workflows.
