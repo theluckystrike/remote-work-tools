@@ -394,6 +394,7 @@
 
 
 
+
 layout: default
 title: "Remote Manager Time Management Framework for Leading"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async"
@@ -945,6 +946,7 @@ Quarterly surveys can help you understand how well your async communication is w
 
 
 
+
 Leading across five or more time zones requires fundamentally rethinking how work gets done. The framework above provides a starting point, but every team will need to adapt these principles to their specific composition and culture. Start with async-first communication, build documentation practices, and protect both your own and your team's time. The investment in building these systems pays dividends in team sustainability and effectiveness.
 
 ## Real-World Time Zone Stack Examples
@@ -1169,4 +1171,4 @@ Trying to change everything at once. Pick one or two practices, implement them w
 - [Hybrid Work Manager Training Program Template for Leading](/remote-work-tools/hybrid-work-manager-training-program-template-for-leading-partially-distributed-teams-2026/)
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
-{% endraw %}
+
