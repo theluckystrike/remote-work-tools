@@ -9,7 +9,7 @@ permalink: /how-to-run-effective-remote-workshops/
 categories: [guides]
 tags: [remote-work-tools, remote-work, workshops, facilitation, team-building]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

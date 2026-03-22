@@ -9,7 +9,7 @@ permalink: /how-to-run-remote-tax-preparation-business-with-distributed-/
 categories: [guides]
 tags: [remote-work-tools, remote-work, tax-preparation, seasonal-staff, distributed-teams, business-operations, workflow-automation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
