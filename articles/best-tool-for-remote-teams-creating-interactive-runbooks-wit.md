@@ -27,6 +27,16 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of, remote-work]---
 
+
+| Tool | Key Feature | Remote Team Fit | Integration | Pricing |
+|---|---|---|---|---|
+| Notion | All-in-one workspace | Async docs and databases | API, Slack, Zapier | $8/user/month |
+| Slack | Real-time team messaging | Channels, threads, huddles | 2,600+ apps | $7.25/user/month |
+| Linear | Fast project management | Keyboard-driven, cycles | GitHub, Slack, Figma | $8/user/month |
+| Loom | Async video messaging | Record and share anywhere | Slack, Notion, GitHub | $12.50/user/month |
+| 1Password | Team password management | Shared vaults, SSO | Browser, CLI, SCIM | $7.99/user/month |
+
+
 {% raw %}
 
 For remote teams, use markdown-based runbooks with embedded copy-to-clipboard commands stored in Git—this is the best balance of security, version control, and usability. Tools like Runwayml or custom scripts can display these in an UI with step-by-step validation; the copy-to-terminal model keeps commands out of unauthorized environments while still providing one-click access. Store runbooks in the same repo as infrastructure code so they stay synchronized, and embed variable substitution placeholders (e.g., `$ENVIRONMENT`) that team members fill in before executing commands.

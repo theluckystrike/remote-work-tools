@@ -27,6 +27,16 @@ reviewed: true
 tags: [remote-work-tools, best-of, remote-work]
 intent-checked: true---
 
+
+| Tool | Onboarding Workflows | Task Automation | Integration | Pricing |
+|---|---|---|---|---|
+| BambooHR | Customizable checklists | Auto-assign by role | Slack, ATS, payroll | Custom pricing |
+| Rippling | IT + HR unified onboarding | Device provisioning | 500+ apps | $8/user/month |
+| Process Street | Template-based workflows | Conditional logic | 1,000+ via Zapier | $25/user/month |
+| Notion | Custom wiki + checklists | Basic automation | API + Zapier | $8/user/month |
+| Trainual | Structured training paths | Progress tracking | Slack, BambooHR | $49/month (10 seats) |
+
+
 {% raw %}
 
 Implementing effective async onboarding for distributed teams requires the right combination of self-paced learning infrastructure, progress tracking, and knowledge delivery systems. This guide evaluates the core components and patterns that make async onboarding successful, with practical implementation examples developers and power users can apply immediately.

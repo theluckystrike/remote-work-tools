@@ -27,6 +27,16 @@ score: 9
 intent-checked: true
 voice-checked: true---
 
+
+| Tool | Platform | Layout Presets | Keyboard Shortcuts | Price |
+|---|---|---|---|---|
+| Rectangle | macOS | Halves, thirds, quarters | Customizable hotkeys | Free (open source) |
+| Magnet | macOS | Drag-to-edge snapping | Standard shortcuts | $10 one-time |
+| BetterSnapTool | macOS | Custom snap areas | Full customization | $3 one-time |
+| PowerToys FancyZones | Windows | Custom grid layouts | Win+arrow enhanced | Free (Microsoft) |
+| i3/Sway | Linux | Tiling window manager | Full keyboard control | Free (open source) |
+
+
 {% raw %}
 
 Effective window management transforms how developers work, reducing the friction between your workflow and your desktop environment. Whether you're juggling multiple projects, analyzing code across several screens, or simply trying to maintain sanity while debugging, the right window management tools save clicks, keyboard presses, and mental context switches. This guide covers the best window management tools for developers, focusing on utilities that integrate into development workflows.

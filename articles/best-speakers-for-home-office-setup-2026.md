@@ -345,6 +345,16 @@ Most remote developers fall into the "don't upgrade" category. A $50-100 speaker
 ---
 
 
+
+
+| Speakerphone | Coverage | Mic Array | Connectivity | Price |
+|---|---|---|---|---|
+| Jabra Speak2 75 | Up to 12 people | 4-mic beamforming | USB-C + Bluetooth | $350 |
+| Poly Sync 60 | Up to 6 people | 3-mic array | USB-A/C + Bluetooth | $350 |
+| Anker PowerConf S500 | Up to 12 people | 6-mic array | USB-C + Bluetooth | $200 |
+| Jabra Speak 510 | Up to 4 people | Omnidirectional | USB + Bluetooth | $120 |
+| Meeting Owl 3 | 360-degree room | 8-mic array | USB-C + WiFi | $999 |
+
 ## Frequently Asked Questions
 
 **Are free AI tools good enough for speakers for home office setup?**
