@@ -336,15 +336,12 @@
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 layout: default
 title: "Remote Team Manager Peer Feedback Exchange Template"
 description: "A practical peer feedback exchange template designed for remote team managers leading distributed leadership teams. Includes JSON templates, async"
@@ -364,7 +361,6 @@ voice-checked: true
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -705,8 +701,6 @@ voice-checked: true
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 {% raw %}
 
 Implement async peer feedback exchanges for remote leadership teams using structured requests with specific questions, deadline-bound responses, explicit acknowledgment of feedback, and committed follow-up actions—creating documentation that builds trust while replacing the informal hallway conversations that don't exist in distributed settings. This process reduces emotional friction while producing clear expectations about behavior change and growth.

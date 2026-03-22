@@ -337,15 +337,12 @@
 
 
 
-<<<<<<< HEAD
 
 
 
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 layout: article
 title: "How to Do Async User Research Interviews with Recorded"
 description: "Learn how to conduct effective async user research interviews using recorded responses. Complete 2026 guide for remote product teams and UX researchers"
@@ -374,7 +371,6 @@ voice-checked: true
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -716,8 +712,6 @@ voice-checked: true
 
 
 
-=======
->>>>>>> 00757054684654dfd709d58e96ec94b5ddfdc9d0
 categories: [guides]
 
 
