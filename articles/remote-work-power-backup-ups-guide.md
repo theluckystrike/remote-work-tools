@@ -438,6 +438,5 @@ When a team member reports a power outage:
 - [How to Set Up Home Office in Bali Rental Apartment](/remote-work-tools/how-to-set-up-home-office-in-bali-rental-apartment-with-reli/)
 - [Best Power Strip for Developer Desk Setup: A Practical Guide](/remote-work-tools/best-power-strip-for-developer-desk-setup/)
 - [On Android, enable tethering via settings](/remote-work-tools/best-backup-internet-solution-for-remote-workers-in-countrie/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

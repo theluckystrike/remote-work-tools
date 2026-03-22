@@ -287,10 +287,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Best Project Tracking Tool for Remote Hardware Engineering](/remote-work-tools/best-project-tracking-tool-for-remote-hardware-engineering-t/)
 - [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
 - [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
 - [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
 - [Remote Team Third Party Vendor Security Assessment Template](/remote-work-tools/remote-team-third-party-vendor-security-assessment-template-/)
-- [Remote Team Security Compliance Checklist for SOC 2 Audit](/remote-work-tools/remote-team-security-compliance-checklist-for-soc2-audit-pre/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

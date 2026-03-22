@@ -261,11 +261,11 @@ Workspace administrators should implement these practices.
 
 ## Related Articles
 
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [Best Onboarding Automation Workflow for Remote Companies](/remote-work-tools/best-onboarding-automation-workflow-for-remote-companies-using-slack-bots-and-notion-templates/)
 - [How to Create Async Standup Templates in Slack](/remote-work-tools/how-to-create-async-standup-templates-in-slack-with-workflow-builder/)
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
 - [Slack List View Sorting Not Saving Preference Fix 2026](/remote-work-tools/slack-list-view-sorting-not-saving-preference-fix-2026/)
-- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

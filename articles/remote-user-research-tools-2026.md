@@ -247,10 +247,9 @@ The insight tagging feature is the core value: highlight a quote, tag it, and Do
 
 - [Best Data Collection Tools for Remote User Research Teams](/remote-work-tools/best-data-collection-tool-for-remote-user-research-teams-gat/)
 - [Recommended recording setup for user research](/remote-work-tools/how-to-run-remote-user-research-sessions-for-ux-designers-ac/)
-- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 - [Best Tools for Remote QA Testing Workflows](/remote-work-tools/best-tools-remote-qa-testing-workflows/)
 - [How to Run Remote Client UX Research Sessions with Observers](/remote-work-tools/how-to-run-remote-client-ux-research-sessions-with-observers/)
-
+- [How to Do Async User Research Interviews with Recorded](/remote-work-tools/how-to-do-async-user-research-interviews-with-recorded-responses/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

@@ -469,7 +469,6 @@ Small teams sometimes skip the token pipeline because it feels heavyweight. The 
 - [Best Design Token Management Tool for Remote Teams](/remote-work-tools/best-design-token-management-tool-for-remote-teams-maintaining-brand-consistency/)
 - [How to Set Up Remote Design Handoff Workflow](/remote-work-tools/how-to-set-up-remote-design-handoff-workflow-between-designe/)
 - [Figma vs Sketch for Remote Design Collaboration](/remote-work-tools/figma-vs-sketch-for-remote-design-collaboration/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

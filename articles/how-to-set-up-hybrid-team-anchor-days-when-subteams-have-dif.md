@@ -256,7 +256,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 - [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

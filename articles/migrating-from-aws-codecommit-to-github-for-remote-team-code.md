@@ -280,10 +280,10 @@ After two to four weeks of stable operation on GitHub, archive or delete the Cod
 ## Related Articles
 
 - [GitHub Projects vs Jira for a Remote Team of 3 Devs](/remote-work-tools/github-projects-vs-jira-for-a-remote-team-of-3-devs/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [GitHub Actions Workflow for Remote Dev Teams](/remote-work-tools/github-actions-remote-dev-workflow/)
+- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
 - [CI/CD Pipeline Tools for a Remote Team of 2 Backend](/remote-work-tools/ci-cd-pipeline-tools-for-a-remote-team-of-2-backend-developers/)
-- [Best Remote Work Tools for Java Teams Migrating from](/remote-work-tools/best-remote-work-tools-for-java-teams-migrating-from-monolit/)
+- [Generate weekly team activity report from GitHub](/remote-work-tools/how-to-manage-hybrid-team-where-some-members-are-fully-remot/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

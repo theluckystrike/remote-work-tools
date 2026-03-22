@@ -518,9 +518,9 @@ Test your plan once per quarter. Update phone numbers and escalation paths quart
 
 - [How to Handle Emergency Client Communication for Remote](/remote-work-tools/how-to-handle-emergency-client-communication-for-remote-agen/)
 - [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
 - [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
 - [Remote Team Change Management Communication Plan Template](/remote-work-tools/remote-team-change-management-communication-plan-template-fo/)
+- [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

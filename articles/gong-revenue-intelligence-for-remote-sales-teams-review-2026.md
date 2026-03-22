@@ -263,6 +263,5 @@ When a prospect declines recording, Gong's bot leaves the call automatically. Re
 - [Remote Sales Team Forecasting Tool Comparison for Distribute](/remote-work-tools/remote-sales-team-forecasting-tool-comparison-for-distribute/)
 - [Best CRM Data Entry Automation for Remote Sales Teams](/remote-work-tools/best-crm-data-entry-automation-for-remote-sales-teams-loggin/)
 - [Best Content Performance Analytics for Remote Editorial](/remote-work-tools/best-content-performance-analytics-for-remote-editorial-team/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

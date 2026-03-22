@@ -270,8 +270,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 - [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
 - [Share with client](/remote-work-tools/client-document-sharing-portal-comparison-for-remote-agencie/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [Example ndss configuration snippet](/remote-work-tools/how-to-set-up-hybrid-office-guest-wifi-for-visitors-and-cont/)
+- [Project Management for a Solo Developer with 8 Client](/remote-work-tools/project-management-for-a-solo-developer-with-8-client-projec/)
 ```
 
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

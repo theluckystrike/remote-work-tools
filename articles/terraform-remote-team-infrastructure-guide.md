@@ -406,11 +406,10 @@ terraform plan -var-file="production.tfvars"
 ## Related Articles
 
 - [How to Automate DNS Management with Terraform](/remote-work-tools/how-to-automate-dns-management-with-terraform/)
-- [Diversity Sourcing Strategy for Remote Teams](/remote-work-tools/remote-team-hiring-diversity-sourcing-strategy-for-distributed-companies/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Remote Work Tools Hub](/remote-work-tools/guides-hub/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-
+- [Remote Work Tools: All Guides and Reviews](/remote-work-tools/guides-hub/)
+- [Best Observability Platform for Remote Teams Correlating](/remote-work-tools/best-observability-platform-for-remote-teams-correlating-log/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

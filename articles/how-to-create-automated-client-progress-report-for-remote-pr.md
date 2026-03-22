@@ -337,10 +337,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [AI Project Status Generator for Remote Teams Pulling](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
 - [How to Create Client Project Retrospective Format for Remote](/remote-work-tools/how-to-create-client-project-retrospective-format-for-remote/)
+- [Remote Agency Client Data Security Compliance Checklist](/remote-work-tools/remote-agency-client-data-security-compliance-checklist-for-proposals/)
 - [How to Create Remote Team Compensation Benchmarking Report](/remote-work-tools/how-to-create-remote-team-compensation-benchmarking-report-u/)
-- [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 - [How to Handle Confidential Client Data on Remote Team](/remote-work-tools/how-to-handle-confidential-client-data-on-remote-team-device/)
+- [AI Project Status Generator for Remote Teams Pulling](/remote-work-tools/ai-project-status-generator-for-remote-teams-pulling-data-fr/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

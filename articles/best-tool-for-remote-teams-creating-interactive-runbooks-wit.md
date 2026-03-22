@@ -597,7 +597,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Organize Remote Team Runbook Documentation for](/remote-work-tools/how-to-organize-remote-team-runbook-documentation-for-on-cal/)
-- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/---)
+- [How to Build a Remote Team Runbook Library 2026](/remote-work-tools/how-to-build-remote-team-runbook-library-2026/)
 - [How to Write Runbooks for Remote Engineering Teams](/remote-work-tools/how-to-write-runbooks-remote-engineering-teams/)
 - [From your local machine with VPN active](/remote-work-tools/remote-team-runbook-creation-guide-for-incident-response-wit/)
 - [How to Create Remote Team Runbook Templates](/remote-work-tools/how-to-create-remote-team-runbook-templates/)

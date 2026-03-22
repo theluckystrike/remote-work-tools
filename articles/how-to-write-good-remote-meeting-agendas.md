@@ -471,8 +471,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
+- [Remote Meeting Agenda Template for Engineering Teams](/remote-work-tools/remote-meeting-agenda-template-for-engineering-teams/)
 - [Best Tool for Tracking Remote Team Meeting Effectiveness](/remote-work-tools/best-tool-for-tracking-remote-team-meeting-effectiveness-and/)
 - [How to Run a Remote Client Kickoff Meeting for a New Project](/remote-work-tools/how-to-run-remote-client-kickoff-meeting-for-new-project/)
 - [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)

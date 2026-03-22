@@ -279,6 +279,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Portable WiFi Hotspot Device for Remote Workers](/remote-work-tools/best-portable-wifi-hotspot-device-for-remote-workers-traveling-across-europe-2026/)
 - [Portable Monitor Setup for Digital Nomads](/remote-work-tools/portable-monitor-setup-for-digital-nomads/)
 - [Productivity Tips for Digital Nomads on the Road](/remote-work-tools/productivity-tips-for-digital-nomads-on-the-road/)
-- [Best Travel Insurance for Digital Nomads 2026](/remote-work-tools/best-travel-insurance-for-digital-nomads-2026/)
+- [How to Set Up a Portable Coding Workstation](/remote-work-tools/how-to-set-up-portable-coding-workstation/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

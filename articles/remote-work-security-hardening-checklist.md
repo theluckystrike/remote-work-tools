@@ -367,9 +367,9 @@ Trying to change everything at once. Pick one or two practices, implement them w
 ## Related Articles
 
 - [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
-- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
-- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [SSH Tunnels for Remote Database Access](/remote-work-tools/ssh-tunnels-remote-database-access/)
 - [Security Tools for a Fully Remote Company Under 20 Employees](/remote-work-tools/security-tools-for-a-fully-remote-company-under-20-employees/)
+- [Best SSH Key Management Solution for Distributed Remote](/remote-work-tools/best-ssh-key-management-solution-for-distributed-remote-engi/)
+- [How to Audit Remote Employee Device Security Compliance](/remote-work-tools/how-to-audit-remote-employee-device-security-compliance-without-physical-access/)
+- [Remote Work Home Network Security Guide](/remote-work-tools/home-network-security-remote-work/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

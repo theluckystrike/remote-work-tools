@@ -314,6 +314,6 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 - [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
 - [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
 - [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
-- [Best Kanban Board Tools for Remote Developers](/remote-work-tools/best-kanban-board-tools-for-remote-developers/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
+- [Best Tools for Remote Team Architecture Reviews 2026](/remote-work-tools/best-tools-for-remote-team-architecture-reviews-2026/)
+- [Best Screen Sharing Tool for a Remote Tutoring Team of 6](/remote-work-tools/best-screen-sharing-tool-for-a-remote-tutoring-team-of-6/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

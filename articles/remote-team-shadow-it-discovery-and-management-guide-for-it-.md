@@ -289,9 +289,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 ## Related Articles
 
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
 - [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
 - [Best API Tools for Automating Remote Team Compliance](/remote-work-tools/best-api-tools-for-automating-remote-team-compliance-reporti/)
 - [How to Track Remote Team Use Rate Without Invasive](/remote-work-tools/how-to-track-remote-team-utilization-rate-without-invasive-monitoring-tools/)
+- [How to Build a Remote Team Handbook from Scratch](/remote-work-tools/how-to-build-a-remote-team-handbook-from-scratch/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

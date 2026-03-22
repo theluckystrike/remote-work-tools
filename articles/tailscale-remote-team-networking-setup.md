@@ -395,7 +395,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Remote Work VPN for Teams Comparison 2026: Tailscale](/remote-work-tools/remote-work-vpn-for-teams-comparison-2026/)
 - [DNS Filtering Setup for Remote Team Endpoint Security](/remote-work-tools/dns-filtering-setup-for-remote-team-endpoint-security-using-/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
 - [How to Run a Remote Team Hackathon 2026](/remote-work-tools/how-to-run-remote-team-hackathon-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

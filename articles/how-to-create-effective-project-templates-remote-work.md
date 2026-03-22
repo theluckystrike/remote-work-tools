@@ -296,8 +296,7 @@ Check your internet connection and firewall settings. If using a VPN, try discon
 - [Project Kickoff: [Project Name]](/remote-work-tools/how-to-create-remote-team-project-kickoff-documentation-temp/)
 - [Best Practice for Remote Team Cross Functional Project](/remote-work-tools/best-practice-for-remote-team-cross-functional-project-kicko/)
 - [How to Create Shared Project Timeline With Remote Agency Cli](/remote-work-tools/how-to-create-shared-project-timeline-with-remote-agency-cli/)
-- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
 - [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
-
+- [How to Track Project Dependencies Remote Team](/remote-work-tools/how-to-track-project-dependencies-remote-team/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

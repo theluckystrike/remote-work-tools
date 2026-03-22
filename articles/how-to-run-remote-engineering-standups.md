@@ -409,6 +409,5 @@ Yes — Tuesday's standup would have highlighted pattern
 - [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 - [Async Standup Format for a Remote Mobile Dev Team of 9](/remote-work-tools/async-standup-format-for-a-remote-mobile-dev-team-of-9/)
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

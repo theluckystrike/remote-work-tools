@@ -355,8 +355,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
-- [Nomad Friend Finding Tips Guide 2026](/remote-work-tools/nomad-friend-finding-tips-guide-2026/)
 - [How to Combat Loneliness as a Digital Nomad](/remote-work-tools/how-to-combat-loneliness-as-a-digital-nomad/)
 - [Malaysia Digital Nomad Pass De Rantau Application for Remote](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+- [Nomad Friend Finding Tips Guide 2026](/remote-work-tools/nomad-friend-finding-tips-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

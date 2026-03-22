@@ -314,9 +314,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Agency Client NDA and Contract Signing Workflow](/remote-work-tools/remote-agency-client-nda-and-contract-signing-workflow-digit/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [How to Set Up Client Onboarding Portal for Remote Agency](/remote-work-tools/how-to-set-up-client-onboarding-portal-for-remote-agency/)
 - [How to Set Up Basecamp for Remote Agency Client](/remote-work-tools/how-to-set-up-basecamp-for-remote-agency-client-communicatio/)
 - [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
-- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

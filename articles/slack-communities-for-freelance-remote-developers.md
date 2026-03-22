@@ -315,7 +315,7 @@ Policies vary widely. Some tools let you access your data for a grace period aft
 - [Nomad Slack Communities Guide 2026](/remote-work-tools/nomad-slack-communities-guide-2026/)
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
 - [Slack vs Discord for a Remote Team of 15 Developers](/remote-work-tools/slack-vs-discord-for-a-remote-team-of-15-developers/)
+- [How to Optimize Slack for Large Remote Teams](/remote-work-tools/how-to-optimize-slack-for-large-remote-teams/)
 - [How to Reduce Slack Notification Fatigue for Remote](/remote-work-tools/how-to-reduce-slack-notification-fatigue-for-remote-develope/)
-- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

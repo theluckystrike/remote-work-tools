@@ -365,10 +365,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
-- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
 - [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
 - [Best After School Activity Scheduling App for Remote Parents](/remote-work-tools/best-after-school-activity-scheduling-app-for-remote-parents/)
-- [Remote Working Parent Self Care Checklist for Avoiding](/remote-work-tools/remote-working-parent-self-care-checklist-for-avoiding-isolation-in-distributed-teams/)
-- [Remote Working Parent Support Group Template for Distributed](/remote-work-tools/remote-working-parent-support-group-template-for-distributed/)
+- [Best Noise Gate Microphone Setting for Remote Parents](/remote-work-tools/best-noise-gate-microphone-setting-for-remote-parents-with-k/)
+- [Remote Working Parent Burnout Prevention Checklist](/remote-work-tools/remote-working-parent-burnout-prevention-checklist-for-distributed-team-managers/)
+- [Add to crontab for daily school-day reminders](/remote-work-tools/remote-working-parent-productivity-hack-using-time-blocking-/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

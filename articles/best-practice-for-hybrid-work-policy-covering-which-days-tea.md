@@ -327,8 +327,8 @@ Most tools discussed here can be used productively within a few hours. Mastering
 
 - [How to Set Up Hybrid Team Anchor Days When Subteams Have](/remote-work-tools/how-to-set-up-hybrid-team-anchor-days-when-subteams-have-dif/)
 - [How to Handle Remote Team Subculture Formation When](/remote-work-tools/how-to-handle-remote-team-subculture-formation-when-departme/)
-- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 - [Simple assignment: rotate through combinations](/remote-work-tools/how-to-create-hybrid-work-schedule-template-for-teams-with-t/)
-- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
+- [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
+- [How to Run Remote Team Retrospective Focused on Team Health](/remote-work-tools/how-to-run-remote-team-retrospective-focused-on-team-health/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -312,8 +312,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [First 90 Days as a Freelance Developer: A Complete Guide](/remote-work-tools/first-90-days-as-freelance-developer-guide/)
 - [How to Incorporate as a Freelance Developer](/remote-work-tools/how-to-incorporate-as-a-freelance-developer/)
-- [Freelance Developer Portfolio Website Builders 2026](/remote-work-tools/freelance-developer-portfolio-website-builders-2026/)
 - [Best Freelance Platforms for Software Developers](/remote-work-tools/best-freelance-platforms-for-software-developers/)
 - [How to Separate Business and Personal Finances](/remote-work-tools/how-to-separate-business-and-personal-finances-freelance/)
+- [How to Get Recurring Clients as a Freelance Developer](/remote-work-tools/how-to-get-recurring-clients-as-freelance-developer/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

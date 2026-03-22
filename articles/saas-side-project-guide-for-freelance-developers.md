@@ -406,7 +406,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Project Management Tool for Solo Freelance Developers](/remote-work-tools/best-project-management-tool-for-solo-freelance-developers-2026/)
 - [Slack Communities for Freelance Remote Developers](/remote-work-tools/slack-communities-for-freelance-remote-developers/)
 - [Best Communities for Freelance Developers 2026](/remote-work-tools/best-communities-for-freelance-developers-2026/)
-- [How to Scope Freelance Development Projects](/remote-work-tools/how-to-scope-freelance-development-projects/)
 - [Llc vs Sole Proprietor for Freelance Developers](/remote-work-tools/llc-vs-sole-proprietor-for-freelance-developers/)
+- [Project Management for Husband and Wife Freelance](/remote-work-tools/project-management-for-husband-and-wife-freelance-developmen/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

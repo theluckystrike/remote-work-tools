@@ -335,7 +335,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Remote Employee Belonging and Inclusion Program Ideas](/remote-work-tools/remote-employee-belonging-and-inclusion-program-ideas-for-distributed-teams/)
 - [Hungary Digital Nomad Visa White Card Application for Remote](/remote-work-tools/hungary-digital-nomad-visa-white-card-application-for-remote/)
 - [Malaysia Digital Nomad Pass De Rantau Application for Remote](/remote-work-tools/malaysia-digital-nomad-pass-de-rantau-application-for-remote/)
+- [Brazil Digital Nomad Visa Process and Tax Implications](/remote-work-tools/brazil-digital-nomad-visa-process-and-tax-implications-for-r/)
 - [Costa Rica Digital Nomad Visa Tax Obligations for Remote](/remote-work-tools/costa-rica-digital-nomad-visa-tax-obligations-for-remote-tec/)
-- [Thailand Long Term Visa for Remote Workers 2026](/remote-work-tools/thailand-long-term-visa-for-remote-workers-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

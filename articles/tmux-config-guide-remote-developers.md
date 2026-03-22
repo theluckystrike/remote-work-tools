@@ -338,8 +338,8 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Zellij Terminal Config for Remote Developers](/remote-work-tools/zellij-terminal-config-remote-developers/)
 - [VS Code Remote Development Setup Guide](/remote-work-tools/vscode-remote-development-setup/)
-- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
 - [Best Terminal Multiplexer for Remote Pair Programming](/remote-work-tools/best-terminal-multiplexer-for-remote-pair-programming/)
+- [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
 - [How to Structure Jira for a Remote Team of 50 Developers](/remote-work-tools/how-to-structure-jira-for-a-remote-team-of-50-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -450,10 +450,9 @@ Make async videos accessible to your whole team:
 ## Related Articles
 
 - [How to Set Up Home Office in Studio Apartment Without Walls](/remote-work-tools/how-to-set-up-home-office-in-studio-apartment-without-walls/)
-- [How to Set Up a Soundproof Home Office When Working](/remote-work-tools/how-to-set-up-soundproof-home-office-when-working-remotely-w/)
-- [Remote Work Tax Deductions: Home Office Guide 2026](/remote-work-tools/remote-work-home-office-tax-deductions-2026/)
-- [Remote Working Parent Tax Deduction Guide for Home Office](/remote-work-tools/remote-working-parent-tax-deduction-guide-for-home-office-and-dependent-care-2026/)
-- [How to Add Sound Dampening to Home Office Door Cheaply](/remote-work-tools/how-to-add-sound-dampening-to-home-office-door-cheaply/)
-
+- [Best Tool for Recording Quick 2-Minute Video Updates to Team](/remote-work-tools/best-tool-for-recording-quick-2-minute-video-updates-to-team/)
+- [macOS: Screen recording permission is required](/remote-work-tools/best-screen-recording-tool-for-remote-client-bug-report-walkthrough/)
+- [Best Screen Recording Tools for Async Communication](/remote-work-tools/best-screen-recording-async-communication/)
+- [Home Office Lighting Setup for Productivity](/remote-work-tools/home-office-lighting-setup-for-productivity-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

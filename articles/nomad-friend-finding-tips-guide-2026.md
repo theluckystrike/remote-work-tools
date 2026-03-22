@@ -313,11 +313,11 @@ These conversations feel awkward but prevent disappointment when someone suddenl
 
 ## Related Articles
 
-- [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
 - [Nomad Networking Events Guide 2026](/remote-work-tools/nomad-networking-events-guide-2026/)
 - [How to Combat Loneliness as a Digital Nomad](/remote-work-tools/how-to-combat-loneliness-as-a-digital-nomad/)
-- [Nomad Twitter Community Guide 2026](/remote-work-tools/nomad-twitter-community-guide-2026/)
+- [How to Network as a Digital Nomad Developer](/remote-work-tools/how-to-network-as-a-digital-nomad-developer/)
 - [Best Backpack for Digital Nomad Developers: A Practical](/remote-work-tools/best-backpack-for-digital-nomad-developers/)
+- [Nomad Twitter Community Guide 2026](/remote-work-tools/nomad-twitter-community-guide-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

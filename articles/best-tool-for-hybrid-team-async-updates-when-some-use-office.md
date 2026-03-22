@@ -316,8 +316,8 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 - [Best Tool for Remote Team Async Introductions](/remote-work-tools/best-tool-for-remote-team-async-introductions-connecting-new/)
 - [How to Transition Team Rituals from Fully Remote to Hybrid](/remote-work-tools/how-to-transition-team-rituals-from-fully-remote-to-hybrid-f/)
-- [Hybrid Work Culture Building Strategies Guide](/remote-work-tools/hybrid-work-culture-building-strategies-guide/)
 - [How to Preserve Async Communication Culture When Team Moves](/remote-work-tools/how-to-preserve-async-communication-culture-when-team-moves-/)
 - [How to Build Remote Team Async Culture from Scratch 2026](/remote-work-tools/how-to-build-remote-team-async-culture-from-scratch-2026/)
+- [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

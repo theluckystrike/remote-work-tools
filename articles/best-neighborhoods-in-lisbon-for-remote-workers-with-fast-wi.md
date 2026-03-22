@@ -262,5 +262,5 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Practice for Remote Team README Files in Repositories](/remote-work-tools/best-practice-for-remote-team-readme-files-in-repositories-s/)
 - [Best Insider Threat Detection Tool for Fully Remote](/remote-work-tools/best-insider-threat-detection-tool-for-fully-remote-companie/)
 - [Best Tool for Remote Teams Recording and Transcribing](/remote-work-tools/best-tool-for-remote-teams-recording-and-transcribing-tribal/)
-- [Best Tool for Remote Team Cross-Functional Project Staffing](/remote-work-tools/best-tool-for-remote-team-cross-functional-project-staffing-as-organization-grows-larger-2026/)
+- [Best Practice for Remote Team Slack Do Not Disturb](/remote-work-tools/best-practice-for-remote-team-slack-do-not-disturb-schedules/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)

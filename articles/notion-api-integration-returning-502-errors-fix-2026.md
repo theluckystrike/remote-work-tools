@@ -340,7 +340,7 @@ A clean reinstall sometimes resolves persistent issues caused by corrupted cache
 - [Best Tools for Remote Team Documentation 2026: Notion](/remote-work-tools/best-remote-team-documentation-tools-2026/)
 - [Coda vs Notion for Project Documentation](/remote-work-tools/coda-vs-notion-for-project-documentation/)
 - [Connect Notion to Slack Automatic Page Update Notifications](/remote-work-tools/connect-notion-to-slack-automatic-page-update-notifications-/)
+- [Slite vs Notion for Team Knowledge Base](/remote-work-tools/slite-vs-notion-for-team-knowledge-base/)
 - [Basecamp vs Notion for Remote Team Organization](/remote-work-tools/basecamp-vs-notion-for-remote-team-organization/)
-- [Notion vs Confluence for Remote Documentation](/remote-work-tools/notion-vs-confluence-remote-documentation/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

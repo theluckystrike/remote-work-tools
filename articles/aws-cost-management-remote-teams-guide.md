@@ -352,7 +352,6 @@ This review takes 30 minutes, can be done async over a shared doc, and prevents 
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
 - [Best Secrets Management Tool for Remote Development Teams](/remote-work-tools/best-secrets-management-tool-for-remote-development-teams-us/)
 - [Best Mobile Device Management for Enterprise Remote Teams](/remote-work-tools/a79-best-mobile-device-management-for-enterprise-remote-teams-with/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 ## Frequently Asked Questions

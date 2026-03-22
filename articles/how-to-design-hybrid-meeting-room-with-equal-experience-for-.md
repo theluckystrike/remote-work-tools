@@ -310,6 +310,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Video Conferencing Setup for Hybrid Rooms](/remote-work-tools/best-video-conferencing-setup-for-hybrid-rooms/)
 - [How to Handle Hybrid Meeting Whiteboard Challenge](/remote-work-tools/how-to-handle-hybrid-meeting-whiteboard-challenge-with-digital-and-physical-participants/)
 - [Best Hybrid Meeting Etiquette Guide Ensuring Remote](/remote-work-tools/best-hybrid-meeting-etiquette-guide-ensuring-remote-particip/)
-- [Recommended equipment configuration for hybrid meeting rooms](/remote-work-tools/best-practice-for-hybrid-team-sprint-ceremonies-when-half-th/)
+- [How to Include Remote Workers in Office Meetings](/remote-work-tools/how-to-include-remote-workers-in-office-meetings/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

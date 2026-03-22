@@ -265,10 +265,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Extension Linear Issue Tracker: Practical Guide](/remote-work-tools/chrome-extension-linear-issue-tracker/)
 - [Best Browser Extensions for Developer Productivity](/remote-work-tools/best-browser-extensions-for-developer-productivity/)
 - [Chrome Extension Newsletter Design Tool: A Developer's Guide](/remote-work-tools/chrome-extension-newsletter-design-tool/)
-- [Google Scholar Chrome Extension Development Guide](/remote-work-tools/google-scholar-chrome-extension/)
 - [Chrome Extension OneNote Clipper Setup: Complete Guide](/remote-work-tools/chrome-extension-onenote-clipper-setup/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

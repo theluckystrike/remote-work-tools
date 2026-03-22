@@ -346,7 +346,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Create Remote Work Playbook for Team](/remote-work-tools/how-to-create-remote-work-playbook-for-team/)
 - [How to Organize Remote Team Playbook Documentation for](/remote-work-tools/how-to-organize-remote-team-playbook-documentation-for-repea/)
 - [Remote Team Handbook Template](/remote-work-tools/remote-team-handbook-template-for-writing-remote-interview-p/)
+- [How to Create Remote Team Playbook Templates](/remote-work-tools/how-to-create-remote-team-playbook-templates/)
 - [Best Notion Template for Remote Team Handbook](/remote-work-tools/best-notion-template-for-remote-team-handbook-covering-hr-policies-and-team-norms/)
-- [How to Write Remote Team Postmortem Communication Template](/remote-work-tools/how-to-write-remote-team-postmortem-communication-template-f/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

@@ -295,7 +295,7 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 - [Best Tools for Remote Team Async Standups in 2026](/remote-work-tools/best-tools-for-remote-team-async-standups-2026/)
 - [Remote Team Async Standup Template Guide](/remote-work-tools/remote-team-async-standup-template-guide/)
 - [Best Remote Team Async Daily Check In Format Replacing](/remote-work-tools/best-remote-team-async-daily-check-in-format-replacing-standup-meetings/)
-- [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 - [How to Run Remote Engineering Standups That Work](/remote-work-tools/how-to-run-remote-engineering-standups/)
+- [Loom vs Vimeo Record for Async Standup Updates Comparison](/remote-work-tools/loom-vs-vimeo-record-for-async-standup-updates-comparison/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

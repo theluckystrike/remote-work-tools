@@ -423,6 +423,5 @@ Scheduled job to catch manual changes:
 - [AWS Cost Management for Remote Teams](/remote-work-tools/aws-cost-management-remote-teams-guide/)
 - [Best Wiki Tool for Remote Team with Version History and](/remote-work-tools/best-wiki-tool-for-remote-team-with-version-history-and-appr/)
 - [Migrating from AWS CodeCommit to GitHub for Remote Team](/remote-work-tools/migrating-from-aws-codecommit-to-github-for-remote-team-code/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

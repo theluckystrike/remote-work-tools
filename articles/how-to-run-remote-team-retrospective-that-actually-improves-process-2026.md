@@ -475,10 +475,10 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 ## Related Articles
 
+- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
 - [How to Run Remote Retrospectives That Generate Action Items](/remote-work-tools/articles/how-to-run-remote-retrospectives-that-generate-action-items/)
 - [Best Tools for Remote Team Sprint Retrospective Boards 2026](/remote-work-tools/best-tools-for-remote-team-sprint-retrospective-boards-2026/)
 - [Best Tools for Remote Team Retrospectives 2026](/remote-work-tools/best-tools-for-remote-team-retrospectives-2026/)
 - [Remote Team Scaling Retrospective Template for Reflecting](/remote-work-tools/remote-team-scaling-retrospective-template-for-reflecting-on/)
-- [Best Tools for Remote Team Retrospective Facilitation 2026](/remote-work-tools/best-tools-for-remote-team-retrospective-facilitation-2026/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

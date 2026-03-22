@@ -419,8 +419,8 @@ Switching costs are real: learning curves, workflow disruption, and data migrati
 
 - [Payment Terms Best Practices for Freelancers](/remote-work-tools/payment-terms-best-practices-for-freelancers/)
 - [Best Payment Collection Automation for Remote Businesses](/remote-work-tools/best-payment-collection-automation-for-remote-businesses-sending-invoice-reminders-2026/)
+- [How to Get Paid Internationally as Digital Nomad](/remote-work-tools/how-to-get-paid-internationally-as-digital-nomad/)
 - [Best Invoicing and Client Payment Portal for Remote Agencies](/remote-work-tools/best-invoicing-and-client-payment-portal-for-remote-agencies/)
 - [Remote Team Third Party Vendor Security Assessment Template](/remote-work-tools/remote-team-third-party-vendor-security-assessment-template-/)
-- [Best Invoicing Workflow for Solo Developer](/remote-work-tools/best-invoicing-workflow-for-solo-developer-with-international-clients/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

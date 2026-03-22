@@ -382,9 +382,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [Remote Team One on One Meeting Template for Engineering](/remote-work-tools/remote-team-one-on-one-meeting-template-for-engineering-mana/)
-- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
-- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 - [Remote Team Meeting Agenda Template for Weekly Sync Under](/remote-work-tools/remote-team-meeting-agenda-template-for-weekly-sync-under-30/)
-- [Meeting Schedule Template for a 30 Person Remote Product Org](/remote-work-tools/meeting-schedule-template-for-a-30-person-remote-product-org/)
+- [Best Meeting Cadence for a Remote Engineering Team of 25](/remote-work-tools/best-meeting-cadence-for-a-remote-engineering-team-of-25/)
+- [Best Wiki Template for Remote Team Engineering Design](/remote-work-tools/best-wiki-template-for-remote-team-engineering-design-docume/)
+- [Meeting Free Day Policy for Remote Teams Guide](/remote-work-tools/meeting-free-day-policy-for-remote-teams-guide/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

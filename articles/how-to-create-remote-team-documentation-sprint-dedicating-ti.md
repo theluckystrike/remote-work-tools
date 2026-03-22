@@ -328,6 +328,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Set Up a Remote Team Wiki from Scratch](/remote-work-tools/how-to-set-up-a-remote-team-wiki-from-scratch/)
 - [Best Practice for Remote Team Documentation Scaling When](/remote-work-tools/best-practice-for-remote-team-documentation-scaling-when-wiki-becomes-unwieldy/)
 - [Example: Generating a staggered schedule for a 6-person team](/remote-work-tools/best-practice-for-hybrid-work-policy-covering-which-days-tea/)
-- [Example OpenAPI specification snippet](/remote-work-tools/best-practice-for-remote-team-api-documentation-keeping-inte/)
+- [Remote Team First 90 Days Plan Template for Senior Hires](/remote-work-tools/remote-team-first-90-days-plan-template-for-senior-hires-joi/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

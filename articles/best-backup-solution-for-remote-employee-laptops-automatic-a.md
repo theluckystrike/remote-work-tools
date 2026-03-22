@@ -314,6 +314,5 @@ Yes, for most 10-person teams it is the simplest option. At $99 per device per y
 - [Endpoint Encryption Enforcement for Remote Team Laptops](/remote-work-tools/endpoint-encryption-enforcement-for-remote-team-laptops-wind/)
 - [Secure Remote Desktop Solution Comparison for Distributed](/remote-work-tools/secure-remote-desktop-solution-comparison-for-distributed-te/)
 - [How to Set Up Reliable Backup Internet for Remote Work](/remote-work-tools/how-to-set-up-reliable-backup-internet-for-remote-work-failover-guide/)
-
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

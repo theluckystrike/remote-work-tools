@@ -328,6 +328,6 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [How to Manage Standups for a Remote QA Team of 7](/remote-work-tools/how-to-manage-standups-for-a-remote-qa-team-of-7/)
 - [Cross Timezone Communication Strategies for Remote Teams](/remote-work-tools/cross-timezone-communication-strategies-remote-teams/)
 - [Remote Team Charter Template Guide 2026](/remote-work-tools/remote-team-charter-template-guide-2026/)
-- [How to Maintain Remote Team Culture When Transitioning](/remote-work-tools/how-to-maintain-remote-team-culture-when-transitioning-to-hy/)
+- [How to Manage Remote Team When Multiple Parents Have](/remote-work-tools/how-to-manage-remote-team-when-multiple-parents-have-overlap/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

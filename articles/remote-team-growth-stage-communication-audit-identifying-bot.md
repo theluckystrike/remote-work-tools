@@ -9,7 +9,7 @@ permalink: /remote-team-growth-stage-communication-audit-identifying-bot/
 categories: [guides]
 tags: [remote-work-tools, remote-work, communication, team-growth, bottleneck-analysis, async-communication, distributed-teams]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---
@@ -362,9 +362,9 @@ Most tools discussed here can be used productively within a few hours. Mastering
 ## Related Articles
 
 - [How to Set Up Remote Team Communication Audit](/remote-work-tools/how-to-set-up-remote-team-communication-audit-identifying-un/)
-- [Remote Team Communication Breakdown](/remote-work-tools/remote-team-communication-breakdown-warning-signs-when-growi/)
 - [How to Handle Remote Team Growing Pains When Communication](/remote-work-tools/how-to-handle-remote-team-growing-pains-when-communication-n/)
 - [Communication Tools for a Remote Research Team of 12](/remote-work-tools/communication-tools-for-a-remote-research-team-of-12-scienti/)
 - [Remote Team Communication Strategy Guide](/remote-work-tools/remote-team-communication-strategy-guide/)
+- [How to Handle Remote Team Reorg Communication When](/remote-work-tools/how-to-handle-remote-team-reorg-communication-when-restructu/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}

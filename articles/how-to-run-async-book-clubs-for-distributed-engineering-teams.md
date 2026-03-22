@@ -250,9 +250,6 @@
 
 
 
-
-
-
 layout: default
 title: "How to Run Async Book Clubs for Distributed Engineering"
 description: "Running a book club in a distributed engineering team presents unique challenges. Without the luxury of spontaneous hallway conversations or easy after-work"
@@ -823,9 +820,6 @@ Here's your quick-start checklist:
 
 
 
-
-
-
 **
 
 ## Frequently Asked Questions
@@ -854,9 +848,9 @@ Start with the official documentation for each tool mentioned. Stack Overflow an
 
 - [Reading schedule generator for async book clubs](/remote-work-tools/how-to-run-async-book-clubs-for-distributed-engineering-teams/)
 - [How to Run Book Clubs for a Remote Engineering Team of 40](/remote-work-tools/how-to-run-book-clubs-for-a-remote-engineering-team-of-40/)
-- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
 - [Async Team Building Activities for Distributed Teams](/remote-work-tools/async-team-building-activities-for-distributed-teams-differe/)
-- [How to Run Async Architecture Reviews for Distributed](/remote-work-tools/how-to-run-async-architecture-reviews-for-distributed-engine/)
+- [Best Async Project Management Tools for Distributed Teams](/remote-work-tools/best-async-project-management-tools-for-distributed-teams-2026/)
+- [Remote Team Book Club Format and Facilitation Guide](/remote-work-tools/remote-team-book-club-format-and-facilitation-guide-developers/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 
 {% endraw %}

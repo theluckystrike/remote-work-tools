@@ -270,7 +270,7 @@ Most tools discussed here can be used productively within a few hours. Mastering
 - [Best Client Intake Form Builder for Remote Agency Onboarding](/remote-work-tools/best-client-intake-form-builder-for-remote-agency-onboarding/)
 - [Best Digital Signature Tool for Remote Agency Client](/remote-work-tools/best-digital-signature-tool-for-remote-agency-client-contrac/)
 - [Best Contract Management Tool for Remote Agency Multiple](/remote-work-tools/best-contract-management-tool-for-remote-agency-multiple-cli/)
-- [Remote Agency Scope Change Request Workflow for Client](/remote-work-tools/remote-agency-scope-change-request-workflow-for-client-projects/)
+- [How to Set Up Harvest for Remote Agency Client Time Tracking](/remote-work-tools/how-to-set-up-harvest-for-remote-agency-client-time-tracking/)
 - [How to Set Up HubSpot for Remote Agency Client Pipeline](/remote-work-tools/how-to-set-up-hubspot-for-remote-agency-client-pipeline/)
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
