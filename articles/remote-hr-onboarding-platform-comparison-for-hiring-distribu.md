@@ -9,7 +9,7 @@ permalink: /remote-hr-onboarding-platform-comparison-for-hiring-distribu/
 categories: [guides]
 tags: [remote-work-tools, remote-work, hr, onboarding, hiring, distributed-teams, automation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /remote-manager-one-on-one-question-template-for-distributed-team-che
 categories: [guides]
 tags: [remote-work-tools, one-on-one, remote-work, management, distributed-teams, check-ins]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

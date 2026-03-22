@@ -9,7 +9,7 @@ permalink: /remote-employee-equipment-return-shipping-logistics-and-trac/
 categories: [guides, workflows]
 tags: [remote-work-tools, shipping, equipment-management, logistics, tracking, api, remote-work]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

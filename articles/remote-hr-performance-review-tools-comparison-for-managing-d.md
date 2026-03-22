@@ -286,20 +286,6 @@ Both tools release updates regularly, often monthly or more frequently. Feature 
 Review each tool's privacy policy and terms of service carefully. Most AI tools process your input on their servers, and policies on data retention and training usage vary. If you work with sensitive or proprietary content, look for options to opt out of data collection or use enterprise tiers with stronger privacy guarantees.
 
 
-## Related Articles
-
-**Can I run a 360 review without a dedicated platform?**
-Yes. A lightweight option is Google Forms for collection, a spreadsheet for aggregation, and a Slack bot for reminders. This works for teams under 20 but breaks down at scale when you need automated routing, anonymity controls, and calibration views.
-
-**How do I handle reviews across wildly different time zones (e.g., US + APAC)?**
-Set a single deadline expressed in UTC and give everyone a minimum 10-day window. Avoid scheduling calibration calls that require live participation from both locations in the same session; instead, use async video (Loom) for manager commentary and a shared doc for calibration decisions.
-
-**What is a reasonable completion rate target for a remote team?**
-Aim for 90% self-assessment completion and 85% peer feedback completion. Anything below 75% indicates either a tooling problem or a culture problem — both worth diagnosing before the next cycle.
-
-**Should performance review scores feed directly into compensation decisions?**
-Avoid a rigid formula (e.g., "score of 4 = 8% raise"). Scores provide useful signal but should be one input among several, including market data, internal equity, and manager judgment. Mechanical formula linking discourages honest scoring.
-
 ## Related Reading
 
 - [Async 360 Feedback Process for Remote Teams Without Live Meetings](/remote-work-tools/async-360-feedback-process-for-remote-teams-without-live-mee/)

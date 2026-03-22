@@ -9,7 +9,7 @@ permalink: /remote-education-plagiarism-detection-tool-comparison-for-online-cou
 categories: [guides]
 tags: [remote-work-tools, plagiarism, education, remote-work, tools]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

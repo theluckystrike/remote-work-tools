@@ -365,9 +365,6 @@ The Second Home Visa validity extends 5-10 years depending on the category chose
 # - Update immigration if changing accommodation
 ```
 
-## Related Reading
-
-
 ## Frequently Asked Questions
 
 
