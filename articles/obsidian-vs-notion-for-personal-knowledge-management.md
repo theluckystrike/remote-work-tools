@@ -17,6 +17,15 @@ tags: [remote-work-tools, comparison]---
 
 Choose Obsidian if you want local-first data ownership, markdown-native editing, wiki-style linking with a knowledge graph, and deep plugin extensibility--your notes are plain `.md` files you fully control. Choose Notion if you need cross-device sync without configuration, database views (kanban, gallery, calendar), collaborative editing with non-technical stakeholders, and rich external integrations with Slack and GitHub. Here is how they compare across architecture, editor experience, linking, plugins, mobile, and pricing.
 
+## Key Takeaways
+
+- **The sync service costs**: $10/month for unlimited devices, but you can skip it entirely and use your own sync solution.
+- **The personal Pro plan costs $10/month**: unlocking unlimited file uploads and version history.
+- **The Obsidian Publish service**: adds $10/month for public note hosting.
+- **For everyone else**: Obsidian Sync is worth the $10/month.
+- **Notion's cloud features require**: a paid plan for the best experience.
+- **Start with whichever matches**: your most frequent task, then add the other when you hit its limits.
+
 ## Architecture: Local-First vs Cloud-Native
 
 Obsidian stores everything as plain markdown files on your local filesystem. Your vault is a folder. Every note is a `.md` file. This architecture provides several advantages: your notes work offline, you own your data completely, and version control integrates naturally with Git.

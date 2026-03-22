@@ -31,6 +31,13 @@ voice-checked: true---
 
 If you're working with a distributed team and using Notion as your central knowledge base, encountering 502 Bad Gateway errors can bring your workflows to a standstill. These errors typically indicate that your integration cannot reach Notion's servers or that there's a problem with how requests are being handled. This guide provides practical troubleshooting steps specifically designed for remote workers and distributed teams using Notion API integrations.
 
+## Key Takeaways
+
+- **The current limits include**: 3 requests per second on average and 90 requests per 30 seconds.
+- **Exceeding these limits results**: in 502 errors or other HTTP 5xx responses.
+- **If no one else reports it**: your local environment configuration is likely the cause.
+- **Topics covered**: understanding 502 errors in notion api contexts, step-by-step troubleshooting process, step 1: verify notion api status
+
 ## Understanding 502 Errors in Notion API Contexts
 
 A 502 Bad Gateway error means that the server acting as a gateway received an invalid response from the upstream server. In the case of Notion API integrations, this usually occurs when your middleware, proxy, or application cannot establish a proper connection with Notion's API endpoints.
