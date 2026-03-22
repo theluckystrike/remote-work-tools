@@ -1,11 +1,16 @@
 ---
+
 layout: default
 title: "How to Organize Remote Team Retrospective Learnings Document for Future Reference"
 description: "A practical guide to capturing, structuring, and preserving retrospective insights from remote teams. Includes templates, code examples, and workflow strategies for developers."
 date: 2026-03-21
-author: theluckystrike
+author: "Remote Work Tools Guide"
 permalink: /how-to-organize-remote-team-retrospective-learnings-document/
+reviewed: true
+score: 8
+categories: [guides]
 ---
+
 
 {% raw %}
 Remote team retrospectives generate valuable insights that vanish without proper documentation. Teams invest significant time discussing what worked, what failed, and how to improve—only to lose that institutional knowledge when projects end or team members depart. This guide provides a systematic approach to organizing retrospective learnings so your team can reference past decisions, avoid repeated mistakes, and build on previous successes.
