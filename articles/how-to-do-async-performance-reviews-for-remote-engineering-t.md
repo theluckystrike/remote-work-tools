@@ -31,6 +31,15 @@ tags: [remote-work-tools, remote-work]---
 
 Run async performance reviews by structuring a two-week cycle: self-reviews in days 1-5, peer feedback in days 6-7, manager synthesis in days 8-10, and employee response in days 11-14. Use structured templates that capture technical contributions, code review activity, and collaboration rather than generic forms. Automate phase transitions and reminders through Slack or your project management tool so nothing stalls across time zones.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Most teams use a**: combination of a document editor for responses and a project management tool for tracking.
+- **Does Teams offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Avoid selecting only close**: collaborators; reviewers who've experienced friction with the engineer often provide the most growth-oriented feedback.
+- **Most teams see completion**: rates improve significantly between cycles 1 and 3 as engineers understand what's expected and trust that their written responses are actually read.
+
 ## Why Async Performance Reviews Work Better for Distributed Teams
 
 Traditional synchronous performance reviews create real problems in distributed engineering teams. Scheduling an one-hour conversation across three time zones means someone always attends at an inconvenient hour. Engineers in different regions receive different quality conversations depending on when they're scheduled. And the pressure of a live discussion often leads to surface-level answers rather than the reflective thinking that produces useful feedback.

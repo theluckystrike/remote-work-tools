@@ -461,13 +461,21 @@ intent-checked: true
 voice-checked: true---
 
 
-
-
 categories: [guides]
 
 {% raw %}
 
 Use Loom or OBS Studio to record screen-share code walkthroughs, then share recordings with timestamped comments for async collaboration across time zones. Async code pairing with recorded screen shares transforms how distributed teams collaborate on complex problems without coordinating live sessions. Developers record while walking through code, solving problems, or implementing features—allowing teammates to review, pause, and respond on their own schedule. This guide covers recording setup, platform selection, and effective collaboration patterns for remote development teams.
+
+## Key Takeaways
+
+- **Its free tier covers**: most team needs.
+- **Set up your IDE**: Use a clean, readable font size (18-24pt) and syntax theme
+4.
+- **Developers record while walking through code**: solving problems, or implementing features—allowing teammates to review, pause, and respond on their own schedule.
+- **We'll add OAuth2 support**: to the login endpoint.
+- **It's often the most**: valuable part for reviewers learning your approach.
+- **Use consistent naming conventions**: and link recordings to issues/PRs.
 
 ## Why Async Code Pairing Works
 

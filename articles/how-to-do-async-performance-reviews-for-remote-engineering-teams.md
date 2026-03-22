@@ -35,6 +35,17 @@ An async performance review process solves these challenges while actually produ
 
 This guide covers the complete framework for running async performance reviews tailored specifically for remote engineering teams.
 
+## Key Takeaways
+
+- **What code are you**: most proud of? 3.
+- **Performance reviews are one**: of the most challenging processes to run remotely.
+- **An async performance review**: process solves these challenges while actually producing better outcomes.
+- **Async reviews offer several advantages:
+
+Reflection time matters**: Engineers are typically thoughtful individuals who prefer to consider their responses carefully.
+- **What support would help**: you succeed? ``` ### Phase 2: Peer Feedback (Days 6-12) Peer feedback provides diverse perspectives that manager feedback alone cannot capture.
+- **Some employees prefer to**: discuss their review in real-time, while others are satisfied with the written exchange.
+
 ## Why Async Reviews Work Better for Engineering Teams
 
 Engineering work happens asynchronously by default. Your team writes code, reviews pull requests, and documents decisions in written form throughout the week. Asking them to suddenly switch to synchronous conversations for performance reviews creates an artificial constraint that doesn't reflect how they actually work.

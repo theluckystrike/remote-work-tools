@@ -31,6 +31,19 @@ voice-checked: true---
 
 Shared emoji reaction norms reduce unnecessary Slack messages while keeping async communication fast and clean—👍 for acknowledgment, ❤️ for appreciation, ✅ for completion. Establishing a team emoji dictionary prevents confusion and creates a lightweight feedback layer that works across time zones. This guide covers common emoji standards, documentation templates, and enforcement strategies.
 
+## Key Takeaways
+
+- **Adoption stalls around 70-75%—some**: people will always prefer text.
+- **You don't need dozens of symbols—a small**: consistent set works better than a large, confusing one.
+- **Starting today**: 👍 means acknowledged, ✅ means done, etc."
+
+### Step 2: Model the Behavior
+
+Leaders and early adopters should consistently use the defined emojis in their own messages.
+- **Teams report this cuts**: unnecessary messages by 25-30% within a week.
+- **Some team members interpret**: reactions literally while others use them sarcastically or not at all.
+- Maybe your team prefers text.
+
 ## Why Emoji Reactions Matter for Remote Teams
 
 In async-first remote work, every message doesn't need a written reply. Emoji reactions fill an important gap by providing immediate feedback without cluttering channels. A simple 👍 can acknowledge receipt, ❤️ can signal appreciation, and ✅ can mark tasks complete.

@@ -31,6 +31,14 @@ intent-checked: true---
 
 Document your team values through concrete behavior examples—not abstract principles—and include decision-making frameworks, pull request review norms, and failure stories that show what "transparency" or "ownership" actually looks like in practice. Most values documentation fails because leadership drafts generic words handed down without input from people who embody them daily. This guide provides a practical framework for creating living documentation that maintains authenticity as you scale from five people to a distributed organization.
 
+## Key Takeaways
+
+- **Most values documentation fails**: because leadership drafts generic words handed down without input from people who embody them daily.
+- **Which of our documented**: values felt most prominent in your work this month? 2.
+- **Here are the critical**: adjustments for different team sizes: 5-15 people: Values exist in shared understanding.
+- **15-40 people**: Documentation becomes essential.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Most Team Values Documentation Fails at Scale
 
 The typical approach to team values goes something like this: leadership drafts a list of five to seven inspiring words, decorates the office (or Slack header), and considers the work done. Six months later, nobody remembers what those values actually mean in practice.

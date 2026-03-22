@@ -21,6 +21,16 @@ Running productive remote workshops presents unique challenges. Without the bene
 
 This guide covers practical techniques for helping remote team workshops using Miro, with emphasis on structured communication exercises that developers and power users can implement immediately.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Use dot voting for prioritizing features**: selecting approaches, or identifying the most important blockers.
+- **Does Miro offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Use the timer widget**: to enforce strict time limits per group.
+- **Action planning (10 min)**: Pick 1-2 experiments to try
+6.
+
 ## Setting Up Your Miro Workshop Environment
 
 Before starting any workshop, prepare your canvas with clear sections. Create distinct zones for different phases of your session:

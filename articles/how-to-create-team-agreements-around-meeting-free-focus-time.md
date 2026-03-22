@@ -19,6 +19,16 @@ Deep work requires uninterrupted time. For remote engineering teams, the absence
 
 This guide walks through practical steps to establish, communicate, and enforce focus time agreements that actually work for distributed teams.
 
+## Key Takeaways
+
+- **The cost accumulates quickly**: context switching consumes 20-40% of productivity, and deep work typically requires 60-90 minutes to reach flow state.
+- **"Clients won't accept it."**: Most clients prefer working with teams that deliver quality output.
+- **Your status is set to**: ${user.profile.status_text}.
+- **Creating explicit team agreements**: around meeting-free focus time protects your team's ability to solve complex problems and write quality code.
+- **Deep work requires 60+**: minutes of uninterrupted time 2.
+- **Adjust for team size**: Smaller teams may need more flexibility
+3.
+
 ## Why Focus Time Agreements Matter
 
 When your team operates across time zones, the natural boundaries that exist in co-located offices disappear. A developer in Tokyo and another in San Francisco might both be "available" during their overlapping hours, leading to meeting saturation. Without explicit agreements, focus time becomes a casualty of good intentions.

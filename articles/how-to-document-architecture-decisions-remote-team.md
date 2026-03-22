@@ -17,6 +17,17 @@ voice-checked: true---
 
 Document architecture decisions in your remote team using Architecture Decision Records (ADRs)--structured Markdown files stored in your codebase under `docs/adr/` that capture the context, decision, and consequences of each significant technical choice. Use a three-phase async workflow: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged. This creates a searchable trail of reasoning that survives personnel changes and eliminates reliance on memory or Slack history.
 
+## Key Takeaways
+
+- **Use a three-phase async workflow**: one person drafts the ADR, the team reviews over 48-72 hours across time zones, then the status is finalized and the record is merged.
+- **Root cause**: database
+connection pool configured with max 10 connections, insufficient for
+concurrent request load.
+- **The entire team benefits**: from accumulated wisdom that would otherwise live only in people's heads—or worse, in Slack channels that disappear.
+- **What monitoring do we**: need? 3.
+- **Tag issues as RFCs**: use the issue template, and convert to ADR once accepted.
+- **Pick one approach and**: follow it.
+
 ## The ADR Standard
 
 Architecture Decision Records (ADRs) provide a structured format for capturing significant technical choices. An ADR documents the context, the decision, and the consequences. Unlike meeting notes that capture what was discussed, an ADR captures what was decided and why.
