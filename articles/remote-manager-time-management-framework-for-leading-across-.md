@@ -221,6 +221,7 @@
 
 
 
+
 layout: default
 title: "Remote Manager Time Management Framework for Leading"
 description: "A practical framework for remote engineering managers leading distributed teams across five or more time zones. Includes scheduling strategies, async"
@@ -235,6 +236,7 @@ score: 9
 intent-checked: true
 voice-checked: true
 ---
+
 
 
 
