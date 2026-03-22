@@ -11,7 +11,7 @@ tags: [remote-work-tools, return-to-office, employee-survey, sentiment-analysis,
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8
+score: 9
 ---
 
 {% raw %}

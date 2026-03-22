@@ -9,7 +9,7 @@ permalink: /security-tools-for-a-fully-remote-company-under-20-employees/
 categories: [guides]
 tags: [remote-work-tools, security, remote-work, vpn, 2fa, endpoint-protection]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
