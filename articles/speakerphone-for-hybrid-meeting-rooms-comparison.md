@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools]
 ---
+---
+layout: default
+title: "Speakerphone for Hybrid Meeting Rooms Comparison"
+description: "A practical comparison of speakerphone options for hybrid meeting rooms. Covers USB, Bluetooth, and IP-based solutions with technical specifications"
+date: 2026-03-15
+last_modified_at: 2026-03-22
+author: "Remote Work Tools Guide"
+permalink: /speakerphone-for-hybrid-meeting-rooms-comparison/
+categories: [guides]
+reviewed: true
+score: 8
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools]
+---
 
 {% raw %}
 

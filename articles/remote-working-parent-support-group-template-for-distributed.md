@@ -9,10 +9,9 @@ permalink: /remote-working-parent-support-group-template-for-distributed/
 categories: [guides]
 tags: [remote-work-tools, remote-work, parent-support, distributed-teams, community-building, async-communication]
 reviewed: true
-score: 9
+score: 7
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

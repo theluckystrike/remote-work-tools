@@ -9,10 +9,9 @@ permalink: /sprint-planning-tools-for-a-20-person-distributed-scrum-team/
 categories: [guides]
 tags: [remote-work-tools, sprint-planning, scrum, remote-work, project-management]
 reviewed: true
-score: 8
+score: 7
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, security, remote-work]
 ---
+---
+layout: default
+title: "Remote Work Security Hardening Checklist"
+description: "Security hardening checklist for remote workers: SSH key setup, MFA, disk encryption, DNS-over-HTTPS, secrets management, and network security for developers."
+date: 2026-03-21
+last_modified_at: 2026-03-21
+author: theluckystrike
+permalink: /remote-work-security-hardening-checklist/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, security, remote-work]
+---
 
 {% raw %}
 

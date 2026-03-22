@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Remote Team Workload Distribution Tool for Managers"
+description: "Balance workload across remote teams using tools that visualize capacity across projects, track time allocation by individual, and flag burnout risks before"
+date: 2026-03-16
+last_modified_at: 2026-03-22
+author: "Remote Work Tools"
+permalink: /remote-team-workload-distribution-tool-for-managers-balancin/
+reviewed: true
+score: 9
+categories: [guides]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 

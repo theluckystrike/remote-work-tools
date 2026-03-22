@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
 ---
+---
+layout: default
+title: "Tailscale for Remote Team Networking Setup"
+description: "Set up Tailscale for remote team networking: install on all devices, configure ACLs, set up subnet routes and exit nodes, and replace your VPN with a mesh"
+date: 2026-03-21
+last_modified_at: 2026-03-21
+author: theluckystrike
+permalink: /tailscale-remote-team-networking-setup/
+categories: [guides]
+reviewed: true
+score: 9
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, remote-work]
+---
 
 {% raw %}
 
@@ -20,17 +35,7 @@ Tailscale turns every device your team uses into a node on a private network, wi
 
 For remote teams, Tailscale replaces the classic VPN setup with something that works in 10 minutes, handles firewall traversal automatically, and scales to hundreds of devices without extra configuration.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: Install on All Platforms
+## Install on All Platforms
 
 ```bash
 # macOS
@@ -60,7 +65,7 @@ docker run -d \
   tailscale/tailscale
 ```
 
-### Step 2: Authenticate and Start
+## Authenticate and Start
 
 ```bash
 # Start Tailscale and open browser to authenticate
@@ -84,7 +89,7 @@ ssh ubuntu@100.64.0.5
 ssh ubuntu@my-dev-server
 ```
 
-### Step 3: Enable MagicDNS and HTTPS
+## Enable MagicDNS and HTTPS
 
 MagicDNS assigns each device a DNS name like `device-name.tail1234.ts.net`:
 
@@ -104,7 +109,7 @@ tailscale cert staging-app.tail1234.ts.net
 # Outputs cert.pem and key.pem in current directory
 ```
 
-### Step 4: Configure ACLs (Access Control Lists)
+## Configure ACLs (Access Control Lists)
 
 ACLs control which devices can reach which. By default, all devices on a tailnet can reach each other. For teams, restrict access:
 
@@ -171,7 +176,7 @@ Tag a device when authenticating:
 sudo tailscale up --authkey tskey-auth-XXXXXX --advertise-tags tag:dev-server
 ```
 
-### Step 5: Set Up Subnet Routes
+## Set Up Subnet Routes
 
 Subnet routes let Tailscale nodes access private subnets — for example, your AWS VPC or office LAN — without installing Tailscale on every machine in the subnet.
 
@@ -195,7 +200,7 @@ tailscale status
 # Shows subnet routers with the routes they advertise
 ```
 
-### Step 6: Exit Nodes
+## Exit Nodes
 
 An exit node routes all internet traffic for a device through a Tailscale node — equivalent to a VPN exit point.
 
@@ -217,7 +222,7 @@ sudo tailscale up --exit-node=
 curl https://ipinfo.io
 ```
 
-### Step 7: Tailscale SSH (Replace SSH Key Management)
+## Tailscale SSH (Replace SSH Key Management)
 
 Tailscale SSH uses your Tailscale identity instead of SSH keys. No more distributing authorized_keys files:
 
@@ -256,7 +261,7 @@ Enable Tailscale SSH in ACL policy:
 }
 ```
 
-### Step 8: Run Tailscale on Servers at Boot
+## Running Tailscale on Servers at Boot
 
 ```bash
 # systemd service is installed automatically via the install script
@@ -271,7 +276,7 @@ sudo tailscale up --authkey tskey-auth-XXXXXX --advertise-tags tag:dev-server
 sudo tailscale up --authkey tskey-auth-XXXXXX --ephemeral
 ```
 
-### Step 9: Tailscale vs. Traditional VPN for Remote Teams
+## Tailscale vs. Traditional VPN for Remote Teams
 
 Many teams migrate from OpenVPN or WireGuard to Tailscale for good reasons, but understanding the tradeoffs before committing helps you avoid surprises.
 
@@ -283,7 +288,7 @@ For a remote team of 10–50 people, Tailscale's Teams plan (around $6/user/mont
 
 One area where traditional VPNs still win: regulatory environments that require traffic inspection. Tailscale encrypts end-to-end with WireGuard, so a middlebox cannot inspect payloads. If your compliance posture requires deep packet inspection of internal traffic, complement Tailscale with application-layer logging rather than relying on network-layer inspection.
 
-### Step 10: Integrate Tailscale with CI/CD Pipelines
+## Integrating Tailscale with CI/CD Pipelines
 
 One underused pattern is adding Tailscale to CI runners so they can reach private staging infrastructure without opening firewall ports to the internet.
 
@@ -338,7 +343,7 @@ MagicDNS injects `100.100.100.100` as a DNS resolver. Some Linux distributions o
 
 Run `tailscale ping --until-direct <hostname>` to check whether the connection is direct or relayed through DERP. If relayed, the most common causes are symmetric NAT on both endpoints (common on mobile carriers and some corporate firewalls) or mismatched UDP port availability. Check that UDP port 41641 is allowed outbound on both firewalls.
 
-### Step 11: Pro Tips for Team Administration
+## Pro Tips for Team Administration
 
 Keep auth keys short-lived. Generate separate auth keys for each device class (workstations, servers, CI) with expirations of 30–90 days. This limits blast radius if a key leaks and forces periodic re-authentication, which is good hygiene regardless of security incidents.
 

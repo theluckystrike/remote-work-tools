@@ -8,7 +8,7 @@ author: theluckystrike
 permalink: /remote-team-video-call-fatigue-reduction-strategy-limiting-c/
 categories: [guides]
 reviewed: true
-score: 7
+score: 8
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
