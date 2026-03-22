@@ -9,7 +9,7 @@ permalink: /scope-creep-prevention-strategies-for-freelancers/
 categories: [workflows, productivity]
 tags: [remote-work-tools, scope-creep, freelance-tips, project-management]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
