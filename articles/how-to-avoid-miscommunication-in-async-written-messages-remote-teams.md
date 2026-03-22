@@ -9,7 +9,7 @@ permalink: /how-to-avoid-miscommunication-in-async-written-messages-remote-teams
 categories: [guides]
 tags: [remote-work-tools, async-communication, remote-work, miscommunication, team-collaboration, best-practices]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

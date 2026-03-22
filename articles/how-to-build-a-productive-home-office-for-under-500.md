@@ -9,7 +9,7 @@ permalink: /how-to-build-a-productive-home-office-for-under-500/
 categories: [guides]
 tags: [remote-work-tools, budget, setup]
 reviewed: true
-score: 8
+score: 9
 voice-checked: true
 intent-checked: true
 ---

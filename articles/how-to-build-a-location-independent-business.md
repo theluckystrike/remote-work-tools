@@ -9,7 +9,7 @@ permalink: /how-to-build-a-location-independent-business/
 categories: [guides]
 tags: [remote-work-tools, location-independent, remote-work, entrepreneurship, digital-nomad, business-automation]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---
