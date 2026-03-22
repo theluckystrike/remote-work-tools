@@ -172,6 +172,46 @@ For organizations with hundreds of emoji, manual management becomes tedious. Sev
 
 **Use emoji bulk loaders** available through third-party tools. Services like Emoji Uploader or Slack emoji management bots allow uploading multiple emoji at once from ZIP files. This accelerates initial emoji library setup significantly.
 
+You can upload and manage emoji programmatically using the Slack API:
+
+```bash
+# Upload a custom emoji using the Slack admin API
+curl -s -X POST https://slack.com/api/admin.emoji.add \
+  -H "Authorization: Bearer xoxp-your-user-token" \
+  -F "name=team-approved" \
+  -F "url=https://your-cdn.com/emoji/approved.png"
+
+# List all custom emoji in your workspace
+curl -s -X GET "https://slack.com/api/emoji.list" \
+  -H "Authorization: Bearer xoxb-your-bot-token" | jq '.emoji | keys[]'
+
+# Bulk upload emoji from a directory
+for file in ~/emoji-library/*.png; do
+  name=$(basename "$file" .png | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+  curl -s -X POST https://slack.com/api/admin.emoji.add \
+    -H "Authorization: Bearer xoxp-your-user-token" \
+    -F "name=$name" \
+    -F "url=@$file"
+  echo "Uploaded: $name"
+  sleep 1  # Respect rate limits
+done
+```
+
+Resize and optimize emoji images before uploading using ImageMagick:
+
+```bash
+# Batch resize and optimize emoji images
+for img in ~/emoji-source/*.png; do
+  output="$HOME/emoji-ready/$(basename "$img")"
+  convert "$img" \
+    -resize 128x128 \
+    -strip \
+    -define png:compression-level=9 \
+    "$output"
+  echo "$(basename "$img"): $(stat -f%z "$output") bytes"
+done
+```
+
 **Implement emoji governance policies** defining which emoji are approved for workspace-wide use. Create different emoji libraries for different purposes—professional emoji for client-facing teams, casual emoji for social channels. Prevent brand confusion by restricting which emoji appear in public channels.
 
 **Monitor emoji usage analytics** if your workspace runs Slack Enterprise Grid. Track which emoji appear most frequently. Deprecated emoji that nobody uses can be archived to reduce clutter. Popular emoji might inspire creation of related variants.

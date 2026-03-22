@@ -69,6 +69,58 @@ This workflow—metric anomaly to log details to trace evidence—completes in m
 
 Regardless of which platform you choose, consistent instrumentation is foundational. Use standardized trace context propagation across all services. Ensure log entries include correlation IDs that can be traced through the entire request lifecycle. This consistency makes the correlation features actually work.
 
+Add OpenTelemetry to a Python service so logs and traces correlate automatically:
+
+```python
+from opentelemetry import trace
+from opentelemetry.sdk.trace import TracerProvider
+from opentelemetry.exporter.otlp.proto.grpc.trace_exporter import OTLPSpanExporter
+from opentelemetry.sdk.trace.export import BatchSpanProcessor
+import structlog
+
+# Send traces to your observability platform
+provider = TracerProvider()
+provider.add_span_processor(
+    BatchSpanProcessor(OTLPSpanExporter(endpoint="http://collector:4317"))
+)
+trace.set_tracer_provider(provider)
+tracer = trace.get_tracer("payment-service")
+
+# Inject trace_id into every log entry for correlation
+structlog.configure(processors=[
+    structlog.processors.add_log_level,
+    structlog.processors.TimeStamper(fmt="iso"),
+    lambda _, __, ed: {
+        **ed,
+        "trace_id": format(
+            trace.get_current_span().get_span_context().trace_id, "032x"
+        ),
+    },
+    structlog.dev.ConsoleRenderer(),
+])
+logger = structlog.get_logger()
+
+def process_payment(user_id, amount):
+    with tracer.start_as_current_span("process_payment") as span:
+        span.set_attribute("user.id", user_id)
+        span.set_attribute("payment.amount", amount)
+        logger.info("processing_payment", user_id=user_id, amount=amount)
+```
+
+Query logs and traces together during on-call investigations:
+
+```bash
+# Search recent error logs across all services
+curl -G 'http://grafana:3000/api/ds/query' \
+  --data-urlencode 'queries=[{"datasourceId":1,"expr":"{level=\"error\"} |= \"payment\""}]'
+
+# Look up a trace by ID from an incident alert
+curl 'http://tempo:3200/api/traces/abc123def456' | jq '.batches[].resource'
+
+# Check error rate metrics for a specific service
+curl 'http://prometheus:9090/api/v1/query?query=rate(http_requests_total{service="payment",status="500"}[5m])'
+```
+
 ### Create Shared Dashboards for Team Visibility
 
 Remote teams benefit from shared visibility without requiring synchronous meetings. Create dashboards that show key service health metrics accessible to everyone. When something breaks, teammates in other time zones can check the dashboard before the on-call engineer wakes up and provide context in the incident channel.
