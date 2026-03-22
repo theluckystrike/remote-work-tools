@@ -200,8 +200,154 @@ Effective boundaries aren't rigid—they're adaptive. Review your communication 
 Adjust your framework as you learn what works. The goal isn't to minimize communication; it's to make communication purposeful and sustainable.
 
 Remote agency work thrives on trust. By being clear about how you work, you actually become easier to collaborate with—and you protect the long-term energy needed to deliver great work.
----
 
+## Building Your Personal Communication Charter
+
+Create a simple one-page document that outlines your professional working style. Share it before starting any engagement:
+
+**Personal Communication Charter Template:**
+```markdown
+# How I Work: Communication Preferences
+
+## Availability
+- Working hours: Monday-Friday, 9am-5pm PST
+- Email response: Within 24 hours
+- Slack/chat: Within 4 business hours
+- Emergencies: Available via phone (use only for critical blockers)
+
+## Preferred Communication Methods
+1. Async written (email, project board) for decisions and planning
+2. Slack for quick clarifications
+3. Video calls for complex discussions or reviews
+4. Phone only for true emergencies
+
+## My Best Work
+- Deep focus blocks on Tuesday-Thursday afternoons (don't schedule meetings then)
+- I deliver highest quality when given 48-hour turnaround time for work
+- I'm most responsive early morning my time (8-10am PST)
+
+## What Slows Me Down
+- Unexpected interruptions to focus blocks
+- Requests that change scope mid-sprint
+- Last-minute deadline changes (prefer 1 week notice minimum)
+- Unclear requirements (I ask lots of clarifying questions—that's normal)
+
+## How I Handle Disagreements
+- I discuss directly with involved parties first
+- I'm open to changing my mind if presented with better information
+- I document major disagreements and decisions for clarity
+- I don't take technical disagreements personally
+
+## What Success Looks Like
+- Clear requirements upfront
+- Defined deadline with understanding that scope affects timeline
+- Regular check-ins (weekly status is good for ongoing work)
+- Direct feedback on work quality
+```
+
+Share this with agencies and clients before engagement starts. Most will appreciate your clarity.
+
+## Handling Scope Creep as a Subcontractor
+
+Scope creep is the primary cause of subcontractor burnout. Establish clear protocols:
+
+**Scope Change Process:**
+
+```
+Request comes in to expand project → Add to Scope Change Log
+
+Scope Change Log Entry:
+├── Description of requested change
+├── Current workload impact (how many hours added?)
+├── Cost impact (if you bill hourly, what's the extra cost?)
+├── Timeline impact (does this push original deadline?)
+├── Decision options:
+│   ├── Accept and adjust timeline
+│   ├── Accept and negotiate additional compensation
+│   ├── Defer to future phase
+│   └── Decline (if completely out of scope)
+└── Forward to agency for decision
+
+Never implement scope changes without explicit approval.
+```
+
+When scope change requests come in:
+1. Document them (don't let them disappear)
+2. Assess impact honestly
+3. Present options to decision maker (usually PM or client manager at agency)
+4. Get written approval before implementing
+5. Update your timeline estimate and communicate to stakeholders
+
+This protects both you and the agency from misunderstandings.
+
+## Building Long-Term Client Relationships
+
+If you work with the same agency repeatedly, invest in relationship building:
+
+**Quarterly Relationship Check-In:**
+
+Schedule a 30-minute call with the agency manager (not the client) every 90 days:
+
+```markdown
+## Quarterly Check-In Agenda
+
+### What's Working Well
+- Which projects had smoothest collaboration?
+- What communication practices are working?
+- Which team members do you enjoy working with most?
+
+### Friction Points
+- Any miscommunications or missed expectations?
+- Were there deadline pressures that were unreasonable?
+- Are there patterns in the types of requests that cause issues?
+
+### Looking Forward
+- What types of projects do you want more/less of?
+- Are there skill areas you want to develop?
+- What would make collaboration even better next quarter?
+
+### Logistics Review
+- Are payment terms working? Any issues?
+- Is contract still aligned with how we actually work?
+- Should we adjust availability windows or response time expectations?
+```
+
+These check-ins build trust, surface small issues before they become big problems, and create partnership rather than transactional relationships.
+
+## Protecting Your Mental Health as a Subcontractor
+
+Remote agency work can feel isolating. Build support systems:
+
+**Weekly Practices:**
+- Stand-up or check-in with another subcontractor (accountability partner)
+- One video call with the agency team (even if it's just daily standup)
+- Keep a "wins" document where you record accomplishments (combat imposter syndrome)
+
+**Monthly Practices:**
+- Reflect on which projects energized you vs. drained you
+- Identify one thing to improve in communication next month
+- Reach out to someone from a past project and catch up (build network)
+
+**Quarterly Practices:**
+- Review: Are you growing skills on these projects?
+- Are rates keeping pace with cost of living?
+- Should you expand to a second agency or is focus better?
+- Are boundaries holding or creeping?
+
+Subcontracting is isolating by nature. Deliberate relationship-building prevents burnout.
+
+## Contract Language That Protects Boundaries
+
+When you have a written contract with an agency, ensure it includes:
+
+**Boundary-Protective Clauses:**
+1. **Availability:** "Contractor is available X hours per week, limited to these timezone windows"
+2. **Scope definition:** "Scope is limited to [specific deliverables]. Additional requests require written amendment"
+3. **Response time:** "Contractor will respond to communications within X hours. Response time does not guarantee resolution time"
+4. **Escalation path:** "For urgent matters, contact [name]. Emergency contact only for production outages"
+5. **Termination:** "Either party may terminate with X weeks notice. Contractor retains all work product upon termination"
+
+If the agency uses a standard contract, review it carefully. Ask for modifications that align with your boundaries. Most agencies will accommodate reasonable requests.
 
 ## Frequently Asked Questions
 

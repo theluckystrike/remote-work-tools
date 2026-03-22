@@ -202,6 +202,213 @@ Structure a dedicated onboarding playbook that references the most critical oper
 
 Cross-reference your onboarding playbook with your development environment setup guide, your CI/CD pipeline documentation, and your incident escalation procedures. The goal is that a new team member can work independently on routine tasks within their first sprint using documentation alone.
 
+## Building Playbook Templates for Consistency
+
+Different playbook types serve different purposes. Having templates ensures consistency:
+
+**Incident Response Playbook Template:**
+```markdown
+# [Service Name] Incident Playbook
+
+## Severity Criteria
+- Critical: [specific metric threshold]
+- High: [specific metric threshold]
+- Medium: [specific metric threshold]
+
+## Pre-Incident Checklist
+- [ ] Monitoring alerts configured
+- [ ] Runbooks reviewed monthly
+- [ ] On-call rotation current
+- [ ] Team trained on escalation
+
+## Incident Detection
+How to recognize this incident:
+- [Symptom 1] — user reports this behavior
+- [Symptom 2] — monitoring alert fires
+- [Symptom 3] — error rate exceeds threshold
+
+## Immediate Response (First 5 minutes)
+1. Confirm incident is real (not false alarm)
+2. Page on-call engineer: [exact phone/Slack method]
+3. Open incident Slack channel: #incident-[name]-[time]
+4. Post brief summary: "Database X is down, affecting Y% of requests"
+
+## Investigation (5-30 minutes)
+- Check [monitoring dashboard link]
+- Review recent changes: [link to deployment tracker]
+- Check [specific logs location]
+- Ask: "Did we change X, Y, or Z recently?"
+
+## Common Resolutions
+- Resolution A: Steps with exact commands
+- Resolution B: Steps with exact commands
+- Resolution C: Escalation path if above don't work
+
+## Communication During Incident
+- Post status updates in Slack every 15 minutes
+- Customer-facing message template: [exact text]
+- Manager notification if ETA > 1 hour: [who to contact]
+
+## Post-Incident
+- [ ] Publish postmortem within 48 hours
+- [ ] Update playbook with lessons learned
+- [ ] Assign follow-up items for root cause fixes
+```
+
+**Feature Rollout Playbook Template:**
+```markdown
+# Rolling Out [Feature Name]
+
+## Pre-Rollout Checklist
+- [ ] All unit tests passing
+- [ ] Integration tests passing
+- [ ] Code reviewed and approved
+- [ ] Staging deployment verified
+- [ ] Performance impact assessed
+- [ ] Rollback plan documented
+- [ ] Customer communication drafted
+- [ ] Support team briefed
+
+## Rollout Strategy
+Phase 1: [X]% of users, [duration]
+Phase 2: [X]% of users, [duration]
+Phase 3: [X]% of users (full rollout)
+
+## Monitoring During Rollout
+Key metrics to watch:
+- Error rate for feature: [threshold]
+- Page load time impact: [threshold]
+- Feature adoption rate: [target]
+- Customer support tickets: [threshold]
+
+## Decision Points
+At each phase, decide whether to:
+- Continue to next phase
+- Hold and investigate metrics
+- Rollback immediately
+
+Criteria for rollback: [specific metrics]
+
+## Rollback Procedure
+1. [Exact steps]
+2. [Exact steps]
+3. [Verification]
+
+## Post-Rollout Success Criteria
+- [ ] No critical bugs reported in first 24 hours
+- [ ] Feature adoption meets target
+- [ ] Performance impact within acceptable range
+- [ ] Customer satisfaction feedback positive
+```
+
+**Customer Onboarding Playbook Template:**
+```markdown
+# Onboarding [Customer Name]
+
+## Pre-Engagement
+- [ ] Contract signed and sent to [team]
+- [ ] Billing set up in [system]
+- [ ] Customer success manager assigned
+- [ ] Kickoff scheduled for [date/time]
+
+## Kickoff Call (Day 1)
+Attendees: [CSM], [Engineer], [Product], Customer
+1. Customer goals: [facilitate discussion]
+2. Your platform overview: [standard deck]
+3. Integration requirements: [technical discussion]
+4. Timeline expectations: [set realistic milestones]
+5. Next steps: [specific assignments]
+
+## Technical Onboarding (Week 1)
+- [ ] API credentials provisioned
+- [ ] Integration started: [specific steps]
+- [ ] Test data loaded: [procedure]
+- [ ] Basic workflow tested: [steps]
+
+## Go-Live (Week 2-3)
+- [ ] Final testing in production environment
+- [ ] Team training completed
+- [ ] Customer sign-off obtained
+- [ ] Support handoff: [procedure]
+```
+
+## Creating a Playbook Index and Search
+
+With dozens of playbooks, findability becomes critical:
+
+**Playbook Index Structure:**
+```markdown
+# Playbook Index
+
+## Quick Find by Role
+- [Support team playbooks](#support)
+- [Engineering playbooks](#engineering)
+- [Product playbooks](#product)
+- [Leadership playbooks](#leadership)
+
+## Quick Find by Situation
+- [Something is broken](#incidents)
+- [Rolling out a feature](#releases)
+- [Onboarding someone](#onboarding)
+- [Responding to a customer issue](#customer)
+
+## By Frequency
+- [Do this daily](#daily)
+- [Do this weekly](#weekly)
+- [Do this monthly](#monthly)
+- [Do this quarterly](#quarterly)
+
+## Recently Updated Playbooks
+- [Incident Response] - Updated 2026-03-20
+- [Feature Rollout] - Updated 2026-03-18
+- [Customer Escalation] - Updated 2026-03-15
+```
+
+Make the index searchable with Ctrl+F. If you're using a tool like Notion or Confluence, create database views filtered by role, frequency, and recency.
+
+## Automating Playbook Validation
+
+Playbooks with outdated commands or broken links undermine trust. Automate validation:
+
+```yaml
+# .github/workflows/playbook-validation.yml
+name: Validate Playbooks
+
+on:
+  pull_request:
+    paths:
+      - 'playbooks/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for broken links
+        run: |
+          for file in playbooks/*.md; do
+            echo "Checking links in $file"
+            # Extract all URLs and verify they're reachable
+            grep -oE 'https?://[^)]+' "$file" | while read url; do
+              if ! curl -s -o /dev/null -w "%{http_code}" "$url" | grep -q "200"; then
+                echo "Broken link: $url in $file"
+                exit 1
+              fi
+            done
+          done
+
+      - name: Check for outdated versions
+        run: |
+          # Flag any Node 16 references (EOL)
+          if grep -r "Node 16" playbooks/; then
+            echo "Found outdated Node 16 references"
+            exit 1
+          fi
+```
+
+This catches common issues before they reach your team.
+
 ## Frequently Asked Questions
 
 **How long does it take to organize remote team playbook documentation for?**

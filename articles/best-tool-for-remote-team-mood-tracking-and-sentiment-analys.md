@@ -205,6 +205,225 @@ The key is consistency—track sentiment over weeks and months, not just single 
 
 Sentiment analysis works best as an early warning system, not a replacement for direct communication. Use these tools to know when to check in, then have real conversations.
 
+## Detecting Specific Problems with Sentiment Analysis
+
+### Burnout Signal Detection
+
+Burnout manifests in communication patterns before people quit. Monitor for:
+
+1. **Emoji frequency decline** — When a normally enthusiastic developer stops using emojis, it signals emotional withdrawal
+2. **Response time lengthening** — Messages taking longer to answer indicate distraction or reduced engagement
+3. **After-hours messaging disappearance** — If someone stops Slack activity after hours, they may be protecting boundaries (good) or have checked out (bad)
+4. **Passive voice increase** — "It was decided" vs "We decided" shows decreased ownership
+
+```python
+def detect_burnout_signals(slack_export, user_id, window_days=30):
+    """
+    Analyze communication patterns for burnout indicators.
+    Returns risk score 0-100.
+    """
+    user_messages = get_user_messages(slack_export, user_id, days=window_days)
+
+    # Count emoji usage trend
+    recent_emoji_count = sum(1 for m in user_messages[-30:]
+                            if re.search(r':\w+:', m['text']))
+    historical_emoji_avg = sum(1 for m in user_messages[:-30]
+                              if re.search(r':\w+:', m['text'])) / max(len(user_messages[:-30]), 1)
+
+    emoji_decline = max(0, 1 - (recent_emoji_count / max(historical_emoji_avg, 0.1)))
+
+    # Measure response time
+    response_times = calculate_response_times(user_messages)
+    response_time_increase = np.percentile(response_times[-7:], 75) / \
+                            np.percentile(response_times[:-7], 75)
+
+    # Count passive voice
+    passive_voice_ratio = sum(1 for m in user_messages[-30:]
+                             if contains_passive_voice(m['text'])) / len(user_messages[-30:])
+
+    # Composite burnout score
+    burnout_score = (
+        emoji_decline * 0.3 +
+        min(response_time_increase, 2.0) * 0.35 +
+        passive_voice_ratio * 0.35
+    ) * 100
+
+    return {
+        'score': burnout_score,
+        'risk_level': 'critical' if burnout_score > 70 else 'warning' if burnout_score > 40 else 'normal',
+        'signals': {
+            'emoji_decline': emoji_decline,
+            'response_slowdown': response_time_increase,
+            'passive_voice': passive_voice_ratio
+        }
+    }
+```
+
+When burnout score exceeds 60 for an individual, schedule a private check-in. Don't cite the metrics—use them as a cue to reach out personally.
+
+### Communication Breakdown Detection
+
+Team sentiment can flip rapidly when communication infrastructure fails (Slack outages, email overload, unclear decisions):
+
+```python
+def detect_communication_friction(slack_data, github_data, timeline_days=7):
+    """
+    Detect when team communication is breaking down.
+    Looks for negative sentiment spikes + reduced collaboration.
+    """
+
+    # Sentiment trend in Slack
+    sentiment_scores = [
+        vader_sentiment(msg) for msg in get_channel_messages(
+            slack_data, channel='engineering', days=timeline_days
+        )
+    ]
+
+    sentiment_trend = np.polyfit(range(len(sentiment_scores)),
+                                sentiment_scores, 1)[0]  # Slope
+
+    # PR review time increase (collaboration friction)
+    pr_review_times = [pr['review_time_hours']
+                      for pr in get_merged_prs(github_data, days=timeline_days)]
+
+    review_time_slowdown = np.percentile(pr_review_times[-3:], 50) / \
+                          np.percentile(pr_review_times[:-3], 50)
+
+    # Cross-timezone message gaps
+    us_tz_messages = count_messages_in_timezone(slack_data, 'US/Eastern', days=7)
+    eu_tz_messages = count_messages_in_timezone(slack_data, 'Europe/London', days=7)
+
+    timezone_imbalance = abs(us_tz_messages - eu_tz_messages) / \
+                        max(us_tz_messages, eu_tz_messages)
+
+    if sentiment_trend < -0.1 and review_time_slowdown > 1.3:
+        return {
+            'alert': 'COMMUNICATION_FRICTION',
+            'indicators': {
+                'sentiment_declining': True,
+                'collaboration_slowing': True,
+                'timezone_gap_widening': timezone_imbalance > 0.3
+            },
+            'recommendation': 'Schedule team sync to clear blockers'
+        }
+```
+
+### Identifying Quiet Team Members
+
+Sentiment analysis can miss people who are struggling because they communicate less. Monitor for:
+
+```python
+def identify_quiet_but_declining(slack_data, baseline_participation):
+    """
+    Find team members who are communicating less than their historical baseline.
+    Important: this catches people declining before burnout is obvious.
+    """
+
+    all_users = get_workspace_users(slack_data)
+    declining_users = []
+
+    for user in all_users:
+        messages_past_week = count_user_messages(slack_data, user, days=7)
+        messages_baseline = baseline_participation.get(user, 5)  # Default 5/day
+
+        # Someone who normally posts 8x/day but now posts 3x/day is in decline
+        if messages_past_week < (messages_baseline * 0.5) and messages_baseline > 3:
+            user_sentiment = analyze_user_sentiment(slack_data, user, days=7)
+
+            if user_sentiment['compound'] < 0.1:  # Neutral or negative
+                declining_users.append({
+                    'user': user,
+                    'usual_activity': messages_baseline,
+                    'current_activity': messages_past_week,
+                    'decline_percent': (1 - messages_past_week / messages_baseline) * 100,
+                    'sentiment': user_sentiment
+                })
+
+    # Sort by decline severity
+    return sorted(declining_users,
+                 key=lambda x: x['decline_percent'],
+                 reverse=True)
+```
+
+Proactively reach out to users showing steep activity declines. These people often struggle silently.
+
+## Actionable Sentiment Analysis Workflow
+
+Rather than just tracking sentiment, build a workflow that converts signals to actions:
+
+```python
+def sentiment_response_workflow():
+    """
+    Daily workflow that converts sentiment analysis to management actions.
+    """
+
+    # 1. Collect data
+    slack_sentiment = analyze_slack_sentiment(days=1)
+    github_activity = analyze_github_activity(days=1)
+
+    # 2. Detect anomalies
+    anomalies = {
+        'burnout_risks': detect_burnout_signals(window_days=30),
+        'communication_issues': detect_communication_friction(),
+        'quiet_declines': identify_quiet_but_declining()
+    }
+
+    # 3. Threshold-based actions
+    actions = []
+
+    for user_signal in anomalies['burnout_risks']:
+        if user_signal['score'] > 70:
+            actions.append({
+                'type': 'URGENT_CHECK_IN',
+                'owner': 'user_manager',
+                'target': user_signal['user'],
+                'priority': 'today',
+                'note': 'Schedule 1-on-1 ASAP. Do not mention metrics.'
+            })
+
+    if anomalies['communication_issues']['alert']:
+        actions.append({
+            'type': 'TEAM_SYNC',
+            'owner': 'engineering_lead',
+            'target': 'engineering_team',
+            'priority': 'this_week',
+            'note': 'Discuss blockers and clarify unclear decisions'
+        })
+
+    for user_signal in anomalies['quiet_declines']:
+        if user_signal['decline_percent'] > 50:
+            actions.append({
+                'type': 'WELLNESS_CHECK',
+                'owner': 'user_manager',
+                'target': user_signal['user'],
+                'priority': 'this_week',
+                'note': 'Light check-in. They may be heads-down on focus work.'
+            })
+
+    # 4. Log and delegate
+    for action in actions:
+        create_task(
+            title=f"{action['type']}: {action['target']}",
+            owner=action['owner'],
+            due_date=get_due_date(action['priority']),
+            description=action['note']
+        )
+
+    return actions
+```
+
+Run this daily and use it to feed your 1-on-1 agendas. The goal is to catch problems early, not to surveil your team.
+
+## Privacy Considerations When Analyzing Sentiment
+
+When analyzing team sentiment, follow these guidelines:
+
+1. **Aggregate before sharing reports** — Never share individual sentiment scores with leadership. Share team trends only.
+2. **Don't expose the analysis to the team** — Knowing they're being analyzed changes behavior and reduces authenticity.
+3. **Use sentiment as a prompt to talk, not as judgment** — Negative sentiment is information, not evidence of poor performance.
+4. **Delete old data regularly** — Keep only 60-90 days of raw Slack/message data. Analyze trends, not individuals.
+5. **Require consent for Slack analysis** — Some jurisdictions require explicit consent to analyze internal communications.
+
 ## Frequently Asked Questions
 
 **Are free AI tools good enough for tool for remote team mood tracking and sentiment?**

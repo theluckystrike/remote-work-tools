@@ -182,7 +182,181 @@ A $50 LED panel in front of you will improve your image more than upgrading from
 
 Simple test: take a screenshot from your current camera. If your face is darker than your background, fix the lighting first.
 
----
+## Home Office Lighting Setup for Video Calls
+
+Professional-looking video calls start with lighting. Here's a practical setup:
+
+**Key Light** (Main): Position a soft light (ring light or LED panel) 3-4 feet in front of you, slightly above eye level. This becomes your primary source.
+
+**Fill Light** (Optional): Place a softer light at 45 degrees to reduce harsh shadows. You can use a white foam board as a reflector instead of a second light.
+
+**Backlight** (Accent): A light behind you, facing the background, separates you from the background and adds dimension.
+
+**Practical Setup for $100-200:**
+- One Neewer RGB LED panel ($60-80)
+- White foam boards for bounce/fill ($15-20)
+- Light stands ($20-40)
+
+Adjust color temperature to match your room's existing lighting. Mixing cool (5500K) key light with warm (3200K) fill creates dimensional, flattering results.
+
+Test before important calls: record a 30-second test with your intended lighting and review it.
+
+## Integrating Webcams with Productivity Tools
+
+Most webcams work as simple video input, but better integration unlocks useful features:
+
+**OBS (Open Broadcaster Software)** Integration: Use OBS as your camera source instead of the native app. This lets you add overlays, virtual backgrounds, and scene switching without expensive software.
+
+```bash
+# macOS example: Add camera to OBS
+# Open OBS → Sources → Add → Video Capture Device → Select your camera
+```
+
+**Zoom Virtual Backgrounds:** Most modern cameras work fine with Zoom's virtual background feature, though it's CPU-intensive. Test with your specific camera before relying on it for important calls.
+
+**Microsoft Teams Blur:** Teams has built-in background blur that works with any UVC camera. This is usually better quality than full virtual backgrounds because it's less aggressive processing.
+
+**Stream Deck Integration:** If you stream or need quick camera switching, Elgato's Stream Deck integrates with Facecam Pro for one-click scene changes.
+
+## Resolution and Platform Compatibility
+
+Not all video calling platforms support 4K. Understanding limits prevents disappointment:
+
+| Platform | Max Resolution | 1080p Support | Notes |
+|----------|---|---|---|
+| Zoom (standard) | 720p | Yes (1080p with HD add-on) | Most companies use standard |
+| Microsoft Teams | 1080p | Yes | Windows 11 native support for 1080p60 |
+| Google Meet | 1080p | Yes | Web version capped at 1080p |
+| WebRTC apps | Varies | Yes | Jitsi, Whereby support 1080p |
+
+A 4K camera downscales to 1080p on most platforms, so the $200 Facecam Pro doesn't provide more than 1080p—it just captures sharper images before downscaling. This matters if you're recording locally or sharing your screen with camera-in-picture.
+
+## Camera Mounting and Positioning
+
+Proper positioning matters as much as camera quality:
+
+**Monitor-Top Mounting:** Traditional laptop positioning. Place camera at eye level or slightly above. If camera is below eye level, you'll look down at the camera (unflattering).
+
+**Arm Mount:** Allows repositioning for different desk setups. Useful if you rotate between sitting and standing.
+
+**Monitor Bracket:** Mounts camera precisely on top of monitor, ensuring camera and screen align (reducing eye-contact illusions).
+
+**Cable Management:** Velcro ties or clips keep cables organized. A neat setup signals professionalism on video calls.
+
+Test camera positioning before important meetings: record a short clip and verify the framing works.
+
+## Troubleshooting Common Camera Issues
+
+**"My camera freezes during calls"**
+- Check CPU usage: camera drivers consuming too much processing
+- Reduce resolution in camera settings
+- Close other applications (browser tabs, video editing)
+- Update camera firmware
+
+**"Autofocus hunting during calls"**
+- Switch to manual focus if available
+- Ensure you're 2-3 feet from camera (outside macro focus range)
+- Check camera settings for focus assist or face tracking options
+
+**"Poor color accuracy"**
+- Calibrate white balance to your room lighting
+- Check that room temperature isn't clashing (cool light + warm room)
+- Adjust ISO/exposure in camera software, not just in video call app
+
+**"Microphone picking up background noise"**
+- Position USB microphone closer to speaker (6-12 inches)
+- Use noise gate or noise reduction (Slack/Teams features)
+- Place soft materials around microphone (foam, fabric reduces reflections)
+
+## Webcam Selection by Role
+
+Different roles have different camera needs:
+
+**Software Engineer/Developer**
+- Best choice: Logitech Brio 500 or Facecam Pro
+- Why: Code sharing and demos benefit from crisp image, reasonable budget
+- Setup: Monitor-top or arm mount at eye level
+- Tip: Position camera so code on second monitor is visible
+
+**Product Manager/Business Role**
+- Best choice: Logitech Brio 500
+- Why: Clear communication matters more than 4K, good value
+- Setup: Monitor-top mount, good lighting
+- Tip: Face camera slightly to show background strategically
+
+**Streamer/Content Creator**
+- Best choice: Opal C1 or Elgato Facecam Pro
+- Why: Professional appearance, excellent low-light, output quality matters
+- Setup: Dedicated tripod mount, well-lit setup
+- Tip: Use OBS for scene control and recording
+
+**Customer-Facing (Sales/Support)**
+- Best choice: Insta360 Link 2
+- Why: AI tracking keeps you framed while you move, professional appearance
+- Setup: Dedicated monitor mount, moderate lighting
+- Tip: AI features worth paying for in customer-facing role
+
+**Manager/Leadership**
+- Best choice: Logitech Brio 500
+- Why: Reliable, no-fuss, budget for multiple cameras across team
+- Setup: Standard monitor mount
+- Tip: Ensure office lighting is consistent
+
+## Video Call Platform Camera Support in 2026
+
+Different platforms support different camera features:
+
+```
+Zoom (Most Common):
+├── Max resolution: 720p (HD)
+├── 1080p: Available with HD add-on license
+├── Virtual background: Yes
+├── Camera control: Limited (zoom only)
+└── Best for: Brio 500, Facecam Pro
+
+Microsoft Teams:
+├── Max resolution: 1080p60 (Windows 11)
+├── Virtual background: Yes, excellent quality
+├── Camera blur: Built-in and smooth
+├── Dynamic backgrounds: Supported
+└── Best for: Opal C1, Link 2
+
+Google Meet:
+├── Max resolution: 1080p
+├── Virtual background: Yes
+├── Face detection: Yes
+├── Light correction: Built-in
+└── Best for: Any modern camera
+
+WebRTC/Jitsi:
+├── Max resolution: 1080p
+├── Virtual background: Limited
+├── Browser-based: Works with any USB camera
+├── Best for: Brio 500 (maximum compatibility)
+```
+
+Know which platform your team uses before buying. Upgrading to 4K doesn't help if your video call platform caps resolution at 1080p.
+
+## Webcam Security Considerations
+
+Webcams are a common malware target. Secure yours:
+
+**Physical Security:**
+- Cover camera with tape or physical shutter when not in use
+- Only your chosen camera should work, disable built-in laptop camera if possible
+- Logitech Brio 500 and Opal C1 both include physical shutters
+
+**Software Security:**
+- Keep camera firmware updated (check manufacturer's website quarterly)
+- Use camera software only from official sources
+- Disable camera access in privacy settings for apps that don't need it
+- macOS and Windows both allow you to restrict which apps can access camera
+
+**Network Security:**
+- Don't plug camera into public WiFi networks
+- Use trusted networks only
+- VPN connection before connecting to unsecured networks
+- Don't expose webcam with rtmp/stream publicly without authentication
 
 ## Related Reading
 

@@ -172,6 +172,126 @@ git push origin handbook/update-onboarding-process
 
 This makes documentation a team responsibility rather than a solo burden.
 
+## Building Decision-Making Frameworks in Your Handbook
+
+One section of your handbook should document how your team makes decisions. Clear decision frameworks prevent endless debate:
+
+```markdown
+## Decision Framework: When to Use Customer Feature vs. Technical Debt
+
+### Decision Type 1: Small Bugs (< 4 hours work)
+- Owner: Engineer who found it
+- Process: Create issue, fix in same sprint
+- Communication: Post in #bugs when fixed
+- No meeting required
+
+### Decision Type 2: Medium Features (1-2 weeks work)
+- Owner: Product Manager
+- Process: Sketch RFC in #product-discuss, collect feedback 48 hours
+- Communication: Async discussion, document decision in wiki
+- One sync call only if consensus isn't clear
+
+### Decision Type 3: Major Architectural Decisions (> 2 weeks)
+- Owner: Tech Lead + Product Manager (joint)
+- Process: Full RFC with technical analysis, implementation plan, rollback strategy
+- Communication: Async RFC review window, one sync call to finalize
+- Publish decision document to handbook before implementation
+- Quarterly review: evaluate if decision still makes sense
+
+### Decision Type 4: Urgent (Production Down, Security Issue)
+- Owner: On-call engineer + Manager
+- Process: Fix immediately, document post-incident
+- Communication: Sync call only if more than 2 people involved
+- Update handbook with lessons learned
+```
+
+Different decisions need different approval levels. Documenting this prevents decision-making paralysis.
+
+### Building a Communication Escalation Path
+
+Remote teams need explicit escalation procedures:
+
+```markdown
+## Escalation Paths by Issue Type
+
+### Technical Issues
+1. Try to resolve independently (1 hour)
+2. Ask in #engineering Slack (2 hours)
+3. Schedule pairing session with senior engineer
+4. If still stuck: bring to tech lead in daily standup
+5. Engineering leadership decides if architectural change needed
+
+### Customer Issues
+1. Support agent handles per standard playbook
+2. If unusual: escalate to support lead
+3. If requires product change: escalate to PM
+4. If requires engineering: add to backlog with priority level
+5. If impacts revenue: bring to CEO
+
+### Team Conflict
+1. Discuss directly with other person (24 hours)
+2. If unresolved: involve direct managers
+3. If still unresolved: HR + manager mediation
+4. HR makes final decision with input from leadership
+
+### Missed Deadlines or Performance Issues
+1. Discuss with person + manager in 1:1
+2. Create improvement plan with clear metrics
+3. Check-in weekly for 4 weeks
+4. Escalate to leadership if no improvement
+5. Leadership decides on reassignment or further action
+```
+
+This prevents issues festering in silence and clarifies when escalation is appropriate.
+
+## Maintaining Handbook Accuracy
+
+Documentation that becomes outdated is worse than no documentation. Build maintenance into your operations:
+
+**Quarterly Handbook Audit:**
+- Every team member reviews their assigned section
+- Mark as "reviewed" with date and approver name
+- If content is outdated, update immediately
+- If content is no longer relevant, archive it
+- Note any procedures that need to be added
+
+**Post-Incident Documentation:**
+After any significant incident or operational issue:
+1. Create postmortem (what happened, why, how to prevent)
+2. Add preventative measure to handbook if needed
+3. Update related runbooks with lessons learned
+4. Share postmortem in company meeting or email
+
+**New Hire Handbook Review:**
+During onboarding, ask new team members to:
+1. Read the handbook and mark what's unclear
+2. Collect questions in a doc
+3. Week 2: Discuss confusing sections with their manager
+4. Manager updates handbook based on feedback
+
+This ensures handbook matches what new hires actually experience, not what experienced people assume they know.
+
+## Handbook Metrics That Matter
+
+Track these metrics to understand handbook health:
+
+**Engagement:**
+- Views per handbook page per month
+- Time spent reading handbook during onboarding
+- % of team that reports handbook as useful in survey
+
+**Currency:**
+- % of pages reviewed in last 90 days
+- Average time between updates for each section
+- Number of outdated references caught by automated checks
+
+**Impact:**
+- Reduction in repeated questions to managers
+- New hires time-to-productivity (shorter is better)
+- Incidents where handbook runbook prevented escalation
+
+Review these metrics quarterly. Low engagement on a page usually means either it's irrelevant or unclear. Either update or archive it.
+
 ## Troubleshooting
 
 **Configuration changes not taking effect**

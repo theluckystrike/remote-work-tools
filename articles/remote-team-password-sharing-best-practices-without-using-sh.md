@@ -154,6 +154,188 @@ Monitor adoption metrics. Most password managers provide usage reports showing l
 
 Password sharing for remote teams doesn't require spreadsheets. Modern password managers and secret management tools provide superior security, better access controls, and audit capabilities that spreadsheets cannot match. Your team's credentials deserve proper protection—implement these practices to achieve it.
 
+## Building Your Team's Security Policy
+
+Before selecting tools, define the policies they'll enforce. A strong password security policy covers:
+
+**Password Rotation Requirements**
+- Service credentials: 90 days
+- Administrative accounts: 60 days
+- API keys: Quarterly or per-incident
+- Emergency credentials: Never reused (generate fresh for each use)
+
+**Access Level Tiers**
+- Tier 1 (Everyone): WiFi, shared SaaS accounts like Slack
+- Tier 2 (Engineering): Database credentials, API keys, deployment access
+- Tier 3 (Leadership): Master keys, emergency access, billing systems
+- Tier 4 (Designated Individual): Root/admin credentials (single person, audit all access)
+
+Document these tiers in your security handbook. When new team members join, assign them to exactly one tier with no exceptions.
+
+## Evaluating Tools for Your Team Size
+
+Tool requirements scale with organization size. A 5-person startup needs different features than a 100-person company:
+
+**Teams 1-10 people:**
+- Bitwarden Teams ($4/person/month) or 1Password Families
+- Simple vault structure matching team function
+- Manual access requests (informal process works)
+
+**Teams 11-30 people:**
+- 1Password Business ($7.99/person/month) or Keeper ($3.75/person/month)
+- Implement the tier system above
+- Require written requests for new credential access
+- Enable audit logging for compliance
+
+**Teams 31+ people:**
+- Consider both a password manager (1Password/Bitwarden) AND a secret manager (Vault/AWS Secrets)
+- Implement strict role-based access control (RBAC)
+- Require approval workflows for credential access
+- Integrate with identity provider (SSO via SAML)
+
+**Technical/Infrastructure teams:**
+- Prioritize Vault, AWS Secrets Manager, or Azure Key Vault
+- Implement short-lived credentials (10-60 minute expiry)
+- Use SSH keys instead of passwords where possible
+- Automate credential rotation for non-human accounts
+
+## The Risks of Shared Passwords
+
+Understanding why shared passwords fail helps you enforce better practices:
+
+**Session Hijacking:** When a password is shared, multiple people enter it from multiple devices. If one device is compromised, the account is exposed. With a tool like 1Password, the tool doesn't expose the password—it auto-fills, limiting exposure surface.
+
+**Audit Trail Loss:** Shared passwords create no audit trail. You don't know who accessed what or when. When a leak occurs, you can't determine the scope or when compromise happened.
+
+**Rotation Chaos:** When you rotate a shared password, you must notify everyone and wait for them to update their files. Someone always misses the memo and uses the old password, breaking their workflow.
+
+**Termination Risk:** When someone leaves your company, you must rotate all credentials they ever knew. With 20 people sharing 50 passwords, you end up rotating everything.
+
+Use these risks in conversations with your team when introducing new tools.
+
+## Credential Rotation Strategies
+
+How often you rotate credentials depends on risk profile and access patterns:
+
+**High-Risk Credentials (Rotate Every 30 Days):**
+- Root/admin accounts
+- Database passwords with production write access
+- API keys with full permissions
+- Billing system credentials
+
+**Medium-Risk Credentials (Rotate Every 90 Days):**
+- Staging environment passwords
+- Read-only database credentials
+- API keys with limited scope
+- SSH keys for non-critical systems
+
+**Low-Risk Credentials (Rotate Annually):**
+- WiFi passwords
+- Shared SaaS logins (Slack, Google Workspace)
+- Tool accounts with limited permissions
+- Internal wiki credentials
+
+**Automated Rotation (No Manual Rotation Needed):**
+- Short-lived tokens (10-60 minute expiry)
+- OAuth tokens with refresh mechanisms
+- Temporary AWS credentials generated per-request
+- One-time use API keys
+
+The key is that rotation should be automated wherever possible. Manual rotation processes fail because someone forgets, or the process gets complicated as team size grows.
+
+## Onboarding New Team Members with Credentials
+
+When someone joins your team, they need immediate access to certain credentials. Build a secure process:
+
+```markdown
+## New Hire Credential Onboarding (First Day)
+
+1. Manager confirms access level (Tier 1, 2, 3, or 4)
+2. IT provisions password manager account
+3. IT shares read-only access to appropriate vault(s)
+4. After 1 week (probation period), upgrade to full access if approved
+5. Document all credentials person now has access to in Jira/tickets
+
+## New Hire Credential Offboarding (Last Day)
+
+1. Revoke password manager access immediately
+2. Rotate all credentials the person had access to
+3. Audit logs to see what they accessed in past 30 days
+4. Document rotation in ticket
+5. Archive their access record for compliance
+```
+
+Timing matters: immediate revocation on departure prevents former employees from accessing credentials.
+
+## Implementing MFA Everywhere
+
+Multi-factor authentication (MFA) is non-negotiable for important credentials:
+
+**Tier 1 (Everyone) MFA Requirements:**
+- Password manager: Mandatory MFA
+- Email: Mandatory MFA
+- GitHub/GitLab: Mandatory MFA
+
+**Tier 2-4 MFA Requirements:**
+- All password manager access: MFA required
+- SSH keys: Passphrase-protected minimum (MFA via hardware key preferred)
+- Database access: MFA via your password manager
+- AWS console: MFA mandatory, hardware key enforced for admin
+
+MFA via authenticator app (Google Authenticator, Authy) is better than SMS. Hardware keys (YubiKey, Titan) are best.
+
+## Implementation Roadmap
+
+Rolling out new credential management tools requires planning:
+
+**Month 1: Audit & Planning**
+- Catalog every shared credential currently in use (spreadsheets, shared files, chat history, etc.)
+- Assess compliance requirements (HIPAA, SOC2, GDPR, PCI-DSS)
+- Select tool and negotiate enterprise licensing if applicable
+- Create security policy document
+
+**Month 2: Pilot Group**
+- Select 3-5 power users to pilot the new tool
+- Migrate their credentials and get feedback
+- Document any pain points or missing features
+- Refine workflows based on pilot feedback
+
+**Month 3: Gradual Rollout**
+- Migrate 30% of team (usually engineering/operations)
+- Provide training: 30-minute group walkthrough + recorded demo
+- Assign tool champions: 1-2 people who become go-to experts
+- Create quick reference guide for most common tasks
+
+**Month 4-5: Full Adoption**
+- Migrate remaining team members
+- Remove spreadsheet access from shared drives (don't delete yet, archive for history)
+- Run compliance check: verify all credentials are in password manager
+- Update onboarding process to include password manager training
+
+## Handling Legacy Credentials
+
+Most organizations have credentials scattered across multiple locations. A systematic approach prevents losing important access:
+
+1. Create a CSV with columns: Service, Account, Last Known Location, Access Level, Dependencies
+2. Go through each spreadsheet, email, and shared file you find
+3. Document where each credential is currently stored
+4. Assign migration responsibility by credential owner
+5. Set migration deadline (usually 2 weeks)
+6. Archive old spreadsheets after verifying all credentials are migrated
+7. Schedule quarterly audits to catch any new scattered credentials
+
+## Building Team Habits
+
+Tools alone don't ensure security. Team habits matter more:
+
+**No Credential Sharing via Chat:** Create a Slack bot that detects credentials (common patterns like "api_key=", "password:", etc.) and blocks the message with a friendly reminder to use the password manager instead.
+
+**Credential Access Requests:** Require all access requests in writing (Jira, email, or form submission). This creates accountability and an audit trail.
+
+**Regular Access Reviews:** Quarterly, review who has access to what. Remove unnecessary access—especially for people who changed roles.
+
+**Post-Incident Credential Rotation:** When a team member leaves or a credential leak is suspected, rotate credentials within 24 hours. Have a runbook for this process.
+
 ## Related Articles
 
 - [Remote Team Password Sharing Best Practices for Shared](/remote-work-tools/remote-team-password-sharing-best-practices-for-shared-servi/)
