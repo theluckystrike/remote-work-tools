@@ -7,7 +7,7 @@ last_modified_at: 2026-03-22
 author: theluckystrike
 permalink: /zoom-phone-call-quality-choppy-on-home-wifi-fix-2026/
 reviewed: true
-score: 9
+score: 7
 categories: [troubleshooting]
 intent-checked: true
 voice-checked: true

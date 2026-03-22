@@ -7,7 +7,7 @@ author: theluckystrike
 permalink: /async-interview-process-for-hiring-remote-developers-no-live/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]---

@@ -10,7 +10,7 @@ tags: [remote-work-tools, async, github, proposals, engineering, remote-work]
 reviewed: true
 intent-checked: true
 voice-checked: true
-score: 8---
+score: 9
 ---
 layout: default
 title: "Async Engineering Proposal Process Using GitHub Discussions"
