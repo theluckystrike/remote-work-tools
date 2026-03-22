@@ -263,6 +263,79 @@ obsidian-export ~/team-vault/05-runbooks ./output/runbooks
 # Or deploy the output to Netlify/Cloudflare Pages
 ```
 
+## Search and Discovery at Team Scale
+
+As the vault grows past a few hundred notes, full-text search becomes the primary navigation method. Obsidian's built-in Quick Switcher (`Cmd+O`) and global search (`Cmd+Shift+F`) cover most needs. Add the **Omnisearch** community plugin for better fuzzy matching across note body text and frontmatter.
+
+For teams using Dataview, build a tag-based taxonomy early. Consistent frontmatter tags make filtered queries reliable:
+
+```yaml
+---
+date: 2026-03-15
+type: runbook          # meeting | decision | runbook | reference | project
+project: project-alpha
+owner: jane-smith
+status: active         # draft | active | deprecated
+tags: [kubernetes, deployment, infrastructure]
+---
+```
+
+The graph view becomes genuinely useful once the vault exceeds 200 notes. Filter it to show only notes of a specific type (e.g., `type:decision`) to see which projects generated the most architectural decisions, or filter by `type:runbook` to find operational procedures that are isolated (no backlinks) and therefore likely to be forgotten.
+
+Use the **Map of Content (MOC)** pattern for high-traffic topics. An MOC is a plain note that manually curates links to related notes — think of it as a hand-authored index page:
+
+```markdown
+# MOC: Infrastructure
+
+## Active Runbooks
+- [[kubernetes-cluster-scale]]
+- [[rds-failover-procedure]]
+- [[deploy-rollback-procedure]]
+
+## Key Decisions
+- [[ADR-008-container-orchestration]]
+- [[ADR-014-rds-vs-aurora]]
+
+## Reference
+- [[vpc-architecture-overview]]
+- [[cost-center-tagging-policy]]
+```
+
+MOC notes appear prominently in the graph view because they have many outbound links, making them natural entry points for new team members exploring the vault.
+
+## Onboarding New Team Members
+
+A shared vault accelerates onboarding when a dedicated entry point exists. Create a note called `START-HERE.md` at the vault root:
+
+```markdown
+# Start Here — New Team Member Guide
+
+Welcome. This vault is the team's primary knowledge base.
+
+## First: Read These
+1. [[team-working-agreements]]
+2. [[communication-conventions]]
+3. [[tool-access-request-process]]
+
+## Your First Week
+- Week 1 checklist: [[onboarding-week-1-checklist]]
+- Meet the team: [[03-people/]]
+
+## Where Things Live
+- Meeting notes → `01-meetings/`
+- Project work → `02-projects/YOUR-PROJECT/`
+- Operational procedures → `05-runbooks/`
+- Architecture decisions → `04-decisions/`
+
+## How to Contribute
+- Use templates (Cmd+P → Templater: Open insert template modal)
+- File your notes in the right folder, not `00-inbox`
+- Link to related notes using [[wikilinks]]
+- Run `Obsidian Git: Sync` before closing the app
+```
+
+New team members who can navigate the vault independently within their first week are a strong signal that the structure is working.
+
 ## Conflict Resolution with Git
 
 When two people edit the same note simultaneously and both commit, Git will create a conflict:
@@ -281,6 +354,21 @@ git commit -m "resolve: ADR-012 date conflict"
 ```
 
 The **Obsidian Git** plugin's `sync` command runs `pull --rebase` then `push`. Most single-note edits merge cleanly without conflicts.
+
+## Tool Comparison: Obsidian vs. Alternatives for Team Knowledge Management
+
+| Feature | Obsidian (Git sync) | Notion | Confluence | Logseq |
+|---|---|---|---|---|
+| File format | Plain Markdown | Proprietary | Proprietary | Plain Markdown |
+| Version control | Git native | Limited history | Page history | Git native |
+| Offline access | Full | Limited | Limited | Full |
+| Per-seat cost | $0 (Sync: $8/mo) | $10-18/mo | $5.75-11/mo | $0-8/mo |
+| Plugin ecosystem | 1,500+ community | Limited | Marketplace | Growing |
+| Graph view | Yes | No | No | Yes |
+| API / scripting | Dataview + JS | Yes | REST API | Clojure queries |
+| Learning curve | Medium | Low | Medium | Medium |
+
+Notion and Confluence win on onboarding ease and collaborative editing. Obsidian wins on data ownership, offline access, and long-term cost for teams comfortable with Git.
 
 ## Related Reading
 

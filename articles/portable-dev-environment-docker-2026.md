@@ -337,7 +337,124 @@ Port convention example for preventing conflicts across projects:
 # Project C: ports in 3200-3299 range
 ```
 
+## Multi-Architecture Builds (Apple Silicon + Linux CI)
 
+Apple Silicon Macs (M1/M2/M3) and x86_64 Linux CI runners can hit compatibility problems if images are built for only one architecture. Use Docker Buildx to produce multi-platform images:
+
+```bash
+# Create a builder that supports multi-arch
+docker buildx create --name multiarch --driver docker-container --use
+
+# Build and push for both architectures simultaneously
+docker buildx build \
+  --platform linux/amd64,linux/arm64 \
+  --tag yourregistry/myapp-dev:latest \
+  --push \
+  .devcontainer/
+
+# Verify both architectures are present
+docker buildx imagetools inspect yourregistry/myapp-dev:latest
+```
+
+When publishing to GitHub Container Registry (ghcr.io), authenticate with a personal access token that has `write:packages` scope:
+
+```bash
+echo $GITHUB_TOKEN | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin
+
+docker buildx build \
+  --platform linux/amd64,linux/arm64 \
+  --tag ghcr.io/yourorg/myapp-dev:latest \
+  --push \
+  .devcontainer/
+```
+
+Team members on either architecture pull the same image tag and get the correct binary. This eliminates the "works on my Mac, fails in CI" class of problems.
+
+## CI/CD Integration
+
+The dev container configuration doubles as a CI specification. GitHub Actions can run tests inside the same container used for local development:
+
+```yaml
+# .github/workflows/test.yml
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/yourorg/myapp-dev:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    services:
+      postgres:
+        image: postgres:16.2-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: myapp_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run tests
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@postgres:5432/myapp_test
+        run: npm test
+```
+
+The CI environment is now identical to the local dev environment. A test that passes locally will pass in CI because both run the same container image.
+
+## Choosing a Base Image: Comparison
+
+Base image choice has downstream effects on image size, security surface, and available tools:
+
+| Base Image | OS | Size (approx.) | glibc | Best For |
+|---|---|---|---|---|
+| `node:20-bookworm-slim` | Debian 12 slim | ~180MB | Yes | Node apps needing native modules |
+| `node:20-alpine` | Alpine Linux | ~50MB | No (musl) | Minimal images, pure JS projects |
+| `python:3.12-slim-bookworm` | Debian 12 slim | ~130MB | Yes | Python with C extensions |
+| `python:3.12-alpine` | Alpine Linux | ~45MB | No (musl) | Lightweight pure Python |
+| `ubuntu:24.04` | Ubuntu LTS | ~80MB | Yes | General-purpose, familiar toolchain |
+| `mcr.microsoft.com/devcontainers/base:ubuntu` | Ubuntu LTS | ~420MB | Yes | VS Code dev containers with pre-installed tools |
+
+**Alpine images** are smallest but use musl libc instead of glibc. Some native Node modules (sharp, bcrypt) and Python C extensions require glibc and will fail to compile on Alpine. Use Alpine only if your project has no native dependencies.
+
+**Debian slim images** are the practical default for most projects: small enough to pull quickly, glibc-compatible for native modules, and based on a well-supported OS with regular security patches.
+
+**Microsoft's devcontainers base images** (`mcr.microsoft.com/devcontainers/`) come pre-installed with git, zsh, and VS Code server integration. They are larger but save the effort of scripting developer tooling from scratch.
+
+## Keeping Images Up to Date
+
+Pinned image versions (e.g., `node:20.11.1-bookworm-slim`) prevent surprise breakage but require deliberate updates. Automate this with Dependabot:
+
+```yaml
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: weekly
+    labels:
+      - dependencies
+      - docker
+
+  - package-ecosystem: docker
+    directory: "/.devcontainer"
+    schedule:
+      interval: weekly
+```
+
+Dependabot opens a PR each week when newer patch versions of your pinned images are available. Review the changelog, run CI, and merge if green — no manual version tracking required.
 
 ## Frequently Asked Questions
 

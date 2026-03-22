@@ -239,9 +239,76 @@ Assign workset ownership based on discipline and time zone overlap. Schedule syn
 
 Connect your collaboration tools with team communication platforms. Automated notifications for model updates, render completions, and conflict warnings keep everyone informed without requiring constant manual checking.
 
+## Tool Comparison: Remote BIM Collaboration Platforms
+
+Here is how the major platforms compare for distributed Revit workflows:
+
+| Platform | Central File Host | Real-Time Sync | Web Viewer | Revit Integration | Approx. Cost |
+|---|---|---|---|---|---|
+| Autodesk Construction Cloud (ACC) | Yes (BIM 360 Docs) | Yes (cloud worksharing) | Yes (Forge Viewer) | Native | $59-85/user/mo |
+| BIM Track | No (external host) | Comment/issue layer | Yes | Plugin required | $30-60/user/mo |
+| Trimble Connect | Yes | Yes | Yes | Trimble plugin | $20-40/user/mo |
+| Newforma Konekt | No | Issue tracking only | Limited | Limited | Custom pricing |
+| VPN + File Server | On-premises NAS | No (manual sync) | No | Native | Infrastructure cost only |
+| Azure Blob + Custom | Azure storage | Custom built | Via Forge API | Custom plugin | Usage-based |
+
+For most firms under 50 seats, Autodesk Construction Cloud provides the lowest-friction path since cloud worksharing is built directly into Revit 2023+. Teams with existing Azure infrastructure may find the custom Azure Blob approach more cost-effective at scale.
+
+## Network Latency Optimization for Remote Revit
+
+Large Revit central files (100MB–2GB) are sensitive to network latency in ways that typical SaaS tools are not. Practical mitigation strategies:
+
+**Split the model by discipline.** Instead of one monolithic central file, use Revit's linked-model workflow to split structural, architectural, and MEP models into separate files. Each discipline team syncs only their file, reducing the per-sync payload dramatically.
+
+**Schedule sync windows.** Require all team members to sync at the top of each hour rather than continuously. This reduces simultaneous write conflicts and allows the network to handle bursts rather than sustained load:
+
+```python
+# Slack bot reminder: post sync reminder every hour during work hours
+import schedule
+import requests
+
+SLACK_WEBHOOK = "https://hooks.slack.com/services/YOUR/WEBHOOK/URL"
+
+def post_sync_reminder():
+    requests.post(SLACK_WEBHOOK, json={
+        "text": ":arrows_counterclockwise: Revit sync window — sync to central now before the next work block."
+    })
+
+schedule.every().hour.at(":00").do(post_sync_reminder)
+```
+
+**Use Azure ExpressRoute or AWS Direct Connect** for offices connecting to cloud-hosted central files. These dedicated connections provide predictable 10-50ms round-trip times versus 80-300ms over commodity internet — a meaningful difference during workset checkout operations.
+
+**Cache models locally with Revit's detach-and-reattach workflow** when team members need extended offline periods. Detach, work locally, then coordinate a manual merge session when reconnecting.
+
+## Workset Ownership by Time Zone
+
+A workset ownership matrix reduces conflict risk for globally distributed teams. Assign workset ownership by geographic team during their primary work hours:
+
+| Workset | Primary Owner | Time Zone | Handoff Time |
+|---|---|---|---|
+| Site/Civil | NYC team | EST | 17:00 EST → London |
+| Core & Shell | London team | GMT | 17:00 GMT → Singapore |
+| MEP Systems | Singapore team | SGT | 17:00 SGT → NYC |
+| Interior | NYC team | EST | 17:00 EST |
+
+At each handoff, the outgoing team checks in all owned worksets before their EOD. The incoming team checks out worksets at the start of their day. A Slack notification bot can enforce the handoff protocol:
+
+```python
+def notify_workset_handoff(from_team, to_team, worksets):
+    message = (
+        f"*BIM Handoff* — {from_team} → {to_team}\n"
+        f"Worksets to check in: {', '.join(worksets)}\n"
+        f"Please confirm check-in by reacting with :white_check_mark:"
+    )
+    requests.post(SLACK_WEBHOOK, json={"text": message})
+```
+
+This follow-the-sun model allows round-the-clock model progress without the file locking conflicts that occur when multiple time zones own the same workset.
+
 ## Evaluating Your Collaboration Stack
 
-When assessing remote BIM tools for your team, prioritize solutions that minimize latency for workset synchronization, provide version control and backup capabilities, offer clear audit trails for model changes, and integrate with your existing project management systems. Consider the total cost of ownership including storage, API usage, and training requirements.
+When assessing remote BIM tools for your team, prioritize solutions that minimize latency for workset synchronization, provide version control and backup capabilities, offer clear audit trails for model changes, and integrate with your existing project management systems. Consider total cost of ownership including storage, API usage, and training requirements.
 
 The remote architecture BIM collaboration ecosystem continues to evolve rapidly. Teams that establish solid technical foundations now will be better positioned to adopt emerging tools and workflows as the industry progresses.
 

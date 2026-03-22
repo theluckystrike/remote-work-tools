@@ -204,12 +204,99 @@ Distributed teams should calibrate expectations based on their context:
 
 These ranges account for coordination overhead that increases with team size and geographic distribution.
 
+## Jira Integration for Automated Metrics
+
+Teams using Jira can pull the same metrics via the Jira REST API, avoiding manual data collection:
+
+```python
+import requests
+from datetime import datetime, timedelta
+import base64
+
+class JiraMetricsClient:
+    def __init__(self, domain, email, api_token):
+        credentials = base64.b64encode(f"{email}:{api_token}".encode()).decode()
+        self.headers = {
+            "Authorization": f"Basic {credentials}",
+            "Content-Type": "application/json"
+        }
+        self.base_url = f"https://{domain}.atlassian.net/rest/api/3"
+
+    def get_sprint_issues(self, board_id, sprint_id):
+        url = f"https://{domain}.atlassian.net/rest/agile/1.0/board/{board_id}/sprint/{sprint_id}/issue"
+        response = requests.get(url, headers=self.headers)
+        return response.json().get("issues", [])
+
+    def calculate_sprint_accuracy(self, board_id, sprint_id):
+        issues = self.get_sprint_issues(board_id, sprint_id)
+        committed = 0
+        completed = 0
+
+        for issue in issues:
+            points = issue["fields"].get("story_points", 0) or 0
+            committed += points
+            if issue["fields"]["status"]["name"] == "Done":
+                completed += points
+
+        return {
+            "committed": committed,
+            "completed": completed,
+            "accuracy": (completed / committed * 100) if committed > 0 else 0
+        }
+
+# Usage
+client = JiraMetricsClient("your-domain", "your@email.com", "your-api-token")
+result = client.calculate_sprint_accuracy(board_id=1, sprint_id=42)
+print(f"Sprint accuracy: {result['accuracy']:.1f}%")
+```
+
+For Jira users, the **Jira Dashboards** Burndown Chart widget displays commitment accuracy out of the box. Complement it with a **Velocity Chart** (Jira Software → Reports → Velocity Chart) to track consistency across sprints. Linear users get equivalent data through Linear's **Cycles** analytics view.
+
+## Tools Comparison: Delivery Metrics Platforms
+
+Different teams track predictability with different toolchains. Here is how the major options compare:
+
+| Tool | Cycle Time Tracking | Commitment Accuracy | Async-Friendly | Cost |
+|---|---|---|---|---|
+| Linear | Yes (Cycles view) | Yes | Yes | $8/user/mo |
+| Jira Software | Yes (via reports) | Yes (Velocity Chart) | Partial | $7.75/user/mo |
+| GitHub Issues + custom script | Yes (API-based) | Requires scripting | Yes | Free |
+| Shortcut | Yes (Iterations) | Yes | Yes | $8.50/user/mo |
+| Notion + Formulas | Manual only | Manual only | Yes | $10/user/mo |
+| DORA Metrics tools (Sleuth, Faros) | Yes (deployment focus) | Partial | Yes | $20-40/user/mo |
+
+For distributed teams, **Linear** stands out because its Cycles feature flags issues added mid-cycle as unplanned, making scope creep visible in the data. **Sleuth** (a DORA metrics platform) adds deployment frequency and change failure rate on top of cycle time for teams with CI/CD pipelines.
+
+## The Predictability Improvement Playbook
+
+After measuring for 8-12 weeks, teams typically fall into one of three patterns:
+
+**Pattern 1: Low accuracy, high variance (accuracy 40-60%, cycle time varies 2x-5x)**
+
+Root cause is usually poor estimation or undefined scope at sprint start. Fix: introduce a Definition of Ready (DoR) — no issue enters a sprint without acceptance criteria, a size estimate, and dependency review. Re-measure after four sprints.
+
+**Pattern 2: Good accuracy, long cycle times (accuracy 80%+, cycle time 15+ days)**
+
+The team is reliably slow. Root cause is often review bottlenecks — PRs sitting for 24-48 hours in async review. Fix: add a team agreement that PRs under 200 lines receive review within one working day, and instrument PR age in your metrics:
+
+```python
+def pr_review_lag(created_at, first_review_at):
+    """Calculate hours from PR open to first review"""
+    created = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+    reviewed = datetime.fromisoformat(first_review_at.replace("Z", "+00:00"))
+    return (reviewed - created).total_seconds() / 3600
+```
+
+**Pattern 3: Improving accuracy, stable cycle time**
+
+This is the target state. The team is calibrated. Shift focus from predictability repair to throughput improvement: can you reduce cycle time by 20% without sacrificing accuracy?
+
 ## Building Predictability Over Time
 
 Predictability improves through iteration:
 
 1. **Measure consistently** for 8-12 weeks before drawing conclusions
-2. **Identify bottlenecks** in your async workflows—where do items stall?
+2. **Identify bottlenecks** in your async workflows — where do items stall?
 3. **Adjust commitments** based on actual delivery capacity, not desired velocity
 4. **Communicate transparently** with stakeholders about trends and blockers
 
