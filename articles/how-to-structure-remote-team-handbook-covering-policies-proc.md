@@ -2,11 +2,13 @@
 layout: default
 title: "How to Structure Remote Team Handbook: Policies, Processes, and Culture"
 description: "A practical guide for developers and power users on structuring a remote team handbook. Includes templates, code examples, and implementation patterns for 2026."
-date: 2026-03-21
-author: theluckystrike
+date: 2026-03-16
+author: "Remote Work Tools"
 permalink: /how-to-structure-remote-team-handbook-covering-policies-proc/
 categories: [guides]
 tags: [remote-work, team-handbook, remote-policies, async-communication, remote-culture, documentation]
+reviewed: true
+score: 8
 ---
 
 {% raw %}

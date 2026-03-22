@@ -2,13 +2,13 @@
 layout: default
 title: "How to Organize Remote Team Runbook Documentation for On-Call Engineers 2026"
 description: "Learn practical strategies for organizing runbook documentation that helps on-call engineers diagnose, troubleshoot, and resolve incidents efficiently in remote teams."
-date: 2026-03-21
-author: theluckystrike
+date: 2026-03-16
+author: "Remote Work Tools"
 permalink: /how-to-organize-remote-team-runbook-documentation-for-on-cal/
 categories: [guides]
 tags: [remote-work-tools, runbooks, on-call, incident-response, devops, documentation, site-reliability]
-reviewed: false
-score: 0
+reviewed: true
+score: 8
 intent-checked: false
 voice-checked: false
 ---
