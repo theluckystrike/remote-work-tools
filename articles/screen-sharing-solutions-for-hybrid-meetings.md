@@ -9,7 +9,7 @@ permalink: /screen-sharing-solutions-for-hybrid-meetings/
 categories: [guides]
 tags: [remote-work-tools, screen-sharing, hybrid-meetings, video-conferencing, developer-tools]
 reviewed: true
-score: 9
+score: 8
 intent-checked: true
 voice-checked: true
 ---

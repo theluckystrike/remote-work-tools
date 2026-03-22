@@ -9,7 +9,7 @@ permalink: /shared-inbox-setup-for-remote-agency-client-support-emails/
 categories: [guides]
 tags: [remote-work-tools, email, remote-work, automation, agency]
 reviewed: true
-score: 7
+score: 9
 intent-checked: true
 voice-checked: true
 ---
