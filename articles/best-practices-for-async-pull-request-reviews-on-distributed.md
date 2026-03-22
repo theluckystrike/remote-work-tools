@@ -31,6 +31,15 @@ voice-checked: true---
 
 Async pull request reviews form the backbone of effective collaboration when engineering teams span multiple time zones. Unlike synchronous code reviews, async reviews require intentional structuring to maintain velocity while ensuring thorough feedback. This guide covers practical strategies you can implement immediately.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **"This approach may cause**: performance issues" lands better than "This is slow." **Explicit approval vs.
+- **Open source reviews are**: some of the best learning opportunities available.
+- **A common pattern for**: distributed teams is "review within 24 hours during working hours in your time zone." Priority indicators: Use labels or prefixes to communicate urgency.
+- **Comment-to-suggestion ratio**: If most comments are problems without solutions, reviewers need better guidance on constructive feedback.
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+
 ## Writing Effective Pull Request Descriptions
 
 The pull request description sets the stage for your review. A well-structured description answers questions before reviewers ask them, reducing back-and-forth communication.

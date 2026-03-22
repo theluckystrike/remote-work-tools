@@ -31,6 +31,20 @@ Scaling a remote team creates an obvious tension: more people means more coordin
 
 This guide provides practical frameworks for building meeting structures that scale, specifically designed for technical teams and developers who value focused work time.
 
+## Key Takeaways
+
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Anti-pattern 2**: Every Attendee Must Be Present
+
+Meeting scheduled for "everyone" but only 40% can attend due to timezones.
+- **Anti-pattern 5**: Timezone Imperialism
+
+Meeting scheduled for "8am PT" because most people are in Pacific time.
+- **Async-first**: Most decisions don't need sync meetings
+4.
+- **Use rotation for cross-team**: representation 4.
+- **Protect focus time with**: meeting-free blocks 5.
+
 ## The Fundamental Principle: Replace Before You Add
 
 The core principle is straightforward: every new meeting must replace an existing one, or serve a purpose that cannot be achieved asynchronously. When a new sub-team forms or a new domain gets added, you do not automatically create a new meeting. Instead, you examine existing meetings and determine whether their scope should shift.
