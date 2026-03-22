@@ -272,6 +272,95 @@ chmod +x scripts/network-check.sh
 ./scripts/network-check.sh
 ```
 
+## Diagnosing Video Call Degradation Specifically
+
+Packet loss under 1% is imperceptible on HTTP. For video calls, even 0.5% sustained packet loss causes visible artifacts. Jitter — variation in packet arrival timing — is often more disruptive than raw latency.
+
+### Measure Jitter and Packet Loss to Call Servers
+
+```bash
+# Test against Zoom's media servers
+# Replace with your actual call platform's server range
+sudo mtr --report --report-cycles=60 --interval=0.5 \
+  zoom.us
+
+# For Google Meet, test against the STUN servers
+ping -c 100 -i 0.2 stun.l.google.com
+# stddev > 10ms = jitter problem; any loss = call quality issue
+
+# Simulate VoIP packet profile with iperf3
+# Server side:
+iperf3 -s
+
+# Client side: 100kbps UDP (typical audio codec bandwidth)
+iperf3 -c server-ip -u -b 100k -l 160 -t 60
+# Look for: jitter > 20ms or packet loss > 0.5% = call will degrade
+```
+
+### WiFi vs Ethernet Quick Test
+
+If you suspect your WiFi is the issue, run this comparison:
+
+```bash
+# Run while on WiFi
+ping -c 50 -i 0.2 8.8.8.8 | tail -3
+# Note stddev
+
+# Plug in ethernet, disable WiFi
+networksetup -setairportpower en0 off   # macOS
+# or
+nmcli radio wifi off                    # Linux
+
+ping -c 50 -i 0.2 8.8.8.8 | tail -3
+# Compare stddev — ethernet should be 0.1-0.5ms vs WiFi's 1-10ms
+```
+
+A `stddev` difference of more than 5ms between WiFi and ethernet points to RF interference or a congested wireless channel rather than ISP issues.
+
+## Reading ISP Problem Patterns
+
+Different failure modes produce different diagnostic signatures. Use this as a reference:
+
+```
+SYMPTOM                         LIKELY CAUSE              CONFIRM WITH
+-------------------------------------------------------------------
+High ping to router (>5ms)      Bad cable / WiFi issue    Ethernet test
+High ping past router           ISP congestion            MTR to 8.8.8.8
+DNS slow, ping fine             DNS server issue          compare dig times
+All traffic slow, VPN fine      ISP shaping               compare VPN vs direct
+VPN connects, drops every 5min  UDP timeout               switch VPN protocol
+Morning fine, afternoon slow    Neighborhood congestion   run at different times
+Upload degraded, download fine  DOCSIS upstream issue     iperf3 bidir test
+```
+
+### Logging Network Events Over Time
+
+For intermittent issues, run a background logger to correlate dropouts with time of day:
+
+```bash
+#!/bin/bash
+# scripts/network-logger.sh
+# Run in background: nohup ./network-logger.sh &
+
+LOG="network-events-$(date +%Y%m%d).log"
+
+while true; do
+  TS=$(date '+%Y-%m-%d %H:%M:%S')
+  LOSS=$(ping -c 10 -q 8.8.8.8 2>&1 | grep -oE '[0-9]+% packet loss' | cut -d% -f1)
+  LATENCY=$(ping -c 10 -q 8.8.8.8 2>&1 | grep 'avg' | awk -F'/' '{print $5}')
+
+  if [ "$LOSS" != "0" ] || (( $(echo "$LATENCY > 100" | bc -l) )); then
+    echo "$TS | ALERT | loss=${LOSS}% | avg_rtt=${LATENCY}ms" | tee -a "$LOG"
+  else
+    echo "$TS | OK | loss=${LOSS}% | avg_rtt=${LATENCY}ms" >> "$LOG"
+  fi
+
+  sleep 60
+done
+```
+
+Run this during your work day for a week, then share the log with your ISP when requesting escalation. Concrete timestamps and loss percentages get faster resolution than "the internet is slow sometimes."
+
 ## Related Reading
 
 - [Best Mesh WiFi for Home Office Video Calls](/remote-work-tools/best-mesh-wifi-for-home-office-video-calls/)
