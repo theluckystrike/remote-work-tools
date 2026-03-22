@@ -60,9 +60,7 @@ A concrete example that shows the concept in action.
 ### Common Mistakes
 What errors do people make? What shouldn't they do?
 
-### Related Reading
-Links to prerequisite knowledge or next steps.
-
+#
 ## Style Guidelines
 
 - Write in active voice: "Click the button" not "The button should be clicked"
@@ -329,11 +327,7 @@ Push your code and run the script. Make sure to test first.
 ### Real Example
 [Walk through specific deployment]
 
-### Related Reading
-- [Troubleshooting Production Errors](link)
-- [Database Migration Guide](link)
-```
-
+#
 ## Measuring Success
 
 Track these signals to understand if your documentation culture is working:
