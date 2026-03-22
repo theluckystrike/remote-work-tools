@@ -33,6 +33,17 @@ Design a meeting cadence that includes daily async standups, weekly team syncs f
 
 This guide provides a practical template you can adapt for teams of 5 to 50 engineers, with specific meeting types, frequencies, and help approaches that work across distributed environments.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **For distributed teams**: avoid the temptation to extend this to 30 minutes "because we don't see each other." Longer standups dilute their value.
+- **What I accomplished yesterday**: (30 seconds) 2.
+- **What I'm working on**: today (30 seconds) 3.
+- **Blockers (30 seconds max)
+
+Time zone rotation**: If your team spans more than 4 time zones, rotate meeting times so no single person consistently meets outside reasonable hours.
+
 ## The Core Meeting Cadence
 
 A sustainable remote team meeting cadence balances three meeting types: team syncs for coordination, 1-on-1s for support, and optional working sessions for deep collaboration. Here's the template:

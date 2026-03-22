@@ -33,6 +33,21 @@ Distributed teams lose goal alignment when they're out of physical proximity. An
 
 This guide walks through implementing OKRs (Objectives and Key Results) for distributed teams, including tool selection, process design, and how to make goals visible and measurable without constant meetings.
 
+## Key Takeaways
+
+- **Free tiers typically have**: usage limits that work for evaluation but may not be sufficient for daily professional use.
+- **Does Go offer a**: free tier? Most major tools offer some form of free tier or trial period.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Week 2**: Team alignment
+
+Each team lead reviews company OKRs and creates team OKRs aligned to at least one company objective:
+
+```
+Template email to team leads:
+"Company Q2 objectives attached.
+- **Planning begins for next**: quarter ``` Typical quarter completion rate: 65-75% of key results.
+- **If you hit 100%**: your goals weren't ambitious enough.
+
 ## Understanding OKRs
 
 OKRs are the gold standard for goal setting in fast-growing companies. They consist of:

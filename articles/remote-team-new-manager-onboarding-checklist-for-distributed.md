@@ -27,7 +27,17 @@ score: 9
 voice-checked: true
 intent-checked: true---
 
+
 Remote new managers need three core elements: a formal 2-hour handoff from the predecessor, a team briefing document covering each direct report's performance and context, and 1-on-1s scheduled before day one to signal accessibility. Transitioning to management in a remote-first company multiplies complexity—you lose hallway building blocks that create trust at co-located companies. This checklist structures the first weeks and months for remote-first promotion success.
+
+## Key Takeaways
+
+- **Do these recommendations work**: for small teams? Yes, most practices scale down well.
+- **In distributed teams**: this virtual handoff should last at least two hours and cover current team projects, ongoing challenges, and key relationships the new manager needs to understand.
+- **Use this conversation template**: for consistency: ``` OPENING (5 min) - "I'm excited to be leading the team.
+- **Over 50% in meetings**: signals micromanagement.
+- **Feedback Velocity**: Are direct reports receiving regular feedback? Survey: "Have you received feedback in the past two weeks?" Target: above 80% at any given time.
+- **How do I handle**: team members in very different time zones? Establish a shared overlap window of at least 2-3 hours for synchronous work.
 
 ## Pre-Start Preparation (Before Day One)
 

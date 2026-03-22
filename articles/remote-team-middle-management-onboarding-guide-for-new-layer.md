@@ -33,6 +33,15 @@ As remote organizations grow, many discover that the direct IC-to-director repor
 
 This guide provides a practical framework for onboarding middle managers in remote teams, specifically addressing the nuances of leading peers who were recently your equals, translating director-level strategy into team-level execution, and building trust across distributed team boundaries.
 
+## Key Takeaways
+
+- **Key stakeholders with their**: communication preferences and time zones 5.
+- **Managing people**: delivering projects, representing the team upward, mentoring juniors—picking all four at once guarantees failure.
+- **Best Predecessor**: Someone who's done the job and excelled, who can dedicate real time to mentoring.
+- **Worst Predecessor**: Previous manager is gone or unwilling to help.
+- **Your team hired you—or**: created your role—because of your technical credibility.
+- **They may initially test**: boundaries or assume you'll give them preferential treatment.
+
 ## Why Middle Manager Roles Often Fail
 
 Middle management positions fail most often in remote organizations because:
