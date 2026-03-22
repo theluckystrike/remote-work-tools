@@ -31,6 +31,15 @@ tags: [remote-work-tools, remote-work]---
 
 Running remote user research sessions across time zones presents unique challenges for UX designers working in distributed teams. When your participants span Tokyo, Berlin, and San Francisco, traditional synchronous research methods break down. This guide provides practical strategies for conducting effective remote user research without requiring everyone to attend exhausting early-morning or late-night sessions.
 
+## Key Takeaways
+
+- **Use the 2-3 hour**: overlap for synthesis sessions, stakeholder presentations, and sensitive interviews that require real-time rapport building.
+- **Use screening surveys with**: timezone availability fields 3.
+- **Use the async time for research execution**: and reserve synchronous time for collaborative analysis where real-time discussion accelerates insight generation.
+- **Maintain a participant database**: with availability preferences ``` Screen participants for willingness to participate in async formats.
+- **Some users prefer recorded**: sessions because they can pause and think before responding.
+- **Match your methodology to**: participant preferences when possible.
+
 ## The Core Challenge: Time Zone Overlap
 
 The fundamental problem with remote user research is finding time slots that work for participants across multiple regions. A session convenient for your London team excludes your Tokyo users. A time that works for San Francisco participants forces European team members into awkward evening hours.

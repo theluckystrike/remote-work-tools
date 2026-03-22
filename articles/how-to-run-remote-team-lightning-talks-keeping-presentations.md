@@ -35,6 +35,16 @@ Lightning talks have become a staple of remote team communication. These brief, 
 
 This guide provides a practical framework for implementing lightning talks that actually work for distributed teams.
 
+## Key Takeaways
+
+- **If a presenter needs**: more than thirty seconds to explain why their topic matters, it might work better as a longer session or async writeup.
+- **Opening (30 seconds)**: "I'll show you how to search codebases ten times faster."
+2.
+- **The Problem (30 seconds)**: Demonstrate waiting for grep on a large repo.
+- **Closing (30 seconds)**: Link to documentation and Slack channel for questions.
+- **Opening (30 seconds)**: "Our last incident took two hours.
+- **The Issue (30 seconds)**: Brief context on recent incident timeline.
+
 ## Why Five Minutes Works
 
 The five-minute constraint forces presenters to distill information to its essence. This limitation creates several benefits for remote teams:

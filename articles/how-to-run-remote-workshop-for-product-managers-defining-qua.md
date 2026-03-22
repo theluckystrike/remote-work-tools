@@ -31,6 +31,15 @@ voice-checked: true---
 
 Quarterly OKR workshops are one of the most high-impact meetings a product manager can help. When done well, they align teams around clear priorities and measurable outcomes. When done poorly, they produce vague goals that no one remembers or tracks. This guide provides a practical framework for running remote OKR definition workshops that produce real results.
 
+## Key Takeaways
+
+- **If your team is larger than 8 people**: use breakout rooms to generate ideas in smaller groups, then compile them in the main session.
+- **Every additional objective reduces**: team focus by 15-20%.
+- **"Increase conversion by 15%"**: is a key result.
+- **Quarterly OKR workshops are**: one of the most high-impact meetings a product manager can help.
+- **Use a brief presentation**: or shared document rather than lengthy narration.
+- **Vague success criteria. Don't**: use subjective language like "improve," "increase," or "reduce" without numbers.
+
 ## Why Remote OKR Workshops Need Structure
 
 Distributed teams face unique challenges when defining OKRs. Without visual cues and spontaneous hallway conversations, the process can easily drift into ambiguity. A structured workshop format keeps participants focused and ensures every voice gets heard.

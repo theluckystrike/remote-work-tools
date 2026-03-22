@@ -18,6 +18,15 @@ voice-checked: true---
 
 Team health retrospectives prioritize psychological safety, burnout prevention, and interpersonal connection over velocity metrics—directly improving retention and performance. Focused retros address isolation, clarify communication norms, and surface team tensions before they become problems. This guide covers health-focused retro formats, facilitation techniques, and follow-up actions for remote team resilience.
 
+## Key Takeaways
+
+- **Use a hard rule**: no more than 60% of retro time on problem identification, at least 40% on solutions and owners.
+- **Use written responses first.**: Before opening verbal discussion, give everyone 5-10 minutes to write their thoughts individually.
+- **Time-box aggressively. In remote settings**: discussions without clear time limits drift or get dominated by the most verbose participants.
+- **Both have free tiers**: sufficient for teams of 5-10.
+- **Remote developers in particular**: often respond better to concrete analogies than open-ended personal questions.
+- **A visible timer on**: screen (using tools like Cuckoo Timer or a shared browser timer) creates natural pause points and signals when to move on.
+
 ## Why Team Health Deserves Its Own Retrospective
 
 Traditional sprint retrospectives examine what went wrong and what went right during a two-week cycle. These sessions naturally emphasize work output—features shipped, bugs fixed, deadlines met. Team health gets mentioned only when something has already gone wrong: a resignation, a conflict, or visible burnout.

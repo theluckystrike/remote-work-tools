@@ -25,6 +25,24 @@ tags: [remote-work-tools, remote-work]---
 
 Remote hackathons are high-energy events where distributed teams compete to ship features, fixes, or side projects in 24-72 hours. Unlike in-person hackathons with energy from physical proximity, remote versions require deliberate structure: clear judging criteria, persistent communication channels, and async-friendly formats. This guide covers the complete playbook.
 
+## Key Takeaways
+
+- **Use timezone "overlap windows"**: - Find 2-hour overlap between all time zones - Reserve for critical decisions only (architecture reviews) - Use for celebration moment (demo walkthrough) 4.
+- **Tell judges "polish is 5 points**: not 15."
+
+Failure: Time zone misalignment kills momentum
+- Fix: When forming teams, ask people their preferred working hours.
+- **Record all standups
+- Slack video message**: 30 seconds
+- Others watch async
+- Thread replies with questions
+
+2.
+- **Failure**: Judging feels unfair
+- Fix: Use rubric strictly.
+- **What should we change?**: ``` Use responses to improve next hackathon.
+- **What are the most**: common mistakes to avoid? The most frequent issues are skipping prerequisite steps, using outdated package versions, and not reading error messages carefully.
+
 ## Why Run a Remote Hackathon?
 
 **Benefits:**

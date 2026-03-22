@@ -31,6 +31,13 @@ tags: [remote-work-tools, remote-work]---
 
 Implement Kubernetes network policies with a deny-all baseline, then explicitly allow required pod-to-pod communication to reduce attack surface. When development teams work remotely, securing Kubernetes clusters becomes critical—network policies control traffic flow between pods, protecting clusters from distributed access points and devices. This guide walks through implementing effective network policies tailored for remote team environments, including baseline deny-all policies, egress/ingress rules, and practical YAML configurations.
 
+## Key Takeaways
+
+- **Require pull request reviews**: from at least one other engineer before applying any policy change to production.
+- **EKS requires installing a**: supported CNI like Calico alongside the default aws-node plugin.
+- **Topics covered**: understanding kubernetes network policies, baseline policy for remote team clusters, implementing namespace isolation
+- **Practical guidance included**: Step-by-step setup and configuration instructions
+
 ## Understanding Kubernetes Network Policies
 
 Kubernetes network policies function as firewall rules for your pod-to-pod communication. By default, Kubernetes allows all traffic between pods, which creates a significant security gap, especially in multi-tenant or distributed team setups. Network policies enable you to explicitly define which pods can communicate with each other, reducing the attack surface significantly.

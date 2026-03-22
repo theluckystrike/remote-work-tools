@@ -18,6 +18,23 @@ Most remote retrospectives fail because teams treat them like box-checking exerc
 
 This guide shows you how to run retrospectives that actually produce process improvements and behavior change. The difference is format, pacing, and ruthless follow-up.
 
+## Key Takeaways
+
+- **Open voting phase
+
+Cost**: Free (good for small teams), $16/month per user (teams).
+- **Stamp voting (each person gets 5 stamps)
+
+Cost**: Free tier (3 files), $12/month per user.
+- **Participation rate**: Did the quiet people contribute?
+ - Target: >90% of team with input or votes
+ - Use DM nudges to hit this
+
+3.
+- **Most remote retrospectives fail**: because teams treat them like box-checking exercises instead of actual problem-solving sessions.
+- **Time zone friction**: Picking a time that works for all 12 team members across 6 continents is impossible.
+- **Please vote on the**: top 2-3 themes you care most about improving.
+
 ## Why Remote Retros Fail
 
 Remote retros collapse without intentional structure because:

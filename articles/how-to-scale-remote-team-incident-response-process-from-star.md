@@ -28,7 +28,19 @@ intent-checked: true
 tags: [remote-work-tools, remote-work]---
 
 {% raw %}
+
 Scaling incident response for remote teams requires evolving from informal ad-hoc processes to structured, documented workflows as your team grows. The key is recognizing which processes work at each stage and when to introduce new structure without creating unnecessary bureaucracy.
+
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Focus on the 20%**: of features that cover 80% of your needs first, then explore advanced capabilities as specific needs arise.
+- **Identify culprit**: Look for processes using >50% CPU
+4.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+- **Terminate if needed**: `SELECT pg_terminate_backend(<pid>)`
+4.
 
 ## Understanding the Growth Challenge
 
