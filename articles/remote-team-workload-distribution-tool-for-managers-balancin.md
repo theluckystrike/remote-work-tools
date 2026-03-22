@@ -30,6 +30,8 @@ Effective workload distribution starts with visibility. You need to know:
 - Upcoming time-off and commitments
 - Skill overlap for redistributing work
 
+Remote overload hides in specific patterns worth recognizing. Watch for the developer who consistently completes work on weekends, the one who never raises blockers, and the one whose PR review time has steadily climbed from one day to four. These are burnout signals that capacity tracking catches before the conversation becomes a resignation letter.
+
 ## Building a Capacity Matrix
 
 Before implementing any tool, create a capacity matrix that documents your team's baseline. This serves as the foundation for any workload distribution system.
@@ -116,6 +118,20 @@ curl -X GET "https://your-pulse-instance/api/team/capacity" \
 
 The response includes each member's current load, allowing you to programmatically redistribute work when someone exceeds threshold.
 
+### Tool Comparison: Workload Distribution Platforms
+
+Different tools suit different team structures. Here is a direct comparison of the most widely used options in 2026:
+
+| Tool | Workload Visualization | Burnout Signals | API Access | Best Team Size |
+|---|---|---|---|---|
+| Linear | Cycle-based load view | None native | Yes (REST + GraphQL) | 5–50 |
+| Jira | Capacity planner (Premium) | None native | Yes (REST) | 20–500 |
+| Notion | Custom rollup formulas | Manual only | Yes (via Zapier) | 5–30 |
+| Teamwork | Resource scheduling built-in | Overload flags | Yes | 10–100 |
+| Float | Purpose-built scheduling | Utilization alerts | Yes | 10–200 |
+
+For pure capacity tracking without project management overhead, Float is the most focused option. For teams already on Linear or Jira, building a lightweight capacity layer on top of the existing tool avoids context switching.
+
 ## Automated Load Balancing
 
 Once you have visibility, automate the redistribution logic. This GitHub Action triggers alerts when team capacity skews:
@@ -146,6 +162,29 @@ jobs:
 
 This approach surfaces capacity issues without monitoring individual productivity. You're tracking load, not surveillance.
 
+### Integrating Capacity Data with Slack Alerts
+
+Connecting capacity checks to Slack makes the data actionable before it becomes a crisis. A weekly Monday morning post showing each team member's current load percentage takes about 30 minutes to set up using the Slack Incoming Webhooks API:
+
+```python
+import requests
+
+def post_capacity_summary(team, webhook_url):
+    lines = []
+    for member in team:
+        pct = member.capacity_percentage()
+        bar = "█" * int(pct / 10) + "░" * (10 - int(pct / 10))
+        status = " :warning:" if member.is_overloaded() else ""
+        lines.append(f"`{member.name}` [{bar}] {pct:.0f}%{status}")
+
+    payload = {
+        "text": "*Weekly Capacity Report*\n" + "\n".join(lines)
+    }
+    requests.post(webhook_url, json=payload)
+```
+
+This turns your Monday planning into a data-informed conversation rather than a guessing game.
+
 ## Setting Healthy Thresholds
 
 Avoid the trap of maximizing use. Research consistently shows that 60-75% use leads to better outcomes than 90%+:
@@ -156,6 +195,10 @@ Avoid the trap of maximizing use. Research consistently shows that 60-75% use le
 - Capacity for learning and improvement
 
 Communicate these thresholds explicitly. When team members know their manager values sustainable pace, they're more likely to flag overload early rather than hiding it to appear productive.
+
+The specific thresholds depend on the type of work. For deep technical work (architecture design, complex debugging, security reviews), 60% capacity gives headroom for the unpredictable depth that good work requires. For execution-heavy work (bug fixes, documentation, routine feature development), 75% is a reasonable upper bound. For support-intensive roles, 70% prevents the reactive work from crowding out proactive improvements.
+
+Document these thresholds in your team handbook rather than keeping them in your head. Team members who know their manager's thresholds can self-report overload without feeling like they're admitting failure.
 
 ## Redistribution Workflows
 
@@ -172,6 +215,14 @@ Example redistribution message:
 
 This approach maintains trust while addressing the actual problem.
 
+### Redistribution Anti-Patterns
+
+Several redistribution mistakes consistently damage team morale:
+
+- **Reassigning without notice.** Moving tasks off someone's plate without a conversation signals that their work is disposable. Always talk first, reassign second.
+- **Always redistributing to the same person.** If Yuki is always the overflow recipient because she's the fastest, you're building a single point of failure and guaranteeing her eventual burnout.
+- **Redistributing during the sprint rather than adjusting scope.** Mid-sprint reshuffling disrupts context for everyone. When overload is detected early, it's usually better to push a lower-priority task to the next sprint than to hand it to a new owner mid-work.
+
 ## Time Zone Considerations
 
 Workload distribution across time zones requires additional planning. A developer working 9-5 in their local timezone might have 3 hours of overlap with the main team, while another might have 6 hours.
@@ -187,6 +238,8 @@ def effective_capacity(member, overlap_hours_required=4):
 ```
 
 This ensures you're not assigning work to someone who can't collaborate with the rest of the team during their working hours.
+
+Tasks that require real-time collaboration — code pairing, design reviews, incident response — should only be assigned to team members with sufficient overlap. Tasks that are fully async — documentation, solo feature work, code review with no deadline — can go to anyone regardless of timezone. Tagging tasks explicitly as "sync-required" versus "async-ok" saves enormous coordination pain as the team scales.
 
 ## Implementation Checklist
 
