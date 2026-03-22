@@ -223,6 +223,212 @@ Most modern tools support asynchronous workflows that work well across time zone
 
 Switching costs are real: learning curves, workflow disruption, and data migration all take time. Only switch if the new tool solves a specific pain point you experience regularly. Marginal improvements rarely justify the transition overhead.
 
+## Scaling Meeting Architecture by Team Size
+
+Your meeting structure needs to evolve as your team grows:
+
+```
+TEAM SIZE: 5-10 people
+├── Weekly standup: 15 min synchronous (everyone)
+├── Weekly sprint planning: 30 min synchronous
+└── As-needed syncs for blockers
+
+TEAM SIZE: 10-25 people
+├── Async daily standups via Slack
+├── Weekly cross-functional sync: 30 min (rotating attendance)
+├── Weekly sub-team syncs: 25 min each
+├── Monthly all-hands: 30 min (includes recorded segment for off-timezone)
+└── Bi-weekly architecture review: 45 min (optional attendance)
+
+TEAM SIZE: 25-100 people
+├── Async daily standups (automated aggregation)
+├── Weekly sub-team syncs: 25 min (mandatory for sub-team members)
+├── Monthly cross-org sync: 30 min (one rep per sub-team)
+├── Monthly all-hands: 1 hour (recorded, async Q&A in Slack)
+├── Quarterly architecture reviews: Async RFCs + 1 hour sync
+├── Focus weeks: Wed-Fri, no recurring meetings
+└── Monthly sync-free week (async only)
+
+TEAM SIZE: 100+ people
+├── Async-first everything
+├── Weekly standups: Per-team async updates posted to Slack
+├── Monthly org-wide: Async video updates + live Q&A (pre-submitted questions)
+├── Quarterly all-hands: Main stage + breakout sessions
+├── Weekly theme days: Architecture Wednesdays, Demo Fridays (async + optional live)
+└── Heavy reliance on async RFCs and documentation
+```
+
+## Meeting Effectiveness Metrics
+
+Track these metrics quarterly to ensure your meeting structure is efficient:
+
+```python
+# Meeting Health Dashboard
+
+metrics = {
+    'total_meeting_hours_per_person_per_week': {
+        'target': '<4 hours',
+        'measure': 'Sum of all recurring meetings × attendee count',
+        'red_flag': '>6 hours indicates meeting overload'
+    },
+    'async_communication_adoption': {
+        'target': '>70%',
+        'measure': 'Percentage of decisions made async vs sync',
+        'how': 'Track in decision log which were async vs sync'
+    },
+    'meeting_attendance_variance': {
+        'target': '<20%',
+        'measure': 'Std dev of attendance across meetings',
+        'interpretation': 'High variance = some people excluded'
+    },
+    'time_to_decision': {
+        'target': '<48 hours',
+        'measure': 'From blocker raised to decision made',
+        'track': 'In incident postmortems'
+    },
+    'calendar_fragmentation': {
+        'target': 'min 4 consecutive uninterrupted hours',
+        'measure': 'Longest free block in engineer workday',
+        'red_flag': '<2 hours free blocks = no deep work'
+    }
+}
+```
+
+## Anti-Patterns That Destroy Remote Meeting Culture
+
+**Anti-pattern 1: Meeting Before Decision**
+
+Teams schedule a meeting to make a decision, but nobody prepared. Meeting becomes a discussion to decide if they should have a meeting.
+
+Fix: Require written proposal before any meeting. Meeting is for feedback only, not brainstorming.
+
+**Anti-pattern 2: Every Attendee Must Be Present**
+
+Meeting scheduled for "everyone" but only 40% can attend due to timezones. The 40% meet without the rest.
+
+Fix: Meetings are always async-first or have a recorded fallback. Sync meetings have clear attendee lists (not "everyone").
+
+**Anti-pattern 3: Recurring Meetings That No Longer Have Purpose**
+
+The "Engineering Sync" used to matter when the team was 8 people. Now it's 40 people and nobody knows why it exists.
+
+Fix: Review every recurring meeting quarterly. If attendance is dropping, kill it. Create pull request culture around meetings.
+
+**Anti-pattern 4: Status Reports as Meetings**
+
+Manager asks "What did everyone do this week?" and people summarize work. This should be async.
+
+Fix: Use async standup format. Sync meetings only for decisions and blockers.
+
+**Anti-pattern 5: Timezone Imperialism**
+
+Meeting scheduled for "8am PT" because most people are in Pacific time. APAC team joins at 11pm, gets exhausted.
+
+Fix: Rotate meeting times. Or go fully async. No timezone should be favored.
+
+## Documentation Templates for Meeting Governance
+
+Create these documents and keep them updated:
+
+```markdown
+# Engineering Meetings Charter
+
+## Required Documents
+1. **Meeting Taxonomy** - Every recurring meeting must be on this list
+2. **Attendee Matrix** - Who should attend which meetings
+3. **Meeting Runbooks** - How to run each meeting type
+4. **Decision Capture Templates** - Format for recording outcomes
+
+## Meeting Types
+
+### Standup (Daily, 15 min max)
+Purpose: Surface blockers and coordinate day-to-day work
+Format: Async preferred (Slack Geekbot)
+Owner: Tech lead
+Frequency: Every weekday
+Decision authority: Nobody (information only)
+
+### Sprint Planning (Weekly, 60 min)
+Purpose: Define work for next sprint
+Format: Synchronous (all team present)
+Owner: Tech lead
+Frequency: Weekly
+Decision authority: Tech lead with team input
+Post-meeting: Written summary in project management tool
+
+### Architecture Review (Monthly, 45 min)
+Purpose: Evaluate technical decisions and tradeoffs
+Format: Async RFC (written proposal) + optional sync discussion
+Owner: CTO/Tech lead
+Frequency: Monthly
+Decision authority: CTO
+Output: ADR (Architecture Decision Record)
+
+### All-Hands (Monthly, 60 min)
+Purpose: Company/org-wide updates
+Format: Recorded + live Q&A (for those available)
+Owner: Leadership
+Frequency: Monthly
+Decision authority: Leadership (announcements, not decisions)
+Async component: Pre-submitted questions in Slack thread
+```
+
+## Handling Timezone-Distributed Teams
+
+When your team spans 8+ hours of timezones, synchronous meetings become impossible. Solve with:
+
+```markdown
+# Timezone Distribution Strategy
+
+### Team A: UTC+1 to UTC+3 (Europe/Africa)
+### Team B: UTC-5 to UTC-8 (Americas)
+
+Meeting times that work:
+- 1:30 PM UTC: 12:30 PM GMT, 8:30 AM EDT, 5:30 AM PDT
+  (Reasonable for Europe, early for West Coast America)
+- 9:30 PM UTC: 8:30 PM GMT, 4:30 PM EDT, 1:30 PM PDT
+  (Good for West Coast, late for Europe)
+
+Strategy:
+1. Required meetings: Rotate times. Meeting A at 1:30 UTC, Meeting B at 9:30 UTC
+2. One timezone always unhappy: Accept this and rotate who's unhappy quarterly
+3. Async-first: Most decisions don't need sync meetings
+4. Recorded sync: Async team watches and comments asynchronously
+
+Sample meeting calendar:
+- Mon 9:30 UTC: Europe-friendly (Americas joins async)
+- Tue 9:30 UTC: Americas-friendly (Europe joins async)
+- Wed: No sync meeting (fully async day)
+- Thu 9:30 UTC: Europe-friendly
+- Fri: Informal hangout (whoever shows up)
+```
+
+## Meeting Calendar Templates
+
+Copy these into your team wiki:
+
+**Weekly Engineering Team Calendar**
+
+```yaml
+Monday:
+  9:00 AM PST: Standup (async, results posted by 10am)
+  2:00 PM PST: Architecture review (if scheduled)
+
+Tuesday:
+  10:00 AM PST: Sprint planning (30 min)
+  2:00 PM PST: Cross-team sync (rotating, 20 min)
+
+Wednesday:
+  NO RECURRING MEETINGS (focus day)
+
+Thursday:
+  10:00 AM PST: Engineering standup (sync version if needed)
+  3:00 PM PST: Demo (optional, recorded)
+
+Friday:
+  9:00 AM PST: Standup (async)
+  2:00 PM PST: Team social (informal, optional)
+```
 
 ## Related Articles
 

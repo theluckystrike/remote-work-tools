@@ -211,6 +211,215 @@ brew install --cask cap
 
 The starter tier produces recordings that are indistinguishable from mid-tier when the room acoustics are properly treated. Spend on foam before you spend on gear.
 
+## Advanced Room Acoustics: Professional Treatment
+
+For engineers who record frequently, additional acoustic treatment dramatically improves quality:
+
+```
+Room absorption frequency chart:
+- Foam panels: Good for 500Hz-2kHz (human speech range)
+- Bass traps (corner placement): Good for 20Hz-200Hz (low rumble)
+- Moving blankets: Budget option, absorbs across spectrum
+- Book shelves: Natural diffusion, improves overall sound
+
+Professional setup (not recommended unless you record daily):
+- 4-6 acoustic foam panels on walls (behind + sides): $200-400
+- 4x bass traps in corners: $400-800
+- Floor rug: $100-300
+- Ceiling treatment: $300-600
+```
+
+Test your improvement before and after:
+
+```bash
+# Room test recording (5 minutes, clap method)
+1. Record yourself saying a paragraph, clap 3 times
+2. Listen to the recording — does clap echo?
+3. Add foam treatment
+4. Repeat recording in same position
+5. Compare: shorter echo = successful treatment
+
+# Measure reverb time roughly:
+# Clap echo should disappear within 1 second
+# If echo persists longer, add more treatment
+```
+
+## Screen Recording Workflow for Engineers
+
+Typical async demo workflow for technical walkthroughs:
+
+```bash
+#!/bin/bash
+# Record, edit, and upload a tech demo
+
+# Step 1: Record (using OBS)
+# - Open the code in your editor
+# - Window-capture OBS source (just editor, no desktop)
+# - Optional: Picture-in-picture of your face (bottom-right)
+# - Record at 1080p 30fps, H.264
+# - Narrate as you code: "This function handles rate limiting.
+#   We check if requests exceed 100 per minute..."
+# - Export as MP4
+
+# Step 2: Compress
+ffmpeg -i raw_recording.mp4 -c:v libx264 -crf 23 -c:a aac output.mp4
+# CRF 23 = visually lossless, much smaller file
+
+# Step 3: Upload
+# Option A: Loom (faster, includes sharing link)
+# Option B: GitHub release assets + link in PR
+# Option C: Internal video server if available
+
+# Step 4: Share with context
+# In Slack/GitHub:
+# "Here's a walkthrough of the new API endpoint [video link]
+#  (5 min) — shows implementation details and deployment process"
+```
+
+## Microphone Technique for Better Recordings
+
+The hardware is only part of the equation. Technique matters equally:
+
+```bash
+# Microphone placement for dynamic mics (ATR2100x, Rode PodMic)
+
+1. Distance: 4-6 inches from mouth (about 2-3 finger widths)
+2. Angle: 45 degrees off-axis (not directly on-axis)
+3. Height: Mouth level, not below (prevents plosives)
+4. Stability: Use mic arm mount, never hand-hold
+
+# Test your placement:
+# Record 30 seconds of speech
+# Listen on headphones — should be:
+# - Clear and present (not distant)
+# - No harsh 'p' and 'b' sounds (plosives)
+# - No mouth clicks or breathing
+# - Consistent volume (not wandering)
+
+# If you hear plosives (harsh p's):
+# Move further off-axis (more angle)
+# Add foam windscreen (even indoors helps)
+
+# If you sound distant:
+# Move closer to mic
+# Check mic level (should be peaking around -6dB, not -12)
+```
+
+## Audio Level Management
+
+Improper audio levels ruin otherwise good recordings:
+
+```bash
+# Using Audacity for quick audio level check:
+# 1. Record 2 minutes of yourself talking at normal volume
+# 2. Open in Audacity: File → Open → your_recording.wav
+# 3. Select the waveform (Ctrl+A)
+# 4. Analyze → Plot Spectrum
+# 5. Look for peaks: should be between -12dB and -3dB
+#    (-dB is louder; -3dB is loud, -12dB is quiet)
+
+# Too quiet audio (<-18dB peaks):
+# - Move closer to mic
+# - Increase mic input level (on mic or interface)
+# - Speak slightly louder
+
+# Too loud audio (clipping at 0dB):
+# - Move further from mic
+# - Reduce input level
+# - Check for background noise (fans, AC)
+```
+
+## Recording Software Comparison
+
+| Software | Platform | Price | Ease | Output | Best For |
+|----------|----------|-------|------|--------|----------|
+| OBS Studio | Win/Mac/Linux | Free | Learning curve | MP4/MKV | Flexible control |
+| Quicktime | macOS | Free | Easiest | MOV | Quick clips |
+| Screenity | Chrome browser | Free | Simple | MP4 | Quick shares |
+| Loom | Web/Windows/Mac | Free-$12/mo | Very easy | Built-in cloud | Instant sharing |
+| ScreenFlow | macOS | $99 one-time | Easy | Video editing built-in | Mac-only, polished |
+
+For most engineers: Start with Loom (easiest, handles cloud hosting). For more control: OBS Studio (free, unlimited). For quick browser tabs: Screenity.
+
+## Post-Recording Audio Cleanup
+
+Even with good setup, some cleanup helps:
+
+```bash
+# Using ffmpeg to normalize audio levels
+ffmpeg -i raw.mp4 -af "loudnorm=I=-16:TP=-1.5:LRA=11" output.mp4
+
+# Using ffmpeg to reduce background noise (hum, AC)
+# Requires generating a noise profile first
+ffmpeg -i raw.mp4 -af "anlmdn=m=8:h=0.1" output.mp4
+
+# For more advanced cleanup, use Audacity:
+# 1. File → Open → raw.mp4
+# 2. Select silence at beginning (noise profile)
+# 3. Effect → Noise Reduction → Get Noise Profile
+# 4. Select all (Ctrl+A)
+# 5. Effect → Noise Reduction → Apply
+# 6. Export as MP4
+```
+
+## Video Format and Compression Standards
+
+For consistency across your team's async videos:
+
+```bash
+# Standard technical demo encoding
+ffmpeg -i input.mov \
+  -c:v libx264 -crf 22 \
+  -preset fast \
+  -c:a aac -b:a 192k \
+  -s 1920x1080 \
+  -r 30 \
+  output.mp4
+
+# Parameters explained:
+# -c:v libx264: H.264 codec (widely compatible)
+# -crf 22: Quality level (18-28; lower=better; 22 is sweet spot)
+# -preset fast: Speed vs quality (veryfast/fast/medium)
+# -s 1920x1080: Scale to 1080p if recording higher
+# -r 30: Frame rate (30fps fine for screen recording)
+
+# File size expectations:
+# 5-minute 1080p 30fps screencasts: 150-300MB (after compression)
+# If file is >500MB, increase CRF (more compression)
+```
+
+## Accessibility Considerations
+
+Make async videos accessible to your whole team:
+
+```markdown
+## Video Accessibility Checklist
+
+### Captions
+- Always include captions (for hearing-impaired + people in noisy environments)
+- Auto-captions from Loom/YouTube are ~80% accurate, use them as starting point
+- Edit auto-captions for technical terms and proper names
+
+### Audio Description
+- For visual-only content (UI animations), add audio track describing changes
+- Not always necessary for code walkthroughs (code is self-documenting)
+
+### Timing
+- Don't speak too fast (people reading captions need time)
+- Pause between major sections
+- Use consistent pacing
+
+### Slide/Code Contrast
+- Text should be large (18pt+)
+- High contrast (dark background, light text or vice versa)
+- Don't rely on color alone to convey information
+
+### Structure
+- Start with brief summary (problem you're solving)
+- Use clear sections with verbal markers ("Next, we'll look at...")
+- End with key takeaway or next steps
+```
+
 ## Related Reading
 
 - [Best Screen Recording Async Communication](/best-screen-recording-async-communication/)

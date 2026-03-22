@@ -250,6 +250,161 @@ At $48/year, a UPS is cheaper than most SaaS tools and eliminates the most unpre
 
 If budget is a constraint, a used APC Back-UPS 1500 from eBay with a new third-party battery costs around $40-60 total and provides equivalent protection. UPS hardware is robust — the battery is the only consumable component.
 
+## Comparing UPS Models: Feature Matrix
+
+When evaluating UPS systems, use this comparison table to match features to your needs:
+
+| Feature | Budget | Mid-range | Professional |
+|---------|--------|-----------|--------------|
+| VA Rating | 1100 | 1500 | 1500+ |
+| Runtime at 160W | 20 min | 35-40 min | 45+ min |
+| Waveform | Stepped | Pure sine | Pure sine |
+| Software control | Basic USB | GUI + LCD | SNMP + network card |
+| Outlets | 8 | 10-12 | 12+ |
+| Price | $100-150 | $180-250 | $350-500 |
+| Best for | Small setup | Typical remote team | NAS + servers |
+| Expected lifespan | 5-8 years | 7-10 years | 10+ years |
+| Replacement parts | Common | Common | Common + proprietary |
+
+Key decision factors: If you run local infrastructure (NAS, dev servers), prioritize pure sine wave output. If you only need to protect laptops and networking gear, stepped approximation is acceptable.
+
+## Configuration Deep Dive: Linux/Unix Systems
+
+For engineers running Linux servers or NAS devices, apcupsd provides comprehensive UPS management:
+
+```bash
+# Full apcupsd configuration example
+# File: /etc/apcupsd/apcupsd.conf
+
+DEVICE /dev/usb/hiddev0
+UPSTYPE usb
+BAUDRATE 2400
+NETSERVER on
+NISIP 0.0.0.0
+NISPORT 3551
+
+# Battery management
+BATTERYLEVEL 20    # Shutdown when battery <20%
+MINUTES 10         # Shutdown when <10 minutes runtime remains
+TIMEOUT 0          # No timeout-based shutdown
+
+# Power failure response
+ANNOY 300          # Announce every 5 minutes during power loss
+NOLOGIN disable    # Prevent new logins
+DOSHUTDOWN enable  # Run shutdown script on battery exhaustion
+
+# Callbacks for scripting
+ONBATTERY /etc/apcupsd/onbattery
+OFFBATTERY /etc/apcupsd/offbattery
+MAINSBACK /etc/apcupsd/mainsback
+```
+
+Monitor UPS status in real time:
+
+```bash
+# Watch UPS status every 5 seconds
+watch -n 5 apcaccess status
+
+# Parse specific values for automation
+apcaccess status | grep "TIMELEFT\|BCHARGE\|LINEFAIL"
+
+# Log events for postmortem analysis
+tail -f /var/log/apcupsd.events
+```
+
+## Networking Redundancy Integration
+
+A UPS only buys time if your internet connection stays up. For critical remote work:
+
+```bash
+# Typical redundancy setup
+echo "=== Network Redundancy Checklist ==="
+echo "UPS protecting:"
+echo "  - Primary router/modem (on battery)"
+echo "  - 4G backup modem (on battery)"
+echo "  - Ethernet switch (on battery)"
+echo ""
+echo "Load testing (from battery):"
+echo "  - Ping primary gateway (ensure connectivity)"
+ping -c 5 192.168.1.1
+echo "  - Test backup 4G failover"
+curl -I https://example.com --interface 4g0
+echo ""
+echo "Failover validation:"
+echo "  - Unplug primary modem, verify 4G takes over"
+echo "  - Measure failover time (target: <30 seconds)"
+```
+
+Combined with your UPS, a 4G backup modem on a separate battery circuit ensures you can remain productive even if your primary ISP fails.
+
+## Troubleshooting Common Issues
+
+**Issue: UPS beeps continuously but won't discharge**
+
+```bash
+# Likely cause: Overload condition
+apcaccess status | grep "LOADPCT"  # Should be <80%
+# Solution: Reduce load by removing devices from battery outlets
+# Test with: unplug non-essential equipment, observe if beeping stops
+```
+
+**Issue: Runtime much shorter than rated**
+
+Battery degradation is the most common cause. Test:
+
+```bash
+# Check battery health
+apctest << 'EOF'
+1
+Q
+Q
+EOF
+# Look for output indicating battery condition
+# Replace battery if "Battery not capable of supplying current load"
+```
+
+**Issue: Software not detecting UPS after restart**
+
+```bash
+# Verify USB connection
+lsusb | grep APC
+# Check device permissions
+ls -la /dev/usb/hiddev*
+# Restart service
+systemctl restart apcupsd
+# Verify connection
+apcaccess status | head -5
+```
+
+## Multi-Zone Setup for Distributed Teams
+
+For teams spanning time zones, document your UPS strategy in your incident runbook:
+
+```markdown
+## UPS Status During Incidents
+
+When a team member reports a power outage:
+
+1. **Immediate (first 5 min):**
+   - In #incidents-active: "Power out, on UPS battery"
+   - Estimate runtime from UPS dashboard
+   - Continue work if internet is stable
+
+2. **At 15 min:**
+   - Status update: battery health + estimated time remaining
+   - Start graceful shutdown of non-critical services
+
+3. **At 30 min:**
+   - Begin controlled shutdown of production services
+   - Backup any uncommitted work
+   - Prepare for power restoration recovery
+
+4. **Power restored:**
+   - Wait 2 minutes before restarting equipment (surge protection)
+   - Verify all services boot cleanly
+   - Post brief incident summary to #incidents-review
+```
+
 ## Related Reading
 
 - [Best Power Strip for Developer Desk Setup](/best-power-strip-for-developer-desk-setup/)

@@ -196,8 +196,227 @@ Survey data without action creates cynicism. Close the loop by:
 
 One of our engineering teams reduced time-to-productivity by 40% after discovering that new hires spent two weeks waiting for repository access. The 30-day survey surfaced this systematically—previously, individual complaints were dismissed as normal adjustment.
 
+## Processing and Acting on Survey Results
 
-## Frequently Asked Questions
+Surveys without action breed cynicism. Here's how to turn data into improvements:
+
+```python
+#!/usr/bin/env python3
+# Analyze onboarding survey data
+
+def analyze_surveys(survey_responses):
+    """
+    Process survey results and identify patterns
+    """
+
+    # Aggregate numerical responses
+    avg_tool_access = sum(r['q1'] for r in survey_responses) / len(survey_responses)
+    avg_role_clarity = sum(r['q3'] for r in survey_responses) / len(survey_responses)
+    avg_team_integration = sum(r['q5'] for r in survey_responses) / len(survey_responses)
+
+    # Flag issues
+    issues = []
+    if avg_tool_access < 4.0:
+        issues.append({
+            'category': 'IT/Access',
+            'severity': 'HIGH',
+            'action': 'Audit IT provisioning process'
+        })
+
+    if avg_role_clarity < 3.5:
+        issues.append({
+            'category': 'Onboarding',
+            'severity': 'HIGH',
+            'action': 'Improve first-week documentation'
+        })
+
+    if avg_team_integration < 4.0:
+        issues.append({
+            'category': 'Culture',
+            'severity': 'MEDIUM',
+            'action': 'Add structured team connection time'
+        })
+
+    # Identify repeat blockers
+    all_blockers = [r.get('blockers', []) for r in survey_responses]
+    blocker_frequency = count_frequency(all_blockers)
+
+    # Find top 3 blocker themes
+    top_blockers = sorted(blocker_frequency.items(), key=lambda x: x[1], reverse=True)[:3]
+
+    return {
+        'metrics': {
+            'avg_tool_access': avg_tool_access,
+            'avg_role_clarity': avg_role_clarity,
+            'avg_team_integration': avg_team_integration
+        },
+        'issues': issues,
+        'top_blockers': top_blockers
+    }
+
+def generate_action_plan(analysis_results):
+    """
+    Turn analysis into concrete actions
+    """
+    actions = []
+
+    for issue in analysis_results['issues']:
+        if issue['severity'] == 'HIGH':
+            actions.append({
+                'priority': 'P1',
+                'due_date': '2 weeks',
+                'owner': 'Manager',
+                'action': issue['action']
+            })
+        elif issue['severity'] == 'MEDIUM':
+            actions.append({
+                'priority': 'P2',
+                'due_date': '4 weeks',
+                'owner': 'Team Lead',
+                'action': issue['action']
+            })
+
+    return actions
+```
+
+## Creating a Feedback Loop
+
+Closing the loop on survey feedback is critical:
+
+```markdown
+## Onboarding Feedback Loop Process
+
+### Weekly (Manager + Team Lead)
+1. Review new survey responses (as they come in)
+2. Flag immediate blockers (access issues, unclear expectations)
+3. Direct message new hires: "Saw in survey you're blocked on X — let's fix that today"
+4. Document patterns
+
+### Monthly (Team-wide)
+1. Analyze aggregate results
+2. Identify top 3-5 recurring themes
+3. Create action items (specific, owned, dated)
+4. Share results with team:
+   - What's working: "30-day hires rate role clarity 4.3/5 — great onboarding docs"
+   - What needs work: "Multiple mentions of slow GitHub access — IT is auditing this"
+
+### Quarterly (Department/Company)
+1. Cross-team comparison: Which team has best onboarding scores?
+2. Identify systemic issues (company-wide problems vs team-specific)
+3. Celebrate improvements: "Repository access time improved from 5 days to same-day"
+4. Set next quarter targets
+
+### Continuous
+- If survey reveals critical issue: Fix immediately (don't wait for monthly review)
+- Example: "Three new hires can't access development databases → Escalate to IT today"
+```
+
+## Adapting Surveys for Different Roles
+
+The templates provided work for engineers, but adapt for other roles:
+
+```markdown
+## 30-Day Survey for Product Manager
+
+### Tools and Access
+1. Do you have access to all tools needed for your role?
+   [Tools: Jira, design systems, analytics, customer feedback tools]
+
+### Product Knowledge
+2. Understand the core product and roadmap priorities?
+   [Scale 1-5]
+3. What product knowledge gaps remain?
+   [Open text]
+
+### Stakeholder Relationships
+4. Comfortable reaching out to design, eng, sales?
+   [Scale 1-5]
+5. Who should you have met but haven't yet?
+   [Open text]
+
+---
+
+## 30-Day Survey for Sales
+
+### System Setup
+1. CRM configured and comfortable using it?
+   [Scale 1-5]
+2. What CRM blockers remain?
+   [Open text]
+
+### Product Knowledge
+3. Can you pitch the product confidently?
+   [Scale 1-5]
+4. What product knowledge gaps exist?
+   [Open text]
+
+### Sales Process
+5. Understand the sales process and territories?
+   [Scale 1-5]
+6. Who is your primary mentor/support person?
+   [Name + role]
+```
+
+## Measuring Onboarding Impact on Retention
+
+Successful onboarding correlates with retention. Track this:
+
+```
+# Onboarding Quality vs Year-1 Retention
+
+Cohort 1 (Before survey implementation):
+- Avg 30-day survey N/A: (didn't measure)
+- Year-1 retention: 73%
+
+Cohort 2 (After survey implementation):
+- Avg 30-day survey score: 3.8/5
+- Year-1 retention: 78%
+
+Cohort 3 (After improvements based on surveys):
+- Avg 30-day survey score: 4.3/5
+- Year-1 retention: 85%
+
+Insight: Every 0.5 point improvement in 30-day survey predicts ~2-3% better retention.
+
+Most valuable insights:
+- Role clarity (most predictive of retention)
+- Team integration (predicts engagement)
+- Tool access (predicts first 30-day productivity)
+```
+
+## Common Pitfalls When Implementing Surveys
+
+**Pitfall 1: Surveys become busywork**
+
+New hires feel like they're filling out forms instead of being welcomed.
+
+Fix: Keep surveys to <10 minutes, deliver results, and show action taken.
+
+**Pitfall 2: Surveys at wrong times**
+
+Sending 60-day survey at day 55, then analyzing day 90+ means feedback arrives too late.
+
+Fix: Automate scheduling based on hire date. Send survey slightly early (28-29 days).
+
+**Pitfall 3: Survey fatigue**
+
+Sending surveys every week burns out new hires.
+
+Fix: Stick to 30-60-90 milestones only. Don't add extra check-ins.
+
+**Pitfall 4: Ignored feedback**
+
+Survey repeatedly shows "unclear expectations" but nothing changes.
+
+Fix: Assign each survey result an owner (manager, team lead, IT director) with action item.
+
+**Pitfall 5: Anonymous surveys hide actionable detail**
+
+Anonymous responses mean you can't follow up on individual blockers.
+
+Fix: Use named surveys (it's safe — 30 days in, people trust the process). Allow anonymous comments if preferred.
+
+## Related Articles
 
 
 **Who is this article written for?**

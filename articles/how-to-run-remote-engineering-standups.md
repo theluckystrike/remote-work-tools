@@ -208,6 +208,181 @@ Signs your standup needs changing:
 
 If engineers say the last one, that's actually a success signal — your transparency is good enough that standup is redundant. In that case, reduce to 3x/week or switch to a "blockers only" format.
 
+## Tool Comparison: Standup Platforms
+
+Different tools handle async standups differently. Choose based on your team's existing communication stack:
+
+| Tool | Slack Integration | Custom Questions | Analytics | Cost | Best For |
+|------|-------------------|------------------|-----------|------|----------|
+| **Geekbot** | Native | Unlimited | Basic | $3-8/user/mo | Slack-first teams |
+| **Standuply** | Native | Custom fields | Reporting | $4-12/user/mo | Growing teams |
+| **15Five** | Native | Extensive | Advanced | $5-15/user/mo | Engagement focus |
+| **GitLab Standups** | Via webhook | None | Built-in | Included | DevOps teams |
+| **Manual Slack Workflow** | Native | Via forms | None | Free | <10 person teams |
+
+For small teams (under 10 engineers), a manual Slack Workflow Builder setup is free and sufficient. For teams 10-50, Geekbot or Standuply provide reliable scaling without overhead. For 50+ teams, 15Five offers analytics that justify per-user costs.
+
+## Standup Response Quality Template
+
+Engineers often struggle to write useful standup responses. Provide this template in your #team-standup pinned messages:
+
+```markdown
+### Yesterday
+- [Issue #XXX] Brief description of what was completed
+- [Issue #YYY] Another completed item (if multiple)
+
+### Today
+- [Issue #ZZZ] What I'm starting, brief description (% complete if resuming)
+- Focus area: [Brief description of today's priority]
+
+### Blockers
+- None
+OR
+- [Specific blocker]: [Who can help] (e.g., "Waiting for DB access: ask @dba-oncall")
+
+### FYI
+- Anything teammates should know (code review needed, PR ready, etc.)
+
+---
+Example of good response:
+Yesterday: #456 - Implemented Stripe webhook retry logic, merged and deployed
+Today: #457 - Building invoice export feature (~30% done), should finish EOD
+Blockers: Need clarity on invoice CSV schema from @product
+FYI: PR #455 ready for review, straightforward auth fix
+```
+
+Provide this in your onboarding docs so new engineers learn the format immediately.
+
+## Async Standup Failure Modes and Fixes
+
+| Problem | Symptom | Fix |
+|---------|---------|-----|
+| Late responses | <50% respond by deadline | Add 1-hour buffer before summarization; post reminder at midpoint |
+| Vague answers | "Working on stuff" responses | Use stricter template; provide examples of good vs bad |
+| No follow-up | Blockers raised but never resolved | Assign responsibility: "Tech lead reviews all blocker comments within 2h" |
+| Survey fatigue | Declining response rate over months | Switch to 3x/week or "blockers only" format |
+| Timezone misalignment | Some timezones never see their updates | Send survey at same UTC time, not local time |
+
+## Engineering Standups at Different Team Sizes
+
+**5-8 person teams:** Daily async via Slack works best. Synchronous standup once per week if timezone overlap allows.
+
+```bash
+# Daily async example
+Schedule: 9:30 AM UTC (auto-sends DM)
+Deadline: 11:00 AM UTC (posts summary)
+Summary format: @username's update → [yesterday] [today] [blockers]
+```
+
+**10-20 person teams:** Async daily, weekly sync meeting for cross-team blockers.
+
+```bash
+# Weekly standup meeting (15 minutes, in-person or sync)
+0-2 min: Facilitator reads async responses, highlights blockers
+2-12 min: Blocker matching (pair people who can help)
+12-15 min: Upcoming week coordination
+```
+
+**20-50 person teams:** Sub-team async daily, rotating representation in cross-team weeklies.
+
+```markdown
+# Three-team structure (Platform, Frontend, Backend)
+
+## Daily
+- Each sub-team: async standup in their Slack channel
+- Format: Same template, local timezone
+
+## Weekly
+- Blocker-only async in #eng-blockers (posted by each tech lead)
+- Cross-team sync (45 min): One rep from each sub-team
+  - Reps rotate monthly
+  - Agenda: blockers, metrics, upcoming priorities
+```
+
+## Creating a Standup Dashboard
+
+For teams using GitHub, create a simple dashboard showing standup health:
+
+```python
+#!/usr/bin/env python3
+import json
+from datetime import datetime, timedelta
+from github import Github
+
+def standup_health(org_name, team_name):
+    """
+    Check standup participation rates for a team
+    """
+    g = Github(os.environ['GITHUB_TOKEN'])
+    org = g.get_organization(org_name)
+    team = org.get_team_by_slug(team_name)
+
+    # Count standup PRs (assuming standups are created as PRs)
+    repo = org.get_repo('team-standups')
+    since = datetime.now() - timedelta(days=5)
+
+    prs = repo.get_pulls(
+        state='all',
+        since=since
+    )
+
+    # Parse PR authors
+    respondents = set()
+    for pr in prs:
+        if pr.title.startswith('Standup:'):
+            respondents.add(pr.user.login)
+
+    # Get team membership
+    members = team.get_members()
+    member_names = {m.login for m in members}
+
+    # Calculate participation
+    participation = len(respondents) / len(list(member_names)) * 100
+
+    return {
+        'team': team_name,
+        'participation_rate': participation,
+        'respondents': list(respondents),
+        'missing': list(member_names - respondents)
+    }
+```
+
+## Standup Anti-Patterns in Remote Teams
+
+**Standup as Performance Review:** Engineers feel watched, responses become defensive and political. Fix: Explicitly state that standups track coordination, not performance.
+
+**Status Report Theater:** Standups become where engineers recite work nobody asked about. Fix: Remind team that standup is for blockers; other updates go in PRs and tickets.
+
+**Async Responses Ignored:** Engineers post async responses that nobody reads. Fix: Have the tech lead or manager explicitly acknowledge key responses in the summary.
+
+**Same Blocker Every Day:** Engineer reports the same blocker 3 days in a row with no resolution. Fix: Any blocker reported twice gets escalated to tech lead immediately.
+
+## Integration with Incident Response
+
+Standups provide early warning of systemic issues. When analyzing incidents, check:
+
+- Were blockers raised before the incident?
+- Did the standup system alert on degradation?
+- Could the incident have been caught via standup flow?
+
+Document standup insights in postmortems:
+
+```markdown
+## Standup Intelligence Review
+
+### Week of [date]
+**Reported blockers:**
+- "Database performance degraded" (Mon) — Issue #XXX
+- "Response times high at peak hours" (Wed) — Same root cause
+
+**Could we have caught this earlier?**
+Yes — Tuesday's standup would have highlighted pattern
+
+**Action:**
+- Add automated alerting for response time degradation
+- Require standup-level metrics dashboard
+```
+
 ## Related Reading
 
 - [Best Tools for Remote Team Standup Meetings 2026](/best-tools-for-remote-team-standup-meetings-2026/)
