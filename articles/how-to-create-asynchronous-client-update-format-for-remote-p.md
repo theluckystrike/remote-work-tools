@@ -28,7 +28,17 @@ Structure client updates with Status Summary, Progress This Week, Blockers, Next
 - **Switch to alternative vendor (5 days**: better pricing long-term, different data model)
 > 3.
 
-## Understanding the Core Problem
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Core Problem
 
 Remote projects face a unique challenge: not everyone is available at the same time. When a stakeholder in New York sends an update at 9 AM, their colleague in Tokyo might not see it for another 12 hours. Traditional synchronous communication patterns break down in this environment. You need formats that convey context, action items, and status without requiring immediate responses.
 
@@ -36,7 +46,7 @@ An effective asynchronous client update format must accomplish three things: pro
 
 Consider a real scenario: a distributed agency team is building an e-commerce platform for a retail client. The engineering team is based in Berlin, the design lead is in Vancouver, and the client's product owner is in Singapore. Without a structured async update format, the client would receive a patchwork of Slack messages, email threads, and Notion comments—none of which tell a coherent story. With a defined format, the Berlin team publishes one update each Friday that the Singapore stakeholder reads first thing Monday morning with full context and no follow-up questions needed.
 
-## Designing Your Update Structure
+### Step 2: Designing Your Update Structure
 
 The most practical approach separates updates into distinct sections. Each section serves a specific purpose and helps different team members quickly find the information they need.
 
@@ -52,7 +62,7 @@ A strong async update format includes five core sections:
 
 **Decisions Needed** — any items requiring client input, with a response deadline. Async teams lose days waiting for decisions; surfacing them with explicit deadlines moves projects forward.
 
-## Implementing Versioned JSON Updates
+### Step 3: Implementing Versioned JSON Updates
 
 For more sophisticated remote project environments, consider implementing a structured JSON format for client updates. This approach enables programmatic parsing, archival, and analysis.
 
@@ -104,7 +114,7 @@ For more sophisticated remote project environments, consider implementing a stru
 
 This format scales well for projects with multiple workstreams. Each update maintains backward compatibility through the version field, and parsers can handle missing fields gracefully.
 
-## Building Update Automation
+### Step 4: Build Update Automation
 
 Manually crafting consistent updates becomes tedious. Automation helps maintain quality while reducing team overhead.
 
@@ -148,7 +158,7 @@ if __name__ == "__main__":
 
 Run this script during your regular sync meetings to generate updates instantly. Store outputs in a shared location with consistent naming conventions like `update-YYYY-MM-DD.json`.
 
-## Choosing the Right Delivery Channel
+### Step 5: Choose the Right Delivery Channel
 
 Where you send updates matters as much as how you format them. Different delivery channels suit different client relationships.
 
@@ -160,7 +170,7 @@ Where you send updates matters as much as how you format them. Different deliver
 
 **Loom video updates** add a human layer to async communication without requiring scheduling. A three-minute screen recording where the engineer walks through a demo of new features can replace an entire status call. Pair a Loom with a written summary so stakeholders who prefer text can skim without watching.
 
-## Coordinating Across Time Zones Without Update Fatigue
+### Step 6: Coordinating Across Time Zones Without Update Fatigue
 
 Remote teams serving international clients risk over-communicating. A client in Hong Kong does not need three Slack notifications per day about incremental progress—but they do need one Friday update that lets them plan the week ahead without uncertainty.
 
@@ -180,12 +190,12 @@ Ownership must be explicit. Every blocker, every next step, every open decision 
 
 Avoid jargon that clients outside the engineering discipline will not recognize. Status updates are not code reviews. Write them for the product owner, not the senior engineer. If you must include technical detail, move it to an appendix section labeled "Technical Notes" so the primary narrative stays readable.
 
-## Adapting Formats to Your Context
+### Step 7: Adapting Formats to Your Context
 
 Not every project needs the full JSON implementation. A simple markdown format works well for smaller teams:
 
 ```markdown
-## Update - March 16, 2026
+### Step 8: Update - March 16, 2026
 
 **Status:** On Track
 
@@ -206,6 +216,21 @@ Not every project needs the full JSON implementation. A simple markdown format w
 
 Choose the complexity level that matches your team's needs. The goal is clear communication, not documentation overhead.
 
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
+
 ## Frequently Asked Questions
 
 **How long should a client update be?** Aim for under 300 words in the main body for weekly updates. Clients who receive concise updates actually read them; clients who receive essays skim and miss critical flags. Use expandable sections or appendices for detail.
@@ -219,7 +244,7 @@ Choose the complexity level that matches your team's needs. The goal is clear co
 **What tools support async update workflows?** Linear and Jira both support weekly digest reports. Notion databases can act as structured update logs. Tools like Loom, Claap, and Descript cover video update workflows. For document-heavy clients, a shared Google Slides deck that teams update weekly gives stakeholders a visual snapshot alongside the written narrative.
 ---
 
-## Real-World Implementation: Setting Up Your Update Pipeline
+### Step 9: Real-World Implementation: Setting Up Your Update Pipeline
 
 ### Email Template for Weekly Client Updates
 
@@ -345,7 +370,7 @@ print(update)
 
 Run this weekly to generate consistent, timestamped updates that never lose detail.
 
-## Frequency and Timing Guidelines
+### Step 10: Frequency and Timing Guidelines
 
 The optimal update frequency depends on project velocity and client anxiety level:
 
@@ -371,7 +396,7 @@ The optimal update frequency depends on project velocity and client anxiety leve
 
 Match frequency to project context, then stay consistent. Inconsistent updates erode trust.
 
-## Handling Difficult Conversations in Writing
+### Step 11: Handling Difficult Conversations in Writing
 
 When your update contains bad news, use this sequence:
 

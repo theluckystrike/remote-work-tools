@@ -62,11 +62,21 @@ adr:
  - security-team
 ---
 
-## Context
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Context
 
 Our current authentication system uses JWT tokens stored in localStorage. Security review flagged XSS vulnerability concerns. We need a more secure token storage mechanism without significantly impacting user experience.
 
-## Decision
+### Step 2: Decision
 
 We will implement refresh token rotation with secure httpOnly cookies. Access tokens remain short-lived (15 minutes) with refresh tokens stored server-side.
 
@@ -77,7 +87,7 @@ We will implement refresh token rotation with secure httpOnly cookies. Access to
 - Store refresh tokens in Redis with 7-day TTL per user session
 - Fallback to silent re-authentication if refresh fails
 
-## Consequences
+### Step 3: Consequences
 
 **Positive:**
 - Eliminates XSS vector for token theft
@@ -89,19 +99,19 @@ We will implement refresh token rotation with secure httpOnly cookies. Access to
 - Adds Redis infrastructure dependency
 - Slight increase in authentication latency
 
-## Alternatives Considered
+### Step 4: Alternatives Considered
 
 1. **Session-based authentication** - Rejected because our SPA architecture benefits from stateless tokens
 2. **Hardware security keys** - Considered but rejected due to poor UX for our user base
 3. **OAuth 2.0 with existing provider** - Rejected due to cost and integration complexity
 
-## Notes
+### Step 5: Notes
 
 - Related to security audit item SEC-2026-042
 - Follow-up ADR needed for mobile app implementation
 ```
 
-## Adapting the Template for Async Workflows
+### Step 6: Adapting the Template for Async Workflows
 
 Remote teams benefit from explicit async review processes. Add these workflow sections to your template:
 
@@ -116,7 +126,7 @@ adr:
  minimum-approvers: 2
 ---
 
-## Async Review Process
+### Step 7: Async Review Process
 
 1. Author posts ADR draft to #engineering-arch-reviews
 2. Team members add comments within 5 business days
@@ -127,7 +137,7 @@ adr:
 
 This structure works because everyone knows exactly when to respond. The explicit timeline prevents decisions from stalling in review while giving reviewers adequate time to provide thoughtful feedback across time zones.
 
-## Tracking Decision Status Over Time
+### Step 8: Tracking Decision Status Over Time
 
 Architecture decisions evolve. Your template should accommodate status changes:
 
@@ -140,7 +150,7 @@ adr:
  sunset-date: "2026-06-01"
 ---
 
-## Status History
+### Step 9: Status History
 
 - **2026-02-01**: Accepted - Initial implementation
 - **2026-03-15**: Superseded by ADR 0020 - Migrating to GraphQL
@@ -149,7 +159,7 @@ adr:
 
 This history helps future developers understand the evolution of your system and prevents accidentally reviving deprecated approaches.
 
-## Practical Tips for Remote ADR Implementation
+### Step 10: Practical Tips for Remote ADR Implementation
 
 Start small. Rather than documenting all historical decisions, focus on decisions made going forward. Set a team norm: any architectural choice affecting multiple services, introducing new dependencies, or impacting team workflows gets an ADR.
 
@@ -157,7 +167,7 @@ Store ADRs in your repository alongside code. Using a `/docs/adr/` directory kee
 
 Link ADRs to code reviews. When implementing a decision, include the ADR ID in your PR description. This creates a bidirectional link: developers can trace code back to reasoning, and future decision-makers can find the implementation.
 
-## Example Workflow for a Remote Team Decision
+### Step 11: Example Workflow for a Remote Team Decision
 
 Here is how an ADR moves through a typical async workflow:
 
@@ -169,7 +179,7 @@ Here is how an ADR moves through a typical async workflow:
 
 This cadence assumes minimal async lag. For teams across more time zones, extend the comment period but keep the rhythm predictable.
 
-## Common Pitfalls to Avoid
+### Step 12: Common Pitfalls to Avoid
 
 Avoid writing ADRs as implementation documents. The record should capture reasoning, not technical specs. Implementation details belong in RFCs or technical specifications.
 
@@ -177,7 +187,7 @@ Do not make ADR creation optional. If only some team members write ADRs, the pra
 
 Resist the temptation to document everything. Not every decision needs an ADR. Reserve this practice for architectural choices that affect system structure, introduce significant tradeoffs, or could be reconsidered in the future.
 
-## Building ADR Culture Remotely
+### Step 13: Build ADR Culture Remotely
 
 Successful ADR adoption requires leadership modeling. When senior engineers write and reference ADRs, junior team members understand the practice's value. Reference ADRs in code reviews, planning discussions, and onboarding conversations.
 
@@ -187,7 +197,7 @@ Architecture Decision Records transform technical decision-making from implicit 
 
 Start with the template above, adapt it to your team's workflow, and commit to writing ADRs for significant decisions. Your future self, and your future teammates, will thank you.
 
-## Implementing ADRs in Your Repository
+### Step 14: Implementing ADRs in Your Repository
 
 Store ADRs in version control alongside your code. Create a `/docs/adr/` directory structure:
 
@@ -210,7 +220,7 @@ Use a simple naming convention for status transitions:
 
 This naming makes it easy to scan your ADR directory and understand at a glance what decisions are active versus historical.
 
-## Tools for Managing ADRs at Scale
+### Step 15: Tools for Managing ADRs at Scale
 
 For teams with more than 50 ADRs, dedicated tooling becomes valuable:
 
@@ -229,7 +239,7 @@ The tool generates summary pages showing decision status, linking decisions toge
 
 For most teams, neither tool is necessary—a well-organized folder with consistent naming and a simple index document works fine. Add tooling only when the overhead of maintaining your ADR system exceeds the time it saves.
 
-## Common ADR Anti-Patterns to Avoid
+### Step 16: Common ADR Anti-Patterns to Avoid
 
 Several patterns indicate your ADR practice is breaking down:
 
@@ -243,7 +253,7 @@ Several patterns indicate your ADR practice is breaking down:
 
 **Burying decisions in technical debt:** When a decision turns out to be problematic, explicitly mark it as such rather than letting it become tribal knowledge that "nobody does that anymore." A deprecated ADR is better than confusion.
 
-## Integrating ADRs with Your Workflow
+### Step 17: Integrate ADRs with Your Workflow
 
 Make ADRs part of your development process, not a separate artifact:
 
@@ -257,7 +267,7 @@ Make ADRs part of your development process, not a separate artifact:
 
 **In RFC (Request for Comments) discussions:** Use ADRs as the decision mechanism. Write an RFC for significant proposals, then document the decision as an ADR.
 
-## Real-World Example: Complete ADR Workflow
+### Step 18: Real-World Example: Complete ADR Workflow
 
 Here's how an ADR moves through a complete lifecycle in a mature remote team:
 
@@ -279,7 +289,7 @@ Here's how an ADR moves through a complete lifecycle in a mature remote team:
 
 This lifecycle shows ADRs doing their job—capturing decisions, informing implementation, and serving as reference documents when circumstances change.
 
-## Scaling ADRs Across Multiple Teams
+### Step 19: Scaling ADRs Across Multiple Teams
 
 If your organization has multiple engineering teams, consider these approaches:
 
@@ -294,6 +304,21 @@ Whatever approach you choose, establish clear guidelines about what decisions wa
 - Affect multiple systems
 - Create notable trade-offs
 - Will be questioned by future developers
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

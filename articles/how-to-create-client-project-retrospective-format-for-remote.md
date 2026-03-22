@@ -52,7 +52,17 @@ Client retrospectives also differ from internal team retrospectives. Internal re
 
 The key challenge is creating a format that encourages honest feedback from the client while maintaining a productive working relationship. This requires careful structure and thoughtful question design.
 
-## Essential Components of Client Retrospective Formats
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Essential Components of Client Retrospective Formats
 
 ### Pre-Retrospective Survey
 
@@ -91,7 +101,7 @@ Example prompt: "If we were to work on another project together, what single cha
 
 Translate feedback into concrete next steps. Document specific commitments—both what you'll do differently and what the client will do differently in future collaborations.
 
-## Template Examples
+### Step 2: Template Examples
 
 ### Asynchronous Retrospective Document Template
 
@@ -118,14 +128,14 @@ Translate feedback into concrete next steps. Document specific commitments—bot
 ### Net Promoter Score: [1-10]
 [Optional: Would you recommend us?]
 
-## Action Items
+### Step 3: Action Items
 
 | Action Item | Owner | Due Date |
 |-------------|-------|----------|
 | [Specific action] | [Name] | [Date] |
 | [Specific action] | [Name] | [Date] |
 
-## Lessons Learned for Future Projects
+### Step 4: Lessons Learned for Future Projects
 - [Internal lesson 1 - not shared with client]
 - [Internal lesson 2 - not shared with client]
 ```
@@ -186,13 +196,13 @@ Remote clients often appreciate asynchronous options because they fit their sche
 
 **Retrospectives too late.** Waiting months after project completion means memories fade and the emotional impact of issues dissipates. Schedule retrospectives while the experience is still fresh.
 
-## Adapting Formats for Different Client Types
+### Step 5: Adapting Formats for Different Client Types
 
 Enterprise clients often prefer structured formats with written documentation they can share with stakeholders. Smaller clients may prefer more casual conversations. Adjust your format based on client preferences while maintaining the core structure that makes retrospectives valuable.
 
 For clients in significantly different time zones, prioritize asynchronous surveys and written documentation. Use synchronous time sparingly for high-value discussion rather than information gathering that could happen asynchronously.
 
-## Retrospective Tools and Software
+### Step 6: Retrospective Tools and Software
 
 **Option 1: Google Forms + Sheets (Free)**
 - Create 8-10 question survey (5 min to complete)
@@ -230,7 +240,7 @@ Free template: Create a copy of any Google Form template, customize questions.
 - Integrates with Zapier for automation
 - Best for: Teams already in Notion ecosystem
 
-## Retrospective Timing Strategy
+### Step 7: Retrospective Timing Strategy
 
 **Optimal Timing Schedule**
 ```
@@ -243,7 +253,7 @@ Day 21: Implement 1-2 quick improvements from feedback
 
 This spacing prevents recency bias while capturing detailed feedback.
 
-## Categorizing Feedback for Action
+### Step 8: Categorizing Feedback for Action
 
 Not all feedback is equal. Create a triage system:
 
@@ -291,7 +301,7 @@ def categorize_feedback(feedback_item):
     # Route each category to different action paths
 ```
 
-## NPS and Satisfaction Measurement
+### Step 9: NPS and Satisfaction Measurement
 
 Use standard metrics to track client satisfaction trends:
 
@@ -329,7 +339,7 @@ Question: "How easy was it to work with us?" (1-5 scale)
 
 Track these metrics quarterly. A declining trend signals process problems before they cause client churn.
 
-## Documentation Archive for Lessons Learned
+### Step 10: Documentation Archive for Lessons Learned
 
 Create a system that captures knowledge from each project:
 
@@ -350,6 +360,21 @@ By year-end, review all retrospectives:
 - What improvements haven't been implemented yet?
 
 This drives your process improvements year over year.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -48,7 +48,17 @@ A well-designed knowledge base addresses these challenges by providing 24/7 acce
 
 Beyond convenience, a knowledge base signals professionalism. When clients see documentation about your processes, pricing structures, and project management approaches, they gain confidence in your agency's organization. You're not just another freelancer working from a home office—you're a structured business with systems that scale.
 
-## Choosing Your Knowledge Base Platform
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Choose Your Knowledge Base Platform
 
 The right platform depends on your agency's technical comfort level, budget, and integration needs. Three categories work well for remote agencies: all-in-one tools, dedicated documentation platforms, and custom-built solutions.
 
@@ -120,7 +130,7 @@ Freelance/Solo: Notion (free, flexible, sufficient)
 5-15 person agency: GitBook or custom solution ($100-500/month or one-time dev cost)
 15+ person agency: ReadMe or Confluence ($500+/month)
 
-## Structuring Your Knowledge Base Content
+### Step 2: Structuring Your Knowledge Base Content
 
 Organization makes or breaks a knowledge base. A disorganized collection of links frustrates clients and guarantees low adoption. Plan your structure around client needs rather than internal terminology.
 
@@ -132,7 +142,7 @@ Organization makes or breaks a knowledge base. A disorganized collection of link
 
 **Add process transparency sections.** Remote agencies benefit from explaining how work actually happens. Document your discovery process, how you scope projects, your development methodology, and your quality assurance steps. When clients understand why certain timelines exist or why additional rounds of revisions cost extra, they make better decisions and experience fewer surprises.
 
-## Implementation Steps
+### Step 3: Implementation Steps
 
 Building a knowledge base works best as an incremental project rather than a massive launch. Follow these phases to create something useful quickly while avoiding overwhelm.
 
@@ -207,13 +217,13 @@ TLDR: One-sentence summary of what clients will learn
 ## When to Use This
 Brief explanation of what situation requires this knowledge.
 
-## Step-by-Step Instructions
+### Step 4: Step-by-Step Instructions
 1. First step (be specific)
 2. Second step (include any tools/buttons to click)
 3. Next step (visual description if there's a UI involved)
 4. Final step (what success looks like)
 
-## Screenshots/Video
+### Step 5: Screenshots/Video
 [Include images here with arrows/highlights]
 
 ## Common Issues
@@ -223,7 +233,7 @@ A: Do Y
 ## Next Steps
 Link to related documentation or next logical action.
 
-## Questions?
+### Step 6: Questions?
 Contact [your email or support portal link]
 ```
 
@@ -288,6 +298,21 @@ A knowledge base that stagnates loses value quickly—clients stop checking when
 **Enable feedback.** Add ways for clients to indicate articles helped or request clarification. This feedback loop reveals content gaps and helps you understand client mental models. When someone struggles with documentation, improve it rather than simply answering their question again.
 
 **Integrate with client workflows.** Don't force clients to visit a separate site for your knowledge base. Embed relevant articles in project management tools, reference them in regular updates, and link from invoices or proposals. The more integrated the knowledge base feels with your overall service, the more clients use it.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -33,7 +33,17 @@ The average remote team creates a communication document during their first few 
 
 A successful charter solves three problems simultaneously: it tells new hires exactly what to do in common situations, it provides the reasoning behind those expectations, and it integrates into their actual workflow during onboarding.
 
-## Building Blocks of an Effective Communication Charter
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Build Blocks of an Effective Communication Charter
 
 An effective charter for developer teams contains five core sections. Each section should answer the questions a new hire actually asks during their first weeks.
 
@@ -53,7 +63,7 @@ New hires need to know which tool handles which conversation type. Rather than l
 This approach teaches channel selection through examples rather than abstract rules. Add this directly to your project README as a quick reference:
 
 ```markdown
-## Quick Communication Guide
+### Step 2: Quick Communication Guide
 
 **Need help with code?** Open a PR comment—faster than Slack for context
 **Found a bug?** GitHub Issues with reproduction steps get faster responses
@@ -106,15 +116,15 @@ Define minimum standards for three document types:
 **Pull Request Descriptions:**
 
 ```markdown
-## What this PR changes
+### Step 3: What this PR changes
 Brief description of the change and its purpose
 
-## How to test
+### Step 4: How to test
 1. Step one
 2. Step two
 3. Expected result
 
-## Screenshots (if applicable)
+### Step 5: Screenshots (if applicable)
 Before/after or UI changes
 
 Closes #123
@@ -123,32 +133,32 @@ Closes #123
 **Status Updates (for standups or async check-ins):**
 
 ```markdown
-## Yesterday
+### Step 6: Yesterday
 - What you completed
 
-## Today
+### Step 7: Today
 - What you're working on
 
-## Blockers
+### Step 8: Blockers
 - Anything blocking progress (or "None")
 
-## FYI
+### Step 9: FYI
 - Context others might need
 ```
 
 **Meeting Notes:**
 
 ```markdown
-## Attendees
+### Step 10: Attendees
 - Who was present
 
-## Decisions Made
+### Step 11: Decisions Made
 - Clear list of what was decided
 
-## Action Items
+### Step 12: Action Items
 - [ ] Task description | Owner | Due Date
 
-## Open Questions
+### Step 13: Open Questions
 - Topics requiring follow-up
 ```
 
@@ -206,7 +216,7 @@ Create an automated checklist for onboarding that includes communication tasks:
 
 ```yaml
 # onboarding-checklist.md
-## Week 1 Communication Tasks
+### Step 14: Week 1 Communication Tasks
 - [ ] Read team communication charter
 - [ ] Join required Slack channels (list them)
 - [ ] Set up notification preferences for channels
@@ -216,7 +226,7 @@ Create an automated checklist for onboarding that includes communication tasks:
 - [ ] Complete GitHub notifications setup
 ```
 
-## Making Your Charter Living Documentation
+### Step 15: Making Your Charter Living Documentation
 
 Static documents become outdated within months. Build these practices into your team workflow to keep the charter current:
 
@@ -228,7 +238,7 @@ Searchable: Add the charter to your team's Notion, Confluence, or wiki so it's f
 
 Examples over rules: When updating the charter, lead with examples of what worked and what didn't rather than abstract principles.
 
-## Testing Charter Adoption
+### Step 16: Test Charter Adoption
 
 After implementing your charter, measure whether it's actually working:
 
@@ -237,6 +247,21 @@ After implementing your charter, measure whether it's actually working:
 - Review whether information lives in the right places (issues, docs, or discussions)
 - Track response times to see if expectations are realistic
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

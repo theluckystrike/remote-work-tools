@@ -42,7 +42,17 @@ A feedback loop serves three purposes:
 2. **Policy validation** - Confirm that implemented policies achieve their intended goals
 3. **Employee buy-in** - When people feel heard, they adopt policies more willingly
 
-## Structuring Your Feedback Collection
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Structuring Your Feedback Collection
 
 Effective feedback collection requires more than an open-ended "any thoughts?" survey. You need structured inputs that produce actionable data.
 
@@ -104,7 +114,7 @@ const feedbackForm = {
 };
 ```
 
-## Implementing the Feedback Loop Cycle
+### Step 2: Implementing the Feedback Loop Cycle
 
 A feedback loop isn't an one-time survey. It requires a continuous cycle with distinct phases.
 
@@ -152,7 +162,7 @@ Monitor the impact of policy changes through secondary indicators:
 
 These indicators tell you whether your policy changes achieved their intended effect.
 
-## Practical Implementation Options
+### Step 3: Practical Implementation Options
 
 Depending on your technical resources, you can implement feedback collection at different levels of sophistication.
 
@@ -231,7 +241,7 @@ def get_summary(policy_area):
 
 This backend stores feedback in SQLite and provides endpoints for submission and aggregated analysis. Extend it with authentication, email notifications, and dashboard visualizations based on your team's needs.
 
-## Avoiding Common Pitfalls
+### Step 4: Avoiding Common Pitfalls
 
 Several patterns cause feedback loops to fail:
 
@@ -243,7 +253,7 @@ Several patterns cause feedback loops to fail:
 
 **Ignoring outliers** - Pay attention to strongly negative responses. A 2.5 average might hide a segment of highly dissatisfied employees who need specific attention.
 
-## Building a Feedback Culture
+### Step 5: Build a Feedback Culture
 
 The technical system is only part of the solution. You need to create cultural norms around feedback:
 
@@ -255,7 +265,7 @@ The technical system is only part of the solution. You need to create cultural n
 A feedback loop that runs continuously becomes part of how your organization operates, not a special event that people ignore.
 ---
 
-## Real-World Feedback Loop Example: Case Study
+### Step 6: Real-World Feedback Loop Example: Case Study
 
 A 45-person SaaS company implemented a hybrid feedback system after returning to the office post-pandemic. Here's how it worked and what changed:
 
@@ -287,7 +297,7 @@ A 45-person SaaS company implemented a hybrid feedback system after returning to
 
 ---
 
-## Feedback Metrics That Actually Matter
+### Step 7: Feedback Metrics That Actually Matter
 
 Stop measuring just satisfaction. Measure leading indicators that correlate with retention and productivity:
 
@@ -330,7 +340,7 @@ feedback_metrics = {
 
 ---
 
-## Feedback Integration with Payroll and HR Systems
+### Step 8: Feedback Integration with Payroll and HR Systems
 
 Many feedback responses relate to compensation and benefits. Integrate feedback into your broader HR processes:
 
@@ -367,12 +377,12 @@ const feedbackActionWorkflow = {
 
 ---
 
-## Closed-Loop Feedback: Showing Results to Employees
+### Step 9: Closed-Loop Feedback: Showing Results to Employees
 
 The single biggest reason feedback systems fail is lack of transparency. Implement a closed-loop reporting process:
 
 ```markdown
-## Post-Feedback Communication Template
+### Step 10: Post-Feedback Communication Template
 
 Subject: We Heard You – Here's What We're Changing
 
@@ -502,7 +512,7 @@ print(json.dumps(summary, indent=2))
 
 ---
 
-## Common Feedback Loop Mistakes and How to Avoid Them
+### Step 11: Common Feedback Loop Mistakes and How to Avoid Them
 
 **Mistake 1: Changing policy immediately after feedback**
 
@@ -529,6 +539,21 @@ Wrong: Implement changes, assume they worked
 Right: Repeat the same questions 3 months later, measure the change, publish results
 
 ---
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

@@ -40,13 +40,23 @@ To create a compensation benchmarking report for remote teams, gather salary dat
 - Local Argentine surveys show $25,000-40,000.
 - **Second, apply PPP**: Argentina's PPP factor is approximately 0.4, meaning $1 in the US equals roughly 0.4 Argentine pesos in purchasing power.
 
-## Understanding the Data Sources
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Understand the Data Sources
 
 International salary survey data comes from several reliable sources. The Stack Overflow Developer Survey provides tech role compensation across 180+ countries. GitHub's Octoverse includes global developer trends. Glassdoor and Payscale offer localized data with remote-specific filters. For government-level accuracy, the OECD and World Bank provide purchasing power parity calculations.
 
 The key is combining multiple sources to create a weighted view of your talent market. A senior engineer in Poland competes with opportunities in Germany, the UK, and US remote positions. Your benchmark should reflect this reality.
 
-## Structuring Your Compensation Framework
+### Step 2: Structuring Your Compensation Framework
 
 Before collecting data, define your compensation philosophy. Remote teams typically use one of three approaches:
 
@@ -58,7 +68,7 @@ Each approach has trade-offs. Location-agnostic creates equity but strains budge
 
 Choose your approach first, then build your data collection around it.
 
-## Collecting and Normalizing Salary Data
+### Step 3: Collecting and Normalizing Salary Data
 
 Start by gathering raw salary data from your chosen sources. Export data in a consistent format—CSV or JSON works well for processing.
 
@@ -92,7 +102,7 @@ def adjust_for_ppp(df, ppp_rates):
 
 Normalize the data by converting all salaries to a common currency and adjusting for purchasing power parity. A developer earning $80,000 in San Francisco has different purchasing power than one earning $80,000 in Lisbon. PPP adjustment provides an apples-to-apples comparison.
 
-## Creating Role Buckets and Leveling
+### Step 4: Create Role Buckets and Leveling
 
 Group your positions into compensation bands. Define clear criteria for each level:
 
@@ -124,7 +134,7 @@ def calculate_compensation_bands(df, role, experience_years):
     }
 ```
 
-## Handling Remote Work Premiums
+### Step 5: Handling Remote Work Premiums
 
 Remote work affects compensation in complex ways. Some companies pay a geographic differential. Others offer location-agnostic rates. Your benchmark should show both scenarios.
 
@@ -136,7 +146,7 @@ Remote Premium = (Remote Median Salary - On-site Median Salary) / On-site Median
 
 For tech roles, remote premiums vary from -5% to +15% depending on role seniority and company type. Startups often pay premiums for remote talent. Large enterprises sometimes pay less for remote roles.
 
-## Building the Report Structure
+### Step 6: Build the Report Structure
 
 Your final benchmarking report should include these sections:
 
@@ -181,7 +191,7 @@ def create_benchmark_chart(internal_data, market_data):
     return fig
 ```
 
-## Updating and Maintaining the Report
+### Step 7: Updating and Maintaining the Report
 
 Compensation benchmarking is not an one-time exercise. Plan for quarterly updates:
 
@@ -192,7 +202,7 @@ Compensation benchmarking is not an one-time exercise. Plan for quarterly update
 
 Automate as much of the data collection as possible. Write scripts that pull from APIs or parse downloaded CSV files. The less manual work required, the more likely you'll maintain the report consistently.
 
-## Common Pitfalls to Avoid
+### Step 8: Common Pitfalls to Avoid
 
 Several mistakes undermine compensation benchmarking efforts:
 
@@ -214,7 +224,7 @@ Third, apply remote adjustment: If remote work carries a 10% premium in your ind
 
 The final recommendation: Position this role at $50,000-60,000 (US dollars) or equivalent local currency with PPP adjustment. This reflects global market rates while accounting for remote work value.
 
-## Equity vs Market Rate Tensions
+### Step 9: Equity vs Market Rate Tensions
 
 Organizations struggle with a fundamental question: should all employees doing the same work earn the same amount (equity), or should compensation reflect local market rates (market-based)?
 
@@ -312,12 +322,12 @@ This approach:
 - Feels fairer than raw market rates (acknowledges global base)
 - Remains administratively manageable
 
-## Benefits and Total Compensation
+### Step 10: Benefits and Total Compensation
 
 Salary represents only part of total compensation. Remote organizations must account for:
 
 ```markdown
-## Total Compensation Calculator
+### Step 11: Total Compensation Calculator
 
 **Cash Compensation:**
 - Base salary (from benchmarking)
@@ -378,7 +388,7 @@ def calculate_total_comp_vs_benchmark(salary, benefits, survey_benchmark):
     }
 ```
 
-## Retention Analysis
+### Step 12: Retention Analysis
 
 Compensation benchmarking predicts which employees might leave:
 
@@ -421,12 +431,12 @@ def identify_retention_risk(employee_data, market_benchmark):
 
 Run this analysis annually to identify flight risks before people start job hunting.
 
-## Timing and Communication Strategy
+### Step 13: Timing and Communication Strategy
 
 Compensation adjustments create company-wide emotion. Plan announcements carefully:
 
 ```markdown
-## Communication Timeline
+### Step 14: Communication Timeline
 
 **T-4 weeks:** Board/executive approval of new comp bands
 
@@ -460,6 +470,21 @@ Compensation adjustments create company-wide emotion. Plan announcements careful
 ```
 
 The biggest compensation mistake: announcing changes without adequate explanation. Use benchmarking data to justify decisions—it prevents accusations of favoritism.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

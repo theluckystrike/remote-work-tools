@@ -314,7 +314,17 @@ jobs:
 
 This pipeline gate prevents merging to main if any compliance check fails, keeping your documentation current as a natural part of the development workflow.
 
-## Quarterly Audit Preparation Checklist
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Quarterly Audit Preparation Checklist
 
 Run through this checklist before each quarterly audit:
 
@@ -336,6 +346,21 @@ Keep your compliance documentation maintainable by storing it in version control
 Document everything with timestamps and responsible parties. When auditors ask "how do you know this control is working?", your automated logs and version history should provide immediate answers.
 
 The effort you invest in building proper compliance documentation protects your organization from financial penalties, reputational damage, and the operational disruption of audit findings. Start with the foundational elements — access controls, device management, and approval workflows — and expand your documentation as your remote team grows.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

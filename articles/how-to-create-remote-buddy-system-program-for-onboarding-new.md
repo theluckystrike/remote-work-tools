@@ -44,7 +44,17 @@ New hires in remote environments face unique challenges. They lack organic hallw
 
 Unlike formal mentors assigned by management, buddies build relationships through shared experience. This informal structure reduces the pressure on both parties while creating authentic connections that persist beyond the onboarding period.
 
-## Core Components of a Scaled Buddy Program
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of a Scaled Buddy Program
 
 Before examining implementation, establish these foundational elements:
 
@@ -56,7 +66,7 @@ Before examining implementation, establish these foundational elements:
 
 4. Matching Algorithm: Pair new hires with buddies based on factors like timezone overlap, shared interests, or complementary experience levels.
 
-## Automating Buddy Assignment
+### Step 2: Automate Buddy Assignment
 
 Manual buddy assignment breaks down at scale. A simple matching script ensures fair distribution and considers compatibility factors.
 
@@ -142,7 +152,7 @@ if __name__ == "__main__":
 
 This script provides a starting point. Extend it with actual data from your HR systems and add constraints like maximum buddy load (typically three to four new hires per buddy per quarter).
 
-## Buddy Check-In Automation
+### Step 3: Buddy Check-In Automation
 
 Regular check-ins prevent the buddy relationship from fading. Use scheduled reminders to maintain consistency without adding administrative overhead.
 
@@ -187,7 +197,7 @@ jobs:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 ```
 
-## Tracking Program Effectiveness
+### Step 4: Tracking Program Effectiveness
 
 Measurement ensures continuous improvement. Track these metrics:
 
@@ -198,7 +208,7 @@ Measurement ensures continuous improvement. Track these metrics:
 
 Create a simple dashboard that surfaces these numbers monthly. Share results with stakeholders to maintain buy-in for the program.
 
-## Scaling Considerations
+### Step 5: Scaling Considerations
 
 As your organization grows, evolve the program:
 
@@ -207,7 +217,7 @@ As your organization grows, evolve the program:
 - Self-service matching: Allow new hires to browse buddy profiles and request specific matches
 - Recognition for buddies: Acknowledge buddies publicly—recognition reinforces participation
 
-## Common Pitfalls to Avoid
+### Step 6: Common Pitfalls to Avoid
 
 Many buddy programs fail because they lack structure or become too bureaucratic. Avoid these mistakes:
 
@@ -216,7 +226,7 @@ Many buddy programs fail because they lack structure or become too bureaucratic.
 - Missing manager alignment: Ensure managers know not to assign urgent work during buddy meetings
 - Forgetting to scale: Reassign buddies when the team doubles; what worked for 10 new hires fails at 50
 
-## Implementation Checklist
+### Step 7: Implementation Checklist
 
 Use this checklist to launch your program:
 
@@ -230,6 +240,21 @@ Use this checklist to launch your program:
 - [ ] Iterate based on data
 
 A remote buddy system program requires upfront investment but pays dividends through faster onboarding, stronger cultural cohesion, and improved retention. Start simple, measure outcomes, and scale the program as your team grows.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

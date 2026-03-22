@@ -31,7 +31,17 @@ Research consistently shows that structured onboarding reduces time-to-productiv
 
 For developers joining a remote team, the first week often involves setting up complex development environments, accessing multiple systems, and understanding codebase architecture. A buddy can accelerate this process significantly by providing curated resources and answering questions in real-time.
 
-## Core Components of Your Buddy Program Template
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of Your Buddy Program Template
 
 An effective remote onboarding buddy program needs several structural elements. Let's build each component.
 
@@ -48,7 +58,7 @@ Not every experienced employee makes a good buddy. Select buddies based on:
 Consider creating a buddy nomination form:
 
 ```markdown
-## Buddy Nomination Form
+### Step 2: Buddy Nomination Form
 
 **Name:**
 **Team:**
@@ -100,33 +110,33 @@ Create a checklist buddies can follow:
 ```markdown
 # Remote Onboarding Buddy Checklist
 
-## Pre-Arrival (Day Before)
+### Step 3: Pre-Arrival (Day Before)
 - [ ] Review new hire's background and role
 - [ ] Prepare welcome message with first-day instructions
 - [ ] Ensure all accounts and access are provisioned
 - [ ] Share your schedule for the first week
 
-## First Day
+### Step 4: First Day
 - [ ] Morning video call (15-30 minutes)
 - [ ] Walk through team chat rooms and notification settings
 - [ ] Explain standing meetings and calendar conventions
 - [ ] Share team norms for async vs sync communication
 - [ ] Introduce to at least 2-3 team members personally
 
-## First Week
+### Step 5: First Week
 - [ ] Daily 15-minute check-ins
 - [ ] Development environment debugging assistance
 - [ ] Codebase architecture overview (shared screen)
 - [ ] Review team's testing and deployment practices
 - [ ] Discuss code review culture and feedback style
 
-## First Two Weeks
+### Step 6: First Two Weeks
 - [ ] Pair on a small feature or bug fix
 - [ ] Explain documentation locations and contribution guidelines
 - [ ] Cover incident response procedures
 - [ ] Share team rituals and social traditions
 
-## First Month
+### Step 7: First Month
 - [ ] Weekly check-ins (can become bi-weekly)
 - [ ] Collect feedback on onboarding experience
 - [ ] Connect with new hire's manager if helpful
@@ -168,7 +178,7 @@ I'd love to hear how things are feeling:
 No pressure for long responses—quick thoughts work great.
 ```
 
-## Measuring Program Success
+### Step 8: Measuring Program Success
 
 Track your buddy program's effectiveness with these metrics:
 
@@ -181,7 +191,7 @@ Track your buddy program's effectiveness with these metrics:
 Create a simple survey to collect feedback:
 
 ```markdown
-## Onboarding Experience Survey (Day 30)
+### Step 9: Onboarding Experience Survey (Day 30)
 
 1. On a scale of 1-10, how prepared did you feel for your role?
 2. How helpful was your buddy? (1-10)
@@ -190,7 +200,7 @@ Create a simple survey to collect feedback:
 5. Any suggestions for improving the buddy program?
 ```
 
-## Automating Buddy Assignment
+### Step 10: Automate Buddy Assignment
 
 For teams using ticketing systems or automation, consider a simple assignment workflow. This Python script demonstrates the concept:
 
@@ -234,12 +244,27 @@ Avoid these common mistakes when implementing your buddy program:
 
 **Do iterate on the program.** Collect feedback from both buddies and new hires quarterly. Update your templates based on real experience.
 
-## Implementing Your Template
+### Step 11: Implementing Your Template
 
 Start small. Pilot your buddy program with one team, gather feedback, refine your templates, then expand. The goal is creating genuine human connection in a remote environment—not bureaucratic overhead.
 
 The best buddy programs feel organic rather than scripted. Your templates provide structure and ensure consistency, but the real value comes from authentic relationships between team members. Focus on matching compatible personalities, setting clear expectations, and giving buddies the freedom to connect naturally.
 ---
+
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
 
 
 ## Frequently Asked Questions

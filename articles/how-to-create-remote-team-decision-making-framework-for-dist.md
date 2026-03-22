@@ -37,7 +37,17 @@ Building an effective decision-making framework for distributed teams requires d
 2.
 - **Use active voice**: "We will..."
 
-## Alternatives Considered
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Alternatives Considered
 | Option | Pros | Cons | Why Not Chosen |
 |--------|------|------|----------------|
 | A     | ...
@@ -51,14 +61,14 @@ In co-located settings, decisions happen informally—over lunch, in hallway con
 
 The core challenge is balancing speed with inclusivity. Teams that over-index on speed make autocratic decisions. Teams that over-index on inclusivity stall from endless discussion. A well-designed framework creates space for both: fast decisions for low-stakes issues, thorough deliberation for high-impact choices.
 
-## The RAPID Framework Adapted for Remote Contexts
+### Step 2: The RAPID Framework Adapted for Remote Contexts
 
 The RAPID framework (Recommend, Agree, Perform, Input, Decide) provides a solid foundation. For distributed teams, map each role to specific async communication channels:
 
 ```python
 # Example: RAPID role assignment in a GitHub issue template
 RAPID_TEMPLATE = """
-## Decision: [Title]
+### Step 3: Decision: [Title]
 
 **Recommend**: @person-or-team
 **Agree**: @person-or-team (must sign off)
@@ -69,7 +79,7 @@ RAPID_TEMPLATE = """
 ## Background
 [Context and why this decision matters]
 
-## Options Considered
+### Step 4: Options Considered
 ### Option A: [Description]
 - Pros: [List]
 - Cons: [List]
@@ -78,16 +88,16 @@ RAPID_TEMPLATE = """
 - Pros: [List]
 - Cons: [List]
 
-## Recommendation
+### Step 5: Recommendation
 [Why Option X is recommended]
 
-## Timeline
+### Step 6: Timeline
 - Decision needed by: [Date]
 - Implementation start: [Date]
 """
 ```
 
-## Decision Triage: Choosing the Right Process
+### Step 7: Decision Triage: Choosing the Right Process
 
 Not every decision needs the same effort. Implement a simple triage system:
 
@@ -109,7 +119,7 @@ Not every decision needs the same effort. Implement a simple triage system:
 
 This tiered approach prevents two common failures: over-processing trivial matters and under-processing critical ones.
 
-## Async Decision Documentation Template
+### Step 8: Async Decision Documentation Template
 
 Create a standardized decision document format your team can use consistently. Here's a practical template:
 
@@ -121,31 +131,31 @@ Create a standardized decision document format your team can use consistently. H
 **Author**: [Name]
 **Decider**: [Name]
 
-## Context
+### Step 9: Context
 What problem or opportunity prompted this decision? What constraints exist?
 
-## Decision
+### Step 10: Decision
 Clear statement of what was decided. Use active voice: "We will..."
 
-## Alternatives Considered
+### Step 11: Alternatives Considered
 | Option | Pros | Cons | Why Not Chosen |
 |--------|------|------|----------------|
 | A     | ...  | ...  | ...            |
 | B     | ...  | ...  | ...            |
 
-## Consequences
+### Step 12: Consequences
 - **Positive**: [Expected benefits]
 - **Negative**: [Known tradeoffs or risks]
 - **Unknown**: [Things we'll learn over time]
 
-## Review Date
+### Step 13: Review Date
 [6 months from decision date for retrospective]
 
 ```
 
 Store these in a searchable location—GitHub issues, a Notion database, or a dedicated decision log. Searchable history prevents重复 decisions and helps new team members understand why things work as they do.
 
-## Voting Mechanisms for Async Consensus
+### Step 14: Voting Mechanisms for Async Consensus
 
 When decisions require broader input, implement structured async voting:
 
@@ -185,12 +195,12 @@ winner = calculate_vote(team_votes)
 
 This approach works well for tool selection, process design, and prioritization exercises.
 
-## Escalation Paths and Time-Bounded Decisions
+### Step 15: Escalation Paths and Time-Bounded Decisions
 
 Prevent decisions from stalling by implementing explicit time limits:
 
 ```markdown
-## Decision Timeline
+### Step 16: Decision Timeline
 
 | Phase | Duration | Action |
 |-------|----------|--------|
@@ -206,7 +216,7 @@ Prevent decisions from stalling by implementing explicit time limits:
 
 Time bounds create urgency while maintaining async compatibility. Team members know they have a window to contribute, and the process doesn't stall indefinitely.
 
-## Implementing the Framework Gradually
+### Step 17: Implementing the Framework Gradually
 
 Start with low-stakes decisions to build muscle memory:
 
@@ -217,7 +227,7 @@ Start with low-stakes decisions to build muscle memory:
 
 Resistance to new processes is normal. Frame the framework as iterative—perfect processes don't exist, and your team will refine the approach over time.
 
-## Common Pitfalls to Avoid
+### Step 18: Common Pitfalls to Avoid
 
 Several patterns undermine decision-making frameworks:
 
@@ -228,7 +238,7 @@ Several patterns undermine decision-making frameworks:
 
 Address these through clear guidelines about when to push back, how to voice dissent constructively, and explicit policies about decision finality.
 
-## Measuring Framework Effectiveness
+### Step 19: Measuring Framework Effectiveness
 
 Track these metrics to gauge whether your framework works:
 
@@ -240,6 +250,21 @@ Track these metrics to gauge whether your framework works:
 Regular review ensures the framework serves the team rather than becoming bureaucratic overhead.
 
 Building a decision-making framework for distributed teams takes deliberate effort, but the payoff is significant: faster decisions, clearer accountability, and team members who trust the process because they understand it. Start simple, iterate based on experience, and remember that the goal is better outcomes, not more documentation.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

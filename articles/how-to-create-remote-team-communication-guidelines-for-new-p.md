@@ -53,7 +53,17 @@ Effective communication guidelines solve three specific challenges for new remot
 2. **Set realistic response time expectations** across time zones
 3. **Create documentation artifacts** that survive beyond any single conversation
 
-## Core Components of Remote Team Communication Guidelines
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of Remote Team Communication Guidelines
 
 Every new remote project needs guidelines covering five categories. Adapt these to your team size and project complexity.
 
@@ -72,7 +82,7 @@ Define which tools handle which communication types. This prevents the common pr
 For developer teams, integrate this matrix into your project README:
 
 ```markdown
-## Communication Channels
+### Step 2: Communication Channels
 
 - **Code Discussion**: GitHub Issues and PRs only
 - **Quick Questions**: #project-name Slack channel
@@ -97,7 +107,7 @@ Key standards to document:
 **Example of a well-structured async update:**
 
 ```markdown
-## Feature: User Authentication Flow
+### Step 3: Feature: User Authentication Flow
 
 **Status**: In Progress
 **Blockers**: None
@@ -170,26 +180,26 @@ New projects generate accumulating knowledge that must be captured. Your guideli
 ```markdown
 # ADR-003: Use PostgreSQL for Primary Data Store
 
-## Status: Accepted
+### Step 4: Status: Accepted
 
-## Context
+### Step 5: Context
 Need persistent storage for user data and session state.
 
-## Decision
+### Step 6: Decision
 We will use PostgreSQL running on AWS RDS.
 
-## Consequences
+### Step 7: Consequences
 - Team needs PostgreSQL experience
 - Migration scripts required for existing data
 - Monthly cost estimate: $X
 
-## Reviewers
+### Step 8: Reviewers
 - @lead-engineer (approved)
 - @devops (approved)
 - @product-manager (approved)
 ```
 
-## Implementing Guidelines for 2026 Projects
+### Step 9: Implementing Guidelines for 2026 Projects
 
 With remote work tools evolving, incorporate these 2026-specific considerations into your guidelines:
 
@@ -236,13 +246,28 @@ communication:
     - related issue links
 ```
 
-## Adapting Guidelines Over Time
+### Step 10: Adapting Guidelines Over Time
 
 Communication guidelines for new projects should include a built-in review cadence. Schedule explicit discussions to adjust norms as the project matures.
 
 Week 1: Confirm guidelines work, make quick adjustments
 End of Month 1: Full review, incorporate lessons learned
 Quarterly: Compare with other projects, share what works
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 

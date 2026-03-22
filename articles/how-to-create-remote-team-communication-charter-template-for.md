@@ -48,7 +48,17 @@ Remote teams face communication challenges that colocated teams never consider. 
 
 A communication charter addresses these issues proactively. Rather than learning lessons through painful miscommunications, your team agrees upfront on conventions that prevent misunderstandings. The charter lives as a reference document—new team members read it during onboarding, and existing members refer to it when disputes arise.
 
-## Core Components of an Effective Charter
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- A computer running macOS, Linux, or Windows
+- Terminal or command-line access
+- Administrator or sudo privileges (for system-level changes)
+- A stable internet connection for downloading tools
+
+
+### Step 1: Core Components of an Effective Charter
 
 Every communication charter should define five key areas: channel selection, response time expectations, decision-making processes, meeting protocols, and escalation paths. We'll examine each with concrete examples.
 
@@ -128,7 +138,7 @@ Remote teams struggle with decision visibility. Who made a choice? Was consensus
 Even async-heavy teams need some synchronous time. Structure it intentionally:
 
 ```markdown
-## Meeting Guidelines
+### Step 2: Meeting Guidelines
 
 **Daily Standup (Optional Async)**
 - Format: Written in Slack, posted by 10 AM local time
@@ -155,7 +165,7 @@ Even async-heavy teams need some synchronous time. Structure it intentionally:
 When async communication fails or issues escalate, team members need clear paths:
 
 ```markdown
-## Escalation Process
+### Step 3: Escalation Process
 
 **Level 1 - Direct Communication**
 - Message the person directly
@@ -175,7 +185,7 @@ When async communication fails or issues escalate, team members need clear paths
 - Reserved for: blocked critical work, conflicts, performance issues
 ```
 
-## Implementing Your Charter
+### Step 4: Implementing Your Charter
 
 Creating the document is only the start. Follow these steps for adoption:
 
@@ -194,7 +204,7 @@ Update your onboarding checklist to include reading the charter. New team member
 **Monthly Review**
 Add a recurring calendar item to review the charter quarterly. Teams evolve, and communication needs change.
 
-## Practical Template Example
+### Step 5: Practical Template Example
 
 Here's a complete starter template you can copy into your project:
 
@@ -204,40 +214,55 @@ Here's a complete starter template you can copy into your project:
 **Last Updated:** [DATE]
 **Team:** [PROJECT NAME]
 
-## Our Communication Principles
+### Step 6: Our Communication Principles
 1. [Principle 1 - e.g., "Default to async"]
 2. [Principle 2 - e.g., "Over-communicate blockers"]
 3. [Principle 3 - e.g., "Respect time zones"]
 4. [Principle 4 - e.g., "Document decisions publicly"]
 
-## Channel Guide
+### Step 7: Channel Guide
 [Insert your channel matrix from above]
 
-## Response Expectations
+### Step 8: Response Expectations
 [Insert your response time table]
 
-## Decision-Making
+### Step 9: Decision-Making
 [Insert your decision authority matrix]
 
-## Meeting Schedule
+### Step 10: Meeting Schedule
 [Insert your meeting guidelines]
 
-## Escalation Path
+### Step 11: Escalation Path
 [Insert your escalation process]
 
-## Agreement
+### Step 12: Agreement
 
 By joining this team, I commit to following this charter and proposing updates when circumstances change.
 
 ```
 
-## Common Pitfalls to Avoid
+### Step 13: Common Pitfalls to Avoid
 
 **Making it too rigid.** A charter should guide communication, not create bureaucracy. If team members spend more time consulting the document than actually communicating, you've overcomplicated it.
 
 **Ignoring time zones.** Explicitly list each team member's timezone and core hours. This prevents accidental message timing that wakes people up or guarantees delayed responses.
 
 **Not enforcing it.** The charter means nothing if nobody references it. During disputes, point to the document. Update it when it proves wrong. Make it alive.
+
+## Troubleshooting
+
+**Configuration changes not taking effect**
+
+Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
+
+**Permission denied errors**
+
+Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
+
+**Connection or network-related failures**
+
+Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
+
 
 ## Frequently Asked Questions
 
