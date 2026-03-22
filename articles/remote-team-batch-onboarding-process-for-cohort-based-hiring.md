@@ -9,7 +9,7 @@ permalink: /remote-team-batch-onboarding-process-for-cohort-based-hiring/
 categories: [guides]
 tags: [remote-work-tools, remote-work, onboarding, batch-onboarding, cohort-hiring, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

@@ -9,7 +9,7 @@ permalink: /remote-sales-team-commission-tracking-tool-for-distributed-s/
 categories: [guides]
 tags: [remote-work-tools, sales, commission-tracking, remote-work, distributed-teams]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 ---

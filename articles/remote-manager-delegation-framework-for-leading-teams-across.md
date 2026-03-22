@@ -8,7 +8,7 @@ author: "theluckystrike"
 permalink: /remote-manager-delegation-framework-for-leading-teams-across/
 categories: [guides]
 reviewed: true
-score: 8
+score: 9
 intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, remote-work]
