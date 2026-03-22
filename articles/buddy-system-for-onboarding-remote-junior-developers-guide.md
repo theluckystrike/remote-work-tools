@@ -15,26 +15,15 @@ tags: [remote-work-tools, remote-work]
 ---
 
 {% raw %}
-
 A buddy system transforms remote onboarding from a solitary experience into a guided journey. When junior developers join a distributed team, they face a unique challenge: figuring out unwritten rules, discovering tools, and building relationships without the casual hallway conversations that office workers take for granted. A well-structured buddy system addresses these gaps by pairing new hires with experienced team members who serve as guides, advocates, and first points of contact.
 
-## Prerequisites
-
-Before you begin, make sure you have the following ready:
-
-- A computer running macOS, Linux, or Windows
-- Terminal or command-line access
-- Administrator or sudo privileges (for system-level changes)
-- A stable internet connection for downloading tools
-
-
-### Step 1: What Makes a Buddy System Effective
+## What Makes a Buddy System Effective
 
 The core principle is simple: assign each new developer a peer-level mentor who is not their manager. This separation matters because it creates a safe space for questions that might feel inappropriate to ask a supervisor. The buddy helps the new hire navigate team culture, explains why things work the way they do, and provides contextual help that documentation cannot cover.
 
 Effective buddy programs share several characteristics. First, buddies receive explicit training on their role rather than being left to figure it out independently. Second, the program has defined boundaries—both parties understand the expected time commitment and duration. Third, check-ins follow a predictable schedule that decreases in frequency over time as the new developer gains independence.
 
-### Step 2: Set Up the Program
+## Setting Up the Program
 
 ### Recruiting and Selecting Buddies
 
@@ -64,26 +53,26 @@ Here's a template for a buddy handoff document:
 ```markdown
 # Buddy Onboarding Guide
 
-### Step 3: New Developer Information
+## New Developer Information
 - Name: [New hire name]
 - Role: [Position]
 - Time zone: [UTC offset]
 - Start date: [Date]
 - First week focus: [Initial projects or learning goals]
 
-### Step 4: Team Context
+## Team Context
 - Standup time: [Time in new hire's timezone]
 - Key communication channels: [#channel1, #channel2]
 - Documentation locations: [Links to wiki, Notion, etc.]
 - Who to ask about [specific areas]: [Team members]
 
-### Step 5: Check-in Schedule
+## Check-in Schedule
 - Week 1: Daily 15-minute calls
 - Week 2-4: Every other day
 - Month 2: Weekly
 - After: As needed
 
-### Step 6: First Week Priorities
+## First Week Priorities
 1. Set up development environment
 2. Complete security onboarding
 3. Review codebase structure
@@ -103,14 +92,14 @@ Check-ins become every other day. The new developer begins working on starter ta
 **Months 2-3: Building Independence**
 Weekly check-ins, then transition to as-needed contact. The buddy remains a resource but no longer proactively reaches out. This encourages the new developer to build broader team relationships.
 
-### Step 7: Communication Strategies for Remote Pairs
+## Communication Strategies for Remote Pairs
 
 ### Async-First Check-ins
 
 Remote buddies benefit from async communication that respects time zones. Use a shared document for weekly updates rather than relying solely on synchronous meetings:
 
 ```markdown
-### Step 8: Weekly Check-in: [Week of date]
+## Weekly Check-in: [Week of date]
 
 ### What I accomplished
 - [Bullet points of progress]
@@ -141,7 +130,7 @@ No question is too small. If you're wondering about something,
 ask in #new-dev-questions. Chances are others have the same question.
 ```
 
-### Step 9: Common Buddy Program Challenges and Solutions
+## Common Buddy Program Challenges and Solutions
 
 **Challenge: New developer feels micromanaged by buddy**
 Solution: Establish clear expectations about independence progression. Week 1 might be 2-3 check-ins daily, but by week 6 should be weekly or less.
@@ -158,7 +147,7 @@ Solution: Cap buddy time at 2-3 hours weekly. If a new developer needs more supp
 **Challenge: New developer feels isolated outside buddy calls**
 Solution: Have team introduce the new developer to 3-5 key people in their first week. Broader integration prevents the buddy relationship from feeling like the only connection.
 
-### Step 10: Measuring Program Success
+## Measuring Program Success
 
 Track both buddy satisfaction and new hire outcomes. Survey buddies after the program ends to identify burnout or unclear expectations. Monitor new hire metrics like:
 
@@ -168,7 +157,7 @@ Track both buddy satisfaction and new hire outcomes. Survey buddies after the pr
 
 A buddy program that works well creates compounding benefits: satisfied new developers become effective team members faster, and former mentees often become future buddies, perpetuating a culture of support.
 
-### Step 11: Common Pitfalls to Avoid
+## Common Pitfalls to Avoid
 
 **Burying buddies under unrealistic time commitments.** Cap buddy duties at 2-3 hours per week to prevent burnout. If a new developer needs more support, involve team leads or hr.
 
@@ -178,7 +167,7 @@ A buddy program that works well creates compounding benefits: satisfied new deve
 
 **Treating buddies as free support.** Recognize buddy contributions in performance reviews or team acknowledgments. The program fails if it becomes seen as uncompensated labor.
 
-### Step 12: Tools and Resources for Buddy Programs
+## Tools and Resources for Buddy Programs
 
 **Shared documents:** Create a "Onboarding Checklist" in Google Docs or Notion for each new hire. Both buddy and new developer can check off items, creating shared visibility. Items include: environment setup, access requests, first PR, first code review, first documentation contribution.
 
@@ -196,7 +185,7 @@ A buddy program that works well creates compounding benefits: satisfied new deve
 
 This handbook prevents each buddy from inventing mentoring from scratch.
 
-### Step 13: Compensating Buddies
+## Compensating Buddies
 
 Many organizations fail to recognize buddy contributions adequately. Consider compensation strategies:
 
@@ -210,7 +199,7 @@ Many organizations fail to recognize buddy contributions adequately. Consider co
 
 A cautionary note: never expect buddying to happen without acknowledging it. "Please mentor this new developer" without visible support guarantees resentment and program failure.
 
-### Step 14: Build Long-term Connection
+## Building Long-term Connection
 
 The buddy relationship often evolves into a lasting professional connection. After the formal program ends, encourage buddies to remain available but shift to peer-level interaction. Some of the most effective engineering teams have senior engineers who maintain mentoring relationships with developers they onboarded years ago.
 
@@ -218,7 +207,7 @@ help this transition by scheduling a "graduation" conversation where buddies and
 
 A successful buddy system creates a template for how the team supports its members. When new developers experience thoughtful onboarding, they internalize the value of helping others and carry that culture forward. Many organizations find that developers who had positive buddy experiences become their best mentors for future new hires.
 
-### Step 15: Measuring Buddy Program Success
+## Measuring Buddy Program Success
 
 Track these metrics after each onboarding:
 
@@ -235,7 +224,7 @@ Organizations implementing strong buddy programs report:
 ---
 
 
-### Step 16: Scaling Buddy Systems for Multiple Simultaneous New Hires
+## Scaling Buddy Systems for Multiple Simultaneous New Hires
 
 If you're hiring rapidly (2-3 developers simultaneously), don't assign all of them to the same buddy. Instead:
 
@@ -245,7 +234,7 @@ If you're hiring rapidly (2-3 developers simultaneously), don't assign all of th
 
 This distributed approach prevents buddy burnout while giving new hires access to more expertise. A new frontend developer might have a frontend engineer as primary buddy, backend engineer as secondary for learning the API layer, and weekly manager check-ins for overall progress assessment.
 
-### Step 17: Remote Buddy Program Logistics
+## Remote Buddy Program Logistics
 
 **Documentation tools:** Use shared Google Docs or Notion for buddy-new hire communication. This creates records you can reference later and helps if either person is out sick.
 
@@ -270,7 +259,7 @@ Track these metrics to improve your program:
 
 If retention is below 75%, your buddy program likely isn't the issue—likely broader culture, compensation, or role fit problems.
 
-### Step 18: Build Culture Through Mentoring
+## Building Culture Through Mentoring
 
 The most valuable outcome of a buddy program isn't the structured onboarding—it's establishing mentoring as a normal part of your culture. New developers who have positive buddy experiences become better mentors themselves.
 
@@ -281,21 +270,6 @@ Create a virtuous cycle:
 4. Your culture becomes "we invest in helping each other"
 
 This cultural reinforcement sustains remote teams through growth and change better than any individual tool or process.
-
-## Troubleshooting
-
-**Configuration changes not taking effect**
-
-Restart the relevant service or application after making changes. Some settings require a full system reboot. Verify the configuration file path is correct and the syntax is valid.
-
-**Permission denied errors**
-
-Run the command with `sudo` for system-level operations, or check that your user account has the necessary permissions. On macOS, you may need to grant terminal access in System Settings > Privacy & Security.
-
-**Connection or network-related failures**
-
-Check your internet connection and firewall settings. If using a VPN, try disconnecting temporarily to isolate the issue. Verify that the target server or service is accessible from your network.
-
 
 ## Frequently Asked Questions
 

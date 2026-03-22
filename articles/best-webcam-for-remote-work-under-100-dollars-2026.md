@@ -11,10 +11,10 @@ tags: [remote-work-tools, tools, remote-work, best-of]
 reviewed: true
 score: 9
 voice-checked: true
-intent-checked: true
----
+intent-checked: true---
 
 {% raw %}
+
 
 Built-in laptop cameras are blurry, have narrow angles, and perform poorly in low light. External webcams transform your video presence in meetings. This guide compares specific models under $100, covering resolution, low-light performance, autofocus speed, audio quality, field of view, and real-world video call performance across Zoom, Teams, and Google Meet.
 

@@ -11,8 +11,7 @@ tags: [remote-work-tools, freelance, developer, toolkit, productivity, apps]
 reviewed: true
 score: 8
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

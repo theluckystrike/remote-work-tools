@@ -13,6 +13,21 @@ intent-checked: true
 voice-checked: true
 tags: [remote-work-tools, best-of]
 ---
+---
+layout: default
+title: "Best Whiteboard Tools for Video Calls"
+description: "A practical guide to the best whiteboard tools for video calls, tailored for developers and power users who need real-time collaboration"
+date: 2026-03-15
+last_modified_at: 2026-03-15
+author: "Remote Work Tools Guide"
+permalink: /best-whiteboard-tools-for-video-calls/
+reviewed: true
+score: 9
+categories: [best-of]
+intent-checked: true
+voice-checked: true
+tags: [remote-work-tools, best-of]
+---
 
 {% raw %}
 

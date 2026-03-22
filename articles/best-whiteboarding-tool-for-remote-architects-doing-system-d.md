@@ -11,8 +11,7 @@ tags: [remote-work-tools, whiteboarding, system-design, remote-work, architectur
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

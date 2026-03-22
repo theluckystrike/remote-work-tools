@@ -287,14 +287,6 @@ Portable white noise speaker (Sonos Move) in backpack. Worked in cafes, trains, 
 ---
 
 
-| Product | Coverage | Filter Type | Noise Level | Price |
-|---|---|---|---|---|
-| Dyson Purifier Hot+Cool | 800 sq ft | HEPA + Carbon | 20-62 dB | $570 |
-| Coway Airmega 400 | 1,560 sq ft | True HEPA | 22-52 dB | $450 |
-| Blueair Blue 3210 | 260 sq ft | HEPASilent | 18-46 dB | $120 |
-| Levoit Core 400S | 403 sq ft | H13 True HEPA | 24-52 dB | $200 |
-| Molekule Air Pro | 1,000 sq ft | PECO + HEPA | 30-60 dB | $500 |
-
 ## Frequently Asked Questions
 
 **Who is this article written for?**

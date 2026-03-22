@@ -11,8 +11,7 @@ tags: [remote-work-tools, engineering, documentation, wiki, design-document, rem
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

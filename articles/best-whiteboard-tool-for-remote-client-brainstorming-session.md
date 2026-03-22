@@ -11,8 +11,7 @@ tags: [remote-work-tools, whiteboard, remote-work, collaboration, brainstorming,
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 {% raw %}
 

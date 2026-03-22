@@ -25,8 +25,7 @@ The core principle of a Zettelkasten is atomicity — each note should contain o
 
 An atomic note in software engineering might look like this:
 
-```markdown
----
+```markdown---
 id: 20260315-debounce-function
 tags: [javascript, patterns, performance]
 created: 2026-03-15

@@ -11,8 +11,7 @@ tags: [remote-work-tools, remote-work, team-building, virtual-events, escape-roo
 reviewed: true
 score: 9
 intent-checked: true
-voice-checked: true
----
+voice-checked: true---
 
 
 {% raw %}

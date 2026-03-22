@@ -13,7 +13,21 @@ categories: [guides]
 intent-checked: true
 tags: [remote-work-tools]
 ---
-
+---
+layout: default
+title: "Document checklist with recommended file names"
+description: "A complete step-by-step guide to the Colombia digital nomad visa application process for software developers in 2026. Learn requirements, documents"
+date: 2026-03-15
+last_modified_at: 2026-03-15
+author: "Remote Work Tools Guide"
+permalink: /colombia-digital-nomad-visa-application-process-for-software/
+reviewed: true
+score: 8
+voice-checked: true
+categories: [guides]
+intent-checked: true
+tags: [remote-work-tools]
+---
 
 To apply for Colombia's digital nomad visa as a software developer, you need proof of remote employment or freelance contracts with foreign clients, a minimum monthly income of approximately $3,000 USD (3x Colombia's minimum wage), health insurance valid in Colombia, and a clean criminal background check. The application is submitted online through the Colombian Ministry of Foreign Affairs portal, processing takes 5-15 business days, costs approximately $177 USD, and grants a two-year renewable stay with access to local banking and healthcare.
 
