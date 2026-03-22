@@ -20,7 +20,6 @@ voice-checked: true
 reviewed: true
 score: 8
 ---
-<<<<<<< HEAD
 
 
 
@@ -261,8 +260,6 @@ score: 8
 
 
 
-=======
->>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 
 
 

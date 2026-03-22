@@ -596,17 +596,9 @@ Start with a small pilot group of willing early adopters. Let them use it for 2-
 
 ## Related Articles
 
-<<<<<<< HEAD
 - [Zoom Plan for a Company with 200 Person Quarterly Meetings](/remote-work-tools/zoom-plan-for-a-company-with-200-person-quarterly-meetings/)
 - [How to Set Up Single Sign-On for Remote Team SaaS Applications](/remote-work-tools/how-to-set-up-single-sign-on-for-remote-team-saas-applicatio/)
 - [How to Scale Remote Team Incident Response Process From Startup to Mid-Size Company](/remote-work-tools/how-to-scale-remote-team-incident-response-process-from-startup-to-mid-size-company/)
 
-=======
-- [Remote Developer Documentation Collaboration Tools for Maint](/remote-work-tools/remote-developer-documentation-collaboration-tools-for-maint/)
-- [Install Storybook for your design system package](/remote-work-tools/how-to-scale-remote-team-design-system-documentation-when-pr/)
-- [Return to Office Employee Survey Template](/remote-work-tools/return-to-office-employee-survey-template-measuring-sentimen/)
-- [Best All-in-One Tool for a 5 Person Remote Nonprofit](/remote-work-tools/best-all-in-one-tool-for-a-5-person-remote-nonprofit/)
-- [Best Retrospective Tool for a Remote Scrum Team of 6](/remote-work-tools/best-retrospective-tool-for-a-remote-scrum-team-of-6/)
->>>>>>> 957a05ec9ec85ac69b64fcda12b5f2b7f2d068ca
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
