@@ -16,6 +16,15 @@ intent-checked: true---
 
 Monitors with local AI processing (like Nanit Pro) detect crying and motion onboard, minimizing bandwidth to 1 Mbps during monitoring—critical when your 100 Mbps connection is already handling Zoom calls, deployments, and IDE operations. Placing monitors on a separate VLAN isolates them from your development network, preventing a compromised device from reaching your workstations, while integration with Home Assistant via ONVIF/MQTT standards lets you build custom alerts that fit your development workflow rather than forcing you into a single app ecosystem.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **The 2.4GHz band offers**: better range but faces more interference from neighboring networks and household devices like microwaves.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **Most modern WiFi monitors**: operate on either the 2.4GHz or 5GHz frequency band.
+- **Developers who use Home**: Assistant or similar platforms should prioritize monitors with strong local integration options.
+- **The best setup allows**: you to focus on your work with confidence, knowing you'll be alerted immediately when attention is needed.
+
 ## Understanding WiFi Monitor Network Requirements
 
 WiFi baby monitors transmit video and audio data over your local network, which means they compete for bandwidth with your work applications. The average 1080p WiFi monitor streams at 2-4 Mbps, while 4K models can consume 8-15 Mbps. For a home office setup, you need to account for this additional traffic alongside Zoom calls, code commits, and CI/CD pipeline downloads.

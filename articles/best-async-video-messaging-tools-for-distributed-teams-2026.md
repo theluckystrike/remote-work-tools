@@ -31,6 +31,15 @@ Async video messaging replaces endless Zoom calls with focused video walkthrough
 
 This guide evaluates leading async video tools and shows how to integrate them into your team's workflow to eliminate unnecessary synchronous meetings.
 
+## Key Takeaways
+
+- **Growth stage (25-100 people)**: Invest in Loom Pro ($12/user/mo) for polish and organization.
+- **Can I use these**: tools with a distributed team across time zones? Most modern tools support asynchronous workflows that work well across time zones.
+- **Poor audio**: Invest in a decent USB microphone ($30-50).
+- **Start with free options**: to find what works for your workflow, then upgrade when you hit limitations.
+- **Async video messaging replaces**: endless Zoom calls with focused video walkthroughs recorded once and watched asynchronously.
+- **This approach scales better**: respects people's calendars, and creates permanent documentation.
+
 ## Why Async Video Matters
 
 Synchronous meetings have fundamental problems for distributed teams:

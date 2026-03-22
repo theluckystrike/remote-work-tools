@@ -29,6 +29,15 @@ voice-checked: true---
 
 Metabase is the strongest pick for most four-person remote growth teams -- it offers self-service query building for non-technical teammates, full SQL access for developers, and scheduled alerts that work across time zones, all on an open-source model. Choose Grafana instead if you need real-time operational metrics alongside business data, or stick with Supabase's built-in analytics if your stack already runs on it and you only need basic visibility.
 
+## Key Takeaways
+
+- **Are there free alternatives**: available? Free alternatives exist for most tool categories, though they typically come with limitations on features, usage volume, or support.
+- **Choose Metabase if your**: team wants self-service analytics without SQL dependency for basic queries, needs scheduled reporting, and prefers an open-source model with community support.
+- **Cohort health (are new**: users better than old ones?) 3.
+- **What is the learning**: curve like? Most tools discussed here can be used productively within a few hours.
+- **Let them use it for 2-3 weeks**: then gather their honest feedback.
+- **Mastering advanced features takes**: 1-2 weeks of regular use.
+
 ## What a Four-Person Remote Growth Team Actually Needs
 
 Before examining tools, clarify what your team actually needs. A remote growth team of four usually operates with someone focused on top-of-funnel acquisition, another on product-led growth and onboarding, a third on engagement and retention, and a fourth owning monetization and experiments. Each persona needs different data views, but they all share common requirements: low-latency data refresh, collaborative annotation, and programmable data pipelines.
