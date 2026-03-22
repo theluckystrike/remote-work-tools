@@ -123,63 +123,64 @@ app_port: 8080
 ## Common Role
 
 ```yaml
-# roles/common/tasks/main.yml---
+# roles/common/tasks/main.yml
+---
 - name: Update apt cache
- ansible.builtin.apt:
- update_cache: true
- cache_valid_time: 3600
- when: ansible_os_family == "Debian"
+  ansible.builtin.apt:
+    update_cache: true
+    cache_valid_time: 3600
+  when: ansible_os_family == "Debian"
 
 - name: Install common packages
- ansible.builtin.package:
- name:
- - curl
- - git
- - htop
- - unzip
- - fail2ban
- - ufw
- state: present
+  ansible.builtin.package:
+    name:
+      - curl
+      - git
+      - htop
+      - unzip
+      - fail2ban
+      - ufw
+    state: present
 
 - name: Set timezone
- community.general.timezone:
- name: UTC
+  community.general.timezone:
+    name: UTC
 
 - name: Configure NTP
- ansible.builtin.template:
- src: ntp.conf.j2
- dest: /etc/ntp.conf
- owner: root
- group: root
- mode: '0644'
- notify: restart ntp
+  ansible.builtin.template:
+    src: ntp.conf.j2
+    dest: /etc/ntp.conf
+    owner: root
+    group: root
+    mode: '0644'
+  notify: restart ntp
 
 - name: Create deploy user
- ansible.builtin.user:
- name: "{{ deploy_user }}"
- shell: /bin/bash
- groups: sudo
- append: true
- create_home: true
+  ansible.builtin.user:
+    name: "{{ deploy_user }}"
+    shell: /bin/bash
+    groups: sudo
+    append: true
+    create_home: true
 
 - name: Add SSH authorized key for deploy user
- ansible.posix.authorized_key:
- user: "{{ deploy_user }}"
- key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
- state: present
+  ansible.posix.authorized_key:
+    user: "{{ deploy_user }}"
+    key: "{{ lookup('file', '~/.ssh/id_ed25519.pub') }}"
+    state: present
 ```
 
 ```yaml
 # roles/common/handlers/main.yml
 ---
 - name: restart ntp
- ansible.builtin.service:
- name: ntp
- state: restarted
+  ansible.builtin.service:
+    name: ntp
+    state: restarted
 
 - name: reload ufw
- community.general.ufw:
- state: reloaded
+  community.general.ufw:
+    state: reloaded
 ```
 
 ## Ansible Vault for Secrets
@@ -216,12 +217,12 @@ Reference vault variables in tasks:
 
 ```yaml
 - name: Configure database connection
- ansible.builtin.template:
- src: database.conf.j2
- dest: /etc/app/database.conf
- mode: '0600'
- vars:
- password: "{{ db_password }}"
+  ansible.builtin.template:
+    src: database.conf.j2
+    dest: /etc/app/database.conf
+    mode: '0600'
+  vars:
+    password: "{{ db_password }}"
 ```
 
 ## Main Playbook
@@ -230,25 +231,25 @@ Reference vault variables in tasks:
 # playbooks/site.yml
 ---
 - name: Apply common configuration to all servers
- hosts: all
- become: true
- vars_files:
- - ../vault/secrets.yml
- roles:
- - common
+  hosts: all
+  become: true
+  vars_files:
+    - ../vault/secrets.yml
+  roles:
+    - common
 
 - name: Configure web servers
- hosts: webservers
- become: true
- roles:
- - nginx
- - app
+  hosts: webservers
+  become: true
+  roles:
+    - nginx
+    - app
 
 - name: Configure database servers
- hosts: dbservers
- become: true
- roles:
- - postgres
+  hosts: dbservers
+  become: true
+  roles:
+    - postgres
 ```
 
 ## Running Playbooks
@@ -301,39 +302,39 @@ ansible web-01.example.com -m setup | grep ansible_distribution
 name: Ansible Deploy
 
 on:
- push:
- branches: [main]
- paths:
- - 'ansible/**'
+  push:
+    branches: [main]
+    paths:
+      - 'ansible/**'
 
 jobs:
- deploy:
- runs-on: ubuntu-latest
- steps:
- - uses: actions/checkout@v4
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
- - name: Install Ansible
- run: pip install ansible ansible-lint
+      - name: Install Ansible
+        run: pip install ansible ansible-lint
 
- - name: Write vault password
- run: echo "${{ secrets.VAULT_PASSWORD }}" > ~/.vault_pass && chmod 600 ~/.vault_pass
+      - name: Write vault password
+        run: echo "${{ secrets.VAULT_PASSWORD }}" > ~/.vault_pass && chmod 600 ~/.vault_pass
 
- - name: Write SSH key
- run: |
- mkdir -p ~/.ssh
- echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
- chmod 600 ~/.ssh/id_ed25519
+      - name: Write SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
 
- - name: Lint playbooks
- run: ansible-lint ansible/playbooks/site.yml
+      - name: Lint playbooks
+        run: ansible-lint ansible/playbooks/site.yml
 
- - name: Run check mode
- run: ansible-playbook ansible/playbooks/site.yml --check --diff
+      - name: Run check mode
+        run: ansible-playbook ansible/playbooks/site.yml --check --diff
 
- - name: Deploy to production
- run: ansible-playbook ansible/playbooks/site.yml
- env:
- ANSIBLE_HOST_KEY_CHECKING: "False"
+      - name: Deploy to production
+        run: ansible-playbook ansible/playbooks/site.yml
+        env:
+          ANSIBLE_HOST_KEY_CHECKING: "False"
 ```
 
 ## Testing Roles with Molecule
@@ -347,15 +348,39 @@ molecule init scenario --driver-name docker
 
 # Run full test cycle
 molecule test
+```
 
+```yaml
 # molecule/default/converge.yml
 ---
 - name: Converge
- hosts: all
- become: true
- roles:
- - role: nginx
+  hosts: all
+  become: true
+  roles:
+    - role: nginx
 ```
+
+Molecule runs your role inside a Docker container and verifies it applies without errors. Add a verify step to assert the intended state:
+
+```yaml
+# molecule/default/verify.yml
+---
+- name: Verify
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Check nginx is running
+      ansible.builtin.service_facts:
+
+    - name: Assert nginx is active
+      ansible.builtin.assert:
+        that:
+          - "'nginx' in services"
+          - "services['nginx'].state == 'running'"
+        fail_msg: "nginx is not running after role apply"
+```
+
+This gives remote team members a way to verify infrastructure changes locally in Docker before pushing to staging — no need for a live server.
 
 ## Idempotency Checks
 
@@ -368,12 +393,13 @@ ansible-playbook playbooks/site.yml | grep -E "changed|failed"
 # Second run should show: changed=0 failed=0
 ```
 
-## Dynamic Inventory with AWS EC2
+## Dynamic Inventory for Cloud Infrastructure
 
-For teams on AWS, hardcoded host inventories break as instances are replaced. Use the EC2 dynamic inventory plugin instead:
+Static `hosts.yml` files break when servers are provisioned and destroyed automatically. For AWS environments, use the EC2 dynamic inventory plugin:
 
 ```bash
 pip install boto3 botocore
+ansible-galaxy collection install amazon.aws
 ```
 
 ```yaml
@@ -382,23 +408,20 @@ plugin: amazon.aws.aws_ec2
 regions:
   - us-east-1
   - eu-west-1
-
 filters:
   tag:Environment: production
   instance-state-name: running
-
 keyed_groups:
-  - key: tags.Role         # groups by Role tag: webservers, dbservers, etc.
+  - key: tags.Role
     prefix: ""
     separator: ""
   - key: placement.region
     prefix: region_
-
 compose:
-  ansible_host: private_ip_address  # use private IPs (assumes VPN or bastion)
+  ansible_host: private_ip_address
 ```
 
-Test it:
+Test and use dynamic inventory:
 
 ```bash
 # List all hosts Ansible would discover
@@ -406,42 +429,90 @@ ansible-inventory -i inventory/production/aws_ec2.yml --list
 
 # Run against a dynamically discovered group
 ansible tag_Role_webserver -i inventory/production/aws_ec2.yml -m ping
+
+# Run a playbook against auto-discovered webservers
+ansible-playbook -i inventory/production/aws_ec2.yml playbooks/site.yml \
+  --limit tag_Role_webserver
 ```
 
 Add a bastion host for servers without public IPs:
 
 ```ini
-# ansible.cfg additions
+# ansible.cfg ssh_connection section
 [ssh_connection]
-ssh_args = -o ProxyJump=bastion.example.com -o StrictHostKeyChecking=no -o ControlMaster=auto -o ControlPersist=60s
+pipelining    = True
+ssh_args      = -o ProxyJump=bastion.example.com -o ControlMaster=auto -o ControlPersist=60s
 ```
 
----
+## AWX for Team-Wide Playbook Execution
 
-## Ansible Tower / AWX for Team Workflows
-
-For larger remote teams, running playbooks directly from each engineer's laptop creates consistency problems — different Python versions, different vault passwords, different inventory files. AWX (the open-source Ansible Tower) centralizes execution:
+For larger remote teams, running playbooks from individual laptops causes consistency issues — different Python versions, different vault passwords in different locations. AWX (open-source Ansible Tower) centralizes execution with a web UI and API:
 
 ```bash
 # Deploy AWX with Docker Compose
 git clone https://github.com/ansible/awx.git
 cd awx
 docker-compose -f tools/docker-compose/_sources/docker-compose.yml up -d
-# Access at http://localhost:8013 (admin/password)
+# Access the UI at http://localhost:8013 (admin/password)
 ```
 
 Key AWX capabilities for distributed teams:
 
-| Feature | Benefit |
-|---------|---------|
-| Credentials vault | Vault passwords, SSH keys stored centrally, not on laptops |
-| Job templates | Consistent playbook invocations with locked inventory/variables |
-| RBAC | Control who can run which playbooks against which environments |
+| Feature | Benefit for Remote Teams |
+|---------|--------------------------|
+| Credentials vault | SSH keys and vault passwords stored centrally, not on laptops |
+| Job templates | Locked playbook+inventory combinations prevent drift |
+| RBAC | Control who runs which playbooks against which environments |
 | Job history | Full audit log: who ran what, when, with what output |
-| Webhooks | Trigger playbooks from GitHub PRs or Slack commands |
-| Notifications | Slack/email on job success/failure |
+| Webhooks | Trigger playbooks automatically from GitHub merges |
+| Notifications | Slack or email alerts on job success or failure |
 
-A typical workflow: the engineer opens a PR with playbook changes, a CI job runs `ansible-lint` and `--check` mode, the team reviews the diff, and on merge AWX automatically runs the playbook against production via webhook.
+A typical team workflow: engineer opens a PR with playbook changes, CI runs `ansible-lint` and `--check` mode, team reviews the diff in the PR, and on merge AWX automatically triggers the playbook against production via GitHub webhook.
+
+---
+
+## Tagging Tasks for Selective Runs
+
+As your playbook library grows, running the full `site.yml` on every change becomes slow. Use tags to run only the relevant parts:
+
+```yaml
+# roles/nginx/tasks/main.yml
+---
+- name: Install nginx
+  ansible.builtin.package:
+    name: nginx
+    state: present
+  tags: [nginx, install]
+
+- name: Configure nginx
+  ansible.builtin.template:
+    src: nginx.conf.j2
+    dest: /etc/nginx/nginx.conf
+  notify: reload nginx
+  tags: [nginx, config]
+
+- name: Enable nginx service
+  ansible.builtin.service:
+    name: nginx
+    enabled: true
+    state: started
+  tags: [nginx, service]
+```
+
+With tags, a config change can be applied in seconds rather than running the full playbook:
+
+```bash
+# Apply only nginx config changes — skip install and service tasks
+ansible-playbook playbooks/site.yml --tags "nginx,config"
+
+# Patch common packages across all servers without touching app config
+ansible-playbook playbooks/site.yml --tags "install" --limit all
+
+# Skip database tasks entirely during a web-only deploy
+ansible-playbook playbooks/site.yml --skip-tags "postgres"
+```
+
+For remote teams, tagging is especially valuable because it enables teammates in different time zones to apply targeted fixes without needing to understand the full playbook tree.
 
 ---
 
@@ -461,5 +532,6 @@ A typical workflow: the engineer opens a PR with playbook changes, a CI job runs
 - [Linux Server Hardening Guide for Remote Developers](/remote-work-tools/linux-server-hardening-remote-developers/)
 - [Remote Work Security Hardening Checklist](/remote-work-tools/remote-work-security-hardening-checklist/)
 - [Best API Key Management Workflow for Remote Development](/remote-work-tools/best-api-key-management-workflow-for-remote-development-team/)
+
 Built by theluckystrike — More at [zovo.one](https://zovo.one)
 {% endraw %}
